@@ -4,6 +4,41 @@
 
 ## Last Updated
 
+**Date**: 2026-10-19
+**Task**: **X-PLANES SERIES UNIFORMITY CYCLE (16 TO 19 OCTOBER).** Committed, NOT pushed, NOT published.
+
+**Push state.** Every commit up to `25fc327` is on `origin/master`. The earlier reports below that say "NOT pushed" were accurate when written and have since been overtaken. This cycle's commit is the only unpushed one.
+
+**The pilot's rulings this cycle, quoted.** Labels "Surname-year". "Hold publication for now." "Fix the stale status files." "A305's equation count is fine." Open Library, no opinion, treated as closed. "Add a history section" to A297. "Retrofit them" for A318 to A338 and the A339 to A368 variants.
+
+**What was done.**
+- **Survey uniformity.** A318 to A368 were brought to the full-reading survey form of A300 and A345. A297 gained "Origins and Eras of the Research Aircraft Programme".
+- **Blind audit and follow-up.** A blind audit of 200 records per article was followed by adjudication and full reading rounds. Validation samples were drawn, and the independent validation round was the last sampling round. A328 had a reading round (6,768 to 6,688 records). A322's sample confirmed 6 of 200, below the threshold.
+- **Hygiene.** Reviews, reference entries of two pages or fewer, notices and second deposits were removed series-wide (BRIEF17 and BRIEF18). Signed AccessScience articles are kept by the byline rule, with OpenAlex as the byline source because Crossref lists no authors for them. Textbook appendix tables follow the page rule. A signed national-biography entry is kept.
+- **Labels.** The surname-year pass was applied. Three bugs in it were found and fixed before writing: lost years, lowercased acronyms, and unsplit report-server names. Every changed label was compared old against new, and 14 wrong labels were corrected against the registry, with overrides so that a re-run keeps them.
+- **Register audit.** The register is attributed to its compiler, Andreas Parsch. Every count is restated on the 539-row copy last updated on 23 August 2026, with its basis. Several superlatives were false and are corrected; the X-57A statement is 328 characters, not 343.
+- **A368 ledger.** It was re-read against the current drafts: 289 stale quotations became 0. The X-62 first flight is now 9 April 1992 (10,658 days).
+- **A349.** The B-52 count now rests on prose only (9 of 52 articles), and the rank sentence is restated (third-lowest of 72).
+- **A298.** Its history is reconciled with A297 and its sources.
+
+**Verification.**
+- Every article prints check5 RESULT PASS.
+- Every offline verifier exits 0 except A327, below. Exit codes come from tmp/fix7/run_verifiers_rc.sh. An earlier runner reported every exit code as 0 because a command substitution reset `$?`, and its results were discarded.
+- `_verify.py` reports 0 errors and 0 warnings.
+- All 72 drafts build in a scratch copy, and `_lib/render.py` finds nothing across 544 pages.
+- All 14,828 new link definitions resolve: DOIs through the doi.org handle API, NTRS records through its API, and web pages read by title. Resolution is not citation verification.
+
+**NEEDS THE PILOT'S DECISION.**
+1. **A327.** The permission system refused the edit that restates its survey figures after three signed AccessScience records were restored. The row should read 286, the total and records 3,807, dated 3,798, and 2015 or later 1,769 (46.6 percent). It was not routed around.
+2. **A366.** Keep or replace the prose-cited editorial `roseredwood_alderman_2008`.
+3. Whether to run a series-wide pass checking every factual sentence for a citation.
+4. One ruling on signed letters and comments, kept in A308 and A309 and dropped in A332.
+5. The second author of AIAA 94-1945 ("He and Ronald 1994" in five drafts). Crossref gives the family name "D", OpenAlex's form is unreliable, and the publisher page refuses requests.
+6. **Push.** This cycle's commit is unpushed.
+
+## Previous Report (2026-10-15)
+
+
 **Date**: 2026-10-15
 **Task**: **X-PLANES EARLY-SURVEY RETROFIT (A297 TO A317) AND X-15 EXPANSION.** Committed, NOT pushed, NOT published.
 

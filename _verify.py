@@ -426,9 +426,11 @@ def check_post(path, text, rep, exemptions=None, is_draft=False):
     # **THE UNIT WORD WAS `records` ONLY, AND EIGHT ARTICLES SAY `works`.** A365 through A368
     # wrote `**N works.**` and A352 through A355 were reshaped to it on 2026-10-03, and a
     # deliberately wrong count in one of those rows passed this check, because the rule never
-    # matched the line. Both words are read now, and `work` for a one-record row.
+    # matched the line. Both words are read now, and `work` for a one-record row. `record` is
+    # read too (2026-10-16): the uniformity retrofit writes one-record rows as `**1 record.**`,
+    # and a rule that skips the singular would leave that row's count unchecked.
     for i, line in enumerate(text.split("\n")):
-        m = re.match(r"^\*\*([\d,]+) (?:records|works?)\.\*\*(.*)$", line)
+        m = re.match(r"^\*\*([\d,]+) (?:records?|works?)\.\*\*(.*)$", line)
         if not m:
             continue
         stated = int(m.group(1).replace(",", ""))

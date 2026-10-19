@@ -16,7 +16,7 @@ This is the sixty-sixth article in the [X-Planes series][related_post_a297_frami
 
 **The programme is named for a bird that its own literature cannot find, and the aircraft carries two complete control systems so that it can be compared with itself.**
 
-The X-65A was allocated on 24 April 2023 to Aurora Flight Sciences, a Boeing subsidiary, with the engines cell reading `1 Williams FJ44-3A` and the sponsor cell reading DARPA, the Defense Advanced Research Projects Agency \[[DOD 4120.15-L Addendum][ref_mds_addendum]\]. The description is one line.
+The X-65A was allocated on 24 April 2023 to Aurora Flight Sciences, a Boeing subsidiary, with the engines cell reading `1 Williams FJ44-3A` and the sponsor cell reading DARPA, the Defense Advanced Research Projects Agency \[[Parsch, DOD 4120.15-L Addendum][ref_mds_addendum]\]. The description is one line.
 
 > Unmanned demonstrator for CRANE (Control of Revolutionary Aircraft with Novel Effectors) program
 
@@ -36,11 +36,11 @@ The questions this article asks are therefore these. **How much control authorit
 
 ## The Register Row, and a Turbofan Described as a Turbojet
 
-The addendum to the joint designation handbook gives the row above and nothing else \[[DOD 4120.15-L Addendum][ref_mds_addendum]\]. **Unlike most of its neighbours the X-65A row carries no note**, so the register's own supplementary apparatus is silent here.
+Andreas Parsch's addendum to DOD 4120.15-L, a compilation of the designations allocated after August 1998 that he publishes at designation-systems.net from Department of Defense sources, gives the row above and nothing else. The compiler notes that the official description of an allocation made after October 2018 is not releasable, and he marks this row's description as his own reading and not official Department of Defense wording \[[Parsch, DOD 4120.15-L Addendum][ref_mds_addendum]\]. **Like most of its recent neighbours the X-65A row carries no note.** Of the 31 X-series rows in the copy the compiler last updated on 23 August 2026, 12 carry a note, and of the eleven allocated in 2018 or later, counting the X-56B whose date the register gives as 2019 with a query mark, only the X-76A row does, so the register's supplementary apparatus is silent here as it is for most recent allocations.
 
 The encyclopedia entry on the aircraft describes it as having a joined tandem wing in a diamond configuration, twin vertical tails, **and a single turbojet engine** \[[Aurora X-65 CRANE][ref_ds_x65]\]. **The engine in the register's own cell is a turbofan.** The test report on that engine by the National Aeronautics and Space Administration, NASA, describes the FJ44-3A as a dual-spool low-bypass-ratio turbofan, certified in 2004 under Federal Aviation Regulations Parts 23 and 25 \[[FJ44 turbofan engine test][ref_fj44_test]\], which was read in full for this article. **A low-bypass turbofan is the nearest thing to a turbojet that a turbofan can be**, so the description is wrong in a forgiving direction rather than a careless one, and it is recorded because the distinction matters to the air budget below.
 
-**And the aircraft's weight is given three ways by two organisations.** DARPA's release says the aircraft is `7,000+` pound in one clause and describes it as a 7,000 pound aircraft in the next \[[DARPA moves forward on the X-65][ref_darpa_news]\]. The contractor's own page says 7,200 pound \[[X-65 experimental aircraft][ref_aurora_x65]\]. **The spread is 200 pound**, which as a share of the lower figure is
+**And the aircraft's weight is given three ways.** DARPA's release says the aircraft is `7,000+` pound \[[DARPA moves forward on the X-65][ref_darpa_news]\], the encyclopedia entry and the Defense News report say 7,000 pound \[[Aurora X-65 CRANE][ref_ds_x65]\] \[[two-year flight delay][ref_defensenews_delay]\], and the contractor's own page says 7,200 pound gross weight \[[X-65 experimental aircraft][ref_aurora_x65]\]. **The spread is 200 pound**, which as a share of the lower figure is
 
 $$ \frac{7{,}200 - 7{,}000}{7{,}000} = 0.0286 , $$
 
@@ -114,13 +114,13 @@ DARPA told a reporter that it chose to strategically pause the X-65's developmen
 
 **So the federal award record, read on this article's own date, shows CRANE as a completed contract with no aircraft.** That is not a defect in the record. **A cost share by a contractor is not federal spending, so a database of federal spending is the wrong instrument to see it with**, and the interesting fact is that the instrument is silent rather than that it is wrong. **A programme can be restructured into a shape that the public record of its funding cannot represent.**
 
-Two adjacent awards are worth naming. **Scientific, engineering and technical assistance support to the DARPA Tactical Technology Office for CRANE was contracted on 20 December 2019**, six months before any performer, through a Navy vehicle, and carried 5,679,994.63 dollars with a de-obligation of 220,000 dollars in September 2024. **The support was bought before the research was.** And the Office of Naval Research funded 1,251,577 dollars of work titled finless unmanned combat air system flight control with active flow control effectors, beginning September 2022, **which is the same idea pursued by a different service at a fiftieth of the cost**.
+Two adjacent awards are worth naming. **Scientific, engineering and technical assistance support to the DARPA Tactical Technology Office for CRANE was contracted on 20 December 2019**, six months before any performer, through a Navy vehicle, and carried 5,679,994.63 dollars with a de-obligation of 220,000 dollars in September 2024. **The support was bought before the research was.** And the Office of Naval Research funded 1,251,577 dollars of work titled finless unmanned combat air system flight control with active flow control effectors, beginning September 2022, **which is the same idea pursued by a different service for 1.33 percent of what the Phase 2 and Phase 3 contract carried** \[[USAspending][ref_usaspending]\].
 
 ## What the Programme's Own Name Costs It
 
 **`CRANE` finds nothing aeronautical in the bibliographic index, and `novel effectors`, the literal phrase in the programme's title, finds molecular biology**, where an effector is a protein that a pathogen injects into a host.
 
-**The phrase that does find this aircraft's prior art is one the programme does not use.** `hingeless control` returns, among others, the experimental development of hingeless aerodynamic control effectors, plasma actuators for hingeless aerodynamic control of an unmanned air vehicle, delta-wing hingeless control by synthetic jet actuation, and system identification of an unmanned aerial vehicle with hingeless control effectors. **That is the X-65's lineage, and it is indexed under a word the programme's own name replaced.** The full measurement is in the source base below.
+**The phrase that does find this aircraft's prior art is one the programme does not use.** `hingeless control` returns, among others, the experimental development of hingeless aerodynamic control effectors \[[Kondor et al 2008][research_kondor_neidhoefer_2008]\], plasma actuators for hingeless aerodynamic control of an unmanned air vehicle \[[Patel et al 2007][research_patel_ng_2007]\], delta-wing hingeless control by synthetic jet actuation \[[Traub et al 2002][research_traub_gilarranz_2002]\], and system identification of an unmanned aerial vehicle with hingeless control effectors \[[Weisman and Valasek 2010][research_weisman_valasek_2010]\]. **That is the X-65's lineage, and it is indexed under a word the programme's own name replaced.** The full measurement is in the source base below.
 
 ## Sizing From First Principles
 
@@ -239,7 +239,7 @@ The standard figure of merit for a blown flow-control device is the momentum coe
 
 $$ J = \dot{m}_j V_j, \qquad C_\mu = \frac{J}{q S} $$
 
-where $J$ is the jet momentum flux in newton. **The numerator is a force and the denominator is a force, which is why the ratio is dimensionless**, and the review this article relies on attributes the precise formulation to Poisson-Quinton \[[Taleghani and Hosseini 2024][research_review_afc_2024]\].
+where $J$ is the jet momentum flux in newton. **The numerator is a force and the denominator is a force, which is why the ratio is dimensionless**, and the review this article relies on attributes the precise formulation to Poisson-Quinton \[[Abdolahipour 2024][research_review_afc_2024]\].
 
 The force the device produces is not that momentum. It is an aerodynamic force increment, obtained because the jet changed where the flow separated. Let $\Delta C_L$ be the resulting lift-coefficient increment, dimensionless, and $\Delta L$ the force increment in newton.
 
@@ -250,6 +250,8 @@ $$ \Delta L = \Delta C_L \, q S $$
 $$ \mathcal{A} = \frac{\Delta L}{\dot{m}_j V_j} = \frac{\Delta C_L \, q S}{C_\mu \, q S} = \frac{\Delta C_L}{C_\mu} $$
 
 **The flight condition cancels completely.** The amplification is the ratio of two dimensionless numbers and it does not care about altitude, speed or area. **A value of one means the device is a rocket, producing exactly the force its own jet reaction would produce and nothing more. A value far above one means the jet is a trigger rather than a force.**
+
+**The rows below are illustrative values chosen to show the shape of the regimes, not measurements.**
 
 | Regime | Lift-coefficient increment | Momentum coefficient | Amplification |
 |---|---|---|---|
@@ -263,7 +265,7 @@ $$ \mathcal{A} = \frac{\Delta L}{\dot{m}_j V_j} = \frac{\Delta C_L \, q S}{C_\mu
 
 $$ \mathcal{A} = \frac{\Delta C_L}{C_\mu} \quad \text{against} \quad \mathcal{A}_{\mathrm{loc}} = \frac{\mathrm{d} \, \Delta C_L}{\mathrm{d} C_\mu} $$
 
-**The review calls the second one the actuation efficiency and reports that it falls through the transition between the two regimes** \[[Taleghani and Hosseini 2024][research_review_afc_2024]\]. The two agree only where the curve passes through the origin with constant slope, which it does not. **This article uses the secant throughout, because the secant is what converts an available momentum into an available force**, and the tangent is what tells a designer whether more air would help.
+**The review calls the second one the actuation efficiency and reports that it falls through the transition between the two regimes** \[[Abdolahipour 2024][research_review_afc_2024]\]. The two agree only where the curve passes through the origin with constant slope, which it does not. **This article uses the secant throughout, because the secant is what converts an available momentum into an available force**, and the tangent is what tells a designer whether more air would help.
 
 **Separation control lives at the top of that table and circulation control lives at the bottom, and the reason is the shape of the underlying curve.** At very small momentum coefficient nothing happens, because the jet is too weak to change where the boundary layer leaves the surface. Above a threshold the lift increment rises steeply, and that is the regime in which amplification is largest. At large momentum coefficient the flow is fully attached, further blowing simply adds circulation, and the returns fall toward unity as the device becomes a thruster. **So there is an optimal momentum coefficient and it is neither small nor large**, which turns the design problem into one of landing in a band rather than of maximising a quantity. Writing $C_{\mu,0}$ for the threshold below which nothing happens and $C_{\mu,1}$ for the one above which the flow is fully attached,
 
@@ -301,7 +303,7 @@ Above the tropopause the temperature is constant and the pressure falls exponent
 
 $$ p\left( h \right) = p_{\mathrm{trop}} \exp\left( - \frac{g_0 \left( h - h_{\mathrm{trop}} \right)}{R \, T_{\mathrm{trop}}} \right), \qquad \rho = \frac{p}{R T}, \qquad a = \sqrt{\gamma R T} $$
 
-**At thirty thousand feet those give 228.714 kelvin, 30,089.6 pascal, 0.458312 kilogram per cubic metre and a speed of sound of 303.174 metre per second**, which agree with the published table to one part in ten thousand or better at five altitudes spanning sea level to twenty kilometres.
+**At thirty thousand feet, taken as a geopotential altitude of 9,144 metre, those give 228.714 kelvin, 30,089.6 pascal, 0.458312 kilogram per cubic metre and a speed of sound of 303.174 metre per second.**
 
 ### The Compressible Identity That Makes the Cancellation Possible
 
@@ -439,7 +441,7 @@ for any reference Mach number $M_0$. **The root is unique below Mach $\sqrt{2}$ 
 | 50 | 2.363 | none | 0.945 | 0.672 | 0.473 | 0.436 |
 | 100 | 4.725 | none | 1.890 | none | 0.945 | 0.672 |
 
-**Take an amplification of 30, which is the strong end of the measured separation-control range, against a conventional surface worth 0.05 in lift coefficient.** The authority ratio at the top of the envelope is 0.567, so **active flow control delivers 56.7 percent of the hinge's authority at Mach 0.7 and falls short by 43.3 percent.** At Mach 0.2 the same hardware delivers 5.15 times the hinge's authority. **The crossover is at Mach 0.485.** With the momentum coefficient and the Mach factor from the tables above,
+**Take an amplification of 30 against a conventional surface worth 0.05 in lift coefficient.** The authority ratio at the top of the envelope is 0.567, so **active flow control delivers 56.7 percent of the hinge's authority at Mach 0.7 and falls short by 43.3 percent.** At Mach 0.2 the same hardware delivers 5.15 times the hinge's authority. **The crossover is at Mach 0.485.** With the momentum coefficient and the Mach factor from the tables above,
 
 $$ \Lambda\left( 0.7 \right) = \frac{30 \times 0.000945066}{0.05} = 0.567 , \qquad \Lambda\left( 0.2 \right) = 0.567 \times \frac{G\left( 0.2 \right)}{G\left( 0.7 \right)} = 0.567 \times \frac{25.7070}{2.8308} = 5.15 , \qquad G\left( M_{\times} \right) = \frac{0.05}{30} \cdot \frac{2.8308}{0.000945066} = 4.992 , $$
 
@@ -455,11 +457,11 @@ Inverting the ratio gives the amplification required rather than assumed.
 
 $$ \mathcal{A}_{\mathrm{req}} = \frac{\Delta C_{L,\mathrm{conv}}}{C_\mu} $$
 
-At the reference condition the momentum coefficient is 0.000945, so **matching a conventional surface worth 0.02 needs an amplification of 21.2, matching one worth 0.05 needs 52.9, and matching one worth 0.10 needs 105.8.** The measured range for separation control spans roughly ten to thirty. **So the arithmetic says this class of system can replace a weak control surface at cruise and cannot replace a strong one**, which is a quantitative version of exactly the claim the programme exists to test.
+At the reference condition the momentum coefficient is 0.000945, so **matching a conventional surface worth 0.02 needs an amplification of 21.2, matching one worth 0.05 needs 52.9, and matching one worth 0.10 needs 105.8.** **Which of those is reachable is the open question, and the published record brackets it rather than settling it.** The review's summary of separation-control studies reports a gain in lift of 53 percent on a flapped NACA 0015 with its flap at 35 degrees at a momentum coefficient of 0.3 percent, and gains in maximum lift of 12 to 35 percent at coefficients of 0.082 to 0.14 percent \[[Abdolahipour 2024][research_review_afc_2024]\]. **The review gives those gains relative to each baseline and not as increments, so the amplification they imply is an inference**, and on a baseline lift coefficient near one it exceeds a hundred in every one of those cases. **So the arithmetic says this class of system can replace a weak control surface at cruise at any amplification the literature suggests, and can replace a strong one only if the amplification at cruise reaches the hundred that those low-speed experiments imply**, which is a quantitative version of exactly the claim the programme exists to test.
 
 ### The Reference Area Is a Choice, the Force Is Not
 
-**The denominator of the momentum coefficient is a convention, and the literature says so in the same breath as it defines the quantity.** The review attributes the precise formulation to Poisson-Quinton and writes the denominator as the free-stream dynamic pressure times a reference area \[[Taleghani and Hosseini 2024][research_review_afc_2024]\]. **Which reference area is the author's choice, and the choice decides what question the number answers.**
+**The denominator of the momentum coefficient is a convention, and the literature says so in the same breath as it defines the quantity.** The review attributes the precise formulation to Poisson-Quinton and writes the denominator as the free-stream dynamic pressure times a reference area \[[Abdolahipour 2024][research_review_afc_2024]\]. **Which reference area is the author's choice, and the choice decides what question the number answers.**
 
 An effector does not act on the whole wing. It acts on the region whose separation behaviour it changes. Let $S_\ell$ be that area in square metre, $C_{\mu,\ell}$ the local momentum coefficient, dimensionless, and $\kappa$ the concentration factor, dimensionless.
 
@@ -503,7 +505,7 @@ $$ C_\mu^{\,1} = \frac{0.000945066}{0.08} = 0.0118133 , \qquad \frac{0.0008}{0.0
 
 ### Against the Thresholds the Literature Reports, and the One That Matters
 
-**The review reports a measured lift response at a momentum coefficient of 0.08 percent and the regime boundary at three to five percent** \[[Taleghani and Hosseini 2024][research_review_afc_2024]\], and the table below sets this aircraft's wing-referenced figure against each reported threshold.
+**The review reports a measured lift response at a momentum coefficient of 0.08 percent and the regime boundary at three to five percent** \[[Abdolahipour 2024][research_review_afc_2024]\], and the table below sets this aircraft's wing-referenced figure against each reported threshold.
 
 The regime boundary is defined phenomenologically as the coefficient that just suffices to suppress separation completely, and the transition across it is gradual, with the fall in actuation efficiency noted in the section on the momentum coefficient. **The framing of a curve with a threshold, a favourable band and a saturation is therefore the literature's and not this article's.**
 
@@ -515,9 +517,9 @@ The regime boundary is defined phenomenologically as the coefficient that just s
 | the coefficient that just suffices to suppress separation completely | 3.00 percent | 0.0315 | 31.74 | 0.504 | 0.0360 |
 | the same, upper end of the reported range | 5.00 percent | 0.0189 | 52.91 | 0.302 | 0.0216 |
 
-**Those thresholds come from experiments at Reynolds numbers of twenty-three thousand to six hundred thousand, and this aircraft flies at eleven million.** The comparison is not wrong but it is not the sharpest one available, and the sharpest one is in the section below on Reynolds number, where a report that tested the method at this aircraft's own Reynolds number quotes the coefficients it used. **Against that report the bleed budget is inside the demonstrated range rather than short of it.**
+**Those thresholds come from experiments at Reynolds numbers of twenty-three thousand to six hundred thousand, and this aircraft flies at eleven million** \[[Abdolahipour 2024][research_review_afc_2024]\]. The comparison is not wrong but it is not the sharpest one available, and the sharpest one is in the section below on Reynolds number, where a report that tested the method at this aircraft's own Reynolds number quotes the coefficients it used. **Against that report the bleed budget is inside the demonstrated range rather than short of it.**
 
-**One of the low-Reynolds thresholds carries a warning worth keeping whatever the scale.** A numerical study of momentum injection on a NACA 0012 found the flow separated below a modified coefficient of 1.5 percent, transitional to 2 percent and reattached above, **and reported that below the threshold the control injection decreased the lift relative to the uncontrolled case.** Blowing below threshold is not merely ineffective. **It can be worse than nothing**, because low-momentum air added to a boundary layer reduces the momentum that boundary layer carries. **That is a statement about a mechanism rather than about a Reynolds number**, and it is the reason the velocity ratio below is a condition and not a preference.
+**One of the low-Reynolds thresholds carries a warning worth keeping whatever the scale.** A numerical study of momentum injection on a NACA 0012 found the flow separated below a modified coefficient of 1.5 percent, transitional to 2 percent and reattached above, **and reported that below the threshold the control injection decreased the lift relative to the uncontrolled case** \[[Abdolahipour 2024][research_review_afc_2024]\]. Blowing below threshold is not merely ineffective. **It can be worse than nothing**, because low-momentum air added to a boundary layer reduces the momentum that boundary layer carries. **That is a statement about a mechanism rather than about a Reynolds number**, and it is the reason the velocity ratio below is a condition and not a preference.
 
 ### A Force Is Not a Moment, and the Moment Arm Is Where Control Lives
 
@@ -540,7 +542,7 @@ $$ \mathcal{A} J = 30 \times 156.06 = 4{,}682 , \qquad \mathcal{M} = 4{,}682 \ti
 
 ### The Velocity Ratio, Which the Momentum Coefficient Conceals
 
-**The review cautions explicitly against the use this article has been making of the momentum coefficient.** It notes that the coefficient is not an appropriate parameter for comparing the benefits of flow control across different settings and configurations, because many combinations of mass flow and jet velocity give the same value, and that the parameter which separates them is the velocity ratio \[[Taleghani and Hosseini 2024][research_review_afc_2024]\].
+**The review cautions explicitly against the use this article has been making of the momentum coefficient.** It notes that the coefficient is not an appropriate parameter for comparing the benefits of flow control across different settings and configurations, because many combinations of mass flow and jet velocity give the same value, and that the parameter which separates them is the velocity ratio \[[Abdolahipour 2024][research_review_afc_2024]\].
 
 Let $\mathrm{VR}$ be the jet velocity ratio, dimensionless, with $V_\infty$ the free-stream velocity in metre per second.
 
@@ -558,7 +560,7 @@ A choked orifice passes a mass flow set by its area and its plenum conditions. L
 
 $$ \dot{m}_j = A^{*} \, \frac{p_t}{\sqrt{T_t}} \sqrt{\frac{\gamma}{R}} \left( \frac{\gamma+1}{2} \right)^{-\frac{\gamma+1}{2\left(\gamma-1\right)}} $$
 
-The constant evaluates to 0.040415 in square-root kelvin second per metre, against the textbook 0.0404. **Inverting it is what the table below actually computes.**
+The constant evaluates to 0.040415 in square-root kelvin second per metre. **Inverting it is what the table below actually computes.**
 
 $$ A^{*} = \frac{\dot{m}_j \sqrt{T_t}}{p_t} \left[ \sqrt{\frac{\gamma}{R}} \left( \frac{\gamma+1}{2} \right)^{-\frac{\gamma+1}{2\left(\gamma-1\right)}} \right]^{-1} \; \propto \; \frac{1}{p_t} $$
 
@@ -639,7 +641,7 @@ The fluid-mechanical frequency is set by the convective time over the surface be
 
 $$ F^{+} = \frac{f_e \, \bar{c}}{V_\infty}, \qquad f_e = \frac{F^{+} V_\infty}{\bar{c}} $$
 
-**The band is not this article's guess.** A comprehensive analysis of airfoil flow-control studies reports that in the majority of cases the optimal reduced frequency for controlling post-stall separation falls between 0.3 and 4, and the same range applies to an excited shear layer and to a deflected flap \[[Taleghani and Hosseini 2024][research_review_afc_2024]\]. **Individual optima reported in that review cluster near unity**, at 0.65, 0.8, 0.85, 1.284, 1.3 and 1.5 in six separate studies, with one at 6 where the target was a separation bubble. **There is also evidence that reduced frequencies of ten and twenty work**, which the review attributes to a different group and explains by the spread of surface curvature, upstream conditions and excitation method across experiments.
+**The band is not this article's guess.** A comprehensive analysis of airfoil flow-control studies reports that in the majority of cases the optimal reduced frequency for controlling post-stall separation falls between 0.3 and 4, and the same range applies to an excited shear layer and to a deflected flap \[[Abdolahipour 2024][research_review_afc_2024]\]. **Individual optima reported in that review cluster near unity**, at 0.65, 0.8, 0.85, 1.284, 1.3 and 1.5 in six separate studies, with one at 6 where the target was a separation bubble. **There is also evidence that reduced frequencies of ten and twenty work**, which the review attributes to a different group and explains by the spread of surface curvature, upstream conditions and excitation method across experiments.
 
 At a reference chord of 1.750 metre, which follows from the mid-sweep wing area and the published span, the band maps onto the following frequencies.
 
@@ -660,7 +662,7 @@ At a reference chord of 1.750 metre, which follows from the mid-sweep wing area 
 
 ### The Planform, and Why There Are Four Wings
 
-The aircraft is described as a joined tandem wing in a diamond configuration with twin vertical tails \[[Aurora X-65 CRANE][ref_ds_x65]\], as having a distinctive diamond-like wing shape chosen to maximise what can be learned about active flow control at full scale \[[DARPA moves forward on the X-65][ref_darpa_news]\], and as having a triangular wing design that enables testing across multiple wing sweeps, with four wings of varying sweep angle and replaceable outboard panels \[[X-65 experimental aircraft][ref_aurora_x65]\]. **Three descriptions of one planform, from two organisations, in three vocabularies.**
+The aircraft is described as a joined tandem wing in a diamond configuration with twin vertical tails \[[Aurora X-65 CRANE][ref_ds_x65]\], as having a distinctive diamond-like wing shape chosen to maximise what can be learned about active flow control at full scale \[[DARPA moves forward on the X-65][ref_darpa_news]\], and as having a triangular wing design that enables testing across multiple wing sweeps, with four wings of varying sweep angle and replaceable outboard panels \[[X-65 experimental aircraft][ref_aurora_x65]\]. **Three descriptions of one planform, from three sources, in three vocabularies.**
 
 **The four wing sets are the part that follows from the research question rather than from aerodynamics.** A flow-control effector's effectiveness depends on the pressure gradient it works against, and the pressure gradient over a swept wing depends on the sweep. **So sweep is the independent variable the experiment most wants to vary and the one a fixed airframe cannot vary**, which is why the aircraft was built to have its outboard wings changed.
 
@@ -739,7 +741,7 @@ $$ N_2 = n_a \left( n + \binom{n}{2} \right) = n_a \left( n + \frac{n \left( n -
 
 ### Twenty-Eight Effectors on Three Axes Is an Allocation Problem
 
-**With both sets of effectors available the aircraft has twenty-eight control effectors and three axes to command, so it is over-actuated by a factor approaching ten.** That is not a nuisance. It is a recognised problem with a literature of its own, in which a control allocator maps a demanded moment onto a redundant effector set subject to rate, position and now mass-flow constraints.
+**With both sets of effectors available the aircraft has twenty-eight control effectors and three axes to command, so it is over-actuated by a factor approaching ten.** That is not a nuisance. It is a recognised problem with a literature of its own \[[Bodson 2000][research_bodson_2000]\] \[[Benson and Orr][research_billbenson_jeborr]\], in which a control allocator maps a demanded moment onto a redundant effector set subject to rate, position and now mass-flow constraints.
 
 **The problem has a standard form.** Let $\mathbf{u}$ be the vector of effector demands, dimensionless and of length $n_e$, $\mathbf{B}$ the control effectiveness matrix of three rows and $n_e$ columns, and $\mathbf{m}$ the demanded moment vector in newton metre.
 
@@ -790,7 +792,7 @@ $$ \lim_{n_e \to \infty} \frac{\operatorname{area} \mathcal{H}}{\operatorname{ar
 
 **On this article's dateline the X-65A has not flown, has not been rolled out, and its fuselage is not finished.**
 
-The record of what was planned is as follows. Fabrication was under way at facilities in West Virginia and Mississippi by January 2024, rollout was scheduled for early 2025, and first flight for the summer of the same year \[[DARPA moves forward on the X-65][ref_darpa_news]\]. **Both dates passed.** DARPA paused the programme early in 2025 because the cost of producing the prototype exceeded expectations, restructured it into a partnership in which the contractor became a co-investor, finalised that arrangement in August 2025, and now expects ground testing in late 2026 or early 2027 and first flight in late 2027 \[[two-year flight delay][ref_defensenews_delay]\]. **The fuselage was expected to be complete in January 2026.** The aircraft is being built in Bridgeport, West Virginia.
+The record of what was planned is as follows. Fabrication was under way at facilities in West Virginia and Mississippi by January 2024 \[[two-year flight delay][ref_defensenews_delay]\], rollout was scheduled for early 2025, and first flight for the summer of the same year \[[DARPA moves forward on the X-65][ref_darpa_news]\]. **Both dates passed.** DARPA paused the programme early in 2025 because the cost of producing the prototype exceeded expectations, restructured it into a partnership in which the contractor became a co-investor, finalised that arrangement in August 2025, and now expects ground testing in late 2026 or early 2027 and first flight in late 2027 \[[two-year flight delay][ref_defensenews_delay]\]. **The fuselage was expected to be complete in January 2026.** The aircraft is being built in Bridgeport, West Virginia \[[two-year flight delay][ref_defensenews_delay]\].
 
 **The slip is 30 months against the schedule stated when the build contract was announced**, which is seven years after the first CRANE contracts and 28 years after the programme its own manager named as its ancestor.
 
@@ -826,7 +828,7 @@ $$ \sum_{2020}^{2025} r = 196.507 , \qquad \sum_{2020}^{2025} o = 175.416 , \qqu
 
 ### The Programme Moved Programme Elements
 
-Through fiscal year 2025 CRANE was funded in programme element 0603286E, Advanced Aerospace Systems. **From fiscal year 2026 it is funded in programme element 0603468E, Advanced Complex Systems**, and both books state the transfer explicitly \[[DARPA RDT&E justification, PB2026][ref_darpa_rdte_2026]\]. **An aircraft programme was moved out of the aerospace line and into the complex-systems line.**
+Through fiscal year 2025 CRANE was funded in programme element 0603286E, Advanced Aerospace Systems. **From fiscal year 2026 it is funded in programme element 0603468E, Advanced Complex Systems**, and the book's exhibits for both programme elements state the transfer explicitly \[[DARPA RDT&E justification, PB2026][ref_darpa_rdte_2026]\]. **An aircraft programme was moved out of the aerospace line and into the complex-systems line.**
 
 ### The Promises, Which Slipped Two Fiscal Years Across Four Books
 
@@ -875,97 +877,152 @@ Through fiscal year 2025 CRANE was funded in programme element 0603286E, Advance
 
 **The first is the contracting arrangement.** A DARPA technology demonstrator in which the contractor becomes a co-investor to complete the article is not the usual shape, and the agency's own account of why is that the new structure gets costs back to an affordable rate for the government, with the contractor taking over the platform for future test and development once the hard technical challenge is demonstrated \[[two-year flight delay][ref_defensenews_delay]\]. **The aircraft is to outlive the programme as a test asset**, which the programme manager said at the outset was a design goal and which the modular wing sets exist to serve \[[DARPA moves forward on the X-65][ref_darpa_news]\].
 
-**The second is that the aircraft became the reason to hold the designation.** The X-65A designation was allocated in April 2023, between the Phase 2 award and the Phase 3 award, and the register carries it while the aircraft does not exist. **This series has now met several designations allocated to vehicles that never flew and one allocated to a vehicle that was never built.** The X-65A is a different case again. **It is allocated to a vehicle that is being built, slowly, with a first flight four and a half years after its designation.**
+**The second is that the aircraft became the reason to hold the designation.** The X-65A designation was allocated in April 2023, between the Phase 2 award and the Phase 3 award, and the register carries it while the aircraft does not exist. **It is allocated to a vehicle that is being built, slowly, with a first flight four and a half years after its designation.**
 
 ## The Contemporary Literature
 
-The survey behind this article holds **3,611 records** after de-duplication and the removal of records that are not works, drawn from two report registries and a bibliographic index of journal and conference records. **1,437 of them, 39.8 percent, are report primaries**, meaning items served by the National Aeronautics and Space Administration's technical reports server or registered under the Defense Technical Information Center's prefix, and the remaining 2,174 are journal and conference records. 3,477 records carry a usable year, running from 1927 to 2027 with a median of 2007. **1,241 of those, 35.7 percent, predate the year 2000, and 1,066, or 30.7 percent, are 2015 or later.**
+| Cluster | Records |
+|---|---|
+| The momentum coefficient itself, which is almost never in a title | 13 |
+| Control without a hinge, which is this aircraft's actual prior art | 81 |
+| Allocating a demand across more effectors than axes | 41 |
+| The devices, from piezoelectric diaphragms to fluidic oscillators | 814 |
+| Blowing, the Coanda surface and the jet flap | 750 |
+| Separation and its control, which is what the effectors do | 207 |
+| Controlling a vortex, including the forebody jets that flew first | 32 |
+| Where the air comes from, and what taking it costs | 43 |
+| Reynolds number, and why a tunnel is not an aeroplane | 111 |
+| Active flow control as a subject in its own right | 275 |
+| Joined, tandem, diamond and tailless, and controlling them | 351 |
+| The mechanical control system this aircraft proposes to delete | 87 |
+| Identifying an aircraft from its own flight data | 186 |
+| Demonstrators, research aircraft and the practice of flying one | 131 |
+| Jets in a crossflow | 81 |
+| Wall jets and curved wall jets | 69 |
+| Shear layers, receptivity and periodic excitation | 30 |
+| This programme and the programme it descends from | 2 |
+| The medium, admitted by the shared atmosphere family alone | 1 |
+| **Total** | **3,305** |
 
-**The heaviest decade is the 2010s, with 927 records, 26.7 percent of the dated set**, and the decade distribution has a second mass in the 1970s and 1980s which is the boundary-layer-control and circulation-control era this subject keeps returning to.
-
-| Decade | Records | Share of the dated set |
-|---|---|---|
-| 1920s | 2 | 0.1 percent |
-| 1930s | 3 | 0.1 percent |
-| 1940s | 29 | 0.8 percent |
-| 1950s | 69 | 2.0 percent |
-| 1960s | 79 | 2.3 percent |
-| 1970s | 371 | 10.7 percent |
-| 1980s | 335 | 9.6 percent |
-| 1990s | 353 | 10.2 percent |
-| 2000s | 750 | 21.6 percent |
-| 2010s | 927 | 26.7 percent |
-| 2020s | 559 | 16.1 percent |
-
-**Every record in the survey is cited below.** The clusters are ordered with the specific before the general ones they are special cases of, because a record matching several clusters is listed under the first, and a broad cluster placed early would take the records a narrow one exists for.
+**Every research record in the survey is cited in exactly one cluster below.** The clusters run from the specific to the general, so a record that fits a narrow cluster is listed there rather than under the broader one it is also a case of.
 
 ### The momentum coefficient itself, which is almost never in a title
 
-**17 records.** \[[Wong, Norman D 1957][research_wongnormand_1957]\] \[[Davenport, Edwin E 1957][research_davenportedwine_1957]\] \[[Fournier, Paul G. 1959][research_fournierpaulg_1959]\] \[[Cassel et al 1969][research_cassel_durando_1969]\] \[[Giragosian 1981][research_giragosian_1981]\] \[[Maughmer, Mark D. et al 1990][research_maughmermarkd_ozoroskil_1990]\] \[[Scallion, William I. 1999][research_scallionwilliami_1999]\] \[[Goodfellow et al 2011][research_goodfellow_yarusevych_2011]\] \[[Wang et al 2011][research_wang_wu_2011]\] \[[Orazi et al 2011][research_orazi_lasagna_2011]\] \[[Zhou et al 2017][research_zhou_wang_2017]\] \[[Saadi and Bahi 2018][research_saadi_bahi_2018]\] \[[Liu et al 2020][research_liu_luo_2020]\] \[[Abbasi 2022][research_abbasi_2022]\] \[[Xu et al 2025][research_xu_lavoie_2025]\] \[[Zhou et al 2025][research_zhou_luo_2025]\] \[[Müller et al 2026][research_muller_schesny_2026]\]
+**The parameter this article's identity is built on.** Titles that name the momentum coefficient, and titles on the blowing parameters and the actuation efficiency it summarises.
+
+**13 records.** \[[Goodfellow et al 2011][research_goodfellow_yarusevych_2011]\] \[[Orazi et al 2011][research_orazi_lasagna_2011]\] \[[Wang et al 2011][research_wang_wu_2011]\] \[[Goodfellow et al 2013][research_goodfellow_2013]\] \[[Zhou et al 2017][research_zhou_wang_2017]\] \[[Saadi and Bahi 2018][research_saadi_bahi_2018]\] \[[Liu et al 2020][research_liu_luo_2020]\] \[[Abbasi 2022][research_abbasi_2022]\] \[[Otto et al 2022][research_otto_2022]\] \[[Reddy and Woszidlo 2024][research_reddy_woszidlo_2024]\] \[[Xu et al 2025][research_xu_lavoie_2025]\] \[[Zhou et al 2025][research_zhou_luo_2025]\] \[[Müller et al 2026][research_muller_schesny_2026]\]
 
 ### Control without a hinge, which is this aircraft's actual prior art
 
-**86 records.** \[[Weiss 1969][research_weiss_1969]\] \[[Kuczynski, W. A. and Sissingh, G. J. 1972][research_kuczynskiwa_sissinghgj_1972]\] \[[Haslam 1977][research_haslam_1977]\] \[[Ostroff, A. J. 1985][research_ostroffaj_1985]\] \[[Goodrich, Kenneth H. and Sliwa, Steven M. 1987][research_goodrichkennethh_sliwastevenm_1987]\] \[[Goodrich, Kenneth H. et al 1989][research_goodrichkennethh_sliwastevenm_1989]\] \[[Maughmer, Mark D. 1989][research_maughmermarkd_1989]\] \[[Bauer, Steven X. S. and Hemsch, Michael J. 1992][research_bauerstevenxs_hemschmichaelj_1992]\] \[[Wood, Richard M. et al 1992][research_woodrichardm_banksdanielw_1992]\] \[[Bauer, Steven X. S. and Wood, Richard M. 1994][research_bauerstevenxs_woodrichardm_1994]\] \[[Friedmann et al 1994][research_friedmann_yuan_1994]\] \[[Wood, Richard M. et al 1994][research_woodrichardm_banksdanielw_1994]\] \[[Wing, David J. 1994][research_wingdavidj_1994]\] \[[Durham and Bordignon 1995][research_durham_bordignon_1995]\] \[[Shang and Hodges 1996][research_shang_hodges_1996]\] \[[Pedreiro, Nelson 1997][research_pedreironelson_1997]\] \[[Wing, David J. and Giuliano, Victor J. 1997][research_wingdavidj_giulianovictorj_1997]\] \[[Barber, Edward L. et al 1997][research_barberedwardl_alvifarrukh_1997]\] \[[Gillard 1998][research_gillard_1998]\] \[[Wood, Richard M. and Bauer, Steven X. S. 1999][research_woodrichardm_bauerstevenxs_1999]\] \[[Banks, Daniel W. et al 1999][research_banksdanielw_woodrichardm_1999]\] \[[Gilyard, Glenn B. 1999][research_gilyardglennb_1999]\] \[[Buffington 1999][research_buffington_1999]\] \[[Buffington 1999][research_buffington_1999_b]\] \[[Stable multiple model adaptive 1999][research_stable_multiple_1999]\] \[[Deere, K. A. 2000][research_deereka_2000]\] \[[Addington and Myatt 2000][research_addington_myatt_2000]\] \[[Erickson, Gary E. 2000][research_ericksongarye_2000]\] \[[Moeller and Rediniotis 2000][research_moeller_rediniotis_2000]\] \[[Boskovic and Mehra 2001][research_boskovic_mehra_2001]\] \[[Hunter, Craig A. et al 2001][research_huntercraiga_vikensallya_2001]\] \[[Steven X S Bauer and Richard M Wood 2001][research_stevenxsbauer_richardmwood_2001]\] \[[Wood, Richard M. 2002][research_woodrichardm_2002]\] \[[Traub et al 2002][research_traub_gilarranz_2002]\] \[[Ngo and Doman 2002][research_ngo_doman_2002]\] \[[Moeller and Rediniotis 2002][research_moeller_rediniotis_2002]\] \[[Tinetti, Ana F. et al 2002][research_tinettianaf_kellyjeffreyj_2002]\] \[[Bauer, Steven X. S. and Wood, Richard M. 2003][research_bauerstevenxs_woodrichardm_2003]\] \[[Deere, Karen et al 2003][research_deerekaren_berrierbobbyl_2003]\] \[[Erickson, Gary E. 2003][research_ericksongarye_2003]\] \[[Waithe, Kenrick A. and Deere, Karen A. 2003][research_waithekenricka_deerekarena_2003]\] \[[Chudoba and Cook 2003][research_chudoba_cook_2003]\] \[[Deere, Karen A. 2003][research_deerekarena_2003]\] \[[Miller et al 2004][research_miller_traub_2004]\] \[[Raney, David L. et al 2004][research_raneydavidl_cabellrandolphh_2004]\] \[[Deere, Karen A. et al 2005][research_deerekarena_berrierbobbyl_2005]\] \[[Patel et al 2005][research_patel_sowle_2005]\] \[[Flamm, Jeffrey D. et al 2006][research_flammjeffreyd_deerekarena_2006]\] \[[Liu et al 2006][research_liu_ciuryla_2006]\] \[[Patel et al 2006][research_patel_ng_2006]\] \[[Patel et al 2006][research_patel_sowle_2006]\] \[[Kutay et al 2007][research_kutay_culp_2007]\] \[[Oppenheimer and Doman 2007][research_oppenheimer_doman_2007]\] \[[Deere, Karen A. et al 2007][research_deerekarena_flammjeffreyd_2007]\] \[[Flamm, Jeffrey D. et al 2007][research_flammjeffreyd_deerekarena_2007]\] \[[Staelens et al 2007][research_staelens_blackwelder_2007]\] \[[Patel et al 2007][research_patel_ng_2007]\] \[[Zhang et al 2007][research_zhang_suresh_2007]\] \[[Boskovic et al 2007][research_boskovic_prasanth_2007]\] \[[Lechevin et al 2007][research_lechevin_rabbath_2007]\] \[[Kondor et al 2008][research_kondor_neidhoefer_2008]\] \[[Neidhoefer et al 2009][research_neidhoefer_ryan_2009]\] \[[Wang et al 2010][research_wang_li_2010]\] \[[Favaregh 2010][research_favaregh_2010]\] \[[Glezer et al 2010][research_glezer_allen_2010]\] \[[Weisman and Valasek 2010][research_weisman_valasek_2010]\] \[[Turner, Travis L. 2011][research_turnertravisl_2011]\] \[[Johnson et al 2011][research_johnson_chowdhary_2011]\] \[[White, Edward V. et al 2015][research_whiteedwardv_kapaniarakeshk_2015]\] \[[Kazarin et al 2017][research_kazarin_mackunis_2017]\] \[[Park et al 2017][research_park_jo_2017]\] \[[Erickson, Gary E. 2017][research_ericksongarye_2017]\] \[[Warsop and Crowther 2018][research_warsop_crowther_2018]\] \[[Matamoros and de Visser 2018][research_matamoros_devisser_2018]\] \[[Acheson et al 2020][research_acheson_gregory_2020]\] \[[Shayan and Van Kampen 2021][research_shayan_vankampen_2021]\] \[[Liu et al 2022][research_liu_luo_2022]\] \[[Zelman et al 2023][research_zelman_silic_2023]\] \[[Kara and Kurtuluş 2024][research_kara_kurtulus_2024]\] \[[Li et al 2024][research_li_zhai_2024]\] \[[Simon et al 2025][research_simon_williams_2025]\] \[[Richard L Campbell et al][research_richardlcampbell_sallyaviken]\] \[[Michael J Acheson et al][research_michaeljacheson_irenegregory]\] \[[Wendy A Okolo][research_wendyaokolo]\] \[[Boskovic et al][research_boskovic_bergstrom]\] \[[Sumanik][research_sumanik]\]
+**The prior art the aircraft descends from.** Hingeless and innovative control effectors, passive porosity, fluidic thrust vectoring, and the jet and plasma control of unmanned aircraft, missiles and projectiles.
+
+**81 records.** \[[Cassel et al 1969][research_cassel_durando_1969]\] \[[Ostroff 1985][research_ostroffaj_1985]\] \[[Goodrich and Sliwa 1987][research_goodrichkennethh_sliwastevenm_1987]\] \[[Goodrich et al 1989][research_goodrichkennethh_sliwastevenm_1989]\] \[[Maughmer 1989][research_maughmermarkd_1989]\] \[[Maughmer et al 1990][research_maughmermarkd_ozoroskil_1990]\] \[[Bauer and Hemsch 1992][research_bauerstevenxs_hemschmichaelj_1992]\] \[[Wood et al 1992][research_woodrichardm_banksdanielw_1992]\] \[[Bauer and Wood 1994][research_bauerstevenxs_woodrichardm_1994]\] \[[Wing 1994][research_wingdavidj_1994]\] \[[Wood et al 1994][research_woodrichardm_banksdanielw_1994]\] \[[Durham and Bordignon 1995][research_durham_bordignon_1995]\] \[[Barber et al 1997][research_barberedwardl_alvifarrukh_1997]\] \[[Pedreiro 1997][research_pedreironelson_1997]\] \[[Strykowski 1997][research_strykowskipaulj_1997]\] \[[Wing and Giuliano 1997][research_wingdavidj_giulianovictorj_1997]\] \[[Gillard 1998][research_gillard_1998]\] \[[Banks et al 1999][research_banksdanielw_woodrichardm_1999]\] \[[Buffington 1999][research_buffington_1999]\] \[[Buffington 1999][research_buffington_1999_b]\] \[[Gilyard 1999][research_gilyardglennb_1999]\] \[[Stable multiple model adaptive 1999][research_stable_multiple_1999]\] \[[Wood and Bauer 1999][research_woodrichardm_bauerstevenxs_1999]\] \[[Addington and Myatt 2000][research_addington_myatt_2000]\] \[[Deere 2000][research_deereka_2000]\] \[[Erickson 2000][research_ericksongarye_2000]\] \[[Moeller and Rediniotis 2000][research_moeller_rediniotis_2000]\] \[[Boskovic and Mehra 2001][research_boskovic_mehra_2001]\] \[[Hunter et al 2001][research_huntercraiga_vikensallya_2001]\] \[[Bauer and Wood 2001][research_stevenxsbauer_richardmwood_2001]\] \[[Moeller and Rediniotis 2002][research_moeller_rediniotis_2002]\] \[[Tinetti et al 2002][research_tinettianaf_kellyjeffreyj_2002]\] \[[Traub et al 2002][research_traub_gilarranz_2002]\] \[[Wood 2002][research_woodrichardm_2002]\] \[[Bauer and Wood 2003][research_bauerstevenxs_woodrichardm_2003]\] \[[Chudoba and Cook 2003][research_chudoba_cook_2003]\] \[[Deere 2003][research_deerekarena_2003]\] \[[Deere et al 2003][research_deerekaren_berrierbobbyl_2003]\] \[[Erickson 2003][research_ericksongarye_2003]\] \[[Waithe and Deere 2003][research_waithekenricka_deerekarena_2003]\] \[[Miller et al 2004][research_miller_traub_2004]\] \[[Raney et al 2004][research_raneydavidl_cabellrandolphh_2004]\] \[[Deere et al 2005][research_deerekarena_berrierbobbyl_2005]\] \[[Patel et al 2005][research_patel_sowle_2005]\] \[[Flamm et al 2006][research_flammjeffreyd_deerekarena_2006]\] \[[Liu et al 2006][research_liu_ciuryla_2006]\] \[[Patel et al 2006][research_patel_ng_2006]\] \[[Patel et al 2006][research_patel_sowle_2006]\] \[[Boskovic et al 2007][research_boskovic_prasanth_2007]\] \[[Deere et al 2007][research_deerekarena_flammjeffreyd_2007]\] \[[Flamm et al 2007][research_flammjeffreyd_deerekarena_2007]\] \[[Kutay et al 2007][research_kutay_culp_2007]\] \[[Lechevin et al 2007][research_lechevin_rabbath_2007]\] \[[Oppenheimer and Doman 2007][research_oppenheimer_doman_2007]\] \[[Patel et al 2007][research_patel_ng_2007]\] \[[Staelens et al 2007][research_staelens_blackwelder_2007]\] \[[Zhang et al 2007][research_zhang_suresh_2007]\] \[[Kondor et al 2008][research_kondor_neidhoefer_2008]\] \[[Neidhoefer et al 2009][research_neidhoefer_ryan_2009]\] \[[Glezer et al 2010][research_glezer_allen_2010]\] \[[Wang et al 2010][research_wang_li_2010]\] \[[Weisman and Valasek 2010][research_weisman_valasek_2010]\] \[[Johnson et al 2011][research_johnson_chowdhary_2011]\] \[[Turner 2011][research_turnertravisl_2011]\] \[[White et al 2015][research_whiteedwardv_kapaniarakeshk_2015]\] \[[Erickson 2017][research_ericksongarye_2017]\] \[[Kazarin et al 2017][research_kazarin_mackunis_2017]\] \[[Park et al 2017][research_park_jo_2017]\] \[[Matamoros and de Visser 2018][research_matamoros_devisser_2018]\] \[[Warsop and Crowther 2018][research_warsop_crowther_2018]\] \[[Acheson et al 2020][research_acheson_gregory_2020]\] \[[Shayan and Van Kampen 2021][research_shayan_vankampen_2021]\] \[[Liu et al 2022][research_liu_luo_2022]\] \[[Zelman et al 2023][research_zelman_silic_2023]\] \[[Kara and Kurtuluş 2024][research_kara_kurtulus_2024]\] \[[Li et al 2024][research_li_zhai_2024]\] \[[Simon et al 2025][research_simon_williams_2025]\] \[[Boskovic et al][research_boskovic_bergstrom]\] \[[Campbell et al][research_richardlcampbell_sallyaviken]\] \[[Sumanik][research_sumanik]\] \[[Okolo][research_wendyaokolo]\]
 
 ### Allocating a demand across more effectors than axes
 
-**44 records.** \[[Napolitano and Swaim 1989][research_napolitano_swaim_1989]\] \[[Buffington 1997][research_buffington_1997]\] \[[Wagner, Elaine A. et al 1998][research_wagnerelainea_burkenjohnj_1998]\] \[[Calise et al 1998][research_calise_lee_1998]\] \[[Page and Steinberg 1999][research_page_steinberg_1999]\] \[[Nam et al 2000][research_nam_chen_2000]\] \[[Bodson 2000][research_bodson_2000]\] \[[Cameron and Princen 2000][research_cameron_princen_2000]\] \[[Durham, Wayne 2001][research_durhamwayne_2001]\] \[[Durham, Wayne and Nelson, Mark 2001][research_durhamwayne_nelsonmark_2001]\] \[[Brinker and Wise 2001][research_brinker_wise_2001]\] \[[Cotting, M. Christopher et al 2001][research_cottingmchristopher_burkenjohnj_2001]\] \[[Davidson, John B. et al 2001][research_davidsonjohnb_lallmanfrederickj_2001]\] \[[Shore and Bodson 2004][research_shore_bodson_2004]\] \[[Shore and Bodson 2005][research_shore_bodson_2005]\] \[[Burken, John J. et al 2006][research_burkenjohnj_williamshayespeggy_2006]\] \[[Doman et al 2007][research_doman_gamble_2007]\] \[[Wu 2007][research_wu_2007]\] \[[Song 2008][research_song_2008]\] \[[Frost, Susan A. et al 2009][research_frostsusana_bodsonmarc_2009]\] \[[Frost, Susan A. et al 2010][research_frostsusana_taylorbrianr_2010]\] \[[Liu, Yu and Crespo, Luis G. 2010][research_liuyu_crespoluisg_2010]\] \[[Jamil et al 2010][research_jamil_savvaris_2010]\] \[[Mahulkar 2010][research_mahulkar_2010]\] \[[Frost, Susan A. et al 2012][research_frostsusana_taylorbrianr_2012]\] \[[Waters et al 2013][research_waters_voskuijl_2013]\] \[[Huijts and Voskuijl 2015][research_huijts_voskuijl_2015]\] \[[Control Allocation and Flight 2016][research_control_allocation_2016]\] \[[Xu et al 2016][research_xu_tang_2016]\] \[[Terrell and Zein-Sabatto 2017][research_terrell_zeinsabatto_2017]\] \[[Yi et al 2017][research_yi_dong_2017]\] \[[Acheson, Michael J. 2018][research_achesonmichaelj_2018]\] \[[Pei, Jing et al 2018][research_peijing_chouerimarc_2018]\] \[[Pei, Jing et al 2018][research_peijing_bassettgeorgez_2018]\] \[[Acheson, Michael J. 2018][research_achesonmichaelj_2018_b]\] \[[Vile et al 2019][research_vile_alwi_2019]\] \[[Vile et al 2019][research_vile_alwi_2019_b]\] \[[Sarioglu and Dogan 2024][research_sarioglu_dogan_2024]\] \[[Jonathan S. Litt 2024][research_jonathanslitt_2024]\] \[[Luke J Miller and Jing Pei][research_lukejmiller_jingpei]\] \[[Michael J. Acheson et al][research_michaeljacheson_jacobcook]\] \[[Christina M Ivler et al][research_christinamivler_williamhunter]\] \[[Michael J Acheson and Irene Gregory][research_michaeljacheson_irenegregory_b]\] \[[Bill Benson and Jeb Orr][research_billbenson_jeborr]\]
+**What fourteen effectors and fourteen surfaces on three axes require.** Control allocation across redundant effectors, and the reconfigurable flight control that depends on it.
+
+**41 records.** \[[Napolitano and Swaim 1989][research_napolitano_swaim_1989]\] \[[Buffington 1997][research_buffington_1997]\] \[[Calise et al 1998][research_calise_lee_1998]\] \[[Wagner et al 1998][research_wagnerelainea_burkenjohnj_1998]\] \[[Page and Steinberg 1999][research_page_steinberg_1999]\] \[[Bodson 2000][research_bodson_2000]\] \[[Cameron and Princen 2000][research_cameron_princen_2000]\] \[[Nam et al 2000][research_nam_chen_2000]\] \[[Brinker and Wise 2001][research_brinker_wise_2001]\] \[[Cotting et al 2001][research_cottingmchristopher_burkenjohnj_2001]\] \[[Davidson et al 2001][research_davidsonjohnb_lallmanfrederickj_2001]\] \[[Durham 2001][research_durhamwayne_2001]\] \[[Durham and Nelson 2001][research_durhamwayne_nelsonmark_2001]\] \[[Shore and Bodson 2004][research_shore_bodson_2004]\] \[[Shore and Bodson 2005][research_shore_bodson_2005]\] \[[Burken et al 2006][research_burkenjohnj_williamshayespeggy_2006]\] \[[Doman et al 2007][research_doman_gamble_2007]\] \[[Song 2008][research_song_2008]\] \[[Frost et al 2009][research_frostsusana_bodsonmarc_2009]\] \[[Frost et al 2010][research_frostsusana_taylorbrianr_2010]\] \[[Jamil et al 2010][research_jamil_savvaris_2010]\] \[[Liu and Crespo 2010][research_liuyu_crespoluisg_2010]\] \[[Mahulkar 2010][research_mahulkar_2010]\] \[[Frost et al 2012][research_frostsusana_taylorbrianr_2012]\] \[[Waters et al 2013][research_waters_voskuijl_2013]\] \[[Huijts and Voskuijl 2015][research_huijts_voskuijl_2015]\] \[[Control Allocation and Flight 2016][research_control_allocation_2016]\] \[[Xu et al 2016][research_xu_tang_2016]\] \[[Terrell and Zein-Sabatto 2017][research_terrell_zeinsabatto_2017]\] \[[Yi et al 2017][research_yi_dong_2017]\] \[[Acheson 2018][research_achesonmichaelj_2018]\] \[[Acheson 2018][research_achesonmichaelj_2018_b]\] \[[Pei et al 2018][research_peijing_bassettgeorgez_2018]\] \[[Vile et al 2019][research_vile_alwi_2019]\] \[[Vile et al 2019][research_vile_alwi_2019_b]\] \[[Litt 2024][research_jonathanslitt_2024]\] \[[Sarioglu and Dogan 2024][research_sarioglu_dogan_2024]\] \[[Benson and Orr][research_billbenson_jeborr]\] \[[Miller and Pei][research_lukejmiller_jingpei]\] \[[Acheson and Gregory][research_michaeljacheson_irenegregory_b]\] \[[Acheson et al][research_michaeljacheson_jacobcook]\]
 
 ### The devices, from piezoelectric diaphragms to fluidic oscillators
 
-**873 records.** \[[Westerman et al 1965][research_westerman_richards_1965]\] \[[Martinez, E. 1967][research_martineze_1967]\] \[[Osborne and Cooksey 1967][research_osborne_cooksey_1967]\] \[[Rehsteiner, F. H. 1970][research_rehsteinerfh_1970]\] \[[Ito and Suematsu 1974][research_ito_suematsu_1974]\] \[[Ito and Suematsu 1975][research_ito_suematsu_1975]\] \[[Oshima and Kinoshita 1975][research_oshima_kinoshita_1975]\] \[[Hellbaum, R. F. and McDermon, J. N. 1977][research_hellbaumrf_mcdermonjn_1977]\] \[[Deadwyler 1980][research_deadwyler_1980]\] \[[Roshko 1985][research_roshko_1985]\] \[[Pullin and Simmons 1985][research_pullin_simmons_1985]\] \[[Shakouchi 1989][research_shakouchi_1989]\] \[[Mansy and Williams 1989][research_mansy_williams_1989]\] \[[Johnston and Nishi 1989][research_johnston_nishi_1989]\] \[[Brenner, Martin J. 1993][research_brennermartinj_1993]\] \[[McManus et al 1994][research_mcmanus_legner_1994]\] \[[McManus et al 1995][research_mcmanus_joshi_1995]\] \[[Sedor 1996][research_sedor_1996]\] \[[McManus and Magill 1996][research_mcmanus_magill_1996]\] \[[McManus et al 1997][research_mcmanus_magill_1997]\] \[[Johari et al 1997][research_johari_mcmanus_1997]\] \[[Amitay et al 1998][research_amitay_smith_1998]\] \[[Lachowicz et al 1998][research_lachowicz_yao_1998]\] \[[Seifert et al 1998][research_seifert_eliahu_1998]\] \[[Amitay et al 1999][research_amitay_smith_1999]\] \[[Lamp, Alison M. and Chokani, Ndaona 1999][research_lampalisonm_chokanindaona_1999]\] \[[Seifert, Avi and Pack, LaTunia G. 1999][research_seifertavi_packlatuniag_1999]\] \[[Glezer 1999][research_glezer_1999]\] \[[McLean, J. D. et al 1999][research_mcleanjd_crouchjd_1999]\] \[[Tanaka et al 2000][research_tanaka_hasegawa_2000]\] \[[Honohan et al 2000][research_honohan_amitay_2000]\] \[[Bons et al 2000][research_bons_sondergaard_2000]\] \[[Amitay et al 2001][research_amitay_smith_2001]\] \[[Gilarranz and Rediniotis 2001][research_gilarranz_rediniotis_2001]\] \[[Nedungadi et al 2001][research_nedungadi_barber_2001]\] \[[Tilmann 2001][research_tilmann_2001]\] \[[Amitay et al 2001][research_amitay_horvath_2001]\] \[[Duraisamy and Baeder 2002][research_duraisamy_baeder_2002]\] \[[Rediniotis et al 2002][research_rediniotis_gilarranz_2002]\] \[[Guy et al 2002][research_guy_mclaughlin_2002]\] \[[Johari and Rixon 2002][research_johari_rixon_2002]\] \[[Florent et al 2002][research_florent_pascal_2002]\] \[[Gregory et al 2002][research_gregory_sakaue_2002]\] \[[Heinzen et al 2002][research_heinzen_hall_2002]\] \[[Kim and Williams 2002][research_kim_williams_2002]\] \[[Naughton et al 2002][research_naughton_bishop_2002]\] \[[Guo et al 2002][research_guo_cary_2002]\] \[[Schaeffler, Norman W. et al 2002][research_schaefflernormanw_hepnertimothye_2002]\] \[[Gordon and Soria 2002][research_gordon_soria_2002]\] \[[Smith, Douglas R. 2002][research_smithdouglasr_2002]\] \[[Fasel et al 2002][research_fasel_wygnanksi_2002]\] \[[Cater and Soria 2002][research_cater_soria_2002]\] \[[Chen, Fang-Jenq and Beeler, George B. 2002][research_chenfangjenq_beelergeorgeb_2002]\] \[[Yamaleev, Nail K. and Carpenter, Mark H. 2003][research_yamaleevnailk_carpentermarkh_2003]\] \[[Krothapalli et al 2003][research_krothapalli_alvi_2003]\] \[[Jones, Gregory S. and Englar, Robet J. 2003][research_jonesgregorys_englarrobetj_2003]\] \[[Hultgren, Lennart S. and Ashpis, David E. 2003][research_hultgrenlennarts_ashpisdavide_2003_b]\] \[[Liu, Yi et al 2003][research_liuyi_sankarlakshmin_2003_b]\] \[[Hultgren, Lennart S. and Ashpis, David E. 2003][research_hultgrenlennarts_ashpisdavide_2003]\] \[[Rixon and Johari 2003][research_rixon_johari_2003]\] \[[Mathew, Jose et al 2003][research_mathewjose_gallasquentin_2003]\] \[[Gaeta, R. J. et al 2003][research_gaetarj_ahujakk_2003]\] \[[Johari and Rixon 2003][research_johari_rixon_2003]\] \[[Ashpis, David et al 2003][research_ashpisdavid_corkethomasc_2003]\] \[[Shakouchi 2003][research_shakouchi_2003]\] \[[Hassan and Roth 2003][research_hassan_roth_2003]\] \[[Holman et al 2003][research_holman_gallas_2003]\] \[[Jiang and Liu 2003][research_jiang_liu_2003]\] \[[Vadillo et al 2003][research_vadillo_agarwal_2003]\] \[[Post and Corke 2003][research_post_corke_2003]\] \[[Parekh et al 2003][research_parekh_williams_2003]\] \[[Milanovic, Ivana M. 2003][research_milanovicivanam_2003]\] \[[Tan et al 2004][research_tan_agarwal_2004]\] \[[Milanovic, Ivana M. and Zaman, Khairul B. M. Q. 2004][research_milanovicivanam_zamankhairulbmq_2004]\] \[[Ugrina and Flatau 2004][research_ugrina_flatau_2004]\] \[[Gregory et al 2004][research_gregory_sullivan_2004]\] \[[Mossi, Karla M. and Bryant, Robert G. 2004][research_mossikarlam_bryantrobertg_2004]\] \[[Goldstein 2004][research_goldstein_2004]\] \[[Hultgren, Lennart S. and Ashpis, David E. 2004][research_hultgrenlennarts_ashpisdavide_2004]\] \[[Lonneman, Patrick J. and Cutler, Andrew D. 2004][research_lonnemanpatrickj_cutlerandrewd_2004]\] \[[Naitoh and Yamamoto 2004][research_naitoh_yamamoto_2004]\] \[[Gordon et al 2004][research_gordon_cater_2004]\] \[[Gallas et al 2004][research_gallas_holman_2004]\] \[[Anderson, Bernhard H. et al 2004][research_andersonbernhardh_millerdanieln_2004_b]\] \[[Anderson, Bernhard H. et al 2004][research_andersonbernhardh_millerdanieln_2004]\] \[[Yan and Xin 2004][research_yan_xin_2004]\] \[[Cybyk et al 2004][research_cybyk_grossman_2004]\] \[[Post and Corke 2004][research_post_corke_2004]\] \[[Enloe et al 2004][research_enloe_mclaughlin_2004]\] \[[Post and Corke 2004][research_post_corke_2004_c]\] \[[Post and Corke 2004][research_post_corke_2004_b]\] \[[Duvigneau and Visonneau 2004][research_duvigneau_visonneau_2004]\] \[[Vatsa, Veer N. and Turkel, Eli L. 2004][research_vatsaveern_turkelelil_2004]\] \[[Rumsey, C. L. et al 2004][research_rumseycl_gatskitb_2004]\] \[[Rediniotis 2004][research_rediniotis_2004]\] \[[Yao, Chung-Sheng et al 2004][research_yaochungsheng_chenfangjenq_2004]\] \[[Schaeffler, Norman W. and Jenkins, Luther N. 2004][research_schaefflernormanw_jenkinsluthern_2004]\] \[[Hansen and Bons 2004][research_hansen_bons_2004]\] \[[Sahu 2004][research_sahu_2004]\] \[[Sahu 2004][research_sahu_2004_b]\] \[[Zaman, K. B. M. Q. 2004][research_zamankbmq_2004]\] \[[Naitoh and Suzuki 2005][research_naitoh_suzuki_2005]\] \[[Jung 2005][research_jung_2005]\] \[[Moore et al 2005][research_moore_wolff_2005]\] \[[Greenblatt et al 2005][research_greenblatt_paschal_2005]\] \[[Smith 2005][research_smith_2005]\] \[[Alvi, Farrukh S. and Gorton, Susan 2005][research_alvifarrukhs_gortonsusan_2005]\] \[[Alvi 2005][research_alvi_2005]\] \[[Deb et al 2005][research_deb_tao_2005]\] \[[Orkwis et al 2005][research_orkwis_pes_2005]\] \[[Liu, Yi et al 2005][research_liuyi_sankarlakshmin_2005]\] \[[Gallas, Quentin et al 2005][research_gallasquentin_sheplakmark_2005]\] \[[Mittal 2005][research_mittal_2005]\] \[[Cutler, Andrew D. et al 2005][research_cutlerandrewd_beckbterry_2005]\] \[[Macia and Nguyen 2005][research_macia_nguyen_2005]\] \[[Koso 2005][research_koso_2005]\] \[[Hassan 2005][research_hassan_2005]\] \[[Liddle et al 2005][research_liddle_crowther_2005]\] \[[Kondor et al 2005][research_kondor_parekh_2005]\] \[[Kim et al 2005][research_kim_williams_2005]\] \[[Orlov and Corke 2005][research_orlov_corke_2005]\] \[[Subbarao et al 2005][research_subbarao_dennis_2005]\] \[[Raju et al 2005][research_raju_mittal_2005]\] \[[Rumsey, Christoper L. et al 2005][research_rumseychristoperl_schaefflernormanw_2005]\] \[[Gregory et al 2005][research_gregory_gnanamanickam_2005]\] \[[Gregory et al 2005][research_gregory_sullivan_2005]\] \[[Ellison 2006][research_ellison_2006]\] \[[Deb et al 2006][research_deb_gangtao_2006]\] \[[Orkwis and Daviaux 2006][research_orkwis_daviaux_2006]\] \[[Leclerc et al 2006][research_leclerc_levallois_2006]\] \[[Amitay and Glezer 2006][research_amitay_glezer_2006]\] \[[Computational Evaluation of Steady 2006][research_computational_evaluation_2006]\] \[[Zhang et al 2006][research_zhang_zhou_2006]\] \[[Kourta et al 2006][research_kourta_petit_2006]\] \[[Ogawara et al 2006][research_ogawara_nakatani_2006]\] \[[Design and Analysis of 2006][research_design_and_2006]\] \[[Baysal et al 2006][research_baysal_koklu_2006]\] \[[Hong 2006][research_hong_2006]\] \[[Pinheiro 2006][research_pinheiro_2006]\] \[[Orlov et al 2006][research_orlov_corke_2006]\] \[[Greenblatt et al 2006][research_greenblatt_paschal_2006]\] \[[Sasaki et al 2006][research_sasaki_janata_2006]\] \[[Samimy, M. et al 2006][research_samimym_kastnerj_2006]\] \[[Hansen and Bons 2006][research_hansen_bons_2006]\] \[[Mehta 2006][research_mehta_2006]\] \[[Enloe et al 2006][research_enloe_mclaughlin_2006]\] \[[Trávníček et al 2006][research_travnicek_vit_2006]\] \[[Reimann et al 2006][research_reimann_bloxham_2006]\] \[[Hiller and Seitz 2006][research_hiller_seitz_2006]\] \[[Scholz et al 2006][research_scholz_ortmanns_2006]\] \[[Guo 2006][research_guo_2006]\] \[[Tamburello and Amitay 2006][research_tamburello_amitay_2006]\] \[[Lee et al 2006][research_lee_kim_2006]\] \[[Webb et al 2006][research_webb_schultz_2006]\] \[[Charonko and Vlachos 2006][research_charonko_vlachos_2006]\] \[[Duvigneau and Visonneau 2006][research_duvigneau_visonneau_2006]\] \[[Roth and Dai 2006][research_roth_dai_2006]\] \[[Kim and Kim 2006][research_kim_kim_2006]\] \[[Post and Corke 2006][research_post_corke_2006]\] \[[Vatsa, Veer N. and Turkel, Eli 2006][research_vatsaveern_turkeleli_2006]\] \[[Rumsey, C. L. et al 2006][research_rumseycl_gatskitb_2006]\] \[[Porter et al 2006][research_porter_baughn_2006]\] \[[Schaeffler, Norman W. and Jenkins, Luther N. 2006][research_schaefflernormanw_jenkinsluthern_2006]\] \[[Gomes and Crowther 2006][research_gomes_crowther_2006]\] \[[Wilson, J. S. 2006][research_wilsonjs_2006]\] \[[Dano and Liburdy 2006][research_dano_liburdy_2006]\] \[[Suzuki 2006][research_suzuki_2006]\] \[[Yamaleev, Nail K. et al 2007][research_yamaleevnailk_carpentermarkh_2007]\] \[[Alvi, Farrukh S. 2007][research_alvifarrukhs_2007]\] \[[Deb et al 2007][research_deb_tao_2007]\] \[[Koso and Kinoshita 2007][research_koso_kinoshita_2007]\] \[[Deng et al 2007][research_deng_jiang_2007]\] \[[Corke, Thomas c. et al 2007][research_corkethomasc_thomasflinto_2007]\] \[[Kim et al 2007][research_kim_debiasi_2007]\] \[[Arienti and Soteriou 2007][research_arienti_soteriou_2007]\] \[[Post et al 2007][research_post_greenwade_2007]\] \[[Schaeffler, Norman W. et al 2007][research_schaefflernormanw_jenkinsluthern_2007]\] \[[Ogawa et al 2007][research_ogawa_iida_2007]\] \[[Bourgois et al 2007][research_bourgois_siauw_2007]\] \[[Luo et al 2007][research_luo_xia_2007]\] \[[Suzen, Y. B. et al 2007][research_suzenyb_huangpg_2007]\] \[[Takeuchi et al 2007][research_takeuchi_yasuoka_2007]\] \[[Rumsey, Christopher L. 2007][research_rumseychristopherl_2007]\] \[[Sidorenko et al 2007][research_sidorenko_zanin_2007]\] \[[Ng et al 2007][research_ng_patel_2007]\] \[[Kim et al 2007][research_kim_hong_2007]\] \[[Tian et al 2007][research_tian_cattafesta_2007]\] \[[Shang 2007][research_shang_2007]\] \[[Vatsa, Veer N. and Turkel, Eli 2007][research_vatsaveern_turkeleli_2007]\] \[[Cybyk et al 2007][research_cybyk_simon_2007]\] \[[Gregory et al 2007][research_gregory_ruotolo_2007]\] \[[Yao, C. S. et al 2007][research_yaocs_chenfj_2007]\] \[[Xu et al 2007][research_xu_li_2007]\] \[[Ortmanns and Kähler 2007][research_ortmanns_kahler_2007]\] \[[Kostas et al 2007][research_kostas_foucaut_2007]\] \[[Rumsey, C. L. et al 2007][research_rumseycl_schaefflernw_2007]\] \[[Raju et al 2007][research_raju_mittal_2007]\] \[[Babinsky 2007][research_babinsky_2007]\] \[[Segawa et al 2007][research_segawa_furutani_2007]\] \[[Bogdanov et al 2008][research_bogdanov_kudryavtsev_2008]\] \[[Benard et al 2008][research_benard_jolibois_2008]\] \[[Guyot et al 2008][research_guyot_paschereit_2008]\] \[[Akhtar and Nayfeh 2008][research_akhtar_nayfeh_2008]\] \[[Guyot et al 2008][research_guyot_taticchimandoliniborgia_2008]\] \[[You and Moin 2008][research_you_moin_2008]\] \[[Pavlova et al 2008][research_pavlova_otani_2008]\] \[[Shah et al 2008][research_shah_wong_2008]\] \[[Mittal and Cattafesta 2008][research_mittal_cattafesta_2008]\] \[[Deb et al 2008][research_deb_tao_2008]\] \[[Shea and Smith 2008][research_shea_smith_2008]\] \[[Tereshonok 2008][research_tereshonok_2008]\] \[[Koso and Kinoshita 2008][research_koso_kinoshita_2008]\] \[[Pinzon and Agarwal 2008][research_pinzon_agarwal_2008]\] \[[Gunes et al 2008][research_gunes_cadirci_2008]\] \[[Braud et al 2008][research_braud_dyment_2008]\] \[[Feikema and Culley 2008][research_feikema_culley_2008]\] \[[Kearney-Fischer et al 2008][research_kearneyfischer_kim_2008]\] \[[Sherman 2008][research_sherman_2008]\] \[[Rusovici et al 2008][research_rusovici_offord_2008]\] \[[Lucas et al 2008][research_lucas_taubert_2008]\] \[[Raju et al 2008][research_raju_mittal_2008]\] \[[Pinzon et al 2008][research_pinzon_agarwal_2008_b]\] \[[Kalra et al 2008][research_kalra_shneider_2008]\] \[[Takagaki et al 2008][research_takagaki_isono_2008]\] \[[Singh and Roy 2008][research_singh_roy_2008]\] \[[Okita et al 2008][research_okita_jukes_2008]\] \[[Roupassov et al 2008][research_roupassov_nikipelov_2008]\] \[[Guo and Zhong 2008][research_guo_zhong_2008]\] \[[Casper et al 2008][research_casper_kahler_2008]\] \[[Coiro et al 2008][research_coiro_bellobuono_2008]\] \[[Higashiura et al 2008][research_higashiura_motosuke_2008]\] \[[Kotapati et al 2008][research_kotapati_mittal_2008]\] \[[Liu et al 2008][research_liu_wang_2008]\] \[[Garnier et al 2008][research_garnier_pruvost_2008]\] \[[Raju et al 2008][research_raju_aram_2008]\] \[[Zhang et al 2008][research_zhang_wang_2008]\] \[[Brown, Clifford A. 2008][research_brownclifforda_2008]\] \[[Nourgostar and Roth 2008][research_nourgostar_roth_2008]\] \[[Jolibois et al 2008][research_jolibois_forte_2008]\] \[[Tuck and Soria 2008][research_tuck_soria_2008]\] \[[Kalra et al 2008][research_kalra_zaidi_2008]\] \[[Klimov et al 2008][research_klimov_bitiurin_2008]\] \[[Enloe et al 2008][research_enloe_mclaughlin_2008]\] \[[Gomes and Crowther 2008][research_gomes_crowther_2008]\] \[[Jabbal 2008][research_jabbal_2008]\] \[[Schatzman and Thomas 2008][research_schatzman_thomas_2008]\] \[[Loth and Lee 2008][research_loth_lee_2008]\] \[[Santhanakrishnan et al 2008][research_santhanakrishnan_reasor_2008]\] \[[Peers et al 2009][research_peers_xunhuang_2009]\] \[[Nikipelov et al 2009][research_nikipelov_nudnova_2009]\] \[[You and Moin 2009][research_you_moin_2009]\] \[[Ozturk and Jacob 2009][research_ozturk_jacob_2009]\] \[[Lopez et al 2009][research_lopez_brzozowski_2009]\] \[[Yang 2009][research_yang_2009]\] \[[Agashe et al 2009][research_agashe_arnold_2009]\] \[[Segawa et al 2009][research_segawa_abe_2009]\] \[[Tan 2009][research_tan_2009]\] \[[Watmuff 2009][research_watmuff_2009]\] \[[Arunajatesan et al 2009][research_arunajatesan_oyarzun_2009]\] \[[Singhal et al 2009][research_singhal_tao_2009]\] \[[Liu et al 2009][research_liu_wang_2009]\] \[[Appelgren et al 2009][research_appelgren_hurtig_2009]\] \[[Koklu and Baysal 2009][research_koklu_baysal_2009]\] \[[Enloe et al 2009][research_enloe_mcharg_2009]\] \[[Mamunuru et al 2009][research_mamunuru_guo_2009]\] \[[Raju et al 2009][research_raju_aram_2009]\] \[[Ferlauto and Marsilio 2009][research_ferlauto_marsilio_2009]\] \[[Caruana et al 2009][research_caruana_barricau_2009]\] \[[Kostas et al 2009][research_kostas_foucaut_2009]\] \[[Aram et al 2009][research_aram_mittal_2009]\] \[[Mondschein et al 2010][research_mondschein_tao_2010]\] \[[Mack et al 2010][research_mack_tao_2010]\] \[[Vagia and Tzes 2010][research_vagia_tzes_2010]\] \[[Benard et al 2010][research_benard_bonnet_2010]\] \[[Blaylock et al 2010][research_blaylock_chow_2010]\] \[[Asada and Fujii 2010][research_asada_fujii_2010]\] \[[Oyarzun and Cattafesta 2010][research_oyarzun_cattafesta_2010]\] \[[Sammy, Mo 2010][research_sammymo_2010]\] \[[Kearney-Fischer et al 2010][research_kearneyfischer_kim_2010]\] \[[Volino, Ralph J. et al 2010][research_volinoralphj_ibrahimmounirb_2010]\] \[[Little et al 2010][research_little_takashima_2010]\] \[[Goodfellow et al 2010][research_goodfellow_yarusevych_2010]\] \[[Joussot et al 2010][research_joussot_hong_2010]\] \[[Cadirci et al 2010][research_cadirci_gunes_2010]\] \[[Gokoglu et al 2010][research_gokoglu_kuczmarski_2010]\] \[[Matsuno et al 2010][research_matsuno_ota_2010]\] \[[Woszidlo et al 2010][research_woszidlo_nawroth_2010]\] \[[Cho et al 2010][research_cho_hoagg_2010]\] \[[Willis, Peter A. et al 2010][research_willispetera_greerharoldf_2010]\] \[[Aram et al 2010][research_aram_mittal_2010]\] \[[Smith 2010][research_smith_2010]\] \[[Stephen et al 2010][research_stephen_dewey_2010]\] \[[Ferry and Rovey 2010][research_ferry_rovey_2010]\] \[[Kwak and Nelson 2010][research_kwak_nelson_2010]\] \[[Ciobaca et al 2011][research_ciobaca_kuhn_2011]\] \[[Xu, Tian-Bing et al 2011][research_xutianbing_jiangxiaoning_2011]\] \[[Stephen et al 2011][research_stephen_campbell_2011]\] \[[Ibrahim and Skote 2011][research_ibrahim_skote_2011]\] \[[Trancossi and Dumas 2011][research_trancossi_dumas_2011]\] \[[Volino 2011][research_volino_2011]\] \[[Ashpis, David E. and Thurman, Douglas R. 2011][research_ashpisdavide_thurmandouglasr_2011]\] \[[Luo and Zhang 2011][research_luo_zhang_2011]\] \[[Baqui and Mahmud 2011][research_baqui_mahmud_2011]\] \[[Nonomura et al 2011][research_nonomura_sekimoto_2011]\] \[[Lyubimov 2011][research_lyubimov_2011]\] \[[Jin et al 2011][research_jin_ono_2011]\] \[[Brown, Clifford A. 2011][research_brownclifforda_2011]\] \[[Woszidlo and Wygnanski 2011][research_woszidlo_wygnanski_2011]\] \[[Oates and Alvi 2011][research_oates_alvi_2011]\] \[[Packard and Bons 2011][research_packard_bons_2011]\] \[[Che et al 2011][research_che_nie_2011]\] \[[Casper et al 2011][research_casper_scholz_2011]\] \[[Glezer 2011][research_glezer_2011]\] \[[Tseng et al 2011][research_tseng_yang_2011]\] \[[Samimy et al 2011][research_samimy_webb_2011]\] \[[Javadi and Khodadadi 2011][research_javadi_khodadadi_2011]\] \[[Disotell and Gregory 2011][research_disotell_gregory_2011]\] \[[Sawant et al 2012][research_sawant_eskinazi_2012]\] \[[Benhegouga and Boukehili 2012][research_benhegouga_boukehili_2012]\] \[[Chappell and Angland 2012][research_chappell_angland_2012]\] \[[Xu, Tian-Bing et al 2012][research_xutianbing_jiangxiaoning_2012]\] \[[Wu et al 2012][research_wu_deng_2012]\] \[[Asada and Fujii 2012][research_asada_fujii_2012]\] \[[Dawson and Little 2012][research_dawson_little_2012]\] \[[Ikoshi et al 2012][research_ikoshi_ogata_2012]\] \[[Kurz et al 2012][research_kurz_tropea_2012]\] \[[Jabbal 2012][research_jabbal_2012]\] \[[Opaits, Dmitry, F. 2012][research_opaitsdmitryf_2012]\] \[[Osmokrovic et al 2012][research_osmokrovic_hanson_2012]\] \[[Matsunuma and Segawa 2012][research_matsunuma_segawa_2012]\] \[[Chabert et al 2012][research_chabert_dandois_2012]\] \[[Ogawara et al 2012][research_ogawara_kojima_2012]\] \[[Volino, Ralph J. and Ibrahim, Mounir B. 2012][research_volinoralphj_ibrahimmounirb_2012]\] \[[Volino, Ralph J. and Ibrahim, Mounir B. 2012][research_volinoralphj_ibrahimmounirb_2012_b]\] \[[Rahn and Tadigadapa 2012][research_rahn_tadigadapa_2012]\] \[[Kordík and Trávníček 2012][research_kordik_travnicek_2012]\] \[[Seele et al 2012][research_seele_graff_2012]\] \[[Pierre et al 2012][research_pierre_rabat_2012]\] \[[Matsuno et al 2012][research_matsuno_kawaguchi_2012]\] \[[Hoskinson, Alan R. 2012][research_hoskinsonalanr_2012]\] \[[Braud and Dyment 2012][research_braud_dyment_2012]\] \[[Sawant et al 2012][research_sawant_oyarzun_2012]\] \[[West and Hosder 2012][research_west_hosder_2012]\] \[[Vasta, Veer N. et al 2012][research_vastaveern_koklumehti_2012]\] \[[Bazdidi-Tehrani and Jahromi 2012][research_bazdiditehrani_jahromi_2012]\] \[[Patel, Mehul P. et al 2012][research_patelmehulp_cainalanb_2012]\] \[[Ibrahim and Skote 2012][research_ibrahim_skote_2012]\] \[[Chappell et al 2012][research_chappell_cai_2012]\] \[[Honami and Motosuke 2012][research_honami_motosuke_2012]\] \[[Koichi et al 2013][research_koichi_kotaro_2013]\] \[[Motoaki et al 2013][research_motoaki_jun_2013]\] \[[N. Md et al 2013][research_nmd_yuta_2013]\] \[[Makoto et al 2013][research_makoto_koichi_2013]\] \[[Tetsuya and Hiroaki 2013][research_tetsuya_hiroaki_2013]\] \[[Norimasa et al 2013][research_norimasa_masumi_2013]\] \[[Takashi et al 2013][research_takashi_kengo_2013]\] \[[Tomohisa et al 2013][research_tomohisa_akinori_2013]\] \[[Gregory and Tomac 2013][research_gregory_tomac_2013]\] \[[Tang et al 2013][research_tang_salunkhe_2013]\] \[[Chen et al 2013][research_chen_hao_2013]\] \[[Shimizu et al 2013][research_shimizu_mizuno_2013]\] \[[Dawson and Little 2013][research_dawson_little_2013]\] \[[Sawant et al 2013][research_sawant_eskinazi_2013]\] \[[Choutapalli 2013][research_choutapalli_2013]\] \[[Hasnain et al 2013][research_hasnain_flatau_2013]\] \[[Kotsonis et al 2013][research_kotsonis_pul_2013]\] \[[Gao et al 2013][research_gao_zhang_2013]\] \[[Matsuno et al 2013][research_matsuno_maeda_2013]\] \[[Goh and Lee 2013][research_goh_lee_2013]\] \[[Bernardini et al 2013][research_bernardini_benton_2013]\] \[[Tomac and Gregory 2013][research_tomac_gregory_2013]\] \[[Sitaraman and Raja 2013][research_sitaraman_raja_2013]\] \[[Schneck and Winfrey 2013][research_schneck_winfrey_2013]\] \[[Tesař et al 2013][research_tesar_zhong_2013]\] \[[Kordík and Trávníček 2013][research_kordik_travnicek_2013]\] \[[West and Hosder 2013][research_west_hosder_2013]\] \[[Hosseinverdi and Fasel 2013][research_hosseinverdi_fasel_2013]\] \[[Bobusch et al 2013][research_bobusch_woszidlo_2013]\] \[[Krüger et al 2013][research_kruger_bobusch_2013]\] \[[Parametric Investigation of Nanosecond 2013][research_parametric_investigation_2013]\] \[[Xu and Meng 2013][research_xu_meng_2013]\] \[[Seele, Roman et al 2013][research_seeleroman_graffemilio_2013]\] \[[Tesař and Peszynski 2013][research_tesar_peszynski_2013]\] \[[Wilson et al 2013][research_wilson_schatzman_2013]\] \[[Koklu, Mehti and Melton, Latunia P. 2013][research_koklumehti_meltonlatuniap_2013]\] \[[Graff, Emilio et al 2013][research_graffemilio_seeleroman_2013]\] \[[Wu and Ahmed 2013][research_wu_ahmed_2013]\] \[[Zhou et al 2014][research_zhou_wang_2014]\] \[[Aider et al 2014][research_aider_joseph_2014]\] \[[Taira 2014][research_taira_2014]\] \[[Melton, Latunia P. 2014][research_meltonlatuniap_2014]\] \[[Natarajan et al 2014][research_natarajan_freund_2014]\] \[[Xu, Tian-Bing et al 2014][research_xutianbing_suji_2014]\] \[[Application of Zero-Net Mass-Flux 2014][research_application_of_2014]\] \[[Meier and Heister 2014][research_meier_heister_2014]\] \[[Wong et al 2014][research_wong_wang_2014]\] \[[Kausar et al 2014][research_kausar_mushtaq_2014]\] \[[Williams et al 2014][research_williams_jemcov_2014]\] \[[Albright and Solovitz 2014][research_albright_solovitz_2014]\] \[[Ashpis, David E. and Laun, Matthew C. 2014][research_ashpisdavide_launmatthewc_2014]\] \[[Sato et al 2014][research_sato_asada_2014]\] \[[Gardner et al 2014][research_gardner_richter_2014]\] \[[Experimental Investigation of "Why 2014][research_experimental_investigation_2014]\] \[[Sekimoto et al 2014][research_sekimoto_sulaiman_2014]\] \[[Kozato et al 2014][research_kozato_hirose_2014]\] \[[Koklu, Mehti and Owens, Lewis R. 2014][research_koklumehti_owenslewisr_2014]\] \[[Tomac and Gregory 2014][research_tomac_gregory_2014]\] \[[Dennai et al 2014][research_dennai_bentaleb_2014]\] \[[Shang and Huang 2014][research_shang_huang_2014]\] \[[Stalewski and Sznajder 2014][research_stalewski_sznajder_2014]\] \[[Önder and Meyers 2014][research_onder_meyers_2014]\] \[[Vatsa, Veer N. et al 2014][research_vatsaveern_casalinodamiano_2014]\] \[[Tang et al 2014][research_tang_salunkhe_2014]\] \[[Zhao and Zhao 2014][research_zhao_zhao_2014]\] \[[Ren Sheng et al 2014][research_rensheng_zhangjiazhong_2014]\] \[[Langston 2014][research_langston_2014]\] \[[Chen et al 2014][research_chen_zhang_2014]\] \[[Likhanskii, Alexander 2014][research_likhanskiialexander_2014]\] \[[Friz and Rovey 2014][research_friz_rovey_2014]\] \[[Gaertlein et al 2014][research_gaertlein_woszidlo_2014]\] \[[Wang et al 2014][research_wang_xia_2014]\] \[[Ashpis, David E. and Laun, Matthew C. 2014][research_ashpisdavide_launmatthewc_2014_b]\] \[[González-Espinosa et al 2014][research_gonzalezespinosa_buchmann_2014]\] \[[Laurendeau et al 2014][research_laurendeau_chedevergne_2014]\] \[[Ono et al 2015][research_ono_kameya_2015]\] \[[Pedroza et al 2015][research_pedroza_mackunis_2015]\] \[[Pasquetti and Peres 2015][research_pasquetti_peres_2015]\] \[[Borghi et al 2015][research_borghi_cristofolini_2015]\] \[[Moralev et al 2015][research_moralev_bityurin_2015]\] \[[Shimizu et al 2015][research_shimizu_mizuno_2015]\] \[[Tewes and Taubert 2015][research_tewes_taubert_2015]\] \[[Miyagi et al 2015][research_miyagi_ueki_2015]\] \[[Hasnain et al 2015][research_hasnain_trollinger_2015]\] \[[Mangina et al 2015][research_mangina_enloe_2015]\] \[[Xia and Mohseni 2015][research_xia_mohseni_2015]\] \[[Ostermann et al 2015][research_ostermann_woszidlo_2015]\] \[[von Gosen et al 2015][research_vongosen_ostermann_2015]\] \[[Soria 2015][research_soria_2015]\] \[[Correale 2015][research_correale_2015]\] \[[Andino, Marlyn Y. et al 2015][research_andinomarlyny_linjohnc_2015]\] \[[Tesař 2015][research_tesar_2015]\] \[[Tesař and Smyk 2015][research_tesar_smyk_2015]\] \[[Van Buren et al 2015][research_vanburen_whalen_2015]\] \[[Pescini et al 2015][research_pescini_francioso_2015]\] \[[Meier, Eric J. et al 2015][research_meierericj_casianomatthewj_2015]\] \[[Cai et al 2015][research_cai_angland_2015]\] \[[Frankhouser and Gregory 2015][research_frankhouser_gregory_2015]\] \[[Gupte et al 2015][research_gupte_pradeep_2015]\] \[[Kara 2015][research_kara_2015]\] \[[Laurendeau et al 2015][research_laurendeau_chedevergne_2015]\] \[[Pick 2015][research_pick_2015]\] \[[Sauti, Godfrey et al 2015][research_sautigodfrey_xutianbing_2015]\] \[[Kunimoto and Fuchiwaki 2015][research_kunimoto_fuchiwaki_2015]\] \[[Abe et al 2015][research_abe_nonomura_2015]\] \[[Marxen et al 2015][research_marxen_kotapati_2015]\] \[[Dahalan et al 2015][research_dahalan_mansor_2015]\] \[[Zamora and Pafford 2015][research_zamora_pafford_2015]\] \[[Koklu, Mehti 2015][research_koklumehti_2015]\] \[[Kushner, Laura Kathryn et al 2015][research_kushnerlaurakathryn_heineckjamest_2015]\] \[[Horne and Burnside 2016][research_horne_burnside_2016]\] \[[Horne, William C. and Burnside, Nathan J. 2016][research_hornewilliamc_burnsidenathanj_2016]\] \[[Coskun et al 2016][research_coskun_cadirci_2016]\] \[[Neretti 2016][research_neretti_2016]\] \[[Melton, LaTunia Pack and Koklu, Mehti 2016][research_meltonlatuniapack_koklumehti_2016]\] \[[Benard et al 2016][research_benard_mizuno_2016]\] \[[Horne, Clifton and Burnside, Nate 2016][research_horneclifton_burnsidenate_2016]\] \[[Ashpis, David E. and Laun, Matthew C. 2016][research_ashpisdavide_launmatthewc_2016]\] \[[Ashpis, David E. and Laun, Matthew C. 2016][research_ashpisdavide_launmatthewc_2016_b]\] \[[Asano et al 2016][research_asano_sato_2016]\] \[[Ashcraft et al 2016][research_ashcraft_decker_2016]\] \[[Fukumoto et al 2016][research_fukumoto_aono_2016]\] \[[Koklu 2016][research_koklu_2016]\] \[[Zhou et al 2016][research_zhou_xia_2016]\] \[[Slupski and Kara 2016][research_slupski_kara_2016]\] \[[Bettrich and Niehuis 2016][research_bettrich_niehuis_2016]\] \[[Peters, Christopher J. et al 2016][research_peterschristopherj_milesrichardb_2016]\] \[[Kato et al 2016][research_kato_breitsamter_2016]\] \[[Park and Kim 2016][research_park_kim_2016]\] \[[Koklu, Mehti 2016][research_koklumehti_2016_b]\] \[[Koklu, Mehti 2016][research_koklumehti_2016]\] \[[Coumar et al 2016][research_coumar_joussot_2016]\] \[[Tomac and Gregory 2016][research_tomac_gregory_2016]\] \[[Sieber et al 2016][research_sieber_ostermann_2016]\] \[[Li et al 2016][research_li_meng_2016]\] \[[Kim et al 2016][research_kim_moin_2016]\] \[[Chae et al 2016][research_chae_ahn_2016]\] \[[Itsariyapinyo and Sharma 2016][research_itsariyapinyo_sharma_2016]\] \[[Ibrahimoglu et al 2016][research_ibrahimoglu_yilmazoglu_2016]\] \[[Phan and Shin 2016][research_phan_shin_2016]\] \[[Vatsa, Veer N. et al 2016][research_vatsaveern_dudabenjamin_2016]\] \[[Kara 2016][research_kara_2016]\] \[[Khoshkhoo and Jahangirian 2016][research_khoshkhoo_jahangirian_2016]\] \[[Greco et al 2016][research_greco_cardone_2016]\] \[[Jeyalingam and Jabbal 2016][research_jeyalingam_jabbal_2016]\] \[[Wang et al 2016][research_wang_zhou_2016]\] \[[Gil and Strzelczyk 2016][research_gil_strzelczyk_2016]\] \[[Zhang et al 2016][research_zhang_peng_2016]\] \[[Wang et al 2016][research_wang_wang_2016]\] \[[Lu et al 2016][research_lu_wong_2016]\] \[[Yan et al 2016][research_yan_meng_2016]\] \[[Tesař 2016][research_tesar_2016]\] \[[Melton, LaTunia Pack et al 2016][research_meltonlatuniapack_koklumehti_2016_b]\] \[[Harinaldi et al 2016][research_harinaldi_budiarso_2016]\] \[[Ostermann et al 2016][research_ostermann_woszidlo_2016]\] \[[Ayers and Johari 2016][research_ayers_johari_2016]\] \[[Duda, B. et al 2016][research_dudab_wesselsm_2016]\] \[[Jones, Gregory S. et al 2016][research_jonesgregorys_milholenwilliameii_2016]\] \[[Futrzynski and Efraimsson 2016][research_futrzynski_efraimsson_2016]\] \[[Boukenkoul et al 2017][research_boukenkoul_li_2017]\] \[[Messanelli and Belan 2017][research_messanelli_belan_2017]\] \[[Zhou et al 2017][research_zhou_xia_2017]\] \[[Jones, Gregory S. et al 2017][research_jonesgregorys_milholenwilliameii_2017]\] \[[Li et al 2017][research_li_shi_2017]\] \[[Koklu, Mehti 2017][research_koklumehti_2017]\] \[[Horne, Clifton and Burnside, Nate 2017][research_horneclifton_burnsidenate_2017]\] \[[Koklu and Owens 2017][research_koklu_owens_2017]\] \[[Seo and Mittal 2017][research_seo_mittal_2017]\] \[[Igarashi et al 2017][research_igarashi_nogi_2017]\] \[[Rimašauskienė 2017][research_rimasauskiene_2017_b]\] \[[Zong and Kotsonis 2017][research_zong_kotsonis_2017]\] \[[Slupski and Kara 2017][research_slupski_kara_2017]\] \[[Berk et al 2017][research_berk_gomit_2017]\] \[[Li et al 2017][research_li_li_2017]\] \[[Kara 2017][research_kara_2017]\] \[[Koklu, Mehti 2017][research_koklumehti_2017_c]\] \[[Koklu, Mehti 2017][research_koklumehti_2017_b]\] \[[High Order Large Eddy 2017][research_high_order_2017]\] \[[Le Clainche et al 2017][research_leclainche_vega_2017]\] \[[Smyk 2017][research_smyk_2017]\] \[[Kim et al 2017][research_kim_moin_2017]\] \[[Sato et al 2017][research_sato_nonomura_2017]\] \[[Dang and Kim 2017][research_dang_kim_2017]\] \[[Zhang et al 2017][research_zhang_fu_2017]\] \[[Bauer et al 2017][research_bauer_karch_2017]\] \[[Lakebrink et al 2017][research_lakebrink_mani_2017]\] \[[Kurowski 2017][research_kurowski_2017]\] \[[Tomac and Gregory 2017][research_tomac_gregory_2017]\] \[[Bacic 2017][research_bacic_2017]\] \[[Aono et al 2017][research_aono_kawai_2017]\] \[[Kara and Slupski 2017][research_kara_slupski_2017]\] \[[Cui et al 2017][research_cui_zhao_2017]\] \[[Hue et al 2017][research_hue_francois_2017]\] \[[Miyagi and Kimura 2017][research_miyagi_kimura_2017]\] \[[Ostermann et al 2017][research_ostermann_godbersen_2017]\] \[[Ramos-Pedroza et al 2017][research_ramospedroza_mackunis_2017]\] \[[The failure of delayed 2017][research_the_failure_2017]\] \[[Rimašauskienė 2017][research_rimasauskiene_2017]\] \[[Tesař 2017][research_tesar_2017]\] \[[Zhang et al 2018][research_zhang_zhang_2018]\] \[[Zheng et al 2018][research_zheng_cui_2018]\] \[[Trávníček and Broučková 2018][research_travnicek_brouckova_2018]\] \[[Kanase et al 2018][research_kanase_mangate_2018]\] \[[Huang and Zhou 2018][research_huang_zhou_2018]\] \[[Kazanskii et al 2018][research_kazanskii_moralev_2018]\] \[[Shen et al 2018][research_shen_yang_2018]\] \[[Zong et al 2018][research_zong_vanpelt_2018]\] \[[Huang et al 2018][research_huang_zhang_2018]\] \[[Zhang 2018][research_zhang_2018]\] \[[Comparison of acoustic synthetic 2018][research_comparison_of_2018]\] \[[Zimmerman et al 2018][research_zimmerman_carroll_2018]\] \[[Miyamoto et al 2018][research_miyamoto_yokoyama_2018]\] \[[Alimi and Wünsch 2018][research_alimi_wunsch_2018]\] \[[Salinas et al 2018][research_salinas_wojewodka_2018]\] \[[Schlösser and Bauer 2018][research_schlosser_bauer_2018]\] \[[Koklu 2018][research_koklu_2018]\] \[[Wang and Tang 2018][research_wang_tang_2018]\] \[[Slupski et al 2018][research_slupski_kara_2018]\] \[[Funderburk and Narayanaswamy 2018][research_funderburk_narayanaswamy_2018]\] \[[Hoeijmakers and Wirtz 2018][research_hoeijmakers_wirtz_2018]\] \[[Ogawa et al 2018][research_ogawa_asada_2018]\] \[[Xin et al 2018][research_xin_lu_2018]\] \[[Ebrahimi and Hajipour 2018][research_ebrahimi_hajipour_2018]\] \[[Kara et al 2018][research_kara_kim_2018]\] \[[Wang et al 2018][research_wang_wong_2018]\] \[[Itsariyapinyo and Sharma 2018][research_itsariyapinyo_sharma_2018]\] \[[Fukumoto et al 2018][research_fukumoto_aono_2018]\] \[[Kanehara et al 2018][research_kanehara_sagawa_2018]\] \[[Palumbo et al 2018][research_palumbo_chiatto_2018]\] \[[Elsahhar et al 2018][research_elsahhar_theunissen_2018]\] \[[Vatsa, Veer N. et al 2018][research_vatsaveern_dudabenjamin_2018]\] \[[Tang and Agarwal 2018][research_tang_agarwal_2018]\] \[[Bhattacharjee et al 2018][research_bhattacharjee_hemati_2018]\] \[[Plasma Actuator 2018][research_plasma_actuator_2018]\] \[[Wu et al 2018][research_wu_seo_2018]\] \[[Hirsch and Gharib 2018][research_hirsch_gharib_2018]\] \[[Sato 2018][research_sato_2018]\] \[[Harada and Sakakibara 2018][research_harada_sakakibara_2018]\] \[[Karyakin et al 2018][research_karyakin_nalivaiko_2018]\] \[[Koklu, Mehti 2018][research_koklumehti_2018_b]\] \[[Miyagi and Kimura 2018][research_miyagi_kimura_2018]\] \[[Ghee et al 2018][research_ghee_raghu_2018]\] \[[Synthetic Jet 2018][research_synthetic_jet_2018]\] \[[Rice and Amitay 2018][research_rice_amitay_2018]\] \[[Viturro et al 2018][research_viturro_leclainchemartinez_2018]\] \[[Fujii 2018][research_fujii_2018]\] \[[Sujar-Garrido et al 2018][research_sujargarrido_hao_2018]\] \[[Messahel et al 2018][research_messahel_bury_2018]\] \[[Kornyakov et al 2018][research_kornyakov_voevodin_2018]\] \[[Hasegawa and Obayashi 2019][research_hasegawa_obayashi_2019]\] \[[Tomac and Sundström 2019][research_tomac_sundstrom_2019]\] \[[Shimizu et al 2019][research_shimizu_nakashima_2019]\] \[[Park et al 2019][research_park_ko_2019]\] \[[Akimoto and Kimura 2019][research_akimoto_kimura_2019]\] \[[Seki and Sano 2019][research_seki_sano_2019]\] \[[Wang et al 2019][research_wang_yang_2019]\] \[[Dauengauer and Mullyadzhanov 2019][research_dauengauer_mullyadzhanov_2019]\] \[[Yamashita and Hasegawa 2019][research_yamashita_hasegawa_2019]\] \[[Ming et al 2019][research_ming_ma_2019]\] \[[Hossain et al 2019][research_hossain_ameri_2019]\] \[[Berk and Ganapathisubramani 2019][research_berk_ganapathisubramani_2019]\] \[[Firsov et al 2019][research_firsov_kazansky_2019]\] \[[Isobe et al 2019][research_isobe_suzuki_2019]\] \[[Mehdipoor et al 2019][research_mehdipoor_sohbatzadeh_2019]\] \[[Handa and Fujimura 2019][research_handa_fujimura_2019]\] \[[Ott et al 2019][research_ott_gallas_2019]\] \[[Ostermann et al 2019][research_ostermann_woszidlo_2019]\] \[[Gowda B C et al 2019][research_gowdabc_n_2019]\] \[[Ye et al 2019][research_ye_zou_2019]\] \[[Dancova et al 2019][research_dancova_psota_2019]\] \[[Kumar and Karn 2019][research_kumar_karn_2019]\] \[[Slupski et al 2019][research_slupski_tajik_2019]\] \[[Tadjfar and Kamari 2019][research_tadjfar_kamari_2019]\] \[[Tomac and Gregory 2019][research_tomac_gregory_2019]\] \[[Hui et al 2019][research_hui_hu_2019]\] \[[Ma et al 2019][research_ma_li_2019]\] \[[Messahel et al 2019][research_messahel_bury_2019]\] \[[Schatzman et al 2019][research_schatzman_drori_2019]\] \[[Pack Melton et al 2019][research_packmelton_lin_2019]\] \[[Smyk et al 2020][research_smyk_gil_2020]\] \[[Li and Zhang 2020][research_li_zhang_2020]\] \[[Sundström and Tomac 2020][research_sundstrom_tomac_2020]\] \[[Lai et al 2020][research_lai_fu_2020]\] \[[Park et al 2020][research_park_ko_2020]\] \[[Yokoyama et al 2020][research_yokoyama_otsuka_2020]\] \[[Sano and Seki 2020][research_sano_seki_2020]\] \[[Jackson et al 2020][research_jackson_wang_2020]\] \[[Weigel et al 2020][research_weigel_schuller_2020]\] \[[Tomac 2020][research_tomac_2020]\] \[[Zhang et al 2020][research_zhang_zhang_2020]\] \[[Sekimoto et al 2020][research_sekimoto_fujii_2020]\] \[[Harinaldi et al 2020][research_harinaldi_muhammaddennikesuma_2020]\] \[[Tomac and Sundström 2020][research_tomac_sundstrom_2020]\] \[[Otake et al 2020][research_otake_yokoyama_2020]\] \[[Hasan and Atkinson 2020][research_hasan_atkinson_2020]\] \[[Oz and Kara 2020][research_oz_kara_2020]\] \[[Kobayashi et al 2020][research_kobayashi_watanabe_2020]\] \[[Shi and Sullivan 2020][research_shi_sullivan_2020]\] \[[Le Clainche et al 2020][research_leclainche_perez_2020]\] \[[Yang and Agarwal 2020][research_yang_agarwal_2020]\] \[[PourRazzaghi and Xu 2020][research_pourrazzaghi_xu_2020]\] \[[Buzica and Breitsamter 2020][research_buzica_breitsamter_2020]\] \[[Lei et al 2020][research_lei_zhang_2020]\] \[[Palumbo et al 2020][research_palumbo_semeraro_2020]\] \[[Abdelraouf et al 2020][research_abdelraouf_elmekawy_2020]\] \[[Abdelraouf et al 2020][research_abdelraouf_kassab_2020]\] \[[Shay et al 2020][research_shay_posti_2020]\] \[[Smyk et al 2020][research_smyk_wawrzyniak_2020]\] \[[Kumar and Karn 2020][research_kumar_karn_2020]\] \[[Nagasaki and Hasegawa 2020][research_nagasaki_hasegawa_2020]\] \[[Belanger et al 2020][research_belanger_zingg_2020]\] \[[Deb et al 2021][research_deb_burkholder_2021]\] \[[Peterson et al 2021][research_peterson_vukasinovic_2021]\] \[[Kim and Kim 2021][research_kim_kim_2021]\] \[[Kim and Kim 2021][research_kim_kim_2021_b]\] \[[Palumbo and de Luca 2021][research_palumbo_deluca_2021]\] \[[Park and Lee 2021][research_park_lee_2021]\] \[[Sato et al 2021][research_sato_enokido_2021]\] \[[Wen et al 2021][research_wen_li_2021]\] \[[Jia et al 2021][research_jia_liang_2021]\] \[[Zheng 2021][research_zheng_2021]\] \[[Löffler et al 2021][research_loffler_ebert_2021]\] \[[Gil et al 2021][research_gil_wilk_2021]\] \[[Li et al 2021][research_li_zhou_2021]\] \[[Shimomura et al 2021][research_shimomura_sekimoto_2021]\] \[[Pan et al 2021][research_pan_zhenbing_2021]\] \[[Xia et al 2021][research_xia_hua_2021]\] \[[Zhu et al 2021][research_zhu_fraderasoler_2021]\] \[[Lim and Lyu 2021][research_lim_lyu_2021]\] \[[Sarwar et al 2021][research_sarwar_bergada_2021]\] \[[Portillo et al 2021][research_portillo_combs_2021]\] \[[Mehti Koklu 2021][research_mehtikoklu_2021]\] \[[Aiura et al 2021][research_aiura_kobayashi_2021]\] \[[Sim et al 2021][research_sim_ellis_2021]\] \[[Pour Razzaghi et al 2021][research_pourrazzaghi_xu_2021]\] \[[Kobayashi and Fuchiwaki 2021][research_kobayashi_fuchiwaki_2021]\] \[[Park and Lee 2022][research_park_lee_2022]\] \[[Maikap et al 2022][research_maikap_arunkumar_2022]\] \[[Tajik and Parezanovic 2022][research_tajik_parezanovic_2022]\] \[[Ayeni and Cleton 2022][research_ayeni_cleton_2022]\] \[[Lei and Zha 2022][research_lei_zha_2022]\] \[[Kumar Subramanyam et al 2022][research_kumarsubramanyam_venkatakrishnan_2022]\] \[[Farrell et al 2022][research_farrell_gibbons_2022]\] \[[Chen et al 2022][research_chen_hao_2022]\] \[[Lu et al 2022][research_lu_li_2022]\] \[[Khan et al 2022][research_khan_tajik_2022]\] \[[Kang et al 2022][research_kang_luo_2022]\] \[[Luo et al 2022][research_luo_zhao_2022]\] \[[Chen and Li 2022][research_chen_li_2022]\] \[[Zhang et al 2022][research_zhang_liu_2022]\] \[[Zhang et al 2022][research_zhang_li_2022]\] \[[Kurowski and Szwaba 2022][research_kurowski_szwaba_2022]\] \[[Itsariyapinyo and Sharma 2022][research_itsariyapinyo_sharma_2022]\] \[[Sundaram et al 2022][research_sundaram_sengupta_2022]\] \[[Madane et al 2022][research_madane_khalde_2022]\] \[[Flow Separation Control on 2022][research_flow_separation_2022]\] \[[Nicholls and Bacic 2022][research_nicholls_bacic_2022]\] \[[Smyk and Markowicz 2022][research_smyk_markowicz_2022_b]\] \[[Investigations on the Interfering 2022][research_investigations_on_2022]\] \[[Arafa et al 2022][research_arafa_sullivan_2022]\] \[[Gungordu 2022][research_gungordu_2022]\] \[[Li et al 2022][research_li_luo_2022]\] \[[Tolkachev 2022][research_tolkachev_2022]\] \[[Nicholls et al 2022][research_nicholls_tang_2022]\] \[[Vinoth Kumar and Vijayaraghavan 2022][research_vinothkumar_vijayaraghavan_2022]\] \[[Ge et al 2022][research_ge_peng_2022]\] \[[Chen and Sun 2022][research_chen_sun_2022]\] \[[Tajik et al 2022][research_tajik_khan_2022]\] \[[Wu et al 2022][research_wu_meneveau_2022]\] \[[Mayahara and Sato 2022][research_mayahara_sato_2022]\] \[[Monat et al 2022][research_monat_possti_2022]\] \[[Azzawi 2022][research_azzawi_2022]\] \[[Alam and Kara 2022][research_alam_kara_2022]\] \[[Smyk et al 2022][research_smyk_markowicz_2022]\] \[[Zhang and Zong 2022][research_zhang_zong_2022]\] \[[Zhao et al 2022][research_zhao_zhao_2022]\] \[[Chernyshev et al 2023][research_chernyshev_gadzhimagomedov_2023]\] \[[Zhao et al 2023][research_zhao_zhang_2023]\] \[[Chang et al 2023][research_chang_he_2023]\] \[[Loe et al 2023][research_loe_zheng_2023]\] \[[Awate and Ansell 2023][research_awate_ansell_2023]\] \[[Vukasinovic et al 2023][research_vukasinovic_glezer_2023]\] \[[zhang et al 2023][research_zhang_gan_2023]\] \[[Tavakkoli et al 2023][research_tavakkoli_niliahmadabadi_2023]\] \[[Xu et al 2023][research_xu_wu_2023]\] \[[Okada et al 2023][research_okada_hiruma_2023]\] \[[Flow instability and momentum 2023][research_flow_instability_2023]\] \[[Nicholls and Bacic 2023][research_nicholls_bacic_2023]\] \[[Löffler and Weiss 2023][research_loffler_weiss_2023]\] \[[Liu et al 2023][research_liu_xue_2023]\] \[[Yu and Zheng 2023][research_yu_zheng_2023]\] \[[Tung Pham Duy et al 2023][research_tungphamduy_tomoakiwatanabe_2023]\] \[[Butler et al 2023][research_butler_ekmekci_2023]\] \[[Elaissi et al 2023][research_elaissi_moneer_2023]\] \[[Aslani et al 2023][research_aslani_krieger_2023]\] \[[Truong et al 2023][research_truong_marouf_2023]\] \[[Numerical investigation of aerodynamic 2023][research_numerical_investigation_2023]\] \[[Kayvanpour et al 2023][research_kayvanpour_noori_2023]\] \[[Gao et al 2023][research_gao_zhao_2023]\] \[[Yu et al 2023][research_yu_cui_2023]\] \[[Blejchař et al 2023][research_blejchar_drabkova_2023]\] \[[Golubev 2023][research_golubev_2023_b]\] \[[Golubev 2023][research_golubev_2023]\] \[[Chen et al 2023][research_chen_zhong_2023]\] \[[Maikap et al 2023][research_maikap_karthick_2023]\] \[[Mayahara and Sato 2023][research_mayahara_sato_2023]\] \[[Oka et al 2023][research_oka_ozawa_2023]\] \[[Zhou et al 2023][research_zhou_li_2023]\] \[[Kotvitskii et al 2023][research_kotvitskii_kazanskii_2023]\] \[[Yuura et al 2023][research_yuura_watanabe_2023]\] \[[Jiang et al 2023][research_jiang_yu_2023]\] \[[Kobayashi and Fuchiwaki 2023][research_kobayashi_fuchiwaki_2023]\] \[[Zhu et al 2024][research_zhu_zhou_2024]\] \[[Kassem and Kara 2024][research_kassem_kara_2024]\] \[[Tang and Li 2024][research_tang_li_2024]\] \[[Alvarez 2024][research_alvarez_2024]\] \[[Mahdavi et al 2024][research_mahdavi_mani_2024]\] \[[Karimzadegan et al 2024][research_karimzadegan_mirzaei_2024_b]\] \[[Zhou et al 2024][research_zhou_wang_2024]\] \[[Effect of Synthetic Jet 2024][research_effect_of_2024]\] \[[Ding et al 2024][research_ding_cheng_2024]\] \[[Serrar et al 2024][research_serrar_elkhlifi_2024]\] \[[Jabbari and Esmaeili 2024][research_jabbari_esmaeili_2024]\] \[[Viguera et al 2024][research_viguera_sasaki_2024]\] \[[Tocquer et al 2024][research_tocquer_raibaudo_2024]\] \[[Karimzadegan et al 2024][research_karimzadegan_mirzaei_2024]\] \[[Liu and Liang 2024][research_liu_liang_2024]\] \[[Maikap and Rajagopal 2024][research_maikap_rajagopal_2024]\] \[[Butler et al 2024][research_butler_ekmekci_2024]\] \[[Karimzadegan and Bergada 2024][research_karimzadegan_bergada_2024]\] \[[Yang et al 2024][research_yang_chen_2024]\] \[[Fan et al 2024][research_fan_zhang_2024]\] \[[Zhao and Bai 2024][research_zhao_bai_2024]\] \[[Sun et al 2024][research_sun_wang_2024]\] \[[Kim et al 2024][research_kim_choi_2024]\] \[[Ogawa et al 2024][research_ogawa_asada_2024]\] \[[Jing et al 2024][research_jing_luo_2024]\] \[[Zhao et al 2024][research_zhao_bai_2024_b]\] \[[Hussain and Khan 2024][research_hussain_khan_2024]\] \[[Three-dimensional Flow Field Characteristics 2024][research_three_dimensional_flow_2024]\] \[[Gui et al 2025][research_gui_lu_2025]\] \[[Kopiev 2025][research_kopiev_2025]\] \[[Viguera et al 2025][research_viguera_naramura_2025]\] \[[Kimura et al 2025][research_kimura_miyagi_2025]\] \[[Hammouda et al 2025][research_hammouda_khan_2025]\] \[[Martinke et al 2025][research_martinke_woszidlo_2025]\] \[[Liu 2025][research_liu_2025]\] \[[Mitsumoto et al 2025][research_mitsumoto_vechalapu_2025]\] \[[Karthikeyan and Harish 2025][research_karthikeyan_harish_2025]\] \[[Espinoza Gutierrez et al 2025][research_espinozagutierrez_trujillocorona_2025]\] \[[Hu et al 2025][research_hu_mitsumoto_2025_b]\] \[[Hu et al 2025][research_hu_mitsumoto_2025]\] \[[Zubair and Wen 2025][research_zubair_wen_2025]\] \[[Lee et al 2025][research_lee_kozato_2025]\] \[[Lu et al 2025][research_lu_wei_2025]\] \[[Aguirre-Villegas et al 2025][research_aguirrevillegas_mirandagodoy_2025]\] \[[D'Onofrio et al 2025][research_daposonofrio_paolillo_2025_b]\] \[[Iskandar et al 2025][research_iskandar_harinaldi_2025]\] \[[Gautam et al 2025][research_gautam_mohammed_2025]\] \[[Investigation of Wing Lift 2025][research_investigation_of_2025]\] \[[Zubair et al 2025][research_zubair_ren_2025]\] \[[Kara 2025][research_kara_2025]\] \[[Zengler et al 2025][research_zengler_troldborg_2025]\] \[[Rahni and Jahangirian 2025][research_rahni_jahangirian_2025_b]\] \[[D'Onofrio et al 2025][research_daposonofrio_paolillo_2025]\] \[[Ahmed et al 2025][research_ahmed_das_2025]\] \[[Zhang et al 2025][research_zhang_yu_2025]\] \[[Wang et al 2025][research_wang_huang_2025]\] \[[Liu et al 2025][research_liu_zeng_2025]\] \[[Rizzetta and Garmann 2025][research_rizzetta_garmann_2025]\] \[[Duan et al 2025][research_duan_xue_2025]\] \[[Numerical Study of the 2025][research_numerical_study_2025]\] \[[Price et al 2025][research_price_tang_2025]\] \[[Parametric Study on the 2025][research_parametric_study_2025]\] \[[Burlett and Mobli 2025][research_burlett_mobli_2025]\] \[[Maduche and Mongeau 2025][research_maduche_mongeau_2025]\] \[[Li et al 2025][research_li_peng_2025]\] \[[Sato 2025][research_sato_2025]\] \[[Kong et al 2025][research_kong_tang_2025]\] \[[Smyk and Stopel 2025][research_smyk_stopel_2025]\] \[[Zhao and Bai 2025][research_zhao_bai_2025]\] \[[Liu and Chen 2025][research_liu_chen_2025]\] \[[Fan et al 2026][research_fan_mei_2026]\] \[[Prabahar and Zha 2026][research_prabahar_zha_2026]\] \[[Shestakov and Yagodnitsyna 2026][research_shestakov_yagodnitsyna_2026]\] \[[Gui et al 2026][research_gui_lu_2026]\] \[[Saemian et al 2026][research_saemian_cota_2026]\] \[[Yamada and Norimoto 2026][research_yamada_norimoto_2026]\] \[[Sundall et al 2026][research_sundall_kanbur_2026]\] \[[Dumrul and Kara 2026][research_dumrul_kara_2026]\] \[[Mitsumoto et al 2026][research_mitsumoto_vechalapu_2026]\] \[[Nicholls et al 2026][research_nicholls_fenelon_2026]\] \[[Zhu et al 2026][research_zhu_cheng_2026]\] \[[D'Onofrio et al 2026][research_donofrio_paolillo_2026]\] \[[Zhang et al 2026][research_zhang_zuo_2026]\] \[[Güngördü 2026][research_gungordu_2026]\] \[[Shi et al 2026][research_shi_zeng_2026]\] \[[Dávalos et al 2026][research_davalos_cornejomonroy_2026]\] \[[Chen et al 2026][research_chen_yang_2026]\] \[[Jaganath and Steinfurth 2026][research_jaganath_steinfurth_2026]\] \[[Serrar and Khlifi 2026][research_serrar_khlifi_2026]\] \[[Wylie and Amitay 2026][research_wylie_amitay_2026_b]\] \[[Li et al 2026][research_li_zeng_2026]\] \[[Yukuan et al 2026][research_yukuan_chen_2026]\] \[[Löffler and Weiss 2027][research_loffler_weiss_2027]\] \[[Deb et al][research_deb_gangtao]\] \[[Seifert][research_seifert]\] \[[Ukpai and Rediniotis][research_ukpai_rediniotis]\] \[[Ansari Shirvan][research_ansarishirvan]\] \[[Sudak][research_sudak]\] \[[LaTunia P. Melton et al][research_latuniapmelton_danneuhart]\] \[[Latunia Pack Melton et al][research_latuniapackmelton_dannyhneuhart]\] \[[Konishi and Fujita][research_konishi_fujita]\] \[[Tseng][research_tseng]\] \[[Karimzadegan][research_karimzadegan]\] \[[Improved modeling of flow][research_improved_modeling]\] \[[Palmer][research_palmer]\] \[[James R L Koch et al][research_jamesrlkoch_jeffreyahousman]\] \[[Velasquez][research_velasquez]\] \[[Arcese][research_arcese]\] \[[Grosvenor][research_grosvenor]\] \[[de Vries][research_devries]\] \[[Tocquer][research_tocquer]\] \[[C P van Dam et al][research_cpvandam_saibharathmothukuri]\]
+**The effectors themselves.** Synthetic jets, sweeping jets and fluidic oscillators, plasma actuators, pulsed and vortex-generator jets, as devices and as applied to wings, bodies, inlets and turbines.
+
+**162 of these titles name a sweeping jet or a fluidic oscillator, and 147 of those date from 2010 or later.** The device this article argues is the natural one, because it generates its own frequency, is the recent part of the literature.
+
+**814 records.** \[[Westerman et al 1965][research_westerman_richards_1965]\] \[[Martinez 1967][research_martineze_1967]\] \[[Rehsteiner 1970][research_rehsteinerfh_1970]\] \[[Ito and Suematsu 1974][research_ito_suematsu_1974]\] \[[Ito and Suematsu 1975][research_ito_suematsu_1975]\] \[[Oshima and Kinoshita 1975][research_oshima_kinoshita_1975]\] \[[Hellbaum and McDermon 1977][research_hellbaumrf_mcdermonjn_1977]\] \[[Deadwyler 1980][research_deadwyler_1980]\] \[[Pullin and Simmons 1985][research_pullin_simmons_1985]\] \[[Roshko 1985][research_roshko_1985]\] \[[Johnston and Nishi 1989][research_johnston_nishi_1989]\] \[[Brenner 1993][research_brennermartinj_1993]\] \[[McManus et al 1994][research_mcmanus_legner_1994]\] \[[McManus et al 1995][research_mcmanus_joshi_1995]\] \[[McManus and Magill 1996][research_mcmanus_magill_1996]\] \[[Sedor 1996][research_sedor_1996]\] \[[Johari et al 1997][research_johari_mcmanus_1997]\] \[[McManus et al 1997][research_mcmanus_magill_1997]\] \[[Amitay et al 1998][research_amitay_smith_1998]\] \[[Lachowicz et al 1998][research_lachowicz_yao_1998]\] \[[Seifert et al 1998][research_seifert_eliahu_1998]\] \[[Amitay et al 1999][research_amitay_smith_1999]\] \[[Glezer 1999][research_glezer_1999]\] \[[Lamp and Chokani 1999][research_lampalisonm_chokanindaona_1999]\] \[[McLean et al 1999][research_mcleanjd_crouchjd_1999]\] \[[Seifert and Pack 1999][research_seifertavi_packlatuniag_1999]\] \[[Bons et al 2000][research_bons_sondergaard_2000]\] \[[Honohan et al 2000][research_honohan_amitay_2000]\] \[[Tanaka et al 2000][research_tanaka_hasegawa_2000]\] \[[Amitay et al 2001][research_amitay_horvath_2001]\] \[[Amitay et al 2001][research_amitay_smith_2001]\] \[[Gilarranz and Rediniotis 2001][research_gilarranz_rediniotis_2001]\] \[[Nedungadi et al 2001][research_nedungadi_barber_2001]\] \[[Tilmann 2001][research_tilmann_2001]\] \[[Cater and Soria 2002][research_cater_soria_2002]\] \[[Chen and Beeler 2002][research_chenfangjenq_beelergeorgeb_2002]\] \[[Fasel et al 2002][research_fasel_wygnanksi_2002]\] \[[Florent et al 2002][research_florent_pascal_2002]\] \[[Gordon and Soria 2002][research_gordon_soria_2002]\] \[[Gregory et al 2002][research_gregory_sakaue_2002]\] \[[Guo et al 2002][research_guo_cary_2002]\] \[[Guy et al 2002][research_guy_mclaughlin_2002]\] \[[Heinzen et al 2002][research_heinzen_hall_2002]\] \[[Johari and Rixon 2002][research_johari_rixon_2002]\] \[[Kim and Williams 2002][research_kim_williams_2002]\] \[[Naughton et al 2002][research_naughton_bishop_2002]\] \[[Rediniotis et al 2002][research_rediniotis_gilarranz_2002]\] \[[Schaeffler et al 2002][research_schaefflernormanw_hepnertimothye_2002]\] \[[Smith 2002][research_smithdouglasr_2002]\] \[[Ashpis et al 2003][research_ashpisdavid_corkethomasc_2003]\] \[[Gaeta et al 2003][research_gaetarj_ahujakk_2003]\] \[[Hassan and Roth 2003][research_hassan_roth_2003]\] \[[Holman et al 2003][research_holman_gallas_2003]\] \[[Hultgren and Ashpis 2003][research_hultgrenlennarts_ashpisdavide_2003]\] \[[Hultgren and Ashpis 2003][research_hultgrenlennarts_ashpisdavide_2003_b]\] \[[Jiang and Liu 2003][research_jiang_liu_2003]\] \[[Johari and Rixon 2003][research_johari_rixon_2003]\] \[[Jones and Englar 2003][research_jonesgregorys_englarrobetj_2003]\] \[[Krothapalli et al 2003][research_krothapalli_alvi_2003]\] \[[Liu et al 2003][research_liuyi_sankarlakshmin_2003_b]\] \[[Mathew et al 2003][research_mathewjose_gallasquentin_2003]\] \[[Milanovic 2003][research_milanovicivanam_2003]\] \[[Parekh et al 2003][research_parekh_williams_2003]\] \[[Post and Corke 2003][research_post_corke_2003]\] \[[Rixon and Johari 2003][research_rixon_johari_2003]\] \[[Vadillo et al 2003][research_vadillo_agarwal_2003]\] \[[Yamaleev and Carpenter 2003][research_yamaleevnailk_carpentermarkh_2003]\] \[[Anderson et al 2004][research_andersonbernhardh_millerdanieln_2004]\] \[[Anderson et al 2004][research_andersonbernhardh_millerdanieln_2004_b]\] \[[Cybyk et al 2004][research_cybyk_grossman_2004]\] \[[Duvigneau and Visonneau 2004][research_duvigneau_visonneau_2004]\] \[[Enloe et al 2004][research_enloe_mclaughlin_2004]\] \[[Gallas et al 2004][research_gallas_holman_2004]\] \[[Goldstein 2004][research_goldstein_2004]\] \[[Gordon et al 2004][research_gordon_cater_2004]\] \[[Gregory et al 2004][research_gregory_sullivan_2004]\] \[[Hansen and Bons 2004][research_hansen_bons_2004]\] \[[Hultgren and Ashpis 2004][research_hultgrenlennarts_ashpisdavide_2004]\] \[[Lonneman and Cutler 2004][research_lonnemanpatrickj_cutlerandrewd_2004]\] \[[Milanovic and Zaman 2004][research_milanovicivanam_zamankhairulbmq_2004]\] \[[Mossi and Bryant 2004][research_mossikarlam_bryantrobertg_2004]\] \[[Naitoh and Yamamoto 2004][research_naitoh_yamamoto_2004]\] \[[Post and Corke 2004][research_post_corke_2004]\] \[[Post and Corke 2004][research_post_corke_2004_b]\] \[[Post and Corke 2004][research_post_corke_2004_c]\] \[[Rediniotis 2004][research_rediniotis_2004]\] \[[Rumsey et al 2004][research_rumseycl_gatskitb_2004]\] \[[Sahu 2004][research_sahu_2004]\] \[[Sahu 2004][research_sahu_2004_b]\] \[[Schaeffler and Jenkins 2004][research_schaefflernormanw_jenkinsluthern_2004]\] \[[Tan et al 2004][research_tan_agarwal_2004]\] \[[Ugrina and Flatau 2004][research_ugrina_flatau_2004]\] \[[Vatsa and Turkel 2004][research_vatsaveern_turkelelil_2004]\] \[[Yan and Xin 2004][research_yan_xin_2004]\] \[[Yao et al 2004][research_yaochungsheng_chenfangjenq_2004]\] \[[Zaman 2004][research_zamankbmq_2004]\] \[[Alvi 2005][research_alvi_2005]\] \[[Alvi and Gorton 2005][research_alvifarrukhs_gortonsusan_2005]\] \[[Cutler et al 2005][research_cutlerandrewd_beckbterry_2005]\] \[[Deb et al 2005][research_deb_tao_2005]\] \[[Gallas et al 2005][research_gallasquentin_sheplakmark_2005]\] \[[Greenblatt et al 2005][research_greenblatt_paschal_2005]\] \[[Gregory et al 2005][research_gregory_gnanamanickam_2005]\] \[[Gregory et al 2005][research_gregory_sullivan_2005]\] \[[Hassan 2005][research_hassan_2005]\] \[[Jung 2005][research_jung_2005]\] \[[Kim et al 2005][research_kim_williams_2005]\] \[[Kondor et al 2005][research_kondor_parekh_2005]\] \[[Koso 2005][research_koso_2005]\] \[[Liddle et al 2005][research_liddle_crowther_2005]\] \[[Liu et al 2005][research_liuyi_sankarlakshmin_2005]\] \[[Mittal 2005][research_mittal_2005]\] \[[Moore et al 2005][research_moore_wolff_2005]\] \[[Naitoh and Suzuki 2005][research_naitoh_suzuki_2005]\] \[[Orkwis et al 2005][research_orkwis_pes_2005]\] \[[Orlov and Corke 2005][research_orlov_corke_2005]\] \[[Raju et al 2005][research_raju_mittal_2005]\] \[[Rumsey et al 2005][research_rumseychristoperl_schaefflernormanw_2005]\] \[[Smith 2005][research_smith_2005]\] \[[Subbarao et al 2005][research_subbarao_dennis_2005]\] \[[Amitay and Glezer 2006][research_amitay_glezer_2006]\] \[[Baysal et al 2006][research_baysal_koklu_2006]\] \[[Charonko and Vlachos 2006][research_charonko_vlachos_2006]\] \[[Computational Evaluation of Steady 2006][research_computational_evaluation_2006]\] \[[Dano and Liburdy 2006][research_dano_liburdy_2006]\] \[[Deb et al 2006][research_deb_gangtao_2006]\] \[[Design and Analysis of 2006][research_design_and_2006]\] \[[Duvigneau and Visonneau 2006][research_duvigneau_visonneau_2006]\] \[[Ellison 2006][research_ellison_2006]\] \[[Enloe et al 2006][research_enloe_mclaughlin_2006]\] \[[Gomes and Crowther 2006][research_gomes_crowther_2006]\] \[[Greenblatt et al 2006][research_greenblatt_paschal_2006]\] \[[Guo 2006][research_guo_2006]\] \[[Hansen and Bons 2006][research_hansen_bons_2006]\] \[[Hiller and Seitz 2006][research_hiller_seitz_2006]\] \[[Hong 2006][research_hong_2006]\] \[[Kim and Kim 2006][research_kim_kim_2006]\] \[[Kourta et al 2006][research_kourta_petit_2006]\] \[[Leclerc et al 2006][research_leclerc_levallois_2006]\] \[[Lee et al 2006][research_lee_kim_2006]\] \[[Mehta 2006][research_mehta_2006]\] \[[Ogawara et al 2006][research_ogawara_nakatani_2006]\] \[[Orkwis and Daviaux 2006][research_orkwis_daviaux_2006]\] \[[Orlov et al 2006][research_orlov_corke_2006]\] \[[Pinheiro 2006][research_pinheiro_2006]\] \[[Porter et al 2006][research_porter_baughn_2006]\] \[[Post and Corke 2006][research_post_corke_2006]\] \[[Reimann et al 2006][research_reimann_bloxham_2006]\] \[[Roth and Dai 2006][research_roth_dai_2006]\] \[[Rumsey et al 2006][research_rumseycl_gatskitb_2006]\] \[[Samimy et al 2006][research_samimym_kastnerj_2006]\] \[[Schaeffler and Jenkins 2006][research_schaefflernormanw_jenkinsluthern_2006]\] \[[Scholz et al 2006][research_scholz_ortmanns_2006]\] \[[Suzuki 2006][research_suzuki_2006]\] \[[Tamburello and Amitay 2006][research_tamburello_amitay_2006]\] \[[Trávníček et al 2006][research_travnicek_vit_2006]\] \[[Vatsa and Turkel 2006][research_vatsaveern_turkeleli_2006]\] \[[Webb et al 2006][research_webb_schultz_2006]\] \[[Wilson 2006][research_wilsonjs_2006]\] \[[Zhang et al 2006][research_zhang_zhou_2006]\] \[[Alvi 2007][research_alvifarrukhs_2007]\] \[[Arienti and Soteriou 2007][research_arienti_soteriou_2007]\] \[[Bourgois et al 2007][research_bourgois_siauw_2007]\] \[[Corke et al 2007][research_corkethomasc_thomasflinto_2007]\] \[[Cybyk et al 2007][research_cybyk_simon_2007]\] \[[Deb et al 2007][research_deb_tao_2007]\] \[[Deng et al 2007][research_deng_jiang_2007]\] \[[Gregory et al 2007][research_gregory_ruotolo_2007]\] \[[Kim et al 2007][research_kim_debiasi_2007]\] \[[Kim et al 2007][research_kim_hong_2007]\] \[[Koso and Kinoshita 2007][research_koso_kinoshita_2007]\] \[[Kostas et al 2007][research_kostas_foucaut_2007]\] \[[Luo et al 2007][research_luo_xia_2007]\] \[[Ng et al 2007][research_ng_patel_2007]\] \[[Ortmanns and Kähler 2007][research_ortmanns_kahler_2007]\] \[[Post et al 2007][research_post_greenwade_2007]\] \[[Raju et al 2007][research_raju_mittal_2007]\] \[[Rumsey et al 2007][research_rumseycl_schaefflernw_2007]\] \[[Rumsey 2007][research_rumseychristopherl_2007]\] \[[Schaeffler et al 2007][research_schaefflernormanw_jenkinsluthern_2007]\] \[[Segawa et al 2007][research_segawa_furutani_2007]\] \[[Shang 2007][research_shang_2007]\] \[[Sidorenko et al 2007][research_sidorenko_zanin_2007]\] \[[Suzen et al 2007][research_suzenyb_huangpg_2007]\] \[[Takeuchi et al 2007][research_takeuchi_yasuoka_2007]\] \[[Tian et al 2007][research_tian_cattafesta_2007]\] \[[Vatsa and Turkel 2007][research_vatsaveern_turkeleli_2007]\] \[[Xu et al 2007][research_xu_li_2007]\] \[[Yamaleev et al 2007][research_yamaleevnailk_carpentermarkh_2007]\] \[[Yao et al 2007][research_yaocs_chenfj_2007]\] \[[Akhtar and Nayfeh 2008][research_akhtar_nayfeh_2008]\] \[[Benard et al 2008][research_benard_jolibois_2008]\] \[[Bogdanov et al 2008][research_bogdanov_kudryavtsev_2008]\] \[[Braud et al 2008][research_braud_dyment_2008]\] \[[Brown 2008][research_brownclifforda_2008]\] \[[Casper et al 2008][research_casper_kahler_2008]\] \[[Coiro et al 2008][research_coiro_bellobuono_2008]\] \[[Deb et al 2008][research_deb_tao_2008]\] \[[Enloe et al 2008][research_enloe_mclaughlin_2008]\] \[[Feikema and Culley 2008][research_feikema_culley_2008]\] \[[Garnier et al 2008][research_garnier_pruvost_2008]\] \[[Gomes and Crowther 2008][research_gomes_crowther_2008]\] \[[Gunes et al 2008][research_gunes_cadirci_2008]\] \[[Guo and Zhong 2008][research_guo_zhong_2008]\] \[[Higashiura et al 2008][research_higashiura_motosuke_2008]\] \[[Jabbal 2008][research_jabbal_2008]\] \[[Jolibois et al 2008][research_jolibois_forte_2008]\] \[[Kearney-Fischer et al 2008][research_kearneyfischer_kim_2008]\] \[[Klimov et al 2008][research_klimov_bitiurin_2008]\] \[[Koso and Kinoshita 2008][research_koso_kinoshita_2008]\] \[[Kotapati et al 2008][research_kotapati_mittal_2008]\] \[[Liu et al 2008][research_liu_wang_2008]\] \[[Lucas et al 2008][research_lucas_taubert_2008]\] \[[Mittal and Cattafesta 2008][research_mittal_cattafesta_2008]\] \[[Nourgostar and Roth 2008][research_nourgostar_roth_2008]\] \[[Okita et al 2008][research_okita_jukes_2008]\] \[[Pinzon and Agarwal 2008][research_pinzon_agarwal_2008]\] \[[Pinzon et al 2008][research_pinzon_agarwal_2008_b]\] \[[Raju et al 2008][research_raju_aram_2008]\] \[[Raju et al 2008][research_raju_mittal_2008]\] \[[Roupassov et al 2008][research_roupassov_nikipelov_2008]\] \[[Rusovici et al 2008][research_rusovici_offord_2008]\] \[[Santhanakrishnan et al 2008][research_santhanakrishnan_reasor_2008]\] \[[Schatzman and Thomas 2008][research_schatzman_thomas_2008]\] \[[Shah et al 2008][research_shah_wong_2008]\] \[[Shea and Smith 2008][research_shea_smith_2008]\] \[[Sherman 2008][research_sherman_2008]\] \[[Singh and Roy 2008][research_singh_roy_2008]\] \[[Takagaki et al 2008][research_takagaki_isono_2008]\] \[[Tereshonok 2008][research_tereshonok_2008]\] \[[Tuck and Soria 2008][research_tuck_soria_2008]\] \[[You and Moin 2008][research_you_moin_2008]\] \[[Zhang et al 2008][research_zhang_wang_2008]\] \[[Agashe et al 2009][research_agashe_arnold_2009]\] \[[Appelgren et al 2009][research_appelgren_hurtig_2009]\] \[[Aram et al 2009][research_aram_mittal_2009]\] \[[Arunajatesan et al 2009][research_arunajatesan_oyarzun_2009]\] \[[Caruana et al 2009][research_caruana_barricau_2009]\] \[[Enloe et al 2009][research_enloe_mcharg_2009]\] \[[Ferlauto and Marsilio 2009][research_ferlauto_marsilio_2009]\] \[[Koklu and Baysal 2009][research_koklu_baysal_2009]\] \[[Kostas et al 2009][research_kostas_foucaut_2009]\] \[[Liu et al 2009][research_liu_wang_2009]\] \[[Lopez et al 2009][research_lopez_brzozowski_2009]\] \[[Mamunuru et al 2009][research_mamunuru_guo_2009]\] \[[Nikipelov et al 2009][research_nikipelov_nudnova_2009]\] \[[Ozturk and Jacob 2009][research_ozturk_jacob_2009]\] \[[Peers et al 2009][research_peers_xunhuang_2009]\] \[[Raju et al 2009][research_raju_aram_2009]\] \[[Segawa et al 2009][research_segawa_abe_2009]\] \[[Singhal et al 2009][research_singhal_tao_2009]\] \[[Tan 2009][research_tan_2009]\] \[[Watmuff 2009][research_watmuff_2009]\] \[[Yang 2009][research_yang_2009]\] \[[You and Moin 2009][research_you_moin_2009]\] \[[Aram et al 2010][research_aram_mittal_2010]\] \[[Asada and Fujii 2010][research_asada_fujii_2010]\] \[[Benard et al 2010][research_benard_bonnet_2010]\] \[[Blaylock et al 2010][research_blaylock_chow_2010]\] \[[Cadirci et al 2010][research_cadirci_gunes_2010]\] \[[Cho et al 2010][research_cho_hoagg_2010]\] \[[Ferry and Rovey 2010][research_ferry_rovey_2010]\] \[[Gokoglu et al 2010][research_gokoglu_kuczmarski_2010]\] \[[Goodfellow et al 2010][research_goodfellow_yarusevych_2010]\] \[[Joussot et al 2010][research_joussot_hong_2010]\] \[[Kearney-Fischer et al 2010][research_kearneyfischer_kim_2010]\] \[[Kwak and Nelson 2010][research_kwak_nelson_2010]\] \[[Little et al 2010][research_little_takashima_2010]\] \[[Mack et al 2010][research_mack_tao_2010]\] \[[Matsuno et al 2010][research_matsuno_ota_2010]\] \[[Mondschein et al 2010][research_mondschein_tao_2010]\] \[[Oyarzun and Cattafesta 2010][research_oyarzun_cattafesta_2010]\] \[[Sammy 2010][research_sammymo_2010]\] \[[Smith 2010][research_smith_2010]\] \[[Stephen et al 2010][research_stephen_dewey_2010]\] \[[Volino et al 2010][research_volinoralphj_ibrahimmounirb_2010]\] \[[Woszidlo et al 2010][research_woszidlo_nawroth_2010]\] \[[Ashpis and Thurman 2011][research_ashpisdavide_thurmandouglasr_2011]\] \[[Baqui and Mahmud 2011][research_baqui_mahmud_2011]\] \[[Brown 2011][research_brownclifforda_2011]\] \[[Casper et al 2011][research_casper_scholz_2011]\] \[[Che et al 2011][research_che_nie_2011]\] \[[Ciobaca et al 2011][research_ciobaca_kuhn_2011]\] \[[Disotell and Gregory 2011][research_disotell_gregory_2011]\] \[[Glezer 2011][research_glezer_2011]\] \[[Ibrahim and Skote 2011][research_ibrahim_skote_2011]\] \[[Javadi and Khodadadi 2011][research_javadi_khodadadi_2011]\] \[[Jin et al 2011][research_jin_ono_2011]\] \[[Luo and Zhang 2011][research_luo_zhang_2011]\] \[[Lyubimov 2011][research_lyubimov_2011]\] \[[Nonomura et al 2011][research_nonomura_sekimoto_2011]\] \[[Oates and Alvi 2011][research_oates_alvi_2011]\] \[[Packard and Bons 2011][research_packard_bons_2011]\] \[[Stephen et al 2011][research_stephen_campbell_2011]\] \[[Trancossi and Dumas 2011][research_trancossi_dumas_2011]\] \[[Tseng et al 2011][research_tseng_yang_2011]\] \[[Volino 2011][research_volino_2011]\] \[[Woszidlo and Wygnanski 2011][research_woszidlo_wygnanski_2011]\] \[[Xu et al 2011][research_xutianbing_jiangxiaoning_2011]\] \[[Asada and Fujii 2012][research_asada_fujii_2012]\] \[[Bazdidi-Tehrani and Jahromi 2012][research_bazdiditehrani_jahromi_2012]\] \[[Benhegouga and Boukehili 2012][research_benhegouga_boukehili_2012]\] \[[Braud and Dyment 2012][research_braud_dyment_2012]\] \[[Chabert et al 2012][research_chabert_dandois_2012]\] \[[Chappell and Angland 2012][research_chappell_angland_2012]\] \[[Chappell et al 2012][research_chappell_cai_2012]\] \[[Dawson and Little 2012][research_dawson_little_2012]\] \[[Honami and Motosuke 2012][research_honami_motosuke_2012]\] \[[Hoskinson 2012][research_hoskinsonalanr_2012]\] \[[Ibrahim and Skote 2012][research_ibrahim_skote_2012]\] \[[Ikoshi et al 2012][research_ikoshi_ogata_2012]\] \[[Jabbal 2012][research_jabbal_2012]\] \[[Kordík and Trávníček 2012][research_kordik_travnicek_2012]\] \[[Kurz et al 2012][research_kurz_tropea_2012]\] \[[Matsuno et al 2012][research_matsuno_kawaguchi_2012]\] \[[Matsunuma and Segawa 2012][research_matsunuma_segawa_2012]\] \[[Ogawara et al 2012][research_ogawara_kojima_2012]\] \[[Opaits 2012][research_opaitsdmitryf_2012]\] \[[Osmokrovic et al 2012][research_osmokrovic_hanson_2012]\] \[[Pierre et al 2012][research_pierre_rabat_2012]\] \[[Sawant et al 2012][research_sawant_eskinazi_2012]\] \[[Sawant et al 2012][research_sawant_oyarzun_2012]\] \[[Seele et al 2012][research_seele_graff_2012]\] \[[Vasta et al 2012][research_vastaveern_koklumehti_2012]\] \[[Volino and Ibrahim 2012][research_volinoralphj_ibrahimmounirb_2012]\] \[[Volino and Ibrahim 2012][research_volinoralphj_ibrahimmounirb_2012_b]\] \[[West and Hosder 2012][research_west_hosder_2012]\] \[[Wu et al 2012][research_wu_deng_2012]\] \[[Xu et al 2012][research_xutianbing_jiangxiaoning_2012]\] \[[Bernardini et al 2013][research_bernardini_benton_2013]\] \[[Bobusch et al 2013][research_bobusch_woszidlo_2013]\] \[[Chen et al 2013][research_chen_hao_2013]\] \[[Choutapalli 2013][research_choutapalli_2013]\] \[[Dawson and Little 2013][research_dawson_little_2013]\] \[[Gao et al 2013][research_gao_zhang_2013]\] \[[Goh and Lee 2013][research_goh_lee_2013]\] \[[Graff et al 2013][research_graffemilio_seeleroman_2013]\] \[[Gregory and Tomac 2013][research_gregory_tomac_2013]\] \[[Hasnain et al 2013][research_hasnain_flatau_2013]\] \[[Hosseinverdi and Fasel 2013][research_hosseinverdi_fasel_2013]\] \[[Koichi et al 2013][research_koichi_kotaro_2013]\] \[[Koklu and Melton 2013][research_koklumehti_meltonlatuniap_2013]\] \[[Kordík and Trávníček 2013][research_kordik_travnicek_2013]\] \[[Kotsonis et al 2013][research_kotsonis_pul_2013]\] \[[Krüger et al 2013][research_kruger_bobusch_2013]\] \[[Makoto et al 2013][research_makoto_koichi_2013]\] \[[Matsuno et al 2013][research_matsuno_maeda_2013]\] \[[Motoaki et al 2013][research_motoaki_jun_2013]\] \[[Md et al 2013][research_nmd_yuta_2013]\] \[[Norimasa et al 2013][research_norimasa_masumi_2013]\] \[[Parametric Investigation of Nanosecond 2013][research_parametric_investigation_2013]\] \[[Sawant et al 2013][research_sawant_eskinazi_2013]\] \[[Schneck and Winfrey 2013][research_schneck_winfrey_2013]\] \[[Seele et al 2013][research_seeleroman_graffemilio_2013]\] \[[Shimizu et al 2013][research_shimizu_mizuno_2013]\] \[[Sitaraman and Raja 2013][research_sitaraman_raja_2013]\] \[[Takashi et al 2013][research_takashi_kengo_2013]\] \[[Tang et al 2013][research_tang_salunkhe_2013]\] \[[Tesař and Peszynski 2013][research_tesar_peszynski_2013]\] \[[Tesař et al 2013][research_tesar_zhong_2013]\] \[[Tetsuya and Hiroaki 2013][research_tetsuya_hiroaki_2013]\] \[[Tomac and Gregory 2013][research_tomac_gregory_2013]\] \[[Tomohisa et al 2013][research_tomohisa_akinori_2013]\] \[[West and Hosder 2013][research_west_hosder_2013]\] \[[Wilson et al 2013][research_wilson_schatzman_2013]\] \[[Wu and Ahmed 2013][research_wu_ahmed_2013]\] \[[Xu and Meng 2013][research_xu_meng_2013]\] \[[Aider et al 2014][research_aider_joseph_2014]\] \[[Albright and Solovitz 2014][research_albright_solovitz_2014]\] \[[Application of Zero-Net Mass-Flux 2014][research_application_of_2014]\] \[[Ashpis and Laun 2014][research_ashpisdavide_launmatthewc_2014]\] \[[Ashpis and Laun 2014][research_ashpisdavide_launmatthewc_2014_b]\] \[[Experimental Investigation of "Why 2014][research_experimental_investigation_2014]\] \[[Friz and Rovey 2014][research_friz_rovey_2014]\] \[[Gaertlein et al 2014][research_gaertlein_woszidlo_2014]\] \[[Gardner et al 2014][research_gardner_richter_2014]\] \[[González-Espinosa et al 2014][research_gonzalezespinosa_buchmann_2014]\] \[[Kausar et al 2014][research_kausar_mushtaq_2014]\] \[[Koklu and Owens 2014][research_koklumehti_owenslewisr_2014]\] \[[Kozato et al 2014][research_kozato_hirose_2014]\] \[[Langston 2014][research_langston_2014]\] \[[Laurendeau et al 2014][research_laurendeau_chedevergne_2014]\] \[[Likhanskii 2014][research_likhanskiialexander_2014]\] \[[Meier and Heister 2014][research_meier_heister_2014]\] \[[Melton 2014][research_meltonlatuniap_2014]\] \[[Natarajan et al 2014][research_natarajan_freund_2014]\] \[[Sato et al 2014][research_sato_asada_2014]\] \[[Sekimoto et al 2014][research_sekimoto_sulaiman_2014]\] \[[Shang and Huang 2014][research_shang_huang_2014]\] \[[Stalewski and Sznajder 2014][research_stalewski_sznajder_2014]\] \[[Taira 2014][research_taira_2014]\] \[[Tang et al 2014][research_tang_salunkhe_2014]\] \[[Tomac and Gregory 2014][research_tomac_gregory_2014]\] \[[Vatsa et al 2014][research_vatsaveern_casalinodamiano_2014]\] \[[Wang et al 2014][research_wang_xia_2014]\] \[[Williams et al 2014][research_williams_jemcov_2014]\] \[[Wong et al 2014][research_wong_wang_2014]\] \[[Xu et al 2014][research_xutianbing_suji_2014]\] \[[Zhou et al 2014][research_zhou_wang_2014]\] \[[Önder and Meyers 2014][research_onder_meyers_2014]\] \[[Abe et al 2015][research_abe_nonomura_2015]\] \[[Andino et al 2015][research_andinomarlyny_linjohnc_2015]\] \[[Borghi et al 2015][research_borghi_cristofolini_2015]\] \[[Cai et al 2015][research_cai_angland_2015]\] \[[Correale 2015][research_correale_2015]\] \[[Dahalan et al 2015][research_dahalan_mansor_2015]\] \[[Feero et al 2015][research_feero_goodfellow_2015]\] \[[Frankhouser and Gregory 2015][research_frankhouser_gregory_2015]\] \[[Gupte et al 2015][research_gupte_pradeep_2015]\] \[[Hasnain et al 2015][research_hasnain_trollinger_2015]\] \[[Kara 2015][research_kara_2015]\] \[[Koklu 2015][research_koklumehti_2015]\] \[[Kunimoto and Fuchiwaki 2015][research_kunimoto_fuchiwaki_2015]\] \[[Kushner et al 2015][research_kushnerlaurakathryn_heineckjamest_2015]\] \[[Laurendeau et al 2015][research_laurendeau_chedevergne_2015]\] \[[Mangina et al 2015][research_mangina_enloe_2015]\] \[[Marxen et al 2015][research_marxen_kotapati_2015]\] \[[Miyagi et al 2015][research_miyagi_ueki_2015]\] \[[Moralev et al 2015][research_moralev_bityurin_2015]\] \[[Ono et al 2015][research_ono_kameya_2015]\] \[[Ostermann et al 2015][research_ostermann_woszidlo_2015]\] \[[Pasquetti and Peres 2015][research_pasquetti_peres_2015]\] \[[Pedroza et al 2015][research_pedroza_mackunis_2015]\] \[[Pescini et al 2015][research_pescini_francioso_2015]\] \[[Pick 2015][research_pick_2015]\] \[[Sauti et al 2015][research_sautigodfrey_xutianbing_2015]\] \[[Shimizu et al 2015][research_shimizu_mizuno_2015]\] \[[Soria 2015][research_soria_2015]\] \[[Tesař 2015][research_tesar_2015]\] \[[Tewes and Taubert 2015][research_tewes_taubert_2015]\] \[[Van Buren et al 2015][research_vanburen_whalen_2015]\] \[[von Gosen et al 2015][research_vongosen_ostermann_2015]\] \[[Xia and Mohseni 2015][research_xia_mohseni_2015]\] \[[Zamora and Pafford 2015][research_zamora_pafford_2015]\] \[[Asano et al 2016][research_asano_sato_2016]\] \[[Ashcraft et al 2016][research_ashcraft_decker_2016]\] \[[Ashpis and Laun 2016][research_ashpisdavide_launmatthewc_2016]\] \[[Ashpis and Laun 2016][research_ashpisdavide_launmatthewc_2016_b]\] \[[Ayers and Johari 2016][research_ayers_johari_2016]\] \[[Benard et al 2016][research_benard_mizuno_2016]\] \[[Bettrich and Niehuis 2016][research_bettrich_niehuis_2016]\] \[[Chae et al 2016][research_chae_ahn_2016]\] \[[Coskun et al 2016][research_coskun_cadirci_2016]\] \[[Coumar et al 2016][research_coumar_joussot_2016]\] \[[Duda et al 2016][research_dudab_wesselsm_2016]\] \[[Fukumoto et al 2016][research_fukumoto_aono_2016]\] \[[Futrzynski and Efraimsson 2016][research_futrzynski_efraimsson_2016]\] \[[Gil and Strzelczyk 2016][research_gil_strzelczyk_2016]\] \[[Greco et al 2016][research_greco_cardone_2016]\] \[[Harinaldi et al 2016][research_harinaldi_budiarso_2016]\] \[[Horne and Burnside 2016][research_horne_burnside_2016]\] \[[Horne and Burnside 2016][research_horneclifton_burnsidenate_2016]\] \[[Horne and Burnside 2016][research_hornewilliamc_burnsidenathanj_2016]\] \[[Ibrahimoglu et al 2016][research_ibrahimoglu_yilmazoglu_2016]\] \[[Itsariyapinyo and Sharma 2016][research_itsariyapinyo_sharma_2016]\] \[[Jeyalingam and Jabbal 2016][research_jeyalingam_jabbal_2016]\] \[[Jones et al 2016][research_jonesgregorys_milholenwilliameii_2016]\] \[[Kara 2016][research_kara_2016]\] \[[Kato et al 2016][research_kato_breitsamter_2016]\] \[[Khoshkhoo and Jahangirian 2016][research_khoshkhoo_jahangirian_2016]\] \[[Kim et al 2016][research_kim_moin_2016]\] \[[Koklu 2016][research_koklu_2016]\] \[[Koklu 2016][research_koklumehti_2016]\] \[[Koklu 2016][research_koklumehti_2016_b]\] \[[Li et al 2016][research_li_meng_2016]\] \[[Lu et al 2016][research_lu_wong_2016]\] \[[Melton and Koklu 2016][research_meltonlatuniapack_koklumehti_2016]\] \[[Melton et al 2016][research_meltonlatuniapack_koklumehti_2016_b]\] \[[Neretti 2016][research_neretti_2016]\] \[[Ostermann et al 2016][research_ostermann_woszidlo_2016]\] \[[Park and Kim 2016][research_park_kim_2016]\] \[[Peters et al 2016][research_peterschristopherj_milesrichardb_2016]\] \[[Phan and Shin 2016][research_phan_shin_2016]\] \[[Sieber et al 2016][research_sieber_ostermann_2016]\] \[[Slupski and Kara 2016][research_slupski_kara_2016]\] \[[Tesař 2016][research_tesar_2016]\] \[[Vatsa et al 2016][research_vatsaveern_dudabenjamin_2016]\] \[[Wang et al 2016][research_wang_wang_2016]\] \[[Wang et al 2016][research_wang_zhou_2016]\] \[[Yan et al 2016][research_yan_meng_2016]\] \[[Aono et al 2017][research_aono_kawai_2017]\] \[[Bacic 2017][research_bacic_2017]\] \[[Bauer et al 2017][research_bauer_karch_2017]\] \[[Berk et al 2017][research_berk_gomit_2017]\] \[[Boukenkoul et al 2017][research_boukenkoul_li_2017]\] \[[Cui et al 2017][research_cui_zhao_2017]\] \[[Feero et al 2017][research_feero_2017]\] \[[Horne and Burnside 2017][research_horneclifton_burnsidenate_2017]\] \[[Hue et al 2017][research_hue_francois_2017]\] \[[Igarashi et al 2017][research_igarashi_nogi_2017]\] \[[Jones et al 2017][research_jonesgregorys_milholenwilliameii_2017]\] \[[Kara 2017][research_kara_2017]\] \[[Kara and Slupski 2017][research_kara_slupski_2017]\] \[[Kim et al 2017][research_kim_moin_2017]\] \[[Koklu and Owens 2017][research_koklu_owens_2017]\] \[[Koklu 2017][research_koklumehti_2017]\] \[[Koklu 2017][research_koklumehti_2017_b]\] \[[Koklu 2017][research_koklumehti_2017_c]\] \[[Kurowski 2017][research_kurowski_2017]\] \[[Lakebrink et al 2017][research_lakebrink_mani_2017]\] \[[Le Clainche et al 2017][research_leclainche_vega_2017]\] \[[Li et al 2017][research_li_li_2017]\] \[[Li et al 2017][research_li_shi_2017]\] \[[Messanelli and Belan 2017][research_messanelli_belan_2017]\] \[[Miyagi and Kimura 2017][research_miyagi_kimura_2017]\] \[[Ostermann et al 2017][research_ostermann_godbersen_2017]\] \[[Ramos-Pedroza et al 2017][research_ramospedroza_mackunis_2017]\] \[[Rimašauskienė 2017][research_rimasauskiene_2017]\] \[[Rimašauskienė 2017][research_rimasauskiene_2017_b]\] \[[Sato et al 2017][research_sato_nonomura_2017]\] \[[Seo and Mittal 2017][research_seo_mittal_2017]\] \[[Slupski and Kara 2017][research_slupski_kara_2017]\] \[[Smyk 2017][research_smyk_2017]\] \[[The failure of delayed 2017][research_the_failure_2017]\] \[[Tomac and Gregory 2017][research_tomac_gregory_2017]\] \[[Zhou et al 2017][research_zhou_xia_2017]\] \[[Zong and Kotsonis 2017][research_zong_kotsonis_2017]\] \[[Alimi and Wünsch 2018][research_alimi_wunsch_2018]\] \[[Bhattacharjee et al 2018][research_bhattacharjee_hemati_2018]\] \[[Comparison of acoustic synthetic 2018][research_comparison_of_2018]\] \[[Ebrahimi and Hajipour 2018][research_ebrahimi_hajipour_2018]\] \[[Elsahhar et al 2018][research_elsahhar_theunissen_2018]\] \[[Fujii 2018][research_fujii_2018]\] \[[Fukumoto et al 2018][research_fukumoto_aono_2018]\] \[[Ghee et al 2018][research_ghee_raghu_2018]\] \[[Harada and Sakakibara 2018][research_harada_sakakibara_2018]\] \[[Hirsch and Gharib 2018][research_hirsch_gharib_2018]\] \[[Hoeijmakers and Wirtz 2018][research_hoeijmakers_wirtz_2018]\] \[[Huang and Zhou 2018][research_huang_zhou_2018]\] \[[Huang et al 2018][research_huang_zhang_2018]\] \[[Itsariyapinyo and Sharma 2018][research_itsariyapinyo_sharma_2018]\] \[[Kanase et al 2018][research_kanase_mangate_2018]\] \[[Kanehara et al 2018][research_kanehara_sagawa_2018]\] \[[Kara et al 2018][research_kara_kim_2018]\] \[[Karyakin et al 2018][research_karyakin_nalivaiko_2018]\] \[[Kazanskii et al 2018][research_kazanskii_moralev_2018]\] \[[Koklu 2018][research_koklu_2018]\] \[[Koklu 2018][research_koklumehti_2018_b]\] \[[Kornyakov et al 2018][research_kornyakov_voevodin_2018]\] \[[Messahel et al 2018][research_messahel_bury_2018]\] \[[Miyagi and Kimura 2018][research_miyagi_kimura_2018]\] \[[Miyamoto et al 2018][research_miyamoto_yokoyama_2018]\] \[[Ogawa et al 2018][research_ogawa_asada_2018]\] \[[Palumbo et al 2018][research_palumbo_chiatto_2018]\] \[[Plasma Actuator 2018][research_plasma_actuator_2018]\] \[[Rice and Amitay 2018][research_rice_amitay_2018]\] \[[Salinas et al 2018][research_salinas_wojewodka_2018]\] \[[Sato 2018][research_sato_2018]\] \[[Schlösser and Bauer 2018][research_schlosser_bauer_2018]\] \[[Shen et al 2018][research_shen_yang_2018]\] \[[Slupski et al 2018][research_slupski_kara_2018]\] \[[Sujar-Garrido et al 2018][research_sujargarrido_hao_2018]\] \[[Synthetic Jet 2018][research_synthetic_jet_2018]\] \[[Tang and Agarwal 2018][research_tang_agarwal_2018]\] \[[Trávníček and Broučková 2018][research_travnicek_brouckova_2018]\] \[[Vatsa et al 2018][research_vatsaveern_dudabenjamin_2018]\] \[[Viturro et al 2018][research_viturro_leclainchemartinez_2018]\] \[[Wang and Tang 2018][research_wang_tang_2018]\] \[[Wang et al 2018][research_wang_wong_2018]\] \[[Wu et al 2018][research_wu_seo_2018]\] \[[Xin et al 2018][research_xin_lu_2018]\] \[[Zhang 2018][research_zhang_2018]\] \[[Zheng et al 2018][research_zheng_cui_2018]\] \[[Zimmerman et al 2018][research_zimmerman_carroll_2018]\] \[[Zong et al 2018][research_zong_vanpelt_2018]\] \[[Akimoto and Kimura 2019][research_akimoto_kimura_2019]\] \[[Berk and Ganapathisubramani 2019][research_berk_ganapathisubramani_2019]\] \[[Dancova et al 2019][research_dancova_psota_2019]\] \[[Dauengauer and Mullyadzhanov 2019][research_dauengauer_mullyadzhanov_2019]\] \[[Firsov et al 2019][research_firsov_kazansky_2019]\] \[[Gowda B C et al 2019][research_gowdabc_n_2019]\] \[[Handa and Fujimura 2019][research_handa_fujimura_2019]\] \[[Hasegawa and Obayashi 2019][research_hasegawa_obayashi_2019]\] \[[Hossain et al 2019][research_hossain_ameri_2019]\] \[[Hui et al 2019][research_hui_hu_2019]\] \[[Isobe et al 2019][research_isobe_suzuki_2019]\] \[[Kumar and Karn 2019][research_kumar_karn_2019]\] \[[Ma et al 2019][research_ma_li_2019]\] \[[Mehdipoor et al 2019][research_mehdipoor_sohbatzadeh_2019]\] \[[Messahel et al 2019][research_messahel_bury_2019]\] \[[Ming et al 2019][research_ming_ma_2019]\] \[[Ostermann et al 2019][research_ostermann_woszidlo_2019]\] \[[Ott et al 2019][research_ott_gallas_2019]\] \[[Pack Melton et al 2019][research_packmelton_lin_2019]\] \[[Park et al 2019][research_park_ko_2019]\] \[[Schatzman et al 2019][research_schatzman_drori_2019]\] \[[Seki and Sano 2019][research_seki_sano_2019]\] \[[Shimizu et al 2019][research_shimizu_nakashima_2019]\] \[[Slupski et al 2019][research_slupski_tajik_2019]\] \[[Tadjfar and Kamari 2019][research_tadjfar_kamari_2019]\] \[[Tomac and Gregory 2019][research_tomac_gregory_2019]\] \[[Tomac and Sundström 2019][research_tomac_sundstrom_2019]\] \[[Wang et al 2019][research_wang_yang_2019]\] \[[Yamashita and Hasegawa 2019][research_yamashita_hasegawa_2019]\] \[[Ye et al 2019][research_ye_zou_2019]\] \[[Abdelraouf et al 2020][research_abdelraouf_elmekawy_2020]\] \[[Abdelraouf et al 2020][research_abdelraouf_kassab_2020]\] \[[Belanger et al 2020][research_belanger_zingg_2020]\] \[[Buzica and Breitsamter 2020][research_buzica_breitsamter_2020]\] \[[Harinaldi et al 2020][research_harinaldi_muhammaddennikesuma_2020]\] \[[Hasan and Atkinson 2020][research_hasan_atkinson_2020]\] \[[Jackson et al 2020][research_jackson_wang_2020]\] \[[Kobayashi et al 2020][research_kobayashi_watanabe_2020]\] \[[Kumar and Karn 2020][research_kumar_karn_2020]\] \[[Lai et al 2020][research_lai_fu_2020]\] \[[Le Clainche et al 2020][research_leclainche_perez_2020]\] \[[Lei et al 2020][research_lei_zhang_2020]\] \[[Li and Zhang 2020][research_li_zhang_2020]\] \[[Nagasaki and Hasegawa 2020][research_nagasaki_hasegawa_2020]\] \[[Otake et al 2020][research_otake_yokoyama_2020]\] \[[Oz and Kara 2020][research_oz_kara_2020]\] \[[Palumbo et al 2020][research_palumbo_semeraro_2020]\] \[[Park et al 2020][research_park_ko_2020]\] \[[PourRazzaghi and Xu 2020][research_pourrazzaghi_xu_2020]\] \[[Sano and Seki 2020][research_sano_seki_2020]\] \[[Sekimoto et al 2020][research_sekimoto_fujii_2020]\] \[[Shay et al 2020][research_shay_posti_2020]\] \[[Shi and Sullivan 2020][research_shi_sullivan_2020]\] \[[Smyk et al 2020][research_smyk_gil_2020]\] \[[Smyk et al 2020][research_smyk_wawrzyniak_2020]\] \[[Sundström and Tomac 2020][research_sundstrom_tomac_2020]\] \[[Tomac 2020][research_tomac_2020]\] \[[Tomac and Sundström 2020][research_tomac_sundstrom_2020]\] \[[Weigel et al 2020][research_weigel_schuller_2020]\] \[[Yang and Agarwal 2020][research_yang_agarwal_2020]\] \[[Yokoyama et al 2020][research_yokoyama_otsuka_2020]\] \[[Aiura et al 2021][research_aiura_kobayashi_2021]\] \[[Deb et al 2021][research_deb_burkholder_2021]\] \[[Gil et al 2021][research_gil_wilk_2021]\] \[[Jia et al 2021][research_jia_liang_2021]\] \[[Kim and Kim 2021][research_kim_kim_2021]\] \[[Kim and Kim 2021][research_kim_kim_2021_b]\] \[[Kobayashi and Fuchiwaki 2021][research_kobayashi_fuchiwaki_2021]\] \[[Li et al 2021][research_li_zhou_2021]\] \[[Lim and Lyu 2021][research_lim_lyu_2021]\] \[[Löffler et al 2021][research_loffler_ebert_2021]\] \[[Koklu 2021][research_mehtikoklu_2021]\] \[[Palumbo and de Luca 2021][research_palumbo_deluca_2021]\] \[[Pan et al 2021][research_pan_zhenbing_2021]\] \[[Peterson et al 2021][research_peterson_vukasinovic_2021]\] \[[Pour Razzaghi et al 2021][research_pourrazzaghi_xu_2021]\] \[[Sarwar et al 2021][research_sarwar_bergada_2021]\] \[[Sato et al 2021][research_sato_enokido_2021]\] \[[Shimomura et al 2021][research_shimomura_sekimoto_2021]\] \[[Sim et al 2021][research_sim_ellis_2021]\] \[[Wen et al 2021][research_wen_li_2021]\] \[[Xia et al 2021][research_xia_hua_2021]\] \[[Zheng 2021][research_zheng_2021]\] \[[Zhu et al 2021][research_zhu_fraderasoler_2021]\] \[[Alam and Kara 2022][research_alam_kara_2022]\] \[[Arafa et al 2022][research_arafa_sullivan_2022]\] \[[Ayeni and Cleton 2022][research_ayeni_cleton_2022]\] \[[Azzawi 2022][research_azzawi_2022]\] \[[Chen and Li 2022][research_chen_li_2022]\] \[[Chen and Sun 2022][research_chen_sun_2022]\] \[[Farrell et al 2022][research_farrell_gibbons_2022]\] \[[Flow Separation Control on 2022][research_flow_separation_2022]\] \[[Gungordu 2022][research_gungordu_2022]\] \[[Investigations on the Interfering 2022][research_investigations_on_2022]\] \[[Itsariyapinyo and Sharma 2022][research_itsariyapinyo_sharma_2022]\] \[[Khan et al 2022][research_khan_tajik_2022]\] \[[Kumar Subramanyam et al 2022][research_kumarsubramanyam_venkatakrishnan_2022]\] \[[Kurowski and Szwaba 2022][research_kurowski_szwaba_2022]\] \[[Li et al 2022][research_li_luo_2022]\] \[[Lu et al 2022][research_lu_li_2022]\] \[[Luo et al 2022][research_luo_zhao_2022]\] \[[Madane et al 2022][research_madane_khalde_2022]\] \[[Maikap et al 2022][research_maikap_arunkumar_2022]\] \[[Mayahara and Sato 2022][research_mayahara_sato_2022]\] \[[Monat et al 2022][research_monat_possti_2022]\] \[[Nicholls and Bacic 2022][research_nicholls_bacic_2022]\] \[[Nicholls et al 2022][research_nicholls_tang_2022]\] \[[Smyk and Markowicz 2022][research_smyk_markowicz_2022_b]\] \[[Sundaram et al 2022][research_sundaram_sengupta_2022]\] \[[Tajik and Parezanovic 2022][research_tajik_parezanovic_2022]\] \[[Tajik et al 2022][research_tajik_khan_2022]\] \[[Tolkachev 2022][research_tolkachev_2022]\] \[[Vinoth Kumar and Vijayaraghavan 2022][research_vinothkumar_vijayaraghavan_2022]\] \[[Wu et al 2022][research_wu_meneveau_2022]\] \[[Zhang and Zong 2022][research_zhang_zong_2022]\] \[[Zhang et al 2022][research_zhang_li_2022]\] \[[Zhang et al 2022][research_zhang_liu_2022]\] \[[Zhao et al 2022][research_zhao_zhao_2022]\] \[[Aslani et al 2023][research_aslani_krieger_2023]\] \[[Awate and Ansell 2023][research_awate_ansell_2023]\] \[[Blejchař et al 2023][research_blejchar_drabkova_2023]\] \[[Chen et al 2023][research_chen_zhong_2023]\] \[[Chernyshev et al 2023][research_chernyshev_gadzhimagomedov_2023]\] \[[Elaissi et al 2023][research_elaissi_moneer_2023]\] \[[Flow instability and momentum 2023][research_flow_instability_2023]\] \[[Gao et al 2023][research_gao_zhao_2023]\] \[[Golubev 2023][research_golubev_2023]\] \[[Golubev 2023][research_golubev_2023_b]\] \[[Jiang et al 2023][research_jiang_yu_2023]\] \[[Kayvanpour et al 2023][research_kayvanpour_noori_2023]\] \[[Kobayashi and Fuchiwaki 2023][research_kobayashi_fuchiwaki_2023]\] \[[Kotvitskii et al 2023][research_kotvitskii_kazanskii_2023]\] \[[Liu et al 2023][research_liu_xue_2023]\] \[[Loe et al 2023][research_loe_zheng_2023]\] \[[Löffler and Weiss 2023][research_loffler_weiss_2023]\] \[[Maikap et al 2023][research_maikap_karthick_2023]\] \[[Mayahara and Sato 2023][research_mayahara_sato_2023]\] \[[Nicholls and Bacic 2023][research_nicholls_bacic_2023]\] \[[Numerical investigation of aerodynamic 2023][research_numerical_investigation_2023]\] \[[Oka et al 2023][research_oka_ozawa_2023]\] \[[Okada et al 2023][research_okada_hiruma_2023]\] \[[Tavakkoli et al 2023][research_tavakkoli_niliahmadabadi_2023]\] \[[Truong et al 2023][research_truong_marouf_2023]\] \[[Tung Pham Duy et al 2023][research_tungphamduy_tomoakiwatanabe_2023]\] \[[Xu et al 2023][research_xu_wu_2023]\] \[[Yu and Zheng 2023][research_yu_zheng_2023]\] \[[Yuura et al 2023][research_yuura_watanabe_2023]\] \[[zhang et al 2023][research_zhang_gan_2023]\] \[[Zhao et al 2023][research_zhao_zhang_2023]\] \[[Zhou et al 2023][research_zhou_li_2023]\] \[[Butler et al 2024][research_butler_ekmekci_2024]\] \[[Ding et al 2024][research_ding_cheng_2024]\] \[[Effect of Synthetic Jet 2024][research_effect_of_2024]\] \[[Hussain and Khan 2024][research_hussain_khan_2024]\] \[[Jabbari and Esmaeili 2024][research_jabbari_esmaeili_2024]\] \[[Karimzadegan and Bergada 2024][research_karimzadegan_bergada_2024]\] \[[Karimzadegan et al 2024][research_karimzadegan_mirzaei_2024]\] \[[Karimzadegan et al 2024][research_karimzadegan_mirzaei_2024_b]\] \[[Kassem and Kara 2024][research_kassem_kara_2024]\] \[[Liu and Liang 2024][research_liu_liang_2024]\] \[[Mahdavi et al 2024][research_mahdavi_mani_2024]\] \[[Maikap and Rajagopal 2024][research_maikap_rajagopal_2024]\] \[[Ogawa et al 2024][research_ogawa_asada_2024]\] \[[Serrar et al 2024][research_serrar_elkhlifi_2024]\] \[[Sun et al 2024][research_sun_wang_2024]\] \[[Three-dimensional Flow Field Characteristics 2024][research_three_dimensional_flow_2024]\] \[[Tocquer et al 2024][research_tocquer_raibaudo_2024]\] \[[Viguera et al 2024][research_viguera_sasaki_2024]\] \[[Yang et al 2024][research_yang_chen_2024]\] \[[Zhao and Bai 2024][research_zhao_bai_2024]\] \[[Zhao et al 2024][research_zhao_bai_2024_b]\] \[[Zhou et al 2024][research_zhou_wang_2024]\] \[[Zhu et al 2024][research_zhu_zhou_2024]\] \[[Aguirre-Villegas et al 2025][research_aguirrevillegas_mirandagodoy_2025]\] \[[Ahmed et al 2025][research_ahmed_das_2025]\] \[[Burlett and Mobli 2025][research_burlett_mobli_2025]\] \[[Duan et al 2025][research_duan_xue_2025]\] \[[Espinoza Gutierrez et al 2025][research_espinozagutierrez_trujillocorona_2025]\] \[[Gautam et al 2025][research_gautam_mohammed_2025]\] \[[Gui et al 2025][research_gui_lu_2025]\] \[[Hammouda et al 2025][research_hammouda_khan_2025]\] \[[Hu et al 2025][research_hu_mitsumoto_2025]\] \[[Hu et al 2025][research_hu_mitsumoto_2025_b]\] \[[Investigation of Wing Lift 2025][research_investigation_of_2025]\] \[[Iskandar et al 2025][research_iskandar_harinaldi_2025]\] \[[Kara 2025][research_kara_2025]\] \[[Karthikeyan and Harish 2025][research_karthikeyan_harish_2025]\] \[[Kimura et al 2025][research_kimura_miyagi_2025]\] \[[Kong et al 2025][research_kong_tang_2025]\] \[[Kopiev 2025][research_kopiev_2025]\] \[[Lee et al 2025][research_lee_kozato_2025]\] \[[Li et al 2025][research_li_peng_2025]\] \[[Liu 2025][research_liu_2025]\] \[[Liu and Chen 2025][research_liu_chen_2025]\] \[[Liu et al 2025][research_liu_zeng_2025]\] \[[Lu et al 2025][research_lu_wei_2025]\] \[[Maduche and Mongeau 2025][research_maduche_mongeau_2025]\] \[[Martinke et al 2025][research_martinke_woszidlo_2025]\] \[[Mitsumoto et al 2025][research_mitsumoto_vechalapu_2025]\] \[[Numerical Study of the 2025][research_numerical_study_2025]\] \[[Parametric Study on the 2025][research_parametric_study_2025]\] \[[Price et al 2025][research_price_tang_2025]\] \[[Rahni and Jahangirian 2025][research_rahni_jahangirian_2025_b]\] \[[Rizzetta and Garmann 2025][research_rizzetta_garmann_2025]\] \[[Sato 2025][research_sato_2025]\] \[[Smyk and Stopel 2025][research_smyk_stopel_2025]\] \[[Viguera et al 2025][research_viguera_naramura_2025]\] \[[Wang et al 2025][research_wang_huang_2025]\] \[[Zengler et al 2025][research_zengler_troldborg_2025]\] \[[Zhang et al 2025][research_zhang_yu_2025]\] \[[Zhao and Bai 2025][research_zhao_bai_2025]\] \[[Zubair and Wen 2025][research_zubair_wen_2025]\] \[[Chen et al 2026][research_chen_yang_2026]\] \[[D'Onofrio et al 2026][research_donofrio_paolillo_2026]\] \[[Dumrul and Kara 2026][research_dumrul_kara_2026]\] \[[Dávalos et al 2026][research_davalos_cornejomonroy_2026]\] \[[Fan et al 2026][research_fan_mei_2026]\] \[[Gui et al 2026][research_gui_lu_2026]\] \[[Güngördü 2026][research_gungordu_2026]\] \[[Jaganath and Steinfurth 2026][research_jaganath_steinfurth_2026]\] \[[Li et al 2026][research_li_zeng_2026]\] \[[Mitsumoto et al 2026][research_mitsumoto_vechalapu_2026]\] \[[Nicholls et al 2026][research_nicholls_fenelon_2026]\] \[[Prabahar and Zha 2026][research_prabahar_zha_2026]\] \[[Saemian et al 2026][research_saemian_cota_2026]\] \[[Serrar and Khlifi 2026][research_serrar_khlifi_2026]\] \[[Shestakov and Yagodnitsyna 2026][research_shestakov_yagodnitsyna_2026]\] \[[Shi et al 2026][research_shi_zeng_2026]\] \[[Wylie and Amitay 2026][research_wylie_amitay_2026_b]\] \[[Yamada and Norimoto 2026][research_yamada_norimoto_2026]\] \[[Yukuan et al 2026][research_yukuan_chen_2026]\] \[[Zhang et al 2026][research_zhang_zuo_2026]\] \[[Zhu et al 2026][research_zhu_cheng_2026]\] \[[Löffler and Weiss 2027][research_loffler_weiss_2027]\] \[[Ansari Shirvan][research_ansarishirvan]\] \[[Arcese][research_arcese]\] \[[van Dam et al][research_cpvandam_saibharathmothukuri]\] \[[de Vries][research_devries]\] \[[Deb et al][research_deb_gangtao]\] \[[Grosvenor][research_grosvenor]\] \[[Koch et al][research_jamesrlkoch_jeffreyahousman]\] \[[Karimzadegan][research_karimzadegan]\] \[[Melton et al][research_latuniapmelton_danneuhart]\] \[[Melton et al][research_latuniapackmelton_dannyhneuhart]\] \[[Seifert][research_seifert]\] \[[Sudak][research_sudak]\] \[[Tocquer][research_tocquer]\] \[[Ukpai and Rediniotis][research_ukpai_rediniotis]\] \[[Velasquez][research_velasquez]\]
 
 ### Blowing, the Coanda surface and the jet flap
 
-**805 records.** \[[Seewald, F 1927][research_seewaldf_1927]\] \[[Reid, E G and Bamber, M J 1928][research_reideg_bambermj_1928]\] \[[Bamber, Millard J 1932][research_bambermillardj_1932]\] \[[Von Doenhoff, Albert E 1944][research_vondoenhoffalberte_1944]\] \[[Quinn, John H 1944][research_quinnjohnh_1944]\] \[[Quinn, John H, Jr 1946][research_quinnjohnhjr_1946]\] \[[Kohl, Robert C. and Diggs, Donald R. 1947][research_kohlrobertc_diggsdonaldr_1947]\] \[[Schwier, W. 1947][research_schwierw_1947]\] \[[Quinn, John H 1947][research_quinnjohnh_1947_b]\] \[[Quinn, John H 1947][research_quinnjohnh_1947]\] \[[Huffman, J. K. et al 1948][research_huffmanjk_hahnede_1948]\] \[[Passamanick, Jerome 1948][research_passamanickjerome_1948]\] \[[Pasamanick, Jerome and Proterra, Anthony J 1948][research_pasamanickjerome_proterraanthonyj_1948]\] \[[Racisz, Stanley F and Quinn, John H 1948][research_raciszstanleyf_quinnjohnh_1948]\] \[[Burrows, Dale L et al 1949][research_burrowsdalel_braslowalbertl_1949]\] \[[Horton, Elmer A and Von Doenhoff, Albert E 1949][research_hortonelmera_vondoenhoffalberte_1949]\] \[[Braslow, Albert L and Visconti, Fioravante 1950][research_braslowalbertl_viscontifioravante_1950]\] \[[Horton, Elmer A et al 1950][research_hortonelmera_raciszstanleyfrank_1950]\] \[[Braslow, Albert L et al 1951][research_braslowalbertl_burrowsdalel_1951]\] \[[Horton, Elmer A et al 1951][research_hortonelmera_raciszstanleyfrank_1951]\] \[[Blosser 1952][research_blosser_1952]\] \[[Rebuffet, Pierre and Poisson-Quinton, PH 1952][research_rebuffetpierre_poissonquintonph_1952]\] \[[Cliett 1952][research_cliett_1952]\] \[[Blosser 1953][research_blosser_1953]\] \[[Cocke, Bennie W, Jr and Fink, Marvin P 1953][research_cockebenniewjr_finkmarvinp_1953]\] \[[Cook, Woodrow L et al 1954][research_cookwoodrowl_griffinroynjr_1954]\] \[[Kelley, Mark W and Tolhurst, William H JR 1955][research_kelleymarkw_tolhurstwilliamhjr_1955]\] \[[Rolls, L Stewart and Innis, Robert C 1956][research_rollslstewart_innisrobertc_1956]\] \[[Kelly, Mark W 1956][research_kellymarkw_1956]\] \[[McLemore, H Clyde and Fink, Marvin P 1956][research_mclemorehclyde_finkmarvinp_1956]\] \[[Sferi-Coanda Clichy France 1956][research_sfericoandaclichyfrance_1956]\] \[[Stratford 1956][research_stratford_1956_b]\] \[[Anderson, Seth B et al 1956][research_andersonsethb_quigleyherveyc_1956]\] \[[Fisher et al 1956][research_fisher_gertsen_1956]\] \[[Spreemann, Kenneth P and Kuhn, Richard E 1956][research_spreemannkennethp_kuhnricharde_1956]\] \[[Stratford 1956][research_stratford_1956]\] \[[Northrop Aircraft Inc Hawthorne Ca 1956][research_northropaircraftinchawthorneca_1956]\] \[[Kelly, Mark W and Tucker, Jeffrey H 1956][research_kellymarkw_tuckerjeffreyh_1956]\] \[[Quigley, Hervey C et al 1957][research_quigleyherveyc_homfranciswk_1957]\] \[[McLemore, H Clyde 1957][research_mclemorehclyde_1957]\] \[[Raspet 1957][research_raspet_1957]\] \[[Sferi-Coanda Clichy France 1957][research_sfericoandaclichyfrance_1957]\] \[[James F Connors et al 1957][research_jamesfconnors_jcalvinlovell_1957]\] \[[Hirsch 1957][research_hirsch_1957]\] \[[Fink, Marvin P and McLemore, H Clyde 1957][research_finkmarvinp_mclemorehclyde_1957]\] \[[Dimmock 1957][research_dimmock_1957]\] \[[Helmbold 1957][research_helmbold_1957]\] \[[Cerreta 1957][research_cerreta_1957]\] \[[James, H. A. and Maki, R. L. 1957][research_jamesha_makirl_1957]\] \[[McLemore, H. Clyde 1958][research_mclemorehclyde_1958]\] \[[Helmbold 1958][research_helmbold_1958]\] \[[Kelly, Mark W et al 1958][research_kellymarkw_andersonsethb_1958]\] \[[Spreemann, Kenneth P 1958][research_spreemannkennethp_1958]\] \[[Hirsch 1958][research_hirsch_1958]\] \[[Riebe, John M and Davenport, Edwin E 1958][research_riebejohnm_davenportedwine_1958]\] \[[Quigley, Hervey C et al 1958][research_quigleyherveyc_andersonsethb_1958]\] \[[Griffin, Roy N., Jr. et al 1958][research_griffinroynjr_holzhausercurta_1958]\] \[[McLemore, H Clyde and Fink, Marvin P 1958][research_mclemorehclyde_finkmarvinp_1958]\] \[[Aoyagi, Kiyoshi and Hickey, David H. 1959][research_aoyagikiyoshi_hickeydavidh_1959]\] \[[Maki, Ralph L. 1959][research_makiralphl_1959]\] \[[McLemore, H. Clyde and Peterson, John B., Jr. 1960][research_mclemorehclyde_petersonjohnbjr_1960]\] \[[Gault, Donald E. 1960][research_gaultdonalde_1960]\] \[[Coanda 1960][research_coanda_1960]\] \[[Quigley, Hervey C. et al 1960][research_quigleyherveyc_andersonsethb_1960]\] \[[Hickey, David H. and Aoyagi, Kiyoshi 1960][research_hickeydavidh_aoyagikiyoshi_1960]\] \[[Yen 1960][research_yen_1960]\] \[[Lockwood, Vernard E. 1961][research_lockwoodvernarde_1961]\] \[[Grunwald, Kalman J. 1961][research_grunwaldkalmanj_1961]\] \[[Weiberg, James A. and Holzhauser, Curt A. 1961][research_weibergjamesa_holzhausercurta_1961]\] \[[Weiberg, James A and Holzhauser, Curt A. 1961][research_weibergjamesa_holzhausercurta_1961_b]\] \[[Erickson 1962][research_erickson_jc_1962]\] \[[Aoyagi, K. and Hickey, D. H. 1963][research_aoyagik_hickeydh_1963]\] \[[Korbacher 1963][research_korbacher_1963]\] \[[White 1963][research_white_1963]\] \[[Korbacher 1964][research_korbacher_1964]\] \[[Northrop Corp Hawthorne Ca Norair Div 1964][research_northropcorphawthornecanorairdiv_1964_b]\] \[[Northrop Corp Hawthorne Ca Norair Div 1964][research_northropcorphawthornecanorairdiv_1964]\] \[[Bottorff, M. R. and Rogers, K. W. 1964][research_bottorffmr_rogerskw_1964]\] \[[Mehus 1965][research_mehus_1965]\] \[[MacDermott et al 1965][research_macdermott_dix_1965]\] \[[Reba 1966][research_reba_1966]\] \[[Roberts et al 1966][research_roberts_smith_1966]\] \[[MacDermott et al 1966][research_macdermott_dix_1966]\] \[[Yuan et al 1966][research_yuan_westkaemper_1966]\] \[[John L. McCloud III et al 1966][research_johnlmccloudiii_williamtevans_1966]\] \[[Wygnanski 1966][research_wygnanski_1966]\] \[[Cordner 1967][research_cordner_1967]\] \[[Umstead and Croxton 1967][research_umstead_croxton_1967]\] \[[Lissaman 1967][research_lissaman_1967]\] \[[Pearson 1967][research_pearson_1967]\] \[[Chang et al 1967][research_chang_casarella_1967]\] \[[Vogler, R. D. 1967][research_voglerrd_1967]\] \[[Kind 1968][research_kind_1968]\] \[[Dunham 1968][research_dunham_1968]\] \[[Corsiglia, V. R. et al 1968][research_corsigliavr_koenigdg_1968]\] \[[Miller, M. L. and Seren, G. 1968][research_millerml_sereng_1968]\] \[[Fink, M. P. et al 1968][research_finkmp_freemandcjr_1968]\] \[[Lissaman 1969][research_lissaman_1969_b]\] \[[Cheeseman 1969][research_cheeseman_1969]\] \[[Welna et al 1969][research_welna_dahlberg_1969]\] \[[Yuan 1969][research_yuan_1969]\] \[[Domanovsky, P. 1969][research_domanovskyp_1969]\] \[[Clever, W. W., II 1969][research_cleverwwii_1969]\] \[[Lissaman 1969][research_lissaman_1969]\] \[[Parlett, Lysle P. and Shivers, James P. 1969][research_parlettlyslep_shiversjamesp_1969]\] \[[Romiti 1970][research_romiti_1970]\] \[[Beckwith, I. E. et al 1970][research_beckwithie_bushnelldm_1970]\] \[[Welna et al 1970][research_welna_dahlberg_1970]\] \[[Yuan 1970][research_yuan_1970]\] \[[Deal, P. L. et al 1970][research_dealpl_granthamwd_1970]\] \[[Williams and Bernitt 1970][research_williams_bernitt_1970]\] \[[Bangert 1970][research_bangert_1970]\] \[[Williams and Howe 1970][research_williams_howe_1970]\] \[[Englar 1970][research_englar_1970]\] \[[Vogler, R. D. 1970][research_voglerrd_1970]\] \[[Freeman, D. C., Jr. et al 1970][research_freemandcjr_hendersonrl_1970]\] \[[Freeman, D. C., Jr. et al 1970][research_freemandcjr_parlettlp_1970]\] \[[Jenkins 1971][research_jenkins_1971]\] \[[Falarski, M. D. and Koenig, D. G. 1971][research_falarskimd_koenigdg_1971]\] \[[Dorsch, R. G. et al 1971][research_dorschrg_krejsaea_1971]\] \[[Stabe, R. G. 1971][research_staberg_1971]\] \[[Grafton, S. B. et al 1971][research_graftonsb_parlettlp_1971]\] \[[Smith, C. C., Jr. 1971][research_smithccjr_1971]\] \[[Falarski, M. D. and Aiken, T. N. 1971][research_falarskimd_aikentn_1971]\] \[[Aiken, T. N. and Cook, A. M. 1971][research_aikentn_cookam_1971]\] \[[Henderson, R. L. 1971][research_hendersonrl_1971]\] \[[Goodykoontz, J. H. et al 1971][research_goodykoontzjh_olsenwa_1971]\] \[[Kantha, H. L. et al 1971][research_kanthahl_lewellenws_1971]\] \[[Deal, P. L. et al 1971][research_dealpl_granthamwd_1971]\] \[[Parlett, L. P. et al 1971][research_parlettlp_greerhd_1971]\] \[[Hayden, R. E. et al 1972][research_haydenre_schartontd_1972]\] \[[A Structural Design for 1972][research_a_structural_1972]\] \[[Vonglahn, U. H. et al 1972][research_vonglahnuh_reshotkom_1972]\] \[[Gruschka, H. D. and Schrecker, G. O. 1972][research_gruschkahd_schreckergo_1972]\] \[[Johnson, W. G., Jr. 1972][research_johnsonwgjr_1972]\] \[[Greene, G. C. and Perry, B., III 1972][research_greenegc_perrybiii_1972]\] \[[Levinsky, E. S. and Yeh, T. T. 1972][research_levinskyes_yehtt_1972]\] \[[Oshima and Kinoshita 1972][research_oshima_kinoshita_1972]\] \[[Bettner, J. L. 1972][research_bettnerjl_1972]\] \[[Design integration and noise 1972][research_design_integration_1972]\] \[[Ungar, E. E. et al 1972][research_ungaree_chandiramanikl_1972]\] \[[Putnam, T. W. and Lasagna, P. L. 1972][research_putnamtw_lasagnapl_1972]\] \[[Dorsch, R. G. et al 1972][research_dorschrg_kreimwj_1972]\] \[[Grantham, W. D. et al 1972][research_granthamwd_nguyenlt_1972]\] \[[Dorsch, R. G. et al 1972][research_dorschrg_reshotkom_1972]\] \[[Panitz and Wasan 1972][research_panitz_wasan_1972]\] \[[Vonglahn, U. H. et al 1972][research_vonglahnuh_sekasn_1972]\] \[[Falarski, M. D. 1972][research_falarskimd_1972]\] \[[Falarski, M. D. and Koenig, D. G. 1972][research_falarskimd_koenigdg_1972]\] \[[Falarski, M. D. and Koenig, D. G. 1972][research_falarskimd_koenigdg_1972_b]\] \[[Groeneweg, J. F. and Minner, G. L. 1972][research_groenewegjf_minnergl_1972]\] \[[Groeneweg and Minner 1972][research_groeneweg_minner_1972]\] \[[Goodykoontz, J. H. et al 1972][research_goodykoontzjh_dorschrg_1972]\] \[[Olsen, W. A. et al 1972][research_olsenwa_dorschrg_1972]\] \[[Kier, D. A. et al 1972][research_kierda_powersbg_1972]\] \[[Goodykoontz, J. H. et al 1972][research_goodykoontzjh_olsenwa_1972]\] \[[Parlett, L. P. 1972][research_parlettlp_1972]\] \[[Hughes, D. L. 1972][research_hughesdl_1972]\] \[[Aoyagi, K. et al 1972][research_aoyagik_halllp_1972]\] \[[Ciffone, D. L. and Robinson, G. H. 1973][research_ciffonedl_robinsongh_1973]\] \[[Scharton, T. D. et al 1973][research_schartontd_pinkelb_1973]\] \[[Herold, A. C. 1973][research_heroldac_1973]\] \[[Falarski, M. D. et al 1973][research_falarskimd_aoyagik_1973]\] \[[Falarski, M. D. 1973][research_falarskimd_1973]\] \[[Aiken, T. N. et al 1973][research_aikentn_aoyagik_1973]\] \[[Lissaman, P. B. S. 1973][research_lissamanpbs_1973]\] \[[Kinoshita and Oshima 1973][research_kinoshita_oshima_1973]\] \[[Bettner, J. L. and Blessing, J. O. 1973][research_bettnerjl_blessingjo_1973]\] \[[Roepcke, F. A. and Nickson, T. B. 1973][research_roepckefa_nicksontb_1973]\] \[[Campbell, J. M. et al 1973][research_campbelljm_harkonendl_1973]\] \[[Mahal, A. S. and Gilchrist, I. J. 1973][research_mahalas_gilchristij_1973]\] \[[Samanich, N. E. et al 1973][research_samanichne_heidelberglj_1973]\] \[[Smith, C. C., Jr. 1973][research_smithccjr_1973]\] \[[Lansing, D. L. et al 1973][research_lansingdl_mixsonjs_1973]\] \[[McKinzie, D. J., Jr. and Burns, R. J. 1973][research_mckinziedjjr_burnsrj_1973]\] \[[Phelps, A. E., III et al 1973][research_phelpsaeiii_letkow_1973]\] \[[Kretz, M. et al 1973][research_kretzm_aubrunj_1973]\] \[[Kretz, M. et al 1973][research_kretzm_aubrunj_1973_b]\] \[[Goodykoontz, J. H. et al 1973][research_goodykoontzjh_wagnerjm_1973]\] \[[Goodykoontz, J. H. et al 1973][research_goodykoontzjh_dorschrg_1973]\] \[[Karchmer, A. M. and Friedman, R. 1973][research_karchmeram_friedmanr_1973]\] \[[Hughes, D. L. 1973][research_hughesdl_1973]\] \[[Aiken, T. N. and Cook, A. M. 1973][research_aikentn_cookam_1973]\] \[[Powers, B. G. and Kier, D. A. 1973][research_powersbg_kierda_1973]\] \[[Okumoto and Elsanker 1973][research_okumoto_elsanker_1973]\] \[[McCloud, J. L., III 1973][research_mccloudjliii_1973]\] \[[Morris, R. L. et al 1973][research_morrisrl_hankecr_1973]\] \[[Hackett and Lyman 1973][research_hackett_lyman_1973]\] \[[Theisen et al 1973][research_theisen_scruggs_1973]\] \[[Aoyagi, K. et al 1973][research_aoyagik_falarskimd_1973_b]\] \[[Aoyagi, K. et al 1973][research_aoyagik_falarskimd_1973]\] \[[Phelps, A. E., III and Smith, C. C., Jr. 1973][research_phelpsaeiii_smithccjr_1973]\] \[[Parlett, L. P. et al 1973][research_parlettlp_smithccjr_1973]\] \[[Middleton, D. B. and Bergeron, H. P. 1974][research_middletondb_bergeronhp_1974]\] \[[Quigley, H. C. et al 1974][research_quigleyhc_innisrc_1974]\] \[[Piziali, R. A. and Trenka, A. R. 1974][research_pizialira_trenkaar_1974]\] \[[Johnson, W. G., Jr. and Kardas, G. E. 1974][research_johnsonwgjr_kardasge_1974]\] \[[Goodykoontz, J. H. et al 1974][research_goodykoontzjh_dorschrg_1974]\] \[[Schoenster, J. A. 1974][research_schoensterja_1974]\] \[[Woodrow L Cook et al 1974][research_woodrowlcook_davidhhickey_1974]\] \[[Middleton, D. B. 1974][research_middletondb_1974]\] \[[Kinoshita and Oshima 1974][research_kinoshita_oshima_1974]\] \[[Dorsch, R. G. et al 1974][research_dorschrg_goodykoontzjh_1974]\] \[[Scantling, W. L. and Gloss, B. B. 1974][research_scantlingwl_glossbb_1974]\] \[[Coe, P. L., Jr. and Kulla, D. 1974][research_coepljr_kullad_1974]\] \[[Chin, Y. T. et al 1974][research_chinyt_aikentn_1974]\] \[[Dorsch, R. G. 1974][research_dorschrg_1974]\] \[[Parlett, L. P. et al 1974][research_parlettlp_emerlingsj_1974]\] \[[Jones, W. L. and Heidelberg, L. J. 1974][research_joneswl_heidelberglj_1974]\] \[[Hoad, D. R. 1974][research_hoaddr_1974]\] \[[Johnson, J. L., Jr. and Phelps, A. E., III 1974][research_johnsonjljr_phelpsaeiii_1974]\] \[[Harkonen, D. L. et al 1974][research_harkonendl_mcbridejf_1974]\] \[[Schrecker, G. O. and Maus, J. R. 1974][research_schreckergo_mausjr_1974]\] \[[Shivers, J. P. and Smith, C. C., Jr. 1974][research_shiversjp_smithccjr_1974]\] \[[Smith, C. C., Jr. and White, L. C. 1974][research_smithccjr_whitelc_1974]\] \[[Grantham, W. D. et al 1974][research_granthamwd_nguyenlt_1974]\] \[[Cole, T. W. and Rathburn, E. A. 1974][research_coletw_rathburnea_1974]\] \[[Waites, W. L. and Chin, Y. T. 1974][research_waiteswl_chinyt_1974]\] \[[Capone, F. J. 1974][research_caponefj_1974]\] \[[Stewart, H. J. 1974][research_stewarthj_1974]\] \[[Gillette, W. B. et al 1974][research_gillettewb_mohnlw_1974]\] \[[Gentry, G. L., Jr. 1974][research_gentrygljr_1974]\] \[[Renka, A. R. 1975][research_renkaar_1975]\] \[[Falarski, M. D. et al 1975][research_falarskimd_aikentn_1975]\] \[[Carros, R. J. et al 1975][research_carrosrj_boissevainag_1975]\] \[[Johnson, W. G., Jr. 1975][research_johnsonwgjr_1975]\] \[[Levinsky and Schappelle 1975][research_levinsky_schappelle_1975]\] \[[Campbell, J. F. 1975][research_campbelljf_1975]\] \[[Mendenhall, M. R. et al 1975][research_mendenhallmr_perkinscjr_1975]\] \[[Kinoshita and Oshima 1975][research_kinoshita_oshima_1975]\] \[[Cook, W. L. and Whittley, D. C. 1975][research_cookwl_whittleydc_1975]\] \[[Campbell, J. F. 1975][research_campbelljf_1975_b]\] \[[Coe, P. L., Jr. et al 1975][research_coepljr_mclemorehc_1975]\] \[[Chin et al 1975][research_chin_aiken_1975]\] \[[Erickson, G. E. and Campbell, J. F. 1975][research_ericksonge_campbelljf_1975]\] \[[Erickson, G. E. and Campbell, J. F. 1975][research_ericksonge_campbelljf_1975_b]\] \[[Goodykoontz, J. et al 1975][research_goodykoontzj_vonglahnu_1975]\] \[[Heidelberg, L. J. et al 1975][research_heidelberglj_homyakl_1975]\] \[[Cochrane, J. A. and Carros, R. J. 1975][research_cochraneja_carrosrj_1975]\] \[[Dorsch, R. G. et al 1975][research_dorschrg_clarkbj_1975]\] \[[Laub, G. H. 1975][research_laubgh_1975]\] \[[Shivers, J. P. et al 1975][research_shiversjp_mclemorehc_1975]\] \[[Koenig, D. G. and Aoyagi, K. 1975][research_koenigdg_aoyagik_1975]\] \[[Miles, J. H. 1975][research_milesjh_1975]\] \[[Middleton, D. B. et al 1975][research_middletondb_hurtgjjr_1975]\] \[[Reddy 1975][research_reddy_1975]\] \[[Reddy, N. N. and Yu, J. C. 1975][research_reddynn_yujc_1975]\] \[[Fink, M. R. 1975][research_finkmr_1975]\] \[[Renselaer, D. J. et al 1975][research_renselaerdj_nishidars_1975]\] \[[Pennock, A. P. et al 1975][research_pennockap_swiftg_1975]\] \[[Shivers, J. P. and Smith, C. C., Jr. 1975][research_shiversjp_smithccjr_1975]\] \[[Capone 1975][research_capone_1975]\] \[[Lan, C. E. and Campbell, J. F. 1975][research_lance_campbelljf_1975]\] \[[Addessio, F. L. and Skifstad, J. G. 1975][research_addessiofl_skifstadjg_1975]\] \[[Holmberg, J. L. 1975][research_holmbergjl_1975]\] \[[Abramson 1975][research_abramson_1975]\] \[[Naeseth, R. L. and Hoad, D. R. 1975][research_naesethrl_hoaddr_1975]\] \[[Marton 1975][research_marton_1975]\] \[[Aoyagi, K. et al 1975][research_aoyagik_falarskimd_1975]\] \[[Phelps, A. E., III 1975][research_phelpsaeiii_1975]\] \[[Perry, B., III and Greene, G. C. 1975][research_perrybiii_greenegc_1975]\] \[[Forsyth, D. R. et al 1975][research_forsythdr_yiplp_1975]\] \[[Mendenhall, M. R. et al 1976][research_mendenhallmr_goodwinfk_1976]\] \[[Reader 1976][research_reader_1976]\] \[[Barger, R. L. 1976][research_bargerrl_1976]\] \[[McKinzie, D. J., Jr. 1976][research_mckinziedjjr_1976]\] \[[Mendenhall, M. R. 1976][research_mendenhallmr_1976]\] \[[Kinoshita and Oshima 1976][research_kinoshita_oshima_1976]\] \[[Gainer, T. G. et al 1976][research_gainertg_yiplp_1976]\] \[[Fournier, P. G. and Coe, P. L., Jr. 1976][research_fournierpg_coepljr_1976]\] \[[Goodykoontz, J. H. et al 1976][research_goodykoontzjh_dorschrg_1976]\] \[[Meleason, E. T. 1976][research_meleasonet_1976]\] \[[Burns, R. J. et al 1976][research_burnsrj_mckinziedjjr_1976]\] \[[Coe, P. L., Jr. et al 1976][research_coepljr_mclemorehc_1976]\] \[[Hoad, D. R. 1976][research_hoaddr_1976]\] \[[Hackett, J. E. et al 1976][research_hackettje_bolesra_1976]\] \[[Meleason, E. T. and Wells, O. D. 1976][research_meleasonet_wellsod_1976]\] \[[Clarke 1976][research_clarke_1976]\] \[[Shivers, J. P. et al 1976][research_shiversjp_mclemorehc_1976]\] \[[Gibson, J. S. 1976][research_gibsonjs_1976]\] \[[McKinzie, D. J., Jr. et al 1976][research_mckinziedjjr_burnsrj_1976]\] \[[Johnson, W. G., Jr. 1976][research_johnsonwgjr_1976]\] \[[Propulsive-Lift Noise of an 1976][research_propulsive_lift_noise_1976]\] \[[Tennant et al 1976][research_tennant_johnson_1976]\] \[[Kadman, Y. 1976][research_kadmany_1976]\] \[[Tam, C. K. W. and Reddy, N. N. 1976][research_tamckw_reddynn_1976]\] \[[Phelps, A. E., III et al 1976][research_phelpsaeiii_johnsonjljr_1976]\] \[[Dods, J. B., Jr. and Watson, E. C. 1976][research_dodsjbjr_watsonec_1976]\] \[[Platzer 1976][research_platzer_1976]\] \[[Sleeman, W. C., Jr. and Phelps, A. E., III 1976][research_sleemanwcjr_phelpsaeiii_1976]\] \[[Lan, C. E. 1976][research_lance_1976]\] \[[Vogler, R. D. 1976][research_voglerrd_1976]\] \[[Wind-tunnel investigation of aerodynamic 1976][research_wind_tunnel_investigation_1976]\] \[[Becker, R. S. and Maus, J. R. 1977][research_beckerrs_mausjr_1977]\] \[[Becker, R. S. and Maus, J. R. 1977][research_beckerrs_mausjr_1977_b]\] \[[Morehouse, G. G. et al 1977][research_morehousegg_eckertwt_1977]\] \[[Addessio, F. L. and Skifstad, J. G. 1977][research_addessiofl_skifstadjg_1977]\] \[[Seiler 1977][research_seiler_1977]\] \[[Reubush 1977][research_reubush_1977]\] \[[Erickson, G. E. and Campbell, J. F. 1977][research_ericksonge_campbelljf_1977_b]\] \[[Gilinskii and Lebedev 1977][research_gilinskii_lebedev_1977]\] \[[Kaups, K. and Cebeci, T. 1977][research_kaupsk_cebecit_1977]\] \[[Lan, C. E. et al 1977][research_lance_fillmangl_1977]\] \[[Clark, L. R. and Yu, J. C. 1977][research_clarklr_yujc_1977]\] \[[Baker, A. J. and Manhardt, P. D. 1977][research_bakeraj_manhardtpd_1977]\] \[[Schoenster, J. A. and Schroeder, J. C. 1977][research_schoensterja_schroederjc_1977]\] \[[Pennock, A. P. 1977][research_pennockap_1977]\] \[[Hackett, J. E. and Boles, R. A. 1977][research_hackettje_bolesra_1977]\] \[[Erickson, G. E. and Campbell, J. F. 1977][research_ericksonge_campbelljf_1977]\] \[[Baker, A. J. and Manhardt, P. D. 1977][research_bakeraj_manhardtpd_1977_b]\] \[[Phelps, A. E., III 1977][research_phelpsaeiii_1977]\] \[[Schoen, A. H. et al 1977][research_schoenah_kolesarce_1977]\] \[[Lan 1977][research_lan_1977]\] \[[Lan, C. E. et al 1977][research_lance_fillmang_1977]\] \[[Abramson 1977][research_abramson_1977]\] \[[Ryle, D. M., Jr. et al 1977][research_ryledmjr_bradenja_1977]\] \[[Lan, C. E. et al 1978][research_lance_mehrotrasc_1978]\] \[[Vomaske, R. F. et al 1978][research_vomaskerf_innisrc_1978]\] \[[Fink, M. R. 1978][research_finkmr_1978]\] \[[Reddy, N. N. 1978][research_reddynn_1978]\] \[[Shovlin, M. D. 1978][research_shovlinmd_1978]\] \[[Viswanath, P. R. et al 1978][research_viswanathpr_sankaranl_1978]\] \[[Hackett, J. E. and Boles, R. A. 1978][research_hackettje_bolesra_1978]\] \[[Williams, R. M. and Cheeseman, I. C. 1978][research_williamsrm_cheesemanic_1978]\] \[[Hough, G. R. 1979][research_houghgr_1979]\] \[[Aiken, T. N. et al 1979][research_aikentn_falarskimd_1979]\] \[[Design of the circulation 1979][research_design_of_1979]\] \[[Erickson 1979][research_erickson_1979]\] \[[Campbell, J. F. and Erickson, G. E. 1979][research_campbelljf_ericksonge_1979]\] \[[Anglin, E. L. and Satran, D. 1979][research_anglinel_satrand_1979]\] \[[Goldschmied 1979][research_goldschmied_1979]\] \[[Pappa, R. S. 1979][research_pappars_1979]\] \[[Johns, A. L. et al 1979][research_johnsal_williamsrc_1979]\] \[[Catalano, G. D. et al 1979][research_catalanogd_mortonjb_1979]\] \[[Rao, B. M. 1979][research_raobm_1979]\] \[[Hough, G. R. 1980][research_houghgr_1980]\] \[[Winter 1980][research_winter_1980]\] \[[Lorincz, D. J. 1980][research_lorinczdj_1980]\] \[[Furey 1980][research_furey_1980]\] \[[McKinzie, D. J., Jr. 1980][research_mckinziedjjr_1980]\] \[[Parthasarathy, S. P. and Vijayaraghavan, A. 1980][research_parthasarathysp_vijayaraghavana_1980]\] \[[Harris, M. J. and Falarski, M. D. 1980][research_harrismj_falarskimd_1980]\] \[[Bohn, A. J. and Shovlin, M. D. 1980][research_bohnaj_shovlinmd_1980]\] \[[Mosher, M. 1981][research_mosherm_1981]\] \[[Braslow, A. L. 1981][research_braslowal_1981]\] \[[Schwendemann, M. F. 1981][research_schwendemannmf_1981]\] \[[Tai, T. C. et al 1981][research_taitc_kidwellghjr_1981]\] \[[Wukowitz 1981][research_wukowitz_1981]\] \[[Wood, N. J. 1981][research_woodnj_1981]\] \[[McKinzie, D. J., Jr. 1982][research_mckinziedjjr_1982]\] \[[Bachalo, William D. 1982][research_bachalowilliamd_1982]\] \[[Cochrane, J. A. et al 1982][research_cochraneja_riddledw_1982]\] \[[Burley, R. R. and Hwang, D. P. 1982][research_burleyrr_hwangdp_1982]\] \[[Nagamatsu, H. T. et al 1982][research_nagamatsuht_browerwbjr_1982]\] \[[Eppel, J. C. et al 1982][research_eppeljc_shovlinmd_1982]\] \[[Schwendemann, M. F. and Sanders, B. W. 1982][research_schwendemannmf_sandersbw_1982]\] \[[Hwang, D. P. 1983][research_hwangdp_1983]\] \[[Seginer, A. and Salomon, M. 1983][research_seginera_salomonm_1983]\] \[[Taback, I. et al 1983][research_tabacki_braslowal_1983]\] \[[Smeltzer, D. B. et al 1983][research_smeltzerdb_durstonda_1983]\] \[[Burley, R. R. and Hwang, D. P. 1983][research_burleyrr_hwangdp_1983]\] \[[Nagamatsu, H. T. et al 1983][research_nagamatsuht_ficarrar_1983]\] \[[Bahi, L. et al 1983][research_bahil_rossjm_1983]\] \[[Bevilaqua et al 1983][research_bevilaqua_schum_1983]\] \[[Stephenson, J. D. 1983][research_stephensonjd_1983]\] \[[Wood, N. J. and Conlon, J. A. 1983][research_woodnj_conlonja_1983]\] \[[Biringen, S. 1984][research_biringens_1984]\] \[[Hwang, D. P. 1984][research_hwangdp_1984]\] \[[Englar, R. J. et al 1984][research_englarrj_nicholsjhjr_1984]\] \[[Wilson, S. B., III and Liperra, L. D. 1984][research_wilsonsbiii_liperrald_1984]\] \[[Bevilaqua and Lee 1984][research_bevilaqua_lee_1984]\] \[[Burley, R. R. 1984][research_burleyrr_1984]\] \[[Nagamatsu, H. T. and Dyer, R. 1984][research_nagamatsuht_dyerr_1984]\] \[[Tai, T. C. and Kidwell, G. H., Jr. 1984][research_taitc_kidwellghjr_1984]\] \[[Nagamatsu, H. T. et al 1984][research_nagamatsuht_orozcord_1984]\] \[[Wagner, R. D. et al 1984][research_wagnerrd_maddalondv_1984]\] \[[Lipera, L. D. and Sandlin, D. R. 1984][research_liperald_sandlindr_1984]\] \[[Berman 1985][research_berman_1985]\] \[[Harvell and Franke 1985][research_harvell_franke_1985]\] \[[Panontin, T. L. 1985][research_panontintl_1985]\] \[[Hahn, A. S. and Wilson, S. B., III 1985][research_hahnas_wilsonsbiii_1985]\] \[[Li and Halliwell 1985][research_li_halliwell_1985]\] \[[Modi 1985][research_modi_1985]\] \[[Satran, D. R. et al 1985][research_satrandr_gilbertwp_1985]\] \[[Stewart 1985][research_stewart_1985]\] \[[Salikuddin et al 1985][research_salikuddin_brown_1985]\] \[[Tai, T. C. and Kidwell, G. H., Jr. 1985][research_taitc_kidwellghjr_1985]\] \[[Nagamatsu, H. T. et al 1985][research_nagamatsuht_ficarrarv_1985]\] \[[Tavella, D. A. 1985][research_tavellada_1985]\] \[[Biringen, S. et al 1985][research_biringens_nuttwe_1985]\] \[[Chopra et al 1986][research_chopra_sun_1986]\] \[[Wood and Rogers 1986][research_wood_rogers_1986]\] \[[Novak and Cornelius 1986][research_novak_cornelius_1986]\] \[[Torres, Francisco J. 1986][research_torresfranciscoj_1986]\] \[[Papathanasiou, A. G. and Nagel, R. T. 1986][research_papathanasiouag_nagelrt_1986]\] \[[Wood, N. J. and Nielsen, Jack N. 1986][research_woodnj_nielsenjackn_1986]\] \[[Garner, H. D. 1986][research_garnerhd_1986]\] \[[Wood, N. J. and Roberts, L. 1986][research_woodnj_robertsl_1986]\] \[[Carpenter et al 1986][research_carpenter_bridson_1986]\] \[[Lee et al 1986][research_lee_tavella_1986]\] \[[Tavella et al 1986][research_tavella_lee_1986]\] \[[Pulliam, T. H. et al 1986][research_pulliamth_jesperendc_1986]\] \[[Shrewsbury 1986][research_shrewsbury_1986]\] \[[Krauss, Timothy A. et al 1986][research_krausstimothya_romanstephan_1986]\] \[[Wood 1986][research_wood_1986]\] \[[Rodman, L. C. and Wood, N. J. 1986][research_rodmanlc_woodnj_1986]\] \[[Biringen, Sedat 1987][research_biringensedat_1987]\] \[[Riddle, Dennis W. and Eppel, Joseph C. 1987][research_riddledennisw_eppeljosephc_1987]\] \[[McLachlan, B. G. 1987][research_mclachlanbg_1987_b]\] \[[Torres, Francisco J. 1987][research_torresfranciscoj_1987]\] \[[Spaid, Frank W. and Keener, Earl R. 1987][research_spaidfrankw_keenerearlr_1987]\] \[[Loth, John L. 1987][research_lothjohnl_1987]\] \[[Bevilaqua, Paul M. and Lee, John D. 1987][research_bevilaquapaulm_leejohnd_1987]\] \[[Englar, Robert J. 1987][research_englarrobertj_1987]\] \[[Shrewsbury, George D. 1987][research_shrewsburygeorged_1987]\] \[[Novak et al 1987][research_novak_cornelius_1987]\] \[[Chopra, Inderjit and Hong, Chang-Ho 1987][research_choprainderjit_hongchangho_1987]\] \[[Dvorak, Frank A. et al 1987][research_dvorakfranka_strashdanielj_1987]\] \[[Novak, Charles J. and Cornelius, Kenneth C. 1987][research_novakcharlesj_corneliuskennethc_1987]\] \[[Shovlin, M. D. et al 1987][research_shovlinmd_englarrj_1987]\] \[[Banks, Daniel W. and Paulson, John W., Jr. 1987][research_banksdanielw_paulsonjohnwjr_1987]\] \[[Viegas, John R. et al 1987][research_viegasjohnr_rubesinmorrisw_1987]\] \[[Pulliam, Thomas H. et al 1987][research_pulliamthomash_jespersendennisc_1987]\] \[[Salikuddin et al 1987][research_salikuddin_brown_1987]\] \[[McLachlan, B. G. 1987][research_mclachlanbg_1987]\] \[[Keener, Earl R. et al 1987][research_keenerearlr_sanderferdwightt_1987]\] \[[Nielsen, Jack N. 1987][research_nielsenjackn_1987]\] \[[Nielsen, Jack N. and Biggers, James C. 1987][research_nielsenjackn_biggersjamesc_1987]\] \[[Wood 1987][research_wood_1987]\] \[[Gregory-Smith and Gilchrist 1987][research_gregorysmith_gilchrist_1987]\] \[[Wood, N. J. 1987][research_woodnj_1987]\] \[[Kingloff, R. F. and Cooper, D. E. 1987][research_kingloffrf_cooperde_1987]\] \[[Dash, S. M. et al 1987][research_dashsm_yorkbj_1987]\] \[[Dvorak, Frank A. and Dash, Sanford M. 1987][research_dvorakfranka_dashsanfordm_1987]\] \[[Franke, M. E. and Harvell, J. K. 1987][research_frankeme_harvelljk_1987]\] \[[Harvey, William D. 1988][research_harveywilliamd_1988]\] \[[Gilchrist and Gregory-Smith 1988][research_gilchrist_gregorysmith_1988]\] \[[Yeh, David T. et al 1988][research_yehdavidt_tavelladomingoa_1988]\] \[[Yeh, David et al 1988][research_yehdavid_tavelladomingo_1988]\] \[[Viegas, J. R. et al 1988][research_viegasjr_rubesinmw_1988]\] \[[Pfenninger, W. and Vemuru, C. S. 1988][research_pfenningerw_vemurucs_1988]\] \[[Visser, K. D. et al 1989][research_visserkd_nelsonrc_1989]\] \[[Sun and Wang 1989][research_sun_wang_1989]\] \[[Shrewsbury 1989][research_shrewsbury_1989]\] \[[Yeh, David T. et al 1989][research_yehdavidt_tavelladomingoa_1989]\] \[[McLachlan, B. G. 1989][research_mclachlanbg_1989]\] \[[Parikh, P. G. et al 1990][research_parikhpg_chenaw_1990]\] \[[Lee, K. T. and Roberts, Leonard 1990][research_leekt_robertsleonard_1990]\] \[[Smith, Jeannette W. et al 1990][research_smithjeannettew_mineckraymonde_1990]\] \[[Williams and Franke 1990][research_williams_franke_1990]\] \[[Spaid, Frank W. and Keener, Earl R. 1991][research_spaidfrankw_keenerearlr_1991]\] \[[Paschal, K. et al 1991][research_paschalk_goodmanw_1991]\] \[[Kroo, I. et al 1991][research_krooi_rocks_1991]\] \[[Maddalon, Dal V. 1991][research_maddalondalv_1991]\] \[[Wood, Richard M. and Bauer, Steven X. S. 1991][research_woodrichardm_bauerstevenxs_1991]\] \[[Hunter, D. and Krauss, T. 1991][research_hunterd_krausst_1991]\] \[[Danabasoglu, G. et al 1991][research_danabasoglug_biringens_1991]\] \[[Ghee and Leishman 1991][research_ghee_leishman_1991]\] \[[Celik, Zeki Z. and Roberts, Leonard 1992][research_celikzekiz_robertsleonard_1992]\] \[[Heinemann, K. and Brown, Jeff 1992][research_heinemannk_brownjeff_1992]\] \[[Dirlik et al 1992][research_dirlik_kimmel_1992]\] \[[Rao, Dhanvada M. 1992][research_raodhanvadam_1992]\] \[[Birckelbaw, Larry D. 1992][research_birckelbawlarryd_1992]\] \[[Williams and Franke 1992][research_williams_franke_1992]\] \[[Hunter, David and Cullen, Laurence 1992][research_hunterdavid_cullenlaurence_1992]\] \[[Miller and Gile 1992][research_miller_gile_1992]\] \[[Acharya, Mukund and Metwally, Metwally H. 1992][research_acharyamukund_metwallymetwallyh_1992]\] \[[Ghee and Leishman 1992][research_ghee_leishman_1992]\] \[[Celik, Zeki Z. and Roberts, Leonard 1992][research_celikzekiz_robertsleonard_1992_b]\] \[[Boalbey, R. E. et al 1993][research_boalbeyre_elywl_1993]\] \[[Wong, G. S. et al 1993][research_wonggs_rocksm_1993]\] \[[Tso, Jin 1993][research_tsojin_1993]\] \[[Ferguson et al 1993][research_ferguson_franke_1993]\] \[[Greenwell and Wood 1993][research_greenwell_wood_1993]\] \[[Linton, Samuel W. 1993][research_lintonsamuelw_1993]\] \[[Wong et al 1994][research_wong_rock_1994]\] \[[Yang 1994][research_yang_1994]\] \[[Meyer and Seginer 1994][research_meyer_seginer_1994]\] \[[Hwang, D. P. et al 1994][research_hwangdp_boldmandr_1994]\] \[[Watmuff, Jonathan H. 1994][research_watmuffjonathanh_1994]\] \[[Lim, Hock-Bin 1994][research_limhockbin_1994]\] \[[Cornelius and Lucius 1994][research_cornelius_lucius_1994]\] \[[Celik and Roberts 1994][research_celik_roberts_1994]\] \[[Hong and Roberts 1995][research_hong_roberts_1995]\] \[[Brown, Jeffrey 1995][research_brownjeffrey_1995]\] \[[Emanuel 1995][research_emanuel_1995]\] \[[Johari et al 1995][research_johari_olinger_1995]\] \[[Jingchang et al 1995][research_jingchang_mao_1995]\] \[[Matsson 1995][research_matsson_1995_b]\] \[[Pedreiro, N. et al 1995][research_pedreiron_rocksm_1995]\] \[[Mineck, Raymond E. 1995][research_mineckraymonde_1995]\] \[[Englar, Robert J. 1996][research_englarrobertj_1996]\] \[[Mendoza and Ahuja 1996][research_mendoza_ahuja_1996]\] \[[Mineck, Raymond E. and Hartwich, Peter M. 1996][research_mineckraymonde_hartwichpeterm_1996]\] \[[Kraushaar, Sandra L. and Chokani, Ndaona 1996][research_kraushaarsandral_chokanindaona_1996]\] \[[Asami and Sawada 1996][research_asami_sawada_1996]\] \[[Weaver, D. et al 1996][research_weaverd_mcalisterkw_1996]\] \[[Guowei et al 1997][research_guowei_shanwu_1997]\] \[[Langan et al 1997][research_langan_samuels_1997]\] \[[Sawada and Asami 1997][research_sawada_asami_1997]\] \[[Englar, Robert J. 1998][research_englarrobertj_1998]\] \[[Guillot et al 1998][research_guillot_gutmark_1998]\] \[[Matsuo et al 1998][research_matsuo_setoguchi_1998]\] \[[Weaver et al 1998][research_weaver_mcalister_1998]\] \[[Vorobieff and Rockwell 1998][research_vorobieff_rockwell_1998]\] \[[Braslow, Albert L. 1999][research_braslowalbertl_1999]\] \[[Kandil, Osama A. and Yang, Zhi 1999][research_kandilosamaa_yangzhi_1999]\] \[[Ferman and Turner 1999][research_ferman_turner_1999]\] \[[Ferman and Turner 1999][research_ferman_turner_1999_b]\] \[[Guy et al 1999][research_guy_morrow_1999]\] \[[Sun and Sheikh 1999][research_sun_sheikh_1999]\] \[[Braslow, A. L. 1999][research_braslowal_1999]\] \[[Banks, Daniel W. et al 1999][research_banksdanielw_laflinbrendaegile_1999]\] \[[Morton et al 1999][research_morton_guy_1999]\] \[[Guy et al 1999][research_guy_morrow_1999_b]\] \[[Farcy and Renier 1999][research_farcy_renier_1999]\] \[[Grove et al 2000][research_grove_birkbeck_2000]\] \[[Kamishita et al 2000][research_kamishita_aso_2000]\] \[[Howe 2000][research_howe_2000]\] \[[Sobey 2000][research_sobey_2000]\] \[[Speyer and Kim 2000][research_speyer_kim_2000]\] \[[Slotnick, Jeffrey P. et al 2000][research_slotnickjeffreyp_anmichaely_2000]\] \[[Guy et al 2000][research_guy_morton_2000]\] \[[Viswanath et al 2000][research_viswanath_ramesh_2000]\] \[[Wang and Sun 2000][research_wang_sun_2000]\] \[[Guy et al 2000][research_guy_morrow_2000]\] \[[Liu et al 2001][research_liu_sankar_2001]\] \[[Siegel et al 2001][research_siegel_mclaughlin_2001]\] \[[Sun and Hamdani 2001][research_sun_hamdani_2001]\] \[[Jones, Gregory S. et al 2002][research_jonesgregorys_vikensallya_2002]\] \[[Vallee 2002][research_vallee_2002]\] \[[Sellars et al 2002][research_sellars_wood_2002]\] \[[Englar, Robert J. and Campbell, Bryan A. 2002][research_englarrobertj_campbellbryana_2002]\] \[[Speyer and Kim 2002][research_speyer_kim_2002]\] \[[Sutliff, Daniel L. et al 2002][research_sutliffdaniell_tweedtdaniell_2002]\] \[[Howe 2002][research_howe_2002]\] \[[Smits and Miles 2002][research_smits_miles_2002]\] \[[Sasaki et al 2002][research_sasaki_iguchi_2002]\] \[[Hamdani et al 2003][research_hamdani_baig_2003]\] \[[Ahuja, K. K. et al 2003][research_ahujakk_sankarln_2003]\] \[[Viswanath and Madhavan 2003][research_viswanath_madhavan_2003]\] \[[Gross et al 2003][research_gross_wernz_2003]\] \[[Vasilescu and Dancila 2003][research_vasilescu_dancila_2003]\] \[[Munro, Scott E. et al 2003][research_munroscotte_ahujakk_2003]\] \[[Liu, Yi et al 2003][research_liuyi_sankarlakshmin_2003]\] \[[Zha and Paxton 2004][research_zha_paxton_2004]\] \[[Shinozuka et al 2004][research_shinozuka_kojima_2004]\] \[[Hutcheson, Florence V. et al 2004][research_hutchesonflorencev_steaddanielj_2004]\] \[[Abramson 2004][research_abramson_2004]\] \[[Viswanath and Madhavan 2004][research_viswanath_madhavan_2004]\] \[[Margaris and Gursul 2004][research_margaris_gursul_2004]\] \[[Lopera et al 2004][research_lopera_terry_2004]\] \[[Frith and Wood 2004][research_frith_wood_2004]\] \[[Gross and Fasel 2004][research_gross_fasel_2004]\] \[[Wu et al 2004][research_wu_sankar_2004]\] \[[Huang et al 2004][research_huang_huang_2004]\] \[[Hutcheson, Florence V. and Stead, Daniel J. 2004][research_hutchesonflorencev_steaddanielj_2004_b]\] \[[Alexander, Michael G. et al 2005][research_alexandermichaelg_andersscottg_2005]\] \[[Swanson, R. C. et al 2005][research_swansonrc_rumseycl_2005]\] \[[Sutliff, Daniel L. 2005][research_sutliffdaniell_2005]\] \[[McGowan, Gregory and Gopalarathnam, Ashok 2005][research_mcgowangregory_gopalarathnamashok_2005]\] \[[Siller et al 2005][research_siller_jacob_2005]\] \[[Bakhle, Milind A. and Srivastava, Rakesh 2005][research_bakhlemilinda_srivastavarakesh_2005]\] \[[Boyd, D. Douglas, Jr. 2005][research_boydddouglasjr_2005]\] \[[Munro, Scott E. et al 2005][research_munroscotte_ahujakk_2005]\] \[[Muramatsu et al 2005][research_muramatsu_okada_2005]\] \[[Duraisamy and Baeder 2005][research_duraisamy_baeder_2005]\] \[[Jones, Gregory S. 2005][research_jonesgregorys_2005]\] \[[Jones, Gregory S. and Joslin, Ronald D. 2005][research_jonesgregorys_joslinronaldd_2005_b]\] \[[Jones, Gregory S. and Joslin, Ronald D. 2005][research_jonesgregorys_joslinronaldd_2005]\] \[[Swanson, R. C. et al 2005][research_swansonrc_rumseycl_2005_b]\] \[[Hutcheson, Florence V. and Brooks, THomas F. 2005][research_hutchesonflorencev_brooksthomasf_2005]\] \[[Han et al 2005][research_han_zhou_2005]\] \[[Alexander, Michael G. et al 2005][research_alexandermichaelg_andersscottg_2005_b]\] \[[Aerodynamic Heat Exchanger A 2006][research_aerodynamic_heat_2006]\] \[[Cruz, Josue and Anders, Scott G. 2006][research_cruzjosue_andersscottg_2006]\] \[[Coanda Effect and Circulation 2006][research_coanda_effect_2006]\] \[[Gross and Fasel 2006][research_gross_fasel_2006_b]\] \[[Lee-Rausch, E. M. et al 2006][research_leerauschem_vatsavn_2006]\] \[[Computational Study of a 2006][research_computational_study_2006]\] \[[Goldstein 2006][research_goldstein_2006]\] \[[Experimental and Computational Investigation 2006][research_experimental_and_2006]\] \[[Jones, Gregory S. et al 2006][research_jonesgregorys_yaochungsheng_2006]\] \[[Donnelly et al 2006][research_donnelly_cutbirth_2006]\] \[[Slomski et al 2006][research_slomski_chang_2006]\] \[[Novel Flow Control Method 2006][research_novel_flow_2006]\] \[[Laible et al 2006][research_laible_valsecchi_2006]\] \[[Swanson, Roy C., Jr. and Rumsey, Christopher L. 2006][research_swansonroycjr_rumseychristopherl_2006]\] \[[Pneumatic Flap Performance for 2006][research_pneumatic_flap_2006]\] \[[Gross and Fasel 2006][research_gross_fasel_2006]\] \[[Thomas, Russ H. et al 2006][research_thomasrussh_menglevinodg_2006]\] \[[Trailing Edge Circulation Control 2006][research_trailing_edge_2006]\] \[[Green, Lawrence L. and Cruz, Josue 2006][research_greenlawrencel_cruzjosue_2006]\] \[[A Study on Jet 2007][research_a_study_2007]\] \[[Cui et al 2007][research_cui_lim_2007]\] \[[Il'inskii and Mardanov 2007][research_ilinskii_mardanov_2007]\] \[[Dygert and Dang 2007][research_dygert_dang_2007]\] \[[Thomas, Russell H. et al 2007][research_thomasrussellh_menglevinodg_2007]\] \[[Flow Separation Control Effects 2007][research_flow_separation_2007]\] \[[Schlecht, Robin and Anders, Scott 2007][research_schlechtrobin_andersscott_2007]\] \[[Margaris and Gursul 2007][research_margaris_gursul_2007]\] \[[Erickson, Gary E. 2007][research_ericksongarye_2007]\] \[[Layek et al 2008][research_layek_midya_2008]\] \[[Shannon and Morris 2008][research_shannon_morris_2008]\] \[[Lin, John C. et al 2008][research_linjohnc_jonesgregorys_2008]\] \[[Jones, G. S. et al 2008][research_jonesgs_linjc_2008]\] \[[Englar, Robert J. et al 2009][research_englarrobertj_jonesgregorys_2009]\] \[[Wetzel et al 2009][research_wetzel_liu_2009]\] \[[Morris et al 2009][research_morris_shannon_2009]\] \[[Winkler et al 2009][research_winkler_carolus_2009]\] \[[Wetzel et al 2009][research_wetzel_griffin_2009]\] \[[Swanson and Rumsey 2009][research_swanson_rumsey_2009]\] \[[Pfingsten and Radespiel 2009][research_pfingsten_radespiel_2009]\] \[[Dygert and Dang 2009][research_dygert_dang_2009]\] \[[Singh and Ramamurthi 2009][research_singh_ramamurthi_2009]\] \[[Guendogdu et al 2010][research_guendogdu_vorreiter_2010]\] \[[Pott-Pollenske and Pfingsten 2010][research_pottpollenske_pfingsten_2010]\] \[[Wetzel et al 2010][research_wetzel_griffin_2010]\] \[[Nishino et al 2010][research_nishino_hahn_2010_b]\] \[[Madavan and Rogers 2010][research_madavan_rogers_2010]\] \[[Balzer and Fasel 2010][research_balzer_fasel_2010]\] \[[Kweder et al 2010][research_kweder_clarke_2010]\] \[[Miozzi et al 2010][research_miozzi_lalli_2010]\] \[[Edwards 2010][research_edwards_2010]\] \[[Nishino et al 2010][research_nishino_hahn_2010]\] \[[Nichino, Takafumi et al 2010][research_nichinotakafumi_hahnseonghyeon_2010]\] \[[Milholen, W. E., II et al 2010][research_milholenweii_jonesgregs_2010]\] \[[Jensch et al 2010][research_jensch_pfingsten_2010]\] \[[Zhang et al 2010][research_zhang_yan_2010]\] \[[Liu et al 2010][research_liu_duan_2010]\] \[[Nishino and Shariff 2010][research_nishino_shariff_2010]\] \[[Chen et al 2010][research_chen_wygnanski_2010]\] \[[Sattler et al 2010][research_sattler_scholz_2010]\] \[[Iguchi and Ilegbusi 2010][research_iguchi_ilegbusi_2010]\] \[[Margaris and Gursul 2010][research_margaris_gursul_2010]\] \[[Lin, John C. et al 2010][research_linjohnc_jonesgregorys_2010]\] \[[Trancossi and Dumas 2011][research_trancossi_dumas_2011_b]\] \[[Zhang et al 2011][research_zhang_chen_2011]\] \[[Wetzel and Cattafesta 2011][research_wetzel_cattafesta_2011]\] \[[Guo et al 2011][research_guo_liu_2011]\] \[[Tan et al 2011][research_tan_tan_2011]\] \[[Liu et al 2011][research_liu_cui_2011]\] \[[Florin et al 2011][research_florin_alexandru_2011]\] \[[Chen 2011][research_chen_2011]\] \[[Lee et al 2011][research_lee_loth_2011]\] \[[Rumsey, Christopher L. and Nishino, Takafumi 2011][research_rumseychristopherl_nishinotakafumi_2011]\] \[[Allan, Brian G. et al 2011][research_allanbriang_jonesgreg_2011]\] \[[Lubert and Shafer 2011][research_lubert_shafer_2011]\] \[[Mengle 2011][research_mengle_2011]\] \[[Winkler et al 2012][research_winkler_moreau_2012]\] \[[Paschal, Keith B. et al 2012][research_paschalkeithb_neuhartdannyh_2012]\] \[[Caraway et al 2012][research_caraway_hayashibara_2012]\] \[[Nishino and Shariff 2012][research_nishino_shariff_2012]\] \[[Milholen, William E., II et al 2012][research_milholenwilliameii_jonesgregorys_2012]\] \[[Watkins, Anthony N. et al 2012][research_watkinsanthonyn_lipfordwilliame_2012]\] \[[Lubert 2012][research_lubert_2012]\] \[[Djojodihardjo and Hamid 2012][research_djojodihardjo_hamid_2012]\] \[[van Hooff et al 2012][research_vanhooff_blocken_2012]\] \[[Chen et al 2012][research_chen_seele_2012]\] \[[Drãgan 2012][research_dragan_2012]\] \[[Horne, Clifton and Burnside, Nathan J. 2013][research_horneclifton_burnsidenathanj_2013]\] \[[Arolla and Durbin 2013][research_arolla_durbin_2013]\] \[[Subhash and Dumas 2013][research_subhash_dumas_2013]\] \[[Jones, Gregory S. et al 2013][research_jonesgregorys_milholenwilliameii_2013]\] \[[Milholen, William E., II et al 2013][research_milholenwilliameii_jonesgregorys_2013]\] \[[Edstrand and Cattafesta III 2013][research_edstrand_cattafestaiii_2013]\] \[[Chen et al 2013][research_chen_seele_2013]\] \[[Trancossi et al 2013][research_trancossi_maharshi_2013]\] \[[Bobonea and Pricop 2013][research_bobonea_pricop_2013]\] \[[Mazumdar and Asada 2013][research_mazumdar_asada_2013]\] \[[Semaan et al 2014][research_semaan_elsayed_2014]\] \[[Burnazzi and Radespiel 2014][research_burnazzi_radespiel_2014]\] \[[Czech, Michael J and Thomas, Russell H. 2014][research_czechmichaelj_thomasrussellh_2014]\] \[[Kroehnert 2014][research_kroehnert_2014]\] \[[Kumar et al 2014][research_kumar_elsayed_2014]\] \[[Gerhard et al 2014][research_gerhard_erbsloh_2014]\] \[[Dumas et al 2014][research_dumas_subhash_2014]\] \[[Chan, David T. et al 2014][research_chandavidt_milholenwilliameii_2014]\] \[[Lawrence and Self 2015][research_lawrence_self_2015]\] \[[BhirawaPutra et al 2015][research_bhirawaputra_xu_2015]\] \[[Jiao and Lu 2015][research_jiao_lu_2015]\] \[[El Sayed Mohamed and Semaan 2015][research_elsayedmohamed_semaan_2015]\] \[[Mazaheri and Nejati 2015][research_mazaheri_nejati_2015]\] \[[Edstrand and Cattafesta 2015][research_edstrand_cattafesta_2015]\] \[[Naigle et al 2016][research_naigle_frankhouser_2016]\] \[[Park et al 2016][research_park_chang_2016]\] \[[Zafer and Gürsoy 2016][research_zafer_gursoy_2016]\] \[[Lee et al 2016][research_lee_park_2016]\] \[[Liu and Zha 2016][research_liu_zha_2016]\] \[[Jente et al 2017][research_jente_pottpollenske_2017]\] \[[Skotnicka-Siepsiak 2017][research_skotnickasiepsiak_2017]\] \[[Feng et al 2017][research_feng_song_2017]\] \[[Reger et al 2017][research_reger_nickels_2017]\] \[[Baljit et al 2017][research_baljit_saad_2017]\] \[[Chan, David T. et al 2017][research_chandavidt_jonesgregorys_2017]\] \[[Zhang et al 2018][research_zhang_xu_2018]\] \[[James et al 2018][research_james_suryan_2018]\] \[[Wu et al 2018][research_wu_wang_2018]\] \[[Puri et al 2018][research_puri_laufer_2018]\] \[[Çetin et al 2018][research_cetin_celik_2018]\] \[[Kornilov 2018][research_kornilov_2018]\] \[[Jente et al 2018][research_jente_pottpollenske_2018]\] \[[Eto et al 2018][research_eto_kondo_2018]\] \[[Yang and Zha 2018][research_yang_zha_2018]\] \[[Rossian et al 2018][research_rossian_suryadi_2018]\] \[[Zaidi and Bukhari 2018][research_zaidi_bukhari_2018]\] \[[Yang and Zha 2018][research_yang_zha_2018_c]\] \[[Yang and Zha 2018][research_yang_zha_2018_d]\] \[[Yang and Zha 2018][research_yang_zha_2018_b]\] \[[The answer is blowing 2018][research_the_answer_2018]\] \[[Shakouchi et al 2019][research_shakouchi_fukushima_2019]\] \[[Ahmed 2019][research_ahmed_2019_c]\] \[[Ahmed 2019][research_ahmed_2019]\] \[[Fatahian et al 2019][research_fatahian_lohrasbinichkoohi_2019]\] \[[Capobianco et al 2019][research_capobianco_shankar_2019]\] \[[Hirokawa et al 2019][research_hirokawa_eto_2019]\] \[[Li 2019][research_li_2019_b]\] \[[N. Abed 2019][research_nabed_2019]\] \[[Ahmed 2019][research_ahmed_2019_b]\] \[[Li et al 2019][research_li_wang_2019]\] \[[Mazumder et al 2019][research_mazumder_golubev_2019]\] \[[Siliang et al 2019][research_siliang_qijun_2019]\] \[[Di Luca and Breuer 2019][research_diluca_breuer_2019]\] \[[Wang and Zha 2019][research_wang_zha_2019]\] \[[Trancossi and Pascoa 2020][research_trancossi_pascoa_2020]\] \[[Li and Qin 2020][research_li_qin_2020]\] \[[Lozano and Paniagua 2020][research_lozano_paniagua_2020]\] \[[Zhang et al 2020][research_zhang_wang_2020]\] \[[Abramova et al 2020][research_abramova_petrov_2020]\] \[[Abbasi and Souri 2020][research_abbasi_souri_2020]\] \[[Skotnicka-Siepsiak 2020][research_skotnickasiepsiak_2020]\] \[[Chen et al 2021][research_chen_cheng_2021]\] \[[Kara and Erpulat 2021][research_kara_erpulat_2021]\] \[[Karuppiah and Wessley 2021][research_karuppiah_wessley_2021]\] \[[Kornilov et al 2021][research_kornilov_kavun_2021]\] \[[Water Jet Applied to 2021][research_water_jet_2021]\] \[[Xu and Zha 2022][research_xu_zha_2022]\] \[[Zhao et al 2022][research_zhao_zhang_2022_b]\] \[[Li et al 2022][research_li_xu_2022]\] \[[Chi and Gu 2022][research_chi_gu_2022]\] \[[Asaro et al 2022][research_asaro_luer_2022]\] \[[Yang et al 2022][research_yang_castaneda_2022]\] \[[Shi et al 2022][research_shi_gu_2022]\] \[[Yang et al 2022][research_yang_liu_2022]\] \[[Wang et al 2022][research_wang_qu_2022]\] \[[Kaneko and Takemura 2022][research_kaneko_takemura_2022]\] \[[Sun et al 2022][research_sun_shi_2022]\] \[[Zheng et al 2023][research_zheng_huang_2023]\] \[[Yang et al 2023][research_yang_arcondoulis_2023]\] \[[Chen et al 2023][research_chen_shi_2023]\] \[[Lei and Zha 2023][research_lei_zha_2023_b]\] \[[Zaheer et al 2023][research_zaheer_disimile_2023]\] \[[Lei and Zha 2023][research_lei_zha_2023]\] \[[Pan et al 2023][research_pan_wang_2023]\] \[[He et al 2023][research_he_zhang_2023]\] \[[Influence of Surface Curvature 2023][research_influence_of_2023]\] \[[Zhang and Zhao 2023][research_zhang_zhao_2023]\] \[[Xu and Zha 2023][research_xu_zha_2023]\] \[[Asaro et al 2023][research_asaro_cavaliere_2023]\] \[[Jeon et al 2023][research_jeon_ren_2023]\] \[[Zhang et al 2023][research_zhang_huang_2023]\] \[[Karen A. Deere et al 2024][research_karenadeere_jeffreykviken_2024]\] \[[Chen et al 2024][research_chen_avital_2024]\] \[[Jente et al 2024][research_jente_huber_2024]\] \[[Butler and Bons 2024][research_butler_bons_2024]\] \[[Su et al 2024][research_su_li_2024]\] \[[Shao et al 2024][research_shao_guo_2024]\] \[[Rizzetta and Garmann 2024][research_rizzetta_garmann_2024]\] \[[Rodrigues et al 2024][research_rodrigues_modanloujoubari_2024]\] \[[Abramova and Soudakov 2024][research_abramova_soudakov_2024]\] \[[Soufivand et al 2024][research_soufivand_hojaji_2024]\] \[[Li et al 2024][research_li_xu_2024]\] \[[Zhang et al 2024][research_zhang_yan_2024]\] \[[Kumar and Bhumkar 2025][research_kumar_bhumkar_2025]\] \[[Vechalapu et al 2025][research_vechalapu_kanistras_2025]\] \[[Zhao et al 2025][research_zhao_wang_2025]\] \[[Yabu et al 2025][research_yabu_kato_2025]\] \[[Zhang et al 2025][research_zhang_yue_2025]\] \[[Çuhadaroğlu et al 2025][research_cuhadaroglu_kilic_2025]\] \[[Modanloujoubari et al 2025][research_modanloujoubari_deylami_2025]\] \[[Rizzetta and Garmann 2025][research_rizzetta_garmann_2025_b]\] \[[Pakhomov 2025][research_pakhomov_2025]\] \[[Soufivand et al 2025][research_soufivand_hojaji_2025]\] \[[Raj et al 2025][research_raj_rana_2025]\] \[[Zhou et al 2026][research_zhou_guo_2026]\] \[[Zhao et al 2026][research_zhao_wang_2026]\] \[[Shao et al 2026][research_shao_he_2026]\] \[[Vechalapu et al 2026][research_vechalapu_kanistras_2026]\] \[[Sheng et al 2026][research_sheng_sun_2026]\] \[[Liu 2026][research_liu_2026]\] \[[Rizzetta and Garmann 2026][research_rizzetta_garmann_2026]\] \[[Ding et al 2026][research_ding_ren_2026]\] \[[Vibhu et al 2026][research_vibhu_taubert_2026]\] \[[Rackers et al 2026][research_rackers_desalvo_2026]\] \[[Zhao et al 2026][research_zhao_wang_2026_b]\] \[[Yang et al 2026][research_yang_wu_2026]\] \[[McAuliffe][research_mcauliffe]\] \[[Swan][research_swan]\] \[[Churchill][research_churchill]\] \[[Starn][research_starn]\] \[[Kweder][research_kweder]\] \[[Couillaud][research_couillaud]\] \[[Hard][research_hard]\] \[[Caroline Anderson et al][research_carolineanderson_michaelkinzel]\] \[[Evan J McFadden and Jeffrey P Bons][research_evanjmcfadden_jeffreypbons_b]\]
+**The oldest literature on controlling a wing with air.** Circulation control, the Coanda effect, the jet flap, blown and externally blown flaps, upper-surface and spanwise blowing, and boundary-layer control by blowing and suction, with the acoustics of the blown flap.
+
+**317 of these records date from before 1980**, which is the era of the NACA boundary-layer-control reports and of the externally blown flaps and upper-surface blowing of the short take-off transport programmes.
+
+**750 records.** \[[Seewald 1927][research_seewaldf_1927]\] \[[Reid and Bamber 1928][research_reideg_bambermj_1928]\] \[[Bamber 1932][research_bambermillardj_1932]\] \[[Quinn 1944][research_quinnjohnh_1944]\] \[[Von Doenhoff 1944][research_vondoenhoffalberte_1944]\] \[[Quinn 1946][research_quinnjohnhjr_1946]\] \[[Kohl and Diggs 1947][research_kohlrobertc_diggsdonaldr_1947]\] \[[Quinn 1947][research_quinnjohnh_1947]\] \[[Quinn 1947][research_quinnjohnh_1947_b]\] \[[Schwier 1947][research_schwierw_1947]\] \[[Huffman et al 1948][research_huffmanjk_hahnede_1948]\] \[[Pasamanick and Proterra 1948][research_pasamanickjerome_proterraanthonyj_1948]\] \[[Passamanick 1948][research_passamanickjerome_1948]\] \[[Racisz and Quinn 1948][research_raciszstanleyf_quinnjohnh_1948]\] \[[Burrows et al 1949][research_burrowsdalel_braslowalbertl_1949]\] \[[Horton and Von Doenhoff 1949][research_hortonelmera_vondoenhoffalberte_1949]\] \[[Braslow and Visconti 1950][research_braslowalbertl_viscontifioravante_1950]\] \[[Horton et al 1950][research_hortonelmera_raciszstanleyfrank_1950]\] \[[Braslow et al 1951][research_braslowalbertl_burrowsdalel_1951]\] \[[Horton et al 1951][research_hortonelmera_raciszstanleyfrank_1951]\] \[[Blosser 1952][research_blosser_1952]\] \[[Cliett 1952][research_cliett_1952]\] \[[Rebuffet and Poisson-Quinton 1952][research_rebuffetpierre_poissonquintonph_1952]\] \[[Blosser 1953][research_blosser_1953]\] \[[Cocke and Fink 1953][research_cockebenniewjr_finkmarvinp_1953]\] \[[Cook et al 1954][research_cookwoodrowl_griffinroynjr_1954]\] \[[Kelley and Tolhurst 1955][research_kelleymarkw_tolhurstwilliamhjr_1955]\] \[[Anderson et al 1956][research_andersonsethb_quigleyherveyc_1956]\] \[[Fisher et al 1956][research_fisher_gertsen_1956]\] \[[Kelly 1956][research_kellymarkw_1956]\] \[[Kelly and Tucker 1956][research_kellymarkw_tuckerjeffreyh_1956]\] \[[McLemore and Fink 1956][research_mclemorehclyde_finkmarvinp_1956]\] \[[Northrop Aircraft Inc Hawthorne Ca 1956][research_northropaircraftinchawthorneca_1956]\] \[[Rolls and Innis 1956][research_rollslstewart_innisrobertc_1956]\] \[[Sferi-Coanda Clichy France 1956][research_sfericoandaclichyfrance_1956]\] \[[Spreemann and Kuhn 1956][research_spreemannkennethp_kuhnricharde_1956]\] \[[Stratford 1956][research_stratford_1956]\] \[[Stratford 1956][research_stratford_1956_b]\] \[[Cerreta 1957][research_cerreta_1957]\] \[[Davenport 1957][research_davenportedwine_1957]\] \[[Dimmock 1957][research_dimmock_1957]\] \[[Fink and McLemore 1957][research_finkmarvinp_mclemorehclyde_1957]\] \[[Helmbold 1957][research_helmbold_1957]\] \[[Hirsch 1957][research_hirsch_1957]\] \[[James and Maki 1957][research_jamesha_makirl_1957]\] \[[McLemore 1957][research_mclemorehclyde_1957]\] \[[Quigley et al 1957][research_quigleyherveyc_homfranciswk_1957]\] \[[Raspet 1957][research_raspet_1957]\] \[[Sferi-Coanda Clichy France 1957][research_sfericoandaclichyfrance_1957]\] \[[Griffin et al 1958][research_griffinroynjr_holzhausercurta_1958]\] \[[Helmbold 1958][research_helmbold_1958]\] \[[Hirsch 1958][research_hirsch_1958]\] \[[Kelly et al 1958][research_kellymarkw_andersonsethb_1958]\] \[[McLemore and Fink 1958][research_mclemorehclyde_finkmarvinp_1958]\] \[[McLemore 1958][research_mclemorehclyde_1958]\] \[[Quigley et al 1958][research_quigleyherveyc_andersonsethb_1958]\] \[[Riebe and Davenport 1958][research_riebejohnm_davenportedwine_1958]\] \[[Spreemann 1958][research_spreemannkennethp_1958]\] \[[Aoyagi and Hickey 1959][research_aoyagikiyoshi_hickeydavidh_1959]\] \[[Maki 1959][research_makiralphl_1959]\] \[[Coanda 1960][research_coanda_1960]\] \[[Gault 1960][research_gaultdonalde_1960]\] \[[Hickey and Aoyagi 1960][research_hickeydavidh_aoyagikiyoshi_1960]\] \[[McLemore and Peterson 1960][research_mclemorehclyde_petersonjohnbjr_1960]\] \[[Quigley et al 1960][research_quigleyherveyc_andersonsethb_1960]\] \[[Yen 1960][research_yen_1960]\] \[[Grunwald 1961][research_grunwaldkalmanj_1961]\] \[[Lockwood 1961][research_lockwoodvernarde_1961]\] \[[Weiberg and Holzhauser 1961][research_weibergjamesa_holzhausercurta_1961_b]\] \[[Weiberg and Holzhauser 1961][research_weibergjamesa_holzhausercurta_1961]\] \[[Erickson 1962][research_erickson_jc_1962]\] \[[Aoyagi and Hickey 1963][research_aoyagik_hickeydh_1963]\] \[[Korbacher 1963][research_korbacher_1963]\] \[[White 1963][research_white_1963]\] \[[Korbacher 1964][research_korbacher_1964]\] \[[Northrop Corp Hawthorne Ca Norair Div 1964][research_northropcorphawthornecanorairdiv_1964]\] \[[Northrop Corp Hawthorne Ca Norair Div 1964][research_northropcorphawthornecanorairdiv_1964_b]\] \[[Mehus 1965][research_mehus_1965]\] \[[Reba 1966][research_reba_1966]\] \[[Roberts et al 1966][research_roberts_smith_1966]\] \[[Wygnanski 1966][research_wygnanski_1966]\] \[[Yuan et al 1966][research_yuan_westkaemper_1966]\] \[[Chang et al 1967][research_chang_casarella_1967]\] \[[Cordner 1967][research_cordner_1967]\] \[[Lissaman 1967][research_lissaman_1967]\] \[[Pearson 1967][research_pearson_1967]\] \[[Vogler 1967][research_voglerrd_1967]\] \[[Corsiglia et al 1968][research_corsigliavr_koenigdg_1968]\] \[[Dunham 1968][research_dunham_1968]\] \[[Fink et al 1968][research_finkmp_freemandcjr_1968]\] \[[Kind 1968][research_kind_1968]\] \[[Miller and Seren 1968][research_millerml_sereng_1968]\] \[[Aoyagi et al 1969][research_aoyagik_dickinsonso_1969]\] \[[Clever 1969][research_cleverwwii_1969]\] \[[Lissaman 1969][research_lissaman_1969]\] \[[Lissaman 1969][research_lissaman_1969_b]\] \[[Parlett and Shivers 1969][research_parlettlyslep_shiversjamesp_1969]\] \[[Welna et al 1969][research_welna_dahlberg_1969]\] \[[Bangert 1970][research_bangert_1970]\] \[[Beckwith et al 1970][research_beckwithie_bushnelldm_1970]\] \[[Deal et al 1970][research_dealpl_granthamwd_1970]\] \[[Englar 1970][research_englar_1970]\] \[[Freeman et al 1970][research_freemandcjr_hendersonrl_1970]\] \[[Freeman et al 1970][research_freemandcjr_parlettlp_1970]\] \[[Romiti 1970][research_romiti_1970]\] \[[Vogler 1970][research_voglerrd_1970]\] \[[Welna et al 1970][research_welna_dahlberg_1970]\] \[[Williams and Howe 1970][research_williams_howe_1970]\] \[[Aiken and Cook 1971][research_aikentn_cookam_1971]\] \[[Deal et al 1971][research_dealpl_granthamwd_1971]\] \[[Dorsch et al 1971][research_dorschrg_krejsaea_1971]\] \[[Falarski and Aiken 1971][research_falarskimd_aikentn_1971]\] \[[Falarski and Koenig 1971][research_falarskimd_koenigdg_1971]\] \[[Goodykoontz et al 1971][research_goodykoontzjh_olsenwa_1971]\] \[[Grafton et al 1971][research_graftonsb_parlettlp_1971]\] \[[Henderson 1971][research_hendersonrl_1971]\] \[[Jenkins 1971][research_jenkins_1971]\] \[[Kantha et al 1971][research_kanthahl_lewellenws_1971]\] \[[Parlett et al 1971][research_parlettlp_greerhd_1971]\] \[[Smith 1971][research_smithccjr_1971]\] \[[Stabe 1971][research_staberg_1971]\] \[[A Structural Design for 1972][research_a_structural_1972]\] \[[Aoyagi et al 1972][research_aoyagik_halllp_1972]\] \[[Bettner 1972][research_bettnerjl_1972]\] \[[Design integration and noise 1972][research_design_integration_1972]\] \[[Dorsch et al 1972][research_dorschrg_kreimwj_1972]\] \[[Dorsch et al 1972][research_dorschrg_reshotkom_1972]\] \[[Falarski 1972][research_falarskimd_1972]\] \[[Falarski and Koenig 1972][research_falarskimd_koenigdg_1972]\] \[[Falarski and Koenig 1972][research_falarskimd_koenigdg_1972_b]\] \[[Goodykoontz et al 1972][research_goodykoontzjh_dorschrg_1972]\] \[[Goodykoontz et al 1972][research_goodykoontzjh_olsenwa_1972]\] \[[Grantham et al 1972][research_granthamwd_nguyenlt_1972]\] \[[Greene and Perry 1972][research_greenegc_perrybiii_1972]\] \[[Groeneweg and Minner 1972][research_groeneweg_minner_1972]\] \[[Groeneweg and Minner 1972][research_groenewegjf_minnergl_1972]\] \[[Gruschka and Schrecker 1972][research_gruschkahd_schreckergo_1972]\] \[[Hayden et al 1972][research_haydenre_schartontd_1972]\] \[[Hughes 1972][research_hughesdl_1972]\] \[[Johnson 1972][research_johnsonwgjr_1972]\] \[[Kier et al 1972][research_kierda_powersbg_1972]\] \[[Levinsky and Yeh 1972][research_levinskyes_yehtt_1972]\] \[[Olsen et al 1972][research_olsenwa_dorschrg_1972]\] \[[Oshima and Kinoshita 1972][research_oshima_kinoshita_1972]\] \[[Panitz and Wasan 1972][research_panitz_wasan_1972]\] \[[Parlett 1972][research_parlettlp_1972]\] \[[Putnam and Lasagna 1972][research_putnamtw_lasagnapl_1972]\] \[[Ungar et al 1972][research_ungaree_chandiramanikl_1972]\] \[[Vonglahn et al 1972][research_vonglahnuh_reshotkom_1972]\] \[[Vonglahn et al 1972][research_vonglahnuh_sekasn_1972]\] \[[Aiken and Cook 1973][research_aikentn_cookam_1973]\] \[[Aiken et al 1973][research_aikentn_aoyagik_1973]\] \[[Aoyagi et al 1973][research_aoyagik_falarskimd_1973]\] \[[Aoyagi et al 1973][research_aoyagik_falarskimd_1973_b]\] \[[Bettner and Blessing 1973][research_bettnerjl_blessingjo_1973]\] \[[Campbell et al 1973][research_campbelljm_harkonendl_1973]\] \[[Ciffone and Robinson 1973][research_ciffonedl_robinsongh_1973]\] \[[Falarski 1973][research_falarskimd_1973]\] \[[Falarski et al 1973][research_falarskimd_aoyagik_1973]\] \[[Goodykoontz et al 1973][research_goodykoontzjh_dorschrg_1973]\] \[[Goodykoontz et al 1973][research_goodykoontzjh_wagnerjm_1973]\] \[[Hackett and Lyman 1973][research_hackett_lyman_1973]\] \[[Herold 1973][research_heroldac_1973]\] \[[Hughes 1973][research_hughesdl_1973]\] \[[Karchmer and Friedman 1973][research_karchmeram_friedmanr_1973]\] \[[Kinoshita and Oshima 1973][research_kinoshita_oshima_1973]\] \[[Lansing et al 1973][research_lansingdl_mixsonjs_1973]\] \[[Lissaman 1973][research_lissamanpbs_1973]\] \[[Mahal and Gilchrist 1973][research_mahalas_gilchristij_1973]\] \[[McKinzie and Burns 1973][research_mckinziedjjr_burnsrj_1973]\] \[[Morris et al 1973][research_morrisrl_hankecr_1973]\] \[[Okumoto and Elsanker 1973][research_okumoto_elsanker_1973]\] \[[Parlett et al 1973][research_parlettlp_smithccjr_1973]\] \[[Phelps and Smith 1973][research_phelpsaeiii_smithccjr_1973]\] \[[Phelps et al 1973][research_phelpsaeiii_letkow_1973]\] \[[Powers and Kier 1973][research_powersbg_kierda_1973]\] \[[Roepcke and Nickson 1973][research_roepckefa_nicksontb_1973]\] \[[Samanich et al 1973][research_samanichne_heidelberglj_1973]\] \[[Scharton et al 1973][research_schartontd_pinkelb_1973]\] \[[Smith 1973][research_smithccjr_1973]\] \[[Theisen et al 1973][research_theisen_scruggs_1973]\] \[[Capone 1974][research_caponefj_1974]\] \[[Chin et al 1974][research_chinyt_aikentn_1974]\] \[[Coe and Kulla 1974][research_coepljr_kullad_1974]\] \[[Cole and Rathburn 1974][research_coletw_rathburnea_1974]\] \[[Dorsch 1974][research_dorschrg_1974]\] \[[Dorsch et al 1974][research_dorschrg_goodykoontzjh_1974]\] \[[Gentry 1974][research_gentrygljr_1974]\] \[[Gillette et al 1974][research_gillettewb_mohnlw_1974]\] \[[Goodykoontz et al 1974][research_goodykoontzjh_dorschrg_1974]\] \[[Grantham et al 1974][research_granthamwd_nguyenlt_1974]\] \[[Harkonen et al 1974][research_harkonendl_mcbridejf_1974]\] \[[Hoad 1974][research_hoaddr_1974]\] \[[Johnson and Phelps 1974][research_johnsonjljr_phelpsaeiii_1974]\] \[[Johnson and Kardas 1974][research_johnsonwgjr_kardasge_1974]\] \[[Jones and Heidelberg 1974][research_joneswl_heidelberglj_1974]\] \[[Kinoshita and Oshima 1974][research_kinoshita_oshima_1974]\] \[[Middleton 1974][research_middletondb_1974]\] \[[Middleton and Bergeron 1974][research_middletondb_bergeronhp_1974]\] \[[Parlett et al 1974][research_parlettlp_emerlingsj_1974]\] \[[Quigley et al 1974][research_quigleyhc_innisrc_1974]\] \[[Scantling and Gloss 1974][research_scantlingwl_glossbb_1974]\] \[[Schoenster 1974][research_schoensterja_1974]\] \[[Schrecker and Maus 1974][research_schreckergo_mausjr_1974]\] \[[Shivers and Smith 1974][research_shiversjp_smithccjr_1974]\] \[[Smith and White 1974][research_smithccjr_whitelc_1974]\] \[[Stewart 1974][research_stewarthj_1974]\] \[[Waites and Chin 1974][research_waiteswl_chinyt_1974]\] \[[Cook et al 1974][research_woodrowlcook_davidhhickey_1974]\] \[[Abramson 1975][research_abramson_1975]\] \[[Addessio and Skifstad 1975][research_addessiofl_skifstadjg_1975]\] \[[Aoyagi et al 1975][research_aoyagik_falarskimd_1975]\] \[[Campbell 1975][research_campbelljf_1975]\] \[[Campbell 1975][research_campbelljf_1975_b]\] \[[Capone 1975][research_capone_1975]\] \[[Carros et al 1975][research_carrosrj_boissevainag_1975]\] \[[Chin et al 1975][research_chin_aiken_1975]\] \[[Cochrane and Carros 1975][research_cochraneja_carrosrj_1975]\] \[[Coe et al 1975][research_coepljr_mclemorehc_1975]\] \[[Cook and Whittley 1975][research_cookwl_whittleydc_1975]\] \[[Dorsch et al 1975][research_dorschrg_clarkbj_1975]\] \[[Erickson and Campbell 1975][research_ericksonge_campbelljf_1975]\] \[[Erickson and Campbell 1975][research_ericksonge_campbelljf_1975_b]\] \[[Falarski et al 1975][research_falarskimd_aikentn_1975]\] \[[Fink 1975][research_finkmr_1975]\] \[[Forsyth et al 1975][research_forsythdr_yiplp_1975]\] \[[Goodykoontz et al 1975][research_goodykoontzj_vonglahnu_1975]\] \[[Heidelberg et al 1975][research_heidelberglj_homyakl_1975]\] \[[Holmberg 1975][research_holmbergjl_1975]\] \[[Johnson 1975][research_johnsonwgjr_1975]\] \[[Kinoshita and Oshima 1975][research_kinoshita_oshima_1975]\] \[[Koenig and Aoyagi 1975][research_koenigdg_aoyagik_1975]\] \[[Lan and Campbell 1975][research_lance_campbelljf_1975]\] \[[Laub 1975][research_laubgh_1975]\] \[[Levinsky and Schappelle 1975][research_levinsky_schappelle_1975]\] \[[Marton 1975][research_marton_1975]\] \[[Mendenhall et al 1975][research_mendenhallmr_perkinscjr_1975]\] \[[Middleton et al 1975][research_middletondb_hurtgjjr_1975]\] \[[Miles 1975][research_milesjh_1975]\] \[[Naeseth and Hoad 1975][research_naesethrl_hoaddr_1975]\] \[[Pennock et al 1975][research_pennockap_swiftg_1975]\] \[[Perry and Greene 1975][research_perrybiii_greenegc_1975]\] \[[Phelps 1975][research_phelpsaeiii_1975]\] \[[Reddy 1975][research_reddy_1975]\] \[[Reddy and Yu 1975][research_reddynn_yujc_1975]\] \[[Renselaer et al 1975][research_renselaerdj_nishidars_1975]\] \[[Shivers and Smith 1975][research_shiversjp_smithccjr_1975]\] \[[Shivers et al 1975][research_shiversjp_mclemorehc_1975]\] \[[Barger 1976][research_bargerrl_1976]\] \[[Burns et al 1976][research_burnsrj_mckinziedjjr_1976]\] \[[Clarke 1976][research_clarke_1976]\] \[[Coe et al 1976][research_coepljr_mclemorehc_1976]\] \[[Dods and Watson 1976][research_dodsjbjr_watsonec_1976]\] \[[Fournier and Coe 1976][research_fournierpg_coepljr_1976]\] \[[Gainer et al 1976][research_gainertg_yiplp_1976]\] \[[Gibson 1976][research_gibsonjs_1976]\] \[[Goodykoontz et al 1976][research_goodykoontzjh_dorschrg_1976]\] \[[Hackett et al 1976][research_hackettje_bolesra_1976]\] \[[Hoad 1976][research_hoaddr_1976]\] \[[Johnson 1976][research_johnsonwgjr_1976]\] \[[Kadman 1976][research_kadmany_1976]\] \[[Kinoshita and Oshima 1976][research_kinoshita_oshima_1976]\] \[[Lan 1976][research_lance_1976]\] \[[McKinzie 1976][research_mckinziedjjr_1976]\] \[[McKinzie et al 1976][research_mckinziedjjr_burnsrj_1976]\] \[[Meleason 1976][research_meleasonet_1976]\] \[[Meleason and Wells 1976][research_meleasonet_wellsod_1976]\] \[[Mendenhall 1976][research_mendenhallmr_1976]\] \[[Mendenhall et al 1976][research_mendenhallmr_goodwinfk_1976]\] \[[Phelps et al 1976][research_phelpsaeiii_johnsonjljr_1976]\] \[[Platzer 1976][research_platzer_1976]\] \[[Propulsive-Lift Noise of an 1976][research_propulsive_lift_noise_1976]\] \[[Shivers et al 1976][research_shiversjp_mclemorehc_1976]\] \[[Sleeman and Phelps 1976][research_sleemanwcjr_phelpsaeiii_1976]\] \[[Tam and Reddy 1976][research_tamckw_reddynn_1976]\] \[[Tennant et al 1976][research_tennant_johnson_1976]\] \[[Vogler 1976][research_voglerrd_1976]\] \[[Wind-tunnel investigation of aerodynamic 1976][research_wind_tunnel_investigation_1976]\] \[[Abramson 1977][research_abramson_1977]\] \[[Addessio and Skifstad 1977][research_addessiofl_skifstadjg_1977]\] \[[Baker and Manhardt 1977][research_bakeraj_manhardtpd_1977]\] \[[Baker and Manhardt 1977][research_bakeraj_manhardtpd_1977_b]\] \[[Becker and Maus 1977][research_beckerrs_mausjr_1977]\] \[[Becker and Maus 1977][research_beckerrs_mausjr_1977_b]\] \[[Clark and Yu 1977][research_clarklr_yujc_1977]\] \[[Erickson and Campbell 1977][research_ericksonge_campbelljf_1977]\] \[[Erickson and Campbell 1977][research_ericksonge_campbelljf_1977_b]\] \[[Gilinskii and Lebedev 1977][research_gilinskii_lebedev_1977]\] \[[Hackett and Boles 1977][research_hackettje_bolesra_1977]\] \[[Kaups and Cebeci 1977][research_kaupsk_cebecit_1977]\] \[[Lan 1977][research_lan_1977]\] \[[Lan et al 1977][research_lance_fillmang_1977]\] \[[Lan et al 1977][research_lance_fillmangl_1977]\] \[[Morehouse et al 1977][research_morehousegg_eckertwt_1977]\] \[[Pennock 1977][research_pennockap_1977]\] \[[Phelps 1977][research_phelpsaeiii_1977]\] \[[Reubush 1977][research_reubush_1977]\] \[[Ryle et al 1977][research_ryledmjr_bradenja_1977]\] \[[Schoen et al 1977][research_schoenah_kolesarce_1977]\] \[[Schoenster and Schroeder 1977][research_schoensterja_schroederjc_1977]\] \[[Seiler 1977][research_seiler_1977]\] \[[Fink 1978][research_finkmr_1978]\] \[[Hackett and Boles 1978][research_hackettje_bolesra_1978]\] \[[Lan et al 1978][research_lance_mehrotrasc_1978]\] \[[Reddy 1978][research_reddynn_1978]\] \[[Shovlin 1978][research_shovlinmd_1978]\] \[[Vomaske et al 1978][research_vomaskerf_innisrc_1978]\] \[[Aiken et al 1979][research_aikentn_falarskimd_1979]\] \[[Anglin and Satran 1979][research_anglinel_satrand_1979]\] \[[Campbell and Erickson 1979][research_campbelljf_ericksonge_1979]\] \[[Catalano et al 1979][research_catalanogd_mortonjb_1979]\] \[[Design of the circulation 1979][research_design_of_1979]\] \[[Erickson 1979][research_erickson_1979]\] \[[Hough 1979][research_houghgr_1979]\] \[[Johns et al 1979][research_johnsal_williamsrc_1979]\] \[[Pappa 1979][research_pappars_1979]\] \[[Rao 1979][research_raobm_1979]\] \[[Bohn and Shovlin 1980][research_bohnaj_shovlinmd_1980]\] \[[Furey 1980][research_furey_1980]\] \[[Harris and Falarski 1980][research_harrismj_falarskimd_1980]\] \[[Hough 1980][research_houghgr_1980]\] \[[Lorincz 1980][research_lorinczdj_1980]\] \[[McKinzie 1980][research_mckinziedjjr_1980]\] \[[Parthasarathy and Vijayaraghavan 1980][research_parthasarathysp_vijayaraghavana_1980]\] \[[Winter 1980][research_winter_1980]\] \[[Braslow 1981][research_braslowal_1981]\] \[[Tai et al 1981][research_taitc_kidwellghjr_1981]\] \[[Wood 1981][research_woodnj_1981]\] \[[Wukowitz 1981][research_wukowitz_1981]\] \[[Bachalo 1982][research_bachalowilliamd_1982]\] \[[Burley and Hwang 1982][research_burleyrr_hwangdp_1982]\] \[[Cochrane et al 1982][research_cochraneja_riddledw_1982]\] \[[Eppel et al 1982][research_eppeljc_shovlinmd_1982]\] \[[McKinzie 1982][research_mckinziedjjr_1982]\] \[[Bevilaqua et al 1983][research_bevilaqua_schum_1983]\] \[[Burley and Hwang 1983][research_burleyrr_hwangdp_1983]\] \[[Hwang 1983][research_hwangdp_1983]\] \[[Seginer and Salomon 1983][research_seginera_salomonm_1983]\] \[[Smeltzer et al 1983][research_smeltzerdb_durstonda_1983]\] \[[Stephenson 1983][research_stephensonjd_1983]\] \[[Taback et al 1983][research_tabacki_braslowal_1983]\] \[[Wood and Conlon 1983][research_woodnj_conlonja_1983]\] \[[Bevilaqua and Lee 1984][research_bevilaqua_lee_1984]\] \[[Biringen 1984][research_biringens_1984]\] \[[Burley 1984][research_burleyrr_1984]\] \[[Englar et al 1984][research_englarrj_nicholsjhjr_1984]\] \[[Hwang 1984][research_hwangdp_1984]\] \[[Lipera and Sandlin 1984][research_liperald_sandlindr_1984]\] \[[Tai and Kidwell 1984][research_taitc_kidwellghjr_1984]\] \[[Wagner et al 1984][research_wagnerrd_maddalondv_1984]\] \[[Wilson and Liperra 1984][research_wilsonsbiii_liperrald_1984]\] \[[Berman 1985][research_berman_1985]\] \[[Biringen et al 1985][research_biringens_nuttwe_1985]\] \[[Hahn and Wilson 1985][research_hahnas_wilsonsbiii_1985]\] \[[Harvell and Franke 1985][research_harvell_franke_1985]\] \[[Modi 1985][research_modi_1985]\] \[[Panontin 1985][research_panontintl_1985]\] \[[Salikuddin et al 1985][research_salikuddin_brown_1985]\] \[[Satran et al 1985][research_satrandr_gilbertwp_1985]\] \[[Stewart 1985][research_stewart_1985]\] \[[Tai and Kidwell 1985][research_taitc_kidwellghjr_1985]\] \[[Tavella 1985][research_tavellada_1985]\] \[[Carpenter et al 1986][research_carpenter_bridson_1986]\] \[[Chopra et al 1986][research_chopra_sun_1986]\] \[[Garner 1986][research_garnerhd_1986]\] \[[Krauss et al 1986][research_krausstimothya_romanstephan_1986]\] \[[Lee et al 1986][research_lee_tavella_1986]\] \[[Novak and Cornelius 1986][research_novak_cornelius_1986]\] \[[Papathanasiou and Nagel 1986][research_papathanasiouag_nagelrt_1986]\] \[[Pulliam et al 1986][research_pulliamth_jesperendc_1986]\] \[[Rodman and Wood 1986][research_rodmanlc_woodnj_1986]\] \[[Shrewsbury 1986][research_shrewsbury_1986]\] \[[Tavella et al 1986][research_tavella_lee_1986]\] \[[Torres 1986][research_torresfranciscoj_1986]\] \[[Wood 1986][research_wood_1986]\] \[[Wood and Rogers 1986][research_wood_rogers_1986]\] \[[Wood and Roberts 1986][research_woodnj_robertsl_1986]\] \[[Banks and Paulson 1987][research_banksdanielw_paulsonjohnwjr_1987]\] \[[Bevilaqua and Lee 1987][research_bevilaquapaulm_leejohnd_1987]\] \[[Biringen 1987][research_biringensedat_1987]\] \[[Dash et al 1987][research_dashsm_yorkbj_1987]\] \[[Dvorak and Dash 1987][research_dvorakfranka_dashsanfordm_1987]\] \[[Dvorak et al 1987][research_dvorakfranka_strashdanielj_1987]\] \[[Englar 1987][research_englarrobertj_1987]\] \[[Franke and Harvell 1987][research_frankeme_harvelljk_1987]\] \[[Gregory-Smith and Gilchrist 1987][research_gregorysmith_gilchrist_1987]\] \[[Keener et al 1987][research_keenerearlr_sanderferdwightt_1987]\] \[[Loth 1987][research_lothjohnl_1987]\] \[[McLachlan 1987][research_mclachlanbg_1987]\] \[[McLachlan 1987][research_mclachlanbg_1987_b]\] \[[Nielsen 1987][research_nielsenjackn_1987]\] \[[Nielsen and Biggers 1987][research_nielsenjackn_biggersjamesc_1987]\] \[[Novak et al 1987][research_novak_cornelius_1987]\] \[[Novak and Cornelius 1987][research_novakcharlesj_corneliuskennethc_1987]\] \[[Pulliam et al 1987][research_pulliamthomash_jespersendennisc_1987]\] \[[Riddle and Eppel 1987][research_riddledennisw_eppeljosephc_1987]\] \[[Salikuddin et al 1987][research_salikuddin_brown_1987]\] \[[Shovlin et al 1987][research_shovlinmd_englarrj_1987]\] \[[Shrewsbury 1987][research_shrewsburygeorged_1987]\] \[[Spaid and Keener 1987][research_spaidfrankw_keenerearlr_1987]\] \[[Torres 1987][research_torresfranciscoj_1987]\] \[[Viegas et al 1987][research_viegasjohnr_rubesinmorrisw_1987]\] \[[Wood 1987][research_wood_1987]\] \[[Wood 1987][research_woodnj_1987]\] \[[Gilchrist and Gregory-Smith 1988][research_gilchrist_gregorysmith_1988]\] \[[Harvey 1988][research_harveywilliamd_1988]\] \[[Pfenninger and Vemuru 1988][research_pfenningerw_vemurucs_1988]\] \[[Viegas et al 1988][research_viegasjr_rubesinmw_1988]\] \[[Yeh et al 1988][research_yehdavid_tavelladomingo_1988]\] \[[Yeh et al 1988][research_yehdavidt_tavelladomingoa_1988]\] \[[McLachlan 1989][research_mclachlanbg_1989]\] \[[Shrewsbury 1989][research_shrewsbury_1989]\] \[[Sun and Wang 1989][research_sun_wang_1989]\] \[[Visser et al 1989][research_visserkd_nelsonrc_1989]\] \[[Yeh et al 1989][research_yehdavidt_tavelladomingoa_1989]\] \[[Lee and Roberts 1990][research_leekt_robertsleonard_1990]\] \[[Parikh et al 1990][research_parikhpg_chenaw_1990]\] \[[Smith et al 1990][research_smithjeannettew_mineckraymonde_1990]\] \[[Williams and Franke 1990][research_williams_franke_1990]\] \[[Danabasoglu et al 1991][research_danabasoglug_biringens_1991]\] \[[Ghee and Leishman 1991][research_ghee_leishman_1991]\] \[[Hunter and Krauss 1991][research_hunterd_krausst_1991]\] \[[Kroo et al 1991][research_krooi_rocks_1991]\] \[[Maddalon 1991][research_maddalondalv_1991]\] \[[Paschal et al 1991][research_paschalk_goodmanw_1991]\] \[[Spaid and Keener 1991][research_spaidfrankw_keenerearlr_1991]\] \[[Wood and Bauer 1991][research_woodrichardm_bauerstevenxs_1991]\] \[[Acharya and Metwally 1992][research_acharyamukund_metwallymetwallyh_1992]\] \[[Birckelbaw 1992][research_birckelbawlarryd_1992]\] \[[Celik and Roberts 1992][research_celikzekiz_robertsleonard_1992]\] \[[Celik and Roberts 1992][research_celikzekiz_robertsleonard_1992_b]\] \[[Dirlik et al 1992][research_dirlik_kimmel_1992]\] \[[Ghee and Leishman 1992][research_ghee_leishman_1992]\] \[[Heinemann and Brown 1992][research_heinemannk_brownjeff_1992]\] \[[Hunter and Cullen 1992][research_hunterdavid_cullenlaurence_1992]\] \[[Miller and Gile 1992][research_miller_gile_1992]\] \[[Rao 1992][research_raodhanvadam_1992]\] \[[Williams and Franke 1992][research_williams_franke_1992]\] \[[Boalbey et al 1993][research_boalbeyre_elywl_1993]\] \[[Ferguson et al 1993][research_ferguson_franke_1993]\] \[[Greenwell and Wood 1993][research_greenwell_wood_1993]\] \[[Linton 1993][research_lintonsamuelw_1993]\] \[[Tso 1993][research_tsojin_1993]\] \[[Wong et al 1993][research_wonggs_rocksm_1993]\] \[[Celik and Roberts 1994][research_celik_roberts_1994]\] \[[Cornelius and Lucius 1994][research_cornelius_lucius_1994]\] \[[Hwang et al 1994][research_hwangdp_boldmandr_1994]\] \[[Lim 1994][research_limhockbin_1994]\] \[[Meyer and Seginer 1994][research_meyer_seginer_1994]\] \[[Watmuff 1994][research_watmuffjonathanh_1994]\] \[[Wong et al 1994][research_wong_rock_1994]\] \[[Yang 1994][research_yang_1994]\] \[[Brown 1995][research_brownjeffrey_1995]\] \[[Emanuel 1995][research_emanuel_1995]\] \[[Hong and Roberts 1995][research_hong_roberts_1995]\] \[[Jingchang et al 1995][research_jingchang_mao_1995]\] \[[Johari et al 1995][research_johari_olinger_1995]\] \[[Matsson 1995][research_matsson_1995_b]\] \[[Mineck 1995][research_mineckraymonde_1995]\] \[[Pedreiro et al 1995][research_pedreiron_rocksm_1995]\] \[[Asami and Sawada 1996][research_asami_sawada_1996]\] \[[Englar 1996][research_englarrobertj_1996]\] \[[Kraushaar and Chokani 1996][research_kraushaarsandral_chokanindaona_1996]\] \[[Mendoza and Ahuja 1996][research_mendoza_ahuja_1996]\] \[[Mineck and Hartwich 1996][research_mineckraymonde_hartwichpeterm_1996]\] \[[Weaver et al 1996][research_weaverd_mcalisterkw_1996]\] \[[Guowei et al 1997][research_guowei_shanwu_1997]\] \[[Langan et al 1997][research_langan_samuels_1997]\] \[[Sawada and Asami 1997][research_sawada_asami_1997]\] \[[Englar 1998][research_englarrobertj_1998]\] \[[Guillot et al 1998][research_guillot_gutmark_1998]\] \[[Matsuo et al 1998][research_matsuo_setoguchi_1998]\] \[[Vorobieff and Rockwell 1998][research_vorobieff_rockwell_1998]\] \[[Weaver et al 1998][research_weaver_mcalister_1998]\] \[[Banks et al 1999][research_banksdanielw_laflinbrendaegile_1999]\] \[[Braslow 1999][research_braslowal_1999]\] \[[Braslow 1999][research_braslowalbertl_1999]\] \[[Farcy and Renier 1999][research_farcy_renier_1999]\] \[[Ferman and Turner 1999][research_ferman_turner_1999]\] \[[Ferman and Turner 1999][research_ferman_turner_1999_b]\] \[[Guy et al 1999][research_guy_morrow_1999]\] \[[Guy et al 1999][research_guy_morrow_1999_b]\] \[[Kandil and Yang 1999][research_kandilosamaa_yangzhi_1999]\] \[[Morton et al 1999][research_morton_guy_1999]\] \[[Sun and Sheikh 1999][research_sun_sheikh_1999]\] \[[Grove et al 2000][research_grove_birkbeck_2000]\] \[[Guy et al 2000][research_guy_morrow_2000]\] \[[Guy et al 2000][research_guy_morton_2000]\] \[[Howe 2000][research_howe_2000]\] \[[Kamishita et al 2000][research_kamishita_aso_2000]\] \[[Slotnick et al 2000][research_slotnickjeffreyp_anmichaely_2000]\] \[[Sobey 2000][research_sobey_2000]\] \[[Speyer and Kim 2000][research_speyer_kim_2000]\] \[[Viswanath et al 2000][research_viswanath_ramesh_2000]\] \[[Wang and Sun 2000][research_wang_sun_2000]\] \[[Liu et al 2001][research_liu_sankar_2001]\] \[[Siegel et al 2001][research_siegel_mclaughlin_2001]\] \[[Sun and Hamdani 2001][research_sun_hamdani_2001]\] \[[Englar and Campbell 2002][research_englarrobertj_campbellbryana_2002]\] \[[Howe 2002][research_howe_2002]\] \[[Jones et al 2002][research_jonesgregorys_vikensallya_2002]\] \[[Sellars et al 2002][research_sellars_wood_2002]\] \[[Speyer and Kim 2002][research_speyer_kim_2002]\] \[[Sutliff et al 2002][research_sutliffdaniell_tweedtdaniell_2002]\] \[[Ahuja et al 2003][research_ahujakk_sankarln_2003]\] \[[Gross et al 2003][research_gross_wernz_2003]\] \[[Hamdani et al 2003][research_hamdani_baig_2003]\] \[[Liu et al 2003][research_liuyi_sankarlakshmin_2003]\] \[[Munro et al 2003][research_munroscotte_ahujakk_2003]\] \[[Vasilescu and Dancila 2003][research_vasilescu_dancila_2003]\] \[[Viswanath and Madhavan 2003][research_viswanath_madhavan_2003]\] \[[Abramson 2004][research_abramson_2004]\] \[[Frith and Wood 2004][research_frith_wood_2004]\] \[[Gross and Fasel 2004][research_gross_fasel_2004]\] \[[Huang et al 2004][research_huang_huang_2004]\] \[[Hutcheson and Stead 2004][research_hutchesonflorencev_steaddanielj_2004_b]\] \[[Hutcheson et al 2004][research_hutchesonflorencev_steaddanielj_2004]\] \[[Lopera et al 2004][research_lopera_terry_2004]\] \[[Margaris and Gursul 2004][research_margaris_gursul_2004]\] \[[Shinozuka et al 2004][research_shinozuka_kojima_2004]\] \[[Viswanath and Madhavan 2004][research_viswanath_madhavan_2004]\] \[[Wu et al 2004][research_wu_sankar_2004]\] \[[Zha and Paxton 2004][research_zha_paxton_2004]\] \[[Alexander et al 2005][research_alexandermichaelg_andersscottg_2005]\] \[[Alexander et al 2005][research_alexandermichaelg_andersscottg_2005_b]\] \[[Bakhle and Srivastava 2005][research_bakhlemilinda_srivastavarakesh_2005]\] \[[Boyd 2005][research_boydddouglasjr_2005]\] \[[Duraisamy and Baeder 2005][research_duraisamy_baeder_2005]\] \[[Han et al 2005][research_han_zhou_2005]\] \[[Hutcheson and Brooks 2005][research_hutchesonflorencev_brooksthomasf_2005]\] \[[Jones 2005][research_jonesgregorys_2005]\] \[[Jones and Joslin 2005][research_jonesgregorys_joslinronaldd_2005]\] \[[Jones and Joslin 2005][research_jonesgregorys_joslinronaldd_2005_b]\] \[[McGowan and Gopalarathnam 2005][research_mcgowangregory_gopalarathnamashok_2005]\] \[[Munro et al 2005][research_munroscotte_ahujakk_2005]\] \[[Muramatsu et al 2005][research_muramatsu_okada_2005]\] \[[Siller et al 2005][research_siller_jacob_2005]\] \[[Sutliff 2005][research_sutliffdaniell_2005]\] \[[Swanson et al 2005][research_swansonrc_rumseycl_2005]\] \[[Swanson et al 2005][research_swansonrc_rumseycl_2005_b]\] \[[Aerodynamic Heat Exchanger A 2006][research_aerodynamic_heat_2006]\] \[[Coanda Effect and Circulation 2006][research_coanda_effect_2006]\] \[[Computational Study of a 2006][research_computational_study_2006]\] \[[Cruz and Anders 2006][research_cruzjosue_andersscottg_2006]\] \[[Donnelly et al 2006][research_donnelly_cutbirth_2006]\] \[[Experimental and Computational Investigation 2006][research_experimental_and_2006]\] \[[Goldstein 2006][research_goldstein_2006]\] \[[Green and Cruz 2006][research_greenlawrencel_cruzjosue_2006]\] \[[Gross and Fasel 2006][research_gross_fasel_2006]\] \[[Gross and Fasel 2006][research_gross_fasel_2006_b]\] \[[Jones et al 2006][research_jonesgregorys_yaochungsheng_2006]\] \[[Laible et al 2006][research_laible_valsecchi_2006]\] \[[Lee-Rausch et al 2006][research_leerauschem_vatsavn_2006]\] \[[Novel Flow Control Method 2006][research_novel_flow_2006]\] \[[Pneumatic Flap Performance for 2006][research_pneumatic_flap_2006]\] \[[Slomski et al 2006][research_slomski_chang_2006]\] \[[Swanson and Rumsey 2006][research_swansonroycjr_rumseychristopherl_2006]\] \[[Trailing Edge Circulation Control 2006][research_trailing_edge_2006]\] \[[A Study on Jet 2007][research_a_study_2007]\] \[[Cui et al 2007][research_cui_lim_2007]\] \[[Dygert and Dang 2007][research_dygert_dang_2007]\] \[[Erickson 2007][research_ericksongarye_2007]\] \[[Flow Separation Control Effects 2007][research_flow_separation_2007]\] \[[Il'inskii and Mardanov 2007][research_ilinskii_mardanov_2007]\] \[[Margaris and Gursul 2007][research_margaris_gursul_2007]\] \[[Schlecht and Anders 2007][research_schlechtrobin_andersscott_2007]\] \[[Jones et al 2008][research_jonesgs_linjc_2008]\] \[[Layek et al 2008][research_layek_midya_2008]\] \[[Lin et al 2008][research_linjohnc_jonesgregorys_2008]\] \[[Shannon and Morris 2008][research_shannon_morris_2008]\] \[[Dygert and Dang 2009][research_dygert_dang_2009]\] \[[Englar et al 2009][research_englarrobertj_jonesgregorys_2009]\] \[[Morris et al 2009][research_morris_shannon_2009]\] \[[Pfingsten and Radespiel 2009][research_pfingsten_radespiel_2009]\] \[[Singh and Ramamurthi 2009][research_singh_ramamurthi_2009]\] \[[Swanson and Rumsey 2009][research_swanson_rumsey_2009]\] \[[Wetzel et al 2009][research_wetzel_griffin_2009]\] \[[Wetzel et al 2009][research_wetzel_liu_2009]\] \[[Winkler et al 2009][research_winkler_carolus_2009]\] \[[Balzer and Fasel 2010][research_balzer_fasel_2010]\] \[[Chen et al 2010][research_chen_wygnanski_2010]\] \[[Edwards 2010][research_edwards_2010]\] \[[Guendogdu et al 2010][research_guendogdu_vorreiter_2010]\] \[[Iguchi and Ilegbusi 2010][research_iguchi_ilegbusi_2010]\] \[[Jensch et al 2010][research_jensch_pfingsten_2010]\] \[[Kweder et al 2010][research_kweder_clarke_2010]\] \[[Lin et al 2010][research_linjohnc_jonesgregorys_2010]\] \[[Liu et al 2010][research_liu_duan_2010]\] \[[Madavan and Rogers 2010][research_madavan_rogers_2010]\] \[[Margaris and Gursul 2010][research_margaris_gursul_2010]\] \[[Milholen et al 2010][research_milholenweii_jonesgregs_2010]\] \[[Miozzi et al 2010][research_miozzi_lalli_2010]\] \[[Nichino et al 2010][research_nichinotakafumi_hahnseonghyeon_2010]\] \[[Nishino and Shariff 2010][research_nishino_shariff_2010]\] \[[Nishino et al 2010][research_nishino_hahn_2010]\] \[[Nishino et al 2010][research_nishino_hahn_2010_b]\] \[[Pott-Pollenske and Pfingsten 2010][research_pottpollenske_pfingsten_2010]\] \[[Sattler et al 2010][research_sattler_scholz_2010]\] \[[Wetzel et al 2010][research_wetzel_griffin_2010]\] \[[Zhang et al 2010][research_zhang_yan_2010]\] \[[Allan et al 2011][research_allanbriang_jonesgreg_2011]\] \[[Florin et al 2011][research_florin_alexandru_2011]\] \[[Guo et al 2011][research_guo_liu_2011]\] \[[Liu et al 2011][research_liu_cui_2011]\] \[[Lubert and Shafer 2011][research_lubert_shafer_2011]\] \[[Rumsey and Nishino 2011][research_rumseychristopherl_nishinotakafumi_2011]\] \[[Tan et al 2011][research_tan_tan_2011]\] \[[Trancossi and Dumas 2011][research_trancossi_dumas_2011_b]\] \[[Wetzel and Cattafesta 2011][research_wetzel_cattafesta_2011]\] \[[Zhang et al 2011][research_zhang_chen_2011]\] \[[Caraway et al 2012][research_caraway_hayashibara_2012]\] \[[Chen et al 2012][research_chen_seele_2012]\] \[[Djojodihardjo and Hamid 2012][research_djojodihardjo_hamid_2012]\] \[[Drãgan 2012][research_dragan_2012]\] \[[Lubert 2012][research_lubert_2012]\] \[[Milholen et al 2012][research_milholenwilliameii_jonesgregorys_2012]\] \[[Nishino and Shariff 2012][research_nishino_shariff_2012]\] \[[Paschal et al 2012][research_paschalkeithb_neuhartdannyh_2012]\] \[[Watkins et al 2012][research_watkinsanthonyn_lipfordwilliame_2012]\] \[[Winkler et al 2012][research_winkler_moreau_2012]\] \[[Arolla and Durbin 2013][research_arolla_durbin_2013]\] \[[Bobonea and Pricop 2013][research_bobonea_pricop_2013]\] \[[Chen et al 2013][research_chen_seele_2013]\] \[[Edstrand and Cattafesta III 2013][research_edstrand_cattafestaiii_2013]\] \[[Horne and Burnside 2013][research_horneclifton_burnsidenathanj_2013]\] \[[Jones et al 2013][research_jonesgregorys_milholenwilliameii_2013]\] \[[Milholen et al 2013][research_milholenwilliameii_jonesgregorys_2013]\] \[[Subhash and Dumas 2013][research_subhash_dumas_2013]\] \[[Trancossi et al 2013][research_trancossi_maharshi_2013]\] \[[Burnazzi and Radespiel 2014][research_burnazzi_radespiel_2014]\] \[[Chan et al 2014][research_chandavidt_milholenwilliameii_2014]\] \[[Dumas et al 2014][research_dumas_subhash_2014]\] \[[Gerhard et al 2014][research_gerhard_erbsloh_2014]\] \[[Kroehnert 2014][research_kroehnert_2014]\] \[[Kumar et al 2014][research_kumar_elsayed_2014]\] \[[Semaan et al 2014][research_semaan_elsayed_2014]\] \[[Edstrand and Cattafesta 2015][research_edstrand_cattafesta_2015]\] \[[El Sayed Mohamed and Semaan 2015][research_elsayedmohamed_semaan_2015]\] \[[Jiao and Lu 2015][research_jiao_lu_2015]\] \[[Lawrence and Self 2015][research_lawrence_self_2015]\] \[[Lee et al 2016][research_lee_park_2016]\] \[[Liu and Zha 2016][research_liu_zha_2016]\] \[[Naigle et al 2016][research_naigle_frankhouser_2016]\] \[[Park et al 2016][research_park_chang_2016]\] \[[Zafer and Gürsoy 2016][research_zafer_gursoy_2016]\] \[[Baljit et al 2017][research_baljit_saad_2017]\] \[[Chan et al 2017][research_chandavidt_jonesgregorys_2017]\] \[[Feng et al 2017][research_feng_song_2017]\] \[[Reger et al 2017][research_reger_nickels_2017]\] \[[Skotnicka-Siepsiak 2017][research_skotnickasiepsiak_2017]\] \[[Eto et al 2018][research_eto_kondo_2018]\] \[[James et al 2018][research_james_suryan_2018]\] \[[Kornilov 2018][research_kornilov_2018]\] \[[Puri et al 2018][research_puri_laufer_2018]\] \[[Rossian et al 2018][research_rossian_suryadi_2018]\] \[[Wu et al 2018][research_wu_wang_2018]\] \[[Yang and Zha 2018][research_yang_zha_2018]\] \[[Yang and Zha 2018][research_yang_zha_2018_b]\] \[[Yang and Zha 2018][research_yang_zha_2018_c]\] \[[Yang and Zha 2018][research_yang_zha_2018_d]\] \[[Zaidi and Bukhari 2018][research_zaidi_bukhari_2018]\] \[[Zhang et al 2018][research_zhang_xu_2018]\] \[[Çetin et al 2018][research_cetin_celik_2018]\] \[[Ahmed 2019][research_ahmed_2019]\] \[[Ahmed 2019][research_ahmed_2019_b]\] \[[Ahmed 2019][research_ahmed_2019_c]\] \[[Capobianco et al 2019][research_capobianco_shankar_2019]\] \[[Di Luca and Breuer 2019][research_diluca_breuer_2019]\] \[[Fatahian et al 2019][research_fatahian_lohrasbinichkoohi_2019]\] \[[Hirokawa et al 2019][research_hirokawa_eto_2019]\] \[[Li et al 2019][research_li_wang_2019]\] \[[Mazumder et al 2019][research_mazumder_golubev_2019]\] \[[Abed 2019][research_nabed_2019]\] \[[Shakouchi et al 2019][research_shakouchi_fukushima_2019]\] \[[Siliang et al 2019][research_siliang_qijun_2019]\] \[[Wang and Zha 2019][research_wang_zha_2019]\] \[[Abbasi and Souri 2020][research_abbasi_souri_2020]\] \[[Abramova et al 2020][research_abramova_petrov_2020]\] \[[Li and Qin 2020][research_li_qin_2020]\] \[[Lozano and Paniagua 2020][research_lozano_paniagua_2020]\] \[[Trancossi and Pascoa 2020][research_trancossi_pascoa_2020]\] \[[Zhang et al 2020][research_zhang_wang_2020]\] \[[Kara and Erpulat 2021][research_kara_erpulat_2021]\] \[[Karuppiah and Wessley 2021][research_karuppiah_wessley_2021]\] \[[Kornilov et al 2021][research_kornilov_kavun_2021]\] \[[Asaro et al 2022][research_asaro_luer_2022]\] \[[Chi and Gu 2022][research_chi_gu_2022]\] \[[Li et al 2022][research_li_xu_2022]\] \[[Shi et al 2022][research_shi_gu_2022]\] \[[Sun et al 2022][research_sun_shi_2022]\] \[[Wang et al 2022][research_wang_qu_2022]\] \[[Xu and Zha 2022][research_xu_zha_2022]\] \[[Yang et al 2022][research_yang_castaneda_2022]\] \[[Yang et al 2022][research_yang_liu_2022]\] \[[Zhao et al 2022][research_zhao_zhang_2022_b]\] \[[Asaro et al 2023][research_asaro_cavaliere_2023]\] \[[Chen et al 2023][research_chen_shi_2023]\] \[[He et al 2023][research_he_zhang_2023]\] \[[Influence of Surface Curvature 2023][research_influence_of_2023]\] \[[Jeon et al 2023][research_jeon_ren_2023]\] \[[Lei and Zha 2023][research_lei_zha_2023]\] \[[Lei and Zha 2023][research_lei_zha_2023_b]\] \[[Pan et al 2023][research_pan_wang_2023]\] \[[Xu and Zha 2023][research_xu_zha_2023]\] \[[Yang et al 2023][research_yang_arcondoulis_2023]\] \[[Zaheer et al 2023][research_zaheer_disimile_2023]\] \[[Zhang and Zhao 2023][research_zhang_zhao_2023]\] \[[Zhang et al 2023][research_zhang_huang_2023]\] \[[Zheng et al 2023][research_zheng_huang_2023]\] \[[Abramova and Soudakov 2024][research_abramova_soudakov_2024]\] \[[Butler and Bons 2024][research_butler_bons_2024]\] \[[Chen et al 2024][research_chen_avital_2024]\] \[[Jente et al 2024][research_jente_huber_2024]\] \[[Deere et al 2024][research_karenadeere_jeffreykviken_2024]\] \[[Li et al 2024][research_li_xu_2024]\] \[[Rizzetta and Garmann 2024][research_rizzetta_garmann_2024]\] \[[Shao et al 2024][research_shao_guo_2024]\] \[[Soufivand et al 2024][research_soufivand_hojaji_2024]\] \[[Su et al 2024][research_su_li_2024]\] \[[Zhang et al 2024][research_zhang_yan_2024]\] \[[Kumar and Bhumkar 2025][research_kumar_bhumkar_2025]\] \[[Pakhomov 2025][research_pakhomov_2025]\] \[[Raj et al 2025][research_raj_rana_2025]\] \[[Rizzetta and Garmann 2025][research_rizzetta_garmann_2025_b]\] \[[Soufivand et al 2025][research_soufivand_hojaji_2025]\] \[[Vechalapu et al 2025][research_vechalapu_kanistras_2025]\] \[[Yabu et al 2025][research_yabu_kato_2025]\] \[[Zhang et al 2025][research_zhang_yue_2025]\] \[[Zhao et al 2025][research_zhao_wang_2025]\] \[[Çuhadaroğlu et al 2025][research_cuhadaroglu_kilic_2025]\] \[[Ding et al 2026][research_ding_ren_2026]\] \[[Liu 2026][research_liu_2026]\] \[[Rackers et al 2026][research_rackers_desalvo_2026]\] \[[Rizzetta and Garmann 2026][research_rizzetta_garmann_2026]\] \[[Shao et al 2026][research_shao_he_2026]\] \[[Sheng et al 2026][research_sheng_sun_2026]\] \[[Vechalapu et al 2026][research_vechalapu_kanistras_2026]\] \[[Vibhu et al 2026][research_vibhu_taubert_2026]\] \[[Yang et al 2026][research_yang_wu_2026]\] \[[Zhao et al 2026][research_zhao_wang_2026]\] \[[Zhao et al 2026][research_zhao_wang_2026_b]\] \[[Zhou et al 2026][research_zhou_guo_2026]\] \[[Churchill][research_churchill]\] \[[Couillaud][research_couillaud]\] \[[McFadden and Bons][research_evanjmcfadden_jeffreypbons_b]\] \[[Hard][research_hard]\] \[[Kweder][research_kweder]\] \[[McAuliffe][research_mcauliffe]\] \[[Starn][research_starn]\] \[[Swan][research_swan]\]
 
 ### Separation and its control, which is what the effectors do
 
-**203 records.** \[[Foster, Gerald V and Fitzpatrick, James E 1948][research_fostergeraldv_fitzpatrickjamese_1948]\] \[[Salmi, Reino J 1952][research_salmireinoj_1952]\] \[[Pratt, George L and Shields, E Rousseau 1952][research_prattgeorgel_shieldserousseau_1952]\] \[[Bollech, Thomas V and Hadaway, William M 1953][research_bollechthomasv_hadawaywilliamm_1953]\] \[[Dike and Dunn 1958][research_dike_dunn_1958]\] \[[Childress 1958][research_childress_1958]\] \[[Haugen and Dhanak 1967][research_haugen_dhanak_1967]\] \[[Peake, D. J. and Owen, F. K. 1979][research_peakedj_owenfk_1979]\] \[[Sullivan, R. L. 1979][research_sullivanrl_1979]\] \[[Trobaugh et al 1980][research_trobaugh_lee_1980]\] \[[Sutton 1982][research_sutton_1982]\] \[[Zilliac 1983][research_zilliac_1983]\] \[[Mangalam, S. M. et al 1986][research_mangalamsm_barsevera_1986]\] \[[Barnett, M. and Carter, J. E. 1987][research_barnettm_carterje_1987]\] \[[Durbin, P. A. and McKinzie, D. J. 1987][research_durbinpa_mckinziedj_1987]\] \[[Viken, Jeffrey K. et al 1987][research_vikenjeffreyk_watsonvikensallya_1987]\] \[[Huang, L. S. et al 1987][research_huangls_maestrellol_1987]\] \[[Rao and Kariya 1988][research_rao_kariya_1988]\] \[[Zaman, K. B. M. Q. and McKinzie, D. J. 1988][research_zamankbmq_mckinziedj_1988]\] \[[Zaman, K. B. M. Q. and McKinzie, D. J. 1989][research_zamankbmq_mckinziedj_1989]\] \[[Oh, Sejong and Roberts, Leonard 1989][research_ohsejong_robertsleonard_1989]\] \[[Bar-Sever, A. 1989][research_barsevera_1989]\] \[[Rice, Edward J. and Abbott, John M. 1990][research_riceedwardj_abbottjohnm_1990]\] \[[Lin, J. C. et al 1990][research_linjc_howardfg_1990]\] \[[Selby, Gregory 1991][research_selbygregory_1991]\] \[[Lin, J. C. et al 1991][research_linjc_howardfg_1991]\] \[[Chow and Chu 1991][research_chow_chu_1991]\] \[[Gad-El-hak, Mohamed and Bushnell, Dennis M. 1991][research_gadelhakmohamed_bushnelldennism_1991]\] \[[Yip, Long P. et al 1992][research_yiplongp_vijgenpaulmhw_1992]\] \[[Lin, John C. et al 1992][research_linjohnc_robinsonstephenk_1992]\] \[[Jun-Fei and Shao-Zhi 1994][research_junfei_shaozhi_1994]\] \[[Gally, Thomas A. 1994][research_gallythomasa_1994]\] \[[Nelson, Robert C. et al 1994][research_nelsonrobertc_thomasfo_1994]\] \[[Telionis 1995][research_telionis_1995]\] \[[Potter, R. C. and Vandam, C. P. 1995][research_potterrc_vandamcp_1995]\] \[[Chandrasekhara, M. S. et al 1996][research_chandrasekharams_wildermc_1996]\] \[[Rudolph, Peter K. C. 1996][research_rudolphpeterkc_1996]\] \[[Chandrasekhara, M. S. et al 1997][research_chandrasekharams_wildermc_1997]\] \[[Alam and Sandham 1998][research_alam_sandham_1998]\] \[[Ravindran, S. S. 1999][research_ravindranss_1999]\] \[[Sinha 1999][research_sinha_1999]\] \[[Murawski 1999][research_murawski_1999]\] \[[Hahne, David E. and Glaab, Louis J. 1999][research_hahnedavide_glaablouisj_1999]\] \[[Song et al 1999][research_song_degraaff_1999]\] \[[Sengupta et al 1999][research_sengupta_gupta_1999]\] \[[Mochizuki et al 1999][research_mochizuki_kiya_1999]\] \[[Urzynicok and Fernholz 1999][research_urzynicok_fernholz_1999]\] \[[Abed 2000][research_abed_2000]\] \[[Allan, Brian G. et al 2000][research_allanbriang_juangjernan_2000]\] \[[Pack, LaTunia G. and Seifert, Avi 2000][research_packlatuniag_seifertavi_2000]\] \[[Separation Control 2000][research_separation_control_2000]\] \[[Pack, LaTunia G. and Seifert, Avi 2000][research_packlatuniag_seifertavi_2000_b]\] \[[Lu 2000][research_lu_2000]\] \[[Seifert, Avi and Pack, LaTunia G. 2000][research_seifertavi_packlatuniag_2000]\] \[[Munday and Jacob 2001][research_munday_jacob_2001]\] \[[Pack et al 2002][research_pack_schaeffler_2002]\] \[[Munday and Jacob 2002][research_munday_jacob_2002_b]\] \[[Munday et al 2002][research_munday_jacob_2002]\] \[[Pack et al 2003][research_pack_yao_2003]\] \[[Martin et al 2003][research_martin_tung_2003]\] \[[Greenblatt and Wygnanski 2003][research_greenblatt_wygnanski_2003]\] \[[Angele 2003][research_angele_2003]\] \[[Tumin, Anatoli and Ashpis, David E. 2003][research_tuminanatoli_ashpisdavide_2003]\] \[[Beck, B. T. et al 2004][research_beckbt_cutlerad_2004]\] \[[Greenblatt, David et al 2004][research_greenblattdavid_paschalkeithb_2004]\] \[[Melton, LaTunia Pack et al 2004][research_meltonlatuniapack_yaochungsheng_2004]\] \[[Ashpis, David e. and Hultgren, Lennart S. 2004][research_ashpisdavide_hultgrenlennarts_2004]\] \[[Zhang, Wei 2004][research_zhangwei_2004]\] \[[Bons 2004][research_bons_2004]\] \[[Pern and Jacob 2005][research_pern_jacob_2005]\] \[[Greenblatt 2005][research_greenblatt_2005]\] \[[Effects of Pulsating Jet 2005][research_effects_of_2005]\] \[[Sohn et al 2005][research_sohn_chung_2005]\] \[[Greenblatt, David 2005][research_greenblattdavid_2005]\] \[[Yoshida et al 2005][research_yoshida_abe_2005]\] \[[Seidel et al 2005][research_seidel_siegel_2005]\] \[[Katam et al 2005][research_katam_lebeau_2005]\] \[[Zhu and Qiu 2005][research_zhu_qiu_2005]\] \[[Walker 2006][research_walker_2006]\] \[[Pern et al 2006][research_pern_jacob_2006]\] \[[Angele and Grewe 2006][research_angele_grewe_2006]\] \[[Greenblatt, David 2006][research_greenblattdavid_2006]\] \[[Khodadoust, Abdollah and Washburn, Anthony 2007][research_khodadoustabdollah_washburnanthony_2007]\] \[[Greenblatt 2007][research_greenblatt_2007]\] \[[Khodadoust and Shmilovich 2007][research_khodadoust_shmilovich_2007]\] \[[Melton, LaTunia Pack et al 2007][research_meltonlatuniapack_schaefflernormanw_2007]\] \[[Greenblatt, D. et al 2007][research_greenblattd_paschalkb_2007]\] \[[Abe et al 2007][research_abe_nomura_2007]\] \[[Haucke et al 2008][research_haucke_peltzer_2008]\] \[[Agarwal et al 2008][research_agarwal_rediniotis_2008]\] \[[Favier et al 2008][research_favier_kourta_2008]\] \[[You et al 2008][research_you_ham_2008]\] \[[Mack et al 2008][research_mack_brehm_2008]\] \[[Zaman and Culley 2008][research_zaman_culley_2008]\] \[[Little et al 2008][research_little_nishihara_2008]\] \[[Abe et al 2008][research_abe_nomura_2008]\] \[[Shmilovich and Yadlin 2009][research_shmilovich_yadlin_2009]\] \[[Genç and Kaynak 2009][research_genc_kaynak_2009]\] \[[Rizzetta and Visbal 2009][research_rizzetta_visbal_2009]\] \[[Woo et al 2009][research_woo_crittenden_2009]\] \[[Tesař 2010][research_tesar_2010]\] \[[Eichinger et al 2010][research_eichinger_thiele_2010]\] \[[Kühn et al 2011][research_kuhn_ciobaca_2011]\] \[[Shun and Ahmed 2011][research_shun_ahmed_2011]\] \[[Liang Hua et al 2011][research_lianghua_caoshangen_2011]\] \[[Moralev et al 2011][research_moralev_klimov_2011]\] \[[Gross and Fasel 2011][research_gross_fasel_2011]\] \[[Benton et al 2012][research_benton_bernardini_2012]\] \[[Packard and Bons 2012][research_packard_bons_2012_b]\] \[[Arifuzzaman 2012][research_arifuzzaman_2012]\] \[[Desalvo et al 2012][research_desalvo_whalen_2012]\] \[[Grager et al 2012][research_grager_rothmayer_2012]\] \[[Gross and Fasel 2012][research_gross_fasel_2012]\] \[[Haucke and Nitsche 2013][research_haucke_nitsche_2013]\] \[[Cadirci and Gunes 2013][research_cadirci_gunes_2013]\] \[[Gross and Fasel 2013][research_gross_fasel_2013]\] \[[Gross and Fasel 2013][research_gross_fasel_2013_b]\] \[[Gross and Fasel 2013][research_gross_fasel_2013_c]\] \[[Yufeng Cheng et al 2013][research_yufengcheng_xuekeche_2013]\] \[[Woo and Glezer 2013][research_woo_glezer_2013]\] \[[Woo and Glezer 2013][research_woo_glezer_2013_b]\] \[[Hartwich, Peter M. et al 2014][research_hartwichpeterm_dickeyericd_2014]\] \[[Desalvo et al 2014][research_desalvo_whalen_2014]\] \[[Kato et al 2014][research_kato_breitsamter_2014]\] \[[van Dommelen and Yapalparvi 2014][research_vandommelen_yapalparvi_2014]\] \[[Clifford et al 2014][research_clifford_singhal_2014]\] \[[Ahmed et al 2014][research_ahmed_nazari_2014]\] \[[Munday and Taira 2014][research_munday_taira_2014]\] \[[Fujii 2015][research_fujii_2015]\] \[[Guha et al 2015][research_guha_fernandez_2015]\] \[[Bayoda et al 2015][research_bayoda_benard_2015]\] \[[Munday and Taira 2015][research_munday_taira_2015]\] \[[Jairam et al 2016][research_jairam_clemons_2016]\] \[[Matalanis, Claude G. et al 2016][research_matalanisclaudeg_bowlespatricko_2016]\] \[[Joy et al 2016][research_joy_ibrahim_2016]\] \[[Gupta and Ansell 2016][research_gupta_ansell_2016]\] \[[Yeh and Taira 2016][research_yeh_taira_2016]\] \[[Hartwich, Peter M. et al 2016][research_hartwichpeterm_shmilovicharvin_2016]\] \[[Walker et al 2016][research_walker_hipp_2016]\] \[[Vrchota 2017][research_vrchota_2017]\] \[[Guo et al 2017][research_guo_hou_2017]\] \[[Shahid and Mashud 2017][research_shahid_mashud_2017]\] \[[Ciobaca and Dandois 2017][research_ciobaca_dandois_2017]\] \[[Bodart et al 2017][research_bodart_shelekhov_2017]\] \[[Yeh et al 2017][research_yeh_munday_2017]\] \[[Koklu, Mehti 2018][research_koklumehti_2018]\] \[[Prabhu and Srinivas 2018][research_prabhu_srinivas_2018]\] \[[Stalewski and Stryczniewicz 2018][research_stalewski_stryczniewicz_2018]\] \[[Hosseini, Seyedeh Sheida et al 2018][research_hosseiniseyedehsheida_vandamcp_2018]\] \[[Shimomura et al 2018][research_shimomura_sekimoto_2018]\] \[[Takahashi and Ohnishi 2018][research_takahashi_ohnishi_2018]\] \[[Li et al 2019][research_li_liu_2019]\] \[[Gildersleeve and Amitay 2019][research_gildersleeve_amitay_2019]\] \[[Tadjfar and Kamari 2019][research_tadjfar_kamari_2019_b]\] \[[Farzad and Yagoobi 2019][research_farzad_yagoobi_2019]\] \[[Ramaswamy and Schreyer 2019][research_ramaswamy_schreyer_2019]\] \[[Kobayshi and Sato 2019][research_kobayshi_sato_2019]\] \[[Esfahani et al 2019][research_esfahani_webb_2019]\] \[[Niu et al 2019][research_niu_liu_2019]\] \[[Fang et al 2019][research_fang_gong_2019]\] \[[Yeh and Taira 2019][research_yeh_taira_2019]\] \[[Oguri et al 2019][research_oguri_ogawara_2019]\] \[[Wang et al 2019][research_wang_xie_2019]\] \[[Siauw and Bonnet 2019][research_siauw_bonnet_2019]\] \[[Shimomura et al 2020][research_shimomura_sekimoto_2020]\] \[[Obeid et al 2020][research_obeid_ahmadi_2020]\] \[[Mehti Koklu 2021][research_mehtikoklu_2021_b]\] \[[Okoye et al 2021][research_okoye_lai_2021]\] \[[Xu et al 2021][research_xu_ren_2021]\] \[[Sato 2021][research_sato_2021]\] \[[Ramaswamy and Schreyer 2022][research_ramaswamy_schreyer_2022]\] \[[Takada et al 2022][research_takada_ishikawa_2022]\] \[[Optimisation of Trapped Vortex 2022][research_optimisation_of_2022]\] \[[Chaudhary et al 2022][research_chaudhary_kumar_2022]\] \[[Control of flow separation 2023][research_control_of_2023]\] \[[Takada et al 2023][research_takada_watanabe_2023_b]\] \[[Takada et al 2023][research_takada_watanabe_2023]\] \[[Vander Schaaf et al 2024][research_vanderschaaf_lu_2024]\] \[[Brandt and Bons 2024][research_brandt_bons_2024]\] \[[Boutoudj and Tebbiche 2024][research_boutoudj_tebbiche_2024]\] \[[Dodayav et al 2024][research_dodayav_biswas_2024]\] \[[Flow Separation Control of 2024][research_flow_separation_2024]\] \[[Gross et al 2024][research_gross_marks_2024]\] \[[Sheeler et al 2025][research_sheeler_wolff_2025]\] \[[Song et al 2025][research_song_chen_2025]\] \[[Ho et al 2025][research_ho_shirinzad_2025]\] \[[Reddy and Subramanian 2025][research_reddy_subramanian_2025]\] \[[Rahni and Jahangirian 2025][research_rahni_jahangirian_2025]\] \[[Kamiński et al 2025][research_kaminski_niegodajew_2025]\] \[[Wylie et al 2026][research_wylie_amitay_2026]\] \[[Zhang et al 2026][research_zhang_liu_2026]\] \[[Xu et al 2026][research_xu_lavoie_2026]\] \[[Yuan 2026][research_yuan_2026]\] \[[Ayok 2026][research_ayok_2026]\] \[[David Greenblatt et al][research_davidgreenblatt_keithbpaschal]\] \[[LaTunia Pack Melton][research_latuniapackmelton]\] \[[Seyedeh Sheida Hosseini et al][research_seyedehsheidahosseini_jamesrlkoch]\] \[[Schatz et al][research_schatz_gunther]\] \[[Sheida Hosseini et al][research_sheidahosseini_cpvandam]\] \[[C P Van Dam et al][research_cpvandam_seyedehsheidahosseini]\] \[[Seyedeh Hosseini et al][research_seyedehhosseini_cpvandam]\] \[[Seyedeh Sheida Hosseini et al][research_seyedehsheidahosseini_cpvandam]\] \[[Bohmier and Manoharan][research_bohmier_manoharan]\]
+**The mechanism the effectors exploit.** Control of separation on airfoils, high-lift systems, ramps and humps, including the agency reports this article reads in full and the review it leans on.
+
+**207 records.** \[[Foster and Fitzpatrick 1948][research_fostergeraldv_fitzpatrickjamese_1948]\] \[[Pratt and Shields 1952][research_prattgeorgel_shieldserousseau_1952]\] \[[Salmi 1952][research_salmireinoj_1952]\] \[[Bollech and Hadaway 1953][research_bollechthomasv_hadawaywilliamm_1953]\] \[[Childress 1958][research_childress_1958]\] \[[Dike and Dunn 1958][research_dike_dunn_1958]\] \[[Peake and Owen 1979][research_peakedj_owenfk_1979]\] \[[Sullivan 1979][research_sullivanrl_1979]\] \[[Trobaugh et al 1980][research_trobaugh_lee_1980]\] \[[Sutton 1982][research_sutton_1982]\] \[[Zilliac 1983][research_zilliac_1983]\] \[[Mangalam et al 1986][research_mangalamsm_barsevera_1986]\] \[[Barnett and Carter 1987][research_barnettm_carterje_1987]\] \[[Durbin and McKinzie 1987][research_durbinpa_mckinziedj_1987]\] \[[Huang et al 1987][research_huangls_maestrellol_1987]\] \[[Viken et al 1987][research_vikenjeffreyk_watsonvikensallya_1987]\] \[[Rao and Kariya 1988][research_rao_kariya_1988]\] \[[Zaman and McKinzie 1988][research_zamankbmq_mckinziedj_1988]\] \[[Bar-Sever 1989][research_barsevera_1989]\] \[[Katz et al 1989][research_katz_nishri_1989]\] \[[Oh and Roberts 1989][research_ohsejong_robertsleonard_1989]\] \[[Zaman and McKinzie 1989][research_zamankbmq_mckinziedj_1989]\] \[[Lin et al 1990][research_linjc_howardfg_1990]\] \[[Rice and Abbott 1990][research_riceedwardj_abbottjohnm_1990]\] \[[Chow and Chu 1991][research_chow_chu_1991]\] \[[Gad-El-hak and Bushnell 1991][research_gadelhakmohamed_bushnelldennism_1991]\] \[[Lin et al 1991][research_linjc_howardfg_1991]\] \[[Selby 1991][research_selbygregory_1991]\] \[[Lin et al 1992][research_linjohnc_robinsonstephenk_1992]\] \[[Yip et al 1992][research_yiplongp_vijgenpaulmhw_1992]\] \[[Gally 1994][research_gallythomasa_1994]\] \[[Jun-Fei and Shao-Zhi 1994][research_junfei_shaozhi_1994]\] \[[Nelson et al 1994][research_nelsonrobertc_thomasfo_1994]\] \[[Potter and Vandam 1995][research_potterrc_vandamcp_1995]\] \[[Telionis 1995][research_telionis_1995]\] \[[Chandrasekhara et al 1996][research_chandrasekharams_wildermc_1996]\] \[[Rudolph 1996][research_rudolphpeterkc_1996]\] \[[Seifert et al 1996][research_seifert_1996]\] \[[Chandrasekhara et al 1997][research_chandrasekharams_wildermc_1997]\] \[[Alam and Sandham 1998][research_alam_sandham_1998]\] \[[Hahne and Glaab 1999][research_hahnedavide_glaablouisj_1999]\] \[[Mochizuki et al 1999][research_mochizuki_kiya_1999]\] \[[Murawski 1999][research_murawski_1999]\] \[[Ravindran 1999][research_ravindranss_1999]\] \[[Sengupta et al 1999][research_sengupta_gupta_1999]\] \[[Sinha 1999][research_sinha_1999]\] \[[Song et al 1999][research_song_degraaff_1999]\] \[[Urzynicok and Fernholz 1999][research_urzynicok_fernholz_1999]\] \[[Abed 2000][research_abed_2000]\] \[[Allan et al 2000][research_allanbriang_juangjernan_2000]\] \[[Lu 2000][research_lu_2000]\] \[[Pack and Seifert 2000][research_packlatuniag_seifertavi_2000]\] \[[Seifert and Pack 2000][research_seifertavi_packlatuniag_2000]\] \[[Separation Control 2000][research_separation_control_2000]\] \[[Munday and Jacob 2001][research_munday_jacob_2001]\] \[[Munday and Jacob 2002][research_munday_jacob_2002_b]\] \[[Munday et al 2002][research_munday_jacob_2002]\] \[[Angele 2003][research_angele_2003]\] \[[Greenblatt and Wygnanski 2003][research_greenblatt_wygnanski_2003]\] \[[Martin et al 2003][research_martin_tung_2003]\] \[[Pack et al 2003][research_pack_2003]\] \[[Pack et al 2003][research_pack_yao_2003]\] \[[Tumin and Ashpis 2003][research_tuminanatoli_ashpisdavide_2003]\] \[[Ashpis and Hultgren 2004][research_ashpisdavide_hultgrenlennarts_2004]\] \[[Beck et al 2004][research_beckbt_cutlerad_2004]\] \[[Bons 2004][research_bons_2004]\] \[[Greenblatt et al 2004][research_greenblattdavid_paschalkeithb_2004]\] \[[Melton et al 2004][research_meltonlatuniapack_yaochungsheng_2004]\] \[[Zhang 2004][research_zhangwei_2004]\] \[[Ahmad et al 2005][research_ahmad_watterson_2005]\] \[[Effects of Pulsating Jet 2005][research_effects_of_2005]\] \[[Greenblatt 2005][research_greenblatt_2005]\] \[[Greenblatt 2005][research_greenblattdavid_2005]\] \[[Katam et al 2005][research_katam_lebeau_2005]\] \[[Logdberg and Alfredsson 2005][research_logdberg_alfredsson_2005]\] \[[Pern and Jacob 2005][research_pern_jacob_2005]\] \[[Seidel et al 2005][research_seidel_siegel_2005]\] \[[Sohn et al 2005][research_sohn_chung_2005]\] \[[Yarusevych et al 2005][research_yarusevych_sullivan_2005]\] \[[Yoshida et al 2005][research_yoshida_abe_2005]\] \[[Zhu and Qiu 2005][research_zhu_qiu_2005]\] \[[Angele and Grewe 2006][research_angele_grewe_2006]\] \[[Greenblatt 2006][research_greenblattdavid_2006]\] \[[Pern et al 2006][research_pern_jacob_2006]\] \[[Walker 2006][research_walker_2006]\] \[[Abe et al 2007][research_abe_nomura_2007]\] \[[Greenblatt 2007][research_greenblatt_2007]\] \[[Greenblatt et al 2007][research_greenblattd_paschalkb_2007]\] \[[Khodadoust and Shmilovich 2007][research_khodadoust_shmilovich_2007]\] \[[Khodadoust and Washburn 2007][research_khodadoustabdollah_washburnanthony_2007]\] \[[Melton et al 2007][research_meltonlatuniapack_schaefflernormanw_2007]\] \[[Abe et al 2008][research_abe_nomura_2008]\] \[[Agarwal et al 2008][research_agarwal_rediniotis_2008]\] \[[Favier et al 2008][research_favier_kourta_2008]\] \[[Haucke et al 2008][research_haucke_peltzer_2008]\] \[[Little et al 2008][research_little_nishihara_2008]\] \[[Mack et al 2008][research_mack_brehm_2008]\] \[[Melton et al 2008][research_melton_2008]\] \[[You et al 2008][research_you_ham_2008]\] \[[Zaman and Culley 2008][research_zaman_culley_2008]\] \[[Genç and Kaynak 2009][research_genc_kaynak_2009]\] \[[Rizzetta and Visbal 2009][research_rizzetta_visbal_2009]\] \[[Shmilovich and Yadlin 2009][research_shmilovich_yadlin_2009]\] \[[Woo et al 2009][research_woo_crittenden_2009]\] \[[Eichinger et al 2010][research_eichinger_thiele_2010]\] \[[Stalnov and Seifert 2010][research_stalnov_seifert_2010]\] \[[Tesař 2010][research_tesar_2010]\] \[[Gross and Fasel 2011][research_gross_fasel_2011]\] \[[Kühn et al 2011][research_kuhn_ciobaca_2011]\] \[[Liang Hua et al 2011][research_lianghua_caoshangen_2011]\] \[[Moralev et al 2011][research_moralev_klimov_2011]\] \[[Shun and Ahmed 2011][research_shun_ahmed_2011]\] \[[Arifuzzaman 2012][research_arifuzzaman_2012]\] \[[Benton et al 2012][research_benton_bernardini_2012]\] \[[Desalvo et al 2012][research_desalvo_whalen_2012]\] \[[Grager et al 2012][research_grager_rothmayer_2012]\] \[[Gross and Fasel 2012][research_gross_fasel_2012]\] \[[Packard and Bons 2012][research_packard_bons_2012_b]\] \[[Cadirci and Gunes 2013][research_cadirci_gunes_2013]\] \[[Gross and Fasel 2013][research_gross_fasel_2013]\] \[[Gross and Fasel 2013][research_gross_fasel_2013_b]\] \[[Gross and Fasel 2013][research_gross_fasel_2013_c]\] \[[Haucke and Nitsche 2013][research_haucke_nitsche_2013]\] \[[Woo and Glezer 2013][research_woo_glezer_2013]\] \[[Woo and Glezer 2013][research_woo_glezer_2013_b]\] \[[Yufeng Cheng et al 2013][research_yufengcheng_xuekeche_2013]\] \[[Ahmed et al 2014][research_ahmed_nazari_2014]\] \[[Clifford et al 2014][research_clifford_singhal_2014]\] \[[Desalvo et al 2014][research_desalvo_whalen_2014]\] \[[Hartwich et al 2014][research_hartwichpeterm_dickeyericd_2014]\] \[[Kato et al 2014][research_kato_breitsamter_2014]\] \[[Munday and Taira 2014][research_munday_taira_2014]\] \[[van Dommelen and Yapalparvi 2014][research_vandommelen_yapalparvi_2014]\] \[[Bayoda et al 2015][research_bayoda_benard_2015]\] \[[Fujii 2015][research_fujii_2015]\] \[[Guha et al 2015][research_guha_fernandez_2015]\] \[[Munday and Taira 2015][research_munday_taira_2015]\] \[[Gupta and Ansell 2016][research_gupta_ansell_2016]\] \[[Hartwich et al 2016][research_hartwichpeterm_shmilovicharvin_2016]\] \[[Jairam et al 2016][research_jairam_clemons_2016]\] \[[Joy et al 2016][research_joy_ibrahim_2016]\] \[[Matalanis et al 2016][research_matalanisclaudeg_bowlespatricko_2016]\] \[[Walker et al 2016][research_walker_hipp_2016]\] \[[Yeh and Taira 2016][research_yeh_taira_2016]\] \[[Bodart et al 2017][research_bodart_shelekhov_2017]\] \[[Ciobaca and Dandois 2017][research_ciobaca_dandois_2017]\] \[[Guo et al 2017][research_guo_hou_2017]\] \[[Shahid and Mashud 2017][research_shahid_mashud_2017]\] \[[Vrchota 2017][research_vrchota_2017]\] \[[Yeh et al 2017][research_yeh_munday_2017]\] \[[Hosseini et al 2018][research_hosseiniseyedehsheida_vandamcp_2018]\] \[[Koklu 2018][research_koklumehti_2018]\] \[[Munday and Taira 2018][research_munday_taira_2018]\] \[[Prabhu and Srinivas 2018][research_prabhu_srinivas_2018]\] \[[Shimomura et al 2018][research_shimomura_sekimoto_2018]\] \[[Stalewski and Stryczniewicz 2018][research_stalewski_stryczniewicz_2018]\] \[[Takahashi and Ohnishi 2018][research_takahashi_ohnishi_2018]\] \[[Esfahani et al 2019][research_esfahani_webb_2019]\] \[[Fang et al 2019][research_fang_gong_2019]\] \[[Gildersleeve and Amitay 2019][research_gildersleeve_amitay_2019]\] \[[Kobayshi and Sato 2019][research_kobayshi_sato_2019]\] \[[Li et al 2019][research_li_liu_2019]\] \[[Niu et al 2019][research_niu_liu_2019]\] \[[Oguri et al 2019][research_oguri_ogawara_2019]\] \[[Ramaswamy and Schreyer 2019][research_ramaswamy_schreyer_2019]\] \[[Siauw and Bonnet 2019][research_siauw_bonnet_2019]\] \[[Tadjfar and Kamari 2019][research_tadjfar_kamari_2019_b]\] \[[Wang et al 2019][research_wang_xie_2019]\] \[[Yeh and Taira 2019][research_yeh_taira_2019]\] \[[Obeid et al 2020][research_obeid_ahmadi_2020]\] \[[Shimomura et al 2020][research_shimomura_sekimoto_2020]\] \[[Koklu 2021][research_mehtikoklu_2021_b]\] \[[Okoye et al 2021][research_okoye_lai_2021]\] \[[Sato 2021][research_sato_2021]\] \[[Xu et al 2021][research_xu_ren_2021]\] \[[Chaudhary et al 2022][research_chaudhary_kumar_2022]\] \[[Optimisation of Trapped Vortex 2022][research_optimisation_of_2022]\] \[[Takada et al 2022][research_takada_ishikawa_2022]\] \[[Control of flow separation 2023][research_control_of_2023]\] \[[Takada et al 2023][research_takada_watanabe_2023]\] \[[Takada et al 2023][research_takada_watanabe_2023_b]\] \[[Boutoudj and Tebbiche 2024][research_boutoudj_tebbiche_2024]\] \[[Brandt and Bons 2024][research_brandt_bons_2024]\] \[[Dodayav et al 2024][research_dodayav_biswas_2024]\] \[[Flow Separation Control of 2024][research_flow_separation_2024]\] \[[Gross et al 2024][research_gross_marks_2024]\] \[[Abdolahipour 2024][research_review_afc_2024]\] \[[Vander Schaaf et al 2024][research_vanderschaaf_lu_2024]\] \[[Ho et al 2025][research_ho_shirinzad_2025]\] \[[Kamiński et al 2025][research_kaminski_niegodajew_2025]\] \[[Rahni and Jahangirian 2025][research_rahni_jahangirian_2025]\] \[[Reddy and Subramanian 2025][research_reddy_subramanian_2025]\] \[[Sheeler et al 2025][research_sheeler_wolff_2025]\] \[[Song et al 2025][research_song_chen_2025]\] \[[Ayok 2026][research_ayok_2026]\] \[[Wylie et al 2026][research_wylie_amitay_2026]\] \[[Xu et al 2026][research_xu_lavoie_2026]\] \[[Yuan 2026][research_yuan_2026]\] \[[Zhang et al 2026][research_zhang_liu_2026]\] \[[Bohmier and Manoharan][research_bohmier_manoharan]\] \[[Van Dam et al][research_cpvandam_seyedehsheidahosseini]\] \[[Melton][research_latuniapackmelton]\] \[[Schatz et al][research_schatz_gunther]\] \[[Hosseini et al][research_seyedehhosseini_cpvandam]\] \[[Hosseini et al][research_seyedehsheidahosseini_cpvandam]\] \[[Hosseini et al][research_seyedehsheidahosseini_jamesrlkoch]\] \[[Hosseini et al][research_sheidahosseini_cpvandam]\]
 
 ### Controlling a vortex, including the forebody jets that flew first
 
-**32 records.** \[[Bradley, R. G. et al 1974][research_bradleyrg_wraywo_1974]\] \[[Skow, A. M. and Penke, D. J. 1982][research_skowam_penkedj_1982]\] \[[Skow, A. M. and Peake, D. J. 1983][research_skowam_peakedj_1983]\] \[[Rao, D. M. et al 1986][research_raodm_moskovitzc_1986]\] \[[Mourtos, Nikos J. and Roberts, Leonard 1987][research_mourtosnikosj_robertsleonard_1987]\] \[[Visser, K. D. et al 1988][research_visserkd_iwanskikp_1988]\] \[[Ng, T. T. 1989][research_ngtt_1989]\] \[[Rao, Dhanvada M. et al 1989][research_raodhanvadam_puramck_1989]\] \[[Ng 1990][research_ng_1990]\] \[[El-Hady, Nabil M. 1990][research_elhadynabilm_1990]\] \[[Malcolm, Gerald N. et al 1990][research_malcolmgeraldn_ngtterry_1990]\] \[[Malcolm, G. N. and Ng, T. T. 1990][research_malcolmgn_ngtt_1990]\] \[[Rao, Dhanvada M. 1991][research_raodhanvadam_1991]\] \[[Kandil, Osama A. et al 1992][research_kandilosamaa_sharafhazemh_1992]\] \[[Magness, C. et al 1992][research_magnessc_robinsono_1992]\] \[[Bare, E. Ann et al 1992][research_bareeann_reubushdavide_1992]\] \[[Suarez, Carlos J. et al 1992][research_suarezcarlosj_malcolmgeraldn_1992]\] \[[Lemay, Scott P. et al 1992][research_lemayscottp_sewallwilliamg_1992]\] \[[Smith, Brooke C. et al 1993][research_smithbrookec_suarezcarlosj_1993]\] \[[Suarez, Carlos J. et al 1993][research_suarezcarlosj_ngtterry_1993]\] \[[Suarez, Carlos J. et al 1993][research_suarezcarlosj_kramerbrianr_1993]\] \[[Suarez, Carlos J. et al 1993][research_suarezcarlosj_kramerbrianr_1993_b]\] \[[Kramer, Brian R. et al 1994][research_kramerbrianr_suarezcarlosj_1994]\] \[[Walchli, Lawrence A. 1994][research_walchlilawrencea_1994]\] \[[Alexander, Michael and Meyn, Larry A. 1994][research_alexandermichael_meynlarrya_1994]\] \[[Moreira and Johari 1995][research_moreira_johari_1995]\] \[[Johari and Moreira 1996][research_johari_moreira_1996]\] \[[Bowers, Albion H. 1996][research_bowersalbionh_1996]\] \[[Greenblatt, David 2005][research_greenblattdavid_2005_b]\] \[[Bloxham et al 2008][research_bloxham_bons_2008]\] \[[Erickson, Gary E. 2013][research_ericksongarye_2013]\] \[[Moralev et al 2016][research_moralev_biturin_2016]\]
+**Control by moving a vortex rather than a surface.** Leading-edge, forebody, flap and tip vortices, including the forebody vortex control evaluated in flight.
+
+**32 records.** \[[Bradley et al 1974][research_bradleyrg_wraywo_1974]\] \[[Skow and Penke 1982][research_skowam_penkedj_1982]\] \[[Skow and Peake 1983][research_skowam_peakedj_1983]\] \[[Rao et al 1986][research_raodm_moskovitzc_1986]\] \[[Mourtos and Roberts 1987][research_mourtosnikosj_robertsleonard_1987]\] \[[Visser et al 1988][research_visserkd_iwanskikp_1988]\] \[[Ng 1989][research_ngtt_1989]\] \[[Rao et al 1989][research_raodhanvadam_puramck_1989]\] \[[El-Hady 1990][research_elhadynabilm_1990]\] \[[Malcolm and Ng 1990][research_malcolmgn_ngtt_1990]\] \[[Malcolm et al 1990][research_malcolmgeraldn_ngtterry_1990]\] \[[Ng 1990][research_ng_1990]\] \[[Rao 1991][research_raodhanvadam_1991]\] \[[Bare et al 1992][research_bareeann_reubushdavide_1992]\] \[[Kandil et al 1992][research_kandilosamaa_sharafhazemh_1992]\] \[[Lemay et al 1992][research_lemayscottp_sewallwilliamg_1992]\] \[[Magness et al 1992][research_magnessc_robinsono_1992]\] \[[Suarez et al 1992][research_suarezcarlosj_malcolmgeraldn_1992]\] \[[Smith et al 1993][research_smithbrookec_suarezcarlosj_1993]\] \[[Suarez et al 1993][research_suarezcarlosj_kramerbrianr_1993]\] \[[Suarez et al 1993][research_suarezcarlosj_kramerbrianr_1993_b]\] \[[Suarez et al 1993][research_suarezcarlosj_ngtterry_1993]\] \[[Alexander and Meyn 1994][research_alexandermichael_meynlarrya_1994]\] \[[Kramer et al 1994][research_kramerbrianr_suarezcarlosj_1994]\] \[[Walchli 1994][research_walchlilawrencea_1994]\] \[[Moreira and Johari 1995][research_moreira_johari_1995]\] \[[Bowers 1996][research_bowersalbionh_1996]\] \[[Johari and Moreira 1996][research_johari_moreira_1996]\] \[[Greenblatt 2005][research_greenblattdavid_2005_b]\] \[[Bloxham et al 2008][research_bloxham_bons_2008]\] \[[Erickson 2013][research_ericksongarye_2013]\] \[[Moralev et al 2016][research_moralev_biturin_2016]\]
 
 ### Where the air comes from, and what taking it costs
 
-**78 records.** \[[Wood and Dallenbach 1950][research_wood_dallenbach_1950]\] \[[Koutz, Stanley L et al 1950][research_koutzstanleyl_hensleyreecev_1950]\] \[[Koutz, Stanley L 1951][research_koutzstanleyl_1951]\] \[[Vich 1952][research_vich_1952]\] \[[Reddall 1955][research_reddall_1955]\] \[[Gage 1958][research_gage_1958]\] \[[General Dynamics Corp Pomona Ca Pomona Div 1963][research_generaldynamicscorppomonacapomonadiv_1963]\] \[[Tagge, G. E. 1983][research_taggege_1983]\] \[[Wiemer 1985][research_wiemer_1985]\] \[[Zrubek 1985][research_zrubek_1985]\] \[[Curry, Robert E. and Gilyard, Glenn B. 1989][research_curryroberte_gilyardglennb_1989]\] \[[Yuhas, Andrew J. and Ray, Ronald J. 1992][research_yuhasandrewj_rayronaldj_1992]\] \[[Yuhas, Andrew J. and Ray, Ronald J. 1992][research_yuhasandrewj_rayronaldj_1992_b]\] \[[Barter 1993][research_barter_1993]\] \[[Collaboration on bleed air 2000][research_collaboration_on_2000]\] \[[Conan and Savarese 2001][research_conan_savarese_2001]\] \[[Guangjun Liu et al 2004][research_guangjunliu_guozhongbao_2004]\] \[[Yee and Myers 2004][research_yee_myers_2004]\] \[[Guangjun Liu et al 2005][research_guangjunliu_guozhongbao_2005]\] \[[Englar, Robert J. and Campbell, Bryan A. 2005][research_englarrobertj_campbellbryana_2005]\] \[[Adib et al 2007][research_adib_baptista_2007]\] \[[Bleed air cooler 2008][research_bleed_air_2008]\] \[[Shang and Liu 2009][research_shang_liu_2009]\] \[[Shang and Liu 2009][research_shang_liu_2009_b]\] \[[Shang et al 2010][research_shang_liu_2010_b]\] \[[Shang and Liu 2010][research_shang_liu_2010]\] \[[Colahan and Phillips 2011][research_colahan_phillips_2011]\] \[[Shang and Liu 2011][research_shang_liu_2011]\] \[[Bergeron et al 2013][research_bergeron_ward_2013]\] \[[Rivera and Manteufel 2014][research_rivera_manteufel_2014]\] \[[Shehadi et al 2015][research_shehadi_jones_2015]\] \[[Liang 2015][research_liang_2015]\] \[[Xue et al 2016][research_xue_zhu_2016]\] \[[Omana et al 2016][research_omana_mann_2016]\] \[[Guoliang et al 2016][research_guoliang_junwei_2016]\] \[[Pollok and Casella 2017][research_pollok_casella_2017]\] \[[Templeton et al 2017][research_templeton_davis_2017]\] \[[Amiri et al 2017][research_amiri_jones_2017]\] \[[Michaelis 2018][research_michaelis_2018]\] \[[Chen et al 2018][research_chen_wang_2018]\] \[[Li chaofei et al 2018][research_lichaofei_chenweijian_2018]\] \[[Wang et al 2018][research_wang_bao_2018]\] \[[Takahashi and Stone 2019][research_takahashi_stone_2019]\] \[[Huff et al 2019][research_huff_schauer_2019]\] \[[Krishnan et al 2020][research_krishnan_krishnan_2020]\] \[[Day 2021][research_day_2021]\] \[[Shang 2021][research_shang_2021]\] \[[Zheng et al 2021][research_zheng_liu_2021]\] \[[Baptista and Prendinger 2022][research_baptista_prendinger_2022]\] \[[Singh Negi et al 2022][research_singhnegi_tayade_2022]\] \[[Raghavendra et al 2022][research_raghavendra_madan_2022]\] \[[Baptista and Prendinger 2023][research_baptista_prendinger_2023]\] \[[Aygun 2023][research_aygun_2023]\] \[[Abdelghany et al 2023][research_abdelghany_sarhan_2023]\] \[[Molenaar 2023][research_molenaar_2023]\] \[[Ward et al 2024][research_ward_vu_2024]\] \[[Irmayani et al 2024][research_irmayani_prasetio_2024]\] \[[Aygun 2024][research_aygun_2024]\] \[[Aircraft Pneumatic Power Systems 2025][research_aircraft_pneumatic_2025]\] \[[Sharma and Ranganayakulu 2025][research_sharma_ranganayakulu_2025_b]\] \[[Sharma and Ranganayakulu 2025][research_sharma_ranganayakulu_2025]\] \[[Schillaci et al 2025][research_schillaci_oliet_2025]\] \[[Cavalcante et al 2025][research_cavalcante_otto_2025]\] \[[Jiang et al 2026][research_jiang_xuan_2026]\] \[[Oliveira and Santos 2026][research_oliveira_santos_2026]\] \[[Sharma et al 2026][research_sharma_ranganayakulu_2026_b]\] \[[Sharma and Ranganayakulu 2026][research_sharma_ranganayakulu_2026]\] \[[Engine Bleed Air Systems][research_engine_bleed]\] \[[Graphic Symbols for Aircraft][research_graphic_symbols]\] \[[Graphical symbols for aircraft][research_graphical_symbols]\] \[[Measurement Data and Reference][research_measurement_data]\] \[[Nomenclature, Aircraft Hydraulic and][research_nomenclature_aircraft]\] \[[Pneumatic Power Supplies for][research_pneumatic_power]\] \[[Todo][research_todo]\] \[[Procedure for Sampling and][research_procedure_for]\] \[[Procedure for Sampling and][research_procedure_for_b]\] \[[Procedure for Sampling and][research_procedure_for_c]\] \[[Transient Measurement Method Development][research_transient_measurement]\]
+**The air supply.** Engine bleed, its extraction and its cost to the engine, and the pneumatic systems that distribute compressed air in an aircraft.
+
+**43 records.** \[[Koutz et al 1950][research_koutzstanleyl_hensleyreecev_1950]\] \[[Wood and Dallenbach 1950][research_wood_dallenbach_1950]\] \[[Koutz 1951][research_koutzstanleyl_1951]\] \[[Vich 1952][research_vich_1952]\] \[[Gage 1958][research_gage_1958]\] \[[General Dynamics Corp Pomona Ca Pomona Div 1963][research_generaldynamicscorppomonacapomonadiv_1963]\] \[[Tagge 1983][research_taggege_1983]\] \[[Wiemer 1985][research_wiemer_1985]\] \[[Zrubek 1985][research_zrubek_1985]\] \[[Curry and Gilyard 1989][research_curryroberte_gilyardglennb_1989]\] \[[Yuhas and Ray 1992][research_yuhasandrewj_rayronaldj_1992]\] \[[Yuhas and Ray 1992][research_yuhasandrewj_rayronaldj_1992_b]\] \[[Collaboration on bleed air 2000][research_collaboration_on_2000]\] \[[Conan and Savarese 2001][research_conan_savarese_2001]\] \[[Guangjun Liu et al 2004][research_guangjunliu_guozhongbao_2004]\] \[[Englar and Campbell 2005][research_englarrobertj_campbellbryana_2005]\] \[[Guangjun Liu et al 2005][research_guangjunliu_guozhongbao_2005]\] \[[Bleed air cooler 2008][research_bleed_air_2008]\] \[[Shang et al 2010][research_shang_liu_2010_b]\] \[[Bergeron et al 2013][research_bergeron_ward_2013]\] \[[Guoliang et al 2016][research_guoliang_junwei_2016]\] \[[Xue et al 2016][research_xue_zhu_2016]\] \[[Pollok and Casella 2017][research_pollok_casella_2017]\] \[[Wang et al 2018][research_wang_bao_2018]\] \[[Huff et al 2019][research_huff_schauer_2019]\] \[[Takahashi and Stone 2019][research_takahashi_stone_2019]\] \[[Krishnan et al 2020][research_krishnan_krishnan_2020]\] \[[Zheng et al 2021][research_zheng_liu_2021]\] \[[Singh Negi et al 2022][research_singhnegi_tayade_2022]\] \[[Abdelghany et al 2023][research_abdelghany_sarhan_2023]\] \[[Aygun 2023][research_aygun_2023]\] \[[Molenaar 2023][research_molenaar_2023]\] \[[Aygun 2024][research_aygun_2024]\] \[[Irmayani et al 2024][research_irmayani_prasetio_2024]\] \[[Ward et al 2024][research_ward_vu_2024]\] \[[Aircraft Pneumatic Power Systems 2025][research_aircraft_pneumatic_2025]\] \[[Cavalcante et al 2025][research_cavalcante_otto_2025]\] \[[Schillaci et al 2025][research_schillaci_oliet_2025]\] \[[Sharma and Ranganayakulu 2025][research_sharma_ranganayakulu_2025_b]\] \[[Jiang et al 2026][research_jiang_xuan_2026]\] \[[Sharma and Ranganayakulu 2026][research_sharma_ranganayakulu_2026]\] \[[Sharma et al 2026][research_sharma_ranganayakulu_2026_b]\] \[[Engine Bleed Air Systems][research_engine_bleed]\]
 
 ### Reynolds number, and why a tunnel is not an aeroplane
 
-**128 records.** \[[Dearborn, C H and Soule, H A 1937][research_dearbornch_souleha_1937]\] \[[Hett 1951][research_hett_1951]\] \[[Bauer and German 1961][research_bauer_german_1961]\] \[[Barnes 1965][research_barnes_og_1965]\] \[[Soderman, P. T. and Aiken, T. N. 1971][research_sodermanpt_aikentn_1971]\] \[[Hicks, R. M. et al 1972][research_hicksrm_mendozajp_1972]\] \[[Garcia, F., Jr. et al 1973][research_garciafjr_hicksrm_1973]\] \[[Wilcox, F. A. and Chamberlin, R. 1974][research_wilcoxfa_chamberlinr_1974]\] \[[Lewis and Smith 1975][research_lewis_smith_1975]\] \[[Wilcox, F. A. and Chamberlin, R. 1975][research_wilcoxfa_chamberlinr_1975]\] \[[Capone, F. J. 1975][research_caponefj_1975]\] \[[Settles et al 1976][research_settles_vas_1976]\] \[[Sussman, M. B. et al 1976][research_sussmanmb_harkonendl_1976]\] \[[Richey et al 1976][research_richey_petersen_1976]\] \[[Kruse, R. L. et al 1977][research_kruserl_lovettegh_1977]\] \[[Wind Tunnel/Flight Test Correlation 1978][research_wind_tunnel_flight_1978]\] \[[Stevens, C. H. et al 1979][research_stevensch_sponged_1979]\] \[[Daugherty, J. C. 1979][research_daughertyjc_1979]\] \[[Dougherty, N. S., Jr. and Fisher, D. F. 1980][research_doughertynsjr_fisherdf_1980]\] \[[Wilson et al 1980][research_wilson_winkel_1980]\] \[[Peterson, J. B., Jr. et al 1980][research_petersonjbjr_mannmj_1980]\] \[[Saltzman, E. J. and Ayers, T. G. 1981][research_saltzmanej_ayerstg_1981]\] \[[Ayers, T. G. 1981][research_ayerstg_1981]\] \[[Seshan 1981][research_seshan_1981]\] \[[Murman, E. M. 1982][research_murmanem_1982]\] \[[Niedling, L. G. 1982][research_niedlinglg_1982]\] \[[Madsen, A. P. 1982][research_madsenap_1982]\] \[[Fisher, D. L. and Dougherty, N. S., Jr. 1982][research_fisherdl_doughertynsjr_1982]\] \[[Nagel, A. L. 1982][research_nagelal_1982]\] \[[Ayers, T. G. 1982][research_ayerstg_1982]\] \[[Peterson, J. B., Jr. 1982][research_petersonjbjr_1982]\] \[[McKinney, L. W. and Baals, D. D. 1982][research_mckinneylw_baalsdd_1982]\] \[[Daforno, G. 1982][research_dafornog_1982]\] \[[Anderson, L. C. et al 1983][research_andersonlc_vincentjh_1983]\] \[[Fisher, D. F. and Dougherty, N. S., Jr. 1983][research_fisherdf_doughertynsjr_1983]\] \[[Stathopoulos and Surry 1983][research_stathopoulos_surry_1983]\] \[[Wortman 1984][research_wortman_1984]\] \[[Merrill et al 1987][research_merrill_delaat_1987]\] \[[Hahne, David E. et al 1987][research_hahnedavide_jordanfrankljr_1987]\] \[[Ellzey and Berbee 1988][research_ellzey_berbee_1988]\] \[[Simpson et al 1989][research_simpson_luong_1989]\] \[[Prasad and Koseff 1989][research_prasad_koseff_1989]\] \[[Simpson et al 1991][research_simpson_luong_1991]\] \[[Hahne, David E. and Jordan, Frank L., Jr. 1991][research_hahnedavide_jordanfrankljr_1991]\] \[[Meyn, Larry A. et al 1992][research_meynlarrya_lanserwendyr_1992]\] \[[David L Williams, II et al 1994][research_davidlwilliamsii_robertcnelson_1994]\] \[[Bandyopadhyay and Gad-el-Hak 1994][research_bandyopadhyay_gadelhak_1994]\] \[[Lamont et al 1995][research_lamont_poll_1995]\] \[[Fisher, David F. et al 1998][research_fisherdavidf_cobleighbrentr_1998]\] \[[High Reynolds Number Hybrid 1999][research_high_reynolds_1999]\] \[[High Reynolds Number Hybrid 1999][research_high_reynolds_1999_c]\] \[[High Reynolds Number Hybrid 1999][research_high_reynolds_1999_b]\] \[[Iwatsuki et al 1999][research_iwatsuki_iida_1999]\] \[[Ramsey and Chapman 2000][research_ramsey_chapman_2000]\] \[[Flow at Large Reynolds 2000][research_flow_at_2000]\] \[[Turnquist, Norm et al 2000][research_turnquistnorm_mcnicklealand_2000]\] \[[Reynolds Number Effects 2000][research_reynolds_number_2000]\] \[[van Raalte and van Oudheusden 2001][research_vanraalte_vanoudheusden_2001]\] \[[Luckring, J. M. and Ghee, T. A. 2001][research_luckringjm_gheeta_2001]\] \[[Adrian and Balachandar 2001][research_adrian_balachandar_2001]\] \[[Tomek, W. G. et al 2002][research_tomekwg_hallrm_2002]\] \[[Curtin, M. M. et al 2002][research_curtinmm_boguedr_2002]\] \[[Iwamoto et al 2002][research_iwamoto_suzuki_2002]\] \[[Song et al 2002][research_song_aubertine_2002]\] \[[Buffin-Bélanger and Roy 2004][research_buffinbelanger_roy_2004]\] \[[Brewer et al 2004][research_brewer_jessup_2004]\] \[[Wake et al 2006][research_wake_tillman_2006]\] \[[Owens, Donald B. et al 2006][research_owensdonaldb_coxdavide_2006]\] \[[Shaw et al 2006][research_shaw_smith_2006]\] \[[Jayaraman et al 2007][research_jayaraman_lian_2007]\] \[[Munson et al 2008][research_munson_dickson_2008]\] \[[Jordan, Thomas L. and Bailey, Roger M. 2008][research_jordanthomasl_baileyrogerm_2008]\] \[[Taira and Colonius 2009][research_taira_colonius_2009]\] \[[Marusic et al 2009][research_marusic_hutchins_2009]\] \[[Lee, James A. et al 2009][research_leejamesa_pahlejoseph_2009]\] \[[Marusic et al 2010][research_marusic_mathis_2010]\] \[[Iida et al 2010][research_iida_fukudome_2010]\] \[[Thake et al 2010][research_thake_packard_2010]\] \[[Escauriaza and Sotiropoulos 2010][research_escauriaza_sotiropoulos_2010]\] \[[Pavlock, Kate M. 2011][research_pavlockkatem_2011]\] \[[Miller, Christopher J. 2011][research_millerchristopherj_2011]\] \[[Meldi and Sagaut 2013][research_meldi_sagaut_2013]\] \[[Brown, Nelson 2013][research_brownnelson_2013]\] \[[Cho and Shyy 2013][research_cho_shyy_2013]\] \[[Miller, Christopher 2014][research_millerchristopher_2014]\] \[[Asada et al 2014][research_asada_sato_2014]\] \[[Chin et al 2014][research_chin_monty_2014]\] \[[Pouransari et al 2014][research_pouransari_vervisch_2014]\] \[[El-Alti et al 2015][research_elalti_chernoray_2015]\] \[[Seifert et al 2015][research_seifert_shtendel_2015]\] \[[Lind et al 2015][research_lind_smith_2015]\] \[[Lu et al 2015][research_lu_zhang_2015]\] \[[Ting, Eric et al 2015][research_tingeric_nguyennhan_2015]\] \[[Zharfa et al 2016][research_zharfa_ozturk_2016]\] \[[Whalen et al 2016][research_whalen_spoor_2016]\] \[[Mandal and Gu 2016][research_mandal_gu_2016]\] \[[Marks et al 2016][research_marks_sondergaard_2016]\] \[[Lu et al 2016][research_lu_zhang_2016]\] \[[Essel and Tachie 2017][research_essel_tachie_2017]\] \[[Whalen, Edward A. et al 2018][research_whalenedwarda_shmilovicharvin_2018]\] \[[Singh et al 2018][research_singh_rudman_2018]\] \[[Malekzadeh et al 2018][research_malekzadeh_mirzaee_2018]\] \[[Elahi et al 2018][research_elahi_moul_2018]\] \[[Lin et al 2019][research_lin_whalen_2019]\] \[[Warsop and Crowther 2019][research_warsop_crowther_2019]\] \[[McKenna et al 2019][research_mckenna_rice_2019]\] \[[Yoon et al 2019][research_yoon_kim_2019]\] \[[Rao and Liu 2020][research_rao_liu_2020]\] \[[Romano 2020][research_romano_2020]\] \[[Wang et al 2020][research_wang_zhang_2020]\] \[[Fröhlich et al 2021][research_frohlich_farmand_2021]\] \[[Dougherty 2021][research_dougherty_2021]\] \[[Sarout et al 2022][research_sarout_islam_2022]\] \[[Jessa 2022][research_jessa_2022]\] \[[Yu et al 2022][research_yu_ceci_2022]\] \[[Iyer and Malik 2023][research_iyer_malik_2023]\] \[[Ogunka et al 2023][research_ogunka_akbarzadeh_2023]\] \[[Elahi et al 2023][research_elahi_moul_2023]\] \[[Laguarda et al 2024][research_laguarda_hickel_2024]\] \[[Santese et al 2024][research_santese_martinezsanchis_2024]\] \[[McFadden and Bons 2024][research_mcfadden_bons_2024]\] \[[Zanoun et al 2024][research_zanoun_bauer_2024]\] \[[Brown et al 2025][research_brown_tuna_2025]\] \[[Soldati et al 2025][research_soldati_orlandi_2025]\] \[[Zhu et al 2026][research_zhu_zhao_2026]\] \[[Grager][research_grager]\] \[[Sarah L Langston et al][research_sarahllangston_courtneyswinski]\] \[[N. Sam Dougherty, Jr][research_nsamdoughertyjr]\]
+**Whether a tunnel result survives to flight.** Reynolds-number and scale effects, the correlation of wind tunnel and flight, and the full-scale and subscale testbeds that bridge the two, with the flight-Reynolds report on separation control.
+
+**111 records.** \[[Dearborn and Soule 1937][research_dearbornch_souleha_1937]\] \[[Bauer and German 1961][research_bauer_german_1961]\] \[[Barnes 1965][research_barnes_og_1965]\] \[[Soderman and Aiken 1971][research_sodermanpt_aikentn_1971]\] \[[Hicks et al 1972][research_hicksrm_mendozajp_1972]\] \[[Garcia et al 1973][research_garciafjr_hicksrm_1973]\] \[[Wilcox and Chamberlin 1974][research_wilcoxfa_chamberlinr_1974]\] \[[Capone 1975][research_caponefj_1975]\] \[[Wilcox and Chamberlin 1975][research_wilcoxfa_chamberlinr_1975]\] \[[Richey et al 1976][research_richey_petersen_1976]\] \[[Settles et al 1976][research_settles_vas_1976]\] \[[Sussman et al 1976][research_sussmanmb_harkonendl_1976]\] \[[Kruse et al 1977][research_kruserl_lovettegh_1977]\] \[[Wind Tunnel/Flight Test Correlation 1978][research_wind_tunnel_flight_1978]\] \[[Daugherty 1979][research_daughertyjc_1979]\] \[[Stevens et al 1979][research_stevensch_sponged_1979]\] \[[Dougherty and Fisher 1980][research_doughertynsjr_fisherdf_1980]\] \[[Peterson et al 1980][research_petersonjbjr_mannmj_1980]\] \[[Wilson et al 1980][research_wilson_winkel_1980]\] \[[Ayers 1981][research_ayerstg_1981]\] \[[Saltzman and Ayers 1981][research_saltzmanej_ayerstg_1981]\] \[[Ayers 1982][research_ayerstg_1982]\] \[[Daforno 1982][research_dafornog_1982]\] \[[Fisher and Dougherty 1982][research_fisherdl_doughertynsjr_1982]\] \[[Madsen 1982][research_madsenap_1982]\] \[[McKinney and Baals 1982][research_mckinneylw_baalsdd_1982]\] \[[Murman 1982][research_murmanem_1982]\] \[[Nagel 1982][research_nagelal_1982]\] \[[Niedling 1982][research_niedlinglg_1982]\] \[[Peterson 1982][research_petersonjbjr_1982]\] \[[Anderson et al 1983][research_andersonlc_vincentjh_1983]\] \[[Fisher and Dougherty 1983][research_fisherdf_doughertynsjr_1983]\] \[[Wortman 1984][research_wortman_1984]\] \[[Hahne et al 1987][research_hahnedavide_jordanfrankljr_1987]\] \[[Ellzey and Berbee 1988][research_ellzey_berbee_1988]\] \[[Hahne and Jordan 1991][research_hahnedavide_jordanfrankljr_1991]\] \[[Meyn et al 1992][research_meynlarrya_lanserwendyr_1992]\] \[[Bandyopadhyay and Gad-el-Hak 1994][research_bandyopadhyay_gadelhak_1994]\] \[[Williams et al 1994][research_davidlwilliamsii_robertcnelson_1994]\] \[[Lamont et al 1995][research_lamont_poll_1995]\] \[[Fisher et al 1998][research_fisherdavidf_cobleighbrentr_1998]\] \[[High Reynolds Number Hybrid 1999][research_high_reynolds_1999]\] \[[High Reynolds Number Hybrid 1999][research_high_reynolds_1999_b]\] \[[High Reynolds Number Hybrid 1999][research_high_reynolds_1999_c]\] \[[Iwatsuki et al 1999][research_iwatsuki_iida_1999]\] \[[Flow at Large Reynolds 2000][research_flow_at_2000]\] \[[Ramsey and Chapman 2000][research_ramsey_chapman_2000]\] \[[Reynolds Number Effects 2000][research_reynolds_number_2000]\] \[[Seifert and Pack 2000][research_seifert_pack_2000]\] \[[Adrian and Balachandar 2001][research_adrian_balachandar_2001]\] \[[Luckring and Ghee 2001][research_luckringjm_gheeta_2001]\] \[[van Raalte and van Oudheusden 2001][research_vanraalte_vanoudheusden_2001]\] \[[Curtin et al 2002][research_curtinmm_boguedr_2002]\] \[[Iwamoto et al 2002][research_iwamoto_suzuki_2002]\] \[[Song et al 2002][research_song_aubertine_2002]\] \[[Tomek et al 2002][research_tomekwg_hallrm_2002]\] \[[Brewer et al 2004][research_brewer_jessup_2004]\] \[[Owens et al 2006][research_owensdonaldb_coxdavide_2006]\] \[[Shaw et al 2006][research_shaw_smith_2006]\] \[[Wake et al 2006][research_wake_tillman_2006]\] \[[Jayaraman et al 2007][research_jayaraman_lian_2007]\] \[[Jordan and Bailey 2008][research_jordanthomasl_baileyrogerm_2008]\] \[[Munson et al 2008][research_munson_dickson_2008]\] \[[Lee et al 2009][research_leejamesa_pahlejoseph_2009]\] \[[Marusic et al 2009][research_marusic_hutchins_2009]\] \[[Taira and Colonius 2009][research_taira_colonius_2009]\] \[[Escauriaza and Sotiropoulos 2010][research_escauriaza_sotiropoulos_2010]\] \[[Marusic et al 2010][research_marusic_mathis_2010]\] \[[Thake et al 2010][research_thake_packard_2010]\] \[[Miller 2011][research_millerchristopherj_2011]\] \[[Pavlock 2011][research_pavlockkatem_2011]\] \[[Brown 2013][research_brownnelson_2013]\] \[[Cho and Shyy 2013][research_cho_shyy_2013]\] \[[Asada et al 2014][research_asada_sato_2014]\] \[[Chin et al 2014][research_chin_monty_2014]\] \[[Miller 2014][research_millerchristopher_2014]\] \[[El-Alti et al 2015][research_elalti_chernoray_2015]\] \[[Lind et al 2015][research_lind_smith_2015]\] \[[Lu et al 2015][research_lu_zhang_2015]\] \[[Seifert et al 2015][research_seifert_shtendel_2015]\] \[[Ting et al 2015][research_tingeric_nguyennhan_2015]\] \[[Lu et al 2016][research_lu_zhang_2016]\] \[[Mandal and Gu 2016][research_mandal_gu_2016]\] \[[Marks et al 2016][research_marks_sondergaard_2016]\] \[[Whalen et al 2016][research_whalen_spoor_2016]\] \[[Zharfa et al 2016][research_zharfa_ozturk_2016]\] \[[Essel and Tachie 2017][research_essel_tachie_2017]\] \[[Elahi et al 2018][research_elahi_moul_2018]\] \[[Malekzadeh et al 2018][research_malekzadeh_mirzaee_2018]\] \[[Whalen et al 2018][research_whalenedwarda_shmilovicharvin_2018]\] \[[Lin et al 2019][research_lin_whalen_2019]\] \[[McKenna et al 2019][research_mckenna_rice_2019]\] \[[Warsop and Crowther 2019][research_warsop_crowther_2019]\] \[[Yoon et al 2019][research_yoon_kim_2019]\] \[[Rao and Liu 2020][research_rao_liu_2020]\] \[[Romano 2020][research_romano_2020]\] \[[Wang et al 2020][research_wang_zhang_2020]\] \[[Dougherty 2021][research_dougherty_2021]\] \[[Sarout et al 2022][research_sarout_islam_2022]\] \[[Yu et al 2022][research_yu_ceci_2022]\] \[[Elahi et al 2023][research_elahi_moul_2023]\] \[[Iyer and Malik 2023][research_iyer_malik_2023]\] \[[Ogunka et al 2023][research_ogunka_akbarzadeh_2023]\] \[[Laguarda et al 2024][research_laguarda_hickel_2024]\] \[[McFadden and Bons 2024][research_mcfadden_bons_2024]\] \[[Zanoun et al 2024][research_zanoun_bauer_2024]\] \[[Brown et al 2025][research_brown_tuna_2025]\] \[[Soldati et al 2025][research_soldati_orlandi_2025]\] \[[Zhu et al 2026][research_zhu_zhao_2026]\] \[[Grager][research_grager]\] \[[Langston et al][research_sarahllangston_courtneyswinski]\]
 
 ### Active flow control as a subject in its own right
 
-**282 records.** \[[Wheldon and Whites 1966][research_wheldon_whites_1966]\] \[[Goldstein et al 1970][research_goldstein_harvey_1970]\] \[[Swinford, G. R. 1976][research_swinfordgr_1976]\] \[[White et al 1976][research_white_jr_1976]\] \[[Sturgeon, R. F. and Bennett, J. A. 1976][research_sturgeonrf_bennettja_1976]\] \[[Development of technology for 1976][research_development_of_1976]\] \[[Sturgeon, R. F. et al 1976][research_sturgeonrf_bennettja_1976_b]\] \[[Bonner, T. F., Jr. et al 1977][research_bonnertfjr_pridejdjr_1977]\] \[[Meade, L. E. 1977][research_meadele_1977]\] \[[Gratzer, L. B. and George-Falvy, D. 1978][research_gratzerlb_georgefalvyd_1978]\] \[[Allison, D. O. and Dagenhart, J. R. 1978][research_allisondo_dagenhartjr_1978]\] \[[Lovell, W. A. et al 1978][research_lovellwa_priceje_1978]\] \[[Evaluation of laminar flow 1978][research_evaluation_of_1978]\] \[[Turriziani, R. V. et al 1978][research_turrizianirv_lovellwa_1978]\] \[[Sturgeon, R. F. 1978][research_sturgeonrf_1978]\] \[[Wright, A. S. 1979][research_wrightas_1979]\] \[[Evaluation of laminar flow 1979][research_evaluation_of_1979]\] \[[Wilson, V. E. 1980][research_wilsonve_1980]\] \[[Sturgeon, R. F. 1980][research_sturgeonrf_1980]\] \[[Campbell, R. L. 1982][research_campbellrl_1982]\] \[[Pearce, W. E. 1982][research_pearcewe_1982]\] \[[Harvey, W. D. and Pride, J. D. 1982][research_harveywd_pridejd_1982]\] \[[Harvey, W. D. 1982][research_harveywd_1982]\] \[[Fischer, M. C. et al 1983][research_fischermc_wrightasjr_1983]\] \[[Pearce, W. E. 1983][research_pearcewe_1983]\] \[[Lange, R. H. 1984][research_langerh_1984]\] \[[Lineberger, L. B. 1984][research_linebergerlb_1984]\] \[[Klotzsche, M. et al 1984][research_klotzschem_pearcew_1984]\] \[[Jasperson, W. H. et al 1984][research_jaspersonwh_nastromgd_1984]\] \[[Pearce, W. E. et al 1984][research_pearcewe_mcnayde_1984]\] \[[Lineberger, L. B. 1984][research_linebergerlb_1984_b]\] \[[Petley, D. H. et al 1985][research_petleydh_alexanderwjr_1985]\] \[[Braslow, A. L. and Fischer, M. C. 1985][research_braslowal_fischermc_1985]\] \[[Harvey, W. D. et al 1986][research_harveywd_harriscd_1986]\] \[[Maddalon, D. V. and Poppen, W. A., Jr. 1986][research_maddalondv_poppenwajr_1986]\] \[[Wagner, R. D. 1986][research_wagnerrd_1986]\] \[[Lange, Roy H. 1987][research_langeroyh_1987]\] \[[Allison, Dennis O. and Dagenhart, J. Ray 1987][research_allisondenniso_dagenhartjray_1987]\] \[[Lange, Roy H. 1988][research_langeroyh_1988]\] \[[Harris, Charles D. et al 1988][research_harrischarlesd_harveywilliamd_1988]\] \[[Hardin, Jay C. and Pope, D. Stuart 1989][research_hardinjayc_popedstuart_1989]\] \[[Harvey, William D. et al 1989][research_harveywilliamd_harrischarlesd_1989]\] \[[Powell, A. G. et al 1989][research_powellag_agrawals_1989]\] \[[Huff, Ronald G. 1989][research_huffronaldg_1989]\] \[[Ash, Robert L. and Lakshmanan, Balakrishnan 1989][research_ashrobertl_lakshmananbalakrishnan_1989]\] \[[Fischler, J. E. et al 1989][research_fischlerje_jerstadnm_1989]\] \[[Harris, Charles D. et al 1989][research_harrischarlesd_brookscuylerwjr_1989]\] \[[Shepshelovich and Koss 1990][research_shepshelovich_koss_1990]\] \[[Maddalon, Dal V. and Braslow, Albert L. 1990][research_maddalondalv_braslowalbertl_1990]\] \[[Wagner, R. D. et al 1990][research_wagnerrd_fischermc_1990]\] \[[Anderson, Bernhard H. and Farokhi, Saeed 1991][research_andersonbernhardh_farokhisaeed_1991]\] \[[Arcara, P. C., Jr. et al 1991][research_arcarapcjr_bartlettdw_1991]\] \[[Wie, Y. S. et al 1991][research_wieys_collierfsjr_1991]\] \[[Fischer, Michael C. and Vemuru, Chandra S. 1991][research_fischermichaelc_vemuruchandras_1991]\] \[[Woan, Chung-Jin et al 1991][research_woanchungjin_gingrichphilipb_1991]\] \[[Gee, Ken et al 1992][research_geeken_rizkyehiam_1992]\] \[[Murman, Scott M. et al 1992][research_murmanscottm_rizkyehiam_1992]\] \[[Wie, Yong-Sun et al 1992][research_wieyongsun_collierfayettesjr_1992]\] \[[Krumenacker and Pellicano 1992][research_krumenacker_pellicano_1992]\] \[[Lanser, Wendy R. and Meyn, Larry A. 1992][research_lanserwendyr_meynlarrya_1992]\] \[[Fischer, Michael C. 1992][research_fischermichaelc_1992]\] \[[Harris, Charles D. et al 1992][research_harrischarlesd_brookscuylerwjr_1992]\] \[[Collier, Jr. 1993][research_collierjr_1993]\] \[[Keith, Theo G., Jr. and Dewitt, Kenneth J. 1993][research_keiththeogjr_dewittkennethj_1993]\] \[[Lanser and Meyn 1994][research_lanser_meyn_1994]\] \[[Lo, C. F. 1994][research_locf_1994]\] \[[Gimbert, N. Wes 1995][research_gimbertnwes_1995]\] \[[Lo, Ching F. and Wiberg, Clark G. 1995][research_lochingf_wibergclarkg_1995]\] \[[Lo, C. F. and Wiberg, Clark G. 1996][research_locf_wibergclarkg_1996]\] \[[Joslin, Ronald D. 1998][research_joslinronaldd_1998]\] \[[J Reece Roth et al 1998][research_jreeceroth_danielmsherman_1998]\] \[[Sheta, Essam F. et al 1998][research_shetaessamf_kandilosamaa_1998]\] \[[Pack, L. G. and Joslin, R. D. 1998][research_packlg_joslinrd_1998]\] \[[Wygnanski et al 1999][research_wygnanski_madenci_1999]\] \[[Marshall, Laurie A. 1999][research_marshalllauriea_1999]\] \[[Anders, Scott G. and Fischer, Michael C. 1999][research_andersscottg_fischermichaelc_1999]\] \[[Joslin, Ronald D. et al 1999][research_joslinronaldd_hortalucasg_1999]\] \[[Hamstra et al 2000][research_hamstra_miller_2000]\] \[[Ghee and Hall 2000][research_ghee_hall_2000]\] \[[Frontiers of Flow Control 2000][research_frontiers_of_2000]\] \[[Loth et al 2000][research_loth_geubelle_2000]\] \[[Marshall, Laurie A. 2000][research_marshalllauriea_2000]\] \[[Gorton, Susan A. 2001][research_gortonsusana_2001]\] \[[McMichael 2001][research_mcmichael_2001]\] \[[Ronald D Joslin and Sally A Viken 2001][research_ronalddjoslin_sallyaviken_2001]\] \[[Buning, Pieter G. 2001][research_buningpieterg_2001]\] \[[Young and Fielding 2001][research_young_fielding_2001]\] \[[Vorobieff and Truman 2001][research_vorobieff_truman_2001]\] \[[Telionis 2001][research_telionis_2001]\] \[[Kahng, Seun K. et al 2001][research_kahngseunk_gortonsusana_2001]\] \[[Abegg et al 2001][research_abegg_bippes_2001]\] \[[Washburn et al 2002][research_washburn_gorton_2002]\] \[[Lewington et al 2002][research_lewington_peake_2002]\] \[[Fung and Amitay 2002][research_fung_amitay_2002]\] \[[Sellers, William L., III et al 2002][research_sellerswilliamliii_jonesgregorys_2002]\] \[[Israel et al 2002][research_israel_fasse_2002]\] \[[Addington et al 2002][research_addington_hall_2002]\] \[[Washburn, A. E. et al 2002][research_washburnae_gortonsalthoff_2002]\] \[[Carpenter, Mark H. et al 2002][research_carpentermarkh_singerbarta_2002]\] \[[Geiselhart, Karl A. et al 2003][research_geiselhartkarla_daggettdavidl_2003]\] \[[Telionis and Vlachos 2003][research_telionis_vlachos_2003]\] \[[Bazyma and Rashkovan 2003][research_bazyma_rashkovan_2003]\] \[[Anders, Scott G. et al 2004][research_andersscottg_sellerswilliamliii_2004]\] \[[Gorton, Susan Althoff et al 2004][research_gortonsusanalthoff_owenslewisr_2004]\] \[[Bower and Kibens 2004][research_bower_kibens_2004]\] \[[Wong and Maina 2004][research_wong_maina_2004]\] \[[Fomin et al 2004][research_fomin_tretyakov_2004]\] \[[Glezer 2004][research_glezer_2004]\] \[[Influences of Blowing Jet 2004][research_influences_of_2004]\] \[[Allan, Brian G. et al 2004][research_allanbriang_owenslewisr_2004]\] \[[Culley, Dennis E. and Bright, Michelle M. 2005][research_culleydennise_brightmichellem_2005]\] \[[McMichael et al 2005][research_mcmichael_lovas_2005]\] \[[Suzen, Y. B. et al 2005][research_suzenyb_huangpg_2005]\] \[[Fleming, John et al 2005][research_flemingjohn_andersonjason_2005]\] \[[Kimmel et al 2005][research_kimmel_hayes_2005]\] \[[Owens, Lewis R. et al 2006][research_owenslewisr_allanbriang_2006]\] \[[Pilmoor et al 2006][research_pilmoor_crowther_2006]\] \[[Soria 2006][research_soria_2006]\] \[[Palaniswamy et al 2006][research_palaniswamy_goldberg_2006]\] \[[Allan Brian G. and Owens, Lewis, R. 2006][research_allanbriang_owenslewisr_2006]\] \[[Sahu 2006][research_sahu_2006]\] \[[Kiedaisch et al 2007][research_kiedaisch_demanett_2007]\] \[[Smith et al 2007][research_smith_scribben_2007]\] \[[Greenblatt, David and Washburn, Anthony E. 2007][research_greenblattdavid_washburnanthonye_2007]\] \[[Font and Morgan 2007][research_font_morgan_2007]\] \[[Liu 2007][research_liu_2007]\] \[[Rizzetta et al 2008][research_rizzetta_visbal_2008]\] \[[Melton, LaTunia Pack et al 2008][research_meltonlatuniapack_hannonjudith_2008]\] \[[Vynogradskyy et al 2008][research_vynogradskyy_yurchenko_2008]\] \[[Vepa 2008][research_vepa_2008]\] \[[Owens, Lewis R. et al 2008][research_owenslewisr_allanbriang_2008]\] \[[Gross and Fasel 2008][research_gross_fasel_2008]\] \[[Potsdam and Le Pape 2008][research_potsdam_lepape_2008]\] \[[Brzozowski et al 2008][research_brzozowski_culp_2008]\] \[[Yeshala et al 2008][research_yeshala_min_2008]\] \[[Greenblatt, David and Washburn, Anthony E. 2008][research_greenblattdavid_washburnanthonye_2008]\] \[[Bower 2008][research_bower_2008]\] \[[Lazar et al 2008][research_lazar_elliott_2008]\] \[[Fasel et al 2008][research_fasel_gross_2008]\] \[[Soria 2008][research_soria_2008]\] \[[Rumsey, Christopher L. 2008][research_rumseychristopherl_2008]\] \[[Liddle and Crowther 2008][research_liddle_crowther_2008]\] \[[Kutay et al 2008][research_kutay_tchieu_2008]\] \[[Anderson, Bernhard H. et al 2009][research_andersonbernhardh_macejamesl_2009]\] \[[Liu et al 2009][research_liu_liou_2009]\] \[[Ahmadi, G. et al 2010][research_ahmadig_marzoccap_2010]\] \[[Grund and Nitsche 2010][research_grund_nitsche_2010]\] \[[Bauer et al 2010][research_bauer_peltzer_2010]\] \[[Kumar, Vikas and Alvi, Farrukh S. 2010][research_kumarvikas_alvifarrukhs_2010]\] \[[Jabbal et al 2010][research_jabbal_liddle_2010]\] \[[Owens, Lewis R. and Allan, Brian G. 2010][research_owenslewisr_allanbriang_2010]\] \[[Siegel 2010][research_siegel_2010]\] \[[Schaeffler, Norman W. et al 2010][research_schaefflernormanw_allanbriang_2010]\] \[[Seifert et al 2010][research_seifert_david_2010]\] \[[Williams, David et al 2010][research_williamsdavid_coloniustim_2010]\] \[[Haucke and Nitsche 2011][research_haucke_nitsche_2011]\] \[[Li, Fei et al 2011][research_lifei_choudharimeelanm_2011]\] \[[Stephen P Wilkinson 2011][research_stephenpwilkinson_2011]\] \[[Shea et al 2012][research_shea_glauser_2012]\] \[[Lipatov 2012][research_lipatov_2012]\] \[[Zaman, K. B. M. Q. et al 2012][research_zamankbmq_hirtsm_2012]\] \[[Volino, Ralph J. 2012][research_volinoralphj_2012]\] \[[Volino, Ralph 2012][research_volinoralph_2012]\] \[[Hirt, Stefanie M. et al 2012][research_hirtstefaniem_zamankhairulbmq_2012]\] \[[King et al 2012][research_king_heinz_2012]\] \[[Leonov et al 2012][research_leonov_yarantsev_2012]\] \[[Packard and Bons 2012][research_packard_bons_2012]\] \[[King et al 2013][research_king_heinz_2013]\] \[[Snyder, John Steven et al 2013][research_snyderjohnsteven_baldwinjeff_2013]\] \[[Lenahan, Keven C. et al 2013][research_lenahankevenc_schatzmandavidm_2013]\] \[[Dianics et al 2013][research_dianics_balthazar_2013]\] \[[Tucker et al 2014][research_tucker_saric_2014]\] \[[Babinsky 2014][research_babinsky_2014]\] \[[Narducci, Robert P. et al 2014][research_narduccirobertp_bowersoxrodney_2014]\] \[[Tucker et al 2014][research_tucker_saric_2014_b]\] \[[Meyer et al 2014][research_meyer_machunze_2014]\] \[[Glezer 2014][research_glezer_2014]\] \[[Greenblatt et al 2014][research_greenblatt_doron_2014]\] \[[Junxuan and Xun 2015][research_junxuan_xun_2015]\] \[[Whalen, Edward A. et al 2015][research_whalenedwarda_lacydouglas_2015]\] \[[Alexander, Michael G. et al 2016][research_alexandermichaelg_harrisfkeith_2016]\] \[[Jentzsch et al 2016][research_jentzsch_taubert_2016]\] \[[Lin, John C. et al 2016][research_linjohnc_andinomarlyny_2016]\] \[[Tucker et al 2016][research_tucker_reed_2016]\] \[[Whalen, Edward A. 2016][research_whalenedwarda_2016]\] \[[John C Lin et al 2016][research_johnclin_edwardawhalen_2016]\] \[[Childs, Robert E. et al 2016][research_childsroberte_stremelpaulm_2016]\] \[[Cattafesta 2017][research_cattafesta_2017]\] \[[Bieler 2017][research_bieler_2017]\] \[[Ciobaca and Wild 2017][research_ciobaca_wild_2017]\] \[[Samimy 2017][research_samimy_2017]\] \[[Bons 2017][research_bons_2017_b]\] \[[Bons 2017][research_bons_2017]\] \[[Samimy 2017][research_samimy_2017_b]\] \[[Tadjfar and Asgari 2017][research_tadjfar_asgari_2017]\] \[[Eggert, Christopher A. and Rumsey, Christopher L. 2017][research_eggertchristophera_rumseychristopherl_2017]\] \[[Bacic 2017][research_bacic_2017_b]\] \[[Stalnov 2017][research_stalnov_2017]\] \[[Shmilovich, Arvin et al 2017][research_shmilovicharvin_yadlinyoram_2017]\] \[[Lin, John C. et al 2017][research_linjohnc_meltonlatuniap_2017]\] \[[Sheng and Zhao 2017][research_sheng_zhao_2017]\] \[[Li et al 2017][research_li_gao_2017]\] \[[Yang and Zha 2017][research_yang_zha_2017]\] \[[Bishara et al 2018][research_bishara_horst_2018]\] \[[Melton, LaTunia Pack et al 2018][research_meltonlatuniapack_koklumehti_2018]\] \[[Agate et al 2018][research_agate_pande_2018]\] \[[Burrows et al 2018][research_burrows_vukasinovic_2018]\] \[[Imamura and Fujino 2018][research_imamura_fujino_2018]\] \[[Weingaertner et al 2018][research_weingaertner_tewes_2018]\] \[[He et al 2018][research_he_provost_2018]\] \[[Andino, Marlyn Y. et al 2019][research_andinomarlyny_linjohnc_2019]\] \[[Vatsa, Veer N. et al 2019][research_vatsaveern_dudabenjamin_2019]\] \[[Yang et al 2019][research_yang_zhong_2019]\] \[[Li 2019][research_li_2019]\] \[[Lin, John C. et al 2019][research_linjohnc_meltonlatuniap_2019]\] \[[Tadjfar et al 2020][research_tadjfar_kasmaiee_2020]\] \[[Kamari et al 2020][research_kamari_tadjfar_2020]\] \[[Passive Flow Control over 2020][research_passive_flow_2020]\] \[[John C Lin et al 2020][research_johnclin_latuniapmelton_2020]\] \[[Tebbiche and Boutoudj 2021][research_tebbiche_boutoudj_2021]\] \[[Yoneda et al 2021][research_yoneda_goto_2021]\] \[[Güler et al 2021][research_guler_durhasan_2021]\] \[[Khalil et al 2022][research_khalil_asaro_2022]\] \[[Zheng et al 2022][research_zheng_xie_2022]\] \[[Vorozhbit et al 2022][research_vorozhbit_petrov_2022]\] \[[Coletti and Faruque 2022][research_coletti_faruque_2022]\] \[[Truong et al 2022][research_truong_marouf_2022]\] \[[Paul Vijgen et al 2022][research_paulvijgen_alexziebart_2022]\] \[[Arvin Shmilovich et al 2022][research_arvinshmilovich_paulvijgen_2022]\] \[[Rene Woszidlo et al 2022][research_renewoszidlo_arvinshmilovich_2022]\] \[[Arvin Shmilovich et al 2022][research_arvinshmilovich_matthewstauffer_2022]\] \[[John C. Lin et al 2022][research_johnclin_latuniapmelton_2022]\] \[[Serrani 2022][research_serrani_2022]\] \[[Xia et al 2022][research_xia_dong_2022]\] \[[Arvin Shmilovich et al 2023][research_arvinshmilovich_yoramyadlin_2023_b]\] \[[Mallor et al 2023][research_mallor_semprinicesari_2023]\] \[[Tabuchi and Fujino 2023][research_tabuchi_fujino_2023]\] \[[Hosseinverdi and Fasel 2023][research_hosseinverdi_fasel_2023]\] \[[Arvin Shmilovich et al 2023][research_arvinshmilovich_yoramyadlin_2023]\] \[[Feldstein et al 2023][research_feldstein_uleck_2023]\] \[[Griffith and Faruque 2023][research_griffith_faruque_2023]\] \[[Copp 2024][research_copp_2024]\] \[[Chua and Liu 2024][research_chua_liu_2024]\] \[[Karpuk and Mosca 2024][research_karpuk_mosca_2024]\] \[[Anilir et al 2024][research_anilir_kurtulus_2024]\] \[[Active Flow Control 2025][research_active_flow_2025]\] \[[Chen et al 2025][research_chen_ballini_2025]\] \[[Wang and Yang 2025][research_wang_yang_2025]\] \[[Yang et al 2025][research_yang_chen_2025]\] \[[Mahns and Amitay 2025][research_mahns_amitay_2025]\] \[[Frede and Gatti 2025][research_frede_gatti_2025]\] \[[Kalyankar et al 2025][research_kalyankar_urreiztieta_2025]\] \[[Zhijie et al 2025][research_zhijie_taiyu_2025]\] \[[Ch et al 2026][research_ch_g_2026]\] \[[Tahir et al 2026][research_tahir_maqsood_2026]\] \[[Ali et al 2026][research_ali_rasani_2026]\] \[[Zhao et al 2026][research_zhao_luo_2026]\] \[[LaTunia Melton et al][research_latuniamelton_judithhannon]\] \[[Marlyn Y. Andino et al][research_marlynyandino_latuniapackmelton]\] \[[Sarwar][research_sarwar]\] \[[Latunia P Melton et al][research_latuniapmelton_johnclin]\] \[[LaTunia Pack Melton et al][research_latuniapackmelton_mehtikoklu]\] \[[Latunia P Melton][research_latuniapmelton]\] \[[Seyedeh Sheida Hosseini et al][research_seyedehsheidahosseini_cpvandam_b]\] \[[Chandra et al][research_chandra_madhan]\] \[[Madhan et al][research_madhan_rahel]\] \[[Marlyn Andino et al][research_marlynandino_latuniapackmelton]\] \[[Shaw et al][research_shaw_hidalgo]\] \[[Aircraft laminar flow control][research_aircraft_laminar]\] \[[Seyedeh Sheida Hosseini et al][research_seyedehsheidahosseini_cpvandam_c]\] \[[E Graff et al][research_egraff_ewhalen]\] \[[Veer N Vatsa et al][research_veernvatsa_johnclin]\] \[[Paul Vijgen et al][research_paulvijgen_alexziebart]\] \[[Marlyn Andino et al][research_marlynandino_latuniamelton]\] \[[Evan J McFadden and Jeffrey P Bons][research_evanjmcfadden_jeffreypbons]\] \[[Eric J Nielsen and William T Jones][research_ericjnielsen_williamtjones]\] \[[Gregory S Jones et al][research_gregorysjones_williamemilholenii]\] \[[Perrier][research_perrier]\] \[[Israel Wygnanski][research_israelwygnanski]\] \[[Keith B Paschal et al][research_keithbpaschal_michaelakegerise_b]\] \[[Keith B. Paschal et al][research_keithbpaschal_michaelakegerise]\] \[[LaTunia Pack Melton et al][research_latuniapackmelton_mehtikoklu_b]\]
+**The field as a field.** Reviews, programmes and outlooks for active flow control, laminar flow control by suction, and the integration of flow control into aircraft, inlets and engines.
+
+**275 records.** \[[Wheldon and Whites 1966][research_wheldon_whites_1966]\] \[[Development of technology for 1976][research_development_of_1976]\] \[[Sturgeon and Bennett 1976][research_sturgeonrf_bennettja_1976]\] \[[Sturgeon et al 1976][research_sturgeonrf_bennettja_1976_b]\] \[[Swinford 1976][research_swinfordgr_1976]\] \[[White et al 1976][research_white_jr_1976]\] \[[Bonner et al 1977][research_bonnertfjr_pridejdjr_1977]\] \[[Meade 1977][research_meadele_1977]\] \[[Allison and Dagenhart 1978][research_allisondo_dagenhartjr_1978]\] \[[Evaluation of laminar flow 1978][research_evaluation_of_1978]\] \[[Gratzer and George-Falvy 1978][research_gratzerlb_georgefalvyd_1978]\] \[[Lovell et al 1978][research_lovellwa_priceje_1978]\] \[[Sturgeon 1978][research_sturgeonrf_1978]\] \[[Turriziani et al 1978][research_turrizianirv_lovellwa_1978]\] \[[Evaluation of laminar flow 1979][research_evaluation_of_1979]\] \[[Wright 1979][research_wrightas_1979]\] \[[Sturgeon 1980][research_sturgeonrf_1980]\] \[[Wilson 1980][research_wilsonve_1980]\] \[[Campbell 1982][research_campbellrl_1982]\] \[[Harvey 1982][research_harveywd_1982]\] \[[Harvey and Pride 1982][research_harveywd_pridejd_1982]\] \[[Pearce 1982][research_pearcewe_1982]\] \[[Fischer et al 1983][research_fischermc_wrightasjr_1983]\] \[[Pearce 1983][research_pearcewe_1983]\] \[[Jasperson et al 1984][research_jaspersonwh_nastromgd_1984]\] \[[Klotzsche et al 1984][research_klotzschem_pearcew_1984]\] \[[Lange 1984][research_langerh_1984]\] \[[Lineberger 1984][research_linebergerlb_1984]\] \[[Lineberger 1984][research_linebergerlb_1984_b]\] \[[Pearce et al 1984][research_pearcewe_mcnayde_1984]\] \[[Braslow and Fischer 1985][research_braslowal_fischermc_1985]\] \[[Petley et al 1985][research_petleydh_alexanderwjr_1985]\] \[[Harvey et al 1986][research_harveywd_harriscd_1986]\] \[[Maddalon and Poppen 1986][research_maddalondv_poppenwajr_1986]\] \[[Wagner 1986][research_wagnerrd_1986]\] \[[Allison and Dagenhart 1987][research_allisondenniso_dagenhartjray_1987]\] \[[Lange 1987][research_langeroyh_1987]\] \[[Harris et al 1988][research_harrischarlesd_harveywilliamd_1988]\] \[[Lange 1988][research_langeroyh_1988]\] \[[Ash and Lakshmanan 1989][research_ashrobertl_lakshmananbalakrishnan_1989]\] \[[Fischler et al 1989][research_fischlerje_jerstadnm_1989]\] \[[Hardin and Pope 1989][research_hardinjayc_popedstuart_1989]\] \[[Harris et al 1989][research_harrischarlesd_brookscuylerwjr_1989]\] \[[Harvey et al 1989][research_harveywilliamd_harrischarlesd_1989]\] \[[Huff 1989][research_huffronaldg_1989]\] \[[Powell et al 1989][research_powellag_agrawals_1989]\] \[[Maddalon and Braslow 1990][research_maddalondalv_braslowalbertl_1990]\] \[[Shepshelovich and Koss 1990][research_shepshelovich_koss_1990]\] \[[Wagner et al 1990][research_wagnerrd_fischermc_1990]\] \[[Anderson and Farokhi 1991][research_andersonbernhardh_farokhisaeed_1991]\] \[[Arcara et al 1991][research_arcarapcjr_bartlettdw_1991]\] \[[Fischer and Vemuru 1991][research_fischermichaelc_vemuruchandras_1991]\] \[[Wie et al 1991][research_wieys_collierfsjr_1991]\] \[[Woan et al 1991][research_woanchungjin_gingrichphilipb_1991]\] \[[Fischer 1992][research_fischermichaelc_1992]\] \[[Gee et al 1992][research_geeken_rizkyehiam_1992]\] \[[Harris et al 1992][research_harrischarlesd_brookscuylerwjr_1992]\] \[[Krumenacker and Pellicano 1992][research_krumenacker_pellicano_1992]\] \[[Lanser and Meyn 1992][research_lanserwendyr_meynlarrya_1992]\] \[[Murman et al 1992][research_murmanscottm_rizkyehiam_1992]\] \[[Wie et al 1992][research_wieyongsun_collierfayettesjr_1992]\] \[[Collier 1993][research_collierjr_1993]\] \[[Keith and Dewitt 1993][research_keiththeogjr_dewittkennethj_1993]\] \[[Lanser and Meyn 1994][research_lanser_meyn_1994]\] \[[Lo 1994][research_locf_1994]\] \[[Gimbert 1995][research_gimbertnwes_1995]\] \[[Lo and Wiberg 1995][research_lochingf_wibergclarkg_1995]\] \[[Lo and Wiberg 1996][research_locf_wibergclarkg_1996]\] \[[Wygnanski and Wygnanski 1997][research_wygnanski_1997]\] \[[Roth et al 1998][research_jreeceroth_danielmsherman_1998]\] \[[Joslin 1998][research_joslinronaldd_1998]\] \[[Pack and Joslin 1998][research_packlg_joslinrd_1998]\] \[[Sheta et al 1998][research_shetaessamf_kandilosamaa_1998]\] \[[Anders and Fischer 1999][research_andersscottg_fischermichaelc_1999]\] \[[Joslin et al 1999][research_joslinronaldd_hortalucasg_1999]\] \[[Marshall 1999][research_marshalllauriea_1999]\] \[[Wygnanski et al 1999][research_wygnanski_madenci_1999]\] \[[Frontiers of Flow Control 2000][research_frontiers_of_2000]\] \[[Ghee and Hall 2000][research_ghee_hall_2000]\] \[[Hamstra et al 2000][research_hamstra_miller_2000]\] \[[Marshall 2000][research_marshalllauriea_2000]\] \[[Abegg et al 2001][research_abegg_bippes_2001]\] \[[Buning 2001][research_buningpieterg_2001]\] \[[Gorton 2001][research_gortonsusana_2001]\] \[[Kahng et al 2001][research_kahngseunk_gortonsusana_2001]\] \[[McMichael 2001][research_mcmichael_2001]\] \[[Joslin and Viken 2001][research_ronalddjoslin_sallyaviken_2001]\] \[[Telionis 2001][research_telionis_2001]\] \[[Vorobieff and Truman 2001][research_vorobieff_truman_2001]\] \[[Young and Fielding 2001][research_young_fielding_2001]\] \[[Carpenter et al 2002][research_carpentermarkh_singerbarta_2002]\] \[[Fung and Amitay 2002][research_fung_amitay_2002]\] \[[Israel et al 2002][research_israel_fasse_2002]\] \[[Lewington et al 2002][research_lewington_peake_2002]\] \[[Sellers et al 2002][research_sellerswilliamliii_jonesgregorys_2002]\] \[[Washburn et al 2002][research_washburn_gorton_2002]\] \[[Washburn et al 2002][research_washburnae_gortonsalthoff_2002]\] \[[Bazyma and Rashkovan 2003][research_bazyma_rashkovan_2003]\] \[[Geiselhart et al 2003][research_geiselhartkarla_daggettdavidl_2003]\] \[[Telionis and Vlachos 2003][research_telionis_vlachos_2003]\] \[[Allan et al 2004][research_allanbriang_owenslewisr_2004]\] \[[Anders et al 2004][research_andersscottg_sellerswilliamliii_2004]\] \[[Bower and Kibens 2004][research_bower_kibens_2004]\] \[[Fomin et al 2004][research_fomin_tretyakov_2004]\] \[[Glezer 2004][research_glezer_2004]\] \[[Gorton et al 2004][research_gortonsusanalthoff_owenslewisr_2004]\] \[[Influences of Blowing Jet 2004][research_influences_of_2004]\] \[[Wong and Maina 2004][research_wong_maina_2004]\] \[[Culley and Bright 2005][research_culleydennise_brightmichellem_2005]\] \[[Fleming et al 2005][research_flemingjohn_andersonjason_2005]\] \[[Kimmel et al 2005][research_kimmel_hayes_2005]\] \[[McMichael et al 2005][research_mcmichael_lovas_2005]\] \[[Suzen et al 2005][research_suzenyb_huangpg_2005]\] \[[Allan Brian G. and Owens, Lewis, R. 2006][research_allanbriang_owenslewisr_2006]\] \[[Owens et al 2006][research_owenslewisr_allanbriang_2006]\] \[[Palaniswamy et al 2006][research_palaniswamy_goldberg_2006]\] \[[Pilmoor et al 2006][research_pilmoor_crowther_2006]\] \[[Sahu 2006][research_sahu_2006]\] \[[Soria 2006][research_soria_2006]\] \[[Font and Morgan 2007][research_font_morgan_2007]\] \[[Greenblatt and Washburn 2007][research_greenblattdavid_washburnanthonye_2007]\] \[[Kiedaisch et al 2007][research_kiedaisch_demanett_2007]\] \[[Liu 2007][research_liu_2007]\] \[[Smith et al 2007][research_smith_scribben_2007]\] \[[Bower 2008][research_bower_2008]\] \[[Brzozowski et al 2008][research_brzozowski_culp_2008]\] \[[Fasel et al 2008][research_fasel_gross_2008]\] \[[Greenblatt and Washburn 2008][research_greenblattdavid_washburnanthonye_2008]\] \[[Gross and Fasel 2008][research_gross_fasel_2008]\] \[[Kutay et al 2008][research_kutay_tchieu_2008]\] \[[Lazar et al 2008][research_lazar_elliott_2008]\] \[[Liddle and Crowther 2008][research_liddle_crowther_2008]\] \[[Melton et al 2008][research_meltonlatuniapack_hannonjudith_2008]\] \[[Owens et al 2008][research_owenslewisr_allanbriang_2008]\] \[[Potsdam and Le Pape 2008][research_potsdam_lepape_2008]\] \[[Rizzetta et al 2008][research_rizzetta_visbal_2008]\] \[[Rumsey 2008][research_rumseychristopherl_2008]\] \[[Soria 2008][research_soria_2008]\] \[[Vepa 2008][research_vepa_2008]\] \[[Vynogradskyy et al 2008][research_vynogradskyy_yurchenko_2008]\] \[[Yeshala et al 2008][research_yeshala_min_2008]\] \[[Anderson et al 2009][research_andersonbernhardh_macejamesl_2009]\] \[[Flow Control Terminology 2009][research_joslin_miller_2009]\] \[[Liu et al 2009][research_liu_liou_2009]\] \[[Ahmadi et al 2010][research_ahmadig_marzoccap_2010]\] \[[Bauer et al 2010][research_bauer_peltzer_2010]\] \[[Grund and Nitsche 2010][research_grund_nitsche_2010]\] \[[Jabbal et al 2010][research_jabbal_liddle_2010]\] \[[Kumar and Alvi 2010][research_kumarvikas_alvifarrukhs_2010]\] \[[Owens and Allan 2010][research_owenslewisr_allanbriang_2010]\] \[[Schaeffler et al 2010][research_schaefflernormanw_allanbriang_2010]\] \[[Seifert et al 2010][research_seifert_david_2010]\] \[[Siegel 2010][research_siegel_2010]\] \[[Williams et al 2010][research_williamsdavid_coloniustim_2010]\] \[[Haucke and Nitsche 2011][research_haucke_nitsche_2011]\] \[[Li et al 2011][research_lifei_choudharimeelanm_2011]\] \[[Wilkinson 2011][research_stephenpwilkinson_2011]\] \[[Hirt et al 2012][research_hirtstefaniem_zamankhairulbmq_2012]\] \[[King et al 2012][research_king_heinz_2012]\] \[[Lipatov 2012][research_lipatov_2012]\] \[[Packard and Bons 2012][research_packard_bons_2012]\] \[[Shea et al 2012][research_shea_glauser_2012]\] \[[Volino 2012][research_volinoralph_2012]\] \[[Volino 2012][research_volinoralphj_2012]\] \[[Zaman et al 2012][research_zamankbmq_hirtsm_2012]\] \[[Dianics et al 2013][research_dianics_balthazar_2013]\] \[[King et al 2013][research_king_heinz_2013]\] \[[Lenahan et al 2013][research_lenahankevenc_schatzmandavidm_2013]\] \[[Glezer 2014][research_glezer_2014]\] \[[Greenblatt et al 2014][research_greenblatt_doron_2014]\] \[[Meyer et al 2014][research_meyer_machunze_2014]\] \[[Narducci et al 2014][research_narduccirobertp_bowersoxrodney_2014]\] \[[Tucker et al 2014][research_tucker_saric_2014]\] \[[Tucker et al 2014][research_tucker_saric_2014_b]\] \[[Junxuan and Xun 2015][research_junxuan_xun_2015]\] \[[Whalen et al 2015][research_whalenedwarda_lacydouglas_2015]\] \[[Alexander et al 2016][research_alexandermichaelg_harrisfkeith_2016]\] \[[Childs et al 2016][research_childsroberte_stremelpaulm_2016]\] \[[Jentzsch et al 2016][research_jentzsch_taubert_2016]\] \[[Lin et al 2016][research_johnclin_edwardawhalen_2016]\] \[[Lin et al 2016][research_linjohnc_andinomarlyny_2016]\] \[[Tucker et al 2016][research_tucker_reed_2016]\] \[[Whalen 2016][research_whalenedwarda_2016]\] \[[Bacic 2017][research_bacic_2017_b]\] \[[Bieler 2017][research_bieler_2017]\] \[[Bons 2017][research_bons_2017]\] \[[Bons 2017][research_bons_2017_b]\] \[[Cattafesta 2017][research_cattafesta_2017]\] \[[Ciobaca and Wild 2017][research_ciobaca_wild_2017]\] \[[Eggert and Rumsey 2017][research_eggertchristophera_rumseychristopherl_2017]\] \[[Li et al 2017][research_li_gao_2017]\] \[[Lin et al 2017][research_linjohnc_meltonlatuniap_2017]\] \[[Samimy 2017][research_samimy_2017]\] \[[Samimy 2017][research_samimy_2017_b]\] \[[Sheng and Zhao 2017][research_sheng_zhao_2017]\] \[[Shmilovich et al 2017][research_shmilovicharvin_yadlinyoram_2017]\] \[[Stalnov 2017][research_stalnov_2017]\] \[[Tadjfar and Asgari 2017][research_tadjfar_asgari_2017]\] \[[Yang and Zha 2017][research_yang_zha_2017]\] \[[Agate et al 2018][research_agate_pande_2018]\] \[[Bishara et al 2018][research_bishara_horst_2018]\] \[[Burrows et al 2018][research_burrows_vukasinovic_2018]\] \[[He et al 2018][research_he_provost_2018]\] \[[Melton et al 2018][research_meltonlatuniapack_koklumehti_2018]\] \[[Weingaertner et al 2018][research_weingaertner_tewes_2018]\] \[[Andino et al 2019][research_andinomarlyny_linjohnc_2019]\] \[[Li 2019][research_li_2019]\] \[[Lin et al 2019][research_linjohnc_meltonlatuniap_2019]\] \[[Vatsa et al 2019][research_vatsaveern_dudabenjamin_2019]\] \[[Yang et al 2019][research_yang_zhong_2019]\] \[[Lin et al 2020][research_johnclin_latuniapmelton_2020]\] \[[Kamari et al 2020][research_kamari_tadjfar_2020]\] \[[Passive Flow Control over 2020][research_passive_flow_2020]\] \[[Tadjfar et al 2020][research_tadjfar_kasmaiee_2020]\] \[[Güler et al 2021][research_guler_durhasan_2021]\] \[[Tebbiche and Boutoudj 2021][research_tebbiche_boutoudj_2021]\] \[[Yoneda et al 2021][research_yoneda_goto_2021]\] \[[Shmilovich et al 2022][research_arvinshmilovich_matthewstauffer_2022]\] \[[Shmilovich et al 2022][research_arvinshmilovich_paulvijgen_2022]\] \[[Coletti and Faruque 2022][research_coletti_faruque_2022]\] \[[Lin et al 2022][research_johnclin_latuniapmelton_2022]\] \[[Khalil et al 2022][research_khalil_asaro_2022]\] \[[Vijgen et al 2022][research_paulvijgen_alexziebart_2022]\] \[[Woszidlo et al 2022][research_renewoszidlo_arvinshmilovich_2022]\] \[[Serrani 2022][research_serrani_2022]\] \[[Truong et al 2022][research_truong_marouf_2022]\] \[[Vorozhbit et al 2022][research_vorozhbit_petrov_2022]\] \[[Xia et al 2022][research_xia_dong_2022]\] \[[Zheng et al 2022][research_zheng_xie_2022]\] \[[Shmilovich et al 2023][research_arvinshmilovich_yoramyadlin_2023]\] \[[Shmilovich et al 2023][research_arvinshmilovich_yoramyadlin_2023_b]\] \[[Feldstein et al 2023][research_feldstein_uleck_2023]\] \[[Griffith and Faruque 2023][research_griffith_faruque_2023]\] \[[Hosseinverdi and Fasel 2023][research_hosseinverdi_fasel_2023]\] \[[Mallor et al 2023][research_mallor_semprinicesari_2023]\] \[[Anilir et al 2024][research_anilir_kurtulus_2024]\] \[[Chua and Liu 2024][research_chua_liu_2024]\] \[[Karpuk and Mosca 2024][research_karpuk_mosca_2024]\] \[[Active Flow Control 2025][research_active_flow_2025]\] \[[Chen et al 2025][research_chen_ballini_2025]\] \[[Frede and Gatti 2025][research_frede_gatti_2025]\] \[[Kalyankar et al 2025][research_kalyankar_urreiztieta_2025]\] \[[Mahns and Amitay 2025][research_mahns_amitay_2025]\] \[[Wang and Yang 2025][research_wang_yang_2025]\] \[[Yang et al 2025][research_yang_chen_2025]\] \[[Zhijie et al 2025][research_zhijie_taiyu_2025]\] \[[Ali et al 2026][research_ali_rasani_2026]\] \[[Ch et al 2026][research_ch_g_2026]\] \[[Tahir et al 2026][research_tahir_maqsood_2026]\] \[[Zhao et al 2026][research_zhao_luo_2026]\] \[[Aircraft laminar flow control][research_aircraft_laminar]\] \[[Chandra et al][research_chandra_madhan]\] \[[Graff et al][research_egraff_ewhalen]\] \[[Nielsen and Jones][research_ericjnielsen_williamtjones]\] \[[McFadden and Bons][research_evanjmcfadden_jeffreypbons]\] \[[Jones et al][research_gregorysjones_williamemilholenii]\] \[[Wygnanski][research_israelwygnanski]\] \[[Paschal et al][research_keithbpaschal_michaelakegerise_b]\] \[[Paschal et al][research_keithbpaschal_michaelakegerise]\] \[[Melton et al][research_latuniamelton_judithhannon]\] \[[Melton][research_latuniapmelton]\] \[[Melton et al][research_latuniapmelton_johnclin]\] \[[Melton et al][research_latuniapackmelton_mehtikoklu]\] \[[Melton et al][research_latuniapackmelton_mehtikoklu_b]\] \[[Madhan et al][research_madhan_rahel]\] \[[Andino et al][research_marlynandino_latuniamelton]\] \[[Andino et al][research_marlynandino_latuniapackmelton]\] \[[Andino et al][research_marlynyandino_latuniapackmelton]\] \[[Vijgen et al][research_paulvijgen_alexziebart]\] \[[Perrier][research_perrier]\] \[[Sarwar][research_sarwar]\] \[[Hosseini et al][research_seyedehsheidahosseini_cpvandam_b]\] \[[Hosseini et al][research_seyedehsheidahosseini_cpvandam_c]\] \[[Shaw et al][research_shaw_hidalgo]\] \[[Vatsa et al][research_veernvatsa_johnclin]\]
 
 ### Joined, tandem, diamond and tailless, and controlling them
 
-**366 records.** \[[Weick, Fred E and Sanders, Robert 1933][research_weickfrede_sandersrobert_1933]\] \[[Donlan, Charles J. 1944][research_donlancharlesj_1944]\] \[[Maggin, Bernard 1944][research_magginbernard_1944]\] \[[Seacord, Charles L. and Campbell, John P. 1945][research_seacordcharlesl_campbelljohnp_1945]\] \[[Weyl 1945][research_weyl_1945]\] \[[Soule, Hartley A 1946][research_soulehartleya_1946]\] \[[Sawyer, Richard H. and Trant, James P., Jr. 1947][research_sawyerrichardh_trantjamespjr_1947]\] \[[Hieser, Gerald and Whitcomb, Charles F 1948][research_hiesergerald_whitcombcharlesf_1948]\] \[[Cox et al 1949][research_cox_siddall_1949]\] \[[Johnson, Joseph L. 1949][research_johnsonjosephl_1949]\] \[[Sawyer, Richard H. and Trant, James P., Jr. 1950][research_sawyerrichardh_trantjamespjr_1950]\] \[[Mathews, Charles W and Kurbjun, Max C 1953][research_mathewscharlesw_kurbjunmaxc_1953]\] \[[Smith, W. G. 1953][research_smithwg_1953]\] \[[Mitcham, Grady L et al 1956][research_mitchamgradyl_stevensjosephe_1956]\] \[[White, Maurice D. and Innis, Robert C. 1959][research_whitemauriced_innisrobertc_1959]\] \[[Holdaway, George H. et al 1959][research_holdawaygeorgeh_mellenthinjacka_1959]\] \[[Holdaway, George H. and Mellenthin, Jack A. 1960][research_holdawaygeorgeh_mellenthinjacka_1960_c]\] \[[Holdaway, George H. and Mellenthin, Jack A. 1960][research_holdawaygeorgeh_mellenthinjacka_1960]\] \[[Holdaway, George H. and Mellenthin, Jack A. 1960][research_holdawaygeorgeh_mellenthinjacka_1960_b]\] \[[Harry and Trobaugh 1966][research_harry_trobaugh_1966]\] \[[Polhamus, E. C. 1971][research_polhamusec_1971]\] \[[Fox, C. H., Jr. and Freeman, D. C., Jr. 1971][research_foxchjr_freemandcjr_1971]\] \[[Donlan, C. J. and Kuhn, R. E. 1976][research_donlancj_kuhnre_1976]\] \[[Jernell, L. S. 1978][research_jernellls_1978]\] \[[Jernell, L. S. 1978][research_jernellls_1978_b]\] \[[Sears 1980][research_sears_1980]\] \[[Weil, J. 1981][research_weilj_1981]\] \[[Structural weight comparison of 1981][research_structural_weight_1981]\] \[[Samuels 1982][research_samuels_1982]\] \[[Nicholas, W. U. et al 1984][research_nicholaswu_navillegl_1984]\] \[[Clyde et al 1984][research_clyde_bonner_1984]\] \[[Wolkovitch, J. 1984][research_wolkovitchj_1984]\] \[[Moitra 1985][research_moitra_1985]\] \[[Covell, P. F. 1985][research_covellpf_1985]\] \[[Perkins 1985][research_perkins_1985]\] \[[Wolkovitch, J. 1985][research_wolkovitchj_1985]\] \[[Selberg and Cronin 1986][research_selberg_cronin_1986]\] \[[Hajela, P. and Chen, J. L. 1986][research_hajelap_chenjl_1986]\] \[[Wolkovitch, J. 1986][research_wolkovitchj_1986]\] \[[Van der Velden, Alexander J. M. 1987][research_vanderveldenalexanderjm_1987]\] \[[Smith, S. C. et al 1987][research_smithsc_cliffse_1987]\] \[[Miura, Hirokazu et al 1988][research_miurahirokazu_shyualbertt_1988]\] \[[Smith, Stephen C. and Stonum, Ronald K. 1989][research_smithstephenc_stonumronaldk_1989]\] \[[Ashkenas, Irving L. and Klyde, David H. 1989][research_ashkenasirvingl_klydedavidh_1989]\] \[[Vandervelden, Alexander J. M. 1989][research_vanderveldenalexanderjm_1989]\] \[[Gallman, John W. et al 1990][research_gallmanjohnw_smithstephenc_1990]\] \[[John W. Gallman et al 1990][research_johnwgallman_ilanmkroo_1990]\] \[[Kroo, Ilan et al 1991][research_krooilan_smithstephen_1991]\] \[[Guruswamy 1991][research_guruswamy_1991]\] \[[Burkhalter et al 1992][research_burkhalter_spring_1992]\] \[[Morris 1992][research_morris_1992]\] \[[Gallman, John W. and Kroo, Ilan M. 1992][research_gallmanjohnw_krooilanm_1992]\] \[[Simon et al 1993][research_simon_blake_1993]\] \[[Fremaux, C. M. et al 1993][research_fremauxcm_vairodm_1993]\] \[[NASA advanced design program 1993][research_nasa_advanced_1993]\] \[[Gallman et al 1993][research_gallman_smith_1993]\] \[[Qu and Cutchins 1994][research_qu_cutchins_1994]\] \[[Huber, Peter and Schellenger, Harvey G. 1994][research_huberpeter_schellengerharveyg_1994]\] \[[Huber 1995][research_huber_1995]\] \[[Ross, Holly M. et al 1995][research_rosshollym_fearsscottp_1995]\] \[[Bagwill and Selberg 1996][research_bagwill_selberg_1996]\] \[[Mullins, Jr. et al 1996][research_mullinsjr_tipton_1996]\] \[[Gallman and Kroo 1996][research_gallman_kroo_1996]\] \[[Bosworth, John T. and Stoliker, P. C. 1996][research_bosworthjohnt_stolikerpc_1996]\] \[[Friehmelt 1996][research_friehmelt_1996]\] \[[Bagwill et al 1997][research_bagwill_selberg_1997]\] \[[Potsdam et al 1997][research_potsdam_page_1997]\] \[[Gillard et al 1997][research_gillard_dorsett_1997]\] \[[Paul et al 1997][research_paul_garrard_1997]\] \[[Sparks and Sparks 1997][research_sparks_sparks_1997]\] \[[Cameron and Cameron 1997][research_cameron_cameron_1997]\] \[[Tournes et al 1997][research_tournes_shtessel_1997]\] \[[Tigner et al 1998][research_tigner_holden_1998]\] \[[Protz and Sparks 1998][research_protz_sparks_1998]\] \[[Liebeck et al 1998][research_liebeck_page_1998]\] \[[Michal, Todd R. 1998][research_michaltoddr_1998]\] \[[Myatt et al 1998][research_myatt_schumacher_1998]\] \[[Wakayama 1998][research_wakayama_1998]\] \[[Brinker and Wise 1998][research_brinker_wise_1998]\] \[[Buffington et al 1998][research_buffington_sparks_1998]\] \[[Wise et al 1999][research_wise_brinker_1999]\] \[[Barker and Balas 1999][research_barker_balas_1999]\] \[[Eberhardt and Ward 1999][research_eberhardt_ward_1999]\] \[[Clark and Gerhold 1999][research_clark_gerhold_1999]\] \[[Boskovic and Mehra 1999][research_boskovic_mehra_1999]\] \[[Brinker and Wise 1999][research_brinker_wise_1999]\] \[[PI control of a 1999][research_pi_control_1999]\] \[[Hauser 1999][research_hauser_1999]\] \[[Teel 1999][research_teel_1999]\] \[[Teel 1999][research_teel_1999_b]\] \[[Tournes and Johnson 1999][research_tournes_johnson_1999]\] \[[Shtessel et al 1999][research_shtessel_buffington_1999]\] \[[Roman et al 2000][research_roman_allen_2000]\] \[[Wakayama 2000][research_wakayama_2000]\] \[[Calise 2000][research_calise_2000]\] \[[Brinker and Wise 2000][research_brinker_wise_2000]\] \[[Ghee and Taylor 2000][research_ghee_taylor_2000]\] \[[Calise et al 2001][research_calise_lee_2001]\] \[[Qin 2002][research_qin_2002]\] \[[Tyler et al 2002][research_tyler_schwabacher_2002]\] \[[Liebeck 2002][research_liebeck_2002]\] \[[Nangia and Palmer 2002][research_nangia_palmer_2002]\] \[[Vos et al 2002][research_vos_brown_2002]\] \[[Wells, S. R. and Hess, R. A. 2002][research_wellssr_hessra_2002]\] \[[Granzeier 2002][research_granzeier_2002]\] \[[Ghaffari, F. et al 2002][research_ghaffarif_biedronrt_2002]\] \[[Gilmore et al 2002][research_gilmore_wakayama_2002]\] \[[Shtessel et al 2002][research_shtessel_buffington_2002]\] \[[Ghaffari, Farhad et al 2002][research_ghaffarifarhad_biedronrobertt_2002]\] \[[Sivaji et al 2003][research_sivaji_ghia_2003]\] \[[Roman et al 2003][research_roman_gilmore_2003]\] \[[Liebeck 2003][research_liebeck_2003]\] \[[Carlsson 2003][research_carlsson_2003]\] \[[Patil 2003][research_patil_2003]\] \[[Marisarla et al 2003][research_marisarla_narayanan_2003]\] \[[Smallwood et al 2003][research_smallwood_canfield_2003]\] \[[Nangia et al 2003][research_nangia_palmer_2003_b]\] \[[Nangia et al 2003][research_nangia_palmer_2003]\] \[[Reich et al 2004][research_reich_raveh_2004]\] \[[Rasmussen et al 2004][research_rasmussen_canfield_2004]\] \[[Pao, S. Paul et al 2004][research_paospaul_biedronrobertt_2004]\] \[[Hur et al 2004][research_hur_beran_2004]\] \[[Robinson 2004][research_robinson_2004]\] \[[Snyder et al 2005][research_snyder_hur_2005]\] \[[Carlsson 2005][research_carlsson_2005]\] \[[Campbell, Richard L. et al 2005][research_campbellrichardl_cartermelissab_2005]\] \[[Experimental research of the 2005][research_experimental_research_of_2005]\] \[[Iniguez de Heredia and Friehmelt 2005][research_iniguezdeheredia_friehmelt_2005]\] \[[Blair et al 2005][research_blair_canfield_2005]\] \[[Pao, S. Paul et al 2005][research_paospaul_biedronrobertt_2005]\] \[[Nangia et al 2005][research_nangia_palmer_2005]\] \[[Jung and Lowenberg 2005][research_jung_lowenberg_2005]\] \[[Kaloyanova et al 2005][research_kaloyanova_ghia_2005]\] \[[Kawai, Ronald T. et al 2006][research_kawaironaldt_friedmandouglasm_2006]\] \[[Boeing Phantom Works leading 2006][research_boeing_phantom_2006]\] \[[Peigin and Epstein 2006][research_peigin_epstein_2006]\] \[[Jackson, E. Bruce and Buttrill, c. W. 2006][research_jacksonebruce_buttrillcw_2006]\] \[[Carter, Melissa B. et al 2006][research_cartermelissab_campbellrichardl_2006]\] \[[Saephan and van Dam 2006][research_saephan_vandam_2006]\] \[[Rasmussen et al 2006][research_rasmussen_canfield_2006]\] \[[Kimler and Canfield 2006][research_kimler_canfield_2006]\] \[[Qin et al 2007][research_qin_wong_2007]\] \[[Pereira et al 2007][research_pereira_almeida_2007]\] \[[Suleman 2007][research_suleman_2007]\] \[[Ravindren et al 2007][research_ravindren_ghia_2007]\] \[[Nieto-Wire and Sobel 2007][research_nietowire_sobel_2007]\] \[[Ground testing of X-48B 2007][research_ground_testing_2007]\] \[[Park 2007][research_park_2007]\] \[[Wong et al 2007][research_wong_moigne_2007]\] \[[Lee et al 2007][research_lee_kim_2007]\] \[[Bond et al 2007][research_bond_canfield_2007]\] \[[Blair et al 2008][research_blair_robinson_2008]\] \[[LeDoux et al 2008][research_ledoux_vassberg_2008]\] \[[Oligney et al 2008][research_oligney_frash_2008]\] \[[Bond et al 2008][research_bond_canfield_2008_b]\] \[[Bond et al 2008][research_bond_canfield_2008_c]\] \[[Reichenbach 2008][research_reichenbach_2008]\] \[[Lee et al 2008][research_lee_byoungmunmin_2008]\] \[[Boeing flies blended wing 2008][research_boeing_flies_2008]\] \[[Colgren and Loschke 2008][research_colgren_loschke_2008]\] \[[Recktenwald and Ahmed 2008][research_recktenwald_ahmed_2008]\] \[[Liebeck 2008][research_liebeck_2008]\] \[[Carter et al 2008][research_carter_campbell_2008]\] \[[Dae-yeon Won and Tahk 2008][research_daeyeonwon_tahk_2008]\] \[[Trittler et al 2008][research_trittler_fichter_2008]\] \[[Ma et al 2008][research_ma_li_2008]\] \[[Bond et al 2008][research_bond_canfield_2008]\] \[[X-48B blended wing body 2008][research_x_48b_blended_2008]\] \[[Ferrar et al 2009][research_ferrar_obrien_2009]\] \[[Roy 2009][research_roy_2009]\] \[[Di Palma et al 2009][research_dipalma_paletta_2009]\] \[[Wildschek et al 2009][research_wildschek_havar_2009]\] \[[Mamla and Galinski 2009][research_mamla_galinski_2009]\] \[[Vicroy, Dan D. 2009][research_vicroydand_2009]\] \[[Carter, Melissa B. et al 2009][research_cartermelissab_vicroydand_2009]\] \[[Cuerno-Rejado et al 2009][research_cuernorejado_alonsoalbir_2009]\] \[[Stenfelt and Ringertz 2009][research_stenfelt_ringertz_2009]\] \[[Yue et al 2009][research_yue_wang_2009]\] \[[Sotoudeh and Hodges 2009][research_sotoudeh_hodges_2009]\] \[[Kim et al 2009][research_kim_park_2009]\] \[[Nieto-Wire and Sobel 2009][research_nietowire_sobel_2009]\] \[[Roy and Ghosh 2010][research_roy_ghosh_2010]\] \[[Buch and George M. 2010][research_buch_georgem_2010]\] \[[Velicki and Thrash 2010][research_velicki_thrash_2010]\] \[[Paranjape and Chung 2010][research_paranjape_chung_2010]\] \[[Zafirov 2010][research_zafirov_2010]\] \[[Bond et al 2010][research_bond_canfield_2010]\] \[[Chung et al 2010][research_chung_hallberg_2010]\] \[[Roysdon and Khalid 2010][research_roysdon_khalid_2010]\] \[[Westermayer et al 2010][research_westermayer_schirrer_2010]\] \[[Paletta et al 2010][research_paletta_belardo_2010]\] \[[Richards et al 2010][research_richards_suleman_2010]\] \[[Rahman and Whidborne 2010][research_rahman_whidborne_2010]\] \[[Goldthorpe et al 2010][research_goldthorpe_rossitto_2010]\] \[[Stenfelt and Ringertz 2010][research_stenfelt_ringertz_2010]\] \[[Scott, Robert C. et al 2011][research_scottrobertc_castellucciomarka_2011]\] \[[Qu et al 2011][research_qu_li_2011]\] \[[Roysdon and Khalid 2011][research_roysdon_khalid_2011]\] \[[Heeg, Jennifer and Morelli, Eugene A. 2011][research_heegjennifer_morellieugenea_2011]\] \[[Nieto-Wire and Sobel 2011][research_nietowire_sobel_2011]\] \[[Paranjape et al 2011][research_paranjape_chung_2011]\] \[[Peterson and Grant 2011][research_peterson_grant_2011]\] \[[Sotoudeh and Hodges 2011][research_sotoudeh_hodges_2011]\] \[[Ratnayake, Nalin A. et al 2011][research_ratnayakenalina_koshimotoedt_2011]\] \[[Jianghao et al 2011][research_jianghao_chenfang_2011]\] \[[Vicroy, Dan 2011][research_vicroydan_2011]\] \[[Ahn and Lee 2012][research_ahn_lee_2012]\] \[[Meheut et al 2012][research_meheut_arntz_2012]\] \[[Cusher and Gopalarathnam 2012][research_cusher_gopalarathnam_2012]\] \[[Ali et al 2012][research_ali_kuntjoro_2012]\] \[[Bond et al 2012][research_bond_canfield_2012]\] \[[Grauer, Jared A et al 2012][research_grauerjareda_heegjennifer_2012]\] \[[Demourant and Ferreres 2013][research_demourant_ferreres_2013]\] \[[Westermayer et al 2013][research_westermayer_schirrer_2013]\] \[[Zheng and Xu 2013][research_zheng_xu_2013]\] \[[Qu et al 2013][research_qu_li_2013]\] \[[Paulus et al 2013][research_paulus_wirth_2013]\] \[[Schirrer et al 2013][research_schirrer_kozek_2013]\] \[[Kucera and Hromčík 2013][research_kucera_hromcik_2013]\] \[[Nieto-Wire and Sobel 2013][research_nietowire_sobel_2013]\] \[[Zhang et al 2013][research_zhang_zhu_2013]\] \[[Vale J 2013][research_valej_2013]\] \[[Yue et al 2013][research_yue_wang_2013]\] \[[Brodsky and Luby 2013][research_brodsky_luby_2013]\] \[[Marques 2013][research_marques_2013]\] \[[From Tube and Wing 2013][research_from_tube_2013]\] \[[Wildschek et al 2013][research_wildschek_stroscher_2013]\] \[[Wildschek et al 2013][research_wildschek_hanis_2013]\] \[[Nasir and Kuntjoro 2013][research_nasir_kuntjoro_2013]\] \[[Haniš et al 2013][research_hanis_kucera_2013]\] \[[Suresh et al 2013][research_suresh_radhakrishnan_2013]\] \[[Cardoso et al 2013][research_cardoso_suleman_2013]\] \[[Stroscher et al 2013][research_stroscher_sika_2013]\] \[[Schirrer et al 2013][research_schirrer_westermayer_2013]\] \[[Zha, Gecheng et al 2013][research_zhagecheng_cattafestalouis_2013]\] \[[Papamoschou and Mayoral 2014][research_papamoschou_mayoral_2014]\] \[[Reist and Zingg 2014][research_reist_zingg_2014]\] \[[Gern, Frank et al 2014][research_gernfrank_vicroydand_2014]\] \[[Ammar and Trépanier 2014][research_ammar_trepanier_2014]\] \[[Wildschek 2014][research_wildschek_2014]\] \[[Jung Hoe and Nik Mohd 2014][research_junghoe_nikmohd_2014]\] \[[Guo et al 2014][research_guo_burley_2014]\] \[[Vale et al 2014][research_vale_afonso_2014]\] \[[Pires et al 2014][research_pires_madeira_2014]\] \[[Lemko and Molodchyk 2015][research_lemko_molodchyk_2015]\] \[[Yingsong et al 2015][research_yingsong_zhichun_2015]\] \[[Lambert et al 2015][research_lambert_cooper_2015]\] \[[Meckstroth and Blake 2015][research_meckstroth_blake_2015]\] \[[Saeed and Graham 2015][research_saeed_graham_2015]\] \[[Nasir et al 2015][research_nasir_mohamed_2015]\] \[[Sotoudeh 2015][research_sotoudeh_2015_b]\] \[[Sotoudeh 2015][research_sotoudeh_2015]\] \[[Denieul et al 2015][research_denieul_alazard_2015]\] \[[Modeling and Control for 2015][research_modeling_and_2015]\] \[[Boelens, Okko J. et al 2015][research_boelensokkoj_luckringjamesm_2015]\] \[[Guo et al 2015][research_guo_czech_2015]\] \[[Reist and Zingg 2015][research_reist_zingg_2015]\] \[[Suleman et al 2015][research_suleman_afonso_2015]\] \[[Molinari et al 2015][research_molinari_arrieta_2015]\] \[[Guo and Thomas 2015][research_guo_thomas_2015]\] \[[The aerodynamic and performance 2015][research_the_aerodynamic_and_2015]\] \[[The estimated available center 2015][research_the_estimated_available_2015]\] \[[Coulson, David A. and Scott, Robert C. 2015][research_coulsondavida_scottrobertc_2015]\] \[[Reist and Zingg 2016][research_reist_zingg_2016]\] \[[Teo et al 2016][research_teo_new_2016]\] \[[Torenbeek 2016][research_torenbeek_2016]\] \[[Lambert et al 2016][research_lambert_cooper_2016]\] \[[Johnston 2016][research_johnston_2016]\] \[[Singh et al 2016][research_singh_toropov_2016]\] \[[Park et al 2016][research_park_jo_2016]\] \[[Kalinowski 2017][research_kalinowski_2017_b]\] \[[Kalinowski 2017][research_kalinowski_2017]\] \[[Kumar and Khalid 2017][research_kumar_khalid_2017]\] \[[Abnous et al 2017][research_abnous_zheng_2017]\] \[[Su et al 2017][research_su_huang_2017]\] \[[Ahn et al 2017][research_ahn_kim_2017]\] \[[Park et al 2017][research_park_choi_2017]\] \[[Junlei et al 2017][research_junlei_zhou_2017]\] \[[Tan et al 2018][research_tan_ma_2018]\] \[[Brown and Vos 2018][research_brown_vos_2018]\] \[[Qian and Alonso 2018][research_qian_alonso_2018]\] \[[Buzica et al 2018][research_buzica_debschutz_2018]\] \[[Zhang et al 2018][research_zhang_zhou_2018]\] \[[Yang et al 2018][research_yang_zhiyong_2018]\] \[[Molinari et al 2018][research_molinari_arrieta_2018]\] \[[Vladimir et al 2018][research_vladimir_tun_2018]\] \[[Chen et al 2019][research_chen_sun_2019]\] \[[Wang et al 2019][research_wang_wan_2019]\] \[[P et al 2019][research_p_arokkiaswamy_2019]\] \[[Dimopoulos et al 2019][research_dimopoulos_panagiotou_2019]\] \[[Parisa et al 2020][research_parisa_adrien_2020]\] \[[Humphreys-Jennings et al 2020][research_humphreysjennings_lappas_2020]\] \[[Kumar et al 2020][research_kumar_mandal_2020]\] \[[Kitsios et al 2020][research_kitsios_dimopoulos_2020]\] \[[Li et al 2021][research_li_wan_2021]\] \[[Gao et al 2021][research_gao_yang_2021]\] \[[Bainsla et al 2021][research_bainsla_singari_2021]\] \[[Sherman et al 2021][research_sherman_tirona_2021]\] \[[Ruseno 2021][research_ruseno_2021]\] \[[Liu and Whidborne 2021][research_liu_whidborne_2021]\] \[[Qian and Alonso 2021][research_qian_alonso_2021]\] \[[Contreras-Torres et al 2022][research_contrerastorres_garciarodriguez_2022]\] \[[Meng et al 2022][research_meng_bi_2022]\] \[[Yang et al 2022][research_yang_zhong_2022]\] \[[DeLaurier 2022][research_delaurier_2022]\] \[[Okonkwo and Jemitola 2022][research_okonkwo_jemitola_2022]\] \[[Wang et al 2022][research_wang_tai_2022]\] \[[Scuderi 2022][research_scuderi_2022]\] \[[Miao et al 2022][research_miao_ma_2022]\] \[[Rossetti and Beblo 2022][research_rossetti_beblo_2022]\] \[[Zhao et al 2022][research_zhao_zhang_2022]\] \[[Fu et al 2022][research_fu_shi_2022]\] \[[Adamo 2023][research_adamo_2023]\] \[[Jackson 2023][research_jackson_2023]\] \[[Adler and Martins 2023][research_adler_martins_2023]\] \[[Kryvokhatko 2023][research_kryvokhatko_2023_b]\] \[[Flow Field Investigation of 2023][research_flow_field_2023]\] \[[Wang et al 2023][research_wang_zhou_2023]\] \[[Yu et al 2023][research_yu_li_2023]\] \[[Kryvokhatko 2023][research_kryvokhatko_2023]\] \[[Razon et al 2023][research_razon_maher_2023]\] \[[Wienke et al 2023][research_wienke_bertsch_2023]\] \[[He et al 2024][research_he_zhan_2024]\] \[[Dong et al 2024][research_dong_jia_2024]\] \[[Kryvokhatko 2024][research_kryvokhatko_2024_b]\] \[[Pellerito et al 2024][research_pellerito_mott_2024]\] \[[Sharma and Hosder 2024][research_sharma_hosder_2024]\] \[[Dong et al 2024][research_dong_jia_2024_b]\] \[[Kryvokhatko 2024][research_kryvokhatko_2024]\] \[[Li 2024][research_li_2024]\] \[[Fernandes and Maldonado 2024][research_fernandes_maldonado_2024]\] \[[Pandi and Kumar 2025][research_pandi_kumar_2025]\] \[[Bhowmick et al 2025][research_bhowmick_palanivel_2025]\] \[[Anwar 2025][research_anwar_2025]\] \[[Hansmann and Stumpf 2025][research_hansmann_stumpf_2025]\] \[[Ali et al 2025][research_ali_okasha_2025]\] \[[Kerr 2025][research_kerr_2025]\] \[[Dong et al 2025][research_dong_jia_2025]\] \[[Gupta and Khalid 2025][research_gupta_khalid_2025]\] \[[Jagtap et al 2025][research_jagtap_childs_2025]\] \[[Guo et al 2025][research_guo_wang_2025]\] \[[Luu 2025][research_luu_2025]\] \[[Saifuddin et al 2025][research_saifuddin_abdulmutaali_2025]\] \[[Pellerito et al 2025][research_pellerito_mott_2025]\] \[[Antoniou et al 2025][research_antoniou_antoniou_2025]\] \[[Xu and Yu 2025][research_xu_yu_2025]\] \[[Xu et al 2025][research_xu_song_2025]\] \[[Pérez Segura et al 2026][research_perezsegura_beltramo_2026]\] \[[Bhattarai et al 2026][research_bhattarai_bhandari_2026]\] \[[Buddhamatya et al 2026][research_buddhamatya_miranda_2026]\] \[[Hansmann and Stumpf 2026][research_hansmann_stumpf_2026]\] \[[Borodulin et al 2026][research_borodulin_kachanov_2026]\] \[[Li et al 2026][research_li_shu_2026]\] \[[Sinha 2026][research_sinha_2026]\] \[[Zou et al 2026][research_zou_zhen_2026]\] \[[Zhang and He 2026][research_zhang_he_2026]\] \[[Sparks][research_sparks]\] \[[Izquierdo][research_izquierdo]\] \[[Guiler][research_guiler]\] \[[Parello][research_parello]\] \[[Muñoz][research_munoz]\] \[[Robert C Scott][research_robertcscott]\] \[[Sgueglia][research_sgueglia]\] \[[Aubeelack][research_aubeelack]\] \[[Teo][research_teo]\] \[[Silva][research_silva]\]
+**The planform family.** Joined, tandem and diamond wings, blended wing bodies, flying wings and tailless aircraft, with their aerodynamics, structures, stability and control.
+
+**351 records.** \[[Weick and Sanders 1933][research_weickfrede_sandersrobert_1933]\] \[[Donlan 1944][research_donlancharlesj_1944]\] \[[Maggin 1944][research_magginbernard_1944]\] \[[Seacord and Campbell 1945][research_seacordcharlesl_campbelljohnp_1945]\] \[[Weyl 1945][research_weyl_1945]\] \[[Soule 1946][research_soulehartleya_1946]\] \[[Sawyer and Trant 1947][research_sawyerrichardh_trantjamespjr_1947]\] \[[Hieser and Whitcomb 1948][research_hiesergerald_whitcombcharlesf_1948]\] \[[Cox et al 1949][research_cox_siddall_1949]\] \[[Johnson 1949][research_johnsonjosephl_1949]\] \[[Sawyer and Trant 1950][research_sawyerrichardh_trantjamespjr_1950]\] \[[Mathews and Kurbjun 1953][research_mathewscharlesw_kurbjunmaxc_1953]\] \[[Smith 1953][research_smithwg_1953]\] \[[Mitcham et al 1956][research_mitchamgradyl_stevensjosephe_1956]\] \[[Holdaway et al 1959][research_holdawaygeorgeh_mellenthinjacka_1959]\] \[[White and Innis 1959][research_whitemauriced_innisrobertc_1959]\] \[[Holdaway and Mellenthin 1960][research_holdawaygeorgeh_mellenthinjacka_1960]\] \[[Holdaway and Mellenthin 1960][research_holdawaygeorgeh_mellenthinjacka_1960_b]\] \[[Holdaway and Mellenthin 1960][research_holdawaygeorgeh_mellenthinjacka_1960_c]\] \[[Harry and Trobaugh 1966][research_harry_trobaugh_1966]\] \[[Fox and Freeman 1971][research_foxchjr_freemandcjr_1971]\] \[[Polhamus 1971][research_polhamusec_1971]\] \[[Donlan and Kuhn 1976][research_donlancj_kuhnre_1976]\] \[[Jernell 1978][research_jernellls_1978]\] \[[Jernell 1978][research_jernellls_1978_b]\] \[[Sears 1980][research_sears_1980]\] \[[Structural weight comparison of 1981][research_structural_weight_1981]\] \[[Weil 1981][research_weilj_1981]\] \[[Samuels 1982][research_samuels_1982]\] \[[Clyde et al 1984][research_clyde_bonner_1984]\] \[[Nicholas et al 1984][research_nicholaswu_navillegl_1984]\] \[[Wolkovitch 1984][research_wolkovitchj_1984]\] \[[Covell 1985][research_covellpf_1985]\] \[[Moitra 1985][research_moitra_1985]\] \[[Perkins 1985][research_perkins_1985]\] \[[Wolkovitch 1985][research_wolkovitchj_1985]\] \[[Hajela and Chen 1986][research_hajelap_chenjl_1986]\] \[[Selberg and Cronin 1986][research_selberg_cronin_1986]\] \[[Wolkovitch 1986][research_wolkovitchj_1986]\] \[[Smith et al 1987][research_smithsc_cliffse_1987]\] \[[Van der Velden 1987][research_vanderveldenalexanderjm_1987]\] \[[Miura et al 1988][research_miurahirokazu_shyualbertt_1988]\] \[[Ashkenas and Klyde 1989][research_ashkenasirvingl_klydedavidh_1989]\] \[[Smith and Stonum 1989][research_smithstephenc_stonumronaldk_1989]\] \[[Vandervelden 1989][research_vanderveldenalexanderjm_1989]\] \[[Gallman et al 1990][research_gallmanjohnw_smithstephenc_1990]\] \[[Gallman et al 1990][research_johnwgallman_ilanmkroo_1990]\] \[[Guruswamy 1991][research_guruswamy_1991]\] \[[Kroo et al 1991][research_krooilan_smithstephen_1991]\] \[[Burkhalter et al 1992][research_burkhalter_spring_1992]\] \[[Gallman and Kroo 1992][research_gallmanjohnw_krooilanm_1992]\] \[[Morris 1992][research_morris_1992]\] \[[Fremaux et al 1993][research_fremauxcm_vairodm_1993]\] \[[Gallman et al 1993][research_gallman_smith_1993]\] \[[NASA advanced design program 1993][research_nasa_advanced_1993]\] \[[Simon et al 1993][research_simon_blake_1993]\] \[[Huber and Schellenger 1994][research_huberpeter_schellengerharveyg_1994]\] \[[Qu and Cutchins 1994][research_qu_cutchins_1994]\] \[[Huber 1995][research_huber_1995]\] \[[Ross et al 1995][research_rosshollym_fearsscottp_1995]\] \[[Bagwill and Selberg 1996][research_bagwill_selberg_1996]\] \[[Bosworth and Stoliker 1996][research_bosworthjohnt_stolikerpc_1996]\] \[[Friehmelt 1996][research_friehmelt_1996]\] \[[Gallman and Kroo 1996][research_gallman_kroo_1996]\] \[[Mullins et al 1996][research_mullinsjr_tipton_1996]\] \[[Bagwill et al 1997][research_bagwill_selberg_1997]\] \[[Cameron and Cameron 1997][research_cameron_cameron_1997]\] \[[Gillard et al 1997][research_gillard_dorsett_1997]\] \[[Paul et al 1997][research_paul_garrard_1997]\] \[[Potsdam et al 1997][research_potsdam_page_1997]\] \[[Sparks and Sparks 1997][research_sparks_sparks_1997]\] \[[Tournes et al 1997][research_tournes_shtessel_1997]\] \[[Brinker and Wise 1998][research_brinker_wise_1998]\] \[[Buffington et al 1998][research_buffington_sparks_1998]\] \[[Liebeck et al 1998][research_liebeck_page_1998]\] \[[Michal 1998][research_michaltoddr_1998]\] \[[Myatt et al 1998][research_myatt_schumacher_1998]\] \[[Protz and Sparks 1998][research_protz_sparks_1998]\] \[[Tigner et al 1998][research_tigner_holden_1998]\] \[[Wakayama 1998][research_wakayama_1998]\] \[[Barker and Balas 1999][research_barker_balas_1999]\] \[[Boskovic and Mehra 1999][research_boskovic_mehra_1999]\] \[[Brinker and Wise 1999][research_brinker_wise_1999]\] \[[Eberhardt and Ward 1999][research_eberhardt_ward_1999]\] \[[Hauser 1999][research_hauser_1999]\] \[[PI control of a 1999][research_pi_control_1999]\] \[[Shtessel et al 1999][research_shtessel_buffington_1999]\] \[[Teel 1999][research_teel_1999]\] \[[Teel 1999][research_teel_1999_b]\] \[[Tournes and Johnson 1999][research_tournes_johnson_1999]\] \[[Wise et al 1999][research_wise_brinker_1999]\] \[[Brinker and Wise 2000][research_brinker_wise_2000]\] \[[Calise 2000][research_calise_2000]\] \[[Ghee and Taylor 2000][research_ghee_taylor_2000]\] \[[Roman et al 2000][research_roman_allen_2000]\] \[[Wakayama 2000][research_wakayama_2000]\] \[[Calise et al 2001][research_calise_lee_2001]\] \[[Ghaffari et al 2002][research_ghaffarif_biedronrt_2002]\] \[[Ghaffari et al 2002][research_ghaffarifarhad_biedronrobertt_2002]\] \[[Gilmore et al 2002][research_gilmore_wakayama_2002]\] \[[Liebeck 2002][research_liebeck_2002]\] \[[Nangia and Palmer 2002][research_nangia_palmer_2002]\] \[[Qin 2002][research_qin_2002]\] \[[Shtessel et al 2002][research_shtessel_buffington_2002]\] \[[Tyler et al 2002][research_tyler_schwabacher_2002]\] \[[Vos et al 2002][research_vos_brown_2002]\] \[[Wells and Hess 2002][research_wellssr_hessra_2002]\] \[[Carlsson 2003][research_carlsson_2003]\] \[[Liebeck 2003][research_liebeck_2003]\] \[[Marisarla et al 2003][research_marisarla_narayanan_2003]\] \[[Nangia et al 2003][research_nangia_palmer_2003]\] \[[Nangia et al 2003][research_nangia_palmer_2003_b]\] \[[Patil 2003][research_patil_2003]\] \[[Roman et al 2003][research_roman_gilmore_2003]\] \[[Sivaji et al 2003][research_sivaji_ghia_2003]\] \[[Smallwood et al 2003][research_smallwood_canfield_2003]\] \[[Hur et al 2004][research_hur_beran_2004]\] \[[Pao et al 2004][research_paospaul_biedronrobertt_2004]\] \[[Rasmussen et al 2004][research_rasmussen_canfield_2004]\] \[[Reich et al 2004][research_reich_raveh_2004]\] \[[Robinson 2004][research_robinson_2004]\] \[[Blair et al 2005][research_blair_canfield_2005]\] \[[Campbell et al 2005][research_campbellrichardl_cartermelissab_2005]\] \[[Carlsson 2005][research_carlsson_2005]\] \[[Experimental research of the 2005][research_experimental_research_of_2005]\] \[[Iniguez de Heredia and Friehmelt 2005][research_iniguezdeheredia_friehmelt_2005]\] \[[Jung and Lowenberg 2005][research_jung_lowenberg_2005]\] \[[Kaloyanova et al 2005][research_kaloyanova_ghia_2005]\] \[[Nangia et al 2005][research_nangia_palmer_2005]\] \[[Pao et al 2005][research_paospaul_biedronrobertt_2005]\] \[[Snyder et al 2005][research_snyder_hur_2005]\] \[[Boeing Phantom Works leading 2006][research_boeing_phantom_2006]\] \[[Carter et al 2006][research_cartermelissab_campbellrichardl_2006]\] \[[Jackson and Buttrill 2006][research_jacksonebruce_buttrillcw_2006]\] \[[Kawai et al 2006][research_kawaironaldt_friedmandouglasm_2006]\] \[[Kimler and Canfield 2006][research_kimler_canfield_2006]\] \[[Peigin and Epstein 2006][research_peigin_epstein_2006]\] \[[Rasmussen et al 2006][research_rasmussen_canfield_2006]\] \[[Saephan and van Dam 2006][research_saephan_vandam_2006]\] \[[Bond et al 2007][research_bond_canfield_2007]\] \[[Ground testing of X-48B 2007][research_ground_testing_2007]\] \[[Lee et al 2007][research_lee_kim_2007]\] \[[Nieto-Wire and Sobel 2007][research_nietowire_sobel_2007]\] \[[Park 2007][research_park_2007]\] \[[Pereira et al 2007][research_pereira_almeida_2007]\] \[[Qin et al 2007][research_qin_wong_2007]\] \[[Ravindren et al 2007][research_ravindren_ghia_2007]\] \[[Suleman 2007][research_suleman_2007]\] \[[Wong et al 2007][research_wong_moigne_2007]\] \[[Blair et al 2008][research_blair_robinson_2008]\] \[[Boeing flies blended wing 2008][research_boeing_flies_2008]\] \[[Bond et al 2008][research_bond_canfield_2008]\] \[[Bond et al 2008][research_bond_canfield_2008_b]\] \[[Bond et al 2008][research_bond_canfield_2008_c]\] \[[Carter et al 2008][research_carter_campbell_2008]\] \[[Colgren and Loschke 2008][research_colgren_loschke_2008]\] \[[LeDoux et al 2008][research_ledoux_vassberg_2008]\] \[[Lee et al 2008][research_lee_byoungmunmin_2008]\] \[[Liebeck 2008][research_liebeck_2008]\] \[[Ma et al 2008][research_ma_li_2008]\] \[[Oligney et al 2008][research_oligney_frash_2008]\] \[[Recktenwald and Ahmed 2008][research_recktenwald_ahmed_2008]\] \[[Reichenbach 2008][research_reichenbach_2008]\] \[[Trittler et al 2008][research_trittler_fichter_2008]\] \[[X-48B blended wing body 2008][research_x_48b_blended_2008]\] \[[Carter et al 2009][research_cartermelissab_vicroydand_2009]\] \[[Cuerno-Rejado et al 2009][research_cuernorejado_alonsoalbir_2009]\] \[[Di Palma et al 2009][research_dipalma_paletta_2009]\] \[[Ferrar et al 2009][research_ferrar_obrien_2009]\] \[[Kim et al 2009][research_kim_park_2009]\] \[[Mamla and Galinski 2009][research_mamla_galinski_2009]\] \[[Nieto-Wire and Sobel 2009][research_nietowire_sobel_2009]\] \[[Roy 2009][research_roy_2009]\] \[[Sotoudeh and Hodges 2009][research_sotoudeh_hodges_2009]\] \[[Stenfelt and Ringertz 2009][research_stenfelt_ringertz_2009]\] \[[Vicroy 2009][research_vicroydand_2009]\] \[[Wildschek et al 2009][research_wildschek_havar_2009]\] \[[Yue et al 2009][research_yue_wang_2009]\] \[[Bond et al 2010][research_bond_canfield_2010]\] \[[Buch and George M. 2010][research_buch_georgem_2010]\] \[[Chung et al 2010][research_chung_hallberg_2010]\] \[[Goldthorpe et al 2010][research_goldthorpe_rossitto_2010]\] \[[Paletta et al 2010][research_paletta_belardo_2010]\] \[[Paranjape and Chung 2010][research_paranjape_chung_2010]\] \[[Rahman and Whidborne 2010][research_rahman_whidborne_2010]\] \[[Richards et al 2010][research_richards_suleman_2010]\] \[[Roy and Ghosh 2010][research_roy_ghosh_2010]\] \[[Roysdon and Khalid 2010][research_roysdon_khalid_2010]\] \[[Stenfelt and Ringertz 2010][research_stenfelt_ringertz_2010]\] \[[Velicki and Thrash 2010][research_velicki_thrash_2010]\] \[[Westermayer et al 2010][research_westermayer_schirrer_2010]\] \[[Zafirov 2010][research_zafirov_2010]\] \[[Heeg and Morelli 2011][research_heegjennifer_morellieugenea_2011]\] \[[Jianghao et al 2011][research_jianghao_chenfang_2011]\] \[[Nieto-Wire and Sobel 2011][research_nietowire_sobel_2011]\] \[[Paranjape et al 2011][research_paranjape_chung_2011]\] \[[Peterson and Grant 2011][research_peterson_grant_2011]\] \[[Qu et al 2011][research_qu_li_2011]\] \[[Ratnayake et al 2011][research_ratnayakenalina_koshimotoedt_2011]\] \[[Roysdon and Khalid 2011][research_roysdon_khalid_2011]\] \[[Scott et al 2011][research_scottrobertc_castellucciomarka_2011]\] \[[Sotoudeh and Hodges 2011][research_sotoudeh_hodges_2011]\] \[[Vicroy 2011][research_vicroydan_2011]\] \[[Ahn and Lee 2012][research_ahn_lee_2012]\] \[[Ali et al 2012][research_ali_kuntjoro_2012]\] \[[Bond et al 2012][research_bond_canfield_2012]\] \[[Cusher and Gopalarathnam 2012][research_cusher_gopalarathnam_2012]\] \[[Grauer et al 2012][research_grauerjareda_heegjennifer_2012]\] \[[Meheut et al 2012][research_meheut_arntz_2012]\] \[[Brodsky and Luby 2013][research_brodsky_luby_2013]\] \[[Cardoso et al 2013][research_cardoso_suleman_2013]\] \[[Demourant and Ferreres 2013][research_demourant_ferreres_2013]\] \[[From Tube and Wing 2013][research_from_tube_2013]\] \[[Haniš et al 2013][research_hanis_kucera_2013]\] \[[Kucera and Hromčík 2013][research_kucera_hromcik_2013]\] \[[Marques 2013][research_marques_2013]\] \[[Nasir and Kuntjoro 2013][research_nasir_kuntjoro_2013]\] \[[Nieto-Wire and Sobel 2013][research_nietowire_sobel_2013]\] \[[Paulus et al 2013][research_paulus_wirth_2013]\] \[[Qu et al 2013][research_qu_li_2013]\] \[[Schirrer et al 2013][research_schirrer_kozek_2013]\] \[[Schirrer et al 2013][research_schirrer_westermayer_2013]\] \[[Stroscher et al 2013][research_stroscher_sika_2013]\] \[[Suresh et al 2013][research_suresh_radhakrishnan_2013]\] \[[Vale J 2013][research_valej_2013]\] \[[Westermayer et al 2013][research_westermayer_schirrer_2013]\] \[[Wildschek et al 2013][research_wildschek_hanis_2013]\] \[[Wildschek et al 2013][research_wildschek_stroscher_2013]\] \[[Yue et al 2013][research_yue_wang_2013]\] \[[Zha et al 2013][research_zhagecheng_cattafestalouis_2013]\] \[[Zhang et al 2013][research_zhang_zhu_2013]\] \[[Zheng and Xu 2013][research_zheng_xu_2013]\] \[[Ammar and Trépanier 2014][research_ammar_trepanier_2014]\] \[[Gern et al 2014][research_gernfrank_vicroydand_2014]\] \[[Jung Hoe and Nik Mohd 2014][research_junghoe_nikmohd_2014]\] \[[Pires et al 2014][research_pires_madeira_2014]\] \[[Reist and Zingg 2014][research_reist_zingg_2014]\] \[[Vale et al 2014][research_vale_afonso_2014]\] \[[Wildschek 2014][research_wildschek_2014]\] \[[Boelens et al 2015][research_boelensokkoj_luckringjamesm_2015]\] \[[Coulson and Scott 2015][research_coulsondavida_scottrobertc_2015]\] \[[Denieul et al 2015][research_denieul_alazard_2015]\] \[[Lambert et al 2015][research_lambert_cooper_2015]\] \[[Lemko and Molodchyk 2015][research_lemko_molodchyk_2015]\] \[[Meckstroth and Blake 2015][research_meckstroth_blake_2015]\] \[[Modeling and Control for 2015][research_modeling_and_2015]\] \[[Molinari et al 2015][research_molinari_arrieta_2015]\] \[[Nasir et al 2015][research_nasir_mohamed_2015]\] \[[Reist and Zingg 2015][research_reist_zingg_2015]\] \[[Saeed and Graham 2015][research_saeed_graham_2015]\] \[[Sotoudeh 2015][research_sotoudeh_2015]\] \[[Sotoudeh 2015][research_sotoudeh_2015_b]\] \[[Suleman et al 2015][research_suleman_afonso_2015]\] \[[The aerodynamic and performance 2015][research_the_aerodynamic_and_2015]\] \[[The estimated available center 2015][research_the_estimated_available_2015]\] \[[Yingsong et al 2015][research_yingsong_zhichun_2015]\] \[[Johnston 2016][research_johnston_2016]\] \[[Lambert et al 2016][research_lambert_cooper_2016]\] \[[Park et al 2016][research_park_jo_2016]\] \[[Reist and Zingg 2016][research_reist_zingg_2016]\] \[[Singh et al 2016][research_singh_toropov_2016]\] \[[Teo et al 2016][research_teo_new_2016]\] \[[Torenbeek 2016][research_torenbeek_2016]\] \[[Abnous et al 2017][research_abnous_zheng_2017]\] \[[Ahn et al 2017][research_ahn_kim_2017]\] \[[Junlei et al 2017][research_junlei_zhou_2017]\] \[[Kalinowski 2017][research_kalinowski_2017]\] \[[Kalinowski 2017][research_kalinowski_2017_b]\] \[[Kumar and Khalid 2017][research_kumar_khalid_2017]\] \[[Park et al 2017][research_park_choi_2017]\] \[[Su et al 2017][research_su_huang_2017]\] \[[Brown and Vos 2018][research_brown_vos_2018]\] \[[Buzica et al 2018][research_buzica_debschutz_2018]\] \[[Molinari et al 2018][research_molinari_arrieta_2018]\] \[[Qian and Alonso 2018][research_qian_alonso_2018]\] \[[Tan et al 2018][research_tan_ma_2018]\] \[[Vladimir et al 2018][research_vladimir_tun_2018]\] \[[Yang et al 2018][research_yang_zhiyong_2018]\] \[[Zhang et al 2018][research_zhang_zhou_2018]\] \[[Chen et al 2019][research_chen_sun_2019]\] \[[Dimopoulos et al 2019][research_dimopoulos_panagiotou_2019]\] \[[Nishanth et al 2019][research_p_arokkiaswamy_2019]\] \[[Wang et al 2019][research_wang_wan_2019]\] \[[Humphreys-Jennings et al 2020][research_humphreysjennings_lappas_2020]\] \[[Kitsios et al 2020][research_kitsios_dimopoulos_2020]\] \[[Kumar et al 2020][research_kumar_mandal_2020]\] \[[Parisa et al 2020][research_parisa_adrien_2020]\] \[[Bainsla et al 2021][research_bainsla_singari_2021]\] \[[Gao et al 2021][research_gao_yang_2021]\] \[[Li et al 2021][research_li_wan_2021]\] \[[Liu and Whidborne 2021][research_liu_whidborne_2021]\] \[[Qian and Alonso 2021][research_qian_alonso_2021]\] \[[Ruseno 2021][research_ruseno_2021]\] \[[Sherman et al 2021][research_sherman_tirona_2021]\] \[[Contreras-Torres et al 2022][research_contrerastorres_garciarodriguez_2022]\] \[[DeLaurier 2022][research_delaurier_2022]\] \[[Fu et al 2022][research_fu_shi_2022]\] \[[Meng et al 2022][research_meng_bi_2022]\] \[[Miao et al 2022][research_miao_ma_2022]\] \[[Okonkwo and Jemitola 2022][research_okonkwo_jemitola_2022]\] \[[Rossetti and Beblo 2022][research_rossetti_beblo_2022]\] \[[Wang et al 2022][research_wang_tai_2022]\] \[[Yang et al 2022][research_yang_zhong_2022]\] \[[Zhao et al 2022][research_zhao_zhang_2022]\] \[[Adler and Martins 2023][research_adler_martins_2023]\] \[[Flow Field Investigation of 2023][research_flow_field_2023]\] \[[Jackson 2023][research_jackson_2023]\] \[[Kryvokhatko 2023][research_kryvokhatko_2023]\] \[[Kryvokhatko 2023][research_kryvokhatko_2023_b]\] \[[Razon et al 2023][research_razon_maher_2023]\] \[[Wang et al 2023][research_wang_zhou_2023]\] \[[Yu et al 2023][research_yu_li_2023]\] \[[Fernandes and Maldonado 2024][research_fernandes_maldonado_2024]\] \[[He et al 2024][research_he_zhan_2024]\] \[[Kryvokhatko 2024][research_kryvokhatko_2024]\] \[[Kryvokhatko 2024][research_kryvokhatko_2024_b]\] \[[Li 2024][research_li_2024]\] \[[Sharma and Hosder 2024][research_sharma_hosder_2024]\] \[[Ali et al 2025][research_ali_okasha_2025]\] \[[Antoniou et al 2025][research_antoniou_antoniou_2025]\] \[[Anwar 2025][research_anwar_2025]\] \[[Bhowmick et al 2025][research_bhowmick_palanivel_2025]\] \[[Guo et al 2025][research_guo_wang_2025]\] \[[Gupta and Khalid 2025][research_gupta_khalid_2025]\] \[[Hansmann and Stumpf 2025][research_hansmann_stumpf_2025]\] \[[Jagtap et al 2025][research_jagtap_childs_2025]\] \[[Kerr 2025][research_kerr_2025]\] \[[Luu 2025][research_luu_2025]\] \[[Pandi and Kumar 2025][research_pandi_kumar_2025]\] \[[Saifuddin et al 2025][research_saifuddin_abdulmutaali_2025]\] \[[Xu and Yu 2025][research_xu_yu_2025]\] \[[Xu et al 2025][research_xu_song_2025]\] \[[Bhattarai et al 2026][research_bhattarai_bhandari_2026]\] \[[Borodulin et al 2026][research_borodulin_kachanov_2026]\] \[[Buddhamatya et al 2026][research_buddhamatya_miranda_2026]\] \[[Hansmann and Stumpf 2026][research_hansmann_stumpf_2026]\] \[[Li et al 2026][research_li_shu_2026]\] \[[Pérez Segura et al 2026][research_perezsegura_beltramo_2026]\] \[[Sinha 2026][research_sinha_2026]\] \[[Zhang and He 2026][research_zhang_he_2026]\] \[[Zou et al 2026][research_zou_zhen_2026]\] \[[Aubeelack][research_aubeelack]\] \[[Guiler][research_guiler]\] \[[Izquierdo][research_izquierdo]\] \[[Muñoz][research_munoz]\] \[[Parello][research_parello]\] \[[Scott][research_robertcscott]\] \[[Sgueglia][research_sgueglia]\] \[[Silva][research_silva]\] \[[Sparks][research_sparks]\] \[[Teo][research_teo]\]
 
 ### The mechanical control system this aircraft proposes to delete
 
-**96 records.** \[[Strass, H Kurt 1945][research_strasshkurt_1945]\] \[[Stone, Ralph W, Jr and Burk, Sanger M, Jr 1947][research_stoneralphwjr_burksangermjr_1947]\] \[[Jones, Arthur L and Sluder, Loma 1948][research_jonesarthurl_sluderloma_1948]\] \[[Kolbe, Carl D and Tinling, Bruce E 1948][research_kolbecarld_tinlingbrucee_1948]\] \[[Thompson, Robert F 1954][research_thompsonrobertf_1954]\] \[[Jenkins, J. M. et al 1968][research_jenkinsjm_pearsongpe_1968]\] \[[Rinde 1969][research_rinde_1969]\] \[[Edwards, J. W. 1972][research_edwardsjw_1972]\] \[[Bergmann and Sevart 1973][research_bergmann_sevart_1973]\] \[[Tang, M. H. and Pearson, G. P. E. 1973][research_tangmh_pearsongpe_1973]\] \[[Bergmann and Sevart 1975][research_bergmann_sevart_1975]\] \[[Quiet Clean Short-haul Experimental 1976][research_quiet_clean_1976]\] \[[Chenoweth, C. C. and Ryder, D. R. 1976][research_chenowethcc_ryderdr_1976]\] \[[Feucht et al 1978][research_feucht_presley_1978]\] \[[Demarchi and Haning 1978][research_demarchi_haning_1978]\] \[[Jenney 1979][research_jenney_1979]\] \[[Kohnhorst and Magnacca 1980][research_kohnhorst_magnacca_1980]\] \[[Jenney 1980][research_jenney_1980]\] \[[Robinson 1980][research_robinson_1980]\] \[[Gerhard Geller and Carl D Lamb 1981][research_gerhardgeller_carldlamb_1981]\] \[[Kineyko 1982][research_kineyko_1982]\] \[[Belmont 1983][research_belmont_1983]\] \[[Thompson and Eitenmiller 1983][research_thompson_eitenmiller_1983]\] \[[Jenney and Schreadley 1984][research_jenney_schreadley_1984]\] \[[Design and test of 1984][research_design_and_1984]\] \[[Hornyak, S. 1984][research_hornyaks_1984]\] \[[Garrett Division Developing Advanced 1986][research_garrett_division_1986]\] \[[Defeo, P. and Chen, M. 1987][research_defeop_chenm_1987]\] \[[Hair 1987][research_hair_1987]\] \[[Korte, John J. 1990][research_kortejohnj_1990]\] \[[Korte 1991][research_korte_1991]\] \[[Vieten 1992][research_vieten_1992]\] \[[Cowan, J. R. and Weir, Rae Ann 1993][research_cowanjr_weirraeann_1993]\] \[[Weir, Rae A. and Cowan, John R. 1993][research_weirraea_cowanjohnr_1993]\] \[[Alden 1993][research_alden_1993]\] \[[Jategaonkar 1993][research_jategaonkar_1993]\] \[[Robert Navarro 1997][research_robertnavarro_1997]\] \[[Oz 1998][research_oz_1998]\] \[[Churn et al 1998][research_churn_maxwell_1998]\] \[[Appa et al 1998][research_appa_ausman_1998]\] \[[Atallah 1999][research_atallah_1999_b]\] \[[Atallah 1999][research_atallah_1999]\] \[[Cossar 1999][research_cossar_1999]\] \[[Jensen, Stephen C. et al 2000][research_jensenstephenc_jenneygavind_2000]\] \[[Contracts for aircraft actuation 2001][research_contracts_for_2001]\] \[[Wingett, Paul T. et al 2004][research_wingettpault_gaineslouiet_2004]\] \[[Chen et al 2006][research_chen_wickramasinghe_2006]\] \[[Wingett, Paul T. et al 2006][research_wingettpault_gaineslouiet_2006]\] \[[Wei 2006][research_wei_2006]\] \[[Schallert 2007][research_schallert_2007]\] \[[Celmins 2007][research_celmins_2007]\] \[[M and Das 2007][research_m_das_2007]\] \[[McWade, Robert J. et al 2010][research_mcwaderobertj_minorrobertb_2010]\] \[[S. and M. 2011][research_s_m_2011]\] \[[Laxminarayana et al 2011][research_laxminarayana_tarakalyani_2011]\] \[[Shi et al 2015][research_shi_wang_2015]\] \[[Cui et al 2015][research_cui_wang_2015]\] \[[Garmendia et al 2015][research_garmendia_chakraborty_2015]\] \[[Li et al 2016][research_li_yu_2016]\] \[[Wang et al 2016][research_wang_wang_2016_b]\] \[[Chu et al 2016][research_chu_guo_2016]\] \[[Gaile and Lue 2016][research_gaile_lue_2016]\] \[[Miller, Eric J. et al 2016][research_millerericj_cruzjosue_2016]\] \[[Fu et al 2016][research_fu_mare_2016]\] \[[Joshi et al 2016][research_joshi_vyas_2016]\] \[[Yu et al 2016][research_yu_zhang_2016]\] \[[Wang et al 2017][research_wang_shi_2017]\] \[[Wang et al 2017][research_wang_liao_2017]\] \[[Şener Kaya and Zeki Bilgin 2018][research_senerkaya_zekibilgin_2018]\] \[[Bo Yu et al 2018][research_boyu_shuaiwu_2018]\] \[[Xiaozhe Sun et al 2018][research_xiaozhesun_zhenshuyang_2018]\] \[[Ijaz et al 2019][research_ijaz_yan_2019]\] \[[Ijaz et al 2019][research_ijaz_hamayun_2019_b]\] \[[Ijaz et al 2019][research_ijaz_hamayun_2019]\] \[[Zhou et al 2019][research_zhou_zhang_2019]\] \[[Sun et al 2020][research_sun_wang_2020]\] \[[Shaoheng 2021][research_shaoheng_2021]\] \[[Wang et al 2022][research_wang_fan_2022]\] \[[Ercan and Akın 2022][research_ercan_akin_2022]\] \[[Eid et al 2023][research_eid_clerc_2023]\] \[[He et al 2024][research_he_holzapfel_2024]\] \[[Wang et al 2024][research_wang_zhang_2024]\] \[[Sun et al 2025][research_sun_gui_2025]\] \[[Bao et al 2025][research_bao_li_2025]\] \[[Flight Control Actuation Systems 2025][research_flight_control_2025]\] \[[Aerospace - Flight Control][research_aerospace]\] \[[Aerospace Fluid Power and][research_aerospace_fluid]\] \[[Aircraft Flight Control Actuation][research_aircraft_flight]\] \[[Description of Actuation Systems][research_description_of]\] \[[Development Process - Aerospace][research_development_process]\] \[[Electrohydrostatic Actuator Applications on][research_electrohydrostatic_actuator]\] \[[Flight Control Actuators][research_flight_control]\] \[[Historical Design Information of][research_historical_design]\] \[[Primary Flight Control Hydraulic][research_primary_flight]\] \[[Hisseine][research_hisseine]\] \[[Specification for Design and][research_specification_for]\]
+**What the effectors would replace.** Hydraulic, electrohydrostatic and electromechanical flight control actuation, hinge moments, and the effectiveness of the conventional surfaces a jet must match.
+
+**87 records.** \[[Strass 1945][research_strasshkurt_1945]\] \[[Stone and Burk 1947][research_stoneralphwjr_burksangermjr_1947]\] \[[Jones and Sluder 1948][research_jonesarthurl_sluderloma_1948]\] \[[Kolbe and Tinling 1948][research_kolbecarld_tinlingbrucee_1948]\] \[[Thompson 1954][research_thompsonrobertf_1954]\] \[[Wong 1957][research_wongnormand_1957]\] \[[Fournier 1959][research_fournierpaulg_1959]\] \[[Jenkins et al 1968][research_jenkinsjm_pearsongpe_1968]\] \[[Rinde 1969][research_rinde_1969]\] \[[Edwards 1972][research_edwardsjw_1972]\] \[[Bergmann and Sevart 1973][research_bergmann_sevart_1973]\] \[[Tang and Pearson 1973][research_tangmh_pearsongpe_1973]\] \[[Bergmann and Sevart 1975][research_bergmann_sevart_1975]\] \[[Chenoweth and Ryder 1976][research_chenowethcc_ryderdr_1976]\] \[[Demarchi and Haning 1978][research_demarchi_haning_1978]\] \[[Feucht et al 1978][research_feucht_presley_1978]\] \[[Jenney 1979][research_jenney_1979]\] \[[Jenney 1980][research_jenney_1980]\] \[[Kohnhorst and Magnacca 1980][research_kohnhorst_magnacca_1980]\] \[[Robinson 1980][research_robinson_1980]\] \[[Kineyko 1982][research_kineyko_1982]\] \[[Belmont 1983][research_belmont_1983]\] \[[Thompson and Eitenmiller 1983][research_thompson_eitenmiller_1983]\] \[[Design and test of 1984][research_design_and_1984]\] \[[Hornyak 1984][research_hornyaks_1984]\] \[[Jenney and Schreadley 1984][research_jenney_schreadley_1984]\] \[[Garrett Division Developing Advanced 1986][research_garrett_division_1986]\] \[[Defeo and Chen 1987][research_defeop_chenm_1987]\] \[[Hair 1987][research_hair_1987]\] \[[Vieten 1992][research_vieten_1992]\] \[[Alden 1993][research_alden_1993]\] \[[Jategaonkar 1993][research_jategaonkar_1993]\] \[[Navarro 1997][research_robertnavarro_1997]\] \[[Appa et al 1998][research_appa_ausman_1998]\] \[[Churn et al 1998][research_churn_maxwell_1998]\] \[[Oz 1998][research_oz_1998]\] \[[Atallah 1999][research_atallah_1999]\] \[[Atallah 1999][research_atallah_1999_b]\] \[[Cossar 1999][research_cossar_1999]\] \[[Jensen et al 2000][research_jensenstephenc_jenneygavind_2000]\] \[[Contracts for aircraft actuation 2001][research_contracts_for_2001]\] \[[Wingett et al 2004][research_wingettpault_gaineslouiet_2004]\] \[[Chen et al 2006][research_chen_wickramasinghe_2006]\] \[[Wei 2006][research_wei_2006]\] \[[Wingett et al 2006][research_wingettpault_gaineslouiet_2006]\] \[[Celmins 2007][research_celmins_2007]\] \[[Jayakumar and Das 2007][research_m_das_2007]\] \[[Schallert 2007][research_schallert_2007]\] \[[Laxminarayana et al 2011][research_laxminarayana_tarakalyani_2011]\] \[[Curt and Norman 2011][research_s_m_2011]\] \[[Cui et al 2015][research_cui_wang_2015]\] \[[Garmendia et al 2015][research_garmendia_chakraborty_2015]\] \[[Shi et al 2015][research_shi_wang_2015]\] \[[Fu et al 2016][research_fu_mare_2016]\] \[[Gaile and Lue 2016][research_gaile_lue_2016]\] \[[Joshi et al 2016][research_joshi_vyas_2016]\] \[[Li et al 2016][research_li_yu_2016]\] \[[Miller et al 2016][research_millerericj_cruzjosue_2016]\] \[[Wang et al 2016][research_wang_wang_2016_b]\] \[[Yu et al 2016][research_yu_zhang_2016]\] \[[Wang et al 2017][research_wang_liao_2017]\] \[[Wang et al 2017][research_wang_shi_2017]\] \[[Bo Yu et al 2018][research_boyu_shuaiwu_2018]\] \[[Xiaozhe Sun et al 2018][research_xiaozhesun_zhenshuyang_2018]\] \[[Şener Kaya and Zeki Bilgin 2018][research_senerkaya_zekibilgin_2018]\] \[[Ijaz et al 2019][research_ijaz_hamayun_2019]\] \[[Ijaz et al 2019][research_ijaz_hamayun_2019_b]\] \[[Ijaz et al 2019][research_ijaz_yan_2019]\] \[[Zhou et al 2019][research_zhou_zhang_2019]\] \[[Sun et al 2020][research_sun_wang_2020]\] \[[Ercan and Akın 2022][research_ercan_akin_2022]\] \[[Wang et al 2022][research_wang_fan_2022]\] \[[Eid et al 2023][research_eid_clerc_2023]\] \[[He et al 2024][research_he_holzapfel_2024]\] \[[Wang et al 2024][research_wang_zhang_2024]\] \[[Bao et al 2025][research_bao_li_2025]\] \[[Flight Control Actuation Systems 2025][research_flight_control_2025]\] \[[Sun et al 2025][research_sun_gui_2025]\] \[[Aerospace - Flight Control][research_aerospace]\] \[[Aircraft Flight Control Actuation][research_aircraft_flight]\] \[[Description of Actuation Systems][research_description_of]\] \[[Development Process - Aerospace][research_development_process]\] \[[Electrohydrostatic Actuator Applications on][research_electrohydrostatic_actuator]\] \[[Flight Control Actuators][research_flight_control]\] \[[Hisseine][research_hisseine]\] \[[Historical Design Information of][research_historical_design]\] \[[Primary Flight Control Hydraulic][research_primary_flight]\]
 
 ### Identifying an aircraft from its own flight data
 
-**197 records.** \[[Symington 1940][research_symington_1940]\] \[[Rice 1946][research_rice_1946]\] \[[Pegg, Robert J. 1962][research_peggrobertj_1962]\] \[[Godwin et al 1964][research_godwin_frazier_1964]\] \[[Nagel and Thomas 1965][research_nagel_thomas_1965]\] \[[Jones 1970][research_jones_1970]\] \[[Flight Test Results Pertaining 1970][research_flight_test_1970]\] \[[Kisslinger and Vetsch 1971][research_kisslinger_vetsch_1971]\] \[[Mehra, R. K. et al 1972][research_mehrark_stepnerde_1972]\] \[[Parrish, R. V. and Steinmetz, G. G. 1972][research_parrishrv_steinmetzgg_1972]\] \[[Steinmetz, G. G. et al 1972][research_steinmetzgg_parrishrv_1972]\] \[[Simpson 1972][research_simpson_1972]\] \[[Wilcox, F. A. 1973][research_wilcoxfa_1973]\] \[[Wolowicz, C. H. and Yancey, R. B. 1973][research_wolowiczch_yanceyrb_1973]\] \[[Lyons, M. G. et al 1973][research_lyonsmg_vepar_1973]\] \[[Heffley, R. K. et al 1974][research_heffleyrk_staplefordrl_1974]\] \[[Widnall and Grundy 1974][research_widnall_grundy_1974]\] \[[Stepner, D. E. and Mehra, R. K. 1974][research_stepnerde_mehrark_1974]\] \[[Air Force Flight Test Center Edwards Afb Ca 1974][research_airforceflighttestcenteredwardsafbca_1974]\] \[[Nicolaides 1976][research_nicolaides_1976]\] \[[Burton and Bischoff 1976][research_burton_bischoff_1976]\] \[[Rezy, B. J. 1976][research_rezybj_1976]\] \[[Stein, G. et al 1977][research_steing_hartmanngl_1977]\] \[[Armstrong 1977][research_armstrong_1977]\] \[[Jenks, G. E. et al 1977][research_jenksge_henryhf_1977]\] \[[Tomaine, R. L. et al 1978][research_tomainerl_bryantwh_1978]\] \[[Redd, L. T. et al 1979][research_reddlt_hansonpw_1979]\] \[[Wernicke, K. G. and Magee, J. P. 1979][research_wernickekg_mageejp_1979]\] \[[Wells et al 1981][research_wells_banda_1981]\] \[[Hartmann, G. L. and Stein, G. 1981][research_hartmanngl_steing_1981]\] \[[Petersen, K. L. 1981][research_petersenkl_1981]\] \[[Miley et al 1981][research_miley_crossjr_1981]\] \[[Edwards, J. W. 1981][research_edwardsjw_1981]\] \[[Vincent and Franklin 1981][research_vincent_franklin_1981]\] \[[Iliff, K. W. and Maine, R. E. 1982][research_iliffkw_mainere_1982]\] \[[Compton, H. R. et al 1982][research_comptonhr_scallionwi_1982]\] \[[Stewart, J. F. and Bauer, C. A. 1983][research_stewartjf_bauerca_1983]\] \[[Toles, R. D. and Anderson, D. C. 1983][research_tolesrd_andersondc_1983]\] \[[Trankle, T. L. and Rabin, U. H. 1983][research_trankletl_rabinuh_1983]\] \[[Edwards 1983][research_edwards_1983]\] \[[Rosenberg and Schuch 1983][research_rosenberg_schuch_1983]\] \[[Iliff, K. W. and Maine, R. E. 1983][research_iliffkw_mainere_1983]\] \[[Advisory Group for Aerospace Research and Development 1984][research_advisorygroupforaerospaceresearchanddevelopment_1984]\] \[[Myers, L. P. and Burcham, F. W., Jr. 1984][research_myerslp_burchamfwjr_1984]\] \[[Anderson and Vincent 1985][research_anderson_vincent_1985]\] \[[Erickson, R. E. et al 1986][research_ericksonre_crossjl_1986]\] \[[Deets, D. A. and Brown, L. E. 1986][research_deetsda_brownle_1986]\] \[[Sefic, W. J. and Maxwell, C. M. 1986][research_seficwj_maxwellcm_1986]\] \[[Dowden, Donald J. and Bessette, Denis E. 1987][research_dowdendonaldj_bessettedenise_1987]\] \[[Meyer, Robert R. et al 1987][research_meyerrobertr_trujillobiancam_1987]\] \[[Brown, Philip W. 1987][research_brownphilipw_1987]\] \[[Hicks, John W. et al 1987][research_hicksjohnw_cooperjamesmjr_1987]\] \[[Gilbert, Michael G. 1987][research_gilbertmichaelg_1987]\] \[[Runyan, L. Jim et al 1987][research_runyanljim_bielakgw_1987]\] \[[Mulder 1988][research_mulder_1988]\] \[[Plaetschke and Weiss 1988][research_plaetschke_weiss_1988]\] \[[Siddiqi and Abraham 1988][research_siddiqi_abraham_1988]\] \[[Davis, Richard E. et al 1989][research_davisricharde_maddalondalv_1989]\] \[[Iliff, Kenneth W. 1989][research_iliffkennethw_1989]\] \[[Maine et al 1990][research_maine_gilyard_1990]\] \[[Shi Zhong-ke 1990][research_shizhongke_1990]\] \[[Van Graas, Frank and Braasch, Michael S. 1991][research_vangraasfrank_braaschmichaels_1991]\] \[[Vangraas, Frank and Braasch, Michael 1991][research_vangraasfrank_braaschmichael_1991]\] \[[Wierzbanowski, Theodore and Armstrong, Johnny G. 1991][research_wierzbanowskitheodore_armstrongjohnnyg_1991]\] \[[Sheryll Goecke Powers et al 1992][research_sheryllgoeckepowers_lanniedwebb_1992]\] \[[Van Graas, Frank and Braasch, Michael 1992][research_vangraasfrank_braaschmichael_1992]\] \[[Manning et al 1992][research_manning_baum_1992]\] \[[Morgenfeld 1992][research_morgenfeld_1992]\] \[[Napolitano, Marcello R. and Spagnuolo, Joelle M. 1993][research_napolitanomarcellor_spagnuolojoellem_1993]\] \[[Brennan and McDaniel 1994][research_brennan_mcdaniel_1994]\] \[[Maine, Trindel et al 1994][research_mainetrindel_burkenjohn_1994]\] \[[Anna, Paul D. and Kidman, David S. 1994][research_annapauld_kidmandavids_1994]\] \[[Kong, Jeffrey 1994][research_kongjeffrey_1994]\] \[[Zwerneman, W. D. and Eller, B. G. 1994][research_zwernemanwd_ellerbg_1994]\] \[[Canter and Groves 1994][research_canter_groves_1994]\] \[[Maine, Trindel A. et al 1995][research_mainetrindela_burchamfrankwjr_1995]\] \[[Traven and Whitley 1995][research_traven_whitley_1995]\] \[[Morelli, Eugene A. 1995][research_morellieugenea_1995]\] \[[Schkolnik, Gerard S. et al 1995][research_schkolnikgerards_ormejohns_1995]\] \[[Tischler, Mark B. 1995][research_tischlermarkb_1995]\] \[[Murphy, Patrick C. 1996][research_murphypatrickc_1996]\] \[[Hamel and Jategaonkar 1996][research_hamel_jategaonkar_1996]\] \[[Williamson et al 1996][research_williamson_barry_1996]\] \[[Fisher, David et al 1996][research_fisherdavid_thomasflinto_1996]\] \[[Batterson, James G. and Morelli, E. A. 1996][research_battersonjamesg_morelliea_1996]\] \[[Morelli, Eugene A. 1996][research_morellieugenea_1996]\] \[[Morelli, Eugene A. 1998][research_morellieugenea_1998]\] \[[Patrick C Murphy 1999][research_patrickcmurphy_1999]\] \[[Chen and Valasek 1999][research_chen_valasek_1999]\] \[[Advisory Group for Aerospace Research and Development 1999][research_advisorygroupforaerospaceresearchanddevelopment_1999]\] \[[Mukhopadhyay, Vivek 1999][research_mukhopadhyayvivek_1999_b]\] \[[Mukhopadhyay, Vivek 1999][research_mukhopadhyayvivek_1999]\] \[[Saraswathi 2000][research_saraswathi_2000]\] \[[Ghosh and Raisinghani 2000][research_ghosh_raisinghani_2000]\] \[[Ghosh et al 2000][research_ghosh_raisinghani_2000_b]\] \[[Moes, Timothy R. et al 2000][research_moestimothyr_noffzgregoryk_2000]\] \[[Milne et al 2001][research_milne_soijer_2001]\] \[[Napolitano et al 2001][research_napolitano_song_2001]\] \[[Ray, Ronald J. et al 2002][research_rayronaldj_cobleighbrentr_2002]\] \[[Moes, Timothy R. and Iliff, Kenneth 2002][research_moestimothyr_iliffkenneth_2002]\] \[[Morelli, Eugene A. 2002][research_morellieugenea_2002]\] \[[Newsom, Jerry R. et al 2003][research_newsomjerryr_robertshawharryh_2003]\] \[[Hageman, Jacob J. et al 2003][research_hagemanjacobj_smithmarks_2003]\] \[[Longitudinal Control And Trim 2003][research_longitudinal_control_2003]\] \[[Smith, Mark S. et al 2003][research_smithmarks_moestimothyr_2003]\] \[[Static Longitudinal Stability Flight 2003][research_static_longitudinal_2003]\] \[[Mueller et al 2004][research_mueller_paluszek_2004]\] \[[Stachowiak, Susan J. and Bosworth, John T. 2004][research_stachowiaksusanj_bosworthjohnt_2004]\] \[[Williams-Hayes, Peggy S. 2004][research_williamshayespeggys_2004]\] \[[Klyde et al 2004][research_klyde_harris_2004]\] \[[Burken, John J. 2005][research_burkenjohnj_2005]\] \[[Morelli, Eugene A. et al 2005][research_morellieugenea_derrystephend_2005]\] \[[Jategaonkar 2005][research_jategaonkar_2005]\] \[[Chowdhary and Jategaonkar 2006][research_chowdhary_jategaonkar_2006]\] \[[Sarigul-Klijn and Huber 2006][research_sarigulklijn_huber_2006]\] \[[Kukreja, Sunil L. 2007][research_kukrejasunill_2007]\] \[[Dibley, Ryan P. et al 2007][research_dibleyryanp_allenmichaelj_2007]\] \[[Marwaha et al 2008][research_marwaha_valasek_2008]\] \[[Gangsaas et al 2008][research_gangsaas_hodgkinson_2008]\] \[[Kukreja 2008][research_kukreja_2008]\] \[[Kukreja, Sunil L. 2008][research_kukrejasunill_2008]\] \[[Murphy, Patrick C. and Klein, Vladislav 2008][research_murphypatrickc_kleinvladislav_2008]\] \[[Han et al 2009][research_han_kim_2009]\] \[[Hall, Jeffery L. et al 2009][research_halljefferyl_paukenmichaelt_2009]\] \[[Shin et al 2009][research_shin_harden_2009]\] \[[DeBusk et al 2009][research_debusk_johnson_2009]\] \[[Burken, John J. and Larson, Richard R. 2009][research_burkenjohnj_larsonrichardr_2009]\] \[[Taylor, Brian R. 2009][research_taylorbrianr_2009]\] \[[Murphy, Patrick C. and Klein, Vladislav 2010][research_murphypatrickc_kleinvladislav_2010]\] \[[Moua, Cheng 2010][research_mouacheng_2010]\] \[[Bachelder et al 2011][research_bachelder_thompson_2011]\] \[[McCracken and Jorris 2011][research_mccracken_jorris_2011]\] \[[Silva 2011][research_silva_2011]\] \[[Cazes et al 2011][research_cazes_mailhes_2011]\] \[[Gregory, Irene M. et al 2011][research_gregoryirenem_xargayenric_2011]\] \[[Martos, Borja et al 2011][research_martosborja_kiszelypaul_2011]\] \[[Gregory, Irene M. et al 2011][research_gregoryirenem_xargayenric_2011_b]\] \[[Taylor 2012][research_taylor_2012]\] \[[Development of a Continuous 2012][research_development_of_2012]\] \[[Londono and Leonhardt 2012][research_londono_leonhardt_2012]\] \[[Brown, Nelson 2012][research_brownnelson_2012]\] \[[Giordano de Oliveira Silva and Moennich 2012][research_giordanodeoliveirasilva_moennich_2012]\] \[[Siu, Marie-Michele et al 2013][research_siumariemichele_martosborja_2013]\] \[[Brown, Nelson Andrew and Schaefer, Jacob Robert 2013][research_brownnelsonandrew_schaeferjacobrobert_2013]\] \[[Kuehme et al 2014][research_kuehme_alley_2014]\] \[[Herrera, Claudia Y. et al 2015][research_herreraclaudiay_spiveynatalied_2015]\] \[[Sorokowski, Paul et al 2015][research_sorokowskipaul_skoogmark_2015]\] \[[Cumming, Stephen B. et al 2016][research_cummingstephenb_smithmarks_2016]\] \[[Deiler 2016][research_deiler_2016]\] \[[Harris et al 2016][research_harris_arthurs_2016]\] \[[Lichota et al 2016][research_lichota_ohme_2016]\] \[[Pfifer and Danowsky 2016][research_pfifer_danowsky_2016]\] \[[Kumar and Ghosh 2017][research_kumar_ghosh_2017]\] \[[Moszczynski and Grant 2017][research_moszczynski_grant_2017]\] \[[Saderla et al 2017][research_saderla_rajaram_2017]\] \[[Beh et al 2018][research_beh_hofinger_2018]\] \[[Kumar and Ghosh 2018][research_kumar_ghosh_2018]\] \[[Morelli and Grauer 2018][research_morelli_grauer_2018]\] \[[Blight et al 2018][research_blight_lanedailey_2018]\] \[[Tischler 2018][research_tischler_2018]\] \[[Leung et al 2019][research_leung_moszczynski_2019]\] \[[Enciu 2019][research_enciu_2019]\] \[[Larsson 2019][research_larsson_2019]\] \[[Waite, Josiah M. et al 2019][research_waitejosiahm_stanfordbretk_2019]\] \[[Newton 2019][research_newton_2019]\] \[[Ivler et al 2019][research_ivler_tischler_2019]\] \[[Xu et al 2019][research_xu_yuan_2019]\] \[[Grauer, Jared A. and Boucher, Matthew J. 2020][research_grauerjareda_bouchermatthewj_2020]\] \[[Gao et al 2021][research_gao_an_2021]\] \[[Goel et al 2021][research_goel_sarkar_2021]\] \[[Morelli 2021][research_morelli_2021]\] \[[Wang et al 2022][research_wang_zhang_2022]\] \[[Simmons 2022][research_simmons_2022]\] \[[Patel et al 2023][research_patel_deodhare_2023]\] \[[Eugene A Morelli and Jared A Grauer 2023][research_eugeneamorelli_jaredagrauer_2023]\] \[[Deepa and Gupta 2023][research_deepa_gupta_2023]\] \[[Simmons et al 2023][research_simmons_gresham_2023]\] \[[Nguyen and Xiong 2023][research_nguyen_xiong_2023]\] \[[Grauer and Morelli 2023][research_grauer_morelli_2023]\] \[[Raol and Singh 2023][research_raol_singh_2023]\] \[[Simmons 2023][research_simmons_2023]\] \[[Justin J. Matt 2024][research_justinjmatt_2024]\] \[[Roeser and Mönnich 2024][research_roeser_monnich_2024]\] \[[Corrigan et al 2026][research_corrigan_asper_2026]\] \[[Raab 2026][research_raab_2026]\] \[[Jared Grauer][research_jaredgrauer]\] \[[Josiah M Waite et al][research_josiahmwaite_jaredgrauer]\] \[[Justin J Matt][research_justinjmatt]\] \[[Bouadi][research_bouadi]\] \[[Benjamin M Simmons][research_benjaminmsimmons_b]\] \[[Eugene A. Morelli][research_eugeneamorelli]\] \[[Gene Morelli][research_genemorelli]\] \[[Specification for Continued Airworthiness][research_specification_for_b]\] \[[Benjamin M Simmons][research_benjaminmsimmons]\] \[[Jared A Grauer and Matthew J Boucher][research_jaredagrauer_matthewjboucher]\] \[[Jared A Grauer][research_jaredagrauer]\] \[[Chris Miller][research_chrismiller]\]
+**How the comparison inside one airframe is measured.** System and parameter identification from flight data, flight-test technique and instrumentation, and the flight test of control laws.
+
+**186 records.** \[[Symington 1940][research_symington_1940]\] \[[Rice 1946][research_rice_1946]\] \[[Pegg 1962][research_peggrobertj_1962]\] \[[Godwin et al 1964][research_godwin_frazier_1964]\] \[[Nagel and Thomas 1965][research_nagel_thomas_1965]\] \[[Flight Test Results Pertaining 1970][research_flight_test_1970]\] \[[Jones 1970][research_jones_1970]\] \[[Kisslinger and Vetsch 1971][research_kisslinger_vetsch_1971]\] \[[Mehra et al 1972][research_mehrark_stepnerde_1972]\] \[[Parrish and Steinmetz 1972][research_parrishrv_steinmetzgg_1972]\] \[[Simpson 1972][research_simpson_1972]\] \[[Steinmetz et al 1972][research_steinmetzgg_parrishrv_1972]\] \[[Lyons et al 1973][research_lyonsmg_vepar_1973]\] \[[Wilcox 1973][research_wilcoxfa_1973]\] \[[Wolowicz and Yancey 1973][research_wolowiczch_yanceyrb_1973]\] \[[Air Force Flight Test Center Edwards Afb Ca 1974][research_airforceflighttestcenteredwardsafbca_1974]\] \[[Heffley et al 1974][research_heffleyrk_staplefordrl_1974]\] \[[Stepner and Mehra 1974][research_stepnerde_mehrark_1974]\] \[[Widnall and Grundy 1974][research_widnall_grundy_1974]\] \[[Burton and Bischoff 1976][research_burton_bischoff_1976]\] \[[Nicolaides 1976][research_nicolaides_1976]\] \[[Armstrong 1977][research_armstrong_1977]\] \[[Jenks et al 1977][research_jenksge_henryhf_1977]\] \[[Stein et al 1977][research_steing_hartmanngl_1977]\] \[[Tomaine et al 1978][research_tomainerl_bryantwh_1978]\] \[[Redd et al 1979][research_reddlt_hansonpw_1979]\] \[[Edwards 1981][research_edwardsjw_1981]\] \[[Hartmann and Stein 1981][research_hartmanngl_steing_1981]\] \[[Miley et al 1981][research_miley_crossjr_1981]\] \[[Petersen 1981][research_petersenkl_1981]\] \[[Vincent and Franklin 1981][research_vincent_franklin_1981]\] \[[Wells et al 1981][research_wells_banda_1981]\] \[[Compton et al 1982][research_comptonhr_scallionwi_1982]\] \[[Iliff and Maine 1982][research_iliffkw_mainere_1982]\] \[[Edwards 1983][research_edwards_1983]\] \[[Iliff and Maine 1983][research_iliffkw_mainere_1983]\] \[[Rosenberg and Schuch 1983][research_rosenberg_schuch_1983]\] \[[Stewart and Bauer 1983][research_stewartjf_bauerca_1983]\] \[[Toles and Anderson 1983][research_tolesrd_andersondc_1983]\] \[[Trankle and Rabin 1983][research_trankletl_rabinuh_1983]\] \[[Advisory Group for Aerospace Research and Development 1984][research_advisorygroupforaerospaceresearchanddevelopment_1984]\] \[[Myers and Burcham 1984][research_myerslp_burchamfwjr_1984]\] \[[Anderson and Vincent 1985][research_anderson_vincent_1985]\] \[[Deets and Brown 1986][research_deetsda_brownle_1986]\] \[[Sefic and Maxwell 1986][research_seficwj_maxwellcm_1986]\] \[[Brown 1987][research_brownphilipw_1987]\] \[[Dowden and Bessette 1987][research_dowdendonaldj_bessettedenise_1987]\] \[[Gilbert 1987][research_gilbertmichaelg_1987]\] \[[Hicks et al 1987][research_hicksjohnw_cooperjamesmjr_1987]\] \[[Meyer et al 1987][research_meyerrobertr_trujillobiancam_1987]\] \[[Runyan et al 1987][research_runyanljim_bielakgw_1987]\] \[[Mulder 1988][research_mulder_1988]\] \[[Plaetschke and Weiss 1988][research_plaetschke_weiss_1988]\] \[[Siddiqi and Abraham 1988][research_siddiqi_abraham_1988]\] \[[Davis et al 1989][research_davisricharde_maddalondalv_1989]\] \[[Iliff 1989][research_iliffkennethw_1989]\] \[[Maine et al 1990][research_maine_gilyard_1990]\] \[[Shi Zhong-ke 1990][research_shizhongke_1990]\] \[[Van Graas and Braasch 1991][research_vangraasfrank_braaschmichaels_1991]\] \[[Vangraas and Braasch 1991][research_vangraasfrank_braaschmichael_1991]\] \[[Wierzbanowski and Armstrong 1991][research_wierzbanowskitheodore_armstrongjohnnyg_1991]\] \[[Manning et al 1992][research_manning_baum_1992]\] \[[Morgenfeld 1992][research_morgenfeld_1992]\] \[[Powers et al 1992][research_sheryllgoeckepowers_lanniedwebb_1992]\] \[[Van Graas and Braasch 1992][research_vangraasfrank_braaschmichael_1992]\] \[[Napolitano and Spagnuolo 1993][research_napolitanomarcellor_spagnuolojoellem_1993]\] \[[Brennan and McDaniel 1994][research_brennan_mcdaniel_1994]\] \[[Canter and Groves 1994][research_canter_groves_1994]\] \[[Kong 1994][research_kongjeffrey_1994]\] \[[Maine et al 1994][research_mainetrindel_burkenjohn_1994]\] \[[Maine et al 1995][research_mainetrindela_burchamfrankwjr_1995]\] \[[Morelli 1995][research_morellieugenea_1995]\] \[[Schkolnik et al 1995][research_schkolnikgerards_ormejohns_1995]\] \[[Tischler 1995][research_tischlermarkb_1995]\] \[[Traven and Whitley 1995][research_traven_whitley_1995]\] \[[Batterson and Morelli 1996][research_battersonjamesg_morelliea_1996]\] \[[Fisher et al 1996][research_fisherdavid_thomasflinto_1996]\] \[[Hamel and Jategaonkar 1996][research_hamel_jategaonkar_1996]\] \[[Morelli 1996][research_morellieugenea_1996]\] \[[Murphy 1996][research_murphypatrickc_1996]\] \[[Morelli 1998][research_morellieugenea_1998]\] \[[Advisory Group for Aerospace Research and Development 1999][research_advisorygroupforaerospaceresearchanddevelopment_1999]\] \[[Chen and Valasek 1999][research_chen_valasek_1999]\] \[[Mukhopadhyay 1999][research_mukhopadhyayvivek_1999]\] \[[Mukhopadhyay 1999][research_mukhopadhyayvivek_1999_b]\] \[[Murphy 1999][research_patrickcmurphy_1999]\] \[[Ghosh and Raisinghani 2000][research_ghosh_raisinghani_2000]\] \[[Ghosh et al 2000][research_ghosh_raisinghani_2000_b]\] \[[Moes et al 2000][research_moestimothyr_noffzgregoryk_2000]\] \[[Saraswathi 2000][research_saraswathi_2000]\] \[[Milne et al 2001][research_milne_soijer_2001]\] \[[Napolitano et al 2001][research_napolitano_song_2001]\] \[[Moes and Iliff 2002][research_moestimothyr_iliffkenneth_2002]\] \[[Morelli 2002][research_morellieugenea_2002]\] \[[Ray et al 2002][research_rayronaldj_cobleighbrentr_2002]\] \[[Hageman et al 2003][research_hagemanjacobj_smithmarks_2003]\] \[[Longitudinal Control And Trim 2003][research_longitudinal_control_2003]\] \[[Newsom et al 2003][research_newsomjerryr_robertshawharryh_2003]\] \[[Smith et al 2003][research_smithmarks_moestimothyr_2003]\] \[[Static Longitudinal Stability Flight 2003][research_static_longitudinal_2003]\] \[[Klyde et al 2004][research_klyde_harris_2004]\] \[[Mueller et al 2004][research_mueller_paluszek_2004]\] \[[Stachowiak and Bosworth 2004][research_stachowiaksusanj_bosworthjohnt_2004]\] \[[Williams-Hayes 2004][research_williamshayespeggys_2004]\] \[[Burken 2005][research_burkenjohnj_2005]\] \[[Jategaonkar 2005][research_jategaonkar_2005]\] \[[Morelli et al 2005][research_morellieugenea_derrystephend_2005]\] \[[Chowdhary and Jategaonkar 2006][research_chowdhary_jategaonkar_2006]\] \[[Sarigul-Klijn and Huber 2006][research_sarigulklijn_huber_2006]\] \[[Dibley et al 2007][research_dibleyryanp_allenmichaelj_2007]\] \[[Kukreja 2007][research_kukrejasunill_2007]\] \[[Gangsaas et al 2008][research_gangsaas_hodgkinson_2008]\] \[[Kukreja 2008][research_kukreja_2008]\] \[[Kukreja 2008][research_kukrejasunill_2008]\] \[[Marwaha et al 2008][research_marwaha_valasek_2008]\] \[[Murphy and Klein 2008][research_murphypatrickc_kleinvladislav_2008]\] \[[Burken and Larson 2009][research_burkenjohnj_larsonrichardr_2009]\] \[[DeBusk et al 2009][research_debusk_johnson_2009]\] \[[Han et al 2009][research_han_kim_2009]\] \[[Shin et al 2009][research_shin_harden_2009]\] \[[Taylor 2009][research_taylorbrianr_2009]\] \[[Moua 2010][research_mouacheng_2010]\] \[[Murphy and Klein 2010][research_murphypatrickc_kleinvladislav_2010]\] \[[Bachelder et al 2011][research_bachelder_thompson_2011]\] \[[Cazes et al 2011][research_cazes_mailhes_2011]\] \[[Gregory et al 2011][research_gregoryirenem_xargayenric_2011]\] \[[Gregory et al 2011][research_gregoryirenem_xargayenric_2011_b]\] \[[Martos et al 2011][research_martosborja_kiszelypaul_2011]\] \[[McCracken and Jorris 2011][research_mccracken_jorris_2011]\] \[[Silva 2011][research_silva_2011]\] \[[Brown 2012][research_brownnelson_2012]\] \[[Development of a Continuous 2012][research_development_of_2012]\] \[[Giordano de Oliveira Silva and Moennich 2012][research_giordanodeoliveirasilva_moennich_2012]\] \[[Londono and Leonhardt 2012][research_londono_leonhardt_2012]\] \[[Taylor 2012][research_taylor_2012]\] \[[Brown and Schaefer 2013][research_brownnelsonandrew_schaeferjacobrobert_2013]\] \[[Siu et al 2013][research_siumariemichele_martosborja_2013]\] \[[Kuehme et al 2014][research_kuehme_alley_2014]\] \[[Herrera et al 2015][research_herreraclaudiay_spiveynatalied_2015]\] \[[Sorokowski et al 2015][research_sorokowskipaul_skoogmark_2015]\] \[[Cumming et al 2016][research_cummingstephenb_smithmarks_2016]\] \[[Deiler 2016][research_deiler_2016]\] \[[Harris et al 2016][research_harris_arthurs_2016]\] \[[Lichota et al 2016][research_lichota_ohme_2016]\] \[[Pfifer and Danowsky 2016][research_pfifer_danowsky_2016]\] \[[Kumar and Ghosh 2017][research_kumar_ghosh_2017]\] \[[Moszczynski and Grant 2017][research_moszczynski_grant_2017]\] \[[Saderla et al 2017][research_saderla_rajaram_2017]\] \[[Beh et al 2018][research_beh_hofinger_2018]\] \[[Blight et al 2018][research_blight_lanedailey_2018]\] \[[Kumar and Ghosh 2018][research_kumar_ghosh_2018]\] \[[Morelli and Grauer 2018][research_morelli_grauer_2018]\] \[[Tischler 2018][research_tischler_2018]\] \[[Enciu 2019][research_enciu_2019]\] \[[Larsson 2019][research_larsson_2019]\] \[[Leung et al 2019][research_leung_moszczynski_2019]\] \[[Newton 2019][research_newton_2019]\] \[[Waite et al 2019][research_waitejosiahm_stanfordbretk_2019]\] \[[Xu et al 2019][research_xu_yuan_2019]\] \[[Grauer and Boucher 2020][research_grauerjareda_bouchermatthewj_2020]\] \[[Gao et al 2021][research_gao_an_2021]\] \[[Goel et al 2021][research_goel_sarkar_2021]\] \[[Morelli 2021][research_morelli_2021]\] \[[Simmons 2022][research_simmons_2022]\] \[[Wang et al 2022][research_wang_zhang_2022]\] \[[Deepa and Gupta 2023][research_deepa_gupta_2023]\] \[[Morelli and Grauer 2023][research_eugeneamorelli_jaredagrauer_2023]\] \[[Grauer and Morelli 2023][research_grauer_morelli_2023]\] \[[Nguyen and Xiong 2023][research_nguyen_xiong_2023]\] \[[Patel et al 2023][research_patel_deodhare_2023]\] \[[Raol and Singh 2023][research_raol_singh_2023]\] \[[Simmons 2023][research_simmons_2023]\] \[[Simmons et al 2023][research_simmons_gresham_2023]\] \[[Matt 2024][research_justinjmatt_2024]\] \[[Roeser and Mönnich 2024][research_roeser_monnich_2024]\] \[[Corrigan et al 2026][research_corrigan_asper_2026]\] \[[Raab 2026][research_raab_2026]\] \[[Simmons][research_benjaminmsimmons_b]\] \[[Bouadi][research_bouadi]\] \[[Miller][research_chrismiller]\] \[[Morelli][research_genemorelli]\] \[[Grauer][research_jaredagrauer]\] \[[Grauer and Boucher][research_jaredagrauer_matthewjboucher]\] \[[Grauer][research_jaredgrauer]\] \[[Waite et al][research_josiahmwaite_jaredgrauer]\] \[[Matt][research_justinjmatt]\]
 
 ### Demonstrators, research aircraft and the practice of flying one
 
-**143 records.** \[[Wright, John D. and Loving, Donald L. 1953][research_wrightjohnd_lovingdonaldl_1953]\] \[[Baker, Thomas F 1953][research_bakerthomasf_1953]\] \[[Bellman, Donald R. 1959][research_bellmandonaldr_1959]\] \[[De E Beeler 1961][research_deebeeler_1961]\] \[[General Electric Co Cincinnati Oh 1964][research_generalelectriccocincinnatioh_1964]\] \[[Hirsh 1965][research_hirsh_1965]\] \[[Pittsburgh Univ Washington Dc Research Staff 1966][research_pittsburghunivwashingtondcresearchstaff_1966]\] \[[Nicholson and lowry 1966][research_nicholson_lowry_1966]\] \[[Jackson and Patch 1968][research_jackson_patch_1968]\] \[[Smith 1968][research_smith_1968]\] \[[Kemper, E. H. and Renselaer, D. J. 1969][research_kempereh_renselaerdj_1969]\] \[[Quigley, H. C. et al 1971][research_quigleyhc_sinclairsrm_1971]\] \[[Rumsey, P. C. and Spitzer, R. E. 1971][research_rumseypc_spitzerre_1971]\] \[[Cleveland, W. B. 1971][research_clevelandwb_1971]\] \[[Rumsey, P. C. et al 1972][research_rumseypc_spitzerre_1972]\] \[[Innis, R. C. and Anderson, S. B. 1972][research_innisrc_andersonsb_1972]\] \[[Spitzer, R. E. 1972][research_spitzerre_1972]\] \[[Quigley, H. C. and Vomaske, R. F. 1972][research_quigleyhc_vomaskerf_1972]\] \[[Linden, A. W. 1972][research_lindenaw_1972]\] \[[Miller, A. N. and Linden, A. W. 1972][research_milleran_lindenaw_1972]\] \[[Skavdahl, H. and Patterson, D. H. 1972][research_skavdahlh_pattersondh_1972]\] \[[Ashleman, R. H. and Kavdahl, H. 1972][research_ashlemanrh_kavdahlh_1972]\] \[[Spitzer, R. E. et al 1972][research_spitzerre_rumseypc_1972]\] \[[Whittley, D. C. 1973][research_whittleydc_1973]\] \[[Bartlett, D. W. et al 1973][research_bartlettdw_harriscd_1973]\] \[[Amberg, R. L. et al 1974][research_ambergrl_arlineja_1974]\] \[[Harkonen, D. L. et al 1974][research_harkonendl_markscc_1974]\] \[[Quigley, H. C. and Holzhauser, C. A. 1974][research_quigleyhc_holzhauserca_1974]\] \[[Marrs, C. C. et al 1974][research_marrscc_harkonendl_1974]\] \[[Linden, A. W. and Hellyar, M. W. 1974][research_lindenaw_hellyarmw_1974]\] \[[Jacobsen, R. A. and Drinkwater, F. J., III 1975][research_jacobsenra_drinkwaterfjiii_1975]\] \[[Sim, Alex G. 1976][research_simalexg_1976]\] \[[Richardson 1976][research_richardson_1976]\] \[[Cook, W. L. and Whittley, D. C. 1976][research_cookwl_whittleydc_1976]\] \[[Dehoff, R. L. et al 1977][research_dehoffrl_reedwb_1977]\] \[[Shovlin, M. D. 1977][research_shovlinmd_1977]\] \[[Coker et al 1978][research_coker_hoffman_1978]\] \[[Alexander 1979][research_alexander_1979]\] \[[Shovlin, M. D. et al 1979][research_shovlinmd_skavdahlh_1979]\] \[[McCracken, R. C. 1979][research_mccrackenrc_1979]\] \[[Martin, J. L. 1979][research_martinjl_1979]\] \[[Feinreich, B. and Gevaert, G. 1980][research_feinreichb_gevaertg_1980]\] \[[Green 1980][research_green_1980]\] \[[McArdle, J. G. et al 1980][research_mcardlejg_homyakl_1980]\] \[[Andrews, W. H. 1980][research_andrewswh_1980]\] \[[Martin, J. L. 1980][research_martinjl_1980]\] \[[Dunn et al 1981][research_dunn_leong_1981]\] \[[Riddle, D. W. et al 1981][research_riddledw_innisrc_1981]\] \[[Eppel, J. C. 1981][research_eppeljc_1981]\] \[[Burks, J. S. 1981][research_burksjs_1981]\] \[[Cook, G. R. and Lilley, B. F. 1981][research_cookgr_lilleybf_1981]\] \[[Queen, S. and Cochrane, J. 1982][research_queens_cochranej_1982]\] \[[Painter 1983][research_painter_1983]\] \[[Gilyard, G. B. and Edwards, J. W. 1983][research_gilyardgb_edwardsjw_1983]\] \[[Cochrane, J. A. 1983][research_cochraneja_1983]\] \[[Sim, A. G. and Curry, R. E. 1984][research_simag_curryre_1984]\] \[[Curry, R. E. and Sim, A. G. 1984][research_curryre_simag_1984]\] \[[Sim, Alex G. and Curry, Robert E. 1985][research_simalexg_curryroberte_1985]\] \[[Larson 1986][research_larson_1986]\] \[[Sefic, W. J. and Cutler, W. 1986][research_seficwj_cutlerw_1986]\] \[[Redeker and Voersmann 1988][research_redeker_voersmann_1988]\] \[[Smith and Nelson 1988][research_smith_nelson_1988]\] \[[Webb, Lannie D. et al 1988][research_webblannied_mccainwilliame_1988]\] \[[Riddle, Dennis W. et al 1988][research_riddledennisw_stevensvictorc_1988]\] \[[Wada, Ben K. 1989][research_wadabenk_1989]\] \[[Bonnema, Kenneth L. and Lokos, William A. 1989][research_bonnemakennethl_lokoswilliama_1989]\] \[[Urnes, James M. et al 1990][research_urnesjamesm_stewartjames_1990]\] \[[Stephenson, Jack D. et al 1990][research_stephensonjackd_jeskejamesa_1990]\] \[[Vincent, James H. 1991][research_vincentjamesh_1991]\] \[[Urnes and Yeager 1991][research_urnes_yeager_1991]\] \[[Aswani, Mohan et al 1991][research_aswanimohan_wadabenk_1991]\] \[[Dicarlo, Daniel J. et al 1992][research_dicarlodanielj_brownphilipw_1992]\] \[[American Institute of Aeronautics and Astronautics 1993][research_americaninstituteofaeronauticsandastronautics_1993]\] \[[Schulze et al 1995][research_schulze_maxfield_1995]\] \[[Stortz, Michael W. and ODonoghue, Dennis P. 1995][research_stortzmichaelw_odonoghuedennisp_1995]\] \[[Sim, Alex G. 1997][research_simalexg_1997]\] \[[Walker, Laurence A. 1997][research_walkerlaurencea_1997]\] \[[Mead 1998][research_mead_1998]\] \[[Lind, Rick 1999][research_lindrick_1999_b]\] \[[Lind, Rick 1999][research_lindrick_1999]\] \[[Kota 2000][research_kota_2000]\] \[[Clark 2001][research_clark_2001]\] \[[Lokos, William A. et al 2002][research_lokoswilliama_olneycandidad_2002_b]\] \[[Lokos, William A. et al 2002][research_lokoswilliama_olneycandidad_2002]\] \[[Brenner, Martin J. and Prazenica, Richard J. 2003][research_brennermartinj_prazenicarichardj_2003]\] \[[Lee, Ho-Jun and Song, Gangbing 2003][research_leehojun_songgangbing_2003]\] \[[Turner 2003][research_turner_2003]\] \[[Ueno et al 2004][research_ueno_sarae_2004]\] \[[Hess and Flick 2004][research_hess_flick_2004]\] \[[Waszak, Martin R. et al 2004][research_waszakmartinr_shkarayevsergey_2004]\] \[[Kumar and Rao 2004][research_kumar_rao_2004]\] \[[King and Gopalarathnam 2004][research_king_gopalarathnam_2004]\] \[[Cumming, Stephen B. and Diebler, Corey G. 2005][research_cummingstephenb_dieblercoreyg_2005]\] \[[Lizotte, Andrew M. and Lokos, William A. 2005][research_lizotteandrewm_lokoswilliama_2005]\] \[[Dibley, Ryan P. et al 2005][research_dibleyryanp_allenmichaelj_2005]\] \[[Heeg, Jennifer et al 2005][research_heegjennifer_spaincharlesv_2005]\] \[[Clarke, Robert et al 2005][research_clarkerobert_allenmichaelj_2005]\] \[[Allen, Michael J. et al 2005][research_allenmichaelj_lizotteandrewm_2005]\] \[[Lokos, William A. et al 2005][research_lokoswilliama_lizotteandrew_2005]\] \[[Wiesman, Carol D. et al 2005][research_wiesmancarold_silvawaltera_2005]\] \[[Lizotte, Andrew and Allen, Michael J. 2005][research_lizotteandrew_allenmichaelj_2005]\] \[[Heeg, Jennifer 2006][research_heegjennifer_2006]\] \[[Cosentino, Gary B. 2007][research_cosentinogaryb_2007]\] \[[Voracek, David 2007][research_voracekdavid_2007]\] \[[Worton, M. S. et al 2007][research_wortonms_kimyk_2007]\] \[[Lizotte, Andrew M. and Allen, Michael J. 2007][research_lizotteandrewm_allenmichaelj_2007]\] \[[Cosentino, Gary B. 2008][research_cosentinogaryb_2008]\] \[[Skillen, Michael D. and Crossley, William A. 2008][research_skillenmichaeld_crossleywilliama_2008]\] \[[Gandhi et al 2009][research_gandhi_cooper_2009]\] \[[Di Matteo and Guo 2011][research_dimatteo_guo_2011]\] \[[Yu 2013][research_yu_2013]\] \[[Ryan, John J. et al 2014][research_ryanjohnj_bosworthjohnt_2014]\] \[[Gardner et al 2014][research_gardner_holmes_2014]\] \[[Miller, Eric J. et al 2014][research_millerericj_holguinandrewc_2014]\] \[[Miller, Eric J. et al 2015][research_millerericj_lokoswilliama_2015]\] \[[Davis, Pamela et al 2015][research_davispamela_jegleydawn_2015]\] \[[Jo et al 2016][research_jo_choi_2016]\] \[[Herrera, Claudia Y. et al 2016][research_herreraclaudiay_spiveynatalied_2016_b]\] \[[Herrera, Claudia Y. et al 2016][research_herreraclaudiay_spiveynatalied_2016]\] \[[Öznalbant et al 2016][research_oznalbant_kavsaoglu_2016]\] \[[Cruz, Josue and Miller, Eric J. 2016][research_cruzjosue_millerericj_2016]\] \[[Sato et al 2016][research_sato_muraoka_2016]\] \[[Smith, Mark S. et al 2016][research_smithmarks_buitrongt_2016]\] \[[Denham, Casey and Owens, D. Bruce 2016][research_denhamcasey_owensdbruce_2016]\] \[[Engblom, W. A. et al 2016][research_engblomwa_deckerrk_2016]\] \[[Vetrella et al 2017][research_vetrella_causa_2017]\] \[[Yamamoto et al 2017][research_yamamoto_takaishi_2017]\] \[[Lechniak, Jason A. and Melton, John E. 2017][research_lechniakjasona_meltonjohne_2017]\] \[[Herrera, Claudia 2018][research_herreraclaudia_2018]\] \[[Hirshorn, Steven and Kemmerly, Guy 2018][research_hirshornsteven_kemmerlyguy_2018]\] \[[Thomas, Russell H. et al 2018][research_thomasrussellh_guoyueping_2018]\] \[[Kaygan and Ulusoy 2018][research_kaygan_ulusoy_2018]\] \[[Xiang et al 2018][research_xiang_liu_2018]\] \[[Garcia, Joseph A. et al 2019][research_garciajosepha_bowlesjeffreyv_2019]\] \[[Vance F. Dippold III 2022][research_vancefdippoldiii_2022]\] \[[Bhowmick et al 2023][research_bhowmick_mukherjee_2023]\] \[[Hu][research_hu]\] \[[Patrick S Heaney][research_patricksheaney]\] \[[Ricardo A. Arteaga et al][research_ricardoaarteaga_nickolasdemidovich]\] \[[Patrick S. Heaney and John F. Quindlen][research_patricksheaney_johnfquindlen]\] \[[Brian J German et al][research_brianjgerman_ayushjha]\] \[[Standard Practice for Development][research_standard_practice]\] \[[John F Quindlen et al][research_johnfquindlen_danielmortega]\]
+**The research aircraft before this one.** Demonstrators and research aircraft from the augmentor-wing and quiet short-haul aircraft to the Active Aeroelastic Wing, the adaptive compliant trailing edge and the X-planes.
 
-### The fluid mechanics underneath all of it
+**131 records.** \[[Baker 1953][research_bakerthomasf_1953]\] \[[Wright and Loving 1953][research_wrightjohnd_lovingdonaldl_1953]\] \[[Bellman 1959][research_bellmandonaldr_1959]\] \[[Beeler 1961][research_deebeeler_1961]\] \[[General Electric Co Cincinnati Oh 1964][research_generalelectriccocincinnatioh_1964]\] \[[Nicholson and lowry 1966][research_nicholson_lowry_1966]\] \[[Pittsburgh Univ Washington Dc Research Staff 1966][research_pittsburghunivwashingtondcresearchstaff_1966]\] \[[Jackson and Patch 1968][research_jackson_patch_1968]\] \[[Kemper and Renselaer 1969][research_kempereh_renselaerdj_1969]\] \[[Cleveland 1971][research_clevelandwb_1971]\] \[[Quigley et al 1971][research_quigleyhc_sinclairsrm_1971]\] \[[Rumsey and Spitzer 1971][research_rumseypc_spitzerre_1971]\] \[[Ashleman and Kavdahl 1972][research_ashlemanrh_kavdahlh_1972]\] \[[Innis and Anderson 1972][research_innisrc_andersonsb_1972]\] \[[Quigley and Vomaske 1972][research_quigleyhc_vomaskerf_1972]\] \[[Rumsey et al 1972][research_rumseypc_spitzerre_1972]\] \[[Skavdahl and Patterson 1972][research_skavdahlh_pattersondh_1972]\] \[[Spitzer 1972][research_spitzerre_1972]\] \[[Spitzer et al 1972][research_spitzerre_rumseypc_1972]\] \[[Bartlett et al 1973][research_bartlettdw_harriscd_1973]\] \[[Whittley 1973][research_whittleydc_1973]\] \[[Amberg et al 1974][research_ambergrl_arlineja_1974]\] \[[Marrs et al 1974][research_marrscc_harkonendl_1974]\] \[[Quigley and Holzhauser 1974][research_quigleyhc_holzhauserca_1974]\] \[[Jacobsen and Drinkwater 1975][research_jacobsenra_drinkwaterfjiii_1975]\] \[[Cook and Whittley 1976][research_cookwl_whittleydc_1976]\] \[[Richardson 1976][research_richardson_1976]\] \[[Sim 1976][research_simalexg_1976]\] \[[Dehoff et al 1977][research_dehoffrl_reedwb_1977]\] \[[Alexander 1979][research_alexander_1979]\] \[[Martin 1979][research_martinjl_1979]\] \[[McCracken 1979][research_mccrackenrc_1979]\] \[[Shovlin et al 1979][research_shovlinmd_skavdahlh_1979]\] \[[Andrews 1980][research_andrewswh_1980]\] \[[Feinreich and Gevaert 1980][research_feinreichb_gevaertg_1980]\] \[[Green 1980][research_green_1980]\] \[[Martin 1980][research_martinjl_1980]\] \[[McArdle et al 1980][research_mcardlejg_homyakl_1980]\] \[[Cook and Lilley 1981][research_cookgr_lilleybf_1981]\] \[[Dunn et al 1981][research_dunn_leong_1981]\] \[[Eppel 1981][research_eppeljc_1981]\] \[[Riddle et al 1981][research_riddledw_innisrc_1981]\] \[[Queen and Cochrane 1982][research_queens_cochranej_1982]\] \[[Cochrane 1983][research_cochraneja_1983]\] \[[Gilyard and Edwards 1983][research_gilyardgb_edwardsjw_1983]\] \[[Painter 1983][research_painter_1983]\] \[[Curry and Sim 1984][research_curryre_simag_1984]\] \[[Sim and Curry 1984][research_simag_curryre_1984]\] \[[Sim and Curry 1985][research_simalexg_curryroberte_1985]\] \[[Larson 1986][research_larson_1986]\] \[[Sefic and Cutler 1986][research_seficwj_cutlerw_1986]\] \[[Redeker and Voersmann 1988][research_redeker_voersmann_1988]\] \[[Riddle et al 1988][research_riddledennisw_stevensvictorc_1988]\] \[[Smith and Nelson 1988][research_smith_nelson_1988]\] \[[Webb et al 1988][research_webblannied_mccainwilliame_1988]\] \[[Bonnema and Lokos 1989][research_bonnemakennethl_lokoswilliama_1989]\] \[[Wada 1989][research_wadabenk_1989]\] \[[Stephenson et al 1990][research_stephensonjackd_jeskejamesa_1990]\] \[[Urnes et al 1990][research_urnesjamesm_stewartjames_1990]\] \[[Aswani et al 1991][research_aswanimohan_wadabenk_1991]\] \[[Urnes and Yeager 1991][research_urnes_yeager_1991]\] \[[Vincent 1991][research_vincentjamesh_1991]\] \[[Dicarlo et al 1992][research_dicarlodanielj_brownphilipw_1992]\] \[[American Institute of Aeronautics and Astronautics 1993][research_americaninstituteofaeronauticsandastronautics_1993]\] \[[Stortz and ODonoghue 1995][research_stortzmichaelw_odonoghuedennisp_1995]\] \[[Sim 1997][research_simalexg_1997]\] \[[Walker 1997][research_walkerlaurencea_1997]\] \[[Lind 1999][research_lindrick_1999]\] \[[Lind 1999][research_lindrick_1999_b]\] \[[Kota 2000][research_kota_2000]\] \[[Clark 2001][research_clark_2001]\] \[[Lokos et al 2002][research_lokoswilliama_olneycandidad_2002]\] \[[Lokos et al 2002][research_lokoswilliama_olneycandidad_2002_b]\] \[[Brenner and Prazenica 2003][research_brennermartinj_prazenicarichardj_2003]\] \[[Lee and Song 2003][research_leehojun_songgangbing_2003]\] \[[Turner 2003][research_turner_2003]\] \[[Hess and Flick 2004][research_hess_flick_2004]\] \[[King and Gopalarathnam 2004][research_king_gopalarathnam_2004]\] \[[Kumar and Rao 2004][research_kumar_rao_2004]\] \[[Ueno et al 2004][research_ueno_sarae_2004]\] \[[Waszak et al 2004][research_waszakmartinr_shkarayevsergey_2004]\] \[[Allen et al 2005][research_allenmichaelj_lizotteandrewm_2005]\] \[[Clarke et al 2005][research_clarkerobert_allenmichaelj_2005]\] \[[Cumming and Diebler 2005][research_cummingstephenb_dieblercoreyg_2005]\] \[[Dibley et al 2005][research_dibleyryanp_allenmichaelj_2005]\] \[[Heeg et al 2005][research_heegjennifer_spaincharlesv_2005]\] \[[Lizotte and Allen 2005][research_lizotteandrew_allenmichaelj_2005]\] \[[Lizotte and Lokos 2005][research_lizotteandrewm_lokoswilliama_2005]\] \[[Lokos et al 2005][research_lokoswilliama_lizotteandrew_2005]\] \[[Wiesman et al 2005][research_wiesmancarold_silvawaltera_2005]\] \[[Heeg 2006][research_heegjennifer_2006]\] \[[Cosentino 2007][research_cosentinogaryb_2007]\] \[[Lizotte and Allen 2007][research_lizotteandrewm_allenmichaelj_2007]\] \[[Voracek 2007][research_voracekdavid_2007]\] \[[Cosentino 2008][research_cosentinogaryb_2008]\] \[[Skillen and Crossley 2008][research_skillenmichaeld_crossleywilliama_2008]\] \[[Gandhi et al 2009][research_gandhi_cooper_2009]\] \[[Di Matteo and Guo 2011][research_dimatteo_guo_2011]\] \[[Yu 2013][research_yu_2013]\] \[[Gardner et al 2014][research_gardner_holmes_2014]\] \[[Miller et al 2014][research_millerericj_holguinandrewc_2014]\] \[[Ryan et al 2014][research_ryanjohnj_bosworthjohnt_2014]\] \[[Davis et al 2015][research_davispamela_jegleydawn_2015]\] \[[Miller et al 2015][research_millerericj_lokoswilliama_2015]\] \[[Cruz and Miller 2016][research_cruzjosue_millerericj_2016]\] \[[Denham and Owens 2016][research_denhamcasey_owensdbruce_2016]\] \[[Engblom et al 2016][research_engblomwa_deckerrk_2016]\] \[[Herrera et al 2016][research_herreraclaudiay_spiveynatalied_2016]\] \[[Herrera et al 2016][research_herreraclaudiay_spiveynatalied_2016_b]\] \[[Jo et al 2016][research_jo_choi_2016]\] \[[Sato et al 2016][research_sato_muraoka_2016]\] \[[Smith et al 2016][research_smithmarks_buitrongt_2016]\] \[[Öznalbant et al 2016][research_oznalbant_kavsaoglu_2016]\] \[[Lechniak and Melton 2017][research_lechniakjasona_meltonjohne_2017]\] \[[Vetrella et al 2017][research_vetrella_causa_2017]\] \[[Yamamoto et al 2017][research_yamamoto_takaishi_2017]\] \[[Herrera 2018][research_herreraclaudia_2018]\] \[[Hirshorn and Kemmerly 2018][research_hirshornsteven_kemmerlyguy_2018]\] \[[Kaygan and Ulusoy 2018][research_kaygan_ulusoy_2018]\] \[[Thomas et al 2018][research_thomasrussellh_guoyueping_2018]\] \[[Xiang et al 2018][research_xiang_liu_2018]\] \[[Garcia et al 2019][research_garciajosepha_bowlesjeffreyv_2019]\] \[[Dippold 2022][research_vancefdippoldiii_2022]\] \[[Bhowmick et al 2023][research_bhowmick_mukherjee_2023]\] \[[German et al][research_brianjgerman_ayushjha]\] \[[Hu][research_hu]\] \[[Quindlen et al][research_johnfquindlen_danielmortega]\] \[[Heaney][research_patricksheaney]\] \[[Heaney and Quindlen][research_patricksheaney_johnfquindlen]\] \[[Arteaga et al][research_ricardoaarteaga_nickolasdemidovich]\] \[[Standard Practice for Development][research_standard_practice]\]
 
-**260 records.** \[[Maestrello 1965][research_maestrello_1965]\] \[[Wilby 1967][research_wilby_1967]\] \[[Johnson, B. V. 1968][research_johnsonbv_1968]\] \[[Girshovich 1968][research_girshovich_1968]\] \[[Wygnanski and Champagne 1968][research_wygnanski_champagne_1968]\] \[[Aoyagi, K. et al 1969][research_aoyagik_dickinsonso_1969]\] \[[Mosher 1970][research_mosher_1970]\] \[[Bajura, R. A. and Szewczyk, A. A. 1970][research_bajurara_szewczykaa_1970]\] \[[Kind 1971][research_kind_1971]\] \[[Bangert 1971][research_bangert_1971]\] \[[Chang, H. S. and Werner, J. E. 1972][research_changhs_wernerje_1972]\] \[[Piva, R. 1972][research_pivar_1972]\] \[[Kamotani, Y. and Greber, I. 1972][research_kamotaniy_greberi_1972]\] \[[Vaicaitis and Lin 1972][research_vaicaitis_lin_1972]\] \[[Wilby and Gloyna 1972][research_wilby_gloyna_1972]\] \[[Narasimha, R. et al 1973][research_narasimhar_narayanky_1973]\] \[[Kurkov, A. P. and Gaugler, R. E. 1974][research_kurkovap_gauglerre_1974]\] \[[McLean, J. D. and Herring, H. J. 1974][research_mcleanjd_herringhj_1974]\] \[[McLean, J. D. and Herring, H. J. 1974][research_mcleanjd_herringhj_1974_b]\] \[[Dietz, W. E., Jr. 1975][research_dietzwejr_1975]\] \[[Fearn, R. L. and Weston, R. P. 1975][research_fearnrl_westonrp_1975]\] \[[Campbell, J. F. 1975][research_campbelljf_1975_c]\] \[[Gorla 1976][research_gorla_1976]\] \[[Tsuji et al 1976][research_tsuji_motikawa_1976]\] \[[Catalano, G. D. et al 1977][research_catalanogd_mortonjb_1977]\] \[[Gorla 1977][research_gorla_1977]\] \[[Alcaraz et al 1977][research_alcaraz_charnay_1977]\] \[[Fearn, R. L. and Weston, R. P. 1978][research_fearnrl_westonrp_1978]\] \[[Kotansky, D. R. and Glaze, L. W. 1978][research_kotanskydr_glazelw_1978]\] \[[Catalano, G. D. et al 1978][research_catalanogd_mortonjb_1978]\] \[[Morton, J. B. et al 1978][research_mortonjb_catalanogd_1978]\] \[[Yen 1978][research_yen_1978]\] \[[Catalano, G. D. et al 1978][research_catalanogd_mortonjb_1978_b]\] \[[Murphy, W. D. et al 1979][research_murphywd_shankarv_1979]\] \[[Horne, C. and Karamcheti, K. 1979][research_hornec_karamchetik_1979]\] \[[Saripalli, K. R. and Simpson, R. L. 1979][research_saripallikr_simpsonrl_1979]\] \[[Catalano, G. D. et al 1979][research_catalanogd_mortonjb_1979_b]\] \[[Catalano et al 1979][research_catalano_morton_1979]\] \[[Catalano, G. D. et al 1979][research_catalanogd_mortonjb_1979_c]\] \[[Fearn, R. L. and Benson, J. P. 1979][research_fearnrl_bensonjp_1979]\] \[[Saripalli, K. R. and Simpson, R. L. 1980][research_saripallikr_simpsonrl_1980]\] \[[Leehey and Shapiro 1980][research_leehey_shapiro_1980]\] \[[Maki et al 1980][research_maki_ito_1980]\] \[[Kotansky and Glaze 1980][research_kotansky_glaze_1980]\] \[[Perkins, S. C., Jr. and Mendenhall, M. R. 1981][research_perkinsscjr_mendenhallmr_1981]\] \[[Horne, W. C. et al 1981][research_hornewc_jonkouskigc_1981]\] \[[Kotansky, D. R. and Glaze, L. W. 1981][research_kotanskydr_glazelw_1981]\] \[[Hackett, J. E. et al 1981][research_hackettje_sampaths_1981]\] \[[Baker and Orzechowski 1982][research_baker_orzechowski_1982]\] \[[Clauss, R. W. 1982][research_claussrw_1982]\] \[[Back, L. and Cuffel, R. 1982][research_backl_cuffelr_1982]\] \[[Gibson and Younis 1982][research_gibson_younis_1982]\] \[[Hartmann 1982][research_hartmann_1982]\] \[[Furlong, K. L. and Fearn, R. L. 1983][research_furlongkl_fearnrl_1983]\] \[[Gorla 1983][research_gorla_1983]\] \[[Wall interference effects on 1983][research_wall_interference_1983]\] \[[Gorla 1984][research_gorla_1984]\] \[[Horne, W. C. 1984][research_hornewc_1984]\] \[[Bechert, D. W. and Stahl, B. 1984][research_bechertdw_stahlb_1984]\] \[[Snyder, P. and Orloff, K. L. 1984][research_snyderp_orloffkl_1984]\] \[[Wilsden, D. J. and Hackett, J. E. 1984][research_wilsdendj_hackettje_1984]\] \[[Simon, F. F. and Ciancone, M. L. 1985][research_simonff_cianconeml_1985]\] \[[Bayliss, A. et al 1985][research_baylissa_maestrellol_1985]\] \[[Fiedler and Mensing 1985][research_fiedler_mensing_1985]\] \[[Roberts, Leonard 1986][research_robertsleonard_1986]\] \[[Bayliss, A. et al 1986][research_baylissa_maestrellol_1986]\] \[[Lam et al 1986][research_lam_ko_1986_b]\] \[[Lam and Ko 1986][research_lam_ko_1986]\] \[[Roberts, Leonard 1987][research_robertsleonard_1987]\] \[[Rodman, L. C. et al 1987][research_rodmanlc_woodnj_1987]\] \[[Simon, Frederick F. and Ciancone, Michael L. 1987][research_simonfrederickf_cianconemichaell_1987]\] \[[Rodman et al 1987][research_rodman_wood_1987]\] \[[Fearn, Richard L. 1988][research_fearnrichardl_1988]\] \[[Howe 1988][research_howe_1988]\] \[[Bansal et al 1988][research_bansal_mishra_1988]\] \[[Roth, Karlin R. 1988][research_rothkarlinr_1988]\] \[[Balsa, Thomas F. 1988][research_balsathomasf_1988]\] \[[Roth, Karlin R. et al 1989][research_rothkarlinr_fearnrichardl_1989]\] \[[Kavsaoglu, M. S. and Schetz, J. A. 1989][research_kavsaoglums_schetzja_1989]\] \[[Rodman, L. C. et al 1989][research_rodmanlc_woodnj_1989]\] \[[Adeniji-Fashola, A. A. 1989][research_adenijifasholaaa_1989]\] \[[Lumley, John L. 1989][research_lumleyjohnl_1989]\] \[[Bray and Knowles 1989][research_bray_knowles_1989]\] \[[Katz et al 1989][research_katz_nishri_1989]\] \[[Balsa, Thomas F. 1989][research_balsathomasf_1989]\] \[[McManus et al 1990][research_mcmanus_vandsburger_1990]\] \[[Rask et al 1990][research_rask_goldstein_1990]\] \[[Claus, R. W. and Vanka, S. P. 1990][research_clausrw_vankasp_1990]\] \[[Grosveld 1990][research_grosveld_1990]\] \[[Krothapalli, A. et al 1990][research_krothapallia_lourencol_1990]\] \[[Lytle, John K. et al 1990][research_lytlejohnk_harloffgaryj_1990]\] \[[Lim, Hock-Bin and Roberts, Leonard 1991][research_limhockbin_robertsleonard_1991]\] \[[Kim, S.-W. and Benson, T. J. 1991][research_kimsw_bensontj_1991]\] \[[Eroglu and Breidenthal 1991][research_eroglu_breidenthal_1991]\] \[[Gregory-Smith and Hawkins 1991][research_gregorysmith_hawkins_1991]\] \[[Park and Rew 1991][research_park_rew_1991]\] \[[Kim, S.-W. and Benson, T. J. 1992][research_kimsw_bensontj_1992]\] \[[Roth, Karlin R. et al 1992][research_rothkarlinr_fearnrichardl_1992]\] \[[Rumerman 1992][research_rumerman_1992]\] \[[Claus, R. W. and Vanka, S. P. 1992][research_clausrw_vankasp_1992]\] \[[Park and Rew 1992][research_park_rew_1992]\] \[[Chiu, Stephen H. et al 1993][research_chiustephenh_rothkarlinr_1993]\] \[[Dennis, Robert Foster 1993][research_dennisrobertfoster_1993]\] \[[Hamed 1993][research_hamed_1993]\] \[[Yoon et al 1993][research_yoon_kim_1993]\] \[[Blake, William B. and Stewart, Vearl R. 1993][research_blakewilliamb_stewartvearlr_1993]\] \[[Dennis et al 1993][research_dennis_tso_1993]\] \[[Margason, Richard J. and Tso, Jin 1993][research_margasonrichardj_tsojin_1993]\] \[[Kraus, Donna K. and Cutler, Andrew D. 1993][research_krausdonnak_cutlerandrewd_1993]\] \[[Krothapalli, A. and Shih, C. 1993][research_krothapallia_shihc_1993]\] \[[Strykowski and Krothapalli 1993][research_strykowski_krothapalli_1993]\] \[[Joslin, Ronald D. et al 1994][research_joslinronaldd_nicolaidesra_1994]\] \[[Myszko and Knowles 1994][research_myszko_knowles_1994]\] \[[Gorla 1994][research_gorla_1994]\] \[[Manipulation of a jet 1994][research_manipulation_of_1994]\] \[[Liscinsky, D. S. et al 1995][research_liscinskyds_trueb_1995]\] \[[Tso and Margason 1995][research_tso_margason_1995]\] \[[Matsson 1995][research_matsson_1995]\] \[[Manuilovich 1995][research_manuilovich_1995]\] \[[Tso and Margason 1996][research_tso_margason_1996]\] \[[Bain, D. B. et al 1996][research_baindb_smithce_1996]\] \[[Yuan and Street 1996][research_yuan_street_1996]\] \[[Tang, Yvette Y. et al 1996][research_tangyvettey_silcoxrichardj_1996]\] \[[Le Cunff and Zebib 1996][research_lecunff_zebib_1996]\] \[[Rew and Park 1996][research_rew_park_1996]\] \[[Strykowski, Paul J. 1997][research_strykowskipaulj_1997]\] \[[Eroglu and Breidenthal 1998][research_eroglu_breidenthal_1998]\] \[[Gil et al 1998][research_gil_jung_1998]\] \[[Merrill and Sarpkaya 1998][research_merrill_sarpkaya_1998]\] \[[He 1999][research_he_1999]\] \[[Pack, LaTunia G. and Seifert, Avi 1999][research_packlatuniag_seifertavi_1999]\] \[[Asbury, Scott C. and Hunter, Craig A. 1999][research_asburyscottc_huntercraiga_1999]\] \[[Xie et al 2000][research_xie_nishi_2000]\] \[[Fasel 2000][research_fasel_2000]\] \[[Semionov and Kosinov 2000][research_semionov_kosinov_2000]\] \[[Scibilia 2000][research_scibilia_2000]\] \[[Wilson et al 2000][research_wilson_adler_2000]\] \[[Tachie et al 2001][research_tachie_bergstrom_2001]\] \[[Likhachev et al 2001][research_likhachev_neuendorf_2001]\] \[[Adelgren et al 2002][research_adelgren_elliot_2002]\] \[[Rumerman 2002][research_rumerman_2002]\] \[[Pandya, Shishir et al 2002][research_pandyashishir_murmanscott_2002]\] \[[Zaman, K. B. M. Q. 2003][research_zamankbmq_2003]\] \[[Hwang and Cho 2003][research_hwang_cho_2003]\] \[[Kiel et al 2003][research_kiel_murawski_2003]\] \[[Zaman 2003][research_zaman_2003]\] \[[De Rosa et al 2003][research_derosa_franco_2003]\] \[[Hossain and Kader 2004][research_hossain_kader_2004]\] \[[Billeter 2004][research_billeter_2004]\] \[[R Ewert et al 2004][research_rewert_jyin_2004]\] \[[Marzouk and Ghoniem 2004][research_marzouk_ghoniem_2004]\] \[[Inoue et al 2005][research_inoue_funato_2005]\] \[[Ghenai et al 2005][research_ghenai_philippidis_2005]\] \[[Yarusevych et al 2005][research_yarusevych_sullivan_2005]\] \[[Mittal 2005][research_mittal_2005_b]\] \[[Imao et al 2005][research_imao_kikuchi_2005]\] \[[Dano and Liburdy 2005][research_dano_liburdy_2005]\] \[[Mochizuki et al 2005][research_mochizuki_yamada_2005]\] \[[Kozato and Imao 2005][research_kozato_imao_2005]\] \[[Bunyajitradulya and Sathapornnanon 2005][research_bunyajitradulya_sathapornnanon_2005]\] \[[Ahmad et al 2005][research_ahmad_watterson_2005]\] \[[Magyari and Weidman 2005][research_magyari_weidman_2005]\] \[[Logdberg and Alfredsson 2005][research_logdberg_alfredsson_2005]\] \[[Mittal 2006][research_mittal_2006]\] \[[Ziefle and Kleiser 2006][research_ziefle_kleiser_2006]\] \[[Han et al 2006][research_han_dezhou_2006]\] \[[Mittal 2007][research_mittal_2007]\] \[[Yehoshua and Seifert 2007][research_yehoshua_seifert_2007]\] \[[Atkins, H. L. 2007][research_atkinshl_2007]\] \[[Totaro et al 2008][research_totaro_robert_2008]\] \[[Kim et al 2009][research_kim_gil_2009]\] \[[Terekhov and Pakhomov 2009][research_terekhov_pakhomov_2009]\] \[[Mashayek and Ashgriz 2010][research_mashayek_ashgriz_2010]\] \[[Zaman, K. B. M. Q. et al 2010][research_zamankbmq_rigbydl_2010]\] \[[Zaman et al 2010][research_zaman_rigby_2010]\] \[[Edwards, Jack R. et al 2010][research_edwardsjackr_bolesjohna_2010]\] \[[Lee et al 2010][research_lee_loth_2010]\] \[[Jeffers et al 2010][research_jeffers_punch_2010]\] \[[Ivanova et al 2010][research_ivanova_noll_2010]\] \[[Afzal and Seena 2011][research_afzal_seena_2011]\] \[[Zaman, K. B. M. Q. et al 2011][research_zamankbmq_rigbydl_2011]\] \[[Rana and Herrmann 2011][research_rana_herrmann_2011]\] \[[Kumar and Das 2011][research_kumar_das_2011]\] \[[Rostamy et al 2011][research_rostamy_bergstrom_2011]\] \[[Ashgriz 2012][research_ashgriz_2012]\] \[[Lefantzi et al 2013][research_lefantzi_ray_2013]\] \[[Arunajatesan and McWherter-Payne 2013][research_arunajatesan_mcwherterpayne_2013]\] \[[Pramanik and Kumar Das 2014][research_pramanik_kumardas_2014]\] \[[Pramanik and Das 2014][research_pramanik_das_2014_b]\] \[[Pramanik and Das 2014][research_pramanik_das_2014]\] \[[Karagozian 2014][research_karagozian_2014]\] \[[Mansour and Chung 2015][research_mansour_chung_2015]\] \[[Kumar 2015][research_kumar_2015]\] \[[Tesař 2015][research_tesar_2015_b]\] \[[Mansour and Chung 2015][research_mansour_chung_2015_b]\] \[[Maury and Bravo 2016][research_maury_bravo_2016]\] \[[Li and Soteriou 2016][research_li_soteriou_2016]\] \[[Zhang and Yang 2017][research_zhang_yang_2017]\] \[[Zhang and Yang 2017][research_zhang_yang_2017_b]\] \[[Khayat 2017][research_khayat_2017]\] \[[Lowe and Attia 2017][research_lowe_attia_2017]\] \[[Leask et al 2018][research_leask_mcdonell_2018]\] \[[Samimy et al 2018][research_samimy_webb_2018]\] \[[van Hout et al 2018][research_vanhout_rinsky_2018]\] \[[Borghi, Michael R. et al 2018][research_borghimichaelr_thurmandouglas_2018]\] \[[Dai et al 2018][research_dai_shu_2018]\] \[[Weidman 2018][research_weidman_2018]\] \[[Flores et al 2019][research_flores_michelle_2019]\] \[[Hatakawa et al 2019][research_hatakawa_mochizuki_2019]\] \[[Nair et al 2019][research_nair_sirignano_2019]\] \[[Stegmeier et al 2019][research_stegmeier_kimn_2019]\] \[[Chang et al 2019][research_chang_du_2019]\] \[[Baleriola et al 2019][research_baleriola_leroy_2019]\] \[[Tan 2019][research_tan_2019]\] \[[Borodulin et al 2020][research_borodulin_ivanov_2020]\] \[[Singh et al 2020][research_singh_kumar_2020]\] \[[Fortin et al 2021][research_fortin_otero_2021]\] \[[Zhao et al 2021][research_zhao_wen_2021]\] \[[Salauddin et al 2021][research_salauddin_flores_2021]\] \[[Singbeil et al 2021][research_singbeil_ghiroaga_2021]\] \[[Pease et al 2021][research_pease_minette_2021]\] \[[Lv et al 2022][research_lv_wei_2022]\] \[[Ramaswamy and Schreyer 2022][research_ramaswamy_schreyer_2022_b]\] \[[Smith and Yagle 2023][research_smith_yagle_2023]\] \[[Mazzeo 2023][research_mazzeo_2023]\] \[[Nair et al 2023][research_nair_krishnan_2023]\] \[[Oved et al 2023][research_oved_kashi_2023]\] \[[Wei et al 2023][research_wei_liu_2023]\] \[[Corvera and Mahjoob 2023][research_corvera_mahjoob_2023]\] \[[Nakano and Ohtsuki 2024][research_nakano_ohtsuki_2024]\] \[[McBreen and Zha 2024][research_mcbreen_zha_2024]\] \[[Gupta and Saha 2024][research_gupta_saha_2024]\] \[[Sokolenko et al 2024][research_sokolenko_drozdz_2024]\] \[[Elsner et al 2024][research_elsner_sokolenko_2024]\] \[[Taborda and Sommerfeld 2024][research_taborda_sommerfeld_2024]\] \[[Finn et al 2024][research_finn_tanner_2024]\] \[[Wu et al 2024][research_wu_sun_2024]\] \[[Huang et al 2024][research_huang_dong_2024]\] \[[Kumari et al 2024][research_kumari_saurabh_2024]\] \[[Wake vortex formation and 2024][research_wake_vortex_2024]\] \[[Distributed Surface-Vortex Receptivity of 2025][research_distributed_surface_vortex_receptivity_2025]\] \[[Borodulin et al 2025][research_borodulin_kachanov_2025]\] \[[Zhao et al 2025][research_zhao_zhou_2025]\] \[[Finn et al 2025][research_finn_tanner_2025]\] \[[Verma and Manisankar 2025][research_verma_manisankar_2025]\] \[[Kumar et al 2025][research_kumar_sahu_2025]\] \[[Wang and Hardalupas 2025][research_wang_hardalupas_2025]\] \[[Kha et al 2025][research_kha_martins_2025]\] \[[Rodrigues et al 2025][research_rodrigues_burns_2025]\] \[[Dhanagopal et al 2026][research_dhanagopal_roy_2026]\] \[[Zou et al 2026][research_zou_hao_2026]\] \[[Charles et al 2026][research_charles_vie_2026]\] \[[Li][research_li]\] \[[Oertling][research_oertling]\] \[[Yong Sukh Gil et al][research_yongsukhgil_taewonchung]\] \[[Bouladoux][research_bouladoux]\] \[[Kitzinger][research_kitzinger]\] \[[Sakradse][research_sakradse]\] \[[Pajayakrit][research_pajayakrit]\] \[[Neil S. Rodrigues et al][research_neilsrodrigues_rossaburns]\]
+### Jets in a crossflow
 
-### This programme, this aircraft and this contractor
+**What an effector issues into the boundary layer.** The jet in a crossflow, its vortex structure, trajectory, induced pressures and its computation.
 
-**No records.** One cited title names the programme, a 2023 conference paper on DARPA CRANE circulation control using arrays of discrete fluidic actuator jets, and it is listed with the devices above. No cited title names this aircraft or this contractor, **and the homonym measurements in the source base below show why the programme's own name finds so little.**
+**81 records.** \[[Girshovich 1968][research_girshovich_1968]\] \[[Mosher 1970][research_mosher_1970]\] \[[Chang and Werner 1972][research_changhs_wernerje_1972]\] \[[Kamotani and Greber 1972][research_kamotaniy_greberi_1972]\] \[[Dietz 1975][research_dietzwejr_1975]\] \[[Fearn and Weston 1975][research_fearnrl_westonrp_1975]\] \[[Fearn and Weston 1978][research_fearnrl_westonrp_1978]\] \[[Yen 1978][research_yen_1978]\] \[[Fearn and Benson 1979][research_fearnrl_bensonjp_1979]\] \[[Murphy et al 1979][research_murphywd_shankarv_1979]\] \[[Hackett et al 1981][research_hackettje_sampaths_1981]\] \[[Perkins and Mendenhall 1981][research_perkinsscjr_mendenhallmr_1981]\] \[[Baker and Orzechowski 1982][research_baker_orzechowski_1982]\] \[[Clauss 1982][research_claussrw_1982]\] \[[Furlong and Fearn 1983][research_furlongkl_fearnrl_1983]\] \[[Snyder and Orloff 1984][research_snyderp_orloffkl_1984]\] \[[Wilsden and Hackett 1984][research_wilsdendj_hackettje_1984]\] \[[Simon and Ciancone 1985][research_simonff_cianconeml_1985]\] \[[Simon and Ciancone 1987][research_simonfrederickf_cianconemichaell_1987]\] \[[Fearn 1988][research_fearnrichardl_1988]\] \[[Roth 1988][research_rothkarlinr_1988]\] \[[Bray and Knowles 1989][research_bray_knowles_1989]\] \[[Kavsaoglu and Schetz 1989][research_kavsaoglums_schetzja_1989]\] \[[Roth et al 1989][research_rothkarlinr_fearnrichardl_1989]\] \[[Claus and Vanka 1990][research_clausrw_vankasp_1990]\] \[[Krothapalli et al 1990][research_krothapallia_lourencol_1990]\] \[[Lytle et al 1990][research_lytlejohnk_harloffgaryj_1990]\] \[[Kim and Benson 1991][research_kimsw_bensontj_1991]\] \[[Claus and Vanka 1992][research_clausrw_vankasp_1992]\] \[[Kim and Benson 1992][research_kimsw_bensontj_1992]\] \[[Roth et al 1992][research_rothkarlinr_fearnrichardl_1992]\] \[[Blake and Stewart 1993][research_blakewilliamb_stewartvearlr_1993]\] \[[Chiu et al 1993][research_chiustephenh_rothkarlinr_1993]\] \[[Dennis et al 1993][research_dennis_tso_1993]\] \[[Dennis 1993][research_dennisrobertfoster_1993]\] \[[Krothapalli and Shih 1993][research_krothapallia_shihc_1993]\] \[[Margason and Tso 1993][research_margasonrichardj_tsojin_1993]\] \[[Manipulation of a jet 1994][research_manipulation_of_1994]\] \[[Liscinsky et al 1995][research_liscinskyds_trueb_1995]\] \[[Tso and Margason 1995][research_tso_margason_1995]\] \[[Bain et al 1996][research_baindb_smithce_1996]\] \[[Tso and Margason 1996][research_tso_margason_1996]\] \[[Yuan and Street 1996][research_yuan_street_1996]\] \[[Eroglu and Breidenthal 1998][research_eroglu_breidenthal_1998]\] \[[He 1999][research_he_1999]\] \[[Wilson et al 2000][research_wilson_adler_2000]\] \[[Xie et al 2000][research_xie_nishi_2000]\] \[[Pandya et al 2002][research_pandyashishir_murmanscott_2002]\] \[[Kiel et al 2003][research_kiel_murawski_2003]\] \[[Zaman 2003][research_zaman_2003]\] \[[Zaman 2003][research_zamankbmq_2003]\] \[[Marzouk and Ghoniem 2004][research_marzouk_ghoniem_2004]\] \[[Bunyajitradulya and Sathapornnanon 2005][research_bunyajitradulya_sathapornnanon_2005]\] \[[Dano and Liburdy 2005][research_dano_liburdy_2005]\] \[[Ziefle and Kleiser 2006][research_ziefle_kleiser_2006]\] \[[Atkins 2007][research_atkinshl_2007]\] \[[Ivanova et al 2010][research_ivanova_noll_2010]\] \[[Zaman et al 2010][research_zaman_rigby_2010]\] \[[Zaman et al 2010][research_zamankbmq_rigbydl_2010]\] \[[Zaman et al 2011][research_zamankbmq_rigbydl_2011]\] \[[Arunajatesan and McWherter-Payne 2013][research_arunajatesan_mcwherterpayne_2013]\] \[[Lefantzi et al 2013][research_lefantzi_ray_2013]\] \[[Karagozian 2014][research_karagozian_2014]\] \[[Zhang and Yang 2017][research_zhang_yang_2017]\] \[[Zhang and Yang 2017][research_zhang_yang_2017_b]\] \[[Borghi et al 2018][research_borghimichaelr_thurmandouglas_2018]\] \[[Dai et al 2018][research_dai_shu_2018]\] \[[Chang et al 2019][research_chang_du_2019]\] \[[Stegmeier et al 2019][research_stegmeier_kimn_2019]\] \[[Zhao et al 2021][research_zhao_wen_2021]\] \[[Lv et al 2022][research_lv_wei_2022]\] \[[Smith and Yagle 2023][research_smith_yagle_2023]\] \[[Gupta and Saha 2024][research_gupta_saha_2024]\] \[[Wake vortex formation and 2024][research_wake_vortex_2024]\] \[[Borodulin et al 2025][research_borodulin_kachanov_2025]\] \[[Distributed Surface-Vortex Receptivity of 2025][research_distributed_surface_vortex_receptivity_2025]\] \[[Dhanagopal et al 2026][research_dhanagopal_roy_2026]\] \[[Bouladoux][research_bouladoux]\] \[[Li][research_li]\] \[[Oertling][research_oertling]\] \[[Sakradse][research_sakradse]\]
+
+### Wall jets and curved wall jets
+
+**The flow a Coanda effector produces.** Plane, three-dimensional and curved wall jets, their turbulence, roughness and pressure-gradient effects.
+
+**69 records.** \[[Wygnanski and Champagne 1968][research_wygnanski_champagne_1968]\] \[[Bajura and Szewczyk 1970][research_bajurara_szewczykaa_1970]\] \[[Bangert 1971][research_bangert_1971]\] \[[Kind 1971][research_kind_1971]\] \[[Piva 1972][research_pivar_1972]\] \[[Narasimha et al 1973][research_narasimhar_narayanky_1973]\] \[[McLean and Herring 1974][research_mcleanjd_herringhj_1974]\] \[[McLean and Herring 1974][research_mcleanjd_herringhj_1974_b]\] \[[Campbell 1975][research_campbelljf_1975_c]\] \[[Tsuji et al 1976][research_tsuji_motikawa_1976]\] \[[Alcaraz et al 1977][research_alcaraz_charnay_1977]\] \[[Catalano et al 1977][research_catalanogd_mortonjb_1977]\] \[[Catalano et al 1978][research_catalanogd_mortonjb_1978]\] \[[Catalano et al 1978][research_catalanogd_mortonjb_1978_b]\] \[[Kotansky and Glaze 1978][research_kotanskydr_glazelw_1978]\] \[[Morton et al 1978][research_mortonjb_catalanogd_1978]\] \[[Catalano et al 1979][research_catalano_morton_1979]\] \[[Catalano et al 1979][research_catalanogd_mortonjb_1979_b]\] \[[Catalano et al 1979][research_catalanogd_mortonjb_1979_c]\] \[[Horne and Karamcheti 1979][research_hornec_karamchetik_1979]\] \[[Saripalli and Simpson 1979][research_saripallikr_simpsonrl_1979]\] \[[Kotansky and Glaze 1980][research_kotansky_glaze_1980]\] \[[Maki et al 1980][research_maki_ito_1980]\] \[[Saripalli and Simpson 1980][research_saripallikr_simpsonrl_1980]\] \[[Kotansky and Glaze 1981][research_kotanskydr_glazelw_1981]\] \[[Back and Cuffel 1982][research_backl_cuffelr_1982]\] \[[Gibson and Younis 1982][research_gibson_younis_1982]\] \[[Hartmann 1982][research_hartmann_1982]\] \[[Wall interference effects on 1983][research_wall_interference_1983]\] \[[Horne 1984][research_hornewc_1984]\] \[[Roberts 1986][research_robertsleonard_1986]\] \[[Roberts 1987][research_robertsleonard_1987]\] \[[Rodman et al 1987][research_rodman_wood_1987]\] \[[Rodman et al 1987][research_rodmanlc_woodnj_1987]\] \[[Rodman et al 1989][research_rodmanlc_woodnj_1989]\] \[[Rask et al 1990][research_rask_goldstein_1990]\] \[[Gregory-Smith and Hawkins 1991][research_gregorysmith_hawkins_1991]\] \[[Lim and Roberts 1991][research_limhockbin_robertsleonard_1991]\] \[[Park and Rew 1991][research_park_rew_1991]\] \[[Park and Rew 1992][research_park_rew_1992]\] \[[Yoon et al 1993][research_yoon_kim_1993]\] \[[Myszko and Knowles 1994][research_myszko_knowles_1994]\] \[[Matsson 1995][research_matsson_1995]\] \[[Le Cunff and Zebib 1996][research_lecunff_zebib_1996]\] \[[Rew and Park 1996][research_rew_park_1996]\] \[[Fasel 2000][research_fasel_2000]\] \[[Likhachev et al 2001][research_likhachev_neuendorf_2001]\] \[[Tachie et al 2001][research_tachie_bergstrom_2001]\] \[[Hossain and Kader 2004][research_hossain_kader_2004]\] \[[Imao et al 2005][research_imao_kikuchi_2005]\] \[[Inoue et al 2005][research_inoue_funato_2005]\] \[[Mochizuki et al 2005][research_mochizuki_yamada_2005]\] \[[Han et al 2006][research_han_dezhou_2006]\] \[[Afzal and Seena 2011][research_afzal_seena_2011]\] \[[Kumar and Das 2011][research_kumar_das_2011]\] \[[Rostamy et al 2011][research_rostamy_bergstrom_2011]\] \[[Pramanik and Das 2014][research_pramanik_das_2014]\] \[[Pramanik and Das 2014][research_pramanik_das_2014_b]\] \[[Pramanik and Kumar Das 2014][research_pramanik_kumardas_2014]\] \[[Kumar 2015][research_kumar_2015]\] \[[Tesař 2015][research_tesar_2015_b]\] \[[Khayat 2017][research_khayat_2017]\] \[[van Hout et al 2018][research_vanhout_rinsky_2018]\] \[[Weidman 2018][research_weidman_2018]\] \[[Baleriola et al 2019][research_baleriola_leroy_2019]\] \[[Hatakawa et al 2019][research_hatakawa_mochizuki_2019]\] \[[Pease et al 2021][research_pease_minette_2021]\] \[[McBreen and Zha 2024][research_mcbreen_zha_2024]\] \[[Pajayakrit][research_pajayakrit]\]
+
+### Shear layers, receptivity and periodic excitation
+
+**The mechanism oscillatory control exploits.** Free and separated shear layers and boundary layers forced by periodic excitation, and their receptivity.
+
+**30 records.** \[[Leehey and Shapiro 1980][research_leehey_shapiro_1980]\] \[[Bechert and Stahl 1984][research_bechertdw_stahlb_1984]\] \[[Bayliss et al 1985][research_baylissa_maestrellol_1985]\] \[[Fiedler and Mensing 1985][research_fiedler_mensing_1985]\] \[[Bayliss et al 1986][research_baylissa_maestrellol_1986]\] \[[Lam and Ko 1986][research_lam_ko_1986]\] \[[Lam et al 1986][research_lam_ko_1986_b]\] \[[Balsa 1988][research_balsathomasf_1988]\] \[[Balsa 1989][research_balsathomasf_1989]\] \[[Lumley 1989][research_lumleyjohnl_1989]\] \[[Kraus and Cutler 1993][research_krausdonnak_cutlerandrewd_1993]\] \[[Strykowski and Krothapalli 1993][research_strykowski_krothapalli_1993]\] \[[Joslin et al 1994][research_joslinronaldd_nicolaidesra_1994]\] \[[Manuilovich 1995][research_manuilovich_1995]\] \[[Pack and Seifert 1999][research_packlatuniag_seifertavi_1999]\] \[[Semionov and Kosinov 2000][research_semionov_kosinov_2000]\] \[[Adelgren et al 2002][research_adelgren_elliot_2002]\] \[[Billeter 2004][research_billeter_2004]\] \[[Kozato and Imao 2005][research_kozato_imao_2005]\] \[[Mittal 2005][research_mittal_2005_b]\] \[[Mittal 2006][research_mittal_2006]\] \[[Mittal 2007][research_mittal_2007]\] \[[Yehoshua and Seifert 2007][research_yehoshua_seifert_2007]\] \[[Samimy et al 2018][research_samimy_webb_2018]\] \[[Borodulin et al 2020][research_borodulin_ivanov_2020]\] \[[Singbeil et al 2021][research_singbeil_ghiroaga_2021]\] \[[Elsner et al 2024][research_elsner_sokolenko_2024]\] \[[Nakano and Ohtsuki 2024][research_nakano_ohtsuki_2024]\] \[[Sokolenko et al 2024][research_sokolenko_drozdz_2024]\] \[[Kitzinger][research_kitzinger]\]
+
+### This programme and the programme it descends from
+
+**The titles that name CRANE or the work it descends from.** No cited title names this aircraft or this contractor, and the homonym measurements under The Source Base show why the programme's own name finds so little.
+
+**2 records.** \[[Tallent and Koss 2004][research_mafc_lessons_2004]\] \[[Vukasinovic et al 2023][research_vukasinovic_glezer_2023]\]
 
 ### The medium, admitted by the shared atmosphere family alone
 
-**One record.** \[[Air Force Test Pilot School Edwards Afb Ca 1962][research_airforcetestpilotschooledwardsafbca_1962]\]
+**The atmosphere every number here is computed in.** The standard atmosphere tables of a flight-test manual.
+
+**1 record.** \[[Air Force Test Pilot School Edwards Afb Ca 1962][research_airforcetestpilotschooledwardsafbca_1962]\]
 
 ## Where the Framing Breaks Down
 
@@ -975,11 +1032,11 @@ DARPA's release opens by observing that in December 1903 the Wright brothers fle
 
 **The framing is half right and the half that is wrong is interesting rather than pedantic.** The 1903 aircraft was essentially a larger version of the 1902 glider, whose key control refinement was a movable vertical tail, and it carried a forward-mounted horizontal surface for climb and descent \[[1903 Wright Flyer][ref_nasm_flyer]\]. **So the Flyer used movable external surfaces for pitch and for yaw from the first flight.** For roll it did not. **It twisted the wing.**
 
-**Wing warping is not a movable control surface. It is a morphing wing**, and the mechanism DARPA credits the Wrights with is the one axis where the original solution was not the paradigm being broken. Ailerons came later. **The paradigm is therefore 124 years old for two axes and rather younger for the third**, and the X-65's twin vertical tails carry conventional rudders among their fourteen surfaces, so the aircraft does not break the paradigm on the axis the framing invokes.
+**Wing warping is not a movable control surface. It is a morphing wing**, and the mechanism DARPA credits the Wrights with is the one axis where the original solution was not the paradigm being broken. **The paradigm is therefore 122 years old on this article's dateline for two axes and rather younger for the third**, and the X-65 carries traditional flaps and rudders among its conventional surfaces \[[DARPA moves forward on the X-65][ref_darpa_news]\], so the aircraft does not break the paradigm on the axis the framing invokes.
 
 ### The Amplification Curve Is Doing a Great Deal of Work
 
-**This article's central arithmetic rests on a quantity it does not derive.** The amplification is treated as a parameter swept from ten to a hundred, drawn from the ranges the separation-control literature reports, and no attempt is made to predict it for this aircraft's geometry.
+**This article's central arithmetic rests on a quantity it does not derive.** The amplification is treated as a parameter swept from ten to a hundred, and the low-speed separation-control experiments the review summarises imply values at and above the top of that band \[[Abdolahipour 2024][research_review_afc_2024]\], so no attempt is made to predict it for this aircraft's geometry.
 
 **That is honest and it is also the weakest link.** The amplification depends on the pressure gradient, the boundary-layer state, the Reynolds number, the effector geometry, its position relative to the separation line and the excitation frequency. **None of those is public for the X-65A and several are precisely what the aircraft exists to measure.** So the authority ratios in this article are conditional statements of the form that if the amplification is thirty then the deficit at Mach 0.7 is the 43.3 percent displayed in the section on the authority ratio, and they are not predictions.
 
@@ -991,9 +1048,11 @@ The Reynolds number on a chord is the ratio of inertial to viscous forces. Let $
 
 $$ \mathrm{Re} = \frac{\rho V \bar{c}}{\mu}, \qquad \mu\left( T \right) = \frac{C_1 \, T^{3/2}}{T + S_\mu} $$
 
-with $C_1$ of $1.458 \times 10^{-6}$ and $S_\mu$ of 110.4 kelvin. **That returns 1.7894 times ten to the minus five pascal second at sea level**, against the published 1.789 times ten to the minus five. **At Mach 0.7 and thirty thousand feet on a chord of 1.750 metre the X-65A flies at 11.44 million.**
+with $C_1$ of $1.458 \times 10^{-6}$ and $S_\mu$ of 110.4 kelvin. **That returns 1.7894 times ten to the minus five pascal second at sea level.** **At Mach 0.7 and thirty thousand feet on a chord of 1.750 metre the X-65A flies at 11.44 million.**
 
 **Active separation control by oscillatory excitation was demonstrated above that Reynolds number in the year 2000.** Seifert and Pack tested the method at chord Reynolds numbers as high as forty million and state in their summary that it was proved successful in delaying boundary layer separation and reattaching separated flows at chord Reynolds numbers of order ten million \[[Seifert and Pack 2000][research_seifert_pack_2000]\]. **Their baseline flow was made fully turbulent deliberately, to remove transition as a variable, and they report that the Reynolds number has a very weak effect on the model pressure distributions and spectra regardless of Mach number or sweep.**
+
+The Reynolds numbers in the first column are those the review reports for each study \[[Abdolahipour 2024][research_review_afc_2024]\].
 
 | Study | Reynolds number | The X-65A in flight over it |
 |---|---|---|
@@ -1051,15 +1110,23 @@ A suction device removes low-momentum air rather than adding high-momentum air, 
 
 ## The Source Base
 
-### How the Survey Admits a Record
+**The research survey holds 3,305 research records drawn from the NASA Technical Reports Server, the Defense Technical Information Center and Crossref, the bibliographic index of journal and conference records**, of which 1,351 are report primaries, being 40.9 percent, by the identifier rule set out under The Definition of Primary. 3,197 records carry a usable year, running from 1927 to 2027 with a median of 2006. **1,140 of those, 35.7 percent, predate the year 2000, and 958, or 30.0 percent, are 2015 or later.**
 
-**The research survey draws on NASA's Technical Reports Server, the Defense Technical Information Center and a bibliographic index of journal and conference records.** Records are admitted when their titles match this article's subject vocabulary. A person has read the titles that the exclusion patterns flag and a random sample of the rest. Records read as off topic, and others of their kinds, are removed.
+**The heaviest decade is the 2010s, with 855 records, 26.7 percent of the dated set.** The 1970s hold 342 records against 63 in the 1960s, and 219 of those 342 are in the cluster on blowing, the Coanda surface and the jet flap, which is the arrival of the circulation-control and powered-lift literature this subject keeps returning to.
 
-**Many words this subject depends on also name something else, and a record that shares only such a word is excluded.** Full scale also names demonstrations in environmental, industrial and civil engineering. The Coanda effect is also named in cardiology, biology and hydraulic engineering. Hingeless also names the hingeless arch of structural engineering and, on the reports server, the hingeless rotor. Flow control also names propellant valves, a synthetic jet also matches synthetic jet fuel, a fluidic actuator also names the soft actuators of robotics, and a technology demonstrator or a flight test also names work outside aviation, among it the cryocooler and the gyro control laws of the Hubble Space Telescope. Correction, erratum and withdrawal notices and peer-review records are excluded as well, because a survey counts research works and those are editorial events rather than works.
-
-**Some records of doubtful relevance are kept.** Building ventilation by a Coanda wall jet, microfluidic oscillators, fluidic oscillators for fuel cells and for combustion control, bleed-air coolers and bleed-air contaminant sampling, and Coanda valves for water-jet propulsion each share a device or an air supply with this subject, so each is kept and a reader may weigh it accordingly.
-
-**Not every research title has been read for relevance, so the off-topic share that remains is an estimate from a sample.** The most recent measurement read 300 records drawn at random from those not previously read and found three off topic, or 1.0 percent. The records that sample exposed have been removed, together with others sharing their homonyms, so that figure overstates what remains by an unknown amount, and no later unread sample has been drawn.
+| Decade | Records | Share of the dated set |
+|---|---|---|
+| 1920s | 2 | 0.1 percent |
+| 1930s | 3 | 0.1 percent |
+| 1940s | 29 | 0.9 percent |
+| 1950s | 66 | 2.1 percent |
+| 1960s | 63 | 2.0 percent |
+| 1970s | 342 | 10.7 percent |
+| 1980s | 305 | 9.5 percent |
+| 1990s | 330 | 10.3 percent |
+| 2000s | 712 | 22.3 percent |
+| 2010s | 855 | 26.7 percent |
+| 2020s | 490 | 15.3 percent |
 
 ### What the Reports Server Holds
 
@@ -1089,13 +1156,7 @@ A suction device removes low-momentum air rather than adding high-momentum air, 
 | `sweeping jet actuator` | 10 | 10 | nothing off subject |
 | `hingeless control` | 10 | 7 | a dictionary entry for the word and two papers on hingeless rotors, **and 72 records on the reports server, 61 of them with rotorcraft vocabulary in the title** |
 
-**Three of those rows matter to anyone searching this subject.** The programme's acronym finds nothing aeronautical. The word `effector` without qualification finds mostly biology. **And the article's own keystone parameter is almost absent from titles**, which is the next subsection.
-
-### The Keystone Parameter Is Almost Never in a Title
-
-**Six of the 3,611 cited research titles name the momentum coefficient or the blowing coefficient, counting every title that carries either phrase.** The cluster for the parameter holds 17 records because it also gathers titles on the blowing rate and on actuator effectiveness.
-
-**That is not a thin literature.** Every paper in active flow control uses the momentum coefficient, and the review this article leans on devotes a numbered section to it \[[Taleghani and Hosseini 2024][research_review_afc_2024]\]. **The parameter is a method rather than a subject, so it appears in equations and in axis labels and not in titles.** **The literature is healthy and the quantity is invisible to a title search.**
+**Three of those rows matter to anyone searching this subject.** The programme's acronym finds nothing aeronautical. The word `effector` without qualification finds mostly biology. **And the article's own keystone parameter is almost absent from titles**, as Thin Subjects below sets out.
 
 ### A Homonym That Depends on Which Registry You Ask
 
@@ -1111,21 +1172,9 @@ The survey therefore excludes rotorcraft, as the section on what is out of scope
 
 **Most of the thresholds this article uses reach it through one review.** The regime boundary of three to five percent, the reduced-frequency band, the measured response at 0.08 percent, the reattachment at 0.34 percent, the modified-coefficient thresholds, the velocity-ratio condition, the caution against comparing momentum coefficients across configurations and the attribution of the definition to Poisson-Quinton are taken from the review rather than from the works that established them.
 
-**Nine originals are identified and four of them, all agency reports, are read in full.** **Every journal item the review names is behind a paywall**, so a first-hand reading is available only where the work was also published as a report. **That asymmetry favours the report literature wherever a first-hand reading matters.**
+**The review's bibliography names the originals.** They are Greenblatt and Wygnanski 2000 and Wygnanski 2000 for the regime boundary, the frequency band and the velocity-ratio condition, Seifert and others 1996 for the response at 0.08 percent, Feero and others 2015 for the reattachment at 0.34 percent, Munday and Taira 2018 for the modified-coefficient thresholds, and Joslin and Miller 2009 for the attribution to Poisson-Quinton, while the caution against comparing coefficients across configurations is the review's own \[[Abdolahipour 2024][research_review_afc_2024]\]. **Every journal item the review names is behind a paywall**, so a first-hand reading is available only where the work was also published as a report, and four agency reports on separation control are read in full instead. **That asymmetry favours the report literature wherever a first-hand reading matters.**
 
 **The most consequential of the four is the report on separation control at flight Reynolds numbers** \[[Seifert and Pack 2000][research_seifert_pack_2000]\], whose bearing on the Reynolds-number argument, and whose naming of high-speed control authority as an open problem, are set out in the section headed Where the Framing Breaks Down.
-
-### What a Bleed Costs Is Not in the Public Registries
-
-**What a bleed costs an engine is known to the companies that build engines and is not in either public registry.** Asking the reports server for a secondary air system returns two hundred and seven records and they are the proceedings of a seal workshop, because inside a turbine engine secondary air means internal cooling. Asking it for an aircraft air supply system returns electric-propulsion impedance measurements and direct-current power supplies. Asking the defence registry what bleed air costs in engine performance returns two hundred records, of which three concern this article's subject and none of those three is about bleed air.
-
-**So the absence of a number for the thrust penalty in this article is a gap in the record.**
-
-### The Programme's Own Ancestor Has No Report Literature
-
-**The CRANE manager named Micro Adaptive Flow Control as the work CRANE descends from, and neither registry holds a report about it.** The reports server returns, for that phrase, two summer faculty fellowship programmes from 1995, a Spacelab life-sciences experiment and a paper on the importance of properties in modelling. The defence registry returns one hundred and twenty-one records, of which two come near this subject and both are about adaptive *structures* rather than adaptive flow control.
-
-**The only trace of the programme that either registry or the bibliographic index yields is a single conference paper, behind a paywall, whose title is its lessons learned** \[[MAFC lessons learned 2004][research_mafc_lessons_2004]\]. **A DARPA programme leaves no report literature in a NASA registry because it was never a NASA programme**, and the defence registry holds what its contractors delivered rather than what the agency learned. **The ancestor of an aircraft is harder to find than the aircraft.**
 
 ### The Same Work Twice, Once With a File and Once Without
 
@@ -1137,11 +1186,54 @@ The survey therefore excludes rotorcraft, as the section on what is out of scope
 
 **Read to the abstract only, and quoted for nothing inside it.** Reddy and Woszidlo 2024, which is closed access, held by no repository, and whose two scaling parameters both registries render as a placeholder \[[Reddy and Woszidlo 2024][research_reddy_woszidlo_2024]\].
 
-**Held at registry-record strength, named because the review names them and quoted for nothing.** Seifert and others 1996 in the Journal of Aircraft, Munday and Taira 2018 in the AIAA Journal, Feero and others 2017 in Experiments in Fluids, the MAFC lessons-learned paper of 2004, the flow-control terminology chapter of the 2009 AIAA volume, and Wygnanski's 1997 conference paper. **Six paywalled items whose existence, venue and year are confirmed and whose contents are not.** Where this article states a number those works established, it states it on the review's authority and says so.
+**Held at registry-record strength and quoted for nothing.** Five are named by the review, being Seifert and others 1996 in the Journal of Aircraft, Munday and Taira 2018 in the AIAA Journal, Feero and others 2015 in the AIAA Journal \[[Feero et al 2015][research_feero_goodfellow_2015]\] and 2017 in Experiments in Fluids, and the flow-control terminology chapter of the 2009 AIAA volume. Two more are the MAFC lessons-learned paper of 2004 and Wygnanski's 1997 conference paper on the periodic addition of momentum. **Seven paywalled items whose existence, venue and year are confirmed and whose contents are not.** Where this article states a number those works established, it states it on the review's authority and says so.
 
-**One citation the review gives could not be matched.** It attributes a reattachment threshold to Feero and others in 2015 and the registry holds that work in 2017. **The year is reported as the registry gives it and the discrepancy is left standing rather than resolved**, because resolving it would need the review's own bibliography, which the open-access text renders as author-year strings without identifiers.
+**The reattachment threshold belongs to the 2015 paper and not to the 2017 one.** The review attributes the reattachment at 0.34 percent to Feero and others in 2015, and its bibliography identifies that work as a 2015 AIAA Journal paper on flow reattachment by synthetic jet actuation on a low-Reynolds-number airfoil, distinct from the same group's 2017 paper on synthetic jet location, which the review cites separately \[[Abdolahipour 2024][research_review_afc_2024]\].
 
-**Retrieved as records and not read.** The remaining 3,611 research records, which are cited as a body of literature in the clusters above and not quoted.
+**Read by title only.** The other research records, which are cited as a body of literature in the clusters above and not quoted.
+
+### The Definition of Primary
+
+**Primacy is a property of the document, and this survey derives it from the identifier.** A record is a report primary when its address is on the NASA Technical Reports Server or it carries a digital object identifier under the 10.21236 prefix, which Crossref registers for Defense Technical Information Center reports. **The four agency reports on separation control that this article reads in full are report primaries under that rule.** The rule does not reach the journal literature, such as the papers the review names behind paywalls, so 40.9 percent is a lower bound on how much of the survey is first-hand.
+
+### Thin Subjects
+
+**Six subjects that this article's derivations depend on have thin literatures.** Each count below is the number of research records in this survey whose title carries at least one of the listed terms, with a hyphen read as a space. Where a row joins two groups of terms with the word together, a title must carry a term from each group.
+
+| Subject | Title terms counted | Records |
+|---|---|---|
+| the momentum coefficient named as a parameter | momentum coefficient, momentum coefficients, blowing coefficient, blowing coefficients | 10 |
+| the effect of altitude on what an effector delivers | altitude, altitudes together with flow control, actuator, actuators, actuation, blowing, bleed, momentum | 0 |
+| the effect of Mach number on active flow control | Mach, compressibility, compressible, transonic together with active flow control, synthetic jet, synthetic jets, sweeping jet, sweeping jets, fluidic oscillator, fluidic oscillators, separation control, pulsed jets | 11 |
+| what engine bleed costs in thrust | bleed, power extraction together with thrust, turbojet, turbofan, engine performance, aircraft performance | 9 |
+| the joined diamond planform | diamond together with joined | 3 |
+| the programme this aircraft descends from | micro adaptive flow control, microadaptive, MAFC | 2 |
+
+**The keystone parameter is almost never in a title, and that is not a thin literature.** Ten of the 3,305 cited research titles name the momentum coefficient or the blowing coefficient. The cluster for the parameter holds 13 records, eight of which name it, and the rest are titles on blowing parameters and actuation efficiency. Every paper in active flow control uses the momentum coefficient, and the review this article leans on devotes a numbered section to it \[[Abdolahipour 2024][research_review_afc_2024]\]. **The parameter is a method rather than a subject, so it appears in equations and in axis labels and not in titles.** **The literature is healthy and the quantity is invisible to a title search.**
+
+**No cited title asks how altitude changes what a flow-control effector delivers**, which is the question this article's central result answers. The nearest is a 2024 paper whose title asks it of operating conditions in general \[[Reddy and Woszidlo 2024][research_reddy_woszidlo_2024]\], and the abstract is all of it that can be read.
+
+**The Mach dependence that this article finds binding has a literature of 11 titles**, of which two name an airfoil and three name separation control, and none names a control effector's authority or a control moment. Of the seven that name neither, five characterise actuators in compressible flow or apply them to a transonic compressor, and the others are a test facility and a weapon release.
+
+**What a bleed costs an engine is known for few engines.** Nine cited titles join bleed or power extraction to thrust, to a turbojet or turbofan, or to engine or aircraft performance. Two of them are NASA records of 1992 on the effect of bleed extraction on the thrust of the F404 \[[Yuhas and Ray 1992][research_yuhasandrewj_rayronaldj_1992]\] \[[Yuhas and Ray 1992][research_yuhasandrewj_rayronaldj_1992_b]\], and one asks the same question of a commercial engine on an unmanned aircraft \[[Takahashi and Stone 2019][research_takahashi_stone_2019]\]. None names the FJ44. Asking the reports server for a secondary air system returns two hundred and seven records and they are the proceedings of a seal workshop, because inside a turbine engine secondary air means internal cooling. Asking it for an aircraft air supply system returns electric-propulsion impedance measurements and direct-current power supplies. Asking the defence registry what bleed air costs in engine performance returns two hundred records, of which three concern this article's subject and none of those three is about bleed air.
+
+**The joined diamond planform has three titles of its own**, all of them design and aerodynamic studies, and none is about controlling it. The planform's control is reached instead through the far larger literatures on joined wings and on tailless aircraft.
+
+**The CRANE manager named Micro Adaptive Flow Control as the work CRANE descends from, and neither registry holds a report under that name.** The reports server returns, for that phrase, two summer faculty fellowship programmes from 1995, a Spacelab life-sciences experiment and a paper on the importance of properties in modelling. The defence registry returns one hundred and twenty-one records, of which two come near this subject and both are about adaptive *structures* rather than adaptive flow control. **The only trace of the programme under its own name is a single conference paper, behind a paywall, whose title is its lessons learned** \[[Tallent and Koss 2004][research_mafc_lessons_2004]\]. Written as one word, the technique's name finds one defence report, an Army Research Laboratory study of microadaptive flow control applied to a spinning projectile \[[McMichael et al 2005][research_mcmichael_lovas_2005]\], whose title names the technique rather than the programme. **A DARPA programme leaves no report literature in a NASA registry because it was never a NASA programme**, and the defence registry holds what its contractors delivered rather than what the agency learned. **The ancestor of an aircraft is harder to find than the aircraft.**
+
+### What the Survey Admits
+
+**A record is admitted only when a person reading its title finds it on this article's subject**, read against the argument rather than against a word. The subjects are the ones the argument uses, being flow control and its devices, control without a hinge, control allocation, the conventional control system the effectors would replace, the air supply, Reynolds-number and scale effects, the planform family, flight-data identification, research aircraft and demonstrators, the jets, wall jets and shear layers the effectors act through, the atmosphere, and the programme itself.
+
+**Many words this subject depends on also name something else, and a record that shares only such a word is excluded.** Full scale also names demonstrations in environmental, industrial and civil engineering. The Coanda effect is also named in cardiology, biology, hydraulic engineering, building ventilation and plasma torches. Hingeless also names the hingeless arch of structural engineering and the hingeless rotor. Flow control also names propellant valves, a synthetic jet also matches synthetic jet fuel, a fluidic actuator also names the soft actuators of robotics, and a fluidic oscillator also serves flow meters, drilling hammers, fuel cells and microfluidics. A jet in a crossflow is also a fuel spray and a flame, a wall jet is also a cooling film, and the excitation of a turbulent boundary layer is also the excitation of a panel. Bleed air also carries the literature of cabin air quality and of valve and sensor faults, and a technology demonstrator or a flight test also names work outside aviation. Correction, erratum and withdrawal notices and peer-review records are excluded as well, because a survey counts research works and those are editorial events rather than works, and a document deposited twice under the same title is counted once. A review of a book, a short glossary, dictionary or encyclopedia entry and a notice such as an editorial or a news item are not admitted either, because none of them is a research work.
+
+**Three classes are excluded by the scope set out under Out of Scope**, being rotorcraft, the control of shock and boundary-layer interaction, and thrust vectoring that deflects the nozzle rather than the jet. The cost of the first is the circulation-control rotor and the X-Wing, and it is stated there.
+
+**Some records of doubtful relevance are kept.** Environmental control systems fed by bleed air, the bleed-air spoilers of a parafoil, the Coanda effect of a water jet, fluidic amplifiers and fluidic calibration tools, ice protection by synthetic jets, wall-bounded turbulence in pipes, and the tunnel and flight correlation of the Space Shuttle and Apollo each share a device, an air supply or a method with this subject, so each is kept and a reader may weigh it accordingly.
+
+**No cluster is a residual.** The fluid mechanics the effectors act through is gathered in three named clusters, on jets in a crossflow, on wall jets and on shear layers and their excitation, and a record enters one of them only when its title is one of those flows.
+
+**Every research title has been read for relevance, so the off-topic share that remains is a matter of reading judgement.** A reading of titles cannot show that a work is relevant in substance, so this is a statement about titles only.
 
 ## Epistemic State
 
@@ -1157,7 +1249,7 @@ The survey therefore excludes rotorcraft, as the section on what is out of scope
 
 **Inference, marked as such.** That the Phase 0 to Phase 1 downselect occurred in mid-2021 is inferred from two option exercises in June and August 2021 and the absence of any option exercise on the third contract. No source consulted states a date. **That Phase 3 is worth about fifty-two million dollars** follows from subtracting the reported Phase 2 figure from the obligated total on one contract, and the press figure and the award record are not the same kind of quantity. **That the fiscal year 2026 request of 4.000 million dollars is a placeholder** is inferred from its being the only round number among seven figures carrying three decimals.
 
-**Assumptions this article makes and could be wrong about.** That the air comes from engine bleed rather than a dedicated compressor, which is undetermined in the record and which decides whether the altitude result applies at all. That the engine operates at constant corrected flow across the altitude band. That the jet is choked, which the computed nozzle pressure ratio supports with an order of magnitude of margin under the bleed architecture. That the reference area is sixteen square metres, which is the middle of a sweep. That the effectors blow rather than suck, where the official definition admits both. That the amplification lies between ten and a hundred.
+**Assumptions this article makes and could be wrong about.** That the air comes from engine bleed rather than a dedicated compressor, which is undetermined in the record and which decides whether the altitude result applies at all. That the engine operates at constant corrected flow across the altitude band. That the jet is choked, which the computed nozzle pressure ratio supports with an order of magnitude of margin under the bleed architecture. That the reference area is sixteen square metres, which is the middle of a sweep. That the effectors blow rather than suck, where the official definition admits both. That the amplification at cruise lies between ten and a hundred, where the low-speed separation-control experiments the review summarises imply a hundred or more.
 
 **What the record does not settle.** Where the pressurised air comes from. What the wing area, plenum pressure, bleed fraction or effector geometry are. What the aircraft weighs, to within 200 pound. Whether the planform is best described as joined tandem, diamond or triangular, three sources giving three answers. What the bleed costs in thrust. Whether the restructured co-investment is recorded anywhere public. **And whether any of this works, which is what the aircraft is for.**
 
@@ -1214,7 +1306,7 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 - [Defense Advanced Research Projects Agency, RDT&E Programs Justification Book, President's Budget 2024][ref_darpa_rdte_2024]
 - [Defense Advanced Research Projects Agency, RDT&E Programs Justification Book, President's Budget 2025][ref_darpa_rdte_2025]
 - [Defense Advanced Research Projects Agency, RDT&E Programs Justification Book, President's Budget 2026, June 2025][ref_darpa_rdte_2026]
-- [DOD 4120.15-L Addendum, MDS Designators Allocated After 19 August 1998][ref_mds_addendum]
+- [Parsch, DOD 4120.15-L Addendum, MDS Designators Allocated After 19 August 1998][ref_mds_addendum]
 - [Lauer and others, FJ44 Turbofan Engine Test at NASA Glenn Research Center's Aero-Acoustic Propulsion Laboratory, NASA/TM-2009-215594][ref_fj44_test]
 - [Losey, Two-year flight delay for DARPA X-plane that steers with air bursts, Defense News, 20 November 2025][ref_defensenews_delay]
 - [Smithsonian National Air and Space Museum, 1903 Wright Flyer, collection record][ref_nasm_flyer]
@@ -1246,10 +1338,12 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 - [Abdelghany et al 2023][research_abdelghany_sarhan_2023]
 - [Abdelraouf et al 2020][research_abdelraouf_elmekawy_2020]
 - [Abdelraouf et al 2020][research_abdelraouf_kassab_2020]
+- [Abdolahipour 2024][research_review_afc_2024]
 - [Abe et al 2007][research_abe_nomura_2007]
 - [Abe et al 2008][research_abe_nomura_2008]
 - [Abe et al 2015][research_abe_nonomura_2015]
 - [Abed 2000][research_abed_2000]
+- [Abed 2019][research_nabed_2019]
 - [Abegg et al 2001][research_abegg_bippes_2001]
 - [Abnous et al 2017][research_abnous_zheng_2017]
 - [Abramova and Soudakov 2024][research_abramova_soudakov_2024]
@@ -1257,33 +1351,30 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 - [Abramson 1975][research_abramson_1975]
 - [Abramson 1977][research_abramson_1977]
 - [Abramson 2004][research_abramson_2004]
-- [Acharya, Mukund and Metwally, Metwally H. 1992][research_acharyamukund_metwallymetwallyh_1992]
+- [Acharya and Metwally 1992][research_acharyamukund_metwallymetwallyh_1992]
+- [Acheson 2018][research_achesonmichaelj_2018]
+- [Acheson 2018][research_achesonmichaelj_2018_b]
+- [Acheson and Gregory][research_michaeljacheson_irenegregory_b]
+- [Acheson et al][research_michaeljacheson_jacobcook]
 - [Acheson et al 2020][research_acheson_gregory_2020]
-- [Acheson, Michael J. 2018][research_achesonmichaelj_2018]
-- [Acheson, Michael J. 2018][research_achesonmichaelj_2018_b]
 - [Active Flow Control 2025][research_active_flow_2025]
-- [Adamo 2023][research_adamo_2023]
-- [Addessio, F. L. and Skifstad, J. G. 1975][research_addessiofl_skifstadjg_1975]
-- [Addessio, F. L. and Skifstad, J. G. 1977][research_addessiofl_skifstadjg_1977]
+- [Addessio and Skifstad 1975][research_addessiofl_skifstadjg_1975]
+- [Addessio and Skifstad 1977][research_addessiofl_skifstadjg_1977]
 - [Addington and Myatt 2000][research_addington_myatt_2000]
-- [Addington et al 2002][research_addington_hall_2002]
 - [Adelgren et al 2002][research_adelgren_elliot_2002]
-- [Adeniji-Fashola, A. A. 1989][research_adenijifasholaaa_1989]
-- [Adib et al 2007][research_adib_baptista_2007]
 - [Adler and Martins 2023][research_adler_martins_2023]
 - [Adrian and Balachandar 2001][research_adrian_balachandar_2001]
 - [Advisory Group for Aerospace Research and Development 1984][research_advisorygroupforaerospaceresearchanddevelopment_1984]
 - [Advisory Group for Aerospace Research and Development 1999][research_advisorygroupforaerospaceresearchanddevelopment_1999]
 - [Aerodynamic Heat Exchanger A 2006][research_aerodynamic_heat_2006]
 - [Aerospace - Flight Control][research_aerospace]
-- [Aerospace Fluid Power and][research_aerospace_fluid]
 - [Afzal and Seena 2011][research_afzal_seena_2011]
 - [Agarwal et al 2008][research_agarwal_rediniotis_2008]
 - [Agashe et al 2009][research_agashe_arnold_2009]
 - [Agate et al 2018][research_agate_pande_2018]
 - [Aguirre-Villegas et al 2025][research_aguirrevillegas_mirandagodoy_2025]
 - [Ahmad et al 2005][research_ahmad_watterson_2005]
-- [Ahmadi, G. et al 2010][research_ahmadig_marzoccap_2010]
+- [Ahmadi et al 2010][research_ahmadig_marzoccap_2010]
 - [Ahmed 2019][research_ahmed_2019]
 - [Ahmed 2019][research_ahmed_2019_b]
 - [Ahmed 2019][research_ahmed_2019_c]
@@ -1291,12 +1382,12 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 - [Ahmed et al 2025][research_ahmed_das_2025]
 - [Ahn and Lee 2012][research_ahn_lee_2012]
 - [Ahn et al 2017][research_ahn_kim_2017]
-- [Ahuja, K. K. et al 2003][research_ahujakk_sankarln_2003]
+- [Ahuja et al 2003][research_ahujakk_sankarln_2003]
 - [Aider et al 2014][research_aider_joseph_2014]
-- [Aiken, T. N. and Cook, A. M. 1971][research_aikentn_cookam_1971]
-- [Aiken, T. N. and Cook, A. M. 1973][research_aikentn_cookam_1973]
-- [Aiken, T. N. et al 1973][research_aikentn_aoyagik_1973]
-- [Aiken, T. N. et al 1979][research_aikentn_falarskimd_1979]
+- [Aiken and Cook 1971][research_aikentn_cookam_1971]
+- [Aiken and Cook 1973][research_aikentn_cookam_1973]
+- [Aiken et al 1973][research_aikentn_aoyagik_1973]
+- [Aiken et al 1979][research_aikentn_falarskimd_1979]
 - [Air Force Flight Test Center Edwards Afb Ca 1974][research_airforceflighttestcenteredwardsafbca_1974]
 - [Air Force Test Pilot School Edwards Afb Ca 1962][research_airforcetestpilotschooledwardsafbca_1962]
 - [Aircraft Flight Control Actuation][research_aircraft_flight]
@@ -1311,80 +1402,77 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 - [Alcaraz et al 1977][research_alcaraz_charnay_1977]
 - [Alden 1993][research_alden_1993]
 - [Alexander 1979][research_alexander_1979]
-- [Alexander, Michael and Meyn, Larry A. 1994][research_alexandermichael_meynlarrya_1994]
-- [Alexander, Michael G. et al 2005][research_alexandermichaelg_andersscottg_2005]
-- [Alexander, Michael G. et al 2005][research_alexandermichaelg_andersscottg_2005_b]
-- [Alexander, Michael G. et al 2016][research_alexandermichaelg_harrisfkeith_2016]
+- [Alexander and Meyn 1994][research_alexandermichael_meynlarrya_1994]
+- [Alexander et al 2005][research_alexandermichaelg_andersscottg_2005]
+- [Alexander et al 2005][research_alexandermichaelg_andersscottg_2005_b]
+- [Alexander et al 2016][research_alexandermichaelg_harrisfkeith_2016]
 - [Ali et al 2012][research_ali_kuntjoro_2012]
 - [Ali et al 2025][research_ali_okasha_2025]
 - [Ali et al 2026][research_ali_rasani_2026]
 - [Alimi and Wünsch 2018][research_alimi_wunsch_2018]
 - [Allan Brian G. and Owens, Lewis, R. 2006][research_allanbriang_owenslewisr_2006]
-- [Allan, Brian G. et al 2000][research_allanbriang_juangjernan_2000]
-- [Allan, Brian G. et al 2004][research_allanbriang_owenslewisr_2004]
-- [Allan, Brian G. et al 2011][research_allanbriang_jonesgreg_2011]
-- [Allen, Michael J. et al 2005][research_allenmichaelj_lizotteandrewm_2005]
-- [Allison, D. O. and Dagenhart, J. R. 1978][research_allisondo_dagenhartjr_1978]
-- [Allison, Dennis O. and Dagenhart, J. Ray 1987][research_allisondenniso_dagenhartjray_1987]
-- [Alvarez 2024][research_alvarez_2024]
+- [Allan et al 2000][research_allanbriang_juangjernan_2000]
+- [Allan et al 2004][research_allanbriang_owenslewisr_2004]
+- [Allan et al 2011][research_allanbriang_jonesgreg_2011]
+- [Allen et al 2005][research_allenmichaelj_lizotteandrewm_2005]
+- [Allison and Dagenhart 1978][research_allisondo_dagenhartjr_1978]
+- [Allison and Dagenhart 1987][research_allisondenniso_dagenhartjray_1987]
 - [Alvi 2005][research_alvi_2005]
-- [Alvi, Farrukh S. 2007][research_alvifarrukhs_2007]
-- [Alvi, Farrukh S. and Gorton, Susan 2005][research_alvifarrukhs_gortonsusan_2005]
-- [Amberg, R. L. et al 1974][research_ambergrl_arlineja_1974]
+- [Alvi 2007][research_alvifarrukhs_2007]
+- [Alvi and Gorton 2005][research_alvifarrukhs_gortonsusan_2005]
+- [Amberg et al 1974][research_ambergrl_arlineja_1974]
 - [American Institute of Aeronautics and Astronautics 1993][research_americaninstituteofaeronauticsandastronautics_1993]
-- [Amiri et al 2017][research_amiri_jones_2017]
 - [Amitay and Glezer 2006][research_amitay_glezer_2006]
 - [Amitay et al 1998][research_amitay_smith_1998]
 - [Amitay et al 1999][research_amitay_smith_1999]
 - [Amitay et al 2001][research_amitay_horvath_2001]
 - [Amitay et al 2001][research_amitay_smith_2001]
 - [Ammar and Trépanier 2014][research_ammar_trepanier_2014]
-- [Anders, Scott G. and Fischer, Michael C. 1999][research_andersscottg_fischermichaelc_1999]
-- [Anders, Scott G. et al 2004][research_andersscottg_sellerswilliamliii_2004]
+- [Anders and Fischer 1999][research_andersscottg_fischermichaelc_1999]
+- [Anders et al 2004][research_andersscottg_sellerswilliamliii_2004]
+- [Anderson and Farokhi 1991][research_andersonbernhardh_farokhisaeed_1991]
 - [Anderson and Vincent 1985][research_anderson_vincent_1985]
-- [Anderson, Bernhard H. and Farokhi, Saeed 1991][research_andersonbernhardh_farokhisaeed_1991]
-- [Anderson, Bernhard H. et al 2004][research_andersonbernhardh_millerdanieln_2004]
-- [Anderson, Bernhard H. et al 2004][research_andersonbernhardh_millerdanieln_2004_b]
-- [Anderson, Bernhard H. et al 2009][research_andersonbernhardh_macejamesl_2009]
-- [Anderson, L. C. et al 1983][research_andersonlc_vincentjh_1983]
-- [Anderson, Seth B et al 1956][research_andersonsethb_quigleyherveyc_1956]
-- [Andino, Marlyn Y. et al 2015][research_andinomarlyny_linjohnc_2015]
-- [Andino, Marlyn Y. et al 2019][research_andinomarlyny_linjohnc_2019]
-- [Andrews, W. H. 1980][research_andrewswh_1980]
+- [Anderson et al 1956][research_andersonsethb_quigleyherveyc_1956]
+- [Anderson et al 1983][research_andersonlc_vincentjh_1983]
+- [Anderson et al 2004][research_andersonbernhardh_millerdanieln_2004]
+- [Anderson et al 2004][research_andersonbernhardh_millerdanieln_2004_b]
+- [Anderson et al 2009][research_andersonbernhardh_macejamesl_2009]
+- [Andino et al][research_marlynandino_latuniamelton]
+- [Andino et al][research_marlynandino_latuniapackmelton]
+- [Andino et al][research_marlynyandino_latuniapackmelton]
+- [Andino et al 2015][research_andinomarlyny_linjohnc_2015]
+- [Andino et al 2019][research_andinomarlyny_linjohnc_2019]
+- [Andrews 1980][research_andrewswh_1980]
 - [Angele 2003][research_angele_2003]
 - [Angele and Grewe 2006][research_angele_grewe_2006]
-- [Anglin, E. L. and Satran, D. 1979][research_anglinel_satrand_1979]
+- [Anglin and Satran 1979][research_anglinel_satrand_1979]
 - [Anilir et al 2024][research_anilir_kurtulus_2024]
-- [Anna, Paul D. and Kidman, David S. 1994][research_annapauld_kidmandavids_1994]
 - [Ansari Shirvan][research_ansarishirvan]
 - [Antoniou et al 2025][research_antoniou_antoniou_2025]
 - [Anwar 2025][research_anwar_2025]
 - [Aono et al 2017][research_aono_kawai_2017]
-- [Aoyagi, K. and Hickey, D. H. 1963][research_aoyagik_hickeydh_1963]
-- [Aoyagi, K. et al 1969][research_aoyagik_dickinsonso_1969]
-- [Aoyagi, K. et al 1972][research_aoyagik_halllp_1972]
-- [Aoyagi, K. et al 1973][research_aoyagik_falarskimd_1973]
-- [Aoyagi, K. et al 1973][research_aoyagik_falarskimd_1973_b]
-- [Aoyagi, K. et al 1975][research_aoyagik_falarskimd_1975]
-- [Aoyagi, Kiyoshi and Hickey, David H. 1959][research_aoyagikiyoshi_hickeydavidh_1959]
+- [Aoyagi and Hickey 1959][research_aoyagikiyoshi_hickeydavidh_1959]
+- [Aoyagi and Hickey 1963][research_aoyagik_hickeydh_1963]
+- [Aoyagi et al 1969][research_aoyagik_dickinsonso_1969]
+- [Aoyagi et al 1972][research_aoyagik_halllp_1972]
+- [Aoyagi et al 1973][research_aoyagik_falarskimd_1973]
+- [Aoyagi et al 1973][research_aoyagik_falarskimd_1973_b]
+- [Aoyagi et al 1975][research_aoyagik_falarskimd_1975]
 - [Appa et al 1998][research_appa_ausman_1998]
 - [Appelgren et al 2009][research_appelgren_hurtig_2009]
 - [Application of Zero-Net Mass-Flux 2014][research_application_of_2014]
 - [Arafa et al 2022][research_arafa_sullivan_2022]
 - [Aram et al 2009][research_aram_mittal_2009]
 - [Aram et al 2010][research_aram_mittal_2010]
-- [Arcara, P. C., Jr. et al 1991][research_arcarapcjr_bartlettdw_1991]
+- [Arcara et al 1991][research_arcarapcjr_bartlettdw_1991]
 - [Arcese][research_arcese]
 - [Arienti and Soteriou 2007][research_arienti_soteriou_2007]
 - [Arifuzzaman 2012][research_arifuzzaman_2012]
 - [Armstrong 1977][research_armstrong_1977]
 - [Arolla and Durbin 2013][research_arolla_durbin_2013]
+- [Arteaga et al][research_ricardoaarteaga_nickolasdemidovich]
 - [Arunajatesan and McWherter-Payne 2013][research_arunajatesan_mcwherterpayne_2013]
 - [Arunajatesan et al 2009][research_arunajatesan_oyarzun_2009]
-- [Arvin Shmilovich et al 2022][research_arvinshmilovich_matthewstauffer_2022]
-- [Arvin Shmilovich et al 2022][research_arvinshmilovich_paulvijgen_2022]
-- [Arvin Shmilovich et al 2023][research_arvinshmilovich_yoramyadlin_2023]
-- [Arvin Shmilovich et al 2023][research_arvinshmilovich_yoramyadlin_2023_b]
 - [Asada and Fujii 2010][research_asada_fujii_2010]
 - [Asada and Fujii 2012][research_asada_fujii_2012]
 - [Asada et al 2014][research_asada_sato_2014]
@@ -1392,106 +1480,98 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 - [Asano et al 2016][research_asano_sato_2016]
 - [Asaro et al 2022][research_asaro_luer_2022]
 - [Asaro et al 2023][research_asaro_cavaliere_2023]
-- [Asbury, Scott C. and Hunter, Craig A. 1999][research_asburyscottc_huntercraiga_1999]
-- [Ash, Robert L. and Lakshmanan, Balakrishnan 1989][research_ashrobertl_lakshmananbalakrishnan_1989]
+- [Ash and Lakshmanan 1989][research_ashrobertl_lakshmananbalakrishnan_1989]
 - [Ashcraft et al 2016][research_ashcraft_decker_2016]
-- [Ashgriz 2012][research_ashgriz_2012]
-- [Ashkenas, Irving L. and Klyde, David H. 1989][research_ashkenasirvingl_klydedavidh_1989]
-- [Ashleman, R. H. and Kavdahl, H. 1972][research_ashlemanrh_kavdahlh_1972]
-- [Ashpis, David e. and Hultgren, Lennart S. 2004][research_ashpisdavide_hultgrenlennarts_2004]
-- [Ashpis, David E. and Laun, Matthew C. 2014][research_ashpisdavide_launmatthewc_2014]
-- [Ashpis, David E. and Laun, Matthew C. 2014][research_ashpisdavide_launmatthewc_2014_b]
-- [Ashpis, David E. and Laun, Matthew C. 2016][research_ashpisdavide_launmatthewc_2016]
-- [Ashpis, David E. and Laun, Matthew C. 2016][research_ashpisdavide_launmatthewc_2016_b]
-- [Ashpis, David E. and Thurman, Douglas R. 2011][research_ashpisdavide_thurmandouglasr_2011]
-- [Ashpis, David et al 2003][research_ashpisdavid_corkethomasc_2003]
+- [Ashkenas and Klyde 1989][research_ashkenasirvingl_klydedavidh_1989]
+- [Ashleman and Kavdahl 1972][research_ashlemanrh_kavdahlh_1972]
+- [Ashpis and Hultgren 2004][research_ashpisdavide_hultgrenlennarts_2004]
+- [Ashpis and Laun 2014][research_ashpisdavide_launmatthewc_2014]
+- [Ashpis and Laun 2014][research_ashpisdavide_launmatthewc_2014_b]
+- [Ashpis and Laun 2016][research_ashpisdavide_launmatthewc_2016]
+- [Ashpis and Laun 2016][research_ashpisdavide_launmatthewc_2016_b]
+- [Ashpis and Thurman 2011][research_ashpisdavide_thurmandouglasr_2011]
+- [Ashpis et al 2003][research_ashpisdavid_corkethomasc_2003]
 - [Aslani et al 2023][research_aslani_krieger_2023]
-- [Aswani, Mohan et al 1991][research_aswanimohan_wadabenk_1991]
+- [Aswani et al 1991][research_aswanimohan_wadabenk_1991]
 - [Atallah 1999][research_atallah_1999]
 - [Atallah 1999][research_atallah_1999_b]
-- [Atkins, H. L. 2007][research_atkinshl_2007]
+- [Atkins 2007][research_atkinshl_2007]
 - [Aubeelack][research_aubeelack]
 - [Awate and Ansell 2023][research_awate_ansell_2023]
 - [Ayeni and Cleton 2022][research_ayeni_cleton_2022]
+- [Ayers 1981][research_ayerstg_1981]
+- [Ayers 1982][research_ayerstg_1982]
 - [Ayers and Johari 2016][research_ayers_johari_2016]
-- [Ayers, T. G. 1981][research_ayerstg_1981]
-- [Ayers, T. G. 1982][research_ayerstg_1982]
 - [Aygun 2023][research_aygun_2023]
 - [Aygun 2024][research_aygun_2024]
 - [Ayok 2026][research_ayok_2026]
 - [Azzawi 2022][research_azzawi_2022]
-- [Babinsky 2007][research_babinsky_2007]
-- [Babinsky 2014][research_babinsky_2014]
-- [Bachalo, William D. 1982][research_bachalowilliamd_1982]
+- [Bachalo 1982][research_bachalowilliamd_1982]
 - [Bachelder et al 2011][research_bachelder_thompson_2011]
 - [Bacic 2017][research_bacic_2017]
 - [Bacic 2017][research_bacic_2017_b]
-- [Back, L. and Cuffel, R. 1982][research_backl_cuffelr_1982]
+- [Back and Cuffel 1982][research_backl_cuffelr_1982]
 - [Bagwill and Selberg 1996][research_bagwill_selberg_1996]
 - [Bagwill et al 1997][research_bagwill_selberg_1997]
-- [Bahi, L. et al 1983][research_bahil_rossjm_1983]
-- [Bain, D. B. et al 1996][research_baindb_smithce_1996]
+- [Bain et al 1996][research_baindb_smithce_1996]
 - [Bainsla et al 2021][research_bainsla_singari_2021]
-- [Bajura, R. A. and Szewczyk, A. A. 1970][research_bajurara_szewczykaa_1970]
+- [Bajura and Szewczyk 1970][research_bajurara_szewczykaa_1970]
+- [Baker 1953][research_bakerthomasf_1953]
+- [Baker and Manhardt 1977][research_bakeraj_manhardtpd_1977]
+- [Baker and Manhardt 1977][research_bakeraj_manhardtpd_1977_b]
 - [Baker and Orzechowski 1982][research_baker_orzechowski_1982]
-- [Baker, A. J. and Manhardt, P. D. 1977][research_bakeraj_manhardtpd_1977]
-- [Baker, A. J. and Manhardt, P. D. 1977][research_bakeraj_manhardtpd_1977_b]
-- [Baker, Thomas F 1953][research_bakerthomasf_1953]
-- [Bakhle, Milind A. and Srivastava, Rakesh 2005][research_bakhlemilinda_srivastavarakesh_2005]
+- [Bakhle and Srivastava 2005][research_bakhlemilinda_srivastavarakesh_2005]
 - [Baleriola et al 2019][research_baleriola_leroy_2019]
 - [Baljit et al 2017][research_baljit_saad_2017]
-- [Balsa, Thomas F. 1988][research_balsathomasf_1988]
-- [Balsa, Thomas F. 1989][research_balsathomasf_1989]
+- [Balsa 1988][research_balsathomasf_1988]
+- [Balsa 1989][research_balsathomasf_1989]
 - [Balzer and Fasel 2010][research_balzer_fasel_2010]
-- [Bamber, Millard J 1932][research_bambermillardj_1932]
+- [Bamber 1932][research_bambermillardj_1932]
 - [Bandyopadhyay and Gad-el-Hak 1994][research_bandyopadhyay_gadelhak_1994]
 - [Bangert 1970][research_bangert_1970]
 - [Bangert 1971][research_bangert_1971]
-- [Banks, Daniel W. and Paulson, John W., Jr. 1987][research_banksdanielw_paulsonjohnwjr_1987]
-- [Banks, Daniel W. et al 1999][research_banksdanielw_laflinbrendaegile_1999]
-- [Banks, Daniel W. et al 1999][research_banksdanielw_woodrichardm_1999]
-- [Bansal et al 1988][research_bansal_mishra_1988]
+- [Banks and Paulson 1987][research_banksdanielw_paulsonjohnwjr_1987]
+- [Banks et al 1999][research_banksdanielw_laflinbrendaegile_1999]
+- [Banks et al 1999][research_banksdanielw_woodrichardm_1999]
 - [Bao et al 2025][research_bao_li_2025]
-- [Baptista and Prendinger 2022][research_baptista_prendinger_2022]
-- [Baptista and Prendinger 2023][research_baptista_prendinger_2023]
 - [Baqui and Mahmud 2011][research_baqui_mahmud_2011]
-- [Bar-Sever, A. 1989][research_barsevera_1989]
-- [Barber, Edward L. et al 1997][research_barberedwardl_alvifarrukh_1997]
-- [Bare, E. Ann et al 1992][research_bareeann_reubushdavide_1992]
-- [Barger, R. L. 1976][research_bargerrl_1976]
+- [Bar-Sever 1989][research_barsevera_1989]
+- [Barber et al 1997][research_barberedwardl_alvifarrukh_1997]
+- [Bare et al 1992][research_bareeann_reubushdavide_1992]
+- [Barger 1976][research_bargerrl_1976]
 - [Barker and Balas 1999][research_barker_balas_1999]
 - [Barnes 1965][research_barnes_og_1965]
-- [Barnett, M. and Carter, J. E. 1987][research_barnettm_carterje_1987]
-- [Barter 1993][research_barter_1993]
-- [Bartlett, D. W. et al 1973][research_bartlettdw_harriscd_1973]
-- [Batterson, James G. and Morelli, E. A. 1996][research_battersonjamesg_morelliea_1996]
+- [Barnett and Carter 1987][research_barnettm_carterje_1987]
+- [Bartlett et al 1973][research_bartlettdw_harriscd_1973]
+- [Batterson and Morelli 1996][research_battersonjamesg_morelliea_1996]
 - [Bauer and German 1961][research_bauer_german_1961]
+- [Bauer and Hemsch 1992][research_bauerstevenxs_hemschmichaelj_1992]
+- [Bauer and Wood 1994][research_bauerstevenxs_woodrichardm_1994]
+- [Bauer and Wood 2001][research_stevenxsbauer_richardmwood_2001]
+- [Bauer and Wood 2003][research_bauerstevenxs_woodrichardm_2003]
 - [Bauer et al 2010][research_bauer_peltzer_2010]
 - [Bauer et al 2017][research_bauer_karch_2017]
-- [Bauer, Steven X. S. and Hemsch, Michael J. 1992][research_bauerstevenxs_hemschmichaelj_1992]
-- [Bauer, Steven X. S. and Wood, Richard M. 1994][research_bauerstevenxs_woodrichardm_1994]
-- [Bauer, Steven X. S. and Wood, Richard M. 2003][research_bauerstevenxs_woodrichardm_2003]
-- [Bayliss, A. et al 1985][research_baylissa_maestrellol_1985]
-- [Bayliss, A. et al 1986][research_baylissa_maestrellol_1986]
+- [Bayliss et al 1985][research_baylissa_maestrellol_1985]
+- [Bayliss et al 1986][research_baylissa_maestrellol_1986]
 - [Bayoda et al 2015][research_bayoda_benard_2015]
 - [Baysal et al 2006][research_baysal_koklu_2006]
 - [Bazdidi-Tehrani and Jahromi 2012][research_bazdiditehrani_jahromi_2012]
 - [Bazyma and Rashkovan 2003][research_bazyma_rashkovan_2003]
-- [Bechert, D. W. and Stahl, B. 1984][research_bechertdw_stahlb_1984]
-- [Beck, B. T. et al 2004][research_beckbt_cutlerad_2004]
-- [Becker, R. S. and Maus, J. R. 1977][research_beckerrs_mausjr_1977]
-- [Becker, R. S. and Maus, J. R. 1977][research_beckerrs_mausjr_1977_b]
-- [Beckwith, I. E. et al 1970][research_beckwithie_bushnelldm_1970]
+- [Bechert and Stahl 1984][research_bechertdw_stahlb_1984]
+- [Beck et al 2004][research_beckbt_cutlerad_2004]
+- [Becker and Maus 1977][research_beckerrs_mausjr_1977]
+- [Becker and Maus 1977][research_beckerrs_mausjr_1977_b]
+- [Beckwith et al 1970][research_beckwithie_bushnelldm_1970]
+- [Beeler 1961][research_deebeeler_1961]
 - [Beh et al 2018][research_beh_hofinger_2018]
 - [Belanger et al 2020][research_belanger_zingg_2020]
-- [Bellman, Donald R. 1959][research_bellmandonaldr_1959]
+- [Bellman 1959][research_bellmandonaldr_1959]
 - [Belmont 1983][research_belmont_1983]
 - [Benard et al 2008][research_benard_jolibois_2008]
 - [Benard et al 2010][research_benard_bonnet_2010]
 - [Benard et al 2016][research_benard_mizuno_2016]
 - [Benhegouga and Boukehili 2012][research_benhegouga_boukehili_2012]
-- [Benjamin M Simmons][research_benjaminmsimmons]
-- [Benjamin M Simmons][research_benjaminmsimmons_b]
+- [Benson and Orr][research_billbenson_jeborr]
 - [Benton et al 2012][research_benton_bernardini_2012]
 - [Bergeron et al 2013][research_bergeron_ward_2013]
 - [Bergmann and Sevart 1973][research_bergmann_sevart_1973]
@@ -1500,28 +1580,26 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 - [Berk et al 2017][research_berk_gomit_2017]
 - [Berman 1985][research_berman_1985]
 - [Bernardini et al 2013][research_bernardini_benton_2013]
-- [Bettner, J. L. 1972][research_bettnerjl_1972]
-- [Bettner, J. L. and Blessing, J. O. 1973][research_bettnerjl_blessingjo_1973]
+- [Bettner 1972][research_bettnerjl_1972]
+- [Bettner and Blessing 1973][research_bettnerjl_blessingjo_1973]
 - [Bettrich and Niehuis 2016][research_bettrich_niehuis_2016]
 - [Bevilaqua and Lee 1984][research_bevilaqua_lee_1984]
+- [Bevilaqua and Lee 1987][research_bevilaquapaulm_leejohnd_1987]
 - [Bevilaqua et al 1983][research_bevilaqua_schum_1983]
-- [Bevilaqua, Paul M. and Lee, John D. 1987][research_bevilaquapaulm_leejohnd_1987]
 - [Bhattacharjee et al 2018][research_bhattacharjee_hemati_2018]
 - [Bhattarai et al 2026][research_bhattarai_bhandari_2026]
-- [BhirawaPutra et al 2015][research_bhirawaputra_xu_2015]
 - [Bhowmick et al 2023][research_bhowmick_mukherjee_2023]
 - [Bhowmick et al 2025][research_bhowmick_palanivel_2025]
 - [Bieler 2017][research_bieler_2017]
-- [Bill Benson and Jeb Orr][research_billbenson_jeborr]
 - [Billeter 2004][research_billeter_2004]
-- [Birckelbaw, Larry D. 1992][research_birckelbawlarryd_1992]
-- [Biringen, S. 1984][research_biringens_1984]
-- [Biringen, S. et al 1985][research_biringens_nuttwe_1985]
-- [Biringen, Sedat 1987][research_biringensedat_1987]
+- [Birckelbaw 1992][research_birckelbawlarryd_1992]
+- [Biringen 1984][research_biringens_1984]
+- [Biringen 1987][research_biringensedat_1987]
+- [Biringen et al 1985][research_biringens_nuttwe_1985]
 - [Bishara et al 2018][research_bishara_horst_2018]
 - [Blair et al 2005][research_blair_canfield_2005]
 - [Blair et al 2008][research_blair_robinson_2008]
-- [Blake, William B. and Stewart, Vearl R. 1993][research_blakewilliamb_stewartvearlr_1993]
+- [Blake and Stewart 1993][research_blakewilliamb_stewartvearlr_1993]
 - [Blaylock et al 2010][research_blaylock_chow_2010]
 - [Bleed air cooler 2008][research_bleed_air_2008]
 - [Blejchař et al 2023][research_blejchar_drabkova_2023]
@@ -1530,32 +1608,32 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 - [Blosser 1953][research_blosser_1953]
 - [Bloxham et al 2008][research_bloxham_bons_2008]
 - [Bo Yu et al 2018][research_boyu_shuaiwu_2018]
-- [Boalbey, R. E. et al 1993][research_boalbeyre_elywl_1993]
+- [Boalbey et al 1993][research_boalbeyre_elywl_1993]
 - [Bobonea and Pricop 2013][research_bobonea_pricop_2013]
 - [Bobusch et al 2013][research_bobusch_woszidlo_2013]
 - [Bodart et al 2017][research_bodart_shelekhov_2017]
 - [Bodson 2000][research_bodson_2000]
 - [Boeing flies blended wing 2008][research_boeing_flies_2008]
 - [Boeing Phantom Works leading 2006][research_boeing_phantom_2006]
-- [Boelens, Okko J. et al 2015][research_boelensokkoj_luckringjamesm_2015]
+- [Boelens et al 2015][research_boelensokkoj_luckringjamesm_2015]
 - [Bogdanov et al 2008][research_bogdanov_kudryavtsev_2008]
 - [Bohmier and Manoharan][research_bohmier_manoharan]
-- [Bohn, A. J. and Shovlin, M. D. 1980][research_bohnaj_shovlinmd_1980]
-- [Bollech, Thomas V and Hadaway, William M 1953][research_bollechthomasv_hadawaywilliamm_1953]
+- [Bohn and Shovlin 1980][research_bohnaj_shovlinmd_1980]
+- [Bollech and Hadaway 1953][research_bollechthomasv_hadawaywilliamm_1953]
 - [Bond et al 2007][research_bond_canfield_2007]
 - [Bond et al 2008][research_bond_canfield_2008]
 - [Bond et al 2008][research_bond_canfield_2008_b]
 - [Bond et al 2008][research_bond_canfield_2008_c]
 - [Bond et al 2010][research_bond_canfield_2010]
 - [Bond et al 2012][research_bond_canfield_2012]
-- [Bonnema, Kenneth L. and Lokos, William A. 1989][research_bonnemakennethl_lokoswilliama_1989]
-- [Bonner, T. F., Jr. et al 1977][research_bonnertfjr_pridejdjr_1977]
+- [Bonnema and Lokos 1989][research_bonnemakennethl_lokoswilliama_1989]
+- [Bonner et al 1977][research_bonnertfjr_pridejdjr_1977]
 - [Bons 2004][research_bons_2004]
 - [Bons 2017][research_bons_2017]
 - [Bons 2017][research_bons_2017_b]
 - [Bons et al 2000][research_bons_sondergaard_2000]
 - [Borghi et al 2015][research_borghi_cristofolini_2015]
-- [Borghi, Michael R. et al 2018][research_borghimichaelr_thurmandouglas_2018]
+- [Borghi et al 2018][research_borghimichaelr_thurmandouglas_2018]
 - [Borodulin et al 2020][research_borodulin_ivanov_2020]
 - [Borodulin et al 2025][research_borodulin_kachanov_2025]
 - [Borodulin et al 2026][research_borodulin_kachanov_2026]
@@ -1563,8 +1641,7 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 - [Boskovic and Mehra 2001][research_boskovic_mehra_2001]
 - [Boskovic et al][research_boskovic_bergstrom]
 - [Boskovic et al 2007][research_boskovic_prasanth_2007]
-- [Bosworth, John T. and Stoliker, P. C. 1996][research_bosworthjohnt_stolikerpc_1996]
-- [Bottorff, M. R. and Rogers, K. W. 1964][research_bottorffmr_rogerskw_1964]
+- [Bosworth and Stoliker 1996][research_bosworthjohnt_stolikerpc_1996]
 - [Bouadi][research_bouadi]
 - [Boukenkoul et al 2017][research_boukenkoul_li_2017]
 - [Bouladoux][research_bouladoux]
@@ -1572,69 +1649,63 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 - [Boutoudj and Tebbiche 2024][research_boutoudj_tebbiche_2024]
 - [Bower 2008][research_bower_2008]
 - [Bower and Kibens 2004][research_bower_kibens_2004]
-- [Bowers, Albion H. 1996][research_bowersalbionh_1996]
-- [Boyd, D. Douglas, Jr. 2005][research_boydddouglasjr_2005]
-- [Bradley, R. G. et al 1974][research_bradleyrg_wraywo_1974]
+- [Bowers 1996][research_bowersalbionh_1996]
+- [Boyd 2005][research_boydddouglasjr_2005]
+- [Bradley et al 1974][research_bradleyrg_wraywo_1974]
 - [Brandt and Bons 2024][research_brandt_bons_2024]
-- [Braslow, A. L. 1981][research_braslowal_1981]
-- [Braslow, A. L. 1999][research_braslowal_1999]
-- [Braslow, A. L. and Fischer, M. C. 1985][research_braslowal_fischermc_1985]
-- [Braslow, Albert L and Visconti, Fioravante 1950][research_braslowalbertl_viscontifioravante_1950]
-- [Braslow, Albert L et al 1951][research_braslowalbertl_burrowsdalel_1951]
-- [Braslow, Albert L. 1999][research_braslowalbertl_1999]
+- [Braslow 1981][research_braslowal_1981]
+- [Braslow 1999][research_braslowal_1999]
+- [Braslow 1999][research_braslowalbertl_1999]
+- [Braslow and Fischer 1985][research_braslowal_fischermc_1985]
+- [Braslow and Visconti 1950][research_braslowalbertl_viscontifioravante_1950]
+- [Braslow et al 1951][research_braslowalbertl_burrowsdalel_1951]
 - [Braud and Dyment 2012][research_braud_dyment_2012]
 - [Braud et al 2008][research_braud_dyment_2008]
 - [Bray and Knowles 1989][research_bray_knowles_1989]
 - [Brennan and McDaniel 1994][research_brennan_mcdaniel_1994]
-- [Brenner, Martin J. 1993][research_brennermartinj_1993]
-- [Brenner, Martin J. and Prazenica, Richard J. 2003][research_brennermartinj_prazenicarichardj_2003]
+- [Brenner 1993][research_brennermartinj_1993]
+- [Brenner and Prazenica 2003][research_brennermartinj_prazenicarichardj_2003]
 - [Brewer et al 2004][research_brewer_jessup_2004]
-- [Brian J German et al][research_brianjgerman_ayushjha]
 - [Brinker and Wise 1998][research_brinker_wise_1998]
 - [Brinker and Wise 1999][research_brinker_wise_1999]
 - [Brinker and Wise 2000][research_brinker_wise_2000]
 - [Brinker and Wise 2001][research_brinker_wise_2001]
 - [Brodsky and Luby 2013][research_brodsky_luby_2013]
+- [Brown 1987][research_brownphilipw_1987]
+- [Brown 1995][research_brownjeffrey_1995]
+- [Brown 2008][research_brownclifforda_2008]
+- [Brown 2011][research_brownclifforda_2011]
+- [Brown 2012][research_brownnelson_2012]
+- [Brown 2013][research_brownnelson_2013]
+- [Brown and Schaefer 2013][research_brownnelsonandrew_schaeferjacobrobert_2013]
 - [Brown and Vos 2018][research_brown_vos_2018]
 - [Brown et al 2025][research_brown_tuna_2025]
-- [Brown, Clifford A. 2008][research_brownclifforda_2008]
-- [Brown, Clifford A. 2011][research_brownclifforda_2011]
-- [Brown, Jeffrey 1995][research_brownjeffrey_1995]
-- [Brown, Nelson 2012][research_brownnelson_2012]
-- [Brown, Nelson 2013][research_brownnelson_2013]
-- [Brown, Nelson Andrew and Schaefer, Jacob Robert 2013][research_brownnelsonandrew_schaeferjacobrobert_2013]
-- [Brown, Philip W. 1987][research_brownphilipw_1987]
 - [Brzozowski et al 2008][research_brzozowski_culp_2008]
 - [Buch and George M. 2010][research_buch_georgem_2010]
 - [Buddhamatya et al 2026][research_buddhamatya_miranda_2026]
-- [Buffin-Bélanger and Roy 2004][research_buffinbelanger_roy_2004]
 - [Buffington 1997][research_buffington_1997]
 - [Buffington 1999][research_buffington_1999]
 - [Buffington 1999][research_buffington_1999_b]
 - [Buffington et al 1998][research_buffington_sparks_1998]
-- [Buning, Pieter G. 2001][research_buningpieterg_2001]
+- [Buning 2001][research_buningpieterg_2001]
 - [Bunyajitradulya and Sathapornnanon 2005][research_bunyajitradulya_sathapornnanon_2005]
-- [Burken, John J. 2005][research_burkenjohnj_2005]
-- [Burken, John J. and Larson, Richard R. 2009][research_burkenjohnj_larsonrichardr_2009]
-- [Burken, John J. et al 2006][research_burkenjohnj_williamshayespeggy_2006]
+- [Burken 2005][research_burkenjohnj_2005]
+- [Burken and Larson 2009][research_burkenjohnj_larsonrichardr_2009]
+- [Burken et al 2006][research_burkenjohnj_williamshayespeggy_2006]
 - [Burkhalter et al 1992][research_burkhalter_spring_1992]
-- [Burks, J. S. 1981][research_burksjs_1981]
 - [Burlett and Mobli 2025][research_burlett_mobli_2025]
-- [Burley, R. R. 1984][research_burleyrr_1984]
-- [Burley, R. R. and Hwang, D. P. 1982][research_burleyrr_hwangdp_1982]
-- [Burley, R. R. and Hwang, D. P. 1983][research_burleyrr_hwangdp_1983]
+- [Burley 1984][research_burleyrr_1984]
+- [Burley and Hwang 1982][research_burleyrr_hwangdp_1982]
+- [Burley and Hwang 1983][research_burleyrr_hwangdp_1983]
 - [Burnazzi and Radespiel 2014][research_burnazzi_radespiel_2014]
-- [Burns, R. J. et al 1976][research_burnsrj_mckinziedjjr_1976]
+- [Burns et al 1976][research_burnsrj_mckinziedjjr_1976]
+- [Burrows et al 1949][research_burrowsdalel_braslowalbertl_1949]
 - [Burrows et al 2018][research_burrows_vukasinovic_2018]
-- [Burrows, Dale L et al 1949][research_burrowsdalel_braslowalbertl_1949]
 - [Burton and Bischoff 1976][research_burton_bischoff_1976]
 - [Butler and Bons 2024][research_butler_bons_2024]
-- [Butler et al 2023][research_butler_ekmekci_2023]
 - [Butler et al 2024][research_butler_ekmekci_2024]
 - [Buzica and Breitsamter 2020][research_buzica_breitsamter_2020]
 - [Buzica et al 2018][research_buzica_debschutz_2018]
-- [C P van Dam et al][research_cpvandam_saibharathmothukuri]
-- [C P Van Dam et al][research_cpvandam_seyedehsheidahosseini]
 - [Cadirci and Gunes 2013][research_cadirci_gunes_2013]
 - [Cadirci et al 2010][research_cadirci_gunes_2010]
 - [Cai et al 2015][research_cai_angland_2015]
@@ -1643,69 +1714,66 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 - [Calise et al 2001][research_calise_lee_2001]
 - [Cameron and Cameron 1997][research_cameron_cameron_1997]
 - [Cameron and Princen 2000][research_cameron_princen_2000]
-- [Campbell, J. F. 1975][research_campbelljf_1975]
-- [Campbell, J. F. 1975][research_campbelljf_1975_b]
-- [Campbell, J. F. 1975][research_campbelljf_1975_c]
-- [Campbell, J. F. and Erickson, G. E. 1979][research_campbelljf_ericksonge_1979]
-- [Campbell, J. M. et al 1973][research_campbelljm_harkonendl_1973]
-- [Campbell, R. L. 1982][research_campbellrl_1982]
-- [Campbell, Richard L. et al 2005][research_campbellrichardl_cartermelissab_2005]
+- [Campbell 1975][research_campbelljf_1975]
+- [Campbell 1975][research_campbelljf_1975_b]
+- [Campbell 1975][research_campbelljf_1975_c]
+- [Campbell 1982][research_campbellrl_1982]
+- [Campbell and Erickson 1979][research_campbelljf_ericksonge_1979]
+- [Campbell et al][research_richardlcampbell_sallyaviken]
+- [Campbell et al 1973][research_campbelljm_harkonendl_1973]
+- [Campbell et al 2005][research_campbellrichardl_cartermelissab_2005]
 - [Canter and Groves 1994][research_canter_groves_1994]
 - [Capobianco et al 2019][research_capobianco_shankar_2019]
+- [Capone 1974][research_caponefj_1974]
 - [Capone 1975][research_capone_1975]
-- [Capone, F. J. 1974][research_caponefj_1974]
-- [Capone, F. J. 1975][research_caponefj_1975]
+- [Capone 1975][research_caponefj_1975]
 - [Caraway et al 2012][research_caraway_hayashibara_2012]
 - [Cardoso et al 2013][research_cardoso_suleman_2013]
 - [Carlsson 2003][research_carlsson_2003]
 - [Carlsson 2005][research_carlsson_2005]
-- [Caroline Anderson et al][research_carolineanderson_michaelkinzel]
 - [Carpenter et al 1986][research_carpenter_bridson_1986]
-- [Carpenter, Mark H. et al 2002][research_carpentermarkh_singerbarta_2002]
-- [Carros, R. J. et al 1975][research_carrosrj_boissevainag_1975]
+- [Carpenter et al 2002][research_carpentermarkh_singerbarta_2002]
+- [Carros et al 1975][research_carrosrj_boissevainag_1975]
+- [Carter et al 2006][research_cartermelissab_campbellrichardl_2006]
 - [Carter et al 2008][research_carter_campbell_2008]
-- [Carter, Melissa B. et al 2006][research_cartermelissab_campbellrichardl_2006]
-- [Carter, Melissa B. et al 2009][research_cartermelissab_vicroydand_2009]
+- [Carter et al 2009][research_cartermelissab_vicroydand_2009]
 - [Caruana et al 2009][research_caruana_barricau_2009]
 - [Casper et al 2008][research_casper_kahler_2008]
 - [Casper et al 2011][research_casper_scholz_2011]
 - [Cassel et al 1969][research_cassel_durando_1969]
+- [Catalano et al 1977][research_catalanogd_mortonjb_1977]
+- [Catalano et al 1978][research_catalanogd_mortonjb_1978]
+- [Catalano et al 1978][research_catalanogd_mortonjb_1978_b]
 - [Catalano et al 1979][research_catalano_morton_1979]
-- [Catalano, G. D. et al 1977][research_catalanogd_mortonjb_1977]
-- [Catalano, G. D. et al 1978][research_catalanogd_mortonjb_1978]
-- [Catalano, G. D. et al 1978][research_catalanogd_mortonjb_1978_b]
-- [Catalano, G. D. et al 1979][research_catalanogd_mortonjb_1979]
-- [Catalano, G. D. et al 1979][research_catalanogd_mortonjb_1979_b]
-- [Catalano, G. D. et al 1979][research_catalanogd_mortonjb_1979_c]
+- [Catalano et al 1979][research_catalanogd_mortonjb_1979]
+- [Catalano et al 1979][research_catalanogd_mortonjb_1979_b]
+- [Catalano et al 1979][research_catalanogd_mortonjb_1979_c]
 - [Cater and Soria 2002][research_cater_soria_2002]
 - [Cattafesta 2017][research_cattafesta_2017]
 - [Cavalcante et al 2025][research_cavalcante_otto_2025]
 - [Cazes et al 2011][research_cazes_mailhes_2011]
+- [Celik and Roberts 1992][research_celikzekiz_robertsleonard_1992]
+- [Celik and Roberts 1992][research_celikzekiz_robertsleonard_1992_b]
 - [Celik and Roberts 1994][research_celik_roberts_1994]
-- [Celik, Zeki Z. and Roberts, Leonard 1992][research_celikzekiz_robertsleonard_1992]
-- [Celik, Zeki Z. and Roberts, Leonard 1992][research_celikzekiz_robertsleonard_1992_b]
 - [Celmins 2007][research_celmins_2007]
 - [Cerreta 1957][research_cerreta_1957]
 - [Ch et al 2026][research_ch_g_2026]
 - [Chabert et al 2012][research_chabert_dandois_2012]
 - [Chae et al 2016][research_chae_ahn_2016]
-- [Chan, David T. et al 2014][research_chandavidt_milholenwilliameii_2014]
-- [Chan, David T. et al 2017][research_chandavidt_jonesgregorys_2017]
+- [Chan et al 2014][research_chandavidt_milholenwilliameii_2014]
+- [Chan et al 2017][research_chandavidt_jonesgregorys_2017]
 - [Chandra et al][research_chandra_madhan]
-- [Chandrasekhara, M. S. et al 1996][research_chandrasekharams_wildermc_1996]
-- [Chandrasekhara, M. S. et al 1997][research_chandrasekharams_wildermc_1997]
+- [Chandrasekhara et al 1996][research_chandrasekharams_wildermc_1996]
+- [Chandrasekhara et al 1997][research_chandrasekharams_wildermc_1997]
+- [Chang and Werner 1972][research_changhs_wernerje_1972]
 - [Chang et al 1967][research_chang_casarella_1967]
 - [Chang et al 2019][research_chang_du_2019]
-- [Chang et al 2023][research_chang_he_2023]
-- [Chang, H. S. and Werner, J. E. 1972][research_changhs_wernerje_1972]
 - [Chappell and Angland 2012][research_chappell_angland_2012]
 - [Chappell et al 2012][research_chappell_cai_2012]
-- [Charles et al 2026][research_charles_vie_2026]
 - [Charonko and Vlachos 2006][research_charonko_vlachos_2006]
 - [Chaudhary et al 2022][research_chaudhary_kumar_2022]
 - [Che et al 2011][research_che_nie_2011]
-- [Cheeseman 1969][research_cheeseman_1969]
-- [Chen 2011][research_chen_2011]
+- [Chen and Beeler 2002][research_chenfangjenq_beelergeorgeb_2002]
 - [Chen and Li 2022][research_chen_li_2022]
 - [Chen and Sun 2022][research_chen_sun_2022]
 - [Chen and Valasek 1999][research_chen_valasek_1999]
@@ -1714,77 +1782,65 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 - [Chen et al 2012][research_chen_seele_2012]
 - [Chen et al 2013][research_chen_hao_2013]
 - [Chen et al 2013][research_chen_seele_2013]
-- [Chen et al 2014][research_chen_zhang_2014]
-- [Chen et al 2018][research_chen_wang_2018]
 - [Chen et al 2019][research_chen_sun_2019]
-- [Chen et al 2021][research_chen_cheng_2021]
-- [Chen et al 2022][research_chen_hao_2022]
 - [Chen et al 2023][research_chen_shi_2023]
 - [Chen et al 2023][research_chen_zhong_2023]
 - [Chen et al 2024][research_chen_avital_2024]
 - [Chen et al 2025][research_chen_ballini_2025]
 - [Chen et al 2026][research_chen_yang_2026]
-- [Chen, Fang-Jenq and Beeler, George B. 2002][research_chenfangjenq_beelergeorgeb_2002]
-- [Chenoweth, C. C. and Ryder, D. R. 1976][research_chenowethcc_ryderdr_1976]
+- [Chenoweth and Ryder 1976][research_chenowethcc_ryderdr_1976]
 - [Chernyshev et al 2023][research_chernyshev_gadzhimagomedov_2023]
 - [Chi and Gu 2022][research_chi_gu_2022]
 - [Childress 1958][research_childress_1958]
-- [Childs, Robert E. et al 2016][research_childsroberte_stremelpaulm_2016]
+- [Childs et al 2016][research_childsroberte_stremelpaulm_2016]
+- [Chin et al 1974][research_chinyt_aikentn_1974]
 - [Chin et al 1975][research_chin_aiken_1975]
 - [Chin et al 2014][research_chin_monty_2014]
-- [Chin, Y. T. et al 1974][research_chinyt_aikentn_1974]
-- [Chiu, Stephen H. et al 1993][research_chiustephenh_rothkarlinr_1993]
+- [Chiu et al 1993][research_chiustephenh_rothkarlinr_1993]
 - [Cho and Shyy 2013][research_cho_shyy_2013]
 - [Cho et al 2010][research_cho_hoagg_2010]
 - [Chopra et al 1986][research_chopra_sun_1986]
-- [Chopra, Inderjit and Hong, Chang-Ho 1987][research_choprainderjit_hongchangho_1987]
 - [Choutapalli 2013][research_choutapalli_2013]
 - [Chow and Chu 1991][research_chow_chu_1991]
 - [Chowdhary and Jategaonkar 2006][research_chowdhary_jategaonkar_2006]
-- [Chris Miller][research_chrismiller]
-- [Christina M Ivler et al][research_christinamivler_williamhunter]
-- [Chu et al 2016][research_chu_guo_2016]
 - [Chua and Liu 2024][research_chua_liu_2024]
 - [Chudoba and Cook 2003][research_chudoba_cook_2003]
 - [Chung et al 2010][research_chung_hallberg_2010]
 - [Churchill][research_churchill]
 - [Churn et al 1998][research_churn_maxwell_1998]
-- [Ciffone, D. L. and Robinson, G. H. 1973][research_ciffonedl_robinsongh_1973]
+- [Ciffone and Robinson 1973][research_ciffonedl_robinsongh_1973]
 - [Ciobaca and Dandois 2017][research_ciobaca_dandois_2017]
 - [Ciobaca and Wild 2017][research_ciobaca_wild_2017]
 - [Ciobaca et al 2011][research_ciobaca_kuhn_2011]
 - [Clark 2001][research_clark_2001]
-- [Clark and Gerhold 1999][research_clark_gerhold_1999]
-- [Clark, L. R. and Yu, J. C. 1977][research_clarklr_yujc_1977]
+- [Clark and Yu 1977][research_clarklr_yujc_1977]
 - [Clarke 1976][research_clarke_1976]
-- [Clarke, Robert et al 2005][research_clarkerobert_allenmichaelj_2005]
-- [Claus, R. W. and Vanka, S. P. 1990][research_clausrw_vankasp_1990]
-- [Claus, R. W. and Vanka, S. P. 1992][research_clausrw_vankasp_1992]
-- [Clauss, R. W. 1982][research_claussrw_1982]
-- [Cleveland, W. B. 1971][research_clevelandwb_1971]
-- [Clever, W. W., II 1969][research_cleverwwii_1969]
+- [Clarke et al 2005][research_clarkerobert_allenmichaelj_2005]
+- [Claus and Vanka 1990][research_clausrw_vankasp_1990]
+- [Claus and Vanka 1992][research_clausrw_vankasp_1992]
+- [Clauss 1982][research_claussrw_1982]
+- [Cleveland 1971][research_clevelandwb_1971]
+- [Clever 1969][research_cleverwwii_1969]
 - [Cliett 1952][research_cliett_1952]
 - [Clifford et al 2014][research_clifford_singhal_2014]
 - [Clyde et al 1984][research_clyde_bonner_1984]
 - [Coanda 1960][research_coanda_1960]
 - [Coanda Effect and Circulation 2006][research_coanda_effect_2006]
-- [Cochrane, J. A. 1983][research_cochraneja_1983]
-- [Cochrane, J. A. and Carros, R. J. 1975][research_cochraneja_carrosrj_1975]
-- [Cochrane, J. A. et al 1982][research_cochraneja_riddledw_1982]
-- [Cocke, Bennie W, Jr and Fink, Marvin P 1953][research_cockebenniewjr_finkmarvinp_1953]
-- [Coe, P. L., Jr. and Kulla, D. 1974][research_coepljr_kullad_1974]
-- [Coe, P. L., Jr. et al 1975][research_coepljr_mclemorehc_1975]
-- [Coe, P. L., Jr. et al 1976][research_coepljr_mclemorehc_1976]
+- [Cochrane 1983][research_cochraneja_1983]
+- [Cochrane and Carros 1975][research_cochraneja_carrosrj_1975]
+- [Cochrane et al 1982][research_cochraneja_riddledw_1982]
+- [Cocke and Fink 1953][research_cockebenniewjr_finkmarvinp_1953]
+- [Coe and Kulla 1974][research_coepljr_kullad_1974]
+- [Coe et al 1975][research_coepljr_mclemorehc_1975]
+- [Coe et al 1976][research_coepljr_mclemorehc_1976]
 - [Coiro et al 2008][research_coiro_bellobuono_2008]
-- [Coker et al 1978][research_coker_hoffman_1978]
-- [Colahan and Phillips 2011][research_colahan_phillips_2011]
-- [Cole, T. W. and Rathburn, E. A. 1974][research_coletw_rathburnea_1974]
+- [Cole and Rathburn 1974][research_coletw_rathburnea_1974]
 - [Coletti and Faruque 2022][research_coletti_faruque_2022]
 - [Colgren and Loschke 2008][research_colgren_loschke_2008]
 - [Collaboration on bleed air 2000][research_collaboration_on_2000]
-- [Collier, Jr. 1993][research_collierjr_1993]
+- [Collier 1993][research_collierjr_1993]
 - [Comparison of acoustic synthetic 2018][research_comparison_of_2018]
-- [Compton, H. R. et al 1982][research_comptonhr_scallionwi_1982]
+- [Compton et al 1982][research_comptonhr_scallionwi_1982]
 - [Computational Evaluation of Steady 2006][research_computational_evaluation_2006]
 - [Computational Study of a 2006][research_computational_study_2006]
 - [Conan and Savarese 2001][research_conan_savarese_2001]
@@ -1792,77 +1848,66 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 - [Contreras-Torres et al 2022][research_contrerastorres_garciarodriguez_2022]
 - [Control Allocation and Flight 2016][research_control_allocation_2016]
 - [Control of flow separation 2023][research_control_of_2023]
-- [Cook, G. R. and Lilley, B. F. 1981][research_cookgr_lilleybf_1981]
-- [Cook, W. L. and Whittley, D. C. 1975][research_cookwl_whittleydc_1975]
-- [Cook, W. L. and Whittley, D. C. 1976][research_cookwl_whittleydc_1976]
-- [Cook, Woodrow L et al 1954][research_cookwoodrowl_griffinroynjr_1954]
-- [Copp 2024][research_copp_2024]
+- [Cook and Lilley 1981][research_cookgr_lilleybf_1981]
+- [Cook and Whittley 1975][research_cookwl_whittleydc_1975]
+- [Cook and Whittley 1976][research_cookwl_whittleydc_1976]
+- [Cook et al 1954][research_cookwoodrowl_griffinroynjr_1954]
+- [Cook et al 1974][research_woodrowlcook_davidhhickey_1974]
 - [Cordner 1967][research_cordner_1967]
-- [Corke, Thomas c. et al 2007][research_corkethomasc_thomasflinto_2007]
+- [Corke et al 2007][research_corkethomasc_thomasflinto_2007]
 - [Cornelius and Lucius 1994][research_cornelius_lucius_1994]
 - [Correale 2015][research_correale_2015]
 - [Corrigan et al 2026][research_corrigan_asper_2026]
-- [Corsiglia, V. R. et al 1968][research_corsigliavr_koenigdg_1968]
-- [Corvera and Mahjoob 2023][research_corvera_mahjoob_2023]
-- [Cosentino, Gary B. 2007][research_cosentinogaryb_2007]
-- [Cosentino, Gary B. 2008][research_cosentinogaryb_2008]
+- [Corsiglia et al 1968][research_corsigliavr_koenigdg_1968]
+- [Cosentino 2007][research_cosentinogaryb_2007]
+- [Cosentino 2008][research_cosentinogaryb_2008]
 - [Coskun et al 2016][research_coskun_cadirci_2016]
 - [Cossar 1999][research_cossar_1999]
-- [Cotting, M. Christopher et al 2001][research_cottingmchristopher_burkenjohnj_2001]
+- [Cotting et al 2001][research_cottingmchristopher_burkenjohnj_2001]
 - [Couillaud][research_couillaud]
-- [Coulson, David A. and Scott, Robert C. 2015][research_coulsondavida_scottrobertc_2015]
+- [Coulson and Scott 2015][research_coulsondavida_scottrobertc_2015]
 - [Coumar et al 2016][research_coumar_joussot_2016]
-- [Covell, P. F. 1985][research_covellpf_1985]
-- [Cowan, J. R. and Weir, Rae Ann 1993][research_cowanjr_weirraeann_1993]
+- [Covell 1985][research_covellpf_1985]
 - [Cox et al 1949][research_cox_siddall_1949]
-- [Cruz, Josue and Anders, Scott G. 2006][research_cruzjosue_andersscottg_2006]
-- [Cruz, Josue and Miller, Eric J. 2016][research_cruzjosue_millerericj_2016]
+- [Cruz and Anders 2006][research_cruzjosue_andersscottg_2006]
+- [Cruz and Miller 2016][research_cruzjosue_millerericj_2016]
 - [Cuerno-Rejado et al 2009][research_cuernorejado_alonsoalbir_2009]
 - [Cui et al 2007][research_cui_lim_2007]
 - [Cui et al 2015][research_cui_wang_2015]
 - [Cui et al 2017][research_cui_zhao_2017]
-- [Culley, Dennis E. and Bright, Michelle M. 2005][research_culleydennise_brightmichellem_2005]
-- [Cumming, Stephen B. and Diebler, Corey G. 2005][research_cummingstephenb_dieblercoreyg_2005]
-- [Cumming, Stephen B. et al 2016][research_cummingstephenb_smithmarks_2016]
-- [Curry, R. E. and Sim, A. G. 1984][research_curryre_simag_1984]
-- [Curry, Robert E. and Gilyard, Glenn B. 1989][research_curryroberte_gilyardglennb_1989]
-- [Curtin, M. M. et al 2002][research_curtinmm_boguedr_2002]
+- [Culley and Bright 2005][research_culleydennise_brightmichellem_2005]
+- [Cumming and Diebler 2005][research_cummingstephenb_dieblercoreyg_2005]
+- [Cumming et al 2016][research_cummingstephenb_smithmarks_2016]
+- [Curry and Gilyard 1989][research_curryroberte_gilyardglennb_1989]
+- [Curry and Sim 1984][research_curryre_simag_1984]
+- [Curt and Norman 2011][research_s_m_2011]
+- [Curtin et al 2002][research_curtinmm_boguedr_2002]
 - [Cusher and Gopalarathnam 2012][research_cusher_gopalarathnam_2012]
-- [Cutler, Andrew D. et al 2005][research_cutlerandrewd_beckbterry_2005]
+- [Cutler et al 2005][research_cutlerandrewd_beckbterry_2005]
 - [Cybyk et al 2004][research_cybyk_grossman_2004]
 - [Cybyk et al 2007][research_cybyk_simon_2007]
-- [Czech, Michael J and Thomas, Russell H. 2014][research_czechmichaelj_thomasrussellh_2014]
-- [D'Onofrio et al 2025][research_daposonofrio_paolillo_2025]
-- [D'Onofrio et al 2025][research_daposonofrio_paolillo_2025_b]
 - [D'Onofrio et al 2026][research_donofrio_paolillo_2026]
-- [Dae-yeon Won and Tahk 2008][research_daeyeonwon_tahk_2008]
-- [Daforno, G. 1982][research_dafornog_1982]
+- [Daforno 1982][research_dafornog_1982]
 - [Dahalan et al 2015][research_dahalan_mansor_2015]
 - [Dai et al 2018][research_dai_shu_2018]
-- [Danabasoglu, G. et al 1991][research_danabasoglug_biringens_1991]
+- [Danabasoglu et al 1991][research_danabasoglug_biringens_1991]
 - [Dancova et al 2019][research_dancova_psota_2019]
-- [Dang and Kim 2017][research_dang_kim_2017]
 - [Dano and Liburdy 2005][research_dano_liburdy_2005]
 - [Dano and Liburdy 2006][research_dano_liburdy_2006]
-- [Dash, S. M. et al 1987][research_dashsm_yorkbj_1987]
+- [Dash et al 1987][research_dashsm_yorkbj_1987]
 - [Dauengauer and Mullyadzhanov 2019][research_dauengauer_mullyadzhanov_2019]
-- [Daugherty, J. C. 1979][research_daughertyjc_1979]
-- [Davenport, Edwin E 1957][research_davenportedwine_1957]
-- [David Greenblatt et al][research_davidgreenblatt_keithbpaschal]
-- [David L Williams, II et al 1994][research_davidlwilliamsii_robertcnelson_1994]
-- [Davidson, John B. et al 2001][research_davidsonjohnb_lallmanfrederickj_2001]
-- [Davis, Pamela et al 2015][research_davispamela_jegleydawn_2015]
-- [Davis, Richard E. et al 1989][research_davisricharde_maddalondalv_1989]
+- [Daugherty 1979][research_daughertyjc_1979]
+- [Davenport 1957][research_davenportedwine_1957]
+- [Davidson et al 2001][research_davidsonjohnb_lallmanfrederickj_2001]
+- [Davis et al 1989][research_davisricharde_maddalondalv_1989]
+- [Davis et al 2015][research_davispamela_jegleydawn_2015]
 - [Dawson and Little 2012][research_dawson_little_2012]
 - [Dawson and Little 2013][research_dawson_little_2013]
-- [Day 2021][research_day_2021]
-- [De E Beeler 1961][research_deebeeler_1961]
-- [De Rosa et al 2003][research_derosa_franco_2003]
 - [de Vries][research_devries]
 - [Deadwyler 1980][research_deadwyler_1980]
-- [Deal, P. L. et al 1970][research_dealpl_granthamwd_1970]
-- [Deal, P. L. et al 1971][research_dealpl_granthamwd_1971]
-- [Dearborn, C H and Soule, H A 1937][research_dearbornch_souleha_1937]
+- [Deal et al 1970][research_dealpl_granthamwd_1970]
+- [Deal et al 1971][research_dealpl_granthamwd_1971]
+- [Dearborn and Soule 1937][research_dearbornch_souleha_1937]
 - [Deb et al][research_deb_gangtao]
 - [Deb et al 2005][research_deb_tao_2005]
 - [Deb et al 2006][research_deb_gangtao_2006]
@@ -1871,24 +1916,24 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 - [Deb et al 2021][research_deb_burkholder_2021]
 - [DeBusk et al 2009][research_debusk_johnson_2009]
 - [Deepa and Gupta 2023][research_deepa_gupta_2023]
-- [Deere, K. A. 2000][research_deereka_2000]
-- [Deere, Karen A. 2003][research_deerekarena_2003]
-- [Deere, Karen A. et al 2005][research_deerekarena_berrierbobbyl_2005]
-- [Deere, Karen A. et al 2007][research_deerekarena_flammjeffreyd_2007]
-- [Deere, Karen et al 2003][research_deerekaren_berrierbobbyl_2003]
-- [Deets, D. A. and Brown, L. E. 1986][research_deetsda_brownle_1986]
-- [Defeo, P. and Chen, M. 1987][research_defeop_chenm_1987]
-- [Dehoff, R. L. et al 1977][research_dehoffrl_reedwb_1977]
+- [Deere 2000][research_deereka_2000]
+- [Deere 2003][research_deerekarena_2003]
+- [Deere et al 2003][research_deerekaren_berrierbobbyl_2003]
+- [Deere et al 2005][research_deerekarena_berrierbobbyl_2005]
+- [Deere et al 2007][research_deerekarena_flammjeffreyd_2007]
+- [Deere et al 2024][research_karenadeere_jeffreykviken_2024]
+- [Deets and Brown 1986][research_deetsda_brownle_1986]
+- [Defeo and Chen 1987][research_defeop_chenm_1987]
+- [Dehoff et al 1977][research_dehoffrl_reedwb_1977]
 - [Deiler 2016][research_deiler_2016]
 - [DeLaurier 2022][research_delaurier_2022]
 - [Demarchi and Haning 1978][research_demarchi_haning_1978]
 - [Demourant and Ferreres 2013][research_demourant_ferreres_2013]
 - [Deng et al 2007][research_deng_jiang_2007]
-- [Denham, Casey and Owens, D. Bruce 2016][research_denhamcasey_owensdbruce_2016]
+- [Denham and Owens 2016][research_denhamcasey_owensdbruce_2016]
 - [Denieul et al 2015][research_denieul_alazard_2015]
-- [Dennai et al 2014][research_dennai_bentaleb_2014]
+- [Dennis 1993][research_dennisrobertfoster_1993]
 - [Dennis et al 1993][research_dennis_tso_1993]
-- [Dennis, Robert Foster 1993][research_dennisrobertfoster_1993]
 - [Desalvo et al 2012][research_desalvo_whalen_2012]
 - [Desalvo et al 2014][research_desalvo_whalen_2014]
 - [Description of Actuation Systems][research_description_of]
@@ -1904,76 +1949,70 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 - [Di Matteo and Guo 2011][research_dimatteo_guo_2011]
 - [Di Palma et al 2009][research_dipalma_paletta_2009]
 - [Dianics et al 2013][research_dianics_balthazar_2013]
-- [Dibley, Ryan P. et al 2005][research_dibleyryanp_allenmichaelj_2005]
-- [Dibley, Ryan P. et al 2007][research_dibleyryanp_allenmichaelj_2007]
-- [Dicarlo, Daniel J. et al 1992][research_dicarlodanielj_brownphilipw_1992]
-- [Dietz, W. E., Jr. 1975][research_dietzwejr_1975]
+- [Dibley et al 2005][research_dibleyryanp_allenmichaelj_2005]
+- [Dibley et al 2007][research_dibleyryanp_allenmichaelj_2007]
+- [Dicarlo et al 1992][research_dicarlodanielj_brownphilipw_1992]
+- [Dietz 1975][research_dietzwejr_1975]
 - [Dike and Dunn 1958][research_dike_dunn_1958]
 - [Dimmock 1957][research_dimmock_1957]
 - [Dimopoulos et al 2019][research_dimopoulos_panagiotou_2019]
 - [Ding et al 2024][research_ding_cheng_2024]
 - [Ding et al 2026][research_ding_ren_2026]
+- [Dippold 2022][research_vancefdippoldiii_2022]
 - [Dirlik et al 1992][research_dirlik_kimmel_1992]
 - [Disotell and Gregory 2011][research_disotell_gregory_2011]
 - [Distributed Surface-Vortex Receptivity of 2025][research_distributed_surface_vortex_receptivity_2025]
 - [Djojodihardjo and Hamid 2012][research_djojodihardjo_hamid_2012]
 - [Dodayav et al 2024][research_dodayav_biswas_2024]
-- [Dods, J. B., Jr. and Watson, E. C. 1976][research_dodsjbjr_watsonec_1976]
+- [Dods and Watson 1976][research_dodsjbjr_watsonec_1976]
 - [Doman et al 2007][research_doman_gamble_2007]
-- [Domanovsky, P. 1969][research_domanovskyp_1969]
-- [Dong et al 2024][research_dong_jia_2024]
-- [Dong et al 2024][research_dong_jia_2024_b]
-- [Dong et al 2025][research_dong_jia_2025]
-- [Donlan, C. J. and Kuhn, R. E. 1976][research_donlancj_kuhnre_1976]
-- [Donlan, Charles J. 1944][research_donlancharlesj_1944]
+- [Donlan 1944][research_donlancharlesj_1944]
+- [Donlan and Kuhn 1976][research_donlancj_kuhnre_1976]
 - [Donnelly et al 2006][research_donnelly_cutbirth_2006]
-- [Dorsch, R. G. 1974][research_dorschrg_1974]
-- [Dorsch, R. G. et al 1971][research_dorschrg_krejsaea_1971]
-- [Dorsch, R. G. et al 1972][research_dorschrg_kreimwj_1972]
-- [Dorsch, R. G. et al 1972][research_dorschrg_reshotkom_1972]
-- [Dorsch, R. G. et al 1974][research_dorschrg_goodykoontzjh_1974]
-- [Dorsch, R. G. et al 1975][research_dorschrg_clarkbj_1975]
+- [Dorsch 1974][research_dorschrg_1974]
+- [Dorsch et al 1971][research_dorschrg_krejsaea_1971]
+- [Dorsch et al 1972][research_dorschrg_kreimwj_1972]
+- [Dorsch et al 1972][research_dorschrg_reshotkom_1972]
+- [Dorsch et al 1974][research_dorschrg_goodykoontzjh_1974]
+- [Dorsch et al 1975][research_dorschrg_clarkbj_1975]
 - [Dougherty 2021][research_dougherty_2021]
-- [Dougherty, N. S., Jr. and Fisher, D. F. 1980][research_doughertynsjr_fisherdf_1980]
-- [Dowden, Donald J. and Bessette, Denis E. 1987][research_dowdendonaldj_bessettedenise_1987]
+- [Dougherty and Fisher 1980][research_doughertynsjr_fisherdf_1980]
+- [Dowden and Bessette 1987][research_dowdendonaldj_bessettedenise_1987]
 - [Drãgan 2012][research_dragan_2012]
 - [Duan et al 2025][research_duan_xue_2025]
-- [Duda, B. et al 2016][research_dudab_wesselsm_2016]
+- [Duda et al 2016][research_dudab_wesselsm_2016]
 - [Dumas et al 2014][research_dumas_subhash_2014]
 - [Dumrul and Kara 2026][research_dumrul_kara_2026]
 - [Dunham 1968][research_dunham_1968]
 - [Dunn et al 1981][research_dunn_leong_1981]
-- [Duraisamy and Baeder 2002][research_duraisamy_baeder_2002]
 - [Duraisamy and Baeder 2005][research_duraisamy_baeder_2005]
-- [Durbin, P. A. and McKinzie, D. J. 1987][research_durbinpa_mckinziedj_1987]
+- [Durbin and McKinzie 1987][research_durbinpa_mckinziedj_1987]
+- [Durham 2001][research_durhamwayne_2001]
 - [Durham and Bordignon 1995][research_durham_bordignon_1995]
-- [Durham, Wayne 2001][research_durhamwayne_2001]
-- [Durham, Wayne and Nelson, Mark 2001][research_durhamwayne_nelsonmark_2001]
+- [Durham and Nelson 2001][research_durhamwayne_nelsonmark_2001]
 - [Duvigneau and Visonneau 2004][research_duvigneau_visonneau_2004]
 - [Duvigneau and Visonneau 2006][research_duvigneau_visonneau_2006]
-- [Dvorak, Frank A. and Dash, Sanford M. 1987][research_dvorakfranka_dashsanfordm_1987]
-- [Dvorak, Frank A. et al 1987][research_dvorakfranka_strashdanielj_1987]
+- [Dvorak and Dash 1987][research_dvorakfranka_dashsanfordm_1987]
+- [Dvorak et al 1987][research_dvorakfranka_strashdanielj_1987]
 - [Dygert and Dang 2007][research_dygert_dang_2007]
 - [Dygert and Dang 2009][research_dygert_dang_2009]
 - [Dávalos et al 2026][research_davalos_cornejomonroy_2026]
-- [E Graff et al][research_egraff_ewhalen]
 - [Eberhardt and Ward 1999][research_eberhardt_ward_1999]
 - [Ebrahimi and Hajipour 2018][research_ebrahimi_hajipour_2018]
 - [Edstrand and Cattafesta 2015][research_edstrand_cattafesta_2015]
 - [Edstrand and Cattafesta III 2013][research_edstrand_cattafestaiii_2013]
+- [Edwards 1972][research_edwardsjw_1972]
+- [Edwards 1981][research_edwardsjw_1981]
 - [Edwards 1983][research_edwards_1983]
 - [Edwards 2010][research_edwards_2010]
-- [Edwards, J. W. 1972][research_edwardsjw_1972]
-- [Edwards, J. W. 1981][research_edwardsjw_1981]
-- [Edwards, Jack R. et al 2010][research_edwardsjackr_bolesjohna_2010]
 - [Effect of Synthetic Jet 2024][research_effect_of_2024]
 - [Effects of Pulsating Jet 2005][research_effects_of_2005]
-- [Eggert, Christopher A. and Rumsey, Christopher L. 2017][research_eggertchristophera_rumseychristopherl_2017]
+- [Eggert and Rumsey 2017][research_eggertchristophera_rumseychristopherl_2017]
 - [Eichinger et al 2010][research_eichinger_thiele_2010]
 - [Eid et al 2023][research_eid_clerc_2023]
 - [El Sayed Mohamed and Semaan 2015][research_elsayedmohamed_semaan_2015]
 - [El-Alti et al 2015][research_elalti_chernoray_2015]
-- [El-Hady, Nabil M. 1990][research_elhadynabilm_1990]
+- [El-Hady 1990][research_elhadynabilm_1990]
 - [Elahi et al 2018][research_elahi_moul_2018]
 - [Elahi et al 2023][research_elahi_moul_2023]
 - [Elaissi et al 2023][research_elaissi_moneer_2023]
@@ -1984,79 +2023,70 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 - [Elsner et al 2024][research_elsner_sokolenko_2024]
 - [Emanuel 1995][research_emanuel_1995]
 - [Enciu 2019][research_enciu_2019]
-- [Engblom, W. A. et al 2016][research_engblomwa_deckerrk_2016]
+- [Engblom et al 2016][research_engblomwa_deckerrk_2016]
 - [Engine Bleed Air Systems][research_engine_bleed]
 - [Englar 1970][research_englar_1970]
-- [Englar, R. J. et al 1984][research_englarrj_nicholsjhjr_1984]
-- [Englar, Robert J. 1987][research_englarrobertj_1987]
-- [Englar, Robert J. 1996][research_englarrobertj_1996]
-- [Englar, Robert J. 1998][research_englarrobertj_1998]
-- [Englar, Robert J. and Campbell, Bryan A. 2002][research_englarrobertj_campbellbryana_2002]
-- [Englar, Robert J. and Campbell, Bryan A. 2005][research_englarrobertj_campbellbryana_2005]
-- [Englar, Robert J. et al 2009][research_englarrobertj_jonesgregorys_2009]
+- [Englar 1987][research_englarrobertj_1987]
+- [Englar 1996][research_englarrobertj_1996]
+- [Englar 1998][research_englarrobertj_1998]
+- [Englar and Campbell 2002][research_englarrobertj_campbellbryana_2002]
+- [Englar and Campbell 2005][research_englarrobertj_campbellbryana_2005]
+- [Englar et al 1984][research_englarrj_nicholsjhjr_1984]
+- [Englar et al 2009][research_englarrobertj_jonesgregorys_2009]
 - [Enloe et al 2004][research_enloe_mclaughlin_2004]
 - [Enloe et al 2006][research_enloe_mclaughlin_2006]
 - [Enloe et al 2008][research_enloe_mclaughlin_2008]
 - [Enloe et al 2009][research_enloe_mcharg_2009]
-- [Eppel, J. C. 1981][research_eppeljc_1981]
-- [Eppel, J. C. et al 1982][research_eppeljc_shovlinmd_1982]
+- [Eppel 1981][research_eppeljc_1981]
+- [Eppel et al 1982][research_eppeljc_shovlinmd_1982]
 - [Ercan and Akın 2022][research_ercan_akin_2022]
-- [Eric J Nielsen and William T Jones][research_ericjnielsen_williamtjones]
-- [Erickson 1979][research_erickson_1979]
 - [Erickson 1962][research_erickson_jc_1962]
-- [Erickson, G. E. and Campbell, J. F. 1975][research_ericksonge_campbelljf_1975]
-- [Erickson, G. E. and Campbell, J. F. 1975][research_ericksonge_campbelljf_1975_b]
-- [Erickson, G. E. and Campbell, J. F. 1977][research_ericksonge_campbelljf_1977]
-- [Erickson, G. E. and Campbell, J. F. 1977][research_ericksonge_campbelljf_1977_b]
-- [Erickson, Gary E. 2000][research_ericksongarye_2000]
-- [Erickson, Gary E. 2003][research_ericksongarye_2003]
-- [Erickson, Gary E. 2007][research_ericksongarye_2007]
-- [Erickson, Gary E. 2013][research_ericksongarye_2013]
-- [Erickson, Gary E. 2017][research_ericksongarye_2017]
-- [Erickson, R. E. et al 1986][research_ericksonre_crossjl_1986]
-- [Eroglu and Breidenthal 1991][research_eroglu_breidenthal_1991]
+- [Erickson 1979][research_erickson_1979]
+- [Erickson 2000][research_ericksongarye_2000]
+- [Erickson 2003][research_ericksongarye_2003]
+- [Erickson 2007][research_ericksongarye_2007]
+- [Erickson 2013][research_ericksongarye_2013]
+- [Erickson 2017][research_ericksongarye_2017]
+- [Erickson and Campbell 1975][research_ericksonge_campbelljf_1975]
+- [Erickson and Campbell 1975][research_ericksonge_campbelljf_1975_b]
+- [Erickson and Campbell 1977][research_ericksonge_campbelljf_1977]
+- [Erickson and Campbell 1977][research_ericksonge_campbelljf_1977_b]
 - [Eroglu and Breidenthal 1998][research_eroglu_breidenthal_1998]
 - [Escauriaza and Sotiropoulos 2010][research_escauriaza_sotiropoulos_2010]
 - [Esfahani et al 2019][research_esfahani_webb_2019]
 - [Espinoza Gutierrez et al 2025][research_espinozagutierrez_trujillocorona_2025]
 - [Essel and Tachie 2017][research_essel_tachie_2017]
 - [Eto et al 2018][research_eto_kondo_2018]
-- [Eugene A Morelli and Jared A Grauer 2023][research_eugeneamorelli_jaredagrauer_2023]
-- [Eugene A. Morelli][research_eugeneamorelli]
 - [Evaluation of laminar flow 1978][research_evaluation_of_1978]
 - [Evaluation of laminar flow 1979][research_evaluation_of_1979]
-- [Evan J McFadden and Jeffrey P Bons][research_evanjmcfadden_jeffreypbons]
-- [Evan J McFadden and Jeffrey P Bons][research_evanjmcfadden_jeffreypbons_b]
 - [Experimental and Computational Investigation 2006][research_experimental_and_2006]
 - [Experimental Investigation of "Why 2014][research_experimental_investigation_2014]
 - [Experimental research of the 2005][research_experimental_research_of_2005]
-- [Falarski, M. D. 1972][research_falarskimd_1972]
-- [Falarski, M. D. 1973][research_falarskimd_1973]
-- [Falarski, M. D. and Aiken, T. N. 1971][research_falarskimd_aikentn_1971]
-- [Falarski, M. D. and Koenig, D. G. 1971][research_falarskimd_koenigdg_1971]
-- [Falarski, M. D. and Koenig, D. G. 1972][research_falarskimd_koenigdg_1972]
-- [Falarski, M. D. and Koenig, D. G. 1972][research_falarskimd_koenigdg_1972_b]
-- [Falarski, M. D. et al 1973][research_falarskimd_aoyagik_1973]
-- [Falarski, M. D. et al 1975][research_falarskimd_aikentn_1975]
-- [Fan et al 2024][research_fan_zhang_2024]
+- [Falarski 1972][research_falarskimd_1972]
+- [Falarski 1973][research_falarskimd_1973]
+- [Falarski and Aiken 1971][research_falarskimd_aikentn_1971]
+- [Falarski and Koenig 1971][research_falarskimd_koenigdg_1971]
+- [Falarski and Koenig 1972][research_falarskimd_koenigdg_1972]
+- [Falarski and Koenig 1972][research_falarskimd_koenigdg_1972_b]
+- [Falarski et al 1973][research_falarskimd_aoyagik_1973]
+- [Falarski et al 1975][research_falarskimd_aikentn_1975]
 - [Fan et al 2026][research_fan_mei_2026]
 - [Fang et al 2019][research_fang_gong_2019]
 - [Farcy and Renier 1999][research_farcy_renier_1999]
 - [Farrell et al 2022][research_farrell_gibbons_2022]
-- [Farzad and Yagoobi 2019][research_farzad_yagoobi_2019]
 - [Fasel 2000][research_fasel_2000]
 - [Fasel et al 2002][research_fasel_wygnanksi_2002]
 - [Fasel et al 2008][research_fasel_gross_2008]
 - [Fatahian et al 2019][research_fatahian_lohrasbinichkoohi_2019]
-- [Favaregh 2010][research_favaregh_2010]
 - [Favier et al 2008][research_favier_kourta_2008]
-- [Fearn, R. L. and Benson, J. P. 1979][research_fearnrl_bensonjp_1979]
-- [Fearn, R. L. and Weston, R. P. 1975][research_fearnrl_westonrp_1975]
-- [Fearn, R. L. and Weston, R. P. 1978][research_fearnrl_westonrp_1978]
-- [Fearn, Richard L. 1988][research_fearnrichardl_1988]
-- [Feero, Lavoie and Sullivan, Influence of synthetic jet location on active control of an airfoil at low Reynolds number, Experiments in Fluids, volume 58, 2017, registry record only][research_feero_2017]
+- [Fearn 1988][research_fearnrichardl_1988]
+- [Fearn and Benson 1979][research_fearnrl_bensonjp_1979]
+- [Fearn and Weston 1975][research_fearnrl_westonrp_1975]
+- [Fearn and Weston 1978][research_fearnrl_westonrp_1978]
+- [Feero et al 2015][research_feero_goodfellow_2015]
+- [Feero et al 2017][research_feero_2017]
 - [Feikema and Culley 2008][research_feikema_culley_2008]
-- [Feinreich, B. and Gevaert, G. 1980][research_feinreichb_gevaertg_1980]
+- [Feinreich and Gevaert 1980][research_feinreichb_gevaertg_1980]
 - [Feldstein et al 2023][research_feldstein_uleck_2023]
 - [Feng et al 2017][research_feng_song_2017]
 - [Ferguson et al 1993][research_ferguson_franke_1993]
@@ -2068,30 +2098,27 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 - [Ferry and Rovey 2010][research_ferry_rovey_2010]
 - [Feucht et al 1978][research_feucht_presley_1978]
 - [Fiedler and Mensing 1985][research_fiedler_mensing_1985]
-- [Fink, M. P. et al 1968][research_finkmp_freemandcjr_1968]
-- [Fink, M. R. 1975][research_finkmr_1975]
-- [Fink, M. R. 1978][research_finkmr_1978]
-- [Fink, Marvin P and McLemore, H Clyde 1957][research_finkmarvinp_mclemorehclyde_1957]
-- [Finn et al 2024][research_finn_tanner_2024]
-- [Finn et al 2025][research_finn_tanner_2025]
+- [Fink 1975][research_finkmr_1975]
+- [Fink 1978][research_finkmr_1978]
+- [Fink and McLemore 1957][research_finkmarvinp_mclemorehclyde_1957]
+- [Fink et al 1968][research_finkmp_freemandcjr_1968]
 - [Firsov et al 2019][research_firsov_kazansky_2019]
-- [Fischer, M. C. et al 1983][research_fischermc_wrightasjr_1983]
-- [Fischer, Michael C. 1992][research_fischermichaelc_1992]
-- [Fischer, Michael C. and Vemuru, Chandra S. 1991][research_fischermichaelc_vemuruchandras_1991]
-- [Fischler, J. E. et al 1989][research_fischlerje_jerstadnm_1989]
+- [Fischer 1992][research_fischermichaelc_1992]
+- [Fischer and Vemuru 1991][research_fischermichaelc_vemuruchandras_1991]
+- [Fischer et al 1983][research_fischermc_wrightasjr_1983]
+- [Fischler et al 1989][research_fischlerje_jerstadnm_1989]
+- [Fisher and Dougherty 1982][research_fisherdl_doughertynsjr_1982]
+- [Fisher and Dougherty 1983][research_fisherdf_doughertynsjr_1983]
 - [Fisher et al 1956][research_fisher_gertsen_1956]
-- [Fisher, D. F. and Dougherty, N. S., Jr. 1983][research_fisherdf_doughertynsjr_1983]
-- [Fisher, D. L. and Dougherty, N. S., Jr. 1982][research_fisherdl_doughertynsjr_1982]
-- [Fisher, David et al 1996][research_fisherdavid_thomasflinto_1996]
-- [Fisher, David F. et al 1998][research_fisherdavidf_cobleighbrentr_1998]
-- [Flamm, Jeffrey D. et al 2006][research_flammjeffreyd_deerekarena_2006]
-- [Flamm, Jeffrey D. et al 2007][research_flammjeffreyd_deerekarena_2007]
-- [Fleming, John et al 2005][research_flemingjohn_andersonjason_2005]
+- [Fisher et al 1996][research_fisherdavid_thomasflinto_1996]
+- [Fisher et al 1998][research_fisherdavidf_cobleighbrentr_1998]
+- [Flamm et al 2006][research_flammjeffreyd_deerekarena_2006]
+- [Flamm et al 2007][research_flammjeffreyd_deerekarena_2007]
+- [Fleming et al 2005][research_flemingjohn_andersonjason_2005]
 - [Flight Control Actuation Systems 2025][research_flight_control_2025]
 - [Flight Control Actuators][research_flight_control]
 - [Flight Test Results Pertaining 1970][research_flight_test_1970]
 - [Florent et al 2002][research_florent_pascal_2002]
-- [Flores et al 2019][research_flores_michelle_2019]
 - [Florin et al 2011][research_florin_alexandru_2011]
 - [Flow at Large Reynolds 2000][research_flow_at_2000]
 - [Flow Control Terminology, in Joslin and Miller, Fundamentals and Applications of Modern Flow Control, AIAA Progress in Astronautics and Aeronautics, 2009, registry record only][research_joslin_miller_2009]
@@ -2102,108 +2129,100 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 - [Flow Separation Control on 2022][research_flow_separation_2022]
 - [Fomin et al 2004][research_fomin_tretyakov_2004]
 - [Font and Morgan 2007][research_font_morgan_2007]
-- [Forsyth, D. R. et al 1975][research_forsythdr_yiplp_1975]
-- [Fortin et al 2021][research_fortin_otero_2021]
-- [Foster, Gerald V and Fitzpatrick, James E 1948][research_fostergeraldv_fitzpatrickjamese_1948]
-- [Fournier, P. G. and Coe, P. L., Jr. 1976][research_fournierpg_coepljr_1976]
-- [Fournier, Paul G. 1959][research_fournierpaulg_1959]
-- [Fox, C. H., Jr. and Freeman, D. C., Jr. 1971][research_foxchjr_freemandcjr_1971]
-- [Franke, M. E. and Harvell, J. K. 1987][research_frankeme_harvelljk_1987]
+- [Forsyth et al 1975][research_forsythdr_yiplp_1975]
+- [Foster and Fitzpatrick 1948][research_fostergeraldv_fitzpatrickjamese_1948]
+- [Fournier 1959][research_fournierpaulg_1959]
+- [Fournier and Coe 1976][research_fournierpg_coepljr_1976]
+- [Fox and Freeman 1971][research_foxchjr_freemandcjr_1971]
+- [Franke and Harvell 1987][research_frankeme_harvelljk_1987]
 - [Frankhouser and Gregory 2015][research_frankhouser_gregory_2015]
 - [Frede and Gatti 2025][research_frede_gatti_2025]
-- [Freeman, D. C., Jr. et al 1970][research_freemandcjr_hendersonrl_1970]
-- [Freeman, D. C., Jr. et al 1970][research_freemandcjr_parlettlp_1970]
-- [Fremaux, C. M. et al 1993][research_fremauxcm_vairodm_1993]
-- [Friedmann et al 1994][research_friedmann_yuan_1994]
+- [Freeman et al 1970][research_freemandcjr_hendersonrl_1970]
+- [Freeman et al 1970][research_freemandcjr_parlettlp_1970]
+- [Fremaux et al 1993][research_fremauxcm_vairodm_1993]
 - [Friehmelt 1996][research_friehmelt_1996]
 - [Frith and Wood 2004][research_frith_wood_2004]
 - [Friz and Rovey 2014][research_friz_rovey_2014]
 - [From Tube and Wing 2013][research_from_tube_2013]
 - [Frontiers of Flow Control 2000][research_frontiers_of_2000]
-- [Frost, Susan A. et al 2009][research_frostsusana_bodsonmarc_2009]
-- [Frost, Susan A. et al 2010][research_frostsusana_taylorbrianr_2010]
-- [Frost, Susan A. et al 2012][research_frostsusana_taylorbrianr_2012]
-- [Fröhlich et al 2021][research_frohlich_farmand_2021]
+- [Frost et al 2009][research_frostsusana_bodsonmarc_2009]
+- [Frost et al 2010][research_frostsusana_taylorbrianr_2010]
+- [Frost et al 2012][research_frostsusana_taylorbrianr_2012]
 - [Fu et al 2016][research_fu_mare_2016]
 - [Fu et al 2022][research_fu_shi_2022]
 - [Fujii 2015][research_fujii_2015]
 - [Fujii 2018][research_fujii_2018]
 - [Fukumoto et al 2016][research_fukumoto_aono_2016]
 - [Fukumoto et al 2018][research_fukumoto_aono_2018]
-- [Funderburk and Narayanaswamy 2018][research_funderburk_narayanaswamy_2018]
 - [Fung and Amitay 2002][research_fung_amitay_2002]
 - [Furey 1980][research_furey_1980]
-- [Furlong, K. L. and Fearn, R. L. 1983][research_furlongkl_fearnrl_1983]
+- [Furlong and Fearn 1983][research_furlongkl_fearnrl_1983]
 - [Futrzynski and Efraimsson 2016][research_futrzynski_efraimsson_2016]
-- [Gad-El-hak, Mohamed and Bushnell, Dennis M. 1991][research_gadelhakmohamed_bushnelldennism_1991]
+- [Gad-El-hak and Bushnell 1991][research_gadelhakmohamed_bushnelldennism_1991]
 - [Gaertlein et al 2014][research_gaertlein_woszidlo_2014]
-- [Gaeta, R. J. et al 2003][research_gaetarj_ahujakk_2003]
+- [Gaeta et al 2003][research_gaetarj_ahujakk_2003]
 - [Gage 1958][research_gage_1958]
 - [Gaile and Lue 2016][research_gaile_lue_2016]
-- [Gainer, T. G. et al 1976][research_gainertg_yiplp_1976]
+- [Gainer et al 1976][research_gainertg_yiplp_1976]
 - [Gallas et al 2004][research_gallas_holman_2004]
-- [Gallas, Quentin et al 2005][research_gallasquentin_sheplakmark_2005]
+- [Gallas et al 2005][research_gallasquentin_sheplakmark_2005]
+- [Gallman and Kroo 1992][research_gallmanjohnw_krooilanm_1992]
 - [Gallman and Kroo 1996][research_gallman_kroo_1996]
+- [Gallman et al 1990][research_gallmanjohnw_smithstephenc_1990]
+- [Gallman et al 1990][research_johnwgallman_ilanmkroo_1990]
 - [Gallman et al 1993][research_gallman_smith_1993]
-- [Gallman, John W. and Kroo, Ilan M. 1992][research_gallmanjohnw_krooilanm_1992]
-- [Gallman, John W. et al 1990][research_gallmanjohnw_smithstephenc_1990]
-- [Gally, Thomas A. 1994][research_gallythomasa_1994]
+- [Gally 1994][research_gallythomasa_1994]
 - [Gandhi et al 2009][research_gandhi_cooper_2009]
 - [Gangsaas et al 2008][research_gangsaas_hodgkinson_2008]
 - [Gao et al 2013][research_gao_zhang_2013]
 - [Gao et al 2021][research_gao_an_2021]
 - [Gao et al 2021][research_gao_yang_2021]
 - [Gao et al 2023][research_gao_zhao_2023]
-- [Garcia, F., Jr. et al 1973][research_garciafjr_hicksrm_1973]
-- [Garcia, Joseph A. et al 2019][research_garciajosepha_bowlesjeffreyv_2019]
+- [Garcia et al 1973][research_garciafjr_hicksrm_1973]
+- [Garcia et al 2019][research_garciajosepha_bowlesjeffreyv_2019]
 - [Gardner et al 2014][research_gardner_holmes_2014]
 - [Gardner et al 2014][research_gardner_richter_2014]
 - [Garmendia et al 2015][research_garmendia_chakraborty_2015]
-- [Garner, H. D. 1986][research_garnerhd_1986]
+- [Garner 1986][research_garnerhd_1986]
 - [Garnier et al 2008][research_garnier_pruvost_2008]
 - [Garrett Division Developing Advanced 1986][research_garrett_division_1986]
-- [Gault, Donald E. 1960][research_gaultdonalde_1960]
+- [Gault 1960][research_gaultdonalde_1960]
 - [Gautam et al 2025][research_gautam_mohammed_2025]
-- [Ge et al 2022][research_ge_peng_2022]
-- [Gee, Ken et al 1992][research_geeken_rizkyehiam_1992]
-- [Geiselhart, Karl A. et al 2003][research_geiselhartkarla_daggettdavidl_2003]
-- [Gene Morelli][research_genemorelli]
+- [Gee et al 1992][research_geeken_rizkyehiam_1992]
+- [Geiselhart et al 2003][research_geiselhartkarla_daggettdavidl_2003]
 - [General Dynamics Corp Pomona Ca Pomona Div 1963][research_generaldynamicscorppomonacapomonadiv_1963]
 - [General Electric Co Cincinnati Oh 1964][research_generalelectriccocincinnatioh_1964]
-- [Gentry, G. L., Jr. 1974][research_gentrygljr_1974]
+- [Gentry 1974][research_gentrygljr_1974]
 - [Genç and Kaynak 2009][research_genc_kaynak_2009]
 - [Gerhard et al 2014][research_gerhard_erbsloh_2014]
-- [Gerhard Geller and Carl D Lamb 1981][research_gerhardgeller_carldlamb_1981]
-- [Gern, Frank et al 2014][research_gernfrank_vicroydand_2014]
-- [Ghaffari, F. et al 2002][research_ghaffarif_biedronrt_2002]
-- [Ghaffari, Farhad et al 2002][research_ghaffarifarhad_biedronrobertt_2002]
+- [German et al][research_brianjgerman_ayushjha]
+- [Gern et al 2014][research_gernfrank_vicroydand_2014]
+- [Ghaffari et al 2002][research_ghaffarif_biedronrt_2002]
+- [Ghaffari et al 2002][research_ghaffarifarhad_biedronrobertt_2002]
 - [Ghee and Hall 2000][research_ghee_hall_2000]
 - [Ghee and Leishman 1991][research_ghee_leishman_1991]
 - [Ghee and Leishman 1992][research_ghee_leishman_1992]
 - [Ghee and Taylor 2000][research_ghee_taylor_2000]
 - [Ghee et al 2018][research_ghee_raghu_2018]
-- [Ghenai et al 2005][research_ghenai_philippidis_2005]
 - [Ghosh and Raisinghani 2000][research_ghosh_raisinghani_2000]
 - [Ghosh et al 2000][research_ghosh_raisinghani_2000_b]
+- [Gibson 1976][research_gibsonjs_1976]
 - [Gibson and Younis 1982][research_gibson_younis_1982]
-- [Gibson, J. S. 1976][research_gibsonjs_1976]
 - [Gil and Strzelczyk 2016][research_gil_strzelczyk_2016]
-- [Gil et al 1998][research_gil_jung_1998]
 - [Gil et al 2021][research_gil_wilk_2021]
 - [Gilarranz and Rediniotis 2001][research_gilarranz_rediniotis_2001]
-- [Gilbert, Michael G. 1987][research_gilbertmichaelg_1987]
+- [Gilbert 1987][research_gilbertmichaelg_1987]
 - [Gilchrist and Gregory-Smith 1988][research_gilchrist_gregorysmith_1988]
 - [Gildersleeve and Amitay 2019][research_gildersleeve_amitay_2019]
 - [Gilinskii and Lebedev 1977][research_gilinskii_lebedev_1977]
 - [Gillard 1998][research_gillard_1998]
 - [Gillard et al 1997][research_gillard_dorsett_1997]
-- [Gillette, W. B. et al 1974][research_gillettewb_mohnlw_1974]
+- [Gillette et al 1974][research_gillettewb_mohnlw_1974]
 - [Gilmore et al 2002][research_gilmore_wakayama_2002]
-- [Gilyard, G. B. and Edwards, J. W. 1983][research_gilyardgb_edwardsjw_1983]
-- [Gilyard, Glenn B. 1999][research_gilyardglennb_1999]
-- [Gimbert, N. Wes 1995][research_gimbertnwes_1995]
+- [Gilyard 1999][research_gilyardglennb_1999]
+- [Gilyard and Edwards 1983][research_gilyardgb_edwardsjw_1983]
+- [Gimbert 1995][research_gimbertnwes_1995]
 - [Giordano de Oliveira Silva and Moennich 2012][research_giordanodeoliveirasilva_moennich_2012]
-- [Giragosian 1981][research_giragosian_1981]
 - [Girshovich 1968][research_girshovich_1968]
 - [Glezer 1999][research_glezer_1999]
 - [Glezer 2004][research_glezer_2004]
@@ -2214,10 +2233,8 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 - [Goel et al 2021][research_goel_sarkar_2021]
 - [Goh and Lee 2013][research_goh_lee_2013]
 - [Gokoglu et al 2010][research_gokoglu_kuczmarski_2010]
-- [Goldschmied 1979][research_goldschmied_1979]
 - [Goldstein 2004][research_goldstein_2004]
 - [Goldstein 2006][research_goldstein_2006]
-- [Goldstein et al 1970][research_goldstein_harvey_1970]
 - [Goldthorpe et al 2010][research_goldthorpe_rossitto_2010]
 - [Golubev 2023][research_golubev_2023]
 - [Golubev 2023][research_golubev_2023_b]
@@ -2226,57 +2243,53 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 - [González-Espinosa et al 2014][research_gonzalezespinosa_buchmann_2014]
 - [Goodfellow et al 2010][research_goodfellow_yarusevych_2010]
 - [Goodfellow et al 2011][research_goodfellow_yarusevych_2011]
-- [Goodfellow, Yarusevych and Sullivan, Momentum Coefficient as a Parameter for Aerodynamic Flow Control with Synthetic Jets, AIAA Journal, volume 51, number 3, pages 623 to 631, 2013][research_goodfellow_2013]
-- [Goodrich, Kenneth H. and Sliwa, Steven M. 1987][research_goodrichkennethh_sliwastevenm_1987]
-- [Goodrich, Kenneth H. et al 1989][research_goodrichkennethh_sliwastevenm_1989]
-- [Goodykoontz, J. et al 1975][research_goodykoontzj_vonglahnu_1975]
-- [Goodykoontz, J. H. et al 1971][research_goodykoontzjh_olsenwa_1971]
-- [Goodykoontz, J. H. et al 1972][research_goodykoontzjh_dorschrg_1972]
-- [Goodykoontz, J. H. et al 1972][research_goodykoontzjh_olsenwa_1972]
-- [Goodykoontz, J. H. et al 1973][research_goodykoontzjh_dorschrg_1973]
-- [Goodykoontz, J. H. et al 1973][research_goodykoontzjh_wagnerjm_1973]
-- [Goodykoontz, J. H. et al 1974][research_goodykoontzjh_dorschrg_1974]
-- [Goodykoontz, J. H. et al 1976][research_goodykoontzjh_dorschrg_1976]
+- [Goodfellow et al 2013][research_goodfellow_2013]
+- [Goodrich and Sliwa 1987][research_goodrichkennethh_sliwastevenm_1987]
+- [Goodrich et al 1989][research_goodrichkennethh_sliwastevenm_1989]
+- [Goodykoontz et al 1971][research_goodykoontzjh_olsenwa_1971]
+- [Goodykoontz et al 1972][research_goodykoontzjh_dorschrg_1972]
+- [Goodykoontz et al 1972][research_goodykoontzjh_olsenwa_1972]
+- [Goodykoontz et al 1973][research_goodykoontzjh_dorschrg_1973]
+- [Goodykoontz et al 1973][research_goodykoontzjh_wagnerjm_1973]
+- [Goodykoontz et al 1974][research_goodykoontzjh_dorschrg_1974]
+- [Goodykoontz et al 1975][research_goodykoontzj_vonglahnu_1975]
+- [Goodykoontz et al 1976][research_goodykoontzjh_dorschrg_1976]
 - [Gordon and Soria 2002][research_gordon_soria_2002]
 - [Gordon et al 2004][research_gordon_cater_2004]
-- [Gorla 1976][research_gorla_1976]
-- [Gorla 1977][research_gorla_1977]
-- [Gorla 1983][research_gorla_1983]
-- [Gorla 1984][research_gorla_1984]
-- [Gorla 1994][research_gorla_1994]
-- [Gorton, Susan A. 2001][research_gortonsusana_2001]
-- [Gorton, Susan Althoff et al 2004][research_gortonsusanalthoff_owenslewisr_2004]
+- [Gorton 2001][research_gortonsusana_2001]
+- [Gorton et al 2004][research_gortonsusanalthoff_owenslewisr_2004]
 - [Gowda B C et al 2019][research_gowdabc_n_2019]
-- [Graff, Emilio et al 2013][research_graffemilio_seeleroman_2013]
-- [Grafton, S. B. et al 1971][research_graftonsb_parlettlp_1971]
+- [Graff et al][research_egraff_ewhalen]
+- [Graff et al 2013][research_graffemilio_seeleroman_2013]
+- [Grafton et al 1971][research_graftonsb_parlettlp_1971]
 - [Grager][research_grager]
 - [Grager et al 2012][research_grager_rothmayer_2012]
-- [Grantham, W. D. et al 1972][research_granthamwd_nguyenlt_1972]
-- [Grantham, W. D. et al 1974][research_granthamwd_nguyenlt_1974]
-- [Granzeier 2002][research_granzeier_2002]
-- [Graphic Symbols for Aircraft][research_graphic_symbols]
-- [Graphical symbols for aircraft][research_graphical_symbols]
-- [Gratzer, L. B. and George-Falvy, D. 1978][research_gratzerlb_georgefalvyd_1978]
+- [Grantham et al 1972][research_granthamwd_nguyenlt_1972]
+- [Grantham et al 1974][research_granthamwd_nguyenlt_1974]
+- [Gratzer and George-Falvy 1978][research_gratzerlb_georgefalvyd_1978]
+- [Grauer][research_jaredagrauer]
+- [Grauer][research_jaredgrauer]
+- [Grauer and Boucher][research_jaredagrauer_matthewjboucher]
+- [Grauer and Boucher 2020][research_grauerjareda_bouchermatthewj_2020]
 - [Grauer and Morelli 2023][research_grauer_morelli_2023]
-- [Grauer, Jared A et al 2012][research_grauerjareda_heegjennifer_2012]
-- [Grauer, Jared A. and Boucher, Matthew J. 2020][research_grauerjareda_bouchermatthewj_2020]
+- [Grauer et al 2012][research_grauerjareda_heegjennifer_2012]
 - [Greco et al 2016][research_greco_cardone_2016]
 - [Green 1980][research_green_1980]
-- [Green, Lawrence L. and Cruz, Josue 2006][research_greenlawrencel_cruzjosue_2006]
+- [Green and Cruz 2006][research_greenlawrencel_cruzjosue_2006]
 - [Greenblatt 2005][research_greenblatt_2005]
+- [Greenblatt 2005][research_greenblattdavid_2005]
+- [Greenblatt 2005][research_greenblattdavid_2005_b]
+- [Greenblatt 2006][research_greenblattdavid_2006]
 - [Greenblatt 2007][research_greenblatt_2007]
+- [Greenblatt and Washburn 2007][research_greenblattdavid_washburnanthonye_2007]
+- [Greenblatt and Washburn 2008][research_greenblattdavid_washburnanthonye_2008]
 - [Greenblatt and Wygnanski 2003][research_greenblatt_wygnanski_2003]
+- [Greenblatt et al 2004][research_greenblattdavid_paschalkeithb_2004]
 - [Greenblatt et al 2005][research_greenblatt_paschal_2005]
 - [Greenblatt et al 2006][research_greenblatt_paschal_2006]
+- [Greenblatt et al 2007][research_greenblattd_paschalkb_2007]
 - [Greenblatt et al 2014][research_greenblatt_doron_2014]
-- [Greenblatt, D. et al 2007][research_greenblattd_paschalkb_2007]
-- [Greenblatt, David 2005][research_greenblattdavid_2005]
-- [Greenblatt, David 2005][research_greenblattdavid_2005_b]
-- [Greenblatt, David 2006][research_greenblattdavid_2006]
-- [Greenblatt, David and Washburn, Anthony E. 2007][research_greenblattdavid_washburnanthonye_2007]
-- [Greenblatt, David and Washburn, Anthony E. 2008][research_greenblattdavid_washburnanthonye_2008]
-- [Greenblatt, David et al 2004][research_greenblattdavid_paschalkeithb_2004]
-- [Greene, G. C. and Perry, B., III 1972][research_greenegc_perrybiii_1972]
+- [Greene and Perry 1972][research_greenegc_perrybiii_1972]
 - [Greenwell and Wood 1993][research_greenwell_wood_1993]
 - [Gregory and Tomac 2013][research_gregory_tomac_2013]
 - [Gregory et al 2002][research_gregory_sakaue_2002]
@@ -2284,15 +2297,14 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 - [Gregory et al 2005][research_gregory_gnanamanickam_2005]
 - [Gregory et al 2005][research_gregory_sullivan_2005]
 - [Gregory et al 2007][research_gregory_ruotolo_2007]
-- [Gregory S Jones et al][research_gregorysjones_williamemilholenii]
-- [Gregory, Irene M. et al 2011][research_gregoryirenem_xargayenric_2011]
-- [Gregory, Irene M. et al 2011][research_gregoryirenem_xargayenric_2011_b]
+- [Gregory et al 2011][research_gregoryirenem_xargayenric_2011]
+- [Gregory et al 2011][research_gregoryirenem_xargayenric_2011_b]
 - [Gregory-Smith and Gilchrist 1987][research_gregorysmith_gilchrist_1987]
 - [Gregory-Smith and Hawkins 1991][research_gregorysmith_hawkins_1991]
-- [Griffin, Roy N., Jr. et al 1958][research_griffinroynjr_holzhausercurta_1958]
+- [Griffin et al 1958][research_griffinroynjr_holzhausercurta_1958]
 - [Griffith and Faruque 2023][research_griffith_faruque_2023]
 - [Groeneweg and Minner 1972][research_groeneweg_minner_1972]
-- [Groeneweg, J. F. and Minner, G. L. 1972][research_groenewegjf_minnergl_1972]
+- [Groeneweg and Minner 1972][research_groenewegjf_minnergl_1972]
 - [Gross and Fasel 2004][research_gross_fasel_2004]
 - [Gross and Fasel 2006][research_gross_fasel_2006]
 - [Gross and Fasel 2006][research_gross_fasel_2006_b]
@@ -2304,13 +2316,12 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 - [Gross and Fasel 2013][research_gross_fasel_2013_c]
 - [Gross et al 2003][research_gross_wernz_2003]
 - [Gross et al 2024][research_gross_marks_2024]
-- [Grosveld 1990][research_grosveld_1990]
 - [Grosvenor][research_grosvenor]
 - [Ground testing of X-48B 2007][research_ground_testing_2007]
 - [Grove et al 2000][research_grove_birkbeck_2000]
 - [Grund and Nitsche 2010][research_grund_nitsche_2010]
-- [Grunwald, Kalman J. 1961][research_grunwaldkalmanj_1961]
-- [Gruschka, H. D. and Schrecker, G. O. 1972][research_gruschkahd_schreckergo_1972]
+- [Grunwald 1961][research_grunwaldkalmanj_1961]
+- [Gruschka and Schrecker 1972][research_gruschkahd_schreckergo_1972]
 - [Guangjun Liu et al 2004][research_guangjunliu_guozhongbao_2004]
 - [Guangjun Liu et al 2005][research_guangjunliu_guozhongbao_2005]
 - [Guendogdu et al 2010][research_guendogdu_vorreiter_2010]
@@ -2322,12 +2333,9 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 - [Gunes et al 2008][research_gunes_cadirci_2008]
 - [Gungordu 2022][research_gungordu_2022]
 - [Guo 2006][research_guo_2006]
-- [Guo and Thomas 2015][research_guo_thomas_2015]
 - [Guo and Zhong 2008][research_guo_zhong_2008]
 - [Guo et al 2002][research_guo_cary_2002]
 - [Guo et al 2011][research_guo_liu_2011]
-- [Guo et al 2014][research_guo_burley_2014]
-- [Guo et al 2015][research_guo_czech_2015]
 - [Guo et al 2017][research_guo_hou_2017]
 - [Guo et al 2025][research_guo_wang_2025]
 - [Guoliang et al 2016][research_guoliang_junwei_2016]
@@ -2342,25 +2350,21 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 - [Guy et al 2000][research_guy_morrow_2000]
 - [Guy et al 2000][research_guy_morton_2000]
 - [Guy et al 2002][research_guy_mclaughlin_2002]
-- [Guyot et al 2008][research_guyot_paschereit_2008]
-- [Guyot et al 2008][research_guyot_taticchimandoliniborgia_2008]
 - [Güler et al 2021][research_guler_durhasan_2021]
 - [Güngördü 2026][research_gungordu_2026]
+- [Hackett and Boles 1977][research_hackettje_bolesra_1977]
+- [Hackett and Boles 1978][research_hackettje_bolesra_1978]
 - [Hackett and Lyman 1973][research_hackett_lyman_1973]
-- [Hackett, J. E. and Boles, R. A. 1977][research_hackettje_bolesra_1977]
-- [Hackett, J. E. and Boles, R. A. 1978][research_hackettje_bolesra_1978]
-- [Hackett, J. E. et al 1976][research_hackettje_bolesra_1976]
-- [Hackett, J. E. et al 1981][research_hackettje_sampaths_1981]
-- [Hageman, Jacob J. et al 2003][research_hagemanjacobj_smithmarks_2003]
-- [Hahn, A. S. and Wilson, S. B., III 1985][research_hahnas_wilsonsbiii_1985]
-- [Hahne, David E. and Glaab, Louis J. 1999][research_hahnedavide_glaablouisj_1999]
-- [Hahne, David E. and Jordan, Frank L., Jr. 1991][research_hahnedavide_jordanfrankljr_1991]
-- [Hahne, David E. et al 1987][research_hahnedavide_jordanfrankljr_1987]
+- [Hackett et al 1976][research_hackettje_bolesra_1976]
+- [Hackett et al 1981][research_hackettje_sampaths_1981]
+- [Hageman et al 2003][research_hagemanjacobj_smithmarks_2003]
+- [Hahn and Wilson 1985][research_hahnas_wilsonsbiii_1985]
+- [Hahne and Glaab 1999][research_hahnedavide_glaablouisj_1999]
+- [Hahne and Jordan 1991][research_hahnedavide_jordanfrankljr_1991]
+- [Hahne et al 1987][research_hahnedavide_jordanfrankljr_1987]
 - [Hair 1987][research_hair_1987]
-- [Hajela, P. and Chen, J. L. 1986][research_hajelap_chenjl_1986]
-- [Hall, Jeffery L. et al 2009][research_halljefferyl_paukenmichaelt_2009]
+- [Hajela and Chen 1986][research_hajelap_chenjl_1986]
 - [Hamdani et al 2003][research_hamdani_baig_2003]
-- [Hamed 1993][research_hamed_1993]
 - [Hamel and Jategaonkar 1996][research_hamel_jategaonkar_1996]
 - [Hammouda et al 2025][research_hammouda_khan_2025]
 - [Hamstra et al 2000][research_hamstra_miller_2000]
@@ -2375,30 +2379,28 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 - [Hansmann and Stumpf 2026][research_hansmann_stumpf_2026]
 - [Harada and Sakakibara 2018][research_harada_sakakibara_2018]
 - [Hard][research_hard]
-- [Hardin, Jay C. and Pope, D. Stuart 1989][research_hardinjayc_popedstuart_1989]
+- [Hardin and Pope 1989][research_hardinjayc_popedstuart_1989]
 - [Harinaldi et al 2016][research_harinaldi_budiarso_2016]
 - [Harinaldi et al 2020][research_harinaldi_muhammaddennikesuma_2020]
-- [Harkonen, D. L. et al 1974][research_harkonendl_markscc_1974]
-- [Harkonen, D. L. et al 1974][research_harkonendl_mcbridejf_1974]
+- [Harkonen et al 1974][research_harkonendl_mcbridejf_1974]
+- [Harris and Falarski 1980][research_harrismj_falarskimd_1980]
+- [Harris et al 1988][research_harrischarlesd_harveywilliamd_1988]
+- [Harris et al 1989][research_harrischarlesd_brookscuylerwjr_1989]
+- [Harris et al 1992][research_harrischarlesd_brookscuylerwjr_1992]
 - [Harris et al 2016][research_harris_arthurs_2016]
-- [Harris, Charles D. et al 1988][research_harrischarlesd_harveywilliamd_1988]
-- [Harris, Charles D. et al 1989][research_harrischarlesd_brookscuylerwjr_1989]
-- [Harris, Charles D. et al 1992][research_harrischarlesd_brookscuylerwjr_1992]
-- [Harris, M. J. and Falarski, M. D. 1980][research_harrismj_falarskimd_1980]
 - [Harry and Trobaugh 1966][research_harry_trobaugh_1966]
 - [Hartmann 1982][research_hartmann_1982]
-- [Hartmann, G. L. and Stein, G. 1981][research_hartmanngl_steing_1981]
-- [Hartwich, Peter M. et al 2014][research_hartwichpeterm_dickeyericd_2014]
-- [Hartwich, Peter M. et al 2016][research_hartwichpeterm_shmilovicharvin_2016]
+- [Hartmann and Stein 1981][research_hartmanngl_steing_1981]
+- [Hartwich et al 2014][research_hartwichpeterm_dickeyericd_2014]
+- [Hartwich et al 2016][research_hartwichpeterm_shmilovicharvin_2016]
 - [Harvell and Franke 1985][research_harvell_franke_1985]
-- [Harvey, W. D. 1982][research_harveywd_1982]
-- [Harvey, W. D. and Pride, J. D. 1982][research_harveywd_pridejd_1982]
-- [Harvey, W. D. et al 1986][research_harveywd_harriscd_1986]
-- [Harvey, William D. 1988][research_harveywilliamd_1988]
-- [Harvey, William D. et al 1989][research_harveywilliamd_harrischarlesd_1989]
+- [Harvey 1982][research_harveywd_1982]
+- [Harvey 1988][research_harveywilliamd_1988]
+- [Harvey and Pride 1982][research_harveywd_pridejd_1982]
+- [Harvey et al 1986][research_harveywd_harriscd_1986]
+- [Harvey et al 1989][research_harveywilliamd_harrischarlesd_1989]
 - [Hasan and Atkinson 2020][research_hasan_atkinson_2020]
 - [Hasegawa and Obayashi 2019][research_hasegawa_obayashi_2019]
-- [Haslam 1977][research_haslam_1977]
 - [Hasnain et al 2013][research_hasnain_flatau_2013]
 - [Hasnain et al 2015][research_hasnain_trollinger_2015]
 - [Hassan 2005][research_hassan_2005]
@@ -2407,38 +2409,37 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 - [Haucke and Nitsche 2011][research_haucke_nitsche_2011]
 - [Haucke and Nitsche 2013][research_haucke_nitsche_2013]
 - [Haucke et al 2008][research_haucke_peltzer_2008]
-- [Haugen and Dhanak 1967][research_haugen_dhanak_1967]
 - [Hauser 1999][research_hauser_1999]
-- [Hayden, R. E. et al 1972][research_haydenre_schartontd_1972]
+- [Hayden et al 1972][research_haydenre_schartontd_1972]
 - [He 1999][research_he_1999]
 - [He et al 2018][research_he_provost_2018]
 - [He et al 2023][research_he_zhang_2023]
 - [He et al 2024][research_he_holzapfel_2024]
 - [He et al 2024][research_he_zhan_2024]
-- [Heeg, Jennifer 2006][research_heegjennifer_2006]
-- [Heeg, Jennifer and Morelli, Eugene A. 2011][research_heegjennifer_morellieugenea_2011]
-- [Heeg, Jennifer et al 2005][research_heegjennifer_spaincharlesv_2005]
-- [Heffley, R. K. et al 1974][research_heffleyrk_staplefordrl_1974]
-- [Heidelberg, L. J. et al 1975][research_heidelberglj_homyakl_1975]
-- [Heinemann, K. and Brown, Jeff 1992][research_heinemannk_brownjeff_1992]
+- [Heaney][research_patricksheaney]
+- [Heaney and Quindlen][research_patricksheaney_johnfquindlen]
+- [Heeg 2006][research_heegjennifer_2006]
+- [Heeg and Morelli 2011][research_heegjennifer_morellieugenea_2011]
+- [Heeg et al 2005][research_heegjennifer_spaincharlesv_2005]
+- [Heffley et al 1974][research_heffleyrk_staplefordrl_1974]
+- [Heidelberg et al 1975][research_heidelberglj_homyakl_1975]
+- [Heinemann and Brown 1992][research_heinemannk_brownjeff_1992]
 - [Heinzen et al 2002][research_heinzen_hall_2002]
-- [Hellbaum, R. F. and McDermon, J. N. 1977][research_hellbaumrf_mcdermonjn_1977]
+- [Hellbaum and McDermon 1977][research_hellbaumrf_mcdermonjn_1977]
 - [Helmbold 1957][research_helmbold_1957]
 - [Helmbold 1958][research_helmbold_1958]
-- [Henderson, R. L. 1971][research_hendersonrl_1971]
-- [Herold, A. C. 1973][research_heroldac_1973]
-- [Herrera, Claudia 2018][research_herreraclaudia_2018]
-- [Herrera, Claudia Y. et al 2015][research_herreraclaudiay_spiveynatalied_2015]
-- [Herrera, Claudia Y. et al 2016][research_herreraclaudiay_spiveynatalied_2016]
-- [Herrera, Claudia Y. et al 2016][research_herreraclaudiay_spiveynatalied_2016_b]
+- [Henderson 1971][research_hendersonrl_1971]
+- [Herold 1973][research_heroldac_1973]
+- [Herrera 2018][research_herreraclaudia_2018]
+- [Herrera et al 2015][research_herreraclaudiay_spiveynatalied_2015]
+- [Herrera et al 2016][research_herreraclaudiay_spiveynatalied_2016]
+- [Herrera et al 2016][research_herreraclaudiay_spiveynatalied_2016_b]
 - [Hess and Flick 2004][research_hess_flick_2004]
-- [Hett 1951][research_hett_1951]
-- [Hickey, David H. and Aoyagi, Kiyoshi 1960][research_hickeydavidh_aoyagikiyoshi_1960]
-- [Hicks, John W. et al 1987][research_hicksjohnw_cooperjamesmjr_1987]
-- [Hicks, R. M. et al 1972][research_hicksrm_mendozajp_1972]
-- [Hieser, Gerald and Whitcomb, Charles F 1948][research_hiesergerald_whitcombcharlesf_1948]
+- [Hickey and Aoyagi 1960][research_hickeydavidh_aoyagikiyoshi_1960]
+- [Hicks et al 1972][research_hicksrm_mendozajp_1972]
+- [Hicks et al 1987][research_hicksjohnw_cooperjamesmjr_1987]
+- [Hieser and Whitcomb 1948][research_hiesergerald_whitcombcharlesf_1948]
 - [Higashiura et al 2008][research_higashiura_motosuke_2008]
-- [High Order Large Eddy 2017][research_high_order_2017]
 - [High Reynolds Number Hybrid 1999][research_high_reynolds_1999]
 - [High Reynolds Number Hybrid 1999][research_high_reynolds_1999_b]
 - [High Reynolds Number Hybrid 1999][research_high_reynolds_1999_c]
@@ -2447,103 +2448,101 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 - [Hirsch 1957][research_hirsch_1957]
 - [Hirsch 1958][research_hirsch_1958]
 - [Hirsch and Gharib 2018][research_hirsch_gharib_2018]
-- [Hirsh 1965][research_hirsh_1965]
-- [Hirshorn, Steven and Kemmerly, Guy 2018][research_hirshornsteven_kemmerlyguy_2018]
-- [Hirt, Stefanie M. et al 2012][research_hirtstefaniem_zamankhairulbmq_2012]
+- [Hirshorn and Kemmerly 2018][research_hirshornsteven_kemmerlyguy_2018]
+- [Hirt et al 2012][research_hirtstefaniem_zamankhairulbmq_2012]
 - [Hisseine][research_hisseine]
 - [Historical Design Information of][research_historical_design]
 - [Ho et al 2025][research_ho_shirinzad_2025]
-- [Hoad, D. R. 1974][research_hoaddr_1974]
-- [Hoad, D. R. 1976][research_hoaddr_1976]
+- [Hoad 1974][research_hoaddr_1974]
+- [Hoad 1976][research_hoaddr_1976]
 - [Hoeijmakers and Wirtz 2018][research_hoeijmakers_wirtz_2018]
-- [Holdaway, George H. and Mellenthin, Jack A. 1960][research_holdawaygeorgeh_mellenthinjacka_1960]
-- [Holdaway, George H. and Mellenthin, Jack A. 1960][research_holdawaygeorgeh_mellenthinjacka_1960_b]
-- [Holdaway, George H. and Mellenthin, Jack A. 1960][research_holdawaygeorgeh_mellenthinjacka_1960_c]
-- [Holdaway, George H. et al 1959][research_holdawaygeorgeh_mellenthinjacka_1959]
+- [Holdaway and Mellenthin 1960][research_holdawaygeorgeh_mellenthinjacka_1960]
+- [Holdaway and Mellenthin 1960][research_holdawaygeorgeh_mellenthinjacka_1960_b]
+- [Holdaway and Mellenthin 1960][research_holdawaygeorgeh_mellenthinjacka_1960_c]
+- [Holdaway et al 1959][research_holdawaygeorgeh_mellenthinjacka_1959]
 - [Holman et al 2003][research_holman_gallas_2003]
-- [Holmberg, J. L. 1975][research_holmbergjl_1975]
+- [Holmberg 1975][research_holmbergjl_1975]
 - [Honami and Motosuke 2012][research_honami_motosuke_2012]
 - [Hong 2006][research_hong_2006]
 - [Hong and Roberts 1995][research_hong_roberts_1995]
 - [Honohan et al 2000][research_honohan_amitay_2000]
+- [Horne 1984][research_hornewc_1984]
+- [Horne and Burnside 2013][research_horneclifton_burnsidenathanj_2013]
 - [Horne and Burnside 2016][research_horne_burnside_2016]
-- [Horne, C. and Karamcheti, K. 1979][research_hornec_karamchetik_1979]
-- [Horne, Clifton and Burnside, Nate 2016][research_horneclifton_burnsidenate_2016]
-- [Horne, Clifton and Burnside, Nate 2017][research_horneclifton_burnsidenate_2017]
-- [Horne, Clifton and Burnside, Nathan J. 2013][research_horneclifton_burnsidenathanj_2013]
-- [Horne, W. C. 1984][research_hornewc_1984]
-- [Horne, W. C. et al 1981][research_hornewc_jonkouskigc_1981]
-- [Horne, William C. and Burnside, Nathan J. 2016][research_hornewilliamc_burnsidenathanj_2016]
-- [Hornyak, S. 1984][research_hornyaks_1984]
-- [Horton, Elmer A and Von Doenhoff, Albert E 1949][research_hortonelmera_vondoenhoffalberte_1949]
-- [Horton, Elmer A et al 1950][research_hortonelmera_raciszstanleyfrank_1950]
-- [Horton, Elmer A et al 1951][research_hortonelmera_raciszstanleyfrank_1951]
-- [Hoskinson, Alan R. 2012][research_hoskinsonalanr_2012]
+- [Horne and Burnside 2016][research_horneclifton_burnsidenate_2016]
+- [Horne and Burnside 2016][research_hornewilliamc_burnsidenathanj_2016]
+- [Horne and Burnside 2017][research_horneclifton_burnsidenate_2017]
+- [Horne and Karamcheti 1979][research_hornec_karamchetik_1979]
+- [Hornyak 1984][research_hornyaks_1984]
+- [Horton and Von Doenhoff 1949][research_hortonelmera_vondoenhoffalberte_1949]
+- [Horton et al 1950][research_hortonelmera_raciszstanleyfrank_1950]
+- [Horton et al 1951][research_hortonelmera_raciszstanleyfrank_1951]
+- [Hoskinson 2012][research_hoskinsonalanr_2012]
 - [Hossain and Kader 2004][research_hossain_kader_2004]
 - [Hossain et al 2019][research_hossain_ameri_2019]
-- [Hosseini, Seyedeh Sheida et al 2018][research_hosseiniseyedehsheida_vandamcp_2018]
+- [Hosseini et al][research_seyedehhosseini_cpvandam]
+- [Hosseini et al][research_seyedehsheidahosseini_cpvandam]
+- [Hosseini et al][research_seyedehsheidahosseini_cpvandam_b]
+- [Hosseini et al][research_seyedehsheidahosseini_cpvandam_c]
+- [Hosseini et al][research_seyedehsheidahosseini_jamesrlkoch]
+- [Hosseini et al][research_sheidahosseini_cpvandam]
+- [Hosseini et al 2018][research_hosseiniseyedehsheida_vandamcp_2018]
 - [Hosseinverdi and Fasel 2013][research_hosseinverdi_fasel_2013]
 - [Hosseinverdi and Fasel 2023][research_hosseinverdi_fasel_2023]
-- [Hough, G. R. 1979][research_houghgr_1979]
-- [Hough, G. R. 1980][research_houghgr_1980]
-- [Howe 1988][research_howe_1988]
+- [Hough 1979][research_houghgr_1979]
+- [Hough 1980][research_houghgr_1980]
 - [Howe 2000][research_howe_2000]
 - [Howe 2002][research_howe_2002]
 - [Hu][research_hu]
 - [Hu et al 2025][research_hu_mitsumoto_2025]
 - [Hu et al 2025][research_hu_mitsumoto_2025_b]
 - [Huang and Zhou 2018][research_huang_zhou_2018]
+- [Huang et al 1987][research_huangls_maestrellol_1987]
 - [Huang et al 2004][research_huang_huang_2004]
 - [Huang et al 2018][research_huang_zhang_2018]
-- [Huang et al 2024][research_huang_dong_2024]
-- [Huang, L. S. et al 1987][research_huangls_maestrellol_1987]
 - [Huber 1995][research_huber_1995]
-- [Huber, Peter and Schellenger, Harvey G. 1994][research_huberpeter_schellengerharveyg_1994]
+- [Huber and Schellenger 1994][research_huberpeter_schellengerharveyg_1994]
 - [Hue et al 2017][research_hue_francois_2017]
+- [Huff 1989][research_huffronaldg_1989]
 - [Huff et al 2019][research_huff_schauer_2019]
-- [Huff, Ronald G. 1989][research_huffronaldg_1989]
-- [Huffman, J. K. et al 1948][research_huffmanjk_hahnede_1948]
-- [Hughes, D. L. 1972][research_hughesdl_1972]
-- [Hughes, D. L. 1973][research_hughesdl_1973]
+- [Huffman et al 1948][research_huffmanjk_hahnede_1948]
+- [Hughes 1972][research_hughesdl_1972]
+- [Hughes 1973][research_hughesdl_1973]
 - [Hui et al 2019][research_hui_hu_2019]
 - [Huijts and Voskuijl 2015][research_huijts_voskuijl_2015]
-- [Hultgren, Lennart S. and Ashpis, David E. 2003][research_hultgrenlennarts_ashpisdavide_2003]
-- [Hultgren, Lennart S. and Ashpis, David E. 2003][research_hultgrenlennarts_ashpisdavide_2003_b]
-- [Hultgren, Lennart S. and Ashpis, David E. 2004][research_hultgrenlennarts_ashpisdavide_2004]
+- [Hultgren and Ashpis 2003][research_hultgrenlennarts_ashpisdavide_2003]
+- [Hultgren and Ashpis 2003][research_hultgrenlennarts_ashpisdavide_2003_b]
+- [Hultgren and Ashpis 2004][research_hultgrenlennarts_ashpisdavide_2004]
 - [Humphreys-Jennings et al 2020][research_humphreysjennings_lappas_2020]
-- [Hunter, Craig A. et al 2001][research_huntercraiga_vikensallya_2001]
-- [Hunter, D. and Krauss, T. 1991][research_hunterd_krausst_1991]
-- [Hunter, David and Cullen, Laurence 1992][research_hunterdavid_cullenlaurence_1992]
+- [Hunter and Cullen 1992][research_hunterdavid_cullenlaurence_1992]
+- [Hunter and Krauss 1991][research_hunterd_krausst_1991]
+- [Hunter et al 2001][research_huntercraiga_vikensallya_2001]
 - [Hur et al 2004][research_hur_beran_2004]
 - [Hussain and Khan 2024][research_hussain_khan_2024]
-- [Hutcheson, Florence V. and Brooks, THomas F. 2005][research_hutchesonflorencev_brooksthomasf_2005]
-- [Hutcheson, Florence V. and Stead, Daniel J. 2004][research_hutchesonflorencev_steaddanielj_2004_b]
-- [Hutcheson, Florence V. et al 2004][research_hutchesonflorencev_steaddanielj_2004]
-- [Hwang and Cho 2003][research_hwang_cho_2003]
-- [Hwang, D. P. 1983][research_hwangdp_1983]
-- [Hwang, D. P. 1984][research_hwangdp_1984]
-- [Hwang, D. P. et al 1994][research_hwangdp_boldmandr_1994]
+- [Hutcheson and Brooks 2005][research_hutchesonflorencev_brooksthomasf_2005]
+- [Hutcheson and Stead 2004][research_hutchesonflorencev_steaddanielj_2004_b]
+- [Hutcheson et al 2004][research_hutchesonflorencev_steaddanielj_2004]
+- [Hwang 1983][research_hwangdp_1983]
+- [Hwang 1984][research_hwangdp_1984]
+- [Hwang et al 1994][research_hwangdp_boldmandr_1994]
 - [Ibrahim and Skote 2011][research_ibrahim_skote_2011]
 - [Ibrahim and Skote 2012][research_ibrahim_skote_2012]
 - [Ibrahimoglu et al 2016][research_ibrahimoglu_yilmazoglu_2016]
 - [Igarashi et al 2017][research_igarashi_nogi_2017]
 - [Iguchi and Ilegbusi 2010][research_iguchi_ilegbusi_2010]
-- [Iida et al 2010][research_iida_fukudome_2010]
 - [Ijaz et al 2019][research_ijaz_hamayun_2019]
 - [Ijaz et al 2019][research_ijaz_hamayun_2019_b]
 - [Ijaz et al 2019][research_ijaz_yan_2019]
 - [Ikoshi et al 2012][research_ikoshi_ogata_2012]
 - [Il'inskii and Mardanov 2007][research_ilinskii_mardanov_2007]
-- [Iliff, K. W. and Maine, R. E. 1982][research_iliffkw_mainere_1982]
-- [Iliff, K. W. and Maine, R. E. 1983][research_iliffkw_mainere_1983]
-- [Iliff, Kenneth W. 1989][research_iliffkennethw_1989]
-- [Imamura and Fujino 2018][research_imamura_fujino_2018]
+- [Iliff 1989][research_iliffkennethw_1989]
+- [Iliff and Maine 1982][research_iliffkw_mainere_1982]
+- [Iliff and Maine 1983][research_iliffkw_mainere_1983]
 - [Imao et al 2005][research_imao_kikuchi_2005]
-- [Improved modeling of flow][research_improved_modeling]
 - [Influence of Surface Curvature 2023][research_influence_of_2023]
 - [Influences of Blowing Jet 2004][research_influences_of_2004]
 - [Iniguez de Heredia and Friehmelt 2005][research_iniguezdeheredia_friehmelt_2005]
-- [Innis, R. C. and Anderson, S. B. 1972][research_innisrc_andersonsb_1972]
+- [Innis and Anderson 1972][research_innisrc_andersonsb_1972]
 - [Inoue et al 2005][research_inoue_funato_2005]
 - [Investigation of Wing Lift 2025][research_investigation_of_2025]
 - [Investigations on the Interfering 2022][research_investigations_on_2022]
@@ -2551,61 +2550,50 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 - [Iskandar et al 2025][research_iskandar_harinaldi_2025]
 - [Isobe et al 2019][research_isobe_suzuki_2019]
 - [Israel et al 2002][research_israel_fasse_2002]
-- [Israel Wygnanski][research_israelwygnanski]
 - [Ito and Suematsu 1974][research_ito_suematsu_1974]
 - [Ito and Suematsu 1975][research_ito_suematsu_1975]
 - [Itsariyapinyo and Sharma 2016][research_itsariyapinyo_sharma_2016]
 - [Itsariyapinyo and Sharma 2018][research_itsariyapinyo_sharma_2018]
 - [Itsariyapinyo and Sharma 2022][research_itsariyapinyo_sharma_2022]
 - [Ivanova et al 2010][research_ivanova_noll_2010]
-- [Ivler et al 2019][research_ivler_tischler_2019]
 - [Iwamoto et al 2002][research_iwamoto_suzuki_2002]
 - [Iwatsuki et al 1999][research_iwatsuki_iida_1999]
 - [Iyer and Malik 2023][research_iyer_malik_2023]
 - [Izquierdo][research_izquierdo]
-- [J Reece Roth et al 1998][research_jreeceroth_danielmsherman_1998]
 - [Jabbal 2008][research_jabbal_2008]
 - [Jabbal 2012][research_jabbal_2012]
 - [Jabbal et al 2010][research_jabbal_liddle_2010]
 - [Jabbari and Esmaeili 2024][research_jabbari_esmaeili_2024]
 - [Jackson 2023][research_jackson_2023]
+- [Jackson and Buttrill 2006][research_jacksonebruce_buttrillcw_2006]
 - [Jackson and Patch 1968][research_jackson_patch_1968]
 - [Jackson et al 2020][research_jackson_wang_2020]
-- [Jackson, E. Bruce and Buttrill, c. W. 2006][research_jacksonebruce_buttrillcw_2006]
-- [Jacobsen, R. A. and Drinkwater, F. J., III 1975][research_jacobsenra_drinkwaterfjiii_1975]
+- [Jacobsen and Drinkwater 1975][research_jacobsenra_drinkwaterfjiii_1975]
 - [Jaganath and Steinfurth 2026][research_jaganath_steinfurth_2026]
 - [Jagtap et al 2025][research_jagtap_childs_2025]
 - [Jairam et al 2016][research_jairam_clemons_2016]
+- [James and Maki 1957][research_jamesha_makirl_1957]
 - [James et al 2018][research_james_suryan_2018]
-- [James F Connors et al 1957][research_jamesfconnors_jcalvinlovell_1957]
-- [James R L Koch et al][research_jamesrlkoch_jeffreyahousman]
-- [James, H. A. and Maki, R. L. 1957][research_jamesha_makirl_1957]
 - [Jamil et al 2010][research_jamil_savvaris_2010]
-- [Jared A Grauer][research_jaredagrauer]
-- [Jared A Grauer and Matthew J Boucher][research_jaredagrauer_matthewjboucher]
-- [Jared Grauer][research_jaredgrauer]
-- [Jasperson, W. H. et al 1984][research_jaspersonwh_nastromgd_1984]
+- [Jasperson et al 1984][research_jaspersonwh_nastromgd_1984]
 - [Jategaonkar 1993][research_jategaonkar_1993]
 - [Jategaonkar 2005][research_jategaonkar_2005]
 - [Javadi and Khodadadi 2011][research_javadi_khodadadi_2011]
+- [Jayakumar and Das 2007][research_m_das_2007]
 - [Jayaraman et al 2007][research_jayaraman_lian_2007]
-- [Jeffers et al 2010][research_jeffers_punch_2010]
 - [Jenkins 1971][research_jenkins_1971]
-- [Jenkins, J. M. et al 1968][research_jenkinsjm_pearsongpe_1968]
-- [Jenks, G. E. et al 1977][research_jenksge_henryhf_1977]
+- [Jenkins et al 1968][research_jenkinsjm_pearsongpe_1968]
+- [Jenks et al 1977][research_jenksge_henryhf_1977]
 - [Jenney 1979][research_jenney_1979]
 - [Jenney 1980][research_jenney_1980]
 - [Jenney and Schreadley 1984][research_jenney_schreadley_1984]
 - [Jensch et al 2010][research_jensch_pfingsten_2010]
-- [Jensen, Stephen C. et al 2000][research_jensenstephenc_jenneygavind_2000]
-- [Jente et al 2017][research_jente_pottpollenske_2017]
-- [Jente et al 2018][research_jente_pottpollenske_2018]
+- [Jensen et al 2000][research_jensenstephenc_jenneygavind_2000]
 - [Jente et al 2024][research_jente_huber_2024]
 - [Jentzsch et al 2016][research_jentzsch_taubert_2016]
 - [Jeon et al 2023][research_jeon_ren_2023]
-- [Jernell, L. S. 1978][research_jernellls_1978]
-- [Jernell, L. S. 1978][research_jernellls_1978_b]
-- [Jessa 2022][research_jessa_2022]
+- [Jernell 1978][research_jernellls_1978]
+- [Jernell 1978][research_jernellls_1978_b]
 - [Jeyalingam and Jabbal 2016][research_jeyalingam_jabbal_2016]
 - [Jia et al 2021][research_jia_liang_2021]
 - [Jiang and Liu 2003][research_jiang_liu_2003]
@@ -2614,7 +2602,6 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 - [Jianghao et al 2011][research_jianghao_chenfang_2011]
 - [Jiao and Lu 2015][research_jiao_lu_2015]
 - [Jin et al 2011][research_jin_ono_2011]
-- [Jing et al 2024][research_jing_luo_2024]
 - [Jingchang et al 1995][research_jingchang_mao_1995]
 - [Jo et al 2016][research_jo_choi_2016]
 - [Johari and Moreira 1996][research_johari_moreira_1996]
@@ -2622,44 +2609,37 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 - [Johari and Rixon 2003][research_johari_rixon_2003]
 - [Johari et al 1995][research_johari_olinger_1995]
 - [Johari et al 1997][research_johari_mcmanus_1997]
-- [John C Lin et al 2016][research_johnclin_edwardawhalen_2016]
-- [John C Lin et al 2020][research_johnclin_latuniapmelton_2020]
-- [John C. Lin et al 2022][research_johnclin_latuniapmelton_2022]
-- [John F Quindlen et al][research_johnfquindlen_danielmortega]
-- [John L. McCloud III et al 1966][research_johnlmccloudiii_williamtevans_1966]
-- [John W. Gallman et al 1990][research_johnwgallman_ilanmkroo_1990]
-- [Johns, A. L. et al 1979][research_johnsal_williamsrc_1979]
+- [Johns et al 1979][research_johnsal_williamsrc_1979]
+- [Johnson 1949][research_johnsonjosephl_1949]
+- [Johnson 1972][research_johnsonwgjr_1972]
+- [Johnson 1975][research_johnsonwgjr_1975]
+- [Johnson 1976][research_johnsonwgjr_1976]
+- [Johnson and Kardas 1974][research_johnsonwgjr_kardasge_1974]
+- [Johnson and Phelps 1974][research_johnsonjljr_phelpsaeiii_1974]
 - [Johnson et al 2011][research_johnson_chowdhary_2011]
-- [Johnson, B. V. 1968][research_johnsonbv_1968]
-- [Johnson, J. L., Jr. and Phelps, A. E., III 1974][research_johnsonjljr_phelpsaeiii_1974]
-- [Johnson, Joseph L. 1949][research_johnsonjosephl_1949]
-- [Johnson, W. G., Jr. 1972][research_johnsonwgjr_1972]
-- [Johnson, W. G., Jr. 1975][research_johnsonwgjr_1975]
-- [Johnson, W. G., Jr. 1976][research_johnsonwgjr_1976]
-- [Johnson, W. G., Jr. and Kardas, G. E. 1974][research_johnsonwgjr_kardasge_1974]
 - [Johnston 2016][research_johnston_2016]
 - [Johnston and Nishi 1989][research_johnston_nishi_1989]
 - [Jolibois et al 2008][research_jolibois_forte_2008]
-- [Jonathan S. Litt 2024][research_jonathanslitt_2024]
 - [Jones 1970][research_jones_1970]
-- [Jones, Arthur L and Sluder, Loma 1948][research_jonesarthurl_sluderloma_1948]
-- [Jones, G. S. et al 2008][research_jonesgs_linjc_2008]
-- [Jones, Gregory S. 2005][research_jonesgregorys_2005]
-- [Jones, Gregory S. and Englar, Robet J. 2003][research_jonesgregorys_englarrobetj_2003]
-- [Jones, Gregory S. and Joslin, Ronald D. 2005][research_jonesgregorys_joslinronaldd_2005]
-- [Jones, Gregory S. and Joslin, Ronald D. 2005][research_jonesgregorys_joslinronaldd_2005_b]
-- [Jones, Gregory S. et al 2002][research_jonesgregorys_vikensallya_2002]
-- [Jones, Gregory S. et al 2006][research_jonesgregorys_yaochungsheng_2006]
-- [Jones, Gregory S. et al 2013][research_jonesgregorys_milholenwilliameii_2013]
-- [Jones, Gregory S. et al 2016][research_jonesgregorys_milholenwilliameii_2016]
-- [Jones, Gregory S. et al 2017][research_jonesgregorys_milholenwilliameii_2017]
-- [Jones, W. L. and Heidelberg, L. J. 1974][research_joneswl_heidelberglj_1974]
-- [Jordan, Thomas L. and Bailey, Roger M. 2008][research_jordanthomasl_baileyrogerm_2008]
+- [Jones 2005][research_jonesgregorys_2005]
+- [Jones and Englar 2003][research_jonesgregorys_englarrobetj_2003]
+- [Jones and Heidelberg 1974][research_joneswl_heidelberglj_1974]
+- [Jones and Joslin 2005][research_jonesgregorys_joslinronaldd_2005]
+- [Jones and Joslin 2005][research_jonesgregorys_joslinronaldd_2005_b]
+- [Jones and Sluder 1948][research_jonesarthurl_sluderloma_1948]
+- [Jones et al][research_gregorysjones_williamemilholenii]
+- [Jones et al 2002][research_jonesgregorys_vikensallya_2002]
+- [Jones et al 2006][research_jonesgregorys_yaochungsheng_2006]
+- [Jones et al 2008][research_jonesgs_linjc_2008]
+- [Jones et al 2013][research_jonesgregorys_milholenwilliameii_2013]
+- [Jones et al 2016][research_jonesgregorys_milholenwilliameii_2016]
+- [Jones et al 2017][research_jonesgregorys_milholenwilliameii_2017]
+- [Jordan and Bailey 2008][research_jordanthomasl_baileyrogerm_2008]
 - [Joshi et al 2016][research_joshi_vyas_2016]
-- [Josiah M Waite et al][research_josiahmwaite_jaredgrauer]
-- [Joslin, Ronald D. 1998][research_joslinronaldd_1998]
-- [Joslin, Ronald D. et al 1994][research_joslinronaldd_nicolaidesra_1994]
-- [Joslin, Ronald D. et al 1999][research_joslinronaldd_hortalucasg_1999]
+- [Joslin 1998][research_joslinronaldd_1998]
+- [Joslin and Viken 2001][research_ronalddjoslin_sallyaviken_2001]
+- [Joslin et al 1994][research_joslinronaldd_nicolaidesra_1994]
+- [Joslin et al 1999][research_joslinronaldd_hortalucasg_1999]
 - [Joussot et al 2010][research_joussot_hong_2010]
 - [Joy et al 2016][research_joy_ibrahim_2016]
 - [Jun-Fei and Shao-Zhi 1994][research_junfei_shaozhi_1994]
@@ -2668,27 +2648,21 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 - [Jung Hoe and Nik Mohd 2014][research_junghoe_nikmohd_2014]
 - [Junlei et al 2017][research_junlei_zhou_2017]
 - [Junxuan and Xun 2015][research_junxuan_xun_2015]
-- [Justin J Matt][research_justinjmatt]
-- [Justin J. Matt 2024][research_justinjmatt_2024]
-- [Kadman, Y. 1976][research_kadmany_1976]
-- [Kahng, Seun K. et al 2001][research_kahngseunk_gortonsusana_2001]
+- [Kadman 1976][research_kadmany_1976]
+- [Kahng et al 2001][research_kahngseunk_gortonsusana_2001]
 - [Kalinowski 2017][research_kalinowski_2017]
 - [Kalinowski 2017][research_kalinowski_2017_b]
 - [Kaloyanova et al 2005][research_kaloyanova_ghia_2005]
-- [Kalra et al 2008][research_kalra_shneider_2008]
-- [Kalra et al 2008][research_kalra_zaidi_2008]
 - [Kalyankar et al 2025][research_kalyankar_urreiztieta_2025]
 - [Kamari et al 2020][research_kamari_tadjfar_2020]
 - [Kamishita et al 2000][research_kamishita_aso_2000]
 - [Kamiński et al 2025][research_kaminski_niegodajew_2025]
-- [Kamotani, Y. and Greber, I. 1972][research_kamotaniy_greberi_1972]
+- [Kamotani and Greber 1972][research_kamotaniy_greberi_1972]
 - [Kanase et al 2018][research_kanase_mangate_2018]
-- [Kandil, Osama A. and Yang, Zhi 1999][research_kandilosamaa_yangzhi_1999]
-- [Kandil, Osama A. et al 1992][research_kandilosamaa_sharafhazemh_1992]
+- [Kandil and Yang 1999][research_kandilosamaa_yangzhi_1999]
+- [Kandil et al 1992][research_kandilosamaa_sharafhazemh_1992]
 - [Kanehara et al 2018][research_kanehara_sagawa_2018]
-- [Kaneko and Takemura 2022][research_kaneko_takemura_2022]
-- [Kang et al 2022][research_kang_luo_2022]
-- [Kantha, H. L. et al 1971][research_kanthahl_lewellenws_1971]
+- [Kantha et al 1971][research_kanthahl_lewellenws_1971]
 - [Kara 2015][research_kara_2015]
 - [Kara 2016][research_kara_2016]
 - [Kara 2017][research_kara_2017]
@@ -2698,8 +2672,7 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 - [Kara and Slupski 2017][research_kara_slupski_2017]
 - [Kara et al 2018][research_kara_kim_2018]
 - [Karagozian 2014][research_karagozian_2014]
-- [Karchmer, A. M. and Friedman, R. 1973][research_karchmeram_friedmanr_1973]
-- [Karen A. Deere et al 2024][research_karenadeere_jeffreykviken_2024]
+- [Karchmer and Friedman 1973][research_karchmeram_friedmanr_1973]
 - [Karimzadegan][research_karimzadegan]
 - [Karimzadegan and Bergada 2024][research_karimzadegan_bergada_2024]
 - [Karimzadegan et al 2024][research_karimzadegan_mirzaei_2024]
@@ -2713,36 +2686,35 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 - [Kato et al 2014][research_kato_breitsamter_2014]
 - [Kato et al 2016][research_kato_breitsamter_2016]
 - [Katz et al 1989][research_katz_nishri_1989]
-- [Kaups, K. and Cebeci, T. 1977][research_kaupsk_cebecit_1977]
+- [Kaups and Cebeci 1977][research_kaupsk_cebecit_1977]
 - [Kausar et al 2014][research_kausar_mushtaq_2014]
-- [Kavsaoglu, M. S. and Schetz, J. A. 1989][research_kavsaoglums_schetzja_1989]
-- [Kawai, Ronald T. et al 2006][research_kawaironaldt_friedmandouglasm_2006]
+- [Kavsaoglu and Schetz 1989][research_kavsaoglums_schetzja_1989]
+- [Kawai et al 2006][research_kawaironaldt_friedmandouglasm_2006]
 - [Kaygan and Ulusoy 2018][research_kaygan_ulusoy_2018]
 - [Kayvanpour et al 2023][research_kayvanpour_noori_2023]
 - [Kazanskii et al 2018][research_kazanskii_moralev_2018]
 - [Kazarin et al 2017][research_kazarin_mackunis_2017]
 - [Kearney-Fischer et al 2008][research_kearneyfischer_kim_2008]
 - [Kearney-Fischer et al 2010][research_kearneyfischer_kim_2010]
-- [Keener, Earl R. et al 1987][research_keenerearlr_sanderferdwightt_1987]
-- [Keith B Paschal et al][research_keithbpaschal_michaelakegerise_b]
-- [Keith B. Paschal et al][research_keithbpaschal_michaelakegerise]
-- [Keith, Theo G., Jr. and Dewitt, Kenneth J. 1993][research_keiththeogjr_dewittkennethj_1993]
-- [Kelley, Mark W and Tolhurst, William H JR 1955][research_kelleymarkw_tolhurstwilliamhjr_1955]
-- [Kelly, Mark W 1956][research_kellymarkw_1956]
-- [Kelly, Mark W and Tucker, Jeffrey H 1956][research_kellymarkw_tuckerjeffreyh_1956]
-- [Kelly, Mark W et al 1958][research_kellymarkw_andersonsethb_1958]
-- [Kemper, E. H. and Renselaer, D. J. 1969][research_kempereh_renselaerdj_1969]
+- [Keener et al 1987][research_keenerearlr_sanderferdwightt_1987]
+- [Keith and Dewitt 1993][research_keiththeogjr_dewittkennethj_1993]
+- [Kelley and Tolhurst 1955][research_kelleymarkw_tolhurstwilliamhjr_1955]
+- [Kelly 1956][research_kellymarkw_1956]
+- [Kelly and Tucker 1956][research_kellymarkw_tuckerjeffreyh_1956]
+- [Kelly et al 1958][research_kellymarkw_andersonsethb_1958]
+- [Kemper and Renselaer 1969][research_kempereh_renselaerdj_1969]
 - [Kerr 2025][research_kerr_2025]
-- [Kha et al 2025][research_kha_martins_2025]
 - [Khalil et al 2022][research_khalil_asaro_2022]
 - [Khan et al 2022][research_khan_tajik_2022]
 - [Khayat 2017][research_khayat_2017]
 - [Khodadoust and Shmilovich 2007][research_khodadoust_shmilovich_2007]
-- [Khodadoust, Abdollah and Washburn, Anthony 2007][research_khodadoustabdollah_washburnanthony_2007]
+- [Khodadoust and Washburn 2007][research_khodadoustabdollah_washburnanthony_2007]
 - [Khoshkhoo and Jahangirian 2016][research_khoshkhoo_jahangirian_2016]
 - [Kiedaisch et al 2007][research_kiedaisch_demanett_2007]
 - [Kiel et al 2003][research_kiel_murawski_2003]
-- [Kier, D. A. et al 1972][research_kierda_powersbg_1972]
+- [Kier et al 1972][research_kierda_powersbg_1972]
+- [Kim and Benson 1991][research_kimsw_bensontj_1991]
+- [Kim and Benson 1992][research_kimsw_bensontj_1992]
 - [Kim and Kim 2006][research_kim_kim_2006]
 - [Kim and Kim 2021][research_kim_kim_2021]
 - [Kim and Kim 2021][research_kim_kim_2021_b]
@@ -2750,13 +2722,9 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 - [Kim et al 2005][research_kim_williams_2005]
 - [Kim et al 2007][research_kim_debiasi_2007]
 - [Kim et al 2007][research_kim_hong_2007]
-- [Kim et al 2009][research_kim_gil_2009]
 - [Kim et al 2009][research_kim_park_2009]
 - [Kim et al 2016][research_kim_moin_2016]
 - [Kim et al 2017][research_kim_moin_2017]
-- [Kim et al 2024][research_kim_choi_2024]
-- [Kim, S.-W. and Benson, T. J. 1991][research_kimsw_bensontj_1991]
-- [Kim, S.-W. and Benson, T. J. 1992][research_kimsw_bensontj_1992]
 - [Kimler and Canfield 2006][research_kimler_canfield_2006]
 - [Kimmel et al 2005][research_kimmel_hayes_2005]
 - [Kimura et al 2025][research_kimura_miyagi_2025]
@@ -2766,7 +2734,6 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 - [King and Gopalarathnam 2004][research_king_gopalarathnam_2004]
 - [King et al 2012][research_king_heinz_2012]
 - [King et al 2013][research_king_heinz_2013]
-- [Kingloff, R. F. and Cooper, D. E. 1987][research_kingloffrf_cooperde_1987]
 - [Kinoshita and Oshima 1973][research_kinoshita_oshima_1973]
 - [Kinoshita and Oshima 1974][research_kinoshita_oshima_1974]
 - [Kinoshita and Oshima 1975][research_kinoshita_oshima_1975]
@@ -2775,36 +2742,38 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 - [Kitsios et al 2020][research_kitsios_dimopoulos_2020]
 - [Kitzinger][research_kitzinger]
 - [Klimov et al 2008][research_klimov_bitiurin_2008]
-- [Klotzsche, M. et al 1984][research_klotzschem_pearcew_1984]
+- [Klotzsche et al 1984][research_klotzschem_pearcew_1984]
 - [Klyde et al 2004][research_klyde_harris_2004]
 - [Kobayashi and Fuchiwaki 2021][research_kobayashi_fuchiwaki_2021]
 - [Kobayashi and Fuchiwaki 2023][research_kobayashi_fuchiwaki_2023]
 - [Kobayashi et al 2020][research_kobayashi_watanabe_2020]
 - [Kobayshi and Sato 2019][research_kobayshi_sato_2019]
-- [Koenig, D. G. and Aoyagi, K. 1975][research_koenigdg_aoyagik_1975]
-- [Kohl, Robert C. and Diggs, Donald R. 1947][research_kohlrobertc_diggsdonaldr_1947]
+- [Koch et al][research_jamesrlkoch_jeffreyahousman]
+- [Koenig and Aoyagi 1975][research_koenigdg_aoyagik_1975]
+- [Kohl and Diggs 1947][research_kohlrobertc_diggsdonaldr_1947]
 - [Kohnhorst and Magnacca 1980][research_kohnhorst_magnacca_1980]
 - [Koichi et al 2013][research_koichi_kotaro_2013]
+- [Koklu 2015][research_koklumehti_2015]
 - [Koklu 2016][research_koklu_2016]
+- [Koklu 2016][research_koklumehti_2016]
+- [Koklu 2016][research_koklumehti_2016_b]
+- [Koklu 2017][research_koklumehti_2017]
+- [Koklu 2017][research_koklumehti_2017_b]
+- [Koklu 2017][research_koklumehti_2017_c]
 - [Koklu 2018][research_koklu_2018]
+- [Koklu 2018][research_koklumehti_2018]
+- [Koklu 2018][research_koklumehti_2018_b]
+- [Koklu 2021][research_mehtikoklu_2021]
+- [Koklu 2021][research_mehtikoklu_2021_b]
 - [Koklu and Baysal 2009][research_koklu_baysal_2009]
+- [Koklu and Melton 2013][research_koklumehti_meltonlatuniap_2013]
+- [Koklu and Owens 2014][research_koklumehti_owenslewisr_2014]
 - [Koklu and Owens 2017][research_koklu_owens_2017]
-- [Koklu, Mehti 2015][research_koklumehti_2015]
-- [Koklu, Mehti 2016][research_koklumehti_2016]
-- [Koklu, Mehti 2016][research_koklumehti_2016_b]
-- [Koklu, Mehti 2017][research_koklumehti_2017]
-- [Koklu, Mehti 2017][research_koklumehti_2017_b]
-- [Koklu, Mehti 2017][research_koklumehti_2017_c]
-- [Koklu, Mehti 2018][research_koklumehti_2018]
-- [Koklu, Mehti 2018][research_koklumehti_2018_b]
-- [Koklu, Mehti and Melton, Latunia P. 2013][research_koklumehti_meltonlatuniap_2013]
-- [Koklu, Mehti and Owens, Lewis R. 2014][research_koklumehti_owenslewisr_2014]
-- [Kolbe, Carl D and Tinling, Bruce E 1948][research_kolbecarld_tinlingbrucee_1948]
+- [Kolbe and Tinling 1948][research_kolbecarld_tinlingbrucee_1948]
 - [Kondor et al 2005][research_kondor_parekh_2005]
 - [Kondor et al 2008][research_kondor_neidhoefer_2008]
+- [Kong 1994][research_kongjeffrey_1994]
 - [Kong et al 2025][research_kong_tang_2025]
-- [Kong, Jeffrey 1994][research_kongjeffrey_1994]
-- [Konishi and Fujita][research_konishi_fujita]
 - [Kopiev 2025][research_kopiev_2025]
 - [Korbacher 1963][research_korbacher_1963]
 - [Korbacher 1964][research_korbacher_1964]
@@ -2813,52 +2782,48 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 - [Kornilov 2018][research_kornilov_2018]
 - [Kornilov et al 2021][research_kornilov_kavun_2021]
 - [Kornyakov et al 2018][research_kornyakov_voevodin_2018]
-- [Korte 1991][research_korte_1991]
-- [Korte, John J. 1990][research_kortejohnj_1990]
 - [Koso 2005][research_koso_2005]
 - [Koso and Kinoshita 2007][research_koso_kinoshita_2007]
 - [Koso and Kinoshita 2008][research_koso_kinoshita_2008]
 - [Kostas et al 2007][research_kostas_foucaut_2007]
 - [Kostas et al 2009][research_kostas_foucaut_2009]
 - [Kota 2000][research_kota_2000]
+- [Kotansky and Glaze 1978][research_kotanskydr_glazelw_1978]
 - [Kotansky and Glaze 1980][research_kotansky_glaze_1980]
-- [Kotansky, D. R. and Glaze, L. W. 1978][research_kotanskydr_glazelw_1978]
-- [Kotansky, D. R. and Glaze, L. W. 1981][research_kotanskydr_glazelw_1981]
+- [Kotansky and Glaze 1981][research_kotanskydr_glazelw_1981]
 - [Kotapati et al 2008][research_kotapati_mittal_2008]
 - [Kotsonis et al 2013][research_kotsonis_pul_2013]
 - [Kotvitskii et al 2023][research_kotvitskii_kazanskii_2023]
 - [Kourta et al 2006][research_kourta_petit_2006]
-- [Koutz, Stanley L 1951][research_koutzstanleyl_1951]
-- [Koutz, Stanley L et al 1950][research_koutzstanleyl_hensleyreecev_1950]
+- [Koutz 1951][research_koutzstanleyl_1951]
+- [Koutz et al 1950][research_koutzstanleyl_hensleyreecev_1950]
 - [Kozato and Imao 2005][research_kozato_imao_2005]
 - [Kozato et al 2014][research_kozato_hirose_2014]
-- [Kramer, Brian R. et al 1994][research_kramerbrianr_suarezcarlosj_1994]
-- [Kraus, Donna K. and Cutler, Andrew D. 1993][research_krausdonnak_cutlerandrewd_1993]
-- [Kraushaar, Sandra L. and Chokani, Ndaona 1996][research_kraushaarsandral_chokanindaona_1996]
-- [Krauss, Timothy A. et al 1986][research_krausstimothya_romanstephan_1986]
-- [Kretz, M. et al 1973][research_kretzm_aubrunj_1973]
-- [Kretz, M. et al 1973][research_kretzm_aubrunj_1973_b]
+- [Kramer et al 1994][research_kramerbrianr_suarezcarlosj_1994]
+- [Kraus and Cutler 1993][research_krausdonnak_cutlerandrewd_1993]
+- [Kraushaar and Chokani 1996][research_kraushaarsandral_chokanindaona_1996]
+- [Krauss et al 1986][research_krausstimothya_romanstephan_1986]
 - [Krishnan et al 2020][research_krishnan_krishnan_2020]
 - [Kroehnert 2014][research_kroehnert_2014]
-- [Kroo, I. et al 1991][research_krooi_rocks_1991]
-- [Kroo, Ilan et al 1991][research_krooilan_smithstephen_1991]
+- [Kroo et al 1991][research_krooi_rocks_1991]
+- [Kroo et al 1991][research_krooilan_smithstephen_1991]
+- [Krothapalli and Shih 1993][research_krothapallia_shihc_1993]
+- [Krothapalli et al 1990][research_krothapallia_lourencol_1990]
 - [Krothapalli et al 2003][research_krothapalli_alvi_2003]
-- [Krothapalli, A. and Shih, C. 1993][research_krothapallia_shihc_1993]
-- [Krothapalli, A. et al 1990][research_krothapallia_lourencol_1990]
 - [Krumenacker and Pellicano 1992][research_krumenacker_pellicano_1992]
-- [Kruse, R. L. et al 1977][research_kruserl_lovettegh_1977]
+- [Kruse et al 1977][research_kruserl_lovettegh_1977]
 - [Kryvokhatko 2023][research_kryvokhatko_2023]
 - [Kryvokhatko 2023][research_kryvokhatko_2023_b]
 - [Kryvokhatko 2024][research_kryvokhatko_2024]
 - [Kryvokhatko 2024][research_kryvokhatko_2024_b]
 - [Krüger et al 2013][research_kruger_bobusch_2013]
 - [Kucera and Hromčík 2013][research_kucera_hromcik_2013]
-- [Kuczynski, W. A. and Sissingh, G. J. 1972][research_kuczynskiwa_sissinghgj_1972]
 - [Kuehme et al 2014][research_kuehme_alley_2014]
+- [Kukreja 2007][research_kukrejasunill_2007]
 - [Kukreja 2008][research_kukreja_2008]
-- [Kukreja, Sunil L. 2007][research_kukrejasunill_2007]
-- [Kukreja, Sunil L. 2008][research_kukrejasunill_2008]
+- [Kukreja 2008][research_kukrejasunill_2008]
 - [Kumar 2015][research_kumar_2015]
+- [Kumar and Alvi 2010][research_kumarvikas_alvifarrukhs_2010]
 - [Kumar and Bhumkar 2025][research_kumar_bhumkar_2025]
 - [Kumar and Das 2011][research_kumar_das_2011]
 - [Kumar and Ghosh 2017][research_kumar_ghosh_2017]
@@ -2869,16 +2834,12 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 - [Kumar and Rao 2004][research_kumar_rao_2004]
 - [Kumar et al 2014][research_kumar_elsayed_2014]
 - [Kumar et al 2020][research_kumar_mandal_2020]
-- [Kumar et al 2025][research_kumar_sahu_2025]
 - [Kumar Subramanyam et al 2022][research_kumarsubramanyam_venkatakrishnan_2022]
-- [Kumar, Vikas and Alvi, Farrukh S. 2010][research_kumarvikas_alvifarrukhs_2010]
-- [Kumari et al 2024][research_kumari_saurabh_2024]
 - [Kunimoto and Fuchiwaki 2015][research_kunimoto_fuchiwaki_2015]
-- [Kurkov, A. P. and Gaugler, R. E. 1974][research_kurkovap_gauglerre_1974]
 - [Kurowski 2017][research_kurowski_2017]
 - [Kurowski and Szwaba 2022][research_kurowski_szwaba_2022]
 - [Kurz et al 2012][research_kurz_tropea_2012]
-- [Kushner, Laura Kathryn et al 2015][research_kushnerlaurakathryn_heineckjamest_2015]
+- [Kushner et al 2015][research_kushnerlaurakathryn_heineckjamest_2015]
 - [Kutay et al 2007][research_kutay_culp_2007]
 - [Kutay et al 2008][research_kutay_tchieu_2008]
 - [Kwak and Nelson 2010][research_kwak_nelson_2010]
@@ -2895,32 +2856,25 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 - [Lambert et al 2015][research_lambert_cooper_2015]
 - [Lambert et al 2016][research_lambert_cooper_2016]
 - [Lamont et al 1995][research_lamont_poll_1995]
-- [Lamp, Alison M. and Chokani, Ndaona 1999][research_lampalisonm_chokanindaona_1999]
+- [Lamp and Chokani 1999][research_lampalisonm_chokanindaona_1999]
+- [Lan 1976][research_lance_1976]
 - [Lan 1977][research_lan_1977]
-- [Lan, C. E. 1976][research_lance_1976]
-- [Lan, C. E. and Campbell, J. F. 1975][research_lance_campbelljf_1975]
-- [Lan, C. E. et al 1977][research_lance_fillmang_1977]
-- [Lan, C. E. et al 1977][research_lance_fillmangl_1977]
-- [Lan, C. E. et al 1978][research_lance_mehrotrasc_1978]
+- [Lan and Campbell 1975][research_lance_campbelljf_1975]
+- [Lan et al 1977][research_lance_fillmang_1977]
+- [Lan et al 1977][research_lance_fillmangl_1977]
+- [Lan et al 1978][research_lance_mehrotrasc_1978]
 - [Langan et al 1997][research_langan_samuels_1997]
-- [Lange, R. H. 1984][research_langerh_1984]
-- [Lange, Roy H. 1987][research_langeroyh_1987]
-- [Lange, Roy H. 1988][research_langeroyh_1988]
+- [Lange 1984][research_langerh_1984]
+- [Lange 1987][research_langeroyh_1987]
+- [Lange 1988][research_langeroyh_1988]
 - [Langston 2014][research_langston_2014]
+- [Langston et al][research_sarahllangston_courtneyswinski]
+- [Lanser and Meyn 1992][research_lanserwendyr_meynlarrya_1992]
 - [Lanser and Meyn 1994][research_lanser_meyn_1994]
-- [Lanser, Wendy R. and Meyn, Larry A. 1992][research_lanserwendyr_meynlarrya_1992]
-- [Lansing, D. L. et al 1973][research_lansingdl_mixsonjs_1973]
+- [Lansing et al 1973][research_lansingdl_mixsonjs_1973]
 - [Larson 1986][research_larson_1986]
 - [Larsson 2019][research_larsson_2019]
-- [LaTunia Melton et al][research_latuniamelton_judithhannon]
-- [Latunia P Melton][research_latuniapmelton]
-- [Latunia P Melton et al][research_latuniapmelton_johnclin]
-- [LaTunia P. Melton et al][research_latuniapmelton_danneuhart]
-- [LaTunia Pack Melton][research_latuniapackmelton]
-- [Latunia Pack Melton et al][research_latuniapackmelton_dannyhneuhart]
-- [LaTunia Pack Melton et al][research_latuniapackmelton_mehtikoklu]
-- [LaTunia Pack Melton et al][research_latuniapackmelton_mehtikoklu_b]
-- [Laub, G. H. 1975][research_laubgh_1975]
+- [Laub 1975][research_laubgh_1975]
 - [Laurendeau et al 2014][research_laurendeau_chedevergne_2014]
 - [Laurendeau et al 2015][research_laurendeau_chedevergne_2015]
 - [Lawrence and Self 2015][research_lawrence_self_2015]
@@ -2930,47 +2884,38 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 - [Le Clainche et al 2017][research_leclainche_vega_2017]
 - [Le Clainche et al 2020][research_leclainche_perez_2020]
 - [Le Cunff and Zebib 1996][research_lecunff_zebib_1996]
-- [Leask et al 2018][research_leask_mcdonell_2018]
 - [Lechevin et al 2007][research_lechevin_rabbath_2007]
-- [Lechniak, Jason A. and Melton, John E. 2017][research_lechniakjasona_meltonjohne_2017]
+- [Lechniak and Melton 2017][research_lechniakjasona_meltonjohne_2017]
 - [Leclerc et al 2006][research_leclerc_levallois_2006]
 - [LeDoux et al 2008][research_ledoux_vassberg_2008]
+- [Lee and Roberts 1990][research_leekt_robertsleonard_1990]
+- [Lee and Song 2003][research_leehojun_songgangbing_2003]
 - [Lee et al 1986][research_lee_tavella_1986]
 - [Lee et al 2006][research_lee_kim_2006]
 - [Lee et al 2007][research_lee_kim_2007]
 - [Lee et al 2008][research_lee_byoungmunmin_2008]
-- [Lee et al 2010][research_lee_loth_2010]
-- [Lee et al 2011][research_lee_loth_2011]
+- [Lee et al 2009][research_leejamesa_pahlejoseph_2009]
 - [Lee et al 2016][research_lee_park_2016]
 - [Lee et al 2025][research_lee_kozato_2025]
-- [Lee, Ho-Jun and Song, Gangbing 2003][research_leehojun_songgangbing_2003]
-- [Lee, James A. et al 2009][research_leejamesa_pahlejoseph_2009]
-- [Lee, K. T. and Roberts, Leonard 1990][research_leekt_robertsleonard_1990]
-- [Lee-Rausch, E. M. et al 2006][research_leerauschem_vatsavn_2006]
+- [Lee-Rausch et al 2006][research_leerauschem_vatsavn_2006]
 - [Leehey and Shapiro 1980][research_leehey_shapiro_1980]
 - [Lefantzi et al 2013][research_lefantzi_ray_2013]
-- [Lei and Zha 2022][research_lei_zha_2022]
 - [Lei and Zha 2023][research_lei_zha_2023]
 - [Lei and Zha 2023][research_lei_zha_2023_b]
 - [Lei et al 2020][research_lei_zhang_2020]
-- [Lemay, Scott P. et al 1992][research_lemayscottp_sewallwilliamg_1992]
+- [Lemay et al 1992][research_lemayscottp_sewallwilliamg_1992]
 - [Lemko and Molodchyk 2015][research_lemko_molodchyk_2015]
-- [Lenahan, Keven C. et al 2013][research_lenahankevenc_schatzmandavidm_2013]
-- [Leonov et al 2012][research_leonov_yarantsev_2012]
+- [Lenahan et al 2013][research_lenahankevenc_schatzmandavidm_2013]
 - [Leung et al 2019][research_leung_moszczynski_2019]
 - [Levinsky and Schappelle 1975][research_levinsky_schappelle_1975]
-- [Levinsky, E. S. and Yeh, T. T. 1972][research_levinskyes_yehtt_1972]
+- [Levinsky and Yeh 1972][research_levinskyes_yehtt_1972]
 - [Lewington et al 2002][research_lewington_peake_2002]
-- [Lewis and Smith 1975][research_lewis_smith_1975]
 - [Li][research_li]
 - [Li 2019][research_li_2019]
-- [Li 2019][research_li_2019_b]
 - [Li 2024][research_li_2024]
-- [Li and Halliwell 1985][research_li_halliwell_1985]
 - [Li and Qin 2020][research_li_qin_2020]
-- [Li and Soteriou 2016][research_li_soteriou_2016]
 - [Li and Zhang 2020][research_li_zhang_2020]
-- [Li chaofei et al 2018][research_lichaofei_chenweijian_2018]
+- [Li et al 2011][research_lifei_choudharimeelanm_2011]
 - [Li et al 2016][research_li_meng_2016]
 - [Li et al 2016][research_li_yu_2016]
 - [Li et al 2017][research_li_gao_2017]
@@ -2987,8 +2932,6 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 - [Li et al 2025][research_li_peng_2025]
 - [Li et al 2026][research_li_shu_2026]
 - [Li et al 2026][research_li_zeng_2026]
-- [Li, Fei et al 2011][research_lifei_choudharimeelanm_2011]
-- [Liang 2015][research_liang_2015]
 - [Liang Hua et al 2011][research_lianghua_caoshangen_2011]
 - [Lichota et al 2016][research_lichota_ohme_2016]
 - [Liddle and Crowther 2008][research_liddle_crowther_2008]
@@ -2998,44 +2941,50 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 - [Liebeck 2008][research_liebeck_2008]
 - [Liebeck et al 1998][research_liebeck_page_1998]
 - [Likhachev et al 2001][research_likhachev_neuendorf_2001]
-- [Likhanskii, Alexander 2014][research_likhanskiialexander_2014]
+- [Likhanskii 2014][research_likhanskiialexander_2014]
+- [Lim 1994][research_limhockbin_1994]
 - [Lim and Lyu 2021][research_lim_lyu_2021]
-- [Lim, Hock-Bin 1994][research_limhockbin_1994]
-- [Lim, Hock-Bin and Roberts, Leonard 1991][research_limhockbin_robertsleonard_1991]
+- [Lim and Roberts 1991][research_limhockbin_robertsleonard_1991]
+- [Lin et al 1990][research_linjc_howardfg_1990]
+- [Lin et al 1991][research_linjc_howardfg_1991]
+- [Lin et al 1992][research_linjohnc_robinsonstephenk_1992]
+- [Lin et al 2008][research_linjohnc_jonesgregorys_2008]
+- [Lin et al 2010][research_linjohnc_jonesgregorys_2010]
+- [Lin et al 2016][research_johnclin_edwardawhalen_2016]
+- [Lin et al 2016][research_linjohnc_andinomarlyny_2016]
+- [Lin et al 2017][research_linjohnc_meltonlatuniap_2017]
 - [Lin et al 2019][research_lin_whalen_2019]
-- [Lin, J. C. et al 1990][research_linjc_howardfg_1990]
-- [Lin, J. C. et al 1991][research_linjc_howardfg_1991]
-- [Lin, John C. et al 1992][research_linjohnc_robinsonstephenk_1992]
-- [Lin, John C. et al 2008][research_linjohnc_jonesgregorys_2008]
-- [Lin, John C. et al 2010][research_linjohnc_jonesgregorys_2010]
-- [Lin, John C. et al 2016][research_linjohnc_andinomarlyny_2016]
-- [Lin, John C. et al 2017][research_linjohnc_meltonlatuniap_2017]
-- [Lin, John C. et al 2019][research_linjohnc_meltonlatuniap_2019]
+- [Lin et al 2019][research_linjohnc_meltonlatuniap_2019]
+- [Lin et al 2020][research_johnclin_latuniapmelton_2020]
+- [Lin et al 2022][research_johnclin_latuniapmelton_2022]
+- [Lind 1999][research_lindrick_1999]
+- [Lind 1999][research_lindrick_1999_b]
 - [Lind et al 2015][research_lind_smith_2015]
-- [Lind, Rick 1999][research_lindrick_1999]
-- [Lind, Rick 1999][research_lindrick_1999_b]
-- [Linden, A. W. 1972][research_lindenaw_1972]
-- [Linden, A. W. and Hellyar, M. W. 1974][research_lindenaw_hellyarmw_1974]
-- [Lineberger, L. B. 1984][research_linebergerlb_1984]
-- [Lineberger, L. B. 1984][research_linebergerlb_1984_b]
-- [Linton, Samuel W. 1993][research_lintonsamuelw_1993]
+- [Lineberger 1984][research_linebergerlb_1984]
+- [Lineberger 1984][research_linebergerlb_1984_b]
+- [Linton 1993][research_lintonsamuelw_1993]
 - [Lipatov 2012][research_lipatov_2012]
-- [Lipera, L. D. and Sandlin, D. R. 1984][research_liperald_sandlindr_1984]
-- [Liscinsky, D. S. et al 1995][research_liscinskyds_trueb_1995]
+- [Lipera and Sandlin 1984][research_liperald_sandlindr_1984]
+- [Liscinsky et al 1995][research_liscinskyds_trueb_1995]
 - [Lissaman 1967][research_lissaman_1967]
 - [Lissaman 1969][research_lissaman_1969]
 - [Lissaman 1969][research_lissaman_1969_b]
-- [Lissaman, P. B. S. 1973][research_lissamanpbs_1973]
+- [Lissaman 1973][research_lissamanpbs_1973]
+- [Litt 2024][research_jonathanslitt_2024]
 - [Little et al 2008][research_little_nishihara_2008]
 - [Little et al 2010][research_little_takashima_2010]
 - [Liu 2007][research_liu_2007]
 - [Liu 2025][research_liu_2025]
 - [Liu 2026][research_liu_2026]
 - [Liu and Chen 2025][research_liu_chen_2025]
+- [Liu and Crespo 2010][research_liuyu_crespoluisg_2010]
 - [Liu and Liang 2024][research_liu_liang_2024]
 - [Liu and Whidborne 2021][research_liu_whidborne_2021]
 - [Liu and Zha 2016][research_liu_zha_2016]
 - [Liu et al 2001][research_liu_sankar_2001]
+- [Liu et al 2003][research_liuyi_sankarlakshmin_2003]
+- [Liu et al 2003][research_liuyi_sankarlakshmin_2003_b]
+- [Liu et al 2005][research_liuyi_sankarlakshmin_2005]
 - [Liu et al 2006][research_liu_ciuryla_2006]
 - [Liu et al 2008][research_liu_wang_2008]
 - [Liu et al 2009][research_liu_liou_2009]
@@ -3046,33 +2995,26 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 - [Liu et al 2022][research_liu_luo_2022]
 - [Liu et al 2023][research_liu_xue_2023]
 - [Liu et al 2025][research_liu_zeng_2025]
-- [Liu, Yi et al 2003][research_liuyi_sankarlakshmin_2003]
-- [Liu, Yi et al 2003][research_liuyi_sankarlakshmin_2003_b]
-- [Liu, Yi et al 2005][research_liuyi_sankarlakshmin_2005]
-- [Liu, Yu and Crespo, Luis G. 2010][research_liuyu_crespoluisg_2010]
-- [Lizotte, Andrew and Allen, Michael J. 2005][research_lizotteandrew_allenmichaelj_2005]
-- [Lizotte, Andrew M. and Allen, Michael J. 2007][research_lizotteandrewm_allenmichaelj_2007]
-- [Lizotte, Andrew M. and Lokos, William A. 2005][research_lizotteandrewm_lokoswilliama_2005]
-- [Lo, C. F. 1994][research_locf_1994]
-- [Lo, C. F. and Wiberg, Clark G. 1996][research_locf_wibergclarkg_1996]
-- [Lo, Ching F. and Wiberg, Clark G. 1995][research_lochingf_wibergclarkg_1995]
-- [Lockwood, Vernard E. 1961][research_lockwoodvernarde_1961]
+- [Lizotte and Allen 2005][research_lizotteandrew_allenmichaelj_2005]
+- [Lizotte and Allen 2007][research_lizotteandrewm_allenmichaelj_2007]
+- [Lizotte and Lokos 2005][research_lizotteandrewm_lokoswilliama_2005]
+- [Lo 1994][research_locf_1994]
+- [Lo and Wiberg 1995][research_lochingf_wibergclarkg_1995]
+- [Lo and Wiberg 1996][research_locf_wibergclarkg_1996]
+- [Lockwood 1961][research_lockwoodvernarde_1961]
 - [Loe et al 2023][research_loe_zheng_2023]
 - [Logdberg and Alfredsson 2005][research_logdberg_alfredsson_2005]
-- [Lokos, William A. et al 2002][research_lokoswilliama_olneycandidad_2002]
-- [Lokos, William A. et al 2002][research_lokoswilliama_olneycandidad_2002_b]
-- [Lokos, William A. et al 2005][research_lokoswilliama_lizotteandrew_2005]
+- [Lokos et al 2002][research_lokoswilliama_olneycandidad_2002]
+- [Lokos et al 2002][research_lokoswilliama_olneycandidad_2002_b]
+- [Lokos et al 2005][research_lokoswilliama_lizotteandrew_2005]
 - [Londono and Leonhardt 2012][research_londono_leonhardt_2012]
 - [Longitudinal Control And Trim 2003][research_longitudinal_control_2003]
-- [Lonneman, Patrick J. and Cutler, Andrew D. 2004][research_lonnemanpatrickj_cutlerandrewd_2004]
+- [Lonneman and Cutler 2004][research_lonnemanpatrickj_cutlerandrewd_2004]
 - [Lopera et al 2004][research_lopera_terry_2004]
 - [Lopez et al 2009][research_lopez_brzozowski_2009]
-- [Lorincz, D. J. 1980][research_lorinczdj_1980]
-- [Loth and Lee 2008][research_loth_lee_2008]
-- [Loth et al 2000][research_loth_geubelle_2000]
-- [Loth, John L. 1987][research_lothjohnl_1987]
-- [Lovell, W. A. et al 1978][research_lovellwa_priceje_1978]
-- [Lowe and Attia 2017][research_lowe_attia_2017]
+- [Lorincz 1980][research_lorinczdj_1980]
+- [Loth 1987][research_lothjohnl_1987]
+- [Lovell et al 1978][research_lovellwa_priceje_1978]
 - [Lozano and Paniagua 2020][research_lozano_paniagua_2020]
 - [Lu 2000][research_lu_2000]
 - [Lu et al 2015][research_lu_zhang_2015]
@@ -3083,42 +3025,34 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 - [Lubert 2012][research_lubert_2012]
 - [Lubert and Shafer 2011][research_lubert_shafer_2011]
 - [Lucas et al 2008][research_lucas_taubert_2008]
-- [Luckring, J. M. and Ghee, T. A. 2001][research_luckringjm_gheeta_2001]
-- [Luke J Miller and Jing Pei][research_lukejmiller_jingpei]
-- [Lumley, John L. 1989][research_lumleyjohnl_1989]
+- [Luckring and Ghee 2001][research_luckringjm_gheeta_2001]
+- [Lumley 1989][research_lumleyjohnl_1989]
 - [Luo and Zhang 2011][research_luo_zhang_2011]
 - [Luo et al 2007][research_luo_xia_2007]
 - [Luo et al 2022][research_luo_zhao_2022]
 - [Luu 2025][research_luu_2025]
 - [Lv et al 2022][research_lv_wei_2022]
-- [Lyons, M. G. et al 1973][research_lyonsmg_vepar_1973]
-- [Lytle, John K. et al 1990][research_lytlejohnk_harloffgaryj_1990]
+- [Lyons et al 1973][research_lyonsmg_vepar_1973]
+- [Lytle et al 1990][research_lytlejohnk_harloffgaryj_1990]
 - [Lyubimov 2011][research_lyubimov_2011]
 - [Löffler and Weiss 2023][research_loffler_weiss_2023]
 - [Löffler and Weiss 2027][research_loffler_weiss_2027]
 - [Löffler et al 2021][research_loffler_ebert_2021]
-- [M and Das 2007][research_m_das_2007]
 - [Ma et al 2008][research_ma_li_2008]
 - [Ma et al 2019][research_ma_li_2019]
-- [MacDermott et al 1965][research_macdermott_dix_1965]
-- [MacDermott et al 1966][research_macdermott_dix_1966]
-- [Macia and Nguyen 2005][research_macia_nguyen_2005]
 - [Mack et al 2008][research_mack_brehm_2008]
 - [Mack et al 2010][research_mack_tao_2010]
 - [Madane et al 2022][research_madane_khalde_2022]
 - [Madavan and Rogers 2010][research_madavan_rogers_2010]
-- [Maddalon, D. V. and Poppen, W. A., Jr. 1986][research_maddalondv_poppenwajr_1986]
-- [Maddalon, Dal V. 1991][research_maddalondalv_1991]
-- [Maddalon, Dal V. and Braslow, Albert L. 1990][research_maddalondalv_braslowalbertl_1990]
+- [Maddalon 1991][research_maddalondalv_1991]
+- [Maddalon and Braslow 1990][research_maddalondalv_braslowalbertl_1990]
+- [Maddalon and Poppen 1986][research_maddalondv_poppenwajr_1986]
 - [Madhan et al][research_madhan_rahel]
-- [Madsen, A. P. 1982][research_madsenap_1982]
+- [Madsen 1982][research_madsenap_1982]
 - [Maduche and Mongeau 2025][research_maduche_mongeau_2025]
-- [Maestrello 1965][research_maestrello_1965]
-- [MAFC Lessons Learned, 2nd AIAA Flow Control Conference, 2004, registry record only][research_mafc_lessons_2004]
-- [Maggin, Bernard 1944][research_magginbernard_1944]
-- [Magness, C. et al 1992][research_magnessc_robinsono_1992]
-- [Magyari and Weidman 2005][research_magyari_weidman_2005]
-- [Mahal, A. S. and Gilchrist, I. J. 1973][research_mahalas_gilchristij_1973]
+- [Maggin 1944][research_magginbernard_1944]
+- [Magness et al 1992][research_magnessc_robinsono_1992]
+- [Mahal and Gilchrist 1973][research_mahalas_gilchristij_1973]
 - [Mahdavi et al 2024][research_mahdavi_mani_2024]
 - [Mahns and Amitay 2025][research_mahns_amitay_2025]
 - [Mahulkar 2010][research_mahulkar_2010]
@@ -3126,56 +3060,49 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 - [Maikap et al 2022][research_maikap_arunkumar_2022]
 - [Maikap et al 2023][research_maikap_karthick_2023]
 - [Maine et al 1990][research_maine_gilyard_1990]
-- [Maine, Trindel A. et al 1995][research_mainetrindela_burchamfrankwjr_1995]
-- [Maine, Trindel et al 1994][research_mainetrindel_burkenjohn_1994]
+- [Maine et al 1994][research_mainetrindel_burkenjohn_1994]
+- [Maine et al 1995][research_mainetrindela_burchamfrankwjr_1995]
+- [Maki 1959][research_makiralphl_1959]
 - [Maki et al 1980][research_maki_ito_1980]
-- [Maki, Ralph L. 1959][research_makiralphl_1959]
 - [Makoto et al 2013][research_makoto_koichi_2013]
-- [Malcolm, G. N. and Ng, T. T. 1990][research_malcolmgn_ngtt_1990]
-- [Malcolm, Gerald N. et al 1990][research_malcolmgeraldn_ngtterry_1990]
+- [Malcolm and Ng 1990][research_malcolmgn_ngtt_1990]
+- [Malcolm et al 1990][research_malcolmgeraldn_ngtterry_1990]
 - [Malekzadeh et al 2018][research_malekzadeh_mirzaee_2018]
 - [Mallor et al 2023][research_mallor_semprinicesari_2023]
 - [Mamla and Galinski 2009][research_mamla_galinski_2009]
 - [Mamunuru et al 2009][research_mamunuru_guo_2009]
 - [Mandal and Gu 2016][research_mandal_gu_2016]
-- [Mangalam, S. M. et al 1986][research_mangalamsm_barsevera_1986]
+- [Mangalam et al 1986][research_mangalamsm_barsevera_1986]
 - [Mangina et al 2015][research_mangina_enloe_2015]
 - [Manipulation of a jet 1994][research_manipulation_of_1994]
 - [Manning et al 1992][research_manning_baum_1992]
-- [Mansour and Chung 2015][research_mansour_chung_2015]
-- [Mansour and Chung 2015][research_mansour_chung_2015_b]
-- [Mansy and Williams 1989][research_mansy_williams_1989]
 - [Manuilovich 1995][research_manuilovich_1995]
 - [Margaris and Gursul 2004][research_margaris_gursul_2004]
 - [Margaris and Gursul 2007][research_margaris_gursul_2007]
 - [Margaris and Gursul 2010][research_margaris_gursul_2010]
-- [Margason, Richard J. and Tso, Jin 1993][research_margasonrichardj_tsojin_1993]
+- [Margason and Tso 1993][research_margasonrichardj_tsojin_1993]
 - [Marisarla et al 2003][research_marisarla_narayanan_2003]
 - [Marks et al 2016][research_marks_sondergaard_2016]
-- [Marlyn Andino et al][research_marlynandino_latuniamelton]
-- [Marlyn Andino et al][research_marlynandino_latuniapackmelton]
-- [Marlyn Y. Andino et al][research_marlynyandino_latuniapackmelton]
 - [Marques 2013][research_marques_2013]
-- [Marrs, C. C. et al 1974][research_marrscc_harkonendl_1974]
-- [Marshall, Laurie A. 1999][research_marshalllauriea_1999]
-- [Marshall, Laurie A. 2000][research_marshalllauriea_2000]
+- [Marrs et al 1974][research_marrscc_harkonendl_1974]
+- [Marshall 1999][research_marshalllauriea_1999]
+- [Marshall 2000][research_marshalllauriea_2000]
+- [Martin 1979][research_martinjl_1979]
+- [Martin 1980][research_martinjl_1980]
 - [Martin et al 2003][research_martin_tung_2003]
-- [Martin, J. L. 1979][research_martinjl_1979]
-- [Martin, J. L. 1980][research_martinjl_1980]
-- [Martinez, E. 1967][research_martineze_1967]
+- [Martinez 1967][research_martineze_1967]
 - [Martinke et al 2025][research_martinke_woszidlo_2025]
 - [Marton 1975][research_marton_1975]
-- [Martos, Borja et al 2011][research_martosborja_kiszelypaul_2011]
+- [Martos et al 2011][research_martosborja_kiszelypaul_2011]
 - [Marusic et al 2009][research_marusic_hutchins_2009]
 - [Marusic et al 2010][research_marusic_mathis_2010]
 - [Marwaha et al 2008][research_marwaha_valasek_2008]
 - [Marxen et al 2015][research_marxen_kotapati_2015]
 - [Marzouk and Ghoniem 2004][research_marzouk_ghoniem_2004]
-- [Mashayek and Ashgriz 2010][research_mashayek_ashgriz_2010]
-- [Matalanis, Claude G. et al 2016][research_matalanisclaudeg_bowlespatricko_2016]
+- [Matalanis et al 2016][research_matalanisclaudeg_bowlespatricko_2016]
 - [Matamoros and de Visser 2018][research_matamoros_devisser_2018]
-- [Mathew, Jose et al 2003][research_mathewjose_gallasquentin_2003]
-- [Mathews, Charles W and Kurbjun, Max C 1953][research_mathewscharlesw_kurbjunmaxc_1953]
+- [Mathew et al 2003][research_mathewjose_gallasquentin_2003]
+- [Mathews and Kurbjun 1953][research_mathewscharlesw_kurbjunmaxc_1953]
 - [Matsson 1995][research_matsson_1995]
 - [Matsson 1995][research_matsson_1995_b]
 - [Matsuno et al 2010][research_matsuno_ota_2010]
@@ -3183,119 +3110,113 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 - [Matsuno et al 2013][research_matsuno_maeda_2013]
 - [Matsunuma and Segawa 2012][research_matsunuma_segawa_2012]
 - [Matsuo et al 1998][research_matsuo_setoguchi_1998]
-- [Maughmer, Mark D. 1989][research_maughmermarkd_1989]
-- [Maughmer, Mark D. et al 1990][research_maughmermarkd_ozoroskil_1990]
-- [Maury and Bravo 2016][research_maury_bravo_2016]
+- [Matt][research_justinjmatt]
+- [Matt 2024][research_justinjmatt_2024]
+- [Maughmer 1989][research_maughmermarkd_1989]
+- [Maughmer et al 1990][research_maughmermarkd_ozoroskil_1990]
 - [Mayahara and Sato 2022][research_mayahara_sato_2022]
 - [Mayahara and Sato 2023][research_mayahara_sato_2023]
-- [Mazaheri and Nejati 2015][research_mazaheri_nejati_2015]
-- [Mazumdar and Asada 2013][research_mazumdar_asada_2013]
 - [Mazumder et al 2019][research_mazumder_golubev_2019]
-- [Mazzeo 2023][research_mazzeo_2023]
-- [McArdle, J. G. et al 1980][research_mcardlejg_homyakl_1980]
+- [McArdle et al 1980][research_mcardlejg_homyakl_1980]
 - [McAuliffe][research_mcauliffe]
 - [McBreen and Zha 2024][research_mcbreen_zha_2024]
-- [McCloud, J. L., III 1973][research_mccloudjliii_1973]
+- [McCracken 1979][research_mccrackenrc_1979]
 - [McCracken and Jorris 2011][research_mccracken_jorris_2011]
-- [McCracken, R. C. 1979][research_mccrackenrc_1979]
+- [McFadden and Bons][research_evanjmcfadden_jeffreypbons]
+- [McFadden and Bons][research_evanjmcfadden_jeffreypbons_b]
 - [McFadden and Bons 2024][research_mcfadden_bons_2024]
-- [McGowan, Gregory and Gopalarathnam, Ashok 2005][research_mcgowangregory_gopalarathnamashok_2005]
+- [McGowan and Gopalarathnam 2005][research_mcgowangregory_gopalarathnamashok_2005]
 - [McKenna et al 2019][research_mckenna_rice_2019]
-- [McKinney, L. W. and Baals, D. D. 1982][research_mckinneylw_baalsdd_1982]
-- [McKinzie, D. J., Jr. 1976][research_mckinziedjjr_1976]
-- [McKinzie, D. J., Jr. 1980][research_mckinziedjjr_1980]
-- [McKinzie, D. J., Jr. 1982][research_mckinziedjjr_1982]
-- [McKinzie, D. J., Jr. and Burns, R. J. 1973][research_mckinziedjjr_burnsrj_1973]
-- [McKinzie, D. J., Jr. et al 1976][research_mckinziedjjr_burnsrj_1976]
-- [McLachlan, B. G. 1987][research_mclachlanbg_1987]
-- [McLachlan, B. G. 1987][research_mclachlanbg_1987_b]
-- [McLachlan, B. G. 1989][research_mclachlanbg_1989]
-- [McLean, J. D. and Herring, H. J. 1974][research_mcleanjd_herringhj_1974]
-- [McLean, J. D. and Herring, H. J. 1974][research_mcleanjd_herringhj_1974_b]
-- [McLean, J. D. et al 1999][research_mcleanjd_crouchjd_1999]
-- [McLemore, H Clyde 1957][research_mclemorehclyde_1957]
-- [McLemore, H Clyde and Fink, Marvin P 1956][research_mclemorehclyde_finkmarvinp_1956]
-- [McLemore, H Clyde and Fink, Marvin P 1958][research_mclemorehclyde_finkmarvinp_1958]
-- [McLemore, H. Clyde 1958][research_mclemorehclyde_1958]
-- [McLemore, H. Clyde and Peterson, John B., Jr. 1960][research_mclemorehclyde_petersonjohnbjr_1960]
+- [McKinney and Baals 1982][research_mckinneylw_baalsdd_1982]
+- [McKinzie 1976][research_mckinziedjjr_1976]
+- [McKinzie 1980][research_mckinziedjjr_1980]
+- [McKinzie 1982][research_mckinziedjjr_1982]
+- [McKinzie and Burns 1973][research_mckinziedjjr_burnsrj_1973]
+- [McKinzie et al 1976][research_mckinziedjjr_burnsrj_1976]
+- [McLachlan 1987][research_mclachlanbg_1987]
+- [McLachlan 1987][research_mclachlanbg_1987_b]
+- [McLachlan 1989][research_mclachlanbg_1989]
+- [McLean and Herring 1974][research_mcleanjd_herringhj_1974]
+- [McLean and Herring 1974][research_mcleanjd_herringhj_1974_b]
+- [McLean et al 1999][research_mcleanjd_crouchjd_1999]
+- [McLemore 1957][research_mclemorehclyde_1957]
+- [McLemore 1958][research_mclemorehclyde_1958]
+- [McLemore and Fink 1956][research_mclemorehclyde_finkmarvinp_1956]
+- [McLemore and Fink 1958][research_mclemorehclyde_finkmarvinp_1958]
+- [McLemore and Peterson 1960][research_mclemorehclyde_petersonjohnbjr_1960]
 - [McManus and Magill 1996][research_mcmanus_magill_1996]
-- [McManus et al 1990][research_mcmanus_vandsburger_1990]
 - [McManus et al 1994][research_mcmanus_legner_1994]
 - [McManus et al 1995][research_mcmanus_joshi_1995]
 - [McManus et al 1997][research_mcmanus_magill_1997]
 - [McMichael 2001][research_mcmichael_2001]
 - [McMichael et al 2005][research_mcmichael_lovas_2005]
-- [McWade, Robert J. et al 2010][research_mcwaderobertj_minorrobertb_2010]
-- [Mead 1998][research_mead_1998]
-- [Meade, L. E. 1977][research_meadele_1977]
-- [Measurement Data and Reference][research_measurement_data]
+- [Md et al 2013][research_nmd_yuta_2013]
+- [Meade 1977][research_meadele_1977]
 - [Meckstroth and Blake 2015][research_meckstroth_blake_2015]
 - [Mehdipoor et al 2019][research_mehdipoor_sohbatzadeh_2019]
 - [Meheut et al 2012][research_meheut_arntz_2012]
-- [Mehra, R. K. et al 1972][research_mehrark_stepnerde_1972]
+- [Mehra et al 1972][research_mehrark_stepnerde_1972]
 - [Mehta 2006][research_mehta_2006]
-- [Mehti Koklu 2021][research_mehtikoklu_2021]
-- [Mehti Koklu 2021][research_mehtikoklu_2021_b]
 - [Mehus 1965][research_mehus_1965]
 - [Meier and Heister 2014][research_meier_heister_2014]
-- [Meier, Eric J. et al 2015][research_meierericj_casianomatthewj_2015]
-- [Meldi and Sagaut 2013][research_meldi_sagaut_2013]
-- [Meleason, E. T. 1976][research_meleasonet_1976]
-- [Meleason, E. T. and Wells, O. D. 1976][research_meleasonet_wellsod_1976]
-- [Melton, Latunia P. 2014][research_meltonlatuniap_2014]
-- [Melton, LaTunia Pack and Koklu, Mehti 2016][research_meltonlatuniapack_koklumehti_2016]
-- [Melton, LaTunia Pack et al 2004][research_meltonlatuniapack_yaochungsheng_2004]
-- [Melton, LaTunia Pack et al 2007][research_meltonlatuniapack_schaefflernormanw_2007]
-- [Melton, LaTunia Pack et al 2008][research_meltonlatuniapack_hannonjudith_2008]
-- [Melton, LaTunia Pack et al 2016][research_meltonlatuniapack_koklumehti_2016_b]
-- [Melton, LaTunia Pack et al 2018][research_meltonlatuniapack_koklumehti_2018]
-- [Melton, Yao and Seifert, Active Control of Separation From the Flap of a Supercritical Airfoil, NASA Langley Research Center, 2008, read in full][research_melton_2008]
-- [Mendenhall, M. R. 1976][research_mendenhallmr_1976]
-- [Mendenhall, M. R. et al 1975][research_mendenhallmr_perkinscjr_1975]
-- [Mendenhall, M. R. et al 1976][research_mendenhallmr_goodwinfk_1976]
+- [Meleason 1976][research_meleasonet_1976]
+- [Meleason and Wells 1976][research_meleasonet_wellsod_1976]
+- [Melton][research_latuniapackmelton]
+- [Melton][research_latuniapmelton]
+- [Melton 2014][research_meltonlatuniap_2014]
+- [Melton and Koklu 2016][research_meltonlatuniapack_koklumehti_2016]
+- [Melton et al][research_latuniamelton_judithhannon]
+- [Melton et al][research_latuniapackmelton_dannyhneuhart]
+- [Melton et al][research_latuniapackmelton_mehtikoklu]
+- [Melton et al][research_latuniapackmelton_mehtikoklu_b]
+- [Melton et al][research_latuniapmelton_danneuhart]
+- [Melton et al][research_latuniapmelton_johnclin]
+- [Melton et al 2004][research_meltonlatuniapack_yaochungsheng_2004]
+- [Melton et al 2007][research_meltonlatuniapack_schaefflernormanw_2007]
+- [Melton et al 2008][research_melton_2008]
+- [Melton et al 2008][research_meltonlatuniapack_hannonjudith_2008]
+- [Melton et al 2016][research_meltonlatuniapack_koklumehti_2016_b]
+- [Melton et al 2018][research_meltonlatuniapack_koklumehti_2018]
+- [Mendenhall 1976][research_mendenhallmr_1976]
+- [Mendenhall et al 1975][research_mendenhallmr_perkinscjr_1975]
+- [Mendenhall et al 1976][research_mendenhallmr_goodwinfk_1976]
 - [Mendoza and Ahuja 1996][research_mendoza_ahuja_1996]
 - [Meng et al 2022][research_meng_bi_2022]
-- [Mengle 2011][research_mengle_2011]
-- [Merrill and Sarpkaya 1998][research_merrill_sarpkaya_1998]
-- [Merrill et al 1987][research_merrill_delaat_1987]
 - [Messahel et al 2018][research_messahel_bury_2018]
 - [Messahel et al 2019][research_messahel_bury_2019]
 - [Messanelli and Belan 2017][research_messanelli_belan_2017]
 - [Meyer and Seginer 1994][research_meyer_seginer_1994]
+- [Meyer et al 1987][research_meyerrobertr_trujillobiancam_1987]
 - [Meyer et al 2014][research_meyer_machunze_2014]
-- [Meyer, Robert R. et al 1987][research_meyerrobertr_trujillobiancam_1987]
-- [Meyn, Larry A. et al 1992][research_meynlarrya_lanserwendyr_1992]
+- [Meyn et al 1992][research_meynlarrya_lanserwendyr_1992]
 - [Miao et al 2022][research_miao_ma_2022]
-- [Michael J Acheson and Irene Gregory][research_michaeljacheson_irenegregory_b]
-- [Michael J Acheson et al][research_michaeljacheson_irenegregory]
-- [Michael J. Acheson et al][research_michaeljacheson_jacobcook]
-- [Michaelis 2018][research_michaelis_2018]
-- [Michal, Todd R. 1998][research_michaltoddr_1998]
-- [Middleton, D. B. 1974][research_middletondb_1974]
-- [Middleton, D. B. and Bergeron, H. P. 1974][research_middletondb_bergeronhp_1974]
-- [Middleton, D. B. et al 1975][research_middletondb_hurtgjjr_1975]
-- [Milanovic, Ivana M. 2003][research_milanovicivanam_2003]
-- [Milanovic, Ivana M. and Zaman, Khairul B. M. Q. 2004][research_milanovicivanam_zamankhairulbmq_2004]
-- [Miles, J. H. 1975][research_milesjh_1975]
+- [Michal 1998][research_michaltoddr_1998]
+- [Middleton 1974][research_middletondb_1974]
+- [Middleton and Bergeron 1974][research_middletondb_bergeronhp_1974]
+- [Middleton et al 1975][research_middletondb_hurtgjjr_1975]
+- [Milanovic 2003][research_milanovicivanam_2003]
+- [Milanovic and Zaman 2004][research_milanovicivanam_zamankhairulbmq_2004]
+- [Miles 1975][research_milesjh_1975]
 - [Miley et al 1981][research_miley_crossjr_1981]
-- [Milholen, W. E., II et al 2010][research_milholenweii_jonesgregs_2010]
-- [Milholen, William E., II et al 2012][research_milholenwilliameii_jonesgregorys_2012]
-- [Milholen, William E., II et al 2013][research_milholenwilliameii_jonesgregorys_2013]
+- [Milholen et al 2010][research_milholenweii_jonesgregs_2010]
+- [Milholen et al 2012][research_milholenwilliameii_jonesgregorys_2012]
+- [Milholen et al 2013][research_milholenwilliameii_jonesgregorys_2013]
+- [Miller][research_chrismiller]
+- [Miller 2011][research_millerchristopherj_2011]
+- [Miller 2014][research_millerchristopher_2014]
 - [Miller and Gile 1992][research_miller_gile_1992]
+- [Miller and Pei][research_lukejmiller_jingpei]
+- [Miller and Seren 1968][research_millerml_sereng_1968]
 - [Miller et al 2004][research_miller_traub_2004]
-- [Miller, A. N. and Linden, A. W. 1972][research_milleran_lindenaw_1972]
-- [Miller, Christopher 2014][research_millerchristopher_2014]
-- [Miller, Christopher J. 2011][research_millerchristopherj_2011]
-- [Miller, Eric J. et al 2014][research_millerericj_holguinandrewc_2014]
-- [Miller, Eric J. et al 2015][research_millerericj_lokoswilliama_2015]
-- [Miller, Eric J. et al 2016][research_millerericj_cruzjosue_2016]
-- [Miller, M. L. and Seren, G. 1968][research_millerml_sereng_1968]
+- [Miller et al 2014][research_millerericj_holguinandrewc_2014]
+- [Miller et al 2015][research_millerericj_lokoswilliama_2015]
+- [Miller et al 2016][research_millerericj_cruzjosue_2016]
 - [Milne et al 2001][research_milne_soijer_2001]
-- [Mineck, Raymond E. 1995][research_mineckraymonde_1995]
-- [Mineck, Raymond E. and Hartwich, Peter M. 1996][research_mineckraymonde_hartwichpeterm_1996]
+- [Mineck 1995][research_mineckraymonde_1995]
+- [Mineck and Hartwich 1996][research_mineckraymonde_hartwichpeterm_1996]
 - [Ming et al 2019][research_ming_ma_2019]
 - [Miozzi et al 2010][research_miozzi_lalli_2010]
-- [Mitcham, Grady L et al 1956][research_mitchamgradyl_stevensjosephe_1956]
+- [Mitcham et al 1956][research_mitchamgradyl_stevensjosephe_1956]
 - [Mitsumoto et al 2025][research_mitsumoto_vechalapu_2025]
 - [Mitsumoto et al 2026][research_mitsumoto_vechalapu_2026]
 - [Mittal 2005][research_mittal_2005]
@@ -3303,20 +3224,19 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 - [Mittal 2006][research_mittal_2006]
 - [Mittal 2007][research_mittal_2007]
 - [Mittal and Cattafesta 2008][research_mittal_cattafesta_2008]
-- [Miura, Hirokazu et al 1988][research_miurahirokazu_shyualbertt_1988]
+- [Miura et al 1988][research_miurahirokazu_shyualbertt_1988]
 - [Miyagi and Kimura 2017][research_miyagi_kimura_2017]
 - [Miyagi and Kimura 2018][research_miyagi_kimura_2018]
 - [Miyagi et al 2015][research_miyagi_ueki_2015]
 - [Miyamoto et al 2018][research_miyamoto_yokoyama_2018]
 - [Mochizuki et al 1999][research_mochizuki_kiya_1999]
 - [Mochizuki et al 2005][research_mochizuki_yamada_2005]
-- [Modanloujoubari et al 2025][research_modanloujoubari_deylami_2025]
 - [Modeling and Control for 2015][research_modeling_and_2015]
 - [Modi 1985][research_modi_1985]
 - [Moeller and Rediniotis 2000][research_moeller_rediniotis_2000]
 - [Moeller and Rediniotis 2002][research_moeller_rediniotis_2002]
-- [Moes, Timothy R. and Iliff, Kenneth 2002][research_moestimothyr_iliffkenneth_2002]
-- [Moes, Timothy R. et al 2000][research_moestimothyr_noffzgregoryk_2000]
+- [Moes and Iliff 2002][research_moestimothyr_iliffkenneth_2002]
+- [Moes et al 2000][research_moestimothyr_noffzgregoryk_2000]
 - [Moitra 1985][research_moitra_1985]
 - [Molenaar 2023][research_molenaar_2023]
 - [Molinari et al 2015][research_molinari_arrieta_2015]
@@ -3327,70 +3247,62 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 - [Moralev et al 2011][research_moralev_klimov_2011]
 - [Moralev et al 2015][research_moralev_bityurin_2015]
 - [Moralev et al 2016][research_moralev_biturin_2016]
-- [Morehouse, G. G. et al 1977][research_morehousegg_eckertwt_1977]
+- [Morehouse et al 1977][research_morehousegg_eckertwt_1977]
 - [Moreira and Johari 1995][research_moreira_johari_1995]
+- [Morelli][research_genemorelli]
+- [Morelli 1995][research_morellieugenea_1995]
+- [Morelli 1996][research_morellieugenea_1996]
+- [Morelli 1998][research_morellieugenea_1998]
+- [Morelli 2002][research_morellieugenea_2002]
 - [Morelli 2021][research_morelli_2021]
 - [Morelli and Grauer 2018][research_morelli_grauer_2018]
-- [Morelli, Eugene A. 1995][research_morellieugenea_1995]
-- [Morelli, Eugene A. 1996][research_morellieugenea_1996]
-- [Morelli, Eugene A. 1998][research_morellieugenea_1998]
-- [Morelli, Eugene A. 2002][research_morellieugenea_2002]
-- [Morelli, Eugene A. et al 2005][research_morellieugenea_derrystephend_2005]
+- [Morelli and Grauer 2023][research_eugeneamorelli_jaredagrauer_2023]
+- [Morelli et al 2005][research_morellieugenea_derrystephend_2005]
 - [Morgenfeld 1992][research_morgenfeld_1992]
 - [Morris 1992][research_morris_1992]
+- [Morris et al 1973][research_morrisrl_hankecr_1973]
 - [Morris et al 2009][research_morris_shannon_2009]
-- [Morris, R. L. et al 1973][research_morrisrl_hankecr_1973]
+- [Morton et al 1978][research_mortonjb_catalanogd_1978]
 - [Morton et al 1999][research_morton_guy_1999]
-- [Morton, J. B. et al 1978][research_mortonjb_catalanogd_1978]
 - [Mosher 1970][research_mosher_1970]
-- [Mosher, M. 1981][research_mosherm_1981]
-- [Mossi, Karla M. and Bryant, Robert G. 2004][research_mossikarlam_bryantrobertg_2004]
+- [Mossi and Bryant 2004][research_mossikarlam_bryantrobertg_2004]
 - [Moszczynski and Grant 2017][research_moszczynski_grant_2017]
 - [Motoaki et al 2013][research_motoaki_jun_2013]
-- [Moua, Cheng 2010][research_mouacheng_2010]
-- [Mourtos, Nikos J. and Roberts, Leonard 1987][research_mourtosnikosj_robertsleonard_1987]
+- [Moua 2010][research_mouacheng_2010]
+- [Mourtos and Roberts 1987][research_mourtosnikosj_robertsleonard_1987]
 - [Mueller et al 2004][research_mueller_paluszek_2004]
-- [Mukhopadhyay, Vivek 1999][research_mukhopadhyayvivek_1999]
-- [Mukhopadhyay, Vivek 1999][research_mukhopadhyayvivek_1999_b]
+- [Mukhopadhyay 1999][research_mukhopadhyayvivek_1999]
+- [Mukhopadhyay 1999][research_mukhopadhyayvivek_1999_b]
 - [Mulder 1988][research_mulder_1988]
-- [Mullins, Jr. et al 1996][research_mullinsjr_tipton_1996]
+- [Mullins et al 1996][research_mullinsjr_tipton_1996]
 - [Munday and Jacob 2001][research_munday_jacob_2001]
 - [Munday and Jacob 2002][research_munday_jacob_2002_b]
 - [Munday and Taira 2014][research_munday_taira_2014]
 - [Munday and Taira 2015][research_munday_taira_2015]
-- [Munday and Taira, Effects of Wall-Normal and Angular Momentum Injections in Airfoil Separation Control, AIAA Journal, volume 56, 2018, registry record only][research_munday_taira_2018]
+- [Munday and Taira 2018][research_munday_taira_2018]
 - [Munday et al 2002][research_munday_jacob_2002]
-- [Munro, Scott E. et al 2003][research_munroscotte_ahujakk_2003]
-- [Munro, Scott E. et al 2005][research_munroscotte_ahujakk_2005]
+- [Munro et al 2003][research_munroscotte_ahujakk_2003]
+- [Munro et al 2005][research_munroscotte_ahujakk_2005]
 - [Munson et al 2008][research_munson_dickson_2008]
 - [Muramatsu et al 2005][research_muramatsu_okada_2005]
 - [Murawski 1999][research_murawski_1999]
-- [Murman, E. M. 1982][research_murmanem_1982]
-- [Murman, Scott M. et al 1992][research_murmanscottm_rizkyehiam_1992]
-- [Murphy, Patrick C. 1996][research_murphypatrickc_1996]
-- [Murphy, Patrick C. and Klein, Vladislav 2008][research_murphypatrickc_kleinvladislav_2008]
-- [Murphy, Patrick C. and Klein, Vladislav 2010][research_murphypatrickc_kleinvladislav_2010]
-- [Murphy, W. D. et al 1979][research_murphywd_shankarv_1979]
+- [Murman 1982][research_murmanem_1982]
+- [Murman et al 1992][research_murmanscottm_rizkyehiam_1992]
+- [Murphy 1996][research_murphypatrickc_1996]
+- [Murphy 1999][research_patrickcmurphy_1999]
+- [Murphy and Klein 2008][research_murphypatrickc_kleinvladislav_2008]
+- [Murphy and Klein 2010][research_murphypatrickc_kleinvladislav_2010]
+- [Murphy et al 1979][research_murphywd_shankarv_1979]
 - [Muñoz][research_munoz]
 - [Myatt et al 1998][research_myatt_schumacher_1998]
-- [Myers, L. P. and Burcham, F. W., Jr. 1984][research_myerslp_burchamfwjr_1984]
+- [Myers and Burcham 1984][research_myerslp_burchamfwjr_1984]
 - [Myszko and Knowles 1994][research_myszko_knowles_1994]
 - [Müller et al 2026][research_muller_schesny_2026]
-- [N. Abed 2019][research_nabed_2019]
-- [N. Md et al 2013][research_nmd_yuta_2013]
-- [N. Sam Dougherty, Jr][research_nsamdoughertyjr]
-- [Naeseth, R. L. and Hoad, D. R. 1975][research_naesethrl_hoaddr_1975]
-- [Nagamatsu, H. T. and Dyer, R. 1984][research_nagamatsuht_dyerr_1984]
-- [Nagamatsu, H. T. et al 1982][research_nagamatsuht_browerwbjr_1982]
-- [Nagamatsu, H. T. et al 1983][research_nagamatsuht_ficarrar_1983]
-- [Nagamatsu, H. T. et al 1984][research_nagamatsuht_orozcord_1984]
-- [Nagamatsu, H. T. et al 1985][research_nagamatsuht_ficarrarv_1985]
+- [Naeseth and Hoad 1975][research_naesethrl_hoaddr_1975]
 - [Nagasaki and Hasegawa 2020][research_nagasaki_hasegawa_2020]
+- [Nagel 1982][research_nagelal_1982]
 - [Nagel and Thomas 1965][research_nagel_thomas_1965]
-- [Nagel, A. L. 1982][research_nagelal_1982]
 - [Naigle et al 2016][research_naigle_frankhouser_2016]
-- [Nair et al 2019][research_nair_sirignano_2019]
-- [Nair et al 2023][research_nair_krishnan_2023]
 - [Naitoh and Suzuki 2005][research_naitoh_suzuki_2005]
 - [Naitoh and Yamamoto 2004][research_naitoh_yamamoto_2004]
 - [Nakano and Ohtsuki 2024][research_nakano_ohtsuki_2024]
@@ -3399,50 +3311,50 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 - [Nangia et al 2003][research_nangia_palmer_2003]
 - [Nangia et al 2003][research_nangia_palmer_2003_b]
 - [Nangia et al 2005][research_nangia_palmer_2005]
+- [Napolitano and Spagnuolo 1993][research_napolitanomarcellor_spagnuolojoellem_1993]
 - [Napolitano and Swaim 1989][research_napolitano_swaim_1989]
 - [Napolitano et al 2001][research_napolitano_song_2001]
-- [Napolitano, Marcello R. and Spagnuolo, Joelle M. 1993][research_napolitanomarcellor_spagnuolojoellem_1993]
-- [Narasimha, R. et al 1973][research_narasimhar_narayanky_1973]
-- [Narducci, Robert P. et al 2014][research_narduccirobertp_bowersoxrodney_2014]
+- [Narasimha et al 1973][research_narasimhar_narayanky_1973]
+- [Narducci et al 2014][research_narduccirobertp_bowersoxrodney_2014]
 - [NASA advanced design program 1993][research_nasa_advanced_1993]
 - [Nasir and Kuntjoro 2013][research_nasir_kuntjoro_2013]
 - [Nasir et al 2015][research_nasir_mohamed_2015]
 - [Natarajan et al 2014][research_natarajan_freund_2014]
 - [Naughton et al 2002][research_naughton_bishop_2002]
+- [Navarro 1997][research_robertnavarro_1997]
 - [Nedungadi et al 2001][research_nedungadi_barber_2001]
 - [Neidhoefer et al 2009][research_neidhoefer_ryan_2009]
-- [Neil S. Rodrigues et al][research_neilsrodrigues_rossaburns]
-- [Nelson, Robert C. et al 1994][research_nelsonrobertc_thomasfo_1994]
+- [Nelson et al 1994][research_nelsonrobertc_thomasfo_1994]
 - [Neretti 2016][research_neretti_2016]
-- [Newsom, Jerry R. et al 2003][research_newsomjerryr_robertshawharryh_2003]
+- [Newsom et al 2003][research_newsomjerryr_robertshawharryh_2003]
 - [Newton 2019][research_newton_2019]
+- [Ng 1989][research_ngtt_1989]
 - [Ng 1990][research_ng_1990]
 - [Ng et al 2007][research_ng_patel_2007]
-- [Ng, T. T. 1989][research_ngtt_1989]
-- [Ngo and Doman 2002][research_ngo_doman_2002]
 - [Nguyen and Xiong 2023][research_nguyen_xiong_2023]
-- [Nichino, Takafumi et al 2010][research_nichinotakafumi_hahnseonghyeon_2010]
-- [Nicholas, W. U. et al 1984][research_nicholaswu_navillegl_1984]
+- [Nichino et al 2010][research_nichinotakafumi_hahnseonghyeon_2010]
+- [Nicholas et al 1984][research_nicholaswu_navillegl_1984]
 - [Nicholls and Bacic 2022][research_nicholls_bacic_2022]
 - [Nicholls and Bacic 2023][research_nicholls_bacic_2023]
 - [Nicholls et al 2022][research_nicholls_tang_2022]
 - [Nicholls et al 2026][research_nicholls_fenelon_2026]
 - [Nicholson and lowry 1966][research_nicholson_lowry_1966]
 - [Nicolaides 1976][research_nicolaides_1976]
-- [Niedling, L. G. 1982][research_niedlinglg_1982]
-- [Nielsen, Jack N. 1987][research_nielsenjackn_1987]
-- [Nielsen, Jack N. and Biggers, James C. 1987][research_nielsenjackn_biggersjamesc_1987]
+- [Niedling 1982][research_niedlinglg_1982]
+- [Nielsen 1987][research_nielsenjackn_1987]
+- [Nielsen and Biggers 1987][research_nielsenjackn_biggersjamesc_1987]
+- [Nielsen and Jones][research_ericjnielsen_williamtjones]
 - [Nieto-Wire and Sobel 2007][research_nietowire_sobel_2007]
 - [Nieto-Wire and Sobel 2009][research_nietowire_sobel_2009]
 - [Nieto-Wire and Sobel 2011][research_nietowire_sobel_2011]
 - [Nieto-Wire and Sobel 2013][research_nietowire_sobel_2013]
 - [Nikipelov et al 2009][research_nikipelov_nudnova_2009]
+- [Nishanth et al 2019][research_p_arokkiaswamy_2019]
 - [Nishino and Shariff 2010][research_nishino_shariff_2010]
 - [Nishino and Shariff 2012][research_nishino_shariff_2012]
 - [Nishino et al 2010][research_nishino_hahn_2010]
 - [Nishino et al 2010][research_nishino_hahn_2010_b]
 - [Niu et al 2019][research_niu_liu_2019]
-- [Nomenclature, Aircraft Hydraulic and][research_nomenclature_aircraft]
 - [Nonomura et al 2011][research_nonomura_sekimoto_2011]
 - [Norimasa et al 2013][research_norimasa_masumi_2013]
 - [Northrop Aircraft Inc Hawthorne Ca 1956][research_northropaircraftinchawthorneca_1956]
@@ -3450,34 +3362,32 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 - [Northrop Corp Hawthorne Ca Norair Div 1964][research_northropcorphawthornecanorairdiv_1964_b]
 - [Nourgostar and Roth 2008][research_nourgostar_roth_2008]
 - [Novak and Cornelius 1986][research_novak_cornelius_1986]
+- [Novak and Cornelius 1987][research_novakcharlesj_corneliuskennethc_1987]
 - [Novak et al 1987][research_novak_cornelius_1987]
-- [Novak, Charles J. and Cornelius, Kenneth C. 1987][research_novakcharlesj_corneliuskennethc_1987]
 - [Novel Flow Control Method 2006][research_novel_flow_2006]
 - [Numerical investigation of aerodynamic 2023][research_numerical_investigation_2023]
 - [Numerical Study of the 2025][research_numerical_study_2025]
 - [Oates and Alvi 2011][research_oates_alvi_2011]
 - [Obeid et al 2020][research_obeid_ahmadi_2020]
 - [Oertling][research_oertling]
-- [Ogawa et al 2007][research_ogawa_iida_2007]
 - [Ogawa et al 2018][research_ogawa_asada_2018]
 - [Ogawa et al 2024][research_ogawa_asada_2024]
 - [Ogawara et al 2006][research_ogawara_nakatani_2006]
 - [Ogawara et al 2012][research_ogawara_kojima_2012]
 - [Ogunka et al 2023][research_ogunka_akbarzadeh_2023]
 - [Oguri et al 2019][research_oguri_ogawara_2019]
-- [Oh, Sejong and Roberts, Leonard 1989][research_ohsejong_robertsleonard_1989]
+- [Oh and Roberts 1989][research_ohsejong_robertsleonard_1989]
 - [Oka et al 2023][research_oka_ozawa_2023]
 - [Okada et al 2023][research_okada_hiruma_2023]
 - [Okita et al 2008][research_okita_jukes_2008]
+- [Okolo][research_wendyaokolo]
 - [Okonkwo and Jemitola 2022][research_okonkwo_jemitola_2022]
 - [Okoye et al 2021][research_okoye_lai_2021]
 - [Okumoto and Elsanker 1973][research_okumoto_elsanker_1973]
 - [Oligney et al 2008][research_oligney_frash_2008]
-- [Oliveira and Santos 2026][research_oliveira_santos_2026]
-- [Olsen, W. A. et al 1972][research_olsenwa_dorschrg_1972]
-- [Omana et al 2016][research_omana_mann_2016]
+- [Olsen et al 1972][research_olsenwa_dorschrg_1972]
 - [Ono et al 2015][research_ono_kameya_2015]
-- [Opaits, Dmitry, F. 2012][research_opaitsdmitryf_2012]
+- [Opaits 2012][research_opaitsdmitryf_2012]
 - [Oppenheimer and Doman 2007][research_oppenheimer_doman_2007]
 - [Optimisation of Trapped Vortex 2022][research_optimisation_of_2022]
 - [Orazi et al 2011][research_orazi_lasagna_2011]
@@ -3486,7 +3396,6 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 - [Orlov and Corke 2005][research_orlov_corke_2005]
 - [Orlov et al 2006][research_orlov_corke_2006]
 - [Ortmanns and Kähler 2007][research_ortmanns_kahler_2007]
-- [Osborne and Cooksey 1967][research_osborne_cooksey_1967]
 - [Oshima and Kinoshita 1972][research_oshima_kinoshita_1972]
 - [Oshima and Kinoshita 1975][research_oshima_kinoshita_1975]
 - [Osmokrovic et al 2012][research_osmokrovic_hanson_2012]
@@ -3494,28 +3403,24 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 - [Ostermann et al 2016][research_ostermann_woszidlo_2016]
 - [Ostermann et al 2017][research_ostermann_godbersen_2017]
 - [Ostermann et al 2019][research_ostermann_woszidlo_2019]
-- [Ostroff, A. J. 1985][research_ostroffaj_1985]
+- [Ostroff 1985][research_ostroffaj_1985]
 - [Otake et al 2020][research_otake_yokoyama_2020]
 - [Ott et al 2019][research_ott_gallas_2019]
-- [Otto, Little, Rafferty and Woszidlo, Momentum Coefficient Governing Discrete Jet Actuation for Separation Control, AIAA Journal, volume 60, number 2, pages 809 to 822, 2022][research_otto_2022]
-- [Oved et al 2023][research_oved_kashi_2023]
-- [Owens, Donald B. et al 2006][research_owensdonaldb_coxdavide_2006]
-- [Owens, Lewis R. and Allan, Brian G. 2010][research_owenslewisr_allanbriang_2010]
-- [Owens, Lewis R. et al 2006][research_owenslewisr_allanbriang_2006]
-- [Owens, Lewis R. et al 2008][research_owenslewisr_allanbriang_2008]
+- [Otto et al 2022][research_otto_2022]
+- [Owens and Allan 2010][research_owenslewisr_allanbriang_2010]
+- [Owens et al 2006][research_owensdonaldb_coxdavide_2006]
+- [Owens et al 2006][research_owenslewisr_allanbriang_2006]
+- [Owens et al 2008][research_owenslewisr_allanbriang_2008]
 - [Oyarzun and Cattafesta 2010][research_oyarzun_cattafesta_2010]
 - [Oz 1998][research_oz_1998]
 - [Oz and Kara 2020][research_oz_kara_2020]
 - [Ozturk and Jacob 2009][research_ozturk_jacob_2009]
-- [P et al 2019][research_p_arokkiaswamy_2019]
-- [Pack and others, Active Control of Separation from the Slat Shoulder of a Supercritical Airfoil, NASA Langley Research Center, 2003][research_pack_2003]
-- [Pack et al 2002][research_pack_schaeffler_2002]
+- [Pack and Joslin 1998][research_packlg_joslinrd_1998]
+- [Pack and Seifert 1999][research_packlatuniag_seifertavi_1999]
+- [Pack and Seifert 2000][research_packlatuniag_seifertavi_2000]
+- [Pack et al 2003][research_pack_2003]
 - [Pack et al 2003][research_pack_yao_2003]
 - [Pack Melton et al 2019][research_packmelton_lin_2019]
-- [Pack, L. G. and Joslin, R. D. 1998][research_packlg_joslinrd_1998]
-- [Pack, LaTunia G. and Seifert, Avi 1999][research_packlatuniag_seifertavi_1999]
-- [Pack, LaTunia G. and Seifert, Avi 2000][research_packlatuniag_seifertavi_2000]
-- [Pack, LaTunia G. and Seifert, Avi 2000][research_packlatuniag_seifertavi_2000_b]
 - [Packard and Bons 2011][research_packard_bons_2011]
 - [Packard and Bons 2012][research_packard_bons_2012]
 - [Packard and Bons 2012][research_packard_bons_2012_b]
@@ -3525,33 +3430,29 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 - [Pakhomov 2025][research_pakhomov_2025]
 - [Palaniswamy et al 2006][research_palaniswamy_goldberg_2006]
 - [Paletta et al 2010][research_paletta_belardo_2010]
-- [Palmer][research_palmer]
 - [Palumbo and de Luca 2021][research_palumbo_deluca_2021]
 - [Palumbo et al 2018][research_palumbo_chiatto_2018]
 - [Palumbo et al 2020][research_palumbo_semeraro_2020]
 - [Pan et al 2021][research_pan_zhenbing_2021]
 - [Pan et al 2023][research_pan_wang_2023]
 - [Pandi and Kumar 2025][research_pandi_kumar_2025]
-- [Pandya, Shishir et al 2002][research_pandyashishir_murmanscott_2002]
+- [Pandya et al 2002][research_pandyashishir_murmanscott_2002]
 - [Panitz and Wasan 1972][research_panitz_wasan_1972]
-- [Panontin, T. L. 1985][research_panontintl_1985]
-- [Pao, S. Paul et al 2004][research_paospaul_biedronrobertt_2004]
-- [Pao, S. Paul et al 2005][research_paospaul_biedronrobertt_2005]
-- [Papamoschou and Mayoral 2014][research_papamoschou_mayoral_2014]
-- [Papathanasiou, A. G. and Nagel, R. T. 1986][research_papathanasiouag_nagelrt_1986]
-- [Pappa, R. S. 1979][research_pappars_1979]
+- [Panontin 1985][research_panontintl_1985]
+- [Pao et al 2004][research_paospaul_biedronrobertt_2004]
+- [Pao et al 2005][research_paospaul_biedronrobertt_2005]
+- [Papathanasiou and Nagel 1986][research_papathanasiouag_nagelrt_1986]
+- [Pappa 1979][research_pappars_1979]
 - [Parametric Investigation of Nanosecond 2013][research_parametric_investigation_2013]
 - [Parametric Study on the 2025][research_parametric_study_2025]
 - [Paranjape and Chung 2010][research_paranjape_chung_2010]
 - [Paranjape et al 2011][research_paranjape_chung_2011]
 - [Parekh et al 2003][research_parekh_williams_2003]
 - [Parello][research_parello]
-- [Parikh, P. G. et al 1990][research_parikhpg_chenaw_1990]
+- [Parikh et al 1990][research_parikhpg_chenaw_1990]
 - [Parisa et al 2020][research_parisa_adrien_2020]
 - [Park 2007][research_park_2007]
 - [Park and Kim 2016][research_park_kim_2016]
-- [Park and Lee 2021][research_park_lee_2021]
-- [Park and Lee 2022][research_park_lee_2022]
 - [Park and Rew 1991][research_park_rew_1991]
 - [Park and Rew 1992][research_park_rew_1992]
 - [Park et al 2016][research_park_chang_2016]
@@ -3560,77 +3461,69 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 - [Park et al 2017][research_park_jo_2017]
 - [Park et al 2019][research_park_ko_2019]
 - [Park et al 2020][research_park_ko_2020]
-- [Parlett, L. P. 1972][research_parlettlp_1972]
-- [Parlett, L. P. et al 1971][research_parlettlp_greerhd_1971]
-- [Parlett, L. P. et al 1973][research_parlettlp_smithccjr_1973]
-- [Parlett, L. P. et al 1974][research_parlettlp_emerlingsj_1974]
-- [Parlett, Lysle P. and Shivers, James P. 1969][research_parlettlyslep_shiversjamesp_1969]
-- [Parrish, R. V. and Steinmetz, G. G. 1972][research_parrishrv_steinmetzgg_1972]
-- [Parthasarathy, S. P. and Vijayaraghavan, A. 1980][research_parthasarathysp_vijayaraghavana_1980]
-- [Pasamanick, Jerome and Proterra, Anthony J 1948][research_pasamanickjerome_proterraanthonyj_1948]
-- [Paschal, K. et al 1991][research_paschalk_goodmanw_1991]
-- [Paschal, Keith B. et al 2012][research_paschalkeithb_neuhartdannyh_2012]
+- [Parlett 1972][research_parlettlp_1972]
+- [Parlett and Shivers 1969][research_parlettlyslep_shiversjamesp_1969]
+- [Parlett et al 1971][research_parlettlp_greerhd_1971]
+- [Parlett et al 1973][research_parlettlp_smithccjr_1973]
+- [Parlett et al 1974][research_parlettlp_emerlingsj_1974]
+- [Parrish and Steinmetz 1972][research_parrishrv_steinmetzgg_1972]
+- [Parthasarathy and Vijayaraghavan 1980][research_parthasarathysp_vijayaraghavana_1980]
+- [Pasamanick and Proterra 1948][research_pasamanickjerome_proterraanthonyj_1948]
+- [Paschal et al][research_keithbpaschal_michaelakegerise]
+- [Paschal et al][research_keithbpaschal_michaelakegerise_b]
+- [Paschal et al 1991][research_paschalk_goodmanw_1991]
+- [Paschal et al 2012][research_paschalkeithb_neuhartdannyh_2012]
 - [Pasquetti and Peres 2015][research_pasquetti_peres_2015]
-- [Passamanick, Jerome 1948][research_passamanickjerome_1948]
+- [Passamanick 1948][research_passamanickjerome_1948]
 - [Passive Flow Control over 2020][research_passive_flow_2020]
 - [Patel et al 2005][research_patel_sowle_2005]
 - [Patel et al 2006][research_patel_ng_2006]
 - [Patel et al 2006][research_patel_sowle_2006]
 - [Patel et al 2007][research_patel_ng_2007]
 - [Patel et al 2023][research_patel_deodhare_2023]
-- [Patel, Mehul P. et al 2012][research_patelmehulp_cainalanb_2012]
 - [Patil 2003][research_patil_2003]
-- [Patrick C Murphy 1999][research_patrickcmurphy_1999]
-- [Patrick S Heaney][research_patricksheaney]
-- [Patrick S. Heaney and John F. Quindlen][research_patricksheaney_johnfquindlen]
 - [Paul et al 1997][research_paul_garrard_1997]
-- [Paul Vijgen et al][research_paulvijgen_alexziebart]
-- [Paul Vijgen et al 2022][research_paulvijgen_alexziebart_2022]
 - [Paulus et al 2013][research_paulus_wirth_2013]
-- [Pavlock, Kate M. 2011][research_pavlockkatem_2011]
-- [Pavlova et al 2008][research_pavlova_otani_2008]
-- [Peake, D. J. and Owen, F. K. 1979][research_peakedj_owenfk_1979]
-- [Pearce, W. E. 1982][research_pearcewe_1982]
-- [Pearce, W. E. 1983][research_pearcewe_1983]
-- [Pearce, W. E. et al 1984][research_pearcewe_mcnayde_1984]
+- [Pavlock 2011][research_pavlockkatem_2011]
+- [Peake and Owen 1979][research_peakedj_owenfk_1979]
+- [Pearce 1982][research_pearcewe_1982]
+- [Pearce 1983][research_pearcewe_1983]
+- [Pearce et al 1984][research_pearcewe_mcnayde_1984]
 - [Pearson 1967][research_pearson_1967]
 - [Pease et al 2021][research_pease_minette_2021]
-- [Pedreiro, N. et al 1995][research_pedreiron_rocksm_1995]
-- [Pedreiro, Nelson 1997][research_pedreironelson_1997]
+- [Pedreiro 1997][research_pedreironelson_1997]
+- [Pedreiro et al 1995][research_pedreiron_rocksm_1995]
 - [Pedroza et al 2015][research_pedroza_mackunis_2015]
 - [Peers et al 2009][research_peers_xunhuang_2009]
-- [Pegg, Robert J. 1962][research_peggrobertj_1962]
-- [Pei, Jing et al 2018][research_peijing_bassettgeorgez_2018]
-- [Pei, Jing et al 2018][research_peijing_chouerimarc_2018]
+- [Pegg 1962][research_peggrobertj_1962]
+- [Pei et al 2018][research_peijing_bassettgeorgez_2018]
 - [Peigin and Epstein 2006][research_peigin_epstein_2006]
-- [Pellerito et al 2024][research_pellerito_mott_2024]
-- [Pellerito et al 2025][research_pellerito_mott_2025]
-- [Pennock, A. P. 1977][research_pennockap_1977]
-- [Pennock, A. P. et al 1975][research_pennockap_swiftg_1975]
+- [Pennock 1977][research_pennockap_1977]
+- [Pennock et al 1975][research_pennockap_swiftg_1975]
 - [Pereira et al 2007][research_pereira_almeida_2007]
 - [Perkins 1985][research_perkins_1985]
-- [Perkins, S. C., Jr. and Mendenhall, M. R. 1981][research_perkinsscjr_mendenhallmr_1981]
+- [Perkins and Mendenhall 1981][research_perkinsscjr_mendenhallmr_1981]
 - [Pern and Jacob 2005][research_pern_jacob_2005]
 - [Pern et al 2006][research_pern_jacob_2006]
 - [Perrier][research_perrier]
-- [Perry, B., III and Greene, G. C. 1975][research_perrybiii_greenegc_1975]
+- [Perry and Greene 1975][research_perrybiii_greenegc_1975]
 - [Pescini et al 2015][research_pescini_francioso_2015]
-- [Peters, Christopher J. et al 2016][research_peterschristopherj_milesrichardb_2016]
-- [Petersen, K. L. 1981][research_petersenkl_1981]
+- [Peters et al 2016][research_peterschristopherj_milesrichardb_2016]
+- [Petersen 1981][research_petersenkl_1981]
+- [Peterson 1982][research_petersonjbjr_1982]
 - [Peterson and Grant 2011][research_peterson_grant_2011]
+- [Peterson et al 1980][research_petersonjbjr_mannmj_1980]
 - [Peterson et al 2021][research_peterson_vukasinovic_2021]
-- [Peterson, J. B., Jr. 1982][research_petersonjbjr_1982]
-- [Peterson, J. B., Jr. et al 1980][research_petersonjbjr_mannmj_1980]
-- [Petley, D. H. et al 1985][research_petleydh_alexanderwjr_1985]
-- [Pfenninger, W. and Vemuru, C. S. 1988][research_pfenningerw_vemurucs_1988]
+- [Petley et al 1985][research_petleydh_alexanderwjr_1985]
+- [Pfenninger and Vemuru 1988][research_pfenningerw_vemurucs_1988]
 - [Pfifer and Danowsky 2016][research_pfifer_danowsky_2016]
 - [Pfingsten and Radespiel 2009][research_pfingsten_radespiel_2009]
 - [Phan and Shin 2016][research_phan_shin_2016]
-- [Phelps, A. E., III 1975][research_phelpsaeiii_1975]
-- [Phelps, A. E., III 1977][research_phelpsaeiii_1977]
-- [Phelps, A. E., III and Smith, C. C., Jr. 1973][research_phelpsaeiii_smithccjr_1973]
-- [Phelps, A. E., III et al 1973][research_phelpsaeiii_letkow_1973]
-- [Phelps, A. E., III et al 1976][research_phelpsaeiii_johnsonjljr_1976]
+- [Phelps 1975][research_phelpsaeiii_1975]
+- [Phelps 1977][research_phelpsaeiii_1977]
+- [Phelps and Smith 1973][research_phelpsaeiii_smithccjr_1973]
+- [Phelps et al 1973][research_phelpsaeiii_letkow_1973]
+- [Phelps et al 1976][research_phelpsaeiii_johnsonjljr_1976]
 - [PI control of a 1999][research_pi_control_1999]
 - [Pick 2015][research_pick_2015]
 - [Pierre et al 2012][research_pierre_rabat_2012]
@@ -3640,17 +3533,14 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 - [Pinzon et al 2008][research_pinzon_agarwal_2008_b]
 - [Pires et al 2014][research_pires_madeira_2014]
 - [Pittsburgh Univ Washington Dc Research Staff 1966][research_pittsburghunivwashingtondcresearchstaff_1966]
-- [Piva, R. 1972][research_pivar_1972]
-- [Piziali, R. A. and Trenka, A. R. 1974][research_pizialira_trenkaar_1974]
+- [Piva 1972][research_pivar_1972]
 - [Plaetschke and Weiss 1988][research_plaetschke_weiss_1988]
 - [Plasma Actuator 2018][research_plasma_actuator_2018]
 - [Platzer 1976][research_platzer_1976]
 - [Pneumatic Flap Performance for 2006][research_pneumatic_flap_2006]
-- [Pneumatic Power Supplies for][research_pneumatic_power]
-- [Polhamus, E. C. 1971][research_polhamusec_1971]
+- [Polhamus 1971][research_polhamusec_1971]
 - [Pollok and Casella 2017][research_pollok_casella_2017]
 - [Porter et al 2006][research_porter_baughn_2006]
-- [Portillo et al 2021][research_portillo_combs_2021]
 - [Post and Corke 2003][research_post_corke_2003]
 - [Post and Corke 2004][research_post_corke_2004]
 - [Post and Corke 2004][research_post_corke_2004_b]
@@ -3660,31 +3550,27 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 - [Potsdam and Le Pape 2008][research_potsdam_lepape_2008]
 - [Potsdam et al 1997][research_potsdam_page_1997]
 - [Pott-Pollenske and Pfingsten 2010][research_pottpollenske_pfingsten_2010]
-- [Potter, R. C. and Vandam, C. P. 1995][research_potterrc_vandamcp_1995]
+- [Potter and Vandam 1995][research_potterrc_vandamcp_1995]
 - [Pour Razzaghi et al 2021][research_pourrazzaghi_xu_2021]
-- [Pouransari et al 2014][research_pouransari_vervisch_2014]
 - [PourRazzaghi and Xu 2020][research_pourrazzaghi_xu_2020]
-- [Powell, A. G. et al 1989][research_powellag_agrawals_1989]
-- [Powers, B. G. and Kier, D. A. 1973][research_powersbg_kierda_1973]
+- [Powell et al 1989][research_powellag_agrawals_1989]
+- [Powers and Kier 1973][research_powersbg_kierda_1973]
+- [Powers et al 1992][research_sheryllgoeckepowers_lanniedwebb_1992]
 - [Prabahar and Zha 2026][research_prabahar_zha_2026]
 - [Prabhu and Srinivas 2018][research_prabhu_srinivas_2018]
 - [Pramanik and Das 2014][research_pramanik_das_2014]
 - [Pramanik and Das 2014][research_pramanik_das_2014_b]
 - [Pramanik and Kumar Das 2014][research_pramanik_kumardas_2014]
-- [Prasad and Koseff 1989][research_prasad_koseff_1989]
-- [Pratt, George L and Shields, E Rousseau 1952][research_prattgeorgel_shieldserousseau_1952]
+- [Pratt and Shields 1952][research_prattgeorgel_shieldserousseau_1952]
 - [Price et al 2025][research_price_tang_2025]
 - [Primary Flight Control Hydraulic][research_primary_flight]
-- [Procedure for Sampling and][research_procedure_for]
-- [Procedure for Sampling and][research_procedure_for_b]
-- [Procedure for Sampling and][research_procedure_for_c]
 - [Propulsive-Lift Noise of an 1976][research_propulsive_lift_noise_1976]
 - [Protz and Sparks 1998][research_protz_sparks_1998]
-- [Pulliam, T. H. et al 1986][research_pulliamth_jesperendc_1986]
-- [Pulliam, Thomas H. et al 1987][research_pulliamthomash_jespersendennisc_1987]
+- [Pulliam et al 1986][research_pulliamth_jesperendc_1986]
+- [Pulliam et al 1987][research_pulliamthomash_jespersendennisc_1987]
 - [Pullin and Simmons 1985][research_pullin_simmons_1985]
 - [Puri et al 2018][research_puri_laufer_2018]
-- [Putnam, T. W. and Lasagna, P. L. 1972][research_putnamtw_lasagnapl_1972]
+- [Putnam and Lasagna 1972][research_putnamtw_lasagnapl_1972]
 - [Pérez Segura et al 2026][research_perezsegura_beltramo_2026]
 - [Qian and Alonso 2018][research_qian_alonso_2018]
 - [Qian and Alonso 2021][research_qian_alonso_2021]
@@ -3693,26 +3579,23 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 - [Qu and Cutchins 1994][research_qu_cutchins_1994]
 - [Qu et al 2011][research_qu_li_2011]
 - [Qu et al 2013][research_qu_li_2013]
-- [Queen, S. and Cochrane, J. 1982][research_queens_cochranej_1982]
-- [Quiet Clean Short-haul Experimental 1976][research_quiet_clean_1976]
-- [Quigley, H. C. and Holzhauser, C. A. 1974][research_quigleyhc_holzhauserca_1974]
-- [Quigley, H. C. and Vomaske, R. F. 1972][research_quigleyhc_vomaskerf_1972]
-- [Quigley, H. C. et al 1971][research_quigleyhc_sinclairsrm_1971]
-- [Quigley, H. C. et al 1974][research_quigleyhc_innisrc_1974]
-- [Quigley, Hervey C et al 1957][research_quigleyherveyc_homfranciswk_1957]
-- [Quigley, Hervey C et al 1958][research_quigleyherveyc_andersonsethb_1958]
-- [Quigley, Hervey C. et al 1960][research_quigleyherveyc_andersonsethb_1960]
-- [Quinn, John H 1944][research_quinnjohnh_1944]
-- [Quinn, John H 1947][research_quinnjohnh_1947]
-- [Quinn, John H 1947][research_quinnjohnh_1947_b]
-- [Quinn, John H, Jr 1946][research_quinnjohnhjr_1946]
-- [R Ewert et al 2004][research_rewert_jyin_2004]
+- [Queen and Cochrane 1982][research_queens_cochranej_1982]
+- [Quigley and Holzhauser 1974][research_quigleyhc_holzhauserca_1974]
+- [Quigley and Vomaske 1972][research_quigleyhc_vomaskerf_1972]
+- [Quigley et al 1957][research_quigleyherveyc_homfranciswk_1957]
+- [Quigley et al 1958][research_quigleyherveyc_andersonsethb_1958]
+- [Quigley et al 1960][research_quigleyherveyc_andersonsethb_1960]
+- [Quigley et al 1971][research_quigleyhc_sinclairsrm_1971]
+- [Quigley et al 1974][research_quigleyhc_innisrc_1974]
+- [Quindlen et al][research_johnfquindlen_danielmortega]
+- [Quinn 1944][research_quinnjohnh_1944]
+- [Quinn 1946][research_quinnjohnhjr_1946]
+- [Quinn 1947][research_quinnjohnh_1947]
+- [Quinn 1947][research_quinnjohnh_1947_b]
 - [Raab 2026][research_raab_2026]
-- [Racisz, Stanley F and Quinn, John H 1948][research_raciszstanleyf_quinnjohnh_1948]
+- [Racisz and Quinn 1948][research_raciszstanleyf_quinnjohnh_1948]
 - [Rackers et al 2026][research_rackers_desalvo_2026]
-- [Raghavendra et al 2022][research_raghavendra_madan_2022]
 - [Rahman and Whidborne 2010][research_rahman_whidborne_2010]
-- [Rahn and Tadigadapa 2012][research_rahn_tadigadapa_2012]
 - [Rahni and Jahangirian 2025][research_rahni_jahangirian_2025]
 - [Rahni and Jahangirian 2025][research_rahni_jahangirian_2025_b]
 - [Raj et al 2025][research_raj_rana_2025]
@@ -3722,76 +3605,64 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 - [Raju et al 2008][research_raju_mittal_2008]
 - [Raju et al 2009][research_raju_aram_2009]
 - [Ramaswamy and Schreyer 2019][research_ramaswamy_schreyer_2019]
-- [Ramaswamy and Schreyer 2022][research_ramaswamy_schreyer_2022]
-- [Ramaswamy and Schreyer 2022][research_ramaswamy_schreyer_2022_b]
 - [Ramos-Pedroza et al 2017][research_ramospedroza_mackunis_2017]
 - [Ramsey and Chapman 2000][research_ramsey_chapman_2000]
-- [Rana and Herrmann 2011][research_rana_herrmann_2011]
-- [Raney, David L. et al 2004][research_raneydavidl_cabellrandolphh_2004]
+- [Raney et al 2004][research_raneydavidl_cabellrandolphh_2004]
+- [Rao 1979][research_raobm_1979]
+- [Rao 1991][research_raodhanvadam_1991]
+- [Rao 1992][research_raodhanvadam_1992]
 - [Rao and Kariya 1988][research_rao_kariya_1988]
 - [Rao and Liu 2020][research_rao_liu_2020]
-- [Rao, B. M. 1979][research_raobm_1979]
-- [Rao, D. M. et al 1986][research_raodm_moskovitzc_1986]
-- [Rao, Dhanvada M. 1991][research_raodhanvadam_1991]
-- [Rao, Dhanvada M. 1992][research_raodhanvadam_1992]
-- [Rao, Dhanvada M. et al 1989][research_raodhanvadam_puramck_1989]
+- [Rao et al 1986][research_raodm_moskovitzc_1986]
+- [Rao et al 1989][research_raodhanvadam_puramck_1989]
 - [Raol and Singh 2023][research_raol_singh_2023]
 - [Rask et al 1990][research_rask_goldstein_1990]
 - [Rasmussen et al 2004][research_rasmussen_canfield_2004]
 - [Rasmussen et al 2006][research_rasmussen_canfield_2006]
 - [Raspet 1957][research_raspet_1957]
-- [Ratnayake, Nalin A. et al 2011][research_ratnayakenalina_koshimotoedt_2011]
-- [Ravindran, S. S. 1999][research_ravindranss_1999]
+- [Ratnayake et al 2011][research_ratnayakenalina_koshimotoedt_2011]
+- [Ravindran 1999][research_ravindranss_1999]
 - [Ravindren et al 2007][research_ravindren_ghia_2007]
-- [Ray, Ronald J. et al 2002][research_rayronaldj_cobleighbrentr_2002]
+- [Ray et al 2002][research_rayronaldj_cobleighbrentr_2002]
 - [Razon et al 2023][research_razon_maher_2023]
-- [Reader 1976][research_reader_1976]
 - [Reba 1966][research_reba_1966]
-- [Rebuffet, Pierre and Poisson-Quinton, PH 1952][research_rebuffetpierre_poissonquintonph_1952]
+- [Rebuffet and Poisson-Quinton 1952][research_rebuffetpierre_poissonquintonph_1952]
 - [Recktenwald and Ahmed 2008][research_recktenwald_ahmed_2008]
-- [Redd, L. T. et al 1979][research_reddlt_hansonpw_1979]
-- [Reddall 1955][research_reddall_1955]
+- [Redd et al 1979][research_reddlt_hansonpw_1979]
 - [Reddy 1975][research_reddy_1975]
+- [Reddy 1978][research_reddynn_1978]
 - [Reddy and Subramanian 2025][research_reddy_subramanian_2025]
-- [Reddy and Woszidlo, Scaling the Momentum Coefficient for Active Flow Control at Various Operating Conditions, AIAA Journal, volume 62, number 8, pages 3009 to 3017, 2024, abstract only][research_reddy_woszidlo_2024]
-- [Reddy, N. N. 1978][research_reddynn_1978]
-- [Reddy, N. N. and Yu, J. C. 1975][research_reddynn_yujc_1975]
+- [Reddy and Woszidlo 2024][research_reddy_woszidlo_2024]
+- [Reddy and Yu 1975][research_reddynn_yujc_1975]
 - [Redeker and Voersmann 1988][research_redeker_voersmann_1988]
 - [Rediniotis 2004][research_rediniotis_2004]
 - [Rediniotis et al 2002][research_rediniotis_gilarranz_2002]
 - [Reger et al 2017][research_reger_nickels_2017]
-- [Rehsteiner, F. H. 1970][research_rehsteinerfh_1970]
+- [Rehsteiner 1970][research_rehsteinerfh_1970]
 - [Reich et al 2004][research_reich_raveh_2004]
 - [Reichenbach 2008][research_reichenbach_2008]
-- [Reid, E G and Bamber, M J 1928][research_reideg_bambermj_1928]
+- [Reid and Bamber 1928][research_reideg_bambermj_1928]
 - [Reimann et al 2006][research_reimann_bloxham_2006]
 - [Reist and Zingg 2014][research_reist_zingg_2014]
 - [Reist and Zingg 2015][research_reist_zingg_2015]
 - [Reist and Zingg 2016][research_reist_zingg_2016]
-- [Ren Sheng et al 2014][research_rensheng_zhangjiazhong_2014]
-- [Rene Woszidlo et al 2022][research_renewoszidlo_arvinshmilovich_2022]
-- [Renka, A. R. 1975][research_renkaar_1975]
-- [Renselaer, D. J. et al 1975][research_renselaerdj_nishidars_1975]
+- [Renselaer et al 1975][research_renselaerdj_nishidars_1975]
 - [Reubush 1977][research_reubush_1977]
 - [Rew and Park 1996][research_rew_park_1996]
 - [Reynolds Number Effects 2000][research_reynolds_number_2000]
-- [Rezy, B. J. 1976][research_rezybj_1976]
-- [Ricardo A. Arteaga et al][research_ricardoaarteaga_nickolasdemidovich]
 - [Rice 1946][research_rice_1946]
+- [Rice and Abbott 1990][research_riceedwardj_abbottjohnm_1990]
 - [Rice and Amitay 2018][research_rice_amitay_2018]
-- [Rice, Edward J. and Abbott, John M. 1990][research_riceedwardj_abbottjohnm_1990]
-- [Richard L Campbell et al][research_richardlcampbell_sallyaviken]
 - [Richards et al 2010][research_richards_suleman_2010]
 - [Richardson 1976][research_richardson_1976]
 - [Richey et al 1976][research_richey_petersen_1976]
-- [Riddle, D. W. et al 1981][research_riddledw_innisrc_1981]
-- [Riddle, Dennis W. and Eppel, Joseph C. 1987][research_riddledennisw_eppeljosephc_1987]
-- [Riddle, Dennis W. et al 1988][research_riddledennisw_stevensvictorc_1988]
-- [Riebe, John M and Davenport, Edwin E 1958][research_riebejohnm_davenportedwine_1958]
+- [Riddle and Eppel 1987][research_riddledennisw_eppeljosephc_1987]
+- [Riddle et al 1981][research_riddledw_innisrc_1981]
+- [Riddle et al 1988][research_riddledennisw_stevensvictorc_1988]
+- [Riebe and Davenport 1958][research_riebejohnm_davenportedwine_1958]
 - [Rimašauskienė 2017][research_rimasauskiene_2017]
 - [Rimašauskienė 2017][research_rimasauskiene_2017_b]
 - [Rinde 1969][research_rinde_1969]
-- [Rivera and Manteufel 2014][research_rivera_manteufel_2014]
 - [Rixon and Johari 2003][research_rixon_johari_2003]
 - [Rizzetta and Garmann 2024][research_rizzetta_garmann_2024]
 - [Rizzetta and Garmann 2025][research_rizzetta_garmann_2025]
@@ -3799,60 +3670,53 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 - [Rizzetta and Garmann 2026][research_rizzetta_garmann_2026]
 - [Rizzetta and Visbal 2009][research_rizzetta_visbal_2009]
 - [Rizzetta et al 2008][research_rizzetta_visbal_2008]
-- [Robert C Scott][research_robertcscott]
-- [Robert Navarro 1997][research_robertnavarro_1997]
+- [Roberts 1986][research_robertsleonard_1986]
+- [Roberts 1987][research_robertsleonard_1987]
 - [Roberts et al 1966][research_roberts_smith_1966]
-- [Roberts, Leonard 1986][research_robertsleonard_1986]
-- [Roberts, Leonard 1987][research_robertsleonard_1987]
 - [Robinson 1980][research_robinson_1980]
 - [Robinson 2004][research_robinson_2004]
+- [Rodman and Wood 1986][research_rodmanlc_woodnj_1986]
 - [Rodman et al 1987][research_rodman_wood_1987]
-- [Rodman, L. C. and Wood, N. J. 1986][research_rodmanlc_woodnj_1986]
-- [Rodman, L. C. et al 1987][research_rodmanlc_woodnj_1987]
-- [Rodman, L. C. et al 1989][research_rodmanlc_woodnj_1989]
-- [Rodrigues et al 2024][research_rodrigues_modanloujoubari_2024]
-- [Rodrigues et al 2025][research_rodrigues_burns_2025]
-- [Roepcke, F. A. and Nickson, T. B. 1973][research_roepckefa_nicksontb_1973]
+- [Rodman et al 1987][research_rodmanlc_woodnj_1987]
+- [Rodman et al 1989][research_rodmanlc_woodnj_1989]
+- [Roepcke and Nickson 1973][research_roepckefa_nicksontb_1973]
 - [Roeser and Mönnich 2024][research_roeser_monnich_2024]
-- [Rolls, L Stewart and Innis, Robert C 1956][research_rollslstewart_innisrobertc_1956]
+- [Rolls and Innis 1956][research_rollslstewart_innisrobertc_1956]
 - [Roman et al 2000][research_roman_allen_2000]
 - [Roman et al 2003][research_roman_gilmore_2003]
 - [Romano 2020][research_romano_2020]
 - [Romiti 1970][research_romiti_1970]
-- [Ronald D Joslin and Sally A Viken 2001][research_ronalddjoslin_sallyaviken_2001]
 - [Rosenberg and Schuch 1983][research_rosenberg_schuch_1983]
 - [Roshko 1985][research_roshko_1985]
-- [Ross, Holly M. et al 1995][research_rosshollym_fearsscottp_1995]
+- [Ross et al 1995][research_rosshollym_fearsscottp_1995]
 - [Rossetti and Beblo 2022][research_rossetti_beblo_2022]
 - [Rossian et al 2018][research_rossian_suryadi_2018]
 - [Rostamy et al 2011][research_rostamy_bergstrom_2011]
+- [Roth 1988][research_rothkarlinr_1988]
 - [Roth and Dai 2006][research_roth_dai_2006]
-- [Roth, Karlin R. 1988][research_rothkarlinr_1988]
-- [Roth, Karlin R. et al 1989][research_rothkarlinr_fearnrichardl_1989]
-- [Roth, Karlin R. et al 1992][research_rothkarlinr_fearnrichardl_1992]
+- [Roth et al 1989][research_rothkarlinr_fearnrichardl_1989]
+- [Roth et al 1992][research_rothkarlinr_fearnrichardl_1992]
+- [Roth et al 1998][research_jreeceroth_danielmsherman_1998]
 - [Roupassov et al 2008][research_roupassov_nikipelov_2008]
 - [Roy 2009][research_roy_2009]
 - [Roy and Ghosh 2010][research_roy_ghosh_2010]
 - [Roysdon and Khalid 2010][research_roysdon_khalid_2010]
 - [Roysdon and Khalid 2011][research_roysdon_khalid_2011]
-- [Rudolph, Peter K. C. 1996][research_rudolphpeterkc_1996]
-- [Rumerman 1992][research_rumerman_1992]
-- [Rumerman 2002][research_rumerman_2002]
-- [Rumsey, C. L. et al 2004][research_rumseycl_gatskitb_2004]
-- [Rumsey, C. L. et al 2006][research_rumseycl_gatskitb_2006]
-- [Rumsey, C. L. et al 2007][research_rumseycl_schaefflernw_2007]
-- [Rumsey, Christoper L. et al 2005][research_rumseychristoperl_schaefflernormanw_2005]
-- [Rumsey, Christopher L. 2007][research_rumseychristopherl_2007]
-- [Rumsey, Christopher L. 2008][research_rumseychristopherl_2008]
-- [Rumsey, Christopher L. and Nishino, Takafumi 2011][research_rumseychristopherl_nishinotakafumi_2011]
-- [Rumsey, P. C. and Spitzer, R. E. 1971][research_rumseypc_spitzerre_1971]
-- [Rumsey, P. C. et al 1972][research_rumseypc_spitzerre_1972]
-- [Runyan, L. Jim et al 1987][research_runyanljim_bielakgw_1987]
+- [Rudolph 1996][research_rudolphpeterkc_1996]
+- [Rumsey 2007][research_rumseychristopherl_2007]
+- [Rumsey 2008][research_rumseychristopherl_2008]
+- [Rumsey and Nishino 2011][research_rumseychristopherl_nishinotakafumi_2011]
+- [Rumsey and Spitzer 1971][research_rumseypc_spitzerre_1971]
+- [Rumsey et al 1972][research_rumseypc_spitzerre_1972]
+- [Rumsey et al 2004][research_rumseycl_gatskitb_2004]
+- [Rumsey et al 2005][research_rumseychristoperl_schaefflernormanw_2005]
+- [Rumsey et al 2006][research_rumseycl_gatskitb_2006]
+- [Rumsey et al 2007][research_rumseycl_schaefflernw_2007]
+- [Runyan et al 1987][research_runyanljim_bielakgw_1987]
 - [Ruseno 2021][research_ruseno_2021]
 - [Rusovici et al 2008][research_rusovici_offord_2008]
-- [Ryan, John J. et al 2014][research_ryanjohnj_bosworthjohnt_2014]
-- [Ryle, D. M., Jr. et al 1977][research_ryledmjr_bradenja_1977]
-- [S. and M. 2011][research_s_m_2011]
+- [Ryan et al 2014][research_ryanjohnj_bosworthjohnt_2014]
+- [Ryle et al 1977][research_ryledmjr_bradenja_1977]
 - [Saadi and Bahi 2018][research_saadi_bahi_2018]
 - [Saderla et al 2017][research_saderla_rajaram_2017]
 - [Saeed and Graham 2015][research_saeed_graham_2015]
@@ -3863,34 +3727,28 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 - [Sahu 2006][research_sahu_2006]
 - [Saifuddin et al 2025][research_saifuddin_abdulmutaali_2025]
 - [Sakradse][research_sakradse]
-- [Salauddin et al 2021][research_salauddin_flores_2021]
 - [Salikuddin et al 1985][research_salikuddin_brown_1985]
 - [Salikuddin et al 1987][research_salikuddin_brown_1987]
 - [Salinas et al 2018][research_salinas_wojewodka_2018]
-- [Salmi, Reino J 1952][research_salmireinoj_1952]
-- [Saltzman, E. J. and Ayers, T. G. 1981][research_saltzmanej_ayerstg_1981]
-- [Samanich, N. E. et al 1973][research_samanichne_heidelberglj_1973]
+- [Salmi 1952][research_salmireinoj_1952]
+- [Saltzman and Ayers 1981][research_saltzmanej_ayerstg_1981]
+- [Samanich et al 1973][research_samanichne_heidelberglj_1973]
 - [Samimy 2017][research_samimy_2017]
 - [Samimy 2017][research_samimy_2017_b]
-- [Samimy et al 2011][research_samimy_webb_2011]
+- [Samimy et al 2006][research_samimym_kastnerj_2006]
 - [Samimy et al 2018][research_samimy_webb_2018]
-- [Samimy, M. et al 2006][research_samimym_kastnerj_2006]
-- [Sammy, Mo 2010][research_sammymo_2010]
+- [Sammy 2010][research_sammymo_2010]
 - [Samuels 1982][research_samuels_1982]
 - [Sano and Seki 2020][research_sano_seki_2020]
-- [Santese et al 2024][research_santese_martinezsanchis_2024]
 - [Santhanakrishnan et al 2008][research_santhanakrishnan_reasor_2008]
-- [Sarah L Langston et al][research_sarahllangston_courtneyswinski]
 - [Saraswathi 2000][research_saraswathi_2000]
 - [Sarigul-Klijn and Huber 2006][research_sarigulklijn_huber_2006]
 - [Sarioglu and Dogan 2024][research_sarioglu_dogan_2024]
-- [Saripalli, K. R. and Simpson, R. L. 1979][research_saripallikr_simpsonrl_1979]
-- [Saripalli, K. R. and Simpson, R. L. 1980][research_saripallikr_simpsonrl_1980]
+- [Saripalli and Simpson 1979][research_saripallikr_simpsonrl_1979]
+- [Saripalli and Simpson 1980][research_saripallikr_simpsonrl_1980]
 - [Sarout et al 2022][research_sarout_islam_2022]
 - [Sarwar][research_sarwar]
 - [Sarwar et al 2021][research_sarwar_bergada_2021]
-- [Sasaki et al 2002][research_sasaki_iguchi_2002]
-- [Sasaki et al 2006][research_sasaki_janata_2006]
 - [Sato 2018][research_sato_2018]
 - [Sato 2021][research_sato_2021]
 - [Sato 2025][research_sato_2025]
@@ -3898,74 +3756,69 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 - [Sato et al 2016][research_sato_muraoka_2016]
 - [Sato et al 2017][research_sato_nonomura_2017]
 - [Sato et al 2021][research_sato_enokido_2021]
-- [Satran, D. R. et al 1985][research_satrandr_gilbertwp_1985]
+- [Satran et al 1985][research_satrandr_gilbertwp_1985]
 - [Sattler et al 2010][research_sattler_scholz_2010]
-- [Sauti, Godfrey et al 2015][research_sautigodfrey_xutianbing_2015]
+- [Sauti et al 2015][research_sautigodfrey_xutianbing_2015]
 - [Sawada and Asami 1997][research_sawada_asami_1997]
 - [Sawant et al 2012][research_sawant_eskinazi_2012]
 - [Sawant et al 2012][research_sawant_oyarzun_2012]
 - [Sawant et al 2013][research_sawant_eskinazi_2013]
-- [Sawyer, Richard H. and Trant, James P., Jr. 1947][research_sawyerrichardh_trantjamespjr_1947]
-- [Sawyer, Richard H. and Trant, James P., Jr. 1950][research_sawyerrichardh_trantjamespjr_1950]
-- [Scallion, William I. 1999][research_scallionwilliami_1999]
-- [Scantling, W. L. and Gloss, B. B. 1974][research_scantlingwl_glossbb_1974]
-- [Schaeffler, Norman W. and Jenkins, Luther N. 2004][research_schaefflernormanw_jenkinsluthern_2004]
-- [Schaeffler, Norman W. and Jenkins, Luther N. 2006][research_schaefflernormanw_jenkinsluthern_2006]
-- [Schaeffler, Norman W. et al 2002][research_schaefflernormanw_hepnertimothye_2002]
-- [Schaeffler, Norman W. et al 2007][research_schaefflernormanw_jenkinsluthern_2007]
-- [Schaeffler, Norman W. et al 2010][research_schaefflernormanw_allanbriang_2010]
+- [Sawyer and Trant 1947][research_sawyerrichardh_trantjamespjr_1947]
+- [Sawyer and Trant 1950][research_sawyerrichardh_trantjamespjr_1950]
+- [Scantling and Gloss 1974][research_scantlingwl_glossbb_1974]
+- [Schaeffler and Jenkins 2004][research_schaefflernormanw_jenkinsluthern_2004]
+- [Schaeffler and Jenkins 2006][research_schaefflernormanw_jenkinsluthern_2006]
+- [Schaeffler et al 2002][research_schaefflernormanw_hepnertimothye_2002]
+- [Schaeffler et al 2007][research_schaefflernormanw_jenkinsluthern_2007]
+- [Schaeffler et al 2010][research_schaefflernormanw_allanbriang_2010]
 - [Schallert 2007][research_schallert_2007]
-- [Scharton, T. D. et al 1973][research_schartontd_pinkelb_1973]
+- [Scharton et al 1973][research_schartontd_pinkelb_1973]
 - [Schatz et al][research_schatz_gunther]
 - [Schatzman and Thomas 2008][research_schatzman_thomas_2008]
 - [Schatzman et al 2019][research_schatzman_drori_2019]
 - [Schillaci et al 2025][research_schillaci_oliet_2025]
 - [Schirrer et al 2013][research_schirrer_kozek_2013]
 - [Schirrer et al 2013][research_schirrer_westermayer_2013]
-- [Schkolnik, Gerard S. et al 1995][research_schkolnikgerards_ormejohns_1995]
-- [Schlecht, Robin and Anders, Scott 2007][research_schlechtrobin_andersscott_2007]
+- [Schkolnik et al 1995][research_schkolnikgerards_ormejohns_1995]
+- [Schlecht and Anders 2007][research_schlechtrobin_andersscott_2007]
 - [Schlösser and Bauer 2018][research_schlosser_bauer_2018]
 - [Schneck and Winfrey 2013][research_schneck_winfrey_2013]
-- [Schoen, A. H. et al 1977][research_schoenah_kolesarce_1977]
-- [Schoenster, J. A. 1974][research_schoensterja_1974]
-- [Schoenster, J. A. and Schroeder, J. C. 1977][research_schoensterja_schroederjc_1977]
+- [Schoen et al 1977][research_schoenah_kolesarce_1977]
+- [Schoenster 1974][research_schoensterja_1974]
+- [Schoenster and Schroeder 1977][research_schoensterja_schroederjc_1977]
 - [Scholz et al 2006][research_scholz_ortmanns_2006]
-- [Schrecker, G. O. and Maus, J. R. 1974][research_schreckergo_mausjr_1974]
-- [Schulze et al 1995][research_schulze_maxfield_1995]
-- [Schwendemann, M. F. 1981][research_schwendemannmf_1981]
-- [Schwendemann, M. F. and Sanders, B. W. 1982][research_schwendemannmf_sandersbw_1982]
-- [Schwier, W. 1947][research_schwierw_1947]
-- [Scibilia 2000][research_scibilia_2000]
-- [Scott, Robert C. et al 2011][research_scottrobertc_castellucciomarka_2011]
-- [Scuderi 2022][research_scuderi_2022]
-- [Seacord, Charles L. and Campbell, John P. 1945][research_seacordcharlesl_campbelljohnp_1945]
+- [Schrecker and Maus 1974][research_schreckergo_mausjr_1974]
+- [Schwier 1947][research_schwierw_1947]
+- [Scott][research_robertcscott]
+- [Scott et al 2011][research_scottrobertc_castellucciomarka_2011]
+- [Seacord and Campbell 1945][research_seacordcharlesl_campbelljohnp_1945]
 - [Sears 1980][research_sears_1980]
 - [Sedor 1996][research_sedor_1996]
 - [Seele et al 2012][research_seele_graff_2012]
-- [Seele, Roman et al 2013][research_seeleroman_graffemilio_2013]
-- [Seewald, F 1927][research_seewaldf_1927]
-- [Sefic, W. J. and Cutler, W. 1986][research_seficwj_cutlerw_1986]
-- [Sefic, W. J. and Maxwell, C. M. 1986][research_seficwj_maxwellcm_1986]
+- [Seele et al 2013][research_seeleroman_graffemilio_2013]
+- [Seewald 1927][research_seewaldf_1927]
+- [Sefic and Cutler 1986][research_seficwj_cutlerw_1986]
+- [Sefic and Maxwell 1986][research_seficwj_maxwellcm_1986]
 - [Segawa et al 2007][research_segawa_furutani_2007]
 - [Segawa et al 2009][research_segawa_abe_2009]
-- [Seginer, A. and Salomon, M. 1983][research_seginera_salomonm_1983]
+- [Seginer and Salomon 1983][research_seginera_salomonm_1983]
 - [Seidel et al 2005][research_seidel_siegel_2005]
 - [Seifert][research_seifert]
-- [Seifert and others, Delay of airfoil stall by periodic excitation, Journal of Aircraft, volume 33, 1996, registry record only][research_seifert_1996]
-- [Seifert and Pack, Separation Control at Flight Reynolds Numbers, Lessons Learned and Future Directions, AIAA 2000-2542, NASA Langley Research Center and Tel-Aviv University, 2000, read in full][research_seifert_pack_2000]
+- [Seifert and Pack 1999][research_seifertavi_packlatuniag_1999]
+- [Seifert and Pack 2000][research_seifert_pack_2000]
+- [Seifert and Pack 2000][research_seifertavi_packlatuniag_2000]
+- [Seifert et al 1996][research_seifert_1996]
 - [Seifert et al 1998][research_seifert_eliahu_1998]
 - [Seifert et al 2010][research_seifert_david_2010]
 - [Seifert et al 2015][research_seifert_shtendel_2015]
-- [Seifert, Avi and Pack, LaTunia G. 1999][research_seifertavi_packlatuniag_1999]
-- [Seifert, Avi and Pack, LaTunia G. 2000][research_seifertavi_packlatuniag_2000]
 - [Seiler 1977][research_seiler_1977]
 - [Seki and Sano 2019][research_seki_sano_2019]
 - [Sekimoto et al 2014][research_sekimoto_sulaiman_2014]
 - [Sekimoto et al 2020][research_sekimoto_fujii_2020]
 - [Selberg and Cronin 1986][research_selberg_cronin_1986]
-- [Selby, Gregory 1991][research_selbygregory_1991]
+- [Selby 1991][research_selbygregory_1991]
 - [Sellars et al 2002][research_sellars_wood_2002]
-- [Sellers, William L., III et al 2002][research_sellerswilliamliii_jonesgregorys_2002]
+- [Sellers et al 2002][research_sellerswilliamliii_jonesgregorys_2002]
 - [Semaan et al 2014][research_semaan_elsayed_2014]
 - [Semionov and Kosinov 2000][research_semionov_kosinov_2000]
 - [Sengupta et al 1999][research_sengupta_gupta_1999]
@@ -3974,36 +3827,20 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 - [Serrani 2022][research_serrani_2022]
 - [Serrar and Khlifi 2026][research_serrar_khlifi_2026]
 - [Serrar et al 2024][research_serrar_elkhlifi_2024]
-- [Seshan 1981][research_seshan_1981]
 - [Settles et al 1976][research_settles_vas_1976]
-- [Seyedeh Hosseini et al][research_seyedehhosseini_cpvandam]
-- [Seyedeh Sheida Hosseini et al][research_seyedehsheidahosseini_cpvandam]
-- [Seyedeh Sheida Hosseini et al][research_seyedehsheidahosseini_cpvandam_b]
-- [Seyedeh Sheida Hosseini et al][research_seyedehsheidahosseini_cpvandam_c]
-- [Seyedeh Sheida Hosseini et al][research_seyedehsheidahosseini_jamesrlkoch]
 - [Sferi-Coanda Clichy France 1956][research_sfericoandaclichyfrance_1956]
 - [Sferi-Coanda Clichy France 1957][research_sfericoandaclichyfrance_1957]
 - [Sgueglia][research_sgueglia]
 - [Shah et al 2008][research_shah_wong_2008]
 - [Shahid and Mashud 2017][research_shahid_mashud_2017]
-- [Shakouchi 1989][research_shakouchi_1989]
-- [Shakouchi 2003][research_shakouchi_2003]
 - [Shakouchi et al 2019][research_shakouchi_fukushima_2019]
 - [Shang 2007][research_shang_2007]
-- [Shang 2021][research_shang_2021]
-- [Shang and Hodges 1996][research_shang_hodges_1996]
 - [Shang and Huang 2014][research_shang_huang_2014]
-- [Shang and Liu 2009][research_shang_liu_2009]
-- [Shang and Liu 2009][research_shang_liu_2009_b]
-- [Shang and Liu 2010][research_shang_liu_2010]
-- [Shang and Liu 2011][research_shang_liu_2011]
 - [Shang et al 2010][research_shang_liu_2010_b]
 - [Shannon and Morris 2008][research_shannon_morris_2008]
 - [Shao et al 2024][research_shao_guo_2024]
 - [Shao et al 2026][research_shao_he_2026]
-- [Shaoheng 2021][research_shaoheng_2021]
 - [Sharma and Hosder 2024][research_sharma_hosder_2024]
-- [Sharma and Ranganayakulu 2025][research_sharma_ranganayakulu_2025]
 - [Sharma and Ranganayakulu 2025][research_sharma_ranganayakulu_2025_b]
 - [Sharma and Ranganayakulu 2026][research_sharma_ranganayakulu_2026]
 - [Sharma et al 2026][research_sharma_ranganayakulu_2026_b]
@@ -4014,17 +3851,14 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 - [Shea and Smith 2008][research_shea_smith_2008]
 - [Shea et al 2012][research_shea_glauser_2012]
 - [Sheeler et al 2025][research_sheeler_wolff_2025]
-- [Shehadi et al 2015][research_shehadi_jones_2015]
-- [Sheida Hosseini et al][research_sheidahosseini_cpvandam]
 - [Shen et al 2018][research_shen_yang_2018]
 - [Sheng and Zhao 2017][research_sheng_zhao_2017]
 - [Sheng et al 2026][research_sheng_sun_2026]
 - [Shepshelovich and Koss 1990][research_shepshelovich_koss_1990]
 - [Sherman 2008][research_sherman_2008]
 - [Sherman et al 2021][research_sherman_tirona_2021]
-- [Sheryll Goecke Powers et al 1992][research_sheryllgoeckepowers_lanniedwebb_1992]
 - [Shestakov and Yagodnitsyna 2026][research_shestakov_yagodnitsyna_2026]
-- [Sheta, Essam F. et al 1998][research_shetaessamf_kandilosamaa_1998]
+- [Sheta et al 1998][research_shetaessamf_kandilosamaa_1998]
 - [Shi and Sullivan 2020][research_shi_sullivan_2020]
 - [Shi et al 2015][research_shi_wang_2015]
 - [Shi et al 2022][research_shi_gu_2022]
@@ -4038,21 +3872,24 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 - [Shimomura et al 2021][research_shimomura_sekimoto_2021]
 - [Shin et al 2009][research_shin_harden_2009]
 - [Shinozuka et al 2004][research_shinozuka_kojima_2004]
-- [Shivers, J. P. and Smith, C. C., Jr. 1974][research_shiversjp_smithccjr_1974]
-- [Shivers, J. P. and Smith, C. C., Jr. 1975][research_shiversjp_smithccjr_1975]
-- [Shivers, J. P. et al 1975][research_shiversjp_mclemorehc_1975]
-- [Shivers, J. P. et al 1976][research_shiversjp_mclemorehc_1976]
+- [Shivers and Smith 1974][research_shiversjp_smithccjr_1974]
+- [Shivers and Smith 1975][research_shiversjp_smithccjr_1975]
+- [Shivers et al 1975][research_shiversjp_mclemorehc_1975]
+- [Shivers et al 1976][research_shiversjp_mclemorehc_1976]
 - [Shmilovich and Yadlin 2009][research_shmilovich_yadlin_2009]
-- [Shmilovich, Arvin et al 2017][research_shmilovicharvin_yadlinyoram_2017]
+- [Shmilovich et al 2017][research_shmilovicharvin_yadlinyoram_2017]
+- [Shmilovich et al 2022][research_arvinshmilovich_matthewstauffer_2022]
+- [Shmilovich et al 2022][research_arvinshmilovich_paulvijgen_2022]
+- [Shmilovich et al 2023][research_arvinshmilovich_yoramyadlin_2023]
+- [Shmilovich et al 2023][research_arvinshmilovich_yoramyadlin_2023_b]
 - [Shore and Bodson 2004][research_shore_bodson_2004]
 - [Shore and Bodson 2005][research_shore_bodson_2005]
-- [Shovlin, M. D. 1977][research_shovlinmd_1977]
-- [Shovlin, M. D. 1978][research_shovlinmd_1978]
-- [Shovlin, M. D. et al 1979][research_shovlinmd_skavdahlh_1979]
-- [Shovlin, M. D. et al 1987][research_shovlinmd_englarrj_1987]
+- [Shovlin 1978][research_shovlinmd_1978]
+- [Shovlin et al 1979][research_shovlinmd_skavdahlh_1979]
+- [Shovlin et al 1987][research_shovlinmd_englarrj_1987]
 - [Shrewsbury 1986][research_shrewsbury_1986]
+- [Shrewsbury 1987][research_shrewsburygeorged_1987]
 - [Shrewsbury 1989][research_shrewsbury_1989]
-- [Shrewsbury, George D. 1987][research_shrewsburygeorged_1987]
 - [Shtessel et al 1999][research_shtessel_buffington_1999]
 - [Shtessel et al 2002][research_shtessel_buffington_2002]
 - [Shun and Ahmed 2011][research_shun_ahmed_2011]
@@ -4066,78 +3903,70 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 - [Siller et al 2005][research_siller_jacob_2005]
 - [Silva][research_silva]
 - [Silva 2011][research_silva_2011]
+- [Sim 1976][research_simalexg_1976]
+- [Sim 1997][research_simalexg_1997]
+- [Sim and Curry 1984][research_simag_curryre_1984]
+- [Sim and Curry 1985][research_simalexg_curryroberte_1985]
 - [Sim et al 2021][research_sim_ellis_2021]
-- [Sim, A. G. and Curry, R. E. 1984][research_simag_curryre_1984]
-- [Sim, Alex G. 1976][research_simalexg_1976]
-- [Sim, Alex G. 1997][research_simalexg_1997]
-- [Sim, Alex G. and Curry, Robert E. 1985][research_simalexg_curryroberte_1985]
+- [Simmons][research_benjaminmsimmons_b]
 - [Simmons 2022][research_simmons_2022]
 - [Simmons 2023][research_simmons_2023]
 - [Simmons et al 2023][research_simmons_gresham_2023]
+- [Simon and Ciancone 1985][research_simonff_cianconeml_1985]
+- [Simon and Ciancone 1987][research_simonfrederickf_cianconemichaell_1987]
 - [Simon et al 1993][research_simon_blake_1993]
 - [Simon et al 2025][research_simon_williams_2025]
-- [Simon, F. F. and Ciancone, M. L. 1985][research_simonff_cianconeml_1985]
-- [Simon, Frederick F. and Ciancone, Michael L. 1987][research_simonfrederickf_cianconemichaell_1987]
 - [Simpson 1972][research_simpson_1972]
-- [Simpson et al 1989][research_simpson_luong_1989]
-- [Simpson et al 1991][research_simpson_luong_1991]
 - [Singbeil et al 2021][research_singbeil_ghiroaga_2021]
 - [Singh and Ramamurthi 2009][research_singh_ramamurthi_2009]
 - [Singh and Roy 2008][research_singh_roy_2008]
 - [Singh et al 2016][research_singh_toropov_2016]
-- [Singh et al 2018][research_singh_rudman_2018]
-- [Singh et al 2020][research_singh_kumar_2020]
 - [Singh Negi et al 2022][research_singhnegi_tayade_2022]
 - [Singhal et al 2009][research_singhal_tao_2009]
 - [Sinha 1999][research_sinha_1999]
 - [Sinha 2026][research_sinha_2026]
 - [Sitaraman and Raja 2013][research_sitaraman_raja_2013]
-- [Siu, Marie-Michele et al 2013][research_siumariemichele_martosborja_2013]
+- [Siu et al 2013][research_siumariemichele_martosborja_2013]
 - [Sivaji et al 2003][research_sivaji_ghia_2003]
-- [Skavdahl, H. and Patterson, D. H. 1972][research_skavdahlh_pattersondh_1972]
-- [Skillen, Michael D. and Crossley, William A. 2008][research_skillenmichaeld_crossleywilliama_2008]
+- [Skavdahl and Patterson 1972][research_skavdahlh_pattersondh_1972]
+- [Skillen and Crossley 2008][research_skillenmichaeld_crossleywilliama_2008]
 - [Skotnicka-Siepsiak 2017][research_skotnickasiepsiak_2017]
-- [Skotnicka-Siepsiak 2020][research_skotnickasiepsiak_2020]
-- [Skow, A. M. and Peake, D. J. 1983][research_skowam_peakedj_1983]
-- [Skow, A. M. and Penke, D. J. 1982][research_skowam_penkedj_1982]
-- [Sleeman, W. C., Jr. and Phelps, A. E., III 1976][research_sleemanwcjr_phelpsaeiii_1976]
+- [Skow and Peake 1983][research_skowam_peakedj_1983]
+- [Skow and Penke 1982][research_skowam_penkedj_1982]
+- [Sleeman and Phelps 1976][research_sleemanwcjr_phelpsaeiii_1976]
 - [Slomski et al 2006][research_slomski_chang_2006]
-- [Slotnick, Jeffrey P. et al 2000][research_slotnickjeffreyp_anmichaely_2000]
+- [Slotnick et al 2000][research_slotnickjeffreyp_anmichaely_2000]
 - [Slupski and Kara 2016][research_slupski_kara_2016]
 - [Slupski and Kara 2017][research_slupski_kara_2017]
 - [Slupski et al 2018][research_slupski_kara_2018]
 - [Slupski et al 2019][research_slupski_tajik_2019]
 - [Smallwood et al 2003][research_smallwood_canfield_2003]
-- [Smeltzer, D. B. et al 1983][research_smeltzerdb_durstonda_1983]
-- [Smith 1968][research_smith_1968]
+- [Smeltzer et al 1983][research_smeltzerdb_durstonda_1983]
+- [Smith 1953][research_smithwg_1953]
+- [Smith 1971][research_smithccjr_1971]
+- [Smith 1973][research_smithccjr_1973]
+- [Smith 2002][research_smithdouglasr_2002]
 - [Smith 2005][research_smith_2005]
 - [Smith 2010][research_smith_2010]
 - [Smith and Nelson 1988][research_smith_nelson_1988]
+- [Smith and Stonum 1989][research_smithstephenc_stonumronaldk_1989]
+- [Smith and White 1974][research_smithccjr_whitelc_1974]
 - [Smith and Yagle 2023][research_smith_yagle_2023]
+- [Smith et al 1987][research_smithsc_cliffse_1987]
+- [Smith et al 1990][research_smithjeannettew_mineckraymonde_1990]
+- [Smith et al 1993][research_smithbrookec_suarezcarlosj_1993]
+- [Smith et al 2003][research_smithmarks_moestimothyr_2003]
 - [Smith et al 2007][research_smith_scribben_2007]
-- [Smith, Brooke C. et al 1993][research_smithbrookec_suarezcarlosj_1993]
-- [Smith, C. C., Jr. 1971][research_smithccjr_1971]
-- [Smith, C. C., Jr. 1973][research_smithccjr_1973]
-- [Smith, C. C., Jr. and White, L. C. 1974][research_smithccjr_whitelc_1974]
-- [Smith, Douglas R. 2002][research_smithdouglasr_2002]
-- [Smith, Jeannette W. et al 1990][research_smithjeannettew_mineckraymonde_1990]
-- [Smith, Mark S. et al 2003][research_smithmarks_moestimothyr_2003]
-- [Smith, Mark S. et al 2016][research_smithmarks_buitrongt_2016]
-- [Smith, S. C. et al 1987][research_smithsc_cliffse_1987]
-- [Smith, Stephen C. and Stonum, Ronald K. 1989][research_smithstephenc_stonumronaldk_1989]
-- [Smith, W. G. 1953][research_smithwg_1953]
-- [Smits and Miles 2002][research_smits_miles_2002]
+- [Smith et al 2016][research_smithmarks_buitrongt_2016]
 - [Smyk 2017][research_smyk_2017]
 - [Smyk and Markowicz 2022][research_smyk_markowicz_2022_b]
 - [Smyk and Stopel 2025][research_smyk_stopel_2025]
 - [Smyk et al 2020][research_smyk_gil_2020]
 - [Smyk et al 2020][research_smyk_wawrzyniak_2020]
-- [Smyk et al 2022][research_smyk_markowicz_2022]
+- [Snyder and Orloff 1984][research_snyderp_orloffkl_1984]
 - [Snyder et al 2005][research_snyder_hur_2005]
-- [Snyder, John Steven et al 2013][research_snyderjohnsteven_baldwinjeff_2013]
-- [Snyder, P. and Orloff, K. L. 1984][research_snyderp_orloffkl_1984]
 - [Sobey 2000][research_sobey_2000]
-- [Soderman, P. T. and Aiken, T. N. 1971][research_sodermanpt_aikentn_1971]
+- [Soderman and Aiken 1971][research_sodermanpt_aikentn_1971]
 - [Sohn et al 2005][research_sohn_chung_2005]
 - [Sokolenko et al 2024][research_sokolenko_drozdz_2024]
 - [Soldati et al 2025][research_soldati_orlandi_2025]
@@ -4148,80 +3977,75 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 - [Soria 2006][research_soria_2006]
 - [Soria 2008][research_soria_2008]
 - [Soria 2015][research_soria_2015]
-- [Sorokowski, Paul et al 2015][research_sorokowskipaul_skoogmark_2015]
+- [Sorokowski et al 2015][research_sorokowskipaul_skoogmark_2015]
 - [Sotoudeh 2015][research_sotoudeh_2015]
 - [Sotoudeh 2015][research_sotoudeh_2015_b]
 - [Sotoudeh and Hodges 2009][research_sotoudeh_hodges_2009]
 - [Sotoudeh and Hodges 2011][research_sotoudeh_hodges_2011]
 - [Soufivand et al 2024][research_soufivand_hojaji_2024]
 - [Soufivand et al 2025][research_soufivand_hojaji_2025]
-- [Soule, Hartley A 1946][research_soulehartleya_1946]
-- [Spaid, Frank W. and Keener, Earl R. 1987][research_spaidfrankw_keenerearlr_1987]
-- [Spaid, Frank W. and Keener, Earl R. 1991][research_spaidfrankw_keenerearlr_1991]
+- [Soule 1946][research_soulehartleya_1946]
+- [Spaid and Keener 1987][research_spaidfrankw_keenerearlr_1987]
+- [Spaid and Keener 1991][research_spaidfrankw_keenerearlr_1991]
 - [Sparks][research_sparks]
 - [Sparks and Sparks 1997][research_sparks_sparks_1997]
-- [Specification for Continued Airworthiness][research_specification_for_b]
-- [Specification for Design and][research_specification_for]
 - [Speyer and Kim 2000][research_speyer_kim_2000]
 - [Speyer and Kim 2002][research_speyer_kim_2002]
-- [Spitzer, R. E. 1972][research_spitzerre_1972]
-- [Spitzer, R. E. et al 1972][research_spitzerre_rumseypc_1972]
-- [Spreemann, Kenneth P 1958][research_spreemannkennethp_1958]
-- [Spreemann, Kenneth P and Kuhn, Richard E 1956][research_spreemannkennethp_kuhnricharde_1956]
-- [Stabe, R. G. 1971][research_staberg_1971]
+- [Spitzer 1972][research_spitzerre_1972]
+- [Spitzer et al 1972][research_spitzerre_rumseypc_1972]
+- [Spreemann 1958][research_spreemannkennethp_1958]
+- [Spreemann and Kuhn 1956][research_spreemannkennethp_kuhnricharde_1956]
+- [Stabe 1971][research_staberg_1971]
 - [Stable multiple model adaptive 1999][research_stable_multiple_1999]
-- [Stachowiak, Susan J. and Bosworth, John T. 2004][research_stachowiaksusanj_bosworthjohnt_2004]
+- [Stachowiak and Bosworth 2004][research_stachowiaksusanj_bosworthjohnt_2004]
 - [Staelens et al 2007][research_staelens_blackwelder_2007]
 - [Stalewski and Stryczniewicz 2018][research_stalewski_stryczniewicz_2018]
 - [Stalewski and Sznajder 2014][research_stalewski_sznajder_2014]
 - [Stalnov 2017][research_stalnov_2017]
-- [Stalnov and Seifert, Amplitude Scaling of Active Separation Control, in Minnowbrook VI, 2009 Workshop on Flow Physics and Control, NASA/CP-2010-216112, read in full][research_stalnov_seifert_2010]
+- [Stalnov and Seifert 2009][research_stalnov_seifert_2010]
 - [Standard Practice for Development][research_standard_practice]
 - [Starn][research_starn]
-- [Stathopoulos and Surry 1983][research_stathopoulos_surry_1983]
 - [Static Longitudinal Stability Flight 2003][research_static_longitudinal_2003]
 - [Stegmeier et al 2019][research_stegmeier_kimn_2019]
-- [Stein, G. et al 1977][research_steing_hartmanngl_1977]
-- [Steinmetz, G. G. et al 1972][research_steinmetzgg_parrishrv_1972]
+- [Stein et al 1977][research_steing_hartmanngl_1977]
+- [Steinmetz et al 1972][research_steinmetzgg_parrishrv_1972]
 - [Stenfelt and Ringertz 2009][research_stenfelt_ringertz_2009]
 - [Stenfelt and Ringertz 2010][research_stenfelt_ringertz_2010]
 - [Stephen et al 2010][research_stephen_dewey_2010]
 - [Stephen et al 2011][research_stephen_campbell_2011]
-- [Stephen P Wilkinson 2011][research_stephenpwilkinson_2011]
-- [Stephenson, J. D. 1983][research_stephensonjd_1983]
-- [Stephenson, Jack D. et al 1990][research_stephensonjackd_jeskejamesa_1990]
-- [Stepner, D. E. and Mehra, R. K. 1974][research_stepnerde_mehrark_1974]
-- [Steven X S Bauer and Richard M Wood 2001][research_stevenxsbauer_richardmwood_2001]
-- [Stevens, C. H. et al 1979][research_stevensch_sponged_1979]
+- [Stephenson 1983][research_stephensonjd_1983]
+- [Stephenson et al 1990][research_stephensonjackd_jeskejamesa_1990]
+- [Stepner and Mehra 1974][research_stepnerde_mehrark_1974]
+- [Stevens et al 1979][research_stevensch_sponged_1979]
+- [Stewart 1974][research_stewarthj_1974]
 - [Stewart 1985][research_stewart_1985]
-- [Stewart, H. J. 1974][research_stewarthj_1974]
-- [Stewart, J. F. and Bauer, C. A. 1983][research_stewartjf_bauerca_1983]
-- [Stone, Ralph W, Jr and Burk, Sanger M, Jr 1947][research_stoneralphwjr_burksangermjr_1947]
-- [Stortz, Michael W. and ODonoghue, Dennis P. 1995][research_stortzmichaelw_odonoghuedennisp_1995]
-- [Strass, H Kurt 1945][research_strasshkurt_1945]
+- [Stewart and Bauer 1983][research_stewartjf_bauerca_1983]
+- [Stone and Burk 1947][research_stoneralphwjr_burksangermjr_1947]
+- [Stortz and ODonoghue 1995][research_stortzmichaelw_odonoghuedennisp_1995]
+- [Strass 1945][research_strasshkurt_1945]
 - [Stratford 1956][research_stratford_1956]
 - [Stratford 1956][research_stratford_1956_b]
 - [Stroscher et al 2013][research_stroscher_sika_2013]
 - [Structural weight comparison of 1981][research_structural_weight_1981]
+- [Strykowski 1997][research_strykowskipaulj_1997]
 - [Strykowski and Krothapalli 1993][research_strykowski_krothapalli_1993]
-- [Strykowski, Paul J. 1997][research_strykowskipaulj_1997]
-- [Sturgeon, R. F. 1978][research_sturgeonrf_1978]
-- [Sturgeon, R. F. 1980][research_sturgeonrf_1980]
-- [Sturgeon, R. F. and Bennett, J. A. 1976][research_sturgeonrf_bennettja_1976]
-- [Sturgeon, R. F. et al 1976][research_sturgeonrf_bennettja_1976_b]
+- [Sturgeon 1978][research_sturgeonrf_1978]
+- [Sturgeon 1980][research_sturgeonrf_1980]
+- [Sturgeon and Bennett 1976][research_sturgeonrf_bennettja_1976]
+- [Sturgeon et al 1976][research_sturgeonrf_bennettja_1976_b]
 - [Su et al 2017][research_su_huang_2017]
 - [Su et al 2024][research_su_li_2024]
-- [Suarez, Carlos J. et al 1992][research_suarezcarlosj_malcolmgeraldn_1992]
-- [Suarez, Carlos J. et al 1993][research_suarezcarlosj_kramerbrianr_1993]
-- [Suarez, Carlos J. et al 1993][research_suarezcarlosj_kramerbrianr_1993_b]
-- [Suarez, Carlos J. et al 1993][research_suarezcarlosj_ngtterry_1993]
+- [Suarez et al 1992][research_suarezcarlosj_malcolmgeraldn_1992]
+- [Suarez et al 1993][research_suarezcarlosj_kramerbrianr_1993]
+- [Suarez et al 1993][research_suarezcarlosj_kramerbrianr_1993_b]
+- [Suarez et al 1993][research_suarezcarlosj_ngtterry_1993]
 - [Subbarao et al 2005][research_subbarao_dennis_2005]
 - [Subhash and Dumas 2013][research_subhash_dumas_2013]
 - [Sudak][research_sudak]
 - [Sujar-Garrido et al 2018][research_sujargarrido_hao_2018]
 - [Suleman 2007][research_suleman_2007]
 - [Suleman et al 2015][research_suleman_afonso_2015]
-- [Sullivan, R. L. 1979][research_sullivanrl_1979]
+- [Sullivan 1979][research_sullivanrl_1979]
 - [Sumanik][research_sumanik]
 - [Sun and Hamdani 2001][research_sun_hamdani_2001]
 - [Sun and Sheikh 1999][research_sun_sheikh_1999]
@@ -4230,38 +4054,35 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 - [Sun et al 2022][research_sun_shi_2022]
 - [Sun et al 2024][research_sun_wang_2024]
 - [Sun et al 2025][research_sun_gui_2025]
-- [Sundall et al 2026][research_sundall_kanbur_2026]
 - [Sundaram et al 2022][research_sundaram_sengupta_2022]
 - [Sundström and Tomac 2020][research_sundstrom_tomac_2020]
 - [Suresh et al 2013][research_suresh_radhakrishnan_2013]
-- [Sussman, M. B. et al 1976][research_sussmanmb_harkonendl_1976]
-- [Sutliff, Daniel L. 2005][research_sutliffdaniell_2005]
-- [Sutliff, Daniel L. et al 2002][research_sutliffdaniell_tweedtdaniell_2002]
+- [Sussman et al 1976][research_sussmanmb_harkonendl_1976]
+- [Sutliff 2005][research_sutliffdaniell_2005]
+- [Sutliff et al 2002][research_sutliffdaniell_tweedtdaniell_2002]
 - [Sutton 1982][research_sutton_1982]
-- [Suzen, Y. B. et al 2005][research_suzenyb_huangpg_2005]
-- [Suzen, Y. B. et al 2007][research_suzenyb_huangpg_2007]
+- [Suzen et al 2005][research_suzenyb_huangpg_2005]
+- [Suzen et al 2007][research_suzenyb_huangpg_2007]
 - [Suzuki 2006][research_suzuki_2006]
 - [Swan][research_swan]
+- [Swanson and Rumsey 2006][research_swansonroycjr_rumseychristopherl_2006]
 - [Swanson and Rumsey 2009][research_swanson_rumsey_2009]
-- [Swanson, R. C. et al 2005][research_swansonrc_rumseycl_2005]
-- [Swanson, R. C. et al 2005][research_swansonrc_rumseycl_2005_b]
-- [Swanson, Roy C., Jr. and Rumsey, Christopher L. 2006][research_swansonroycjr_rumseychristopherl_2006]
-- [Swinford, G. R. 1976][research_swinfordgr_1976]
+- [Swanson et al 2005][research_swansonrc_rumseycl_2005]
+- [Swanson et al 2005][research_swansonrc_rumseycl_2005_b]
+- [Swinford 1976][research_swinfordgr_1976]
 - [Symington 1940][research_symington_1940]
 - [Synthetic Jet 2018][research_synthetic_jet_2018]
-- [Taback, I. et al 1983][research_tabacki_braslowal_1983]
-- [Taborda and Sommerfeld 2024][research_taborda_sommerfeld_2024]
-- [Tabuchi and Fujino 2023][research_tabuchi_fujino_2023]
+- [Taback et al 1983][research_tabacki_braslowal_1983]
 - [Tachie et al 2001][research_tachie_bergstrom_2001]
 - [Tadjfar and Asgari 2017][research_tadjfar_asgari_2017]
 - [Tadjfar and Kamari 2019][research_tadjfar_kamari_2019]
 - [Tadjfar and Kamari 2019][research_tadjfar_kamari_2019_b]
 - [Tadjfar et al 2020][research_tadjfar_kasmaiee_2020]
-- [Tagge, G. E. 1983][research_taggege_1983]
+- [Tagge 1983][research_taggege_1983]
 - [Tahir et al 2026][research_tahir_maqsood_2026]
-- [Tai, T. C. and Kidwell, G. H., Jr. 1984][research_taitc_kidwellghjr_1984]
-- [Tai, T. C. and Kidwell, G. H., Jr. 1985][research_taitc_kidwellghjr_1985]
-- [Tai, T. C. et al 1981][research_taitc_kidwellghjr_1981]
+- [Tai and Kidwell 1984][research_taitc_kidwellghjr_1984]
+- [Tai and Kidwell 1985][research_taitc_kidwellghjr_1985]
+- [Tai et al 1981][research_taitc_kidwellghjr_1981]
 - [Taira 2014][research_taira_2014]
 - [Taira and Colonius 2009][research_taira_colonius_2009]
 - [Tajik and Parezanovic 2022][research_tajik_parezanovic_2022]
@@ -4274,88 +4095,75 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 - [Takahashi and Stone 2019][research_takahashi_stone_2019]
 - [Takashi et al 2013][research_takashi_kengo_2013]
 - [Takeuchi et al 2007][research_takeuchi_yasuoka_2007]
-- [Taleghani and Hosseini, Review on flow separation control, effects of excitation frequency and momentum coefficient, Frontiers in Mechanical Engineering, volume 10, 2024][research_review_afc_2024]
-- [Tam, C. K. W. and Reddy, N. N. 1976][research_tamckw_reddynn_1976]
+- [Tallent and Koss 2004][research_mafc_lessons_2004]
+- [Tam and Reddy 1976][research_tamckw_reddynn_1976]
 - [Tamburello and Amitay 2006][research_tamburello_amitay_2006]
 - [Tan 2009][research_tan_2009]
-- [Tan 2019][research_tan_2019]
 - [Tan et al 2004][research_tan_agarwal_2004]
 - [Tan et al 2011][research_tan_tan_2011]
 - [Tan et al 2018][research_tan_ma_2018]
 - [Tanaka et al 2000][research_tanaka_hasegawa_2000]
 - [Tang and Agarwal 2018][research_tang_agarwal_2018]
-- [Tang and Li 2024][research_tang_li_2024]
+- [Tang and Pearson 1973][research_tangmh_pearsongpe_1973]
 - [Tang et al 2013][research_tang_salunkhe_2013]
 - [Tang et al 2014][research_tang_salunkhe_2014]
-- [Tang, M. H. and Pearson, G. P. E. 1973][research_tangmh_pearsongpe_1973]
-- [Tang, Yvette Y. et al 1996][research_tangyvettey_silcoxrichardj_1996]
 - [Tavakkoli et al 2023][research_tavakkoli_niliahmadabadi_2023]
+- [Tavella 1985][research_tavellada_1985]
 - [Tavella et al 1986][research_tavella_lee_1986]
-- [Tavella, D. A. 1985][research_tavellada_1985]
+- [Taylor 2009][research_taylorbrianr_2009]
 - [Taylor 2012][research_taylor_2012]
-- [Taylor, Brian R. 2009][research_taylorbrianr_2009]
 - [Tebbiche and Boutoudj 2021][research_tebbiche_boutoudj_2021]
 - [Teel 1999][research_teel_1999]
 - [Teel 1999][research_teel_1999_b]
 - [Telionis 1995][research_telionis_1995]
 - [Telionis 2001][research_telionis_2001]
 - [Telionis and Vlachos 2003][research_telionis_vlachos_2003]
-- [Templeton et al 2017][research_templeton_davis_2017]
 - [Tennant et al 1976][research_tennant_johnson_1976]
 - [Teo][research_teo]
 - [Teo et al 2016][research_teo_new_2016]
-- [Terekhov and Pakhomov 2009][research_terekhov_pakhomov_2009]
 - [Tereshonok 2008][research_tereshonok_2008]
 - [Terrell and Zein-Sabatto 2017][research_terrell_zeinsabatto_2017]
 - [Tesař 2010][research_tesar_2010]
 - [Tesař 2015][research_tesar_2015]
 - [Tesař 2015][research_tesar_2015_b]
 - [Tesař 2016][research_tesar_2016]
-- [Tesař 2017][research_tesar_2017]
 - [Tesař and Peszynski 2013][research_tesar_peszynski_2013]
-- [Tesař and Smyk 2015][research_tesar_smyk_2015]
 - [Tesař et al 2013][research_tesar_zhong_2013]
 - [Tetsuya and Hiroaki 2013][research_tetsuya_hiroaki_2013]
 - [Tewes and Taubert 2015][research_tewes_taubert_2015]
 - [Thake et al 2010][research_thake_packard_2010]
 - [The aerodynamic and performance 2015][research_the_aerodynamic_and_2015]
-- [The answer is blowing 2018][research_the_answer_2018]
 - [The estimated available center 2015][research_the_estimated_available_2015]
 - [The failure of delayed 2017][research_the_failure_2017]
 - [Theisen et al 1973][research_theisen_scruggs_1973]
-- [Thomas, Russ H. et al 2006][research_thomasrussh_menglevinodg_2006]
-- [Thomas, Russell H. et al 2007][research_thomasrussellh_menglevinodg_2007]
-- [Thomas, Russell H. et al 2018][research_thomasrussellh_guoyueping_2018]
+- [Thomas et al 2018][research_thomasrussellh_guoyueping_2018]
+- [Thompson 1954][research_thompsonrobertf_1954]
 - [Thompson and Eitenmiller 1983][research_thompson_eitenmiller_1983]
-- [Thompson, Robert F 1954][research_thompsonrobertf_1954]
 - [Three-dimensional Flow Field Characteristics 2024][research_three_dimensional_flow_2024]
 - [Tian et al 2007][research_tian_cattafesta_2007]
 - [Tigner et al 1998][research_tigner_holden_1998]
 - [Tilmann 2001][research_tilmann_2001]
-- [Tinetti, Ana F. et al 2002][research_tinettianaf_kellyjeffreyj_2002]
-- [Ting, Eric et al 2015][research_tingeric_nguyennhan_2015]
+- [Tinetti et al 2002][research_tinettianaf_kellyjeffreyj_2002]
+- [Ting et al 2015][research_tingeric_nguyennhan_2015]
+- [Tischler 1995][research_tischlermarkb_1995]
 - [Tischler 2018][research_tischler_2018]
-- [Tischler, Mark B. 1995][research_tischlermarkb_1995]
 - [Tocquer][research_tocquer]
 - [Tocquer et al 2024][research_tocquer_raibaudo_2024]
-- [Todo][research_todo]
-- [Toles, R. D. and Anderson, D. C. 1983][research_tolesrd_andersondc_1983]
+- [Toles and Anderson 1983][research_tolesrd_andersondc_1983]
 - [Tolkachev 2022][research_tolkachev_2022]
 - [Tomac 2020][research_tomac_2020]
 - [Tomac and Gregory 2013][research_tomac_gregory_2013]
 - [Tomac and Gregory 2014][research_tomac_gregory_2014]
-- [Tomac and Gregory 2016][research_tomac_gregory_2016]
 - [Tomac and Gregory 2017][research_tomac_gregory_2017]
 - [Tomac and Gregory 2019][research_tomac_gregory_2019]
 - [Tomac and Sundström 2019][research_tomac_sundstrom_2019]
 - [Tomac and Sundström 2020][research_tomac_sundstrom_2020]
-- [Tomaine, R. L. et al 1978][research_tomainerl_bryantwh_1978]
-- [Tomek, W. G. et al 2002][research_tomekwg_hallrm_2002]
+- [Tomaine et al 1978][research_tomainerl_bryantwh_1978]
+- [Tomek et al 2002][research_tomekwg_hallrm_2002]
 - [Tomohisa et al 2013][research_tomohisa_akinori_2013]
 - [Torenbeek 2016][research_torenbeek_2016]
-- [Torres, Francisco J. 1986][research_torresfranciscoj_1986]
-- [Torres, Francisco J. 1987][research_torresfranciscoj_1987]
-- [Totaro et al 2008][research_totaro_robert_2008]
+- [Torres 1986][research_torresfranciscoj_1986]
+- [Torres 1987][research_torresfranciscoj_1987]
 - [Tournes and Johnson 1999][research_tournes_johnson_1999]
 - [Tournes et al 1997][research_tournes_shtessel_1997]
 - [Trailing Edge Circulation Control 2006][research_trailing_edge_2006]
@@ -4363,8 +4171,7 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 - [Trancossi and Dumas 2011][research_trancossi_dumas_2011_b]
 - [Trancossi and Pascoa 2020][research_trancossi_pascoa_2020]
 - [Trancossi et al 2013][research_trancossi_maharshi_2013]
-- [Trankle, T. L. and Rabin, U. H. 1983][research_trankletl_rabinuh_1983]
-- [Transient Measurement Method Development][research_transient_measurement]
+- [Trankle and Rabin 1983][research_trankletl_rabinuh_1983]
 - [Traub et al 2002][research_traub_gilarranz_2002]
 - [Traven and Whitley 1995][research_traven_whitley_1995]
 - [Trittler et al 2008][research_trittler_fichter_2008]
@@ -4373,104 +4180,98 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 - [Truong et al 2023][research_truong_marouf_2023]
 - [Trávníček and Broučková 2018][research_travnicek_brouckova_2018]
 - [Trávníček et al 2006][research_travnicek_vit_2006]
-- [Tseng][research_tseng]
 - [Tseng et al 2011][research_tseng_yang_2011]
+- [Tso 1993][research_tsojin_1993]
 - [Tso and Margason 1995][research_tso_margason_1995]
 - [Tso and Margason 1996][research_tso_margason_1996]
-- [Tso, Jin 1993][research_tsojin_1993]
 - [Tsuji et al 1976][research_tsuji_motikawa_1976]
 - [Tuck and Soria 2008][research_tuck_soria_2008]
 - [Tucker et al 2014][research_tucker_saric_2014]
 - [Tucker et al 2014][research_tucker_saric_2014_b]
 - [Tucker et al 2016][research_tucker_reed_2016]
-- [Tumin, Anatoli and Ashpis, David E. 2003][research_tuminanatoli_ashpisdavide_2003]
+- [Tumin and Ashpis 2003][research_tuminanatoli_ashpisdavide_2003]
 - [Tung Pham Duy et al 2023][research_tungphamduy_tomoakiwatanabe_2023]
 - [Turner 2003][research_turner_2003]
-- [Turner, Travis L. 2011][research_turnertravisl_2011]
-- [Turnquist, Norm et al 2000][research_turnquistnorm_mcnicklealand_2000]
-- [Turriziani, R. V. et al 1978][research_turrizianirv_lovellwa_1978]
+- [Turner 2011][research_turnertravisl_2011]
+- [Turriziani et al 1978][research_turrizianirv_lovellwa_1978]
 - [Tyler et al 2002][research_tyler_schwabacher_2002]
 - [Ueno et al 2004][research_ueno_sarae_2004]
 - [Ugrina and Flatau 2004][research_ugrina_flatau_2004]
 - [Ukpai and Rediniotis][research_ukpai_rediniotis]
-- [Umstead and Croxton 1967][research_umstead_croxton_1967]
-- [Ungar, E. E. et al 1972][research_ungaree_chandiramanikl_1972]
+- [Ungar et al 1972][research_ungaree_chandiramanikl_1972]
 - [Urnes and Yeager 1991][research_urnes_yeager_1991]
-- [Urnes, James M. et al 1990][research_urnesjamesm_stewartjames_1990]
+- [Urnes et al 1990][research_urnesjamesm_stewartjames_1990]
 - [Urzynicok and Fernholz 1999][research_urzynicok_fernholz_1999]
 - [Vadillo et al 2003][research_vadillo_agarwal_2003]
-- [Vagia and Tzes 2010][research_vagia_tzes_2010]
-- [Vaicaitis and Lin 1972][research_vaicaitis_lin_1972]
 - [Vale et al 2014][research_vale_afonso_2014]
 - [Vale J 2013][research_valej_2013]
-- [Vallee 2002][research_vallee_2002]
 - [Van Buren et al 2015][research_vanburen_whalen_2015]
-- [Van der Velden, Alexander J. M. 1987][research_vanderveldenalexanderjm_1987]
+- [van Dam et al][research_cpvandam_saibharathmothukuri]
+- [Van Dam et al][research_cpvandam_seyedehsheidahosseini]
+- [Van der Velden 1987][research_vanderveldenalexanderjm_1987]
 - [van Dommelen and Yapalparvi 2014][research_vandommelen_yapalparvi_2014]
-- [Van Graas, Frank and Braasch, Michael 1992][research_vangraasfrank_braaschmichael_1992]
-- [Van Graas, Frank and Braasch, Michael S. 1991][research_vangraasfrank_braaschmichaels_1991]
-- [van Hooff et al 2012][research_vanhooff_blocken_2012]
+- [Van Graas and Braasch 1991][research_vangraasfrank_braaschmichaels_1991]
+- [Van Graas and Braasch 1992][research_vangraasfrank_braaschmichael_1992]
 - [van Hout et al 2018][research_vanhout_rinsky_2018]
 - [van Raalte and van Oudheusden 2001][research_vanraalte_vanoudheusden_2001]
-- [Vance F. Dippold III 2022][research_vancefdippoldiii_2022]
 - [Vander Schaaf et al 2024][research_vanderschaaf_lu_2024]
-- [Vandervelden, Alexander J. M. 1989][research_vanderveldenalexanderjm_1989]
-- [Vangraas, Frank and Braasch, Michael 1991][research_vangraasfrank_braaschmichael_1991]
+- [Vandervelden 1989][research_vanderveldenalexanderjm_1989]
+- [Vangraas and Braasch 1991][research_vangraasfrank_braaschmichael_1991]
 - [Vasilescu and Dancila 2003][research_vasilescu_dancila_2003]
-- [Vasta, Veer N. et al 2012][research_vastaveern_koklumehti_2012]
-- [Vatsa, Veer N. and Turkel, Eli 2006][research_vatsaveern_turkeleli_2006]
-- [Vatsa, Veer N. and Turkel, Eli 2007][research_vatsaveern_turkeleli_2007]
-- [Vatsa, Veer N. and Turkel, Eli L. 2004][research_vatsaveern_turkelelil_2004]
-- [Vatsa, Veer N. et al 2014][research_vatsaveern_casalinodamiano_2014]
-- [Vatsa, Veer N. et al 2016][research_vatsaveern_dudabenjamin_2016]
-- [Vatsa, Veer N. et al 2018][research_vatsaveern_dudabenjamin_2018]
-- [Vatsa, Veer N. et al 2019][research_vatsaveern_dudabenjamin_2019]
+- [Vasta et al 2012][research_vastaveern_koklumehti_2012]
+- [Vatsa and Turkel 2004][research_vatsaveern_turkelelil_2004]
+- [Vatsa and Turkel 2006][research_vatsaveern_turkeleli_2006]
+- [Vatsa and Turkel 2007][research_vatsaveern_turkeleli_2007]
+- [Vatsa et al][research_veernvatsa_johnclin]
+- [Vatsa et al 2014][research_vatsaveern_casalinodamiano_2014]
+- [Vatsa et al 2016][research_vatsaveern_dudabenjamin_2016]
+- [Vatsa et al 2018][research_vatsaveern_dudabenjamin_2018]
+- [Vatsa et al 2019][research_vatsaveern_dudabenjamin_2019]
 - [Vechalapu et al 2025][research_vechalapu_kanistras_2025]
 - [Vechalapu et al 2026][research_vechalapu_kanistras_2026]
-- [Veer N Vatsa et al][research_veernvatsa_johnclin]
 - [Velasquez][research_velasquez]
 - [Velicki and Thrash 2010][research_velicki_thrash_2010]
 - [Vepa 2008][research_vepa_2008]
-- [Verma and Manisankar 2025][research_verma_manisankar_2025]
 - [Vetrella et al 2017][research_vetrella_causa_2017]
 - [Vibhu et al 2026][research_vibhu_taubert_2026]
 - [Vich 1952][research_vich_1952]
-- [Vicroy, Dan 2011][research_vicroydan_2011]
-- [Vicroy, Dan D. 2009][research_vicroydand_2009]
-- [Viegas, J. R. et al 1988][research_viegasjr_rubesinmw_1988]
-- [Viegas, John R. et al 1987][research_viegasjohnr_rubesinmorrisw_1987]
+- [Vicroy 2009][research_vicroydand_2009]
+- [Vicroy 2011][research_vicroydan_2011]
+- [Viegas et al 1987][research_viegasjohnr_rubesinmorrisw_1987]
+- [Viegas et al 1988][research_viegasjr_rubesinmw_1988]
 - [Vieten 1992][research_vieten_1992]
 - [Viguera et al 2024][research_viguera_sasaki_2024]
 - [Viguera et al 2025][research_viguera_naramura_2025]
-- [Viken, Jeffrey K. et al 1987][research_vikenjeffreyk_watsonvikensallya_1987]
+- [Vijgen et al][research_paulvijgen_alexziebart]
+- [Vijgen et al 2022][research_paulvijgen_alexziebart_2022]
+- [Viken et al 1987][research_vikenjeffreyk_watsonvikensallya_1987]
 - [Vile et al 2019][research_vile_alwi_2019]
 - [Vile et al 2019][research_vile_alwi_2019_b]
+- [Vincent 1991][research_vincentjamesh_1991]
 - [Vincent and Franklin 1981][research_vincent_franklin_1981]
-- [Vincent, James H. 1991][research_vincentjamesh_1991]
 - [Vinoth Kumar and Vijayaraghavan 2022][research_vinothkumar_vijayaraghavan_2022]
-- [Visser, K. D. et al 1988][research_visserkd_iwanskikp_1988]
-- [Visser, K. D. et al 1989][research_visserkd_nelsonrc_1989]
+- [Visser et al 1988][research_visserkd_iwanskikp_1988]
+- [Visser et al 1989][research_visserkd_nelsonrc_1989]
 - [Viswanath and Madhavan 2003][research_viswanath_madhavan_2003]
 - [Viswanath and Madhavan 2004][research_viswanath_madhavan_2004]
 - [Viswanath et al 2000][research_viswanath_ramesh_2000]
-- [Viswanath, P. R. et al 1978][research_viswanathpr_sankaranl_1978]
 - [Viturro et al 2018][research_viturro_leclainchemartinez_2018]
 - [Vladimir et al 2018][research_vladimir_tun_2018]
-- [Vogler, R. D. 1967][research_voglerrd_1967]
-- [Vogler, R. D. 1970][research_voglerrd_1970]
-- [Vogler, R. D. 1976][research_voglerrd_1976]
+- [Vogler 1967][research_voglerrd_1967]
+- [Vogler 1970][research_voglerrd_1970]
+- [Vogler 1976][research_voglerrd_1976]
 - [Volino 2011][research_volino_2011]
-- [Volino, Ralph 2012][research_volinoralph_2012]
-- [Volino, Ralph J. 2012][research_volinoralphj_2012]
-- [Volino, Ralph J. and Ibrahim, Mounir B. 2012][research_volinoralphj_ibrahimmounirb_2012]
-- [Volino, Ralph J. and Ibrahim, Mounir B. 2012][research_volinoralphj_ibrahimmounirb_2012_b]
-- [Volino, Ralph J. et al 2010][research_volinoralphj_ibrahimmounirb_2010]
-- [Vomaske, R. F. et al 1978][research_vomaskerf_innisrc_1978]
-- [Von Doenhoff, Albert E 1944][research_vondoenhoffalberte_1944]
+- [Volino 2012][research_volinoralph_2012]
+- [Volino 2012][research_volinoralphj_2012]
+- [Volino and Ibrahim 2012][research_volinoralphj_ibrahimmounirb_2012]
+- [Volino and Ibrahim 2012][research_volinoralphj_ibrahimmounirb_2012_b]
+- [Volino et al 2010][research_volinoralphj_ibrahimmounirb_2010]
+- [Vomaske et al 1978][research_vomaskerf_innisrc_1978]
+- [Von Doenhoff 1944][research_vondoenhoffalberte_1944]
 - [von Gosen et al 2015][research_vongosen_ostermann_2015]
-- [Vonglahn, U. H. et al 1972][research_vonglahnuh_reshotkom_1972]
-- [Vonglahn, U. H. et al 1972][research_vonglahnuh_sekasn_1972]
-- [Voracek, David 2007][research_voracekdavid_2007]
+- [Vonglahn et al 1972][research_vonglahnuh_reshotkom_1972]
+- [Vonglahn et al 1972][research_vonglahnuh_sekasn_1972]
+- [Voracek 2007][research_voracekdavid_2007]
 - [Vorobieff and Rockwell 1998][research_vorobieff_rockwell_1998]
 - [Vorobieff and Truman 2001][research_vorobieff_truman_2001]
 - [Vorozhbit et al 2022][research_vorozhbit_petrov_2022]
@@ -4478,24 +4279,24 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 - [Vrchota 2017][research_vrchota_2017]
 - [Vukasinovic et al 2023][research_vukasinovic_glezer_2023]
 - [Vynogradskyy et al 2008][research_vynogradskyy_yurchenko_2008]
-- [Wada, Ben K. 1989][research_wadabenk_1989]
-- [Wagner, Elaine A. et al 1998][research_wagnerelainea_burkenjohnj_1998]
-- [Wagner, R. D. 1986][research_wagnerrd_1986]
-- [Wagner, R. D. et al 1984][research_wagnerrd_maddalondv_1984]
-- [Wagner, R. D. et al 1990][research_wagnerrd_fischermc_1990]
-- [Waite, Josiah M. et al 2019][research_waitejosiahm_stanfordbretk_2019]
-- [Waites, W. L. and Chin, Y. T. 1974][research_waiteswl_chinyt_1974]
-- [Waithe, Kenrick A. and Deere, Karen A. 2003][research_waithekenricka_deerekarena_2003]
+- [Wada 1989][research_wadabenk_1989]
+- [Wagner 1986][research_wagnerrd_1986]
+- [Wagner et al 1984][research_wagnerrd_maddalondv_1984]
+- [Wagner et al 1990][research_wagnerrd_fischermc_1990]
+- [Wagner et al 1998][research_wagnerelainea_burkenjohnj_1998]
+- [Waite et al][research_josiahmwaite_jaredgrauer]
+- [Waite et al 2019][research_waitejosiahm_stanfordbretk_2019]
+- [Waites and Chin 1974][research_waiteswl_chinyt_1974]
+- [Waithe and Deere 2003][research_waithekenricka_deerekarena_2003]
 - [Wakayama 1998][research_wakayama_1998]
 - [Wakayama 2000][research_wakayama_2000]
 - [Wake et al 2006][research_wake_tillman_2006]
 - [Wake vortex formation and 2024][research_wake_vortex_2024]
-- [Walchli, Lawrence A. 1994][research_walchlilawrencea_1994]
+- [Walchli 1994][research_walchlilawrencea_1994]
+- [Walker 1997][research_walkerlaurencea_1997]
 - [Walker 2006][research_walker_2006]
 - [Walker et al 2016][research_walker_hipp_2016]
-- [Walker, Laurence A. 1997][research_walkerlaurencea_1997]
 - [Wall interference effects on 1983][research_wall_interference_1983]
-- [Wang and Hardalupas 2025][research_wang_hardalupas_2025]
 - [Wang and Sun 2000][research_wang_sun_2000]
 - [Wang and Tang 2018][research_wang_tang_2018]
 - [Wang and Yang 2025][research_wang_yang_2025]
@@ -4525,36 +4326,30 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 - [Warsop and Crowther 2018][research_warsop_crowther_2018]
 - [Warsop and Crowther 2019][research_warsop_crowther_2019]
 - [Washburn et al 2002][research_washburn_gorton_2002]
-- [Washburn, A. E. et al 2002][research_washburnae_gortonsalthoff_2002]
-- [Waszak, Martin R. et al 2004][research_waszakmartinr_shkarayevsergey_2004]
-- [Water Jet Applied to 2021][research_water_jet_2021]
+- [Washburn et al 2002][research_washburnae_gortonsalthoff_2002]
+- [Waszak et al 2004][research_waszakmartinr_shkarayevsergey_2004]
 - [Waters et al 2013][research_waters_voskuijl_2013]
-- [Watkins, Anthony N. et al 2012][research_watkinsanthonyn_lipfordwilliame_2012]
+- [Watkins et al 2012][research_watkinsanthonyn_lipfordwilliame_2012]
+- [Watmuff 1994][research_watmuffjonathanh_1994]
 - [Watmuff 2009][research_watmuff_2009]
-- [Watmuff, Jonathan H. 1994][research_watmuffjonathanh_1994]
+- [Weaver et al 1996][research_weaverd_mcalisterkw_1996]
 - [Weaver et al 1998][research_weaver_mcalister_1998]
-- [Weaver, D. et al 1996][research_weaverd_mcalisterkw_1996]
+- [Webb et al 1988][research_webblannied_mccainwilliame_1988]
 - [Webb et al 2006][research_webb_schultz_2006]
-- [Webb, Lannie D. et al 1988][research_webblannied_mccainwilliame_1988]
 - [Wei 2006][research_wei_2006]
-- [Wei et al 2023][research_wei_liu_2023]
-- [Weiberg, James A and Holzhauser, Curt A. 1961][research_weibergjamesa_holzhausercurta_1961_b]
-- [Weiberg, James A. and Holzhauser, Curt A. 1961][research_weibergjamesa_holzhausercurta_1961]
-- [Weick, Fred E and Sanders, Robert 1933][research_weickfrede_sandersrobert_1933]
+- [Weiberg and Holzhauser 1961][research_weibergjamesa_holzhausercurta_1961]
+- [Weiberg and Holzhauser 1961][research_weibergjamesa_holzhausercurta_1961_b]
+- [Weick and Sanders 1933][research_weickfrede_sandersrobert_1933]
 - [Weidman 2018][research_weidman_2018]
 - [Weigel et al 2020][research_weigel_schuller_2020]
-- [Weil, J. 1981][research_weilj_1981]
+- [Weil 1981][research_weilj_1981]
 - [Weingaertner et al 2018][research_weingaertner_tewes_2018]
-- [Weir, Rae A. and Cowan, John R. 1993][research_weirraea_cowanjohnr_1993]
 - [Weisman and Valasek 2010][research_weisman_valasek_2010]
-- [Weiss 1969][research_weiss_1969]
+- [Wells and Hess 2002][research_wellssr_hessra_2002]
 - [Wells et al 1981][research_wells_banda_1981]
-- [Wells, S. R. and Hess, R. A. 2002][research_wellssr_hessra_2002]
 - [Welna et al 1969][research_welna_dahlberg_1969]
 - [Welna et al 1970][research_welna_dahlberg_1970]
 - [Wen et al 2021][research_wen_li_2021]
-- [Wendy A Okolo][research_wendyaokolo]
-- [Wernicke, K. G. and Magee, J. P. 1979][research_wernickekg_mageejp_1979]
 - [West and Hosder 2012][research_west_hosder_2012]
 - [West and Hosder 2013][research_west_hosder_2013]
 - [Westerman et al 1965][research_westerman_richards_1965]
@@ -4565,107 +4360,99 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 - [Wetzel et al 2009][research_wetzel_liu_2009]
 - [Wetzel et al 2010][research_wetzel_griffin_2010]
 - [Weyl 1945][research_weyl_1945]
+- [Whalen 2016][research_whalenedwarda_2016]
+- [Whalen et al 2015][research_whalenedwarda_lacydouglas_2015]
 - [Whalen et al 2016][research_whalen_spoor_2016]
-- [Whalen, Edward A. 2016][research_whalenedwarda_2016]
-- [Whalen, Edward A. et al 2015][research_whalenedwarda_lacydouglas_2015]
-- [Whalen, Edward A. et al 2018][research_whalenedwarda_shmilovicharvin_2018]
+- [Whalen et al 2018][research_whalenedwarda_shmilovicharvin_2018]
 - [Wheldon and Whites 1966][research_wheldon_whites_1966]
 - [White 1963][research_white_1963]
+- [White and Innis 1959][research_whitemauriced_innisrobertc_1959]
 - [White et al 1976][research_white_jr_1976]
-- [White, Edward V. et al 2015][research_whiteedwardv_kapaniarakeshk_2015]
-- [White, Maurice D. and Innis, Robert C. 1959][research_whitemauriced_innisrobertc_1959]
-- [Whittley, D. C. 1973][research_whittleydc_1973]
+- [White et al 2015][research_whiteedwardv_kapaniarakeshk_2015]
+- [Whittley 1973][research_whittleydc_1973]
 - [Widnall and Grundy 1974][research_widnall_grundy_1974]
-- [Wie, Y. S. et al 1991][research_wieys_collierfsjr_1991]
-- [Wie, Yong-Sun et al 1992][research_wieyongsun_collierfayettesjr_1992]
+- [Wie et al 1991][research_wieys_collierfsjr_1991]
+- [Wie et al 1992][research_wieyongsun_collierfayettesjr_1992]
 - [Wiemer 1985][research_wiemer_1985]
-- [Wienke et al 2023][research_wienke_bertsch_2023]
-- [Wierzbanowski, Theodore and Armstrong, Johnny G. 1991][research_wierzbanowskitheodore_armstrongjohnnyg_1991]
-- [Wiesman, Carol D. et al 2005][research_wiesmancarold_silvawaltera_2005]
-- [Wilby 1967][research_wilby_1967]
-- [Wilby and Gloyna 1972][research_wilby_gloyna_1972]
-- [Wilcox, F. A. 1973][research_wilcoxfa_1973]
-- [Wilcox, F. A. and Chamberlin, R. 1974][research_wilcoxfa_chamberlinr_1974]
-- [Wilcox, F. A. and Chamberlin, R. 1975][research_wilcoxfa_chamberlinr_1975]
+- [Wierzbanowski and Armstrong 1991][research_wierzbanowskitheodore_armstrongjohnnyg_1991]
+- [Wiesman et al 2005][research_wiesmancarold_silvawaltera_2005]
+- [Wilcox 1973][research_wilcoxfa_1973]
+- [Wilcox and Chamberlin 1974][research_wilcoxfa_chamberlinr_1974]
+- [Wilcox and Chamberlin 1975][research_wilcoxfa_chamberlinr_1975]
 - [Wildschek 2014][research_wildschek_2014]
 - [Wildschek et al 2009][research_wildschek_havar_2009]
 - [Wildschek et al 2013][research_wildschek_hanis_2013]
 - [Wildschek et al 2013][research_wildschek_stroscher_2013]
-- [Williams and Bernitt 1970][research_williams_bernitt_1970]
+- [Wilkinson 2011][research_stephenpwilkinson_2011]
 - [Williams and Franke 1990][research_williams_franke_1990]
 - [Williams and Franke 1992][research_williams_franke_1992]
 - [Williams and Howe 1970][research_williams_howe_1970]
+- [Williams et al 1994][research_davidlwilliamsii_robertcnelson_1994]
+- [Williams et al 2010][research_williamsdavid_coloniustim_2010]
 - [Williams et al 2014][research_williams_jemcov_2014]
-- [Williams, David et al 2010][research_williamsdavid_coloniustim_2010]
-- [Williams, R. M. and Cheeseman, I. C. 1978][research_williamsrm_cheesemanic_1978]
-- [Williams-Hayes, Peggy S. 2004][research_williamshayespeggys_2004]
-- [Williamson et al 1996][research_williamson_barry_1996]
-- [Willis, Peter A. et al 2010][research_willispetera_greerharoldf_2010]
-- [Wilsden, D. J. and Hackett, J. E. 1984][research_wilsdendj_hackettje_1984]
+- [Williams-Hayes 2004][research_williamshayespeggys_2004]
+- [Wilsden and Hackett 1984][research_wilsdendj_hackettje_1984]
+- [Wilson 1980][research_wilsonve_1980]
+- [Wilson 2006][research_wilsonjs_2006]
+- [Wilson and Liperra 1984][research_wilsonsbiii_liperrald_1984]
 - [Wilson et al 1980][research_wilson_winkel_1980]
 - [Wilson et al 2000][research_wilson_adler_2000]
 - [Wilson et al 2013][research_wilson_schatzman_2013]
-- [Wilson, J. S. 2006][research_wilsonjs_2006]
-- [Wilson, S. B., III and Liperra, L. D. 1984][research_wilsonsbiii_liperrald_1984]
-- [Wilson, V. E. 1980][research_wilsonve_1980]
 - [Wind Tunnel/Flight Test Correlation 1978][research_wind_tunnel_flight_1978]
 - [Wind-tunnel investigation of aerodynamic 1976][research_wind_tunnel_investigation_1976]
-- [Wing, David J. 1994][research_wingdavidj_1994]
-- [Wing, David J. and Giuliano, Victor J. 1997][research_wingdavidj_giulianovictorj_1997]
-- [Wingett, Paul T. et al 2004][research_wingettpault_gaineslouiet_2004]
-- [Wingett, Paul T. et al 2006][research_wingettpault_gaineslouiet_2006]
+- [Wing 1994][research_wingdavidj_1994]
+- [Wing and Giuliano 1997][research_wingdavidj_giulianovictorj_1997]
+- [Wingett et al 2004][research_wingettpault_gaineslouiet_2004]
+- [Wingett et al 2006][research_wingettpault_gaineslouiet_2006]
 - [Winkler et al 2009][research_winkler_carolus_2009]
 - [Winkler et al 2012][research_winkler_moreau_2012]
 - [Winter 1980][research_winter_1980]
 - [Wise et al 1999][research_wise_brinker_1999]
-- [Woan, Chung-Jin et al 1991][research_woanchungjin_gingrichphilipb_1991]
-- [Wolkovitch, J. 1984][research_wolkovitchj_1984]
-- [Wolkovitch, J. 1985][research_wolkovitchj_1985]
-- [Wolkovitch, J. 1986][research_wolkovitchj_1986]
-- [Wolowicz, C. H. and Yancey, R. B. 1973][research_wolowiczch_yanceyrb_1973]
+- [Woan et al 1991][research_woanchungjin_gingrichphilipb_1991]
+- [Wolkovitch 1984][research_wolkovitchj_1984]
+- [Wolkovitch 1985][research_wolkovitchj_1985]
+- [Wolkovitch 1986][research_wolkovitchj_1986]
+- [Wolowicz and Yancey 1973][research_wolowiczch_yanceyrb_1973]
+- [Wong 1957][research_wongnormand_1957]
 - [Wong and Maina 2004][research_wong_maina_2004]
+- [Wong et al 1993][research_wonggs_rocksm_1993]
 - [Wong et al 1994][research_wong_rock_1994]
 - [Wong et al 2007][research_wong_moigne_2007]
 - [Wong et al 2014][research_wong_wang_2014]
-- [Wong, G. S. et al 1993][research_wonggs_rocksm_1993]
-- [Wong, Norman D 1957][research_wongnormand_1957]
 - [Woo and Glezer 2013][research_woo_glezer_2013]
 - [Woo and Glezer 2013][research_woo_glezer_2013_b]
 - [Woo et al 2009][research_woo_crittenden_2009]
+- [Wood 1981][research_woodnj_1981]
 - [Wood 1986][research_wood_1986]
 - [Wood 1987][research_wood_1987]
+- [Wood 1987][research_woodnj_1987]
+- [Wood 2002][research_woodrichardm_2002]
+- [Wood and Bauer 1991][research_woodrichardm_bauerstevenxs_1991]
+- [Wood and Bauer 1999][research_woodrichardm_bauerstevenxs_1999]
+- [Wood and Conlon 1983][research_woodnj_conlonja_1983]
 - [Wood and Dallenbach 1950][research_wood_dallenbach_1950]
+- [Wood and Roberts 1986][research_woodnj_robertsl_1986]
 - [Wood and Rogers 1986][research_wood_rogers_1986]
-- [Wood, N. J. 1981][research_woodnj_1981]
-- [Wood, N. J. 1987][research_woodnj_1987]
-- [Wood, N. J. and Conlon, J. A. 1983][research_woodnj_conlonja_1983]
-- [Wood, N. J. and Nielsen, Jack N. 1986][research_woodnj_nielsenjackn_1986]
-- [Wood, N. J. and Roberts, L. 1986][research_woodnj_robertsl_1986]
-- [Wood, Richard M. 2002][research_woodrichardm_2002]
-- [Wood, Richard M. and Bauer, Steven X. S. 1991][research_woodrichardm_bauerstevenxs_1991]
-- [Wood, Richard M. and Bauer, Steven X. S. 1999][research_woodrichardm_bauerstevenxs_1999]
-- [Wood, Richard M. et al 1992][research_woodrichardm_banksdanielw_1992]
-- [Wood, Richard M. et al 1994][research_woodrichardm_banksdanielw_1994]
-- [Woodrow L Cook et al 1974][research_woodrowlcook_davidhhickey_1974]
+- [Wood et al 1992][research_woodrichardm_banksdanielw_1992]
+- [Wood et al 1994][research_woodrichardm_banksdanielw_1994]
 - [Wortman 1984][research_wortman_1984]
-- [Worton, M. S. et al 2007][research_wortonms_kimyk_2007]
 - [Woszidlo and Wygnanski 2011][research_woszidlo_wygnanski_2011]
 - [Woszidlo et al 2010][research_woszidlo_nawroth_2010]
-- [Wright, A. S. 1979][research_wrightas_1979]
-- [Wright, John D. and Loving, Donald L. 1953][research_wrightjohnd_lovingdonaldl_1953]
-- [Wu 2007][research_wu_2007]
+- [Woszidlo et al 2022][research_renewoszidlo_arvinshmilovich_2022]
+- [Wright 1979][research_wrightas_1979]
+- [Wright and Loving 1953][research_wrightjohnd_lovingdonaldl_1953]
 - [Wu and Ahmed 2013][research_wu_ahmed_2013]
 - [Wu et al 2004][research_wu_sankar_2004]
 - [Wu et al 2012][research_wu_deng_2012]
 - [Wu et al 2018][research_wu_seo_2018]
 - [Wu et al 2018][research_wu_wang_2018]
 - [Wu et al 2022][research_wu_meneveau_2022]
-- [Wu et al 2024][research_wu_sun_2024]
 - [Wukowitz 1981][research_wukowitz_1981]
+- [Wygnanski][research_israelwygnanski]
 - [Wygnanski 1966][research_wygnanski_1966]
 - [Wygnanski and Champagne 1968][research_wygnanski_champagne_1968]
+- [Wygnanski and Wygnanski 1997][research_wygnanski_1997]
 - [Wygnanski et al 1999][research_wygnanski_madenci_1999]
-- [Wygnanski, Boundary layer and flow control by periodic addition of momentum, 4th Shear Flow Control Conference, 1997, registry record only][research_wygnanski_1997]
 - [Wylie and Amitay 2026][research_wylie_amitay_2026_b]
 - [Wylie et al 2026][research_wylie_amitay_2026]
 - [X-48B blended wing body 2008][research_x_48b_blended_2008]
@@ -4681,6 +4468,9 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 - [Xu and Zha 2022][research_xu_zha_2022]
 - [Xu and Zha 2023][research_xu_zha_2023]
 - [Xu et al 2007][research_xu_li_2007]
+- [Xu et al 2011][research_xutianbing_jiangxiaoning_2011]
+- [Xu et al 2012][research_xutianbing_jiangxiaoning_2012]
+- [Xu et al 2014][research_xutianbing_suji_2014]
 - [Xu et al 2016][research_xu_tang_2016]
 - [Xu et al 2019][research_xu_yuan_2019]
 - [Xu et al 2021][research_xu_ren_2021]
@@ -4688,14 +4478,11 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 - [Xu et al 2025][research_xu_lavoie_2025]
 - [Xu et al 2025][research_xu_song_2025]
 - [Xu et al 2026][research_xu_lavoie_2026]
-- [Xu, Tian-Bing et al 2011][research_xutianbing_jiangxiaoning_2011]
-- [Xu, Tian-Bing et al 2012][research_xutianbing_jiangxiaoning_2012]
-- [Xu, Tian-Bing et al 2014][research_xutianbing_suji_2014]
 - [Xue et al 2016][research_xue_zhu_2016]
 - [Yabu et al 2025][research_yabu_kato_2025]
 - [Yamada and Norimoto 2026][research_yamada_norimoto_2026]
-- [Yamaleev, Nail K. and Carpenter, Mark H. 2003][research_yamaleevnailk_carpentermarkh_2003]
-- [Yamaleev, Nail K. et al 2007][research_yamaleevnailk_carpentermarkh_2007]
+- [Yamaleev and Carpenter 2003][research_yamaleevnailk_carpentermarkh_2003]
+- [Yamaleev et al 2007][research_yamaleevnailk_carpentermarkh_2007]
 - [Yamamoto et al 2017][research_yamamoto_takaishi_2017]
 - [Yamashita and Hasegawa 2019][research_yamashita_hasegawa_2019]
 - [Yan and Xin 2004][research_yan_xin_2004]
@@ -4717,27 +4504,25 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 - [Yang et al 2024][research_yang_chen_2024]
 - [Yang et al 2025][research_yang_chen_2025]
 - [Yang et al 2026][research_yang_wu_2026]
-- [Yao, C. S. et al 2007][research_yaocs_chenfj_2007]
-- [Yao, Chung-Sheng et al 2004][research_yaochungsheng_chenfangjenq_2004]
+- [Yao et al 2004][research_yaochungsheng_chenfangjenq_2004]
+- [Yao et al 2007][research_yaocs_chenfj_2007]
 - [Yarusevych et al 2005][research_yarusevych_sullivan_2005]
 - [Ye et al 2019][research_ye_zou_2019]
-- [Yee and Myers 2004][research_yee_myers_2004]
 - [Yeh and Taira 2016][research_yeh_taira_2016]
 - [Yeh and Taira 2019][research_yeh_taira_2019]
+- [Yeh et al 1988][research_yehdavid_tavelladomingo_1988]
+- [Yeh et al 1988][research_yehdavidt_tavelladomingoa_1988]
+- [Yeh et al 1989][research_yehdavidt_tavelladomingoa_1989]
 - [Yeh et al 2017][research_yeh_munday_2017]
-- [Yeh, David et al 1988][research_yehdavid_tavelladomingo_1988]
-- [Yeh, David T. et al 1988][research_yehdavidt_tavelladomingoa_1988]
-- [Yeh, David T. et al 1989][research_yehdavidt_tavelladomingoa_1989]
 - [Yehoshua and Seifert 2007][research_yehoshua_seifert_2007]
 - [Yen 1960][research_yen_1960]
 - [Yen 1978][research_yen_1978]
 - [Yeshala et al 2008][research_yeshala_min_2008]
 - [Yi et al 2017][research_yi_dong_2017]
 - [Yingsong et al 2015][research_yingsong_zhichun_2015]
-- [Yip, Long P. et al 1992][research_yiplongp_vijgenpaulmhw_1992]
+- [Yip et al 1992][research_yiplongp_vijgenpaulmhw_1992]
 - [Yokoyama et al 2020][research_yokoyama_otsuka_2020]
 - [Yoneda et al 2021][research_yoneda_goto_2021]
-- [Yong Sukh Gil et al][research_yongsukhgil_taewonchung]
 - [Yoon et al 1993][research_yoon_kim_1993]
 - [Yoon et al 2019][research_yoon_kim_2019]
 - [Yoshida et al 2005][research_yoshida_abe_2005]
@@ -4749,18 +4534,15 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 - [Yu and Zheng 2023][research_yu_zheng_2023]
 - [Yu et al 2016][research_yu_zhang_2016]
 - [Yu et al 2022][research_yu_ceci_2022]
-- [Yu et al 2023][research_yu_cui_2023]
 - [Yu et al 2023][research_yu_li_2023]
-- [Yuan 1969][research_yuan_1969]
-- [Yuan 1970][research_yuan_1970]
 - [Yuan 2026][research_yuan_2026]
 - [Yuan and Street 1996][research_yuan_street_1996]
 - [Yuan et al 1966][research_yuan_westkaemper_1966]
 - [Yue et al 2009][research_yue_wang_2009]
 - [Yue et al 2013][research_yue_wang_2013]
 - [Yufeng Cheng et al 2013][research_yufengcheng_xuekeche_2013]
-- [Yuhas, Andrew J. and Ray, Ronald J. 1992][research_yuhasandrewj_rayronaldj_1992]
-- [Yuhas, Andrew J. and Ray, Ronald J. 1992][research_yuhasandrewj_rayronaldj_1992_b]
+- [Yuhas and Ray 1992][research_yuhasandrewj_rayronaldj_1992]
+- [Yuhas and Ray 1992][research_yuhasandrewj_rayronaldj_1992_b]
 - [Yukuan et al 2026][research_yukuan_chen_2026]
 - [Yuura et al 2023][research_yuura_watanabe_2023]
 - [Zafer and Gürsoy 2016][research_zafer_gursoy_2016]
@@ -4768,21 +4550,22 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 - [Zaheer et al 2023][research_zaheer_disimile_2023]
 - [Zaidi and Bukhari 2018][research_zaidi_bukhari_2018]
 - [Zaman 2003][research_zaman_2003]
+- [Zaman 2003][research_zamankbmq_2003]
+- [Zaman 2004][research_zamankbmq_2004]
 - [Zaman and Culley 2008][research_zaman_culley_2008]
+- [Zaman and McKinzie 1988][research_zamankbmq_mckinziedj_1988]
+- [Zaman and McKinzie 1989][research_zamankbmq_mckinziedj_1989]
 - [Zaman et al 2010][research_zaman_rigby_2010]
-- [Zaman, K. B. M. Q. 2003][research_zamankbmq_2003]
-- [Zaman, K. B. M. Q. 2004][research_zamankbmq_2004]
-- [Zaman, K. B. M. Q. and McKinzie, D. J. 1988][research_zamankbmq_mckinziedj_1988]
-- [Zaman, K. B. M. Q. and McKinzie, D. J. 1989][research_zamankbmq_mckinziedj_1989]
-- [Zaman, K. B. M. Q. et al 2010][research_zamankbmq_rigbydl_2010]
-- [Zaman, K. B. M. Q. et al 2011][research_zamankbmq_rigbydl_2011]
-- [Zaman, K. B. M. Q. et al 2012][research_zamankbmq_hirtsm_2012]
+- [Zaman et al 2010][research_zamankbmq_rigbydl_2010]
+- [Zaman et al 2011][research_zamankbmq_rigbydl_2011]
+- [Zaman et al 2012][research_zamankbmq_hirtsm_2012]
 - [Zamora and Pafford 2015][research_zamora_pafford_2015]
 - [Zanoun et al 2024][research_zanoun_bauer_2024]
 - [Zelman et al 2023][research_zelman_silic_2023]
 - [Zengler et al 2025][research_zengler_troldborg_2025]
 - [Zha and Paxton 2004][research_zha_paxton_2004]
-- [Zha, Gecheng et al 2013][research_zhagecheng_cattafestalouis_2013]
+- [Zha et al 2013][research_zhagecheng_cattafestalouis_2013]
+- [Zhang 2004][research_zhangwei_2004]
 - [Zhang 2018][research_zhang_2018]
 - [Zhang and He 2026][research_zhang_he_2026]
 - [Zhang and Yang 2017][research_zhang_yang_2017]
@@ -4795,13 +4578,9 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 - [Zhang et al 2010][research_zhang_yan_2010]
 - [Zhang et al 2011][research_zhang_chen_2011]
 - [Zhang et al 2013][research_zhang_zhu_2013]
-- [Zhang et al 2016][research_zhang_peng_2016]
-- [Zhang et al 2017][research_zhang_fu_2017]
 - [Zhang et al 2018][research_zhang_xu_2018]
-- [Zhang et al 2018][research_zhang_zhang_2018]
 - [Zhang et al 2018][research_zhang_zhou_2018]
 - [Zhang et al 2020][research_zhang_wang_2020]
-- [Zhang et al 2020][research_zhang_zhang_2020]
 - [Zhang et al 2022][research_zhang_li_2022]
 - [Zhang et al 2022][research_zhang_liu_2022]
 - [zhang et al 2023][research_zhang_gan_2023]
@@ -4811,10 +4590,8 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 - [Zhang et al 2025][research_zhang_yue_2025]
 - [Zhang et al 2026][research_zhang_liu_2026]
 - [Zhang et al 2026][research_zhang_zuo_2026]
-- [Zhang, Wei 2004][research_zhangwei_2004]
 - [Zhao and Bai 2024][research_zhao_bai_2024]
 - [Zhao and Bai 2025][research_zhao_bai_2025]
-- [Zhao and Zhao 2014][research_zhao_zhao_2014]
 - [Zhao et al 2021][research_zhao_wen_2021]
 - [Zhao et al 2022][research_zhao_zhang_2022]
 - [Zhao et al 2022][research_zhao_zhang_2022_b]
@@ -4822,7 +4599,6 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 - [Zhao et al 2023][research_zhao_zhang_2023]
 - [Zhao et al 2024][research_zhao_bai_2024_b]
 - [Zhao et al 2025][research_zhao_wang_2025]
-- [Zhao et al 2025][research_zhao_zhou_2025]
 - [Zhao et al 2026][research_zhao_luo_2026]
 - [Zhao et al 2026][research_zhao_wang_2026]
 - [Zhao et al 2026][research_zhao_wang_2026_b]
@@ -4835,7 +4611,6 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 - [Zheng et al 2023][research_zheng_huang_2023]
 - [Zhijie et al 2025][research_zhijie_taiyu_2025]
 - [Zhou et al 2014][research_zhou_wang_2014]
-- [Zhou et al 2016][research_zhou_xia_2016]
 - [Zhou et al 2017][research_zhou_wang_2017]
 - [Zhou et al 2017][research_zhou_xia_2017]
 - [Zhou et al 2019][research_zhou_zhang_2019]
@@ -4853,12 +4628,9 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 - [Zimmerman et al 2018][research_zimmerman_carroll_2018]
 - [Zong and Kotsonis 2017][research_zong_kotsonis_2017]
 - [Zong et al 2018][research_zong_vanpelt_2018]
-- [Zou et al 2026][research_zou_hao_2026]
 - [Zou et al 2026][research_zou_zhen_2026]
 - [Zrubek 1985][research_zrubek_1985]
 - [Zubair and Wen 2025][research_zubair_wen_2025]
-- [Zubair et al 2025][research_zubair_ren_2025]
-- [Zwerneman, W. D. and Eller, B. G. 1994][research_zwernemanwd_ellerbg_1994]
 - [Çetin et al 2018][research_cetin_celik_2018]
 - [Çuhadaroğlu et al 2025][research_cuhadaroglu_kilic_2025]
 - [Önder and Meyers 2014][research_onder_meyers_2014]
@@ -4888,21 +4660,16 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_achesonmichaelj_2018]: https://ntrs.nasa.gov/citations/20200002588
 [research_achesonmichaelj_2018_b]: https://ntrs.nasa.gov/citations/20200002585
 [research_active_flow_2025]: https://doi.org/10.3390/books978-3-7258-3482-2
-[research_adamo_2023]: https://doi.org/10.21741/9781644902813-1
 [research_addessiofl_skifstadjg_1975]: https://ntrs.nasa.gov/citations/19750022032
 [research_addessiofl_skifstadjg_1977]: https://ntrs.nasa.gov/citations/19770066487
-[research_addington_hall_2002]: https://doi.org/10.2514/6.2002-4807
 [research_addington_myatt_2000]: https://doi.org/10.21236/ada383536
 [research_adelgren_elliot_2002]: https://doi.org/10.2514/6.2002-729
-[research_adenijifasholaaa_1989]: https://ntrs.nasa.gov/citations/19890015205
-[research_adib_baptista_2007]: https://doi.org/10.1016/j.engfailanal.2006.11.053
 [research_adler_martins_2023]: https://doi.org/10.2514/6.2023-4020
 [research_adrian_balachandar_2001]: https://doi.org/10.21236/ada390542
 [research_advisorygroupforaerospaceresearchanddevelopment_1984]: https://ntrs.nasa.gov/citations/19840026325
 [research_advisorygroupforaerospaceresearchanddevelopment_1999]: https://ntrs.nasa.gov/citations/19990032449
 [research_aerodynamic_heat_2006]: https://doi.org/10.2514/5.9781600866838.0383.0400
 [research_aerospace]: https://doi.org/10.4271/arp4895
-[research_aerospace_fluid]: https://doi.org/10.4271/air1916a
 [research_afzal_seena_2011]: https://doi.org/10.1115/1.4004763
 [research_agarwal_rediniotis_2008]: https://doi.org/10.2514/6.2008-737
 [research_agashe_arnold_2009]: https://doi.org/10.2514/6.2009-1308
@@ -4952,13 +4719,11 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_allenmichaelj_lizotteandrewm_2005]: https://ntrs.nasa.gov/citations/20050204113
 [research_allisondenniso_dagenhartjray_1987]: https://ntrs.nasa.gov/citations/19890009895
 [research_allisondo_dagenhartjr_1978]: https://ntrs.nasa.gov/citations/19780019126
-[research_alvarez_2024]: https://doi.org/10.22541/au.172476574.40232333/v1
 [research_alvi_2005]: https://doi.org/10.21236/ada458295
 [research_alvifarrukhs_2007]: https://ntrs.nasa.gov/citations/20070023593
 [research_alvifarrukhs_gortonsusan_2005]: https://ntrs.nasa.gov/citations/20050239563
 [research_ambergrl_arlineja_1974]: https://ntrs.nasa.gov/citations/19740021261
 [research_americaninstituteofaeronauticsandastronautics_1993]: https://ntrs.nasa.gov/citations/19930049879
-[research_amiri_jones_2017]: https://doi.org/10.2514/1.c034133
 [research_amitay_glezer_2006]: https://doi.org/10.1007/978-3-540-36085-8_2
 [research_amitay_horvath_2001]: https://doi.org/10.2514/6.2001-2975
 [research_amitay_smith_1998]: https://doi.org/10.2514/6.1998-208
@@ -4981,7 +4746,6 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_angele_grewe_2006]: https://doi.org/10.1115/1.2409327
 [research_anglinel_satrand_1979]: https://ntrs.nasa.gov/citations/19790061317
 [research_anilir_kurtulus_2024]: https://doi.org/10.1017/aer.2024.85
-[research_annapauld_kidmandavids_1994]: https://ntrs.nasa.gov/citations/19950007831
 [research_ansarishirvan]: https://doi.org/10.70675/ac61ad0bzfb97z4339z89c1z9706f58ee807
 [research_antoniou_antoniou_2025]: https://doi.org/10.3390/engproc2025090018
 [research_anwar_2025]: https://doi.org/10.32920/29078597
@@ -5018,9 +4782,7 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_asano_sato_2016]: https://doi.org/10.2514/6.2016-3624
 [research_asaro_cavaliere_2023]: https://doi.org/10.2514/6.2023-1946
 [research_asaro_luer_2022]: https://doi.org/10.1007/s00348-022-03547-x
-[research_asburyscottc_huntercraiga_1999]: https://ntrs.nasa.gov/citations/19990100650
 [research_ashcraft_decker_2016]: https://doi.org/10.2514/6.2016-0839
-[research_ashgriz_2012]: https://doi.org/10.1063/1.4704201
 [research_ashkenasirvingl_klydedavidh_1989]: https://ntrs.nasa.gov/citations/19890011628
 [research_ashlemanrh_kavdahlh_1972]: https://ntrs.nasa.gov/citations/19730021284
 [research_ashpisdavid_corkethomasc_2003]: https://ntrs.nasa.gov/citations/20030056634
@@ -5046,8 +4808,6 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_aygun_2024]: https://doi.org/10.1016/j.energy.2024.130466
 [research_ayok_2026]: https://doi.org/10.32920/32288709.v1
 [research_azzawi_2022]: https://doi.org/10.2139/ssrn.4183586
-[research_babinsky_2007]: https://doi.org/10.21236/ada476419
-[research_babinsky_2014]: https://doi.org/10.21236/ada602774
 [research_bachalowilliamd_1982]: https://ntrs.nasa.gov/citations/19910012146
 [research_bachelder_thompson_2011]: https://doi.org/10.2514/6.2011-6445
 [research_bacic_2017]: https://doi.org/10.35294/ls201704.bacic2
@@ -5055,7 +4815,6 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_backl_cuffelr_1982]: https://ntrs.nasa.gov/citations/19820048795
 [research_bagwill_selberg_1996]: https://doi.org/10.2514/6.1996-2373
 [research_bagwill_selberg_1997]: https://doi.org/10.2514/6.1997-37
-[research_bahil_rossjm_1983]: https://ntrs.nasa.gov/citations/19830035328
 [research_baindb_smithce_1996]: https://ntrs.nasa.gov/citations/19960028013
 [research_bainsla_singari_2021]: https://doi.org/10.4271/2021-01-0040
 [research_bajurara_szewczykaa_1970]: https://ntrs.nasa.gov/citations/19700061410
@@ -5076,10 +4835,7 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_banksdanielw_laflinbrendaegile_1999]: https://ntrs.nasa.gov/citations/20000030677
 [research_banksdanielw_paulsonjohnwjr_1987]: https://ntrs.nasa.gov/citations/19870005747
 [research_banksdanielw_woodrichardm_1999]: https://ntrs.nasa.gov/citations/20000025499
-[research_bansal_mishra_1988]: https://doi.org/10.1007/bf00384184
 [research_bao_li_2025]: https://doi.org/10.20944/preprints202507.1181.v1
-[research_baptista_prendinger_2022]: https://doi.org/10.2139/ssrn.4148156
-[research_baptista_prendinger_2023]: https://doi.org/10.3390/aerospace10040354
 [research_baqui_mahmud_2011]: https://doi.org/10.2514/6.2011-3095
 [research_barberedwardl_alvifarrukh_1997]: https://ntrs.nasa.gov/citations/19970028726
 [research_bareeann_reubushdavide_1992]: https://ntrs.nasa.gov/citations/19920013263
@@ -5088,7 +4844,6 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_barnes_og_1965]: https://doi.org/10.21236/ad0654783
 [research_barnettm_carterje_1987]: https://ntrs.nasa.gov/citations/19870019978
 [research_barsevera_1989]: https://ntrs.nasa.gov/citations/19890049551
-[research_barter_1993]: https://doi.org/10.1515/pm-1993-300308
 [research_bartlettdw_harriscd_1973]: https://ntrs.nasa.gov/citations/19830002762
 [research_battersonjamesg_morelliea_1996]: https://ntrs.nasa.gov/citations/20040110721
 [research_bauer_german_1961]: https://doi.org/10.21236/ad0262734
@@ -5116,7 +4871,6 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_benard_jolibois_2008]: https://doi.org/10.2514/6.2008-3763
 [research_benard_mizuno_2016]: https://doi.org/10.2514/6.2016-3775
 [research_benhegouga_boukehili_2012]: https://doi.org/10.4028/www.scientific.net/amm.152-154.1516
-[research_benjaminmsimmons]: https://ntrs.nasa.gov/citations/20210024304
 [research_benjaminmsimmons_b]: https://ntrs.nasa.gov/citations/20260001442
 [research_benton_bernardini_2012]: https://doi.org/10.2514/6.2012-316
 [research_bergeron_ward_2013]: https://doi.org/10.2514/6.2013-1378
@@ -5134,7 +4888,6 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_bevilaquapaulm_leejohnd_1987]: https://ntrs.nasa.gov/citations/19880008215
 [research_bhattacharjee_hemati_2018]: https://doi.org/10.2514/6.2018-3692
 [research_bhattarai_bhandari_2026]: https://doi.org/10.1142/s2301385027500713
-[research_bhirawaputra_xu_2015]: https://doi.org/10.2991/cmes-15.2015.183
 [research_bhowmick_mukherjee_2023]: https://doi.org/10.2514/6.2023-2456
 [research_bhowmick_palanivel_2025]: https://doi.org/10.2514/6.2025-0254
 [research_bieler_2017]: https://doi.org/10.1108/aeat-01-2017-0015
@@ -5189,7 +4942,6 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_boskovic_mehra_2001]: https://doi.org/10.1109/acc.2001.945871
 [research_boskovic_prasanth_2007]: https://doi.org/10.2514/1.25564
 [research_bosworthjohnt_stolikerpc_1996]: https://ntrs.nasa.gov/citations/19960029101
-[research_bottorffmr_rogerskw_1964]: https://ntrs.nasa.gov/citations/19640010814
 [research_bouadi]: https://doi.org/10.70675/aa62b2a6zce9ez41fcz95cdz6ebfead4b829
 [research_boukenkoul_li_2017]: https://doi.org/10.1088/1757-899x/187/1/012007
 [research_bouladoux]: https://doi.org/10.31390/gradschool_theses.704
@@ -5233,7 +4985,6 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_brzozowski_culp_2008]: https://doi.org/10.2514/6.2008-4323
 [research_buch_georgem_2010]: https://doi.org/10.21236/ada526601
 [research_buddhamatya_miranda_2026]: https://doi.org/10.2514/6.2026-2116
-[research_buffinbelanger_roy_2004]: https://doi.org/10.1007/978-94-007-0997-3_52
 [research_buffington_1997]: https://doi.org/10.21236/ada327799
 [research_buffington_1999]: https://doi.org/10.21236/ada375713
 [research_buffington_1999_b]: https://doi.org/10.21236/ada374954
@@ -5244,7 +4995,6 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_burkenjohnj_larsonrichardr_2009]: https://ntrs.nasa.gov/citations/20090015898
 [research_burkenjohnj_williamshayespeggy_2006]: https://ntrs.nasa.gov/citations/20060018301
 [research_burkhalter_spring_1992]: https://doi.org/10.2514/3.46183
-[research_burksjs_1981]: https://ntrs.nasa.gov/citations/19820030378
 [research_burlett_mobli_2025]: https://doi.org/10.1109/ppps56198.2025.11248088
 [research_burleyrr_1984]: https://ntrs.nasa.gov/citations/19840012425
 [research_burleyrr_hwangdp_1982]: https://ntrs.nasa.gov/citations/19820016289
@@ -5255,7 +5005,6 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_burrowsdalel_braslowalbertl_1949]: https://ntrs.nasa.gov/citations/19930082892
 [research_burton_bischoff_1976]: https://doi.org/10.2514/6.1976-894
 [research_butler_bons_2024]: https://doi.org/10.2514/6.2024-3757
-[research_butler_ekmekci_2023]: https://doi.org/10.20944/preprints202312.2334.v1
 [research_butler_ekmekci_2024]: https://doi.org/10.3390/act13020060
 [research_buzica_breitsamter_2020]: https://doi.org/10.3390/aerospace7010004
 [research_buzica_debschutz_2018]: https://doi.org/10.3390/aerospace5030098
@@ -5283,7 +5032,6 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_cardoso_suleman_2013]: https://doi.org/10.2514/6.2013-1450
 [research_carlsson_2003]: https://doi.org/10.2514/6.2003-450
 [research_carlsson_2005]: https://doi.org/10.2514/1.5440
-[research_carolineanderson_michaelkinzel]: https://ntrs.nasa.gov/citations/20220018503
 [research_carpenter_bridson_1986]: https://doi.org/10.2514/6.1986-1865
 [research_carpentermarkh_singerbarta_2002]: https://ntrs.nasa.gov/citations/20030015398
 [research_carrosrj_boissevainag_1975]: https://ntrs.nasa.gov/citations/19760002975
@@ -5321,21 +5069,15 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_chandrasekharams_wildermc_1997]: https://ntrs.nasa.gov/citations/20020042317
 [research_chang_casarella_1967]: https://doi.org/10.1121/1.1910673
 [research_chang_du_2019]: https://doi.org/10.1016/j.csite.2019.100459
-[research_chang_he_2023]: https://doi.org/10.1063/5.0148510
 [research_changhs_wernerje_1972]: https://ntrs.nasa.gov/citations/19730023459
 [research_chappell_angland_2012]: https://doi.org/10.2514/6.2012-2952
 [research_chappell_cai_2012]: https://doi.org/10.2514/6.2012-2806
-[research_charles_vie_2026]: https://doi.org/10.2139/ssrn.6621558
 [research_charonko_vlachos_2006]: https://doi.org/10.1115/fedsm2006-98097
 [research_chaudhary_kumar_2022]: https://doi.org/10.1103/aps.dfd.2022.gfm.v0042
 [research_che_nie_2011]: https://doi.org/10.1063/1.3651967
-[research_cheeseman_1969]: https://doi.org/10.1108/eb034528
-[research_chen_2011]: https://doi.org/10.4028/www.scientific.net/amr.402.205
 [research_chen_avital_2024]: https://doi.org/10.1115/1.4065294
 [research_chen_ballini_2025]: https://doi.org/10.1063/5.0253696
-[research_chen_cheng_2021]: https://doi.org/10.1088/1742-6596/1846/1/012095
 [research_chen_hao_2013]: https://doi.org/10.2514/6.2013-2743
-[research_chen_hao_2022]: https://doi.org/10.1063/5.0096511
 [research_chen_li_2022]: https://doi.org/10.1016/j.ast.2022.107956
 [research_chen_seele_2012]: https://doi.org/10.2514/1.j051538
 [research_chen_seele_2013]: https://doi.org/10.2514/1.j052098
@@ -5343,11 +5085,9 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_chen_sun_2019]: https://doi.org/10.1109/cac48633.2019.8996867
 [research_chen_sun_2022]: https://doi.org/10.1063/5.0125089
 [research_chen_valasek_1999]: https://doi.org/10.2514/6.1999-4173
-[research_chen_wang_2018]: https://doi.org/10.2514/6.2018-4256
 [research_chen_wickramasinghe_2006]: https://doi.org/10.1017/s000192400001318x
 [research_chen_wygnanski_2010]: https://doi.org/10.2514/6.2010-4715
 [research_chen_yang_2026]: https://doi.org/10.1016/j.jweia.2026.106583
-[research_chen_zhang_2014]: https://doi.org/10.2514/6.2014-2368
 [research_chen_zhong_2023]: https://doi.org/10.2139/ssrn.4619741
 [research_chenfangjenq_beelergeorgeb_2002]: https://ntrs.nasa.gov/citations/20030017770
 [research_chenowethcc_ryderdr_1976]: https://ntrs.nasa.gov/citations/19760024089
@@ -5362,13 +5102,10 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_cho_hoagg_2010]: https://doi.org/10.2514/6.2010-4841
 [research_cho_shyy_2013]: https://doi.org/10.2514/6.2013-353
 [research_chopra_sun_1986]: https://doi.org/10.2514/3.45361
-[research_choprainderjit_hongchangho_1987]: https://ntrs.nasa.gov/citations/19880008216
 [research_choutapalli_2013]: https://doi.org/10.2514/6.2013-4378
 [research_chow_chu_1991]: https://doi.org/10.2514/6.1991-1623
 [research_chowdhary_jategaonkar_2006]: https://doi.org/10.2514/6.2006-6146
 [research_chrismiller]: https://ntrs.nasa.gov/citations/20220005489
-[research_christinamivler_williamhunter]: https://ntrs.nasa.gov/citations/20220004968
-[research_chu_guo_2016]: https://doi.org/10.1109/aus.2016.7748119
 [research_chua_liu_2024]: https://doi.org/10.1115/omae2024-120822
 [research_chudoba_cook_2003]: https://doi.org/10.2514/6.2003-5386
 [research_chung_hallberg_2010]: https://doi.org/10.2514/6.2010-1035
@@ -5379,7 +5116,6 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_ciobaca_kuhn_2011]: https://doi.org/10.2514/6.2011-3169
 [research_ciobaca_wild_2017]: https://doi.org/10.35294/ls201704.ciobaca
 [research_clark_2001]: https://doi.org/10.21236/ada399161
-[research_clark_gerhold_1999]: https://doi.org/10.2514/6.1999-1937
 [research_clarke_1976]: https://doi.org/10.1017/s0001924000034382
 [research_clarkerobert_allenmichaelj_2005]: https://ntrs.nasa.gov/citations/20050212234
 [research_clarklr_yujc_1977]: https://ntrs.nasa.gov/citations/19770013923
@@ -5401,8 +5137,6 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_coepljr_mclemorehc_1975]: https://ntrs.nasa.gov/citations/19760004929
 [research_coepljr_mclemorehc_1976]: https://ntrs.nasa.gov/citations/19770005122
 [research_coiro_bellobuono_2008]: https://doi.org/10.2514/1.33268
-[research_coker_hoffman_1978]: https://doi.org/10.21236/ada070376
-[research_colahan_phillips_2011]: https://doi.org/10.21236/ada603185
 [research_coletti_faruque_2022]: https://doi.org/10.2514/6.2022-0556
 [research_coletw_rathburnea_1974]: https://ntrs.nasa.gov/citations/19740022319
 [research_colgren_loschke_2008]: https://doi.org/10.2514/1.32083
@@ -5421,14 +5155,12 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_cookwl_whittleydc_1975]: https://ntrs.nasa.gov/citations/19760003005
 [research_cookwl_whittleydc_1976]: https://ntrs.nasa.gov/citations/19760018204
 [research_cookwoodrowl_griffinroynjr_1954]: https://ntrs.nasa.gov/citations/19930088469
-[research_copp_2024]: https://doi.org/10.4050/f-0080-2024-1193
 [research_cordner_1967]: https://doi.org/10.21236/ad0656480
 [research_corkethomasc_thomasflinto_2007]: https://ntrs.nasa.gov/citations/20070010029
 [research_cornelius_lucius_1994]: https://doi.org/10.2514/3.46535
 [research_correale_2015]: https://doi.org/10.2514/6.2015-2470
 [research_corrigan_asper_2026]: https://doi.org/10.2514/6.2026-2287
 [research_corsigliavr_koenigdg_1968]: https://ntrs.nasa.gov/citations/19680016447
-[research_corvera_mahjoob_2023]: https://doi.org/10.1109/itherm55368.2023.10177611
 [research_cosentinogaryb_2007]: https://ntrs.nasa.gov/citations/20080007530
 [research_cosentinogaryb_2008]: https://ntrs.nasa.gov/citations/20080022273
 [research_coskun_cadirci_2016]: https://doi.org/10.1007/978-3-319-30602-5_29
@@ -5438,7 +5170,6 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_coulsondavida_scottrobertc_2015]: https://ntrs.nasa.gov/citations/20160011369
 [research_coumar_joussot_2016]: https://doi.org/10.1108/hff-07-2015-0285
 [research_covellpf_1985]: https://ntrs.nasa.gov/citations/19850019510
-[research_cowanjr_weirraeann_1993]: https://ntrs.nasa.gov/citations/19940025147
 [research_cox_siddall_1949]: https://doi.org/10.1108/eb031772
 [research_cpvandam_saibharathmothukuri]: https://ntrs.nasa.gov/citations/20210025480
 [research_cpvandam_seyedehsheidahosseini]: https://ntrs.nasa.gov/citations/20240000584
@@ -5459,31 +5190,24 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_cutlerandrewd_beckbterry_2005]: https://ntrs.nasa.gov/citations/20050123647
 [research_cybyk_grossman_2004]: https://doi.org/10.2514/6.2004-2131
 [research_cybyk_simon_2007]: https://doi.org/10.21236/ada466100
-[research_czechmichaelj_thomasrussellh_2014]: https://ntrs.nasa.gov/citations/20150003201
-[research_daeyeonwon_tahk_2008]: https://doi.org/10.1109/sice.2008.4655107
 [research_dafornog_1982]: https://ntrs.nasa.gov/citations/19820017334
 [research_dahalan_mansor_2015]: https://doi.org/10.11113/jt.v77.6160
 [research_dai_shu_2018]: https://doi.org/10.1007/978-981-10-7542-1_19
 [research_danabasoglug_biringens_1991]: https://ntrs.nasa.gov/citations/19910066043
 [research_dancova_psota_2019]: https://doi.org/10.3390/act8010027
-[research_dang_kim_2017]: https://doi.org/10.1002/elps.201600495
 [research_dano_liburdy_2005]: https://doi.org/10.1115/imece2005-79258
 [research_dano_liburdy_2006]: https://doi.org/10.2514/6.2006-3543
-[research_daposonofrio_paolillo_2025]: https://doi.org/10.2139/ssrn.5589319
-[research_daposonofrio_paolillo_2025_b]: https://doi.org/10.2139/ssrn.5238150
 [research_dashsm_yorkbj_1987]: https://ntrs.nasa.gov/citations/19880008204
 [research_dauengauer_mullyadzhanov_2019]: https://doi.org/10.1088/1742-6596/1382/1/012006
 [research_daughertyjc_1979]: https://ntrs.nasa.gov/citations/19800002822
 [research_davalos_cornejomonroy_2026]: https://doi.org/10.3390/e28040437
 [research_davenportedwine_1957]: https://ntrs.nasa.gov/citations/19930085087
-[research_davidgreenblatt_keithbpaschal]: https://ntrs.nasa.gov/citations/20040082231
 [research_davidlwilliamsii_robertcnelson_1994]: https://ntrs.nasa.gov/citations/19950007823
 [research_davidsonjohnb_lallmanfrederickj_2001]: https://ntrs.nasa.gov/citations/20040086083
 [research_davispamela_jegleydawn_2015]: https://ntrs.nasa.gov/citations/20160006860
 [research_davisricharde_maddalondalv_1989]: https://ntrs.nasa.gov/citations/19910014886
 [research_dawson_little_2012]: https://doi.org/10.2514/6.2012-3236
 [research_dawson_little_2013]: https://doi.org/10.1063/1.4794507
-[research_day_2021]: https://doi.org/10.32920/ryerson.14660643.v1
 [research_deadwyler_1980]: https://doi.org/10.21236/ada092011
 [research_dealpl_granthamwd_1970]: https://ntrs.nasa.gov/citations/19700021385
 [research_dealpl_granthamwd_1971]: https://ntrs.nasa.gov/citations/19710007958
@@ -5512,10 +5236,8 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_deng_jiang_2007]: https://doi.org/10.1016/j.compfluid.2006.10.001
 [research_denhamcasey_owensdbruce_2016]: https://ntrs.nasa.gov/citations/20160010112
 [research_denieul_alazard_2015]: https://doi.org/10.2514/6.2015-2553
-[research_dennai_bentaleb_2014]: https://doi.org/10.4028/www.scientific.net/amr.1064.213
 [research_dennis_tso_1993]: https://doi.org/10.2514/6.1993-4861
 [research_dennisrobertfoster_1993]: https://ntrs.nasa.gov/citations/19940018599
-[research_derosa_franco_2003]: https://doi.org/10.12989/was.2003.6.6.437
 [research_desalvo_whalen_2012]: https://doi.org/10.2514/6.2012-3245
 [research_desalvo_whalen_2014]: https://doi.org/10.2514/6.2014-0198
 [research_description_of]: https://doi.org/10.4271/air4253a
@@ -5548,10 +5270,6 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_dodayav_biswas_2024]: https://doi.org/10.2139/ssrn.4875854
 [research_dodsjbjr_watsonec_1976]: https://ntrs.nasa.gov/citations/19760025045
 [research_doman_gamble_2007]: https://doi.org/10.2514/6.2007-6778
-[research_domanovskyp_1969]: https://ntrs.nasa.gov/citations/19690016189
-[research_dong_jia_2024]: https://doi.org/10.2139/ssrn.4967932
-[research_dong_jia_2024_b]: https://doi.org/10.2139/ssrn.4760576
-[research_dong_jia_2025]: https://doi.org/10.2139/ssrn.5441602
 [research_donlancharlesj_1944]: https://ntrs.nasa.gov/citations/20050241739
 [research_donlancj_kuhnre_1976]: https://ntrs.nasa.gov/citations/19770022131
 [research_donnelly_cutbirth_2006]: https://doi.org/10.21236/ada463111
@@ -5572,7 +5290,6 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_dumrul_kara_2026]: https://doi.org/10.1504/ijvp.2026.10080989
 [research_dunham_1968]: https://doi.org/10.1017/s0022112068001473
 [research_dunn_leong_1981]: https://doi.org/10.21236/ada103922
-[research_duraisamy_baeder_2002]: https://doi.org/10.2514/6.2002-2835
 [research_duraisamy_baeder_2005]: https://doi.org/10.2514/6.2005-4726
 [research_durbinpa_mckinziedj_1987]: https://ntrs.nasa.gov/citations/19880026916
 [research_durham_bordignon_1995]: https://doi.org/10.2514/6.1995-3208
@@ -5590,7 +5307,6 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_edstrand_cattafestaiii_2013]: https://doi.org/10.1615/tsfp8.700
 [research_edwards_1983]: https://doi.org/10.2514/3.44863
 [research_edwards_2010]: https://doi.org/10.21236/ada547418
-[research_edwardsjackr_bolesjohna_2010]: https://ntrs.nasa.gov/citations/20100003412
 [research_edwardsjw_1972]: https://ntrs.nasa.gov/citations/19720022352
 [research_edwardsjw_1981]: https://ntrs.nasa.gov/citations/19810045103
 [research_effect_of_2024]: https://doi.org/10.47176/jafm.17.05.2231
@@ -5641,15 +5357,12 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_ericksonge_campbelljf_1975_b]: https://ntrs.nasa.gov/citations/19760010968
 [research_ericksonge_campbelljf_1977]: https://ntrs.nasa.gov/citations/19780007054
 [research_ericksonge_campbelljf_1977_b]: https://ntrs.nasa.gov/citations/19770009040
-[research_ericksonre_crossjl_1986]: https://ntrs.nasa.gov/citations/19870003124
-[research_eroglu_breidenthal_1991]: https://doi.org/10.2514/6.1991-317
 [research_eroglu_breidenthal_1998]: https://doi.org/10.2514/2.471
 [research_escauriaza_sotiropoulos_2010]: https://doi.org/10.1007/s10494-010-9315-y
 [research_esfahani_webb_2019]: https://doi.org/10.2514/1.j057796
 [research_espinozagutierrez_trujillocorona_2025]: https://doi.org/10.2514/6.2025-3023
 [research_essel_tachie_2017]: https://doi.org/10.1016/j.ijheatfluidflow.2015.11.004
 [research_eto_kondo_2018]: https://doi.org/10.2514/6.2018-3374
-[research_eugeneamorelli]: https://ntrs.nasa.gov/citations/20210018115
 [research_eugeneamorelli_jaredagrauer_2023]: https://ntrs.nasa.gov/citations/20230001945
 [research_evaluation_of_1978]: https://ntrs.nasa.gov/citations/19790007771
 [research_evaluation_of_1979]: https://ntrs.nasa.gov/citations/19790012872
@@ -5667,22 +5380,20 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_falarskimd_koenigdg_1972]: https://ntrs.nasa.gov/citations/19730001303
 [research_falarskimd_koenigdg_1972_b]: https://ntrs.nasa.gov/citations/19740077583
 [research_fan_mei_2026]: https://doi.org/10.2139/ssrn.6110068
-[research_fan_zhang_2024]: https://doi.org/10.1016/j.combustflame.2024.113622
 [research_fang_gong_2019]: https://doi.org/10.1063/1.5118933
 [research_farcy_renier_1999]: https://doi.org/10.2514/6.1999-4180
 [research_farrell_gibbons_2022]: https://doi.org/10.3390/act11070201
-[research_farzad_yagoobi_2019]: https://doi.org/10.1115/imece2019-11404
 [research_fasel_2000]: https://doi.org/10.21236/ada386843
 [research_fasel_gross_2008]: https://doi.org/10.21236/ada480712
 [research_fasel_wygnanksi_2002]: https://doi.org/10.21236/ada406701
 [research_fatahian_lohrasbinichkoohi_2019]: https://doi.org/10.1007/s12046-019-1205-y
-[research_favaregh_2010]: https://doi.org/10.2514/6.2010-4928
 [research_favier_kourta_2008]: https://doi.org/10.1007/978-1-4020-6858-4_24
 [research_fearnrichardl_1988]: https://ntrs.nasa.gov/citations/19880007291
 [research_fearnrl_bensonjp_1979]: https://ntrs.nasa.gov/citations/19810009794
 [research_fearnrl_westonrp_1975]: https://ntrs.nasa.gov/citations/19750018239
 [research_fearnrl_westonrp_1978]: https://ntrs.nasa.gov/citations/19780018449
 [research_feero_2017]: https://doi.org/10.1007/s00348-017-2387-x
+[research_feero_goodfellow_2015]: https://doi.org/10.2514/1.j053605
 [research_feikema_culley_2008]: https://doi.org/10.2514/6.2008-557
 [research_feinreichb_gevaertg_1980]: https://ntrs.nasa.gov/citations/19800023830
 [research_feldstein_uleck_2023]: https://doi.org/10.2514/6.2023-2627
@@ -5700,8 +5411,6 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_finkmp_freemandcjr_1968]: https://ntrs.nasa.gov/citations/19690004668
 [research_finkmr_1975]: https://ntrs.nasa.gov/citations/19750041673
 [research_finkmr_1978]: https://ntrs.nasa.gov/citations/19780012977
-[research_finn_tanner_2024]: https://doi.org/10.2139/ssrn.4913041
-[research_finn_tanner_2025]: https://doi.org/10.1016/j.jsv.2025.119097
 [research_firsov_kazansky_2019]: https://doi.org/10.2514/6.2019-0052
 [research_fischermc_wrightasjr_1983]: https://ntrs.nasa.gov/citations/19830067138
 [research_fischermichaelc_1992]: https://ntrs.nasa.gov/citations/19940029019
@@ -5719,7 +5428,6 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_flight_control_2025]: https://doi.org/10.1002/9781394378029.ch7
 [research_flight_test_1970]: https://ntrs.nasa.gov/citations/19710000627
 [research_florent_pascal_2002]: https://doi.org/10.1115/fedsm2002-31039
-[research_flores_michelle_2019]: https://doi.org/10.2514/6.2019-1738
 [research_florin_alexandru_2011]: https://doi.org/10.1002/pamm.201110315
 [research_flow_at_2000]: https://doi.org/10.1017/cbo9780511800955.007
 [research_flow_field_2023]: https://doi.org/10.47176/jafm.16.04.1475
@@ -5730,7 +5438,6 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_fomin_tretyakov_2004]: https://doi.org/10.1016/j.ast.2004.01.005
 [research_font_morgan_2007]: https://doi.org/10.1002/ctpp.200710015
 [research_forsythdr_yiplp_1975]: https://ntrs.nasa.gov/citations/19750010104
-[research_fortin_otero_2021]: https://doi.org/10.2514/6.2021-0651
 [research_fostergeraldv_fitzpatrickjamese_1948]: https://ntrs.nasa.gov/citations/19930085540
 [research_fournierpaulg_1959]: https://ntrs.nasa.gov/citations/19980231998
 [research_fournierpg_coepljr_1976]: https://ntrs.nasa.gov/citations/19780016113
@@ -5741,11 +5448,9 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_freemandcjr_hendersonrl_1970]: https://ntrs.nasa.gov/citations/19710005130
 [research_freemandcjr_parlettlp_1970]: https://ntrs.nasa.gov/citations/19710001021
 [research_fremauxcm_vairodm_1993]: https://ntrs.nasa.gov/citations/19930064305
-[research_friedmann_yuan_1994]: https://doi.org/10.2514/6.1994-1722
 [research_friehmelt_1996]: https://doi.org/10.2514/6.1996-3412
 [research_frith_wood_2004]: https://doi.org/10.2514/6.2004-2211
 [research_friz_rovey_2014]: https://doi.org/10.1260/1756-8250.6.2.75
-[research_frohlich_farmand_2021]: https://doi.org/10.1016/j.ijmultiphaseflow.2021.103566
 [research_from_tube_2013]: https://doi.org/10.1002/9781118568101.ch5
 [research_frontiers_of_2000]: https://doi.org/10.1017/cbo9780511529535.016
 [research_frostsusana_bodsonmarc_2009]: https://ntrs.nasa.gov/citations/20110012890
@@ -5757,7 +5462,6 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_fujii_2018]: https://doi.org/10.3390/app8040546
 [research_fukumoto_aono_2016]: https://doi.org/10.2514/6.2016-4239
 [research_fukumoto_aono_2018]: https://doi.org/10.2514/6.2018-1550
-[research_funderburk_narayanaswamy_2018]: https://doi.org/10.2514/6.2018-4937
 [research_fung_amitay_2002]: https://doi.org/10.2514/2.2993
 [research_furey_1980]: https://doi.org/10.21236/ada112312
 [research_furlongkl_fearnrl_1983]: https://ntrs.nasa.gov/citations/19840008079
@@ -5791,7 +5495,6 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_garrett_division_1986]: https://doi.org/10.1108/eb036217
 [research_gaultdonalde_1960]: https://ntrs.nasa.gov/citations/19980223976
 [research_gautam_mohammed_2025]: https://doi.org/10.2514/6.2025-3284
-[research_ge_peng_2022]: https://doi.org/10.1016/j.sna.2022.113972
 [research_geeken_rizkyehiam_1992]: https://ntrs.nasa.gov/citations/19920062906
 [research_geiselhartkarla_daggettdavidl_2003]: https://ntrs.nasa.gov/citations/20040031343
 [research_genc_kaynak_2009]: https://doi.org/10.2514/6.2009-3672
@@ -5800,7 +5503,6 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_generalelectriccocincinnatioh_1964]: https://doi.org/10.21236/ad0447839
 [research_gentrygljr_1974]: https://ntrs.nasa.gov/citations/19740026349
 [research_gerhard_erbsloh_2014]: https://doi.org/10.1088/1742-6596/524/1/012123
-[research_gerhardgeller_carldlamb_1981]: https://ntrs.nasa.gov/citations/19810013877
 [research_gernfrank_vicroydand_2014]: https://ntrs.nasa.gov/citations/20150000604
 [research_ghaffarif_biedronrt_2002]: https://ntrs.nasa.gov/citations/20020022843
 [research_ghaffarifarhad_biedronrobertt_2002]: https://ntrs.nasa.gov/citations/20020078006
@@ -5809,12 +5511,10 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_ghee_leishman_1992]: https://doi.org/10.2514/3.10916
 [research_ghee_raghu_2018]: https://doi.org/10.2514/6.2018-1800
 [research_ghee_taylor_2000]: https://doi.org/10.21236/ada377908
-[research_ghenai_philippidis_2005]: https://doi.org/10.21236/ada443378
 [research_ghosh_raisinghani_2000]: https://doi.org/10.2514/6.2000-4102
 [research_ghosh_raisinghani_2000_b]: https://doi.org/10.2514/6.2000-4101
 [research_gibson_younis_1982]: https://doi.org/10.2514/3.8008
 [research_gibsonjs_1976]: https://ntrs.nasa.gov/citations/19770003071
-[research_gil_jung_1998]: https://doi.org/10.1016/s0010-2180(97)00222-8
 [research_gil_strzelczyk_2016]: https://doi.org/10.1016/j.expthermflusci.2016.03.020
 [research_gil_wilk_2021]: https://doi.org/10.3390/app11125666
 [research_gilarranz_rediniotis_2001]: https://doi.org/10.2514/6.2001-737
@@ -5830,7 +5530,6 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_gilyardglennb_1999]: https://ntrs.nasa.gov/citations/20080004522
 [research_gimbertnwes_1995]: https://ntrs.nasa.gov/citations/19970003072
 [research_giordanodeoliveirasilva_moennich_2012]: https://doi.org/10.2514/6.2012-4412
-[research_giragosian_1981]: https://doi.org/10.2514/6.1981-1897
 [research_girshovich_1968]: https://doi.org/10.1007/bf01019201
 [research_glezer_1999]: https://doi.org/10.21236/ada368201
 [research_glezer_2004]: https://doi.org/10.21236/ada423090
@@ -5841,10 +5540,8 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_goel_sarkar_2021]: https://doi.org/10.1109/confluence51648.2021.9377200
 [research_goh_lee_2013]: https://doi.org/10.4028/www.scientific.net/amm.465-466.541
 [research_gokoglu_kuczmarski_2010]: https://doi.org/10.2514/6.2010-4415
-[research_goldschmied_1979]: https://doi.org/10.2514/6.1979-2006
 [research_goldstein_2004]: https://doi.org/10.21236/ada430475
 [research_goldstein_2006]: https://doi.org/10.21236/ada472644
-[research_goldstein_harvey_1970]: https://doi.org/10.21236/ad0708160
 [research_goldthorpe_rossitto_2010]: https://doi.org/10.2514/6.2010-7514
 [research_golubev_2023]: https://doi.org/10.1007/978-3-030-64725-4_39-1
 [research_golubev_2023_b]: https://doi.org/10.1007/978-3-031-33845-8_39
@@ -5866,11 +5563,6 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_goodykoontzjh_wagnerjm_1973]: https://ntrs.nasa.gov/citations/19730012332
 [research_gordon_cater_2004]: https://doi.org/10.1063/1.1647143
 [research_gordon_soria_2002]: https://doi.org/10.1007/s00348-002-0518-4
-[research_gorla_1976]: https://doi.org/10.1007/bf00426359
-[research_gorla_1977]: https://doi.org/10.2514/3.7447
-[research_gorla_1983]: https://doi.org/10.1016/0093-6413(83)90060-5
-[research_gorla_1984]: https://doi.org/10.1115/1.3167641
-[research_gorla_1994]: https://doi.org/10.1080/00986449408936273
 [research_gortonsusana_2001]: https://ntrs.nasa.gov/citations/20050214083
 [research_gortonsusanalthoff_owenslewisr_2004]: https://ntrs.nasa.gov/citations/20040052867
 [research_gowdabc_n_2019]: https://doi.org/10.2139/ssrn.3509135
@@ -5880,9 +5572,6 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_grager_rothmayer_2012]: https://doi.org/10.2514/6.2012-2681
 [research_granthamwd_nguyenlt_1972]: https://ntrs.nasa.gov/citations/19720025380
 [research_granthamwd_nguyenlt_1974]: https://ntrs.nasa.gov/citations/19740013545
-[research_granzeier_2002]: https://doi.org/10.2514/6.2002-5888
-[research_graphic_symbols]: https://doi.org/10.4271/as1290
-[research_graphical_symbols]: https://doi.org/10.3403/00123337
 [research_gratzerlb_georgefalvyd_1978]: https://ntrs.nasa.gov/citations/19780019127
 [research_grauer_morelli_2023]: https://doi.org/10.2514/1.c037583
 [research_grauerjareda_bouchermatthewj_2020]: https://ntrs.nasa.gov/citations/20200002776
@@ -5931,7 +5620,6 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_gross_fasel_2013_c]: https://doi.org/10.1260/1756-8250.5.3-4.121
 [research_gross_marks_2024]: https://doi.org/10.2514/1.j063492
 [research_gross_wernz_2003]: https://doi.org/10.2514/6.2003-4020
-[research_grosveld_1990]: https://doi.org/10.2514/6.1990-3964
 [research_grosvenor]: https://doi.org/10.22215/etd/2000-04501
 [research_ground_testing_2007]: https://doi.org/10.1108/aeat.2007.12779bab.029
 [research_grove_birkbeck_2000]: https://doi.org/10.2514/6.2000-1904
@@ -5951,12 +5639,9 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_gungordu_2022]: https://doi.org/10.2514/6.2022-0710
 [research_gungordu_2026]: https://doi.org/10.65206/pajes.1919348
 [research_guo_2006]: https://doi.org/10.2514/6.2006-2847
-[research_guo_burley_2014]: https://doi.org/10.2514/6.2014-0365
 [research_guo_cary_2002]: https://doi.org/10.2514/6.2002-3284
-[research_guo_czech_2015]: https://doi.org/10.2514/6.2015-1214
 [research_guo_hou_2017]: https://doi.org/10.1109/access.2017.2743059
 [research_guo_liu_2011]: https://doi.org/10.1063/1.3651883
-[research_guo_thomas_2015]: https://doi.org/10.2514/6.2015-1215
 [research_guo_wang_2025]: https://doi.org/10.1016/j.ast.2025.109966
 [research_guo_zhong_2008]: https://doi.org/10.2514/6.2008-3996
 [research_guoliang_junwei_2016]: https://doi.org/10.1109/aus.2016.7748152
@@ -5971,8 +5656,6 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_guy_morrow_1999_b]: https://doi.org/10.2514/6.1999-4178
 [research_guy_morrow_2000]: https://doi.org/10.2514/6.2000-550
 [research_guy_morton_2000]: https://doi.org/10.2514/6.2000-2321
-[research_guyot_paschereit_2008]: https://doi.org/10.1115/gt2008-50797
-[research_guyot_taticchimandoliniborgia_2008]: https://doi.org/10.2514/6.2008-1058
 [research_hackett_lyman_1973]: https://doi.org/10.2514/6.1973-653
 [research_hackettje_bolesra_1976]: https://ntrs.nasa.gov/citations/19760021139
 [research_hackettje_bolesra_1977]: https://ntrs.nasa.gov/citations/19780005065
@@ -5985,9 +5668,7 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_hahnedavide_jordanfrankljr_1991]: https://ntrs.nasa.gov/citations/19910020784
 [research_hair_1987]: https://doi.org/10.4271/871875
 [research_hajelap_chenjl_1986]: https://ntrs.nasa.gov/citations/19870030629
-[research_halljefferyl_paukenmichaelt_2009]: https://ntrs.nasa.gov/citations/20150011965
 [research_hamdani_baig_2003]: https://doi.org/10.2514/6.2003-422
-[research_hamed_1993]: https://doi.org/10.21236/ada268106
 [research_hamel_jategaonkar_1996]: https://doi.org/10.2514/3.46898
 [research_hammouda_khan_2025]: https://doi.org/10.1038/s41598-025-29997-x
 [research_hamstra_miller_2000]: https://doi.org/10.1017/s0001924000091971
@@ -6005,7 +5686,6 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_hardinjayc_popedstuart_1989]: https://ntrs.nasa.gov/citations/19890046378
 [research_harinaldi_budiarso_2016]: https://doi.org/10.1063/1.4949292
 [research_harinaldi_muhammaddennikesuma_2020]: https://doi.org/10.5109/4150513
-[research_harkonendl_markscc_1974]: https://ntrs.nasa.gov/citations/19750005782
 [research_harkonendl_mcbridejf_1974]: https://ntrs.nasa.gov/citations/19760024890
 [research_harris_arthurs_2016]: https://doi.org/10.1109/icuas.2016.7502624
 [research_harrischarlesd_brookscuylerwjr_1989]: https://ntrs.nasa.gov/citations/19890012391
@@ -6025,7 +5705,6 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_harveywilliamd_harrischarlesd_1989]: https://ntrs.nasa.gov/citations/19900029738
 [research_hasan_atkinson_2020]: https://doi.org/10.3390/app10061911
 [research_hasegawa_obayashi_2019]: https://doi.org/10.4236/jfcmv.2019.71005
-[research_haslam_1977]: https://doi.org/10.1049/tpe.1977.0046
 [research_hasnain_flatau_2013]: https://doi.org/10.2514/6.2013-2475
 [research_hasnain_trollinger_2015]: https://doi.org/10.2514/6.2015-2426
 [research_hassan_2005]: https://doi.org/10.4050/vfs-f61-000167
@@ -6034,7 +5713,6 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_haucke_nitsche_2011]: https://doi.org/10.2514/6.2011-3359
 [research_haucke_nitsche_2013]: https://doi.org/10.2514/6.2013-2514
 [research_haucke_peltzer_2008]: https://doi.org/10.2514/6.2008-4322
-[research_haugen_dhanak_1967]: https://doi.org/10.1115/1.3614394
 [research_hauser_1999]: https://doi.org/10.21236/ada387263
 [research_haydenre_schartontd_1972]: https://ntrs.nasa.gov/citations/19730011290
 [research_he_1999]: https://doi.org/10.1115/imece1999-1209
@@ -6059,13 +5737,11 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_herreraclaudiay_spiveynatalied_2016]: https://ntrs.nasa.gov/citations/20160000698
 [research_herreraclaudiay_spiveynatalied_2016_b]: https://ntrs.nasa.gov/citations/20160000699
 [research_hess_flick_2004]: https://doi.org/10.4271/2004-01-3116
-[research_hett_1951]: https://doi.org/10.21236/ada952617
 [research_hickeydavidh_aoyagikiyoshi_1960]: https://ntrs.nasa.gov/citations/19980227096
 [research_hicksjohnw_cooperjamesmjr_1987]: https://ntrs.nasa.gov/citations/19870035129
 [research_hicksrm_mendozajp_1972]: https://ntrs.nasa.gov/citations/19730004289
 [research_hiesergerald_whitcombcharlesf_1948]: https://ntrs.nasa.gov/citations/19930082398
 [research_higashiura_motosuke_2008]: https://doi.org/10.2514/6.2008-3772
-[research_high_order_2017]: https://doi.org/10.2174/97816810859751170201
 [research_high_reynolds_1999]: https://ntrs.nasa.gov/citations/19990052586
 [research_high_reynolds_1999_b]: https://ntrs.nasa.gov/citations/19990052585
 [research_high_reynolds_1999_c]: https://ntrs.nasa.gov/citations/19990052671
@@ -6074,7 +5750,6 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_hirsch_1957]: https://doi.org/10.1108/eb037656
 [research_hirsch_1958]: https://doi.org/10.1108/eb032916
 [research_hirsch_gharib_2018]: https://doi.org/10.2514/1.j056776
-[research_hirsh_1965]: https://doi.org/10.21236/ad0621684
 [research_hirshornsteven_kemmerlyguy_2018]: https://ntrs.nasa.gov/citations/20190001253
 [research_hirtstefaniem_zamankhairulbmq_2012]: https://ntrs.nasa.gov/citations/20120013595
 [research_hisseine]: https://doi.org/10.1109/cca.2005.1507162
@@ -6099,7 +5774,6 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_horneclifton_burnsidenate_2017]: https://ntrs.nasa.gov/citations/20190025435
 [research_horneclifton_burnsidenathanj_2013]: https://ntrs.nasa.gov/citations/20130003179
 [research_hornewc_1984]: https://ntrs.nasa.gov/citations/19850028713
-[research_hornewc_jonkouskigc_1981]: https://ntrs.nasa.gov/citations/19820026917
 [research_hornewilliamc_burnsidenathanj_2016]: https://ntrs.nasa.gov/citations/20190028861
 [research_hornyaks_1984]: https://ntrs.nasa.gov/citations/19840017020
 [research_hortonelmera_raciszstanleyfrank_1950]: https://ntrs.nasa.gov/citations/19930082766
@@ -6113,13 +5787,11 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_hosseinverdi_fasel_2023]: https://doi.org/10.2514/6.2023-3287
 [research_houghgr_1979]: https://ntrs.nasa.gov/citations/19790035531
 [research_houghgr_1980]: https://ntrs.nasa.gov/citations/19790000541
-[research_howe_1988]: https://doi.org/10.1016/s0022-460x(88)80060-9
 [research_howe_2000]: https://doi.org/10.21236/ada383801
 [research_howe_2002]: https://doi.org/10.1006/jsvi.2001.3817
 [research_hu]: https://doi.org/10.17760/d20449615
 [research_hu_mitsumoto_2025]: https://doi.org/10.2514/6.2025-0482
 [research_hu_mitsumoto_2025_b]: https://doi.org/10.2139/ssrn.5233852
-[research_huang_dong_2024]: https://doi.org/10.1115/omae2024-126040
 [research_huang_huang_2004]: https://doi.org/10.2514/6.2004-225
 [research_huang_zhang_2018]: https://doi.org/10.3390/app8091534
 [research_huang_zhou_2018]: https://doi.org/10.1088/2058-6272/aab5bb
@@ -6146,7 +5818,6 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_hutchesonflorencev_brooksthomasf_2005]: https://ntrs.nasa.gov/citations/20110016461
 [research_hutchesonflorencev_steaddanielj_2004]: https://ntrs.nasa.gov/citations/20040152074
 [research_hutchesonflorencev_steaddanielj_2004_b]: https://ntrs.nasa.gov/citations/20050041758
-[research_hwang_cho_2003]: https://doi.org/10.1016/s0142-727x(02)00236-9
 [research_hwangdp_1983]: https://ntrs.nasa.gov/citations/19850029495
 [research_hwangdp_1984]: https://ntrs.nasa.gov/citations/19840008073
 [research_hwangdp_boldmandr_1994]: https://ntrs.nasa.gov/citations/19940012098
@@ -6155,7 +5826,6 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_ibrahimoglu_yilmazoglu_2016]: https://doi.org/10.1007/978-3-319-34181-1_30
 [research_igarashi_nogi_2017]: https://doi.org/10.1299/jsmemecj.2017.s0530306
 [research_iguchi_ilegbusi_2010]: https://doi.org/10.1007/978-1-4419-7479-2_3
-[research_iida_fukudome_2010]: https://doi.org/10.1063/1.3478980
 [research_ijaz_hamayun_2019]: https://doi.org/10.1007/s12555-017-0399-1
 [research_ijaz_hamayun_2019_b]: https://doi.org/10.1177/0142331219835589
 [research_ijaz_yan_2019]: https://doi.org/10.1016/j.jfranklin.2018.11.018
@@ -6164,9 +5834,7 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_iliffkw_mainere_1982]: https://ntrs.nasa.gov/citations/19820055600
 [research_iliffkw_mainere_1983]: https://ntrs.nasa.gov/citations/19840031947
 [research_ilinskii_mardanov_2007]: https://doi.org/10.1134/s0965542507100119
-[research_imamura_fujino_2018]: https://doi.org/10.2514/6.2018-0166
 [research_imao_kikuchi_2005]: https://doi.org/10.1299/jsmeicjwsf.2005.73
-[research_improved_modeling]: https://doi.org/10.14428/dvn/zzaydq
 [research_influence_of_2023]: https://doi.org/10.47176/jafm.16.04.1581
 [research_influences_of_2004]: https://doi.org/10.5139/jksas.2004.32.8.047
 [research_iniguezdeheredia_friehmelt_2005]: https://doi.org/10.2514/6.2005-6351
@@ -6185,7 +5853,6 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_itsariyapinyo_sharma_2018]: https://doi.org/10.1016/j.ast.2018.09.039
 [research_itsariyapinyo_sharma_2022]: https://doi.org/10.2514/1.j060508
 [research_ivanova_noll_2010]: https://doi.org/10.2514/6.2010-4724
-[research_ivler_tischler_2019]: https://doi.org/10.4050/f-0075-2019-14754
 [research_iwamoto_suzuki_2002]: https://doi.org/10.1016/s0142-727x(02)00164-9
 [research_iwatsuki_iida_1999]: https://doi.org/10.1615/tsfp1.780
 [research_iyer_malik_2023]: https://doi.org/10.2514/6.2023-3982
@@ -6203,7 +5870,6 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_jagtap_childs_2025]: https://doi.org/10.2139/ssrn.5087765
 [research_jairam_clemons_2016]: https://doi.org/10.2514/6.2016-3307
 [research_james_suryan_2018]: https://doi.org/10.1016/j.compfluid.2017.03.012
-[research_jamesfconnors_jcalvinlovell_1957]: https://ntrs.nasa.gov/citations/19930089784
 [research_jamesha_makirl_1957]: https://ntrs.nasa.gov/citations/19630003231
 [research_jamesrlkoch_jeffreyahousman]: https://ntrs.nasa.gov/citations/20230007524
 [research_jamil_savvaris_2010]: https://doi.org/10.1049/ic.2010.0333
@@ -6215,7 +5881,6 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_jategaonkar_2005]: https://doi.org/10.2514/1.15766
 [research_javadi_khodadadi_2011]: https://doi.org/10.1177/2041300910393421
 [research_jayaraman_lian_2007]: https://doi.org/10.2514/6.2007-3974
-[research_jeffers_punch_2010]: https://doi.org/10.1007/s12650-010-0033-2
 [research_jenkins_1971]: https://doi.org/10.2514/6.1971-577
 [research_jenkinsjm_pearsongpe_1968]: https://ntrs.nasa.gov/citations/19710005528
 [research_jenksge_henryhf_1977]: https://ntrs.nasa.gov/citations/19770014139
@@ -6225,13 +5890,10 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_jensch_pfingsten_2010]: https://doi.org/10.1007/978-3-642-14243-7_23
 [research_jensenstephenc_jenneygavind_2000]: https://ntrs.nasa.gov/citations/20010039533
 [research_jente_huber_2024]: https://doi.org/10.2514/6.2024-3309
-[research_jente_pottpollenske_2017]: https://doi.org/10.2514/6.2017-3525
-[research_jente_pottpollenske_2018]: https://doi.org/10.2514/6.2018-3788
 [research_jentzsch_taubert_2016]: https://doi.org/10.2514/6.2016-3168
 [research_jeon_ren_2023]: https://doi.org/10.2514/6.2023-1008
 [research_jernellls_1978]: https://ntrs.nasa.gov/citations/19790009680
 [research_jernellls_1978_b]: https://ntrs.nasa.gov/citations/19780017136
-[research_jessa_2022]: https://doi.org/10.32920/16645339
 [research_jeyalingam_jabbal_2016]: https://doi.org/10.2514/6.2016-4236
 [research_jia_liang_2021]: https://doi.org/10.21203/rs.3.rs-157307/v1
 [research_jiang_liu_2003]: https://doi.org/10.2514/6.2003-611
@@ -6240,7 +5902,6 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_jianghao_chenfang_2011]: https://doi.org/10.1016/j.proeng.2011.10.035
 [research_jiao_lu_2015]: https://doi.org/10.1016/j.proeng.2014.12.510
 [research_jin_ono_2011]: https://doi.org/10.1115/ajk2011-25002
-[research_jing_luo_2024]: https://doi.org/10.1109/icops58192.2024.10627138
 [research_jingchang_mao_1995]: https://doi.org/10.1007/bf02487621
 [research_jo_choi_2016]: https://doi.org/10.2514/6.2016-3416
 [research_johari_mcmanus_1997]: https://doi.org/10.2514/6.1997-2021
@@ -6252,10 +5913,8 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_johnclin_latuniapmelton_2020]: https://ntrs.nasa.gov/citations/20200002787
 [research_johnclin_latuniapmelton_2022]: https://ntrs.nasa.gov/citations/20220015673
 [research_johnfquindlen_danielmortega]: https://ntrs.nasa.gov/citations/20250011280
-[research_johnlmccloudiii_williamtevans_1966]: https://ntrs.nasa.gov/citations/19660015320
 [research_johnsal_williamsrc_1979]: https://ntrs.nasa.gov/citations/19790018922
 [research_johnson_chowdhary_2011]: https://doi.org/10.2514/6.2011-6450
-[research_johnsonbv_1968]: https://ntrs.nasa.gov/citations/19680007662
 [research_johnsonjljr_phelpsaeiii_1974]: https://ntrs.nasa.gov/citations/19740052230
 [research_johnsonjosephl_1949]: https://ntrs.nasa.gov/citations/20090026465
 [research_johnsonwgjr_1972]: https://ntrs.nasa.gov/citations/19730024206
@@ -6303,8 +5962,6 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_kalinowski_2017]: https://doi.org/10.2514/6.2017-1605
 [research_kalinowski_2017_b]: https://doi.org/10.2478/tar-2017-0028
 [research_kaloyanova_ghia_2005]: https://doi.org/10.2514/6.2005-1087
-[research_kalra_shneider_2008]: https://doi.org/10.2514/6.2008-4223
-[research_kalra_zaidi_2008]: https://doi.org/10.2514/6.2008-1092
 [research_kalyankar_urreiztieta_2025]: https://doi.org/10.2514/6.2025-3090
 [research_kamari_tadjfar_2020]: https://doi.org/10.1115/fedsm2020-20247
 [research_kaminski_niegodajew_2025]: https://doi.org/10.1063/5.0268407
@@ -6314,8 +5971,6 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_kandilosamaa_sharafhazemh_1992]: https://ntrs.nasa.gov/citations/19920072726
 [research_kandilosamaa_yangzhi_1999]: https://ntrs.nasa.gov/citations/19990052693
 [research_kanehara_sagawa_2018]: https://doi.org/10.1299/jsmefed.2018.os15-15
-[research_kaneko_takemura_2022]: https://doi.org/10.21203/rs.3.rs-1203430/v1
-[research_kang_luo_2022]: https://doi.org/10.3390/act11120382
 [research_kanthahl_lewellenws_1971]: https://ntrs.nasa.gov/citations/19720016343
 [research_kara_2015]: https://doi.org/10.2514/6.2015-2424
 [research_kara_2016]: https://doi.org/10.2514/6.2016-3261
@@ -6361,7 +6016,6 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_kellymarkw_tuckerjeffreyh_1956]: https://ntrs.nasa.gov/citations/19930089450
 [research_kempereh_renselaerdj_1969]: https://ntrs.nasa.gov/citations/19690015913
 [research_kerr_2025]: https://doi.org/10.4050/sm_h2_2025-5413
-[research_kha_martins_2025]: https://doi.org/10.2139/ssrn.5847089
 [research_khalil_asaro_2022]: https://doi.org/10.2514/1.c036426
 [research_khan_tajik_2022]: https://doi.org/10.2139/ssrn.4111409
 [research_khayat_2017]: https://doi.org/10.1017/jfm.2017.431
@@ -6371,9 +6025,7 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_kiedaisch_demanett_2007]: https://doi.org/10.2514/6.2007-1120
 [research_kiel_murawski_2003]: https://doi.org/10.2514/6.2003-182
 [research_kierda_powersbg_1972]: https://ntrs.nasa.gov/citations/19730024215
-[research_kim_choi_2024]: https://doi.org/10.3390/app14041596
 [research_kim_debiasi_2007]: https://doi.org/10.2514/6.2007-880
-[research_kim_gil_2009]: https://doi.org/10.1080/00102200903388091
 [research_kim_hong_2007]: https://doi.org/10.1007/bf03177422
 [research_kim_kim_2006]: https://doi.org/10.2514/6.2006-2853
 [research_kim_kim_2021]: https://doi.org/10.3390/pr9081429
@@ -6394,7 +6046,6 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_king_gopalarathnam_2004]: https://doi.org/10.2514/6.2004-4722
 [research_king_heinz_2012]: https://doi.org/10.2514/6.2012-2801
 [research_king_heinz_2013]: https://doi.org/10.2514/1.c032129
-[research_kingloffrf_cooperde_1987]: https://ntrs.nasa.gov/citations/19880008217
 [research_kinoshita_oshima_1973]: https://doi.org/10.9746/sicetr1965.9.22
 [research_kinoshita_oshima_1974]: https://doi.org/10.9746/sicetr1965.10.611
 [research_kinoshita_oshima_1975]: https://doi.org/10.9746/sicetr1965.11.491
@@ -6432,7 +6083,6 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_kondor_parekh_2005]: https://doi.org/10.2514/6.2005-1051
 [research_kong_tang_2025]: https://doi.org/10.2139/ssrn.5269977
 [research_kongjeffrey_1994]: https://ntrs.nasa.gov/citations/19950012715
-[research_konishi_fujita]: https://doi.org/10.1109/etfa.1993.396405
 [research_kopiev_2025]: https://doi.org/10.7868/s3034500625030104
 [research_korbacher_1963]: https://doi.org/10.21236/ad0426783
 [research_korbacher_1964]: https://doi.org/10.21236/ad0608515
@@ -6441,8 +6091,6 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_kornilov_2018]: https://doi.org/10.1134/s0869864318020014
 [research_kornilov_kavun_2021]: https://doi.org/10.1063/5.0052004
 [research_kornyakov_voevodin_2018]: https://doi.org/10.1063/1.5065108
-[research_korte_1991]: https://doi.org/10.2514/3.46085
-[research_kortejohnj_1990]: https://ntrs.nasa.gov/citations/19900032619
 [research_koso_2005]: https://doi.org/10.1299/jsmeicjwsf.2005.385
 [research_koso_kinoshita_2007]: https://doi.org/10.1115/fedsm2007-37547
 [research_koso_kinoshita_2008]: https://doi.org/10.1299/jfst.3.323
@@ -6464,8 +6112,6 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_krausdonnak_cutlerandrewd_1993]: https://ntrs.nasa.gov/citations/19930061159
 [research_kraushaarsandral_chokanindaona_1996]: https://ntrs.nasa.gov/citations/19990064146
 [research_krausstimothya_romanstephan_1986]: https://ntrs.nasa.gov/citations/20080008248
-[research_kretzm_aubrunj_1973]: https://ntrs.nasa.gov/citations/19740005610
-[research_kretzm_aubrunj_1973_b]: https://ntrs.nasa.gov/citations/19740005609
 [research_krishnan_krishnan_2020]: https://doi.org/10.2514/1.c035680
 [research_kroehnert_2014]: https://doi.org/10.2514/6.2014-2143
 [research_krooi_rocks_1991]: https://ntrs.nasa.gov/citations/19910020838
@@ -6481,7 +6127,6 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_kryvokhatko_2024]: https://doi.org/10.1007/978-3-031-74809-7_4
 [research_kryvokhatko_2024_b]: https://doi.org/10.1007/978-3-031-74809-7_2
 [research_kucera_hromcik_2013]: https://doi.org/10.1051/eucass/201306767
-[research_kuczynskiwa_sissinghgj_1972]: https://ntrs.nasa.gov/citations/19720010374
 [research_kuehme_alley_2014]: https://doi.org/10.2514/6.2014-2577
 [research_kuhn_ciobaca_2011]: https://doi.org/10.2514/6.2011-3168
 [research_kukreja_2008]: https://doi.org/10.2514/1.32799
@@ -6498,12 +6143,9 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_kumar_khalid_2017]: https://doi.org/10.15394/ijaaa.2017.1187
 [research_kumar_mandal_2020]: https://doi.org/10.2514/6.2020-3064
 [research_kumar_rao_2004]: https://doi.org/10.14429/dsj.54.2041
-[research_kumar_sahu_2025]: https://doi.org/10.2139/ssrn.5571879
-[research_kumari_saurabh_2024]: https://doi.org/10.1016/j.ijthermalsci.2023.108849
 [research_kumarsubramanyam_venkatakrishnan_2022]: https://doi.org/10.2514/1.j061857
 [research_kumarvikas_alvifarrukhs_2010]: https://ntrs.nasa.gov/citations/20100018585
 [research_kunimoto_fuchiwaki_2015]: https://doi.org/10.1299/jsmemecj.2015._s0510204-
-[research_kurkovap_gauglerre_1974]: https://ntrs.nasa.gov/citations/19740008502
 [research_kurowski_2017]: https://doi.org/10.1007/978-3-319-50568-8_11
 [research_kurowski_szwaba_2022]: https://doi.org/10.1061/(asce)as.1943-5525.0001413
 [research_kurz_tropea_2012]: https://doi.org/10.2514/6.2012-2946
@@ -6555,7 +6197,6 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_laxminarayana_tarakalyani_2011]: https://doi.org/10.1109/indcon.2011.6139564
 [research_layek_midya_2008]: https://doi.org/10.15388/na.2008.13.4.14551
 [research_lazar_elliott_2008]: https://doi.org/10.2514/6.2008-1387
-[research_leask_mcdonell_2018]: https://doi.org/10.1115/gt2018-75818
 [research_lechevin_rabbath_2007]: https://doi.org/10.1109/acc.2007.4282193
 [research_lechniakjasona_meltonjohne_2017]: https://ntrs.nasa.gov/citations/20170010152
 [research_leclainche_perez_2020]: https://doi.org/10.1016/j.ast.2020.105920
@@ -6567,8 +6208,6 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_lee_kim_2006]: https://doi.org/10.1177/1045389x06058879
 [research_lee_kim_2007]: https://doi.org/10.2514/1.26869
 [research_lee_kozato_2025]: https://doi.org/10.1063/5.0267541
-[research_lee_loth_2010]: https://doi.org/10.2514/6.2010-4254
-[research_lee_loth_2011]: https://doi.org/10.1016/j.compfluid.2011.06.003
 [research_lee_park_2016]: https://doi.org/10.2514/1.j054993
 [research_lee_tavella_1986]: https://doi.org/10.2514/6.1986-1810
 [research_leehey_shapiro_1980]: https://doi.org/10.1007/978-3-642-81485-3_30
@@ -6577,25 +6216,20 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_leekt_robertsleonard_1990]: https://ntrs.nasa.gov/citations/19900007396
 [research_leerauschem_vatsavn_2006]: https://ntrs.nasa.gov/citations/20060022122
 [research_lefantzi_ray_2013]: https://doi.org/10.2172/1096265
-[research_lei_zha_2022]: https://doi.org/10.2514/6.2022-2234
 [research_lei_zha_2023]: https://doi.org/10.2514/6.2023-3606
 [research_lei_zha_2023_b]: https://doi.org/10.2514/6.2023-4236
 [research_lei_zhang_2020]: https://doi.org/10.1088/1755-1315/585/1/012170
 [research_lemayscottp_sewallwilliamg_1992]: https://ntrs.nasa.gov/citations/19920039517
 [research_lemko_molodchyk_2015]: https://doi.org/10.1109/apuavd.2015.7346552
 [research_lenahankevenc_schatzmandavidm_2013]: https://ntrs.nasa.gov/citations/20140007373
-[research_leonov_yarantsev_2012]: https://doi.org/10.1051/eucass/201203557
 [research_leung_moszczynski_2019]: https://doi.org/10.2514/6.2019-0013
 [research_levinsky_schappelle_1975]: https://doi.org/10.2514/3.44416
 [research_levinskyes_yehtt_1972]: https://ntrs.nasa.gov/citations/19720023364
 [research_lewington_peake_2002]: https://doi.org/10.2514/6.2002-303
-[research_lewis_smith_1975]: https://doi.org/10.21236/ada013912
 [research_li]: https://doi.org/10.5353/th_b3122137
 [research_li_2019]: https://doi.org/10.1007/978-3-030-29688-9_11
-[research_li_2019_b]: https://doi.org/10.1177/1420326x19833850
 [research_li_2024]: https://doi.org/10.1007/978-981-97-3998-1_62
 [research_li_gao_2017]: https://doi.org/10.1109/tps.2017.2678529
-[research_li_halliwell_1985]: https://doi.org/10.1016/0022-460x(85)90535-8
 [research_li_li_2017]: https://doi.org/10.2991/ammee-17.2017.113
 [research_li_liu_2019]: https://doi.org/10.3390/app9245495
 [research_li_luo_2022]: https://doi.org/10.1016/j.cja.2022.06.005
@@ -6604,7 +6238,6 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_li_qin_2020]: https://doi.org/10.1016/j.ast.2019.105622
 [research_li_shi_2017]: https://doi.org/10.1109/icmae.2017.8038693
 [research_li_shu_2026]: https://doi.org/10.2139/ssrn.6999271
-[research_li_soteriou_2016]: https://doi.org/10.2514/6.2016-1450
 [research_li_wan_2021]: https://doi.org/10.3390/app112411800
 [research_li_wang_2019]: https://doi.org/10.1109/icus48101.2019.8996032
 [research_li_xu_2022]: https://doi.org/10.1177/09544100221145989
@@ -6614,9 +6247,7 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_li_zhai_2024]: https://doi.org/10.23919/ccc63176.2024.10661874
 [research_li_zhang_2020]: https://doi.org/10.1016/j.sna.2019.111770
 [research_li_zhou_2021]: https://doi.org/10.1016/j.cja.2020.12.013
-[research_liang_2015]: https://doi.org/10.3901/jme.2015.08.191
 [research_lianghua_caoshangen_2011]: https://doi.org/10.1109/icmtma.2011.314
-[research_lichaofei_chenweijian_2018]: https://doi.org/10.1049/cp.2018.0206
 [research_lichota_ohme_2016]: https://doi.org/10.2514/6.2016-3704
 [research_liddle_crowther_2005]: https://doi.org/10.2514/6.2005-107
 [research_liddle_crowther_2008]: https://doi.org/10.2514/6.2008-158
@@ -6632,8 +6263,6 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_limhockbin_robertsleonard_1991]: https://ntrs.nasa.gov/citations/19920006747
 [research_lin_whalen_2019]: https://doi.org/10.2514/1.c034907
 [research_lind_smith_2015]: https://doi.org/10.2514/6.2015-1973
-[research_lindenaw_1972]: https://ntrs.nasa.gov/citations/19720025364
-[research_lindenaw_hellyarmw_1974]: https://ntrs.nasa.gov/citations/19750027042
 [research_lindrick_1999]: https://ntrs.nasa.gov/citations/19990061201
 [research_lindrick_1999_b]: https://ntrs.nasa.gov/citations/19990050914
 [research_linebergerlb_1984]: https://ntrs.nasa.gov/citations/19870012416
@@ -6699,11 +6328,8 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_lopera_terry_2004]: https://doi.org/10.2514/6.2004-2695
 [research_lopez_brzozowski_2009]: https://doi.org/10.2514/6.2009-3674
 [research_lorinczdj_1980]: https://ntrs.nasa.gov/citations/19810012480
-[research_loth_geubelle_2000]: https://doi.org/10.21236/ada378320
-[research_loth_lee_2008]: https://doi.org/10.21236/ada478600
 [research_lothjohnl_1987]: https://ntrs.nasa.gov/citations/19880008226
 [research_lovellwa_priceje_1978]: https://ntrs.nasa.gov/citations/19780022102
-[research_lowe_attia_2017]: https://doi.org/10.2514/6.2017-1933
 [research_lozano_paniagua_2020]: https://doi.org/10.1038/s41598-020-79048-w
 [research_lu_2000]: https://doi.org/10.2514/6.2000-521
 [research_lu_li_2022]: https://doi.org/10.3390/act11100300
@@ -6728,9 +6354,6 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_m_das_2007]: https://doi.org/10.2514/6.2007-2754
 [research_ma_li_2008]: https://doi.org/10.1109/isscaa.2008.4776304
 [research_ma_li_2019]: https://doi.org/10.1109/cyber46603.2019.9066511
-[research_macdermott_dix_1965]: https://doi.org/10.21236/ad0467446
-[research_macdermott_dix_1966]: https://doi.org/10.21236/ad0643963
-[research_macia_nguyen_2005]: https://doi.org/10.1115/imece2005-82791
 [research_mack_brehm_2008]: https://doi.org/10.2514/6.2008-3766
 [research_mack_tao_2010]: https://doi.org/10.2514/6.2010-8145
 [research_madane_khalde_2022]: https://doi.org/10.1002/aic.17621
@@ -6741,11 +6364,9 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_madhan_rahel]: https://doi.org/10.1109/plasma.2004.1339868
 [research_madsenap_1982]: https://ntrs.nasa.gov/citations/19820017331
 [research_maduche_mongeau_2025]: https://doi.org/10.1121/10.0037377
-[research_maestrello_1965]: https://doi.org/10.2514/3.2859
 [research_mafc_lessons_2004]: https://doi.org/10.2514/6.2004-2518
 [research_magginbernard_1944]: https://ntrs.nasa.gov/citations/19930092727
 [research_magnessc_robinsono_1992]: https://ntrs.nasa.gov/citations/19940030465
-[research_magyari_weidman_2005]: https://doi.org/10.1007/s00231-005-0048-8
 [research_mahalas_gilchristij_1973]: https://ntrs.nasa.gov/citations/19730011271
 [research_mahdavi_mani_2024]: https://doi.org/10.1140/epjp/s13360-024-05341-6
 [research_mahns_amitay_2025]: https://doi.org/10.2514/6.2025-1871
@@ -6770,9 +6391,6 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_mangina_enloe_2015]: https://doi.org/10.2514/6.2015-1730
 [research_manipulation_of_1994]: https://doi.org/10.2514/6.1994-367
 [research_manning_baum_1992]: https://doi.org/10.2514/6.1992-4115
-[research_mansour_chung_2015]: https://doi.org/10.1615/tsfp9.130
-[research_mansour_chung_2015_b]: https://doi.org/10.1080/00102202.2015.1042103
-[research_mansy_williams_1989]: https://doi.org/10.1063/1.1140347
 [research_manuilovich_1995]: https://doi.org/10.1007/978-3-642-79765-1_15
 [research_margaris_gursul_2004]: https://doi.org/10.2514/6.2004-2619
 [research_margaris_gursul_2007]: https://doi.org/10.2514/6.2007-1122
@@ -6799,7 +6417,6 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_marwaha_valasek_2008]: https://doi.org/10.2514/6.2008-6895
 [research_marxen_kotapati_2015]: https://doi.org/10.1063/1.4907362
 [research_marzouk_ghoniem_2004]: https://doi.org/10.2514/6.2004-96
-[research_mashayek_ashgriz_2010]: https://doi.org/10.1007/978-1-4419-7264-4_29
 [research_matalanisclaudeg_bowlespatricko_2016]: https://ntrs.nasa.gov/citations/20160013834
 [research_matamoros_devisser_2018]: https://doi.org/10.2514/6.2018-1116
 [research_mathewjose_gallasquentin_2003]: https://ntrs.nasa.gov/citations/20040075035
@@ -6813,17 +6430,12 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_matsuo_setoguchi_1998]: https://doi.org/10.1007/s11630-998-0012-2
 [research_maughmermarkd_1989]: https://ntrs.nasa.gov/citations/19890005751
 [research_maughmermarkd_ozoroskil_1990]: https://ntrs.nasa.gov/citations/19900012419
-[research_maury_bravo_2016]: https://doi.org/10.2514/6.2016-2763
 [research_mayahara_sato_2022]: https://doi.org/10.1299/jsmemecj.2022.s051-13
 [research_mayahara_sato_2023]: https://doi.org/10.2514/6.2023-3283
-[research_mazaheri_nejati_2015]: https://doi.org/10.1007/s10494-015-9671-8
-[research_mazumdar_asada_2013]: https://doi.org/10.1115/1.4024365
 [research_mazumder_golubev_2019]: https://doi.org/10.2514/6.2019-0577
-[research_mazzeo_2023]: https://doi.org/10.21741/9781644902813-157
 [research_mcardlejg_homyakl_1980]: https://ntrs.nasa.gov/citations/19800016844
 [research_mcauliffe]: https://doi.org/10.22215/etd/2004-06139
 [research_mcbreen_zha_2024]: https://doi.org/10.2514/6.2024-0492
-[research_mccloudjliii_1973]: https://ntrs.nasa.gov/citations/19740039714
 [research_mccracken_jorris_2011]: https://doi.org/10.2514/6.2011-6444
 [research_mccrackenrc_1979]: https://ntrs.nasa.gov/citations/19800005852
 [research_mcfadden_bons_2024]: https://doi.org/10.2514/6.2024-1318
@@ -6850,13 +6462,9 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_mcmanus_legner_1994]: https://doi.org/10.2514/6.1994-2218
 [research_mcmanus_magill_1996]: https://doi.org/10.2514/6.1996-1948
 [research_mcmanus_magill_1997]: https://doi.org/10.2514/6.1997-1971
-[research_mcmanus_vandsburger_1990]: https://doi.org/10.1016/0010-2180(90)90079-7
 [research_mcmichael_2001]: https://doi.org/10.2514/2.2834
 [research_mcmichael_lovas_2005]: https://doi.org/10.21236/ada439856
-[research_mcwaderobertj_minorrobertb_2010]: https://ntrs.nasa.gov/citations/20100022059
-[research_mead_1998]: https://doi.org/10.21236/ada405839
 [research_meadele_1977]: https://ntrs.nasa.gov/citations/19780041291
-[research_measurement_data]: https://doi.org/10.4271/air7521
 [research_meckstroth_blake_2015]: https://doi.org/10.2514/6.2015-2324
 [research_mehdipoor_sohbatzadeh_2019]: https://doi.org/10.1002/ctpp.201900037
 [research_meheut_arntz_2012]: https://doi.org/10.2514/6.2012-3122
@@ -6866,8 +6474,6 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_mehtikoklu_2021_b]: https://ntrs.nasa.gov/citations/20210022813
 [research_mehus_1965]: https://doi.org/10.21236/ad0614617
 [research_meier_heister_2014]: https://doi.org/10.2514/6.2014-3583
-[research_meierericj_casianomatthewj_2015]: https://ntrs.nasa.gov/citations/20150016521
-[research_meldi_sagaut_2013]: https://doi.org/10.1615/tsfp8.1890
 [research_meleasonet_1976]: https://ntrs.nasa.gov/citations/19780016115
 [research_meleasonet_wellsod_1976]: https://ntrs.nasa.gov/citations/19760059442
 [research_melton_2008]: https://ntrs.nasa.gov/citations/20080014213
@@ -6883,9 +6489,6 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_mendenhallmr_perkinscjr_1975]: https://ntrs.nasa.gov/citations/19750015411
 [research_mendoza_ahuja_1996]: https://doi.org/10.2514/6.1996-1767
 [research_meng_bi_2022]: https://doi.org/10.3390/aerospace9110661
-[research_mengle_2011]: https://doi.org/10.2514/6.2011-2705
-[research_merrill_delaat_1987]: https://doi.org/10.2514/6.1987-2259
-[research_merrill_sarpkaya_1998]: https://doi.org/10.2514/6.1998-442
 [research_messahel_bury_2018]: https://doi.org/10.2514/6.2018-3058
 [research_messahel_bury_2019]: https://doi.org/10.2514/6.2019-3500
 [research_messanelli_belan_2017]: https://doi.org/10.2514/6.2017-0395
@@ -6894,8 +6497,6 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_meyerrobertr_trujillobiancam_1987]: https://ntrs.nasa.gov/citations/19900003231
 [research_meynlarrya_lanserwendyr_1992]: https://ntrs.nasa.gov/citations/19920062960
 [research_miao_ma_2022]: https://doi.org/10.1155/2022/1467310
-[research_michaelis_2018]: https://doi.org/10.4236/eng.2018.104011
-[research_michaeljacheson_irenegregory]: https://ntrs.nasa.gov/citations/20200002927
 [research_michaeljacheson_irenegregory_b]: https://ntrs.nasa.gov/citations/20220018474
 [research_michaeljacheson_jacobcook]: https://ntrs.nasa.gov/citations/20205010869
 [research_michaltoddr_1998]: https://ntrs.nasa.gov/citations/19980137606
@@ -6911,7 +6512,6 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_milholenwilliameii_jonesgregorys_2013]: https://ntrs.nasa.gov/citations/20140000466
 [research_miller_gile_1992]: https://doi.org/10.2514/6.1992-407
 [research_miller_traub_2004]: https://doi.org/10.2514/6.2004-224
-[research_milleran_lindenaw_1972]: https://ntrs.nasa.gov/citations/19720025367
 [research_millerchristopher_2014]: https://ntrs.nasa.gov/citations/20140006737
 [research_millerchristopherj_2011]: https://ntrs.nasa.gov/citations/20110015950
 [research_millerericj_cruzjosue_2016]: https://ntrs.nasa.gov/citations/20160000870
@@ -6938,7 +6538,6 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_miyamoto_yokoyama_2018]: https://doi.org/10.1299/transjsme.18-00121
 [research_mochizuki_kiya_1999]: https://doi.org/10.1007/978-94-011-4199-4_22
 [research_mochizuki_yamada_2005]: https://doi.org/10.1299/jsmeicjwsf.2005.85
-[research_modanloujoubari_deylami_2025]: https://doi.org/10.1140/epjp/s13360-025-06887-9
 [research_modeling_and_2015]: https://doi.org/10.1007/978-3-319-10792-9
 [research_modi_1985]: https://doi.org/10.2514/6.1985-1772
 [research_moeller_rediniotis_2000]: https://doi.org/10.2514/6.2000-117
@@ -6971,7 +6570,6 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_morton_guy_1999]: https://doi.org/10.2514/6.1999-3195
 [research_mortonjb_catalanogd_1978]: https://ntrs.nasa.gov/citations/19780056920
 [research_mosher_1970]: https://doi.org/10.21236/ad0718798
-[research_mosherm_1981]: https://ntrs.nasa.gov/citations/19810036192
 [research_mossikarlam_bryantrobertg_2004]: https://ntrs.nasa.gov/citations/20040082243
 [research_moszczynski_grant_2017]: https://doi.org/10.2514/6.2017-3893
 [research_motoaki_jun_2013]: https://doi.org/10.1299/jsmeicjwsf.2013.4._1044-1_
@@ -7006,17 +6604,10 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_myszko_knowles_1994]: https://doi.org/10.2514/6.1994-2327
 [research_nabed_2019]: https://doi.org/10.24237/djes.2019.12111
 [research_naesethrl_hoaddr_1975]: https://ntrs.nasa.gov/citations/19760004925
-[research_nagamatsuht_browerwbjr_1982]: https://ntrs.nasa.gov/citations/19820014335
-[research_nagamatsuht_dyerr_1984]: https://ntrs.nasa.gov/citations/19850018354
-[research_nagamatsuht_ficarrar_1983]: https://ntrs.nasa.gov/citations/19840008067
-[research_nagamatsuht_ficarrarv_1985]: https://ntrs.nasa.gov/citations/19850037440
-[research_nagamatsuht_orozcord_1984]: https://ntrs.nasa.gov/citations/19840055267
 [research_nagasaki_hasegawa_2020]: https://doi.org/10.1299/jsmefed.2020.os03-22
 [research_nagel_thomas_1965]: https://doi.org/10.2514/6.1965-208
 [research_nagelal_1982]: https://ntrs.nasa.gov/citations/19820017330
 [research_naigle_frankhouser_2016]: https://doi.org/10.4050/f-0072-2016-11380
-[research_nair_krishnan_2023]: https://doi.org/10.2514/6.2023-0344
-[research_nair_sirignano_2019]: https://doi.org/10.1016/j.proci.2018.06.059
 [research_naitoh_suzuki_2005]: https://doi.org/10.1299/jsmemecjo.2005.2.0_149
 [research_naitoh_yamamoto_2004]: https://doi.org/10.1299/jsmemecjo.2004.2.0_265
 [research_nakano_ohtsuki_2024]: https://doi.org/10.25144/19621
@@ -7037,14 +6628,12 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_naughton_bishop_2002]: https://doi.org/10.2514/6.2002-2700
 [research_nedungadi_barber_2001]: https://doi.org/10.2514/6.2001-665
 [research_neidhoefer_ryan_2009]: https://doi.org/10.2514/6.2009-3625
-[research_neilsrodrigues_rossaburns]: https://ntrs.nasa.gov/citations/20240016313
 [research_nelsonrobertc_thomasfo_1994]: https://ntrs.nasa.gov/citations/19950014926
 [research_neretti_2016]: https://doi.org/10.5772/62720
 [research_newsomjerryr_robertshawharryh_2003]: https://ntrs.nasa.gov/citations/20040085780
 [research_newton_2019]: https://doi.org/10.2514/6.2019-0157
 [research_ng_1990]: https://doi.org/10.2514/6.1990-594
 [research_ng_patel_2007]: https://doi.org/10.2514/6.2007-635
-[research_ngo_doman_2002]: https://doi.org/10.2514/6.2002-4775
 [research_ngtt_1989]: https://ntrs.nasa.gov/citations/19890061681
 [research_nguyen_xiong_2023]: https://doi.org/10.2514/6.2023-3945
 [research_nichinotakafumi_hahnseonghyeon_2010]: https://ntrs.nasa.gov/citations/20110008161
@@ -7069,7 +6658,6 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_nishino_shariff_2012]: https://doi.org/10.2514/1.j051196
 [research_niu_liu_2019]: https://doi.org/10.1063/1.5125847
 [research_nmd_yuta_2013]: https://doi.org/10.1299/jsmeicjwsf.2013.4._1107-1_
-[research_nomenclature_aircraft]: https://doi.org/10.4271/arp243b
 [research_nonomura_sekimoto_2011]: https://doi.org/10.1115/ajk2011-15010
 [research_norimasa_masumi_2013]: https://doi.org/10.1299/jsmeicjwsf.2013.4._1147-1_
 [research_northropaircraftinchawthorneca_1956]: https://doi.org/10.21236/ad0092134
@@ -7080,7 +6668,6 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_novak_cornelius_1987]: https://doi.org/10.2514/6.1987-155
 [research_novakcharlesj_corneliuskennethc_1987]: https://ntrs.nasa.gov/citations/19880008205
 [research_novel_flow_2006]: https://doi.org/10.2514/5.9781600866838.0293.0314
-[research_nsamdoughertyjr]: https://ntrs.nasa.gov/citations/20205010052
 [research_numerical_investigation_2023]: https://doi.org/10.1063/5.0141784
 [research_numerical_study_2025]: https://doi.org/10.47176/jafm.18.4.3128
 [research_oates_alvi_2011]: https://doi.org/10.21236/ada546107
@@ -7088,7 +6675,6 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_oertling]: https://doi.org/10.31390/gradschool_theses.3253
 [research_ogawa_asada_2018]: https://doi.org/10.2514/6.2018-1059
 [research_ogawa_asada_2024]: https://doi.org/10.2514/6.2024-0490
-[research_ogawa_iida_2007]: https://doi.org/10.1109/isie.2007.4374796
 [research_ogawara_kojima_2012]: https://doi.org/10.1299/jfst.7.89
 [research_ogawara_nakatani_2006]: https://doi.org/10.2514/6.2006-1406
 [research_ogunka_akbarzadeh_2023]: https://doi.org/10.2514/6.2023-2137
@@ -7101,9 +6687,7 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_okoye_lai_2021]: https://doi.org/10.1115/1.0003999v
 [research_okumoto_elsanker_1973]: https://doi.org/10.21236/ad0767182
 [research_oligney_frash_2008]: https://doi.org/10.2514/6.2008-1422
-[research_oliveira_santos_2026]: https://doi.org/10.56238/revgeov17n3-175
 [research_olsenwa_dorschrg_1972]: https://ntrs.nasa.gov/citations/19720011375
-[research_omana_mann_2016]: https://doi.org/10.2514/1.c033762
 [research_onder_meyers_2014]: https://doi.org/10.1063/1.4890242
 [research_ono_kameya_2015]: https://doi.org/10.2514/6.2015-0806
 [research_opaitsdmitryf_2012]: https://ntrs.nasa.gov/citations/20120015252
@@ -7115,7 +6699,6 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_orlov_corke_2005]: https://doi.org/10.2514/6.2005-1083
 [research_orlov_corke_2006]: https://doi.org/10.2514/6.2006-1206
 [research_ortmanns_kahler_2007]: https://doi.org/10.1016/j.ijheatfluidflow.2007.06.006
-[research_osborne_cooksey_1967]: https://doi.org/10.2172/4542933
 [research_oshima_kinoshita_1972]: https://doi.org/10.9746/sicetr1965.8.24
 [research_oshima_kinoshita_1975]: https://doi.org/10.1016/s1474-6670(17)67506-2
 [research_osmokrovic_hanson_2012]: https://doi.org/10.2514/6.2012-2944
@@ -7127,7 +6710,6 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_otake_yokoyama_2020]: https://doi.org/10.1299/jsmemecj.2020.j10208
 [research_ott_gallas_2019]: https://doi.org/10.1016/j.sna.2019.03.034
 [research_otto_2022]: https://doi.org/10.2514/1.j060680
-[research_oved_kashi_2023]: https://doi.org/10.2139/ssrn.4622082
 [research_owensdonaldb_coxdavide_2006]: https://ntrs.nasa.gov/citations/20060022541
 [research_owenslewisr_allanbriang_2006]: https://ntrs.nasa.gov/citations/20060004990
 [research_owenslewisr_allanbriang_2008]: https://ntrs.nasa.gov/citations/20080037569
@@ -7139,14 +6721,12 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_ozturk_jacob_2009]: https://doi.org/10.2514/6.2009-486
 [research_p_arokkiaswamy_2019]: https://doi.org/10.2139/ssrn.3507300
 [research_pack_2003]: https://ntrs.nasa.gov/citations/20030005490
-[research_pack_schaeffler_2002]: https://doi.org/10.2514/6.2002-3156
 [research_pack_yao_2003]: https://doi.org/10.2514/6.2003-4005
 [research_packard_bons_2011]: https://doi.org/10.2514/6.2011-3173
 [research_packard_bons_2012]: https://doi.org/10.2514/6.2012-2805
 [research_packard_bons_2012_b]: https://doi.org/10.2514/6.2012-754
 [research_packlatuniag_seifertavi_1999]: https://ntrs.nasa.gov/citations/20040086854
 [research_packlatuniag_seifertavi_2000]: https://ntrs.nasa.gov/citations/20000025187
-[research_packlatuniag_seifertavi_2000_b]: https://ntrs.nasa.gov/citations/20000093945
 [research_packlg_joslinrd_1998]: https://ntrs.nasa.gov/citations/20040110283
 [research_packmelton_lin_2019]: https://doi.org/10.2514/6.2019-3726
 [research_page_steinberg_1999]: https://doi.org/10.21236/ada368467
@@ -7155,7 +6735,6 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_pakhomov_2025]: https://doi.org/10.7868/s3034534025030123
 [research_palaniswamy_goldberg_2006]: https://doi.org/10.2514/6.2006-3681
 [research_paletta_belardo_2010]: https://doi.org/10.2514/1.c000265
-[research_palmer]: https://doi.org/10.14264/6c6bf6f
 [research_palumbo_chiatto_2018]: https://doi.org/10.3390/act7030059
 [research_palumbo_deluca_2021]: https://doi.org/10.3390/act10120326
 [research_palumbo_semeraro_2020]: https://doi.org/10.2514/6.2020-0099
@@ -7167,7 +6746,6 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_panontintl_1985]: https://ntrs.nasa.gov/citations/19850025222
 [research_paospaul_biedronrobertt_2004]: https://ntrs.nasa.gov/citations/20050041825
 [research_paospaul_biedronrobertt_2005]: https://ntrs.nasa.gov/citations/20050041939
-[research_papamoschou_mayoral_2014]: https://doi.org/10.1121/1.4899467
 [research_papathanasiouag_nagelrt_1986]: https://ntrs.nasa.gov/citations/19860060701
 [research_pappars_1979]: https://ntrs.nasa.gov/citations/19790010514
 [research_parametric_investigation_2013]: https://doi.org/10.2514/6.2013-398
@@ -7186,8 +6764,6 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_park_kim_2016]: https://doi.org/10.5407/jksv.2016.14.3.022
 [research_park_ko_2019]: https://doi.org/10.2514/6.2019-3395
 [research_park_ko_2020]: https://doi.org/10.2514/1.j058968
-[research_park_lee_2021]: https://doi.org/10.3795/ksme-b.2021.45.6.341
-[research_park_lee_2022]: https://doi.org/10.5139/jksas.2022.50.11.747
 [research_park_rew_1991]: https://doi.org/10.1007/bf00202456
 [research_park_rew_1992]: https://doi.org/10.1016/0894-1777(92)90077-i
 [research_parlettlp_1972]: https://ntrs.nasa.gov/citations/19730024207
@@ -7208,7 +6784,6 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_patel_ng_2007]: https://doi.org/10.2514/1.25368
 [research_patel_sowle_2005]: https://doi.org/10.2514/6.2005-5258
 [research_patel_sowle_2006]: https://doi.org/10.2514/6.2006-671
-[research_patelmehulp_cainalanb_2012]: https://ntrs.nasa.gov/citations/20120011134
 [research_patil_2003]: https://doi.org/10.2514/6.2003-1487
 [research_patrickcmurphy_1999]: https://ntrs.nasa.gov/citations/19990032463
 [research_patricksheaney]: https://ntrs.nasa.gov/citations/20200003567
@@ -7218,7 +6793,6 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_paulvijgen_alexziebart]: https://ntrs.nasa.gov/citations/20220016628
 [research_paulvijgen_alexziebart_2022]: https://ntrs.nasa.gov/citations/20220006733
 [research_pavlockkatem_2011]: https://ntrs.nasa.gov/citations/20110015358
-[research_pavlova_otani_2008]: https://doi.org/10.1016/j.ijheatfluidflow.2007.06.004
 [research_peakedj_owenfk_1979]: https://ntrs.nasa.gov/citations/19800006905
 [research_pearcewe_1982]: https://ntrs.nasa.gov/citations/19830009280
 [research_pearcewe_1983]: https://ntrs.nasa.gov/citations/19860018605
@@ -7232,9 +6806,6 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_peggrobertj_1962]: https://ntrs.nasa.gov/citations/19980227196
 [research_peigin_epstein_2006]: https://doi.org/10.2514/6.2006-3457
 [research_peijing_bassettgeorgez_2018]: https://ntrs.nasa.gov/citations/20190000993
-[research_peijing_chouerimarc_2018]: https://ntrs.nasa.gov/citations/20190000430
-[research_pellerito_mott_2024]: https://doi.org/10.2514/6.2024-2105
-[research_pellerito_mott_2025]: https://doi.org/10.2514/1.c037984
 [research_pennockap_1977]: https://ntrs.nasa.gov/citations/19770068218
 [research_pennockap_swiftg_1975]: https://ntrs.nasa.gov/citations/19750010105
 [research_pereira_almeida_2007]: https://doi.org/10.2514/6.2007-1889
@@ -7272,16 +6843,13 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_pires_madeira_2014]: https://doi.org/10.1201/b17488-165
 [research_pittsburghunivwashingtondcresearchstaff_1966]: https://doi.org/10.21236/ad0482131
 [research_pivar_1972]: https://ntrs.nasa.gov/citations/19720022626
-[research_pizialira_trenkaar_1974]: https://ntrs.nasa.gov/citations/19740020412
 [research_plaetschke_weiss_1988]: https://doi.org/10.1007/978-3-7091-2628-8_11
 [research_plasma_actuator_2018]: https://doi.org/10.1017/9781316676448.010
 [research_platzer_1976]: https://doi.org/10.21236/ada022768
 [research_pneumatic_flap_2006]: https://doi.org/10.2514/5.9781600866838.0191.0244
-[research_pneumatic_power]: https://doi.org/10.4271/air944
 [research_polhamusec_1971]: https://ntrs.nasa.gov/citations/19710012498
 [research_pollok_casella_2017]: https://doi.org/10.1016/j.ifacol.2017.08.2087
 [research_porter_baughn_2006]: https://doi.org/10.2514/6.2006-104
-[research_portillo_combs_2021]: https://doi.org/10.1115/1.0001685v
 [research_post_corke_2003]: https://doi.org/10.2514/6.2003-1024
 [research_post_corke_2004]: https://doi.org/10.21236/ada424112
 [research_post_corke_2004_b]: https://doi.org/10.2514/6.2004-2517
@@ -7292,7 +6860,6 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_potsdam_page_1997]: https://doi.org/10.2514/6.1997-2317
 [research_potterrc_vandamcp_1995]: https://ntrs.nasa.gov/citations/19960003144
 [research_pottpollenske_pfingsten_2010]: https://doi.org/10.2514/6.2010-3881
-[research_pouransari_vervisch_2014]: https://doi.org/10.1007/s10494-014-9539-3
 [research_pourrazzaghi_xu_2020]: https://doi.org/10.1088/1742-6596/1507/8/082011
 [research_pourrazzaghi_xu_2021]: https://doi.org/10.1177/00368504211023294
 [research_powellag_agrawals_1989]: https://ntrs.nasa.gov/citations/19890017470
@@ -7302,13 +6869,9 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_pramanik_das_2014]: https://doi.org/10.1016/j.compfluid.2014.01.020
 [research_pramanik_das_2014_b]: https://doi.org/10.3850/978-981-09-1139-3_362
 [research_pramanik_kumardas_2014]: https://doi.org/10.1108/hff-01-2012-0005
-[research_prasad_koseff_1989]: https://doi.org/10.1063/1.857491
 [research_prattgeorgel_shieldserousseau_1952]: https://ntrs.nasa.gov/citations/19930086963
 [research_price_tang_2025]: https://doi.org/10.2514/6.2025-2822
 [research_primary_flight]: https://doi.org/10.4271/air4922
-[research_procedure_for]: https://doi.org/10.4271/arp4418b
-[research_procedure_for_b]: https://doi.org/10.4271/arp4418a
-[research_procedure_for_c]: https://doi.org/10.4271/arp4418
 [research_propulsive_lift_noise_1976]: https://doi.org/10.2514/5.9781600865190.0027.0039
 [research_protz_sparks_1998]: https://doi.org/10.2514/6.1998-4298
 [research_pulliamth_jesperendc_1986]: https://ntrs.nasa.gov/citations/19860021523
@@ -7324,7 +6887,6 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_qu_li_2011]: https://doi.org/10.1109/icciautom.2011.6183979
 [research_qu_li_2013]: https://doi.org/10.12696/gsam.2013.0935
 [research_queens_cochranej_1982]: https://ntrs.nasa.gov/citations/19980201423
-[research_quiet_clean_1976]: https://ntrs.nasa.gov/citations/19800006848
 [research_quigleyhc_holzhauserca_1974]: https://ntrs.nasa.gov/citations/19750005748
 [research_quigleyhc_innisrc_1974]: https://ntrs.nasa.gov/citations/19740014524
 [research_quigleyhc_sinclairsrm_1971]: https://ntrs.nasa.gov/citations/19720026588
@@ -7339,9 +6901,7 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_raab_2026]: https://doi.org/10.21741/9781644904251-262
 [research_raciszstanleyf_quinnjohnh_1948]: https://ntrs.nasa.gov/citations/19930082300
 [research_rackers_desalvo_2026]: https://doi.org/10.2514/6.2026-1506
-[research_raghavendra_madan_2022]: https://doi.org/10.1007/s11668-022-01472-z
 [research_rahman_whidborne_2010]: https://doi.org/10.2514/1.46195
-[research_rahn_tadigadapa_2012]: https://doi.org/10.21236/ada567097
 [research_rahni_jahangirian_2025]: https://doi.org/10.1134/s0015462825603341
 [research_rahni_jahangirian_2025_b]: https://doi.org/10.1016/j.flowmeasinst.2025.102951
 [research_raj_rana_2025]: https://doi.org/10.2514/6.2025-0570
@@ -7351,11 +6911,8 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_raju_mittal_2007]: https://doi.org/10.2514/6.2007-1421
 [research_raju_mittal_2008]: https://doi.org/10.2514/1.37147
 [research_ramaswamy_schreyer_2019]: https://doi.org/10.2514/6.2019-1653
-[research_ramaswamy_schreyer_2022]: https://doi.org/10.1007/s10494-022-00324-y
-[research_ramaswamy_schreyer_2022_b]: https://doi.org/10.2514/6.2022-0700
 [research_ramospedroza_mackunis_2017]: https://doi.org/10.1155/2017/4934281
 [research_ramsey_chapman_2000]: https://doi.org/10.2514/6.2000-1010
-[research_rana_herrmann_2011]: https://doi.org/10.1063/1.3640022
 [research_raneydavidl_cabellrandolphh_2004]: https://ntrs.nasa.gov/citations/20040095946
 [research_rao_kariya_1988]: https://doi.org/10.2514/6.1988-3546
 [research_rao_liu_2020]: https://doi.org/10.1093/icb/icaa119
@@ -7374,11 +6931,9 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_ravindren_ghia_2007]: https://doi.org/10.1115/fedsm2007-37683
 [research_rayronaldj_cobleighbrentr_2002]: https://ntrs.nasa.gov/citations/20030005804
 [research_razon_maher_2023]: https://doi.org/10.2514/6.2023-1551
-[research_reader_1976]: https://doi.org/10.21236/ada026548
 [research_reba_1966]: https://doi.org/10.1038/scientificamerican0666-84
 [research_rebuffetpierre_poissonquintonph_1952]: https://ntrs.nasa.gov/citations/19930093899
 [research_recktenwald_ahmed_2008]: https://doi.org/10.2514/6.2008-371
-[research_reddall_1955]: https://doi.org/10.4271/550185
 [research_reddlt_hansonpw_1979]: https://ntrs.nasa.gov/citations/19800002782
 [research_reddy_1975]: https://doi.org/10.2514/6.1975-470
 [research_reddy_subramanian_2025]: https://doi.org/10.1063/5.0270890
@@ -7398,15 +6953,11 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_reist_zingg_2015]: https://doi.org/10.2514/6.2015-3292
 [research_reist_zingg_2016]: https://doi.org/10.2514/6.2016-3874
 [research_renewoszidlo_arvinshmilovich_2022]: https://ntrs.nasa.gov/citations/20220006728
-[research_renkaar_1975]: https://ntrs.nasa.gov/citations/19760011051
 [research_renselaerdj_nishidars_1975]: https://ntrs.nasa.gov/citations/19760014071
-[research_rensheng_zhangjiazhong_2014]: https://doi.org/10.7498/aps.63.024702
 [research_reubush_1977]: https://doi.org/10.2514/6.1977-884
 [research_review_afc_2024]: https://doi.org/10.3389/fmech.2024.1380675
 [research_rew_park_1996]: https://doi.org/10.1007/bf02953947
-[research_rewert_jyin_2004]: https://ntrs.nasa.gov/citations/20040182283
 [research_reynolds_number_2000]: https://doi.org/10.1017/cbo9780511529535.007
-[research_rezybj_1976]: https://ntrs.nasa.gov/citations/19770010146
 [research_ricardoaarteaga_nickolasdemidovich]: https://ntrs.nasa.gov/citations/20230015051
 [research_rice_1946]: https://doi.org/10.21236/adb803248
 [research_rice_amitay_2018]: https://doi.org/10.2514/6.2018-4020
@@ -7422,7 +6973,6 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_rimasauskiene_2017]: https://doi.org/10.1007/978-3-319-50568-8_19
 [research_rimasauskiene_2017_b]: https://doi.org/10.1007/978-3-319-50568-8_18
 [research_rinde_1969]: https://doi.org/10.2514/6.1969-788
-[research_rivera_manteufel_2014]: https://doi.org/10.1115/imece2014-37722
 [research_rixon_johari_2003]: https://doi.org/10.1115/1.1627833
 [research_rizzetta_garmann_2024]: https://doi.org/10.2514/6.2024-3795
 [research_rizzetta_garmann_2025]: https://doi.org/10.2514/6.2025-3893
@@ -7441,8 +6991,6 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_rodmanlc_woodnj_1986]: https://ntrs.nasa.gov/citations/19870013200
 [research_rodmanlc_woodnj_1987]: https://ntrs.nasa.gov/citations/19880009173
 [research_rodmanlc_woodnj_1989]: https://ntrs.nasa.gov/citations/19890059991
-[research_rodrigues_burns_2025]: https://doi.org/10.2514/6.2025-2402
-[research_rodrigues_modanloujoubari_2024]: https://doi.org/10.23967/eccomas.2024.102
 [research_roepckefa_nicksontb_1973]: https://ntrs.nasa.gov/citations/19740009638
 [research_roeser_monnich_2024]: https://doi.org/10.1007/978-3-031-69425-7_5
 [research_rollslstewart_innisrobertc_1956]: https://ntrs.nasa.gov/citations/19930088963
@@ -7467,8 +7015,6 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_roysdon_khalid_2010]: https://doi.org/10.2514/6.2010-9167
 [research_roysdon_khalid_2011]: https://doi.org/10.2514/6.2011-1563
 [research_rudolphpeterkc_1996]: https://ntrs.nasa.gov/citations/19960052267
-[research_rumerman_1992]: https://doi.org/10.1121/1.402496
-[research_rumerman_2002]: https://doi.org/10.1121/1.4778285
 [research_rumseychristoperl_schaefflernormanw_2005]: https://ntrs.nasa.gov/citations/20050185527
 [research_rumseychristopherl_2007]: https://ntrs.nasa.gov/citations/20070031059
 [research_rumseychristopherl_2008]: https://ntrs.nasa.gov/citations/20090026305
@@ -7494,7 +7040,6 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_sahu_2006]: https://doi.org/10.2514/6.2006-6006
 [research_saifuddin_abdulmutaali_2025]: https://doi.org/10.30880/ijie.2025.17.04.012
 [research_sakradse]: https://doi.org/10.15760/etd.7682
-[research_salauddin_flores_2021]: https://doi.org/10.1115/gt2021-59421
 [research_salikuddin_brown_1985]: https://doi.org/10.2514/6.1985-3083
 [research_salikuddin_brown_1987]: https://doi.org/10.2514/3.45410
 [research_salinas_wojewodka_2018]: https://doi.org/10.2514/6.2018-1797
@@ -7503,13 +7048,11 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_samanichne_heidelberglj_1973]: https://ntrs.nasa.gov/citations/19740001930
 [research_samimy_2017]: https://doi.org/10.35294/ls201704.samimy2
 [research_samimy_2017_b]: https://doi.org/10.35294/ls201704.samimy1
-[research_samimy_webb_2011]: https://doi.org/10.21236/ada564713
 [research_samimy_webb_2018]: https://doi.org/10.2514/1.j056610
 [research_samimym_kastnerj_2006]: https://ntrs.nasa.gov/citations/20070002702
 [research_sammymo_2010]: https://ntrs.nasa.gov/citations/20100018563
 [research_samuels_1982]: https://doi.org/10.2514/3.57418
 [research_sano_seki_2020]: https://doi.org/10.1299/transjsme.20-00041
-[research_santese_martinezsanchis_2024]: https://doi.org/10.1007/s10494-024-00554-2
 [research_santhanakrishnan_reasor_2008]: https://doi.org/10.2514/6.2008-541
 [research_sarahllangston_courtneyswinski]: https://ntrs.nasa.gov/citations/20240015879
 [research_saraswathi_2000]: https://doi.org/10.14429/dsj.50.3366
@@ -7520,8 +7063,6 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_sarout_islam_2022]: https://doi.org/10.3390/en15239145
 [research_sarwar]: https://doi.org/10.5821/dissertation-2117-328201
 [research_sarwar_bergada_2021]: https://doi.org/10.1016/j.apm.2021.01.044
-[research_sasaki_iguchi_2002]: https://doi.org/10.2355/isijinternational.42.1196
-[research_sasaki_janata_2006]: https://doi.org/10.1109/jsen.2006.884173
 [research_sato_2018]: https://doi.org/10.1299/jsmemecj.2018.s0520303
 [research_sato_2021]: https://doi.org/10.1299/jsmemecj.2021.s053-14
 [research_sato_2025]: https://doi.org/10.1063/5.0245278
@@ -7538,7 +7079,6 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_sawant_oyarzun_2012]: https://doi.org/10.2514/1.j051459
 [research_sawyerrichardh_trantjamespjr_1947]: https://ntrs.nasa.gov/citations/20050019378
 [research_sawyerrichardh_trantjamespjr_1950]: https://ntrs.nasa.gov/citations/20050028471
-[research_scallionwilliami_1999]: https://ntrs.nasa.gov/citations/19990117251
 [research_scantlingwl_glossbb_1974]: https://ntrs.nasa.gov/citations/19740021254
 [research_schaefflernormanw_allanbriang_2010]: https://ntrs.nasa.gov/citations/20100033120
 [research_schaefflernormanw_hepnertimothye_2002]: https://ntrs.nasa.gov/citations/20030006461
@@ -7562,13 +7102,8 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_schoensterja_schroederjc_1977]: https://ntrs.nasa.gov/citations/19770052094
 [research_scholz_ortmanns_2006]: https://doi.org/10.2514/6.2006-2850
 [research_schreckergo_mausjr_1974]: https://ntrs.nasa.gov/citations/19740009643
-[research_schulze_maxfield_1995]: https://doi.org/10.2514/6.1995-2980
-[research_schwendemannmf_1981]: https://ntrs.nasa.gov/citations/19830003774
-[research_schwendemannmf_sandersbw_1982]: https://ntrs.nasa.gov/citations/19820054149
 [research_schwierw_1947]: https://ntrs.nasa.gov/citations/20030065302
-[research_scibilia_2000]: https://doi.org/10.1007/s11630-000-0048-4
 [research_scottrobertc_castellucciomarka_2011]: https://ntrs.nasa.gov/citations/20110009997
-[research_scuderi_2022]: https://doi.org/10.23919/eumc50147.2022.9784212
 [research_seacordcharlesl_campbelljohnp_1945]: https://ntrs.nasa.gov/citations/19930092552
 [research_sears_1980]: https://doi.org/10.2514/6.1980-3036
 [research_sedor_1996]: https://doi.org/10.2514/6.1996-4
@@ -7606,7 +7141,6 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_serrani_2022]: https://doi.org/10.52843/cassyni.2s5cr8
 [research_serrar_elkhlifi_2024]: https://doi.org/10.2139/ssrn.4801402
 [research_serrar_khlifi_2026]: https://doi.org/10.1016/j.ast.2026.111630
-[research_seshan_1981]: https://doi.org/10.2514/6.1981-2055
 [research_settles_vas_1976]: https://doi.org/10.2514/6.1976-164
 [research_seyedehhosseini_cpvandam]: https://ntrs.nasa.gov/citations/20210019743
 [research_seyedehsheidahosseini_cpvandam]: https://ntrs.nasa.gov/citations/20205010919
@@ -7618,24 +7152,14 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_sgueglia]: https://doi.org/10.70675/2046c996z7c68z4b65za4ffz08317a09ee02
 [research_shah_wong_2008]: https://doi.org/10.2514/6.2008-742
 [research_shahid_mashud_2017]: https://doi.org/10.1063/1.4984648
-[research_shakouchi_1989]: https://doi.org/10.1115/1.3153085
-[research_shakouchi_2003]: https://doi.org/10.1115/fedsm2003-45132
 [research_shakouchi_fukushima_2019]: https://doi.org/10.1299/jsmemecj.2019.s05113p
 [research_shang_2007]: https://doi.org/10.21236/ada476250
-[research_shang_2021]: https://doi.org/10.32920/ryerson.14646084
-[research_shang_hodges_1996]: https://doi.org/10.2514/6.1996-1548
 [research_shang_huang_2014]: https://doi.org/10.2514/6.2014-0324
-[research_shang_liu_2009]: https://doi.org/10.1109/cdc.2009.5400042
-[research_shang_liu_2009_b]: https://doi.org/10.1109/ical.2009.5262646
-[research_shang_liu_2010]: https://doi.org/10.1109/aim.2010.5695895
 [research_shang_liu_2010_b]: https://doi.org/10.1109/tcst.2009.2021647
-[research_shang_liu_2011]: https://doi.org/10.1109/tcst.2010.2076353
 [research_shannon_morris_2008]: https://doi.org/10.2514/6.2008-2815
 [research_shao_guo_2024]: https://doi.org/10.1061/jaeeez.aseng-5593
 [research_shao_he_2026]: https://doi.org/10.2139/ssrn.6351262
-[research_shaoheng_2021]: https://doi.org/10.1109/icmtma52658.2021.00010
 [research_sharma_hosder_2024]: https://doi.org/10.3390/aerospace11020137
-[research_sharma_ranganayakulu_2025]: https://doi.org/10.21203/rs.3.rs-6702843/v1
 [research_sharma_ranganayakulu_2025_b]: https://doi.org/10.2139/ssrn.5291462
 [research_sharma_ranganayakulu_2026]: https://doi.org/10.1007/s13272-026-00974-y
 [research_sharma_ranganayakulu_2026_b]: https://doi.org/10.1007/s44245-026-00257-0
@@ -7646,7 +7170,6 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_shea_glauser_2012]: https://doi.org/10.2514/6.2012-2804
 [research_shea_smith_2008]: https://doi.org/10.2514/6.2008-601
 [research_sheeler_wolff_2025]: https://doi.org/10.2514/6.2025-1869
-[research_shehadi_jones_2015]: https://doi.org/10.1111/ina.12211
 [research_sheidahosseini_cpvandam]: https://ntrs.nasa.gov/citations/20205004160
 [research_shen_yang_2018]: https://doi.org/10.23919/chicc.2018.8482650
 [research_sheng_sun_2026]: https://doi.org/10.2139/ssrn.6515698
@@ -7678,7 +7201,6 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_shmilovicharvin_yadlinyoram_2017]: https://ntrs.nasa.gov/citations/20170001394
 [research_shore_bodson_2004]: https://doi.org/10.23919/acc.2004.1384495
 [research_shore_bodson_2005]: https://doi.org/10.2514/1.8178
-[research_shovlinmd_1977]: https://ntrs.nasa.gov/citations/19770017193
 [research_shovlinmd_1978]: https://ntrs.nasa.gov/citations/19780059612
 [research_shovlinmd_englarrj_1987]: https://ntrs.nasa.gov/citations/19870006526
 [research_shovlinmd_skavdahlh_1979]: https://ntrs.nasa.gov/citations/19790056747
@@ -7711,13 +7233,9 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_simonff_cianconeml_1985]: https://ntrs.nasa.gov/citations/19850011959
 [research_simonfrederickf_cianconemichaell_1987]: https://ntrs.nasa.gov/citations/19870058568
 [research_simpson_1972]: https://doi.org/10.2514/6.1972-785
-[research_simpson_luong_1989]: https://doi.org/10.2514/6.1989-1074
-[research_simpson_luong_1991]: https://doi.org/10.2514/3.46014
 [research_singbeil_ghiroaga_2021]: https://doi.org/10.18409/ispiv.v1i1.88
-[research_singh_kumar_2020]: https://doi.org/10.1177/0957650920925945
 [research_singh_ramamurthi_2009]: https://doi.org/10.1016/j.expthermflusci.2009.01.008
 [research_singh_roy_2008]: https://doi.org/10.2514/6.2008-1102
-[research_singh_rudman_2018]: https://doi.org/10.1103/physrevfluids.3.094607
 [research_singh_toropov_2016]: https://doi.org/10.2514/6.2016-3364
 [research_singhal_tao_2009]: https://doi.org/10.2514/6.2009-6177
 [research_singhnegi_tayade_2022]: https://doi.org/10.1109/icue55325.2022.10113546
@@ -7729,7 +7247,6 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_skavdahlh_pattersondh_1972]: https://ntrs.nasa.gov/citations/19730021285
 [research_skillenmichaeld_crossleywilliama_2008]: https://ntrs.nasa.gov/citations/20080009777
 [research_skotnickasiepsiak_2017]: https://doi.org/10.1115/1.4037522
-[research_skotnickasiepsiak_2020]: https://doi.org/10.3390/en14010034
 [research_skowam_peakedj_1983]: https://ntrs.nasa.gov/citations/19840002021
 [research_skowam_penkedj_1982]: https://ntrs.nasa.gov/citations/19830010422
 [research_sleemanwcjr_phelpsaeiii_1976]: https://ntrs.nasa.gov/citations/19780016105
@@ -7741,7 +7258,6 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_slupski_tajik_2019]: https://doi.org/10.5937/fmet1903599s
 [research_smallwood_canfield_2003]: https://doi.org/10.2514/6.2003-1459
 [research_smeltzerdb_durstonda_1983]: https://ntrs.nasa.gov/citations/19830066993
-[research_smith_1968]: https://doi.org/10.21236/ad0684315
 [research_smith_2005]: https://doi.org/10.21236/ada433351
 [research_smith_2010]: https://doi.org/10.21236/ada563071
 [research_smith_nelson_1988]: https://doi.org/10.2514/6.1988-2556
@@ -7758,15 +7274,12 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_smithsc_cliffse_1987]: https://ntrs.nasa.gov/citations/19880029248
 [research_smithstephenc_stonumronaldk_1989]: https://ntrs.nasa.gov/citations/19890014914
 [research_smithwg_1953]: https://ntrs.nasa.gov/citations/19630003988
-[research_smits_miles_2002]: https://doi.org/10.21236/ada405454
 [research_smyk_2017]: https://doi.org/10.1051/epjconf/201714302111
 [research_smyk_gil_2020]: https://doi.org/10.3390/act9040100
-[research_smyk_markowicz_2022]: https://doi.org/10.21495/51-2-373
 [research_smyk_markowicz_2022_b]: https://doi.org/10.3390/fluids7100323
 [research_smyk_stopel_2025]: https://doi.org/10.3390/mi16070803
 [research_smyk_wawrzyniak_2020]: https://doi.org/10.2478/mme-2020-0004
 [research_snyder_hur_2005]: https://doi.org/10.2514/6.2005-1948
-[research_snyderjohnsteven_baldwinjeff_2013]: https://ntrs.nasa.gov/citations/20150008025
 [research_snyderp_orloffkl_1984]: https://ntrs.nasa.gov/citations/19840026624
 [research_sobey_2000]: https://doi.org/10.1093/oso/9780198506751.003.0010
 [research_sodermanpt_aikentn_1971]: https://ntrs.nasa.gov/citations/19720002382
@@ -7792,8 +7305,6 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_spaidfrankw_keenerearlr_1991]: https://ntrs.nasa.gov/citations/19920030581
 [research_sparks]: https://doi.org/10.1109/cca.1998.728594
 [research_sparks_sparks_1997]: https://doi.org/10.2514/6.1997-3636
-[research_specification_for]: https://doi.org/10.1520/f2585-08
-[research_specification_for_b]: https://doi.org/10.1520/f2425-05ar09
 [research_speyer_kim_2000]: https://doi.org/10.21236/ada384902
 [research_speyer_kim_2002]: https://doi.org/10.21236/ada416220
 [research_spitzerre_1972]: https://ntrs.nasa.gov/citations/19720020367
@@ -7810,7 +7321,6 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_stalnov_seifert_2010]: https://ntrs.nasa.gov/citations/20100018575
 [research_standard_practice]: https://doi.org/10.1520/f3478-20
 [research_starn]: https://doi.org/10.33915/etd.1466
-[research_stathopoulos_surry_1983]: https://doi.org/10.1016/0167-6105(83)90152-6
 [research_static_longitudinal_2003]: https://doi.org/10.2514/5.9781600861840.0223.0233
 [research_stegmeier_kimn_2019]: https://doi.org/10.2514/6.2019-1902
 [research_steing_hartmanngl_1977]: https://ntrs.nasa.gov/citations/19780028449
@@ -7862,7 +7372,6 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_sun_wang_1989]: https://doi.org/10.2514/3.45860
 [research_sun_wang_2020]: https://doi.org/10.3390/act9040122
 [research_sun_wang_2024]: https://doi.org/10.3390/aerospace11110916
-[research_sundall_kanbur_2026]: https://doi.org/10.1615/tfec2026.fna.061305
 [research_sundaram_sengupta_2022]: https://doi.org/10.1063/5.0107638
 [research_sundstrom_tomac_2020]: https://doi.org/10.1007/s10494-020-00193-3
 [research_suresh_radhakrishnan_2013]: https://doi.org/10.1016/j.ast.2011.10.012
@@ -7882,8 +7391,6 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_symington_1940]: https://doi.org/10.4271/400114
 [research_synthetic_jet_2018]: https://doi.org/10.1017/9781316676448.009
 [research_tabacki_braslowal_1983]: https://ntrs.nasa.gov/citations/19850021647
-[research_taborda_sommerfeld_2024]: https://doi.org/10.21203/rs.3.rs-4789439/v1
-[research_tabuchi_fujino_2023]: https://doi.org/10.2514/6.2023-4024
 [research_tachie_bergstrom_2001]: https://doi.org/10.1615/tsfp2.1560
 [research_tadjfar_asgari_2017]: https://doi.org/10.1115/1.4037841
 [research_tadjfar_kamari_2019]: https://doi.org/10.1115/1.4044985
@@ -7909,17 +7416,14 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_tamburello_amitay_2006]: https://doi.org/10.2514/6.2006-477
 [research_tamckw_reddynn_1976]: https://ntrs.nasa.gov/citations/19760058412
 [research_tan_2009]: https://doi.org/10.3901/jme.2009.06.055
-[research_tan_2019]: https://doi.org/10.1063/1.5090110
 [research_tan_agarwal_2004]: https://doi.org/10.2514/6.2004-2122
 [research_tan_ma_2018]: https://doi.org/10.1109/yac.2018.8406385
 [research_tan_tan_2011]: https://doi.org/10.1109/student.2011.6089319
 [research_tanaka_hasegawa_2000]: https://doi.org/10.1299/jsmetokai.2000.49.63
 [research_tang_agarwal_2018]: https://doi.org/10.2514/6.2018-4017
-[research_tang_li_2024]: https://doi.org/10.2139/ssrn.4910729
 [research_tang_salunkhe_2013]: https://doi.org/10.1007/978-3-642-40371-2_16
 [research_tang_salunkhe_2014]: https://doi.org/10.1016/j.expthermflusci.2014.03.015
 [research_tangmh_pearsongpe_1973]: https://ntrs.nasa.gov/citations/19730016322
-[research_tangyvettey_silcoxrichardj_1996]: https://ntrs.nasa.gov/citations/20040110716
 [research_tavakkoli_niliahmadabadi_2023]: https://doi.org/10.2139/ssrn.4451295
 [research_tavella_lee_1986]: https://doi.org/10.2514/6.1986-475
 [research_tavellada_1985]: https://ntrs.nasa.gov/citations/19860019443
@@ -7931,32 +7435,25 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_telionis_1995]: https://doi.org/10.21236/ada299820
 [research_telionis_2001]: https://doi.org/10.21236/ada398139
 [research_telionis_vlachos_2003]: https://doi.org/10.21236/ada419486
-[research_templeton_davis_2017]: https://doi.org/10.2514/6.2017-0646
 [research_tennant_johnson_1976]: https://doi.org/10.2514/3.48147
 [research_teo]: https://doi.org/10.32657/10356/73333
 [research_teo_new_2016]: https://doi.org/10.2514/6.2016-0801
-[research_terekhov_pakhomov_2009]: https://doi.org/10.1115/1.3082404
 [research_tereshonok_2008]: https://doi.org/10.2514/6.2008-287
 [research_terrell_zeinsabatto_2017]: https://doi.org/10.1109/secon.2017.7925309
 [research_tesar_2010]: https://doi.org/10.2495/afm100291
 [research_tesar_2015]: https://doi.org/10.1016/j.sna.2015.08.019
 [research_tesar_2015_b]: https://doi.org/10.1051/epjconf/20159202097
 [research_tesar_2016]: https://doi.org/10.1051/epjconf/201611402123
-[research_tesar_2017]: https://doi.org/10.1051/epjconf/201714302129
 [research_tesar_peszynski_2013]: https://doi.org/10.1051/epjconf/20134501074
-[research_tesar_smyk_2015]: https://doi.org/10.2495/safe150161
 [research_tesar_zhong_2013]: https://doi.org/10.2514/1.j051791
 [research_tetsuya_hiroaki_2013]: https://doi.org/10.1299/jsmeicjwsf.2013.4._1140-1_
 [research_tewes_taubert_2015]: https://doi.org/10.2514/6.2015-0783
 [research_thake_packard_2010]: https://doi.org/10.2514/6.2010-4579
 [research_the_aerodynamic_and_2015]: https://doi.org/10.20535/0203-377129201567172
-[research_the_answer_2018]: https://doi.org/10.1109/mspec.2018.8423567
 [research_the_estimated_available_2015]: https://doi.org/10.20535/2219-380412201546101
 [research_the_failure_2017]: https://doi.org/10.20474/jater-3.5.4
 [research_theisen_scruggs_1973]: https://doi.org/10.21236/ad0771304
 [research_thomasrussellh_guoyueping_2018]: https://ntrs.nasa.gov/citations/20190027211
-[research_thomasrussellh_menglevinodg_2007]: https://ntrs.nasa.gov/citations/20070021688
-[research_thomasrussh_menglevinodg_2006]: https://ntrs.nasa.gov/citations/20060019133
 [research_thompson_eitenmiller_1983]: https://doi.org/10.2514/6.1983-2195
 [research_thompsonrobertf_1954]: https://ntrs.nasa.gov/citations/19930088124
 [research_three_dimensional_flow_2024]: https://doi.org/10.47176/jafm.17.7.2463
@@ -7969,13 +7466,11 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_tischlermarkb_1995]: https://ntrs.nasa.gov/citations/19960003220
 [research_tocquer]: https://doi.org/10.70675/dd9fde9bzd09ez4190zbaeez992f439a9815
 [research_tocquer_raibaudo_2024]: https://doi.org/10.1016/j.sna.2024.115739
-[research_todo]: https://doi.org/10.70675/82e6e200zb323z401bz94f8zb4d42e80cee7
 [research_tolesrd_andersondc_1983]: https://ntrs.nasa.gov/citations/19840033878
 [research_tolkachev_2022]: https://doi.org/10.53954/9785604788967_191
 [research_tomac_2020]: https://doi.org/10.21541/apjes.583500
 [research_tomac_gregory_2013]: https://doi.org/10.2514/6.2013-2478
 [research_tomac_gregory_2014]: https://doi.org/10.1007/s00348-014-1730-8
-[research_tomac_gregory_2016]: https://doi.org/10.1615/atomizspr.2015012652
 [research_tomac_gregory_2017]: https://doi.org/10.2514/6.2017-3314
 [research_tomac_gregory_2019]: https://doi.org/10.2514/1.j057065
 [research_tomac_sundstrom_2019]: https://doi.org/10.2514/1.j058301
@@ -7986,7 +7481,6 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_torenbeek_2016]: https://doi.org/10.1002/9780470686652.eae1003
 [research_torresfranciscoj_1986]: https://ntrs.nasa.gov/citations/19880025499
 [research_torresfranciscoj_1987]: https://ntrs.nasa.gov/citations/19870015248
-[research_totaro_robert_2008]: https://doi.org/10.3813/aaa.918062
 [research_tournes_johnson_1999]: https://doi.org/10.2514/6.1999-3982
 [research_tournes_shtessel_1997]: https://doi.org/10.2514/6.1997-3633
 [research_trailing_edge_2006]: https://doi.org/10.2514/5.9781600866838.0245.0276
@@ -7995,7 +7489,6 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_trancossi_maharshi_2013]: https://doi.org/10.1115/imece2013-63459
 [research_trancossi_pascoa_2020]: https://doi.org/10.4271/2020-01-0026
 [research_trankletl_rabinuh_1983]: https://ntrs.nasa.gov/citations/19830060710
-[research_transient_measurement]: https://doi.org/10.4271/air6418
 [research_traub_gilarranz_2002]: https://doi.org/10.2514/6.2002-415
 [research_traven_whitley_1995]: https://doi.org/10.21236/ada300965
 [research_travnicek_brouckova_2018]: https://doi.org/10.1115/1.4039792
@@ -8004,7 +7497,6 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_trobaugh_lee_1980]: https://doi.org/10.21236/ada087768
 [research_truong_marouf_2022]: https://doi.org/10.2514/6.2022-3238
 [research_truong_marouf_2023]: https://doi.org/10.1108/hff-09-2022-0558
-[research_tseng]: https://doi.org/10.37099/mtu.dc.etds/415
 [research_tseng_yang_2011]: https://doi.org/10.1017/jmech.2011.53
 [research_tso_margason_1995]: https://doi.org/10.2514/6.1995-195
 [research_tso_margason_1996]: https://doi.org/10.2514/6.1996-25
@@ -8018,23 +7510,18 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_tungphamduy_tomoakiwatanabe_2023]: https://doi.org/10.37934/cfdl.16.1.150170
 [research_turner_2003]: https://doi.org/10.2514/6.2003-2710
 [research_turnertravisl_2011]: https://ntrs.nasa.gov/citations/20110002990
-[research_turnquistnorm_mcnicklealand_2000]: https://ntrs.nasa.gov/citations/20010000007
 [research_turrizianirv_lovellwa_1978]: https://ntrs.nasa.gov/citations/19780025144
 [research_tyler_schwabacher_2002]: https://doi.org/10.2514/6.2002-702
 [research_ueno_sarae_2004]: https://doi.org/10.2514/6.2004-4943
 [research_ugrina_flatau_2004]: https://doi.org/10.1115/imece2004-62485
 [research_ukpai_rediniotis]: https://doi.org/10.1109/acc.2003.1239840
-[research_umstead_croxton_1967]: https://doi.org/10.21236/ad0653591
 [research_ungaree_chandiramanikl_1972]: https://ntrs.nasa.gov/citations/19730006299
 [research_urnes_yeager_1991]: https://doi.org/10.2514/6.1991-3106
 [research_urnesjamesm_stewartjames_1990]: https://ntrs.nasa.gov/citations/19910003389
 [research_urzynicok_fernholz_1999]: https://doi.org/10.1007/978-94-011-4199-4_40
 [research_vadillo_agarwal_2003]: https://doi.org/10.2514/6.2003-4158
-[research_vagia_tzes_2010]: https://doi.org/10.1109/acc.2010.5530598
-[research_vaicaitis_lin_1972]: https://doi.org/10.2514/3.50288
 [research_vale_afonso_2014]: https://doi.org/10.1201/b17488-69
 [research_valej_2013]: https://doi.org/10.4172/2168-9792.1000119
-[research_vallee_2002]: https://doi.org/10.1007/978-3-540-45856-2_16
 [research_vanburen_whalen_2015]: https://doi.org/10.1063/1.4932359
 [research_vancefdippoldiii_2022]: https://ntrs.nasa.gov/citations/20220010443
 [research_vanderschaaf_lu_2024]: https://doi.org/10.23919/acc60939.2024.10644206
@@ -8044,7 +7531,6 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_vangraasfrank_braaschmichael_1991]: https://ntrs.nasa.gov/citations/19920008752
 [research_vangraasfrank_braaschmichael_1992]: https://ntrs.nasa.gov/citations/19920047399
 [research_vangraasfrank_braaschmichaels_1991]: https://ntrs.nasa.gov/citations/19920056937
-[research_vanhooff_blocken_2012]: https://doi.org/10.1016/j.buildenv.2012.03.020
 [research_vanhout_rinsky_2018]: https://doi.org/10.1016/j.ijheatfluidflow.2018.01.010
 [research_vanraalte_vanoudheusden_2001]: https://doi.org/10.2514/6.2001-2785
 [research_vasilescu_dancila_2003]: https://doi.org/10.2514/6.2003-219
@@ -8062,7 +7548,6 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_velasquez]: https://doi.org/10.31274/etd-180810-5861
 [research_velicki_thrash_2010]: https://doi.org/10.1017/s0001924000004000
 [research_vepa_2008]: https://doi.org/10.1007/978-1-4020-6858-4_57
-[research_verma_manisankar_2025]: https://doi.org/10.2514/1.j065217
 [research_vetrella_causa_2017]: https://doi.org/10.1109/icuas.2017.7991378
 [research_vibhu_taubert_2026]: https://doi.org/10.2514/6.2026-1507
 [research_vich_1952]: https://doi.org/10.21236/ada075996
@@ -8084,7 +7569,6 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_viswanath_madhavan_2003]: https://doi.org/10.2514/6.2003-223
 [research_viswanath_madhavan_2004]: https://doi.org/10.1017/s0001924000000233
 [research_viswanath_ramesh_2000]: https://doi.org/10.1007/s003480050431
-[research_viswanathpr_sankaranl_1978]: https://ntrs.nasa.gov/citations/19780057957
 [research_viturro_leclainchemartinez_2018]: https://doi.org/10.2514/6.2018-4037
 [research_vladimir_tun_2018]: https://doi.org/10.1051/matecconf/201822105005
 [research_voglerrd_1967]: https://ntrs.nasa.gov/citations/19670023925
@@ -8128,7 +7612,6 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_wall_interference_1983]: https://doi.org/10.1016/0042-207x(83)90664-4
 [research_wang_bao_2018]: https://doi.org/10.12783/dtetr/ecame2017/18441
 [research_wang_fan_2022]: https://doi.org/10.36001/phme.2022.v7i1.3354
-[research_wang_hardalupas_2025]: https://doi.org/10.2139/ssrn.5204567
 [research_wang_huang_2025]: https://doi.org/10.1088/1402-4896/aded44
 [research_wang_li_2010]: https://doi.org/10.1016/s1672-6529(10)60268-5
 [research_wang_liao_2017]: https://doi.org/10.3390/s17112444
@@ -8158,7 +7641,6 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_washburn_gorton_2002]: https://doi.org/10.2514/6.2002-3155
 [research_washburnae_gortonsalthoff_2002]: https://ntrs.nasa.gov/citations/20030000830
 [research_waszakmartinr_shkarayevsergey_2004]: https://ntrs.nasa.gov/citations/20040161133
-[research_water_jet_2021]: https://doi.org/10.33140/aewmr.04.01.05
 [research_waters_voskuijl_2013]: https://doi.org/10.1016/j.ast.2013.01.004
 [research_watkinsanthonyn_lipfordwilliame_2012]: https://ntrs.nasa.gov/citations/20120011938
 [research_watmuff_2009]: https://doi.org/10.1115/fedsm2009-78588
@@ -8168,7 +7650,6 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_webb_schultz_2006]: https://doi.org/10.2523/99855-ms
 [research_webblannied_mccainwilliame_1988]: https://ntrs.nasa.gov/citations/19890006537
 [research_wei_2006]: https://doi.org/10.3901/jme.2006.10.229
-[research_wei_liu_2023]: https://doi.org/10.3390/acoustics5020024
 [research_weibergjamesa_holzhausercurta_1961]: https://ntrs.nasa.gov/citations/19980227077
 [research_weibergjamesa_holzhausercurta_1961_b]: https://ntrs.nasa.gov/citations/19980228286
 [research_weickfrede_sandersrobert_1933]: https://ntrs.nasa.gov/citations/19930081332
@@ -8176,16 +7657,13 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_weigel_schuller_2020]: https://doi.org/10.1007/s13272-020-00479-2
 [research_weilj_1981]: https://ntrs.nasa.gov/citations/19810017618
 [research_weingaertner_tewes_2018]: https://doi.org/10.2514/6.2018-3521
-[research_weirraea_cowanjohnr_1993]: https://ntrs.nasa.gov/citations/19930066209
 [research_weisman_valasek_2010]: https://doi.org/10.2514/6.2010-7645
-[research_weiss_1969]: https://doi.org/10.2514/6.1969-204
 [research_wells_banda_1981]: https://doi.org/10.2514/6.1981-221
 [research_wellssr_hessra_2002]: https://ntrs.nasa.gov/citations/20020086714
 [research_welna_dahlberg_1969]: https://doi.org/10.21236/ada056285
 [research_welna_dahlberg_1970]: https://doi.org/10.21236/ada050537
 [research_wen_li_2021]: https://doi.org/10.2514/1.j060374
 [research_wendyaokolo]: https://ntrs.nasa.gov/citations/20250002670
-[research_wernickekg_mageejp_1979]: https://ntrs.nasa.gov/citations/19790065323
 [research_west_hosder_2012]: https://doi.org/10.2514/6.2012-3053
 [research_west_hosder_2013]: https://doi.org/10.1260/1756-8250.5.1.25
 [research_westerman_richards_1965]: https://doi.org/10.4271/650356
@@ -8208,13 +7686,10 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_whittleydc_1973]: https://ntrs.nasa.gov/citations/19730018283
 [research_widnall_grundy_1974]: https://doi.org/10.21236/ada002879
 [research_wiemer_1985]: https://doi.org/10.4271/851316
-[research_wienke_bertsch_2023]: https://doi.org/10.2514/6.2023-4170
 [research_wierzbanowskitheodore_armstrongjohnnyg_1991]: https://ntrs.nasa.gov/citations/19930052226
 [research_wiesmancarold_silvawaltera_2005]: https://ntrs.nasa.gov/citations/20050196822
 [research_wieyongsun_collierfayettesjr_1992]: https://ntrs.nasa.gov/citations/19920043629
 [research_wieys_collierfsjr_1991]: https://ntrs.nasa.gov/citations/19920057341
-[research_wilby_1967]: https://doi.org/10.21236/ad0824482
-[research_wilby_gloyna_1972]: https://doi.org/10.1016/0022-460x(72)90503-2
 [research_wilcoxfa_1973]: https://ntrs.nasa.gov/citations/19730023227
 [research_wilcoxfa_chamberlinr_1974]: https://ntrs.nasa.gov/citations/19740062629
 [research_wilcoxfa_chamberlinr_1975]: https://ntrs.nasa.gov/citations/19750015434
@@ -8222,16 +7697,12 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_wildschek_hanis_2013]: https://doi.org/10.1051/eucass/201306707
 [research_wildschek_havar_2009]: https://doi.org/10.1243/09544100jaero622
 [research_wildschek_stroscher_2013]: https://doi.org/10.1051/eucass/201306651
-[research_williams_bernitt_1970]: https://doi.org/10.21236/ad0726706
 [research_williams_franke_1990]: https://doi.org/10.2514/6.1990-574
 [research_williams_franke_1992]: https://doi.org/10.2514/3.46151
 [research_williams_howe_1970]: https://doi.org/10.21236/ad0877764
 [research_williams_jemcov_2014]: https://doi.org/10.2514/6.2014-1264
 [research_williamsdavid_coloniustim_2010]: https://ntrs.nasa.gov/citations/20100018584
 [research_williamshayespeggys_2004]: https://ntrs.nasa.gov/citations/20050196721
-[research_williamson_barry_1996]: https://doi.org/10.21236/ada430691
-[research_williamsrm_cheesemanic_1978]: https://ntrs.nasa.gov/citations/19780024882
-[research_willispetera_greerharoldf_2010]: https://ntrs.nasa.gov/citations/20100019599
 [research_wilsdendj_hackettje_1984]: https://ntrs.nasa.gov/citations/19850003719
 [research_wilson_adler_2000]: https://doi.org/10.1515/tjj.2000.17.3.219
 [research_wilson_schatzman_2013]: https://doi.org/10.2514/1.j052333
@@ -8270,7 +7741,6 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_woodnj_1981]: https://ntrs.nasa.gov/citations/19820012274
 [research_woodnj_1987]: https://ntrs.nasa.gov/citations/19880008210
 [research_woodnj_conlonja_1983]: https://ntrs.nasa.gov/citations/19830035292
-[research_woodnj_nielsenjackn_1986]: https://ntrs.nasa.gov/citations/19870038442
 [research_woodnj_robertsl_1986]: https://ntrs.nasa.gov/citations/19860020622
 [research_woodrichardm_2002]: https://ntrs.nasa.gov/citations/20030013754
 [research_woodrichardm_banksdanielw_1992]: https://ntrs.nasa.gov/citations/19920072739
@@ -8279,18 +7749,15 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_woodrichardm_bauerstevenxs_1999]: https://ntrs.nasa.gov/citations/20000012648
 [research_woodrowlcook_davidhhickey_1974]: https://ntrs.nasa.gov/citations/19750005733
 [research_wortman_1984]: https://doi.org/10.2514/6.1984-137
-[research_wortonms_kimyk_2007]: https://ntrs.nasa.gov/citations/20070032066
 [research_woszidlo_nawroth_2010]: https://doi.org/10.2514/6.2010-4247
 [research_woszidlo_wygnanski_2011]: https://doi.org/10.2514/6.2011-3172
 [research_wrightas_1979]: https://ntrs.nasa.gov/citations/19790011929
 [research_wrightjohnd_lovingdonaldl_1953]: https://ntrs.nasa.gov/citations/20050019302
-[research_wu_2007]: https://doi.org/10.21236/ada462717
 [research_wu_ahmed_2013]: https://doi.org/10.2514/6.2013-2515
 [research_wu_deng_2012]: https://doi.org/10.4028/www.scientific.net/amr.482-484.121
 [research_wu_meneveau_2022]: https://doi.org/10.1103/physrevfluids.7.084601
 [research_wu_sankar_2004]: https://doi.org/10.2514/6.2004-228
 [research_wu_seo_2018]: https://doi.org/10.2514/6.2018-4018
-[research_wu_sun_2024]: https://doi.org/10.1063/5.0222575
 [research_wu_wang_2018]: https://doi.org/10.2514/6.2018-3140
 [research_wukowitz_1981]: https://doi.org/10.2514/6.1981-2089
 [research_wygnanski_1966]: https://doi.org/10.1017/s0001925900003681
@@ -8352,7 +7819,6 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_yaocs_chenfj_2007]: https://ntrs.nasa.gov/citations/20070031090
 [research_yarusevych_sullivan_2005]: https://doi.org/10.1007/s00348-005-0943-2
 [research_ye_zou_2019]: https://doi.org/10.12783/dtcse/icaic2019/29465
-[research_yee_myers_2004]: https://doi.org/10.1115/gt2004-53164
 [research_yeh_munday_2017]: https://doi.org/10.2514/6.2017-1451
 [research_yeh_taira_2016]: https://doi.org/10.1103/aps.dfd.2016.gfm.p0019
 [research_yeh_taira_2019]: https://doi.org/10.1017/jfm.2019.163
@@ -8368,7 +7834,6 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_yiplongp_vijgenpaulmhw_1992]: https://ntrs.nasa.gov/citations/19930030330
 [research_yokoyama_otsuka_2020]: https://doi.org/10.1063/5.0017658
 [research_yoneda_goto_2021]: https://doi.org/10.2514/6.2021-1942
-[research_yongsukhgil_taewonchung]: https://doi.org/10.1109/cleopr.1999.811355
 [research_yoon_kim_1993]: https://doi.org/10.1007/bf02954360
 [research_yoon_kim_2019]: https://doi.org/10.1063/1.5079913
 [research_yoshida_abe_2005]: https://doi.org/10.2514/6.2005-645
@@ -8378,12 +7843,9 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_young_fielding_2001]: https://doi.org/10.1007/978-3-540-45359-8_12
 [research_yu_2013]: https://doi.org/10.4028/www.scientific.net/amr.753-755.1764
 [research_yu_ceci_2022]: https://doi.org/10.1016/j.ijheatfluidflow.2022.108998
-[research_yu_cui_2023]: https://doi.org/10.2514/1.j062428
 [research_yu_li_2023]: https://doi.org/10.1002/rnc.6570
 [research_yu_zhang_2016]: https://doi.org/10.1109/aus.2016.7748028
 [research_yu_zheng_2023]: https://doi.org/10.1016/j.ijheatmasstransfer.2022.123786
-[research_yuan_1969]: https://doi.org/10.2514/6.1969-741
-[research_yuan_1970]: https://doi.org/10.2514/3.44193
 [research_yuan_2026]: https://doi.org/10.54254/2753-8818/2026.32002
 [research_yuan_street_1996]: https://doi.org/10.1115/imece1996-0983
 [research_yuan_westkaemper_1966]: https://doi.org/10.21236/ad0648872
@@ -8416,14 +7878,12 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_zhagecheng_cattafestalouis_2013]: https://ntrs.nasa.gov/citations/20180008687
 [research_zhang_2018]: https://doi.org/10.3901/jme.2018.06.224
 [research_zhang_chen_2011]: https://doi.org/10.2514/6.2011-3516
-[research_zhang_fu_2017]: https://doi.org/10.1063/1.5006894
 [research_zhang_gan_2023]: https://doi.org/10.2139/ssrn.4406149
 [research_zhang_he_2026]: https://doi.org/10.1016/j.cja.2025.103811
 [research_zhang_huang_2023]: https://doi.org/10.1016/j.cja.2023.03.017
 [research_zhang_li_2022]: https://doi.org/10.21203/rs.3.rs-1866775/v1
 [research_zhang_liu_2022]: https://doi.org/10.1016/j.apacoust.2022.108943
 [research_zhang_liu_2026]: https://doi.org/10.1063/5.0351608
-[research_zhang_peng_2016]: https://doi.org/10.3390/app6100305
 [research_zhang_suresh_2007]: https://doi.org/10.1109/cca.2007.4389398
 [research_zhang_wang_2008]: https://doi.org/10.1007/s11431-008-0174-x
 [research_zhang_wang_2020]: https://doi.org/10.1088/1742-6596/1600/1/012040
@@ -8434,8 +7894,6 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_zhang_yang_2017_b]: https://doi.org/10.1115/1.4035809
 [research_zhang_yu_2025]: https://doi.org/10.1063/5.0282207
 [research_zhang_yue_2025]: https://doi.org/10.3390/aerospace12070571
-[research_zhang_zhang_2018]: https://doi.org/10.1016/j.sna.2017.12.043
-[research_zhang_zhang_2020]: https://doi.org/10.1016/j.actaastro.2020.03.035
 [research_zhang_zhao_2023]: https://doi.org/10.1063/5.0158974
 [research_zhang_zhou_2006]: https://doi.org/10.2514/6.2006-3689
 [research_zhang_zhou_2018]: https://doi.org/10.2514/1.j056804
@@ -8454,9 +7912,7 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_zhao_zhang_2022]: https://doi.org/10.3390/aerospace9110704
 [research_zhao_zhang_2022_b]: https://doi.org/10.1109/isssr56778.2022.00011
 [research_zhao_zhang_2023]: https://doi.org/10.2514/6.2023-3747
-[research_zhao_zhao_2014]: https://doi.org/10.1016/j.cja.2014.03.023
 [research_zhao_zhao_2022]: https://doi.org/10.1038/s41598-022-19642-2
-[research_zhao_zhou_2025]: https://doi.org/10.2139/ssrn.5267443
 [research_zharfa_ozturk_2016]: https://doi.org/10.2514/1.j054495
 [research_zheng_2021]: https://doi.org/10.1088/1674-1056/abd466
 [research_zheng_cui_2018]: https://doi.org/10.1063/1.5012054
@@ -8471,7 +7927,6 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_zhou_wang_2014]: https://doi.org/10.1115/fedsm2014-21525
 [research_zhou_wang_2017]: https://doi.org/10.1088/1742-6596/822/1/012052
 [research_zhou_wang_2024]: https://doi.org/10.2514/1.j064205
-[research_zhou_xia_2016]: https://doi.org/10.1007/s11431-016-0248-4
 [research_zhou_xia_2017]: https://doi.org/10.1016/j.actaastro.2017.01.016
 [research_zhou_zhang_2019]: https://doi.org/10.1109/sdpc.2019.00064
 [research_zhu_cheng_2026]: https://doi.org/10.1016/j.ast.2025.111443
@@ -8484,12 +7939,9 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [research_zimmerman_carroll_2018]: https://doi.org/10.2514/6.2018-3758
 [research_zong_kotsonis_2017]: https://doi.org/10.1007/s00348-016-2299-1
 [research_zong_vanpelt_2018]: https://doi.org/10.1007/s00348-018-2624-y
-[research_zou_hao_2026]: https://doi.org/10.3389/arc.2026.15991
 [research_zou_zhen_2026]: https://doi.org/10.2139/ssrn.6802811
 [research_zrubek_1985]: https://doi.org/10.4271/851811
-[research_zubair_ren_2025]: https://doi.org/10.3390/act14030109
 [research_zubair_wen_2025]: https://doi.org/10.3390/act14020101
-[research_zwernemanwd_ellerbg_1994]: https://ntrs.nasa.gov/citations/19950007834
 
 ### Related Post
 

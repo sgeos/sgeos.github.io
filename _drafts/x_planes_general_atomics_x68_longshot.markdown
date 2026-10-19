@@ -18,8 +18,8 @@ This is the sixty-ninth article in the [X-Planes series][related_post_a297_frami
 a sponsor, and one name. What the aircraft is for has no official word at all.**
 
 The X-68A was allocated on 20 August 2025 to General Atomics, with an engine cell reading
-`1 Williams WJ38-15`, a sponsor cell reading DARPA, the Defense Advanced Research Projects Agency, and a description that the register itself
-marks as only partly official \[[DOD 4120.15-L Addendum][ref_mds_addendum]\].
+`1 Williams WJ38-15`, a sponsor cell reading DARPA, the Defense Advanced Research Projects Agency, and a description that the register,
+which Andreas Parsch compiles from data the Department of Defense has released, itself marks as only partly official \[[Parsch, DOD 4120.15-L Addendum][ref_mds_addendum]\].
 
 > Longshot; Experimental air-launched UCAV for air-to-air engagements.
 
@@ -140,9 +140,8 @@ $$
 same number arrived at by cancellation rather than by substitution. Any missile carried by both
 aircraft produces the same factor.
 
-**That factor of 30 is the whole research question.** It is the reason a problem that no
-fighter programme has ever had to treat as a problem becomes the thing a demonstrator is built to
-retire.
+**That factor of 30 is the whole research question.** It is the reason a problem that is negligible at a fighter's mass fraction becomes the thing a
+demonstrator is built to retire.
 
 ### The Quantity That Makes It Worse Than Linear
 
@@ -197,11 +196,11 @@ $$
 
 **The register marks its own reliability, and this row is marked in a way no other research row is.**
 
-The addendum to the Department of Defense list of model designations records allocations from
-19 August 1998 onward and explains in its own front matter why it exists. No updated edition was
+The addendum to the Department of Defense list of model designations, which Andreas Parsch compiles,
+records allocations from 19 August 1998 onward and explains in its own front matter why it exists. No updated edition was
 published for almost six years after October 1998, the compiler requested the new assignments under
 the Freedom of Information Act, and the list has been maintained since
-\[[DOD 4120.15-L Addendum][ref_mds_addendum]\]. The compiler further records that for designations
+\[[Parsch, DOD 4120.15-L Addendum][ref_mds_addendum]\]. The compiler further records that for designations
 assigned after October 2018 no complete official data is available, that the official description is
 no longer releasable to the public, and that wording which is not official Department text is
 therefore marked as such.
@@ -213,21 +212,23 @@ description says part of the description is official wording and part is not.**
 
 | State | What the mark says | Rows |
 |---|---|---:|
-| Official | Every field is from Department records | 434 |
-| Unofficial description | The allocation is official and the stated purpose is the compiler's | 69 |
-| Partly unofficial description | Part of the description is official wording and part is not | 13 |
+| Official | Every field is from Department records | 436 |
+| Unofficial description | The allocation is official and the stated purpose is the compiler's | 70 |
+| Partly unofficial description | Part of the description is official wording and part is not | 17 |
 | Unofficial row | The allocation itself is absent from officially released data | 16 |
 
-**So 98 of the 532 well-formed rows carry a mark of some kind.** The
-[X-67][related_post_a364_x67_slot_taken_by_xq67] article established this partition and asserted its
-exhaustiveness over the same population, and that article's figures and these agree because they are
-the same measurement.
+**So 103 of the 539 rows carry a mark of some kind.** The counts are taken from the register as it
+stood on 18 October 2026, in the edition the compiler last updated on 23 August 2026, and every row of its
+tables is counted, including 7 whose designation cell is irregular, such as `C-130J(CC-130J)` and
+`AGM-158B-2`. The [X-67][related_post_a364_x67_slot_taken_by_xq67] article states the same partition
+over the same 539 rows, and 5 of the 103 marks fall on the 7 irregular rows.
 
 ### The X-68A Is the Only Research Row Marked at the Span Level
 
-**13 rows in the register carry a span-level mark and exactly 1 of them is
-a research allocation.** The other 12 are fighters, trainers, helicopters, a missile
-family and an assault aircraft prototype. In each of them the pattern is identical and it is worth
+**17 rows in the register carry a span-level mark and exactly 1 of them is
+a research allocation.** The other 16 are a fighter, two light attack aircraft, two trainers, three
+helicopters, an airborne communications aircraft, an unmanned tanker, an assault aircraft prototype
+and five missiles. In each of them the pattern is identical and it is worth
 naming, because once seen it explains the mark entirely. **The popular name is official and the
 sentence explaining the aircraft is not.**
 
@@ -263,8 +264,7 @@ partially dated rows carry no row-level mark, so the two sets are nested and not
 date parses, as any ordering of allocations in time must be, **silently removes every row-level mark
 from any officiality count that uses it.** The count then reports zero marks of a kind the document
 plainly carries, and reports it with no warning of any sort. The figures above are computed over all
-532 well-formed rows for that reason, which is the population the
-[X-67][related_post_a364_x67_slot_taken_by_xq67] article uses.
+539 rows for that reason.
 
 ### The Register's Own Spelling Differs From the Programme's
 
@@ -295,11 +295,12 @@ covers the early work and the demonstration phase alike.
 
 ### The Sponsor Holds Five Research Rows and Four Are Recent
 
-**DARPA appears in the sponsor cell of 8 well-formed rows in the register
+**DARPA appears in the sponsor cell of 8 rows in the register
 and 5 of them are research allocations**, being the X-50A, the X-61A, the X-65A, the X-68A and the X-76A.
-**4 of those five are among the last eight research allocations by date**, so an
-agency sponsoring five of the register's 31 research rows overall, which is about a sixth,
-holds half of the recent ones.
+**4 of those five are among the 8 research rows with a full allocation date from June 2019
+onward**, so an agency sponsoring five of the register's 31 research rows overall, which is about a
+sixth, holds half of the recent ones. The X-56B row, dated only as 2019 with a query, is left out of
+that count because its place in the year is unknown, and with it counted the share is 4 of 9.
 The designation series' present tempo is substantially this one sponsor's, which is context for the
 register-wide statements the [X-67][related_post_a364_x67_slot_taken_by_xq67] article made about
 allocation cadence.
@@ -345,12 +346,13 @@ and the same programme overlap for that period**, which the record shows and doe
 
 **The record gives HR001123C0087 as 101,920,961.08 dollars** with a period of performance ending
 2026-12-31 and 1 offer received. Press accounts of this award report a figure
-near ninety-four million dollars. **The record's figure is higher**, and the difference is consistent
+of 94 million dollars \[[DefenseScoop on LongShot Phase 3][ref_defensescoop_longshot_p3]\]. **The record's figure is higher**, and the difference is consistent
 with the press having reported an initial obligation while the record carries the current total, but
 this article has not read a document that says so and therefore does not assert it.
 
 **The period of performance is the part worth noting.** It ends 2026-12-31, in the same quarter
-as the flight test campaign the sponsoring agency has said may begin as early as the end of 2026.
+as the flight test campaign the sponsoring agency has said may begin as early as the end of 2026
+\[[DARPA on the X-68A][ref_darpa_longshot_news]\].
 That campaign and that statement both postdate this article's date and are treated accordingly below.
 
 ### What the Award Record Does Not Account For
@@ -366,8 +368,9 @@ $$
 \frac{148.306\ \text{million dollars}}{205.740\ \text{million dollars}} \;=\; 0.721
 $$
 
-The remainder is government labour, test facilities and the stakeholder organisations the sponsoring
-agency names, none of which passes through a contract to this programme. **A programme's cost is not
+The remainder is not accounted for by any award in the record that carries this programme. It may
+include government labour, test facilities and work bought through instruments that do not name
+the programme, and the record does not say which. **A programme's cost is not
 its contracts** and the two records are not substitutes for one another.
 
 ### The Solicitation Was Not Read
@@ -456,8 +459,8 @@ PB2023 and PB2024 drops the expansion of unmanned air vehicle from the opening s
 `an air-launched system`. The next replaces `a relatively small UAV` with `a relatively small
 uninhabited system` in the keystone sentence. The last replaces `which provides` with `providing`.
 
-**The first two track the Department's own move away from the word unmanned and the third is copy
-editing.** A reader diffing these books without separating concept from vocabulary would count
+**The first two remove first the expansion of the word unmanned and then the word itself, and the
+third is copy editing.** A reader diffing these books without separating concept from vocabulary would count
 six changes where there was one, and this article says which is which.
 
 ### The Funding Line, and the Same Year Reported Three Ways
@@ -488,9 +491,8 @@ $$
 \frac{64.213 - 36.742}{36.742} \;=\; \frac{27.471}{36.742} \;=\; 0.748
 $$
 
-A programme whose request was
-nearly doubled in execution is a programme that was being accelerated, and the books do not say by
-whom.
+A request that grew by three quarters in execution is consistent with a programme being
+accelerated, and the books do not say why or by whom.
 
 ### The Programme Moved Programme Elements
 
@@ -673,8 +675,9 @@ aerodynamic chord of 1.2 metres, the static margin moves by 5.5 percentage point
 for a store arm of 0.3 metres and by 21.9 percentage points for an arm of
 1.2 metres.
 
-**A conventional aeroplane's entire static margin budget is a few percent of chord.** A release that
-moves it by tens of percentage points does not perturb the vehicle's stability. It redefines it. The
+**The band a design accepts is taken here as a few percent of chord, which is an assumption and not
+a sourced figure.** A release that moves the margin by tens of percentage points then does not
+perturb the vehicle's stability. It redefines it. The
 vehicle must be stable both before and after, which is a constraint on where the store may sit rather
 than a constraint on the control system.
 
@@ -686,7 +689,7 @@ $$
 $$
 
 **So the admissible store arm is inversely proportional to the amplification factor.** At a fighter's
-$\mu$ the bound is metres and no designer ever meets it. At this vehicle's it is a fraction of a
+$\mu$ the bound is metres and does not bind. At this vehicle's it is a fraction of a
 chord, and the store must sit very close to the centre of gravity. **That is a layout requirement
 derived from a stability requirement, and it is the kind of coupling a demonstrator exists to
 discover.**
@@ -790,7 +793,7 @@ $$
 \Delta V_r \;=\; \frac{m_s}{m_1}\, v_e \;=\; \alpha\, v_e
 $$
 
-**At an ejection velocity of 7 metres a second** the vehicle takes 1.53 metres a
+**At an assumed ejection velocity of 7 metres a second** the vehicle takes 1.53 metres a
 second if both stores leave together, or 0.69 for one of the pair at its own fraction of
 8.97 percent. The same ejector on the F-15E of the comparison above gives
 0.042 metres a second. **The amplification factor appears again, and this time it
@@ -876,9 +879,10 @@ $$
 \Lambda \;=\; \frac{I_{sp,\text{air}}}{I_{sp,\text{rocket}}}
 $$
 
-**At a small turbofan's consumption and a solid motor's specific impulse, $\Lambda$ is about
+**At 3,500 seconds for a small turbofan and 235 seconds for a solid motor, $\Lambda$ is about
 14.9.** Neither figure is published for this aircraft or for the missile it carries, so
-both are swept, and the sweep does not change the order of magnitude. **A kilogram of fuel burned in
+both are assumed and swept, the engine's from 3,000 to 4,500 seconds and the motor's from 220 to
+250, which moves $\Lambda$ between 12.0 and 20.5 without changing its order of magnitude. **A kilogram of fuel burned in
 the engine delivers something near fifteen times the impulse of a kilogram of solid propellant.**
 
 ### The Atmosphere Every Number Below Is Computed In
@@ -915,12 +919,12 @@ adopts $g_0$ of 9.80665 metres per second squared exactly, a sea-level pressure 
 pascals, a sea-level temperature of 288.15 kelvin and a heat-capacity ratio of 1.4
 in its table of adopted constants, and its table of defined gradients gives the first atmospheric
 layer a gradient of minus 6.5 kelvin per kilometre
-\[[US Standard Atmosphere 1976][ref_atm76]\]. The scan is image-only and the two defining pages
+\[[U.S. Standard Atmosphere, 1976][ref_atm76]\]. The scan is image-only and the two defining pages
 were read as page images. **One nuance follows from those pages.** The defining
 relations take geopotential height as their argument, and the figure of 10,668 metres is treated
 here as geopotential. The same document relates geometric height $Z$ to geopotential height through
 an effective Earth radius $r_0$ of 6,356,766 metres
-\[[US Standard Atmosphere 1976][ref_atm76]\],
+\[[U.S. Standard Atmosphere, 1976][ref_atm76]\],
 
 $$
 Z \;=\; \frac{r_0\, h}{r_0 - h}
@@ -961,8 +965,8 @@ $$
 **At a burnout speed of 1,186 metres a second and a terminal requirement of Mach
 1.5, that gives 112 kilometres.** Across a terminal requirement swept from
 Mach 2.0 down to Mach 1.2 the reach runs from 79 to 137 kilometres,
-which brackets the published figures for the missile family the programme names, 90
-kilometres for one variant and 160 kilometres for a later one
+which spans the 90 kilometres the encyclopedia gives for one variant of the missile family the
+programme names and reaches the lower end of the 130 to 160 kilometres it gives for a later one
 \[[AIM-120 AMRAAM][ref_amraam]\]. **The model is therefore calibrated against the one thing about
 this system that is published**, which is the reason to trust the comparison that follows rather than
 the absolute values in it.
@@ -1089,8 +1093,9 @@ a proportional saving would be.
 ### The Engine, and the Designation That Contradicts Itself
 
 **The register's engine cell is the only independent published statement of this aircraft's
-propulsion and it does not agree with itself.** The cell reads `1 Williams WJ38-15`. In the designation system the register
-documents, the letter `J` denotes a turbojet and the letter `F` a turbofan.
+propulsion and it does not agree with itself.** The cell reads `1 Williams WJ38-15`. In the military aero-engine designation system, which the same compiler documents, the letter `J`
+denotes a turbojet and the letter `F` a turbofan
+\[[Designations of U.S. Military Aero Engines][ref_ds_engines]\].
 
 **The same engine is identified elsewhere as the powerplant of the Taurus KEPD 350 cruise missile**,
 whose own published designation is P8300-15, which is described as a **turbofan** of 6,672
@@ -1108,31 +1113,33 @@ recorded it for the same reason. **This article does not resolve the conflict.**
 read here, and a guess would be worse than the open question.
 
 **One further caution about the engine, and it is about sourcing rather than about hardware.** Press
-accounts of this aircraft's propulsion attribute the engine to the designation register itself.
+accounts of this aircraft's propulsion attribute the engine to the designation register itself
+\[[The War Zone on the X-68A][ref_twz_x68a]\].
 **They are therefore not independent corroboration of it**, and the engine fact has exactly one
 source however many places it appears.
 
 ### The Same Engine Maker Appears on Three Consecutive Subjects of This Series
 
-**13 well-formed rows in the register name Williams in their engine cell and
+**15 rows in the register name Williams in their engine cell and
 4 of those are research allocations**, being the X-48A, the X-50A, the X-65A and the X-68A. So this
 aircraft, the [X-65][related_post_a362_aurora_x65_crane], and the unmanned allocation that took the
 number the [X-67][related_post_a364_x67_slot_taken_by_xq67] article is about, all carry an engine
 from one maker.
 
 **The match is on the word and the word undercounts.** The X-61A's cell reads `1 F107-WR-105`,
-which is a Williams engine the cell does not name as one, and 3 further rows carry an
+which is a Williams engine the cell does not name as one, and 2 further rows carry an
 F107 without the maker's name. **So this is a count of what the register says rather than a census
 of engines**, and the article states the match for that reason rather than implying the stronger
 claim.
 
-**Read as a fact about the demonstrator economy it is unremarkable and worth recording anyway.** A
-small number of firms build engines in the thrust class that a demonstrator or a cruise missile
-needs, so a series of small unmanned research aircraft will keep meeting the same names.
+**Read as a fact about the register it is unremarkable and worth recording anyway.** One plausible
+reading, which this article does not test, is that few firms build engines in the thrust class a
+small demonstrator or a cruise missile needs, so that a series of small unmanned research aircraft
+keeps meeting the same names.
 
 ### The Contractor Holds Sixteen Rows and Exactly One Is a Research Allocation
 
-**General Atomics holds 16 well-formed rows in the register**, of which 11 are
+**General Atomics holds 16 rows in the register**, of which 11 are
 unmanned allocations, 4 are unmanned-control allocations, and 1 is a research
 allocation. **This one.**
 
@@ -1195,7 +1202,8 @@ rather than on a plausibility argument.**
 
 **And the engine's provenance constrains the speed.** A cruise missile powerplant sized for high
 subsonic flight does not make a supersonic aeroplane, which is consistent with the budget books'
-repeated description of a slower, fuel-efficient vehicle for ingress. **The vehicle is slow by
+repeated description of a slower, fuel-efficient vehicle for ingress
+\[[DARPA PB2023 justification][ref_darpa_pb2023]\] \[[DARPA PB2026 justification][ref_darpa_pb2026]\]. **The vehicle is slow by
 design and the design reason is the premise above.**
 
 ### Structure, Which Is Dominated by the Bay Rather Than by Flight Loads
@@ -1319,8 +1327,8 @@ challenge.
 **Read the two carefully, because they differ in what separates from what.** The first validates
 separation of the missile from the vehicle. **The second validates the vehicle's stability and
 control upon separation from the host aircraft.** The first is the research question. The second is
-carriage release, which every store on every aircraft must pass and which is a well-understood
-discipline.
+carriage release, the subject of the established store separation discipline gathered in the
+cluster below.
 
 **What the record shows in place of the keystone demonstration is a ground test of a substitute
 mass.** PB2026 plans this for FY2025.
@@ -1346,11 +1354,12 @@ the correct instrument for all three.
 
 **The test belongs to a prescribed catalogue and the catalogue's governing document is named
 here even though it could not be read.** The Department's handbook for aircraft and stores
-compatibility, MIL-HDBK-1763 of 15 June 1998, superseding a military standard of the same number,
-prescribes the ground and flight test procedures of this discipline. It is distributed through
+compatibility, MIL-HDBK-1763 of 15 June 1998, which supersedes MIL-STD-1763A and whose title names
+systems engineering data requirements and test procedures, governs the ground and flight tests of
+this discipline \[[EverySpec record for MIL-HDBK-1763][ref_everyspec_1763]\]. It is distributed through
 the Department's standards repository, whose public search page is cited as the address
-\[[ASSIST Quick Search][ref_assist_qs]\], **and whose document record could not be read without
-a session, so no claim here rests on the handbook's content.** That the pit drop is standard
+\[[ASSIST Quick Search][ref_assist_qs]\], **and whose document could not be read without
+a session, so no claim here rests on the handbook's content beyond what its index record states.** That the pit drop is standard
 practice is established independently, by the discipline's own literature in the clusters below,
 which includes the modelling of ejection accelerations from exactly such tests.
 
@@ -1490,58 +1499,71 @@ every later vehicle of this class whatever its size.
 ### What It Would Feed
 
 **The programme names its transition partners in every book**, as the Navy and the Air Force, and
-names them in the same sentence in all seven. The later plans widen the scope considerably,
+names them in the same sentence in all seven \[[DARPA PB2021 justification][ref_darpa_pb2021]\]
+\[[DARPA PB2027 justification][ref_darpa_pb2027]\]. The later plans widen the scope considerably,
 reaching toward alternate payloads, bomber weapons station integration, palletised and ground launch
 options, and alternate engines. **Those plans lie outside this article's date and are treated as
 such.**
 
 ### What It May Fail to Influence
 
-**A demonstrator that proves a vehicle can fire a missile has not proved anyone will buy it.** The
-series has recorded several aircraft that answered their question and changed nothing, and the
-honest position at this date is that the programme's influence is unmeasurable because its
+**A demonstrator that proves a vehicle can fire a missile has not proved anyone will buy it.** A
+demonstration can answer its question and change nothing, and the honest position at this date is that the programme's influence is unmeasurable because its
 demonstration has not happened.
 
 **One structural observation is available and it is about the designation rather than the aircraft.**
 The programme was given a research designation in the experimental series rather than a prototype
 designation in a mission series, which places it among demonstrators and not among candidate
-weapons. **Its register neighbours include a vehicle whose own programme became a programme of
-record and several that did not**, and the designation itself carries no information about which
-outcome is intended.
+weapons. **The designation itself carries no information about which outcome is intended.**
 
 ## The Contemporary Literature
 
-**This article's subject sits across 11 bodies of work and each is cited as a body and not through an exemplar.** The count beside each heading is the number of distinct works cited under it, and each work is counted once, under the first cluster it matches in this section's order. Two of them are small enough that the article says so in the cluster's opening sentence.
+| Cluster | Records |
+|---|---:|
+| Store separation, which is the keystone's own discipline | 178 |
+| Carriage loads and the weapons bay | 54 |
+| The release mechanism, the ejector and the pit drop | 16 |
+| Mass, inertia and what a release does to stability | 26 |
+| Air launch and the carrier aircraft | 17 |
+| Folding surfaces and their deployment transient | 40 |
+| The premise, air-breathing against rocket | 33 |
+| A missile's energy, its coast and its reach | 20 |
+| Attritable and expendable air vehicles as a class | 10 |
+| Recovery of a test article | 21 |
+| Demonstrator practice | 2 |
+| **Total** | **417** |
+
+**This article's subject sits across 11 bodies of work and each is cited as a body and not through an exemplar.** Every research record appears in exactly one cluster below, and the row under each heading counts its records. Three of the clusters are small enough that the cluster's opening sentence says so.
 
 ### Store separation, which is the keystone's own discipline
 
 **This is the keystone's own discipline and it is old, large and quantitative.** The question of what a store does when it leaves an aeroplane has its own wind tunnel techniques, its own captive trajectory rigs, its own validation literature and its own flight clearance practice, and it is the body of work a programme releasing a missile from a small vehicle inherits whole.
 
-**206 records.** \[[Store Separation Testing Techniques][research_store_separation]\] \[[Investigation of Cavity Flow][research_investigation_of]\] \[[Application of Photogrammetry of][research_application_of]\] \[[Computational Fluid Dynamics Capability][research_computational_fluid]\] \[[Mathematical Fluid Dynamics of][research_mathematical_fluid]\] \[[Computational Simulation of Unsteady][research_computational_simulation]\] \[[Mathematical Fluid Dynamics of][research_mathematical_fluid_2]\] \[[A Method for Predicting][research_a_method]\] \[[Prediction of Six-Degree-of-Freedom Store][research_prediction_of]\] \[[Transonic Wind Tunnel Tests][research_transonic_wind]\] \[[CFD Wing/Pylon/Finned Store Mutual][research_cfd_wing_pylon_finned]\] \[[Aeroacoustic Environment of a][research_aeroacoustic_environment]\] \[[Aircraft Store Trajectories Predicted][research_aircraft_store]\] \[[Transonic Wing/Store Flow-Field Measurement][research_transonic_wing_store]\] \[[Wing/Store Flow-Field Measurement at][research_wing_store_flow_field]\] \[[Dynamic Aeroelastic Instabilities of][research_dynamic_aeroelastic]\] \[[Comparison of Wind Tunnel][research_comparison_of]\] \[[The Rapid Prediction of][research_the_rapid]\] \[[A Comprehensive Rapid-Assessment-Of-Flutter/Ejection-Loads RAFEL][research_a_comprehensive]\] \[[Effects of Inlet Spillage][research_effects_of]\] \[[Captive Trajectory System Test][research_captive_trajectory]\] \[[User Requirements and Information][research_user_requirements]\] \[[Comparison of Store Trajectory][research_comparison_of_2]\] \[[Trajectory Equations for a][research_trajectory_equations]\] \[[Insensitive Munitions Technology Transition][research_insensitive_munitions]\] \[[Trajectory Equations for a][research_trajectory_equations_2]\] \[[The Aerodynamic Influence of][research_the_aerodynamic]\] \[[Water Discriminating Electric Bomb][research_water_discriminating]\] \[[Viscous flow simulations of][research_viscous_flow]\] \[[TranAir applications to predicting][research_tranair_applications]\] \[[Tangential, semisubmerged, and internal][research_tangential_semisubmerged]\] \[[Tangential, semisubmerged, and internal][research_tangential_semisubmerged_2]\] \[[New test techniques to][research_new_test]\] \[[Navier-Stokes Solutions for Flows][research_navier_stokes_solutions]\] \[[Zhang et al 2026][research_zhang_wang_2026]\] \[[Das et al 2026][research_das_hale_2026]\] \[[Türk and Güleren 2025][research_turk_guleren_2025]\] \[[Vishwajeet et al 2025][research_vishwajeet_mulik_2025]\] \[[Liu et al 2025][research_liu_wang_2025]\] \[[S. Subchan 2025][research_ssubchan_2025]\] \[[Cenko 2025][research_cenko_2025]\] \[[Coley 2024][research_coley_2024]\] \[[Ahn et al 2024][research_ahn_park_2024]\] \[[Smith et al 2024][research_smith_kumar_2024]\] \[[Savery and Coder 2024][research_savery_coder_2024]\] \[[Campbell 2024][research_campbell_2024]\] \[[Pandey et al 2023][research_pandey_tembhare_2023]\] \[[Ailneni et al 2023][research_ailneni_kashyap_2023]\] \[[Interface Standard, Miniature Mission 2023][research_interface_standard_2023]\] \[[Shin et al 2023][research_shin_jo_2023]\] \[[Gothard and Granlund 2022][research_gothard_granlund_2022]\] \[[Song 2021][research_song_2021]\] \[[Tamer 2021][research_tamer_2021]\] \[[Fontanella et al 2021][research_fontanella_bindi_2021]\] \[[Song and Ai 2021][research_song_ai_2021]\] \[[Mizrahi and Raveh 2019][research_mizrahi_raveh_2019]\] \[[Toor et al 2019][research_toor_masud_2019]\] \[[Gong and Wang 2019][research_gong_wang_2019]\] \[[Dansie 2019][research_dansie_2019]\] \[[Zaikang and Defu 2019][research_zaikang_defu_2019]\] \[[Schoppert 2019][research_schoppert_2019]\] \[[de Vasconcelos et al 2019][research_devasconcelos_leite_2019]\] \[[Sinha and Garg 2018][research_sinha_garg_2018]\] \[[Guigue 2018][research_guigue_2018]\] \[[Mahmood et al 2018][research_mahmood_masud_2018]\] \[[Unal and Baran 2018][research_unal_baran_2018]\] \[[Demir 2018][research_demir_2018]\] \[[Mizrahi and Raveh 2018][research_mizrahi_raveh_2018]\] \[[Khaware et al 2018][research_khaware_shivanandham_2018]\] \[[Generic Aircraft-Store Interface Framework 2017][research_generic_aircraft_store_2017]\] \[[Aircraft/Store Common Interface Control 2017][research_aircraft_store_common_2017]\] \[[Hiwale et al 2017][research_hiwale_parkhi_2017]\] \[[Masud et al 2017][research_masud_mahmood_2017]\] \[[Demir et al 2017][research_demir_erdem_2017]\] \[[Interface Standard, Miniature Mission 2017][research_interface_standard_2017]\] \[[Zhang et al 2017][research_zhang_sun_2017]\] \[[Özgür et al 2016][research_ozgur_cetiner_2016]\] \[[Lei and Zheng-yin 2016][research_lei_zhengyin_2016]\] \[[Osman et al 2016][research_osman_aly_2016]\] \[[Padmanabhan et al 2016][research_padmanabhan_dowell_2016]\] \[[Warchulski and Warchulski 2016][research_warchulski_warchulski_2016]\] \[[Osman et al 2015][research_osman_aly_2015]\] \[[Kim et al 2015][research_kim_choi_2015]\] \[[Simulation of Store Separation 2014][research_simulation_of_2014]\] \[[Barone and Arunajatesan 2014][research_barone_arunajatesan_2014]\] \[[Flora et al 2014][research_flora_reeder_2014]\] \[[Ruchała and Placek 2013][research_ruchala_placek_2013]\] \[[Di et al 2013][research_di_gao_2013]\] \[[Carter and Lind 2012][research_carter_lind_2012]\] \[[Binkley and Vanderwyst 2012][research_binkley_vanderwyst_2012]\] \[[Carter and Lind 2012][research_carter_lind_2012_2]\] \[[Carter 2012][research_carter_2012]\] \[[Hallberg et al 2011][research_hallberg_snyder_2011]\] \[[Berglind and Tysell 2011][research_berglind_tysell_2011]\] \[[Rusong et al 2011][research_rusong_fei_2011]\] \[[Kraft and Lofthouse 2011][research_kraft_lofthouse_2011]\] \[[Subchan 2011][research_subchan_2011]\] \[[Berglind and Tysell 2010][research_berglind_tysell_2010]\] \[[Smith et al 2010][research_smith_morgret_2010]\] \[[Finney 2010][research_finney_2010]\] \[[Cureton et al 2010][research_cureton_power_2010]\] \[[Morgret et al 2009][research_morgret_smith_2009]\] \[[Keen et al 2009][research_keen_morgret_2009]\] \[[Oktay et al 2009][research_oktay_merttopcuoglu_2009]\] \[[Roughen et al 2009][research_roughen_wang_2009]\] \[[Nelson and Cain 2009][research_nelson_cain_2009]\] \[[Perillo et al 2009][research_perillo_atkins_2009]\] \[[zhang et al 2008][research_zhang_meganathan_2008]\] \[[Johnson et al 2008][research_johnson_stanek_2008]\] \[[Hallberg et al 2008][research_hallberg_cenko_2008]\] \[[Spinetti and Jolly 2008][research_spinetti_jolly_2008]\] \[[Charlton and Davis 2008][research_charlton_davis_2008]\] \[[Vaughn and Milton E. 2008][research_vaughn_miltone_2008]\] \[[Harding and Barton 2007][research_harding_barton_2007]\] \[[Prananta et al 2007][research_prananta_soemarwoto_2007]\] \[[Sickles et al 2007][research_sickles_power_2007]\] \[[Babcock 2007][research_babcock_2007]\] \[[Hallberg and Godiksen 2007][research_hallberg_godiksen_2007]\] \[[Cenko et al 2007][research_cenko_lee_2007]\] \[[Harish et al 2006][research_harish_pavanakumar_2006]\] \[[Hallberg et al 2006][research_hallberg_ray_2006]\] \[[Guigue et al 2006][research_guigue_ahmadi_2006]\] \[[Mani et al 2006][research_mani_cary_2006]\] \[[Freeman 2006][research_freeman_2006]\] \[[Freeman 2006][research_freeman_2006_2]\] \[[Jiang et al 2005][research_jiang_tang_2005]\] \[[Gleissl and Deslandes 2005][research_gleissl_deslandes_2005]\] \[[Malmuth et al 2005][research_malmuth_shalaev_2005]\] \[[Dudley and Westmoreland 2004][research_dudley_westmoreland_2004]\] \[[Martel 2004][research_martel_2004]\] \[[Freeman and Jolly 2004][research_freeman_jolly_2004]\] \[[Noel et al 2003][research_noel_niewoehner_2003]\] \[[Liu 2003][research_liu_2003]\] \[[Shamma and Cloutier 2003][research_shamma_cloutier_2003]\] \[[Lesieutre et al 2002][research_lesieutre_dillenius_2002]\] \[[Chen et al 2002][research_chen_sulaeman_2002]\] \[[Raivio and Ranta 2002][research_raivio_ranta_2002]\] \[[Davids and Cenko 2001][research_davids_cenko_2001]\] \[[Marcum 2001][research_marcum_2001]\] \[[Ching 2000][research_ching_2000]\] \[[Deslandes and Seifert 2000][research_deslandes_seifert_2000]\] \[[Pan et al 2000][research_pan_sarin_2000]\] \[[Kim and Lee 2000][research_kim_lee_2000]\] \[[Tekinalp and Utalay 2000][research_tekinalp_utalay_2000]\] \[[Nichols and Denny 1999][research_nichols_denny_1999]\] \[[Chan and Zhu 1999][research_chan_zhu_1999]\] \[[Cavallo et al 1999][research_cavallo_lee_1999]\] \[[Hoffren and Salminen 1999][research_hoffren_salminen_1999]\] \[[Garrell et al 1999][research_garrell_nowakowski_1999]\] \[[Stokes et al 1999][research_stokes_chappell_1999]\] \[[Tomaro et al 1999][research_tomaro_witzeman_1999]\] \[[Lijewski and Lijewski 1997][research_lijewski_lijewski_1997]\] \[[Cline et al 1996][research_cline_riner_1996]\] \[[Welterlen and Leone 1996][research_welterlen_leone_1996]\] \[[Coleman et al 1996][research_coleman_jolly_1996]\] \[[Herrmann 1996][research_herrmann_1996]\] \[[Nasuti and Innocenti 1996][research_nasuti_innocenti_1996]\] \[[Holley et al 1996][research_holley_render_1996]\] \[[Kaykayoglu 1996][research_kaykayoglu_1996]\] \[[Carlson et al 1995][research_carlson_king_1995]\] \[[Atwood 1995][research_atwood_1995]\] \[[Moyer et al 1995][research_moyer_richardson_1995]\] \[[New applications of engineering 1994][research_new_applications_1994]\] \[[Cenko et al 1994][research_cenko_phillips_1994]\] \[[Lijewski and Suhs 1994][research_lijewski_suhs_1994]\] \[[Lan et al 1994][research_lan_luo_1994]\] \[[Ferguson and Getson 1994][research_ferguson_getson_1994]\] \[[Kraft 1994][research_kraft_1994]\] \[[Ahmad et al 1993][research_ahmad_shanks_1993]\] \[[Cenko and Madson 1993][research_cenko_madson_1993]\] \[[Massengill, Jr. 1993][research_massengilljr_1993]\] \[[Newman et al 1992][research_newman_fulcher_1992]\] \[[Lijewski and Suhs 1992][research_lijewski_suhs_1992]\] \[[Chakravarthy and Szema 1991][research_chakravarthy_szema_1991]\] \[[Szymkowiak and Silver 1990][research_szymkowiak_silver_1990]\] \[[Cliff and Kelley 1989][research_cliff_kelley_1989]\] \[[Formaggia et al 1988][research_formaggia_peraire_1988]\] \[[Cenko et al 1986][research_cenko_meyer_1986]\] \[[Sorrells et al 1985][research_sorrells_towne_1985]\] \[[Sorrells et al 1984][research_sorrells_towne_1984]\] \[[Triplett 1984][research_triplett_1984]\] \[[Turner 1982][research_turner_1982]\] \[[Stallings, Jr. 1982][research_stallingsjr_1982]\] \[[A new approach to 1981][research_a_new_1981]\] \[[Aircraft store separation motion 1980][research_aircraft_store_1980]\] \[[Maddox 1980][research_maddox_1980]\] \[[Carman et al 1980][research_carman_jb_1980]\] \[[Billingsley et al 1979][research_billingsley_burt_1979]\] \[[Maddox et al 1979][research_maddox_dix_1979]\] \[[Kiber 1977][research_kiber_1977]\] \[[Spahr 1975][research_spahr_1975]\] \[[Dillenius et al 1975][research_dillenius_goodwin_1975]\] \[[Spahr 1974][research_spahr_1974]\] \[[Daniels and Clare 1973][research_daniels_clare_1973]\] \[[Burkhard 1973][research_burkhard_1973]\] \[[Brooks 1971][research_brooks_1971]\] \[[Markarian 1971][research_markarian_1971]\] \[[Black and Picklesimer 1971][research_black_picklesimer_1971]\] \[[Henton 1971][research_henton_1971]\] \[[Anderson 1970][research_anderson_1970]\] \[[Steinmetz 1970][research_steinmetz_1970]\] \[[Black 1969][research_black_1969]\] \[[Black 1968][research_black_1968]\] \[[Barnett 1966][research_barnett_1966]\] \[[Kearney and Holliday 1963][research_kearney_holliday_1963]\] \[[Barnett 1962][research_barnett_1962]\]
+**178 records.** \[[Store Separation Testing Techniques][research_store_separation]\] \[[Mathematical Fluid Dynamics of][research_mathematical_fluid_2]\] \[[A Method for Predicting][research_a_method]\] \[[Prediction of Six-Degree-of-Freedom Store][research_prediction_of]\] \[[Transonic Wind Tunnel Tests][research_transonic_wind]\] \[[CFD Wing/Pylon/Finned Store Mutual][research_cfd_wing_pylon_finned]\] \[[Aeroacoustic Environment of a][research_aeroacoustic_environment]\] \[[Aircraft Store Trajectories Predicted][research_aircraft_store]\] \[[Transonic Wing/Store Flow-Field Measurement][research_transonic_wing_store]\] \[[Wing/Store Flow-Field Measurement at][research_wing_store_flow_field]\] \[[Dynamic Aeroelastic Instabilities of][research_dynamic_aeroelastic]\] \[[Comparison of Wind Tunnel][research_comparison_of]\] \[[The Rapid Prediction of][research_the_rapid]\] \[[Captive Trajectory System Test][research_captive_trajectory]\] \[[User Requirements and Information][research_user_requirements]\] \[[Comparison of Store Trajectory][research_comparison_of_2]\] \[[Insensitive Munitions Technology Transition][research_insensitive_munitions]\] \[[Viscous flow simulations of][research_viscous_flow]\] \[[Tangential, semisubmerged, and internal][research_tangential_semisubmerged]\] \[[Tangential, semisubmerged, and internal][research_tangential_semisubmerged_2]\] \[[New test techniques to][research_new_test]\] \[[Navier-Stokes Solutions for Flows][research_navier_stokes_solutions]\] \[[Zhang et al 2026][research_zhang_wang_2026]\] \[[Das et al 2026][research_das_hale_2026]\] \[[Türk and Güleren 2025][research_turk_guleren_2025]\] \[[Vishwajeet et al 2025][research_vishwajeet_mulik_2025]\] \[[Cenko 2025][research_cenko_2025]\] \[[Coley 2024][research_coley_2024]\] \[[Ahn et al 2024][research_ahn_park_2024]\] \[[Smith et al 2024][research_smith_kumar_2024]\] \[[Savery and Coder 2024][research_savery_coder_2024]\] \[[Campbell 2024][research_campbell_2024]\] \[[Pandey et al 2023][research_pandey_tembhare_2023]\] \[[Ailneni et al 2023][research_ailneni_kashyap_2023]\] \[[Interface Standard, Miniature Mission 2023][research_interface_standard_2023]\] \[[Shin et al 2023][research_shin_jo_2023]\] \[[Gothard and Granlund 2022][research_gothard_granlund_2022]\] \[[Song 2021][research_song_2021]\] \[[Tamer 2021][research_tamer_2021]\] \[[Fontanella et al 2021][research_fontanella_bindi_2021]\] \[[Song and Ai 2021][research_song_ai_2021]\] \[[Mizrahi and Raveh 2019][research_mizrahi_raveh_2019]\] \[[Gong and Wang 2019][research_gong_wang_2019]\] \[[Dansie 2019][research_dansie_2019]\] \[[Schoppert 2019][research_schoppert_2019]\] \[[de Vasconcelos et al 2019][research_devasconcelos_leite_2019]\] \[[Sinha and Garg 2018][research_sinha_garg_2018]\] \[[Guigue 2018][research_guigue_2018]\] \[[Unal and Baran 2018][research_unal_baran_2018]\] \[[Demir 2018][research_demir_2018]\] \[[Mizrahi and Raveh 2018][research_mizrahi_raveh_2018]\] \[[Khaware et al 2018][research_khaware_shivanandham_2018]\] \[[Generic Aircraft-Store Interface Framework 2017][research_generic_aircraft_store_2017]\] \[[Aircraft/Store Common Interface Control 2017][research_aircraft_store_common_2017]\] \[[Hiwale et al 2017][research_hiwale_parkhi_2017]\] \[[Masud et al 2017][research_masud_mahmood_2017]\] \[[Demir et al 2017][research_demir_erdem_2017]\] \[[Interface Standard, Miniature Mission 2017][research_interface_standard_2017]\] \[[Özgür et al 2016][research_ozgur_cetiner_2016]\] \[[Lei and Zheng-yin 2016][research_lei_zhengyin_2016]\] \[[Osman et al 2016][research_osman_aly_2016]\] \[[Padmanabhan et al 2016][research_padmanabhan_dowell_2016]\] \[[Osman et al 2015][research_osman_aly_2015]\] \[[Kim et al 2015][research_kim_choi_2015]\] \[[Simulation of Store Separation 2014][research_simulation_of_2014]\] \[[Barone and Arunajatesan 2014][research_barone_arunajatesan_2014]\] \[[Flora et al 2014][research_flora_reeder_2014]\] \[[Ruchała and Placek 2013][research_ruchala_placek_2013]\] \[[Di et al 2013][research_di_gao_2013]\] \[[Carter and Lind 2012][research_carter_lind_2012]\] \[[Binkley and Vanderwyst 2012][research_binkley_vanderwyst_2012]\] \[[Carter and Lind 2012][research_carter_lind_2012_2]\] \[[Carter 2012][research_carter_2012]\] \[[Hallberg et al 2011][research_hallberg_snyder_2011]\] \[[Berglind and Tysell 2011][research_berglind_tysell_2011]\] \[[Rusong et al 2011][research_rusong_fei_2011]\] \[[Kraft and Lofthouse 2011][research_kraft_lofthouse_2011]\] \[[Berglind and Tysell 2010][research_berglind_tysell_2010]\] \[[Smith et al 2010][research_smith_morgret_2010]\] \[[Finney 2010][research_finney_2010]\] \[[Cureton et al 2010][research_cureton_power_2010]\] \[[Morgret et al 2009][research_morgret_smith_2009]\] \[[Keen et al 2009][research_keen_morgret_2009]\] \[[Oktay et al 2009][research_oktay_merttopcuoglu_2009]\] \[[Roughen et al 2009][research_roughen_wang_2009]\] \[[Nelson and Cain 2009][research_nelson_cain_2009]\] \[[Perillo et al 2009][research_perillo_atkins_2009]\] \[[zhang et al 2008][research_zhang_meganathan_2008]\] \[[Johnson et al 2008][research_johnson_stanek_2008]\] \[[Hallberg et al 2008][research_hallberg_cenko_2008]\] \[[Spinetti and Jolly 2008][research_spinetti_jolly_2008]\] \[[Charlton and Davis 2008][research_charlton_davis_2008]\] \[[Vaughn and Milton E. 2008][research_vaughn_miltone_2008]\] \[[Harding and Barton 2007][research_harding_barton_2007]\] \[[Prananta et al 2007][research_prananta_soemarwoto_2007]\] \[[Sickles et al 2007][research_sickles_power_2007]\] \[[Babcock 2007][research_babcock_2007]\] \[[Hallberg and Godiksen 2007][research_hallberg_godiksen_2007]\] \[[Cenko et al 2007][research_cenko_lee_2007]\] \[[Harish et al 2006][research_harish_pavanakumar_2006]\] \[[Hallberg et al 2006][research_hallberg_ray_2006]\] \[[Guigue et al 2006][research_guigue_ahmadi_2006]\] \[[Mani et al 2006][research_mani_cary_2006]\] \[[Freeman 2006][research_freeman_2006]\] \[[Freeman 2006][research_freeman_2006_2]\] \[[Jiang et al 2005][research_jiang_tang_2005]\] \[[Gleissl and Deslandes 2005][research_gleissl_deslandes_2005]\] \[[Malmuth et al 2005][research_malmuth_shalaev_2005]\] \[[Dudley and Westmoreland 2004][research_dudley_westmoreland_2004]\] \[[Martel 2004][research_martel_2004]\] \[[Freeman and Jolly 2004][research_freeman_jolly_2004]\] \[[Noel et al 2003][research_noel_niewoehner_2003]\] \[[Liu 2003][research_liu_2003]\] \[[Lesieutre et al 2002][research_lesieutre_dillenius_2002]\] \[[Chen et al 2002][research_chen_sulaeman_2002]\] \[[Davids and Cenko 2001][research_davids_cenko_2001]\] \[[Marcum 2001][research_marcum_2001]\] \[[Ching 2000][research_ching_2000]\] \[[Deslandes and Seifert 2000][research_deslandes_seifert_2000]\] \[[Pan et al 2000][research_pan_sarin_2000]\] \[[Kim and Lee 2000][research_kim_lee_2000]\] \[[Nichols and Denny 1999][research_nichols_denny_1999]\] \[[Chan and Zhu 1999][research_chan_zhu_1999]\] \[[Cavallo et al 1999][research_cavallo_lee_1999]\] \[[Hoffren and Salminen 1999][research_hoffren_salminen_1999]\] \[[Garrell et al 1999][research_garrell_nowakowski_1999]\] \[[Stokes et al 1999][research_stokes_chappell_1999]\] \[[Tomaro et al 1999][research_tomaro_witzeman_1999]\] \[[Lijewski and Lijewski 1997][research_lijewski_lijewski_1997]\] \[[Cline et al 1996][research_cline_riner_1996]\] \[[Welterlen and Leone 1996][research_welterlen_leone_1996]\] \[[Coleman et al 1996][research_coleman_jolly_1996]\] \[[Kaykayoglu 1996][research_kaykayoglu_1996]\] \[[Carlson et al 1995][research_carlson_king_1995]\] \[[Atwood 1995][research_atwood_1995]\] \[[Moyer et al 1995][research_moyer_richardson_1995]\] \[[New applications of engineering 1994][research_new_applications_1994]\] \[[Cenko et al 1994][research_cenko_phillips_1994]\] \[[Lijewski and Suhs 1994][research_lijewski_suhs_1994]\] \[[Lan et al 1994][research_lan_luo_1994]\] \[[Ferguson and Getson 1994][research_ferguson_getson_1994]\] \[[Kraft 1994][research_kraft_1994]\] \[[Ahmad et al 1993][research_ahmad_shanks_1993]\] \[[Cenko and Madson 1993][research_cenko_madson_1993]\] \[[Massengill 1993][research_massengilljr_1993]\] \[[Newman et al 1992][research_newman_fulcher_1992]\] \[[Lijewski and Suhs 1992][research_lijewski_suhs_1992]\] \[[Chakravarthy and Szema 1991][research_chakravarthy_szema_1991]\] \[[Szymkowiak and Silver 1990][research_szymkowiak_silver_1990]\] \[[Formaggia et al 1988][research_formaggia_peraire_1988]\] \[[Cenko et al 1986][research_cenko_meyer_1986]\] \[[Sorrells et al 1984][research_sorrells_towne_1984]\] \[[Triplett 1984][research_triplett_1984]\] \[[Turner 1982][research_turner_1982]\] \[[Stallings 1982][research_stallingsjr_1982]\] \[[A new approach to 1981][research_a_new_1981]\] \[[Aircraft store separation motion 1980][research_aircraft_store_1980]\] \[[Maddox 1980][research_maddox_1980]\] \[[Carman et al 1980][research_carman_jb_1980]\] \[[Billingsley et al 1979][research_billingsley_burt_1979]\] \[[Maddox et al 1979][research_maddox_dix_1979]\] \[[Kiber 1977][research_kiber_1977]\] \[[Spahr 1975][research_spahr_1975]\] \[[Dillenius et al 1975][research_dillenius_goodwin_1975]\] \[[Spahr 1974][research_spahr_1974]\] \[[Daniels and Clare 1973][research_daniels_clare_1973]\] \[[Burkhard 1973][research_burkhard_1973]\] \[[Brooks 1971][research_brooks_1971]\] \[[Markarian 1971][research_markarian_1971]\] \[[Black and Picklesimer 1971][research_black_picklesimer_1971]\] \[[Black 1968][research_black_1968]\] \[[Bacci and Saddington 2026][research_bacci_saddington_2026]\] \[[Ben-Gida 2023][research_bengida_2023]\] \[[Loupy et al 2018][research_loupy_barakos_2018]\] \[[Bower 2008][research_bower_2008]\] \[[Bower et al 2004][research_bower_kibens_2004]\] \[[Cenko et al 1995][research_cenko_piranian_1995]\] \[[Cenko 1994][research_cenko_1994]\]
 
 ### Carriage loads and the weapons bay
 
-**Before a store separates it is carried, and carriage is a separate problem.** A store in a bay or on a pylon changes the flow around both itself and the aircraft, and an internal bay adds an unsteady cavity flow that a pylon does not have.
+**Before a store separates it is carried, and carriage is a separate problem.** A store in a bay or on a pylon changes the flow around both itself and the aircraft, and an internal bay adds an unsteady cavity flow that a pylon does not have. The aerodynamic prediction of the store itself, without which neither its carriage loads nor its separation can be computed, is gathered here as well, and so is the weapon bay of the unmanned combat aircraft.
 
-**55 records.** \[[Aerodynamic Characteristics and Store][research_aerodynamic_characteristics]\] \[[Static Stability and Drag][research_static_stability]\] \[[Computational Fluid Dynamics Modeling][research_computational_fluid_2]\] \[[Aerodynamic Stability Technology for][research_aerodynamic_stability]\] \[[Cavity door effects on][research_cavity_door]\] \[[External store carriage loads][research_external_store]\] \[[Method to predict external][research_method_to]\] \[[Predicted Performance of a][research_predicted_performance]\] \[[Lee and Lua 2026][research_lee_lua_2026]\] \[[Chang 2025][research_chang_2025]\] \[[du Rand et al 2024][research_durand_jamison_2024]\] \[[Prakash et al 2024][research_prakash_sinha_2024]\] \[[Gonzalez-Martino et al 2023][research_gonzalezmartino_viner_2023]\] \[[Ailneni et al 2023][research_ailneni_kashyap_2023_2]\] \[[Waghmare et al 2022][research_waghmare_shivdas_2022]\] \[[Tembhurnikar et al 2021][research_tembhurnikar_bhosale_2021]\] \[[Chin et al 2020][research_chin_turpin_2020]\] \[[Lesieutre 2017][research_lesieutre_2017]\] \[[Fresconi et al 2017][research_fresconi_greunwald_2017]\] \[[Kholodar 2016][research_kholodar_2016]\] \[[Feng et al 2010][research_feng_tian_2010]\] \[[Heinze et al 2009][research_heinze_ringertz_2009]\] \[[Cenko et al 2008][research_cenko_deslandes_2008]\] \[[Mifsud et al 2006][research_mifsud_shaw_2006]\] \[[Vaughn 2006][research_vaughn_2006]\] \[[Moore 2000][research_moore_2000]\] \[[Welterlen 2000][research_welterlen_2000]\] \[[Moore et al 2000][research_moore_mcinville_2000]\] \[[Packard and Miller 2000][research_packard_miller_2000]\] \[[Tang and Dowell 1998][research_tang_dowell_1998]\] \[[Nichols et al 1997][research_nichols_evans_1997]\] \[[Ozcan et al 1995][research_ozcan_unal_1995]\] \[[Ozcan et al 1994][research_ozcan_unal_1994]\] \[[Ozcan et al 1993][research_ozcan_unal_1993]\] \[[Eastman 1993][research_eastman_1993]\] \[[Cenko 1992][research_cenko_1992]\] \[[Nichols et al 1992][research_nichols_jacocks_1992]\] \[[Eastman 1992][research_eastman_1992]\] \[[Blair and Stallings 1989][research_blair_stallings_1989]\] \[[Rosen 1988][research_rosen_1988]\] \[[Blair, Jr. and Stallings, Jr. 1988][research_blairjr_stallingsjr_1988]\] \[[Cenko et al 1983][research_cenko_meyer_1983]\] \[[Hemsch and Nielsen 1983][research_hemsch_nielsen_1983]\] \[[Krieger 1983][research_krieger_1983]\] \[[Williams 1982][research_williams_1982]\] \[[Krieger 1982][research_krieger_1982]\] \[[Anderson 1981][research_anderson_1981]\] \[[Krieger and Williams 1981][research_krieger_williams_1981]\] \[[Vukelich and Jenkins 1981][research_vukelich_jenkins_1981]\] \[[Shadow 1978][research_shadow_1978]\] \[[Quam 1978][research_quam_1978]\] \[[Kain et al 1978][research_kain_brownjr_1978]\] \[[Martin and Walkley 1975][research_martin_walkley_1975]\] \[[Martin et al 1975][research_martin_saunders_1975]\] \[[Chadwick 1974][research_chadwick_1974]\]
+**54 records.** \[[Static Stability and Drag][research_static_stability]\] \[[Computational Fluid Dynamics Modeling][research_computational_fluid_2]\] \[[Aerodynamic Stability Technology for][research_aerodynamic_stability]\] \[[Method to predict external][research_method_to]\] \[[Predicted Performance of a][research_predicted_performance]\] \[[Lee and Lua 2026][research_lee_lua_2026]\] \[[Chang 2025][research_chang_2025]\] \[[du Rand et al 2024][research_durand_jamison_2024]\] \[[Prakash et al 2024][research_prakash_sinha_2024]\] \[[Gonzalez-Martino et al 2023][research_gonzalezmartino_viner_2023]\] \[[Waghmare et al 2022][research_waghmare_shivdas_2022]\] \[[Tembhurnikar et al 2021][research_tembhurnikar_bhosale_2021]\] \[[Chin et al 2020][research_chin_turpin_2020]\] \[[Lesieutre 2017][research_lesieutre_2017]\] \[[Kholodar 2016][research_kholodar_2016]\] \[[Feng et al 2010][research_feng_tian_2010]\] \[[Heinze et al 2009][research_heinze_ringertz_2009]\] \[[Cenko et al 2008][research_cenko_deslandes_2008]\] \[[Mifsud et al 2006][research_mifsud_shaw_2006]\] \[[Vaughn 2006][research_vaughn_2006]\] \[[Moore 2000][research_moore_2000]\] \[[Welterlen 2000][research_welterlen_2000]\] \[[Moore et al 2000][research_moore_mcinville_2000]\] \[[Packard and Miller 2000][research_packard_miller_2000]\] \[[Tang and Dowell 1998][research_tang_dowell_1998]\] \[[Nichols et al 1997][research_nichols_evans_1997]\] \[[Ozcan et al 1995][research_ozcan_unal_1995]\] \[[Ozcan et al 1994][research_ozcan_unal_1994]\] \[[Ozcan et al 1993][research_ozcan_unal_1993]\] \[[Cenko 1992][research_cenko_1992]\] \[[Nichols et al 1992][research_nichols_jacocks_1992]\] \[[Eastman 1992][research_eastman_1992]\] \[[Blair and Stallings 1989][research_blair_stallings_1989]\] \[[Rosen 1988][research_rosen_1988]\] \[[Blair and Stallings 1988][research_blairjr_stallingsjr_1988]\] \[[Cenko et al 1983][research_cenko_meyer_1983]\] \[[Hemsch and Nielsen 1983][research_hemsch_nielsen_1983]\] \[[Williams 1982][research_williams_1982]\] \[[Anderson 1981][research_anderson_1981]\] \[[Krieger and Williams 1981][research_krieger_williams_1981]\] \[[Vukelich and Jenkins 1981][research_vukelich_jenkins_1981]\] \[[Shadow 1978][research_shadow_1978]\] \[[Quam 1978][research_quam_1978]\] \[[Kain et al 1978][research_kain_brownjr_1978]\] \[[Martin and Walkley 1975][research_martin_walkley_1975]\] \[[Martin et al 1975][research_martin_saunders_1975]\] \[[Chadwick 1974][research_chadwick_1974]\] \[[Liu et al 2023][research_liu_chen_2023]\] \[[Hallissy and Hariharan 2014][research_hallissy_hariharan_2014]\] \[[Lawson and Barakos 2012][research_lawson_barakos_2012]\] \[[Lawson and Barakos 2010][research_lawson_barakos_2010]\] \[[Maxwell and Dawson 2004][research_maxwell_dawson_2004]\] \[[Dawson and Maxwell 2003][research_dawson_maxwell_2003]\] \[[Dawson and Maxwell 2006][research_dawson_maxwell_2006]\]
 
 ### The release mechanism, the ejector and the pit drop
 
-**The mechanism that pushes the store is a discipline in itself and it is thinly published.** The ground test the budget books plan appears in this literature under its own name, which is how this article knows the test is standard practice and not improvised.
+**The mechanism that pushes the store is a discipline in itself and it is a small literature beside the separation work it serves.** Its records are rack and cartridge test reports, rack load and stress analyses, and a recent group of ejector force models. The ground test the budget books plan appears in this literature under its own name, as the modelling of ejection accelerations from store pit drop tests and as static ejection testing, which is how this article knows the test is standard practice and not improvised.
 
-**7 records.** \[[Mau-12A/A BOMB Ejector RACK][research_mau_12a_a_bomb]\] \[[Kariv and Raveh 2020][research_kariv_raveh_2020]\] \[[Lucey 2019][research_lucey_2019]\] \[[Stoykov and Atanasov 2016][research_stoykov_atanasov_2016]\] \[[Krejci 2013][research_krejci_2013]\] \[[Chen and Zhang 2013][research_chen_zhang_2013]\] \[[O'Bannon 1964][research_obannon_1964]\]
+**16 records.** \[[Ailneni et al 2023][research_ailneni_kashyap_2023_2]\] \[[Kariv and Raveh 2020][research_kariv_raveh_2020]\] \[[Lucey 2019][research_lucey_2019]\] \[[Stoykov and Atanasov 2016][research_stoykov_atanasov_2016]\] \[[Krejci 2013][research_krejci_2013]\] \[[Chen and Zhang 2013][research_chen_zhang_2013]\] \[[O'Bannon 1964][research_obannon_1964]\] \[[Nguyen and Gebert 2023][research_nguyen_gebert_2023]\] \[[Stenftenagel and Gebert 2022][research_stenftenagel_gebert_2022]\] \[[Tian et al 2022][research_tian_li_2022]\] \[[Bilal and Shah 2016][research_bilal_shah_2016]\] \[[Kenkelen and Wieseman 1972][research_kenkelen_wieseman_1972]\] \[[Tactical Air Command Langley Afb Va 1963][research_operational_test_1963]\] \[[Erickson 1948][research_erickson_1948]\] \[[Schoppert and Means][research_schoppert_means]\] \[[Nguyen et al 2026][research_nguyen_pham_2026]\]
 
 ### Mass, inertia and what a release does to stability
 
-**A release is a discontinuous change in the plant, and the control literature treats that as its own problem.** Mass properties measurement, loading envelopes, reconfigurable control and time-varying stability analysis are the four halves of it.
+**A release is a discontinuous change in the plant, and the control literature treats that as its own problem.** Mass properties measurement, a centre of gravity that moves in flight, the response and control of an aircraft releasing or carrying asymmetric stores, and the stability analysis of time-varying systems are its four parts.
 
-**23 records.** \[[Flight Article MASS Properties][research_flight_article]\] \[[Flight Article MASS Properties][research_flight_article_2]\] \[[Flight Article MASS Properties][research_flight_article_3]\] \[[AIR Force Plant 77][research_air_force]\] \[[Control and Identification of][research_control_and]\] \[[Change-Point Detection and Adaptive][research_change_point_detection]\] \[[On a Theory of][research_on_a]\] \[[Active and TIME Varying][research_active_and]\] \[[Algebraic Theory of Linear][research_algebraic_theory]\] \[[Applied Time Domain Stability][research_applied_time]\] \[[Medwetz 2024][research_medwetz_2024]\] \[[Guo and Han 2018][research_guo_han_2018]\] \[[Li et al 2017][research_li_gao_2017]\] \[[Vengate et al 2016][research_vengate_erturk_2016]\] \[[Chen 2016][research_chen_2016]\] \[[Pesterev 2016][research_pesterev_2016]\] \[[Mazenc and Malisoff 2014][research_mazenc_malisoff_2014]\] \[[Liu and Lu 2011][research_liu_lu_2011]\] \[[Sadraey 2009][research_sadraey_2009]\] \[[Mukherjee and Balaram 2008][research_mukherjee_balaram_2008]\] \[[A Study on Improvement 2006][research_a_study_2006]\] \[[Jingxin Zhang and Cishen Zhang 2002][research_jingxinzhang_cishenzhang_2002]\] \[[Shamma 1995][research_shamma_1995]\]
+**26 records.** \[[Flight Article MASS Properties][research_flight_article]\] \[[Flight Article MASS Properties][research_flight_article_2]\] \[[Flight Article MASS Properties][research_flight_article_3]\] \[[AIR Force Plant 77][research_air_force]\] \[[Control and Identification of][research_control_and]\] \[[Change-Point Detection and Adaptive][research_change_point_detection]\] \[[Applied Time Domain Stability][research_applied_time]\] \[[Medwetz 2024][research_medwetz_2024]\] \[[Li et al 2017][research_li_gao_2017]\] \[[Vengate et al 2016][research_vengate_erturk_2016]\] \[[Liu and Lu 2011][research_liu_lu_2011]\] \[[Sadraey 2009][research_sadraey_2009]\] \[[Mukherjee and Balaram 2008][research_mukherjee_balaram_2008]\] \[[A Study on Improvement 2006][research_a_study_2006]\] \[[Shamma 1995][research_shamma_1995]\] \[[Li et al 2025][research_li_ji_2025]\] \[[Veeresha et al 2025][research_veeresha_sinchana_2025]\] \[[Antonić et al 2024][research_antonic_trifkovic_2024]\] \[[Park et al 2024][research_park_myoung_2024]\] \[[Ji et al 2021][research_ji_kim_2021]\] \[[Klappa and Fields 2021][research_klappa_fields_2021]\] \[[Manshadi and Saghafi 2018][research_manshadi_saghafi_2018]\] \[[Safi'i et al 2018][research_safii_arifianto_2018]\] \[[Jing Zhang et al 2009][research_jingzhang_lingyuyang_2009]\] \[[Cadwell][research_cadwell]\] \[[Gade and Inman 1999][research_gade_inman_1999]\]
 
 ### Air launch and the carrier aircraft
 
 **Launching one air vehicle from another is a recurring idea with a long record**, and the separation problem it poses is the same problem as a store's with the sign of the interest reversed, because here the released object is the one that must survive.
 
-**14 records.** \[[Air-Launched Windsonde][research_air_launched_windsonde]\] \[[Air-Launched Balloon System][research_air_launched_balloon]\] \[[AIR Launched Rocketsounding Study][research_air_launched]\] \[[Accuracy and Dispersion of][research_accuracy_and]\] \[[Navy Air-Launched Missile Operating][research_navy_air_launched]\] \[[Flight Tests of the][research_flight_tests]\] \[[Thermal Stability of Six][research_thermal_stability]\] \[[Report on Human Factors][research_report_on]\] \[[Stewart et al 2026][research_stewart_dooher_2026]\] \[[Cai et al 2023][research_cai_denton_2023]\] \[[Aleksandrovich and Nikolayevich 2020][research_aleksandrovich_nikolayevich_2020]\] \[[Haglind et al 2007][research_haglind_edefur_2007]\] \[[Graves and Robins 1979][research_graves_robins_1979]\] \[[Brunner et al 1976][research_brunner_marshall_1976]\]
+**17 records.** \[[Air-Launched Windsonde][research_air_launched_windsonde]\] \[[Air-Launched Balloon System][research_air_launched_balloon]\] \[[AIR Launched Rocketsounding Study][research_air_launched]\] \[[Accuracy and Dispersion of][research_accuracy_and]\] \[[Navy Air-Launched Missile Operating][research_navy_air_launched]\] \[[Flight Tests of the][research_flight_tests]\] \[[Thermal Stability of Six][research_thermal_stability]\] \[[Report on Human Factors][research_report_on]\] \[[Stewart et al 2026][research_stewart_dooher_2026]\] \[[Cai et al 2023][research_cai_denton_2023]\] \[[Aleksandrovich and Nikolayevich 2020][research_aleksandrovich_nikolayevich_2020]\] \[[Haglind et al 2007][research_haglind_edefur_2007]\] \[[Graves and Robins 1979][research_graves_robins_1979]\] \[[Brunner et al 1976][research_brunner_marshall_1976]\] \[[Goerttler and Schnepf 2024][research_goerttler_schnepf_2024]\] \[[Goerttler and Schnepf 2022][research_goerttler_schnepf_2022]\] \[[Anderson and Lopata 1996][research_anderson_lopata_1996]\]
 
 ### Folding surfaces and their deployment transient
 
@@ -1551,33 +1573,33 @@ outcome is intended.
 
 ### The premise, air-breathing against rocket
 
-**The programme's motivation is a propulsion comparison and the comparison has a literature.** Specific impulse methodology, the range equation, propellant fractions and expendable turbojet design are where the premise above is worked out properly.
+**The programme's motivation is a propulsion comparison and the comparison has a literature.** Specific impulse methodology, the range equation and its extension to a payload released in flight, and the propulsion of cruise and tactical missiles are where the premise above is worked out properly.
 
-**41 records.** \[[A General Method for][research_a_general]\] \[[Palaia 2026][research_palaia_2026]\] \[[Batra et al 2026][research_batra_raute_2026]\] \[[Nguyen et al 2025][research_nguyen_sonphan_2025]\] \[[Frederick and Petrof 2024][research_frederick_petrof_2024]\] \[[Luca et al 2024][research_luca_angelo_2024]\] \[[Batra et al 2023][research_batra_raute_2023]\] \[[Cestino et al 2023][research_cestino_pisu_2023]\] \[[Harish et al 2022][research_harish_gladin_2022]\] \[[Staack et al 2021][research_staack_sobron_2021]\] \[[Chen 2021][research_chen_2021]\] \[[Wroblewski and Ansell 2020][research_wroblewski_ansell_2020]\] \[[de Vries et al 2020][research_devries_hoogreef_2020]\] \[[Ravishankar and Chakravarthy 2018][research_ravishankar_chakravarthy_2018]\] \[[Mathison and D'Souza 2017][research_mathison_dsouza_2017]\] \[[Randle et al 2011][research_randle_hall_2011]\] \[[Air-Breathing Propulsion Flowpath Applications 2009][research_air_breathing_propulsion_2009]\] \[[Fleeman 2008][research_fleeman_2008]\] \[[Lytle 2006][research_lytle_2006]\] \[[Cavcar 2006][research_cavcar_2006]\] \[[Bardell 2000][research_bardell_2000]\] \[[Schindel 1999][research_schindel_1999]\] \[[Chase et al 1999][research_chase_mckinney_1999]\] \[[Joshi et al 1992][research_joshi_lo_1992]\] \[[Thermal management of air-breathing 1992][research_thermal_management_1992]\] \[[Hoy 1989][research_hoy_1989]\] \[[Stricker 1989][research_stricker_1989]\] \[[Mattingly 1988][research_mattingly_1988]\] \[[High specific impulse propulsion 1987][research_high_specific_1987]\] \[[Mattingly 1987][research_mattingly_1987]\] \[[Turk and Zeiner 1986][research_turk_zeiner_1986]\] \[[Davis 1985][research_davis_1985]\] \[[Davis 1984][research_davis_1984]\] \[[Cruzen 1983][research_cruzen_1983]\] \[[Locke 1981][research_locke_1981]\] \[[Williams 1981][research_williams_1981]\] \[[Kramer and Buehler 1979][research_kramer_buehler_1979]\] \[[Bellman and Hughes 1968][research_bellman_hughes_1968]\] \[[Allen and Byrne 1965][research_allen_byrne_1965]\] \[[Pratt 1964][research_pratt_1964]\] \[[Powers 1960][research_powers_1960]\]
+**33 records.** \[[A General Method for][research_a_general]\] \[[Palaia 2026][research_palaia_2026]\] \[[Batra et al 2026][research_batra_raute_2026]\] \[[Nguyen et al 2025][research_nguyen_sonphan_2025]\] \[[Frederick and Petrof 2024][research_frederick_petrof_2024]\] \[[Luca et al 2024][research_luca_angelo_2024]\] \[[Batra et al 2023][research_batra_raute_2023]\] \[[Cestino et al 2023][research_cestino_pisu_2023]\] \[[Harish et al 2022][research_harish_gladin_2022]\] \[[Staack et al 2021][research_staack_sobron_2021]\] \[[Chen 2021][research_chen_2021]\] \[[Wroblewski and Ansell 2020][research_wroblewski_ansell_2020]\] \[[de Vries et al 2020][research_devries_hoogreef_2020]\] \[[Ravishankar and Chakravarthy 2018][research_ravishankar_chakravarthy_2018]\] \[[Randle et al 2011][research_randle_hall_2011]\] \[[Fleeman 2008][research_fleeman_2008]\] \[[Cavcar 2006][research_cavcar_2006]\] \[[Bardell 2000][research_bardell_2000]\] \[[Schindel 1999][research_schindel_1999]\] \[[Chase et al 1999][research_chase_mckinney_1999]\] \[[Hoy 1989][research_hoy_1989]\] \[[Stricker 1989][research_stricker_1989]\] \[[High specific impulse propulsion 1987][research_high_specific_1987]\] \[[Turk and Zeiner 1986][research_turk_zeiner_1986]\] \[[Davis 1985][research_davis_1985]\] \[[Davis 1984][research_davis_1984]\] \[[Cruzen 1983][research_cruzen_1983]\] \[[Locke 1981][research_locke_1981]\] \[[Kramer and Buehler 1979][research_kramer_buehler_1979]\] \[[Allen and Byrne 1965][research_allen_byrne_1965]\] \[[Powers 1960][research_powers_1960]\] \[[Deuschle 2025][research_deuschle_2025]\] \[[Tsukanov and Riabkov 2021][research_tsukanov_riabkov_2021]\]
 
 ### A missile's energy, its coast and its reach
 
-**This cluster is nearly empty and the emptiness is reported, not hidden.** Searched in the flight-mechanics vocabulary as well as the engagement vocabulary, the open indexed literature returns very little. The subject exists and is largely not in that literature, which is an unsurprising result for weapons effectiveness and is stated here because a reader should not take a thin cluster for a thin subject.
+**This cluster is small, and what it holds is method rather than measurement.** Its records are missile trajectory models and six-degree-of-freedom equations, launch range and launch acceptability region documents, missile drag against flight test, and ballistic coefficient estimation for other flying bodies. **None of its titles names a particular missile's reach**, which is unsurprising for weapons effectiveness and is stated here because a reader should not take a thin record of the numbers for a thin subject.
 
-**3 records.** \[[Algorithms for Estimating a][research_algorithms_for]\] \[[Influence of projectile ballistic 2018][research_influence_of_projectile_2018]\] \[[Murthy 2015][research_murthy_2015]\]
+**20 records.** \[[Zaikang and Defu 2019][research_zaikang_defu_2019]\] \[[Warchulski and Warchulski 2016][research_warchulski_warchulski_2016]\] \[[Herrmann 1996][research_herrmann_1996]\] \[[Holley et al 1996][research_holley_render_1996]\] \[[Cliff and Kelley 1989][research_cliff_kelley_1989]\] \[[Henton 1971][research_henton_1971]\] \[[Anderson 1970][research_anderson_1970]\] \[[Barnett 1966][research_barnett_1966]\] \[[Barnett 1962][research_barnett_1962]\] \[[Eastman 1993][research_eastman_1993]\] \[[Krieger 1983][research_krieger_1983]\] \[[Krieger 1982][research_krieger_1982]\] \[[Algorithms for Estimating a][research_algorithms_for]\] \[[Influence of projectile ballistic 2018][research_influence_of_projectile_2018]\] \[[Murthy 2015][research_murthy_2015]\] \[[Li et al 2022][research_li_shi_2022]\] \[[Common Launch Acceptability Region][research_common_launch]\] \[[Common Launch Acceptability Region][research_common_launch_2]\] \[[Common Launch Acceptability Region][research_common_launch_3]\] \[[Common Launch Acceptability Region][research_common_launch_4]\]
 
 ### Attritable and expendable air vehicles as a class
 
-**An attritable vehicle is a cost argument before it is an engineering one**, and the literature is accordingly about reliability against unit cost and not about aerodynamics.
+**An attritable vehicle is a cost argument before it is an engineering one**, and the literature accordingly weighs reliability, life-cycle cost and expendability alongside the guidance and identification of small, low-cost vehicles, and says little about their aerodynamics.
 
-**14 records.** \[[Navigation, Guidance and Control][research_navigation_guidance]\] \[[Ma et al 2021][research_ma_docimo_2021]\] \[[Comparing the Cost-Effectiveness of 2021][research_comparing_the_2021]\] \[[Colombi et al 2017][research_colombi_bentz_2017]\] \[[Valasek et al 2017][research_valasek_lu_2017]\] \[[Devasia and Lee 2016][research_devasia_lee_2016]\] \[[Kahn and Edwards 2015][research_kahn_edwards_2015]\] \[[Krings et al 2013][research_krings_annighofer_2013]\] \[[Erdman and Mitchum 2013][research_erdman_mitchum_2013]\] \[[Dorobantu et al 2013][research_dorobantu_murch_2013]\] \[[Kahn and Edwards 2012][research_kahn_edwards_2012]\] \[[Bateman et al 2007][research_bateman_nelson_2007]\] \[[Case Study Micro Tactical 2007][research_case_study_2007]\] \[[Hawkins 1989][research_hawkins_1989]\]
+**10 records.** \[[Ma et al 2021][research_ma_docimo_2021]\] \[[Comparing the Cost-Effectiveness of 2021][research_comparing_the_2021]\] \[[Colombi et al 2017][research_colombi_bentz_2017]\] \[[Krings et al 2013][research_krings_annighofer_2013]\] \[[Erdman and Mitchum 2013][research_erdman_mitchum_2013]\] \[[Dorobantu et al 2013][research_dorobantu_murch_2013]\] \[[Kahn and Edwards 2012][research_kahn_edwards_2012]\] \[[Bateman et al 2007][research_bateman_nelson_2007]\] \[[Case Study Micro Tactical 2007][research_case_study_2007]\] \[[Hawkins 1989][research_hawkins_1989]\]
 
 ### Recovery of a test article
 
 **A recovery system on a vehicle meant to be expended is a test-programme artefact**, and the parachute and decelerator literature is where its sizing lives.
 
-**21 records.** \[[Drag and Performance Characteristics][research_drag_and]\] \[[To 2024][research_to_2024]\] \[[Dinh 2024][research_dinh_2024]\] \[[Drynan 2024][research_drynan_2024]\] \[[Pepermans et al 2018][research_pepermans_rozemeijer_2018]\] \[[Clark et al 2015][research_clark_gallon_2015]\] \[[Gallon and Witkowski 2015][research_gallon_witkowski_2015]\] \[[Cook 2013][research_cook_2013]\] \[[Guidotti et al 2012][research_guidotti_richiello_2012]\] \[[Wolf and Fallon 2011][research_wolf_fallon_2011]\] \[[Morris and Olson 2011][research_morris_olson_2011]\] \[[Witkowski 1999][research_witkowski_1999]\] \[[Behr 1989][research_behr_1989]\] \[[Pepper 1984][research_pepper_1984]\] \[[Pepper 1980][research_pepper_1980]\] \[[Pepper, Jr. 1979][research_pepperjr_1979]\] \[[Pepper 1977][research_pepper_1977]\] \[[Whalley 1973][research_whalley_1973]\] \[[Flatau and Miller 1970][research_flatau_miller_1970]\] \[[Babish III 1966][research_babishiii_1966]\] \[[Ericksen et al 1966][research_ericksen_guiteras_1966]\]
+**21 records.** \[[Drag and Performance Characteristics][research_drag_and]\] \[[To 2024][research_to_2024]\] \[[Dinh 2024][research_dinh_2024]\] \[[Drynan 2024][research_drynan_2024]\] \[[Pepermans et al 2018][research_pepermans_rozemeijer_2018]\] \[[Clark et al 2015][research_clark_gallon_2015]\] \[[Gallon and Witkowski 2015][research_gallon_witkowski_2015]\] \[[Cook 2013][research_cook_2013]\] \[[Guidotti et al 2012][research_guidotti_richiello_2012]\] \[[Wolf and Fallon 2011][research_wolf_fallon_2011]\] \[[Morris and Olson 2011][research_morris_olson_2011]\] \[[Witkowski 1999][research_witkowski_1999]\] \[[Behr 1989][research_behr_1989]\] \[[Pepper 1984][research_pepper_1984]\] \[[Pepper 1980][research_pepper_1980]\] \[[Pepper 1979][research_pepperjr_1979]\] \[[Pepper 1977][research_pepper_1977]\] \[[Whalley 1973][research_whalley_1973]\] \[[Flatau and Miller 1970][research_flatau_miller_1970]\] \[[Babish III 1966][research_babishiii_1966]\] \[[Ericksen et al 1966][research_ericksen_guiteras_1966]\]
 
 ### Demonstrator practice
 
-**This cluster is also nearly empty and for a different reason.** Writing about how to run a demonstrator programme is mostly institutional rather than indexed, so the indexed literature holds almost none of it. The practice is real and the literature about the practice is thin.
+**This cluster is nearly empty, and for a reason of its own.** Writing about how to run a demonstrator programme is mostly institutional rather than indexed, so the indexed literature holds almost none of it. The practice is real and the literature about the practice is thin.
 
-**4 records.** \[[Artificial Intelligence Techniques for][research_artificial_intelligence]\] \[[Bouwer and Ignatuk 2025][research_bouwer_ignatuk_2025]\] \[[Bouwer and Ignatuk 2025][research_bouwer_ignatuk_2025_2]\] \[[Flight Test Programme 1970][research_flight_test_1970]\]
+**2 records.** \[[Artificial Intelligence Techniques for][research_artificial_intelligence]\] \[[Flight Test Programme 1970][research_flight_test_1970]\]
 
 ## Where the Framing Breaks Down
 
@@ -1642,56 +1664,16 @@ claims more loosely than the programme-level ones.
 
 ## The Source Base
 
-### The Survey, and What It Admits
-
-**The research survey holds 428 works across 11 clusters, cited alongside 23 primary sources read
+**The research survey holds 417 records across 11 clusters, cited alongside 26 primary sources read
 directly.** Its records come from NASA's Technical Reports Server, the Defense Technical Information
-Center and the journal and conference registries that Crossref indexes. **A record is admitted only
-when a person reading its title finds it on this article's subject**, and repeated registrations of
-one work are merged so that each work is cited once.
-
-**87 of the 428, or 20.3 percent, are research reports rather than journal or conference papers by
-their address**, counting every definition whose address is on NASA's Technical Reports Server, the
-Defense Technical Information Center or the Department of Energy's Office of Scientific and Technical
-Information, or whose digital object identifier, or DOI, is one of their report DOIs. **Store
-separation is an aerospace engineering discipline published mainly through one professional society's
-conferences and journals**, and 220 of the 428, or 51.4 percent, carry a DOI under the prefix 10.2514
-of the American Institute of Aeronautics and Astronautics, so its literature sits in the article
-registries and not on the government report servers. **362 of the 428 carry a year and 348 of those
-are dated 2025 or earlier**, with a median year of 2009 and a range from 1960 to 2026, and the count
-is reported beside the fraction because adding contemporary work lowers the fraction while leaving the
-count unchanged.
-
-**Several words this subject depends on also name something else, and a record that shares only such
-a word is excluded.** Breguet names a watchmaker and an aircraft maker as well as the range equation.
-Store also names a shop, a memory in cognitive psychology and the storey of a building, and centre of
-gravity also names a concept in economic geography. Trajectory also describes strategic and ballistic
-missile flight from burnout to impact and boost-glide flight, which are missile flight rather than
-store release. Specific impulse also belongs to spacecraft electric and laser propulsion, air-launched
-also describes oceanographic instruments dropped from aircraft, and loading also describes the ground
-equipment that loads an aircraft gun. Correction notices and withdrawal notices are excluded as well,
-because a survey counts research works and those are editorial events rather than works.
-
-**Separation is the hardest of these words, because its largest other use is aeronautical.**
-Boundary-layer separation, flow separation, leading-edge separation and turbulent separation control
-are the largest aeronautical users of the word separation. **They are aerodynamics**, so no test of
-whether a title is aeronautical tells them apart from store separation. **A title is therefore read
-as on this subject only when it names a thing that is carried and released**, and the word separation
-standing alone admits nothing.
-
-**Some records of doubtful relevance are kept.** Air-launched meteorological sondes and balloon
-systems, ballistic coefficient estimation for re-entry bodies and non-lethal projectiles, tactical
-missile trajectory work outside store separation, a laser-driven air-breathing propulsion simulator,
-mass properties reports for an intercontinental ballistic missile, and linear time-varying systems
-theory each share either the carried and released object or the physics of a release or a coast with
-this subject, so each is kept and a reader may weigh it accordingly.
-
-**Every research title has been read for relevance, so the off-topic share that remains is a matter
-of reading judgement.**
+Center and the journal, conference and standards registries that Crossref indexes. **365 of the 417
+carry a year and 349 of those are dated 2025 or earlier**, with a median year of 2009 and a range
+from 1948 to 2026, and the count is reported beside the fraction because adding contemporary work
+lowers the fraction while leaving the count unchanged.
 
 ### The Reports Server Is the Wrong Server for This Subject
 
-**Only 11 of the 428 cited works carry an address on NASA's Technical Reports Server, against 75
+**Only 8 of the 417 cited records carry an address on NASA's Technical Reports Server, against 58
 that carry a Defense Technical Information Center DOI.**
 
 **That is not a thin literature, it is a subject living somewhere else.** Store separation is a
@@ -1701,11 +1683,13 @@ as thin when it is large.**
 
 ### What This Article Read in Full
 
-**23 sources were read directly rather than surveyed by title.** The designation register and its
+**26 sources were read directly rather than surveyed by title.** The designation register and its
 front matter. All seven budget justification books, for the programme entry, the funding
 columns, the plans lists and the programme element migration sentences. The sponsoring agency's
 programme page and its announcement. The contractor's announcement. The federal award record, for
-five awards and their contract data. Two defence journalism accounts. And the reference
+five awards and their contract data. Three defence journalism accounts. The compiler's page on the
+designations of military aero-engines. An index record of the compatibility handbook, for its
+title, its date and the standard it supersedes. And the reference
 pages for the cruise missile that shares this aircraft's engine, the missile the programme says it
 will carry, and the aircraft that will launch it. And the register's page as archived on three dates,
 for the note under Statements in This Article That Postdate Its Own Date.
@@ -1733,9 +1717,106 @@ neither discrepancy becomes this article's own.
 and are kept apart.** The broad agency announcement HR001120S0037, named by four awards, could
 not be retrieved from the federal opportunity portal, the public web archive or the sponsoring
 agency's own site, and the discipline's governing compatibility handbook sits behind the standards
-repository's login. **Each is cited by its nominal address, the portal page and the repository's
-public search page, neither is counted among the 23 sources read directly, and no claim
+repository's login, so only its index record was read. **Each is cited by its nominal address, the portal page and the repository's
+public search page, neither is counted among the 26 sources read directly, and no claim
 in this article rests on either document's content.**
+
+### The Definition of Primary
+
+**Primacy is a property of the document, and this survey derives it from the address.** A record is
+a report primary when its address is on NASA's Technical Reports Server, the Defense Technical
+Information Center or the Department of Energy's Office of Scientific and Technical Information, or
+when its digital object identifier, or DOI, is one of their report DOIs. **67 of the 417, or 16.1
+percent, are report primaries by that rule.** **Store separation is an aerospace engineering
+discipline published mainly through one professional society's conferences and journals**, and 222
+of the 417, or 53.2 percent, carry a DOI under the prefix 10.2514 of the American Institute of
+Aeronautics and Astronautics, so most of the discipline's first-hand work sits in the article
+registries and not on the government report servers. **The rule therefore understates how much of
+the survey is first-hand**, since a conference paper reporting a wind tunnel or flight test is a
+primary account of that test whatever its address.
+
+### Thin Subjects
+
+**Six subjects that this article's derivations depend on have thin literatures.** Each count below
+is the number of research records in this survey whose title carries at least one of the listed
+terms, with a hyphen read as a space. Where a row joins two groups of terms with the word together,
+a title must carry a term from each group.
+
+| Subject | Title terms counted | Records |
+|---|---|---:|
+| a store released from an unmanned carrier | uav, uavs, unmanned, ucav, ucavs, drone, drones together with store, stores, weapon, weapons, missile, missiles, release, separation, drop | 9 |
+| the ejector's force and stroke | ejector, ejection | 15 |
+| the plume of a missile fired near its carrier | plume, plumes | 1 |
+| a missile's reach | launch range, maximum range, reach, launch acceptability, engagement zone, engagement zones | 6 |
+| the change of inertia at release | inertia, inertias, moment of inertia, moments of inertia | 1 |
+| the retrim after release | trim, trims, trimmed, trimming, retrim, retrimming | 0 |
+
+**The literature on unmanned carriers studies their bays more than their releases.** Of the 9
+titles, 4 name a weapon bay, and 3 concern something released from the unmanned vehicle itself, of
+which 1 names a weapon. The keystone, a small unmanned vehicle releasing a store of large mass
+fraction, therefore rests on this article's own arithmetic rather than on a published analysis.
+
+**The ejector's force has become a modelling subject only recently.** Of the 15 titles, 4 model the
+ejector's force or the acceleration it imparts, and all 4 date from 2022 or later. The recoil and
+reduced-mass relations under The Ejector Pushes Back are classical mechanics and do not depend on
+those models, but the cartridge impulse they take as an input does.
+
+**The plume appears once**, in a simulation of missile plumes for aircraft and store compatibility
+assessments, which is consistent with this article's own decision to leave the plume out of scope.
+
+**The reach literature is method without a missile.** None of the 6 titles names a particular
+missile, so the reach figures under The Premise rest on the coast model calibrated against the
+encyclopedia's published range figures.
+
+**Inertia and trim are named almost nowhere.** One title names inertia, and it concerns the
+time-varying inertias of a variable-sweep morphing aircraft rather than a release. No title names
+trim, so the two inertia corrections and the retrim demand derived above stand on the relations
+shown and not on a measured case.
+
+### What the Survey Admits
+
+**A record is admitted only when a person reading its title finds it on this article's subject**,
+and twin deposits of one document under one title are merged so that each document is cited once.
+The subject is read as the eleven literatures the clusters name, each of which a section of this
+article uses, from the release of a carried store and its carriage, mechanism and effect on the
+carrier, through air launch, folding surfaces and recovery, to the propulsion premise, a missile's
+reach, attritable vehicles and demonstrator practice.
+
+**Several words this subject depends on also name something else, and a record that shares only such
+a word is excluded.** Breguet names a watchmaker and an aircraft maker as well as the range equation.
+Store also names a shop, a memory in cognitive psychology and the storey of a building, and centre of
+gravity also names a concept in economic geography. Trajectory also describes strategic and ballistic
+missile flight from burnout to impact and boost-glide flight, which are missile flight rather than
+store release, and it describes missile guidance, autopilot design, evasion and terminal trajectory
+optimisation, which are excluded for the same reason. Specific impulse also belongs to spacecraft
+electric and laser propulsion, and air-breathing propulsion also names combustion, thermal
+management and teaching, which are excluded because the premise is a comparison and not a survey of
+engines. Air-launched also describes oceanographic instruments dropped from aircraft, loading also
+describes the ground equipment that loads an aircraft gun, ejection also names a pilot's seat and a
+hydrocyclone, and time-varying also names classes of systems with delay, periodicity or special
+structure, which are excluded because a release is a step change. Correction notices, withdrawal
+notices and withdrawn papers are excluded as well, because a survey counts research records and
+those are editorial events rather than works.
+
+**Separation is the hardest of these words, because its largest other use is aeronautical.**
+Boundary-layer separation, flow separation, leading-edge separation and turbulent separation control
+are the largest aeronautical users of the word separation. **They are aerodynamics**, so no test of
+whether a title is aeronautical tells them apart from store separation. **A title is therefore read
+as on this subject only when it names a thing that is carried and released**, and the word separation
+standing alone admits nothing.
+
+**Some records of doubtful relevance are kept.** Air-launched meteorological sondes and balloon
+systems, ballistic coefficient estimation for re-entry bodies and non-lethal projectiles, mass
+properties reports for an intercontinental ballistic missile, air-breathing and rocket propulsion
+compared for trans-atmospheric and space transport vehicles, propellant chemistry for an
+air-launched missile, cooperative air combat tactics read through weapon engagement zones, and a
+fixed-wing unmanned aircraft delivering a payload each share either the carried and released
+object or the physics of a release or a coast with this subject, so each is kept and a reader may
+weigh it accordingly.
+
+**Every research title has been read for relevance, so the off-topic share that remains is a matter
+of reading judgement.** A reading of titles cannot show that a work is relevant in substance, so
+this is a statement about titles only.
 
 ## Epistemic State
 
@@ -1802,7 +1883,7 @@ statements than most because its subject became public after its date.
 announced 66 days after it**, on 17 February 2026. So at its own date
 the designation had been allocated and had not been publicly announced.
 
-**A note on the register.** The register row this article reads was not public at this article's date either. The register's page as archived on 10 December 2025 \[[DOD 4120.15-L Addendum, as archived on 10 December 2025][ref_mds_addendum_wb_2025_12]\] and on 15 January 2026 \[[DOD 4120.15-L Addendum, as archived on 15 January 2026][ref_mds_addendum_wb_2026_01]\] ends its research rows at the X-66A, and the page as archived on 1 February 2026 \[[DOD 4120.15-L Addendum, as archived on 1 February 2026][ref_mds_addendum_wb_2026_02]\] carries the X-68A row, so the row first appeared between 15 January and 1 February 2026, 148 to 165 days after the allocation it records. **Every reading of the row in this article is therefore a reading of a page later than the article's date**, like the announcement.
+**A note on the register.** The register row this article reads was not public at this article's date either. The register's page as archived on 10 December 2025 \[[Parsch, DOD 4120.15-L Addendum, as archived on 10 December 2025][ref_mds_addendum_wb_2025_12]\] and on 15 January 2026 \[[Parsch, DOD 4120.15-L Addendum, as archived on 15 January 2026][ref_mds_addendum_wb_2026_01]\] ends its research rows at the X-66A, and the page as archived on 1 February 2026 \[[Parsch, DOD 4120.15-L Addendum, as archived on 1 February 2026][ref_mds_addendum_wb_2026_02]\] carries the X-68A row, so the row first appeared between 15 January and 1 February 2026, 148 to 165 days after the allocation it records. **Every reading of the row in this article is therefore a reading of a page later than the article's date**, like the announcement.
 
 The following are outside the date and are used anyway, each marked where it appears.
 
@@ -1816,7 +1897,7 @@ The following are outside the date and are used anyway, each marked where it app
   outside the date \[[DARPA PB2027 justification][ref_darpa_pb2027]\]. Its funding figures for fiscal years 2025 through 2027 and its plans lists are
   used, and every table marks which column came from it.
 - The statement that parachute recovery is intended for test and training and not combat.
-- Both defence journalism accounts \[[The War Zone on the X-68A][ref_twz_x68a]\]
+- The two defence journalism accounts of 2026 \[[The War Zone on the X-68A][ref_twz_x68a]\]
   \[[Air and Space Forces on the X-68A][ref_asf_x68a]\].
 - **The federal award record, which was read in October 2026.** The amounts stated are the
   record's current totals and reflect contract modifications through May 2026, so the Phase 3
@@ -1840,8 +1921,8 @@ than about an aeroplane, and this article is about an aeroplane.
 
 **The guidance and the datalink.** A vehicle launching a missile at a target it did not find needs
 targeting data from somewhere, and the architecture that supplies it is a separate subject with its
-own literature. The budget record shows a separate mission systems architecture effort for
-integrating the missile, and that effort is not treated here.
+own literature. The PB2025 book plans weapon integration and ground testing as a line of its own
+\[[DARPA PB2025 justification][ref_darpa_pb2025]\], and that integration is not treated here.
 
 **The missile itself.** The programme says it will use existing missiles and this article takes one
 of them as a mass, a length and a published reach. Its seeker, its fuze, its warhead and its own
@@ -1924,17 +2005,22 @@ to carry a weapon it is barely larger than.
 - [DARPA PB2025 justification][ref_darpa_pb2025]
 - [DARPA PB2026 justification][ref_darpa_pb2026]
 - [DARPA PB2027 justification][ref_darpa_pb2027]
-- [DOD 4120.15-L Addendum][ref_mds_addendum]
-- [DOD 4120.15-L Addendum, as archived on 1 February 2026][ref_mds_addendum_wb_2026_02]
-- [DOD 4120.15-L Addendum, as archived on 10 December 2025][ref_mds_addendum_wb_2025_12]
-- [DOD 4120.15-L Addendum, as archived on 15 January 2026][ref_mds_addendum_wb_2026_01]
+- [Designations of U.S. Military Aero Engines][ref_ds_engines]
+- [DefenseScoop on LongShot Phase 3][ref_defensescoop_longshot_p3]
+- [Parsch, DOD 4120.15-L Addendum][ref_mds_addendum]
+
+- [Parsch, DOD 4120.15-L Addendum, as archived on 1 February 2026][ref_mds_addendum_wb_2026_02]
+- [Parsch, DOD 4120.15-L Addendum, as archived on 10 December 2025][ref_mds_addendum_wb_2025_12]
+- [Parsch, DOD 4120.15-L Addendum, as archived on 15 January 2026][ref_mds_addendum_wb_2026_01]
+- [EverySpec record for MIL-HDBK-1763][ref_everyspec_1763]
 - [F-15E fact sheet][ref_f15e]
+
 - [General Atomics on the X-68A][ref_gaasi_x68a]
 - [Solicitation HR001120S0037][ref_baa_sam]
 - [Taurus KEPD 350][ref_taurus]
 - [Taurus Systems KEPD 350E datasheet][ref_taurus_ds]
 - [The War Zone on the X-68A][ref_twz_x68a]
-- [US Standard Atmosphere 1976][ref_atm76]
+- [U.S. Standard Atmosphere, 1976][ref_atm76]
 - [USAspending federal award record][ref_usaspending]
 
 [ref_amraam]: https://en.wikipedia.org/wiki/AIM-120_AMRAAM
@@ -1952,6 +2038,9 @@ to carry a weapon it is barely larger than.
 [ref_darpa_pb2025]: https://comptroller.war.gov/Portals/45/Documents/defbudget/fy2025/budget_justification/pdfs/03_RDT_and_E/RDTE_Vol1_DARPA_MasterJustificationBook_PB_2025.pdf
 [ref_darpa_pb2026]: https://comptroller.war.gov/Portals/45/Documents/defbudget/FY2026/budget_justification/pdfs/03_RDT_and_E/RDTE_Vol1_DARPA_MasterJustificationBook_PB_2026.pdf
 [ref_darpa_pb2027]: https://comptroller.war.gov/Portals/45/Documents/defbudget/FY2027/budget_justification/pdfs/03_RDT_and_E/RDTE_Vol1_DARPA_MasterJustificationBook_PB_2027.pdf
+[ref_defensescoop_longshot_p3]: https://defensescoop.com/2023/07/07/darpa-longshot-phase-3/
+[ref_ds_engines]: https://www.designation-systems.net/usmilav/engines.html
+[ref_everyspec_1763]: https://everyspec.com/MIL-HDBK/MIL-HDBK-1500-1799/MIL_HDBK_1763_1775/
 [ref_f15e]: http://web.archive.org/web/20251201192054/https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104499/f-15e-strike-eagle/
 [ref_gaasi_x68a]: https://www.ga-asi.com/air-force-awards-darpa-ga-asi-longshot-new-designation-x-68a
 [ref_mds_addendum]: https://www.designation-systems.net/usmilav/412015-L(addendum).html
@@ -1965,15 +2054,12 @@ to carry a weapon it is barely larger than.
 
 ### Research
 
-- [A Comprehensive Rapid-Assessment-Of-Flutter/Ejection-Loads RAFEL][research_a_comprehensive]
 - [A General Method for][research_a_general]
 - [A Method for Predicting][research_a_method]
 - [A new approach to 1981][research_a_new_1981]
 - [A Study on Improvement 2006][research_a_study_2006]
 - [Accuracy and Dispersion of][research_accuracy_and]
-- [Active and TIME Varying][research_active_and]
 - [Aeroacoustic Environment of a][research_aeroacoustic_environment]
-- [Aerodynamic Characteristics and Store][research_aerodynamic_characteristics]
 - [Aerodynamic Stability Technology for][research_aerodynamic_stability]
 - [Ahmad et al 1993][research_ahmad_shanks_1993]
 - [Ahn et al 2024][research_ahn_park_2024]
@@ -1981,24 +2067,24 @@ to carry a weapon it is barely larger than.
 - [Ailneni et al 2023][research_ailneni_kashyap_2023_2]
 - [AIR Force Plant 77][research_air_force]
 - [AIR Launched Rocketsounding Study][research_air_launched]
-- [Air-Breathing Propulsion Flowpath Applications 2009][research_air_breathing_propulsion_2009]
 - [Air-Launched Balloon System][research_air_launched_balloon]
 - [Air-Launched Windsonde][research_air_launched_windsonde]
 - [Aircraft store separation motion 1980][research_aircraft_store_1980]
 - [Aircraft Store Trajectories Predicted][research_aircraft_store]
 - [Aircraft/Store Common Interface Control 2017][research_aircraft_store_common_2017]
 - [Aleksandrovich and Nikolayevich 2020][research_aleksandrovich_nikolayevich_2020]
-- [Algebraic Theory of Linear][research_algebraic_theory]
 - [Algorithms for Estimating a][research_algorithms_for]
 - [Allen and Byrne 1965][research_allen_byrne_1965]
 - [Anderson 1970][research_anderson_1970]
 - [Anderson 1981][research_anderson_1981]
-- [Application of Photogrammetry of][research_application_of]
+- [Anderson and Lopata 1996][research_anderson_lopata_1996]
+- [Antonić et al 2024][research_antonic_trifkovic_2024]
 - [Applied Time Domain Stability][research_applied_time]
 - [Artificial Intelligence Techniques for][research_artificial_intelligence]
 - [Atwood 1995][research_atwood_1995]
 - [Babcock 2007][research_babcock_2007]
 - [Babish III 1966][research_babishiii_1966]
+- [Bacci and Saddington 2026][research_bacci_saddington_2026]
 - [Bardell 2000][research_bardell_2000]
 - [Barnett 1962][research_barnett_1962]
 - [Barnett 1966][research_barnett_1966]
@@ -2007,22 +2093,23 @@ to carry a weapon it is barely larger than.
 - [Batra et al 2023][research_batra_raute_2023]
 - [Batra et al 2026][research_batra_raute_2026]
 - [Behr 1989][research_behr_1989]
-- [Bellman and Hughes 1968][research_bellman_hughes_1968]
 - [Ben and Jacob 2010][research_ben_jacob_2010]
+- [Ben-Gida 2023][research_bengida_2023]
 - [Berglind and Tysell 2010][research_berglind_tysell_2010]
 - [Berglind and Tysell 2011][research_berglind_tysell_2011]
+- [Bilal and Shah 2016][research_bilal_shah_2016]
 - [Billingsley et al 1979][research_billingsley_burt_1979]
 - [Binkley and Vanderwyst 2012][research_binkley_vanderwyst_2012]
 - [Black 1968][research_black_1968]
-- [Black 1969][research_black_1969]
 - [Black and Picklesimer 1971][research_black_picklesimer_1971]
+- [Blair and Stallings 1988][research_blairjr_stallingsjr_1988]
 - [Blair and Stallings 1989][research_blair_stallings_1989]
-- [Blair, Jr. and Stallings, Jr. 1988][research_blairjr_stallingsjr_1988]
-- [Bouwer and Ignatuk 2025][research_bouwer_ignatuk_2025]
-- [Bouwer and Ignatuk 2025][research_bouwer_ignatuk_2025_2]
+- [Bower 2008][research_bower_2008]
+- [Bower et al 2004][research_bower_kibens_2004]
 - [Brooks 1971][research_brooks_1971]
 - [Brunner et al 1976][research_brunner_marshall_1976]
 - [Burkhard 1973][research_burkhard_1973]
+- [Cadwell][research_cadwell]
 - [Cai et al 2023][research_cai_denton_2023]
 - [Campbell 2024][research_campbell_2024]
 - [Captive Trajectory System Test][research_captive_trajectory]
@@ -2034,13 +2121,14 @@ to carry a weapon it is barely larger than.
 - [Case Study Micro Tactical 2007][research_case_study_2007]
 - [Cavallo et al 1999][research_cavallo_lee_1999]
 - [Cavcar 2006][research_cavcar_2006]
-- [Cavity door effects on][research_cavity_door]
 - [Cenko 1992][research_cenko_1992]
+- [Cenko 1994][research_cenko_1994]
 - [Cenko 2025][research_cenko_2025]
 - [Cenko and Madson 1993][research_cenko_madson_1993]
 - [Cenko et al 1983][research_cenko_meyer_1983]
 - [Cenko et al 1986][research_cenko_meyer_1986]
 - [Cenko et al 1994][research_cenko_phillips_1994]
+- [Cenko et al 1995][research_cenko_piranian_1995]
 - [Cenko et al 2007][research_cenko_lee_2007]
 - [Cenko et al 2008][research_cenko_deslandes_2008]
 - [Cestino et al 2023][research_cestino_pisu_2023]
@@ -2052,7 +2140,6 @@ to carry a weapon it is barely larger than.
 - [Change-Point Detection and Adaptive][research_change_point_detection]
 - [Charlton and Davis 2008][research_charlton_davis_2008]
 - [Chase et al 1999][research_chase_mckinney_1999]
-- [Chen 2016][research_chen_2016]
 - [Chen 2021][research_chen_2021]
 - [Chen and Zhang 2013][research_chen_zhang_2013]
 - [Chen et al 2002][research_chen_sulaeman_2002]
@@ -2065,12 +2152,14 @@ to carry a weapon it is barely larger than.
 - [Coleman et al 1996][research_coleman_jolly_1996]
 - [Coley 2024][research_coley_2024]
 - [Colombi et al 2017][research_colombi_bentz_2017]
+- [Common Launch Acceptability Region][research_common_launch]
+- [Common Launch Acceptability Region][research_common_launch_2]
+- [Common Launch Acceptability Region][research_common_launch_3]
+- [Common Launch Acceptability Region][research_common_launch_4]
 - [Comparing the Cost-Effectiveness of 2021][research_comparing_the_2021]
 - [Comparison of Store Trajectory][research_comparison_of_2]
 - [Comparison of Wind Tunnel][research_comparison_of]
-- [Computational Fluid Dynamics Capability][research_computational_fluid]
 - [Computational Fluid Dynamics Modeling][research_computational_fluid_2]
-- [Computational Simulation of Unsteady][research_computational_simulation]
 - [Control and Identification of][research_control_and]
 - [Cook 2013][research_cook_2013]
 - [Cruzen 1983][research_cruzen_1983]
@@ -2081,12 +2170,14 @@ to carry a weapon it is barely larger than.
 - [Davids and Cenko 2001][research_davids_cenko_2001]
 - [Davis 1984][research_davis_1984]
 - [Davis 1985][research_davis_1985]
+- [Dawson and Maxwell 2003][research_dawson_maxwell_2003]
+- [Dawson and Maxwell 2006][research_dawson_maxwell_2006]
 - [de Vasconcelos et al 2019][research_devasconcelos_leite_2019]
 - [de Vries et al 2020][research_devries_hoogreef_2020]
 - [Demir 2018][research_demir_2018]
 - [Demir et al 2017][research_demir_erdem_2017]
 - [Deslandes and Seifert 2000][research_deslandes_seifert_2000]
-- [Devasia and Lee 2016][research_devasia_lee_2016]
+- [Deuschle 2025][research_deuschle_2025]
 - [Di et al 2013][research_di_gao_2013]
 - [Dillenius et al 1975][research_dillenius_goodwin_1975]
 - [Dinh 2024][research_dinh_2024]
@@ -2098,10 +2189,9 @@ to carry a weapon it is barely larger than.
 - [Dynamic Aeroelastic Instabilities of][research_dynamic_aeroelastic]
 - [Eastman 1992][research_eastman_1992]
 - [Eastman 1993][research_eastman_1993]
-- [Effects of Inlet Spillage][research_effects_of]
 - [Erdman and Mitchum 2013][research_erdman_mitchum_2013]
 - [Ericksen et al 1966][research_ericksen_guiteras_1966]
-- [External store carriage loads][research_external_store]
+- [Erickson 1948][research_erickson_1948]
 - [Feng et al 2010][research_feng_tian_2010]
 - [Ferguson and Getson 1994][research_ferguson_getson_1994]
 - [Finney 2010][research_finney_2010]
@@ -2119,14 +2209,16 @@ to carry a weapon it is barely larger than.
 - [Freeman 2006][research_freeman_2006]
 - [Freeman 2006][research_freeman_2006_2]
 - [Freeman and Jolly 2004][research_freeman_jolly_2004]
-- [Fresconi et al 2017][research_fresconi_greunwald_2017]
 - [Fujita et al 2014][research_fujita_motoda_2014]
+- [Gade and Inman 1999][research_gade_inman_1999]
 - [Gallon and Witkowski 2015][research_gallon_witkowski_2015]
 - [Gao et al 2021][research_gao_hu_2021]
 - [Garrell et al 1999][research_garrell_nowakowski_1999]
 - [Generic Aircraft-Store Interface Framework 2017][research_generic_aircraft_store_2017]
 - [Geva et al 2019][research_geva_abramovich_2019]
 - [Gleissl and Deslandes 2005][research_gleissl_deslandes_2005]
+- [Goerttler and Schnepf 2022][research_goerttler_schnepf_2022]
+- [Goerttler and Schnepf 2024][research_goerttler_schnepf_2024]
 - [Gong and Wang 2019][research_gong_wang_2019]
 - [Gonzalez-Martino et al 2023][research_gonzalezmartino_viner_2023]
 - [Gothard and Granlund 2022][research_gothard_granlund_2022]
@@ -2135,12 +2227,12 @@ to carry a weapon it is barely larger than.
 - [Guidotti et al 2012][research_guidotti_richiello_2012]
 - [Guigue 2018][research_guigue_2018]
 - [Guigue et al 2006][research_guigue_ahmadi_2006]
-- [Guo and Han 2018][research_guo_han_2018]
 - [Haglind et al 2007][research_haglind_edefur_2007]
 - [Hallberg and Godiksen 2007][research_hallberg_godiksen_2007]
 - [Hallberg et al 2006][research_hallberg_ray_2006]
 - [Hallberg et al 2008][research_hallberg_cenko_2008]
 - [Hallberg et al 2011][research_hallberg_snyder_2011]
+- [Hallissy and Hariharan 2014][research_hallissy_hariharan_2014]
 - [Han et al 2024][research_han_wu_2024]
 - [Harding and Barton 2007][research_harding_barton_2007]
 - [Harish et al 2006][research_harish_pavanakumar_2006]
@@ -2164,24 +2256,23 @@ to carry a weapon it is barely larger than.
 - [Insensitive Munitions Technology Transition][research_insensitive_munitions]
 - [Interface Standard, Miniature Mission 2017][research_interface_standard_2017]
 - [Interface Standard, Miniature Mission 2023][research_interface_standard_2023]
-- [Investigation of Cavity Flow][research_investigation_of]
+- [Ji et al 2021][research_ji_kim_2021]
 - [Jiang et al 2005][research_jiang_tang_2005]
-- [Jingxin Zhang and Cishen Zhang 2002][research_jingxinzhang_cishenzhang_2002]
+- [Jing Zhang et al 2009][research_jingzhang_lingyuyang_2009]
 - [Johnson et al 2008][research_johnson_stanek_2008]
-- [Joshi et al 1992][research_joshi_lo_1992]
 - [Kahn and Edwards 2012][research_kahn_edwards_2012]
-- [Kahn and Edwards 2015][research_kahn_edwards_2015]
 - [Kain et al 1978][research_kain_brownjr_1978]
 - [Karatzas et al 2026][research_karatzas_nikolaou_2026]
 - [Kariv and Raveh 2020][research_kariv_raveh_2020]
 - [Kaykayoglu 1996][research_kaykayoglu_1996]
-- [Kearney and Holliday 1963][research_kearney_holliday_1963]
 - [Keen et al 2009][research_keen_morgret_2009]
+- [Kenkelen and Wieseman 1972][research_kenkelen_wieseman_1972]
 - [Khaware et al 2018][research_khaware_shivanandham_2018]
 - [Kholodar 2016][research_kholodar_2016]
 - [Kiber 1977][research_kiber_1977]
 - [Kim and Lee 2000][research_kim_lee_2000]
 - [Kim et al 2015][research_kim_choi_2015]
+- [Klappa and Fields 2021][research_klappa_fields_2021]
 - [Kraft 1994][research_kraft_1994]
 - [Kraft and Lofthouse 2011][research_kraft_lofthouse_2011]
 - [Kramer and Buehler 1979][research_kramer_buehler_1979]
@@ -2191,44 +2282,43 @@ to carry a weapon it is barely larger than.
 - [Krieger and Williams 1981][research_krieger_williams_1981]
 - [Krings et al 2013][research_krings_annighofer_2013]
 - [Lan et al 1994][research_lan_luo_1994]
+- [Lawson and Barakos 2010][research_lawson_barakos_2010]
+- [Lawson and Barakos 2012][research_lawson_barakos_2012]
 - [Lee and Han 2016][research_lee_han_2016]
 - [Lee and Lua 2026][research_lee_lua_2026]
 - [Lei and Zheng-yin 2016][research_lei_zhengyin_2016]
 - [Lesieutre 2017][research_lesieutre_2017]
 - [Lesieutre et al 2002][research_lesieutre_dillenius_2002]
 - [Li et al 2017][research_li_gao_2017]
+- [Li et al 2022][research_li_shi_2022]
+- [Li et al 2025][research_li_ji_2025]
 - [Li et al 2026][research_li_liu_2026]
 - [Lijewski and Lijewski 1997][research_lijewski_lijewski_1997]
 - [Lijewski and Suhs 1992][research_lijewski_suhs_1992]
 - [Lijewski and Suhs 1994][research_lijewski_suhs_1994]
 - [Liu 2003][research_liu_2003]
 - [Liu and Lu 2011][research_liu_lu_2011]
-- [Liu et al 2025][research_liu_wang_2025]
+- [Liu et al 2023][research_liu_chen_2023]
 - [Liu et al 2026][research_liu_ai_2026]
 - [Locke 1981][research_locke_1981]
+- [Loupy et al 2018][research_loupy_barakos_2018]
 - [Luca et al 2024][research_luca_angelo_2024]
 - [Lucey 2019][research_lucey_2019]
-- [Lytle 2006][research_lytle_2006]
 - [Ma et al 2021][research_ma_docimo_2021]
 - [Maddox 1980][research_maddox_1980]
 - [Maddox et al 1979][research_maddox_dix_1979]
-- [Mahmood et al 2018][research_mahmood_masud_2018]
 - [Malmuth et al 2005][research_malmuth_shalaev_2005]
 - [Mani et al 2006][research_mani_cary_2006]
+- [Manshadi and Saghafi 2018][research_manshadi_saghafi_2018]
 - [Marcum 2001][research_marcum_2001]
 - [Markarian 1971][research_markarian_1971]
 - [Martel 2004][research_martel_2004]
 - [Martin and Walkley 1975][research_martin_walkley_1975]
 - [Martin et al 1975][research_martin_saunders_1975]
-- [Massengill, Jr. 1993][research_massengilljr_1993]
+- [Massengill 1993][research_massengilljr_1993]
 - [Masud et al 2017][research_masud_mahmood_2017]
-- [Mathematical Fluid Dynamics of][research_mathematical_fluid]
 - [Mathematical Fluid Dynamics of][research_mathematical_fluid_2]
-- [Mathison and D'Souza 2017][research_mathison_dsouza_2017]
-- [Mattingly 1987][research_mattingly_1987]
-- [Mattingly 1988][research_mattingly_1988]
-- [Mau-12A/A BOMB Ejector RACK][research_mau_12a_a_bomb]
-- [Mazenc and Malisoff 2014][research_mazenc_malisoff_2014]
+- [Maxwell and Dawson 2004][research_maxwell_dawson_2004]
 - [Medwetz 2024][research_medwetz_2024]
 - [Method to predict external][research_method_to]
 - [Mifsud et al 2006][research_mifsud_shaw_2006]
@@ -2243,15 +2333,15 @@ to carry a weapon it is barely larger than.
 - [Moyer et al 1995][research_moyer_richardson_1995]
 - [Mukherjee and Balaram 2008][research_mukherjee_balaram_2008]
 - [Murthy 2015][research_murthy_2015]
-- [Nasuti and Innocenti 1996][research_nasuti_innocenti_1996]
 - [Navier-Stokes Solutions for Flows][research_navier_stokes_solutions]
-- [Navigation, Guidance and Control][research_navigation_guidance]
 - [Navy Air-Launched Missile Operating][research_navy_air_launched]
 - [Nelson and Cain 2009][research_nelson_cain_2009]
 - [New applications of engineering 1994][research_new_applications_1994]
 - [New test techniques to][research_new_test]
 - [Newman et al 1992][research_newman_fulcher_1992]
+- [Nguyen and Gebert 2023][research_nguyen_gebert_2023]
 - [Nguyen et al 2025][research_nguyen_sonphan_2025]
+- [Nguyen et al 2026][research_nguyen_pham_2026]
 - [Nichols and Denny 1999][research_nichols_denny_1999]
 - [Nichols et al 1992][research_nichols_jacocks_1992]
 - [Nichols et al 1997][research_nichols_evans_1997]
@@ -2259,7 +2349,6 @@ to carry a weapon it is barely larger than.
 - [O'Bannon 1964][research_obannon_1964]
 - [Obradovic and Subbarao 2011][research_obradovic_subbarao_2011]
 - [Oktay et al 2009][research_oktay_merttopcuoglu_2009]
-- [On a Theory of][research_on_a]
 - [Osman et al 2015][research_osman_aly_2015]
 - [Osman et al 2016][research_osman_aly_2016]
 - [Otsuka et al 2019][research_otsuka_wang_2019]
@@ -2271,22 +2360,20 @@ to carry a weapon it is barely larger than.
 - [Palaia 2026][research_palaia_2026]
 - [Pan et al 2000][research_pan_sarin_2000]
 - [Pandey et al 2023][research_pandey_tembhare_2023]
+- [Park et al 2024][research_park_myoung_2024]
 - [Pepermans et al 2018][research_pepermans_rozemeijer_2018]
 - [Pepper 1977][research_pepper_1977]
+- [Pepper 1979][research_pepperjr_1979]
 - [Pepper 1980][research_pepper_1980]
 - [Pepper 1984][research_pepper_1984]
-- [Pepper, Jr. 1979][research_pepperjr_1979]
 - [Perillo et al 2009][research_perillo_atkins_2009]
-- [Pesterev 2016][research_pesterev_2016]
 - [Powers 1960][research_powers_1960]
 - [Prakash et al 2024][research_prakash_sinha_2024]
 - [Prananta et al 2007][research_prananta_soemarwoto_2007]
-- [Pratt 1964][research_pratt_1964]
 - [Predicted Performance of a][research_predicted_performance]
 - [Prediction of Six-Degree-of-Freedom Store][research_prediction_of]
 - [Qi et al 2024][research_qi_wu_2024]
 - [Quam 1978][research_quam_1978]
-- [Raivio and Ranta 2002][research_raivio_ranta_2002]
 - [Randle et al 2011][research_randle_hall_2011]
 - [Ravishankar and Chakravarthy 2018][research_ravishankar_chakravarthy_2018]
 - [Report on Human Factors][research_report_on]
@@ -2294,14 +2381,14 @@ to carry a weapon it is barely larger than.
 - [Roughen et al 2009][research_roughen_wang_2009]
 - [Ruchała and Placek 2013][research_ruchala_placek_2013]
 - [Rusong et al 2011][research_rusong_fei_2011]
-- [S. Subchan 2025][research_ssubchan_2025]
 - [Sadraey 2009][research_sadraey_2009]
+- [Safi'i et al 2018][research_safii_arifianto_2018]
 - [Savery and Coder 2024][research_savery_coder_2024]
 - [Schindel 1999][research_schindel_1999]
 - [Schoppert 2019][research_schoppert_2019]
+- [Schoppert and Means][research_schoppert_means]
 - [Shadow 1978][research_shadow_1978]
 - [Shamma 1995][research_shamma_1995]
-- [Shamma and Cloutier 2003][research_shamma_cloutier_2003]
 - [Shin et al 2023][research_shin_jo_2023]
 - [Sickles et al 2007][research_sickles_power_2007]
 - [Simulation of Store Separation 2014][research_simulation_of_2014]
@@ -2311,48 +2398,42 @@ to carry a weapon it is barely larger than.
 - [Song 2021][research_song_2021]
 - [Song and Ai 2021][research_song_ai_2021]
 - [Sorrells et al 1984][research_sorrells_towne_1984]
-- [Sorrells et al 1985][research_sorrells_towne_1985]
 - [Spahr 1974][research_spahr_1974]
 - [Spahr 1975][research_spahr_1975]
 - [Spinetti and Jolly 2008][research_spinetti_jolly_2008]
 - [Staack et al 2021][research_staack_sobron_2021]
-- [Stallings, Jr. 1982][research_stallingsjr_1982]
+- [Stallings 1982][research_stallingsjr_1982]
 - [Static Stability and Drag][research_static_stability]
-- [Steinmetz 1970][research_steinmetz_1970]
+- [Stenftenagel and Gebert 2022][research_stenftenagel_gebert_2022]
 - [Stewart et al 2026][research_stewart_dooher_2026]
 - [Stokes et al 1999][research_stokes_chappell_1999]
 - [Store Separation Testing Techniques][research_store_separation]
 - [Stoykov and Atanasov 2016][research_stoykov_atanasov_2016]
 - [Stricker 1989][research_stricker_1989]
-- [Subchan 2011][research_subchan_2011]
 - [Szymkowiak and Silver 1990][research_szymkowiak_silver_1990]
+- [Tactical Air Command Langley Afb Va 1963][research_operational_test_1963]
 - [Tamer 2021][research_tamer_2021]
 - [Tang and Dowell 1998][research_tang_dowell_1998]
 - [Tangential, semisubmerged, and internal][research_tangential_semisubmerged]
 - [Tangential, semisubmerged, and internal][research_tangential_semisubmerged_2]
-- [Tekinalp and Utalay 2000][research_tekinalp_utalay_2000]
 - [Tembhurnikar et al 2021][research_tembhurnikar_bhosale_2021]
-- [The Aerodynamic Influence of][research_the_aerodynamic]
 - [The Rapid Prediction of][research_the_rapid]
-- [Thermal management of air-breathing 1992][research_thermal_management_1992]
 - [Thermal Stability of Six][research_thermal_stability]
+- [Tian et al 2022][research_tian_li_2022]
 - [To 2024][research_to_2024]
 - [Tomaro et al 1999][research_tomaro_witzeman_1999]
-- [Toor et al 2019][research_toor_masud_2019]
-- [Trajectory Equations for a][research_trajectory_equations]
-- [Trajectory Equations for a][research_trajectory_equations_2]
-- [TranAir applications to predicting][research_tranair_applications]
 - [Transonic Wind Tunnel Tests][research_transonic_wind]
 - [Transonic Wing/Store Flow-Field Measurement][research_transonic_wing_store]
 - [Triplett 1984][research_triplett_1984]
+- [Tsukanov and Riabkov 2021][research_tsukanov_riabkov_2021]
 - [Turk and Zeiner 1986][research_turk_zeiner_1986]
 - [Turner 1982][research_turner_1982]
 - [Türk and Güleren 2025][research_turk_guleren_2025]
 - [Unal and Baran 2018][research_unal_baran_2018]
 - [User Requirements and Information][research_user_requirements]
-- [Valasek et al 2017][research_valasek_lu_2017]
 - [Vaughn 2006][research_vaughn_2006]
 - [Vaughn and Milton E. 2008][research_vaughn_miltone_2008]
+- [Veeresha et al 2025][research_veeresha_sinchana_2025]
 - [Vengate et al 2016][research_vengate_erturk_2016]
 - [Viscous flow simulations of][research_viscous_flow]
 - [Vishwajeet et al 2025][research_vishwajeet_mulik_2025]
@@ -2364,13 +2445,11 @@ to carry a weapon it is barely larger than.
 - [Wang and Guo 2024][research_wang_guo_2024_2]
 - [Wang et al 2022][research_wang_xu_2022]
 - [Warchulski and Warchulski 2016][research_warchulski_warchulski_2016]
-- [Water Discriminating Electric Bomb][research_water_discriminating]
 - [Watson and Gonzalez 2023][research_watson_gonzalez_2023]
 - [Wei et al 2026][research_wei_tong_2026]
 - [Welterlen 2000][research_welterlen_2000]
 - [Welterlen and Leone 1996][research_welterlen_leone_1996]
 - [Whalley 1973][research_whalley_1973]
-- [Williams 1981][research_williams_1981]
 - [Williams 1982][research_williams_1982]
 - [Wing/Store Flow-Field Measurement at][research_wing_store_flow_field]
 - [Witkowski 1999][research_witkowski_1999]
@@ -2385,7 +2464,6 @@ to carry a weapon it is barely larger than.
 - [Zhang and Qin 2026][research_zhang_qin_2026]
 - [Zhang and Yang 2018][research_zhang_yang_2018]
 - [zhang et al 2008][research_zhang_meganathan_2008]
-- [Zhang et al 2017][research_zhang_sun_2017]
 - [Zhang et al 2023][research_zhang_yang_2023]
 - [Zhang et al 2023][research_zhang_yang_2023_2]
 - [Zhang et al 2026][research_zhang_wang_2026]
@@ -2394,21 +2472,17 @@ to carry a weapon it is barely larger than.
 - [Zhao et al 2023][research_zhao_zeng_2023]
 - [Özgür et al 2016][research_ozgur_cetiner_2016]
 
-[research_a_comprehensive]: https://doi.org/10.21236/ada399365
 [research_a_general]: https://doi.org/10.21236/ad0267505
 [research_a_method]: https://doi.org/10.21236/ada004771
 [research_a_new_1981]: https://doi.org/10.2514/6.1981-1654
 [research_a_study_2006]: https://doi.org/10.5302/j.icros.2006.12.7.713
 [research_accuracy_and]: https://doi.org/10.21236/ad0474776
-[research_active_and]: https://doi.org/10.21236/ad0407672
 [research_aeroacoustic_environment]: https://doi.org/10.21236/ada041263
-[research_aerodynamic_characteristics]: https://doi.org/10.21236/ada109449
 [research_aerodynamic_stability]: https://doi.org/10.21236/ada070250
 [research_ahmad_shanks_1993]: https://doi.org/10.2514/6.1993-766
 [research_ahn_park_2024]: https://doi.org/10.5139/jksas.2024.52.2.101
 [research_ailneni_kashyap_2023]: https://doi.org/10.2514/6.2023-3779
 [research_ailneni_kashyap_2023_2]: https://doi.org/10.1109/icort56052.2023.10248982
-[research_air_breathing_propulsion_2009]: https://doi.org/10.2514/5.9781563479892.0373.0402
 [research_air_force]: https://doi.org/10.21236/ad0409101
 [research_air_launched]: https://doi.org/10.21236/ad0600400
 [research_air_launched_balloon]: https://doi.org/10.21236/adb025764
@@ -2417,17 +2491,18 @@ to carry a weapon it is barely larger than.
 [research_aircraft_store_1980]: https://doi.org/10.2514/6.1980-462
 [research_aircraft_store_common_2017]: https://doi.org/10.4271/as5609a
 [research_aleksandrovich_nikolayevich_2020]: https://doi.org/10.1109/dvm49764.2020.9243877
-[research_algebraic_theory]: https://doi.org/10.21236/ada122134
 [research_algorithms_for]: https://doi.org/10.21236/ad0609524
 [research_allen_byrne_1965]: https://doi.org/10.2514/3.3041
 [research_anderson_1970]: https://doi.org/10.2514/6.1970-980
 [research_anderson_1981]: https://doi.org/10.21236/ada109449
-[research_application_of]: https://doi.org/10.21236/ada284154
+[research_anderson_lopata_1996]: https://doi.org/10.2514/6.1996-2774
+[research_antonic_trifkovic_2024]: https://doi.org/10.5937/oteh24016a
 [research_applied_time]: https://ntrs.nasa.gov/citations/20160001833
 [research_artificial_intelligence]: https://doi.org/10.21236/ada293962
 [research_atwood_1995]: https://doi.org/10.2514/3.46800
 [research_babcock_2007]: https://doi.org/10.1109/hpcmp-ugc.2007.11
 [research_babishiii_1966]: https://doi.org/10.2514/6.1966-1506
+[research_bacci_saddington_2026]: https://doi.org/10.1016/j.dt.2025.11.032
 [research_bardell_2000]: https://doi.org/10.1017/s0001924000096895
 [research_barnett_1962]: https://doi.org/10.21236/ad0615569
 [research_barnett_1966]: https://doi.org/10.21236/ad0634267
@@ -2436,22 +2511,23 @@ to carry a weapon it is barely larger than.
 [research_batra_raute_2023]: https://doi.org/10.3390/aerospace10080687
 [research_batra_raute_2026]: https://doi.org/10.3390/aerospace13060514
 [research_behr_1989]: https://doi.org/10.2514/6.1989-921
-[research_bellman_hughes_1968]: https://doi.org/10.2514/6.1968-593
 [research_ben_jacob_2010]: https://doi.org/10.2514/6.2010-54
+[research_bengida_2023]: https://doi.org/10.2514/6.2023-4497
 [research_berglind_tysell_2010]: https://doi.org/10.2514/6.2010-4241
 [research_berglind_tysell_2011]: https://doi.org/10.2514/6.2011-3958
+[research_bilal_shah_2016]: https://doi.org/10.18869/acadpub.jafm.68.228.22971
 [research_billingsley_burt_1979]: https://doi.org/10.21236/ada068319
 [research_binkley_vanderwyst_2012]: https://doi.org/10.2514/6.2012-3337
 [research_black_1968]: https://doi.org/10.2514/6.1968-361
-[research_black_1969]: https://doi.org/10.2514/3.43999
 [research_black_picklesimer_1971]: https://doi.org/10.2514/6.1971-282
 [research_blair_stallings_1989]: https://doi.org/10.2514/3.45811
 [research_blairjr_stallingsjr_1988]: https://doi.org/10.2514/6.1988-333
-[research_bouwer_ignatuk_2025]: https://doi.org/10.4050/f-0081-2025-0229
-[research_bouwer_ignatuk_2025_2]: https://doi.org/10.4050/f-0081-2025-229
+[research_bower_2008]: https://doi.org/10.2514/6.2008-4334
+[research_bower_kibens_2004]: https://doi.org/10.2514/6.2004-2513
 [research_brooks_1971]: https://doi.org/10.2514/6.1971-294
 [research_brunner_marshall_1976]: https://doi.org/10.2514/6.1976-916
 [research_burkhard_1973]: https://doi.org/10.4271/730938
+[research_cadwell]: https://doi.org/10.15368/theses.2010.189
 [research_cai_denton_2023]: https://doi.org/10.4050/f-0079-2023-17962
 [research_campbell_2024]: https://doi.org/10.2514/6.2024-85220
 [research_captive_trajectory]: https://doi.org/10.21236/ada136439
@@ -2463,8 +2539,8 @@ to carry a weapon it is barely larger than.
 [research_case_study_2007]: https://doi.org/10.2514/5.9781600862106.0151.0184
 [research_cavallo_lee_1999]: https://doi.org/10.2514/6.1999-3188
 [research_cavcar_2006]: https://doi.org/10.2514/1.17696
-[research_cavity_door]: https://ntrs.nasa.gov/citations/19880035017
 [research_cenko_1992]: https://doi.org/10.2514/6.1992-675
+[research_cenko_1994]: https://doi.org/10.2514/6.1994-2610
 [research_cenko_2025]: https://doi.org/10.2514/6.2025-2450
 [research_cenko_deslandes_2008]: https://doi.org/10.2514/6.2008-189
 [research_cenko_lee_2007]: https://doi.org/10.2514/6.2007-1653
@@ -2472,6 +2548,7 @@ to carry a weapon it is barely larger than.
 [research_cenko_meyer_1983]: https://doi.org/10.2514/6.1983-266
 [research_cenko_meyer_1986]: https://doi.org/10.2514/3.45358
 [research_cenko_phillips_1994]: https://doi.org/10.2514/6.1994-195
+[research_cenko_piranian_1995]: https://doi.org/10.2514/6.1995-328
 [research_cestino_pisu_2023]: https://doi.org/10.3390/aerospace10110955
 [research_cfd_wing_pylon_finned]: https://doi.org/10.21236/adb152669
 [research_chadwick_1974]: https://doi.org/10.2514/3.60346
@@ -2481,7 +2558,6 @@ to carry a weapon it is barely larger than.
 [research_change_point_detection]: https://doi.org/10.21236/ada273509
 [research_charlton_davis_2008]: https://doi.org/10.2514/6.2008-376
 [research_chase_mckinney_1999]: https://doi.org/10.1063/1.57719
-[research_chen_2016]: https://doi.org/10.1109/ccdc.2016.7531975
 [research_chen_2021]: https://doi.org/10.2514/6.2021-0006
 [research_chen_sulaeman_2002]: https://doi.org/10.21236/ada399365
 [research_chen_zhang_2013]: https://doi.org/10.2514/6.2013-1923
@@ -2494,12 +2570,14 @@ to carry a weapon it is barely larger than.
 [research_coleman_jolly_1996]: https://doi.org/10.2514/6.1996-3385
 [research_coley_2024]: https://doi.org/10.2514/6.2024-4616
 [research_colombi_bentz_2017]: https://doi.org/10.1109/syscon.2017.7934767
+[research_common_launch]: https://doi.org/10.4271/air5566
+[research_common_launch_2]: https://doi.org/10.4271/air5682
+[research_common_launch_3]: https://doi.org/10.4271/air5712
+[research_common_launch_4]: https://doi.org/10.4271/air5788
 [research_comparing_the_2021]: https://doi.org/10.7249/rr2789
 [research_comparison_of]: https://doi.org/10.21236/ada087237
 [research_comparison_of_2]: https://doi.org/10.21236/ada065137
-[research_computational_fluid]: https://doi.org/10.21236/ada253671
 [research_computational_fluid_2]: https://doi.org/10.21236/ada354107
-[research_computational_simulation]: https://doi.org/10.21236/ada387492
 [research_control_and]: https://doi.org/10.21236/ada145638
 [research_cook_2013]: https://doi.org/10.2514/6.2013-1353
 [research_cruzen_1983]: https://doi.org/10.2514/6.1983-1176
@@ -2510,11 +2588,13 @@ to carry a weapon it is barely larger than.
 [research_davids_cenko_2001]: https://doi.org/10.2514/6.2001-2418
 [research_davis_1984]: https://doi.org/10.2514/6.1984-1441
 [research_davis_1985]: https://doi.org/10.2514/6.1985-1434
+[research_dawson_maxwell_2003]: https://doi.org/10.2514/6.2003-1427
+[research_dawson_maxwell_2006]: https://doi.org/10.2514/6.2006-1850
 [research_demir_2018]: https://doi.org/10.2514/6.2018-3860
 [research_demir_erdem_2017]: https://doi.org/10.2514/6.2017-3250
 [research_deslandes_seifert_2000]: https://doi.org/10.2514/6.2000-4200
+[research_deuschle_2025]: https://doi.org/10.2514/6.2025-106138
 [research_devasconcelos_leite_2019]: https://doi.org/10.1155/2019/6708450
-[research_devasia_lee_2016]: https://doi.org/10.2514/1.d0022
 [research_devries_hoogreef_2020]: https://doi.org/10.2514/1.c035734
 [research_di_gao_2013]: https://doi.org/10.4028/www.scientific.net/amm.0.854
 [research_dillenius_goodwin_1975]: https://doi.org/10.2514/3.59876
@@ -2527,10 +2607,9 @@ to carry a weapon it is barely larger than.
 [research_dynamic_aeroelastic]: https://doi.org/10.21236/ada417124
 [research_eastman_1992]: https://doi.org/10.2514/6.1992-76
 [research_eastman_1993]: https://doi.org/10.2514/3.26373
-[research_effects_of]: https://doi.org/10.21236/ada531358
 [research_erdman_mitchum_2013]: https://doi.org/10.21236/ada612970
 [research_ericksen_guiteras_1966]: https://doi.org/10.2514/6.1966-25
-[research_external_store]: https://ntrs.nasa.gov/citations/19880034776
+[research_erickson_1948]: https://doi.org/10.21236/ad0040094
 [research_feng_tian_2010]: https://doi.org/10.2514/6.2010-8251
 [research_ferguson_getson_1994]: https://doi.org/10.21236/ada284154
 [research_finney_2010]: https://doi.org/10.21236/ada549052
@@ -2548,14 +2627,16 @@ to carry a weapon it is barely larger than.
 [research_freeman_2006]: https://doi.org/10.2514/6.2006-456
 [research_freeman_2006_2]: https://doi.org/10.1109/dodugc.2005.12
 [research_freeman_jolly_2004]: https://doi.org/10.1109/dod_ugc.2004.5
-[research_fresconi_greunwald_2017]: https://doi.org/10.2514/6.2017-4207
 [research_fujita_motoda_2014]: https://doi.org/10.2322/tastj.12.pk_1
+[research_gade_inman_1999]: https://doi.org/10.2514/2.4412
 [research_gallon_witkowski_2015]: https://doi.org/10.2514/6.2015-2162
 [research_gao_hu_2021]: https://doi.org/10.1088/1757-899x/1043/5/052011
 [research_garrell_nowakowski_1999]: https://doi.org/10.2514/6.1999-2165
 [research_generic_aircraft_store_2017]: https://doi.org/10.4271/air5532a
 [research_geva_abramovich_2019]: https://doi.org/10.3390/aerospace6080085
 [research_gleissl_deslandes_2005]: https://doi.org/10.2514/6.2005-54
+[research_goerttler_schnepf_2022]: https://doi.org/10.2514/6.2022-1687
+[research_goerttler_schnepf_2024]: https://doi.org/10.2514/1.c037360
 [research_gong_wang_2019]: https://doi.org/10.1088/1742-6596/1215/1/012001
 [research_gonzalezmartino_viner_2023]: https://doi.org/10.2514/6.2023-0057
 [research_gothard_granlund_2022]: https://doi.org/10.2514/1.c036261
@@ -2564,12 +2645,12 @@ to carry a weapon it is barely larger than.
 [research_guidotti_richiello_2012]: https://doi.org/10.2514/1.a32163
 [research_guigue_2018]: https://doi.org/10.22215/etd/2010-09670
 [research_guigue_ahmadi_2006]: https://doi.org/10.1109/ccece.2006.277725
-[research_guo_han_2018]: https://doi.org/10.1007/978-981-10-8908-4_6
 [research_haglind_edefur_2007]: https://doi.org/10.1115/gt2007-27826
 [research_hallberg_cenko_2008]: https://doi.org/10.2514/6.2008-6381
 [research_hallberg_godiksen_2007]: https://doi.org/10.2514/6.2007-1643
 [research_hallberg_ray_2006]: https://doi.org/10.2514/6.2006-460
 [research_hallberg_snyder_2011]: https://doi.org/10.2514/6.2011-3154
+[research_hallissy_hariharan_2014]: https://doi.org/10.2514/6.2014-0751
 [research_han_wu_2024]: https://doi.org/10.1061/jaeeez.aseng-5308
 [research_harding_barton_2007]: https://doi.org/10.2514/6.2007-4169
 [research_harish_gladin_2022]: https://doi.org/10.1109/itec53557.2022.9814012
@@ -2593,24 +2674,23 @@ to carry a weapon it is barely larger than.
 [research_insensitive_munitions]: https://doi.org/10.21236/ada456476
 [research_interface_standard_2017]: https://doi.org/10.4271/as5725
 [research_interface_standard_2023]: https://doi.org/10.4271/as5725c
-[research_investigation_of]: https://doi.org/10.21236/ada549052
+[research_ji_kim_2021]: https://doi.org/10.3390/aerospace8050126
 [research_jiang_tang_2005]: https://doi.org/10.2514/1.9783
-[research_jingxinzhang_cishenzhang_2002]: https://doi.org/10.1109/cdc.1995.478993
+[research_jingzhang_lingyuyang_2009]: https://doi.org/10.1109/aero.2009.4839615
 [research_johnson_stanek_2008]: https://doi.org/10.2514/6.2008-188
-[research_joshi_lo_1992]: https://doi.org/10.2514/6.1992-3922
 [research_kahn_edwards_2012]: https://doi.org/10.2514/6.2012-4536
-[research_kahn_edwards_2015]: https://doi.org/10.21236/ada623280
 [research_kain_brownjr_1978]: https://doi.org/10.2514/6.1978-1341
 [research_karatzas_nikolaou_2026]: https://doi.org/10.1016/j.ast.2025.111248
 [research_kariv_raveh_2020]: https://doi.org/10.2514/1.c035707
 [research_kaykayoglu_1996]: https://doi.org/10.2514/6.1996-168
-[research_kearney_holliday_1963]: https://doi.org/10.2514/6.1963-1037
 [research_keen_morgret_2009]: https://doi.org/10.2514/6.2009-99
+[research_kenkelen_wieseman_1972]: https://doi.org/10.21236/ad0910278
 [research_khaware_shivanandham_2018]: https://doi.org/10.2514/6.2018-1272
 [research_kholodar_2016]: https://doi.org/10.2514/1.c033772
 [research_kiber_1977]: https://doi.org/10.21236/adb016616
 [research_kim_choi_2015]: https://doi.org/10.1016/j.compfluid.2015.07.022
 [research_kim_lee_2000]: https://doi.org/10.2514/2.2582
+[research_klappa_fields_2021]: https://doi.org/10.2514/6.2021-1529
 [research_kraft_1994]: https://doi.org/10.2514/6.1994-2660
 [research_kraft_lofthouse_2011]: https://doi.org/10.2514/6.2011-1238
 [research_kramer_buehler_1979]: https://doi.org/10.2514/6.1979-7038
@@ -2620,30 +2700,34 @@ to carry a weapon it is barely larger than.
 [research_krieger_williams_1981]: https://doi.org/10.2514/6.1981-1894
 [research_krings_annighofer_2013]: https://doi.org/10.1109/acc.2013.6580044
 [research_lan_luo_1994]: https://doi.org/10.2514/6.1994-3455
+[research_lawson_barakos_2010]: https://doi.org/10.1007/978-3-642-14168-3_10
+[research_lawson_barakos_2012]: https://doi.org/10.1017/s0001924000006709
 [research_lee_han_2016]: https://doi.org/10.20910/ijase.2016.3.2.26
 [research_lee_lua_2026]: https://doi.org/10.2514/1.c038959
 [research_lei_zhengyin_2016]: https://doi.org/10.1016/j.actaastro.2015.12.039
 [research_lesieutre_2017]: https://doi.org/10.2514/6.2017-3399
 [research_lesieutre_dillenius_2002]: https://doi.org/10.2514/6.2002-278
 [research_li_gao_2017]: https://doi.org/10.1007/s11071-017-3691-y
+[research_li_ji_2025]: https://doi.org/10.1002/rnc.7925
 [research_li_liu_2026]: https://doi.org/10.1016/j.ast.2026.112622
+[research_li_shi_2022]: https://doi.org/10.1016/j.dt.2021.04.009
 [research_lijewski_lijewski_1997]: https://doi.org/10.2514/6.1997-2202
 [research_lijewski_suhs_1992]: https://doi.org/10.2514/6.1992-4569
 [research_lijewski_suhs_1994]: https://doi.org/10.2514/3.46575
 [research_liu_2003]: https://doi.org/10.2514/2.3077
 [research_liu_ai_2026]: https://doi.org/10.1016/j.ast.2025.111042
+[research_liu_chen_2023]: https://doi.org/10.1007/s12650-023-00947-x
 [research_liu_lu_2011]: https://doi.org/10.1016/j.sysconle.2011.06.007
-[research_liu_wang_2025]: https://doi.org/10.1109/cac67268.2025.11487432
 [research_locke_1981]: https://doi.org/10.2514/6.1981-902
+[research_loupy_barakos_2018]: https://doi.org/10.2514/1.j056485
 [research_luca_angelo_2024]: https://doi.org/10.1063/5.0210612
 [research_lucey_2019]: https://doi.org/10.33915/etd.1736
-[research_lytle_2006]: https://doi.org/10.2514/6.2006-4967
 [research_ma_docimo_2021]: https://doi.org/10.2514/6.2021-3194
 [research_maddox_1980]: https://doi.org/10.2514/3.44686
 [research_maddox_dix_1979]: https://doi.org/10.2514/3.58521
-[research_mahmood_masud_2018]: https://doi.org/10.2514/6.2018-1273
 [research_malmuth_shalaev_2005]: https://doi.org/10.21236/ada434694
 [research_mani_cary_2006]: https://doi.org/10.1007/3-540-31801-1_38
+[research_manshadi_saghafi_2018]: https://doi.org/10.2514/1.c034973
 [research_marcum_2001]: https://doi.org/10.21236/ada387492
 [research_markarian_1971]: https://doi.org/10.2514/6.1971-295
 [research_martel_2004]: https://doi.org/10.1109/dodugc.2003.1253385
@@ -2651,13 +2735,8 @@ to carry a weapon it is barely larger than.
 [research_martin_walkley_1975]: https://doi.org/10.2514/3.44430
 [research_massengilljr_1993]: https://doi.org/10.2514/6.1993-856
 [research_masud_mahmood_2017]: https://doi.org/10.2514/6.2017-1204
-[research_mathematical_fluid]: https://doi.org/10.21236/ada434694
 [research_mathematical_fluid_2]: https://doi.org/10.21236/ada482146
-[research_mathison_dsouza_2017]: https://doi.org/10.2514/6.2017-4885
-[research_mattingly_1987]: https://doi.org/10.2514/6.1987-1869
-[research_mattingly_1988]: https://doi.org/10.2514/6.1988-2977
-[research_mau_12a_a_bomb]: https://doi.org/10.21236/ad0601637
-[research_mazenc_malisoff_2014]: https://doi.org/10.1109/cdc.2014.7039547
+[research_maxwell_dawson_2004]: https://doi.org/10.2514/6.2004-1755
 [research_medwetz_2024]: https://doi.org/10.17918/00005223
 [research_method_to]: https://ntrs.nasa.gov/citations/19890011574
 [research_mifsud_shaw_2006]: https://doi.org/10.2514/6.2006-6005
@@ -2672,14 +2751,14 @@ to carry a weapon it is barely larger than.
 [research_moyer_richardson_1995]: https://doi.org/10.2514/6.1995-67
 [research_mukherjee_balaram_2008]: https://doi.org/10.2514/6.2008-6390
 [research_murthy_2015]: https://doi.org/10.17485/ijst/2015/v8i31/76397
-[research_nasuti_innocenti_1996]: https://doi.org/10.2514/6.1996-3730
 [research_navier_stokes_solutions]: https://ntrs.nasa.gov/citations/19910001548
-[research_navigation_guidance]: https://doi.org/10.21236/ada623280
 [research_navy_air_launched]: https://doi.org/10.21236/ada069527
 [research_nelson_cain_2009]: https://doi.org/10.2514/6.2009-548
 [research_new_applications_1994]: https://doi.org/10.2514/6.1994-28
 [research_new_test]: https://ntrs.nasa.gov/citations/19900000746
 [research_newman_fulcher_1992]: https://doi.org/10.2514/6.1992-2722
+[research_nguyen_gebert_2023]: https://doi.org/10.2514/6.2023-2074
+[research_nguyen_pham_2026]: https://doi.org/10.2514/1.c039097
 [research_nguyen_sonphan_2025]: https://doi.org/10.55248/gengpi.6.0625.2228
 [research_nichols_denny_1999]: https://doi.org/10.2514/6.1999-3128
 [research_nichols_evans_1997]: https://doi.org/10.2514/6.1997-2200
@@ -2688,7 +2767,7 @@ to carry a weapon it is barely larger than.
 [research_obannon_1964]: https://doi.org/10.21236/ad0601637
 [research_obradovic_subbarao_2011]: https://doi.org/10.2514/1.c000313
 [research_oktay_merttopcuoglu_2009]: https://doi.org/10.1007/978-3-540-92744-0_49
-[research_on_a]: https://doi.org/10.21236/ada162680
+[research_operational_test_1963]: https://doi.org/10.21236/ad0402634
 [research_osman_aly_2015]: https://doi.org/10.2514/6.2015-2950
 [research_osman_aly_2016]: https://doi.org/10.2514/6.2016-2143
 [research_otsuka_wang_2019]: https://doi.org/10.1115/1.4041022
@@ -2701,22 +2780,20 @@ to carry a weapon it is barely larger than.
 [research_palaia_2026]: https://doi.org/10.21741/9781644904251-118
 [research_pan_sarin_2000]: https://doi.org/10.1016/b978-044482851-4/50041-4
 [research_pandey_tembhare_2023]: https://doi.org/10.2514/6.2023-1004
+[research_park_myoung_2024]: https://doi.org/10.3795/ksme-a.2024.48.2.119
 [research_pepermans_rozemeijer_2018]: https://doi.org/10.2514/6.2018-3626
 [research_pepper_1977]: https://doi.org/10.2172/5306498
 [research_pepper_1980]: https://doi.org/10.2514/3.57895
 [research_pepper_1984]: https://doi.org/10.2514/6.1984-802
 [research_pepperjr_1979]: https://doi.org/10.2514/6.1979-468
 [research_perillo_atkins_2009]: https://doi.org/10.2514/6.2009-101
-[research_pesterev_2016]: https://doi.org/10.1109/stab.2016.7541213
 [research_powers_1960]: https://doi.org/10.1016/b978-0-12-395519-7.50008-2
 [research_prakash_sinha_2024]: https://doi.org/10.2514/6.2024-3277
 [research_prananta_soemarwoto_2007]: https://doi.org/10.2514/6.2007-4077
-[research_pratt_1964]: https://doi.org/10.2514/6.1964-522
 [research_predicted_performance]: https://ntrs.nasa.gov/citations/19970019923
 [research_prediction_of]: https://doi.org/10.21236/ada004413
 [research_qi_wu_2024]: https://doi.org/10.3390/aerospace11060425
 [research_quam_1978]: https://doi.org/10.2514/6.1978-113
-[research_raivio_ranta_2002]: https://doi.org/10.2514/6.2002-4947
 [research_randle_hall_2011]: https://doi.org/10.2514/1.c031262
 [research_ravishankar_chakravarthy_2018]: https://doi.org/10.2514/6.2018-3208
 [research_report_on]: https://doi.org/10.21236/ad1215148
@@ -2725,12 +2802,13 @@ to carry a weapon it is barely larger than.
 [research_ruchala_placek_2013]: https://doi.org/10.5604/05096669.1106689
 [research_rusong_fei_2011]: https://doi.org/10.1109/ccdc.2011.5968378
 [research_sadraey_2009]: https://doi.org/10.2514/6.2009-7024
+[research_safii_arifianto_2018]: https://doi.org/10.1088/1742-6596/1005/1/012021
 [research_savery_coder_2024]: https://doi.org/10.2514/6.2024-4150
 [research_schindel_1999]: https://doi.org/10.2514/6.1999-883
 [research_schoppert_2019]: https://doi.org/10.33915/etd.2430
+[research_schoppert_means]: https://doi.org/10.1109/aero.2003.1235198
 [research_shadow_1978]: https://doi.org/10.21236/ada073442
 [research_shamma_1995]: https://doi.org/10.1016/0167-6911(94)00010-s
-[research_shamma_cloutier_2003]: https://doi.org/10.1109/cca.1992.269870
 [research_shin_jo_2023]: https://doi.org/10.9766/kimst.2023.26.4.344
 [research_sickles_power_2007]: https://doi.org/10.2514/6.2007-4073
 [research_simulation_of_2014]: https://doi.org/10.5829/idosi.ije.2014.27.05b.14
@@ -2740,49 +2818,41 @@ to carry a weapon it is barely larger than.
 [research_song_2021]: https://doi.org/10.21203/rs.3.rs-515674/v1
 [research_song_ai_2021]: https://doi.org/10.1016/j.ast.2021.106528
 [research_sorrells_towne_1984]: https://doi.org/10.2514/6.1984-615
-[research_sorrells_towne_1985]: https://doi.org/10.21236/ada531358
 [research_spahr_1974]: https://doi.org/10.2514/6.1974-776
 [research_spahr_1975]: https://doi.org/10.2514/3.59875
 [research_spinetti_jolly_2008]: https://doi.org/10.2514/6.2008-187
-[research_ssubchan_2025]: https://doi.org/10.12962/j20882033.v22i3.5647
 [research_staack_sobron_2021]: https://doi.org/10.1007/s13272-021-00530-w
 [research_stallingsjr_1982]: https://doi.org/10.2514/6.1982-372
 [research_static_stability]: https://doi.org/10.21236/ada038494
-[research_steinmetz_1970]: https://doi.org/10.1177/003754977001500404
+[research_stenftenagel_gebert_2022]: https://doi.org/10.2514/6.2022-2129
 [research_stewart_dooher_2026]: https://doi.org/10.3390/aerospace13070616
 [research_stokes_chappell_1999]: https://doi.org/10.2514/6.1999-3712
 [research_store_separation]: https://doi.org/10.21236/ada087490
 [research_stoykov_atanasov_2016]: https://doi.org/10.19062/2247-3173.2016.18.1.49
 [research_stricker_1989]: https://doi.org/10.2514/6.1989-2475
-[research_subchan_2011]: https://doi.org/10.12962/j20882033.v22i3.67
 [research_szymkowiak_silver_1990]: https://doi.org/10.17764/jiet.2.33.3.ej30097674283665
 [research_tamer_2021]: https://doi.org/10.3390/machines9030061
 [research_tang_dowell_1998]: https://doi.org/10.2514/2.2377
 [research_tangential_semisubmerged]: https://ntrs.nasa.gov/citations/19920057216
 [research_tangential_semisubmerged_2]: https://ntrs.nasa.gov/citations/19910034555
-[research_tekinalp_utalay_2000]: https://doi.org/10.2514/6.2000-684
 [research_tembhurnikar_bhosale_2021]: https://doi.org/10.1109/punecon52575.2021.9686526
-[research_the_aerodynamic]: https://doi.org/10.21236/ada476434
 [research_the_rapid]: https://doi.org/10.21236/ada082005
-[research_thermal_management_1992]: https://doi.org/10.2514/6.1992-514
 [research_thermal_stability]: https://doi.org/10.21236/ada116682
+[research_tian_li_2022]: https://doi.org/10.4208/aamm.oa-2020-0343
 [research_to_2024]: https://doi.org/10.14264/345621
 [research_tomaro_witzeman_1999]: https://doi.org/10.2514/6.1999-122
-[research_toor_masud_2019]: https://doi.org/10.2514/6.2019-0601
-[research_trajectory_equations]: https://doi.org/10.21236/ad0634267
-[research_trajectory_equations_2]: https://doi.org/10.21236/ad0615569
-[research_tranair_applications]: https://ntrs.nasa.gov/citations/19930040922
 [research_transonic_wind]: https://doi.org/10.21236/ada077370
 [research_transonic_wing_store]: https://doi.org/10.21236/ada103929
 [research_triplett_1984]: https://doi.org/10.2514/3.44968
+[research_tsukanov_riabkov_2021]: https://doi.org/10.32620/aktt.2021.5.01
 [research_turk_guleren_2025]: https://doi.org/10.1017/aer.2024.154
 [research_turk_zeiner_1986]: https://doi.org/10.2514/6.1986-1545
 [research_turner_1982]: https://doi.org/10.2514/3.57431
 [research_unal_baran_2018]: https://doi.org/10.2514/6.2018-0431
 [research_user_requirements]: https://doi.org/10.21236/ada334792
-[research_valasek_lu_2017]: https://doi.org/10.1109/icuas.2017.7991494
 [research_vaughn_2006]: https://doi.org/10.2514/6.2006-3866
 [research_vaughn_miltone_2008]: https://doi.org/10.21236/ada476434
+[research_veeresha_sinchana_2025]: https://doi.org/10.48084/etasr.12954
 [research_vengate_erturk_2016]: https://doi.org/10.2514/6.2016-3713
 [research_viscous_flow]: https://ntrs.nasa.gov/citations/19910016809
 [research_vishwajeet_mulik_2025]: https://doi.org/10.12783/ballistics25/37193
@@ -2794,13 +2864,11 @@ to carry a weapon it is barely larger than.
 [research_wang_guo_2024_2]: https://doi.org/10.1016/j.ast.2024.109685
 [research_wang_xu_2022]: https://doi.org/10.3390/aerospace10010026
 [research_warchulski_warchulski_2016]: https://doi.org/10.17814/mechanik.2016.7.210
-[research_water_discriminating]: https://doi.org/10.21236/ada800196
 [research_watson_gonzalez_2023]: https://doi.org/10.1109/aero55745.2023.10115901
 [research_wei_tong_2026]: https://doi.org/10.4271/2026-99-1860
 [research_welterlen_2000]: https://doi.org/10.2514/6.2000-3926
 [research_welterlen_leone_1996]: https://doi.org/10.2514/6.1996-2453
 [research_whalley_1973]: https://doi.org/10.2514/6.1973-467
-[research_williams_1981]: https://doi.org/10.21236/ada207186
 [research_williams_1982]: https://doi.org/10.2514/6.1982-390
 [research_wing_store_flow_field]: https://doi.org/10.21236/ada068328
 [research_witkowski_1999]: https://doi.org/10.2514/6.1999-1741
@@ -2814,7 +2882,6 @@ to carry a weapon it is barely larger than.
 [research_zaikang_defu_2019]: https://doi.org/10.1201/9780429291203-2
 [research_zhang_meganathan_2008]: https://doi.org/10.2514/6.2008-6241
 [research_zhang_qin_2026]: https://doi.org/10.54097/f31pre98
-[research_zhang_sun_2017]: https://doi.org/10.12783/ballistics2017/16775
 [research_zhang_wang_2026]: https://doi.org/10.1155/ijae/4180583
 [research_zhang_yang_2018]: https://doi.org/10.1051/matecconf/201819805004
 [research_zhang_yang_2023]: https://doi.org/10.1177/09544100231181218

@@ -11,6 +11,27 @@ resuming agent. Read it first, validate it, then read the live channels.
 ## Validity
 
 - **Branch**: `master`
+- **Parent commit** (the repository state this handoff describes): `25fc327`
+- **Written**: 2026-10-19, by the X-Planes line, at the end of the 16 to 19 October uniformity cycle.
+- **Tree at write**: the cycle's work, which is committed by the commit carrying this file. An untracked `.codex/`
+  directory is **not this line's** and must not be committed by it.
+- **PUSH STATE.** `origin/master` is at `25fc327`. This file's commit is the only unpushed one. **Push only on the
+  pilot's instruction.** Nothing is published, and the pilot's instruction is to hold publication.
+- **STATE.** The baseline:
+  - All 72 drafts carry the full-reading survey form, with hygiene and labels applied series-wide.
+  - Every article prints `check5.py` RESULT PASS.
+  - Every offline verifier exits 0 (`bash tmp/fix7/run_verifiers_rc.sh <numbers>`), except A327's `verify_survey.py`. Its restating edit was refused by the permission system and awaits the pilot.
+  - `_verify.py` reports 0 and 0.
+  - All 72 drafts build in a scratch copy (`tmp/fix7/where_build.sh`, with `tmp/repair/touched.txt` listing all 72), and `_lib/render.py` finds nothing.
+- **RESUME.** Read `_docs/process/REVERSE_PROMPT.md` for the six open pilot decisions, and `tmp/fix7/PROGRESS14.md` (gitignored, local) for the cycle record.
+  - **Never use a verifier runner that prints `$?` after a command substitution.** It reports 0 for everything.
+  - Re-run hazards are listed in each article's drafting notes.
+  - The label pass is `tmp/labelpass/labelpass.py`. Its overrides are in `badfam_overrides.json`, and after it run `apply_labelnorm.py` and `sort_research.py`.
+
+## Validity (superseded, written 2026-10-15)
+
+
+- **Branch**: `master`
 - **Parent commit** (the repository state this handoff describes): `327c67e`
 - **Written**: 2026-10-15, by the X-Planes line, after the early-survey retrofit of A297 to A317 and the
   X-15 expansion, which followed the 9 October consistency pass.
