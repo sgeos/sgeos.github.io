@@ -4,6 +4,39 @@
 
 ## Last Updated
 
+**Date**: 2026-10-19 (second entry)
+**Task**: **X-PLANES, THE PILOT'S SIX DECISIONS OF 19 OCTOBER.** Committed and pushed on the pilot's instruction. NOT published.
+
+**The pilot's decisions, quoted.** "1. Please update A327. 2. Keep the citation in A366. If there is a reason not to, tell me what it is. 3. We can queue the citation pass without running it yet. 4. Keep comments and discussions. 5. Find a credible source. If I have misunderstood something, let me know. 6. Do the above, the commit and push. We also need to perform a pathological word usage passes. Queue for now without running."
+
+**What was done.**
+- **A327.** The survey restated: the impulse row 286, records 3,807, dated 3,798, 2015 or later 1,769 (46.6 percent). Its later restoration of one comment made the total 3,808.
+- **A366.** `roseredwood_alderman_2008` is kept unchanged. See the concern below.
+- **Queued, not run.** The citation pass and the pathological word usage pass are recorded in `TASKLOG.md`.
+- **Comments and discussions (BRIEF19, `tmp/fix8/BRIEF19.md`).** The series rule is now this. A signed comment, discussion, closure, reply or letter on an on-topic paper is a research work and is admitted. A referee's report, a news item signed or not, and any unsigned item are not admitted. A comment whose commented paper is kept is ruled the same way as that paper.
+  - 52 articles were checked. 156 records were restored and 13 removed, and 581 candidates were left out with a reason each, mostly for subject.
+  - Records changed in 27 articles, and every stated survey number was recomputed.
+  - Sentences that excluded comments or replies were revised in A297, A310, A312, A313, A316, A322, A324, A332, A333, A334 and A337, and the rule sentence was added where none existed.
+  - Two gate defects of the same kind were found and fixed. The form screens of A297 and A309 also dropped literature reviews, and on-topic ones were restored (10 and 5). Five articles had merged signed discussions or closures away as title-and-year twins, and those were restored.
+  - Unsigned discussions still in a survey were removed (A323, A329, A341, A347), along with a signed news story (A334), a news column (A319), an ACPD referee comment (A305) and a comment with no author in any registry (A307).
+- **He 1994.** The label is now "He and Du Val 1994", in four drafts (A315, A316, A346, A347), not five as reported before. A label-pass override keeps it.
+- **Cross-article.** A349's rank sentence now reads 4 records of 769 for the X-39 article. The A368 ledger's 13 failed quotes are now 0: ten were re-pointed to the lines they had moved to, and three A298 quotes, stale since that article's history was rewritten in the previous cycle, were re-quoted. calc368 is unchanged and verify368 passes 1,885 checks.
+
+**Verification.**
+- check5 RESULT PASS on all 72.
+- Every offline verifier exits 0. The only nonzero exit is the known stale copy `verify368.d1pre.py`.
+- `_verify.py` reports 0 errors and 0 warnings.
+- All 72 drafts build in a scratch copy, and `_lib/render.py` finds nothing across 544 pages.
+- All 138 new link definitions resolve, through the doi.org handle API and the NTRS API. Resolution is not citation verification.
+
+**FOR THE PILOT.**
+1. **A366, a reason the citation may not belong in its sentence.** The sentence calls the cited works "a later review" describing place-name studies' critical turn away from etymology and taxonomy. `roseredwood_alderman_2008` is a four-page signed introduction to a GeoJournal theme issue, "Collective memory and the politics of urban space." Its text could not be read: the publisher blocks automated requests and no abstract is registered. So its support for that specific claim is unverified. The 2009 review cited beside it supports the sentence on its own.
+2. **He 1994 is an inference, not a title-page reading.** The AIAA page refuses requests. Crossref's deposit gives the second author as "Ronald" with family "D", at Advanced Rotorcraft Technology. Crossref records 10.4050/vfs-f52-1081 and 10.4050/vfs-f68-000221 show Cheng-Jian He with Ronald W. Du Val, or DuVal, at that company. A 2021 Progress in Aerospace Sciences review cites a 1994 He and Du Val paper on the same dynamic stall model.
+3. **The user's email address was sent to registries.** It went to Crossref, OpenAlex and NTRS as a mailto in the user agent, by the coordinator and agents in this cycle, and it is hard-coded in about 200 older scripts under `tmp/`. New requests were stopped from carrying it. Whether to scrub the old scripts is the pilot's call.
+4. **Left out, for review if wanted.** These are signed on-topic comments that were never in a survey's harvest: Gordon and Clark 1981 (A313), Coleman 1957 and McCroskey 1969 (A318), Ashkenas 1964 (A321), and Dickmanns 1986 and Naumann 2019 (A320). Adding never-harvested records is outside the ruling. A305's gate now normalises title whitespace, and a full re-run of it might admit other line-broken titles, which would need reading.
+
+## Previous Report (2026-10-19, first entry)
+
 **Date**: 2026-10-19
 **Task**: **X-PLANES SERIES UNIFORMITY CYCLE (16 TO 19 OCTOBER).** Committed, NOT pushed, NOT published.
 

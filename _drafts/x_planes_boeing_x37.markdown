@@ -1440,11 +1440,11 @@ a reusable entry vehicle since 2010 has had to rediscover, or fail to discover, 
 | Rendezvous, proximity operations and on-orbit servicing | 104 |
 | Spacecraft propulsion and orbit transfer stages | 102 |
 | Materials and charging in the orbital environment | 100 |
-| Spaceplanes and winged orbital vehicles | 47 |
+| Spaceplanes and winged orbital vehicles | 46 |
 | Approach, landing and terminal area energy management | 44 |
 | The X-37, the X-40 and the Space Maneuver Vehicle | 33 |
 | Eclipse, sunlight and orbital lighting geometry | 21 |
-| **Total** | **4,844** |
+| **Total** | **4,843** |
 
 **This series surveys the contemporary literature comprehensively, in addition to the historical treatment.**
 The subjects below are the ones the article's own relations depend on, surveyed in their modern form, and
@@ -1984,7 +1984,7 @@ available only because a heavy-lift vehicle was.
 
 **The vehicle's class.** Winged orbital and suborbital spaceplanes other than the X-37, among them Hermes, HOPE, the Orbital Space Plane, Skylon, Dream Chaser and the National Aero-Space Plane.
 
-**47 records.** \[[Abe et al 2005][research_abe_shimada_2005]\] \[[Ashikhmina and Prosuntsov 2021][research_ashikhmina_prosuntsov_2021_b]\] \[[Ashikhmina et al 2021][research_ashikhmina_prosuntsov_2021]\] \[[Bae et al 2022][research_bae_lee_2022]\] \[[Betin 1991][research_betin_1991]\] \[[Brumley and Perich 2022][research_brumley_perich_2022]\] \[[Campbell 1991][research_campbell_1991]\] \[[Chavagnac et al 2013][research_chavagnac_gai_2013]\] \[[Daidzic 2016][research_daidzic_2016]\] \[[Dufour et al 2015][research_dufour_demuelenaere_2015]\] \[[Dumbacher 2003][research_dumbacherdan_2003]\] \[[Dumbacher 2003][research_dumbacherdaniell_2003]\] \[[Elisov et al 2018][research_elisov_ishkov_2018]\] \[[Ford 2003][research_fordrobert_2003]\] \[[Gibney 2015][research_gibney_2015]\] \[[Hasegawa and Kanda 2019][research_hasegawa_kanda_2019]\] \[[Ito and Nomoto 1990][research_ito_nomoto_1990]\] \[[Kato 1991][research_kato_1991]\] \[[Kolga and Rundau 2024][research_kolga_rundau_2024]\] \[[Kondrashov 2023][research_kondrashov_2023]\] \[[Koothan Venkateswaran et al 2025][research_koothanvenkateswaran_gamiz_2025]\] \[[Kudo and Kato 1991][research_kudo_kato_1991]\] \[[Launius 2013][research_launius_2013]\] \[[Le Goff and Moreau 2013][research_legoff_moreau_2013]\] \[[MacLeod 2026][research_macleod_2026]\] \[[MacLeod and Begent 2025][research_macleod_begent_2025]\] \[[Maita 1989][research_maita_1989]\] \[[Marshall 1986][research_marshall_1986]\] \[[McKenzie 2003][research_mckenziepatrickm_2003]\] \[[McNelis, Nancy B. et al 1995][research_mcnelisnancyb_hardyterryl_1995]\] \[[Murcia-Piñeros et al 2026][research_murciapineros_bevilacqua_2026]\] \[[Nebylov and Nebylov 2011][research_nebylov_nebylov_2011]\] \[[Nuhija 2021][research_nuhija_2021]\] \[[Redding 1984][research_redding_jr_1984]\] \[[Ricciardi et al 2019][research_ricciardi_maddock_2019]\] \[[Rogers et al 2004][research_rogersjamesh_safiefayssalm_2004]\] \[[Russo et al 2021][research_russo_voto_2021]\] \[[Schwelkart and Hallion 1997][research_schwelkart_hallion_1997]\] \[[Stapleton et al 1997][research_stapleton_galati_1997]\] \[[The graphic Skylon reusable 2011][research_the_graphic_2011]\] \[[Tsuchiya and Suzuki 1998][research_tsuchiya_suzuki_1998]\] \[[Wang and Zhang 2018][research_wang_zhang_2018]\] \[[Yamada and Suzuki 2016][research_yamada_suzuki_2016]\] \[[Yan and von der Dunk 1992][research_yan_vonderdunk_1992]\] \[[Ye 2023][research_ye_2023]\] \[[Yokoyama et al 2001][research_yokoyama_suzuki_2001]\] \[[Zhang et al 2024][research_zhang_huang_2024]\]
+**46 records.** \[[Abe et al 2005][research_abe_shimada_2005]\] \[[Ashikhmina and Prosuntsov 2021][research_ashikhmina_prosuntsov_2021_b]\] \[[Ashikhmina et al 2021][research_ashikhmina_prosuntsov_2021]\] \[[Bae et al 2022][research_bae_lee_2022]\] \[[Betin 1991][research_betin_1991]\] \[[Brumley and Perich 2022][research_brumley_perich_2022]\] \[[Campbell 1991][research_campbell_1991]\] \[[Chavagnac et al 2013][research_chavagnac_gai_2013]\] \[[Daidzic 2016][research_daidzic_2016]\] \[[Dufour et al 2015][research_dufour_demuelenaere_2015]\] \[[Dumbacher 2003][research_dumbacherdan_2003]\] \[[Dumbacher 2003][research_dumbacherdaniell_2003]\] \[[Elisov et al 2018][research_elisov_ishkov_2018]\] \[[Ford 2003][research_fordrobert_2003]\] \[[Gibney 2015][research_gibney_2015]\] \[[Hasegawa and Kanda 2019][research_hasegawa_kanda_2019]\] \[[Ito and Nomoto 1990][research_ito_nomoto_1990]\] \[[Kato 1991][research_kato_1991]\] \[[Kolga and Rundau 2024][research_kolga_rundau_2024]\] \[[Kondrashov 2023][research_kondrashov_2023]\] \[[Koothan Venkateswaran et al 2025][research_koothanvenkateswaran_gamiz_2025]\] \[[Kudo and Kato 1991][research_kudo_kato_1991]\] \[[Launius 2013][research_launius_2013]\] \[[Le Goff and Moreau 2013][research_legoff_moreau_2013]\] \[[MacLeod 2026][research_macleod_2026]\] \[[MacLeod and Begent 2025][research_macleod_begent_2025]\] \[[Maita 1989][research_maita_1989]\] \[[McKenzie 2003][research_mckenziepatrickm_2003]\] \[[McNelis, Nancy B. et al 1995][research_mcnelisnancyb_hardyterryl_1995]\] \[[Murcia-Piñeros et al 2026][research_murciapineros_bevilacqua_2026]\] \[[Nebylov and Nebylov 2011][research_nebylov_nebylov_2011]\] \[[Nuhija 2021][research_nuhija_2021]\] \[[Redding 1984][research_redding_jr_1984]\] \[[Ricciardi et al 2019][research_ricciardi_maddock_2019]\] \[[Rogers et al 2004][research_rogersjamesh_safiefayssalm_2004]\] \[[Russo et al 2021][research_russo_voto_2021]\] \[[Schwelkart and Hallion 1997][research_schwelkart_hallion_1997]\] \[[Stapleton et al 1997][research_stapleton_galati_1997]\] \[[The graphic Skylon reusable 2011][research_the_graphic_2011]\] \[[Tsuchiya and Suzuki 1998][research_tsuchiya_suzuki_1998]\] \[[Wang and Zhang 2018][research_wang_zhang_2018]\] \[[Yamada and Suzuki 2016][research_yamada_suzuki_2016]\] \[[Yan and von der Dunk 1992][research_yan_vonderdunk_1992]\] \[[Ye 2023][research_ye_2023]\] \[[Yokoyama et al 2001][research_yokoyama_suzuki_2001]\] \[[Zhang et al 2024][research_zhang_huang_2024]\]
 
 ### Approach, landing and terminal area energy management
 
@@ -2095,7 +2095,7 @@ thinnest trace of any of them.
 
 ### The Period Half and the Contemporary Half, Counted and Not Only Divided
 
-**The research survey holds 4,844 research records drawn from Crossref, the NASA Technical Reports Server and the Defense Technical Information Center**,
+**The research survey holds 4,843 research records drawn from Crossref, the NASA Technical Reports Server and the Defense Technical Information Center**,
 of which 1,037 are report primaries, being 21.4 percent, by the identifier rule set out under The
 Definition of Primary. **The median publication year is 2007.**
 
@@ -2104,12 +2104,12 @@ Both are given.
 
 | Half | Count | Share of dated |
 |---|---|---|
-| Period, through 2011 | 2,681 | 56.3 percent |
+| Period, through 2011 | 2,680 | 56.3 percent |
 | Contemporary, 2012 onward | 2,077 | 43.7 percent |
 | Undated | 86 | |
-| **Total research records** | **4,844** | |
+| **Total research records** | **4,843** | |
 
-**The period count is 2,681 and the contemporary count is 2,077.** Both are given because a contemporary
+**The period count is 2,680 and the contemporary count is 2,077.** Both are given because a contemporary
 survey lowers the period **share** while leaving the period **count** untouched, and reporting the share
 alone reads as a regression when it is only the contemporary survey being added.
 
@@ -2121,7 +2121,7 @@ together, so the report share is the closest available proxy for how much of the
 |---|---|---|
 | Technical reports, all eras | 1,037 | 21.4 percent |
 | Technical reports at or before 2011 | 867 | 17.9 percent |
-| Journal and conference records | 3,807 | 78.6 percent |
+| Journal and conference records | 3,806 | 78.6 percent |
 
 A further **140** reference works are listed below, and they carry the relations that no journal article
 states because every textbook does.
@@ -2280,7 +2280,7 @@ The article computes bounds precisely because none of these exists.
 **Primacy is a property of the document, and this survey derives it from the identifier.** A record is a
 report primary when its address is on the NASA Technical Reports Server or at the Defense Technical
 Information Center, or it carries a digital object identifier under the 10.21236 prefix, which Crossref
-registers for Defense Technical Information Center reports. By that rule 1,037 of the 4,844 research records
+registers for Defense Technical Information Center reports. By that rule 1,037 of the 4,843 research records
 are report primaries, being 21.4 percent. **The space agency's reports on the vehicle are report primaries under that rule**,
 and so are the agency's reports on the Shuttle orbiter and on aeroassisted transfer. **The rule does not
 reach first-hand journal and conference papers**, such as the satellite drag analyses of the late 1950s and
@@ -2362,7 +2362,7 @@ somebody decided the work should not be published.
 ### What the Survey Admits
 
 **A record is admitted only when a person reading its title finds it on this article's subject.**
-Its 4,844 records come from NASA's Technical Reports Server, the Defense Technical Information Center and the
+Its 4,843 records come from NASA's Technical Reports Server, the Defense Technical Information Center and the
 Crossref index of the journal literature. Many words this subject depends on also name something else, and a
 record that shares only such a word, or whose only link to the vehicle is a distant application of a shared
 technique, is excluded. An orbiter also names the planetary and lunar missions and their navigation, gravity
@@ -2380,9 +2380,12 @@ space, and secrecy in fiction, foreign policy and public relations are excluded 
 Correction, erratum and retraction notices, withdrawal notices, figure and supplementary-material records,
 peer-review reports and journal front matter such as subject indexes are excluded as well, because a survey
 counts research works and those are parts of works or editorial events rather than works. A document
-deposited twice is counted once. Book reviews, prefaces and forewords to collections, replies to letters,
-patent abstracts, the abstracts that abstract journals and the abstract sections of other journals reprint,
-and news items, signed or unsigned, are excluded on the same ground.
+deposited twice is counted once. Book reviews, prefaces and forewords to collections, patent abstracts, the
+abstracts that abstract journals and the abstract sections of other journals reprint, and news items, signed
+or unsigned, are excluded on the same ground, and so is a news writer's reply to a letter about a news story,
+which belongs to the news item. A signed comment on a paper, a discussion of a paper, the author's reply to
+either and a signed letter on a research subject are research works, because each argues about a result, and
+they are admitted when their subject is this article's.
 
 **Some records of doubtful relevance are kept.** The cycle life and state of health of electric vehicle and
 grid storage batteries, laboratory studies of loop and pulsating heat pipes that name no application,
@@ -2486,7 +2489,7 @@ turnaround that the record mission conceals.
 
 **The third answer is about the record itself, and it is uncomfortable.** This is the most successful
 vehicle in the last ten articles of this series and it has left the thinnest documentary trace of any of
-them. Twenty titles in a survey of 4,844 records, none describing a flown mission, and the
+them. Twenty titles in a survey of 4,843 records, none describing a flown mission, and the
 space agency's reports on the vehicle stop in 2006 while the vehicle went on flying for twenty years after that.
 **Four previous articles found a thin cluster for four different reasons, all of which were forms of the programme ending. This one is thin because the programme succeeded and was classified.**
 
@@ -5612,7 +5615,6 @@ summary of what classification achieves and what it costs.
 - [Marley and Driscoll 2022][research_marley_driscoll_2022]
 - [Marraffa and Smith 1998][research_marraffa_smith_1998]
 - [Mars Sample Return, Sample][research_markschoenenberger_matthewnrhode]
-- [Marshall 1986][research_marshall_1986]
 - [Marshall and Breuch 1968][research_marshall_breuch_1968]
 - [Marshall and Luthcke 1994][research_marshall_luthcke_1994]
 - [Marshburn and McIntosh 1978][research_marshburnjp_mcintoshrjr_1978]
@@ -10465,7 +10467,6 @@ summary of what classification achieves and what it costs.
 [research_markschoenenberger_matthewnrhode]: https://ntrs.nasa.gov/citations/20205004028
 [research_marley_driscoll_2022]: https://doi.org/10.2514/1.c036411
 [research_marraffa_smith_1998]: https://doi.org/10.1023/a:1001874903881
-[research_marshall_1986]: https://doi.org/10.1126/science.231.4734.105
 [research_marshall_breuch_1968]: https://doi.org/10.2514/3.29420
 [research_marshall_luthcke_1994]: https://doi.org/10.2514/3.26408
 [research_marshburnjp_mcintoshrjr_1978]: https://ntrs.nasa.gov/citations/19780051696

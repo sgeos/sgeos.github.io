@@ -11,6 +11,29 @@ resuming agent. Read it first, validate it, then read the live channels.
 ## Validity
 
 - **Branch**: `master`
+- **Parent commit** (the repository state this handoff describes): `37386ad`
+- **Written**: 2026-10-19, by the X-Planes line, after the pilot's six decisions of 19 October were applied.
+- **Tree at write**: this cycle's work, committed by the commit carrying this file. An untracked `.codex/`
+  directory is **not this line's** and must not be committed by it.
+- **PUSH STATE.** The pilot said to push. This file's commit is pushed with `37386ad`, so `origin/master` is at this
+  file's commit. Nothing is published, and the pilot's instruction is to hold publication.
+- **STATE.** The baseline:
+  - All 72 drafts carry the full-reading survey form, with hygiene, labels and the BRIEF19 comments rule applied series-wide.
+  - Every article prints `check5.py` RESULT PASS.
+  - Every offline verifier exits 0 (`bash tmp/fix7/run_verifiers_rc.sh <numbers>`). `verify368.d1pre.py` is a stale copy and is not a check.
+  - `_verify.py` reports 0 and 0.
+  - All 72 drafts build in a scratch copy (`tmp/fix7/where_build.sh`), and `_lib/render.py` finds nothing.
+- **RESUME.** Read `_docs/process/REVERSE_PROMPT.md` for the items put to the pilot. The cycle record is `tmp/fix8/PROGRESS15.md`, which is gitignored and local.
+  - **QUEUED, NOT RUN:** the series citation pass and the pathological word usage pass (`TASKLOG.md`). Start them only on the pilot's word.
+  - **Never put the user's email address in a request**, whether as a mailto, in a user agent or in a URL. Use a plain user agent.
+  - **Never use a verifier runner that prints `$?` after a command substitution.** It reports 0 for everything. The runner skips a network script only when its first import is the network module, so expect a 900-second alarm on a script such as A341's `verify_supp.py`.
+  - Re-run hazards are listed in each article's drafting notes. BRIEF19 keep lists extend several of them.
+  - The label pass is `tmp/labelpass/labelpass.py`. Its overrides are in `badfam_overrides.json`, and after it run `apply_labelnorm.py` and `sort_research.py`.
+
+## Validity (superseded, written 2026-10-19, first entry)
+
+
+- **Branch**: `master`
 - **Parent commit** (the repository state this handoff describes): `25fc327`
 - **Written**: 2026-10-19, by the X-Planes line, at the end of the 16 to 19 October uniformity cycle.
 - **Tree at write**: the cycle's work, which is committed by the commit carrying this file. An untracked `.codex/`
