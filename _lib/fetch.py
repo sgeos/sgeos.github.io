@@ -21,13 +21,16 @@ that hammers them. MIN_INTERVAL enforces a floor between calls to one host.
 """
 
 import json
+import os
 import time
 import urllib.error
 import urllib.parse
 import urllib.request
 
-CONTACT = "sgeos@hotmail.com"
-UA = {"User-Agent": f"blog-research/1.0 (mailto:{CONTACT})"}
+# A contact address is sent to registries only when the operator opts in through BLOG_CONTACT_EMAIL.
+# The default sends none, so no personal address leaves the machine unless someone chooses to send it.
+CONTACT = os.environ.get("BLOG_CONTACT_EMAIL", "").strip()
+UA = {"User-Agent": f"blog-research/1.0 (mailto:{CONTACT})" if CONTACT else "blog-research/1.0"}
 
 DEFAULT_TIMEOUT = 45
 DEFAULT_TRIES = 4
@@ -112,7 +115,9 @@ CROSSREF = "https://api.crossref.org/works"
 
 def crossref_search(query, rows=50, filters=None, **kw):
     """Bibliographic search. Returns the item list, possibly empty."""
-    params = {"query.bibliographic": query, "rows": str(rows), "mailto": CONTACT}
+    params = {"query.bibliographic": query, "rows": str(rows)}
+    if CONTACT:
+        params["mailto"] = CONTACT
     if filters:
         params["filter"] = filters
     j = get_json(f"{CROSSREF}?{urllib.parse.urlencode(params)}", **kw)

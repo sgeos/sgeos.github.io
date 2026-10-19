@@ -35,9 +35,10 @@ import urllib.request
 
 CACHE = ".cache/citations.json"
 API = "https://api.crossref.org/works/"
-# Crossref asks for a contact address so they can reach you about usage.
-MAILTO = os.environ.get("CROSSREF_MAILTO", "sgeos@hotmail.com")
-UA = f"sgeos.github.io citation check (mailto:{MAILTO})"
+# Crossref asks for a contact address so they can reach you about usage. It is sent only when the
+# operator sets CROSSREF_MAILTO, and the default sends none.
+MAILTO = os.environ.get("CROSSREF_MAILTO", "").strip()
+UA = f"sgeos.github.io citation check (mailto:{MAILTO})" if MAILTO else "sgeos.github.io citation check"
 PAUSE = 0.4
 
 DEF_RE = re.compile(r"^\[([A-Za-z0-9_-]+)\]:\s*(\S+)", re.M)
