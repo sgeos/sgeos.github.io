@@ -11,6 +11,57 @@ resuming agent. Read it first, validate it, then read the live channels.
 ## Validity
 
 - **Branch**: `master`
+- **Parent commit** (the repository state this handoff describes): `df43b5c`
+- **Written**: 2026-10-20, by the X-Planes line, after the citation pass and the pathological word usage pass on all
+  72 articles were committed and pushed as `df43b5c`.
+- **Tree at write**: clean apart from this file. An untracked `.codex/` directory is **not this line's** and must not
+  be committed by it.
+- **PUSH STATE.** The pilot said "Commit and push work". `df43b5c` is pushed, and this file's commit is pushed with it.
+  Nothing is published, and the pilot's instruction is to hold publication.
+- **STATE.** The baseline at `df43b5c`:
+  - 72 drafts, every one check5 RESULT PASS, every offline verifier rc=0 (`verify368.d1pre.py` is a stale copy and
+    not a check), every self-test catching its mutations, `_verify.py` 0 and 0, full build and `_lib/render.py`
+    clean across 544 pages, all 1,769 in-page anchors resolving.
+  - The working record of both passes is `tmp/cite/LEDGER.md` (gitignored, local). Per-sentence verdicts are in
+    `tmp/cite/A<NNN>/verdicts.tsv`. Old and new text for every correction is in each article's drafting notes, which
+    are committed.
+- **DECISIONS BEFORE THE PILOT** (not yet answered; copied here because the ledger is not tracked):
+  - **Arguments the corrections weakened.** A301 X-4 keystone (pitch-damping margin, partly contested by Sadoff and
+    Crossfield's geometric coupling). A307 the 28-minute crossover (Cape sorties of 51 to 79 minutes; 1,500 ft was a
+    goal). A308 the two-stage comparison reversed on Wikipedia Titan I fractions (needs a primary source). A312 the
+    "more than twice" melting ratio (constant specific heat; an upper bound only). A322 the X-25 training thesis
+    (pilots reported easily trained; escape vehicle was the unpowered gyro-chute). A332 the X-35B bracket rebuilt on
+    30,697 lb (a 23,500 lb source would restore the old reading). A345 the size of the scaling argument (280 ft
+    span). A348 "combustion never limited a flight" against flight 2. A364 the X-67 now the second permanent skip.
+    A365 the missile-release demonstration slipped rather than dropped.
+  - **Which source to adopt.** A302 spin argument against NACA TN 1045. A326 wing area 185 or 188.84 square feet.
+    A330 Mach defined as 340.294 m/s or GAO's 741 mph (about 3 percent). A333 specification figures against Walker
+    1997. A341 sizing table cruise near 340 mph against the museum's 176 mph maximum. A354 cruise motor 117 or 57 lb.
+    A368 the X-8 date. A327 the Schweikart survey record's data year (label now 1998, data 1997).
+  - **Smaller.** A313 two conflicting "largest difference" superlatives. A360 and the series count from a register
+    copy dated after the article dates.
+  - **Optional work.** A light trim of ", not" in A308 (24) and A305 (17). 48 new links are on hosts outside the
+    sandbox allowlist and were not checked by curl.
+- **HAZARDS LEARNED THIS CYCLE.**
+  - **Stale generators.** Most `tmp/a<NNN>/assemble.py` and `body*.md` sources no longer match their drafts. Running
+    one would revert this work. Only A353 to A357 are kept byte-identical by their verifiers, and they must be edited
+    through their sources.
+  - **A368 pins quotations from every other draft by line.** After any edit to another draft, re-anchor with
+    `tmp/cite/A368/relocate.py` and `tmp/cite/A368/wp_requote.py`, then confirm `verify368.py` and `neg368.py`.
+  - **The label pass would revert three corrected labels** (A326 Huckabone, A327 Schweikart and Hallion 1998, A366
+    Jenkins et al 2003). Its overrides take DOI keys only. Do not rerun `tmp/labelpass/labelpass.py` without
+    protecting them.
+  - **Verifiers that print FAIL and exit 0** were found and fixed in A311, A325, A328 and A329. Read verifier output,
+    not only the exit status.
+  - **Wayback links over http can return 503** where https returns 200.
+- **RESUME.** Read `_docs/process/REVERSE_PROMPT.md`, then the decisions above, and wait for the pilot.
+  - **Never put the user's email address in a request.** Use the plain user agent `blog-survey-tool`.
+  - **Read the WHOLE line of `run_verifiers_rc.sh` output for `rc=[1-9]`.**
+  - **Pushing needs `dangerouslyDisableSandbox`**, because the SSH keys are sandboxed. Push only on the pilot's word.
+
+## Validity (superseded, written 2026-10-20, third entry, before the commit)
+
+- **Branch**: `master`
 - **Parent commit** (the repository state this handoff describes): `ba88649`
 - **Written**: 2026-10-20, by the X-Planes line, after the citation pass and the pathological word usage pass on all 72 articles.
 - **Tree at write**: this cycle's work, committed by the commit carrying this file. An untracked `.codex/`
