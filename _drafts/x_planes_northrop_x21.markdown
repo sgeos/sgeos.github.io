@@ -455,23 +455,23 @@ Attachment-line contamination went from an unrecognised curiosity to a named des
 
 | Cluster | Records |
 |---|---|
-| Suction laminar flow control and its flight research | 159 |
+| Suction laminar flow control and its flight research | 166 |
 | Hybrid laminar flow control | 70 |
-| Natural laminar flow and low-drag aerofoils | 193 |
-| The attachment line and leading-edge contamination | 83 |
-| Crossflow instability on swept wings and its control | 185 |
-| Roughness, waviness and surface tolerance | 95 |
+| Natural laminar flow and low-drag aerofoils | 200 |
+| The attachment line and leading-edge contamination | 86 |
+| Crossflow instability on swept wings and its control | 223 |
+| Roughness, waviness and surface tolerance | 112 |
 | Turbulent spots and wedges | 19 |
-| Boundary-layer stability and transition | 225 |
+| Boundary-layer stability and transition | 260 |
 | Ice crystals, cloud and the icing of aircraft | 39 |
-| Insect contamination and its mitigation | 17 |
+| Insect contamination and its mitigation | 18 |
 | Coatings against ice and erosion | 32 |
-| Suction systems, perforated surfaces and their manufacture | 44 |
-| Suction and injection in the boundary layer | 88 |
+| Suction systems, perforated surfaces and their manufacture | 45 |
+| Suction and injection in the boundary layer | 102 |
 | Skin friction and the turbulent boundary layer | 49 |
-| Riblets and the reduction of turbulent skin friction | 108 |
+| Riblets and the reduction of turbulent skin friction | 114 |
 | Induced drag, span efficiency, cruise and aircraft design | 25 |
-| **Total** | **1,431** |
+| **Total** | **1,560** |
 
 Laminar flow control did not die in 1965. It went quiet for a decade, revived when fuel prices made drag expensive, and has been a continuous field ever since, as the clusters below show, and the revival and its later reviews are recorded in [Povinelli et al 1976][research_povinelli_1976], [Braslow and Muraca 1978][research_braslow_muraca_1978], [Klineberg 1978][research_klineberg_1978], [Aircraft energy efficiency program 1979][research_aircraft_energy_1979], [Wagner et al 1988][research_wagner_bartlett_1988], [Joslin 1998][research_joslin_1998_b], [Saric and Reed 2004][research_saric_reed_2004], [Green 2008][research_green_2008], [Atkin 2008][research_atkin_2008], [Beck et al 2018][research_beck_2018].
 
@@ -491,7 +491,7 @@ Natural laminar flow shapes the aerofoil so that the pressure gradient alone hol
 
 ### Insects, Which Is the Question the X-21 Never Reached
 
-The X-21's service-maintenance objective was never reached. **The literature took it up in the late 1970s and has worked on it since**, in [Fisher and Peterson 1978][research_fisher_peterson_1978], [Peterson and Fisher 1978][research_peterson_fisher_1978], [Maresh and Bragg 1984][research_maresh_bragg_1984], [Croom and Holmes 1985][research_croom_holmes_1985], [Croom and Holmes 1986][research_croom_holmes_1986], [Lorenzi et al 2011][research_lorenzi_wohl_2011], [Kok et al 2013][research_kok_mertens_2013], [Siochi et al 2013][research_siochi_smith_2013], [Wohl et al 2013][research_wohl_smith_2013], [Kok and Young 2014][research_kok_young_2014], [Kok et al 2014][research_kok_tobin_2014], [Shanahan et al 2015][research_shanahan_wohl_2015], [Wohl et al 2015][research_wohl_doss_2015], [Alexander et al 2016][research_alexander_harris_2016], [Krishnan et al 2016][research_krishnan_robison_2016], [Wicke et al 2016][research_wicke_linke_2016], [Kok et al 2017][research_kok_tobin_2017].
+The X-21's service-maintenance objective was never reached. **The literature took it up in the late 1970s and has worked on it since**, in [Fisher and Peterson 1978][research_fisher_peterson_1978], [Peterson and Fisher 1978][research_peterson_fisher_1978], [Maresh and Bragg 1984][research_maresh_bragg_1984], [Croom and Holmes 1985][research_croom_holmes_1985], [Croom and Holmes 1986][research_croom_holmes_1986], [Lorenzi et al 2011][research_lorenzi_wohl_2011], [Kok et al 2013][research_kok_mertens_2013], [Siochi et al 2013][research_siochi_smith_2013], [Wohl et al 2013][research_wohl_smith_2013], [Kok and Young 2014][research_kok_young_2014], [Kok et al 2014][research_kok_tobin_2014], [Kok et al 2015][research_kok_2015], [Shanahan et al 2015][research_shanahan_wohl_2015], [Wohl et al 2015][research_wohl_doss_2015], [Alexander et al 2016][research_alexander_harris_2016], [Krishnan et al 2016][research_krishnan_robison_2016], [Wicke et al 2016][research_wicke_linke_2016], [Kok et al 2017][research_kok_tobin_2017].
 
 **The modern answer is chemistry and geometry rather than cleaning.** Coatings that insect residue cannot adhere to, surfaces engineered at the micrometre scale so that a strike does not leave a critical roughness, and shields deployed over the leading edge during the low-altitude part of the flight where the insects are. None of those existed in 1963, and the last of them is a mechanical answer the X-21 could have carried.
 
@@ -529,7 +529,7 @@ Gloves on transport wings and fins, a supersonic laminar flow experiment on a de
 
 ### What the System Costs the Aircraft
 
-The article charges the suction system a thermodynamic power and states plainly that it does not charge weight, volume or structural penalty. The titles in this survey that name the suction system or its power are [Maddalon and Braslow 1990][research_maddalon_braslow_1990], [High Reynolds Number Hybrid 1999][research_high_reynolds_1999_2], [Yasuaki and Egami 1999][research_yasuaki_egami_1999], [Saeed et al 2010][research_saeed_graham_2010], [Perry and Ansell 2017][research_perry_ansell_2017], [Baranov et al 2021][research_baranov_kiselev_2021], [Prasannakumar et al 2024][research_prasannakumar_2024], and they are few.
+The article charges the suction system a thermodynamic power and states plainly that it does not charge weight, volume or structural penalty. The titles in this survey that name the suction system or its power are [Maddalon and Braslow 1990][research_maddalon_braslow_1990], [High Reynolds Number Hybrid 1999][research_high_reynolds_1999_2], [Yasuaki and Egami 1999][research_yasuaki_egami_1999], [Saeed et al 2010][research_saeed_graham_2010], [Saeed et al 2011][research_saeed_2011], [Perry and Ansell 2017][research_perry_ansell_2017], [Baranov et al 2021][research_baranov_kiselev_2021], [Prasannakumar et al 2024][research_prasannakumar_2024], and they are few.
 
 **That thinness is itself informative.** The installed cost of a suction system is exactly the quantity a manufacturer needs and exactly the quantity that is hardest to publish, because it is specific to an airframe and commercially sensitive. The public literature is rich on the aerodynamics and poor on the installation, which is the same imbalance the X-21 programme had.
 
@@ -549,9 +549,9 @@ Riblets and their successors do not prevent turbulence. They reduce the friction
 
 ### Suction laminar flow control and its flight research
 
-**The keystone.** Laminar flow control by suction as a programme, from the Northrop and NACA suction work of the 1940s and 1950s through the X-21 to the leading-edge flight test on NASA's JetStar, the Langley 8-foot tunnel experiment, the F-16XL supersonic experiment and the transport design studies of the energy efficiency programme. 19 of its 159 titles name flight.
+**The keystone.** Laminar flow control by suction as a programme, from the Northrop and NACA suction work of the 1940s and 1950s through the X-21 to the leading-edge flight test on NASA's JetStar, the Langley 8-foot tunnel experiment, the F-16XL supersonic experiment and the transport design studies of the energy efficiency programme. 19 of its 166 titles name flight.
 
-**159 records.** \[[Aircraft energy efficiency program 1979][research_aircraft_energy_1979]\] \[[Allison 1983][research_allison_1983]\] \[[Anders and Fischer 1999][research_anders_fischer_1999]\] \[[Atkin 2008][research_atkin_2008]\] \[[Barklage et al 2023][research_barklage_2023]\] \[[Berry 1986][research_berry_1986]\] \[[Berry et al 1987][research_berry_dagenhart_1987]\] \[[Bin Guo et al 2017][research_binguo_junqiangbai_2017]\] \[[Bobbitt et al 1992][research_bobbitt_harvey_1992]\] \[[Bonner et al 1977][research_bonner_1977]\] \[[Braslow and Fischer 1985][research_braslow_fischer_1985]\] \[[Braslow and Muraca 1978][research_braslow_muraca_1978]\] \[[Brennecke 1948][research_brennecke_1948]\] \[[Brooks and Harris 1987][research_brooks_harris_1987]\] \[[Brooks et al 1991][research_brooks_harris_1991]\] \[[Bushnell and Malik 1987][research_bushnell_malik_1987]\] \[[Bushnell and Tuttle 1979][research_bushnell_tuttle_1979]\] \[[Carpenter et al 2018][research_carpenter_solomon_2018]\] \[[Choudhari 1992][research_choudhari_1992]\] \[[Choudhari et al 2003][research_choudhari_chang_2003]\] \[[Collier 1993][research_collier_1993]\] \[[Crouch 2008][research_crouch_2008]\] \[[Crouch 2015][research_crouch_2015_b]\] \[[Crowley and Atkin 2016][research_crowley_atkin_2016]\] \[[Bushnell and Malik 1987][research_dennismbushnell_mujeebrmalik_1987]\] \[[Dodd et al 2001][research_dodd_tutty_2001]\] \[[Edwards 1961][research_edwards_1961]\] \[[Etchberger 1983][research_etchberger_1983]\] \[[Evaluation of laminar flow 1980][research_evaluation_of_1980]\] \[[Fischer 1992][research_fischer_1992]\] \[[Fischer and Vemuru 1991][research_fischer_vemuru_1991]\] \[[Fischer et al 1983][research_fischer_wright_1983]\] \[[Fisher and Fischer 1987][research_fisher_fischer_1987]\] \[[Fuel efficiency and laminar][research_fuel_efficiency]\] \[[George et al 1992][research_george_bohnmeyer_1992]\] \[[George-Falvy 1978][research_georgefalvy_1978]\] \[[Gratzer and George-Falvy 1978][research_gratzer_george_falvy_1978]\] \[[Green 2008][research_green_2008]\] \[[Groth 1961][research_groth_1961]\] \[[Haans et al 2004][research_haans_bijl_2004]\] \[[Hall 1992][research_hall_1992]\] \[[Harris and Brooks 1988][research_harris_brooks_1988]\] \[[Harris et al 1988][research_harris_harvey_1988]\] \[[Harvey 1982][research_harvey_1982]\] \[[Harvey and Pride 1982][research_harvey_pride_1982]\] \[[Harvey et al 1986][research_harvey_harris_1986]\] \[[Harvey et al 1989][research_harvey_harris_1989]\] \[[Hefner 1992][research_hefner_1992]\] \[[Hefner and Bushnell 1979][research_hefner_bushnell_1979]\] \[[Hefner and Wagner 1986][research_hefner_wagner_1986]\] \[[Hein et al 2009][research_hein_schulein_2009]\] \[[Herbert et al 1996][research_herbert_fan_1996]\] \[[Influence of Environment in 1980][research_influence_of_1980]\] \[[Jernell 1978][research_jernell_1978]\] \[[Jobe et al 1978][research_jobe_kulfan_1978]\] \[[Jobe et al 1979][research_jobe_kulfan_1979]\] \[[Jones et al 1989][research_jones_stainback_1989]\] \[[Joslin 1998][research_joslin_1998]\] \[[Joslin 1998][research_joslin_1998_b]\] \[[Joslin and Anders 2008][research_joslin_anders_2008]\] \[[Kakkar et al 2026][research_kakkar_streit_2026]\] \[[Kaups and Cebeci 1977][research_kaups_cebeci_1977]\] \[[Keith and Dewitt 1993][research_keith_dewitt_1993]\] \[[Klineberg 1978][research_klineberg_1978]\] \[[Klineberg 1979][research_klineberg_1979]\] \[[Klotzsche et al 1984][research_klotzsche_pearce_1984]\] \[[Kosin 1965][research_kosin_1965]\] \[[Kroo and Sturdza 2003][research_kroo_sturdza_2003]\] \[[Lachmann 1959][research_lachmann_1959]\] \[[Laminar flow control wing 1999][research_laminar_flow_1999]\] \[[Lange 1983][research_lange_1983]\] \[[Lange 1987][research_lange_1987]\] \[[Li Causi et al 2026][research_li_causi_2026]\] \[[Lineberger 1984][research_lineberger_1984]\] \[[Lo 1994][research_lo_1994]\] \[[Loftin and Burrows 1949][research_loftin_burrows_1949]\] \[[Lovell et al 1978][research_lovell_price_1978]\] \[[Maddalon 1982][research_maddalon_1982]\] \[[Maddalon and Wagner 1986][research_maddalon_wagner_1986]\] \[[Maddalon et al 1987][research_maddalon_fisher_1987]\] \[[Marshall 1999][research_marshall_1999]\] \[[Marshall 2000][research_marshall_2000]\] \[[Masad and Abid 1996][research_masad_abid_1996]\] \[[Masad and Malik 1994][research_masad_malik_1994]\] \[[Masad and Nayfeh 1992][research_masad_nayfeh_1992]\] \[[Mauerer et al 2026][research_mauerer_2026]\] \[[McQuilkin 1982][research_mcquilkin_1982]\] \[[Meade 1977][research_meade_1977]\] \[[Messing and Kloker][research_messing_kloker]\] \[[Middleton et al 1985][research_middleton_1985]\] \[[Muraca 1978][research_muraca_1978]\] \[[Nahoui et al 2025][research_nahoui_2025]\] \[[Northrop Aircraft Inc Hawthorne Ca 1956][research_northrop_aircraft_inc_hawthorne_ca_1956]\] \[[Northrop Corp Hawthorne Ca Norair Div 1964][research_northrop_corp_hawthorne_ca_norair_div_1964]\] \[[Northrop Corp Hawthorne Ca Norair Div 1964][research_northrop_corp_hawthorne_ca_norair_div_1964_2]\] \[[Ostowari 1992][research_ostowari_1992]\] \[[Parikh and Nagel 1990][research_parikh_nagel_1990]\] \[[Pearce 1982][research_pearce_1982]\] \[[Pearce 1983][research_pearce_1983]\] \[[Pearce et al 1984][research_pearce_mcnay_1984]\] \[[Pfenninger 1949][research_pfenninger_1949]\] \[[Pfenninger 1968][research_pfenninger_1968]\] \[[Pfenninger 1981][research_pfenninger_1981]\] \[[Pfenninger 1987][research_pfenninger_1987]\] \[[Pfenninger and Bacon 1961][research_pfenninger_bacon_1961]\] \[[Pfenninger and Groth 1961][research_pfenninger_groth_1961]\] \[[Pfenninger and Syberg 1974][research_pfenninger_syberg_1974]\] \[[Pfenninger and Vemuru 1988][research_pfenninger_vemuru_1988]\] \[[Pfenninger and Vemuru 1988][research_pfenninger_vemuru_1988_b]\] \[[Pfenninger and Vemuru 1992][research_pfenninger_vemuru_1992]\] \[[Pfenninger et al 1980][research_pfenninger_reed_1980]\] \[[Pfenninger et al 1990][research_pfenninger_vemuru_1990]\] \[[Poll 2000][research_poll_2000]\] \[[Povinelli et al 1976][research_povinelli_1976]\] \[[Powell 1987][research_powell_1987]\] \[[Powell et al 1989][research_powell_agrawal_1989]\] \[[Ram et al 1985][research_ram_vemuru_1985]\] \[[Raspet 1952][research_raspet_1952]\] \[[Rogers 1979][research_rogers_1979]\] \[[Rogers and King 1984][research_rogers_king_1984]\] \[[Saric and Reed 2004][research_saric_reed_2004]\] \[[Sattarzadeh and Fransson 2016][research_sattarzadeh_fransson_2016]\] \[[Semenov et al 2021][research_semenov_novikov_2021]\] \[[Singleton 1967][research_singleton_1967]\] \[[Srokowski 1978][research_srokowski_1978]\] \[[Stability Theory for Laminar 1990][research_stability_theory_1990]\] \[[Sturgeon 1978][research_sturgeon_1978]\] \[[Sturgeon 1978][research_sturgeon_1978_b]\] \[[Sturgeon and Bennett 1976][research_sturgeon_bennett_1976]\] \[[Sturgeon et al 1976][research_sturgeon_bennett_1976_b]\] \[[Swift and Mungur 1979][research_swift_mungur_1979]\] \[[Swinford 1976][research_swinford_1976]\] \[[Tokhunts 1968][research_tokhunts_1968]\] \[[Tucker et al 2014][research_tucker_saric_2014]\] \[[Tucker et al 2014][research_tucker_saric_2014_b]\] \[[Tucker et al 2016][research_tucker_2016]\] \[[Tucker et al 2016][research_tucker_reed_2016]\] \[[Turriziani et al 1979][research_turriziani_lovell_1979]\] \[[Tutty et al 2000][research_tutty_hackenberg_2000]\] \[[Wagner 1986][research_wagner_1986_2]\] \[[Wagner and Fischer 1983][research_wagner_fischer_1983]\] \[[Wagner et al 1984][research_wagner_1984]\] \[[Wagner et al 1986][research_wagner_1986]\] \[[Wagner et al 1988][research_wagner_1988]\] \[[Wagner et al 1988][research_wagner_bartlett_1988]\] \[[Wagner et al 1988][research_wagner_maddalon_1988]\] \[[Wagner et al 1989][research_wagner_1989]\] \[[Wagner et al 1990][research_wagner_fischer_1990]\] \[[Wagner et al 1992][research_wagner_1992]\] \[[Warner et al 1980][research_warner_ozgur_1980]\] \[[Watmuff 1992][research_watmuff_1992]\] \[[Wen 2024][research_wen_2024]\] \[[Wheldon and Whites 1966][research_wheldon_whites_1966]\] \[[Wie et al 1991][research_wie_collier_1991]\] \[[Woan et al 1991][research_woan_gingrich_1991]\] \[[Wright 1979][research_wright_1979]\] \[[Wright and Nelson 2000][research_wright_nelson_2000]\] \[[Yoshida and Tani 1993][research_yoshida_tani_1993]\] \[[Zhao et al 2018][research_zhao_2018]\]
+**166 records.** \[[Agrawal et al 1989][research_agrawal_1989]\] \[[Ahmadi-Baloutaki et al 2013][research_ahmadibaloutaki_2013]\] \[[Aircraft energy efficiency program 1979][research_aircraft_energy_1979]\] \[[Allison 1983][research_allison_1983]\] \[[Anders and Fischer 1999][research_anders_fischer_1999]\] \[[Atkin 2008][research_atkin_2008]\] \[[Barklage et al 2023][research_barklage_2023]\] \[[Berry 1986][research_berry_1986]\] \[[Berry et al 1987][research_berry_dagenhart_1987]\] \[[Bin Guo et al 2017][research_binguo_junqiangbai_2017]\] \[[Bobbitt et al 1992][research_bobbitt_harvey_1992]\] \[[Bonner et al 1977][research_bonner_1977]\] \[[Braslow and Fischer 1985][research_braslow_fischer_1985]\] \[[Braslow and Muraca 1978][research_braslow_muraca_1978]\] \[[Brennecke 1948][research_brennecke_1948]\] \[[Brooks and Harris 1987][research_brooks_harris_1987]\] \[[Brooks et al 1991][research_brooks_harris_1991]\] \[[Bushnell and Malik 1987][research_bushnell_malik_1987]\] \[[Bushnell and Tuttle 1979][research_bushnell_tuttle_1979]\] \[[Carpenter et al 2018][research_carpenter_solomon_2018]\] \[[Choudhari 1992][research_choudhari_1992]\] \[[Choudhari et al 2003][research_choudhari_chang_2003]\] \[[Collier 1993][research_collier_1993]\] \[[Crouch 2008][research_crouch_2008]\] \[[Crouch 2015][research_crouch_2015_b]\] \[[Crowley and Atkin 2016][research_crowley_atkin_2016]\] \[[Bushnell and Malik 1987][research_dennismbushnell_mujeebrmalik_1987]\] \[[Dodd et al 2001][research_dodd_tutty_2001]\] \[[Edwards 1961][research_edwards_1961]\] \[[Etchberger 1983][research_etchberger_1983]\] \[[Evaluation of laminar flow 1980][research_evaluation_of_1980]\] \[[Fischer 1992][research_fischer_1992]\] \[[Fischer and Vemuru 1991][research_fischer_vemuru_1991]\] \[[Fischer et al 1983][research_fischer_wright_1983]\] \[[Fisher and Fischer 1987][research_fisher_fischer_1987]\] \[[Fuel efficiency and laminar][research_fuel_efficiency]\] \[[George et al 1992][research_george_bohnmeyer_1992]\] \[[George-Falvy 1978][research_georgefalvy_1978]\] \[[Gratzer and George-Falvy 1978][research_gratzer_george_falvy_1978]\] \[[Green 2008][research_green_2008]\] \[[Groth 1961][research_groth_1961]\] \[[Haans et al 2004][research_haans_bijl_2004]\] \[[Hall 1992][research_hall_1992]\] \[[Harris and Brooks 1988][research_harris_brooks_1988]\] \[[Harris et al 1988][research_harris_harvey_1988]\] \[[Harvey 1982][research_harvey_1982]\] \[[Harvey and Pride 1982][research_harvey_pride_1982]\] \[[Harvey et al 1986][research_harvey_harris_1986]\] \[[Harvey et al 1989][research_harvey_harris_1989]\] \[[Hefner 1992][research_hefner_1992]\] \[[Hefner and Bushnell 1979][research_hefner_bushnell_1979]\] \[[Hefner and Wagner 1986][research_hefner_wagner_1986]\] \[[Hein et al 2009][research_hein_schulein_2009]\] \[[Herbert et al 1996][research_herbert_fan_1996]\] \[[Influence of Environment in 1980][research_influence_of_1980]\] \[[Jernell 1978][research_jernell_1978]\] \[[Jobe et al 1978][research_jobe_kulfan_1978]\] \[[Jobe et al 1979][research_jobe_kulfan_1979]\] \[[Jones et al 1989][research_jones_stainback_1989]\] \[[Joslin 1998][research_joslin_1998]\] \[[Joslin 1998][research_joslin_1998_b]\] \[[Joslin and Anders 2008][research_joslin_anders_2008]\] \[[Kakkar et al 2026][research_kakkar_streit_2026]\] \[[Kaups and Cebeci 1977][research_kaups_cebeci_1977]\] \[[Keith and Dewitt 1993][research_keith_dewitt_1993]\] \[[Klineberg 1978][research_klineberg_1978]\] \[[Klineberg 1979][research_klineberg_1979]\] \[[Klotzsche et al 1984][research_klotzsche_pearce_1984]\] \[[Kosin 1965][research_kosin_1965]\] \[[Kroo and Sturdza 2003][research_kroo_sturdza_2003]\] \[[Lachmann 1959][research_lachmann_1959]\] \[[Lachmann 1962][research_lachmann_1962]\] \[[Laminar flow control wing 1999][research_laminar_flow_1999]\] \[[Lange 1983][research_lange_1983]\] \[[Lange 1987][research_lange_1987]\] \[[Li Causi et al 2026][research_li_causi_2026]\] \[[Lineberger 1984][research_lineberger_1984]\] \[[Lo 1994][research_lo_1994]\] \[[Loftin and Burrows 1949][research_loftin_burrows_1949]\] \[[Lovell et al 1978][research_lovell_price_1978]\] \[[Maddalon 1982][research_maddalon_1982]\] \[[Maddalon and Wagner 1986][research_maddalon_wagner_1986]\] \[[Maddalon et al 1987][research_maddalon_fisher_1987]\] \[[Malik 1987][research_malik_1987]\] \[[Marshall 1999][research_marshall_1999]\] \[[Marshall 2000][research_marshall_2000]\] \[[Masad and Abid 1996][research_masad_abid_1996]\] \[[Masad and Malik 1994][research_masad_malik_1994]\] \[[Masad and Nayfeh 1992][research_masad_nayfeh_1992]\] \[[Mauerer et al 2026][research_mauerer_2026]\] \[[McQuilkin 1982][research_mcquilkin_1982]\] \[[Meade 1977][research_meade_1977]\] \[[Messing and Kloker][research_messing_kloker]\] \[[Middleton et al 1985][research_middleton_1985]\] \[[Mosca et al 2024][research_mosca_2024]\] \[[Muraca 1978][research_muraca_1978]\] \[[Nahoui et al 2025][research_nahoui_2025]\] \[[Northrop Aircraft Inc Hawthorne Ca 1956][research_northrop_aircraft_inc_hawthorne_ca_1956]\] \[[Northrop Corp Hawthorne Ca Norair Div 1964][research_northrop_corp_hawthorne_ca_norair_div_1964]\] \[[Northrop Corp Hawthorne Ca Norair Div 1964][research_northrop_corp_hawthorne_ca_norair_div_1964_2]\] \[[Ostowari 1992][research_ostowari_1992]\] \[[Parikh and Nagel 1990][research_parikh_nagel_1990]\] \[[Pearce 1982][research_pearce_1982]\] \[[Pearce 1983][research_pearce_1983]\] \[[Pearce et al 1984][research_pearce_mcnay_1984]\] \[[Pfenninger 1949][research_pfenninger_1949]\] \[[Pfenninger 1968][research_pfenninger_1968]\] \[[Pfenninger 1981][research_pfenninger_1981]\] \[[Pfenninger 1987][research_pfenninger_1987]\] \[[Pfenninger and Bacon 1961][research_pfenninger_bacon_1961]\] \[[Pfenninger and Groth 1961][research_pfenninger_groth_1961]\] \[[Pfenninger and Syberg 1974][research_pfenninger_syberg_1974]\] \[[Pfenninger and Vemuru 1988][research_pfenninger_vemuru_1988]\] \[[Pfenninger and Vemuru 1988][research_pfenninger_vemuru_1988_b]\] \[[Pfenninger and Vemuru 1992][research_pfenninger_vemuru_1992]\] \[[Pfenninger et al 1980][research_pfenninger_reed_1980]\] \[[Pfenninger et al 1990][research_pfenninger_vemuru_1990]\] \[[Poll 2000][research_poll_2000]\] \[[Povinelli et al 1976][research_povinelli_1976]\] \[[Powell 1987][research_powell_1987]\] \[[Powell et al 1989][research_powell_agrawal_1989]\] \[[Ram et al 1985][research_ram_vemuru_1985]\] \[[Raspet 1952][research_raspet_1952]\] \[[Rogers 1979][research_rogers_1979]\] \[[Rogers and King 1984][research_rogers_king_1984]\] \[[Saric and Reed 2004][research_saric_reed_2004]\] \[[Sattarzadeh and Fransson 2016][research_sattarzadeh_fransson_2016]\] \[[Semenov et al 2021][research_semenov_novikov_2021]\] \[[Shi et al 2015][research_shi_2015]\] \[[Singleton 1967][research_singleton_1967]\] \[[Srokowski 1978][research_srokowski_1978]\] \[[Stability Theory for Laminar 1990][research_stability_theory_1990]\] \[[Sturgeon 1978][research_sturgeon_1978]\] \[[Sturgeon 1978][research_sturgeon_1978_b]\] \[[Sturgeon and Bennett 1976][research_sturgeon_bennett_1976]\] \[[Sturgeon et al 1976][research_sturgeon_bennett_1976_b]\] \[[Swift and Mungur 1979][research_swift_mungur_1979]\] \[[Swinford 1976][research_swinford_1976]\] \[[Tokhunts 1968][research_tokhunts_1968]\] \[[Tucker et al 2014][research_tucker_saric_2014]\] \[[Tucker et al 2014][research_tucker_saric_2014_b]\] \[[Tucker et al 2016][research_tucker_2016]\] \[[Tucker et al 2016][research_tucker_reed_2016]\] \[[Turriziani et al 1979][research_turriziani_lovell_1979]\] \[[Tuttle and Maddalon 1982][research_tuttle_maddalon_1982]\] \[[Tutty et al 2000][research_tutty_hackenberg_2000]\] \[[Wagner 1986][research_wagner_1986_2]\] \[[Wagner and Fischer 1983][research_wagner_fischer_1983]\] \[[Wagner et al 1984][research_wagner_1984]\] \[[Wagner et al 1986][research_wagner_1986]\] \[[Wagner et al 1988][research_wagner_1988]\] \[[Wagner et al 1988][research_wagner_bartlett_1988]\] \[[Wagner et al 1988][research_wagner_maddalon_1988]\] \[[Wagner et al 1989][research_wagner_1989]\] \[[Wagner et al 1990][research_wagner_fischer_1990]\] \[[Wagner et al 1992][research_wagner_1992]\] \[[Warner et al 1980][research_warner_ozgur_1980]\] \[[Watmuff 1992][research_watmuff_1992]\] \[[Wen 2024][research_wen_2024]\] \[[Wheldon and Whites 1966][research_wheldon_whites_1966]\] \[[Wie et al 1991][research_wie_collier_1991]\] \[[Woan et al 1991][research_woan_gingrich_1991]\] \[[Wright 1979][research_wright_1979]\] \[[Wright and Nelson 2000][research_wright_nelson_2000]\] \[[Yoshida and Tani 1993][research_yoshida_tani_1993]\] \[[Zhao et al 2018][research_zhao_2018]\]
 
 ### Hybrid laminar flow control
 
@@ -563,25 +563,25 @@ Riblets and their successors do not prevent turbulence. They reduce the friction
 
 **The second concession.** Wings, aerofoils, gloves and nacelles shaped so that the pressure gradient alone holds the flow laminar, with the low-drag aerofoil work of the NACA period that preceded both.
 
-**193 records.** \[[Venkatachari et al 2021][research_balaji_shankar_venkatachari_2021]\] \[[Barnwell and Hussaini 1992][research_barnwell_hussaini_1992]\] \[[Befus et al 1987][research_befus_nelson_1987]\] \[[Belisle et al 2012][research_belisle_roberts_2012]\] \[[Bell and Cornelius 1987][research_bell_cornelius_1987]\] \[[Bidwell 1991][research_bidwell_1991]\] \[[Bozeman et al 2024][research_bozeman_campbell_2024]\] \[[Bragg and Gregorek 1989][research_bragg_gregorek_1989]\] \[[Braun et al 2011][research_braun_wicke_2011]\] \[[Campbell and Lynde 2017][research_campbell_lynde_2017]\] \[[Campbell et al 1986][research_campbell_waggoner_1986]\] \[[Carmichael 1979][research_carmichael_1979]\] \[[Cebeci and Smith 1968][research_cebeci_smith_1968]\] \[[Chakraborty et al 2022][research_chakraborty_2022]\] \[[Chen and Tang 2017][research_chen_tang_2017]\] \[[Chen et al 2023][research_chen_2023]\] \[[Chen et al 2023][research_chen_2023_2]\] \[[Clayton][research_clayton]\] \[[Coder 2020][research_coder_2020]\] \[[Coder 2021][research_coder_2021]\] \[[Coder 2026][research_coder_2026]\] \[[Coder and Somers 2020][research_coder_somers_2020]\] \[[Collazo Garcia and Ansell 2018][research_collazogarcia_ansell_2018]\] \[[Collazo Garcia and Ansell 2019][research_collazo_garcia_ansell_2019]\] \[[Colletti et al 2021][research_colletti_shmilovich_2021]\] \[[Coutu et al 2011][research_coutu_brailovski_2011]\] \[[Somers and Maughmer 2022][research_dan_m_somers_mark_d_maughmer_2022]\] \[[de Rosa and Donelli 2020][research_de_rosa_donelli_2020]\] \[[Deng et al 2026][research_deng_2026]\] \[[Djeddi and Ekici 2024][research_djeddi_ekici_2024]\] \[[Dodbele 1992][research_dodbele_1992]\] \[[Dodbele et al 1986][research_dodbele_1986]\] \[[Fan et al 2017][research_fan_song_2017]\] \[[Fan et al 2021][research_fan_2021]\] \[[Fehrs and Kaiser 2025][research_fehrs_kaiser_2025]\] \[[Frederick et al 2014][research_frederick_2014]\] \[[Fuhrmann 1993][research_fuhrmann_1993]\] \[[Fujino 2002][research_fujino_2002]\] \[[Fujino et al 2003][research_fujino_yoshizaki_2003]\] \[[Garzon and Matisheck 2012][research_garzon_matisheck_2012]\] \[[Garzon et al 2014][research_garzon_matisheck_2014]\] \[[Gibson and Gerhardt 1995][research_gibson_gerhardt_1995]\] \[[Gopalarathnam and Selig 2001][research_gopalarathnam_selig_2001]\] \[[Gratzer 1990][research_gratzer_1990]\] \[[Guha and Sengupta 2025][research_guha_sengupta_2025]\] \[[Haines 1957][research_haines_1957]\] \[[Hammer and Shumway 2026][research_hammer_shumway_2026]\] \[[Han et al 2016][research_han_chen_2016]\] \[[Han et al 2018][research_han_2018]\] \[[Hansman and Barsotti 1985][research_hansman_barsotti_1985]\] \[[Hart et al 2026][research_hart_borden_2026]\] \[[Hastings et al 1986][research_hastings_schoenster_1986]\] \[[Hastings et al 1987][research_hastings_1987]\] \[[Helm et al 2023][research_helm_2023]\] \[[Hiller et al 2025][research_hiller_campbell_2025]\] \[[Holmes 1984][research_holmes_1984_b]\] \[[Holmes 1985][research_holmes_1985_b]\] \[[Holmes and Obara 1982][research_holmes_obara_1982]\] \[[Holmes and Obara 1992][research_holmes_obara_1992]\] \[[Holmes et al 1983][research_holmes_1983]\] \[[Holmes et al 1984][research_holmes_1984]\] \[[Holmes et al 1985][research_holmes_1985]\] \[[Holmes et al 1986][research_holmes_croom_1986]\] \[[Holt 1943][research_holt_1943]\] \[[Horstmann et al 1990][research_horstmann_redeker_1990]\] \[[Hosseinverdi and Fasel 2023][research_hosseinverdi_fasel_2023]\] \[[Ide et al 2012][research_ide_yoshida_2012]\] \[[Ishida et al 2026][research_ishida_2026]\] \[[Ishikawa et al 2017][research_ishikawa_ueda_2017]\] \[[Iuliano et al 2011][research_iuliano_2011]\] \[[Hefner and Sabo 1987][research_jerry_n_hefner_frances_e_sabo_1987]\] \[[Karpuk and Elham 2023][research_karpuk_elham_2023]\] \[[Keller 2019][research_keller_2019]\] \[[Kolesar 1987][research_kolesar_1987]\] \[[Krishnan et al][research_krishnan_mukund]\] \[[Krumbein et al 2022][research_krumbein_2022]\] \[[Laflin and Papadakis 2001][research_laflin_papadakis_2001]\] \[[Lamb et al 1985][research_lamb_aabeyounis_1985]\] \[[Lamb et al 1986][research_lamb_abeyounis_1986]\] \[[Lampropoulos et al 2025][research_lampropoulos_2025]\] \[[Li and Zhong 2016][research_li_zhong_2016]\] \[[Li et al 2020][research_li_2020]\] \[[Lin et al 2011][research_lin_robinson_2011]\] \[[Low Drag Airfoil Design 1980][research_low_drag_1980]\] \[[Lynde and Campbell 2016][research_lynde_campbell_2016]\] \[[Lynde and Campbell 2017][research_lynde_campbell_2017]\] \[[Lynde et al 2021][research_lynde_campbell_2021]\] \[[Ma et al 2023][research_ma_2023]\] \[[Malik et al 2013][research_malik_liao_2013]\] \[[Malik et al 2015][research_malik_2015]\] \[[Manning and Kroo 1999][research_manning_kroo_1999]\] \[[Maughmer et al 2018][research_maughmer_coder_2018]\] \[[Maughmer et al 2025][research_maughmer_2025]\] \[[McCullough and Gault 1947][research_mccullough_gault_1947]\] \[[McCullough and Gault 1948][research_mccullough_gault_1948]\] \[[Medina et al 2009][research_medina_early_2009]\] \[[Methel et al 2025][research_methel_2025]\] \[[Metkowski and Maughmer 2021][research_metkowski_maughmer_2021]\] \[[Metkowski and Maughmer 2023][research_metkowski_maughmer_2023]\] \[[Bright et al 2020][research_michellembright_stevekomadina_2020]\] \[[Moniripiri et al 2023][research_moniripiri_brito_2023]\] \[[Montoya et al 1981][research_montoya_1981]\] \[[Mount and Millman 1985][research_mount_millman_1985]\] \[[Murri et al 1987][research_murri_mcghee_1987]\] \[[Natural laminar flow airfoil 1979][research_natural_laminar_1979]\] \[[Negi et al 2018][research_negi_hanifi_2018]\] \[[Nie et al 2025][research_nie_2025]\] \[[Obara et al 1986][research_obara_hastings_1986]\] \[[Ortiz-Melendez et al 2020][research_ortizmelendez_long_2020]\] \[[Ortiz-Melendez et al 2022][research_ortiz_melendez_2022]\] \[[Paredes et al][research_pedro_paredes]\] \[[Peltzer and Nitsche 2004][research_peltzer_nitsche_2004]\] \[[Pfenninger and Vemuru 1989][research_pfenninger_vemuru_1989]\] \[[Pfenninger et al 1986][research_pfenninger_vemuru_1986]\] \[[Placek and Ruchała 2018][research_placek_ruchaa_2018]\] \[[Quagliarella and Iuliano 2017][research_quagliarella_iuliano_2017]\] \[[Quagliarella and Iuliano 2018][research_quagliarella_iuliano_2018]\] \[[Quast et al 1990][research_quast_henke_1990]\] \[[Quinn 1944][research_quinn_1944]\] \[[Quinn 1947][research_quinn_1947]\] \[[Quinn 1947][research_quinn_1947_2]\] \[[Radespiel et al 1989][research_radespiel_horstmann_1989]\] \[[Redeker and Wichmann 1988][research_redeker_wichmann_1988]\] \[[Redeker et al 1990][research_redeker_horstmann_1990]\] \[[Reeh and Tropea 2015][research_reeh_tropea_2015]\] \[[Riedel and Sitzmann 1997][research_riedel_sitzmann_1997]\] \[[Riedel et al 1998][research_riedel_horstmann_1998]\] \[[Riedel et al 1998][research_riedel_ronzheimer_1998]\] \[[Rizzetta and Garmann 2025][research_rizzetta_garmann_2025]\] \[[Rizzetta and Visbal 2016][research_rizzetta_visbal_2016]\] \[[Rizzetta and Visbal 2016][research_rizzetta_visbal_2016_c]\] \[[Roberts et al 2012][research_roberts_reed_2012]\] \[[Roberts et al 2015][research_roberts_2015]\] \[[Runyan et al 1987][research_runyan_bielak_1987]\] \[[Sabater et al 2022][research_sabater_2022]\] \[[Sakakibara et al 2021][research_sakakibara_nimura_2021]\] \[[Sapuppo and Archer 1982][research_sapuppo_archer_1982]\] \[[Selig et al 1995][research_selig_maughmer_1995]\] \[[Sengupta et al 2021][research_sengupta_2021]\] \[[Shi et al 2021][research_shi_2021]\] \[[Somers 1992][research_somers_1992]\] \[[Somers 2019][research_somers_2019]\] \[[Srilatha et al 1990][research_srilatha_dwarakanath_1990]\] \[[Stalewski and Sznajder 2016][research_stalewski_sznajder_2016]\] \[[Steen 1995][research_steen_1995]\] \[[Steffen et al 2024][research_steffen_2024]\] \[[Streit et al 2011][research_streit_wichmann_2011]\] \[[Streit et al 2015][research_streit_2015]\] \[[Sturdza 2007][research_sturdza_2007]\] \[[Sturdza and Rajnarayan 2014][research_sturdza_rajnarayan_2014]\] \[[Tang et al 2017][research_tang_2017]\] \[[Tang et al 2022][research_tang_2022]\] \[[Tani 1952][research_tani_1952]\] \[[Tao et al 2020][research_tao_xiong_2020]\] \[[Tokugawa and Yoshida 2006][research_tokugawa_yoshida_2006]\] \[[Tokugawa et al 2008][research_tokugawa_2008]\] \[[Tokugawa et al 2026][research_tokugawa_2026]\] \[[Tracy et al 2002][research_tracy_sturdza_2002]\] \[[Twiss et al 2019][research_twiss_colletti_2019]\] \[[Vandam 1986][research_vandam_1986]\] \[[Vermeersch et al 2015][research_vermeersch_2015]\] \[[Von Doenhoff 1941][research_von_doenhoff_1941]\] \[[Von Doenhoff 1944][research_von_doenhoff_1944]\] \[[Waggoner et al 1987][research_waggoner_campbell_1987]\] \[[Wang and Guo 2022][research_wang_guo_2022]\] \[[Wang et al 2019][research_wang_2019]\] \[[Wang et al 2020][research_wang_2020]\] \[[Wentz et al 1984][research_wentz_1984]\] \[[Wentz et al 1985][research_wentz_1985]\] \[[Wylie et al 2021][research_wylie_zhao_2021]\] \[[Xiong et al 2018][research_xiong_tao_2018]\] \[[Xu and Kroo 2014][research_xu_kroo_2014]\] \[[Xu et al 2018][research_xu_2018]\] \[[Xu et al 2019][research_xu_han_2019]\] \[[Xu et al 2021][research_xu_2021]\] \[[Yan et al 2023][research_yan_2023]\] \[[Yang et al 2021][research_yang_2021]\] \[[Yang et al 2022][research_yang_2022_4]\] \[[Yao et al 2021][research_yao_2021]\] \[[Young and Booth 1951][research_young_booth_1951]\] \[[Zakharin and Wygnanski 2008][research_zakharin_wygnanski_2008]\] \[[Zalovcik 1945][research_zalovcik_1945]\] \[[Zauner and Sandham 2020][research_zauner_sandham_2020]\] \[[Zauner et al 2023][research_zauner_2023]\] \[[Zhang and Deng 2025][research_zhang_deng_2025]\] \[[Zhang et al 2015][research_zhang_2015]\] \[[Zhang et al 2022][research_zhang_2022]\] \[[Zhang et al 2023][research_zhang_2023]\] \[[Zhao et al 2014][research_zhao_gao_2014]\] \[[Zhao et al 2015][research_zhao_chen_2015]\] \[[Zhao et al 2017][research_zhao_gao_2017]\] \[[Zhong and Li 2017][research_zhong_li_2017]\] \[[Zhu et al 2019][research_zhu_2019]\]
+**200 records.** \[[Cella et al 2010][research_cella_2010]\] \[[Coder et al 2014][research_coder_2014]\] \[[Kerschen 1987][research_kerschen_1987]\] \[[McCullough and Gault 1950][research_mccullough_gault_1950]\] \[[Somers 2012][research_somers_2012]\] \[[Tufts et al 2014][research_tufts_2014]\] \[[Ueda et al 2014][research_ueda_2014]\] \[[Venkatachari et al 2021][research_balaji_shankar_venkatachari_2021]\] \[[Barnwell and Hussaini 1992][research_barnwell_hussaini_1992]\] \[[Befus et al 1987][research_befus_nelson_1987]\] \[[Belisle et al 2012][research_belisle_roberts_2012]\] \[[Bell and Cornelius 1987][research_bell_cornelius_1987]\] \[[Bidwell 1991][research_bidwell_1991]\] \[[Bozeman et al 2024][research_bozeman_campbell_2024]\] \[[Bragg and Gregorek 1989][research_bragg_gregorek_1989]\] \[[Braun et al 2011][research_braun_wicke_2011]\] \[[Campbell and Lynde 2017][research_campbell_lynde_2017]\] \[[Campbell et al 1986][research_campbell_waggoner_1986]\] \[[Carmichael 1979][research_carmichael_1979]\] \[[Cebeci and Smith 1968][research_cebeci_smith_1968]\] \[[Chakraborty et al 2022][research_chakraborty_2022]\] \[[Chen and Tang 2017][research_chen_tang_2017]\] \[[Chen et al 2023][research_chen_2023]\] \[[Chen et al 2023][research_chen_2023_2]\] \[[Clayton][research_clayton]\] \[[Coder 2020][research_coder_2020]\] \[[Coder 2021][research_coder_2021]\] \[[Coder 2026][research_coder_2026]\] \[[Coder and Somers 2020][research_coder_somers_2020]\] \[[Collazo Garcia and Ansell 2018][research_collazogarcia_ansell_2018]\] \[[Collazo Garcia and Ansell 2019][research_collazo_garcia_ansell_2019]\] \[[Colletti et al 2021][research_colletti_shmilovich_2021]\] \[[Coutu et al 2011][research_coutu_brailovski_2011]\] \[[Somers and Maughmer 2022][research_dan_m_somers_mark_d_maughmer_2022]\] \[[de Rosa and Donelli 2020][research_de_rosa_donelli_2020]\] \[[Deng et al 2026][research_deng_2026]\] \[[Djeddi and Ekici 2024][research_djeddi_ekici_2024]\] \[[Dodbele 1992][research_dodbele_1992]\] \[[Dodbele et al 1986][research_dodbele_1986]\] \[[Fan et al 2017][research_fan_song_2017]\] \[[Fan et al 2021][research_fan_2021]\] \[[Fehrs and Kaiser 2025][research_fehrs_kaiser_2025]\] \[[Frederick et al 2014][research_frederick_2014]\] \[[Fuhrmann 1993][research_fuhrmann_1993]\] \[[Fujino 2002][research_fujino_2002]\] \[[Fujino et al 2003][research_fujino_yoshizaki_2003]\] \[[Garzon and Matisheck 2012][research_garzon_matisheck_2012]\] \[[Garzon et al 2014][research_garzon_matisheck_2014]\] \[[Gibson and Gerhardt 1995][research_gibson_gerhardt_1995]\] \[[Gopalarathnam and Selig 2001][research_gopalarathnam_selig_2001]\] \[[Gratzer 1990][research_gratzer_1990]\] \[[Guha and Sengupta 2025][research_guha_sengupta_2025]\] \[[Haines 1957][research_haines_1957]\] \[[Hammer and Shumway 2026][research_hammer_shumway_2026]\] \[[Han et al 2016][research_han_chen_2016]\] \[[Han et al 2018][research_han_2018]\] \[[Hansman and Barsotti 1985][research_hansman_barsotti_1985]\] \[[Hart et al 2026][research_hart_borden_2026]\] \[[Hastings et al 1986][research_hastings_schoenster_1986]\] \[[Hastings et al 1987][research_hastings_1987]\] \[[Helm et al 2023][research_helm_2023]\] \[[Hiller et al 2025][research_hiller_campbell_2025]\] \[[Holmes 1984][research_holmes_1984_b]\] \[[Holmes 1985][research_holmes_1985_b]\] \[[Holmes and Obara 1982][research_holmes_obara_1982]\] \[[Holmes and Obara 1992][research_holmes_obara_1992]\] \[[Holmes et al 1983][research_holmes_1983]\] \[[Holmes et al 1984][research_holmes_1984]\] \[[Holmes et al 1985][research_holmes_1985]\] \[[Holmes et al 1986][research_holmes_croom_1986]\] \[[Holt 1943][research_holt_1943]\] \[[Horstmann et al 1990][research_horstmann_redeker_1990]\] \[[Hosseinverdi and Fasel 2023][research_hosseinverdi_fasel_2023]\] \[[Ide et al 2012][research_ide_yoshida_2012]\] \[[Ishida et al 2026][research_ishida_2026]\] \[[Ishikawa et al 2017][research_ishikawa_ueda_2017]\] \[[Iuliano et al 2011][research_iuliano_2011]\] \[[Hefner and Sabo 1987][research_jerry_n_hefner_frances_e_sabo_1987]\] \[[Karpuk and Elham 2023][research_karpuk_elham_2023]\] \[[Keller 2019][research_keller_2019]\] \[[Kolesar 1987][research_kolesar_1987]\] \[[Krishnan et al][research_krishnan_mukund]\] \[[Krumbein et al 2022][research_krumbein_2022]\] \[[Laflin and Papadakis 2001][research_laflin_papadakis_2001]\] \[[Lamb et al 1985][research_lamb_aabeyounis_1985]\] \[[Lamb et al 1986][research_lamb_abeyounis_1986]\] \[[Lampropoulos et al 2025][research_lampropoulos_2025]\] \[[Li and Zhong 2016][research_li_zhong_2016]\] \[[Li et al 2020][research_li_2020]\] \[[Lin et al 2011][research_lin_robinson_2011]\] \[[Low Drag Airfoil Design 1980][research_low_drag_1980]\] \[[Lynde and Campbell 2016][research_lynde_campbell_2016]\] \[[Lynde and Campbell 2017][research_lynde_campbell_2017]\] \[[Lynde et al 2021][research_lynde_campbell_2021]\] \[[Ma et al 2023][research_ma_2023]\] \[[Malik et al 2013][research_malik_liao_2013]\] \[[Malik et al 2015][research_malik_2015]\] \[[Manning and Kroo 1999][research_manning_kroo_1999]\] \[[Maughmer et al 2018][research_maughmer_coder_2018]\] \[[Maughmer et al 2025][research_maughmer_2025]\] \[[McCullough and Gault 1947][research_mccullough_gault_1947]\] \[[McCullough and Gault 1948][research_mccullough_gault_1948]\] \[[Medina et al 2009][research_medina_early_2009]\] \[[Methel et al 2025][research_methel_2025]\] \[[Metkowski and Maughmer 2021][research_metkowski_maughmer_2021]\] \[[Metkowski and Maughmer 2023][research_metkowski_maughmer_2023]\] \[[Bright et al 2020][research_michellembright_stevekomadina_2020]\] \[[Moniripiri et al 2023][research_moniripiri_brito_2023]\] \[[Montoya et al 1981][research_montoya_1981]\] \[[Mount and Millman 1985][research_mount_millman_1985]\] \[[Murri et al 1987][research_murri_mcghee_1987]\] \[[Natural laminar flow airfoil 1979][research_natural_laminar_1979]\] \[[Negi et al 2018][research_negi_hanifi_2018]\] \[[Nie et al 2025][research_nie_2025]\] \[[Obara et al 1986][research_obara_hastings_1986]\] \[[Ortiz-Melendez et al 2020][research_ortizmelendez_long_2020]\] \[[Ortiz-Melendez et al 2022][research_ortiz_melendez_2022]\] \[[Paredes et al][research_pedro_paredes]\] \[[Peltzer and Nitsche 2004][research_peltzer_nitsche_2004]\] \[[Pfenninger and Vemuru 1989][research_pfenninger_vemuru_1989]\] \[[Pfenninger et al 1986][research_pfenninger_vemuru_1986]\] \[[Placek and Ruchała 2018][research_placek_ruchaa_2018]\] \[[Quagliarella and Iuliano 2017][research_quagliarella_iuliano_2017]\] \[[Quagliarella and Iuliano 2018][research_quagliarella_iuliano_2018]\] \[[Quast et al 1990][research_quast_henke_1990]\] \[[Quinn 1944][research_quinn_1944]\] \[[Quinn 1947][research_quinn_1947]\] \[[Quinn 1947][research_quinn_1947_2]\] \[[Radespiel et al 1989][research_radespiel_horstmann_1989]\] \[[Redeker and Wichmann 1988][research_redeker_wichmann_1988]\] \[[Redeker et al 1990][research_redeker_horstmann_1990]\] \[[Reeh and Tropea 2015][research_reeh_tropea_2015]\] \[[Riedel and Sitzmann 1997][research_riedel_sitzmann_1997]\] \[[Riedel et al 1998][research_riedel_horstmann_1998]\] \[[Riedel et al 1998][research_riedel_ronzheimer_1998]\] \[[Rizzetta and Garmann 2025][research_rizzetta_garmann_2025]\] \[[Rizzetta and Visbal 2016][research_rizzetta_visbal_2016]\] \[[Rizzetta and Visbal 2016][research_rizzetta_visbal_2016_c]\] \[[Roberts et al 2012][research_roberts_reed_2012]\] \[[Roberts et al 2015][research_roberts_2015]\] \[[Runyan et al 1987][research_runyan_bielak_1987]\] \[[Sabater et al 2022][research_sabater_2022]\] \[[Sakakibara et al 2021][research_sakakibara_nimura_2021]\] \[[Sapuppo and Archer 1982][research_sapuppo_archer_1982]\] \[[Selig et al 1995][research_selig_maughmer_1995]\] \[[Sengupta et al 2021][research_sengupta_2021]\] \[[Shi et al 2021][research_shi_2021]\] \[[Somers 1992][research_somers_1992]\] \[[Somers 2019][research_somers_2019]\] \[[Srilatha et al 1990][research_srilatha_dwarakanath_1990]\] \[[Stalewski and Sznajder 2016][research_stalewski_sznajder_2016]\] \[[Steen 1995][research_steen_1995]\] \[[Steffen et al 2024][research_steffen_2024]\] \[[Streit et al 2011][research_streit_wichmann_2011]\] \[[Streit et al 2015][research_streit_2015]\] \[[Sturdza 2007][research_sturdza_2007]\] \[[Sturdza and Rajnarayan 2014][research_sturdza_rajnarayan_2014]\] \[[Tang et al 2017][research_tang_2017]\] \[[Tang et al 2022][research_tang_2022]\] \[[Tani 1952][research_tani_1952]\] \[[Tao et al 2020][research_tao_xiong_2020]\] \[[Tokugawa and Yoshida 2006][research_tokugawa_yoshida_2006]\] \[[Tokugawa et al 2008][research_tokugawa_2008]\] \[[Tokugawa et al 2026][research_tokugawa_2026]\] \[[Tracy et al 2002][research_tracy_sturdza_2002]\] \[[Twiss et al 2019][research_twiss_colletti_2019]\] \[[Vandam 1986][research_vandam_1986]\] \[[Vermeersch et al 2015][research_vermeersch_2015]\] \[[Von Doenhoff 1941][research_von_doenhoff_1941]\] \[[Von Doenhoff 1944][research_von_doenhoff_1944]\] \[[Waggoner et al 1987][research_waggoner_campbell_1987]\] \[[Wang and Guo 2022][research_wang_guo_2022]\] \[[Wang et al 2019][research_wang_2019]\] \[[Wang et al 2020][research_wang_2020]\] \[[Wentz et al 1984][research_wentz_1984]\] \[[Wentz et al 1985][research_wentz_1985]\] \[[Wylie et al 2021][research_wylie_zhao_2021]\] \[[Xiong et al 2018][research_xiong_tao_2018]\] \[[Xu and Kroo 2014][research_xu_kroo_2014]\] \[[Xu et al 2018][research_xu_2018]\] \[[Xu et al 2019][research_xu_han_2019]\] \[[Xu et al 2021][research_xu_2021]\] \[[Yan et al 2023][research_yan_2023]\] \[[Yang et al 2021][research_yang_2021]\] \[[Yang et al 2022][research_yang_2022_4]\] \[[Yao et al 2021][research_yao_2021]\] \[[Young and Booth 1951][research_young_booth_1951]\] \[[Zakharin and Wygnanski 2008][research_zakharin_wygnanski_2008]\] \[[Zalovcik 1945][research_zalovcik_1945]\] \[[Zauner and Sandham 2020][research_zauner_sandham_2020]\] \[[Zauner et al 2023][research_zauner_2023]\] \[[Zhang and Deng 2025][research_zhang_deng_2025]\] \[[Zhang et al 2015][research_zhang_2015]\] \[[Zhang et al 2022][research_zhang_2022]\] \[[Zhang et al 2023][research_zhang_2023]\] \[[Zhao et al 2014][research_zhao_gao_2014]\] \[[Zhao et al 2015][research_zhao_chen_2015]\] \[[Zhao et al 2017][research_zhao_gao_2017]\] \[[Zhong and Li 2017][research_zhong_li_2017]\] \[[Zhu et al 2019][research_zhu_2019]\]
 
 ### The attachment line and leading-edge contamination
 
 **The problem the X-21 met first.** The swept attachment line, its stability, its contamination from the fuselage and its relaminarisation, which the article reduces to a single Reynolds number.
 
-**83 records.** \[[Arnal and Juillen 1990][research_arnal_juillen_1990]\] \[[Balakumar and Trivedi 1998][research_balakumar_trivedi_1998]\] \[[Cebeci 1974][research_cebeci_1974]\] \[[Coleman and Poll 2001][research_coleman_poll_2001]\] \[[Cooke 1962][research_cooke_1962]\] \[[Cooke and Robins 1970][research_cooke_robins_1970]\] \[[Cumpsty and Head 1967][research_cumpsty_head_1967]\] \[[Cumpsty and Head 1969][research_cumpsty_head_1969]\] \[[Cumpsty and Head 1980][research_cumpsty_head_1980]\] \[[Davey 1961][research_davey_1961]\] \[[Dietz et al 1999][research_dietz_coleman_1999]\] \[[Dimas et al 2003][research_dimas_mowli_2003]\] \[[Fedorov and Egorov 2021][research_fedorov_egorov_2021]\] \[[Flores et al 1991][research_flores_tu_1991]\] \[[Fujii and Hornung 2003][research_fujii_hornung_2003]\] \[[Gowree and Atkin 2017][research_gowree_atkin_2017]\] \[[Hall and Mackerrell 1988][research_hall_mackerrell_1988]\] \[[Hall and Malik 1986][research_hall_malik_1986]\] \[[Hall et al 1984][research_hall_1984]\] \[[Heeg][research_heeg]\] \[[Heeg and Geurts][research_heeg_geurts]\] \[[Holden and Kolly 1995][research_holden_kolly_1995]\] \[[Holmes 1991][research_holmes_1991]\] \[[Itoh 2000][research_itoh_2000]\] \[[Itoh 2000][research_itoh_2000_b]\] \[[Joslin 1996][research_joslin_1996]\] \[[Joslin 1996][research_joslin_1996_2]\] \[[Joslin 2004][research_joslin_2004]\] \[[Juillen and Arnal 1995][research_juillen_arnal_1995]\] \[[Kazakov 1990][research_kazakov_1990]\] \[[Kazakov 2002][research_kazakov_2002]\] \[[Lasseigne and Jackson 1992][research_lasseigne_jackson_1992]\] \[[Li and Choudhari 2008][research_li_choudhari_2008]\] \[[Libby and Chen 1970][research_libby_chen_1970]\] \[[Libby and Kassoy 1970][research_libby_kassoy_1970]\] \[[Lin and Malik 1994][research_lin_malik_1994]\] \[[Lin and Malik 1995][research_lin_malik_1995]\] \[[Lin and Malik 1995][research_lin_malik_1995_b]\] \[[Lin and Malik 1996][research_lin_malik_1996]\] \[[Lin and Malik 1997][research_lin_malik_1997]\] \[[Lin and Malik 1999][research_lin_malik_1999]\] \[[Liu 2019][research_liu_2019]\] \[[Mabey 1962][research_mabey_1962]\] \[[Mangalam et al 1990][research_mangalam_agarwal_1990]\] \[[Manuilovich 2017][research_manuilovich_2017]\] \[[Manuilovich 2017][research_manuilovich_2017_2]\] \[[Methel et al 2022][research_methel_mery_2022]\] \[[Naval K Agatwal et al 1992][research_naval_k_agatwal_1992]\] \[[Neyland and Filippov 2004][research_neyland_filippov_2004]\] \[[Nishizawa et al 2009][research_nishizawa_tokugawa_2009]\] \[[Obrist and Schmid 2003][research_obrist_schmid_2003]\] \[[Pfenninger and Bacon 1969][research_pfenninger_bacon_1969]\] \[[Poll 1979][research_poll_1979]\] \[[Poll 1980][research_poll_1980]\] \[[Poll 1981][research_poll_1981]\] \[[Poll 2007][research_poll_2007]\] \[[Poll and Danks 1995][research_poll_danks_1995]\] \[[Poots 1965][research_poots_1965]\] \[[Pérez et al 2012][research_perez_rodriguez_2012]\] \[[Pérez Pérez][research_perezperez]\] \[[Reed and Saric 2013][research_reed_saric_2013]\] \[[Schofield and Davey 1967][research_schofield_davey_1967]\] \[[Sengupta and Dipankar 2005][research_sengupta_dipankar_2005]\] \[[Sesterhenn and Friedrich 2004][research_sesterhenn_friedrich_2004]\] \[[Sesterhenn and Friedrich 2005][research_sesterhenn_friedrich_2005]\] \[[Sesterhenn and Friedrich 2006][research_sesterhenn_friedrich_2006]\] \[[Skuratov and Fedorov 1991][research_skuratov_fedorov_1991]\] \[[Smith 1996][research_smith_1996]\] \[[Speer et al 2004][research_speer_zhong_2004]\] \[[Theofilis 1998][research_theofilis_1998]\] \[[Theofilis and Dallmann 1997][research_theofilis_dallmann_1997]\] \[[Theofilis et al][research_theofilis_duck]\] \[[Theofilis et al 1990][research_theofilis_duck_1990]\] \[[Ustinov][research_ustinov]\] \[[Ustinov 2004][research_ustinov_2004]\] \[[van Oudheusden 2003][research_vanoudheusden_2003]\] \[[Wang et al 2017][research_wang_2017]\] \[[Wrona and Tuliszka-Sznitko 2002][research_wrona_tuliszkasznitko_2002]\] \[[Xi and Fu 2026][research_xi_fu_2026]\] \[[Xi et al 2021][research_xi_2021]\] \[[Xi et al 2025][research_xi_2025]\] \[[Yatskih et al 2016][research_yatskih_2016]\] \[[Yermolaev et al 2016][research_yermolaev_yatskih_2016]\]
+**86 records.** \[[Arnal and Juillen 1990][research_arnal_juillen_1990]\] \[[Balakumar and Trivedi 1998][research_balakumar_trivedi_1998]\] \[[Cebeci 1974][research_cebeci_1974]\] \[[Coleman and Poll 2001][research_coleman_poll_2001]\] \[[Cooke 1962][research_cooke_1962]\] \[[Cooke and Robins 1970][research_cooke_robins_1970]\] \[[Creel 1991][research_creel_1991]\] \[[Cumpsty and Head 1967][research_cumpsty_head_1967]\] \[[Cumpsty and Head 1969][research_cumpsty_head_1969]\] \[[Cumpsty and Head 1980][research_cumpsty_head_1980]\] \[[Davey 1961][research_davey_1961]\] \[[Dietz et al 1999][research_dietz_coleman_1999]\] \[[Dimas et al 2003][research_dimas_mowli_2003]\] \[[Fedorov and Egorov 2021][research_fedorov_egorov_2021]\] \[[Flores et al 1991][research_flores_tu_1991]\] \[[Fujii and Hornung 2003][research_fujii_hornung_2003]\] \[[Gowree and Atkin 2017][research_gowree_atkin_2017]\] \[[Hall and Mackerrell 1988][research_hall_mackerrell_1988]\] \[[Hall and Malik 1986][research_hall_malik_1986]\] \[[Hall et al 1984][research_hall_1984]\] \[[Heeg][research_heeg]\] \[[Heeg and Geurts][research_heeg_geurts]\] \[[Holden and Kolly 1995][research_holden_kolly_1995]\] \[[Holmes 1991][research_holmes_1991]\] \[[Itoh 2000][research_itoh_2000]\] \[[Itoh 2000][research_itoh_2000_b]\] \[[Joslin 1996][research_joslin_1996]\] \[[Joslin 1996][research_joslin_1996_2]\] \[[Joslin 2004][research_joslin_2004]\] \[[Juillen and Arnal 1995][research_juillen_arnal_1995]\] \[[Kazakov 1990][research_kazakov_1990]\] \[[Kazakov 2002][research_kazakov_2002]\] \[[Kitzinger et al 2023][research_kitzinger_2023]\] \[[Lasseigne and Jackson 1992][research_lasseigne_jackson_1992]\] \[[Li and Choudhari 2008][research_li_choudhari_2008]\] \[[Libby and Chen 1970][research_libby_chen_1970]\] \[[Libby and Kassoy 1970][research_libby_kassoy_1970]\] \[[Lin and Malik 1994][research_lin_malik_1994]\] \[[Lin and Malik 1995][research_lin_malik_1995]\] \[[Lin and Malik 1995][research_lin_malik_1995_b]\] \[[Lin and Malik 1996][research_lin_malik_1996]\] \[[Lin and Malik 1997][research_lin_malik_1997]\] \[[Lin and Malik 1999][research_lin_malik_1999]\] \[[Liu 2019][research_liu_2019]\] \[[Mabey 1962][research_mabey_1962]\] \[[Mangalam et al 1990][research_mangalam_agarwal_1990]\] \[[Manuilovich 2017][research_manuilovich_2017]\] \[[Manuilovich 2017][research_manuilovich_2017_2]\] \[[Methel et al 2022][research_methel_mery_2022]\] \[[Naval K Agatwal et al 1992][research_naval_k_agatwal_1992]\] \[[Neyland and Filippov 2004][research_neyland_filippov_2004]\] \[[Nishizawa et al 2009][research_nishizawa_tokugawa_2009]\] \[[Obrist and Schmid 2003][research_obrist_schmid_2003]\] \[[Pfenninger and Bacon 1969][research_pfenninger_bacon_1969]\] \[[Poll 1979][research_poll_1979]\] \[[Poll 1980][research_poll_1980]\] \[[Poll 1981][research_poll_1981]\] \[[Poll 1983][research_poll_1983]\] \[[Poll 2007][research_poll_2007]\] \[[Poll and Danks 1995][research_poll_danks_1995]\] \[[Poots 1965][research_poots_1965]\] \[[Pérez et al 2012][research_perez_rodriguez_2012]\] \[[Pérez Pérez][research_perezperez]\] \[[Reed and Saric 2013][research_reed_saric_2013]\] \[[Schofield and Davey 1967][research_schofield_davey_1967]\] \[[Sengupta and Dipankar 2005][research_sengupta_dipankar_2005]\] \[[Sesterhenn and Friedrich 2004][research_sesterhenn_friedrich_2004]\] \[[Sesterhenn and Friedrich 2005][research_sesterhenn_friedrich_2005]\] \[[Sesterhenn and Friedrich 2006][research_sesterhenn_friedrich_2006]\] \[[Skuratov and Fedorov 1991][research_skuratov_fedorov_1991]\] \[[Smith 1996][research_smith_1996]\] \[[Speer et al 2004][research_speer_zhong_2004]\] \[[Theofilis 1998][research_theofilis_1998]\] \[[Theofilis and Dallmann 1997][research_theofilis_dallmann_1997]\] \[[Theofilis et al][research_theofilis_duck]\] \[[Theofilis et al 1990][research_theofilis_duck_1990]\] \[[Ustinov][research_ustinov]\] \[[Ustinov 2004][research_ustinov_2004]\] \[[van Oudheusden 2003][research_vanoudheusden_2003]\] \[[Wang et al 2017][research_wang_2017]\] \[[Wrona and Tuliszka-Sznitko 2002][research_wrona_tuliszkasznitko_2002]\] \[[Xi and Fu 2026][research_xi_fu_2026]\] \[[Xi et al 2021][research_xi_2021]\] \[[Xi et al 2025][research_xi_2025]\] \[[Yatskih et al 2016][research_yatskih_2016]\] \[[Yermolaev et al 2016][research_yermolaev_yatskih_2016]\]
 
 ### Crossflow instability on swept wings and its control
 
-**The reason sweep is hostile to laminar flow.** Crossflow vortices, swept-wing transition and their control. 22 of these titles name discrete or distributed roughness elements and 11 name plasma actuators, the two means of control the article describes.
+**The reason sweep is hostile to laminar flow.** Crossflow vortices, swept-wing transition and their control. 24 of these titles name discrete or distributed roughness elements and 12 name plasma actuators, the two means of control the article describes.
 
-**185 records.** \[[Abegg et al 2000][research_abegg_bippes_2000]\] \[[Ahmed et al 1989][research_ahmed_wentz_1989]\] \[[Allison and Dagenhart 1978][research_allison_dagenhart_1978]\] \[[Allison and Dagenhart 1987][research_allison_dagenhart_1987]\] \[[Arai et al 2000][research_arai_noto_2000]\] \[[Archambaud et al 2004][research_archambaud_louis_2004]\] \[[Arnal et al 1990][research_arnal_casalis_1990]\] \[[Arnal et al 2000][research_arnal_seraudie_2000]\] \[[Azuma 1995][research_azuma_1995]\] \[[Babuev et al 1998][research_babuev_biryukov_1998]\] \[[Baranov et al 2021][research_baranov_kiselev_2021]\] \[[Belisle et al 2010][research_belisle_neale_2010]\] \[[Bertelrud et al 2000][research_bertelrud_2000]\] \[[Bippes 1990][research_bippes_1990]\] \[[Black 1952][research_black_1952]\] \[[Boiko et al 2024][research_boiko_2024]\] \[[Boiko et al 2024][research_boiko_2024_2]\] \[[Boiko et al 2025][research_boiko_borodulin_2025]\] \[[Borodulin et al 2015][research_borodulin_2015]\] \[[Borodulin et al 2016][research_borodulin_ivanov_2016]\] \[[Borodulin et al 2022][research_borodulin_2022]\] \[[Borodulin et al 2026][research_borodulin_ivanov_2026]\] \[[Botter][research_botter]\] \[[Bridges 1994][research_bridges_1994]\] \[[Bui 2013][research_bui_2013]\] \[[Bui 2015][research_bui_2015]\] \[[Carpenter et al 2008][research_carpenter_saric_2008]\] \[[Carpenter et al 2009][research_carpenter_saric_2009]\] \[[Carpenter et al 2010][research_carpenter_choudhari_2010]\] \[[Carrillo et al 1997][research_carrillo_reibert_1997]\] \[[Carter 1977][research_carter_1977]\] \[[Chernoray et al 2010][research_chernoray_dovgal_2010]\] \[[Chernyshev et al 2016][research_chernyshev_kiselev_2016]\] \[[Chuvakhov and Fedorov 2022][research_chuvakhov_fedorov_2022]\] \[[Coleman 1998][research_coleman_1998]\] \[[Cooke et al 2019][research_cooke_mughal_2019]\] \[[Crabtree 1954][research_crabtree_1954]\] \[[Cumpsty and Head 1967][research_cumpsty_head_1967_2]\] \[[Cumpsty and Head 1970][research_cumpsty_head_1970]\] \[[Dagenhart and Saric 1999][research_dagenhart_saric_1999]\] \[[Dagenhart et al 1989][research_dagenhart_1989]\] \[[Dagenhart et al 1990][research_dagenhart_saric_1990]\] \[[De Vincentiis et al 2021][research_devincentiis_henningson_2021]\] \[[Denison et al 2019][research_denison_2019]\] \[[Denison et al 2019][research_denison_garai_2019]\] \[[Dryasov et al 2016][research_dryasov_2016]\] \[[Duan et al 2013][research_duan_choudhari_2013]\] \[[Dörr and Kloker 2015][research_dorr_kloker_2015]\] \[[Dörr and Kloker 2016][research_dorr_kloker_2016]\] \[[Eppink 2023][research_eppink_2023]\] \[[Fedorov and Novikov 2023][research_fedorov_novikov_2023]\] \[[Friederich and Kloker 2011][research_friederich_kloker_2011]\] \[[Garcia et al 1995][research_garcia_tu_1995]\] \[[Govindarajan and Narasimha 2000][research_govindarajan_narasimha_2000]\] \[[Haynes and Reed 1996][research_haynes_reed_1996]\] \[[Hopkins et al 1960][research_hopkins_1960]\] \[[Hosseini et al 2013][research_hosseini_tempelmann_2013]\] \[[Hunt and Saric 2011][research_hunt_saric_2011]\] \[[Iyer et al 1992][research_iyer_spall_1992]\] \[[Janke 2001][research_janke_2001]\] \[[Eppink 2017][research_jennaleppink_2017]\] \[[Eppink et al 2015][research_jennaleppink_richardwwlezien_2015]\] \[[Jisheng and Heng 1998][research_jisheng_heng_1998]\] \[[Johnson 1988][research_johnson_1988]\] \[[Johnston 1970][research_johnston_1970]\] \[[Joslin 1995][research_joslin_1995]\] \[[Joslin and Streett 1992][research_joslin_streett_1992]\] \[[Kachanov and Tararykin 1990][research_kachanov_tararykin_1990]\] \[[Kakkar et al 2026][research_kakkar_2026]\] \[[Kirilovskiy et al 2019][research_kirilovskiy_2019]\] \[[Kloker 2008][research_kloker_2008]\] \[[Kosarev et al 2016][research_kosarev_2016]\] \[[Kotvitskii et al 2025][research_kotvitskii_2025]\] \[[Kozlov 1966][research_kozlov_1966]\] \[[Kube 2026][research_kube_2026]\] \[[Kurz and Kloker 2014][research_kurz_kloker_2014]\] \[[Kurz and Kloker 2016][research_kurz_kloker_2016]\] \[[Lekoudis 1980][research_lekoudis_1980]\] \[[Levchenko and Scherbakov 1995][research_levchenko_scherbakov_1995]\] \[[Li and Su 2025][research_li_su_2025]\] \[[Li et al 2010][research_li_choudhari_2010]\] \[[Li et al 2011][research_li_choudhari_2011_b]\] \[[Li et al 2013][research_li_wang_2013]\] \[[Lombardi et al 1996][research_lombardi_morelli_1996]\] \[[Lu and Luo 2017][research_lu_luo_2017]\] \[[Lundry 1967][research_lundry_1967]\] \[[Luo and Zhou 2000][research_luo_zhou_2000]\] \[[Mack 1980][research_mack_1980]\] \[[Mack et al 2009][research_mack_schmid_2009]\] \[[Maddalon et al 1990][research_maddalon_collier_1990]\] \[[Malik and Li 1993][research_malik_li_1993]\] \[[Malik et al 1999][research_malik_li_1999]\] \[[Manuilovich 2021][research_manuilovich_2021]\] \[[Manuilovich 2023][research_manuilovich_2023]\] \[[Denison et al 2023][research_marie_f_denison_2023]\] \[[Martin 2008][research_martin_2008]\] \[[Martin et al 2008][research_martin_carpenter_2008]\] \[[Masad 1996][research_masad_1996]\] \[[Matsuno et al 2020][research_matsuno_esaki_2020]\] \[[Meneghello et al 2015][research_meneghello_schmid_2015]\] \[[Messing and Kloker][research_messing_kloker_b]\] \[[Messing and Kloker 2004][research_messing_kloker_2004]\] \[[Messing and Kloker 2010][research_messing_kloker_2010]\] \[[Method of the Qualitative Description of the Laminar-Turbulent Transition Position on a Swept Wing in the Flow with an Elevated Degree of Free-Stream Turbulence 2020][research_method_of_2020]\] \[[Michel et al 1985][research_michel_arnal_1985]\] \[[Mistry et al 2012][research_mistry_page_2012]\] \[[Mori et al 2024][research_mori_yakeno_2024]\] \[[Mousseux et al 1989][research_mousseux_1989]\] \[[Mughal and Ashworth 2013][research_mughal_ashworth_2013]\] \[[Malik][research_mujeebrmalik]\] \[[Nakagawa et al 2023][research_nakagawa_2023]\] \[[Newman et al 1982][research_newman_anderson_1982]\] \[[Newman et al 1984][research_newman_anderson_1984]\] \[[Ng and Crouch 1999][research_ng_crouch_1999]\] \[[Nicholson et al 2019][research_nicholson_duan_2019]\] \[[Nishino and Shariff 2009][research_nishino_shariff_2009]\] \[[Niu et al 2025][research_niu_2025]\] \[[Nomura 2006][research_nomura_2006]\] \[[Novikov et al 2024][research_novikov_obraz_2024]\] \[[Owen and Frendi 2018][research_owen_frendi_2018]\] \[[Owens et al 2014][research_owens_beeler_2014]\] \[[Pate and Brillhart 1963][research_pate_brillhart_1963]\] \[[Pate and Groth 1966][research_pate_groth_1966]\] \[[Perraud et al 2003][research_perraud_moens_2003]\] \[[Pruett et al 2000][research_pruett_chang_2000]\] \[[Radeztsky et al 1992][research_radeztsky_reibert_1992]\] \[[Radeztsky et al 1993][research_radeztsky_reibert_1993]\] \[[Radeztsky et al 1995][research_radeztsky_reibert_1995]\] \[[Radeztsky et al 1999][research_radeztsky_reibert_1999]\] \[[Radzetsky et al 1994][research_radzetsky_reibert_1994]\] \[[Reed 1985][research_reed_1985]\] \[[Reed 1989][research_reed_1989]\] \[[Reed and Saric 2002][research_reed_saric_2002]\] \[[Reibert et al 1996][research_reibert_saric_1996]\] \[[Reibert et al 1997][research_reibert_saric_1997]\] \[[Rizzetta and Visbal 2016][research_rizzetta_visbal_2016_b]\] \[[Rizzetta et al 2010][research_rizzetta_visbal_2010]\] \[[Rizzetta et al 2010][research_rizzetta_visbal_2010_b]\] \[[Rizzo et al 2019][research_rizzo_serpieri_2019]\] \[[Rudenko and Ryzhkova 1968][research_rudenko_ryzhkova_1968]\] \[[Saric 1997][research_saric_1997]\] \[[Saric 1998][research_saric_1998]\] \[[Saric 2008][research_saric_2008]\] \[[Saric 2010][research_saric_2010]\] \[[Saric and Yeates 1985][research_saric_yeates_1985]\] \[[Saric et al 2015][research_saric_west_2015]\] \[[Saric et al 2019][research_saric_west_2019]\] \[[Savoshchik and Tokhunts 1974][research_savoshchik_tokhunts_1974]\] \[[Schuelein 2008][research_schuelein_2008]\] \[[Schueltke and Stumpf 2017][research_schueltke_stumpf_2017]\] \[[Sedney 1955][research_sedney_1955]\] \[[Sequeira et al 2023][research_sequeira_zoppini_2023]\] \[[Serpieri and Kotsonis 2016][research_serpieri_kotsonis_2016]\] \[[Shahriari et al 2018][research_shahriari_2018]\] \[[Thomas et al 2017][research_thomas_mughal_2017]\] \[[Three-dimensional boundary-layer transition on 1994][research_three_dimensional_boundary_layer_1994]\] \[[Tolkachev et al 2012][research_tolkachev_gorev_2012]\] \[[Tolkachev et al 2012][research_tolkachev_gorev_2012_b]\] \[[Tufts et al 2014][research_tufts_reed_2014]\] \[[Ustinov 2013][research_ustinov_2013]\] \[[Ustinov 2017][research_ustinov_2017]\] \[[Ustinov 2018][research_ustinov_2018]\] \[[Ustinov 2018][research_ustinov_2018_2]\] \[[Ustinov and Kachanov 2021][research_ustinov_kachanov_2021]\] \[[Viken et al 1990][research_viken_collier_1990]\] \[[Wang et al 1994][research_wang_herbert_1994]\] \[[Wang et al 2018][research_wang_2018]\] \[[Wang et al 2023][research_wang_2023]\] \[[Wang et al 2025][research_wang_2025]\] \[[Wang et al 2026][research_wang_tu_2026]\] \[[Warren et al 1997][research_warren_hassan_1997]\] \[[White and Saric 2000][research_white_saric_2000]\] \[[White et al 2001][research_white_saric_2001]\] \[[Xu and Wu 2022][research_xu_wu_2022]\] \[[Xu et al 2021][research_xu_he_2021]\] \[[Yadala et al 2018][research_yadala_2018]\] \[[Yadala Venkata et al 2018][research_yadalavenkata_hehner_2018]\] \[[Yakeno and Obayashi 2021][research_yakeno_obayashi_2021]\] \[[Yasuaki and Egami 1999][research_yasuaki_egami_1999]\] \[[Ye 2025][research_ye_2025]\] \[[Zhou et al 2015][research_zhou_2015]\] \[[Zhou et al 2018][research_zhou_2018]\] \[[Zoppini et al 2022][research_zoppini_2022]\] \[[Zoppini et al 2022][research_zoppini_ragni_2022]\] \[[Zoppini et al 2023][research_zoppini_michelis_2023]\]
+**223 records.** \[[Abegg et al 2000][research_abegg_bippes_2000]\] \[[Ahmed et al 1989][research_ahmed_wentz_1989]\] \[[Allison and Dagenhart 1978][research_allison_dagenhart_1978]\] \[[Allison and Dagenhart 1987][research_allison_dagenhart_1987]\] \[[Ambrosino et al 2025][research_ambrosino_2025]\] \[[Arai et al 2000][research_arai_noto_2000]\] \[[Archambaud et al 2004][research_archambaud_louis_2004]\] \[[Arnal et al 1990][research_arnal_casalis_1990]\] \[[Arnal et al 2000][research_arnal_seraudie_2000]\] \[[Azuma 1995][research_azuma_1995]\] \[[Babuev et al 1998][research_babuev_biryukov_1998]\] \[[Baranov et al 2021][research_baranov_kiselev_2021]\] \[[Belisle et al 2010][research_belisle_neale_2010]\] \[[Bertelrud et al 2000][research_bertelrud_2000]\] \[[Bippes 1990][research_bippes_1990]\] \[[Black 1952][research_black_1952]\] \[[Boiko et al 2024][research_boiko_2024]\] \[[Boiko et al 2024][research_boiko_2024_2]\] \[[Boiko et al 2025][research_boiko_borodulin_2025]\] \[[Borodulin et al 2015][research_borodulin_2015]\] \[[Borodulin et al 2016][research_borodulin_ivanov_2016]\] \[[Borodulin et al 2017][research_borodulin_2017]\] \[[Borodulin et al 2019][research_borodulin_2019]\] \[[Borodulin et al 2020][research_borodulin_2020]\] \[[Borodulin et al 2020][research_borodulin_2020_b]\] \[[Borodulin et al 2022][research_borodulin_2022]\] \[[Borodulin et al 2023][research_borodulin_2023]\] \[[Borodulin et al 2025][research_borodulin_2025]\] \[[Borodulin et al 2026][research_borodulin_2026]\] \[[Borodulin et al 2026][research_borodulin_ivanov_2026]\] \[[Botter][research_botter]\] \[[Bridges 1994][research_bridges_1994]\] \[[Bui 2013][research_bui_2013]\] \[[Bui 2015][research_bui_2015]\] \[[Carpenter et al 2008][research_carpenter_saric_2008]\] \[[Carpenter et al 2009][research_carpenter_saric_2009]\] \[[Carpenter et al 2010][research_carpenter_choudhari_2010]\] \[[Carrillo et al 1997][research_carrillo_reibert_1997]\] \[[Carter 1977][research_carter_1977]\] \[[Chen et al 2021][research_chen_2021]\] \[[Chernoray et al 2010][research_chernoray_dovgal_2010]\] \[[Chernoray et al 2013][research_chernoray_2013]\] \[[Chernyshev et al 2016][research_chernyshev_kiselev_2016]\] \[[Choi and Kim 2018][research_choi_kim_2018]\] \[[Choi and Kwon 2015][research_choi_kwon_2015]\] \[[Chuvakhov and Fedorov 2022][research_chuvakhov_fedorov_2022]\] \[[Coleman 1998][research_coleman_1998]\] \[[Cooke et al 2019][research_cooke_mughal_2019]\] \[[Crabtree 1954][research_crabtree_1954]\] \[[Craig and Saric 2015][research_craig_saric_2015]\] \[[Cumpsty and Head 1967][research_cumpsty_head_1967_2]\] \[[Cumpsty and Head 1970][research_cumpsty_head_1970]\] \[[Dagenhart 1992][research_dagenhart_1992]\] \[[Dagenhart and Saric 1999][research_dagenhart_saric_1999]\] \[[Dagenhart et al 1989][research_dagenhart_1989]\] \[[Dagenhart et al 1990][research_dagenhart_saric_1990]\] \[[De Tullio et al 2013][research_detullio_2013]\] \[[De Vincentiis et al 2021][research_devincentiis_henningson_2021]\] \[[Denison et al 2019][research_denison_2019]\] \[[Denison et al 2019][research_denison_garai_2019]\] \[[Dryasov et al 2016][research_dryasov_2016]\] \[[Duan et al 2013][research_duan_choudhari_2013]\] \[[Dörr and Kloker 2015][research_dorr_kloker_2015]\] \[[Dörr and Kloker 2016][research_dorr_kloker_2016]\] \[[Eppink 2021][research_eppink_2021]\] \[[Eppink 2023][research_eppink_2023]\] \[[Eppink and Yao 2017][research_eppink_yao_2017]\] \[[Eppink et al 2019][research_eppink_2019]\] \[[Fedorov and Novikov 2023][research_fedorov_novikov_2023]\] \[[Friederich and Kloker 2011][research_friederich_kloker_2011]\] \[[Garcia et al 1995][research_garcia_tu_1995]\] \[[Glauser et al 2014][research_glauser_2014]\] \[[Govindarajan and Narasimha 2000][research_govindarajan_narasimha_2000]\] \[[Groot et al 2026][research_groot_2026]\] \[[Haynes and Reed 1996][research_haynes_reed_1996]\] \[[Hefner and Bushnell 1980][research_hefner_bushnell_1980]\] \[[Hopkins et al 1960][research_hopkins_1960]\] \[[Hosseini et al 2013][research_hosseini_tempelmann_2013]\] \[[Hunt and Saric 2011][research_hunt_saric_2011]\] \[[Iyer and Mahesh 2013][research_iyer_mahesh_2013]\] \[[Iyer et al 1992][research_iyer_spall_1992]\] \[[Janke 2001][research_janke_2001]\] \[[Eppink 2017][research_jennaleppink_2017]\] \[[Eppink et al 2015][research_jennaleppink_richardwwlezien_2015]\] \[[Jisheng and Heng 1998][research_jisheng_heng_1998]\] \[[Johnson 1988][research_johnson_1988]\] \[[Johnston 1970][research_johnston_1970]\] \[[Joslin 1995][research_joslin_1995]\] \[[Joslin and Streett 1992][research_joslin_streett_1992]\] \[[Kachanov and Tararykin 1990][research_kachanov_tararykin_1990]\] \[[Kakkar et al 2026][research_kakkar_2026]\] \[[Kandil and El-Hady 1988][research_kandil_elhady_1988]\] \[[Kirilovskiy et al 2019][research_kirilovskiy_2019]\] \[[Kloker 2008][research_kloker_2008]\] \[[Kosarev et al 2016][research_kosarev_2016]\] \[[Kotvitskii et al 2025][research_kotvitskii_2025]\] \[[Kozlov 1966][research_kozlov_1966]\] \[[Kube 2026][research_kube_2026]\] \[[Kurz and Kloker 2014][research_kurz_kloker_2014]\] \[[Kurz and Kloker 2016][research_kurz_kloker_2016]\] \[[Lekoudis 1980][research_lekoudis_1980]\] \[[Levchenko and Scherbakov 1995][research_levchenko_scherbakov_1995]\] \[[Li and Su 2025][research_li_su_2025]\] \[[Li et al 2010][research_li_choudhari_2010]\] \[[Li et al 2011][research_li_choudhari_2011_b]\] \[[Li et al 2013][research_li_wang_2013]\] \[[Li et al 2014][research_li_2014]\] \[[Liu et al 2023][research_liu_2023_b]\] \[[Lombardi et al 1996][research_lombardi_morelli_1996]\] \[[Lu and Luo 2017][research_lu_luo_2017]\] \[[Lu et al 2026][research_lu_2026]\] \[[Lundry 1967][research_lundry_1967]\] \[[Luo and Zhou 2000][research_luo_zhou_2000]\] \[[Mack 1980][research_mack_1980]\] \[[Mack et al 2009][research_mack_schmid_2009]\] \[[Maddalon et al 1990][research_maddalon_collier_1990]\] \[[Malik and Li 1993][research_malik_li_1993]\] \[[Malik et al 1999][research_malik_li_1999]\] \[[Manuilovich 2021][research_manuilovich_2021]\] \[[Manuilovich 2023][research_manuilovich_2023]\] \[[Denison et al 2023][research_marie_f_denison_2023]\] \[[Martin 2008][research_martin_2008]\] \[[Martin et al 2008][research_martin_carpenter_2008]\] \[[Masad 1996][research_masad_1996]\] \[[Matsuno et al 2020][research_matsuno_esaki_2020]\] \[[Meneghello et al 2015][research_meneghello_schmid_2015]\] \[[Messing and Kloker][research_messing_kloker_b]\] \[[Messing and Kloker 2004][research_messing_kloker_2004]\] \[[Messing and Kloker 2010][research_messing_kloker_2010]\] \[[Method of the Qualitative Description of the Laminar-Turbulent Transition Position on a Swept Wing in the Flow with an Elevated Degree of Free-Stream Turbulence 2020][research_method_of_2020]\] \[[Michel et al 1985][research_michel_arnal_1985]\] \[[Mistry et al 2012][research_mistry_page_2012]\] \[[Moniripiri et al 2026][research_moniripiri_2026]\] \[[Mori et al 2024][research_mori_yakeno_2024]\] \[[Mousseux et al 1989][research_mousseux_1989]\] \[[Mughal and Ashworth 2013][research_mughal_ashworth_2013]\] \[[Malik][research_mujeebrmalik]\] \[[Nakagawa et al 2023][research_nakagawa_2023]\] \[[Newman et al 1982][research_newman_anderson_1982]\] \[[Newman et al 1984][research_newman_anderson_1984]\] \[[Ng and Crouch 1999][research_ng_crouch_1999]\] \[[Nicholson et al 2019][research_nicholson_duan_2019]\] \[[Nishino and Shariff 2009][research_nishino_shariff_2009]\] \[[Niu et al 2024][research_niu_2024]\] \[[Niu et al 2025][research_niu_2025]\] \[[Nomura 2006][research_nomura_2006]\] \[[Novikov et al 2024][research_novikov_obraz_2024]\] \[[Owen and Frendi 2018][research_owen_frendi_2018]\] \[[Owens et al 2014][research_owens_beeler_2014]\] \[[Pate and Brillhart 1963][research_pate_brillhart_1963]\] \[[Pate and Groth 1966][research_pate_groth_1966]\] \[[Perraud et al 2003][research_perraud_moens_2003]\] \[[Placidi et al 2023][research_placidi_2023]\] \[[Pruett et al 2000][research_pruett_chang_2000]\] \[[Radeztsky et al 1992][research_radeztsky_reibert_1992]\] \[[Radeztsky et al 1993][research_radeztsky_reibert_1993]\] \[[Radeztsky et al 1995][research_radeztsky_reibert_1995]\] \[[Radeztsky et al 1999][research_radeztsky_reibert_1999]\] \[[Radzetsky et al 1994][research_radzetsky_reibert_1994]\] \[[Reed 1985][research_reed_1985]\] \[[Reed 1989][research_reed_1989]\] \[[Reed 1991][research_reed_1991]\] \[[Reed and Saric 2002][research_reed_saric_2002]\] \[[Reibert et al 1996][research_reibert_saric_1996]\] \[[Reibert et al 1997][research_reibert_saric_1997]\] \[[Rius-Vidales and Kotsonis 2020][research_riusvidales_kotsonis_2020]\] \[[Rizzetta and Visbal 2016][research_rizzetta_visbal_2016_b]\] \[[Rizzetta et al 2010][research_rizzetta_visbal_2010]\] \[[Rizzetta et al 2010][research_rizzetta_visbal_2010_b]\] \[[Rizzo et al 2019][research_rizzo_serpieri_2019]\] \[[Romano et al 2017][research_romano_2017]\] \[[Rudenko and Ryzhkova 1968][research_rudenko_ryzhkova_1968]\] \[[Saric 1997][research_saric_1997]\] \[[Saric 1998][research_saric_1998]\] \[[Saric 2008][research_saric_2008]\] \[[Saric 2010][research_saric_2010]\] \[[Saric and Yeates 1985][research_saric_yeates_1985]\] \[[Saric et al 2015][research_saric_west_2015]\] \[[Saric et al 2019][research_saric_west_2019]\] \[[Savoshchik and Tokhunts 1974][research_savoshchik_tokhunts_1974]\] \[[Schuelein 2008][research_schuelein_2008]\] \[[Schueltke and Stumpf 2017][research_schueltke_stumpf_2017]\] \[[Sedney 1955][research_sedney_1955]\] \[[Sequeira et al 2023][research_sequeira_zoppini_2023]\] \[[Serpieri and Kotsonis 2016][research_serpieri_kotsonis_2016]\] \[[Shahriari et al 2018][research_shahriari_2018]\] \[[Soltani et al 2011][research_soltani_2011]\] \[[Spall and Malik 1992][research_spall_malik_1992]\] \[[Sun and Du 2026][research_sun_du_2026]\] \[[Thomas et al 2017][research_thomas_mughal_2017]\] \[[Three-dimensional boundary-layer transition on 1994][research_three_dimensional_boundary_layer_1994]\] \[[Tolkachev et al 2012][research_tolkachev_gorev_2012]\] \[[Tolkachev et al 2012][research_tolkachev_gorev_2012_b]\] \[[Tufts et al 2014][research_tufts_reed_2014]\] \[[Ustinov 2013][research_ustinov_2013]\] \[[Ustinov 2017][research_ustinov_2017]\] \[[Ustinov 2018][research_ustinov_2018]\] \[[Ustinov 2018][research_ustinov_2018_2]\] \[[Ustinov and Kachanov 2021][research_ustinov_kachanov_2021]\] \[[Viken et al 1990][research_viken_collier_1990]\] \[[Wang et al 1994][research_wang_herbert_1994]\] \[[Wang et al 2018][research_wang_2018]\] \[[Wang et al 2023][research_wang_2023]\] \[[Wang et al 2025][research_wang_2025]\] \[[Wang et al 2026][research_wang_tu_2026]\] \[[Warren et al 1997][research_warren_hassan_1997]\] \[[White and Saric 2000][research_white_saric_2000]\] \[[White et al 2001][research_white_saric_2001]\] \[[Wu et al 2024][research_wu_2024]\] \[[Xu and Wu 2022][research_xu_wu_2022]\] \[[Xu et al 2019][research_xu_2019]\] \[[Xu et al 2021][research_xu_he_2021]\] \[[Yadala et al 2018][research_yadala_2018]\] \[[Yadala Venkata et al 2018][research_yadalavenkata_hehner_2018]\] \[[Yakeno and Obayashi 2021][research_yakeno_obayashi_2021]\] \[[Yasuaki and Egami 1999][research_yasuaki_egami_1999]\] \[[Ye 2025][research_ye_2025]\] \[[Zhang et al 2017][research_zhang_2017]\] \[[Zhou et al 2015][research_zhou_2015]\] \[[Zhou et al 2018][research_zhou_2018]\] \[[Zoppini et al 2022][research_zoppini_2022]\] \[[Zoppini et al 2022][research_zoppini_ragni_2022]\] \[[Zoppini et al 2023][research_zoppini_michelis_2023]\]
 
 ### Roughness, waviness and surface tolerance
 
 **The tolerance the programme spent its first two years on.** Critical roughness heights, steps, gaps, waviness and the transition they cause, from the period criteria to the present.
 
-**95 records.** \[[A low-speed experimental investigation of the effect of a sandpaper type of roughness on boundary-layer transition 1959][research_a_low_speed_1959]\] \[[Atkin et al 2006][research_atkin_sunderland_2006]\] \[[Balakumar 2003][research_balakumar_2003]\] \[[Balakumar and Kegerise 2013][research_balakumar_kegerise_2013]\] \[[Beguet et al 2017][research_beguet_perraud_2017]\] \[[Bender and Drake 2006][research_bender_drake_2006]\] \[[Beratlis et al 2016][research_beratlis_2016]\] \[[Bertin et al 1981][research_bertin_1981]\] \[[Bertin et al 1996][research_bertin_stetson_1996]\] \[[Bertolotti 1993][research_bertolotti_1993]\] \[[Borodulin et al 2021][research_borodulin_ivanov_2021]\] \[[Boudreau 1978][research_boudreau_1978]\] \[[Bouslog et al 1997][research_bouslog_1997]\] \[[Braslow and Knox 1958][research_braslow_knox_1958]\] \[[Hollis 2020][research_brian_r_hollis_2020]\] \[[Clutter and Smith 1960][research_clutter_smith_1960]\] \[[Coleman et al 1989][research_coleman_1989]\] \[[Crouch et al 2015][research_crouch_2015]\] \[[de Bruin 1990][research_debruin_1990]\] \[[Dommett 1959][research_dommett_1959]\] \[[Drake et al 2005][research_drake_2005]\] \[[Dunn 1964][research_dunn_1964]\] \[[Effect of uniformly distributed roughness on turbulent skin-friction drag at supersonic speeds 1959][research_effect_of_1959]\] \[[Finishing and inspection of model surfaces for boundary-Layer-Transition tests 1959][research_finishing_and_1959]\] \[[Gibbings 1959][research_gibbings_1959]\] \[[Harris 1964][research_harris_1964]\] \[[Harvey 1975][research_harvey_1975]\] \[[Hein et al 2018][research_hein_2018]\] \[[Hildebrand et al 2020][research_hildebrand_2020]\] \[[Hollis 2017][research_hollis_2017]\] \[[Holloway and Sterrett 1963][research_holloway_sterrett_1963]\] \[[Iannuzzi 1968][research_iannuzzi_1968]\] \[[Eppink 2018][research_jennaleppink_2018]\] \[[Joseph and Diwan 2022][research_joseph_diwan_2022]\] \[[Joseph et al 2022][research_joseph_kumar_2022]\] \[[Kegerise et al 2010][research_kegerise_owens_2010]\] \[[Keller and Kloker 2015][research_keller_kloker_2015]\] \[[Kendall 1982][research_kendall_1982]\] \[[Kerho and Bragg 1995][research_kerho_bragg_1995]\] \[[Khotyanovsky and Kudryavtsev 2016][research_khotyanovsky_kudryavtsev_2016]\] \[[Klebanoff 1966][research_klebanoff_1966]\] \[[Klebanoff and Tidstrom 1972][research_klebanoff_tidstrom_1972]\] \[[Kozlov 1968][research_kozlov_1968]\] \[[Kozlov et al 2009][research_kozlov_zverkov_2009]\] \[[Kubota and Berg 1977][research_kubota_berg_1977]\] \[[Leventhal and Reshotko 1981][research_leventhal_reshotko_1981]\] \[[Li et al 2009][research_li_choudhari_2009]\] \[[Lyons et al 1962][research_lyons_1962]\] \[[Ma and Mahesh 2023][research_ma_mahesh_2023]\] \[[Maddalon and McMillin 1983][research_maddalon_mcmillin_1983]\] \[[Mačák and Fürst 2023][research_macak_furst_2023]\] \[[McCAULEY et al 1966][research_mccauley_1966]\] \[[Choudhari et al 2018][research_meelan_choudhari_2018]\] \[[Merkle et al 1974][research_merkle_1974]\] \[[Mishriky and Walsh 2018][research_mishriky_walsh_2018]\] \[[Morrisette et al 1986][research_morrisette_creel_1986]\] \[[Nagamatsu et al 1964][research_nagamatsu_1964]\] \[[Obara and Holmes 1986][research_obara_holmes_1986]\] \[[Pate 1970][research_pate_1970]\] \[[Phinney and Baltakis 1974][research_phinney_baltakis_1974]\] \[[Pinson and Wang 1999][research_pinson_wang_1999]\] \[[Potter and Whitfield 1961][research_potter_whitfield_1961]\] \[[Potter and Whitfield 1962][research_potter_whitfield_1962]\] \[[Potter and Whitfield 1964][research_potter_whitfield_1964]\] \[[Prieto Rueda][research_prietorueda]\] \[[Pérez et al 2015][research_perez_2015]\] \[[Qadri and Schmid 2017][research_qadri_schmid_2017]\] \[[Radespiel et al 2018][research_radespiel_2018]\] \[[Reda et al 2012][research_reda_2012]\] \[[Review of the effect of distributed surface roughness on boundary-layer transition 1962][research_review_of_1962]\] \[[Schneider and Beckwith 1992][research_schneider_beckwith_1992]\] \[[Schwartzberg and Braslow 1952][research_schwartzberg_braslow_1952]\] \[[Smith and Clutter 1959][research_smith_clutter_1959]\] \[[Spaid 1969][research_spaid_1969]\] \[[Stewart and Simpson 2005][research_stewart_simpson_2005]\] \[[Stüer et al 2000][research_stuer_gyr_2000]\] \[[Suryanarayanan et al 2017][research_suryanarayanan_goldstein_2017]\] \[[Swigart 1972][research_swigart_1972]\] \[[Tani 1961][research_tani_1961]\] \[[Tani and Hama 1953][research_tani_hama_1953]\] \[[Thompson 1970][research_thompson_1970]\] \[[Transonic flight test of 1994][research_transonic_flight_1994]\] \[[Van Driest and Blumer 1961][research_van_driest_blumer_1961]\] \[[Van Driest and McCAULEY 1960][research_van_driest_mccauley_1960]\] \[[Von Doenhoff and Braslow 1961][research_vondoenhoff_braslow_1961]\] \[[White 2005][research_white_2005]\] \[[White and Reshotko 2008][research_white_reshotko_2008]\] \[[Whitfield and Iannuzzi 1969][research_whitfield_iannuzzi_1969]\] \[[Wie and Malik 1998][research_wie_malik_1998]\] \[[Wilder et al 2015][research_wilder_2015]\] \[[Young 1965][research_young_1965]\] \[[Zahn and Rist 2016][research_zahn_rist_2016]\] \[[Zhao and Dong 2020][research_zhao_dong_2020]\] \[[Zheng et al 2026][research_zheng_2026]\] \[[Zhong 2009][research_zhong_2009]\]
+**112 records.** \[[A low-speed experimental investigation of the effect of a sandpaper type of roughness on boundary-layer transition 1959][research_a_low_speed_1959]\] \[[Al-Malki et al 2022][research_almalki_2022]\] \[[Atkin et al 2006][research_atkin_sunderland_2006]\] \[[Balakumar 2003][research_balakumar_2003]\] \[[Balakumar and Kegerise 2013][research_balakumar_kegerise_2013]\] \[[Bandettini and Isler 1959][research_bandettini_isler_1959]\] \[[Beguet et al 2017][research_beguet_perraud_2017]\] \[[Bender and Drake 2006][research_bender_drake_2006]\] \[[Beratlis et al 2016][research_beratlis_2016]\] \[[Bertin et al 1981][research_bertin_1981]\] \[[Bertin et al 1996][research_bertin_stetson_1996]\] \[[Bertolotti 1993][research_bertolotti_1993]\] \[[Borodulin et al 2021][research_borodulin_ivanov_2021]\] \[[Boudreau 1978][research_boudreau_1978]\] \[[Bouslog et al 1997][research_bouslog_1997]\] \[[Braslow and Knox 1958][research_braslow_knox_1958]\] \[[Cebeci and Smith 1968][research_cebeci_smith_1968_b]\] \[[Dimond et al 2019][research_dimond_2019]\] \[[He et al 2018][research_he_2018]\] \[[Hollis 2020][research_brian_r_hollis_2020]\] \[[Clutter and Smith 1960][research_clutter_smith_1960]\] \[[Coleman et al 1989][research_coleman_1989]\] \[[Crouch et al 2015][research_crouch_2015]\] \[[de Bruin 1990][research_debruin_1990]\] \[[Dommett 1959][research_dommett_1959]\] \[[Drake et al 2005][research_drake_2005]\] \[[Dunn 1964][research_dunn_1964]\] \[[Effect of uniformly distributed roughness on turbulent skin-friction drag at supersonic speeds 1959][research_effect_of_1959]\] \[[Finishing and inspection of model surfaces for boundary-Layer-Transition tests 1959][research_finishing_and_1959]\] \[[Gibbings 1959][research_gibbings_1959]\] \[[Harris 1964][research_harris_1964]\] \[[Harvey 1975][research_harvey_1975]\] \[[Hein et al 2018][research_hein_2018]\] \[[Hildebrand et al 2020][research_hildebrand_2020]\] \[[Hollis 2017][research_hollis_2017]\] \[[Holloway and Sterrett 1963][research_holloway_sterrett_1963]\] \[[Hosseini et al 2015][research_hosseini_2015]\] \[[Iannuzzi 1968][research_iannuzzi_1968]\] \[[Eppink 2018][research_jennaleppink_2018]\] \[[James 1959][research_james_1959]\] \[[Joseph and Diwan 2022][research_joseph_diwan_2022]\] \[[Joseph et al 2022][research_joseph_kumar_2022]\] \[[Kegerise et al 2010][research_kegerise_owens_2010]\] \[[Keller and Kloker 2015][research_keller_kloker_2015]\] \[[Kendall 1982][research_kendall_1982]\] \[[Kerho and Bragg 1995][research_kerho_bragg_1995]\] \[[Khotyanovsky and Kudryavtsev 2016][research_khotyanovsky_kudryavtsev_2016]\] \[[Klebanoff 1966][research_klebanoff_1966]\] \[[Klebanoff and Tidstrom 1972][research_klebanoff_tidstrom_1972]\] \[[Kozlov 1968][research_kozlov_1968]\] \[[Kozlov et al 2009][research_kozlov_zverkov_2009]\] \[[Kubota and Berg 1977][research_kubota_berg_1977]\] \[[Leventhal and Reshotko 1981][research_leventhal_reshotko_1981]\] \[[Li et al 2009][research_li_choudhari_2009]\] \[[Lyons et al 1962][research_lyons_1962]\] \[[Ma and Mahesh 2023][research_ma_mahesh_2023]\] \[[Maddalon and McMillin 1983][research_maddalon_mcmillin_1983]\] \[[Mačák and Fürst 2023][research_macak_furst_2023]\] \[[McCAULEY et al 1966][research_mccauley_1966]\] \[[Choudhari et al 2018][research_meelan_choudhari_2018]\] \[[McCroskey 1969][research_mccroskey_1969]\] \[[Merkle et al 1974][research_merkle_1974]\] \[[Mishriky and Walsh 2018][research_mishriky_walsh_2018]\] \[[Mochizuki 1961][research_mochizuki_1961]\] \[[Morrisette et al 1986][research_morrisette_creel_1986]\] \[[Nagamatsu et al 1964][research_nagamatsu_1964]\] \[[Obara and Holmes 1986][research_obara_holmes_1986]\] \[[Pate 1970][research_pate_1970]\] \[[Pate 1971][research_pate_1971]\] \[[Peterson and Horton 1959][research_peterson_horton_1959]\] \[[Phinney and Baltakis 1974][research_phinney_baltakis_1974]\] \[[Pinson and Wang 1999][research_pinson_wang_1999]\] \[[Potter and Whitfield 1961][research_potter_whitfield_1961]\] \[[Potter and Whitfield 1962][research_potter_whitfield_1962]\] \[[Potter and Whitfield 1964][research_potter_whitfield_1964]\] \[[Prieto Rueda][research_prietorueda]\] \[[Pérez et al 2015][research_perez_2015]\] \[[Qadri and Schmid 2017][research_qadri_schmid_2017]\] \[[Radespiel et al 2018][research_radespiel_2018]\] \[[Reda et al 2012][research_reda_2012]\] \[[Review of the effect of distributed surface roughness on boundary-layer transition 1962][research_review_of_1962]\] \[[Rius-Vidales and Kotsonis 2022][research_riusvidales_kotsonis_2022]\] \[[Rizzetta and Visbal 2015][research_rizzetta_visbal_2015]\] \[[Rizzetta and Visbal 2015][research_rizzetta_visbal_2015_b]\] \[[Schneider and Beckwith 1992][research_schneider_beckwith_1992]\] \[[Schwartzberg and Braslow 1952][research_schwartzberg_braslow_1952]\] \[[Smith and Clutter 1959][research_smith_clutter_1959]\] \[[Spaid 1969][research_spaid_1969]\] \[[Stewart and Simpson 2005][research_stewart_simpson_2005]\] \[[Stüer et al 2000][research_stuer_gyr_2000]\] \[[Suryanarayanan et al 2017][research_suryanarayanan_goldstein_2017]\] \[[Swigart 1972][research_swigart_1972]\] \[[Tani 1961][research_tani_1961]\] \[[Tani and Hama 1953][research_tani_hama_1953]\] \[[Tani and Sato 1956][research_tani_sato_1956]\] \[[Thompson 1970][research_thompson_1970]\] \[[Transonic flight test of 1994][research_transonic_flight_1994]\] \[[Van Driest and Blumer 1961][research_van_driest_blumer_1961]\] \[[Van Driest and Blumer 1968][research_vandriest_blumer_1968]\] \[[Van Driest and McCAULEY 1960][research_van_driest_mccauley_1960]\] \[[Van Driest et al 1967][research_vandriest_1967]\] \[[Von Doenhoff and Braslow 1961][research_vondoenhoff_braslow_1961]\] \[[White 2005][research_white_2005]\] \[[White and Reshotko 2008][research_white_reshotko_2008]\] \[[Whitfield and Iannuzzi 1969][research_whitfield_iannuzzi_1969]\] \[[Wie and Malik 1998][research_wie_malik_1998]\] \[[Wilder et al 2015][research_wilder_2015]\] \[[Young 1965][research_young_1965]\] \[[Zahn and Rist 2016][research_zahn_rist_2016]\] \[[Zhao and Dong 2020][research_zhao_dong_2020]\] \[[Zheng et al 2026][research_zheng_2026]\] \[[Zhong 2009][research_zhong_2009]\]
 
 ### Turbulent spots and wedges
 
@@ -593,7 +593,7 @@ Riblets and their successors do not prevent turbulence. They reduce the friction
 
 **The theory behind everything else.** Linear and nonlinear stability, receptivity, transition prediction and active transition control in two-dimensional and high-speed boundary layers.
 
-**225 records.** \[[Algaidy and El Shrif 2023][research_algaidy_el_shrif_2023]\] \[[Antunes Dantas][research_antunesdantas]\] \[[Asai et al 1997][research_asai_kanda_1997]\] \[[Venkatachari et al 2021][research_balajishankarvenkatachari_pedroparedes_2021]\] \[[Balakumar 2005][research_balakumar_2005]\] \[[Banner et al 1958][research_banner_1958]\] \[[Blackwell 1968][research_blackwell_1968]\] \[[Blackwell 1969][research_blackwell_1969]\] \[[Bloom 1951][research_bloom_1951]\] \[[Bloom 1952][research_bloom_1952]\] \[[Bloom 1954][research_bloom_1954]\] \[[Bloxsom 1965][research_bloxsom_1965]\] \[[Boltz et al 1960][research_boltz_1960]\] \[[Boundary layer receptivity, stability][research_boundary_layer]\] \[[Bradfield et al 1954][research_bradfield_1954]\] \[[Braslow 1966][research_braslow_1966]\] \[[Bulat et al 2021][research_bulat_2021]\] \[[Bushnell et al 1988][research_bushnell_1988]\] \[[Channabasav and Hampali 2022][research_channabasav_hampali_2022]\] \[[Chapman 1961][research_chapman_1961]\] \[[Chaturvedi et al 2024][research_chaturvedi_2024]\] \[[Cheng 1953][research_cheng_1953]\] \[[Chiu and Norton 1990][research_chiu_norton_1990]\] \[[Clutter and Smith 1963][research_clutter_smith_1963]\] \[[Collier et al 1987][research_collier_johnson_1987]\] \[[Craik 1980][research_craik_1980]\] \[[Creel et al 1987][research_creel_beckwith_1987]\] \[[Crouch 2021][research_crouch_2021]\] \[[Damaren 2018][research_damaren_2018]\] \[[Damaren 2023][research_damaren_2023]\] \[[Demetriades 1958][research_demetriades_1958]\] \[[Demetriades 1977][research_demetriades_1977]\] \[[Demetriades 1985][research_demetriades_1985]\] \[[Doyle 2001][research_doyle_2001]\] \[[Drake et al 1994][research_drake_kennelly_1994]\] \[[Duchmann et al 2014][research_duchmann_2014]\] \[[Durante et al 2024][research_durante_2024]\] \[[Dörr and Kloker 2017][research_dorr_kloker_2017]\] \[[Effects of extreme surface cooling on boundary layer transition 1958][research_effects_of_1958]\] \[[Egorov and Novikov 2016][research_egorov_novikov_2016]\] \[[Egorov and Palchekovskaya 2025][research_egorov_palchekovskaya_2025]\] \[[Egorov et al 2017][research_egorov_2017]\] \[[Egorov et al 2018][research_egorov_2018]\] \[[Egorov et al 2021][research_egorov_2021]\] \[[Egorov et al 2022][research_egorov_2022]\] \[[Egorov et al 2024][research_egorov_2024]\] \[[Egorov et al 2026][research_egorov_2026]\] \[[Esaki et al 2018][research_esaki_2018]\] \[[Evstigneev and Magnitskii 2020][research_evstigneev_magnitskii_2020]\] \[[Fasel 1990][research_fasel_1990]\] \[[Fasel 2000][research_fasel_2000]\] \[[Fedorov 1985][research_fedorov_1985]\] \[[Fedorov 2015][research_fedorov_2015]\] \[[Flight survey of the 1987][research_flight_survey_1987]\] \[[Freeman 1935][research_freeman_1935]\] \[[Freymuth 1966][research_freymuth_1966]\] \[[Gan 2022][research_gan_2022]\] \[[Gan 2023][research_gan_2023]\] \[[Gaponov and Smorodsky 2000][research_gaponov_smorodsky_2000]\] \[[Garaev 2017][research_garaev_2017]\] \[[Garbaruk et al 2021][research_garbaruk_2021]\] \[[Gaudet 1990][research_gaudet_1990]\] \[[GKN Aerospace helps improve aircraft laminar flow 2016][research_gkn_aerospace_2016]\] \[[Gogineni 2014][research_gogineni_2014]\] \[[Goldstein and Sescu 2008][research_goldstein_sescu_2008]\] \[[Grabe et al 2018][research_grabe_2018]\] \[[Grigor’ev and Ershov 2019][research_grigorev_ershov_2019]\] \[[Guo and Kloker 2020][research_guo_kloker_2020]\] \[[Görtler and Velte 1967][research_gortler_velte_1967]\] \[[Hall and Smith 1988][research_hall_smith_1988]\] \[[Hall and Smith 1989][research_hall_smith_1989]\] \[[Hammachi][research_hammachi]\] \[[Han and Cao 2019][research_han_cao_2019]\] \[[Hanks 1969][research_hanks_1969]\] \[[He et al 2019][research_he_2019]\] \[[Henderson and Maddalon 1967][research_henderson_maddalon_1967]\] \[[High Efficiency from Wing 1985][research_high_efficiency_1985]\] \[[Holman and Fürst 2021][research_holman_furst_2021]\] \[[Holmes 1986][research_holmes_1986]\] \[[Hopkins and Keener 1968][research_hopkins_keener_1968]\] \[[Horstmann 2008][research_horstmann_2008]\] \[[Horstmann et al 1990][research_horstmann_quast_1990]\] \[[Hosseinverdi and Fasel 2018][research_hosseinverdi_fasel_2018]\] \[[Introduction to the Special Section on Hypersonic Boundary-Layer Transition Prediction 2019][research_introduction_to_2019]\] \[[Iyer and Spall 1991][research_iyer_spall_1991]\] \[[Jahanbakhshi and Zaki 2019][research_jahanbakhshi_zaki_2019]\] \[[Jiang 2026][research_jiang_2026]\] \[[Jillie and Hopkins 1961][research_jillie_hopkins_1961]\] \[[Joussot et al 2013][research_joussot_2013]\] \[[Kanda 2019][research_kanda_2019]\] \[[Kanner and Schetz 1999][research_kanner_schetz_1999]\] \[[Khanjari et al 2023][research_khanjari_2023]\] \[[Kiley and Narsipur 2024][research_kiley_narsipur_2024]\] \[[Kim et al 2025][research_kim_2025]\] \[[Kimmel et al 2015][research_kimmel_borg_2015]\] \[[Kline et al 2019][research_kline_chang_2019]\] \[[Kobashi and Hayakawa 1980][research_kobashi_hayakawa_1980]\] \[[Kohama et al 2000][research_kohama_alfredsson_2000]\] \[[Korotkin 1966][research_korotkin_1966]\] \[[Korotkin 1966][research_korotkin_1966_2]\] \[[Kroo 2008][research_kroo_2008]\] \[[Kudryavtsev and Khotyanovsky 2019][research_kudryavtsev_khotyanovsky_2019]\] \[[Cutrone et al][research_l_cutrone]\] \[[LaGraff 2007][research_lagraff_2007]\] \[[Landahl 1962][research_landahl_1962]\] \[[Landahl 1990][research_landahl_1990]\] \[[Lange and Gieseler 1953][research_lange_gieseler_1953]\] \[[Lauchie and Park 2000][research_lauchie_park_2000]\] \[[Laufer and Vrebalovich 1960][research_laufer_vrebalovich_1960]\] \[[Lee 1953][research_lee_1953]\] \[[Lee 1954][research_lee_1954]\] \[[Leehey and Shapiro 1980][research_leehey_shapiro_1980]\] \[[Lees 1956][research_lees_1956]\] \[[Lees and Reshotko 1962][research_lees_reshotko_1962]\] \[[Leslie M Mack 1984][research_leslie_m_mack_1984]\] \[[Lessen 1953][research_lessen_1953]\] \[[Li and Choudhari 2011][research_li_choudhari_2011]\] \[[Lipatov and Ustinov 2018][research_lipatov_ustinov_2018]\] \[[Lohse et al 2016][research_lohse_2016]\] \[[Low 1955][research_low_1955]\] \[[Low 1956][research_low_1956]\] \[[Lyons et al 1961][research_lyons_1961]\] \[[Lysenko 1995][research_lysenko_1995]\] \[[Mack 1967][research_mack_1967]\] \[[Malik et al 2007][research_malik_li_2007]\] \[[Mangiarotty 1981][research_mangiarotty_1981]\] \[[Mankbadi 1992][research_mankbadi_1992]\] \[[Manuel and Doty 1990][research_manuel_doty_1990]\] \[[Martín and Paredes 2021][research_martin_paredes_2021]\] \[[Maslennikova and Zelman 1985][research_maslennikova_zelman_1985]\] \[[Mason and Gatlin 2015][research_mason_gatlin_2015]\] \[[Matsuda et al 2020][research_matsuda_2020]\] \[[McElderry 1973][research_mcelderry_1973]\] \[[Choudhari et al][research_meelan_choudhari]\] \[[Choudhari et al 2016][research_meelan_choudhari_2016]\] \[[Meier and Zhou 1989][research_meier_zhou_1989]\] \[[Miró Miró 2020][research_miromiro_2020]\] \[[Moralev et al 2020][research_moralev_2020]\] \[[Moralev et al 2021][research_moralev_2021]\] \[[Moralev et al 2022][research_moralev_2022]\] \[[Morgan and Davies 2020][research_morgan_davies_2020]\] \[[Morrisette and Creel 1987][research_morrisette_creel_1987]\] \[[Nangia et al 2003][research_nangia_palmer_2003]\] \[[Nark 1963][research_nark_1963]\] \[[Nathaniel Hildebrand et al 2025][research_nathaniel_hildebrand_2025]\] \[[Nie et al 2018][research_nie_2018]\] \[[Nie et al 2022][research_nie_2022]\] \[[Nitsche and Szodruch 1993][research_nitsche_szodruch_1993]\] \[[Niu and Li 2022][research_niu_li_2022]\] \[[Niu and Su 2023][research_niu_su_2023]\] \[[Osmokrovic et al 2015][research_osmokrovic_2015]\] \[[Owens et al 2019][research_owens_beeler_2019]\] \[[Parveen and Chowdhury 1970][research_parveen_chowdhury_1970]\] \[[Pate 1980][research_pate_1980]\] \[[Pavlyuchenko et al 1985][research_pavlyuchenko_tyutin_1985]\] \[[Paredes and Choudhari 2018][research_pedro_paredes_meelan_m_choudhari_2018]\] \[[Persh 1956][research_persh_1956]\] \[[Persh 1957][research_persh_1957]\] \[[Petzold and Radespiel 2015][research_petzold_radespiel_2015]\] \[[Pisharoti and Brizzolara 2025][research_pisharoti_brizzolara_2025]\] \[[Potter 1968][research_potter_1968]\] \[[Potter 1975][research_potter_1975]\] \[[Powers et al 1963][research_powers_1963]\] \[[Probstein and Elliott 1954][research_probstein_elliott_1954]\] \[[Qin and Yu 2020][research_qin_yu_2020]\] \[[Raper 1981][research_raper_1981]\] \[[Rarata et al 2023][research_rarata_drozdz_2023]\] \[[Raspet 1957][research_raspet_1957]\] \[[Reda 1977][research_reda_1977]\] \[[Redchyts et al 2025][research_redchyts_2025]\] \[[Reed 1990][research_reed_1990]\] \[[Rioual et al 1994][research_rioual_nelson_1994]\] \[[Robison and Loth 2017][research_robison_loth_2017]\] \[[Rosenbaum 1966][research_rosenbaum_1966]\] \[[Russo and Brehm 2023][research_russo_brehm_2023]\] \[[Saeed and Graham 2015][research_saeed_graham_2015]\] \[[Saric 1998][research_saric_1998_b]\] \[[Saric 2004][research_saric_2004]\] \[[Satish et al 2017][research_satish_2017]\] \[[Schneider and Collicott 2000][research_schneider_collicott_2000]\] \[[Schrauf et al 1998][research_schrauf_perraud_1998]\] \[[Schubauer and Klebanoff 1955][research_schubauer_klebanoff_1955]\] \[[Schubauer and Skramstad 1947][research_schubauer_skramstad_1947]\] \[[Shadloo and Hadjadj 2017][research_shadloo_hadjadj_2017]\] \[[Shalaev 2018][research_shalaev_2018]\] \[[Sharma][research_sharma]\] \[[Sheetz 1965][research_sheetz_1965]\] \[[Shepherd 2014][research_shepherd_2014]\] \[[Shimmy 2026][research_shimmy_2026]\] \[[Simon et al 2015][research_simon_2015]\] \[[Skripachev 1969][research_skripachev_1969]\] \[[Smith 1990][research_smith_1990]\] \[[Song et al 2024][research_song_2024]\] \[[Sternberg 1954][research_sternberg_1954]\] \[[Struminskii 1967][research_struminskii_1967]\] \[[Su 2015][research_su_2015]\] \[[Symposium on Boundary Layer Effects in Aerodynamics 1955][research_symposium_on_1955]\] \[[Szulga et al 2015][research_szulga_2015]\] \[[Takematsu 1970][research_takematsu_1970]\] \[[Tang et al 2026][research_tang_2026]\] \[[Tani 1980][research_tani_1980]\] \[[Tatar et al 2019][research_tatar_tahani_2019]\] \[[Tatsumi 1952][research_tatsumi_1952]\] \[[Theofilis and Poll 1995][research_theofilis_poll_1995]\] \[[Toppings and Yarusevych 2023][research_toppings_yarusevych_2023]\] \[[Ustinov 2016][research_ustinov_2016]\] \[[Ustinov et al 2022][research_ustinov_2022]\] \[[Vaglio-Laurin 1978][research_vagliolaurin_1978]\] \[[van Dam and Holmes 1988][research_vandam_holmes_1988]\] \[[Van Dam et al 1993][research_vandam_vijgen_1993]\] \[[Vandam 1993][research_vandam_1993]\] \[[Vlahostergios et al 2019][research_vlahostergios_2019]\] \[[Wilcox 1979][research_wilcox_1979]\] \[[Wood 1968][research_wood_1968]\] \[[Wygnanski 1977][research_wygnanski_1977]\] \[[Xia and Chen 2016][research_xia_chen_2016]\] \[[Yan et al 2025][research_yan_2025]\] \[[Yan et al 2025][research_yan_yang_2025]\] \[[Yang and Hu 2008][research_yang_hu_2008]\] \[[Yang and Huano 1969][research_yang_huano_1969]\] \[[Yates et al 2020][research_yates_2020]\] \[[Yih et al 1952][research_yih_1952]\] \[[Zhigulev 1985][research_zhigulev_1985]\] \[[Zou and Zhong 2024][research_zou_zhong_2024]\] \[[Евстигнеев and Рябков 2016][research___2016]\]
+**260 records.** \[[Algaidy and El Shrif 2023][research_algaidy_el_shrif_2023]\] \[[Anderson and Meyer 1990][research_anderson_meyer_1990]\] \[[Anderson et al 1988][research_anderson_1988]\] \[[Antunes Dantas][research_antunesdantas]\] \[[Arnal et al 1978][research_arnal_1978]\] \[[Arumugam and Durairaj 2011][research_arumugam_durairaj_2011]\] \[[Asai et al 1997][research_asai_kanda_1997]\] \[[Azzazy et al 1985][research_azzazy_1985]\] \[[Banks et al 2012][research_banks_2012]\] \[[Berry et al 2008][research_berry_2008]\] \[[Campbell et al 2012][research_campbell_2012]\] \[[Dodbele 1990][research_dodbele_1990]\] \[[Dougherty and Fisher 1980][research_dougherty_fisher_1980]\] \[[Drake et al 1996][research_drake_1996]\] \[[Eppink et al 2023][research_eppink_2023_b]\] \[[Ferziger and Reed 1988][research_ferziger_reed_1988]\] \[[Fisher and Dougherty 1982][research_fisher_dougherty_1982]\] \[[Fisher and Dougherty 1982][research_fisher_dougherty_1982_b]\] \[[Guo et al 2022][research_guo_2022]\] \[[Holmes et al 1986][research_holmes_1986_b]\] \[[Hornung 2002][research_hornung_2002]\] \[[Hsu 1989][research_hsu_1989]\] \[[Johnson et al 1972][research_johnson_1972]\] \[[Leonard 1979][research_leonard_1979]\] \[[Li and Luo 2012][research_li_luo_2012]\] \[[Lozano-Durán et al 2018][research_lozanoduran_2018]\] \[[Marineau 2017][research_marineau_2017]\] \[[Nakagawa et al 1978][research_nakagawa_1978]\] \[[Obara and Holmes 1985][research_obara_holmes_1985]\] \[[Obara et al 1990][research_obara_1990]\] \[[Plate boundary layer transition 2023][research_plate_boundary_2023]\] \[[Poll and Paisley 1985][research_poll_paisley_1985]\] \[[Reshotko 1990][research_reshotko_1990]\] \[[Rouviere et al 2023][research_rouviere_2023]\] \[[Sohn and Reshotko 1991][research_sohn_reshotko_1991]\] \[[Venkatachari et al 2021][research_balajishankarvenkatachari_pedroparedes_2021]\] \[[Balakumar 2005][research_balakumar_2005]\] \[[Banner et al 1958][research_banner_1958]\] \[[Blackwell 1968][research_blackwell_1968]\] \[[Blackwell 1969][research_blackwell_1969]\] \[[Bloom 1951][research_bloom_1951]\] \[[Bloom 1952][research_bloom_1952]\] \[[Bloom 1954][research_bloom_1954]\] \[[Bloxsom 1965][research_bloxsom_1965]\] \[[Boltz et al 1960][research_boltz_1960]\] \[[Boundary layer receptivity, stability][research_boundary_layer]\] \[[Bradfield et al 1954][research_bradfield_1954]\] \[[Braslow 1966][research_braslow_1966]\] \[[Bulat et al 2021][research_bulat_2021]\] \[[Bushnell et al 1988][research_bushnell_1988]\] \[[Channabasav and Hampali 2022][research_channabasav_hampali_2022]\] \[[Chapman 1961][research_chapman_1961]\] \[[Chaturvedi et al 2024][research_chaturvedi_2024]\] \[[Cheng 1953][research_cheng_1953]\] \[[Chiu and Norton 1990][research_chiu_norton_1990]\] \[[Clutter and Smith 1963][research_clutter_smith_1963]\] \[[Collier et al 1987][research_collier_johnson_1987]\] \[[Craik 1980][research_craik_1980]\] \[[Creel et al 1987][research_creel_beckwith_1987]\] \[[Crouch 2021][research_crouch_2021]\] \[[Damaren 2018][research_damaren_2018]\] \[[Damaren 2023][research_damaren_2023]\] \[[Demetriades 1958][research_demetriades_1958]\] \[[Demetriades 1977][research_demetriades_1977]\] \[[Demetriades 1985][research_demetriades_1985]\] \[[Doyle 2001][research_doyle_2001]\] \[[Drake et al 1994][research_drake_kennelly_1994]\] \[[Duchmann et al 2014][research_duchmann_2014]\] \[[Durante et al 2024][research_durante_2024]\] \[[Dörr and Kloker 2017][research_dorr_kloker_2017]\] \[[Effects of extreme surface cooling on boundary layer transition 1958][research_effects_of_1958]\] \[[Egorov and Novikov 2016][research_egorov_novikov_2016]\] \[[Egorov and Palchekovskaya 2025][research_egorov_palchekovskaya_2025]\] \[[Egorov et al 2017][research_egorov_2017]\] \[[Egorov et al 2018][research_egorov_2018]\] \[[Egorov et al 2021][research_egorov_2021]\] \[[Egorov et al 2022][research_egorov_2022]\] \[[Egorov et al 2024][research_egorov_2024]\] \[[Egorov et al 2026][research_egorov_2026]\] \[[Esaki et al 2018][research_esaki_2018]\] \[[Evstigneev and Magnitskii 2020][research_evstigneev_magnitskii_2020]\] \[[Fasel 1990][research_fasel_1990]\] \[[Fasel 2000][research_fasel_2000]\] \[[Fedorov 1985][research_fedorov_1985]\] \[[Fedorov 2015][research_fedorov_2015]\] \[[Flight survey of the 1987][research_flight_survey_1987]\] \[[Freeman 1935][research_freeman_1935]\] \[[Freymuth 1966][research_freymuth_1966]\] \[[Gan 2022][research_gan_2022]\] \[[Gan 2023][research_gan_2023]\] \[[Gaponov and Smorodsky 2000][research_gaponov_smorodsky_2000]\] \[[Garaev 2017][research_garaev_2017]\] \[[Garbaruk et al 2021][research_garbaruk_2021]\] \[[Gaudet 1990][research_gaudet_1990]\] \[[Gogineni 2014][research_gogineni_2014]\] \[[Goldstein and Sescu 2008][research_goldstein_sescu_2008]\] \[[Grabe et al 2018][research_grabe_2018]\] \[[Grigor’ev and Ershov 2019][research_grigorev_ershov_2019]\] \[[Guo and Kloker 2020][research_guo_kloker_2020]\] \[[Görtler and Velte 1967][research_gortler_velte_1967]\] \[[Hall and Smith 1988][research_hall_smith_1988]\] \[[Hall and Smith 1989][research_hall_smith_1989]\] \[[Hammachi][research_hammachi]\] \[[Han and Cao 2019][research_han_cao_2019]\] \[[Hanks 1969][research_hanks_1969]\] \[[He et al 2019][research_he_2019]\] \[[Henderson and Maddalon 1967][research_henderson_maddalon_1967]\] \[[High Efficiency from Wing 1985][research_high_efficiency_1985]\] \[[Holman and Fürst 2021][research_holman_furst_2021]\] \[[Holmes 1986][research_holmes_1986]\] \[[Hopkins and Keener 1968][research_hopkins_keener_1968]\] \[[Horstmann 2008][research_horstmann_2008]\] \[[Horstmann et al 1990][research_horstmann_quast_1990]\] \[[Hosseinverdi and Fasel 2018][research_hosseinverdi_fasel_2018]\] \[[Introduction to the Special Section on Hypersonic Boundary-Layer Transition Prediction 2019][research_introduction_to_2019]\] \[[Iyer and Spall 1991][research_iyer_spall_1991]\] \[[Jahanbakhshi and Zaki 2019][research_jahanbakhshi_zaki_2019]\] \[[Jiang 2026][research_jiang_2026]\] \[[Jillie and Hopkins 1961][research_jillie_hopkins_1961]\] \[[Joussot et al 2013][research_joussot_2013]\] \[[Kanda 2019][research_kanda_2019]\] \[[Kanner and Schetz 1999][research_kanner_schetz_1999]\] \[[Khanjari et al 2023][research_khanjari_2023]\] \[[Kiley and Narsipur 2024][research_kiley_narsipur_2024]\] \[[Kim et al 2025][research_kim_2025]\] \[[Kimmel et al 2015][research_kimmel_borg_2015]\] \[[Kline et al 2019][research_kline_chang_2019]\] \[[Kobashi and Hayakawa 1980][research_kobashi_hayakawa_1980]\] \[[Kohama et al 2000][research_kohama_alfredsson_2000]\] \[[Korotkin 1966][research_korotkin_1966]\] \[[Korotkin 1966][research_korotkin_1966_2]\] \[[Kroo 2008][research_kroo_2008]\] \[[Kudryavtsev and Khotyanovsky 2019][research_kudryavtsev_khotyanovsky_2019]\] \[[Cutrone et al][research_l_cutrone]\] \[[LaGraff 2007][research_lagraff_2007]\] \[[Landahl 1962][research_landahl_1962]\] \[[Landahl 1990][research_landahl_1990]\] \[[Lange and Gieseler 1953][research_lange_gieseler_1953]\] \[[Lauchie and Park 2000][research_lauchie_park_2000]\] \[[Laufer and Vrebalovich 1960][research_laufer_vrebalovich_1960]\] \[[Lee 1953][research_lee_1953]\] \[[Lee 1954][research_lee_1954]\] \[[Leehey and Shapiro 1980][research_leehey_shapiro_1980]\] \[[Lees 1956][research_lees_1956]\] \[[Lees and Reshotko 1962][research_lees_reshotko_1962]\] \[[Leslie M Mack 1984][research_leslie_m_mack_1984]\] \[[Lessen 1953][research_lessen_1953]\] \[[Li and Choudhari 2011][research_li_choudhari_2011]\] \[[Lipatov and Ustinov 2018][research_lipatov_ustinov_2018]\] \[[Lohse et al 2016][research_lohse_2016]\] \[[Low 1955][research_low_1955]\] \[[Low 1956][research_low_1956]\] \[[Lyons et al 1961][research_lyons_1961]\] \[[Lysenko 1995][research_lysenko_1995]\] \[[Mack 1967][research_mack_1967]\] \[[Malik et al 2007][research_malik_li_2007]\] \[[Mangiarotty 1981][research_mangiarotty_1981]\] \[[Mankbadi 1992][research_mankbadi_1992]\] \[[Manuel and Doty 1990][research_manuel_doty_1990]\] \[[Martín and Paredes 2021][research_martin_paredes_2021]\] \[[Maslennikova and Zelman 1985][research_maslennikova_zelman_1985]\] \[[Mason and Gatlin 2015][research_mason_gatlin_2015]\] \[[Matsuda et al 2020][research_matsuda_2020]\] \[[McElderry 1973][research_mcelderry_1973]\] \[[Choudhari et al][research_meelan_choudhari]\] \[[Choudhari et al 2016][research_meelan_choudhari_2016]\] \[[Meier and Zhou 1989][research_meier_zhou_1989]\] \[[Miró Miró 2020][research_miromiro_2020]\] \[[Moralev et al 2020][research_moralev_2020]\] \[[Moralev et al 2021][research_moralev_2021]\] \[[Moralev et al 2022][research_moralev_2022]\] \[[Morgan and Davies 2020][research_morgan_davies_2020]\] \[[Morrisette and Creel 1987][research_morrisette_creel_1987]\] \[[Nangia et al 2003][research_nangia_palmer_2003]\] \[[Nark 1963][research_nark_1963]\] \[[Nathaniel Hildebrand et al 2025][research_nathaniel_hildebrand_2025]\] \[[Nie et al 2018][research_nie_2018]\] \[[Nie et al 2022][research_nie_2022]\] \[[Nitsche and Szodruch 1993][research_nitsche_szodruch_1993]\] \[[Niu and Li 2022][research_niu_li_2022]\] \[[Niu and Su 2023][research_niu_su_2023]\] \[[Osmokrovic et al 2015][research_osmokrovic_2015]\] \[[Owens et al 2019][research_owens_beeler_2019]\] \[[Parveen and Chowdhury 1970][research_parveen_chowdhury_1970]\] \[[Pate 1980][research_pate_1980]\] \[[Pavlyuchenko et al 1985][research_pavlyuchenko_tyutin_1985]\] \[[Paredes and Choudhari 2018][research_pedro_paredes_meelan_m_choudhari_2018]\] \[[Persh 1956][research_persh_1956]\] \[[Persh 1957][research_persh_1957]\] \[[Petzold and Radespiel 2015][research_petzold_radespiel_2015]\] \[[Pisharoti and Brizzolara 2025][research_pisharoti_brizzolara_2025]\] \[[Potter 1968][research_potter_1968]\] \[[Potter 1975][research_potter_1975]\] \[[Powers et al 1963][research_powers_1963]\] \[[Probstein and Elliott 1954][research_probstein_elliott_1954]\] \[[Qin and Yu 2020][research_qin_yu_2020]\] \[[Raper 1981][research_raper_1981]\] \[[Rarata et al 2023][research_rarata_drozdz_2023]\] \[[Raspet 1957][research_raspet_1957]\] \[[Reda 1977][research_reda_1977]\] \[[Redchyts et al 2025][research_redchyts_2025]\] \[[Reed 1990][research_reed_1990]\] \[[Rioual et al 1994][research_rioual_nelson_1994]\] \[[Robison and Loth 2017][research_robison_loth_2017]\] \[[Rosenbaum 1966][research_rosenbaum_1966]\] \[[Russo and Brehm 2023][research_russo_brehm_2023]\] \[[Saeed and Graham 2015][research_saeed_graham_2015]\] \[[Saric 1998][research_saric_1998_b]\] \[[Saric 2004][research_saric_2004]\] \[[Satish et al 2017][research_satish_2017]\] \[[Schneider and Collicott 2000][research_schneider_collicott_2000]\] \[[Schrauf et al 1998][research_schrauf_perraud_1998]\] \[[Schubauer and Klebanoff 1955][research_schubauer_klebanoff_1955]\] \[[Schubauer and Skramstad 1947][research_schubauer_skramstad_1947]\] \[[Shadloo and Hadjadj 2017][research_shadloo_hadjadj_2017]\] \[[Shalaev 2018][research_shalaev_2018]\] \[[Sharma][research_sharma]\] \[[Sheetz 1965][research_sheetz_1965]\] \[[Shepherd 2014][research_shepherd_2014]\] \[[Shimmy 2026][research_shimmy_2026]\] \[[Simon et al 2015][research_simon_2015]\] \[[Skripachev 1969][research_skripachev_1969]\] \[[Smith 1990][research_smith_1990]\] \[[Song et al 2024][research_song_2024]\] \[[Sternberg 1954][research_sternberg_1954]\] \[[Struminskii 1967][research_struminskii_1967]\] \[[Su 2015][research_su_2015]\] \[[Szulga et al 2015][research_szulga_2015]\] \[[Takematsu 1970][research_takematsu_1970]\] \[[Tang et al 2026][research_tang_2026]\] \[[Tani 1980][research_tani_1980]\] \[[Tatar et al 2019][research_tatar_tahani_2019]\] \[[Tatsumi 1952][research_tatsumi_1952]\] \[[Theofilis and Poll 1995][research_theofilis_poll_1995]\] \[[Toppings and Yarusevych 2023][research_toppings_yarusevych_2023]\] \[[Ustinov 2016][research_ustinov_2016]\] \[[Ustinov et al 2022][research_ustinov_2022]\] \[[Vaglio-Laurin 1978][research_vagliolaurin_1978]\] \[[van Dam and Holmes 1988][research_vandam_holmes_1988]\] \[[Van Dam et al 1993][research_vandam_vijgen_1993]\] \[[Vandam 1993][research_vandam_1993]\] \[[Vlahostergios et al 2019][research_vlahostergios_2019]\] \[[Weilmuenster 1974][research_weilmuenster_1974]\] \[[Wilcox 1979][research_wilcox_1979]\] \[[Wood 1968][research_wood_1968]\] \[[Wu et al 2026][research_wu_2026]\] \[[Wygnanski 1977][research_wygnanski_1977]\] \[[Xia and Chen 2016][research_xia_chen_2016]\] \[[Xiao and Papadakis 2017][research_xiao_papadakis_2017]\] \[[Yan et al 2025][research_yan_2025]\] \[[Yan et al 2025][research_yan_yang_2025]\] \[[Yang and Hu 2008][research_yang_hu_2008]\] \[[Yang and Huano 1969][research_yang_huano_1969]\] \[[Yates et al 2020][research_yates_2020]\] \[[Yih et al 1952][research_yih_1952]\] \[[Yu et al 2026][research_yu_2026]\] \[[Zhigulev 1985][research_zhigulev_1985]\] \[[Zore et al 2023][research_zore_2023]\] \[[Zou and Zhong 2024][research_zou_zhong_2024]\] \[[Евстигнеев and Рябков 2016][research___2016]\]
 
 ### Ice crystals, cloud and the icing of aircraft
 
@@ -603,9 +603,9 @@ Riblets and their successors do not prevent turbulence. They reduce the friction
 
 ### Insect contamination and its mitigation
 
-**The question the X-21 never reached.** Insect residue on laminar leading edges and the means of preventing it, by washing, by protection systems on the leading edge, by aerofoil geometry and by engineered surfaces. The earliest of these 17 records is from 1978, and 7 of them are on the NASA Technical Reports Server.
+**The question the X-21 never reached.** Insect residue on laminar leading edges and the means of preventing it, by washing, by protection systems on the leading edge, by aerofoil geometry and by engineered surfaces. The earliest of these 18 records is from 1978, and 7 of them are on the NASA Technical Reports Server.
 
-**17 records.** \[[Alexander et al 2016][research_alexander_harris_2016]\] \[[Croom and Holmes 1985][research_croom_holmes_1985]\] \[[Croom and Holmes 1986][research_croom_holmes_1986]\] \[[Fisher and Peterson 1978][research_fisher_peterson_1978]\] \[[Kok and Young 2014][research_kok_young_2014]\] \[[Kok et al 2013][research_kok_mertens_2013]\] \[[Kok et al 2014][research_kok_tobin_2014]\] \[[Kok et al 2017][research_kok_tobin_2017]\] \[[Krishnan et al 2016][research_krishnan_robison_2016]\] \[[Lorenzi et al 2011][research_lorenzi_wohl_2011]\] \[[Maresh and Bragg 1984][research_maresh_bragg_1984]\] \[[Peterson and Fisher 1978][research_peterson_fisher_1978]\] \[[Shanahan et al 2015][research_shanahan_wohl_2015]\] \[[Siochi et al 2013][research_siochi_smith_2013]\] \[[Wicke et al 2016][research_wicke_linke_2016]\] \[[Wohl et al 2013][research_wohl_smith_2013]\] \[[Wohl et al 2015][research_wohl_doss_2015]\]
+**18 records.** \[[Alexander et al 2016][research_alexander_harris_2016]\] \[[Croom and Holmes 1985][research_croom_holmes_1985]\] \[[Croom and Holmes 1986][research_croom_holmes_1986]\] \[[Fisher and Peterson 1978][research_fisher_peterson_1978]\] \[[Kok and Young 2014][research_kok_young_2014]\] \[[Kok et al 2013][research_kok_mertens_2013]\] \[[Kok et al 2014][research_kok_tobin_2014]\] \[[Kok et al 2015][research_kok_2015]\] \[[Kok et al 2017][research_kok_tobin_2017]\] \[[Krishnan et al 2016][research_krishnan_robison_2016]\] \[[Lorenzi et al 2011][research_lorenzi_wohl_2011]\] \[[Maresh and Bragg 1984][research_maresh_bragg_1984]\] \[[Peterson and Fisher 1978][research_peterson_fisher_1978]\] \[[Shanahan et al 2015][research_shanahan_wohl_2015]\] \[[Siochi et al 2013][research_siochi_smith_2013]\] \[[Wicke et al 2016][research_wicke_linke_2016]\] \[[Wohl et al 2013][research_wohl_smith_2013]\] \[[Wohl et al 2015][research_wohl_doss_2015]\]
 
 ### Coatings against ice and erosion
 
@@ -617,13 +617,13 @@ Riblets and their successors do not prevent turbulence. They reduce the friction
 
 **The hardware.** Slots, holes, perforated and porous skins, suction panels, valves and the structure and manufacture of the suction surface.
 
-**44 records.** \[[Arakeri and Narasimha 1983][research_arakeri_narasimha_1983]\] \[[Ball 1969][research_ball_1969]\] \[[Bishara et al 2018][research_bishara_2018]\] \[[Brandeis 1983][research_brandeis_1983]\] \[[Cliett 1952][research_cliett_1952]\] \[[Danilov 2011][research_danilov_2011]\] \[[Dannenberg et al 1957][research_dannenberg_1957]\] \[[Egreteau et al 2024][research_egreteau_muredalexis_2024]\] \[[Fischler 1986][research_fischler_1986]\] \[[Fischler et al 1989][research_fischler_jerstad_1989]\] \[[Flax et al 1953][research_flax_1953]\] \[[Goglia and Wilkinson 1980][research_goglia_wilkinson_1980]\] \[[Goodyear 1987][research_goodyear_1987]\] \[[Gregory 1961][research_gregory_1961]\] \[[Hybrid Suction Surface for 1980][research_hybrid_suction_1980]\] \[[Kashaev et al 2026][research_kashaev_2026]\] \[[Khan et al 1982][research_khan_cornelius_1982]\] \[[Kozlov 1965][research_kozlov_1965]\] \[[Li et al 2024][research_li_2024_3]\] \[[MacManus and Eaton 1996][research_macmanus_eaton_1996]\] \[[Maddalon 1991][research_maddalon_1991]\] \[[Maddalon and Braslow 1990][research_maddalon_braslow_1990]\] \[[Maddalon and Poppen 1986][research_maddalon_poppen_1986]\] \[[Mansy and Faruque 2023][research_mansy_faruque_2023]\] \[[Meitz and Fasel 1995][research_meitz_fasel_1995]\] \[[Mills 1971][research_mills_1971]\] \[[Pearce 1978][research_pearce_1978]\] \[[Pearson 1967][research_pearson_1967]\] \[[Perry and Ansell 2017][research_perry_ansell_2017]\] \[[Petley et al 1985][research_petley_alexander_1985]\] \[[Pfenninger et al 1967][research_pfenninger_1967]\] \[[Roache 1979][research_roache_1979]\] \[[Saeed et al 2010][research_saeed_graham_2010]\] \[[Thiede 1978][research_thiede_1978]\] \[[Thomas and Cornelius 1981][research_thomas_cornelius_1981]\] \[[Thomas and Cornelius 1982][research_thomas_cornelius_1982]\] \[[Traub 2026][research_traub_2026]\] \[[Traub 2026][research_traub_2026_b]\] \[[Traub 2026][research_traub_2026_c]\] \[[van Rijn 1997][research_vanrijn_1997]\] \[[Wadia 1983][research_wadia_1983]\] \[[Watmuff 1994][research_watmuff_1994]\] \[[Wilson 1980][research_wilson_1980]\] \[[Wlezien 1989][research_wlezien_1989]\]
+**45 records.** \[[Arakeri and Narasimha 1983][research_arakeri_narasimha_1983]\] \[[Ball 1969][research_ball_1969]\] \[[Bishara et al 2018][research_bishara_2018]\] \[[Brandeis 1983][research_brandeis_1983]\] \[[Cliett 1952][research_cliett_1952]\] \[[Danilov 2011][research_danilov_2011]\] \[[Dannenberg et al 1957][research_dannenberg_1957]\] \[[Egreteau et al 2024][research_egreteau_muredalexis_2024]\] \[[Fischler 1986][research_fischler_1986]\] \[[Fischler et al 1989][research_fischler_jerstad_1989]\] \[[Flax et al 1953][research_flax_1953]\] \[[Goglia and Wilkinson 1980][research_goglia_wilkinson_1980]\] \[[Goodyear 1987][research_goodyear_1987]\] \[[Gregory 1961][research_gregory_1961]\] \[[Hybrid Suction Surface for 1980][research_hybrid_suction_1980]\] \[[Kashaev et al 2026][research_kashaev_2026]\] \[[Khan et al 1982][research_khan_cornelius_1982]\] \[[Kozlov 1965][research_kozlov_1965]\] \[[Li et al 2024][research_li_2024_3]\] \[[MacManus and Eaton 1996][research_macmanus_eaton_1996]\] \[[Maddalon 1991][research_maddalon_1991]\] \[[Maddalon and Braslow 1990][research_maddalon_braslow_1990]\] \[[Maddalon and Poppen 1986][research_maddalon_poppen_1986]\] \[[Mansy and Faruque 2023][research_mansy_faruque_2023]\] \[[Meitz and Fasel 1995][research_meitz_fasel_1995]\] \[[Mills 1971][research_mills_1971]\] \[[Pearce 1978][research_pearce_1978]\] \[[Pearson 1967][research_pearson_1967]\] \[[Perry and Ansell 2017][research_perry_ansell_2017]\] \[[Petley et al 1985][research_petley_alexander_1985]\] \[[Pfenninger et al 1967][research_pfenninger_1967]\] \[[Roache 1979][research_roache_1979]\] \[[Saeed et al 2010][research_saeed_graham_2010]\] \[[Saeed et al 2011][research_saeed_2011]\] \[[Thiede 1978][research_thiede_1978]\] \[[Thomas and Cornelius 1981][research_thomas_cornelius_1981]\] \[[Thomas and Cornelius 1982][research_thomas_cornelius_1982]\] \[[Traub 2026][research_traub_2026]\] \[[Traub 2026][research_traub_2026_b]\] \[[Traub 2026][research_traub_2026_c]\] \[[van Rijn 1997][research_vanrijn_1997]\] \[[Wadia 1983][research_wadia_1983]\] \[[Watmuff 1994][research_watmuff_1994]\] \[[Wilson 1980][research_wilson_1980]\] \[[Wlezien 1989][research_wlezien_1989]\]
 
 ### Suction and injection in the boundary layer
 
 **The mechanism outside the aircraft.** Suction and injection through a wall as boundary-layer theory, in porous channels and tubes, at separation and for high lift, kept because each shares the mechanism of wall suction with this subject.
 
-**88 records.** \[[Adcock et al 1966][research_adcock_1966]\] \[[Albacete and Glowacki 1967][research_albacete_glowacki_1967]\] \[[Album 1969][research_album_1969]\] \[[Asai et al][research_asai_konishi]\] \[[Atik and van Dommelen 2007][research_atik_vandommelen_2007]\] \[[Baldwin 1970][research_baldwin_1970]\] \[[Ball 1970][research_ball_1970]\] \[[Barrow 1958][research_barrow_1958]\] \[[Chuang 1974][research_chuang_1974]\] \[[Curle 1960][research_curle_1960]\] \[[Dennon 1962][research_dennon_1962]\] \[[Dershin et al 1966][research_dershin_1966]\] \[[Dershin et al 1967][research_dershin_1967_2]\] \[[Dorrance and Dore 1954][research_dorrance_dore_1954]\] \[[Elkouh 1971][research_elkouh_1971]\] \[[Fedorov and Soudakov 2014][research_fedorov_soudakov_2014]\] \[[Fukusako et al 1971][research_fukusako_1971]\] \[[Gershbein 1970][research_gershbein_1970]\] \[[Gershbein 1975][research_gershbein_1975]\] \[[Gortler 1957][research_gortler_1957]\] \[[Gray and Maus 1981][research_gray_maus_1981]\] \[[Gribben 1959][research_gribben_1959]\] \[[Görtler's new series method for steady laminar boundary layer flows with suction 1962][research_gortler_s_new_1962]\] \[[Hasimoto 1957][research_hasimoto_1957]\] \[[Head 1961][research_head_1961]\] \[[Hughes and Reid 1965][research_hughes_reid_1965]\] \[[Improving Wind Turbine Power with Boundary Layer Suction 2025][research_improving_wind_2025]\] \[[Investigation of Laminar Flow of Fluid with One Porous Bounding Wall 2016][research_investigation_of_2016]\] \[[Khusnutdinova 1972][research_khusnutdinova_1972]\] \[[Kinney 1967][research_kinney_1967]\] \[[Kobayashi 1972][research_kobayashi_1972]\] \[[Kobayashi 1974][research_kobayashi_1974]\] \[[Koh and Hartnett 1961][research_koh_hartnett_1961]\] \[[Kozlov and Tsyganyuk 1969][research_kozlov_tsyganyuk_1969]\] \[[Laouer et al 2016][research_laouer_2016]\] \[[Leitsina and Pavlyukevich 1968][research_leitsina_pavlyukevich_1968]\] \[[Lipatov and Neiland 1974][research_lipatov_neiland_1974]\] \[[MacDermott et al 1965][research_macdermott_1965]\] \[[MacDermott et al 1966][research_macdermott_1966]\] \[[Maddaus and Shanebrook 1983][research_maddaus_shanebrook_1983]\] \[[Maeda 1968][research_maeda_1968]\] \[[Messiha 1966][research_messiha_1966]\] \[[Mills 1966][research_mills_1966]\] \[[Morduchow 1963][research_morduchow_1963]\] \[[Ness 1961][research_ness_1961]\] \[[Northrop Aircraft Inc Hawthorne Ca 1952][research_northrop_aircraft_inc_hawthorne_ca_1952]\] \[[Northrop Aircraft Inc Hawthorne Ca 1953][research_northrop_aircraft_inc_hawthorne_ca_1953]\] \[[Nouri-Borujerdi and Seyyed-Hashemi 2016][research_nouri_borujerdi_seyyed_hashemi_2016]\] \[[Pappas and Okuno 1960][research_pappas_okuno_1960]\] \[[Pasamanick and Proterra 1948][research_pasamanick_proterra_1948]\] \[[Passamanick 1948][research_passamanick_1948]\] \[[Pate 1969][research_pate_1969]\] \[[Pechau 1963][research_pechau_1963]\] \[[Pfenninger 1961][research_pfenninger_1961]\] \[[Powers 1966][research_powers_1966]\] \[[Prochukhaev 1973][research_prochukhaev_1973]\] \[[Pushkareva 1970][research_pushkareva_1970]\] \[[Quaile and Levy 1972][research_quaile_levy_1972]\] \[[Quaile and Levy 1975][research_quaile_levy_1975]\] \[[Racisz and Quinn 1948][research_racisz_quinn_1948]\] \[[Reed and Nayfeh 1981][research_reed_nayfeh_1981]\] \[[Rhudy 1970][research_rhudy_1970]\] \[[Ricco et al 2013][research_ricco_shah_2013]\] \[[Ringleb 1952][research_ringleb_1952]\] \[[Roberts et al 1966][research_roberts_smith_1966]\] \[[Roy and Saikrishnan 2003][research_roy_saikrishnan_2003]\] \[[Schlichting 1949][research_schlichting_1949]\] \[[Schlichting and Gersten 2000][research_schlichting_gersten_2000]\] \[[Seebaugh and Childs 1970][research_seebaugh_childs_1970]\] \[[Sellars 1955][research_sellars_1955]\] \[[Seraudie et al 1999][research_seraudie_correge_1999]\] \[[Simpson et al 1969][research_simpson_1969]\] \[[Strike and Pate 1961][research_strike_pate_1961]\] \[[Swean and Inger 1974][research_swean_inger_1974]\] \[[Terrill 1960][research_terrill_1960]\] \[[Terrill 1965][research_terrill_1965]\] \[[Torda 1952][research_torda_1952]\] \[[Trilling 1950][research_trilling_1950]\] \[[Wahidi and Bridges 2008][research_wahidi_bridges_2008]\] \[[Wedin and Cherubini 2016][research_wedin_cherubini_2016]\] \[[Wedin et al 2015][research_wedin_2015]\] \[[Wu 1973][research_wu_1973]\] \[[Wuest 1952][research_wuest_1952]\] \[[Wuest 1961][research_wuest_1961]\] \[[Yalcin et al 2021][research_yalcin_2021]\] \[[Yuan 1955][research_yuan_1955]\] \[[Zamir and Young 1967][research_zamir_young_1967]\] \[[Ze-yan 1981][research_zeyan_1981]\]
+**102 records.** \[[Adcock et al 1966][research_adcock_1966]\] \[[Albacete and Glowacki 1967][research_albacete_glowacki_1967]\] \[[Album 1969][research_album_1969]\] \[[Asai et al][research_asai_konishi]\] \[[Atik and van Dommelen 2007][research_atik_vandommelen_2007]\] \[[Baldwin 1970][research_baldwin_1970]\] \[[Ball 1970][research_ball_1970]\] \[[Barrow 1958][research_barrow_1958]\] \[[Braslow et al 1951][research_braslow_1951]\] \[[Brynjell-Rahkola et al 2019][research_brynjellrahkola_2019]\] \[[Cherubini et al 2015][research_cherubini_2015]\] \[[Chuang 1974][research_chuang_1974]\] \[[Coleman 1957][research_coleman_1957]\] \[[Corelli Grappadelli et al 2025][research_corelligrappadelli_2025]\] \[[Curle 1960][research_curle_1960]\] \[[Dennon 1962][research_dennon_1962]\] \[[Dershin et al 1966][research_dershin_1966]\] \[[Dershin et al 1967][research_dershin_1967_2]\] \[[Dorrance and Dore 1954][research_dorrance_dore_1954]\] \[[El-Gamal and Barclay 1975][research_elgamal_barclay_1975]\] \[[Elkouh 1971][research_elkouh_1971]\] \[[Fedorov and Soudakov 2014][research_fedorov_soudakov_2014]\] \[[Fukusako et al 1971][research_fukusako_1971]\] \[[Gershbein 1970][research_gershbein_1970]\] \[[Gershbein 1975][research_gershbein_1975]\] \[[Gortler 1957][research_gortler_1957]\] \[[Gray and Maus 1981][research_gray_maus_1981]\] \[[Gribben 1959][research_gribben_1959]\] \[[Görtler's new series method for steady laminar boundary layer flows with suction 1962][research_gortler_s_new_1962]\] \[[Hasimoto 1957][research_hasimoto_1957]\] \[[Head 1961][research_head_1961]\] \[[Hughes and Reid 1965][research_hughes_reid_1965]\] \[[Improving Wind Turbine Power with Boundary Layer Suction 2025][research_improving_wind_2025]\] \[[Investigation of Laminar Flow of Fluid with One Porous Bounding Wall 2016][research_investigation_of_2016]\] \[[Khusnutdinova 1972][research_khusnutdinova_1972]\] \[[Kinney 1967][research_kinney_1967]\] \[[Kobayashi 1972][research_kobayashi_1972]\] \[[Kobayashi 1974][research_kobayashi_1974]\] \[[Koh and Hartnett 1961][research_koh_hartnett_1961]\] \[[Kozlov and Tsyganyuk 1969][research_kozlov_tsyganyuk_1969]\] \[[Laouer et al 2016][research_laouer_2016]\] \[[Leitsina and Pavlyukevich 1968][research_leitsina_pavlyukevich_1968]\] \[[Lipatov and Neiland 1974][research_lipatov_neiland_1974]\] \[[Lysenko et al 2024][research_lysenko_2024]\] \[[MacDermott et al 1965][research_macdermott_1965]\] \[[MacDermott et al 1966][research_macdermott_1966]\] \[[Maddaus and Shanebrook 1983][research_maddaus_shanebrook_1983]\] \[[Maeda 1968][research_maeda_1968]\] \[[Messiha 1966][research_messiha_1966]\] \[[Mills 1966][research_mills_1966]\] \[[Morduchow 1963][research_morduchow_1963]\] \[[Morduchow and Reyle 1967][research_morduchow_reyle_1967]\] \[[Ness 1961][research_ness_1961]\] \[[Northrop Aircraft Inc Hawthorne Ca 1952][research_northrop_aircraft_inc_hawthorne_ca_1952]\] \[[Northrop Aircraft Inc Hawthorne Ca 1953][research_northrop_aircraft_inc_hawthorne_ca_1953]\] \[[Nouri-Borujerdi and Seyyed-Hashemi 2016][research_nouri_borujerdi_seyyed_hashemi_2016]\] \[[Pappas and Okuno 1960][research_pappas_okuno_1960]\] \[[Pasamanick and Proterra 1948][research_pasamanick_proterra_1948]\] \[[Passamanick 1948][research_passamanick_1948]\] \[[Pate 1969][research_pate_1969]\] \[[Pechau 1963][research_pechau_1963]\] \[[Pfenninger 1961][research_pfenninger_1961]\] \[[Poulain et al 2024][research_poulain_2024]\] \[[Powers 1966][research_powers_1966]\] \[[Prochukhaev 1973][research_prochukhaev_1973]\] \[[Pushkareva 1970][research_pushkareva_1970]\] \[[Quaile and Levy 1972][research_quaile_levy_1972]\] \[[Quaile and Levy 1975][research_quaile_levy_1975]\] \[[Racisz and Quinn 1948][research_racisz_quinn_1948]\] \[[Reed and Nayfeh 1981][research_reed_nayfeh_1981]\] \[[Reynolds et al 1982][research_reynolds_1982]\] \[[Rhudy 1970][research_rhudy_1970]\] \[[Ricco et al 2013][research_ricco_shah_2013]\] \[[Ringleb 1952][research_ringleb_1952]\] \[[Roberts et al 1966][research_roberts_smith_1966]\] \[[Roy and Saikrishnan 2003][research_roy_saikrishnan_2003]\] \[[Schlichting 1949][research_schlichting_1949]\] \[[Schlichting and Gersten 2000][research_schlichting_gersten_2000]\] \[[Seebaugh and Childs 1970][research_seebaugh_childs_1970]\] \[[Sellars 1955][research_sellars_1955]\] \[[Seraudie et al 1999][research_seraudie_correge_1999]\] \[[Simpson et al 1969][research_simpson_1969]\] \[[Strike and Pate 1961][research_strike_pate_1961]\] \[[Swean and Inger 1974][research_swean_inger_1974]\] \[[Terrill 1960][research_terrill_1960]\] \[[Terrill 1965][research_terrill_1965]\] \[[Thummar et al 2023][research_thummar_2023]\] \[[Thummar et al 2024][research_thummar_2024]\] \[[Torda 1952][research_torda_1952]\] \[[Torda 1953][research_torda_1953]\] \[[Trilling 1950][research_trilling_1950]\] \[[Wahidi and Bridges 2008][research_wahidi_bridges_2008]\] \[[Wedin and Cherubini 2016][research_wedin_cherubini_2016]\] \[[Wedin et al 2015][research_wedin_2015]\] \[[Wu 1973][research_wu_1973]\] \[[Wuest 1952][research_wuest_1952]\] \[[Wuest 1961][research_wuest_1961]\] \[[Yalcin et al 2021][research_yalcin_2021]\] \[[Yuan 1955][research_yuan_1955]\] \[[Zamir and Young 1967][research_zamir_young_1967]\] \[[Ze-yan 1981][research_zeyan_1981]\] \[[Zolotov and Khodorkovsky 1963][research_zolotov_khodorkovsky_1963]\]
 
 ### Skin friction and the turbulent boundary layer
 
@@ -633,9 +633,9 @@ Riblets and their successors do not prevent turbulence. They reduce the friction
 
 ### Riblets and the reduction of turbulent skin friction
 
-**The competing route.** Riblets, compliant walls, polymers, spanwise forcing and other means of reducing the friction of a turbulent layer. 61 of the 108 titles name riblets.
+**The competing route.** Riblets, compliant walls, polymers, spanwise forcing and other means of reducing the friction of a turbulent layer. 63 of the 114 titles name riblets.
 
-**108 records.** \[[Advisory Group for Aerospace Research and Development 1992][research_advisory_group_for_aerospace_research_and_development_1992]\] \[[Allen and Bridges 2003][research_allen_bridges_2003]\] \[[Amico and Cafiero 2026][research_amico_cafiero_2026]\] \[[Anderson et al 1969][research_anderson_1969]\] \[[Bai et al 2016][research_bai_2016]\] \[[Beck et al 2018][research_beck_2018]\] \[[Benschop and Breugem 2017][research_benschop_breugem_2017]\] \[[Bixler and Bhushan 2013][research_bixler_bhushan_2013]\] \[[Bliamis et al 2022][research_bliamis_2022]\] \[[Blick and Walters 1968][research_blick_walters_1968]\] \[[Boomsma and Sotiropoulos 2015][research_boomsma_sotiropoulos_2015]\] \[[Bushnell et al 1984][research_bushnell_1984]\] \[[Cacciatori et al 2022][research_cacciatori_2022]\] \[[Cafiero and Iuso 2022][research_cafiero_iuso_2022]\] \[[Carpenter et al 2001][research_carpenter_lucey_2001]\] \[[Catalano et al 2020][research_catalano_2020]\] \[[Ceccio et al 2007][research_ceccio_2007]\] \[[Chamorro et al 2013][research_chamorro_2013]\] \[[Chehrghani et al 2025][research_chehrghani_2025]\] \[[Chen et al 2015][research_chen_2015_2]\] \[[Choi 2004][research_choi_2004]\] \[[Cipelli et al 2026][research_cipelli_2026]\] \[[Cornish III and Boatwright 1960][research_cornish_iii_boatwright_1960]\] \[[Cui et al 2023][research_cui_2023]\] \[[Dimotakis et al 2003][research_dimotakis_2003]\] \[[Dou et al 2026][research_dou_2026]\] \[[Drag Reduction Performance of Triangular (V-groove) Riblets with Different Adjacent Height Ratios 2023][research_drag_reduction_2023]\] \[[First Laminar Flow Flight 1992][research_first_laminar_1992]\] \[[Gad-El-hak and Blackwelder 1987][research_gadelhak_blackwelder_1987]\] \[[Gatti and Quadrio 2016][research_gatti_quadrio_2016]\] \[[Gatti et al 2025][research_gatti_2025]\] \[[Geng et al 2021][research_geng_2021]\] \[[Gordon et al 2024][research_gordon_2024]\] \[[Gowree et al 2019][research_gowree_2019]\] \[[Granville 1973][research_granville_1973_2]\] \[[Guo et al 2020][research_guo_2020]\] \[[Hendrikse][research_hendrikse]\] \[[Howard et al 1975][research_howard_1975]\] \[[Hu and Yao 2023][research_hu_yao_2023]\] \[[Hu and Yao 2024][research_hu_yao_2024]\] \[[Hwang and Biesiadny 1998][research_hwang_biesiadny_1998]\] \[[Inasawa et al 2024][research_inasawa_2024]\] \[[Kaneko et al 2026][research_kaneko_2026]\] \[[Koo and Kang 2020][research_koo_kang_2020]\] \[[Kousik Kumaar. R and Dr. P. Maniiarasan 2015][research_kousik_kumaar_r_dr_p_maniiarasan_2015]\] \[[Landahl and Widnall 1979][research_landahl_widnall_1979]\] \[[Landahl and Widnall 1980][research_landahl_widnall_1980]\] \[[Landahl and Widnall 1981][research_landahl_widnall_1981]\] \[[Landahl and Widnall 1982][research_landahl_widnall_1982]\] \[[Lazos and Wilkinson 1988][research_lazos_wilkinson_1988]\] \[[Leadon and Bartle 1960][research_leadon_bartle_1960]\] \[[Lee and Kim 2017][research_lee_kim_2017]\] \[[Li et al 2022][research_li_2022]\] \[[Li et al 2024][research_li_2024_4]\] \[[Liang et al 2022][research_liang_2022]\] \[[Lin and Mao 2024][research_lin_mao_2024]\] \[[Ma et al 2025][research_ma_2025]\] \[[Mahfoze and Laizet 2017][research_mahfoze_laizet_2017]\] \[[Mamori and Kondo 2019][research_mamori_kondo_2019]\] \[[Marino et al 1975][research_marino_1975]\] \[[Mawignon et al 2023][research_mawignon_2023]\] \[[Mele 2022][research_mele_2022]\] \[[Mele et al 2020][research_mele_2020]\] \[[Mignanwande 2024][research_mignanwande_2024]\] \[[Olivucci et al 2021][research_olivucci_2021]\] \[[Pang et al 2024][research_pang_2024]\] \[[Pate 1964][research_pate_1964]\] \[[Pate and Deitering 1963][research_pate_deitering_1963]\] \[[Pate and Deitering 1963][research_pate_deitering_1963_2]\] \[[Poreh and Hsu 1972][research_poreh_hsu_1972]\] \[[Raayai-Ardakani and McKinley 2019][research_raayai_ardakani_mckinley_2019]\] \[[Ran et al 2020][research_ran_2020]\] \[[Rastegari and Akhavan 2018][research_rastegari_akhavan_2018]\] \[[Ricco et al 2021][research_ricco_2021]\] \[[Rothstein 2010][research_rothstein_2010]\] \[[Rydalch 2013][research_rydalch_2013]\] \[[Safari et al 2025][research_safari_2025]\] \[[Saito et al 2021][research_saito_2021]\] \[[Saito et al 2022][research_saito_2022]\] \[[Sareen et al 2013][research_sareen_2013]\] \[[Selvanose et al 2024][research_selvanose_2024]\] \[[Sharma and Dutta 2022][research_sharma_dutta_2022]\] \[[Sharma et al 2025][research_sharma_2025]\] \[[Shimizu et al 2021][research_shimizu_2021]\] \[[Sinha and Ravande 2006][research_sinha_ravande_2006]\] \[[Soleimani and Eckels 2021][research_soleimani_eckels_2021]\] \[[Stroh et al 2016][research_stroh_2016]\] \[[Takahashi et al 2019][research_takahashi_2019]\] \[[Vlachos et al 2007][research_vlachos_2007]\] \[[Walsh 1982][research_walsh_1982]\] \[[Walsh and Lindemann 1984][research_walsh_lindemann_1984]\] \[[Walsh et al 1986][research_walsh_1986_2]\] \[[Wang et al 2013][research_wang_2013]\] \[[Wei et al 2013][research_wei_2013]\] \[[Wilkinson et al 1987][research_wilkinson_1987]\] \[[Wong et al 2024][research_wong_2024]\] \[[Wu 1972][research_wu_1972]\] \[[Wu and Tulin 1970][research_wu_tulin_1970]\] \[[Ye et al 2019][research_ye_2019]\] \[[Yonezawa et al 2017][research_yonezawa_2017]\] \[[Youngren 2008][research_youngren_2008]\] \[[Yu 2017][research_yu_2017]\] \[[Zaki 2014][research_zaki_2014]\] \[[Zhang and Yin 2019][research_zhang_yin_2019]\] \[[Zhang et al 2020][research_zhang_2020_3]\] \[[Zhou et al 2020][research_zhou_2020]\] \[[Zhou et al 2022][research_zhou_2022_3]\] \[[Zong et al 2022][research_zong_2022]\]
+**114 records.** \[[Abbassi et al 2017][research_abbassi_2017]\] \[[Advisory Group for Aerospace Research and Development 1992][research_advisory_group_for_aerospace_research_and_development_1992]\] \[[Allen and Bridges 2003][research_allen_bridges_2003]\] \[[Amico and Cafiero 2026][research_amico_cafiero_2026]\] \[[Anderson et al 1969][research_anderson_1969]\] \[[Ao et al 2021][research_ao_2021]\] \[[Bai et al 2016][research_bai_2016]\] \[[Beck et al 2018][research_beck_2018]\] \[[Benschop and Breugem 2017][research_benschop_breugem_2017]\] \[[Bixler and Bhushan 2013][research_bixler_bhushan_2013]\] \[[Bliamis et al 2022][research_bliamis_2022]\] \[[Blick and Walters 1968][research_blick_walters_1968]\] \[[Boomsma and Sotiropoulos 2015][research_boomsma_sotiropoulos_2015]\] \[[Bushnell et al 1984][research_bushnell_1984]\] \[[Cacciatori et al 2022][research_cacciatori_2022]\] \[[Cafiero and Iuso 2022][research_cafiero_iuso_2022]\] \[[Carpenter et al 2001][research_carpenter_lucey_2001]\] \[[Catalano et al 2020][research_catalano_2020]\] \[[Ceccio et al 2007][research_ceccio_2007]\] \[[Chamorro et al 2013][research_chamorro_2013]\] \[[Chehrghani et al 2025][research_chehrghani_2025]\] \[[Chen et al 2015][research_chen_2015_2]\] \[[Choi 2004][research_choi_2004]\] \[[Cipelli et al 2026][research_cipelli_2026]\] \[[Cornish 2024][research_cornish_2024]\] \[[Cornish III and Boatwright 1960][research_cornish_iii_boatwright_1960]\] \[[Cui et al 2023][research_cui_2023]\] \[[Dimotakis et al 2003][research_dimotakis_2003]\] \[[Dou et al 2026][research_dou_2026]\] \[[Drag Reduction Performance of Triangular (V-groove) Riblets with Different Adjacent Height Ratios 2023][research_drag_reduction_2023]\] \[[First Laminar Flow Flight 1992][research_first_laminar_1992]\] \[[Gad-El-hak and Blackwelder 1987][research_gadelhak_blackwelder_1987]\] \[[Gatti and Quadrio 2016][research_gatti_quadrio_2016]\] \[[Gatti et al 2025][research_gatti_2025]\] \[[Geng et al 2021][research_geng_2021]\] \[[Gordon et al 2024][research_gordon_2024]\] \[[Gowree et al 2019][research_gowree_2019]\] \[[Granville 1973][research_granville_1973_2]\] \[[Guo et al 2020][research_guo_2020]\] \[[Hendrikse][research_hendrikse]\] \[[Howard et al 1975][research_howard_1975]\] \[[Hu and Yao 2023][research_hu_yao_2023]\] \[[Hu and Yao 2024][research_hu_yao_2024]\] \[[Hwang and Biesiadny 1998][research_hwang_biesiadny_1998]\] \[[Inasawa et al 2024][research_inasawa_2024]\] \[[Kaneko et al 2026][research_kaneko_2026]\] \[[Koo and Kang 2020][research_koo_kang_2020]\] \[[Kousik Kumaar. R and Dr. P. Maniiarasan 2015][research_kousik_kumaar_r_dr_p_maniiarasan_2015]\] \[[Landahl and Widnall 1979][research_landahl_widnall_1979]\] \[[Landahl and Widnall 1980][research_landahl_widnall_1980]\] \[[Landahl and Widnall 1981][research_landahl_widnall_1981]\] \[[Landahl and Widnall 1982][research_landahl_widnall_1982]\] \[[Lazos and Wilkinson 1988][research_lazos_wilkinson_1988]\] \[[Leadon and Bartle 1960][research_leadon_bartle_1960]\] \[[Lee and Kim 2017][research_lee_kim_2017]\] \[[Li et al 2022][research_li_2022]\] \[[Li et al 2024][research_li_2024_4]\] \[[Liang et al 2022][research_liang_2022]\] \[[Lin and Mao 2024][research_lin_mao_2024]\] \[[Ma et al 2025][research_ma_2025]\] \[[Mahfoze and Laizet 2017][research_mahfoze_laizet_2017]\] \[[Mamori and Kondo 2019][research_mamori_kondo_2019]\] \[[Marino et al 1975][research_marino_1975]\] \[[Mawignon et al 2023][research_mawignon_2023]\] \[[Mele 2022][research_mele_2022]\] \[[Mele et al 2020][research_mele_2020]\] \[[Mignanwande 2024][research_mignanwande_2024]\] \[[Olivucci et al 2021][research_olivucci_2021]\] \[[Pang et al 2024][research_pang_2024]\] \[[Pate 1964][research_pate_1964]\] \[[Pate and Deitering 1963][research_pate_deitering_1963]\] \[[Pate and Deitering 1963][research_pate_deitering_1963_2]\] \[[Perlin et al 2016][research_perlin_2016]\] \[[Poreh and Hsu 1972][research_poreh_hsu_1972]\] \[[Raayai-Ardakani and McKinley 2019][research_raayai_ardakani_mckinley_2019]\] \[[Ran et al 2020][research_ran_2020]\] \[[Rastegari and Akhavan 2018][research_rastegari_akhavan_2018]\] \[[Ricco et al 2021][research_ricco_2021]\] \[[Rothstein 2010][research_rothstein_2010]\] \[[Rydalch 2013][research_rydalch_2013]\] \[[Safari et al 2025][research_safari_2025]\] \[[Saito et al 2021][research_saito_2021]\] \[[Saito et al 2022][research_saito_2022]\] \[[Sareen et al 2013][research_sareen_2013]\] \[[Scarano et al 2022][research_scarano_2022]\] \[[Selvanose et al 2024][research_selvanose_2024]\] \[[Sharma and Dutta 2022][research_sharma_dutta_2022]\] \[[Sharma et al 2025][research_sharma_2025]\] \[[Shimizu et al 2021][research_shimizu_2021]\] \[[Sinha and Ravande 2006][research_sinha_ravande_2006]\] \[[Soleimani and Eckels 2021][research_soleimani_eckels_2021]\] \[[Stroh et al 2016][research_stroh_2016]\] \[[Takahashi et al 2019][research_takahashi_2019]\] \[[Vlachos et al 2007][research_vlachos_2007]\] \[[Walsh 1982][research_walsh_1982]\] \[[Walsh and Lindemann 1984][research_walsh_lindemann_1984]\] \[[Walsh et al 1986][research_walsh_1986_2]\] \[[Wang et al 2013][research_wang_2013]\] \[[Wei et al 2013][research_wei_2013]\] \[[Wilkinson et al 1987][research_wilkinson_1987]\] \[[Wong et al 2024][research_wong_2024]\] \[[Wu 1972][research_wu_1972]\] \[[Wu and Tulin 1970][research_wu_tulin_1970]\] \[[Ye et al 2019][research_ye_2019]\] \[[Yonezawa et al 2017][research_yonezawa_2017]\] \[[Youngren 2008][research_youngren_2008]\] \[[Yu 2017][research_yu_2017]\] \[[Zaki 2014][research_zaki_2014]\] \[[Zeng et al 2024][research_zeng_2024]\] \[[Zhang and Yin 2019][research_zhang_yin_2019]\] \[[Zhang et al 2020][research_zhang_2020_3]\] \[[Zhou et al 2020][research_zhou_2020]\] \[[Zhou et al 2022][research_zhou_2022_3]\] \[[Zong et al 2022][research_zong_2022]\]
 
 ### Induced drag, span efficiency, cruise and aircraft design
 
@@ -665,11 +665,11 @@ The programme is unusually well documented for one that ended without a producti
 
 **A caution about the secondary literature.** The figure of eight hundred thousand slots is repeated by reference works, encyclopaedias and aviation histories alike. The 1963 description in [Butz 1963][ref_butz_1963] makes clear that the number counts drilled holes connecting plenums to ducts, and the slot spacings Joslin reports put the slots at of the order of a hundred on each surface. **The error is not consequential for the physics and it is very consequential for the impression the reader forms**, since it converts a precisely engineered surface into something that sounds like a colander.
 
-**The research survey holds 1,431 research records drawn from the NASA Technical Reports Server, the Defense Technical Information Center, the Office of Scientific and Technical Information and the journal literature indexed by Crossref**, of which 415 are report primaries, being 29.0 percent, by the identifier rule set out under The Definition of Primary. **The median publication year is 1999.** Of the 1,407 records that carry a year, 176, or 12.5 percent, are dated 1965 or earlier, the period in which the aircraft was designed and flown, and 563, or 40.0 percent, are dated 2011 or later, so the reference base leans toward the contemporary literature.
+**The research survey holds 1,560 research records drawn from the NASA Technical Reports Server, the Defense Technical Information Center, the Office of Scientific and Technical Information and the journal literature indexed by Crossref**, of which 456 are report primaries, being 29.2 percent, by the identifier rule set out under The Definition of Primary. **The median publication year is 2000.** Of the 1,536 records that carry a year, 186, or 12.1 percent, are dated 1965 or earlier, the period in which the aircraft was designed and flown, and 639, or 41.6 percent, are dated 2011 or later, so the reference base leans toward the contemporary literature.
 
 ### The Definition of Primary
 
-**Primacy is a property of the document, and this survey derives it from the identifier.** A record is a report primary when its address is on the NASA Technical Reports Server or the Office of Scientific and Technical Information, or when it carries a digital object identifier under the 10.21236 prefix, which Crossref registers for Defense Technical Information Center reports. **The Northrop summaries of laminar boundary layer control research and the reports of NASA's leading-edge flight test are report primaries under that rule**, and so is Braslow and Knox's simplified method for the critical roughness height. **The rule does not reach first-hand papers published in journals**, such as [Kosin 1965][research_kosin_1965] on the suction system of the X-21A and [Schubauer and Skramstad 1947][research_schubauer_skramstad_1947] on laminar boundary-layer oscillations, so 29.0 percent is a lower bound on how much of the survey is first-hand.
+**Primacy is a property of the document, and this survey derives it from the identifier.** A record is a report primary when its address is on the NASA Technical Reports Server or the Office of Scientific and Technical Information, or when it carries a digital object identifier under the 10.21236 prefix, which Crossref registers for Defense Technical Information Center reports. **The Northrop summaries of laminar boundary layer control research and the reports of NASA's leading-edge flight test are report primaries under that rule**, and so is Braslow and Knox's simplified method for the critical roughness height. **The rule does not reach first-hand papers published in journals**, such as [Kosin 1965][research_kosin_1965] on the suction system of the X-21A and [Schubauer and Skramstad 1947][research_schubauer_skramstad_1947] on laminar boundary-layer oscillations, so 29.2 percent is a lower bound on how much of the survey is first-hand.
 
 ### Thin Subjects
 
@@ -682,7 +682,7 @@ The programme is unusually well documented for one that ended without a producti
 | cruise performance and the range of a transport | cruise, long range, best range, global range, Breguet | 14 |
 | ice particles acting on laminar flow | ice, ice crystal, ice crystals, cloud, clouds, particle, particles, cloud encounter, cloud encounters together with laminar, laminar flow, LFC | 11 |
 | turbulent spots and wedges | turbulent spot, turbulent spots, turbulent wedge, turbulent wedges | 19 |
-| the power, weight and installation of the suction system | suction power, suction system, suction systems, pumping power, power requirement, power requirements, suction pump, suction pumps | 7 |
+| the power, weight and installation of the suction system | suction power, suction system, suction systems, pumping power, power requirement, power requirements, suction pump, suction pumps | 8 |
 
 **The aeroplane has almost no literature of its own.** Two titles name the X-21, [Kosin 1965][research_kosin_1965] on its suction system and [Wheldon and Whites 1966][research_wheldon_whites_1966] on its flight testing, so the programme's record rests on Braslow's history and Joslin's summary rather than on a body of papers.
 
@@ -692,7 +692,7 @@ The programme is unusually well documented for one that ended without a producti
 
 **The wedge model rests on the spot literature.** One of the 19 titles on spots and wedges names a turbulent wedge, so the spreading angle the cloud calculation uses comes from studies of the spot.
 
-**The installed suction system is named in seven titles and its power in one.** That is the quantity a manufacturer needs and the one this article does not compute.
+**The installed suction system is named in eight titles and its power in one.** That is the quantity a manufacturer needs and the one this article does not compute.
 
 ### What the Survey Admits
 
@@ -813,12 +813,16 @@ What the programme was for, in the end, was to find out whether such a wing coul
 ### Research
 
 - [A low-speed experimental investigation of the effect of a sandpaper type of roughness on boundary-layer transition 1959][research_a_low_speed_1959]
+- [Abbassi et al 2017][research_abbassi_2017]
 - [Abdul Nour and Mueller 1993][research_abdulnour_mueller_1993]
 - [Abegg et al 2000][research_abegg_bippes_2000]
 - [Adcock et al 1966][research_adcock_1966]
 - [Advisory Group for Aerospace Research and Development 1992][research_advisory_group_for_aerospace_research_and_development_1992]
+- [Agrawal et al 1989][research_agrawal_1989]
+- [Ahmadi-Baloutaki et al 2013][research_ahmadibaloutaki_2013]
 - [Ahmed et al 1989][research_ahmed_wentz_1989]
 - [Aircraft energy efficiency program 1979][research_aircraft_energy_1979]
+- [Al-Malki et al 2022][research_almalki_2022]
 - [Albacete and Glowacki 1967][research_albacete_glowacki_1967]
 - [Album 1969][research_album_1969]
 - [Alexander et al 2016][research_alexander_harris_2016]
@@ -829,17 +833,23 @@ What the programme was for, in the end, was to find out whether such a wing coul
 - [Allison 1983][research_allison_1983]
 - [Allison and Dagenhart 1978][research_allison_dagenhart_1978]
 - [Allison and Dagenhart 1987][research_allison_dagenhart_1987]
+- [Ambrosino et al 2025][research_ambrosino_2025]
 - [Amico and Cafiero 2026][research_amico_cafiero_2026]
 - [Anders and Fischer 1999][research_anders_fischer_1999]
+- [Anderson and Meyer 1990][research_anderson_meyer_1990]
 - [Anderson et al 1969][research_anderson_1969]
+- [Anderson et al 1988][research_anderson_1988]
 - [Antunes Dantas][research_antunesdantas]
+- [Ao et al 2021][research_ao_2021]
 - [Arai et al 2000][research_arai_noto_2000]
 - [Arakeri and Narasimha 1983][research_arakeri_narasimha_1983]
 - [Arcara et al 1991][research_arcara_1991]
 - [Archambaud et al 2004][research_archambaud_louis_2004]
 - [Arnal and Juillen 1990][research_arnal_juillen_1990]
+- [Arnal et al 1978][research_arnal_1978]
 - [Arnal et al 1990][research_arnal_casalis_1990]
 - [Arnal et al 2000][research_arnal_seraudie_2000]
+- [Arumugam and Durairaj 2011][research_arumugam_durairaj_2011]
 - [Asai et al][research_asai_konishi]
 - [Asai et al 1997][research_asai_kanda_1997]
 - [Athar et al 2025][research_athar_2025]
@@ -848,6 +858,7 @@ What the programme was for, in the end, was to find out whether such a wing coul
 - [Atkin 2008][research_atkin_2008]
 - [Atkin et al 2006][research_atkin_sunderland_2006]
 - [Azuma 1995][research_azuma_1995]
+- [Azzazy et al 1985][research_azzazy_1985]
 - [Babuev et al 1998][research_babuev_biryukov_1998]
 - [Bai et al 2016][research_bai_2016]
 - [Balakumar 2003][research_balakumar_2003]
@@ -857,6 +868,8 @@ What the programme was for, in the end, was to find out whether such a wing coul
 - [Baldwin 1970][research_baldwin_1970]
 - [Ball 1969][research_ball_1969]
 - [Ball 1970][research_ball_1970]
+- [Bandettini and Isler 1959][research_bandettini_isler_1959]
+- [Banks et al 2012][research_banks_2012]
 - [Banner et al 1958][research_banner_1958]
 - [Baranov et al 2021][research_baranov_kiselev_2021]
 - [Barklage et al 2022][research_barklage_2022]
@@ -876,6 +889,7 @@ What the programme was for, in the end, was to find out whether such a wing coul
 - [Beratlis et al 2016][research_beratlis_2016]
 - [Berry 1986][research_berry_1986]
 - [Berry et al 1987][research_berry_dagenhart_1987]
+- [Berry et al 2008][research_berry_2008]
 - [Bertelrud et al 2000][research_bertelrud_2000]
 - [Bertin et al 1981][research_bertin_1981]
 - [Bertin et al 1996][research_bertin_stetson_1996]
@@ -906,8 +920,15 @@ What the programme was for, in the end, was to find out whether such a wing coul
 - [Boomsma and Sotiropoulos 2015][research_boomsma_sotiropoulos_2015]
 - [Borodulin et al 2015][research_borodulin_2015]
 - [Borodulin et al 2016][research_borodulin_ivanov_2016]
+- [Borodulin et al 2017][research_borodulin_2017]
+- [Borodulin et al 2019][research_borodulin_2019]
+- [Borodulin et al 2020][research_borodulin_2020]
+- [Borodulin et al 2020][research_borodulin_2020_b]
 - [Borodulin et al 2021][research_borodulin_ivanov_2021]
 - [Borodulin et al 2022][research_borodulin_2022]
+- [Borodulin et al 2023][research_borodulin_2023]
+- [Borodulin et al 2025][research_borodulin_2025]
+- [Borodulin et al 2026][research_borodulin_2026]
 - [Borodulin et al 2026][research_borodulin_ivanov_2026]
 - [Botter][research_botter]
 - [Boudreau 1978][research_boudreau_1978]
@@ -921,6 +942,7 @@ What the programme was for, in the end, was to find out whether such a wing coul
 - [Braslow and Fischer 1985][research_braslow_fischer_1985]
 - [Braslow and Knox 1958][research_braslow_knox_1958]
 - [Braslow and Muraca 1978][research_braslow_muraca_1978]
+- [Braslow et al 1951][research_braslow_1951]
 - [Braun et al 2011][research_braun_wicke_2011]
 - [Bravin and Strapp 2019][research_bravin_strapp_2019]
 - [Brennecke 1948][research_brennecke_1948]
@@ -933,6 +955,7 @@ What the programme was for, in the end, was to find out whether such a wing coul
 - [Brooks et al 1991][research_brooks_harris_1991]
 - [Brown and Joubert 1969][research_brown_joubert_1969]
 - [Bruno and Risher 1968][research_bruno_risher_1968]
+- [Brynjell-Rahkola et al 2019][research_brynjellrahkola_2019]
 - [Bui 2013][research_bui_2013]
 - [Bui 2015][research_bui_2015]
 - [Bulat et al 2021][research_bulat_2021]
@@ -945,6 +968,7 @@ What the programme was for, in the end, was to find out whether such a wing coul
 - [Cafiero and Iuso 2022][research_cafiero_iuso_2022]
 - [Campbell and Lynde 2017][research_campbell_lynde_2017]
 - [Campbell et al 1986][research_campbell_waggoner_1986]
+- [Campbell et al 2012][research_campbell_2012]
 - [Carmichael 1979][research_carmichael_1979]
 - [Carpenter et al 2001][research_carpenter_lucey_2001]
 - [Carpenter et al 2008][research_carpenter_saric_2008]
@@ -956,7 +980,9 @@ What the programme was for, in the end, was to find out whether such a wing coul
 - [Catalano et al 2020][research_catalano_2020]
 - [Cebeci 1974][research_cebeci_1974]
 - [Cebeci and Smith 1968][research_cebeci_smith_1968]
+- [Cebeci and Smith 1968][research_cebeci_smith_1968_b]
 - [Ceccio et al 2007][research_ceccio_2007]
+- [Cella et al 2010][research_cella_2010]
 - [Chakraborty et al 2022][research_chakraborty_2022]
 - [Chamorro et al 2013][research_chamorro_2013]
 - [Chang 1960][research_chang_1960]
@@ -967,13 +993,18 @@ What the programme was for, in the end, was to find out whether such a wing coul
 - [Chen and Guo 2025][research_chen_guo_2025]
 - [Chen and Tang 2017][research_chen_tang_2017]
 - [Chen et al 2015][research_chen_2015_2]
+- [Chen et al 2021][research_chen_2021]
 - [Chen et al 2023][research_chen_2023]
 - [Chen et al 2023][research_chen_2023_2]
 - [Cheng 1953][research_cheng_1953]
 - [Chernoray et al 2010][research_chernoray_dovgal_2010]
+- [Chernoray et al 2013][research_chernoray_2013]
 - [Chernyshev et al 2016][research_chernyshev_kiselev_2016]
+- [Cherubini et al 2015][research_cherubini_2015]
 - [Chiu and Norton 1990][research_chiu_norton_1990]
 - [Choi 2004][research_choi_2004]
+- [Choi and Kim 2018][research_choi_kim_2018]
+- [Choi and Kwon 2015][research_choi_kwon_2015]
 - [Choudhari 1992][research_choudhari_1992]
 - [Choudhari et al][research_meelan_choudhari]
 - [Choudhari et al 2003][research_choudhari_chang_2003]
@@ -991,6 +1022,8 @@ What the programme was for, in the end, was to find out whether such a wing coul
 - [Coder 2021][research_coder_2021]
 - [Coder 2026][research_coder_2026]
 - [Coder and Somers 2020][research_coder_somers_2020]
+- [Coder et al 2014][research_coder_2014]
+- [Coleman 1957][research_coleman_1957]
 - [Coleman 1998][research_coleman_1998]
 - [Coleman and Poll 2001][research_coleman_poll_2001]
 - [Coleman et al 1989][research_coleman_1989]
@@ -1007,12 +1040,16 @@ What the programme was for, in the end, was to find out whether such a wing coul
 - [Cope 1952][research_cope_1952]
 - [Corelli Grappadelli et al 2022][research_corelligrappadelli_sudhi_2022]
 - [Corelli Grappadelli et al 2023][research_corelligrappadelli_olivucci_2023]
+- [Corelli Grappadelli et al 2025][research_corelligrappadelli_2025]
 - [Corelli Grappadelli et al 2026][research_corelli_grappadelli_2026]
 - [Cornish 1963][research_cornish_1963]
+- [Cornish 2024][research_cornish_2024]
 - [Cornish III and Boatwright 1960][research_cornish_iii_boatwright_1960]
 - [Coutu et al 2011][research_coutu_brailovski_2011]
 - [Crabtree 1954][research_crabtree_1954]
+- [Craig and Saric 2015][research_craig_saric_2015]
 - [Craik 1980][research_craik_1980]
+- [Creel 1991][research_creel_1991]
 - [Creel et al 1987][research_creel_beckwith_1987]
 - [Croom and Holmes 1985][research_croom_holmes_1985]
 - [Croom and Holmes 1986][research_croom_holmes_1986]
@@ -1029,6 +1066,7 @@ What the programme was for, in the end, was to find out whether such a wing coul
 - [Cumpsty and Head 1980][research_cumpsty_head_1980]
 - [Curle 1960][research_curle_1960]
 - [Cutrone et al][research_l_cutrone]
+- [Dagenhart 1992][research_dagenhart_1992]
 - [Dagenhart and Saric 1999][research_dagenhart_saric_1999]
 - [Dagenhart et al 1989][research_dagenhart_1989]
 - [Dagenhart et al 1990][research_dagenhart_saric_1990]
@@ -1046,6 +1084,7 @@ What the programme was for, in the end, was to find out whether such a wing coul
 - [de Bruin 1990][research_debruin_1990]
 - [De Pauw and Dolatabadi 2017][research_de_pauw_dolatabadi_2017]
 - [de Rosa and Donelli 2020][research_de_rosa_donelli_2020]
+- [De Tullio et al 2013][research_detullio_2013]
 - [De Vincentiis et al 2021][research_devincentiis_henningson_2021]
 - [Demetriades 1958][research_demetriades_1958]
 - [Demetriades 1977][research_demetriades_1977]
@@ -1060,17 +1099,21 @@ What the programme was for, in the end, was to find out whether such a wing coul
 - [Deyoung 1980][research_deyoung_1980]
 - [Dietz et al 1999][research_dietz_coleman_1999]
 - [Dimas et al 2003][research_dimas_mowli_2003]
+- [Dimond et al 2019][research_dimond_2019]
 - [Dimotakis et al 2003][research_dimotakis_2003]
 - [Djeddi and Ekici 2024][research_djeddi_ekici_2024]
+- [Dodbele 1990][research_dodbele_1990]
 - [Dodbele 1992][research_dodbele_1992]
 - [Dodbele et al 1986][research_dodbele_1986]
 - [Dodd et al 2001][research_dodd_tutty_2001]
 - [Dommett 1959][research_dommett_1959]
 - [Dorrance and Dore 1954][research_dorrance_dore_1954]
 - [Dou et al 2026][research_dou_2026]
+- [Dougherty and Fisher 1980][research_dougherty_fisher_1980]
 - [Doyle 2001][research_doyle_2001]
 - [Drag Reduction Performance of Triangular (V-groove) Riblets with Different Adjacent Height Ratios 2023][research_drag_reduction_2023]
 - [Drake et al 1994][research_drake_kennelly_1994]
+- [Drake et al 1996][research_drake_1996]
 - [Drake et al 2005][research_drake_2005]
 - [Dryasov et al 2016][research_dryasov_2016]
 - [Du et al 2023][research_du_2023]
@@ -1096,12 +1139,17 @@ What the programme was for, in the end, was to find out whether such a wing coul
 - [Egorov et al 2026][research_egorov_2026]
 - [Egreteau et al 2022][research_egreteau_davoine_2022]
 - [Egreteau et al 2024][research_egreteau_muredalexis_2024]
+- [El-Gamal and Barclay 1975][research_elgamal_barclay_1975]
 - [Elkouh 1971][research_elkouh_1971]
 - [Eppink 2017][research_jennaleppink_2017]
 - [Eppink 2018][research_jennaleppink_2018]
+- [Eppink 2021][research_eppink_2021]
 - [Eppink 2023][research_eppink_2023]
 - [Eppink and Wlezien 2011][research_jenna_l_eppink_richard_wlezien_2011]
+- [Eppink and Yao 2017][research_eppink_yao_2017]
 - [Eppink et al 2015][research_jennaleppink_richardwwlezien_2015]
+- [Eppink et al 2019][research_eppink_2019]
+- [Eppink et al 2023][research_eppink_2023_b]
 - [Esaki et al 2018][research_esaki_2018]
 - [Etchberger 1983][research_etchberger_1983]
 - [Evaluation of laminar flow 1980][research_evaluation_of_1980]
@@ -1117,6 +1165,7 @@ What the programme was for, in the end, was to find out whether such a wing coul
 - [Fedorov and Soudakov 2014][research_fedorov_soudakov_2014]
 - [Fehrs and Kaiser 2025][research_fehrs_kaiser_2025]
 - [Ferrari and Cirisano 2023][research_ferrari_cirisano_2023]
+- [Ferziger and Reed 1988][research_ferziger_reed_1988]
 - [Finishing and inspection of model surfaces for boundary-Layer-Transition tests 1959][research_finishing_and_1959]
 - [First Laminar Flow Flight Tests Prove Drag Reduction Potential 1992][research_first_laminar_1992]
 - [Fischer 1992][research_fischer_1992]
@@ -1124,6 +1173,8 @@ What the programme was for, in the end, was to find out whether such a wing coul
 - [Fischer et al 1983][research_fischer_wright_1983]
 - [Fischler 1986][research_fischler_1986]
 - [Fischler et al 1989][research_fischler_jerstad_1989]
+- [Fisher and Dougherty 1982][research_fisher_dougherty_1982]
+- [Fisher and Dougherty 1982][research_fisher_dougherty_1982_b]
 - [Fisher and Fischer 1987][research_fisher_fischer_1987]
 - [Fisher and Peterson 1978][research_fisher_peterson_1978]
 - [Flax et al 1953][research_flax_1953]
@@ -1163,7 +1214,7 @@ What the programme was for, in the end, was to find out whether such a wing coul
 - [Gibbings 1959][research_gibbings_1959]
 - [Gibson and Gerhardt 1995][research_gibson_gerhardt_1995]
 - [Gilman and Burdges 1967][research_gilman_burdges_1967]
-- [GKN Aerospace helps improve aircraft laminar flow 2016][research_gkn_aerospace_2016]
+- [Glauser et al 2014][research_glauser_2014]
 - [Glezer et al 1986][research_glezer_1986]
 - [Gogineni 2014][research_gogineni_2014]
 - [Goglia and Wilkinson 1980][research_goglia_wilkinson_1980]
@@ -1186,10 +1237,12 @@ What the programme was for, in the end, was to find out whether such a wing coul
 - [Gregory 1961][research_gregory_1961]
 - [Gribben 1959][research_gribben_1959]
 - [Grigor’ev and Ershov 2019][research_grigorev_ershov_2019]
+- [Groot et al 2026][research_groot_2026]
 - [Groth 1961][research_groth_1961]
 - [Guha and Sengupta 2025][research_guha_sengupta_2025]
 - [Guo and Kloker 2020][research_guo_kloker_2020]
 - [Guo et al 2020][research_guo_2020]
+- [Guo et al 2022][research_guo_2022]
 - [Gurevich et al 2019][research_gurevich_2019]
 - [Guynn 2011][research_guynn_2011]
 - [Görtler and Velte 1967][research_gortler_velte_1967]
@@ -1228,6 +1281,7 @@ What the programme was for, in the end, was to find out whether such a wing coul
 - [Hastings et al 1987][research_hastings_1987]
 - [Hayashi and Yamamoto 2014][research_hayashi_yamamoto_2014]
 - [Haynes and Reed 1996][research_haynes_reed_1996]
+- [He et al 2018][research_he_2018]
 - [He et al 2019][research_he_2019]
 - [Head 1961][research_head_1961]
 - [Hebbar and Paranjpe 1969][research_hebbar_paranjpe_1969]
@@ -1235,6 +1289,7 @@ What the programme was for, in the end, was to find out whether such a wing coul
 - [Heeg and Geurts][research_heeg_geurts]
 - [Hefner 1992][research_hefner_1992]
 - [Hefner and Bushnell 1979][research_hefner_bushnell_1979]
+- [Hefner and Bushnell 1980][research_hefner_bushnell_1980]
 - [Hefner and Sabo 1987][research_jerry_n_hefner_frances_e_sabo_1987]
 - [Hefner and Wagner 1986][research_hefner_wagner_1986]
 - [Hein et al 2009][research_hein_schulein_2009]
@@ -1266,6 +1321,7 @@ What the programme was for, in the end, was to find out whether such a wing coul
 - [Holmes et al 1983][research_holmes_1983]
 - [Holmes et al 1984][research_holmes_1984]
 - [Holmes et al 1985][research_holmes_1985]
+- [Holmes et al 1986][research_holmes_1986_b]
 - [Holmes et al 1986][research_holmes_croom_1986]
 - [Holt 1943][research_holt_1943]
 - [Hopkins and Keener 1968][research_hopkins_keener_1968]
@@ -1273,15 +1329,18 @@ What the programme was for, in the end, was to find out whether such a wing coul
 - [Hopkins et al 1960][research_hopkins_1960]
 - [Hopkins et al 1970][research_hopkins_1970]
 - [Hopkins et al 1972][research_hopkins_1972]
+- [Hornung 2002][research_hornung_2002]
 - [Horstmann 2008][research_horstmann_2008]
 - [Horstmann et al 1990][research_horstmann_quast_1990]
 - [Horstmann et al 1990][research_horstmann_redeker_1990]
 - [Hosseini et al 2013][research_hosseini_tempelmann_2013]
+- [Hosseini et al 2015][research_hosseini_2015]
 - [Hosseinverdi and Fasel 2018][research_hosseinverdi_fasel_2018]
 - [Hosseinverdi and Fasel 2023][research_hosseinverdi_fasel_2023]
 - [Hou and Choy 2022][research_hou_choy_2022]
 - [Howard et al 1975][research_howard_1975]
 - [Howell 1970][research_howell_1970]
+- [Hsu 1989][research_hsu_1989]
 - [Hu and Yao 2023][research_hu_yao_2023]
 - [Hu and Yao 2024][research_hu_yao_2024]
 - [Hu et al 2021][research_hu_2021]
@@ -1305,9 +1364,11 @@ What the programme was for, in the end, was to find out whether such a wing coul
 - [Itoh 2000][research_itoh_2000]
 - [Itoh 2000][research_itoh_2000_b]
 - [Iuliano et al 2011][research_iuliano_2011]
+- [Iyer and Mahesh 2013][research_iyer_mahesh_2013]
 - [Iyer and Spall 1991][research_iyer_spall_1991]
 - [Iyer et al 1992][research_iyer_spall_1992]
 - [Jahanbakhshi and Zaki 2019][research_jahanbakhshi_zaki_2019]
+- [James 1959][research_james_1959]
 - [Janke 2001][research_janke_2001]
 - [Jasperson et al 1984][research_jasperson_nastrom_1984]
 - [Jasperson et al 1984][research_jasperson_nastron_1984]
@@ -1321,6 +1382,7 @@ What the programme was for, in the end, was to find out whether such a wing coul
 - [Jobe et al 1978][research_jobe_kulfan_1978]
 - [Jobe et al 1979][research_jobe_kulfan_1979]
 - [Johnson 1988][research_johnson_1988]
+- [Johnson et al 1972][research_johnson_1972]
 - [Johnston 1970][research_johnston_1970]
 - [Jones et al 1989][research_jones_stainback_1989]
 - [Joseph and Diwan 2022][research_joseph_diwan_2022]
@@ -1341,6 +1403,7 @@ What the programme was for, in the end, was to find out whether such a wing coul
 - [Kakkar et al 2026][research_kakkar_streit_2026]
 - [Kalarikovilagam Srinivasan and Bertram 2019][research_kalarikovilagam_srinivasan_bertram_2019]
 - [Kanda 2019][research_kanda_2019]
+- [Kandil and El-Hady 1988][research_kandil_elhady_1988]
 - [Kaneko et al 2026][research_kaneko_2026]
 - [Kanner and Schetz 1999][research_kanner_schetz_1999]
 - [Kapustin et al 2022][research_kapustin_2022]
@@ -1359,6 +1422,7 @@ What the programme was for, in the end, was to find out whether such a wing coul
 - [Kelnhofer 1969][research_kelnhofer_1969]
 - [Kendall 1982][research_kendall_1982]
 - [Kerho and Bragg 1995][research_kerho_bragg_1995]
+- [Kerschen 1987][research_kerschen_1987]
 - [Khan et al 1982][research_khan_cornelius_1982]
 - [Khanjari et al 2023][research_khanjari_2023]
 - [Khotyanovsky and Kudryavtsev 2016][research_khotyanovsky_kudryavtsev_2016]
@@ -1368,6 +1432,7 @@ What the programme was for, in the end, was to find out whether such a wing coul
 - [Kimmel et al 2015][research_kimmel_borg_2015]
 - [Kinney 1967][research_kinney_1967]
 - [Kirilovskiy et al 2019][research_kirilovskiy_2019]
+- [Kitzinger et al 2023][research_kitzinger_2023]
 - [Klebanoff 1966][research_klebanoff_1966]
 - [Klebanoff and Tidstrom 1972][research_klebanoff_tidstrom_1972]
 - [Kline et al 2019][research_kline_chang_2019]
@@ -1383,6 +1448,7 @@ What the programme was for, in the end, was to find out whether such a wing coul
 - [Kok and Young 2014][research_kok_young_2014]
 - [Kok et al 2013][research_kok_mertens_2013]
 - [Kok et al 2014][research_kok_tobin_2014]
+- [Kok et al 2015][research_kok_2015]
 - [Kok et al 2017][research_kok_tobin_2017]
 - [Kolesar 1987][research_kolesar_1987]
 - [Komar 1966][research_komar_1966]
@@ -1413,6 +1479,7 @@ What the programme was for, in the end, was to find out whether such a wing coul
 - [Kurz and Kloker 2014][research_kurz_kloker_2014]
 - [Kurz and Kloker 2016][research_kurz_kloker_2016]
 - [Lachmann 1959][research_lachmann_1959]
+- [Lachmann 1962][research_lachmann_1962]
 - [Laflin and Papadakis 2001][research_laflin_papadakis_2001]
 - [LaGraff 2001][research_lagraff_2001]
 - [LaGraff 2007][research_lagraff_2007]
@@ -1447,6 +1514,7 @@ What the programme was for, in the end, was to find out whether such a wing coul
 - [Lees and Reshotko 1962][research_lees_reshotko_1962]
 - [Leitsina and Pavlyukevich 1968][research_leitsina_pavlyukevich_1968]
 - [Lekoudis 1980][research_lekoudis_1980]
+- [Leonard 1979][research_leonard_1979]
 - [Leroy et al 2016][research_leroy_2016]
 - [Leroy et al 2017][research_leroy_2017]
 - [Leslie M Mack 1984][research_leslie_m_mack_1984]
@@ -1456,6 +1524,7 @@ What the programme was for, in the end, was to find out whether such a wing coul
 - [Leventhal and Reshotko 1981][research_leventhal_reshotko_1981]
 - [Li and Choudhari 2008][research_li_choudhari_2008]
 - [Li and Choudhari 2011][research_li_choudhari_2011]
+- [Li and Luo 2012][research_li_luo_2012]
 - [Li and Nagamatsu 1953][research_li_nagamatsu_1953]
 - [Li and Su 2025][research_li_su_2025]
 - [Li and Zhong 2016][research_li_zhong_2016]
@@ -1464,6 +1533,7 @@ What the programme was for, in the end, was to find out whether such a wing coul
 - [Li et al 2010][research_li_choudhari_2010]
 - [Li et al 2011][research_li_choudhari_2011_b]
 - [Li et al 2013][research_li_wang_2013]
+- [Li et al 2014][research_li_2014]
 - [Li et al 2020][research_li_2020]
 - [Li et al 2022][research_li_2022]
 - [Li et al 2023][research_li_2023]
@@ -1487,6 +1557,7 @@ What the programme was for, in the end, was to find out whether such a wing coul
 - [Liu 1967][research_liu_1967]
 - [Liu 2019][research_liu_2019]
 - [Liu et al 2022][research_liu_2022]
+- [Liu et al 2023][research_liu_2023_b]
 - [Liu et al 2026][research_liu_2026]
 - [Lo 1994][research_lo_1994]
 - [Lobitz et al 2023][research_lobitz_2023]
@@ -1500,7 +1571,9 @@ What the programme was for, in the end, was to find out whether such a wing coul
 - [Low 1955][research_low_1955]
 - [Low 1956][research_low_1956]
 - [Low Drag Airfoil Design Utilizing Passive Laminar Flow and Coupled Diffusion Control 1980][research_low_drag_1980]
+- [Lozano-Durán et al 2018][research_lozanoduran_2018]
 - [Lu and Luo 2017][research_lu_luo_2017]
+- [Lu et al 2026][research_lu_2026]
 - [Lundry 1967][research_lundry_1967]
 - [Luo and Zhou 2000][research_luo_zhou_2000]
 - [Lynde and Campbell 2016][research_lynde_campbell_2016]
@@ -1509,6 +1582,7 @@ What the programme was for, in the end, was to find out whether such a wing coul
 - [Lyons et al 1961][research_lyons_1961]
 - [Lyons et al 1962][research_lyons_1962]
 - [Lysenko 1995][research_lysenko_1995]
+- [Lysenko et al 2024][research_lysenko_2024]
 - [Lüdeke and Breitenstein 2021][research_ludeke_breitenstein_2021]
 - [Ma and Mahesh 2023][research_ma_mahesh_2023]
 - [Ma et al 2023][research_ma_2023]
@@ -1533,6 +1607,7 @@ What the programme was for, in the end, was to find out whether such a wing coul
 - [Maeda 1968][research_maeda_1968]
 - [Mahfoze and Laizet 2017][research_mahfoze_laizet_2017]
 - [Malik][research_mujeebrmalik]
+- [Malik 1987][research_malik_1987]
 - [Malik and Li 1993][research_malik_li_1993]
 - [Malik et al 1999][research_malik_li_1999]
 - [Malik et al 2007][research_malik_li_2007]
@@ -1553,6 +1628,7 @@ What the programme was for, in the end, was to find out whether such a wing coul
 - [Manuilovich 2021][research_manuilovich_2021]
 - [Manuilovich 2023][research_manuilovich_2023]
 - [Maresh and Bragg 1984][research_maresh_bragg_1984]
+- [Marineau 2017][research_marineau_2017]
 - [Marino et al 1975][research_marino_1975]
 - [Marshall 1999][research_marshall_1999]
 - [Marshall 2000][research_marshall_2000]
@@ -1575,8 +1651,10 @@ What the programme was for, in the end, was to find out whether such a wing coul
 - [Mawignon et al 2023][research_mawignon_2023]
 - [Mačák and Fürst 2023][research_macak_furst_2023]
 - [McCAULEY et al 1966][research_mccauley_1966]
+- [McCroskey 1969][research_mccroskey_1969]
 - [McCullough and Gault 1947][research_mccullough_gault_1947]
 - [McCullough and Gault 1948][research_mccullough_gault_1948]
+- [McCullough and Gault 1950][research_mccullough_gault_1950]
 - [McElderry 1973][research_mcelderry_1973]
 - [McQuilkin 1982][research_mcquilkin_1982]
 - [Meade 1977][research_meade_1977]
@@ -1606,12 +1684,15 @@ What the programme was for, in the end, was to find out whether such a wing coul
 - [Miró Miró 2020][research_miromiro_2020]
 - [Mishriky and Walsh 2018][research_mishriky_walsh_2018]
 - [Mistry et al 2012][research_mistry_page_2012]
+- [Mochizuki 1961][research_mochizuki_1961]
 - [Moniripiri et al 2023][research_moniripiri_brito_2023]
+- [Moniripiri et al 2026][research_moniripiri_2026]
 - [Montoya et al 1981][research_montoya_1981]
 - [Moralev et al 2020][research_moralev_2020]
 - [Moralev et al 2021][research_moralev_2021]
 - [Moralev et al 2022][research_moralev_2022]
 - [Morduchow 1963][research_morduchow_1963]
+- [Morduchow and Reyle 1967][research_morduchow_reyle_1967]
 - [Morgan and Davies 2020][research_morgan_davies_2020]
 - [Mori et al 2024][research_mori_yakeno_2024]
 - [Morita 1971][research_morita_1971]
@@ -1619,6 +1700,7 @@ What the programme was for, in the end, was to find out whether such a wing coul
 - [Morrisette and Creel 1987][research_morrisette_creel_1987]
 - [Morrisette et al 1986][research_morrisette_creel_1986]
 - [Mosca and Karpuk 2025][research_mosca_karpuk_2025]
+- [Mosca et al 2024][research_mosca_2024]
 - [Mossop and Hallett 1974][research_mossop_hallett_1974]
 - [Mossop and Ono 1969][research_mossop_ono_1969]
 - [Moulic 1963][research_moulic_1963]
@@ -1630,6 +1712,7 @@ What the programme was for, in the end, was to find out whether such a wing coul
 - [Murri et al 1987][research_murri_mcghee_1987]
 - [Nagamatsu et al 1964][research_nagamatsu_1964]
 - [Nahoui et al 2025][research_nahoui_2025]
+- [Nakagawa et al 1978][research_nakagawa_1978]
 - [Nakagawa et al 2023][research_nakagawa_2023]
 - [Nangia et al 2003][research_nangia_palmer_2003]
 - [Nark 1963][research_nark_1963]
@@ -1653,6 +1736,7 @@ What the programme was for, in the end, was to find out whether such a wing coul
 - [Nitsche and Szodruch 1993][research_nitsche_szodruch_1993]
 - [Niu and Li 2022][research_niu_li_2022]
 - [Niu and Su 2023][research_niu_su_2023]
+- [Niu et al 2024][research_niu_2024]
 - [Niu et al 2025][research_niu_2025]
 - [Nomura 2006][research_nomura_2006]
 - [Norde et al 2018][research_norde_2018]
@@ -1663,8 +1747,10 @@ What the programme was for, in the end, was to find out whether such a wing coul
 - [Northrop Corp Hawthorne Ca Norair Div 1964][research_northrop_corp_hawthorne_ca_norair_div_1964_2]
 - [Nouri-Borujerdi and Seyyed-Hashemi 2016][research_nouri_borujerdi_seyyed_hashemi_2016]
 - [Novikov et al 2024][research_novikov_obraz_2024]
+- [Obara and Holmes 1985][research_obara_holmes_1985]
 - [Obara and Holmes 1986][research_obara_holmes_1986]
 - [Obara et al 1986][research_obara_hastings_1986]
+- [Obara et al 1990][research_obara_1990]
 - [Obrist and Schmid 2003][research_obrist_schmid_2003]
 - [Oliver 2015][research_oliver_2015]
 - [Olivucci et al 2021][research_olivucci_2021]
@@ -1692,6 +1778,7 @@ What the programme was for, in the end, was to find out whether such a wing coul
 - [Pate 1964][research_pate_1964]
 - [Pate 1969][research_pate_1969]
 - [Pate 1970][research_pate_1970]
+- [Pate 1971][research_pate_1971]
 - [Pate 1980][research_pate_1980]
 - [Pate and Brillhart 1963][research_pate_brillhart_1963]
 - [Pate and Deitering 1963][research_pate_deitering_1963]
@@ -1706,12 +1793,14 @@ What the programme was for, in the end, was to find out whether such a wing coul
 - [Pechau 1963][research_pechau_1963]
 - [Peltzer and Nitsche 2004][research_peltzer_nitsche_2004]
 - [Peng et al 2024][research_peng_2024]
+- [Perlin et al 2016][research_perlin_2016]
 - [Perraud et al 2003][research_perraud_moens_2003]
 - [Perry and Ansell 2017][research_perry_ansell_2017]
 - [Persh 1956][research_persh_1956]
 - [Persh 1957][research_persh_1957]
 - [Peters et al 2024][research_peters_2024]
 - [Peterson and Fisher 1978][research_peterson_fisher_1978]
+- [Peterson and Horton 1959][research_peterson_horton_1959]
 - [Petley et al 1985][research_petley_alexander_1985]
 - [Petzold and Radespiel 2015][research_petzold_radespiel_2015]
 - [Pfenninger 1949][research_pfenninger_1949]
@@ -1736,14 +1825,18 @@ What the programme was for, in the end, was to find out whether such a wing coul
 - [Piscitelli et al 2020][research_piscitelli_2020]
 - [Pisharoti and Brizzolara 2025][research_pisharoti_brizzolara_2025]
 - [Placek and Ruchała 2018][research_placek_ruchaa_2018]
+- [Placidi et al 2023][research_placidi_2023]
+- [Plate boundary layer transition 2023][research_plate_boundary_2023]
 - [Pohya and Wicke 2019][research_pohya_wicke_2019]
 - [Pohya et al 2019][research_pohya_2019]
 - [Poll 1979][research_poll_1979]
 - [Poll 1980][research_poll_1980]
 - [Poll 1981][research_poll_1981]
+- [Poll 1983][research_poll_1983]
 - [Poll 2000][research_poll_2000]
 - [Poll 2007][research_poll_2007]
 - [Poll and Danks 1995][research_poll_danks_1995]
+- [Poll and Paisley 1985][research_poll_paisley_1985]
 - [Poots 1965][research_poots_1965]
 - [Poreh and Hsu 1972][research_poreh_hsu_1972]
 - [Potter 1968][research_potter_1968]
@@ -1752,6 +1845,7 @@ What the programme was for, in the end, was to find out whether such a wing coul
 - [Potter and Whitfield 1962][research_potter_whitfield_1962]
 - [Potter and Whitfield 1964][research_potter_whitfield_1964]
 - [Potts et al 2023][research_potts_2023]
+- [Poulain et al 2024][research_poulain_2024]
 - [Povinelli et al 1976][research_povinelli_1976]
 - [Powell 1987][research_powell_1987]
 - [Powell et al 1989][research_powell_agrawal_1989]
@@ -1803,6 +1897,7 @@ What the programme was for, in the end, was to find out whether such a wing coul
 - [Reed 1985][research_reed_1985]
 - [Reed 1989][research_reed_1989]
 - [Reed 1990][research_reed_1990]
+- [Reed 1991][research_reed_1991]
 - [Reed and Nayfeh 1981][research_reed_nayfeh_1981]
 - [Reed and Saric 2002][research_reed_saric_2002]
 - [Reed and Saric 2013][research_reed_saric_2013]
@@ -1811,7 +1906,9 @@ What the programme was for, in the end, was to find out whether such a wing coul
 - [Reibert et al 1996][research_reibert_saric_1996]
 - [Reibert et al 1997][research_reibert_saric_1997]
 - [Report No. 349. A proof of the theorem regarding the distribution of lift over the span, for minimum induced drag 1930][research_report_no_1930]
+- [Reshotko 1990][research_reshotko_1990]
 - [Review of the effect of distributed surface roughness on boundary-layer transition 1962][research_review_of_1962]
+- [Reynolds et al 1982][research_reynolds_1982]
 - [Rhudy 1970][research_rhudy_1970]
 - [Ricco et al 2013][research_ricco_shah_2013]
 - [Ricco et al 2021][research_ricco_2021]
@@ -1822,7 +1919,11 @@ What the programme was for, in the end, was to find out whether such a wing coul
 - [Rioual et al 1994][research_rioual_nelson_1994]
 - [Risse and Stumpf 2014][research_risse_stumpf_2014]
 - [Risse et al 2014][research_risse_schueltke_2014]
+- [Rius-Vidales and Kotsonis 2020][research_riusvidales_kotsonis_2020]
+- [Rius-Vidales and Kotsonis 2022][research_riusvidales_kotsonis_2022]
 - [Rizzetta and Garmann 2025][research_rizzetta_garmann_2025]
+- [Rizzetta and Visbal 2015][research_rizzetta_visbal_2015]
+- [Rizzetta and Visbal 2015][research_rizzetta_visbal_2015_b]
 - [Rizzetta and Visbal 2016][research_rizzetta_visbal_2016]
 - [Rizzetta and Visbal 2016][research_rizzetta_visbal_2016_b]
 - [Rizzetta and Visbal 2016][research_rizzetta_visbal_2016_c]
@@ -1837,8 +1938,10 @@ What the programme was for, in the end, was to find out whether such a wing coul
 - [Robison and Loth 2017][research_robison_loth_2017]
 - [Rogers 1979][research_rogers_1979]
 - [Rogers and King 1984][research_rogers_king_1984]
+- [Romano et al 2017][research_romano_2017]
 - [Rosenbaum 1966, Turbulent compressible boundary l][research_rosenbaum_1966]
 - [Rothstein 2010][research_rothstein_2010]
+- [Rouviere et al 2023][research_rouviere_2023]
 - [Roy and Saikrishnan 2003][research_roy_saikrishnan_2003]
 - [Rubesin and Johnson 1949][research_rubesin_johnson_1949]
 - [Rudenko and Ryzhkova 1968][research_rudenko_ryzhkova_1968]
@@ -1849,6 +1952,7 @@ What the programme was for, in the end, was to find out whether such a wing coul
 - [Sabater et al 2022][research_sabater_2022]
 - [Saeed and Graham 2015][research_saeed_graham_2015]
 - [Saeed et al 2010][research_saeed_graham_2010]
+- [Saeed et al 2011][research_saeed_2011]
 - [Safari et al 2025][research_safari_2025]
 - [Saito et al 2021][research_saito_2021]
 - [Saito et al 2022][research_saito_2022]
@@ -1869,6 +1973,7 @@ What the programme was for, in the end, was to find out whether such a wing coul
 - [Satish et al 2017][research_satish_2017]
 - [Sattarzadeh and Fransson 2016][research_sattarzadeh_fransson_2016]
 - [Savoshchik and Tokhunts 1974][research_savoshchik_tokhunts_1974]
+- [Scarano et al 2022][research_scarano_2022]
 - [Schlichting 1949][research_schlichting_1949]
 - [Schlichting and Gersten 2000][research_schlichting_gersten_2000]
 - [Schneider and Beckwith 1992][research_schneider_beckwith_1992]
@@ -1911,6 +2016,7 @@ What the programme was for, in the end, was to find out whether such a wing coul
 - [Sharma et al 2025][research_sharma_2025]
 - [Sheetz 1965][research_sheetz_1965]
 - [Shepherd 2014][research_shepherd_2014]
+- [Shi et al 2015][research_shi_2015]
 - [Shi et al 2020][research_shi_2020]
 - [Shi et al 2021][research_shi_2021]
 - [Shi et al 2023][research_shi_2023]
@@ -1934,9 +2040,12 @@ What the programme was for, in the end, was to find out whether such a wing coul
 - [Smith and Clutter 1959][research_smith_clutter_1959]
 - [Smith and Kroo 1990][research_smith_kroo_1990]
 - [Snyder and Zumwalt 1969][research_snyder_zumwalt_1969]
+- [Sohn and Reshotko 1991][research_sohn_reshotko_1991]
 - [Sokolov et al 1980][research_sokolov_1980]
 - [Soleimani and Eckels 2021][research_soleimani_eckels_2021]
+- [Soltani et al 2011][research_soltani_2011]
 - [Somers 1992][research_somers_1992]
+- [Somers 2012][research_somers_2012]
 - [Somers 2019][research_somers_2019]
 - [Somers and Maughmer 2022][research_dan_m_somers_mark_d_maughmer_2022]
 - [Song and Liu 2025][research_song_liu_2025]
@@ -1945,6 +2054,7 @@ What the programme was for, in the end, was to find out whether such a wing coul
 - [Spaid 1969][research_spaid_1969]
 - [Spalding and Chi 1963][research_spalding_chi_1963]
 - [Spalding and Chi 1964][research_spalding_chi_1964]
+- [Spall and Malik 1992][research_spall_malik_1992]
 - [Sparrow et al 1963][research_sparrow_1963]
 - [Speer et al 2004][research_speer_zhong_2004]
 - [Spence 1960][research_spence_1960]
@@ -1977,13 +2087,13 @@ What the programme was for, in the end, was to find out whether such a wing coul
 - [Sudhi et al 2023][research_sudhi_2023]
 - [Sullivan et al 2017][research_sullivan_2017]
 - [Sullivan et al 2022][research_sullivan_2022]
+- [Sun and Du 2026][research_sun_du_2026]
 - [Suryanarayanan et al 2017][research_suryanarayanan_goldstein_2017]
 - [Swafford 1979][research_swafford_1979]
 - [Swean and Inger 1974][research_swean_inger_1974]
 - [Swift and Mungur 1979][research_swift_mungur_1979]
 - [Swigart 1972][research_swigart_1972]
 - [Swinford 1976][research_swinford_1976]
-- [Symposium on Boundary Layer Effects in Aerodynamics 1955][research_symposium_on_1955]
 - [Szulga et al 2015][research_szulga_2015]
 - [Takahashi et al 2019][research_takahashi_2019]
 - [Takematsu 1970][research_takematsu_1970]
@@ -1995,6 +2105,7 @@ What the programme was for, in the end, was to find out whether such a wing coul
 - [Tani 1961][research_tani_1961]
 - [Tani 1980][research_tani_1980]
 - [Tani and Hama 1953][research_tani_hama_1953]
+- [Tani and Sato 1956][research_tani_sato_1956]
 - [Tao et al 2020][research_tao_xiong_2020]
 - [Tatar et al 2019][research_tatar_tahani_2019]
 - [Tatsumi 1952][research_tatsumi_1952]
@@ -2015,6 +2126,8 @@ What the programme was for, in the end, was to find out whether such a wing coul
 - [Thompson 1970][research_thompson_1970]
 - [Thompson and Emrich 1967][research_thompson_emrich_1967]
 - [Three-dimensional boundary-layer transition on a swept wing at Mach 3.5 1994][research_three_dimensional_boundary_layer_1994]
+- [Thummar et al 2023][research_thummar_2023]
+- [Thummar et al 2024][research_thummar_2024]
 - [Tokhunts 1968][research_tokhunts_1968]
 - [Tokugawa and Yoshida 2006][research_tokugawa_yoshida_2006]
 - [Tokugawa et al 2008][research_tokugawa_2008]
@@ -2023,6 +2136,7 @@ What the programme was for, in the end, was to find out whether such a wing coul
 - [Tolkachev et al 2012][research_tolkachev_gorev_2012_b]
 - [Toppings and Yarusevych 2023][research_toppings_yarusevych_2023]
 - [Torda 1952][research_torda_1952]
+- [Torda 1953][research_torda_1953]
 - [Tracy et al 2002][research_tracy_sturdza_2002]
 - [Transonic flight test of a laminar flow leading edge with surface excrescences 1994][research_transonic_flight_1994]
 - [Traub 2026][research_traub_2026]
@@ -2034,10 +2148,13 @@ What the programme was for, in the end, was to find out whether such a wing coul
 - [Tucker et al 2014][research_tucker_saric_2014_b]
 - [Tucker et al 2016][research_tucker_2016]
 - [Tucker et al 2016][research_tucker_reed_2016]
+- [Tufts et al 2014][research_tufts_2014]
 - [Tufts et al 2014][research_tufts_reed_2014]
 - [Turriziani et al 1979][research_turriziani_lovell_1979]
+- [Tuttle and Maddalon 1982][research_tuttle_maddalon_1982]
 - [Tutty et al 2000][research_tutty_hackenberg_2000]
 - [Twiss et al 2019][research_twiss_colletti_2019]
+- [Ueda et al 2014][research_ueda_2014]
 - [Uram 1960][research_uram_1960]
 - [Ustinov][research_ustinov]
 - [Ustinov 2004][research_ustinov_2004]
@@ -2053,7 +2170,9 @@ What the programme was for, in the end, was to find out whether such a wing coul
 - [van Dam and Holmes 1988][research_vandam_holmes_1988]
 - [Van Dam et al 1993][research_vandam_vijgen_1993]
 - [Van Driest and Blumer 1961][research_van_driest_blumer_1961]
+- [Van Driest and Blumer 1968][research_vandriest_blumer_1968]
 - [Van Driest and McCAULEY 1960][research_van_driest_mccauley_1960]
+- [Van Driest et al 1967][research_vandriest_1967]
 - [van Oudheusden 2003][research_vanoudheusden_2003]
 - [van Rijn 1997][research_vanrijn_1997]
 - [Vandam 1986][research_vandam_1986]
@@ -2108,6 +2227,7 @@ What the programme was for, in the end, was to find out whether such a wing coul
 - [Wedin and Cherubini 2016][research_wedin_cherubini_2016]
 - [Wedin et al 2015][research_wedin_2015]
 - [Wei et al 2013][research_wei_2013]
+- [Weilmuenster 1974][research_weilmuenster_1974]
 - [Wen 2024][research_wen_2024]
 - [Wentz et al 1984][research_wentz_1984]
 - [Wentz et al 1985][research_wentz_1985]
@@ -2143,7 +2263,9 @@ What the programme was for, in the end, was to find out whether such a wing coul
 - [Wu 1972][research_wu_1972]
 - [Wu 1973][research_wu_1973]
 - [Wu and Tulin 1970][research_wu_tulin_1970]
+- [Wu et al 2024][research_wu_2024]
 - [Wu et al 2025][research_wu_2025]
+- [Wu et al 2026][research_wu_2026]
 - [Wu et al 2026][research_wu_2026_2]
 - [Wuest 1952][research_wuest_1952]
 - [Wuest 1961][research_wuest_1961]
@@ -2153,11 +2275,13 @@ What the programme was for, in the end, was to find out whether such a wing coul
 - [Xi et al 2021][research_xi_2021]
 - [Xi et al 2025][research_xi_2025]
 - [Xia and Chen 2016][research_xia_chen_2016]
+- [Xiao and Papadakis 2017][research_xiao_papadakis_2017]
 - [Xiao et al 2019][research_xiao_2019]
 - [Xiong et al 2018][research_xiong_tao_2018]
 - [Xu and Kroo 2014][research_xu_kroo_2014]
 - [Xu and Wu 2022][research_xu_wu_2022]
 - [Xu et al 2018][research_xu_2018]
+- [Xu et al 2019][research_xu_2019]
 - [Xu et al 2019][research_xu_han_2019]
 - [Xu et al 2021][research_xu_2021]
 - [Xu et al 2021][research_xu_he_2021]
@@ -2202,6 +2326,7 @@ What the programme was for, in the end, was to find out whether such a wing coul
 - [Young et al 2003][research_young_2003]
 - [Youngren 2008][research_youngren_2008]
 - [Yu 2017][research_yu_2017]
+- [Yu et al 2026][research_yu_2026]
 - [Yuan 1955][research_yuan_1955]
 - [Zahn and Rist 2016][research_zahn_rist_2016]
 - [Zakharin and Wygnanski 2008][research_zakharin_wygnanski_2008]
@@ -2213,9 +2338,11 @@ What the programme was for, in the end, was to find out whether such a wing coul
 - [Zauner et al 2023][research_zauner_2023]
 - [Ze-yan 1981][research_zeyan_1981]
 - [Zeng et al 2021][research_zeng_2021]
+- [Zeng et al 2024][research_zeng_2024]
 - [Zhang and Deng 2025][research_zhang_deng_2025]
 - [Zhang and Yin 2019][research_zhang_yin_2019]
 - [Zhang et al 2015][research_zhang_2015]
+- [Zhang et al 2017][research_zhang_2017]
 - [Zhang et al 2020][research_zhang_2020_3]
 - [Zhang et al 2022][research_zhang_2022]
 - [Zhang et al 2023][research_zhang_2023]
@@ -2237,19 +2364,24 @@ What the programme was for, in the end, was to find out whether such a wing coul
 - [Zhou et al 2022][research_zhou_2022_3]
 - [Zhou et al 2024][research_zhou_2024]
 - [Zhu et al 2019][research_zhu_2019]
+- [Zolotov and Khodorkovsky 1963][research_zolotov_khodorkovsky_1963]
 - [Zong et al 2022][research_zong_2022]
 - [Zoppini et al 2022][research_zoppini_2022]
 - [Zoppini et al 2022][research_zoppini_ragni_2022]
 - [Zoppini et al 2023][research_zoppini_michelis_2023]
+- [Zore et al 2023][research_zore_2023]
 - [Zou and Zhong 2024][research_zou_zhong_2024]
 - [Евстигнеев and Рябков 2016][research___2016]
 
 [research___2016]: https://doi.org/10.26089/nummet.v17r106
 [research_a_low_speed_1959]: https://doi.org/10.1016/0043-1648(59)90191-7
+[research_abbassi_2017]: https://doi.org/10.1016/j.ijheatfluidflow.2017.05.003
 [research_abdulnour_mueller_1993]: https://doi.org/10.4271/931386
 [research_abegg_bippes_2000]: https://doi.org/10.1007/978-3-662-03997-7_94
 [research_adcock_1966]: https://ntrs.nasa.gov/citations/19660011639
 [research_advisory_group_for_aerospace_research_and_development_1992]: https://ntrs.nasa.gov/citations/19920018463
+[research_agrawal_1989]: https://ntrs.nasa.gov/citations/19900029737
+[research_ahmadibaloutaki_2013]: https://doi.org/10.1260/1756-8250.5.3-4.187
 [research_ahmed_wentz_1989]: https://doi.org/10.2514/3.45870
 [research_aircraft_energy_1979]: https://www.osti.gov/biblio/5894372
 [research_albacete_glowacki_1967]: https://doi.org/10.21236/ad0651934
@@ -2262,17 +2394,24 @@ What the programme was for, in the end, was to find out whether such a wing coul
 [research_allison_1983]: https://ntrs.nasa.gov/citations/19850021608
 [research_allison_dagenhart_1978]: https://ntrs.nasa.gov/citations/19780019126
 [research_allison_dagenhart_1987]: https://ntrs.nasa.gov/citations/19890009895
+[research_almalki_2022]: https://doi.org/10.1063/5.0105788
+[research_ambrosino_2025]: https://doi.org/10.2514/1.j064663
 [research_amico_cafiero_2026]: https://doi.org/10.1016/j.cja.2026.104278
 [research_anders_fischer_1999]: https://ntrs.nasa.gov/citations/20000004183
 [research_anderson_1969]: https://doi.org/10.2514/3.48102
+[research_anderson_1988]: https://ntrs.nasa.gov/citations/19880020709
+[research_anderson_meyer_1990]: https://ntrs.nasa.gov/citations/19910015243
 [research_antunesdantas]: https://doi.org/10.47749/t/unicamp.2025.1506576
+[research_ao_2021]: https://doi.org/10.3390/mi12010059
 [research_arai_noto_2000]: https://doi.org/10.2514/6.2000-4327
 [research_arakeri_narasimha_1983]: https://doi.org/10.2514/3.8070
 [research_arcara_1991]: https://ntrs.nasa.gov/citations/19920057340
 [research_archambaud_louis_2004]: https://doi.org/10.2514/6.2004-2245
+[research_arnal_1978]: https://ntrs.nasa.gov/citations/19780025098
 [research_arnal_casalis_1990]: https://doi.org/10.1007/978-3-642-84103-3_28
 [research_arnal_juillen_1990]: https://doi.org/10.1007/978-3-662-02643-4_25
 [research_arnal_seraudie_2000]: https://doi.org/10.1007/978-3-662-03997-7_91
+[research_arumugam_durairaj_2011]: https://doi.org/10.4028/www.scientific.net/amm.110-116.3473
 [research_asai_kanda_1997]: https://doi.org/10.2514/2.2132
 [research_asai_konishi]: https://doi.org/10.1007/1-4020-4159-4_42
 [research_athar_2025]: https://doi.org/10.1016/j.ijadhadh.2025.104122
@@ -2281,6 +2420,7 @@ What the programme was for, in the end, was to find out whether such a wing coul
 [research_atkin_2008]: https://doi.org/10.2514/6.2008-3986
 [research_atkin_sunderland_2006]: https://doi.org/10.2514/6.2006-3694
 [research_azuma_1995]: https://doi.org/10.1007/978-3-642-79765-1_36
+[research_azzazy_1985]: https://ntrs.nasa.gov/citations/19870023698
 [research_babuev_biryukov_1998]: https://doi.org/10.1007/bf02698216
 [research_bai_2016]: https://doi.org/10.4031/mtsj.50.1.9
 [research_balaji_shankar_venkatachari_2021]: https://ntrs.nasa.gov/citations/20210024414
@@ -2292,6 +2432,8 @@ What the programme was for, in the end, was to find out whether such a wing coul
 [research_baldwin_1970]: https://doi.org/10.1112/s0025579300002904
 [research_ball_1969]: https://doi.org/10.2514/6.1969-36
 [research_ball_1970]: https://doi.org/10.2514/3.5677
+[research_bandettini_isler_1959]: https://ntrs.nasa.gov/citations/19980232078
+[research_banks_2012]: https://ntrs.nasa.gov/citations/20120015436
 [research_banner_1958]: https://ntrs.nasa.gov/citations/19630008170
 [research_baranov_kiselev_2021]: https://doi.org/10.1007/978-3-030-67902-6_61
 [research_barklage_2022]: https://doi.org/10.2514/1.j061745
@@ -2310,6 +2452,7 @@ What the programme was for, in the end, was to find out whether such a wing coul
 [research_benschop_breugem_2017]: https://doi.org/10.1080/14685248.2017.1319951
 [research_beratlis_2016]: https://doi.org/10.1063/1.4943664
 [research_berry_1986]: https://ntrs.nasa.gov/citations/19860017742
+[research_berry_2008]: https://ntrs.nasa.gov/citations/20080023461
 [research_berry_dagenhart_1987]: https://ntrs.nasa.gov/citations/19900003216
 [research_bertelrud_2000]: https://ntrs.nasa.gov/citations/20000011504
 [research_bertin_1981]: https://ntrs.nasa.gov/citations/19810036415
@@ -2340,7 +2483,14 @@ What the programme was for, in the end, was to find out whether such a wing coul
 [research_bonner_1977]: https://ntrs.nasa.gov/citations/19780005099
 [research_boomsma_sotiropoulos_2015]: https://doi.org/10.1016/j.ijheatfluidflow.2015.07.022
 [research_borodulin_2015]: https://doi.org/10.1016/j.piutam.2015.03.051
+[research_borodulin_2017]: https://doi.org/10.1063/1.4999952
+[research_borodulin_2019]: https://doi.org/10.1063/1.5094609
+[research_borodulin_2020]: https://doi.org/10.1017/jfm.2020.846
+[research_borodulin_2020_b]: https://doi.org/10.1017/jfm.2020.847
 [research_borodulin_2022]: https://doi.org/10.2139/ssrn.4269005
+[research_borodulin_2023]: https://doi.org/10.1016/j.euromechflu.2023.04.007
+[research_borodulin_2025]: https://doi.org/10.1134/s0021894425700671
+[research_borodulin_2026]: https://doi.org/10.1134/s0021894426700069
 [research_borodulin_ivanov_2016]: https://doi.org/10.1063/1.4964007
 [research_borodulin_ivanov_2021]: https://doi.org/10.1007/978-3-030-67902-6_28
 [research_borodulin_ivanov_2026]: https://doi.org/10.1134/s086986432504002x
@@ -2352,6 +2502,7 @@ What the programme was for, in the end, was to find out whether such a wing coul
 [research_bradfield_1954]: https://doi.org/10.2514/8.3041
 [research_bragg_gregorek_1989]: https://doi.org/10.2514/6.1989-2049
 [research_brandeis_1983]: https://doi.org/10.2514/3.8126
+[research_braslow_1951]: https://ntrs.nasa.gov/citations/19930092080
 [research_braslow_1966]: https://ntrs.nasa.gov/citations/19660020887
 [research_braslow_fischer_1985]: https://ntrs.nasa.gov/citations/19860005800
 [research_braslow_knox_1958]: https://ntrs.nasa.gov/citations/19930085292
@@ -2368,6 +2519,7 @@ What the programme was for, in the end, was to find out whether such a wing coul
 [research_brooks_harris_1991]: https://ntrs.nasa.gov/citations/19910014785
 [research_brown_joubert_1969]: https://doi.org/10.1017/s0022112069001418
 [research_bruno_risher_1968]: https://doi.org/10.21236/ad0844592
+[research_brynjellrahkola_2019]: https://doi.org/10.1017/jfm.2019.326
 [research_bui_2013]: https://doi.org/10.2514/6.2013-3032
 [research_bui_2015]: https://doi.org/10.2514/1.c032883
 [research_bulat_2021]: https://doi.org/10.3103/s1068799821030120
@@ -2377,6 +2529,7 @@ What the programme was for, in the end, was to find out whether such a wing coul
 [research_bushnell_tuttle_1979]: https://ntrs.nasa.gov/citations/19790025267
 [research_cacciatori_2022]: https://doi.org/10.3390/app12105070
 [research_cafiero_iuso_2022]: https://doi.org/10.1016/j.expthermflusci.2022.110723
+[research_campbell_2012]: https://ntrs.nasa.gov/citations/20120016806
 [research_campbell_lynde_2017]: https://ntrs.nasa.gov/citations/20170005777
 [research_campbell_waggoner_1986]: https://doi.org/10.2514/6.1986-314
 [research_carmichael_1979]: https://ntrs.nasa.gov/citations/19790017853
@@ -2390,7 +2543,9 @@ What the programme was for, in the end, was to find out whether such a wing coul
 [research_catalano_2020]: https://doi.org/10.2514/1.c035445
 [research_cebeci_1974]: https://doi.org/10.2514/3.49207
 [research_cebeci_smith_1968]: https://doi.org/10.2514/3.43980
+[research_cebeci_smith_1968_b]: https://doi.org/10.2514/3.43965
 [research_ceccio_2007]: https://doi.org/10.21236/ada476413
+[research_cella_2010]: https://doi.org/10.2514/1.40932
 [research_chakraborty_2022]: https://doi.org/10.1063/5.0104299
 [research_chamorro_2013]: https://doi.org/10.1016/j.renene.2012.09.001
 [research_chang_1960]: https://doi.org/10.2514/8.8589
@@ -2399,15 +2554,20 @@ What the programme was for, in the end, was to find out whether such a wing coul
 [research_chaturvedi_2024]: https://doi.org/10.1063/5.0219394
 [research_chehrghani_2025]: https://doi.org/10.11159/jffhmt.2025.039
 [research_chen_2015_2]: https://doi.org/10.1002/app.42303
+[research_chen_2021]: https://doi.org/10.1063/5.0039901
 [research_chen_2023]: https://doi.org/10.1016/j.cja.2023.03.039
 [research_chen_2023_2]: https://doi.org/10.1016/j.ast.2023.108465
 [research_chen_guo_2025]: https://doi.org/10.1016/j.cej.2025.164088
 [research_chen_tang_2017]: https://doi.org/10.1177/0954410017746199
 [research_cheng_1953]: https://doi.org/10.1090/qam/56415
+[research_chernoray_2013]: https://doi.org/10.1615/vismechproc.2013006967
 [research_chernoray_dovgal_2010]: https://doi.org/10.1007/s12650-010-0035-0
 [research_chernyshev_kiselev_2016]: https://doi.org/10.1063/1.4963936
+[research_cherubini_2015]: https://doi.org/10.1016/j.piutam.2015.03.047
 [research_chiu_norton_1990]: https://doi.org/10.1016/0022-460x(90)90518-5
 [research_choi_2004]: https://doi.org/10.21236/ada426554
+[research_choi_kim_2018]: https://doi.org/10.1007/s00348-018-2609-x
+[research_choi_kwon_2015]: https://doi.org/10.2514/1.j053887
 [research_choudhari_1992]: https://ntrs.nasa.gov/citations/19920017437
 [research_choudhari_chang_2003]: https://doi.org/10.2514/6.2003-973
 [research_chuang_1974]: https://doi.org/10.1063/1.1663927
@@ -2418,10 +2578,12 @@ What the programme was for, in the end, was to find out whether such a wing coul
 [research_cliett_1952]: https://doi.org/10.21236/ad0006050
 [research_clutter_smith_1960]: https://doi.org/10.2514/8.8381
 [research_clutter_smith_1963]: https://doi.org/10.21236/ad0409515
+[research_coder_2014]: https://doi.org/10.2514/1.c032566
 [research_coder_2020]: https://doi.org/10.2514/6.2020-1026
 [research_coder_2021]: https://doi.org/10.2514/1.c035887
 [research_coder_2026]: https://doi.org/10.1007/s13272-026-00956-0
 [research_coder_somers_2020]: https://doi.org/10.1016/j.ast.2020.106217
+[research_coleman_1957]: https://doi.org/10.1017/s0368393100125829
 [research_coleman_1989]: https://doi.org/10.21236/ada212099
 [research_coleman_1998]: https://ntrs.nasa.gov/citations/19980037838
 [research_coleman_poll_2001]: https://doi.org/10.2514/2.1380
@@ -2437,13 +2599,17 @@ What the programme was for, in the end, was to find out whether such a wing coul
 [research_cooke_robins_1970]: https://doi.org/10.1017/s0022112070000940
 [research_cope_1952]: https://doi.org/10.1098/rspa.1952.0198
 [research_corelli_grappadelli_2026]: https://doi.org/10.2514/1.j065991
+[research_corelligrappadelli_2025]: https://doi.org/10.1007/s00348-025-04084-z
 [research_corelligrappadelli_olivucci_2023]: https://doi.org/10.2514/6.2023-3955
 [research_corelligrappadelli_sudhi_2022]: https://doi.org/10.2514/6.2022-3770
 [research_cornish_1963]: https://doi.org/10.21236/ad0426784
+[research_cornish_2024]: https://doi.org/10.1063/10.0032498
 [research_cornish_iii_boatwright_1960]: https://doi.org/10.21236/ad0317134
 [research_coutu_brailovski_2011]: https://doi.org/10.1088/0964-1726/20/3/035019
 [research_crabtree_1954]: https://doi.org/10.1017/s0001925900001104
+[research_craig_saric_2015]: https://doi.org/10.1016/j.piutam.2015.03.019
 [research_craik_1980]: https://doi.org/10.1007/978-3-642-81485-3_20
+[research_creel_1991]: https://ntrs.nasa.gov/citations/19910036731
 [research_creel_beckwith_1987]: https://ntrs.nasa.gov/citations/19880043588
 [research_croom_holmes_1985]: https://doi.org/10.4271/850860
 [research_croom_holmes_1986]: https://ntrs.nasa.gov/citations/19880005572
@@ -2460,6 +2626,7 @@ What the programme was for, in the end, was to find out whether such a wing coul
 [research_cumpsty_head_1980]: https://doi.org/10.1017/s0001925900010970
 [research_curle_1960]: https://doi.org/10.1017/s0001925900001669
 [research_dagenhart_1989]: https://ntrs.nasa.gov/citations/19890054743
+[research_dagenhart_1992]: https://ntrs.nasa.gov/citations/19930012630
 [research_dagenhart_saric_1990]: https://doi.org/10.1007/978-3-642-84103-3_33
 [research_dagenhart_saric_1999]: https://ntrs.nasa.gov/citations/19990056592
 [research_damaren_2018]: https://doi.org/10.1007/s42401-018-0021-0
@@ -2487,13 +2654,16 @@ What the programme was for, in the end, was to find out whether such a wing coul
 [research_dennon_1962]: https://doi.org/10.2514/8.9781
 [research_dershin_1966]: https://ntrs.nasa.gov/citations/19660030709
 [research_dershin_1967_2]: https://ntrs.nasa.gov/citations/19670062984
+[research_detullio_2013]: https://doi.org/10.1017/jfm.2013.520
 [research_devincentiis_henningson_2021]: https://doi.org/10.1017/jfm.2021.962
 [research_deyoung_1980]: https://ntrs.nasa.gov/citations/19810003514
 [research_dietz_coleman_1999]: https://ntrs.nasa.gov/citations/20010026759
 [research_dimas_mowli_2003]: https://doi.org/10.1016/s0898-1221(03)90017-4
+[research_dimond_2019]: https://doi.org/10.1016/j.expthermflusci.2019.109842
 [research_dimotakis_2003]: https://doi.org/10.21236/ada416331
 [research_djeddi_ekici_2024]: https://doi.org/10.1016/j.ast.2023.108854
 [research_dodbele_1986]: https://ntrs.nasa.gov/citations/19860014381
+[research_dodbele_1990]: https://ntrs.nasa.gov/citations/19900016623
 [research_dodbele_1992]: https://doi.org/10.2514/3.46167
 [research_dodd_tutty_2001]: https://doi.org/10.23919/ecc.2001.7076385
 [research_dommett_1959]: https://doi.org/10.1017/s0001924000093301
@@ -2502,8 +2672,10 @@ What the programme was for, in the end, was to find out whether such a wing coul
 [research_dorr_kloker_2017]: https://doi.org/10.1063/1.4975791
 [research_dorrance_dore_1954]: https://doi.org/10.2514/8.3050
 [research_dou_2026]: https://doi.org/10.3390/aerospace13010084
+[research_dougherty_fisher_1980]: https://ntrs.nasa.gov/citations/19800038567
 [research_doyle_2001]: https://doi.org/10.21236/ada405611
 [research_drag_reduction_2023]: https://doi.org/10.47176/jafm.16.04.1532
+[research_drake_1996]: https://ntrs.nasa.gov/citations/19970003010
 [research_drake_2005]: https://doi.org/10.21236/ada440161
 [research_drake_kennelly_1994]: https://ntrs.nasa.gov/citations/20010059953
 [research_dryasov_2016]: https://doi.org/10.54362/1818-7919-2016-11-1-16-22
@@ -2527,8 +2699,13 @@ What the programme was for, in the end, was to find out whether such a wing coul
 [research_egorov_palchekovskaya_2025]: https://doi.org/10.1007/s10891-025-03092-4
 [research_egreteau_davoine_2022]: https://doi.org/10.59499/wp225367285
 [research_egreteau_muredalexis_2024]: https://doi.org/10.2514/6.2024-3760
+[research_elgamal_barclay_1975]: https://doi.org/10.1017/s0001924000036010
 [research_elkouh_1971]: https://doi.org/10.1007/bf00413217
+[research_eppink_2019]: https://doi.org/10.2514/1.j057437
+[research_eppink_2021]: https://doi.org/10.1017/jfm.2021.925
 [research_eppink_2023]: https://doi.org/10.2514/6.2023-3999
+[research_eppink_2023_b]: https://doi.org/10.1007/s00348-023-03627-6
+[research_eppink_yao_2017]: https://ntrs.nasa.gov/citations/20170005778
 [research_esaki_2018]: https://doi.org/10.1299/jsmemecj.2018.s0520403
 [research_etchberger_1983]: https://ntrs.nasa.gov/citations/19870008225
 [research_evaluation_of_1980]: https://ntrs.nasa.gov/citations/19800022878
@@ -2544,6 +2721,7 @@ What the programme was for, in the end, was to find out whether such a wing coul
 [research_fedorov_soudakov_2014]: https://doi.org/10.21236/ada597100
 [research_fehrs_kaiser_2025]: https://doi.org/10.1007/s13272-025-00856-9
 [research_ferrari_cirisano_2023]: https://doi.org/10.3390/app132111684
+[research_ferziger_reed_1988]: https://doi.org/10.21236/ada191380
 [research_finishing_and_1959]: https://doi.org/10.1016/0043-1648(59)90245-5
 [research_first_laminar_1992]: https://doi.org/10.1108/eb037198
 [research_fischer_1992]: https://ntrs.nasa.gov/citations/19940029019
@@ -2551,6 +2729,8 @@ What the programme was for, in the end, was to find out whether such a wing coul
 [research_fischer_wright_1983]: https://ntrs.nasa.gov/citations/19830067138
 [research_fischler_1986]: https://ntrs.nasa.gov/citations/19900000871
 [research_fischler_jerstad_1989]: https://ntrs.nasa.gov/citations/19910005033
+[research_fisher_dougherty_1982]: https://ntrs.nasa.gov/citations/19820018351
+[research_fisher_dougherty_1982_b]: https://ntrs.nasa.gov/citations/19830006162
 [research_fisher_fischer_1987]: https://ntrs.nasa.gov/citations/19900003193
 [research_fisher_peterson_1978]: https://doi.org/10.2514/6.1978-1512
 [research_flax_1953]: https://doi.org/10.21236/ad0021700
@@ -2590,7 +2770,7 @@ What the programme was for, in the end, was to find out whether such a wing coul
 [research_gibbings_1959]: https://doi.org/10.2514/8.8344
 [research_gibson_gerhardt_1995]: https://doi.org/10.2514/3.46693
 [research_gilman_burdges_1967]: https://doi.org/10.2514/3.43894
-[research_gkn_aerospace_2016]: https://doi.org/10.1016/j.repl.2016.02.033
+[research_glauser_2014]: https://doi.org/10.2514/1.j052479
 [research_glezer_1986]: https://doi.org/10.21236/ada179607
 [research_gogineni_2014]: https://doi.org/10.21236/ada605698
 [research_goglia_wilkinson_1980]: https://ntrs.nasa.gov/citations/19800010070
@@ -2615,9 +2795,11 @@ What the programme was for, in the end, was to find out whether such a wing coul
 [research_gregory_1961]: https://doi.org/10.1016/b978-1-4832-1323-1.50012-9
 [research_gribben_1959]: https://doi.org/10.1063/1.1705927
 [research_grigorev_ershov_2019]: https://doi.org/10.1134/s0015462819030054
+[research_groot_2026]: https://doi.org/10.1016/j.compfluid.2025.106947
 [research_groth_1961]: https://doi.org/10.1016/b978-1-4832-1323-1.50018-x
 [research_guha_sengupta_2025]: https://doi.org/10.61653/joast.v77i2.2025.1071
 [research_guo_2020]: https://doi.org/10.1016/j.ijheatfluidflow.2020.108598
+[research_guo_2022]: https://doi.org/10.1063/5.0110560
 [research_guo_kloker_2020]: https://doi.org/10.2514/1.j058845
 [research_gurevich_2019]: https://doi.org/10.54349/26586061_2019_3_17
 [research_guynn_2011]: https://ntrs.nasa.gov/citations/20110014792
@@ -2655,6 +2837,7 @@ What the programme was for, in the end, was to find out whether such a wing coul
 [research_hastings_schoenster_1986]: https://ntrs.nasa.gov/citations/19860058024
 [research_hayashi_yamamoto_2014]: https://doi.org/10.1299/transjsme.2014cm0209
 [research_haynes_reed_1996]: https://doi.org/10.2514/6.1996-182
+[research_he_2018]: https://doi.org/10.1017/jfm.2018.817
 [research_he_2019]: https://doi.org/10.3390/fluids4030142
 [research_head_1961]: https://doi.org/10.1016/b978-1-4832-1323-1.50009-9
 [research_hebbar_paranjpe_1969]: https://doi.org/10.2514/3.5228
@@ -2662,6 +2845,7 @@ What the programme was for, in the end, was to find out whether such a wing coul
 [research_heeg_geurts]: https://doi.org/10.1007/bfb0106110
 [research_hefner_1992]: https://ntrs.nasa.gov/citations/19930057780
 [research_hefner_bushnell_1979]: https://ntrs.nasa.gov/citations/19790062678
+[research_hefner_bushnell_1980]: https://ntrs.nasa.gov/citations/19800014146
 [research_hefner_wagner_1986]: https://ntrs.nasa.gov/citations/19860065531
 [research_hein_2018]: https://ntrs.nasa.gov/citations/20180006176
 [research_hein_schulein_2009]: https://doi.org/10.1007/978-90-481-3723-7_29
@@ -2688,6 +2872,7 @@ What the programme was for, in the end, was to find out whether such a wing coul
 [research_holmes_1985]: https://ntrs.nasa.gov/citations/19850067952
 [research_holmes_1985_b]: https://ntrs.nasa.gov/citations/19850058904
 [research_holmes_1986]: https://ntrs.nasa.gov/citations/19880014360
+[research_holmes_1986_b]: https://ntrs.nasa.gov/citations/19860052345
 [research_holmes_1991]: https://ntrs.nasa.gov/citations/19930012826
 [research_holmes_croom_1986]: https://ntrs.nasa.gov/citations/19880005568
 [research_holmes_obara_1982]: https://ntrs.nasa.gov/citations/19820057358
@@ -2698,15 +2883,18 @@ What the programme was for, in the end, was to find out whether such a wing coul
 [research_hopkins_1972]: https://doi.org/10.2514/3.50065
 [research_hopkins_keener_1968]: https://ntrs.nasa.gov/citations/19680046142
 [research_hopkins_keener_1972]: https://doi.org/10.2514/3.50336
+[research_hornung_2002]: https://doi.org/10.21236/ada400109
 [research_horstmann_2008]: https://doi.org/10.2514/6.2008-3985
 [research_horstmann_quast_1990]: https://doi.org/10.2514/3.45910
 [research_horstmann_redeker_1990]: https://doi.org/10.2514/6.1990-3044
+[research_hosseini_2015]: https://doi.org/10.1016/j.piutam.2015.03.053
 [research_hosseini_tempelmann_2013]: https://doi.org/10.1017/jfm.2013.33
 [research_hosseinverdi_fasel_2018]: https://doi.org/10.1017/jfm.2018.809
 [research_hosseinverdi_fasel_2023]: https://doi.org/10.2514/6.2023-3287
 [research_hou_choy_2022]: https://doi.org/10.1016/j.porgcoat.2021.106637
 [research_howard_1975]: https://ntrs.nasa.gov/citations/19760032000
 [research_howell_1970]: https://ntrs.nasa.gov/citations/19710033437
+[research_hsu_1989]: https://ntrs.nasa.gov/citations/19900015735
 [research_hu_2021]: https://doi.org/10.18409/ispiv.v1i1.38
 [research_hu_2022]: https://doi.org/10.1175/jas-d-22-0008.1
 [research_hu_yao_2023]: https://doi.org/10.1063/5.0132403
@@ -2730,9 +2918,11 @@ What the programme was for, in the end, was to find out whether such a wing coul
 [research_itoh_2000]: https://doi.org/10.1007/978-3-662-03997-7_100
 [research_itoh_2000_b]: https://doi.org/10.1016/s0169-5983(99)00047-7
 [research_iuliano_2011]: https://doi.org/10.2514/1.c031039
+[research_iyer_mahesh_2013]: https://doi.org/10.1017/jfm.2013.311
 [research_iyer_spall_1991]: https://ntrs.nasa.gov/citations/19920057343
 [research_iyer_spall_1992]: https://doi.org/10.2514/6.1992-2630
 [research_jahanbakhshi_zaki_2019]: https://doi.org/10.1017/jfm.2019.527
+[research_james_1959]: https://ntrs.nasa.gov/citations/19980228370
 [research_janke_2001]: https://doi.org/10.2514/6.2001-2980
 [research_jasperson_nastrom_1984]: https://doi.org/10.2514/3.45054
 [research_jasperson_nastron_1984]: https://ntrs.nasa.gov/citations/19850004214
@@ -2750,6 +2940,7 @@ What the programme was for, in the end, was to find out whether such a wing coul
 [research_jisheng_heng_1998]: https://doi.org/10.1007/bf02487744
 [research_jobe_kulfan_1978]: https://doi.org/10.2514/6.1978-95
 [research_jobe_kulfan_1979]: https://doi.org/10.2514/3.58501
+[research_johnson_1972]: https://ntrs.nasa.gov/citations/19790075224
 [research_johnson_1988]: https://ntrs.nasa.gov/citations/19880011214
 [research_johnston_1970]: https://doi.org/10.1017/s0022112070001623
 [research_jones_stainback_1989]: https://doi.org/10.2514/6.1989-150
@@ -2771,6 +2962,7 @@ What the programme was for, in the end, was to find out whether such a wing coul
 [research_kakkar_streit_2026]: https://doi.org/10.2139/ssrn.6441720
 [research_kalarikovilagam_srinivasan_bertram_2019]: https://doi.org/10.3390/aerospace6100109
 [research_kanda_2019]: https://doi.org/10.1553/etna_vol51s547
+[research_kandil_elhady_1988]: https://ntrs.nasa.gov/citations/19880011190
 [research_kaneko_2026]: https://doi.org/10.2514/1.c038631
 [research_kanner_schetz_1999]: https://doi.org/10.2514/6.1999-3791
 [research_kapustin_2022]: https://doi.org/10.3390/cryst12101501
@@ -2789,6 +2981,7 @@ What the programme was for, in the end, was to find out whether such a wing coul
 [research_kelnhofer_1969]: https://doi.org/10.1115/1.3574748
 [research_kendall_1982]: https://doi.org/10.21236/ada115404
 [research_kerho_bragg_1995]: https://doi.org/10.2514/6.1995-1803
+[research_kerschen_1987]: https://ntrs.nasa.gov/citations/19900003200
 [research_khan_cornelius_1982]: https://doi.org/10.2514/6.1982-222
 [research_khanjari_2023]: https://doi.org/10.1115/1.4057017
 [research_khotyanovsky_kudryavtsev_2016]: https://doi.org/10.1063/1.4964000
@@ -2798,6 +2991,7 @@ What the programme was for, in the end, was to find out whether such a wing coul
 [research_kimmel_borg_2015]: https://doi.org/10.21236/ada623564
 [research_kinney_1967]: https://doi.org/10.2514/3.4039
 [research_kirilovskiy_2019]: https://doi.org/10.1088/1742-6596/1359/1/012070
+[research_kitzinger_2023]: https://doi.org/10.1017/jfm.2023.38
 [research_klebanoff_1966]: https://doi.org/10.1007/978-3-662-29364-5_106
 [research_klebanoff_tidstrom_1972]: https://doi.org/10.1063/1.1694065
 [research_kline_chang_2019]: https://ntrs.nasa.gov/citations/20200002639
@@ -2810,6 +3004,7 @@ What the programme was for, in the end, was to find out whether such a wing coul
 [research_kobayashi_1974]: https://doi.org/10.2514/3.49247
 [research_koh_hartnett_1961]: https://doi.org/10.1016/0017-9310(61)90088-6
 [research_kohama_alfredsson_2000]: https://doi.org/10.1007/978-3-662-03997-7_29
+[research_kok_2015]: https://doi.org/10.1016/j.paerosci.2015.02.001
 [research_kok_mertens_2013]: https://doi.org/10.1016/j.porgcoat.2013.06.013
 [research_kok_tobin_2014]: https://doi.org/10.1016/j.ast.2014.07.002
 [research_kok_tobin_2017]: https://doi.org/10.1007/12_2017_31
@@ -2844,6 +3039,7 @@ What the programme was for, in the end, was to find out whether such a wing coul
 [research_kurz_kloker_2016]: https://doi.org/10.1017/jfm.2016.240
 [research_l_cutrone]: https://ntrs.nasa.gov/citations/20230018296
 [research_lachmann_1959]: https://doi.org/10.1016/b978-1-4831-9833-0.50006-2
+[research_lachmann_1962]: https://doi.org/10.1108/eb033528
 [research_laflin_papadakis_2001]: https://doi.org/10.2514/6.2001-88
 [research_lagraff_2001]: https://doi.org/10.21236/ada387838
 [research_lagraff_2007]: https://ntrs.nasa.gov/citations/20070038942
@@ -2878,6 +3074,7 @@ What the programme was for, in the end, was to find out whether such a wing coul
 [research_lees_reshotko_1962]: https://doi.org/10.21236/ad0288100
 [research_leitsina_pavlyukevich_1968]: https://doi.org/10.1007/bf00826973
 [research_lekoudis_1980]: https://doi.org/10.1115/1.3240734
+[research_leonard_1979]: https://ntrs.nasa.gov/citations/19790017171
 [research_leroy_2016]: https://doi.org/10.1175/jtech-d-15-0151.1
 [research_leroy_2017]: https://doi.org/10.1175/jtech-d-15-0246.1
 [research_leslie_m_mack_1984]: https://ntrs.nasa.gov/citations/19840025688
@@ -2885,6 +3082,7 @@ What the programme was for, in the end, was to find out whether such a wing coul
 [research_letcher_1972]: https://doi.org/10.2514/3.59045
 [research_levchenko_scherbakov_1995]: https://doi.org/10.1007/978-3-642-79765-1_62
 [research_leventhal_reshotko_1981]: https://doi.org/10.21236/ada102072
+[research_li_2014]: https://doi.org/10.1063/1.4883256
 [research_li_2020]: https://doi.org/10.1155/2020/5812129
 [research_li_2022]: https://doi.org/10.1007/s00348-022-03534-2
 [research_li_2023]: https://doi.org/10.1088/2058-6272/aca503
@@ -2897,6 +3095,7 @@ What the programme was for, in the end, was to find out whether such a wing coul
 [research_li_choudhari_2010]: https://doi.org/10.2514/6.2010-4380
 [research_li_choudhari_2011]: https://ntrs.nasa.gov/citations/20110012463
 [research_li_choudhari_2011_b]: https://ntrs.nasa.gov/citations/20110008274
+[research_li_luo_2012]: https://doi.org/10.1007/s10483-012-1579-7
 [research_li_nagamatsu_1953]: https://doi.org/10.2514/8.2639
 [research_li_su_2025]: https://doi.org/10.2514/1.j064262
 [research_li_wang_2013]: https://doi.org/10.2514/6.2013-830
@@ -2918,6 +3117,7 @@ What the programme was for, in the end, was to find out whether such a wing coul
 [research_liu_1967]: https://doi.org/10.2514/3.43830
 [research_liu_2019]: https://doi.org/10.1115/1.4044483
 [research_liu_2022]: https://doi.org/10.2139/ssrn.4061558
+[research_liu_2023_b]: https://doi.org/10.3390/aerospace10100903
 [research_liu_2026]: https://doi.org/10.1016/j.porgcoat.2025.109789
 [research_lo_1994]: https://ntrs.nasa.gov/citations/19950014923
 [research_lobitz_2023]: https://doi.org/10.3390/aerospace10110938
@@ -2930,6 +3130,8 @@ What the programme was for, in the end, was to find out whether such a wing coul
 [research_low_1955]: https://doi.org/10.2514/8.3345
 [research_low_1956]: https://ntrs.nasa.gov/citations/19930089431
 [research_low_drag_1980]: https://doi.org/10.2514/5.9781600865466.0212.0232
+[research_lozanoduran_2018]: https://doi.org/10.1103/physrevfluids.3.023901
+[research_lu_2026]: https://doi.org/10.3390/aerospace13040340
 [research_lu_luo_2017]: https://doi.org/10.1007/s10483-017-2214-6
 [research_ludeke_breitenstein_2021]: https://doi.org/10.1007/s13272-021-00564-0
 [research_lundry_1967]: https://doi.org/10.2514/3.43797
@@ -2940,6 +3142,7 @@ What the programme was for, in the end, was to find out whether such a wing coul
 [research_lyons_1961]: https://doi.org/10.21236/ad0271681
 [research_lyons_1962]: https://doi.org/10.21236/ad0296208
 [research_lysenko_1995]: https://doi.org/10.1007/978-3-642-79765-1_25
+[research_lysenko_2024]: https://doi.org/10.1134/s0869864324030041
 [research_ma_2023]: https://doi.org/10.2514/1.c036988
 [research_ma_2025]: https://doi.org/10.3390/sym17112007
 [research_ma_2025_2]: https://doi.org/10.2514/1.c038071
@@ -2963,6 +3166,7 @@ What the programme was for, in the end, was to find out whether such a wing coul
 [research_maddaus_shanebrook_1983]: https://doi.org/10.1007/bf00042839
 [research_maeda_1968]: https://doi.org/10.1299/kikai1938.34.678
 [research_mahfoze_laizet_2017]: https://doi.org/10.1016/j.ijheatfluidflow.2017.05.013
+[research_malik_1987]: https://ntrs.nasa.gov/citations/19900003197
 [research_malik_2015]: https://doi.org/10.2514/1.j053637
 [research_malik_2024]: https://doi.org/10.1016/j.ijheatmasstransfer.2023.124910
 [research_malik_li_1993]: https://doi.org/10.2514/6.1993-77
@@ -2984,6 +3188,7 @@ What the programme was for, in the end, was to find out whether such a wing coul
 [research_manuilovich_2023]: https://doi.org/10.1134/s0015462823600700
 [research_maresh_bragg_1984]: https://doi.org/10.2514/6.1984-2170
 [research_marie_f_denison_2023]: https://ntrs.nasa.gov/citations/20230008266
+[research_marineau_2017]: https://doi.org/10.2514/1.j055061
 [research_marino_1975]: https://ntrs.nasa.gov/citations/19760005925
 [research_marshall_1999]: https://ntrs.nasa.gov/citations/20000004345
 [research_marshall_2000]: https://ntrs.nasa.gov/citations/20000080123
@@ -3005,8 +3210,10 @@ What the programme was for, in the end, was to find out whether such a wing coul
 [research_maughmer_coder_2018]: https://doi.org/10.2514/6.2018-3815
 [research_mawignon_2023]: https://doi.org/10.1016/j.oceaneng.2023.114135
 [research_mccauley_1966]: https://doi.org/10.2514/3.3868
+[research_mccroskey_1969]: https://doi.org/10.2514/3.59425
 [research_mccullough_gault_1947]: https://ntrs.nasa.gov/citations/19930093812
 [research_mccullough_gault_1948]: https://ntrs.nasa.gov/citations/19930082321
+[research_mccullough_gault_1950]: https://ntrs.nasa.gov/citations/19930082697
 [research_mcelderry_1973]: https://doi.org/10.21236/ada377039
 [research_mcquilkin_1982]: https://ntrs.nasa.gov/citations/19820019338
 [research_meade_1977]: https://ntrs.nasa.gov/citations/19780041291
@@ -3040,18 +3247,22 @@ What the programme was for, in the end, was to find out whether such a wing coul
 [research_miromiro_2020]: https://doi.org/10.35294/tm58
 [research_mishriky_walsh_2018]: https://doi.org/10.2514/1.j056836
 [research_mistry_page_2012]: https://doi.org/10.2514/6.2012-2694
+[research_mochizuki_1961]: https://doi.org/10.1143/jpsj.16.995
+[research_moniripiri_2026]: https://doi.org/10.1017/jfm.2026.11145
 [research_moniripiri_brito_2023]: https://doi.org/10.1007/s00162-023-00681-y
 [research_montoya_1981]: https://ntrs.nasa.gov/citations/19840019594
 [research_moralev_2020]: https://doi.org/10.1088/1742-6596/1698/1/012012
 [research_moralev_2021]: https://doi.org/10.1088/1742-6596/2100/1/012001
 [research_moralev_2022]: https://doi.org/10.1063/5.0091894
 [research_morduchow_1963]: https://doi.org/10.2514/3.1974
+[research_morduchow_reyle_1967]: https://doi.org/10.1016/0017-9310(67)90087-7
 [research_morgan_davies_2020]: https://doi.org/10.1016/j.jcp.2020.109325
 [research_mori_yakeno_2024]: https://doi.org/10.2514/6.2024-1565
 [research_morita_1971]: https://doi.org/10.1299/jsme1958.14.550
 [research_moriya_1972]: https://doi.org/10.1299/jsme1958.15.466
 [research_morrisette_creel_1986]: https://doi.org/10.2514/6.1986-1086
 [research_morrisette_creel_1987]: https://ntrs.nasa.gov/citations/19900003240
+[research_mosca_2024]: https://doi.org/10.2514/1.c037362
 [research_mosca_karpuk_2025]: https://doi.org/10.2514/6.2025-3291
 [research_mossop_hallett_1974]: https://doi.org/10.1126/science.186.4164.632
 [research_mossop_ono_1969]: https://doi.org/10.1175/1520-0469(1969)026<0130:moicci>2.0.co;2
@@ -3065,6 +3276,7 @@ What the programme was for, in the end, was to find out whether such a wing coul
 [research_murri_mcghee_1987]: https://ntrs.nasa.gov/citations/19900003225
 [research_nagamatsu_1964]: https://doi.org/10.21236/ad0615601
 [research_nahoui_2025]: https://doi.org/10.54966/jreen.v28i5.1508
+[research_nakagawa_1978]: https://doi.org/10.1299/kikai1938.44.4206
 [research_nakagawa_2023]: https://doi.org/10.1016/j.ijheatfluidflow.2023.109161
 [research_nangia_palmer_2003]: https://doi.org/10.2514/6.2003-3927
 [research_nark_1963]: https://doi.org/10.21236/ad0403049
@@ -3086,6 +3298,7 @@ What the programme was for, in the end, was to find out whether such a wing coul
 [research_nishino_shariff_2009]: https://doi.org/10.1007/978-90-481-3723-7_46
 [research_nishizawa_tokugawa_2009]: https://doi.org/10.1088/0169-5983/41/3/035513
 [research_nitsche_szodruch_1993]: https://doi.org/10.2514/3.48265
+[research_niu_2024]: https://doi.org/10.1063/5.0242618
 [research_niu_2025]: https://doi.org/10.1063/5.0257805
 [research_niu_li_2022]: https://doi.org/10.3390/app122211820
 [research_niu_su_2023]: https://doi.org/10.1063/5.0141000
@@ -3098,7 +3311,9 @@ What the programme was for, in the end, was to find out whether such a wing coul
 [research_northrop_corp_hawthorne_ca_norair_div_1964_2]: https://doi.org/10.21236/ad0605186
 [research_nouri_borujerdi_seyyed_hashemi_2016]: https://doi.org/10.24200/sci.2016.3973
 [research_novikov_obraz_2024]: https://doi.org/10.1134/s0015462824600202
+[research_obara_1990]: https://ntrs.nasa.gov/citations/19910063919
 [research_obara_hastings_1986]: https://doi.org/10.2514/6.1986-9756
+[research_obara_holmes_1985]: https://ntrs.nasa.gov/citations/19850012808
 [research_obara_holmes_1986]: https://ntrs.nasa.gov/citations/19880005571
 [research_obrist_schmid_2003]: https://doi.org/10.1017/s0022112003005779
 [research_oliver_2015]: https://doi.org/10.4271/2015-01-2156
@@ -3124,6 +3339,7 @@ What the programme was for, in the end, was to find out whether such a wing coul
 [research_pate_1964]: https://doi.org/10.21236/ad0450195
 [research_pate_1969]: https://doi.org/10.2514/3.5234
 [research_pate_1970]: https://doi.org/10.2514/6.1970-586
+[research_pate_1971]: https://doi.org/10.2514/3.6278
 [research_pate_1980]: https://doi.org/10.21236/ada384962
 [research_pate_brillhart_1963]: https://doi.org/10.21236/ad0410130
 [research_pate_deitering_1963]: https://doi.org/10.21236/ad0297204
@@ -3143,12 +3359,14 @@ What the programme was for, in the end, was to find out whether such a wing coul
 [research_perez_2015]: https://doi.org/10.1016/j.piutam.2015.03.080
 [research_perez_rodriguez_2012]: https://doi.org/10.1017/jfm.2012.354
 [research_perezperez]: https://doi.org/10.20868/upm.thesis.14835
+[research_perlin_2016]: https://doi.org/10.1115/1.4033295
 [research_perraud_moens_2003]: https://doi.org/10.2514/6.2003-3796
 [research_perry_ansell_2017]: https://doi.org/10.2514/1.c034193
 [research_persh_1956]: https://doi.org/10.21236/ad0119103
 [research_persh_1957]: https://doi.org/10.21236/ad0131947
 [research_peters_2024]: https://doi.org/10.1017/jfm.2024.1054
 [research_peterson_fisher_1978]: https://ntrs.nasa.gov/citations/19780019124
+[research_peterson_horton_1959]: https://ntrs.nasa.gov/citations/19980231987
 [research_petley_alexander_1985]: https://ntrs.nasa.gov/citations/19850015396
 [research_petzold_radespiel_2015]: https://doi.org/10.2514/1.j053127
 [research_pfenninger_1949]: https://doi.org/10.2514/8.11771
@@ -3173,14 +3391,18 @@ What the programme was for, in the end, was to find out whether such a wing coul
 [research_piscitelli_2020]: https://doi.org/10.3390/aerospace7010002
 [research_pisharoti_brizzolara_2025]: https://doi.org/10.51560/ofj.v5.130
 [research_placek_ruchaa_2018]: https://doi.org/10.1016/j.trpro.2018.02.029
+[research_placidi_2023]: https://doi.org/10.1007/s00348-023-03579-x
+[research_plate_boundary_2023]: https://doi.org/10.1063/5.0151964
 [research_pohya_2019]: https://doi.org/10.2514/1.c035205
 [research_pohya_wicke_2019]: https://doi.org/10.2514/6.2019-1589
 [research_poll_1979]: https://doi.org/10.1017/s0001925900008763
 [research_poll_1980]: https://doi.org/10.1007/978-3-642-81485-3_24
 [research_poll_1981]: https://doi.org/10.1017/s0001925900009215
+[research_poll_1983]: https://doi.org/10.1017/s0001925900009562
 [research_poll_2000]: https://doi.org/10.2514/6.2000-2540
 [research_poll_2007]: https://ntrs.nasa.gov/citations/20070038946
 [research_poll_danks_1995]: https://doi.org/10.1007/978-3-642-79765-1_16
+[research_poll_paisley_1985]: https://doi.org/10.1017/s0001924000050983
 [research_poots_1965]: https://doi.org/10.1017/s0022112065000678
 [research_poreh_hsu_1972]: https://doi.org/10.2514/3.48119
 [research_potter_1968]: https://doi.org/10.21236/ad0666911
@@ -3189,6 +3411,7 @@ What the programme was for, in the end, was to find out whether such a wing coul
 [research_potter_whitfield_1962]: https://doi.org/10.1017/s0022112062000385
 [research_potter_whitfield_1964]: https://doi.org/10.2514/3.2315
 [research_potts_2023]: https://doi.org/10.3390/atmos14050786
+[research_poulain_2024]: https://doi.org/10.1017/jfm.2023.993
 [research_povinelli_1976]: https://ntrs.nasa.gov/citations/19760036627
 [research_powell_1987]: https://ntrs.nasa.gov/citations/19900003194
 [research_powell_agrawal_1989]: https://ntrs.nasa.gov/citations/19890017470
@@ -3237,6 +3460,7 @@ What the programme was for, in the end, was to find out whether such a wing coul
 [research_reed_1985]: https://doi.org/10.1007/978-3-642-82462-3_57
 [research_reed_1989]: https://ntrs.nasa.gov/citations/19900004428
 [research_reed_1990]: https://doi.org/10.21236/ada226351
+[research_reed_1991]: https://ntrs.nasa.gov/citations/19910012782
 [research_reed_nayfeh_1981]: https://ntrs.nasa.gov/citations/19810055645
 [research_reed_saric_2002]: https://doi.org/10.2514/6.2002-147
 [research_reed_saric_2013]: https://doi.org/10.1007/s10665-013-9662-5
@@ -3245,7 +3469,9 @@ What the programme was for, in the end, was to find out whether such a wing coul
 [research_reibert_saric_1996]: https://doi.org/10.2514/6.1996-184
 [research_reibert_saric_1997]: https://doi.org/10.2514/6.1997-1816
 [research_report_no_1930]: https://doi.org/10.1016/s0016-0032(30)90271-2
+[research_reshotko_1990]: https://ntrs.nasa.gov/citations/19910046687
 [research_review_of_1962]: https://doi.org/10.1016/0043-1648(62)90202-8
+[research_reynolds_1982]: https://ntrs.nasa.gov/citations/19820012278
 [research_rhudy_1970]: https://doi.org/10.21236/ad0702078
 [research_ricco_2021]: https://doi.org/10.1016/j.paerosci.2021.100713
 [research_ricco_shah_2013]: https://doi.org/10.1063/1.4807066
@@ -3256,9 +3482,13 @@ What the programme was for, in the end, was to find out whether such a wing coul
 [research_rioual_nelson_1994]: https://doi.org/10.2514/3.46668
 [research_risse_schueltke_2014]: https://doi.org/10.2514/6.2014-0023
 [research_risse_stumpf_2014]: https://doi.org/10.1007/s13272-014-0111-6
+[research_riusvidales_kotsonis_2020]: https://doi.org/10.2514/1.j059566
+[research_riusvidales_kotsonis_2022]: https://doi.org/10.1017/jfm.2022.151
 [research_rizzetta_garmann_2025]: https://doi.org/10.2514/1.c037916
 [research_rizzetta_visbal_2010]: https://doi.org/10.2514/6.2010-377
 [research_rizzetta_visbal_2010_b]: https://doi.org/10.2514/1.j050548
+[research_rizzetta_visbal_2015]: https://doi.org/10.1080/10618562.2015.1025766
+[research_rizzetta_visbal_2015_b]: https://doi.org/10.2514/1.j053289
 [research_rizzetta_visbal_2016]: https://doi.org/10.2514/1.c033596
 [research_rizzetta_visbal_2016_b]: https://doi.org/10.2514/6.2016-3930
 [research_rizzetta_visbal_2016_c]: https://doi.org/10.2514/6.2016-0322
@@ -3271,8 +3501,10 @@ What the programme was for, in the end, was to find out whether such a wing coul
 [research_robison_loth_2017]: https://doi.org/10.2514/6.2017-0725
 [research_rogers_1979]: https://doi.org/10.2514/6.1979-1336
 [research_rogers_king_1984]: https://doi.org/10.2514/6.1984-1368
+[research_romano_2017]: https://doi.org/10.1007/bf03404738
 [research_rosenbaum_1966]: https://ntrs.nasa.gov/citations/19660061054
 [research_rothstein_2010]: https://doi.org/10.21236/ada513497
+[research_rouviere_2023]: https://doi.org/10.1017/flo.2023.17
 [research_roy_saikrishnan_2003]: https://doi.org/10.1016/s0017-9310(03)00137-6
 [research_rubesin_johnson_1949]: https://doi.org/10.1115/1.4017082
 [research_rudenko_ryzhkova_1968]: https://doi.org/10.1007/bf01022888
@@ -3281,6 +3513,7 @@ What the programme was for, in the end, was to find out whether such a wing coul
 [research_russo_brehm_2023]: https://doi.org/10.2514/6.2023-4421
 [research_rydalch_2013]: https://doi.org/10.21236/ada581869
 [research_sabater_2022]: https://doi.org/10.2514/1.j060676
+[research_saeed_2011]: https://doi.org/10.2514/1.c031283
 [research_saeed_graham_2010]: https://doi.org/10.2514/6.2010-4379
 [research_saeed_graham_2015]: https://doi.org/10.2514/1.c032862
 [research_safari_2025]: https://doi.org/10.1016/j.expthermflusci.2024.111341
@@ -3303,6 +3536,7 @@ What the programme was for, in the end, was to find out whether such a wing coul
 [research_satish_2017]: https://doi.org/10.1088/1742-6596/822/1/012036
 [research_sattarzadeh_fransson_2016]: https://doi.org/10.1103/physreve.94.021103
 [research_savoshchik_tokhunts_1974]: https://doi.org/10.1007/bf01017413
+[research_scarano_2022]: https://doi.org/10.55037/lxlaser.20th.148
 [research_schlichting_1949]: https://ntrs.nasa.gov/citations/20050031104
 [research_schlichting_gersten_2000]: https://doi.org/10.1007/978-3-642-85829-1_11
 [research_schneider_beckwith_1992]: https://doi.org/10.1007/978-1-4612-2956-8_3
@@ -3345,6 +3579,7 @@ What the programme was for, in the end, was to find out whether such a wing coul
 [research_sharma_dutta_2022]: https://doi.org/10.1115/1.4056185
 [research_sheetz_1965]: https://ntrs.nasa.gov/citations/19650033898
 [research_shepherd_2014]: https://doi.org/10.21236/ada619007
+[research_shi_2015]: https://doi.org/10.1016/j.cja.2015.02.011
 [research_shi_2020]: https://doi.org/10.2514/1.j058266
 [research_shi_2021]: https://doi.org/10.1007/s00158-021-02936-w
 [research_shi_2023]: https://doi.org/10.1155/2023/3455238
@@ -3368,9 +3603,12 @@ What the programme was for, in the end, was to find out whether such a wing coul
 [research_smith_clutter_1959]: https://doi.org/10.2514/8.8019
 [research_smith_kroo_1990]: https://ntrs.nasa.gov/citations/19900063583
 [research_snyder_zumwalt_1969]: https://doi.org/10.2514/3.44076
+[research_sohn_reshotko_1991]: https://ntrs.nasa.gov/citations/19910008028
 [research_sokolov_1980]: https://doi.org/10.1063/1.862931
 [research_soleimani_eckels_2021]: https://doi.org/10.1016/j.ijft.2020.100053
+[research_soltani_2011]: https://doi.org/10.1016/j.scient.2011.10.001
 [research_somers_1992]: https://doi.org/10.1007/978-1-4612-2872-1_4
+[research_somers_2012]: https://ntrs.nasa.gov/citations/20120006123
 [research_somers_2019]: https://ntrs.nasa.gov/citations/20190031816
 [research_song_2024]: https://doi.org/10.1088/1742-6596/2730/1/012055
 [research_song_2025]: https://doi.org/10.1016/j.apsusc.2024.161980
@@ -3378,6 +3616,7 @@ What the programme was for, in the end, was to find out whether such a wing coul
 [research_spaid_1969]: https://doi.org/10.2514/3.5222
 [research_spalding_chi_1963]: https://doi.org/10.2514/3.2018
 [research_spalding_chi_1964]: https://doi.org/10.1017/s0022112064000088
+[research_spall_malik_1992]: https://ntrs.nasa.gov/citations/19940029024
 [research_sparrow_1963]: https://doi.org/10.1115/1.3630103
 [research_speer_zhong_2004]: https://doi.org/10.2514/6.2004-252
 [research_spence_1960]: https://doi.org/10.1017/s0022112060000670
@@ -3410,13 +3649,13 @@ What the programme was for, in the end, was to find out whether such a wing coul
 [research_sudhi_2023]: https://doi.org/10.2514/1.c036968
 [research_sullivan_2017]: https://doi.org/10.1002/2017jd026546
 [research_sullivan_2022]: https://doi.org/10.1016/j.sctalk.2022.100076
+[research_sun_du_2026]: https://doi.org/10.1063/5.0323917
 [research_suryanarayanan_goldstein_2017]: https://doi.org/10.2514/6.2017-4417
 [research_swafford_1979]: https://doi.org/10.21236/ada067423
 [research_swean_inger_1974]: https://doi.org/10.2514/6.1974-676
 [research_swift_mungur_1979]: https://ntrs.nasa.gov/citations/19800004564
 [research_swigart_1972]: https://doi.org/10.2514/3.6617
 [research_swinford_1976]: https://ntrs.nasa.gov/citations/19760018058
-[research_symposium_on_1955]: https://doi.org/10.1108/eb032565
 [research_szulga_2015]: https://doi.org/10.1016/j.piutam.2015.03.067
 [research_takahashi_2019]: https://doi.org/10.3390/app9235199
 [research_takematsu_1970]: https://doi.org/10.5109/7170854
@@ -3428,6 +3667,7 @@ What the programme was for, in the end, was to find out whether such a wing coul
 [research_tani_1961]: https://doi.org/10.1016/b978-1-4832-1323-1.50004-x
 [research_tani_1980]: https://doi.org/10.1007/978-3-642-81485-3_25
 [research_tani_hama_1953]: https://doi.org/10.2514/8.2613
+[research_tani_sato_1956]: https://doi.org/10.1143/jpsj.11.1284
 [research_tao_xiong_2020]: https://doi.org/10.1088/1742-6596/1592/1/012006
 [research_tatar_tahani_2019]: https://doi.org/10.1108/aeat-05-2018-0144
 [research_tatsumi_1952]: https://doi.org/10.1103/physrev.87.1127
@@ -3448,6 +3688,8 @@ What the programme was for, in the end, was to find out whether such a wing coul
 [research_thompson_1970]: https://doi.org/10.21236/ad0734152
 [research_thompson_emrich_1967]: https://doi.org/10.1063/1.1761968
 [research_three_dimensional_boundary_layer_1994]: https://doi.org/10.2514/6.1994-2375
+[research_thummar_2023]: https://doi.org/10.1007/s40430-023-04328-1
+[research_thummar_2024]: https://doi.org/10.1115/1.4066061
 [research_tmlorenzi_cslovell_2011]: https://ntrs.nasa.gov/citations/20200004824
 [research_tokhunts_1968]: https://doi.org/10.1007/bf01013561
 [research_tokugawa_2008]: https://doi.org/10.2514/1.33596
@@ -3457,6 +3699,7 @@ What the programme was for, in the end, was to find out whether such a wing coul
 [research_tolkachev_gorev_2012_b]: https://doi.org/10.54362/1818-7919-2012-7-2-66-79
 [research_toppings_yarusevych_2023]: https://doi.org/10.1016/j.ijheatfluidflow.2023.109141
 [research_torda_1952]: https://doi.org/10.1002/sapm1952311206
+[research_torda_1953]: https://doi.org/10.1002/sapm1953321312
 [research_tracy_sturdza_2002]: https://doi.org/10.2514/6.2002-146
 [research_transonic_flight_1994]: https://doi.org/10.2514/6.1994-2142
 [research_traub_2026]: https://doi.org/10.1007/978-3-032-13844-6
@@ -3468,10 +3711,13 @@ What the programme was for, in the end, was to find out whether such a wing coul
 [research_tucker_reed_2016]: https://doi.org/10.2514/6.2016-1758
 [research_tucker_saric_2014]: https://doi.org/10.2514/6.2014-1117
 [research_tucker_saric_2014_b]: https://doi.org/10.2514/6.2014-0909
+[research_tufts_2014]: https://doi.org/10.1504/ijesms.2014.063123
 [research_tufts_reed_2014]: https://doi.org/10.2514/1.c032490
 [research_turriziani_lovell_1979]: https://ntrs.nasa.gov/citations/19790009681
+[research_tuttle_maddalon_1982]: https://ntrs.nasa.gov/citations/19820023769
 [research_tutty_hackenberg_2000]: https://doi.org/10.2514/2.967
 [research_twiss_colletti_2019]: https://doi.org/10.2514/6.2019-0291
+[research_ueda_2014]: https://doi.org/10.2514/1.j052555
 [research_uram_1960]: https://doi.org/10.2514/8.8391
 [research_ustinov]: https://doi.org/10.1007/1-4020-4159-4_53
 [research_ustinov_2004]: https://doi.org/10.1007/s10697-004-0007-y
@@ -3490,6 +3736,8 @@ What the programme was for, in the end, was to find out whether such a wing coul
 [research_vandam_1993]: https://ntrs.nasa.gov/citations/19940023426
 [research_vandam_holmes_1988]: https://doi.org/10.2514/3.45647
 [research_vandam_vijgen_1993]: https://ntrs.nasa.gov/citations/19930061157
+[research_vandriest_1967]: https://doi.org/10.2514/3.4337
+[research_vandriest_blumer_1968]: https://doi.org/10.2514/3.4551
 [research_vanoudheusden_2003]: https://doi.org/10.1017/s0001924000011805
 [research_vanrijn_1997]: https://doi.org/10.1016/s1359-835x(97)00059-6
 [research_vermeersch_2015]: https://doi.org/10.1016/j.paerosci.2015.07.003
@@ -3541,6 +3789,7 @@ What the programme was for, in the end, was to find out whether such a wing coul
 [research_wedin_2015]: https://doi.org/10.1103/physreve.92.013022
 [research_wedin_cherubini_2016]: https://doi.org/10.1088/0169-5983/48/6/061411
 [research_wei_2013]: https://doi.org/10.4028/www.scientific.net/amr.779-780.401
+[research_weilmuenster_1974]: https://ntrs.nasa.gov/citations/19740013815
 [research_wen_2024]: https://doi.org/10.54097/06qsfh56
 [research_wentz_1984]: https://ntrs.nasa.gov/citations/19840058557
 [research_wentz_1985]: https://ntrs.nasa.gov/citations/19860053766
@@ -3575,7 +3824,9 @@ What the programme was for, in the end, was to find out whether such a wing coul
 [research_wrona_tuliszkasznitko_2002]: https://doi.org/10.1108/00022660210434415
 [research_wu_1972]: https://doi.org/10.2514/3.48121
 [research_wu_1973]: https://doi.org/10.1063/1.1662531
+[research_wu_2024]: https://doi.org/10.1063/5.0200355
 [research_wu_2025]: https://doi.org/10.1021/acs.langmuir.5c02569
+[research_wu_2026]: https://doi.org/10.1103/g72g-q82r
 [research_wu_2026_2]: https://doi.org/10.1016/j.optlastec.2025.114241
 [research_wu_tulin_1970]: https://doi.org/10.21236/ad0709083
 [research_wuest_1952]: https://ntrs.nasa.gov/citations/19930093894
@@ -3587,8 +3838,10 @@ What the programme was for, in the end, was to find out whether such a wing coul
 [research_xi_fu_2026]: https://doi.org/10.1017/jfm.2026.12114
 [research_xia_chen_2016]: https://doi.org/10.1016/j.cja.2015.12.003
 [research_xiao_2019]: https://doi.org/10.1029/2019ea000636
+[research_xiao_papadakis_2017]: https://doi.org/10.1063/1.4983354
 [research_xiong_tao_2018]: https://doi.org/10.1142/s0217984918400481
 [research_xu_2018]: https://doi.org/10.1016/j.ast.2018.07.007
+[research_xu_2019]: https://doi.org/10.1017/jfm.2019.397
 [research_xu_2021]: https://doi.org/10.2514/1.j059971
 [research_xu_2024]: https://doi.org/10.1016/j.rineng.2024.102121
 [research_xu_han_2019]: https://doi.org/10.2514/6.2019-3291
@@ -3635,6 +3888,7 @@ What the programme was for, in the end, was to find out whether such a wing coul
 [research_young_fielding_2001_b]: https://doi.org/10.1007/978-3-540-45359-8_12
 [research_youngren_2008]: https://doi.org/10.2514/6.2008-293
 [research_yu_2017]: https://doi.org/10.12783/dteees/icepe2017/11900
+[research_yu_2026]: https://doi.org/10.1063/5.0334253
 [research_yuan_1955]: https://doi.org/10.21236/ad0058831
 [research_zahn_rist_2016]: https://doi.org/10.2514/1.j054112
 [research_zakharin_wygnanski_2008]: https://doi.org/10.2514/1.36027
@@ -3645,8 +3899,10 @@ What the programme was for, in the end, was to find out whether such a wing coul
 [research_zauner_2023]: https://doi.org/10.1007/s10494-023-00415-4
 [research_zauner_sandham_2020]: https://doi.org/10.1103/physrevfluids.5.083903
 [research_zeng_2021]: https://doi.org/10.1016/j.colsurfa.2021.127377
+[research_zeng_2024]: https://doi.org/10.1063/5.0222859
 [research_zeyan_1981]: https://doi.org/10.1007/bf01875922
 [research_zhang_2015]: https://doi.org/10.1016/j.ast.2015.02.024
+[research_zhang_2017]: https://doi.org/10.2514/1.c033511
 [research_zhang_2020_3]: https://doi.org/10.1016/j.cja.2020.05.015
 [research_zhang_2022]: https://doi.org/10.1063/5.0122064
 [research_zhang_2023]: https://doi.org/10.1016/j.cja.2023.04.016
@@ -3670,8 +3926,10 @@ What the programme was for, in the end, was to find out whether such a wing coul
 [research_zhou_2022_3]: https://doi.org/10.1021/acs.langmuir.2c02222
 [research_zhou_2024]: https://doi.org/10.3390/molecules29081837
 [research_zhu_2019]: https://doi.org/10.2514/1.j058011
+[research_zolotov_khodorkovsky_1963]: https://doi.org/10.1016/0017-9310(63)90080-2
 [research_zong_2022]: https://doi.org/10.1063/5.0104609
 [research_zoppini_2022]: https://doi.org/10.2139/ssrn.4036119
 [research_zoppini_michelis_2023]: https://doi.org/10.1017/jfm.2023.141
 [research_zoppini_ragni_2022]: https://doi.org/10.2514/6.2022-1213
+[research_zore_2023]: https://doi.org/10.2514/1.c037013
 [research_zou_zhong_2024]: https://doi.org/10.1016/j.jcp.2024.113135

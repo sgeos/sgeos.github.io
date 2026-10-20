@@ -1,10 +1,1746 @@
 {
+ "10.1002/asi.5090190220": {
+  "why": "A368: INDEX OR LISTING. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A368",
+  "title": "4/68–2R NASA thesaurus: Subject terms for indexing scientific and technical information. Preliminary edition. NASA SP‐7030. December 1967. Scientific and Techni",
+  "key_kind": "doi",
+  "doi": "10.1002/asi.5090190220"
+ },
+ "10.1002/cpu.30342": {
+  "why": "A349: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A349",
+  "title": "Drug names are misleading, new system is proposed",
+  "key_kind": "doi",
+  "doi": "10.1002/cpu.30342"
+ },
+ "10.1002/fgc.32199": {
+  "why": "A305: MEETING NOTICE, PROGRAMME OR SESSION LISTING. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A305",
+  "title": "EPSCoR Suborbital Flight Opportunity (NASA)",
+  "key_kind": "doi",
+  "doi": "10.1002/fgc.32199"
+ },
+ "10.1007/978-94-011-1828-6_49": {
+  "why": "A297,A304,A348,A357: FRONT MATTER, EDITORIAL OR ISSUE INTRODUCTION. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A348",
+  "title": "Introduction to Session 7: Recommendations for Future Research in Hypersonic Instrumentation",
+  "key_kind": "doi",
+  "doi": "10.1007/978-94-011-1828-6_49"
+ },
+ "10.1007/bf00775332": {
+  "why": "A317: BARE CONFERENCE OR MEETING RECORD WITH NO CONTENT OF ITS OWN. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A317",
+  "title": "Symposium on Problems of Developing and Manufacturing Refractory Metals (Praque, Czechoslovakia)",
+  "key_kind": "doi",
+  "doi": "10.1007/bf00775332"
+ },
+ "10.1007/bf01235508": {
+  "why": "A303: BARE CONFERENCE OR MEETING RECORD WITH NO CONTENT OF ITS OWN. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A303",
+  "title": "Symposium on Radiation Damage in Reactor Materials",
+  "key_kind": "doi",
+  "doi": "10.1007/bf01235508"
+ },
+ "10.1007/bf01312336": {
+  "why": "A303: BARE CONFERENCE OR MEETING RECORD WITH NO CONTENT OF ITS OWN. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A303",
+  "title": "International Symposium on Radiation Damage in Solids and Reactor Materials",
+  "key_kind": "doi",
+  "doi": "10.1007/bf01312336"
+ },
+ "10.1007/bf02473090": {
+  "why": "A322: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A322",
+  "title": "Coating makes aircraft escape slides saper",
+  "key_kind": "doi",
+  "doi": "10.1007/bf02473090"
+ },
+ "10.1007/bf02520905": {
+  "why": "A309: BARE CONFERENCE OR MEETING RECORD WITH NO CONTENT OF ITS OWN. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A309",
+  "title": "1985 Symposium on the North American Vertical Datum",
+  "key_kind": "doi",
+  "doi": "10.1007/bf02520905"
+ },
+ "10.1007/bf02521267": {
+  "why": "A309: BARE CONFERENCE OR MEETING RECORD WITH NO CONTENT OF ITS OWN. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A309",
+  "title": "Third International Symposium on the North American Vertical Datum (Navd Symposium'85)",
+  "key_kind": "doi",
+  "doi": "10.1007/bf02521267"
+ },
+ "10.1007/bf02522319": {
+  "why": "A309: BARE CONFERENCE OR MEETING RECORD WITH NO CONTENT OF ITS OWN. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A309",
+  "title": "International Symposium on the Changing World of Geodetic Science",
+  "key_kind": "doi",
+  "doi": "10.1007/bf02522319"
+ },
+ "10.1007/bf02523708": {
+  "why": "A309: BARE CONFERENCE OR MEETING RECORD WITH NO CONTENT OF ITS OWN. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A309",
+  "title": "Third International Symposium on the North American Vertical Datum",
+  "key_kind": "doi",
+  "doi": "10.1007/bf02523708"
+ },
+ "10.1007/s12567-022-00466-9": {
+  "why": "A334: BARE CONFERENCE OR MEETING RECORD WITH NO CONTENT OF ITS OWN. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A334",
+  "title": "1st Symposium of Very Low Earth Orbit Missions and Technologies",
+  "key_kind": "doi",
+  "doi": "10.1007/s12567-022-00466-9"
+ },
+ "10.1007/s13272-025-00875-6": {
+  "why": "A315: FRONT MATTER, EDITORIAL OR ISSUE INTRODUCTION. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A315",
+  "title": "Special issue on urban air mobility: research on aircraft, infrastructure, operation, and public acceptance",
+  "key_kind": "doi",
+  "doi": "10.1007/s13272-025-00875-6"
+ },
+ "10.1007/s40278-013-2879-2": {
+  "why": "A349: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A349",
+  "title": "FDA warns of potential confusion with name of new cancer drug",
+  "key_kind": "doi",
+  "doi": "10.1007/s40278-013-2879-2"
+ },
+ "10.1007/s40278-023-44849-3": {
+  "why": "A349: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A349",
+  "title": "ISMP adds more drug name pairs to List of Confused Drug Names",
+  "key_kind": "doi",
+  "doi": "10.1007/s40278-023-44849-3"
+ },
+ "10.1007/s42064-021-0129-6": {
+  "why": "A314,A320: FRONT MATTER, EDITORIAL OR ISSUE INTRODUCTION. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A314",
+  "title": "Message from the Guest Editors of the Special Issue on Entry, Descent, and Landing of Tianwen-1—China’s First Mission to Mars",
+  "key_kind": "doi",
+  "doi": "10.1007/s42064-021-0129-6"
+ },
+ "10.1016/0010-4361(81)90026-4": {
+  "why": "A326: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A326",
+  "title": "Over 136 000 flying hours logged by graphite/epoxy composite rudders",
+  "key_kind": "doi",
+  "doi": "10.1016/0010-4361(81)90026-4"
+ },
+ "10.1016/0016-0032(52)90994-0": {
+  "why": "A343,A344: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A343",
+  "title": "New steam catapult for aircraft carrier",
+  "key_kind": "doi",
+  "doi": "10.1016/0016-0032(52)90994-0"
+ },
+ "10.1016/0021-9169(53)90079-8": {
+  "why": "A305: BARE CONFERENCE OR MEETING RECORD WITH NO CONTENT OF ITS OWN. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A305",
+  "title": "Conference on rocket research of the upper atmosphere",
+  "key_kind": "doi",
+  "doi": "10.1016/0021-9169(53)90079-8"
+ },
+ "10.1016/0022-3115(63)90158-2": {
+  "why": "A303: BARE CONFERENCE OR MEETING RECORD WITH NO CONTENT OF ITS OWN. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A303",
+  "title": "Radiation damage in solids (proceedings of the venice symposium on radiation damage in solids and reactor materials held by the IAEA in May, 1962)",
+  "key_kind": "doi",
+  "doi": "10.1016/0022-3115(63)90158-2"
+ },
+ "10.1016/0022-460x(67)90114-9": {
+  "why": "A323: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A323",
+  "title": "New aircraft noise monitoring system for Zürich airport",
+  "key_kind": "doi",
+  "doi": "10.1016/0022-460x(67)90114-9"
+ },
+ "10.1016/0029-5493(72)90094-5": {
+  "why": "A303: MEETING NOTICE, PROGRAMME OR SESSION LISTING. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A303",
+  "title": "Information Formal Announcement of the Fourth International Conference on Reactor Shielding",
+  "key_kind": "doi",
+  "doi": "10.1016/0029-5493(72)90094-5"
+ },
+ "10.1016/0029-5493(77)90102-9": {
+  "why": "A303: BARE CONFERENCE OR MEETING RECORD WITH NO CONTENT OF ITS OWN. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A303",
+  "title": "Fifth international conference on reactor shielding",
+  "key_kind": "doi",
+  "doi": "10.1016/0029-5493(77)90102-9"
+ },
+ "10.1016/0034-3617(95)91926-0": {
+  "why": "A352: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A352",
+  "title": "Thermoset resin demand to increase 3.4%",
+  "key_kind": "doi",
+  "doi": "10.1016/0034-3617(95)91926-0"
+ },
+ "10.1016/0034-3617(95)92157-5": {
+  "why": "A352: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A352",
+  "title": "Composite skin cuts cost of jet parts production",
+  "key_kind": "doi",
+  "doi": "10.1016/0034-3617(95)92157-5"
+ },
+ "10.1016/0045-8732(80)90076-5": {
+  "why": "A368: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A368",
+  "title": "NASA aeronautics delegation returns from China",
+  "key_kind": "doi",
+  "doi": "10.1016/0045-8732(80)90076-5"
+ },
+ "10.1016/0045-8732(85)90030-0": {
+  "why": "A368: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A368",
+  "title": "NASA and ESA meet to review 20 years of co-operation in the scientific and technical information field",
+  "key_kind": "doi",
+  "doi": "10.1016/0045-8732(85)90030-0"
+ },
+ "10.1016/0045-8732(86)90081-1": {
+  "why": "A309: BARE CONFERENCE OR MEETING RECORD WITH NO CONTENT OF ITS OWN. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A309",
+  "title": "International conference on earth rotation and the terrestrial reference frame",
+  "key_kind": "doi",
+  "doi": "10.1016/0045-8732(86)90081-1"
+ },
+ "10.1016/0045-8732(87)90210-5": {
+  "why": "A313,A315: MEETING NOTICE, PROGRAMME OR SESSION LISTING. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A315",
+  "title": "1.17. 10th meeting of the iso sub-committee on standard atmosphere",
+  "key_kind": "doi",
+  "doi": "10.1016/0045-8732(87)90210-5"
+ },
+ "10.1016/0140-7007(86)90054-x": {
+  "why": "A327: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A327",
+  "title": "New environmental test facility",
+  "key_kind": "doi",
+  "doi": "10.1016/0140-7007(86)90054-x"
+ },
+ "10.1016/0141-0296(93)90056-a": {
+  "why": "A347: BARE CONFERENCE OR MEETING RECORD WITH NO CONTENT OF ITS OWN. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A347",
+  "title": "Second international colloquium on bluff-body aerodynamics and applications (BBAA2)",
+  "key_kind": "doi",
+  "doi": "10.1016/0141-0296(93)90056-a"
+ },
+ "10.1016/0149-1970(86)90006-5": {
+  "why": "A303: BARE CONFERENCE OR MEETING RECORD WITH NO CONTENT OF ITS OWN. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A303",
+  "title": "International seminar finite element and allied methods for reactor physics and shielding calculations",
+  "key_kind": "doi",
+  "doi": "10.1016/0149-1970(86)90006-5"
+ },
+ "10.1016/0262-1762(95)90910-9": {
+  "why": "A327: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A327",
+  "title": "Lewis DMR commissions large-scale test facility",
+  "key_kind": "doi",
+  "doi": "10.1016/0262-1762(95)90910-9"
+ },
+ "10.1016/0265-9646(87)90057-9": {
+  "why": "A339,A360: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A339",
+  "title": "NASA plans use of expendable launch vehicles",
+  "key_kind": "doi",
+  "doi": "10.1016/0265-9646(87)90057-9"
+ },
+ "10.1016/0265-9646(88)90073-2": {
+  "why": "A357: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A357",
+  "title": "New launcher — and launch site — for Europe",
+  "key_kind": "doi",
+  "doi": "10.1016/0265-9646(88)90073-2"
+ },
+ "10.1016/0265-9646(91)90075-s": {
+  "why": "A309: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A309",
+  "title": "Australia joins international environmental satellite project",
+  "key_kind": "doi",
+  "doi": "10.1016/0265-9646(91)90075-s"
+ },
+ "10.1016/b978-0-12-395556-2.50004-x": {
+  "why": "A339: PERIODIC REPORT OF AN ORGANISATION COVERING MANY PROJECTS. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A339",
+  "title": "AMERICAN ROCKET SOCIETY: Propellants and Combustion Committee",
+  "key_kind": "doi",
+  "doi": "10.1016/b978-0-12-395556-2.50004-x"
+ },
+ "10.1016/j.actaastro.2019.02.027": {
+  "why": "A334: FRONT MATTER, EDITORIAL OR ISSUE INTRODUCTION. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A334",
+  "title": "Special issue on Space Situational Awareness from the 1st International Academy of Astronautics Conference on Space Situational Awareness or ICSSA 2017",
+  "key_kind": "doi",
+  "doi": "10.1016/j.actaastro.2019.02.027"
+ },
+ "10.1016/j.actaastro.2021.04.020": {
+  "why": "A334: FRONT MATTER, EDITORIAL OR ISSUE INTRODUCTION. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A334",
+  "title": "Special issue on Space Situational Awareness from the 1st International Academy of Astronautics Conference on Space Situational Awareness or ICSSA 2020",
+  "key_kind": "doi",
+  "doi": "10.1016/j.actaastro.2021.04.020"
+ },
+ "10.1016/j.compstruct.2005.11.045": {
+  "why": "A352: BARE CONFERENCE OR MEETING RECORD WITH NO CONTENT OF ITS OWN. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A352",
+  "title": "International Conference on Buckling and Postbuckling Behavior of Composite Laminated Shell Structures, EILAT, ISRAEL",
+  "key_kind": "doi",
+  "doi": "10.1016/j.compstruct.2005.11.045"
+ },
+ "10.1016/j.dt.2018.08.001": {
+  "why": "A343: FRONT MATTER, EDITORIAL OR ISSUE INTRODUCTION. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A343",
+  "title": "Defence technology: Special issue on “composite materials in defence technology”",
+  "key_kind": "doi",
+  "doi": "10.1016/j.dt.2018.08.001"
+ },
+ "10.1016/j.fopow.2015.05.026": {
+  "why": "A352: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A352",
+  "title": "Hexion Launches Next Generation of Low Gloss, Low Temperature Cure Polyester Powder Coating Resins",
+  "key_kind": "doi",
+  "doi": "10.1016/j.fopow.2015.05.026"
+ },
+ "10.1016/j.fopow.2016.05.023": {
+  "why": "A352: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A352",
+  "title": "Hexion Inc. to offer low temperature cure powder coating resins in North America",
+  "key_kind": "doi",
+  "doi": "10.1016/j.fopow.2016.05.023"
+ },
+ "10.1016/j.ijfatigue.2009.02.004": {
+  "why": "A352: BARE CONFERENCE OR MEETING RECORD WITH NO CONTENT OF ITS OWN. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A352",
+  "title": "International conference on damage tolerance of aircraft structures",
+  "key_kind": "doi",
+  "doi": "10.1016/j.ijfatigue.2009.02.004"
+ },
+ "10.1016/j.jsse.2019.06.003": {
+  "why": "A334: FRONT MATTER, EDITORIAL OR ISSUE INTRODUCTION. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A334",
+  "title": "Introduction to the special issue on Space Situational Awareness and Traffic Management",
+  "key_kind": "doi",
+  "doi": "10.1016/j.jsse.2019.06.003"
+ },
+ "10.1016/j.mprp.2015.08.007": {
+  "why": "A360: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A360",
+  "title": "World's first spacecraft thruster featuring 3D printed chamber",
+  "key_kind": "doi",
+  "doi": "10.1016/j.mprp.2015.08.007"
+ },
+ "10.1016/j.mprp.2016.04.011": {
+  "why": "A360: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A360",
+  "title": "Aerojet Rocketdyne tests 3D printed injector",
+  "key_kind": "doi",
+  "doi": "10.1016/j.mprp.2016.04.011"
+ },
+ "10.1016/j.paerosci.2011.09.002": {
+  "why": "A314: FRONT MATTER, EDITORIAL OR ISSUE INTRODUCTION. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A314",
+  "title": "Special issue of Progress in Aerospace Sciences on assessment of aerothermodynamic flight prediction tools",
+  "key_kind": "doi",
+  "doi": "10.1016/j.paerosci.2011.09.002"
+ },
+ "10.1016/j.ptdy.2019.10.018": {
+  "why": "A349: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A349",
+  "title": "Marijuana dispensary using same name as existing pharmacy causes confusion",
+  "key_kind": "doi",
+  "doi": "10.1016/j.ptdy.2019.10.018"
+ },
+ "10.1016/j.repl.2015.01.024": {
+  "why": "A352: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A352",
+  "title": "TenCate to supply prepreg for all-composite aircraft",
+  "key_kind": "doi",
+  "doi": "10.1016/j.repl.2015.01.024"
+ },
+ "10.1016/j.repl.2015.03.041": {
+  "why": "A352: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A352",
+  "title": "Tool board ‘new approach’ to composite tooling",
+  "key_kind": "doi",
+  "doi": "10.1016/j.repl.2015.03.041"
+ },
+ "10.1016/j.repl.2016.02.032": {
+  "why": "A330: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A330",
+  "title": "Automated inspection could revolutionize automated fiber placement",
+  "key_kind": "doi",
+  "doi": "10.1016/j.repl.2016.02.032"
+ },
+ "10.1016/j.repl.2016.02.033": {
+  "why": "A318: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A318",
+  "title": "GKN Aerospace helps improve aircraft laminar flow",
+  "key_kind": "doi",
+  "doi": "10.1016/j.repl.2016.02.033"
+ },
+ "10.1016/j.repl.2016.08.013": {
+  "why": "A341: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A341",
+  "title": "Carbon fiber aircraft wins design award",
+  "key_kind": "doi",
+  "doi": "10.1016/j.repl.2016.08.013"
+ },
+ "10.1016/j.repl.2016.08.025": {
+  "why": "A352: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A352",
+  "title": "GMS Composites develops a new flame retardant epoxy prepreg",
+  "key_kind": "doi",
+  "doi": "10.1016/j.repl.2016.08.025"
+ },
+ "10.1016/j.repl.2016.08.040": {
+  "why": "A352: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A352",
+  "title": "PRF launches new epoxy prepreg",
+  "key_kind": "doi",
+  "doi": "10.1016/j.repl.2016.08.040"
+ },
+ "10.1016/j.repl.2017.07.021": {
+  "why": "A311,A319,A367,A368: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A368",
+  "title": "Rapid Composites unveils VTOL aircraft",
+  "key_kind": "doi",
+  "doi": "10.1016/j.repl.2017.07.021"
+ },
+ "10.1016/j.spacepol.2013.10.003": {
+  "why": "A334: MEETING NOTICE, PROGRAMME OR SESSION LISTING. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A334",
+  "title": "Space security seminar at the London Institute of Space Policy and Law (ISPL)",
+  "key_kind": "doi",
+  "doi": "10.1016/j.spacepol.2013.10.003"
+ },
+ "10.1016/s0016-0032(62)91133-x": {
+  "why": "A309: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A309",
+  "title": "CRPL aids missile tracking",
+  "key_kind": "doi",
+  "doi": "10.1016/s0016-0032(62)91133-x"
+ },
+ "10.1016/s0031-398x(06)71348-0": {
+  "why": "A349: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A349",
+  "title": "Readback System Eliminates Errors At Ohio Hospital",
+  "key_kind": "doi",
+  "doi": "10.1016/s0031-398x(06)71348-0"
+ },
+ "10.1016/s0034-3617(01)80039-4": {
+  "why": "A341: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A341",
+  "title": "RTM process cuts fighter tail costs",
+  "key_kind": "doi",
+  "doi": "10.1016/s0034-3617(01)80039-4"
+ },
+ "10.1016/s0034-3617(05)00574-6": {
+  "why": "A352: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A352",
+  "title": "Mandrel forms composite fuselage",
+  "key_kind": "doi",
+  "doi": "10.1016/s0034-3617(05)00574-6"
+ },
+ "10.1016/s0034-3617(12)70051-6": {
+  "why": "A352: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A352",
+  "title": "Hybrid-electric aircraft has composite structure",
+  "key_kind": "doi",
+  "doi": "10.1016/s0034-3617(12)70051-6"
+ },
+ "10.1016/s0034-3617(12)70118-2": {
+  "why": "A353: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A353",
+  "title": "First CSeries flight test aircraft being assembled",
+  "key_kind": "doi",
+  "doi": "10.1016/s0034-3617(12)70118-2"
+ },
+ "10.1016/s0034-3617(96)91429-0": {
+  "why": "A352: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A352",
+  "title": "Heavy tow carbon prepreg launched",
+  "key_kind": "doi",
+  "doi": "10.1016/s0034-3617(96)91429-0"
+ },
+ "10.1016/s0034-3617(97)91633-7": {
+  "why": "A352: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A352",
+  "title": "Fibre placement technology cuts cost of composite fuselage",
+  "key_kind": "doi",
+  "doi": "10.1016/s0034-3617(97)91633-7"
+ },
+ "10.1016/s0034-3617(98)92000-8": {
+  "why": "A315: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A315",
+  "title": "Bell picks Amarillo for Tiltrotor plant",
+  "key_kind": "doi",
+  "doi": "10.1016/s0034-3617(98)92000-8"
+ },
+ "10.1016/s0034-3617(98)92599-1": {
+  "why": "A315: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A315",
+  "title": "Alliant picked to make fuselage for tiltrotor plane",
+  "key_kind": "doi",
+  "doi": "10.1016/s0034-3617(98)92599-1"
+ },
+ "10.1016/s0262-1762(98)90278-4": {
+  "why": "A331,A339,A357,A361: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A331",
+  "title": "Rocket engine seals project blasts off",
+  "key_kind": "doi",
+  "doi": "10.1016/s0262-1762(98)90278-4"
+ },
+ "10.1016/s0262-4079(12)61592-9": {
+  "why": "A317,A368: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A368",
+  "title": "Secret US spaceplane shows China the future",
+  "key_kind": "doi",
+  "doi": "10.1016/s0262-4079(12)61592-9"
+ },
+ "10.1016/s0262-4079(20)31356-7": {
+  "why": "A325: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A325",
+  "title": "Uncrewed boats to patrol Australian coast",
+  "key_kind": "doi",
+  "doi": "10.1016/s0262-4079(20)31356-7"
+ },
+ "10.1016/s0270-6644(08)70519-8": {
+  "why": "A366: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A366",
+  "title": "Ready or Not, National Provider Identifier Policy Is Implemented",
+  "key_kind": "doi",
+  "doi": "10.1016/s0270-6644(08)70519-8"
+ },
+ "10.1016/s1270-9638(99)80035-2": {
+  "why": "A337,A340: FRONT MATTER, EDITORIAL OR ISSUE INTRODUCTION. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A337",
+  "title": "Special issue “Flight control law design”",
+  "key_kind": "doi",
+  "doi": "10.1016/s1270-9638(99)80035-2"
+ },
+ "10.1016/s1350-4789(10)70128-8": {
+  "why": "A349: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A349",
+  "title": "Hydratight unifies its part-numbering systems",
+  "key_kind": "doi",
+  "doi": "10.1016/s1350-4789(10)70128-8"
+ },
+ "10.1016/s1350-4789(20)30117-3": {
+  "why": "A315: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A315",
+  "title": "Trelleborg contributes to tilt rotor technology project",
+  "key_kind": "doi",
+  "doi": "10.1016/s1350-4789(20)30117-3"
+ },
+ "10.1016/s1364-5439(09)70166-2": {
+  "why": "A352: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A352",
+  "title": "Hexion Specialty Chemicals launches Albecor-Bio low temperature cure powder coating resins",
+  "key_kind": "doi",
+  "doi": "10.1016/s1364-5439(09)70166-2"
+ },
+ "10.1016/s1364-5439(09)70233-3": {
+  "why": "A352: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A352",
+  "title": "Hexion launches bio-based, low temperature cure powder coating",
+  "key_kind": "doi",
+  "doi": "10.1016/s1364-5439(09)70233-3"
+ },
+ "10.1016/s1364-5439(10)70257-4": {
+  "why": "A352: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A352",
+  "title": "Cytec unveils low temperature cure resins",
+  "key_kind": "doi",
+  "doi": "10.1016/s1364-5439(10)70257-4"
+ },
+ "10.1016/s1464-2859(07)70321-8": {
+  "why": "A343: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A343",
+  "title": "AeroVironment's unmanned aircraft achieves record flight",
+  "key_kind": "doi",
+  "doi": "10.1016/s1464-2859(07)70321-8"
+ },
+ "10.1016/s1464-2859(17)30249-3": {
+  "why": "A315: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A315",
+  "title": "Wirth Research unveils world's first VTOL drone, with HES power",
+  "key_kind": "doi",
+  "doi": "10.1016/s1464-2859(17)30249-3"
+ },
+ "10.1016/s1464-2859(18)30402-4": {
+  "why": "A303: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A303",
+  "title": "HES unveils Element One hydrogen-electric passenger aircraft",
+  "key_kind": "doi",
+  "doi": "10.1016/s1464-2859(18)30402-4"
+ },
+ "10.1016/s1464-2859(19)30232-9": {
+  "why": "A303,A319: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A303",
+  "title": "Alaka'i Technologies unveils Skai hydrogen-electric VTOL aircraft",
+  "key_kind": "doi",
+  "doi": "10.1016/s1464-2859(19)30232-9"
+ },
+ "10.1016/s1464-2859(20)30279-0": {
+  "why": "A303: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A303",
+  "title": "Urban Aeronautics and HyPoint plan hydrogen powered VTOL aircraft",
+  "key_kind": "doi",
+  "doi": "10.1016/s1464-2859(20)30279-0"
+ },
+ "10.1016/s1464-2859(20)30445-4": {
+  "why": "A303: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A303",
+  "title": "Plug Power, Universal Hydrogen plan fuel cell power for aircraft",
+  "key_kind": "doi",
+  "doi": "10.1016/s1464-2859(20)30445-4"
+ },
+ "10.1016/s1464-2859(21)00077-8": {
+  "why": "A303: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A303",
+  "title": "HEART plans aircraft green hydrogen supply",
+  "key_kind": "doi",
+  "doi": "10.1016/s1464-2859(21)00077-8"
+ },
+ "10.1016/s1464-2859(21)00437-5": {
+  "why": "A303: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A303",
+  "title": "Deutsche Aircraft aims for hydrogen aviation",
+  "key_kind": "doi",
+  "doi": "10.1016/s1464-2859(21)00437-5"
+ },
+ "10.1016/s1464-2859(21)00614-3": {
+  "why": "A303: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A303",
+  "title": "Universal Hydrogen to accelerate test flights of hydrogen-powered regional aircraft",
+  "key_kind": "doi",
+  "doi": "10.1016/s1464-2859(21)00614-3"
+ },
+ "10.1017/s0368393100116244": {
+  "why": "A359: BOOK REVIEW. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A359",
+  "title": "Airplane Performance, Stability and Control. Perkins and Hage. Amendment to review published in September 1950 Journal",
+  "key_kind": "doi",
+  "doi": "10.1017/s0368393100116244"
+ },
+ "10.1017/s036839310013500x": {
+  "why": "A337: BOOK REVIEW. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A337",
+  "title": "1. A.G.A.R.D. Flight Test Manual. Volume IV. Instrumentation Systems. C. D. Perkins and E. J. Durbin. A.G.A.R.D. Paris, 1957. Loose leaf. Illustrated. - 2. Inst",
+  "key_kind": "doi",
+  "doi": "10.1017/s036839310013500x"
+ },
+ "10.1017/s0373463300019743": {
+  "why": "A297: BARE CONFERENCE OR MEETING RECORD WITH NO CONTENT OF ITS OWN. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A297",
+  "title": "Supersonic Transport Seminar",
+  "key_kind": "doi",
+  "doi": "10.1017/s0373463300019743"
+ },
+ "10.1021/bk-1982-0227.fw001": {
+  "why": "A352: FRONT MATTER, EDITORIAL OR ISSUE INTRODUCTION. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A352",
+  "title": "Chemorheology of Thermosetting Polymers, Copyright, ACS Symposium Series, FOREWORD",
+  "key_kind": "doi",
+  "doi": "10.1021/bk-1982-0227.fw001"
+ },
+ "10.1023/b:jmsc.0000041685.85043.34": {
+  "why": "A317: FRONT MATTER, EDITORIAL OR ISSUE INTRODUCTION. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A317",
+  "title": "Guest Editorial: Ultra-high temperature ceramics",
+  "key_kind": "doi",
+  "doi": "10.1023/b:jmsc.0000041685.85043.34"
+ },
  "10.1029/2005je002607": {
   "why": "A334: MARS SURFACE GEOMORPHOLOGY, admitted by the aerobraking harvest through `planetary atmospher`. Aerobraking at Mars is adjacent and legitimate; the geology of the surface it brakes over is not",
   "article": "A334",
   "title": "Orientation and distribution of recent gullies in the southern hemisphere of Mars",
   "key_kind": "doi",
   "doi": "10.1029/2005je002607"
+ },
+ "10.1029/2021eo210603": {
+  "why": "A309: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A309",
+  "title": "Zimbabwe’s Scientists Look Forward to Country’s First Satellite",
+  "key_kind": "doi",
+  "doi": "10.1029/2021eo210603"
+ },
+ "10.1029/eo062i052p01202-02": {
+  "why": "A357: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A357",
+  "title": "Meteorological Rocket Network Archives",
+  "key_kind": "doi",
+  "doi": "10.1029/eo062i052p01202-02"
+ },
+ "10.1038/365594c0": {
+  "why": "A368: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A368",
+  "title": "NASA cites Concorde in boosting funds for aeronautics",
+  "key_kind": "doi",
+  "doi": "10.1038/365594c0"
+ },
+ "10.1038/370586c0": {
+  "why": "A360: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A360",
+  "title": "Japan's H-II rocket fizzles on launch pad",
+  "key_kind": "doi",
+  "doi": "10.1038/370586c0"
+ },
+ "10.1038/d41586-018-07019-3": {
+  "why": "A309,A314,A317: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A309",
+  "title": "Daily briefing: Astronauts survive Soyuz failure that caused “ballistic reentry”",
+  "key_kind": "doi",
+  "doi": "10.1038/d41586-018-07019-3"
+ },
+ "10.1038/d41586-020-02303-7": {
+  "why": "A320: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A320",
+  "title": "Daily briefing: Safe landing for SpaceX crew cements new era in private human spaceflight",
+  "key_kind": "doi",
+  "doi": "10.1038/d41586-020-02303-7"
+ },
+ "10.1038/d41586-023-01454-7": {
+  "why": "A321: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A321",
+  "title": "Moon mission failure: why is it so hard to pull off a lunar landing?",
+  "key_kind": "doi",
+  "doi": "10.1038/d41586-023-01454-7"
+ },
+ "10.1038/d41586-024-02191-1": {
+  "why": "A327: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A327",
+  "title": "Powerful Ariane 6 rocket poised to restore Europe’s access to space",
+  "key_kind": "doi",
+  "doi": "10.1038/d41586-024-02191-1"
+ },
+ "10.1038/nature.2015.17865": {
+  "why": "A339: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A339",
+  "title": "SpaceX rocket to space station explodes after launch",
+  "key_kind": "doi",
+  "doi": "10.1038/nature.2015.17865"
+ },
+ "10.1038/nature.2015.18679": {
+  "why": "A305: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A305",
+  "title": "'Rocket-on-a-rail' prepares to launch satellite",
+  "key_kind": "doi",
+  "doi": "10.1038/nature.2015.18679"
+ },
+ "10.1038/nature.2016.19162": {
+  "why": "A334: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A334",
+  "title": "Falling space debris traced to 1998 lunar mission",
+  "key_kind": "doi",
+  "doi": "10.1038/nature.2016.19162"
+ },
+ "10.1038/news060529-9": {
+  "why": "A339: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A339",
+  "title": "Space shuttle set for July launch",
+  "key_kind": "doi",
+  "doi": "10.1038/news060529-9"
+ },
+ "10.1038/scientificamerican02071914-91supp": {
+  "why": "A316: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A316",
+  "title": "Sikorsky's Stupendous Biplane",
+  "key_kind": "doi",
+  "doi": "10.1038/scientificamerican02071914-91supp"
+ },
+ "10.1038/scientificamerican04221899-244b": {
+  "why": "A366: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A366",
+  "title": "Naming the New Warships",
+  "key_kind": "doi",
+  "doi": "10.1038/scientificamerican04221899-244b"
+ },
+ "10.1038/scientificamerican06011921-567asupp": {
+  "why": "A343: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A343",
+  "title": "Aircraft Statistics",
+  "key_kind": "doi",
+  "doi": "10.1038/scientificamerican06011921-567asupp"
+ },
+ "10.1038/scientificamerican06031876-351": {
+  "why": "A366: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A366",
+  "title": "The Centennial Exhibition.—The Great Corliss Engines",
+  "key_kind": "doi",
+  "doi": "10.1038/scientificamerican06031876-351"
+ },
+ "10.1038/scientificamerican07221876-47": {
+  "why": "A366: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A366",
+  "title": "The Centennial Exhibition.—The Campbell Printing Press",
+  "key_kind": "doi",
+  "doi": "10.1038/scientificamerican07221876-47"
+ },
+ "10.1038/scientificamerican09031910-180": {
+  "why": "A316: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A316",
+  "title": "The New Wright Biplane",
+  "key_kind": "doi",
+  "doi": "10.1038/scientificamerican09031910-180"
+ },
+ "10.1038/scientificamerican11251876-336": {
+  "why": "A366: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A366",
+  "title": "The Close of the Centennial Exposition",
+  "key_kind": "doi",
+  "doi": "10.1038/scientificamerican11251876-336"
+ },
+ "10.1038/scientificamerican12021876-769supp": {
+  "why": "A366: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A366",
+  "title": "Closing Ceremonies of the Centennial International Exhibition of 1876",
+  "key_kind": "doi",
+  "doi": "10.1038/scientificamerican12021876-769supp"
+ },
+ "10.1049/ep.1974.0496": {
+  "why": "A359: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A359",
+  "title": "1000th head-up display supplied to USA",
+  "key_kind": "doi",
+  "doi": "10.1049/ep.1974.0496"
+ },
+ "10.1049/ep.1975.0625": {
+  "why": "A359: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A359",
+  "title": "Components. New head-up display from Plessey",
+  "key_kind": "doi",
+  "doi": "10.1049/ep.1975.0625"
+ },
+ "10.1049/et.2016.0200": {
+  "why": "A331,A361: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A331",
+  "title": "Reusables are go [reusable rocket]",
+  "key_kind": "doi",
+  "doi": "10.1049/et.2016.0200"
+ },
+ "10.1049/et.2020.1130": {
+  "why": "A297,A298,A351: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A351",
+  "title": "Transport - Supersonic Flight. The Bigger Picture: Boom Supersonic XB-1",
+  "key_kind": "doi",
+  "doi": "10.1049/et.2020.1130"
+ },
+ "10.1049/et.2024.0520": {
+  "why": "A311: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A311",
+  "title": "Big Picture: First eVTOL flight across the Yangtze River. [Inspire - Air Taxi]",
+  "key_kind": "doi",
+  "doi": "10.1049/et.2024.0520"
+ },
+ "10.1049/et:20060803": {
+  "why": "A315,A367: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A315",
+  "title": "Thunder chickens are go [US Navy's V-22 Osprey aircraft]",
+  "key_kind": "doi",
+  "doi": "10.1049/et:20060803"
+ },
+ "10.1063/1.1715007": {
+  "why": "A368: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A368",
+  "title": "National Advisory Committee for Aeronautics",
+  "key_kind": "doi",
+  "doi": "10.1063/1.1715007"
+ },
+ "10.1063/1.1897560": {
+  "why": "A339: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A339",
+  "title": "Entrepreneur Launches Low-Cost Space Rockets",
+  "key_kind": "doi",
+  "doi": "10.1063/1.1897560"
+ },
+ "10.1063/1.2364236": {
+  "why": "A368: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A368",
+  "title": "NASA aeronautics lacks money, relevance, NRC says",
+  "key_kind": "doi",
+  "doi": "10.1063/1.2364236"
+ },
+ "10.1063/1.4935039": {
+  "why": "A356: BARE CONFERENCE OR MEETING RECORD WITH NO CONTENT OF ITS OWN. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A356",
+  "title": "Previous International Symposia on Nonlinear Acoustics Recent Developments in Nonlinear Acoustics",
+  "key_kind": "doi",
+  "doi": "10.1063/1.4935039"
+ },
+ "10.1063/pt.3.4632": {
+  "why": "A303: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A303",
+  "title": "Hydrogen-powered aircraft may be getting a lift",
+  "key_kind": "doi",
+  "doi": "10.1063/pt.3.4632"
+ },
+ "10.1063/pt.5.0210188": {
+  "why": "A320: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A320",
+  "title": "NASA quietly considers alternatives to <em>Orion</em> spacecraft",
+  "key_kind": "doi",
+  "doi": "10.1063/pt.5.0210188"
+ },
+ "10.1063/pt.5.026110": {
+  "why": "A334: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A334",
+  "title": "Chinese spacecraft successfully docks in orbit",
+  "key_kind": "doi",
+  "doi": "10.1063/pt.5.026110"
+ },
+ "10.1071/aseg2018abm3_2e": {
+  "why": "A309: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A309",
+  "title": "Airborne gravimetry takes off in the Western Australia ‘Generation 2’ reconnaissance gravity mapping project",
+  "key_kind": "doi",
+  "doi": "10.1071/aseg2018abm3_2e"
+ },
+ "10.1071/es70019": {
+  "why": "A313: BARE CONFERENCE OR MEETING RECORD WITH NO CONTENT OF ITS OWN. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A313",
+  "title": "Joint colloquia: clear air turbulence",
+  "key_kind": "doi",
+  "doi": "10.1071/es70019"
+ },
+ "10.1080/01612840.2016.1198947": {
+  "why": "A349: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A349",
+  "title": "Clinical Psychopharmacology Update: What's in a Name? Confusion Prompts Change for Vortioxetine's Brand Name",
+  "key_kind": "doi",
+  "doi": "10.1080/01612840.2016.1198947"
+ },
+ "10.1080/08327823.1996.11688285": {
+  "why": "A334: FRONT MATTER, EDITORIAL OR ISSUE INTRODUCTION. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A334",
+  "title": "Guest Editorial…: Solar Power Satellites — A Wireless Power Transmission System for Power from Space for Use on Earth",
+  "key_kind": "doi",
+  "doi": "10.1080/08327823.1996.11688285"
+ },
+ "10.1080/10736709708436672": {
+  "why": "A309: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A309",
+  "title": "Ballistic, cruise missile, and missile defense systems: Trade and significant developments, July‐October 1996",
+  "key_kind": "doi",
+  "doi": "10.1080/10736709708436672"
+ },
+ "10.1080/13567888.2012.727280": {
+  "why": "A309: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A309",
+  "title": "Iran: sanctions halt long-range ballistic-missile development",
+  "key_kind": "doi",
+  "doi": "10.1080/13567888.2012.727280"
+ },
+ "10.1088/2058-7058/30/5/20": {
+  "why": "A361: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A361",
+  "title": "Success for SpaceX reusable rocket",
+  "key_kind": "doi",
+  "doi": "10.1088/2058-7058/30/5/20"
+ },
+ "10.1089/space.2017.0049": {
+  "why": "A357: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A357",
+  "title": "Partnership with the Center of Excellence for Commercial Space Transportation",
+  "key_kind": "doi",
+  "doi": "10.1089/space.2017.0049"
+ },
+ "10.1089/space.2018.0001": {
+  "why": "A357: FRONT MATTER, EDITORIAL OR ISSUE INTRODUCTION. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A357",
+  "title": "Introduction to the Center of Excellence for Commercial Space Transportation Issue of the New Space Journal",
+  "key_kind": "doi",
+  "doi": "10.1089/space.2018.0001"
+ },
+ "10.1093/ajhp/51.9.1145a": {
+  "why": "A349: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A349",
+  "title": "Wisconsin reviews state code on medication error reporting",
+  "key_kind": "doi",
+  "doi": "10.1093/ajhp/51.9.1145a"
+ },
+ "10.1093/astrogeo/aty047": {
+  "why": "A334: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A334",
+  "title": "TGO ends aerobraking for steady Mars orbit",
+  "key_kind": "doi",
+  "doi": "10.1093/astrogeo/aty047"
+ },
+ "10.1093/oxfordjournals.rpd.a032950": {
+  "why": "A303: FRONT MATTER, EDITORIAL OR ISSUE INTRODUCTION. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A303",
+  "title": "Opening Address - Cosmic Radiation and Aircrew Exposure",
+  "key_kind": "doi",
+  "doi": "10.1093/oxfordjournals.rpd.a032950"
+ },
+ "10.1097/00004032-198012000-00271": {
+  "why": "A303: BARE CONFERENCE OR MEETING RECORD WITH NO CONTENT OF ITS OWN. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A303",
+  "title": "AMERICAN NUCLEAR SOCIETY MEETING 1980 ADVANCES IN REACTOR PHYSICS AND SHIELDING SUN VALLEY, IDAHO, USA, OCTOBER, 1980",
+  "key_kind": "doi",
+  "doi": "10.1097/00004032-198012000-00271"
+ },
+ "10.1097/00149078-199807150-00001": {
+  "why": "A349: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A349",
+  "title": "Confusion Between FDA &amp; JCAHO Prompts New Name for FDA Program",
+  "key_kind": "doi",
+  "doi": "10.1097/00149078-199807150-00001"
+ },
+ "10.1097/00152193-198301000-00013": {
+  "why": "A349: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A349",
+  "title": "Watch out for look-alike drug labels",
+  "key_kind": "doi",
+  "doi": "10.1097/00152193-198301000-00013"
+ },
+ "10.1097/01.cot.0000368451.36163.59": {
+  "why": "A349: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A349",
+  "title": "ISMP Survey: Economy Having Negative Impact on Medication Safety; ISMP Launches Safety-Alert &amp; Error-Reporting App",
+  "key_kind": "doi",
+  "doi": "10.1097/01.cot.0000368451.36163.59"
+ },
+ "10.1098/rsta.1999.0423": {
+  "why": "A334: FRONT MATTER, EDITORIAL OR ISSUE INTRODUCTION. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A334",
+  "title": "Introduction to Hypersonic aircraft: lifting re-entry and launch. A Theme issue published by the Royal Society",
+  "key_kind": "doi",
+  "doi": "10.1098/rsta.1999.0423"
+ },
+ "10.1108/aeat.1998.12770eab.015": {
+  "why": "A341: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A341",
+  "title": "Aerodynamic modellers take off with design software",
+  "key_kind": "doi",
+  "doi": "10.1108/aeat.1998.12770eab.015"
+ },
+ "10.1108/aeat.1998.12770eab.046": {
+  "why": "A359: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A359",
+  "title": "Head-up display workstation contract",
+  "key_kind": "doi",
+  "doi": "10.1108/aeat.1998.12770eab.046"
+ },
+ "10.1108/aeat.1998.12770fab.029": {
+  "why": "A341: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A341",
+  "title": "FiberSIM software selected by Lockheed Martin for the Joint Strike Fighter",
+  "key_kind": "doi",
+  "doi": "10.1108/aeat.1998.12770fab.029"
+ },
+ "10.1108/aeat.1999.12771aab.057": {
+  "why": "A315,A368: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A315",
+  "title": "Lucas to supply equipment on new 609 civil tiltrotor",
+  "key_kind": "doi",
+  "doi": "10.1108/aeat.1999.12771aab.057"
+ },
+ "10.1108/aeat.1999.12771aaf.005": {
+  "why": "A368: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A368",
+  "title": "Araldite makes aviation history",
+  "key_kind": "doi",
+  "doi": "10.1108/aeat.1999.12771aaf.005"
+ },
+ "10.1108/aeat.1999.12771cab.037": {
+  "why": "A297,A368: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A368",
+  "title": "Third Boeing 717-200 joins flight test program",
+  "key_kind": "doi",
+  "doi": "10.1108/aeat.1999.12771cab.037"
+ },
+ "10.1108/aeat.1999.12771dab.035": {
+  "why": "A368: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A368",
+  "title": "IEC in-flight system chosen for BBJ demonstrator",
+  "key_kind": "doi",
+  "doi": "10.1108/aeat.1999.12771dab.035"
+ },
+ "10.1108/aeat.1999.12771eaf.007": {
+  "why": "A305: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A305",
+  "title": "Space wire to help upper atmosphere research",
+  "key_kind": "doi",
+  "doi": "10.1108/aeat.1999.12771eaf.007"
+ },
+ "10.1108/aeat.2000.12772bab.003": {
+  "why": "A341,A352: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A352",
+  "title": "Cost of manufacturing aerofoil gauging slashed",
+  "key_kind": "doi",
+  "doi": "10.1108/aeat.2000.12772bab.003"
+ },
+ "10.1108/aeat.2000.12772caf.006": {
+  "why": "A341: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A341",
+  "title": "New winglets boost Boeing Next-Generation 737 performance",
+  "key_kind": "doi",
+  "doi": "10.1108/aeat.2000.12772caf.006"
+ },
+ "10.1108/aeat.2001.12773aab.004": {
+  "why": "A352: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A352",
+  "title": "Composite tails prove airworthy",
+  "key_kind": "doi",
+  "doi": "10.1108/aeat.2001.12773aab.004"
+ },
+ "10.1108/aeat.2001.12773aab.035": {
+  "why": "A323: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A323",
+  "title": "Pioneering woman test pilot receives outstanding leadership award",
+  "key_kind": "doi",
+  "doi": "10.1108/aeat.2001.12773aab.035"
+ },
+ "10.1108/aeat.2001.12773bab.044": {
+  "why": "A362: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A362",
+  "title": "Contracts for aircraft actuation systems",
+  "key_kind": "doi",
+  "doi": "10.1108/aeat.2001.12773bab.044"
+ },
+ "10.1108/aeat.2001.12773dab.021": {
+  "why": "A359: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A359",
+  "title": "First Gripen flight with helmet mounted display",
+  "key_kind": "doi",
+  "doi": "10.1108/aeat.2001.12773dab.021"
+ },
+ "10.1108/aeat.2001.12773dab.022": {
+  "why": "A316: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A316",
+  "title": "Hartzell Propeller obtains STC",
+  "key_kind": "doi",
+  "doi": "10.1108/aeat.2001.12773dab.022"
+ },
+ "10.1108/aeat.2002.12774bab.035": {
+  "why": "A306,A343: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A306",
+  "title": "TRW to provide weapons bay door drive system on Joint Strike Fighter",
+  "key_kind": "doi",
+  "doi": "10.1108/aeat.2002.12774bab.035"
+ },
+ "10.1108/aeat.2002.12774bae.002": {
+  "why": "A297: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A297",
+  "title": "Brian Trubshaw – Test Pilot",
+  "key_kind": "doi",
+  "doi": "10.1108/aeat.2002.12774bae.002"
+ },
+ "10.1108/aeat.2002.12774cab.040": {
+  "why": "A323: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A323",
+  "title": "QinetiQ welcomes a new chief test pilot to MOD Boscombe Down",
+  "key_kind": "doi",
+  "doi": "10.1108/aeat.2002.12774cab.040"
+ },
+ "10.1108/aeat.2002.12774dad.005": {
+  "why": "A316: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A316",
+  "title": "Cessna Caravans get improved propeller system",
+  "key_kind": "doi",
+  "doi": "10.1108/aeat.2002.12774dad.005"
+ },
+ "10.1108/aeat.2002.12774daf.005": {
+  "why": "A341,A344: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A341",
+  "title": "Aircraft improvement programme at Cranfield Aerospace",
+  "key_kind": "doi",
+  "doi": "10.1108/aeat.2002.12774daf.005"
+ },
+ "10.1108/aeat.2002.12774eaf.003": {
+  "why": "A341,A343: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A341",
+  "title": "A340-600 wing completes UK structural test programme",
+  "key_kind": "doi",
+  "doi": "10.1108/aeat.2002.12774eaf.003"
+ },
+ "10.1108/aeat.2002.12774fab.034": {
+  "why": "A307: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A307",
+  "title": "Order for inertial navigation units",
+  "key_kind": "doi",
+  "doi": "10.1108/aeat.2002.12774fab.034"
+ },
+ "10.1108/aeat.2003.12775baf.010": {
+  "why": "A309: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A309",
+  "title": "satID combats interference of communication satellites",
+  "key_kind": "doi",
+  "doi": "10.1108/aeat.2003.12775baf.010"
+ },
+ "10.1108/aeat.2003.12775dab.046": {
+  "why": "A316: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A316",
+  "title": "Free propeller care and maintenance videos",
+  "key_kind": "doi",
+  "doi": "10.1108/aeat.2003.12775dab.046"
+ },
+ "10.1108/aeat.2003.12775faf.011": {
+  "why": "A341: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A341",
+  "title": "Airbus increases speed and precision in wind tunnel testing with stereolithography",
+  "key_kind": "doi",
+  "doi": "10.1108/aeat.2003.12775faf.011"
+ },
+ "10.1108/aeat.2004.12776cab.007": {
+  "why": "A343: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A343",
+  "title": "ASTM forms new standards committee on safety and performance of unmanned air vehicle systems",
+  "key_kind": "doi",
+  "doi": "10.1108/aeat.2004.12776cab.007"
+ },
+ "10.1108/aeat.2004.12776faf.006": {
+  "why": "A304: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A304",
+  "title": "Expendable launch vehicle revenues increase as industry emerges from soft market",
+  "key_kind": "doi",
+  "doi": "10.1108/aeat.2004.12776faf.006"
+ },
+ "10.1108/aeat.2005.12777cab.010": {
+  "why": "A349: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A349",
+  "title": "Major improvement in German air traffic control communications",
+  "key_kind": "doi",
+  "doi": "10.1108/aeat.2005.12777cab.010"
+ },
+ "10.1108/aeat.2005.12777dad.006": {
+  "why": "A307,A344: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A307",
+  "title": "GPS receiver selected for integration in precision landing system receiver",
+  "key_kind": "doi",
+  "doi": "10.1108/aeat.2005.12777dad.006"
+ },
+ "10.1108/aeat.2006.12778bab.001": {
+  "why": "A343,A345: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A345",
+  "title": "D design software helps new aircraft take wing",
+  "key_kind": "doi",
+  "doi": "10.1108/aeat.2006.12778bab.001"
+ },
+ "10.1108/aeat.2006.12778bab.004": {
+  "why": "A341: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A341",
+  "title": "BAE Samlesbury devotes FMS to fighter aircraft work",
+  "key_kind": "doi",
+  "doi": "10.1108/aeat.2006.12778bab.004"
+ },
+ "10.1108/aeat.2006.12778bab.018": {
+  "why": "A306: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A306",
+  "title": "Airliner missile defense systems tested",
+  "key_kind": "doi",
+  "doi": "10.1108/aeat.2006.12778bab.018"
+ },
+ "10.1108/aeat.2006.12778bab.021": {
+  "why": "A299,A322: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A322",
+  "title": "Aero has finished upgraded ejection seat tests",
+  "key_kind": "doi",
+  "doi": "10.1108/aeat.2006.12778bab.021"
+ },
+ "10.1108/aeat.2006.12778cad.016": {
+  "why": "A341: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A341",
+  "title": "GKN Aerospace to produce composite components for X-47B",
+  "key_kind": "doi",
+  "doi": "10.1108/aeat.2006.12778cad.016"
+ },
+ "10.1108/aeat.2006.12778caf.010": {
+  "why": "A368: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A368",
+  "title": "Flight test engineers are turning to the motorsport",
+  "key_kind": "doi",
+  "doi": "10.1108/aeat.2006.12778caf.010"
+ },
+ "10.1108/aeat.2006.12778daf.010": {
+  "why": "A345: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A345",
+  "title": "Industry uses NASA wind tunnels to design new aeroplanes",
+  "key_kind": "doi",
+  "doi": "10.1108/aeat.2006.12778daf.010"
+ },
+ "10.1108/aeat.2006.78.5.462.5": {
+  "why": "A368: BOOK REVIEW. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A368",
+  "title": "Flying's Strangest MomentsExtraordinary but True Stories from Over 1,000 Years of Aviation History",
+  "key_kind": "doi",
+  "doi": "10.1108/aeat.2006.78.5.462.5"
+ },
+ "10.1108/aeat.2007.12779aab.002": {
+  "why": "A343: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A343",
+  "title": "Specialised engineering software aids airframe design and manufacture",
+  "key_kind": "doi",
+  "doi": "10.1108/aeat.2007.12779aab.002"
+ },
+ "10.1108/aeat.2007.12779aab.017": {
+  "why": "A343: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A343",
+  "title": "ASTM aircraft electrical load standard accepted as means of compliance by FAA",
+  "key_kind": "doi",
+  "doi": "10.1108/aeat.2007.12779aab.017"
+ },
+ "10.1108/aeat.2007.12779aaf.005": {
+  "why": "A304: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A304",
+  "title": "Expendable launch vehicle industry ready for comsat rebound",
+  "key_kind": "doi",
+  "doi": "10.1108/aeat.2007.12779aaf.005"
+ },
+ "10.1108/aeat.2007.12779cab.032": {
+  "why": "A368: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A368",
+  "title": "NASA announces aeronautics research opportunities",
+  "key_kind": "doi",
+  "doi": "10.1108/aeat.2007.12779cab.032"
+ },
+ "10.1108/aeat.2007.12779dab.028": {
+  "why": "A343: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A343",
+  "title": "ASTM International Standard helps catapult unmanned aircraft forward",
+  "key_kind": "doi",
+  "doi": "10.1108/aeat.2007.12779dab.028"
+ },
+ "10.1108/aeat.2007.12779dab.031": {
+  "why": "A368: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A368",
+  "title": "Advanced technology demonstration centre in Fareham",
+  "key_kind": "doi",
+  "doi": "10.1108/aeat.2007.12779dab.031"
+ },
+ "10.1108/aeat.2007.12779eab.015": {
+  "why": "A359: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A359",
+  "title": "Agency certifies first fly-by-wire business jet",
+  "key_kind": "doi",
+  "doi": "10.1108/aeat.2007.12779eab.015"
+ },
+ "10.1108/aeat.2007.12779eab.025": {
+  "why": "A368: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A368",
+  "title": "High school winners chosen in NASA aeronautics essay contest",
+  "key_kind": "doi",
+  "doi": "10.1108/aeat.2007.12779eab.025"
+ },
+ "10.1108/aeat.2007.12779fad.016": {
+  "why": "A352: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A352",
+  "title": "Hartzell ASC-II composite propeller receives first European certification",
+  "key_kind": "doi",
+  "doi": "10.1108/aeat.2007.12779fad.016"
+ },
+ "10.1108/aeat.2008.12780aaf.013": {
+  "why": "A341: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A341",
+  "title": "Industry joins forces to revolutionise aerodynamic design",
+  "key_kind": "doi",
+  "doi": "10.1108/aeat.2008.12780aaf.013"
+ },
+ "10.1108/aeat.2008.12780bad.009": {
+  "why": "A315: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A315",
+  "title": "Diamond DA-40 aircraft receive two new innovative propeller STC options",
+  "key_kind": "doi",
+  "doi": "10.1108/aeat.2008.12780bad.009"
+ },
+ "10.1108/aeat.2008.12780eab.031": {
+  "why": "A303: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A303",
+  "title": "Cranfield students design an air-to-air refueling tanker aircraft",
+  "key_kind": "doi",
+  "doi": "10.1108/aeat.2008.12780eab.031"
+ },
+ "10.1108/aeat.2008.12780eaf.011": {
+  "why": "A341: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A341",
+  "title": "Composite aircraft wing research gets under way at GKN Aerospace",
+  "key_kind": "doi",
+  "doi": "10.1108/aeat.2008.12780eaf.011"
+ },
+ "10.1108/aeat.2008.12780fab.020": {
+  "why": "A341: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A341",
+  "title": "NRC hosts Learjet 85 Aircraft for wind-tunnel testing",
+  "key_kind": "doi",
+  "doi": "10.1108/aeat.2008.12780fab.020"
+ },
+ "10.1108/aeat.2009.12781cab.008": {
+  "why": "A307,A344: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A307",
+  "title": "WAAS GPS Landing System certified by FAA and Transport Canada",
+  "key_kind": "doi",
+  "doi": "10.1108/aeat.2009.12781cab.008"
+ },
+ "10.1108/aeat.2009.12781cab.032": {
+  "why": "A341,A343,A355,A368: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A355",
+  "title": "Pratt &amp; Whitney – Powered Navy Unmanned Combat Air System Unveiled",
+  "key_kind": "doi",
+  "doi": "10.1108/aeat.2009.12781cab.032"
+ },
+ "10.1108/cw.2002.21728bad.001": {
+  "why": "A352: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A352",
+  "title": "Polyclad introduces laser drillable laminate and prepreg system",
+  "key_kind": "doi",
+  "doi": "10.1108/cw.2002.21728bad.001"
+ },
+ "10.1108/cw.2003.21729cad.002": {
+  "why": "A352: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A352",
+  "title": "Polyclad introduces polyimide laminate and prepreg systems",
+  "key_kind": "doi",
+  "doi": "10.1108/cw.2003.21729cad.002"
+ },
+ "10.1108/cw.2004.21730dad.001": {
+  "why": "A352: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A352",
+  "title": "Polyclad introduces 370HR lead-free assembly compatible, CAF resistant laminate and prepreg systems",
+  "key_kind": "doi",
+  "doi": "10.1108/cw.2004.21730dad.001"
+ },
+ "10.1108/eb029687": {
+  "why": "A325: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A325",
+  "title": "The Record‐Breaking Seaplane",
+  "key_kind": "doi",
+  "doi": "10.1108/eb029687"
+ },
+ "10.1108/eb029880": {
+  "why": "A325: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A325",
+  "title": "A New French Light Aeroplane",
+  "key_kind": "doi",
+  "doi": "10.1108/eb029880"
+ },
+ "10.1108/eb032393": {
+  "why": "A324: BARE CONFERENCE OR MEETING RECORD WITH NO CONTENT OF ITS OWN. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A324",
+  "title": "A Conference on Thermal Stress",
+  "key_kind": "doi",
+  "doi": "10.1108/eb032393"
+ },
+ "10.1108/eb032565": {
+  "why": "A318: BARE CONFERENCE OR MEETING RECORD WITH NO CONTENT OF ITS OWN. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A318",
+  "title": "Symposium on Boundary Layer Effects in Aerodynamics",
+  "key_kind": "doi",
+  "doi": "10.1108/eb032565"
+ },
+ "10.1108/eb034408": {
+  "why": "A359: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A359",
+  "title": "Specto Avionics-Head-up Display",
+  "key_kind": "doi",
+  "doi": "10.1108/eb034408"
+ },
+ "10.1108/eb035573": {
+  "why": "A341: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A341",
+  "title": "Goodbye Stagnation: America's Finest Fighter Engine Outgrows a Childhood Ailment",
+  "key_kind": "doi",
+  "doi": "10.1108/eb035573"
+ },
+ "10.1108/eb035653": {
+  "why": "A324: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A324",
+  "title": "Procurement Process Geared Up for New Airplanes",
+  "key_kind": "doi",
+  "doi": "10.1108/eb035653"
+ },
+ "10.1108/eb035874": {
+  "why": "A307: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A307",
+  "title": "New Airbuses to use Laser Inertial Reference Systems for Navigation",
+  "key_kind": "doi",
+  "doi": "10.1108/eb035874"
+ },
+ "10.1108/eb035928": {
+  "why": "A341: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A341",
+  "title": "Lockheed‐Georgia Active in Aerospace Composite Use",
+  "key_kind": "doi",
+  "doi": "10.1108/eb035928"
+ },
+ "10.1108/eb036044": {
+  "why": "A342: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A342",
+  "title": "Falklands Campaign: Electronic Warfare Story Revealed",
+  "key_kind": "doi",
+  "doi": "10.1108/eb036044"
+ },
+ "10.1108/eb036083": {
+  "why": "A359: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A359",
+  "title": "Tekdata 'Computaweave' Contributes to Space Saving in GEC Avionics 'Fly-by-Wire System'",
+  "key_kind": "doi",
+  "doi": "10.1108/eb036083"
+ },
+ "10.1108/eb036217": {
+  "why": "A362: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A362",
+  "title": "Garrett Division Developing Advanced Flight Control Actuation Systems",
+  "key_kind": "doi",
+  "doi": "10.1108/eb036217"
+ },
+ "10.1108/eb036299": {
+  "why": "A343: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A343",
+  "title": "Choppers Rely on Extruded Airframe",
+  "key_kind": "doi",
+  "doi": "10.1108/eb036299"
+ },
+ "10.1108/eb036678": {
+  "why": "A297,A368: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A368",
+  "title": "Aermacchi — Continuing to Make Aviation History",
+  "key_kind": "doi",
+  "doi": "10.1108/eb036678"
+ },
+ "10.1108/eb036720": {
+  "why": "A299,A316,A322: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A322",
+  "title": "Martin‐Baker — at the Forefront of Escape System Technology",
+  "key_kind": "doi",
+  "doi": "10.1108/eb036720"
+ },
+ "10.1108/eb036918": {
+  "why": "A331: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A331",
+  "title": "British Aerospace Cut Cost of Producing Airbus Wing Skins",
+  "key_kind": "doi",
+  "doi": "10.1108/eb036918"
+ },
+ "10.1108/eb037037": {
+  "why": "A341: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A341",
+  "title": "Full Scale Canadair Regional Jet Static Test Aircraft on Schedule",
+  "key_kind": "doi",
+  "doi": "10.1108/eb037037"
+ },
+ "10.1108/eb037129": {
+  "why": "A339: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A339",
+  "title": "Hitachi Seiki Boosts Machining Efficiency on Rocket Motor Components",
+  "key_kind": "doi",
+  "doi": "10.1108/eb037129"
+ },
+ "10.1108/eb037135": {
+  "why": "A315,A368: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A315",
+  "title": "Rubber a ‘Natural’ for V‐22 Osprey Tiltrotor Aircraft",
+  "key_kind": "doi",
+  "doi": "10.1108/eb037135"
+ },
+ "10.1108/eum0000000005617": {
+  "why": "A329,A332: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A332",
+  "title": "“Maintainability” drives Fort Worth’s joint strike fighter design: blending simulation and ingenuity, Lockheed Martin up‐ends design methods in $320 billion pro",
+  "key_kind": "doi",
+  "doi": "10.1108/eum0000000005617"
+ },
+ "10.1108/mi.2003.21820bad.006": {
+  "why": "A352: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A352",
+  "title": "Thermoset announces new fast cure adhesive MT-125",
+  "key_kind": "doi",
+  "doi": "10.1108/mi.2003.21820bad.006"
+ },
+ "10.1108/oxan-db213544": {
+  "why": "A360: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A360",
+  "title": "Cost-saving SpaceX launch model will survive accident",
+  "key_kind": "doi",
+  "doi": "10.1108/oxan-db213544"
+ },
+ "10.1108/oxan-db246636": {
+  "why": "A343: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A343",
+  "title": "Saudi attack will prompt a rethink of air defences",
+  "key_kind": "doi",
+  "doi": "10.1108/oxan-db246636"
+ },
+ "10.1108/oxan-db282804": {
+  "why": "A341,A359: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A341",
+  "title": "Crewed and uncrewed combat aircraft will collaborate",
+  "key_kind": "doi",
+  "doi": "10.1108/oxan-db282804"
+ },
+ "10.1108/oxan-es267236": {
+  "why": "A309: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A309",
+  "title": "New long-range Iranian missile sends signal to Israel",
+  "key_kind": "doi",
+  "doi": "10.1108/oxan-es267236"
+ },
+ "10.1109/7.328797": {
+  "why": "A306: ERRATUM OR CORRECTION NOTICE. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A306",
+  "title": "Monopulse radar angle measurement in noise [Errata]",
+  "key_kind": "doi",
+  "doi": "10.1109/7.328797"
+ },
+ "10.1109/ap-m.2004.28663": {
+  "why": "A368: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A368",
+  "title": "Senior scientist air force research laboratory",
+  "key_kind": "doi",
+  "doi": "10.1109/ap-m.2004.28663"
+ },
+ "10.1109/ee.1945.6441055": {
+  "why": "A325: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A325",
+  "title": "Flying boat in service of Navy",
+  "key_kind": "doi",
+  "doi": "10.1109/ee.1945.6441055"
+ },
+ "10.1109/ee.1951.6436730": {
+  "why": "A358: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A358",
+  "title": "Of current interest: Air-launched automatic weather station transmits data by Radio",
+  "key_kind": "doi",
+  "doi": "10.1109/ee.1951.6436730"
+ },
+ "10.1109/ee.1951.6437348": {
+  "why": "A317: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A317",
+  "title": "Of current interest: Power compressors provide continuous operation in hypersonic wind tunnel",
+  "key_kind": "doi",
+  "doi": "10.1109/ee.1951.6437348"
+ },
+ "10.1109/icuas51884.2021.9476682": {
+  "why": "A368: MEETING NOTICE, PROGRAMME OR SESSION LISTING. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A368",
+  "title": "2021 International Conference on Unmanned Aircraft Systems - Final program",
+  "key_kind": "doi",
+  "doi": "10.1109/icuas51884.2021.9476682"
+ },
+ "10.1109/iwssc.2008.4656762": {
+  "why": "A309: MEETING NOTICE, PROGRAMME OR SESSION LISTING. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A309",
+  "title": "Special session 2 (room C) OURSES project: Medical services in rural areas using new satellite communications technologies",
+  "key_kind": "doi",
+  "doi": "10.1109/iwssc.2008.4656762"
+ },
+ "10.1109/mcs.2012.2205529": {
+  "why": "A342: FRONT MATTER, EDITORIAL OR ISSUE INTRODUCTION. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A342",
+  "title": "Unmanned Aerial Vehicles [About This Issue]",
+  "key_kind": "doi",
+  "doi": "10.1109/mcs.2012.2205529"
+ },
+ "10.1109/mim.2003.1200282": {
+  "why": "A307,A309: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A307",
+  "title": "Satrack tests missile accuracy",
+  "key_kind": "doi",
+  "doi": "10.1109/mim.2003.1200282"
+ },
+ "10.1109/mspec.2021.9311455": {
+  "why": "A351: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A351",
+  "title": "Supersonic Travel Returns: Boom's XB-1 test aircraft may usher in faster-than-sound commercial flight",
+  "key_kind": "doi",
+  "doi": "10.1109/mspec.2021.9311455"
+ },
+ "10.1109/phm-paris.2019.00001": {
+  "why": "A331: BARE CONFERENCE OR MEETING RECORD WITH NO CONTENT OF ITS OWN. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A331",
+  "title": "2019 Prognostics and System Health Management Conference",
+  "key_kind": "doi",
+  "doi": "10.1109/phm-paris.2019.00001"
+ },
+ "10.1109/taes.1981.309077": {
+  "why": "A306: ERRATUM OR CORRECTION NOTICE. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A306",
+  "title": "Corrections to \"Detection of Target Multiplicity Using Monopulse Quadrature Angle\"",
+  "key_kind": "doi",
+  "doi": "10.1109/taes.1981.309077"
+ },
+ "10.1109/taes.1983.309304": {
+  "why": "A306: ERRATUM OR CORRECTION NOTICE. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A306",
+  "title": "Corrections to ¿Noise Angle Accuracy of Several Monopulse Architectures¿",
+  "key_kind": "doi",
+  "doi": "10.1109/taes.1983.309304"
+ },
+ "10.1111/j.1551-2916.2008.02481.x": {
+  "why": "A314,A357: FRONT MATTER, EDITORIAL OR ISSUE INTRODUCTION. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A314",
+  "title": "Topical Issue on Ultra‐High‐Temperature Ceramics",
+  "key_kind": "doi",
+  "doi": "10.1111/j.1551-2916.2008.02481.x"
+ },
+ "10.1111/j.1559-3584.1932.tb04277.x": {
+  "why": "A325: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A325",
+  "title": "THE BIGGEST BRITISH FLYING‐BOAT",
+  "key_kind": "doi",
+  "doi": "10.1111/j.1559-3584.1932.tb04277.x"
+ },
+ "10.1111/j.1945-1474.2005.tb01114.x": {
+  "why": "A349: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A349",
+  "title": "Interview with a Quality Leader: Michael Cohne on Medication Error Reporting and Patient Safety",
+  "key_kind": "doi",
+  "doi": "10.1111/j.1945-1474.2005.tb01114.x"
+ },
+ "10.1111/j.1949-8594.1966.tb14912.x": {
+  "why": "A321: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A321",
+  "title": "SHOCK ABSORBER PATENTED FOR SOFT MOON LANDING",
+  "key_kind": "doi",
+  "doi": "10.1111/j.1949-8594.1966.tb14912.x"
+ },
+ "10.1115/1.4015864": {
+  "why": "A331: ERRATUM OR CORRECTION NOTICE. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A331",
+  "title": "Closure to “Discussions of ‘Summary of Investigation of Two-Stroke-Cycle Gas-Generator Aircraft Engine’” (1952, Trans. ASME, 74, pp. 652–653)",
+  "key_kind": "doi",
+  "doi": "10.1115/1.4015864"
+ },
+ "10.1117/12.135171": {
+  "why": "A342: BARE CONFERENCE OR MEETING RECORD WITH NO CONTENT OF ITS OWN. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A342",
+  "title": "&lt;title&gt;Supervisory control of mobile robots: architectures and distributed intelligence (Proceedings Only)&lt;/title&gt;",
+  "key_kind": "doi",
+  "doi": "10.1117/12.135171"
+ },
+ "10.1117/12.549107": {
+  "why": "A307: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A307",
+  "title": "New Ball Aerospace star tracker achieves high tracking accuracy for a moving star field",
+  "key_kind": "doi",
+  "doi": "10.1117/12.549107"
+ },
+ "10.1121/1.2537173": {
+  "why": "A356: BARE CONFERENCE OR MEETING RECORD WITH NO CONTENT OF ITS OWN. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A356",
+  "title": "17th International Symposium on Nonlinear Acoustics ISNA17 including the International Sonic Boom Forum",
+  "key_kind": "doi",
+  "doi": "10.1121/1.2537173"
+ },
+ "10.1126/science.116.3024.670": {
+  "why": "A305: BOOK REVIEW. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A305",
+  "title": "<i>Physics and Medicine of the Upper Atmosphere: A Study of the Aeropause</i> . Proceedings of a Symposium on the Physics and Medicine of the Upper Atmosphere h",
+  "key_kind": "doi",
+  "doi": "10.1126/science.116.3024.670"
+ },
+ "10.1126/science.138.3545.1083": {
+  "why": "A356: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A356",
+  "title": "Supersonic Transport Next Step in Civil Aviation Is a Difficult One",
+  "key_kind": "doi",
+  "doi": "10.1126/science.138.3545.1083"
+ },
+ "10.1126/science.230.4728.934.b": {
+  "why": "A368: BOOK REVIEW. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A368",
+  "title": "<i>A Spacefaring People</i> . Perspectives on Early Spaceflight. Alex Roland [Ed.] Scientific and Technical Information Branch, National Aeronautics and Space A",
+  "key_kind": "doi",
+  "doi": "10.1126/science.230.4728.934.b"
  },
  "10.1126/science.231.4740.783-a": {
   "why": "A334: SCIENCE NEWS AND COMMENT indexed as a work, the second of two in the same sweep. Editorial matter is not research literature",
@@ -13,12 +1749,1090 @@
   "key_kind": "doi",
   "doi": "10.1126/science.231.4740.783-a"
  },
+ "10.1126/science.232.4751.702": {
+  "why": "A334: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A334",
+  "title": "Titan Accident Disrupts Military Space Program",
+  "key_kind": "doi",
+  "doi": "10.1126/science.232.4751.702"
+ },
+ "10.1126/science.232.4755.1191.a": {
+  "why": "A305: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A305",
+  "title": "Space Science Board Endorses Conventional Rockets for Science Missions",
+  "key_kind": "doi",
+  "doi": "10.1126/science.232.4755.1191.a"
+ },
+ "10.1126/science.272.5265.1095.a": {
+  "why": "A305: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A305",
+  "title": "New Launcher to Lift Off With Armada of Plasma Probes",
+  "key_kind": "doi",
+  "doi": "10.1126/science.272.5265.1095.a"
+ },
+ "10.1126/science.272.5265.1095a": {
+  "why": "A305: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A305",
+  "title": "European Space Science: New Launcher to Lift Off With Armada of Plasma Probes",
+  "key_kind": "doi",
+  "doi": "10.1126/science.272.5265.1095a"
+ },
+ "10.1126/science.351.6270.213": {
+  "why": "A349: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A349",
+  "title": "Publishers embrace scheme to end name confusion",
+  "key_kind": "doi",
+  "doi": "10.1126/science.351.6270.213"
+ },
  "10.1126/science.3945808": {
   "why": "A334: SCIENCE NEWS AND COMMENT indexed by Crossref as a work. Same family as the Hypersonic Aerodynamics Fellowships notices A322 cited. Editorial matter is not research literature",
   "article": "A334",
   "title": "The Spaceplane",
   "key_kind": "doi",
   "doi": "10.1126/science.3945808"
+ },
+ "10.1126/science.47.1202.37.b": {
+  "why": "A368: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A368",
+  "title": "Work of the National Advisory Committee for Aeronautics",
+  "key_kind": "doi",
+  "doi": "10.1126/science.47.1202.37.b"
+ },
+ "10.1126/science.74.1923.451": {
+  "why": "A368: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A368",
+  "title": "THE NATIONAL ADVISORY COMMITTEE FOR AERONAUTICS",
+  "key_kind": "doi",
+  "doi": "10.1126/science.74.1923.451"
+ },
+ "10.1126/science.aal0980": {
+  "why": "A322: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A322",
+  "title": "Watch the weird aerodynamics behind mosquito flight",
+  "key_kind": "doi",
+  "doi": "10.1126/science.aal0980"
+ },
+ "10.1126/science.aax5012": {
+  "why": "A337: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A337",
+  "title": "Israeli spacecraft crashes during attempted moon landing",
+  "key_kind": "doi",
+  "doi": "10.1126/science.aax5012"
+ },
+ "10.1126/science.abb2806": {
+  "why": "A349: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A349",
+  "title": "Update: ‘A bit chaotic.’ Christening of new coronavirus and its disease name create confusion",
+  "key_kind": "doi",
+  "doi": "10.1126/science.abb2806"
+ },
+ "10.1126/science.abh1481": {
+  "why": "A321: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A321",
+  "title": "‘Touchdown confirmed!’ Perseverance landing marks new dawn for Mars science",
+  "key_kind": "doi",
+  "doi": "10.1126/science.abh1481"
+ },
+ "10.1126/science.adk4713": {
+  "why": "A337: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A337",
+  "title": "India makes history by landing spacecraft near Moon’s south pole",
+  "key_kind": "doi",
+  "doi": "10.1126/science.adk4713"
+ },
+ "10.1145/3260129": {
+  "why": "A342: MEETING NOTICE, PROGRAMME OR SESSION LISTING. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A342",
+  "title": "Session details: Unmanned and autonomous system test technology",
+  "key_kind": "doi",
+  "doi": "10.1145/3260129"
+ },
+ "10.1145/3459086": {
+  "why": "A359: BARE CONFERENCE OR MEETING RECORD WITH NO CONTENT OF ITS OWN. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A359",
+  "title": "Proceedings of the 1st International Workshop on Verification of Autonomous &amp; Robotic Systems",
+  "key_kind": "doi",
+  "doi": "10.1145/3459086"
+ },
+ "10.1175/1520-0477-51.10.948": {
+  "why": "A305: BARE CONFERENCE OR MEETING RECORD WITH NO CONTENT OF ITS OWN. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A305",
+  "title": "Symposium on the dynamics of the mesosphere and lower thermosphere",
+  "key_kind": "doi",
+  "doi": "10.1175/1520-0477-51.10.948"
+ },
+ "10.1177/001857870103600606": {
+  "why": "A349: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A349",
+  "title": "•Caution: Packaging of the New IV Bag of Brevibloc (Esmolol) Premixed Injection Could Lead to Errors; •New “Tall Man” Lettering Will Reduce Mix-ups due to Gener",
+  "key_kind": "doi",
+  "doi": "10.1177/001857870103600606"
+ },
+ "10.1177/003754978604600605": {
+  "why": "A328: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A328",
+  "title": "Computer simulation replaces live ordnance in air combat training",
+  "key_kind": "doi",
+  "doi": "10.1177/003754978604600605"
+ },
+ "10.1177/0162243903028003005": {
+  "why": "A336: BOOK REVIEW. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A336",
+  "title": "Torquing Things Out: Race and Classification in Geoffrey C. Bowker and Susan Leigh Star's Sorting Things Out: Classification and its Consequences",
+  "key_kind": "doi",
+  "doi": "10.1177/0162243903028003005"
+ },
+ "10.1177/1475921713516701": {
+  "why": "A361: FRONT MATTER, EDITORIAL OR ISSUE INTRODUCTION. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A361",
+  "title": "Special Issue on Noncontact Measurement Technology for Structural Health Monitoring",
+  "key_kind": "doi",
+  "doi": "10.1177/1475921713516701"
+ },
+ "10.1211/pj.2013.11120995": {
+  "why": "A349: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A349",
+  "title": "Warning highlights risk of similar sounding drug names",
+  "key_kind": "doi",
+  "doi": "10.1211/pj.2013.11120995"
+ },
+ "10.1211/pj.2026.1.414521": {
+  "why": "A349: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A349",
+  "title": "Blood pressure medication recalled after blister pack error",
+  "key_kind": "doi",
+  "doi": "10.1211/pj.2026.1.414521"
+ },
+ "10.12783/shm2015/334": {
+  "why": "A361: MEETING NOTICE, PROGRAMME OR SESSION LISTING. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A361",
+  "title": "Structural Health Monitoring SHM Reliability Workshop",
+  "key_kind": "doi",
+  "doi": "10.12783/shm2015/334"
+ },
+ "10.12968/npre.2004.2.2.12556": {
+  "why": "A349: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A349",
+  "title": "Drug name changes to end confusion and ensure safety",
+  "key_kind": "doi",
+  "doi": "10.12968/npre.2004.2.2.12556"
+ },
+ "10.12968/s0013-7758(24)90037-7": {
+  "why": "A311,A315: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A315",
+  "title": "Vertiport at Vanguard of eVTOL Mobility in UK",
+  "key_kind": "doi",
+  "doi": "10.12968/s0013-7758(24)90037-7"
+ },
+ "10.12968/s0013-7758(24)90091-2": {
+  "why": "A334: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A334",
+  "title": "Space Machines Uses Siemens Software to Develop Orbital Servicing Vehicle",
+  "key_kind": "doi",
+  "doi": "10.12968/s0013-7758(24)90091-2"
+ },
+ "10.12968/s0306-3747(23)70054-7": {
+  "why": "A341,A352: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A352",
+  "title": "Solvay and Airborne receive funding for composite alternative to metal battery enclosures, Airborne partners with Limosa to develop composite airframe productio",
+  "key_kind": "doi",
+  "doi": "10.12968/s0306-3747(23)70054-7"
+ },
+ "10.12968/s0306-3747(24)70753-2": {
+  "why": "A352: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A352",
+  "title": "Syensqo expands its bio-based portfolio with a new MTM® epoxy prepreg",
+  "key_kind": "doi",
+  "doi": "10.12968/s0306-3747(24)70753-2"
+ },
+ "10.12968/s1478-2774(22)50413-5": {
+  "why": "A315,A319: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A315",
+  "title": "Bell Nexus Evtol Moves Towards Certification",
+  "key_kind": "doi",
+  "doi": "10.12968/s1478-2774(22)50413-5"
+ },
+ "10.12968/s1478-2774(23)50004-1": {
+  "why": "A311,A315: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A315",
+  "title": "Evtol Jet Aircraft Achieves First Transition",
+  "key_kind": "doi",
+  "doi": "10.12968/s1478-2774(23)50004-1"
+ },
+ "10.12968/s1478-2774(23)50277-5": {
+  "why": "A327: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A327",
+  "title": "Liquid Hydrogen Test Facility Achieves Key Milestone",
+  "key_kind": "doi",
+  "doi": "10.12968/s1478-2774(23)50277-5"
+ },
+ "10.12968/s1478-2774(23)50296-9": {
+  "why": "A351: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A351",
+  "title": "Boom Updates Supersonic Airliner Design",
+  "key_kind": "doi",
+  "doi": "10.12968/s1478-2774(23)50296-9"
+ },
+ "10.12968/s1478-2774(23)50304-5": {
+  "why": "A315,A319: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A315",
+  "title": "Alastair Mcintosh, Chief Technology Officer of Lilium Discusses the Firm's Approach to Flight and Certification Testing of its Evtol",
+  "key_kind": "doi",
+  "doi": "10.12968/s1478-2774(23)50304-5"
+ },
+ "10.12968/s1478-2774(23)50322-7": {
+  "why": "A311,A315: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A315",
+  "title": "Evtol Makes First New York Flight",
+  "key_kind": "doi",
+  "doi": "10.12968/s1478-2774(23)50322-7"
+ },
+ "10.12968/s1478-2774(23)50323-9": {
+  "why": "A315: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A315",
+  "title": "Joby Evtol Moves Closer to Completion",
+  "key_kind": "doi",
+  "doi": "10.12968/s1478-2774(23)50323-9"
+ },
+ "10.12968/s1478-2774(24)50048-5": {
+  "why": "A315: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A315",
+  "title": "VoloCity eVTOL Passes Ground Vibration Tests",
+  "key_kind": "doi",
+  "doi": "10.12968/s1478-2774(24)50048-5"
+ },
+ "10.12968/s1478-2774(24)50068-0": {
+  "why": "A359: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A359",
+  "title": "F-16 Fighting Falcon at Fifty",
+  "key_kind": "doi",
+  "doi": "10.12968/s1478-2774(24)50068-0"
+ },
+ "10.12968/s2514-9768(22)90391-6": {
+  "why": "A305,A331: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A331",
+  "title": "Orbex Reveals First Full-Scale European Micro-Launcher Rocket",
+  "key_kind": "doi",
+  "doi": "10.12968/s2514-9768(22)90391-6"
+ },
+ "10.1310/hpj4101-13": {
+  "why": "A349: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A349",
+  "title": "<i>Maalox</i> Brand Name Extension Causes Confusion Near Sight/Sound Dead Hit! <i>Omacor–Amicar</i> Look-alike <i>Tyleno",
+  "key_kind": "doi",
+  "doi": "10.1310/hpj4101-13"
+ },
+ "10.1310/hpj4112-1148": {
+  "why": "A349: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A349",
+  "title": "Medication Reconciliation and Community Pharmacy; Drug Name Alerts; Another ADC Stocking Error; Unsafe Marketing Practice",
+  "key_kind": "doi",
+  "doi": "10.1310/hpj4112-1148"
+ },
+ "10.1310/hpj4401-18": {
+  "why": "A349: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A349",
+  "title": "Risk of Cutting Certain Medication Patches; Warfarin by Generic Name; Why Doctors Must Include Medication Purpose on Prescriptions; Carac-Kuric Mix-Ups",
+  "key_kind": "doi",
+  "doi": "10.1310/hpj4401-18"
+ },
+ "10.13182/nt71-a30974": {
+  "why": "A303: BARE CONFERENCE OR MEETING RECORD WITH NO CONTENT OF ITS OWN. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A303",
+  "title": "Radiation Damage in Reactor Materials (Proceedings of a Symposium, Vienna, June 2-6, 1969)",
+  "key_kind": "doi",
+  "doi": "10.13182/nt71-a30974"
+ },
+ "10.1353/jmh.0.0284": {
+  "why": "A368: BOOK REVIEW. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A368",
+  "title": "Aircraft Carriers: A History of Carrier Aviation and Its Influence on World Events, Volume II: 1946-2006 (review)",
+  "key_kind": "doi",
+  "doi": "10.1353/jmh.0.0284"
+ },
+ "10.1353/jmh.2006.0115": {
+  "why": "A309: BOOK REVIEW. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A309",
+  "title": "V-2: A Combat History of the First Ballistic Missile (review)",
+  "key_kind": "doi",
+  "doi": "10.1353/jmh.2006.0115"
+ },
+ "10.1353/pmc.2018.0035": {
+  "why": "A342: BOOK REVIEW. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A342",
+  "title": "The Kill Chain, Unredacted. A review of Jameel Jaffer, The Drone Memos: Targeting Killing, Secrecy, and the Law",
+  "key_kind": "doi",
+  "doi": "10.1353/pmc.2018.0035"
+ },
+ "10.1353/sais.1989.0018": {
+  "why": "A309: BOOK REVIEW. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A309",
+  "title": "Soviet Ballistic Missile Defense and the Western Alliance (review)",
+  "key_kind": "doi",
+  "doi": "10.1353/sais.1989.0018"
+ },
+ "10.1353/tech.0.0427": {
+  "why": "A368: BOOK REVIEW. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A368",
+  "title": "Conquistadors of the Sky: A History of Aviation in Latin America (review)",
+  "key_kind": "doi",
+  "doi": "10.1353/tech.0.0427"
+ },
+ "10.1353/tech.1993.0158": {
+  "why": "A368: BOOK REVIEW. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A368",
+  "title": "Alaskan Aviation History. Vol. 1: 1897–1928. Vol. 2: 1929–1930 by Robert W. Stevens",
+  "key_kind": "doi",
+  "doi": "10.1353/tech.1993.0158"
+ },
+ "10.1353/tech.1996.0061": {
+  "why": "A368: BOOK REVIEW. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A368",
+  "title": "Aerial Nationalism: A History of Aviation in Thailand by Edward M. Young",
+  "key_kind": "doi",
+  "doi": "10.1353/tech.1996.0061"
+ },
+ "10.1353/tech.1998.0038": {
+  "why": "A368: BOOK REVIEW. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A368",
+  "title": "Flights of Discovery: 50 years at the NASA Dryden Flight Research Center (review)",
+  "key_kind": "doi",
+  "doi": "10.1353/tech.1998.0038"
+ },
+ "10.1353/tech.1999.0189": {
+  "why": "A312,A320,A337,A368: BOOK REVIEW. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A337",
+  "title": "Wingless Flight: The Lifting Body Story (review)",
+  "key_kind": "doi",
+  "doi": "10.1353/tech.1999.0189"
+ },
+ "10.1353/tech.2001.0082": {
+  "why": "A334,A337: BOOK REVIEW. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A337",
+  "title": "The Space Shuttle Decision: NASA's Search for a Reusable Space Vehicle (review)",
+  "key_kind": "doi",
+  "doi": "10.1353/tech.2001.0082"
+ },
+ "10.1353/tech.2003.0016": {
+  "why": "A359: BOOK REVIEW. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A359",
+  "title": "Computers Take Flight: A History of NASA's Pioneering Digital Fly-By-Wire Project (review)",
+  "key_kind": "doi",
+  "doi": "10.1353/tech.2003.0016"
+ },
+ "10.1353/tech.2003.0047": {
+  "why": "A368: BOOK REVIEW. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A368",
+  "title": "Expanding the Envelope: Flight Research at NACA and NASA (review)",
+  "key_kind": "doi",
+  "doi": "10.1353/tech.2003.0047"
+ },
+ "10.1353/tech.2004.0133": {
+  "why": "A368: BOOK REVIEW. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A368",
+  "title": "Testing Aircraft, Exploring Space: An Illustrated History of NACA and NASA (review)",
+  "key_kind": "doi",
+  "doi": "10.1353/tech.2004.0133"
+ },
+ "10.1353/tech.2004.0140": {
+  "why": "A330,A339,A360: BOOK REVIEW. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A330",
+  "title": "Single Stage to Orbit: Politics, Space Technology, and the Quest for Reusable Rocketry (review)",
+  "key_kind": "doi",
+  "doi": "10.1353/tech.2004.0140"
+ },
+ "10.1353/tech.2012.0159": {
+  "why": "A334: BOOK REVIEW. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A334",
+  "title": "In Defense of Japan: From the Market to the Military in Space Policy (review)",
+  "key_kind": "doi",
+  "doi": "10.1353/tech.2012.0159"
+ },
+ "10.1353/tech.2023.a911031": {
+  "why": "A368: BOOK REVIEW. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A368",
+  "title": "Wings for the Rising Sun: A Transnational History of Japanese Aviation by Jürgen P. Melzer (review)",
+  "key_kind": "doi",
+  "doi": "10.1353/tech.2023.a911031"
+ },
+ "10.1515/9783111331560-013": {
+  "why": "A339: INDEX OR LISTING. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A339",
+  "title": "List of Acronyms—Bipropellants",
+  "key_kind": "doi",
+  "doi": "10.1515/9783111331560-013"
+ },
+ "10.1515/9783112231678-001": {
+  "why": "A368: FRONT MATTER, EDITORIAL OR ISSUE INTRODUCTION. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A368",
+  "title": "1Chapter 1 Introduction: Approaching the History of Commercial Aviation, 1920s–2020s",
+  "key_kind": "doi",
+  "doi": "10.1515/9783112231678-001"
+ },
+ "10.1520/stp10115s": {
+  "why": "A303: BARE CONFERENCE OR MEETING RECORD WITH NO CONTENT OF ITS OWN. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A303",
+  "title": "European Workshop on Radiation Damage Correlations and Dosimetry",
+  "key_kind": "doi",
+  "doi": "10.1520/stp10115s"
+ },
+ "10.1520/stp341-eb": {
+  "why": "A303: BARE CONFERENCE OR MEETING RECORD WITH NO CONTENT OF ITS OWN. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A303",
+  "title": "Symposium on Radiation Effects on Metals and Neutron Dosimetry",
+  "key_kind": "doi",
+  "doi": "10.1520/stp341-eb"
+ },
+ "10.1541/ieejjournal.114.467": {
+  "why": "A334: FRONT MATTER, EDITORIAL OR ISSUE INTRODUCTION. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A334",
+  "title": "Special Issue. The Frontier of Space Science &amp; Technology. Space Solar Power Satellite and Microwave Power Transmission.",
+  "key_kind": "doi",
+  "doi": "10.1541/ieejjournal.114.467"
+ },
+ "10.1629/uksg.393": {
+  "why": "A366: MEETING NOTICE, PROGRAMME OR SESSION LISTING. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A366",
+  "title": "PIDapalooza – the open festival for persistent identifiers",
+  "key_kind": "doi",
+  "doi": "10.1629/uksg.393"
+ },
+ "10.18260/1-2-60-31851": {
+  "why": "A297,A360,A368: PERIODIC REPORT OF AN ORGANISATION COVERING MANY PROJECTS. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A368",
+  "title": "Air Force Research Laboratory",
+  "key_kind": "doi",
+  "doi": "10.18260/1-2-60-31851"
+ },
+ "10.21236/ad0610847": {
+  "why": "A345: PERIODIC REPORT OF AN ORGANISATION COVERING MANY PROJECTS. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A345",
+  "title": "RESEARCH PROGRAM IN PHYSICS AND ASTROPHYSICS: ASTROPHYSICS, PLASMA PHYSICS, AERODYNAMICS, NUCLEAR PHYSICS AND SPECTROSCOPY",
+  "key_kind": "doi",
+  "doi": "10.21236/ad0610847"
+ },
+ "10.21236/ad0761633": {
+  "why": "A345: PERIODIC REPORT OF AN ORGANISATION COVERING MANY PROJECTS. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A345",
+  "title": "Research in Radiation Physics and Aerodynamics",
+  "key_kind": "doi",
+  "doi": "10.21236/ad0761633"
+ },
+ "10.21236/ad0869613": {
+  "why": "A345: INDEX OR LISTING. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A345",
+  "title": "A Compilation of Computer Programs in Flight Vehicle Technology 1968-1969",
+  "key_kind": "doi",
+  "doi": "10.21236/ad0869613"
+ },
+ "10.21236/ada156468": {
+  "why": "A307,A337: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A307",
+  "title": "Coming Soon to a Theater Near You... the Microwave Landing System",
+  "key_kind": "doi",
+  "doi": "10.21236/ada156468"
+ },
+ "10.21236/ada207422": {
+  "why": "A352: PERIODIC REPORT OF AN ORGANISATION COVERING MANY PROJECTS. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A352",
+  "title": "Nondestructive Testing Information Analysis Center, FY 1986 Annual Report",
+  "key_kind": "doi",
+  "doi": "10.21236/ada207422"
+ },
+ "10.21236/ada334216": {
+  "why": "A323: PERIODIC REPORT OF AN ORGANISATION COVERING MANY PROJECTS. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A323",
+  "title": "Federal Interagency Committee on Aviation Noise: 1994 Annual Report.",
+  "key_kind": "doi",
+  "doi": "10.21236/ada334216"
+ },
+ "10.21236/ada341512": {
+  "why": "A368: PERIODIC REPORT OF AN ORGANISATION COVERING MANY PROJECTS. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A368",
+  "title": "Acquisition Review Quarterly. The Journal of the Defense Acquisition University. Vol. 4, No. 3. Summer 1997.",
+  "key_kind": "doi",
+  "doi": "10.21236/ada341512"
+ },
+ "10.21236/ada363089": {
+  "why": "A297,A360,A368: PERIODIC REPORT OF AN ORGANISATION COVERING MANY PROJECTS. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A368",
+  "title": "Air Force Research Laboratory Research Highlights, Mar/Apr 1999",
+  "key_kind": "doi",
+  "doi": "10.21236/ada363089"
+ },
+ "10.21236/ada367508": {
+  "why": "A297,A360,A368: PERIODIC REPORT OF AN ORGANISATION COVERING MANY PROJECTS. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A368",
+  "title": "Air Force Research Laboratory (AFRL). Manager of the Basic Research Investment for the Air Force Research Laboratory. Research Highlights, Jul/Aug 99.",
+  "key_kind": "doi",
+  "doi": "10.21236/ada367508"
+ },
+ "10.21236/ada374325": {
+  "why": "A297,A360,A368: PERIODIC REPORT OF AN ORGANISATION COVERING MANY PROJECTS. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A368",
+  "title": "Air Force Research Laboratory. Research Highlights, Jan/Feb 2000,",
+  "key_kind": "doi",
+  "doi": "10.21236/ada374325"
+ },
+ "10.21236/ada374994": {
+  "why": "A297: PERIODIC REPORT OF AN ORGANISATION COVERING MANY PROJECTS. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A297",
+  "title": "United States Air Force Committee Staff Procurement Backup Book. FY 2001 Amended Budget Request. Aircraft Procurement, Air Force. Volume II",
+  "key_kind": "doi",
+  "doi": "10.21236/ada374994"
+ },
+ "10.21236/ada381379": {
+  "why": "A297,A360,A368: PERIODIC REPORT OF AN ORGANISATION COVERING MANY PROJECTS. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A368",
+  "title": "Air Force Research Laboratory Research Highlights. July/August 2000",
+  "key_kind": "doi",
+  "doi": "10.21236/ada381379"
+ },
+ "10.21236/ada385923": {
+  "why": "A329,A331,A332: PERIODIC REPORT OF AN ORGANISATION COVERING MANY PROJECTS. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A331",
+  "title": "Summary of DOD Acquisition Program Audit Coverage",
+  "key_kind": "doi",
+  "doi": "10.21236/ada385923"
+ },
+ "10.21236/ada387239": {
+  "why": "A323: PERIODIC REPORT OF AN ORGANISATION COVERING MANY PROJECTS. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A323",
+  "title": "Federal Interagency Committee on Aviation Noise: 1997 Annual Report",
+  "key_kind": "doi",
+  "doi": "10.21236/ada387239"
+ },
+ "10.21236/ada415410": {
+  "why": "A342,A343,A345,A353: PERIODIC REPORT OF AN ORGANISATION COVERING MANY PROJECTS. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A353",
+  "title": "Summary of Research 2001, Center for Interdisciplinary Remotely Piloted Aircraft Studies (CIRPAS)",
+  "key_kind": "doi",
+  "doi": "10.21236/ada415410"
+ },
+ "10.21236/ada419729": {
+  "why": "A339,A360: MEETING NOTICE, PROGRAMME OR SESSION LISTING. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A339",
+  "title": "Program Research and Announcement PRDA 04-01-PKT Integrated High Payoff Rocket Propulsion Technology XI (IHPRPT)",
+  "key_kind": "doi",
+  "doi": "10.21236/ada419729"
+ },
+ "10.21236/ada420544": {
+  "why": "A339,A360: MEETING NOTICE, PROGRAMME OR SESSION LISTING. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A339",
+  "title": "Program Research and Development Announcement - PRDA 04-01-PKT: Integrated High Payoff Rocket Propulsion Technology XI (IHPRPT)",
+  "key_kind": "doi",
+  "doi": "10.21236/ada420544"
+ },
+ "10.21236/ada480120": {
+  "why": "A297,A360,A368: PERIODIC REPORT OF AN ORGANISATION COVERING MANY PROJECTS. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A368",
+  "title": "Air Force Research Laboratory Technology Milestones 2007",
+  "key_kind": "doi",
+  "doi": "10.21236/ada480120"
+ },
+ "10.21236/ada512985": {
+  "why": "A368: PERIODIC REPORT OF AN ORGANISATION COVERING MANY PROJECTS. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A368",
+  "title": "Defense Acquisition Review Journal. Volume 17, Number 1, Issue 53, January 2010",
+  "key_kind": "doi",
+  "doi": "10.21236/ada512985"
+ },
+ "10.21236/ada584646": {
+  "why": "A341,A343: PERIODIC REPORT OF AN ORGANISATION COVERING MANY PROJECTS. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A341",
+  "title": "Center for Micro Air Vehicle Studies",
+  "key_kind": "doi",
+  "doi": "10.21236/ada584646"
+ },
+ "10.21236/ada622696": {
+  "why": "A368: PERIODIC REPORT OF AN ORGANISATION COVERING MANY PROJECTS. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A368",
+  "title": "Defense Acquisition Research Journal. Volume 22, Number 4, Issue 75, October 2015",
+  "key_kind": "doi",
+  "doi": "10.21236/ada622696"
+ },
+ "10.2146/news080020": {
+  "why": "A349: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A349",
+  "title": "USP says thousands of drug names look or sound alike",
+  "key_kind": "doi",
+  "doi": "10.2146/news080020"
+ },
+ "10.2172/1888160": {
+  "why": "A342,A343,A355: MEETING NOTICE, PROGRAMME OR SESSION LISTING. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A355",
+  "title": "Interactive Unmanned Aircraft System (UAS) Security Workshop",
+  "key_kind": "doi",
+  "doi": "10.2172/1888160"
+ },
+ "10.2172/1890378": {
+  "why": "A297,A338,A357: MEETING NOTICE, PROGRAMME OR SESSION LISTING. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A338",
+  "title": "Hypersonic Weapons Summit: Promoting Leadership in Hypersonic Development Among Research Institutions.",
+  "key_kind": "doi",
+  "doi": "10.2172/1890378"
+ },
+ "10.22594/dau.012016-80.24.01": {
+  "why": "A368: PERIODIC REPORT OF AN ORGANISATION COVERING MANY PROJECTS. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A368",
+  "title": "Defense Acquisition Research Journal",
+  "key_kind": "doi",
+  "doi": "10.22594/dau.012016-80.24.01"
+ },
+ "10.2307/2613550": {
+  "why": "A309: BOOK REVIEW. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A309",
+  "title": "On the Uses of Military Power in the Nuclear Age, War in the Deterrent Age, Deadly Logic: The Theory of Nuclear Deterrence, War in Modern Society: An Introducti",
+  "key_kind": "doi",
+  "doi": "10.2307/2613550"
+ },
+ "10.2307/3911357": {
+  "why": "A316: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A316",
+  "title": "Airplane Propeller Makes World's Noisiest Roar",
+  "key_kind": "doi",
+  "doi": "10.2307/3911357"
+ },
+ "10.2307/44369110": {
+  "why": "A366: FRONT MATTER, EDITORIAL OR ISSUE INTRODUCTION. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A366",
+  "title": "THE CONNECTICUT REVOLUTION BICENTENNIAL BOOKLETS: A PREPUBLICATION PREFACE",
+  "key_kind": "doi",
+  "doi": "10.2307/44369110"
+ },
+ "10.23919/acc.1983.4788276": {
+  "why": "A306: FRONT MATTER, EDITORIAL OR ISSUE INTRODUCTION. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A306",
+  "title": "New Missile Guidance and Control Technology [panel disc. Introduction]",
+  "key_kind": "doi",
+  "doi": "10.23919/acc.1983.4788276"
+ },
+ "10.2514/1.a34454": {
+  "why": "A297,A314,A320,A327,A340: FRONT MATTER, EDITORIAL OR ISSUE INTRODUCTION. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A340",
+  "title": "Introduction to the Special Section on Hypersonic Boundary-Layer Transition Prediction",
+  "key_kind": "doi",
+  "doi": "10.2514/1.a34454"
+ },
+ "10.2514/1.a34872": {
+  "why": "A320,A340,A357: FRONT MATTER, EDITORIAL OR ISSUE INTRODUCTION. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A340",
+  "title": "Introduction to the Special Section on the Boundary Layer Transition (BOLT) Flight Experiment",
+  "key_kind": "doi",
+  "doi": "10.2514/1.a34872"
+ },
+ "10.2514/1.a35297": {
+  "why": "A314,A320: FRONT MATTER, EDITORIAL OR ISSUE INTRODUCTION. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A314",
+  "title": "Introduction to the Mars InSight Entry, Descent, and Landing Flight Reconstruction Virtual Collection",
+  "key_kind": "doi",
+  "doi": "10.2514/1.a35297"
+ },
+ "10.2514/1.a36101": {
+  "why": "A320: FRONT MATTER, EDITORIAL OR ISSUE INTRODUCTION. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A320",
+  "title": "Introduction to the Mars 2020 and the Mars Entry Descent and Landing Instrumentation 2 Flight Reconstruction Virtual Collection",
+  "key_kind": "doi",
+  "doi": "10.2514/1.a36101"
+ },
+ "10.2514/1.a36261": {
+  "why": "A305: FRONT MATTER, EDITORIAL OR ISSUE INTRODUCTION. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A305",
+  "title": "Introduction to the Space Launch System Aerosciences Virtual Collection",
+  "key_kind": "doi",
+  "doi": "10.2514/1.a36261"
+ },
+ "10.2514/1.a36806": {
+  "why": "A320: FRONT MATTER, EDITORIAL OR ISSUE INTRODUCTION. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A320",
+  "title": "Introduction to the Virtual Collection on the Low-Earth Orbit Flight Test of an Inflatable Decelerator (LOFTID)",
+  "key_kind": "doi",
+  "doi": "10.2514/1.a36806"
+ },
+ "10.2514/1.b35394": {
+  "why": "A297,A304,A340,A348: FRONT MATTER, EDITORIAL OR ISSUE INTRODUCTION. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A348",
+  "title": "Introduction: Special Section on Dual-Mode Scramjet Combustion",
+  "key_kind": "doi",
+  "doi": "10.2514/1.b35394"
+ },
+ "10.2514/1.c033479": {
+  "why": "A343: FRONT MATTER, EDITORIAL OR ISSUE INTRODUCTION. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A343",
+  "title": "Introduction to the Special Section on the Second High-Lift Prediction Workshop",
+  "key_kind": "doi",
+  "doi": "10.2514/1.c033479"
+ },
+ "10.2514/1.c034291": {
+  "why": "A345: FRONT MATTER, EDITORIAL OR ISSUE INTRODUCTION. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A345",
+  "title": "Introduction to the Special Section on the Prediction of F-16XL In-Flight Aerodynamics",
+  "key_kind": "doi",
+  "doi": "10.2514/1.c034291"
+ },
+ "10.2514/1.c034806": {
+  "why": "A322: FRONT MATTER, EDITORIAL OR ISSUE INTRODUCTION. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A322",
+  "title": "Introduction to the Special Section on Helicopter Rotor Performance Predictions by the Rotorcraft Simulation Working Group",
+  "key_kind": "doi",
+  "doi": "10.2514/1.c034806"
+ },
+ "10.2514/1.c034808": {
+  "why": "A333,A341,A345,A359: FRONT MATTER, EDITORIAL OR ISSUE INTRODUCTION. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A341",
+  "title": "Introduction to the Special Section on F-16XL Flight Aerodynamics Predictions at a High Angle of Attack",
+  "key_kind": "doi",
+  "doi": "10.2514/1.c034808"
+ },
+ "10.2514/1.c035323": {
+  "why": "A351: FRONT MATTER, EDITORIAL OR ISSUE INTRODUCTION. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A351",
+  "title": "Introduction to the Special Section on Second AIAA Sonic Boom Prediction Workshop",
+  "key_kind": "doi",
+  "doi": "10.2514/1.c035323"
+ },
+ "10.2514/1.c036955": {
+  "why": "A351: FRONT MATTER, EDITORIAL OR ISSUE INTRODUCTION. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A351",
+  "title": "Introduction to the Special Section on the Third AIAA Sonic Boom Prediction Workshop",
+  "key_kind": "doi",
+  "doi": "10.2514/1.c036955"
+ },
+ "10.2514/1.c037583": {
+  "why": "A307,A310,A321,A323,A326,A333,A345,A350,A353,A359,A362,A368: FRONT MATTER, EDITORIAL OR ISSUE INTRODUCTION. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A307",
+  "title": "Introduction to the Advances in Aircraft System Identification from Flight Test Data Virtual Collection",
+  "key_kind": "doi",
+  "doi": "10.2514/1.c037583"
+ },
+ "10.2514/1.g005947": {
+  "why": "A320,A321,A335,A337: FRONT MATTER, EDITORIAL OR ISSUE INTRODUCTION. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A337",
+  "title": "Introduction to the Virtual Collection on Autonomous Guidance, Navigation, and Control for Planetary Entry, Descent, and Landing",
+  "key_kind": "doi",
+  "doi": "10.2514/1.g005947"
+ },
+ "10.2514/1.i010359": {
+  "why": "A340: FRONT MATTER, EDITORIAL OR ISSUE INTRODUCTION. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A340",
+  "title": "Special Edition on Uncertainty Quantification of the AIAA <i>Journal of Aerospace Computing, Information, and Communication</i>",
+  "key_kind": "doi",
+  "doi": "10.2514/1.i010359"
+ },
+ "10.2514/3.56419": {
+  "why": "A337: MEETING NOTICE, PROGRAMME OR SESSION LISTING. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A337",
+  "title": "Artificial Intelligence Design Challenge at the 1987 Guidance, Navigation, and Control Conference",
+  "key_kind": "doi",
+  "doi": "10.2514/3.56419"
+ },
+ "10.2514/3.59624": {
+  "why": "A334: ERRATUM OR CORRECTION NOTICE. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A334",
+  "title": "Orbit Determination from the Satellite: A Correction",
+  "key_kind": "doi",
+  "doi": "10.2514/3.59624"
+ },
+ "10.2514/5.9781624101960.0829.0836": {
+  "why": "A335: PERIODIC REPORT OF AN ORGANISATION COVERING MANY PROJECTS. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A335",
+  "title": "AIAA Aerodynamic Decelerator Systems TC Activities",
+  "key_kind": "doi",
+  "doi": "10.2514/5.9781624101960.0829.0836"
+ },
+ "10.2514/6.1987-2158": {
+  "why": "A305: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A305",
+  "title": "Aerospatiale pressurant tank range is widening - A 35 liter tank hasbeen qualified for the Eurostar platform",
+  "key_kind": "doi",
+  "doi": "10.2514/6.1987-2158"
+ },
+ "10.2514/6.1996-4576": {
+  "why": "A297: PERIODIC REPORT OF AN ORGANISATION COVERING MANY PROJECTS. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A297",
+  "title": "A summary of research and educational programs at the NASA/UTA Center for Hypersonic Research",
+  "key_kind": "doi",
+  "doi": "10.2514/6.1996-4576"
+ },
+ "10.2514/6.2015-1183": {
+  "why": "A362,A363: MEETING NOTICE, PROGRAMME OR SESSION LISTING. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A362",
+  "title": "For Challenges in the Design of Joined Wings Special Session: Joined-wing Aircraft in the Twenty-First Century and Beyond",
+  "key_kind": "doi",
+  "doi": "10.2514/6.2015-1183"
+ },
+ "10.2514/6.2017-4885": {
+  "why": "A304: PERIODIC REPORT OF AN ORGANISATION COVERING MANY PROJECTS. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A304",
+  "title": "Air Breathing Propulsion Education and Research Activities at The Ohio State University",
+  "key_kind": "doi",
+  "doi": "10.2514/6.2017-4885"
+ },
+ "10.2514/8.10252": {
+  "why": "A305: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A305",
+  "title": "The New Recording Rocket Range Finder",
+  "key_kind": "doi",
+  "doi": "10.2514/8.10252"
+ },
+ "10.2514/8.469": {
+  "why": "A323: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A323",
+  "title": "New Airplane Performance Slide Rule",
+  "key_kind": "doi",
+  "doi": "10.2514/8.469"
+ },
+ "10.2514/mado72": {
+  "why": "A368: BARE CONFERENCE OR MEETING RECORD WITH NO CONTENT OF ITS OWN. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A368",
+  "title": "4th Aircraft Design, Flight Test, and Operations Meeting",
+  "key_kind": "doi",
+  "doi": "10.2514/mado72"
+ },
+ "10.2514/mado73": {
+  "why": "A368: BARE CONFERENCE OR MEETING RECORD WITH NO CONTENT OF ITS OWN. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A368",
+  "title": "5th Aircraft Design,Flight Test and Operations Meeting",
+  "key_kind": "doi",
+  "doi": "10.2514/mado73"
+ },
+ "10.2514/mado74": {
+  "why": "A368: BARE CONFERENCE OR MEETING RECORD WITH NO CONTENT OF ITS OWN. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A368",
+  "title": "6th Aircraft Design,Flight Test and Operations Meeting",
+  "key_kind": "doi",
+  "doi": "10.2514/mado74"
+ },
+ "10.2514/mamt12": {
+  "why": "A357,A368: BARE CONFERENCE OR MEETING RECORD WITH NO CONTENT OF ITS OWN. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A357",
+  "title": "28th Aerodynamic Measurement Technology, Ground Testing, and Flight Testing Conference",
+  "key_kind": "doi",
+  "doi": "10.2514/mamt12"
+ },
+ "10.2514/maptds83": {
+  "why": "A368: BARE CONFERENCE OR MEETING RECORD WITH NO CONTENT OF ITS OWN. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A368",
+  "title": "Aircraft Prototype and Technology Demonstrator Symposium",
+  "key_kind": "doi",
+  "doi": "10.2514/maptds83"
+ },
+ "10.2514/mbft92": {
+  "why": "A368: BARE CONFERENCE OR MEETING RECORD WITH NO CONTENT OF ITS OWN. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A368",
+  "title": "6th AIAA Biennial Flight Test Conference",
+  "key_kind": "doi",
+  "doi": "10.2514/mbft92"
+ },
+ "10.2514/mbft94": {
+  "why": "A368: BARE CONFERENCE OR MEETING RECORD WITH NO CONTENT OF ITS OWN. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A368",
+  "title": "Biennial Flight Test Conference",
+  "key_kind": "doi",
+  "doi": "10.2514/mbft94"
+ },
+ "10.2514/mbipl02": {
+  "why": "A315: BARE CONFERENCE OR MEETING RECORD WITH NO CONTENT OF ITS OWN. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A315",
+  "title": "2002 Biennial International Powered Lift Conference and Exhibit",
+  "key_kind": "doi",
+  "doi": "10.2514/mbipl02"
+ },
+ "10.2514/mevstm68": {
+  "why": "A335,A338: BARE CONFERENCE OR MEETING RECORD WITH NO CONTENT OF ITS OWN. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A338",
+  "title": "Entry Vehicle Systems and Technology Meeting",
+  "key_kind": "doi",
+  "doi": "10.2514/mevstm68"
+ },
+ "10.2514/mft14": {
+  "why": "A368: BARE CONFERENCE OR MEETING RECORD WITH NO CONTENT OF ITS OWN. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A368",
+  "title": "AIAA Flight Testing Conference",
+  "key_kind": "doi",
+  "doi": "10.2514/mft14"
+ },
+ "10.2514/mft15": {
+  "why": "A368: BARE CONFERENCE OR MEETING RECORD WITH NO CONTENT OF ITS OWN. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A368",
+  "title": "AIAA Flight Testing Conference",
+  "key_kind": "doi",
+  "doi": "10.2514/mft15"
+ },
+ "10.2514/mft16": {
+  "why": "A368: BARE CONFERENCE OR MEETING RECORD WITH NO CONTENT OF ITS OWN. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A368",
+  "title": "AIAA Flight Testing Conference",
+  "key_kind": "doi",
+  "doi": "10.2514/mft16"
+ },
+ "10.2514/mft17": {
+  "why": "A368: BARE CONFERENCE OR MEETING RECORD WITH NO CONTENT OF ITS OWN. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A368",
+  "title": "AIAA Flight Testing Conference",
+  "key_kind": "doi",
+  "doi": "10.2514/mft17"
+ },
+ "10.2514/mft18": {
+  "why": "A368: BARE CONFERENCE OR MEETING RECORD WITH NO CONTENT OF ITS OWN. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A368",
+  "title": "2018 Flight Testing Conference",
+  "key_kind": "doi",
+  "doi": "10.2514/mft18"
+ },
+ "10.2514/mftc65": {
+  "why": "A353,A368: BARE CONFERENCE OR MEETING RECORD WITH NO CONTENT OF ITS OWN. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A353",
+  "title": "Flight Testing Conference",
+  "key_kind": "doi",
+  "doi": "10.2514/mftc65"
+ },
+ "10.2514/mftc81": {
+  "why": "A368: BARE CONFERENCE OR MEETING RECORD WITH NO CONTENT OF ITS OWN. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A368",
+  "title": "1st Flight Test Conference",
+  "key_kind": "doi",
+  "doi": "10.2514/mftc81"
+ },
+ "10.2514/mftc83": {
+  "why": "A353,A368: BARE CONFERENCE OR MEETING RECORD WITH NO CONTENT OF ITS OWN. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A353",
+  "title": "2nd Flight Testing Conference",
+  "key_kind": "doi",
+  "doi": "10.2514/mftc83"
+ },
+ "10.2514/mftc88": {
+  "why": "A368: BARE CONFERENCE OR MEETING RECORD WITH NO CONTENT OF ITS OWN. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A368",
+  "title": "4th Flight Test Conference",
+  "key_kind": "doi",
+  "doi": "10.2514/mftc88"
+ },
+ "10.2514/mhrc63": {
+  "why": "A304: BARE CONFERENCE OR MEETING RECORD WITH NO CONTENT OF ITS OWN. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A304",
+  "title": "Hypersonic Ramjet Conference",
+  "key_kind": "doi",
+  "doi": "10.2514/mhrc63"
+ },
+ "10.2514/mipl93": {
+  "why": "A315: BARE CONFERENCE OR MEETING RECORD WITH NO CONTENT OF ITS OWN. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A315",
+  "title": "International Powered Lift Conference",
+  "key_kind": "doi",
+  "doi": "10.2514/mipl93"
+ },
+ "10.2514/miplc13": {
+  "why": "A315: BARE CONFERENCE OR MEETING RECORD WITH NO CONTENT OF ITS OWN. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A315",
+  "title": "2013 International Powered Lift Conference",
+  "key_kind": "doi",
+  "doi": "10.2514/miplc13"
+ },
+ "10.2514/mlom70": {
+  "why": "A357: BARE CONFERENCE OR MEETING RECORD WITH NO CONTENT OF ITS OWN. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A357",
+  "title": "Launch Operations Meeting",
+  "key_kind": "doi",
+  "doi": "10.2514/mlom70"
+ },
+ "10.2514/msftc63": {
+  "why": "A368: BARE CONFERENCE OR MEETING RECORD WITH NO CONTENT OF ITS OWN. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A368",
+  "title": "Space Flight Testing Conference",
+  "key_kind": "doi",
+  "doi": "10.2514/msftc63"
+ },
+ "10.2514/mspr64": {
+  "why": "A304: BARE CONFERENCE OR MEETING RECORD WITH NO CONTENT OF ITS OWN. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A304",
+  "title": "Solid Propellant Rocket Conference",
+  "key_kind": "doi",
+  "doi": "10.2514/mspr64"
+ },
+ "10.2514/mspr65": {
+  "why": "A304: BARE CONFERENCE OR MEETING RECORD WITH NO CONTENT OF ITS OWN. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A304",
+  "title": "6th Solid Propellant Rocket Conference",
+  "key_kind": "doi",
+  "doi": "10.2514/mspr65"
+ },
+ "10.2514/msrtc67": {
+  "why": "A357,A360: BARE CONFERENCE OR MEETING RECORD WITH NO CONTENT OF ITS OWN. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A357",
+  "title": "Sounding Rocket Vehicle Technology Specialist Conference",
+  "key_kind": "doi",
+  "doi": "10.2514/msrtc67"
+ },
+ "10.2514/msrtc70": {
+  "why": "A357,A360: BARE CONFERENCE OR MEETING RECORD WITH NO CONTENT OF ITS OWN. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A357",
+  "title": "2nd Sounding Rocket Technology Conference",
+  "key_kind": "doi",
+  "doi": "10.2514/msrtc70"
+ },
+ "10.2514/msrtc73": {
+  "why": "A357,A360: BARE CONFERENCE OR MEETING RECORD WITH NO CONTENT OF ITS OWN. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A357",
+  "title": "3rd Sounding Rocket Technology Conference",
+  "key_kind": "doi",
+  "doi": "10.2514/msrtc73"
+ },
+ "10.2514/msrtc76": {
+  "why": "A357,A360: BARE CONFERENCE OR MEETING RECORD WITH NO CONTENT OF ITS OWN. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A357",
+  "title": "4th Sounding Rocket Technology Conference",
+  "key_kind": "doi",
+  "doi": "10.2514/msrtc76"
+ },
+ "10.2514/msrtc79": {
+  "why": "A357,A360: BARE CONFERENCE OR MEETING RECORD WITH NO CONTENT OF ITS OWN. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A357",
+  "title": "5th Sounding Rocket Technology Conference",
+  "key_kind": "doi",
+  "doi": "10.2514/msrtc79"
+ },
+ "10.2514/msrtc82": {
+  "why": "A357,A360: BARE CONFERENCE OR MEETING RECORD WITH NO CONTENT OF ITS OWN. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A357",
+  "title": "6th Sounding Rocket Conference",
+  "key_kind": "doi",
+  "doi": "10.2514/msrtc82"
+ },
+ "10.2514/mvstol77": {
+  "why": "A315,A329: BARE CONFERENCE OR MEETING RECORD WITH NO CONTENT OF ITS OWN. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A315",
+  "title": "V/STOL Conference",
+  "key_kind": "doi",
+  "doi": "10.2514/mvstol77"
+ },
+ "10.2514/mvtol69": {
+  "why": "A311,A315,A367: BARE CONFERENCE OR MEETING RECORD WITH NO CONTENT OF ITS OWN. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A315",
+  "title": "VTOL Research, Design, and Operations Meeting",
+  "key_kind": "doi",
+  "doi": "10.2514/mvtol69"
+ },
+ "10.26599/htrd.2026.9480112": {
+  "why": "A309: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A309",
+  "title": "70 Organizations join forces to fit BeiDou Navigation with a “Safety Valve”: Amid a global surge in GNSS jamming and spoofing, RIOH launches its first end-to-en",
+  "key_kind": "doi",
+  "doi": "10.26599/htrd.2026.9480112"
+ },
+ "10.26904/rf-146-4098633130": {
+  "why": "A368: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A368",
+  "title": "Dr Emily A Margolis ‘Women’s history is aviation and space history’",
+  "key_kind": "doi",
+  "doi": "10.26904/rf-146-4098633130"
+ },
+ "10.31399/asm.amp.2015-02.p047": {
+  "why": "A317: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A317",
+  "title": "Orion Heat Shield Handles Extreme Temps",
+  "key_kind": "doi",
+  "doi": "10.31399/asm.amp.2015-02.p047"
  },
  "10.31691/kasl39.2.6": {
   "why": "A334: NONEXISTENT IDENTIFIER. Same journal and same defect as kasl40.2.6",
@@ -47,6 +2861,349 @@
   "title": "A Law and Economic Analysis of Orbital Debris Mitigation",
   "key_kind": "doi",
   "doi": "10.31691/kasl40.2.6."
+ },
+ "10.3233/ves-2011-0408": {
+  "why": "A305: MEETING NOTICE, PROGRAMME OR SESSION LISTING. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A305",
+  "title": "Oral Session 7: Suborbital and Parabolic Flight",
+  "key_kind": "doi",
+  "doi": "10.3233/ves-2011-0408"
+ },
+ "10.34193/ei-r-6598": {
+  "why": "A337: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A337",
+  "title": "Philae spacecraft creates history by landing on a comet",
+  "key_kind": "doi",
+  "doi": "10.34193/ei-r-6598"
+ },
+ "10.35294/ls201902.anton": {
+  "why": "A354: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A354",
+  "title": "Aircraft hybrid-electric propulsion disrupting the way you will fly!",
+  "key_kind": "doi",
+  "doi": "10.35294/ls201902.anton"
+ },
+ "10.4050/jahs.26.3": {
+  "why": "A311: FRONT MATTER, EDITORIAL OR ISSUE INTRODUCTION. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A311",
+  "title": "Guest Editorial: Helicopters, VTOL and Fuel Consumption",
+  "key_kind": "doi",
+  "doi": "10.4050/jahs.26.3"
+ },
+ "10.4050/sm_2014_vtol-2082": {
+  "why": "A311,A315: BARE CONFERENCE OR MEETING RECORD WITH NO CONTENT OF ITS OWN. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A315",
+  "title": "Commercial VTOL Precision Delivery: UAS Symposium and Technical Workshop",
+  "key_kind": "doi",
+  "doi": "10.4050/sm_2014_vtol-2082"
+ },
+ "10.4050/sm_avtol_2025-5303": {
+  "why": "A315: FRONT MATTER, EDITORIAL OR ISSUE INTRODUCTION. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A315",
+  "title": "Welcome: Transformative Vertical Flight 2025",
+  "key_kind": "doi",
+  "doi": "10.4050/sm_avtol_2025-5303"
+ },
+ "10.4050/sm_avtol_2025-5304": {
+  "why": "A315: MEETING NOTICE, PROGRAMME OR SESSION LISTING. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A315",
+  "title": "Welcome Keynotes: Transformative Vertical Flight 2025",
+  "key_kind": "doi",
+  "doi": "10.4050/sm_avtol_2025-5304"
+ },
+ "10.4050/sm_avtol_2025-5305": {
+  "why": "A311,A315: MEETING NOTICE, PROGRAMME OR SESSION LISTING. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A315",
+  "title": "Welcome Keynotes: Autonomy in VTOL Applications",
+  "key_kind": "doi",
+  "doi": "10.4050/sm_avtol_2025-5305"
+ },
+ "10.4050/sm_evtol_2026-5221": {
+  "why": "A315: MEETING NOTICE, PROGRAMME OR SESSION LISTING. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A315",
+  "title": "Opening Plenary A: Bay Area Helicopter Airlines",
+  "key_kind": "doi",
+  "doi": "10.4050/sm_evtol_2026-5221"
+ },
+ "10.4050/sm_evtol_2026-5226": {
+  "why": "A311,A315: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A315",
+  "title": "TVF 2026 - eVTOL Pilot's Perspective - Joby Aviation",
+  "key_kind": "doi",
+  "doi": "10.4050/sm_evtol_2026-5226"
+ },
+ "10.5194/egusphere-egu23-9013": {
+  "why": "A305: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A305",
+  "title": "PITHIA-NRF offers Trans-national access to European upper atmosphere research facilities",
+  "key_kind": "doi",
+  "doi": "10.5194/egusphere-egu23-9013"
+ },
+ "10.52202/083096-0004": {
+  "why": "A357: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A357",
+  "title": "Andøya Spaceport Continental Europe's First Operational Spaceport",
+  "key_kind": "doi",
+  "doi": "10.52202/083096-0004"
+ },
+ "10.52843/cassyni.70bjfs": {
+  "why": "A313,A350,A353: MEETING NOTICE, PROGRAMME OR SESSION LISTING. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A353",
+  "title": "Session 1: Aeroelastic modelling",
+  "key_kind": "doi",
+  "doi": "10.52843/cassyni.70bjfs"
+ },
+ "10.52843/cassyni.zm5mgk": {
+  "why": "A347,A350,A353: MEETING NOTICE, PROGRAMME OR SESSION LISTING. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A353",
+  "title": "Session 3: Low-speed wind tunnel testing",
+  "key_kind": "doi",
+  "doi": "10.52843/cassyni.zm5mgk"
+ },
+ "10.5302/j.icros.2024.24.9001": {
+  "why": "A315: FRONT MATTER, EDITORIAL OR ISSUE INTRODUCTION. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A315",
+  "title": "Guest Editorial: Urban Air Mobility and Vertiport System",
+  "key_kind": "doi",
+  "doi": "10.5302/j.icros.2024.24.9001"
+ },
+ "10.5325/pennhistory.93.3.0357": {
+  "why": "A366: FRONT MATTER, EDITORIAL OR ISSUE INTRODUCTION. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A366",
+  "title": "Pennsylvania’s Revolutions: Patching Together the Semiquincentennial Commemorative Issue",
+  "key_kind": "doi",
+  "doi": "10.5325/pennhistory.93.3.0357"
+ },
+ "10.54419/b4skiz": {
+  "why": "A309: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A309",
+  "title": "A new satellite observatory at Kootwijk",
+  "key_kind": "doi",
+  "doi": "10.54419/b4skiz"
+ },
+ "10.5594/j11140": {
+  "why": "A306,A309: BARE CONFERENCE OR MEETING RECORD WITH NO CONTENT OF ITS OWN. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A309",
+  "title": "Symposium on Optical Instrumentation for Missile Testing",
+  "key_kind": "doi",
+  "doi": "10.5594/j11140"
+ },
+ "10.5771/9783845281476-13": {
+  "why": "A309: BARE CONFERENCE OR MEETING RECORD WITH NO CONTENT OF ITS OWN. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A309",
+  "title": "4th Luxembourg Workshop on Space and Satellite Communication Law",
+  "key_kind": "doi",
+  "doi": "10.5771/9783845281476-13"
+ },
+ "10.59350/r1mx9-k3h77": {
+  "why": "A364,A366: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A364",
+  "title": "The Persistent Identifier ecosystem expands &amp;#8211; to instruments!",
+  "key_kind": "doi",
+  "doi": "10.59350/r1mx9-k3h77"
+ },
+ "10.59350/rbz4s-dng05": {
+  "why": "A364,A366: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A364",
+  "title": "A ROR Persistent Identifier for the WATOC organisation &amp;#8211; helping to make scientific connections.",
+  "key_kind": "doi",
+  "doi": "10.59350/rbz4s-dng05"
+ },
+ "10.59350/rr5k8-d1p52": {
+  "why": "A364: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A364",
+  "title": "A ROR Persistent Identifier for the WATOC organisation - helping to make scientific connections.",
+  "key_kind": "doi",
+  "doi": "10.59350/rr5k8-d1p52"
+ },
+ "10.59350/s35hr-k3s48": {
+  "why": "A364: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A364",
+  "title": "The Persistent Identifier ecosystem expands - to instruments!",
+  "key_kind": "doi",
+  "doi": "10.59350/s35hr-k3s48"
+ },
+ "10.61278/itea.47.1.1003": {
+  "why": "A323: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A323",
+  "title": "Aircraft Instrumentation integrates with Naval Test Wing Atlantic",
+  "key_kind": "doi",
+  "doi": "10.61278/itea.47.1.1003"
+ },
+ "10.62626/69d9-43ef": {
+  "why": "A354: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A354",
+  "title": "Dynamic Motor Drive Software lmproves Electric Propulsion Efficiency by up to 3% / Dynamic Motor Drive Software verbessert den Wirkungsgrad von E-Antrieben um b",
+  "key_kind": "doi",
+  "doi": "10.62626/69d9-43ef"
+ },
+ "10.64000/g720f-z9z14": {
+  "why": "A364,A366: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A364",
+  "title": "The OI Project gets underway planning an open organisation identifier registry",
+  "key_kind": "doi",
+  "doi": "10.64000/g720f-z9z14"
+ },
+ "10.64628/aa.3gfpg5h6g": {
+  "why": "A349: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A349",
+  "title": "How changing our bank account numbering system will be a win for customers",
+  "key_kind": "doi",
+  "doi": "10.64628/aa.3gfpg5h6g"
+ },
+ "10.64628/aa.d9ut9gt6u": {
+  "why": "A317: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A317",
+  "title": "In pictures: 30 years of the Space Shuttle program",
+  "key_kind": "doi",
+  "doi": "10.64628/aa.d9ut9gt6u"
+ },
+ "10.64628/aa.e3xgsxvxt": {
+  "why": "A315: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A315",
+  "title": "‘Every flight is a learning event’: why the V-22 Osprey aircraft won’t be grounded despite dozens of crashes and 54 fatalities",
+  "key_kind": "doi",
+  "doi": "10.64628/aa.e3xgsxvxt"
+ },
+ "10.64628/aa.efs353s6w": {
+  "why": "A329,A332: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A332",
+  "title": "Take out the pilot from Australia’s F-35 Joint Strike Fighter",
+  "key_kind": "doi",
+  "doi": "10.64628/aa.efs353s6w"
+ },
+ "10.64628/aa.g5jg69qgc": {
+  "why": "A309: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A309",
+  "title": "Explainer: what is ballistic missile defence – and would it stop a missile from North Korea?",
+  "key_kind": "doi",
+  "doi": "10.64628/aa.g5jg69qgc"
+ },
+ "10.64628/aa.kmc73r9jd": {
+  "why": "A309: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A309",
+  "title": "Explainer: Israel’s Iron Dome anti-missile system",
+  "key_kind": "doi",
+  "doi": "10.64628/aa.kmc73r9jd"
+ },
+ "10.64628/aa.x3u3ava6h": {
+  "why": "A361: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A361",
+  "title": "The race is still on for a reusable rocket despite the SpaceX setback",
+  "key_kind": "doi",
+  "doi": "10.64628/aa.x3u3ava6h"
+ },
+ "10.64628/aai.eatvmge9a": {
+  "why": "A314: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A314",
+  "title": "Falling space debris poses an escalating risk as spacecraft get stronger and more heat resistant",
+  "key_kind": "doi",
+  "doi": "10.64628/aai.eatvmge9a"
+ },
+ "10.64628/aai.g4dcscyhh": {
+  "why": "A309: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A309",
+  "title": "Blue Origin’s New Glenn rocket landed its booster on a barge at sea – an achievement that will broaden the commercial spaceflight market",
+  "key_kind": "doi",
+  "doi": "10.64628/aai.g4dcscyhh"
+ },
+ "10.64628/aai.kwghrm4dm": {
+  "why": "A317: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A317",
+  "title": "NASA’s crew capsule had heat shield issues during Artemis I − an aerospace expert on these critical spacecraft components",
+  "key_kind": "doi",
+  "doi": "10.64628/aai.kwghrm4dm"
+ },
+ "10.64628/aai.mp9nxj7th": {
+  "why": "A363: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A363",
+  "title": "The future of flight in a net-zero-carbon world: 9 scenarios, lots of sustainable aviation fuel",
+  "key_kind": "doi",
+  "doi": "10.64628/aai.mp9nxj7th"
+ },
+ "10.64628/aai.qechqgefw": {
+  "why": "A305,A360: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A360",
+  "title": "What’s a suborbital flight? An aerospace engineer explains",
+  "key_kind": "doi",
+  "doi": "10.64628/aai.qechqgefw"
+ },
+ "10.64628/aam.fjedauhsy": {
+  "why": "A305: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A305",
+  "title": "Latest rocket launch renews concerns over Inuit food security",
+  "key_kind": "doi",
+  "doi": "10.64628/aam.fjedauhsy"
+ },
+ "10.64628/ab.33eudpueu": {
+  "why": "A363: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A363",
+  "title": "Jet zero? Why net zero in aviation can’t get off the ground",
+  "key_kind": "doi",
+  "doi": "10.64628/ab.33eudpueu"
+ },
+ "10.64628/ab.79shwuaax": {
+  "why": "A317,A320: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A320",
+  "title": "Heat shield safety concerns raise stakes for Nasa’s Artemis II Moon mission",
+  "key_kind": "doi",
+  "doi": "10.64628/ab.79shwuaax"
+ },
+ "10.64628/ab.7ncxjds9j": {
+  "why": "A297: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A297",
+  "title": "André Turcat: the test pilot who took Concorde supersonic",
+  "key_kind": "doi",
+  "doi": "10.64628/ab.7ncxjds9j"
+ },
+ "10.64628/ab.avfndryy6": {
+  "why": "A331: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A331",
+  "title": "Cornwall space launch: why the environmental cost of rocket launches is large even when they fail",
+  "key_kind": "doi",
+  "doi": "10.64628/ab.avfndryy6"
+ },
+ "10.64628/ab.e3k4smp4c": {
+  "why": "A331: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A331",
+  "title": "Virgin Orbit bankruptcy: why the UK’s spaceport industry may still have a bright future",
+  "key_kind": "doi",
+  "doi": "10.64628/ab.e3k4smp4c"
+ },
+ "10.64628/ab.ehj9vkjyv": {
+  "why": "A331: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A331",
+  "title": "Virgin Orbit launched a rocket from a plane – here’s how",
+  "key_kind": "doi",
+  "doi": "10.64628/ab.ehj9vkjyv"
+ },
+ "10.64628/ab.hdh5nfkhf": {
+  "why": "A298: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A298",
+  "title": "The real future of supersonic flight doesn’t depend on Richard Branson – but it might depend on Trump",
+  "key_kind": "doi",
+  "doi": "10.64628/ab.hdh5nfkhf"
+ },
+ "10.64628/ab.hnu3dksfr": {
+  "why": "A298: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A298",
+  "title": "Is supersonic air travel about to return, two decades after the last Concorde flight?",
+  "key_kind": "doi",
+  "doi": "10.64628/ab.hnu3dksfr"
+ },
+ "10.64628/ab.hx7nr6ux5": {
+  "why": "A360: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A360",
+  "title": "SpaceX astronaut launch: here’s the rocket science",
+  "key_kind": "doi",
+  "doi": "10.64628/ab.hx7nr6ux5"
+ },
+ "10.64628/ab.xv9te7ckg": {
+  "why": "A363: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A363",
+  "title": "There isn’t enough ‘sustainable’ aviation fuel to make a dent in our emissions – and there won’t be for years",
+  "key_kind": "doi",
+  "doi": "10.64628/ab.xv9te7ckg"
  },
  "https://doi.org/10.1002/lary.70528": {
   "why": "dropped by reading the publication URL sweep, A323, off-subject",
@@ -926,15 +4083,177 @@
   "article": "A321",
   "key_kind": "doi"
  },
+ "https://ntrs.nasa.gov/citations/19630004225": {
+  "why": "A320: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A320",
+  "title": "NASA TO LAUNCH ATMOSPHERIC STRUCTURE SATELLITE S-6",
+  "key_kind": "url"
+ },
+ "https://ntrs.nasa.gov/citations/19630007882": {
+  "why": "A309: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A309",
+  "title": "COMMUNICATIONS SATELLITES NEWS RELEASE",
+  "key_kind": "url"
+ },
+ "https://ntrs.nasa.gov/citations/19660000080": {
+  "why": "A335: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A335",
+  "title": "Nylon shock absorber prevents injury to parachute jumpers",
+  "key_kind": "url"
+ },
+ "https://ntrs.nasa.gov/citations/19660002550": {
+  "why": "A309: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A309",
+  "title": "NASA to Launch Geodetic Satellite, First of Its Type",
+  "key_kind": "url"
+ },
+ "https://ntrs.nasa.gov/citations/19660021302": {
+  "why": "A303: INDEX OR LISTING. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A303",
+  "title": "Abstracts of digital computer code packages assembled by the Radiation Shielding Information Center",
+  "key_kind": "url"
+ },
+ "https://ntrs.nasa.gov/citations/19660022068": {
+  "why": "A309: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A309",
+  "title": "Lunar Orbiter Flight Set for August",
+  "key_kind": "url"
+ },
+ "https://ntrs.nasa.gov/citations/19660026038": {
+  "why": "A309: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A309",
+  "title": "U.S. to Launch Most Advanced Unmanned Spacecraft",
+  "key_kind": "url"
+ },
+ "https://ntrs.nasa.gov/citations/19760008143": {
+  "why": "A309: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A309",
+  "title": "Second INTELSAT IV-A communications satellite set for launch",
+  "key_kind": "url"
+ },
+ "https://ntrs.nasa.gov/citations/19780004168": {
+  "why": "A309: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A309",
+  "title": "Ariane is less costly than the space shuttle",
+  "key_kind": "url"
+ },
+ "https://ntrs.nasa.gov/citations/19780016311": {
+  "why": "A309: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A309",
+  "title": "NASA satellite to study earth's oceans from space",
+  "key_kind": "url"
+ },
+ "https://ntrs.nasa.gov/citations/19810015616": {
+  "why": "A309: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A309",
+  "title": "Intelsat satellite scheduled for launch",
+  "key_kind": "url"
+ },
+ "https://ntrs.nasa.gov/citations/19810016585": {
+  "why": "A309: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A309",
+  "title": "Improved NOAA satellite scheduled for launch",
+  "key_kind": "url"
+ },
+ "https://ntrs.nasa.gov/citations/19820004224": {
+  "why": "A309: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A309",
+  "title": "Third Intelsat 5 satellite scheduled for launch",
+  "key_kind": "url"
+ },
+ "https://ntrs.nasa.gov/citations/19830017471": {
+  "why": "A309: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A309",
+  "title": "Intelsat communications satellite scheduled for launch",
+  "key_kind": "url"
+ },
  "https://ntrs.nasa.gov/citations/19850016593": {
   "why": "dropped by reading the publication URL sweep, A323, off-subject",
   "article": "A323",
+  "key_kind": "url"
+ },
+ "https://ntrs.nasa.gov/citations/19900054112": {
+  "why": "A331: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A331",
+  "title": "U.S. liquid propulsion technology stands still",
+  "key_kind": "url"
+ },
+ "https://ntrs.nasa.gov/citations/19930003922": {
+  "why": "A368: PERIODIC REPORT OF AN ORGANISATION COVERING MANY PROJECTS. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A368",
+  "title": "NASA Aeronautics: Research and Technology Program Highlights",
+  "key_kind": "url"
+ },
+ "https://ntrs.nasa.gov/citations/19930081081": {
+  "why": "A316: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A316",
+  "title": "The \"Universal propeller\": built by Paragon Engineers, Inc., Baltimore, Md",
+  "key_kind": "url"
+ },
+ "https://ntrs.nasa.gov/citations/19930090621": {
+  "why": "A325: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A325",
+  "title": "The Rohrbach \"ROCCO:\" seaplane : new German commercial seaplane with two Rolls-Royce \"Condor\" engines",
+  "key_kind": "url"
+ },
+ "https://ntrs.nasa.gov/citations/19930090655": {
+  "why": "A325: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A325",
+  "title": "The Parnall \"Imp\": A New British Light Airplane",
+  "key_kind": "url"
+ },
+ "https://ntrs.nasa.gov/citations/19940022928": {
+  "why": "A297: INDEX OR LISTING. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A297",
+  "title": "Nasa Langley Research Center seventy-fifth anniversary publications, 1992",
   "key_kind": "url"
  },
  "https://ntrs.nasa.gov/citations/19990047711": {
   "title": "A Reassessment of Heavy-Duty Truck Aerodynamic Design Features and Priorities",
   "why": "heavy-duty truck aerodynamics; same author and same base-drag physics, different vehicle class",
   "article": "A321",
+  "key_kind": "url"
+ },
+ "https://ntrs.nasa.gov/citations/20000058133": {
+  "why": "A309: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A309",
+  "title": "Atlas Centaur 77 GOES-J Mated to Centaur at Cape Canaveral Air Station Complex 36B",
+  "key_kind": "url"
+ },
+ "https://ntrs.nasa.gov/citations/20000062727": {
+  "why": "A317: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A317",
+  "title": "TITAN III Launch Replays",
+  "key_kind": "url"
+ },
+ "https://ntrs.nasa.gov/citations/20000080110": {
+  "why": "A297: PERIODIC REPORT OF AN ORGANISATION COVERING MANY PROJECTS. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A297",
+  "title": "1999 Research Engineering Annual Report",
+  "key_kind": "url"
+ },
+ "https://ntrs.nasa.gov/citations/20020041255": {
+  "why": "A347: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A347",
+  "title": "Rotorcraft Aeromechanics Branch Home Page on the World Wide Web",
+  "key_kind": "url"
+ },
+ "https://ntrs.nasa.gov/citations/20040035796": {
+  "why": "A297: PERIODIC REPORT OF AN ORGANISATION COVERING MANY PROJECTS. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A297",
+  "title": "2000-2001 Research Engineering Annual Report",
+  "key_kind": "url"
+ },
+ "https://ntrs.nasa.gov/citations/20040111215": {
+  "why": "A297: PERIODIC REPORT OF AN ORGANISATION COVERING MANY PROJECTS. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A297",
+  "title": "2002 Research Engineering Annual Report",
+  "key_kind": "url"
+ },
+ "https://ntrs.nasa.gov/citations/20050019267": {
+  "why": "A368: PERIODIC REPORT OF AN ORGANISATION COVERING MANY PROJECTS. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A368",
+  "title": "Thirty-Ninth Annual Report of the National Advisory Committee for Aeronautics: Administrative Report Including Technical Reports Nos. 1111 to 1157",
   "key_kind": "url"
  },
  "https://ntrs.nasa.gov/citations/20050092391": {
@@ -949,9 +4268,123 @@
   "article": "A321",
   "key_kind": "url"
  },
+ "https://ntrs.nasa.gov/citations/20050198896": {
+  "why": "A297: PERIODIC REPORT OF AN ORGANISATION COVERING MANY PROJECTS. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A297",
+  "title": "2003 Research Engineering Annual Report",
+  "key_kind": "url"
+ },
+ "https://ntrs.nasa.gov/citations/20060056071": {
+  "why": "A297,A342: PERIODIC REPORT OF AN ORGANISATION COVERING MANY PROJECTS. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A342",
+  "title": "2004 Research Engineering Annual Report",
+  "key_kind": "url"
+ },
+ "https://ntrs.nasa.gov/citations/20080036809": {
+  "why": "A297,A368: PERIODIC REPORT OF AN ORGANISATION COVERING MANY PROJECTS. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A368",
+  "title": "Dryden Flight Research Highlights; August 2006 - July 2007",
+  "key_kind": "url"
+ },
  "https://ntrs.nasa.gov/citations/20130001702": {
   "why": "dropped by reading the selection, A322 primary pass, off-subject",
   "article": "A322",
+  "key_kind": "url"
+ },
+ "https://ntrs.nasa.gov/citations/20130011362": {
+  "why": "A357,A358: PERIODIC REPORT OF AN ORGANISATION COVERING MANY PROJECTS. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A357",
+  "title": "2006 NASA Range Safety Annual Report",
+  "key_kind": "url"
+ },
+ "https://ntrs.nasa.gov/citations/20130012051": {
+  "why": "A357,A358: PERIODIC REPORT OF AN ORGANISATION COVERING MANY PROJECTS. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A357",
+  "title": "NASA Range Safety Annual Report 2007",
+  "key_kind": "url"
+ },
+ "https://ntrs.nasa.gov/citations/20140000085": {
+  "why": "A317: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A317",
+  "title": "Heat Shield Paves the Way for Commercial Space",
+  "key_kind": "url"
+ },
+ "https://ntrs.nasa.gov/citations/20150016165": {
+  "why": "A309: PERIODIC REPORT OF AN ORGANISATION COVERING MANY PROJECTS. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A309",
+  "title": "George C. Marshall Space Flight Center Research and Technology Report 2014",
+  "key_kind": "url"
+ },
+ "https://ntrs.nasa.gov/citations/20160006390": {
+  "why": "A297,A368: PERIODIC REPORT OF AN ORGANISATION COVERING MANY PROJECTS. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A368",
+  "title": "Armstrong Flight Research Center Research Technology and Engineering Report 2015",
+  "key_kind": "url"
+ },
+ "https://ntrs.nasa.gov/citations/20180002831": {
+  "why": "A297,A368: PERIODIC REPORT OF AN ORGANISATION COVERING MANY PROJECTS. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A368",
+  "title": "Armstrong Flight Research Center Research Technology and Engineering 2017",
+  "key_kind": "url"
+ },
+ "https://ntrs.nasa.gov/citations/20200003055": {
+  "why": "A297,A368: PERIODIC REPORT OF AN ORGANISATION COVERING MANY PROJECTS. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A368",
+  "title": "Armstrong Flight Research Center Research, Technology & Engineering 2019",
+  "key_kind": "url"
+ },
+ "https://ntrs.nasa.gov/citations/20230001785": {
+  "why": "A303: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A303",
+  "title": "Radiation Shielding Plasma Sprayed Coatings Heads to International Space Station for MISSE-17 Experiments",
+  "key_kind": "url"
+ },
+ "https://ntrs.nasa.gov/citations/20240003091": {
+  "why": "A297,A368: PERIODIC REPORT OF AN ORGANISATION COVERING MANY PROJECTS. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A368",
+  "title": "NASA's Armstrong Flight Research Center Research, Technology, and Engineering Report",
+  "key_kind": "url"
+ },
+ "https://www.osti.gov/biblio/1483692": {
+  "why": "A303: MEETING NOTICE, PROGRAMME OR SESSION LISTING. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A303",
+  "title": "Fuel Cycle and Nuclear Technology Seminars for DOE/NE – Molten Salt Reactors",
+  "key_kind": "url"
+ },
+ "https://www.osti.gov/biblio/4115442": {
+  "why": "A303: INDEX OR LISTING. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A303",
+  "title": "LISTING OF ANP 704 COMPUTER PROGRAMS",
+  "key_kind": "url"
+ },
+ "https://www.osti.gov/biblio/4359971": {
+  "why": "A303: INDEX OR LISTING. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A303",
+  "title": "WHO'S WHO IN THE AIRCRAFT NUCLEAR PROGRAM",
+  "key_kind": "url"
+ },
+ "https://www.osti.gov/biblio/4476391": {
+  "why": "A303: BARE CONFERENCE OR MEETING RECORD WITH NO CONTENT OF ITS OWN. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A303",
+  "title": "INTERNATIONAL CONFERENCE ON THE PHYSICAL PROBLEMS OF REACTOR SHIELDING.",
+  "key_kind": "url"
+ },
+ "https://www.osti.gov/biblio/4657967": {
+  "why": "A303: BARE CONFERENCE OR MEETING RECORD WITH NO CONTENT OF ITS OWN. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A303",
+  "title": "CONFERENCE ON NUCLEAR PROPULSION, MONTEREY, CALIFORNIA, AUGUST 16, 1962",
+  "key_kind": "url"
+ },
+ "https://www.osti.gov/biblio/4739927": {
+  "why": "A303: NEWS OR TRADE ITEM, NOT A RESEARCH WORK. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A303",
+  "title": "FIRST GERMAN SHIP WITH NUCLEAR PROPULSION",
+  "key_kind": "url"
+ },
+ "https://www.osti.gov/biblio/5920397": {
+  "why": "A303: BARE CONFERENCE OR MEETING RECORD WITH NO CONTENT OF ITS OWN. Removed under the pilot's inclusion rule of 19 October 2026 (Jev screen and coordinator reading); not article-relative",
+  "article": "A303",
+  "title": "Proceedings of the NEANDC topical conference on measurements and evaluations of nuclear data and decay heat for fission products",
   "key_kind": "url"
  },
  "research_5th_colloquium_1982": {

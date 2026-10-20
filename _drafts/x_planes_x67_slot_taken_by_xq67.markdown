@@ -2066,18 +2066,18 @@ design number can be chosen rather than measured.
 | Product families | 298 | product families and platforms, platform-based design, mass customisation, software product lines |
 | Modularity | 161 | modular product architecture, design structure matrices, the theory of modularity, dominant designs |
 | Open architecture | 47 | the modular open systems approach, open architectures in defence acquisition, integrated modular avionics |
-| Cost of variety | 57 | learning curves, cost-estimating relationships and cost growth, economies of scope, the cost of variety |
+| Cost of variety | 56 | learning curves, cost-estimating relationships and cost growth, economies of scope, the cost of variety |
 | Flexibility | 28 | real options in engineering design, technology insertion, obsolescence and diminishing manufacturing sources |
 | Crewed and uncrewed teaming | 81 | manned-unmanned teaming, collaborative combat aircraft, unmanned air combat |
 | Attritability | 4 | attritable, low-cost and semi-expendable unmanned aircraft |
 | Autonomy | 14 | autonomy architecture, human-autonomy teaming and trust, tactical datalinks, interoperability |
-| Configuration identification and nomenclature | 60 | configuration identification and management, engineering change, nomenclature standards |
-| Identifiers | 68 | persistent identifiers, the digital object identifier, object identifier registries, namespaces, semantic versioning |
+| Configuration identification and nomenclature | 59 | configuration identification and management, engineering change, nomenclature standards |
+| Identifiers | 63 | persistent identifiers, the digital object identifier, object identifier registries, namespaces, semantic versioning |
 | Numerical taxonomy | 24 | the method and theory of numerical taxonomy |
 | Unmanned aircraft design | 19 | conceptual design and sizing of unmanned aircraft |
 | Demonstrators | 24 | X-plane and other flight demonstrators, rapid acquisition, technology readiness levels |
-| Digital engineering | 25 | model-based systems engineering, virtual prototyping, digital twins, requirements engineering |
-| **Total** | **1,117** | |
+| Digital engineering | 24 | model-based systems engineering, virtual prototyping, digital twins, requirements engineering |
+| **Total** | **1,109** | |
 
 **This article's literature is not an aeronautical literature and that is the most useful thing the
 survey shows.** The X-67 is a number, the aeroplane that consumed it was built to prove a method of
@@ -2086,7 +2086,7 @@ product families, component commonality and modular architecture. **That literat
 engineering and management science, which is why most of the survey comes from a journal index rather
 than from a report archive.**
 
-**The survey's 1,117 research records fall across fifteen clusters, one cluster to each record.** A
+**The survey's 1,109 research records fall across fifteen clusters, one cluster to each record.** A
 record's title is matched against the characteristic phrases of every cluster, and the record is filed in
 the first cluster in table order whose phrases its title contains, except two titles on product-line
 requirements engineering, which the requirements phrase alone would file under digital engineering and
@@ -2097,7 +2097,7 @@ $$
 \bar{m} \;=\; \frac{1}{K} \sum_{c} \lvert \mathcal{K}_c \rvert
 $$
 
-**That is 1.0645 clusters per record across 1,189 matches, and 72 titles match
+**That is 1.0649 clusters per record across 1,181 matches, and 72 titles match
 two.** A mean barely above one says the clusters are nearly disjoint, **which is a property of the
 admission rule rather than of the field**, since each cluster admits on compound nouns the others do not
 use.
@@ -2105,7 +2105,7 @@ use.
 **The shape of that table is the article's subject restated.** The three largest clusters are
 product families at 298, commonality at 207 and modularity at
 161, which together are the engineering literature of when a thing is a new thing. **The
-configuration identification and identifier clusters, at 60 and 68, are the
+configuration identification and identifier clusters, at 59 and 63, are the
 literature of how engineered items and records are identified and named.** The numerical taxonomy cluster
 at 24 is the literature of classifying at all.
 
@@ -2159,9 +2159,9 @@ survey's research records in 1962**, with a compilation of aerodynamic nomenclat
 
 ### Cost of variety
 
-**What it costs to make an aircraft, and to make several kinds.** Cost-estimating relationships for aircraft, cost growth in defence acquisition, economies of scope and the cost of variety, and 33 titles on the learning curve on which the unit-cost derivation above rests.
+**What it costs to make an aircraft, and to make several kinds.** Cost-estimating relationships for aircraft, cost growth in defence acquisition, economies of scope and the cost of variety, and 32 titles on the learning curve on which the unit-cost derivation above rests.
 
-**57 records.** \[[Aircraft Cost Considerations 2010][research_aircraft_cost_2010]\] \[[Asher and Maggelet 1980][research_asher_maggelet_1980]\] \[[Asher and Shafer 1985][research_asher_shafer_1985]\] \[[Attia et al 2016][research_attia_megahed_2016]\] \[[Badiru 2021][research_badiru_2021]\] \[[Beltramo and Anderson 1977][research_beltramomn_andersonjl_1977]\] \[[Beltramo et al 1979][research_beltramomn_morrisma_1979]\] \[[Buciak et al 2013][research_buciak_sancet_2013]\] \[[Camm et al 1987][research_camm_evans_1987]\] \[[Chatzimichali and Tourassis 2008][research_chatzimichali_tourassis_2008]\] \[[Cody and Tiedje 1996][research_cody_tiedje_1996]\] \[[Cody and Tiedje 1997][research_cody_tiedje_1997]\] \[[Cost-Estimating Relationships for Aircraft 1972][research_cost_estimating_relationships_1972]\] \[[Cui and Weston 2010][research_cui_weston_2010]\] \[[Cunningham 1980][research_cunningham_1980]\] \[[Curtis 1987][research_curtis_1987]\] \[[Donath et al 1981][research_donath_globerson_1981]\] \[[Ettlie and Penner-Hahn 1994][research_ettlie_pennerhahn_1994]\] \[[Gansler et al 2010][research_gansler_lucyshyn_2010]\] \[[Gray 1979][research_graydw_1979]\] \[[Gruber 1992][research_gruber_1992]\] \[[Gruber 1994][research_gruber_1994]\] \[[Guangming Chen and McLennan][research_guangmingchen_mclennan]\] \[[Gudmundsson 2014][research_gudmundsson_2014]\] \[[Gudmundsson 2022][research_gudmundsson_2022]\] \[[Harofteh and Saljooghi 2023][research_harofteh_saljooghi_2023]\] \[[Hogan et al 2020][research_hogan_elshaw_2020]\] \[[Hogan et al 2022][research_hogan_elshaw_2022]\] \[[Horowitz et al 2014][research_horowitz_harmon_2014]\] \[[Jones 2018][research_jones_2018]\] \[[Kim and Lee 2018][research_kim_lee_2018]\] \[[Kneece et al 2014][research_kneece_rr_2014]\] \[[Learning Curves Production Breaks/Lost 2015][research_learning_curves_2015]\] \[[Learning Curves Production Breaks/Lost 2026][research_learning_curves_2026]\] \[[Lu et al 2008][research_lu_petersen_2008]\] \[[Lundberg 1956][research_lundberg_1956]\] \[[Majd and Pindyck 1987][research_majd_pindyck_1987]\] \[[Mazzola and McCardle 1997][research_mazzola_mccardle_1997]\] \[[McClure 1977][research_mcclure_1977]\] \[[McNicol and Wu 2014][research_mcnicol_wu_2014]\] \[[Myrodia et al 2021][research_myrodia_hvam_2021]\] \[[Nemet 2006][research_nemet_2006]\] \[[Pananiswami and Bishop 1991][research_pananiswami_bishop_1991]\] \[[Parrish 1978][research_parrish_jr_1978]\] \[[Pedersen and Slepniov 2016][research_pedersen_slepniov_2016]\] \[[Pindyck and Majd 1996][research_pindyck_majd_1996]\] \[[Ridder 2024][research_ridder_2024]\] \[[Smunt 1999][research_smunt_1999]\] \[[Smunt 2011][research_smunt_2011]\] \[[Sokri and Ghanmi 2017][research_sokri_ghanmi_2017]\] \[[Stahl et al 1984][research_stahl_arena_1984]\] \[[Teng et al 2014][research_teng_lou_2014]\] \[[Towill 1985][research_towill_1985]\] \[[Using the Learning Curve 2010][research_using_the_2010]\] \[[Why do Aircraft Cost][research_why_do]\] \[[Why do aircraft cost 1999][research_why_do_1999]\] \[[Wong 2013][research_wong_2013]\]
+**56 records.** \[[Aircraft Cost Considerations 2010][research_aircraft_cost_2010]\] \[[Asher and Maggelet 1980][research_asher_maggelet_1980]\] \[[Asher and Shafer 1985][research_asher_shafer_1985]\] \[[Attia et al 2016][research_attia_megahed_2016]\] \[[Badiru 2021][research_badiru_2021]\] \[[Beltramo and Anderson 1977][research_beltramomn_andersonjl_1977]\] \[[Beltramo et al 1979][research_beltramomn_morrisma_1979]\] \[[Camm et al 1987][research_camm_evans_1987]\] \[[Chatzimichali and Tourassis 2008][research_chatzimichali_tourassis_2008]\] \[[Cody and Tiedje 1996][research_cody_tiedje_1996]\] \[[Cody and Tiedje 1997][research_cody_tiedje_1997]\] \[[Cost-Estimating Relationships for Aircraft 1972][research_cost_estimating_relationships_1972]\] \[[Cui and Weston 2010][research_cui_weston_2010]\] \[[Cunningham 1980][research_cunningham_1980]\] \[[Curtis 1987][research_curtis_1987]\] \[[Donath et al 1981][research_donath_globerson_1981]\] \[[Ettlie and Penner-Hahn 1994][research_ettlie_pennerhahn_1994]\] \[[Gansler et al 2010][research_gansler_lucyshyn_2010]\] \[[Gray 1979][research_graydw_1979]\] \[[Gruber 1992][research_gruber_1992]\] \[[Gruber 1994][research_gruber_1994]\] \[[Guangming Chen and McLennan][research_guangmingchen_mclennan]\] \[[Gudmundsson 2014][research_gudmundsson_2014]\] \[[Gudmundsson 2022][research_gudmundsson_2022]\] \[[Harofteh and Saljooghi 2023][research_harofteh_saljooghi_2023]\] \[[Hogan et al 2020][research_hogan_elshaw_2020]\] \[[Hogan et al 2022][research_hogan_elshaw_2022]\] \[[Horowitz et al 2014][research_horowitz_harmon_2014]\] \[[Jones 2018][research_jones_2018]\] \[[Kim and Lee 2018][research_kim_lee_2018]\] \[[Kneece et al 2014][research_kneece_rr_2014]\] \[[Learning Curves Production Breaks/Lost 2015][research_learning_curves_2015]\] \[[Learning Curves Production Breaks/Lost 2026][research_learning_curves_2026]\] \[[Lu et al 2008][research_lu_petersen_2008]\] \[[Lundberg 1956][research_lundberg_1956]\] \[[Majd and Pindyck 1987][research_majd_pindyck_1987]\] \[[Mazzola and McCardle 1997][research_mazzola_mccardle_1997]\] \[[McClure 1977][research_mcclure_1977]\] \[[McNicol and Wu 2014][research_mcnicol_wu_2014]\] \[[Myrodia et al 2021][research_myrodia_hvam_2021]\] \[[Nemet 2006][research_nemet_2006]\] \[[Pananiswami and Bishop 1991][research_pananiswami_bishop_1991]\] \[[Parrish 1978][research_parrish_jr_1978]\] \[[Pedersen and Slepniov 2016][research_pedersen_slepniov_2016]\] \[[Pindyck and Majd 1996][research_pindyck_majd_1996]\] \[[Ridder 2024][research_ridder_2024]\] \[[Smunt 1999][research_smunt_1999]\] \[[Smunt 2011][research_smunt_2011]\] \[[Sokri and Ghanmi 2017][research_sokri_ghanmi_2017]\] \[[Stahl et al 1984][research_stahl_arena_1984]\] \[[Teng et al 2014][research_teng_lou_2014]\] \[[Towill 1985][research_towill_1985]\] \[[Using the Learning Curve 2010][research_using_the_2010]\] \[[Why do Aircraft Cost][research_why_do]\] \[[Why do aircraft cost 1999][research_why_do_1999]\] \[[Wong 2013][research_wong_2013]\]
 
 ### Flexibility
 
@@ -2191,13 +2191,13 @@ survey's research records in 1962**, with a compilation of aerodynamic nomenclat
 
 **How engineered items and their records are identified and named.** 53 of these titles name configuration identification, management or control, and the rest concern engineering change and the nomenclature standards of engineering disciplines. **No title in the survey names a designation system**, so the nearest engineering literature to the register is the practice of identifying configurations, as the section headed Thin Subjects records.
 
-**60 records.** \[[Appendix 1 Standard nomenclature 2019][research_appendix_1_2019]\] \[[Barkstrom 2003][research_barkstrom_2003]\] \[[Bright et al 1993][research_bright_humber_1993]\] \[[Buckle 1982][research_buckle_1982]\] \[[Calvo-Manzano et al 2001][research_calvomanzano_garcia_2001]\] \[[Carnduff 2004][research_carnduff_2004]\] \[[Change Control and Configuration 2008][research_change_control_2008]\] \[[Change Control and Configuration 2023][research_change_control_2023]\] \[[Change management, configuration management 2018][research_change_management_2018]\] \[[Colston 1998][research_colston_1998]\] \[[Configuration Identification][research_configuration_identification]\] \[[Configuration Identification 1995][research_configuration_identification_1995]\] \[[Configuration Identification 2004][research_configuration_identification_2004]\] \[[Configuration Identification 2004][research_configuration_identification_2004_b]\] \[[Configuration Identification for Digital][research_configuration_identification_b]\] \[[Configuration Management and Software 2004][research_configuration_management_2004]\] \[[Configuration Management Identification 2007][research_configuration_management_2007]\] \[[Configuration-Management][research_configuration_management]\] \[[Dart 1992][research_dart_1992]\] \[[Department Of Defense Washington Dc 1993][research_departmentofdefensewashingtondc_1993]\] \[[Dunleavy 1988][research_dunleavy_1988]\] \[[Fabry 1980][research_fabry_1980]\] \[[Feiler and Downey 1990][research_feiler_downey_1990]\] \[[Fonder and Headley 2013][research_fonder_headley_2013]\] \[[Harvey 1986][research_harvey_1986]\] \[[Hoek et al 1995][research_hoek_heimbigner_1995]\] \[[Hoek et al 1998][research_hoek_carzaniga_1998]\] \[[Hoek et al 1998][research_hoek_heimbigner_1998]\] \[[Hoek et al 1998][research_hoek_heimbigner_1998_b]\] \[[Hood 1987][research_hood_1987]\] \[[How Configuration Identification Works 2004][research_how_configuration_2004]\] \[[Joeris 1997][research_joeris_1997]\] \[[Jucevic 1978][research_jucevic_1978]\] \[[Kögel 2008][research_kogel_2008]\] \[[Kölmel and Eisenbiegler 2001][research_kolmel_eisenbiegler_2001]\] \[[MacKay 1996][research_mackay_1996]\] \[[Martinis 1990][research_martinis_1990]\] \[[Masmoudi et al 2017][research_masmoudi_leclaire_2017]\] \[[Mathur and Jain 2011][research_mathur_jain_2011]\] \[[Mehmood et al 2013][research_mehmood_shah_2013]\] \[[Missouri Univ-Rolla 1988][research_missouriunivrolla_1988]\] \[[Nomenclature and symbols inchemical 1980][research_nomenclature_and_1980]\] \[[Piligian et al 1968][research_piligian_bashaw_1968]\] \[[Programme Management. Configuration Management][research_programme_management]\] \[[Quantick 2001][research_quantick_2001]\] \[[Searle 1977][research_searle_1977]\] \[[Sligh et al 2002][research_sligh_wong_2002]\] \[[Smith and Wandelt 1991][research_smith_wandelt_1991]\] \[[System Configuration Identification 2005][research_system_configuration_2005]\] \[[Tang et al 2017][research_tang_yin_2017_b]\] \[[Tate 1998][research_tate_1998]\] \[[Tichy 2001][research_tichy_2001]\] \[[Tomayko 1986][research_tomayko_1986]\] \[[Tomayko 1990][research_tomayko_1990]\] \[[Transportation Systems Center Cambridge Ma 1989][research_transportationsystemscentercambridgema_1989]\] \[[Vines 1989][research_vines_1989]\] \[[Wagner and Foster 1990][research_wagner_foster_1990]\] \[[Wallnau 1992][research_wallnau_1992]\] \[[Wright 1962][research_wright_1962]\] \[[Young 1989][research_young_1989]\]
+**59 records.** \[[Appendix 1 Standard nomenclature 2019][research_appendix_1_2019]\] \[[Barkstrom 2003][research_barkstrom_2003]\] \[[Bright et al 1993][research_bright_humber_1993]\] \[[Buckle 1982][research_buckle_1982]\] \[[Calvo-Manzano et al 2001][research_calvomanzano_garcia_2001]\] \[[Carnduff 2004][research_carnduff_2004]\] \[[Change Control and Configuration 2008][research_change_control_2008]\] \[[Change Control and Configuration 2023][research_change_control_2023]\] \[[Change management, configuration management 2018][research_change_management_2018]\] \[[Colston 1998][research_colston_1998]\] \[[Configuration Identification][research_configuration_identification]\] \[[Configuration Identification 1995][research_configuration_identification_1995]\] \[[Configuration Identification 2004][research_configuration_identification_2004]\] \[[Configuration Identification 2004][research_configuration_identification_2004_b]\] \[[Configuration Identification for Digital][research_configuration_identification_b]\] \[[Configuration Management and Software 2004][research_configuration_management_2004]\] \[[Configuration Management Identification 2007][research_configuration_management_2007]\] \[[Configuration-Management][research_configuration_management]\] \[[Dart 1992][research_dart_1992]\] \[[Department Of Defense Washington Dc 1993][research_departmentofdefensewashingtondc_1993]\] \[[Dunleavy 1988][research_dunleavy_1988]\] \[[Fabry 1980][research_fabry_1980]\] \[[Feiler and Downey 1990][research_feiler_downey_1990]\] \[[Fonder and Headley 2013][research_fonder_headley_2013]\] \[[Harvey 1986][research_harvey_1986]\] \[[Hoek et al 1995][research_hoek_heimbigner_1995]\] \[[Hoek et al 1998][research_hoek_carzaniga_1998]\] \[[Hoek et al 1998][research_hoek_heimbigner_1998]\] \[[Hoek et al 1998][research_hoek_heimbigner_1998_b]\] \[[Hood 1987][research_hood_1987]\] \[[How Configuration Identification Works 2004][research_how_configuration_2004]\] \[[Joeris 1997][research_joeris_1997]\] \[[Jucevic 1978][research_jucevic_1978]\] \[[Kögel 2008][research_kogel_2008]\] \[[Kölmel and Eisenbiegler 2001][research_kolmel_eisenbiegler_2001]\] \[[MacKay 1996][research_mackay_1996]\] \[[Martinis 1990][research_martinis_1990]\] \[[Masmoudi et al 2017][research_masmoudi_leclaire_2017]\] \[[Mathur and Jain 2011][research_mathur_jain_2011]\] \[[Mehmood et al 2013][research_mehmood_shah_2013]\] \[[Missouri Univ-Rolla 1988][research_missouriunivrolla_1988]\] \[[Piligian et al 1968][research_piligian_bashaw_1968]\] \[[Programme Management. Configuration Management][research_programme_management]\] \[[Quantick 2001][research_quantick_2001]\] \[[Searle 1977][research_searle_1977]\] \[[Sligh et al 2002][research_sligh_wong_2002]\] \[[Smith and Wandelt 1991][research_smith_wandelt_1991]\] \[[System Configuration Identification 2005][research_system_configuration_2005]\] \[[Tang et al 2017][research_tang_yin_2017_b]\] \[[Tate 1998][research_tate_1998]\] \[[Tichy 2001][research_tichy_2001]\] \[[Tomayko 1986][research_tomayko_1986]\] \[[Tomayko 1990][research_tomayko_1990]\] \[[Transportation Systems Center Cambridge Ma 1989][research_transportationsystemscentercambridgema_1989]\] \[[Vines 1989][research_vines_1989]\] \[[Wagner and Foster 1990][research_wagner_foster_1990]\] \[[Wallnau 1992][research_wallnau_1992]\] \[[Wright 1962][research_wright_1962]\] \[[Young 1989][research_young_1989]\]
 
 ### Identifiers
 
-**How registries allocate, define and keep names.** 27 of these titles concern persistent identifiers and 16 concern versioning schemes, together with the digital object identifier, object identifier registries, uniform resource name namespaces and the Legal Entity Identifier.
+**How registries allocate, define and keep names.** 23 of these titles concern persistent identifiers and 16 concern versioning schemes, together with the digital object identifier, object identifier registries, uniform resource name namespaces and the Legal Entity Identifier.
 
-**68 records.** \[[Aghassibake et al 2023][research_aghassibake_castello_2023]\] \[[Ajibode et al 2025][research_ajibode_bangash_2025]\] \[[Bangert and Frances 2017][research_bangert_frances_2017]\] \[[Bellini et al 2014][research_bellini_bergamin_2014]\] \[[Bellur and Vallieswaran 2006][research_bellur_v_2006]\] \[[Berber and Yahyapour 2017][research_berber_yahyapour_2017]\] \[[Carvalho 2023][research_carvalho_2023]\] \[[Ceravolo and Bellini 2010][research_ceravolo_bellini_2010]\] \[[Chan and Milne 2013][research_chan_milne_2013]\] \[[Chandrakar 2006][research_chandrakar_2006]\] \[[Chen et al 2019][research_chen_liu_2019]\] \[[Cox 2008][research_cox_2008]\] \[[Dappert et al 2017][research_dappert_farquhar_2017]\] \[[Decan and Mens 2021][research_decan_mens_2021]\] \[[Digital Object Identifier DOI® 2009][research_digital_object_2009]\] \[[Digital Object Identifier DOI® 2011][research_digital_object_2011]\] \[[Digital Object Identifier system][research_digital_object]\] \[[DIN 31646 2013-01, Information und][research_din_31646]\] \[[Golovachev 2026][research_golovachev_2026]\] \[[Hamilton 2002][research_hamilton_2002]\] \[[Hardisty et al 2021][research_hardisty_addink_2021]\] \[[Herb 2021][research_herb_2021]\] \[[Hewlett 2016][research_hewlett_2016]\] \[[Hewlett 2017][research_hewlett_2017]\] \[[Hoffman 2010][research_hoffman_2010]\] \[[Housley 2013][research_housley_2013]\] \[[Housley 2014][research_housley_2014]\] \[[Housley 2014][research_housley_2014_b]\] \[[Housley 2021][research_housley_2021]\] \[[Iman 2025][research_iman_2025]\] \[[IMF Participation in the 2013][research_imf_participation_2013]\] \[[Information and documentation. Digital][research_information_and]\] \[[Information technology -- Procedures][research_information_technology]\] \[[Islam et al 2022][research_islam_theocharides_2022]\] \[[Kennickell 2016][research_kennickell_2016]\] \[[Kim and Park 2004][research_kim_park_2004]\] \[[Lam et al 2020][research_lam_dietrich_2020]\] \[[Lehnert et al 2019][research_lehnert_klump_2019]\] \[[Lemieux 2014][research_lemieux_2014]\] \[[Lemieux 2016][research_lemieux_2016]\] \[[Li et al 2023][research_li_wu_2023]\] \[[Luo et al 2015][research_luo_zhang_2015]\] \[[Milne and Chan 2019][research_milne_chan_2019]\] \[[Nasrullah et al 2025][research_nasrullah_gondomono_2025]\] \[[Ochoa et al 2022][research_ochoa_degueule_2022]\] \[[Opdebeeck et al 2021][research_opdebeeck_zerouali_2021]\] \[[Paglialonga and Schirnick 2020][research_paglialonga_schirnick_2020]\] \[[Panter et al 2025][research_panter_hindman_2025]\] \[[Paskin 1999][research_paskin_1999]\] \[[Pentz 2017][research_pentz_2017]\] \[[PID Service an 2015][research_pid_service_2015]\] \[[Pinckney et al 2023][research_pinckney_cassano_2023]\] \[[Raemaekers et al 2017][research_raemaekers_vandeursen_2017]\] \[[Rzepa 2018][research_rzepa_2018]\] \[[Rzepa 2020][research_rzepa_2020]\] \[[Rzepa 2020][research_rzepa_2020_b]\] \[[Rzepa 2023][research_rzepa_2023]\] \[[Rzepa 2023][research_rzepa_2023_b]\] \[[Schmitt et al 2015][research_schmitt_majchrzak_2015]\] \[[Sharan 2019][research_sharan_2019]\] \[[Thompson and Tong 2018][research_thompson_tong_2018]\] \[[van Veenendaal 2023][research_vanveenendaal_2023]\] \[[Wang et al 2008][research_wang_zhang_2008]\] \[[Wang et al 2017][research_wang_car_2017]\] \[[Weigel et al 2014][research_weigel_kindermann_2014]\] \[[Yun 2019][research_yun_2019]\] \[[Zhang et al 2022][research_zhang_liu_2022]\] \[[Ziedorn 2020][research_ziedorn_2020]\]
+**63 records.** \[[Aghassibake et al 2023][research_aghassibake_castello_2023]\] \[[Ajibode et al 2025][research_ajibode_bangash_2025]\] \[[Bangert and Frances 2017][research_bangert_frances_2017]\] \[[Bellini et al 2014][research_bellini_bergamin_2014]\] \[[Bellur and Vallieswaran 2006][research_bellur_v_2006]\] \[[Berber and Yahyapour 2017][research_berber_yahyapour_2017]\] \[[Carvalho 2023][research_carvalho_2023]\] \[[Ceravolo and Bellini 2010][research_ceravolo_bellini_2010]\] \[[Chan and Milne 2013][research_chan_milne_2013]\] \[[Chandrakar 2006][research_chandrakar_2006]\] \[[Chen et al 2019][research_chen_liu_2019]\] \[[Cox 2008][research_cox_2008]\] \[[Dappert et al 2017][research_dappert_farquhar_2017]\] \[[Decan and Mens 2021][research_decan_mens_2021]\] \[[Digital Object Identifier DOI® 2009][research_digital_object_2009]\] \[[Digital Object Identifier DOI® 2011][research_digital_object_2011]\] \[[Digital Object Identifier system][research_digital_object]\] \[[DIN 31646 2013-01, Information und][research_din_31646]\] \[[Golovachev 2026][research_golovachev_2026]\] \[[Hamilton 2002][research_hamilton_2002]\] \[[Hardisty et al 2021][research_hardisty_addink_2021]\] \[[Herb 2021][research_herb_2021]\] \[[Hewlett 2016][research_hewlett_2016]\] \[[Hewlett 2017][research_hewlett_2017]\] \[[Hoffman 2010][research_hoffman_2010]\] \[[Housley 2013][research_housley_2013]\] \[[Housley 2014][research_housley_2014]\] \[[Housley 2014][research_housley_2014_b]\] \[[Housley 2021][research_housley_2021]\] \[[Iman 2025][research_iman_2025]\] \[[IMF Participation in the 2013][research_imf_participation_2013]\] \[[Information and documentation. Digital][research_information_and]\] \[[Information technology -- Procedures][research_information_technology]\] \[[Islam et al 2022][research_islam_theocharides_2022]\] \[[Kennickell 2016][research_kennickell_2016]\] \[[Kim and Park 2004][research_kim_park_2004]\] \[[Lam et al 2020][research_lam_dietrich_2020]\] \[[Lehnert et al 2019][research_lehnert_klump_2019]\] \[[Lemieux 2014][research_lemieux_2014]\] \[[Lemieux 2016][research_lemieux_2016]\] \[[Li et al 2023][research_li_wu_2023]\] \[[Luo et al 2015][research_luo_zhang_2015]\] \[[Milne and Chan 2019][research_milne_chan_2019]\] \[[Nasrullah et al 2025][research_nasrullah_gondomono_2025]\] \[[Ochoa et al 2022][research_ochoa_degueule_2022]\] \[[Opdebeeck et al 2021][research_opdebeeck_zerouali_2021]\] \[[Paglialonga and Schirnick 2020][research_paglialonga_schirnick_2020]\] \[[Panter et al 2025][research_panter_hindman_2025]\] \[[Paskin 1999][research_paskin_1999]\] \[[PID Service an 2015][research_pid_service_2015]\] \[[Pinckney et al 2023][research_pinckney_cassano_2023]\] \[[Raemaekers et al 2017][research_raemaekers_vandeursen_2017]\] \[[Rzepa 2018][research_rzepa_2018]\] \[[Schmitt et al 2015][research_schmitt_majchrzak_2015]\] \[[Sharan 2019][research_sharan_2019]\] \[[Thompson and Tong 2018][research_thompson_tong_2018]\] \[[van Veenendaal 2023][research_vanveenendaal_2023]\] \[[Wang et al 2008][research_wang_zhang_2008]\] \[[Wang et al 2017][research_wang_car_2017]\] \[[Weigel et al 2014][research_weigel_kindermann_2014]\] \[[Yun 2019][research_yun_2019]\] \[[Zhang et al 2022][research_zhang_liu_2022]\] \[[Ziedorn 2020][research_ziedorn_2020]\]
 
 ### Numerical taxonomy
 
@@ -2221,7 +2221,7 @@ survey's research records in 1962**, with a compilation of aerodynamic nomenclat
 
 **Engineering a system through its models.** Model-based systems engineering, virtual prototyping, digital twins and requirements engineering.
 
-**25 records.** \[[Alexandru 2020][research_alexandru_2020]\] \[[Assef and Geiger 2023][research_assef_geiger_2023]\] \[[Black et al 1990][research_black_davis_1990]\] \[[Black et al 1990][research_black_davis_1990_b]\] \[[Blackburn 2014][research_blackburn_2014]\] \[[Blackburn et al 2014][research_blackburn_cloutier_2014]\] \[[Bonanne 2011][research_bonannekevinh_2011]\] \[[Darpel et al 2019][research_darpelscott_beckmansean_2019]\] \[[Dougal and Monti 2011][research_dougal_monti_2011]\] \[[Eckert 2006][research_eckert_2006]\] \[[Crues][research_edwinzcrues]\] \[[Ewing 2022][research_ewing_2022]\] \[[Garcia et al 1994][research_garcia_gocke_1994]\] \[[Hanratty et al 1999][research_hanratty_lightsey_1999]\] \[[Holt and McNeillis 2007][research_holt_mcneillis_2007]\] \[[Hwang et al 2022][research_hwang_mazzuchi_2022]\] \[[Quinlan][research_jessequinlan]\] \[[Krishnan et al 1995][research_krishnan_lowry_1995]\] \[[Mead 2003][research_mead_2003]\] \[[Orhan et al 2026][research_orhan_candan_2026]\] \[[Ortiz 1992][research_ortiz_1992]\] \[[Ozkaya and Turunc 2025][research_ozkaya_turunc_2025]\] \[[Patria 2013][research_patria_2013]\] \[[Wallace et al 2001][research_wallace_winters_2001]\] \[[Young et al 2004][research_young_kierzewski_2004]\]
+**24 records.** \[[Alexandru 2020][research_alexandru_2020]\] \[[Assef and Geiger 2023][research_assef_geiger_2023]\] \[[Black et al 1990][research_black_davis_1990]\] \[[Black et al 1990][research_black_davis_1990_b]\] \[[Blackburn 2014][research_blackburn_2014]\] \[[Blackburn et al 2014][research_blackburn_cloutier_2014]\] \[[Bonanne 2011][research_bonannekevinh_2011]\] \[[Darpel et al 2019][research_darpelscott_beckmansean_2019]\] \[[Dougal and Monti 2011][research_dougal_monti_2011]\] \[[Eckert 2006][research_eckert_2006]\] \[[Crues][research_edwinzcrues]\] \[[Ewing 2022][research_ewing_2022]\] \[[Garcia et al 1994][research_garcia_gocke_1994]\] \[[Hanratty et al 1999][research_hanratty_lightsey_1999]\] \[[Holt and McNeillis 2007][research_holt_mcneillis_2007]\] \[[Hwang et al 2022][research_hwang_mazzuchi_2022]\] \[[Quinlan][research_jessequinlan]\] \[[Mead 2003][research_mead_2003]\] \[[Orhan et al 2026][research_orhan_candan_2026]\] \[[Ortiz 1992][research_ortiz_1992]\] \[[Ozkaya and Turunc 2025][research_ozkaya_turunc_2025]\] \[[Patria 2013][research_patria_2013]\] \[[Wallace et al 2001][research_wallace_winters_2001]\] \[[Young et al 2004][research_young_kierzewski_2004]\]
 
 ## Where the Framing Breaks Down
 
@@ -2261,14 +2261,14 @@ written to answer the question this article asks.**
 
 **The research survey draws on three archives, being the National Aeronautics and Space Administration's
 Technical Reports Server, the Defense Technical Information Center and the Crossref bibliographic index,
-called below the reports server, the defence registry and the bibliographic index.** It holds 1,117
-research records, being 1,113 from those archives and four hand-written theory sources, of
-which 131 are report primaries, being 11.7 percent, by the identifier rule set out under
-The Definition of Primary. **The median publication year is 2011.** Of the 1,070 dated
-records, 376 were published in 2015 or later, being 35.1 percent, and 183 before
+called below the reports server, the defence registry and the bibliographic index.** It holds 1,109
+research records, being 1,105 from those archives and four hand-written theory sources, of
+which 130 are report primaries, being 11.7 percent, by the identifier rule set out under
+The Definition of Primary. **The median publication year is 2011.** Of the 1,062 dated
+records, 371 were published in 2015 or later, being 34.9 percent, and 181 before
 2000, and the range runs from 1900 to 2026.
 
-**The reference base as a whole is 1,203 definitions and it partitions four ways.**
+**The reference base as a whole is 1,195 definitions and it partitions four ways.**
 
 $$
 \lvert \mathcal{B} \rvert \;=\; \lvert \mathcal{B}_{\mathrm{prim}} \rvert
@@ -2279,8 +2279,8 @@ $$
 
 **Nineteen are hand-written references to the register, the instructions, the
 releases, the award record and the trade press, two of which the list marks as secondary, four are
-hand-written theory sources, 67 are the prior articles of this series, and 1,113 are research
-records from the three archives.** **Of the 1,117 research records the 986 that are not reports carry
+hand-written theory sources, 67 are the prior articles of this series, and 1,105 are research
+records from the three archives.** **Of the 1,109 research records the 979 that are not reports carry
 bibliographic-index identifiers**, which is the proportion the subject dictates rather than a choice.
 
 ### The Reports Server Holds Almost None of This
@@ -2376,8 +2376,8 @@ $$
 \varpi \;=\; \frac{K_{\mathrm{reports}} + K_{\mathrm{defence}}}{K}
 $$
 
-Of the 1,117 research records, 131 are reports held by the reports server or the defence registry, so
-$\varpi$ is **11.7 percent**, split 37 from the reports server and 94 from the
+Of the 1,109 research records, 130 are reports held by the reports server or the defence registry, so
+$\varpi$ is **11.7 percent**, split 37 from the reports server and 93 from the
 defence registry. **The rule does not reach the documents this article actually rests on**, being the
 register, the instructions and the releases, which are hand-written references rather than research
 records, so the share describes the survey and not the article's evidence about the X-67.
@@ -2386,7 +2386,7 @@ records, so the share describes the survey and not the article's evidence about 
 
 **There is no literature on the X-67 and the article states that rather than implying coverage.** The
 survey holds no record whose subject is this designation, because a designation that was never allocated
-produces nothing. **The 1,117 research records map the field the question sits in and not the
+produces nothing. **The 1,109 research records map the field the question sits in and not the
 question**, and the only sources that speak to the X-67 directly are the register, the compilation of
 missing designations and the instruction.
 
@@ -2942,7 +2942,6 @@ rebuilt because the official one was withdrawn.**
 - [Brown 2004][research_brown_2004]
 - [Browning 2013][research_browning_2013]
 - [Broy 2011][research_broy_2011]
-- [Buciak et al 2013][research_buciak_sancet_2013]
 - [Buckle 1982][research_buckle_1982]
 - [Bulkley and Davis 2013][research_bulkley_davis_2013]
 - [Burge et al 2011][research_burge_gannod_2011]
@@ -3377,7 +3376,6 @@ rebuilt because the official one was withdrawn.**
 - [Krause and Gebhardt 2023][research_krause_gebhardt_2023_b]
 - [Krause et al 2013][research_krause_beckmann_2013]
 - [Krishnan 2008][research_krishnan_2008]
-- [Krishnan et al 1995][research_krishnan_lowry_1995]
 - [Krueger 2008][research_krueger_2008]
 - [Krueger 2011][research_krueger_2011]
 - [Krueger 2015][research_krueger_2015]
@@ -3540,7 +3538,6 @@ rebuilt because the official one was withdrawn.**
 - [Ninan et al 2024][research_ninan_shenoy_2024]
 - [Niutanen and Otto 2017][research_niutanen_otto_2017]
 - [Nomaguchi et al 2004][research_nomaguchi_idaka_2004]
-- [Nomenclature and symbols inchemical 1980][research_nomenclature_and_1980]
 - [Numerical Taxonomic Methods 1982][research_numerical_taxonomic_1982]
 - [Numerical Taxonomic Methods 2024][research_numerical_taxonomic_2024]
 - [Numerical Taxonomy 1983][research_numerical_taxonomy_1983]
@@ -3586,7 +3583,6 @@ rebuilt because the official one was withdrawn.**
 - [Pedersen and Slepniov 2016][research_pedersen_slepniov_2016]
 - [Pektaş and Pultar 2006][research_pektas_pultar_2006]
 - [Peng Chew et al 2006][research_pengchew_lee_2006]
-- [Pentz 2017][research_pentz_2017]
 - [Pericon 2024][research_pericon_2024]
 - [Peters et al 2022][research_peters_mcdonald_2022]
 - [Peterson 1971][research_peterson_1971]
@@ -3670,10 +3666,6 @@ rebuilt because the official one was withdrawn.**
 - [Ruf and Stütz 2018][research_ruf_stutz_2018]
 - [Rutenberg 1971][research_rutenberg_1971]
 - [Rzepa 2018][research_rzepa_2018]
-- [Rzepa 2020][research_rzepa_2020]
-- [Rzepa 2020][research_rzepa_2020_b]
-- [Rzepa 2023][research_rzepa_2023]
-- [Rzepa 2023][research_rzepa_2023_b]
 - [Sadraey 2010][research_sadraey_2010]
 - [Samarasinghe et al 2019][research_samarasinghe_gunawardena_2019]
 - [Sanaei et al 2015][research_sanaei_otto_2015]
@@ -4063,7 +4055,6 @@ rebuilt because the official one was withdrawn.**
 [research_brown_2004]: https://doi.org/10.21236/ada510666
 [research_browning_2013]: https://doi.org/10.1002/9781118592977.app1
 [research_broy_2011]: https://doi.org/10.1109/splc.2011.68
-[research_buciak_sancet_2013]: https://doi.org/10.2118/166255-ms
 [research_buckle_1982]: https://doi.org/10.1007/978-1-349-16819-4_4
 [research_bulkley_davis_2013]: https://doi.org/10.21236/ada582916
 [research_burge_gannod_2011]: https://doi.org/10.1145/1988676.1988683
@@ -4497,7 +4488,6 @@ rebuilt because the official one was withdrawn.**
 [research_krause_gebhardt_2023]: https://doi.org/10.1007/978-3-662-65680-8_4
 [research_krause_gebhardt_2023_b]: https://doi.org/10.1007/978-3-662-65680-8_6
 [research_krishnan_2008]: https://doi.org/10.1016/b978-0-7506-8552-8.50007-4
-[research_krishnan_lowry_1995]: https://doi.org/10.21236/ada302007
 [research_krueger_2008]: https://doi.org/10.1109/splc.2008.66
 [research_krueger_2011]: https://doi.org/10.1109/splc.2011.56
 [research_krueger_2015]: https://doi.org/10.1145/2791060.2791109
@@ -4660,7 +4650,6 @@ rebuilt because the official one was withdrawn.**
 [research_ninan_siddique_2013]: https://doi.org/10.1007/978-1-4614-7937-6_15
 [research_niutanen_otto_2017]: https://doi.org/10.1115/detc2017-67751
 [research_nomaguchi_idaka_2004]: https://doi.org/10.1299/jsmedsd.2004.14.363
-[research_nomenclature_and_1980]: https://doi.org/10.1016/0009-2509(80)80141-2
 [research_norgaard_gronvald_2025]: https://doi.org/10.3390/machines13121137
 [research_numerical_taxonomic_1982]: https://doi.org/10.1525/9780520314696-013
 [research_numerical_taxonomic_2024]: https://doi.org/10.2307/jj.13167951.15
@@ -4706,7 +4695,6 @@ rebuilt because the official one was withdrawn.**
 [research_pedersen_slepniov_2016]: https://doi.org/10.1108/ijopm-08-2013-0365
 [research_pektas_pultar_2006]: https://doi.org/10.1016/j.destud.2005.07.004
 [research_pengchew_lee_2006]: https://doi.org/10.1080/07408170500436724
-[research_pentz_2017]: https://doi.org/10.64000/g720f-z9z14
 [research_pericon_2024]: https://doi.org/10.52202/075106-0011
 [research_peters_mcdonald_2022]: https://doi.org/10.4271/2024-01-3968
 [research_peterson_1971]: https://doi.org/10.2172/4628233
@@ -4789,10 +4777,6 @@ rebuilt because the official one was withdrawn.**
 [research_ruf_stutz_2018]: https://doi.org/10.1007/978-3-319-94346-6_3
 [research_rutenberg_1971]: https://doi.org/10.1287/opre.19.2.491
 [research_rzepa_2018]: https://doi.org/10.59350/nk414-18p76
-[research_rzepa_2020]: https://doi.org/10.59350/s35hr-k3s48
-[research_rzepa_2020_b]: https://doi.org/10.59350/r1mx9-k3h77
-[research_rzepa_2023]: https://doi.org/10.59350/rr5k8-d1p52
-[research_rzepa_2023_b]: https://doi.org/10.59350/rbz4s-dng05
 [research_sadraey_2010]: https://doi.org/10.2514/6.2010-9302
 [research_samarasinghe_gunawardena_2019]: https://doi.org/10.1016/j.autcon.2019.03.021
 [research_sanaei_otto_2015]: https://doi.org/10.1115/detc2015-46403

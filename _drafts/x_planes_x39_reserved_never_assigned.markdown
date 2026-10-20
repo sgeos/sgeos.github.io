@@ -493,14 +493,14 @@ was never sent to undo the first.**
 | The argument from silence and absence of evidence | 51 |
 | Archival appraisal and selection | 46 |
 | Nuclear propulsion of aircraft | 40 |
-| Classification and administrative categories | 30 |
+| Classification and administrative categories | 29 |
 | Military designation and nomenclature systems | 2 |
 | The Future Aircraft Technology Enhancements programme | 1 |
-| **Total** | **769** |
+| **Total** | **768** |
 
 **This article's subject is not an aircraft, so its survey is not of the aerospace literature.** A survey of that literature would measure nothing relevant to whether a letter was written in 1997. The subject is what a gap in an official register means, and there is a large and current literature on exactly that question, spread across archival science, infrastructure studies, identifier administration and the logic of inference from absence. Two smaller clusters hold the literature of the programmes the number and its string belonged to.
 
-**The survey holds 769 records in eleven clusters.** Two of them, the Boeing Phase I report and the museum account of the nuclear turbojet, are among the sources the argument rests on. **The rest are not cited as evidence for any claim about the X-39**, and no paper among them has been read beyond its title, although every title has been read so that records sharing only a word with the subject are excluded. They are a map of the surrounding literature, offered so that a reader who wants to pursue the general question has somewhere to start.
+**The survey holds 768 records in eleven clusters.** Two of them, the Boeing Phase I report and the museum account of the nuclear turbojet, are among the sources the argument rests on. **The rest are not cited as evidence for any claim about the X-39**, and no paper among them has been read beyond its title, although every title has been read so that records sharing only a word with the subject are excluded. They are a map of the surrounding literature, offered so that a reader who wants to pursue the general question has somewhere to start.
 
 ### Archival Silence and the Record That Was Never Made
 
@@ -588,7 +588,7 @@ The General Electric direct-air-cycle programme's own comprehensive technical re
 
 **Classification schemes as artefacts.** The consequences of classification, residual categories, and the categories a bureaucracy constructs and applies.
 
-**30 records.** \[[1992, Classification system Old and new categories][research_classification_system_1992]\] \[[1999, Categorical Work and Boundary Infrastructures Enriching Theories of Classification][research_categorical_work_1999]\] \[[2000, Classification and Large-Scale Infrastructures][research_classification_and_2000]\] \[[Alpaten and Khurdianto 2026][research_alpaten_khurdianto_2026]\] \[[Auther 2002][research_auther_2002]\] \[[Barron et al 2016][research_barron_bory_2016]\] \[[Cornwell 2019][research_cornwell_2019]\] \[[De Zwart 2005][research_dezwart_2005]\] \[[Delaisse et al 2025][research_delaisse_barber_2025]\] \[[Dousa 2017][research_dousa_2017]\] \[[Goldstein 2005][research_goldstein_2005]\] \[[Helmreich 2003][research_helmreich_2003]\] \[[Hickman and Hill 2010][research_hickman_hill_2010]\] \[[Horváth 2006][research_horvath_2006]\] \[[Jansen 2013][research_jansen_2013]\] \[[Karlander 2017][research_karlander_2017]\] \[[Klaes 2003][research_klaes_2003]\] \[[Li 2025][research_li_2025]\] \[[Lyna and Bulten 2021][research_lyna_bulten_2021]\] \[[Mennerat François 1997][research_menneratfranccedilois_1997]\] \[[Moss 1964][research_moss_1964]\] \[[Moynihan et al 2023][research_moynihan_giannella_2023]\] \[[Olson 2007][research_olson_2007]\] \[[Parotte 2021][research_parotte_2021]\] \[[Rajaram and Arendas 2013][research_rajaram_arendas_2013]\] \[[Star and Bowker 2007][research_star_bowker_2007]\] \[[Star 2010][research_star_2010]\] \[[Vetters 2007][research_vetters_2007]\] \[[Williams 2003][research_williams_2003]\] \[[Willis 1993][research_willis_1993]\]
+**29 records.** \[[1992, Classification system Old and new categories][research_classification_system_1992]\] \[[1999, Categorical Work and Boundary Infrastructures Enriching Theories of Classification][research_categorical_work_1999]\] \[[2000, Classification and Large-Scale Infrastructures][research_classification_and_2000]\] \[[Alpaten and Khurdianto 2026][research_alpaten_khurdianto_2026]\] \[[Auther 2002][research_auther_2002]\] \[[Barron et al 2016][research_barron_bory_2016]\] \[[Cornwell 2019][research_cornwell_2019]\] \[[De Zwart 2005][research_dezwart_2005]\] \[[Delaisse et al 2025][research_delaisse_barber_2025]\] \[[Dousa 2017][research_dousa_2017]\] \[[Goldstein 2005][research_goldstein_2005]\] \[[Hickman and Hill 2010][research_hickman_hill_2010]\] \[[Horváth 2006][research_horvath_2006]\] \[[Jansen 2013][research_jansen_2013]\] \[[Karlander 2017][research_karlander_2017]\] \[[Klaes 2003][research_klaes_2003]\] \[[Li 2025][research_li_2025]\] \[[Lyna and Bulten 2021][research_lyna_bulten_2021]\] \[[Mennerat François 1997][research_menneratfranccedilois_1997]\] \[[Moss 1964][research_moss_1964]\] \[[Moynihan et al 2023][research_moynihan_giannella_2023]\] \[[Olson 2007][research_olson_2007]\] \[[Parotte 2021][research_parotte_2021]\] \[[Rajaram and Arendas 2013][research_rajaram_arendas_2013]\] \[[Star and Bowker 2007][research_star_bowker_2007]\] \[[Star 2010][research_star_2010]\] \[[Vetters 2007][research_vetters_2007]\] \[[Williams 2003][research_williams_2003]\] \[[Willis 1993][research_willis_1993]\]
 
 ### Military designation and nomenclature systems
 
@@ -628,7 +628,7 @@ designation as a unique name for one thing breaks at this number.
 
 ## The Source Base
 
-**The sixteen sources that carry the argument and the 769 research records that map the field are different things, although two belong to both.**
+**The sixteen sources that carry the argument and the 768 research records that map the field are different things, although two belong to both.**
 
 **The evidentiary base is small because the subject is.** Sixteen entries carry the argument,
 being two designation surveys, three versions of the joint instruction, two Department-level issuances,
@@ -637,7 +637,7 @@ cancellation, one account of the X-40 allocation and two of the nuclear turbojet
 are primary documents**, which is an unusually high share and a consequence of the subject being
 administrative. The governing instructions are not commentary on the evidence. **They are the evidence.**
 
-**The research survey holds 769 records**, drawn from the scholarly registry Crossref, which also registers Department of Energy and Defense Technical Information Center reports, and from NASA's Technical Reports Server, together with one report at the Defense Technical Information Center's own address and one museum article. Of them, **34 are report primaries, being 4.4 percent**, by the rule set out under The Definition of Primary. **The median publication year is 2015.** No paper in the survey has been read beyond its title, and apart from the Boeing report and the museum article, which the argument cites, no survey record is cited in support of any claim about the X-39. The article would say exactly the same things if the rest of the survey were deleted.
+**The research survey holds 768 records**, drawn from the scholarly registry Crossref, which also registers Department of Energy and Defense Technical Information Center reports, and from NASA's Technical Reports Server, together with one report at the Defense Technical Information Center's own address and one museum article. Of them, **34 are report primaries, being 4.4 percent**, by the rule set out under The Definition of Primary. **The median publication year is 2015.** No paper in the survey has been read beyond its title, and apart from the Boeing report and the museum article, which the argument cites, no survey record is cited in support of any claim about the X-39. The article would say exactly the same things if the rest of the survey were deleted.
 
 ### The Definition of Primary
 
@@ -1267,7 +1267,6 @@ The next article returns to a vehicle that was built and flown.
 - [Hasan and Winslett 2010][research_hasan_winslett_2010]
 - [Hasan et al 2008][research_hasan_winslett_2008]
 - [He and Tian 2018][research_he_tian_2018]
-- [Helmreich 2003][research_helmreich_2003]
 - [Henderson 2019][research_henderson_2019]
 - [Henttonen and Packalén 2023][research_henttonen_packalen_2023]
 - [Heredia and Marín-Arraiza 2022][research_heredia_marinarraiza_2022]
@@ -2069,7 +2068,6 @@ The next article returns to a vehicle that was built and flown.
 [research_hasan_winslett_2008]: https://doi.org/10.1007/978-0-387-48533-1_15
 [research_hasan_winslett_2010]: https://doi.org/10.1145/1739041.1739115
 [research_he_tian_2018]: https://doi.org/10.2991/icitme-18.2018.17
-[research_helmreich_2003]: https://doi.org/10.1177/0162243903028003005
 [research_henderson_2019]: https://doi.org/10.22459/ca.2019.10
 [research_henttonen_packalen_2023]: https://doi.org/10.1007/s10502-023-09426-6
 [research_heredia_marinarraiza_2022]: https://doi.org/10.21452/abec.2022.isbn.978-65-89167-68-6.007

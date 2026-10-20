@@ -4,6 +4,36 @@
 
 ## Last Updated
 
+**Date**: 2026-10-20
+**Task**: **X-PLANES, THE STRICT RE-READ UNDER THE PILOT'S INCLUSION RULE.** Applied in the working tree. NOT committed, NOT pushed, NOT published. The pilot's word is awaited before any commit.
+
+**The pilot's rulings, quoted.** "All on-topic references useful for anyone else doing research on X-planes or related topics should be included." "Use TypeSafe Jev when reasonable to save on your token budget." On the two questions put on 19 October: full-text proceedings volumes, "Keep full-text volumes"; news items, "Keep programme news".
+
+**What was done.**
+- **Screen.** All 357,712 survey records in the 72 drafts were screened by TypeSafe Jev (`jev-1.13.0`, one record per request, the article's title and cluster names and the record's title, year and type; about 468M input tokens, about $19.65). Jev flagged and never decided. 42,307 rows were flagged; a second Jev pass classed the 19,728 possible non-research items by kind (13.7M tokens).
+- **Reading.** 4,807 flagged rows were read by agents and every proposed drop was confirmed or overturned by the coordinator. 247 were overturned, mainly aerospace research that matches no cluster, which the rule counts as related. Recall samples of 100 unflagged and 100 unread middle-band rows found no drop; that bounds the miss rate only at about 3 percent.
+- **Removed: 687 citations in 69 articles**, the series going from 357,712 to 357,025 research definitions. By class: news and trade items that are not programme news 347, bare conference records with no content 84, front matter and issue introductions 84, organisational periodic reports 64, distant subjects 42, meeting notices and session listings 36, book reviews 29, indexes 7, homonyms 6, errata 5. 114 programme news items and every full-text proceedings volume are kept. 17 drop candidates are cited in article sentences and were kept as hand-chosen sources.
+- **Restated.** Every survey number each article states was recomputed by its own verifier and restated. Reference data (`refs.json` and kin) was pruned; historical reading records were not edited. Verifiers whose identities compare against the full reading gained a documented screen term, loaded from `tmp/jev/apply/A<NNN>/drop.json`, with checks that no screened anchor remains and that each was a kept record of the reading. A368's ledger was relocated and its survey restated (4,782 to 4,710 records).
+
+**Verification.**
+- check5 RESULT PASS on all 72.
+- Every offline verifier exits 0, except the known stale copy `verify368.d1pre.py`. `verify368.py` passes 1,885 checks. A341's two network verifiers were not run, because the sandbox blocks `ntrs.nasa.gov`.
+- Every verifier self-test detects all its mutations, except A365's, which fails on a target string absent from its untouched draft. **That failure predates this work.**
+- `_verify.py` reports 0 errors and 0 warnings.
+- All 72 drafts build in a scratch copy in 79 seconds, and `_lib/render.py` finds nothing across 544 pages.
+
+**Items before the pilot.**
+1. The commit, when the pilot gives the word.
+2. A366's twin check now excuses a twin partner removed by the screen, as it already excuses audit drops. The partners are `research_rzepa_2023` and `research_rzepa_2020_2`.
+3. A365's pre-existing self-test failure.
+4. Whether the universal non-research drops should also go into `_research/rejected.json`, so later harvests never re-admit them.
+5. The sandbox now denies `api.crossref.org`, `doi.org` and `ntrs.nasa.gov`, which the URL checks and A341's verifiers need.
+6. Still queued from 19 October and not run: the citation pass and the pathological word usage pass. Also outstanding: the four NTRS records whose API returns 404 (19650024004 and 19650046383 in A368, 19650024008 in A320, 19670014989 in A322).
+
+**Where things are.** The coordinator log is `tmp/fix8/PROGRESS15.md`. The screen and reading are in `tmp/jev/`, and the removal and restatement in `tmp/jev/apply/`, which holds the pre-removal drafts in `pre/`, the per-article `drop.json` files and `data_pre/` backups, and the briefs `BRIEF_RESTATE.md` and `BRIEF_IDENTITY.md`. Each article's notes file has a "19 October 2026, screen removals" section.
+
+## Previous Report (2026-10-19, second entry)
+
 **Date**: 2026-10-19 (second entry)
 **Task**: **X-PLANES, THE PILOT'S SIX DECISIONS OF 19 OCTOBER.** Committed and pushed on the pilot's instruction. NOT published.
 
