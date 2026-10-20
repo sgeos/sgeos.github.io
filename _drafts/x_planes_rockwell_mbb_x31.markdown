@@ -43,13 +43,13 @@ Administration, NASA, and [available in full][ref_joyce_pdf], and the [Dryden fa
 It did not. Exhaust vanes deflecting a jet to produce a control force were first used in the mid-1940s on
 the German V-2 ballistic missile, a rotatable nozzle flew on the Hawker Siddeley Harrier in a different form,
 and paddles developed by the same manufacturer's Columbus division were flown from 1986 to 1987 on an
-[F-14][ref_f14] before the X-31 team adopted them, as the [NASA history of the programme][ref_joyce_pdf]
-records. Nothing about the mechanism was in doubt.
+[F-14][ref_f14] before the X-31 team [adopted them][ref_joyce_pdf]. Nothing about the mechanism was in
+doubt.
 
 **What was in doubt was whether the resulting capability is worth having.** An aircraft that can hold
 seventy degrees of angle of attack under control can point its nose a long way off its flight path. Whether
-that wins a fight is a different question from whether it is achievable, and it is not a question that any
-amount of wind-tunnel work can answer. It has to be tried.
+that wins a fight is a different question from whether it is achievable, and no amount of wind-tunnel work
+can answer it. It has to be tried.
 
 * Contents
 {:toc}
@@ -65,8 +65,8 @@ to measure a divergence boundary. Each of those is a quantity with units, and an
 at it.
 
 The standard treatment of close combat as a discipline is
-[Shaw's account of fighter tactics and manoeuvring][book_shaw], and it is worth noting that it reaches its
-conclusions about positional advantage without any of the apparatus below.
+[Shaw's account of fighter tactics and manoeuvring][book_shaw], and it reaches its conclusions about
+positional advantage without any of the apparatus below.
 
 **The X-31's question has no units.** It asks whether an advantage exists, and the only instrument that can
 be pointed at it is a designed sequence of trials with an outcome recorded for each one. That makes the X-31
@@ -79,12 +79,12 @@ aeroplane is worth building.
 
 The vectoring system is a means. It produces a yawing or pitching moment when the aerodynamic surfaces
 cannot, and the size of that moment is computable from the thrust, the deflection angle and the moment arm.
-The arm is not published, and the calculation later in this article turns instead on the speed above which
+The flight reports do not state the arm, and the calculation later in this article turns instead on the speed above which
 no arm the fuselage could hold would have been long enough.
 
-**The reason the vectoring exists is that a wing at seventy degrees of angle of attack is not producing useful control forces**,
-and the reason anybody wanted seventy degrees of angle of attack is that the nose points where the aircraft
-is not going. The aim-off angle available to a pilot is the [angle of attack][ref_angle_of_attack] itself. A
+**The vectoring exists because a wing at seventy degrees of angle of attack is not producing useful control forces**,
+and seventy degrees of angle of attack was wanted because at that attitude the nose points where the
+aircraft is not going. The aim-off angle available to a pilot is the [angle of attack][ref_angle_of_attack] itself. A
 conventional fighter limited to thirty degrees can aim thirty degrees away from its flight path. An aircraft
 that can hold seventy can aim seventy.
 
@@ -100,14 +100,14 @@ has to be bought back before the aircraft can do anything else. If the pointing 
 solution before the energy deficit becomes fatal, the technique wins. If it does not, the aircraft has made
 itself slow in front of an opponent who is not.
 
-**That is a trade with no obvious sign**, and it is why the programme ended with a set of adversarial
+**The trade has no obvious sign**, and the programme therefore ended with a set of adversarial
 engagements rather than with an envelope chart.
 
 ## Programme Origin
 
 ### The Argument That Started It
 
-**The case for post-stall manoeuvring was made in Germany before it was made anywhere else.** Wolfgang
+**The case for post-stall manoeuvring that led to this aircraft was made in Germany.** Wolfgang
 Herbst, at the German manufacturer, argued through the late 1970s and early 1980s that the decisive quantity
 in close combat was not sustained turn rate but the time taken to bring weapons to bear, and that an
 aircraft able to fly [controllably past the stall][ref_supermaneuverability] could shorten that time by
@@ -117,7 +117,7 @@ and dates the post-stall research he led with Karl Knauer at the German manufact
 The [manoeuvre that carries his name][ref_herbst] is a rapid reversal of flight path performed by pitching
 up past the stall, rolling about the velocity vector while the speed decays, and pitching back down on the
 new heading. Flown to an arbitrary heading change rather than a full reversal it is usually called a J-turn.
-**The manoeuvre was named after Herbst by the flight-test community, not by him.**
+**The manoeuvre was named after Herbst**, and the [Dryden fact sheet][ref_nasa_fs] records both names.
 
 The wider literature on this subject is gathered in the cluster on post-stall manoeuvring in The Contemporary Literature. The records closest to this section are these.
 
@@ -128,11 +128,11 @@ The wider literature on this subject is gathered in the cluster on post-stall ma
 - [Raymer 1991][research_raymer_1991]
 - [Kish et al 1996][research_kish_mittlestead_1996]
 
-### The Institutional Arrangement, Which Was Itself a First
+### An Institutional First
 
-**The X-31 was the first experimental aircraft programme administered by a United States government agency as an international effort**,
+**The X-31 was the first experimental aircraft programme administered by a United States government agency as [an international effort][ref_nasa_fs]**,
 and the arrangement is part of what the programme demonstrated. [Rockwell International's][ref_rockwell]
-North American Aircraft division built the fuselage, vertical tail and canards.
+North American Aircraft division [built the fuselage, vertical tail and canards][ref_joyce_pdf].
 [Messerschmitt-Bolkow-Blohm][ref_mbb], later Deutsche Aerospace and later still part of Daimler-Benz, built
 the wing and the thrust-vectoring paddles and wrote the integrated flight and propulsion control laws.
 
@@ -141,15 +141,15 @@ Research Projects Agency from March 1993. The flight test organisation at the Na
 Administration's [Dryden Flight Research Center][ref_dryden] was an **International Test Organization** of
 roughly one hundred and ten people, declining to about sixty as the programme matured, drawing on the
 National Aeronautics and Space Administration, the United States Navy, the United States Air Force,
-Rockwell, the Federal Republic of Germany and the German manufacturer. Fourteen pilots from those
-organisations flew the aircraft.
+Rockwell, the Federal Republic of Germany and the German manufacturer.
+[Fourteen pilots from those organisations][ref_nasa_fs] flew the aircraft.
 
-**The programme was a key effort of the North Atlantic Treaty Organization Cooperative Research and Development Program**,
-which is the formal frame that made the arrangement possible.
+**The programme was [a key effort][ref_nasa_fs] of the North Atlantic Treaty Organization Cooperative Research and Development Program**,
+and that cooperative programme supplied the formal frame for the arrangement.
 
 ### What the Institutional Frame Cost and Bought
 
-The flight-test report is unusually candid about the overhead.
+The [flight-test report][ref_canter_ntrs] is unusually candid about the overhead.
 **Roughly six months of working together passed before the team functioned as one**, and the report
 attributes that to duplicated verification, with government engineers independently checking contractor
 results until trust was established. The recommendation drawn from it is that a team of this kind should be
@@ -157,7 +157,7 @@ physically co-located at least three months before flying begins, and approximat
 test team was on site at Dryden.
 
 **Six project pilots was not too many**, against an early fear that so many could not be kept current for
-high angle of attack work. The report attributes that to experience, to proficiency flying in other types,
+high angle of attack work. The [report][ref_canter_ntrs] attributes that to experience, to proficiency flying in other types,
 and to unlimited simulator access.
 
 - [Yeh et al 1991][research_yeh_george_1991]
@@ -176,7 +176,7 @@ and to unlimited simulator access.
 ## Sizing From First Principles
 
 **This section derives the keystone, and the keystone is arithmetic about counted outcomes rather than about forces.**
-That is unusual for this series and it is the honest treatment of what the programme actually produced.
+Such a derivation is unusual for this series, but it treats honestly what the programme produced.
 
 ### The Measure of Effectiveness
 
@@ -191,7 +191,7 @@ $$E = \frac{R}{B}$$
 A value above one means the aircraft under test came off better. A value of one is parity. The definition is
 simple and the trouble begins as soon as more than one kind of fight is flown.
 
-**A kill was scored when the rule-of-thumb weapons criteria and envelope were met for the weapon selected**,
+**A kill was scored when the [rule-of-thumb weapons criteria][ref_joyce_pdf] and envelope were met for the weapon selected**,
 and a ground kill was additionally scored when an aircraft penetrated a hard deck ten thousand feet above
 ground level, on the reasoning that a pilot driven into the ground has been defeated whether or not a weapon
 was fired.
@@ -221,7 +221,7 @@ was fired.
 
 ### The Four Starting Conditions
 
-The simulation programme, and the flight programme after it, flew four starting conditions.
+The [simulation programme][ref_joyce_pdf], and the flight programme after it, flew four starting conditions.
 
 | Condition | Setup | Meaning |
 |---|---|---|
@@ -237,7 +237,7 @@ was set up.
 
 ### The Published Results
 
-For the X-31 with post-stall technology against the F/A-18, the reported figures are as follows.
+For the X-31 with post-stall technology against the F/A-18, the [reported figures][ref_joyce_pdf] are as follows.
 
 | Starting condition | Exchange ratio |
 |---|---|
@@ -247,14 +247,14 @@ For the X-31 with post-stall technology against the F/A-18, the reported figures
 | High-speed line abreast | 0.86 |
 | **Overall** | **1.83** |
 
-**Two things in that table are worth stopping on before any analysis at all.**
+**Two things in that table deserve attention before any analysis.**
 
 The first is that **the aircraft loses in two of the four conditions**. At 0.36 in the defensive start and
 0.86 in the high-speed line-abreast start, the X-31 with every advantage its designers gave it comes off
 worse than the F/A-18 it is fighting. The popular account of this programme does not usually mention that.
 
-The second is that **the overall figure of 1.83 is far below the average of the four**. That is not a
-rounding artefact and it is not a mistake. It is the most important piece of arithmetic in the article.
+The second is that **the overall figure of 1.83 is far below the average of the four**. The gap is neither
+a rounding artefact nor a mistake, and it is the most important piece of arithmetic in the article.
 
 ### Why the Overall Figure Is Not the Average
 
@@ -266,9 +266,9 @@ and the published overall figure is 1.83. **The two differ by a factor of 3.514.
 average from the table and a reader who took the published overall would come away with completely different
 impressions of the same experiment.
 
-The reason is that a pooled exchange ratio is not a mean of ratios, which is the aggregation hazard that the
-statistical literature on [combining proportions across strata][research_hauck_anderson_1986] exists to warn
-about. It is a ratio of sums,
+The reason is that a pooled exchange ratio is not a mean of ratios. Confusing the two is the aggregation
+hazard that the statistical literature on [combining proportions across strata][research_hauck_anderson_1986]
+exists to warn about. The pooled figure is a ratio of sums,
 
 $$E_{\text{pool}} = \frac{\sum_i R_i}{\sum_i B_i}$$
 
@@ -280,9 +280,9 @@ $$E_{\text{pool}} = \frac{\sum_i E_i B_i}{\sum_i B_i}$$
 A condition in which the aircraft under test was shot down fourteen times counts fourteen times as heavily
 as a condition in which it was shot down once.
 
-That is not a defect of the measure. It is what a pooled ratio means, and it is the correct thing to report
+The weighting is no defect of the measure. It is what a pooled ratio means, and the correct figure to report
 if the question is how the aircraft fared across the whole campaign.
-**But it makes the headline figure a statement about the distribution of engagements as much as about the aeroplane**,
+**But it makes the headline figure depend on the distribution of engagements as much as on the aeroplane**,
 and nothing in the published figure tells the reader which.
 
 ### What the Weights Must Have Been
@@ -296,7 +296,7 @@ weights sum to one and the identity reads
 $$E_{\text{pool}} = \sum_i w_i E_i$$
 
 Partition the conditions into those below parity and those above it. The construction is a two-point mixture
-and the arithmetic is elementary, which is why the result is robust. To reach a pooled value as low as 1.83
+and the arithmetic is elementary, so the result is robust. To reach a pooled value as low as 1.83
 with as little weight as possible on the losing conditions, put all the winning weight on the smaller of the
 two winning ratios and all the losing weight on the smaller of the two losing ratios. That gives the minimum
 share,
@@ -317,27 +317,27 @@ post-stall manoeuvring did not help.
 
 ### The Headline Result Sits on a Knife Edge
 
-**The same identity answers a question the programme never asked, and the answer is uncomfortable.** Rather
+**The same identity answers a question the programme never asked, with an uncomfortable result.** Rather
 than solving for the weight that reproduces 1.83, solve for the weight that would have driven the pooled
 figure to **parity**,
 
 $$w_{\text{tip}} = \frac{E_{\text{win,min}} - 1}{E_{\text{win,min}} - E_{\text{lose,min}}} = \frac{8.5 - 1}{8.5 - 0.36} = 0.9214$$
 
-**A losing share above 92.14 percent would have put the overall exchange ratio below one**, which is to say
-it would have reversed the programme's headline conclusion from an advantage into a disadvantage.
+**A losing share above 92.14 percent would have put the overall exchange ratio below one**, and so would
+have reversed the programme's headline conclusion from an advantage into a disadvantage.
 
 **The bracket established above runs from 81.9 to 93.6 percent, and it contains that threshold.** The
 published result is therefore consistent with weight distributions that produce an overall advantage and
 with distributions that produce an overall disadvantage, and the published figures do not distinguish
 between them.
 
-**That is not a claim that the programme was wrong.** It is a statement about what its headline number
-establishes on its own, which is less than it appears to. The flight testing that followed is what settles
-the question, and it settles it conditionally, which is exactly what the arithmetic predicts.
+**None of this claims that the programme was wrong.** The point concerns what its headline number
+establishes on its own, which is less than it appears to. The flight testing that followed settles the
+question, and it settles it conditionally, as the arithmetic predicts.
 
 ### The Same Arithmetic Applied to the Other Two Comparisons
 
-The programme published two further sets. Without post-stall technology, the X-31 against the F/A-18 gave
+The programme [published two further sets][ref_joyce_pdf]. Without post-stall technology, the X-31 against the F/A-18 gave
 0.20, 1.25, 0.25 and 0.85 across the four conditions with an overall of 0.37. The X-31 with post-stall
 technology against an identical X-31 without it gave 0.27, 23, 6.67 and 2.8 with an overall of 2.67.
 
@@ -354,13 +354,13 @@ and the width of the answer depends entirely on how far the winning ratios sit f
 | Without post-stall against the F/A-18 | 0.6375 | 0.37 | 83.8 to 100.0 percent |
 | With post-stall against without | 8.185 | 2.67 | 5.1 to 89.4 percent |
 
-**The third row is the one that shows the method has teeth.** The X-31-against-X-31 comparison constrains
+**The third row shows that the method has teeth.** The X-31-against-X-31 comparison constrains
 the weights hardly at all, because one of its winning ratios, 2.8, sits close to the pooled value of 2.67
 and can therefore carry almost any weight. The same calculation that pins the F/A-18 comparison to a narrow
 band says almost nothing about the other.
 **A method that returns a wide answer when the data are uninformative is behaving correctly.**
 
-The wider literature on this subject is gathered in the cluster on rates, proportions and their intervals in The Contemporary Literature. The records closest to this section are these.
+The topic is surveyed more fully in the cluster on rates, proportions and their intervals in The Contemporary Literature, and the records bearing most directly on the discussion here follow.
 
 - [Dozzi and Riedwyl 1984][research_dozzi_riedwyl_1984]
 - [Chen 1984][research_chen_1984]
@@ -371,7 +371,8 @@ The wider literature on this subject is gathered in the cluster on rates, propor
 
 ### What the Sample Size Supports
 
-The second question is harder and the programme never asked it in print.
+The second question is harder, and the programme raised it in print only to note that a limited number of
+flight engagements would make an increase in winning [difficult to quantify statistically][ref_joyce_pdf].
 **An exchange ratio estimated from a finite number of engagements is an estimate, and estimates have intervals.**
 
 Model each scored outcome as a Bernoulli trial in which the adversary is lost with probability $p$. The
@@ -393,7 +394,7 @@ $$\sum_{i=0}^{k} \binom{n}{i} p^{i} (1 - p)^{n - i} = \frac{\alpha}{2}$$
 
 The construction goes back to the classical work on
 [interval estimation for a binomial proportion][research_sandelius_1952].
-**This interval is conservative, guaranteeing at least the nominal coverage rather than exactly it, and that is the right choice here.**
+**This interval is conservative, guaranteeing at least the nominal coverage rather than exactly it, and conservatism is the right choice here.**
 The claim being tested is that an advantage exists, and a conservative interval will not manufacture one
 that the data do not support.
 
@@ -403,7 +404,7 @@ and a sample size together fix the split, since the adversary losses are
 
 $$k = \operatorname{round}\left( \frac{n E}{1 + E} \right) \qquad \text{and} \qquad b = n - k$$
 
-and the test applied to the resulting interval is simply whether it contains parity,
+and the test applied to the resulting interval is whether it contains parity,
 
 $$\text{separates} \iff 1 \notin [E_{\text{lo}}, E_{\text{hi}}] \iff \tfrac{1}{2} \notin [p_{\text{lo}}, p_{\text{hi}}]$$
 
@@ -421,11 +422,11 @@ nothing at all.
 **The high-speed line-abreast condition is the striking case.** At 0.86 it is so close to parity that no
 feasible experiment could separate it. Scanning upward through sample sizes, the smallest number of scored
 outcomes at which a ratio of 0.86 could be distinguished from one at the conventional level is **691**. The
-programme flew a few dozen.
+simulation design allowed [48 engagements for each case][ref_joyce_pdf], twelve in each condition.
 
-**That is not a criticism of the programme.** It is the correct reading of the result. The published
-commentary describes the high-speed line-abreast case as showing "more evening", which is exactly how a
-result that establishes nothing ought to be described. The arithmetic here puts a number on how much
+**The finding does not criticise the programme.** It reads the result correctly. The published
+[commentary][ref_joyce_pdf] describes the high-speed line-abreast case as showing "more evening", an apt
+description of a result that establishes nothing. The arithmetic here puts a number on how much
 nothing.
 
 ### What the Design Could and Could Not Have Settled
@@ -441,21 +442,23 @@ separable from parity.
 | High-speed line abreast | 0.86 | 691 |
 
 **The experiment was well matched to two of its four conditions and hopeless for a third.** The slow-speed
-line-abreast result, the one the programme identified as its highest priority for flight testing, needs six
+line-abreast result, the one the programme identified as its [highest priority][ref_joyce_pdf] for flight testing, needs six
 scored outcomes to establish itself. The high-speed line-abreast result needs more than a hundred times as
 many.
 
 **The programme reached that conclusion by judgement and reached it correctly.** The flight-test priority
 order it settled on was slow-speed line abreast first, then defensive, then high-speed line abreast, then
 offensive. The first two are exactly the two conditions where a modest number of engagements can resolve
-something, and the ordering was arrived at from analysis of which conditions showed the largest difference
-between the two configurations rather than from any consideration of statistical power.
+something, and the [NASA history][ref_joyce_pdf] records the ordering as arrived at from which conditions
+showed the largest difference between the two configurations and from practical limits such as the
+entry-speed restriction, with statistical difficulty raised only as a caution about the offensive condition.
 
 ## The Vehicle
 
 **The X-31 was small, single-engined, and closer to parity with its adversary than the popular account suggests.**
-The published table is unusually complete for a research aircraft, because the type was catalogued in the
-standard reference work while it was still flying.
+The published table is unusually complete for a research aircraft, because the
+[NASA history][ref_joyce_pdf] reproduces the type's entry in the standard reference work, the 1996 to 1997
+edition of Jane's All the World's Aircraft.
 
 | Quantity | Value | Metric |
 |---|---|---|
@@ -482,7 +485,7 @@ standard reference work while it was still flying.
 
 ### A Consistency Check on the Published Table
 
-**The table checks against itself in three places, which is worth doing because a specification sheet transcribed through several publications acquires errors.**
+**The table checks against itself in three places, a test that matters because a specification sheet transcribed through several publications acquires errors.**
 
 The aspect ratio implied by the span and the area is
 
@@ -500,8 +503,8 @@ thrust at maximum weight.
 concept needed a thrust-to-weight ratio of at least one, and the airframe gained weight during construction
 until it reached roughly sixteen thousand pounds and the ratio fell to about unity. Radar, air-refuelling
 capability and the ability to carry a fighter weapons load were deleted to hold the line.
-**The aeroplane that flew the combat evaluation was therefore at the bottom edge of its own requirement**,
-and the NASA history is blunt about the consequence, calling the airframe underpowered against a more
+**The aeroplane that flew the combat evaluation was therefore at the bottom edge of its requirement**,
+and the [NASA history][ref_joyce_pdf] is blunt about the consequence, calling the airframe underpowered against a more
 powerful F/A-18 with a wing better suited to conventional turning.
 
 ### What the Lift Curve Has to Be
@@ -528,7 +531,7 @@ aspect ratio the Helmbold relation gives
 
 $$C_{L\alpha} = \frac{\pi A}{1 + \sqrt{1 + (A/2)^{2}}} = \frac{\pi (2.51)}{1 + \sqrt{1 + 1.575}} = 3.027 \ \text{per radian}$$
 
-and for a swept wing of low aspect ratio the standard compressible form, which is the one tabulated in the
+and for a swept wing of low aspect ratio the standard compressible form, as tabulated in the
 [stability and control handbook][ref_datcom] of the period, gives
 
 $$C_{L\alpha} = \frac{2 \pi A}{2 + \sqrt{\dfrac{A^{2} \beta^{2}}{\kappa^{2}} \left(1 + \dfrac{\tan^{2} \Lambda}{\beta^{2}}\right) + 4}} = 2.278 \ \text{per radian}$$
@@ -541,14 +544,14 @@ own slope, referred to the wing reference area and scaled by an efficiency that 
 $$\Delta C_{L\alpha} = \eta \, \frac{S_c}{S} \, C_{L\alpha,c}$$
 
 The canard is 10.4 percent of the wing area, and at a slope near 2.5 per radian with an efficiency of 1.2 it
-contributes 0.313, giving 2.591 against an inferred 2.769, which is 6.4 percent apart.
+contributes 0.313, giving 2.591 against an inferred 2.769, a difference of 6.4 percent.
 
 **Comparing the inferred value against the unswept formula alone and explaining the disagreement by appealing to the canard would be backwards.**
 A canard in trim carries positive lift and therefore raises the whole-aircraft slope. Sweep is what lowers
 it, and this aeroplane has a great deal of sweep. The two formulae bracketing the answer is a much stronger
 statement than either one alone.
 
-The wider literature on this subject is gathered in the cluster on canard and delta configurations in The Contemporary Literature. The records closest to this section are these.
+The broader record appears under the cluster on canard and delta configurations in The Contemporary Literature. These records bear most closely on the argument above.
 
 - [Er-El 1988][research_erel_1988]
 - [The effects of canard-wing flow-field interactions on...][research_the_effects_1988]
@@ -559,15 +562,15 @@ The wider literature on this subject is gathered in the cluster on canard and de
 
 ## Dependent Systems
 
-### Thrust Vectoring, and How Much Moment It Actually Produces
+### Thrust Vectoring and the Moment It Produces
 
 **Three carbon-carbon [thrust-vectoring][ref_thrust_vectoring] paddles were mounted around the nozzle and driven into the exhaust by actuators.**
 The concept came from Rockwell's earlier work for the Navy, flight tested on an F-14 with paddle-like vanes
 on either side of the speed brake housing, and it was selected over a multi-axis vectoring nozzle for
-reasons that were mostly financial. The paddles saved approximately sixty million dollars in development
+reasons that were mostly financial. The paddles saved [approximately sixty million dollars][ref_joyce_pdf] in development
 against an axisymmetric vectoring nozzle.
 
-The mass accounting is worth recording because it is the clearest justification the choice has.
+The mass accounting gives the clearest justification the choice has.
 
 | Item | Weight |
 |---|---|
@@ -577,7 +580,7 @@ The mass accounting is worth recording because it is the clearest justification 
 | Flight control system components | 79 lb |
 | **Total** | **240 lb** |
 
-against a four-hundred-pound fully axisymmetric nozzle on the later F-16 multi-axis thrust vectoring
+against a [four-hundred-pound][ref_joyce_pdf] fully axisymmetric nozzle on the later F-16 multi-axis thrust vectoring
 programme.
 **Carbon-carbon was chosen over the Inconel used on the [F/A-18 High Alpha Research Vehicle][ref_harv] specifically to avoid nose ballast**,
 because the paddles sit far aft and every pound there costs several forward. The Inconel-vaned research
@@ -605,7 +608,7 @@ independent of speed. A vectored moment is fixed by thrust, so its coefficient f
 pressure.
 **The two mechanisms have opposite dependences on speed, and that single fact organises everything else in this section.**
 
-The wider literature on this subject is gathered in the clusters on thrust vectoring and on fluidic thrust vectoring in The Contemporary Literature. The records closest to this section are these.
+Readers wanting more can turn to the clusters on thrust vectoring and on fluidic thrust vectoring in The Contemporary Literature. The following records sit nearest to this discussion.
 
 - [Phillips et al 1968][research_phillips_fiedler_1968]
 - [Capone and Mason 1986][research_capone_mason_1986]
@@ -614,9 +617,9 @@ The wider literature on this subject is gathered in the clusters on thrust vecto
 - [Tamrat and Antani 1988][research_tamrat_antani_1988]
 - [Bowers et al 1991][research_bowersalbionh_noffzgregoryk_1991]
 
-### The Moment Arm, Which Is Not Published
+### The Unreported Moment Arm
 
-**The distance from the centre of gravity to the vane station is not in any source consulted for this article, and the departure record does not supply it.**
+**The distance from the centre of gravity to the vane station is not given in the flight reports, and the departure record does not supply it.**
 
 The [envelope expansion report][ref_canter_ntrs] records that the departure from controlled flight at 58
 degrees of angle of attack during a split-S was caused by a yawing-moment asymmetry so large that it overcame
@@ -645,15 +648,19 @@ $$\ell_v < \frac{0.125 \times 55.77 \times 226.3 \times 23.83}{3{,}765 \times \s
 **That bound excludes only a centre of gravity within about four and a half feet of the nose of a fuselage
 40.67 feet long, which the geometry excludes already.** It is also soft. The thrust-lapse exponent of the
 model is not measured, and moving it from 0.8 to 1.2 moves the bound from 27.1 to 48.4 feet. The departure
-record therefore does not determine the arm, and this article does not assert one. What the record does
-support is the question the next section asks, which is how long an arm would have had to be.
+record therefore does not determine the arm. The one value found is in a study of differential canard
+deflection, [Whiting 1996][research_whitingmatthewrobert_1996], which tabulates for the full-scale aircraft
+a centre of gravity at fuselage station 269.2 inches and a vane centre of pressure at 480 inches, an arm of
+17.57 feet. At that arm the vectoring could supply a yawing-moment coefficient of only about 0.061 at the
+departure condition, consistent with the departure. What the flight record does
+support is the question the next section asks, namely how long an arm would have had to be.
 
 ### The Departure Boundary
 
-Without the arm, the available authority cannot be tabulated as a coefficient. **What can be tabulated is the
+Without a flight-report value for the arm, the available authority cannot be tabulated as a coefficient. **What can be tabulated is the
 arm the vectoring would have needed to hold a given asymmetry**, which uses only the thrust, the deflection
 and the dynamic pressure, and which can be set against the length of the fuselage. Thrust is lapsed with the
-pressure ratio of the standard atmosphere, which is the working approximation for a turbofan at fixed Mach
+pressure ratio of the standard atmosphere, the working approximation for a turbofan at fixed Mach
 number.
 
 **The atmosphere model is the 1976 standard troposphere and the density and pressure ratios it supplies are what the thrust lapse and the true-airspeed conversions rest on**,
@@ -682,8 +689,8 @@ proportion to the ambient pressure, so the working model is the simplest member 
 
 $$T(h) = T_{\text{SL}} \, \delta(h)^{n}$$
 
-with the exponent near unity. The exponent is carried explicitly rather than buried, so that its effect on
-the answer can be reported rather than assumed away.
+with the exponent near unity. The exponent is carried explicitly so that its effect on the answer can be
+reported.
 
 The arm needed to hold an asymmetry $C_{n0}$ is the vectoring relation solved at equality,
 
@@ -727,9 +734,9 @@ $$q_{L} = \frac{40.67 \times 7{,}353 \times \sin 16^{\circ}}{0.125 \times 226.3 
 
 **The shape of that table is the content.** The ceiling on speed falls with altitude because thrust does,
 and the departure's asymmetry lowers it by a factor of $\sqrt{0.125 / 0.080} = 1.25$ at every height. Below
-those speeds whether the vectoring sufficed depends on the unpublished arm. The departure itself, at an
+those speeds whether the vectoring sufficed depends on the arm. The departure itself, at an
 equivalent airspeed of 128.3 knots against a ceiling of 136.0 knots at 35,000 feet, sits below its own
-threshold, which is why it bounds the arm rather than showing that no arm would have done.
+threshold, so it bounds the arm rather than showing that no arm would have done.
 
 Its equivalent airspeed follows from the dynamic pressure computed above,
 
@@ -737,14 +744,15 @@ $$V_e = \sqrt{\frac{2 q}{\rho_0}} = \sqrt{\frac{2 \times 55.77}{0.0023769}} = 21
 
 The measured asymmetries themselves were worse than the round number suggests. In the unmodified forebody
 configuration on the second aircraft the maximum was bounded at 0.080 with no distinguishable trend against
-angle of attack, each manoeuvre producing what the report describes as a random pattern.
+angle of attack, each manoeuvre producing what the [asymmetry report][research_cobleigh_1994] describes as a
+random pattern.
 **Adding boundary-layer transition strips to the forebody and noseboom made the asymmetry more regular and simultaneously made it larger**,
-reaching almost 0.100, and in the worst single case the asymmetry swung from 0.050 to the right at 52
-degrees to 0.088 to the left by 55 degrees, a total change of
+reaching almost 0.100, and in the worst single case, with the forebody strips alone, the asymmetry swung
+from 0.077 in one direction at 52 degrees to 0.088 in the other by 55 degrees, a total change of
 
 $$\Delta C_n = 0.165 \ \text{across three degrees of angle of attack}$$
 
-The coefficient is a moment divided by a scale, so the disturbance the control system actually faces at a
+The coefficient is a moment divided by a scale, so the disturbance the control system faces at a
 given flight condition is
 
 $$N_{0} = C_{n0} \, q S b$$
@@ -755,7 +763,7 @@ is **67,780 foot-pounds**, delivered across three degrees of angle of attack.
 
 **A yawing moment coefficient that reverses sign and changes by 0.165 over three degrees is not a disturbance a control system rejects. It is a cliff.**
 
-The wider literature on this subject is gathered in the cluster on yaw asymmetry and forebody flow in The Contemporary Literature. The records closest to this section are these.
+The cluster on yaw asymmetry and forebody flow in The Contemporary Literature holds the wider literature, and these records lie closest to the present subject.
 
 - [Ericsson 1990][research_ericsson_1990]
 - [Ng 1990][research_ng_1990]
@@ -766,36 +774,36 @@ The wider literature on this subject is gathered in the cluster on yaw asymmetry
 
 ### What Fixed It
 
-The fix was aerodynamic and it was small. Narrow quarter-inch grit strips were added to the nose to
+The fix was aerodynamic and it was small. Narrow [quarter-inch grit strips][ref_nasa_fs] were added to the nose to
 regularise the vortices. Nose strakes six tenths of an inch wide and twenty inches long were added, and the
 nose tip was blunted from an essentially sharp point to a radius of three quarters of an inch.
 **The blunting was the more significant of the two.**
 
-The measured effect was to raise the angle of attack at which asymmetry begins by seven to twelve degrees,
+The [measured effect][research_cobleigh_1994] was to raise the angle of attack at which asymmetry begins by seven to twelve degrees,
 to reduce the maximum asymmetry, and, most usefully, to eliminate the random variation and make the
 asymmetry repeatable. A longer forty-six-inch strake was tried and changed the one-g deceleration
 asymmetries very little, shifting their onset about two degrees higher.
 
 **An error in manufacture turned into a measurement.** The modified nose tip on the second aircraft was
-found late in testing to be one inch in diameter rather than the one and a half inches specified and built
-on the first. That unintended difference is a data point on the sensitivity of the whole phenomenon to a
+[found late in testing][research_cobleigh_1994] to be one inch in diameter rather than the one and a half inches specified and built
+on the first. That unintended difference is a data point on the sensitivity of the phenomenon to a
 dimension of about half an inch on a forty-foot aeroplane.
 
 There is a second and stranger case. The two aircraft did not fly alike, and the second was known on the
-programme as the evil twin.
+programme as [the evil twin][ref_nasa_fs].
 **Testing it with several lengths of extended nose established that eight and a half inches of added strake length made the two fly identically**,
-which is as direct a statement of forebody sensitivity as the programme produced.
+as direct a demonstration of forebody sensitivity as the programme produced.
 
 ### The Altitude Effect the Engineers Reported and Never Wrote Down
 
-The flight-test report contains an observation presented as a lesson about test technique. The traditional
+The [flight-test report][ref_canter_ntrs] contains an observation presented as a lesson about test technique. The traditional
 build-up approach completes a block of testing at high altitude and repeats it lower, on the reasoning that
 control power at low airspeed is a function of dynamic pressure and the same calibrated airspeed therefore
 gives the same control power at any height.
 **The report observes that this reasoning fails when a large share of control power comes from the engine**,
 and that manoeuvres impossible at thirty thousand feet became possible at twenty thousand.
 
-**That observation is exactly the consequence of the opposite speed dependences noted above, and it is computable without the arm.**
+**That observation follows directly from the opposite speed dependences noted above, and the arm is not needed to compute it.**
 At constant calibrated airspeed the aerodynamic authority is constant by construction, since dynamic
 pressure referred to sea-level density is what calibrated airspeed measures. The vectored authority moves
 with thrust, and thrust at fixed Mach number moves with the ambient pressure ratio, while the unknown arm
@@ -808,9 +816,10 @@ vectored control authority for no change of airspeed whatever. The sensitivity t
 giving 0.7052 at an exponent of 0.8 and 0.5922 at an exponent of 1.2.
 
 **The test team responded by starting each block at thirty thousand feet, watching control margins on the control-room strip charts, and restarting lower when the margins ran out.**
-They reached seventy degrees of angle of attack at twenty thousand feet on blocks that had stopped at fifty
-degrees ten thousand feet higher. The quantitative explanation is a one-line ratio, and the programme found
-the answer empirically because nobody had written the ratio down.
+Where the margins allowed, they went on to seventy degrees of angle of attack at twenty thousand feet on
+blocks that [might have stopped at fifty degrees][ref_canter_ntrs] ten thousand feet higher.
+The quantitative explanation is a one-line ratio, and the programme found the answer empirically because
+nobody had written the ratio down.
 
 - [Smith 1966][research_smith_1966]
 - [Schaeffler et al 1967][research_schaeffler_alscher_1967]
@@ -840,7 +849,7 @@ the answer empirically because nobody had written the ratio down.
 
 ### Why the Advantage Is Not a Smaller Turn Radius
 
-**Several accounts of this aircraft, including some official ones, attribute its combat performance partly to a smaller turning radius. The arithmetic does not support that.**
+**Several accounts of this aircraft, including official ones such as the [NASA history][ref_joyce_pdf], attribute its combat performance partly to a smaller turning radius. The arithmetic does not support that.**
 
 Turn radius in a level turn is
 
@@ -878,21 +887,22 @@ $$V_{\text{level}} = \sqrt{\frac{2 \times 14{,}600}{0.0023769 \times 226.3 \time
 **Every radius in the table exceeds the 1,171 feet available at corner speed**, which is derived below. The
 post-stall regime is not where this aeroplane turns most tightly.
 
-**The primary sources are consistent with that reading even where the summaries are not.** They describe the
-manoeuvre as a reversal, a rotation and a repositioning tool, and never as a sustained turn.
+**The primary sources are largely consistent with that reading even where the summaries are not.** The
+[tactical utility paper][ref_canter_ntrs] describes post-stall manoeuvring as a repositioning tool and a way
+to rotate and point, and where it speaks of smaller-radius turns it describes a descending funnel in which
+the X-31 is slower than its opponent, not a sustained level turn.
 
-### What the Advantage Actually Is
+### What the Advantage Is
 
-**The nose leads the flight path by exactly the angle of attack.** That is the definition of angle of attack
-and it is the whole mechanism. An aircraft limited to thirty degrees can aim thirty degrees off its velocity
+**The nose leads the flight path by exactly the angle of attack.** The statement defines angle of attack,
+and it describes the whole mechanism. An aircraft limited to thirty degrees can aim thirty degrees off its velocity
 vector and an aircraft that holds seventy can aim seventy, so the capability bought is
 
 $$\Delta \psi_{\text{aim}} = \alpha_{\max} - \alpha_{\text{conv}} = 70 - 30 = 40 \ \text{degrees}$$
 
-**That quantity is what the agility-metrics literature of the period was trying to name.** The work on
+**The agility-metrics literature of the period was trying to name that quantity.** The work on
 [Skow et al 1985][research_skow_hamilton_1985] and the later
-[assessment of the proposed metrics][research_liefer_valasek_1990] were contemporaneous with this programme
-and were partly motivated by it.
+[assessment of the proposed metrics][research_liefer_valasek_1990] were contemporaneous with this programme.
 
 **A conventional aircraft can obtain the same forty degrees of aim only by turning its velocity vector through forty degrees**,
 and the time that takes follows from the turn rate,
@@ -969,13 +979,15 @@ At constant altitude $dE_s = V \, dV / g$, so the recovery time is
 $$t = \int_{V_1}^{V^{*}} \frac{V \, dV}{g \, P_s(V)} = 46.0 \ \text{s} \qquad \text{against} \qquad \frac{\Delta E_s}{P_s(V_1)} = \frac{8{,}632.7}{68.60} = 125.8 \ \text{s}$$
 
 **Integrating gives 46.0 seconds**, evaluated by midpoint quadrature over 4,000 speed steps. A single-point
-estimate at the slow end would have said 125.8 seconds, wrong by a factor of $125.8 / 46.0 = 2.74$, which is
-why the integration is not optional. The answer is insensitive to the
+estimate at the slow end would have said 125.8 seconds, wrong by a factor of $125.8 / 46.0 = 2.74$, so
+the integration is not optional. The answer is insensitive to the
 drag model, giving 44.5 seconds at a zero-lift drag coefficient of 0.018 and 47.6 seconds at 0.026.
 
-**Forty-six seconds is the whole engagement.** The pointing advantage is bought with a debt that cannot be
-repaid inside the fight it was spent in, and that is the quantitative form of the programme's own conclusion
-that post-stall manoeuvring works only when used selectively and in a timely manner.
+**Forty-six seconds is half of the ninety seconds** after which an undecided flight engagement was
+[scored as a draw][ref_joyce_pdf]. The pointing advantage is bought with a debt that is hard to repay
+inside the fight it was spent in, and the debt gives quantitative form to the programme's
+[own conclusion][ref_canter_ntrs] that post-stall manoeuvring works only when used selectively and in a
+timely manner.
 
 - [Johnson 1972][research_johnson_1972]
 - [Skow et al 1985][research_skow_hamilton_1985]
@@ -998,19 +1010,23 @@ that post-stall manoeuvring works only when used selectively and in a timely man
 ### The Flight Control System
 
 **Four digital [fly-by-wire][ref_fbw] flight control computers, with no analogue or mechanical reversion of any kind.**
-Three synchronous main computers drove the surfaces and a fourth acted as a tie-breaker when the three
-disagreed. The aircraft had thirty-two software releases over the course of the programme.
+Three synchronous main computers drove the surfaces and a fourth acted as a [tie-breaker][ref_nasa_fs] when
+the three disagreed. The aircraft had [thirty-two software releases][ref_joyce_pdf] over the course of the
+programme.
 
 The control-law conventions and the simulation practice behind them are set out in
 [Stevens and Lewis on aircraft control and simulation][book_stevens_lewis] and in
-[McRuer on aircraft dynamics and automatic control][book_mcruer]. The control laws were of the reactive
-type, mapping pilot commands onto surface deflections and thrust vectoring through an integrated flight and
-propulsion control system, with the canard floating rather than being commanded directly.
-**The integration of vectoring as an equivalent moment generator in pitch and yaw, transparent to the pilot, is what the programme claimed as a first**,
-and the flight-test report records 180 flight hours of trouble-free operation of the vectoring system.
+[McRuer on aircraft dynamics and automatic control][book_mcruer]. The control laws, written by the German
+manufacturer, were of the predictive type, using a model of the flight path to map pilot commands and flight
+conditions onto surface deflections and thrust vectoring, where the American partner favoured a reactive
+type based on measured response, as the [NASA history][ref_joyce_pdf] describes, and they ran in an
+integrated flight and propulsion control system that included the canard.
+**The programme claimed as a first the integration of vectoring as an equivalent moment generator in pitch and yaw, transparent to the pilot**,
+and the [review of high angle of attack control system performance][research_huberpeter_seamountpatricia_1994]
+records 180 flight hours of trouble-free operation of the vectoring system.
 
-Lateral stick commanded roll rate about the velocity vector rather than about the body axis, which is the
-correct command variable at high angle of attack and is what makes the manoeuvre flyable.
+[Lateral stick commanded roll rate about the velocity vector][research_huberpeter_seamountpatricia_1994] rather than about the body axis. Velocity-vector
+roll is the correct command variable at high angle of attack, and it makes the manoeuvre flyable.
 **The distinction is not cosmetic and the kinematics say why.** A roll about the velocity vector is a
 combination of body-axis roll and yaw rates weighted by the angle of attack,
 
@@ -1027,22 +1043,23 @@ At seventy degrees the two weights are
 $$\cos 70^{\circ} = 0.3420 \qquad \sin 70^{\circ} = 0.9397$$
 
 **so at seventy degrees a roll about the velocity vector is 94.0 percent yaw rate.** That single line explains
-a sentence in the programme's own conclusions which otherwise reads as a correction of itself, where the
+a sentence in the programme's [own conclusions][ref_joyce_pdf] which otherwise reads as a correction of itself, where the
 main advantage is described as an apparent directional nose-pointing rate which is, in actuality, yaw rate
-or velocity-vector roll capability. **At seventy degrees those are the same manoeuvre**, and it is the yaw
-axis that has to supply it, which is precisely the axis whose aerodynamic control has been lost and whose
-vectored control the paddles restore. The maximum roll rate that could be commanded depended on the control
-power available at the flight condition, which is to say on altitude, Mach number, dynamic pressure and
-angle of attack together.
+or velocity-vector roll capability. **At seventy degrees those are the same manoeuvre**, and the yaw axis
+has to supply it. That axis is precisely the one whose aerodynamic control has been lost and whose vectored
+control the paddles restore. The maximum roll rate that could be commanded depended on the control power
+available at the flight condition, meaning on altitude, Mach number, dynamic pressure and angle of attack
+together.
 
-**Two control-law responses to the asymmetry problem are worth recording.** Integrators were added to the
+**Two control-law responses to the asymmetry problem stand out.** Integrators were added to the
 roll-rate and sideslip feedbacks to tighten control of sideslip and velocity-vector roll rate in the
 presence of aerodynamic asymmetries, and the wind-axis roll rate command was limited in the post-stall
-regime, which the report describes as an acceptable compromise of roll performance against controllability.
+regime, which the [control system review][research_huberpeter_seamountpatricia_1994] describes as an
+acceptable compromise of roll performance against controllability.
 
 A pilot-selectable angle of attack limiter, settable in five-degree increments between thirty and seventy
-degrees, was added after an inadvertent overshoot to 62 degrees when the limit was still fifty, as the
-[envelope expansion report][ref_canter_ntrs] records.
+degrees, was added after an [inadvertent overshoot][ref_canter_ntrs] to 62 degrees when the limit was still
+fifty.
 **It improved the repeatability of the data as much as it improved safety**, which simplified the analysis.
 
 The wider literature on this subject is gathered in the cluster on flight control system design, actuation and allocation in The Contemporary Literature. The records closest to this section are these.
@@ -1071,19 +1088,19 @@ At the frequency of the tailless divergence derived below, 2.390 per second, tha
 **The system is position limited rather than rate limited at the frequency that matters**, by a margin of
 1.046 in amplitude.
 
-The frequency at which the two limits coincide is 2.500 per second, which is 1.05 times the divergence
-eigenvalue. **That is a very close coincidence between two numbers with nothing to do with each other**, the
+The frequency at which the two limits coincide is 2.500 per second, or 1.05 times the divergence
+eigenvalue. **The coincidence is very close, and the two numbers have nothing to do with each other**, the
 ratio of a rate limit to a travel limit on one hand and a measured aerodynamic instability on the other. It
 is recorded as an observation and not as a claim about design intent, because nothing in the record says the
 sizing was done that way.
 
 ### The Quasi-Tailless Experiment
 
-**In 1994 the aircraft was used to fly an aeroplane it was not**, by destabilising itself in yaw with its
+**In 1994 the aircraft was used to fly an aeroplane it was not**, by [destabilising itself in yaw][research_huberpeter_schellengerharveyg_1994] with its
 own rudder to the level a smaller fin would have produced, and then holding the result with thrust
 vectoring.
 
-The method was possible without major software change because the vectoring was already integrated into the
+The method was possible [without major software change][research_huberpeter_schellengerharveyg_1994] because the vectoring was already integrated into the
 control laws. The existing rudder augmentation could be reduced to any desired level or switched off
 entirely, a destabilising feedback to rudder and ailerons was introduced using sideslip, roll rate and yaw
 rate, the augmentation and forward-path command were redistributed to thrust vectoring, an additional
@@ -1092,10 +1109,10 @@ disengagement reverted the aircraft automatically on a system failure or an enve
 **Destabilisation gains corresponding to different simulated tail sizes were selectable by the pilot in flight**,
 which gave a build-up capability within a single sortie.
 
-The aerodynamic database was built by adding increments for tail-off and reduced-tail configurations to a
+The [aerodynamic database][research_huberpeter_schellengerharveyg_1994] was built by adding increments for tail-off and reduced-tail configurations to a
 basic model that had itself been corrected against flight-derived parameter identification results.
 
-**The reported result is the most quantitatively useful thing the experiment produced.** Above thirty
+**The [reported result][research_huberpeter_schellengerharveyg_1994] is the most quantitatively useful thing the experiment produced.** Above thirty
 percent tail reduction the destabilised aircraft has a positive eigenvalue. The instability grows rapidly
 between thirty and seventy percent, and at complete tail removal it reaches a time to double amplitude of
 **290 milliseconds**, demonstrated at a supersonic flight condition.
@@ -1116,18 +1133,20 @@ literature established,
 
 $$\lambda^{2} = -\frac{q S b \, C_{n\beta}}{I_z}$$
 
-**A single time to double fixes the ratio of stiffness to inertia and cannot fix either factor, and the yaw inertia of this aircraft is not published.**
-The ratio is therefore what is reported. The condition is quoted as a Mach number and an altitude and the
+**A single time to double fixes the ratio of stiffness to inertia and cannot fix either factor**, and the
+flight reports omit the yaw inertia.
+The ratio is therefore reported first. The condition is quoted as Mach 1.2 at 38,000 feet in the
+[quasi-tailless flight test report][ref_bosworth_tp3624], and the
 relation needs a dynamic pressure, so the conversion runs through the speed of sound and the density ratio,
 using the axis and airspeed conventions that the [Altman 1952][research_altman_1952] literature
 fixed long before this aeroplane,
 
 $$V_{\text{true}} = M a \qquad V_{\text{eq}} = V_{\text{true}} \sqrt{\sigma} \qquad q = \tfrac{1}{2} \rho_0 \sigma V_{\text{true}}^{2} = \tfrac{1}{2} \rho_0 V_{\text{eq}}^{2}$$
 
-**The last equality is the check.** Both routes must give the same dynamic pressure, and at thirty thousand
-feet the speed of sound is 994.8 feet per second, so Mach 1.2 is a true airspeed of 1,194 feet per second
-and an equivalent airspeed of 730.1 feet per second, or 432.6 knots, and both routes return 633.4 pounds per
-square foot. Substituting gives
+**The last equality is the check.** Both routes must give the same dynamic pressure, and worked first at
+thirty thousand feet, inside the troposphere that the relations above describe, the speed of sound is
+994.8 feet per second, so Mach 1.2 is a true airspeed of 1,194 feet per second and an equivalent
+airspeed of 730.1 feet per second, or 432.6 knots, and both routes return 633.4 pounds per square foot. Substituting gives
 
 $$-\frac{C_{n\beta}}{I_z} = 1.6724 \times 10^{-6} \ \text{per slug foot squared per radian}$$
 
@@ -1139,14 +1158,19 @@ Assuming a yaw inertia gives a directional stiffness, and the sensitivity is lin
 | 20,000 slug ft² | −0.03345 | −0.000584 |
 | 25,000 slug ft² | −0.04181 | −0.000730 |
 
-**Those are plausible magnitudes for a tailless delta and that is all that can honestly be said.** The
-measurement determines the ratio and the inertia is an assumption.
+**Those are plausible magnitudes for a tailless delta.** At the demonstration altitude of 38,000 feet,
+above the tropopause where the temperature is constant at 389.97 degrees Rankine, the pressure ratio is
+0.2038 and the dynamic pressure 434.7 pounds per square foot, which raises the ratio to
+$2.437 \times 10^{-6}$. The full-scale yaw inertia of 35,200 slug feet squared that
+[Whiting 1996][research_whitingmatthewrobert_1996] tabulates then gives $C_{n\beta} = -0.0858$ per radian,
+or $-0.00150$ per degree, larger in magnitude than any row of the table because both the inertia and the
+altitude exceed the values assumed there.
 
-### The Comparison With the X-29, Which Is Why a Series Exists
+### The Comparison With the X-29
 
 **The previous article in this series measured an instability in pitch and this one measures an instability in yaw, and the two numbers can be put side by side.**
 
-The X-29A doubled in 100 milliseconds in pitch, an eigenvalue of 6.931 per second. The X-31 simulating a
+The [X-29A][related_post_a326_grumman_x29] doubled in 100 milliseconds in pitch, an eigenvalue of 6.931 per second. The X-31 simulating a
 complete absence of vertical tail doubled in 290 milliseconds in yaw, an eigenvalue of 2.390.
 **The X-29's instability was 2.90 times faster.**
 
@@ -1212,9 +1236,9 @@ practical sense of demanding reliable computers.
 
 ### Air Data, and the Probe That Solved One Problem and Created Another
 
-**The X-31's air data system is where the programme's care and its worst failure meet, and they meet in the same component.**
+**In the X-31's air data system the programme's care and its worst failure meet, and they meet in the same component.**
 
-Below thirty degrees of angle of attack the noseboom updated the inertial navigation unit with air data.
+Below thirty degrees of angle of attack the noseboom [updated the inertial navigation unit][ref_canter_ntrs] with air data.
 When the pilots began flying extended periods above thirty degrees the inertial unit began computing large
 and entirely fictitious sideslip values as the wind changed in direction and magnitude.
 **The aircraft's basic stability at high angle of attack gave it a low tolerance for sideslip**, so a false
@@ -1224,14 +1248,15 @@ The solution was a **[Kiel probe][ref_kiel]** in place of the standard [pitot-st
 ten degrees downward from the standard configuration, with the sideslip vane rotated twenty degrees down
 from the noseboom to remove an oscillation that appeared at 62 degrees, both changes the
 [envelope expansion report][ref_canter_ntrs] describes. A Kiel probe carries a shroud around
-the pressure port and is insensitive to flow angle over a wide range, which is exactly what an aircraft
-flying at seventy degrees of angle of attack needs.
+the pressure port and is insensitive to flow angle over a wide range, the property an aircraft flying at
+seventy degrees of angle of attack needs.
 **With those changes the air data was accurate throughout the angle of attack envelope.**
 
-**It was also unheated.** The decision not to fit heat was conscious, taken because the team did not want to
+**It was also unheated.** The [decision not to fit heat][ref_joyce_pdf] was conscious, taken because the team did not want to
 wait for a heated Kiel probe to be manufactured, and because the flight-test environment does not mandate
-provision for pitot heat. The cockpit switch was disabled and the work order called for it to be placarded
-inoperative. **It was not placarded, and it remained clearly marked "Pitot heat".** At the time of the
+provision for pitot heat. The cockpit switch was disabled, but the work order for the probe called only for
+its circuit breaker to be collared and did not call for the switch to be placarded inoperative.
+**It was not placarded, and it remained clearly marked "Pitot heat".** At the time of the
 accident four of the five active pilots believed the pitot heat worked.
 
 - [Wada 1924][research_wada_1924]
@@ -1256,7 +1281,7 @@ accident four of the five active pilots believed the pitot heat worked.
 
 ### The Failure Mode Nobody Analysed
 
-**What the probe actually measures is a pressure difference, and everything downstream is derived from it.**
+**The probe measures a pressure difference, and everything downstream is derived from it.**
 The impact pressure is the difference between total and static pressure,
 
 $$q_c = p_t - p_s = p_0 \left[ \left( 1 + \tfrac{\gamma - 1}{2} M^{2} \right)^{\frac{\gamma}{\gamma - 1}} - 1 \right]$$
@@ -1265,23 +1290,23 @@ and calibrated airspeed is defined as the speed that would produce that impact p
 conditions.
 **Ice in the probe corrupts the total pressure and therefore corrupts everything derived from it at once.**
 At 170 knots calibrated the impact pressure is 99.47 pounds per square foot and at 48 knots it is 7.81, a
-ratio of **12.735**, which is the same factor as the loop-gain error computed below because at these speeds
+ratio of **12.735**, the same factor as the loop-gain error computed below because at these speeds
 the compressible and incompressible forms agree to within two percent.
 
-**Pitot pressure fed two air data computers, each supplying two of the four flight control computers.** A
+**Pitot pressure fed [two air data computers][ref_joyce_pdf], each supplying two of the four flight control computers.** A
 disagreement between the two air data computers would raise a fault and a reversion request.
 **A shared error would not**, because both computers received the same pneumatic signal from the same single
 probe and computed the same wrong answer from it.
 
 The hazard analyses had assumed that false pitot information would be obvious. They had been performed when
 the aircraft carried a heated probe, and they were not repeated when the unheated Kiel probe was fitted. The
-Mishap Investigation Report is quoted in the NASA history as recording that the only means by which the
+Mishap Investigation Report is quoted in the [NASA history][ref_joyce_pdf] as recording that the only means by which the
 flight control system was designed to detect degradation of air data was disagreement between the two air
 data computers, that there was a misconception among the test team and system safety engineers that the
 system could identify abrupt changes in air data signals, and that
 **no flight control code implementing such a safeguard could be found and the board concluded that it did not exist**.
 
-The wider literature on this subject is gathered in the cluster on analytical redundancy and sensor fault detection in The Contemporary Literature. The records closest to this section are these.
+The topic is surveyed more fully in the cluster on analytical redundancy and sensor fault detection in The Contemporary Literature, and the records bearing most directly on the discussion here follow.
 
 - [Montgomery and Price 1974][research_montgomeryrc_pricedb_1974]
 - [Deckert et al 1978][research_deckertjc_desaimn_1978]
@@ -1289,20 +1314,20 @@ The wider literature on this subject is gathered in the cluster on analytical re
 - [Gertler 1991][research_gertler_1991]
 - [Patton 1991][research_patton_1991]
 
-### Gain Scheduling, and Why an Airspeed Error Is a Stability Error
+### How an Airspeed Error Becomes a Stability Error
 
-**The flight control gains were scheduled on measured airspeed, and this is the mechanism that destroyed the first aircraft.**
+**The flight control gains were [scheduled on measured airspeed][ref_joyce_pdf], and that schedule is the mechanism that destroyed the first aircraft.**
 
 Control surface effectiveness rises with dynamic pressure. A gain schedule therefore reduces gain as speed
 rises, so that the loop gain stays where the designer put it. If the measured speed is low and the true
 speed is not, the schedule selects gains for the slower condition while the surfaces are producing the
 moments of the faster one. The loop gain is multiplied by the ratio of true to indicated dynamic pressure,
-which is the **square** of the airspeed ratio,
+equal to the **square** of the airspeed ratio,
 
 $$\frac{K_{\text{actual}}}{K_{\text{design}}} = \frac{q_{\text{true}}}{q_{\text{indicated}}} = \left( \frac{V_{\text{true}}}{V_{\text{indicated}}} \right)^{2}$$
 
-On the accident flight the indicated airspeed fell to between 48 and 100 knots calibrated while the true
-airspeed was 170.
+On the accident flight the indicated airspeed fell to [between 48 and 100 knots][ref_joyce_pdf] calibrated
+while the actual airspeed was 170.
 
 | Indicated | True | Loop gain factor | In decibels |
 |---|---|---|---|
@@ -1318,7 +1343,7 @@ exceeded the entire design gain margin by a factor of 1.445, and the most severe
 sixfold.
 **The aircraft did not encounter a marginal condition. It encountered one that was outside the design margin by any reading of the data.**
 
-The wider literature on this subject is gathered in the cluster on gain scheduling and stability margins in The Contemporary Literature. The records closest to this section are these.
+The broader record appears under the cluster on gain scheduling and stability margins in The Contemporary Literature. These records bear most closely on the argument above.
 
 - [Safonov 1984][research_safonov_1984]
 - [Rugh 1990][research_rugh_1990]
@@ -1329,7 +1354,7 @@ The wider literature on this subject is gathered in the cluster on gain scheduli
 
 ### The Cross-Check the Cockpit Already Contained
 
-**The failure was detectable from information already displayed, and this is the finding that matters most in this section.**
+**The finding that matters most in this section is that the failure was detectable from information already displayed.**
 
 Angle of attack and airspeed are not independent quantities in level flight. They are linked by the lift
 equation, and either one predicts the other. Using the lift-curve slope inferred earlier,
@@ -1357,15 +1382,15 @@ margin factor of 1.995 gives the coldest number in this article,
 $$\frac{207}{137.5} = 1.505 \qquad \left( \frac{207}{137.5} \right)^{2} = 2.266 \qquad 10^{6/20} = 1.995$$
 
 **At the moment the pilot spoke the words aloud, the loop gain error had already exceeded the design gain margin.**
-The aircraft was flown for some time after that, and at the true airspeed of 170 knots the disagreement was
-still 6.9 degrees.
+The aircraft was flown for some time after that, and at the actual airspeed of 170 knots the disagreement
+was still 6.9 degrees.
 
 **The redundancy needed to catch this failure was analytical rather than physical**, and it was available
 for the cost of an arithmetic comparison between two signals the aircraft already had. A second probe would
 have been heavier. A comparison of angle of attack against airspeed through a lift curve would have weighed
 nothing.
 
-There were further clues.
+There were [further clues][ref_joyce_pdf].
 **The flutter test excitation box was inhibited above two hundred knots calibrated and refused to operate**,
 which the pilot remarked on and did not pursue. A separate standby airspeed indicator on a simple pitot tube
 sat near the pilot's right knee and would probably have read close to the truth. It was not checked.
@@ -1384,12 +1409,12 @@ sat near the pilot's right knee and would probably have read close to the truth.
 ### Propulsion Integration
 
 **An articulating inlet cowl that could open to thirty degrees depending on angle of attack was fitted to keep the engine supplied at seventy degrees**,
-and the programme claimed it as a first. This is the least discussed dependent system on the aircraft and it
-is not a small problem. An inlet designed for flight along the free stream is presented at seventy degrees
+and the programme [claimed it as a first][ref_joyce_pdf]. No dependent system on the aircraft is less discussed, and
+the problem is not small. An inlet designed for flight along the free stream is presented at seventy degrees
 with a flow it was never shaped for, and a compressor stall in an aircraft whose control authority comes
 partly from thrust is a control failure as well as a propulsion failure.
 
-The wider literature on this subject is gathered in the cluster on propulsion integration at extreme attitude in The Contemporary Literature. The records closest to this section are these.
+Readers wanting more can turn to the cluster on propulsion integration at extreme attitude in The Contemporary Literature. The following records sit nearest to this discussion.
 
 - [Korn 1974][research_korn_1974]
 - [Williams and Hunt 1980][research_williams_hunt_1980]
@@ -1401,21 +1426,21 @@ The wider literature on this subject is gathered in the cluster on propulsion in
 
 **The scoring apparatus deserves to be treated as a dependent system, because the keystone is a measured rate and the scoring is the instrument that measures it.**
 
-Both the X-31 and the adversary aircraft were instrumented, and both carried C-band beacons to improve
+Both the X-31 and the adversary aircraft were [instrumented][ref_canter_ntrs], and both carried C-band beacons to improve
 ground radar tracking accuracy. Aircraft and space-position data were combined to determine valid firing
 positions for simulated missile shots, which allowed the test team to tell the pilots within seconds of a
 trigger squeeze whether a kill had been scored.
 
-**The purpose was efficiency and the effect was on the data.** Pilots knocked off an engagement as soon as a
+**The purpose was efficiency and the effect was on the data.** Pilots [knocked off an engagement][ref_canter_ntrs] as soon as a
 kill was scored, which allowed many more engagements per flight.
 **An engagement terminated at first kill is a different experimental unit from one flown to a conclusion**,
-and that is a design choice with consequences for what the exchange ratio counts. The programme does not
+and the choice has consequences for what the exchange ratio counts. The programme does not
 appear to have discussed it in those terms.
 
-Three-dimensional visualisation tools showed what both aircraft were doing during close-in combat, used in
+[Pseudo three-dimensional visualisation tools][ref_canter_ntrs] showed what both aircraft were doing during close-in combat, used in
 real time to improve situational awareness in the control room and afterwards for debriefing.
 
-The wider literature on this subject is gathered in the cluster on weapons, displays and the off-boresight problem in The Contemporary Literature. The records closest to this section are these.
+The cluster on weapons, displays and the off-boresight problem in The Contemporary Literature holds the wider literature, and these records lie closest to the present subject.
 
 - [Jones 1973][research_jones_1973]
 - [Merryman 1994][research_merryman_1994]
@@ -1442,11 +1467,11 @@ The wider literature on this subject is gathered in the cluster on weapons, disp
 
 ## The Flight Test Record
 
-**The programme flew 580 flights, which was an X-plane record**, comprising 559 research missions and 21 in
+**The programme flew 580 flights, an [X-plane record][ref_nasa_fs]**, comprising 559 research missions and 21 in
 Europe for the 1995 Paris Air Show, with fourteen pilots.
 
 The headline totals are published.
-**The distributions are not, and they can be recovered by counting the per-flight log in the appendix of the NASA history.**
+**The distributions are not, and they can be recovered by counting the per-flight log in the appendix of the [NASA history][ref_joyce_pdf].**
 That log carries a flight identifier, a date, a pilot and a purpose for every sortie of both aircraft, and
 parsing it returns quantities nobody tabulated.
 
@@ -1467,8 +1492,8 @@ parsing it returns quantities nobody tabulated.
 That is 99.66 percent of the published total, which is close enough to treat the extraction as sound and far
 enough from exact to say so.
 
-The tempo follows from the counts and the span, which is bookkeeping rather than flight-test technique but
-is reported with the same care,
+The tempo follows from the counts and the span. The computation is bookkeeping rather than flight-test
+technique but is reported with the same care,
 
 $$\dot{N} = \frac{N}{\Delta t} \qquad \text{and} \qquad \frac{N}{D} = \text{flights per flying day}$$
 
@@ -1489,7 +1514,7 @@ The annual distribution shows the shape of the programme.
 | 2002 | 41 |
 | 2003 | 32 |
 
-**The 1992 dip is the move from Palmdale to Dryden and the reorganisation under the International Test Organization.**
+**The 1992 dip is [the move from Palmdale to Dryden][ref_nasa_fs] and the reorganisation under the International Test Organization.**
 The 1993 and 1994 peaks are envelope expansion and the tactical utility testing. The gap from 1995 to 2001
 is the six years between the end of the first programme and the start of the second.
 
@@ -1521,7 +1546,7 @@ dates the programme's recovery from the loss of the first aircraft to within a d
 | 19 January 1995 | Loss of the first aircraft |
 | June 1995 | Paris Air Show, and the end of the programme |
 
-Before the move to Dryden the aircraft flew 108 test missions at Palmdale, achieving thrust vectoring in
+Before the move to Dryden the aircraft flew [108 test missions][ref_nasa_fs] at Palmdale, achieving thrust vectoring in
 flight and expanding the post-stall envelope to forty degrees of angle of attack.
 
 The wider literature on this subject is gathered in the cluster on high angle of attack aerodynamics in The Contemporary Literature. The records closest to this section are these.
@@ -1534,14 +1559,15 @@ The wider literature on this subject is gathered in the cluster on high angle of
 
 ### The Tactical Utility Flight Test
 
-**The flight programme flew 87 sorties in the tactical utility phase, of which 80 were scored. Those produced 407 engagements, of which 325 were scored.**
-Six pilots from the International Test Organization flew in each condition. Reducing those to rates,
+**The flight programme flew [87 sorties][ref_joyce_pdf] in the tactical utility phase, of which 80 were scored. Those produced 407 engagements, of which 325 were scored.**
+Pinball II had [recommended][ref_joyce_pdf] that each of the six pilots of the International Test
+Organization fly every starting condition. Reducing those counts to rates,
 
 $$\frac{80}{87} = 92.0 \ \text{percent of sorties scored} \qquad \frac{325}{407} = 79.9 \ \text{percent of engagements scored}$$
 
 $$\frac{407}{80} = 5.09 \ \text{engagements per scored sortie} \qquad \frac{325}{80} = 4.06 \ \text{scored engagements per scored sortie}$$
 
-**Four scored engagements per sortie is a high rate and it is the direct product of the real-time kill determination described above.**
+**Four scored engagements per sortie is a high rate, the direct product of the real-time kill determination described above.**
 It is also the reason the flight programme reached a few hundred engagements rather than a few dozen.
 
 The flight programme could not reproduce the simulation exactly, and the most consequential difference is an
@@ -1552,13 +1578,13 @@ post-stall use, according to the [NASA history][ref_joyce_pdf]. Only the slow-sp
 
 A later series raised the entry speed.
 **The flight-test conclusion was that 265 knots calibrated was slightly better than 225 and that 300 knots would be desirable for a future fighter**,
-which is a statement that the demonstrator was constrained below the useful value of its own capability.
+a finding that the demonstrator was constrained below the useful value of its own capability.
 The [NASA history][ref_joyce_pdf] lists that finding among the flight-test conclusions.
 
 ### What the Flight Testing Concluded
 
 The conclusions of the tactical utility flight test, as the [NASA history][ref_joyce_pdf] sets them out,
-are worth quoting in structure because they are more careful than the summaries built on them.
+are quoted here in structure because they are more careful than the summaries built on them.
 
 - Post-stall close-in combat at seventy degrees of angle of attack had overwhelming success.
 - Flying the aircraft conventionally, limited to thirty degrees, showed that the benefits of
@@ -1574,16 +1600,16 @@ are worth quoting in structure because they are more careful than the summaries 
 - Advanced short-range missiles with greater angle of attack and off-boresight launch capability
   are highly desirable for an aircraft with post-stall technology.
 
-**The fifth of those is the most important sentence the programme produced and it is almost never quoted.**
+**The fifth of those is the most important sentence the programme produced, yet it is almost never quoted.**
 A manoeuvre advantage that applies inside a particular arena is worth nothing against an opponent who
-declines to enter that arena. The F-15C and F-16C pilots of the 422nd Test and Evaluation Squadron exploited
+declines to enter that arena. The F-15C and F-16C pilots of the [422nd Test and Evaluation Squadron][ref_joyce_pdf] exploited
 their thrust-to-weight advantage to stay above the fight.
 
-**That is not a limitation of post-stall technology as implemented. It is a statement about what kind of advantage it is.**
-An exchange ratio is not a property of an aeroplane. It is a property of an engagement, and the adversary
-gets a vote on which engagement occurs.
+**The result exposes no limitation of post-stall technology as implemented. It shows what kind of advantage the technology confers.**
+An exchange ratio describes an engagement more than an aeroplane, and the adversary gets a vote on which
+engagement occurs.
 
-The wider literature on this subject is gathered in the cluster on air combat effectiveness, simulation and measurement in The Contemporary Literature. The records closest to this section are these.
+The topic is surveyed more fully in the cluster on air combat effectiveness, simulation and measurement in The Contemporary Literature, and the records bearing most directly on the discussion here follow.
 
 - [Pennington and Meintel 1980][research_penningtonje_meintelajjr_1980]
 - [Costes 1988][research_costes_1988]
@@ -1596,7 +1622,7 @@ The wider literature on this subject is gathered in the cluster on air combat ef
 
 **The pilots' own summary is more restrained than the fact sheet built on it, and the divergence between the two is documented.**
 
-The flight-test paper delivered in July 1994 records that all the pilots on the programme had strong
+The [flight-test paper delivered in July 1994][ref_canter_ntrs] records that all the pilots on the programme had strong
 military backgrounds and that one point they agreed on is that the aircraft
 **does not necessarily represent a total revolution in air combat**. They would not advocate trading away
 other important fighter characteristics to acquire the capability. What they concluded was that enhanced
@@ -1604,19 +1630,18 @@ pitch pointing and velocity-vector manoeuvring opened new options in close-in co
 tool to drive the fight or as a way to rotate and point for a weapons employment the opponent cannot
 counter, and that it must be used selectively and in a timely manner to succeed.
 
-**The NASA fact sheet on the aircraft opens the corresponding passage by stating that the X-31 constituted a revolution in air combat in the post-stall region, and then reproduces the pilots' qualifications immediately afterwards.**
-The two statements sit in consecutive sentences and the first inverts the source of the second. This is not
-presented as an accusation of bad faith. It is an ordinary and very common thing that happens when a careful
-conclusion is summarised, and it is recorded here because the summary is far more widely read than the
-paper.
+**The [NASA fact sheet][ref_nasa_fs] on the aircraft opens the corresponding passage by stating that the X-31 constituted a revolution in air combat in the post-stall region, and then reproduces the pilots' qualifications immediately afterwards.**
+The two statements sit in consecutive sentences and the first inverts the source of the second. No
+accusation of bad faith is intended. The inversion is ordinary and very common when a careful conclusion is
+summarised, and it is recorded here because the summary is far more widely read than the paper.
 
-There is a second observation from the same paper that has aged well.
+There is a second observation from the same [paper][ref_canter_ntrs] that has aged well.
 **Carefree handling removed the pilot's cues about energy state.** A conventional fighter warns its pilot
 through buffet and degrading handling that the energy is going. An aircraft that remains docile throughout
 its envelope gives no such warning, and the report names restoring those cues as a challenge for future
 designs.
 
-The wider literature on this subject is gathered in the clusters on handling qualities of highly augmented aircraft and on agility as a measured quantity in The Contemporary Literature. The records closest to this section are these.
+The broader record appears under the clusters on handling qualities of highly augmented aircraft and on agility as a measured quantity in The Contemporary Literature. These records bear most closely on the argument above.
 
 - [Harper and Cooper 1984][research_harperjr_cooper_1984]
 - [Hodgkinson et al 1988][research_hodgkinson_skow_1988]
@@ -1626,11 +1651,11 @@ The wider literature on this subject is gathered in the clusters on handling qua
 
 ## Comparison With Ground Prediction
 
-**The X-31 is unusually well placed for this comparison because it ran the same experiment twice, once in a simulator and once in the air, and then ran the simulator experiment twice as well.**
+**The X-31 is unusually well placed for this comparison because it ran the same experiment twice, once in a simulator and once in the air, and then ran the [simulator experiment twice][ref_joyce_pdf] as well.**
 
 ### The Simulation Campaigns
 
-Two manned simulation campaigns, called Pinball I and Pinball II, preceded the flight testing. The design
+Two manned simulation campaigns, called [Pinball I and Pinball II][ref_joyce_pdf], preceded the flight testing. The design
 was systematic. Four pilots flew each week, one flying the adversary and the other three flying the X-31
 with post-stall technology, which gives four groups of three pairings and therefore
 **twelve pilot combinations per week**. Twelve combinations across four starting conditions gives
@@ -1649,7 +1674,7 @@ against 192 with a modified high-lift configuration.
 | High-speed line abreast | 1.5 | 2.8 |
 
 Taking the ratio of one campaign to the other condition by condition puts a number on the disagreement,
-which is the comparison the measures-of-effectiveness literature would call a repeatability check,
+the comparison that the measures-of-effectiveness literature would call a repeatability check,
 
 $$\rho_i = \frac{E_i^{\text{I}}}{E_i^{\text{II}}}$$
 
@@ -1667,15 +1692,15 @@ $$1 - \frac{22}{23} = 0.043 \qquad \frac{20}{6.67} = 2.999 \qquad \frac{2.8}{1.5
 
 The defensive condition differed by a factor of 2.553 in one direction and the high-speed line-abreast by
 1.867 in the other. The means of the two campaigns are 11.175 and 8.235, a ratio of 1.357, so
-**the campaigns agree far better in aggregate than they do anywhere in particular**, which is the signature
-of sampling variation rather than of a systematic difference.
+**the campaigns agree far better in aggregate than they do anywhere in particular**. That pattern is the
+signature of sampling variation rather than of a systematic difference.
 
-The programme's explanation for the defensive disagreement is that the use of post-stall technology on the
+The programme's [explanation][ref_joyce_pdf] for the defensive disagreement is that the use of post-stall technology on the
 initial move differed. In Pinball I a standard initial move was used that usually neutralised the attacker's
 advantage and turned a defensive start into an offensive situation. In Pinball II that move was used only
 occasionally.
 
-**That explanation is almost certainly correct and it is devastating for the measure.** It says that the
+**That explanation is almost certainly correct, and for the measure it is devastating.** It means that the
 exchange ratio in the defensive condition is a measurement of pilot technique rather than of aircraft
 capability, and that a change in the tactics the pilots chose moved the reported number by a factor of two
 and a half with the same aeroplane and the same simulator.
@@ -1688,11 +1713,11 @@ when measured twice.
 ### The Simulation Also Disagreed With the Flight Data in a Way That Mattered
 
 **The single most important disagreement is that the simulation did not predict the departure.** The
-flight-test report states it plainly. The fidelity of the simulation was described as quite good and it
+[flight-test report][ref_canter_ntrs] states it plainly. The fidelity of the simulation was described as quite good and it
 always lagged behind the flight data, and the report says the failure to predict the departure ahead of time
 is the most dramatic illustration of that lag.
 
-The mechanism of the lag is worth naming. The aerodynamic model was built from wind tunnel data and
+The lag has a nameable mechanism. The [aerodynamic model][research_huberpeter_schellengerharveyg_1994] was built from wind tunnel data and
 corrected by parameter identification from flight, so
 **the simulation could only know about an aerodynamic effect after the aircraft had flown into it**. For a
 phenomenon like forebody vortex asymmetry, which is sensitive to a half-inch of nose radius and to Reynolds
@@ -1700,20 +1725,21 @@ number, that is a structural limitation rather than a modelling shortfall.
 
 ### The Wind Tunnel Did Not Give the Complete Picture
 
-The flight-test report's first technical lesson is exactly that sentence, and it is specific about where the
+The [flight-test report's][ref_canter_ntrs] first technical lesson is exactly that sentence, and the report specifies where the
 tunnel fell short. Above fifty degrees of angle of attack the aircraft encountered lateral kicks the pilots
 called lurches, which had not appeared on the small-scale model. The asymmetry data showed no
 distinguishable trend against flight condition across a Reynolds number range of 1.5 to 4.0 million based on
-a forebody diameter of about 3.2 feet, as the [asymmetry report][research_cobleigh_1994] gives it, which is
-a narrow range and one reason the tunnel could not have settled the question.
+a forebody diameter of about 3.2 feet, as the [asymmetry report][research_cobleigh_1994] gives it. The
+range is narrow, and its narrowness is one reason the tunnel could not have settled the question.
 
 **The comparison of flight against wind tunnel and water tunnel yawing-moment asymmetries became a research subject in its own right**,
-with reports published in 1994 and revisited in 2001 and again in 2003.
+with reports [published in 1994][research_brentrcobleigh_markacroom_1994] and revisited in
+[2001][research_cobleighbrentr_croommarka_2001] and again in [2003][research_cobleighbrent_croommarka_2003].
 
-### High Lift, and a Negative Result Worth Keeping
+### A Negative Result on High Lift
 
 **A modification that should have helped did not, and the programme cancelled it on the evidence.** Flight
-researchers recognised that a high-lift configuration would give the aircraft dramatically more lift below
+researchers recognised that a [high-lift configuration][ref_joyce_pdf] would give the aircraft dramatically more lift below
 thirty degrees of angle of attack. Without post-stall technology the high-lift aircraft outperformed the
 baseline against the F/A-18, as expected.
 
@@ -1721,12 +1747,12 @@ baseline against the F/A-18, as expected.
 post-stall opportunities trying to fly in the high-lift mode. The pattern was that a pilot able to exploit
 high lift would fly post-stall until the fight went low and then drop below thirty degrees to use high lift
 and avoid the hard deck, which turned the fight conventional. Since the aircraft's advantage was in
-post-stall flight, the international test community decided against implementing high lift.
+post-stall flight, the international test community [decided against implementing high lift][ref_joyce_pdf].
 
 **A capability that improves the aircraft in isolation and degrades it in combination is a real finding**,
-and it is the kind of result that only a manned simulation with free tactics can produce.
+of a kind that only a manned simulation with free tactics can produce.
 
-The wider literature on this subject is gathered in the cluster on flight test, parameter identification and aerodynamic modelling in The Contemporary Literature. The records closest to this section are these.
+Readers wanting more can turn to the cluster on flight test, parameter identification and aerodynamic modelling in The Contemporary Literature. The following records sit nearest to this discussion.
 
 - [Hess 1986][research_hess_1986]
 - [Klein and Batterson 1986][research_klein_batterson_1986]
@@ -1742,7 +1768,7 @@ The wider literature on this subject is gathered in the cluster on flight test, 
 **Thrust vectoring entered production, and it did so on aircraft that did not need the X-31 to prove it was possible.**
 The [F-22][ref_f22] carries two-dimensional vectoring nozzles. The F-16 multi-axis thrust vectoring
 programme demonstrated three-dimensional vectoring on a production airframe during the X-31's own flight
-programme, and the X-31 flight-test report cites it as evidence that incorporation is achievable without
+programme, and the X-31 [flight-test report][ref_canter_ntrs] cites it as evidence that incorporation is achievable without
 significant trade-offs.
 
 **What the X-31 contributed was not the mechanism but the evidence about employment**, and the evidence is
@@ -1752,21 +1778,22 @@ replace it. It wins where the fight is slow and close and loses where the oppone
 ### The Quasi-Tailless Result Outlived Everything Else
 
 **The quasi-tailless demonstration is the part of this programme with the longest reach, and it was almost an afterthought.**
-It established that an aircraft with no vertical tail at all could be held at supersonic speed by thrust
+It [established][research_huberpeter_schellengerharveyg_1994] that an aircraft with no vertical tail at all could be held at supersonic speed by thrust
 vectoring, at a divergence rate of 290 milliseconds to double.
 
-Every low-observable combat aircraft since has faced the same problem, because a vertical tail is the single
-worst feature an airframe can carry for radar cross-section from the side.
+A smaller or absent vertical tail also reduces radar cross-section, an advantage the
+[quasi-tailless flight test report][ref_bosworth_tp3624] lists beside lower drag, weight and structural
+complexity.
 **The question of how to control yaw without a fin is now the central configuration question of unmanned combat aircraft design**,
 and the answers in current use are split effectors, differential drag devices and vectoring. The X-31's
 contribution was to establish that the vectoring answer works at a measured level of instability rather than
 an assumed one.
 
-There is a second and less-noticed result in the same experiment.
-**Differential canard deflection was studied as a yaw generator with and without the vertical tail**, which
-is a redundant-effector question of exactly the kind that modern control allocation exists to solve.
+There is a second and less-noticed result from the same programme.
+**Differential canard deflection was [studied as a yaw generator with and without the vertical tail][research_whitingmatthewrobert_1996]**,
+a redundant-effector question of the kind that modern control allocation exists to solve.
 
-The wider literature on this subject is gathered in the cluster on unmanned combat aircraft and the tailless problem in The Contemporary Literature. The records closest to this section are these.
+The cluster on unmanned combat aircraft and the tailless problem in The Contemporary Literature holds the wider literature, and these records lie closest to the present subject.
 
 - [Simon et al 1993][research_simon_blake_1993]
 - [Ngo et al 1996][research_ngo_reigelsperger_1996]
@@ -1776,28 +1803,30 @@ The wider literature on this subject is gathered in the cluster on unmanned comb
 
 ### The Accident Changed the Air Data System, Eventually
 
-**The aircraft that was destroyed by a probe returned with no probe.** The second aircraft flew again from
-2001 to 2003 in the Vectoring Extremely Short Takeoff and Landing Control Operation Research programme,
-which used thrust vectoring to fly approaches at high angle of attack, and that aircraft carried a
-**flush air data system** with no protruding probe to ice.
+**The aircraft that was destroyed by a probe returned with redundant air data.** The second aircraft flew
+again from 2001 to 2003 in the Vectoring Extremely Short Takeoff and Landing Control Tailless Operations
+Research programme, which used thrust vectoring to fly approaches at high angle of attack. The
+[NASA history][ref_joyce_pdf] records that it first flew with the original Kiel probe, this time heated, and
+a second heated probe feeding an additional air data computer that monitored the first, and that it tested a
+**flush air data system** of pressure ports in the nose with no protruding probe to ice.
 
-That is a satisfying arc and it should not be overstated. Flush air data systems were under development for
-other reasons, principally for hypersonic vehicles where a probe cannot survive, and the X-31's second life
-was a separate programme with its own objectives.
-**But the pairing is real, and the flush system removes the exact failure mode that destroyed the first aircraft**,
-because there is no single pneumatic path whose blockage can be shared by every computer downstream.
+The arc is satisfying, but it should not be overstated. The flush system was a separate experiment by the
+European manufacturer flown in parallel, and the X-31's second life was a separate programme with its own
+objectives.
+**But the pairing is real, and the added monitor addresses the exact failure mode that destroyed the first aircraft**,
+because a second, independent pneumatic path can reveal a blockage that a single probe shares with every
+computer downstream.
 
-The Mishap Board's own recommendations were institutional rather than technical for the most part. It
+The Mishap Board's [recommendations][ref_joyce_pdf] were institutional rather than technical for the most part. It
 recommended that the system safety analyses be redone with a focus on single-point failures, that a
 mitigation for the loss of raw pitot-static data be found and verified in simulation, that temporary
 operating procedures be reviewed and controlled, that all cockpit switches and displays be audited for
 correct function and labelling, that programme personnel be trained in the basics of system safety, and that
 the parachute be replaced with one of slower descent rate.
 
-**The last of those is not a control-system finding and it belongs in the record.** The pilot descended
+**The last of those is no control-system finding, but it belongs in the record.** The pilot descended
 under a seventeen-foot canopy at approximately 28.3 feet per second, a rate typical for naval aircraft that
-operate mostly over water, and was injured on the hard playa surface, as the
-[NASA history][ref_joyce_pdf] records.
+operate mostly over water, and was [injured on the hard playa surface][ref_joyce_pdf].
 
 The wider literature on this subject is gathered in the cluster on air data, icing and flush air data sensing in The Contemporary Literature. The records closest to this section are these.
 
@@ -1810,14 +1839,14 @@ The wider literature on this subject is gathered in the cluster on air data, ici
 
 ### What Some Test Team Members Thought the Report Missed
 
-**Not everyone accepted the Mishap Report's emphasis**, and the disagreement is instructive. Team members
+**Not everyone accepted the Mishap Report's emphasis**, and the [disagreement][ref_joyce_pdf] is instructive. Team members
 felt that large airspeed errors and suspected icing should have mandated stopping the test until the
 discrepancy was understood, and that the report placed too little weight on the test team's own methodology.
 One is quoted saying that the test pilot and flight control engineers ought to understand the importance of
 the right gains, and another that seventy-knot errors and icing conditions are not acceptable for good
 flight tests.
 
-**The lesson the programme's own pilots drew was procedural rather than technical.** Rogers Smith put it to
+**The lesson the programme's pilots drew was procedural rather than technical.** [Rogers Smith][ref_joyce_pdf] put it to
 the Society of Experimental Test Pilots in 1996 as an instruction to speak up, stop the tests and think when
 something does not make sense, and Ken Szalai, the Dryden director at the time, put it as calling a halt for
 anything that does not sound, feel or smell right.
@@ -2052,9 +2081,9 @@ thirty-two software releases. The modern answer is control allocation as an opti
 rate, with constraints for position and rate limits of the kind this article computed for the vectoring
 vanes.
 
-**Incremental nonlinear dynamic inversion is the other major change.** The X-31's control laws were reactive
-and scheduled on measured flight condition, which is precisely the architecture whose failure destroyed the
-first aircraft. Incremental methods reduce the dependence on a model of the aircraft and therefore on the
+**Incremental nonlinear dynamic inversion is the other major change.** The X-31's control laws were predictive,
+mapping pilot commands and measured flight condition onto the effectors through a model of the flight path,
+and their dependence on measured flight condition is precisely what failed and destroyed the first aircraft. Incremental methods reduce the dependence on a model of the aircraft and therefore on the
 accuracy of the air data that parameterises it.
 
 Allocation is named in 59 of the 491 titles, and incremental methods in 30.
@@ -2244,12 +2273,12 @@ Helmet-mounted displays and sights are named in 46 of these titles.
 
 ### The Exchange Ratio Is Not a Property of the Aircraft
 
-**The whole apparatus of this article treats the exchange ratio as a measurement, and it is better understood as a joint measurement of an aircraft, a pilot, a tactic, an adversary and a set of rules.**
-The programme's own data proves it. The same aircraft in the same simulator with the same starting condition
-returned 1.2 in one campaign and 0.47 in the next, and the programme attributed the difference to which
-initial move the pilots chose.
+**The apparatus of this article treats the exchange ratio as a measurement, but it is better understood as a joint measurement of an aircraft, a pilot, a tactic, an adversary and a set of rules.**
+The programme's own data proves it. The same aircraft in the same simulator, from a nominally identical
+defensive start, returned 1.2 in one campaign and 0.47 in the next, and the programme
+[attributed the difference][ref_joyce_pdf] to which initial move the pilots chose.
 
-**A number that moves by a factor of two and a half when the pilots change their minds is not a property of the airframe.**
+**A number that moves by a factor of two and a half when the pilots change their minds does not describe the airframe.**
 
 ### The Adversary Chooses the Engagement
 
@@ -2257,27 +2286,27 @@ initial move the pilots chose.
 slow, close fight is realisable only if the opponent enters one. Against aircraft with enough excess thrust
 to sit above the fight and re-enter at their chosen moment, the X-31's advantage was largely unavailable.
 
-**This is an old lesson and the NASA history says so**, drawing the parallel with the [Fokker Dr I][ref_dr1]
+**The lesson is old, as the [NASA history][ref_joyce_pdf] observes**, drawing the parallel with the [Fokker Dr I][ref_dr1]
 of 1917, an aircraft capable of post-stall pointing that pilots of faster conventional fighters learned to
 defeat by extending and attacking in slashing passes, denying it the ability to choose the time and place of
 the fight.
 
 ### The Demonstrator Was Underpowered
 
-**The X-31 fought the F/A-18 from a position of disadvantage in conventional performance**, and the NASA
-history says so directly, attributing an exchange ratio of 0.37 without post-stall technology to the basic
+**The X-31 fought the F/A-18 from a position of disadvantage in conventional performance**, and the
+[NASA history][ref_joyce_pdf] is direct about it, attributing an exchange ratio of 0.37 without post-stall technology to the basic
 mediocrity of an underpowered design against a more powerful opponent with a better dogfighting wing.
 
-**That cuts both ways and the second direction is the more interesting.** An aircraft that loses almost
+**The handicap cuts both ways, and the second direction is the more interesting.** An aircraft that loses almost
 three fights in four conventionally and wins nearly two in one with post-stall technology has demonstrated a
 large effect. But it has demonstrated it on an airframe whose conventional performance nobody would accept,
-and the programme's own conclusion is that post-stall technology must be an integrated element of a design
+and the programme's [own conclusion][ref_joyce_pdf] is that post-stall technology must be an integrated element of a design
 rather than a bolt-on.
 
 ### The Angle of Attack Limit Is Not the Whole Capability
 
-The article has treated the usable angle of attack as the figure of merit, because it is what sets the
-aim-off angle. **The programme's own conclusions put velocity-vector roll rate alongside it**, and describe
+The article has treated the usable angle of attack as the figure of merit, because it sets the
+aim-off angle. **The programme's [conclusions][ref_joyce_pdf] put velocity-vector roll rate alongside it**, and describe
 the main advantages as apparent directional nose-pointing rate, which is actually yaw rate or
 velocity-vector roll capability at high angle of attack, together with very high nose authority in pitch.
 
@@ -2288,10 +2317,13 @@ could use.
 ### The Simulation and Flight Numbers Are Not the Same Experiment
 
 **The exchange ratios analysed at length in this article are simulation results**, from Pinball I and
-Pinball II. The flight programme reported 407 engagements of which 325 were scored, and its conclusions are
-stated qualitatively. **The temptation to read the simulator's 1.83 as a flight result should be resisted**,
+Pinball II. The flight programme reported 407 engagements of which 325 were scored, and its summary
+conclusions are stated qualitatively. **The temptation to read the simulator's 1.83 as a flight result should be resisted**,
 and the widely quoted figures of thirty to one and of nearly ten to one over 103 dogfights come from yet
-other accountings whose provenance this article has not been able to trace to a primary source.
+other accountings. The [NASA history][ref_joyce_pdf] reports that the first close-in-combat flight campaign
+comprised 103 engagements, 94 of them scorable, and that the X-31 won 64 of the 66 decided engagements from
+neutral starts, a ratio of 32 to one, which is the likely origin of both figures, although neither figure
+as quoted states that accounting.
 
 **That inconsistency is itself the finding.** A programme whose keystone was a measured rate produced at
 least four different headline rates that circulate independently, and the arithmetic above shows why that is
@@ -2352,8 +2384,10 @@ flight reports, the quasi-tailless results, the yawing-moment asymmetry analysis
 paper are all public, detailed and quantitative. The NASA history published in 2014 carries a complete
 per-flight log for both aircraft and the simulation exchange ratios by starting condition.
 
-**What is not public is the underlying count of engagements and outcomes per condition**, which is the one
-thing needed to attach an interval to any of the published ratios without assumption. This article works
+**What is not public is the count of decided outcomes behind each simulation ratio**, which is the one
+thing needed to attach an interval to any of the published ratios without assumption. The NASA history gives
+48 simulated engagements for each case and counts of decided outcomes by starting condition for the flight
+campaigns, but it reports the simulation results as exchange ratios and percentage increases. This article works
 around that by asking what various sample sizes would support rather than by guessing which one applied.
 
 ### The Definition of Primary
@@ -2416,20 +2450,21 @@ a primary source for this article in a way that a review from 2021 is not, howev
 **Historical fact, from the primary and official record.**
 
 - Two aircraft were built by Rockwell International and Messerschmitt-Bolkow-Blohm and flew from
-  October 1990 to June 1995, logging 580 flights with fourteen pilots.
+  October 1990 to June 1995, logging 580 flights with fourteen pilots, as the
+  [Dryden fact sheet][ref_nasa_fs] records.
 - The programme was managed by the Defense Advanced Research Projects Agency and flown by an
   International Test Organization at NASA Dryden, and was the first experimental aircraft
   programme administered by a United States agency as an international effort.
 - Controlled flight at seventy degrees of angle of attack was achieved on 6 November 1992, and a
   minimum-radius one-hundred-and-eighty-degree post-stall turn on 29 April 1993.
 - The first aircraft was lost on 19 January 1995 following ice accretion on an unheated Kiel
-  probe, with the pilot ejecting and being injured on landing.
+  probe, with the pilot ejecting and being [injured on landing][ref_joyce_pdf].
 - The published simulation exchange ratios against the F/A-18 with post-stall technology are 0.36,
   8.5, 16 and 0.86 across four starting conditions, with an overall figure of 1.83.
 - The tactical utility flight test flew 87 sorties of which 80 were scored, producing 407
-  engagements of which 325 were scored.
+  engagements of which 325 were [scored][ref_joyce_pdf].
 - The quasi-tailless demonstration reached a time to double amplitude of 290 milliseconds at
-  complete simulated tail removal at a supersonic condition.
+  complete simulated tail removal at a [supersonic condition][research_huberpeter_schellengerharveyg_1994].
 - The second aircraft flew again from 2001 to 2003 in a separate programme with a flush air data
   system.
 
@@ -2444,7 +2479,7 @@ a primary source for this article in a way that a review from 2021 is not, howev
   ran from 0.8198 to 0.9356.
 - At twelve scored outcomes per condition the defensive and high-speed line-abreast results do not
   separate from parity. The high-speed line-abreast ratio of 0.86 would need 691 scored outcomes
-  to separate, against a few dozen flown.
+  to separate, against the twelve per condition and case the simulation design allowed.
 - The loop gain on the accident flight stood between 2.890 and 12.543 times its design value,
   against a conventional gain margin factor of 1.995.
 - The displayed airspeed and the vane angle of attack disagreed by 11.2 degrees at the moment the
@@ -2461,10 +2496,11 @@ a primary source for this article in a way that a review from 2021 is not, howev
 
 **Inference, where the record supports a conclusion without stating it.**
 
-- The moment arm from the centre of gravity to the vane station is not determined. The departure
-  on the second aircraft, at an asymmetry of 0.125 at 35,000 feet and Mach 0.4, bounds it below
-  36.2 feet under the thrust-lapse model, which the fuselage length already guarantees, and the
-  bound moves from 27.1 to 48.4 feet across lapse exponents of 0.8 to 1.2.
+- The moment arm from the centre of gravity to the vane station is not determined by the flight
+  record. The departure on the second aircraft, at an asymmetry of 0.125 at 35,000 feet and Mach
+  0.4, bounds it below 36.2 feet under the thrust-lapse model, which the fuselage length already
+  guarantees, and the bound moves from 27.1 to 48.4 feet across lapse exponents of 0.8 to 1.2. The
+  17.57 feet implied by the stations a dynamic-model study tabulates lies within that bound.
 - The lift-curve slope of 2.769 per radian is inferred from a test pilot's recollection of a trim
   point rather than from published data, and is supported by falling between the unswept and
   swept low-aspect-ratio estimates.
@@ -2475,14 +2511,17 @@ a primary source for this article in a way that a review from 2021 is not, howev
 
 - **The number of engagements behind each published exchange ratio is not public**, so every
   interval in this article is conditional on an assumed sample size.
-- **Two widely circulated figures could not be traced to a primary source.** They are
-  approximately thirty to one, and nearly ten to one over 103 dogfights. Neither is among the
-  simulation figures analysed here and the provenance of both is unresolved.
+- **Two widely circulated figures are not stated in the primary record in the form in which they circulate.**
+  They are approximately thirty to one, and nearly ten to one over 103 dogfights. Neither is among
+  the simulation figures analysed here. The NASA history reports 32 to one from neutral starts in a
+  first flight campaign of 103 engagements, which is the likely origin of both, but the provenance
+  of the quoted forms is unresolved.
 - **The effect of an airframe with adequate conventional performance is unknown.** The
   programme's own conclusion that post-stall technology must be integrated rather than added
   implies the exchange ratio would have differed.
-- The yaw inertia is not published, so the directional stiffness of the simulated tailless
-  configuration is determined only as a ratio.
+- The yaw inertia is not given in the flight reports, so the directional stiffness of the
+  simulated tailless configuration rests on the inertia a dynamic-model study tabulates for the
+  full-scale aircraft.
 - The velocity-vector roll rate achieved at seventy degrees of angle of attack is described
   qualitatively in the sources consulted and no usable figure was found, so the pointing analysis
   in this article treats the angle and not the rate.
@@ -2493,9 +2532,9 @@ a primary source for this article in a way that a review from 2021 is not, howev
 ## Out of Scope
 
 - The detailed structural design of the wing and the German certification arrangements behind it.
-- The Vectoring Extremely Short Takeoff and Landing programme of 2001 to 2003 in its own right,
-  which is a distinct programme with distinct objectives and is treated here only where it bears
-  on air data.
+- The Vectoring Extremely Short Takeoff and Landing Control Tailless Operations Research programme
+  of 2001 to 2003 in its own right, which is a distinct programme with distinct objectives and is
+  treated here only where it bears on air data.
 - The F/A-18 High Alpha Research Vehicle and the F-16 multi-axis thrust vectoring programme, both
   contemporaneous and both deserving separate treatment.
 - Radar cross-section and low-observable design, which is the reason the tailless result matters
@@ -2508,9 +2547,9 @@ a primary source for this article in a way that a review from 2021 is not, howev
 
 **The X-31 was built to find out whether an aeroplane that can point its nose forty degrees further round than its opponent wins, and it found out that the answer depends on where the fight starts.**
 
-That is a less satisfying result than the reputation, and it is a better one. The programme produced four
+The result is less satisfying than the reputation, and better. The programme produced four
 exchange ratios against a conventional adversary and the aircraft lost two of them. It produced an overall
-figure of 1.83 which is a loss-weighted average dominated by the two it lost, and which sits three and a
+figure of 1.83, a loss-weighted average dominated by the two it lost, which sits three and a
 half times below the average of the four.
 **Between eighty-two and ninety-four percent of its simulated losses occurred in the conditions where post-stall manoeuvring did not help.**
 
@@ -2524,7 +2563,7 @@ came from.
 
 **The programme also produced a result nobody was looking for that has outlasted the one it was built for.**
 An aircraft with no vertical tail at all can be held at supersonic speed by vectoring, diverging at 290
-milliseconds to double. That is now the central configuration problem of combat aircraft design and the X-31
+milliseconds to double. Yaw control without a fin is now the central configuration problem of combat aircraft design and the X-31
 answered it in 1994 as a side experiment made cheap by having already integrated vectoring into the control
 laws.
 
@@ -2574,6 +2613,7 @@ computable in one line from the lift equation.
 ### Reference
 
 - [Angle of attack][ref_angle_of_attack]
+- [Bosworth and Stoliker 1996, The X-31A quasi-tailless flight test results][ref_bosworth_tp3624]
 - [Canter 1994, X-31 post-stall envelope expansion and tactical utility testing][ref_canter_ntrs]
 - [Clopper-Pearson binomial proportion interval][ref_clopper]
 - [Corner speed and the manoeuvring envelope][ref_corner_speed]
@@ -2604,6 +2644,7 @@ computable in one line from the lift equation.
 - [United States Air Force Stability and Control Data Compendium][ref_datcom]
 
 [ref_angle_of_attack]: https://en.wikipedia.org/wiki/Angle_of_attack
+[ref_bosworth_tp3624]: https://ntrs.nasa.gov/citations/19960029101
 [ref_canter_ntrs]: https://ntrs.nasa.gov/citations/19950007828
 [ref_clopper]: https://en.wikipedia.org/wiki/Binomial_proportion_confidence_interval
 [ref_corner_speed]: https://en.wikipedia.org/wiki/Flight_envelope

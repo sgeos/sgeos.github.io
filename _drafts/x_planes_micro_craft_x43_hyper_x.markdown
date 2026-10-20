@@ -17,15 +17,14 @@ questions were the same question.** A scramjet's useful output is the difference
 makes and the drag it suffers, and each of those is far larger than the difference. A launch vehicle's
 stability is the difference between the gain its control loop has and the gain at which it goes
 unstable, and each of those is far larger than the difference. **The Hyper-X programme measured the
-first correctly and got the second wrong**, and this article treats those as one subject rather than
-two.
+first correctly and got the second wrong**, and this article treats the two as a single subject.
 This is the forty-fourth article in the [X-Planes series][related_post_a297_framing], following the [X-1][related_post_a298_bell_x1], the [X-2][related_post_a299_bell_x2], the [X-3][related_post_a300_douglas_x3], the [X-4][related_post_a301_northrop_x4], the [X-5][related_post_a302_bell_x5], the [X-6][related_post_a303_convair_x6], the [X-7][related_post_a304_lockheed_x7], the [X-8][related_post_a305_aerojet_x8], the [X-9][related_post_a306_bell_x9], the [X-10][related_post_a307_north_american_x10], the [X-11][related_post_a308_convair_x11], the [X-12][related_post_a309_convair_x12], the [X-13][related_post_a310_ryan_x13], the [X-14][related_post_a311_bell_x14], the [X-15][related_post_a312_north_american_x15], the [X-16][related_post_a313_bell_x16], the [X-17][related_post_a314_lockheed_x17], the [X-18][related_post_a315_hiller_x18], the [X-19][related_post_a316_curtiss_wright_x19], the [X-20][related_post_a317_boeing_x20], the [X-21][related_post_a318_northrop_x21], the [X-22][related_post_a319_bell_x22], the [X-23][related_post_a320_martin_marietta_x23], the [X-24][related_post_a321_martin_marietta_x24], the [X-25][related_post_a322_bensen_x25], the [X-26][related_post_a323_schweizer_x26], the [X-27][related_post_a324_lockheed_x27], the [X-28][related_post_a325_osprey_x28], the [X-29][related_post_a326_grumman_x29], the [X-30][related_post_a327_rockwell_x30], the [X-31][related_post_a328_rockwell_mbb_x31], the [X-32][related_post_a329_boeing_x32], the [X-33][related_post_a330_lockheed_martin_x33], the [X-34][related_post_a331_orbital_sciences_x34], the [X-35][related_post_a332_lockheed_martin_x35], the [X-36][related_post_a333_mcdonnell_douglas_x36], the [X-37][related_post_a334_boeing_x37], the [X-38][related_post_a335_scaled_composites_x38], the [X-39][related_post_a336_x39_reserved_never_assigned], the [X-40][related_post_a337_boeing_x40], the [X-41][related_post_a338_x41_common_aero_vehicle], and the [X-42][related_post_a339_orbital_sciences_x42].
 
 **The Hyper-X programme left an extensive public record.** The
 programme was a joint one of the Langley and Dryden centres of the National Aeronautics and Space Administration, NASA\[[Rausch et al 2000][research_rausch_2000]\], and it published extensively, including the design,
 the ground test campaign and the flight results at Mach 7\[[Ferlemann et al 2005][research_ferlemann_2005]\], the Mach 10 flight\[[Marshall et al 2005][research_marshall_2005]\], and a mishap investigation board
 report of unusual candour\[[X-43A Mishap Investigation Board 2003][research_mib_2003]\]. **With this much primary material, the question is which documents
-matter**, and the source base below says which ones do.
+matter**, and the source base below names them.
 
 ## The Research Question
 
@@ -34,9 +33,9 @@ vehicle carrying it produced drag, in free flight, at hypersonic speed.**
 
 Supersonic combustion had been demonstrated in ground facilities since the 1960s, and scramjet
 flowpaths had been run in shock tunnels and combustion-heated tunnels for
-decades\[[Guy 1990][research_guy_1990]\]\[[Drummond 1991][research_drummond_1991]\]. **None of that settles the
-question**, and the reason is not that ground facilities are inaccurate. It is that the quantity in
-question is not a property of the engine.
+decades\[[Guy 1990][research_guy_1990]\]\[[Drummond 1991][research_drummond_1991]\].
+**None of that settles the question**, for a reason unrelated to the accuracy of ground facilities. The
+quantity in question is not a property of the engine.
 
 **A scramjet is not installed in an airframe. It is the airframe.** The forebody is the first stage of
 the inlet, the underside is the flowpath, and the afterbody is the
@@ -47,7 +46,7 @@ force has the sign the designer intended.
 
 $$F_{\text{net}} = F_{\text{thrust}} - D$$
 
-**That equation is trivial and it is the whole problem.** Writing out the thrust term shows why.
+**That equation is trivial, and it contains the whole problem.** Writing out the thrust term shows why.
 Uninstalled thrust is a momentum difference plus a pressure term,
 
 $$F_{\text{thrust}} = \dot{m}_{e} V_{e} - \dot{m}_{0} V_{0} + \left( p_{e} - p_{0} \right) A_{e}$$
@@ -100,8 +99,8 @@ X-43A records that it received government approval in 1986 and was cancelled in 
 article\[[Peebles 2007][research_peebles_2007]\]. **The propulsion state of
 the art it left behind was surveyed at the time**, and the survey makes plain that the hard part was
 never the combustion but the
-integration\[[Guy 1990][research_guy_1990]\]. **Hyper-X inverted its logic.** Rather than designing an operational
-vehicle around propulsion that had never flown, it proposed to fly the propulsion first, on a vehicle
+integration\[[Guy 1990][research_guy_1990]\]. **Hyper-X inverted its logic.** The earlier programme had designed an operational
+vehicle around propulsion that had never flown. Hyper-X proposed to fly the propulsion first, on a vehicle
 small enough to be expendable, and to use the resulting data to calibrate the tools that any later
 vehicle would be designed with.
 
@@ -111,20 +110,22 @@ panels recommended flight experiments with airframe-integrated scramjets as the 
 hypersonic research\[[Voland et al 2005][research_voland_2005]\]. **The first public description
 planned four flights on four expendable twelve foot vehicles**, a Mach 7 flight first, scheduled for
 the middle of 1999, then Mach 5, then two at Mach 10\[[Freeman et al 1997][research_freeman_1997]\].
-The first flight was in fact made in June 2001. **Cost growth during design
+The first flight was in fact made in June 2001\[[X-43A Mishap Investigation Board 2003][research_mib_2003]\]. **Cost growth during design
 restructured the project**, and the Mach 5 flight was dropped in favour of two flights at Mach 7 and
 one at Mach 10\[[Peebles 2007][research_peebles_2007]\].
 
 **The programme was a collaboration between Langley Research Center and Dryden Flight Research
 Center**\[[Rausch et al 2000][research_rausch_2000]\]\[[McClinton et al 2001][research_mcclinton_2001]\],
-with shared responsibility for mission success. Langley owned the aerodynamics, the
-propulsion flowpath and the ground test programme. Dryden owned the flight operations. **Two industrial
+with shared responsibility for mission success. Langley was responsible for hypersonic technology
+development, including many of the critical vehicle design and risk reduction activities. Dryden was
+responsible for vehicle development, including booster integration, system validation and flight
+testing\[[McClinton et al 2001][research_mcclinton_2001]\]. **Two industrial
 contracts split the flight hardware**, with Micro Craft responsible for the Hyper-X Research Vehicle
 and its adapter, and Orbital Sciences Corporation responsible for the Hyper-X Launch
 Vehicle\[[X-43A Mishap Investigation Board 2003][research_mib_2003]\].
 
-**Three flights were planned and each research vehicle was non-recoverable**\[[X-43A Mishap Investigation Board 2003][research_mib_2003]\]. That is a design decision
-with consequences running through everything below. A vehicle that will be destroyed on every mission
+**Three flights were planned and each research vehicle was non-recoverable**\[[X-43A Mishap Investigation Board 2003][research_mib_2003]\]. Non-recoverability was a design
+decision, and its consequences run through the rest of this article. A vehicle that will be destroyed on every mission
 cannot be instrumented for post-flight inspection, so every measurement must be telemetered in real
 time, and any measurement not taken during the ten seconds of powered flight is not taken at all.
 
@@ -140,8 +141,7 @@ establish the configuration before it could analyse the loss.
 
 ## Sizing From First Principles
 
-**One number explains why this vehicle exists, and it is the temperature of the air after you slow it
-down.**
+**One number explains why this vehicle exists, the temperature of the air after it has been slowed down.**
 
 ### Why the Combustion Has to Be Supersonic
 
@@ -180,10 +180,10 @@ which is 1,941 kelvin at Mach 6.83 and 3,824 kelvin at Mach 9.68.
 **Oxygen begins to dissociate appreciably above roughly 2,500 kelvin and nitrogen above roughly 4,000
 kelvin**\[[Anderson][book_anderson_hypersonic]\]. At the Mach 10 condition, a subsonic-combustion inlet delivers air to the combustor that is
 already coming apart, before any fuel has been added. **The energy spent breaking those molecules is
-energy unavailable to push the vehicle**, and it is not recovered in the nozzle because recombination
+energy unavailable to push the vehicle**, and the nozzle does not recover it because recombination
 is too slow at the residence times involved.
 
-**The pressure side of the same relation says why the inlet is the hard part.** The total pressure
+**On the pressure side, the same relation identifies the inlet as the hard part.** The total pressure
 ratio available at those conditions is
 
 $$\frac{p_{0}}{p} = \left( 1 + \frac{\gamma - 1}{2} M^{2} \right)^{\frac{\gamma}{\gamma - 1}}$$
@@ -228,10 +228,10 @@ $$q_{3} = \tfrac{1}{2} \times 0.01065 \times 2{,}959^{2} = 46.6 \ \text{kPa} = 9
 feet**\[[Voland et al 2005][research_voland_2005]\], and the standard-atmosphere values above
 fall within five percent of it at Mach numbers differing by more than forty percent. **The flights
 themselves did not hold the same dynamic pressure as closely as the standard atmosphere suggests.**
-The programme's technology summary gives the powered portions as about 980 pounds per square foot on
+Voland and his colleagues give the powered portions as about 980 pounds per square foot on
 the second flight and about 930 on the third\[[Voland et al 2005][research_voland_2005]\].
 For the second flight the programme modelled the atmosphere from sixteen weather balloons launched from
-four sites around the range, precisely in order to compute Mach number and dynamic
+four sites around the range, in order to compute Mach number and dynamic
 pressure\[[Karlgaard et al 2004][research_karlgaard_tartabini_2004]\]. The relative departure
 of each standard-atmosphere figure from the reported one is
 
@@ -258,10 +258,10 @@ $$\frac{A_{\text{throat}}}{A_{\text{capture}}} \geq \frac{1}{A/A^{*} \big|_{M_{2
 Evaluated across the range of interest this gives a maximum contraction ratio of 1.60 to 1 at Mach 7
 and 1.63 to 1 at Mach 10.
 
-**The limit barely moves with Mach number, and that is the useful finding.** An inlet sized to start at
-the lower end of its range is not penalised much at the upper end, which is what makes a fixed-geometry
-flowpath tractable for a vehicle that must work across a range of conditions. **A variable-geometry
-inlet buys very little here and costs a great deal**, and this vehicle had none.
+**The useful finding is that the limit barely moves with Mach number.** An inlet sized to start at
+the lower end of its range is not penalised much at the upper end, so a fixed-geometry flowpath is
+tractable for a vehicle that must work across a range of conditions. **A variable-geometry
+inlet buys very little here and costs a great deal.**
 
 ### The Closure, and How Small the Answer Is
 
@@ -277,8 +277,8 @@ At the research vehicle's mass of about 3,000 pounds\[[X-43A Mishap Investigatio
 | 0.02 g | 267 | 60 |
 | 0.05 g | 667 | 150 |
 
-**The entire result of the Mach 7 flight is a net force of that order**, and it is the difference
-between a thrust and a drag each of which is far larger. **This is why the question could not be
+**The entire result of the Mach 7 flight is a net force of that order**, the difference between a
+thrust and a drag each of which is far larger. **This is why the question could not be
 settled on the ground.** An uncertainty of a few percent on either large quantity swamps the
 difference, and a few percent is optimistic for hypersonic force prediction on an integrated
 configuration.
@@ -307,21 +307,21 @@ At the Mach 7 condition, representative turning angles give
 | 15 | 8.38 | 3.48 | 1.51 | 5.41 |
 | 20 | 13.37 | 6.20 | 1.98 | 4.59 |
 
-**A single ten degree turn does most of a factor of three in pressure and costs a Mach number and a
-half**, and the forebody stacks several such turns before the cowl. **The vehicle's angle of attack is therefore an engine parameter**, because it sets the
+**A single ten degree turn at Mach 7 raises the static pressure more than fourfold and costs nearly
+two Mach numbers**, and the forebody stacks several such turns before the cowl. **The vehicle's angle of attack is therefore an engine parameter**, because it sets the
 effective wedge angle of the first compression surface and so the capture and the compression ratio.
 This coupling is the reason the aerodynamic database and the propulsion database could not be developed
 independently, and the programme treated them as one problem from the
 start\[[Engelund et al 1999][research_engelund_1999]\]\[[Engelund et al 2000][research_engelund_holland_2000]\].
 
-**The wind tunnel programme that supported this was very large.** Langley ran the vehicle across its
+**The wind tunnel programme that supported this was extensive.** Langley ran the vehicle across its
 tunnel complex to build a database covering the separation condition, the powered condition and the
 descent\[[McClinton et al 1998][research_mcclinton_1998]\]\[[Holland et al 2000][research_holland_2000]\],
 and the engine flowpath was run separately in the 8-foot High Temperature Tunnel and in shock
 tunnels\[[Huebner et al 2000][research_huebner_2000]\]\[[Bakos et al 2001][research_bakos_2001]\].
 **The flight engine itself was then ground tested as a risk reduction exercise before each
-mission**\[[Huebner et al 2001][research_huebner_2001]\], which is the step that distinguishes a
-flight programme from a test campaign.
+mission**\[[Huebner et al 2001][research_huebner_2001]\], a step that distinguishes a flight
+programme from a test campaign.
 
 ### Isolator, Combustor and the Dual Mode
 
@@ -340,10 +340,10 @@ $$\frac{T_{0}}{T_{0}^{*}} = \frac{\left( \gamma + 1 \right) M^{2} \left[ 2 + \le
 | 3.0 | 0.654 | 53 % |
 
 **A combustor entering at Mach 2 may raise its stagnation temperature by only about a quarter before
-it chokes.** That is a severe constraint on how much fuel may be burned, and it is the reason the
-isolator exists.
+it chokes.** The constraint severely limits how much fuel may be burned, and the isolator exists
+because of it.
 
-Between the inlet throat and the combustor sits an isolator, which is a constant or nearly constant
+Between the inlet throat and the combustor sits an isolator, a constant or nearly constant
 area duct whose job is to contain the shock train that forms when the combustor runs at a pressure the
 inlet would not otherwise tolerate\[[Heiser and Pratt][book_heiser_pratt]\]. **Without it, combustor
 pressure propagates upstream and unstarts the inlet.** The isolator converts what would be an inlet failure into a shock train that shortens and
@@ -351,8 +351,8 @@ lengthens as the fuelling changes.
 
 **The engine was dual mode**, meaning it operated with subsonic combustion at the lower end of its
 range and supersonic combustion at the upper end, with the transition managed by fuel
-distribution\[[Voland et al 1998][research_voland_1998]\]\[[Heiser and Pratt][book_heiser_pratt]\]. That is why the isolator matters, since the
-subsonic-combustion mode is exactly the condition that drives a shock train upstream.
+distribution\[[Voland et al 1998][research_voland_1998]\]\[[Heiser and Pratt][book_heiser_pratt]\]. The isolator matters most in the
+subsonic-combustion mode, the condition that drives a shock train upstream.
 
 **The combustor has about a millisecond to work in and often much less.** Taking the combustor
 velocity as a fraction of flight velocity and a representative length for a vehicle of this size,
@@ -360,17 +360,16 @@ velocity as a fraction of flight velocity and a representative length for a vehi
 $$t_{\text{res}} = \frac{L_{c}}{V_{c}}$$
 
 gives residence times of roughly 970 microseconds at Mach 6.83 and 680 at Mach 9.68, for a one metre
-combustor at half the flight speed, both of which are illustrative values assumed here rather than
-published dimensions of this engine. **At those times the problem is mixing
+combustor at half the flight speed. Both are illustrative values assumed here, and neither is a
+published dimension of this engine. **At those times the problem is mixing
 rather than chemistry**, because turbulent mixing is slower than hydrogen kinetics, and every injector
 design is a compromise between fuel penetration and total pressure
 loss\[[Drummond 1991][research_drummond_1991]\].
 
-**Ignition used silane.** Gaseous hydrogen does not reliably autoignite at the static temperatures and
-residence times available in a scramjet combustor at the lower end of the range, so a silane and
-hydrogen mixture, which is pyrophoric and ignites on contact with air, was used to establish the flame
-before the engine transitioned to hydrogen
-alone\[[Voland et al 1998][research_voland_1998]\]\[[Ferlemann et al 2005][research_ferlemann_2005]\].
+**Ignition used silane.** A silane and hydrogen mixture, which is pyrophoric and ignites on contact
+with air, was used to assure ignition and establish the flame before the engine transitioned to
+hydrogen
+alone\[[Voland et al 1998][research_voland_1998]\]\[[Ferlemann et al 2005][research_ferlemann_2005]\]\[[Voland et al 2005][research_voland_2005]\].
 
 ### The Nozzle Is the Back of the Aeroplane
 
@@ -390,7 +389,7 @@ with $R_{n}$ the leading edge radius. **The correlation is that of Sutton and
 Graves**\[[Sutton and Graves 1971][research_sutton_graves_1971]\], which generalises the dissociated-air
 stagnation point analysis of Fay and Riddell\[[Fay and Riddell 1958][research_fay_riddell_1958]\] into a
 form usable across gas mixtures. **The constant carries the chemistry and the article uses the standard
-air value**, so the figures below are correlation estimates rather than solutions. **The design
+air value**, so the figures below are estimates from the correlation and are not flow solutions. **The design
 radius is documented.** The desired nose tip radius on the Hyper-X vehicles was 0.030
 inch\[[Ohlhorst et al 2005][research_ohlhorst_2005]\], which is 0.762 millimetres, and evaluated
 at that radius at the two flight conditions the correlation gives
@@ -442,7 +441,7 @@ carbon-carbon\[[Marshall et al 2005][research_marshall_corpening_2005]\].
 ### Control, and the Ten Seconds Available
 
 The research vehicle had a flight control system designed for a regime with no flight-validated
-aerodynamic model\[[Davidson et al 1999][research_davidson_1999]\], and its entire powered mission
+aerodynamic model\[[Davidson et al 1999][research_davidson_1999]\], and its powered mission
 lasted about eleven seconds on each flight\[[Voland et al 2005][research_voland_2005]\]. At the
 flight speeds that is a short distance,
 
@@ -466,8 +465,8 @@ $$1 - \frac{22.6}{15 \times 1.609} = 6.3 \ \% \qquad 1 - \frac{31.1}{20 \times 1
 
 and both are larger than rounding to the nearest mile explains, which is 3.3 and 2.5 percent. The reports do not say
 whether their miles are measured along the ground track or the flight path, or from which speed, so
-the residual is left unresolved here. **The experiment is a few tens of kilometres of flight.** Everything the
-programme was built to learn had to be measured inside that window, on a vehicle that would not be
+the residual is left unresolved here. **The experiment is a few tens of kilometres of flight.** All that the
+programme set out to learn had to be measured inside that window, on a vehicle that would not be
 recovered.
 
 ### The Stack
@@ -478,7 +477,7 @@ during captive flight and initiated separation. The whole assembly was 589 inche
 41,750 pounds at drop, and it was carried by the NASA Dryden B-52B, tail number
 52-008\[[X-43A Mishap Investigation Board 2003][research_mib_2003]\].
 
-**The proportions are worth stating because they explain the first flight.**
+**The proportions explain the first flight.**
 
 $$\frac{m_{\text{HXRV}}}{m_{\text{stack}}} = \frac{3{,}000}{41{,}750} = 0.072 \qquad \frac{L_{\text{HXRV}}}{L_{\text{stack}}} = \frac{12}{49.1} = 0.244$$
 
@@ -490,8 +489,8 @@ $$\frac{m_{\text{HXRV}}}{m_{\text{stack}}} = \frac{3{,}000}{41{,}750} = 0.072 \q
 | Research vehicle length | 12 ft | 24 % |
 
 **The experiment is seven percent of the mass of the thing that carries it.** The booster is the larger
-part of the vehicle by every measure, it is the part that flies first, and it is the part that had
-never flown this trajectory.
+part of the vehicle by every measure, it flies first, and it had never flown this
+trajectory\[[X-43A Mishap Investigation Board 2003][research_mib_2003]\].
 
 **That last point is the origin of the failure.** The trajectory chosen for the mission was at a
 lower altitude than a typical Pegasus trajectory, and so at a higher dynamic pressure, and it was
@@ -520,13 +519,13 @@ with the static pressures those of the 1976 standard
 atmosphere\[[NOAA, NASA and USAF 1976][research_us_atmos_1976]\] in pascals. The comparison assumes
 that each stack passes a given Mach number about 20,000 feet apart in altitude, which the launch
 altitudes suggest and the published trajectories do not state, so it shows the order of the effect
-rather than its value. **A carrier aircraft constraint pushed the booster into a flight regime its
+and does not fix its value. **A carrier aircraft constraint pushed the booster into a flight regime its
 inherited control models had not been built for**, and the board places the loss of control in
 transonic flight\[[X-43A Mishap Investigation Board 2003][research_mib_2003]\].
 
 **Separation itself was a research problem.** Two non-axisymmetric bodies separating at high dynamic
 pressure at hypersonic speed had not been done, and the programme studied it at
-length\[[Tartabini et al 2003][research_tartabini_2003]\]. **The range operations were their own
+length\[[Tartabini et al 2003][research_tartabini_2003]\]. **The range operations were a separate
 undertaking**, since an expendable hypersonic vehicle over the Pacific must be tracked and terminated
 by a range that was not built for
 it\[[Lux-Baumann and Burkes 2005][research_lux_2005]\].
@@ -563,7 +562,7 @@ an interval is its duration times the frequency $f$,
 $$\Delta t = t_{\text{overload}} - t_{\text{anomaly}} = 13.5 - 11.5 = 2.00 \ \text{s} \qquad n = f \, \Delta t = 2.5 \times 2.00 = 5$$
 
 **At 2.5 hertz, two seconds is five cycles.** The vehicle went from nominal to structural failure in
-five cycles of a diverging oscillation, which is a useful thing to know about the class of failure.
+five cycles of a diverging oscillation, a useful fact about the class of failure.
 The return-to-flight review adds the breakup that followed. The right fin broke off at about 13
 seconds, followed within one second by the left fin and the rudder, the wing broke off at 15 seconds,
 the booster's data stream was lost at 21, and the research vehicle's telemetry ended at 77.5
@@ -587,11 +586,11 @@ $$\zeta = \frac{-\sigma}{\sqrt{\sigma^{2} + \omega^{2}}} \qquad \omega = 2 \pi f
 failure and a successful flight.** The vehicle was not wildly unstable. It was slightly unstable, for
 two seconds, which was enough.
 **There was no interval in which anything could have been done**, and the vehicle carried no capability
-to do it.
+to do it\[[Peebles 2007][research_peebles_2007]\].
 
 ### The Margin That Was Not There
 
-**The board's root cause is a statement about models rather than about hardware.** It found that the
+**The board's root cause lies in the models and names no failed hardware.** It found that the
 launch vehicle failed because the vehicle control system design was deficient for the trajectory flown,
 due to inaccurate analytical models of both Pegasus heritage and launch-vehicle-specific origin, which
 overestimated the system margins\[[X-43A Mishap Investigation Board 2003][research_mib_2003]\].
@@ -613,18 +612,17 @@ so those three figures correspond to gain factors of
 | Requirement | 6 | 2.00 |
 | After model correction | under 2 | 1.26 |
 
-**The available overshoot above unity fell from 1.51 to 0.26, which is a loss of 83 percent of the
-entire margin**,
+**The available overshoot above unity fell from 1.51 to 0.26, a loss of 83 percent of the entire margin**,
 
 $$\frac{k_{8} - k_{2}}{k_{8} - 1} = \frac{2.512 - 1.259}{2.512 - 1} = 0.83$$
 
 with $k_{8}$ and $k_{2}$ the permissible gain factors at 8 and 2 decibels, and it took the vehicle from
-two decibels above its requirement to four decibels below it.
+two decibels above its requirement to more than four decibels below it.
 
 **And the corrected model was still stable.** The board states that the reduction, although very
 significant and close to the instability boundary, still predicted a stable vehicle, so nominal model
 corrections alone were insufficient to predict the loss of control, and **parameter uncertainty had to
-be included before the mishap reproduced**.
+be included before the mishap reproduced**\[[X-43A Mishap Investigation Board 2003][research_mib_2003]\].
 
 **The board's conclusion is the sentence this article is built around.** No single contributing factor
 or potential contributing factor caused the mishap. The flight mishap could only be reproduced when all
@@ -632,10 +630,11 @@ of the modelling inaccuracies with uncertainty variations were incorporated in t
 analysis model and the nonlinear
 simulation\[[X-43A Mishap Investigation Board 2003][research_mib_2003]\].
 
-**That is what a margin failure looks like when it is honestly investigated.** There was no broken
-part. Every contributing error was individually survivable.
+**A margin failure looks like this when it is honestly investigated.** The root cause was found in
+the models and was not a failed part. Every contributing error was individually
+survivable\[[X-43A Mishap Investigation Board 2003][research_mib_2003]\].
 
-**The arithmetic of why no single analysis could have found it is worth writing down.** Let the true
+**The arithmetic shows why no single analysis could have found it.** Let the true
 margin be the nominal margin reduced by the modelling errors,
 
 $$m_{\text{true}} = m_{\text{nominal}} - \sum_{i=1}^{n} \lvert e_{i} \rvert$$
@@ -656,7 +655,7 @@ $$m_{\text{true}} < 0 \iff n f > 1$$
 unstable.** The condition for the failure to be invisible is $f < 1$ and the condition for it to
 happen is $n f > 1$, and both hold simultaneously whenever $n > 1$ and $f$ is between $1/n$ and 1.
 
-**That is exactly the board's finding restated**, which is that no single contributing factor caused
+**The board's finding says the same thing**, that no single contributing factor caused
 the mishap and that it reproduced only when all of the modelling inaccuracies with uncertainty
 variations were incorporated together. **The margin was positive throughout and the uncertainty on the
 margin was larger than the margin.**
@@ -668,8 +667,8 @@ thermal protection system, and insufficient variation of modelling parameters in
 fin actuation system and the control system\[[X-43A Mishap Investigation Board 2003][research_mib_2003]\].
 
 **One of those deserves separate notice.** The thermal protection system changed the outer mould line
-and the change was not modelled. **The thermal solution altered the aerodynamics and the aerodynamic
-model did not know**, which is a coupling failure between two disciplines rather than an error inside
+and the change was not modelled\[[X-43A Mishap Investigation Board 2003][research_mib_2003]\]. **The thermal solution altered the aerodynamics and the aerodynamic
+model did not know.** The fault was one of coupling between two disciplines, with no error inside
 either.
 
 ### Return to Flight
@@ -693,8 +692,8 @@ board's finding item by item.
   percent of cases successful and fewer than one percent recontacting the adapter.
 
 All four are from the return-to-flight review\[[Reubush et al 2003][research_reubush_2003]\].
-**The first of them is the board's lesson put into practice**, since parameter uncertainty is exactly
-what had to be added before the mishap reproduced. The investigation took nine months and the
+**The first of them is the board's lesson put into practice**, since the mishap did not reproduce
+until parameter uncertainty was added. The investigation took nine months and the
 return-to-flight effort two years\[[Grindle and Bahm 2006][research_grindle_bahm_2006]\].
 
 ### Flight 2, 27 March 2004
@@ -728,13 +727,13 @@ separation, which the reported phases account for to within half a second,
 $$2.5 + 5 + 11 + 4 + 17 = 39.5 \ \text{s}$$
 
 after which the vehicle flew a controlled descent with further manoeuvres and splashed down in the open ocean without
-recovery\[[Marshall et al 2005][research_marshall_corpening_2005]\]. **The guidance and control overview gives the fuelled portion as approximately 10 seconds rather than 11**\[[Bahm et al 2005][research_bahm_2005]\], which would leave the phases half a second short of the 39-second cowl closure rather than half a second over, and this article keeps the chief engineer's 11 seconds, which the technology summary also gives. The NASA history adds that the
+recovery\[[Marshall et al 2005][research_marshall_corpening_2005]\]. **The guidance and control overview gives the fuelled portion as approximately 10 seconds**\[[Bahm et al 2005][research_bahm_2005]\], one second fewer. With that figure the phases fall half a second short of the 39-second cowl closure, where 11 seconds leave them half a second over, and this article keeps the chief engineer's 11 seconds, which the technology summary also gives. The NASA history adds that the
 vehicle kept accelerating for most of the burn and began to slow only in its final
 moments\[[Peebles 2007][research_peebles_2007]\].
 
-**The engine's own account, tracing the Mach 7 flowpath from design through ground test to flight, is
-the paper that closes the loop the programme was built to
-close**\[[Ferlemann et al 2005][research_ferlemann_2005]\]. The flowpath pressures show the Mach 7
+**The paper that closes the loop between design and flight is the engine's account**, which traces
+the Mach 7 flowpath from design through ground test to
+flight\[[Ferlemann et al 2005][research_ferlemann_2005]\]. The flowpath pressures show the Mach 7
 engine operating in dual mode, with sonic flow in the isolator dissipating the inlet
 shocks\[[Voland et al 2005][research_voland_2005]\].
 
@@ -779,7 +778,8 @@ the phases again account for the reported time,
 
 $$2.5 + 3 + 10 + 6 = 21.5 \ \text{s}$$
 
-against 22 seconds, with no cowl-open manoeuvres on this flight because of concern for the cowl. The ignition sequence ran on silane for
+against 22 seconds, with no cowl-open manoeuvres on this flight because of concern for the
+cowl\[[Voland et al 2005][research_voland_2005]\]. The ignition sequence ran on silane for
 the first two fuelled conditions, 5 seconds in all, before repeating them on hydrogen alone, and the
 flowpath pressures show classical pure supersonic combustion, with a shock-dominated
 combustor\[[Voland et al 2005][research_voland_2005]\]. The highest recorded temperatures were on
@@ -787,7 +787,7 @@ the nose, as predicted\[[Marshall et al 2005][research_marshall_2005]\].
 
 **The two flights answer different questions, and the difference between them is physics as well as
 test design.** At Mach 7 the engine accelerated the vehicle. At Mach 10 it was asked to sustain the
-vehicle and did. The thrust relation shows why the second is the harder demand. Rewriting it as a
+vehicle and did\[[Voland et al 2005][research_voland_2005]\]. The thrust relation shows why the second is the harder demand. Rewriting it as a
 fractional velocity increment,
 
 $$F_{\text{thrust}} \approx \dot{m}_{0} V_{0} \left( \frac{V_{e}}{V_{0}} - 1 \right)$$
@@ -796,9 +796,9 @@ $$F_{\text{thrust}} \approx \dot{m}_{0} V_{0} \left( \frac{V_{e}}{V_{0}} - 1 \ri
 add does not grow with flight speed while the kinetic energy of the captured flow grows as its
 square.** The fractional increment therefore falls as Mach number rises. Drag meanwhile scales with
 dynamic pressure, which this trajectory holds near constant. **One term shrinks and the other does
-not.** Because the Mach 10 acceleration flight was never flown, the record does not show how much
-margin remained above cruise at Mach 9.68, only that the engine met the cruise requirement it was
-designed for.
+not.** Because the Mach 10 acceleration flight was never flown, how much margin remained above cruise
+at Mach 9.68 is unknown, and the flights show only that the engine met the cruise requirement it was
+designed for\[[Peebles 2007][research_peebles_2007]\].
 
 **Reported as a speed record, the two flights were the fastest air-breathing flights made to that
 time, in the words of NASA's history.** That history sets the second flight's Mach 6.83 against the Mach 3.32 an SR-71 reached in 1976, and the
@@ -807,34 +807,33 @@ third flight's Mach 9.68 against the second's\[[Peebles 2007][research_peebles_2
 $$6.83 - 3.32 = 3.51 \qquad 9.68 - 6.83 = 2.85$$
 
 in Mach number. Reported as physics, the pair shows that the thrust-drag margin is positive at Mach 7
-and can be held at zero at Mach 9.68, which is the result the programme existed to produce.
+and can be held at zero at Mach 9.68.
 
 ## Comparison With Ground Prediction
 
 **Every flight of this programme was a test of a prediction made on the ground, and the three flights
-returned three different verdicts.** The section headed The Research Question explains why the
+returned three different verdicts.** The opening of this article explains why the
 comparison was the purpose of the vehicle rather than a by-product of it. Ground facilities and
 computation could each supply a large term with an uncertainty band, and only flight could say whether
 the small difference between those terms had the sign the design assumed. This section sets the ground
 predictions the article reports beside what each flight returned, and points to where each comparison
 is argued.
 
-**The ground prediction for the engine was very large and it was made in several independent
-facilities.** Langley built an aerodynamic database across its tunnel complex covering separation, the
+**The ground prediction for the engine came from a large campaign in several independent facilities.** Langley built an aerodynamic database across its tunnel complex covering separation, the
 powered condition and the descent\[[McClinton et al 1998][research_mcclinton_1998]\]\[[Holland et al 2000][research_holland_2000]\],
 the engine flowpath was run in the 8-foot High Temperature Tunnel and in shock
 tunnels\[[Huebner et al 2000][research_huebner_2000]\]\[[Bakos et al 2001][research_bakos_2001]\], and the
-flight engine itself was ground tested before each
-mission\[[Huebner et al 2001][research_huebner_2001]\]. The section headed Dependent Systems
-describes that campaign.
+flight engine was ground tested before each
+mission\[[Huebner et al 2001][research_huebner_2001]\]. That campaign is described under Dependent
+Systems.
 
-**On the engine, flight agreed with the ground.** The programme's own retrospectives report that engine
+**On the engine, flight agreed with the ground.** The programme's retrospectives report that engine
 thrust was close to its design value on both powered flights\[[Voland et al 2005][research_voland_2005]\],
 and the Mach 7 scramjet design paper traces the flowpath from design through ground test to
 flight\[[Ferlemann et al 2005][research_ferlemann_2005]\]. At Mach 7 the vehicle accelerated under
 power, and at Mach 9.68 it held approximately constant velocity\[[Marshall et al 2005][research_marshall_2005]\].
-**That agreement is the calibration the programme was built to obtain**, and the section headed What
-the Data Changed treats its consequences.
+**That agreement is the calibration the programme sought**, and its consequences are the subject
+of What the Data Changed.
 
 **The programme's comparisons are quantitative, and they divide the force into its two large terms.**
 On thrust, the increment in acceleration under power at Mach 7 was about as predicted, which confirms
@@ -852,12 +851,12 @@ more strongly.** Parameter identification over the cowl-closed descent of the se
 and the normal force underpredicted by a similar amount, and above Mach 4 the static margin came out
 larger than predicted\[[Davis and White 2006][research_davis_white_2006]\].
 
-**So the engine was predicted better than the airframe it was integrated into.** That is the keystone's
-small difference seen from the flight side. The thrust term was within two or three percent\[[Voland et al 2005][research_voland_2005]\]\[[Grindle and Bahm 2006][research_grindle_bahm_2006]\], and the
+**So the engine was predicted better than the airframe it was integrated into.** The keystone's small
+difference appears here from the flight side. The thrust term was within two or three percent\[[Voland et al 2005][research_voland_2005]\]\[[Grindle and Bahm 2006][research_grindle_bahm_2006]\], and the
 drag term carried the larger error, which the uncertainty of the wind tunnel database absorbed\[[Voland et al 2005][research_voland_2005]\]. This article does not
-reconstruct the measured net thrust itself, so it reports these comparisons as the programme states
-them rather than setting its own predicted value beside a measured one. The section headed Where the
-Framing Breaks Down argues that limitation, and the section headed Epistemic State records it.
+reconstruct the measured net thrust, so it reports these comparisons as the programme states
+them and sets no predicted value from this article beside a measured one. Where the Framing Breaks Down
+argues that limitation, and the Epistemic State records it.
 
 **On the launch vehicle, flight disagreed with the ground, and the disagreement destroyed the first
 mission.** The roll axis gain margin was predicted before flight at 8 decibels against a requirement
@@ -867,8 +866,8 @@ starboard elevon two seconds after it began\[[X-43A Mishap Investigation Board 2
 2 decibels while still predicting a stable vehicle. The loss reproduced only when every modelling
 inaccuracy was combined with its uncertainty. Among the inaccuracies were an error incorporating wind
 tunnel data into the mathematical model and unmodelled outer mould line changes associated with the
-thermal protection system. The section headed The Flight Test Record argues the arithmetic of that
-margin in full.
+thermal protection system. The arithmetic of that margin is worked in full in the flight test record
+above.
 
 **Stage separation was predicted by analysis and confirmed by flight.** The programme studied the
 separation of two non-axisymmetric bodies at high dynamic pressure at
@@ -883,43 +882,41 @@ the carbon-carbon nose bracketed the measured temperature through the boost and 
 flight\[[Voland et al 2005][research_voland_2005]\].
 
 **Two of this article's own ground figures are consistency checks rather than comparisons with
-flight.** The leading edge heating rates in the section headed Dependent Systems are correlation
+flight.** The leading edge heating rates derived earlier are correlation
 estimates from the Sutton and Graves relation, and the flight reports give temperatures inside the
-carbon-carbon rather than surface heat fluxes to set beside them. The dynamic pressures in the section
-headed Sizing From First Principles are computed from the standard atmosphere, and the section sets
-them beside the reported values, from which they differ by 2.6 and 4.6 percent.
+carbon-carbon and no surface heat fluxes to set beside them. The dynamic pressures of the sizing
+argument are computed from the standard atmosphere and were set there beside the reported values,
+from which they differ by 2.6 and 4.6 percent.
 
 ## What the Data Changed
 
-**The tools were calibrated, which was the stated objective, and that is a real result even though it
-is a dull one.** The programme's own retrospectives report that engine thrust was close to its design
-value on both powered flights\[[Voland et al 2005][research_voland_2005]\], which is the statement
-that matters. **A prediction that is confirmed in flight converts a design method from a hypothesis
+**The tools were calibrated, which was the stated objective, and the result is real even though it is dull.**
+Engine thrust came close to its design value on both powered
+flights\[[Voland et al 2005][research_voland_2005]\], the statement on which the calibration depends. **A prediction that is confirmed in flight converts a design method from a hypothesis
 into an instrument.** The programme released the data to more than twenty government and industrial
 organisations in complete classified data packages, alongside more than fifty classified and
 unclassified papers and presentations\[[Voland et al 2005][research_voland_2005]\], so the
-calibration is held by the community that designs such vehicles rather than by NASA alone.
+calibration is held by the community that designs such vehicles as well as by NASA.
 
-**The vehicle itself led nowhere directly.** The X-43C, which would have flown a hydrocarbon-fuelled
+**As hardware, the X-43A led nowhere directly.** The X-43C, which would have flown a hydrocarbon-fuelled
 engine at larger scale, was planned in
 detail\[[Moses 2003][research_moses_2003]\]\[[Cockrell et al 2002][research_cockrell_2002]\].
-The project's own 2011 retrospective still lists it as a planned demonstrator, beside a planned
+The project's 2011 retrospective still lists it as a planned demonstrator, beside a planned
 reusable X-43B and a conceptual X-43D, and records that the X-43A project ended in December 2004 when
-its money ran out\[[Grindle 2011][research_grindle_2011]\]. No operational air-breathing hypersonic
-vehicle followed. **The line of descent runs through the X-51A
+its money ran out\[[Grindle 2011][research_grindle_2011]\]. None of the three had flown when that
+retrospective was written. **The line of descent runs through the X-51A
 instead**\[[Hank et al 2008][research_hank_2008]\], which on its fourth flight in May 2013 flew for
 three and a half minutes on scramjet power, reaching Mach 5.1 on hydrocarbon
-fuel\[[Boeing 2013][ref_boeing_x51a_2013]\], minutes rather than seconds, and which is treated later in
-this series.
+fuel\[[Boeing 2013][ref_boeing_x51a_2013]\]. Its burn was measured in minutes where the X-43A's was
+measured in seconds, and it is treated later in this series.
 
 **The failure changed practice more visibly than the success did.** A mishap whose cause is
 distributed across several models, none individually wrong enough to matter, is an argument for
 uncertainty analysis rather than for better point predictions. The board's recommendations are in the
 export-controlled part of its report, but the return-to-flight programme shows what was done, which
 was to run extensive Monte Carlo simulations with newly developed uncertainty models of all
-appropriate parameters\[[Reubush et al 2003][research_reubush_2003]\]. **The practice of carrying
-parameter uncertainty through system-level stability analysis rather than validating nominal models is
-the durable lesson.**
+appropriate parameters\[[Reubush et al 2003][research_reubush_2003]\].
+**The durable lesson is to carry parameter uncertainty through system-level stability analysis instead of validating nominal models.**
 
 **The programme also demonstrated something about heritage.** The launch vehicle was modified from a
 Pegasus first stage\[[X-43A Mishap Investigation Board 2003][research_mib_2003]\], a booster that had already made a number of successful satellite launches\[[Peebles 2007][research_peebles_2007]\], and the heritage models were part of what failed. The board attributes the root cause to inaccurate analytical models of both Pegasus heritage and launch-vehicle-specific kinds and finds that the booster flew in an environment significantly different from previous Pegasus experience\[[X-43A Mishap Investigation Board 2003][research_mib_2003]\], so the heritage models were valid for the trajectories that record covered and this trajectory was not one of them. **Inherited
@@ -958,11 +955,11 @@ writes it down.**
 
 **The survey below maps the field this vehicle sits in.** It holds the 43 research records among the curated sources together with the wider literature, and every record is assigned to exactly one cluster. **The Source Base states the admission rule, the classes it excludes and how much of the survey has been read.**
 
-**One statement covers every cluster below and is made once here rather than repeated.** A cluster's size measures how much has been published near a topic, not how important the topic is to this vehicle, and the two diverge sharply. The cluster holding this article's keystone is the largest of twenty-four, while flight control, guidance and stability, the discipline that lost the first flight, ranks twelfth. **Control is not a small literature, however.** Together with the 410 records on the control and dynamics of air-breathing hypersonic vehicles it holds 764 records, more than any single cluster except the scramjet cycle, supersonic combustion, boundary layer and inlet clusters.
+**One statement covers every cluster below and is not repeated under each.** A cluster's size measures how much has been published near a topic, not how important the topic is to this vehicle, and the two diverge sharply. The cluster holding this article's keystone is the largest of twenty-four, while flight control, guidance and stability, the discipline that lost the first flight, ranks twelfth. **Control is not a small literature, however.** Together with the 410 records on the control and dynamics of air-breathing hypersonic vehicles it holds 764 records, more than any single cluster except the scramjet cycle, supersonic combustion, boundary layer and inlet clusters.
 
 ### What the Shape of the Survey Says
 
-**A cluster's size says how much exists. Its date profile says whether the subject is alive.** On this corpus the two disagree sharply, and the disagreement is about this vehicle.
+**A cluster's size measures how much exists. Its date profile shows whether the subject is alive.** On this corpus the two disagree sharply, and the disagreement is about this vehicle.
 
 | Cluster | Before 2000 | 2015 or later |
 |---|---|---|
@@ -991,11 +988,11 @@ writes it down.**
 | Other hypersonic literature | 14 % | 57 %  |
 | Plasma sheath, communication and electromagnetic signature | 18 % | 55 %  |
 
-**The youngest literatures in the table are guidance and control.** Glide vehicles, trajectories and their tracking has 76 percent of its records from 2015 onward, the control and dynamics of air-breathing hypersonic vehicles 69 percent with only 4 percent before 2000, and flight control, guidance and stability 59 percent with 12 percent before 2000, the three highest recent shares among the named clusters. **That is the discipline that destroyed this vehicle's first flight.** The mishap board's finding was about control margins and modelling uncertainty, and control has grown faster since than propulsion. Whether that growth is a consequence of failures like this one is not established here, but the ordering is at least consistent with it.
+**The youngest literatures in the table are guidance and control.** Glide vehicles, trajectories and their tracking has 76 percent of its records from 2015 onward, the control and dynamics of air-breathing hypersonic vehicles 69 percent with only 4 percent before 2000, and flight control, guidance and stability 59 percent with 12 percent before 2000, the three highest recent shares among the named clusters. **Control is the discipline that destroyed this vehicle's first flight.** The mishap board's finding was about control margins and modelling uncertainty, and control has grown faster since than propulsion. Whether that growth is a consequence of failures like this one is not established here, but the ordering is at least consistent with it.
 
 **The two clusters with the least recent work are the ones about why and about flying.** Programmes, missions and access to space carries the lowest post-2015 share in the table at 21 percent, and launch, separation and flight test operations the next lowest at 26 percent. **The field kept working on the engine and stopped working on the aeroplane.**
 
-**That is the same pattern the preceding article in this series found**, where the upper stage cluster was the smallest of its central clusters and among the oldest while the propulsion clusters were among the largest and youngest. **Two consecutive articles, on unrelated vehicles, reached it from opposite directions.** A survey that shows a live propulsion literature attached to a dead mission literature is describing a field that has become an end in itself, and this article does not have the evidence to say whether that is a failure or a normal phase.
+**The preceding article in this series found the same pattern**, where the upper stage cluster was the smallest of its central clusters and among the oldest while the propulsion clusters were among the largest and youngest. **Two consecutive articles, on unrelated vehicles, reached it from opposite directions.** A survey that shows a live propulsion literature attached to a dead mission literature is describing a field that has become an end in itself, and this article does not have the evidence to say whether the condition is a failure or a normal phase.
 
 ### Scramjet cycle, thrust and drag closure
 
@@ -1189,13 +1186,13 @@ The vision that justified scramjet development was air-breathing access to space
 net thrust was positive at Mach 7 is a different and much weaker statement than knowing its value to
 within some percentage. The calibration value of the data comes from the detailed pressure and force
 reconstruction, which put the thrust within two percent of prediction and the drag above it, as the
-section headed Comparison With Ground Prediction reports. The keystone describes neither the
+comparison with ground prediction above reports. The keystone describes neither the
 reconstruction nor its uncertainty.
 
 **Second, the keystone says nothing about the ten seconds.** A scramjet that produces net thrust for
 eleven seconds on hydrogen has not demonstrated a propulsion system, because the thermal problem in a
-real vehicle is a steady-state problem and this vehicle never approached steady state. **The structure
-was absorbing heat throughout, not rejecting it.**
+real vehicle is a steady-state problem and this vehicle never approached steady state.
+**The engine was largely a heat sink, absorbing heat throughout rather than rejecting it.**\[[Moses 2003][research_moses_2003]\]
 
 **Third, the framing makes the first flight look like a distraction, and it was not.** An article
 organised around scramjet performance naturally treats a booster control failure as an interruption.
@@ -1204,12 +1201,12 @@ and it applies to any vehicle whose stability is computed rather than measured, 
 
 **The designation itself is unremarkable for once.** Every source used in this article calls the
 vehicle X-43A without qualification, and no source consulted raises a question about
-the pairing. After three consecutive articles on contested designations that is worth noting in a
-sentence and then leaving alone. **The absence of a dispute is not the same as positive evidence that
+the pairing. After three consecutive articles on contested designations, the fact deserves one
+sentence and no more. **The absence of a dispute is not the same as positive evidence that
 none exists**, and this article did not locate a nomenclature reference for the X-43 to check against,
 which is recorded in the Epistemic State.
 
-**A fourth concerns scale, and it is the one with an equation attached.** The article treats a twelve
+**A fourth concerns scale and comes with an equation attached.** The article treats a twelve
 foot vehicle as evidence about hypersonic air-breathing propulsion generally, and the quantity that
 refuses to scale is the Reynolds number,
 
@@ -1222,19 +1219,18 @@ $1.11 \times 10^{7}$ at 95,000 feet and $7.65 \times 10^{6}$ at 110,000.
 **Reynolds number is proportional to length at a fixed flight condition**, so a vehicle five times
 longer sits at $5.5 \times 10^{7}$ and one ten times longer at $1.11 \times 10^{8}$, an order of
 magnitude above the flight article. **Boundary layer transition location does not scale with it**, and
-transition sets skin friction, heating and the state of the flow entering the inlet. **Transition
-prediction at flight conditions still rests on engineering correlations rather than on
-theory**\[[Campbell et al 2010][research_campbell_2010]\], and the aerothermal difficulties of
+transition sets skin friction, heating and the state of the flow entering the inlet.
+**Transition prediction at flight conditions still relies on engineering correlations, for want of a theory**\[[Campbell et al 2010][research_campbell_2010]\], and the aerothermal difficulties of
 hypersonic flight were catalogued before this vehicle was
 conceived\[[Holden 1986][research_holden_1986]\]. **The flight data
 calibrate the tools at one Reynolds number and the tools are then used at another**, which is a
-weakness the programme understood and could not remove.
+weakness that a flight article of one size cannot remove.
 
 **A fifth caution concerns what "first" means here.** A joint Russian and American programme flew a
 scramjet on a Mach 6.5 flight test in the 1990s\[[Roudakov et al 1998][research_roudakov_semenov_1998]\],
 and various rocket-boosted scramjet experiments preceded this one. **The X-43A claim is narrower than
 the popular one**, being the first free-flight demonstration of an airframe-integrated scramjet
-producing thrust in excess of vehicle drag, and each qualifier in that sentence is doing work.
+producing thrust in excess of vehicle drag\[[Voland et al 2005][research_voland_2005]\], and each qualifier in that sentence is doing work.
 
 ## The Source Base
 
@@ -1337,8 +1333,8 @@ modified Pegasus first stage in the Orion 50S configuration with a Taurus propel
 was 589 inches long and weighed 41,750 pounds at drop, carried by the NASA Dryden B-52B, 52-008. The
 trajectory was lower and at higher dynamic pressure than a typical Pegasus trajectory, chosen because
 of stack weight limits on the B-52\[[X-43A Mishap Investigation Board 2003][research_mib_2003]\]. The
-first flight launched at about 20,000 feet and Mach 0.5 rather than the standard 40,000 feet and Mach
-0.8, because the ballast an unmodified motor would have needed exceeded the B-52B's 41,400 pound pylon
+first flight launched at about 20,000 feet and Mach 0.5, where the standard launch is at 40,000 feet
+and Mach 0.8, because the ballast an unmodified motor would have needed exceeded the B-52B's 41,400 pound pylon
 limit\[[Peebles 2007][research_peebles_2007]\].
 
 The first flight attempt was on 2 June 2001. Motor ignition occurred 5.19 seconds after release, the
@@ -1388,7 +1384,7 @@ square foot**, within five percent of the 1,000 pound design point, against repo
 the third.
 
 The Kantrowitz self-starting contraction limit rises only from 1.60 to 1 at Mach 7 to 1.63 to 1 at Mach
-10, which is why a fixed-geometry inlet is tractable across this range.
+10, which makes a fixed-geometry inlet tractable across this range.
 
 The gain factors of 2.51, 2.00 and 1.26 correspond to the published margins of 8, 6 and under 2
 decibels, and the loss of 83 percent of the available overshoot follows from them.
@@ -1426,7 +1422,7 @@ The thrust-drag margin is a small difference between large numbers, so ground te
 cannot settle its sign when their uncertainty bands are comparable to the difference.
 
 **The gain margin failure and the thrust-drag closure are the same epistemic problem.** Both are small
-differences between large quantities, both were predicted rather than measured, and the programme's
+differences between large quantities, both were predicted and neither had been measured, and the programme's
 value lies in having measured one of them.
 
 Leading edge heating roughly doubles between the two flight conditions at dynamic pressures within
@@ -1446,7 +1442,8 @@ standard atmosphere in place of the day's atmosphere for every flight-condition 
 
 **The carrier aircraft weight limit is a proximate cause of the first flight's loss.** The board states
 that the trajectory was chosen for B-52 weight limits and that the control system was deficient for the
-trajectory flown, and NASA's history traces the weight limit to the low launch. Joining those
+trajectory flown, and NASA's history traces the weight limit to the low
+launch\[[X-43A Mishap Investigation Board 2003][research_mib_2003]\]\[[Peebles 2007][research_peebles_2007]\]. Joining those
 statements into a cause is an inference this article makes and neither source makes in those words.
 
 **The reported burn durations differ by source and by up to a second.** The technology summary gives
@@ -1462,18 +1459,18 @@ sign and the programme's own reconstruction established magnitudes, but reproduc
 requires the force accounting the flight papers perform and this article does not repeat.
 
 **Whether the corrected launch vehicle models would have been adequate for a different trajectory is
-not established.** The board addressed the trajectory flown.
+not established.** The board addressed the trajectory flown\[[X-43A Mishap Investigation Board 2003][research_mib_2003]\].
 
 **No nomenclature reference for the X-43 designation was located**, so the statement
-that the pairing is undisputed rests on the uniform usage of every source consulted rather than on a
-register. **That is weaker evidence than it looks**, and it is recorded here rather than glossed.
+that the pairing is undisputed rests on the uniform usage of every source consulted and on no
+register. **Uniform usage is weaker evidence than it looks**, so the gap is recorded here.
 
 **The distances the technology summary reports are not fully reconciled.** Its 15 miles in 11 seconds
 and 20 miles in 10.5 seconds\[[Voland et al 2005][research_voland_2005]\] imply mean speeds above the standard-atmosphere speeds at the peak powered
 Mach numbers, and the summary does not say how the distances were measured.
 
 **How much thrust margin remained above cruise at Mach 9.68 is not established**, because the planned
-Mach 10 acceleration flight was never flown.
+Mach 10 acceleration flight was never flown\[[Freeman et al 1997][research_freeman_1997]\]\[[Peebles 2007][research_peebles_2007]\].
 
 ### On Information Postdating the Editorial Date
 
@@ -1495,7 +1492,7 @@ endothermic fuel cooling that a hydrocarbon engine requires is a different desig
 where they bear on the argument and are not developed.
 
 **The force accounting methodology** used to reconstruct installed thrust from flight data is not
-reproduced, although it is the technical heart of the programme's own reporting.
+reproduced, although it is the technical heart of the programme's reporting.
 
 **Hypersonic weapons policy** is out of scope entirely.
 
@@ -1507,17 +1504,17 @@ The number is the difference between the thrust an airframe-integrated scramjet 
 the airframe suffers, and before 27 March 2004 nobody knew its sign in free flight, because both terms
 are large, the difference is small, and the uncertainty on each term was comparable to the difference.
 **The second flight accelerated and the third held speed**, which places the margin at positive at Mach
-7 and at zero by design at Mach 9.68. **That is a more useful pair of results than a speed record**,
+7 and at zero by design at Mach 9.68. **The pair is more useful than a speed record**,
 because it shows the closure holding at both ends of the range, with thrust within two percent of
-prediction and drag the larger source of error.
+prediction and drag the larger source of error\[[Voland et al 2005][research_voland_2005]\].
 
 **The first flight was destroyed by the same kind of number and the programme's own investigation said
 so plainly.** A roll axis gain margin predicted at 8 decibels against a requirement of 6 became under 2
 decibels once the models were corrected, and remained nominally stable even then. **The mishap
-reproduced only when every modelling inaccuracy was combined with its uncertainty.** There was no
-broken part and no single error large enough to matter, and that is precisely what makes it worth
-recording. **A margin is not a quantity. It is a quantity with an uncertainty, and this one had an
-uncertainty larger than itself.**
+reproduced only when every modelling inaccuracy was combined with its uncertainty.** The cause lay in
+the models and in no failed part, and no single error was large enough to matter. Those two facts make
+the case worth recording\[[X-43A Mishap Investigation Board 2003][research_mib_2003]\].
+**A margin is not a quantity. It is a quantity with an uncertainty, and this one had an uncertainty larger than itself.**
 
 **The programme's stated product was calibrated tools rather than a vehicle**, and by that measure it
 succeeded, since engine thrust came in close to prediction on both powered flights and the flights produced
@@ -1526,8 +1523,8 @@ still listed as planned demonstrators in the programme's 2011 retrospective\[[Gr
 flight at Mach 7 and ten and a half at Mach 9.68 remain the extent of what this configuration did under power\[[Voland et al 2005][research_voland_2005]\].
 
 **What survives is a calibration and a caution, and the caution may outlast the calibration.** The
-engine data belongs to hydrogen scramjets at Mach 7 and 10. **The finding that a positive margin with
-an uncertainty larger than itself is indistinguishable from a negative one belongs to everything.**
+engine data applies to hydrogen scramjets at Mach 7 and 10.
+**The finding that a positive margin with an uncertainty larger than itself is indistinguishable from a negative one holds everywhere.**
 
 ## References
 

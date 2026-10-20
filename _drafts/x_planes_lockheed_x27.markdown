@@ -12,8 +12,9 @@ series_index: 28
 <!-- A324 -->
 <script>console.log("A324");</script>
 
-The [Lockheed X-27][ref_x27] never existed. No airframe was completed, no engine was ever run in one, and no
-pilot ever sat in anything but a [mock-up][ref_mockup] of wood with a metal skin.
+The [Lockheed X-27][ref_x27] never existed. No airframe was completed and no engine was ever run in one
+\[[American X-Vehicles, NASA SP-2003-4531][ref_american_x_vehicles]\], and no pilot ever sat in anything but a [mock-up][ref_mockup], which one account describes as
+wood with a metal skin \[[The Super Starfighter, The Aviationist][ref_aviationist_cl1200]\].
 **The designation was issued, the aeroplane was not built, and the gap between those two facts is the subject of this article.**
 This is the twenty-eighth article in the [X-Planes series][related_post_a297_xplanes_framing], following the
 [X-1][related_post_a298_bell_x1], the [X-2][related_post_a299_bell_x2], the
@@ -33,14 +34,15 @@ This is the twenty-eighth article in the [X-Planes series][related_post_a297_xpl
 The aeroplane that was not built was the [CL-1200 Lancer][ref_cl1200], a private venture of the
 [Lockheed Advanced Development Projects office][ref_skunk_works] under
 [Clarence Johnson][ref_kelly_johnson], and it was a re-winged, re-engined [F-104 Starfighter][ref_f104]
-offered for export. Lockheed paid for it. The [United States Air Force][ref_usaf] did not, and the
-designation it issued was a promise of support that never arrived.
+offered for export. Lockheed paid for it \[[Lockheed CL-1200 Lancer][ref_cl1200]\]. The [United States Air Force][ref_usaf] did not,
+and the designation it issued was a promise of support that never arrived \[[American X-Vehicles, NASA SP-2003-4531][ref_american_x_vehicles]\].
 
 **This article is unusual in the series because its subject produced no data at all.** There is no flight
-record, no wind-tunnel report, and no test literature under the vehicle's own name. A search of the National
-Aeronautics and Space Administration's [Technical Reports Server][ref_ntrs] for the Lancer returns nothing
-whatever. What survives is a set of numbers from a sales brochure and a parent aircraft that flew for thirty
-years, and that turns out to be enough to do real work with, because
+record, no published wind-tunnel report, and no test literature under the vehicle's own name, although the
+type's aerodynamic studies and wind-tunnel testing are recorded as Skunk Works work \[[Lockheed CL-1200 Lancer][ref_cl1200]\]. A search of the National
+Aeronautics and Space Administration's [Technical Reports Server][ref_ntrs] for the Lancer returns no
+records. What survives is a set of numbers from a sales brochure and a parent aircraft that flew in military
+service for half a century \[[Lockheed F-104 Starfighter][ref_f104]\], and that turns out to be enough for analysis, because
 **a derivative can be checked against the thing it was derived from.**
 
 * Contents
@@ -52,23 +54,25 @@ The X-27 had two research questions, and they were not the same question.
 
 **The stated one is on the record.** The X-27 was to be a high-performance research aircraft derived from
 the CL-1200, built to test advanced-technology engines and equipment, and it was to fly at [Mach][ref_mach]
-2.6. That is a specific and answerable engineering question, and it is the one this article treats as the
+2.6 \[[Lockheed CL-1200 Lancer][ref_cl1200]\]. That is a specific and answerable engineering question, and this article treats it as the
 keystone.
 
 **The operative one is visible in what the aeroplane was for.** The CL-1200 was a sales article. It had lost
 the competition it was designed for, its manufacturer had spent its own money on it, and an X-designation
-would have brought government funds to build a flying demonstrator that no customer had yet agreed to buy.
+would have brought government funds to build a flying demonstrator that no customer had yet agreed to buy
+\[[Lockheed CL-1200 Lancer][ref_cl1200]\] \[[American X-Vehicles, NASA SP-2003-4531][ref_american_x_vehicles]\].
 **The designation was being asked to do commercial work.**
 
 The article treats the first as the technical keystone and the second as the historical one, and it does not
 pretend that either subsumes the other.
 
-### The Binding Unknown, Stated Precisely
+### The Binding Unknown
 
 Take the stated question at face value and it names one thing that had never been done in this airframe.
 
-**The F-104's propulsion installation was designed around a turbojet at Mach 2.** The X-27 proposed a
-[turbofan][ref_turbofan] at Mach 2.6. Those two changes are not independent and neither is small.
+**The F-104's propulsion installation was designed around a turbojet at Mach 2**, the speed for which the
+fixed inlet cones of later F-104s were optimised \[[Lockheed F-104 Starfighter][ref_f104]\]. The X-27 proposed a
+[turbofan][ref_turbofan] at Mach 2.6 \[[Lockheed CL-1200 Lancer][ref_cl1200]\]. Those two changes are not independent and neither is small.
 
 - **A turbofan is not a turbojet with better fuel consumption.** It swallows more air, it is
   physically larger, and its fan is far less tolerant of non-uniform flow at its face than a
@@ -81,24 +85,24 @@ So the binding unknown is a single compound question.
 
 Three sections below answer the three parts of that, and two of the answers are negative.
 
-### Why This Is the Right Keystone and Not the Obvious One
+### Why the Keystone Is Not Manoeuvrability
 
-The obvious keystone would be manoeuvrability, because that is what the sales case was about and what the
-competition turned on. **It is treated at length here**, and the answer is more favourable to Lockheed than
+The obvious keystone would be manoeuvrability, because the sales case was about it and the
+competition turned on it. **It is treated at length here**, and the answer is more favourable to Lockheed than
 the outcome suggests.
 
-But manoeuvrability is not what the X-designation was requested for. The designation was requested for a
-Mach 2.6 propulsion demonstrator, and
+But manoeuvrability is not what the X-designation was assigned for. The designation was assigned to a
+proposed Mach 2.6 demonstrator of engines and equipment \[[Lockheed CL-1200 Lancer][ref_cl1200]\], and
 **an article that silently replaces a programme's stated purpose with a more interesting one is writing about a different programme.**
 Both are treated, and they are kept apart.
 
 ## Programme Origin
 
 The Lancer was not commissioned. It was offered, twice, into competitions it did not win, and the
-designation arrived after the first of those defeats rather than before it.
-**The order of events is what makes the programme legible**, so this section takes them in order.
+designation is first recorded after the first of those defeats \[[Lockheed CL-1200 Lancer][ref_cl1200]\].
+**The order of events makes the programme legible**, so this section takes them in order.
 
-### What Lockheed Had, and What Was Wrong With It
+### The Starfighter's Wing
 
 The [F-104 Starfighter][ref_f104] first flew in 1954 and was designed to one requirement above all others,
 namely to climb fast and go fast in a straight line. It has a wing of 196.1 square feet and a span of 21.94
@@ -106,7 +110,7 @@ feet, the reference geometry the National Aeronautics and Space Administration's
 compilation gives for the F-104A \[[Aircraft Handling Qualities Data, NASA CR-2144][ref_heffley_jewell]\],
 and a thickness-to-chord ratio of 3.36 percent, with a leading edge sharp enough that ground
 crews fitted protective covers over it \[[Lockheed F-104 Starfighter][ref_f104]\]. The aircraft was a superb interceptor and a poor fighter, and the
-reason is in the geometry rather than in any failing of manufacture.
+cause lies in the geometry. No failing of manufacture is needed to explain it.
 
 The [aspect ratio][ref_aspect_ratio] follows from the span and the area.
 
@@ -120,43 +124,43 @@ Here $W$ is the F-104G's design gross weight of 27,300 pounds as the National Ae
 Administration's survey of aircraft performance tabulates it, and the survey gives the same 139.2 \[[Quest for Performance, NASA SP-468][ref_sp468]\].
 
 An aircraft that must generate lift equal to several times its weight in a turn, from a small wing of low
-aspect ratio, pays for that lift in drag, and the drag is what ends the turn.
+aspect ratio, pays for that lift in drag, and the drag ends the turn.
 
 ### The International Fighter Aircraft Competition
 
 By the late 1960s the [United States][ref_usa] was supplying fighters to allied air forces under
-[military assistance][ref_fms] arrangements, and the aircraft on offer were becoming too expensive for the
-purpose. The [International Fighter Aircraft][ref_ifa] competition was run to select a fighter that could be
-sold or granted abroad in quantity.
+[military assistance][ref_fms] arrangements. The [International Fighter Aircraft][ref_ifa] competition was
+run to provide an effective low-cost fighter for allied air forces \[[Northrop F-5][ref_f5]\].
 
 The entrants were what the industry already had, adapted.
 
 - **Northrop** offered the F-5-21, a developed [F-5][ref_f5] which became the [F-5E Tiger II][ref_f5e].
 - **Ling-Temco-Vought** offered the V-1000, derived from the [F-8 Crusader][ref_f8].
-- **McDonnell Douglas** offered a simplified [F-4 Phantom][ref_f4].
-- **Lockheed** offered the CL-1200 Lancer.
+- **McDonnell Douglas** offered a version of the [F-4 Phantom][ref_f4].
+- **Lockheed** offered the CL-1200 Lancer \[[Vought F-8 Crusader][ref_f8]\].
 
 **Northrop won in November 1970.** The decision removed the Lancer's primary market at a stroke, because the
-aircraft had been designed for exactly the customers the competition was about to direct elsewhere, and
-**no existing F-104 operator subsequently expressed interest.**
+aircraft had been designed for the customers the competition was about to direct elsewhere, and
+**no existing F-104 operator subsequently expressed interest.** \[[Lockheed CL-1200 Lancer][ref_cl1200]\]
 
-### The Designation, and a Disagreement in the Record
+### Two Accounts of the Designation
 
-What happened next is where the sources diverge, and the article does not resolve the disagreement because
-the record does not.
+The sources diverge on what happened next, and the article leaves the disagreement unresolved because
+the record leaves it so.
 
 **One reading** is that the Air Force wanted the aircraft flown. Under this reading the service planned to
 buy at least one example under the designation X-27 as a technology demonstrator, and the programme died for
-want of appropriated money.
+want of appropriated money \[[Lockheed CL-1200 Lancer][ref_cl1200]\].
 
 **The other reading** is that the designation was sought rather than offered. Under this reading Lockheed
 pursued an X-designation as a route to federal funding for a demonstrator that would carry a sales campaign,
-and elements within the Air Force were actively hostile because a well-publicised Mach 2.5 fighter at a
-fraction of the cost could complicate the case then being made for the [F-15][ref_f15].
+and the military services were opposed because they did not want competition for the funding needed to
+complete the F-14 and [F-15][ref_f15] programmes \[[American X-Vehicles, NASA SP-2003-4531][ref_american_x_vehicles]\].
 
 **These are not compatible accounts of who wanted what**, and both appear in otherwise careful secondary
 sources. What is not in dispute is the outcome.
 **Congressional and Air Force support was close to absent, no money was appropriated, and nothing was built beyond a mock-up.**
+\[[Lockheed CL-1200 Lancer][ref_cl1200]\] \[[American X-Vehicles, NASA SP-2003-4531][ref_american_x_vehicles]\]
 
 ### The Second Attempt
 
@@ -165,23 +169,25 @@ Lockheed offered the CL-1200-2 into the [Lightweight Fighter][ref_lwf] competiti
 [YF-16][ref_yf16] and the [YF-17][ref_yf17].
 
 **The Lightweight Fighter programme is the sharpest possible commentary on the Lancer**, because it funded
-exactly the thing Lockheed had asked for, namely flying prototypes of lightweight fighters built to
-demonstrate a concept rather than to fill an order. It simply funded somebody else's.
+the thing Lockheed had asked for, namely flying prototypes of lightweight fighters built to
+demonstrate a concept rather than to fill an order. It funded somebody else's
+\[[Lightweight Fighter program][ref_lwf]\].
 
 A [Navy][ref_usn] derivative, the CL-1400 and CL-1400N, was studied, combining the forward fuselage, intake
-and wing of the CL-1200-2 with the rear fuselage of the X-27. It went no further.
+and wing of the CL-1200-2 with the rear fuselage of the X-27 \[[Lockheed CL-1200 Lancer][ref_cl1200]\]. The record traces it no further.
 
 ## The Vehicle
 
-Three designations name closely related aeroplanes and the record does not always keep them apart. The
-CL-1200-1 was the turbojet aircraft entered in 1970, the CL-1200-2 was the turbofan development offered in
-1972, and the X-27 was the proposed demonstrator derived from the second.
+Three designations name closely related aeroplanes and the record sometimes conflates them. The
+CL-1200-1 was the turbojet aircraft entered in 1970, the X-27 was the proposed demonstrator derived from the
+Lancer, and the CL-1200-2 was the turbofan development of the X-27 offered in 1972 \[[Lockheed CL-1200 Lancer][ref_cl1200]\].
 **Nothing in this section was ever built**, and the figures are the manufacturer's throughout.
 
 ### What Changed From the F-104
 
-The Lancer was not a modified Starfighter. It was a new aeroplane that reused the Starfighter's fuselage
-cross-section, its aerofoil section, and a good deal of its systems philosophy.
+The Lancer was a major modification of the Starfighter \[[American X-Vehicles, NASA SP-2003-4531][ref_american_x_vehicles]\]. It reused
+the Starfighter's basic fuselage structure, outer wing panels virtually identical to the Starfighter's, and its
+landing gear, hydraulic and electrical systems \[[Lockheed CL-1200 Lancer][ref_cl1200]\].
 
 | Quantity | F-104G | CL-1200-2 and X-27 | Change |
 |---|---|---|---|
@@ -207,14 +213,14 @@ are best read as upper bounds.
 **Four changes matter and the rest follow from them.**
 
 **The wing grew by half and moved.** It went from a mid-set position to a shoulder position and moved aft,
-while retaining the F-104's 10 degrees of [anhedral][ref_anhedral] and, importantly, its aerofoil section
+while retaining the F-104's 10 degrees of [anhedral][ref_anhedral] and its aerofoil section
 \[[Lockheed CL-1200 Lancer][ref_cl1200]\].
 
 **The tail came down.** The F-104's [T-tail][ref_t_tail], with the horizontal surface on top of the fin, was
-replaced by a conventional horizontal tail on the rear fuselage.
+replaced by a conventional horizontal tail on the rear fuselage \[[Lockheed CL-1200 Lancer][ref_cl1200]\].
 
 **The engine changed class.** The [J79][ref_j79] turbojet became the [TF30][ref_tf30] turbofan, and the
-difference in physical envelope is not incidental.
+difference in physical envelope is not incidental \[[Lockheed CL-1200 Lancer][ref_cl1200]\].
 
 | Engine | Length | Diameter | Dry weight | Airflow |
 |---|---|---|---|---|
@@ -238,30 +244,30 @@ where $\Delta L_{\mathrm{fus}}$ is the fuselage stretch, which is close enough t
 could have set it. The article declines to claim which one did, because the record states only the fuel
 figure.
 
-### The Intakes, Which Are the Article's Subject
+### The Intakes
 
-**The F-104 uses fixed half-cone side inlets.** The CL-1200 replaced them with translating shock cones
+**The F-104 uses fixed half-cone side inlets** \[[Lockheed F-104 Starfighter][ref_f104]\]. The CL-1200 replaced them with translating shock cones
 having four inches of axial movement.
 **The X-27, according to the record, was to have had intakes of rectangular form instead**
 \[[Lockheed CL-1200 Lancer][ref_cl1200]\].
 
-The record does not say why the shape changed.
-**Section [Sizing From First Principles](#sizing-from-first-principles) computes an answer, and the answer is that a single cone cannot do the job at Mach 2.6.**
+Why the shape changed is not recorded.
+**Section [Sizing From First Principles](#sizing-from-first-principles) computes one. A single cone cannot do the job at Mach 2.6.**
 
-### The Mock-Up, and What It Tells Us
+### The Mock-Up
 
 One full-scale mock-up was completed in a Lockheed hangar. Reports indicate that up to three fuselages were
-worked before termination.
+worked before termination \[[Lockheed CL-1200 Lancer][ref_cl1200]\].
 
 **A mock-up is not evidence about performance and this article does not treat it as any.** It is evidence
-about intent and about how far the money went, and that is all it is used for here.
+about intent and about how far the money went, and it is used here for those two purposes alone.
 
 ## Sizing From First Principles
 
 Everything in this section is computed from published geometry and published engine ratings.
 **None of it is a measurement, because there is nothing to measure.** What it produces is an independent
 prediction to set beside the manufacturer's prediction, and the
-[ground-prediction section](#comparison-with-ground-prediction) says plainly that the comparison is between
+[ground-prediction section](#comparison-with-ground-prediction) makes clear that the comparison is between
 two predictions rather than between a prediction and a fact.
 
 ### The Flight Condition
@@ -278,7 +284,7 @@ Above the tropopause it is constant, and the pressure falls exponentially.
 
 $$ p(h) = p_{11} \exp\left(-\frac{g_0 (h - h_{11})}{R T}\right) $$
 
-The density follows from the equation of state rather than from the pressure directly.
+The density follows from the equation of state.
 
 $$ \rho = \frac{p}{R T} = \frac{23{,}842.3}{287.05 \times 218.81} = 0.3796\ \mathrm{kg/m^3} $$
 
@@ -287,15 +293,16 @@ a density of 0.3796 kilograms per cubic metre, and a speed of sound of
 
 $$ a = \sqrt{\gamma R T} = \sqrt{1.4 \times 287.05\ \times 218.81} = 296.54\ \mathrm{m/s} = 663.3\ \mathrm{mph} $$
 
-The Mach number is the ratio the whole article is written in, and it is worth writing down once.
+The article is written in Mach number, the ratio of airspeed to the speed of sound.
 
 $$ M = \frac{V}{a} $$
 
 $$ M = \frac{1{,}700\ \mathrm{mph} \times 0.44704}{296.54\ \mathrm{m/s}} = \frac{760.0}{296.54} = 2.563 $$
 
-**The claimed maximum speed of 1,700 miles per hour at 35,000 feet is therefore Mach 2.563**, which is
-consistent with the Mach 2.57 quoted in one source and with the Mach 2.5 quoted in another as a rounding.
-The X-27's stated test objective of Mach 2.6 sits just above it.
+**The claimed maximum speed of 1,700 miles per hour at 35,000 feet is therefore Mach 2.563**,
+consistent with the Mach 2.57 quoted in the reference article's specification table and with the Mach 2.5
+quoted in its performance summary as a rounding. The X-27's stated test objective of Mach 2.6 sits just above
+it \[[Lockheed CL-1200 Lancer][ref_cl1200]\].
 
 Two further quantities are used throughout and are defined here so that later sections can call on them,
 following [Anderson][book_anderson]. The dynamic pressure is what converts a coefficient into a force, and
@@ -332,7 +339,7 @@ turbulent boundary layer it is the cube root of the [Prandtl number][ref_prandtl
 
 $$ T_r = T\left(1 + r\,\frac{\gamma - 1}{2} M^2\right), \qquad r = \Pr^{1/3} \approx 0.896 $$
 
-Evaluating at 35,000 feet gives the table the whole structural argument rests on.
+Evaluating at 35,000 feet gives the table on which the structural argument depends.
 
 | Mach | Speed | Total temperature | Recovery temperature | Yield retained by 2024-T81, half-hour exposure |
 |---|---|---|---|---|
@@ -371,10 +378,10 @@ accumulated many hours at that temperature over a service life would sit on one 
 percent of its strength. At Mach 2.6 it keeps 68 percent, and a wing sized for a given load factor at full
 strength is a wing that no longer reaches it.
 
-The literature on elevated-temperature alloy behaviour and creep is large and spans the whole period, and it
-is gathered in the clusters on aluminium alloys and their strength when hot and on titanium, other alloys and
-composites at elevated temperature below. The measurements of aluminium alloys at temperature closest to the
-handbook curve above are these.
+Work on elevated-temperature alloy behaviour and creep is large and spans the period. Two clusters below
+contain it, one on aluminium alloys and their strength when hot and one on titanium, other alloys and composites
+at elevated temperature. The measurements of aluminium alloys at temperature closest to the handbook curve
+above follow.
 
 - [Mathauser and Deveikis 1955][research_mathausereldone_deveikiswilliamd_1955]
 - [Mathauser and Deveikis 1957][research_mathausereldone_deveikiswilliamd_1957]
@@ -402,8 +409,8 @@ $$ T^* = T_e\left(0.5\left(1 + \frac{T_w}{T_e}\right) + 0.16\,r\,\frac{\gamma-1}
 
 $$ \mathrm{St} = 0.0296\,\mathrm{Re}_x^{-1/5}\,\Pr^{-2/3}, \qquad h = \mathrm{St}\,\rho^* u_e c_p $$
 
-The Reynolds number in that correlation is itself a defined quantity, and the viscosity inside it comes from
-Sutherland's law rather than from a table, both as given in [Anderson][book_anderson].
+The Reynolds number in that correlation is a defined quantity, and the viscosity inside it comes from
+Sutherland's law, both as given in [Anderson][book_anderson].
 
 $$ \mathrm{Re}_x = \frac{\rho^* u_e x}{\mu^*}, \qquad \mu(T) = \frac{1.458 \times 10^{-6}\,T^{3/2}}{T + 110.4} $$
 
@@ -425,13 +432,13 @@ $$ T_{\mathrm{skin}}(t) = T_\infty + \left(T_r - T_\infty\right)\left(1 - e^{-t/
 | 120 s | 208.8 °C | 99.0 percent | 69 percent |
 | 180 s | 210.6 °C | 99.9 percent | 68 percent |
 
-#### The Heating Also Loads the Structure, Which Is a Separate Objection
+#### Thermal Stress in a Restrained Skin
 
 **Losing yield strength is not the only thing high temperature does.** A skin that wants to expand and is
 restrained by cooler structure behind it develops stress without any aerodynamic load at all.
 
 Thermal stress, thermal buckling of heated panels, and the thermoelastic analysis of restrained structure
-are a substantial period literature, driven by exactly the aircraft that were trying to fly faster than
+are a large period literature, driven by the aircraft that were trying to fly faster than
 aluminium comfortably allows.
 
 - [Parkes 1953][research_parkes_1953]
@@ -467,25 +474,29 @@ $$ \sigma_{\mathrm{yield}}(T_r) = 0.68 \times 58\ \mathrm{ksi} \times 6.895\ \fr
 
 **The fully restrained thermal stress exceeds it, at 116 percent.**
 
-**That number is an upper bound and not a prediction**, because no real airframe is fully restrained. The
-whole structure heats, so what matters is the **difference** in temperature between skin and substructure,
-and the honest way to use the relation is to invert it and ask how much difference the material can afford.
+**That number is an upper bound and not a prediction**, because no real airframe is fully restrained. All
+of the structure heats, so the stress depends on the **difference** in temperature between skin and substructure,
+and a better use of the formula is to invert it and ask how much difference the material can afford.
 
 $$ \Delta T_{1/2} = \frac{0.5\,\sigma_{\mathrm{yield}}(T)}{E\,\alpha} = \frac{0.5 \times 272 \times 10^{6}}{72 \times 10^{9} \times 23 \times 10^{-6}} = 82\ \mathrm{K} $$
 
-**Eighty-two kelvin of differential consumes half the remaining strength.** That is not a large number for
-a structure with a thin hot skin over cooler spars and frames, and it says the Mach 2.6 objective posed a
-thermal-stress problem on top of the strength problem, which the record does not discuss at all.
+**Eighty-two kelvin of differential consumes half the remaining strength.** That allowance is small for
+a structure with a thin hot skin over cooler spars and frames, so the Mach 2.6 objective posed a
+thermal-stress problem on top of the strength problem. The record is silent on it.
 
 **The defence does not survive.** The skin is nine-tenths of the way to its equilibrium temperature after
-one minute. A dash long enough to be worth making is a dash long enough to heat the structure, and
-**the time constant is short because aluminium skin is thin and conductive, which is exactly why it was chosen for everything else.**
+one minute. A dash long enough to be useful is long enough to heat the structure, and
+**the time constant is short because aluminium skin is thin and conductive, the same properties that recommended it for everything else.**
 
-This is not a novel observation about the era. It is why the [X-15][related_post_a312_north_american_x15]
-was built of [Inconel X][ref_inconel] and why the [SR-71][ref_sr71] was built of [titanium][ref_titanium].
-**What is worth stating is that the X-27 proposed to reach a speed in that regime while inheriting an aluminium airframe, and that the record does not say how.**
+This is not a novel observation about the era. The F-104 could have flown faster had its aluminium skin been
+able to withstand the heating \[[Lockheed F-104 Starfighter][ref_f104]\], the [X-15][related_post_a312_north_american_x15] was of
+[Inconel X][ref_inconel] heat-sink construction \[[American X-Vehicles, NASA SP-2003-4531][ref_american_x_vehicles]\], and the [SR-71][ref_sr71] was built of
+[titanium][ref_titanium] \[[Lockheed SR-71 Blackbird][ref_sr71]\].
+**The point here is narrower. The X-27 proposed to reach a speed in that regime while inheriting an aluminium airframe, and no source explains how.**
+The only provision against heating that the record names is the strengthened windshield of the F-104S
+\[[Lockheed CL-1200 Lancer][ref_cl1200]\].
 
-### The Inlet, Which Is Where the Question Actually Lives
+### The Inlet
 
 An engine at supersonic speed is fed by a device whose job is to slow the air to a speed the compressor can
 accept while losing as little [total pressure][ref_total_pressure] as possible.
@@ -497,13 +508,13 @@ engine face to total pressure in the free stream.
 
 $$ \eta = \frac{p_{t2}}{p_{t\infty}} $$
 
-**The standard reference for this entire subject is [Seddon and Goldsmith][book_seddon_goldsmith]**, and the
+**The standard reference for this subject is [Seddon and Goldsmith][book_seddon_goldsmith]**, and the
 propulsion-integration side is covered by [Oates][book_oates] and by [Mattingly][book_mattingly_engine].
 
 The literature on supersonic inlet design, shock systems, recovery and capture is one of the largest bodies
-of work in the whole of applied gas dynamics. It is gathered in the cluster on supersonic inlets, shock
-systems and pressure recovery below, the largest in this survey, and the period studies and reviews this
-section draws on are these.
+of work in applied gas dynamics. Its records fill the cluster on supersonic inlets, shock
+systems and pressure recovery below, the largest in this survey, and this section draws on the following
+period studies and reviews.
 
 - [Ferri and Nucci 1946][research_ferriantonio_nuccilouism_1946]
 - [Nussdorfer et al 1952][research_nussdorfertheodorej_oberyleonardj_1952]
@@ -513,8 +524,8 @@ section draws on are these.
 
 #### The Standard the Design Had to Meet
 
-The military engine specification of the era defines a reference recovery against which an inlet is judged.
-It is an engineering standard rather than a law of nature, which makes it exactly the right yardstick for a
+A military specification defines a reference recovery against which an inlet is judged \[[Inlet Performance, NASA Glenn Research Center][ref_grc_inlet]\].
+It is an engineering standard rather than a law of nature, and so the right yardstick for a
 claim in a brochure.
 
 $$ \eta_{\mathrm{ref}} = 1 - 0.075\,(M - 1)^{1.35}, \qquad M > 1 $$
@@ -527,30 +538,30 @@ $$ \eta_{\mathrm{ref}} = 1 - 0.075\,(M - 1)^{1.35}, \qquad M > 1 $$
 | 2.6 | 0.8585 |
 | 3.0 | 0.8088 |
 
-#### The Cheapest Possible Inlet, and Why It Will Not Do
+#### The Pitot Inlet as a Baseline
 
 A [pitot inlet][ref_pitot_inlet] is a hole facing forward. The air crosses one
-[normal shock][ref_normal_shock] and that is the whole of the compression. The total-pressure ratio across a
+[normal shock][ref_normal_shock] and that shock does all of the compression. The total-pressure ratio across a
 normal shock is a closed form.
 
 $$ \frac{p_{t2}}{p_{t1}} = \left[\frac{(\gamma+1)M^2}{2 + (\gamma-1)M^2}\right]^{\frac{\gamma}{\gamma-1}} \left[\frac{\gamma+1}{2\gamma M^2 - (\gamma-1)}\right]^{\frac{1}{\gamma-1}} $$
 
 $$ \eta_{\mathrm{pitot}}(2.0) = 0.7209, \qquad \eta_{\mathrm{pitot}}(2.6) = 0.4601 $$
 
-**At Mach 2.6 a pitot inlet throws away more than half the total pressure.** This is why every supersonic
-aircraft of the period carried something more elaborate, and it sets the scale of what the cone is buying.
+**At Mach 2.6 a pitot inlet throws away more than half the total pressure.** That sets the scale of what
+the cone gains.
 
-#### One Cone, Computed Rather Than Assumed
+#### Computing a Single Cone
 
 A conical spike ahead of the cowl generates a conical shock. The air crosses that oblique shock first,
 losing much less total pressure than it would across a normal shock at the same free-stream Mach number, and
 then crosses a weaker normal shock at the throat.
 
-**The flow behind a conical shock is not uniform**, which is what distinguishes it from the two-dimensional
-wedge case and what makes it require an integration rather than a formula.
+**The flow behind a conical shock is not uniform.** That distinguishes it from the two-dimensional
+wedge case, and it is why the cone needs an integration where the wedge has a formula.
 
-The conical-flow literature is a distinct body of work from the inlet literature that uses it, and it is
-where the tabulations that made the integration usable before computers were published.
+The conical-flow literature is distinct from the inlet literature that uses it. Its reports published the
+tabulations that made the integration usable before computers.
 
 - [Browne et al 1948][research_browne_friedman_1948]
 - [Jack 1951][research_jackjohnr_1951]
@@ -580,14 +591,14 @@ $$ \frac{dV_r'}{d\theta} = V_\theta' $$
 $$ \frac{dV_\theta'}{d\theta} = \frac{V_r' V_\theta'^2 - a'^2\left(2V_r' + V_\theta' \cot\theta\right)}{a'^2 - V_\theta'^2}, \qquad a'^2 = \frac{\gamma-1}{2}\left(1 - V_r'^2 - V_\theta'^2\right) $$
 
 **Every oblique shock relation reduces to a normal one through the component of Mach number along the wave**,
-which is the bookkeeping that lets a single set of formulae serve both cases.
+the bookkeeping that lets a single set of formulae serve both cases.
 
 $$ M_{n1} = M_1 \sin\beta $$
 
 $$ M_{2}^{2} = \frac{1 + \frac{\gamma-1}{2}M_{n1}^{2}}{\gamma M_{n1}^{2} - \frac{\gamma-1}{2}} \bigg/ \sin^{2}(\beta - \theta_d) $$
 
-The wave angle cannot fall below the Mach angle, which is the weakest disturbance the flow will carry and
-therefore the lower bound on every search below. The oblique-shock and Mach-angle relations are standard, in
+The wave angle cannot fall below the Mach angle, the angle of the weakest disturbance the flow will carry,
+and that bound limits every search below. The oblique-shock and Mach-angle relations are standard, in
 [Shapiro][book_shapiro] and [Anderson][book_anderson], and the inlet application of them is
 [Seddon and Goldsmith][book_seddon_goldsmith].
 
@@ -598,7 +609,7 @@ give the deflection from the wave angle $\beta$,
 
 $$ \tan\theta_d = 2\cot\beta\,\frac{M_1^2 \sin^2\beta - 1}{M_1^2(\gamma + \cos 2\beta) + 2} $$
 
-and proceeds inward until the flow becomes tangent to a surface, which is the cone.
+and proceeds inward until the flow becomes tangent to a surface. That surface is the cone.
 **The problem is solved in the inverse direction**, because Taylor-Maccoll integrates from a known shock
 angle to whatever cone that shock implies, so a wanted cone angle is reached by search.
 
@@ -619,37 +630,38 @@ single-cone inlet.
 **This table contains the article's central technical result.**
 
 **At Mach 2.0 the best single cone reaches 0.9269 against a reference of 0.9250.** It clears the standard,
-by two-tenths of a point. The F-104's arrangement was adequate for the speed it was built for, which is
-unsurprising and is the control that shows the method is not biased against the design.
+by two-tenths of a point. The F-104's arrangement was adequate for the speed it was built for. That result is
+unsurprising, and it serves as the control showing the method is not biased against the design.
 
 **At Mach 2.6 the best single cone reaches 0.7442 against a reference of 0.8585. It falls short by 11.44 points.**
 
-**And that shortfall is a floor rather than an estimate**, which is the part worth dwelling on. The
-calculation above is inviscid. It charges nothing for boundary-layer bleed, nothing for duct friction,
-nothing for the diffuser, and nothing for operating away from the design point.
+**And that shortfall is a floor.** The
+calculation above is inviscid. It charges nothing for boundary-layer bleed, duct friction, the diffuser,
+or operation away from the design point.
 **A real inlet does worse than this.** The reference standard, by contrast, is what a competent real inlet
-was expected to achieve including all of those losses.
-**An idealised calculation that still cannot reach a practical standard has established the shortfall as real rather than as an artefact of pessimistic assumptions.**
+was expected to achieve including all of those losses, since the specification carries an inlet efficiency
+factor for them \[[Inlet Performance, NASA Glenn Research Center][ref_grc_inlet]\].
+**An idealised calculation that still cannot reach a practical standard shows that the shortfall is no artefact of pessimistic assumptions.**
 
-#### Two Ramps, and Why the Intakes Became Rectangular
+#### Two Ramps in a Rectangular Intake
 
 A rectangular intake can carry two or more plane compression ramps where a round one carries a single cone.
 Each additional oblique shock takes a share of the compression, and spreading the compression across more
-and weaker shocks costs less total pressure than concentrating it, which is the [Oswatitsch][ref_oswatitsch]
-result.
+and weaker shocks costs less total pressure than concentrating it, a result due to
+[Oswatitsch][ref_oswatitsch].
 
 Computing the two-ramp arrangement requires the same oblique-shock relation applied twice, followed by a
 normal shock.
 
 $$ \eta_{\mathrm{2-ramp}} = \frac{p_{t2}}{p_{t1}}\bigg|_{\delta_1} \cdot \frac{p_{t3}}{p_{t2}}\bigg|_{\delta_2} \cdot \frac{p_{t4}}{p_{t3}}\bigg|_{\mathrm{normal}} $$
 
-**The result that says how to divide the compression is [Oswatitsch's][ref_oswatitsch], and it is worth writing down.**
+**[Oswatitsch's][ref_oswatitsch] result also says how to divide the compression.**
 For a given number of oblique shocks the recovery is greatest when they are of equal strength, meaning equal
 normal Mach components.
 
 $$ M_1 \sin\beta_1 = M_2 \sin\beta_2 = \cdots = M_n \sin\beta_n $$
 
-**That is a theorem worth checking rather than quoting**, and a fair check holds both searches to the same
+**The theorem can be checked directly**, and a fair check holds both searches to the same
 constraint. An equal pair searched without the turning constraint, set against an unequal pair searched with
 it, appears to win only by exceeding a limit the other obeys. Under the same twenty-five degree cap the two
 agree closely.
@@ -659,13 +671,13 @@ agree closely.
 | 2.0 | 10.8° + 10.8° | 0.9569 | 10.4° + 11.1° | 0.9570 | 0.010 points |
 | 2.6 | 12.5° + 12.5° | 0.8251 | 11.4° + 13.6° | 0.8261 | 0.104 points |
 
-**The free optimum beats the equal-strength arrangement by a tenth of a point at most, which confirms the theorem rather than contradicting it.**
+**The free optimum beats the equal-strength arrangement by a tenth of a point at most, which confirms the theorem.**
 
 **The search must be constrained or it returns nonsense.** An unconstrained optimisation returns four
 degrees followed by twenty at Mach 2.0, for a recovery of 0.9974, and that is arithmetic rather than a
 design. A total deflection of thirty-six degrees has to be turned back at the cowl and would separate the
-duct. Capping total turning at twenty-five degrees, which is about what external compression can physically
-deliver, gives usable answers.
+duct. Capping total turning at twenty-five degrees, taken here as about what external compression can
+physically deliver, gives usable answers.
 
 | Mach | Best two-ramp | Recovery | Mach before the normal shock | Gain over the best single cone |
 |---|---|---|---|---|
@@ -675,16 +687,15 @@ deliver, gives usable answers.
 **The two-ramp arrangement recovers 8.18 of the 11.44 points the single cone gives away at Mach 2.6, and only 2.98 points at Mach 2.0 where nothing needed recovering.**
 
 **The record states that the X-27 was to have rectangular intakes and does not say why. This is why.** The
-article states plainly that this is an inference from the physics and not a documented rationale, and it is
-offered as an explanation that fits rather than as a discovered intention. It is, however, an explanation
-with a sharp signature, since the change buys almost nothing at the speed the CL-1200 was sold at and a
-great deal at the speed the X-27 was to be tested at, which is exactly the pattern one would expect if the
-change was made for the test programme.
+article presents this as an inference from the physics, offered as an explanation that fits, with no
+documented rationale behind it. The explanation has a sharp signature, since the change gains almost
+nothing at the speed the CL-1200 was sold at and a great deal at the speed the X-27 was to be tested at,
+the pattern one would expect if the change was made for the test programme.
 
-The literature on inlet-engine compatibility, distortion, and the compressor's response to it is the other
-half of this subject, gathered in the clusters on inlet distortion and inlet-engine compatibility and on
-compressor stall, surge and casing treatment below. The compatibility procedures and surveys of the period
-are these.
+Inlet-engine compatibility, distortion, and the compressor's response to it form the other half of this
+subject, and the clusters on inlet distortion and inlet-engine compatibility and on compressor stall, surge
+and casing treatment below collect that work. The period's compatibility procedures and surveys appear
+here.
 
 - [Esenwein and Schueller 1952][research_esenweinfredt_schuellercarlf_1952]
 - [Campbell and Ellis 1971][research_campbell_ellis_1971]
@@ -698,14 +709,14 @@ The TF30 is the wrong engine to put behind a marginal inlet, and this is documen
 **The engine was prone to compressor stall at high angle of attack when the throttle was moved sharply**,
 and in the [F-14][ref_f14], whose widely separated nacelles turned a stall into asymmetric thrust, it was
 dangerous enough to threaten departure. The [F-111][ref_f111] suffered less because its mission involved
-gentler handling.
+gentler handling \[[Pratt and Whitney TF30][ref_tf30]\].
 
 **A fan is more sensitive to inlet distortion than a turbojet's compressor**, because the fan's outer span
 operates at high relative Mach number and low solidity, and a circumferential total-pressure defect passing
 through it appears as a rotating incidence excursion.
 **The Lancer's inlets sit on the sides of a fuselage, ahead of a wing, at whatever angle of attack the aeroplane is flying.**
 
-The literature on compressor stall and surge, its inception, and its suppression is one of the most
+Research on compressor stall and surge, its inception, and its suppression is one of the most
 sustained programmes in turbomachinery.
 
 - [Huppert and Benser 1953][research_huppert_benser_1953]
@@ -741,7 +752,7 @@ sustained programmes in turbomachinery.
 - [Boussios et al 1992][research_boussios_epstein_1992]
 
 **This article does not claim the Lancer would have suffered the F-14's problems.** It had a single engine,
-so asymmetry was not available to it, and its inlets are differently placed. What it does claim is narrower
+so asymmetry was not available to it, and its inlets are differently placed \[[Lockheed CL-1200 Lancer][ref_cl1200]\]. What it does claim is narrower
 and better supported.
 **The combination the X-27 proposed put a distortion-sensitive engine behind an inlet that the calculation above shows was working near its limit, at a Mach number beyond anything the installation's ancestor had flown, and the record contains no evidence that the combination was ever tested in any facility.**
 
@@ -759,11 +770,11 @@ The travel needed between two Mach numbers follows immediately.
 
 $$ \Delta L = r\left(\cot\beta_{\mathrm{hi}} - \cot\beta_{\mathrm{lo}}\right) $$
 
-The shock-on-lip condition and the capture-area bookkeeping that follows it are set out in
+The shock-on-lip condition and the capture-area bookkeeping that follows it come from
 [Seddon and Goldsmith][book_seddon_goldsmith].
 
 **The record gives the travel and not the radius.** Four inches of movement is documented, but the diameter
-of the Lancer's inlets is not. **So the relation is inverted**, which is the honest move when a parameter is
+of the Lancer's inlets is not. **So the relation is inverted.** Inversion is the sound move when a parameter is
 unknown, and it turns a quoted number into a checkable one.
 
 $$ r = \frac{\Delta L}{\cot\beta_{\mathrm{hi}} - \cot\beta_{\mathrm{lo}}} $$
@@ -778,10 +789,10 @@ their combined capture area is $\pi r^2$,
 | 27.5° | 45.20° | 39.23° | 17.26 in | 6.500 ft² |
 | 30° | 48.08° | 41.94° | 18.58 in | 7.535 ft² |
 
-The literature on capture area, spike and cone geometry, mass-flow ratio and the spillage that follows from
-operating away from the design point is where this calculation comes from. It is gathered in the cluster on
+This calculation comes from the work on capture area, spike and cone geometry, mass-flow ratio and the
+spillage that follows from operating away from the design point. That work also belongs to the cluster on
 supersonic inlets, shock systems and pressure recovery below, and the translating-spike and additive-drag
-work closest to this calculation is this.
+reports nearest to the calculation are listed here.
 
 - [Gorton 1953][research_gortongeraldc_1953]
 - [Gorton 1954][research_gortongeraldc_1954]
@@ -789,7 +800,7 @@ work closest to this calculation is this.
 - [Barry 1971][research_barry_1971]
 - [Hawkins et al 1976][research_hawkinsje_kirklandfp_1976]
 
-#### The Check That Makes This Worth Doing
+#### Testing the Inversion
 
 An inversion that cannot be tested is a rearrangement. This one can be tested, because the engine's airflow
 is documented independently.
@@ -798,7 +809,7 @@ The capture area needed to admit a given physical mass flow at full capture is
 
 $$ A_c = \frac{\dot m}{\rho_\infty V_\infty} $$
 
-**The TF30-P-100 is documented at 260 pounds per second, which is 117.93 kilograms per second**
+**The TF30-P-100 is documented at 260 pounds per second, or 117.93 kilograms per second**
 \[[Pratt and Whitney TF30][ref_tf30]\]. At Mach 2.0
 and 35,000 feet the free-stream mass flux is $\rho_\infty V_\infty = 225.0$ kilograms per square metre per
 second, so
@@ -817,21 +828,21 @@ which at twenty-five degrees is
 
 $$ \varepsilon = \frac{A_{\mathrm{travel}} - A_c}{A_c} = \frac{5.401 - 5.639}{5.639} = -0.042 $$
 
-**A twenty-five degree cone reconciles the two published figures to within 4.2 percent, and twenty-five degrees is an entirely ordinary half-angle for a supersonic inlet of the period.**
+**A twenty-five degree cone reconciles the two published figures to within 4.2 percent, and twenty-five degrees is an ordinary half-angle for a supersonic inlet of the period.**
 
-**This is the strongest result in the article and it is worth being precise about why.** Two numbers were
+**This is the strongest result in the article, and the reason deserves care.** Two numbers were
 published by different people for different purposes, namely a spike travel of four inches quoted as an
 airframe feature, and an airflow of 260 pounds per second quoted as an engine rating.
 **Neither was derived from the other.** Shock-on-lip geometry and a mass-flow balance connect them through a
-cone angle that nobody published, and asking for a cone angle that satisfies both returns a thoroughly
+cone angle that nobody published, and asking for a cone angle that satisfies both returns a
 conventional one.
 
-**Reproducing two independent quoted figures from one model is worth considerably more than reproducing either alone**,
-and it is the closest this subject comes to a measurement.
+**Reproducing two independent quoted figures from one model carries far more weight than reproducing either alone.**
+No other result here comes as close to a measurement.
 
 **What it does not establish** should be equally clear. It does not confirm the aircraft would have worked.
-It confirms that the published airframe and engine figures are mutually consistent, which is evidence that
-the design was worked out rather than sketched, and nothing beyond that.
+It confirms only that the published airframe and engine figures are mutually consistent, evidence that
+the design was worked out rather than sketched.
 
 #### A Note on Corrected Flow
 
@@ -846,12 +857,12 @@ maximum corrected flow while its inlet total temperature rises by two hundred ke
 speed falls and the operating point walks down the map.
 **The engine's flow schedule at high Mach is not in the public record**, so the comparison above is made at
 Mach 2.0 using physical flow, where the engine is near its rating and the assumption is defensible. The
-point is stated because a number that is not credible is a finding rather than a nuisance.
+point is stated because a number that is not credible counts as a finding.
 
-### The Metric the Competition Actually Used
+### The Metric the Competition Used
 
 By 1970 the argument about fighters had moved. Top speed and rate of climb had been the currency of the
-1950s, and the F-104 was designed to win on them.
+1950s, and the F-104 was designed to win on them \[[Lockheed F-104 Starfighter][ref_f104]\].
 **What replaced them was [energy manoeuvrability][ref_energy_maneuverability]**, the framework associated
 with [John Boyd][ref_boyd] and [Thomas Christie][ref_christie], which asks not how fast an aircraft can go
 but how much energy it can gain or hold while turning.
@@ -864,7 +875,7 @@ for height without loss, and it is written out below. The treatment followed her
 **This heading is among the thinnest in the article and the thinness is a finding.** Of the research records
 the article cites, one carries energy height, energy state or minimum time to climb in its title. **The subject is not small. It is indexed elsewhere**, inside trajectory optimisation and inside
 the optimum-climb literature, and its foundational documents are Air Force internal reports that no journal
-indexed.
+indexed \[[Energy-maneuverability theory][ref_energy_maneuverability]\].
 
 - [Corner 1940][research_corner_1940]
 - [Whittley 1952][research_whittley_1952]
@@ -878,7 +889,7 @@ At 15,000 feet and Mach 0.9 that is
 $$ h_e = 4{,}572 + \frac{290.0^2}{2 \times 9.80665} = 4{,}572 + 4{,}289 = 8{,}861\ \mathrm{m} = 29{,}072\ \mathrm{ft} $$
 
 The central quantity is [specific excess power][ref_specific_excess_power],
-**which is the rate of change of that height and not an independent definition**.
+**the rate of change of that height and not an independent definition**.
 
 $$ P_s = \frac{dh_e}{dt} = V\,\frac{T - D}{W} $$
 
@@ -890,10 +901,10 @@ $$ \frac{T}{W} = \frac{25{,}000\ \mathrm{lbf}}{24{,}385\ \mathrm{lb}} = 1.025 $$
 **A re-winged F-104 improves on the old metrics. The question is what it does to this one.**
 
 The framework and its consequences for fighter design are set out in [Whitford][book_whitford], and Boyd's
-own part in it is treated at length in [Coram][book_coram].
+part in it is treated at length in [Coram][book_coram].
 
-The literature on energy manoeuvrability, sustained turning performance and combat aircraft performance
-comparison is smaller than the others treated here, and the article says so rather than padding it.
+Energy manoeuvrability, sustained turning performance and the comparison of combat aircraft performance
+have a smaller literature than the other subjects treated here, and the list below is not padded.
 
 - [Tamboli 1956][research_tamboli_1956]
 - [Marshall 1971][research_marshallrt_1971]
@@ -902,18 +913,18 @@ comparison is smaller than the others treated here, and the article says so rath
 - [Hill and Bowles 1976][research_hillgc_bowlesjv_1976]
 - [Friend and Sakamoto 1978][research_friendel_sakamotogm_1978]
 
-**That thinness is itself worth reporting.**
-**The subject is not small. Its foundational documents are Air Force internal reports that were never journal articles**,
-and Boyd's own work in particular is not indexed where the rest of this article's sources live.
+**That thinness has the cause given above.**
+Boyd's work in particular is not indexed where the rest of this article's sources live
+\[[Energy-maneuverability theory][ref_energy_maneuverability]\].
 
 ### Building a Drag Polar Without a Measurement
 
-The drag polar is the relation the whole manoeuvre argument runs through.
+Every manoeuvre result below runs through the drag polar.
 
 $$ C_D = C_{D_0} + K C_L^2 $$
 
 **Neither coefficient is available for this aircraft**, so both are constructed, and the construction is
-stated rather than buried.
+stated in full.
 
 #### The Parasite Term, Held Deliberately Constant
 
@@ -924,14 +935,14 @@ by [Nicolai][book_nicolai].
 
 $$ C_{D_0} = C_{fe}\,\frac{S_{\mathrm{wet}}}{S_{\mathrm{ref}}} = 0.0035 \times 4.5 = 0.0158 $$
 
-**The same value is used for all four aircraft compared below, and that is a deliberate control rather than an approximation.**
+**The same value is used for all four aircraft compared below. It is a deliberate control and makes no claim to accuracy.**
 Holding parasite drag equal turns the comparison into one about wing loading and thrust-to-weight, which is
 the question being asked.
 **Where the answer depends on the value, the sensitivity is reported instead of a number.**
 
-#### The Induced Term, Where the Aerofoil Bites
+#### The Induced Term and the Aerofoil
 
-$K$ is where the F-104's inheritance shows. The elliptical result assumes the leading edge develops its full
+The F-104's inheritance shows in $K$. The elliptical result assumes the leading edge develops its full
 suction peak.
 
 $$ K_{\mathrm{full}} = \frac{1}{\pi A e} $$
@@ -942,14 +953,14 @@ turning around it, and the limiting case is that the resultant force tilts back 
 $$ K_{\mathrm{none}} = \frac{1}{C_{L_\alpha}} $$
 
 At these aspect ratios the lift-curve slope is nowhere near $2\pi$, and using the high-aspect-ratio value
-would understate the very penalty this section exists to measure. The form used is the one given by
+would understate the very penalty this section exists to measure. The form used is that of
 [Raymer][book_raymer] and [Nicolai][book_nicolai]. The [Helmbold-Diederich][ref_helmbold] form applies.
 
 $$ C_{L_\alpha} = \frac{2\pi A}{2 + \sqrt{4 + \dfrac{A^2\beta^2}{\eta^2}\left(1 + \dfrac{\tan^2\Lambda_{c/2}}{\beta^2}\right)}}, \qquad \beta = \sqrt{|1 - M^2|} $$
 
 The real wing sits between the two limits, so the article blends them and
-**reports the whole range rather than choosing a value**, because a conclusion that survives every
-leading-edge suction fraction is worth more than a point estimate.
+**reports the full range and picks no single value**, because a conclusion that survives every
+leading-edge suction fraction is stronger than a point estimate.
 
 $$ K = s\,K_{\mathrm{full}} + (1 - s)\,K_{\mathrm{none}}, \qquad 0 \le s \le 1 $$
 
@@ -960,10 +971,10 @@ $$ K = s\,K_{\mathrm{full}} + (1 - s)\,K_{\mathrm{none}}, \qquad 0 \le s \le 1 $
 | F-5E | 3.824 | 5.158 | 0.1939 | 0.1432 | 0.0925 |
 | F-15A | 3.014 | 4.275 | 0.2339 | 0.1756 | 0.1173 |
 
-The literature on low-aspect-ratio and thin-wing aerodynamics, leading-edge behaviour, wave drag and the
-area rule underpins every line of that table, and it is gathered in the clusters on wings, aspect ratio and
-vortex flows and on drag polars, wave drag and supersonic aerodynamics below. The period work on low aspect
-ratio wings, drag due to lift, leading-edge suction and the area rule includes these.
+Every line of that table draws on the literature of low-aspect-ratio and thin-wing aerodynamics,
+leading-edge behaviour, wave drag and the area rule, which the clusters on wings, aspect ratio and vortex
+flows and on drag polars, wave drag and supersonic aerodynamics below divide between them. From the period,
+these papers treat low aspect ratio wings, drag due to lift, leading-edge suction and the area rule.
 
 - [Hall and Heitmeyer 1951][research_hallcharlesf_heitmeyerjohnc_1951]
 - [Bertram and Ulmann 1953][research_bertrammh_ulmannef_1953]
@@ -983,7 +994,7 @@ then solving for the load factor gives
 
 $$ n_{\mathrm{sus}} = \sqrt{\frac{q S}{K W}\left(\frac{T}{W} - \frac{q S C_{D_0}}{W}\right)} $$
 
-and the turn rate follows from the load factor and the speed, as does the radius, which is the other axis of
+and the turn rate follows from the load factor and the speed, as does the radius, the other axis of
 the diagram this framework is usually drawn on.
 
 $$ \dot\psi = \frac{g\sqrt{n^2 - 1}}{V} $$
@@ -998,8 +1009,8 @@ At the sustained load factor computed below the Lancer is banked at
 
 $$ \phi = \arccos\frac{1}{6.34} = 80.9^\circ, \qquad R = \frac{290.0^2}{9.80665\sqrt{6.34^2 - 1}} = 1{,}371\ \mathrm{m} = 4{,}496\ \mathrm{ft} $$
 
-Evaluating at 15,000 feet and Mach 0.9, a representative combat condition, gives the comparison the whole
-sales case rested on.
+Evaluating at 15,000 feet and Mach 0.9, a representative combat condition, gives the comparison on which the
+sales case rested.
 
 | Suction | Aircraft | Sustained $n$ | Turn rate | $P_s$ at 1 g |
 |---|---|---|---|---|
@@ -1040,7 +1051,8 @@ behind this table.
 **The result is favourable to Lockheed and it is robust.** At every leading-edge suction fraction the Lancer
 out-turns the F-5E that beat it, comfortably, and it sits close behind the F-15A.
 
-**The specific excess power comparison is the striking one. At 830 feet per second against the F-15A's 866, the Lancer is within 4.2 percent of an aeroplane that cost several times as much.**
+**The specific excess power comparison is the striking one. At 830 feet per second against the F-15A's 866, the Lancer is within 4.2 percent of an aeroplane its own service had judged too expensive to equip the whole Air Force with.**
+\[[Lightweight Fighter program][ref_lwf]\]
 The shortfall is taken relative to the F-15A at a leading-edge suction fraction of 0.5,
 
 $$ 1 - \frac{P_{s,\mathrm{CL\text{-}1200\text{-}2}}}{P_{s,\mathrm{F\text{-}15A}}} = 1 - \frac{830}{866} = 0.042 $$
@@ -1056,18 +1068,18 @@ The ranking does not depend on the parasite drag assumption.
 
 **A model with a free parameter that reproduces an expectation has demonstrated very little.** What this one
 has demonstrated is narrower and firmer, because
-**the ordering is invariant across the whole plausible range of both free parameters**, which is a statement
-about the ordering and not about the absolute numbers, and the absolute numbers should not be quoted as
-predictions of what the aircraft would have achieved.
+**the ordering is invariant across the plausible range of both free parameters**. The claim concerns the
+ordering alone, and the absolute numbers should not be quoted as predictions of what the aircraft would have
+achieved.
 
 **And it makes the political story quantitative.** The claim that some in the Air Force saw the Lancer as a
 threat to the F-15 is usually reported as an attitude.
-**The arithmetic says the attitude was not unreasonable.** An aeroplane within 4.2 percent of the F-15's
-specific excess power, offered at a fraction of the price, is an awkward thing to have flying while the case
+**By the arithmetic, the attitude was not unreasonable.** An aeroplane within 4.2 percent of the F-15's
+specific excess power, offered as a low-price export fighter \[[Lockheed CL-1200 Lancer][ref_cl1200]\], is an awkward thing to have flying while the case
 for the expensive one is before Congress.
 **The article states this as a consistency between the physics and the reported attitude, not as evidence of anyone's motive.**
 
-### Corner Speed and the Limit That Actually Binds
+### Corner Speed and the Binding Limit
 
 The corner speed is the lowest speed at which the structural limit load factor can be reached
 aerodynamically.
@@ -1080,7 +1092,7 @@ $$ V^* = \sqrt{\frac{2\,n_{\mathrm{limit}}\,W}{\rho\,S\,C_{L_{\max}}}} $$
 | 1.2 | 141.4 kt | 482.8 kt | 0.771 |
 | 1.4 | 131.0 kt | 447.0 kt | 0.713 |
 
-The corner speed is built on the stall speed, which is the same relation at a load factor of one, and both
+The corner speed is built on the stall speed, the same relation at a load factor of one, and both
 are standard sizing relations in [Raymer][book_raymer] and [Nicolai][book_nicolai].
 
 $$ V_{\mathrm{stall}} = \sqrt{\frac{2W}{\rho\,S\,C_{L_{\max}}}} , \qquad V^{*} = \sqrt{n_{\mathrm{limit}}}\;V_{\mathrm{stall}} $$
@@ -1089,10 +1101,11 @@ $$ V_{\mathrm{stall}} = \sqrt{\frac{2W}{\rho\,S\,C_{L_{\max}}}} , \qquad V^{*} =
 ratio 2.8 does not achieve much of one, and the record supplies no figure. The table is therefore given
 across a range and no single value is asserted.
 
-The literature on high lift, boundary-layer-control blowing, and approach-speed reduction bears directly on
-this, and the F-104 needed blown flaps to land at all. It is gathered in the cluster on boundary-layer control,
-high lift and short take-off below, and the blown-flap work on swept-wing aircraft of the F-104's period
-includes these.
+Work on high lift, boundary-layer-control blowing, and approach-speed reduction bears directly on this,
+and the F-104 blew bleed air over its trailing-edge flaps to lower its landing speed by more than 30
+knots \[[Lockheed F-104 Starfighter][ref_f104]\]. The cluster on boundary-layer control, high lift and short
+take-off below holds that work, and its blown-flap studies of swept-wing aircraft from the F-104's period are
+listed here.
 
 - [Kelly et al 1958][research_kellymarkw_andersonsethb_1958]
 - [Maki 1959][research_makiralphl_1959]
@@ -1108,12 +1121,12 @@ follows from the manoeuvre requirement that the engine change made reachable.
 ### Propulsion
 
 Treated at length above.
-**The summary is that the engine change is the largest single change in the aircraft and the one that drives most of the others.**
+**The summary is that the engine change is the largest single change in the aircraft, and it drives most of the others.**
 Against the J79-GE-17 it is 33.01 inches longer, 9.84 inches wider, and it swallows 52.9 percent more air, differences computed in the section headed [What Changed From the F-104](#what-changed-from-the-f-104). The fuselage stretch,
 the redesigned centre and rear fuselage, the enlarged intakes and the translating cones all follow from it.
 
-The engine literature is gathered in the cluster on turbofans, turbojets and installed thrust below, and the
-work on turbojets and turbofans for supersonic fighters nearest this aircraft's case includes these.
+For the engine, see the cluster on turbofans, turbojets and installed thrust below. Of its work on turbojets
+and turbofans for supersonic fighters, the reports nearest this aircraft's case are these.
 
 - [Gabriel et al 1953][research_gabrieldavids_krebsrichardp_1953]
 - [Branstetter et al 1971][research_branstetterjr_juhaszaj_1971]
@@ -1121,12 +1134,12 @@ work on turbojets and turbofans for supersonic fighters nearest this aircraft's 
 - [McAulay and Abdelwahab 1972][research_mcaulayje_abdelwahabm_1972]
 - [Franciscus 1987][research_franciscusleoc_1987]
 
-#### Ram Drag, Which the Keystone Needs
+#### Ram Drag
 
 **An engine at high Mach spends a large part of its gross thrust cancelling the momentum of the air it swallowed.**
 Net thrust is the difference between what leaves and what arrived.
 
-**The literature under this heading is genuinely thin and the reason is worth stating.** Of the research records
+**The literature under this heading is thin, and the cause is instructive.** Of the research records
 the article cites, three carry ram drag, momentum drag or installed performance in their titles, all of them
 in the contemporary survey and none in the list under this heading. **The subject is not thin. The heading is.** Thrust and drag bookkeeping
 is settled inside the papers on inlet additive drag and spillage already cited above, because deciding what
@@ -1143,13 +1156,13 @@ The second term is the ram drag, and at Mach 2.6 the free stream arrives at 771 
 
 $$ D_{\mathrm{ram}} = \dot m V_0 = 117.93 \times 771.0 = 90{,}926\ \mathrm{N} = 20{,}441\ \mathrm{lbf} $$
 
-**The engine's rated 25,000 pounds of net thrust therefore requires 45,441 pounds gross, so 45.0 percent of the gross thrust is spent on the air's own momentum.**
+**The engine's rated 25,000 pounds of net thrust therefore requires 45,441 pounds gross, so 45.0 percent of the gross thrust is spent on the momentum of the air.**
 
 The thrust equation and the propulsive efficiency that follows from it are standard, in [Oates][book_oates]
 and [Mattingly][book_mattingly_engine].
 
 **The relation is more useful inverted than asserted**, because holding the sea-level rating across the
-whole Mach range is not defensible. Asking instead what exhaust velocity the rating would require at that
+Mach range is not defensible. Asking instead what exhaust velocity the rating would require at that
 condition gives a checkable number.
 
 $$ V_e = \frac{F_{\mathrm{net}} + \dot m V_0}{\dot m} = \frac{111{,}206 + 90{,}926}{117.93} = 1{,}714\ \mathrm{m/s} $$
@@ -1158,7 +1171,7 @@ $$ V_{e,\,\mathrm{static}} = \frac{F_{\mathrm{net}}}{\dot m} = \frac{111{,}206}{
 
 **Seventeen hundred metres per second is within reach of an afterburning nozzle, so the requirement is not absurd.**
 What it is not is free. A higher exhaust velocity needs a higher total pressure at the engine face,
-**and total pressure at the engine face is precisely what the inlet section showed the single cone failing to deliver at this Mach number.**
+**and the inlet section showed the single cone failing to deliver that total pressure at this Mach number.**
 The two halves of the keystone are the same problem seen from either end.
 
 The propulsive efficiency at that condition follows.
@@ -1167,12 +1180,12 @@ $$ \eta_p = \frac{2V_0}{V_0 + V_e} = \frac{2 \times 771.0}{771.0 + 1714} = 0.621
 
 ### Aerodynamics
 
-The wing grew 53.0 percent in area and 33.0 percent in span while retaining the F-104's aerofoil section,
-its 3.36 percent thickness ratio and its 10 degrees of anhedral. **Aspect ratio rose only 15.5 percent**,
+The wing grew 53.0 percent in area and 33.0 percent in span while retaining the F-104's 10 degrees of
+anhedral and, on outer panels virtually identical to the F-104's, its aerofoil section \[[Lockheed CL-1200 Lancer][ref_cl1200]\]. **Aspect ratio rose only 15.5 percent**,
 from 2.455 to 2.836, because the area grew nearly as fast as the span squared.
 
-The lift the wing produces is the coefficient carried on the dynamic pressure and the area, which is the
-identity every load factor below is measured against, and the drag data behind the coefficients used with it
+The lift the wing produces is the coefficient carried on the dynamic pressure and the area. Every load
+factor below is measured against that identity, and the drag data behind the coefficients used with it
 is [Hoerner][book_hoerner], with the configuration context in [Kuchemann][book_kuchemann].
 
 $$ L = q\,S\,C_L $$
@@ -1182,29 +1195,29 @@ aspect ratio is not much relieved by going from 2.455 to 2.836, and the table ab
 remaining above the F-5E's at every suction fraction.
 **What made the Lancer competitive was not the wing. It was the thrust.**
 
-Moving the wing to the shoulder position has consequences the record does not discuss and this article does
-not resolve. A high wing changes the interference field at the wing-body junction, alters the downwash at
+Moving the wing to the shoulder position has consequences the sources pass over and this article does not
+resolve. A high wing changes the interference field at the wing-body junction, alters the downwash at
 the tail, and modifies the rolling moment due to sideslip, which is presumably why 10 degrees of anhedral
 was retained on a configuration whose wing position already supplies an effective dihedral increment.
 
 ### Stability and Control
 
-The equations of motion and the stability derivatives behind this discussion are set out in
+The equations of motion and the stability derivatives behind this discussion follow
 [Stevens and Lewis][book_stevens_lewis].
 
 **Moving the tail off the fin is the most defensible change in the aircraft.** A T-tail on a
 low-aspect-ratio wing risks the horizontal surface entering the wing wake at high angle of attack, whereupon
 pitch control is lost while the aircraft is already pitching up. The F-104 had a well-documented and
-unforgiving departure behaviour.
+unforgiving departure behaviour \[[Lockheed F-104 Starfighter][ref_f104]\].
 
 The tail's contribution to longitudinal stability is carried by the tail volume coefficient, which collects
 the geometry into one number, and by the rate at which the wing's downwash turns the flow the tail sees.
 
 Downwash surveys behind wings, neutral-point determination and the static longitudinal stability of wing and
 tail combinations are among the oldest quantitative subjects in the field, and the measurements behind the
-relations below are mostly period work. They are gathered in the clusters on wings, aspect ratio and vortex
-flows and on stability, control and flying qualities below, and the period downwash and neutral-point work
-includes these.
+relations below are mostly period work. The clusters on wings, aspect ratio and vortex flows and on
+stability, control and flying qualities below hold them, and the period downwash and neutral-point reports
+among them are these.
 
 - [Report No. 648, Design charts for predicting downwash angles...][research_report_no_1939]
 - [Ward 1949][research_ward_1949]
@@ -1218,7 +1231,7 @@ $$ C_{m_\alpha,\,\mathrm{tail}} = -a_t\,V_H\,\eta_t\left(1 - \frac{d\varepsilon}
 $$ \mathrm{SM} = -\frac{C_{m_\alpha}}{C_{L_\alpha}} = \frac{x_{np} - x_{cg}}{\bar{c}} $$
 
 **The tail geometry of the CL-1200 is not in the public record**, so these are written to show what the
-change acted on rather than to produce a number, and no static margin is asserted.
+change acted on. They yield no number, and no static margin is asserted.
 
 **One thing they do let us test is an expectation that turns out to be wrong.** The far-field downwash
 gradient goes inversely with aspect ratio, which invites the conclusion that a low-aspect-ratio wing washes
@@ -1235,14 +1248,14 @@ $$ \frac{d\varepsilon}{d\alpha} \approx \frac{2\,C_{L_\alpha}}{\pi A} $$
 
 **The expectation does not survive being written down.** The lift-curve slope falls with aspect ratio at
 very nearly the same rate as the divisor, so the ratio is almost flat, and the F-104 differs from the F-5E
-by eight percent rather than by the large factor the framing implied.
+by eight percent, far short of the large factor the framing implied.
 **The negative is reported rather than dropped**, and it means the tail-position argument has to rest on the
-wake geometry at high angle of attack, which it does, rather than on a downwash gradient that does not
-discriminate. The far-field form also overestimates what a tail at a finite distance actually sees, so the
+wake geometry at high angle of attack, as it does, and cannot rest on a downwash gradient that does not
+discriminate. The far-field form also overestimates what a tail at a finite distance sees, so the
 absolute values should not be read as tail conditions.
 
-The wake geometry and pitch-up literature the argument rests on is gathered in the cluster on stability,
-control and flying qualities below, and it includes these.
+The argument draws its wake geometry and pitch-up evidence from the cluster on stability, control and
+flying qualities below, including these reports.
 
 - [Anderson and Bray 1951][research_andersonsethb_brayrichards_1951]
 - [Queijo and Wolhart 1951][research_queijomj_wolhartwalterd_1951]
@@ -1252,7 +1265,8 @@ control and flying qualities below, and it includes these.
 
 ### Structure and Materials
 
-The airframe is aluminium alloy, and the analysis above establishes that this is the constraint the Mach 2.6
+The airframe is aluminium alloy, apart from titanium frames, longerons and skin around the jet exhaust
+\[[Lockheed CL-1200 Lancer][ref_cl1200]\], and the analysis above establishes that this is the constraint the Mach 2.6
 objective runs into. **At Mach 2.0 the structure gives up about a tenth of its yield strength and at Mach 2.6 about a third**, and the
 transition happens across a narrow band because the recovery temperature goes as the square of the Mach
 number while the strength curve falls steeply through the same range.
@@ -1265,10 +1279,10 @@ d'Armement offered as an alternative for customers already equipped for it. Up t
 a maximum of four [AIM-7][ref_aim7] or typically six and up to ten [AIM-9][ref_aim9] air intercept
 missiles \[[Lockheed CL-1200 Lancer][ref_cl1200]\].
 
-**The wingtip stations are inherited thinking.** The F-104 carried tip tanks and tip-mounted missiles
-because it had almost no wing to hang anything under. On a wing half again as large the tip station is a
+**The wingtip stations are inherited thinking.** The Lancer kept wingtip fuel tanks of the same type and
+capacity as the F-104's \[[Lockheed CL-1200 Lancer][ref_cl1200]\]. On a wing half again as large the tip station is a
 choice rather than a necessity, and a tip store on a short span carries a large rolling-inertia penalty into
-exactly the rapid rolling manoeuvres the aircraft was being sold on.
+the rapid rolling manoeuvres the aircraft was being sold on.
 
 ### Instrumentation
 
@@ -1282,13 +1296,16 @@ what such a programme would have required and asserts nothing about what was pla
 **There is none.**
 
 Its emptiness is the most important fact about the subject. **No X-27 was built. No CL-1200 was built. Nothing flew.**
+\[[American X-Vehicles, NASA SP-2003-4531][ref_american_x_vehicles]\] \[[Lockheed CL-1200 Lancer][ref_cl1200]\]
 
 What exists is the following, and the article is careful to distinguish the well-attested from the reported.
 
-- **Well attested.** One full-scale mock-up, of wood with a metal skin, completed in a Lockheed hangar.
-- **Reported.** Up to three fuselages worked to some degree of completion before termination.
-- **Well attested.** The design was entered in two competitions, in 1970 and 1972, and lost both.
-- **Absent.** Any wind-tunnel report, any test facility record, any engine run, any flight.
+- **Well attested.** One full-scale mock-up, completed in a Lockheed hangar \[[American X-Vehicles, NASA SP-2003-4531][ref_american_x_vehicles]\] \[[Lockheed CL-1200 Lancer][ref_cl1200]\].
+- **Reported.** That the mock-up was of wood with a metal skin, in a single account \[[The Super Starfighter, The Aviationist][ref_aviationist_cl1200]\].
+- **Reported.** Up to three fuselages worked to some degree of completion before termination \[[Lockheed CL-1200 Lancer][ref_cl1200]\].
+- **Well attested.** The design was entered in two competitions, in 1970 and 1972, and lost both
+  \[[Lockheed CL-1200 Lancer][ref_cl1200]\] \[[Lightweight Fighter program][ref_lwf]\].
+- **Absent.** Any published wind-tunnel report, any test facility record, any engine run, any flight.
 
 **An article about an aeroplane that never flew is not thereby an article without evidence.** The evidence
 is the design record and the parent aircraft, and the preceding sections have used both. What must not
@@ -1301,7 +1318,7 @@ it.
 
 So the comparison is between the manufacturer's prediction and an independent prediction, and
 **that is a much weaker thing**, because two predictions that agree may share an assumption rather than
-share a truth. The section is written to make the weakness explicit rather than to disguise it.
+share a truth. The section is written to make the weakness explicit.
 
 | Claim | Independent estimate | Verdict |
 |---|---|---|
@@ -1314,10 +1331,10 @@ share a truth. The section is written to make the weakness explicit rather than 
 
 The claims in the first column are the manufacturer's published estimates \[[Lockheed CL-1200 Lancer][ref_cl1200]\].
 
-### The Climb Claim, Which Does Not Check Out
+### The Climb Claim Exceeds the Ceiling
 
-Specific excess power is a hard ceiling on steady rate of climb, and the reason is one line of algebra
-rather than an assertion, as [Whitford][book_whitford] sets out. Differentiating energy height and holding
+Specific excess power is a hard ceiling on steady rate of climb, and one line of algebra, given by
+[Whitford][book_whitford], shows why. Differentiating energy height and holding
 speed constant leaves the climb rate equal to $P_s$, and any acceleration takes from the same budget.
 
 $$ \frac{dh_e}{dt} = \frac{dh}{dt} + \frac{V}{g}\frac{dV}{dt} = P_s \qquad \Longrightarrow \qquad \left.\frac{dh}{dt}\right|_{\max} = P_s $$
@@ -1347,14 +1364,13 @@ or 23.5 percent. The fine scan puts the maximum at Mach 1.095.
 
 **Two explanations fit and the article cannot choose between them.** The figure may be a zoom rather than a
 steady climb, in which case it is a transient trade of speed for height and is not a rate of climb in the
-sense the ceiling applies to. Quoted climb figures for fighters of this era are often exactly that.
-Alternatively the thrust or weight assumptions here are conservative.
-**What can be said is that the figure is not supported by the aircraft's own published thrust and weight under a steady interpretation**,
+sense the ceiling applies to. Alternatively the thrust or weight assumptions here are conservative.
+**The figure is not supported by the aircraft's own published thrust and weight under a steady interpretation**,
 and that this is the only headline claim in the brochure of which that is true.
 
-### The Fuel Claim, Which Cannot Be Checked Here
+### The Unchecked Fuel Claim
 
-The record states a 46 percent increase in internal fuel from a 30-inch stretch. The weight breakdown gives
+The record states a 46 percent increase in internal fuel from a 30-inch stretch \[[Lockheed CL-1200 Lancer][ref_cl1200]\]. The weight breakdown gives
 the Lancer's clean disposable load as the difference between its normal loaded and empty weights.
 
 $$ W_{\mathrm{fuel,\ clean}} = W_{\mathrm{loaded}} - W_{\mathrm{empty}} = 24{,}385 - 17{,}885 = 6{,}500\ \mathrm{lb} $$
@@ -1364,14 +1380,14 @@ sources cited here states it.** The claim is therefore left as the manufacturer'
 contradicted. The difference above is also an upper bound on the clean fuel load rather than the fuel load
 itself, because a normal loaded weight ordinarily includes the pilot, ammunition and oil as well as fuel.
 
-### The Takeoff Claim, Which Is Conservative
+### The Takeoff Claim Is Conservative
 
 The ground roll is not taken from a rule of thumb. The acceleration is integrated from rest to lift-off
 against thrust, drag, and the rolling friction on whatever weight the wing is not yet carrying, following
 the method in [Raymer][book_raymer].
 
-Takeoff and landing ground-run prediction is a small and practical literature, and the period work is where
-the friction coefficients and the lift-off margins used here come from.
+Takeoff and landing ground-run prediction is a small and practical literature, and the period work supplies
+the friction coefficients and the lift-off margins used here.
 
 - [Linnell 1963][research_linnell_1963]
 - [Krenkel and Salzman 1968][research_krenkel_salzman_1968]
@@ -1390,10 +1406,10 @@ $$ V_{\mathrm{LOF}} = 1.1\,V_{\mathrm{stall}} $$
 | 1.4 | 144.1 kt | 922 ft | 1,450 ft |
 
 **The claim is longer than the computation at every assumption**, which is the direction that does not
-oversell. The integration takes full afterburner and charges nothing for installation losses, so it is
+oversell. The integration takes full afterburner and makes no allowance for installation losses, so it is
 optimistic by construction, and the gap between the two is the room that optimism occupies.
 
-### The Radius Claim, Which Survives
+### The Radius Claim Holds
 
 The [Breguet range equation][ref_breguet] carries no gravitational constant when the specific fuel
 consumption is quoted per hour, because such a figure is already a weight of fuel per unit thrust per unit
@@ -1403,8 +1419,8 @@ $$ R = \frac{V}{c_t}\,\frac{L}{D}\,\ln\frac{W_0}{W_1} $$
 
 The Breguet relation and the mission bookkeeping around it are as given in [Raymer][book_raymer] and
 [Nicolai][book_nicolai]. The end weight is the start weight less the usable fraction of the fuel, and the
-ratio is what the logarithm acts on. The start weight is the maximum takeoff weight, and the fuel is what
-that weight leaves after the empty weight and the 4,000 pound bombload the radius is quoted with
+logarithm acts on their ratio. The start weight is the maximum takeoff weight, and the fuel is the remainder of
+that weight after the empty weight and the 4,000 pound bombload the radius is quoted with
 \[[Lockheed CL-1200 Lancer][ref_cl1200]\].
 
 $$ W_{\mathrm{fuel}} = W_0 - W_{\mathrm{empty}} - W_{\mathrm{stores}} = 35{,}000 - 17{,}885 - 4{,}000 = 13{,}115\ \mathrm{lb} $$
@@ -1413,7 +1429,7 @@ $$ W_1 = W_0 - f\,W_{\mathrm{fuel}} = 35{,}000 - 0.85 \times 13{,}115 = 23{,}852
 
 $$ \frac{W_0}{W_1} = \frac{35{,}000}{23{,}852} = 1.4674 $$
 
-The mission factor is then a defined ratio rather than a rule of thumb, and quoting it is what keeps a
+The mission factor is then a defined ratio, and quoting it keeps a
 Breguet integral from being mistaken for a mission.
 
 $$ k_m = \frac{R_{\mathrm{combat}}}{R_{\mathrm{still\,air}}} = \frac{367}{1{,}914} = 0.192 $$
@@ -1426,7 +1442,8 @@ $$ k_m = \frac{R_{\mathrm{combat}}}{R_{\mathrm{still\,air}}} = \frac{367}{1{,}91
 | 9.0 | 0.85 /h | 2,154 nmi | 0.170 |
 
 **A combat radius is not half a range.** It pays for climb, descent, a combat allowance at maximum power,
-reserves, and an outbound leg flown with stores hung on it. The ratio runs about 0.15 to 0.25 in practice.
+reserves, and an outbound leg flown with stores hung on it. This article takes the ratio to run about 0.15
+to 0.25 in practice, as an assumed band rather than a sourced one.
 **The claim lands inside that band for a lift-to-drag ratio of 7 or more and just above it at 6, and is
 therefore credible**, though with less room than a lighter empty weight would give.
 
@@ -1438,20 +1455,20 @@ therefore credible**, though with less room than a lighter empty weight would gi
 
 That sentence is the finding rather than an admission. Every other article in this series can point to a
 measurement that entered the literature.
-**This one cannot, and the reason is worth stating. The programme was cancelled at precisely the point where it would have begun producing evidence.**
+**This one cannot, because the programme was cancelled at the point where it would have begun producing evidence.**
 
-What the *programme* changed is a different question and the answer is small but not zero.
+What the *programme* changed is a different question, and the effect is small but not zero.
 
-- **It did not influence the F-15.** No evidence connects the Lancer to any F-15 design decision.
+- **It did not influence the F-15.** No source cited here connects the Lancer to any F-15 design decision.
 - **It did not influence the Lightweight Fighter programme technically**, though it demonstrates that
   the argument for funding lightweight-fighter prototypes was in the air before that programme existed.
 - **It produced no literature.** This is the second consecutive article in the series to report that,
   and the third in which the subject generated no development literature because nothing was developed.
 
 The programme's context is the literature on procurement, competitive prototyping, export fighters and
-acquisition policy, gathered in the cluster on defence acquisition, prototyping and the arms trade below, and
-the lightweight fighter programme's own record is in the cluster on the F-104, the J79 and later named
-fighters. They include these.
+acquisition policy, which the cluster on defence acquisition, prototyping and the arms trade below contains,
+while the lightweight fighter programme's own record sits in the cluster on the F-104, the J79 and later
+named fighters. The two clusters include these.
 
 - [Beesly 1966][research_beesly_1966]
 - [Dietz and Bailey 1973][research_dietz_bailey_1973]
@@ -1462,26 +1479,28 @@ fighters. They include these.
 ## A Designation Without an Aircraft
 
 The X-27 is the third consecutive designation in this series that did not go to a research aeroplane, and
-the pattern is now firm enough to be worth naming.
+the pattern is now firm enough to name.
 
-- **X-25**, a commercially available autogyro bought to investigate a rescue concept.
-- **X-26**, a commercially available sailplane bought twice, for training and for quiet observation.
-- **X-27**, a manufacturer's private-venture export fighter that was never built.
+- **X-25**, a civil autogyro design ordered in modified form to investigate a rescue concept.
+- **X-26**, a commercially available sailplane bought for training, two of which were modified for quiet
+  observation.
+- **X-27**, a manufacturer's private-venture export fighter that was never built \[[American X-Vehicles, NASA SP-2003-4531][ref_american_x_vehicles]\].
 
 **The first two were aircraft that existed and were bought for properties they already had. The third did not exist at all.**
-What the three have in common is that the X-designation was doing something other than marking a research
+In all three, the X-designation was doing something other than marking a research
 aeroplane built to answer a research question.
 
 **In the X-27's case the designation was doing procurement work.** An X-designation carried the implication
-of federal interest, and federal interest was what the Lancer needed and never obtained.
+of federal interest, and the Lancer needed federal interest and never obtained it.
 **The designation was issued and the money was not**, which makes the X-27 an unusually clean example of the
 designation and the programme coming apart.
 
 **This article does not claim the designation system was abused.** The number was allocated for a proposed
-research aircraft with a stated research purpose, which is what the system is for.
+research aircraft with a stated research purpose, as the system intends.
 **The observation is narrower. By 1971 an X-designation could be allocated to an aeroplane whose primary purpose was commercial, and the allocation could precede any commitment to build it.**
-That is a fact about what the system had come to permit, and it belongs with the evidence the closing
-article of this series assembles.
+\[[Lockheed CL-1200 Lancer][ref_cl1200]\]
+The fact concerns what the system had come to permit, and the closing article of this series assembles
+it with the rest of that evidence.
 
 ## The Contemporary Literature
 
@@ -1507,14 +1526,14 @@ article of this series assembles.
 | Other aeronautical literature | 1 |
 | **Total** | **2,244** |
 
-The bodies of work above are the ones the argument sits inside.
+The argument sits inside the bodies of work above.
 **This section surveys what has happened since**, on the standing expectation that an article of this kind
 should double as a review of the current literature. The reading is not neutral. Each body of work is placed
 by what it says about the X-27's binding question.
 
-**The short version is that every one of the X-27's technical problems is still an active subject, and the one that has moved least is the one that would have killed it.**
+**In short, every one of the X-27's technical problems is still an active subject, and the problem that has moved least would have killed it.**
 
-### Supersonic inlets are still hard, and are now computed rather than integrated
+### Supersonic inlets are now computed but are still hard
 
 The Taylor-Maccoll integration above is what the era had. Contemporary inlet design is a
 computational-fluid-dynamics and optimisation problem, and the subjects that dominate it are shock-wave and
@@ -1523,10 +1542,10 @@ waverider-derived compression surfaces.
 
 **What has not changed is the total-pressure budget.** The shock losses computed above are exact inviscid
 gas dynamics and no amount of computation makes them smaller.
-**The modern literature buys back losses at the margins, in bleed management and in diffuser design, and confirms the size of the central problem rather than dissolving it.**
+**The modern literature recovers losses at the margins, in bleed management and in diffuser design, and confirms the size of the central problem without dissolving it.**
 
-This literature is gathered in the cluster on supersonic inlets, shock systems and pressure recovery below,
-and its work on bleed, buzz, unstart, diffusers and inward-turning inlets includes these.
+Among the records of the cluster on supersonic inlets, shock systems and pressure recovery below, these
+treat bleed, buzz, unstart, diffusers and inward-turning inlets.
 
 - [Adams et al 1984][research_adamsjcjr_martindalewr_1984]
 - [Soltani et al 2015][research_soltani_younsi_2015]
@@ -1547,9 +1566,9 @@ exchange for propulsive efficiency.
 not survive, and it does so because the fan is designed for it from the outset.
 **The X-27 proposed the opposite, an engine designed for clean flow placed behind an inlet asked to work beyond its ancestry.**
 
-That discipline is gathered in the cluster on inlet distortion and inlet-engine compatibility below, and its
-standards, its distortion generators, the TF30's measured response and the boundary-layer-ingesting fan
-include these.
+The cluster on inlet distortion and inlet-engine compatibility below covers that discipline. Its standards,
+its distortion generators, the TF30's measured response and the boundary-layer-ingesting fan are
+represented by these.
 
 - [Gas Turbine Engine Inlet Flow Distortion Guidelines][research_gas_turbine]
 - [Guidelines for Characterization of Gas Turbine Engine...][research_guidelines_for]
@@ -1566,8 +1585,8 @@ treatment, and active control all mature subjects.
 
 **Had the X-27 flown, this is the technology that would have rescued it, and it did not exist.**
 
-These subjects are gathered in the cluster on compressor stall, surge and casing treatment below, which
-includes the following on active control, casing treatment and the detection of stall inception.
+On active control, casing treatment and the detection of stall inception, the cluster on compressor stall,
+surge and casing treatment below includes the following.
 
 - [Boussios et al 1992][research_boussios_epstein_1992]
 - [VanSchalkwyk et al 2001][research_vanschalkwykchristian_brightmichellem_2001]
@@ -1578,13 +1597,13 @@ includes the following on active control, casing treatment and the detection of 
 
 ### Hot structures moved to materials the X-27 did not have
 
-The aluminium limit computed above is a property of the alloy.
+The aluminium limit computed above comes from the alloy.
 **The contemporary answer is not a better aluminium but a different material**, and the literature covers
 titanium alloys, thermal barrier coatings, metallic thermal protection and elevated-temperature creep in
 aerospace alloys.
 
-That literature is gathered in the clusters on titanium, other alloys and composites at elevated temperature
-and on aerodynamic heating, recovery temperature and thermal protection below, and it includes these.
+That literature falls in the clusters on titanium, other alloys and composites at elevated temperature and
+on aerodynamic heating, recovery temperature and thermal protection below. It includes the following papers.
 
 - [Gupta and Ramkumar 2015][research_gupta_ramkumar_2015]
 - [Ochonogor et al 2017][research_ochonogor_akinlabi_2017]
@@ -1602,10 +1621,10 @@ requirement changes.
 
 **The Lancer is a derivative-design problem and the modern literature has a name for its failure mode.**
 Reusing a fuselage, an aerofoil and a systems architecture constrains the solution far more than the
-retained parts are worth, and quantifying that trade is now a research subject in its own right.
+retained parts are worth, and quantifying that trade has become a research subject in its own right.
 
-This literature is gathered in the cluster on conceptual design, optimisation and the derivative aircraft
-below, and its multidisciplinary and derivative-design work includes these.
+Its multidisciplinary and derivative-design work, part of the cluster on conceptual design, optimisation and
+the derivative aircraft below, includes these.
 
 - [Allison et al 2015][research_allison_morris_2015]
 - [Park et al 2016][research_park_chung_2016]
@@ -1615,15 +1634,15 @@ below, and its multidisciplinary and derivative-design work includes these.
 
 ### Agility metrics settled the argument the competition was having
 
-Energy manoeuvrability was contested in 1970 and is standard now.
+Energy manoeuvrability was contested in 1970 and is standard now \[[John Boyd][ref_boyd]\].
 **The contemporary literature on agility metrics, specific excess power and trajectory optimisation is the direct descendant of the diagrams Boyd was drawing**,
 and it still states aircraft performance in the framework on which the Lancer performs well.
 
 **Which sharpens the historical point.** On the metric that won the argument, the Lancer was a good
-aeroplane. It lost anyway, and it lost on cost, logistics and timing rather than on performance.
+aeroplane. It lost anyway, and no source cited here says that it lost on performance.
 
-That literature is gathered in the cluster on air combat, agility and aircraft performance below, and its
-agility metrics, specific excess power models and agility requirements include these.
+In the cluster on air combat, agility and aircraft performance below, these papers address agility metrics,
+specific excess power models and agility requirements.
 
 - [Ali et al 2017][research_ali_asghar_2017]
 - [Wang et al 2017][research_wang_guo_2017]
@@ -1639,11 +1658,11 @@ agility metrics, specific excess power models and agility requirements include t
 The Lancer's fate is a case in a well-developed literature on competitive prototyping, defence acquisition
 and arms transfer.
 **A private venture seeking government funds to build a demonstrator for an export market it had already lost is a recognisable pattern**,
-and the modern work on prototype policy and on foreign military sales is where a reader should go for the
-general case.
+and a reader wanting the general case should turn to the modern work on prototype policy and on foreign
+military sales.
 
-That work is gathered in the cluster on defence acquisition, prototyping and the arms trade below, and on
-prototype policy, military assistance and foreign military sales it includes these.
+That work forms the cluster on defence acquisition, prototyping and the arms trade below. On prototype
+policy, military assistance and foreign military sales it includes these.
 
 - [Kaplan 1980][research_kaplan_1980]
 - [Carey 1982][research_carey_1982]
@@ -1651,9 +1670,9 @@ prototype policy, military assistance and foreign military sales it includes the
 - [Department Of Defense Washington Dc 1997][research_departmentofdefensewashingtondc_1997]
 - [Coble et al 2014][research_coble_royster_2014]
 
-### Ram drag never left the literature, and supersonic cruise has reframed it
+### Ram drag stayed in the literature and supersonic cruise has reframed it
 
-**The keystone's other half is the one the subsections above do not reach.** The engine section computed that 45
+**The subsections above do not reach the keystone's other half.** The engine section computed that 45
 percent of gross thrust at Mach 2.6 is spent on the momentum of the air the engine swallowed, and that the
 exhaust velocity the rating implies needs total pressure the inlet was struggling to deliver.
 **That is a propulsion-integration problem, and its literature never went quiet.** Of the 30 titles in
@@ -1666,9 +1685,9 @@ propulsion have all put thrust-and-drag bookkeeping back at the centre of the de
 question of where the airframe ends and the engine begins is being argued in the same terms the X-27 would
 have had to settle.
 
-This literature is gathered in the clusters on turbofans, turbojets and installed thrust and on drag polars,
-wave drag and supersonic aerodynamics below, and the thrust and drag bookkeeping, the supersonic transport and
-variable-cycle work and the boundary-layer-ingesting case include these.
+The clusters on turbofans, turbojets and installed thrust and on drag polars, wave drag and supersonic
+aerodynamics below divide this literature between them. On thrust and drag bookkeeping, the supersonic
+transport and variable-cycle work and the boundary-layer-ingesting case, it includes these.
 
 - [Cassetti 1978][research_cassetti_1978]
 - [Zhang et al 2015][research_zhang_chen_2015]
@@ -1677,19 +1696,19 @@ variable-cycle work and the boundary-layer-ingesting case include these.
 - [Goulos et al 2021][research_goulos_otter_2021]
 - [Yao et al 2022][research_yao_zhang_2022]
 
-### Thermal stress is now a coupled problem rather than a hand calculation
+### Thermal stress is now a coupled problem
 
 **The article computes a thermal stress with a modulus, an expansion coefficient and a temperature difference, and gets a number comparable to the mechanical allowable.**
-That calculation is a century old and it is the right first move.
+That calculation is a century old and remains the right first move.
 **What has changed is that the coupling is no longer neglected.**
 
 Contemporary work treats the aerodynamic heating, the temperature field, the resulting stress and the change
-in stiffness as one problem rather than four, under the name aerothermoelasticity, and the reason is that at
+in stiffness as one problem rather than four, under the name aerothermoelasticity, because at
 high Mach the structure's deformation changes the flow that is heating it.
-**For the X-27 this would have mattered less than for a hypersonic vehicle, but the eighty-two kelvin figure computed above is exactly the kind of number that a coupled analysis exists to refine.**
+**For the X-27 this would have mattered less than for a hypersonic vehicle, but the eighty-two kelvin figure computed above is the kind of number a coupled analysis exists to refine.**
 
-This literature is gathered in the cluster on thermal stress, thermal buckling and thermoelasticity below,
-and its coupled and aerothermoelastic work includes these.
+The coupled and aerothermoelastic work in the cluster on thermal stress, thermal buckling and
+thermoelasticity below includes these.
 
 - [Li et al 2015][research_li_pan_2015]
 - [Chai et al 2017][research_chai_song_2017]
@@ -1699,28 +1718,28 @@ and its coupled and aerothermoelastic work includes these.
 
 ### The Lancer is now a recognised design problem with a literature of its own
 
-**A derivative aircraft is not a cheap aircraft, and the modern literature says so with numbers.** Reusing a
+**A derivative aircraft is not a cheap aircraft, and the modern literature puts numbers on it.** Reusing a
 fuselage cross-section, an aerofoil and a systems architecture buys development cost and schedule at the
-price of a constrained design space, and the size of that price is now a research subject.
+price of a constrained design space, and researchers now try to measure that price.
 
-**This is the one contemporary thread that takes the article's own subject as its object of study.** The
+**Of the contemporary threads, only this one takes the article's subject as its object of study.** The
 Lancer retained the F-104's aerofoil section and its 3.36 percent thickness ratio, which is why its aspect
 ratio could only reach 2.836 and why its drag-due-to-lift stayed above the F-5E's at every assumption
 tested.
 **The modern framing would call that inherited constraint the dominant term in the trade, and would try to price it before committing rather than after losing a competition.**
 
-The derivative-design work is gathered in the cluster on conceptual design, optimisation and the derivative
-aircraft below, and it includes these.
+The derivative-design studies belong to the cluster on conceptual design, optimisation and the derivative
+aircraft below, among them these.
 
 - [Park et al 2016][research_park_chung_2016]
 - [Park et al 2016][research_park_chung_2016_b]
 - [Park et al 2018][research_park_chung_2018]
 
-### The X-27's real problem has a modern answer, and it is the one thing that would have helped
+### The X-27's real problem has a modern answer
 
-**Nobody could tell whether the Lancer would work without building it.** That is the whole of the
-programme's difficulty. The mock-up settled nothing, the brochure figures were the manufacturer's own, and
-the competition was decided on cost and logistics rather than on any measurement of the aeroplane.
+**Nobody could tell whether the Lancer would work without building it.** The programme's
+difficulty came down to that. The mock-up settled nothing, the brochure figures were the manufacturer's own, and
+neither competition was decided on any measurement of the aeroplane.
 
 **Evaluating an aircraft that does not exist is now a research programme.** Surrogate modelling, uncertainty
 quantification in conceptual design and model-based systems engineering all exist to
@@ -1728,12 +1747,12 @@ answer, before metal is cut, the question the X-27 could only have answered by f
 
 **This is the closest thing to a resolution the article's central difficulty has, and it arrived fifty years late.**
 It is also the reason this article could be written at all. The analysis above is a primitive version of the
-same idea, taking published geometry and published ratings and asking what they imply, and its one genuine
-success, the reconciliation of the spike travel with the engine's airflow, is exactly the kind of
+same idea, taking published geometry and published ratings and asking what they imply, and its one clear
+success, the reconciliation of the spike travel with the engine's airflow, is the kind of
 consistency check a modern framework automates.
 
-This literature is gathered in the cluster on conceptual design, optimisation and the derivative aircraft
-below, and its surrogate, uncertainty and systems-engineering work includes these.
+Surrogate, uncertainty and systems-engineering work is also part of the cluster on conceptual design,
+optimisation and the derivative aircraft below. Examples follow.
 
 - [Li et al 2019][research_li_soskin_2019]
 - [Krupa 2019][research_krupa_2019]
@@ -1862,7 +1881,7 @@ below, and its surrogate, uncertainty and systems-engineering work includes thes
 
 **There was no keystone, because there was no programme.** A research aircraft's keystone is the question
 its hardware was dimensioned against. The X-27's hardware was never dimensioned against anything, because it
-was never built. What has been treated as the keystone is a stated test objective in a proposal, which is a
+was never built. The keystone treated here is a stated test objective in a proposal, a
 much softer thing.
 
 **The Mach 2.6 objective may not have been serious.** A proposal written to attract funding names attractive
@@ -1870,13 +1889,13 @@ numbers. The article has computed what Mach 2.6 would have required and found tw
 **it cannot establish that anyone at Lockheed intended to sustain that speed** rather than to touch it
 briefly in a demonstration.
 
-**The manoeuvre comparison flatters the Lancer in one specific way.** It uses the manufacturer's weights and
-the engine's rated thrust. Manufacturer's weights are optimistic in the ratio that prototypes are
-historically heavier than their proposals, and installed thrust is below rated thrust by an inlet-and-nozzle
+**The manoeuvre comparison flatters the Lancer in one respect.** It uses the manufacturer's weights and
+the engine's rated thrust. Manufacturer's weights for an aircraft that was never built carry no allowance for
+the growth a built airframe may show, and installed thrust is below rated thrust by an inlet-and-nozzle
 allowance this article has not applied. **Both errors push the same direction.**
 
-**The comparison aircraft are not contemporaneous with each other.** The F-15A entered service in 1976, the
-F-5E in 1973, and the CL-1200-2 never. Comparing them at a single flight condition is a comparison of
+**The comparison aircraft are not contemporaneous with each other.** The F-15A entered service in 1976
+\[[McDonnell Douglas F-15 Eagle][ref_f15]\], the F-5E in 1973 \[[Northrop F-5][ref_f5]\], and the CL-1200-2 never. Comparing them at a single flight condition is a comparison of
 designs and not of what any of them would have done against each other.
 
 **And the political reading is the softest thing in the article.** That the arithmetic is consistent with
@@ -1974,6 +1993,7 @@ contemporary base around it is larger, and neither movement is a fact about cove
 **Historical fact, reported but not independently corroborated here.**
 
 - That up to three fuselages were worked before termination.
+- That the mock-up was of wood with a metal skin, which rests on a single account in aviation journalism.
 - That elements within the Air Force viewed the design as a complication for the F-15.
 - The published performance estimates, weights and dimensions, all of which trace to manufacturer's
   figures reproduced in secondary sources.
@@ -2026,13 +2046,13 @@ contemporary base around it is larger, and neither movement is a fact about cove
 **The X-27 was a designation attached to an aeroplane that did not exist, issued for a research purpose, in support of a commercial one.**
 
 The technical question it named was real. A turbofan at Mach 2.6 behind an inlet descended from a Mach 2.0
-turbojet installation, in an aluminium airframe, is a genuinely difficult proposition, and this article has
-computed two specific reasons why.
+turbojet installation, in an aluminium airframe, is a difficult proposition, and this article has
+computed two reasons why.
 
 **The inlet cannot meet the standard with one cone.** The best single-cone arrangement falls 11.44 points
 short of the reference recovery at Mach 2.6, and that figure is a floor because the calculation charges
-nothing for viscosity. Two ramps recover 8.18 of those points, which is why the X-27's intakes were to be
-rectangular.
+nothing for viscosity. Two ramps recover 8.18 of those points, which would explain why the X-27's intakes were to
+be rectangular.
 
 **The structure cannot hold its strength at that speed.** The recovery temperature at Mach 2.6 is 210.8
 degrees Celsius, where the handbook gives 2024-T81 aluminium alloy about 68 percent of its yield strength after half an hour, and the skin reaches
@@ -2041,15 +2061,15 @@ nine-tenths of that in one minute, so a dash does not evade it.
 **Against that, the aeroplane was a better fighter than the one that beat it.** On sustained turn rate and
 on specific excess power the Lancer clears the F-5E comfortably at every assumption tested, and sits within
 4.2 percent of the F-15A's specific excess power.
-**The sales case was not fraudulent. It was simply not what the customers were buying**, which was cost,
-logistics and an aircraft already in production.
+**The sales case was not fraudulent. It was not what the customers were buying**, and no source
+cited here says that performance decided either competition.
 
 **And one thing in the record checks out with a precision this subject has no right to.** Four inches of
 spike travel, quoted as an airframe feature, and 260 pounds per second of airflow, quoted as an engine
 rating, are reconciled by a twenty-five degree cone to within 4.2 percent.
 **Nobody published that cone angle. Two numbers published for unrelated reasons agree through geometry connecting them, and that is the closest an aeroplane which never existed can come to leaving a measurement behind.**
 
-The next article treats the [X-28][ref_x28], the Osprey Sea Skimmer, and returns to the pattern the X-27
+The next article treats the [X-28][ref_x28], the Osprey I that the Navy evaluated as Project Air Skimmer, and returns to the pattern the X-27
 broke, namely an aircraft that existed and flew.
 
 ## References
@@ -2111,8 +2131,10 @@ broke, namely an aircraft that existed and flew.
 - [General Electric J79][ref_j79]
 - [Grumman F-14 Tomcat][ref_f14]
 - [Inconel][ref_inconel]
+- [Inlet Performance, NASA Glenn Research Center][ref_grc_inlet]
 - [International Fighter Aircraft competition][ref_ifa]
 - [International Standard Atmosphere][ref_isa]
+- [Jenkins, Landis and Miller, American X-Vehicles, An Inventory X-1 to X-50, NASA SP-2003-4531, 2003][ref_american_x_vehicles]
 - [John Boyd][ref_boyd]
 - [Klaus Oswatitsch][ref_oswatitsch]
 - [Lift-curve slope][ref_helmbold]
@@ -2148,6 +2170,7 @@ broke, namely an aircraft that existed and flew.
 - [Stanton number][ref_stanton]
 - [T-tail][ref_t_tail]
 - [Taylor-Maccoll flow][ref_taylor_maccoll]
+- [The Super Starfighter, Story of the Lockheed CL-1200 Lancer, The Aviationist 2025][ref_aviationist_cl1200]
 - [Thomas Christie][ref_christie]
 - [Titanium alloy][ref_titanium]
 - [Turbofan][ref_turbofan]
@@ -2158,8 +2181,10 @@ broke, namely an aircraft that existed and flew.
 
 [ref_aim7]: https://en.wikipedia.org/wiki/AIM-7_Sparrow
 [ref_aim9]: https://en.wikipedia.org/wiki/AIM-9_Sidewinder
+[ref_american_x_vehicles]: https://www.nasa.gov/wp-content/uploads/2023/04/sp-4531.pdf
 [ref_anhedral]: https://en.wikipedia.org/wiki/Dihedral_(aeronautics)
 [ref_aspect_ratio]: https://en.wikipedia.org/wiki/Aspect_ratio_(aeronautics)
+[ref_aviationist_cl1200]: https://theaviationist.com/2025/05/23/lockheed-cl-1200-lancer/
 [ref_boyd]: https://en.wikipedia.org/wiki/John_Boyd_(military_strategist)
 [ref_breguet]: https://en.wikipedia.org/wiki/Range_(aeronautics)
 [ref_christie]: https://en.wikipedia.org/wiki/Thomas_P._Christie
@@ -2178,6 +2203,7 @@ broke, namely an aircraft that existed and flew.
 [ref_f8]: https://en.wikipedia.org/wiki/Vought_F-8_Crusader
 [ref_fms]: https://en.wikipedia.org/wiki/Foreign_Military_Sales
 [ref_gd]: https://en.wikipedia.org/wiki/General_Dynamics
+[ref_grc_inlet]: https://www.grc.nasa.gov/WWW/K-12/airplane/inleth.html
 [ref_heffley_jewell]: https://ntrs.nasa.gov/citations/19730003312
 [ref_helmbold]: https://en.wikipedia.org/wiki/Lift_coefficient
 [ref_ifa]: https://en.wikipedia.org/wiki/Military_Assistance_Program

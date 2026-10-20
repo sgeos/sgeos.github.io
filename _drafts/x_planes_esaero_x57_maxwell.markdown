@@ -17,19 +17,19 @@ series_index: 58
 
 This is the fifty-eighth article in the [X-Planes series][related_post_a297_framing], following the [X-1][related_post_a298_bell_x1], the [X-2][related_post_a299_bell_x2], the [X-3][related_post_a300_douglas_x3], the [X-4][related_post_a301_northrop_x4], the [X-5][related_post_a302_bell_x5], the [X-6][related_post_a303_convair_x6], the [X-7][related_post_a304_lockheed_x7], the [X-8][related_post_a305_aerojet_x8], the [X-9][related_post_a306_bell_x9], the [X-10][related_post_a307_north_american_x10], the [X-11][related_post_a308_convair_x11], the [X-12][related_post_a309_convair_x12], the [X-13][related_post_a310_ryan_x13], the [X-14][related_post_a311_bell_x14], the [X-15][related_post_a312_north_american_x15], the [X-16][related_post_a313_bell_x16], the [X-17][related_post_a314_lockheed_x17], the [X-18][related_post_a315_hiller_x18], the [X-19][related_post_a316_curtiss_wright_x19], the [X-20][related_post_a317_boeing_x20], the [X-21][related_post_a318_northrop_x21], the [X-22][related_post_a319_bell_x22], the [X-23][related_post_a320_martin_marietta_x23], the [X-24][related_post_a321_martin_marietta_x24], the [X-25][related_post_a322_bensen_x25], the [X-26][related_post_a323_schweizer_x26], the [X-27][related_post_a324_lockheed_x27], the [X-28][related_post_a325_osprey_x28], the [X-29][related_post_a326_grumman_x29], the [X-30][related_post_a327_rockwell_x30], the [X-31][related_post_a328_rockwell_mbb_x31], the [X-32][related_post_a329_boeing_x32], the [X-33][related_post_a330_lockheed_martin_x33], the [X-34][related_post_a331_orbital_sciences_x34], the [X-35][related_post_a332_lockheed_martin_x35], the [X-36][related_post_a333_mcdonnell_douglas_x36], the [X-37][related_post_a334_boeing_x37], the [X-38][related_post_a335_scaled_composites_x38], the [X-39][related_post_a336_x39_reserved_never_assigned], the [X-40][related_post_a337_boeing_x40], the [X-41][related_post_a338_x41_common_aero_vehicle], the [X-42][related_post_a339_orbital_sciences_x42], the [X-43][related_post_a340_micro_craft_x43], the [X-44][related_post_a341_x44_two_aircraft], the [X-45][related_post_a342_boeing_x45], the [X-46][related_post_a343_boeing_x46], the [X-47][related_post_a344_northrop_grumman_x47], the [X-48][related_post_a345_boeing_x48], the [X-49][related_post_a346_piasecki_x49], the [X-50][related_post_a347_boeing_x50], the [X-51][related_post_a348_boeing_x51], the [X-52][related_post_a349_x52_designation_refused], the [X-53][related_post_a350_boeing_x53], the [X-54][related_post_a351_gulfstream_x54], the [X-55][related_post_a352_lockheed_martin_x55], and the [X-56][related_post_a353_lockheed_martin_x56].
 
-**The X-57 Maxwell never flew.** The project started in 2015, received its X designation in 2016 and ran until 2023 \[[Kushner et al][research_x57_systems_engineering_lessons]\] \[[Maliska et al 2024][research_x57_lessons_learned]\] \[[X-57 Project Creates Paths Toward Electric Aviation, NASA][ref_nasa_x57_paths]\]. It delivered an aeroplane, tested it on the ground, and was closed out without the aircraft leaving the runway. **It was not shown to be unflyable.** A redesigned cruise motor was in work when the schedule and the budget ended, and that distinction is carried through this article to its conclusion.
+**The X-57 Maxwell never flew.** The project started in 2015, received its X designation in 2016 and ran until 2023 \[[Parsch, DOD 4120.15-L Addendum, MDS Designators Allocated After 19 August 1998][ref_mds_addendum]\] \[[Kushner et al][research_x57_systems_engineering_lessons]\] \[[Maliska et al 2024][research_x57_lessons_learned]\] \[[X-57 Project Creates Paths Toward Electric Aviation, NASA][ref_nasa_x57_paths]\]. It delivered an aeroplane, tested it on the ground, and was closed out without the aircraft leaving the runway. **It was not shown to be unflyable.** A redesigned cruise motor was in work when the schedule and the budget ended, and that distinction is carried through this article to its conclusion.
 
 ## The Research Question
 
-**The question the X-57 existed to settle is whether a wing sized for cruise can be made to land by blowing it.** The register states the architecture as smaller electric motors across the wing leading edge acting as a high lift device, larger motors on each wing tip for cruise, and a wing designed for that arrangement \[[Parsch, DOD 4120.15-L Addendum, MDS Designators Allocated After 19 August 1998][ref_mds_addendum]\]. The flight performance report states the quantity that would have answered it, which is a stall speed for the highly loaded small wing comparable to that of the aeroplane with its original wing \[[Borer][research_x57_flight_performance_estimates]\].
+**The question the X-57 existed to settle is whether a wing sized for cruise can be made to land by blowing it.** The register states the architecture as smaller electric motors across the wing leading edge acting as a high lift device, larger motors on each wing tip for cruise, and a wing designed for that arrangement \[[Parsch, DOD 4120.15-L Addendum, MDS Designators Allocated After 19 August 1998][ref_mds_addendum]\]. The flight performance report states the quantity that would have answered it, a stall speed for the highly loaded small wing comparable to that of the aeroplane with its original wing \[[Borer][research_x57_flight_performance_estimates]\].
 
-**The question was never answered in flight.** No configuration carrying the small wing left the ground. The section headed Whether the Blowing Can Actually Do It works the question as far as the published numbers allow. It finds that raising the dynamic pressure over seventy percent of the span could not have supplied the whole lift deficit on the installed power, and that it did not have to, because the small wing's own flap supplies a factor of 1.51 of the 2.38.
+**The question was never answered in flight.** No configuration carrying the small wing left the ground \[[Kushner et al][research_x57_systems_engineering_lessons]\]. The sizing analysis below works the question as far as the published numbers allow. It finds that blowing seventy percent of the span could not alone have made up the lift deficit on the installed power, and that it did not have to, because the flap of the small wing supplies a factor of 1.51 of the 2.38.
 
-**The article carries a second question that the programme did not set itself, which is why an aeroplane whose architecture was fully worked out on paper by 2016 did not fly.** Its answer lies in the motor controllers, the cruise motors and the readiness assessment, and it is argued in the section headed The Flight Test Record.
+**The article carries a second question that the programme did not set itself, namely why an aeroplane whose architecture was fully worked out on paper by 2016 did not fly.** \[[Borer et al 2016][research_borer_patterson_2016]\] Its answer lies in the motor controllers, the cruise motors and the readiness assessment, and the account of the flight test record argues it.
 
 ## Programme Origin
 
-**The programme's origin is recorded in two places, the designation register and the plan of modifications.** The register entry of 3 May 2016 names the contractors, the sponsor and the architecture, and the project, which had started in 2015, ran until 2023. The three parts of this section take the entry as written, test one reading of it that the register does not support, and set out the conversion the programme planned to build.
+**The programme's origin is recorded in two places, the designation register and the plan of modifications.** The register entry of 3 May 2016 names the contractors, the sponsor and the architecture, and the project, which had started in 2015, ran until 2023 \[[Parsch, DOD 4120.15-L Addendum, MDS Designators Allocated After 19 August 1998][ref_mds_addendum]\] \[[Kushner et al][research_x57_systems_engineering_lessons]\]. The three parts of this section take the entry as written, test one reading of it that the register does not support, and set out the conversion the programme planned to build.
 
 ### The Registry Entry Is the Primary Document
 
@@ -37,21 +37,21 @@ This is the fifty-eighth article in the [X-Planes series][related_post_a297_fram
 
 > All electric aircraft makes use of a new propulsion technology known as Distributed Electric Propulsion (DEP). DEP uses smaller electric motors across the wing leading edge as a high lift device, and larger motors mounted on each wing tip for cruise, coupled with a wing designed optimally for this electric motor configuration.
 
-A note attached to the row adds that the X-57A Maxwell is a highly modified Tecnam P2006T aircraft \[[Tecnam P2006T][ref_tecnam_p2006t]\]. **The aeroplane is named after James Clerk Maxwell**, whose work on electromagnetism is what makes an electric aeroplane thinkable at all \[[James Clerk Maxwell][ref_maxwell]\] \[[X-57 Maxwell Overview, NASA][ref_nasa_x57]\].
+A note attached to the row adds that the X-57A Maxwell is a highly modified Tecnam P2006T aircraft \[[Tecnam P2006T][ref_tecnam_p2006t]\]. **The aeroplane is named after James Clerk Maxwell**, whose work on electromagnetism made an electric aeroplane thinkable at all \[[James Clerk Maxwell][ref_maxwell]\] \[[X-57 Maxwell Overview, NASA][ref_nasa_x57]\].
 
-**Of the 539 allocation rows the addendum carries, this is the only one containing the phrase all electric, the only one containing the phrase propulsion technology, the only one naming a high lift device, the only one naming a wing tip, and the only one naming a leading edge.** Four entries mention electricity at all.
+**Of the 539 allocation rows the addendum carries, this is the only one containing the phrase all electric, the only one containing the phrase propulsion technology, the only one naming a high lift device, the only one naming a wing tip, and the only one naming a leading edge.** Four entries mention electricity at all \[[Parsch, DOD 4120.15-L Addendum, MDS Designators Allocated After 19 August 1998][ref_mds_addendum]\].
 
-**It is also one of only four rows naming two contractors joined by the word and**, the others being the X-48, the X-49 and a missile.
+**It is also one of only four rows naming two contractors joined by the word and**, the others being the X-48, the X-49 and a missile \[[Parsch, DOD 4120.15-L Addendum, MDS Designators Allocated After 19 August 1998][ref_mds_addendum]\].
 
 **And it reads as a specification rather than as an intention.** The register's ordinary grammar is a purpose clause. This entry explains a mechanism, names its parts, says where each part is mounted and what each is for, and asserts that the wing was designed optimally for the configuration. **It is the only entry in the register that teaches the reader how something works.**
 
 ### A Tempting Reading That the Register Does Not Support
 
-**The engines column for this row is empty, and it is worth saying why that is not the finding it appears to be.**
+**The engines column for this row is empty, but the blank is not the finding it appears to be.**
 
-An all-electric aeroplane has no engines in the sense a designation register means, so an empty cell looks like the document quietly acknowledging that the category does not apply. **That reading is wrong and the register itself refutes it.** Ninety-four of the 539 rows have an empty engines cell, and among the thirty-one X rows the other three are the X-37B, the X-59A and the X-60A. The X-59A is a single-engined supersonic demonstrator and the X-60A is a rocket. **Both plainly have engines and both cells are empty.**
+An all-electric aeroplane has no engines in the sense a designation register means, so an empty cell looks like the document quietly acknowledging that the category does not apply. **That reading is wrong and the register refutes it.** Ninety-four of the 539 rows have an empty engines cell, and among the thirty-one X rows the other three are the X-37B, the X-59A and the X-60A \[[Parsch, DOD 4120.15-L Addendum, MDS Designators Allocated After 19 August 1998][ref_mds_addendum]\]. The X-59A is a single-engined supersonic demonstrator and the X-60A is a rocket \[[Lockheed Martin X-59 Quesst][ref_x59]\] \[[Generation Orbit X-60][ref_x60]\]. **Both plainly have engines and both cells are empty.**
 
-**The blank is a gap in the compilation and not a statement about electric propulsion.** It is recorded here because it is the first thing an argument would want to reach for.
+**The blank is a gap in the compilation, with no bearing on electric propulsion.** It is recorded here because it is the first thing an argument would want to reach for.
 
 ### What the Aeroplane Was Going to Be
 
@@ -63,21 +63,21 @@ The prime contractor was Empirical Systems Aerospace, which integrated the aircr
 
 The programme was organised as a sequence of modifications, each flyable in principle \[[Maliska and Clarke][research_x57_subproject_overview]\] \[[Borer][research_x57_flight_performance_estimates]\].
 
-**Mod I** was the unmodified aeroplane, flown to establish a baseline. **Mod II** replaced the two piston engines with two electric motors in the same nacelles on the same wing, which changes the powerplant and nothing else. **Mod III** replaced the wing with a much smaller one and moved the cruise motors to the wingtips. **Mod IV** added twelve small propellers along the leading edge of that wing, to be used for takeoff and landing and folded away in cruise.
+**Mod I** was the unmodified aeroplane, flown to establish a baseline. **Mod II** replaced the two piston engines with two electric motors in the original inboard positions on the same wing, which changes the powerplant and nothing else. **Mod III** replaced the wing with a much smaller one and moved the cruise motors to the wingtips. **Mod IV** added twelve small propellers along the leading edge of that wing, to be used for takeoff and landing and folded away in cruise \[[Kushner et al][research_x57_systems_engineering_lessons]\] \[[Borer][research_x57_flight_performance_estimates]\] \[[X-57 Maxwell Overview, NASA][ref_nasa_x57]\].
 
-**The four were not approved together.** The project was approved in 2015 for Mods I, II and III only, and Mod IV was formally approved late in 2017 \[[Kushner et al][research_x57_systems_engineering_lessons]\]. The flight performance report describes Mod III as a programmatic risk mitigation for that reason, since Mod IV had not yet been approved for funding when the project started \[[Borer][research_x57_flight_performance_estimates]\].
+**The four were not approved together.** The project was approved in 2015 for Mods I, II and III only, and Mod IV was formally approved late in 2017 \[[Kushner et al][research_x57_systems_engineering_lessons]\]. Borer describes Mod III as a programmatic risk mitigation for that reason, since Mod IV had not yet been approved for funding when the project started \[[Borer][research_x57_flight_performance_estimates]\].
 
 **Mod II changed more than the engines.** The two piston engines of 73.5 kilowatts each, driving two-bladed propellers of 178 centimetres, gave way to electric units of 72.1 kilowatts driving three-bladed variable-pitch propellers of 152 centimetres. The rear seats came out for battery modules, the co-pilot's seat for instrumentation, and a large air data boom went on the nose. The maximum takeoff mass rose from 1,230 kilograms for the production aeroplane to 1,361 kilograms for Mod II, and later Mod III and IV estimates allowed up to 1,452 kilograms \[[Borer][research_x57_flight_performance_estimates]\].
 
-**Only the first of those four ever flew, and it flew as a Tecnam.**
+**Only the first of those four ever flew, and it flew as a Tecnam.** \[[Kushner et al][research_x57_systems_engineering_lessons]\]
 
 ## Sizing From First Principles
 
-**There was an aeroplane to size, and the published numbers allow its central trade to be worked from first principles.** The flight performance report gives the areas, spans, wetted areas and powers of the original and the modified configurations \[[Borer][research_x57_flight_performance_estimates]\]. This section works from those figures through the wing loading the small wing imposes, whether blowing can recover it, what the cut actually saved in drag, and whether the published geometry is consistent with itself. **Every result here is a computation on predicted figures, since the small wing never flew.**
+**There was an aeroplane to size, and the published numbers allow its central trade to be worked from first principles.** The flight performance report gives the areas, spans, wetted areas and powers of the original and the modified configurations \[[Borer][research_x57_flight_performance_estimates]\]. This section works from those figures through the wing loading the small wing imposes, whether blowing can recover it, what the cut saved in drag, and whether the published geometry is consistent with itself. **Every result here is a computation on predicted figures, since the small wing never flew.**
 
-### The Wing Is the Whole Argument
+### A Wing Too Small to Land On
 
-**The Mod III wing is 42 percent of the area of the wing it replaced.** The flight performance report gives both directly, 14.76 square metres becoming 6.19, with the root chord falling from 1.39 metres to 0.76 \[[Borer][research_x57_flight_performance_estimates]\].
+**The Mod III wing is 42 percent of the area of the wing it replaced.** The report gives both directly, 14.76 square metres becoming 6.19, with the root chord falling from 1.39 metres to 0.76 \[[Borer][research_x57_flight_performance_estimates]\].
 
 $$
 \frac{S_1}{S_0} = \frac{6.19}{14.76} = 0.419
@@ -105,11 +105,11 @@ $$
 V_s = \sqrt{\frac{2}{\rho}\,\frac{W}{S}\,\frac{1}{C_{L,max}}}
 $$
 
-**So holding the stall speed while multiplying the wing loading by 2.38 requires multiplying the maximum lift coefficient by 2.38.** **The twelve propellers along the leading edge exist to supply most of that factor**, and the report says so in as many words, that the high-lift propellers were designed to increase the dynamic pressure over the wing at low speeds to reduce the stall speed of the highly loaded wing to be comparable to that of the Mod II configuration. The new wing's own flap supplies the rest, and the section headed What the Flap Does and What the Propellers Do divides the factor between the two.
+**So holding the stall speed while multiplying the wing loading by 2.38 requires multiplying the maximum lift coefficient by 2.38.** **The twelve propellers along the leading edge exist to supply most of that factor**, and the report says so in as many words, that the high-lift propellers were designed to increase the dynamic pressure over the wing at low speeds to reduce the stall speed of the highly loaded wing to be comparable to that of the Mod II configuration \[[Borer][research_x57_flight_performance_estimates]\]. The flap on the new wing supplies the rest, and a later subsection divides the factor between the two.
 
 **Distributed propulsion is an old idea whose economics changed when the machinery got small** \[[Distributed Propulsion][ref_dep]\] \[[Electric Aircraft][ref_electric_aircraft]\], because the efficiency of an electric motor is relatively insensitive to its size and power \[[Borer et al 2016][research_borer_patterson_2016]\] \[[Hughes and Drury, Electric motors and drives][book_hughes]\], while the combustion engines of light aircraft struggle to reach the efficiency of the engines of larger aircraft \[[Borer][research_x57_flight_performance_estimates]\], so fourteen small motors became a sensible thing to build where fourteen small engines never were.
 
-**That is the whole architecture in one sentence.** The wing is too small to land on, so the aeroplane blows air over it until it is not \[[Blown Flap][ref_blown_flap]\] \[[Powered Lift][ref_powered_lift]\] \[[Slipstream][ref_slipstream]\].
+**The architecture fits in one sentence.** The wing is too small to land on, so the aeroplane blows air over it until it is not \[[Blown Flap][ref_blown_flap]\] \[[Powered Lift][ref_powered_lift]\] \[[Slipstream][ref_slipstream]\].
 
 $$
 q_w = \tfrac{1}{2}\rho\,(V + \Delta V)^{2} \;>\; \tfrac{1}{2}\rho V^{2}
@@ -117,9 +117,9 @@ $$
 
 **A propeller ahead of a wing raises the local dynamic pressure** \[[Dynamic Pressure][ref_dynamic_pressure]\] \[[U.S. Standard Atmosphere][ref_us_standard_atmosphere]\], and lift goes as dynamic pressure, so a wing in a slipstream makes more lift at the same airspeed and the same angle of attack \[[Litherland et al][research_x57_x_57_maxwell_high_lift_propeller_3]\] \[[Borer and Patterson][research_x57_high_lift_control_schedule]\].
 
-### Whether the Blowing Can Actually Do It
+### Whether the Blowing Can Do It
 
-**Suppose first that the twelve propellers had to supply the whole factor of 2.38 by themselves. That is a computation the published numbers permit, and it is worth doing, because its answer shows that they could not have.**
+**Suppose first that the twelve propellers had to supply the whole factor of 2.38 by themselves. The published figures permit that computation, and its answer shows that they could not have.**
 
 **Only part of the wing is blown.** Twelve propellers of 1.89 feet diameter, 0.576 metres, taken here as 1.9 feet, cover about 6.95 metres of a 9.94 metre span \[[Borer and Patterson][research_x57_high_lift_control_schedule]\] \[[Propeller, Aeronautics][ref_propeller]\].
 
@@ -173,7 +173,7 @@ $$
 \frac{P_i}{\eta_{pr}} = \frac{139}{0.75} = 185 \;>\; P_h
 $$
 
-**This does not mean the design was wrong. It means the propellers were never asked for the whole factor.**
+**This does not mean the design was wrong. It means the propellers were never asked for all of it.**
 
 A slipstream does more to a wing than speed the air up. It arrives with swirl, it changes the local angle of attack, and it re-energises the boundary layer so that the wing separates later than it otherwise would. **The high-lift literature is largely about those effects rather than about dynamic pressure** \[[Blown Flap][ref_blown_flap]\] \[[Powered Lift][ref_powered_lift]\] \[[McCormick, Aerodynamics, aeronautics and flight mechanics][book_mccormick]\], and the programme's own testing was aimed at measuring thrust and slipstream velocities rather than at assuming them \[[Litherland et al][research_x57_x_57_maxwell_high_lift_propeller_3]\].
 
@@ -219,7 +219,7 @@ $$
 
 **On the same assumed propulsive efficiency the requirement is now 59 percent of the installed power, rather than more than all of it** \[[Momentum Theory][ref_momentum_theory]\].
 
-**The propeller's own design point says the same thing from the other direction.** At 58 knots equivalent airspeed and sea level each high-lift propeller was designed to absorb 10.7 kilowatts and produce 215 newtons of thrust at 4,550 revolutions per minute, a tip speed of 450 feet per second \[[Borer and Patterson][research_x57_high_lift_control_schedule]\].
+**The design point of the propeller confirms this from the other direction.** At 58 knots equivalent airspeed and sea level each high-lift propeller was designed to absorb 10.7 kilowatts and produce 215 newtons of thrust at 4,550 revolutions per minute, a tip speed of 450 feet per second \[[Borer and Patterson][research_x57_high_lift_control_schedule]\].
 
 $$
 P_s = 12 \times 10.7 = 128.4, \qquad T = 12 \times 215 = 2580
@@ -235,11 +235,11 @@ $$
 \frac{2\,v_i}{V_s} = 0.585 \;>\; 0.436
 $$
 
-**The design thrust implies a slipstream 58 percent faster than the aeroplane, against the 44 percent the credited model needs.** The flight performance report reaches the same conclusion in its own terms, that more detailed investigations indicated the high-lift propeller system may have been able to provide an even higher maximum lift coefficient, so that the minimum steady flight speed observed in flight would likely have been lower \[[Borer][research_x57_flight_performance_estimates]\]. The design also had to turn the propellers about 400 revolutions per minute faster than first intended, because the passively folding blades were predicted to deploy to about 80 degrees from the axis rather than 90, losing 2.5 to 4.5 degrees of pitch \[[Borer and Patterson][research_x57_high_lift_control_schedule]\].
+**The design thrust implies a slipstream 58 percent faster than the aeroplane, against the 44 percent the credited model needs.** The report reaches the same conclusion in its own terms, that more detailed investigations indicated the high-lift propeller system may have been able to provide an even higher maximum lift coefficient, so that the minimum steady flight speed observed in flight would likely have been lower \[[Borer][research_x57_flight_performance_estimates]\]. The design also had to turn the propellers about 400 revolutions per minute faster than first intended, because the passively folding blades were predicted to deploy to about 80 degrees from the axis rather than 90, losing 2.5 to 4.5 degrees of pitch \[[Borer and Patterson][research_x57_high_lift_control_schedule]\].
 
 **The regulation shaped the definition as much as the aerodynamics did.** Under the stall rule for normal category aeroplanes, a propulsion system used for high lift is set at a nominal thrust when the minimum steady flight speed is determined, while one used primarily for thrust is set at idle or zero thrust, so the X-57's cruise propellers were idled for every stall determination and its high-lift propellers were run \[[Borer][research_x57_flight_performance_estimates]\] \[[14 CFR Part 23, Airworthiness Standards for Normal Category Aeroplanes][ref_part23]\]. NASA lists that use of paragraph b of section 23.2110 among the programme's contributions to the rules \[[Maliska and Clarke][research_x57_subproject_overview]\].
 
-**What the calculation establishes is that the blowing closes once the flap is credited.** Raising the dynamic pressure over seventy percent of the span could not have supplied the whole factor of 2.38 on this installed power, and it was never meant to. The flapped wing supplies a factor of 1.51 and the propellers the remaining 1.58, and on that division the simple model, the design point and the programme's own estimate agree. **None of it was tested in flight.**
+**The calculation establishes that the blowing closes once the flap is credited.** Raising the dynamic pressure over seventy percent of the span could not on its own have supplied the factor of 2.38 on this installed power, and it was never meant to. The flapped wing supplies a factor of 1.51 and the propellers the remaining 1.58, and on that division the simple model, the design point and the programme's own estimate agree. **Flight never tested any of it.**
 
 ### The Prize Was Smaller Than the Wing Cut Suggests
 
@@ -251,25 +251,25 @@ $$
 \frac{S_{w,1}}{S_{w,0}} = \frac{55.5}{67.8} = 0.819
 $$
 
-**The wing area fell by 58 percent and the wetted area fell by 18 percent.** That is the report's own figure, 67.8 square metres becoming 55.5, and it already includes the high-lift nacelles.
+**The wing area fell by 58 percent and the wetted area fell by 18 percent.** The report gives 67.8 square metres becoming 55.5, a figure that already includes the high-lift nacelles \[[Borer][research_x57_flight_performance_estimates]\].
 
-**And the induced drag went the wrong way.** Induced drag at a given lift and speed is set by span, not by aspect ratio \[[Lift-Induced Drag][ref_induced_drag]\] \[[Aspect Ratio, Aeronautics][ref_aspect_ratio]\].
+**The induced drag went the wrong way.** Induced drag at a given lift and speed is set by span, not by aspect ratio \[[Lift-Induced Drag][ref_induced_drag]\] \[[Aspect Ratio, Aeronautics][ref_aspect_ratio]\].
 
 $$
 D_i = \frac{L^{2}}{\tfrac{1}{2}\rho V^{2}\,\pi\, b^{2} e}
 $$
 
-The new wing has almost twice the aspect ratio of the old one and a **shorter** span, 9.94 metres against 11.40.
+The new wing has almost twice the aspect ratio of the old one and a **shorter** span, 9.94 metres against 11.40 \[[Borer][research_x57_flight_performance_estimates]\].
 
 $$
 \frac{D_{i,1}}{D_{i,0}} = \left(\frac{b_0}{b_1}\right)^{2}= \left(\frac{11.40}{9.94}\right)^{2} = 1.32
 $$
 
-**So the induced drag rose by 32 percent while the parasite drag fell by 18.** The flight performance report states the same result independently, that the reduction in span led to higher induced drag for Mod III and IV despite the higher aspect ratio of the Mod III/IV wing, and increased the importance of the aeropropulsive benefit of the wingtip-mounted propellers.
+**So the induced drag rose by 32 percent while the parasite drag fell by 18.** Borer states the same result independently, that the reduction in span led to higher induced drag for Mod III and IV despite the higher aspect ratio of the Mod III/IV wing, and increased the importance of the aeropropulsive benefit of the wingtip-mounted propellers \[[Borer][research_x57_flight_performance_estimates]\].
 
-**The wingtip propellers are therefore not a refinement. They are load-bearing.** A propeller at the tip turning against the wingtip vortex recovers some of the energy that vortex carries away, which is a statement about the momentum in the wake rather than about the blade \[[Momentum Theory][ref_momentum_theory]\] \[[Propeller, Aeronautics][ref_propeller]\] \[[Glauert, The elements of aerofoil and airscrew theory][book_glauert]\] \[[McCormick, Aerodynamics, aeronautics and flight mechanics][book_mccormick]\], and it is measured as a change in the whole aeroplane's lift to drag ratio rather than in the propeller's own efficiency \[[Lift-to-Drag Ratio][ref_lift_to_drag]\], and the configuration needs that recovery to make the sums work at all \[[Wingtip Vortices][ref_wingtip_vortices]\] \[[Yoo et al][research_x57_computational_high_lift_wingtip]\].
+**The wingtip propellers are therefore not a refinement. They are load-bearing.** A propeller at the tip turning against the wingtip vortex recovers some of the energy that vortex carries away. The effect lies in the momentum of the wake rather than in the blade \[[Momentum Theory][ref_momentum_theory]\] \[[Propeller, Aeronautics][ref_propeller]\] \[[Glauert, The elements of aerofoil and airscrew theory][book_glauert]\] \[[McCormick, Aerodynamics, aeronautics and flight mechanics][book_mccormick]\], so it is measured in the lift to drag ratio of the complete aeroplane and not in the efficiency of the propeller \[[Lift-to-Drag Ratio][ref_lift_to_drag]\]. The configuration needs that recovery to make the sums work at all \[[Wingtip Vortices][ref_wingtip_vortices]\] \[[Yoo et al][research_x57_computational_high_lift_wingtip]\].
 
-**The report's own estimates show what the whole trade bought.** At equal mass and with no propeller thrust, the peak lift to drag ratios of the two wings are almost the same, 14.7 for Mod II and 14.8 for Mod III, but the Mod III peak occurs about 40 knots true airspeed faster. At the project's cruise target of 150 knots true airspeed at 8,000 feet the zero-thrust ratios are 9.5 and 13.3, and with cruise thrust applied they are 8.8 and 13.5 \[[Borer][research_x57_flight_performance_estimates]\].
+**The report's estimates show what the trade achieved.** At equal mass and with no propeller thrust, the peak lift to drag ratios of the two wings are almost the same, 14.7 for Mod II and 14.8 for Mod III, but the Mod III peak occurs about 40 knots true airspeed faster. At the project's cruise target of 150 knots true airspeed at 8,000 feet the zero-thrust ratios are 9.5 and 13.3, and with cruise thrust applied they are 8.8 and 13.5 \[[Borer][research_x57_flight_performance_estimates]\].
 
 $$
 \frac{13.3}{9.5} = 1.40, \qquad \frac{13.5}{8.8} = 1.53
@@ -281,7 +281,7 @@ $$
 \frac{8.8}{9.5} = 0.93, \qquad \frac{13.5}{13.3} = 1.02
 $$
 
-**Thrust costs Mod II seven percent of its lift to drag ratio and gains Mod III about one and a half percent.** On Mod II the slipstream scrubs the wing and nacelle and its swirl disturbs the lift distribution, while on Mod III less wetted area sits in the slipstream and the swirl counters the wingtip vortex, which is the report's own account of the difference \[[Borer][research_x57_flight_performance_estimates]\].
+**Thrust costs Mod II seven percent of its lift to drag ratio and gains Mod III about one and a half percent.** The report accounts for the difference this way. On Mod II the slipstream scrubs the wing and nacelle and its swirl disturbs the lift distribution, while on Mod III less wetted area sits in the slipstream and the swirl counters the wingtip vortex \[[Borer][research_x57_flight_performance_estimates]\].
 
 ### The Published Geometry Does Not Close
 
@@ -293,11 +293,11 @@ $$
 
 For the original wing the three agree to better than one percent. **For the new wing they do not.** A span of 9.94 metres and an area of 6.19 square metres give an aspect ratio of 15.96, against the 15.0 the same paragraph states, a disagreement of 6.4 percent.
 
-**The report notes that the span is quoted without the wingtip propeller**, which would make the span larger and the disagreement worse rather than better. **This article does not adjudicate it.** It uses the area and the span, which are the two quantities that enter every computation above, and does not use the aspect ratio, which enters none of them.
+**The report notes that the span is quoted without the wingtip propeller**, which would make the span larger and the disagreement worse rather than better \[[Borer][research_x57_flight_performance_estimates]\]. **This article does not adjudicate it.** It uses the area and the span, which are the two quantities that enter every computation above, and does not use the aspect ratio, which enters none of them.
 
 ## Dependent Systems
 
-**The small wing depends on two systems that a piston twin does not carry, a second set of propellers and a battery to drive every propeller on the aeroplane.** The high-lift motors exist only to make the small wing survivable at low speed, and the battery sets the energy against which every aerodynamic gain is spent. The motor controllers that convert the battery's direct current for the motors are a third dependent system, and because they and the cruise motors are what ended the programme they are treated in the section headed The Flight Test Record.
+**The small wing depends on two systems that a piston twin does not carry, a second set of propellers and a battery to drive every propeller on the aeroplane.** The high-lift motors exist only to make the small wing survivable at low speed, and the battery sets the energy against which every aerodynamic gain is spent. The motor controllers that convert the battery's direct current for the motors are a third dependent system, and because they and the cruise motors are what ended the programme they are treated with the flight test record.
 
 ### The Second Propulsion System
 
@@ -323,17 +323,17 @@ $$
 J_{cruise} = 1.34, \qquad J_{lift} = 0.68
 $$
 
-**The high-lift propellers run at half the advance ratio of the cruise pair**, which is what a propeller built to move a lot of air slowly looks like beside one built to move a little air quickly.
+**The high-lift propellers run at half the advance ratio of the cruise pair**, the mark of a propeller built to move a lot of air slowly beside one built to move a little air quickly.
 
-**And the motors are less of an advance over the engines than the architecture suggests** \[[Rotax 912][ref_rotax_912]\] \[[Hughes and Drury, Electric motors and drives][book_hughes]\].
+**The motors are also less of an advance over the engines than the architecture suggests** \[[Rotax 912][ref_rotax_912]\] \[[Rotax 912 ULS/S, BRP-Rotax][ref_rotax_912_uls]\] \[[Hughes and Drury, Electric motors and drives][book_hughes]\].
 
 $$
-\frac{72}{53.1} = 1.36 \quad \text{against} \quad \frac{73.5}{64.0} = 1.15
+\frac{72}{53.1} = 1.36 \quad \text{against} \quad \frac{73.5}{56.6} = 1.30
 $$
 
-**A cruise motor with its propeller manages 1.36 kilowatts per kilogram against about 1.15 for the Rotax it replaced**, and that comparison flatters the motor, because the Rotax figure is a dry mass without a propeller while the motor figure includes one. **The gain is real and it is modest.** What distributed electric propulsion buys is not power density but divisibility, since an electric motor's efficiency is relatively insensitive to its size \[[Borer et al 2016][research_borer_patterson_2016]\].
+**A cruise motor with its propeller manages 1.36 kilowatts per kilogram against about 1.30 for the Rotax it replaced**, and that comparison flatters the motor, because the Rotax figure is the 56.6 kilogram engine with its reduction gearbox and without a propeller \[[Rotax 912 ULS/S, BRP-Rotax][ref_rotax_912_uls]\], while the motor figure is the combined motor and propeller mass of 117 pounds that NASA's specification table gives \[[X-57 Maxwell Overview, NASA][ref_nasa_x57]\]. The same NASA page also describes each cruise motor and propeller as weighing about 57 pounds, which would more than double the motor's figure, and it does not reconcile the two. **On the specification figure the gain is real and it is modest.** What distributed electric propulsion offers is not power density but divisibility, since an electric motor loses little efficiency as it is made smaller \[[Borer et al 2016][research_borer_patterson_2016]\].
 
-**The aeroplane carries a complete second propulsion system whose only job is to make the wing survivable at low speed**, and that system is slightly larger than the whole propulsive installation of the aeroplane it was built from.
+**The aeroplane carries a complete second propulsion system whose one job is to hold the wing up at low speed**, and that system is slightly larger than the whole propulsive installation of the aeroplane it was built from.
 
 **The cruise motors are torque machines.** Each is a dual-winding, three-phase, air-cooled outrunner built by Joby Aviation, rated at 72 kilowatts peak at 2,700 revolutions per minute and 60 kilowatts continuous at 2,250, on a 461 volt nominal bus \[[Clarke et al][research_x57_x_57_traction_power_and_command]\]. Power is torque times rotational speed.
 
@@ -341,7 +341,7 @@ $$
 Q = \frac{P}{\Omega} = \frac{72\,000}{2\pi \times 2700/60} = 255
 $$
 
-Both ratings give the same torque, 255 newton metres, which is the figure the controller documentation states at 2,700 revolutions per minute \[[Clarke and Terry][research_x57_cruise_motor_inverter_failures]\], so the continuous rating is the peak torque at a lower speed.
+Both ratings give the same torque, 255 newton metres, the figure the controller documentation states at 2,700 revolutions per minute \[[Clarke and Terry][research_x57_cruise_motor_inverter_failures]\], so the continuous rating is the peak torque at a lower speed.
 
 **Moving those motors to the wingtips made losing one of them far more violent.** In piloted simulation of Mod III, a full-power failure of one cruise motor during takeoff produced roll and yaw rates that NASA's test pilots judged potentially catastrophic, with three times the moment arm of Mod II and a propeller strike at 7.3 degrees of bank on touchdown \[[Wallace et al][research_x57_cruise_motor_loss_asymmetry]\] \[[Borer et al][research_x57_x_57_flight_performance_and_failure]\]. The preferred mitigation was an automatic system that halves the power of the healthy motor within half a second. Mod IV offered a second remedy, which was to take off with the high-lift propellers at a fixed 4,800 revolutions per minute so that thrust was spread along the span, and to run the cruise motors at 1,800 rather than 2,700 revolutions per minute \[[Borer et al][research_x57_distributed_thrust_takeoff]\] \[[Borer et al][research_x57_x_57_flight_performance_and_failure]\].
 
@@ -353,7 +353,7 @@ At full torque the cruise motors then deliver two thirds of their peak power, an
 
 ### What a Battery Can and Cannot Carry
 
-**A battery is not a fuel tank and the difference is the whole of this section** \[[Linden, Handbook of batteries][book_linden]\] \[[Thermal Runaway][ref_thermal_runaway]\].
+**A battery is not a fuel tank, and this section is about the difference** \[[Linden, Handbook of batteries][book_linden]\] \[[Thermal Runaway][ref_thermal_runaway]\].
 
 **The X-57 was designed to carry 47 kilowatt hours of effective energy in 860 pounds of battery**, sixteen modules at 461 volts nominal, in the battery team's 2018 account \[[Hernandez Lugo et al 2018][research_x57_battery_cell_to_system]\] \[[NASA X-57 Maxwell][ref_x57_wikipedia]\].
 
@@ -371,7 +371,7 @@ $$
 E_{nom} = 16 \times 3.456 = 55.3, \qquad V_{nom} = 128 \times 3.6 = 461, \qquad V_{max} = 128 \times 4.2 = 538
 $$
 
-**The pack's 538 volt ceiling is 128 cells at full charge**, which is the bus voltage the motor controllers were built for, and its 320 volt floor is 2.5 volts a cell. Of the nominal 55.3 kilowatt hours the design counted 47 as effective.
+**The pack's 538 volt ceiling is 128 cells at full charge**, the bus voltage the motor controllers were built for, and its 320 volt floor is 2.5 volts a cell \[[Clarke][research_x57_traction_power_system]\] \[[Clarke and Terry][research_x57_cruise_motor_inverter_failures]\]. Of the nominal 55.3 kilowatt hours the design counted 47 as effective.
 
 $$
 \frac{E}{E_{nom}} = \frac{47}{55.3} = 0.85
@@ -391,7 +391,7 @@ $$
 
 **Fuel carries a hundred times more energy per kilogram than this battery pack did.**
 
-**And the pack is asked to deliver its energy quickly as well as to store it.**
+**The pack is asked to deliver its energy quickly as well as to store it.**
 
 $$
 C_r = \frac{P}{E} = \frac{295.2}{47} = 6.3
@@ -403,13 +403,13 @@ $$
 
 **Running everything at once would empty the pack in under ten minutes and would draw six times its own capacity per hour**, which is a demanding discharge for a pack sized by energy rather than by power \[[Lithium-Ion Battery][ref_lithium_ion]\] \[[Linden, Handbook of batteries][book_linden]\]. Nothing in the mission asks for that, since the high-lift motors are used only at the ends of the flight, but it bounds what the pack and its wiring had to be built for \[[Clarke][research_x57_traction_power_system]\].
 
-**The battery's own requirement was more modest than running everything at once.** Each of the two battery subsystems had to supply 60 kilowatts continuously, 74 kilowatts for at least three minutes and 132 kilowatts for at least 45 seconds, and the baseline flight profile was predicted to need 46.2 kilowatt hours with a peak of about 145 kilowatts \[[Hernandez Lugo et al 2018][research_x57_battery_cell_to_system]\].
+**The requirement set for the battery was more modest than running everything at once.** Each of the two battery subsystems had to supply 60 kilowatts continuously, 74 kilowatts for at least three minutes and 132 kilowatts for at least 45 seconds, and the baseline flight profile was predicted to need 46.2 kilowatt hours with a peak of about 145 kilowatts \[[Hernandez Lugo et al 2018][research_x57_battery_cell_to_system]\].
 
 $$
 \frac{E_{prof}}{E} = \frac{46.2}{47.0} = 0.98
 $$
 
-**The baseline flight was predicted to use 98 percent of the effective energy**, which is why the flight planning described in the section headed The Flight Test Record was dominated by the battery. At the 120 kilowatts the two subsystems had to sustain continuously, the effective energy lasts under 24 minutes.
+**The baseline flight was predicted to use 98 percent of the effective energy.** For that reason the battery dominated the flight planning set out below. At the 120 kilowatts the two subsystems had to sustain continuously, the effective energy lasts under 24 minutes.
 
 $$
 t = \frac{E}{P} = \frac{47}{120} = 0.39
@@ -421,15 +421,15 @@ $$
 I = \frac{P}{V_b}, \qquad \frac{60\,000}{461} = 130, \qquad \frac{60\,000}{340} = 176
 $$
 
-At 60 kilowatts a pack at its 461 volt nominal delivers 130 amperes, and at 340 volts it must deliver 176. The modelled reference mission drew more than 175 amperes during takeoff and about 150 during climb and cruise, against an inline fuse rated at 200 amperes that derates for steady current to 160 amperes at 25 degrees Celsius and 143 at 50 \[[Clarke][research_x57_traction_power_system]\] \[[Clarke et al][research_x57_x_57_traction_power_and_command]\]. A larger fuse would not have protected the ground crew from arc flash during maintenance, so the fuse was slightly undersized for the loads at the temperatures a cabin could reach.
+At 60 kilowatts a pack at its 461 volt nominal delivers 130 amperes, and at 340 volts it must deliver 176. The modelled reference mission drew more than 175 amperes during takeoff and about 150 during climb and cruise, against an inline fuse rated at 200 amperes that derates for steady current to 160 amperes at 25 degrees Celsius and 143 at 50 \[[Clarke][research_x57_traction_power_system]\] \[[Clarke et al][research_x57_x_57_traction_power_and_command]\]. A larger fuse would not have protected the ground crew from arc flash during maintenance, so the fuse was slightly undersized for the loads at the temperatures a cabin could reach \[[Clarke et al][research_x57_x_57_traction_power_and_command]\].
 
-**The electric drive gives most of that back only once.** The piston engines of Mod I turned roughly thirty percent of their fuel's energy into shaft work and the electric drivetrain of Mod II turns roughly ninety percent of its stored energy into the same thing, which are the flight performance report's figures \[[Borer][research_x57_flight_performance_estimates]\] \[[Lithium-Ion Battery][ref_lithium_ion]\] \[[Synchronous Motor][ref_pmsm]\].
+**The electric drive gives most of that back only once.** On the flight performance report's figures, the piston engines of Mod I turned roughly thirty percent of their fuel's energy into shaft work and the electric drivetrain of Mod II turns roughly ninety percent of its stored energy into the same thing \[[Borer][research_x57_flight_performance_estimates]\] \[[Lithium-Ion Battery][ref_lithium_ion]\] \[[Synchronous Motor][ref_pmsm]\].
 
 $$
 \frac{e_f\,\eta_p}{e_b\,\eta_e} = \frac{100 \times 0.30}{0.90} = 33
 $$
 
-**The efficiency advantage is a factor of three and the energy deficit is a factor of a hundred, so the aeroplane is still thirty-three times worse off per kilogram.** That is not a number that better packaging closes. **It is why X-57 flight planning was constrained to missions of less than thirty minutes** \[[Borer][research_x57_flight_performance_estimates]\].
+**The efficiency advantage is a factor of three and the energy deficit is a factor of a hundred, so the aeroplane is still thirty-three times worse off per kilogram.** Better packaging does not close a gap of that size. **It is why X-57 flight planning was constrained to missions of less than thirty minutes** \[[Borer][research_x57_flight_performance_estimates]\].
 
 **The report's comparison at equal flight conditions bears the factor of three out.** Converting the Mod I fuel burn at 43.5 megajoules per kilogram, the production aeroplane would use 2.6 to 2.9 times the energy of Mod II at the same flight condition, a little under three because Mod II is heavier and its three-bladed propellers are slightly less efficient \[[Borer][research_x57_flight_performance_estimates]\]. The goal set at the start was larger, five times lower energy use than the production aeroplane at 175 miles an hour, made up of a gain from 28 to 92 percent in conversion efficiency and a further factor of about 1.5 from integrating the propulsion with the wing \[[Hernandez Lugo et al 2018][research_x57_battery_cell_to_system]\].
 
@@ -443,9 +443,9 @@ $$
 2.6 \times 1.53 = 4.0, \qquad 2.9 \times 1.53 = 4.4
 $$
 
-**On the report's estimates the full configuration would have come within reach of the goal at cruise.** These are products of estimates made at different conditions, so the result is an inference rather than a figure the report states.
+**On the report's estimates the full configuration would have come within reach of the goal at cruise.** These are products of estimates made at different conditions, so the result is an inference, and the report states no such figure.
 
-**What that energy buys in range can be bounded.** For an electric aeroplane in steady cruise the range is the stored energy times the drivetrain and propulsive efficiencies, divided by the weight, times the lift to drag ratio, with no weight lost along the way \[[Range, Aeronautics][ref_breguet]\] \[[Lift-to-Drag Ratio][ref_lift_to_drag]\].
+**The range that energy allows can be bounded.** For an electric aeroplane in steady cruise the range is the stored energy times the drivetrain and propulsive efficiencies, divided by the weight, times the lift to drag ratio, with no weight lost along the way \[[Range, Aeronautics][ref_breguet]\] \[[Lift-to-Drag Ratio][ref_lift_to_drag]\].
 
 $$
 R = \frac{E\,\eta_e\,\eta_{pr}}{m\,g}\;\frac{L}{D}
@@ -455,7 +455,7 @@ $$
 R_{II} = 75, \qquad R_{III} = 116
 $$
 
-**Spending all 47 kilowatt hours at the 150 knot cruise point, with the report's 90 percent drivetrain efficiency, the 75 percent propulsive efficiency assumed here and the powered lift to drag ratios of 8.8 and 13.5, gives 75 kilometres for Mod II and 116 for Mod III.** That is an upper bound, since it leaves nothing for takeoff, climb, descent or reserve, and the section headed The Flight Test Record shows how much less was usable in practice.
+**Spending all 47 kilowatt hours at the 150 knot cruise point, with the report's 90 percent drivetrain efficiency, the 75 percent propulsive efficiency assumed here and the powered lift to drag ratios of 8.8 and 13.5, gives 75 kilometres for Mod II and 116 for Mod III.** That is an upper bound, since it leaves nothing for takeoff, climb, descent or reserve, and the flight test plan described below shows how much less was usable in practice.
 
 **Every aerodynamic gain in this aeroplane exists to be spent against that ratio.** The smaller wing, the higher aspect ratio, the wingtip propellers and the blown leading edge are all attempts to buy back efficiency in an airframe carrying an energy source two orders of magnitude worse than the one it replaced.
 
@@ -465,13 +465,13 @@ $$
 
 **The redesign took its template from human spaceflight.** NASA had packaged cylindrical cells for crewed spaceflight by embedding them in a heat-absorbing block that also shields each cell from a failed neighbour, and the X-57 module adopted that approach, iterating the clearance of each cell's bore until a runaway cell's heat was absorbed by its neighbours without driving them into runaway in turn. Each cell received a fusible link etched into the nickel bus bar. A 640-cell module was trending towards 110 to 120 pounds, too heavy to handle safely, so the module was halved to the 320-cell form above and the disconnect switches moved to the battery control modules \[[Clarke et al][research_x57_x_57_traction_power_and_command]\]. The redesigned modules were retested in November 2017 at 51 pounds each \[[Hernandez Lugo et al 2018][research_x57_battery_cell_to_system]\].
 
-**The qualification test had to be harder than the failed one.** Heating a cell's can no longer worked, because the new block absorbed the heat, so corner cells were replaced with cells carrying internal short circuit devices that fail at about 70 degrees Celsius rather than the usual threshold above 120, and were then charged and discharged rapidly with the rest of the module at its maximum credible temperature. Three such runaways produced no propagation and full containment \[[Clarke et al][research_x57_x_57_traction_power_and_command]\]. The vent at the top of the module peaked at 197 degrees Celsius against a vent material rated to 340 \[[Clarke][research_x57_traction_power_system]\]. **The battery is the one subsystem whose defect was found early enough to be redesigned**, which is the lessons learned report's own judgement \[[Maliska et al 2024][research_x57_lessons_learned]\].
+**The qualification test had to be harder than the failed one.** Heating a cell's can no longer worked, because the new block absorbed the heat, so corner cells were replaced with cells carrying internal short circuit devices that fail at about 70 degrees Celsius rather than the usual threshold above 120, and were then charged and discharged rapidly with the rest of the module at its maximum credible temperature. Three such runaways produced no propagation and full containment \[[Clarke et al][research_x57_x_57_traction_power_and_command]\]. The vent at the top of the module peaked at 197 degrees Celsius against a vent material rated to 340 \[[Clarke][research_x57_traction_power_system]\]. **The battery is the one subsystem whose defect was found early enough to be redesigned**, in the judgement of the lessons learned report \[[Maliska et al 2024][research_x57_lessons_learned]\].
 
-## The Flight Test Record, Which Holds Only the Unmodified Aeroplane
+## The Flight Test Record
 
-**The flight test record holds no flight of the aeroplane the register describes.** Of the four planned modifications only the first flew, and it was the unmodified Tecnam flown to establish a baseline \[[Maliska and Clarke][research_x57_subproject_overview]\]. The Mod I flights gathered the production aeroplane's energy consumption and validated the stability and control models used in the Mod II piloted simulator, and the Mod I label also covered the truck-mounted ground demonstration of a blown wing \[[Borer][research_x57_flight_performance_estimates]\] \[[Kushner et al][research_x57_systems_engineering_lessons]\]. The documents read here report the Mod I flights only through the corrections they made to the performance models. The project ran from 2015 to 2023 and was closed out without the aircraft leaving the runway.
+**The flight test record holds no flight of the aeroplane the register describes.** Of the four planned modifications only the first flew, and it was the unmodified Tecnam flown to establish a baseline \[[Maliska and Clarke][research_x57_subproject_overview]\]. The Mod I flights gathered the production aeroplane's energy consumption and validated the stability and control models used in the Mod II piloted simulator, and the Mod I label also covered the truck-mounted ground demonstration of a blown wing \[[Borer][research_x57_flight_performance_estimates]\] \[[Kushner et al][research_x57_systems_engineering_lessons]\]. The documents read here report the Mod I flights only through the corrections they made to the performance models. The project ran from 2015 to 2023 and was closed out without the modified aircraft leaving the runway.
 
-**What the record does hold is ground testing, and the ground testing is where the programme stopped.** The parts of this section set out the flight test that was planned, the controller and motor failures found on the ground, the scoping decision that left no reserves to absorb them, and the order in which the flights were given up. The cruise motors in their then-current configuration were deemed an unacceptable risk for flight, and a modified motor was in work when the schedule and the budget ended \[[Maliska et al 2024][research_x57_lessons_learned]\].
+**What the record does hold is ground testing, and the ground testing is where the programme stopped.** The parts of this section set out the flight test that was planned, the controller and motor failures found on the ground, the scoping decision that left no reserves to absorb them, and the order in which the flights were given up. The cruise motors in their then-current configuration were deemed an unacceptable risk for flight, and a modified motor was still in work at close-out \[[Maliska et al 2024][research_x57_lessons_learned]\].
 
 ### The Flight Test That Was Planned
 
@@ -481,17 +481,17 @@ $$
 
 **A battery has no fuel gauge that a test pilot can trust.** The pack's computed state of charge proved unreliable, mainly because of its current sensor, so the pilots were to set a fixed power and read the pack voltage against the battery model instead. The return thresholds were set so that the aeroplane would land above 340 volts, a bingo state of charge of 18 percent from 6,000 feet and 22 percent from 8,000, with joker levels of 28 and 32 percent allowing a five minute pattern orbit in place of the two minute orbit of the standard descent. A go-around was not possible within the planned energy. **The time available on condition was between 5 and 20 minutes**, and at 8,000 feet and 100 knots calibrated airspeed it was 10.3 minutes \[[Reynolds et al][research_x57_flight_test_approach_for_x_57]\]. Below 340 volts the cruise motor controllers cannot deliver full torque at full speed, because the motor's back electromotive force overcomes the supply \[[Clarke][research_x57_traction_power_system]\].
 
-### The Thing That Actually Stopped It
+### The Machinery That Stopped It
 
 **The X-57 was not stopped by its wing or its aerodynamics. It was stopped by the machinery that turns stored energy into shaft power, first by the transistors in its motor controllers and finally by the motors themselves.**
 
-Converting stored direct current into the alternating current a motor wants is the business of power electronics, and it is a mature discipline with a large literature \[[Mohan and Robbins, Power electronics][book_mohan]\]. The cruise and high-lift motor controllers both used silicon carbide metal oxide semiconductor field effect transistors to convert the battery's direct current into the three-phase alternating current the motors need \[[Clarke and Terry][research_x57_cruise_motor_inverter_failures]\] \[[MOSFET][ref_mosfet]\] \[[Silicon Carbide][ref_sic]\] \[[Power Inverter][ref_inverter]\].
+Converting stored direct current into the alternating current a motor wants is the business of power electronics, a mature discipline with a large literature \[[Mohan and Robbins, Power electronics][book_mohan]\]. The cruise and high-lift motor controllers both used silicon carbide metal oxide semiconductor field effect transistors to convert the battery's direct current into the three-phase alternating current the motors need \[[Clarke and Terry][research_x57_cruise_motor_inverter_failures]\] \[[MOSFET][ref_mosfet]\] \[[Silicon Carbide][ref_sic]\] \[[Power Inverter][ref_inverter]\].
 
 $$
 V_{dc} = 538, \qquad I_{pk} = 200
 $$
 
-The cruise motor controller switched at 538 volts and 200 amperes peak per phase. **The typical failure mode is a short circuit with material ejection, which usually destroys the drive circuit and the printed circuit board with it.**
+The cruise motor controller switched at 538 volts and 200 amperes peak per phase. **The typical failure mode is a short circuit with the potential for material ejection, which often destroys the drive circuit and the printed circuit board with it** \[[Clarke and Terry][research_x57_cruise_motor_inverter_failures]\].
 
 **Three separate causes were found and each is mundane.**
 
@@ -503,7 +503,7 @@ The cruise motor controller switched at 538 volts and 200 amperes peak per phase
 
 **Electromagnetic interference was a fourth and separate problem**, and it surfaced only when the X-57's own batteries were first run with the qualified controllers, because the controllers' acceptance and qualification testing had used laboratory power supplies \[[Clarke et al][research_x57_x_57_traction_power_and_command]\] \[[Electromagnetic Interference][ref_emi]\]. The systems engineering account names electromagnetic interference among the issues that an iron bird, a ground duplicate of the aircraft's systems, would have allowed to be found and debugged in parallel before installation on the aircraft \[[Kushner et al][research_x57_systems_engineering_lessons]\].
 
-**The deck summarising these failures for a standards committee contains the sentence that best describes the whole programme.** Under assembly, it reads that one loose washer can cause catastrophic failure.
+**The deck summarising these failures for a standards committee contains the sentence that best describes the programme.** Under assembly, it reads that one loose washer can cause catastrophic failure \[[Clarke and Terry][research_x57_cruise_motor_inverter_failures]\].
 
 **The cruise controller was rebuilt rather than repaired.** The original controller, designed by Joby Aviation and QDESys, used one Wolfspeed CAS300M12BM2 half-bridge module per phase, and those modules could not survive the project's acceptance vibration level. Further analysis found deficiencies in the current sensing, the gate drive and the heat sink, and a direct current bus voltage ripple of roughly 40 percent. NASA redesigned the controller with Empirical Systems Aerospace around the CAB400M12XM3 module, rated at 1,200 volts and 400 amperes against the 300 amperes of its predecessor, in a stiffened aluminium case with an integral heat sink, an optically isolated gate drive with desaturation protection, and cascaded bus filtering. **Three prototype revisions were built before the design was accepted** \[[Clarke et al][research_x57_x_57_traction_power_and_command]\]. Each controller drives one of a cruise motor's two windings, with a nominal peak of 36 kilowatts and up to 45 if its partner fails \[[Clarke et al][research_x57_x_57_traction_power_and_command]\].
 
@@ -515,7 +515,7 @@ $$
 
 At 97 percent that limit corresponds to 11 kilowatts of throughput, and the fast-switching discrete silicon carbide design measured 98.3 percent \[[Clarke et al][research_x57_x_57_traction_power_and_command]\].
 
-**Electromagnetic interference appeared only when the real batteries met the real controllers.** Dynamometer testing on laboratory power supplies showed no concern, but when the X-57's batteries, battery control modules, motors and cruise motor controllers were first run together, on a hardware-in-the-loop rig off the aircraft, the battery modules' monitoring communications dropped out as soon as the controllers were armed. The silicon carbide switching edges, passing through an extremely low-inductance flat bus cable, coupled common-mode current into battery sensor boards that had no filtering, and the remedy was a common-mode filter tuned to the flight hardware. Tight clearances in the nacelle produced unintended ground paths, and current induced between rotor and stator flowed through the bearings into the structure until a spare slip-ring channel was used to drain it \[[Clarke][research_x57_traction_power_system]\] \[[Clarke et al][research_x57_x_57_traction_power_and_command]\].
+**Running the flight hardware together showed where the interference came from.** Dynamometer testing on laboratory power supplies showed no concern, but when the X-57's batteries, battery control modules, motors and cruise motor controllers were first run together, on a hardware-in-the-loop rig off the aircraft, the battery modules' monitoring communications dropped out as soon as the controllers were armed. The silicon carbide switching edges, passing through an extremely low-inductance flat bus cable, coupled common-mode current into battery sensor boards that had no filtering, and the remedy was a common-mode filter tuned to the flight hardware. Tight clearances in the nacelle produced unintended ground paths, and current induced between rotor and stator flowed through the bearings into the structure until a spare slip-ring channel was used to drain it \[[Clarke][research_x57_traction_power_system]\] \[[Clarke et al][research_x57_x_57_traction_power_and_command]\].
 
 **The motors ended it.** The cruise motors were built by Joby Aviation and assembled by Empirical Systems Aerospace, and NASA tested them for endurance against the objectives of the aircraft engine standard, Part 33 of the Federal Aviation Regulations, because, in the traction power team's account, a flight qualification standard for electric motors did not exist at the time. Defects in bearing installation and in the electrical isolation between stator winding and chassis led to a stator redesign and a new batch of motors. Through acceptance testing and ground running further discrepancies appeared, especially in the bearing type and housing, and the design was finally judged not flightworthy without a major stator redesign. **The project closed out before that redesign could be developed** \[[Clarke et al][research_x57_x_57_traction_power_and_command]\]. The lessons learned report records that problems with the motors' rotors were resolved operationally, by extra inspections and limited ground running, when hardware issues arose in 2018, 2021 and 2023, which delayed finding their root cause until late in the project \[[Maliska et al 2024][research_x57_lessons_learned]\].
 
@@ -523,47 +523,47 @@ At 97 percent that limit corresponds to 11 kilowatts of throughput, and the fast
 
 **The lessons learned report is unusually direct about the root cause, and it is not a technical one** \[[Maliska et al 2024][research_x57_lessons_learned]\] \[[Kushner et al][research_x57_systems_engineering_lessons]\].
 
-**The project was scoped as an integration effort rather than a development effort.** The initial technology readiness assessment concluded that the subsystems existed and could be bought, so the plan assumed that funding and time were not needed to develop them \[[Technology Readiness Level][ref_trl]\] \[[Technology Readiness Level, NASA][ref_nasa_trl]\]. **The team was selected to integrate a distributed electric propulsion wing, not to develop the components that make one.** Because no subsystem development was expected, few subsystem risks were identified, and because few risks were identified, no reserves were held against them.
+**The project was scoped as an integration effort rather than a development effort.** The initial technology readiness assessment concluded that the subsystems existed and could be bought, so the plan assumed that funding and time were not needed to develop them \[[Technology Readiness Level][ref_trl]\] \[[Technology Readiness Level, NASA][ref_nasa_trl]\]. **The team was selected to integrate a distributed electric propulsion wing, not to develop the components that make one.** Because no subsystem development was expected, few subsystem risks were identified, and because few risks were identified, no reserves were held against them \[[Maliska et al 2024][research_x57_lessons_learned]\].
 
-**And then a single direction invalidated the assessment without triggering a new one.**
+**A single direction then invalidated the assessment without triggering a new one.**
 
-The readiness assessment rested in part on the existence of, and assumed ability to access, overseas flight-proven hardware. **The direction from senior leadership was to use technology available from United States industry only.** The report states plainly that when that direction was given, the project may have benefitted from reassessing the readiness of American components, and that it did not.
+The readiness assessment rested in part on the existence of, and assumed ability to access, overseas flight-proven hardware. **The direction from senior leadership was to use technology available from United States industry only.** The report states plainly that when that direction was given, the project may have benefitted from reassessing the readiness of American components, and that it did not \[[Maliska et al 2024][research_x57_lessons_learned]\] \[[Kushner et al][research_x57_systems_engineering_lessons]\].
 
-**During execution the actual readiness proved significantly lower than assumed.** The cruise motors, the cruise motor controllers, the battery control modules and the high-lift motor controllers all had to be redesigned. A programme staffed for integration found itself developing four subsystems, first one after another and then in parallel, which raised the technical risk further and delayed the subsystems that had been ready.
+**During execution the actual readiness proved significantly lower than assumed.** The cruise motors, the cruise motor controllers, the battery control modules and the high-lift motor controllers all had to be redesigned. A programme staffed for integration found itself developing four subsystems, first one after another and then in parallel, which raised the technical risk further and delayed the subsystems that had been ready \[[Maliska et al 2024][research_x57_lessons_learned]\].
 
-**The report's own summary of the consequence is that integration and test of the mature subsystems was delayed**, which increased the probability of cost and schedule impacts arriving late in the project, at a point when there was no schedule and no funding left to absorb them.
+**The report sums up the consequence as a delay to the integration and test of the mature subsystems**, which increased the probability of cost and schedule impacts arriving late in the project, at a point when there was no schedule and no funding left to absorb them \[[Maliska et al 2024][research_x57_lessons_learned]\].
 
 ### Six Years a Year From Flight
 
 **The schedule record shows the same mismatch from the outside.** At kickoff the contractor was expected to buy commercially available motors, controllers and batteries, integrate them, and deliver a flight-ready Mod II, with NASA's role limited to minimal system-level verification. By 2018 it was clear that the delivery date would not be met. NASA took delivery of the Mod II aircraft in October 2019 in a non-airworthy state, with no operable battery or propulsive system, after a spring and summer in which both motors had been spun on ground power through a single controller each instead of the dual controllers that flight required. The same year NASA set a firm end date of 30 September 2023 \[[Kushner et al][research_x57_systems_engineering_lessons]\].
 
-**The planned flights then fell away from the top.** Delays to the battery control modules held up ground testing on the aircraft's own battery power until the middle of 2021 \[[Maliska et al 2024][research_x57_lessons_learned]\]. Flight of Mod IV was removed from the project in the summer of 2021 and flight of Mod III in the autumn of 2022, in each case because no achievable path to first flight before the end date remained. In the summer of 2023 latent design issues in the cruise motors required a lengthy modification to be made airworthy, NASA elected not to extend the project, and Mod II was not flown \[[Kushner et al][research_x57_systems_engineering_lessons]\]. The motors in their existing configuration had been judged an unacceptable risk for flight with the concurrence of the centre's airworthiness review board, and work was proceeding toward a critical design review of a modified motor \[[Maliska et al 2024][research_x57_lessons_learned]\]. **The project's own chart of forecast days to first flight states the result plainly, that Mod II was a year from flight for six years of the subproject** \[[Maliska and Clarke][research_x57_subproject_overview]\].
+**The planned flights then fell away from the top.** Delays to the battery control modules held up ground testing on the aircraft's own battery power until the middle of 2021 \[[Maliska et al 2024][research_x57_lessons_learned]\]. Flight of Mod IV was removed from the project in the summer of 2021 and flight of Mod III in the autumn of 2022, in each case because no achievable path to first flight before the end date remained. In the summer of 2023 latent design issues in the cruise motors required a lengthy modification to be made airworthy, NASA elected not to extend the project, and Mod II was not flown \[[Kushner et al][research_x57_systems_engineering_lessons]\]. The motors in their existing configuration had been judged an unacceptable risk for flight with the concurrence of the centre's airworthiness review board, and work was proceeding toward a critical design review of a modified motor \[[Maliska et al 2024][research_x57_lessons_learned]\]. **The project's chart of forecast days to first flight shows that Mod II was a year from flight for six years of the subproject** \[[Maliska and Clarke][research_x57_subproject_overview]\].
 
 **The work that was finished was ground work.** NASA ran ground vibration tests of the Mod II aircraft, with battery mass simulators in place of the energised packs, and of the Mod III wing, and qualification load-tested the new wing in its Flight Loads Laboratory \[[Spivey et al][research_x57_all_electric_x_plane_x_57]\] \[[Truong et al][research_x57_x_57_mod_iii_wing_ground]\] \[[Miller et al][research_x57_x_57_wing_structural_load_testing]\]. The systems engineering account ends on extended, successful ground runs of the Mod II powertrain once the electromagnetic and thermal problems had been addressed \[[Kushner et al][research_x57_systems_engineering_lessons]\].
 
 ## Comparison With Ground Prediction
 
-**Nothing the X-57 was built to demonstrate was flown, so flight returned nothing to set beside the ground predictions.** The small wing, the twelve high-lift propellers and the wingtip cruise propellers exist in the record only as estimates, analyses and ground tests. The single configuration that flew was the unmodified aeroplane, and this article states no flight data from it.
+**Nothing the X-57 was built to demonstrate was flown, so flight returned no data to set beside the ground predictions.** The small wing, the twelve high-lift propellers and the wingtip cruise propellers exist in the record only as estimates, analyses and ground tests. The single configuration that flew was the unmodified aeroplane, and this article states no flight data from it.
 
-**The predictions themselves are specific.** The flight performance report predicted a stall speed for the highly loaded wing comparable to that of the configuration with the original wing, and induced drag for the shorter span higher than that of the original despite the higher aspect ratio \[[Borer][research_x57_flight_performance_estimates]\]. It predicted lift to drag ratios at the cruise point 40 percent higher for the small wing without thrust and 53 percent higher with it. The programme's propeller testing measured thrust and slipstream velocities on the ground rather than assuming them \[[Litherland et al][research_x57_x_57_maxwell_high_lift_propeller_3]\]. None of these was tested in flight.
+**The predictions themselves are specific.** The flight performance report predicted a stall speed for the highly loaded wing comparable to that of the configuration with the original wing, and induced drag for the shorter span higher than that of the original despite the higher aspect ratio \[[Borer][research_x57_flight_performance_estimates]\]. It predicted lift to drag ratios at the cruise point 40 percent higher for the small wing without thrust and 53 percent higher with it. The programme's propeller testing measured thrust and slipstream velocities on the ground \[[Litherland et al][research_x57_x_57_maxwell_high_lift_propeller_3]\]. Flight tested none of them.
 
-**What this article can compare is one ground figure against another, and it does so in four places.** The section headed What the Flap Does and What the Propellers Do recomputes the blown lift coefficient of 3.95 that the propeller designers state from the tabulated stall speeds, and reproduces the Mod II stall speeds from the production aeroplane's by mass scaling. The section headed The Prize Was Smaller Than the Wing Cut Suggests derives the 32 percent rise in induced drag from the published spans, and the report states the same result. The section headed The Second Propulsion System recovers the 255 newton metre torque stated for the cruise motor from its power and speed. The section headed What a Battery Can and Cannot Carry rebuilds the pack's 538 volt ceiling and 55.3 kilowatt hour nominal energy from the cell.
+**This article can compare one ground figure against another, and it does so in four places.** The subsection on the flap and the propellers recomputes the blown lift coefficient of 3.95 that the propeller designers state from the tabulated stall speeds, and reproduces the Mod II stall speeds from the production aeroplane's by mass scaling. The drag trade derives the 32 percent rise in induced drag from the published spans, and the report states the same result. The section headed The Second Propulsion System recovers the 255 newton metre torque stated for the cruise motor from its power and speed. The battery section rebuilds the pack's 538 volt ceiling and 55.3 kilowatt hour nominal energy from the cell.
 
-**The one prediction that met a test and failed was not aerodynamic.** The initial readiness assessment predicted that the subsystems existed and could be bought, and ground testing of the motor controllers returned short circuits under vibration, overheating at a worn thermal pad, and shoot-through commanded by software, and ground running of the cruise motors returned defects in their bearings and in the isolation of their windings \[[Clarke and Terry][research_x57_cruise_motor_inverter_failures]\] \[[Maliska et al 2024][research_x57_lessons_learned]\] \[[Clarke et al][research_x57_x_57_traction_power_and_command]\]. That comparison is argued in the section headed The Flight Test Record.
+**The one prediction that met a test and failed was not aerodynamic.** The initial readiness assessment predicted that the subsystems existed and could be bought, and ground testing of the motor controllers returned short circuits under vibration, overheating at a worn thermal pad, and shoot-through commanded by software, and ground running of the cruise motors returned defects in their bearings and in the isolation of their windings \[[Clarke and Terry][research_x57_cruise_motor_inverter_failures]\] \[[Maliska et al 2024][research_x57_lessons_learned]\] \[[Clarke et al][research_x57_x_57_traction_power_and_command]\]. That comparison is set out in full under The Flight Test Record.
 
 ## What the Data Changed
 
 **Working the blowing through on the published numbers divides the central claim in two.** If the twelve propellers had to supply the whole factor of 2.38 by raising the dynamic pressure, ideal actuator discs would need 139 kilowatts against 151 installed, and any realistic efficiency would exceed the installed power. **The tabulated stall speeds show that they did not have to.** The flapped small wing reaches a maximum lift coefficient of about 2.5 against 1.66 for the production wing, the propellers supply the remaining factor of 1.58, and on that division the requirement falls to about 59 percent of the installed power. The propeller's design thrust implies more slipstream velocity than the model needs, and the flight performance report expected a lower stall speed in flight than the target. **None of that was tested, so it remains a prediction checked only against other predictions.**
 
-**The battery constrained the flight test before it constrained the design.** The baseline flight profile was predicted to need 98 percent of the effective energy, the pack's computed state of charge could not be trusted, and the Mod II flight plan allowed between 5 and 20 minutes on condition with no go-around. A still-air cruise bound using the report's own lift to drag ratios gives 75 kilometres for Mod II and 116 for Mod III on the whole pack.
+**The battery constrained the flight test before it constrained the design.** The baseline flight profile was predicted to need 98 percent of the effective energy, the pack's computed state of charge could not be trusted, and the Mod II flight plan allowed between 5 and 20 minutes on condition with no go-around. A still-air cruise bound using the report's lift to drag ratios gives 75 kilometres for Mod II and 116 for Mod III on the full pack.
 
-**Working the power density showed the motors to be a smaller advance than the architecture suggests.** A cruise motor with its propeller gives 1.36 kilowatts per kilogram against about 1.15 for the piston engine it replaced, and that comparison already flatters the motor. **What distributed electric propulsion buys is not power density but divisibility**, because an electric motor's efficiency is relatively insensitive to its size, while the combustion engines of light aircraft fall short of the efficiency of larger engines.
+**Working the power density showed the motors to be a smaller advance than the architecture suggests.** A cruise motor with its propeller gives 1.36 kilowatts per kilogram against about 1.30 for the piston engine it replaced, and that comparison already flatters the motor. **The advantage of distributed electric propulsion is divisibility instead of power density**, because a small electric motor is nearly as efficient as a large one, while the combustion engines of light aircraft fall short of the efficiency of larger engines.
 
-**The published geometry does not close.** The flight performance report gives a wing area, a span and an aspect ratio for the same wing, and any two of those determine the third. For the original wing they agree to better than one percent. **For the new wing they disagree by 6.4 percent.** The article uses the two quantities that enter its computations and does not use the third.
+**The published geometry does not close.** The report gives a wing area, a span and an aspect ratio for the same wing, and any two of those determine the third. For the original wing they agree to better than one percent. **For the new wing they disagree by 6.4 percent.** The article uses the two quantities that enter its computations and does not use the third.
 
 **The empty engines cell is not a finding about electric propulsion.** The engines cell for this row is empty, which invites the reading that the register had no category for an aeroplane without engines. **Ninety-four rows have an empty engines cell, and the other X rows that do include a supersonic demonstrator and a rocket.** The blank is a gap in the compilation.
 
-**The induced drag result is derived independently, and the primary source states it.** Working from the published spans, a shorter span at higher aspect ratio gives 32 percent more induced drag at the same lift and speed. The flight performance report says the same thing in prose. **Agreement between an independent derivation and the source is worth more than either alone.**
+**The induced drag result is derived independently, and the primary source states it.** Working from the published spans, a shorter span at higher aspect ratio gives 32 percent more induced drag at the same lift and speed. Borer makes the same point in prose. **Agreement between an independent derivation and the source is worth more than either alone.**
 
 ## The Contemporary Literature
 
@@ -696,7 +696,7 @@ This cluster holds titles that pass the admission rule but name the subject of n
 
 **5 records.** \[[Arifin et al 2024][research_arifin_imronrosadi_2024]\] \[[Electric propulsion][research_electric_propulsion]\] \[[Electric Propulsion Fundamentals 2019][research_electric_propulsion_2019]\] \[[Electric Propulsion Systems 2012][research_electric_propulsion_2012]\] \[[Garrett et al 2000][research_garrett_newton_2000]\]
 
-## Where the Framing Breaks Down, What the Register Recorded and What It Could Not
+## Where the Framing Breaks Down
 
 **The register's entry is a specification, and specifications are written before things are built.**
 
@@ -704,7 +704,7 @@ Every clause of it is accurate as a description of the design. There were smalle
 
 **What the entry cannot record is readiness.** A designation register records what a vehicle is for. It has no column for whether the parts exist at the maturity the plan assumed, and that is the quantity on which this programme turned.
 
-**And the length of the entry is, on reflection, evidence of the same thing.** The X-57 has the most detailed mission statement of any X designation because by 2016 the architecture was fully worked out on paper. **The confidence that produced a 328 character specification is the same confidence that produced a technology readiness assessment describing an integration task.**
+**The length of the entry is evidence of the same thing.** The X-57 has the most detailed mission statement of any X designation because by 2016 the architecture was fully worked out on paper. **The confidence that produced a 328 character specification is the same confidence that produced a technology readiness assessment describing an integration task.**
 
 ## The Source Base
 
@@ -772,9 +772,9 @@ Every clause of it is accurate as a description of the design. There were smalle
 
 **Inference.** That the full configuration would have come within reach of the goal of five times lower energy use rests on multiplying estimates made at different conditions.
 
-**Hypothesis.** That the buy-American direction is the proximate cause of the readiness mismatch is close to what the lessons learned report says but slightly stronger than it. **The report says the project may have benefitted from reassessing the readiness of American components and that the actual readiness proved significantly lower.** It does not assert that the direction caused the mismatch, and neither does this article.
+**Hypothesis.** That the buy-American direction is the proximate cause of the readiness mismatch is close to what the lessons learned report says but slightly stronger than it. **The report's position is that the project may have benefitted from reassessing the readiness of American components and that the actual readiness proved significantly lower.** \[[Maliska et al 2024][research_x57_lessons_learned]\] It does not assert that the direction caused the mismatch, and neither does this article.
 
-**Unresolved.** The high-lift motor power is given as 12.6 kilowatts by the flight performance report and as 10.5 kilowatts by NASA's X-57 page \[[X-57 Maxwell Overview, NASA][ref_nasa_x57]\]. This article uses the report's figure and records the disagreement. The same NASA page gives the battery as 69.1 kilowatt hours, 47 of them usable, in 860 pounds \[[X-57 Maxwell Overview, NASA][ref_nasa_x57]\], which is 80 watt hours per pound, and that is the specific energy secondary sources quote \[[NASA X-57 Maxwell][ref_x57_wikipedia]\]. The nominal cell energy rebuilt here from the battery account's cell, 55.3 kilowatt hours, gives 64 over the same 860 pounds and the effective 47 kilowatt hours gives 55, so NASA's page and the battery account disagree on the stored energy, 69.1 against 55.3 kilowatt hours, and neither document reconciles the two. The 2018 battery account also gives sixteen modules of 51 pounds, which is 816 pounds against the 860 it states for the battery, and the remainder is not itemised. The as-built usable energy of 23 kilowatt hours a pack is lower than the 2018 effective figure, and the relations in this article use the 2018 figure.
+**Unresolved.** The high-lift motor power is given as 12.6 kilowatts by the flight performance report and as 10.5 kilowatts by NASA's X-57 page \[[X-57 Maxwell Overview, NASA][ref_nasa_x57]\]. This article uses the report's figure and records the disagreement. The same NASA page gives the battery as 69.1 kilowatt hours, 47 of them usable, in 860 pounds \[[X-57 Maxwell Overview, NASA][ref_nasa_x57]\], which is 80 watt hours per pound, and that is the specific energy secondary sources quote \[[NASA X-57 Maxwell][ref_x57_wikipedia]\]. The nominal cell energy rebuilt here from the battery account's cell, 55.3 kilowatt hours, gives 64 over the same 860 pounds and the effective 47 kilowatt hours gives 55, so NASA's page and the battery account disagree on the stored energy, 69.1 against 55.3 kilowatt hours, and neither document reconciles the two. The 2018 battery account also gives sixteen modules of 51 pounds, which is 816 pounds against the 860 it states for the battery, and the remainder is not itemised. The as-built usable energy of 23 kilowatt hours a pack is lower than the 2018 effective figure, and the relations in this article use the 2018 figure. NASA's X-57 page gives each cruise motor with its propeller as 117 pounds in its specification table and as about 57 pounds in its text \[[X-57 Maxwell Overview, NASA][ref_nasa_x57]\], and the power density comparison uses the table's figure, so that comparison rests on one of two figures the same page does not reconcile.
 
 ## Out of Scope
 
@@ -788,15 +788,15 @@ Every clause of it is accurate as a description of the design. There were smalle
 
 The entry is not wrong. **The wing was designed optimally for the electric motor configuration**, and the design is tight enough that its parts can only be understood together. The wing was cut to 42 percent of its area to reduce drag in cruise. That made it unable to land, so twelve propellers were put along its leading edge to blow it. Those propellers add wetted area, so the parasite saving fell from 58 percent to 18. The span came down as the aspect ratio went up, so the induced drag rose by 32 percent. **The cruise propellers went to the wingtips because after all of that the configuration needed the vortex energy back.**
 
-**The blowing closes on the installed power only because the propellers were never asked for the whole factor.** Treated as ideal discs, they could not have supplied a factor of 2.38 once any real efficiency is allowed. The flapped small wing supplies a factor of 1.51 by itself and the propellers the remaining 1.58, and on that division the design thrust and the installed power both leave margin. **That is a computation on predictions, not a result from flight**, and the aeroplane never flew to test it.
+**The blowing closes on the installed power only because the propellers were never asked for the full factor.** Treated as ideal discs, they could not have supplied a factor of 2.38 once any real efficiency is allowed. The flapped small wing supplies a factor of 1.51 by itself and the propellers the remaining 1.58, and on that division the design thrust and the installed power both leave margin. **That is a computation on predictions, not a result from flight**, and the aeroplane never flew to test it.
 
 **And underneath every one of those decisions is a battery carrying a hundredth of the energy per kilogram of the fuel it replaced**, giving back a factor of three in drivetrain efficiency and leaving a factor of thirty-three to be found somewhere in the aerodynamics.
 
 **None of that is what stopped it.** The transistors in the motor controllers failed under vibration, failed under heat, and failed when the software commanded both halves of a bridge to conduct at once, and the controllers had to be redesigned. The first battery burned in its propagation test and had to be redesigned. The cruise motors, after years of operational workarounds, were found to need a stator redesign that the remaining time and money could not buy. **The programme had been scoped on the assumption that those parts could be bought rather than developed**, and the assessment that produced that assumption was never repeated after the sourcing direction that invalidated it.
 
-**And it should be said plainly that the aeroplane was not shown to be impossible.** The cruise motors in their then-current configuration were deemed an unacceptable risk for flight, and the team was working toward a design review for a modified motor when the money and the schedule ran out. **What the sources record is a programme that ran out of both, not a machine that could not be built.**
+**The aeroplane was not shown to be impossible.** The cruise motors as then configured were judged an unacceptable risk for flight, and the team was working toward a design review for a modified motor when the money and the schedule ran out. **What the sources record is a programme that ran out of both, not a machine that could not be built.**
 
-**A designation register has a column for the contractor, the sponsor, the engines and the mission, and for this row the engines column is empty.** That blank turned out to mean nothing, since ninety-four rows share it. **The blank that would have mattered is the one no register has**, which is a column for whether the parts exist yet at the maturity the plan assumed.
+**A designation register has a column for the contractor, the sponsor, the engines and the mission, and for this row the engines column is empty.** That blank turned out to mean nothing, since ninety-four rows share it. **The blank that would have mattered is the one no register has**, a column for whether the parts exist yet at the maturity the plan assumed.
 
 **The X-57's entry is the longest in its class because the design was finished.** The design being finished is not the same as the parts being ready, and a register can record only the first.
 
@@ -838,6 +838,7 @@ The entry is not wrong. **The wing was designed optimally for the electric motor
 - [Electromagnetic Interference][ref_emi]
 - [Energy Density][ref_energy_density]
 - [ESAero, Empirical Systems Aerospace][ref_esaero]
+- [Generation Orbit X-60][ref_x60]
 - [Half-Bridge Converter][ref_shoot_through]
 - [James Clerk Maxwell][ref_maxwell]
 - [Jet Fuel][ref_jet_fuel]
@@ -847,6 +848,7 @@ The entry is not wrong. **The wing was designed optimally for the electric motor
 - [Lift-Induced Drag][ref_induced_drag]
 - [Lift-to-Drag Ratio][ref_lift_to_drag]
 - [Lithium-Ion Battery][ref_lithium_ion]
+- [Lockheed Martin X-59 Quesst][ref_x59]
 - [Maxwell's Equations][ref_maxwell_equations]
 - [Maxwell-Boltzmann Distribution][ref_maxwell_distribution]
 - [Momentum Theory][ref_momentum_theory]
@@ -859,6 +861,7 @@ The entry is not wrong. **The wing was designed optimally for the electric motor
 - [Propeller, Aeronautics][ref_propeller]
 - [Range, Aeronautics][ref_breguet]
 - [Rotax 912][ref_rotax_912]
+- [Rotax 912 ULS/S, BRP-Rotax][ref_rotax_912_uls]
 - [Scaled Composites][ref_scaled_composites]
 - [Silicon Carbide][ref_sic]
 - [Slipstream][ref_slipstream]
@@ -913,6 +916,7 @@ The entry is not wrong. **The wing was designed optimally for the electric motor
 [ref_powered_lift]: https://en.wikipedia.org/wiki/Powered_lift
 [ref_propeller]: https://en.wikipedia.org/wiki/Propeller_(aeronautics)
 [ref_rotax_912]: https://en.wikipedia.org/wiki/Rotax_912
+[ref_rotax_912_uls]: https://www.flyrotax.com/products/912-uls-s
 [ref_scaled_composites]: https://en.wikipedia.org/wiki/Scaled_Composites
 [ref_shoot_through]: https://en.wikipedia.org/wiki/Power_inverter#H-bridge
 [ref_sic]: https://en.wikipedia.org/wiki/Silicon_carbide
@@ -927,6 +931,8 @@ The entry is not wrong. **The wing was designed optimally for the electric motor
 [ref_wing_loading]: https://en.wikipedia.org/wiki/Wing_loading
 [ref_wingtip_vortices]: https://en.wikipedia.org/wiki/Wingtip_vortices
 [ref_x57_wikipedia]: https://en.wikipedia.org/wiki/NASA_X-57_Maxwell
+[ref_x59]: https://en.wikipedia.org/wiki/Lockheed_Martin_X-59_Quesst
+[ref_x60]: https://en.wikipedia.org/wiki/Generation_Orbit_X-60
 
 ### Related Post
 

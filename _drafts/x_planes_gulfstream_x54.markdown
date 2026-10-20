@@ -16,15 +16,15 @@ series_index: 55
 
 This is the fifty-fifth article in the [X-Planes series][related_post_a297_framing], following the [X-1][related_post_a298_bell_x1], the [X-2][related_post_a299_bell_x2], the [X-3][related_post_a300_douglas_x3], the [X-4][related_post_a301_northrop_x4], the [X-5][related_post_a302_bell_x5], the [X-6][related_post_a303_convair_x6], the [X-7][related_post_a304_lockheed_x7], the [X-8][related_post_a305_aerojet_x8], the [X-9][related_post_a306_bell_x9], the [X-10][related_post_a307_north_american_x10], the [X-11][related_post_a308_convair_x11], the [X-12][related_post_a309_convair_x12], the [X-13][related_post_a310_ryan_x13], the [X-14][related_post_a311_bell_x14], the [X-15][related_post_a312_north_american_x15], the [X-16][related_post_a313_bell_x16], the [X-17][related_post_a314_lockheed_x17], the [X-18][related_post_a315_hiller_x18], the [X-19][related_post_a316_curtiss_wright_x19], the [X-20][related_post_a317_boeing_x20], the [X-21][related_post_a318_northrop_x21], the [X-22][related_post_a319_bell_x22], the [X-23][related_post_a320_martin_marietta_x23], the [X-24][related_post_a321_martin_marietta_x24], the [X-25][related_post_a322_bensen_x25], the [X-26][related_post_a323_schweizer_x26], the [X-27][related_post_a324_lockheed_x27], the [X-28][related_post_a325_osprey_x28], the [X-29][related_post_a326_grumman_x29], the [X-30][related_post_a327_rockwell_x30], the [X-31][related_post_a328_rockwell_mbb_x31], the [X-32][related_post_a329_boeing_x32], the [X-33][related_post_a330_lockheed_martin_x33], the [X-34][related_post_a331_orbital_sciences_x34], the [X-35][related_post_a332_lockheed_martin_x35], the [X-36][related_post_a333_mcdonnell_douglas_x36], the [X-37][related_post_a334_boeing_x37], the [X-38][related_post_a335_scaled_composites_x38], the [X-39][related_post_a336_x39_reserved_never_assigned], the [X-40][related_post_a337_boeing_x40], the [X-41][related_post_a338_x41_common_aero_vehicle], the [X-42][related_post_a339_orbital_sciences_x42], the [X-43][related_post_a340_micro_craft_x43], the [X-44][related_post_a341_x44_two_aircraft], the [X-45][related_post_a342_boeing_x45], the [X-46][related_post_a343_boeing_x46], the [X-47][related_post_a344_northrop_grumman_x47], the [X-48][related_post_a345_boeing_x48], the [X-49][related_post_a346_piasecki_x49], the [X-50][related_post_a347_boeing_x50], the [X-51][related_post_a348_boeing_x51], the [X-52][related_post_a349_x52_designation_refused], and the [X-53][related_post_a350_boeing_x53].
 
-**It was never built, and the regulation is being repealed without it.**
+**It was never built, and the regulation is being repealed without it.** \[[Gulfstream X-54][ref_x54_wikipedia]\]
 
-**Both halves of that sentence are load-bearing and the second is deliberately in the present tense.** No airframe exists, no flight test report was written, and the aeroplane produced no literature of its own. The prohibition it was designated to help lift was ordered repealed by the President of the United States on 6 June 2025, with a deadline that falls four days after the date on this article \[[Executive Order 14304, Leading the World in Supersonic Flight][ref_eo_14304]\]. **The order names no technique. The one that needs no new airframe to keep a boom off the ground is not the one the X-54 was designed around, and it is older than the prohibition itself.**
+**Both halves of that sentence are load-bearing and the second is deliberately in the present tense.** No airframe exists, no flight test report was written, and no title in this article's survey of its field names the aeroplane \[[Gulfstream X-54][ref_x54_wikipedia]\]. The prohibition it was designated to help lift was ordered repealed by the President of the United States on 6 June 2025, with a deadline that falls four days after the date on this article \[[Executive Order 14304, Leading the World in Supersonic Flight][ref_eo_14304]\]. **The order names no technique. The technique that keeps a boom off the ground without a new airframe differs from the one the X-54 was designed around, and it predates the prohibition.** \[[Henderson et al 1971][research_maglieri_cutoff]\]
 
 ## The Research Question
 
-**The X-54 existed to settle one question, and its registry entry states it.** Could an aeroplane shaped all the way to the tail generate a shaped sonic boom signature that survives to the ground, so that the people beneath it could be asked about it and a regulatory change process could use what they said? When the number was allocated, a shaped forward signature had been measured on the ground and the Quiet Spike's near field had been probed, and no ground signature of an aeroplane shaped all the way to the tail had been measured.
+**The X-54 existed to settle one question, and its registry entry states it.** Could an aeroplane shaped all the way to the tail generate a shaped sonic boom signature that survives to the ground, so that the people beneath it could be asked about it and a regulatory change process could use what they said? When the number was allocated, a shaped forward signature had been measured on the ground and the Quiet Spike's near field had been probed, and no ground signature of an aeroplane shaped all the way to the tail had been measured \[[Pawlowski et al 2005][research_pawlowski_graham_2005]\] \[[Smolka et al 2007][research_quiet_spike_flight_test]\].
 
-**The question was never put to an X-54 in flight**, because no airframe was built. The entry that poses the question and the physics that makes it a question at all are set out under the headings The Registry Entry Is the Primary Document and Why a Sonic Boom Is Loud, and Why That Might Be a Choice.
+**The question was never put to an X-54 in flight**, because no airframe was built \[[Gulfstream X-54][ref_x54_wikipedia]\]. The entry that poses the question and the physics that makes it a question at all are set out under the headings The Registry Entry Is the Primary Document and Why a Sonic Boom Is Loud.
 
 ### The Registry Entry Is the Primary Document
 
@@ -34,13 +34,13 @@ This is the fifty-fifth article in the [X-Planes series][related_post_a297_frami
 
 **Read the last five words again.** **`Regulatory` appears once in the whole register**, and `certification`, `rulemaking` and `policy` appear in none of the 539 entries at all. The contractor is Gulfstream Aerospace, the sponsor is NASA, the National Aeronautics and Space Administration, and the powerplant is two Rolls-Royce Tay 651 engines \[[Gulfstream Aerospace][ref_gulfstream]\] \[[Rolls-Royce Tay][ref_tay]\]. **Those are ordinary registry fields.** The mission statement is not, because it names an administrative outcome rather than a technical one.
 
-**The neighbouring entries show how unusual this one is.** The entry immediately above it in the register is allocated to the aeroplane that took the number the X-52 was refused \[[Missing USAF and DOD Aircraft Designations][ref_missing_mds]\]. The X-51A is described as a hypersonic vehicle to flight test a scramjet engine. The X-53A is described as a modified F/A-18A to flight test active aeroelastic wing technology \[[X-Planes: Boeing X-53 Active Aeroelastic Wing][related_post_a350_boeing_x53]\]. **Every one of them names a technology and a flight condition.** The X-54A entry names a technology, a flight condition, and then a rulemaking.
+**The neighbouring entries show how unusual this one is.** The entry immediately above it in the register is allocated to the aeroplane that was refused the number X-52 and given X-53 instead \[[Missing USAF and DOD Aircraft Designations][ref_missing_mds]\]. The X-51A is described as a hypersonic vehicle to flight test a scramjet engine. The X-53A is described as a modified F/A-18A to flight test active aeroelastic wing technology \[[Parsch, DOD 4120.15-L Addendum, MDS Designators Allocated After 19 August 1998][ref_mds_addendum]\] \[[X-Planes: Boeing X-53 Active Aeroelastic Wing][related_post_a350_boeing_x53]\]. **Every one of them names a technology and a flight condition.** The X-54A entry names a technology, a flight condition, and then a rulemaking.
 
-**The entry also contains the precise word the whole argument turns on, which is `ground`.** Not near-field, not signature, not overpressure. **Ground.** By 2008 the near field of a spike had been measured and the ground signature of a whole shaped aeroplane had not, and the difference between those two facts is what this aeroplane was for.
+**One word in the entry carries the argument, and that word is `ground`.** Not near-field, not signature, not overpressure. **Ground.** By 2008 the near field of a spike had been measured and the ground signature of a whole shaped aeroplane had not, and the difference between those two facts is what this aeroplane was for \[[Smolka et al 2007][research_quiet_spike_flight_test]\].
 
-Parsch obtained the data in this addendum from official Department of Defense sources under the Freedom of Information Act, because the department stopped publishing the list itself for six years after 1998 \[[Allocation of Official Aerospace Vehicle MDS Designations][ref_mds_allocation]\] \[[DOD 4120.15-L, Model Designation of Military Aerospace Vehicles][ref_dod_412015l]\].
+Parsch obtained the data in this addendum from official Department of Defense sources under the Freedom of Information Act, because the department stopped publishing the list itself for almost six years after 1998 \[[Allocation of Official Aerospace Vehicle MDS Designations][ref_mds_allocation]\] \[[DOD 4120.15-L, Model Designation of Military Aerospace Vehicles][ref_dod_412015l]\].
 
-### Why a Sonic Boom Is Loud, and Why That Might Be a Choice
+### Why a Sonic Boom Is Loud
 
 **An aeroplane in supersonic flight does not make a noise. It makes a shape, and the shape becomes a noise on the way down.**
 
@@ -58,9 +58,9 @@ At Mach 1.4 the Mach angle is 45.6 degrees and at Mach 1.8 it is 33.7 degrees, s
 
 $$r \;=\; \frac{h}{\cos\mu} \;=\; \frac{h}{\sqrt{1 - M^{-2}}}.$$
 
-At Mach 1.4 from 45,000 feet that is 19,598 metres of air rather than 13,716, which is 42.9 percent further than the altitude suggests.
+At Mach 1.4 from 45,000 feet that is 19,598 metres of air against an altitude of 13,716, a path 42.9 percent longer than the altitude suggests.
 
-**Close to the aeroplane the disturbance is not one shock but many**, one for the nose, one for the canopy, one for each wing leading edge, one for the inlets, one for the tail. **The near-field signature is a rippled thing with structure in it**, and photographs of it look nothing like the textbook boom \[[Pawlowski et al 2005][research_pawlowski_graham_2005]\].
+**Close to the aeroplane the disturbance is not one shock but many**, one for the nose, one for the canopy, one for each wing leading edge, one for the inlets, one for the tail. **The near-field signature is a rippled thing with structure in it** \[[Pawlowski et al 2005][research_pawlowski_graham_2005]\].
 
 **What turns that structure into a boom is that the strong parts travel faster than the weak parts.** A weak shock does not propagate at the speed of sound. It propagates slightly faster, by an amount proportional to its own strength \[[Whitham, Linear and nonlinear waves][book_whitham]\] \[[Hamilton and Blackstock, Nonlinear acoustics][book_hamilton_blackstock]\]
 
@@ -76,19 +76,19 @@ whose positive-phase impulse follows immediately, and which matters because loud
 
 $$I \;=\; \int_{0}^{T_{N}/2}\Delta p(t)\,\mathrm{d}t \;=\; \frac{\Delta p_{\max} T_{N}}{4}.$$
 
-**That is the crucial point and it is easy to miss.** The N-wave is not what the aeroplane makes. **The N-wave is what any shape decays into**, and it is loud because two isolated shocks with nothing between them present the ear with two near-instantaneous pressure steps.
+**The crucial point here is easy to miss.** The N-wave is not what the aeroplane makes. **The N-wave is what any shape decays into**, and two isolated shocks with nothing between them make it loud, because they present the ear with two near-instantaneous pressure steps.
 
-**Which suggests the question this whole subject rests on.** If the N-wave forms because strong shocks overtake weak ones, could an aeroplane be shaped so that the overtaking never finishes?
+**That suggests the question at the centre of the field.** If the N-wave forms because strong shocks overtake weak ones, could an aeroplane be shaped so that the overtaking never finishes?
 
 ## Programme Origin
 
-**The X-54 did not begin with its designation in 2008, and its record runs back through three lines of earlier work.** The first is the minimisation theory, which was complete and validated in a wind tunnel by 1979. The second is flight evidence, being the Shaped Sonic Boom Demonstration of 2003 and the Quiet Spike flights of 2006 and 2007, together with the Gulfstream studies, patent and papers from 2003 onward \[[A Summary of Recent Supersonic Vehicle Studies at Gulfstream Aerospace][research_wolz_gulfstream_studies]\]. The third is the prohibition of 1973 that the registry entry names as its purpose \[[14 CFR 91.817, Civil Aircraft Sonic Boom][ref_cfr_91817]\].
+**The X-54 did not begin with its designation in 2008, and its record runs back through three lines of earlier work.** The first is the minimisation theory, which was complete and validated in a wind tunnel by 1979 \[[Mack and Darden][research_mack_darden_tunnel]\]. The second is flight evidence, being the Shaped Sonic Boom Demonstration of 2003 and the Quiet Spike flights of 2006 and 2007, together with the Gulfstream studies, patent and papers from 2003 onward \[[A Summary of Recent Supersonic Vehicle Studies at Gulfstream Aerospace][research_wolz_gulfstream_studies]\]. The third is the prohibition of 1973 that the registry entry names as its purpose \[[14 CFR 91.817, Civil Aircraft Sonic Boom][ref_cfr_91817]\].
 
 **The record reviewed here shows how the case for the aeroplane was argued, and it does not contain the decision that turned the case into an allocation.** The subsections gathered under this heading follow those three lines in turn.
 
 ### The Mathematics of Choosing a Shape
 
-**The answer is yes in principle and the theory is older than the prohibition.**
+**The answer is yes in principle and the theory is older than the prohibition** \[[George and Seebass 1971][research_george_seebass_1971]\].
 
 Whitham showed in 1952 that the far-field disturbance of a slender supersonic body is governed by a single function of one variable, computed from the body's cross-sectional area distribution \[[Whitham 1952][research_whitham_1952]\] \[[Ashley and Landahl, Aerodynamics of wings and bodies][book_ashley_landahl]\]
 
@@ -99,17 +99,17 @@ $$F(y) \;=\; \frac{1}{2\pi}\int_{0}^{y} \frac{A_e''(\xi)}{\sqrt{y-\xi}}\;\mathrm
 $$A_e(x) \;=\; A(x) \;+\; \frac{\beta}{2q}\int_{0}^{x} \ell(\xi)\,\mathrm{d}\xi ,
 \qquad \beta = \sqrt{M^{2}-1}.$$
 
-**An aeroplane's boom is therefore partly a consequence of its weight**, and the whole of the lift enters the equivalent area by the tail,
+**An aeroplane's boom is therefore partly a consequence of its weight**, and all of the lift enters the equivalent area by the tail,
 
 $$A_{L}(l) \;=\; \frac{\beta W}{2q},$$
 
 so a heavier aeroplane at the same length is louder for reasons no amount of shaping can remove \[[Area Rule][ref_area_rule]\].
 
-**The penalty is a square root rather than a proportionality, and that is worth knowing.** A fully aged N-wave amplitude goes as the square root of the F-function amplitude, and the F-function amplitude is linear in the lift \[[McLean 1965][research_mclean_nonasymptotic]\] \[[Application of sonic-boom minimization concepts in supersonic transport design][research_carlson_sst_design]\], so
+**The penalty follows a square root, a milder law than proportionality.** A fully aged N-wave amplitude goes as the square root of the F-function amplitude, and the F-function amplitude is linear in the lift \[[McLean 1965][research_mclean_nonasymptotic]\] \[[Application of sonic-boom minimization concepts in supersonic transport design][research_carlson_sst_design]\], so
 
 $$\Delta p \;\propto\; W^{1/2}.$$
 
-**Doubling the aeroplane's weight costs only 41.4 percent in overpressure.** That is the one generous exponent in this subject.
+**Doubling the aeroplane's weight costs only 41.4 percent in overpressure.** No other exponent in this subject is generous.
 
 Before nonlinear steepening takes hold, the pressure disturbance at distance $r$ follows from $F$ directly \[[On the propagation of weak shock waves][research_whitham_1956]\],
 
@@ -119,20 +119,20 @@ and once the wave has aged into an N-wave the amplitude and the duration take th
 
 $$\Delta p \;\propto\; r^{-3/4}, \qquad \Delta t \;\propto\; r^{1/4}.$$
 
-**Those two exponents are worth pausing on, and the obvious reading of them is wrong.** Doubling the distance costs 40.5 percent of the overpressure and buys 18.9 percent more duration, which sounds like a great deal. **The trouble is that an aeroplane cannot double its cruise altitude.** Climbing from 45,000 feet to 50,000 feet is an 11.1 percent increase in distance and buys 7.6 percent off the overpressure, and halving the boom by climbing alone would require 113,393 feet.
+**The obvious reading of those two exponents is wrong.** Doubling the distance costs 40.5 percent of the overpressure and buys 18.9 percent more duration, which sounds like a great deal. **The trouble is that an aeroplane cannot double its cruise altitude.** Climbing from 45,000 feet to 50,000 feet is an 11.1 percent increase in distance and buys 7.6 percent off the overpressure, and halving the boom by climbing alone would require 113,393 feet.
 
 **So altitude is a weak lever not because the exponent is small but because the range is short**, which is why the subject is about shape.
 
-**The design result came in 1971 and 1972.** George and Seebass showed that for a given length, weight, Mach number and altitude there exists an equivalent area distribution that minimises the shock strength, and that the answer is not the smooth body an aerodynamicist would draw \[[George and Seebass 1971][research_george_seebass_1971]\] \[[Seebass and George 1972][research_seebass_george_1972]\]. Darden then relaxed the requirement for an infinitely sharp nose, which had made the optimum unbuildable, and produced the family of shapes the whole low-boom discipline still uses \[[Darden 1979][research_darden_bluntness]\].
+**The design result came in 1971 and 1972.** George and Seebass showed that for a given length, weight, Mach number and altitude there exists an equivalent area distribution that minimises the shock strength, and that the optimum differs from the smooth body an aerodynamicist would draw \[[George and Seebass 1971][research_george_seebass_1971]\] \[[Seebass and George 1972][research_seebass_george_1972]\]. Darden then relaxed the requirement for an infinitely sharp nose, which had made the optimum unbuildable, and produced the family of shapes the low-boom discipline still uses \[[Darden 1979][research_darden_bluntness]\].
 
 Hayes supplied the other half in 1972, showing how the signature propagates through an atmosphere whose density and sound speed vary with height \[[Hayes and Runyan 1972][research_hayes_1972]\].
 
-**There is a catch built into the mathematics and it is not a small one.** The wave drag of a slender body in linearised supersonic flow is a functional of the same second derivative that sets the F-function \[[Ashley and Landahl, Aerodynamics of wings and bodies][book_ashley_landahl]\],
+**The mathematics also contains a serious catch.** The wave drag of a slender body in linearised supersonic flow is a functional of the same second derivative that sets the F-function \[[Ashley and Landahl, Aerodynamics of wings and bodies][book_ashley_landahl]\],
 
 $$D \;=\; -\frac{q}{2\pi}\int_{0}^{l}\!\!\int_{0}^{l} A_e''(x_{1})\,A_e''(x_{2})\,
 \ln\lvert x_{1}-x_{2}\rvert \;\mathrm{d}x_{1}\,\mathrm{d}x_{2}.$$
 
-**So the boom and the drag are two different functionals of one function**, and the distribution that minimises the first is not the distribution that minimises the second. **A low-boom aeroplane pays for its quietness in cruise efficiency**, which is why the design literature that follows is about the trade rather than about either objective alone.
+**So the boom and the drag are two different functionals of one function**, and the distribution that minimises the first is not the distribution that minimises the second. **A low-boom aeroplane pays for its quietness in cruise efficiency**, and the design literature that follows accordingly treats the two objectives as a trade.
 
 **And the theory was checked against a model before anybody flew it.** A wind-tunnel investigation published alongside the nose-bluntness work in 1979 measured the signature of a body designed by the minimisation method and found it behaved as the method said it would \[[Mack and Darden][research_mack_darden_tunnel]\], while a companion study worked the minimisation through a real atmosphere rather than an isothermal one \[[Darden 1975][research_darden_isothermal]\] \[[Darden 1975][research_darden_1975]\].
 
@@ -148,55 +148,55 @@ On 27 August 2003 a Northrop Grumman F-5E with a reshaped nose glove flew supers
 
 **What it did not establish is that a useful aeroplane can be built that way.** The F-5E was modified in its forebody only, because showing that the positive phase of the signature could be shaped was enough to test whether a shaped signature persists \[[Pawlowski et al 2005][research_pawlowski_graham_2005]\], and it was not a design anybody would fly passengers in. **The demonstration proved the physics and left the engineering open.**
 
-### What Had Not Been Proved, and the Programme Said So in Advance
+### What Had Not Been Proved
 
 **Gulfstream had been arguing for this aeroplane in public since 2003 and the argument is on the record.** The company published a summary of its supersonic vehicle studies that year \[[A Summary of Recent Supersonic Vehicle Studies at Gulfstream Aerospace][research_wolz_gulfstream_studies]\], a shaping method that does not assume an axisymmetric body \[[Howe 2003][research_howe_nonaxisymmetric]\], and a case for the small supersonic civil aircraft as a class \[[Henne 2005][research_henne_small_ssc]\]. **The extendable spike was patented in March 2004** \[[US Patent 6,698,684 B1, Supersonic Aircraft with Spike for Controlling and Reducing Sonic Boom][ref_quiet_spike_patent]\], and the minimisation argument for it was published the following year \[[Howe 2005][research_howe_extendable_spike]\] \[[Simmons and Freund 2005][research_simmons_morphing]\].
 
-**The hardware followed in 2006, and it deliberately did not attempt the ground signature.**
+**The hardware flew in 2006, and it deliberately did not attempt the ground signature** \[[Smolka et al 2007][research_quiet_spike_flight_test]\].
 
 The Quiet Spike was a telescoping composite nose boom, which the flight test report's drawing dimensions at 14.15 feet retracted and 24.31 feet deployed and its text calls thirty feet long, mounted on the radar bulkhead of a NASA F-15B at the flight research centre in the California desert \[[Smolka et al 2007][research_quiet_spike_flight_test]\] \[[NASA Armstrong Flight Research Center][ref_armstrong]\] \[[Quiet Spike][ref_quiet_spike_wikipedia]\] \[[McDonnell Douglas F-15 Eagle][ref_f15b]\]. Its conical segments were intended to place a series of weak shocks ahead of the aeroplane instead of one strong bow shock. Thirty-two flights were flown in the Quiet Spike configuration between August 2006 and February 2007, reaching Mach 1.8 at a design dynamic pressure of 685 pounds per square foot, and the near-field shock structure was probed by a second aeroplane at Mach 1.4 on 13 December 2006 \[[Haering et al 2007][research_quiet_spike_preliminary]\] \[[Moua et al 2007][research_quiet_spike_stability]\].
 
-**The programme documented itself thoroughly, and what the documents record is a structural problem rather than an aerodynamic one.** The aerodynamics had been confirmed in the agency's supersonic wind tunnel at Langley in August 2002 \[[Smolka et al 2007][research_quiet_spike_flight_test]\]. What had not been settled was whether a twenty-four-foot telescoping tube could be flown at all.
+**The programme documented its work thoroughly, and the problem its documents record is structural.** The aerodynamics had been confirmed in the agency's supersonic wind tunnel at Langley in August 2002 \[[Smolka et al 2007][research_quiet_spike_flight_test]\]. What had not been settled was whether a twenty-four-foot telescoping tube could be flown at all.
 
-**The joint stiffness between segments turned out to govern the whole design**, which a quarter-scale dynamic model established before the flight article was drawn \[[Simmons et al 2007][research_quiet_spike_design]\] \[[Howe et al 2008][research_quiet_spike_development]\]. **A pneumatic extension mechanism was built, found unable to control position and speed precisely, and replaced by an electrically driven cable and pulley system** on a half-scale prototype \[[Smolka et al 2007][research_quiet_spike_flight_test]\].
+**The joint stiffness between segments turned out to govern the design**, which a quarter-scale dynamic model established before the flight article was drawn \[[Simmons et al 2007][research_quiet_spike_design]\] \[[Howe et al 2008][research_quiet_spike_development]\]. **A pneumatic extension mechanism was built, found unable to control position and speed precisely, and replaced by an electrically driven cable and pulley system** on a half-scale prototype \[[Smolka et al 2007][research_quiet_spike_flight_test]\].
 
 **The schedule then would not allow a conventional ground vibration test of the mated aeroplane before the flutter analysis had to be finished**, so the programme built the modal model up in stages instead \[[Spivey et al 2007][research_quiet_spike_gvt]\] \[[Herrera and Pak 2007][research_quiet_spike_beam_model]\]. **Structural mode interaction testing then found a lightly damped pitch oscillation between ten and thirteen hertz with the spike retracted**, and the answer was to clear the envelope with the spike extended and restrict angle of attack \[[Brenner and Kukreja 2007][research_quiet_spike_ase]\] \[[Kukreja 2008][research_quiet_spike_envelope]\].
 
-**The spike was predicted to cost the host aeroplane stability, by three to five percent subsonically and by between three and twenty-four percent supersonically in the lateral-directional axis**, and that prediction was the programme's chief worry going into flight test \[[Cumming et al 2008][research_nose_boom_aero_effects]\] \[[Freund et al 2008][research_quiet_spike_aero]\]. **Flight measurement contradicted it.** Directional stability flattened out by Mach 1.4 and the aeroplane was more stable than a standard F-15 by Mach 1.8. **What actually set the limit was pitch damping**, which fell away sharply above Mach 1.7 and left little margin for going faster \[[Freund et al 2007][research_quiet_spike_prototype_results]\] \[[Knight et al 2008][research_quiet_spike_morphing]\].
+**The spike was predicted to cost the host aeroplane stability, by three to five percent subsonically and by between three and twenty-four percent supersonically in the lateral-directional axis**, and that prediction was the programme's chief worry going into flight test \[[Cumming et al 2008][research_nose_boom_aero_effects]\] \[[Freund et al 2008][research_quiet_spike_aero]\]. **Flight measurement contradicted it.** Directional stability flattened out by Mach 1.4 and the aeroplane was more stable than a standard F-15 by Mach 1.8 \[[Smolka et al 2007][research_quiet_spike_flight_test]\]. **The limit was set by pitch damping**, which fell away sharply above Mach 1.7 and left little margin for going faster \[[Freund et al 2007][research_quiet_spike_prototype_results]\] \[[Knight et al 2008][research_quiet_spike_morphing]\].
 
-**None of that is about sonic boom.** It is the price of carrying a boom-shaping device on an aeroplane not designed for one, and it is the second reason a purpose-built airframe was wanted. **The company went on publishing propagation work for years after the aeroplane it wanted was not built** \[[Salamone 2009][research_gulfstream_propagation]\] \[[Howe and Henne 2006][research_boom_scaling_algorithm]\].
+**None of that is about sonic boom.** It is the price of carrying a boom-shaping device on an aeroplane not designed for one, and it was the second reason for wanting a purpose-built airframe. **The company went on publishing propagation work for years after the aeroplane it wanted was not built** \[[Salamone 2009][research_gulfstream_propagation]\] \[[Howe and Henne 2006][research_boom_scaling_algorithm]\].
 
-**The programme's own report records why no ground measurement was attempted, a decision taken while the flight test was being planned** \[[Smolka et al 2007][research_quiet_spike_flight_test]\].
+**The programme's report records why no ground measurement was attempted, a decision taken while the flight test was being planned** \[[Smolka et al 2007][research_quiet_spike_flight_test]\].
 
 > It was quickly determined that ground signature measurement would not be possible as in the Supersonic Boom Demonstrator (SSBD) program. Combining the Quiet Spike with any existing supersonic aircraft would result in a traditional N-wave ground signature as the stronger shocks of today's aircraft would overtake the spike's weak shocks within a short distance below the flight path. Only in-flight near-field shock probing could be obtained for further aero-acoustic validation.
 
-**That paragraph is the case for the X-54, written by the people who would have built it and published about seven months before the number was allocated.** The shaping of a nose is undone by the aeroplane behind the nose. **To measure a shaped signature on the ground you need an aeroplane that is shaped all the way to the tail**, and no such aeroplane existed.
+**That paragraph is the case for the X-54, written by the people who would have built it and published about seven months before the number was allocated.** \[[Smolka et al 2007][research_quiet_spike_flight_test]\] The shaping of a nose is undone by the aeroplane behind the nose. **To measure a shaped signature on the ground you need an aeroplane that is shaped all the way to the tail**, and no such aeroplane existed.
 
-**The registry entry then asks for exactly the thing the Quiet Spike report says cannot be got any other way.** `Capable of generating relevant ground sonic boom signatures.`
+**The registry entry then asks for the thing the Quiet Spike report says cannot be got any other way.** `Capable of generating relevant ground sonic boom signatures.`
 
 ### The Rule
 
-**The prohibition the X-54 was designated to help lift is one sentence of the regulation and it dates from 1973** \[[14 CFR 91.817, Civil Aircraft Sonic Boom][ref_cfr_91817]\].
+**The prohibition the X-54 was meant to help lift is one sentence of the regulation and it dates from 1973** \[[14 CFR 91.817, Civil Aircraft Sonic Boom][ref_cfr_91817]\].
 
-It forbids a civil aircraft from exceeding Mach 1 over the United States, except under a special flight authorisation issued case by case \[[14 CFR 91.818, Special Flight Authorizations for Supersonic Aircraft][ref_cfr_91818]\]. **It is not a noise limit.** It is a speed limit, adopted because the agency judged that the monitoring and control technology of the time could not support anything more discriminating \[[Civil Aircraft Sonic Boom, Final Rule, 38 FR 8051][ref_fr_1973_sonic_boom]\]. The rule was published on 28 March 1973 and took effect on 27 April 1973 \[[Civil Aircraft Sonic Boom, Final Rule, 38 FR 8051][ref_fr_1973_sonic_boom]\].
+It forbids a civil aircraft from exceeding Mach 1 over the United States, except under a special flight authorisation issued case by case \[[14 CFR 91.818, Special Flight Authorizations for Supersonic Aircraft][ref_cfr_91818]\]. **It limits speed and sets no limit on noise.** The agency chose a speed limit because it judged that the monitoring and control technology of the time could not support anything more discriminating \[[Civil Aircraft Sonic Boom, Final Rule, 38 FR 8051][ref_fr_1973_sonic_boom]\]. The rule was published on 28 March 1973 and took effect on 27 April 1973 \[[Civil Aircraft Sonic Boom, Final Rule, 38 FR 8051][ref_fr_1973_sonic_boom]\].
 
-**That distinction is the whole of the regulatory problem.** A speed limit cannot be met by a quiet aeroplane, because the aeroplane's quietness is not a fact the rule can see. **Any aeroplane that wants to fly supersonic over land needs the rule replaced and not satisfied**, and replacing it requires evidence about people rather than evidence about aeroplanes.
+**The regulatory problem comes down to that distinction.** A speed limit cannot be met by a quiet aeroplane, because the rule cannot see how quiet an aeroplane is. **Any aeroplane that wants to fly supersonic over land needs the rule replaced and not satisfied**, and replacing it requires evidence about people rather than evidence about aeroplanes.
 
 **The rule outlived the aeroplanes it was written for.** Concorde never operated supersonically over the United States, and the American supersonic transport was cancelled in 1971, two years before the prohibition took effect \[[Concorde][ref_concorde]\] \[[Boeing 2707][ref_boeing_2707]\].
 
 **On 6 June 2025 the President ordered it repealed** \[[Executive Order 14304, Leading the World in Supersonic Flight][ref_eo_14304]\]. The order directs the Federal Aviation Administration to take the necessary steps to repeal the prohibition within 180 days and to establish an interim noise-based certification standard in its place \[[Supersonic Flight, Federal Aviation Administration][ref_faa_supersonic]\]. **The order names no technique.** Its stated ground is that advances in aerospace engineering, materials science and noise reduction now make supersonic flight possible \[[Executive Order 14304, Leading the World in Supersonic Flight][ref_eo_14304]\].
 
-**That deadline expires on 3 December 2025**, which is four days after the date on this article. **The prohibition had been in force for 52.1 years when the order came**, and the order itself came 17.1 years after an aeroplane was designated to gather evidence for exactly this outcome.
+**That deadline expires on 3 December 2025**, four days after this article is dated. **The prohibition had been in force for 52.1 years when the order came**, and the order came 17.1 years after an aeroplane was designated to gather evidence for this outcome.
 
 ## Sizing From First Principles
 
-**There was no X-54 to size.** No airframe was built, and the registry records only the contractor, the sponsor and two Rolls-Royce Tay 651 engines \[[Parsch, DOD 4120.15-L Addendum, MDS Designators Allocated After 19 August 1998][ref_mds_addendum]\]. The cruise Mach number, altitude and perceived-level target attributed to the intended aeroplane come from the secondary record, and they are set out under the heading Dependent Systems, What the X-54 Would Have Been.
+**There was no X-54 to size.** No airframe was built, and the registry records only the contractor, the sponsor and two Rolls-Royce Tay 651 engines \[[Gulfstream X-54][ref_x54_wikipedia]\] \[[Parsch, DOD 4120.15-L Addendum, MDS Designators Allocated After 19 August 1998][ref_mds_addendum]\]. The cruise Mach number, altitude and perceived-level target attributed to the intended aeroplane come from the secondary record, and Dependent Systems sets them out.
 
-**What can be sized from first principles is the boom.** The subsections gathered under this heading compute the atmosphere the article works in, the distance over which a shaped nose signature is consumed by the aeroplane behind it, what the atmosphere does to a signature on the way down, the units a boom is measured in, and the cutoff Mach number below which no boom reaches the ground. **Every one of those numbers is computed in this article rather than taken from a source**, as the section headed Epistemic State records.
+**What can be sized from first principles is the boom.** The subsections gathered under this heading compute the atmosphere the article works in, the distance over which a shaped nose signature is consumed by the aeroplane behind it, what the atmosphere does to a signature on the way down, the units a boom is measured in, and the cutoff Mach number below which no boom reaches the ground. **Each of those numbers is computed here and none is taken from a source**, and Epistemic State lists them.
 
-### The Medium, Because Every Number Here Is Taken From It
+### The Standard Atmosphere
 
-**Every altitude, Mach number and dynamic pressure in this article is computed in the standard atmosphere, and the relations are worth putting on the page rather than assuming.**
+**Every altitude, Mach number and dynamic pressure in this article is computed in the standard atmosphere, and the relations are set out here so that none of them is assumed.**
 
 Below the tropopause the temperature falls linearly and hydrostatic equilibrium in a perfect gas fixes the pressure \[[U.S. Standard Atmosphere][ref_us_standard_atmosphere]\],
 
@@ -207,7 +207,7 @@ with $L = 0.0065$ kelvin per metre giving an exponent of 5.2559. Above it the te
 
 $$p(z) \;=\; p_{11}\exp\!\left[-\frac{g\,(z - z_{11})}{R\,T_{11}}\right].$$
 
-**The dynamic pressure follows from the pressure and the Mach number alone**, which is the form worth carrying because a flight test report states both \[[Liepmann and Roshko, Elements of gasdynamics][book_liepmann_roshko]\],
+**The dynamic pressure follows from the pressure and the Mach number alone**, and this form is the useful one because a flight test report states both \[[Liepmann and Roshko, Elements of gasdynamics][book_liepmann_roshko]\],
 
 $$q \;=\; \tfrac{1}{2}\rho V^{2} \;=\; \frac{\gamma}{2}\,p\,M^{2}.$$
 
@@ -225,9 +225,9 @@ so the stronger overtakes the weaker after a travel distance
 
 $$\mathcal{L} \;=\; \frac{a\,s}{\Delta U_{1}-\Delta U_{2}} \;=\; s\,\frac{4\gamma}{(\gamma+1)}\left[\frac{\Delta p_{1}-\Delta p_{2}}{p}\right]^{-1}.$$
 
-**The speed of sound cancels**, so the answer does not depend on altitude except through the pressure ratio itself, which is the reason this estimate is worth making at all.
+**The speed of sound cancels**, so the result depends on altitude only through the pressure ratio, and that independence is the reason to make the estimate at all.
 
-**That expression is not a new one and it is worth recognising.** It is the aging length of nonlinear acoustics, being the distance over which a wave of length $s$ and strength $\Delta p / p$ distorts into its asymptotic form,
+**The expression is an old one.** It is the aging length of nonlinear acoustics, being the distance over which a wave of length $s$ and strength $\Delta p / p$ distorts into its asymptotic form,
 
 $$r_{\text{age}} \;\sim\; s\,\frac{4\gamma}{(\gamma+1)}\,\frac{p}{\Delta p}.$$
 
@@ -247,7 +247,7 @@ $$r_{\text{age}} \;\sim\; s\,\frac{4\gamma}{(\gamma+1)}\,\frac{p}{\Delta p}.$$
 
 **The assumed shock-strength difference is an assumption and this article will not pretend otherwise.** The record does not publish the near-field overpressures of the F-15B with the spike fitted in a form this calculation can consume directly. **On this plane-wave estimate the conclusion looks independent of the assumption**, since the coalescence completes in the first tenth of the journey across the whole range. **The next subsection shows that appearance to be an artefact of the plane-wave assumption.**
 
-#### The Spreading Correction, Which Changes the Answer at One End
+#### The Spreading Correction
 
 **The estimate above is a plane-wave result and a real boom spreads.** Both shocks weaken with distance, roughly as $r^{-1/2}$ before the wave has aged, so the closing rate falls as they travel and the coalescence takes longer than the plane-wave figure.
 
@@ -263,7 +263,7 @@ where $\mathcal{L}$ is exactly the plane-wave answer above and $r_{0}$ is the di
 
 **At the weakest strength in the range it does not complete at all.** The corrected distance there is 40.18 kilometres against 19,598 metres of ray path, so the shocks would still be separate when they arrived. **The plane-wave form of the estimate hides that**, because dividing a fixed closing rate into a fixed separation gives an answer that scales the same way at every strength. **The conclusion is therefore conditional.** It holds for strength differences of 0.02 and above and fails below that. Where an aeroplane the size of an F-15 sits in that range is an assumption, because no source in this article publishes its near-field shock strengths in a form this calculation can use.
 
-**So the programme's stated reason holds for its own aeroplane if that aeroplane's strength difference is 0.02 or more, and it is not a general truth about spikes.** A weaker host, or a longer one, would push the coalescence further out, and that is the same observation that makes a purpose-built low-boom airframe work at all.
+**So the programme's stated reason holds for its own aeroplane if that aeroplane's strength difference is 0.02 or more, but it does not generalise to every spike.** A weaker host, or a longer one, would push the coalescence further out, and the same observation explains why a purpose-built low-boom airframe works at all.
 
 | Strength difference at one length | Plane wave | With spreading | As a share of the ray path |
 |---|---|---|---|
@@ -273,11 +273,11 @@ where $\mathcal{L}$ is exactly the plane-wave answer above and $r_{0}$ is the di
 | 0.05 | 346 m | 1,902 m | 9.7 percent |
 | 0.10 | 173 m | 577 m | 2.9 percent |
 
-**The finding stands where it matters and it is not universal**, and the table is the honest form of it.
+**The finding stands where it matters without being universal**, and the table shows both ends of it.
 
 ### Whether the Shape Survives the Trip
 
-**Even for an aeroplane shaped all the way to the tail, the ground signature is not the design signature.**
+**Even for an aeroplane shaped from nose to tail, the ground signature is not the design signature.**
 
 The atmosphere is stratified, so rays bend. It is turbulent, so the wavefront is distorted by eddies it passes through. And it absorbs, so the shock front is not a discontinuity at all \[[State of the art of sonic boom modeling][research_plotkin_state_of_art]\] \[[Plotkin and Maglieri 2003][research_maglieri_history]\].
 
@@ -285,9 +285,9 @@ The atmosphere is stratified, so rays bend. It is turbulent, so the wavefront is
 
 $$\frac{a(z)}{\cos\theta(z)} \;=\; V_{t} \;=\; \text{constant},$$
 
-where $\theta$ is the ray's angle below the horizontal and $V_{t}$ is the horizontal trace velocity of the wavefront. **Everything in this subsection and in the one headed The Alternative That Never Needed the Aeroplane follows from that one line**, because a ray turns horizontal exactly where $a(z)$ reaches $V_{t}$, and it turns before the ground whenever the air below is fast enough.
+where $\theta$ is the ray's angle below the horizontal and $V_{t}$ is the horizontal trace velocity of the wavefront. **This subsection and The Alternative That Never Needed the Aeroplane both follow from that line**, because a ray turns horizontal exactly where $a(z)$ reaches $V_{t}$, and it turns before the ground whenever the air below is fast enough.
 
-**Absorption is the one that decides loudness.** A shock in a real gas is not a jump. It is a steady balance between nonlinear steepening and diffusion, and the profile that balance produces is a hyperbolic tangent \[[Blackstock, Fundamentals of physical acoustics][book_blackstock]\],
+**Of the three, absorption decides loudness.** In a real gas a shock has a finite thickness, set by a steady balance between nonlinear steepening and diffusion, and the profile that balance produces is a hyperbolic tangent \[[Blackstock, Fundamentals of physical acoustics][book_blackstock]\],
 
 $$\Delta p(t) \;=\; \frac{\Delta p_{\max}}{2}\left[1 - \tanh\!\left(\frac{t}{\tau}\right)\right],$$
 
@@ -297,17 +297,17 @@ $$\tau \;\propto\; \frac{1}{\Delta p}.$$
 
 **A weaker boom therefore rises more slowly as well as less far**, and both changes reduce the perceived loudness, which is a happy accident the discipline relies on \[[Blackstock, Fundamentals of physical acoustics][book_blackstock]\].
 
-**Turbulence is the unhappy one.** Passage through the atmospheric boundary layer distorts a shaped signature, sometimes sharpening it into something closer to an N-wave and sometimes not, and the variability between two nominally identical passes is large \[[Loubeau][research_boom_modeling_progress]\] \[[Raspet et al 1994][research_risetime_waveshape]\] \[[Plotkin 1994][research_aging_of_booms]\]. **A low-boom aeroplane does not have a boom. It has a distribution of booms**, and that is a statement about the medium rather than about the design.
+**Turbulence is the unhappy one.** Passage through the atmospheric boundary layer distorts a shaped signature, sometimes sharpening it into something closer to an N-wave and sometimes not, and the variability between two nominally identical passes is large \[[Loubeau][research_boom_modeling_progress]\] \[[Raspet et al 1994][research_risetime_waveshape]\] \[[Plotkin 1994][research_aging_of_booms]\]. **A low-boom aeroplane produces a distribution of booms**, and the medium causes the spread, whatever the design.
 
 The propagation codes that carry this work are the space agency's own, and they are documented in the open \[[Lonzaga et al 2025][research_pcboom_technical]\].
 
-**Manoeuvring makes it worse in a specific and well-studied way.** An accelerating or turning aeroplane focuses its rays, and where they cross, the ground receives a superboom several times the level of the steady-flight carpet \[[Page et al 2015][research_scamp_superboom]\]. **A regulation written around steady cruise has to say something about the corners.**
+**Manoeuvring makes it worse in a well-studied way.** An accelerating or turning aeroplane focuses its rays, and where they cross, the ground receives a superboom several times the level of the steady-flight carpet \[[Page et al 2015][research_scamp_superboom]\]. **A regulation written around steady cruise has to say something about the corners.**
 
 ### What the Boom Is Measured In
 
 **A pressure is not a loudness, and the rule is about loudness.**
 
-**Before any of that there is a units problem worth clearing away.** An overpressure becomes a level in the ordinary acoustic way \[[A loudness calculation procedure applied to shaped sonic booms][research_loudness_procedure]\],
+**A units problem comes first.** An overpressure becomes a level in the ordinary acoustic way \[[A loudness calculation procedure applied to shaped sonic booms][research_loudness_procedure]\],
 
 $$L_{p} \;=\; 20\log_{10}\!\left(\frac{\Delta p}{p_{\mathrm{ref}}}\right),
 \qquad p_{\mathrm{ref}} = 20\ \mu\mathrm{Pa},$$
@@ -316,7 +316,7 @@ with the reference pressure 20 micropascals. **A Concorde at Mach 2 and 52,000 f
 
 $$\frac{\Delta p}{p_{\infty}} \;=\; 9.17 \times 10^{-4},$$
 
-which is one part in 1,090. **A boom is a very small pressure change arriving very fast**, and that second half is the whole of why it is loud.
+which is one part in 1,090. **A boom is a very small pressure change arriving very fast**, and that second half alone makes it loud.
 
 **No pressure target for a shaped signature is quoted here, and the omission is deliberate.** A low-boom design goal is stated in perceived level rather than in overpressure, and the two are not interconvertible, because a perceived level depends on the shape of the waveform and an overpressure does not \[[Doebler and Rathsam 2020][research_x59_loudness]\].
 
@@ -326,38 +326,38 @@ $$\Delta p_{\text{measured}} \;=\; (1 + \mathcal{R})\,\Delta p_{\text{incident}}
 \;\approx\; 1.9\,\Delta p_{\text{incident}},
 \qquad \mathcal{R} \approx 0.9,$$
 
-for a hard surface. **A rule written about the measured quantity is therefore written about roughly twice the wave the aeroplane sent**, which is a convention rather than a physical claim and is worth stating once.
+for a hard surface. **A rule written about the measured quantity is therefore written about roughly twice the wave the aeroplane sent.** The doubling is a measurement convention and makes no physical claim, but it needs stating once.
 
-The metric the discipline settled on is the perceived level in decibels, computed by Stevens' Mark VII procedure from the one-third-octave spectrum of the waveform \[[Perceived Level of Noise by Mark VII and Decibels][research_stevens_mark_vii]\] \[[Calculation of the perceived level of noise (PLdB) using Stevens' method (Mark VII)][research_pldb_calculation]\]. **It was not invented for booms.** It was a general loudness metric that turned out to rank boom waveforms in an order that matched what listeners reported, which is the only property a metric of this kind needs.
+The metric the discipline settled on is the perceived level in decibels, computed by Stevens' Mark VII procedure from the one-third-octave spectrum of the waveform \[[Perceived Level of Noise by Mark VII and Decibels][research_stevens_mark_vii]\] \[[Calculation of the perceived level of noise (PLdB) using Stevens' method (Mark VII)][research_pldb_calculation]\]. **It was not invented for booms.** It was a general loudness metric that turned out to rank boom waveforms in an order that matched what listeners reported, which is the only property a metric of this kind needs \[[Leatherwood and Sullivan 1992][research_subjective_loudness]\].
 
 The sound exposure level, being the energy of the event referred to one second, is the other quantity in constant use,
 
 $$\mathrm{SEL} \;=\; 10\log_{10}\!\left[\frac{1}{t_{\mathrm{ref}}}\int \frac{p^{2}(t)}{p_{\mathrm{ref}}^{2}}\,\mathrm{d}t\right],
 \qquad t_{\mathrm{ref}} = 1\ \mathrm{s}.$$
 
-**Neither number is the answer, because the answer is what people say.** The space agency has run human response programmes on this question since the 1960s, and it has run them in laboratories, in purpose-built simulators, and in people's own houses \[[Shepherd 1992][research_human_response_overview]\] \[[McCurdy et al 2004][research_simulated_booms_homes]\] \[[Shepherd et al 1992][research_boom_acceptability]\].
+**Neither number settles the question, because only what people report can.** The space agency has run human response programmes on this question since the 1960s, and it has run them in laboratories, in purpose-built simulators, and in people's own houses \[[Shepherd 1992][research_human_response_overview]\] \[[McCurdy et al 2004][research_simulated_booms_homes]\] \[[Shepherd et al 1992][research_boom_acceptability]\].
 
-**The house is not a detail.** A boom is heard indoors by most of the people it reaches, and a building is a filter with a resonance and a rattle of its own, so the indoor event and the outdoor event are different sounds \[[Brown and Sutherland 1992][research_outdoor_to_indoor]\] \[[Carden et al 1969][research_building_vibrations]\]. **A low-amplitude boom combined with the rattle it excites can be more annoying than the boom alone** \[[Loubeau et al 2013][research_alexandraloubeau_brendanmsullivan_2013]\].
+**The house matters.** A boom is heard indoors by most of the people it reaches, and a building is a filter that resonates and rattles, so the indoor event and the outdoor event are different sounds \[[Brown and Sutherland 1992][research_outdoor_to_indoor]\] \[[Carden et al 1969][research_building_vibrations]\]. **A low-amplitude boom combined with the rattle it excites can be more annoying than the boom alone** \[[Loubeau et al 2013][research_alexandraloubeau_brendanmsullivan_2013]\].
 
-**The experiments behind that sentence are sixty years of laboratory and field work and they are worth naming.** Subjects have been asked to rate booms of different shapes, rise times and durations \[[McCurdy 1994][research_boom_shapes_risetimes]\], booms against aircraft flyovers \[[Leatherwood and Sullivan 1994][research_lab_annoyance_flyovers]\], and simulated booms in their own homes rather than in a booth \[[McCurdy et al 1994][research_in_home_booms]\]. **The loudness procedure the discipline uses was calibrated against those ratings** \[[A loudness calculation procedure applied to shaped sonic booms][research_loudness_procedure]\] \[[Leatherwood and Sullivan 1992][research_subjective_loudness]\].
+**Sixty years of laboratory and field work stand behind that sentence.** Subjects have been asked to rate booms of different shapes, rise times and durations \[[McCurdy 1994][research_boom_shapes_risetimes]\], booms against aircraft flyovers \[[Leatherwood and Sullivan 1994][research_lab_annoyance_flyovers]\], and simulated booms in their homes rather than in a booth \[[McCurdy et al 1994][research_in_home_booms]\]. **The loudness procedure the discipline uses was calibrated against those ratings** \[[A loudness calculation procedure applied to shaped sonic booms][research_loudness_procedure]\] \[[Leatherwood and Sullivan 1992][research_subjective_loudness]\].
 
-**The community response programme that a low-boom rule actually needs was run as a pilot in 2011 and it did not use a low-boom aeroplane**, because there was not one. It used a fighter in a dive, producing a quieter boom on the ground by geometry rather than by shaping \[[Page et al 2014][research_wspr_pilot]\] \[[Cliatt et al 2014][research_cliatt_haering_2014]\] \[[Lee et al 2019][research_quiet_boom_survey_stats]\].
+**The community response programme that a low-boom rule needs was run as a pilot in 2011 and it did not use a low-boom aeroplane**, because there was not one. It used a fighter in a dive, producing a quieter boom on the ground by geometry rather than by shaping \[[Page et al 2014][research_wspr_pilot]\] \[[Cliatt et al 2014][research_cliatt_haering_2014]\] \[[Lee et al 2019][research_quiet_boom_survey_stats]\].
 
 **Three years after the X-54 was designated to supply the stimulus, the stimulus was being faked with a dive.**
 
 ### The Alternative That Never Needed the Aeroplane
 
-**There is a second way to fly supersonic without booming anybody, and it has nothing to do with shaping.**
+**There is a second way to fly supersonic without booming anybody, and it involves no shaping.**
 
 The speed of sound rises with temperature, and the atmosphere is warmer near the ground than at cruise altitude. A ray leaving the aeroplane on a downward path therefore enters progressively faster air and refracts, turning away from the vertical. **If the aeroplane is slow enough, every ray turns before it arrives**, and the boom never reaches the surface at all.
 
-The condition is that the shock's intersection with the ground, which travels at the aeroplane's own speed, must outrun sound at ground level. Since $a=\sqrt{\gamma R T}$, the Mach number falls out as a temperature ratio and nothing else,
+The condition is that the shock's intersection with the ground, which travels at the aeroplane's speed, must outrun sound at ground level. Since $a=\sqrt{\gamma R T}$, the Mach number falls out as a temperature ratio and nothing else,
 
 $$M_{\mathrm{co}} \;=\; \frac{a_{\text{ground}}}{a_{\text{cruise}}} \;=\; \sqrt{\frac{T_{\text{ground}}}{T_{\text{cruise}}}}.$$
 
-**For the standard atmosphere above the tropopause this gives 1.153**, and it is very nearly independent of altitude, because the temperature above 11 kilometres is constant \[[U.S. Standard Atmosphere][ref_us_standard_atmosphere]\] \[[Anderson, Modern compressible flow][book_anderson_compressible]\].
+**For the standard atmosphere above the tropopause this gives 1.153**, a value very nearly independent of altitude, because the temperature above 11 kilometres is constant \[[U.S. Standard Atmosphere][ref_us_standard_atmosphere]\] \[[Anderson, Modern compressible flow][book_anderson_compressible]\].
 
-**The ray invariant also says where the turning happens, and the answer is uncomfortably sensitive.** Below the tropopause the temperature is linear in height, so setting $a(z)$ equal to the trace velocity and squaring gives a turning altitude that is a straight line in the square of the Mach number \[[Coulouvrat 2002][research_coulouvrat_shadow]\],
+**The ray invariant also locates the turning, and the location is uncomfortably sensitive.** Below the tropopause the temperature is linear in height, so setting $a(z)$ equal to the trace velocity and squaring gives a turning altitude that is a straight line in the square of the Mach number \[[Coulouvrat 2002][research_coulouvrat_shadow]\],
 
 $$z_{\text{turn}} \;=\; \frac{T_{0} - M^{2}\,T_{\text{cruise}}}{L}.$$
 
@@ -367,7 +367,7 @@ $$z_{\text{turn}} \;=\; \frac{T_{0} - M^{2}\,T_{\text{cruise}}}{L}.$$
 
 **The space agency measured it again in 2012 with modern instrumentation**, flying an F-18B so that its cutoff caustic lay at varying heights above a 60-microphone array 2,248 metres long and mapping the acoustic field in the shadow zone below the cutoff altitude \[[Cliatt et al 2016][research_cliatt_hill_2016]\] \[[Cliatt et al 2016][research_faint_lateral_cutoff]\]. What arrives is not silence but an evanescent rumble, and the programme measured it and named a metric for it \[[Haering et al 2005][research_evanescent_demo]\].
 
-**The catch is in the temperature ratio, and there is a second term the still-air form leaves out.** Wind adds to the propagation speed along the ray, so the quantity that matters is an effective sound speed rather than a thermodynamic one \[[Haefeli et al 1969][research_hayes_cr1299]\],
+**The catch is in the temperature ratio, and there is a second term the still-air form leaves out.** Wind adds to the propagation speed along the ray, so the quantity that matters is an effective sound speed, which adds the wind component to the thermodynamic one \[[Haefeli et al 1969][research_hayes_cr1299]\],
 
 $$c_{\mathrm{eff}}(z) \;=\; a(z) + \mathbf{u}(z)\cdot\hat{\mathbf{n}},
 \qquad
@@ -381,63 +381,63 @@ $$M\cos\phi \;\ge\; M_{\mathrm{co}}
 \qquad\Longrightarrow\qquad
 \phi_{\max} \;=\; \arccos\!\left(\frac{M_{\mathrm{co}}}{M}\right).$$
 
-**At Mach 1.4 that is 34.5 degrees**, and it widens to 50.2 degrees at Mach 1.8. **A supersonic aeroplane does not boom everything beneath it**, and the width of what it does boom is set by the same temperature ratio as the cutoff itself \[[Cliatt et al 2016][research_faint_lateral_cutoff]\].
+**At Mach 1.4 that is 34.5 degrees**, and it widens to 50.2 degrees at Mach 1.8. **A supersonic aeroplane does not boom everything beneath it**, and the width of what it does boom is set by the same temperature ratio as the cutoff \[[Cliatt et al 2016][research_faint_lateral_cutoff]\].
 
-**Mach cutoff needs no low-boom aeroplane, no shaped signature and no new airframe.** It needs a temperature profile and a willingness to fly slowly. **It is the cheaper answer to the same question, and it is the one that was available.**
+**Mach cutoff needs no low-boom aeroplane, no shaped signature and no new airframe.** It needs a temperature profile and a willingness to fly slowly. **It answers the same question more cheaply, and it was already available.**
 
-## Dependent Systems, What the X-54 Would Have Been
+## Dependent Systems
 
 **The registry gives the engines and almost nothing else** \[[Parsch, DOD 4120.15-L Addendum, MDS Designators Allocated After 19 August 1998][ref_mds_addendum]\].
 
-Two Rolls-Royce Tay 651 turbofans, a Gulfstream airframe, a NASA sponsor. **The nearest thing to a public statement of what the aeroplane was for is not the registry entry but a journal paper**, which sets out the case for a small supersonic civil aircraft as a class and the boom constraint that governs it \[[Henne 2005][research_henne_small_ssc]\]. **Everything past that comes from the secondary record and this article marks it as such.** Those sources describe an aeroplane cruising above Mach 1.4 at 50,000 feet and producing a ground signature under 75 perceived-level decibels \[[Gulfstream X-54][ref_x54_wikipedia]\].
+Two Rolls-Royce Tay 651 turbofans, a Gulfstream airframe, a NASA sponsor. **The nearest thing to a public statement of what the aeroplane was for is not the registry entry but a journal paper**, which sets out the case for a small supersonic civil aircraft as a class and the boom constraint that governs it \[[Henne 2005][research_henne_small_ssc]\]. **Anything further comes from the secondary record, and this article marks it as such.** Those sources describe an aeroplane cruising above Mach 1.4 and above 50,000 feet and producing a ground signature under 75 perceived-level decibels \[[Gulfstream X-54][ref_x54_wikipedia]\].
 
-At 50,000 feet and Mach 1.4 exactly, which is the floor of that range, the true airspeed is 413.1 metres per second and the Mach cone half-angle is 45.6 degrees. **The cruise Mach number sits 0.247 above the cutoff Mach number**, which is exactly the point. **An aeroplane designed for Mach cutoff would fly below 1.153 and make no ground boom at all.** The X-54 was designed to fly well above it and make a ground boom on purpose, quietly, so that somebody could be asked what they thought of it.
+At 50,000 feet and Mach 1.4 exactly, which is the floor of that range, the true airspeed is 413.1 metres per second and the Mach cone half-angle is 45.6 degrees. **The cruise Mach number sits 0.247 above the cutoff Mach number**, and that margin is the point. **An aeroplane designed for Mach cutoff would fly below 1.153 and make no ground boom at all.** The X-54 was designed to fly well above it and make a ground boom on purpose, quietly, so that somebody could be asked what they thought of it.
 
-**Why it was not built is not in the record this article can reach.** A trade press account holds that the agency regarded the designation as a placeholder and was not actively working with the manufacturer on the aircraft \[[Gulfstream X-54][ref_x54_wikipedia]\]. **That is a secondary claim from a single reported source and it is repeated here as one.** No primary document reviewed for this article states a cancellation, a funding decision or a programme termination, and the honest position is that the number was allocated and nothing followed it.
+**Why it was not built is not in the record this article can reach.** A trade press account holds that the agency regarded the designation as a placeholder and was not actively working with the manufacturer on the aircraft \[[Gulfstream X-54][ref_x54_wikipedia]\]. **The claim is secondary and comes from a single reported source, and this article repeats it on those terms.** No primary document reviewed for this article states a cancellation, a funding decision or a programme termination, and the defensible position is that the number was allocated and nothing followed it.
 
-## The Flight Test Record, Which Is Empty for the X-54
+## The Flight Test Record
 
-**The X-54 never flew, and there is no flight test record of it to report.** No airframe exists and no flight test report was written. The flights that bear on its question were flown by other aeroplanes, and the article reports them as evidence about the question rather than about the X-54.
+**The X-54 never flew, and there is no flight test record of it to report.** No airframe exists and no flight test report was written \[[Gulfstream X-54][ref_x54_wikipedia]\]. The flights that bear on its question were flown by other aeroplanes, and the article reports them as evidence about the question rather than about the X-54.
 
 **The Shaped Sonic Boom Demonstration supplied the only shaped ground signature measured before the designation.** A modified F-5E flew supersonic over Edwards Air Force Base on 27 August 2003, and the signature measured on the ground kept its flat top \[[Pawlowski et al 2005][research_pawlowski_graham_2005]\].
 
-**The Quiet Spike supplied near-field data and no ground data.** It flew thirty-two flights on a NASA F-15B between August 2006 and February 2007, reached Mach 1.8, and was probed in the near field by a second aeroplane at Mach 1.4, and its report states that a ground measurement was not attempted \[[Smolka et al 2007][research_quiet_spike_flight_test]\]. The community response pilot of 2011 used a fighter in a dive rather than a shaped aeroplane, as the subsection headed What the Boom Is Measured In records.
+**The Quiet Spike supplied near-field data and no ground data.** It flew thirty-two flights on a NASA F-15B between August 2006 and February 2007, reached Mach 1.8, and was probed in the near field by a second aeroplane at Mach 1.4, and its report states that a ground measurement was not attempted \[[Smolka et al 2007][research_quiet_spike_flight_test]\]. The community response pilot of 2011 used a fighter in a dive rather than a shaped aeroplane, as described earlier in What the Boom Is Measured In.
 
-**The flight the X-54 was designated to make is assigned to the X-59**, which at this article's date had flown once, below the speed of sound, and the subsection headed What Followed Instead records it.
+**The flight the X-54 was designated to make is assigned to the X-59.** By the date of this article that aeroplane had flown once, below the speed of sound, and What Followed Instead gives the detail.
 
 ### What Followed Instead
 
-**The ground signature demonstration was reassigned, to a different number and a different contractor, and at this article's date it had not yet been flown.** The X-59 was designated in 2018 to Lockheed Martin for the low-boom flight demonstration mission, described in its own registry entry as a research aircraft that will create a shaped sonic boom signature \[[Parsch, DOD 4120.15-L Addendum, MDS Designators Allocated After 19 August 1998][ref_mds_addendum]\] \[[Lockheed Martin X-59 Quesst][ref_x59]\] \[[Rathsam][research_lbfd_overview]\] \[[Cliatt][research_boom_flight_research_overview]\].
+**The ground signature demonstration was reassigned, to a different number and a different contractor, and at this article's date that demonstration had not yet been flown.** The X-59 was designated in 2018 to Lockheed Martin for the low-boom flight demonstration mission, described in its own registry entry as a research aircraft that will create a shaped sonic boom signature \[[Parsch, DOD 4120.15-L Addendum, MDS Designators Allocated After 19 August 1998][ref_mds_addendum]\] \[[Lockheed Martin X-59 Quesst][ref_x59]\] \[[Rathsam][research_lbfd_overview]\] \[[Cliatt][research_boom_flight_research_overview]\].
 
 **Ten years separate the two allocations and the mission statements are almost the same sentence.**
 
-The later programme's design target is stated in perceived level rather than pressure, and its community response campaign is the thing the whole enterprise exists to produce \[[Doebler and Rathsam 2020][research_x59_loudness]\] \[[Rathsam et al][research_quesst_statistical]\].
+The later programme's design target is a perceived level, and its community response campaign is the purpose of the enterprise \[[Doebler and Rathsam 2020][research_x59_loudness]\] \[[Rathsam et al][research_quesst_statistical]\].
 
 **That aeroplane was unveiled on 12 January 2024** \[[NASA, Lockheed Martin Reveal X-59 Quiet Supersonic Aircraft][ref_x59_reveal]\] **and flew for the first time on 28 October 2025**, a sixty-seven minute flight from Palmdale to the flight research centre at Edwards, below the speed of sound at 230 miles per hour and about 12,000 feet with the landing gear down \[[X-59 First Flight Media Resources, NASA][ref_x59_first_flight]\] \[[NASA's X-59 Completes First Flight, Prepares for More Flight Testing][ref_x59_first_flight_report]\].
 
-**So the X-54's mission was not abandoned. It was reassigned.** Ten years passed between the two allocations, five and a half more before the replacement aeroplane was unveiled, and another twenty-one months before it flew. **It first flew one month before the date on this article, and seventeen years after the number that was supposed to do its job was allocated to somebody else.**
+**The X-54's mission survived by being reassigned.** Ten years passed between the two allocations, five and a half more before the replacement aeroplane was unveiled, and another twenty-one months before it flew. **It first flew one month before the date on this article, and seventeen years after the number that was supposed to do its job was allocated to somebody else.**
 
 ## Comparison With Ground Prediction
 
-**For the X-54 itself there is nothing to compare, because nothing flew.** The only prediction attached to the intended aeroplane is the secondary record's ground signature under 75 perceived-level decibels \[[Gulfstream X-54][ref_x54_wikipedia]\], and no flight ever returned a measurement against it.
+**The X-54 offers nothing to compare, because it never flew.** The only prediction attached to the intended aeroplane is the secondary record's ground signature under 75 perceived-level decibels \[[Gulfstream X-54][ref_x54_wikipedia]\], and no flight ever returned a measurement against it.
 
-**The programmes the X-54 descended from do supply comparisons, and the article argues each where it arises.** The 1979 tunnel investigation found that a body designed by the minimisation method behaved as the method said it would \[[Mack and Darden][research_mack_darden_tunnel]\], which the subsection headed The Mathematics of Choosing a Shape sets out. The Shaped Sonic Boom Demonstration measured on the ground the flat-topped signature that four decades of wind-tunnel work at the agency's Virginia laboratory had predicted \[[Haering et al 2005][research_haering_murray_2005]\], under the heading What Had Already Been Proved by 2008.
+**The programmes the X-54 descended from do supply comparisons, and the article argues each where it arises.** The 1979 tunnel investigation found that a body designed by the minimisation method behaved as the method said it would \[[Mack and Darden][research_mack_darden_tunnel]\], as set out in The Mathematics of Choosing a Shape. The Shaped Sonic Boom Demonstration measured on the ground the flat-topped signature that four decades of wind-tunnel work at the agency's Virginia laboratory had predicted \[[Haering et al 2005][research_haering_murray_2005]\], under the heading What Had Already Been Proved by 2008.
 
-**The Quiet Spike's stability prediction is the clearest case of flight overturning a ground estimate.** The spike was predicted to cost the host aeroplane three to five percent of its stability subsonically and between three and twenty-four percent supersonically in the lateral-directional axis. Flight found the aeroplane more stable than a standard F-15 by Mach 1.8, and the limit was set instead by pitch damping, which fell away sharply above Mach 1.7 \[[Freund et al 2007][research_quiet_spike_prototype_results]\]. The subsection headed What Had Not Been Proved, and the Programme Said So in Advance argues it. The design dynamic pressure of 685 pounds per square foot is consistent with the stated Mach 1.8 at 45,000 feet, which the subsection headed The Medium, Because Every Number Here Is Taken From It checks.
+**The Quiet Spike's stability prediction is the clearest case of flight overturning a ground estimate.** The spike was predicted to cost the host aeroplane three to five percent of its stability subsonically and between three and twenty-four percent supersonically in the lateral-directional axis. Flight found the aeroplane more stable than a standard F-15 by Mach 1.8, and the limit was set instead by pitch damping, which fell away sharply above Mach 1.7 \[[Freund et al 2007][research_quiet_spike_prototype_results]\]. What Had Not Been Proved gives the full account. The design dynamic pressure of 685 pounds per square foot is consistent with the stated Mach 1.8 at 45,000 feet, a check carried out in The Standard Atmosphere.
 
-**The coalescence estimate is a ground prediction that no flight has tested.** The Quiet Spike report predicted that the host aeroplane's shocks would overtake the spike's shocklets within a short distance, and it attempted no ground measurement. The arithmetic under the heading The Arithmetic the Report Set Out and Did Not Perform supports that prediction for strength differences of 0.02 and above and not at 0.01, and no flight datum in this article confirms or refutes either result.
+**The coalescence estimate is a ground prediction that no flight has tested.** The Quiet Spike report predicted that the host aeroplane's shocks would overtake the spike's shocklets within a short distance, and it attempted no ground measurement. The calculation in The Arithmetic the Report Set Out and Did Not Perform supports that prediction for strength differences of 0.02 and above and not at 0.01, and no flight datum in this article confirms or refutes either result.
 
-**The comparison the X-54 was designated to make belongs to the X-59**, a predicted shaped ground signature beside a measured one from an aeroplane shaped all the way to the tail. At this article's date that aeroplane had made its first flight one month earlier, and the article reports no such comparison.
+**The comparison the X-54 existed to make now falls to the X-59**, a predicted shaped ground signature beside a measured one from a fully shaped aeroplane. That aeroplane had first flown a month before the article's dateline, and the article reports no such comparison.
 
 ## What the Data Changed
 
-**No data exist for the X-54 itself, so what changes is the reading of the record around it, and four results change it.** Three come from arithmetic the sources did not perform and one from the date of a measurement.
+**No data exist for the X-54, so what changes is the reading of the record around it, and four results change it.** Three come from arithmetic the sources did not perform and one from the date of a measurement.
 
-**The first is the coalescence distance.** The flight test report states that the aeroplane's own shocks would overtake the spike's shocklets within a short distance. **That statement is not the finding. It is the input to one.** Weak-shock theory turns `a short distance` into a number. **A source that has done the measuring has not necessarily done the arithmetic.**
+**The first is the coalescence distance.** The flight test report states that the aeroplane's own shocks would overtake the spike's shocklets within a short distance. **That statement is the input to a finding, and the finding still has to be computed.** Weak-shock theory turns `a short distance` into a number. **A source that has done the measuring has not necessarily done the arithmetic.**
 
-**The second is that the distance to divide by is the ray path and not the altitude.** A boom does not travel straight down. The ray leaves normal to the Mach cone and makes the Mach angle with the vertical, so the path from 45,000 feet at Mach 1.4 is 19,598 metres and not 13,716. **A share computed against the altitude is too large by 42.9 percent**, and the error lies in the direction that flatters the argument.
+**The second is that the ray path, longer than the altitude, is the distance to divide by.** A boom does not travel straight down. The ray leaves normal to the Mach cone and makes the Mach angle with the vertical, so the path from 45,000 feet at Mach 1.4 is 19,598 metres and not 13,716. **A share computed against the altitude is too large by 42.9 percent**, and the error lies in the direction that flatters the argument.
 
-**The third is that the conclusion is narrower than the report's statement.** The plane-wave estimate makes the finding look independent of the assumed shock strength, and adding geometric spreading shows that it is not. **At the weakest strength in the range the coalescence never completes**, reaching 40.18 kilometres against 19,598 metres of ray path. It completes at 0.02 and above, the range this article assumes for an aeroplane the size of an F-15. **The finding stands for the aeroplane the report was written about on that assumption, and it is not a general truth about spikes.**
+**The third is that the conclusion is narrower than the report's statement.** The plane-wave estimate makes the finding look independent of the assumed shock strength, and adding geometric spreading shows that it is not. **At the weakest strength in the range the coalescence never completes**, reaching 40.18 kilometres against 19,598 metres of ray path. It completes at 0.02 and above, the range this article assumes for an aeroplane the size of an F-15. **On that assumption the finding stands for the aeroplane the report was written about, though it does not generalise to spikes as a class.**
 
 **The fourth is that the technique which needs no airframe to meet a noise-based rule was flown before the rule existed.** The space agency measured it with modern instrumentation in 2012, but **signatures at cutoff Mach number were measured in flight and published in 1971** \[[Henderson et al 1971][research_maglieri_cutoff]\], which is two years before the prohibition took effect. That changes the shape of the story from a new technique overtaking an old aeroplane to an old technique outlasting one.
 
@@ -521,11 +521,11 @@ The later programme's design target is stated in perceived level rather than pre
 
 **This series reads an X-designation as a promise that something will be flown, and the X-54 breaks that reading in three places.**
 
-**The first is that the aeroplane was never built.** Its question was posed by a registry entry and assigned a decade later to a different aeroplane under a different number, which at this article's date had not yet flown supersonically. **Why the X-54 was not built is not in the record this article can reach**, so the framing has no decision to examine.
+**The first is that the aeroplane was never built.** Its question was posed by a registry entry and assigned a decade later to a different aeroplane under a different number, which at this article's date had not yet flown supersonically. **No record this article can reach explains why the X-54 was not built**, so the framing has no decision to examine.
 
-**The second is that its question was regulatory, and the regulation moved without it.** The prohibition was ordered repealed by Executive Order 14304 on 6 June 2025 \[[Executive Order 14304, Leading the World in Supersonic Flight][ref_eo_14304]\]. The order names no technique \[[Executive Order 14304, Leading the World in Supersonic Flight][ref_eo_14304]\], and the article argues that the technique able to meet a noise-based rule without a new airframe is Mach cutoff rather than shaping. Signatures at cutoff Mach number were measured in flight and published in 1971 \[[Henderson et al 1971][research_maglieri_cutoff]\]. The subsection headed The Alternative That Never Needed the Aeroplane sets out the argument. **An aeroplane justified by a rulemaking was overtaken by an older technique that needed no airframe.** Even the evidence a rulemaking consumes is human-response evidence, and the aeroplane would have supplied the stimulus for it rather than the evidence itself, as the subsection headed Thin Subjects records.
+**The second is that its question was regulatory, and the regulation moved without it.** The prohibition was ordered repealed by Executive Order 14304 on 6 June 2025 \[[Executive Order 14304, Leading the World in Supersonic Flight][ref_eo_14304]\]. The order specifies no technique \[[Executive Order 14304, Leading the World in Supersonic Flight][ref_eo_14304]\], and the article argues that the technique able to meet a noise-based rule without a new airframe is Mach cutoff rather than shaping. Signatures at cutoff Mach number were measured in flight and published in 1971 \[[Henderson et al 1971][research_maglieri_cutoff]\]. The subsection headed The Alternative That Never Needed the Aeroplane sets out the argument. **An aeroplane justified by a rulemaking was overtaken by an older technique that needed no airframe.** Even the evidence a rulemaking consumes is human-response evidence, and the aeroplane would have supplied the stimulus for it rather than the evidence itself, as Thin Subjects records.
 
-**The third is that the case for the aeroplane is narrower than the report that originated it.** The Quiet Spike report says the aeroplane's own shocks would overtake the spike's within a short distance. With geometric spreading the coalescence does not complete at a strength difference of 0.01, so the case holds for a host the size of an F-15 only if its strength difference is 0.02 or more, which this article assumes, and it is not a general truth about spikes. The subsection headed The Arithmetic the Report Set Out and Did Not Perform carries the calculation.
+**The third is that the case for the aeroplane is narrower than the report that originated it.** The Quiet Spike report states that the aeroplane's own shocks would overtake the spike's within a short distance. With geometric spreading the coalescence does not complete at a strength difference of 0.01, so the case holds for a host the size of an F-15 only if its strength difference is 0.02 or more, which this article assumes, and the result cannot be extended to spikes in general. The calculation is in The Arithmetic the Report Set Out and Did Not Perform.
 
 ## The Source Base
 
@@ -533,7 +533,7 @@ The later programme's design target is stated in perceived level rather than pre
 
 **The evidentiary base is unusually documentary for an article about an aeroplane.** Eighty-six curated research records, seven books and thirty-one reference sources carry every claim made here, and the ones that matter most are a designation registry, an executive order, the final rule of 1973 and a flight test report that states in plain words why the experiment it describes could not produce the result its successor was designated to produce. **Those are not commentary on the evidence. They are the evidence.**
 
-**The research survey maps the field, and none of it is cited in support of any claim about the X-54.** It holds 2,357 records in ten clusters, drawn from the Crossref scholarly registry, NASA's Technical Reports Server and the Defense Technical Information Center, of which 279 are report primaries, being 11.8 percent, by the identifier rule set out under The Definition of Primary. **There is nothing in it about the aeroplane, because the aeroplane was never built and produced no literature at all.**
+**The research survey maps the field, and none of it is cited in support of any claim about the X-54.** It holds 2,357 records in ten clusters, drawn from the Crossref scholarly registry, NASA's Technical Reports Server and the Defense Technical Information Center, of which 279 are report primaries, being 11.8 percent, by the identifier rule set out under The Definition of Primary. **There is nothing in it about the aeroplane, because the aeroplane was never built and no title in the survey names it.**
 
 ### The Age of the Literature Is Itself a Finding
 
@@ -598,23 +598,23 @@ Many words this subject depends on also name something else, and a record that s
 
 **What is computed here and not taken from a source.** The coalescence distances both with and without geometric spreading, the ray path length, the cutoff Mach number and its temperature sensitivity, the turning altitude, the lateral cutoff azimuth, the Mach angles, the true airspeeds, the standard-atmosphere quantities, Concorde's cruise boom expressed as a level and as a pressure ratio, the consistency of 685 pounds per square foot with Mach 1.8 at 45,000 feet, and every count in the Source Base including the publication rates by decade.
 
-**The coalescence calculation rests on an assumed range of shock-strength differences that no source in this article supplies**, and the article reports the range rather than a value for that reason. **It also rests on a reference distance at which that strength is quoted**, taken here as one aeroplane length, and the answer is sensitive to both. **The spreading-corrected result is the one to read**, and it does not support the conclusion at the weakest end of the range.
+**The coalescence calculation rests on an assumed range of shock-strength differences that no source in this article supplies**, and the article reports the range rather than a value for that reason. **It also depends on a reference distance at which that strength is quoted**, taken here as one aeroplane length, and both choices move the outcome. **The spreading-corrected result is the one to read**, and it does not support the conclusion at the weakest end of the range.
 
 **What is secondary and marked as such.** The X-54's cruise Mach number, altitude and perceived-level target, and the account that the agency regarded the designation as a placeholder. **None of the argument depends on any of them.**
 
-**What is cited from a document rather than through one.** The Gulfstream design chain, the classical minimisation and propagation papers, the human-response experiments and the standard atmosphere are all cited directly. **One source is absent.** The standard monograph of this subject is named by the cutoff investigation's own bibliography, and its report-server identifier is not verifiable, so it is not cited here.
+**What is cited from a document rather than through one.** The Gulfstream design chain, the classical minimisation and propagation papers, the human-response experiments and the standard atmosphere are all cited directly. **One source is absent.** The standard monograph of this subject is named by the cutoff investigation's bibliography, and its report-server identifier is not verifiable, so it is not cited here.
 
 **What is an approximation rather than a result.** The spreading correction assumes both shocks weaken as the inverse square root of distance and that they weaken proportionally, neither of which is exact once the wave begins to age. **It is a bound rather than a prediction**, and a propagation code of the kind the discipline actually uses would answer the question properly \[[Lonzaga et al 2025][research_pcboom_technical]\]. The Mach cutoff relation likewise assumes a horizontally stratified atmosphere and still air, and the article states the wind term without using it.
 
 **What is not known.** Why the aeroplane was not built. No primary document reviewed here records a decision, and the absence of a cancellation record is not evidence of a cancellation. **Also unknown is whether the interim standard the executive order directs was in place on the deadline**, which falls four days after this article's date and therefore outside what it can report.
 
-**What this article does not claim.** It does not claim that low-boom shaping is unnecessary, and the shaping literature is the fifth largest cluster in its own survey for good reason. **It claims that the regulatory change the X-54 was designated to support was ordered before the evidence it was designated to produce existed**, by an order that names no technique, and that a demonstrator justified by a rulemaking is exposed to the rulemaking moving without it. **That Mach cutoff is the technique able to meet a noise-based rule without a new airframe is this article's inference** from the cutoff relation and the 1971 and 2012 measurements, and the order does not say so.
+**What this article does not claim.** It does not claim that low-boom shaping is unnecessary, and the shaping literature is the fifth largest cluster in the article's survey for good reason. **It claims that the regulatory change the X-54 was designated to support was ordered before the evidence it was designated to produce existed**, by an order silent on technique, and that a demonstrator justified by a rulemaking is exposed to the rulemaking moving without it. **That Mach cutoff is the technique able to meet a noise-based rule without a new airframe is this article's inference** from the cutoff relation and the 1971 and 2012 measurements, and the order does not say so.
 
 ## Out of Scope
 
 **The economics of supersonic business travel.** Whether a market exists for an aeroplane of this kind is the question that decided whether anybody would pay for it, and this article makes no claim about it.
 
-**The landing and take-off noise of a supersonic aeroplane**, which is a separate regulatory track with its own standard, its own metric and its own literature. The survey above reports that cluster as part of the field it maps, and the article does not argue from it.
+**The landing and take-off noise of a supersonic aeroplane**, which is a separate regulatory track with a standard, a metric and a literature of its own. The survey above reports that cluster as part of the field it maps, and the article does not argue from it.
 
 **The propulsion.** Two Rolls-Royce Tay 651 engines are what the registry records, and what a low-boom airframe demands of an inlet and a nozzle is a large subject this article touches only where the equivalent area distribution requires it.
 
@@ -626,11 +626,11 @@ Many words this subject depends on also name something else, and a record that s
 
 The X-54A's registry entry made a narrower promise than most. It promised ground sonic boom signatures, in support of a regulatory change process, and it made that promise in 2008 because a flight test programme had established, in a report published the year before, that no existing aeroplane could produce them. **The gap was real and the entry names it precisely.**
 
-**The argument for filling it survives arithmetic, though not quite in the form the report states it.** Working the overtaking through weak-shock theory shows that the spike's shocklets are consumed well before the ground at the strength differences this article assumes for an aeroplane the size of the one they were bolted to, and that the same calculation would come out differently on a weaker or longer host. **The programme's reason was right about its own aeroplane rather than about spikes in general**, which is a smaller claim than the report makes and a sufficient one for what followed.
+**The argument for filling it survives arithmetic, though not quite in the form the report states it.** Working the overtaking through weak-shock theory shows that the spike's shocklets are consumed before the ground, about halfway down the ray path at the weakest, at the strength differences this article assumes for an aeroplane the size of the one they were bolted to, and that the same calculation would come out differently on a weaker or longer host. **The programme's reason was right about its own aeroplane, though not about spikes in general**, a smaller claim than the report makes and a sufficient one for what followed.
 
-**Nothing was built.** The evidence the entry describes is assigned to a different aeroplane under a different number a decade later, which had not flown supersonically by this article's date, and in the meantime the prohibition was ordered repealed by an order that names no technique, while a technique that makes no ground boom at all, rather than a quiet one, needed no new airframe to meet the noise-based rule the order calls for.
+**Nothing was built.** The evidence the entry describes is assigned to a different aeroplane under a different number a decade later, which had not flown supersonically by this article's date, and in the meantime the prohibition was ordered repealed by an order that leaves the technique open, while a technique that makes no ground boom at all, rather than a quiet one, needed no new airframe to meet the noise-based rule the order calls for.
 
-**That technique is not new and this article's most surprising finding is how old it is.** Signatures at cutoff Mach number were measured in flight and published in 1971, 2 years before the prohibition took effect and 54 years before the order to repeal it \[[Henderson et al 1971][research_maglieri_cutoff]\]. **The aeroplane was overtaken not by a newer idea but by an older one**, which had been sitting in the same agency's report server the whole time and needed no airframe to make its case.
+**That technique is not new and this article's most surprising finding is how old it is.** Signatures at cutoff Mach number were measured in flight and published in 1971, 2 years before the prohibition took effect and 54 years before the order to repeal it \[[Henderson et al 1971][research_maglieri_cutoff]\]. **The aeroplane was overtaken not by a newer idea but by an older one**, which had been sitting in the same agency's report server throughout and needed no airframe to make its case.
 
 **The lesson is not that the aeroplane was unnecessary.** The X-59 exists, which is the strongest possible argument that somebody still needs what the X-54 was for. **The lesson is that an aeroplane whose justification is a rulemaking has tied itself to a clock it does not control**, and this one was overtaken by its own regulation in much the way its predecessor's shocklets were overtaken by the aeroplane carrying them.
 

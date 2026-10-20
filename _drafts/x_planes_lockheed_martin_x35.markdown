@@ -36,9 +36,9 @@ This is the thirty-sixth article in the [X-Planes series][related_post_a297_xpla
 [X-31][related_post_a328_rockwell_mbb_x31], the [X-32][related_post_a329_boeing_x32], the
 [X-33][related_post_a330_lockheed_martin_x33], and the [X-34][related_post_a331_orbital_sciences_x34].
 
-**That sortie is called [Mission X][ref_missionx] and it is the most famous single flight any aircraft in this series ever made.**
-It is also the reason this article exists, because a flight that famous invites exactly one question and the
-question has a real answer. **What did it establish?**
+**That sortie is called [Mission X][ref_missionx], the most famous single flight any aircraft in this series ever made.**
+A flight that famous invites one question, the question can be answered, and this article exists to answer
+it. **What did it establish?**
 
 ## The Research Question
 
@@ -47,22 +47,24 @@ question has a real answer. **What did it establish?**
 The short version, repeated in almost every account, is that the X-35B did in one flight what the
 [X-32][related_post_a329_boeing_x32] could not do at all, that the rival had to be physically reconfigured
 between the hovering and supersonic parts of its envelope, and that the fly-off was therefore decided by a
-capability one team had and the other did not.
+capability one team had and the other did not. The rival's own record bears out the middle clause, since Boeing
+[demonstrated hovering and supersonic flight in separate configurations][ref_x32].
 
 **Every clause of that is true and the conclusion still does not follow from it, because the flight was not the experiment.**
 A demonstration that three regimes can be flown in sequence is a demonstration about sequencing. Whether
-sequencing was the hard part is a separate question, and it is one nobody asks, because the answer feels
-obvious and is not.
+sequencing was the hard part is a separate question. Nobody asks it, because the answer feels obvious and is
+not.
 
 ### What This Article Will Not Do
 
 **The previous article on the losing side of this competition already made the argument that neither demonstrator was the aircraft being bought**,
-and made it at length. The X-32 and the X-35 were concept demonstrators, the F-32 and the F-35 were the
-products, and the machines that flew in 2000 and 2001 differed from the machines under contract in
-structure, in systems, in weight and in purpose.
-**That is a construct-validity argument, it is correct, and it is made. It will not be remade here.**
+and made it at length. The X-32 and the X-35 were
+[concept demonstrators and not fighter prototypes][ref_xvehicles], and the machines that flew in 2000 and
+2001 [differed from the production aircraft][ref_codeone] in structure, in systems, in weight and in
+purpose.
+**That construct-validity argument is correct and has been made. It will not be remade here.**
 
-What is left over is the winner's question, and it is a different one. Granting that the demonstrator was a
+What remains is a different question, the winner's. Granting that the demonstrator was a
 demonstrator, **what did its most celebrated flight actually demonstrate?**
 
 ### The Question, Stated So That It Can Be Answered Wrongly
@@ -72,16 +74,16 @@ separate days do not, **if and only if the three place demands on the same hardw
 they do interfere, sequencing them is an existence proof and the flight is evidence. If they do not,
 sequencing them is scheduling and the flight is a display.
 
-**So the keystone of this article is a coupling question, and it is answerable.** For each of the three
-events, and for the transitions between them, the article asks what physical quantity was actually scarce,
-and computes it. The answer is not the one the reputation implies, and the article's own counter-arguments
-against that answer are set out in a later section and not suppressed.
+**So the keystone of this article is an answerable coupling question.** For each of the three
+events, and for the transitions between them, the article asks what physical quantity was scarce,
+and computes it. It does not reach the answer the reputation implies, and a later section states the case
+against its answer openly.
 
 **A preview, because a reader is entitled to know where an argument is going.** Two of the three events turn
 out to have been cheap, one of them very cheap indeed, and the expensive thing is not one of the three.
 **It is the conversion between modes, which is not in the name of the trick.** Worse for the reputation, and
-this is the fact the whole argument turns on,
-**the first in-flight conversion had already been flown eleven days earlier, on a sortie that also went faster than Mission X did.**
+central to the argument,
+**the first in-flight conversion had already been flown [eleven days earlier][ref_lm_conversion], on a sortie that also went faster than Mission X did.**
 
 ## Programme Origin
 
@@ -90,12 +92,13 @@ this is the fact the whole argument turns on,
 The [Joint Strike Fighter programme][ref_jsf] sought a single airframe family for three services and two
 navies, with a conventional variant, a carrier variant and a [short-takeoff and vertical-landing][ref_stovl]
 variant sharing enough structure and systems to be affordable.
-**The short-takeoff and vertical-landing requirement is the one that constrains everything**, because it
+**The short-takeoff and vertical-landing requirement constrains everything else**, because it
 demands that an aircraft otherwise sized for supersonic combat also hover, and hovering is the most
 thrust-hungry thing an aeroplane can do.
 
-The competition ran as a fly-off between two concept demonstrator teams. Each built and flew aircraft
-covering the three variants, and each demonstrated a different answer to the hovering problem.
+The competition ran as a fly-off between two concept demonstrator teams. Each
+[built and flew aircraft covering the three variants][ref_xvehicles], and each demonstrated a different
+answer to the hovering problem.
 **Neither team started from nothing.** The technology base both drew on had been accumulating for four
 decades, a great deal of it in reports of the National Aeronautics and Space Administration and its
 predecessor, and most of the period literature this article cites comes from that base, not from the
@@ -104,7 +107,7 @@ competition itself.
 ### The Invention
 
 The X-35's answer is due to [Paul Bevilaqua][ref_bevilaqua] and Paul Shumpert at the Lockheed Skunk Works,
-and it is set out in their
+who set it out in their
 [patent for a propulsion system for a vertical and short takeoff and landing aircraft][ref_patent], granted
 in 1993. The inventor described the cycle himself in
 [a 1996 paper on dual cycle operation of the shaft driven lift fan][research_bevilaqua_1996] and gave the
@@ -113,28 +116,28 @@ programme's own account of its origins in the 2009 Wright Brothers Lecture,
 [a companion paper on inventing it][research_bevilaqua_2009_b].
 **Those are the primary sources for this architecture and the article leans on them.**
 
-**The idea itself is unusual enough to state in one sentence.** Instead of pointing the engine's own exhaust
+**The idea is unusual enough to state in one sentence.** Instead of pointing the engine's own exhaust
 downward,
 **take mechanical power off the engine's shaft, run it forward through a clutch and a bevel gearbox, and use it to drive a separate fan that blows cold air straight down.**
 
 Almost every reader's first reaction is that this is a worse deal, because the fan's thrust has to come out
 of the engine's thrust and a shaft cannot create energy.
-**The reaction is correct about the energy and wrong about the thrust, and the reason is the single most important relation in this article.**
+**The reaction is correct about the energy and wrong about the thrust, for a reason given by the most important relation in this article.**
 
-**One detail of the inventor's own record is worth pausing on, because it says what the fan replaced.**
+**One detail of the inventor's record shows what the fan replaced.**
 Bevilaqua spent the preceding fifteen years on thrust-augmenting ejectors, publishing
 [a lifting surface theory for them][research_bevilaqua_1977] in 1977,
 [an evaluation of hypermixing][research_bevilaqua_1974] in 1974 and
 [two reviews of advances in ejector thrust augmentation][research_bevilaqua_1984] in the 1980s.
 **The ejector is the other way of adding mass flow to a lift system**, entraining ambient air into a
-high-velocity primary jet and not driving a fan with a shaft, and it was the leading candidate for
-supersonic vertical landing for two decades. **The man who displaced it had spent his career on it.**
+high-velocity primary jet and not driving a fan with a shaft.
+**The man who displaced it had [spent much of his earlier career on it][ref_bevilaqua].**
 
 ### The Three Aircraft
 
-Two airframes were built. The X-35A flew first, in the conventional configuration, and was then rebuilt as
-the X-35B by installing the lift system. The X-35C was a separate aircraft with the larger wing and the
-structure of the carrier variant.
+[Two airframes were built][ref_x35]. The X-35A flew first, in the conventional configuration, and was then
+rebuilt as the X-35B by installing the lift system. The X-35C was a separate aircraft with the larger wing and
+the [strengthened structure of the carrier variant][ref_lm_x35c_supersonic].
 **So the aircraft that flew Mission X is the same airframe that had earlier flown as a conventional fighter**,
 which matters later, because it means the conventional and hovering configurations differed by an
 installation, not by an airframe.
@@ -155,12 +158,12 @@ $$T = \sqrt{2 P \dot{m}}$$
 
 **At a fixed power, thrust rises as the square root of the mass flow.**
 
-The consequence is the whole argument for a lift fan. A shaft cannot create power, so the fan's power does
+The argument for a lift fan follows from this. A shaft cannot create power, so the fan's power does
 come out of the engine. **But the fan moves air that the engine never touched**, and adding mass flow at
-fixed power buys thrust. Doubling the mass flow multiplies the thrust by the square root of two even though
+fixed power raises thrust. Doubling the mass flow multiplies the thrust by the square root of two even though
 not one extra joule was spent.
 
-**Said the other way round, and this is the form that makes the design decision obvious, thrust per unit power is inversely proportional to jet velocity.**
+**Said the other way round, in the form that makes the design decision obvious, thrust per unit power is inversely proportional to jet velocity.**
 Dividing the two definitions, not eliminating between them,
 
 $$\frac{T}{P} = \frac{\dot{m} v}{\tfrac{1}{2} \dot{m} v^{2}} = \frac{2}{v}$$
@@ -193,19 +196,20 @@ so the fully developed jet runs at 338.6 metres per second and the mass flow thr
 
 $$\dot{m} = \rho A v_i = 1.225 \times 1.2668 \times 169.3 = 262.7 \ \text{kg/s}$$
 
-**which is 579.2 pounds per second, and that number deserves a pause.** It is roughly twice the entire
-airflow of the engine driving it. **The fan is not an accessory. It is the larger air handler of the two.**
+**which is 579.2 pounds per second.** The figure is nearly twice the engine
+core flow that the inversion in a later section recovers.
+**Far from being an accessory, the fan is the larger air handler of the two.**
 
 The ideal power such a disc requires is the thrust times the induced velocity,
 
 $$P_{\text{ideal}} = T v_i = 88{,}964 \times 169.3 = 15.06 \ \text{MW}$$
 
-against the 21.63 megawatts that twenty-nine thousand shaft horsepower actually delivers, so the fan's
+against the 21.63 megawatts that twenty-nine thousand shaft horsepower delivers, so the fan's
 figure of merit is
 
 $$\mathrm{FM} = \frac{P_{\text{ideal}}}{P_{\text{shaft}}} = \frac{15.06}{21.63} = 0.697$$
 
-**This is the same 0.697 the previous article recovered while examining the rival**, from the same three
+**The previous article recovered the same 0.697 while examining the rival**, from the same three
 numbers, and it belongs to the X-35's fan and not the X-32's. A figure of merit near seven tenths is
 respectable for a heavily loaded fan in a short duct with louvred exit vanes and no time to be elegant.
 
@@ -221,8 +225,10 @@ the three-bearing swivel module at eighteen thousand, and two roll posts at 1,95
 
 $$T_{\text{total}} = 20{,}000 + 18{,}000 + 2 \times 1{,}950 = 41{,}900 \ \text{lbf}$$
 
-**against an [engine][ref_f119] whose dry thrust is twenty-five thousand pounds force.** A direct-lift
-installation of the same engine, which is what the rival built, has that dry thrust and nothing else to
+Those are the figures published for the production LiftSystem, and the 2001 company releases credit the
+X-35B with [nearly 40,000 pounds of vertical force][ref_lm_conversion].
+**The total stands against an [engine][ref_f119] whose [dry thrust is twenty-five thousand pounds force][ref_x35].** A direct-lift
+installation of the same engine, which is [what the rival built][ref_x32], has that dry thrust and nothing else to
 hover on. So the shaft-driven arrangement multiplies the available vertical thrust by
 
 $$\frac{41{,}900}{25{,}000} = 1.676$$
@@ -231,22 +237,22 @@ $$\frac{41{,}900}{25{,}000} = 1.676$$
 
 ### An Unpublished Number Recovered From Three Published Ones
 
-**The square-root law says where that factor came from, and it can be inverted to say something the manufacturer never released.**
+**The square-root law shows where that factor came from, and inverting it yields a number the manufacturer never released.**
 If the augmentation is entirely the mass-flow effect, then
 
 $$\frac{T_{\text{total}}}{T_{\text{dry}}} = \sqrt{\frac{\dot{m}_{\text{fan}} + \dot{m}_{\text{core}}}{\dot{m}_{\text{core}}}}$$
 
-and solving for the core mass flow, which the engine's manufacturer has never published,
+and solving for the core mass flow, which no source cited here gives,
 
 $$\dot{m}_{\text{core}} = \frac{\dot{m}_{\text{fan}}}{r^{2} - 1} = \frac{579.2}{1.676^{2} - 1} = 320.2 \ \text{lb/s}$$
 
-**No airflow figure for the engine is given in the sources this article cites, so the inversion cannot be checked against a published value.**
-It is reached from three numbers about thrust and one about a fan, none of which is a statement about engine
+**Because no cited source gives an airflow figure for the engine, the inversion cannot be checked against a published value.**
+It is reached from three numbers about thrust and one about a fan, none of which concerns engine
 airflow.
 
-**The figure should be read for what it is and not for more.** The relation assumes the total power is
+**The figure should not be read for more than it is.** The relation assumes the total power is
 unchanged between the two arrangements, that both jets are ideal, and that the roll posts belong in the
-numerator, and each of those is approximately and not exactly true. It is the core flow the mass-flow
+numerator, and each of those holds only approximately. It is the core flow the mass-flow
 mechanism alone would require, and it has not measured the engine.
 
 ### The Identity the Article Was Already Printing
@@ -295,17 +301,17 @@ temperature directly,
 
 $$T_{\text{fan}} = T_0 \, \Pi^{\frac{\gamma - 1}{\gamma}} = 288.15 \times 1.693^{0.2857} = 334.9 \ \text{K}$$
 
-The core's leaves at something near nine hundred kelvin.
+The core's is taken here to leave at about nine hundred kelvin.
 
-**So the fan's contribution to the design is not only thrust. It is a large volume of cold air placed under the front of the aeroplane**,
+**So the fan contributes more than thrust. It places a large volume of cold air under the front of the aeroplane**,
 which does two things a hotter, faster jet cannot. It reduces the pressure and temperature the landing
 surface sees, and it puts a barrier of ambient-temperature air between the hot core efflux and the inlet.
-**The previous article treated hot gas ingestion as the rival's central difficulty. This is the architecture that attacks it at the source.**
+**The previous article treated hot gas ingestion as the rival's central difficulty. The X-35's architecture attacks it at the source.**
 
 ### The Torque Nobody Mentions
 
-The fan is described everywhere as two-stage counter-rotating, and the phrase is usually read as a
-refinement. **It is not a refinement. It is what makes the aircraft controllable.**
+The fan is [described as two-stage counter-rotating][ref_liftfan], and the phrase is usually read as a
+refinement. **In fact counter-rotation makes the aircraft controllable.**
 
 A single-rotation fan absorbing shaft power $P$ at angular velocity $\omega$ applies a reaction torque to
 the airframe of
@@ -318,8 +324,8 @@ aircraft and not to trim it. The roll posts supply a couple of
 $$C = 2 F_{\text{post}} \ell$$
 
 where $\ell$ is the distance from the centreline.
-**The fan's rotational speed is not published, so the relation is inverted, not evaluated.** Asking
-what speed would make the reaction torque exactly consume the entire roll-post couple gives
+**The fan's rotational speed is not given in any source cited here, so the relation is inverted, not evaluated.** Asking
+what speed would make the reaction torque consume the entire roll-post couple gives
 
 | Roll-post arm, m | Roll-post couple, N·m | Threshold speed, rpm |
 |---|---|---|
@@ -353,17 +359,17 @@ loading coefficient is not absurd. The rotational speed is then
 
 $$N = \frac{60 U}{\pi D} = \frac{60 \times 242.4}{\pi \times 1.27} = 3{,}645 \ \text{rpm}$$
 
-**That estimate sits inside the threshold band and near its middle.** The honest statement is therefore not
-that counter-rotation saved a specific percentage, but that
+**That estimate sits inside the threshold band and near its middle.** The supportable claim is therefore not
+that counter-rotation saved a stated percentage, but that
 **across every plausible roll-post location a single-rotation fan of this power would have consumed somewhere between three quarters and all of the aircraft's roll authority merely to stand still.**
-Counter-rotation does not improve the control system. It is the reason there is one.
+Without counter-rotation there would be no usable control system to improve.
 
-### The Clutch, and an Identity That Holds However Gently It Is Engaged
+### The Clutch and the Halving Identity
 
 The fan is not always running. In conventional flight it is stopped, its doors are closed, and it is carried
-as dead weight. Entering the hovering mode means engaging a clutch between a running engine and a stationary
-fan.
-**This is the event the article's thesis says was the hard one, so what it costs deserves an exact answer.**
+as [dead weight][ref_x35]. Entering the hovering mode means
+[opening the doors and engaging a clutch][ref_tomassetti] between a running engine and a stationary fan.
+**The article's thesis holds that this was the hard event, so its cost should be computed exactly.**
 
 Consider a source held at a constant angular velocity $\omega_s$ driving an inertia $I$ initially at rest,
 through a slipping clutch transmitting a torque $Q$ that may vary however it likes. The source does work at
@@ -393,15 +399,15 @@ fraction of 0.5 in all three cases, as the impulse argument requires.
 | 37 | 2.70 | 2.70 | 0.125 |
 | 50 | 3.64 | 3.64 | 0.168 |
 
-**The last column is the useful one and it needs no apology for the bracket.** It is
+**The last column is the useful one, and the bracket does not weaken it.** It is
 
 $$\tau = \frac{E_{\text{fan}}}{P_{\text{shaft}}} = \frac{I \omega_s^{2}}{2 P_{\text{shaft}}}$$
 
 the fan's stored kinetic energy divided by the power it absorbs when running, which has the dimensions of
-time, and across the whole bracket it is under a fifth of a second.
-**The fan stores less than a fifth of a second of its own operating power.**
+time, and across the bracket it stays under a fifth of a second.
+**The fan stores less than a fifth of a second of its operating power.**
 
-**The heat has to go somewhere, and the same bracket says where.** For a plate pack of mass $m_p$ and
+**The heat has to go somewhere, and the same bracket gives its effect on the clutch.** For a plate pack of mass $m_p$ and
 specific heat $c_p$, an adiabatic engagement raises its temperature by
 
 $$\Delta T_p = \frac{E_{\text{clutch}}}{m_p c_p} = \frac{I \omega_s^{2}}{2 m_p c_p}$$
@@ -409,13 +415,13 @@ $$\Delta T_p = \frac{E_{\text{clutch}}}{m_p c_p} = \frac{I \omega_s^{2}}{2 m_p c
 and for an assumed twenty kilograms of carbon at 710 joules per kilogram kelvin that is
 **128.3, 189.8 and 256.5 kelvin** across the three inertias.
 **Those are ordinary friction-material temperatures**, which is the first sign that the engagement is
-thermally reasonable and not heroic.
+thermally modest.
 
 ### What the Bound Rules Out
 
-No engagement time for the X-35B's clutch is given in the sources this article cites, so the bound is taken
-for an engagement time $t$ of nine seconds, which is an assumption and is labelled as one.
-**Combining that time with the rated shaft power gives a bound that assumes nothing at all about the fan.** At
+The cited sources give no engagement time for the X-35B's clutch, so the bound is taken for an assumed
+engagement time $t$ of nine seconds.
+**Combining that time with the rated shaft power gives a bound that assumes nothing about the fan.** At
 most the rated power can flow for at most that time, and at most half of it can be destroyed, so
 
 $$E_{\text{clutch}} \le \tfrac{1}{2} P t = \tfrac{1}{2} \times 21.63 \times 10^{6} \times 9 = 97.3 \ \text{MJ}$$
@@ -424,16 +430,16 @@ $$E_{\text{clutch}} \le \tfrac{1}{2} P t = \tfrac{1}{2} \times 21.63 \times 10^{
 twenty kilograms of carbon would raise its temperature by about 6,853 kelvin, which is beyond the
 vaporisation point of anything. The engagement therefore cannot be anywhere near power-limited.
 
-**Comparing the bound with the bracket says by how much.** Spreading the real dissipation over the assumed
+**Comparing the bound with the bracket gives the size of the margin.** Spreading the bracketed dissipation over the assumed
 nine seconds and dividing by the bound's rate, which is half the shaft power, gives
 
 $$\frac{E_{\text{clutch}} / t}{\tfrac{1}{2} P} = \frac{E_{\text{clutch}}}{\tfrac{1}{2} P t} = \frac{1.82}{97.3} = 0.0187 \quad \text{to} \quad \frac{3.64}{97.3} = 0.0374$$
 
 across the inertia bracket, so the mean dissipation is between 1.9 and 3.7 percent of the most the shaft could feed into the clutch.
-The bound exceeds the dissipation across the whole inertia bracket for any engagement longer than about a
+The bound exceeds the dissipation across the inertia bracket for any engagement longer than about a
 third of a second, so the conclusion does not rest on the assumed time.
-**An engagement of that length is not set by the energy. If anything in the clutch sets it, it is the heat**,
-and the difference between those two statements is why a mode change on this aircraft is a
+**The energy does not set an engagement of that length. If anything in the clutch sets it, the heat does**,
+and that difference explains why a mode change on this aircraft is a
 [scheduled sequence of doors opening, the clutch engaging and the clutch locking][ref_lm_groundtest_2008], not
 the flick of a switch.
 
@@ -459,23 +465,24 @@ $T = \dot{m} v_j$ identically.
 | 150 | 4,558 | 25.3 percent | 13.4 percent |
 | 180 | 5,469 | 30.4 percent | 16.1 percent |
 
-**The X-35B made its first in-flight conversion at 180 knots, and at that speed engaging the fan costs 5,469 pounds force of drag.**
+**The X-35B made its [first in-flight conversion at 180 knots][ref_lm_conversion], and at that speed engaging the fan costs 5,469 pounds force of drag.**
 That is 30.4 percent of everything the rear nozzle can produce, and on its own it would decelerate the
 aircraft at
 
 $$a = \frac{D_{\text{mom}}}{m} = \frac{24{,}329}{15{,}422} = 1.578 \ \text{m/s}^{2} = 0.1609 \, g$$
 
-**This is the quantitative content of the claim that the conversion was the hard event.** Nothing about
+**These figures give quantitative content to the claim that the conversion was the hard event.** Nothing about
 hovering, going supersonic or landing vertically produces a step change of that size. Opening the doors and
 letting the clutch in does.
 
-### Where That Drag Acts, Which Matters More Than How Large It Is
+### Where That Drag Acts
 
-The fan sits ahead of the centre of gravity and its inlet is on top of the fuselage,
+The fan sits ahead of the centre of gravity and its [inlet doors are on top of the fuselage][ref_xvehicles],
 **so the momentum drag is a horizontal force applied above and forward of the centre of mass, and it therefore pitches the aircraft as well as decelerating it.**
 
-The height above the centre of gravity is not published, so the relation is inverted rather than evaluated.
-Pitch trim in the hover comes from shifting thrust between the fan and the rear nozzle, and an authority of
+The inlet's height above the centre of gravity is unpublished, so the relation is solved for the height
+that would matter. [Pitch control in the hover comes from shifting thrust between the fan and the rear
+nozzle][ref_liftfan], and an authority of
 ten percent of the fan's thrust acting on its moment arm gives
 
 $$M_{\text{avail}} = 0.10 \, T_f x_f = 0.10 \times 88{,}964 \times 3.553 = 31{,}606 \ \text{N m}$$
@@ -484,8 +491,8 @@ Setting that equal to the momentum-drag moment gives the height at which the two
 
 $$h^{*} = \frac{M_{\text{avail}}}{D_{\text{mom}}} = \frac{31{,}606}{24{,}329} = 1.299 \ \text{m}$$
 
-**A dorsal fan inlet on a fighter sits roughly a metre above the centre of gravity, so the threshold is not comfortably far away.**
-The honest statement is that the momentum drag's pitching moment is of the same order as the trim authority
+**If the dorsal fan inlet sits roughly a metre above the centre of gravity, which is an estimate and not a published figure, the threshold is not comfortably far away.**
+What can be said is that the momentum drag's pitching moment is of the same order as the trim authority
 available to oppose it, which is why a conversion is flown as a scheduled and gradual event rather than as a
 switch.
 
@@ -497,7 +504,7 @@ steady hover their moments must cancel,
 
 $$T_f x_f = T_r x_r$$
 
-Both thrusts are set by hardware rather than chosen, so
+Both thrusts are fixed by the hardware, so
 **this equation does not determine the trim. It determines where the centre of gravity has to be.** Writing
 $L$ for the separation between the two,
 
@@ -516,17 +523,17 @@ balance point across the following band.
 | 5 percent | 0.4488 to 0.4987 | 14.72 inches |
 | 10 percent | 0.4241 to 0.5238 | 29.45 inches |
 
-**A few percent of thrust split buys a few inches of centre-of-gravity travel.** That is a tight band for an
+**A few percent of thrust split yields a few inches of centre-of-gravity travel.** That is a tight band for an
 aeroplane whose fuel and stores move the centre of gravity by considerably more, and
-**it is a real cost of the architecture that does not get easier as the aircraft gets lighter**, unlike
+**it is a cost of the architecture that does not ease as the aircraft gets lighter**, unlike
 every other margin in this article.
 
 ### What an Inlet Temperature Rise Costs, in Kelvin
 
 **The lift fan is shaft-driven, which means every pound of vertical thrust in this aircraft is ultimately core thrust.**
-The fan has no combustor of its own. So an engine that swallows its own hot exhaust loses the fan and the
-rear nozzle together, and the ground-environment argument made earlier can now be given a number instead of
-an adjective.
+The fan [has no combustor of its own][ref_xvehicles]. So an engine that swallows its own hot exhaust loses
+the fan and the rear nozzle together, and the ground-environment argument made earlier can now be
+quantified.
 
 At a fixed corrected operating point the physical mass flow, and with it the thrust, falls as the inverse of
 inlet total temperature.
@@ -548,21 +555,21 @@ The losses are 3.354, 6.490, 9.430 and 14.786 percent respectively.
 $$\Delta T_{\text{crit}} = T_{\text{amb}} \left(\frac{F_{\text{total}}}{W} - 1\right) = 288.15 \times 0.2324 = 66.95 \ \text{K}$$
 
 **At 34,000 pounds the X-35B could tolerate a 66.95 kelvin inlet temperature rise before it could no longer hold itself up.**
-That single number is what the cold fan buys. It is why the architecture places a large volume of ambient
-air between the hot core efflux and the inlets rather than treating ingestion as something to be managed
-afterwards,
+That single number measures the value of the cold fan. It accounts for the architecture's choice to place a large volume
+of ambient air between the hot core efflux and the inlets instead of managing ingestion afterwards,
 **and it converts a comparison with the rival from a matter of adjectives into a matter of kelvin.**
 
 ## The Vehicle
 
-Two airframes covered three configurations. The X-35A flew as a conventional fighter from 24 October 2000,
-was then rebuilt with the lift system installed, and flew again as the X-35B. The X-35C was a separate
-aircraft carrying the carrier variant's larger wing and heavier structure.
+[Two airframes covered three configurations][ref_x35]. The X-35A flew as a conventional fighter from 24
+October 2000, was then rebuilt with the lift system installed, and flew again as the X-35B. The X-35C was a
+separate aircraft carrying the carrier variant's larger wing and
+[heavier structure][ref_lm_x35c_supersonic].
 
 The demonstrators were [deliberately simpler than the production aircraft][ref_codeone]. They carried no
 weapons bays, no radar, no mission systems and no low-observable treatment of the kind the product would
 need, and they used off-the-shelf components wherever schedule allowed.
-**The [published empty weight of 26,500 pounds and maximum takeoff weight of fifty thousand pounds][ref_x35] belong to a machine built to answer a question, not to fight.**
+**The X-35A's [published empty weight of 26,500 pounds and maximum takeoff weight of fifty thousand pounds][ref_x35] belong to a machine built to answer a question, not to fight.**
 
 ## Dependent Systems
 
@@ -577,7 +584,7 @@ $$\dot{\delta} = \frac{\Delta \delta}{\Delta t} = \frac{95^{\circ}}{2.5 \ \text{
 problem is a set of rotating joints rather than a set of sliding ones, at a station carrying the full core
 efflux.
 
-**The number of bearings is not a styling choice and the geometry says why there are three.** Take a single
+**The number of bearings is not a styling choice, and the geometry fixes the count at three.** Take a single
 joint whose mating plane is inclined at an angle $\beta$ to the duct axis. Rolling one side relative to the
 other by $\phi$ deflects the downstream axis by $\delta$, where
 
@@ -589,10 +596,10 @@ At half a turn it reduces to $\delta = 2\beta$, so
 $$\beta_{\text{single}} = \frac{95^{\circ}}{2} = 47.5^{\circ}$$
 
 **A single bearing would therefore need its mating plane canted at 47.5 degrees**, which is an extraordinary
-angle for a pressure-tight rotating seal carrying the full exhaust of an augmented turbofan. It is not a
-practical joint.
+angle for a pressure-tight rotating seal carrying the full exhaust of an augmented turbofan. Such a joint
+would be impractical.
 
-**Putting joints in series helps only if their cants alternate, and that is the part which is not obvious.**
+**Putting joints in series helps only if their cants alternate, and this condition is not obvious.**
 A numerical search over the roll angles found that two joints canted the same way reach $2\beta$ and no
 more, because the second can only undo what the first did.
 **Mirror the second joint and the two add to $4\beta$, and three alternating joints reach $6\beta$**, which
@@ -603,15 +610,16 @@ $$\beta_{\text{three}} = \frac{95^{\circ}}{6} = 15.83^{\circ}$$
 **Sixteen degrees is an ordinary cant for a rotating duct joint.** So the count of bearings follows from the
 angle a sealed joint can tolerate, divided into the deflection the aircraft needs.
 **The actual cant angles and the gearing between the three rings are not published**, and this article
-claims only the requirement rather than the mechanism.
+claims only the requirement and leaves the mechanism open.
 
 ### The Inlet
 
 The inlet is a [diverterless supersonic design][ref_dsi], replacing the boundary-layer diverter of a
 conventional installation with a fixed compression surface that pushes the boundary layer sideways.
 **It removes weight, moving parts and radar return at once**, and it does so at the cost of being optimised
-for one region of the envelope rather than adjustable across it. For a demonstrator cleared to about Mach
-1.1 that cost is invisible, which is worth remembering when reading the supersonic leg of Mission X.
+for one region of the envelope rather than adjustable across it. For a demonstrator
+[flown to about Mach 1.2][ref_lm_completion] that cost is invisible, a point to bear in mind when reading
+the supersonic leg of Mission X.
 
 ### Roll Posts and Control Power
 
@@ -627,7 +635,7 @@ posts supply a couple, and dividing by the roll moment of inertia gives an angul
 $$\dot{p} = \frac{2 F_{\text{post}} \ell}{I_{xx}}$$
 
 The inertia is not published, so it is estimated from a radius of gyration taken as a fraction of span and
-reported across a bracket rather than asserted. At 0.22 of the span,
+reported across a bracket. At 0.22 of the span,
 
 $$I_{xx} = m k_x^{2} = 15{,}422 \times 2.213^{2} = 75{,}400 \ \text{kg m}^{2}$$
 
@@ -639,27 +647,29 @@ $$\dot{p} = \frac{60{,}718}{75{,}400} = 0.805 \ \text{rad/s}^{2} = 46.07 \ \text
 **which is a healthy figure for a hovering aircraft.** Across the plausible bracket of radius of gyration
 and post position it runs from 30.6 to 55.7 degrees per second squared.
 
-**Now subtract what a single-rotation fan would have taken.** Its reaction torque at the article's own speed
-estimate is 56,655 newton metres, which is **93.31 percent of the whole couple**, leaving 4,063 newton
+**Now subtract what a single-rotation fan would have taken.** Its reaction torque at the speed
+estimated above is 56,655 newton metres, which is **93.31 percent of the couple**, leaving 4,063 newton
 metres and
 
 $$\dot{p}_{\text{residual}} = \frac{4{,}063}{75{,}400} = 3.083 \ \text{deg/s}^{2}$$
 
 **Three degrees per second squared is not a degraded control system. It is not a control system.** A pilot
 holding a hover in a crosswind would have had about one fifteenth of the roll acceleration the aircraft
-actually has.
-**This is what the counter-rotating fan buys, expressed in the units the handling-qualities literature uses**,
-and it is a stronger statement than the percentage the earlier section could make.
+has.
+**That difference is the return on the counter-rotating fan, expressed in the units the handling-qualities literature uses**,
+and it makes a stronger statement than the percentage the earlier section could make.
 
 ### Structure and the Variant Problem
 
 The three variants share a fuselage cross-section and a great deal of structure, and differ in wing area, in
 landing gear, and in whether a lift fan occupies the volume immediately behind the cockpit.
-**That shared volume is the hardest constraint in the whole design**, because the conventional and carrier
+**That shared volume is the hardest constraint in the design**, because the conventional and carrier
 variants carry fuel where the short-takeoff and vertical-landing variant, or STOVL variant, carries a fan,
-and the airframe has to be the same airframe for the commonality argument to pay.
+and the airframe has to be the same airframe for the commonality argument to pay. The STOVL variant
+[trades fuel volume for vertical flight systems][ref_x35], and the carrier variant has a larger wing and
+stronger landing gear.
 
-**The size of that constraint can be estimated rather than gestured at.** The fan bay is at least the swept
+**The size of that constraint can be estimated.** The fan bay is at least the swept
 volume of the fan itself,
 
 $$V = \frac{\pi D^{2}}{4} \ell$$
@@ -671,23 +681,26 @@ $$W_{\text{fuel}} = \rho_f V = 800 \times 1.773 = 1{,}419 \ \text{kg} = 3{,}128 
 
 **so the hovering variant gives up roughly three thousand pounds of internal fuel to the fan**, running from
 2,681 pounds at the short bay to 3,575 at the long one.
-**That is the commonality argument's bill, and it is paid in range by the variant that can least afford it.**
+**That is the commonality argument's bill, paid in range by the variant that can least afford it.**
 The estimate is a lower bound, since the bay must also house doors, the drive shaft and the clutch.
 
 ## The Flight Test Record
 
-### The Precedents, Because One of Them Matters More Than Is Usually Said
+### The Precedents
 
 **Two aircraft had already solved parts of this problem.** The [Harrier][ref_harrier] made vertical landing
 an operational reality from the late 1960s using a single engine with four rotating nozzles, and it was
-never supersonic. The Yak-141 was supersonic and hovered, using two dedicated lift engines and a main engine
-exhausting through a **three-bearing swivel nozzle**.
+never supersonic. The [Yak-141][ref_yak141] was supersonic and hovered, using two dedicated lift engines and a main
+engine exhausting through a **three-bearing swivel nozzle**.
 
-**That last phrase should stop a reader, because it is the X-35's rear nozzle.** Lockheed and Yakovlev
+**That last phrase also describes the X-35's rear nozzle.** Lockheed and Yakovlev
 entered a [partnership in 1991 for further development of the Yak-141][ref_yak141], and the resemblance between the two swivel modules is close and widely noted.
 **How much of the X-35's nozzle descends from that arrangement is disputed and this article does not attempt to settle it**,
 but the concept was not invented at Palmdale and the article would be misleading if it implied otherwise.
-**The shaft-driven lift fan is the genuinely new idea. The nozzle behind it has a longer history.**
+The X-35 reference credits a [1972 Convair design with pioneering the three-bearing swivel nozzle][ref_x35].
+**The shaft-driven lift fan is the newer idea. The nozzle behind it has a longer history.** Even the fan
+[dates as a concept to the mid-1950s][ref_liftfan], and the X-35B was the
+[first aircraft a shaft-driven lift fan lifted into the sky][ref_lm_first_vertical].
 
 ### What Actually Flew
 
@@ -702,13 +715,13 @@ vertical landings, 14 short takeoffs, 18 vertical takeoffs, five supersonic flig
 refuellings. [A 2008 Lockheed Martin release][ref_lm_groundtest_2008] gives 17 vertical takeoffs for the same
 campaign, with the same 14 short takeoffs and 27 vertical landings.
 
-**One number in the table is disputed and the disagreement is worth recording rather than resolving.**
+**One number in the table is disputed, and this article records the disagreement without resolving it.**
 [Contemporary programme reporting][ref_lm_x35c_supersonic] gives the X-35A 27 flights in thirty days, while
-[a later reference account][ref_x35] gives 28 test flights. Nothing in this article turns on which is right.
+[a later reference account][ref_x35] gives 28 test flights. No conclusion here turns on which is right.
 
 ### The Eleven Days That Contain the Answer
 
-**This is the section the article exists for.** Setting the X-35B's flights out in order, with the first
+**This section carries the article's central evidence.** Setting the X-35B's flights out in order, with the first
 occurrence of each capability marked, does something no summary of Mission X does.
 
 | Date, 2001 | Event | First of its kind for this aircraft |
@@ -724,15 +737,19 @@ occurrence of each capability marked, does something no summary of Mission X doe
 
 **By 16 July the aircraft had already flown every element of Mission X.** It had converted between modes in
 flight, it had gone supersonic, it had taken off short, it had transitioned from wingborne to jet-borne
-flight, and it had landed vertically. The programme manager said so at the time, in those terms, four days
-before the famous flight.
+flight, and it had landed vertically. Lockheed Martin's programme general manager
+[listed short takeoffs, transitions, hovers, vertical landings and supersonic flight as complete][ref_lm_shorttakeoff]
+at the time, four days before the famous flight,
+and the pilot who flew Mission X later wrote that [each event had been accomplished on a previous
+sortie][ref_tomassetti].
 
-**And the 9 July sortie went faster than Mission X did.** It reached Mach 1.08 against Mission X's Mach
-1.05, and it did so on the same flight as the aircraft's first in-flight conversion to hovering mode and an
-aerial refuelling.
+**And the 9 July sortie went faster than Mission X did.** It reached
+[an indicated Mach 1.08][ref_lm_conversion] against Mission X's [Mach 1.05][ref_lm_completion], and it did so
+on the [same flight as the aircraft's first in-flight conversion to hovering mode and an aerial
+refuelling][ref_lm_shorttakeoff].
 
 **So Mission X contained no manoeuvre the aircraft had not already performed, and it was not the aircraft's fastest flight.**
-What it contained was the assembly. That is a real thing to have demonstrated, and it is a different thing
+What it contained was the assembly. Assembly is a legitimate thing to demonstrate, but it differs
 from what the reputation implies.
 
 ## Comparison With Ground Prediction
@@ -747,7 +764,7 @@ after that day's Mission X repetition,
 [used approximately five hundred feet of runway and left the ground at about sixty knots, and the same
 flight ended in a vertical landing at an aircraft weight of more than 34,000 pounds][ref_lm_completion].
 That aircraft therefore weighed more than 34,000 pounds at takeoff. No Mission X weight is published, and
-the section headed The Takeoff Did Not Have to Be Short bounds it between 30,000 and 41,500 pounds.
+the section headed The Takeoff Did Not Have to Be Short bounds it between 34,197 and 45,697 pounds.
 
 **At unstick the weight is carried by two things, and only two.** Writing $L$ for wing lift, $T_v$ for
 whatever the lift system points downward and $W$ for weight, an aircraft leaves the ground once
@@ -759,8 +776,7 @@ The fan and the roll posts point downward whatever the rear nozzle does,
 $$T_f = 20{,}000 + 2 \times 1{,}950 = 23{,}900 \ \text{lbf}$$
 
 and a rear nozzle of thrust $T_r$ deflected by $\theta$ below the horizontal adds $T_r \sin\theta$.
-**Taking the rear nozzle as delivering its published 18,000 pounds force at eighty knots, which is an
-assumption and is labelled as one**, the Mission X vectoring to 60 degrees gives
+**Assuming that the rear nozzle delivers its published 18,000 pounds force at eighty knots**, the Mission X vectoring to 60 degrees gives
 
 $$T_v = T_f + T_r \sin\theta = 23{,}900 + 18{,}000 \sin 60^{\circ} = 23{,}900 + 15{,}588 = 39{,}488 \ \text{lbf}$$
 
@@ -770,13 +786,13 @@ $$\tfrac{1}{2} \rho V^{2} S = \tfrac{1}{2} \times 1.225 \times 41.156^{2} \times
 
 so the lift coefficient the record requires is at most what the heaviest weight in the bracket demands,
 
-$$C_L \ge \frac{W - T_v}{\tfrac{1}{2} \rho V^{2} S} = \frac{41{,}500 - 39{,}488}{9{,}751} = 0.206$$
+$$C_L \ge \frac{W - T_v}{\tfrac{1}{2} \rho V^{2} S} = \frac{45{,}697 - 39{,}488}{9{,}751} = 0.637$$
 
-**The record cannot pin a lift coefficient, and this is the finding.** At any weight up to 39,488 pounds the
-vectored lift system alone exceeds the weight and the required coefficient is zero or negative, and even at
-the ceiling of the bracket the wing need supply no more than a coefficient of 0.206. A Mission X unstick at
-eighty knots with the nozzle at 60 degrees is consistent with almost any wing lift at all, because the lift
-system was carrying nearly the whole aircraft.
+**The finding is that the record cannot pin a lift coefficient.** At any weight up to 39,488 pounds the
+vectored lift system alone exceeds the weight and the required coefficient is zero or negative, and at
+the ceiling of the bracket the wing need supply no more than a coefficient of 0.637. A Mission X unstick at
+eighty knots with the nozzle at 60 degrees is consistent with a wide range of wing lift, because the lift
+system was carrying at least 86 percent of the aircraft.
 
 **The 26 July takeoff can be read the same way, and it too leaves the coefficient open.** At sixty knots
 
@@ -791,11 +807,13 @@ which depends on both the unpublished weight and the unknown coefficient,
 | Weight, lb | Deflection at $C_L = 0$ | Deflection at $C_L = 0.5$ | Deflection at $C_L = 1.0$ |
 |---|---|---|---|
 | 34,000, the documented floor for that flight | 34.13 degrees | 24.13 degrees | 14.86 degrees |
-| 41,500, the ceiling of the bracket | 77.90 degrees | 55.63 degrees | 42.31 degrees |
+| 45,697, the ceiling of the bracket | no balance | no balance | 64.99 degrees |
 
-**Every entry is inside the swivel module's ninety-five degrees**, so at every weight in the bracket the
-lift system could have balanced the aircraft at sixty knots with no help from the wing. What the record
-does not say is how far the nozzle actually moved on 26 July, and the one deflection it does record, the
+**At the documented floor every entry is inside the swivel module's ninety-five degrees**, so at that weight the
+lift system could have balanced the aircraft at sixty knots with no help from the wing. At the ceiling of the
+bracket it could not, because its 41,900 pounds force falls short of the weight even with the nozzle pointing
+straight down, and the wing must then supply a coefficient of at least 0.692. The record is
+silent on how far the nozzle moved on 26 July, and the one deflection it does record, the
 60 degrees of Mission X, is larger than most of the table requires.
 
 ### The Conversion Corridor, Read From the Record
@@ -809,14 +827,15 @@ at follows from
 
 $$C_L = \frac{W}{\tfrac{1}{2} \rho V^{2} S}, \qquad \tfrac{1}{2} \times 1.225 \times 92.6^{2} \times 41.81 = 219{,}588 \ \text{N} = 49{,}365 \ \text{lbf}$$
 
-which for any weight between the empty 26,500 pounds and the 41,500 pounds of a full internal fuel load is
+which for any weight between the 30,697 pound empty weight taken for the bracket and the 45,697 pounds of a
+full internal fuel load is
 
-$$C_L = \frac{26{,}500}{49{,}365} = 0.537 \quad \text{to} \quad \frac{41{,}500}{49{,}365} = 0.841$$
+$$C_L = \frac{30{,}697}{49{,}365} = 0.622 \quad \text{to} \quad \frac{45{,}697}{49{,}365} = 0.926$$
 
 **The X-35B made its first in-flight conversion where lift was already free.** That is the safest place to
 engage a lift fan, because a failure of the engagement leaves an aircraft that is already flying.
 **And it is still the point at which the momentum drag computed earlier is at its largest.** The conversion
-was flown where lift was free and drag was most expensive, which is the right trade and not an obvious one.
+was flown where lift was free and drag was most expensive, the right trade though not an obvious one.
 The speed below which the wing could not have carried the aircraft unaided depends on the wing's usable
 lift coefficient, which no source gives, so this article does not state one.
 
@@ -830,17 +849,18 @@ $$\bar{a} = \frac{V^{2}}{2 s} = \frac{41.156^{2}}{2 \times 60.96} = 13.89 \ \tex
 and even if every pound of the lift system's published thrust pointed aft, with no drag and no rolling
 friction, the lightest weight in the bracket allows at most
 
-$$\frac{a_{\max}}{g} = \frac{T_{\text{total}}}{W} = \frac{41{,}900}{30{,}000} = 1.397$$
+$$\frac{a_{\max}}{g} = \frac{T_{\text{total}}}{W} = \frac{41{,}900}{34{,}197} = 1.225$$
 
 In fact only the rear nozzle points aft during a roll, and its 18,000 pounds force at that weight gives a
 frictionless, dragless minimum of
 
-$$s_{\min} = \frac{V^{2}}{2 g \, T_r / W} = \frac{41.156^{2}}{2 \times 9.80665 \times 0.6} = 143.9 \ \text{m} = 472 \ \text{ft}$$
+$$s_{\min} = \frac{V^{2}}{2 g \, T_r / W} = \frac{41.156^{2}}{2 \times 9.80665 \times 0.5264} = 164.1 \ \text{m} = 538.3 \ \text{ft}$$
 
 **So the 200 feet and the eighty knots cannot both describe a roll from brake release.** The account was
 written for a general readership after the event, and one of the two figures, or what the distance was
-measured from, must differ from what the printed sentence says. The press release figure for that flight is
-the speed alone, and this article relies on the speed.
+measured from, must differ from what the printed sentence says. The 2001 press release figure for that flight
+is the speed alone. The [company's 2019 account][ref_missionx] gives a 450-foot takeoff, which is also shorter
+than the 538 foot minimum, and this article relies on the speed.
 
 **The 26 July roll does close, and it leaves a margin.** Taking the nozzle as pointing aft during the roll
 and moving only at unstick, which is what the Mission X account describes and is an assumption for 26 July,
@@ -871,65 +891,73 @@ Across the weight bracket for that flight,
 | Weight, lb | $A$, m/s² | $B$, 1/m | Minimum roll, ft | Quoted over minimum | Available, $g$ | Share used |
 |---|---|---|---|---|---|---|
 | 34,000 | 5.104 | 4.151 × 10⁻⁵ | 307.4 | 1.627 | 0.518 | 0.615 |
-| 41,500 | 4.129 | 3.401 × 10⁻⁵ | 380.0 | 1.316 | 0.419 | 0.760 |
+| 45,697 | 3.722 | 3.088 × 10⁻⁵ | 421.5 | 1.186 | 0.378 | 0.843 |
 
 where the share used is $\bar{a} / a_{\text{avail}}$. **The quoted five hundred feet is longer than the
-minimum at every weight in the bracket**, by a factor between 1.316 and 1.627, so between 61.5 and 76.0
+minimum at every weight in the bracket**, by a factor between 1.186 and 1.627, so between 61.5 and 84.3
 percent of the available horizontal thrust appears in the quoted distance. Thrust build-up from brake
 release accounts for part of the gap.
 
-**Acceleration was not scarce.** An aircraft that can reach its unstick speed in between 307 and 380 feet
+**Acceleration was not scarce.** An aircraft that can reach its unstick speed in between 307 and 422 feet
 and takes 500 is not straining, and there is no reason it should have been strained, because of the number
 in the next paragraph.
 
 ### The Takeoff Did Not Have to Be Short
 
-**Total vertical thrust is 41,900 pounds force, and the weight it can exactly hold up follows immediately,**
+**Total vertical thrust is 41,900 pounds force, and the largest weight it can hold up follows immediately,**
 
 $$W_{\max} = \frac{T_{\text{total}}}{g} = \frac{186{,}381}{9.80665} = 19{,}006 \ \text{kg} = 41{,}900 \ \text{lb}$$
 
 The numerical coincidence between the weight limit in pounds and the thrust in pounds force is an artefact
-of the unit system rather than a result. At the 34,000 pounds the aircraft is documented to have weighed
-on the 26 July flight, the margin is
+of the unit system rather than a result. At the 34,000 pounds the aircraft is
+[documented to have weighed][ref_lm_completion] on the 26 July flight, the margin is
 
 $$\frac{T_{\text{total}}}{W} = \frac{41{,}900}{34{,}000} = 1.232$$
 
-**so at that weight the X-35B could have taken off vertically.** It had done so eighteen times.
+**so at that weight the X-35B could have taken off vertically.** It had already done so
+[seventeen times in late June][ref_lm_conversion].
 
 **No takeoff weight or fuel state for Mission X itself has been published.** The
 [pilot's own account][ref_tomassetti] records that the sortie followed a familiarisation flight and a hot
 refuelling, and that by the end fuel and time were short enough that the last set of test points was
-dropped. The weight is therefore bounded rather than known. Its floor is the
-[empty weight of 26,500 pounds][ref_x35] plus the fuel the sortie burned, since the aircraft must have
-carried at least that much, and its ceiling is the empty weight plus the
-[15,000 pounds of internal fuel][ref_x35] the aircraft could hold. Taking that burn as 3,500 pounds,
-which is an assumption and is labelled as one, and neglecting the pilot and the test instrumentation, both
+dropped. The weight is therefore bounded rather than known. Its floor is the empty weight plus the fuel
+the sortie burned, since the aircraft must have carried at least that much, and its ceiling is the empty
+weight plus the [15,000 pounds of internal fuel][ref_x35] the aircraft could hold. Published empty weights
+disagree. The [X-35 reference][ref_x35] gives 26,500 pounds for the X-35A and 30,697 pounds for the X-35B,
+and [another compilation][ref_aerospaceweb_x35] gives about 23,500 pounds for the X-35B. The bracket takes
+the 30,697 pounds that the X-35 reference gives for this variant, since the internal fuel figure comes from
+the same table. The lower compilation figure would lower both ends of the bracket by 7,197 pounds. Assuming that burn to be 3,500 pounds,
+and neglecting the pilot and the test instrumentation, both
 of which add to every weight in the bracket,
 
-$$W_{\text{TO}} = W_{\text{empty}} + W_{\text{fuel}}, \qquad 26{,}500 + 3{,}500 = 30{,}000 \ \le \ W_{\text{TO}} \ \le \ 26{,}500 + 15{,}000 = 41{,}500 \ \text{lb}$$
+$$W_{\text{TO}} = W_{\text{empty}} + W_{\text{fuel}}, \qquad 30{,}697 + 3{,}500 = 34{,}197 \ \le \ W_{\text{TO}} \ \le \ 30{,}697 + 15{,}000 = 45{,}697 \ \text{lb}$$
 
 At the ceiling the margin is
 
-$$\frac{T_{\text{total}}}{W_{\text{TO}}} = \frac{41{,}900}{41{,}500} = 1.0096$$
+$$\frac{T_{\text{total}}}{W_{\text{TO}}} = \frac{41{,}900}{45{,}697} = 0.9169$$
 
-**which is less than one percent, and smaller than the 3.354 percent of thrust that the corrected-flow
-relation above removes for a ten kelvin inlet temperature rise.** Every X-35B vertical takeoff, hover and
+**which is below unity, so at full internal fuel the X-35B could not have taken off vertically at all.**
+Vertical takeoff needs a weight below 41,900 pounds, which is a fuel load below 11,203 pounds, or about three
+quarters of the internal capacity, before the 3.354 percent of thrust that the corrected-flow relation above
+removes for a ten kelvin inlet temperature rise is counted. Every X-35B vertical takeoff, hover and
 landing was also
 [flown at 2,500 feet elevation in temperatures up to 94 degrees Fahrenheit][ref_lm_conversion], conditions
 that the sea-level standard thrust does not describe.
 
-**So the claim holds only in a narrowed form.** At 34,000 pounds, and at any Mission X takeoff weight well
-short of full internal fuel, the X-35B could have taken off vertically, and the short takeoff demonstrated a
-technique rather than relieving a constraint. Near full internal fuel the sea-level margin is smaller than
-what temperature and elevation plausibly consume, and the record does not say how much fuel Mission X
-carried. A short takeoff exists in the operational requirement because the aeroplane that matters will be
+**So the claim holds only in a narrowed form.** At 34,000 pounds, and at any Mission X takeoff weight with
+well under three quarters of the internal fuel, the X-35B could have taken off vertically, and the short takeoff
+demonstrated a technique rather than relieving a constraint. Above about three quarters the weight exceeds the
+sea-level vertical thrust, short of it the margin is smaller than what temperature and elevation plausibly
+consume, and the fuel Mission X carried has
+never been released. A short takeoff exists in the operational requirement because the aeroplane that matters will be
 heavier than its vertical thrust, and will need wing lift to get airborne with a useful load. The record does
 not show the demonstrator in that condition on 20 July, and it does not exclude it.
 
 ### The Supersonic Leg Was Thermally Free
 
-Mission X reached Mach 1.05 at twenty-five thousand feet, and the conditions there follow from the standard
-atmosphere rather than from a table. Below the tropopause the temperature falls linearly and the hydrostatic
+Mission X [reached Mach 1.05 at twenty-five thousand feet][ref_lm_completion], and the conditions there follow
+from the standard
+atmosphere. Below the tropopause the temperature falls linearly and the hydrostatic
 equation integrates to a power law,
 
 $$T = T_{\text{SL}} - Lh \qquad \text{and} \qquad p = p_{\text{SL}} \left(\frac{T}{T_{\text{SL}}}\right)^{\frac{g_0}{RL}}$$
@@ -953,8 +981,8 @@ $$T_0 = T + \frac{V^{2}}{2 c_p} = 238.62 + \frac{325.2^{2}}{2 \times 1004.7} = 2
 kelvin warmer than a standard day at sea level.
 
 **There was no thermal event.** Kinetic heating at low supersonic speed is negligible, and any argument that
-sequencing a supersonic dash before a vertical landing subjected the lift system to a hot start has nothing
-to stand on.
+sequencing a supersonic dash before a vertical landing subjected the lift system to a hot start has no
+support.
 
 Nor was thrust scarce, and the drag can be built up from its parts rather than taken as one lumped
 coefficient. The dynamic pressure is
@@ -970,7 +998,7 @@ coefficient is
 
 $$C_{D_i} = \frac{C_L^{2}}{\pi \, \mathrm{AR} \, e} = \frac{0.1247^{2}}{\pi \times 2.42 \times 0.75} = 0.002726$$
 
-**which is negligible, and that is itself worth noticing**, because it means the dash is a pure zero-lift
+**which is negligible**, so the dash is a pure zero-lift
 and wave-drag problem. Adding an assumed subsonic zero-lift coefficient of 0.018 and a wave-drag increment
 of 0.017 at the transonic peak,
 
@@ -986,7 +1014,7 @@ $$T = T_{\text{SL}} \sigma^{n} = 40{,}000 \times 0.4481^{0.7} = 40{,}000 \times 
 
 **The exponent is assumed and the conclusion does not depend on it.** Across values from 0.6 to 1.0 the
 thrust available runs from 24,711 down to 17,925 pounds force and the ratio of thrust to drag from 2.589 to
-1.878, so the margin survives the whole range. Taking the build-up rather than the lumped coefficient,
+1.878, so the margin survives the range. Taking the build-up,
 
 $$\frac{T}{D} = \frac{22{,}805}{10{,}289} = 2.216 \qquad \text{or} \qquad \frac{D}{T} = \frac{10{,}289}{22{,}805} = 0.451$$
 
@@ -995,9 +1023,9 @@ so holding the dash uses 45.1 percent of the thrust available.
 The two estimates differ by eight percent and neither is close to the value that would make Mach 1.05
 difficult.
 
-**The aircraft was not working to hold Mach 1.05.** It was flying at an envelope limit set by the test
-programme, on a demonstrator whose inlet and structure had been cleared to a little over Mach 1.1, and the
-previous sortie had already reached Mach 1.08.
+**The aircraft was not working to hold Mach 1.05.** It was flying at [the target speed of the
+test][ref_tomassetti], on a demonstrator that [reached Mach 1.2 on a later flight of 26 July][ref_lm_completion],
+and the 9 July sortie had already reached Mach 1.08.
 
 ### The Vertical Landing Was the Easiest of the Three
 
@@ -1013,25 +1041,27 @@ which needs no thrust figure at all. Across the takeoff-weight bracket of the pr
 
 | Takeoff weight, lb | Takeoff margin | Landing weight, lb | Landing margin | Gain from the ordering |
 |---|---|---|---|---|
-| 30,000, the floor | 1.397 | 26,500 | 1.581 | 1.132 |
-| 34,000, the documented 26 July weight | 1.232 | 30,500 | 1.374 | 1.115 |
-| 41,500, the ceiling | 1.010 | 38,000 | 1.103 | 1.092 |
+| 34,197, the floor | 1.225 | 30,697 | 1.365 | 1.114 |
+| 45,697, the ceiling | 0.917 | 42,197 | 0.993 | 1.083 |
 
-**The ordering argument survives across the whole bracket.** The landing is always the lightest point of the
-sortie, the gain from the ordering runs from 1.092 to 1.132, and the landing margin never falls below 1.103.
-Even after the 3.354 percent loss of a ten kelvin inlet rise it remains above unity,
+**The ordering helps across the bracket, but it does not rescue the ceiling.** The landing is always the
+lightest point of the sortie and the gain from the ordering runs from 1.083 to 1.114, but at the ceiling the
+landing margin is 0.993, and after the 3.354 percent loss of a ten kelvin inlet rise it falls further,
 
-$$\frac{T_{\text{total}}}{W_{\text{land}}} \cdot \frac{T_{\text{amb}}}{T_{\text{amb}} + \Delta T} = \frac{41{,}900}{38{,}000} \times \frac{288.15}{298.15} = 1.066$$
+$$\frac{T_{\text{total}}}{W_{\text{land}}} \cdot \frac{T_{\text{amb}}}{T_{\text{amb}} + \Delta T} = \frac{41{,}900}{42{,}197} \times \frac{288.15}{298.15} = 0.960$$
 
-What the bracket removes
-is the single figure. A gain of 1.115 belongs to a 34,000 pound takeoff, a weight documented for a different
-flight, and not to Mission X.
+**The vertical landing that ended Mission X therefore bounds its takeoff weight.** With the assumed burn the
+landing weight lies within the sea-level vertical thrust only for a takeoff weight below 45,400 pounds, which
+excludes the top of the bracket, and a hot day lowers that bound further. What the bracket removes
+is the single figure. The documented 34,000 pounds of 26 July lies below the floor of the bracket, and with
+the assumed burn it would imply a landing weight of 30,500 pounds, under the empty weight the bracket uses,
+so it is not a Mission X case.
 
 **The three events were flown in the order that makes each of them easiest.** The short takeoff came first,
 when the aircraft was heaviest and a rolling start was most useful. The supersonic dash came in the middle,
 where it burned the fuel. The vertical landing came last, when the aircraft was lightest and the manoeuvre
 most comfortable.
-**An operational sortie would be flown in exactly that order, so this is not a criticism of the profile. It is an observation that the profile does not test a worst case, and it was never claimed to.**
+**An operational sortie would be flown in that order too, so the profile is not being criticised. It does not test a worst case, and it was never claimed to.**
 
 The worst case for this architecture is a vertical landing at high weight with stores still aboard, which is
 the bring-back problem the previous article examined in detail for the rival.
@@ -1044,17 +1074,18 @@ the bring-back problem the previous article examined in detail for the rival.
 **Mission X was evidence for one proposition and display for another, and the two are easy to conflate.**
 
 It is genuine evidence that the installation requires no reconfiguration between hovering and supersonic
-flight. That is a real architectural property, the rival did not have it, and a single sortie moving through
+flight. That is a real architectural property, [the rival did not have it][ref_x32], and a single sortie moving through
 both regimes demonstrates it as directly as anything could.
 
-**It is not evidence that the combination itself was new, and a claim often made for Mission X is simply wrong.**
-The [Yakovlev Yak-141][ref_yak141] flew supersonically in 1987 and completed full transitions from 1990, so
+**It is not evidence that the combination itself was new, and a claim often made for Mission X is wrong.**
+The [Yakovlev Yak-141][ref_yak141] was a supersonic design that first flew in 1987 and made its first full
+transition in 1990, so
 a vertical-landing aircraft capable of supersonic flight without reconfiguration existed more than a decade
 earlier. **What was new on 20 July 2001 was the sequence in one sortie, not the capability.**
 
-**It is not evidence that any of the three regimes was individually difficult for this aircraft, because the arithmetic says none of them was.**
+**It is not evidence that any of the three regimes was individually difficult for this aircraft, because the arithmetic shows that none of them was.**
 The short takeoff was flown by an aeroplane that could have gone straight up unless it carried nearly full internal
-fuel, which the record does not say. The supersonic dash, as computed
+fuel, and its fuel load is not on record. The supersonic dash, as computed
 under The Supersonic Leg Was Thermally Free, raised the
 stagnation temperature by three kelvin over a sea-level standard day and used 45.1 percent of the thrust
 available. The vertical landing happened at the lightest the aircraft had been on that sortie.
@@ -1063,41 +1094,43 @@ available. The vertical landing happened at the lightest the aircraft had been o
 first in-flight conversion had happened on 9 July, and that sortie went faster.
 **The information was retired on 9 July and the demonstration was performed on 20 July.**
 
-**That is not a criticism of anyone.** A demonstration exists to make something legible to people who will
+**No one is at fault here.** A demonstration exists to make something legible to people who will
 not read a flight test report, and Mission X did that better than any report could.
 **But a flight that transfers no new information to the engineers and a great deal to everyone else is a display, and calling it by its name costs the programme nothing.**
 
 ### What the Programme Settled
 
-The programme established that a shaft-driven lift fan works on an aeroplane, which had never been shown at
-this scale or this power, and the team received the [Collier Trophy][ref_collier] for 2001 on that basis.
+The programme established that a shaft-driven lift fan works on an aeroplane, which
+[had never been shown][ref_lm_first_vertical] at this scale or this power, and the team received the
+[Collier Trophy][ref_collier] for 2001 on that basis.
 **The fan's open literature began before the flights and continued after them.** The shaft-driven lift fan
 propulsion system and lift concept for the Joint Strike Fighter are described in
-[Bevilaqua 1997][research_bevilaqua_1997] and [Winfree 1998][research_winfree_1998], and the fan itself is
+[Bevilaqua 1997][research_bevilaqua_1997] and [Winfree 1998][research_winfree_1998], and the fan is
 treated in [a study of the flow characteristics of a shaft driven lift engine][research_palmer_holdo_2002] in 2002 and
 [a forced response analysis of a shaft-driven lift fan][research_sayma_vahdati_2003] in 2003. It established
-that the clutch, gearbox and drive shaft survive repeated engagement in flight. It established that mode
-conversion can be flown as a routine event rather than as a test point.
+that the clutch, gearbox and drive shaft survive repeated engagement in flight. It established that
+[mode conversion can be flown as a routine event][ref_lm_completion] rather than as a test point.
 **And it established, by the counter-rotation argument above, that a fan of this power can be installed without consuming the aircraft's roll authority.**
 
 ### What It Fed Into
 
-The architecture went into production essentially unchanged in principle, which is unusual. The production
-lift system kept the shaft drive, the counter-rotating fan, the clutch, the three-bearing swivel module and
+The architecture went into production
+[essentially unchanged in principle][ref_codeone], which is unusual. The production lift system kept the
+shaft drive, the counter-rotating fan, the clutch, the three-bearing swivel module and
 the roll posts.
 
-**The literature followed the aircraft rather than the designation, and this is the mirror image of the previous two articles' finding.**
+**The literature followed the aircraft and left the designation behind, the mirror image of the previous two articles' finding.**
 The X-33 and the X-34 each all but stopped generating literature under their own names once they were
 cancelled, and this article's subject shows the control case.
 **The X-35's own trace is also thin, and for the opposite reason. The work did not stop. It changed name.**
 
 ### What It Failed to Influence
 
-**The demonstration did not settle the weight question, and the weight question is what the production programme had to answer next.**
+**The demonstration did not settle the weight question, which the production programme had to answer next.**
 In 2004 engineers [removed more than 2,700 pounds of unwanted estimated weight from the STOVL design][ref_lm_weight_2004],
 and nothing in the 2001 campaign predicted that need or could have.
 **A demonstrator that weighs 34,000 pounds tells you very little about an aeroplane that will weigh far more**,
-and the architecture's thrust margin is precisely the quantity that weight growth attacks.
+and the architecture's thrust margin is the quantity that weight growth attacks.
 
 ## The Contemporary Literature
 
@@ -1127,7 +1160,7 @@ and the architecture's thrust margin is precisely the quantity that weight growt
 | **Total** | **4,311** |
 
 This article surveys the current literature on its subject as well as studying its aircraft.
-**For this subject the survey is unusually rewarding, because almost every question the X-35 raised is being asked again right now by people building something else entirely.**
+**For this subject the survey is unusually rewarding, because almost every question the X-35 raised is being asked again now by people building other kinds of vehicle.**
 
 ### Powered Lift Moved to Electric Aircraft and Took the Physics With It
 
@@ -1136,17 +1169,16 @@ Disc loading, figure of merit, hover efficiency and outwash are now the working 
 vertical-takeoff aircraft, and nearly all of that literature is recent. Of the 434 records in the
 cluster on electric, distributed and hybrid propulsion below, 415 were published in 2015 or later.
 Distributed and hybrid electric propulsion are reviewed in [Kim et al 2018][research_kim_perry_2018] and
-[Wall and Meyer 2017][research_wall_meyer_2017], and the actuator disc itself is applied to rotor and wing
+[Wall and Meyer 2017][research_wall_meyer_2017], and the actuator disc is applied to rotor and wing
 interaction in hover in [Chen and Hubner 2020][research_chen_hubner_2020] and to rotor flow in
-[Barakos et al 2020][research_barakos_fitzgibbon_2020]. The momentum theory those records share is gathered in the
+[Barakos et al 2020][research_barakos_fitzgibbon_2020]. Records on the momentum theory they share form the
 cluster on rotors, propellers, actuator discs and momentum theory.
 
 **The relation is identical and the answer comes out the other way.** Thrust per unit power is inversely
 proportional to jet velocity, so a designer free to choose disc area will choose a large one. The X-35's fan
 sits at 70.2 kilopascals of disc loading because it had to fit inside a supersonic fighter. An electric
-aircraft with no such constraint runs one or two orders of magnitude lower and buys enormous hover
-efficiency for it.
-**The X-35 is the extreme high-disc-loading end of exactly the trade the current literature explores at the other end.**
+aircraft with no such constraint runs a far lower disc loading and gains enormous hover efficiency from it.
+**The X-35 is the extreme high-disc-loading end of the trade the current literature explores at the other end.**
 
 ### The Lift Fan Itself
 
@@ -1158,8 +1190,9 @@ adopted for the torque reason set out earlier, are now studied for their own aer
 work on two-stage counter-rotating design and on matching the speeds of the two rotors, in
 [Sun et al 2017][research_sun_wang_2017] and [Ai et al 2018][research_ai_qin_2018], and the ducted
 contra-rotating lift fan of [Deng and Ren 2017][research_deng_ren_2017] are where a reader should go for the
-fan itself rather than to anything carrying the aircraft's name. These records are gathered in the clusters on
-lift fans, ducted fans and the fan in the wing, and on fan, compressor and counter-rotating stages.
+fan itself rather than to anything carrying the aircraft's name. The clusters on
+lift fans, ducted fans and the fan in the wing, and on fan, compressor and counter-rotating stages, hold
+these records.
 
 ### The Force the Conversion Makes Has Moved to Electric Aircraft Too
 
@@ -1170,14 +1203,14 @@ through a lifting device while moving forward meets the identical problem, and t
 electric.
 
 The modern vocabulary is **boundary layer ingestion**, **distributed propulsion installation** and
-**the tiltrotor or tiltwing conversion corridor**. The last of those is the closest analogue, because a
-conversion corridor is exactly what this article examined when it found that the X-35B engaged its fan at
+**the tiltrotor or tiltwing conversion corridor**. The last of those is the closest analogue, because this
+article examined a conversion corridor when it found that the X-35B engaged its fan at
 180 knots while flying conventionally, with the wing already carrying the whole weight. The corridor is
 optimized in [Righetti et al 2017][research_righetti_muscarello_2017], its interaction effects are treated in
 [Appleton et al 2021][research_appleton_filippone_2021] and [Tran and Lim 2022][research_tran_lim_2022], and it is
-derived for an electric tiltrotor in [Choi et al 2025][research_choi_thu_2025]. These records sit in the cluster
-on powered lift, V/STOL and STOVL aircraft, and the boundary layer ingestion records in the cluster on inlets,
-intakes and diffusers.
+derived for an electric tiltrotor in [Choi et al 2025][research_choi_thu_2025]. The corridor records fall under
+the cluster on powered lift, V/STOL and STOVL aircraft, and the boundary layer ingestion records under the
+cluster on inlets, intakes and diffusers.
 **An electric vehicle with many rotors faces the same trade between converting early, where the lift system must carry weight, and converting late, where it must absorb drag.**
 
 ### The Swivel Module's Kinematics Live in Robotics Now
@@ -1189,14 +1222,14 @@ Since 2014 a few papers treat the three-bearing swivel duct nozzle itself, its d
 method in [Shi et al 2026][research_shi_zhou_2026]. Spatial mechanisms, constant-velocity couplings and the
 synthesis of linkages that convert rotation into controlled angular deflection are studied far more widely in
 robotics and machine design, as in [Kong 2016][research_kong_2016_b] and
-[Arrouk et al 2018][research_arrouk_bouzgarrou_2018], and that is where a reader should go for the kinematics.
-These records are gathered in the cluster on kinematics of joints, mechanisms and manipulators.
+[Arrouk et al 2018][research_arrouk_bouzgarrou_2018], and the kinematics are best read there.
+The cluster on kinematics of joints, mechanisms and manipulators collects them.
 
 **The high-temperature rotating seal is the part that stayed aeronautical**, because it is the requirement
 that makes the mechanism hard rather than the geometry. The thermal protection of the swivel nozzle's bearings
 is the subject of [Zhang et al 2025][research_zhang_gong_2025] and
-[Jinxin et al 2026][research_jinxin_jingyang_2026], and rotating seals are gathered in the cluster on high-temperature and rotating
-seals.
+[Jinxin et al 2026][research_jinxin_jingyang_2026], and the cluster on high-temperature and rotating
+seals lists that work.
 
 ### Fuel Density Became an Active Subject
 
@@ -1207,14 +1240,14 @@ fuel blends is predicted in [Kurt 2026][research_kurt_2026], high energy density
 [Rijal et al 2025][research_rijal_vasilyev_2025], and the volume swell of drop-in fuels is modelled in
 [Kosir et al 2020][research_kosir_heyne_2020]. The rest of the cluster on fuels and fuel properties concerns
 the composition and properties of alternative fuels and their effect on engine performance and on aircraft missions.
-**An aeroplane that gave up three thousand pounds of fuel volume to carry a fan is exactly the kind that would.**
+**An aeroplane that gave up three thousand pounds of fuel volume to carry a fan is the kind that would.**
 
-### The Ground Environment, Which Became a Computational Subject
+### The Ground Environment Became a Computational Subject
 
-**Hot gas ingestion was being computed by 1990, and its own literature stops with the programme.** The hot
+**Hot gas ingestion was being computed by 1990, and its literature stops with the programme.** The hot
 gas environment around a STOVL aircraft in ground proximity is measured in
 [Sullivan and Murthy 1990][research_sullivan_murthy_1990] and computed in
-[Tafti and Vanka 1990][research_tafti_vanka_1990], ingestion itself is calculated in
+[Tafti and Vanka 1990][research_tafti_vanka_1990], ingestion is calculated in
 [VanOverbeke and Holdeman 1990][research_vanoverbeke_holdeman_1990], and the environment of a hovering jet STOVL
 aircraft is set out in [Kuhn et al 1993][research_kuhn_hange_1993]. Every one of the 28 research
 records whose titles name hot gas ingestion, recirculation or environment, or reingestion, was published
@@ -1223,7 +1256,7 @@ between 1968 and 2002.
 **What became computational is jet impingement, and the shift is one of proportion.** Of the
 205 records in the cluster on jet impingement, ground effect and hot gas ingestion published through
 2001, 26 name a computational method in their titles, against 36 of the 88
-published from 2015 onward. The unsteady pressure and thermal loading a landing surface actually sees is
+published from 2015 onward. The unsteady pressure and thermal loading a landing surface sees is
 measured and computed in [Hromisin et al 2015][research_hromisin_rudenko_2015] and
 [Crowell and Myers 2016][research_crowell_myers_2016], and supersonic impingement on a jet blast deflector and
 on a carrier deck is treated in [Worden et al 2016][research_worden_shih_2016] and
@@ -1231,16 +1264,16 @@ on a carrier deck is treated in [Worden et al 2016][research_worden_shih_2016] a
 
 ### Drivetrains, Clutches and the Energy That Has to Go Somewhere
 
-**The halving identity in this article is not aerospace knowledge. It is drivetrain knowledge**, and the
-literature that owns it is largely automotive and rotorcraft. Of the 121 research records whose titles
+**The halving identity in this article is drivetrain knowledge**, and the
+literature that holds it is largely automotive and rotorcraft. Of the 121 research records whose titles
 name a clutch, six name an aviation, aerospace or STOVL use, among them
 [Bian et al 2025][research_bian_wu_2025] and the dry friction clutch of STOVL aircraft in
 [Zhu et al 2026][research_zhu_li_2026], and the engagement of a shaft-driven lift fan is modelled and controlled
 in [Jiang et al 2023][research_jiang_zhang_2023_b]. The contemporary work on dry and wet clutch thermal
 modelling, as in [Pisaturo et al 2015][research_pisaturo_cirrincione_2015] and
-[Xiaozeng et al 2015][research_xiaozeng_dongyue_2015], is directly applicable to the question of why a mode
-change is a scheduled sequence rather than a switch, and rotorcraft drive systems appear in
-[Stevens et al 2015][research_stevens_lewicki_2015]. These records are gathered in the cluster on clutches,
+[Xiaozeng et al 2015][research_xiaozeng_dongyue_2015], applies directly to the scheduling of a mode
+change, and rotorcraft drive systems appear in
+[Stevens et al 2015][research_stevens_lewicki_2015]. All of these sit in the cluster on clutches,
 gears and drivetrains.
 
 ### Transition, Control Allocation and Hovering
@@ -1253,21 +1286,21 @@ allocation, 96 were published in 2015 or later. Allocation is applied to a taill
 innovative control effectors in [Matamoros and de Visser 2018][research_matamoros_devisser_2018], to a
 hexacopter in [Nguyen et al 2018][research_nguyen_saussie_2018] and to a tilt-rotor in its transition in
 [Zhang et al 2019][research_zhang_bhardwaj_2019], and the general problem is surveyed for marine vessels in
-[Johansen 2016][research_johansen_2016]. These records are gathered in the cluster on flight control, control
-allocation and handling qualities.
+[Johansen 2016][research_johansen_2016]. The cluster on flight control, control
+allocation and handling qualities holds this work.
 
 ### Nozzles, Inlets and Installed Performance
 
-**Thrust vectoring outlived the specific application, and much of its recent literature turns the jet without moving the nozzle.**
+**Thrust vectoring outlived this application, and much of its recent literature turns the jet without moving the nozzle.**
 Of the 101 research records from 2015 onward whose titles name thrust vectoring or vectored thrust,
 42 concern fluidic methods, by secondary injection, bypass ducts, dual throats, shock vectoring,
 counterflow, coflow or the Coanda effect, as in [Das et al 2024][research_das_mankodi_2024],
 [Kara and Kurtuluş 2024][research_kara_kurtulus_2024] and [Shukla et al 2026][research_shukla_mitra_2026]. The
 diverterless inlet passed from the demonstrator to the production aircraft, whose redesigned three-sided cowl
 [retains the diverterless design][ref_codeone], and boundary-layer ingestion into a diverterless intake is measured in [Rein and Koch 2015][research_rein_koch_2015].
-**Installed performance accounting, which is where the thrust lapse in this article's dash calculation properly belongs, remains the least glamorous and most consequential part of the subject**,
-as installed performance seeking control in [Sun et al 2015][research_sun_miao_2015] shows. These records are
-gathered in the clusters on nozzles and thrust vectoring, on inlets, intakes and diffusers, and on engines,
+**Installed performance accounting, the proper home of the thrust lapse in this article's dash calculation, remains the least glamorous and most consequential part of the subject**,
+as installed performance seeking control in [Sun et al 2015][research_sun_miao_2015] shows. Three clusters
+cover this ground, those on nozzles and thrust vectoring, on inlets, intakes and diffusers, and on engines,
 thrust and installed performance.
 
 ### Performance, Weight and the Programme
@@ -1279,10 +1312,10 @@ treat it as a design method, as in [Nigam et al 2015][research_nigam_ayyalasomay
 [Horvath and Wells 2018][research_horvath_wells_2018]. The production programme met the other side of the question
 after the demonstrator had answered every question it was asked, when
 [more than 2,700 pounds of unwanted estimated weight had to be removed from the STOVL design in 2004][ref_lm_weight_2004],
-and in this survey weight as a programme risk appears only indirectly, through cost growth, as in [Gideon and Wasek 2015][research_gideon_wasek_2015]. These records are gathered
+and in this survey weight as a programme risk appears only indirectly, through cost growth, as in [Gideon and Wasek 2015][research_gideon_wasek_2015]. They appear
 in the clusters on weight, sizing and aircraft design, and on fighter programmes, defence acquisition and cost.
 
-### Acoustics, Which Became a Binding Constraint Somewhere Else
+### Acoustics Became a Binding Constraint Somewhere Else
 
 **Noise barely constrained the X-35 and it constrains its successors severely.** The acoustic literature
 around vertical lift has grown because community acceptance is now a design driver for civil vertical flight
@@ -1290,7 +1323,7 @@ in a way it never was for a fighter demonstrator at Edwards. The community noise
 air vehicles is predicted in [Kim et al 2016][research_kim_lim_2016], and the acoustic environment of the
 production aircraft's own vertical landings and of short takeoffs from a carrier is measured in
 [Reichman et al 2016][research_reichman_downing_2016] and [Wall et al 2017][research_wall_mckinley_2017].
-These records are gathered in the cluster on aircraft, jet and rotor acoustics.
+The cluster on aircraft, jet and rotor acoustics contains them.
 
 ### Method, Uncertainty and Computation
 
@@ -1438,7 +1471,7 @@ High-temperature, rotating, brush, finger, foil and labyrinth gas seals, the sea
 engineers nothing new is theatre, then almost every public demonstration in aviation history is theatre,
 which is a sign the criterion is wrong rather than a discovery about aviation.
 
-**A demonstration has a second, legitimate function, which is to establish that separately verified capabilities compose.**
+**A demonstration has a second, legitimate function, to establish that separately verified capabilities compose.**
 Engineers frequently find that they do not. Doing the three in sequence tests the aircraft's ability to do
 them in sequence, including the fuel state, the thermal state, the pilot's workload and the systems'
 behaviour after a long, busy sortie.
@@ -1446,9 +1479,9 @@ behaviour after a long, busy sortie.
 
 ### Mach 1.05 Is the Worst Place on the Drag Curve, Not the Easiest
 
-**The claim that the supersonic leg was cheap deserves its strongest counter-argument stated properly.**
+**The claim that the supersonic leg was cheap should face its strongest counter-argument.**
 Transonic drag rises steeply and peaks a little above Mach one, so Mach 1.05 is close to the most expensive
-point on the whole drag curve rather than a comfortable cruise. An aircraft that reaches Mach 1.05 in level
+point on the drag curve, far from a comfortable cruise. An aircraft that reaches Mach 1.05 in level
 flight has demonstrated that it can push through the peak, which is a stiffer test than reaching a higher
 Mach number would be once past it.
 
@@ -1458,16 +1491,16 @@ and which the arithmetic settles. It also does not disturb the ordering conclusi
 
 ### The Assumed Inputs and What They Carry
 
-Several results here rest on quantities nobody published, and which conclusions would move if the
-assumptions moved should be set out explicitly.
+Several results here depend on quantities that were never published, and the conclusions that would move
+with those assumptions should be set out explicitly.
 
 | Assumed quantity | Used for | Does the conclusion depend on it? |
 |---|---|---|
 | Fan polar moment of inertia, 25 to 50 kg·m² | Clutch energy magnitude | No. The halving identity is exact and the time constant is under a fifth of a second across the bracket |
 | Stage loading coefficient of 0.40 | Estimating fan speed | Weakly. Every threshold in the counter-rotation table is an ordinary fan speed regardless |
 | Roll-post arm, 2.5 to 4.0 m | Counter-rotation threshold | No. The conclusion is stated across the whole bracket |
-| Zero-lift drag 0.025, rolling friction 0.03, nozzle aft until unstick | Ground roll | Slightly. The minimum of 307 to 380 feet stays well short of 500 across the weight bracket |
-| Rear nozzle at its published 18,000 lbf at eighty knots | The Mission X unstick coefficient | No. The finding is that the record cannot pin a coefficient, and a smaller nozzle thrust only raises the bound of 0.206 |
+| Zero-lift drag 0.025, rolling friction 0.03, nozzle aft until unstick | Ground roll | Slightly. The minimum of 307 to 422 feet stays short of 500 across the weight bracket |
+| Rear nozzle at its published 18,000 lbf at eighty knots | The Mission X unstick coefficient | No. The finding is that the record cannot pin a coefficient, and a smaller nozzle thrust only raises the bound of 0.637 |
 | Transonic drag coefficient 0.035 | Dash thrust margin | No. The margin is 2.389 and would survive a doubling |
 | Sortie fuel burn of 3,500 lb | The floor of the takeoff-weight bracket and the landing weight margin | The gain figure, yes. The finding that the ordering helps does not, since the gain exceeds unity for any positive burn |
 | Fan to nozzle separation of 7.5 m | Moment arms and the centre-of-gravity band | Only for the arms in metres. **The station as a fraction, 0.4737, needs no separation at all** |
@@ -1480,11 +1513,11 @@ assumptions moved should be set out explicitly.
 
 ### A Demonstration Is Not Only an Experiment
 
-**The framing this whole series uses treats a research aircraft as an instrument for answering a question, and the X-35 does not fit that framing cleanly.**
+**The framing this series uses treats a research aircraft as an instrument for answering a question, and the X-35 does not fit that framing cleanly.**
 It was a competitor as much as an instrument. Its purpose included persuading a customer, and a machine
 built partly to persuade is not well described by asking only what it measured.
-**The framing does not break down so much as become incomplete**, and the incompleteness is exactly the
-space in which Mission X sits.
+**The framing does not break down so much as become incomplete**, and Mission X sits in the
+space that it leaves.
 
 ## The Source Base
 
@@ -1737,18 +1770,24 @@ only.
 
 ### Historical Fact
 
-The X-35A first flew on 24 October 2000 and completed its conventional campaign on 22 November 2000. The
-X-35C first flew on 16 December 2000 and completed 73 flights and 58 hours by 11 March 2001. The X-35A was
-rebuilt as the X-35B, which made its first vertical takeoff and landing on 23 June 2001 and completed
-testing on 30 July 2001. On 9 July 2001 it performed its first in-flight conversion to hovering mode,
-refuelled in the air, and reached Mach 1.08 on the same sortie. On 16 July 2001 it flew a short takeoff, a
-transition and a vertical landing. On 20 July 2001 Major Art Tomassetti flew Mission X, and on 26 July 2001
-Simon Hargreaves repeated it, and on a later flight that day landed vertically at a weight over 34,000
-pounds. The contract was awarded to Lockheed Martin on
-26 October 2001. The lift system's published figures are a fifty-inch two-stage counter-rotating fan
-producing twenty thousand pounds force from twenty-nine thousand shaft horsepower, a three-bearing swivel
-module passing eighteen thousand pounds force and rotating ninety-five degrees in 2.5 seconds, and roll
-posts of 1,950 pounds force each.
+The X-35A [first flew on 24 October 2000][ref_x35] and
+[completed its conventional campaign on 22 November 2000][ref_lm_x35c_supersonic]. The X-35C first flew on
+16 December 2000 and [completed 73 flights and 58 hours by 11 March 2001][ref_lm_x35c_complete]. The X-35A
+was rebuilt as the X-35B, which made its [first vertical takeoff and landing on 23 June 2001][ref_lm_first_vertical]
+and [completed testing on 30 July 2001][ref_lm_completion]. On 9 July 2001 it performed its
+[first in-flight conversion to hovering mode][ref_lm_conversion], refuelled in the air, and reached an
+indicated Mach 1.08 [on the same sortie][ref_lm_shorttakeoff]. On 16 July 2001 it
+[flew a short takeoff, a transition and a vertical landing][ref_lm_shorttakeoff]. On 20 July 2001 Major Art
+Tomassetti flew Mission X, and on 26 July 2001 Simon Hargreaves repeated it, and on a later flight that day
+[landed vertically at a weight over 34,000 pounds][ref_lm_completion]. The
+[contract was awarded to Lockheed Martin on 26 October 2001][ref_lm_award]. The lift system's published
+figures, which [the LiftSystem reference][ref_liftfan] gives for the production system, are a fifty-inch
+two-stage counter-rotating fan producing twenty thousand pounds force from twenty-nine thousand shaft
+horsepower, a three-bearing swivel module passing eighteen thousand pounds force and rotating ninety-five
+degrees in 2.5 seconds, and roll posts of 1,950 pounds force each. Those figures rest on that single
+encyclopaedic reference, and the 2001 company releases give the X-35B only a round total of nearly 40,000
+pounds of vertical force. Published empty weights for the X-35B disagree, and the takeoff-weight bracket
+uses the higher of them, the 30,697 pounds of the X-35 reference.
 
 ### Engineering Analysis
 
@@ -1760,11 +1799,11 @@ is exact. The identity that exactly half the energy drawn through a clutch engag
 destroyed is exact and independent of the torque profile. The stagnation temperature of 291.2 kelvin at Mach
 1.05 and twenty-five thousand feet follows from the standard atmosphere and the energy equation. The unstick
 force balance shows that the record cannot pin a wing lift coefficient, since the lift system
-vectored to 60 degrees carries all but at most a coefficient of 0.206 at the heaviest weight in the bracket.
+vectored to 60 degrees carries all but at most a coefficient of 0.637 at the heaviest weight in the bracket.
 The 26 July nozzle deflection is therefore given as a table over weight and coefficient rather than as a
-single angle. The minimum ground roll of 307.4 to 380.0 feet follows from the momentum balance with the
+single angle. The minimum ground roll of 307.4 to 421.5 feet follows from the momentum balance with the
 nozzle aft, and the 200 foot Mission X roll in the pilot's account is shown to be incompatible with an
-eighty-knot unstick at any weight in the bracket. The coefficient of 0.537 to 0.841 at the 180 knot
+eighty-knot unstick at any weight in the bracket. The coefficient of 0.622 to 0.926 at the 180 knot
 conversion assumes sea-level density, as the momentum drag does.
 
 The momentum drag of 5,469 pounds force at 180 knots is the fan's mass flow times the true airspeed and is
@@ -1776,32 +1815,32 @@ searching the roll space rather than by derivation. The roll control power of 46
 squared and the residual 3.083 rest on an estimated moment of inertia and are reported across a bracket.
 
 **Every figure in this section except the series-joint search result can be recomputed from the relations and inputs the article displays**,
-and the inputs that were assumed rather than published are listed in the assumptions table with what each
+and the assumed inputs are listed in the assumptions table with what each
 one carries.
 
 ### Inference
 
 That Mission X was the assembly of already-demonstrated elements rather than the retirement of technical
-risk is an inference from the flight chronology, and it is a strong one, because the programme's own
-contemporary statements list every element as already flown four days earlier. That the genuinely novel
-event was the in-flight conversion of 9 July is an inference of the same kind. That counter-rotation was
+risk is an inference from the flight chronology. It is a strong one, because the programme's own
+[contemporary statements][ref_lm_shorttakeoff] list every element as already flown four days earlier.
+That the novel event was the in-flight conversion of 9 July is an inference of the same kind. That counter-rotation was
 necessary rather than merely desirable is an inference from an inverted threshold calculation across a
-bracket of assumed roll-post positions. That the short takeoff was a technique demonstration rather than a
-necessity follows from the thrust margin of 1.232 at 34,000 pounds and is close to a deduction at that
+bracket of assumed roll-post positions. That the short takeoff was optional, a demonstration of
+technique, follows from the thrust margin of 1.232 at 34,000 pounds and is close to a deduction at that
 weight, but no Mission X takeoff weight is published, and at the ceiling of the bracket, empty weight plus
-full internal fuel, the margin is 1.0096 and the deduction fails.
-**That the conversion was the expensive event is an inference from the momentum drag**, which is a real
-force with a real magnitude, but the step from a large force to a hard piloting task is an inference and not
-a measurement, since no workload data for these sorties is public.
+full internal fuel, the margin is 0.9169 and the deduction fails.
+**That the conversion was the expensive event is an inference from the momentum drag**, a physical
+force of computed magnitude, but the step from a large force to a hard piloting task has not been
+measured, since no workload data for these sorties is public.
 
 ### What the Record Does Not Settle
 
 **Whether the fly-off would have gone the other way without Mission X is not settled and cannot be.** Source
-selection weighs many things, the flight was three months before the decision, and no public document
+selection weighs many things, the flight was [three months before the decision][ref_lm_award], and no public document
 apportions the decision among its inputs.
 
 **Whether the X-32 could have flown an equivalent profile with more development time is not settled.** Its
-architecture required reconfiguration as built, but the question of whether that was fundamental or
+architecture [required reconfiguration as built][ref_x32], but the question of whether that was fundamental or
 contingent is a design question that was never taken far enough to answer.
 
 **Several magnitudes are not settled because the quantities they need have never been published.** The
@@ -1809,7 +1848,7 @@ clutch energies need the fan's moment of inertia, the moment arms in metres need
 separation, the roll control power needs the roll moment of inertia, and the pitching moment of the momentum
 drag needs the height of the fan inlet above the centre of gravity.
 **In every case the article gives the relation that needs none of them beside the number that does**, and
-the assumptions table in the framing section says which conclusions would move.
+the assumptions table in the framing section shows which conclusions would move.
 
 **Whether the demonstration's persuasive function should count as part of its engineering value is a question of judgement rather than fact**,
 and this article deliberately answers it in two directions in two different sections.
@@ -1831,7 +1870,7 @@ article on the X-32 and are not repeated here.
 The fan is worth carrying because thrust rises as the square root of mass flow at fixed power, so moving air
 the engine never touched multiplies vertical thrust by 1.676 without burning more fuel. It is
 counter-rotating because a single-rotation fan of that power would have consumed most or all of the
-aircraft's roll authority merely to stand still. Its exhaust is cold because the landing surface and the
+aircraft's roll authority just to hold a hover. Its exhaust is cold because the landing surface and the
 inlet both care more about temperature and pressure than about thrust, and the fan presses between half and
 three fifths as hard as the core does at a third of the absolute temperature.
 **At 34,000 pounds that barrier is worth 66.95 kelvin of tolerable inlet temperature rise before the aircraft can no longer hold itself up.**
@@ -1841,7 +1880,7 @@ element of it had been flown before 20 July 2001, the first in-flight conversion
 earlier on a sortie that went faster, and the arithmetic shows that none of the three events was
 individually demanding for an aircraft with 41,900 pounds force of vertical thrust at the 34,000 pounds it is
 documented to have weighed on 26 July. No Mission X weight is published, and the short takeoff was flown by
-an aeroplane that could have gone straight up unless it carried nearly full internal fuel. The supersonic dash raised the
+an aeroplane that could have gone straight up unless it carried more than about three quarters of its internal fuel. The supersonic dash raised the
 stagnation temperature 3.1 kelvin above a standard sea-level day. The vertical landing happened at the
 lightest weight of the sortie, in the ordering that makes it easiest at any takeoff weight in the bracket.
 
@@ -1850,7 +1889,7 @@ at costs 5,469 pounds force of momentum drag, which is 30.4 percent of everythin
 produce, applied above and ahead of the centre of gravity where it pitches as well as decelerates.
 **Nothing in the hat trick produces a step change of that size.**
 
-**The sortie was a demonstration in the exact sense of the word, and that is not a criticism.** It made an
+**The sortie was a demonstration in the exact sense of the word, and the label carries no reproach.** It made an
 architectural property legible in one flight to people who would never read a test report, and it did so
 honestly, because the property was real and the rival did not have it.
 **What it was not is the experiment.** The experiment was the clutch engaging in flight on 9 July, and
@@ -2025,7 +2064,9 @@ nobody remembers the date.
 
 ### Reference
 
+- [Aerospaceweb, Lockheed Martin X-35 data][ref_aerospaceweb_x35]
 - [Bevilaqua and Shumpert, propulsion system for a vertical and short takeoff and landing aircraft, United States Patent 5,209,428][ref_patent]
+- [Boeing X-32][ref_x32]
 - [Code One Magazine, from X to F][ref_codeone]
 - [Collier Trophy][ref_collier]
 - [Diverterless supersonic inlet][ref_dsi]
@@ -2036,7 +2077,9 @@ nobody remembers the date.
 - [Lockheed Martin team wins the Joint Strike Fighter competition, 26 October 2001][ref_lm_award]
 - [Lockheed Martin X-35][ref_x35]
 - [Lockheed Martin, F-35B succeeds in STOVL propulsion ground test, 29 May 2008][ref_lm_groundtest_2008]
+- [Lockheed Martin, JSF X-35B begins vertical flight operations, 23 June 2001][ref_lm_first_vertical]
 - [Lockheed Martin, Navy JSF breaks sound barrier, KC-10 tanker qualifications completed, 1 February 2001][ref_lm_x35c_supersonic]
+- [Lockheed Martin, Navy JSF completes historic flight test program, 12 March 2001][ref_lm_x35c_complete]
 - [Lockheed Martin, with weight issues resolved, F-35 focus turns to production, 14 September 2004][ref_lm_weight_2004]
 - [Lockheed Martin, X-35B completes flight testing, 1 August 2001][ref_lm_completion]
 - [Lockheed Martin, X-35B converts to STOVL and goes supersonic in the same flight, 10 July 2001][ref_lm_conversion]
@@ -2050,6 +2093,7 @@ nobody remembers the date.
 - [Tomassetti, Above and Beyond, Mission X, Air and Space Smithsonian, May 2002][ref_tomassetti]
 - [Yakovlev Yak-141][ref_yak141]
 
+[ref_aerospaceweb_x35]: https://aerospaceweb.org/aircraft/research/x35/
 [ref_bevilaqua]: https://en.wikipedia.org/wiki/Paul_Bevilaqua
 [ref_codeone]: https://www.codeonemagazine.com/article.html?item_id=28
 [ref_collier]: https://en.wikipedia.org/wiki/Collier_Trophy
@@ -2061,15 +2105,18 @@ nobody remembers the date.
 [ref_lm_award]: https://news.lockheedmartin.com/2001-10-26-Lockheed-Martin-Team-Wins-Joint-Strike-Fighter-Competition-Pledges-Full-Commitment-to-This-Cornerstone-of-Future-Defense-Capability
 [ref_lm_completion]: https://news.lockheedmartin.com/2001-08-01-Lockheed-Martin-JSF-X-35B-Completes-Flight-Testing-Following-History-Making-Short-Takeoff-Supersonic-Dash-Vertical-Landing
 [ref_lm_conversion]: https://news.lockheedmartin.com/2001-07-10-JSF-X-35B-Converts-to-STOVL-Goes-Supersonic-in-the-Same-Flight
+[ref_lm_first_vertical]: https://news.lockheedmartin.com/2001-06-23-JSF-X-35B-Begins-Vertical-Flight-Operations
 [ref_lm_groundtest_2008]: https://news.lockheedmartin.com/2008-05-29-Lockheed-Martin-F-35B-Succeeds-in-STOVL-Propulsion-Ground-Test
 [ref_lm_shorttakeoff]: https://news.lockheedmartin.com/2001-07-16-Lockheed-Martin-JSF-X-35B-Makes-History-After-Vertical-Landing-from-Wingborne-Flight-Short-Takeoff
 [ref_lm_weight_2004]: https://news.lockheedmartin.com/2004-09-14-With-Weight-Issues-Resolved-F-35-Focus-Turns-to-Production
+[ref_lm_x35c_complete]: https://news.lockheedmartin.com/2001-03-12-Lockheed-Martins-Navy-JSF-Completes-Historic-Flight-Test-Program
 [ref_lm_x35c_supersonic]: https://news.lockheedmartin.com/2001-02-01-Lockheed-Martin-Navy-JSF-Breaks-Sound-Barrier-KC-10-Tanker-Qualifications-Completed
 [ref_missionx]: https://www.lockheedmartin.com/en-us/news/features/2019-features/the-hat-trick-history--mission-x-.html
 [ref_momentum]: https://en.wikipedia.org/wiki/Momentum_theory
 [ref_patent]: https://patents.google.com/patent/US5209428A/en
 [ref_stovl]: https://en.wikipedia.org/wiki/STOVL
 [ref_tomassetti]: https://www.smithsonianmag.com/air-space-magazine/above-amp-beyond-mission-x-27960302/
+[ref_x32]: https://en.wikipedia.org/wiki/Boeing_X-32
 [ref_x35]: https://en.wikipedia.org/wiki/Lockheed_Martin_X-35
 [ref_x35b]: https://www.si.edu/object/lockheed-martin-x-35b-stovl:nasm_A20030172000
 [ref_xvehicles]: https://ntrs.nasa.gov/citations/20030067480

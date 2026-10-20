@@ -38,11 +38,11 @@ article in the [X-Planes series][related_post_a297_xplanes_framing], following t
 [X-31][related_post_a328_rockwell_mbb_x31].
 
 **The easy misreading is that the X-32 lost because direct lift does not work.** It works. It had been
-working since the Hawker Siddeley [Harrier][ref_harrier] entered service in 1969, and the X-32B hovered and
-landed vertically. Nothing about the mechanism was in doubt.
+working since the Hawker Siddeley [Harrier][ref_harrier] entered service in 1969, and the X-32B
+[hovered and landed vertically][ref_boeing_x32b_testing]. Nothing about the mechanism was in doubt.
 
 **What was being decided was something else, and it has two halves.** The first is a question in propulsion
-physics with a clean answer that this article derives from published numbers, resting on a research base
+physics with a clean answer that this article derives from published numbers, drawing on a research base
 that the National Aeronautics and Space Administration had been building since the 1970s. The second is a
 question about evidence, namely whether two demonstrators,
 **neither of which was the aeroplane being bought**, could settle a choice about an aircraft that did not
@@ -61,68 +61,68 @@ against an opponent whose design it could not see, under a set of criteria writt
 three different aircraft for three different services.
 
 **The binding question is therefore evidentiary rather than physical.** Both companies could build an
-aeroplane that hovered. What neither could do was build the aeroplane it was proposing, because the
-demonstrators were concept demonstrators, funded to reduce risk rather than to be prototypes.
+aeroplane that [hovered][ref_boeing_x32b_testing]. What neither could do was build the aeroplane it was proposing, because the
+demonstrators were [concept demonstrators][ref_xvehicles], funded to reduce risk and never meant as prototypes.
 **A demonstrator that differs from the proposal in the feature under test is evidence about something other than the proposal**,
-and this article's central historical finding is that the X-32's wing was exactly such a feature.
+and this article's central historical finding is that the X-32's wing was such a feature.
 
-### The Physical Half, Which Has a Clean Answer
+### The Physical Half Has a Clean Answer
 
 **Two ways exist to hold a fighter up on its engine.** The direct-lift approach sends the engine's own
-exhaust downward through vectoring nozzles, which is the [Harrier's][ref_harrier] method and was Boeing's.
-The lift-fan approach takes shaft power off the engine, drives a large fan mounted behind the cockpit, and
-adds a second cold stream, which was Lockheed Martin's.
+exhaust downward through vectoring nozzles, the [Harrier's][ref_harrier] method and Boeing's.
+The lift-fan approach takes shaft power off the engine, drives a large fan
+[mounted behind the cockpit][ref_lm_f35b_ground_test], and adds a second cold stream, which was Lockheed Martin's.
 
 **Those are not two arrangements of the same thing. They are two points on a curve, and the curve has a known shape.**
-The whole of the propulsion argument in this article follows from one relation derived in the sizing section
-below, and the relation is not in dispute. It has been in the textbooks since momentum theory was written
+All of the propulsion argument in this article follows from one relation derived in the sizing section
+below, and the relation is undisputed. It has been in the textbooks since momentum theory was written
 down.
 
-### The Evidentiary Half, Which Does Not
+### The Evidentiary Half Remains Open
 
-**The second half is harder and it is where this article spends its effort.** A fly-off produces one
+**The second half is harder, and this article spends its effort there.** A fly-off produces one
 comparison. It is not a sample, it is not repeatable, and the thing compared is not the thing being bought.
 Asking what such an exercise establishes is a question about
 [whether the quantity measured is the quantity that matters][ref_construct_validity], rather than about
 sampling error.
 
 **The previous article in this series asked a related question and got a different kind of answer.** The
-X-31's combat evaluation flew hundreds of engagements and the difficulty was that a finite sample carries a
+X-31's combat evaluation flew a series of engagements and the difficulty was that a finite sample carries a
 wide interval. Here the sample size is one, and the difficulty is that the one trial was not a trial of the
 proposed aircraft.
 
-The acquisition literature on what competitive prototyping can establish is gathered in the cluster on defence acquisition, competition, prototyping and cost under The Contemporary Literature.
+The Contemporary Literature collects the acquisition studies of what competitive prototyping can establish in its cluster on defence acquisition, competition, prototyping and cost.
 
 ## Programme Origin
 
 ### Three Aircraft, One Airframe
 
 **The [Joint Strike Fighter programme][ref_jsf] set out to build one aircraft for three services with three incompatible requirements.**
-The Air Force wanted a conventional runway fighter to replace the F-16. The Navy wanted a carrier aircraft,
+The Air Force wanted a conventional runway fighter to [replace the F-16][ref_x35]. The Navy wanted a carrier aircraft,
 which means a stronger structure, a bigger wing and an approach speed low enough to catch a wire. The Marine
 Corps and the Royal Navy wanted a [short takeoff and vertical landing][ref_stovl] aircraft to replace the
-Harrier, which means carrying a lift system that the other two variants would pay for in weight and volume
-and never use.
+Harrier, which means carrying a lift system in an airframe the size of the Air Force variant at the cost
+of [fuel volume][ref_x35].
 
-**The STOVL requirement is the one that drives everything**, because it is the only one that cannot be met
+**The STOVL requirement drives the rest of the design**, because it is the only one that cannot be met
 by scaling. A carrier aircraft is a heavier version of a land aircraft. A vertical-landing aircraft is a
 different aeroplane wearing the same skin.
 
-The literature of commonality between variants is gathered in the cluster on commonality, product families and requirements under The Contemporary Literature.
+Studies of commonality between variants form the cluster on commonality, product families and requirements, later in this article.
 
 ### The Programme That Preceded It
 
-The competition descends from two earlier efforts. **The Common Affordable Lightweight Fighter** work at the
+The [competition][ref_jsf] descends from two earlier efforts. **The Common Affordable Lightweight Fighter** work at the
 [Defense Advanced Research Projects Agency][ref_darpa] explored whether a single design could serve several
 services, and **the Joint Advanced Strike Technology** programme consolidated a set of service-specific
 studies into one. The concept demonstration contracts were awarded to [Boeing][ref_boeing] and
 [Lockheed Martin][ref_lockheed] in November 1996, and McDonnell Douglas, whose entry used a gas-coupled lift
 fan, was eliminated at that point.
 
-**That elimination is worth noting because it means the fly-off was already the second round.** The field
+**That elimination means the fly-off was already the second round.** The field
 had been narrowed from three to two before either surviving aircraft existed.
 
-The programme's own literature, from the Joint Advanced Strike Technology studies onward, is gathered in the cluster on the Joint Strike Fighter programme and its demonstrators under The Contemporary Literature.
+Writing on the programme, from the Joint Advanced Strike Technology studies onward, makes up the cluster on the Joint Strike Fighter programme and its demonstrators in the survey below.
 
 ### What Each Company Brought
 
@@ -131,18 +131,20 @@ nose, and a direct-lift STOVL system in which a valve diverted the core exhaust 
 nozzles near the centre of gravity.
 
 Lockheed Martin's design used a conventional wing and tail, a [shaft-driven lift fan][ref_liftsystem] behind
-the cockpit, a three-bearing swivel module at the tail, and roll posts in the wings.
+the cockpit, a three-bearing swivel module at the tail, and roll posts in the wings
+\[[Lockheed Martin F-35B propulsion ground test release][ref_lm_f35b_ground_test]\].
 
 **The chin inlet is a consequence rather than a choice.** A direct-lift aircraft must put its lift nozzles
-at the centre of gravity, which puts the engine amidships, which puts the inlet forward and low.
-**The whole configuration follows from the propulsion decision**, which is the first sign that the two
+at the centre of gravity, which puts the engine in the front portion of the fuselage, which puts the inlet
+forward and low \[[Jenkins, Landis and Miller, American X-Vehicles][ref_xvehicles]\].
+**The configuration follows from the propulsion decision**, a first sign that the two
 entries were not two styles of the same aeroplane.
 
-The lineages each company drew on are gathered in the clusters on lift fans, lift engines, ejectors and remote lift and on the Harrier, the Pegasus engine and the vectored-thrust lineage under The Contemporary Literature.
+For the lineages each company drew on, see the clusters on lift fans, lift engines, ejectors and remote lift and on the Harrier, the Pegasus engine and the vectored-thrust lineage in The Contemporary Literature.
 
 ## Sizing From First Principles
 
-**This section derives the relation the competition turned on, checks three published numbers against each other, and computes the quantity the decision was actually about.**
+**This section derives the relation the competition turned on, checks three published numbers against each other, and computes the quantity that settled the decision.**
 
 ### The Relation
 
@@ -174,16 +176,16 @@ $$T = \frac{2P}{V_j}$$
 
 **That table is the entire case for the lift fan and it fits on four lines.** A lift fan spends shaft power
 accelerating a large cold mass flow slowly. A direct-lift system spends the same power accelerating a
-smaller hot flow quickly. The first produces more thrust from the same core, and everything else that
-separated the two aircraft follows from it.
+smaller hot flow quickly. The first produces more thrust from the same core, and the other differences
+between the two aircraft follow from it.
 
-The modern literature of momentum theory is gathered in the cluster on momentum theory, rotors, propellers and hover performance under The Contemporary Literature.
+Modern work on momentum theory appears below in the cluster on momentum theory, rotors, propellers and hover performance.
 
 ### The Disc-Loading Form of the Same Statement
 
 The relation is more useful expressed through the area the flow passes through, and the
-[Azuma and Kawachi 1975][research_azuma_kawachi_1975] that governs it has been the standard treatment of a
-static disc since the 1970s, with the [actuator-disc optimum in hover][research_modarres_peters_2015] worked
+momentum theory that governs it has been the standard treatment of a static disc since the 1970s, as in
+[Azuma and Kawachi 1975][research_azuma_kawachi_1975], with the [actuator-disc optimum in hover][research_modarres_peters_2015] worked
 out more recently. It is the [disc loading][ref_disc_loading], which
 [momentum theory][ref_momentum_theory] relates to the induced velocity. The relations used here are the
 standard ones set out in [Leishman on helicopter aerodynamics][book_leishman] and in
@@ -231,14 +233,13 @@ $$\dot{m} = \frac{T}{2 V_i} = \frac{20{,}000}{2(555.5)} = 18.00 \ \text{slug/s} 
 
 and the power loading follows as 0.690 pounds of thrust per horsepower delivered.
 
-**A ducted lift fan cannot exceed a figure of merit of about 0.8**, and values near 0.7 are what good ones
-achieve. The measure is the standard one used in [rotor design optimisation][research_bohorquez_pines_2010].
-**The three numbers are mutually consistent**, which is worth establishing before building an argument on
-them, and which nobody appears to have checked in print.
+**A figure of merit near 0.7 is what a good rotor achieves in hover.** The measure is the standard one used in [rotor design optimisation][research_bohorquez_pines_2010].
+**The three numbers are mutually consistent**, a check to make before building an argument on
+them, and one that no printed source appears to have made.
 
 ### The Nozzle the Direct-Lift System Would Have Needed
 
-**Rather than assume what the X-32B's nozzles were, invert the question.** What nozzle area would the
+**The X-32B's nozzle size need not be assumed, because the question can be inverted.** What nozzle area would the
 direct-lift system have needed for its jets to match the lift fan's disc loading?
 
 $$A = \frac{T}{T/A} = \frac{28{,}000}{1{,}467} = 19.09 \ \text{sq ft}$$
@@ -246,9 +247,9 @@ $$A = \frac{T}{T/A} = \frac{28{,}000}{1{,}467} = 19.09 \ \text{sq ft}$$
 That is a single circular nozzle **4.93 feet across**, or two nozzles each **3.49 feet across**, on a
 fuselage 45.0 feet long and 17.3 feet tall.
 
-**That is not an engineering trade. It is a geometric impossibility.** There is nowhere on a single-engine
+**The obstacle is geometric, and no engineering trade removes it.** There is nowhere on a single-engine
 fighter to put two three-and-a-half-foot nozzles at the centre of gravity, and the exhaust passing through
-them would be hot rather than cold in any case.
+them would in any case be hot, where the fan's is cold.
 
 Taking plausible nozzle sizes instead shows how far from the fan the direct-lift system had to sit.
 
@@ -270,9 +271,9 @@ developed jet is
 
 $$q_{\infty} = \tfrac{1}{2} \rho (2 V_i)^{2} = 2 \rho V_i^{2} = \frac{T}{A}$$
 
-**The disc loading and the dynamic pressure in the jet are the same number**, which is the quantity the
-[jet impingement ground-effect][research_zhang_ing_1993] literature measures directly and which its
-[computational treatment][research_zhang_ing_1994] reproduces. A table of disc loadings is therefore also a
+**The disc loading and the dynamic pressure in the jet are the same number**. The
+[jet impingement ground-effect][research_zhang_ing_1993] literature measures that quantity directly, and its
+[computational treatment][research_zhang_ing_1994] reproduces it. A table of disc loadings is therefore also a
 table of the pressure each architecture imposes on whatever it is hovering over.
 
 | System | Disc loading | Dynamic pressure at the ground | Against the fan |
@@ -283,11 +284,11 @@ table of the pressure each architecture imposes on whatever it is hovering over.
 | Two nozzles 2.0 ft across | 4,456 lb/sq ft | 4,456 lb/sq ft | 3.04 |
 
 **Deck coatings, runway surfaces and the people standing near the aeroplane all feel that difference**, and
-it costs nothing extra to derive because it is the same quantity the propulsion argument already needed.
+deriving it costs nothing extra, since the propulsion argument already needed the quantity.
 
-**The lift fan is not a better version of a vectoring nozzle. It is a different point on the curve, and the curve is steep.**
+**The lift fan and the vectoring nozzle sit at different points on the curve, and the curve is steep.**
 
-### What the Two Architectures Actually Produced
+### What the Two Architectures Produced
 
 The published totals make the consequence plain. The engine's military rating is from
 [the X-32's published specification][ref_x32], and the lift system's components and total are from
@@ -300,23 +301,22 @@ The published totals make the consequence plain. The engine's military rating is
 | Lift fan plus swivel module plus roll posts | 41,900 lbf | 47.7 percent cold |
 
 **The lift system exceeds the Pegasus by a factor of 1.76 and the direct-lift core by 1.18.** The lift fan
-alone contributes 20,000 pounds, the swivel module 18,000 and the roll posts 3,900, and the published total
-is exactly the sum of its published parts.
+alone contributes 20,000 pounds, the swivel module 18,000 and the roll posts 3,900.
 
 The partition is exact,
 
 $$L = T_{\text{fan}} + T_{\text{3BSM}} + T_{\text{posts}} = 20{,}000 + 18{,}000 + 3{,}900 = 41{,}900 \ \text{lbf}$$
 
-with shares of 47.7, 43.0 and 9.3 percent,
-**and the published total is precisely the sum of its published parts**, which is a small check worth making
+with shares of 47.7, 43.0 and 9.3 percent.
+**The published total equals the sum of its published parts**, a small check worth making
 before relying on any of the four numbers.
 
 **Nearly half of the winning aircraft's vertical lift came from air that never went through the engine.**
 That is the square-root law made physical.
 
-The wider literature of engine cycles and thrust is gathered in the cluster on engine cycles, variable cycle engines and engine performance under The Contemporary Literature.
+Engine cycles and thrust more broadly are the subject of the cluster on engine cycles, variable cycle engines and engine performance.
 
-### The Number the Competition Was Actually About
+### The Number the Competition Was About
 
 **A vertical landing is not a demonstration. It is an operational requirement with a weight attached**,
 because an aircraft returning from a mission with unexpended weapons has to be able to land with them
@@ -350,7 +350,7 @@ Differentiating,
 
 $$\frac{\partial W_{\text{allowance}} / W_{\text{allowance}}}{\partial L / L} = \frac{L/k}{W_{\text{allowance}}}$$
 
-which is the landing weight divided by the allowance.
+or the landing weight divided by the allowance.
 
 | Architecture | Amplification | Meaning |
 |---|---|---|
@@ -379,13 +379,13 @@ crossing zero at
 
 $$L_{\text{break even}} = k \, W_{\text{empty}} = 1.05 (24{,}030) = 25{,}232 \ \text{lbf}$$
 
-**Below that lift the allowance is negative**, meaning the aircraft could not land vertically at its own
+**Below that lift the allowance is negative**, meaning the aircraft could not land vertically at its
 empty weight, let alone with anything in it.
 
-**The amplification blows up as the allowance approaches zero, and that is not a numerical artefact but the shape of the problem.**
-A direct-lift fighter of this size operates near a singularity in its own bring-back capability.
-**The honest statement is not that the amplification is 10.11 but that the quantity is badly conditioned across the whole plausible range**,
-and that no plausible assumption rescues it.
+**The amplification blows up as the allowance approaches zero, and no numerical artefact causes it. The shape of the problem does.**
+A direct-lift fighter of this size operates near a singularity in its bring-back capability.
+**A single figure of 10.11 understates the matter, because the quantity is badly conditioned across the plausible range**,
+and no plausible assumption rescues it.
 
 ## The Vehicle
 
@@ -408,17 +408,17 @@ the second span is the 9.15 metres that the same source gives in its description
 | Afterburning thrust | 50,000 lbf | 220 kN |
 | Maximum speed | Mach 1.2 | |
 
-### The Span Disagreement, Which Is Not a Rounding Difference
+### The Span Disagreement Is Not a Rounding Difference
 
-**Two published spans differ by 19.9 percent and they cannot both be right.** Thirty-six feet against thirty
+**Two published spans differ by 19.9 percent and they cannot both describe the same airframe.** Thirty-six feet against thirty
 is not a conversion error and not a rounding, and the two imply materially different aeroplanes.
 
 $$A = \frac{b^{2}}{S} = \frac{36.0^{2}}{590} = 2.197 \qquad \text{against} \qquad \frac{30.02^{2}}{590} = 1.527$$
 
-**An aspect ratio of 2.20 and one of 1.53 are different wings.** The article carries both figures rather
-than choosing, because nothing available settles which is the demonstrator and which is a production
-proposal, and
-**a specification sheet transcribed through several publications acquires exactly this kind of error.** The
+**An aspect ratio of 2.20 and one of 1.53 are different wings.** The article carries both figures without
+choosing between them, because no source available pairs either figure with a particular airframe, although the
+X-32B is recorded as having a narrower span than the X-32A, and
+**a specification sheet transcribed through several publications acquires this kind of error.** The
 dimensional record for these aircraft is collected in [the inventory of X-vehicles][book_xvehicles], which
 is also [on the reports server][ref_xvehicles].
 
@@ -433,27 +433,29 @@ with 1.316 on afterburner, and all three are ordinary values for a fighter of th
 
 ### The Direct-Lift Arrangement
 
-**A butterfly valve diverted the core stream to a pair of thrust-vectoring nozzles near the centre of gravity.**
+**A [butterfly valve][ref_x32] diverted the core stream to a pair of thrust-vectoring nozzles near the centre of gravity.**
 The arrangement is a form of [thrust vectoring][ref_thrust_vectoring]. In conventional flight the exhaust
-went aft through the main nozzle. In STOVL mode it went down. The arrangement is the Harrier's in principle,
-executed with a modern engine and a single core rather than the Pegasus's four rotating nozzles.
+went aft through the main nozzle. In STOVL mode it went down
+\[[Boeing X-32B first flight release][ref_boeing_x32b_first_flight]\]. The arrangement is the Harrier's in principle,
+executed with a modern engine and a single core, where the [Pegasus's][ref_pegasus] exhaust left through four rotating nozzles.
 
 **The consequence for the airframe is the chin inlet.** Putting lift nozzles at the centre of gravity puts
-the engine amidships, which puts the intake forward and low, under the nose. That inlet is what most people
+the engine in the front portion of the fuselage, which puts the intake forward and low, under the nose
+\[[Jenkins, Landis and Miller, American X-Vehicles][ref_xvehicles]\]. That inlet is what most people
 remember about the aeroplane, and
-**it is not a styling decision but the downstream consequence of the propulsion choice**, which is the sense
-in which the two entries were different aircraft rather than different arrangements.
+**it follows downstream from the propulsion choice and is no styling decision**, and the two entries
+were therefore different aircraft.
 
-The literature of inlets and of vectoring nozzles is gathered in the clusters on supersonic inlets, intakes and airframe-propulsion integration and on nozzles, thrust vectoring and thrust reversers under The Contemporary Literature.
+Inlets and vectoring nozzles each have a cluster in The Contemporary Literature, on supersonic inlets, intakes and airframe-propulsion integration and on nozzles, thrust vectoring and thrust reversers.
 
-### Hot Gas Ingestion, and Why It Is Worse Than It Sounds
+### Hot Gas Ingestion Is Worse Than It Sounds
 
-**An aircraft hovering on its own exhaust is standing in a fountain of its own hot gas**, and some of it
+**An aircraft hovering on its exhaust stands in a fountain of its own hot gas**, and some of it
 reaches the inlet. The mechanism has two paths, and the aerodynamics of a jet close to a surface is the
 subject of [ground effect][ref_ground_effect]. In the near field the jets impinge on the ground, spread
 outward, meet under the fuselage and rise as a fountain, which
 [twin-jet impingement studies][research_behrouzi_2000] treat directly. In the far field the outward wall jet
-meets the free stream or the aircraft's own motion and rolls up into a ground vortex that carries hot gas
+meets the free stream or the aircraft's motion and rolls up into a ground vortex that carries hot gas
 forward and up into the intake.
 
 **The cost is thrust, and the relation is simple.** A turbofan matched at a corrected operating point
@@ -462,7 +464,7 @@ carries its mass flow and its thrust in the corrected forms
 $$\dot{m}_{\text{corr}} = \frac{\dot{m} \sqrt{\theta}}{\delta} \qquad \text{and} \qquad T_{\text{corr}} = \frac{T}{\delta} \qquad \text{with} \qquad \theta = \frac{T_{t}}{T_{\text{ref}}}, \ \delta = \frac{p_{t}}{p_{\text{ref}}}$$
 
 so at a fixed corrected point and a fixed inlet pressure the delivered thrust falls as the square root of
-inlet total temperature. That is what makes reingestion expensive rather than merely untidy, and the effect
+inlet total temperature. This makes reingestion expensive rather than merely untidy, and the effect
 was being measured on lift engines by the end of the 1960s in
 [model tests of concepts to reduce it][research_hall_1970] and correlated against
 [geometric scale and surface wind][research_cosgrovewj_ryanpe_1969]. A rise of $\Delta T$ therefore costs a
@@ -498,10 +500,10 @@ $$\frac{W_{\text{allowance}} - W_{\text{allowance}}'}{W_{\text{allowance}}} = \f
 which is **45.5 percent of the entire bring-back allowance**, taking it from 2,637 pounds to 1,437. The same
 relation applied to the 2.33 percent lost to a twenty-five degree rise gives 23.5 percent.
 
-**The ingestion penalty comes off the small number, not the large one**, and that is the whole difficulty
-stated in one sentence.
+**The ingestion penalty comes off the small number, not the large one**, and that sentence states the
+difficulty in full.
 
-### The Feedback, Which Is What Makes It Dangerous
+### The Feedback Makes It Dangerous
 
 **A thrust deficit at hover is not a performance shortfall. It is a descent.** Lift below weight gives a
 downward acceleration of
@@ -517,10 +519,10 @@ against 1.50 feet for a twenty-five degree rise.
 **And a descent is proximity to the ground, and proximity is more ingestion.** The loop closes on itself.
 The pilot's response is more throttle, which produces more hot gas, which is fed back into the inlet.
 
-**This is why the difficulty is not measured by the temperature rise alone.** A system with margin absorbs
+**The temperature rise alone therefore does not measure the difficulty.** A system with margin absorbs
 it. A system operating where its allowance is badly conditioned does not.
 
-The experimental and computational record of hot gas ingestion and of the jet-induced ground environment is gathered in the clusters on hot gas ingestion, reingestion and inlet temperature distortion and on jet-induced ground effects, suckdown, fountains and ground vortices under The Contemporary Literature.
+Two clusters below hold the experimental and computational record of hot gas ingestion and of the jet-induced ground environment, those on hot gas ingestion, reingestion and inlet temperature distortion and on jet-induced ground effects, suckdown, fountains and ground vortices.
 
 ### What the Lift Fan Does About the Same Problem
 
@@ -535,7 +537,7 @@ $$T_{\text{mix}} = \frac{\dot{m}_c T_c + \dot{m}_h T_h}{\dot{m}_c + \dot{m}_h}$$
 
 and the mass flows follow from the thrusts and the velocities, since $\dot{m} = T / V$.
 
-**Here the square-root law appears from the other side, and it is worth pausing on.** The cold stream is
+**Here the square-root law appears from the other side.** The cold stream is
 slower, so it carries **more mass per unit of thrust** than the hot one. At a 47.7 percent share of the lift
 it carries **60.9 percent of the mass**.
 
@@ -552,10 +554,11 @@ is indicative and the trend is not.
 
 **The exhaust is also slower**, because the disc loading is lower, and the ground vortex is driven by the
 wall jet's momentum. **And the cold stream is in front**, since the fan sits behind the cockpit and the hot
-core exhausts at the tail, so the cold jet stands between the hot one and the intake.
+core exhausts at the tail, so the cold jet stands between the hot one and the intake
+\[[Lockheed Martin F-35B propulsion ground test release][ref_lm_f35b_ground_test]\].
 
 **A design chosen for thrust per unit power turns out to solve the ingestion problem as a side effect.**
-That is the sense in which the competition was decided by a relation rather than by a contest.
+In this sense the competition was decided by a relation rather than by a contest.
 
 ### Hover Control and the Reaction Controls
 
@@ -563,14 +566,15 @@ That is the sense in which the competition was decided by a relation rather than
 there is none. Attitude has to be held by differential thrust.
 
 The lift-fan aircraft used roll posts in the wings, contributing 3,900 pounds of lift between them and
-providing roll control by differential throttling, with pitch from the balance between the fan and the
-swivel module and yaw from the swivel module's lateral deflection.
+providing roll control with engine bypass air, with pitch from varying the areas of the fan inlet and the
+exhaust nozzle and yaw from yawing the swivel module \[[Rolls-Royce LiftSystem][ref_liftsystem]\]
+\[[Lockheed Martin F-35 Lightning II][ref_f35]\].
 
 The moment available from a pair of posts is the differential thrust on the lateral arm,
 
 $$M = \Delta T \, y$$
 
-so posts carrying 3,900 pounds between them at a station ten feet outboard command up to 39,000 foot-pounds
+so posts carrying 3,900 pounds between them at an assumed station ten feet outboard command up to 39,000 foot-pounds
 of roll moment at full differential.
 
 **The direct-lift aircraft had a harder problem** because all of its lift came from one place. Roll control
@@ -589,13 +593,13 @@ and the loss comes off the allowance with the amplification derived earlier.
 | 4 percent | 1,120 lb | 1,570 lb |
 | 6 percent | 1,680 lb | 1,037 lb |
 
-**A four percent bleed costs forty percent of everything the aircraft can bring home, and buys a roll control that has not yet been used to do anything.**
+**A four percent bleed costs forty percent of the bring-back allowance, and the roll control it pays for has not yet been used to do anything.**
 The lift-fan aircraft takes its roll control from posts that are already producing lift, so the same
 function costs it nothing it was not already spending.
 
-The literature of hover control and reaction controls is gathered in the cluster on handling qualities, flight control and hover control under The Contemporary Literature.
+Hover control and reaction controls fall within the cluster on handling qualities, flight control and hover control.
 
-### The Wing, and the Change That Matters Most
+### The Wing Boeing Did Not Propose
 
 **Boeing's demonstrators flew a large single-piece composite delta with [55 degrees of leading-edge sweep][ref_x32] and no horizontal tail.**
 The production proposal did not use that wing. It used a conventional wing with a canted twin tail, and the
@@ -606,16 +610,18 @@ change was made **before the X-32 ever flew**.
 A concept demonstrator exists to reduce the risk of a proposal. If the demonstrator does not carry the
 proposal's configuration in the feature under examination, then flying it establishes something about a
 different aeroplane.
-**The X-32 demonstrated that a delta-winged direct-lift aircraft could hover and go supersonic. Boeing was offering a tailed aircraft.**
+**The X-32 demonstrated that a delta-winged direct-lift aircraft could [hover and go supersonic][ref_boeing_x32b_testing]. Boeing was offering a [tailed aircraft][ref_xvehicles].**
 
-**The customer was therefore looking at an aeroplane nobody intended to build**, and had to reason from it
+**The customer was therefore looking at an aeroplane Boeing did not intend to build**, and had to reason from it
 to one that did not exist, while the competitor's demonstrator was configurationally much closer to its own
 proposal.
 
 ## The Flight Test Record
 
 **The two aircraft flew 144 times between them**, with the X-32A opening on 18 September 2000 and the X-32B
-on 29 March 2001, and the flight programme ending before the decision in October 2001.
+on 29 March 2001, and the flight programme ending before the decision in October 2001
+\[[Jenkins, Landis and Miller, American X-Vehicles][ref_xvehicles]\]
+\[[Boeing X-32B flight test release][ref_boeing_x32b_testing]\].
 
 | Event | Date |
 |---|---|
@@ -625,9 +631,11 @@ on 29 March 2001, and the flight programme ending before the decision in October
 | X-35B first short takeoff, supersonic dash and vertical landing in one flight | 20 July 2001 |
 | Decision announced | 26 October 2001 |
 
-**The X-32A demonstrated conventional flight, supersonic performance and air refuelling.** The X-32B
-demonstrated hover and vertical landing. **What neither demonstrated was both at once**, because the
-aircraft had to be physically reconfigured between the two roles.
+**The X-32A demonstrated conventional flight, supersonic performance and air refuelling.**
+\[[Boeing X-32A flight test release][ref_boeing_x32a_testing]\] The X-32B
+demonstrated hover and vertical landing \[[Boeing X-32B flight test release][ref_boeing_x32b_testing]\].
+**What neither demonstrated was both at once**, because the
+aircraft had to be physically reconfigured between the two roles \[[Boeing X-32][ref_x32]\].
 
 ### The Reconfiguration, Stated Precisely
 
@@ -637,10 +645,11 @@ The X-32 was a single-engine aircraft whose STOVL system diverted the core exhau
 demonstrator between the conventional and the STOVL configurations was a ground operation, not a cockpit
 switch.
 **The aircraft could not take off short, accelerate through the sound barrier and land vertically on the same sortie**,
-and it did not attempt to.
+and it did not attempt to \[[Boeing X-32][ref_x32]\].
 
 **The X-35B did exactly that on 20 July 2001.** A short takeoff, a level supersonic dash and a vertical
-landing, in one flight.
+landing, in one flight \[[Lockheed Martin X-35][ref_x35]\]
+\[[National Air and Space Museum X-35B][ref_nasm_x35b]\].
 
 **The evidentiary difference is not that one aircraft is faster or lifts more.** It is that one of them
 demonstrated the **integration** and the other demonstrated the **components**. A customer buying an
@@ -649,19 +658,18 @@ parts in the other.
 
 ### What the X-32B Did Not Do
 
-**By accounts from the test community the X-32B never performed a vertical landing at full weight.** This
-article treats that as reported rather than established, because the sources available for it are secondary,
-and marks it accordingly in the Epistemic State.
+**The X-32B flew its STOVL tests with some parts removed \[[Boeing X-32][ref_x32]\], and no source available here establishes whether it ever performed a vertical landing at full weight.**
+This article treats the question as open and marks it accordingly in the Epistemic State.
 
-**But the arithmetic above says what such a report would mean if true**, and it is not a qualitative
+**But the arithmetic above shows what a landing below full weight would mean**, and it is not a qualitative
 shortcoming. At an assumed 28,000 pounds of lift, the bring-back relation displayed in the section headed
-The Number the Competition Was Actually About gives an allowance over empty weight of 2,637 pounds before any
+The Number the Competition Was About gives an allowance over empty weight of 2,637 pounds before any
 ingestion penalty, and the break-even relation displayed in the section that follows it puts the lift at
 which the allowance vanishes entirely at **25,232 pounds**. A
 demonstrator flying with instrumentation, ballast and test equipment aboard is not at its empty weight.
 
-**The jet screen fitted to hold hot gas away from the intake made the arithmetic worse rather than better**,
-because it added weight and bled air from the engine, and both come off the same small number.
+**The jet screen fitted to hold hot gas away from the intake drew its air from the engine**
+\[[Boeing X-32][ref_x32]\], and that air and the screen's weight both come off the same small number.
 
 ## Comparison With Ground Prediction
 
@@ -676,9 +684,9 @@ impinging jet, a wall jet, a fountain, a ground vortex and an inlet, at full-sca
 field that depends on the height above the ground and on any wind. Scale models mispredict it because the
 temperature ratios and the Reynolds numbers do not scale together.
 
-**The NASA research base on this is substantial and predates the competition by two decades**, and it is the
-reason the physics was understood well enough that neither company was surprised in principle. What could
-not be settled on the ground was the margin. That research base is gathered in the cluster on jet-induced ground effects, suckdown, fountains and ground vortices under The Contemporary Literature, where 85 of its 143 records date from 1970 to 1995.
+**The NASA research base on this is substantial and predates the competition by two decades**, and it explains
+why the physics was understood well enough that neither company was surprised in principle. What could
+not be settled on the ground was the margin. That research base is catalogued in the cluster on jet-induced ground effects, suckdown, fountains and ground vortices under The Contemporary Literature, where 85 of its 143 records date from 1970 to 1995.
 
 ### Where the Two Demonstrators Sat Relative to Their Proposals
 
@@ -690,10 +698,10 @@ not be settled on the ground was the margin. That research base is gathered in t
 | Lift architecture demonstrated | The proposed one | The proposed one |
 
 **Both companies demonstrated their propulsion architecture and only one demonstrated its airframe.** That
-asymmetry is the answer to what the fly-off decided, and it is an answer about evidence rather than about
+asymmetry answers what the fly-off decided, and it answers in terms of evidence rather than
 aeroplanes.
 
-The acquisition literature on prototypes and proposals is gathered in the cluster on defence acquisition, competition, prototyping and cost under The Contemporary Literature.
+The cluster on defence acquisition, competition, prototyping and cost, cited above for competitive prototyping, also holds the acquisition studies of prototypes and proposals.
 
 ## What the Data Changed
 
@@ -714,7 +722,8 @@ each term gives the following, and anyone can repeat the count on the cited set.
 | Harrier or Pegasus | 46 |
 
 **Exactly one of those 3,528 records carries the X-32 in its title, and it was written by the engine supplier rather than the airframer.**
-It reports testing of the Rolls-Royce lift system for the X-32B, in 2002, after the competition was over.
+It reports testing of the Rolls-Royce lift system for the X-32B, in 2002, after the competition was over
+\[[Roberts 2002][research_roberts_2002]\].
 
 **The winner's record runs from 2002 to 2026.** The loser's stops at one. Writing the asymmetry
 as a ratio,
@@ -723,28 +732,27 @@ $$R = \frac{N_{\text{winner}}}{N_{\text{loser}}} = \frac{38}{1} = 38$$
 
 against two aircraft that flew in the same years, under the same programme, for the same customer.
 
-**That is not a claim that Boeing did no engineering.** It is a claim about what becomes public. An aircraft
+**The count does not say that Boeing did no engineering.** It measures what becomes public. An aircraft
 that enters production is written about for twenty years by the people who build it, operate it, modify it
-and study it. An aircraft that loses a competition is written about by nobody, because its proprietary data
+and study it. An aircraft that loses a competition is written about by almost nobody, because its proprietary data
 stays proprietary and there is no operating community to generate questions.
 
 **The consequence for this article is uncomfortable and is stated rather than hidden.** The technical case
-made here rests on published numbers for the winning system and on an assumed upper bound for the losing
+made here depends on published numbers for the winning system and on an assumed upper bound for the losing
 one, because the losing one's numbers were never published.
 **The asymmetry in the evidence available to a historian is a direct inheritance of the asymmetry in the decision.**
 
-The X-32, X-35, F-35 and Joint Strike Fighter titles counted here are gathered in the cluster on the Joint Strike Fighter programme and its demonstrators under The Contemporary Literature.
+The X-32, X-35, F-35 and Joint Strike Fighter titles counted here are listed in the cluster on the Joint Strike Fighter programme and its demonstrators.
 
 ### The Architecture Won and Kept Winning
 
-**The shaft-driven lift fan is now the only supersonic STOVL system in production anywhere**, and the
+**The shaft-driven lift fan now powers the first operational supersonic STOVL fighter**, and the
 arrangement demonstrated in 2001 is the arrangement flying on the [F-35][ref_f35] today. Its designers
 received the [Collier Trophy][ref_collier] for 2001.
 
 **The direct-lift approach did not fail. It stopped being competitive**, which is a different statement. The
-Harrier flew for decades on direct lift and did useful work, and the reason it was not the answer for a
-supersonic aircraft is the same square-root law, applied to a heavier aeroplane where the allowance runs
-out.
+[Harrier][ref_harrier] flew for decades on direct lift and did useful work, and the same square-root law, applied to a heavier aeroplane where the allowance runs
+out, explains why direct lift was not the answer for a supersonic aircraft.
 
 ### What the Competition Format Itself Established
 
@@ -752,15 +760,15 @@ out.
 a field whose institutional history is set out in [Gansler on the defence industry][book_gansler] and whose
 cost-growth folklore is collected in [Augustine's laws][book_augustine], cited both as evidence that
 competitive prototyping produces better decisions and as evidence that it produces expensive ones. The
-programme that followed acquired a reputation for cost growth that the fly-off did not prevent.
+[programme that followed][ref_jsf] acquired a reputation for cost growth that the fly-off did not prevent.
 
-**That is worth stating plainly because it cuts against the natural reading of this article.** The fly-off
-made a defensible technical choice, on the best evidence available, and the resulting programme still
+**That point cuts against the natural reading of this article.** The fly-off
+made a defensible technical choice, on the best evidence available, and the [resulting programme][ref_f35] still
 exceeded its estimates by a wide margin.
 **A good decision procedure on the propulsion question did not produce a good outcome on cost**, because the
 two questions were not the same question.
 
-The competitive-prototyping literature is gathered in the cluster on defence acquisition, competition, prototyping and cost under The Contemporary Literature.
+That literature is surveyed under defence acquisition, competition, prototyping and cost in The Contemporary Literature.
 
 ## The Contemporary Literature
 
@@ -802,7 +810,7 @@ configuration in that field spreads its lift over as much disc area as the airfr
 power required for a given lift rises as the square root of the disc loading and battery energy is the
 binding constraint.
 **The design pressure that produced the lift fan produces distributed rotors when the power source is a battery**,
-and it is the same relation. Distributed electric propulsion is reviewed in [Kim et al 2018][research_kim_perry_2018], and [Fulton and Gandhi 2026][research_fulton_gandhi_2026] treat the disc loading of multi-passenger rotors as a design variable.
+through the same relation. Distributed electric propulsion is reviewed in [Kim et al 2018][research_kim_perry_2018], and [Fulton and Gandhi 2026][research_fulton_gandhi_2026] treat the disc loading of multi-passenger rotors as a design variable.
 
 ### Hot gas and jet impingement are computed now
 
@@ -814,14 +822,12 @@ Reynolds numbers do not scale together. Fountain formation between twin impingin
 ### Deck and surface heating became an operational subject
 
 **A supersonic aircraft landing vertically puts a hot, fast jet onto a surface**, and the surface has to
-survive it. That is a materials and operations subject that the Harrier introduced and the production
-successor made acute, and it is a direct descendant of the disc-loading argument in this article.
+survive it. The Harrier introduced that materials and operations subject, the production
+successor made it acute, and it descends directly from the disc-loading argument in this article.
 
 **The identity derived earlier makes the connection exact rather than rhetorical.** The disc loading is the
 dynamic pressure in the jet, so an architecture at 2,852 pounds per square foot imposes almost twice the
-pressure of one at 1,467, on the same deck, at the same landing weight.
-**Ships were resurfaced because of that number**, and the choice that produced it was made on propulsion
-grounds with the deck consequence following. Airfield concrete under the F-35B is studied in [Autelitano et al 2016][research_autelitano_iacci_2016] and [Balaban and Erdem 2022][research_balaban_erdem_2022], a flight deck heat spreader in [Semenic et al 2016][research_semenic_gould_2016], and exhaust gases and over-deck air temperatures on a ship in [Scott et al 2015][research_scott_owen_2015].
+pressure of one at 1,467, on the same deck, at the same landing weight. Airfield concrete under the F-35B is studied in [Autelitano et al 2016][research_autelitano_iacci_2016] and [Balaban and Erdem 2022][research_balaban_erdem_2022], a flight deck heat spreader in [Semenic et al 2016][research_semenic_gould_2016], and exhaust gases and over-deck air temperatures on a ship in [Scott et al 2015][research_scott_owen_2015].
 
 ### The fly-off was partly replaced by simulation
 
@@ -834,7 +840,7 @@ proposal in the feature under examination, because a model can be made to be the
 **What a model does not have is the thing the X-35B's single sortie demonstrated**, namely that the
 integration works in the presence of everything nobody modelled.
 **The trade is between an evidence source that matches the proposal exactly and one that matches reality exactly**,
-and this competition is the case that shows why neither alone is sufficient. The digital thread in defence acquisition is examined in [West and Pyster 2015][research_west_pyster_2015], and the adoption of virtual prototyping across the defence research and acquisition communities in [Post and Sundt 2017][research_post_sundt_2017].
+and this competition shows why neither alone is sufficient. The digital thread in defence acquisition is examined in [West and Pyster 2015][research_west_pyster_2015], and the adoption of virtual prototyping across the defence research and acquisition communities in [Post and Sundt 2017][research_post_sundt_2017].
 
 ### Acquisition analysis kept the case
 
@@ -848,7 +854,7 @@ analysis. Its literature includes [Montibeller and von Winterfeldt 2015][researc
 
 ### Propulsion, nozzles and integration since
 
-**The direct-lift arrangement made the propulsion system the centre of the competition, and its components are still being studied.** The X-32B diverted its core stream through a butterfly valve to a pair of thrust-vectoring nozzles near the centre of gravity, which is what forced the chin inlet, and the winner added a lift fan, a three-bearing swivel module and roll posts. The modern work on those components and their neighbours, namely fluidic and mechanical thrust vectoring, swivel nozzles and thrust reversers, supersonic inlets and their bleed systems, and the coupling of engine and airframe performance, is gathered in the clusters on nozzles, thrust vectoring and thrust reversers and on supersonic inlets, intakes and airframe-propulsion integration below. The three-bearing swivel duct is modelled and controlled in [Wei et al 2019][research_wei_tian_2019] and designed in [Shi et al 2026][research_shi_zhou_2026], and a ventral diverterless inlet is analysed in [Ge et al 2021][research_ge_shang_2021].
+**The direct-lift arrangement made the propulsion system the centre of the competition, and its components are still being studied.** The X-32B diverted its core stream through a butterfly valve to a pair of thrust-vectoring nozzles near the centre of gravity, and that arrangement forced the chin inlet of the [Boeing X-32][ref_x32], and the winner added a lift fan, a three-bearing swivel module and roll posts. The modern work on those components and their neighbours, namely fluidic and mechanical thrust vectoring, swivel nozzles and thrust reversers, supersonic inlets and their bleed systems, and the coupling of engine and airframe performance, fills the clusters on nozzles, thrust vectoring and thrust reversers and on supersonic inlets, intakes and airframe-propulsion integration below. The three-bearing swivel duct is modelled and controlled in [Wei et al 2019][research_wei_tian_2019] and designed in [Shi et al 2026][research_shi_zhou_2026], and a ventral diverterless inlet is analysed in [Ge et al 2021][research_ge_shang_2021].
 
 ### Autonomy arrived in the hover
 
@@ -857,16 +863,16 @@ which changes what the pilot has to do and therefore what the control power has 
 
 ### Machine learning and digital engineering
 
-**The fly-off was partly replaced by simulation, and the data-driven tools those simulations are now built from are gathered in the cluster on digital engineering, model-based systems engineering and machine learning below.** The article argues that a model can be made to be the proposal but does not match reality exactly, which is why the X-35B's single sortie still mattered. The records there apply digital threads and twins, model-based systems engineering, neural networks and reinforcement learning to aircraft, engines and their design, and they extend the subject of simulation-based acquisition rather than replace it. [Massegur Sampietro and Da Ronch 2024][research_massegursampietro_daronch_2024] apply geometric deep learning to the aerodynamics of a future fighter demonstrator in dynamic manoeuvres.
+**The fly-off was partly replaced by simulation, and the data-driven tools those simulations are now built from are the subject of the cluster on digital engineering, model-based systems engineering and machine learning below.** The article argues that a model can be made to be the proposal but does not match reality exactly, which is why the X-35B's single sortie still mattered. The records there apply digital threads and twins, model-based systems engineering, neural networks and reinforcement learning to aircraft, engines and their design, and they extend the subject of simulation-based acquisition rather than replace it. [Massegur Sampietro and Da Ronch 2024][research_massegursampietro_daronch_2024] apply geometric deep learning to the aerodynamics of a future fighter demonstrator in dynamic manoeuvres.
 
 ### Momentum theory, still
 
-**The relation this article's sizing rests on has been in the textbooks since momentum theory was written, and it is still being refined.** Momentum theory relates disc loading to induced velocity, and through it the power required for a given lift rises as the square root of the disc loading, which is the steep curve that separates the lift fan from a vectoring nozzle. The cluster on momentum theory, rotors, propellers and hover performance below holds the work that extends actuator-disc and blade-element momentum theory to open rotors, propellers and hovering rotors and, as neighbouring science, to tidal and wind turbines, among them [Mahmuddin 2017][research_mahmuddin_2017] on blade element momentum theory and [Shives and Crawford 2017][research_shives_crawford_2017] on a tuned actuator disc for tidal turbines.
+**The relation behind this article's sizing has been in the textbooks since momentum theory was written, and work on it continues.** Momentum theory relates disc loading to induced velocity, and through it the power required for a given lift rises as the square root of the disc loading, the steep curve that separates the lift fan from a vectoring nozzle. The cluster on momentum theory, rotors, propellers and hover performance below holds the work that extends actuator-disc and blade-element momentum theory to open rotors, propellers and hovering rotors and, as neighbouring science, to tidal and wind turbines, among them [Mahmuddin 2017][research_mahmuddin_2017] on blade element momentum theory and [Shives and Crawford 2017][research_shives_crawford_2017] on a tuned actuator disc for tidal turbines.
 
 ### Low observability
 
 **This literature is thin, with 32 records in the cluster on low observability and signatures below.** The role of radar cross section in stealth design is set out in [Lee 2024][research_lee_2024], the radar cross section of engine inlets including their fan blades is computed in [Vogel 2016][research_vogel_2016], and a low-observable intake is designed in [Edefur and Tormalm 2018][research_edefur_tormalm_2018]. Low-observable design shaped both entries
-decisively and is almost entirely absent from the open literature, which is what one should expect of the
+decisively and is almost entirely absent from the open literature, as one should expect of the
 subject.
 
 ### The Joint Strike Fighter programme and its demonstrators
@@ -1036,12 +1042,12 @@ High-lift and powered-lift systems and their computation, with the jet flow stud
 ### The Square-Root Law Is Not the Whole Trade
 
 **A lift fan costs weight, volume and complexity, and this article has priced none of them.** The fan, its
-shaft, its clutch and its gearbox occupy the space immediately behind the cockpit in all three variants,
-including the two that never use them, and every pound of that hardware is carried on every sortie by every
-aircraft in the fleet.
+shaft, its clutch and its gearbox occupy the space immediately behind the cockpit in the STOVL variant,
+which trades fuel volume for them \[[Lockheed Martin X-35][ref_x35]\], and every pound of that hardware is
+carried on every sortie by every STOVL aircraft in the fleet.
 
-**A direct-lift system's whole appeal is that it adds almost nothing.** The engine is already there and the
-valve and the nozzles are comparatively light.
+**The appeal of a direct-lift system is that it adds almost nothing.** The engine is already there and the
+valve and the nozzles are comparatively light \[[Boeing X-32][ref_x32]\].
 **The correct comparison is not thrust against thrust but thrust against the weight and volume spent to obtain it**,
 and this article has computed only one side of it.
 
@@ -1054,25 +1060,26 @@ figure could move the numbers and the article would have to follow.
 
 ### A Fly-Off Is Not the Only Evidence
 
-**The decision was not made by watching two aeroplanes fly.** It rested on proposals, cost estimates,
-manufacturing plans, supportability analyses and technical data packages, of which the flight demonstrations
-were one input.
+**The decision was not made by watching two aeroplanes fly.** It rested also on each team's Preferred Weapon System Concept, the production design that the concept
+demonstration contracts paid each team to define \[[Joint Strike Fighter programme][ref_jsf]\], of which the
+flight demonstrations were one input.
 **Treating the competition as a race is a simplification that this article has adopted for the sake of a clean argument**,
-and the acquisition literature is explicit that source selection weighs many factors of which demonstrated
-performance is one.
+and a source selection weighs many factors of which demonstrated performance is one.
 
 ### The Wing Change Cuts Both Ways
 
 **The article treats Boeing's mid-competition wing change as damaging to its evidentiary position, and it can be read the opposite way.**
-A company that identifies a configuration problem and fixes it before proposing has done exactly what a
+A company that identifies a configuration problem and fixes it before proposing has done what a
 risk-reduction phase is for.
 **The customer could reasonably have credited the correction rather than penalising the mismatch**, and the
 public record does not say which reading the source selection took.
 
 ### The Aircraft Was Not Bad
 
-**It flew 144 times, went supersonic, refuelled in the air, hovered and landed vertically.** The pilots who
-flew it have consistently said it handled well.
+**It flew 144 times, went supersonic, refuelled in the air, hovered and landed vertically.**
+\[[Boeing X-32A flight test release][ref_boeing_x32a_testing]\]
+\[[Boeing X-32B flight test release][ref_boeing_x32b_testing]\] The government lead pilot praised its
+flying qualities \[[Boeing X-32A flight test release][ref_boeing_x32a_testing]\].
 **An aeroplane that does everything asked of it and loses is not a failure of engineering**, and an article
 organised around why it lost risks implying that it should not have been built.
 
@@ -1131,7 +1138,7 @@ so the table above separates them.
 
 **Shipboard thermal and deck interaction is the operational consequence of the disc-loading identity derived in the sizing section.**
 An architecture at 2,852 pounds per square foot imposes almost twice the pressure of one at 1,467 on the
-same deck at the same landing weight, and **ships were resurfaced because of that number**.
+same deck at the same landing weight, and **a deck that receives such an aircraft must be built to bear that number**.
 
 **Digital engineering and model-based acquisition is what partly replaced the fly-off.** A model does not
 have the X-32's difficulty, since a model can be made to be the proposal, but a model also does not have
@@ -1243,8 +1250,8 @@ excluded.
 
 - Thrust for a given power rises as the square root of mass flow. This is an identity, obtained by
   eliminating the jet velocity between the thrust and power relations.
-- The lift fan's published diameter, thrust and shaft power imply a figure of merit of 0.697, which
-  is a value a real ducted fan can achieve, so the three numbers are mutually consistent.
+- The lift fan's published diameter, thrust and shaft power imply a figure of merit of 0.697, a
+  value a real ducted fan can achieve, so the three numbers are mutually consistent.
 - Matching that disc loading with 28,000 pounds of core thrust would need 19.09 square feet of
   nozzle, a single opening 4.93 feet across, which does not fit on the airframe.
 - A fifty degree Fahrenheit inlet temperature rise costs 4.50 percent of thrust.
@@ -1268,16 +1275,16 @@ excluded.
 
 **Claims the record does not settle.**
 
-- **The X-32B may never have landed vertically at full weight.** That is reported by the test
-  community rather than established here, and the sources available for it are secondary.
+- **Whether the X-32B ever landed vertically at full weight is not established.** Its STOVL tests
+  were flown with some parts removed, and no source available here states its landing weights.
 - **The lift fan's weight, volume and cost penalty is not computed here.** The trade is therefore
   presented from one side only.
 - **The source selection's reasoning is not public in any detail.** The weight it gave to the
   single-sortie demonstration, to the wing change, or to cost cannot be established.
-- Two published wingspans differ by 19.9 percent and nothing available resolves which applies to
-  the demonstrator.
+- Two published wingspans differ by 19.9 percent. The X-32B is recorded as narrower in span than the
+  X-32A, but no source available here pairs either figure with an airframe.
 - Whether Boeing's wing change should be read as a weakness in its evidentiary position or as
-  evidence of a working risk-reduction process is a judgement the record does not settle.
+  evidence of a working risk-reduction process is a judgement the public record leaves open.
 
 ## Out of Scope
 
@@ -1305,7 +1312,7 @@ system permits 15,875. **And the small number is badly conditioned**, amplifying
 into a ten percent loss of everything the aircraft can carry home, so a fifty degree ingestion of its own
 exhaust takes nearly half of it.
 
-**But the propulsion argument is not what the article ends on, because the evidentiary one is sharper.**
+**But the article ends on the evidentiary argument, because it is sharper than the propulsion one.**
 Boeing flew a delta wing it had already decided not to propose. The customer was therefore shown an
 aeroplane nobody intended to build and had to reason from it to one that did not exist, while the
 competitor's demonstrator flew a short takeoff, a supersonic dash and a vertical landing in a single sortie
@@ -1345,6 +1352,9 @@ and that silence is the last thing the competition decided.
 
 - [Boeing][ref_boeing]
 - [Boeing X-32][ref_x32]
+- [Boeing X-32A flight test release][ref_boeing_x32a_testing]
+- [Boeing X-32B first flight release][ref_boeing_x32b_first_flight]
+- [Boeing X-32B flight test release][ref_boeing_x32b_testing]
 - [Collier Trophy][ref_collier]
 - [Construct validity][ref_construct_validity]
 - [Defense Advanced Research Projects Agency][ref_darpa]
@@ -1355,8 +1365,10 @@ and that silence is the last thing the competition decided.
 - [Joint Strike Fighter programme][ref_jsf]
 - [Lockheed Martin][ref_lockheed]
 - [Lockheed Martin F-35 Lightning II][ref_f35]
+- [Lockheed Martin F-35B propulsion ground test release][ref_lm_f35b_ground_test]
 - [Lockheed Martin X-35][ref_x35]
 - [Momentum theory and the actuator disc][ref_momentum_theory]
+- [National Air and Space Museum X-35B][ref_nasm_x35b]
 - [Pratt and Whitney F119][ref_f119]
 - [Rolls-Royce LiftSystem][ref_liftsystem]
 - [Rolls-Royce Pegasus][ref_pegasus]
@@ -1364,6 +1376,9 @@ and that silence is the last thing the competition decided.
 - [Thrust vectoring][ref_thrust_vectoring]
 
 [ref_boeing]: https://en.wikipedia.org/wiki/Boeing
+[ref_boeing_x32a_testing]: https://boeing.mediaroom.com/2001-02-05-Boeing-Completes-JSF-X-32A-Flight-Testing
+[ref_boeing_x32b_first_flight]: https://man.fas.org/dod-101/sys/ac/docs/man-ac-jsf-010329.htm
+[ref_boeing_x32b_testing]: https://boeing.mediaroom.com/2001-07-30-Boeing-JSF-X-32B-Completes-Testing-with-Supersonic-Flights
 [ref_collier]: https://en.wikipedia.org/wiki/Collier_Trophy
 [ref_construct_validity]: https://en.wikipedia.org/wiki/Construct_validity
 [ref_darpa]: https://en.wikipedia.org/wiki/DARPA
@@ -1374,8 +1389,10 @@ and that silence is the last thing the competition decided.
 [ref_harrier]: https://en.wikipedia.org/wiki/Hawker_Siddeley_Harrier
 [ref_jsf]: https://en.wikipedia.org/wiki/Joint_Strike_Fighter_program
 [ref_liftsystem]: https://en.wikipedia.org/wiki/Rolls-Royce_LiftSystem
+[ref_lm_f35b_ground_test]: https://news.lockheedmartin.com/2008-05-29-Lockheed-Martin-F-35B-Succeeds-in-STOVL-Propulsion-Ground-Test
 [ref_lockheed]: https://en.wikipedia.org/wiki/Lockheed_Martin
 [ref_momentum_theory]: https://en.wikipedia.org/wiki/Momentum_theory
+[ref_nasm_x35b]: https://airandspace.si.edu/collection-objects/lockheed-martin-x-35b-stovl/nasm_A20030172000
 [ref_pegasus]: https://en.wikipedia.org/wiki/Rolls-Royce_Pegasus
 [ref_stovl]: https://en.wikipedia.org/wiki/STOVL
 [ref_thrust_vectoring]: https://en.wikipedia.org/wiki/Thrust_vectoring

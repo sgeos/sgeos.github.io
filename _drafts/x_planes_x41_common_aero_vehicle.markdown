@@ -37,10 +37,10 @@ The Common Aero Vehicle was defined as a manoeuvrable hypersonic reentry vehicle
 variety of payloads inside the atmosphere \[[X-41 CAV][ref_x41_parsch]\]. **The word Aero stood for
 aeroshell rather than aerospace**, because the vehicle was conceived as a common thermal shell that
 different payloads could sit inside \[[X-41 CAV][ref_x41_parsch]\]. That naming is the clearest statement of
-the design intent available, and it says the shell was the product.
+the design intent available, and it identifies the shell as the product.
 
 **The requirement that sets everything else is range.** The programme's ultimate vehicle, a reusable
-Hypersonic Cruise Vehicle, was to strike targets **9,000 nautical miles** distant in less than two hours
+Hypersonic Cruise Vehicle, was to strike targets **9,000 nautical miles** distant in two hours
 \[[DARPA Falcon Project][ref_falcon]\]. The glider's own requirement, as the Congressional Research Service
 summarises the programme's study, was to deliver a payload from the continental United States to anywhere
 on Earth in less than two hours, carrying approximately **1,000 pounds** of munitions or other payload and
@@ -51,17 +51,17 @@ requirement is bounded by
 $$\pi R_{e} = \pi \times 6{,}371 \ \text{km} = 20{,}015 \ \text{km} = 10{,}807 \ \text{nautical miles}$$
 
 **A published trajectory analysis of the vehicle that flew gives its planned range as 17,000 kilometres**
-\[[Acton 2015][ref_acton_2015]\], which is the cruise vehicle's figure to within two percent.
+\[[Acton 2015][ref_acton_2015]\], matching the cruise vehicle's figure to within two percent.
 
 $$\frac{17{,}000 \ \text{km}}{9{,}000 \times 1.852 \ \text{km}} = \frac{17{,}000}{16{,}668} = 1.020$$
 
-This article therefore takes 9,000 nautical miles as the glider's range requirement, and the section
-headed Where the Framing Breaks Down says what follows if that attribution is wrong.
+This article therefore takes 9,000 nautical miles as the glider's range requirement, and the discussion
+of where the framing breaks down examines what follows if that attribution is wrong.
 
 **Those two numbers plus the laws of motion are enough to bound the design**, and the sizing section does
 it. The chain runs from range to the required lift to drag ratio, from there to the speed the vehicle must
 be boosted to, from there to the air density it must fly in to hold itself up, and from there to the
-temperature of its leading edge. **The last number in that chain is the one that decides whether the
+temperature of its leading edge. **The last number in that chain decides whether the
 vehicle exists**, and it does not depend on anything classified.
 
 ## Programme Origin
@@ -76,11 +76,14 @@ United States**, which carried two tasks, being a small launch vehicle and the a
 launcher at a planned cost of about 5 million US dollars per launch, for the aero vehicle and for other
 small suborbital and orbital payloads \[[X-41 CAV][ref_x41_parsch]\].
 
-**By 2004 the offensive strike element had been cancelled and the vehicle was renamed.** The Common Aero
-Vehicle became the **Hypersonic Technology Vehicle**, and research on weaponisation ended
-\[[X-41 CAV][ref_x41_parsch]\]. **Congress had restricted funding for the strike mission across several
-years** \[[DARPA Falcon Project][ref_falcon]\] \[[Prompt Global Strike][ref_pgs]\], which is the proximate reason a vehicle designed to deliver
-munitions across the Pacific became a vehicle designed to demonstrate that the glide was possible.
+**By 2004 the offensive strike element had been cancelled, and the vehicle was then renamed.** The Common
+Aero Vehicle became the **Hypersonic Technology Vehicle**, and research on weaponisation ended
+\[[X-41 CAV][ref_x41_parsch]\]. The designation directory places the change of name in 2004, whereas the
+Congressional Research Service dates the redesignation to 2006 \[[Woolf 2011][ref_woolf_2011]\].
+**Congress increased the vehicle's funding for fiscal years 2004 and 2005 while questioning its strike
+mission** \[[Woolf 2011][ref_woolf_2011]\], and that concern is the proximate reason a vehicle designed to deliver
+munitions anywhere on Earth \[[DARPA Falcon Project][ref_falcon]\] \[[Prompt Global Strike][ref_pgs]\] became
+a vehicle designed to demonstrate that the glide was possible.
 **The restriction was explicit.** The conference report on the defence appropriations act for fiscal
 year 2005, passed in July 2004, allowed the vehicle's funds to be used only for research that was not
 related to weapons, and barred their use to "develop, integrate, or test a CAV variant that includes any
@@ -89,14 +92,14 @@ meaning an intercontinental or submarine-launched ballistic missile. The adminis
 restructuring the programme and renaming the vehicle the Hypersonic Technology Vehicle
 \[[Woolf 2011][ref_woolf_2011]\].
 
-**The first design did not fly either, and the reason anticipates the rest of this article.** The initial
+**The first design did not fly either, for a reason that anticipates the rest of this article.** The initial
 Hypersonic Technology Vehicle was to reach Mach 19 at 30 to 45 kilometres, but construction of both
 vehicles was cancelled in May 2006 because the subcontractor could not stop the curved leading edges of
 the aeroshell from delaminating, and the programme went directly to the second design
 \[[X-41 CAV][ref_x41_parsch]\].
 
 **The designation is the least certain thing in this section.** The X-41A was allocated in late 1997 or
-early 1998, **years before the Common Aero Vehicle programme existed**, and the authoritative survey of
+early 1998, **years before the joint Falcon programme existed**, and the authoritative survey of
 these designations records that it was never used again in any official announcement and that
 **it is not clear the designation was ever actually applicable to the vehicle discussed here**
 \[[X-41 CAV][ref_x41_parsch]\].
@@ -110,14 +113,14 @@ have nothing to do with. **Both are failures of the same register**, and the
 
 ### The Range Requirement Fixes the Lift to Drag Ratio
 
-**A hypersonic glider is held up by lift and by the curvature of its own path, and the second term is not
+**A hypersonic glider is held up by lift and by the curvature of its path, and the second term is not
 small.** Let $V$ be the vehicle's speed, $R_{e}$ the radius of the Earth and $g$ the acceleration due to
 gravity. The speed at which a body would orbit at the surface is
 
 $$V_{c} = \sqrt{g R_{e}} = \sqrt{(9.80665)(6.371 \times 10^{6})} = 7{,}904 \ \text{m/s}$$
 
 **At a fraction of that speed the vehicle is partly in orbit already.** The lift a steady glide requires is
-the weight less the centrifugal relief, which is the equilibrium glide condition.
+the weight less the centrifugal relief. That balance is the equilibrium glide condition.
 
 $$L = W \left( 1 - \frac{V^{2}}{V_{c}^{2}} \right)$$
 
@@ -127,11 +130,11 @@ ratio. **The relation is not new and the article does not claim it.** It is the 
 long-range hypervelocity vehicles that Eggers and his colleagues published in 1955 and refined through 1958
 \[[Eggers et al 1955][research_eggers_1955]\] \[[Eggers et al 1958][research_eggers_1958]\],
 **written before any such vehicle existed**, and its framing of the choice between ballistic, skip and
-glide trajectories is the frame this article works inside.
+glide trajectories frames the analysis that follows.
 
 $$R = \left(\frac{L}{D}\right) \frac{R_{e}}{2} \ln \left( \frac{1}{1 - V^{2}/V_{c}^{2}} \right)$$
 
-**That relation is the whole argument of this article.** It says that range is bought with two things only,
+**That relation carries the argument of this article.** By it, range is bought with two things only,
 being the aerodynamic efficiency of the shape and the speed it is launched at, **and that neither can be
 classified away.**
 
@@ -150,11 +153,11 @@ $$\frac{L}{D} = \frac{R}{\dfrac{R_{e}}{2} \ln\left(\dfrac{1}{1 - V^{2}/V_{c}^{2}
 
 **Entry speeds are quoted here as Mach numbers on a fixed speed scale of 295 metres per second.** That is
 the speed of sound the 1976 standard atmosphere tabulates, 295.07 metres per second, through its isothermal
-layer from about 11 to about 20 kilometres, and it is close to the scale behind the agency's own statement
-of Mach 20 for more than 13,000 miles per hour, which the section headed Comparison With Ground Prediction
+layer from about 11 to about 20 kilometres, and it lies close to the scale behind the agency's statement
+of Mach 20 for more than 13,000 miles per hour, which the comparison with ground prediction below
 works out as 290.6 metres per second for each Mach number. At 40 kilometres the same standard gives 317.19
-metres per second \[[U.S. Standard Atmosphere, 1976][ref_usa76]\]. **The Mach numbers in this article are
-therefore a speed scale and not local Mach numbers**, and the conversion is
+metres per second \[[U.S. Standard Atmosphere, 1976][ref_usa76]\]. **The Mach numbers quoted here are
+a speed scale and not local Mach numbers**, and the conversion is
 
 $$V = M a \qquad a \approx 295 \ \text{m/s}$$
 
@@ -170,9 +173,9 @@ For a range of 9,000 nautical miles, being 16,668 kilometres, the required ratio
 
 ### The Hypersonic Barrier Says Most of That Table Is Impossible
 
-**There is an empirical ceiling on hypersonic aerodynamic efficiency and it is low.** The correlation
-bounding the attainable maximum for a hypersonic configuration as a function of Mach number is
-Küchemann's \[[Küchemann 1965][research_kuchemann_1965]\], and the general shape of the difficulty was
+**Hypersonic aerodynamic efficiency has an empirical ceiling, and a low one.** Küchemann correlated
+the attainable maximum for a hypersonic configuration as a function of Mach number
+\[[Küchemann 1965][research_kuchemann_1965]\], and the general shape of the difficulty was
 stated even earlier \[[Allen 1958][research_allen_1958]\] \[[Allen 1962][research_allen_1962]\].
 
 $$\left(\frac{L}{D}\right)_{\max} \approx \frac{4(M + 3)}{M} = 4 + \frac{12}{M}$$
@@ -191,26 +194,27 @@ and solving it numerically gives
 
 $$M_{\min} = 22.2 \qquad V_{\min} = 6{,}537 \ \text{m/s} = 0.83 \ V_{c}$$
 
-**The vehicle must therefore be boosted to at least 83 percent of orbital speed**, which is a statement
-about the launch vehicle rather than about the glider, and it explains why the programme carried a launch
+**The vehicle must therefore be boosted to at least 83 percent of orbital speed**. That demand falls
+on the launch vehicle and not on the glider, and it explains why the programme carried a launch
 vehicle task at all.
 
-**The correlation takes the local Mach number, and this article reads it on the 295 metres per second
+**The correlation takes the local Mach number, but the figures here use the 295 metres per second
 scale.** At 40 kilometres a given speed is a local Mach number smaller by the factor 295/317.19, which raises
 the ceiling by about 1 percent. Solved with the local value, the minimum speed is 6,521 metres per second,
 still 83 percent of orbital speed, so the conclusion does not depend on the convention.
 
 $$\frac{4 + 12 \times 317.19/5{,}900}{4 + 12/20} = \frac{4.645}{4.600} = 1.010$$
 
-**The ceiling is a correlation and the measurements behind it are separately available.** Wind tunnel and
-free-flight characterisations of hypersonic glider and all-body configurations
+**The ceiling is a correlation, and measurements on hypersonic shapes can be set beside it.** Wind tunnel
+and free-flight characterisations of hypersonic glider and all-body configurations
 \[[Seiff and Wilkins 1961][research_seiff_1961]\] \[[Nelms 1972][research_nelms_1972]\]
 \[[Clark 1973][research_clark_1973]\] \[[Penland et al 1978][research_penland_1978]\], and of
-the lifting bodies that followed \[[Ware et al 1991][research_ware_1991]\], are what the correlation
-summarises. **None of them reports a ratio near the value the nine thousand mile mission would need at
-Mach 20**, which is the empirical form of the same conclusion.
+the lifting bodies that followed \[[Ware et al 1991][research_ware_1991]\], span Mach 0.2 to 10.6, and
+all but the first postdate the correlation. **None of them was made near Mach 20**, so they test the
+shapes and leave the ceiling untested at the speed this mission needs, and the one hypersonic
+lifting body among them trims at a ratio of 1.4 \[[Ware et al 1991][research_ware_1991]\], far below the 6.42 the table demands.
 
-**Optimal manoeuvring for a vehicle of this class has its own treatment**, and it does not rescue the
+**Optimal manoeuvring for a vehicle of this class has been treated separately**, and it does not rescue the
 range \[[Vinh and Chern 1979][research_vinh_1979]\].
 
 ### The Real Vehicle Confirms the Model
@@ -241,8 +245,8 @@ the reconstructed range, 2,250 metres per second, gives
 
 $$R = 2.6 \times 3{,}185.5 \ \text{km} \times \ln\left(\frac{1 - 0.2847^{2}}{1 - 0.6958^{2}}\right) = 2.6 \times 3{,}185.5 \times \ln(1.7815) = 4{,}783 \ \text{km}$$
 
-against the planned **4,800 kilometres**. **The agreement is close, and it is not an independent
-validation.** The speeds are the analysis's own fitted estimates, obtained with this ratio in a model of
+against the planned **4,800 kilometres**. **The agreement is close, but it does not validate the model
+independently.** The speeds are the analysis's own fitted estimates, obtained with this ratio in a model of
 the same family, so the agreement shows that the relations used here reproduce the published
 reconstruction of the plan. The model is close enough to trust for the argument that follows and not
 close enough to trust for design.
@@ -253,11 +257,11 @@ $$\frac{V}{V_{c}} = \sqrt{1 - \exp\left(-\frac{16{,}668}{2.6 \times 3{,}185.5}\r
 
 $$V = 7{,}357 \ \text{m/s} = \text{Mach } 24.9 \ \text{at } 295 \ \text{m/s}$$
 
-**The vehicle that flew would have needed boosting to 93 percent of orbital speed to make the nine
-thousand mile requirement by gliding alone.** The published analysis, which also credits the distance
+**The Hypersonic Technology Vehicle 2 would have needed boosting to 93 percent of orbital speed to make
+the nine thousand mile requirement by gliding alone.** Acton, who also credits the distance
 covered before the glide, puts the speed at which the glide would have had to begin at 6,900 metres per
 second \[[Acton 2015][ref_acton_2015]\], which is 87 percent of orbital speed. Either figure is very nearly
-a launch to orbit, and that is the quantitative version of the observation that boost-glide weapons and
+a launch to orbit, which puts a number on the observation that boost-glide weapons and
 space launch are the same problem wearing different labels.
 
 $$\frac{6{,}900}{7{,}904} = 0.873$$
@@ -267,7 +271,7 @@ divided by the mass, and drag is the lift divided by the ratio.
 
 $$\frac{dV}{dt} = -\frac{g\left(1 - V^{2}/V_{c}^{2}\right)}{L/D}$$
 
-**That is a gentle deceleration and it explains the flight time.** At Mach 20 it is 1.67 metres per second
+**The deceleration is gentle, and it explains the flight time.** At Mach 20 it is 1.67 metres per second
 squared, or 0.17 of a gravity, rising to 0.36 of a gravity by 2,000 metres per second as the vehicle slows
 and the centrifugal relief disappears. Separating and integrating gives the time to decelerate from an
 initial speed to a final one.
@@ -282,7 +286,7 @@ against the planned **1,178 seconds**. **The ratio and the reconstructed speeds 
 distance and the duration of the planned glide to within one percent**, with the caveat above applying
 to both.
 
-### The Corridor Is Where the Vehicle Actually Lives
+### The Corridor Between Lift and Heat
 
 **A glider at this speed is squeezed between two conditions.** It must fly low enough for the air to hold
 it up and high enough for the air not to destroy it, and the gap between those is the corridor.
@@ -315,7 +319,7 @@ $$h = -6{,}900 \ln\left(\frac{1.73 \times 10^{-4}}{1.225}\right) = 61.2 \ \text{
 this density between 63.6 and 64.1 kilometres \[[U.S. Standard Atmosphere, 1976][ref_usa76]\], so the fit
 puts the corridor about 3 kilometres low. The temperatures that follow depend on the density and not on the
 altitude, so they do not change. The lift coefficient implied is small, as it must be at this
-speed, and depends on a reference area the record does not give.
+speed, and depends on an unpublished reference area.
 
 $$C_{L} = \frac{2 W \left(1 - V^{2}/V_{c}^{2}\right)}{\rho V^{2} S} = 0.225 \ \text{at} \ S = 2 \ \text{m}^{2}$$
 
@@ -329,14 +333,14 @@ are the usual hypersonic approximations, converts it to
 
 $$k \approx \frac{0.1113}{2 \sqrt{101{,}325}} = \frac{0.1113}{636.6} = 1.748 \times 10^{-4}$$
 
-which the value used here matches to within 0.4 percent. **The correlation form belongs to a long line of stagnation-point work**, running
+which the value used here matches to within 0.4 percent. **The correlation form descends from a long line of stagnation-point work**, running
 from the theory of heat transfer in dissociated and partially ionised air
 \[[Fay and Kemp 1963][research_fay_kemp_1963]\] through free-flight measurement at Mach 14.6
 \[[Rumsey and Lee 1958][research_rumsey_1958]\] \[[Murphy and Rubesin 1965][research_murphy_1965]\] and the review of entry-vehicle heating
 \[[Allen 1966][research_allen_1966]\], to modern prediction procedures for blunt bodies
 \[[Bouslog et al 1993][research_bouslog_1993]\] and the radiative companion relations
 \[[Tauber and Sutton 1991][research_tauber_sutton_1991]\]. **The convective form used here is the simplest
-member of that family** and is used for a bound rather than for design.
+member of that family**, adequate for a bound and no more.
 
 $$\dot{q} = k \sqrt{\frac{\rho}{R_{n}}} \, V^{3}$$
 
@@ -351,7 +355,8 @@ $$T = \left(\frac{\dot{q}}{\varepsilon \sigma}\right)^{1/4}$$
 $$\dot{q} = 3.51 \ \text{MW/m}^{2} \qquad T = 2{,}921 \ \text{K}$$
 
 against the surface temperature the vehicle was expected to reach, published as **more than 3,500 degrees
-Fahrenheit** \[[Pentagon releases results of 13,000-mph test flight over Pacific][ref_lat_2012]\], which
+Fahrenheit** \[[Pentagon releases results of 13,000-mph test flight over Pacific][ref_lat_2012]\]
+\[[Hypersonic Technology Vehicle 2][ref_htv2]\], which
 converts as
 
 $$T_{d} = \frac{5}{9}\left(3{,}500 - 32\right) + 273.15 = 1{,}926.7 + 273.15 = 2{,}200 \ \text{K}$$
@@ -371,13 +376,13 @@ $$R_{n} = \rho \left(\frac{k V^{3}}{\varepsilon \sigma T_{d}^{4}}\right)^{2} = 0
 **on a vehicle 3.5 to 4.5 metres long** \[[X-41 CAV][ref_x41_parsch]\]. A nose radius of nearly half a metre
 is more than a tenth of the vehicle's length. Thin wings with sharp leading edges are what a high lift to
 drag ratio needs \[[Acton 2015][ref_acton_2015]\], so blunting a hypersonic shape that much would cost much
-of the ratio that the range depends on. The published analysis of
-the flight tests reads the vehicle's own ratio as exactly this compromise, between the long range that a
+of the ratio that the range depends on. Acton's analysis of
+the flight tests reads the vehicle's ratio as this compromise, between the long range that a
 high ratio buys and the low rate of heat absorption that a blunter, lower-ratio shape allows
 \[[Acton 2015][ref_acton_2015]\].
 
-**The design therefore wants a sharp edge for range and a blunt edge for survival, and cannot have both.**
-**That trade has been analysed under exactly that name.** An aerothermal performance constraint analysis of
+**The design wants a sharp edge for range and a blunt edge for survival, and cannot have both.**
+**That trade has been analysed directly.** An aerothermal performance constraint analysis of
 sharp nosecaps and leading edges works the same problem from the materials side
 \[[Rizk and Gee 2004][research_rizk_2004]\], and a flight experiment programme was built to attack it,
 producing both a sharp leading-edge flight article \[[Rasky et al 1998][research_rasky_1998a]\] and its
@@ -385,9 +390,9 @@ successor \[[Rasky 1998][research_rasky_1998b]\]. **The materials that would hav
 gap are the ultra-high temperature ceramics** \[[Johnson et al 2007][research_johnson_2007]\]
 \[[Levine et al 2004][research_levine_2004]\], alongside lighter thermal protection approaches
 \[[Stewart and Leiser 2007][research_stewart_2007]\]. **Thermal protection remained a problem for the
-vehicle that flew**, whose 2011 test was ended prematurely as a direct result of damage to its aeroshell
-caused by heating \[[Acton 2015][ref_acton_2015]\].
-Sweeping the two quantities the public record does not give, being the effective $S C_{L}$ and the
+Hypersonic Technology Vehicle 2**, whose 2011 test was ended prematurely as a direct result of damage to
+its aeroshell caused by heating \[[Acton 2015][ref_acton_2015]\].
+Sweeping the two unpublished quantities, being the effective $S C_{L}$ and the
 leading-edge radius, shows how narrow the escape is.
 
 | $S C_{L}$ (m²) | $R_{n}$ = 0.05 m | $R_{n}$ = 0.20 m | $R_{n}$ = 0.49 m |
@@ -405,11 +410,11 @@ was derived here without a single classified number.**
 
 ### The Aeroshell
 
-**The aeroshell is the vehicle, which is what the programme's own name said.** The flight article was built
+**The aeroshell is the vehicle, as the programme's name said.** The flight article was built
 by Lockheed Martin from carbon composite in an arrowhead planform
 \[[Hypersonic Technology Vehicle 2][ref_htv2]\], with internal electronics and avionics only a few inches
 from the surface \[[Pentagon releases results of 13,000-mph test flight over Pacific][ref_lat_2012]\].
-**A carbon composite skin is a choice about mass rather than about temperature**, and the sizing section
+**A carbon composite skin is a choice about mass rather than about temperature**, and the corridor calculation
 shows why that choice was under pressure. The cancelled first design had already failed at the
 aeroshell's curved leading edges, which delaminated in manufacture \[[X-41 CAV][ref_x41_parsch]\].
 
@@ -418,8 +423,8 @@ aeroshell's curved leading edges, which delaminated in manufacture \[[X-41 CAV][
 **A glider with a lift to drag ratio near 2.6 has real manoeuvre authority and very little margin.** The
 programme study asked for a cross-range of 3,000 nautical miles \[[Woolf 2011][ref_woolf_2011]\], and
 manoeuvring away from a straight path costs down-range \[[Acton 2015][ref_acton_2015]\], so the
-manoeuvrability that made the concept attractive is bought from the same account as the range. **The
-public record gives no guidance architecture**, and this article does not infer one. What it does give is
+manoeuvrability that made the concept attractive is bought from the same account as the range. **No
+guidance architecture has been published**, and this article does not infer one. What it does give is
 the control finding of the first flight, in which the most probable cause of the loss was
 "higher-than-predicted yaw, which coupled into roll thus exceeding the available control capability", and
 the remedy, which was to move the centre of gravity, fly a lower angle of attack and use the reaction
@@ -470,7 +475,7 @@ $$\frac{86{,}300}{900} = 96$$
 **The one system that would have distinguished a weapon from a demonstrator was removed before flight.**
 The Common Aero Vehicle was to dispense payloads inside the atmosphere \[[X-41 CAV][ref_x41_parsch]\], and
 that function ended with the 2004 restriction, which barred any variant that included weapons
-\[[Woolf 2011][ref_woolf_2011]\]. **Nothing about it was ever flown**, so this article has nothing to
+\[[Woolf 2011][ref_woolf_2011]\]. **None of it was ever flown**, so there is nothing to
 dimension.
 
 ## The Flight Test Record
@@ -494,7 +499,7 @@ atmosphere, as the published reconstruction does, places Mach 17 at
 $$t_{2} + 139 = 435 + 139 = 574 \ \text{s} < t_{4} = 620 \ \text{s}$$
 
 so the data end before the planned start of the glide \[[Acton 2015][ref_acton_2015]\]. The deceleration
-confirms it. Converting Mach 17 at this article's 295 metres per second gives 5,015 metres per second, and
+confirms it. Converting Mach 17 on the 295 metres per second scale gives 5,015 metres per second, and
 the average deceleration from the 6,010 metres per second of re-entry is
 
 $$\bar{a} = \frac{6{,}010 - 5{,}015}{139} = 7.16 \ \text{m/s}^{2} = 0.73 \ g$$
@@ -504,7 +509,7 @@ against the glide relation's
 $$\frac{g\left(1 - 0.760^{2}\right)}{2.6} = 1.59 \ \text{m/s}^{2} = 0.16 \ g$$
 
 at the same entry speed. **Four and a half times the glide's deceleration is the signature of the pull-up
-out of the dive**, and the published analysis concludes that equilibrium gliding was not achieved on that
+out of the dive**, and Acton concludes that equilibrium gliding was not achieved on that
 flight \[[Acton 2015][ref_acton_2015]\]. The figure is approximate, because the speed of sound varies with
 altitude through the pull-up.
 
@@ -534,20 +539,21 @@ flight and the thermal ones on the second.** What is public is the flight plan, 
 in less than thirty minutes at more than 13,000 miles per hour
 \[[Falcon HTV-2 fact sheet 2010][ref_darpa_fs2010]\], together with an expected surface temperature of
 more than 3,500 degrees Fahrenheit
-\[[Pentagon releases results of 13,000-mph test flight over Pacific][ref_lat_2012]\]. No wind tunnel data,
-contractor estimate or specification for the Common Aero Vehicle has been released, so there is nothing
-earlier than that plan to set against flight. The same fact sheet gives the speed as Mach 20
-\[[Falcon HTV-2 fact sheet 2010][ref_darpa_fs2010]\], and the two statements together imply the agency's own
-speed scale, which is close to this article's convention of 295 metres per second.
+\[[Pentagon releases results of 13,000-mph test flight over Pacific][ref_lat_2012]\]. No specification
+for the Common Aero Vehicle has been released \[[X-41 Common Aero Vehicle][ref_x41_wiki]\], and no
+wind tunnel data or contractor estimate for it is public, so there is nothing earlier than
+that plan to set against flight. The same fact sheet gives the speed as Mach 20
+\[[Falcon HTV-2 fact sheet 2010][ref_darpa_fs2010]\], and the two statements together imply the speed scale
+the agency used, which is close to this article's convention of 295 metres per second.
 
 $$13{,}000 \ \text{mph} \times \frac{1{,}609.344 \ \text{m}}{3{,}600 \ \text{s}} = 5{,}812 \ \text{m/s} \qquad \frac{5{,}812}{20} = 290.6 \ \text{m/s} \qquad 20 \times 295 = 5{,}900 \ \text{m/s}$$
 
 **Speed arrived as planned and temperature is not on the record.** Both flights reached the Mach 20 regime,
 the first returning data from Mach 22 \[[Falcon HTV-2][ref_darpa_htv2]\] and the second flying under
 control at Mach 20 for nearly three minutes
-\[[Hypersonic vehicle test showcases significant feats][ref_darpa_feats2011]\]. The temperature figure in
-the public record is what the surface was expected to reach, not a measurement, so the record does not
-allow it to be compared with flight.
+\[[Hypersonic vehicle test showcases significant feats][ref_darpa_feats2011]\]. The public temperature
+figure records an expected value for the surface, and an expectation cannot be compared with
+flight.
 
 **One aerothermal prediction is reported as met.** The agency's initial assessment of the second flight was
 that the pre-flight models predicted the transition from laminar to turbulent flow to within ten seconds of
@@ -565,27 +571,27 @@ second flight later summarised that aerodynamic assumptions and extrapolations f
 had proved inadequate when preparing for the first
 \[[Engineering review board concludes review of the second test flight][ref_erb]\].
 
-**The second flight is where thermal prediction and flight parted.** A gradual wearing away of the skin had
+**On the second flight, thermal prediction and flight parted.** A gradual wearing away of the skin had
 been expected, but larger portions than anticipated peeled from the aerostructure, and the initial
 shockwave disturbances exceeded by more than 100 times what the vehicle was designed to withstand
 \[[Engineering review board concludes review of the second test flight][ref_erb]\]. The same board found
 the aerodynamic design validated and concluded that thermal modelling and ground testing alone could not
 predict Mach 20 atmospheric flight
-\[[Engineering review board concludes review of the second test flight][ref_erb]\]. The section headed
-What the Data Changed argues what that finding means.
+\[[Engineering review board concludes review of the second test flight][ref_erb]\]. The next section
+argues what that finding means.
 
-**The model in the section headed Sizing From First Principles is a check on the plan, not a ground
+**The sizing model is a check on the plan, not a ground
 prediction of the flight.** At the estimated lift to drag ratio of 2.6 it reproduces the planned glide's
 4,800 kilometres and 1,178 seconds to within one percent. Those figures were computed for this article
 from published numbers and agree with what the programme intended rather than with what flight returned.
 Its corridor calculation places the difficulty at the leading edge, which is consistent with the second
-board's finding, but it is a bound derived here and not a prediction the programme is recorded as having
-made.
+board's finding, but it is a bound derived here. The programme is not recorded as having made such a
+prediction.
 
 ## What the Data Changed
 
-**The failure report is the programme's most valuable output and it confirms the sizing section
-exactly.**
+**The failure report is the programme's most valuable output, and it confirms the sizing
+argument.**
 
 An independent engineering review board spent seven months on the second flight and concluded that
 **the most probable cause was unexpected aeroshell degradation**, which created a series of upsets of
@@ -597,18 +603,18 @@ several of those rolls, and the initial disturbances it recovered from exceeded 
 it was designed to withstand, until the severity of the continued disturbances exceeded its ability to
 recover \[[Engineering review board concludes review of the second test flight][ref_erb]\].
 
-**The board's two conclusions are the ones this article's derivation predicts.** It found that
-**the aerodynamic design was validated** and that what the flight actually taught concerned
+**The derivation above predicts the board's first two conclusions.** It found that
+**the aerodynamic design was validated** and that what the flight taught concerned
 **the thermal material properties**
 \[[Engineering review board concludes review of the second test flight][ref_erb]\]. The shape worked. The edge did not.
 
-**The board's third conclusion is the general one and it is the most important.** It found that
+**The board's third conclusion is general, and the most important.** It found that
 extrapolating from known flight regimes, relying on thermal modelling and ground testing alone, **could not
 predict the realities of Mach 20 atmospheric flight**
 \[[Engineering review board concludes review of the second test flight][ref_erb]\].
 
-**That is a statement about the limits of ground test at the top of the speed range**, and it is the same
-finding that this series has recorded for the [X-15][related_post_a312_north_american_x15] at a third of
+**The finding concerns the limits of ground test at the top of the speed range**, and this series has
+recorded the same finding for the [X-15][related_post_a312_north_american_x15] at a third of
 the speed and for the [X-43][ref_x43], whose fastest flight at about Mach 9.6 was half of it. **It had also been stated in advance, repeatedly.**
 A survey of hypersonic flight experimentation published in 1997 was subtitled status and shortfalls and
 argued precisely that the ground facilities do not reach the regime
@@ -618,7 +624,7 @@ critical technologies repeated it \[[Research and Technology Organisation RTO 20
 **The board did not discover that ground test runs out. It confirmed it with two vehicles.** The
 programme's answer was a remediation phase of further analysis and ground testing that used the flight data
 to validate new tools for thermal uncertainty and heat-stress allowances in the outer shell
-\[[Engineering review board concludes review of the second test flight][ref_erb]\]. **The corridor derived above is where ground
+\[[Engineering review board concludes review of the second test flight][ref_erb]\]. **The corridor derived above lies where ground
 facilities run out**, and the programme paid two vehicles to establish it.
 
 ## The Contemporary Literature
@@ -720,15 +726,15 @@ vehicle's figure, but neither is a programme specification. **If the glider was 
 fraction of that range, the entire chain above is answering the wrong question**, and the article cannot
 exclude it.
 
-**Second, equilibrium glide is an idealisation and real trajectories are not equilibrium glides.** A real
+**Second, equilibrium glide is an idealisation and real trajectories are not equilibrium glides.** A flown
 vehicle skips, phugoids and banks, and a banked turn spends lift on turning rather than on range.
 **Every deviation from the idealisation reduces range for a given ratio**, so the required ratios in the
 table are lower bounds and the argument is if anything understated.
 
 **Third, the two quantities the corridor calculation needs are exactly the two the record withholds.** The
 effective $S C_{L}$ and the leading-edge radius are swept rather than known, and **a reader who prefers
-different values will get different temperatures.** The table is offered so that the sweep is visible
-rather than hidden inside a single number.
+different values will get different temperatures.** The table is offered so that the reader sees the sweep
+that a single number would hide.
 
 ## The Source Base
 
@@ -875,9 +881,10 @@ The Common Aero Vehicle was a manoeuvrable hypersonic reentry vehicle intended t
 the atmosphere, with Aero standing for aeroshell. In December 2002 the Air Force programme was merged with
 a Defense Advanced Research Projects Agency effort into the Force Application and Launch from the
 Continental United States programme, carrying a small launch vehicle task and an aero vehicle task. By 2004
-the offensive strike element was cancelled, the vehicle was renamed the Hypersonic Technology Vehicle, and
-weaponisation research ended. Congress had restricted funding for the strike mission across several years,
-and the appropriations act for fiscal year 2005 barred any variant that included weapons. The programme's
+the offensive strike element was cancelled and weaponisation research ended, and the vehicle was renamed
+the Hypersonic Technology Vehicle in 2004 or in 2006, the two dates given by different sources. Congress
+increased the vehicle's funding while questioning its strike mission, and the appropriations act for
+fiscal year 2005 barred any variant that included weapons. The programme's
 reusable cruise vehicle was to strike targets 9,000 nautical miles distant, and the glider was to carry
 about 1,000 pounds of payload anywhere on Earth from the continental United States with a cross-range of
 3,000 nautical miles. The first design was cancelled in 2006 after its leading edges delaminated. Vehicles
@@ -896,8 +903,8 @@ be recomputed from the relations and figures shown.** The circular speed, the eq
 the range relation carry no vehicle property, and they are cited to their primary sources rather than
 treated as common knowledge \[[Eggers et al 1955][research_eggers_1955]\]
 \[[Eggers et al 1958][research_eggers_1958]\]. The Küchemann correlation is empirical
-\[[Küchemann 1965][research_kuchemann_1965]\] and is used as a bound rather than as a prediction, with the
-configuration measurements it summarises cited separately. The lift condition is the definition of the
+\[[Küchemann 1965][research_kuchemann_1965]\] and bounds the problem without predicting it, with
+measurements on hypersonic configurations cited beside it. The lift condition is the definition of the
 lift coefficient, the stagnation-point heating coefficient is checked above against Sutton and Graves
 \[[Sutton and Graves 1971][research_sutton_graves_1971]\], and the radiative equilibrium temperature is the
 balance of that heating against emission at the stated emissivity. The atmosphere's speed of sound,
@@ -907,8 +914,8 @@ sea-level density and scale heights are taken from the 1976 standard atmosphere
 **The model is checked against the one published performance figure before it is used to argue.**
 The estimated lift to drag ratio of 2.6, with the published reconstruction's speeds at the start and end
 of the planned glide, reproduces the planned glide's distance and duration to within one percent. **The
-estimate and the speeds come from a fit of a model in the same family, so this is a consistency check
-rather than an independent validation, and it is not good enough to size hardware.**
+estimate and the speeds come from a fit of a model in the same family, so the agreement checks consistency
+without validating the model independently. It is not good enough to size hardware.**
 
 ### Inference
 
@@ -928,13 +935,14 @@ reading those seconds as starting at re-entry.
 ### What the Record Does Not Settle
 
 **Whether the X-41 designation belongs to this vehicle at all is not settled**, and the authoritative
-survey says so. The designation was allocated in late 1997 or early 1998, years before the programme, was
+survey says so. The designation was allocated in late 1997 or early 1998, years before the joint programme, was
 never used again officially, and its applicability to the Common Aero Vehicle is explicitly doubted
 \[[X-41 CAV][ref_x41_parsch]\]. **This article uses the pairing because the public record does, and records
 that the pairing may be wrong.**
 
-**No specifications or photographs of the Common Aero Vehicle have been released**, so every dimension used
-here belongs to the Hypersonic Technology Vehicle that succeeded it, **and there is arithmetic showing the
+**No specifications or photographs of the Common Aero Vehicle have been released**
+\[[X-41 Common Aero Vehicle][ref_x41_wiki]\], so every dimension used
+here comes from the Hypersonic Technology Vehicle that succeeded it, **and there is arithmetic showing the
 two cannot be the same vehicle.** The payload figure attached to the Common Aero Vehicle is 1,000 pounds
 \[[Woolf 2011][ref_woolf_2011]\] \[[X-41 Common Aero Vehicle][ref_x41_wiki]\], against a Hypersonic Technology Vehicle mass of about 900
 kilograms \[[X-41 CAV][ref_x41_parsch]\].
@@ -942,19 +950,24 @@ kilograms \[[X-41 CAV][ref_x41_parsch]\].
 $$\frac{1{,}000 \ \text{lb}}{900 \ \text{kg}} = \frac{454}{900} = 0.50$$
 
 **A payload half the mass of the whole vehicle is not credible for a hypersonic glider**, so either the
-payload figure belongs to a larger design than the one that flew, or the mass figure belongs to a stripped
+payload figure describes a larger design than the one that flew, or the mass figure describes a stripped
 demonstrator carrying nothing. **The record does not say which**, and this article uses each figure only
 where it is safe to.
 
-**The reference area, the lift coefficient and the leading-edge radius are not published.** They are swept
-across a plausible range rather than assumed, and the conclusion is stated as holding across the sweep
-rather than at a point.
+**The reference area, the lift coefficient and the leading-edge radius are not published**
+\[[X-41 CAV][ref_x41_parsch]\]. Instead of assuming them, the article sweeps them across a plausible
+range, and the conclusion is stated as holding throughout the sweep.
+
+**The design temperature rests on a single newspaper report**, which gives more than 3,500 degrees
+without naming the scale \[[Pentagon releases results of 13,000-mph test flight over Pacific][ref_lat_2012]\].
+The Fahrenheit scale is therefore inferred, and the encyclopaedia article adopts the same reading
+\[[Hypersonic Technology Vehicle 2][ref_htv2]\].
 
 **Whether the 9,000 nautical mile requirement applied to the glider or to the larger system that would
-carry several of them is not settled**, and the framing section says what that does to the argument.
+carry several of them remains open**, and the framing section sets out what that does to the argument.
 
-**The first flight's review board names a most probable cause and not a certain one**, and the record
-does not say which aerodynamic parameters were poorly known or by how much the yaw exceeded prediction
+**The first flight's review board names a most probable cause and not a certain one**, and no public
+source names which aerodynamic parameters were poorly known or by how much the yaw exceeded prediction
 \[[DARPA concludes review of Falcon HTV-2 flight anomaly][ref_darpa_erb2010]\].
 
 **The relationship between this vehicle and later hypersonic glide programmes is outside what the record
@@ -976,7 +989,7 @@ problem.** A range of 9,000 nautical miles and the equilibrium glide relation de
 that the Küchemann barrier refuses below **Mach 22.2**, so the glider had to be boosted to at least
 **83 percent of orbital speed**, and at the ratio of **2.6** estimated for the vehicle that flew, to **93 percent**.
 
-**The corridor that follows is where the vehicle breaks.** Flying low enough to be held up by the air puts
+**The vehicle breaks in the corridor that follows.** Flying low enough to be held up by the air puts
 a 50 millimetre leading edge at about **2,921 kelvin**, against an expected surface temperature of about
 **2,200**. Holding that value needs an edge radius of **0.484 metres** on a vehicle four metres long, and that
 much bluntness costs the range the sharpness was for. **Five of the nine plausible combinations swept here

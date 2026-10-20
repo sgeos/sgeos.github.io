@@ -12,11 +12,11 @@ series_index: 49
 <!-- A345 -->
 <script>console.log("A345");</script>
 
-**On 20 July 2007 an aeroplane weighing about as much as three passengers took off from Rogers Dry Lake, and the number that matters about it is 240.** The X-48B spans 20.4 feet. The aeroplane it was built to describe spans 240 feet, and every claim the programme made about that larger machine had to travel across a factor of 8.5 percent to get there \[[Regan 2008][research_regan_x48b_stability]\].
+**On 20 July 2007 an aeroplane weighing about as much as three passengers took off from Rogers Dry Lake, and the number that matters about it is 240.** \[[Risch et al 2009][research_taylor_x48b_progress]\] The X-48B spans 20.4 feet. The aeroplane it was built to describe spans 240 feet, and every claim the programme made about that larger machine had to travel across a factor of 8.5 percent to get there \[[Regan 2008][research_regan_x48b_stability]\] \[[Boeing flies X-48C blended wing body research aircraft][ref_boeing_x48c_release]\].
 
 This is the forty-ninth article in the [X-Planes series][related_post_a297_framing], following the [X-1][related_post_a298_bell_x1], the [X-2][related_post_a299_bell_x2], the [X-3][related_post_a300_douglas_x3], the [X-4][related_post_a301_northrop_x4], the [X-5][related_post_a302_bell_x5], the [X-6][related_post_a303_convair_x6], the [X-7][related_post_a304_lockheed_x7], the [X-8][related_post_a305_aerojet_x8], the [X-9][related_post_a306_bell_x9], the [X-10][related_post_a307_north_american_x10], the [X-11][related_post_a308_convair_x11], the [X-12][related_post_a309_convair_x12], the [X-13][related_post_a310_ryan_x13], the [X-14][related_post_a311_bell_x14], the [X-15][related_post_a312_north_american_x15], the [X-16][related_post_a313_bell_x16], the [X-17][related_post_a314_lockheed_x17], the [X-18][related_post_a315_hiller_x18], the [X-19][related_post_a316_curtiss_wright_x19], the [X-20][related_post_a317_boeing_x20], the [X-21][related_post_a318_northrop_x21], the [X-22][related_post_a319_bell_x22], the [X-23][related_post_a320_martin_marietta_x23], the [X-24][related_post_a321_martin_marietta_x24], the [X-25][related_post_a322_bensen_x25], the [X-26][related_post_a323_schweizer_x26], the [X-27][related_post_a324_lockheed_x27], the [X-28][related_post_a325_osprey_x28], the [X-29][related_post_a326_grumman_x29], the [X-30][related_post_a327_rockwell_x30], the [X-31][related_post_a328_rockwell_mbb_x31], the [X-32][related_post_a329_boeing_x32], the [X-33][related_post_a330_lockheed_martin_x33], the [X-34][related_post_a331_orbital_sciences_x34], the [X-35][related_post_a332_lockheed_martin_x35], the [X-36][related_post_a333_mcdonnell_douglas_x36], the [X-37][related_post_a334_boeing_x37], the [X-38][related_post_a335_scaled_composites_x38], the [X-39][related_post_a336_x39_reserved_never_assigned], the [X-40][related_post_a337_boeing_x40], the [X-41][related_post_a338_x41_common_aero_vehicle], the [X-42][related_post_a339_orbital_sciences_x42], the [X-43][related_post_a340_micro_craft_x43], the [X-44][related_post_a341_x44_two_aircraft], the [X-45][related_post_a342_boeing_x45], the [X-46][related_post_a343_boeing_x46], and the [X-47][related_post_a344_northrop_grumman_x47].
 
-**One airframe flew 122 times over six years, as two aeroplanes, and the record of those flights is extensive.** The second X-48B flew 92 times and was then rebuilt as the X-48C, which flew 30 more \[[Second X-48B modified into X-48C configuration, NASA Dryden][ref_nasa_x48c_status]\] \[[X-48 Research, All Good Things Must Come to an End, NASA][ref_nasa_x48_end]\]. It flew in two configurations, through envelope expansion, parameter identification, engine-out testing and deliberate approaches to the limit of controlled flight \[[X-48 Research, All Good Things Must Come to an End, NASA][ref_nasa_x48_end]\].
+**One airframe flew 122 times over nearly six years, as two aeroplanes, and the record of those flights is extensive.** The second X-48B flew 92 times and was then rebuilt as the X-48C, which flew 30 more \[[Second X-48B modified into X-48C configuration, NASA Dryden][ref_nasa_x48c_status]\] \[[X-48 Research, All Good Things Must Come to an End, NASA][ref_nasa_x48_end]\]. It flew in two configurations, through envelope expansion, parameter identification, engine-out testing and deliberate approaches to the limit of controlled flight \[[X-48 Research, All Good Things Must Come to an End, NASA][ref_nasa_x48_end]\].
 
 **It is the first aeroplane in this series whose central question is about the instrument rather than the vehicle.** The previous three articles were unmanned combat aircraft. This one is a transport configuration, and the interesting thing about it is not what it did but what its size permits anyone to conclude.
 
@@ -26,11 +26,11 @@ This is the forty-ninth article in the [X-Planes series][related_post_a297_frami
 
 **A free-flight model answers that question, and it answers it by giving something up.** A model cannot match every dimensionless group at once. Matching the ratio of inertial to gravitational force, which is the Froude number, makes the model move like the aeroplane. Matching the ratio of inertial to viscous force, which is the Reynolds number, makes the air behave around the model as it does around the aeroplane. **At any scale below one, those two demands conflict, and the free-flight tradition resolves the conflict in favour of Froude** \[[Chambers 2010][research_chambers_modeling_flight]\].
 
-**So the question this article asks is what the X-48B's scale factor bought and what it cost.** The answer is arithmetic rather than opinion, and it turns out to bear directly on the single most quoted result of the flight programme.
+**This article asks what the X-48B's scale factor bought and what it cost.** The answer can be computed, and it bears directly on the most quoted result of the flight programme.
 
 ## Programme Origin
 
-**Four scaled blended wing bodies preceded the answer, and two of them never flew.** The designation record for the whole family is set out in the specialist directory \[[Parsch, Boeing X-48, Directory of U.S. Military Rockets and Missiles][ref_parsch_x48]\], and the general configuration has a literature of its own reaching back to the tailless transports of the 1940s \[[Wooldridge, Winged wonders, the story of the flying wings][book_wooldridge]\] \[[Blended wing body][ref_bwb_wikipedia]\].
+**Four scaled blended wing bodies preceded the answer, and two of them never flew.** The designation record for the family is set out in the specialist directory \[[Parsch, Boeing X-48, Directory of U.S. Military Rockets and Missiles][ref_parsch_x48]\], and the general configuration has a literature of its own reaching back to the tailless transports of the 1940s \[[Wooldridge, Winged wonders, the story of the flying wings][book_wooldridge]\] \[[Blended wing body][ref_bwb_wikipedia]\].
 
 The first was the BWB-17, a 17-foot-span model weighing 120 pounds, built at Stanford University under the sponsorship of the National Aeronautics and Space Administration, abbreviated NASA, and flown on 29 July 1997 at El Mirage Dry Lake. It was dynamically scaled, carried an onboard computer for stability augmentation, and demonstrated good handling qualities within the normal envelope \[[Liebeck 2004][research_liebeck_bwb]\].
 
@@ -38,7 +38,7 @@ The second was the X-48A. In 2000 NASA and Boeing began a 35-foot-span remotely 
 
 The third and fourth are the two X-48B airframes, of which only the second flew \[[Risch et al 2009][research_taylor_x48b_progress]\]. Boeing Phantom Works took the lead on the X-48B in 2006 with NASA and the Air Force Research Laboratory \[[Boeing Phantom Works to lead research on X-48B blended wing body concept][ref_boeing_x48b_release]\] \[[X-48 Blended Wing Body, GlobalSecurity][ref_x48_globalsecurity]\]. Two X-48B airframes were built by Cranfield Aerospace in the United Kingdom to Boeing's specifications \[[Cranfield Aerospace Solutions][ref_cranfield_aerospace]\] \[[Boeing X-48][ref_x48_wikipedia]\]. Ship 1 went to the Langley Full-Scale Tunnel for 250 hours of testing in May 2006, and Ship 2 became the flight vehicle \[[X-48 Hybrid/Blended Wing Body, NASA Dryden Fact Sheet FS-090][ref_nasa_fs090]\]. Ship 2 was later rebuilt as the X-48C \[[Second X-48B modified into X-48C configuration, NASA Dryden][ref_nasa_x48c_status]\].
 
-## Sizing From First Principles, the Scaling Decision Which Is the Whole Article
+## Sizing From First Principles
 
 ### The Geometry Closes Exactly
 
@@ -46,7 +46,7 @@ The third and fourth are the two X-48B airframes, of which only the second flew 
 
 $$n = \frac{20.4\ \text{ft}}{240\ \text{ft}} = 0.085000$$
 
-**which agrees with the published 8.5 percent to fourteen decimal places.** That is worth stating because it establishes that the reference vehicle is a real design with a fixed span rather than a round number attached afterwards, and every relation below inherits that exactness.
+**which agrees with the published 8.5 percent to fourteen decimal places.** The agreement establishes that the reference vehicle is a real design with a fixed span and that its span was no round number attached afterwards, and every relation below inherits that exactness.
 
 ### What Froude Matching Does to Everything Else
 
@@ -54,11 +54,11 @@ $$n = \frac{20.4\ \text{ft}}{240\ \text{ft}} = 0.085000$$
 
 $$Fr = \frac{V^{2}}{Lg}, \qquad Re = \frac{VL}{\nu}$$
 
-**Setting the model's Froude number equal to the aeroplane's is what fixes the speed ratio**, and it does so without reference to the air at all,
+**Setting the model's Froude number equal to the aeroplane's fixes the speed ratio**, and it does so without reference to the air at all,
 
 $$\frac{V_m^{2}}{L_m g} = \frac{V_f^{2}}{L_f g} \implies r_V = \frac{V_m}{V_f} = \sqrt{\frac{L_m}{L_f}} = \sqrt{n}$$
 
-**The mass condition is a separate requirement and it is the one usually forgotten.** A dynamic model must also match the relative density factor, which compares the model's mass to the air it displaces,
+**The mass condition is a separate requirement, and it is usually forgotten.** A dynamic model must also match the relative density factor, which compares the model's mass to the air it displaces,
 
 $$\sigma = \frac{m}{\rho l^{3}}$$
 
@@ -78,11 +78,11 @@ $$r_W = n^3, \qquad r_I = n^5, \qquad r_{Re} = n^{3/2}$$
 
 $$r_{Re} = r_V \, r_L = n^{1/2} \cdot n = n^{3/2}$$
 
-**and that single line is the whole cost of the decision.** Two further ratios follow the same way and both matter later. The dynamic pressure and the wing loading go as
+**and that single line states the cost of the decision in full.** Two further ratios follow the same way and both matter later. The dynamic pressure and the wing loading go as
 
 $$r_q = \frac{\rho V_m^{2}}{\rho V_f^{2}} = r_V^{2} = n, \qquad r_{W/S} = \frac{n^{3}}{n^{2}} = n$$
 
-**The weight goes as the cube because it is a force and a force at matched Froude number scales as $\rho V^2 L^2$, which is $n \cdot n^2$.** The underlying rigid-body equations are standard \[[Etkin and Reid, Dynamics of flight][book_etkin_reid]\] \[[McCormick, Aerodynamics, aeronautics and flight mechanics][book_mccormick]\]. The Reynolds ratio is the product of the velocity ratio and the length ratio, which is where the three halves comes from.
+**The weight goes as the cube because it is a force and a force at matched Froude number scales as $\rho V^2 L^2$, which is $n \cdot n^2$.** The underlying rigid-body equations are standard \[[Etkin and Reid, Dynamics of flight][book_etkin_reid]\] \[[McCormick, Aerodynamics, aeronautics and flight mechanics][book_mccormick]\]. The exponent of three halves in the Reynolds row comes from that product of the velocity and length ratios.
 
 At $n = 0.085$ these evaluate to the following.
 
@@ -101,7 +101,7 @@ At $n = 0.085$ these evaluate to the following.
 
 ### The Pilot Does Not Scale
 
-**Time compression is a statement about the pilot as much as about the aeroplane.** Any interval scales as
+**Time compression constrains the pilot as much as the aeroplane.** Any interval scales as
 
 $$t_m = t_f \sqrt{n} = 0.2915 \, t_f$$
 
@@ -113,23 +113,23 @@ $$t_m = 3 \times 0.2915 = 0.875\ \text{s}$$
 
 $$r_\omega = \frac{1}{\sqrt{n}} = 3.430$$
 
-The aeroplane is on a dry lake bed and the pilot is in a ground station, and **the pilot's reaction time is not multiplied by 0.2915 to match.**
+The aeroplane is on a dry lake bed and the pilot is in a ground station, and **the pilot's reaction time is not multiplied by 0.2915 to match.** \[[Risch et al 2009][research_taylor_x48b_progress]\]
 
-NASA's own account of dynamic model testing states the problem plainly, noting that because a model's angular motions are so much faster than the aeroplane's, the models may be difficult to control, and that the response has often been to share the piloting task among more than one person \[[Chambers 2010][research_chambers_modeling_flight]\].
+NASA's account of dynamic model testing acknowledges the problem, noting that because a model's angular motions are so much faster than the aeroplane's, the models may be difficult to control, and that the response has often been to share the piloting task among more than one person \[[Chambers 2010][research_chambers_modeling_flight]\].
 
-**This series has measured this before at a gentler scale.** The [X-36][related_post_a333_mcdonnell_douglas_x36] was a 28 percent remotely piloted tailless demonstrator, and the same relations give a time compression of 1.890 and a Reynolds penalty of 6.75. Against it,
+**This series has measured this before at a gentler scale.** The [X-36][related_post_a333_mcdonnell_douglas_x36] was a 28 percent remotely piloted tailless demonstrator \[[X-36 Tailless Fighter Agility Research Aircraft, NASA][ref_nasa_x36]\], and the same relations give a time compression of 1.890 and a Reynolds penalty of 6.75. Against it,
 
 $$\frac{r_t^{-1}(0.085)}{r_t^{-1}(0.28)} = 1.815, \qquad \frac{r_{Re}^{-1}(0.085)}{r_{Re}^{-1}(0.28)} = 5.979$$
 
-**The X-48B's pilot faced dynamics 1.815 times faster than the X-36's, and its aerodynamics were 5.979 times further from full scale.** The X-36 article argued that a scale factor is a statement about what an experiment is able to measure. This is the same statement at nearly twice the severity.
+**The X-48B's pilot faced dynamics 1.815 times faster than the X-36's, and its aerodynamics were 5.979 times further from full scale.** The X-36 article argued that a scale factor is a statement about what an experiment is able to measure. The X-48B repeats that argument at nearly twice the severity.
 
-### Reynolds Number in Absolute Terms, and the Altitude That Makes It Worse
+### Reynolds Number in Absolute Terms and at Altitude
 
-**A ratio of 40.35 says nothing about where either aeroplane sits**, and the absolute values decide whether the mismatch matters. Using a reference chord and the published maximum speed of 118 knots \[[X-48 Hybrid/Blended Wing Body, NASA Dryden Fact Sheet FS-090][ref_nasa_fs090]\] \[[Vicroy 2011][research_vicroy_correlation]\],
+**A ratio of 40.35 does not locate either aeroplane on the Reynolds scale**, and the absolute values decide whether the mismatch matters. Using a reference chord and the published maximum speed of 118 knots \[[X-48 Hybrid/Blended Wing Body, NASA Dryden Fact Sheet FS-090][ref_nasa_fs090]\] \[[Vicroy 2011][research_vicroy_correlation]\],
 
 $$Re = \frac{V c}{\nu}, \qquad c = \frac{S}{b} = \frac{100.5}{20.4} = 4.926\ \text{ft}$$
 
-**The wing area of 100.5 square feet is the figure the programme's correlation update gives** \[[Vicroy 2011][research_vicroy_correlation]\]. **The ratio below does not depend on it**, because the chord cancels.
+**The programme's correlation update supplies the wing area of 100.5 square feet** \[[Vicroy 2011][research_vicroy_correlation]\]. **The ratio below does not depend on it**, because the chord cancels.
 
 At sea level, with $\nu_0 = 1.5723 \times 10^{-4}\ \text{ft}^2/\text{s}$,
 
@@ -145,9 +145,9 @@ $$Re_{\text{full}} = \frac{683.1 \times 58.0}{1.5723 \times 10^{-4}} = 2.52 \tim
 
 $$V_f = \frac{118}{\sqrt{0.085}} = 404.7\ \text{kt}$$
 
-**which is a sensible cruise speed for a large subsonic transport**, and is therefore a second piece of evidence that the reference vehicle is real rather than nominal.
+**a sensible cruise speed for a large subsonic transport**, and a second piece of evidence for a real reference design.
 
-**The atmosphere then makes the mismatch worse, and this is the one place the standard atmosphere earns its keep in this article.** The model flew to a ceiling of 10,000 feet \[[X-48 Hybrid/Blended Wing Body, NASA Dryden Fact Sheet FS-090][ref_nasa_fs090]\] \[[Vicroy 2011][research_vicroy_correlation]\], inside a working area that reached from the ground to 10,000 feet above mean sea level \[[Risch et al 2009][research_taylor_x48b_progress]\], while the full-scale aeroplane's low-speed regime is near the ground. Kinematic viscosity rises with altitude,
+**The atmosphere then makes the mismatch worse, and nowhere else in this article does the standard atmosphere earn its keep.** The model flew to a ceiling of 10,000 feet \[[X-48 Hybrid/Blended Wing Body, NASA Dryden Fact Sheet FS-090][ref_nasa_fs090]\] \[[Vicroy 2011][research_vicroy_correlation]\], inside a working area that reached from the ground to 10,000 feet above mean sea level \[[Risch et al 2009][research_taylor_x48b_progress]\], while the full-scale aeroplane's low-speed regime is near the ground. Kinematic viscosity rises with altitude,
 
 $$\nu(h) = \frac{\mu(h)}{\rho(h)}, \qquad \frac{\nu(10{,}000)}{\nu(0)} = \frac{2.0135 \times 10^{-4}}{1.5723 \times 10^{-4}} = 1.281$$
 
@@ -155,7 +155,7 @@ so a model tested at its ceiling against an aeroplane approaching at sea level s
 
 $$P_{\text{effective}} = n^{-3/2} \times \frac{\nu(10{,}000)}{\nu(0)} = 40.35 \times 1.281 = 51.7$$
 
-**The honest penalty is therefore between 40.35 and 51.7 depending on the test altitude**, and the larger figure is the one that applies to any manoeuvre flown high.
+**The effective penalty therefore lies between 40.35 and 51.7, depending on the test altitude**, and the larger figure applies to any manoeuvre flown high.
 
 ### What Cancelling the X-48A Cost
 
@@ -175,15 +175,15 @@ Evaluated against the X-48B's 240-foot reference, the three spans NASA planned o
 
 $$\frac{P(20.4)}{P(35)} = \left(\frac{35}{20.4}\right)^{3/2} = 2.247, \qquad \frac{\tau(20.4)}{\tau(35)} = \left(\frac{35}{20.4}\right)^{1/2} = 1.310$$
 
-**Cancelling the 35-foot aeroplane and flying the 20.4-foot one multiplied the Reynolds shortfall by 2.247 and made the aeroplane 31 percent quicker in its own time.** That is the price of the 2002 decision, stated in the only units in which it can be stated. **The table holds the reference fixed, which is the comparison the substitution posed.** The X-48A itself was described as a 14 percent vehicle of the 450-passenger study aircraft, which implies a reference span of 250 feet, close to the 249 feet of the BWB-450 baseline, and against that reference its own time compression is 2.673 and its own Reynolds penalty 19.09. **It is not an argument that the decision was wrong**, since a 35-foot vehicle is a different programme in cost, airspace and risk, but it is the quantity the decision traded.
+**Cancelling the 35-foot aeroplane and flying the 20.4-foot one multiplied the Reynolds shortfall by 2.247 and made the aeroplane 31 percent quicker in its own time.** Those two factors price the 2002 decision in the only units that can express it. **The table holds the reference fixed, because the substitution posed that comparison.** The X-48A itself was described as a 14 percent vehicle of the 450-passenger study aircraft, which implies a reference span of 250 feet, close to the 249 feet of the BWB-450 baseline, and against that reference its own time compression is 2.673 and its own Reynolds penalty 19.09 \[[X-48 Blended Wing Body, GlobalSecurity][ref_x48_globalsecurity]\] \[[Liebeck 2004][research_liebeck_bwb]\]. **It is not an argument that the decision was wrong**, since a 35-foot vehicle is a different programme in cost, airspace and risk, but it is the quantity the decision traded.
 
-### What the Model's Own Weight Says About the Vehicle It Represents
+### The Vehicle Implied by the Model's Weight
 
 **A dynamically scaled model is weight-scaled, so the relation can be run backwards.** Taking the maximum weight of 525 pounds given in the flight-test papers \[[Risch et al 2009][research_taylor_x48b_progress]\] \[[Regan 2008][research_regan_x48b_stability]\] and inverting the cube,
 
 $$W_{\text{full}} = \frac{525\ \text{lb}}{n^3} = 8.549 \times 10^{5}\ \text{lb}$$
 
-**That figure assumes $\sigma = 1$, and the relative density factor is exactly the term the earlier section set aside.** Restoring it,
+**That figure assumes $\sigma = 1$, the term the earlier section set aside.** Restoring it,
 
 $$W_{\text{full}} = \frac{W_m}{n^{3}} \cdot \frac{\rho_f}{\rho_m}$$
 
@@ -195,19 +195,19 @@ and evaluating for three readings of where the model's condition sits,
 | Rogers Dry Lake, 2,300 ft | 0.9344 | 914,885 lb |
 | ceiling, 10,000 ft | 0.7385 | 1,157,634 lb |
 
-The field reading takes the lake bed at about 2,300 feet \[[Rogers Dry Lake][ref_rogers_dry_lake_wikipedia]\]. **So 854,875 pounds is a lower bound rather than an estimate**, and the article uses it as one.
+The field reading takes the lake bed at about 2,300 feet \[[Rogers Dry Lake][ref_rogers_dry_lake_wikipedia]\]. **The figure of 854,875 pounds can serve only as a lower bound**, and the article uses it as one.
 
-**No source in the record states the reference vehicle's weight, so this is a derived figure and the article treats it as one.** It can nevertheless be tested. Liebeck's published second-generation blended wing body carries a maximum takeoff gross weight of 823,000 pounds, and the BWB-450 baseline spans 249 feet \[[Liebeck 2004][research_liebeck_bwb]\]. Scaling that design geometrically to a 240-foot span,
+**No source in the record states the reference vehicle's weight, so the figure is a derivation.** It can nevertheless be tested. Liebeck's published second-generation blended wing body carries a maximum takeoff gross weight of 823,000 pounds on a span of 280 feet \[[Liebeck 2004][research_liebeck_bwb]\]. Scaling that design geometrically to a 240-foot span,
 
-$$W(240) = 823{,}000 \times \left(\frac{240}{249}\right)^{3} = 736{,}946\ \text{lb}$$
+$$W(240) = 823{,}000 \times \left(\frac{240}{280}\right)^{3} = 518{,}274\ \text{lb}$$
 
 gives a comparison of
 
-$$\frac{W_{\text{full}}}{W(240)} = \frac{854{,}875}{736{,}946} = 1.160$$
+$$\frac{W_{\text{full}}}{W(240)} = \frac{854{,}875}{518{,}274} = 1.649$$
 
-so the vehicle implied by the model's own weight is **at least 1.160 times heavier than a passenger blended wing body of the same span**, and **1.241 times heavier on the field-elevation reading.**
+so the vehicle implied by the model's weight is **at least 1.649 times heavier than a passenger blended wing body of the same span**, and **1.765 times heavier on the field-elevation reading.**
 
-**That is the right direction and about the right size.** The Air Force's stated interest was a multi-role, long-range, high-capacity military transport \[[X-48 Hybrid/Blended Wing Body, NASA Dryden Fact Sheet FS-090][ref_nasa_fs090]\], and a freighter is denser than an airliner of the same dimensions, as the conventional airlifter it would replace already shows \[[Boeing C-17 Globemaster III][ref_c17_wikipedia]\]. The weight relations that make that comparison meaningful are the standard conceptual-design ones \[[Raymer, Aircraft design, a conceptual approach][book_raymer]\] \[[Torenbeek, Synthesis of subsonic airplane design][book_torenbeek]\] \[[Nicolai and Carichner, Fundamentals of aircraft and airship design][book_nicolai]\]. **The model's weight is therefore consistent with a military reference vehicle and not with the commercial one**, which is a fact about the programme recoverable from nothing but the scale relations.
+**The excess points the right way.** The Air Force's stated interest was a multi-role, long-range, high-capacity military transport \[[X-48 Hybrid/Blended Wing Body, NASA Dryden Fact Sheet FS-090][ref_nasa_fs090]\], and a freighter is denser than an airliner of the same dimensions, as the conventional airlifter it would replace already shows \[[Boeing C-17 Globemaster III][ref_c17_wikipedia]\]. The weight relations that make that comparison meaningful are the standard conceptual-design ones \[[Raymer, Aircraft design, a conceptual approach][book_raymer]\] \[[Torenbeek, Synthesis of subsonic airplane design][book_torenbeek]\] \[[Nicolai and Carichner, Fundamentals of aircraft and airship design][book_nicolai]\]. **The model's weight is therefore consistent with a military reference vehicle and not with the commercial one**, a fact about the programme recoverable from the scale relations alone.
 
 ### Thrust Is Invariant Under Froude Scaling and This Model Does Not Match It
 
@@ -219,7 +219,7 @@ $$\left(\frac{T}{W}\right)_{\text{full}} = \frac{3 \times 61{,}600\ \text{lbf}}{
 
 $$\frac{(T/W)_{\text{model}}}{(T/W)_{\text{full}}} = \frac{0.3086}{0.2245} = 1.374$$
 
-**The model carries 1.374 times the thrust to weight of the aeroplane it represents.** This is not a defect. A model that must take off from a lake bed, climb to a test altitude inside a small working area and go around from an approach needs margin the transport does not.
+**The model carries 1.374 times the thrust to weight of the aeroplane it represents.** Such a margin is no defect. A model that must take off from a lake bed, climb to a test altitude inside a small working area and go around from an approach needs margin the transport does not.
 
 **But it means the demonstration is tilted, and the direction is computable.** Thrust to weight is one of the handful of ratios that fixes an aeroplane's performance at all \[[Anderson, Aircraft performance and design][book_anderson_performance]\].
 
@@ -237,7 +237,7 @@ $$\left(\frac{\Delta T}{W}\right)_{\text{full}} = \frac{0.2245}{3} = 0.07485$$
 
 $$\frac{0.10286}{0.07485} = 1.374, \qquad \frac{0.17800}{0.07485} = 2.378, \qquad \frac{0.17800}{0.10286} = 1.731$$
 
-An engine-out yaw moment is a thrust asymmetry, so a model with 37 percent more thrust to weight produces a proportionally larger upset than the full-scale aeroplane would at the same flight condition. **Engine-out control was a stated flight-test objective**, specified at low speed, in the takeoff configuration and at minimum operating empty weight with an outboard engine failed \[[Risch et al 2009][research_taylor_x48b_progress]\]. In the first 39 flights it was evaluated at a benign condition, each engine in turn reduced to idle, and found satisfactory \[[Risch et al 2009][research_taylor_x48b_progress]\]. **So the specified test is harder than the aeroplane will face, and a pass is conservative.** **The X-48C's engine-out case is harder still, at 2.378 times the full-scale upset**, because losing one engine of two removes half the thrust where losing one of three removes a third, and the C model's thrust to weight is higher as well. That is the pleasant direction for a demonstration to be tilted, and it is the opposite of the direction found in [X-Planes: Lockheed Martin X-35][related_post_a332_lockheed_martin_x35].
+An engine-out yaw moment is a thrust asymmetry, so a model with 37 percent more thrust to weight produces a proportionally larger upset than the full-scale aeroplane would at the same flight condition. **Engine-out control was a stated flight-test objective**, specified at low speed, in the takeoff configuration and at minimum operating empty weight with an outboard engine failed \[[Risch et al 2009][research_taylor_x48b_progress]\]. In the first 39 flights it was evaluated at a benign condition, each engine in turn reduced to idle, and found satisfactory \[[Risch et al 2009][research_taylor_x48b_progress]\]. **So the specified test is harder than the aeroplane will face, and a pass is conservative.** **The X-48C's engine-out case is harder still, at 2.378 times the full-scale upset**, because losing one engine of two removes half the thrust where losing one of three removes a third, and the C model's thrust to weight is higher as well. This tilt errs on the comfortable side, the opposite of the tilt found in [X-Planes: Lockheed Martin X-35][related_post_a332_lockheed_martin_x35].
 
 ## The Two Aircraft
 
@@ -256,15 +256,15 @@ An engine-out yaw moment is a thrust asymmetry, so a model with 37 percent more 
 | Ceiling | 10,000 ft | 10,000 ft |
 | Endurance | 30 to 40 min, 13 gal fuel | about 30 min |
 
-The figures in the table are from the fact sheet, the flight-test papers, the correlation update and the programme's announcements \[[X-48 Hybrid/Blended Wing Body, NASA Dryden Fact Sheet FS-090][ref_nasa_fs090]\] \[[Risch et al 2009][research_taylor_x48b_progress]\] \[[Regan 2008][research_regan_x48b_stability]\] \[[Vicroy 2011][research_vicroy_correlation]\] \[[X-48 Research, All Good Things Must Come to an End, NASA][ref_nasa_x48_end]\] \[[Boeing flies X-48C blended wing body research aircraft][ref_boeing_x48c_release]\] \[[X-48 Blended Wing Body, GlobalSecurity][ref_x48_globalsecurity]\]. **The sources disagree about the C model's engines and the disagreement is load-bearing.** NASA's fact sheet gives two engines of 89 pounds thrust, while the programme's own 2010 planning presentation gives two of 75 \[[Vicroy 2011][research_vicroy_correlation]\] \[[X-48 Hybrid/Blended Wing Body, NASA Dryden Fact Sheet FS-090][ref_nasa_fs090]\]. **The later figure is more likely to describe what was fitted and the earlier to describe what was planned**, and this article uses 89 while reporting both, because the engine-out arithmetic in the section headed Sizing From First Principles depends on which is right. **At 75 pounds the thrust to weight is 0.300 rather than 0.356 and the engine-out factor is 2.004 rather than 2.378**, which moves the size of the conclusion and not its direction.
+The figures in the table are from the fact sheet, the flight-test papers, the correlation update and the programme's announcements \[[X-48 Hybrid/Blended Wing Body, NASA Dryden Fact Sheet FS-090][ref_nasa_fs090]\] \[[Risch et al 2009][research_taylor_x48b_progress]\] \[[Regan 2008][research_regan_x48b_stability]\] \[[Vicroy 2011][research_vicroy_correlation]\] \[[X-48 Research, All Good Things Must Come to an End, NASA][ref_nasa_x48_end]\] \[[Boeing flies X-48C blended wing body research aircraft][ref_boeing_x48c_release]\] \[[X-48 Blended Wing Body, GlobalSecurity][ref_x48_globalsecurity]\]. **The sources disagree about the C model's engines and the disagreement is load-bearing.** NASA's fact sheet gives two engines of 89 pounds thrust, while the programme's 2011 presentation gives two of 75 as planned \[[Vicroy 2011][research_vicroy_correlation]\] \[[X-48 Hybrid/Blended Wing Body, NASA Dryden Fact Sheet FS-090][ref_nasa_fs090]\]. **The later figure is more likely to describe what was fitted and the earlier to describe what was planned**, and this article uses 89 while reporting both, because the engine-out arithmetic of the scaling section above depends on which is right. **At 75 pounds the thrust to weight falls from 0.356 to 0.300 and the engine-out factor from 2.378 to 2.004**, which moves the size of the conclusion and not its direction.
 
 **The C model was a noise aeroplane and its modifications were acoustic in intent.** The winglets were relocated inboard next to the engine exhaust ducts, becoming twin vertical tails, and the aft deck was extended about two feet rearward, both to shield engine noise from the ground \[[X-48 Hybrid/Blended Wing Body, NASA Dryden Fact Sheet FS-090][ref_nasa_fs090]\] \[[Boeing flies X-48C blended wing body research aircraft][ref_boeing_x48c_release]\]. The low-noise configuration descends from NASA's Environmentally Responsible Aviation studies of aircraft two decades ahead \[[The Environmentally Responsible Aviation project, a technology development project][research_era_project]\].
 
-**Two of those changes work against the axis the programme had already named as weakest.** Moving a vertical surface inboard on a swept planform moves it forward, shortening its moment arm about the centre of gravity, and the aft-deck extension recovers part of that arm rather than adding to it. Separately, losing one engine of two removes half the thrust where losing one of three removes a third. **NASA records that the handling qualities of the C model differed from the B model and that new flight control limiters were written for it**, which is the clearest published statement that the noise modification was not free.
+**Two of those changes work against the axis the programme had already named as weakest.** Moving a vertical surface inboard on a swept planform moves it forward, shortening its moment arm about the centre of gravity, and the aft-deck extension recovers part of that arm rather than adding to it. Separately, the C model has two engines where the B model had three. **NASA reports that the handling qualities of the C model differed from the B model and that new flight control limiters were written for it**, the clearest published statement that the noise modification was not free \[[X-48 Hybrid/Blended Wing Body, NASA Dryden Fact Sheet FS-090][ref_nasa_fs090]\].
 
-### The X-48C Made the Weak Axis Weaker, and the Arithmetic Says by Roughly How Much
+### The X-48C Made the Weak Axis Weaker
 
-**The programme's own stated hypothesis was that yaw control is poor throughout the flight envelope** \[[Risch et al 2009][research_taylor_x48b_progress]\]. **The noise modification then acted on that axis twice, in the same direction, and neither action was intended to.**
+**The programme's own stated hypothesis was that yaw control is poor throughout the flight envelope** \[[Risch et al 2009][research_taylor_x48b_progress]\]. **The noise modification then acted on that axis twice, in the same direction, and neither action was intended to.** \[[X-48 Hybrid/Blended Wing Body, NASA Dryden Fact Sheet FS-090][ref_nasa_fs090]\]
 
 **The first is the engine count.** The asymmetric thrust fraction computed above rises from 0.10286 to 0.17800, a factor of **1.731** against the B model.
 
@@ -276,7 +276,7 @@ in which $l_v$ is the distance from the centre of gravity to the surface's aerod
 
 $$\Delta l_v = \Delta y \, \tan \Lambda$$
 
-**The sweep angle of the X-48's outer trailing edge is not published**, so this is evaluated as a sensitivity rather than a result. Taking the winglets from the tip at $y = 10.2$ ft to a station near the exhaust ducts at roughly 2.5 ft, so $\Delta y = 7.7$ ft,
+**The sweep angle of the X-48's outer trailing edge is not published in any source consulted**, so the shift appears here only as a sensitivity. Taking the winglets from the tip at $y = 10.2$ ft to a station near the exhaust ducts at roughly 2.5 ft, so $\Delta y = 7.7$ ft,
 
 | Assumed sweep | Forward shift | Net after the 2 ft aft-deck extension |
 |---|---|---|
@@ -284,21 +284,21 @@ $$\Delta l_v = \Delta y \, \tan \Lambda$$
 | 35 degrees | 5.39 ft | 3.39 ft |
 | 40 degrees | 6.46 ft | 4.46 ft |
 
-**The aft deck was extended about two feet rearward, which acts in the recovering direction**, and that is itself evidence that arm was lost and known to be lost. **Against a tail arm of order ten feet on a twenty-foot aeroplane, a net loss of two to four feet is a reduction in $V_v$ of roughly a quarter to nearly a half**, before any account is taken of the change in surface area or of the interference between a tail and an exhaust plume.
+**The aft deck was extended about two feet rearward, which acts in the recovering direction** \[[X-48 Hybrid/Blended Wing Body, NASA Dryden Fact Sheet FS-090][ref_nasa_fs090]\]. **Against a tail arm of order ten feet on a twenty-foot aeroplane, a net loss of two to four feet is a reduction in $V_v$ of roughly a quarter to nearly a half**, before any account is taken of the change in surface area or of the interference between a tail and an exhaust plume.
 
 **Both effects push the same way on the axis already named as weakest, and NASA records the consequence.** The project team wrote flight control system modifications for the C model, including limiters to keep it inside a safe envelope, **because its handling qualities differed from the B model's** \[[X-48 Hybrid/Blended Wing Body, NASA Dryden Fact Sheet FS-090][ref_nasa_fs090]\]. **The arithmetic above is one reading of why.**
 
 ## Dependent Systems
 
-### Control Allocation, Which Is How the Aeroplane Is Flown at All
+### Control Allocation Across Twenty Surfaces
 
-**The X-48B carries twenty individually actuated control surfaces along the trailing edge of the wing and the winglets, and those twenty provide all of its control power** \[[Risch et al 2009][research_taylor_x48b_progress]\]. There is no horizontal tail and no conventional rudder. Pitch, roll and yaw are produced by blending surfaces that each contribute to more than one axis, and the outboard elevons split into drag rudders for yaw in the manner of the B-2 \[[Liebeck 2004][research_liebeck_bwb]\] \[[Northrop Grumman B-2 Spirit][ref_b2_wikipedia]\].
+**The X-48B carries twenty individually actuated control surfaces along the trailing edge of the wing and the winglets, and those twenty provide all of its control power** \[[Risch et al 2009][research_taylor_x48b_progress]\]. There is no horizontal tail, and the rudders sit on the winglets at the tips \[[X-48 Hybrid/Blended Wing Body, NASA Dryden Fact Sheet FS-090][ref_nasa_fs090]\]. Pitch, roll and yaw are produced by blending surfaces that each contribute to more than one axis, and the outboard elevons split into drag rudders for yaw in the manner of the B-2 \[[Liebeck 2004][research_liebeck_bwb]\] \[[Northrop Grumman B-2 Spirit][ref_b2_wikipedia]\].
 
-**An assessment of the dynamic interaction of all twenty surfaces was a stated flight-test objective** \[[Risch et al 2009][research_taylor_x48b_progress]\], which is an unusual thing to have to schedule and a direct consequence of the configuration.
+**The test plan listed an assessment of the dynamic interaction of all twenty surfaces among its objectives** \[[Risch et al 2009][research_taylor_x48b_progress]\], an unusual thing to have to schedule and a direct consequence of the configuration.
 
 ### The Leading Edge, Flown Both Ways
 
-Leading-edge slats were fitted to increase maximum lift for takeoff and landing, and the flight programme tested two leading-edge configurations, slats extended and slats retracted, bolted in place before each flight and interchangeable between flights \[[Risch et al 2009][research_taylor_x48b_progress]\] \[[Regan 2008][research_regan_x48b_stability]\]. **Bracketing the leading edge is the programme hedging exactly where the scaling is weakest**, whether or not it was framed that way at the time.
+Leading-edge slats were fitted to increase maximum lift for takeoff and landing, and the flight programme tested two leading-edge configurations, slats extended and slats retracted, bolted in place before each flight and interchangeable between flights \[[Risch et al 2009][research_taylor_x48b_progress]\] \[[Regan 2008][research_regan_x48b_stability]\]. **By bracketing the leading edge, the programme hedged where the scaling is weakest**, whether or not it was framed that way at the time.
 
 ### The Ground Station
 
@@ -312,13 +312,13 @@ Testing proceeded in blocks. Envelope expansion came first, then parameter ident
 
 **The approach to the limit of controlled flight was made in one-degree increments of angle of attack, descending at idle thrust, which the team judged the lowest-risk condition for probing uncontrollable flight.** At each increment the pilot evaluated controllability in all three axes and performed a pitch-over recovery \[[Risch et al 2009][research_taylor_x48b_progress]\].
 
-**The flight programme did not stop at 39 flights and the fuller picture is better.** The correlation update calls the whole six-block campaign to flight 80 its Phase I, the same six blocks the progress paper had divided into three phases, alternating slats extended and slats retracted and ending in departure limiter assaults. Its own summary of the phase reports the aeroplane as extremely manoeuvrable in roll, closely matching simulation for up-and-away flight and landing, and the flight control design as very robust \[[Vicroy 2011][research_vicroy_correlation]\].
+**The flight programme did not stop at 39 flights and the fuller picture is better.** The correlation update calls the six-block campaign to flight 80 its Phase I, the same six blocks the progress paper had divided into three phases, alternating slats extended and slats retracted and ending in departure limiter assaults \[[Risch et al 2009][research_taylor_x48b_progress]\]. Its summary of the phase reports the aeroplane as extremely manoeuvrable in roll, closely matching simulation for up-and-away flight and landing, and the flight control design as very robust \[[Vicroy 2011][research_vicroy_correlation]\].
 
 **The stall results carry angles, and the difference between the two leading-edge configurations is large.**
 
 $$\alpha_{\text{stall}}^{\text{slats out}} = 24^\circ, \qquad \alpha_{\text{stall}}^{\text{slats in}} = 14^\circ, \qquad \Delta\alpha = 10^\circ$$
 
-**Slats extended, the aeroplane stalled successfully to 24 degrees and remained controllable three degrees beyond the angle of maximum lift.** Slats retracted, it reached 14 degrees \[[Vicroy 2011][research_vicroy_correlation]\]. **Ten degrees is not a refinement**, and it is the clearest available measure of how much the leading edge governs this configuration's behaviour, which matters because the leading edge is where the Reynolds sensitivity lives.
+**Slats extended, the aeroplane stalled successfully to 24 degrees and remained controllable three degrees beyond the angle of maximum lift.** Slats retracted, it reached 14 degrees \[[Vicroy 2011][research_vicroy_correlation]\]. **Ten degrees is not a refinement.** It gives the clearest available measure of how much the leading edge governs this configuration's behaviour, which matters because the leading edge is where the Reynolds sensitivity lives.
 
 **The departure limiter assaults were, in the programme's own words, highly successful** \[[Vicroy 2011][research_vicroy_correlation]\].
 
@@ -328,61 +328,61 @@ $$\alpha_{\text{stall}}^{\text{slats out}} = 24^\circ, \qquad \alpha_{\text{stal
 
 ## Comparison With Ground Prediction
 
-**The flight programme was flown against a body of prediction, and the record shows where the two met and where they did not.** Before flight there were the design paper's account of how the configuration should stall, the simulation, and a ground-test campaign of free-flight, rotary, forced-oscillation and high-Reynolds tunnel tests. **Where the comparison closed, the programme says so.** Its phase summary reports the aeroplane closely matching simulation for up-and-away flight and landing \[[Vicroy 2011][research_vicroy_correlation]\], and the sustained pitch bobble appeared just below the predicted stall angle of attack \[[Risch et al 2009][research_taylor_x48b_progress]\], both as the section headed The Flight Test Record sets out. The subsections below take the design intent for the stall, the instrument that answered the Reynolds question, and the comparisons that were poor or never made.
+**The flight programme was flown against a body of prediction, and the record shows where the two met and where they did not.** Before flight there were the design paper's account of how the configuration should stall, the simulation, and a ground-test campaign of free-flight, rotary, forced-oscillation and high-Reynolds tunnel tests. **Where the comparison closed, the programme says so.** Its phase summary reports the aeroplane closely matching simulation for up-and-away flight and landing \[[Vicroy 2011][research_vicroy_correlation]\], and the sustained pitch bobble appeared just below the predicted stall angle of attack \[[Risch et al 2009][research_taylor_x48b_progress]\], both as set out in the flight test record above. The subsections below take the design intent for the stall, the instrument that answered the Reynolds question, and the comparisons that were poor or never made.
 
 ### The Flight Result and the Design Intent Disagree
 
 **Liebeck's published account of the configuration states that separation is initiated in the kink region between the outboard wing and the centrebody, that the outer wing flow remains attached and provides lateral control into the stall regime, and that this is the ideal spanwise location for the stall to begin because the ailerons remain effective and pitch-up is avoided** \[[Liebeck 2004][research_liebeck_bwb]\].
 
-**The X-48B found uncommanded wing roll-off, and found that lateral control made it worse.** Those two statements are not compatible. The design intent is that the outboard wing keeps flying and the pilot keeps roll authority. The flight result is that the aeroplane rolls off uncommanded and that using roll authority sharpens the departure.
+**The X-48B found uncommanded wing roll-off, and found that lateral control made it worse.** \[[Risch et al 2009][research_taylor_x48b_progress]\] Those two statements are not compatible. The design intent is that the outboard wing keeps flying and the pilot keeps roll authority \[[Liebeck 2004][research_liebeck_bwb]\]. The flight result is that the aeroplane rolls off uncommanded and that using roll authority sharpens the departure.
 
 ### The Scale Factor Permits That Disagreement and Cannot Settle It
 
-**Separation onset and its spanwise progression are Reynolds-dependent phenomena.** At a Reynolds number 1/40.35 of the full-scale value, the model's separation may begin at a different station on the span and at a different angle of attack than the aeroplane's. **The disagreement between design intent and flight observation is therefore exactly the disagreement the scale factor permits**, and no amount of flying the model resolves it.
+**Separation onset and its spanwise progression are Reynolds-dependent phenomena.** At a Reynolds number 1/40.35 of the full-scale value, the model's separation may begin at a different station on the span and at a different angle of attack than the aeroplane's. **The disagreement between design intent and flight observation is therefore of the kind the scale factor permits**, and further flying of the model cannot resolve it.
 
-**That is a statement about the flight vehicle and not about the programme**, which is the distinction the rest of this section turns on.
+**The limitation applies to the flight vehicle and not to the programme**, and the rest of this section turns on that distinction.
 
 ### The Programme Answered the Reynolds Question With a Different Instrument
 
 **The flight vehicle was never asked to carry the Reynolds-governed half alone.**
 
-**The correlation update plots the ground-test campaign on axes of vehicle scale against chord Reynolds number**, and the tests fill the plane \[[Vicroy 2011][research_vicroy_correlation]\]. Free-flight, forced-oscillation, rotary, large-angle and free spin and tumble tests sit at small scale and low Reynolds number. Static aerodynamic tests, the Arnold Engineering Development Center 16T tunnel and **the National Transonic Facility sit at Reynolds numbers reaching the full-scale value**. The X-48B flight test is one point on that plane and not the whole of it.
+**The correlation update plots the ground-test campaign on axes of vehicle scale against chord Reynolds number**, and the tests spread across it below the full-scale region of interest that the plot marks \[[Vicroy 2011][research_vicroy_correlation]\]. Free-flight, forced-oscillation, rotary, large-angle and free spin and tumble tests sit at small scale and low Reynolds number. Static aerodynamic tests, the Arnold Engineering Development Center 16T tunnel and **the National Transonic Facility sit at higher Reynolds numbers, the last reaching about 70 million against a region of interest that begins above about 90 million** \[[Vicroy 2011][research_vicroy_correlation]\]. The X-48B flight test occupies one point on that plane.
 
-**So the instrument that supplies dynamic fidelity and the instrument that supplies Reynolds number are different instruments, and the programme ran both.** A pressurised cryogenic tunnel buys Reynolds number and cannot fly. A free-flight model flies and cannot buy Reynolds number. **Neither is a substitute for the other and the correlation exercise is what joins them.**
+**Dynamic fidelity and Reynolds number came from different instruments, and the programme ran both.** A pressurised cryogenic tunnel buys Reynolds number and cannot fly. A free-flight model flies and cannot reach that Reynolds number. **Neither substitutes for the other, and the correlation exercise joins them.**
 
-**The verdict recorded on the free-flight method is favourable.** It records that the free-flight test method provided good correlation with the observed one-g flight test limits \[[Vicroy 2011][research_vicroy_correlation]\]. **A subscale free-flight model, judged against the flight vehicle it was scaled from, predicted the limits well**, which is a narrower and better-supported claim than the one usually made for the X-48 and is the one the record actually contains.
+**The verdict recorded on the free-flight method is favourable.** The update reports that the free-flight test method provided good correlation with the observed one-g flight test limits \[[Vicroy 2011][research_vicroy_correlation]\]. **A subscale free-flight model, judged against the larger flight vehicle of the same configuration, predicted the limits well**, a narrower and better-supported claim than the one usually made for the X-48, and one the record contains.
 
 ### The Poor Comparison Was Somewhere Else Entirely
 
-**Asked where the ground-to-flight comparisons were poor, the programme does not name the stall.** It names the pitching moment, and it names a cause that has nothing to do with scaling.
+**Asked where the ground-to-flight comparisons were poor, the programme does not name the stall.** It names the pitching moment, with a cause unrelated to scaling, and an engine model that early analysis showed needed improving \[[Vicroy 2011][research_vicroy_correlation]\].
 
-**The magnitude of the support interference effect on pitching moment was much larger than anticipated** \[[Vicroy 2011][research_vicroy_correlation]\]. The same configuration measured on a three-inch post with a pitch link and on a 1.2-inch bent sting in the Langley 14 by 22 foot tunnel gave materially different pitching-moment curves. **That is a defect of how the model was held, not of how it was scaled**, and on a tailless aeroplane trimmed by its own trailing edge the pitching moment is the quantity least able to absorb an error.
+**The magnitude of the support interference effect on pitching moment was much larger than anticipated** \[[Vicroy 2011][research_vicroy_correlation]\]. The same configuration measured on a three-inch post with a pitch link and on a 1.2-inch bent sting in the Langley 14 by 22 foot tunnel gave materially different pitching-moment curves. **The defect lies in how the model was held, not in how it was scaled**, and on a tailless aeroplane trimmed by its own trailing edge the pitching moment is the quantity least able to absorb an error.
 
-**A second lesson is administrative and the programme states it plainly.** Ground-to-flight correlation is difficult without a central repository of wind tunnel, flight, computational and simulation data \[[Vicroy 2011][research_vicroy_correlation]\]. **That is a data-management finding rather than an aerodynamic one**, and it is the kind of conclusion that only a programme running seven kinds of test on one configuration is in a position to reach.
+**A second lesson is administrative, and the programme states it without qualification.** Ground-to-flight correlation is difficult without a central repository of wind tunnel, flight, computational and simulation data \[[Vicroy 2011][research_vicroy_correlation]\]. **The finding concerns data management rather than aerodynamics**, and only a programme running seven kinds of test on one configuration is in a position to reach a conclusion of that kind.
 
 **The programme also names what it could not compare.** Transonic behaviour, held only in the National Transonic Facility and 16T data, and post-departure modes such as the falling leaf, the spin and the tumble, held only in large-angle, rotary and free spin and tumble data. **Neither has a flight comparison at all** \[[Vicroy 2011][research_vicroy_correlation]\], and that absence is the precise form of the concern this article raises.
 
 ## What the Data Changed
 
-**What the comparisons changed is the reading of the result rather than the result itself.** The flights and their recoveries stand as reported. What moves is how far each finding can be carried from a 20.4-foot aeroplane to a 240-foot one, and that is settled by which dimensionless group governs it, as the section headed Sizing From First Principles derived.
+**The comparisons changed the reading of the result and left the result itself alone.** The flights and their recoveries stand as reported. What moves is how far each finding can be carried from a 20.4-foot aeroplane to a 240-foot one, and the dimensionless group that governs each finding settles it, as the scaling derivation established.
 
 ### What Transfers and What Does Not
 
 **The division is clean and it follows from which group is matched.**
 
-**Froude-governed and transferable.** The character of the departure as a motion, the number of cycles it takes to develop, whether a pitch-over recovery works, the control law's ability to hold the aeroplane, and the handling qualities of the whole low-speed envelope. **These are dynamics, and dynamics is what the model was built to reproduce.** The programme's claim to have proved low-speed controllability throughout the envelope rests here and is sound.
+**Froude-governed and transferable.** The character of the departure as a motion, the number of cycles it takes to develop, whether a pitch-over recovery works, the control law's ability to hold the aeroplane, and the handling qualities of the whole low-speed envelope. **These are dynamics, and the model was built to reproduce dynamics.** The programme's claim to have proved low-speed controllability throughout the envelope rests here and is sound \[[X-48 Research, All Good Things Must Come to an End, NASA][ref_nasa_x48_end]\].
 
 **Reynolds-governed and not transferable without further argument.** The angle of attack at which the roll-off begins, the spanwise station at which separation starts, the maximum lift coefficient, and whether the slat is required. **These are the properties of a boundary layer** \[[Schlichting and Gersten, Boundary layer theory][book_schlichting]\], and a model at 1/40.35 of the aeroplane's Reynolds number is not evidence about them. That maximum lift rises with Reynolds number over this range is a standard result \[[Hoerner and Borst, Fluid-dynamic lift][book_hoerner_lift]\].
 
-**The stated objective list asks for both.** It states an objective to determine, via flight manoeuvres and dynamic-scaling relationships, the full-scale low-speed flight characteristics **and departure onset boundaries** \[[Risch et al 2009][research_taylor_x48b_progress]\]. **The first transfers from the flight vehicle alone and the second does not**, and the difference between them is the whole content of the scale factor.
+**The objective list asks for both.** One objective is to determine, via flight manoeuvres and dynamic-scaling relationships, the full-scale low-speed flight characteristics **and departure onset boundaries** \[[Risch et al 2009][research_taylor_x48b_progress]\]. **The first transfers from the flight vehicle alone and the second does not**, and the scale factor's entire content lies in the difference between them.
 
-**The programme did not confuse the two and its test campaign is the evidence.** The criticism that survives is narrower and is about repetition rather than about method. **The flight vehicle alone is routinely quoted as having proved the configuration's low-speed behaviour**, when what it proved is the dynamic half, and the Reynolds half was bought separately in a cryogenic tunnel. **That distinction is invisible in every short account of the X-48 and it is the distinction that decides what the result means.**
+**The programme did not confuse the two and its test campaign is the evidence.** The criticism that survives is narrower and is about repetition rather than about method. **The flight vehicle alone is easily read as having proved the configuration's low-speed behaviour**, when what it proved is the dynamic half, and the Reynolds half was pursued separately in higher-Reynolds tunnels that approached the full-scale value without reaching it \[[Vicroy 2011][research_vicroy_correlation]\]. **A short account of the X-48 tends to lose that distinction, and the distinction decides what the result means.**
 
-### The Honest Reading of the Programme
+### What the X-48 Validated
 
-**The X-48 validated a control system and a recovery technique for a configuration, on an aeroplane whose departure boundary is its own rather than the full-scale vehicle's.** That is a smaller claim than the flight vehicle is usually credited with and a more defensible one, and **the programme as a whole claims more than the flight vehicle does, correctly**, because it ran the tunnels that the aeroplane could not be.
+**The X-48 validated a control system and a recovery technique for a configuration, on an aeroplane whose departure boundary is its own rather than the full-scale vehicle's.** The flight vehicle is usually credited with more, but this smaller claim is the more defensible one, and **the programme as a whole claims more than the flight vehicle does, correctly**, because it ran the tunnels that the aeroplane could not be.
 
-**The thing that was genuinely unknown in 2000 was whether a control system could keep a large tailless transport inside its envelope and recover it from the edge.** The flight vehicle answered that, and answered it at a scale where the recovery had to work three and a half times faster than it will on the aeroplane. **That is the durable result, and it does not need the departure boundary to be true.**
+**What remained unknown in 2000 was whether a control system could keep a large tailless transport inside its envelope and recover it from the edge.** The flight vehicle answered that, and answered it at a scale where the recovery had to run three and a half times quicker than on the aeroplane. **The result is durable and does not need the departure boundary to be true.**
 
 ## The Contemporary Literature
 
@@ -556,29 +556,29 @@ $$\alpha_{\text{stall}}^{\text{slats out}} = 24^\circ, \qquad \alpha_{\text{stal
 
 **The reference vehicle's weight is derived and never quoted.** The figure of 854,875 pounds comes from inverting the cube of the scale ratio on the model's own weight. If the model was not weight-scaled with the precision assumed, the number moves and the comparison against Liebeck moves with it.
 
-**The relative density factor is now quantified rather than assumed away, and it moves the answer.** Taking the model's condition at the field elevation of Rogers Dry Lake raises the implied full-scale weight from 854,875 pounds to 914,885, and taking it at the ceiling raises it to 1,157,634. **The record does not state the altitude at which the weight scaling was set**, so 854,875 pounds is reported as a lower bound and every comparison drawn from it inherits that status.
+**The relative density factor is now quantified, and it changes the answer.** Taking the model's condition at the field elevation of Rogers Dry Lake raises the implied full-scale weight from 854,875 pounds to 914,885, and taking it at the ceiling raises it to 1,157,634. **No source consulted states the altitude at which the weight scaling was set**, so 854,875 pounds is reported as a lower bound and every comparison drawn from it inherits that status.
 
-**The BWB-17 does not fit the same arithmetic.** At 6 percent scale and 120 pounds,
+**The BWB-17 does not fit the same arithmetic.** At 6 percent scale and 120 pounds \[[Liebeck 2004][research_liebeck_bwb]\],
 
 $$b_{\text{ref}} = \frac{17}{0.06} = 283\ \text{ft}, \qquad W_{\text{full}} = \frac{120}{0.06^{3}} = 555{,}556\ \text{lb}$$
 
 **That does not match Liebeck's 823,000 pounds**, so either the BWB-17 answered to an earlier and lighter reference design or it was not weight-scaled to the vehicle described in the same paper. **The record does not say which**, and this article does not guess.
 
-**The wing area enters one section and rests on one programme document.** The figure of 100.5 square feet is the correlation update's, given in a presentation slide without the reference definition behind it. It enters only through the reference chord $c = S/b$ used to put the Reynolds numbers on an absolute footing, and **the ratio of 40.35 does not depend on it at all**, because the chord cancels between model and full scale. **A reader who distrusts the area should discard the two absolute Reynolds figures and keep everything else**, which is why the ratio and not the absolute value carries the argument.
+**The wing area enters one section and rests on one programme document.** The figure of 100.5 square feet is the correlation update's, given in a presentation slide without the reference definition behind it \[[Vicroy 2011][research_vicroy_correlation]\]. It enters only through the reference chord $c = S/b$ used to put the Reynolds numbers on an absolute footing, and **the ratio of 40.35 does not depend on it at all**, because the chord cancels between model and full scale. **A reader who distrusts the area should discard the two absolute Reynolds figures and keep everything else**, and the argument is built on the ratio for that reason.
 
 **The X-48C's moment-arm loss is a sensitivity and not a measurement.** No source consulted publishes the sweep of the outer trailing edge, the spanwise station of the C model's twin tails, or the vertical surface areas of either aeroplane. **The inboard station of 2.5 feet and the tail arm of order ten feet are assumptions**, chosen to be plausible rather than derived, and the tabulated shifts move with them. **What does not move is the sign**, since the geometry admits no reading in which moving a surface inboard on an aft-swept planform lengthens its arm. **The engine-count half of the same argument is exact**, resting only on published thrusts and weights.
 
-**The claim that departure onset does not transfer from the flight vehicle is an argument from the scaling relations and not a measurement.** No source consulted states a full-scale departure angle of attack, so there is nothing to compare the model's limiting angle against. **A quantified Reynolds correction is not attempted**, because it depends on the configuration's separation behaviour, which is the unknown in question.
+**The claim that departure onset does not transfer from the flight vehicle is argued from the scaling relations and has not been measured.** No source consulted states a full-scale departure angle of attack, so there is nothing to compare the model's limiting angle against. **A quantified Reynolds correction is not attempted**, because it depends on the configuration's separation behaviour, which is the unknown in question.
 
-**The claim is about the flight vehicle and must not be read as a claim about the programme.** The programme ran high-Reynolds tunnel tests precisely to cover the gap and reports its free-flight method as correlating well with the observed flight limits. **Nothing here says the departure boundary was left to the model**, because it was not.
+**The claim is about the flight vehicle and must not be read as a claim about the programme.** The programme ran higher-Reynolds tunnel tests as well and reports its free-flight method as correlating well with the observed flight limits \[[Vicroy 2011][research_vicroy_correlation]\]. **This article does not claim that the departure boundary was left to the model**, because it was not.
 
-**The correlation update is a conference presentation rather than a technical report**, so its findings arrive as summary lines without the data behind them. **The stall angles of 24 and 14 degrees, the phrase about departure limiter assaults and the pitching-moment finding are quoted from slides**, and a reader wanting the supporting curves will not find them there.
+**The correlation update is a conference presentation rather than a technical report**, so its findings arrive as summary lines without the data behind them \[[Vicroy 2011][research_vicroy_correlation]\]. **The stall angles of 24 and 14 degrees, the phrase about departure limiter assaults and the pitching-moment finding are quoted from slides**, and a reader wanting the supporting curves will not find them there.
 
-**The X-48B's own weight and thrust are stated two ways as well.** The flight-test papers give a maximum weight of 525 pounds and 54 pounds of installed thrust an engine, while the fact sheet gives a gross weight of 523 pounds and three 50-pound engines of about 150 pounds combined, and the correlation update gives 523 pounds and a static thrust of 162 pounds \[[Risch et al 2009][research_taylor_x48b_progress]\] \[[Regan 2008][research_regan_x48b_stability]\] \[[X-48 Hybrid/Blended Wing Body, NASA Dryden Fact Sheet FS-090][ref_nasa_fs090]\] \[[Vicroy 2011][research_vicroy_correlation]\]. At 523 pounds the implied full-scale weight is 851,618 pounds rather than 854,875, and at 50 pounds an engine the model's thrust to weight is 0.2857 and its excess over the full-scale design 1.272 rather than 1.374. **Both move the size of a result and neither moves its direction.**
+**The X-48B's own weight and thrust are stated two ways as well.** The flight-test papers give a maximum weight of 525 pounds and 54 pounds of installed thrust an engine, while the fact sheet gives a gross weight of 523 pounds and three 50-pound engines of about 150 pounds combined, and the correlation update gives 523 pounds and a static thrust of 162 pounds \[[Risch et al 2009][research_taylor_x48b_progress]\] \[[Regan 2008][research_regan_x48b_stability]\] \[[X-48 Hybrid/Blended Wing Body, NASA Dryden Fact Sheet FS-090][ref_nasa_fs090]\] \[[Vicroy 2011][research_vicroy_correlation]\]. At 523 pounds the implied full-scale weight is 851,618 pounds rather than 854,875, and at 50 pounds an engine the model's thrust to weight is 0.2857 and its excess over the full-scale design 1.272 rather than 1.374. **Each changes the size of a result, and neither reverses its sign.**
 
-**The X-48C's engine thrust is stated differently by two sources**, 89 pounds in the fact sheet and 75 in the 2010 presentation. **Every engine-out figure for the C model moves with that choice**, from 2.378 down to 2.004 against the full-scale trijet. **The direction of the conclusion does not move** and the size of it does.
+**The X-48C's engine thrust is stated differently by two sources**, 89 pounds in the fact sheet and 75 in the 2011 presentation \[[X-48 Hybrid/Blended Wing Body, NASA Dryden Fact Sheet FS-090][ref_nasa_fs090]\] \[[Vicroy 2011][research_vicroy_correlation]\]. **Every engine-out figure for the C model moves with that choice**, from 2.378 down to 2.004 against the full-scale trijet. **The conclusion keeps its direction** while its size shifts.
 
-**The full-scale thrust comparison uses Liebeck's second-generation design and not the reference vehicle.** The 0.2245 thrust-to-weight figure belongs to an 823,000-pound, 800-passenger commercial design. **If the military reference vehicle is thrustier, the model's 1.374 excess shrinks**, and the engine-out conservatism shrinks with it.
+**The full-scale thrust comparison uses Liebeck's second-generation design and not the reference vehicle.** The 0.2245 thrust-to-weight figure belongs to an 823,000-pound, 800-passenger commercial design \[[Liebeck 2004][research_liebeck_bwb]\]. **If the military reference vehicle is thrustier, the model's 1.374 excess shrinks**, and the engine-out conservatism shrinks with it.
 
 ## The Source Base
 
@@ -625,11 +625,11 @@ $$b_{\text{ref}} = \frac{17}{0.06} = 283\ \text{ft}, \qquad W_{\text{full}} = \f
 
 ### Historical Fact
 
-The dates, the flight counts, the two configurations, the builder, the engine fits, the modification list for the X-48C and the block structure of the flight test programme are taken from NASA and Boeing publications and from the two AIAA papers. The uncommanded wing roll-off, the behaviour of lateral stick during it, the six and two occurrences in the two slat configurations and the successful pitch-over recoveries are reported in the flight-test progress paper. The stall angles of 24 and 14 degrees, the controllability three degrees beyond maximum lift, the six-block structure of phase one to flight 80, the description of the departure limiter assaults as highly successful, the plot of ground tests on axes of vehicle scale against chord Reynolds number, the finding that support interference on pitching moment was much larger than anticipated, the statement that the free-flight method correlated well with observed flight limits, and the list of comparisons never made are reported in the ground-to-flight correlation update. **The departure boundary was not left to the flight vehicle alone.** The programme ran a suite of ground tests spanning three decades of Reynolds number, including the National Transonic Facility, as the correlation update records.
+The dates, the flight counts, the two configurations, the builder, the engine fits, the modification list for the X-48C and the block structure of the flight test programme are taken from NASA and Boeing publications and from the two AIAA papers. The uncommanded wing roll-off, the behaviour of lateral stick during it, the six and two occurrences in the two slat configurations and the successful pitch-over recoveries are reported in the flight-test progress paper. The stall angles of 24 and 14 degrees, the controllability three degrees beyond maximum lift, the six-block structure of phase one to flight 80, the description of the departure limiter assaults as highly successful, the plot of ground tests on axes of vehicle scale against chord Reynolds number, the finding that support interference on pitching moment was much larger than anticipated, the statement that the free-flight method correlated well with observed flight limits, and the list of comparisons never made are reported in the ground-to-flight correlation update. **The departure boundary was not left to the flight vehicle alone.** The programme ran a suite of ground tests spanning more than two decades of Reynolds number, up to about 70 million in the National Transonic Facility, as the correlation update records.
 
 ### Verified by Independent Derivation
 
-The scale factor of 0.085000 from the published span and reference span. The Froude ratio table. The time compression of 3.430 and the Reynolds penalty of 40.35. The comparison against the X-36 at 1.815 and 5.979. The ladder of three candidate vehicles and the factor of 2.247 in Reynolds number attributable to the X-48A cancellation. The implied full-scale weight of 854,875 pounds and its ratio of 1.160 against Liebeck's design scaled to the same span. The thrust-to-weight figures of 0.3086 and 0.2245 and their ratio of 1.374. The asymmetric thrust fractions of 0.10286, 0.17800 and 0.07485 and the ratios of 1.374, 2.378 and 1.731 that follow. The absolute Reynolds numbers of $6.24 \times 10^6$ and $2.52 \times 10^8$ at the stated reference chord. The kinematic viscosity ratio of 1.281 between 10,000 feet and sea level on the standard atmosphere, and the effective penalty of 51.7 that follows. The implied full-scale weights of 914,885 and 1,157,634 pounds at the two non-unity readings of the relative density factor. The full-scale equivalent speed of 404.7 knots. The BWB-17's implied reference span of 283 feet and weight of 555,556 pounds.
+The scale factor of 0.085000 from the published span and reference span. The Froude ratio table. The time compression of 3.430 and the Reynolds penalty of 40.35. The comparison against the X-36 at 1.815 and 5.979. The ladder of three candidate vehicles and the factor of 2.247 in Reynolds number attributable to the X-48A cancellation. The implied full-scale weight of 854,875 pounds and its ratio of 1.649 against Liebeck's design scaled to the same span. The thrust-to-weight figures of 0.3086 and 0.2245 and their ratio of 1.374. The asymmetric thrust fractions of 0.10286, 0.17800 and 0.07485 and the ratios of 1.374, 2.378 and 1.731 that follow. The absolute Reynolds numbers of $6.24 \times 10^6$ and $2.52 \times 10^8$ at the stated reference chord. The kinematic viscosity ratio of 1.281 between 10,000 feet and sea level on the standard atmosphere, and the effective penalty of 51.7 that follows. The implied full-scale weights of 914,885 and 1,157,634 pounds at the two non-unity readings of the relative density factor. The full-scale equivalent speed of 404.7 knots. The BWB-17's implied reference span of 283 feet and weight of 555,556 pounds.
 
 ### Analysis
 
@@ -637,29 +637,29 @@ The division of the flight results into Froude-governed conclusions that transfe
 
 ### Inference
 
-That the reference vehicle is a military freighter rather than a commercial airliner, inferred from the implied weight being 1.160 times a passenger design of the same span and corroborated by the Air Force's stated interest. That bracketing the leading edge with two slat configurations hedges the Reynolds uncertainty, which is a reading of the test matrix and not a stated rationale.
+That the reference vehicle is a military freighter rather than a commercial airliner, inferred from the implied weight being 1.649 times a passenger design of the same span and corroborated by the Air Force's stated interest. That bracketing the leading edge with two slat configurations hedges the Reynolds uncertainty, a reading of the test matrix and not a stated rationale.
 
 ### What the Record Does Not Settle
 
-The reference vehicle's actual weight, span aside. The reference definition behind the correlation update's wing area. The positions of the vertical surfaces on either aeroplane, and the sweep of the outer trailing edge. The full-scale departure angle of attack. Whether the BWB-17's weight answers to the design published alongside it. Whether the X-48C's noise objective was met, which is an acoustic result this article does not have. **Which of the two published thrust ratings the X-48C actually flew with**, 75 pounds an engine or 89, on which every engine-out figure for that aeroplane depends. **What the aeroplane does past the departure boundary**, which the programme itself lists as having no flight comparison at all.
+The reference vehicle's actual weight, span aside. The reference definition behind the correlation update's wing area. The positions of the vertical surfaces on either aeroplane, and the sweep of the outer trailing edge. The full-scale departure angle of attack. Whether the BWB-17's weight answers to the design published alongside it. Whether the X-48C's noise objective was met, an acoustic result this article does not have. **Which of the two published thrust ratings the X-48C actually flew with**, 75 pounds an engine or 89, on which every engine-out figure for that aeroplane depends. **What the aeroplane does past the departure boundary**, which the programme itself lists as having no flight comparison at all.
 
 ## Out of Scope
 
-The acoustic measurements and the shielding result of the X-48C, which need a noise dataset this article does not have. The structural design of the non-circular pressure vessel, which is the configuration's hardest problem and is not a flight-dynamics subject. The economics of the blended wing body against the tube and wing. The later Boeing and NASA transonic truss-braced and blended configurations that followed the X-48. The military airlift requirement that motivated Air Force interest.
+The acoustic measurements and the shielding result of the X-48C, which need a noise dataset this article does not have. The structural design of the non-circular pressure vessel, the configuration's hardest problem but outside flight dynamics. The economics of the blended wing body against the tube and wing. The later Boeing and NASA transonic truss-braced and blended configurations that followed the X-48. The military airlift requirement that motivated Air Force interest.
 
 ## Conclusion
 
-**The X-48 is the aeroplane in this series whose most interesting property is its size.** It flew 122 times, it was controllable throughout the low-speed envelope, it departed in uncommanded wing roll-offs at a limiting angle of attack, and it recovered every time. **All four of those statements are true of a 20.4-foot aeroplane, and only three of them are evidence about a 240-foot one.**
+**The X-48 is the aeroplane in this series whose most consequential property is its size.** It flew 122 times, it was controllable throughout the low-speed envelope, it departed in uncommanded wing roll-offs at a limiting angle of attack, and it recovered every time \[[X-48 Research, All Good Things Must Come to an End, NASA][ref_nasa_x48_end]\] \[[Risch et al 2009][research_taylor_x48b_progress]\]. **All four of those statements are true of a 20.4-foot aeroplane, and only three of them are evidence about a 240-foot one.**
 
-**The one that does not carry from the flight vehicle is the departure boundary, and it is the one a reader most wants.** A free-flight model buys dynamic fidelity by surrendering Reynolds number, and at 8.5 percent the surrender is a factor of 40.35. Separation onset is precisely what that factor governs, and the most quoted single result of the flight programme is a separation phenomenon.
+**The departure boundary does not carry from the flight vehicle, and a reader wants it most.** A free-flight model buys dynamic fidelity by surrendering Reynolds number, and at 8.5 percent the surrender is a factor of 40.35. That factor governs separation onset, and the most quoted single result of the flight programme is a separation phenomenon.
 
-**From the flight vehicle is the necessary qualification, and the campaign record supplies it.** It flew both leading-edge configurations, which bracket the behaviour the scale factor makes least certain, and it plotted its ground tests on axes of scale against Reynolds number and filled the plane, up to and including the National Transonic Facility. **The Reynolds-governed half was bought in a cryogenic tunnel rather than assumed away.** **The instrument that flies and the instrument that reaches Reynolds number are different instruments, and the programme ran both.**
+**From the flight vehicle is the necessary qualification, and the campaign record supplies it.** It flew both leading-edge configurations, which bracket the behaviour the scale factor makes least certain, and it plotted its ground tests on axes of scale against Reynolds number, up to about 70 million in the National Transonic Facility, short of the full-scale region the plot marks \[[Vicroy 2011][research_vicroy_correlation]\]. **The Reynolds-governed half was approached in the tunnels rather than assumed away.** **The campaign used both kinds of instrument, one that flies and one that reaches Reynolds number.**
 
-**The disagreement this article began with survives that.** The design paper says the outer wing keeps flying into the stall and the ailerons stay effective. The flight report says the aeroplane rolls off uncommanded and that roll input makes it worse. **No amount of flying the model resolves that**, and the programme's own list of what it could not compare puts post-departure behaviour first.
+**The disagreement this article began with survives that.** The design paper says the outer wing keeps flying into the stall and the ailerons stay effective \[[Liebeck 2004][research_liebeck_bwb]\]. The flight report says the aeroplane rolls off uncommanded and that roll input makes it worse \[[Risch et al 2009][research_taylor_x48b_progress]\]. **No amount of flying the model resolves that**, and the programme's list of what it could not compare includes post-departure behaviour \[[Vicroy 2011][research_vicroy_correlation]\].
 
 **What the X-48 proved is that a control system can hold a large tailless transport at low speed and recover it from its own edge, three and a half times faster than the aeroplane will have to.** In 2000 that was the open question and it is no longer.
 
-**The most useful thing in the record is not a result but a lesson about instruments.** Asked where its ground-to-flight comparisons were poor, the programme does not name the stall or the scale factor. It names the support that held the model in the tunnel. **A campaign that spent six years and 122 flights worrying about Reynolds number was caught out by a three-inch post**, and that is worth more to the next programme than any number in this article.
+**The most useful thing in the record is not a result but a lesson about instruments.** Asked where its ground-to-flight comparisons were poor, the programme does not name the stall or the scale factor. It names first the support that held the model in the tunnel \[[Vicroy 2011][research_vicroy_correlation]\]. **A campaign that spent nearly six years and 122 flights worrying about Reynolds number was caught out by the supports that held its tunnel models**, and the lesson is worth more to the next programme than any number in this article.
 
 ## References
 
@@ -697,6 +697,7 @@ The acoustic measurements and the shielding result of the X-48C, which need a no
 - [Parsch, Boeing X-48, Directory of U.S. Military Rockets and Missiles][ref_parsch_x48]
 - [Rogers Dry Lake][ref_rogers_dry_lake_wikipedia]
 - [Second X-48B modified into X-48C configuration, NASA Dryden][ref_nasa_x48c_status]
+- [X-36 Tailless Fighter Agility Research Aircraft, NASA][ref_nasa_x36]
 - [X-48 Blended Wing Body, GlobalSecurity][ref_x48_globalsecurity]
 - [X-48 Hybrid/Blended Wing Body, NASA Dryden Fact Sheet FS-090][ref_nasa_fs090]
 - [X-48 Research, All Good Things Must Come to an End, NASA][ref_nasa_x48_end]
@@ -708,6 +709,7 @@ The acoustic measurements and the shielding result of the X-48C, which need a no
 [ref_c17_wikipedia]: https://en.wikipedia.org/wiki/Boeing_C-17_Globemaster_III
 [ref_cranfield_aerospace]: https://cranfieldaerospace.com/
 [ref_nasa_fs090]: https://www.nasa.gov/wp-content/uploads/2021/09/171791main_fs-090-dfrc.pdf
+[ref_nasa_x36]: https://www.nasa.gov/aeronautics/x-36-tailless-fighter/
 [ref_nasa_x48_end]: https://www.nasa.gov/aeronautics/x-48-research-all-good-things-must-come-to-an-end/
 [ref_nasa_x48c_status]: https://web.archive.org/web/20170709073744/https://www.nasa.gov/centers/dryden/status_reports/X-48C.html
 [ref_parsch_x48]: https://www.designation-systems.net/dusrm/app4/x-48.html

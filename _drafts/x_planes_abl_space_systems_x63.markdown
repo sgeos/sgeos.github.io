@@ -16,11 +16,11 @@ This is the sixty-fourth article in the [X-Planes series][related_post_a297_fram
 
 **On 20 April 2022 the register gave out two X numbers with the same description, and the description is identical to the byte.**
 
-The X-63A belongs to ABL Space Systems. The X-64A belongs to a team of Invocon, KT Engineering and Troy7. Both rows carry the same allocation date, the same sponsor, the same engines cell, and the same 101 characters of description \[[Parsch, DOD 4120.15-L Addendum][ref_mds_addendum]\].
+The X-63A went to ABL Space Systems. The X-64A went to a team of Invocon, KT Engineering and Troy7. Both rows carry the same allocation date, the same sponsor, the same engines cell, and the same 101 characters of description \[[Parsch, DOD 4120.15-L Addendum][ref_mds_addendum]\].
 
 > Demonstrator rocket for AFRL's *ARISE* (Aerospike Rocket Integration and Suborbital Experiment) program
 
-Eleven descriptions repeat somewhere in the 539 rows of that register, in the copy the compiler last updated on 23 August 2026. **Ten of them are munitions, targets and a ground station**, being a laser-guided seventy millimetre rocket that appears four times, a ground control station for an unmanned air vehicle that appears three times, an evolved sea sparrow missile that also appears three times, and then seven that appear twice each, which are an air superiority target replacing a retired fighter, captive missile training, a thrust vector control interface to a vertical launching system, an air defence artillery weapon, a multi-stage supersonic target, a generic sub-scale aerial target and a long range standoff cruise missile prototype. **The eleventh is this pair, and it is the only duplicated description among the thirty-one rows of the X- series, which are not the only rows whose designation begins with the letter X.**
+Eleven descriptions repeat somewhere in the 539 rows of that register, in the copy the compiler last updated on 23 August 2026. **Ten of them are munitions, targets and a ground station**, being a laser-guided seventy millimetre rocket that appears four times, a ground control station for an unmanned air vehicle that appears three times, an evolved sea sparrow missile that also appears three times, and then seven that appear twice each, which are an air superiority target replacing a retired fighter, captive missile training, a thrust vector control interface to a vertical launching system, an air defence artillery weapon, a multi-stage supersonic target, a generic sub-scale aerial target and a long range standoff cruise missile prototype. **The eleventh is this pair, the only duplicated description among the thirty-one rows of the X- series, which are not the only rows whose designation begins with the letter X** \[[Parsch, DOD 4120.15-L Addendum][ref_mds_addendum]\].
 
 Two X numbers were issued for one programme on one day, and the only thing the register uses to tell them apart is the name of the company building each one.
 
@@ -41,27 +41,27 @@ This article is about the ABL vehicle and about the nozzle both vehicles exist t
 
 **A rocket nozzle has one design altitude and flies through all of them.**
 
-The exhaust leaves a bell nozzle at whatever pressure the geometry dictates, and the atmosphere outside is at whatever pressure the altitude dictates, and those two numbers agree at exactly one point on the ascent. Everywhere below that point the jet is over-expanded and the atmosphere pushes back on the nozzle wall. Everywhere above it the jet is under-expanded and energy that could have been thrust leaves as pressure. The mismatch is not a defect of manufacture. It is what a fixed exit area means.
+The exhaust leaves a bell nozzle at whatever pressure the geometry dictates, and the atmosphere outside is at whatever pressure the altitude dictates, and those two numbers agree at exactly one point on the ascent. Everywhere below that point the jet is over-expanded and the atmosphere pushes back on the nozzle wall. Everywhere above it the jet is under-expanded and energy that could have been thrust leaves as pressure. The mismatch is no defect of manufacture. A fixed exit area entails it.
 
-An aerospike inverts the geometry. Instead of expanding the gas inside a bell, it expands the gas along the outside of a central body, so the outer boundary of the plume is the atmosphere itself. **The expansion ends where the ambient pressure says it ends, and it says something different at every altitude.** The idea is old, the hardware has been built several times, small aerospike engines have flown on research and university rockets, and no aerospike engine has flown a trajectory representative of a launch to orbit \[[ARISE and Fly][ref_afrl_arise]\].
+An aerospike inverts the geometry. Instead of expanding the gas inside a bell, it expands the gas along the outside of a central body, so the outer boundary of the plume is the atmosphere itself. **The expansion ends where the ambient pressure ends it, and that pressure differs at every altitude.** The idea is old, the hardware has been built several times, small aerospike engines have flown on research and university rockets, and no aerospike engine has flown a trajectory representative of a launch to orbit \[[ARISE and Fly][ref_afrl_arise]\].
 
-So the questions are these. **How much is altitude compensation actually worth, stated as a quantity rather than as an advantage?** What exactly does a fixed nozzle lose, and is that loss the whole of the case? What does the fixed nozzle's optimum look like, and can it be built? And what does it mean to assemble one engine out of many small ones, which is the other half of what this programme bought?
+So the questions are these. **How much is altitude compensation worth, stated as a quantity rather than as an advantage?** What does a fixed nozzle lose, and does that loss make the whole case? What does the fixed nozzle's optimum look like, and can it be built? And what does it mean to assemble one engine out of many small ones, the other half of what this programme bought?
 
-**The answers turn out to be sharper than the subject's reputation suggests.** The loss of a fixed nozzle is an exact geometric object. The optimal fixed nozzle obeys a rule that can be written in one line and that mentions neither the gas nor the engine. And on the trajectory this vehicle's own manufacturer publishes, **that rule places the optimum within about a tenth of the largest exit area the nozzle can carry without its flow separating**, on one side of that limit or the other depending on a chamber pressure nobody has published.
+**The answers turn out to be sharper than the subject's reputation suggests.** The loss of a fixed nozzle is an exact geometric object. The optimal fixed nozzle obeys a rule that can be written in one line and that mentions neither the gas nor the engine. And on the trajectory this vehicle's manufacturer publishes, **that rule places the optimum within about a tenth of the largest exit area the nozzle can carry without its flow separating**, on one side of that limit or the other depending on a chamber pressure nobody has published.
 
 ## Programme Origin
 
-**The programme's origin is recorded in three places, and none of them is a contract that can be read.** The register allocated both numbers on 20 April 2022 with one description, one sponsor cell and one engines cell \[[Parsch, DOD 4120.15-L Addendum][ref_mds_addendum]\]. The fact sheet of the Air Force Research Laboratory, AFRL, set out two objectives, an altitude-compensating nozzle and an engine built from many modules \[[ARISE and Fly][ref_afrl_arise]\]. And the award announcement records two three-year agreements made in December 2019 under an other transaction agreement, which leaves no trace in the federal award record \[[AFRL awards agreements under ARISE][ref_arise_award]\]. The subsections below take the register first and the programme second.
+**The programme's origin is recorded in three places, and none of them is a contract that can be read.** The register allocated both numbers on 20 April 2022 with one description, one sponsor cell and one engines cell \[[Parsch, DOD 4120.15-L Addendum][ref_mds_addendum]\]. The fact sheet of the Air Force Research Laboratory, AFRL, set out two objectives, an altitude-compensating nozzle and an engine built from many modules \[[ARISE and Fly][ref_afrl_arise]\]. And the award announcement records two three-year agreements made in December 2019 under an other transaction agreement, which a search of the federal award record does not find \[[AFRL awards agreements under ARISE][ref_arise_award]\]. The register is taken first and the programme second.
 
-### The Register Says the Same Thing Twice, and Says It Unofficially
+### The Register and Its Unofficial Wording
 
-The register is compiled by Andreas Parsch from Department of Defense data obtained under the Freedom of Information Act, and it is not itself a Department of Defense publication. The compiler notes that for allocations after October 2018 the official description is no longer releasable to the public, and prints the descriptions of those entries in blue to indicate that they are not official wording \[[Parsch, DOD 4120.15-L Addendum][ref_mds_addendum]\], which is where the register stops being a primary source, as [the X-61 article][related_post_a358_dynetics_x61_gremlins] also finds. Both rows of this pair carry the marking.
+The register is compiled by Andreas Parsch from Department of Defense data obtained under the Freedom of Information Act, and it is not itself a Department of Defense publication. The compiler notes that for allocations after October 2018 the official description is no longer releasable to the public, and prints the descriptions of those entries in blue to indicate that they are not official wording \[[Parsch, DOD 4120.15-L Addendum][ref_mds_addendum]\]. At that point the register stops being a primary source, as [the X-61 article][related_post_a358_dynetics_x61_gremlins] also finds. Both rows of this pair carry the marking.
 
-The markup has three states and not two. A row may be wholly official. Its description cell may be marked in full. Or a fragment of the description may be marked while the rest is not. Across the whole register those three states divide 539 rows into **436 unmarked, 86 wholly unofficial and 17 partly unofficial**, and across the thirty-one X rows they divide into **21 unmarked, 9 wholly unofficial and 1 partly unofficial**. Every count in this article is taken from every row of the copy that the compiler last updated on 23 August 2026, which holds 539 rows, five of them dated 2026 and none of those an X row. **The 436 unmarked rows include eleven that the compiler shows in grey**, as designations in use but not confirmed as official allocations, so an unmarked description is not the same thing as an official allocation.
+The markup has three states and not two. A row may be wholly official. Its description cell may be marked in full. Or a fragment of the description may be marked while the rest is not. Across the whole register those three states divide 539 rows into **436 unmarked, 86 wholly unofficial and 17 partly unofficial**, and across the thirty-one X rows they divide into **21 unmarked, 9 wholly unofficial and 1 partly unofficial** \[[Parsch, DOD 4120.15-L Addendum][ref_mds_addendum]\]. Every count in this article is taken from every row of the copy that the compiler last updated on 23 August 2026, which holds 539 rows, five of them dated 2026 and none of those an X row. **The 436 unmarked rows include eleven that the compiler shows in grey**, as designations in use but not confirmed as official allocations, so an unmarked description is not the same thing as an official allocation.
 
-**A two-number summary of that split loses a row, and the row it loses is the one whose markup is most easily misread.** Counting it unofficial discards the official wording it carries, and counting it official contradicts **the compiler's own markup, which states that part of its wording is a reconstruction.** The figures above classify each row by the markup it carries, which is the only accounting in which every row has exactly one place.
+**A two-number summary of that split loses a row, and the row it loses is the one whose markup is most easily misread.** Counting it unofficial discards the official wording it carries, and counting it official contradicts **the compiler's own markup, which states that part of its wording is a reconstruction.** The figures above classify each row by the markup it carries. No other accounting gives every row exactly one place.
 
-| Classification | Whole register | Rows beginning with X |
+| Classification | Whole register | Rows of the X- series |
 |---|---|---|
 | No part of the description marked as a reconstruction | 436 | 21 |
 | Description wholly marked as a reconstruction | 86 | 9 |
@@ -72,21 +72,21 @@ The markup has three states and not two. A row may be wholly official. Its descr
 
 The sponsor cell of both rows reads `USAF/USSF` \[[Parsch, DOD 4120.15-L Addendum][ref_mds_addendum]\].
 
-**Those are the only two rows in the entire register that read exactly that**, and among the thirty-one X rows they are the only two that mention the Space Force at all. Seven rows in the whole register name the United States Space Force anywhere in the sponsor cell, and two of the seven are these.
+**Those are the only two rows in the entire register that read exactly that**, and among the thirty-one X rows they are the only two that mention the Space Force at all. Seven rows in the whole register name the United States Space Force anywhere in the sponsor cell, and two of the seven are these \[[Parsch, DOD 4120.15-L Addendum][ref_mds_addendum]\].
 
-The X sponsor column otherwise names the Air Force alone eight times, seven of them as `USAF` and once spelled out, the National Aeronautics and Space Administration, NASA, six times, the Navy four, the Defense Advanced Research Projects Agency four, the Department of Defense once, and a scattering of joint pairs. **A service that did not exist when most of this register was written appears in its experimental aircraft series exactly twice, on the same day, for two halves of one rocket programme.**
+The X sponsor column otherwise names the Air Force alone eight times, seven of them as `USAF` and once spelled out, the National Aeronautics and Space Administration, NASA, six times, the Navy four, the Defense Advanced Research Projects Agency four, the Department of Defense once, and a scattering of joint pairs \[[Parsch, DOD 4120.15-L Addendum][ref_mds_addendum]\]. **A service that did not exist when most of this register was written appears in its experimental aircraft series twice, on the same day, for two halves of one rocket programme** \[[United States Space Force][ref_ussf]\].
 
 ### An Engines Cell That Names a Class
 
 Both rows say `1 rocket engine` \[[Parsch, DOD 4120.15-L Addendum][ref_mds_addendum]\].
 
-Four hundred and forty-five of the 539 rows carry an engines cell at all, and twenty-seven of the thirty-one X rows do. **Those cells almost always name a model.** The X-62A of [the previous article][related_post_a359_lockheed_martin_x62_vista] reads `1 Pratt & Whitney F100`. The X-65A reads `1 Williams FJ44-3A`. The X-66A reads `2 Pratt & Whitney`. **Exactly two rows in the register say `1 rocket engine`, and they are this pair.**
+Four hundred and forty-five of the 539 rows carry an engines cell at all, and twenty-seven of the thirty-one X rows do. **Those cells almost always name a model.** The X-62A of [the previous article][related_post_a359_lockheed_martin_x62_vista] reads `1 Pratt & Whitney F100`. The X-65A reads `1 Williams FJ44-3A`. The X-66A reads `2 Pratt & Whitney` \[[Parsch, DOD 4120.15-L Addendum][ref_mds_addendum]\]. **Exactly two rows in the register say `1 rocket engine`, and they are this pair.**
 
-Twenty-six rows of the register use the word `rocket` in an engines cell somewhere, and only two of them are X rows. **The third rocket among the X numbers is the X-60A**, whose engines cell is empty \[[Parsch, DOD 4120.15-L Addendum][ref_mds_addendum]\]. [That article][related_post_a357_generation_orbit_x60] found a register calling a rocket an aircraft while the Air Force called it a rocket twelve times. Here the register calls it a rocket in its own description and then declines to name the engine, which is defensible, because at the moment of allocation **the engine did not have a model name and arguably did not yet exist**.
+Twenty-six rows of the register use the word `rocket` in an engines cell somewhere, and only two of them are X rows. **The third rocket among the X numbers is the X-60A**, whose engines cell is empty \[[Parsch, DOD 4120.15-L Addendum][ref_mds_addendum]\]. [That article][related_post_a357_generation_orbit_x60] found a register calling a rocket an aircraft while the Air Force called it a rocket twelve times. Here the register calls it a rocket in its description and then declines to name the engine, which is defensible, because at the moment of allocation **the engine did not have a model name and arguably did not yet exist**.
 
-### The Programme, and What It Says It Is For
+### The Programme's Stated Objectives
 
-The Air Force Research Laboratory runs a portfolio called the Affordable Responsive Modular Rocket, or ARMR. **ARISE is the most ambitious thing in it**, and its stated objectives are two rather than one \[[ARISE and Fly][ref_afrl_arise]\].
+The Air Force Research Laboratory runs a portfolio called the Affordable Responsive Modular Rocket, or ARMR. **ARISE is the most ambitious thing in it**, and it has two objectives \[[ARISE and Fly][ref_afrl_arise]\].
 
 The first objective is the nozzle. The fact sheet is explicit about what a bell does and why that is a problem.
 
@@ -96,47 +96,47 @@ The second objective is modularity, and the fact sheet insists it is separable f
 
 > While modular engines do not require an arrangement via the aerospike nozzle, AFRL's ARMR portfolio research highlights the inherent advantages of a modular-aerospike configuration for a production engine.
 
-**The propulsion system is described as multiple thrusters and turbomachinery units working in concert as a single engine**, with multiple propellant pumps and multiple gas generators, manifolded so that the propellant divides evenly among them \[[ARISE and Fly][ref_afrl_arise]\]. That is a claim about how a large engine might be built out of small ones, and it is a claim about cost and schedule rather than about performance.
+**The propulsion system is described as multiple thrusters and turbomachinery units working in concert as a single engine**, with multiple propellant pumps and multiple gas generators, manifolded so that the propellant divides evenly among them \[[ARISE and Fly][ref_afrl_arise]\]. The claim concerns how a large engine might be built out of small ones, and its subject is cost and schedule rather than performance.
 
-**The fact sheet also names the three flow regimes the flight is meant to visit**, and they are the reason a flight is needed at all.
+**The fact sheet also names the three flow regimes the flight is meant to visit**, and those regimes are why a flight is needed at all.
 
 > Aerospike nozzles operate in three modes (open wake, wake transition, and closed wake) at specific altitudes depending on the engine design, flight trajectory, and ambient atmospheric conditions.
 
-And it says plainly why a test stand cannot substitute.
+It also states why a test stand cannot substitute.
 
 > Realistic flight conditions have not validated in this behavior, since wind tunnel and ground testing cannot provide a truly representative flight environment.
 
-**That sentence is missing a word in the original and the meaning survives anyway.** What a ground test cannot supply is a falling ambient pressure applied to a full-scale plume for the duration of a real ascent, and altitude compensation is precisely a claim about a falling ambient pressure.
+**That sentence is missing a word in the original and the meaning survives anyway.** What a ground test cannot supply is a falling ambient pressure applied to a full-scale plume for the duration of a real ascent, and altitude compensation is by definition a response to a falling ambient pressure.
 
-One tension in the document is worth naming rather than smoothing over. The programme is called a suborbital experiment, the fact sheet calls the flight a proof-of-principle test gathering data in the relevant environment of suborbital space, and the same page then says **ARISE will fly a launch-to-orbit trajectory** to reach all three regimes \[[ARISE and Fly][ref_afrl_arise]\]. The reading this article adopts is that the phrase means a trajectory representative of a launch to orbit rather than a flight that reaches orbit, which is consistent with the programme's own name and with every other sentence on the page. **That is an inference about wording and it is marked as one.**
+One tension in the document needs to be named. The programme is called a suborbital experiment, the fact sheet calls the flight a proof-of-principle test gathering data in the relevant environment of suborbital space, and the same page then says **ARISE will fly a launch-to-orbit trajectory** to reach all three regimes \[[ARISE and Fly][ref_afrl_arise]\]. This article reads the phrase as a trajectory representative of a launch to orbit rather than a flight that reaches orbit. That reading agrees with the programme's name and with every other sentence on the page. **It is an inference about wording, marked as one.**
 
-The clearance line at the foot of the fact sheet reads `88ABW-2020-0773`. **The document was cleared for public release in 2020, about two years before either designation was allocated**, and it names its two flight-test vehicles as `abl` and `Invocon` in a figure caption. **Neither X number appears anywhere in it.**
+The clearance line at the foot of the fact sheet reads `88ABW-2020-0773`. **The document was cleared for public release in 2020, about two years before either designation was allocated**, and it names its two flight-test vehicles as `abl` and `Invocon` in a figure caption. **Neither X number appears anywhere in it** \[[AFRL ARISE fact sheet][ref_arise_factsheet]\].
 
-### The Instrument That Bought It, and Why the Money Leaves No Trace
+### The Instrument That Bought It
 
-The federal award record does not contain this programme.
+A search of the federal award record finds no trace of this programme under the names it is known by.
 
-A search of the public award database for `ABL Space Systems` returns nothing under procurement contracts, nothing under indefinite delivery vehicles, nothing under grants and nothing under the other financial assistance families. Searches for `ARISE aerospike`, for `Aerospike Rocket Integration and Suborbital Experiment` and for `Affordable Responsive Modular Rocket` return nothing at all \[[USAspending][ref_usaspending]\].
+A search of the public award database for `ABL Space Systems` returns no result under procurement contracts, indefinite delivery vehicles, grants or the other financial assistance families. Searches for `ARISE aerospike`, for `Aerospike Rocket Integration and Suborbital Experiment` and for `Affordable Responsive Modular Rocket` return nothing at all \[[USAspending][ref_usaspending]\].
 
-**This is not an absence to be interpreted. The announcement says why.**
+**This absence needs no interpretation, because the announcement explains it.**
 
 > The awards were made using the Space Enterprise Consortium Other Transaction Agreement, executed at Space and Missile Systems Center, Development Corp., at Los Angeles Air Force Base, Calif. The OTA acquisition allows for traditional as well as non-traditional contractors to submit proposals, leveraging unique capabilities from companies that may not be able to participate in a standard FAR based contract acquisition process.
 
-An other transaction agreement is not a procurement contract. It exists precisely so that a company which cannot or will not accept the Federal Acquisition Regulation can still be paid, and the price of that flexibility is that the resulting instrument does not appear where procurement contracts appear. **[The previous article][related_post_a359_lockheed_martin_x62_vista] found a government that spent twenty-nine million dollars on an aeroplane across seventy-three transactions without once writing the aeroplane's designation down.** This is the same silence produced deliberately and explained in advance.
+An other transaction agreement is a procurement instrument other than a contract, to which many of the laws and regulations governing federal contracts do not apply, and it exists to reach companies, especially non-traditional ones, that would not otherwise compete for the work. An award made through a consortium is administered by the consortium's manager under a base agreement \[[Other Transaction Authority][ref_ota]\], so a search under the name of the company doing the work need not find it. **[The previous article][related_post_a359_lockheed_martin_x62_vista] found a government that spent twenty-nine million dollars on an aeroplane across seventy-three transactions without once writing the aeroplane's designation down.** This is the same silence, with its instrument named in advance.
 
 The announcement gives the terms it does give. **Both awards were made in December 2019, each for three years**, and each is for `the design, test, manufacture, and launch of a sub-orbital flight of a rocket using a highly instrumented modular aerospike liquid rocket engine` \[[AFRL awards agreements under ARISE][ref_arise_award]\]. **No dollar figure is stated for either.** Three years from December 2019 puts first flight at the end of 2022, and the designations were allocated on 20 April 2022, **eight months before that deadline and with no vehicle yet flown**.
 
 The announcement also states, in a sentence that decides what this article has to compute, that **thrust vector control for the aerospike will be demonstrated**.
 
-Three people are quoted. Jade Pomerleau, the programme manager, says that `the investigation of a revolutionary, promising, yet unproven architecture is the heart of what AFRL does`. Harry O'Hanley, the chief executive of ABL, says that `fast-paced engineering is necessary to maintain the superiority of the U.S industrial base`. And Karl Kiefer, the president of Invocon, offers the sentence that sets this article's historical scale.
+Three people are quoted. Jade Pomerleau, the programme manager, states that `the investigation of a revolutionary, promising, yet unproven architecture is the heart of what AFRL does`. Harry O'Hanley, the chief executive of ABL, argues that `fast-paced engineering is necessary to maintain the superiority of the U.S industrial base`. And Karl Kiefer, the president of Invocon, offers the sentence that sets this article's historical scale \[[AFRL awards agreements under ARISE][ref_arise_award]\].
 
 > The Invocon Team feels that this a great opportunity to accomplish what has eluded the rocket community for nearly 60 years.
 
-**Nearly sixty years before December 2019 is about 1960**, and that is a checkable claim about a literature rather than a piece of rhetoric. It is checked later in this article against the dates of the literature itself.
+**Nearly sixty years before December 2019 is about 1960**, and the remark, whatever its rhetoric, makes a checkable claim about a literature. It is checked later in this article against the dates of the literature itself.
 
 #### The Sponsor Spells Its Own Programme Two Ways
 
-One small thing falls out of holding all the primary documents at once. **The laboratory's award announcement writes the programme's name both `Sub-orbital` and `Suborbital`, in the same document.**
+One small thing falls out of holding all the primary documents at once. **The laboratory's award announcement writes the programme's name `Sub-orbital`, and its fact sheet and programme page write `Suborbital`.**
 
 | Source | `Sub-orbital` | `Suborbital` |
 |---|---|---|
@@ -147,15 +147,15 @@ One small thing falls out of holding all the primary documents at once. **The la
 | the X-64A encyclopedia entry | 1 | 1 |
 | the register | 0 | 1 |
 
-The two web documents the laboratory publishes are internally consistent and use the unhyphenated form, and so does the register. **The announcement uses the hyphenated form three times, including in its own title, and the unhyphenated form once.** The expansion itself never varies. **Everyone agrees what the letters mean and the sponsor cannot decide where the hyphen goes.**
+The two web documents the laboratory publishes are internally consistent and use the unhyphenated form, and so does the register \[[ARISE and Fly][ref_afrl_arise]\] \[[AFRL ARISE fact sheet][ref_arise_factsheet]\] \[[Parsch, DOD 4120.15-L Addendum][ref_mds_addendum]\]. **The announcement uses the hyphenated form three times, including in its title, and the unhyphenated form once, in a phrase that is not the programme's name** \[[AFRL awards agreements under ARISE][ref_arise_award]\]. The expansion itself never varies. **Everyone agrees what the letters mean and the sponsor cannot decide where the hyphen goes.**
 
 ## Sizing From First Principles
 
-**No dimension of the X-63A engine is public, so this article sizes the nozzle from the physics and the trajectory instead of from a drawing.** The chamber pressure and area ratio of the aerospike as designed are both unknown, and the subsections below work in thrust coefficients because those do not know how large the engine is. They establish that thrust is affine in ambient pressure, that the ideal altitude-compensating nozzle is the envelope of all fixed nozzles, that the best fixed nozzle expands to the burn-averaged ambient pressure of its own flight, that on the manufacturer's published ascent \[[ABL Payload User's Guide][ref_abl_pug]\] an ideal spike would deliver between 5.3 and 8.5 percent more first-stage impulse than that nozzle by the gain $\eta$ defined below, and that flow separation rather than performance bounds the fixed nozzle the trajectory wants. The last subsection names the wake regimes that separate the ideal spike from a truncated one.
+**No dimension of the X-63A engine is public, so this article sizes the nozzle from the physics and the trajectory instead of from a drawing** \[[ABL Space Systems X-63][ref_ds_x63]\]. The chamber pressure and area ratio of the aerospike as designed are both unknown, and what follows works in thrust coefficients, which do not depend on how large the engine is. The derivation establishes that thrust is affine in ambient pressure, that the ideal altitude-compensating nozzle is the envelope of all fixed nozzles, that the best fixed nozzle expands to the burn-averaged ambient pressure of its flight, that on the manufacturer's published ascent \[[ABL Payload User's Guide][ref_abl_pug]\] an ideal spike would deliver between 5.3 and 8.5 percent more first-stage impulse than that nozzle by the gain $\eta$ defined below, and that flow separation rather than performance bounds the fixed nozzle the trajectory wants. The last subsection names the wake regimes that separate the ideal spike from a truncated one.
 
 ### The Claim, Stated Exactly
 
-Everything that follows rests on one elementary fact about a rocket nozzle, and the fact is worth writing down before it is used.
+What follows depends on one elementary fact about a rocket nozzle, and this subsection writes it down before using it.
 
 Let $F$ be the thrust in newton, $\dot{m}$ the mass flow of propellant in kilogram per second, $v_e$ the exhaust velocity at the exit plane in metre per second, $p_e$ the static pressure of the exhaust at that plane in pascal, $p_a$ the ambient atmospheric pressure in pascal, and $A_e$ the area of the exit plane in square metre. Then
 
@@ -165,11 +165,11 @@ which is the momentum flux out of the nozzle plus the net pressure force on its 
 
 $$ F_{\mathrm{vac}} = \dot{m} v_e + p_e A_e, \qquad F = F_{\mathrm{vac}} - p_a A_e $$
 
-**Thrust is an affine function of ambient pressure, and the slope is minus the exit area.** Nothing else in the nozzle appears in that slope. A fixed nozzle therefore traces one straight line as it climbs, and its whole behaviour in the atmosphere is fixed by two numbers, being where the line starts and how steeply it falls.
+**Thrust is an affine function of ambient pressure, and the slope is minus the exit area.** Nothing else in the nozzle appears in that slope. A fixed nozzle therefore traces one straight line as it climbs, and two numbers fix its behaviour in the atmosphere, being where the line starts and how steeply it falls.
 
 #### The Same Statement Without the Engine in It
 
-Everything below is easier in coefficients than in newtons, and the reason is that the coefficients do not know how large the engine is.
+Coefficients are easier to work with than newtons, because they are independent of the engine's size.
 
 Let $p_c$ be the chamber pressure in pascal, $A_t$ the area of the throat in square metre, $\varepsilon$ the ratio of exit area to throat area, dimensionless, and $C_F$ the thrust coefficient, also dimensionless. The definitions are these.
 
@@ -179,7 +179,7 @@ Dividing the affine law by $p_c A_t$ carries it across unchanged, and the slope 
 
 $$ C_F\left( \varepsilon, p_a \right) = C_{F,\mathrm{vac}}\left( \varepsilon \right) - \varepsilon \frac{p_a}{p_c} $$
 
-**Two numbers still describe the nozzle and neither is a length.** A fixed nozzle is a point on the vertical axis and a slope, and the whole of what follows is about which straight line to choose.
+**Two numbers still describe the nozzle and neither is a length.** A fixed nozzle is a point on the vertical axis and a slope, and the rest of the argument concerns which straight line to choose.
 
 #### Where the Vacuum Coefficient Comes From
 
@@ -201,7 +201,7 @@ $$ C_{F,\mathrm{vac}}\left( \varepsilon \right) = \Gamma \sqrt{ \frac{2 \gamma}{
 
 #### The Symbols This Article Uses
 
-Fifty-five relations need a table, and this is it. **Two letters carry two meanings each and the table says so rather than quietly reusing them**, since $L$ is a thrust loss in the nozzle sections and a moment arm in the sections about steering, and $k$ indexes a module in one place and is a separation threshold in another.
+Fifty-five relations need a table, and this is it. **Two letters carry two meanings each, and the table records both**, since $L$ is a thrust loss in the nozzle sections and a moment arm in the sections about steering, and $k$ indexes a module in one place and is a separation threshold in another.
 
 | Symbol | Meaning | Unit |
 |---|---|---|
@@ -291,17 +291,17 @@ Fifty-five relations need a table, and this is it. **Two letters carry two meani
 
 **Every symbol above appears in the mathematics and every symbol in the mathematics appears above.**
 
-#### What the Coefficient Is Worth in Seconds
+#### From Coefficient to Seconds
 
-One conversion is worth having, because specific impulse is the currency this subject is argued in.
+One conversion is needed, because specific impulse is the currency this subject is argued in.
 
 Let $\dot{m}$ be the mass flow as before, $c^{\star}$ the characteristic velocity in metre per second, $T_c$ the chamber temperature in kelvin, $\bar{M}$ the mean molar mass of the combustion products in kilogram per kilomole, $R_u$ the universal gas constant in joule per kilomole kelvin, $g_0$ the standard gravity in metre per second squared, and $I_{sp}$ the specific impulse in second.
 
 $$ c^{\star} = \frac{p_c A_t}{\dot{m}} = \frac{1}{\Gamma}\sqrt{\frac{R_u T_c}{\bar{M}}}, \qquad I_{sp} = \frac{C_F \, c^{\star}}{g_0} $$
 
-**The split is clean and it is why this article can work in coefficients.** The characteristic velocity carries everything about the propellant and the chamber, the thrust coefficient carries everything about the nozzle and the atmosphere, and they multiply. **A claim about altitude compensation is a claim about the second factor only.**
+**The split is clean, and it lets this article work in coefficients.** The characteristic velocity carries everything about the propellant and the chamber, the thrust coefficient carries everything about the nozzle and the atmosphere, and they multiply. **A claim about altitude compensation concerns the second factor only.**
 
-That is already enough to say something the subject's usual presentation obscures. **The entire atmospheric penalty of a fixed nozzle over a whole burn is its exit area multiplied by the time integral of the ambient pressure.** Let $t_b$ be the burn duration in second, and let $J$ be that integral in pascal second.
+That is already enough to say something the subject's usual presentation obscures. **The entire atmospheric penalty of a fixed nozzle over a burn is its exit area multiplied by the time integral of the ambient pressure.** Let $t_b$ be the burn duration in second, and let $J$ be that integral in pascal second.
 
 $$ J = \int_{0}^{t_b} p_a(t) \, \mathrm{d}t, \qquad \int_{0}^{t_b} F \, \mathrm{d}t = F_{\mathrm{vac}} t_b - A_e J $$
 
@@ -317,47 +317,47 @@ $$ \frac{\mathrm{d} F_{\mathrm{vac}}}{\mathrm{d} A_e} = \dot{m} \frac{\mathrm{d}
 
 **The incremental vacuum thrust bought by an increment of exit area is the exit pressure acting on that increment, and nothing else survives.** The result is exact, it holds for any gas obeying the one-dimensional equations, and it takes one line.
 
-It also settles the structure of the whole problem. Write $G$ for the vacuum thrust regarded as a function of exit area, in newton, so that $G(A_e) = F_{\mathrm{vac}}$. Then $G'(A_e) = p_e$, and the thrust against an atmosphere is
+It also settles the structure of the problem. Write $G$ for the vacuum thrust regarded as a function of exit area, in newton, so that $G(A_e) = F_{\mathrm{vac}}$. Then $G'(A_e) = p_e$, and the thrust against an atmosphere is
 
 $$ F(p_a; A_e) = G(A_e) - p_a A_e $$
 
-which is $G$ minus a linear term in exactly the pairing that defines a Legendre transform. **Ambient pressure is the variable conjugate to exit area.** That is not an analogy. It is the same pairing, with the same stationarity condition, and the stationarity condition is worth seeing.
+which is $G$ minus a linear term, in the pairing that defines a Legendre transform. **Ambient pressure is the variable conjugate to exit area.** The correspondence is no analogy. It is the same pairing with the same stationarity condition, which the next paragraph states.
 
-Maximising the thrust over the exit area at a fixed ambient pressure requires $G'(A_e) = p_a$, and $G'(A_e)$ is $p_e$. **So the optimum is $p_e = p_a$, which is the matched-expansion condition that texts commonly state as a separate empirical fact.** It is not a separate fact. It is the first-order condition of the transform.
+Maximising the thrust over the exit area at a fixed ambient pressure requires $G'(A_e) = p_a$, and $G'(A_e)$ is $p_e$. **So the optimum is $p_e = p_a$, the matched-expansion condition that texts commonly state as a separate fact.** Far from separate, it is the first-order condition of the transform.
 
-In coefficients the same statement is a derivative with respect to the area ratio, and it is the form the later sections use.
+In coefficients the same statement is a derivative with respect to the area ratio, and the later sections use this form.
 
 $$ \frac{\partial C_F}{\partial \varepsilon} = \frac{p_e - p_a}{p_c} $$
 
-**The derivative of the thrust coefficient with respect to area ratio is the pressure difference across the exit plane.** Lengthening the nozzle helps while the exhaust is still pushing harder than the atmosphere and hurts once it is not, which is the whole of the design trade written as one line. Central differences confirm the relation in twenty-seven cases to five parts in ten million, which is the step size, and its vacuum case, the conjugacy identity, in twelve cases to 2.1 parts in a hundred thousand million.
+**The derivative of the thrust coefficient with respect to area ratio is the pressure difference across the exit plane.** Lengthening the nozzle helps while the exhaust is still pushing harder than the atmosphere and hurts once it is not. That one line holds the entire design trade. Central differences confirm the relation in twenty-seven cases to five parts in ten million, which is the step size, and its vacuum case, the conjugacy identity, in twelve cases to 2.1 parts in a hundred thousand million.
 
-### The Envelope, and What a Fixed Nozzle Gives Up
+### The Envelope of All Fixed Nozzles
 
 Every fixed nozzle is one straight line. The family of all fixed nozzles is a family of straight lines, one for each exit area, and the best achievable thrust at any given ambient pressure is the upper envelope of that family. Write $F^{\star}$ for that envelope, in newton.
 
 $$ F^{\star}(p_a) = \max_{A_e} \left\{ G(A_e) - p_a A_e \right\} $$
 
-**That is the Legendre transform of the vacuum thrust, and it is the thrust curve of an ideal altitude-compensating nozzle** \[[Legendre transformation][ref_legendre]\] \[[convex conjugate][ref_convex_conjugate]\]. An aerospike is an attempt to build a machine that sits on the envelope rather than on one of its tangent lines, and the mechanism by which its plume follows the atmosphere down has its own literature \[[Ruf and McConaughey 1997][ref_plume_physics_1997]\].
+**The envelope is the Legendre transform of the vacuum thrust and the thrust curve of an ideal altitude-compensating nozzle** \[[Legendre transformation][ref_legendre]\] \[[convex conjugate][ref_convex_conjugate]\]. An aerospike is an attempt to build a machine that sits on the envelope rather than on one of its tangent lines, and the mechanism by which its plume follows the atmosphere down is studied in a separate literature \[[Ruf and McConaughey 1997][ref_plume_physics_1997]\].
 
 Two consequences follow immediately and neither needs any hardware.
 
 **First, the envelope is convex in ambient pressure**, because a maximum of affine functions is always convex. So the ideal spike's thrust curve bends one way and only one way as the vehicle climbs.
 
-**Second, every fixed nozzle touches the envelope at exactly one point and lies strictly below it everywhere else.** That one point is its design altitude. This is the whole of the altitude-compensation argument, and it is a statement about tangency rather than about gas dynamics.
+**Second, every fixed nozzle touches the envelope at exactly one point and lies strictly below it everywhere else.** That one point is its design altitude. This tangency is the entire altitude-compensation argument, and gas dynamics plays no part in it.
 
-That second consequence has a name and an exact statement, which is the Fenchel-Young inequality.
+That second consequence has a name and an exact statement in the Fenchel-Young inequality.
 
 $$ G\left( A_e \right) \le F^{\star}\left( p_a \right) + p_a A_e \quad \text{for every } A_e \text{ and every } p_a $$
 
-**Equality holds if and only if the nozzle is matched to that ambient pressure.** Rearranged, the inequality says that the thrust of any fixed nozzle at any altitude is at most the envelope's, which is the sentence above, now with a condition attached to the one case where it is tight. At three area ratios against three ambient pressures each, the gap is positive in every case away from the design point and zero to twelve decimal places at it.
+**Equality holds if and only if the nozzle is matched to that ambient pressure.** Rearranged, the inequality states that the thrust of any fixed nozzle at any altitude is at most the envelope's, restating the sentence above with a condition attached to the one case where it is tight. At three area ratios against three ambient pressures each, the gap is positive in every case away from the design point and zero to twelve decimal places at it.
 
-The transform also runs backwards, which is worth stating because it says the envelope loses nothing.
+The transform also runs backwards, so the envelope loses nothing.
 
 $$ G\left( A_e \right) = \min_{p_a} \left\{ F^{\star}\left( p_a \right) + p_a A_e \right\} $$
 
 **The family of fixed nozzles and the envelope carry the same information.** Knowing the ideal spike's thrust at every altitude is knowing the vacuum thrust of every bell, and conversely. **An aerospike is not a new capability so much as a different point on a structure that was already there.**
 
-Two derivatives of the envelope are worth writing down, because between them they say what shape it is. Let $A_e(p_a)$ denote the exit area the envelope selects at ambient pressure $p_a$, in square metre.
+Two derivatives of the envelope fix its shape between them. Let $A_e(p_a)$ denote the exit area the envelope selects at ambient pressure $p_a$, in square metre.
 
 $$ \frac{\mathrm{d} F^{\star}}{\mathrm{d} p_a} = -A_e\left( p_a \right), \qquad \frac{\mathrm{d}^2 F^{\star}}{\mathrm{d} p_a^2} = -\frac{\mathrm{d} A_e}{\mathrm{d} p_a} \ge 0 $$
 
@@ -377,11 +377,11 @@ $$ L\left( p_a \right) = \int_{p_d}^{p_a} \left[ A_d - A_e\left( q \right) \righ
 
 **The order of that subtraction is not free.** Written the other way round the same expression is the negative of the loss, so the integrand has to be the fitted nozzle's exit area minus the one the envelope would have chosen and not the reverse.
 
-### The Rule That Chooses a Fixed Nozzle, Which Is a Mean in Time
+### A Fixed Nozzle Chosen by a Mean in Time
 
 If a designer must choose one exit area for a whole ascent, what should it be?
 
-The answer is one line. It appears first as an invariant, the same number coming out of nine separate numerical optimisations that have no reason to agree, and it can then be derived.
+One line answers it. The rule appears first as an invariant, the same number coming out of nine separate numerical optimisations that have no reason to agree, and it can then be derived.
 
 Delivered impulse over the burn, in units of chamber pressure times throat area, is the integral of the thrust coefficient. Let $C_F$ be the thrust coefficient, dimensionless, let $C_{F,\mathrm{vac}}$ be its vacuum value, let $p_c$ be the chamber pressure in pascal, and let $\varepsilon$ be the ratio of exit area to throat area, dimensionless. Because $C_F$ is affine in ambient pressure with slope $-\varepsilon$,
 
@@ -393,19 +393,19 @@ $$ t_b \frac{p_e}{p_c} = \frac{J}{p_c} \qquad \Longrightarrow \qquad p_e = \frac
 
 **The optimal fixed nozzle expands to the time-averaged ambient pressure of its own flight.**
 
-Writing $\bar{p}_a$ for that burn-averaged ambient pressure in pascal, and $\varepsilon^{\star}$ for the area ratio the rule selects, dimensionless, the statement is a condition on the exit pressure and nothing else.
+Writing $\bar{p}_a$ for that burn-averaged ambient pressure in pascal, and $\varepsilon^{\star}$ for the area ratio the rule selects, dimensionless, the statement constrains the exit pressure alone.
 
 $$ \bar{p}_a \equiv \frac{1}{t_b}\int_{0}^{t_b} p_a(t)\, \mathrm{d}t, \qquad p_e\left( \varepsilon^{\star} \right) = \bar{p}_a $$
 
-Nothing about the gas appears. Nothing about the chamber pressure appears. Nothing about the vehicle appears. **The rule is a mean, it is a mean in time and not in altitude, and it is exact.** The question it answers has been asked of other vehicles by other routes \[[Hiers and Knapke 2019][ref_optimum_ratio_2019]\].
+The gas does not appear, and neither do the chamber pressure and the vehicle. **The rule is a mean, taken in time and not in altitude, and exact.** The question it answers has been asked of other vehicles by other routes \[[Hiers and Knapke 2019][ref_optimum_ratio_2019]\].
 
 The rule also holds numerically. Over four trajectory shapes, five ratios of specific heats and five chamber pressures, one hundred independent searches in all, the exit pressure of each optimum can be set against the burn-averaged ambient pressure computed separately. **The optimal area ratios across that grid range from 4.985 to 84.093, a factor of seventeen, and every one of them produces an exit pressure equal to the mean ambient pressure of its own trajectory.** The worst relative disagreement across the hundred cases is 4.2 parts in ten million, which is the tolerance of the search rather than an error in the identity.
 
 **A mean in time is a strange thing to design a nozzle around, and the strangeness is the point.** The atmosphere thins exponentially with altitude but a rocket does not climb at constant speed, so the burn-averaged pressure depends on how quickly the vehicle leaves the dense air rather than on how high it eventually goes. Two vehicles reaching the same altitude on the same burn time, one accelerating hard early and one accelerating hard late, want different nozzles.
 
-### The Ascent, Which the Manufacturer Publishes
+### The Manufacturer's Published Ascent
 
-The X-63A was to be a single-stage aerospike variant of the RS1, called the RS1A by its builder, sharing the parent vehicle's turbopumps, thrusters and injectors \[[AFRL awards agreements under ARISE][ref_arise_award]\]. The parent vehicle's reference mission is published in the company's own payload user's guide, which gives the first-stage trajectory as a sequence of timed points \[[ABL Payload User's Guide][ref_abl_pug]\].
+The X-63A was to be a single-stage aerospike variant of the RS1, called the RS1A by its builder, sharing the parent vehicle's turbopumps, thrusters and injectors \[[AFRL awards agreements under ARISE][ref_arise_award]\]. The parent vehicle's reference mission is published in the company's payload user's guide, which gives the first-stage trajectory as a sequence of timed points \[[ABL Payload User's Guide][ref_abl_pug]\].
 
 Liftoff is at zero. **Main engine cut-off and stage separation occur at 160 seconds, at 75 kilometres altitude and 2.6 kilometres per second.** Second-stage ignition follows at 163 seconds and 80 kilometres, fairing separation at 200 seconds and 125 kilometres, second-stage cut-off at 508 seconds at 200 kilometres and 7.8 kilometres per second, and payload separation ten seconds after that \[[ABL Payload User's Guide][ref_abl_pug]\].
 
@@ -424,21 +424,21 @@ Two published points and a zero initial rate do not determine a trajectory, so t
 
 $$ h(t) = h_b \left( \frac{t}{t_b} \right)^{n}, \qquad 1.5 \le n \le 3.0 $$
 
-**The exponent is a guess and the sweep is what makes it honest.** A value of 2 is constant acceleration, below 2 is a vehicle that climbs steeply and then pitches over, and above 2 is one that lingers low.
+**The exponent is a guess and the sweep keeps it honest.** A value of 2 is constant acceleration, below 2 is a vehicle that climbs steeply and then pitches over, and above 2 is one that lingers low.
 
-Ambient pressure comes from the 1976 United States Standard Atmosphere, implemented as its seven layers from the standard's own defining constants \[[U.S. Standard Atmosphere, 1976][ref_usatm1976]\] \[[defining constants and abbreviated tables][ref_atm_constants]\]. Let $\lambda$ be the temperature lapse rate of a layer in kelvin per metre, $T_0$ and $p_0$ the temperature and pressure at its base in kelvin and pascal, $h_0$ its base altitude in metre, $g_0$ the standard gravity and $R$ the specific gas constant of air in joule per kilogram kelvin. A layer with a lapse rate and an isothermal layer take different forms.
+Ambient pressure comes from the 1976 United States Standard Atmosphere, implemented as its seven layers from the defining constants of the standard \[[U.S. Standard Atmosphere, 1976][ref_usatm1976]\] \[[defining constants and abbreviated tables][ref_atm_constants]\]. Let $\lambda$ be the temperature lapse rate of a layer in kelvin per metre, $T_0$ and $p_0$ the temperature and pressure at its base in kelvin and pascal, $h_0$ its base altitude in metre, $g_0$ the standard gravity and $R$ the specific gas constant of air in joule per kilogram kelvin. A layer with a lapse rate and an isothermal layer take different forms.
 
 $$ p(h) = p_0 \left( 1 + \frac{\lambda \left( h - h_0 \right)}{T_0} \right)^{-\frac{g_0}{R \lambda}}, \qquad p(h) = p_0 \exp\left( -\frac{g_0 \left( h - h_0 \right)}{R T_0} \right) $$
 
-**The isothermal form is the limit of the other as the lapse rate goes to zero.** The two forms reproduce the published table values at geopotential altitudes of 5, 11, 15, 20, 32 and 47 kilometres to better than two parts in a hundred thousand. The layers are defined in geopotential altitude and the calculation applies them to the trajectory's altitude without conversion, which places each pressure slightly low and lowers the burn-averaged pressure below by 0.05 to 0.12 percent across the profiles. The figures below are computed without the conversion, and no conclusion drawn from them depends on a difference of that size. The lineage of the standard is itself documented \[[the 1976 standard and its predecessors][ref_atm_lineage]\].
+**The isothermal form is the limit of the other as the lapse rate goes to zero.** The two forms reproduce the published table values at geopotential altitudes of 5, 11, 15, 20, 32 and 47 kilometres to better than two parts in a hundred thousand. The layers are defined in geopotential altitude and the calculation applies them to the trajectory's altitude without conversion, which places each pressure slightly low and lowers the burn-averaged pressure below by 0.05 to 0.12 percent across the profiles. The figures below are computed without the conversion, and no conclusion drawn from them depends on a difference of that size. The lineage of the standard is documented as well \[[the 1976 standard and its predecessors][ref_atm_lineage]\].
 
-The natural length in that expression is the scale height, in metre, and it is what sets how quickly the question answers itself.
+The natural length in that expression is the scale height, in metre, and it sets how quickly the question answers itself.
 
 $$ H \equiv -\frac{p}{\mathrm{d}p / \mathrm{d}h} = \frac{R T}{g_0} $$
 
 At sea level that is **8,434.5 metres**, and the lapse rate does not change it there, because the hydrostatic relation makes the local scale height equal to $R T / g_0$ at every altitude, in a layer with a lapse rate as in an isothermal one. What the lapse rate changes is how the scale height varies with altitude, since it varies as the temperature does.
 
-**Across that family the burn-averaged ambient pressure runs from 19.4 to 41.6 percent of sea-level pressure**, and the value for the constant-acceleration case is 28.06 percent. That is the spread the unknown trajectory shape produces, and it is stated rather than hidden behind a single figure.
+**Across that family the burn-averaged ambient pressure runs from 19.4 to 41.6 percent of sea-level pressure**, and the value for the constant-acceleration case is 28.06 percent. The unknown shape of the trajectory produces that spread, and the table below gives it in full.
 
 | Profile exponent | Burn-averaged ambient pressure | As a fraction of sea level | Half the integral collected by |
 |---|---|---|---|
@@ -447,31 +447,31 @@ At sea level that is **8,434.5 metres**, and the lapse rate does not change it t
 | 2.5 | 35,916 pascal | 35.4 percent | 29.4 seconds |
 | 3.0 | 42,178 pascal | 41.6 percent | 34.0 seconds |
 
-One closed form is worth having beside the numbers, because it says what the integral depends on. For an isothermal atmosphere climbed at a constant rate $v$ in metre per second,
+A closed form beside the numbers shows what the integral depends on. For an isothermal atmosphere climbed at a constant rate $v$ in metre per second,
 
 $$ J = \frac{p_0 H}{v}\left[ 1 - \exp\left( -\frac{v t_b}{H} \right) \right] \;\longrightarrow\; \frac{p_0 H}{v} \quad \text{as } v t_b \gg H $$
 
 **The atmospheric penalty of a long burn does not depend on how long the burn is.** Once the vehicle is several scale heights up, the integral has stopped growing, and what remains is sea-level pressure times the scale height divided by the climb rate. **A rocket does not pay for the atmosphere by the second. It pays once, and the bill is set by how fast it left.**
 
-**The more useful number is where the integral is accumulated.** Half of the whole pressure-time integral of a 160 second burn is collected in the first 17.6 to 34.0 seconds, depending on the profile. **The altitude-compensation question is settled in the first fifth of the burn and the remaining four fifths barely vote.** Ambient pressure is at half of its sea-level value by 5.48 kilometres, at a tenth by 16.1 kilometres, at a hundredth by 31.0 kilometres of geopotential altitude, which is 31.1 kilometres geometric, and at cut-off altitude it is two parts in a hundred thousand of sea level. **The atmosphere is effectively gone for the last two thirds of the burn and the nozzle still has to carry the exit area it chose for the first third.**
+**The more useful number is where the integral is accumulated.** Half of the pressure-time integral of a 160 second burn is collected in the first 17.6 to 34.0 seconds, depending on the profile. **The altitude-compensation question is settled in the first 11 to 21 percent of the burn and the remainder barely votes.** Ambient pressure is at half of its sea-level value by 5.48 kilometres, at a tenth by 16.1 kilometres, at a hundredth by 31.0 kilometres of geopotential altitude, which is 31.1 kilometres geometric, and at cut-off altitude it is two parts in a hundred thousand of sea level. **Ambient pressure is below a tenth of sea level for the last 40 to 64 percent of the burn and below a hundredth for the last 25 to 44 percent, depending on the profile, and the nozzle still has to carry the exit area it chose for the denser air before that.**
 
-### What the Spike Buys, on This Trajectory
+### The Gain of an Ideal Spike on This Trajectory
 
-With the trajectory in hand the gain of ideal altitude compensation can be computed rather than asserted. The comparison is a ratio of two integrals of thrust coefficients, so **it requires no dimension of the engine at all**, which is fortunate, because none is public.
+With the trajectory in hand the gain of ideal altitude compensation can be computed. The comparison is a ratio of two integrals of thrust coefficients, so **it requires no dimension of the engine at all**, which is fortunate, because none is public.
 
-The quantity is a ratio of two integrals. Writing $\eta$ for the fractional gain, dimensionless,
+Writing $\eta$ for the fractional gain, dimensionless,
 
 $$ \eta = \frac{\displaystyle\int_{0}^{t_b} C_F^{\star}\left( p_a(t) \right) \mathrm{d}t}{\displaystyle\int_{0}^{t_b} C_F\left( \varepsilon^{\star}, p_a(t) \right) \mathrm{d}t} - 1 $$
 
-**The throat area cancels, the chamber pressure cancels and the mass flow cancels**, which is why a figure for a vehicle whose engine is not public can be quoted at all.
+**The throat area cancels, the chamber pressure cancels and the mass flow cancels**, so a figure can be quoted at all for a vehicle whose engine is not public.
 
-Against the best possible fixed nozzle for this trajectory, chosen by the rule derived above, **an ideal altitude-compensating nozzle delivers between 5.3 and 8.5 percent more first-stage impulse**, across ratios of specific heats from 1.20 to 1.24 and chamber pressures from 3 to 10 megapascal. Against a fixed nozzle matched at sea level, which is the naive choice, **the gain is between 7.8 and 12.5 percent**.
+Against the best possible fixed nozzle for this trajectory, chosen by the rule derived above, **an ideal altitude-compensating nozzle delivers between 5.3 and 8.5 percent more first-stage impulse**, across ratios of specific heats from 1.20 to 1.24 and chamber pressures from 3 to 10 megapascal. Against the naive choice, a fixed nozzle matched at sea level, **the gain is between 7.8 and 12.5 percent**.
 
 Two remarks keep those numbers honest.
 
 **The first is that this is an upper bound and a generous one.** An ideal spike has no truncation loss, no base drag, no wake, no cooling penalty and no extra mass. A real one has all five. What the calculation bounds is the size of the prize and not the size of the win.
 
-**The second is the shape of the optimum, which is more interesting than its value.** The best fixed area ratio for this trajectory is between 2.4 and 2.6 times the sea-level-matched ratio. At a chamber pressure of 6 megapascal and a ratio of specific heats of 1.20, the sea-level-matched nozzle has an area ratio of 7.99 and the trajectory-optimal one has 21.07. **The optimal fixed nozzle is heavily over-expanded at liftoff, because most of the burn happens where the air is thin, and the mean that chooses it is dominated by the seconds when the air is not.**
+**The second is the shape of the optimum, which is more interesting than its value.** The best fixed area ratio for this trajectory is between 2.5 and 2.7 times the sea-level-matched ratio. At a chamber pressure of 6 megapascal and a ratio of specific heats of 1.20, the sea-level-matched nozzle has an area ratio of 7.99 and the trajectory-optimal one has 21.07. **The optimal fixed nozzle is heavily over-expanded at liftoff, because most of the burn happens where the air is thin, and the mean that chooses it is dominated by the seconds when the air is not.**
 
 | Ratio of specific heats | Chamber pressure | Best fixed area ratio | Sea-level-matched area ratio | Gain over the best fixed nozzle | Gain over the sea-level-matched nozzle |
 |---|---|---|---|---|---|
@@ -485,7 +485,7 @@ Two remarks keep those numbers honest.
 | 1.2 | 3.0 megapascal | 12.37 | 4.80 | 8.46 percent | 12.45 percent |
 | 1.2 | 6.0 megapascal | 21.07 | 7.99 | 7.06 percent | 10.29 percent |
 
-### The Second Limit, Which Decides the Design
+### Flow Separation as the Deciding Limit
 
 The mean-in-time rule has a consequence that the usual presentation of altitude compensation never reaches, because the usual presentation stops at the design-point trade.
 
@@ -493,7 +493,7 @@ Recall that the rule sets the exit pressure of the optimal fixed nozzle equal to
 
 $$ \left. \frac{p_e}{p_a} \right|_{t=0} = \frac{\bar{p}_a}{p_{\mathrm{SL}}} = \frac{1}{p_{\mathrm{SL}} t_b} \int_{0}^{t_b} p_a(t) \, \mathrm{d}t $$
 
-**The condition a designer has to satisfy at liftoff is a property of the whole flight and of nothing else.** Not of the engine, not of the propellant, not of the size of the vehicle. For the constant-acceleration model of this vehicle's first stage that fraction is 0.2806, and the calculation returns 0.28064 for the optimal nozzle at every one of the nine combinations of gas and chamber pressure tested. **The invariance is the identity showing itself.**
+**The condition a designer has to satisfy at liftoff depends on the flight alone.** The engine, the propellant and the size of the vehicle do not enter it. For the constant-acceleration model of this vehicle's first stage that fraction is 0.2806, and the calculation returns 0.28064 for the optimal nozzle at every one of the nine combinations of gas and chamber pressure tested. **The invariance is the identity showing itself.**
 
 Now set that against the other thing a nozzle designer has to respect. An over-expanded nozzle does not merely lose thrust. Below some exit-to-ambient pressure ratio the boundary layer separates from the divergent wall, the separation line is unsteady, and the resulting side loads are a structural problem rather than a performance one.
 
@@ -501,19 +501,19 @@ Let $k$ be that threshold ratio, dimensionless, and $\varepsilon_{\mathrm{sep}}$
 
 $$ \frac{p_e}{p_a} \ge k \qquad \Longrightarrow \qquad p_e\left( \varepsilon_{\mathrm{sep}} \right) = k \, p_{\mathrm{SL}} $$
 
-**Both constraints are now conditions on the same quantity**, which is the exit pressure at liftoff. One says it should equal the burn-averaged ambient pressure. The other says it must not fall below $k$ times sea level. **Whether they can both be met is arithmetic, and the arithmetic depends entirely on what $k$ is.**
+**Both constraints now bear on the same quantity**, the exit pressure at liftoff. One says it should equal the burn-averaged ambient pressure. The other says it must not fall below $k$ times sea level. **Whether they can both be met is arithmetic, and the arithmetic depends entirely on what $k$ is.**
 
-#### Where the Threshold Came From, and Who It Belongs To
+#### The Provenance of the Separation Threshold
 
-**The four tenths that secondary accounts quote for the onset of separation has a provenance, and it is not the one the number's ubiquity suggests.** **The primary that compiles the data changes both the attribution and the answer.**
+**The four tenths that secondary accounts quote for the onset of separation has a provenance other than the one the number's ubiquity suggests.** **The primary that compiles the data changes both the attribution and the answer.**
 
-NASA Technical Paper 1207 compiles the available turbulent-flow separation data for over-expanded supersonic nozzles and discusses the correlation techniques \[[Morrisette and Goldberg 1978][ref_tp1207]\]. It gives the attribution that a search of the bibliographic index alone does not yield.
+NASA Technical Paper 1207 compiles the available turbulent-flow separation data for over-expanded supersonic nozzles and discusses the correlation techniques \[[Morrisette and Goldberg 1978][ref_tp1207]\]. It gives the value's history, which a search of the bibliographic index alone does not yield.
 
 > a value of $p_s/p_a$ = 0.4 was used as a separation criteria and is still quoted today, although more recent studies have shown it to be inadequate
 
-The reference it gives for that value is Summerfield, Foster and Swan, in the Journal of Jet Propulsion for 1954 \[[Summerfield, Foster and Swan 1954][ref_summerfield_1954]\], **which this article has not read and cites at second hand, saying so**. **A search of that index for the attribution returns a 1953 paper by Scheller and Bierlein instead**, and **the paper that supplies the attribution also explains the confusion**, because Scheller and Bierlein are the early study that **conflicted** with the others by finding the separation pressure dependent on nozzle divergence angle.
+The paper names no originator for that value. It traces the value to the early studies that found the separation pressure ratio independent of design expansion ratio, divergence angle, ratio of specific heats and gas temperature, among them a 1949 Jet Propulsion Laboratory report by Foster and Cowles, and it names the fourth edition of Sutton and Ross, of 1976, only as an example of a text that still quotes the value \[[Morrisette and Goldberg 1978][ref_tp1207]\]. Summerfield, Foster and Swan, in the Journal of Jet Propulsion for 1954 \[[Summerfield, Foster and Swan 1954][ref_summerfield_1954]\], appear in its reference list among the many experimental studies of separation, **which this article has not read and cites at second hand, saying so**. **A search of that index for the value's origin returns a 1953 paper by Scheller and Bierlein instead** \[[Scheller and Bierlein 1953][ref_separation_1953]\], and **the compiling paper also explains why that pair is not the origin**, because an earlier note by the same authors is the study that **conflicted** with the others by finding the separation pressure dependent on nozzle divergence angle.
 
-**And the four tenths is for the wrong kind of nozzle.** The paper separates its data by nozzle type and says that contoured nozzles, which are `the case of most interest for modern nozzle design`, follow a different correlation from conical ones. For contoured nozzles it fits a second-order curve to the data between separation Mach numbers of 2.4 and 4.5. Let $M_s$ be the Mach number at the separation point, dimensionless, and $p_s$ the wall pressure there, in pascal.
+**And the four tenths is for the wrong kind of nozzle.** The paper separates its data by nozzle type and says that contoured nozzles, which are `the case of most interest for modern nozzle design`, follow a different correlation from conical ones. For contoured nozzles it fits a second-order curve to the data between separation Mach numbers of 2.4 and 4.5 \[[Morrisette and Goldberg 1978][ref_tp1207]\]. Let $M_s$ be the Mach number at the separation point, dimensionless, and $p_s$ the wall pressure there, in pascal.
 
 $$ \frac{p_s}{p_a} = 1.082 - 0.363 M_s + 0.0386 M_s^2 $$
 
@@ -521,9 +521,9 @@ $$ \frac{p_s}{p_a} = 1.082 - 0.363 M_s + 0.0386 M_s^2 $$
 
 **So the old rule is 1.74 times as restrictive at the top of the fitted range and slightly less restrictive at the bottom.** A summary that the contoured correlation tolerates roughly twice the over-expansion everywhere is true nowhere. A nozzle of the area ratios this article is discussing separates well above Mach 3, so the permissive end is the end that applies here, **but the crossing is real.**
 
-One further conclusion of that paper matters here and is worth recording because it licenses something this article does throughout. **No obvious effect of the ratio of specific heats was found** when the data were correlated as separation pressure ratio against separation Mach number. **Sweeping that ratio, as every calculation in this article does, therefore does not move the separation answer.**
+One further conclusion of that paper matters here, because it licenses something this article does throughout. **No obvious effect of the ratio of specific heats was found** when the data were correlated as separation pressure ratio against separation Mach number \[[Morrisette and Goldberg 1978][ref_tp1207]\]. **Sweeping that ratio, as every calculation in this article does, therefore does not move the separation answer.**
 
-#### Applying It to This Nozzle, Which Leaves the Question Open
+#### Applying the Correlation to This Nozzle
 
 The criterion is local rather than a statement about the exit, so the way to use it is to walk the nozzle from throat to exit and find the first station where the wall pressure falls to the criterion value. If that station lies beyond the exit, the flow is attached.
 
@@ -547,51 +547,51 @@ $$ \varepsilon^{\star}\left( p_c \right) = \varepsilon_{\mathrm{sep}}\left( p_c 
 
 **The crossover is at 3.3 to 3.7 megapascal**, across ratios of specific heats from 1.20 to 1.24, and above it the trajectory-optimal nozzle runs attached with between 6.6 and 12.7 percent of margin in area ratio, the extremes being the cases at 6 megapascal with a ratio of specific heats of 1.20 and at 10 megapascal with 1.24 in the table above.
 
-**The chamber pressure recovered from the instability frequency, 2.6 to 8.7 megapascal, straddles that crossover.** So for this engine the question is genuinely open, and which side of it the real nozzle falls on is decided by a number nobody has published.
+**The chamber pressure recovered from the instability frequency, 2.6 to 8.7 megapascal, straddles that crossover.** So for this engine the question is open, and which side of it the real nozzle falls on is decided by a number nobody has published.
 
-**The honest statement is weaker than a flat impossibility and more interesting.** It is not that the bell cannot have the exit area the trajectory wants. **It is that the trajectory wants an exit area within about a tenth of the largest one that will stay attached**, on one side or the other depending on a chamber pressure that is not public. **The optimum is not outside the feasible region. It is pressed against its edge**, and a designer who wanted it would be trading impulse against a separation margin rather than choosing freely.
+**The defensible statement is weaker than a flat impossibility and more interesting.** It does not hold that the bell cannot have the exit area the trajectory wants. **It holds that the trajectory wants an exit area within about a tenth of the largest one that will stay attached**, on one side or the other depending on a chamber pressure that is not public. **The optimum is not outside the feasible region. It is pressed against its edge**, and a designer who wanted it would be trading impulse against a separation margin rather than choosing freely.
 
-Two qualifications hold. **The first is that a separation criterion is a design guideline and not a wall**, which the design monograph for this exact subject states in its own words, saying that prediction methods have shown agreement with experiment in many cases but that `in general predictions are used only as a guide` \[[NASA SP-8120][ref_sp8120]\]. **The second is that an aerospike does not have the constraint at all**, because it has no divergent wall for a boundary layer to separate from. **That second point does not depend on which criterion is used**, and it is the one the programme rests on.
+Two qualifications hold. **The first is that a separation criterion is a design guideline and not a wall**, as the design monograph on this subject states, noting that prediction methods have shown agreement with experiment in many cases but that `in general predictions are used only as a guide` \[[NASA SP-8120][ref_sp8120]\]. **The second is that an aerospike does not have the constraint at all**, because it has no divergent wall for a boundary layer to separate from. **That second point does not depend on which criterion is used**, and the programme rests on it.
 
-**And the monograph supplies a case this article was otherwise describing in the abstract.** The J-2 engine was given a deliberately nonoptimum parabolic contour to raise its exit wall pressure, and was expected to run unseparated at an area ratio of 27 with a chamber pressure of 700 pounds per square inch. A wall-pressure minimum between area ratio 14 and the exit produced unsteady asymmetric separation, worst at startup, and the loads caused thrust-chamber structural failures. **A bolt-on diffuser was developed to stop it in mainstage and restraining arms were attached from the test stand to the nozzle skirt to absorb the loads at ignition** \[[NASA SP-8120][ref_sp8120]\]. **That is what the constraint costs when it is met head on**, and it is why the margin computed above is worth having rather than worth spending.
+**And the monograph supplies a case this article was otherwise describing in the abstract.** The J-2 engine was given a deliberately nonoptimum parabolic contour to raise its exit wall pressure, and was expected to run unseparated at an area ratio of 27 with a chamber pressure of 700 pounds per square inch. A wall-pressure minimum between area ratio 14 and the exit produced unsteady asymmetric separation, worst at startup, and the loads caused thrust-chamber structural failures. **A bolt-on diffuser was developed to stop it in mainstage and restraining arms were attached from the test stand to the nozzle skirt to absorb the loads at ignition** \[[NASA SP-8120][ref_sp8120]\]. **The constraint costs that much when it is met head on**, and the margin computed above is therefore something to preserve.
 
 ### The Three Regimes the Programme Names
 
 The fact sheet names open wake, wake transition and closed wake as the three modes the flight is meant to visit \[[ARISE and Fly][ref_afrl_arise]\]. Those names describe what happens behind a plug that has been cut off short, which every practical aerospike is.
 
-A full-length plug would be long, heavy and hot. **Real ones are truncated**, which leaves a blunt base at the downstream end, and the flow behind that base is the thing the three names classify.
+A full-length plug would be long, heavy and hot. **Real ones are truncated**, which leaves a blunt base at the downstream end, and the three names classify the flow behind that base.
 
 Truncation splits the thrust into two terms, and the split is exact whatever the flow does. Let $F_w$ be the axial force the expanding gas exerts on the wetted surface of the plug in newton, $p_b$ the pressure acting on the exposed base in pascal, and $A_b$ the area of that base in square metre.
 
 $$ F = F_w + p_b A_b $$
 
-**Cutting the plug short removes part of the first term and creates the second.** How much of the loss the second term returns is what the base pressure decides, and the base pressure is what the three regimes are about. **This article can write the decomposition and cannot evaluate it**, because $p_b$ is set by a recirculating turbulent flow and no one-dimensional isentropic model produces one.
+**Cutting the plug short removes part of the first term and creates the second.** The base pressure decides how much of the loss the second term returns, and the three regimes describe that pressure. **This article can write the decomposition and cannot evaluate it**, because $p_b$ is set by a recirculating turbulent flow and no one-dimensional isentropic model produces one.
 
 At low altitude the ambient pressure is high, the plume is squeezed inward against the plug, and the recirculating region behind the truncated base is closed off by the converging flow. That is the **closed wake**. The base sits at a pressure set by the recirculation rather than by the atmosphere, and the pressure acting on it contributes to thrust.
 
-At high altitude the ambient pressure is low, the plume no longer closes behind the base, and the base region is open to the external flow. That is the **open wake**, and in it the base pressure is tied to the ambient pressure. The two regimes are distinguished by which quantity sets the base pressure, and that is the whole of the classification.
+At high altitude the ambient pressure is low, the plume no longer closes behind the base, and the base region is open to the external flow. That is the **open wake**, and in it the base pressure is tied to the ambient pressure. Which quantity sets the base pressure distinguishes the two regimes, and the classification turns on that alone.
 
 $$ p_b \approx p_a \;\; \text{open wake}, \qquad p_b \neq p_a \;\; \text{closed wake} $$
 
-**In the open regime the base contributes nothing the atmosphere does not already take back.** In the closed regime it contributes a pressure the recirculation sets, which may be above or below ambient, and that is the term a truncated spike is designed to keep. **A normal shock stands in the plume at the transition** \[[Giel and Mueller 1975][ref_mach_disc_1975]\] \[[Marsilio 2001][ref_plug_flowfields_2001]\].
+**In the open regime the base contributes nothing the atmosphere does not already take back.** In the closed regime it contributes a pressure the recirculation sets, which may be above or below ambient, and a truncated spike is designed to keep that term. **A normal shock stands in the plume at the transition** \[[Giel and Mueller 1975][ref_mach_disc_1975]\] \[[Marsilio 2001][ref_plug_flowfields_2001]\].
 
-**Between them is a transition, and a transition between two flow topologies is exactly the kind of thing that can be hysteretic, unsteady, or abrupt** \[[Geron and others 2005][ref_wake_transition_2005]\] \[[Mizukaki and Watabe 2016][ref_closed_wake_2016]\] \[[Taylor and Sato 2008][ref_ed_open_wake_2008]\]. That is the reason a flight is needed. A ground test can produce either end state in a vacuum chamber. It cannot produce the passage between them at full scale with a real plume and a real trajectory, which is the sentence the fact sheet makes in its own words.
+**Between them is a transition, and a transition between two flow topologies is the kind of thing that can be hysteretic, unsteady, or abrupt** \[[Geron and others 2005][ref_wake_transition_2005]\] \[[Mizukaki and Watabe 2016][ref_closed_wake_2016]\] \[[Taylor and Sato 2008][ref_ed_open_wake_2008]\]. A flight is needed for that reason. A ground test can produce either end state in a vacuum chamber. It cannot produce the passage between them at full scale with a real plume and a real trajectory, as the fact sheet states.
 
 The published computational and experimental work on truncated plugs reports that thrust lost by cutting the plug short is partly recovered by pressure acting on the exposed base, that bleeding a small secondary flow into the base region recovers more of it, and that the penalty is larger in over-expanded operation than in under-expanded, where it is reported as small \[[Sule and Mueller 1973][ref_truncated_plug_1973]\] \[[Mueller and Sule 1973][ref_base_flow_1973]\] \[[Nasuti and Onofri 2000][ref_inflight_plug_2000]\] \[[Nair, Suryan and Kim 2017][ref_truncation_study_2017]\] \[[Nair, Suryan and Kim 2019][ref_base_bleed_2019]\]. **This article does not compute those quantities.** They depend on the base geometry, the bleed rate and the turbulence of the recirculation, none of which is public for this engine, and a base pressure is not something an isentropic one-dimensional model can be made to yield. The three regimes are named here because the programme names them and because they are what the flight would have measured, not because this article can predict them.
 
-**Truncation and the base flow are the whole of the gap between the ideal spike of the Legendre argument and a real engine**, and they are the reason the 5.3 to 8.5 percent that the gain $\eta$ gives is an upper bound rather than a prediction.
+**Truncation and the base flow account for all of the gap between the ideal spike of the Legendre argument and a real engine**, and they make the 5.3 to 8.5 percent that the gain $\eta$ gives an upper bound and no prediction.
 
 ## Dependent Systems
 
-**The record of the hardware around the nozzle comes from the parent vehicle and not from the X-63A.** The award announcement describes the RS1A as sharing the RS1's turbopumps, thrusters and injectors, and it promises that thrust vector control for the aerospike will be demonstrated \[[AFRL awards agreements under ARISE][ref_arise_award]\]. The subsections below take the steering problem that promise sets for an engine with nothing to gimbal, the parent vehicle's published specification, the chamber geometry that the company's incident report gives away, and what the same report says about feeding many engines through one manifold \[[Flight 2 Static Fire Update][ref_abl_staticfire]\].
+**The record of the hardware around the nozzle comes from the parent vehicle and not from the X-63A.** The award announcement describes the RS1A as sharing the RS1's turbopumps, thrusters and injectors, and it promises that thrust vector control for the aerospike will be demonstrated \[[AFRL awards agreements under ARISE][ref_arise_award]\]. This section takes in turn the steering problem that promise sets for an engine with nothing to gimbal, the parent vehicle's published specification, the chamber geometry that the company's incident report gives away, and what the same report says about feeding many engines through one manifold \[[Flight 2 Static Fire Update][ref_abl_staticfire]\].
 
 ### Steering a Rocket That Has Nothing to Gimbal
 
 The promised thrust vector control sets a problem, because the usual way to steer a rocket is to gimbal the engine, and an annular aerospike is a ring built into the base of the vehicle. **There is nothing to swing.**
 
-What there is instead is the modularity. The propulsion system is many thrusters working as one \[[ARISE and Fly][ref_afrl_arise]\], and thrusters arranged around a ring can be throttled against one another. That is not a new idea. The X-33 was to control its attitude by differentially throttling the two halves of its linear aerospike \[[Hall and Panossian 1999][ref_x33_attitude_1999]\] \[[the same work as a report][ref_x33_attitude_ntrs]\], and the flow of a ring of thrusters expanding onto one plug has been measured \[[Taniguchi 2005][ref_clustered_flow_2005]\].
+Modularity supplies the alternative. The propulsion system is many thrusters working as one \[[ARISE and Fly][ref_afrl_arise]\], and thrusters arranged around a ring can be throttled against one another. The idea has precedent. The X-33 was to control its attitude by differentially throttling the two halves of its linear aerospike \[[Hall and Panossian 1999][ref_x33_attitude_1999]\] \[[the same work as a report][ref_x33_attitude_ntrs]\], and the flow of a ring of thrusters expanding onto one plug has been measured \[[Taniguchi 2005][ref_clustered_flow_2005]\].
 
-The question this article can answer exactly is how much authority the arrangement gives, and the answer has a pleasant form.
+This article can answer exactly how much authority the arrangement gives, and the result has a pleasant form.
 
 Let $N$ be the number of modules, dimensionless, equally spaced around a ring of radius $r$ in metre. Let $F$ be the total thrust in newton, so each module produces $F/N$ when fully open. Let $\tau_k$ be the throttle fraction of module $k$, dimensionless, constrained to lie between $1-\delta$ and $1$, where $\delta$ is the available throttle depth, dimensionless. Let $\theta_k = 2\pi k / N$ be the angular position of module $k$ in radian. The moment the ring can apply about a horizontal axis in the direction $\phi$ is
 
@@ -601,11 +601,11 @@ The unthrottled ring is balanced, and that is an identity rather than an approxi
 
 $$ \sum_{k=0}^{N-1} \cos\left( \theta_k - \phi \right) = 0 \qquad \text{for every } N \ge 2 \text{ and every } \phi $$
 
-**A ring of equally spaced thrusters all wide open applies no moment about any axis**, which is what makes the arrangement usable at all, and subtracting that identity removes the baseline entirely. What is left is the throttle depth acting on the modules in the forward half only. The optimal throttle pattern is bang-bang, every module in the forward half wide open and every module in the rear half closed to its floor, and the moment it produces is
+**A ring of equally spaced thrusters all wide open applies no moment about any axis**. That balance makes the arrangement usable at all, and subtracting the identity removes the baseline entirely. What is left is the throttle depth acting on the modules in the forward half only. The optimal throttle pattern is bang-bang, every module in the forward half wide open and every module in the rear half closed to its floor, and the moment it produces is
 
 $$ \frac{M(\phi)}{F r} = \frac{\delta}{N} \sum_{k} \max\left( \cos\left( \theta_k - \phi \right), \, 0 \right) $$
 
-**The available control moment, normalised by thrust and ring radius, is the throttle depth times the support function of a regular polygon.** That is the whole of it.
+**The available control moment, normalised by thrust and ring radius, is the throttle depth times the support function of a regular polygon.**
 
 ### The Directional Average Is the Throttle Depth Divided by Pi, Exactly
 
@@ -619,13 +619,13 @@ $$ \left\langle \frac{M}{F r} \right\rangle_{\phi} = \frac{\delta}{\pi} $$
 
 **Not asymptotically. Exactly, for every module count from three upward.** Adding modules does not add average control authority at a fixed throttle depth. Averaging numerically over two hundred thousand directions at nine module counts from four to twenty-four returns 0.063661977 at every count, at a throttle depth of two tenths, against $\delta/\pi = 0.063661977$.
 
-**So what does the module count buy?** It buys evenness. The achievable set of moments is a polygon rather than a disc, and an autopilot can only rely on the worst direction.
+**So what does the module count provide?** It provides evenness. The achievable set of moments is a polygon rather than a disc, and an autopilot can only rely on the worst direction.
 
 ### Why Nine Modules Steer More Evenly Than Twelve
 
-The polygon's side count is not the module count, and the difference is the result worth having.
+The polygon's side count is not the module count, and the difference between them is the result of this subsection.
 
-Let $m$ be the number of sides of the achievable moment polygon, dimensionless. The support function is a pure cosine between the directions at which the set of open modules changes, and it changes whenever a module crosses the boundary of the forward half plane. Those directions are exactly these.
+Let $m$ be the number of sides of the achievable moment polygon, dimensionless. The support function is a pure cosine between the directions at which the set of open modules changes, and it changes whenever a module crosses the boundary of the forward half plane. Those directions are the following.
 
 $$ \phi \in \left\{ \theta_k + \frac{\pi}{2} \right\} \cup \left\{ \theta_k - \frac{\pi}{2} \right\}, \qquad k = 0, \dots, N-1 $$
 
@@ -673,11 +673,11 @@ Eight modules give 0.0603553. Nine give 0.0630142. Twelve give 0.0622008. Sixtee
 
 The RS1 first stage from which the X-63A was to be derived carried **nine** engines in its first block and **eleven** in its second \[[ABL Payload User's Guide][ref_abl_pug]\] \[[Flight 2 Static Fire Update][ref_abl_staticfire]\]. **Both counts are odd, and each is the best available below the next even count that beats it.**
 
-**That is almost certainly not why those counts were chosen.** Nine and eleven engines on a first stage are chosen for thrust, for packaging, for engine-out margin and for what the factory can build, and neither the sponsor nor the manufacturer publishes the aerospike variant's module count, although a launch-vehicle reference lists the RS1A first stage as nine E2 aerospike engines \[[RS1, Gunter's Space Page][ref_gunter_rs1]\], which no primary document consulted confirms. What the result says is narrower and still worth saying. **If the ARISE engine's modules are arranged on a ring and steered by differential throttling, then the parity of the count matters more than the count, and the parity the parent vehicle happens to carry is the favourable one.**
+**Those counts were almost certainly not chosen for this reason.** Nine and eleven engines on a first stage are chosen for thrust, for packaging, for engine-out margin and for what the factory can build, and neither the sponsor nor the manufacturer publishes the aerospike variant's module count, although a launch-vehicle reference lists the RS1A first stage as nine E2 aerospike engines \[[RS1, Gunter's Space Page][ref_gunter_rs1]\], which no primary document consulted confirms. The result's claim is narrower, and it still holds. **If the ARISE engine's modules are arranged on a ring and steered by differential throttling, then the parity of the count matters more than the count, and the parity the parent vehicle happens to carry is the favourable one.**
 
-### Losing One, and a Formula That Does Not Apply
+### Losing One Module
 
-The same geometry answers the engine-out question, and the obvious way to answer it is wrong in a way worth stating.
+The same geometry answers the engine-out question, and the obvious way to answer it is instructively wrong.
 
 Lose one module of $N$ and two things happen, and the balance identity above gives both at once. Removing module $j$ from a sum that vanishes leaves minus that module's own term.
 
@@ -685,15 +685,15 @@ $$ \frac{\Delta F}{F} = \frac{1}{N}, \qquad \frac{M_{\mathrm{out}}\left( \phi \r
 
 **The axial thrust falls by one part in $N$, and the unbalanced moment peaks at one part in $N$ as well.** Both penalties are one over the module count and they arrive together.
 
-What the surviving ring can then do is its own support function, taken over the modules that remain rather than over all of them.
+The surviving ring then has the support function of the remaining modules alone.
 
 $$ \frac{M\left( \phi \right)}{F r} = \frac{1}{N}\sum_{k \neq j} \tau_k \cos\left( \theta_k - \phi \right), \qquad \tau_k \in \left[ 0, 1 \right] $$
 
-**That sum is not the intact one with a smaller coefficient.** It is a different sum, missing a term, and the difference is the whole of what follows.
+**That sum is not the intact one with a smaller coefficient.** It is a different sum, missing a term, and the rest of this subsection follows from that difference.
 
-The tempting move is to ask how much authority the ring has left and to answer with the closed form derived above. **That formula is for a regular ring and a ring with a hole in it is not regular.** In some commanded directions the module that would have pushed hardest is precisely the one that failed, so the degraded polygon is not a scaled copy of the intact one. Solving the degraded problem directly, by taking the support function of the surviving modules over their full throttle range, gives numbers that are smaller by factors of **1.15 to 2.62**, and at four modules the discrepancy is total.
+The tempting move is to ask how much authority the ring has left and to answer with the closed form derived above. **That formula is for a regular ring and a ring with a hole in it is not regular.** In some commanded directions the module that would have pushed hardest is the one that failed, so the degraded polygon is not a scaled copy of the intact one. Solving the degraded problem directly, by taking the support function of the surviving modules over their full throttle range, gives numbers that are smaller by factors of **1.15 to 2.62**, and at four modules the discrepancy is total.
 
-**A four-module ring loses all of its guaranteed steering authority when one module fails.** Three modules remain, none of them positioned to push toward the gap, and the support function in that one direction is exactly zero. The intact formula reports 0.25 and the truth is nothing.
+**A four-module ring loses all of its guaranteed steering authority when one module fails.** Three modules remain, none of them positioned to push toward the gap, and the support function in that one direction is exactly zero. The intact formula reports 0.25 where the true figure is zero.
 
 Let $\rho$ be the fraction of guaranteed steering authority that survives the loss of module $j$, dimensionless, taken over the full throttle range so that each module contributes only when it faces the commanded direction. The factor $1/N$ cancels.
 
@@ -712,21 +712,21 @@ The correct figures, as values of $\rho$ from the table below, run as follows. *
 | 16 | 6.25 percent | 0.314209 | 0.251709 | 80.1 percent |
 | 24 | 4.17 percent | 0.316490 | 0.274823 | 86.8 percent |
 
-**Here the parity result reverses.** Odd rings steer more evenly when intact, because their control polygon has twice as many sides. But a failure breaks the symmetry that the parity argument depends on, and after a failure what matters is simply how many modules are left and how finely they surround the gap. **Twelve beats nine on this measure even though nine beats twelve on the other.**
+**Here the parity result reverses.** Odd rings steer more evenly when intact, because their control polygon has twice as many sides. But a failure breaks the symmetry that the parity argument depends on, and what matters after a failure is how many modules are left and how finely they surround the gap. **Twelve beats nine on this measure even though nine beats twelve on the other.**
 
-**The two results are both geometric, both exact, and they point in opposite directions.** An odd ring is the better steering machine and the worse survivor. That is a real design tension rather than a paradox, and it needs no flight to settle.
+**The two results are both geometric, both exact, and they point in opposite directions.** An odd ring is the better steering machine and the worse survivor. The tension is a design tension and no paradox, and it needs no flight to settle.
 
-#### What the Authority Is Worth in Degrees
+#### The Authority as a Gimbal Angle
 
-A moment normalised by thrust and ring radius is hard to compare with anything, so it is worth converting into the quantity a designer of a conventional stage would quote, which is a gimbal angle.
+A moment normalised by thrust and ring radius is hard to compare with anything, so this subsection converts it into the quantity a designer of a conventional stage would quote, which is a gimbal angle.
 
 Let $L$ be the distance from the engine plane to the vehicle's centre of mass in metre and $\alpha$ the equivalent gimbal angle in radian. A gimballed engine deflected by $\alpha$ applies a moment $F L \sin \alpha$, and setting that equal to the ring's directional average gives
 
 $$ \sin \alpha = \frac{\delta}{\pi} \cdot \frac{r}{L} $$
 
-**The ring radius divided by the distance to the centre of mass is a small number on a slender vehicle**, and the throttle depth divided by pi is smaller still. A throttle range of two tenths on a ring whose radius is a quarter of the arm gives an equivalent deflection of **0.91 degrees**. **That is not a substitute for a gimbal and it was never going to be.** What differential throttling buys is attitude control on a vehicle that has nowhere to put a gimbal, at an authority that is adequate for trim and marginal for anything faster.
+**The ring radius divided by the distance to the centre of mass is a small number on a slender vehicle**, and the throttle depth divided by pi is smaller still. A throttle range of two tenths on a ring whose radius is a quarter of the arm gives an equivalent deflection of **0.91 degrees**. **Such a deflection cannot substitute for a gimbal and was never meant to.** Differential throttling offers attitude control on a vehicle that has nowhere to put a gimbal, at an authority that is adequate for trim and marginal for anything faster.
 
-### The Vehicle, and a Table That Does Not Close
+### A Specification Table That Does Not Close
 
 The encyclopedia entry describes the X-63A, the RS1A of the award announcement, as the first-stage core of the two-stage RS1 \[[ABL Space Systems X-63][ref_ds_x63]\]. So the parent vehicle's published specification is the closest thing to a specification the X-63A has.
 
@@ -740,9 +740,9 @@ $$ \frac{133{,}118 - 9 \times 12{,}100}{9 \times 12{,}100} = \frac{24{,}218}{108
 
 Eleven engines at 12,100 pounds force give 133,100, which differs from the stated total by **18 pounds force, or 135 parts per million**. **The total thrust in that table is the eleven-engine number, printed in a row that says nine.**
 
-The company's own incident report of 26 August 2024 settles it without ambiguity. Describing a static fire on 19 July 2024 it says the objective was a thirteen-second firing of **all 11 first stage engines**, that all eleven ignited, and that the vehicle auto-aborted on a low pressure reading from **Engine 10** \[[Flight 2 Static Fire Update][ref_abl_staticfire]\]. **A vehicle with nine engines does not have an Engine 10.** The second block of the RS1 carried eleven, the payload user's guide describes the first block, and one cell of its table was filled in from the wrong vehicle.
+The company's incident report of 26 August 2024 settles it without ambiguity. Describing a static fire on 19 July 2024 it says the objective was a thirteen-second firing of **all 11 first stage engines**, that all eleven ignited, and that the vehicle auto-aborted on a low pressure reading from **Engine 10** \[[Flight 2 Static Fire Update][ref_abl_staticfire]\]. **A vehicle with nine engines does not have an Engine 10.** The second block of the RS1 carried eleven \[[RS1, Gunter's Space Page][ref_gunter_rs1]\], the payload user's guide describes the first block, and one cell of its table was filled in from the wrong vehicle.
 
-**Two other published figures disagree with each other and neither is resolved here.** The award announcement gives the RS1 a maximum payload of 1,200 kilograms \[[AFRL awards agreements under ARISE][ref_arise_award]\], and the launch-vehicle reference gives 1,350 kilograms to low Earth orbit \[[RS1, Gunter's Space Page][ref_gunter_rs1]\]. The larger exceeds the smaller by twelve and a half percent, since $1{,}350/1{,}200 = 1.125$, and both are described as maxima. No source consulted reconciles them.
+**Two other published figures disagree with each other and neither is resolved here.** The award announcement gives the RS1 a maximum payload of 1,200 kilograms \[[AFRL awards agreements under ARISE][ref_arise_award]\], and the launch-vehicle reference gives 1,350 kilograms to low Earth orbit \[[RS1, Gunter's Space Page][ref_gunter_rs1]\], as does the manufacturer's payload user's guide \[[ABL Payload User's Guide][ref_abl_pug]\]. The larger exceeds the smaller by twelve and a half percent, since $1{,}350/1{,}200 = 1.125$, and both are described as maxima. No source consulted reconciles them.
 
 ### What the Fire Gave Away
 
@@ -756,19 +756,19 @@ The first tangential acoustic mode of a cylindrical chamber has a frequency fixe
 
 $$ f_{1T} = \frac{\alpha_{1T} \, c}{\pi D} \qquad \Longrightarrow \qquad D = \frac{\alpha_{1T} \, c}{\pi f_{1T}} $$
 
-**Naming the frequency names the diameter, to within whatever must be assumed about the gas.** The speed of sound follows from the flame temperature, the mean molar mass of the products and the ratio of specific heats, none of which is published either, so all three are swept rather than chosen.
+**Naming the frequency names the diameter, to within whatever must be assumed about the gas.** The speed of sound follows from the flame temperature, the mean molar mass of the products and the ratio of specific heats, none of which is published either, so all three are swept over a range.
 
 $$ c = \sqrt{\frac{\gamma R_u T_c}{\bar{M}}} $$
 
-**That is the frozen speed of sound**, which treats the composition as fixed through the acoustic cycle \[[NASA SP-8124][ref_sp8124]\] \[[NASA SP-8107][ref_sp8107]\]. A real chamber recombines, which raises the effective value, so the diameters below are if anything slightly small. Flame temperatures from 3,200 to 3,800 kelvin, molar masses from 21 to 24 kilogram per kilomole and ratios of specific heats from 1.15 to 1.25 give forty-eight combinations, sound speeds from **1,129 to 1,371 metres per second**, and a chamber diameter of
+**The relation gives the frozen speed of sound**, which treats the composition as fixed through the acoustic cycle \[[NASA SP-8124][ref_sp8124]\] \[[NASA SP-8107][ref_sp8107]\]. A real chamber recombines, which raises the effective value, so the diameters below are if anything slightly small. Flame temperatures from 3,200 to 3,800 kelvin, molar masses from 21 to 24 kilogram per kilomole and ratios of specific heats from 1.15 to 1.25 give forty-eight combinations, sound speeds from **1,129 to 1,371 metres per second**, and a chamber diameter of
 
 **147 to 179 millimetres**, with a midpoint of 163.
 
-Chamber pressure needs two more assumptions, being a contraction ratio and a sea-level thrust coefficient. Let $\sigma$ be the contraction ratio, dimensionless, which is the chamber cross-section divided by the throat. The chain from the diameter to the pressure is two lines, and the second is just the definition of the thrust coefficient rearranged.
+Chamber pressure needs two more assumptions, being a contraction ratio and a sea-level thrust coefficient. Let $\sigma$ be the contraction ratio, dimensionless, which is the chamber cross-section divided by the throat. The chain from the diameter to the pressure is two lines, and the second rearranges the definition of the thrust coefficient.
 
 $$ A_t = \frac{\pi D^2}{4 \sigma}, \qquad p_c = \frac{F}{C_F A_t} = \frac{4 \sigma F}{\pi C_F D^2} $$
 
-**The chamber pressure goes as the inverse square of the diameter**, which is why the recovered band is wide even though the frequency is published to two significant figures. A twenty percent uncertainty in the diameter is a factor of 1.44 in the pressure before any other assumption is made.
+**The chamber pressure goes as the inverse square of the diameter**, so the recovered band is wide even though the frequency is published to two significant figures. A twenty percent uncertainty in the diameter is a factor of 1.44 in the pressure before any other assumption is made.
 
 Sweeping contraction ratios from 2 to 4 and thrust coefficients from 1.45 to 1.65 across the diameter band gives thirty-six combinations and a chamber pressure of **2.6 to 8.7 megapascal**, with a midpoint of 5.67.
 
@@ -778,19 +778,19 @@ Sweeping contraction ratios from 2 to 4 and thrust coefficients from 1.45 to 1.6
 | Chamber diameter | 147 millimetres | 179 millimetres | 48 |
 | Chamber pressure | 2.60 megapascal | 8.74 megapascal | 36 |
 
-**That band was not assumed. It was recovered.** The band assumed on general grounds under What the Spike Buys, on This Trajectory, without reference to the incident report, is 3 to 10 megapascal for a gas-generator kerosene engine of this thrust class. The two overlap over 3 to 8.74 megapascal, and the overlap as a fraction of each band is
+**That band was not assumed. It was recovered.** The band assumed on general grounds under The Gain of an Ideal Spike on This Trajectory, without reference to the incident report, is 3 to 10 megapascal for a gas-generator kerosene engine of this thrust class. The two overlap over 3 to 8.74 megapascal, and the overlap as a fraction of each band is
 
 $$ \frac{8.74 - 3}{8.74 - 2.60} = \frac{5.74}{6.14} = 0.935, \qquad \frac{8.74 - 3}{10 - 3} = \frac{5.74}{7} = 0.820 $$
 
-**which is 93.5 percent of the recovered band and 82.0 percent of the assumed one.** The recovered band does not sit inside the assumed one, because its floor of 2.60 falls below the assumed floor of 3. **Two routes sharing no input landed on nearly the same interval**, and an overlap is what that looks like rather than containment.
+**which is 93.5 percent of the recovered band and 82.0 percent of the assumed one.** The recovered band does not sit inside the assumed one, because its floor of 2.60 falls below the assumed floor of 3. **Two routes sharing no input landed on nearly the same interval**, and agreement of that kind appears as an overlap, without containment.
 
-**The inference is marked as an inference and its weakest links are named.** A thrust chamber is not a plain cylinder, so the mode frequency of a real chamber departs from the textbook value by an amount this article cannot bound. The mode identification is the company's and not this article's. And a contraction ratio has to be guessed before a pressure follows. What is not guessed is the frequency, which is published in a sentence written for an entirely different purpose.
+**The inference is marked as an inference and its weakest links are named.** A thrust chamber is not a plain cylinder, so the mode frequency of a real chamber departs from the textbook value by an amount this article cannot bound. The mode identification is the company's and not this article's. And a contraction ratio has to be guessed before a pressure follows. The frequency is not guessed, being published in a sentence written for an entirely different purpose.
 
-### What the Same Report Says About Building an Engine Out of Many
+### The Same Report on Building an Engine Out of Many
 
-The incident report also quantifies the risk that modularity carries, and it does so against the company's own test history.
+The incident report also quantifies the risk that modularity carries, and it does so against the company's test history.
 
-**Two of eleven engines suffered the instability.** The report says that in more than three hundred prior tests of the E2 the phenomenon had been observed once, and attributes that single occurrence to an unrelated timing anomaly \[[Flight 2 Static Fire Update][ref_abl_staticfire]\].
+**Two of eleven engines suffered the instability.** Inspection found significant erosion of the propellant injectors and liners of Engines 5 and 8, in a pattern the report calls consistent with instability-induced failure. The report also says that in more than three hundred prior tests of the E2 the phenomenon had been observed once, and attributes that single occurrence to an unrelated timing anomaly \[[Flight 2 Static Fire Update][ref_abl_staticfire]\].
 
 Take the historical rate at face value as one in three hundred per engine start. Let $p$ be that per-start probability, dimensionless, and $n$ the number of engines. If the starts were independent, the chance of two or more going unstable would be the binomial tail.
 
@@ -798,11 +798,11 @@ $$ \Pr\left[ X \ge 2 \right] = 1 - \left( 1 - p \right)^{n} - n p \left( 1 - p \
 
 At $p = 1/300$ and $n = 11$ that is **6.0 parts in ten thousand, or about one in 1,669**. The observed rate of two in eleven is **54.5 times** the historical rate, and the expected number of failures at the historical rate is 0.037.
 
-**The company draws the conclusion itself**, that the second block's propellant feed system produced a higher energy start on the vehicle than the test stand ever did. The arithmetic is worth adding because it says how strong that conclusion is. **A rate this far above the record is not something that happens to a batch of eleven.**
+**The company's own leading theory points the same way**, that differences in the second block's propellant feed system produced a higher energy start on the vehicle than on the test stand \[[Flight 2 Static Fire Update][ref_abl_staticfire]\]. The arithmetic adds a measure of how strong that conclusion is. **A rate this far above the record does not happen to a batch of eleven by chance.**
 
-And it points at the thing modularity has to answer for. **A modular engine is many small combustors sharing one manifold**, which is exactly a mechanism for correlating their start transients. The independence the calculation above assumes is the assumption the incident falsified. **Eleven independent chances of a rare failure is a good trade. Eleven correlated chances is not a trade at all**, and the difference between them is a manifold.
+And it points at the thing modularity has to answer for. **A modular engine is many small combustors sharing one manifold**, and a shared manifold is a mechanism for correlating their start transients. The independence the calculation above assumes is the assumption the incident falsified. **Eleven independent chances of a rare failure is a good trade. Eleven correlated chances is not a trade at all**, and the difference between them is a manifold.
 
-The rest of the report is a timeline of a vehicle being lost slowly. Fuel offload began at 4 minutes 20 seconds, liquid oxygen offload at 9 minutes 20 seconds, the mobile water stores ran out at 11 minutes 30 seconds, oxygen and fuel offload capability were lost at 14 minutes 28 and 15 minutes 30, all first-stage telemetry was lost at 20 minutes 43, and at 23 minutes 24 the fire exceeded the thermal capability of the structure and the vehicle buckled onto the pad \[[Flight 2 Static Fire Update][ref_abl_staticfire]\]. The report states plainly that the pad has no direct water supply, and it gives main-stage combustion of about half a second against a planned thirteen. The interval from the water running out to the buckling, and the fraction of the planned firing achieved, are
+The rest of the report is a timeline of a vehicle being lost slowly. Fuel offload began at 4 minutes 20 seconds, liquid oxygen offload at 9 minutes 20 seconds, the mobile water stores ran out at 11 minutes 30 seconds, oxygen and fuel offload capability were lost at 14 minutes 28 and 15 minutes 30, all first-stage telemetry was lost at 20 minutes 43, and at 23 minutes 24 the fire exceeded the thermal capability of the structure and the vehicle buckled onto the pad \[[Flight 2 Static Fire Update][ref_abl_staticfire]\]. The report states that the pad has no direct water supply, and it gives main-stage combustion of about half a second against a planned thirteen. The interval from the water running out to the buckling, and the fraction of the planned firing achieved, are
 
 $$ \left( 23 \times 60 + 24 \right) - \left( 11 \times 60 + 30 \right) = 1404 - 690 = 714 \ \mathrm{s}, \qquad \frac{0.5}{13} = 0.038 $$
 
@@ -834,13 +834,13 @@ It checks out, and the shape of the literature is the interesting part. **The co
 
 **Read down that column and the flight record's absence becomes strange rather than unremarkable.** The subject was worked on through the nineteen sixties and seventies, went quiet in the nineteen eighties, came back in the nineteen nineties with the single-stage-to-orbit programmes, and has published more in the 2020s so far than in any full decade before it. **Seven decades of continuous publication and no flight at the scale of a launch vehicle stage.**
 
-The largest aerospike engine this article's survey documents is the XRS-2200, developed for [the X-33][related_post_a330_lockheed_martin_x33] \[[Rocketdyne XRS-2200][ref_xrs2200]\]. It was assembled \[[Kotake, Jones and Cannon 1999][ref_xrs2200_assembly_1999]\], it was hot-fired on a test stand, its control system and its plume were documented \[[the engine control system][ref_x33_control]\] \[[sea-level plume radiation][ref_xrs2200_plume]\] \[[the programme's engine account][ref_x33_engines]\] \[[risk reduction][ref_x33_risk]\], and **the vehicle it was built for was cancelled before it flew**, NASA announcing on 1 March 2001 that it would add no further funds and that the X-33 programme would end with its cooperative agreement on 31 March \[[X-33, X-34 left behind in NASA Space Launch Initiative][ref_x33_end_2001]\]. Behind it stands a development record reaching back to the demonstrations of the nineteen seventies \[[Huang 1974][ref_aerospike_demo_1974]\] \[[Kirby and Martinez 1977][ref_linear_aerospike_1977]\]. The nearest thing to a flight test of a launch-vehicle aerospike was the Linear Aerospike SR-71 Experiment, which carried a small linear aerospike pod on the back of an SR-71 and flew seven research flights from October 1997 to November 1998. **The pod's engine was hot-fired twice on the ground and never once in the air** \[[the flight test report][ref_lasre_flight]\] \[[stability and control results][ref_lasre_stability]\] \[[hazard mitigation][ref_lasre_hazard]\] \[[the supporting test report][ref_lasre_msfc]\]. Liquid oxygen was cycled through it in flight on three occasions, and the hot-fire flight was abandoned because the apparatus leaked \[[LASRE Project][ref_lasre_factsheet]\].
+The largest aerospike engine this article's survey documents is the XRS-2200, developed for [the X-33][related_post_a330_lockheed_martin_x33] \[[Rocketdyne XRS-2200][ref_xrs2200]\]. It was assembled \[[Kotake, Jones and Cannon 1999][ref_xrs2200_assembly_1999]\], it was hot-fired on a test stand, its control system and its plume were documented \[[the engine control system][ref_x33_control]\] \[[sea-level plume radiation][ref_xrs2200_plume]\] \[[the programme's engine account][ref_x33_engines]\] \[[risk reduction][ref_x33_risk]\], and **the vehicle it was built for was cancelled before it flew**, NASA announcing on 1 March 2001 that it would add no further funds and that the X-33 programme would end with its cooperative agreement on 31 March \[[X-33, X-34 left behind in NASA Space Launch Initiative][ref_x33_end_2001]\]. Behind it stands a development record reaching back to the demonstrations of the nineteen seventies \[[Huang 1974][ref_aerospike_demo_1974]\] \[[Kirby and Martinez 1977][ref_linear_aerospike_1977]\]. The nearest thing to a flight test of a launch-vehicle aerospike was the Linear Aerospike SR-71 Experiment, which carried a small linear aerospike pod on the back of an SR-71 and flew seven research flights from October 1997 to November 1998 \[[LASRE Project][ref_lasre_factsheet]\]. **The pod's engine was hot-fired twice on the ground and never once in the air** \[[the flight test report][ref_lasre_flight]\] \[[stability and control results][ref_lasre_stability]\] \[[hazard mitigation][ref_lasre_hazard]\] \[[the supporting test report][ref_lasre_msfc]\]. Liquid oxygen was cycled through it in flight on three occasions, and the hot-fire flight was abandoned because the apparatus leaked \[[LASRE Project][ref_lasre_factsheet]\].
 
 **Small aerospikes have flown, and the survey holds their reports.** A liquid-propellant aerospike engine had been flight-tested on a university and industry sounding rocket by 2004 \[[Besnard and Garvey 2004][research_besnard_garvey_2004]\], and a multi-chamber liquid oxygen and ethanol aerospike flew later in the same programme \[[Baker et al 2008][research_baker_shibuya_2008]\]. On 30 and 31 March 2004 two ten-foot solid-fuelled rockets with aerospike nozzles, flown by NASA's Dryden Flight Research Center, the Air Force Flight Test Center and the Blacksky Corporation, exceeded Mach 1.5 and 26,000 feet \[[Aerospike Engine Flight Test Successful][ref_dryden_aerospike_2004]\] \[[Bui et al 2005][research_bui_murray_2005]\]. In the standard atmosphere the pressure at 26,000 feet of geometric altitude is 35.6 percent of sea level, so those plumes did expand against a falling ambient pressure, over nearly two thirds of the fall from sea-level pressure that a launch vehicle meets. On 29 October 2024 a five-metre demonstrator, MIRA II, fired a one-kilonewton liquid oxygen and kerosene linear aerospike for three seconds in flight over the Baltic \[[POLARIS Spaceplanes Complete First In-Flight Rocket Engine Ignition][ref_esf_polaris_2024]\] \[[Janardhana 2025][research_janardhana_2025]\]. **None of these engines approached the thrust, the burn time or the trajectory of a launch vehicle stage**, and none measured altitude compensation across the open, transitional and closed wake.
 
-**So the record before ARISE is a concept with six decades of analysis, several pieces of built and successfully fired hardware, one pod carried through the air with cryogenic fluid running through it, and a handful of small aerospikes flown on research and university rockets, none of them on a trajectory representative of a launch.** The fact sheet's claim that ARISE would mark the first representative flight of an aerospike engine after many decades of research and abandoned flight efforts is accurate as stated, and the word representative is what makes it so \[[ARISE and Fly][ref_afrl_arise]\].
+**So the record before ARISE is a concept with sixty-three years of analysis, several pieces of built and successfully fired hardware, one pod carried through the air with cryogenic fluid running through it, and a handful of small aerospikes flown on research and university rockets, none of them on a trajectory representative of a launch.** The fact sheet's claim that ARISE would mark the first representative flight of an aerospike engine after many decades of research and abandoned flight efforts is accurate as stated, and the word representative makes it so \[[ARISE and Fly][ref_afrl_arise]\].
 
-**The reason the gap persisted is visible in this article's own arithmetic.** The prize, the gain $\eta$ computed under What the Spike Buys, on This Trajectory, is between 5.3 and 8.5 percent of first-stage impulse against the best fixed nozzle, and it is computed generously. That is a large number for a launch vehicle, and the rocket equation says how large.
+**This article's arithmetic shows why the gap persisted.** The prize, the gain $\eta$ computed under The Gain of an Ideal Spike on This Trajectory, is between 5.3 and 8.5 percent of first-stage impulse against the best fixed nozzle, and it is computed generously. That is a large number for a launch vehicle, and the rocket equation shows how large.
 
 Let $\Delta v_1$ and $\Delta v_2$ be the ideal velocity increments of the two stages in metre per second, $c_{e,2}$ the effective exhaust velocity of the second stage in metre per second, $m_0$ and $m_f$ the mass of the second stage with its payload at ignition and at burnout in kilogram, $m_p$ the payload mass in kilogram, $w$ a gain in $\Delta v_1$ in metre per second, and $\Delta m_p$ the payload that gain buys in kilogram. The rocket equation is linear in exhaust velocity, so a uniform one percent rise in first-stage effective exhaust velocity raises $\Delta v_1$ by one percent. Holding the second stage's propellant and structure fixed and letting it deliver $w$ less, the rocket equation gives
 
@@ -850,27 +850,27 @@ because both mass ratios exceed one. Taking the staging speed of 2.6 kilometres 
 
 $$ w = 0.01 \, \Delta v_1 \ge 0.01 \times 2{,}600 = 26 \ \mathrm{m/s}, \qquad \frac{26}{3{,}400} = 0.0076, \qquad \frac{26}{3{,}000} = 0.0087 $$
 
-**A percent of first-stage exhaust velocity is therefore worth at least three quarters of a percent of payload**, and more by the two mass ratios, neither of which is published. The spike's gain falls mostly in the dense early seconds, when the vehicle is heaviest, so its share of $\Delta v_1$ is smaller than its share of impulse. It is a small number against the cost of qualifying a new nozzle architecture, and it is a number that a two-stage vehicle can decline to chase by simply putting a big nozzle on the upper stage. **Altitude compensation is worth most to a single-stage vehicle, and single-stage vehicles keep not being built.** The X-33 was one, a single-stage-to-orbit technology demonstrator \[[stability and control results][ref_lasre_stability]\]. The RS1A would have been one, for the duration of a suborbital demonstration.
+**A percent of first-stage exhaust velocity is therefore worth at least three quarters of a percent of payload**, and more by the two mass ratios, neither of which is published. The spike's gain falls mostly in the dense early seconds, when the vehicle is heaviest, so its share of $\Delta v_1$ is smaller than its share of impulse. It is a small number against the cost of qualifying a new nozzle architecture, and a two-stage vehicle can decline to chase it by putting a big nozzle on the upper stage. **Altitude compensation is worth most to a single-stage vehicle, and single-stage vehicles keep not being built.** The X-33 was one, a single-stage-to-orbit technology demonstrator \[[stability and control results][ref_lasre_stability]\] \[[Lockheed Martin X-33][ref_x33]\]. The RS1A would have been one, for the duration of a suborbital demonstration \[[AFRL awards agreements under ARISE][ref_arise_award]\].
 
 ### What Happened to It
 
 The RS1 attempted its first orbital launch on 10 January 2023 from Kodiak and failed 10.87 seconds into flight when the first-stage engines shut down \[[RS1, Gunter's Space Page][ref_gunter_rs1]\]. The second vehicle, an eleven-engine Block 2, was destroyed on the pad on 19 July 2024 in the fire described above \[[Flight 2 Static Fire Update][ref_abl_staticfire]\]. In November 2024 the company announced that it was leaving the commercial launch market \[[RS1, Gunter's Space Page][ref_gunter_rs1]\], and on 19 February 2025 it announced that it would rename itself Long Wall and turn to missile defence and hypersonic test targets \[[ABL Space renamed Long Wall][ref_spacenews_longwall]\].
 
-**No source consulted announces the cancellation of the X-63A.** What the record shows is a company that no longer builds orbital launch vehicles, a three-year agreement signed in December 2019 whose term expired at the end of 2022, and a demonstrator that has not flown. **The inference that the programme is over is this article's own and it is marked as an inference**, because an inference from an absence is the weakest kind and the strength of this one comes only from the number of independent things that would have to be true for it to be wrong.
+**No source consulted announces the cancellation of the X-63A.** What the record shows is a company that no longer builds orbital launch vehicles, a three-year agreement signed in December 2019 whose term expired at the end of 2022, and a demonstrator that has not flown. **The inference that the programme is over is drawn by this article and marked as an inference**, because an inference from an absence is the weakest kind and the strength of this one comes only from the number of independent things that would have to be true for it to be wrong.
 
 ## Comparison With Ground Prediction
 
-**Nothing flew, so flight returned nothing to set beside the ground predictions.** The X-63A did not fly within the three-year agreement that ended in 2022, and no source consulted records a flight since. The predictions therefore stand alone, and this section says where each is argued.
+**Nothing flew, so no flight data exist to set beside the ground predictions.** The X-63A did not fly within the three-year agreement that ended in 2022, and no source consulted records a flight since. The predictions therefore stand alone, and this section says where each is argued.
 
-**The central prediction is this article's own upper bound and not a contractor figure.** It is the gain $\eta$ of an ideal altitude-compensating nozzle over the best fixed nozzle on the published ascent, computed under What the Spike Buys, on This Trajectory. It bounds the prize rather than forecasting the result, because truncation, the base, the wake, cooling and mass all subtract from it. No flight measured the real figure.
+**The central prediction is an upper bound computed here and not a contractor figure.** It is the gain $\eta$ of an ideal altitude-compensating nozzle over the best fixed nozzle on the published ascent, computed under The Gain of an Ideal Spike on This Trajectory. It bounds the prize rather than forecasting the result, because truncation, the base, the wake, cooling and mass all subtract from it. No flight measured the real figure.
 
-**The quantity the flight existed to measure has no ground prediction at all.** The passage between the open wake, the wake transition and the closed wake on a real ascent is set by a base pressure that a one-dimensional model cannot compute, as The Three Regimes the Programme Names explains, and it is what the flight would have supplied.
+**The quantity the flight existed to measure has no ground prediction at all.** The passage between the open wake, the wake transition and the closed wake on a real ascent is set by a base pressure that a one-dimensional model cannot compute, as The Three Regimes the Programme Names explains, and the flight would have supplied it.
 
 **The earlier aerospike record is a ground record as well, at the scale that matters.** The small aerospikes flown on research and university rockets gathered nozzle data on short, low flights \[[Aerospike Engine Flight Test Successful][ref_dryden_aerospike_2004]\], and neither the XRS-2200 nor the Linear Aerospike SR-71 Experiment, both described under Sixty Years of Not Flying at Scale, produced a flight measurement of altitude compensation against which a ground prediction could be checked.
 
-**The one place the record sets test-stand experience beside the vehicle is the parent stage's static fire, and that is still a ground test.** The excess of its instability rate on the vehicle over the stand's history, measured by the binomial relation under What the Same Report Says About Building an Engine Out of Many, is attributed by the company to a higher energy start on the vehicle than the test stand produced. **That is a comparison between a stand and a vehicle on the pad, not between a prediction and a flight.**
+**The record sets test-stand experience beside the vehicle in one place only, the parent stage's static fire, and that too was a ground test.** The excess of its instability rate on the vehicle over the stand's history, measured by the binomial relation under The Same Report on Building an Engine Out of Many, is attributed by the company's leading theory to a higher energy start on the vehicle than the test stand produced \[[Flight 2 Static Fire Update][ref_abl_staticfire]\]. **The comparison is between a stand and a vehicle on the pad, not between a prediction and a flight.**
 
-**The parent vehicle flew once and the flight says nothing about the aerospike**, because the RS1 that failed on 10 January 2023 carried the parent stage and not the aerospike variant.
+**The parent vehicle flew once and the flight reveals nothing about the aerospike**, because the RS1 that failed on 10 January 2023 carried the parent stage and not the aerospike variant \[[RS1, Gunter's Space Page][ref_gunter_rs1]\].
 
 ## What the Data Changed
 
@@ -880,7 +880,7 @@ Four results in this article run against what the subject's usual presentation, 
 
 **The separation constraint decides the design, and its answer depends on which criterion is used.** On the conical-nozzle threshold that secondary accounts quote, the trajectory-optimal fixed nozzle cannot be built at any chamber pressure considered here. On the correlation that NASA Technical Paper 1207 fits to contoured nozzles it is infeasible only below about 3.5 megapascal. **The optimum therefore sits pressed against the limit rather than beyond it.**
 
-**The parity result reverses the expected answer.** The word modular invites the intuition that many small modules steer more finely than few. The directional average is exactly the throttle depth divided by pi at every module count, so finer steering is not what more modules buy, and the thing they do buy depends on whether the count is odd. **Nine modules need twenty even ones to beat them.**
+**The parity result reverses the expected answer.** The word modular invites the intuition that many small modules steer more finely than few. The directional average is exactly the throttle depth divided by pi at every module count, so more modules do not bring finer steering, and what they do bring depends on whether the count is odd. **Nine modules need twenty even ones to beat them.**
 
 **And the regular-ring formula does not survive the loss of a module.** Applying the closed form for a regular ring to a ring with a module missing overstates the surviving authority by up to a factor of 2.62 and, at four modules, by all of it, because a ring with a hole in it is not regular.
 
@@ -1052,15 +1052,15 @@ Textbooks, handbooks, histories, surveys and proceedings of rocket propulsion st
 
 ## Where the Framing Breaks Down
 
-**The ideal spike of this article does not exist and the gap is not small.** A real aerospike is truncated, carries a base, sheds a wake, needs cooling on a surface that faces the plume from the inside, and weighs more per unit of thrust than a bell. **The five to eight percent is the size of the prize and not a prediction of the win**, and the base flow that decides the difference is beyond a one-dimensional isentropic model.
+**The ideal spike of this article does not exist and the gap is not small.** A real aerospike is truncated, carries a base, sheds a wake, needs cooling on a surface that faces the plume from the inside, and carries the extra weight of the spike \[[Aerospike engine][ref_aerospike]\]. **The 5.3 to 8.5 percent bounds the prize and does not predict the win**, and the base flow that decides the difference is beyond a one-dimensional isentropic model.
 
-**The trajectory is a model fitted to two points.** The manufacturer publishes liftoff and cut-off and nothing between them. The pressure-time integral was computed across a family of profiles and the spread reported, but the family is a guess about the shape of a gravity turn and a real ascent is not a power law.
+**The trajectory is a model fitted to two points.** The manufacturer publishes the altitude at liftoff and at cut-off and no altitude between them \[[ABL Payload User's Guide][ref_abl_pug]\]. The pressure-time integral was computed across a family of profiles and the spread reported, but the family is a guess about the shape of a gravity turn and a real ascent is not a power law.
 
-**The module count of the ARISE engine is not published by the programme**, and the one reference that states a count, nine, gives no source, so the parity result is a statement about rings in general and about the parent vehicle's engine count, not about the hardware that was to fly. **If the modules are not arranged on a ring, the result does not apply at all.**
+**The module count of the ARISE engine is not published by the programme**, and the one reference that states a count, nine, gives no source, so the parity result concerns rings in general and the parent vehicle's engine count, not the hardware that was to fly. **If the modules are not arranged on a ring, the result does not apply at all.**
 
-**The chamber recovery rests on three assumed properties and a mode identification that is not this article's.** It is offered as a demonstration that the frequency constrains the geometry, and the width of the band it produces is the honest measure of how much.
+**The chamber recovery rests on five assumed properties and a mode identification that is not this article's.** It is offered as a demonstration that the frequency constrains the geometry, and the width of the band it produces measures how much.
 
-**And the register is not a primary source here.** Both rows are marked as reconstructions by the compiler's own convention, which means the description this article opened with is somebody's careful reading of open sources rather than a government statement. **What is primary is the pair of dates, the pair of contractor names and the fact that two numbers were issued at once.**
+**And the register is not a primary source here.** Both rows are marked as reconstructions by the compiler's convention, which means the description this article opened with is somebody's careful reading of open sources rather than a government statement. **What is primary is the pair of dates, the pair of contractor names and the fact that two numbers were issued at once.**
 
 ## The Source Base
 
@@ -1116,7 +1116,7 @@ Textbooks, handbooks, histories, surveys and proceedings of rocket propulsion st
 
 ### What the Award Record Holds
 
-**The federal award reporting system holds no record of this programme**, for the reason given under The Instrument That Bought It, which is that an other transaction agreement through the Space Enterprise Consortium does not appear where procurement contracts appear.
+**A search of the federal award reporting system finds no record of this programme** under the names it is known by, for the reason given under The Instrument That Bought It, which is that an award made through the Space Enterprise Consortium is administered by the consortium's manager under a base agreement, so a search under the name of the company doing the work need not find it.
 
 ### What This Article Read in Full
 
@@ -1126,7 +1126,7 @@ Textbooks, handbooks, histories, surveys and proceedings of rocket propulsion st
 
 ## Epistemic State
 
-**Facts, taken from primary documents and stated as they appear there.** The two designations, their shared date of 20 April 2022, their sponsor cell, their engines cell and their identical 101-character description come from the register \[[Parsch, DOD 4120.15-L Addendum][ref_mds_addendum]\]. The programme's objectives, the three wake regimes, the modular architecture and the clearance number come from the laboratory's own fact sheet \[[ARISE and Fly][ref_afrl_arise]\]. The December 2019 award date, the three-year term, the other transaction instrument, the scope wording, the promise of thrust vector control and the three quotations come from the award announcement \[[AFRL awards agreements under ARISE][ref_arise_award]\]. The vehicle's dimensions, propellants, cycle, engine counts, thrust figures and reference mission come from the manufacturer's payload user's guide \[[ABL Payload User's Guide][ref_abl_pug]\]. The static fire date, the eleven engines, Engine 10, the 4.5 kilohertz first tangential mode, the erosion of two injectors, the three hundred prior tests and the whole loss timeline come from the manufacturer's incident report \[[Flight 2 Static Fire Update][ref_abl_staticfire]\].
+**Facts, taken from primary documents and stated as they appear there.** The two designations, their shared date of 20 April 2022, their sponsor cell, their engines cell and their identical 101-character description come from the register \[[Parsch, DOD 4120.15-L Addendum][ref_mds_addendum]\]. The programme's objectives, the three wake regimes, the modular architecture and the clearance number come from the laboratory's fact sheet \[[ARISE and Fly][ref_afrl_arise]\]. The December 2019 award date, the three-year term, the other transaction instrument, the scope wording, the promise of thrust vector control and the three quotations come from the award announcement \[[AFRL awards agreements under ARISE][ref_arise_award]\]. The vehicle's dimensions, propellants, cycle, engine counts, thrust figures and reference mission come from the manufacturer's payload user's guide \[[ABL Payload User's Guide][ref_abl_pug]\]. The static fire date, the eleven engines, Engine 10, the 4.5 kilohertz first tangential mode, the erosion of two injectors, the three hundred prior tests and the full loss timeline come from the manufacturer's incident report \[[Flight 2 Static Fire Update][ref_abl_staticfire]\].
 
 **Derivations, which follow from the facts by mathematics and are confirmed numerically.** The affine dependence of thrust on ambient pressure, the conjugacy of ambient pressure and exit area, the Legendre structure of the envelope, the identification of the fixed-nozzle loss as a Bregman divergence, and the rule that the optimal fixed nozzle expands to the burn-averaged ambient pressure are all exact. Central differences reproduce the conjugacy identity in twelve cases to 2.1 parts in a hundred thousand million. One hundred independent optimisations reproduce the mean-in-time rule to 4.2 parts in ten million. A direct directional search reproduces the ring formulae in forty-two cases to below one part in a million million.
 
@@ -1134,11 +1134,11 @@ Textbooks, handbooks, histories, surveys and proceedings of rocket propulsion st
 
 **Inferences, marked as such where they appear.** That the fact sheet's phrase about a launch-to-orbit trajectory means a representative trajectory rather than an orbital flight. That the 133,118 pound force total thrust in a nine-engine row is the eleven-engine figure. That the X-63A programme has ended. That the ARISE engine's modules, if arranged on a ring, would obey the parity result. **None of these is stated as a fact anywhere in this article and each is reversible by one document.**
 
-**Two conflicts in the sources are recorded and not resolved.** The maximum payload of the RS1 is given as 1,200 kilograms in the award announcement and 1,350 kilograms in the launch-vehicle reference. And the programme is named a suborbital experiment while its own fact sheet describes a launch-to-orbit trajectory.
+**Two conflicts in the sources are recorded and not resolved.** The maximum payload of the RS1 is given as 1,200 kilograms in the award announcement and 1,350 kilograms in the launch-vehicle reference \[[AFRL awards agreements under ARISE][ref_arise_award]\] \[[RS1, Gunter's Space Page][ref_gunter_rs1]\]. And the programme is named a suborbital experiment while its own fact sheet describes a launch-to-orbit trajectory \[[ARISE and Fly][ref_afrl_arise]\].
 
-**One accounting rule governs the register's officiality counts.** The markup has three states, so the counts under The Register Says the Same Thing Twice are given as three numbers, since a two-number summary must misplace the partly marked row.
+**One accounting rule governs the register's officiality counts.** The markup has three states, so the counts under The Register and Its Unofficial Wording are given as three numbers, since a two-number summary must misplace the partly marked row.
 
-**One dateline limit.** The encyclopedia entry cited for the X-63A's history carries a revision date of 17 December 2025, which is nine days after this article's date. Every statement drawn from it concerns events well before that, and the inference about cancellation is made here in this article's own voice rather than adopted from it. **The page's earlier state was not retrievable from the web archive**, and that is a limit rather than a resolution.
+**One dateline limit.** The encyclopedia entry cited for the X-63A's history carries a revision date of 17 December 2025, which is nine days after this article's date \[[ABL Space Systems X-63][ref_ds_x63]\]. Every statement drawn from it concerns events well before that, and the inference about cancellation is made here independently of it. **The page's earlier state was not retrievable from the web archive**, and the gap is recorded as a limit and left unresolved.
 
 **What is not known and would change things.** The module count and arrangement of the ARISE engine, beyond one unsourced reference's count of nine. The chamber pressure and area ratio of the aerospike as designed. Whether any hardware was built. The dollar value of either agreement. And whether the X-64A, which shares every word of its description with this one, ever reached a different stage.
 
@@ -1156,15 +1156,15 @@ Textbooks, handbooks, histories, surveys and proceedings of rocket propulsion st
 
 **Two X numbers were issued on one day with one description, and the description does not say which vehicle is which.**
 
-The thing both were built to fly is older than almost everyone working on it and has never flown at the scale of a launch vehicle. This article's account of why is that the prize is real, bounded and awkwardly sized. **An ideal altitude-compensating nozzle is worth between 5.3 and 8.5 percent of first-stage impulse on this vehicle's own published trajectory**, measured by the gain $\eta$ against the best fixed nozzle that trajectory admits, and that is a large number for a launch vehicle and a small one against the cost of a new nozzle architecture.
+The thing both were built to fly is older than almost everyone working on it and has never flown at the scale of a launch vehicle. This article's account of why is that the prize is real, bounded and awkwardly sized. **An ideal altitude-compensating nozzle is worth between 5.3 and 8.5 percent of first-stage impulse on this vehicle's published trajectory**, measured by the gain $\eta$ against the best fixed nozzle that trajectory admits. The figure is large for a launch vehicle and small against the cost of a new nozzle architecture.
 
 **The mathematics is tidier than the hardware.** Thrust is affine in ambient pressure with slope minus the exit area. The incremental vacuum thrust from an increment of exit area is exactly the exit pressure, which makes ambient pressure and exit area conjugate variables. **The ideal spike's thrust curve is the Legendre transform of the vacuum thrust, every fixed nozzle is one of its tangent lines, and the loss of a fixed nozzle is a Bregman divergence.** From the same identity comes the design rule, which is that **the optimal fixed nozzle expands to the time-averaged ambient pressure of its own flight**, a statement containing nothing about the gas, the engine or the vehicle.
 
-**And that rule is what makes the case, though less loudly than a flat separation criterion would suggest.** Because half of the pressure-time integral $J$ is collected in the first fifth of the burn, the rule places the optimal nozzle at an exit-to-ambient ratio at liftoff equal to the burn-averaged fraction of sea-level pressure, which is 0.2806 for the central case of The Second Limit, Which Decides the Design.
+**And that rule makes the case, though less loudly than a flat separation criterion would suggest.** Because half of the pressure-time integral $J$ is collected in the first 11 to 21 percent of the burn, the rule places the optimal nozzle at an exit-to-ambient ratio at liftoff equal to the burn-averaged fraction of sea-level pressure, which is 0.2806 for the central case of Flow Separation as the Deciding Limit.
 
-**Whether that separates depends on which criterion is used.** Under the correlation that NASA Technical Paper 1207 fits to contoured nozzles, rather than the flat four tenths of 1954 that it calls inadequate, **the trajectory optimum separates only below about 3.5 megapascal of chamber pressure**, and the pressure recovered for this engine from its own instability frequency straddles that figure. **So the optimum is within about a tenth of the largest exit area a bell can carry attached**, which is a real constraint pressed hard rather than an impossibility, **and an aerospike does not have it at all because it has no divergent wall for a boundary layer to leave.**
+**Whether that separates depends on which criterion is used.** Under the correlation that NASA Technical Paper 1207 fits to contoured nozzles, rather than the flat four tenths of the early studies that it calls inadequate, **the trajectory optimum separates only below about 3.5 megapascal of chamber pressure**, and the pressure recovered for this engine from its own instability frequency straddles that figure. **So the optimum is within about a tenth of the largest exit area a bell can carry attached**, a real constraint pressed hard, short of an impossibility, **and an aerospike does not have it at all because it has no divergent wall for a boundary layer to leave.**
 
-**The other half of the programme yields a second exact result and it points the other way.** Differential throttling of a ring of modules gives a directional average authority of exactly the throttle depth divided by pi, at every module count from three upward, so more modules buy evenness rather than authority. **The evenness depends on parity, because an odd ring has no diametrically opposite pair and its control polygon therefore has two sides per module instead of one.** Nine modules steer as evenly as eighteen and better than any even count below twenty. **After a failure the ranking reverses**, because a failure breaks the symmetry the parity argument rests on, and then what matters is only how many are left.
+**The other half of the programme yields a second exact result and it points the other way.** Differential throttling of a ring of modules gives a directional average authority of exactly the throttle depth divided by pi, at every module count from three upward, so more modules improve evenness rather than authority. **The evenness depends on parity, because an odd ring has no diametrically opposite pair and its control polygon therefore has two sides per module instead of one.** Nine modules steer as evenly as eighteen and better than any even count below twenty. **After a failure the ranking reverses**, because a failure breaks the symmetry the parity argument rests on, and then what matters is only how many are left.
 
 **The programme did not fly.** The first vehicle of the parent design failed 10.87 seconds after liftoff, the second burned on the pad while the water ran out, and the company renamed itself and went into missile defence. The register still carries both numbers, side by side, with the same hundred and one characters against each. **Nothing in it records that the two rows were ever anything but equal.**
 

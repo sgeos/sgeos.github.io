@@ -15,7 +15,7 @@ series_index: 27
 
 The [Schweizer SGS 2-32][ref_sgs_2_32] is a two-seat sailplane of 1962, built in Elmira, New York, sold to
 soaring clubs, and about as far from a research aeroplane as an aircraft can be.
-**The United States military bought it twice, gave it the same X-designation both times, and used it for two purposes that have nothing whatever to do with each other.**
+**The United States military took it up twice, gave it the [same X-designation][ref_x26] both times, and used it for two purposes that have nothing to do with each other.**
 This article is the twenty-seventh in the [X-Planes series][related_post_a297_xplanes_framing], following
 the [X-1][related_post_a298_bell_x1], the [X-2][related_post_a299_bell_x2], the
 [X-3][related_post_a300_douglas_x3], the [X-4][related_post_a301_northrop_x4], the
@@ -32,11 +32,11 @@ the [X-1][related_post_a298_bell_x1], the [X-2][related_post_a299_bell_x2], the
 [X-25][related_post_a322_bensen_x25].
 
 As the [X-26A][ref_navair_x26a] it was flown unmodified at the [Naval Test Pilot School][ref_usntps] to
-teach student test pilots what [adverse yaw][ref_adverse_yaw] feels like. As the X-26B it was the QT-2, for Quiet Thruster, a
+teach student test pilots what [adverse yaw][ref_adverse_yaw] feels like. As the X-26B it was the [QT-2][ref_x26], for Quiet Thruster, a
 silenced engine and a slow-turning propeller wrapped around the same airframe, flown over the Mekong Delta
-at night in 1968 to watch the ground without being heard.
+[at night in 1968][ref_polmar_2017] to watch the ground without being heard.
 
-The whole designation, both halves of it, is [X-26][ref_x26].
+Both share a single designation, [X-26][ref_x26].
 
 **One of those programmes wanted the aircraft's worst handling trait to be as obvious as possible. The other wanted the aircraft to be as close to absent as possible.**
 They are opposite requirements and they were met by the same airframe,
@@ -67,22 +67,23 @@ barely working can be silenced.
 ## Programme Origin
 
 [Schweizer Aircraft][ref_schweizer_aircraft] of Elmira built sailplanes for the American soaring market from
-the 1930s. The SGS 2-32 was its high-performance two-seater, and by the standards of production sailplanes
+the 1930s. The SGS 2-32 was its [high-performance two-seater][ref_sgs_2_32], and by the standards of production sailplanes
 it was large, heavy and very clean.
 
-**The Navy's problem was pedagogical.** Student test pilots arriving at [Patuxent River][ref_patuxent] came
-from tactical aircraft and mostly had no glider time. Yaw-roll coupling, and the [Dutch
-roll][ref_dutch_roll] mode it feeds, is a phenomenon every one of them would meet, and meeting it for the
-first time in a jet is both uninformative and dangerous.
-**The school wanted an aircraft that exhibited the same physics slowly.** Four were ordered as the X-26A.
+**The Navy's problem was pedagogical.** Yaw-roll coupling, and the [Dutch roll][ref_dutch_roll] mode it
+feeds, is a phenomenon every student test pilot at [Patuxent River][ref_patuxent] would meet, and
+conventional jet trainers presented it [too quickly and too dangerously for effective
+instruction][book_jenkins_landis_miller_2003].
+**The school wanted an aircraft that exhibited the same physics slowly.** Four were [ordered as the
+X-26A][ref_x26].
 
-**The Army's problem was operational and arrived later.** Night observation over the Delta required an
-aircraft that could loiter low without announcing itself, and the [specification][ref_yo3a] asked for
-acoustic undetectability at 1,500 feet. Lockheed Missiles and Space Company took two X-26A airframes, serials
+**The Army's problem was operational.** Night observation over the [Delta][ref_polmar_2017] required an
+aircraft that could loiter low without announcing itself, and the Army [specification][ref_yo3a] to which
+the production YO-3A was later designed asked for acoustic undetectability at 1,500 feet. Lockheed Missiles and Space Company took two X-26A airframes, serials
 67-15345 and 67-15346, and rebuilt them as the QT-2, which in its Prize Crew form became the
 [QT-2PC][ref_x26].
 
-**Neither programme was a Schweizer initiative and neither aircraft was developed as a research vehicle.**
+**Neither programme was a [Schweizer initiative][ref_polmar_2017] and neither aircraft was developed as a research vehicle.**
 
 ## The Vehicles
 
@@ -95,7 +96,7 @@ acoustic undetectability at 1,500 feet. Lockheed Missiles and Space Company took
 | Propeller | none | four-blade wooden, on an extension shaft |
 | Number | four ordered, with replacements | two converted |
 
-**Specifications of the airframe both share**, from the sailplane record.
+**Specifications of the airframe both share**, from the [sailplane][ref_sgs_2_32] and [X-26A][ref_x26] records.
 
 | Quantity | Value |
 |---|---|
@@ -107,12 +108,11 @@ acoustic undetectability at 1,500 feet. Lockheed Missiles and Space Company took
 | Best glide ratio | 35 at 55.9 mph |
 | Minimum sink | 124 ft/min |
 
-**Three of the four X-26A airframes were lost and replaced**, which for a docile sailplane operated by a
-test pilot school is worth noting instead of passing over, and is returned to under Where the Framing Breaks
-Down.
+**Three of the four X-26A airframes were [lost and replaced][book_jenkins_landis_miller_2003]**. For a docile sailplane operated by a test pilot
+school that record deserves attention, and Where the Framing Breaks Down returns to it.
 
 **The X-26A outlasted almost every other aircraft in this series.** It remained in service at the Test Pilot
-School for decades after the X-25, the X-24 and the rest had been retired to museums, because the phenomenon
+School [for decades][book_jenkins_landis_miller_2003] after the X-25, the X-24 and the rest had been retired, because the phenomenon
 it demonstrates did not change and neither did the cheapest way to demonstrate it.
 
 ## Sizing From First Principles
@@ -124,10 +124,10 @@ that lift itself creates,
 
 $$C_D = C_{D_0} + \frac{C_L^2}{\pi e A}$$
 
-**The second term is the common root of both halves of this article.** It is what makes the lift-to-drag
+**The second term is the common root of the article's two subjects.** It is what makes the lift-to-drag
 ratio high, because it falls as aspect ratio rises.
-**And it is what makes a rolling wing drag asymmetrically**, which is the adverse yaw the Naval Test Pilot
-School wanted to demonstrate. Induced drag as a subject is [Sibert 1943][research_sibert_1943], [Deyoung and Harper
+**It also makes a rolling wing drag asymmetrically**, and that asymmetry is the adverse yaw the Naval Test
+Pilot School wanted to demonstrate. The literature of induced drag includes [Sibert 1943][research_sibert_1943], [Deyoung and Harper
 1948][research_deyoung_harper_1948], [Jones 1950, The spanwise distribution of lift][research_jones_1950],
 [Morton 1956][research_morton_1956], [Nonweiler 1960][research_nonweiler_1960], [Harry and Trobaugh 1966][research_harry_trobaugh_1966], [Loth and Boyle 1969][research_loth_boyle_1969], [Hancock 1972][research_hancock_1972], [Mamada and Ando 1974][research_mamada_ando_1974], [Sears 1974][research_sears_1974], [Haftka 1977][research_haftka_1977],
 [Lundry 1977][research_lundry_1977], [Kida and Miyai 1978][research_kida_miyai_1978], [Pao and Lan 1978][research_pao_lan_1978], [Deyoung 1979][research_deyoung_1979],
@@ -146,26 +146,26 @@ $$A = \frac{b^2}{S} = \frac{(57.125)^2}{180} = 18.1$$
 
 $$\left( \frac{L}{D} \right)_{max} = \frac{1}{2} \sqrt{\frac{\pi (0.90)(18.1)}{0.012}} = 32.7$$
 
-against a quoted 35, which is agreement to within seven percent from geometry alone, and the lift
+against a quoted 35, an agreement to within seven percent from geometry alone, and the lift
 coefficient at which it occurs is
 
 $$C_L^{\ast} = \sqrt{\pi (0.90)(18.1)(0.012)} = 0.784$$
 
-**The quoted numbers agree with the relation once each is paired with the weight it belongs to.** The
+**The quoted numbers agree with the relation once each is paired with the correct weight.** The
 best-glide speed is the speed at which the wing flies at $C_L^{\ast}$, with sea-level density
 $\rho = 0.0023769$ slug per cubic foot,
 
 $$V_{bg} = \sqrt{\frac{2 (W/S)}{\rho \, C_L^{\ast}}}, \qquad V_{bg}\big|_{7.94} = \sqrt{\frac{2 (7.94)}{(0.0023769)(0.784)}} = 92.3 \, \text{ft/s} = 62.9 \, \text{mph}, \qquad V_{bg}\big|_{6.0} = 80.2 \, \text{ft/s} = 54.7 \, \text{mph}$$
 
 At the 1,430 pound gross weight, a wing loading of 7.94 pounds per square foot, that is 62.9 miles per hour
-against a quoted 55.9, which is 13 percent adrift. The same sources quote a wing loading of 6.0 pounds per
-square foot, which over 180 square feet is 1,080 pounds and not the gross weight at all.
-**At that lighter weight the relation gives 54.7 miles per hour against the quoted 55.9, which is agreement to two percent.**
-The quoted performance is a one-pilot number, so the discrepancy at gross weight comes from pairing it with
+against a quoted 55.9, or 13 percent adrift. The same sources quote a [wing loading of 6.0 pounds per
+square foot][ref_sgs_2_32], which over 180 square feet is 1,080 pounds, well short of the gross weight.
+**At that lighter weight the relation gives 54.7 miles per hour against the quoted 55.9, agreeing to two percent.**
+The quoted performance therefore appears to be a one-pilot number, so the discrepancy at gross weight comes from pairing it with
 the wrong weight rather than from the aircraft.
 
-The wing itself, and what a large aspect ratio buys and costs, is the induced-drag literature cited above,
-and the sailplane literature it belongs to is [Lippisch 1930][research_lippisch_1930], [Turner 1942][research_turner_1942], [Klemin and Walling 1943][research_klemin_walling_1943], [Shenstone 1946][research_shenstone_1946], [The Sailplane as a meteorological probe 1948][research_the_sailplane_1948], [Johnson 1949][research_johnson_1949], [Wiggi 1949][research_wiggi_1949], [Yates 1949][research_yates_1949], [Reussner 1950][research_reussner_1950],
+The wing, and what a large aspect ratio buys and costs, falls within the induced-drag work already cited,
+and the sailplane literature on it includes [Lippisch 1930][research_lippisch_1930], [Turner 1942][research_turner_1942], [Klemin and Walling 1943][research_klemin_walling_1943], [Shenstone 1946][research_shenstone_1946], [The Sailplane as a meteorological probe 1948][research_the_sailplane_1948], [Johnson 1949][research_johnson_1949], [Wiggi 1949][research_wiggi_1949], [Yates 1949][research_yates_1949], [Reussner 1950][research_reussner_1950],
 [Raspet 1952][research_raspet_1952], [Reussner 1953][research_reussner_1953], [Brown 1954][research_brown_1954], [MacCready 1962][research_maccready_1962], [McMasters and Palmer 1975][research_mcmasters_palmer_1975], [Pierson 1977][research_pierson_1977], [Bennett 1978][research_bennett_1978],
 [McMasters 1979][research_mcmasters_1979], [Muser 1979][research_muser_1979], [Pierson and Chen 1979,
 Minimum Altitude-Loss Soaring in][research_pierson_chen_1979], [Pierson and Chen 1979][research_pierson_chen_1979_2], [Sliwa and Sliwa 1979][research_sliwa_sliwa_1979],
@@ -184,23 +184,23 @@ $$\Delta \alpha = \frac{p \, y}{V}$$
 **That changes the local lift, and through the polar above it changes the local induced drag**, upward on
 the descending wing and downward on the ascending one.
 **Integrating a spanwise load distribution to get a force is the oldest machinery in the subject**,
-descending from lifting-line theory and the downwash it predicts, in the induced-drag literature cited
-above. Integrating the asymmetry across an elliptically loaded
+descending from lifting-line theory and the downwash it predicts, and the induced-drag papers under The
+One Relation develop it. Integrating the asymmetry across an elliptically loaded
 span gives the classical result,
 
 $$C_{n_p} = -\frac{C_L}{8}$$
 
-**The minus sign is the entire subject.** The wing that is rising carries more induced drag, so the
+**The minus sign is the crux.** The wing that is rising carries more induced drag, so the
 aeroplane yaws away from the direction of roll.
 
-**Everything the article says about teaching follows from the lift coefficient sitting in that numerator.**
+**The argument about teaching follows from the lift coefficient sitting in that numerator.**
 The adverse yaw is proportional to $C_L$, and $C_L$ is inversely proportional to the square of the speed,
 
 $$C_L = \frac{2 (W/S)}{\rho V^2}$$
 
-so **a slow aeroplane on a big wing produces a great deal of it**. The relation between the induced yawing and rolling moments of a wing goes back to [Munk 1925][research_munk_1925], the effect of the adverse yawing moment on lateral manoeuvrability at a high lift coefficient was measured in [Fehlner 1942][research_fehlner_1942], and the period's lateral control research is summarised in [Weick and Jones 1937][research_weick_jones_1937]. The yawing moment due to rolling is treated in [Johnson and Sternfield 1948][research_johnson_sternfield_1948] and [Martina 1953][research_martina_1953], and the roll response it competes with is measured in [Bennett and Johnson 1947][research_bennett_johnson_1947] and set against roll control power in the landing approach in [Hall and Boothe 1972][research_hall_boothe_1972]. The rest of this literature is gathered in the clusters on lateral control, ailerons and adverse yaw and on lateral-directional stability, roll damping and coupling below. The standard developments of the derivative machinery are [Etkin and Reid on flight dynamics][book_etkin_reid_1996] and, contemporary with the aircraft, [Perkins and Hage][book_perkins_hage_1949]. The account written for the pilots who would fly it is [Hurt's aerodynamics for naval aviators][book_hurt_1965].
+so **a slow aeroplane on a big wing produces a great deal of it**. The relation between the induced yawing and rolling moments of a wing goes back to [Munk 1925][research_munk_1925], the effect of the adverse yawing moment on lateral manoeuvrability at a high lift coefficient was measured in [Fehlner 1942][research_fehlner_1942], and the period's lateral control research is summarised in [Weick and Jones 1937][research_weick_jones_1937]. The yawing moment due to rolling is treated in [Johnson and Sternfield 1948][research_johnson_sternfield_1948] and [Martina 1953][research_martina_1953], and the roll response it competes with is measured in [Bennett and Johnson 1947][research_bennett_johnson_1947] and set against roll control power in the landing approach in [Hall and Boothe 1972][research_hall_boothe_1972]. Further records appear in the survey clusters on lateral control, ailerons and adverse yaw and on lateral-directional stability, roll damping and coupling. The standard developments of the derivative machinery are [Etkin and Reid on flight dynamics][book_etkin_reid_1996] and, contemporary with the aircraft, [Perkins and Hage][book_perkins_hage_1949]. The account written for the pilots who would fly it is [Hurt's aerodynamics for naval aviators][book_hurt_1965].
 
-### The Magnitude and the Rate, Which Both Help
+### The Magnitude and the Rate
 
 During a steady roll at helix angle $pb/2V$ the yawing moment coefficient is
 
@@ -217,7 +217,7 @@ $$C_{l_{\delta_a}} \delta_a + C_{l_p} \frac{pb}{2V} = 0 \quad \Longrightarrow \q
 
 **There is no speed in that expression and no span either.** The helix angle is fixed by the aileron power
 and the roll damping, both of which are shape properties, and both of which the period measured directly in
-tunnels and in flight, in the roll-response literature cited above. The roll rate therefore
+tunnels and in flight, as in the roll-response papers of the previous subsection. The roll rate therefore
 follows,
 
 $$p = \frac{pb}{2V} \cdot \frac{2V}{b}$$
@@ -239,19 +239,19 @@ Taking the X-26A at 60 miles per hour and a generic jet trainer at 300, with **e
 | Roll rate, deg/s | 10.6 | 180 |
 | Time to 45 degrees of bank, s | 4.25 | 0.25 |
 
-**The sailplane shows the student four and a half times as much sideslip and takes seventeen times as long to do it.** The directional-stability side of that is set out in [Price 1943][research_price_1943] and [Baker 1948][research_baker_1948], measured in flight in [Crane and Reeder 1945][research_crane_reeder_1945] and examined for its sensitivity to the derivatives in [Stengel 1980][research_stengel_1980], and the coupled behaviour is treated in [Davis 1957][research_davis_1957], [Butler 1976][research_butler_1976_2] and [Velger and Shinar 1983][research_velger_shinar_1983]. The rest is gathered in the cluster on lateral-directional stability, roll damping and coupling below.
+**The sailplane shows the student four and a half times as much sideslip and takes seventeen times as long to do it.** The directional-stability side of that is set out in [Price 1943][research_price_1943] and [Baker 1948][research_baker_1948], measured in flight in [Crane and Reeder 1945][research_crane_reeder_1945] and examined for its sensitivity to the derivatives in [Stengel 1980][research_stengel_1980], and the coupled behaviour is treated in [Davis 1957][research_davis_1957], [Butler 1976][research_butler_1976_2] and [Velger and Shinar 1983][research_velger_shinar_1983].
 
-### An Index, and the Term It Cannot Omit
+### An Observability Index
 
 Multiplying the two effects gives a rough index of how observable the phenomenon is, which comes out at
 **seventy-five**. Written as a scaling,
 
 $$\beta \, t \propto \frac{(W/S) \, b}{V^3 C_{n_\beta}}$$
 
-**The helix angle cancels out of that expression entirely**, which is not obvious and is worth saying,
-because it means the comparison does not depend on how powerful the ailerons are.
+**The helix angle cancels out of that expression**, which is not obvious. It means the comparison
+does not depend on how powerful the ailerons are.
 **Without the directional stiffness this scaling disagrees with the worked cases by exactly a factor of two**,
-which is the ratio of the two aircraft's assumed $C_{n_\beta}$, so the stiffness is an essential term and
+the ratio of the two aircraft's assumed $C_{n_\beta}$, so the stiffness is an essential term and
 not a refinement.
 
 ### How Slowly the Demonstration Could Be Flown
@@ -261,15 +261,15 @@ not a refinement.
 $$V_{stall} = \sqrt{\frac{2 (W/S)}{\rho \, C_{L_{max}}}}$$
 
 **This cannot be predicted, because the maximum lift coefficient is not known**, and what a given section
-will actually reach is a measured quantity and not a derived one, in the induced-drag and sailplane
-literature cited above. The relation is therefore inverted instead. The
+will reach is found by measurement, the approach the induced-drag and sailplane studies take. The
+relation is inverted instead. The
 quoted 46 mile per hour stall implies
 
 $$C_{L_{max}} = \frac{2 (W/S)}{\rho V_{stall}^2} = 1.11$$
 
 at the light weight, or 1.47 at gross.
-**The first is an entirely ordinary value for an unflapped sailplane section and the second is high for one**,
-which is a third piece of evidence that the quoted performance figures belong to the lighter aircraft,
+**The first is an ordinary value for an unflapped sailplane section and the second is high for one**,
+so a third piece of evidence points to the lighter aircraft as the basis of the quoted performance figures,
 agreeing with what the glide speed already suggested.
 
 Taking the light-weight value, the 60 mile per hour training case sits about thirty percent above the stall,
@@ -278,12 +278,12 @@ sideslip scales as $C_L$ and therefore as $1/V^2$, so
 
 $$\frac{V}{V_{stall}} = \frac{60}{46} = 1.30, \qquad \frac{\beta_{stall}}{\beta_{60}} = \left( \frac{60}{46} \right)^2 = 1.70$$
 
-Flown at the stall itself the sideslip would be about seventy percent larger, and unrecoverable inattention
+Flown at the stall the sideslip would be about seventy percent larger, and unrecoverable inattention
 would cost rather more than a lesson.
 
 **Neither aircraft is more badly behaved than the other in any dimensionless sense.** They are the same
-physics. The sailplane simply runs it slowly and at large amplitude, which is the entire pedagogical
-argument stated as arithmetic.
+physics. In arithmetic form, the pedagogical argument is that the sailplane runs it slowly and at large
+amplitude.
 
 ## Dependent Systems
 
@@ -293,15 +293,15 @@ Steady flight requires power to overcome drag,
 
 $$P = \frac{W V}{L/D}$$
 
-**and a high lift-to-drag ratio is precisely a statement that this number is small.** Taking an assumed
+**and a high lift-to-drag ratio means that this number is small.** Taking an assumed
 2,400 pound gross weight for the QT-2PC and an assumed lift-to-drag ratio of 20, degraded from the
 sailplane's 35 by the engine, the shaft, the sensors and a fixed propeller,
 
 $$P = \frac{(2400)(110 \, \text{ft/s})}{20} = 13{,}200 \, \text{ft lb/s} = 24 \, \text{hp}$$
 
-**Twenty-four horsepower of the hundred installed.** That margin is the whole design.
+**Twenty-four horsepower of the hundred installed.** That margin made the design possible.
 
-### Best Glide Is Not Minimum Power, and the Loitering Aircraft Wanted the Second
+### Best Glide and Minimum Power
 
 **These are different speeds and the distinction matters here.** The power-required curve and the two speeds
 it distinguishes are among the oldest results in aircraft performance and are treated thoroughly in the
@@ -321,19 +321,19 @@ $$\frac{P_{mp}}{P_{bg}} = \frac{0.760}{0.866} = 0.877$$
 
 **a saving of 12.3 percent for flying 24 percent slower.** For the QT-2PC on the assumed figures best glide
 is 81.5 miles per hour and minimum power is 62.0, and
-**the quoted quiet cruise of 70 to 80 falls between them**, which is what an aircraft needing both endurance
-and a speed margin actually does.
+**the [quoted quiet cruise of 70 to 80][ref_x26] falls between them**, as expected for an aircraft needing both endurance
+and a speed margin.
 
 **The noise value of that choice is almost nothing, and saying so keeps two motives from being confused.**
 If radiated sound power followed shaft power, 12.3 percent would be worth
 
 $$10 \log_{10} \frac{1}{0.877} = 0.57 \text{ dB}$$
 
-**Half a decibel. The loiter speed was chosen for endurance and not for quiet.** An engine asked for a fifth
+**Half a decibel. The loiter speed is explained by endurance and not by quiet.** An engine asked for a fifth
 of its rating can be throttled deep, wrapped in mufflers that would strangle it at full power, and geared
 down to a large slow propeller. **None of that is available to an aircraft that needs its engine.** The
 silencing practice
-is [Ohta 1935][research_ohta_1935], [Nelson 1938][research_nelson_1938], [Czarnecki and Davis 1948][research_czarnecki_davis_1948], [Davis et al 1953][research_davis_1953], [Stokes and Davis
+is documented in [Ohta 1935][research_ohta_1935], [Nelson 1938][research_nelson_1938], [Czarnecki and Davis 1948][research_czarnecki_davis_1948], [Davis et al 1953][research_davis_1953], [Stokes and Davis
 1953][research_stokes_davis_1953], [Tyler and Towle 1955][research_tyler_towle_1955], [Dyer 1956][research_dyer_1956], [Fukuda 1960][research_fukuda_1960], [Fukuda 1960][research_fukuda_1960_2], [Keast 1961][research_keast_1961], [Hukuda 1962][research_hukuda_1962], [Fukuda 1963][research_fukuda_1963], [Fukuda 1963][research_fukuda_1963_2], [Emeric 1966][research_emeric_1966], [Alfredson 1971][research_alfredson_1971], [Bender and Brammer 1973][research_bender_brammer_1973], [Mutyala and Soedel 1974][research_mutyala_soedel_1974], [Pegg and Hilton 1974][research_pegg_hilton_1974], [Bender and Brammer 1975][research_bender_brammer_1975], [Robinson 1979][research_robinson_1979], [Shaikn 1979][research_shaikn_1979], [Lux and Landwehr 1980][research_lux_landwehr_1980], [Hoffman and Kennedy 1982][research_hoffman_kennedy_1982], [Rhodes 1982][research_rhodes_1982], [Prasad and Crocker 1983][research_prasad_crocker_1983], [Thomson 1983][research_thomson_1983], [Casey 1984][research_casey_1984], [Matsushita and Suzuki 1984][research_matsushita_suzuki_1984], [Buchwalder 1985][research_buchwalder_1985], [Ferrari and Castelli 1985][research_ferrari_castelli_1985], [Tanaka et al 1985][research_tanaka_1985], [Tarnow and Pommer 1988][research_tarnow_pommer_1988].
 
 ### What Quiet Means, Quantitatively
@@ -347,22 +347,22 @@ Intensity from a compact source falls over the surface of a sphere,
 
 $$I = \frac{W_{ac}}{4 \pi r^2}$$
 
-**Intensity goes as the inverse square of range and pressure as the inverse first power**, which is where
-the twenty in front of the logarithm comes from rather than a ten.
+**Intensity goes as the inverse square of range and pressure as the inverse first power**, so the
+coefficient in front of the logarithm is twenty where an intensity ratio would give ten.
 
 The level therefore falls with the logarithm of distance,
 
 $$\text{SPL}(r) = \text{SPL}(r_0) - 20 \log_{10} \frac{r}{r_0}$$
 
-**Every doubling of slant range costs 6.02 decibels and no more.** That is the single most useful number in the whole subject, and it sets what a design programme can hope to buy. Propagation in the lower atmosphere is reviewed in [Nyborg and Mintzer 1955][research_nyborg_mintzer_1955], atmospheric absorption is given in [Bass et al 1972][research_bass_1972] and updated in [Bass et al 1990][research_bass_1990], refraction and ground attenuation are treated in [Kriebel 1972][research_kriebel_1972] and [Rasmussen 1986][research_rasmussen_1986], and the excess attenuation of aircraft noise with distance is measured in [Wolf and Raspet 1986][research_wolf_raspet_1986]. The rest is gathered in the cluster on outdoor sound propagation and atmospheric absorption below, and the physical principles behind it are [Pierce on acoustics][book_pierce_1981]. The engineering practice of quieting machinery is [Beranek on noise and vibration control][book_beranek_1988].
+**Every doubling of slant range costs 6.02 decibels and no more.** No number in the subject is more useful, and it sets what a design programme can hope to buy. Propagation in the lower atmosphere is reviewed in [Nyborg and Mintzer 1955][research_nyborg_mintzer_1955], atmospheric absorption is given in [Bass et al 1972][research_bass_1972] and updated in [Bass et al 1990][research_bass_1990], refraction and ground attenuation are treated in [Kriebel 1972][research_kriebel_1972] and [Rasmussen 1986][research_rasmussen_1986], and the excess attenuation of aircraft noise with distance is measured in [Wolf and Raspet 1986][research_wolf_raspet_1986]. The survey cluster on outdoor sound propagation and atmospheric absorption holds the remainder, and the physical principles behind it are [Pierce on acoustics][book_pierce_1981]. The engineering practice of quieting machinery is [Beranek on noise and vibration control][book_beranek_1988].
 
 The maximum range at which the aircraft is audible follows by setting the received level equal to the
 ambient,
 
 $$r_{max} = r_0 \cdot 10^{\, (\text{SPL}(r_0) - L_{amb}) / 20}$$
 
-**Calibrating that against the record rather than assuming a source level**, the QT-2PC was reported
-detectable at 750 feet, which against an assumed 40 dBA rural night ambient implies about 49.5 dBA at 250
+**Calibrating that against the record rather than assuming a source level**, the QT-2PC was [reported
+detectable at 750 feet][ref_albertson_2015], which against an assumed 40 dBA rural night ambient implies about 49.5 dBA at 250
 feet. Sweeping the ambient,
 
 | Night ambient, dBA | Detected out to, ft |
@@ -372,22 +372,22 @@ feet. Sweeping the ambient,
 | 40 | 750 |
 | 45 | 422 |
 
-**A detection range is a slant range and not an altitude**, which reconciles two numbers the record gives separately. **Flyover measurement is geometry before it is acoustics**, and the conventions for relating source position, receiver position and measured level are established practice, in [Zorumski 1977][research_zorumski_1977], [Muller 1971][research_muller_1971], [Chessell 1978][research_chessell_1978], [Willshire and Hilton 1979][research_willshire_hilton_1979], [Marsh 1981][research_marsh_1981], [Shivashankara and Stubbs 1987][research_shivashankara_stubbs_1987] and [Peart 1991][research_peart_1991], with the rest gathered in the clusters on aircraft noise sources, measurement, prediction and reduction and on outdoor sound propagation below.
+**A detection range is a slant range and not an altitude**, which reconciles two numbers the record gives separately. **Flyover measurement is geometry before it is acoustics**, and the conventions for relating source position, receiver position and measured level are established practice, in [Zorumski 1977][research_zorumski_1977], [Muller 1971][research_muller_1971], [Chessell 1978][research_chessell_1978], [Willshire and Hilton 1979][research_willshire_hilton_1979], [Marsh 1981][research_marsh_1981], [Shivashankara and Stubbs 1987][research_shivashankara_stubbs_1987] and [Peart 1991][research_peart_1991], and the clusters on aircraft noise sources, measurement, prediction and reduction and on outdoor sound propagation carry many more.
 
 $$r = \sqrt{h^2 + x^2}$$
 
-The aircraft was detectable at 750 feet and missions were flown no lower than 800.
+The aircraft was detectable at 750 feet and [missions were flown no lower than 800][ref_albertson_2015].
 **Those are the same statement.** At any altitude above 750 feet the detection sphere does not reach the
-ground at all, so the 800 foot floor is exactly the rule that the sphere must stay clear of the listener,
+ground at all, so the 800 foot floor is the rule that the sphere must stay clear of the listener,
 with fifty feet of margin.
 
-**The aircraft's usable altitude is set by how quiet the night is, and not by the aircraft alone.** From the
+**The aircraft's usable altitude depends on how quiet the night is, as well as on the aircraft.** From the
 range relation above, a change $\Delta L_{amb}$ in ambient scales the detection range by
 
 $$\frac{r_{max}(L_{amb} - \Delta L_{amb})}{r_{max}(L_{amb})} = 10^{\Delta L_{amb}/20} = 10^{5/20} = 1.78$$
 
 so a five decibel change in ambient moves the detection range by 78 percent.
-**The specification was always partly about the weather.** Detection as a subject is [Schriever 1952][research_schriever_1952], [Bellucci 1963][research_bellucci_1963], [Chew and Chapin 1963][research_chew_chapin_1963], [Ollerhead 1971][research_ollerhead_1971], [Price and Hodge 1976][research_price_hodge_1976], [Ludeman 1979][research_ludeman_1979], [Ramachandra 1979][research_ramachandra_1979], [Michel 1989][research_michel_1989], [Mueller et al 1993][research_mueller_1993], [Sheffield 2000][research_sheffield_2000].
+**The specification was always partly about the weather.** Aural detection was studied in [Schriever 1952][research_schriever_1952], [Bellucci 1963][research_bellucci_1963], [Chew and Chapin 1963][research_chew_chapin_1963], [Ollerhead 1971][research_ollerhead_1971], [Price and Hodge 1976][research_price_hodge_1976], [Ludeman 1979][research_ludeman_1979], [Ramachandra 1979][research_ramachandra_1979], [Michel 1989][research_michel_1989], [Mueller et al 1993][research_mueller_1993], [Sheffield 2000][research_sheffield_2000].
 
 ### Why the Simple Model Is the Right One
 
@@ -398,8 +398,8 @@ frequency,
 $$f = \frac{N_b \, \text{rpm}}{60}$$
 
 which for four blades at 1,000 revolutions per minute is 67 hertz.
-**How much sound the air itself absorbs, and how strongly that depends on frequency and humidity, is a measured subject with a long history**,
-in the propagation literature cited above.
+**How much sound the air absorbs, and how strongly that depends on frequency and humidity, is a measured subject with a long history**,
+and the propagation work cited with the spreading law traces it.
 Absorption accumulates linearly with distance at a coefficient that rises steeply with frequency,
 
 $$L_{abs} = \alpha \, r$$
@@ -411,14 +411,14 @@ $$L_{abs} = \alpha \, r$$
 | 500 | 0.6 | 0.9 |
 | 2,000 | 3.5 | 5.3 |
 
-**At 67 hertz the whole mission altitude costs under a tenth of a decibel**, against the 6 that spreading
+**At 67 hertz the mission altitude costs under a tenth of a decibel**, against the 6 that spreading
 alone costs per doubling. The coefficients are order-of-magnitude values for moderate humidity and are
 **assumed**.
-**Spreading dominates and the inverse-square model is not an approximation worth apologising for.**
+**Spreading dominates, and the inverse-square model needs no apology.**
 
-### The Propeller, Which Is the Lever
+### The Propeller as the Lever
 
-Propeller rotational noise rises very steeply with tip speed,
+Propeller rotational noise rises sharply with tip speed,
 
 $$V_{tip} = \frac{\pi D \, \text{rpm}}{60}$$
 
@@ -435,7 +435,7 @@ second. A large slow propeller of 8.5 feet at 1,000 reaches 445.
 The theory of how a turning blade radiates is [Goldstein's aeroacoustics][book_goldstein_1976], and the
 propeller performance it sits beside is [McCormick][book_mccormick_1979].
 
-**There is a second reason the slow propeller is quiet.** **Propeller performance was reduced to charts in advance ratio and power coefficient long before it was computed**, and those charts are what a designer choosing a diameter and a reduction ratio actually used, in the performance literature cited under best glide and minimum power. The noise that follows from the choice was a research subject by [Deming 1937][research_deming_1937] and is reviewed in [Regier and Hubbard 1953][research_regier_hubbard_1953], small propeller aircraft are treated in [Maglieri and Hubbard 1975][research_maglieri_hubbard_1975] and a low noise propeller is designed and tested in [Succi 1981][research_succi_1981], with the prediction theory in [Farassat and Succi 1980][research_farassat_succi_1980] and [Hanson 1983][research_hanson_1983] and the tone's growth with tip Mach number in [Dittmar and Hall 1991][research_dittmar_hall_1991]. The rest is gathered in the cluster on propeller and rotor noise below. The advance ratio compares forward speed to blade speed,
+**There is a second reason the slow propeller is quiet.** **Propeller performance was reduced to charts in advance ratio and power coefficient long before it was computed**, and those charts are what a designer choosing a diameter and a reduction ratio used, in the performance literature cited under best glide and minimum power. The noise that follows from the choice was a research subject by [Deming 1937][research_deming_1937] and is reviewed in [Regier and Hubbard 1953][research_regier_hubbard_1953], small propeller aircraft are treated in [Maglieri and Hubbard 1975][research_maglieri_hubbard_1975] and a low noise propeller is designed and tested in [Succi 1981][research_succi_1981], with the prediction theory in [Farassat and Succi 1980][research_farassat_succi_1980] and [Hanson 1983][research_hanson_1983] and the tone's growth with tip Mach number in [Dittmar and Hall 1991][research_dittmar_hall_1991]. The propeller and rotor noise cluster below lists further work. The advance ratio compares forward speed to blade speed,
 
 $$J = \frac{V}{n D}$$
 
@@ -447,15 +447,14 @@ $$M_{tip} = \frac{V_{tip}}{a}$$
 
 falling from 0.76 to 0.40 between the two installations.
 
-**Tens of decibels against the six the specification needed.** The lever is far more than strong enough,
-**which is why the interesting question is not how they made the propeller quiet but what was still audible once they had.**
+**Tens of decibels against the six that the 1,500 foot figure needed.** The lever is far more than strong enough.
+**The interesting question is then not how they made the propeller quiet but what was still audible once they had.**
 
 ### Why Quieting One Source Has a Ceiling
 
-**That the limit moves to the exhaust and the airframe is easy to assert and worth showing.**
+**That the limit moves to the exhaust and the airframe is easy to assert, so it is shown here.**
 **Separating an aircraft's total noise into its components, and then deciding which one to attack, is a discipline of its own**,
-and one the period developed precisely because engine quieting kept running into airframe and propeller
-floors, in the flyover-measurement literature cited above. Independent sources add in power rather than
+and the flyover-measurement papers listed with the detection-range table treat it. Independent sources add in power rather than
 in pressure,
 
 $$L_{total} = 10 \log_{10} \sum_i 10^{L_i / 10}$$
@@ -473,15 +472,15 @@ decibels above everything else combined.
 
 **A seventeen decibel propeller reduction buys ten.** Removing the propeller entirely would buy 10.4 and no
 more, because the floor is set by the other sources.
-**Beyond about fifteen decibels of propeller work the total stops moving**, which is the quantitative form
-of a statement that is otherwise only an intuition. Exhaust, airframe and transmission noise all become the
+**Beyond about fifteen decibels of propeller work the total stops moving.** The table puts a number on
+what would otherwise remain an intuition. Exhaust, airframe and transmission noise all become the
 limit as soon as the propeller stops dominating.
 
 ### What It Gave Up to Carry an Engine
 
-The X-26A glides at 35 to 1. The QT-2PC carries an engine, a shaft, a propeller, fuel, sensors and a second
+The X-26A [glides at 35 to 1][ref_sgs_2_32]. The QT-2PC carries an engine, a shaft, a propeller, fuel, sensors and a second
 crewman on the same wing, and on the assumed figures its glide falls to 20 to 1 at a weight 1.7 times
-greater. Sink rate is power divided by weight, which is the same statement as speed divided by glide ratio,
+greater. Sink rate is power divided by weight, or equivalently speed divided by glide ratio,
 
 $$V_{sink} = \frac{P}{W} = \frac{V}{L/D}$$
 
@@ -499,10 +498,9 @@ rate and 10 percent in speed,
 glide ratio and the minimum sink are independent quoted numbers, so reproducing both from one polar is worth
 more than reproducing either alone.
 
-**It is still a sailplane.** Even loaded and draggy it descends at a few hundred feet a minute with the
-engine stopped, which meant the crew could shut down and loiter in silence.
-**No other powered aircraft of the period could buy that capability at any price**, and the glide
-performance behind it is [Lundberg 1937][research_lundberg_1937], [Lundberg 1938][research_lundberg_1938],
+**It is still a sailplane.** Even loaded and draggy it would descend at a few hundred feet a minute with the
+engine stopped, so the crew could in principle shut down and loiter in silence. The glide performance behind
+it is [Lundberg 1937][research_lundberg_1937], [Lundberg 1938][research_lundberg_1938],
 [Jackson et al 1993][research_jackson_1993], [Colling 1995][research_colling_1995].
 
 ### The Sensors and the Mission
@@ -515,20 +513,20 @@ airframe answers and the sensors were carried rather than enabled by it.
 
 ## The Flight Test Record
 
-**The two halves of this designation have very unequal records.**
+**The two halves of this designation have unequal records.**
 
-The X-26A flew at the Naval Test Pilot School from the late 1960s and remained in the syllabus for decades, and the Navy's product page still lists it as operational, with [two in the inventory][ref_navair_x26a]. **Its record is a curriculum rather than a test report**, and the teaching tradition it sits in is described for the Naval Test Pilot School in [Johnson 1975][research_johnson_1975] and for the Air Force school in [Eppley 1963][research_eppley_1963], with the flying-qualities course text in [Air Force Test Pilot School Edwards Afb Ca 1991][research_air_force_test_pilot_school_edwards_afb_ca_1991], the pilot rating scale in [Cooper and Harper 1969][research_cooper_harper_1969], the specification of the period in [Chalk and Wilson 1969][research_chalk_wilson_1969] and its lateral-directional requirements in [Ashkenas 1965][research_ashkenas_1965], and the history of the subject in [Ashkenas 1984][research_ashkenas_1984] and [Mitchell et al 2003][research_mitchell_2003]. Teaching flight testing through soaring is described in [Stewart 2016][research_stewart_2016]. The rest is gathered in the clusters on flying and handling qualities and on flight test below.
+The X-26A flew at the Naval Test Pilot School from the late 1960s and remained in the syllabus for decades, and the Navy's product page still lists it as operational, with [two in the inventory][ref_navair_x26a]. **Its record is a curriculum rather than a test report**, and the teaching tradition it sits in is described for the Naval Test Pilot School in [Johnson 1975][research_johnson_1975] and for the Air Force school in [Eppley 1963][research_eppley_1963], with the flying-qualities course text in [Air Force Test Pilot School Edwards Afb Ca 1991][research_air_force_test_pilot_school_edwards_afb_ca_1991], the pilot rating scale in [Cooper and Harper 1969][research_cooper_harper_1969], the specification of the period in [Chalk and Wilson 1969][research_chalk_wilson_1969] and its lateral-directional requirements in [Ashkenas 1965][research_ashkenas_1965], and the history of the subject in [Ashkenas 1984][research_ashkenas_1984] and [Mitchell et al 2003][research_mitchell_2003]. Teaching flight testing through soaring is described in [Stewart 2016][research_stewart_2016]. Related work is listed under the flying and handling qualities and flight test clusters.
 
 The QT-2PC record is short, specific and much better documented as history. In Polmar's account in
 [Naval History][ref_polmar_2017], two aircraft reached the Army airfield at Soc Trang in the Mekong Delta on
 22 January 1968 and began operations almost immediately, flying **591 hours of night surveillance between
 24 January and 24 March 1968** under the [Prize Crew evaluation][ref_x26]. In Albertson's account in
 [Army Aviation][ref_albertson_2015], repeated passes over the airfield at decreasing altitude found the
-aircraft first heard at 750 feet, against a [specification of 1,500][ref_yo3a], so missions were flown no
+aircraft first heard at 750 feet, against the 1,500 of the later [YO-3A specification][ref_yo3a], so missions were flown no
 lower than 800 feet and en route altitudes were generally 1,200 to 1,500.
 
-**The aircraft missed its acoustic specification by 6 decibels, which is one doubling of distance.** That is
-a small miss for a first article, and the Army awarded Lockheed a [YO-3A production contract in July
+**Measured against that 1,500 foot figure the aircraft fell 6 decibels short, one doubling of distance.** For
+a first article the shortfall is small, and the Army awarded Lockheed a [YO-3A production contract in July
 1968][ref_polmar_2017] on the strength of it. The two aircraft returned to the Test Pilot School in 1969 and
 were [redesignated X-26B][ref_x26]. Lockheed carried the work forward through the Q-Star to the
 [YO-3A][ref_yo3a].
@@ -543,21 +541,21 @@ summary gives [eleven built, nine of which operated in South Vietnam from late J
 
 ## Comparison With Ground Prediction
 
-**Two predictions can be checked against the record and they behave very differently.**
+**Two predictions can be checked against the record and they fare differently.**
 
-**The glide performance check succeeds and is not impressive.** Predicting 32.7 against a quoted 35 is seven
-percent from an assumed drag coefficient and an assumed span efficiency, and
+**The glide performance check succeeds and is not impressive.** The prediction of 32.7 falls seven percent
+short of the quoted 35 using an assumed drag coefficient and an assumed span efficiency, and
 **a model with two free parameters that lands within seven percent has demonstrated very little.** It is
 reported because it is a consistency check on the geometry, not because it is evidence.
 
-**The reconciliation of the quoted glide speed is worth more.** The best-glide speed relation under The One
+**The reconciliation of the quoted glide speed carries more weight.** The best-glide speed relation under The One
 Relation and the quoted 55.9 miles per hour disagree by 13 percent at gross weight and agree to two percent
 at the one-pilot weight.
-**That is a case where the model and the sources are both right and the conflict lies only in pairing a speed with the wrong weight**, and it is
-the more useful of the two checks because it resolved an apparent conflict rather than confirming an
+**Here the model and the sources are both right and the conflict lies only in pairing a speed with the wrong weight**. Of the two checks it is
+the more useful, because it resolved an apparent conflict rather than confirming an
 expected agreement.
 
-**The acoustic prediction cannot be checked at all and the article says so.** The source level was
+**The acoustic prediction cannot be checked at all.** The source level was
 calibrated backwards out of the one reported detection distance, so the detection-range table reproduces
 that distance **by construction and not by prediction**. It has no independent confirmation. What it does
 provide is the sensitivity, and the sensitivity is the finding.
@@ -565,19 +563,19 @@ provide is the sensitivity, and the sensitivity is the finding.
 
 ## What the Data Changed
 
-**The X-26A changed how test pilots are taught and nothing else, which is not a small thing.** Generations
-of graduates met adverse yaw for the first time in an aircraft that could not hurt them with it. That is a
-contribution to the profession and not to aeronautics, and it does not appear in any aerodynamic result.
+**The X-26A changed how test pilots are taught and nothing else, a change of consequence.** Generations
+of graduates were shown adverse yaw in a slow sailplane instead of a jet, although the type was not harmless,
+and [two of its crashes, in 1971 and 1972, killed their pilots][ref_x26]. The
+profession gained from it and aeronautics did not, and no aerodynamic result records it.
 
 **The X-26B changed a good deal more.** The QT-2PC demonstrated that a manned aircraft could loiter low at
-night without being heard, which was not previously established, and it did so within 6 decibels of a
-demanding specification on the first attempt. **It led directly to the Q-Star and the YO-3A**, and the YO-3A
-flew operationally.
+night without being heard, and it came within 6 decibels of the demanding 1,500 foot figure later specified
+for the YO-3A on the first attempt. **It led directly to the Q-Star and the [YO-3A][ref_polmar_2017]**, and the YO-3A
+[flew operationally][ref_yo3a].
 
 **The deeper consequence is that the quiet-aircraft problem turned out to be an acoustics problem and not an aeronautics problem.**
-Once the propeller was slowed, the limit moved to the exhaust, then to the airframe, then to the
-transmission. **That is the signature of a design that has run out of dominant terms**, and it is why the
-line stopped at the YO-3A rather than continuing indefinitely.
+Once the propeller was slowed, the arithmetic under Why Quieting One Source Has a Ceiling moves the limit to
+the exhaust, the airframe and the transmission. **That is the signature of a design that has run out of dominant terms.**
 
 ## The Contemporary Literature
 
@@ -621,20 +619,20 @@ inaudible.
 
 ### The X-26A's Argument Became a Regulation
 
-**This is the largest thing that has happened to the first half of the X-26, and it is a considerable promotion for a claim nobody ever measured.**
+**This is the largest thing that has happened to the first half of the X-26, a considerable promotion for a claim that no source found here ever measured.**
 
-Loss of control in flight is now a named accident category and the leading cause of fatal accidents in commercial aviation. **Upset prevention and recovery training became a regulatory requirement and no longer a good idea**, and the surrounding literature covers startle and surprise in [Landman et al 2017][research_landman_2017], [Landman et al 2020][research_landman_2020] and [Causse et al 2026][research_causse_2026], upset recovery training and its simulators in [Degtyarev et al 2021][research_degtyarev_2021], [Ryffel et al 2019][research_ryffel_2019] and [Wu et al 2020][research_wu_2020], the degradation of manual flying skill under automation in [Leonidov 2025][research_leonidov_2025], a loss of control accident in [Bromfield et al 2023][research_bromfield_2023], and the envelope protection and automatic recovery that make noticing unnecessary in [Lombaerts et al 2017][research_lombaerts_2017] and [Wang et al 2024][research_wang_2024]. The rest is gathered in the clusters on loss of control, upset recovery, stall and spin and on pilot training below.
+Loss of control in flight is now a named accident category, and it was the [largest fatal accident category for jet transports worldwide from 2001 through 2010][ref_belcastro_2012]. **Upset prevention and recovery training became a [regulatory requirement][ref_14cfr_121_423] and no longer a good idea**, and the surrounding literature covers startle and surprise in [Landman et al 2017][research_landman_2017], [Landman et al 2020][research_landman_2020] and [Causse et al 2026][research_causse_2026], upset recovery training and its simulators in [Degtyarev et al 2021][research_degtyarev_2021], [Ryffel et al 2019][research_ryffel_2019] and [Wu et al 2020][research_wu_2020], the degradation of manual flying skill under automation in [Leonidov 2025][research_leonidov_2025], a loss of control accident in [Bromfield et al 2023][research_bromfield_2023], and the envelope protection and automatic recovery that make noticing unnecessary in [Lombaerts et al 2017][research_lombaerts_2017] and [Wang et al 2024][research_wang_2024]. The clusters on loss of control, upset recovery, stall and spin and on pilot training extend the list.
 
 **The X-26A's justification was that a pilot must meet the phenomenon somewhere safe before meeting it somewhere dangerous.**
-That was an assertion in 1968 and it is a rule now.
+That was an assertion in the 1960s and it is now a [rule for airline pilots][ref_14cfr_121_423].
 
 **The other half of the answer removes the need to notice at all.** Envelope protection in a fly-by-wire
-aircraft prevents the excursion instead of training the recovery, which is a different philosophy and is in
+aircraft prevents the excursion instead of training the recovery, a different philosophy and one in
 tension with the first.
 **An aircraft that cannot be upset does not teach its pilot what an upset feels like**, and the training
 requirement exists partly because of that.
 
-### Adverse Yaw, Now Identified From Data Rather Than Demonstrated
+### Adverse Yaw, Identified From Data
 
 The derivatives the X-26A demonstrated by feel are now extracted numerically from flight data, and the
 lateral-directional behaviour is modelled, damped and allocated across control surfaces instead of flown
@@ -643,16 +641,16 @@ around, in [Zhu and Duan 2015][research_zhu_duan_2015], [Korsun et al 2018][rese
 
 ### Quiet Flight, Attempted Again
 
-**Electric propulsion has revived the quiet aircraft as a serious objective**, this time for community acceptability rather than concealment, and that has turned the subject from a physical one into a partly perceptual one. Psychoacoustic annoyance metrics and community response are where the effort now goes, in [Gille et al 2017][research_gille_2017], [Christian 2021][research_christian_2021], [Boucher et al 2023][research_boucher_2023] and [Tracy et al 2024][research_tracy_2024], together with the acoustic design of electric and distributed-propulsion aircraft in [Nark et al 2017][research_nark_2017], [Berton and Nark 2019][research_berton_nark_2019] and [Thomas and Hansman 2021][research_thomas_hansman_2021], design for community noise in [Iemma 2016][research_iemma_2016] and [Sahai et al 2017][research_sahai_2017], and the urban air mobility case in [Rizzi and Rafaelof 2021][research_rizzi_rafaelof_2021]. The rest is gathered in the clusters on community noise, annoyance and psychoacoustics and on aircraft noise sources below.
+**Electric propulsion has revived the quiet aircraft as a serious objective**, this time for community acceptability rather than concealment, and that has turned the subject from a physical one into a partly perceptual one. Psychoacoustic annoyance metrics and community response are where the effort now goes, in [Gille et al 2017][research_gille_2017], [Christian 2021][research_christian_2021], [Boucher et al 2023][research_boucher_2023] and [Tracy et al 2024][research_tracy_2024], together with the acoustic design of electric and distributed-propulsion aircraft in [Nark et al 2017][research_nark_2017], [Berton and Nark 2019][research_berton_nark_2019] and [Thomas and Hansman 2021][research_thomas_hansman_2021], design for community noise in [Iemma 2016][research_iemma_2016] and [Sahai et al 2017][research_sahai_2017], and the urban air mobility case in [Rizzi and Rafaelof 2021][research_rizzi_rafaelof_2021]. Both strands continue in the clusters on community noise, annoyance and psychoacoustics and on aircraft noise sources.
 
 **The QT-2 wanted to be inaudible to an enemy, and contemporary quiet-aircraft work wants to be
 acceptable to a neighbour.** The physics is identical and the criterion is not. Spherical spreading still
 costs 6 decibels per doubling. What has changed is that the threshold is no longer an ambient noise level and a listening sentry,
 but a population and its tolerance.
 
-### The Mission Went Unmanned, Which Solved the Acoustic Problem by Accident
+### The Mission Went Unmanned and Solved the Acoustic Problem by Accident
 
-**The QT-2PC's entire difficulty was that a manned aircraft has to be big enough to carry a person.** That
+**The QT-2PC's difficulty was that a manned aircraft has to be big enough to carry a person.** That
 set the wing area, the weight, the power and therefore the noise, and every gram of muffler and every foot
 of extension shaft was spent fighting a floor set by human size.
 
@@ -667,33 +665,33 @@ little power, in [Stewart et al 2012][research_stewart_2012], [Leahy et al 2015]
 ### And Now Everyone Wants to Hear the Aircraft
 
 **The QT-2's problem has been inverted.** Contemporary work is largely about **detecting** small aircraft
-acoustically rather than hiding them, which is the same physics read from the other end, in [Brown et al 2016][research_brown_2016], [Culver 2016][research_culver_2016], [Goldman 2016][research_goldman_2016], [Kim 2016][research_kim_2016], [Bernardini et al 2017][research_bernardini_2017], [Kloet et al 2017][research_kloet_2017], [Harvey and OYoung 2018][research_harvey_oyoung_2018], [Oleynikov et al 2018][research_oleynikov_2018], [Sedunov et al 2018][research_sedunov_2018], [Guzik et al 2019][research_guzik_2019], [Haddad et al 2019][research_haddad_2019], [Sedunov et al 2019][research_sedunov_2019], [Manickam et al 2020][research_manickam_2020], [Kozak 2021][research_kozak_2021], [Liu et al 2021][research_liu_2021],
+acoustically, the same physics read from the other end, in [Brown et al 2016][research_brown_2016], [Culver 2016][research_culver_2016], [Goldman 2016][research_goldman_2016], [Kim 2016][research_kim_2016], [Bernardini et al 2017][research_bernardini_2017], [Kloet et al 2017][research_kloet_2017], [Harvey and OYoung 2018][research_harvey_oyoung_2018], [Oleynikov et al 2018][research_oleynikov_2018], [Sedunov et al 2018][research_sedunov_2018], [Guzik et al 2019][research_guzik_2019], [Haddad et al 2019][research_haddad_2019], [Sedunov et al 2019][research_sedunov_2019], [Manickam et al 2020][research_manickam_2020], [Kozak 2021][research_kozak_2021], [Liu et al 2021][research_liu_2021],
 [Uddin et al 2021][research_uddin_2021], [Aydın and Kızılay 2022][research_aydn_kzlay_2022], [Gopalan et al 2022][research_gopalan_2022], [Kadyrov et al 2022][research_kadyrov_2022], [Rasband et al 2023][research_rasband_2023], [Sahithi 2023][research_sahithi_2023], [Seidaliyeva et al 2023][research_seidaliyeva_2023], [Dafrallah and Akhloufi 2024][research_dafrallah_akhloufi_2024], [Kumar S Rajanikanth 2024][research_kumar_s_rajanikanth_2024], [Paszkowski et al 2024][research_paszkowski_2024], [Hai et al 2025][research_hai_2025], [Jekateryńczuk and Piotrowski 2025][research_jekaterynczuk_piotrowski_2025], [Lotinga et al 2025][research_lotinga_2025], [de Macedo et al 2025][research_de_macedo_2025], [Alimadadi 2026][research_alimadadi_2026], [Ghenescu et al 2026][research_ghenescu_2026], [Sesham et al 2026][research_sesham_2026].
 
 ### Propeller Noise, Computed
 
-Propeller and rotor acoustics is now a computational discipline, with a benchmark in [Casalino et al 2021][research_casalino_2021], parametric and wake studies in [Yang et al 2017][research_yang_2017] and [Kingan and Parry 2020][research_kingan_parry_2020], positive and negative thrust in [Goyal et al 2024][research_goyal_2024], adjoint design in [Zhi et al 2025][research_zhi_2025] and prediction methods compared with flyover data in [Domogalla et al 2026][research_domogalla_2026], and outdoor propagation likewise, in [Wilson 2024][research_wilson_2024], [Ostashev and Wilson 2022][research_ostashev_wilson_2022], [Kirby 2021][research_kirby_2021] and [Hart et al 2016][research_hart_2016]. The rest is gathered in the clusters on propeller and rotor noise and on outdoor sound propagation below.
+Propeller and rotor acoustics is now a computational discipline, with a benchmark in [Casalino et al 2021][research_casalino_2021], parametric and wake studies in [Yang et al 2017][research_yang_2017] and [Kingan and Parry 2020][research_kingan_parry_2020], positive and negative thrust in [Goyal et al 2024][research_goyal_2024], adjoint design in [Zhi et al 2025][research_zhi_2025] and prediction methods compared with flyover data in [Domogalla et al 2026][research_domogalla_2026], and outdoor propagation likewise, in [Wilson 2024][research_wilson_2024], [Ostashev and Wilson 2022][research_ostashev_wilson_2022], [Kirby 2021][research_kirby_2021] and [Hart et al 2016][research_hart_2016]. The two corresponding clusters, propeller and rotor noise and outdoor sound propagation, hold more of this work.
 
 ### The Very Efficient Aeroplane
 
-High aspect ratio has become a mainstream objective rather than a sailplane peculiarity, in the transport studies [Kretov and Tiniakov 2022][research_kretov_tiniakov_2022], [Ma et al 2022][research_ma_2022], [Wahler et al 2025][research_wahler_2025] and [Gilbrook et al 2025][research_gilbrook_2025] and the high-altitude aircraft of [Fladeland et al 2019][research_fladeland_2019] and [Doyle 2020][research_doyle_2020], while the sailplane itself is still being refined, in [Aero structural optimization for sailplane wing in preliminary design 2018][research_aero_structural_2018] and [Yu 2026][research_yu_2026]. The rest is gathered in the clusters on induced drag, span loading and the high aspect ratio wing and on aeroelasticity below.
+High aspect ratio has become a mainstream objective rather than a sailplane peculiarity, in the transport studies [Kretov and Tiniakov 2022][research_kretov_tiniakov_2022], [Ma et al 2022][research_ma_2022], [Wahler et al 2025][research_wahler_2025] and [Gilbrook et al 2025][research_gilbrook_2025] and the high-altitude aircraft of [Fladeland et al 2019][research_fladeland_2019] and [Doyle 2020][research_doyle_2020], while the sailplane itself is still being refined, in [Aero structural optimization for sailplane wing in preliminary design 2018][research_aero_structural_2018] and [Yu 2026][research_yu_2026]. The induced drag and aeroelasticity clusters below continue the record.
 
-### Training, Measured Rather Than Asserted
+### Training Transfer and Simulator Fidelity
 
-**The X-26A's justification was a pedagogical assertion and it was never measured.** Contemporary work on
+**The X-26A's justification was a pedagogical assertion, and no measurement of it was found here.** Contemporary work on
 training transfer and simulator fidelity is where that assertion would now have to be defended, in [Harnyoot 2018][research_harnyoot_2018], [Myers et al 2018][research_myers_2018],
 [Henriquez Huecas et al 2022][research_henriquez_huecas_2022], [Hjellvik and Mallam 2024][research_hjellvik_mallam_2024], [Zhang et al 2025][research_zhang_2025], [Somerville et al 2026][research_somerville_2026], [Somerville et al 2026][research_somerville_2026_2].
 
 ### What the Survey Shows
 
-**Both halves of the X-26 were about a human in the aircraft, and both have been answered by removing the human.**
+**The X-26A and the X-26B were both about a human in the aircraft, and modern practice answers each by removing the human.**
 Adverse yaw is still taught in slow aircraft, but envelope protection now prevents the excursion instead of
 teaching the recovery, so the X-26A's method is one answer among several. The X-26B's mission is flown by
 unmanned aircraft that are quiet because they are small, and the same acoustic equations are now used more
 often by the listener than by the flyer.
 
-**One thing the survey does not show, and the absence is worth stating.** Nothing found here measures
-whether flying a sailplane actually teaches adverse yaw better than a simulator or a briefing does.
+**The survey also shows an absence.** Nothing found here measures
+whether flying a sailplane teaches adverse yaw better than a simulator or a briefing does.
 **The X-26A's central claim remains untested sixty years on**, which is a curious position for an argument
 that has meanwhile been written into regulation.
 
@@ -874,28 +872,28 @@ Helicopter, tilt-rotor and other vertical lift flight mechanics, hover and their
 ## Where the Framing Breaks Down
 
 **Treating this as one aircraft is a convenience of the designation system and not a fact.** The X-26A and
-the X-26B share an airframe and share nothing else. They had different customers, different services,
+the X-26B share an airframe and share nothing else. They had different customers,
 different missions and different decades of relevance.
 **An article organised around the shared lift-to-drag ratio is making an argument, and the reader should know it is an argument.**
 
-**The unifying claim is real but it is not a claim about intent.** Nobody at the Naval Test Pilot School
-chose the SGS 2-32 because its aspect ratio implied a low power requirement, and nobody at Lockheed chose it
-because its wing produced instructive adverse yaw.
+**The unifying claim is real but it is not a claim about intent.** No source consulted says that anyone at
+the Naval Test Pilot School chose the SGS 2-32 because its aspect ratio implied a low power requirement, or
+that anyone at Lockheed chose it because its wing produced instructive adverse yaw.
 **Each programme chose it for its own reason and the common cause is visible only in retrospect.** The
 article derives the connection and does not assert that anyone at the time saw it.
 
-**Neither aircraft was developed and neither answered an aerodynamic unknown**, which is the same finding
-the previous article made about the [X-25][related_post_a322_bensen_x25].
-**Two consecutive designations went to off-the-shelf civil aircraft bought for their existing properties.**
+**Neither airframe was designed for its role and neither aircraft answered an aerodynamic unknown**, which is close to the finding
+the previous article made about the [X-25][related_post_a322_bensen_x25], for which no aerodynamic result is recorded.
+**Two consecutive designations went to existing civil designs acquired for their properties, the X-25 trainers in modified form.**
 That is evidence about the designation system, and it belongs with the rest of it in the closing article of
 this series. The vehicle-by-vehicle record for the series generally is [Jenkins, Landis and Miller on the
 American X-vehicles][book_jenkins_landis_miller_2003].
 
-**Finally, the three lost airframes are unexplained here.** Three of four X-26As were destroyed and
-replaced. A docile sailplane operated by an organisation of professional test pilots should not have that
+**Finally, the three lost airframes are unexplained here.** Three of four X-26As were [destroyed and
+replaced][ref_x26]. A docile sailplane operated by an organisation of professional test pilots should not have that
 record, and this article does not know why it does.
-**It is stated as an open question and not smoothed over**, because the obvious inference, that an aircraft
-used to demonstrate departures will occasionally depart, is exactly the kind of plausible reasoning that
+**It is left as an open question**, because the obvious inference, that an aircraft
+used to demonstrate departures will occasionally depart, is the kind of plausible reasoning that
 should not be presented as fact.
 
 ## The Source Base
@@ -904,8 +902,9 @@ should not be presented as fact.
 Of the 3,576 research records in this article's references, **seven** carry the X-26, Schweizer, the SGS, the QT-2, the Q-Star or the YO-3 in their titles, and **none is about either X-26**. Two concern a different Schweizer sailplane, the SGS 1-36, in a National Aeronautics and Space Administration flutter clearance and a study of its flight at very high angles of attack, in [Kehoe and Ellison 1985][research_kehoe_ellison_1985] and [Sim 1990][research_sim_1990]. One names the Q-Star as an experimental quiet aircraft, in [Griffith 1971][research_griffith_1971]. The other four concern the YO-3A, which is the QT-2's operational descendant.
 **The Army's preliminary evaluation of the YO-3A is the only evaluation of the type in its operational role among them**, in [Condon et al 1970][research_condon_1970], and the remaining three come from the later research use of the aircraft, a measurement of its propeller thrust and torque in [Ormsbee et al 1977][research_ormsbee_siddiqi_1977] and its work as an acoustic research aircraft in [Cross and Watts 1983][research_cross_watts_1983] and [Cross 1984][research_cross_1984]. The specifications come from sailplane references and museum material, and the operational detail from historical accounts rather than from test reports.
 
-**That is a property of the procurement.** An off-the-shelf aircraft bought for properties it already has
-generates no development literature, because nothing was developed, and the
+**That is a property of the procurement.** An aircraft taken from an existing design for properties it already has
+generates little development literature, because the development was confined to modification, which for the
+QT-2 airframes meant the thicker wings and spars that [Polmar 2017][ref_polmar_2017] reports, and the
 [X-25][related_post_a322_bensen_x25] is the same case.
 
 **The supporting physics is abundant on one side and thinner on the other.** Lateral control and adverse yaw are extremely well documented once the period's own vocabulary is used, in the cluster on lateral control, ailerons and adverse yaw, and the propeller-noise and propagation literature is substantial.
@@ -956,13 +955,14 @@ generates no development literature, because nothing was developed, and the
 ## Epistemic State
 
 **Historical fact, from the public record.** The X-26A is an unmodified Schweizer SGS 2-32 operated by the
-United States Naval Test Pilot School for flying-qualities instruction. Four were ordered and three were
-lost and replaced. Two airframes, serials 67-15345 and 67-15346, were converted by Lockheed Missiles and
-Space Company to QT-2 and QT-2PC configuration with a Continental O-200 of 100 horsepower driving a
-four-blade propeller through an extension shaft. Two aircraft arrived at Soc Trang on 22 January 1968 and
-flew 591 hours of night surveillance between 24 January and 24 March 1968. The specification called for
-acoustic undetectability at 1,500 feet, the aircraft was first heard at 750 in passes over the airfield, and
-missions were flown no lower than 800. The aircraft returned in 1969 and were redesignated X-26B. The work
+United States Naval Test Pilot School for [flying-qualities instruction][ref_navair_x26a]. Four were ordered and three were
+[lost and replaced][book_jenkins_landis_miller_2003]. Two airframes, serials 67-15345 and 67-15346, were [converted by Lockheed Missiles and
+Space Company][ref_x26] to QT-2 and QT-2PC configuration with a Continental O-200 of 100 horsepower driving a
+four-blade propeller through an [extension shaft][ref_albertson_2015]. Two aircraft [arrived at Soc Trang on 22 January 1968][ref_polmar_2017] and
+flew 591 hours of night surveillance between 24 January and 24 March 1968. The Army specification to which
+the YO-3A was designed called for [acoustic undetectability at 1,500 feet][ref_yo3a], the aircraft was
+[first heard at 750][ref_albertson_2015] in passes over the airfield, and
+missions were flown no lower than 800. The aircraft returned in 1969 and were [redesignated X-26B][ref_x26]. The work
 continued through the Q-Star to the YO-3A, which operated in Vietnam during 1970 and 1971, although the
 accounts disagree on how many were built and when operations began.
 
@@ -970,7 +970,7 @@ accounts disagree on how many were built and when operations began.
 follows from the classical elliptic-loading result. That the observability index scales as wing loading
 times span over the cube of speed and the directional stiffness, with the helix angle cancelling, is
 algebra. The 6.02 decibels per doubling of range is exact for spherical spreading. The statement that the
-QT-2PC missed its specification by one doubling follows from the two reported distances and nothing else.
+QT-2PC fell one doubling short of the 1,500 foot figure follows from the two reported distances alone.
 
 **Assumed, and marked as such throughout.** The Oswald efficiency of 0.90 and zero-lift drag coefficient of
 0.012. Every quantity describing the comparison jet trainer. The helix angles and directional stiffnesses of
@@ -978,15 +978,18 @@ both aircraft. The QT-2PC gross weight of 2,400 pounds and its lift-to-drag rati
 ambient. The propeller diameters and speeds. **None of these is a measurement of an X-26.**
 
 **Inference, and labelled as inference.** That the two programmes selected the same airframe for reasons
-traceable to a single property is an inference drawn here, **not a documented rationale**, and the article
-says so under Where the Framing Breaks Down. That the acoustic limit moved to the exhaust and airframe once
+traceable to a single property is an inference drawn here, **not a documented rationale**, as Where the
+Framing Breaks Down acknowledges. That the acoustic limit moved to the exhaust and airframe once
 the propeller was slowed follows from the tip-speed arithmetic being far larger than the shortfall,
-**but no source consulted states which term actually dominated**.
+**but no source consulted states which term dominated**.
 
 **What the record does not settle.** Why three of four X-26A airframes were lost. The QT-2PC's actual gross
-weight, drag polar and propeller geometry. What the measured sound level was at any stated distance, as
-opposed to the detection distance. Whether the 1,500 foot specification was ever met by any aircraft in the
-line. How long the X-26A actually remained in service, which sources describe loosely as decades.
+weight, which the accounts give as [2,182][ref_polmar_2017] and [2,500 pounds][ref_x26], its drag polar, and its propeller
+geometry beyond the [100 inch diameter][ref_x26]. What the measured sound level was at any stated distance, as
+opposed to the detection distance. Whether the 1,500 foot specification was met under
+defined conditions, although the YO-3A is reported to have [operated silently at 1,000 feet or lower][ref_yo3a]
+depending on background noise. How long the X-26A will remain in service, since the Navy still lists
+[two in the inventory][ref_navair_x26a] and gives no retirement date.
 
 **Written from current knowledge.** The contemporary survey postdates the editorial date of this article.
 
@@ -1003,18 +1006,18 @@ active noise control.
 **The Schweizer X-26 is one airframe, two aircraft, and a single number.**
 
 A high lift-to-drag ratio requires a long slender wing, and a long slender wing flown slowly produces
-adverse yaw four and a half times larger than a jet's and seventeen times slower, which is why the Naval
-Test Pilot School could teach with it.
+adverse yaw four and a half times larger than a jet's and seventeen times slower. Those two factors
+made the aircraft a teaching tool for the Naval Test Pilot School.
 **The same high lift-to-drag ratio means the aircraft needs twenty-four horsepower of the hundred it carries**,
-which is why Lockheed could throttle the engine, bury it in mufflers, and turn a large propeller slowly
+so Lockheed could throttle the engine, bury it in mufflers, and turn a large propeller slowly
 enough to be inaudible beyond 750 feet.
 
 **The two programmes wanted opposite things and both got them from the same property.** One wanted a fault
 made visible. The other wanted an aircraft made absent.
 
-**Neither aircraft was developed.** Both were bought off the shelf for properties a sailplane manufacturer
-had already optimised for entirely unrelated reasons, which is the second consecutive time this series has
-found that, and is evidence about the designation system rather than about aeroplanes.
+**Neither airframe was designed for its role.** Both came from a production sailplane that its manufacturer
+had already optimised for unrelated reasons. This series has now found that twice in succession, and the
+pattern is evidence about the designation system rather than about aeroplanes.
 
 The next article in this series takes up the Lockheed X-27.
 ## References
@@ -1045,8 +1048,10 @@ The next article in this series takes up the Lockheed X-27.
 
 ### Reference
 
+- [14 CFR 121.423, Pilots, Extended Envelope Training][ref_14cfr_121_423]
 - [adverse yaw][ref_adverse_yaw]
 - [Albertson, Flying on the QT][ref_albertson_2015]
+- [Belcastro, Loss of Control Prevention and Recovery][ref_belcastro_2012]
 - [Continental O-200][ref_continental_o200]
 - [Dutch roll][ref_dutch_roll]
 - [Naval Test Pilot School][ref_usntps]
@@ -1058,8 +1063,10 @@ The next article in this series takes up the Lockheed X-27.
 - [X-26A][ref_navair_x26a]
 - [YO-3A][ref_yo3a]
 
+[ref_14cfr_121_423]: https://www.ecfr.gov/current/title-14/chapter-I/subchapter-G/part-121/subpart-N/section-121.423
 [ref_adverse_yaw]: https://en.wikipedia.org/wiki/Adverse_yaw
 [ref_albertson_2015]: https://armyaviationmagazine.com/flying-on-the-qt/
+[ref_belcastro_2012]: https://ntrs.nasa.gov/citations/20120014593
 [ref_continental_o200]: https://en.wikipedia.org/wiki/Continental_O-200
 [ref_dutch_roll]: https://en.wikipedia.org/wiki/Dutch_roll
 [ref_navair_x26a]: https://www.navair.navy.mil/product/x-26a-frigate-glider

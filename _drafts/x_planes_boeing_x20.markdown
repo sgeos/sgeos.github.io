@@ -13,7 +13,7 @@ series_index: 21
 <!-- A317 -->
 <script>console.log("A317");</script>
 
-The [Boeing X-20 Dyna-Soar][ref_x20] was to come back from orbit by flying and not falling, and the difference is not a matter of style. A capsule sheds its orbital energy in about a minute, lands wherever the arithmetic puts it, and is used once. A glider sheds the same energy over half an hour or more, can choose its landing site from as much as two thousand nautical miles either side of its ground track, and lands on a runway. **The X-20 was cancelled in December 1963 without flying, so everything in this article is a prediction the vehicle never got to test.** This article is the twenty-first in the [X-Planes series][related_post_a297_xplanes_framing], following the [X-1][related_post_a298_bell_x1], the [X-2][related_post_a299_bell_x2], the [X-3][related_post_a300_douglas_x3], the [X-4][related_post_a301_northrop_x4], the [X-5][related_post_a302_bell_x5], the [X-6][related_post_a303_convair_x6], the [X-7][related_post_a304_lockheed_x7], the [X-8][related_post_a305_aerojet_x8], the [X-9][related_post_a306_bell_x9], the [X-10][related_post_a307_north_american_x10], the [X-11][related_post_a308_convair_x11], the [X-12][related_post_a309_convair_x12], the [X-13][related_post_a310_ryan_x13], the [X-14][related_post_a311_bell_x14], the [X-15][related_post_a312_north_american_x15], the [X-16][related_post_a313_bell_x16], the [X-17][related_post_a314_lockheed_x17], the [X-18][related_post_a315_hiller_x18], and the [X-19][related_post_a316_curtiss_wright_x19].
+The [Boeing X-20 Dyna-Soar][ref_x20] was to come back from orbit by flying and not falling, and the difference is not a matter of style. A capsule sheds its orbital energy over a few minutes, lands wherever the arithmetic puts it, and is used once. A glider sheds the same energy over half an hour or more, can choose its landing site from as much as two thousand nautical miles either side of its ground track, and lands on a runway, in [Heppenheimer][ref_heppenheimer_2007] and [Hargis][research_hargis_1964]. **The X-20 was cancelled in December 1963 without flying, so everything in this article is a prediction the vehicle never got to test.** This article is the twenty-first in the [X-Planes series][related_post_a297_xplanes_framing], following the [X-1][related_post_a298_bell_x1], the [X-2][related_post_a299_bell_x2], the [X-3][related_post_a300_douglas_x3], the [X-4][related_post_a301_northrop_x4], the [X-5][related_post_a302_bell_x5], the [X-6][related_post_a303_convair_x6], the [X-7][related_post_a304_lockheed_x7], the [X-8][related_post_a305_aerojet_x8], the [X-9][related_post_a306_bell_x9], the [X-10][related_post_a307_north_american_x10], the [X-11][related_post_a308_convair_x11], the [X-12][related_post_a309_convair_x12], the [X-13][related_post_a310_ryan_x13], the [X-14][related_post_a311_bell_x14], the [X-15][related_post_a312_north_american_x15], the [X-16][related_post_a313_bell_x16], the [X-17][related_post_a314_lockheed_x17], the [X-18][related_post_a315_hiller_x18], and the [X-19][related_post_a316_curtiss_wright_x19].
 
 The series has met high-speed heating twice already. The [X-15][related_post_a312_north_american_x15] asked how an aircraft survives a brief hypersonic dash, and the [X-17][related_post_a314_lockheed_x17] asked how a blunt body survives a ballistic reentry that is over in a minute. **The X-20 asks the opposite question and gets the opposite answer**, because a lifting reentry inverts which part of the heating problem is hard.
 
@@ -21,29 +21,29 @@ The standard inventory entry remains [Jenkins Landis and Miller 2003 American X-
 
 ## The Research Question
 
-### The Keystone Is What Lift Costs and What It Buys
+### What Lift Costs and What It Buys
 
 **The keystone is the exchange rate between crossrange and heat.**
 
 A vehicle returning from orbit has to get rid of about ten million foot-pounds of kinetic energy for every pound of itself. Where that energy goes is not in question, since it goes into the air and comes back as heat. What is in question is **how fast**, and lift is the control the designer has over the answer.
 
-Add lift and the vehicle flies a shallower path, decelerates more gently, travels further, and can steer. Add lift and the heating lasts longer. The article's whole business is working out what that trade actually costs, because the answer is not the one the trade appears to offer.
+Add lift and the vehicle flies a shallower path, decelerates more gently, travels further, and can steer. Add lift and the heating lasts longer. This article works out what that trade costs. The cost differs from the one the trade appears to offer.
 
 ### Why This Was the Binding Unknown in 1957
 
-By 1957 the ballistic answer was understood. Allen and Eggers had shown that a blunt body survives reentry by putting its energy into the air, not into itself, and the [X-17][related_post_a314_lockheed_x17] had flown to measure it.
+By 1957 the ballistic answer was understood. Allen and Eggers had shown that a blunt body survives reentry by putting its energy into the air, not into itself, and the [X-17][related_post_a314_lockheed_x17] had flown to measure it, in [Heppenheimer][ref_heppenheimer_2007].
 
-**A ballistic capsule cannot choose where it lands.** For a reconnaissance or bombing vehicle, which is what the Air Force wanted, that is disqualifying. Crossrange is the ability to land somewhere other than directly under the orbit, and it is what makes a once-a-day overflight into an aircraft that can come home on the pass it chooses.
+**A ballistic capsule cannot choose where it lands.** The Air Force wanted a reconnaissance or bombing vehicle, and for that role the limitation is disqualifying. Crossrange is the ability to land somewhere other than directly under the orbit. It turns a once-a-day overflight into an aircraft that can come home on the pass it chooses.
 
-The unknown was not whether lift produces crossrange. It obviously does. **The unknown was whether the thermal price of the lift could be paid by a structure that a pilot could sit inside**, and the design literature of the moment was working out the vehicle that would answer it, in [Kelly 1958][research_kelly_1958], [Doggett 1959][research_doggett_1959], [Paulson and Shanks 1959][research_paulson_shanks_1959], [Bell Aerospace Co Buffalo Ny 1959][research_ny_1959], [Rotelli 1960][research_rotelli_1960], [Czarnecki and Davison 1960][research_czarnecki_davison_1960], [Campbell and Shepler 1960][research_campbell_shepler_1960], [Helper et al 1960][research_helper_1960], [Lee and Mason 1960][research_lee_mason_1960], [Paulson and Shanks 1961][research_paulson_shanks_1961], [Seiff and Wilkins 1961][research_seiff_wilkins_1961], [Walker 1962][research_walker_1962].
+The unknown was not whether lift produces crossrange. It does. **The unknown was whether the thermal price of the lift could be paid by a structure that a pilot could sit inside**, and the design literature of the moment was working out the vehicle that would answer it, in [Kelly 1958][research_kelly_1958], [Doggett 1959][research_doggett_1959], [Paulson and Shanks 1959][research_paulson_shanks_1959], [Bell Aerospace Co Buffalo Ny 1959][research_ny_1959], [Rotelli 1960][research_rotelli_1960], [Czarnecki and Davison 1960][research_czarnecki_davison_1960], [Campbell and Shepler 1960][research_campbell_shepler_1960], [Helper et al 1960][research_helper_1960], [Lee and Mason 1960][research_lee_mason_1960], [Paulson and Shanks 1961][research_paulson_shanks_1961], [Seiff and Wilkins 1961][research_seiff_wilkins_1961], [Walker 1962][research_walker_1962].
 
 ## Programme Origin
 
-The lineage runs back to the Sänger and Bredt antipodal bomber study, whose report circulated widely after 1945 and whose skip-glide trajectory is the ancestor of every boost-glide proposal that followed. It reappeared in the United States as a family of separate programmes, namely BOMI for bomber missile, Brass Bell for reconnaissance, ROBO for rocket bomber, and HYWARDS, the hypersonic weapon and research and development system.
+The lineage runs back to the Sänger and Bredt antipodal bomber study, a secret report of 1944 printed in fewer than a hundred copies, some of which reached the Allies after the German surrender, and whose skipping entry shaped the line of thought that led to Dyna-Soar. It reappeared in the United States as a family of separate programmes, namely BOMI for bomber missile, Brass Bell for reconnaissance, ROBO for rocket bomber, and HYWARDS, the Hypersonic Weapons Research and Development Supporting System, in [Heppenheimer][ref_heppenheimer_2007].
 
-On 10 October 1957 the Air Research and Development Command consolidated HYWARDS, Brass Bell and ROBO into a single three-step programme, System 464L, under the name Dyna-Soar, a contraction of dynamic soaring. **That was six days after Sputnik.**
+On 10 October 1957 the Air Research and Development Command consolidated HYWARDS, Brass Bell and ROBO into a single three-step programme, System 464L, under the name Dyna-Soar, a contraction of dynamic soaring, in [Heppenheimer][ref_heppenheimer_2007]. **That was six days after Sputnik.**
 
-The programme is usually dated from 24 October 1957 to 10 December 1963. On 25 November 1957 Brigadier General Homer Boushey issued Development Directive 94, which allocated 3 million dollars to more detailed studies once contractors had been selected, as [Heppenheimer's history of hypersonics][ref_heppenheimer_2007] records. Nine companies competed, Boeing and Martin were the finalists in June 1958, and an evaluation in June 1959 chose Boeing's glider and Martin's booster, according to the programme office's progress report of April 1963 by [Hargis][research_hargis_1964]. The same evaluation chose a hot primary structure over an actively cooled aluminium one, because Boeing had demonstrated its feasibility during the competition and a passive system was judged the more reliable, as the report records.
+The programme is usually dated from 24 October 1957 to 10 December 1963, in the [reference entry][ref_x20]. On 25 November 1957 Brigadier General Homer Boushey issued Development Directive 94, which allocated 3 million dollars to more detailed studies once contractors had been selected, in [Heppenheimer's history of hypersonics][ref_heppenheimer_2007]. Nine companies competed, Boeing and Martin were the finalists in June 1958, and an evaluation in June 1959 chose Boeing's glider and Martin's booster, according to the programme office's progress report of April 1963 by [Hargis][research_hargis_1964]. The same evaluation chose a hot primary structure over an actively cooled aluminium one, because Boeing had demonstrated its feasibility during the competition and a passive system was judged the more reliable, as the report records.
 
 **The vehicle was chosen from nine designs worked in eight weeks.** In the study phase Boeing called Phase Alpha, 21 candidate reentry devices were narrowed to nine, from a drag brake and two lifting bodies to gliders with hypersonic lift-to-drag ratios of 1.5, 2.2 and 3.0, and each was carried through a preliminary design against one set of ground rules, in [Goldie 1960][research_goldie_1960] and [Braun 1960][research_braun_1960]. **Those ground rules already describe the X-20.** They asked for one pilot, 1,000 pounds of research equipment, a once-around orbital capability, a landing within ten square miles, and reuse for four flights. Braun's comparison found that the requirement of a conventional landing by itself implied a hypersonic lift-to-drag ratio of 1.5 or more, and Boeing ranked its 3.0 and 2.2 gliders first in research value.
 
@@ -53,23 +53,23 @@ The programme is usually dated from 24 October 1957 to 10 December 1963. On 25 N
 
 $$410 + 373 = 783 \ \text{million dollars}, \qquad \frac{410}{783} = 52.4\%$$
 
-**The programme was stopped a little past the middle of its budget.** The total of 660 million dollars often quoted for it, as in the [reference entry][ref_x20], does not appear in any primary document cited here and lies between the amount spent and the amount planned. [Hallion][ref_hallion_1984] gives the grounds for cancellation as questions over the vehicle's utility, research potential and safety. The same announcement funded the [Manned Orbiting Laboratory][ref_mol], which was itself cancelled in 1969 without flying a crew.
+**The programme was stopped a little past the middle of its budget.** The total of 660 million dollars often quoted for it, as in the [reference entry][ref_x20], does not appear in any primary document cited here and lies between the amount spent and the amount planned. [Hallion][ref_hallion_1984] gives the grounds for cancellation as questions over the vehicle's utility, research potential and safety. The same announcement funded the [Manned Orbiting Laboratory][ref_mol], which was also cancelled in 1969 without flying a crew.
 
 ## Sizing From First Principles
 
 ### The Vehicle
 
-The glider is small and its proportions are unlike anything else in this series. A delta of 345 square feet with a span of 20.8 feet on a length of 35.34 feet, weighing 11,386 pounds at most.
+The glider is small and its proportions are unlike anything else in this series. A delta of 345 square feet with a span of 20.8 feet on a length of 35.34 feet, weighing 11,387 pounds at most, in the [reference entry][ref_x20].
 
 $$\text{AR} = \frac{b^{2}}{S} = \frac{20.8^{2}}{345} = 1.254$$
 
-That aspect ratio is a quarter of an airliner's, which is what hypersonic flight demands and what subsonic flight then has to live with.
+That aspect ratio is far below an airliner's. Hypersonic flight demands it, and subsonic flight then has to live with it.
 
-$$\frac{W}{S} = \frac{11{,}386}{345} = 33.0 \ \text{lb/ft}^{2}$$
+$$\frac{W}{S} = \frac{11{,}387}{345} = 33.0 \ \text{lb/ft}^{2}$$
 
-**Thirty-three pounds per square foot, against the eighty-eight of the previous article's aircraft.** The [X-19][related_post_a316_curtiss_wright_x19] wanted the highest wing loading it could carry and this vehicle wants the lowest, and the reason is thermal and not aerodynamic.
+**Thirty-three pounds per square foot, against the eighty-eight of the previous article's aircraft.** The [X-19][related_post_a316_curtiss_wright_x19] wanted the highest wing loading it could carry and this vehicle wants the lowest, and the motive is thermal and not aerodynamic.
 
-**These are the reference-work figures, and the programme's own are a little heavier.** In April 1963 the programme office gave a 12,250 pound glider including 1,000 pounds of payload, a 5,750 pound transition section behind it, a lower surface of 345 square feet, a length of 35.3 feet, a span of 20.8 feet, and re-entry and landing weights of 12,000 and 11,700 pounds, in [Hargis][research_hargis_1964]. At re-entry that is
+**These are the reference-work figures, and the programme documents put the glider a little heavier.** In April 1963 the programme office gave a 12,250 pound glider including 1,000 pounds of payload, a 5,750 pound transition section behind it, a lower surface of 345 square feet, a length of 35.3 feet, a span of 20.8 feet, and re-entry and landing weights of 12,000 and 11,700 pounds, in [Hargis][research_hargis_1964]. At re-entry that is
 
 $$\frac{W}{S} = \frac{12{,}000}{345} = 34.8 \ \text{lb/ft}^{2}$$
 
@@ -92,7 +92,7 @@ The shape was not drawn once. Boeing's configuration history counts 51 configura
 
 The last column is $W/S$ computed from the first and third, and the rest is Rotelli's table. His text gives 4.5 rather than 4.7 for the subsonic ratio of April 1959.
 
-**The thermal limit drove most of the changes.** The first design's large base area held its subsonic lift-to-drag ratio to 3.25, and its hypersonic ratio of 1.85 gave too little lateral range. The December 1958 design moved to a flat bottom and enlarged the wing from 250 to 330 square feet to lower the wing loading, because heating now had to be computed for turbulent rather than laminar flow. Its lower surface then still ran about 500 degrees Fahrenheit beyond what a superalloy could carry, so the April 1959 design shed redundant equipment to cut weight and added insulated molybdenum panels to the forward lower surface, and the March 1960 design covered the whole underside with them. Rotelli concludes that every excursion, from a 5,000 pound unmanned vehicle to a 15,000 pound two-man one, was forced back to a wing loading of 20 to 30 pounds per square foot and a hypersonic lift-to-drag ratio of 1.5 to 2.5 by three constraints. They were the capability of the available missile boosters, the temperature limits of the structure, and the requirements for pilot control, a conventional landing, stability, manoeuvre and orbital speed.
+**The thermal limit drove most of the changes.** The first design's large base area held its subsonic lift-to-drag ratio to 3.25, and its hypersonic ratio of 1.85 gave too little lateral range. The December 1958 design moved to a flat bottom and enlarged the wing from 250 to 330 square feet to lower the wing loading, because heating now had to be computed for turbulent rather than laminar flow. Its lower surface then still ran about 500 degrees Fahrenheit beyond what a superalloy could carry, so the April 1959 design shed redundant equipment to cut weight and added insulated molybdenum panels to the forward lower surface, and the March 1960 design covered the whole underside with them, in [Rotelli 1960][research_rotelli_1960]. Rotelli concludes that every excursion, from a 5,000 pound unmanned vehicle to a 15,000 pound two-man one, was forced back to a wing loading of 20 to 30 pounds per square foot and a hypersonic lift-to-drag ratio of 1.5 to 2.5 by three constraints. They were the capability of the available missile boosters, the temperature limits of the structure, and the requirements for pilot control, a conventional landing, stability, manoeuvre and orbital speed.
 
 ### The Energy
 
@@ -106,9 +106,9 @@ $$\frac{V_c^{2}}{2g} = 1.045 \times 10^{7} \ \text{ft lb per lb}$$
 
 Multiplying by the weight and converting mechanical to thermal units at 778.169 foot-pounds per British thermal unit,
 
-$$Q_{\text{total}} = \frac{W}{778.169} \frac{V_c^{2}}{2g} = \frac{11{,}386 \times 1.045 \times 10^{7}}{778.169} = 1.529 \times 10^{8} \ \text{BTU}$$
+$$Q_{\text{total}} = \frac{W}{778.169} \frac{V_c^{2}}{2g} = \frac{11{,}387 \times 1.045 \times 10^{7}}{778.169} = 1.529 \times 10^{8} \ \text{BTU}$$
 
-**That is the number the thermal protection system exists to dispose of.** For scale, it is roughly the energy released by burning 1,133 gallons of kerosene, and it has to leave the vehicle through its skin.
+**The thermal protection system exists to dispose of this energy.** For scale, it is roughly the energy released by burning 1,133 gallons of kerosene, and it has to leave the vehicle through its skin.
 
 ### The Equilibrium Glide
 
@@ -116,7 +116,7 @@ A vehicle at orbital speed is nearly weightless, because the speed itself suppli
 
 $$L = W \left( 1 - \frac{V^{2}}{V_c^{2}} \right)$$
 
-That bracket is the centrifugal relief and it is the reason a reentry glider flies in air a thousand times thinner than an aeroplane needs. Writing the lift out gives the density the vehicle must find at each speed.
+That bracket is the centrifugal relief. Because of it, a reentry glider flies in air a thousand times thinner than an aeroplane needs. Writing the lift out gives the density the vehicle must find at each speed.
 
 $$\tfrac{1}{2} \rho V^{2} S C_L = W \left( 1 - \frac{V^{2}}{V_c^{2}} \right)$$
 
@@ -130,11 +130,11 @@ Deceleration follows from the drag that the lift implies.
 
 $$\frac{dV}{dt} = -\frac{D}{m} = -\frac{g \left( 1 - V^{2}/V_c^{2} \right)}{L/D}$$
 
-That deceleration is largest when the centrifugal relief has gone, which is at the slow end, not the fast one.
+That deceleration is largest when the centrifugal relief has gone, at the slow end and not the fast one.
 
 $$\left. \frac{dV}{dt} \right|_{\max} = \frac{g}{L/D} = \frac{32.174}{1.350} = 23.8 \ \text{ft/s}^{2} = 0.741 \, g$$
 
-**Three quarters of gravity, and never more on the equilibrium glide**, which is gentle enough for a pilot to work through and is the second thing lift buys. A ballistic entry at the same speed reaches eight or ten times that. The Step I flight-test plan expected longitudinal decelerations of 0.3 to 2.0 g over re-entries lasting up to 30 minutes, in [Baker et al 1960][research_baker_1960], and the upper end of that band lies outside what an equilibrium glide produces.
+**Three quarters of gravity, and never more on the equilibrium glide.** A pilot can work through that load, and its gentleness is the second thing lift buys. A ballistic capsule returning from orbit reaches more than ten times that, about 8 g in the case of [Project Mercury][ref_mercury]. The Step I flight-test plan expected longitudinal decelerations of 0.3 to 2.0 g over re-entries lasting up to 30 minutes, in [Baker et al 1960][research_baker_1960], and the upper end of that band lies outside what an equilibrium glide produces.
 
 Converting the density to an altitude needs the atmosphere, and above about 100,000 feet an exponential fit with a scale height $H$ near 23,800 feet is adequate.
 
@@ -152,11 +152,11 @@ and integrating gives the classical closed form.
 
 $$R = \frac{L}{D} \frac{V_c^{2}}{2g} \ln \left[ \frac{1}{1 - (V/V_c)^{2}} \right]$$
 
-Crossrange is the quantity the programme actually wanted, and the classical approximation for the maximum lateral distance reachable by banking is quadratic in lift-to-drag ratio.
+Crossrange is the quantity the programme wanted, and the classical approximation for the maximum lateral distance reachable by banking is quadratic in lift-to-drag ratio.
 
 $$\text{CR}_{\max} \approx 0.319 \, R_e \left( \frac{L}{D} \right)^{2}$$
 
-The programme's design approach of March 1960 asked for a lateral range of at least 2,000 nautical miles, in [Rotelli][research_rotelli_1960], and the progress report of 1963 gives the same 2,000 miles to one side of the orbital track, in [Hargis][research_hargis_1964]. That is a checkable claim and not a slogan. With $R_e$ equal to 3,440 nautical miles, inverting the relation gives the lift-to-drag ratio it requires.
+The programme's design approach of March 1960 asked for a lateral range of at least 2,000 nautical miles, in [Rotelli][research_rotelli_1960], and the progress report of 1963 gives the same 2,000 miles to one side of the orbital track, in [Hargis][research_hargis_1964]. With $R_e$ equal to 3,440 nautical miles, inverting the relation gives the lift-to-drag ratio it requires.
 
 $$\frac{L}{D} = \sqrt{\frac{\text{CR}}{0.319 R_e}} = \sqrt{\frac{2{,}000}{1{,}097.4}} = 1.350$$
 
@@ -172,17 +172,17 @@ The article assumes a trimmed lift coefficient of 0.6, and inverting the first o
 
 $$\alpha = 38.14^{\circ}$$
 
-At that angle the drag coefficient is 0.4712, and the lift-to-drag ratio is a remarkably simple thing, because the two coefficients differ by exactly one factor of the tangent.
+At that angle the drag coefficient is 0.4712, and the lift-to-drag ratio takes a simple form, because the two coefficients differ by exactly one factor of the tangent.
 
 $$\frac{L}{D} = \frac{\cos\alpha}{\sin\alpha} = \cot\alpha = 1.273$$
 
 **Against the 1.350 that 2,000 nautical miles of crossrange requires, that is agreement to 5.7 percent**, reached from two directions that share nothing. One is a mission requirement inverted through an orbital mechanics approximation. The other is impact theory applied to a flat plate at an assumed lift coefficient.
 
-That the check works at all rests on Newtonian theory being a good approximation in this regime, which is a question with its own literature, in [Dyke 1951][research_dyke_1951], [Hayes 1959][research_hayes_1959], [Freeman 1960][research_freeman_1960], [Freeman 1960][research_freeman_1960_2], [Freeman 1962][research_freeman_1962], [Lunev and Pavlov 1966][research_lunev_pavlov_1966], [Dsouza 1970][research_dsouza_1970], [Barren and Mandl 1978][research_barren_mandl_1978], [Verhoff et al 1990][research_verhoff_1990]. The theory is exact only in the limit of infinite Mach number and zero shock standoff, and its accuracy on real bodies at finite Mach number is what those papers establish. The wind-tunnel record for such shapes is extensive, in [Robinson and Bernot 1958][research_robinson_bernot_1958], [Kaufman 1963][research_kaufman_g_1963], [Meckler 1965][research_meckler_1965], [Giles and Thomas 1966][research_giles_thomas_1966], [Graves and Carmel 1968][research_graves_carmel_1968], [Merz 1968][research_merz_1968], [Pfaff 1968][research_pfaff_1968], [Goldberg et al 1969][research_goldberg_1969].
+That the check works at all depends on Newtonian theory being a good approximation in this regime, a question studied in [Dyke 1951][research_dyke_1951], [Hayes 1959][research_hayes_1959], [Freeman 1960][research_freeman_1960], [Freeman 1960][research_freeman_1960_2], [Freeman 1962][research_freeman_1962], [Lunev and Pavlov 1966][research_lunev_pavlov_1966], [Dsouza 1970][research_dsouza_1970], [Barren and Mandl 1978][research_barren_mandl_1978], [Verhoff et al 1990][research_verhoff_1990]. The theory is exact only in the limit of infinite Mach number and zero shock standoff, and its accuracy on real bodies at finite Mach number is what those papers establish. The wind-tunnel record for such shapes is extensive, in [Robinson and Bernot 1958][research_robinson_bernot_1958], [Kaufman 1963][research_kaufman_g_1963], [Meckler 1965][research_meckler_1965], [Giles and Thomas 1966][research_giles_thomas_1966], [Graves and Carmel 1968][research_graves_carmel_1968], [Merz 1968][research_merz_1968], [Pfaff 1968][research_pfaff_1968], [Goldberg et al 1969][research_goldberg_1969].
 
 ### What Boeing Computed for the Same Vehicle
 
-**The two closed forms above can be held against the programme's own aerodynamics.** For the 1960 glider of 330 square feet, [Lesko 1960][research_lesko_1960] gives a trimmed Mach 20 polar at three points, built on turbulent skin friction, and the flat-plate relations of the previous subsection can be evaluated at the same angles of attack.
+**The two closed forms above can be held against the aerodynamics computed in the programme.** For the 1960 glider of 330 square feet, [Lesko 1960][research_lesko_1960] gives a trimmed Mach 20 polar at three points, built on turbulent skin friction, and the flat-plate relations of the previous subsection can be evaluated at the same angles of attack.
 
 | Angle of attack | Lesko $C_L$ | Lesko L/D | Newtonian $C_L$ | Newtonian L/D | Newtonian over Lesko L/D |
 |---|---|---|---|---|---|
@@ -190,17 +190,17 @@ That the check works at all rests on Newtonian theory being a good approximation
 | 29° | 0.45 | 1.5 | 0.411 | 1.804 | 1.203 |
 | 50° | 0.69 | 0.8 | 0.754 | 0.839 | 1.049 |
 
-**Impact theory is good at high angle of attack and poor at low.** At 50 degrees it is within 5 percent of the trimmed ratio, at 29 degrees it is 20 percent high, and at the 15 degrees of maximum lift-to-drag ratio it is 71 percent high. Lesko gives the reason in the same paper, since skin friction is 30.5 percent of the drag at maximum lift-to-drag ratio at Mach 20 and under 5 percent at maximum lift, and impact theory contains no friction. The flat-plate check above is therefore a fair estimate only because its assumed lift coefficient of 0.6 lies at the high-angle end where the theory works. The ratio of the largest to the smallest trimmed lift-to-drag ratio,
+**Impact theory is good at high angle of attack and poor at low.** At 50 degrees it is within 5 percent of the trimmed ratio, at 29 degrees it is 20 percent high, and at the 15 degrees of maximum lift-to-drag ratio it is 71 percent high. Lesko explains the pattern in the same paper. Skin friction is 30.5 percent of the drag at maximum lift-to-drag ratio at Mach 20 and under 5 percent at maximum lift, and impact theory contains no friction. The flat-plate check above is therefore a fair estimate only because its assumed lift coefficient of 0.6 lies at the high-angle end where the theory works. The ratio of the largest to the smallest trimmed lift-to-drag ratio,
 
 $$\frac{2.18}{0.8} = 2.7$$
 
-is the range-control capability Lesko cites, and it is the reason the nominal glide was planned at a lift coefficient of 0.45 near the middle of the polar.
+is the range-control capability Lesko cites, and for that reason the nominal glide was planned at a lift coefficient of 0.45 near the middle of the polar.
 
 **The quadratic crossrange relation overstates what the vehicle could do.** At the design maximum of 2.18 it predicts
 
 $$\text{CR} = 1{,}097.4 \times 2.18^{2} = 5{,}215 \ \text{nautical miles}$$
 
-where Lesko's own trajectory computation gives 2,200 nautical miles for a turn at maximum lift-to-drag ratio and a 45 degree bank, begun at 23,000 feet per second relative to the rotating Earth, rising to 2,500 from 24,100 feet per second. Braun's Phase Alpha comparison gives lateral manoeuvre from 23,000 feet per second for three gliders, which shows the same shortfall.
+where Lesko's trajectory computation gives 2,200 nautical miles for a turn at maximum lift-to-drag ratio and a 45 degree bank, begun at 23,000 feet per second relative to the rotating Earth, rising to 2,500 from 24,100 feet per second. Braun's Phase Alpha comparison gives lateral manoeuvre from 23,000 feet per second for three gliders, which shows the same shortfall.
 
 | Hypersonic L/D | Braun lateral range, nm | Quadratic relation, nm | Braun over quadratic |
 |---|---|---|---|
@@ -212,9 +212,9 @@ Braun's figures grow more slowly than the square of lift-to-drag ratio. Between 
 
 $$n = \frac{\ln (3{,}500 / 1{,}100)}{\ln (3.0 / 1.5)} = 1.67$$
 
-**Part of the shortfall is the starting speed and part is the coefficient.** The closed form assumes a turn begun at circular speed, and both programme figures start below it, which removes the fastest and most productive part of the turn. How the gap divides between that and the coefficient itself is not settled by these documents. What they do settle is that the X-20 reached its 2,000 miles with a design maximum of about 2.2 and not with the 1.35 the closed form asks for, so the 5.7 percent agreement above is agreement between two idealisations and not a prediction of the vehicle's polar.
+**Part of the shortfall is the starting speed and part is the coefficient.** The closed form assumes a turn begun at circular speed, and both programme figures start below it, which removes the fastest and most productive part of the turn. How the gap divides between that and the coefficient itself is not settled by these documents. They do establish that the X-20 reached its 2,000 miles with a design maximum of about 2.2, well above the 1.35 the closed form asks for. The 5.7 percent agreement above is thus agreement between two idealisations. It does not predict the vehicle's polar.
 
-### The Trade, Which Is Not the Trade It Appears to Be
+### Peak Rate Against Total Load
 
 Now substitute the glide density into the stagnation-point heating relation, in the Sutton-Graves form this series used for the [X-17][related_post_a314_lockheed_x17], where $R_n$ is the nose radius.
 
@@ -226,7 +226,7 @@ $$\dot{q} \propto \sqrt{\frac{W}{S C_L}} \, V^{2} \sqrt{1 - \frac{V^{2}}{V_c^{2}
 
 **Lift-to-drag ratio has vanished.** The peak heating rate on an equilibrium glide does not depend on it at all.
 
-Where that peak falls is worth locating, because the answer is a pure number. Write $u = (V/V_c)^{2}$ and the heating becomes proportional to a function of $u$ alone.
+The location of that peak reduces to a pure number. Write $u = (V/V_c)^{2}$ and the heating becomes proportional to a function of $u$ alone.
 
 $$\dot{q} \propto u \sqrt{1 - u} \cdot V_c^{2} \quad \text{so} \quad \dot{q}^{2} \propto u^{2} (1 - u)$$
 
@@ -244,9 +244,9 @@ What lift-to-drag ratio changes is the time spent near that rate, through the de
 
 $$Q = \int \dot{q} \, dt = \int \frac{\dot{q}}{|dV/dt|} \, dV \propto \frac{L}{D}$$
 
-The heating correlation underneath all of this is itself a fitted result and not a derivation, and the aerodynamic heating work behind it, experimental and theoretical alike, accumulated from 1949 onward, in [Luce 1949][research_luce_jr_1949], [Johnson and Rubesin 1949][research_johnson_rubesin_1949], [Emmons 1951][research_emmons_1951], [Bryson 1952][research_bryson_1952], [Emmons 1955][research_emmons_1955], [McLellan 1955][research_mclellan_1955], [Snodgrass 1955][research_snodgrass_1955], [Budiansky and Mayers 1956][research_budiansky_mayers_1956], [Masters and Cohen 1957][research_masters_cohen_1957], [Vandrey 1957][research_vandrey_1957], [Maslen and Ostrach 1957][research_maslen_ostrach_1957], [Miele 1957][research_miele_1957], [Warmbrod 1963][research_warmbrod_1963], [Reba 1964][research_reba_1964], [Vanmol and Anderson 1992][research_vanmol_anderson_1992].
+The heating correlation underneath all of this is a fitted result and not a derivation, and the aerodynamic heating work behind it, experimental and theoretical alike, accumulated from 1949 onward, in [Luce 1949][research_luce_jr_1949], [Johnson and Rubesin 1949][research_johnson_rubesin_1949], [Emmons 1951][research_emmons_1951], [Bryson 1952][research_bryson_1952], [Emmons 1955][research_emmons_1955], [McLellan 1955][research_mclellan_1955], [Snodgrass 1955][research_snodgrass_1955], [Budiansky and Mayers 1956][research_budiansky_mayers_1956], [Masters and Cohen 1957][research_masters_cohen_1957], [Vandrey 1957][research_vandrey_1957], [Maslen and Ostrach 1957][research_maslen_ostrach_1957], [Miele 1957][research_miele_1957], [Warmbrod 1963][research_warmbrod_1963], [Reba 1964][research_reba_1964], [Vanmol and Anderson 1992][research_vanmol_anderson_1992].
 
-So the three quantities scale in three different ways, and setting them beside each other is the whole argument of this article.
+So the three quantities scale in three different ways, and the argument of this article comes from setting them side by side.
 
 | Lift-to-drag ratio | Peak rate, BTU per square foot second | Total load, BTU per square foot | Crossrange, nm |
 |---|---|---|---|
@@ -258,17 +258,17 @@ So the three quantities scale in three different ways, and setting them beside e
 | 2.00 | 47.78 | 117,614 | 4,390 |
 | 3.00 | 47.78 | 176,421 | 9,876 |
 
-The three columns obey three different powers of the same variable, which is the whole content of the table.
+The three columns obey three different powers of the same variable.
 
 $$\frac{\dot{q}_2}{\dot{q}_1} = \left( \frac{L/D_2}{L/D_1} \right)^{0} = 1, \qquad \frac{Q_2}{Q_1} = \frac{L/D_2}{L/D_1}, \qquad \frac{\text{CR}_2}{\text{CR}_1} = \left( \frac{L/D_2}{L/D_1} \right)^{2}$$
 
 **Across the twelvefold change from 0.25 to 3.00 the peak rate does not move in the fourth decimal place, the total load rises by a factor of twelve, and the crossrange rises by a factor of one hundred and forty-four.**
 
-That is a remarkably clean decomposition. **Peak temperature, which selects the material, is set by wing loading alone. Mission reach, which selects the programme, is set by lift-to-drag ratio alone.** The two design decisions do not interfere, which is not something a designer is often given.
+The decomposition is clean. **Peak temperature, which selects the material, is set by wing loading alone. Mission reach, which selects the programme, is set by lift-to-drag ratio alone.** The two design decisions do not interfere, and a designer is seldom given that.
 
 ### Against the Ballistic Case
 
-The comparison that matters is with the vehicle the X-20 was an alternative to. A ballistic entry needs its own integration, along the Allen-Eggers solution, not the glide, since a body with no lift does not fly an equilibrium anything.
+The comparison that matters is with the vehicle the X-20 was an alternative to. A ballistic entry needs a separate integration, along the Allen-Eggers solution, not the glide, since a body with no lift does not fly an equilibrium anything.
 
 $$V(z) = V_e \exp \left[ -\frac{\rho_0 H}{2 \beta \sin\gamma} e^{-z/H} \right]$$
 
@@ -278,7 +278,7 @@ $$\beta = \frac{W}{C_D A}$$
 
 At 50 pounds per square foot and a five degree path angle, the peak stagnation heating is 1,247 British thermal units per square foot second at about 87,000 feet, against 47.8 for the glider.
 
-The ballistic entry problem was worked thoroughly in exactly these years, in [Scherberg and Rubin 1953][research_scherberg_rubin_1953], [Phillips and Cohen 1959][research_phillips_cohen_1959], [Foster 1960][research_foster_1960], [Schweppe 1964][research_schweppe_1964], [Reinikka and Sartell 1965][research_reinikka_sartell_1965], [Platus 1980][research_platus_1980], [Vinh and Lin 1982][research_vinh_lin_1982], [Hough 1982][research_hough_1982], [Hough 1982][research_hough_1982_2], [Zimmermann et al 1996][research_zimmermann_1996], [Tillier 1998][research_tillier_1998], and one of those addresses **drag modulation to reduce deceleration loads**, which is the ballistic vehicle's own attempt at the softening that lift provides for free.
+The ballistic entry problem was worked thoroughly during these years, in [Scherberg and Rubin 1953][research_scherberg_rubin_1953], [Phillips and Cohen 1959][research_phillips_cohen_1959], [Foster 1960][research_foster_1960], [Schweppe 1964][research_schweppe_1964], [Reinikka and Sartell 1965][research_reinikka_sartell_1965], [Platus 1980][research_platus_1980], [Vinh and Lin 1982][research_vinh_lin_1982], [Hough 1982][research_hough_1982], [Hough 1982][research_hough_1982_2], [Zimmermann et al 1996][research_zimmermann_1996], [Tillier 1998][research_tillier_1998], and one of those addresses **drag modulation to reduce deceleration loads**, the ballistic vehicle's attempt at the softening that lift provides for free.
 
 $$\frac{\dot{q}_{\text{ballistic}}}{\dot{q}_{\text{glide}}} = \frac{1{,}247}{47.8} = 26.1$$
 
@@ -286,7 +286,7 @@ $$\frac{\dot{q}_{\text{ballistic}}}{\dot{q}_{\text{glide}}} = \frac{1{,}247}{47.
 
 $$\frac{Q_{\text{ballistic}}}{Q_{\text{glide}}} = \frac{69{,}898}{79{,}389} = 0.880$$
 
-That is not the result the framing predicted. The glider pays about 14 percent more total heat, which is not a large penalty. **What it buys is a twenty-six-fold reduction in peak rate**, and that reduction is the entire reason a radiatively cooled structure is possible.
+The framing predicted otherwise. The glider pays about 14 percent more total heat, a modest penalty. **In return it gets a twenty-six-fold reduction in peak rate**, and without that reduction a radiatively cooled structure would not be possible.
 
 ### Radiation Equilibrium
 
@@ -306,13 +306,13 @@ The flat lower surface sees far less, because it is neither stagnating the flow 
 
 $$T_{\text{surface}} = \left( \frac{0.12 \, \dot{q}_{\text{peak}}}{\varepsilon \sigma} \right)^{1/4} = 1{,}480 \ ^\circ\text{F}$$
 
-**The fourth root is what makes the structure possible.** An eightfold reduction in heating buys only a 1,357 degree reduction in temperature, but it is the reduction that puts the primary structure inside a superalloy's range.
+**The fourth root is what makes the structure possible.** An eightfold reduction in heating yields only a 1,357 degree reduction in temperature, but those degrees put the primary structure inside a superalloy's range.
 
-**The programme's own nose figures can be reached from these relations.** [Heppenheimer][ref_heppenheimer_2007] gives the nose cap of the 1963 design a radius of 7.5 inches, a peak heat flux of 143 British thermal units per square foot second and a temperature of 3,680 degrees Fahrenheit, and [Hargis][research_hargis_1964] gives the same radius and 3,650 degrees. The analysis above assumes a radius of one foot and a lift coefficient of 0.6. Rescaling the stagnation relation to the documented radius, to Lesko's lift coefficient of 0.15 at maximum lift-to-drag ratio, and to a 45 degree bank, which tilts the lift so that the glide must find air thicker by the factor $1/\cos 45^{\circ}$, gives
+**The nose figures in the programme documents can be reached from these relations.** [Heppenheimer][ref_heppenheimer_2007] gives the nose cap of the 1963 design a radius of 7.5 inches, a peak heat flux of 143 British thermal units per square foot second and a temperature of 3,680 degrees Fahrenheit, and [Hargis][research_hargis_1964] gives the same radius and 3,650 degrees. The analysis above assumes a radius of one foot and a lift coefficient of 0.6. Rescaling the stagnation relation to the documented radius, to Lesko's lift coefficient of 0.15 at maximum lift-to-drag ratio, and to a 45 degree bank, which tilts the lift so that the glide must find air thicker by the factor $1/\cos 45^{\circ}$, gives
 
 $$\dot{q} = 47.78 \sqrt{\frac{12}{7.5}} \sqrt{\frac{0.6}{0.15}} \frac{1}{\sqrt{\cos 45^{\circ}}} = 47.78 \times 1.265 \times 2.000 \times 1.189 = 143.7$$
 
-against the documented 143. **That agreement is closer than the inputs warrant.** It rests on the assumed heating constant and on the reference-work wing loading, and at the programme's own re-entry weight the same chain gives about 3 percent more. The inference it does support is that the design figure belongs to flight low in the corridor, of the kind a banked turn at maximum lift-to-drag ratio produces, and not to the nominal glide at a lift coefficient of 0.45, for which the chain gives
+against the documented 143. **That agreement is closer than the inputs warrant.** It depends on the assumed heating constant and on the reference-work wing loading, and at the programme office's re-entry weight the same chain gives about 3 percent more. What the agreement does support is that the design figure corresponds to flight low in the corridor, of the kind a banked turn at maximum lift-to-drag ratio produces, and not to the nominal glide at a lift coefficient of 0.45, for which the chain gives
 
 $$47.78 \sqrt{\frac{12}{7.5}} \sqrt{\frac{0.6}{0.45}} = 69.8$$
 
@@ -320,11 +320,11 @@ The Phase I nose of 1959 and 1960 was designed for more. [Kaminsky and Klopfenst
 
 $$T = \left( \frac{178}{0.9 \times 0.4759 \times 10^{-12}} \right)^{1/4} - 460 = 4{,}055 \ ^\circ\text{F}$$
 
-**The emissivity in that expression is doing real work and is not well constrained.** Temperature goes as the inverse fourth root of it, so a surface at 0.6 and not 0.85 runs about 300 degrees hotter. The programme's own plasma-jet tests recorded emissivities of 0.37 on a coated columbium leading edge, 0.43 on an alumina and molybdenum laminate, and 0.7 on coated molybdenum, in [Kaminsky and Klopfenstein][research_kaminsky_klopfenstein_1960]. At the peak rate of 47.8 those values put the stagnation region at
+**The emissivity in that expression matters, and it is not well constrained.** Temperature goes as the inverse fourth root of it, so a surface at 0.6 and not 0.85 runs about 300 degrees hotter. The programme's plasma-jet tests recorded emissivities of 0.37 on a coated columbium leading edge, 0.43 on an alumina and molybdenum laminate, and 0.7 on coated molybdenum, in [Kaminsky and Klopfenstein][research_kaminsky_klopfenstein_1960]. At the peak rate of 47.8 those values put the stagnation region at
 
 $$T_{0.7} = 3{,}001 \ ^\circ\text{F}, \qquad T_{0.37} = 3{,}599 \ ^\circ\text{F}$$
 
-against 2,837 at 0.85, which is why the production panels carried a thin outer layer of silicon carbide, added for its emissivity and credited with lowering temperatures by as much as 200 degrees in [Heppenheimer][ref_heppenheimer_2007]. The emissivity of refractory metals and oxides, and the radiative properties of hot air and gases, were active subjects at these temperatures, not settled ones, in [Sully et al 1952][research_sully_1952], [Armstrong et al 1961][research_armstrong_1961], [Pai 1966][research_pai_1966], [Vertogradskii 1969][research_vertogradskii_1969], [Peletskii and Shur 1977][research_peletskii_shur_1977], [Wang et al 2011][research_wang_2011].
+against 2,837 at 0.85. The production panels accordingly carried a thin outer layer of silicon carbide, added for its emissivity and credited with lowering temperatures by as much as 200 degrees in [Heppenheimer][ref_heppenheimer_2007]. The emissivity of refractory metals and oxides, and the radiative properties of hot air and gases, were active subjects at these temperatures, not settled ones, in [Sully et al 1952][research_sully_1952], [Armstrong et al 1961][research_armstrong_1961], [Pai 1966][research_pai_1966], [Vertogradskii 1969][research_vertogradskii_1969], [Peletskii and Shur 1977][research_peletskii_shur_1977], [Wang et al 2011][research_wang_2011].
 
 **Those two numbers select the two materials.** [René 41][ref_rene41] is a nickel superalloy usable to about 1,800 degrees Fahrenheit, which covers the primary structure. The nose and leading edges need [coated molybdenum][ref_molybdenum], graphite and [zirconia][ref_zirconia], good to around 3,000 degrees. Thermal protection was studied as a class, radiative and ablative alike, and not only as a Dyna-Soar component, in [Jenness 1958][research_jenness_1958], [Hovey 1965][research_hovey_1965], [Strauss 1967][research_strauss_1967], [Rivers 1968][research_rivers_1968], [Bauer and Kummer 1970][research_bauer_kummer_1970], [Alexander and Stanley 1999][research_alexander_stanley_1999], [Stanley et al 2000][research_stanley_2000], [Olds and Cowart 2001][research_olds_cowart_2001_2], [Liu et al 2002][research_liu_2002], [Daryabeigi et al 2006][research_daryabeigi_2006], [Hudson and Stephens 2006][research_hudson_stephens_2006], [Glass 2008][research_glass_2008], [Clarke 2008][research_clarke_2008], [Kowal 2011][research_kowal_2011]. **The coating, not the metal is the pacing item**, because an uncoated refractory metal oxidises catastrophically in air at the temperatures that make it worth using, and the literature of refractory metals, their coatings and the high-temperature alloys around them is correspondingly dense from 1963 onward, in [McDonnell Aircraft Corp St Louis Mo 1963][research_mo_1963], [Criscione et al 1964][research_criscione_1964], [Turns and Hildebrand 1964][research_turns_hildebrand_1964], [Kaplow et al 1964][research_kaplow_1964], [Stetson and Wimber 1967][research_stetson_wimber_1967], [Phillips 1970][research_phillips_1970], [Peterson and Winter 1970][research_peterson_winter_1970], [Scott 1972][research_scott_1972], [Greenspan and Rizzitano 1972][research_greenspan_rizzitano_1972], [Wheeler and Brainard 1980][research_wheeler_brainard_1980], [Smeggil 1981][research_smeggil_1981], [Miller et al 1983][research_miller_1983], [Glass and Camarda 1990][research_glass_camarda_1990], [Weiss and Srinivasan 1994][research_weiss_srinivasan_1994], [Malone and Walech 1995][research_malone_walech_1995].
 
@@ -352,7 +352,7 @@ $$T \propto \dot{q}^{1/4} \propto \left( \frac{W}{S} \right)^{1/8}$$
 
 ## Dependent Systems
 
-### The Structure, Which Is the Aircraft
+### A Structure That Runs Hot
 
 A radiatively cooled vehicle has no cool interior to hide its structure in, so the structure runs hot and must be designed to do so. The X-20's answer was a René 41 truss frame, designed to 1,800 degrees Fahrenheit and to at least four re-entries at the most severe permitted conditions, carrying corrugated René 41 skin panels, in [Hargis][research_hargis_1964]. Wherever the surface exceeded 2,000 degrees, which included the entire lower surface, the panels were insulated with Q-felt, a silica fibre, beneath outer heat shields of a coated refractory metal, either the molybdenum alloy TZM or the columbium alloy D-36. [Heppenheimer][ref_heppenheimer_2007] records that D-36 covered most of the vehicle including the flat underside, that TZM was kept for the hottest areas, and that the panels measured 12 by 45 inches. The development of that arrangement is recorded in [Helper et al 1960][research_helper_1960], [Czarnecki and Davison 1960][research_czarnecki_davison_1960] and [Baird 1964][research_baird_1964].
 
@@ -360,35 +360,35 @@ Thermal expansion rather than pressure sets the joint design, and the magnitude 
 
 $$\Delta L = \alpha L \, \Delta T$$
 
-René 41 expands at about 8.0 times ten to the minus six per degree Fahrenheit. Over the vehicle's 35.34 foot length at a 1,500 degree rise,
+René 41 is taken here to expand at about 8.0 times ten to the minus six per degree Fahrenheit. Over the vehicle's 35.34 foot length at a 1,500 degree rise,
 
 $$\Delta L = (8.0 \times 10^{-6})(35.34)(1500) = 0.424 \ \text{ft} = 5.09 \ \text{in}$$
 
-**The airframe grows five inches on the way home.** Worse, a molybdenum heat shield over it expands at roughly 3.0 times ten to the minus six, so the two move differently. Over one 45 inch panel,
+**The airframe grows five inches on the way home.** Worse, a molybdenum heat shield over it is taken to expand at roughly 3.0 times ten to the minus six, so the two move differently. Over one 45 inch panel,
 
 $$\Delta L_{\text{mismatch}} = (\alpha_{\text{R41}} - \alpha_{\text{Mo}}) L \, \Delta T = (5.0 \times 10^{-6})(45)(1500) = 0.338 \ \text{in}$$
 
-**The problem is not strength but accommodation.** Every heat shield must be free to move against its frame, which is why the shields stood on clips rather than being fastened flat. The frame has the same problem internally. Gradients reached 500 degrees across a structural section, and the truss answered them by letting each triangle change shape by rotating about pinned joints, so that a hotter member lengthens without loading its neighbours, as [Hargis][research_hargis_1964] describes. [Helper et al][research_helper_1960] tested truss members, joints and a full-size forward section of the vehicle through repeated heat and load cycles simulating re-entry, and report that the pinned trusswork essentially eliminated thermal stress.
+**The problem is not strength but accommodation.** Every heat shield must be free to move against its frame, so the shields stood on clips and were not fastened flat. The frame has the same problem internally. Gradients reached 500 degrees across a structural section, and the truss answered them by letting each triangle change shape by rotating about pinned joints, so that a hotter member lengthens without loading its neighbours, as [Hargis][research_hargis_1964] describes. [Helper et al][research_helper_1960] tested truss members, joints and a full-size forward section of the vehicle through repeated heat and load cycles simulating re-entry, and report that the pinned trusswork essentially eliminated thermal stress.
 
-The thermal stress problem in a hot structure was recognised early and worked continuously, in [Goldberg 1956][research_goldberg_1956], [Hughes 1956][research_hughes_1956], [Chen 1958][research_chen_1958], [Chen 1958][research_chen_1958_2], [Dusinberre 1958][research_dusinberre_1958], and the coatings that keep hot metal below its limits are a literature of their own, in [Stecura 1982][research_stecura_1982], [Stecura 1984][research_stecura_1984], [Strangman and Neumann 1985][research_strangman_neumann_1985], [Miller 1990][research_miller_1990], [Dinwiddie et al 1995][research_dinwiddie_1995]. **Two of those are the X-20's exact problem stated in the abstract**, being the temperature distribution and thermal stresses in a hypersonic wing structure, and transient temperature and thermal stresses in the skin of a hypersonic vehicle, both from the years the configuration was being chosen.
+The thermal stress problem in a hot structure was recognised early and worked continuously, in [Goldberg 1956][research_goldberg_1956], [Hughes 1956][research_hughes_1956], [Chen 1958][research_chen_1958], [Chen 1958][research_chen_1958_2], [Dusinberre 1958][research_dusinberre_1958], and the coatings that keep hot metal below its limits form a separate literature, in [Stecura 1982][research_stecura_1982], [Stecura 1984][research_stecura_1984], [Strangman and Neumann 1985][research_strangman_neumann_1985], [Miller 1990][research_miller_1990], [Dinwiddie et al 1995][research_dinwiddie_1995]. **Two of those are the X-20's exact problem stated in the abstract**, being the temperature distribution and thermal stresses in a hypersonic wing structure, and transient temperature and thermal stresses in the skin of a hypersonic vehicle, both from the years the configuration was being chosen.
 
 ### Why Not Ablation
 
-The obvious objection to a hot structure is that ablation was available, understood, and about to be used on Mercury and Apollo. A thirty-minute heat load might seem to make ablation impossibly heavy. **It does not.**
+The obvious objection to a hot structure is that ablation was available, understood, and about to be used on Mercury and Apollo, in [Heppenheimer][ref_heppenheimer_2007]. A thirty-minute heat load might seem to make ablation impossibly heavy. **It does not.**
 
 Ablator mass is the total heat divided by the effective heat of ablation.
 
 $$m_{\text{ablator}} = \frac{Q_{\text{vehicle}}}{H_{\text{eff}}}$$
 
-Taking the vehicle heat load as 9.04 times ten to the sixth British thermal units, the mass fraction is what decides the question.
+Taking the vehicle heat load as 9.04 times ten to the sixth British thermal units, the mass fraction decides the question.
 
 $$\frac{m_{\text{ablator}}}{W} = \frac{Q_{\text{vehicle}}}{H_{\text{eff}} W}$$
 
 Evaluating it at the generous and the pessimistic ends of the plausible range,
 
-$$\frac{9.04 \times 10^{6}}{(15{,}000)(11{,}386)} = 5.3\%, \qquad \frac{9.04 \times 10^{6}}{(3{,}000)(11{,}386)} = 26.5\%$$
+$$\frac{9.04 \times 10^{6}}{(15{,}000)(11{,}387)} = 5.3\%, \qquad \frac{9.04 \times 10^{6}}{(3{,}000)(11{,}387)} = 26.5\%$$
 
-between 603 and 3,013 pounds across every plausible effective heat of ablation. **Heavy, and entirely buildable.** The [Apollo command module][ref_apollo_cm] carried a comparable fraction.
+between 603 and 3,013 pounds across every plausible effective heat of ablation. **Heavy, and buildable.** The [Apollo command module][ref_apollo_cm] carried a comparable fraction, a heat shield of 1,869 pounds on a module of 12,250 pounds, or 15 percent.
 
 A heat sink is a different matter.
 
@@ -398,9 +398,9 @@ which is 361 percent of the glider, and therefore impossible. The programme's ow
 
 $$0.02 \times 9.04 \times 10^{6} = 1.81 \times 10^{5}, \qquad 0.05 \times 9.04 \times 10^{6} = 4.52 \times 10^{5} \ \text{BTU}$$
 
-which is the part of the load the hot structure keeps inside the aircraft.
+kept inside the aircraft by the hot structure.
 
-**So the hot structure was not forced by mass. It was chosen for reuse**, which is the one thing an ablator cannot offer and the entire reason for preferring a spaceplane to a capsule. That is a claim about programme intent rather than about physics, and the arithmetic does not compel it. The intent is documented, however. Reuse for four flights was a contractual ground rule from Phase Alpha, in [Goldie][research_goldie_1960], and [Heppenheimer][ref_heppenheimer_2007] describes the avoidance of ablative protection as what made the vehicle reusable.
+**So the hot structure was not forced by mass. It was chosen for reuse.** An ablator cannot offer reuse, and reuse is the entire reason for preferring a spaceplane to a capsule. The claim concerns programme intent, and the physical arithmetic does not compel it. The intent is documented, however. Reuse for four flights was a contractual ground rule from Phase Alpha, in [Goldie][research_goldie_1960], and [Heppenheimer][ref_heppenheimer_2007] describes the avoidance of ablative protection as what made the vehicle reusable.
 
 ### Guidance and Energy Management
 
@@ -414,9 +414,9 @@ $$h_e = 240{,}000 + \frac{21{,}174^{2}}{2(32.174)} = 7.20 \times 10^{6} \ \text{
 
 or about 1,365 statute miles of energy height, all of which must be disposed of before touchdown.
 
-**The topic is narrow in the literature and the reason is instructive.** Terminal energy management for an unpowered orbital vehicle became a subject only once such a vehicle was actually going to be flown, in [Morth 1972][research_morth_1972], [Tsukamoto et al 1999][research_tsukamoto_1999], [Jiang and Yang 2014][research_jiang_yang_2014], [Yang et al 2016][research_yang_2016]. The X-20 posed the problem and the Space Shuttle is where it was solved. **Too much on arrival and the vehicle overshoots with no way to slow down, too little and it lands short.** The pilot's task and the automation that supports it are the subject of [Lee and Mason 1960][research_lee_mason_1960] and [Young and Goode 1962][research_young_goode_1962], and the modern descendants of that problem are in [Fine 1967][research_fine_1967], [Kryvoruka and Ashurst 1973][research_kryvoruka_ashurst_1973], [Lu 1996][research_lu_1996_2], [Lu 1997][research_lu_1997], [Hanson et al 1998][research_hanson_1998], [Fuhry 1999][research_fuhry_1999], [Calhoun 2000][research_calhoun_2000], [Burchett 2003][research_burchett_2003].
+**The topic is narrow in the literature, for an instructive reason.** Terminal energy management for an unpowered orbital vehicle became a subject only once such a vehicle was going to be flown, in [Morth 1972][research_morth_1972], [Tsukamoto et al 1999][research_tsukamoto_1999], [Jiang and Yang 2014][research_jiang_yang_2014], [Yang et al 2016][research_yang_2016]. The X-20 posed the problem and the Space Shuttle solved it. **Too much on arrival and the vehicle overshoots with no way to slow down, too little and it lands short.** The pilot's task and the automation that supports it are the subject of [Lee and Mason 1960][research_lee_mason_1960] and [Young and Goode 1962][research_young_goode_1962], and the modern descendants of that problem are in [Fine 1967][research_fine_1967], [Kryvoruka and Ashurst 1973][research_kryvoruka_ashurst_1973], [Lu 1996][research_lu_1996_2], [Lu 1997][research_lu_1997], [Hanson et al 1998][research_hanson_1998], [Fuhry 1999][research_fuhry_1999], [Calhoun 2000][research_calhoun_2000], [Burchett 2003][research_burchett_2003].
 
-Attitude control at the top of the glide is reaction jets, because there is no air to work against. Control blends to aerodynamic surfaces as the vehicle descends, and [Fine 1967][research_fine_1967] treats the case where attitude is used specifically to hold skin temperature down. The wider control problem is treated in [Chowdhry et al 2001][research_chowdhry_2001], [Hanson and Jones 2004][research_hanson_jones_2004], [Janardanan and Jayakumar 2006][research_janardanan_jayakumar_2006], [Ning et al 2007][research_ning_2007], [Morio et al 2009][research_morio_2009], [Halbe et al 2010][research_halbe_2010], [Matsumoto et al 2015][research_matsumoto_2015], [Zhi et al 2015][research_zhi_2015], [Jie Gu et al 2016][research_gu_2016], [Xudong Liu et al 2016][research_liu_2016].
+Attitude control at the top of the glide is reaction jets, because there is no air to work against. Control blends to aerodynamic surfaces as the vehicle descends, and [Fine 1967][research_fine_1967] treats the case where attitude is used to hold skin temperature down. The wider control problem is treated in [Chowdhry et al 2001][research_chowdhry_2001], [Hanson and Jones 2004][research_hanson_jones_2004], [Janardanan and Jayakumar 2006][research_janardanan_jayakumar_2006], [Ning et al 2007][research_ning_2007], [Morio et al 2009][research_morio_2009], [Halbe et al 2010][research_halbe_2010], [Matsumoto et al 2015][research_matsumoto_2015], [Zhi et al 2015][research_zhi_2015], [Jie Gu et al 2016][research_gu_2016], [Xudong Liu et al 2016][research_liu_2016].
 
 ### Landing on Skids
 
@@ -428,7 +428,7 @@ against the 180 feet per second Lesko states. A steady unpowered glide at that a
 
 $$\frac{L}{D} = \frac{1}{\tan 22.5^{\circ}} = 2.41$$
 
-so the speed brakes give away nearly half of the clean airframe's best ratio, which buys a speed margin of 210 to 350 knots along the glide path. **A sink rate of 180 feet per second is not a landing, it is an arrival**, and the vehicle must flare out of it. Lesko's flare begins at 1,100 feet, is flown at 1.5 g for ten seconds with a loss of 50 knots, and is followed by a deceleration at a sink rate of 25 feet per second to touchdown at 175 knots. That is the same unpowered steep approach the [X-15][related_post_a312_north_american_x15] flew and the [Space Shuttle][ref_shuttle] inherited.
+so the speed brakes give away nearly half of the clean airframe's best ratio, in exchange for a speed margin of 210 to 350 knots along the glide path. **A sink rate of 180 feet per second is an arrival, not a landing**, and the vehicle must flare out of it. Lesko's flare begins at 1,100 feet, is flown at 1.5 g for ten seconds with a loss of 50 knots, and is followed by a deceleration at a sink rate of 25 feet per second to touchdown at 175 knots. The [X-15][related_post_a312_north_american_x15] flew the same unpowered steep approach, and the [Space Shuttle][ref_shuttle] inherited it.
 
 The touchdown speed sets the lift coefficient at touchdown, by the lift relation
 
@@ -444,19 +444,19 @@ The skids were to stop the glider in 5,000 feet, which needs a mean friction coe
 
 $$\mu = \frac{V^{2}}{2 g d} = \frac{371.3^{2}}{2 (32.174)(5{,}000)} = 0.43$$
 
-The vertical energy at the structure's design sink rate of 8 feet per second is only
+The vertical energy at the structure's design sink rate of 8 feet per second, in [Hargis][research_hargis_1964], is only
 
 $$\tfrac{1}{2} \frac{W}{g} w^{2} = \tfrac{1}{2} \frac{11{,}700}{32.174} (8)^{2} = 11{,}637 \ \text{ft lb}$$
 
 which is under a two-thousandth of the horizontal energy, so the gear's real work is friction and not shock absorption.
 
-The gear is not wheels, because a pneumatic tyre cannot survive being soaked at structural temperature during the descent and then asked to work. The main skids were wire brushes of René 41 on Waspaloy, made by Goodyear for a high coefficient of friction, and the nose skid was a René 41 forging hard-coated for low friction to keep the glider pointing straight, in [Heppenheimer][ref_heppenheimer_2007]. In place of oleo struts each skid pivoted aft under load and stretched a yielding metal strap to absorb the impact, and the gear, extended pneumatically at 275 knots, was to soak at 1,600 to 1,800 degrees Fahrenheit on the way down, in [Hargis][research_hargis_1964]. **The landing gear is a consequence of the thermal design**, which is how thoroughly the keystone propagates.
+The gear is not wheels, because inflated rubber tyres would have needed cooled compartments of their own to survive the descent. The main skids were wire brushes of René 41 on Waspaloy, made by Goodyear for a high coefficient of friction, and the nose skid was a René 41 forging hard-coated for low friction to keep the glider pointing straight, in [Heppenheimer][ref_heppenheimer_2007]. In place of oleo struts each skid pivoted aft under load and stretched a yielding metal strap to absorb the impact, and the gear, extended pneumatically at 275 knots, was to soak at 1,600 to 1,800 degrees Fahrenheit on the way down, in [Hargis][research_hargis_1964]. **The landing gear is a consequence of the thermal design**, a measure of how thoroughly the keystone propagates.
 
 ## The Flight Test Record
 
-There is none. **The X-20 never flew and no airframe was completed.** Cancellation came on 10 December 1963, after the 410 million dollars Heppenheimer gives as spent over 6.13 years.
+There is none. **The X-20 never flew and no airframe was completed**, in [Jenkins Landis and Miller][book_jenkins_landis_miller_2003]. Cancellation came on 10 December 1963, after the 410 million dollars [Heppenheimer][ref_heppenheimer_2007] gives as spent over 6.13 years.
 
-$$\frac{410 \times 10^{6}}{6.13} = 66.9 \ \text{million dollars per year}, \qquad \frac{410 \times 10^{6}}{11{,}386} = \$36{,}009 \ \text{per pound}$$
+$$\frac{410 \times 10^{6}}{6.13} = 66.9 \ \text{million dollars per year}, \qquad \frac{410 \times 10^{6}}{11{,}387} = \$36{,}006 \ \text{per pound}$$
 
 **Thirty-six thousand dollars for every pound of a glider that did not exist**, in 1963 dollars.
 
@@ -468,7 +468,7 @@ The flight programme is recorded in two versions. The Step I plan of 1960 had th
 
 $$\text{May 1966} - \text{December 1963} = 29 \ \text{months}$$
 
-which is consistent with Heppenheimer's two and a half years to first flight at cancellation.
+consistent with Heppenheimer's two and a half years to first flight at cancellation.
 
 ### What Was Tested on the Ground
 
@@ -476,31 +476,31 @@ which is consistent with Heppenheimer's two and a half years to first flight at 
 
 By 1962 and 1963 the testing had reached the production materials. Oxyacetylene torch tests showed coated TZM and D-36 resisting oxidation for more than two hours at 3,000 degrees, beyond the design requirement, and loaded hot samples carried 3,100 pounds per square inch at that temperature. Panels as large as 24 by 45 inches were tested for flutter in the Langley 4 by 4 foot and Ames 11 by 11 foot unitary wind tunnels, beginning at dynamic pressures of 400 and 500 pounds per square foot and working up over 18 months to beyond the design requirement of close to 1,400, and Boeing judged by mid-1962 that adequate panel flutter capability had been achieved. Chance Vought and Boeing developed rival nose caps, a siliconized graphite shell under pinned zirconia tiles and a monolithic zirconia cap reinforced with platinum wire, and Boeing tested its cap in facilities able to reproduce re-entries of 30 minutes, all in [Heppenheimer][ref_heppenheimer_2007]. A rocket sled at the Holloman Air Force Base track was running the skids out from the maximum landing speed of 220 knots to a stop in 5,000 feet on asphalt, concrete and lakebed surfaces laid in the trough, to measure friction, wear and bump capability, and the first production prototype of the flight control electronics had been delivered to Boeing for integration, in [Hargis][research_hargis_1964]. Hargis judged in April 1963 that development was essentially complete and that the problems to come would be in hardware and integration.
 
-What did fly was a cousin of the structure. [ASSET][ref_asset], the Aerothermodynamic Elastic Structural Systems Environmental Tests, flew sub-scale radiatively cooled vehicles on Thor boosters six times between 18 September 1963 and 23 February 1965. Their bill of materials closely resembled the X-20's, with TZM on the forward lower heat shield, graphite leading edges and a zirconia nose, but they avoided René 41, and the third structural vehicle carried a Boeing molybdenum heat-shield panel, in [Heppenheimer][ref_heppenheimer_2007]. The programme's own engineering record survives in unusual depth for a cancelled aircraft, and the boost-glide, lifting-body and spaceplane line it belongs to is documented alongside it, in [Boeing Co Seattle Wa 1963][research_wa_1963], [Rock 1964][research_rock_1964], [NACA 1967, Study of the influence of size of][research_naca_1967_2], [Bryson et al 1968][research_bryson_1968], [Kempel et al 1971][research_kempel_1971], [Repic et al 1974][research_repic_1974], [Garcia 1975][research_garcia_1975], [Powell and Cruz 1991][research_powell_cruz_1991], [Kempel et al 1994][research_kempel_1994], [Barret 1999][research_barret_1999], [Scallion 1999][research_scallion_1999], [Chaudhary et al 2001][research_chaudhary_2001], [Taylor 2004][research_taylor_2004], [Dumbacher 2004][research_dumbacher_2004], [Jacobson 2004][research_jacobson_2004], [Jacobson 2004][research_jacobson_2004_2].
+What did fly was a cousin of the structure. [ASSET][ref_asset], the Aerothermodynamic Elastic Structural Systems Environmental Tests, flew sub-scale radiatively cooled vehicles on Thor boosters six times between 18 September 1963 and 23 February 1965. Their bill of materials closely resembled the X-20's, with TZM on the forward lower heat shield, graphite leading edges and a zirconia nose, but they avoided René 41, and the third structural vehicle carried a Boeing molybdenum heat-shield panel, in [Heppenheimer][ref_heppenheimer_2007]. The programme's engineering record is deep for a vehicle that never flew, and the wider boost-glide, lifting-body and spaceplane line is documented alongside it, in [Boeing Co Seattle Wa 1963][research_wa_1963], [Rock 1964][research_rock_1964], [NACA 1967, Study of the influence of size of][research_naca_1967_2], [Bryson et al 1968][research_bryson_1968], [Kempel et al 1971][research_kempel_1971], [Repic et al 1974][research_repic_1974], [Garcia 1975][research_garcia_1975], [Powell and Cruz 1991][research_powell_cruz_1991], [Kempel et al 1994][research_kempel_1994], [Barret 1999][research_barret_1999], [Scallion 1999][research_scallion_1999], [Chaudhary et al 2001][research_chaudhary_2001], [Taylor 2004][research_taylor_2004], [Dumbacher 2004][research_dumbacher_2004], [Jacobson 2004][research_jacobson_2004], [Jacobson 2004][research_jacobson_2004_2].
 
 The launch side is comparatively thin here, because the vehicle never reached it, and what exists concerns boosters, launch escape and recovery rather than the glider, in [Houser and Runciman 1971][research_houser_runciman_1971], [Stofan 1973][research_stofan_1973], [Lofland 1980][research_lofland_1980], [Benson et al 1993][research_benson_1993], [Hoffman 1996][research_hoffman_1996], [Maloney 2011][research_maloney_2011], [Dittemore and Harding 2011][research_dittemore_harding_2011], [Tarabini et al 2013][research_tarabini_2013], [Reed et al 2016][research_reed_2016].
 
 ## Comparison With Ground Prediction
 
-The comparison cannot be made, and that is the finding rather than an omission.
+The comparison cannot be made. That absence is the finding. It is no omission.
 
-**Every number in this article is a prediction against which no X-20 measurement exists**, because the vehicle never left the ground. Reentry heating was charted, measured and computed extensively for other shapes, in [Lovelace 1961][research_lovelace_1961], [Meckler 1964][research_meckler_1964], [Kaufman 1964][research_kaufman_g_1964], [Murphy and Rubesin 1965][research_murphy_rubesin_1965], [Rochelle et al 1972][research_rochelle_1972], [Stainback et al 1972][research_stainback_1972], [Meng 1973][research_meng_1973], [Rosner and Cibrian 1974][research_rosner_cibrian_1974], [Sherman 1978][research_sherman_1978], [Baker and Kramer 1982][research_baker_kramer_1982], and none of it is flight data for this airframe. Hypersonic and entry configurations of the same family were measured and analysed extensively, in [Neal 1963][research_luther_neal_1963], [Ellison and Spencer 1971][research_ellison_spencer_1971], [Nelms and Thomas 1971][research_nelms_thomas_1971], [Arrington and Ashby 1972][research_arrington_ashby_1972], [Nelms 1972][research_nelms_1972], [Clark 1973][research_clark_1973], [Spencer and Fournier 1973][research_spencer_fournier_1973], [Dziubala et al 1973][research_dziubala_1973], [Penland et al 1974][research_penland_1974], [Creel and Penland 1974][research_creel_penland_1974], [Clark and Richie 1977][research_clark_richie_1977], [Aerodynamic prediction techniques for 1981][research_naca_1981], [Air Force Test Pilot School Edwards Afb Ca 1987][research_ca_1987], [Cockrell et al 1996][research_cockrell_1996], and the lifting-entry trajectory work that framed them is in [Terasaki 1963][research_terasaki_1963], [Clapp 1965][research_clapp_1965], [Zvara 1966][research_zvara_1966], [Goldberg 1966][research_goldberg_1966], [Masaki and Yakura 1968][research_masaki_yakura_1968], [Townend 1979][research_townend_1979], [Johnson et al 1982][research_johnson_1982], [Spearman 1984][research_spearman_1984], [Ling et al 1991][research_ling_1991], [Ishimoto 1995][research_ishimoto_1995], [Yu Li and Nai-gang Cui 2008][research_li_cui_2008], [Wu et al 2009][research_wu_2009], [Ping Li et al 2010][research_li_2010], [Chao et al 2010][research_chao_2010].
+**Every number in this article is a prediction against which no X-20 measurement exists**, because the vehicle never left the ground. Reentry heating was charted, measured and computed extensively for other shapes, in [Lovelace 1961][research_lovelace_1961], [Meckler 1964][research_meckler_1964], [Kaufman 1964][research_kaufman_g_1964], [Murphy and Rubesin 1965][research_murphy_rubesin_1965], [Rochelle et al 1972][research_rochelle_1972], [Stainback et al 1972][research_stainback_1972], [Meng 1973][research_meng_1973], [Rosner and Cibrian 1974][research_rosner_cibrian_1974], [Sherman 1978][research_sherman_1978], [Baker and Kramer 1982][research_baker_kramer_1982], and none of it is flight data for this airframe. Hypersonic and entry configurations of the same family were measured and analysed at length, in [Neal 1963][research_luther_neal_1963], [Ellison and Spencer 1971][research_ellison_spencer_1971], [Nelms and Thomas 1971][research_nelms_thomas_1971], [Arrington and Ashby 1972][research_arrington_ashby_1972], [Nelms 1972][research_nelms_1972], [Clark 1973][research_clark_1973], [Spencer and Fournier 1973][research_spencer_fournier_1973], [Dziubala et al 1973][research_dziubala_1973], [Penland et al 1974][research_penland_1974], [Creel and Penland 1974][research_creel_penland_1974], [Clark and Richie 1977][research_clark_richie_1977], [Aerodynamic prediction techniques for 1981][research_naca_1981], [Air Force Test Pilot School Edwards Afb Ca 1987][research_ca_1987], [Cockrell et al 1996][research_cockrell_1996], and the lifting-entry trajectory work that framed them is in [Terasaki 1963][research_terasaki_1963], [Clapp 1965][research_clapp_1965], [Zvara 1966][research_zvara_1966], [Goldberg 1966][research_goldberg_1966], [Masaki and Yakura 1968][research_masaki_yakura_1968], [Townend 1979][research_townend_1979], [Johnson et al 1982][research_johnson_1982], [Spearman 1984][research_spearman_1984], [Ling et al 1991][research_ling_1991], [Ishimoto 1995][research_ishimoto_1995], [Yu Li and Nai-gang Cui 2008][research_li_cui_2008], [Wu et al 2009][research_wu_2009], [Ping Li et al 2010][research_li_2010], [Chao et al 2010][research_chao_2010].
 
-**The ground prediction the flights were to test is itself on record, and it was deliberately conservative.** The 1963 design assumed turbulent heating everywhere with a 20 percent allowance for roughness, waves and joints in the skin, and equilibrium flow at the leading edges, which gives the highest heating. [Hargis][research_hargis_1964] lists what flight might return. Extensive laminar flow could cut wing heating by up to 50 percent, a non-catalytic coating could cut leading-edge heating by up to 50 percent, and if roughness proved less harmful than assumed, sharper leading edges could raise the lift-to-drag ratio by 25 percent and the lateral range by 50 percent. That last pair implies a dependence of lateral range on lift-to-drag ratio with the exponent
+**The ground prediction the flights were to test is on record, and it was deliberately conservative.** The 1963 design assumed turbulent heating everywhere with a 20 percent allowance for roughness, waves and joints in the skin, and equilibrium flow at the leading edges, which gives the highest heating. [Hargis][research_hargis_1964] lists what flight might return. Extensive laminar flow could cut wing heating by up to 50 percent, a non-catalytic coating could cut leading-edge heating by up to 50 percent, and if roughness proved less harmful than assumed, sharper leading edges could raise the lift-to-drag ratio by 25 percent and the lateral range by 50 percent. That last pair implies a dependence of lateral range on lift-to-drag ratio with the exponent
 
 $$n = \frac{\ln 1.50}{\ln 1.25} = 1.82$$
 
-between Braun's 1.67 and the quadratic relation's 2. [Lesko][research_lesko_1960] makes the same point for laminar flow, which would have raised his lateral range from 2,200 to 2,900 nautical miles. **The flights were planned to measure how much of the design margin was real**, and that is the comparison the cancellation removed.
+between Braun's 1.67 and the quadratic relation's 2. [Lesko][research_lesko_1960] makes the same point for laminar flow, which would have raised his lateral range from 2,200 to 2,900 nautical miles. **The flights were planned to measure how much of the design margin was real**, and the cancellation removed that comparison.
 
 What partially substitutes is ASSET, which flew the structure without the vehicle, and later the [Space Shuttle][ref_shuttle], which flew the trajectory with a different structure. **Between them they tested both halves of the X-20's answer separately and neither tested it together.**
 
 ## What the Data Changed
 
-A programme that produced no data still changed things, which is a distinction worth keeping.
+A programme that produced no data still changed things, and the distinction matters.
 
-**The lifting-reentry trajectory became standard.** The Shuttle flew an equilibrium glide with bank modulation for crossrange, which is the X-20's profile with a different vehicle wrapped around it, and the guidance literature runs continuously from one to the other.
+**The lifting-reentry trajectory became standard.** The Shuttle flew a lifting glide whose drag was managed by bank angle and a series of roll reversals, in the [Space Shuttle][ref_shuttle] reference entry. That glide is the X-20's profile with a different vehicle wrapped around it, and the guidance literature runs continuously from one to the other.
 
-**The hot structure did not, and then it did.** The Shuttle chose ceramic tiles over a cool aluminium airframe, which is the opposite architecture, and the reasons were manufacturing and inspection rather than thermodynamics. **Metallic and integrated thermal protection is an active field again**, and its arguments are the X-20's arguments, which makes this a case of a design being early rather than wrong. The line runs through [Naftel and Powell 1993][research_naftel_powell_1993], [Reusable launch vehicle Technology 1995][research_naca_1995], [Rasky 1996][research_rasky_1996], [Freeman et al 1996][research_freeman_1996], [Freeman et al 1997][research_freeman_1997], [Johnson et al 1998][research_johnson_1998], [Manley et al 2000][research_manley_2000], [Olds and Cowart 2001][research_olds_cowart_2001].
+**The hot structure did not, and then it did.** The Shuttle chose the opposite architecture, ceramic tiles over a cool aluminium airframe, for reasons of cost, manufacturing difficulty and fragile coatings, none of them thermodynamic, in [Heppenheimer][ref_heppenheimer_2007]. **Metallic and integrated thermal protection is an active field again**, and its arguments are the X-20's arguments. The line runs through [Naftel and Powell 1993][research_naftel_powell_1993], [Reusable launch vehicle Technology 1995][research_naca_1995], [Rasky 1996][research_rasky_1996], [Freeman et al 1996][research_freeman_1996], [Freeman et al 1997][research_freeman_1997], [Johnson et al 1998][research_johnson_1998], [Manley et al 2000][research_manley_2000], [Olds and Cowart 2001][research_olds_cowart_2001].
 
 **The crossrange requirement outlived the vehicle.** The Air Force's insistence on cross-range drove the Shuttle's delta wing, which is why an orbiter that mostly flew from and to Florida carried a planform sized for a once-around polar abort it never performed. [Heppenheimer][ref_heppenheimer_2007] gives the Air Force figure as 1,100 nautical miles, the distance the Earth's rotation carries the Vandenberg launch site eastward during one 90 minute orbit, against the 250 to 400 nautical miles the National Aeronautics and Space Administration said it needed. At the site's latitude of about 34.7 degrees, with a sidereal day of 86,164 seconds,
 
@@ -508,7 +508,7 @@ $$\Delta x = \frac{2 \pi R_e \cos \phi}{86{,}164} \, t = \frac{2 \pi (3{,}440)(\
 
 so the requirement is the rotation of the Earth under one orbit, and the X-20's 2,000 miles was nearly twice it.
 
-**The hot structure's materials moved the state of the art even though the structure did not fly.** A Boeing chart reproduced by Heppenheimer puts the temperature limits of aircraft structure in 1958 at 1,200 degrees Fahrenheit for every element except a 3,200 degree nose cap, and in 1963, after Dyna-Soar, at 4,300 for the nose cap, 3,000 for leading edges, 2,750 for surface panels and 1,800 for primary structure, control surfaces and bearings. The Q-felt silica fibre that insulated the X-20's panels was the starting material for one line of the reusable surface insulation studied for the Shuttle.
+**The hot structure's materials moved the state of the art even though the structure did not fly.** A Boeing chart reproduced by [Heppenheimer][ref_heppenheimer_2007] puts the temperature limits of aircraft structure in 1958 at 1,200 degrees Fahrenheit for every element except a 3,200 degree nose cap, and in 1963, after Dyna-Soar, at 4,300 for the nose cap, 3,000 for leading edges, 2,750 for surface panels and 1,800 for primary structure, control surfaces and bearings. The Q-felt silica fibre that insulated the X-20's panels was the starting material for one line of the reusable surface insulation studied for the Shuttle, in [Heppenheimer][ref_heppenheimer_2007].
 
 ## The Contemporary Literature
 
@@ -539,19 +539,19 @@ so the requirement is the rotation of the Earth under one orbit, and the X-20's 
 
 The X-20 asked three questions at once, whether a vehicle can return from orbit by flying rather than falling, whether it can do so behind a structure that radiates its heat away instead of burning away, and whether it can then be used again.
 
-**Its descendants split those questions up and answered them separately, decades apart.** The review below follows that division, because it is the honest shape of the vehicle's influence.
+**Its descendants split those questions up and answered them separately.** The review below follows that division, because the vehicle's influence took that shape.
 
 ### The Glide and Its Guidance Became Standard
 
-The equilibrium glide with bank modulation for crossrange is simply how a winged vehicle returns from orbit, and the guidance problem the X-20 posed is worked continuously to this day, in [Castaldi et al 2023][research_castaldi_2023], [Das et al 2023][research_das_2023], [Joshi et al 2023][research_joshi_2023_2], [Das et al 2024][research_das_2024], [Huang et al 2024][research_huang_2024], [Nugroho et al 2024][research_nugroho_2024], [Liu et al 2025][research_liu_2025_2], [McEowen et al 2025][research_mceowen_2025], [Shi et al 2025][research_shi_2025_2], [Tang et al 2025][research_tang_2025], [Giraldo-Grueso et al 2026][research_giraldo_grueso_2026], [Sonandres et al 2026][research_sonandres_2026], [Sun et al 2026][research_sun_2026], [Wang et al 2026][research_wang_2026_3].
+The equilibrium glide with bank modulation for crossrange is how a winged vehicle returns from orbit, and the guidance problem the X-20 posed is worked continuously to this day, in [Castaldi et al 2023][research_castaldi_2023], [Das et al 2023][research_das_2023], [Joshi et al 2023][research_joshi_2023_2], [Das et al 2024][research_das_2024], [Huang et al 2024][research_huang_2024], [Nugroho et al 2024][research_nugroho_2024], [Liu et al 2025][research_liu_2025_2], [McEowen et al 2025][research_mceowen_2025], [Shi et al 2025][research_shi_2025_2], [Tang et al 2025][research_tang_2025], [Giraldo-Grueso et al 2026][research_giraldo_grueso_2026], [Sonandres et al 2026][research_sonandres_2026], [Sun et al 2026][research_sun_2026], [Wang et al 2026][research_wang_2026_3].
 
-**The relations in this article's own sizing section are the first two terms of what those papers now solve numerically.** A conversion from a closed-form glide to a constrained trajectory optimisation is a change of method rather than of physics, and the centrifugal relief term is still there in every one of them.
+**The relations in the sizing section above are the first two terms of what those papers now solve numerically.** A conversion from a closed-form glide to a constrained trajectory optimisation is a change of method rather than of physics, and the centrifugal relief term is still there in every one of them.
 
 ### Crossrange Is Still Why the Wing Exists
 
 The quantity the X-20 was designed around remains the reason a returning vehicle carries a wing at all, in [Li et al 2022][research_li_2022], [Patel and Subbarao 2024][research_patel_subbarao_2024], [Patel and Subbarao 2025][research_patel_subbarao_2025], [Webb et al 2026][research_webb_2026].
 
-**It is worth noticing how small that literature is.** Crossrange was a requirement rather than a research subject, and once the Shuttle's delta wing settled the argument it largely stopped generating papers. The X-20's demand for 2,000 nautical miles propagated into a planform that flew for thirty years and then stopped.
+**That literature is small.** Crossrange was a requirement rather than a research subject, and once the Shuttle's delta wing settled the argument it largely stopped generating papers. The X-20's demand for 2,000 nautical miles propagated into the planform of the [Space Shuttle][ref_shuttle], which flew from 1981 to 2011 and then stopped.
 
 ### The Trade Is Now Computed Rather Than Argued
 
@@ -561,17 +561,17 @@ This article estimates peak heating from a correlation and total load from a one
 
 ### The Hot Structure Came Back
 
-**This is the section where the X-20 was proved right late.**
+**Here the X-20 was proved right, late.**
 
-The Space Shuttle rejected the hot structure. It put ceramic tiles over a cool aluminium airframe, which is the opposite architecture, and the reasons were manufacturing and inspection rather than thermodynamics. For thirty years the radiatively cooled load-bearing structure was a research subject rather than a flight one, kept alive in structures such as the hypersonic wing test structure of the 1970s, in [Plank 1975][research_plank_1975].
+The Space Shuttle rejected the hot structure on grounds of cost, manufacturing difficulty and fragile coatings, in [Heppenheimer][ref_heppenheimer_2007]. For thirty years the radiatively cooled load-bearing structure was a research subject rather than a flight one, kept alive in structures such as the hypersonic wing test structure of the 1970s, in [Plank 1975][research_plank_1975].
 
 It is not one now, in [Aprovitola et al 2019][research_aprovitola_2019], [Sun and Zhu 2019][research_sun_zhu_2019], [Guo et al 2020][research_guo_2020], [Le and Goo 2020][research_le_goo_2020], [Xie et al 2020][research_xie_2020], [Gao et al 2021][research_gao_2021], [Le and Goo 2021][research_le_goo_2021], [Ma et al 2021][research_ma_2021], [Ai et al 2022][research_ai_2022], [Chang et al 2022][research_chang_2022], [Wang and Luo 2022][research_wang_luo_2022], [Brociek et al 2023][research_brociek_2023], [Khan and Chakraborty 2023][research_khan_chakraborty_2023], [Chen et al 2025][research_chen_2025], [Koch et al 2025][research_koch_2025], [Li et al 2026][research_li_2026_2].
 
-**Metallic thermal protection, integrated thermal protection systems and lattice-frame hot structures are an active field**, and the arguments for them are exactly the X-20's arguments. A structure that carries load and radiates heat is lighter than a structure that carries load underneath something else that radiates heat. **Boeing made that case in 1960 and the case was not wrong, it was early.**
+**Metallic thermal protection, integrated thermal protection systems and lattice-frame hot structures are an active field**, and the case for them repeats the X-20's. A structure that carries load and radiates heat is lighter than a structure that carries load underneath something else that radiates heat. **Boeing made that case in 1960, and it was early, not wrong.**
 
 ### Ultra High Temperature Ceramics Replaced the Coated Refractory Metal
 
-The X-20's nose and leading edges needed coated molybdenum, graphite and zirconia, and the coating rather than the metal was the pacing item, because an uncoated refractory metal oxidises catastrophically at the temperatures that make it worth using.
+The X-20's nose and leading edges needed coated molybdenum, graphite and zirconia, and the coating paced their development because an uncoated refractory metal oxidises catastrophically in its useful temperature range, in [Heppenheimer][ref_heppenheimer_2007].
 
 **That problem has largely been answered by changing materials rather than by improving coatings**, in [Backman et al 2024][research_backman_2024], [Förster et al 2024][research_forster_2024], [Prokvolit et al 2024][research_prokvolit_2024], [Shojaie-bahaabad et al 2024][research_shojaie_bahaabad_2024], [Dubey et al 2025][research_dubey_2025], [Luo et al 2025][research_luo_2025], [Tian et al 2025][research_tian_2025], [Kavoosi et al 2026][research_kavoosi_2026], [Lin et al 2026][research_lin_2026], [Lin et al 2026][research_lin_2026_2], [Zhang and Han 2026][research_zhang_han_2026], although oxidation-resistant coatings for refractory alloys are still being developed, in [Long et al 2025][research_long_2025], [Shi et al 2025][research_shi_2025], [Lakshmi et al 2026][research_lakshmi_2026].
 
@@ -579,21 +579,21 @@ Zirconium and hafnium diborides, carbon-carbon composites and silicide coatings 
 
 ### Newtonian Theory Is Still the First Answer
 
-This article checks its own keystone with impact theory, which is a 1687 idea applied to a 1957 aeroplane. That has not been superseded so much as bracketed, by engineering methods of the same kind on one side, in [Wang et al 2020][research_wang_2020_2], [Jo and Furudate 2023][research_jo_furudate_2023], and by computation of the flow on the other, in [Chourushi et al 2021][research_chourushi_2021], [Candler and Leyva 2022][research_candler_leyva_2022], [Mullen and Reed 2022][research_mullen_reed_2022], [Tracy and Wright 2023][research_tracy_wright_2023].
+This article checks its keystone with impact theory, a 1687 idea applied to a 1957 aeroplane. That has not been superseded so much as bracketed, by engineering methods of the same kind on one side, in [Wang et al 2020][research_wang_2020_2], [Jo and Furudate 2023][research_jo_furudate_2023], and by computation of the flow on the other, in [Chourushi et al 2021][research_chourushi_2021], [Candler and Leyva 2022][research_candler_leyva_2022], [Mullen and Reed 2022][research_mullen_reed_2022], [Tracy and Wright 2023][research_tracy_wright_2023].
 
-**Engineering methods of exactly this kind remain the first pass in hypersonic design**, because a closed-form estimate that is right to a few percent is worth more early than a computation that is right to a fraction of a percent and takes a week. The article's own 2.3 percent agreement is a demonstration of why.
+**Engineering methods of this kind remain the first pass in hypersonic design**, because a closed-form estimate that is right to a few percent is worth more early than a computation that is right to a fraction of a percent and takes a week. The 5.7 percent agreement in this article's sizing shows the scale of error such a first pass accepts, although it is an agreement between two idealisations and not a test against flight.
 
 ### Thermal Stress Is Still the Structural Problem
 
 The 5.09 inches of growth this article computes for a René 41 airframe, and the 0.338 inch mismatch against a 45 inch molybdenum heat shield, are the same class of problem modern hot structures still have, in [Martin and Reese 2019][research_martin_reese_2019], [Li et al 2020][research_li_2020], [Li and Wang 2020][research_li_wang_2020], [Hongpeng and Zhenguo 2021][research_hongpeng_zhenguo_2021], [Sebata and Ushijima 2021][research_sebata_ushijima_2021], [Sebata and Ushijima 2022][research_sebata_ushijima_2022], [Wang et al 2023][research_wang_2023_4], [Thawait et al 2024][research_thawait_2024].
 
-**Coupled fluid, thermal and structural analysis is now a named discipline**, which is what happens when three fields that used to be checked in sequence turn out to need solving together. The X-20 met that coupling and had to handle it by allowing everything to slide.
+**Coupled fluid, thermal and structural analysis is now a named discipline**, the usual result when three fields that used to be checked in sequence turn out to need solving together. The X-20 met that coupling and had to handle it by allowing everything to slide.
 
-### Reuse Is Where the X-20's Reasoning Is Vindicated and Its Economics Are Not
+### Reuse Vindicated the Reasoning but Not the Economics
 
-The article concludes that the hot structure was chosen for reuse rather than compelled by mass.
+The article concludes that reuse decided the hot structure and that mass did not compel it.
 
-**Inspection is the hidden cost.** A structure that has been to 2,800 degrees must be shown to be fit to go again, and the Shuttle's experience was that this is expensive in a way nobody costed in 1960. That is not an argument against the X-20's engineering. It is an argument that the engineering was answering a question about mass when the binding question turned out to be about labour.
+**Inspection is the hidden cost.** A structure that has been to 2,800 degrees must be shown to be fit to go again, and on the Shuttle every tile was inspected for damage between flights, in [Space Shuttle thermal protection system][ref_shuttle_tps], while the cost per pound of payload came to more than thirty times the projection of 1972, in [Space Shuttle][ref_shuttle]. None of this argues against the X-20's engineering. It argues instead that the engineering was answering a question about mass when the binding question turned out to be about labour.
 
 ### Hypersonic Glide Took the Trajectory and Dropped the Pilot
 
@@ -601,19 +601,19 @@ The most recent literature touching this article is not about spaceplanes at all
 
 **Hypersonic glide weapons are the X-20's trajectory with the crew, the wings and the reuse removed.** They fly the same equilibrium glide, exploit the same centrifugal relief, use the same crossrange for the same reason, and need the same hot structure at the leading edges. What they do not need is to survive being used twice or to carry a person.
 
-**That is an uncomfortable observation and the article should make it plainly.** The X-20 was cancelled for having no mission. The mission its trajectory was best suited to turned out to be the one nobody was willing to state in 1963, and the vehicle that flies it now is unmanned and expendable.
+**The observation is uncomfortable, and the article should make it plainly.** The X-20 was cancelled for having no mission, in [Heppenheimer][ref_heppenheimer_2007]. The mission its trajectory was best suited to was the boost-glide weapon of the programme's third step, in the [reference entry][ref_x20], and the vehicle that flies it now is unmanned and expendable.
 
 ### The X-37 Flies the Mission Forty Years Late
 
-The [X-37][ref_x37] is a small, unmanned, reusable orbital spaceplane that launches on an expendable booster, stays in orbit for extended periods, and returns to a runway. **That is the X-20's specification with the pilot removed**, and the orbital and suborbital spaceplane literature around it is in [Niu et al 2019][research_niu_2019], [Ricciardi et al 2019][research_ricciardi_2019], [Gonçalves et al 2020][research_goncalves_2020], [Ashikhmina et al 2021][research_ashikhmina_2021], [Ashikhmina and Prosuntsov 2021][research_ashikhmina_prosuntsov_2021], [Kondrashov 2023][research_kondrashov_2023], [Song et al 2024][research_song_2024], [Zhang et al 2024][research_zhang_2024_3], [MacLeod 2026][research_macleod_2026].
+The [X-37][ref_x37] is a small, unmanned, reusable orbital spaceplane that launches on an expendable booster, stays in orbit for extended periods, and returns to a runway. **It matches the X-20's specification with the pilot removed**, and the orbital and suborbital spaceplane literature around it is in [Niu et al 2019][research_niu_2019], [Ricciardi et al 2019][research_ricciardi_2019], [Gonçalves et al 2020][research_goncalves_2020], [Ashikhmina et al 2021][research_ashikhmina_2021], [Ashikhmina and Prosuntsov 2021][research_ashikhmina_prosuntsov_2021], [Kondrashov 2023][research_kondrashov_2023], [Song et al 2024][research_song_2024], [Zhang et al 2024][research_zhang_2024_3], [MacLeod 2026][research_macleod_2026].
 
-It is the first vehicle to hold all three of the X-20's answers together, namely lifting entry, a reusable thermal protection system, and a runway landing on a vehicle sized for a military orbital mission.
+It holds lifting entry, a reusable thermal protection system and a runway landing together, as the Shuttle did, but on a vehicle sized for a military orbital mission of the X-20's kind rather than for crew and cargo.
 
 ### What the Survey Shows
 
-**Every one of the X-20's three answers was eventually adopted, and no single vehicle adopted all three together until forty years later.**
+**Every one of the X-20's three answers was eventually adopted, by different vehicles decades apart.**
 
-The trajectory went to the Shuttle in 1981 and to hypersonic glide weapons after 2010. The hot structure was rejected in 1972 and grew again as a research subject after 1995. Reuse went to the Shuttle and was found to cost more than anyone expected.
+The trajectory went to the Shuttle in 1981 and to hypersonic glide weapons after 2010. The hot structure was rejected in 1971, in [Heppenheimer][ref_heppenheimer_2007], and grew again as a research subject after 1995. Reuse went to the Shuttle and was found to cost far more than its projections, in [Space Shuttle][ref_shuttle].
 
 **The programme was cancelled for having no mission, and the criticism was fair at the time.** What the contemporary literature shows is that the answers were separable from the mission, and that they survived it.
 
@@ -745,7 +745,7 @@ The trajectory went to the Shuttle in 1981 and to hypersonic glide weapons after
 
 ## Where the Framing Breaks Down
 
-**The keystone describes the vehicle and not the cancellation.** Nothing in the thermal analysis explains why the programme ended, which was a judgement that it had no mission. An article organised around a heat balance will make a political decision look like an engineering one, and it was not.
+**The keystone describes the vehicle, not the cancellation.** Nothing in the thermal analysis explains why the programme ended, which was a judgement that it had no mission, in [Heppenheimer][ref_heppenheimer_2007]. An article organised around a heat balance will make a political decision look like an engineering one, and it was not.
 
 **The equilibrium glide is an idealisation.** A real entry oscillates in a phugoid about the equilibrium condition rather than tracking it, and the peak rate seen in a real trajectory can exceed the equilibrium value. The treatment here is the standard first approximation. The phugoid about the equilibrium glide is analysed in [Chou 1964][research_chou_1964], [Chou and Laitone 1965][research_chou_laitone_1965], [Woodcock 1966][research_woodcock_1966], [Vinh et al 1981][research_vinh_chern_1981], [Chen et al 2011][research_chen_hou_2011], [Pengxin et al 2015][research_pengxin_feng_2015], [Jie Gu et al 2016][research_gu_2016], and closed-form and optimal lifting trajectories that depart from it are in [Bell 1965][research_bell_1965], [Chern and Vinh 1978][research_chern_vinh_1978], [Chern and Vinh 1980][research_chern_vinh_1980].
 
@@ -803,17 +803,17 @@ The most useful primary collections are the papers Boeing, the Air Force and the
 
 ## Epistemic State
 
-**Historical fact.** The programme ran from 24 October 1957 to 10 December 1963 and was cancelled by Robert McNamara without any airframe being completed or flown, with 410 million dollars spent and a further 373 million scheduled. It consolidated HYWARDS, Brass Bell and ROBO as System 464L. The booster moved from Titan I to Titan II in January 1961 and to Titan III for orbital flight in December 1961. Seven pilots were assigned, including Neil Armstrong, and Milton Thompson was the one pilot from the National Aeronautics and Space Administration selected to fly it. The flight plan, the ground tests and the design figures quoted from the programme's documents are historical fact in the sense that the documents state them, and none was tested in flight.
+**Historical fact.** The programme ran from October 1957, on 10 or 24 October by different accounts, to 10 December 1963 and was cancelled by Robert McNamara without any airframe being completed or flown, with 410 million dollars spent and a further 373 million scheduled. It consolidated HYWARDS, Brass Bell and ROBO as System 464L. The booster moved from Titan I to Titan II in January 1961 and to Titan III for orbital flight in December 1961. Seven pilots were assigned, including Neil Armstrong, and Milton Thompson was the one pilot from the National Aeronautics and Space Administration selected to fly it. The flight plan, the ground tests and the design figures quoted from the programme's documents are historical fact in the sense that the documents state them, and none was tested in flight.
 
-**Published figures taken as given.** Wing area 345 square feet, span 20.8 feet, length 35.34 feet, glider weight 11,386 pounds, empty weight 10,395 pounds, wing loading 33 pounds per square foot, maximum speed 17,500 miles per hour. The programme's own figures, a lateral range of at least 2,000 nautical miles, a 7.5 inch nose radius, a 143 British thermal unit nose heat flux, re-entry and landing weights of 12,000 and 11,700 pounds, and the approach and landing speeds, are taken from the primary documents cited where they appear.
+**Published figures taken as given.** Wing area 345 square feet, span 20.8 feet, length 35.34 feet, glider weight 11,387 pounds, empty weight 10,395 pounds, wing loading 33 pounds per square foot, maximum speed 17,500 miles per hour. These come from the reference entry alone, because the inventory by Jenkins, Landis and Miller gives no specifications for the X-20. The programme's own figures, a lateral range of at least 2,000 nautical miles, a 7.5 inch nose radius, a 143 British thermal unit nose heat flux, re-entry and landing weights of 12,000 and 11,700 pounds, and the approach and landing speeds, are taken from the primary documents cited where they appear.
 
-**Source conflicts not resolved.** A gross mass of 22,321 pounds appears widely, and it is inconsistent with a wing loading of 33 on 345 square feet. The glider weight of 11,386 pounds reproduces the quoted loading exactly. The programme's 1963 figures give 12,250 pounds for the glider and 5,750 for the transition section, 18,000 together, so 22,321 is neither the glider nor the glider with its transition section, and its basis is not established by the documents cited. The programme cost of 660 million dollars in reference works is likewise not found in them. Heppenheimer and Hargis differ on the temperature at which TZM replaced D-36, at 2,700 and 2,450 degrees respectively. Hallion names Thompson as the one pilot of the National Aeronautics and Space Administration selected to fly the vehicle, while reference works list Armstrong and William Dana of the same agency among the seven chosen in 1960 and leaving in 1962, so Hallion's statement is read here as describing the group at the end of the programme.
+**Source conflicts not resolved.** A gross mass of 22,321 pounds has been quoted for the vehicle, though no source cited here gives it, and it is inconsistent with a wing loading of 33 on 345 square feet. The glider weight of 11,387 pounds reproduces the quoted loading exactly. The programme's 1963 figures give 12,250 pounds for the glider and 5,750 for the transition section, 18,000 together, so 22,321 is neither the glider nor the glider with its transition section, and its basis is not established by the documents cited. The programme cost of 660 million dollars in reference works is likewise not found in them. Heppenheimer and Hargis differ on the temperature at which TZM replaced D-36, at 2,700 and 2,450 degrees respectively. Hallion names Thompson as the one pilot of the National Aeronautics and Space Administration selected to fly the vehicle, while reference works list Armstrong and William Dana of the same agency among the seven chosen in 1960 and leaving in 1962, so Hallion's statement is read here as describing the group at the end of the programme.
 
 **Engineering analysis.** The aspect ratio, the centrifugal relief, the equilibrium glide density and deceleration, the range and crossrange relations, the implied lift-to-drag ratio of 1.350, the comparison of flat-plate impact theory with Lesko's polar, the rescaling of the stagnation heating to the documented nose, the invariance of peak heating with respect to lift-to-drag ratio, the total heat scaling, the ballistic comparison, the radiation equilibrium temperatures, the ablator and heat sink masses, and the landing lift coefficients, energies and friction coefficient are all computed here from published figures and are not quoted from any source.
 
 **Assumed quantities, each of which moves the answers.** A reference nose radius of one foot for the trajectory analysis, against the documented 7.5 inches, to whose square root the peak heating is inversely proportional. A heating constant of the Sutton-Graves form. A trimmed hypersonic lift coefficient of 0.6. An emissivity of 0.85. A lower-surface heating fraction of 0.12 of stagnation. A wetted area of 2.2 times wing area with an area-average heating factor of 0.15. An effective heat of ablation between 3,000 and 15,000 British thermal units per pound. A heat-sink specific heat of 0.22 and temperature rise of 1,000 degrees. Expansion coefficients of 8.0 and 3.0 times ten to the minus six for René 41 and molybdenum and a 1,500 degree rise. Sea-level density for the touchdown lift coefficients. A ballistic coefficient of 50 pounds per square foot and a five degree entry angle for the comparison case.
 
-**A conclusion of the computation.** A thirty-minute heat load does not make ablation impossible. **An ablator is heavy but buildable** at five to twenty-six percent of glider weight, and only the heat sink is impossible. The hot structure was therefore chosen for reuse rather than compelled by mass, which is a reading of programme intent that the arithmetic permits rather than one it compels.
+**A conclusion of the computation.** A thirty-minute heat load does not make ablation impossible. **An ablator is heavy but buildable** at five to twenty-six percent of glider weight, and only the heat sink is impossible. The hot structure was therefore chosen for reuse and was not compelled by mass. The arithmetic permits that reading of programme intent without requiring it.
 
 **Written from present knowledge.** Material postdating the editorial date is used and identified as such.
 
@@ -825,17 +825,17 @@ The boost trajectory and Titan III performance in detail. Abort modes, which wer
 
 The X-20 asked what lift costs on the way back from orbit, and the answer this article computes is sharper than the question.
 
-**Lift does not raise the peak heating at all.** Peak rate on an equilibrium glide is fixed by wing loading and is indifferent to lift-to-drag ratio across at least a twelvefold range. What lift buys is crossrange, growing as the square of lift-to-drag ratio, and what it costs is total heat, growing in direct proportion. Two thousand nautical miles of crossrange needs a lift-to-drag ratio of 1.35 by the closed form, which a flat-bottomed delta could deliver. The programme's own trajectories needed a design maximum near 2.2 to reach the same distance, so the closed form is a lower bound on the aerodynamics and not a description of them.
+**Lift does not raise the peak heating at all.** Peak rate on an equilibrium glide is fixed by wing loading and is indifferent to lift-to-drag ratio across at least a twelvefold range. What lift buys is crossrange, growing as the square of lift-to-drag ratio, and what it costs is total heat, growing in direct proportion. Two thousand nautical miles of crossrange needs a lift-to-drag ratio of 1.35 by the closed form, which a flat-bottomed delta could deliver. The programme's trajectories needed a design maximum near 2.2 to reach the same distance, so the closed form is a lower bound on the aerodynamics and not a description of them.
 
-**The comparison with a capsule is not the one usually drawn.** A ballistic entry at the same conditions imposes a peak rate twenty-six times higher and a total load about nine tenths of the glider's. The glider's advantage is entirely in rate, and that is what permits a structure that radiates instead of one that burns away.
+**The comparison with a capsule is not the one usually drawn.** A ballistic entry at the same conditions imposes a peak rate twenty-six times higher and a total load about nine tenths of the glider's. The glider's advantage lies entirely in rate, and the lower rate permits a structure that radiates instead of one that burns away.
 
-**The choice of a hot structure was not forced.** Ablation would have worked at five to twenty-six percent of glider weight. It was rejected because it cannot be used twice, which means the X-20's most distinctive engineering decision was a consequence of wanting an aeroplane rather than a consequence of the heat.
+**The choice of a hot structure was not forced.** Ablation would have worked at five to twenty-six percent of glider weight. It was rejected because it cannot be used twice, so the X-20's most distinctive engineering decision followed from wanting an aeroplane. The heat did not dictate it.
 
 The vehicle never flew, so none of this was tested in flight, although its materials, nose caps, panels and skids were tested on the ground. **What was tested, eventually, was the trajectory, by a larger vehicle with a different structure**, and the crossrange requirement that shaped the X-20 shaped that one too.
 
-The contemporary literature adds a closing observation that is harder on the programme's critics than on its engineers. **The X-20 asked three questions at once and every one of them was eventually answered in the affirmative, by different vehicles, decades apart.** The glide went to the Space Shuttle and then to hypersonic glide weapons. The hot structure was rejected in 1972 and is an active research field again. Reuse went to the Shuttle and turned out to cost more in inspection than anyone had costed in mass.
+The contemporary literature adds a closing observation that is harder on the programme's critics than on its engineers. **Each of the three questions the X-20 asked at once was eventually answered in the affirmative, by different vehicles, decades apart.** The glide went to the Space Shuttle and then to hypersonic glide weapons. The hot structure was rejected in 1971 and is an active research field again. Reuse went to the Shuttle and turned out to cost far more than had been projected.
 
-**No single vehicle held all three together again until the X-37B**, which flies the X-20's specification unmanned, forty years late. The programme was cancelled for having no mission, and that criticism was fair. What it did not anticipate is that the answers would outlive the question.
+**The X-37B comes closest to holding all three together**, and it flies the X-20's specification unmanned, forty years late. The cancellation for want of a mission was a fair judgement. It did not anticipate is that the answers would outlive the question.
 
 ## References
 
@@ -859,9 +859,11 @@ The contemporary literature adds a closing observation that is harder on the pro
 - [Heppenheimer 2007, Facing the Heat Barrier][ref_heppenheimer_2007]
 - [Manned Orbiting Laboratory][ref_mol]
 - [Neil Armstrong][ref_armstrong]
+- [Project Mercury][ref_mercury]
 - [René 41][ref_rene41]
 - [Robert McNamara][ref_mcnamara]
 - [Space Shuttle][ref_shuttle]
+- [Space Shuttle thermal protection system][ref_shuttle_tps]
 - [Titan III][ref_titan3]
 - [X-37][ref_x37]
 - [zirconia][ref_zirconia]
@@ -872,10 +874,12 @@ The contemporary literature adds a closing observation that is harder on the pro
 [ref_hallion_1984]: https://ntrs.nasa.gov/citations/19850009625
 [ref_heppenheimer_2007]: https://history.nasa.gov/sp4232.pdf
 [ref_mcnamara]: https://en.wikipedia.org/wiki/Robert_McNamara
+[ref_mercury]: https://en.wikipedia.org/wiki/Project_Mercury
 [ref_mol]: https://en.wikipedia.org/wiki/Manned_Orbiting_Laboratory
 [ref_molybdenum]: https://en.wikipedia.org/wiki/Molybdenum
 [ref_rene41]: https://en.wikipedia.org/wiki/Ren%C3%A9_41
 [ref_shuttle]: https://en.wikipedia.org/wiki/Space_Shuttle
+[ref_shuttle_tps]: https://en.wikipedia.org/wiki/Space_Shuttle_thermal_protection_system
 [ref_titan3]: https://en.wikipedia.org/wiki/Titan_IIIC
 [ref_x20]: https://en.wikipedia.org/wiki/Boeing_X-20_Dyna-Soar
 [ref_x37]: https://en.wikipedia.org/wiki/Boeing_X-37

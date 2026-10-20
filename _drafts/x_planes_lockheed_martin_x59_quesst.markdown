@@ -16,43 +16,43 @@ series_index: 60
 
 This is the sixtieth article in the [X-Planes series][related_post_a297_framing], following the [X-1][related_post_a298_bell_x1], the [X-2][related_post_a299_bell_x2], the [X-3][related_post_a300_douglas_x3], the [X-4][related_post_a301_northrop_x4], the [X-5][related_post_a302_bell_x5], the [X-6][related_post_a303_convair_x6], the [X-7][related_post_a304_lockheed_x7], the [X-8][related_post_a305_aerojet_x8], the [X-9][related_post_a306_bell_x9], the [X-10][related_post_a307_north_american_x10], the [X-11][related_post_a308_convair_x11], the [X-12][related_post_a309_convair_x12], the [X-13][related_post_a310_ryan_x13], the [X-14][related_post_a311_bell_x14], the [X-15][related_post_a312_north_american_x15], the [X-16][related_post_a313_bell_x16], the [X-17][related_post_a314_lockheed_x17], the [X-18][related_post_a315_hiller_x18], the [X-19][related_post_a316_curtiss_wright_x19], the [X-20][related_post_a317_boeing_x20], the [X-21][related_post_a318_northrop_x21], the [X-22][related_post_a319_bell_x22], the [X-23][related_post_a320_martin_marietta_x23], the [X-24][related_post_a321_martin_marietta_x24], the [X-25][related_post_a322_bensen_x25], the [X-26][related_post_a323_schweizer_x26], the [X-27][related_post_a324_lockheed_x27], the [X-28][related_post_a325_osprey_x28], the [X-29][related_post_a326_grumman_x29], the [X-30][related_post_a327_rockwell_x30], the [X-31][related_post_a328_rockwell_mbb_x31], the [X-32][related_post_a329_boeing_x32], the [X-33][related_post_a330_lockheed_martin_x33], the [X-34][related_post_a331_orbital_sciences_x34], the [X-35][related_post_a332_lockheed_martin_x35], the [X-36][related_post_a333_mcdonnell_douglas_x36], the [X-37][related_post_a334_boeing_x37], the [X-38][related_post_a335_scaled_composites_x38], the [X-39][related_post_a336_x39_reserved_never_assigned], the [X-40][related_post_a337_boeing_x40], the [X-41][related_post_a338_x41_common_aero_vehicle], the [X-42][related_post_a339_orbital_sciences_x42], the [X-43][related_post_a340_micro_craft_x43], the [X-44][related_post_a341_x44_two_aircraft], the [X-45][related_post_a342_boeing_x45], the [X-46][related_post_a343_boeing_x46], the [X-47][related_post_a344_northrop_grumman_x47], the [X-48][related_post_a345_boeing_x48], the [X-49][related_post_a346_piasecki_x49], the [X-50][related_post_a347_boeing_x50], the [X-51][related_post_a348_boeing_x51], the [X-52][related_post_a349_x52_designation_refused], the [X-53][related_post_a350_boeing_x53], the [X-54][related_post_a351_gulfstream_x54], the [X-55][related_post_a352_lockheed_martin_x55], the [X-56][related_post_a353_lockheed_martin_x56], the [X-57][related_post_a354_esaero_x57_maxwell], and the [X-58][related_post_a355_x58_slot_taken_by_xq58].
 
-**The verb is the unusual thing.** The register's X rows say demonstrate 12 times, test 5 times, investigate 3 times, validate once and exhibit once. **The word create appears in 1 of the 539 rows, and this is the row.** Every other aeroplane in the series is written down as going to find something out about a phenomenon that already exists. This one is written down as going to make one.
+**The verb is the unusual thing.** The register's X rows say demonstrate 12 times, test 5 times, investigate 3 times, validate once and exhibit once \[[Parsch, DOD 4120.15-L Addendum][ref_mds_addendum]\]. **The word create appears in 1 of the 539 rows, and this is the row.** Every other aeroplane in the series is written down as going to find something out about a phenomenon that already exists. This one is written down as going to make one.
 
-**And the adjective is the programme.** The other sonic boom row is the [X-54][related_post_a351_gulfstream_x54], allocated 5 May 2008, which was to be capable of generating relevant ground sonic boom signatures. **That aeroplane was never built.** The difference between the two sentences is the single word *shaped*, and the entire enterprise of the last sixty years of this subject is contained in it.
+**And the adjective is the programme.** The other sonic boom row is the [X-54][related_post_a351_gulfstream_x54], allocated 5 May 2008, which was to be capable of generating relevant ground sonic boom signatures \[[Parsch, DOD 4120.15-L Addendum][ref_mds_addendum]\]. **That aeroplane was never built.** The difference between the two sentences is the single word *shaped*, and the entire enterprise of the last sixty years of this subject is contained in it.
 
 ## The Research Question
 
 **The question this aeroplane exists to settle is what people on the ground hear when a supersonic aeroplane passes over them with its boom shaped rather than coalesced into a shock-fronted wave.** The register states the intent as the creation of a shaped sonic boom signature \[[Parsch, DOD 4120.15-L Addendum][ref_mds_addendum]\], and the programme states its target as 75 on the Stevens Mark VII perceived level scale \[[NASA Release 18-020][ref_nasa_release_18_020]\] \[[Doebler and Rathsam 2019][research_doebler_rathsam_2019]\].
 
-**The quantity is a human response and not a pressure.** The mission is to fly the aeroplane over selected United States communities and to collect the responses of the residents underneath \[[Quesst, the Aircraft][ref_nasa_quesst_aircraft]\], and the part of this article headed Seventy-Five Is a Perception and Not a Pressure sets out why the target cannot be read as an overpressure.
+**The quantity measured is a human response.** The mission is to fly the aeroplane over selected United States communities and to collect the responses of the residents underneath \[[Quesst, the Aircraft][ref_nasa_quesst_aircraft]\], and Seventy-Five Is a Perception and Not a Pressure, below, sets out why the target cannot be read as an overpressure.
 
-**Nor is the question one of compliance.** The part of this article headed The Rule It Exists to Change Contains No Loudness at All shows that the governing rule names no threshold, so what the aeroplane is built to return is evidence from which a threshold might one day be written. **At the editorial date the question was still open, because the aeroplane had not yet been supersonic.**
+**Nor is the question one of compliance.** The governing rule names no threshold, as the subsection The Rule It Exists to Change Contains No Loudness at All shows, so what the aeroplane is built to return is evidence from which a threshold might one day be written. **When this article was written the question was still open, because the aeroplane had not yet been supersonic.**
 
-## Programme Origin, What the Register Says, Which Is Very Little
+## Programme Origin
 
 The row was allocated 21 June 2018 to Lockheed Martin, sponsored by the National Aeronautics and Space Administration, or NASA, with the engines cell left empty \[[Parsch, DOD 4120.15-L Addendum][ref_mds_addendum]\].
 
 > *QueSST*; LBFD aircraft is a research aircraft that will create a shaped sonic boom signature.
 
-**The empty engines cell carries no meaning.** 94 of the register's 539 rows have no engine listed, among them the [X-57][related_post_a354_esaero_x57_maxwell] and the X-60A, so an empty cell says nothing about the aeroplane \[[Parsch, DOD 4120.15-L Addendum][ref_mds_addendum]\].
+**The empty engines cell carries no meaning.** 94 of the register's 539 rows have no engine listed, among them the [X-57][related_post_a354_esaero_x57_maxwell] and the X-60A, so an empty cell is no evidence about the aeroplane \[[Parsch, DOD 4120.15-L Addendum][ref_mds_addendum]\].
 
-**What is worth measuring is the length.** The mission statement of the [X-57][related_post_a354_esaero_x57_maxwell], allocated 25.6 months before this one, is 328 characters and is the longest in the X series, each statement measured without its popular name and without the compiler's note marker. This one is 84. **The two neighbouring rows are the longest and the eighth shortest**, and the shorter of them describes a programme that cost the agency 247.5 million dollars at the contract award alone \[[NASA Release 18-020][ref_nasa_release_18_020]\].
+**The length is more informative.** The mission statement of the [X-57][related_post_a354_esaero_x57_maxwell], allocated 25.6 months before this one, is 328 characters and is the longest in the X series, each statement measured without its popular name and without the compiler's note marker \[[Parsch, DOD 4120.15-L Addendum][ref_mds_addendum]\]. This one is 84. **The two neighbouring rows are the longest and the eighth shortest**, and the shorter of them describes a programme that cost the agency 247.5 million dollars at the contract award alone \[[NASA Release 18-020][ref_nasa_release_18_020]\].
 
-**A register entry is not a measure of a programme.** That is the finding rather than a complaint, and the [X-57][related_post_a354_esaero_x57_maxwell] established the same thing from the other end by being the longest entry attached to an aeroplane that never flew.
+**A register entry does not measure a programme.** That is the finding rather than a complaint, and the [X-57][related_post_a354_esaero_x57_maxwell] established the same thing from the other end by being the longest entry attached to an aeroplane that never flew.
 
 ### The Aeroplane Was Under Contract Before It Had a Number
 
-NASA announced the contract to Lockheed Martin Aeronautics on 3 April 2018, stating that work began the previous day \[[NASA Release 18-020][ref_nasa_release_18_020]\]. **The designation was allocated 80 days later** \[[Parsch, DOD 4120.15-L Addendum][ref_mds_addendum]\].
+NASA announced the contract to Lockheed Martin Aeronautics on 3 April 2018, stating that work began the previous day \[[NASA Release 18-020][ref_nasa_release_18_020]\]. **The designation was allocated 80 days after work began** \[[Parsch, DOD 4120.15-L Addendum][ref_mds_addendum]\].
 
 **This is the ordinary order of events, and three neighbouring designations show that it is not the only one.** The [X-39][related_post_a336_x39_reserved_never_assigned] was reserved and then lost because no letter was ever written. The [X-52][related_post_a349_x52_designation_refused] was requested in writing and refused. The [X-58][related_post_a355_x58_slot_taken_by_xq58] was skipped while it was still the next number due. **Here a contract was signed, an aeroplane was designed, and a number was applied for and granted in the normal way, and the interval was under three months.**
 
 ## Sizing From First Principles
 
-**This aeroplane is sized by its signature, and its sizing runs from the physics of the boom through the loudness target to the shape and the cruise condition that deliver it.** The relations are evaluated at the published design point of Mach 1.4 at 55,000 feet, with the weights taken from the builder's card \[[Silencing the Sonic Boom, X-59 Product Card][ref_lm_card]\]. **The two quantities that would close the sizing, the lift-to-drag ratio and the installed fuel consumption in supersonic cruise, are not published**, and where they are needed the article says so rather than supplying them.
+**This aeroplane is sized by its signature, and its sizing runs from the physics of the boom through the loudness target to the shape and the cruise condition that deliver it.** The relations are evaluated at the published design point of Mach 1.4 at 55,000 feet, with the weights taken from the builder's card \[[Silencing the Sonic Boom, X-59 Product Card][ref_lm_card]\]. **The two quantities that would close the sizing, the lift-to-drag ratio and the installed fuel consumption in supersonic cruise, are not published**, and where they are needed the article names the gap and supplies no value.
 
-### What a Sonic Boom Is, Which Is Not What the Word Suggests
+### A Sonic Boom Is Not an Explosion
 
-A body moving faster than sound cannot push the air out of its way in advance, because the news of its approach travels no faster than the air's own signalling speed. The disturbance therefore accumulates on a cone trailing the body, whose half-angle is fixed by the ratio of the two speeds.
+A body moving faster than sound cannot push the air out of its way in advance, because the news of its approach travels no faster than the air's signalling speed. The disturbance therefore accumulates on a cone trailing the body, whose half-angle is fixed by the ratio of the two speeds.
 
 $$
 \sin\mu = \frac{1}{M}
@@ -64,15 +64,15 @@ At the design cruise Mach number of 1.4 the Mach angle is 45.6 degrees, so the c
 
 **The word boom suggests an explosion and the physics is nothing of the kind.** No energy is released. The aeroplane does work against the air continuously, and the pressure disturbance that work produces arrives at the ground all at once because the aeroplane outruns it. **A sonic boom is the sound of an aeroplane's steady flight delivered in the wrong order.**
 
-#### Whitham's Function, Which Is the Aeroplane Reduced to One Curve
+#### Whitham's Function Reduces the Aeroplane to One Curve
 
-The whole of linearised supersonic theory reduces an aircraft, for the purpose of what it sounds like far away, to a single function of one variable.
+Linearised supersonic theory reduces an aircraft, for the purpose of what it sounds like far away, to a single function of one variable.
 
 $$
 \frac{\Delta p}{p_a} = \frac{\gamma M^2}{\sqrt{2\beta r}}\; F(\zeta)
 $$
 
-Here $F$ is Whitham's F-function, and the entire influence of shape, size, weight and attitude enters the far field through it \[[Whitham 1952][research_whitham_1952]\] \[[Whitham, Linear and nonlinear waves][book_whitham]\]. **A body's near field is complicated and its far field is one curve**, which is why sonic boom minimisation is a tractable design problem at all.
+Here $F$ is Whitham's F-function, and the entire influence of shape, size, weight and attitude enters the far field through it \[[Whitham 1952][research_whitham_1952]\] \[[Whitham, Linear and nonlinear waves][book_whitham]\]. **A body's near field is complicated and its far field is one curve**, and that reduction is why sonic boom minimisation is a tractable design problem.
 
 The F-function is obtained from the second derivative of an equivalent area distribution through an Abel transform.
 
@@ -87,7 +87,7 @@ $$
 A_e(x) = A_V(x) + \frac{\beta}{2q} \int_0^{x} L'(\xi)\; \mathrm{d}\xi
 $$
 
-**That second term is why a sonic boom cannot be designed away by making the aeroplane thin.** The aeroplane must hold itself up, and holding itself up means turning air downwards, and turning air downwards is indistinguishable at a distance from occupying volume. **A wing that carries weight has an equivalent area whether or not it has any thickness at all.**
+**That second term is why a sonic boom cannot be designed away by making the aeroplane thin.** The aeroplane must hold itself up, and holding itself up means turning air downwards, and turning air downwards is indistinguishable at a distance from occupying volume. **A wing that carries weight has an equivalent area whether or not it has any thickness.**
 
 #### The Weight Puts an Equivalent Area There and No Shaping Removes It
 
@@ -115,7 +115,7 @@ d_e = 2 \sqrt{ \frac{\beta\,W}{2q\,\pi} } = 2 \sqrt{ \frac{ 4.232 }{\pi} }
 = 2.32\ \text{metres}
 $$
 
-The aeroplane is ninety-nine feet long and under thirty feet in span, and a photograph of it shows a fuselage plainly slimmer than that. **The aeroplane's own volume is a minority contributor to its own signature. Its weight is the majority**, and this article states that as its own inference from the relation above rather than as anything a source says.
+The aeroplane is ninety-nine feet long and under thirty feet in span \[[X-59 Aircraft Overview and Status][ref_x59_overview]\], and a photograph of it shows a fuselage visibly slimmer than that. **The aeroplane's volume is a minority contributor to its signature. Its weight is the majority**, an inference this article draws from the relation above and finds stated in no source.
 
 **And the trade with altitude runs the wrong way.** The lift term is inversely proportional to the dynamic pressure, so climbing to reduce the boom by lengthening the propagation path simultaneously increases the equivalent area the lift contributes. At 55,000 feet the dynamic pressure is 12,512 pascals and at forty thousand feet it is 25,730, so **the lift-induced equivalent area is 2.06 times larger at the higher altitude**, being 4.232 square metres against 2.058. The weight and the Mach number factor cancel from the ratio, which is therefore the ratio of the two dynamic pressures.
 
@@ -125,7 +125,7 @@ $$
 = 2.06
 $$
 
-**Altitude is not a free variable in this problem and the two effects it has are opposed.**
+**Altitude cannot be chosen freely in this problem, and the two effects it has are opposed.**
 
 The same equivalent area governs the wave drag through von Karman's double integral \[[Kuchemann, The aerodynamic design of aircraft][book_kuchemann]\] \[[Area rule][ref_area_rule]\].
 
@@ -152,7 +152,7 @@ $$
 T_s \propto r^{1/4}
 $$
 
-The discrepancy is not a correction. It is a physical process, and it can be found by asking where the energy has gone. The intensity of an acoustic wave is its mean square pressure divided by the impedance of the medium \[[Kinsler, Frey, Coppens and Sanders, Fundamentals of acoustics][book_kinsler]\].
+The discrepancy has a physical cause, which can be found by asking where the energy has gone. The intensity of an acoustic wave is its mean square pressure divided by the impedance of the medium \[[Kinsler, Frey, Coppens and Sanders, Fundamentals of acoustics][book_kinsler]\].
 
 $$
 I = \frac{p^2}{\rho\, c}
@@ -165,7 +165,7 @@ $$
 \;\propto\; r \cdot r^{-3/2} \cdot r^{1/4} = r^{-1/4}
 $$
 
-**The energy falls as the minus one quarter power of the distance, so about 15.9 percent of it goes missing at every doubling, and it goes missing because the wave has shocks in it.** A shock is an irreversible compression. It converts ordered acoustic energy into heat, and it does so continuously as the wave propagates, and the classical linear result knows nothing about it.
+**The energy falls as the minus one quarter power of the distance, so about 15.9 percent of it goes missing at every doubling, and it goes missing because the wave has shocks in it.** A shock is an irreversible compression. It converts ordered acoustic energy into heat, and it does so continuously as the wave propagates, and the classical linear result omits it.
 
 **This is the reason the subject exists.** A signature that has coalesced into a shock-fronted N-wave is dissipating itself all the way to the ground, and arrives having converted a substantial part of its energy into a discontinuity that the human ear is exquisitely equipped to hear. **A signature that has not coalesced arrives quieter for two separate reasons, having lost less energy and having put what remains into frequencies the ear cares less about.** The design problem is to arrange the equivalent area so that coalescence does not complete within the propagation distance available.
 
@@ -208,13 +208,13 @@ $$
 \frac{\cos\theta(z)}{c(z)} = \mathrm{constant}
 $$
 
-The consequence is a threshold. The horizontal trace speed of the wave along the ground equals the aircraft's own speed, and a wave whose trace speed is below the local speed of sound cannot propagate as a wave at that level at all. **So there is a Mach number below which the boom turns over in the air and never reaches the ground.**
+The consequence is a threshold. The horizontal trace speed of the wave along the ground equals the aircraft's speed, and a wave whose trace speed is below the local speed of sound cannot propagate as a wave at that level. **So there is a Mach number below which the boom turns over in the air and never reaches the ground.**
 
 $$
 M_c = \frac{c(0)}{c(z_a)}
 $$
 
-That condition is standard in the sonic boom literature and is where the term Mach cutoff comes from \[[Maglieri and others, Sonic boom, six decades of research][book_maglieri]\]. Evaluated for the design cruise altitude of 55,000 feet in the standard atmosphere, which is 16,764 metres and lies in the isothermal layer above the tropopause at 216.65 kelvin, this gives the following.
+That condition is standard in the sonic boom literature and gives the term Mach cutoff its name \[[Maglieri and others, Sonic boom, six decades of research][book_maglieri]\]. Evaluated for the design cruise altitude of 55,000 feet in the standard atmosphere, which is 16,764 metres and lies in the isothermal layer above the tropopause at 216.65 kelvin \[[U.S. Standard Atmosphere, 1976][ref_us_standard_atmosphere]\], this gives the following.
 
 $$
 M_c = \frac{ 340.29 }{ 295.07 } = 1.153
@@ -224,17 +224,17 @@ $$
 
 **The design cruise Mach number is 21.4 percent above cutoff.** And the cutoff ratio has a maximum, because the atmosphere has a coldest layer. Sweeping the standard atmosphere from the ground to 30 kilometres, the largest value the ratio takes anywhere is 1.153. **So Mach 1.4 produces a boom that reaches the ground from every altitude, and no choice of cruise height would prevent it.**
 
-**This number is not new to this series and the agreement is worth stating.** The [X-54][related_post_a351_gulfstream_x54] derived it from the temperature ratio alone, since the speed of sound is the square root of the temperature and the rest cancels, and obtained the same 1.153 for the standard atmosphere above the tropopause. **Two articles, two derivations and one number.** That article went considerably further, computing where the ray turns over and showing how sharply the turning altitude collapses as the Mach number rises, and this one does not repeat that work.
+**This number has appeared before in this series.** The [X-54][related_post_a351_gulfstream_x54] derived it from the temperature ratio alone, since the speed of sound is the square root of the temperature and the rest cancels, and obtained the same 1.153 for the standard atmosphere above the tropopause. **Two articles, two derivations and one number.** That article went considerably further, computing where the ray turns over and showing how sharply the turning altitude collapses as the Mach number rises, and this one does not repeat that work.
 
 #### The Aeroplane Could Have Avoided the Problem Entirely and Refuses To
 
-**A supersonic aeroplane that never wants to be heard has a simple option available to it.** Cruise below the cutoff Mach number. The boom refracts away, nobody on the ground hears anything, and no shaping is required. The approach has a literature of its own under the name Mach cutoff flight, which treats it as an operational alternative to shaping the aeroplane \[[Busch et al 2017][research_busch_tai_2017]\] \[[Liebhardt et al 2022][research_liebhardt_linke_2022]\], and the [X-54][related_post_a351_gulfstream_x54] established that signatures were measured in flight at cutoff Mach number and published in 1971.
+**A supersonic aeroplane that never wants to be heard has a simple option available to it.** Cruise below the cutoff Mach number. The boom refracts away, nobody on the ground hears anything, and no shaping is required. The approach is studied under the name Mach cutoff flight, as an operational alternative to shaping the aeroplane \[[Busch et al 2017][research_busch_tai_2017]\] \[[Liebhardt et al 2022][research_liebhardt_linke_2022]\], and the [X-54][related_post_a351_gulfstream_x54] established that signatures were measured in flight at cutoff Mach number and published in 1971.
 
-**The X-59 rejects that solution, and the reason is that its product is the boom.** The mission is to fly over selected communities and to ask the residents underneath how they responded \[[Quesst, the Aircraft][ref_nasa_quesst_aircraft]\]. **An aeroplane that produces no measurable boom answers no question.** The programme needs a signature on the ground, of a known shape, at a known level, arriving at people who can be surveyed. Cutoff cruise would deliver silence, and silence is not evidence.
+**The X-59 rejects that solution because its product is the boom.** The mission is to fly over selected communities and to ask the residents underneath how they responded \[[Quesst, the Aircraft][ref_nasa_quesst_aircraft]\]. **An aeroplane that produces no measurable boom answers no question.** The programme needs a signature on the ground, of a known shape, at a known level, arriving at people who can be surveyed. Cutoff cruise would deliver silence, and silence is not evidence.
 
-**That sets this aeroplane beside a technique that has no need of it.** The executive order that directed the prohibition's repeal gives its grounds as advances in aerospace engineering, materials science and noise reduction and names no technique \[[Executive Order 14304, American Presidency Project][ref_eo_14304_apps]\]. The [X-54][related_post_a351_gulfstream_x54] article reads Mach cutoff flight, which makes no ground boom at all rather than a quiet one, as a basis on which a repeal could stand, and that is an inference rather than anything the order says. **The X-59 is the aeroplane built for the other answer**, and it flies 21.4 percent above the speed at which the problem would disappear, on purpose, because the other answer needs a boom to exist before anyone can be asked about it.
+**That sets this aeroplane beside a technique that has no need of it.** The executive order that directed the prohibition's repeal gives its grounds as advances in aerospace engineering, materials science and noise reduction and names no technique \[[Executive Order 14304, American Presidency Project][ref_eo_14304_apps]\]. The [X-54][related_post_a351_gulfstream_x54] article reads Mach cutoff flight, which makes no ground boom where shaping makes a quiet one, as a basis on which a repeal could stand, and that reading is an inference, since the order states no such basis. **The X-59 is the aeroplane built for the other answer**, and it flies 21.4 percent above the speed at which the problem would disappear, on purpose, because the other answer needs a boom to exist before anyone can be asked about it.
 
-#### How Wide the Boom Is, Which the Same Invariant Answers
+#### The Same Invariant Sets the Width of the Boom
 
 **The cutoff condition was written for a ray going straight down and the interesting rays do not.** Taking the wave normal around the Mach cone at an azimuth $\phi$ measured up from the horizontal, the horizontal slowness has a component along the flight direction as well as across it, and it is the magnitude of the horizontal slowness that is invariant \[[Pierce, Acoustics][book_pierce]\] \[[Haefeli et al 1969][research_haefelirc_hayeswd_1969]\] \[[Hayes 1969][research_hayes_1969]\].
 
@@ -251,7 +251,7 @@ u\, c(0) \le 1
 \phi \ge \phi_c = 45.4^{\circ}
 $$
 
-At the design condition the cutoff azimuth is 45.4 degrees, so **rays leaving the cone more sideways than that turn over in the air and are never heard.** The straight-down ray is the one that reaches the ground with the shortest path, and every other ray reaching the ground lands further out.
+At the design condition the cutoff azimuth is 45.4 degrees, so **rays leaving the cone more sideways than that turn over in the air and are never heard.** The straight-down ray reaches the ground by the shortest path, and every other ray reaching the ground lands further out.
 
 The ray path itself follows from the same invariant, and integrating it from the cruise altitude to the ground gives the lateral offset at which each ray arrives \[[Pierce, Acoustics][book_pierce]\].
 
@@ -279,9 +279,9 @@ $$
 
 **Flying slower narrows the carpet as well as quietening it.**
 
-**And the boom does not arrive underneath the aeroplane.** The straight-down ray lands 19.29 kilometres behind, so a person hearing the thump is hearing an aeroplane that passed overhead some seconds earlier and is already well down the track.
+**Nor does the boom arrive underneath the aeroplane.** The straight-down ray lands 19.29 kilometres behind, so a person hearing the thump is hearing an aeroplane that passed overhead some seconds earlier and is already well down the track.
 
-#### The Published Speed Checks Out, Which Is Worth Doing
+#### The Published Speed Checks Out
 
 Multiplying the design Mach number by the speed of sound at the cruise altitude gives the following.
 
@@ -292,7 +292,7 @@ $$
 
 NASA has published 925 miles per hour for this aeroplane on its public pages and 940 miles per hour in the contract announcement \[[NASA Release 18-020][ref_nasa_release_18_020]\] \[[Quesst, the Aircraft][ref_nasa_quesst_aircraft]\]. **The first reproduces from Mach 1.4 at the cruise altitude to within 0.1 percent.** The second corresponds to Mach 1.42 at the same altitude.
 
-**The two published speeds are therefore the same physical statement at two roundings**, which is a different result from the one the [X-58][related_post_a355_x58_slot_taken_by_xq58] reached, where two published speeds turned out to refer to two different altitudes. **The check is worth running precisely because it does not always pass.**
+**The two published speeds are therefore the same physical statement at two roundings**, unlike the result the [X-58][related_post_a355_x58_slot_taken_by_xq58] reached, where two published speeds turned out to refer to two different altitudes. **The check is worth running precisely because it does not always pass.**
 
 ### Loudness Is Set by the Rise Time, Not by the Overpressure
 
@@ -320,7 +320,7 @@ K_R = 1 + R_g
 \sigma = 19
 $$
 
-**A factor of 1.9 corresponds to a normalised impedance of 19**, and the measured low end of 1.8 to an impedance of 9, by the same relation. **The conventional constant is therefore a statement about soil**, which agrees with the lower factors having been recorded over softer ground, and it is not a constant at all where the incidence is oblique, which is exactly where a boom arrives at the edge of its own carpet. The reflection factor is not a constant, and it departs furthest from two exactly where the geometry is awkward, which is near the threshold Mach number and at the edge of the carpet \[[Thomas 1971][research_thomas_1971]\].
+**A factor of 1.9 corresponds to a normalised impedance of 19**, and the measured low end of 1.8 to an impedance of 9, by the same relation. **The conventional constant therefore describes the soil**, which agrees with the lower factors having been recorded over softer ground. Nor is the factor constant where the incidence is oblique, as it is for a boom arriving at the edge of its carpet, and it departs furthest from two where the geometry is awkward, near the threshold Mach number and at the edge of the carpet \[[Thomas 1971][research_thomas_1971]\].
 
 **Every sonic boom overpressure in this article is a ground value and already contains this factor**, so the article never applies it twice. Read backwards, a ground overpressure of 0.3 pounds per square foot implies an incident overpressure of 0.158 pounds per square foot before the ground doubled it, which is 7.6 pascals.
 
@@ -352,11 +352,11 @@ $$
 \tau \approx 1\ \text{millisecond}
 $$
 
-**Classical theory is wrong here by a factor of about 192, which is 2.3 orders of magnitude.** Measured sonic boom rise times are of the order of a millisecond, not a microsecond, and the discrepancy has been known since booms were first recorded properly \[[Maglieri and Sothcott 1990][research_maglieridomenicj_sothcottvictore_1990]\] \[[Cleveland and Blackstock 1994][research_cleveland_blackstock_1994]\] \[[Holst-Jensen 1981][research_holstjensen_1981]\]. **It is not a small correction and it is not an experimental error.**
+**Classical theory is wrong here by a factor of about 192, which is 2.3 orders of magnitude.** Measured sonic boom rise times are of the order of a millisecond, not a microsecond, and the discrepancy has been known since booms were first recorded properly \[[Maglieri and Sothcott 1990][research_maglieridomenicj_sothcottvictore_1990]\] \[[Cleveland and Blackstock 1994][research_cleveland_blackstock_1994]\] \[[Holst-Jensen 1981][research_holstjensen_1981]\]. **The discrepancy is neither a small correction nor an experimental error.**
 
 Two mechanisms are held responsible. The first is molecular relaxation. Nitrogen and oxygen molecules exchange energy between translational and vibrational modes on timescales far longer than the viscous one, that exchange is a much larger absorption than viscosity at the frequencies concerned, and it depends strongly on humidity \[[Pierce 1970][research_pierce_1970]\]. The second is atmospheric turbulence, which distorts the wavefront on the way down and smears the arrival in time \[[Pierce 1971][research_pierce_1971]\] \[[Raspet et al 1994][research_raspetrichard_basshenrye_1994]\]. **Both are real, both are documented, and the relative contribution of the two is not settled**, and at least one study concludes outright that molecular relaxation alone is insufficient to explain the observed shock structure \[[Gionfriddo et al 1991][research_gionfriddo_kang_1991]\].
 
-**The same shortfall appears in the absorption coefficient, which is the same physics asked a different question.** Classical absorption from viscosity and conduction alone rises as the square of the frequency.
+**The same shortfall appears in the absorption coefficient, which the same physics governs.** Classical absorption from viscosity and conduction alone rises as the square of the frequency.
 
 $$
 \alpha = \frac{\omega^2 \delta_d}{2 c_0^3}
@@ -384,9 +384,9 @@ $$
 = 8.2\%\ \text{of the shortest possible signature}
 $$
 
-**Evaluated at sea level conditions as an indicative bound, the front must take about 5.99 milliseconds to rise.** The bound is indicative because the propagation is through an atmosphere whose density and sound speed vary by a factor of several along the path, and evaluating it at the ground overstates the steepening near the aeroplane and understates it near the listener. **It is stated as an order of magnitude and not as a design figure.**
+**Evaluated at sea level conditions as an indicative bound, the front must take about 5.99 milliseconds to rise.** The bound is indicative because the propagation is through an atmosphere whose density and sound speed vary by a factor of several along the path, and evaluating it at the ground overstates the steepening near the aeroplane and understates it near the listener. **It should be read as an order of magnitude.**
 
-**What makes it worth stating is the comparison.** The shortest signature this aeroplane can produce is its own length divided by its own speed, and the front alone must occupy 8.2 percent of it. **A nose that is almost a third of the aeroplane** \[[NASA, Lockheed Martin Reveal X-59 Quiet Supersonic Aircraft][ref_x59_reveal]\] **is not a stylistic choice.**
+**The bound matters because of a comparison.** The shortest signature this aeroplane can produce is its length divided by its speed, and the front alone must occupy 8.2 percent of it. **A nose that is almost a third of the aeroplane** \[[NASA, Lockheed Martin Reveal X-59 Quiet Supersonic Aircraft][ref_x59_reveal]\] **is not a stylistic choice.**
 
 #### The Signature Is a Waveform and the Peak Is One Number From It
 
@@ -397,7 +397,7 @@ p(t) = \Delta p \left( 1 - \frac{2t}{T_s} \right),
 \qquad 0 \le t \le T_s
 $$
 
-Its duration has a floor. **Nothing can make the signature shorter than the time the aeroplane takes to pass its own length**, because the front of the disturbance is made at the nose and the rear at the tail.
+Its duration has a floor. **Nothing can make the signature shorter than the time the aeroplane takes to travel its length**, because the front of the disturbance is made at the nose and the rear at the tail.
 
 $$
 T_s \ge \frac{\ell}{V} = \frac{30.18}{413.1}
@@ -431,13 +431,13 @@ $$
 f_c = \frac{1}{2\pi\tau}
 $$
 
-A rise time of one millisecond places the corner at 159.2 hertz. A rise time of ten milliseconds places it at 15.9 hertz. At 1,000 hertz, which lies inside the band where human hearing is most sensitive, the difference between those two signatures is 19.9 decibels. **The result is not special to that frequency.** Well above both corners the amplitude falls as the reciprocal of the rise time, so a tenfold rise time is worth twenty decibels at every such frequency, and the evaluation at a kilohertz is an illustration of a general result rather than a special case.
+A rise time of one millisecond places the corner at 159.2 hertz. A rise time of ten milliseconds places it at 15.9 hertz. At 1,000 hertz, which lies inside the band where human hearing is most sensitive, the difference between those two signatures is 19.9 decibels. **The result is not special to that frequency.** Well above both corners the amplitude falls as the reciprocal of the rise time, so a tenfold rise time is worth twenty decibels at every such frequency, and the evaluation at a kilohertz illustrates a general result.
 
-**A factor of ten in rise time is worth twenty decibels where it matters, and costs nothing in peak pressure.** That is the whole of the argument for shaping stated in one line, and it is why a programme aimed at loudness spends its effort on the form of the waveform rather than on its height.
+**A factor of ten in rise time is worth twenty decibels where it matters, and costs nothing in peak pressure.** That one line carries the argument for shaping, and it explains why a programme aimed at loudness spends its effort on the form of the waveform rather than on its height.
 
 ### Seventy-Five Is a Perception and Not a Pressure
 
-The number the programme is built around is 75 on the Stevens Mark VII perceived level scale \[[NASA Release 18-020][ref_nasa_release_18_020]\] \[[Doebler and Rathsam 2019][research_doebler_rathsam_2019]\]. **That scale is a psychophysical construction and not an acoustic measurement**, and treating it as though it were a pressure produces mistakes that are widely repeated.
+The number the programme is built around is 75 on the Stevens Mark VII perceived level scale \[[NASA Release 18-020][ref_nasa_release_18_020]\] \[[Doebler and Rathsam 2019][research_doebler_rathsam_2019]\]. **That scale is a psychophysical construction**, and treating it as though it were an acoustic measurement of pressure produces mistakes that are widely repeated.
 
 The Mark VII scale is defined so that loudness in sones doubles for a fixed increment of level \[[Stevens 1972][research_stevens_1972]\] \[[Stevens, Psychophysics, introduction to its perceptual, neural and social prospects][book_stevens]\] \[[Sone][ref_sone]\].
 
@@ -475,9 +475,9 @@ $$
 
 #### Where the Ninety Percent Comes From
 
-The overpressures are 1.94 pounds per square foot against 0.3 pounds per square foot, and one minus that ratio is 84.5 percent. **That is the nearest of the candidate ratios to the ninety percent in print, and it is a pressure ratio being reported as a reduction in loudness.** That this ratio is the figure's origin is this article's inference, since no source read here derives the ninety percent.
+The overpressures are 1.94 pounds per square foot against 0.3 pounds per square foot, and one minus that ratio is 84.5 percent. **That is the nearest of the candidate ratios to the ninety percent in print, a pressure ratio reported as a reduction in loudness.** That this ratio is the figure's origin is inferred here, since none of the sources derives the ninety percent.
 
-**The two are not interchangeable and the difference is not small.** In pressure the reduction is 96.8 percent. In acoustic energy it is 99.9 percent. In perceived loudness, which is the quantity the target is stated in and the quantity a person underneath actually experiences, it is 47.8 percent. **Three defensible answers spanning fifty percentage points, and the ninety percent in print is not any of them.** The overpressure ratio and the energy ratio evaluate as follows, the second being the square of the thirty decibel pressure ratio.
+**The two are not interchangeable and the difference is not small.** In pressure the reduction is 96.8 percent. In acoustic energy it is 99.9 percent. In perceived loudness, the quantity in which the target is stated and which a person underneath experiences, it is 47.8 percent. **Three defensible answers spanning fifty percentage points, and the ninety percent in print is not any of them.** The overpressure ratio and the energy ratio evaluate as follows, the second being the square of the thirty decibel pressure ratio.
 
 $$
 1 - \frac{ 0.3 }{ 1.94 } = 84.5\%
@@ -485,7 +485,7 @@ $$
 1 - 10^{-30/10} = 99.9\%
 $$
 
-This article does not claim the programme has overstated its case. **It claims that a figure quoted without its unit is not a claim at all**, and that the difference between halving a loudness and removing ninety-seven percent of a pressure is exactly the difference the Mark VII scale exists to express.
+This article does not claim the programme has overstated its case. **It claims that a figure quoted without its unit is not a claim at all**, and that the difference between halving a loudness and removing ninety-seven percent of a pressure is the difference the Mark VII scale exists to express.
 
 #### How Much of the Reduction Is Shape
 
@@ -501,11 +501,11 @@ $$
 
 **About 54 percent of the claimed reduction is amplitude and the rest is shape.** The amplitude term is 16.2 decibels and the residual is 13.8.
 
-**This decomposition is this article's own construction and it rests on an assumption the sources do not make.** Perceived level is not a function of peak overpressure, which is the point of the preceding section, so treating the amplitude term as though it obeyed the decibel rule is a device for splitting the total rather than a physical statement. **It is stated here as inference and not as fact**, and what it establishes is a bound rather than a value. Even under an assumption that maximally favours amplitude, shape accounts for 13.8 decibels of the claim, and no amount of simply making the aeroplane quieter would have delivered it.
+**This decomposition is a construction of this article, resting on an assumption the sources do not make.** Perceived level is not a function of peak overpressure, as the preceding section argues, so treating the amplitude term as though it obeyed the decibel rule is a device for splitting the total rather than a physical statement. **It is stated here as inference**, and it establishes a bound rather than a value. Even under an assumption that maximally favours amplitude, shape accounts for 13.8 decibels of the claim, and no amount of simply making the aeroplane quieter would have delivered it.
 
 ### The Shape That Costs, Measured
 
-The obligation to spread the equivalent area smoothly over as long a distance as possible has a visible consequence, and it can be measured against the aeroplanes this one is compared with \[[Concorde][ref_concorde]\] \[[Tupolev Tu-144][ref_tu144]\] \[[North American XB-70 Valkyrie][ref_xb70]\] \[[General Dynamics F-16 Fighting Falcon][ref_f16]\].
+The obligation to spread the equivalent area smoothly over as long a distance as possible has a visible consequence, and it can be measured against the aeroplanes this one is compared with \[[Concorde][ref_concorde]\] \[[Tupolev Tu-144][ref_tu144]\] \[[North American XB-70 Valkyrie][ref_xb70]\] \[[North American XB-70 Valkyrie, National Museum of the United States Air Force][ref_xb70_museum]\] \[[General Dynamics F-16 Fighting Falcon][ref_f16]\].
 
 $$
 \Lambda = \frac{\ell}{b}
@@ -519,13 +519,13 @@ $$
 | North American XB-70 | 1.77 |
 | General Dynamics F-16 | 1.51 |
 
-**The X-59 is 1.39 times as slender as Concorde and more than twice as slender as a supersonic fighter.** It is ninety-nine feet long with a wingspan under thirty, and the proportion is not an aesthetic choice. It is the equivalent area distribution made visible. **A boom is shaped by making the aeroplane's disturbance grow gradually, and an aeroplane can only grow gradually if it has length to grow along.**
+**The X-59 is 1.39 times as slender as Concorde and more than twice as slender as a supersonic fighter.** It is ninety-nine feet long with a wingspan under thirty \[[X-59 Aircraft Overview and Status][ref_x59_overview]\], and the proportion follows from function, being the equivalent area distribution made visible. **A boom is shaped by making the aeroplane's disturbance grow gradually, and an aeroplane can only grow gradually if it has length to grow along.**
 
-**And the length is not free.** A longer aeroplane has more wetted area for the same volume and lift, and therefore more skin friction drag, and a structure that must resist bending over a longer span of nothing. **The nose contributes no lift, carries no fuel, houses no payload and cannot be shortened**, which is a cost accepted for the sake of the length. **Length is not the only variable the design has**, since the area distribution, the lift distribution, the cruise Mach number and the cruise altitude are all in play and all appear elsewhere in this article. **It is the one the nose buys.**
+**The length is not free.** A longer aeroplane has more wetted area for the same volume and lift, and therefore more skin friction drag, and a structure that must resist bending over a longer span of nothing. **The nose contributes no lift, carries no fuel, houses no payload and cannot be shortened**, which is a cost accepted for the sake of the length. **Length is not the only variable the design has**, since the area distribution, the lift distribution, the cruise Mach number and the cruise altitude are all in play and all appear elsewhere in this article. **It is the one the nose buys.**
 
 #### Three Published Lengths, and the Builder's Is the Outlier
 
-NASA's public description gives the length as 99.7 feet \[[Quesst, the Aircraft][ref_nasa_quesst_aircraft]\] and the project's own technical overview gives 99 \[[X-59 Aircraft Overview and Status][ref_x59_overview]\]. **Lockheed Martin's own product card gives an overall length of 93.83 feet** \[[Silencing the Sonic Boom, X-59 Product Card][ref_lm_card]\].
+NASA's public description gives the length as 99.7 feet \[[Quesst, the Aircraft][ref_nasa_quesst_aircraft]\] and the project's technical overview gives 99 \[[X-59 Aircraft Overview and Status][ref_x59_overview]\]. **Lockheed Martin's own product card gives an overall length of 93.83 feet** \[[Silencing the Sonic Boom, X-59 Product Card][ref_lm_card]\].
 
 **The three span 5.87 feet, which is 5.9 percent**, and against the card's wingspan of 29 feet 6 inches \[[Silencing the Sonic Boom, X-59 Product Card][ref_lm_card]\] they give slendernesses of 3.18, 3.36 and 3.38.
 
@@ -539,9 +539,9 @@ $$
 
 **The aeroplane is the most slender of the comparison set on any of the three**, so the finding above does not turn on which is used, and the table was computed from the project overview's figure.
 
-**The builder's card carries a copyright date of 2019 and the project overview was presented in 2023**, so the simplest reading is that the aeroplane grew during detail design. **That is this article's inference and no source states it**, and the alternative reading, that the three figures measure to different points on the airframe, is equally consistent with what is published.
+**The builder's card carries a copyright date of 2019 and the project overview was presented in 2023** \[[Silencing the Sonic Boom, X-59 Product Card][ref_lm_card]\] \[[X-59 Aircraft Overview and Status][ref_x59_overview]\], so the simplest reading is that the aeroplane grew during detail design. **That is this article's inference and no source states it**, and the alternative reading, that the three figures measure to different points on the airframe, is equally consistent with what is published.
 
-#### The Card's Own Weights Do Not Sum to Its Own Total
+#### The Card's Weights Do Not Sum to Its Own Total
 
 The same card gives an empty weight of 15,000 pounds, fuel of 8,000 and payload of 600, against a maximum design gross weight of 24,300 \[[Silencing the Sonic Boom, X-59 Product Card][ref_lm_card]\]. **Those three sum to 23,600, which is 700 pounds short, or 2.9 percent.**
 
@@ -604,7 +604,7 @@ $$
 \frac{F_N}{F_{N0}} = \left( \frac{\rho}{\rho_0} \right)^{n}
 $$
 
-**The builder's card supplies the weights and the whole of the remaining uncertainty then collapses into one product.** The fuel is 8,000 pounds of a gross 24,300, which is 32.9 percent, so the logarithm in the range relation is 0.3993 and everything else that is known can be gathered into a single coefficient.
+**The builder's card supplies the weights and the remaining uncertainty then collapses into one product.** The fuel is 8,000 pounds of a gross 24,300, which is 32.9 percent, so the logarithm in the range relation is 0.3993 and everything else that is known can be gathered into a single coefficient.
 
 $$
 R_c = \underbrace{V \ln \frac{W_i}{W_f}}_{ 165\ \text{m/s} }
@@ -626,9 +626,9 @@ F_N = F_{N0}\, \frac{\rho}{\rho_0} = 22,000 \times \frac{ 0.14664 }{1.225}
 = 2,634\ \text{pounds}
 $$
 
-**With an exponent of one the engine retains 12 percent of its sea-level thrust at the cruise density**, which against the published 22,000 pounds of sea-level thrust is 2,634 pounds \[[General Electric F414][ref_f414]\]. **That is an indicative bound and not an installed figure.** A real installation at Mach 1.4 recovers a great deal through ram compression, so the true installed thrust is higher, and the exponent for this installation is not published either.
+**With an exponent of one the engine retains 12 percent of its sea-level thrust at the cruise density**, which against the published 22,000 pounds of sea-level thrust is 2,634 pounds \[[General Electric F414][ref_f414]\]. **That is an indicative bound.** A real installation at Mach 1.4 recovers a great deal through ram compression, so the true installed thrust is higher, and the exponent for this installation is not published either.
 
-**One thing the relations do settle without numbers.** The aeroplane is not required to go far. Its mission is to fly a measured pass over an instrumented area or a surveyed community and return, so range is not a design driver, and the slenderness that costs it skin friction costs it something it does not need. **The design trade is unusually clean because the objective is unusually narrow.**
+**One thing the relations do settle without numbers.** The aeroplane is not required to go far. Its mission is to fly a measured pass over an instrumented area or a surveyed community and return \[[Quesst, the Aircraft][ref_nasa_quesst_aircraft]\], so range is not a design driver, and the slenderness that costs it skin friction costs it something it does not need. **The design trade is unusually clean because the objective is unusually narrow.**
 
 ## Symbols
 
@@ -733,31 +733,31 @@ $$
 
 ## Dependent Systems
 
-**The systems this aeroplane depends on are, wherever the shape permits it, systems taken from other aeroplanes, and the one that is new is the one the shape forced.** The parts inventory comes from the project's own annotated configuration \[[X-59 Aircraft Overview and Status][ref_x59_overview]\]. The new system is the camera and display that replace a forward window, because a nose long enough to shape a shock is a nose the pilot cannot see past.
+**The systems this aeroplane depends on are, wherever the shape permits it, systems taken from other aeroplanes, and the one that is new is the one the shape forced.** The parts inventory comes from the project's annotated configuration \[[X-59 Aircraft Overview and Status][ref_x59_overview]\]. The new system is the camera and display that replace a forward window, because a nose long enough to shape a shock is a nose the pilot cannot see past.
 
 ### The Aeroplane Is Mostly Other Aeroplanes
 
 NASA's project overview annotates the configuration feature by feature, and the annotations divide cleanly into two kinds \[[X-59 Aircraft Overview and Status][ref_x59_overview]\].
 
-**Four are about the boom.** A long nose to shape the forward shock. A T-tail to minimise the aft shock. Wing shielding to keep inlet spillage from spoiling the signature. A fixed canard for nose-up trim at the low-boom design point.
+**Four are about the boom.** A long nose to shape the forward shock. A T-tail to minimise the aft shock. Wing shielding to keep inlet spillage from spoiling the signature. A fixed canard for nose-up trim at the low-boom design point \[[X-59 Aircraft Overview and Status][ref_x59_overview]\].
 
-**Four are about cost and schedule, and say so in those words.** F-16 landing gear and other systems from high performance aircraft, to minimise qualification cost and schedule. A T-38 aft canopy and ejection seat, for the same stated reason. Large unitised skins, to reduce parts count and manufacturing cost. A single General Electric F414 engine with a standard nozzle, to minimise cost and schedule. A conventional tail arrangement is annotated separately, to simplify stability and control considerations.
+**Four are about cost and schedule, and say so in those words.** F-16 landing gear and other systems from high performance aircraft, to minimise qualification cost and schedule. A T-38 aft canopy and ejection seat, for the same stated reason. Large unitised skins, to reduce parts count and manufacturing cost. A single General Electric F414 engine with a standard nozzle, to minimise cost and schedule. A conventional tail arrangement is annotated separately, to simplify stability and control considerations \[[X-59 Aircraft Overview and Status][ref_x59_overview]\].
 
-**The aeroplane that exists to prove a shape is assembled, wherever the shape permits it, from parts chosen for not being new.** Contemporary accounts add a propulsion system component from the U-2 and a control stick from the F-117 to the list \[[Lockheed Martin X-59 Quesst][ref_x59_wikipedia]\].
+**Apart from its shaping, the aeroplane that exists to prove a shape is assembled from parts chosen for not being new.** NASA's account of the build adds a propulsion system part from a U-2 and a control stick from an F-117 to the list \[[X-59 QueSST More than the Sum of Its Parts][ref_nasa_parts]\].
 
-**The same contractor has now had cost compression written into an X-plane's own register entry.** The [X-55][related_post_a352_lockheed_martin_x55] is described in the register as validating extreme time and cost compression in airframe manufacture using large unitised composite structures. **The X-59 uses large unitised skins for the stated reason of reducing parts count and manufacturing cost.** The register does not say so about this aeroplane and the project overview does, and both aeroplanes are Lockheed Martin's.
+**The same contractor has now had cost compression written into an X-plane's register entry.** The [X-55][related_post_a352_lockheed_martin_x55] is described in the register as validating extreme time and cost compression in airframe manufacture using large unitised composite structures \[[Parsch, DOD 4120.15-L Addendum][ref_mds_addendum]\]. **The X-59 uses large unitised skins for the stated reason of reducing parts count and manufacturing cost** \[[X-59 Aircraft Overview and Status][ref_x59_overview]\]. The register does not say so about this aeroplane and the project overview does, and both aeroplanes are Lockheed Martin's.
 
 **Lockheed Martin holds 6 of the 31 X rows in the register and Boeing holds 13**, so the leading contractor in this series is not this one. **5 of Lockheed's 6 were allocated in 2009 or later**, which is where the recent concentration is \[[Parsch, DOD 4120.15-L Addendum][ref_mds_addendum]\].
 
 ### Seeing Out of an Aeroplane With No Forward Window
 
-A nose long enough to shape a shock is a nose the pilot cannot see past. **The X-59 has no forward windscreen.** Forward vision is provided by the eXternal Vision System, which NASA describes as a 4K camera system feeding a processor and an ultra-high-definition display with integrated symbology \[[X-59 Aircraft Overview and Status][ref_x59_overview]\].
+A nose long enough to shape a shock is a nose the pilot cannot see past. **The X-59 has no forward windscreen** \[[NASA, Lockheed Martin Reveal X-59 Quiet Supersonic Aircraft][ref_x59_reveal]\]. Forward vision is provided by the eXternal Vision System, which NASA describes as a 4K camera system feeding a processor and an ultra-high-definition display with integrated symbology \[[X-59 Aircraft Overview and Status][ref_x59_overview]\].
 
 **The system was validated in flight before the aeroplane existed.** NASA installed X-59 hardware on a UC-12 and had guest pilots compare normal vision against the system on see-to-avoid and see-to-follow tasks \[[X-59 Aircraft Overview and Status][ref_x59_overview]\]. **A camera and a screen were qualified as a substitute for a window, on a different aeroplane, by pilots doing the tasks a window is for.**
 
-**This is a considerable claim and it is worth stating plainly.** The aeroplane's forward vision is a rendering. The synthetic and enhanced vision literature this substitution belongs to runs in this survey from 1996 and is mostly about supplementing a view rather than replacing one, as the cluster on seeing out counts below.
+**The claim is a considerable one.** The aeroplane's forward vision is a rendering. The synthetic and enhanced vision literature this substitution belongs to runs in this survey from 1996 and is mostly about supplementing a view rather than replacing one, as the cluster on seeing out counts below.
 
-## The Flight Test Record, At the Editorial Date It Had Flown Once
+## The Flight Test Record
 
 The X-59 first flew on 28 October 2025, taking off from Lockheed Martin's Palmdale facility and landing at NASA Armstrong at Edwards \[[X-59 First Flight][ref_nasa_first_flight]\]. **The flight lasted 67 minutes, reached about 12,000 feet and about 230 miles an hour, and the landing gear stayed down throughout** \[[X-59 First Flight][ref_nasa_first_flight]\]. Against the published design cruise of 925 miles an hour at 55,000 feet \[[Quesst, the Aircraft][ref_nasa_quesst_aircraft]\], the two fractions are the following.
 
@@ -769,39 +769,39 @@ $$
 
 **That is 24.9 percent of the design cruise speed, at 21.8 percent of the design cruise altitude, with the gear extended.** As of this article's date, 37 days later, **the aeroplane had made 1 flight and had never been supersonic** \[[NASA's X-59 Completes Second Flight][ref_nasa_second_flight]\].
 
-**The register's claim about it is therefore still a claim about the future, and the register wrote it in the future tense.** The aeroplane that will create a shaped sonic boom signature has not yet created one. It has not yet made any sonic boom at all.
+**The register's claim about it is therefore still a claim about the future, and the register wrote it in the future tense.** The aeroplane that will create a shaped sonic boom signature has not yet created one. It has not yet made a sonic boom of any kind.
 
 ### Against the Schedule the Programme Published
 
 NASA's contract announcement stated that work ran through 31 December 2021, that the agency anticipated accepting the aeroplane in late 2021, and that flights over selected United States cities would begin in mid-2022 \[[NASA Release 18-020][ref_nasa_release_18_020]\].
 
-**First flight came 3.82 years after the stated end of the contract**, 7.35 years after the designation was allocated, and 655 days after the aeroplane was unveiled on 12 January 2024 \[[NASA, Lockheed Martin Reveal X-59 Quiet Supersonic Aircraft][ref_x59_reveal]\]. **The community overflight phase, which was to begin in mid-2022, had not begun.**
+**First flight came 3.82 years after the stated end of the contract**, 7.35 years after the designation was allocated, and 655 days after the aeroplane was unveiled on 12 January 2024 \[[NASA, Lockheed Martin Reveal X-59 Quiet Supersonic Aircraft][ref_x59_reveal]\]. **The community overflight phase, which was to begin in mid-2022, had not begun** \[[X-59 First Flight][ref_nasa_first_flight]\].
 
-**This is recorded as a fact about the schedule and not as a judgement about the programme.** A one-off research aeroplane with a novel configuration, no forward windscreen and a single-string flight-critical vision system is not a schedule-predictable object, and the series has now documented several. **What matters for this article is narrower.** The central claim in the register, and the central claim of the programme, is a claim about a pressure signature at the ground, **and at the editorial date not one such signature had been produced.**
+**This records a fact about the schedule and passes no judgement on the programme.** A one-off research aeroplane with a novel configuration and no forward windscreen is not a schedule-predictable object, and the series has now documented several. **What matters for this article is narrower.** The central claim in the register, and the central claim of the programme, is a claim about a pressure signature at the ground, **and not one such signature had yet been produced.**
 
 ## Comparison With Ground Prediction
 
 **At the editorial date there was nothing from supersonic flight to set beside any ground prediction.** Every figure this article examines for the boom was stated or computed before the aeroplane was supersonic, and the aeroplane had not yet been supersonic.
 
-**The predictions are on record.** The programme states a design cruise of Mach 1.4 at 55,000 feet, published speeds of 925 and 940 miles an hour, and a target of 75 perceived level decibels \[[NASA Release 18-020][ref_nasa_release_18_020]\] \[[Quesst, the Aircraft][ref_nasa_quesst_aircraft]\]. No source read here gives a predicted ground overpressure, and the 0.3 pounds per square foot attached to low-boom aeroplanes is the shock goal of the Quiet Supersonic Platform programme \[[Iosifidis, Concept Development of the Quiet Supersonic Technology Aircraft][ref_iosifidis_2016]\]. **This article adds predictions of its own from the standard atmosphere**, a cutoff Mach number of 1.153, a boom carpet 59.2 kilometres wide and a boom arriving 19.29 kilometres behind the aeroplane, all argued in the part of this article headed Sizing From First Principles.
+**The predictions are on record.** The programme states a design cruise of Mach 1.4 at 55,000 feet, published speeds of 925 and 940 miles an hour, and a target of 75 perceived level decibels \[[NASA Release 18-020][ref_nasa_release_18_020]\] \[[Quesst, the Aircraft][ref_nasa_quesst_aircraft]\]. The sources give no predicted ground overpressure, and the 0.3 pounds per square foot attached to low-boom aeroplanes is the shock goal of the Quiet Supersonic Platform programme \[[Iosifidis, Concept Development of the Quiet Supersonic Technology Aircraft][ref_iosifidis_2016]\]. **This article adds predictions of its own from the standard atmosphere**, a cutoff Mach number of 1.153, a boom carpet 59.2 kilometres wide and a boom arriving 19.29 kilometres behind the aeroplane, all argued under Sizing From First Principles.
 
-**What flight returned lies outside every one of those predictions.** The single flight of 28 October 2025 lasted 67 minutes and reached about 12,000 feet and about 230 miles an hour with the landing gear down \[[X-59 First Flight][ref_nasa_first_flight]\]. That is 24.9 percent of the design cruise speed at 21.8 percent of the design cruise altitude, as the part headed The Flight Test Record computes, a regime in which no boom forms, so it neither confirms nor contradicts any prediction about the signature.
+**What flight returned lies outside every one of those predictions.** The single flight of 28 October 2025 lasted 67 minutes and reached about 12,000 feet and about 230 miles an hour with the landing gear down \[[X-59 First Flight][ref_nasa_first_flight]\]. That is 24.9 percent of the design cruise speed at 21.8 percent of the design cruise altitude, as computed in The Flight Test Record, a regime in which no boom forms, so it neither confirms nor contradicts any prediction about the signature.
 
-**One prediction was flown, on a different aeroplane.** The eXternal Vision System was flown on a UC-12 before the X-59 existed, with guest pilots comparing normal vision against the system on see-to-avoid and see-to-follow tasks \[[X-59 Aircraft Overview and Status][ref_x59_overview]\]. The source reports that work as a validation and this article does not report its measures, so the comparison is recorded as made and not as quantified.
+**One prediction was flown, on a different aeroplane.** The eXternal Vision System was flown on a UC-12 before the X-59 existed, with guest pilots comparing normal vision against the system on see-to-avoid and see-to-follow tasks \[[X-59 Aircraft Overview and Status][ref_x59_overview]\]. The source reports that work as a validation and this article does not report its measures, so the comparison is recorded as made but unquantified.
 
-**Some ground figures disagree with one another before any flight.** The three published lengths span 5.9 percent, which the part headed Three Published Lengths, and the Builder's Is the Outlier records. The card's weights fall 700 pounds short of its own total, which the part headed The Card's Own Weights Do Not Sum to Its Own Total records. The two published speeds reconcile to within rounding, which the part headed The Published Speed Checks Out, Which Is Worth Doing records. **The comparison the programme exists to make, a measured ground signature against the target of 75, awaited supersonic flight**, and the part headed What Classical Theory Says the Rise Time Should Be explains why any prediction it is compared against is partly a prediction about the atmosphere on the day.
+**Some ground figures disagree with one another before any flight.** The three published lengths span 5.9 percent, as the comparison of the three lengths records. The card's weights fall 700 pounds short of its own total, a shortfall recorded where the card's weights are summed. The two published speeds reconcile to within rounding, as checked above. **The comparison the programme exists to make, a measured ground signature against the target of 75, awaited supersonic flight**, and the subsection What Classical Theory Says the Rise Time Should Be explains why any prediction it is compared against is partly a prediction about the atmosphere on the day.
 
 ## What the Data Changed
 
-**At the editorial date flight had returned no data bearing on the research question, so the data had changed nothing.** The single flight was subsonic and made no boom, as the part of this article headed The Flight Test Record records.
+**Flight had so far returned no data bearing on the research question, so the data had changed nothing.** The single flight was subsonic and made no boom, as the flight test record above shows.
 
 **The document the data are meant to change had not changed either.** The aeroplane's output is meant to inform a rule, and the rule is read in full here because its text is the measure of whether anything has moved. On the editorial date the prohibition stood in the form it took on 15 January 2021, past the deadline Executive Order 14304 set for its repeal \[[14 CFR 91.817][ref_far_91_817]\] \[[Executive Order 14304][ref_eo_14304]\].
 
 ### The Rule It Exists to Change Contains No Loudness at All
 
-**The [X-54][related_post_a351_gulfstream_x54] article sets out the essential point, and this article does not claim it.** The prohibition is a speed limit and not a noise limit, so a quiet aeroplane cannot satisfy it, and any aeroplane wanting to fly supersonic over land needs the rule replaced rather than met. **What this article adds is what the exemption path says**, because that is where a threshold would live if there were one.
+**The [X-54][related_post_a351_gulfstream_x54] article sets out the essential point, and this article does not claim it.** The prohibition is a speed limit and not a noise limit, so a quiet aeroplane cannot satisfy it, and any aeroplane wanting to fly supersonic over land needs the rule replaced rather than met. **This article adds a reading of the exemption path**, because a threshold, if there were one, would live there.
 
-The prohibition itself is one paragraph and it is worth reading rather than paraphrasing \[[14 CFR 91.817][ref_far_91_817]\].
+The prohibition is a single paragraph, quoted here in full \[[14 CFR 91.817][ref_far_91_817]\].
 
 > No person may operate a civil aircraft in the United States at a true flight Mach number greater than 1 except in compliance with conditions and limitations in an authorization to exceed Mach 1 issued to the operator in accordance with § 91.818.
 
@@ -823,9 +823,9 @@ and it lists the purposes for which an authorisation may be granted at all. One 
 
 > Establish a means of reducing or eliminating the effects of sonic boom, including flight profiles and special features of an aircraft.
 
-**That clause describes this aeroplane's purpose exactly**, since the X-59 is a special feature of an aircraft intended to reduce the effects of sonic boom. **Whether the X-59 needs the clause is a separate question and the record read here does not settle it.** The prohibition applies by its own words to a **civil** aircraft, the statute defines a civil aircraft as any aircraft except a public aircraft and counts among public aircraft one used only for the United States Government, subject to qualifications set out elsewhere in the code \[[49 U.S.C. 40102, Definitions][ref_usc_40102]\], and **the rulemaking never names this aeroplane at all**, the phrase X-59 and the programme's name together occurring 0 times across the 5 documents read, against 16 mentions of the agency. **Most of the wording predates the programme by forty-five years.** The appendix of 1973 that this section replaced already required conditions ensuring that no measurable sonic boom overpressure would reach the surface outside the designated test area, and already allowed a flight necessary to establish means of reducing or eliminating the effects of sonic boom \[[Civil Aircraft Sonic Boom, final rule][ref_fr_1973_sonic_boom]\]. The words including flight profiles and special features of an aircraft are not in the 1973 text, and whether they were added with this aeroplane in view is unresolved.
+**That clause describes this aeroplane's purpose exactly**, since the X-59 is a special feature of an aircraft intended to reduce the effects of sonic boom. **Whether the X-59 needs the clause is a separate question, and the record read here leaves it open.** The prohibition applies by its own words to a **civil** aircraft, the statute defines a civil aircraft as any aircraft except a public aircraft and counts among public aircraft one used only for the United States Government, subject to qualifications set out elsewhere in the code \[[49 U.S.C. 40102, Definitions][ref_usc_40102]\], and **the rulemaking never names this aeroplane**, the phrase X-59 and the programme's name together occurring 0 times across the 5 documents read, against 16 mentions of the agency. **Most of the wording predates the programme by forty-five years.** The appendix of 1973 that this section replaced already required conditions ensuring that no measurable sonic boom overpressure would reach the surface outside the designated test area, and already allowed a flight necessary to establish means of reducing or eliminating the effects of sonic boom \[[Civil Aircraft Sonic Boom, final rule][ref_fr_1973_sonic_boom]\]. The words including flight profiles and special features of an aircraft are not in the 1973 text, and whether they were added with this aeroplane in view is unresolved.
 
-Another clause permits flight outside a test area only on a conservative showing that no measurable overpressure reaches the surface. **Every path through the regulation is written around a boom that does not arrive.**
+Another clause permits flight outside a test area only on a conservative showing that no measurable overpressure reaches the surface \[[14 CFR 91.818][ref_far_91_818]\]. **Every path through the regulation is written around a boom that does not arrive.**
 
 **So the regulatory situation is not that the X-59 will be quiet enough to satisfy the rule.** There is no number in the rule to satisfy. **The aeroplane's product is not compliance. It is evidence**, gathered so that a rulemaking might one day write a number where at present there is none, and the number would be new law rather than a threshold already waiting.
 
@@ -835,13 +835,13 @@ Another clause permits flight outside a test area only on a conservative showing
 
 **Executive Order 14304 of 6 June 2025 directed the Federal Aviation Administration to repeal the prohibition within 180 days and to establish an interim noise-based certification standard in its place** \[[Executive Order 14304][ref_eo_14304]\] \[[Executive Order 14304, American Presidency Project][ref_eo_14304_apps]\]. The [X-54][related_post_a351_gulfstream_x54] article records that the deadline falls on 3 December 2025.
 
-**And the order does not contain a number either.** It directs that an interim noise-based certification standard be established and does not say what it should be, leaving the threshold to a notice of proposed rulemaking it requires within eighteen months. **So the rule names no loudness, the exemption path requires no boom at all, and the order that would replace the rule declines to say what loudness would be acceptable.** Three documents, and the number the aeroplane was built to justify appears in none of them.
+**And the order does not contain a number either.** It directs that an interim noise-based certification standard be established and does not say what it should be, leaving the threshold to a notice of proposed rulemaking it requires within eighteen months \[[Executive Order 14304, American Presidency Project][ref_eo_14304_apps]\]. **So the rule names no loudness, the exemption path requires no boom, and the order that would replace the rule declines to say what loudness would be acceptable.** Three documents, and the number the aeroplane was built to justify appears in none of them.
 
 **This article is dated 1 day after that deadline, and what happened is that nothing did.** The text of both sections quoted above carries no amendment later than 15 January 2021 \[[14 CFR 91.817][ref_far_91_817]\] \[[14 CFR 91.818][ref_far_91_818]\], so the prohibition stood unchanged on the day the order required it to be gone. **No repeal, no interim standard, and no number.**
 
-**That is reported as a state of the record and not as a prediction.** A rulemaking is a slow instrument and an executive deadline is not a statute, so an expired deadline is an ordinary event rather than a scandal. **What matters here is narrower.** The aeroplane's entire purpose is to supply evidence for a standard, the order that demanded the standard has come and gone without one, and **at the editorial date there is still nothing in the regulation for a quiet aeroplane to be quiet enough for.**
+**That reports the state of the record without predicting what follows.** A rulemaking is a slow instrument and an executive deadline is not a statute, so an expired deadline is an ordinary event rather than a scandal. **For this article the expiry matters in one way.** The aeroplane's entire purpose is to supply evidence for a standard, the order that demanded the standard has come and gone without one, and **there is still nothing in the regulation for a quiet aeroplane to be quiet enough for.**
 
-#### The Metric Appears in None of the Governing Documents, and That Was Counted
+#### The Governing Documents Were Counted and None Uses the Metric
 
 **This article read five documents in full and counted.** The two sections of the regulation, the 2021 final rule that put them in their present form, the 2020 proposal to set noise standards for supersonic aeroplanes, and the one authorisation to exceed Mach 1 that has been granted and noticed since \[[14 CFR 91.817][ref_far_91_817]\] \[[14 CFR 91.818][ref_far_91_818]\] \[[Special Flight Authorizations for Supersonic Aircraft, final rule][ref_fr_2021_sfa]\] \[[Noise Certification of Supersonic Airplanes, proposed rule][ref_fr_2020_part36]\] \[[Petition for Authorization to Exceed Mach 1, notice of decision to grant][ref_fr_2024_boom]\].
 
@@ -851,13 +851,13 @@ Another clause permits flight outside a test area only on a conservative showing
 
 #### The Agency Restated the Absolute Position in 2021, and Industry Had Asked It Not To
 
-The 2021 rulemaking is where the reasoning is written down, and it is worth quoting because it is unambiguous \[[Special Flight Authorizations for Supersonic Aircraft, final rule][ref_fr_2021_sfa]\].
+The 2021 rulemaking writes the reasoning down, unambiguously enough to quote \[[Special Flight Authorizations for Supersonic Aircraft, final rule][ref_fr_2021_sfa]\].
 
 > The FAA notes that the determination made in the 1970s that no level of sonic boom is acceptable over land still applies and is not based exclusively on economics.
 
-**No level.** That was written on 15 January 2021, which is 2.6 years after this aeroplane was designated and while it was being built.
+**No level.** That sentence was written on 15 January 2021, 2.6 years into the designation and with the aeroplane under construction.
 
-**And the industry had asked for exactly the opposite.** The same preamble records that several prospective supersonic airframe and engine manufacturers asked for the no-measurable-overpressure provision to be removed as overly restrictive and outdated, one of them observing that the provision does not recognise the possibility of a boom barely noticeable on the ground but still detectable by scientific measurement, and two trade associations reading the phrase as an absolute prohibition that an applicant could not guarantee during a test flight. **The agency retained it.**
+**The industry had asked for the opposite.** The same preamble records that several prospective supersonic airframe and engine manufacturers asked for the no-measurable-overpressure provision to be removed as overly restrictive and outdated, one of them observing that the provision does not recognise the possibility of a boom barely noticeable on the ground but still detectable by scientific measurement, and two trade associations reading the phrase as an absolute prohibition that an applicant could not guarantee during a test flight \[[Special Flight Authorizations for Supersonic Aircraft, final rule][ref_fr_2021_sfa]\]. **The agency retained it.**
 
 #### The Only Noise Standard Ever Proposed for These Aeroplanes Governs Them at Subsonic Speed
 
@@ -867,7 +867,7 @@ In 2020 the agency proposed to bring supersonic aeroplanes into the noise certif
 
 **A supersonic aeroplane is to be certificated for the noise it makes while flying subsonically near an airport.** The boom is not in it, and the 2021 rule says so in as many words, recording that neither it nor the noise proposal alters the general prohibition on supersonic flight over land \[[Special Flight Authorizations for Supersonic Aircraft, final rule][ref_fr_2021_sfa]\].
 
-**And the proposal was never adopted.** A search of the Federal Register for the agency's documents that mention supersonic flight, from the start of 2016 to the date on this article, returns one final rule about supersonic aeroplanes, the 2021 authorisation rule, and no final rule on the noise certification proposal of 2020 \[[Federal Register search, FAA documents mentioning supersonic, 2016 to 4 December 2025][ref_fr_search_supersonic]\].
+**The proposal was never adopted.** A search of the Federal Register for the agency's documents that mention supersonic flight, from the start of 2016 to the date on this article, returns one final rule about supersonic aeroplanes, the 2021 authorisation rule, and no final rule on the noise certification proposal of 2020 \[[Federal Register search, FAA documents mentioning supersonic, 2016 to 4 December 2025][ref_fr_search_supersonic]\].
 
 #### The Exemption Path Has Been Used Three Times
 
@@ -875,7 +875,7 @@ In 2020 the agency proposed to bring supersonic aeroplanes into the noise certif
 
 **The most recent was granted, and what it authorises is instructive.** Boom Supersonic was permitted up to twenty supersonic test flights over one year, at or above thirty thousand feet, **over Edwards Air Force Base within pre-existing supersonic corridors**, after an environmental assessment and a finding of no significant impact \[[Petition for Authorization to Exceed Mach 1, notice of decision to grant][ref_fr_2024_boom]\].
 
-**That is the exemption path working as designed, and it grants supersonic flight over a military range rather than over anybody's town.** Which is the difficulty in one sentence. **The X-59's mission requires the thing the rule has no mechanism to permit**, being repeated supersonic flight over people who live underneath, and the programme's answer is that the flights are the agency's own research rather than a civil operation.
+**That is the exemption path working as designed, and it grants supersonic flight over a military range rather than over anybody's town.** That contrast states the difficulty. **The X-59's mission requires the thing the rule has no mechanism to permit**, being repeated supersonic flight over people who live underneath, and whether the rule reaches this aeroplane is left open in the discussion of the exemption above.
 
 ## The Contemporary Literature
 
@@ -1012,19 +1012,19 @@ In 2020 the agency proposed to bring supersonic aeroplanes into the noise certif
 
 **The familiar framing is that the X-59 is a quiet supersonic aeroplane built to show that a quiet boom can satisfy the rule, and the framing breaks down in five places.**
 
-**There is no loudness in the rule to satisfy.** The prohibition bans a speed and the exemption path requires the absence of a measurable boom, so a quiet boom meets neither, as the part of this article headed The Rule It Exists to Change Contains No Loudness at All shows \[[14 CFR 91.817][ref_far_91_817]\] \[[14 CFR 91.818][ref_far_91_818]\].
+**There is no loudness in the rule to satisfy.** The prohibition bans a speed and the exemption path requires the absence of a measurable boom, so a quiet boom meets neither, as argued under The Rule It Exists to Change Contains No Loudness at All \[[14 CFR 91.817][ref_far_91_817]\] \[[14 CFR 91.818][ref_far_91_818]\].
 
-**The ninety percent that has been published is not a loudness.** The nearest ratio to it is a ratio of overpressures, while in perceived loudness the reduction is 47.8 percent against the commonly quoted baseline, which the part headed Where the Ninety Percent Comes From sets out.
+**The ninety percent that has been published is not a loudness.** The nearest ratio to it is a ratio of overpressures, while in perceived loudness the reduction is 47.8 percent against the commonly quoted baseline, a calculation given in Where the Ninety Percent Comes From.
 
 **The quiet is not wholly the aeroplane's to deliver.** Loudness is set by rise time and rise time is set by the atmosphere, and the equivalent area the weight contributes cannot be shaped away, as the parts headed What Classical Theory Says the Rise Time Should Be and The Weight Puts an Equivalent Area There and No Shaping Removes It argue.
 
-**A quiet boom is not the only answer to a boom over land.** Cruise below the cutoff Mach number makes no ground boom at all, and the X-59 flies above it on purpose because its question needs a boom to exist, which the part headed The Aeroplane Could Have Avoided the Problem Entirely and Refuses To records.
+**A quiet boom is not the only answer to a boom over land.** Cruise below the cutoff Mach number makes no ground boom at all, and the X-59 flies above it on purpose because its question needs a boom to exist, as recorded in The Aeroplane Could Have Avoided the Problem Entirely and Refuses To.
 
-**And the framing speaks in the present tense about an aeroplane that, at the editorial date, had not yet made a boom.** The register wrote its claim in the future tense, and at the date of this article the future tense was still correct.
+**And the framing speaks in the present tense about an aeroplane that had not yet made a boom.** The register wrote its claim in the future tense, and at the date of this article the future tense was still correct.
 
 ## The Source Base
 
-**69 hand-written references carry the argument and 2,572 research records map the field, and this article keeps them apart on purpose.** The claims about what a document does and does not contain rest on five documents read in full, being the register, the two sections of the federal aviation regulations, the executive order directing their repeal, and the programme's own conference presentation. **Those are not commentary on the evidence. They are the evidence.**
+**71 hand-written references carry the argument and 2,572 research records map the field, and this article keeps them apart on purpose.** The claims about what a document does and does not contain rest on five documents read in full, being the register, the two sections of the federal aviation regulations, the executive order directing their repeal, and the programme's own conference presentation. **Those are not commentary on the evidence. They are the evidence.**
 
 ### The Research References
 
@@ -1104,7 +1104,7 @@ In 2020 the agency proposed to bring supersonic aeroplanes into the noise certif
 
 ### Historical Fact
 
-The X-59A designation was allocated on 21 June 2018 to Lockheed Martin with NASA as sponsor, and its mission statement in the register is the one quoted \[[Parsch, DOD 4120.15-L Addendum][ref_mds_addendum]\]. NASA announced the design and build contract on 3 April 2018 at 247.5 million dollars, stating a period of performance ending 31 December 2021 and an intention to fly over selected United States cities beginning in mid-2022 \[[NASA Release 18-020][ref_nasa_release_18_020]\]. The aeroplane first flew on 28 October 2025 for 67 minutes, reaching approximately 12,000 feet and 230 miles per hour with the landing gear down, from Palmdale to Edwards \[[X-59 First Flight][ref_nasa_first_flight]\]. Lockheed Martin's product card gives a maximum design gross weight of 24,300 pounds, an empty weight of 15,000, fuel of 8,000, payload of 600, an overall length of 93.83 feet, a wingspan of 29 feet 6 inches, a design Mach number of 1.4, a loudness of less than 75 perceived level decibels and a single F414-GE-100 \[[Silencing the Sonic Boom, X-59 Product Card][ref_lm_card]\]. The design cruise condition is Mach 1.4 at 55,000 feet and the design target is 75 on the Stevens Mark VII perceived level scale \[[NASA Release 18-020][ref_nasa_release_18_020]\] \[[Doebler and Rathsam 2019][research_doebler_rathsam_2019]\]. Executive Order 14304 of 6 June 2025 directs the repeal of the prohibition within 180 days and the establishment of an interim noise-based certification standard, without naming a threshold \[[Executive Order 14304, American Presidency Project][ref_eo_14304_apps]\]. **The deadline fell on 3 December 2025 and the sections quoted in this article carry no amendment later than 15 January 2021.** The register's other sonic boom row, the X-54A, describes an aeroplane to be capable of generating relevant ground sonic boom signatures, so both rows describe an aeroplane that would make signatures and only the X-59A row calls its signature shaped. **The X-59A entry is half present tense and half future**, saying that the aircraft **is** a research aircraft and that it **will create** a shaped sonic boom signature.
+The X-59A designation was allocated on 21 June 2018 to Lockheed Martin with NASA as sponsor, and its mission statement in the register is the one quoted \[[Parsch, DOD 4120.15-L Addendum][ref_mds_addendum]\]. NASA announced the design and build contract on 3 April 2018 at 247.5 million dollars, stating a period of performance ending 31 December 2021 and an intention to fly over selected United States cities beginning in mid-2022 \[[NASA Release 18-020][ref_nasa_release_18_020]\]. The aeroplane first flew on 28 October 2025 for 67 minutes, reaching approximately 12,000 feet and 230 miles per hour with the landing gear down, from Palmdale to Edwards \[[X-59 First Flight][ref_nasa_first_flight]\]. Lockheed Martin's product card gives a maximum design gross weight of 24,300 pounds, an empty weight of 15,000, fuel of 8,000, payload of 600, an overall length of 93.83 feet, a wingspan of 29 feet 6 inches, a design Mach number of 1.4, a loudness of less than 75 perceived level decibels and a single F414-GE-100 \[[Silencing the Sonic Boom, X-59 Product Card][ref_lm_card]\]. The design cruise condition is Mach 1.4 at 55,000 feet and the design target is 75 on the Stevens Mark VII perceived level scale \[[NASA Release 18-020][ref_nasa_release_18_020]\] \[[Doebler and Rathsam 2019][research_doebler_rathsam_2019]\]. Executive Order 14304 of 6 June 2025 directs the repeal of the prohibition within 180 days and the establishment of an interim noise-based certification standard, without naming a threshold \[[Executive Order 14304, American Presidency Project][ref_eo_14304_apps]\]. **The deadline fell on 3 December 2025 and the sections quoted in this article carry no amendment later than 15 January 2021** \[[14 CFR 91.817][ref_far_91_817]\] \[[14 CFR 91.818][ref_far_91_818]\]. The register's other sonic boom row, the X-54A, describes an aeroplane to be capable of generating relevant ground sonic boom signatures, so both rows describe an aeroplane that would make signatures and only the X-59A row calls its signature shaped. **The X-59A entry is half present tense and half future**, saying that the aircraft **is** a research aircraft and that it **will create** a shaped sonic boom signature.
 
 ### Recomputed From the Register by This Article
 
@@ -1114,11 +1114,11 @@ The register, in the copy the compiler last updated on 23 August 2026, carries 5
 
 **5 governing documents totalling 206,232 characters were retrieved and read in full**, being the two sections of the regulation, the 2021 final rule that put them in their present form, the 2020 proposal to bring supersonic aeroplanes into the noise certification rules, and the one authorisation to exceed Mach 1 that has been granted and noticed \[[14 CFR 91.817][ref_far_91_817]\] \[[14 CFR 91.818][ref_far_91_818]\] \[[Special Flight Authorizations for Supersonic Aircraft, final rule][ref_fr_2021_sfa]\] \[[Noise Certification of Supersonic Airplanes, proposed rule][ref_fr_2020_part36]\] \[[Petition for Authorization to Exceed Mach 1, notice of decision to grant][ref_fr_2024_boom]\]. Every passage quoted is quoted from what was read.
 
-**Across all five, the phrase sonic boom appears 62 times and the programme's own metric appears 0.** Neither the abbreviation nor the words behind it occur once. **The aeroplane itself is named 0 times**, against 16 mentions of the agency that operates it.
+**Across all five, the phrase sonic boom appears 62 times and the programme's own metric appears 0.** The abbreviation is absent, and so are the words behind it. **The aeroplane is named 0 times**, against 16 mentions of the agency that operates it.
 
-The design feature annotations attributed to NASA were read from the project's own conference presentation \[[Richwine, X-59 Aircraft Overview and Status][ref_x59_overview]\], and the weights, the overall length and the loudness bound were read from the builder's product card \[[Silencing the Sonic Boom, X-59 Product Card][ref_lm_card]\].
+The design feature annotations attributed to NASA were read from the project's conference presentation \[[Richwine, X-59 Aircraft Overview and Status][ref_x59_overview]\], and the weights, the overall length and the loudness bound were read from the builder's product card \[[Silencing the Sonic Boom, X-59 Product Card][ref_lm_card]\].
 
-### Analysis, Which Is Arithmetic on Published Inputs
+### Analysis
 
 The cutoff Mach number of 1.153 at the cruise altitude, and the finding that the cutoff ratio nowhere exceeds 1.153 in the standard atmosphere. The reproduction of the published 925 miles per hour to within 0.1 percent, and the identification of the released 940 miles per hour as Mach 1.42 at the same altitude. The conversion of 75 and 105 perceived level decibels to 2.134 and 4.088 sones and the resulting 47.8 percent. The classical Taylor rise time of 5.2 microseconds. The 19.9 decibel benefit of a tenfold rise time at 1,000 hertz. The slenderness ratios in the table.
 
@@ -1128,43 +1128,43 @@ The spread of 5.87 feet among the three published lengths and the shortfall of 7
 
 All are computed from the published inputs named beside them by the relations displayed above, and every relation this article displays is evaluated except the three named below.
 
-### Inference, Which Is This Article's Own and Is Labelled
+### Inference
 
-**That the decomposition of the claimed 30 decibel reduction into 16.2 decibels of amplitude and 13.8 of shape is a bound rather than a measurement.** It assumes that perceived level would track peak overpressure by the decibel rule, which the preceding sections establish is false, and it is used only to argue that shape cannot account for less than the residual.
+**That the decomposition of the claimed 30 decibel reduction into 16.2 decibels of amplitude and 13.8 of shape is a bound rather than a measurement.** It assumes that perceived level would track peak overpressure by the decibel rule, which the preceding sections establish is false, and serves only to argue that shape cannot account for less than the residual.
 
-**That the register's use of the verb create marks this row as different in kind.** The count of one is a fact. The reading that a shaped signature is a thing made rather than a phenomenon studied is this article's own, and nobody has been found stating it.
+**That the register's use of the verb create marks this row as different in kind.** The count of one is a fact. The reading that a shaped signature is a thing made rather than a phenomenon studied is this article's, and no one has been found stating it.
 
 **That the aeroplane's configuration is dominated by cost and schedule wherever the boom does not constrain it.** The annotations are NASA's and the tally is this article's.
 
-**That the aeroplane's weight rather than its shape is the majority contributor to its own signature.** The relation is standard and the evaluation is arithmetic, but the reading of it is this article's own, and it rests on comparing a computed equivalent diameter of 2.32 metres against a fuselage whose slimness is visible rather than measured.
+**That the aeroplane's weight rather than its shape is the majority contributor to its signature.** The relation is standard and the evaluation is arithmetic, but the reading is this article's, drawn from comparing a computed equivalent diameter of 2.32 metres against a fuselage whose slimness is visible rather than measured.
 
 **That the aeroplane grew during detail design.** Three published lengths span 5.87 feet, the shortest is the builder's and carries a 2019 copyright while the longest are the agency's and are later. **No source states a growth and the alternative reading, that the figures measure to different points, is equally consistent.**
 
 ### What the Record Does Not Settle
 
-**Whether the aeroplane will meet 75 perceived level decibels in flight.** At the editorial date it had flown 1 time, subsonically, and no shaped signature had been produced or measured.
+**Whether the aeroplane will meet 75 perceived level decibels in flight.** By this article's date it had flown 1 time, subsonically, and no shaped signature had been produced or measured \[[X-59 First Flight][ref_nasa_first_flight]\] \[[NASA's X-59 Completes Second Flight][ref_nasa_second_flight]\].
 
-**Whether the X-59 requires an authorisation under the rule at all.** The prohibition applies by its own words to a civil aircraft, the statute excludes public aircraft from civil aircraft, and no document read here applies that definition to this aeroplane or names it.
+**Whether the X-59 requires an authorisation under the rule.** The prohibition's text applies to a civil aircraft, the statute excludes public aircraft from civil aircraft, and no document read here applies that definition to this aeroplane or names it \[[49 U.S.C. 40102, Definitions][ref_usc_40102]\].
 
 **The relative contribution of molecular relaxation and atmospheric turbulence to the observed rise time.** Both are documented, and the sources consulted do not agree on the split.
 
-**Concorde's perceived level.** Published values include 105, 108 and 110, and this article computes its headline comparison at 105, the value NASA's acousticians call commonly quoted, while giving the range the alternatives produce.
+**Concorde's perceived level.** Published values include 105, 108 and 110 \[[NASA unveils a supersonic plane with a quiet boom, Physics Today][ref_feder_2024]\] \[[The Next NASA X-Plane, Born to Boom, Machine Design][ref_machinedesign_2018]\], and this article computes its headline comparison at 105, the value NASA's acousticians call commonly quoted, while giving the range the alternatives produce.
 
-**The X-59's predicted ground overpressure.** The 0.3 pounds per square foot this article uses for illustration is the Quiet Supersonic Platform's shock goal, and no source read here states the overpressure predicted for this aeroplane.
+**The X-59's predicted ground overpressure.** The 0.3 pounds per square foot this article uses for illustration is the Quiet Supersonic Platform's shock goal \[[Iosifidis, Concept Development of the Quiet Supersonic Technology Aircraft][ref_iosifidis_2016]\], and the overpressure predicted for this aeroplane appears in none of the sources read.
 
-**What form any replacement standard will take.** Executive Order 14304 requires an interim noise-based certification standard and does not say whether it would be written as a perceived level, an overpressure, or something else, and at the editorial date no proposed rule had appeared. **A standard written as an overpressure would not use the metric this programme has spent a decade calibrating**, and nothing read here settles which it will be.
+**What form any replacement standard will take.** Executive Order 14304 requires an interim noise-based certification standard and does not say whether it would be written as a perceived level, an overpressure, or something else \[[Executive Order 14304, American Presidency Project][ref_eo_14304_apps]\], and at the editorial date no proposed rule had appeared \[[Federal Register search, FAA documents mentioning supersonic, 2016 to 4 December 2025][ref_fr_search_supersonic]\]. **A standard written as an overpressure would not use the metric in which this programme states its target**, and nothing read here settles which it will be.
 
-**The lift-to-drag ratio and the thrust specific fuel consumption.** The builder's card supplies the weights, so the range relation has exactly one unknown, and that unknown is the ratio of the two. **The illustration given in the body is an illustration and not a result.**
+**The lift-to-drag ratio and the thrust specific fuel consumption.** The builder's card supplies the weights, so the range relation has exactly one unknown, and that unknown is the ratio of the two. **The range and endurance given in the body are illustrative.**
 
-**Whether the slenderness lowers the net drag.** Wave drag falls as the fourth power of length and wetted area rises as the first, which establishes a direction and not a balance. **Whether the net drag falls depends on how the total divides between the two kinds at the design point, and no source publishes that division.**
+**Whether the slenderness lowers the net drag.** Wave drag falls as the fourth power of length and wetted area rises as the first, which settles the direction of the trade but not its balance. **Whether the net drag falls depends on how the total divides between the two kinds at the design point, and no source publishes that division.**
 
 **The wetted area and the volume of the equivalent body.** Without them the friction drag is given per square metre and never totalled, and the wave drag is given as a ratio against a shorter body and never evaluated absolutely.
 
-**Why the builder's card does not add up.** The empty weight, the fuel and the payload sum to 700 pounds less than the gross weight the same card states, which is 2.9 percent, and no source explains the difference.
+**Why the builder's card does not add up.** The empty weight, the fuel and the payload sum to 700 pounds less than the gross weight the same card states \[[Silencing the Sonic Boom, X-59 Product Card][ref_lm_card]\], which is 2.9 percent, and no source explains the difference.
 
 ## Out of Scope
 
-**The engineering of the eXternal Vision System beyond its existence and its validation.** It is a substantial subject and it is a display and human factors subject rather than an aerodynamic one.
+**The engineering of the eXternal Vision System beyond its existence and its validation.** It is a substantial subject in display design and human factors, outside aerodynamics.
 
 **The economics of supersonic passenger transport.** Whether a market exists for a quieter supersonic airliner is a question about airlines and not about shock waves, and this article makes no claim either way.
 
@@ -1178,31 +1178,31 @@ All are computed from the published inputs named beside them by the relations di
 
 ## Conclusion
 
-**The register gives this aeroplane one sentence and the sentence contains the whole programme in one adjective.** An aeroplane that will create a shaped sonic boom signature. The other of the register's two sonic boom rows, the [X-54][related_post_a351_gulfstream_x54], was to generate relevant ground signatures and was never built. **Both entries describe an aeroplane that would make signatures, and only one of them describes a shaped one.** That is the whole difference between the two sentences, and the register's verb, used once in 539 rows, marks it. **One of the two was built.**
+**The register gives this aeroplane one sentence and the sentence contains the whole programme in one adjective.** An aeroplane that will create a shaped sonic boom signature \[[Parsch, DOD 4120.15-L Addendum][ref_mds_addendum]\]. The other of the register's two sonic boom rows, the [X-54][related_post_a351_gulfstream_x54], was to generate relevant ground signatures and was never built. **Both entries describe an aeroplane that would make signatures, and only one of them describes a shaped one.** That adjective is the difference between the two sentences, and the register's verb, used once in 539 rows, marks it. **One of the two was built.**
 
 **The physics supports the ambition.** A signature that has not coalesced into a shock-fronted wave loses less energy on the way down and puts what remains at frequencies the ear discounts, and a factor of ten in rise time is worth 19.9 decibels at 1,000 hertz and twenty at every frequency well above both corners, which is where the ear does its listening. **The design problem is real, the mechanism is understood, and the aeroplane's extraordinary proportions are that mechanism made visible.**
 
-**And the proportions may be cheaper than they look.** Wave drag falls as the fourth power of length and wetted area rises as the first, so the exponents favour length heavily. **Whether the net drag falls is a different question and this article cannot answer it**, because the answer depends on how the drag divides between the two kinds at the design point and no source publishes that division. What the exponents do establish is a direction. **Supersonic aeroplanes were long and thin before anybody cared what they sounded like**, so the shaping requirement pushed a shape the aerodynamics already wanted, **though it pushed it a good deal further**, this aeroplane being 1.39 times as slender as Concorde.
+**And the proportions may be cheaper than they look.** Wave drag falls as the fourth power of length and wetted area rises as the first, so the exponents favour length heavily. **Whether the net drag falls lies beyond this article**, because the answer depends on how the drag divides between the two kinds at the design point and no source publishes that division. What the exponents do establish is a direction. **Supersonic aeroplanes were long and thin before anybody cared what they sounded like**, so the shaping requirement pushed a shape the aerodynamics already wanted, **though it pushed it a good deal further**, this aeroplane being 1.39 times as slender as Concorde.
 
-**What the shaping cannot touch is the weight.** Integrating the lift term of the equivalent area over the whole aeroplane leaves the weight divided by twice the dynamic pressure, with every trace of shape gone. At the design condition that is 4.232 square metres, a body 2.32 metres across, and **a designer may move it along the length and may not remove it**. Worse, it is inversely proportional to dynamic pressure, so **climbing to lengthen the propagation path enlarges it**, by a factor of 2.06 between forty thousand feet and the design altitude. **Two of the things altitude does to a sonic boom are therefore opposed**, and this article states the reading of that as its own inference rather than as anything a source says. Altitude does others, changing the cutoff margin, the width of the carpet and the length of the absorbing path, and none of those is weighed here.
+**What the shaping cannot touch is the weight.** Integrating the lift term of the equivalent area over the whole aeroplane leaves the weight divided by twice the dynamic pressure, with every trace of shape gone. At the design condition that is 4.232 square metres, a body 2.32 metres across, and **a designer may move it along the length and may not remove it**. Worse, it is inversely proportional to dynamic pressure, so **climbing to lengthen the propagation path enlarges it**, by a factor of 2.06 between forty thousand feet and the design altitude. **Two of the things altitude does to a sonic boom are therefore opposed**, and no source is cited for that reading, which is this article's inference. Altitude does others, changing the cutoff margin, the width of the carpet and the length of the absorbing path, and none of those is weighed here.
 
 **Four things are less settled than the programme's public arithmetic suggests.**
 
-**The claimed reduction is not ninety percent in any unit the target is stated in.** In perceived loudness it is 47.8 percent against the commonly quoted baseline, and between 47.8 and 53.1 percent across every baseline this article found. In pressure it is 96.8 percent and in energy 99.9. **The 84.5 percent that Concorde's overpressure against the low-boom goal gives is a pressure ratio, and reporting a pressure ratio as a loudness is the substitution this article warns against.** The Mark VII scale exists precisely to prevent that substitution, and 30 decibels of perceived level is a little less than halving the loudness, because halving it takes 32.
+**The claimed reduction is not ninety percent in any unit the target is stated in.** In perceived loudness it is 47.8 percent against the commonly quoted baseline, and between 47.8 and 53.1 percent across every baseline this article found. In pressure it is 96.8 percent and in energy 99.9. **The 84.5 percent that Concorde's overpressure against the low-boom goal gives is a pressure ratio, and reporting a pressure ratio as a loudness is the substitution this article warns against.** The Mark VII scale exists to prevent that substitution, and 30 decibels of perceived level is a little less than halving the loudness, because halving it takes 32.
 
 **The baseline is part of the uncertainty and this article does not pretend otherwise.** Concorde's perceived level is published at 105, 108 and 110, the sources consulted do not agree, and the article computes its headline figure at 105 and shows what the alternatives give.
 
-**The quantity that governs the answer is not under the designer's control.** Loudness is set by rise time, classical theory underestimates rise time by more than two orders of magnitude, and what makes up the difference is molecular relaxation and turbulence in the atmosphere on the day. **A predicted perceived level is a prediction about the weather as much as about the aeroplane**, and the programme's plan is to fly over communities and survey the people underneath rather than to rely on computation \[[Quesst, NASA's mission to enable commercial supersonic flight][ref_nasa_quesst]\].
+**The quantity that governs the answer is not under the designer's control.** Loudness is set by rise time, classical theory underestimates rise time by more than two orders of magnitude, and what makes up the difference is molecular relaxation and turbulence in the atmosphere on the day. **A predicted perceived level depends on the weather as much as on the aeroplane**, and the programme's plan is to fly over communities and survey the people underneath rather than to rely on computation \[[Quesst, NASA's mission to enable commercial supersonic flight][ref_nasa_quesst]\].
 
-**And the rule the aeroplane exists to change contains no loudness at all.** The [X-54][related_post_a351_gulfstream_x54] established that it is a speed limit rather than a noise limit. This article read the rulemaking behind it and counted. **Across 5 governing documents and 206,232 characters, the programme's own metric appears 0 times.** The exemption path requires not a quiet boom but no measurable boom. The only noise standard ever proposed for supersonic aeroplanes governs them while they are flying subsonically, and it was never adopted. **And on 15 January 2021, 2.6 years after this aeroplane was designated and while it was being built, the agency wrote down that the determination made in the 1970s that no level of sonic boom is acceptable over land still applies**, against industry asking it to say otherwise.
+**And the rule the aeroplane exists to change contains no loudness at all.** The [X-54][related_post_a351_gulfstream_x54] established that it is a speed limit rather than a noise limit. This article read the rulemaking behind it and counted. **Across 5 governing documents and 206,232 characters, the programme's own metric appears 0 times.** The exemption path requires not a quiet boom but no measurable boom \[[14 CFR 91.818][ref_far_91_818]\]. The only noise standard ever proposed for supersonic aeroplanes governs them while they are flying subsonically, and it was never adopted \[[Noise Certification of Supersonic Airplanes, proposed rule][ref_fr_2020_part36]\] \[[Federal Register search, FAA documents mentioning supersonic, 2016 to 4 December 2025][ref_fr_search_supersonic]\]. **And on 15 January 2021, 2.6 years after this aeroplane was designated and while it was being built, the agency wrote down that the determination made in the 1970s that no level of sonic boom is acceptable over land still applies** \[[Special Flight Authorizations for Supersonic Aircraft, final rule][ref_fr_2021_sfa]\], against industry asking it to say otherwise.
 
 **So the aeroplane's output is not compliance but evidence**, gathered so that a number might one day be written where none exists, and the executive order that would demand such a number declines to say what it should be.
 
-**The deadline for writing it expired the day before this article.** The order of 6 June 2025 gave 180 days, the 3 December 2025 deadline came, and the regulation stood unchanged. **That is not a judgement about the programme or the agency**, since a rulemaking is slow and an executive deadline is not a statute. It is the state of the record at the date on this article.
+**The deadline for writing it expired the day before this article.** The order of 6 June 2025 gave 180 days, the 3 December 2025 deadline came, and the regulation stood unchanged \[[Executive Order 14304, American Presidency Project][ref_eo_14304_apps]\] \[[14 CFR 91.817][ref_far_91_817]\]. **That is not a judgement about the programme or the agency**, since a rulemaking is slow and an executive deadline is not a statute. It is the state of the record at the date on this article.
 
-**And what is being measured is not a point but a strip.** Tracing rays through the standard atmosphere, the carpet is 59.2 kilometres wide and the boom lands 19.29 kilometres behind the aeroplane that made it. **At Mach 2 the tracer agrees with the literature's rule of thumb to within 3.9 percent**, which is the reason to believe the Mach 1.4 figure, and the Mach 1.4 carpet is only 69.6 percent of the Mach 2 one. **Flying slower narrows the carpet as well as quietening it**, and the arithmetic gives that for nothing. **No source consulted for this article states it**, which is a fact about what was read and not a claim about what the programme says.
+**And what is being measured is not a point but a strip.** Tracing rays through the standard atmosphere, the carpet is 59.2 kilometres wide and the boom lands 19.29 kilometres behind the aeroplane that made it. **At Mach 2 the tracer agrees with the literature's rule of thumb to within 3.9 percent**, which is the reason to believe the Mach 1.4 figure, and the Mach 1.4 carpet is only 69.6 percent of the Mach 2 one. **Flying slower narrows the carpet as well as quietening it**, and the arithmetic gives that for nothing. **No source consulted for this article states it**, which describes what was read and is silent on what the programme says.
 
-**At the editorial date the aeroplane had flown once, for 67 minutes, at 24.9 percent of its design cruise speed, with the landing gear down.** It had never been supersonic. The contract that built it named 31 December 2021 and the flights over cities were to begin in mid-2022. **The register's claim about this aeroplane is written in the future tense, and at the time of writing the future tense was still correct.** The entry says that the aircraft **is** a research aircraft and that it **will create** a shaped sonic boom signature. The first half had been true since the aeroplane was rolled out. **The second half was still a promise.**
+**At the editorial date the aeroplane had flown once, for 67 minutes, at 24.9 percent of its design cruise speed, with the landing gear down** \[[X-59 First Flight][ref_nasa_first_flight]\]. It had never been supersonic \[[NASA's X-59 Completes Second Flight][ref_nasa_second_flight]\]. The contract that built it named 31 December 2021 and the flights over cities were to begin in mid-2022 \[[NASA Release 18-020][ref_nasa_release_18_020]\]. **The register's claim about this aeroplane is written in the future tense, and at the time of writing the future tense was still correct.** The entry says that the aircraft **is** a research aircraft and that it **will create** a shaped sonic boom signature. The first half had been true since the aeroplane was rolled out. **The second half was still a promise.**
 
 ## References
 
@@ -1261,6 +1261,7 @@ All are computed from the published inputs named beside them by the relations di
 - [Commercial Supersonic Technology Project, NASA Advanced Air Vehicles Program][ref_nasa_cst]
 - [NASA's Quesst Mission Marks X-59's Historic First Flight][ref_nasa_first_flight]
 - [NASA Facts FS-2003-11-016 DFRC, Sonic Booms, Dryden Flight Research Center][ref_nasa_fs016]
+- [X-59 QueSST More than the Sum of Its Parts, NASA, 11 March 2020][ref_nasa_parts]
 - [Quesst, NASA's mission to enable commercial supersonic flight][ref_nasa_quesst]
 - [Quesst, the Aircraft][ref_nasa_quesst_aircraft]
 - [NASA Awards Contract to Build Quieter Supersonic Aircraft, Release 18-020][ref_nasa_release_18_020]
@@ -1280,6 +1281,7 @@ All are computed from the published inputs named beside them by the relations di
 - [NASA, Lockheed Martin Reveal X-59 Quiet Supersonic Aircraft, NASA release, 12 January 2024][ref_x59_reveal]
 - [Lockheed Martin X-59 Quesst][ref_x59_wikipedia]
 - [North American XB-70 Valkyrie][ref_xb70]
+- [North American XB-70 Valkyrie, National Museum of the United States Air Force][ref_xb70_museum]
 
 ### Related Post
 
@@ -3969,6 +3971,7 @@ All are computed from the published inputs named beside them by the relations di
 [ref_nasa_cst]: https://www.nasa.gov/directorates/armd/aavp/cst
 [ref_nasa_first_flight]: https://www.nasa.gov/image-article/nasas-quesst-mission-marks-x-59s-historic-first-flight-2/
 [ref_nasa_fs016]: https://www.nasa.gov/wp-content/uploads/2021/09/120274main_fs-016-dfrc.pdf
+[ref_nasa_parts]: https://www.nasa.gov/aeronautics/x-59-quesst-more-than-the-sum-of-its-parts/
 [ref_nasa_quesst]: https://www.nasa.gov/mission/quesst/
 [ref_nasa_quesst_aircraft]: https://www.nasa.gov/quesst-the-aircraft/
 [ref_nasa_release_18_020]: https://www.nasa.gov/news-release/nasa-awards-contract-to-build-quieter-supersonic-aircraft/
@@ -3988,6 +3991,7 @@ All are computed from the published inputs named beside them by the relations di
 [ref_x59_reveal]: https://www.nasa.gov/news-release/nasa-lockheed-martin-reveal-x-59-quiet-supersonic-aircraft/
 [ref_x59_wikipedia]: https://en.wikipedia.org/wiki/Lockheed_Martin_X-59_Quesst
 [ref_xb70]: https://en.wikipedia.org/wiki/North_American_XB-70_Valkyrie
+[ref_xb70_museum]: https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/195767/
 [related_post_a297_framing]: {% post_url 2025-10-06-x_planes_framing %}
 [related_post_a298_bell_x1]: {% post_url 2025-10-07-x_planes_bell_x1 %}
 [related_post_a299_bell_x2]: {% post_url 2025-10-08-x_planes_bell_x2 %}

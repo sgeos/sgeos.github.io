@@ -13,9 +13,9 @@ series_index: 25
 <!-- A321 -->
 <script>console.log("A321");</script>
 
-On 5 August 1975 the [Martin Marietta X-24B][ref_x24] came down the approach at Edwards Air Force Base at something like three hundred miles an hour, descending on the order of ten thousand feet a minute, with no engine running, and landed on the concrete. **It was not the first unpowered landing at Edwards and it was not the fastest. It was the first one that had to be precise**, and it removed a decision that had already been made about the Space Shuttle. This article is the twenty-fifth in the [X-Planes series][related_post_a297_xplanes_framing], following the [X-1][related_post_a298_bell_x1], the [X-2][related_post_a299_bell_x2], the [X-3][related_post_a300_douglas_x3], the [X-4][related_post_a301_northrop_x4], the [X-5][related_post_a302_bell_x5], the [X-6][related_post_a303_convair_x6], the [X-7][related_post_a304_lockheed_x7], the [X-8][related_post_a305_aerojet_x8], the [X-9][related_post_a306_bell_x9], the [X-10][related_post_a307_north_american_x10], the [X-11][related_post_a308_convair_x11], the [X-12][related_post_a309_convair_x12], the [X-13][related_post_a310_ryan_x13], the [X-14][related_post_a311_bell_x14], the [X-15][related_post_a312_north_american_x15], the [X-16][related_post_a313_bell_x16], the [X-17][related_post_a314_lockheed_x17], the [X-18][related_post_a315_hiller_x18], the [X-19][related_post_a316_curtiss_wright_x19], the [X-20][related_post_a317_boeing_x20], the [X-21][related_post_a318_northrop_x21], the [X-22][related_post_a319_bell_x22], and the [X-23][related_post_a320_martin_marietta_x23].
+On 5 August 1975 the [Martin Marietta X-24B][ref_x24] came down the approach at Edwards Air Force Base at something like three hundred miles an hour, descending on the order of ten thousand feet a minute, with no engine running, and landed on the concrete. **It was not the first unpowered landing at Edwards. It was the first lifting-body landing on the concrete, where it had to be precise**, and the [programme's own account][ref_nasa_x24b] credits it with removing a decision that had already been made about the Space Shuttle. This article is the twenty-fifth in the [X-Planes series][related_post_a297_xplanes_framing], following the [X-1][related_post_a298_bell_x1], the [X-2][related_post_a299_bell_x2], the [X-3][related_post_a300_douglas_x3], the [X-4][related_post_a301_northrop_x4], the [X-5][related_post_a302_bell_x5], the [X-6][related_post_a303_convair_x6], the [X-7][related_post_a304_lockheed_x7], the [X-8][related_post_a305_aerojet_x8], the [X-9][related_post_a306_bell_x9], the [X-10][related_post_a307_north_american_x10], the [X-11][related_post_a308_convair_x11], the [X-12][related_post_a309_convair_x12], the [X-13][related_post_a310_ryan_x13], the [X-14][related_post_a311_bell_x14], the [X-15][related_post_a312_north_american_x15], the [X-16][related_post_a313_bell_x16], the [X-17][related_post_a314_lockheed_x17], the [X-18][related_post_a315_hiller_x18], the [X-19][related_post_a316_curtiss_wright_x19], the [X-20][related_post_a317_boeing_x20], the [X-21][related_post_a318_northrop_x21], the [X-22][related_post_a319_bell_x22], and the [X-23][related_post_a320_martin_marietta_x23].
 
-**This aircraft and the last one are the same shape and almost nothing else.** The [X-23][related_post_a320_martin_marietta_x23] was the unmanned SV-5D, thrown at the Pacific from an Atlas and asked whether a returning vehicle could steer. The X-24A is the piloted SV-5P, air-launched from a B-52 and asked whether a returning vehicle could be landed. **It is also the vehicle that was refused the designation X-23A in December 1965 and received X-24A in 1967**, which is the paperwork the previous article is about.
+**This aircraft and the last one are the same shape and almost nothing else.** The [X-23][related_post_a320_martin_marietta_x23] was the unmanned SV-5D, thrown at the Pacific from an Atlas and asked whether a returning vehicle could steer. The X-24A is the piloted SV-5P, air-launched from a B-52 and asked whether a returning vehicle could be landed, as [Reed][book_reed_1997] describes both. **It is also the vehicle that was refused the designation X-23A in December 1965 and received X-24A in 1967**. The previous article is about that paperwork, which [Parsch][ref_missing_mds] sets out.
 
 ## The Research Question
 
@@ -23,37 +23,37 @@ On 5 August 1975 the [Martin Marietta X-24B][ref_x24] came down the approach at 
 
 Every part of that sentence is doing work.
 
-**Without an engine** means the approach is flown once. There is no go-around, no second attempt, and no way to add energy. Whatever the vehicle has when it starts down is all it will ever have.
+**Without an engine** means the approach is flown once. There is no go-around, no second attempt, and no way to add energy beyond what small landing rockets can give the flare. Whatever the vehicle has when it starts down is nearly all it will ever have.
 
 **With a lift-to-drag ratio of three** means it descends at roughly eighteen degrees where a transport descends at three. The approach is not a glide in any sense a pilot of the period would have recognised. It is closer to a controlled fall.
 
-**On a runway** is the part that was genuinely open. The period had been studying the problem since the late 1950s, when it became clear that a returning spacecraft would have to land somehow, from a manned satellite completed with a glide landing in [Cheatham 1959][research_cheatham_1959] and a power-off landing technique for reentry vehicles in [Bray et al 1960][research_bray_1960], through approaches flown at lift-to-drag ratios of 2 to 4 in [Matranga and Armstrong 1959][research_matranga_armstrong_1959] and [Matranga and Menard 1959][research_matranga_menard_1959], to the flare requirements of low lift-to-drag glide vehicles in [Faulders et al 1968][research_faulders_1968], approach guidance for unpowered lifting vehicles in [Bryson et al 1969][research_bryson_1969], and the CV-990 studies of low lift-to-drag approaches and unpowered automatic landings in [Kock et al 1972][research_kock_1972] and [Edwards and Foster 1973][research_edwards_foster_1973]. The rest of that literature is gathered in the clusters on approach, flare and automatic landing and on orbiters below. Lifting bodies had been landing on the dry lakebed at Edwards since 1963, and a lakebed is seven miles long and forgiving in every direction. **A concrete runway is fifteen thousand feet long and one hundred and fifty wide.**
+**On a runway** is the part that remained open. The period had been studying the problem since the late 1950s, when it became clear that a returning spacecraft would have to land somehow, from a manned satellite completed with a glide landing in [Cheatham 1959][research_cheatham_1959] and a power-off landing technique for reentry vehicles in [Bray et al 1960][research_bray_1960], through approaches flown at lift-to-drag ratios of 2 to 4 in [Matranga and Armstrong 1959][research_matranga_armstrong_1959] and [Matranga and Menard 1959][research_matranga_menard_1959], to the flare requirements of low lift-to-drag glide vehicles in [Faulders et al 1968][research_faulders_1968], approach guidance for unpowered lifting vehicles in [Bryson et al 1969][research_bryson_1969], and the CV-990 studies of low lift-to-drag approaches and unpowered automatic landings in [Kock et al 1972][research_kock_1972] and [Edwards and Foster 1973][research_edwards_foster_1973]. The survey below collects the remainder under approach, flare and automatic landing and under orbiters. Lifting bodies had been landing on the dry lakebed at Edwards since 1963, in [Reed][book_reed_1997], and the longest runway marked on it is more than seven miles long and forgiving in every direction. **The main concrete runway is fifteen thousand feet long and three hundred wide**, in [Edwards Air Force Base][ref_edwards_afb].
 
-The programme's answer, at the very end, was two landings on Edwards main runway by [John Manke and Michael Love][ref_nasa_x24b], and the consequence was that the Space Shuttle flew without the air-breathing engines it had been designed to carry for exactly this problem.
+The programme's answer, at the very end, was two landings on Edwards main runway by [John Manke and Michael Love][ref_nasa_x24b], and the consequence, by that account, was that the Space Shuttle flew without the air-breathing engines it had been designed to carry for this problem.
 
 **The keystone of this article is the landing**, and the quantity that makes it hard turns out to be base drag.
 
 ## Programme Origin
 
-The X-24A was the piloted half of the Martin SV-5 family, the unpowered entry half of which is the subject of the [previous article][related_post_a320_martin_marietta_x23]. It joined a lifting-body programme already running at the Flight Research Center of the National Aeronautics and Space Administration, or NASA, with the M2 and HL-10 shapes, in [Koenig and Brady 1960][research_koenig_brady_1960], [Eldredge et al 1965][research_eldredge_1965], [Smith 1965][research_smith_1965], [Thompson 1966][research_thompson_1966], [Kock and Painter 1968][research_kock_painter_1968], [Layton and McTigue 1969][research_layton_mctigue_1969], [Layton 1970][research_garrison_p_layton_1970], [Manke et al 1970][research_john_a_manke_1970], [McTigue 1970][research_john_g_mctigue_1970], [Pyle and Ash 1970][research_jon_s_pyle_lawrence_g_ash_1970], [Tang 1970][research_ming_h_tang_1970], [Kempel et al 1970][research_robert_w_kempel_1970], [Thompson 1970][research_thompson_1970], [Dana and Gentry 1970][research_william_h_dana_j_r_gentry_1970], [Kempel and Thompson 1971][research_kempel_thompson_1971], [Kempel et al 1971][research_kempel_1971], [Pyle 1971][research_pyle_1971], [Tang 1971][research_tang_1971], [Tang and Pearson 1971][research_tang_pearson_1971], [Gentry 1972][research_gentry_1972], [Sim 1973][research_sim_1973], [Kempel and Manke 1974][research_kempel_manke_1974], [Painter and Sitterle 1974][research_painter_sitterle_1974], [Kempel et al 1975][research_kempel_1975], [Manke and Love 1975][research_manke_love_1975], [Nagy and Kirsten 1976][research_nagy_kirsten_1976], [Armstrong 1977][research_armstrong_1977], [Kempel and Painter 1993][research_kempel_painter_1993], [Reed et al 1997][research_r_dale_reed_1997], [Barret 1998][research_barret_1998]. The programme's own narrative history is [Reed's account of the lifting bodies][book_reed_1997], written by a participant.
+The X-24A was the piloted half of the Martin SV-5 family, whose unpowered entry half the [previous article][related_post_a320_martin_marietta_x23] covers. It joined a lifting-body programme already running at the Flight Research Center of the National Aeronautics and Space Administration, or NASA, with the M2 and HL-10 shapes, in [Koenig and Brady 1960][research_koenig_brady_1960], [Eldredge et al 1965][research_eldredge_1965], [Smith 1965][research_smith_1965], [Thompson 1966][research_thompson_1966], [Kock and Painter 1968][research_kock_painter_1968], [Layton and McTigue 1969][research_layton_mctigue_1969], [Layton 1970][research_garrison_p_layton_1970], [Manke et al 1970][research_john_a_manke_1970], [McTigue 1970][research_john_g_mctigue_1970], [Pyle and Ash 1970][research_jon_s_pyle_lawrence_g_ash_1970], [Tang 1970][research_ming_h_tang_1970], [Kempel et al 1970][research_robert_w_kempel_1970], [Thompson 1970][research_thompson_1970], [Dana and Gentry 1970][research_william_h_dana_j_r_gentry_1970], [Kempel and Thompson 1971][research_kempel_thompson_1971], [Kempel et al 1971][research_kempel_1971], [Pyle 1971][research_pyle_1971], [Tang 1971][research_tang_1971], [Tang and Pearson 1971][research_tang_pearson_1971], [Gentry 1972][research_gentry_1972], [Sim 1973][research_sim_1973], [Kempel and Manke 1974][research_kempel_manke_1974], [Painter and Sitterle 1974][research_painter_sitterle_1974], [Kempel et al 1975][research_kempel_1975], [Manke and Love 1975][research_manke_love_1975], [Nagy and Kirsten 1976][research_nagy_kirsten_1976], [Armstrong 1977][research_armstrong_1977], [Kempel and Painter 1993][research_kempel_painter_1993], [Reed et al 1997][research_r_dale_reed_1997], [Barret 1998][research_barret_1998]. The programme's narrative history, written by a participant, is [Reed's account of the lifting bodies][book_reed_1997].
 
-**The programme's logic was that the shape was the hard part and the speed was not.** A lifting body's entry aerodynamics could be measured by throwing small unmanned copies at the atmosphere, which is what the Precision Recovery Including Maneuvering Entry programme, or PRIME, did. Its landing aerodynamics could not, because landing requires a pilot and a pilot requires a vehicle large enough to hold one. So the same shape was built twice at different sizes and asked different questions.
+**The programme's logic was that the shape was the hard part and the speed was not.** A lifting body's entry aerodynamics could be measured by throwing small unmanned copies at the atmosphere. The Precision Recovery Including Maneuvering Entry programme, or PRIME, did so, in [Reed][book_reed_1997]. Its landing aerodynamics could not, because landing requires a pilot and a pilot requires a vehicle large enough to hold one. So the same shape was built twice at different sizes and asked different questions.
 
 The X-24A flew 28 times between April 1969 and June 1971, reaching Mach 1.6 and 71,400 feet, in the flight log printed by [Reed][book_reed_1997]. It was then returned to Martin Marietta and rebuilt. **The X-24B that emerged shared the X-24A's internal structure and almost none of its outer shape**, having been given a flat bottom, a double delta planform and a long pointed nose. It flew 36 times between August 1973 and November 1975.
 
-**The X-24A was ordered as a single airframe.** The Air Force contracted Martin for one SV-5P in May 1966, Martin rolled it out on 11 July 1967, and it reached Edwards on 24 August 1967, according to [Reed][book_reed_1997]. NASA joined it to the existing joint programme with the M2-F2 and HL-10 through a memorandum of understanding concluded in October 1967, in [Hallion's history of the Flight Research Center][ref_hallion_1984]. It then spent February and March 1968 mounted whole in the Ames 40 by 80 foot wind tunnel, which is the subject of [Falarski and Mort][ref_falarski_mort_1970] and returns below.
+**The X-24A was ordered as a single airframe.** The Air Force contracted Martin for one SV-5P in May 1966, Martin rolled it out on 11 July 1967, and it reached Edwards on 24 August 1967, according to [Reed][book_reed_1997]. NASA joined it to the existing joint programme with the M2-F2 and HL-10 through a memorandum of understanding concluded in October 1967, in [Hallion's history of the Flight Research Center][ref_hallion_1984]. It then spent February and March 1968 mounted whole in the Ames 40 by 80 foot wind tunnel, a test that [Falarski and Mort][ref_falarski_mort_1970] report and that returns below.
 
 **The X-24B began as a recycling proposal.** The Air Force Flight Dynamics Laboratory had developed a family of reentry shapes, the FDL-5, 6 and 7, with hypersonic lift-to-drag ratios near 2.5 against 1.2 to 1.4 for the M2, HL-10 and X-24A, and proposed to glove one of them around an existing airframe, as [Reed][book_reed_1997] and [Hallion][ref_hallion_1984] both record. NASA transferred 550,000 dollars to the Air Force on 11 March 1971 and the Air Force pledged a similar amount. Air Force Systems Command approved the programme on 21 April 1971, Martin Marietta received the modification contract on 1 January 1972, and a NASA and Air Force memorandum of 4 February 1972 marks the programme's official start. The rebuild cost 1.1 million dollars against an estimated 5 million for a new vehicle,
 
 $$\frac{1.1}{5.0} = 0.22$$
 
-so the shape was bought for about a fifth of the price of a new aeroplane, which is why the X-24B is a rebuilt X-24A at all.
+so the shape was bought for about a fifth of the price of a new aeroplane, and that saving is why the X-24B is a rebuilt X-24A at all.
 
 Getting either of them airborne required a carrier aircraft and a rocket, in [Kansas Univ Lawrence 1952][research_kansas_univ_lawrence_1952], [Miele 1955][research_miele_1955], [Cicala and Miele 1956][research_cicala_miele_1956], [Miele 1957][research_miele_1957], [Dempster and Bell 1965][research_dempster_bell_1965], [Burris and Bender 1969][research_burris_bender_1969_2], [Ko and Schuster 1983][research_ko_schuster_1983], [Ko and Schuster 1984][research_ko_schuster_1984], [Whitmore et al 1994][research_whitmore_1994].
 
 ## The Vehicles
 
-The dimensions matter here because the whole analysis runs on them, and **the accessible sources disagree in a way worth naming.** Several give the X-24A and the X-24B identical dimensions, which cannot be right for two vehicles one of which was rebuilt to be half again as long. The figures used here are from the flight-determined table in [Saltzman et al 2007][research_saltzman_2007], which is the source this article's aerodynamics rest on.
+The dimensions matter here because the analysis runs on them, and **the accessible sources do not agree on them.** The figures used here are from the flight-determined table in [Saltzman et al 2007][research_saltzman_2007], and this article's aerodynamics are built on that source.
 
 | Quantity | X-24A | X-24B |
 |---|---|---|
@@ -65,13 +65,13 @@ The dimensions matter here because the whole analysis runs on them, and **the ac
 | Weight in the lift and drag tests | 6,360 lb | 8,500 lb |
 | Aspect ratio | 0.953 | 1.108 |
 
-**The base area is quoted as a range because it was not fixed.** The upper flaps that trimmed the vehicle also changed how much of the blunt rear end was exposed, so the drag the vehicle carried depended on how it was trimmed. That is not a detail. It is the subject of the next section.
+**The base area is quoted as a range because it was not fixed.** The upper flaps that trimmed the vehicle also changed how much of the blunt rear end was exposed, so the drag the vehicle carried depended on how it was trimmed, in [Saltzman et al 2002][research_saltzman_2002]. The next section turns on that dependence.
 
-**The narrative histories disagree with the table about how much the rebuild added.** [Reed][book_reed_1997] says the X-24B grew 10 feet in span and 14.5 feet in length, and [Hallion][ref_hallion_1984] gives 3 meters and 4.4 meters. The flight-determined table gives
+**The narrative histories disagree with the table about how much the rebuild added.** [Reed][book_reed_1997] puts the X-24B's growth at 10 feet in span and 14.5 feet in length, and [Hallion][ref_hallion_1984] gives 3 meters and 4.4 meters. The flight-determined table gives
 
 $$\Delta\ell = 37.50 - 24.50 = 13.0\ \text{ft}, \qquad \Delta b = 19.14 - 13.63 = 5.51\ \text{ft}$$
 
-so the length agrees to within about ten percent and the span does not agree at all. The table's figures are used here because the lift and drag data were reduced against them, and none of the documents read for this article explains the difference in span.
+so the length agrees to within about ten percent and the span does not agree at all. The table's figures are used here because the lift and drag data were reduced against them, and no source consulted here explains the difference in span.
 
 **The weights in the table are those of the lift and drag tests, not of the vehicle at launch.** Reed gives about 12,000 pounds at launch for the X-24A and 13,800 pounds for the X-24B, a difference of 1,800 pounds, and [Cochrane and Graham][ref_cochrane_graham_1971] give the X-24A an empty weight of about 5,500 pounds and about 5,500 pounds of propellants and gases. With $m_p$ the propellant and $m_0$ the launch weight,
 
@@ -81,7 +81,7 @@ against the fuel-to-vehicle weight ratio of 0.45 that Reed quotes for the X-24A,
 
 $$\frac{T_B}{T_A} = \frac{9{,}800}{8{,}480} = 1.16$$
 
-which is the fifteen percent increase in thrust that Reed credits, together with lower drag, for the X-24B's higher top speed.
+and this ratio corresponds to the fifteen percent increase in thrust that Reed credits, together with lower drag, for the X-24B's higher top speed.
 
 ## Sizing From First Principles
 
@@ -91,17 +91,17 @@ An aeroplane designed for efficiency ends in a point, because a body that closes
 
 $$C_{D_b} = -C_{p_b}\,\frac{A_b}{A_w}$$
 
-with the base pressure coefficient negative, so the term is a positive drag. **The whole of what follows is a fight with that one expression.**
+with the base pressure coefficient negative, so the term is a positive drag. **What follows is a fight with that one expression.**
 
-The literature of that penalty is old and large. It begins with base drag and thick trailing edges in [Hoerner 1950][research_hoerner_1950] and base pressure behind turbulent boundary layers in [Chapman 1951][research_chapman_1951], takes in the X-15's flight base pressures in [Saltzman 1961][research_saltzman_1961], boattailed afterbodies in [Mair 1969][research_mair_1969] and [Payne et al 1980][research_payne_1980_2], theory in [Tanner 1975][research_tanner_1975], flight tests of fixes for blunt bases in [Powers 1988][research_powers_1988], and the free shear layer account in [Roshko 1993][research_roshko_1993]. The whole of it is gathered in the cluster on base drag, afterbodies and bluff-body wakes below.
+The literature of that penalty is old and large. It begins with base drag and thick trailing edges in [Hoerner 1950][research_hoerner_1950] and base pressure behind turbulent boundary layers in [Chapman 1951][research_chapman_1951], takes in the X-15's flight base pressures in [Saltzman 1961][research_saltzman_1961], boattailed afterbodies in [Mair 1969][research_mair_1969] and [Payne et al 1980][research_payne_1980_2], theory in [Tanner 1975][research_tanner_1975], flight tests of fixes for blunt bases in [Powers 1988][research_powers_1988], and the free shear layer account in [Roshko 1993][research_roshko_1993]. All of it appears below in the cluster on base drag, afterbodies and bluff-body wakes.
 
-### Hoerner's Relation, and How Wrong It Is at Full Scale
+### Hoerner's Relation at Full Scale
 
-The base pressure is not independent of the rest of the vehicle, and the correlation used here comes from [Hoerner's compendium of drag data][book_hoerner_1965], which is where most of this subject's engineering practice still originates. A thicker boundary layer arriving at the base fills the wake and raises the pressure there, so **base drag falls as forebody drag rises**. Hoerner's correlation captures that inversely,
+The base pressure is not independent of the rest of the vehicle, and the correlation used here comes from [Hoerner's compendium of drag data][book_hoerner_1965], where most of this subject's engineering practice still originates. A thicker boundary layer arriving at the base fills the wake and raises the pressure there, so **base drag falls as forebody drag rises**. Hoerner's correlation captures that inversely,
 
 $$C_{p_b} = -\frac{K}{\sqrt{C_{D_\text{fore}}}}$$
 
-with the forebody drag referred to the base area. **The coefficient is where the trouble is.** Hoerner obtained $K = 0.029$ from small-scale model data. Saltzman, Wang and Iliff, working from flight measurements on the X-15, the M2-F3 and the Space Shuttle, found that full-scale vehicles require
+with the forebody drag referred to the base area. **The trouble lies in the coefficient.** Hoerner obtained $K = 0.029$ from small-scale model data. [Saltzman et al 2007][research_saltzman_2007], working from flight measurements on the X-15, the M2-F3 and the Space Shuttle, found that full-scale vehicles require
 
 $$K = 0.090 \ \text{to}\ 0.100$$
 
@@ -117,21 +117,21 @@ The X-24B on its approach flew at $Re = 9.8\times 10^7$ on its own length. A one
 
 $$\frac{Re_\text{flight}}{Re_\text{model}} = 41$$
 
-**A factor of forty in Reynolds number is not a small extrapolation**, and a correlation calibrated at the bottom of that range should not be expected to hold at the top of it. The general problem of what a model does and does not tell you about an aeroplane is the subject of Reynolds number studies of boattail drag in tunnel and flight in [Wilcox and Chamberlin 1974][research_wilcox_chamberlin_1974_2] and [Reubush 1976, Effect of Reynolds number on the][research_reubush_1976], of flight base drag reduction in [Powers et al 1986][research_powers_1986_2], of the tunnel-to-flight Reynolds number gap in [Penland and Romeo 1971][research_penland_romeo_1971] and [Kilgore and Dress 1984][research_kilgore_dress_1984], and of a flight and full-scale tunnel comparison in [Fisher and Lanser 1994][research_david_f_fisher_wendy_r_lanser_1994], and the rest is in the drag cluster below. For a configuration whose base is a substantial fraction of its wetted area, that is not a correction. It is the difference between a vehicle that lands and one that does not.
+**A factor of forty in Reynolds number is not a small extrapolation**, and a correlation calibrated at the bottom of that range should not be expected to hold at the top of it. The general problem of what a model does and does not tell you about an aeroplane is taken up by Reynolds number studies of boattail drag in tunnel and flight in [Wilcox and Chamberlin 1974][research_wilcox_chamberlin_1974_2] and [Reubush 1976, Effect of Reynolds number on the][research_reubush_1976], of flight base drag reduction in [Powers et al 1986][research_powers_1986_2], of the tunnel-to-flight Reynolds number gap in [Penland and Romeo 1971][research_penland_romeo_1971] and [Kilgore and Dress 1984][research_kilgore_dress_1984], and of a flight and full-scale tunnel comparison in [Fisher and Lanser 1994][research_david_f_fisher_wendy_r_lanser_1994], and further records sit in the drag cluster below. For a configuration whose base is a substantial fraction of its wetted area, the gap separates a vehicle that lands from one that does not.
 
-**The full-scale wind tunnel narrowed that gap without closing it.** The X-24A itself was tested in the Ames 40 by 80 foot tunnel at Reynolds numbers from $20.7\times 10^6$ to $41.6\times 10^6$, with most of the data at $32.4\times 10^6$, in [Falarski and Mort][ref_falarski_mort_1970]. In flight the true airspeed $V$ follows from the indicated airspeed $V_i$ and the density ratio $\sigma = \rho/\rho_\text{SL}$, which is 0.934 at Edwards. At 285 knots indicated, the middle of the final-approach band the pilots flew,
+**The full-scale wind tunnel narrowed that gap without closing it.** The X-24A itself was tested in the Ames 40 by 80 foot tunnel at Reynolds numbers from $20.7\times 10^6$ to $41.6\times 10^6$, with most of the data at $32.4\times 10^6$, in [Falarski and Mort][ref_falarski_mort_1970]. In flight the true airspeed $V$ follows from the indicated airspeed $V_i$ and the density ratio $\sigma = \rho/\rho_\text{SL}$, equal to 0.934 at Edwards. At 285 knots indicated, the middle of the final-approach band the pilots flew in [Dana and Gentry][research_william_h_dana_j_r_gentry_1970],
 
 $$V = \frac{V_i}{\sqrt{\sigma}} = \frac{285 \times 1.688}{\sqrt{0.934}} = 498\ \text{ft/s}$$
 
-and on the X-24A's own length of 24.50 feet that gives
+and on the X-24A's length of 24.50 feet that gives
 
 $$Re_\text{X-24A} = 7.2\times 10^7, \qquad \frac{7.2\times 10^7}{3.24\times 10^7} = 2.2$$
 
 so the full-scale tunnel sat within a factor of about two of flight, where a small model sits a factor of forty away. The tunnel reported a trimmed maximum lift-to-drag ratio of 4.4 with the gear up, which [Pyle and Ash][research_jon_s_pyle_lawrence_g_ash_1970] found to overpredict the flight value, although its drag at low lift matched flight more closely for the X-24A than for the M2-F2 and HL-10. **Reynolds number was not the only thing separating the tunnel from the aeroplane.** Pyle and Ash point to the mounting struts and to the buoyancy of large bulbous shapes in the tunnel, and they record that the lift and drag of these vehicles are extremely sensitive to small changes in contour and in control setting.
 
-### The Drag Bucket, and a Factor of Three That Depends on Nothing
+### The Drag Bucket and a Parameter-Free Factor of Three
 
-Put the two together. The bookkeeping needs one definition the article has so far used without stating, the equivalent skin-friction coefficient, which is the minimum drag referred to wetted area rather than to a reference area nobody agrees on,
+Put the two together. The bookkeeping needs one definition used so far without being stated. The equivalent skin-friction coefficient is the minimum drag referred to wetted area rather than to a reference area on which the sources disagree,
 
 $$C_{F_e} = C_{D_\text{min}}\,\frac{S}{A_w}$$
 
@@ -139,7 +139,7 @@ and the forebody drag as Hoerner's relation wants it, referred to the base area,
 
 $$C_{D_\text{fore},b} = C_{F_e,\text{fore}}\,\frac{A_w}{A_b}$$
 
-Writing everything as an equivalent skin-friction coefficient referred to wetted area, with $r = A_b/A_w$ the ratio of base area to wetted area and $x$ the forebody contribution, the total is
+Writing both terms as an equivalent skin-friction coefficient referred to wetted area, with $r = A_b/A_w$ the ratio of base area to wetted area and $x$ the forebody contribution, the total is
 
 $$C_{F_e} = x + \frac{k\, r^{3/2}}{\sqrt{x}}$$
 
@@ -147,7 +147,7 @@ where $k$ collects the Hoerner coefficient and a profile factor. **The two terms
 
 $$\frac{dC_{F_e}}{dx} = 1 - \frac{k\,r^{3/2}}{2x^{3/2}} = 0 \quad \Longrightarrow \quad k\,r^{3/2} = 2x^{3/2}$$
 
-which locates the optimum itself,
+which locates the optimum,
 
 $$x_\text{opt} = \left(\frac{k}{2}\right)^{2/3} r$$
 
@@ -155,13 +155,13 @@ and substituting that back into the total gives something remarkable,
 
 $$C_{F_e} = x + \frac{2x^{3/2}}{\sqrt{x}} = x + 2x = 3x$$
 
-**At the optimum the total drag is exactly three times the forebody drag, and the base contributes exactly twice it.** The result contains no Hoerner coefficient, no profile factor and no area ratio. It is a property of the shape of the trade rather than of any vehicle.
+**At the optimum the total drag is exactly three times the forebody drag, and the base contributes exactly twice it.** The result contains no Hoerner coefficient, no profile factor and no area ratio. It follows from the form of the trade alone and describes no vehicle in particular.
 
-The source's own two coefficients provide the check. It quotes the optimal forebody value as $0.1284\,r$ and the resulting minimum total as $0.3852\,r$, and
+The source's two coefficients, in [Saltzman et al 2007][research_saltzman_2007], provide the check. It quotes the optimal forebody value as $0.1284\,r$ and the resulting minimum total as $0.3852\,r$, and
 
 $$\frac{0.3852}{0.1284} = 3.000$$
 
-**This article uses the source's absolute coefficients rather than its own.** The factor of three is parameter-free and is derived above, but the absolute value depends on exactly how the base pressure profile factor is applied, and the arrangement used here gives
+**This article uses the source's absolute coefficients rather than its own.** The factor of three is parameter-free and is derived above, but the absolute value depends on how the base pressure profile factor is applied, and the arrangement used here gives
 
 $$\left(\frac{0.10/0.92}{2}\right)^{2/3} = 0.1435$$
 
@@ -177,7 +177,7 @@ and something useful happens when the drag is expressed on wetted area. Substitu
 
 $$\left(\frac{L}{D}\right)_\text{max} = \frac{1}{2}\sqrt{\frac{\pi e\, b^2}{A_w\, C_{F_e}}}$$
 
-That is why the right independent variable for this class of vehicle is span squared over **wetted** area, a quantity the source calls the wetted aspect ratio,
+The right independent variable for this class of vehicle is therefore span squared over **wetted** area, a quantity [Saltzman et al 2007][research_saltzman_2007] call the wetted aspect ratio,
 
 $$A = \frac{b^2}{S}, \qquad A_\text{wetted} = \frac{b^2}{A_w}$$
 
@@ -199,7 +199,7 @@ Evaluating at the drag bucket, with an efficiency factor of 0.6,
 
 ### A Check the Model Was Not Fitted To
 
-The Space Shuttle prototype Enterprise flew in two configurations during its approach and landing tests, truncated and with a tailcone fitted over the blunt base. **That is the same airframe with and without the penalty**, which is as close to a controlled experiment as this subject offers.
+The Space Shuttle prototype Enterprise flew in two configurations during its approach and landing tests, truncated and with a tailcone fitted over the blunt base, in [Saltzman et al 2007][research_saltzman_2007]. **The same airframe flew with and without the penalty**, as close to a controlled experiment as this subject offers.
 
 With the tailcone the base drag is gone and only the forebody term survives, so the prediction is the same expression evaluated at $0.1284\,r$ rather than $0.3852\,r$. Since the ratio of those is three and the lift-to-drag ratio goes as the inverse square root of the drag,
 
@@ -207,15 +207,15 @@ $$\frac{(L/D)_\text{tailcone}}{(L/D)_\text{truncated}} = \sqrt{3} = 1.73$$
 
 $$\left(\frac{L}{D}\right)_\text{tailcone} = 7.05$$
 
-against a measured 7.5, an error of six percent. **Nothing in that prediction was fitted to the Enterprise.** It comes from the vehicle's span, its wetted area, its base area, and a factor of three derived from a differentiation.
+against the measured 7.5 that the same authors report, an error of six percent. **Nothing in that prediction was fitted to the Enterprise.** It comes from the vehicle's span, its wetted area, its base area, and a factor of three derived from a differentiation.
 
-**Covering the base is worth a factor of the square root of three in lift-to-drag ratio.** That is the price of being a reentry vehicle, stated as cleanly as this subject allows.
+**Covering the base is worth a factor of the square root of three in lift-to-drag ratio.** The factor is the price of being a reentry vehicle, stated as cleanly as this subject allows.
 
 ## Dependent Systems
 
 ### The Approach, Flown Fast and Steep on Purpose
 
-Everything from here on runs off one relation the article has so far leaned on without displaying, the parabolic drag polar,
+The remaining analysis runs off one relation used above but not yet displayed, the parabolic drag polar,
 
 $$C_D = C_{D_0} + k_i C_L^2, \qquad k_i = \frac{1}{\pi e A} = 0.479$$
 
@@ -237,13 +237,13 @@ At that condition the speed, from the ordinary lift balance, is
 
 $$V^* = \sqrt{\frac{2W}{\rho S C_L^*}} = 276\ \text{ft/s} = 188\ \text{mph}$$
 
-using the density at Edwards, which sits at 2,302 feet. **Every altitude and every dynamic pressure in this article rests on a tabulated atmosphere rather than on a measurement**, and the tabulation is a substantial piece of twentieth-century engineering in its own right, in [Webster 1947][research_webster_1947], [Standard Atmosphere - Tables 1955][research_standard_atmosphere_1955], [Sterne 1958][research_sterne_1958], [Pisharoty 1959][research_pisharoty_1959], [Air Force Test Pilot School Edwards Afb Ca 1962][research_air_force_test_pilot_school_edwards_afb_ca_1962], [U.S. Standard Atmosphere, 1962][research_u_s_standard_1962], [U.S. Standard Atmosphere Supplements 1966, U.S. Standard Atmosphere Suppleme][research_u_s_standard_1966], [Minzner 1967][research_minzner_1967], [Ghosh 1970][research_ghosh_1970], [Minzner et al 1976][research_minzner_1976], [Peters 1977][research_peters_jr_1977], [Blish 1980][research_blish_1980], [Dennis P. Dykstra 1980][research_dennis_p_dykstra_1980], [Price and Blanchard 1981][research_price_blanchard_1981], [Zuppardo 1993][research_zuppardo_1993]. **The X-24B did not approach at 188 miles an hour.** This analysis takes 300.
+using the density at 2,302 feet, taken here for Edwards, whose airfield elevation is given as 704 metres, or 2,311 feet, in [Edwards Air Force Base][ref_edwards_afb]. **Every altitude and every dynamic pressure in this article comes from a tabulated atmosphere rather than from a measurement**, and producing that tabulation was a large twentieth-century engineering effort, in [Webster 1947][research_webster_1947], [Standard Atmosphere - Tables 1955][research_standard_atmosphere_1955], [Sterne 1958][research_sterne_1958], [Pisharoty 1959][research_pisharoty_1959], [Air Force Test Pilot School Edwards Afb Ca 1962][research_air_force_test_pilot_school_edwards_afb_ca_1962], [U.S. Standard Atmosphere, 1962][research_u_s_standard_1962], [U.S. Standard Atmosphere Supplements 1966, U.S. Standard Atmosphere Suppleme][research_u_s_standard_1966], [Minzner 1967][research_minzner_1967], [Ghosh 1970][research_ghosh_1970], [Minzner et al 1976][research_minzner_1976], [Peters 1977][research_peters_jr_1977], [Blish 1980][research_blish_1980], [Dennis P. Dykstra 1980][research_dennis_p_dykstra_1980], [Price and Blanchard 1981][research_price_blanchard_1981], [Zuppardo 1993][research_zuppardo_1993]. **The lifting bodies did not approach at 188 miles an hour**, in [Dana and Gentry][research_william_h_dana_j_r_gentry_1970]. This analysis takes 300 for the X-24B.
 
 That is sixty percent faster than its best glide,
 
 $$\frac{V}{V^*} = 1.60$$
 
-and flying faster than best glide makes the glide angle steeper, not shallower. **The polar says why.** Lift coefficient falls as the inverse square of speed, so at 1.60 times the best-glide speed it drops to
+and flying faster than best glide makes the glide angle steeper, not shallower. **The polar explains it.** Lift coefficient falls as the inverse square of speed, so at 1.60 times the best-glide speed it drops to
 
 $$\frac{C_L}{C_L^*} = \left(\frac{V}{V^*}\right)^{-2} = 0.39$$
 
@@ -263,25 +263,25 @@ $$\dot h = 140 \times 1.688 \times \sin 3^\circ \times 60 = 742\ \text{ft/min}$$
 
 $$\frac{10{,}400}{742} = 14$$
 
-**Ten thousand four hundred feet per minute, fourteen times a transport aircraft's approach.** The approach was deliberately made worse, and the reason is the next section.
+**Ten thousand four hundred feet per minute, fourteen times a transport aircraft's approach.** The next section explains why the approach was deliberately made worse.
 
 **The fast, steep approach is documented practice, and the documented speeds are higher still.** [Dana and Gentry][research_william_h_dana_j_r_gentry_1970], two of the programme's pilots, describe the pattern the lifting bodies inherited from the X-15. A circling approach through 180 degrees begins at 20,000 feet, and a final approach is held at 270 to 300 knots indicated airspeed down to 1,000 feet, where the flare begins. By the relation between indicated and true airspeed given above, with $1/\sqrt{0.934} = 1.035$, that band is 279 to 310 knots true at Edwards, or 321 to 357 miles an hour, which is
 
 $$\frac{321}{188} = 1.71 \quad \text{to} \quad \frac{357}{188} = 1.90$$
 
-times the best-glide speed derived above. The 300 miles an hour used in this section therefore sits below the documented band rather than above it, and none of the documents read for this article gives the X-24B's own final-approach speed.
+times the best-glide speed derived above. The 300 miles an hour used in this section therefore sits below the documented band rather than above it, and the X-24B's final-approach speed is given in none of the reports examined.
 
 Gentry gives the reason for the steep approach in a pilot's terms. A shallow, slow approach would leave very little float after the flare in which to adjust the sink rate, while a steep, fast one stores energy for the flare to spend, provides ample load factor for the flare itself, and is aimed like a dive-bombing run, at path angles of 10 to 25 degrees. He adds that the lifting-body pilots flew on the high-speed side of the lift-to-drag curve, so that diving and pulling up moved the aim point in the instinctive direction, and that speed brakes, which on the X-24A are the upper flaps, can be used like engines while weighing little and burning nothing.
 
 ### The Flare
 
-The vehicle arrives at the ground with a great deal of speed and a sink rate that would destroy it. **The flare is the manoeuvre that converts one into the other**, and it is the whole problem, in [Pasek and Shanahan 1954][research_pasek_shanahan_1954], [Matranga 1961][research_matranga_1961], [Gannett and McLean 1964][research_gannett_mc_lean_1964], [Addy 1970][research_addy_1970], [Rubin 1971][research_rubin_1971], [Ohta and Sugiura 1973][research_ohta_sugiura_1973], [Leland and Thompson 1975][research_leland_thompson_1975], [Palmer and Petitt 1977][research_palmer_petitt_1977], [Heffley and Schulman 1981][research_heffley_schulman_1981], [Nadkarni 1981][research_nadkarni_1981], [Walker 1981][research_walker_1981], [Watson et al 1983][research_watson_1983], [Chang and Muirhead 1987][research_chang_muirhead_1987], [Hynes et al 1988][research_hynes_1988].
+The vehicle arrives at the ground with a great deal of speed and a sink rate that would destroy it. **The flare is the manoeuvre that converts one into the other**, and the landing problem is concentrated there, in [Pasek and Shanahan 1954][research_pasek_shanahan_1954], [Matranga 1961][research_matranga_1961], [Gannett and McLean 1964][research_gannett_mc_lean_1964], [Addy 1970][research_addy_1970], [Rubin 1971][research_rubin_1971], [Ohta and Sugiura 1973][research_ohta_sugiura_1973], [Leland and Thompson 1975][research_leland_thompson_1975], [Palmer and Petitt 1977][research_palmer_petitt_1977], [Heffley and Schulman 1981][research_heffley_schulman_1981], [Nadkarni 1981][research_nadkarni_1981], [Walker 1981][research_walker_1981], [Watson et al 1983][research_watson_1983], [Chang and Muirhead 1987][research_chang_muirhead_1987], [Hynes et al 1988][research_hynes_1988].
 
 Treating the flare as an arc that rotates the flight path from $-\gamma$ to zero at load factor $n$, the instantaneous radius is
 
 $$R = \frac{V^2}{g(n-1)}$$
 
-**That radius is not constant, and assuming it is gets the answer wrong.** The vehicle decelerates through the manoeuvre, so the arc tightens as it goes. Evaluating the radius once at the entry speed makes the path too long, which overstates the work done against drag, which understates the touchdown speed. The error is nine percent in height and twelve percent in speed at moderate load factor, and at low load factor it is qualitative. **The flare below is therefore integrated rather than assumed circular.** Stepping in path angle, with $s$ the distance along the path, the system is
+**That radius is not constant, and assuming it is gets the answer wrong.** The vehicle decelerates through the manoeuvre, so the arc tightens as it goes. Evaluating the radius once at the entry speed makes the path too long. That overstates the work done against drag and so understates the touchdown speed. The error is nine percent in height and twelve percent in speed at moderate load factor, and at low load factor it is qualitative. **The flare below is therefore integrated rather than assumed circular.** Stepping in path angle, with $s$ the distance along the path, the system is
 
 $$\frac{ds}{d\gamma} = -R = -\frac{V^2}{g(n-1)}$$
 
@@ -293,7 +293,7 @@ with the drag evaluated at the instantaneous speed and at the lift coefficient t
 
 $$C_L = \frac{nW}{qS}, \qquad D = qS\left(C_{D_0} + k_i C_L^2\right)$$
 
-**Three equations and a polar.** The first is what makes the arc tighten, because $R$ carries $V^2$ and $V$ is falling throughout.
+**Three equations and a polar.** The first makes the arc tighten, because $R$ carries $V^2$ and $V$ is falling throughout.
 
 The load factor is not assumed either. It is defined by
 
@@ -303,21 +303,21 @@ and it is bounded by structure and by the pilot as well as by aerodynamics, in [
 
 $$n = 1.19, \qquad h_\text{flare} = 2{,}163\ \text{ft}, \qquad t = 21.9\ \text{s}$$
 
-**Two thousand one hundred and sixty feet, and twenty-two seconds.** A transport aircraft begins its flare at about thirty feet and is done in three,
+**Two thousand one hundred and sixty feet, and twenty-two seconds.** Taking a transport aircraft's flare to begin at about thirty feet and to last about three seconds,
 
 $$\frac{2{,}163}{30} = 72, \qquad \frac{21.9}{3} = 7.3$$
 
-**The X-24B began its flare seventy times higher and stayed in it seven times longer.** The arc is 9,616 feet and its horizontal projection is 9,306, so during the flare the vehicle covers
+**In this model the X-24B begins its flare seventy times higher and stays in it seven times longer.** The arc is 9,616 feet and its horizontal projection is 9,306, so during the flare the vehicle covers
 
 $$\frac{9{,}306}{15{,}000} = 0.62$$
 
 of the length of the concrete runway it is aiming at. **The manoeuvre is longer than most of the runway.**
 
-The lift coefficient the flare demands is modest, which is worth checking rather than assuming,
+The lift coefficient the flare demands is modest, and a check gives
 
 $$C_L = \frac{nW}{qS} = 1.19 \times 0.120 = 0.142$$
 
-against a maximum usable value near 0.7, so **the vehicle is nowhere near stall when the flare begins**. It becomes so only at the very end, which is the subject of the corridor.
+against a maximum usable value near 0.7, so **the vehicle is nowhere near stall when the flare begins**. Only at the very end does it come near, and the next section takes up that end.
 
 ### The Flare Has a Corridor
 
@@ -335,13 +335,13 @@ against a maximum usable value near 0.7, so **the vehicle is nowhere near stall 
 
 **The band is bounded from both ends and neither bound is a matter of comfort.**
 
-At the top, pulling harder buys almost nothing,
+At the top, pulling harder gains almost nothing,
 
 $$V_\text{td}(3g) - V_\text{td}(2g) = 260 - 256 = 4\ \text{mph}$$
 
 because a tighter arc is a shorter arc and spends less energy against drag. **The vehicle arrives fast however hard it is pulled.**
 
-At the bottom, a gentle flare is a very long one. At 1.10 g the arc is nearly 16,000 feet and takes 36 seconds, and by 1.05 g the vehicle has decayed to 47 miles an hour, which is far below any speed at which this shape flies. **The maximum usable lift coefficient is itself an assumption and a contested one for this class of shape**, since a lifting body does not stall in the way a wing does, in [Graham and Luskin 1946][research_graham_luskin_1946], [Nonweiler 1955][research_nonweiler_1955], [The Pursuit of Maximum Lift 1955][research_the_pursuit_1955], [Vidal et al 1961][research_vidal_1961], [Conner et al 1965][research_conner_1965], [Lusty and Miele 1966][research_lusty_miele_1966], [Maikapar 1966][research_maikapar_1966], [Wootton 1967][research_wootton_1967], [Huang 1968][research_huang_1968], [Miele and Damoulakis 1969][research_miele_damoulakis_1969], [Pritchard 1969][research_pritchard_1969], [Bridson and Hancock 1970][research_bridson_hancock_1970], [Liebeck and Ormsbee 1970][research_liebeck_ormsbee_1970], [Thompson and Hull 1970][research_thompson_hull_1970], [Ormsbee and Chen 1972][research_ormsbee_chen_1972], [Bihrle and Bowman 1981][research_bihrle_bowman_1981], [Lapygin and Tret'yakov 1986][research_lapygin_tret_yakov_1986], [Deese and Agarwal 1990][research_deese_agarwal_1990]. Taking a value of 0.7, the stall speed is
+At the bottom, a gentle flare is a very long one. At 1.10 g the arc is nearly 16,000 feet and takes 36 seconds, and by 1.05 g the vehicle has decayed to 47 miles an hour, far below any speed at which this shape flies. **The maximum usable lift coefficient is also an assumption, and a contested one for this class of shape**, since a lifting body does not stall in the way a wing does, in [Graham and Luskin 1946][research_graham_luskin_1946], [Nonweiler 1955][research_nonweiler_1955], [The Pursuit of Maximum Lift 1955][research_the_pursuit_1955], [Vidal et al 1961][research_vidal_1961], [Conner et al 1965][research_conner_1965], [Lusty and Miele 1966][research_lusty_miele_1966], [Maikapar 1966][research_maikapar_1966], [Wootton 1967][research_wootton_1967], [Huang 1968][research_huang_1968], [Miele and Damoulakis 1969][research_miele_damoulakis_1969], [Pritchard 1969][research_pritchard_1969], [Bridson and Hancock 1970][research_bridson_hancock_1970], [Liebeck and Ormsbee 1970][research_liebeck_ormsbee_1970], [Thompson and Hull 1970][research_thompson_hull_1970], [Ormsbee and Chen 1972][research_ormsbee_chen_1972], [Bihrle and Bowman 1981][research_bihrle_bowman_1981], [Lapygin and Tret'yakov 1986][research_lapygin_tret_yakov_1986], [Deese and Agarwal 1990][research_deese_agarwal_1990]. Taking a value of 0.7, the stall speed is
 
 $$V_\text{stall} = \sqrt{\frac{2W}{\rho S C_{L_\text{max}}}} = 124\ \text{mph}$$
 
@@ -351,7 +351,7 @@ $$\frac{V_\text{td}}{V_\text{stall}} = \frac{199}{124} = 1.60$$
 
 **The usable corridor is therefore roughly 1.07 g to 1.5 g, about four tenths of a g wide**, with stalling short of the runway at one end and arriving at 240 miles an hour at the other.
 
-**That corridor is not this article's invention.** It is what [Walker 1981][research_walker_1981] describes when it speaks of boundaries between marginal and routine and of an optimal preflare condition at the centre of them, and it says explicitly that those boundaries rest on judgements formed from X-15 and lifting-body experience.
+**That corridor is not this article's invention.** [Walker 1981][research_walker_1981] describes it when it speaks of boundaries between marginal and routine and of an optimal preflare condition at the centre of them, and it states explicitly that those boundaries rest on judgements formed from X-15 and lifting-body experience.
 
 ### The Flare as the Pilots Flew It
 
@@ -369,13 +369,13 @@ where $V_1$ is the speed at the end of the flare, $h_1 = 100$ feet is the height
 
 $$s_\text{float} = 2{,}303\ \text{ft}, \qquad \overline{L/D} = 3.25, \qquad t \approx 7.1\ \text{s}$$
 
-**Read this way, the 1.19 g solved above is the load factor a flare would need if it ended on the runway, and the record says the flare did not end there.** The documented technique flares at the top of the corridor derived above and uses the float to bleed off the excess speed, which is what Gentry means by margin for error. How closely the X-24B's concrete landings followed this pattern is not stated in the documents read here, since the pattern was written down in 1970 about the M2-F3, the HL-10 and the X-24A.
+**Read this way, the 1.19 g solved above is the load factor a flare would need if it ended on the runway, and the record shows the flare did not end there.** The documented technique flares at the top of the corridor derived above and uses the float to bleed off the excess speed, the margin for error Gentry describes. The available sources do not say how closely the X-24B's concrete landings followed this pattern, since the pattern was written down in 1970 about the M2-F3, the HL-10 and the X-24A.
 
 ### What the Landing Gear Sees
 
-**The article has so far said nothing about the number a landing-gear engineer would ask for first**, which is the sink rate at the moment of contact.
+**One number a landing-gear engineer would ask for first has not yet appeared**, the sink rate at the moment of contact.
 
-In this model the flare drives the path angle to zero, so the sink rate goes to zero with it and the honest way to report the answer is at a small residual angle. Integrating the same system and stopping short,
+In this model the flare drives the path angle to zero, so the sink rate goes to zero with it and the meaningful way to report it is at a small residual angle. Integrating the same system and stopping short,
 
 $$\dot h = V\sin\gamma_\text{residual}$$
 
@@ -385,21 +385,21 @@ $$\dot h = V\sin\gamma_\text{residual}$$
 | 1.0 degrees | 205 mph | 5.3 ft/s |
 | 0.5 degrees | 202 mph | 2.6 ft/s |
 
-Designing a gear to absorb that, and knowing what it will actually see, is a subject with its own long literature, from the effect of wing lift on gear loads in [Lindquist 1952][research_lindquist_1952] and the X-15's landing loads in [Kordes and McKay 1962][research_kordes_mc_kay_1962] to the dynamics of tricycle gear in [McKay and Noll 1967][research_mc_kay_noll_1967], damping at touchdown in [Venkatesan and Krishnan 1975][research_venkatesan_krishnan_1975], drop testing in [Daughetee 1974][research_daughetee_1974] and the Langley gear dynamics programme in [McComb and Tanner 1988][research_mccomb_tanner_1988]. It is gathered in the cluster on landing gear, touchdown and landing loads below.
+Designing a gear to absorb that, and knowing what it will see in service, has a long literature, from the effect of wing lift on gear loads in [Lindquist 1952][research_lindquist_1952] and the X-15's landing loads in [Kordes and McKay 1962][research_kordes_mc_kay_1962] to the dynamics of tricycle gear in [McKay and Noll 1967][research_mc_kay_noll_1967], damping at touchdown in [Venkatesan and Krishnan 1975][research_venkatesan_krishnan_1975], drop testing in [Daughetee 1974][research_daughetee_1974] and the Langley gear dynamics programme in [McComb and Tanner 1988][research_mccomb_tanner_1988]. More of it is listed below under landing gear, touchdown and landing loads.
 
-**A transport touches down at about 2 feet per second and the X-15's gear was designed for 9.** The X-24B therefore had to arrive within about half a degree of level to land as gently as an airliner, and within two degrees to stay inside a research aircraft's design case. **That is the precision the corridor is really about**, and it is a tighter statement of the problem than the touchdown speed alone.
+**A transport aeroplane's landing gear is designed for a limit descent velocity of 10 feet per second**, in [14 CFR 25.473][ref_cfr_25_473]. The X-24B therefore had to arrive within about two degrees of level to stay inside that design case, and within about half a degree to touch down at a quarter of it. **That is the precision the corridor is about**, and it is a tighter statement of the problem than the touchdown speed alone.
 
 **The flight record does not contain the number this section computes.** [Larson][research_larson_1972] analysed 81 lifting-body landings, 25 of them by the X-24A, and states that vertical velocity at touchdown is not presented because the vehicles carried no instrumentation for it. What was recorded is the peak normal acceleration at the centre of gravity during ground impact, which ranged from 1.15 to 2.37 g with a mean of 1.53 g across the three vehicles. For the X-24A alone, the 25 values in Larson's table give a mean of
 
 $$\bar n_\text{impact} = \frac{1}{N}\sum_{i=1}^{N} n_i = 1.43, \qquad N = 25$$
 
-within a range of 1.19 to 1.69 g, and its true airspeed at touchdown averages 184 knots, or 212 miles an hour, between 165 and 208 knots, which is consistent with the 200 miles an hour used above. An impact load factor is not a sink rate, and converting one into the other needs the stroke and stiffness of the gear, which the documents read here do not give.
+within a range of 1.19 to 1.69 g, and its true airspeed at touchdown averages 184 knots, or 212 miles an hour, between 165 and 208 knots, which is consistent with the 200 miles an hour used above. An impact load factor is not a sink rate, and converting one into the other needs the stroke and stiffness of the gear, which the sources at hand do not give.
 
-**The gear itself was the pilots' least favourite part of the landing.** It was extended just before touchdown, pneumatically in slightly more than a second, so that the lift-to-drag ratio stayed high until the last moment, according to [Dana and Gentry][research_william_h_dana_j_r_gentry_1970]. Its extension produced a substantial nose-down pitching moment on the M2-F2, M2-F3 and X-24A that [Manke, Retelle and Kempel][research_john_a_manke_1970] call unsatisfactory, and the full-scale tunnel measured why. With the gear down the X-24A's trimmed maximum lift-to-drag ratio fell by 0.8 to 1.8 depending on the upper-flap setting, and holding a constant lift coefficient through the extension needed 7 to 10 degrees of additional longitudinal control, in [Falarski and Mort][ref_falarski_mort_1970]. For the X-24B, [Reed][book_reed_1997] reports that the main gear sat well aft of the centre of gravity, so that a nose-low slap-down was expected, that tyre tread separated from the casing in dynamic load tests, and that a newly shaved set of tyres was therefore fitted for every flight.
+**The gear brought one of the landing's most undesirable characteristics.** It was extended just before touchdown, pneumatically in slightly more than a second, so that the lift-to-drag ratio stayed high until the last moment, as [Dana and Gentry][research_william_h_dana_j_r_gentry_1970] describe. Its extension produced a substantial nose-down pitching moment on the M2-F2, M2-F3 and X-24A that [Manke, Retelle and Kempel][research_john_a_manke_1970] call unsatisfactory, and the full-scale tunnel measured why. With the gear down the X-24A's trimmed maximum lift-to-drag ratio fell by 0.8 to 1.8 depending on the upper-flap setting, and holding a constant lift coefficient through the extension needed 7 to 10 degrees of additional longitudinal control, in [Falarski and Mort][ref_falarski_mort_1970]. For the X-24B, [Reed][book_reed_1997] reports that the main gear sat well aft of the centre of gravity, so that a nose-low slap-down was expected, that tyre tread separated from the casing in dynamic load tests, and that a newly shaved set of tyres was therefore fitted for every flight.
 
 ### Energy, Spent Exactly Once
 
-The reason none of this can be retried is worth making quantitative. Expressing the vehicle's total energy at the start of the flare as the height it would be worth,
+The reason none of this can be retried can be made quantitative. Expressing the vehicle's total energy at the start of the flare as an equivalent height,
 
 $$h_E = h + \frac{V^2}{2g} = 2{,}163 + 3{,}009 = 5{,}172\ \text{ft}$$
 
@@ -409,7 +409,7 @@ $$h_{E,\text{td}} = \frac{V_\text{td}^2}{2g} = 1{,}322\ \text{ft}$$
 
 $$\frac{5{,}172 - 1{,}322}{5{,}172} = 0.74$$
 
-**Seventy-four percent of everything the vehicle has left is spent in the flare.** Multiplying a constant approach drag along the whole arc would overstate that share, because the drag falls with the speed. The difference of energy heights needs no such assumption. The mean deceleration along the arc is
+**Seventy-four percent of the vehicle's remaining energy is spent in the flare.** Multiplying a constant approach drag along the whole arc would overstate that share, because the drag falls with the speed. The difference of energy heights needs no such assumption. The mean deceleration along the arc is
 
 $$\bar a = \frac{V_i^2 - V_f^2}{2 s} = 0.18\,g$$
 
@@ -417,15 +417,15 @@ The literature of managing that quantity is [Gerdes and Hynes 1971][research_ger
 
 ### Making It Flyable
 
-A shape with an aspect ratio near one and no tail to speak of is not naturally stable, and the lifting bodies were flown with stability augmentation from the beginning, as [Kotfila and Painter 1969][research_kotfila_painter_1969] and [Painter and Sitterle 1974][research_painter_sitterle_1974] record, against a general literature of augmentation such as [O'hara 1971][research_o_hara_1971], [Johnson and Weir 1969][research_johnson_weir_1969] and [Painter and Sitterle 1972][research_painter_sitterle_1972]. Whether a pilot could work with the result is a separate question from whether the vehicle was stable, and it has its own literature and its own vocabulary, surveyed in [Ashkenas 1984][research_ashkenas_1984] and [Harper and Cooper 1986][research_harper_cooper_1986] and applied to lifting reentry vehicles in terminal flight in [DiFranco 1971][research_difranco_1971]. Both are gathered in the clusters on flight control and on handling qualities below.
+A shape with an aspect ratio near one and no tail to speak of is not naturally stable, and the lifting bodies were flown with stability augmentation from the beginning, as [Kotfila and Painter 1969][research_kotfila_painter_1969] and [Painter and Sitterle 1974][research_painter_sitterle_1974] record, against a general literature of augmentation such as [O'hara 1971][research_o_hara_1971], [Johnson and Weir 1969][research_johnson_weir_1969] and [Painter and Sitterle 1972][research_painter_sitterle_1972]. Whether a pilot could work with the result is a separate question from whether the vehicle was stable, and it has a separate literature and vocabulary, surveyed in [Ashkenas 1984][research_ashkenas_1984] and [Harper and Cooper 1986][research_harper_cooper_1986] and applied to lifting reentry vehicles in terminal flight in [DiFranco 1971][research_difranco_1971]. Both literatures have clusters in the survey, one for flight control and one for handling qualities.
 
 ### Where the Drag Numbers Come From
 
-Everything above rests on drag coefficients obtained in flight rather than in a tunnel, which for this class of vehicle is not a preference but a necessity, as the reviews of flight-to-tunnel drag correlation in [Saltzman and Ayers 1981][research_saltzman_ayers_1981] and [Saltzman and Ayers 1982][research_saltzman_ayers_1982] and the tunnel and flight comparisons in [Daforno 1982][research_daforno_1982] and [Springer 1998][research_springer_1998] show. **Extracting a lift and drag polar from a flight is a discipline of its own**, since neither quantity is measured directly and both have to be reconstructed from accelerations, in [Bellman 1959][research_bellman_1959], [Gilyard 1972][research_gilyard_1972], [Macwilkinson et al 1974][research_macwilkinson_1974], [Macwilkinson et al 1974][research_macwilkinson_1974_2], [Hicks and Huckabine 1989][research_hicks_huckabine_1989], [Saltzman et al 1999][research_saltzman_1999] and [Saltzman et al 2002][research_saltzman_2002]. The lift side is equally awkward, since a body that generates lift without a wing does not obey the ordinary low-aspect-ratio relations, which are set out in [Lawrence 1951][research_lawrence_1951], [Lawrence 1953][research_lawrence_1953], [Tsien 1957][research_tsien_1957], [Sugai 1965][research_sugai_1965] and [Laitone 1989][research_laitone_1989].
+The analysis above uses drag coefficients obtained in flight rather than in a tunnel. For this class of vehicle flight data are a necessity, as the reviews of flight-to-tunnel drag correlation in [Saltzman and Ayers 1981][research_saltzman_ayers_1981] and [Saltzman and Ayers 1982][research_saltzman_ayers_1982] and the tunnel and flight comparisons in [Daforno 1982][research_daforno_1982] and [Springer 1998][research_springer_1998] show. **Extracting a lift and drag polar from a flight is a specialised discipline**, since neither quantity is measured directly and both have to be reconstructed from accelerations, in [Bellman 1959][research_bellman_1959], [Gilyard 1972][research_gilyard_1972], [Macwilkinson et al 1974][research_macwilkinson_1974], [Macwilkinson et al 1974][research_macwilkinson_1974_2], [Hicks and Huckabine 1989][research_hicks_huckabine_1989], [Saltzman et al 1999][research_saltzman_1999] and [Saltzman et al 2002][research_saltzman_2002]. The lift side is equally awkward, since a body that generates lift without a wing does not obey the ordinary low-aspect-ratio relations, which are set out in [Lawrence 1951][research_lawrence_1951], [Lawrence 1953][research_lawrence_1953], [Tsien 1957][research_tsien_1957], [Sugai 1965][research_sugai_1965] and [Laitone 1989][research_laitone_1989].
 
 ### What the Reshaping Bought
 
-The X-24B was the X-24A's structure under a new outer shape, so the two make a controlled comparison of their own.
+The X-24B was the X-24A's structure under a new outer shape, in [Reed][book_reed_1997], so the two form a controlled comparison.
 
 $$\left(\frac{L}{D}\right)_\text{X-24A} = 2.99, \qquad \left(\frac{L}{D}\right)_\text{X-24B} = 3.43, \qquad \text{ratio} = 1.15$$
 
@@ -433,7 +433,7 @@ $$\left(\frac{L}{D}\right)_\text{X-24A} = 2.99, \qquad \left(\frac{L}{D}\right)_
 
 $$\sqrt{1.23} = 1.11$$
 
-which is most of the 1.15 observed. **The long pointed nose was buying span-loading, not base cleanliness**, which is the opposite of what the shape suggests at a glance.
+accounting for most of the 1.15 observed. **The long pointed nose delivered span-loading, not base cleanliness**, the opposite of what the shape suggests at a glance.
 
 ### How Far It Could Reach
 
@@ -441,7 +441,7 @@ A glide at a fixed lift-to-drag ratio reaches a radius proportional to the heigh
 
 $$r = h\,\frac{L}{D}$$
 
-which for the X-24B from 20,000 feet is 13 miles, and from 40,000 feet is 26. The performance of a glide considered as a range problem is [Bell 1964][research_bell_1964], [Knapp and Barton 1968][research_knapp_barton_1968], [Sleeman 1971][research_sleeman_1971], [Kelley et al 1982][research_kelley_1982]. **That is the entire manoeuvring room available**, and inside it the vehicle must arrive at a runway threshold at a particular speed on a particular heading, having spent the whole approach unable to add any energy at all.
+which for the X-24B from 20,000 feet is 13 miles, and from 40,000 feet is 26. The performance of a glide considered as a range problem is [Bell 1964][research_bell_1964], [Knapp and Barton 1968][research_knapp_barton_1968], [Sleeman 1971][research_sleeman_1971], [Kelley et al 1982][research_kelley_1982]. **Those radii are the entire manoeuvring room available**, and inside them the vehicle must arrive at a runway threshold at a particular speed on a particular heading, having spent the approach unable to add more energy than its small landing rockets could supply.
 
 ## The Flight Test Record
 
@@ -463,23 +463,23 @@ $$\frac{7.5 \times 5{,}280}{15{,}000} = \frac{39{,}600}{15{,}000} = 2.6$$
 
 a factor of 2.6 in the margin available for an error.
 
-The programme record and the vehicles it sat among are in [Thompson 1966][research_thompson_1966], [Layton and McTigue 1969][research_layton_mctigue_1969], [McTigue 1970][research_john_g_mctigue_1970], [Layton 1970][research_garrison_p_layton_1970], [Manke and Love 1975][research_manke_love_1975], [Armstrong 1977][research_armstrong_1977], [Kempel and Painter 1993][research_kempel_painter_1993] and [Reed et al 1997][research_r_dale_reed_1997], with the rest in the cluster on the X-24 and lifting-body vehicles below, and the wider body of flight research the period produced around them is gathered in the clusters on flight test practice and research aircraft and on handling qualities below.
+The programme record and the vehicles it sat among are in [Thompson 1966][research_thompson_1966], [Layton and McTigue 1969][research_layton_mctigue_1969], [McTigue 1970][research_john_g_mctigue_1970], [Layton 1970][research_garrison_p_layton_1970], [Manke and Love 1975][research_manke_love_1975], [Armstrong 1977][research_armstrong_1977], [Kempel and Painter 1993][research_kempel_painter_1993] and [Reed et al 1997][research_r_dale_reed_1997], with more in the survey's X-24 and lifting-body cluster. The wider body of flight research the period produced around them fills the flight test and handling qualities clusters.
 
 ### The X-24A Glide Flights
 
 The X-24A's first flight came nearly two years after its rollout. Ground tests found that runaway control-surface oscillations fed back through soft actuator mounts in an aft structure so light that 140 pounds of ballast had to be added to balance the vehicle, and the structure was stiffened, in [Reed][book_reed_1997]. **The first glide, on 17 April 1969, came close to ending the programme.** Jerauld Gentry launched with the upper flaps set 21 degrees open for the lowest subsonic drag, so that all roll control came from the lower flaps. One minute into the flight the automatic rudder-to-aileron interconnect failed and stuck, and on the approach at 300 knots and two degrees angle of attack a lateral-directional oscillation developed. Gentry slowed to 270 knots and lit the landing rockets, and just before touchdown the lower flaps reached their rate limit and the roll rate reached 20 degrees per second. The second glide repeated the rate limiting with the interconnect working.
 
-**The cause was a derivative with the wrong sign.** In Robert Hoey's account, quoted by Reed, the wind tunnel had predicted the yawing moment due to aileron for the lower flap with the opposite sign to flight, an error attributed to interference from the model's sting when the flaps were nearly closed, and later analysis put the first approach well inside the predicted region of pilot-induced oscillation. [Manke, Retelle and Kempel][research_john_a_manke_1970] cite the same derivative, opposite in sign to the tunnel data in some flight regions, as a warning for any vehicle that relies on an interconnect to cancel adverse yaw. Before the third glide the lower-flap actuators were reworked to roughly twice their surface rate, and the interconnect schedule, the stick forces and the damper gains were changed. Larson's table records the landing rockets in use on X-24A flights 1, 2, 3 and 14, and lateral misses of 208 and 100 feet on flights 2 and 4, both marked as control problems on the final approach.
+**The cause was a derivative with the wrong sign.** In Robert Hoey's account, quoted by Reed, the wind tunnel had predicted the yawing moment due to aileron for the lower flap with the opposite sign to flight, an error attributed to interference from the model's sting when the flaps were nearly closed, and later analysis put the first approach well inside the predicted region of pilot-induced oscillation. [Manke, Retelle and Kempel][research_john_a_manke_1970] cite the same derivative, opposite in sign to the tunnel data in some flight regions, as a warning for any vehicle that relies on an interconnect to cancel adverse yaw. Before the third glide the lower-flap actuators were reworked to roughly twice their surface rate, and the interconnect schedule, the stick forces and the damper gains were changed. The table in [Larson][research_larson_1972] records the landing rockets in use on X-24A flights 1, 2, 3 and 14, and lateral misses of 208 and 100 feet on flights 2 and 4, both marked as control problems on the final approach.
 
 ### The X-24A Powered Flights
 
-The X-24A made 18 powered flights between 19 March 1970 and 4 June 1971, each lasting just under eight minutes, two and a half under rocket power followed by a glide of five, according to [Reed][book_reed_1997]. The first five missed their primary objectives through system failures after launch. After the first, 140 pounds of tail ballast came out and the upper flaps were biased from 30 to 35 degrees and later to 40, opening the shuttlecock for directional stability. Manke passed Mach 1 on 14 October 1970, reaching Mach 1.19 at 67,900 feet, flew a simulated Space Shuttle approach and landing from 71,400 feet less than two weeks later, and reached Mach 1.60 on 29 March 1971. One flight ended with a premature engine shutdown and a small fire in the engine bay, and the damage kept the vehicle on the ground for nearly two months, in [Hallion][ref_hallion_1984]. The last flight lit only two of the engine's four chambers and stayed subsonic.
+The X-24A made 18 powered flights between 19 March 1970 and 4 June 1971, each lasting just under eight minutes, two and a half under rocket power followed by a glide of five, in [Reed][book_reed_1997]. The first five missed their primary objectives through system failures after launch. After the first, 140 pounds of tail ballast came out and the upper flaps were biased from 30 to 35 degrees and later to 40, opening the shuttlecock for directional stability. Manke passed Mach 1 on 14 October 1970, reaching Mach 1.19 at 67,900 feet, flew a simulated Space Shuttle approach and landing from 71,400 feet less than two weeks later, and reached Mach 1.60 on 29 March 1971. One flight ended with a premature engine shutdown and a small fire in the engine bay, and the damage kept the vehicle on the ground for nearly two months, in [Hallion][ref_hallion_1984]. The last flight lit only two of the engine's four chambers and stayed subsonic.
 
 **Two findings from the powered flights mattered beyond the vehicle.** The first is a nose-up trim change under thrust. [Manke, Retelle and Kempel][research_john_a_manke_1970] compute that it would need a misalignment of about 7 inches between the thrust line and the centre of gravity, against less than 2 inches measured, and attribute it provisionally to the exhaust plume, deflected upward in a rooster tail. Hallion records that the Flight Research Center warned the Shuttle's designers about it, because a trim change of that kind could impose unacceptable loads on an orbiter during boost. The second is that the X-24A flew repeatedly beyond the boundary at which its body-axis directional stability parameter becomes negative, with no perceptible change in its behaviour, which showed that a lifting body can be flown there because its large dihedral effect supplies the effective directional stability. The same paper reports controllability problems near Mach 0.96 at low angle of attack that the tunnel data had not predicted, and judges the X-24A's subsonic handling, after the control changes, as good as the HL-10's and better in pitch during approach and landing.
 
-**The X-24A never flew its maximum-speed profile.** Hoey, quoted by Reed, says the simulation predicted about Mach 1.7 for an optimum full-duration burn, that both attempts at it ended in engine malfunctions, and that with the X-24B already approved the team judged another tenth of a Mach number not worth the risk to the vehicle and its pilot.
+**The X-24A never flew its maximum-speed profile.** Hoey, quoted by Reed, reports that the simulation predicted about Mach 1.7 for an optimum full-duration burn, that both attempts at it ended in engine malfunctions, and that with the X-24B already approved the team judged another tenth of a Mach number not worth the risk to the vehicle and its pilot.
 
-### Where the X-24A Landed, and How Close
+### How Close the X-24A Landed
 
 **The X-24A's landings are the best-measured part of its record.** [Larson][research_larson_1972] tabulates each of its first 25, with the distance from an intended touchdown point measured by surveyor's wheel. From flight 16 of the HL-10 onward, and on every X-24A flight, the pilot was told to touch down as close as possible to a particular runway marker. Leaving out the two approaches marked as control problems, 20 of the X-24A landings have a measured longitudinal miss $x_i$, positive when long, and their signed mean, mean absolute value and standard deviation are
 
@@ -487,7 +487,7 @@ $$\bar x = \frac{1}{N}\sum_{i=1}^{N} x_i = 1{,}125\ \text{ft}, \qquad \overline{
 
 with $N = 20$, the extremes at 1,115 feet short and 4,185 feet long, and 7 of the 20 within 500 feet of the mark. Across all three vehicles Larson fits a normal distribution with a mean of 112 feet short and a standard deviation of 1,793.6 feet.
 
-**The small averages quoted elsewhere are signed means.** Gentry reports an average miss of less than 250 feet on about 30 flights, and Hallion an average longitudinal miss of 76 meters for the X-24A on lakebed runway 18. A signed mean lets long and short landings cancel, and Larson's three-vehicle mean of 112 feet sits inside those figures while the scatter about it is about a third of a mile. The X-24A subset of Larson's table has a signed mean of 1,125 feet long, which Hallion's 76 meters does not match, and the documents read here do not show which flights Hallion averaged.
+**The small averages quoted elsewhere are signed means.** [Gentry][research_william_h_dana_j_r_gentry_1970] reports an average miss of less than 250 feet on about 30 flights, and [Hallion][ref_hallion_1984] an average longitudinal miss of 76 meters for the X-24A on lakebed runway 18. A signed mean lets long and short landings cancel, and Larson's three-vehicle mean of 112 feet sits inside those figures while the scatter about it is about a third of a mile. The X-24A subset of Larson's table has a signed mean of 1,125 feet long, which Hallion's 76 meters does not match, and the record available here does not show which flights Hallion averaged.
 
 ### Rebuilding the X-24A as the X-24B
 
@@ -501,7 +501,7 @@ Manke made the first glide on 1 August 1973, launched at 40,000 feet, and landed
 
 ### The Concrete Runway Landings
 
-**The concrete landings were a pilot's proposal.** Manke recommended them, the X-24B research subcommittee approved the proposal in January 1974, and Manke and Love flew a three-week programme of F-104 and T-38 approaches matched to the X-24B, more than 100 of them by Manke alone, according to [Reed][book_reed_1997] and [Hallion][ref_hallion_1984]. Hallion also gives the reason the earlier lifting bodies never tried. They lacked nosewheel steering, and on the lakebed only the rudders and main-gear braking controlled the rollout. On 5 August 1975 Manke launched, climbed under power to 60,000 feet, and seven minutes after launch touched down at the planned mark 5,000 feet along runway 04/22. Love repeated it on 20 August 1975, on a flight that reached Mach 1.548 and 72,000 feet. Manke's own assessment, quoted by Reed, was that touchdown accuracies of plus or minus 500 feet could be expected, and that the concrete runway's distance markers and features gave information the lakebed did not.
+**The concrete landings were a pilot's proposal.** Manke recommended them, the X-24B research subcommittee approved the proposal in January 1974, and Manke and Love flew a three-week programme of F-104 and T-38 approaches matched to the X-24B, more than 100 of them by Manke alone, in [Reed][book_reed_1997] and [Hallion][ref_hallion_1984]. Hallion also gives the reason the earlier lifting bodies never tried. They lacked nosewheel steering, and on the lakebed only the rudders and main-gear braking controlled the rollout. On 5 August 1975 Manke launched, climbed under power to 60,000 feet, and seven minutes after launch touched down at the planned mark 5,000 feet along runway 04/22. Love repeated it on 20 August 1975, on a flight that reached Mach 1.548 and 72,000 feet. Manke's assessment, quoted by Reed, was that touchdown accuracies of plus or minus 500 feet could be expected, and that the concrete runway's distance markers and features gave information the lakebed did not.
 
 Set against Larson's lakebed fit, the probability that a landing falls within 500 feet of the aim point is
 
@@ -511,7 +511,7 @@ with $\mu = -112$ feet, $\sigma_x = 1{,}793.6$ feet and $\Phi$ the standard norm
 
 $$\frac{\sigma_x}{500} = 3.6$$
 
-which measures the change between the lakebed record and the concrete demonstration. Two landings cannot establish a distribution, and the documents read here give neither landing's measured miss distance.
+a ratio that measures the change between the lakebed record and the concrete demonstration. Two landings cannot establish a distribution, and the documents read here give neither landing's measured miss distance.
 
 ## Comparison With Ground Prediction
 
@@ -529,21 +529,21 @@ which measures the change between the lakebed record and the concrete demonstrat
 
 $$\frac{4.39}{4.25} - 1 = +3\%, \qquad \frac{2.99}{3.28} - 1 = -9\%, \qquad \frac{4.88}{4.50} - 1 = +8\%$$
 
-**The largest-base X-24B case is not a fair test.** Its flight value of 2.39 was measured at Mach 0.8 with 40 degrees of upper flap, a transonic configuration in which compressibility adds drag that an incompressible polar does not carry, so the 3.43 used for the approach has no subsonic flight counterpart in that table. The same report states that the base pressures of both X-24 vehicles below Mach 0.8 were estimated from X-24B data at Mach 0.8 rather than measured, which bears directly on the base drag this article rests on.
+**The largest-base X-24B case is not a fair test.** Its flight value of 2.39 was measured at Mach 0.8 with 40 degrees of upper flap, in [Saltzman et al 2002][research_saltzman_2002], a transonic configuration in which compressibility adds drag that an incompressible polar does not carry, so the 3.43 used for the approach has no subsonic flight counterpart in that table. The same report states that the base pressures of both X-24 vehicles below Mach 0.8 were estimated from X-24B data at Mach 0.8 rather than measured, a point that bears directly on the base drag at the centre of this analysis.
 
-**The model is good to within about nine percent wherever a subsonic flight value exists at the same base area**, using nothing but published geometry, a Hoerner correlation with a flight-corrected coefficient, and a factor of three obtained by differentiation. The touchdown row is not an independent check, because the load factor was solved to reproduce it. What that row reports is the load factor, not an agreement.
+**The model is good to within about nine percent wherever a subsonic flight value exists at the same base area**, using only published geometry, a Hoerner correlation with a flight-corrected coefficient, and a factor of three obtained by differentiation. The touchdown row is not an independent check, because the load factor was solved to reproduce it. What that row reports is the load factor, not an agreement.
 
-**The configuration on the approach is the weakest assumption in the chain.** [Cochrane and Graham][ref_cochrane_graham_1971] state that the X-24A's upper flaps were biased open, to 40 degrees above Mach 0.6, and closed up at low speed and for landing, with the pilot able to open them as speed brakes. With the base at its smallest, the same relations give an approach lift-to-drag ratio of 4.16 at 300 miles an hour, a path angle of 13.5 degrees and a sink rate of 6,169 feet a minute, and a 1.5 g flare that begins at 320 feet and exits at 274 miles an hour, leaving about 6,100 feet of float. The documented flare height of 900 feet is reproduced by the largest base and missed by a factor of almost three by the smallest. That is consistent with approaches flown partly on the speed brakes, as Gentry describes, but it is an inference, because the documents read here do not state the X-24B's flap setting on its final approaches.
+**The configuration on the approach is the weakest assumption in the chain.** [Cochrane and Graham][ref_cochrane_graham_1971] state that the X-24A's upper flaps were biased open, to 40 degrees above Mach 0.6, and closed up at low speed and for landing, with the pilot able to open them as speed brakes. With the base at its smallest, the same relations give an approach lift-to-drag ratio of 4.16 at 300 miles an hour, a path angle of 13.5 degrees and a sink rate of 6,169 feet a minute, and a 1.5 g flare that begins at 320 feet and exits at 274 miles an hour, leaving about 6,100 feet of float. The documented flare height of 900 feet is reproduced by the largest base and missed by a factor of almost three by the smallest. The result is consistent with approaches flown partly on the speed brakes, as Gentry describes, but it is an inference, because the X-24B's flap setting on its final approaches is not stated in any source found.
 
-The weakest link is the efficiency factor of 0.6, which is taken from the source's own comparison curve rather than derived. **It enters the lift-to-drag ratio as a square root**, so a twenty percent error in it moves the answer by ten percent, which is the same order as the agreement being claimed.
+The weakest link is the efficiency factor of 0.6, taken from the source's comparison curve rather than derived. **It enters the lift-to-drag ratio as a square root**, so a twenty percent error in it moves the answer by ten percent, the same order as the agreement being claimed.
 
 ## What the Data Changed
 
-**The Space Shuttle was designed to carry air-breathing engines for its landing approach, and it did not fly with them.**
+**The Space Shuttle was designed to carry air-breathing engines for its landing approach, and it did not fly with them.** The Phase B statement of work specified landing engines and a go-around capability, in [Flight Test Results Pertaining to the Space Shuttlecraft][research_flight_test_1970].
 
 The argument for them was straightforward. An orbiter that could go around, loiter, and be flown to a landing under power would be a far less demanding vehicle to operate, and its pilots could practise. The argument against was mass, and mass in an orbiter is payload, since every pound of engine and fuel is a pound not carried to orbit.
 
-**What the lifting bodies supplied was evidence that the engines were not needed.** The X-24B's two precision landings on concrete demonstrated that a vehicle with a lift-to-drag ratio near four could be brought to a chosen point on a runway by a pilot with no thrust available. The consequence, in the words of the [programme's own account][ref_nasa_x24b], was that shuttle designers eliminated the auxiliary engines.
+**What the lifting bodies supplied was evidence that the engines were not needed.** The X-24B's two precision landings on concrete demonstrated that a vehicle with a lift-to-drag ratio near four could be brought to a chosen point on a runway by a pilot with no thrust available. The consequence, in the words of the [programme's account][ref_nasa_x24b], was that shuttle designers eliminated the auxiliary engines.
 
 **The argument against the engines was made in public five years before the concrete landings.** At the Flight Research Center's symposium of 30 June 1970, collected as NASA TM X-2101 in [Flight Test Results Pertaining to the Space Shuttlecraft][research_flight_test_1970], [Kock and Fulton][research_berwin_m_kock_fitzhugh_l_fulton_1970] reported the HL-10's powered-approach flights, in which three 500 pound rockets shallowed the final approach from about 18 degrees to 6 at 300 knots. Holding the speed while changing only the path angle needs a thrust equal to the change in the component of weight along the path,
 
@@ -553,17 +553,17 @@ and for the X-24B at the 23.2 degree approach derived above, a 6 degree glide sl
 
 $$T = 8{,}500\left(\sin 23.2^\circ - \sin 6^\circ\right) = 2{,}460\ \text{lb}$$
 
-or 29 percent of the vehicle's weight, sustained through the whole final approach. Kock and Fulton concluded that a limited-duration propulsion system used this way brings few of the benefits of power and most of its penalties, and that even an orbiter with air-breathing engines and a go-around capability should be flown as if it were unpowered. Milton Thompson's closing remarks in the same volume went further. The engines could not be started until the orbiter was subsonic, so it would have to be manoeuvred unpowered to a point near its destination in any case. The Center recommended that if the landing engines of the Phase B statement of work were fitted they should not be relied on, and judged an unpowered operational shuttle entirely practical.
+or 29 percent of the vehicle's weight, sustained through the final approach. Kock and Fulton concluded that a limited-duration propulsion system used this way brings few of the benefits of power and most of its penalties, and that even an orbiter with air-breathing engines and a go-around capability should be flown as if it were unpowered. Milton Thompson's closing remarks in the same volume went further. The engines could not be started until the orbiter was subsonic, so it would have to be manoeuvred unpowered to a point near its destination in any case. The Center recommended that if the landing engines of the Phase B statement of work were fitted they should not be relied on, and judged an unpowered operational shuttle entirely practical.
 
 **The 1975 landings therefore did not introduce the argument.** They demonstrated on concrete what the 1970 papers had argued from the lakebed and from simulation. [Reed][book_reed_1997] and the [programme's own account][ref_nasa_x24b] attribute the deletion of the engines to the X-24B landings, while [Hallion][ref_hallion_1984] credits the lifting-body trials as a whole with the confidence behind unpowered Shuttle landings. The documents read for this article do not date the deletion decision, so they cannot show whether it preceded or followed the landings.
 
-**The lifting bodies also told the Shuttle what a rough heat shield would cost at landing.** The full-scale X-24A was tested under a simulated ablated surface whose roughness was taken from recovered PRIME vehicles, according to [Reed][book_reed_1997]. On it and on a related subscale model the roughened surface cut the maximum lift-to-drag ratio by 20 to 30 percent, more than added friction alone explains, in [Pyle and Ash][research_jon_s_pyle_lawrence_g_ash_1970]. [Reed][book_reed_1997] puts the drag increase from ablated roughness at 15 to 30 percent and concludes that only the X-24A and X-24B would have kept adequate landing performance. At a given lift the lift-to-drag ratio falls in proportion to the drag,
+**The lifting bodies also told the Shuttle what a rough heat shield would cost at landing.** The full-scale X-24A was tested under a simulated ablated surface whose roughness was taken from recovered PRIME vehicles, in [Reed][book_reed_1997]. On it and on a related subscale model the roughened surface cut the maximum lift-to-drag ratio by 20 to 30 percent, more than added friction alone explains, in [Pyle and Ash][research_jon_s_pyle_lawrence_g_ash_1970]. [Reed][book_reed_1997] puts the drag increase from ablated roughness at 15 to 30 percent and concludes that only the X-24A and X-24B would have kept adequate landing performance. At a given lift the lift-to-drag ratio falls in proportion to the drag,
 
 $$\left(\frac{L}{D}\right)_\text{rough} = \frac{L/D}{1 + \Delta C_D/C_D}$$
 
 so the X-24B's landing value of 4.5 would fall to between 3.91 and 3.46, and the M2-F3's 3.1 to between 2.70 and 2.38, against the value of 2.5 that F-104 trials had put at the border of the totally unacceptable. Reed's statement that the M2-F3 would fall below 2.5 holds only toward the upper end of his range of drag increase.
 
-The path from here to the orbiter runs through the Shuttle's own approach and landing record, in [Nagel 1983][research_nagel_1983], [Powers 1984][research_powers_1984], [Powers 1984][research_powers_1984_2], [Brandenstein 1984][research_brandenstein_1984] and [Young and Underwood 1983][research_young_underwood_1983], gathered with the rest in the cluster on orbiters, spaceplanes and reusable launch vehicles below. **The decades after the lifting bodies were not idle either**, and the aircraft literature of that middle period is gathered in the clusters on drag, handling qualities and flight control below.
+The path from here to the orbiter runs through the Shuttle's approach and landing record, in [Nagel 1983][research_nagel_1983], [Powers 1984][research_powers_1984], [Powers 1984][research_powers_1984_2], [Brandenstein 1984][research_brandenstein_1984] and [Young and Underwood 1983][research_young_underwood_1983], and the survey files the rest of that record under orbiters, spaceplanes and reusable launch vehicles. **The decades after the lifting bodies were not idle either**, and the aircraft literature of that middle period appears in the drag, handling qualities and flight control clusters.
 
 ## The Contemporary Literature
 
@@ -588,65 +588,65 @@ The path from here to the orbiter runs through the Shuttle's own approach and la
 
 **Everything the X-24B demonstrated is now done by software, and the one thing that has not moved is the corridor, because the corridor is set by energy rather than by skill.**
 
-There is a second answer as well, and it is the more radical one. **The X-24's entire difficulty was that no energy could be added after the approach began.** A booster that lands on its engine answers that by adding energy, which is not a better unpowered landing but a decision not to attempt one. **Both answers are in service and they are opposites.**
+A second answer is more radical. **The X-24's entire difficulty was that almost no energy could be added after the approach began.** A booster that lands on its engine answers that by adding energy, and so never attempts an unpowered landing. **Both answers are in service, in the [Boeing X-37][ref_x37] and the [Falcon 9][ref_falcon_9], and they are opposites.**
 
-The field as it currently stands is gathered in the cluster subsections that follow these analytic ones.
+The cluster subsections after these analytic ones map the field as it currently stands.
 
 ### The Flare Is Now a Control Law
 
 Unpowered precision landing is no longer a piloting achievement but a guidance problem with a published solution, for an unpowered reusable launch vehicle in [AL-Bakri and Kluever 2017][research_al_bakri_kluever_2017], for unpowered drones and gyroplanes in [Kim and Tahk 2019][research_kim_tahk_2019] and [Fang et al 2019][research_fang_2019], for fixed-wing aircraft in flight test in [Woodbury and Valasek 2016][research_woodbury_valasek_2016] and [Sedlmair et al 2022][research_sedlmair_2022], and for spacecraft in [Lunghi et al 2015][research_lunghi_2015] and [Robertson 2017][research_robertson_2017], with a review in [Pogosyan and Vereikin 2020][research_pogosyan_vereikin_2020].
 
-**The milestone came thirteen years after the X-24B.** On 15 November 1988 the Soviet orbiter Buran flew one uncrewed orbital mission and landed itself on the runway at Baikonur, unpowered, in a crosswind, with no pilot aboard at any point. **That is the same demonstration Manke and Love flew, performed by a machine, at more than fifteen times the weight**, since Buran's dry mass alone was 62 tonnes [Buran][ref_buran] against the X-24B's 8,500 pounds.
+**The milestone came thirteen years after the X-24B.** On 15 November 1988 the Soviet orbiter Buran flew one uncrewed orbital mission and landed itself on the runway at Baikonur, unpowered, in a crosswind, with no pilot aboard at any point. **It was the demonstration Manke and Love flew, performed by a machine, at more than fifteen times the weight**, since Buran's dry mass alone was 62 tonnes [Buran][ref_buran] against the X-24B's 8,500 pounds.
 
 **What the automation did not do is widen the corridor.** The bounds derived above are energy bounds and they do not care who is flying. Written out, the touchdown speed is a function
 
 $$V_\text{td} = F\left(n,\ \frac{W}{S},\ C_{D_0},\ k_i,\ \rho\right)$$
 
-in which **there is no term describing the pilot**. An autonomous vehicle arriving too fast still floats, and one arriving too slow still runs out of speed. What automation buys is consistency in hitting the middle of a corridor whose width is set by aerodynamics, in [Bottasso and Montinari 2015][research_bottasso_montinari_2015], [Ye et al 2015][research_ye_2015], [Zhou et al 2015][research_zhou_2015], [Ellerbroek et al 2016][research_ellerbroek_2016], [Ackerman et al 2017][research_ackerman_2017], [Lee et al 2017][research_lee_2017], [Lombaerts et al 2017][research_lombaerts_2017], [Schuet et al 2017][research_schuet_2017], [Tekles et al 2017][research_tekles_2017], [Fellah and Guiatni 2019][research_fellah_guiatni_2019], [Gabrys et al 2019][research_gabrys_2019], [Zaal et al 2019][research_zaal_2019], [Van Baelen et al 2020][research_van_baelen_2020], [Campbell et al 2022][research_campbell_2022], [Kluever 2022][research_kluever_2022], [Yu et al 2022][research_yu_2022], [Ma and Chen 2023][research_ma_chen_2023], [Altunkaya et al 2024][research_altunkaya_2024], [Catak et al 2024][research_catak_2024], [Hsu et al 2024][research_hsu_2024], [Schieni et al 2024][research_schieni_2024], [Autenrieb 2025][research_autenrieb_2025], [Sarah et al 2025][research_sarah_2025], [Yue et al 2025][research_yue_2025].
+in which **there is no term describing the pilot**. An autonomous vehicle arriving too fast still floats, and one arriving too slow still runs out of speed. What automation provides is consistency in hitting the middle of a corridor whose width is set by aerodynamics, in [Bottasso and Montinari 2015][research_bottasso_montinari_2015], [Ye et al 2015][research_ye_2015], [Zhou et al 2015][research_zhou_2015], [Ellerbroek et al 2016][research_ellerbroek_2016], [Ackerman et al 2017][research_ackerman_2017], [Lee et al 2017][research_lee_2017], [Lombaerts et al 2017][research_lombaerts_2017], [Schuet et al 2017][research_schuet_2017], [Tekles et al 2017][research_tekles_2017], [Fellah and Guiatni 2019][research_fellah_guiatni_2019], [Gabrys et al 2019][research_gabrys_2019], [Zaal et al 2019][research_zaal_2019], [Van Baelen et al 2020][research_van_baelen_2020], [Campbell et al 2022][research_campbell_2022], [Kluever 2022][research_kluever_2022], [Yu et al 2022][research_yu_2022], [Ma and Chen 2023][research_ma_chen_2023], [Altunkaya et al 2024][research_altunkaya_2024], [Catak et al 2024][research_catak_2024], [Hsu et al 2024][research_hsu_2024], [Schieni et al 2024][research_schieni_2024], [Autenrieb 2025][research_autenrieb_2025], [Sarah et al 2025][research_sarah_2025], [Yue et al 2025][research_yue_2025].
 
 ### The Other Answer Was to Refuse the Problem
 
-**A propulsively landed booster does not solve the unpowered landing. It declines to have one**, as the powered descent guidance of [Sagliano 2018][research_sagliano_2018], [Wang et al 2019][research_wang_2019_2] and [Botelho et al 2022][research_botelho_2022] and the retropropulsion aerodynamics of [Marwege and Gülhan 2023][research_marwege_gulhan_2023] assume. The rest is in the cluster on propulsive and planetary landing below.
+**A propulsively landed booster does not solve the unpowered landing. It declines to have one**, as the powered descent guidance of [Sagliano 2018][research_sagliano_2018], [Wang et al 2019][research_wang_2019_2] and [Botelho et al 2022][research_botelho_2022] and the retropropulsion aerodynamics of [Marwege and Gülhan 2023][research_marwege_gulhan_2023] assume. The propulsive and planetary landing cluster holds the remainder.
 
-The comparison is worth making precisely, because it is a trade and not a victory. The X-24B carried no landing propellant and paid for that with a corridor four tenths of a g wide and no second attempt. A booster that lands on its engine carries propellant it could otherwise have spent on payload, and buys a hover, a divert and an abort.
+The comparison deserves care, because it is a trade and not a victory. The X-24B carried no propellant for a powered approach, only the small landing rockets that [Reed][book_reed_1997] lists among its equipment, and paid for that with a corridor four tenths of a g wide and no second attempt. A booster that lands on its engine carries propellant it could otherwise have spent on payload, and for that it gets a hover, a divert and an abort.
 
-**Which is better depends entirely on what is coming back.** For a stage that is mostly empty tank the propellant is affordable. For a vehicle returning from orbit with a heat shield already sized for the entry, carrying landing propellant through that entry is expensive, which is why the vehicles that come back from orbit still land the X-24B's way and the ones that come back from a few minutes of flight do not.
+**Which is better depends entirely on what is coming back.** For a stage that is mostly empty tank the propellant is affordable. For a vehicle returning from orbit with a heat shield already sized for the entry, carrying landing propellant through that entry is expensive. That cost is why the winged and lifting vehicles that come back from orbit still land the X-24B's way and the ones that come back from a few minutes of flight do not.
 
 ### The Configuration Survived, Uncrewed
 
-The shape is still flying, in India's reusable launch vehicle technology demonstrator, in [Sivan and Pandian 2018][research_sivan_pandian_2018], and in the unpowered approach and landing guidance written for such vehicles, in [Kluever and Neal 2015][research_kluever_neal_2015], [S. Hameed and G. R 2021][research_s_hameed_g_r_2021] and [Yao and Xin 2023][research_yao_xin_2023], and it survived in the form the X-24B pointed at and not the X-24A's. **Vehicles of this class are now designed to land themselves on runways**, which is the capability the two 1975 landings were run to establish. The rest is in the clusters on the X-24 and lifting-body vehicles and on orbiters below.
+The shape is still flying, in India's reusable launch vehicle technology demonstrator, in [Sivan and Pandian 2018][research_sivan_pandian_2018], and in the unpowered approach and landing guidance written for such vehicles, in [Kluever and Neal 2015][research_kluever_neal_2015], [S. Hameed and G. R 2021][research_s_hameed_g_r_2021] and [Yao and Xin 2023][research_yao_xin_2023], and it survived in the form the X-24B pointed at and not the X-24A's. **Vehicles of this class are now designed to land themselves on runways**, the capability the two 1975 landings were run to establish. The lifting-body and orbiter clusters below list further examples.
 
 **What did not survive is the pilot in the vehicle**, and with the pilot went most of the reason to care about handling qualities in the way the programme did.
 
-### The Drag Is Computed Now, and the Base Is Still Hard
+### Computed Drag and a Still-Hard Base
 
-Base and afterbody flows are among the least forgiving things to compute, as large eddy simulation of bluff-body wakes in [Blanchard et al 2015][research_blanchard_2015] and [Tran et al 2017][research_tran_2017_2], hybrid methods in [Schmidt and Breuer 2015][research_schmidt_breuer_2015], nozzle separation in [Yaravintelimath et al 2016][research_yaravintelimath_2016] and turbulence-model work in [Wu et al 2017][research_wu_2017] and [Spalart and Garbaruk 2021][research_spalart_garbaruk_2021] show. **The separated region behind a blunt base is unsteady, three-dimensional and sensitive to the approaching boundary layer**, which is precisely the combination that steady turbulence models handle worst. The Hoerner correlation with a flight-corrected coefficient remains a serviceable engineering answer for the same reason it did in 1975.
+Base and afterbody flows are among the least forgiving things to compute, as large eddy simulation of bluff-body wakes in [Blanchard et al 2015][research_blanchard_2015] and [Tran et al 2017][research_tran_2017_2], hybrid methods in [Schmidt and Breuer 2015][research_schmidt_breuer_2015], nozzle separation in [Yaravintelimath et al 2016][research_yaravintelimath_2016] and turbulence-model work in [Wu et al 2017][research_wu_2017] and [Spalart and Garbaruk 2021][research_spalart_garbaruk_2021] show. **The separated region behind a blunt base is unsteady, three-dimensional and sensitive to the approaching boundary layer**, the combination that steady turbulence models handle worst. The Hoerner correlation with a flight-corrected coefficient remains a serviceable engineering answer for the same reason it did in 1975.
 
 ### The Physics Migrated to Lorries
 
 **The most active base-drag literature today is not aeronautical**, as the boat tails, deflectors and append devices for heavy vehicles in [khosravi et al 2015][research_khosravi_2015], [Her et al 2016][research_her_2016], [Lee and Lee 2017][research_lee_lee_2017], [Kim et al 2020][research_kim_2020], [Gao et al 2022][research_gao_2022] and [Xu et al 2022][research_xu_2022_2] and the platoon studies in [Tadakuma et al 2016][research_tadakuma_2016] illustrate, and as the road vehicle cluster and the bluff-body share of the base drag cluster below count.
 
-A heavy goods vehicle is a blunt-based body whose drag is dominated by its wake, which is the X-24's problem in a different medium and at a lower speed. **One of the authors of the lifting-body base-drag analysis also reassessed the aerodynamic design of heavy trucks**, in [Saltzman and Meyer 1999][ref_saltzman_meyer_1999], drawing on coast-down tests of a box-shaped van, a two-axle truck and a tractor-semitrailer, which is as direct a statement of the connection as anyone could ask for. Projectile base bleed and boat-tailing belong to the same family.
+A heavy goods vehicle is a blunt-based body whose drag is dominated by its wake, the X-24's problem in a different medium and at a lower speed. **One of the authors of the lifting-body base-drag analysis also reassessed the aerodynamic design of heavy trucks**, in [Saltzman and Meyer 1999][ref_saltzman_meyer_1999], drawing on coast-down tests of a box-shaped van, a two-axle truck and a tractor-semitrailer, and no statement of the connection could be more direct. Projectile base bleed and boat-tailing belong to the same family.
 
-**The reason the physics travelled is that the drag bucket does not care what the body is for.** Base drag falls as forebody drag rises whatever the body, so the factor of three at the optimum is as true of a lorry as of a lifting body.
+**The physics travelled because the drag bucket does not care what the body is for.** Base drag falls as forebody drag rises whatever the body, so the factor of three at the optimum is as true of a lorry as of a lifting body.
 
 ### Lift Without a Wing, Computed
 
-Aspect ratios near one remain awkward, in [Lian 2011][research_lian_2011], [Rockwell 2011][research_rockwell_2011], [D and Singh 2016][research_d_singh_2016], [Amin Boukenkoul et al 2017][research_amin_boukenkoul_2017], [Cao and Tafti 2018][research_cao_tafti_2018], [Obeid et al 2019][research_obeid_2019], [Okamoto et al 2019][research_okamoto_2019], [Qi and Wang 2019][research_qi_wang_2019], [Chandra 2020][research_chandra_2020], [Gildersleeve and Amitay 2020][research_gildersleeve_amitay_2020], [Kase et al 2020][research_kase_2020], [Barrett-Gonzalez and Wolf 2021][research_barrett_gonzalez_wolf_2021], [Chopra and Mittal 2021][research_chopra_mittal_2021], [Lin et al 2021][research_lin_2021], [Degani 2022][research_degani_2022], [Dutta et al 2022][research_dutta_2022], [Traub 2023][research_traub_2023], [Aerodynamic Performance Enhancement of Low Aspect Ratio Military Drone Aircraft Wing through Employing Leading Edge Tubercles 2024][research__2024], [Jiang et al 2024][research_jiang_2024], [Verma and Kulkarni 2024][research_verma_kulkarni_2024], [Berci 2025][research_berci_2025], [Eraslan 2025][research_eraslan_2025], [Lampropoulos and Sarris 2025][research_lampropoulos_sarris_2025], [Numerical Investigation of Impinging Planar Shock Wave Interaction with Axisymmetric Slender Body 2025][research_numerical_investigation_2025], [Degani 2026][research_degani_2026]. **The classical relations still do not describe these shapes**, because their lift comes substantially from crossflow and from vortices shed off sharp edges instead of from circulation in the ordinary sense, and that is the same reason the article had to take an efficiency factor from a source rather than compute one.
+Aspect ratios near one remain awkward, in [Lian 2011][research_lian_2011], [Rockwell 2011][research_rockwell_2011], [D and Singh 2016][research_d_singh_2016], [Amin Boukenkoul et al 2017][research_amin_boukenkoul_2017], [Cao and Tafti 2018][research_cao_tafti_2018], [Obeid et al 2019][research_obeid_2019], [Okamoto et al 2019][research_okamoto_2019], [Qi and Wang 2019][research_qi_wang_2019], [Chandra 2020][research_chandra_2020], [Gildersleeve and Amitay 2020][research_gildersleeve_amitay_2020], [Kase et al 2020][research_kase_2020], [Barrett-Gonzalez and Wolf 2021][research_barrett_gonzalez_wolf_2021], [Chopra and Mittal 2021][research_chopra_mittal_2021], [Lin et al 2021][research_lin_2021], [Degani 2022][research_degani_2022], [Dutta et al 2022][research_dutta_2022], [Traub 2023][research_traub_2023], [Aerodynamic Performance Enhancement of Low Aspect Ratio Military Drone Aircraft Wing through Employing Leading Edge Tubercles 2024][research__2024], [Jiang et al 2024][research_jiang_2024], [Verma and Kulkarni 2024][research_verma_kulkarni_2024], [Berci 2025][research_berci_2025], [Eraslan 2025][research_eraslan_2025], [Lampropoulos and Sarris 2025][research_lampropoulos_sarris_2025], [Numerical Investigation of Impinging Planar Shock Wave Interaction with Axisymmetric Slender Body 2025][research_numerical_investigation_2025], [Degani 2026][research_degani_2026]. **The classical relations still do not describe these shapes**, because their lift comes substantially from crossflow and from vortices shed off sharp edges instead of from circulation in the ordinary sense, which also explains why the article had to take an efficiency factor from a source rather than compute one.
 
 ### Handling Qualities Became a Discipline With Numbers
 
-The question of whether a pilot can work with a vehicle is now posed quantitatively, in [Hebbar and Pashilkar 2016][research_hebbar_pashilkar_2016], [Efremov et al 2020][research_efremov_2020], [Bidinotto et al 2021][research_bidinotto_2021], [Ivler et al 2022][research_ivler_2022] and [Lampton et al 2024][research_lampton_2024], with the rest in the handling qualities cluster below. **The lifting bodies' own handling qualities record belongs to that literature**, in [Manke et al 1970][research_john_a_manke_1970], [Kempel and Manke 1974][research_kempel_manke_1974] and [Kempel et al 1975][research_kempel_1975], not for their shapes but because they were difficult aircraft flown to a standard by people who wrote down what happened.
+The question of whether a pilot can work with a vehicle is now posed quantitatively, in [Hebbar and Pashilkar 2016][research_hebbar_pashilkar_2016], [Efremov et al 2020][research_efremov_2020], [Bidinotto et al 2021][research_bidinotto_2021], [Ivler et al 2022][research_ivler_2022] and [Lampton et al 2024][research_lampton_2024], with the rest in the handling qualities cluster below. **The lifting bodies' handling qualities record is part of that literature**, in [Manke et al 1970][research_john_a_manke_1970], [Kempel and Manke 1974][research_kempel_manke_1974] and [Kempel et al 1975][research_kempel_1975], not for their shapes but because they were difficult aircraft flown to a standard by people who wrote down what happened.
 
-### What the Gear Sees, Measured Rather Than Assumed
+### What the Gear Sees, Now Measured
 
-The touchdown conditions this article computes at residual path angles are now extracted from the routine flight data of transport aircraft to predict hard landings, in [Ding et al 2020][research_ding_2020], [Xiangzhang et al 2024][research_xiangzhang_2024], [Dong et al 2025][research_dong_2025], [Bansal et al 2026][research_bansal_2026] and [Chu et al 2026][research_chu_2026]. **Hard-landing detection is a routine service, and the distribution of touchdown conditions across a fleet is a known quantity** where in 1975 it was an estimate.
+The touchdown conditions this article computes at residual path angles are now extracted from the routine flight data of transport aircraft to predict hard landings, in [Ding et al 2020][research_ding_2020], [Xiangzhang et al 2024][research_xiangzhang_2024], [Dong et al 2025][research_dong_2025], [Bansal et al 2026][research_bansal_2026] and [Chu et al 2026][research_chu_2026]. **Hard-landing prediction from routine flight data is an established subject, and the distribution of touchdown conditions across a fleet is a measured quantity** where in 1975 it was an estimate.
 
 ### What the Survey Shows
 
 **The aerodynamics have not moved.** A truncated base still costs a factor of the square root of three in lift-to-drag ratio, the flare still has a corridor bounded from both ends, and the energy is still spent exactly once.
 
-**What moved is who flies it, and whether the problem is accepted at all.** The X-24B's pilots hit a fifteen-thousand-foot runway from a corridor a few tenths of a g wide, twice, and that was the demonstration. A modern vehicle of that class does the same thing on every flight and nobody writes it up. **And a modern booster refuses the problem entirely by carrying the propellant to add energy back**, which is the option the X-24B did not have and would not have wanted.
+**What moved is who flies it, and whether the problem is accepted at all.** The X-24B's pilots hit a fifteen-thousand-foot runway from a corridor a few tenths of a g wide, twice, and that was the demonstration. A modern vehicle of that class, such as the [Boeing X-37][ref_x37], lands itself on a runway at the end of every mission. **And a modern booster refuses the problem entirely by carrying the propellant to add energy back**, an option the X-24B did not have and would not have wanted.
 
 ### Approach, flare and automatic landing
 
@@ -770,7 +770,7 @@ Seven titles concern the correlation of tunnel and flight drag, the question tha
 
 **The vehicles were not landing demonstrators.** They were transonic and low-supersonic research aircraft that happened to land without engines because that is how they were flown. The X-24B reached 1,164 miles an hour, and a great deal of the flight record is about stability and control at speeds that have nothing to do with the approach.
 
-**The base drag analysis is retrospective.** Saltzman, Wang and Iliff published in the 1990s and 2000s, drawing on flight data gathered decades earlier. **Nobody sized the X-24B using the factor of three derived above.** The relation explains the vehicle rather than having produced it, and this article should not be read as a reconstruction of the design process.
+**The base drag analysis is retrospective.** Saltzman, Wang and Iliff published in the 1990s and 2000s, in [Saltzman et al 1999][research_saltzman_1999], [Saltzman et al 2002][research_saltzman_2002] and [Saltzman et al 2007][research_saltzman_2007], drawing on flight data gathered decades earlier. **Nobody sized the X-24B using the factor of three derived above.** The relation explains the vehicle rather than having produced it, and this article should not be read as a reconstruction of the design process.
 
 **The flare corridor is computed from a point-mass energy model**, with a constant load factor and a drag polar that is a parabola. A real flare has neither. The agreement to nine percent is encouraging and is not a validation.
 
@@ -867,23 +867,33 @@ Three instead of five means an eighteen-degree glide instead of eleven. It means
 
 ### Reference
 
+- [14 CFR 25.473, Landing Load Conditions and Assumptions][ref_cfr_25_473]
+- [Boeing X-37][ref_x37]
 - [Buran][ref_buran]
 - [Cochrane and Graham, Pilot Safety for the X-24A Lifting Body Vehicle, 1971][ref_cochrane_graham_1971]
+- [Edwards Air Force Base][ref_edwards_afb]
 - [Falarski and Mort, Full-Scale Wind-Tunnel Investigation of the Aerodynamic Characteristics of the X-24A Lifting Body Aircraft, NASA TN D-5932, 1970][ref_falarski_mort_1970]
+- [Falcon 9][ref_falcon_9]
 - [Hallion, On the Frontier, Flight Research at Dryden 1946-1981, NASA SP-4303, 1984][ref_hallion_1984]
 - [John Manke and Michael Love][ref_nasa_x24b]
 - [Martin Marietta X-24B][ref_x24]
+- [Parsch, Missing USAF and DOD Aircraft Designations][ref_missing_mds]
 - [Saltzman and Meyer, A Reassessment of Heavy-Duty Truck Aerodynamic Design Features and Priorities, NASA/TP-1999-206574, 1999][ref_saltzman_meyer_1999]
 - [Sim, A Correlation Between Flight-Determined Derivatives and Wind-Tunnel Data for the X-24B Research Aircraft, NASA TM-113084, 1997][ref_sim_1997]
 
 [ref_buran]: https://en.wikipedia.org/wiki/Buran_(spacecraft)
+[ref_cfr_25_473]: https://www.ecfr.gov/current/title-14/section-25.473
 [ref_cochrane_graham_1971]: https://ntrs.nasa.gov/citations/19720018319
+[ref_edwards_afb]: https://en.wikipedia.org/wiki/Edwards_Air_Force_Base
 [ref_falarski_mort_1970]: https://ntrs.nasa.gov/citations/19700025069
+[ref_falcon_9]: https://en.wikipedia.org/wiki/Falcon_9
 [ref_hallion_1984]: https://ntrs.nasa.gov/citations/19850009625
+[ref_missing_mds]: https://www.designation-systems.net/usmilav/missing-mds.html
 [ref_nasa_x24b]: https://www.nasa.gov/image-article/x-24b-lifting-body-flares-landing/
 [ref_saltzman_meyer_1999]: https://ntrs.nasa.gov/citations/19990047711
 [ref_sim_1997]: https://ntrs.nasa.gov/citations/19970027378
 [ref_x24]: https://en.wikipedia.org/wiki/Martin_Marietta_X-24
+[ref_x37]: https://en.wikipedia.org/wiki/Boeing_X-37
 
 ### Related Post
 

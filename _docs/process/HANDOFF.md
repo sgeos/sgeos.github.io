@@ -11,6 +11,35 @@ resuming agent. Read it first, validate it, then read the live channels.
 ## Validity
 
 - **Branch**: `master`
+- **Parent commit** (the repository state this handoff describes): `ba88649`
+- **Written**: 2026-10-20, by the X-Planes line, after the citation pass and the pathological word usage pass on all 72 articles.
+- **Tree at write**: this cycle's work, committed by the commit carrying this file. An untracked `.codex/`
+  directory is **not this line's** and must not be committed by it.
+- **PUSH STATE.** Set when the pilot gives the word. Nothing is published, and the pilot's instruction is to hold publication.
+- **STATE.** The baseline:
+  - 72 drafts, every one check5 RESULT PASS, every offline verifier rc=0 (`verify368.d1pre.py` is a stale copy and
+    not a check), every self-test catching its mutations, `_verify.py` 0 and 0, full build and `_lib/render.py` clean.
+  - The record of both passes is `tmp/cite/LEDGER.md` (gitignored, local): per-article corrections, follow-ups, and
+    the items before the pilot (lines marked PILOT). Per-sentence verdicts are in `tmp/cite/A<NNN>/verdicts.tsv`, and
+    old and new text for every correction is in each article's drafting notes.
+- **HAZARDS LEARNED THIS CYCLE.**
+  - **Stale generators.** Most `tmp/a<NNN>/assemble.py` and `body*.md` sources no longer match their drafts. Running
+    one would revert today's work. Only A353 to A357 are kept byte-identical by their verifiers, and they must be
+    edited through their sources.
+  - **A368 pins quotations from every other draft by line.** After any edit to another draft, re-anchor with
+    `tmp/cite/A368/relocate.py` and `tmp/cite/A368/wp_requote.py`, then confirm `verify368.py` and `neg368.py`.
+  - **The label pass would revert three corrected labels** (A326 Huckabone, A327 Schweikart and Hallion 1998, A366
+    Jenkins et al 2003). Its overrides take DOI keys only. Do not rerun `tmp/labelpass/labelpass.py` without
+    protecting them.
+  - **Verifiers that print FAIL and exit 0** were found and fixed in A311, A325, A328 and A329. Read verifier output,
+    not only the exit status, when adding one.
+- **RESUME.** Read `_docs/process/REVERSE_PROMPT.md` and the PILOT items in `tmp/cite/LEDGER.md`.
+  - **Never put the user's email address in a request.** Use the plain user agent `blog-survey-tool`.
+  - **Read the WHOLE line of `run_verifiers_rc.sh` output for `rc=[1-9]`.**
+
+## Validity (superseded, written 2026-10-20, second entry)
+
+- **Branch**: `master`
 - **Parent commit** (the repository state this handoff describes): `2bc9b21`
 - **Written**: 2026-10-20, by the X-Planes line, after the strict re-read and its dead-record follow-up (three NTRS records repointed in A320 and A368, Ramakers 1967 removed from A322 on the pilot's ruling).
 - **Tree at write**: this cycle's work, committed by the commit carrying this file. An untracked `.codex/`

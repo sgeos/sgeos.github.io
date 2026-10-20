@@ -12,18 +12,18 @@ series_index: 45
 <!-- A341 -->
 <script>console.log("A341");</script>
 
-**Two aircraft carry the designation X-44A, both of them Lockheed Martin, and only one of them was ever built.** The famous one is the Multi-Axis No-Tail Aircraft, a proposed derivative of the F-22 with every tail surface deleted and every axis of control handed to the exhaust, which was approved in 1999, funded briefly and cancelled without metal being cut \[[Lockheed Martin X-44 MANTA][ref_x44_manta_wikipedia]\]. The other was a tailless unmanned flying wing of about nine metres span, built by the Skunk Works in 1999, first flown in 2001, and kept out of public view until March 2018 \[[Skunk Works reveals the missing link in a secret unmanned history][ref_flightglobal_x44a]\]. **The aeroplane that exists is the one nobody had heard of, and it is now in a museum** \[[Lockheed Martin X-44A, National Museum of the United States Air Force][ref_x44a_museum]\].
+**Two aircraft carry the designation X-44A, both of them Lockheed Martin, and only one of them was ever built.** The famous one is the Multi-Axis No-Tail Aircraft, a proposed derivative of the F-22 with every tail surface deleted and every axis of control handed to the exhaust, which was approved in 1999, funded briefly and cancelled without metal being cut \[[Lockheed Martin X-44 MANTA][ref_x44_manta_wikipedia]\]. The other was a tailless unmanned flying wing of about nine metres span, built by the Skunk Works in 1999, first flown in 2001, and kept out of public view until March 2018 \[[Skunk Works reveals the missing link in a secret unmanned history][ref_flightglobal_x44a]\] \[[Lockheed Skunk Works X-44A flying-wing drone revealed][ref_twz_x44a]\]. **The aeroplane that exists is the one nobody had heard of, and a museum now holds it** \[[Lockheed Martin X-44A, National Museum of the United States Air Force][ref_x44a_museum]\].
 This is the forty-fifth article in the [X-Planes series][related_post_a297_framing], following the [X-1][related_post_a298_bell_x1], the [X-2][related_post_a299_bell_x2], the [X-3][related_post_a300_douglas_x3], the [X-4][related_post_a301_northrop_x4], the [X-5][related_post_a302_bell_x5], the [X-6][related_post_a303_convair_x6], the [X-7][related_post_a304_lockheed_x7], the [X-8][related_post_a305_aerojet_x8], the [X-9][related_post_a306_bell_x9], the [X-10][related_post_a307_north_american_x10], the [X-11][related_post_a308_convair_x11], the [X-12][related_post_a309_convair_x12], the [X-13][related_post_a310_ryan_x13], the [X-14][related_post_a311_bell_x14], the [X-15][related_post_a312_north_american_x15], the [X-16][related_post_a313_bell_x16], the [X-17][related_post_a314_lockheed_x17], the [X-18][related_post_a315_hiller_x18], the [X-19][related_post_a316_curtiss_wright_x19], the [X-20][related_post_a317_boeing_x20], the [X-21][related_post_a318_northrop_x21], the [X-22][related_post_a319_bell_x22], the [X-23][related_post_a320_martin_marietta_x23], the [X-24][related_post_a321_martin_marietta_x24], the [X-25][related_post_a322_bensen_x25], the [X-26][related_post_a323_schweizer_x26], the [X-27][related_post_a324_lockheed_x27], the [X-28][related_post_a325_osprey_x28], the [X-29][related_post_a326_grumman_x29], the [X-30][related_post_a327_rockwell_x30], the [X-31][related_post_a328_rockwell_mbb_x31], the [X-32][related_post_a329_boeing_x32], the [X-33][related_post_a330_lockheed_martin_x33], the [X-34][related_post_a331_orbital_sciences_x34], the [X-35][related_post_a332_lockheed_martin_x35], the [X-36][related_post_a333_mcdonnell_douglas_x36], the [X-37][related_post_a334_boeing_x37], the [X-38][related_post_a335_scaled_composites_x38], the [X-39][related_post_a336_x39_reserved_never_assigned], the [X-40][related_post_a337_boeing_x40], the [X-41][related_post_a338_x41_common_aero_vehicle], the [X-42][related_post_a339_orbital_sciences_x42], and the [X-43][related_post_a340_micro_craft_x43].
 
-**A vehicle existed and produced data, and almost none of that data has been released.** No specifications for the X-44A have ever been published beyond a span, an engine and two dates, and the MANTA never reached the point of having specifications to publish, so **the statement of what is unknown carries the weight a specification table would otherwise carry.**
+**A vehicle existed and produced data, and almost none of that data has been released.** No specification for the X-44A has been published beyond a span, an engine, two dates and three performance figures, and the MANTA never reached the point of having specifications to publish, so **the statement of what is unknown carries the weight a specification table would otherwise carry.**
 
-**The finding is that the question the MANTA existed to answer had already been answered in flight, five years earlier, by an aeroplane this series has already covered.** The X-31 flew a hundred percent simulated vertical tail removal at Mach 1.2 and 37,500 feet in March 1994, restabilised by yaw thrust vectoring, and its report concludes that tailless and reduced-tail fighters are feasible \[[Bosworth and Stoliker 1996][research_bosworthjohnt_stolikerpc_1996]\] \[[Huber and Schellenger 1994][research_huberpeter_schellengerharveyg_1994]\]. **The interesting question is therefore not whether the MANTA would have worked but what its demonstration point was worth**, and that turns out to be arithmetic and not opinion. The demonstration was flown at a point whose authority ratio stands within fourteen percent of the worst in the entire supersonic envelope, so it very nearly covered everything above the speed of sound. **What it did not cover is the landing**, and the reason is the throttle rather than the aerodynamics.
+**The finding is that the question the MANTA existed to answer had already been answered in flight, five years earlier, by an aeroplane this series has already covered.** The X-31 flew a hundred percent simulated vertical tail removal at Mach 1.2 and 37,500 feet in March 1994, restabilised by yaw thrust vectoring, and its report concludes that tailless and reduced-tail fighters are feasible \[[Bosworth and Stoliker 1996][research_bosworthjohnt_stolikerpc_1996]\] \[[Huber and Schellenger 1994][research_huberpeter_schellengerharveyg_1994]\]. **The interesting question is therefore not whether the MANTA would have worked but what its demonstration point was worth**, and arithmetic can settle that. The demonstration was flown at a point whose authority ratio stands within fourteen percent of the worst in the entire supersonic envelope, so it very nearly covered everything above the speed of sound. **What it did not cover is the landing**, and the reason is the throttle rather than the aerodynamics.
 
 ## The Research Question
 
 **The binding unknown was whether an aeroplane can be held straight by its engines when it has nothing else to be held straight by.**
 
-A vertical tail exists to supply two different things that are easy to confuse. It supplies **static directional stability**, meaning a restoring moment that grows with sideslip and points the nose back into the wind, and it supplies **control power**, meaning a moment the pilot can command at will. The stability condition is a sign condition on one derivative, and it is worth writing because the whole article is about what happens when it fails. **The requirement that it be satisfied at all is older than the jet age**, having been set out in the report that first turned pilot opinion into numbers \[[Gilruth 1943][research_gilruthrr_1943]\].
+A vertical tail exists to supply two different things that are easy to confuse. It supplies **static directional stability**, meaning a restoring moment that grows with sideslip and points the nose back into the wind, and it supplies **control power**, meaning a moment the pilot can command at will. The stability condition is a sign condition on one derivative. It is written out because the article concerns what happens when it fails. **The requirement that it be satisfied at all is older than the jet age**, having been set out in the report that first turned pilot opinion into numbers \[[Gilruth 1943][research_gilruthrr_1943]\].
 
 $$N = q S b \, C_{n\beta} \, \beta \qquad \text{stable} \iff C_{n\beta} > 0$$
 
@@ -37,9 +37,9 @@ $$C_{n \delta_{r}} = - V_{v} \, a_{v} \, \tau \, \eta_{v}$$
 
 **The methods for putting numbers into that expression are themselves primary literature** \[[Campbell and McKinney 1951][research_campbelljohnp_mckinneymariono_1951]\] \[[Toll and Queijo 1948][research_tollthomasa_queijomj_1948]\] \[[Jones and Alksne 1951][research_jonesarthurl_alksnealberta_1951]\], and the swept-wing and supersonic cases needed separate treatments because the subsonic charts do not carry over.
 
-**Every term in that expression is geometry or aerodynamics and none of it is thrust**, so a rudder's authority is a coefficient that barely moves with Mach number and whose moment therefore grows as the dynamic pressure. **That asymmetry is the whole argument of this article and it is visible in the form of the equation before any number is put into it.** For a fighter tail volume near 0.07, a lift-curve slope near 2.5 per radian, an effectiveness near 0.5 and a dynamic pressure ratio near 0.9, thirty degrees of rudder is worth a yawing moment coefficient of 0.0412.
+**Every term in that expression is geometry or aerodynamics and none of it is thrust**, so a rudder's authority is a coefficient that barely moves with Mach number and whose moment therefore grows as the dynamic pressure. **That asymmetry carries the argument, and the form of the equation shows it before any number is put into it.** For a fighter tail volume near 0.07, a lift-curve slope near 2.5 per radian, an effectiveness near 0.5 and a dynamic pressure ratio near 0.9, thirty degrees of rudder is worth a yawing moment coefficient of 0.0412.
 
-**A thrust-vectored aeroplane has no tail volume, so none of that apparatus applies to it**, which is the reason this article builds the comparison from first principles rather than from a design handbook.
+**A thrust-vectored aeroplane has no tail volume, so none of that apparatus applies to it**, so the comparison below is built from first principles, without a design handbook.
 
 **The reason to delete it is not aerodynamic elegance.** A vertical tail is the single largest contributor to the radar cross section of an otherwise carefully shaped aeroplane, because a flat surface standing perpendicular to the wing is a corner reflector for every illumination in the horizontal plane, and the shaping literature has said so for as long as it has existed \[[Knott, Shaeffer and Tuley, Radar cross section][book_knott]\]. A flat plate of area $A$ returns
 
@@ -49,27 +49,27 @@ at normal incidence, and a dihedral formed by two such plates meeting at a right
 
 $$\sigma_{\text{dihedral}} = \frac{8 \pi a^{2} b^{2}}{\lambda^{2}}$$
 
-over a wide range of aspect angles rather than at one. **The second relation is why a fin is expensive and the first is not the whole story.** A flat plate is a large return in one direction and a corner is a large return in many, and it is the persistence across angle rather than the peak that a designer cannot shape away. It also carries a trim drag penalty, a weight penalty, an actuation penalty and, on a supersonic aeroplane, a wave drag penalty. **The MANTA's own advertised benefits were reduced mechanical complexity, greater internal fuel volume and greater agility** \[[Lockheed Martin X-44 MANTA][ref_x44_manta_wikipedia]\] \[[X-44 MANTA Multi-Axis No-Tail Aircraft, GlobalSecurity][ref_globalsecurity_x44]\], which is a list of four different disciplines each wanting the same part removed.
+over a wide range of aspect angles rather than at one. **The second relation is why a fin is expensive and the first is not the whole story.** A flat plate is a large return in one direction and a corner is a large return in many, and the persistence across angle, unlike the peak, is what a designer cannot shape away. It also carries a trim drag penalty, a weight penalty, an actuation penalty and, on a supersonic aeroplane, a wave drag penalty. **The MANTA's own advertised benefits were reduced mechanical complexity, greater internal fuel volume and greater agility** \[[Lockheed Martin X-44 MANTA][ref_x44_manta_wikipedia]\] \[[X-44 MANTA Multi-Axis No-Tail Aircraft, GlobalSecurity][ref_globalsecurity_x44]\], four different disciplines each wanting the same part removed.
 
-**The question this article asks is narrower and answerable.** Given that the X-31 demonstrated tailless control at one flight condition, **what fraction of a fighter's envelope does one demonstrated point actually cover?** That question has a closed-form answer that needs no wing area, no yaw derivative and no moment arm, and it is the spine of everything below.
+**The question this article asks is narrower and answerable.** Given that the X-31 demonstrated tailless control at one flight condition, **what fraction of a fighter's envelope does one demonstrated point cover?** That question has a closed-form answer that needs no wing area, no yaw derivative and no moment arm, and the analysis below is built around it.
 
-**For the unmanned aircraft the question is different, because the vehicle is subsonic and has no vertical tail to argue about.** There the binding unknown was whether a small tailless flying wing could be designed, built and flown quickly enough to matter, and the article treats that as a manufacturing question rather than an aerodynamic one, because that is how its own programme described it \[[Skunk Works reveals the tailless X-44A][ref_uasvision_x44a]\].
+**For the unmanned aircraft the question is different, because the vehicle is subsonic and has no vertical tail to argue about.** There the binding unknown was whether a small tailless flying wing could be designed, built and flown quickly enough to matter, and the article treats that as a manufacturing question rather than an aerodynamic one, because its programme described it that way \[[Lockheed Skunk Works X-44A flying-wing drone revealed][ref_twz_x44a]\] \[[Lockheed Martin X-44A, National Museum of the United States Air Force][ref_x44a_museum]\].
 
 ## Programme Origin
 
 ### The MANTA, and the Aircraft It Was to Be Made From
 
-**The MANTA was a conversion proposal and not a clean-sheet aeroplane.** The design took the F-22's fuselage and engines, replaced the wing with a stretched delta, and deleted the vertical and horizontal tails entirely, leaving attitude control to three-axis thrust vectoring \[[Lockheed Martin X-44 MANTA][ref_x44_manta_wikipedia]\] \[[Lockheed Martin X-44 MANTA tailless technology demonstrator proposal][ref_militaryfactory_x44]\]. Preliminary work was under way by May 1999. **The National Aeronautics and Space Administration approved the programme to start in June 1999 and the designation recorded at that point is X-44A.** Funding ended in 2000.
+**The MANTA was a conversion proposal and not a clean-sheet aeroplane.** The design took the F-22's fuselage and engines, replaced the wing with a stretched delta, and deleted the vertical and horizontal tails entirely, leaving attitude control to three-axis thrust vectoring \[[Lockheed Martin X-44 MANTA][ref_x44_manta_wikipedia]\] \[[Lockheed Martin X-44 MANTA tailless technology demonstrator proposal][ref_militaryfactory_x44]\]. Preliminary work was under way by May 1999. **The National Aeronautics and Space Administration approved the programme to start in June 1999 and the designation recorded at that point is X-44A.** Funding ended in 2000 \[[Lockheed Martin X-44 MANTA][ref_x44_manta_wikipedia]\].
 
-**The sources date the end only approximately, and the article does not make them more precise.** The encyclopaedia entry says funding ended in 2000 \[[Lockheed Martin X-44 MANTA][ref_x44_manta_wikipedia]\]. Two other accounts place the end around that year, one saying that the project seems to have died off about 2000 \[[Lockheed Martin X-44 MANTA tailless technology demonstrator proposal][ref_militaryfactory_x44]\] and the other that it was supposedly cancelled around the turn of the millennium \[[Lockheed Skunk Works X-44A flying-wing drone revealed][ref_twz_x44a]\]. **None of the three cites a programme document**, and this article treats the year as approximate rather than settled.
+**The sources date the end only approximately, and the article does not make them more precise.** The encyclopaedia entry says funding ended in 2000 \[[Lockheed Martin X-44 MANTA][ref_x44_manta_wikipedia]\]. Two other accounts place the end around that year, one saying that the project seems to have died off about 2000 \[[Lockheed Martin X-44 MANTA tailless technology demonstrator proposal][ref_militaryfactory_x44]\] and the other that it was supposedly cancelled around the turn of the millennium \[[Lockheed Skunk Works X-44A flying-wing drone revealed][ref_twz_x44a]\]. The 2003 NASA inventory of X-vehicles still describes a feasibility study in progress and a first flight as unlikely before 2007 \[[Jenkins, Landis and Miller, American X-Vehicles, An Inventory X-1 to X-50, NASA SP-2003-4531, 2003][ref_american_x_vehicles]\]. **None of them cites a programme document**, so the year remains approximate.
 
-**Nothing was built.** There is no airframe, no wind tunnel entry that has been released under the name, no flight and no report. The MANTA is a set of drawings and a set of claims, and the claims are what can be tested.
+**Nothing was built** \[[Lockheed Skunk Works X-44A flying-wing drone revealed][ref_twz_x44a]\]. There is no airframe, no wind tunnel entry on record under the name, no flight and no report. The MANTA is a set of drawings and a set of claims, and the claims are what can be tested.
 
 ### The X-44A, and the Programme That Had Gone Quiet
 
-**The unmanned X-44A fills a hole in a public record that had been visibly empty.** Lockheed's high-altitude unmanned reconnaissance line ran from the RQ-3 DarkStar, which first flew on 29 March 1996 and was terminated by the Department of Defense in January 1999 \[[Lockheed Martin RQ-3 DarkStar][ref_darkstar_wikipedia]\], to the P-175 Polecat, which first flew in 2005 \[[Lockheed Martin P-175 Polecat][ref_polecat_wikipedia]\], to the RQ-170 Sentinel \[[Lockheed Martin RQ-170 Sentinel][ref_rq170_wikipedia]\]. **Between January 1999 and 2005 the public record showed nothing at all.** That the gap existed at all is a property of how the organisation works and not an accident, since the Skunk Works was built to run programmes that do not announce themselves \[[Rich and Janos, Skunk Works][book_rich_janos]\]. The X-44A occupies exactly that gap, having been built in 1999, the year DarkStar was cancelled, and flown in 2001 \[[Skunk Works reveals the missing link in a secret unmanned history][ref_flightglobal_x44a]\].
+**The unmanned X-44A fills a hole in a public record that had been visibly empty.** Lockheed's high-altitude unmanned reconnaissance line ran from the RQ-3 DarkStar, which first flew on 29 March 1996 and was terminated by the Department of Defense in January 1999 \[[Lockheed Martin RQ-3 DarkStar][ref_darkstar_wikipedia]\], to the P-175 Polecat, which first flew in 2005 \[[Lockheed Martin P-175 Polecat][ref_polecat_wikipedia]\], to the RQ-170 Sentinel \[[Lockheed Martin RQ-170 Sentinel][ref_rq170_wikipedia]\]. **Between January 1999 and 2005 the public record showed nothing at all** \[[Skunk Works reveals the tailless X-44A][ref_uasvision_x44a]\]. The gap reflects how the organisation works and was no accident, since the Skunk Works was built to run programmes that do not announce themselves \[[Rich and Janos, Skunk Works][book_rich_janos]\]. The X-44A occupies that gap, having been built in 1999, the year DarkStar was cancelled, and flown in 2001 \[[Skunk Works reveals the missing link in a secret unmanned history][ref_flightglobal_x44a]\] \[[Lockheed Skunk Works X-44A flying-wing drone revealed][ref_twz_x44a]\].
 
-**Its stated purposes were manufacturing and configuration, not performance.** The programme is described as proving rapid manufacturing techniques, demonstrating penetrating reconnaissance, and establishing the aerodynamic validity of a relatively small tailless swept flying wing \[[Lockheed Skunk Works X-44A flying-wing drone revealed][ref_twz_x44a]\]. **That ordering matters**, because a vehicle built to prove that it can be built quickly is dimensioned by its factory rather than by its mission, and the derivation later in this article finds a wing loading consistent with that reading and not with an endurance optimum.
+**Its stated purposes were manufacturing and configuration, not performance.** The programme is described as proving rapid manufacturing techniques, demonstrating penetrating reconnaissance, and establishing the aerodynamic validity of a relatively small tailless swept flying wing \[[Lockheed Skunk Works X-44A flying-wing drone revealed][ref_twz_x44a]\]. **That ordering matters**, because a vehicle built to prove that it can be built quickly is dimensioned by its factory rather than by its mission, and the later derivation finds a wing loading consistent with that reading and inconsistent with an endurance optimum.
 
 **It was revealed at the Los Angeles County Air Show in March 2018 and placed on public display in October 2020**, in the Research and Development gallery of the National Museum of the United States Air Force \[[Lockheed Martin X-44A, National Museum of the United States Air Force][ref_x44a_museum]\] \[[Exclusive photos, the X-44A breaks cover][ref_twz_x44a_photos]\]. **Seventeen years elapsed between the first flight and the first photograph.**
 
@@ -79,21 +79,21 @@ over a wide range of aspect angles rather than at one. **The second relation is 
 
 The [X-39][related_post_a336_x39_reserved_never_assigned] was reserved and never assigned to anything, the [X-41][related_post_a338_x41_common_aero_vehicle] carried a designation allocated years before the programme it is now attached to existed, and the [X-42][related_post_a339_orbital_sciences_x42] had two sources describing different vehicles four years apart.
 
-**Three things about the record are worth stating precisely.**
+**Three things about the record need stating precisely.**
 
-**First, the reference literature has split into two entries instead of reconciling them.** The general encyclopaedia carries a page for the MANTA and a separate page for the unmanned vehicle, and the second page states that it is apparently unrelated to the first \[[Lockheed Martin X-44 MANTA][ref_x44_manta_wikipedia]\] \[[Lockheed Martin X-44, the unmanned vehicle][ref_x44_uav_wikipedia]\]. A disambiguation page exists to route between them \[[X44, the disambiguation page][ref_x44_disambiguation]\]. **Splitting is the correct editorial response to a genuine collision and it is not a resolution of one.**
+**First, the reference literature has split into two entries instead of reconciling them.** The general encyclopaedia carries a page for the MANTA and a separate page for the unmanned vehicle, and the second page states that it is apparently unrelated to the first \[[Lockheed Martin X-44 MANTA][ref_x44_manta_wikipedia]\] \[[Lockheed Martin X-44, the unmanned vehicle][ref_x44_uav_wikipedia]\]. A disambiguation page exists to route between them \[[X44, the disambiguation page][ref_x44_disambiguation]\]. **Splitting is the correct editorial response to a genuine collision, but it does not resolve one.**
 
-**Second, the specialist designation registry does not carry the number at all.** Andreas Parsch's Appendix 4 to the Directory of U.S. Military Rockets and Missiles covers undesignated and unusual unmanned vehicles and holds pages for the X-41, the X-42, the X-45, the X-47 and the X-48 \[[Parsch, Directory of U.S. Military Rockets and Missiles, Appendix 4][ref_parsch_app4]\]. **A request for an X-44 page returns a not-found response listing those five as near misses.** The registry that documents this series' other disputed numbers most carefully has nothing to say about this one. That is an absence and not a denial, and this article reports it as an absence.
+**Second, the specialist designation registry does not carry the number at all.** Andreas Parsch's Appendix 4 to the Directory of U.S. Military Rockets and Missiles covers undesignated and unusual unmanned vehicles and holds pages for the X-41, the X-42, the X-45, the X-47 and the X-48 \[[Parsch, Directory of U.S. Military Rockets and Missiles, Appendix 4][ref_parsch_app4]\]. **A request for an X-44 page returns a not-found response listing those five and the X-64 as near misses.** The registry that documents this series' other disputed numbers most carefully is silent on this one. This article reports that silence as an absence, which falls short of a denial.
 
-**Third, the journalism that broke the story said openly that it did not know.** The account that first published photographs states that it is unclear how the flying wing came to carry the same designation as the manned proposal and that there appears to be no direct relation between the two programmes \[[Lockheed Skunk Works X-44A flying-wing drone revealed][ref_twz_x44a]\]. **A reporter who has the aeroplane and the photographs and still cannot explain the number is evidence about the number, not about the reporting.**
+**Third, the journalism that broke the story said openly that it did not know.** The account that first reported the aircraft states that it is unclear how the flying wing came to carry the same designation as the manned proposal and that there appears to be no direct relation between the two programmes \[[Lockheed Skunk Works X-44A flying-wing drone revealed][ref_twz_x44a]\]. **A reporter who has the aeroplane and the photographs and still cannot explain the number is evidence about the number, not about the reporting.**
 
-**The designation system has a documented allocation process and it is not silent about duplication.** Aircraft designations are governed by Department of the Air Force Instruction 16-401, which covers the naming of aerospace vehicles and the bureaucratic steps by which a designation is actually assigned \[[Parsch, Current Designations of U.S. Military Aircraft][ref_parsch_aircraft]\]. **A number issued twice is therefore either a failure of that process or evidence that one of the two allocations was never made through it.** The public record does not say which, and this article does not guess.
+**The designation system has a documented allocation process.** Aircraft designations are governed by Department of the Air Force Instruction 16-401, which covers the naming of aerospace vehicles and the bureaucratic steps by which a designation is assigned \[[Parsch, Current Designations of U.S. Military Aircraft][ref_parsch_aircraft]\]. **A number issued twice is therefore either a failure of that process or evidence that one of the two allocations was never made through it.** The public record does not say which, and this article does not guess.
 
-**One structural observation survives without resolving anything, and it is arithmetic rather than opinion.** The X-planes numbering is a finite resource issued consecutively and never replenished, which is the mechanism the [X-39 article][related_post_a336_x39_reserved_never_assigned] rests its permanence argument on. Writing $N$ for the highest number issued, $r$ for those reserved and never used and $c$ for those issued more than once, the vehicles the sequence can name is
+**One structural observation survives without resolving anything, and arithmetic establishes it.** The X-planes numbering is a finite resource issued consecutively and never replenished, the mechanism on which the [X-39 article][related_post_a336_x39_reserved_never_assigned] builds its permanence argument. Writing $N$ for the highest number issued, $r$ for those reserved and never used and $c$ for those issued more than once, the vehicles the sequence can name is
 
 $$V = N - r + c$$
 
-while the numbers consumed is $N$ alone. **A collision is the only term in that expression that adds a vehicle without consuming a number**, which is why it is the one anomaly class that costs the register nothing and the reader everything. The register's own accounting cannot see it, because $N$ is what the register stores and $c$ is not.
+while the numbers consumed is $N$ alone. **A collision is the only term in that expression that adds a vehicle without consuming a number**, so it is the one anomaly class that costs the register nothing and the reader everything. The register's accounting cannot see it, because $N$ is what the register stores and $c$ is not.
 
 ## Sizing From First Principles
 
@@ -115,29 +115,29 @@ $$N_{\text{av}} = F_{g} \ell \sin \delta$$
 
 $$\mathcal{R} \equiv \frac{N_{\text{av}}}{N_{\text{req}}} = \frac{F_{g} \ell \sin \delta}{q S b \left| C_{n\beta} \right| \beta}$$
 
-**The available moment can be put in exactly the same currency as the rudder, and doing so is the cleanest way to see what the exchange costs.** Dividing the vectored moment by $q S b$ gives a propulsive tail volume, a dimensionless number directly comparable with the $C_{n \delta_{r}}$ above.
+**The available moment can be put in the same currency as the rudder, and doing so is the cleanest way to see what the exchange costs.** Dividing the vectored moment by $q S b$ gives a propulsive tail volume, a dimensionless number directly comparable with the $C_{n \delta_{r}}$ above.
 
 $$V_{p} \equiv \frac{F_{g} \, \ell \, \sin \delta_{\max}}{q \, S \, b}$$
 
-**The article's whole finding is that this quantity behaves nothing like a rudder's.** A rudder's coefficient is fixed by geometry. This one carries the thrust in its numerator and the dynamic pressure in its denominator, so it falls as the aeroplane goes faster and collapses when the throttle closes.
+**The article's central finding is that this quantity does not behave like a rudder's.** A rudder's coefficient is fixed by geometry. This one carries the thrust in its numerator and the dynamic pressure in its denominator, so it falls as the aeroplane goes faster and collapses when the throttle closes.
 
-**Inverting the ratio for the quantity a control system actually commands gives the required deflection.**
+**Inverting the ratio for the quantity a control system commands gives the required deflection.**
 
 $$\sin \delta = \frac{q \, S \, b \, \left| C_{n\beta} \right| \beta}{F_{g} \, \ell}$$
 
-**Dynamic pressure is not an independent quantity and writing it in terms of static pressure is the step that makes everything else work.** With $\gamma$ the ratio of specific heats, $p$ the ambient static pressure and $M$ the Mach number,
+**Dynamic pressure is not independent of static pressure, and writing it in those terms is the step the rest of the derivation needs.** With $\gamma$ the ratio of specific heats, $p$ the ambient static pressure and $M$ the Mach number,
 
 $$q = \tfrac{1}{2} \rho V^{2} = \tfrac{1}{2} \rho M^{2} \gamma R T = \tfrac{1}{2} \gamma p M^{2} = 0.7 \, p M^{2}$$
 
-The moment form above is the standard linearised one \[[Yechout and Morris, Introduction to aircraft flight mechanics][book_yechout]\] \[[Schmidt, Modern flight dynamics][book_schmidt]\] \[[Roskam, Airplane flight dynamics and automatic flight controls][book_roskam]\], and the substitution for dynamic pressure follows from the definition of Mach number and the perfect gas law together \[[Anderson, Fundamentals of aerodynamics][book_anderson]\] \[[McCormick, Aerodynamics, aeronautics and flight mechanics][book_mccormick]\]. **That is an identity and not an approximation.** Evaluating both forms at every flight condition used in this article gives the same dynamic pressure to within one part in a million.
+The moment form above is the standard linearised one \[[Yechout and Morris, Introduction to aircraft flight mechanics][book_yechout]\] \[[Schmidt, Modern flight dynamics][book_schmidt]\] \[[Roskam, Airplane flight dynamics and automatic flight controls][book_roskam]\], and the substitution for dynamic pressure follows from the definition of Mach number and the perfect gas law together \[[Anderson, Fundamentals of aerodynamics][book_anderson]\] \[[McCormick, Aerodynamics, aeronautics and flight mechanics][book_mccormick]\]. **The substitution is an exact identity.** Evaluating both forms at every flight condition in the analysis gives the same dynamic pressure to within one part in a million.
 
 ### The Engine Puts the Static Pressure Back In
 
-**Gross thrust is not a constant and the way it varies is what produces the result.** A fixed-geometry engine running at its maximum corrected rotational speed passes a constant corrected mass flow, so the physical mass flow follows the total conditions at the compressor face. With $\delta_{2}$ and $\theta_{2}$ the total pressure and total temperature at that station referred to sea level static conditions,
+**Gross thrust varies, and the way it varies produces the result.** A fixed-geometry engine running at its maximum corrected rotational speed passes a constant corrected mass flow, so the physical mass flow follows the total conditions at the compressor face. With $\delta_{2}$ and $\theta_{2}$ the total pressure and total temperature at that station referred to sea level static conditions,
 
 $$\dot{m} = \dot{m}_{\text{ref}} \frac{\delta_{2}}{\sqrt{\theta_{2}}}$$
 
-**This is the corrected-parameter machinery of engine performance and it is not specific to this problem** \[[Mattingly, Elements of gas turbine propulsion][book_mattingly_propulsion]\] \[[Cumpsty, Jet propulsion][book_cumpsty]\]. It is used here for the one property that matters, which is how physical mass flow varies when ambient conditions change.
+**This corrected-parameter machinery is general to engine performance** \[[Mattingly, Elements of gas turbine propulsion][book_mattingly_propulsion]\] \[[Cumpsty, Jet propulsion][book_cumpsty]\]. It is used here for one property, the variation of physical mass flow with ambient conditions.
 
 The total conditions follow from the ambient conditions and the flight Mach number through the isentropic relations, reduced by the inlet total pressure recovery $\eta_{r}$,
 
@@ -149,11 +149,11 @@ which for $\gamma = 1.4$ gives, after cancelling one half power of the ram term,
 
 $$\dot{m} \propto \frac{p}{p_{\text{SL}}} \, \eta_{r} \, \frac{\left( 1 + 0.2 M^{2} \right)^{3}}{\sqrt{T / T_{\text{SL}}}}$$
 
-**Gross thrust is that mass flow times a jet velocity, and the jet velocity is not a constant either.** For a nozzle expanding from a total temperature $T_{t7}$ fixed by the afterburner limit,
+**Gross thrust is that mass flow times a jet velocity, and the jet velocity varies too.** For a nozzle expanding from a total temperature $T_{t7}$ fixed by the afterburner limit,
 
 $$V_{j} = \sqrt{2 \, c_{p} \, T_{t7} \left[ 1 - \left( \frac{p}{p_{t7}} \right)^{\frac{\gamma - 1}{\gamma}} \right]}$$
 
-**Everything on the right is fixed by the engine except the nozzle pressure ratio, which rises with flight Mach number through the same ram term the mass flow carries.** This article first treats $V_{j}$ as constant, which is the simpler and, as the section headed Where the Framing Breaks Down shows, the more pessimistic choice, and then relaxes it and reports how much the answer moves.
+**Everything on the right is fixed by the engine except the nozzle pressure ratio, which rises with flight Mach number through the same ram term the mass flow carries.** The derivation first treats $V_{j}$ as constant, which is the simpler and, as shown under Where the Framing Breaks Down, the more pessimistic choice, and then relaxes it and reports how much the answer moves.
 
 $$F_{g} = \dot{m} V_{j} + \left( p_{e} - p \right) A_{e} \approx \dot{m} V_{j}$$
 
@@ -168,9 +168,9 @@ $$\mathcal{R} \propto \frac{ \dfrac{p}{p_{\text{SL}}} \eta_{r} \dfrac{(1 + 0.2 M
 
 $$\mathcal{R}(M) \propto \frac{\eta_{r}(M) \left( 1 + 0.2 M^{2} \right)^{3}}{M^{2}} \qquad h > 11 \ \text{km}$$
 
-**The cancellation can also be confirmed numerically.** Evaluated through the full standard atmosphere at Mach 1.2, the ratio takes the same value at five altitudes from 11,000 metres to 65,000 feet to within one part in ten to the twelfth, and the closed form above reproduces the atmosphere-driven value exactly at three further altitudes. **The cancellation is structural and is not a numerical coincidence.**
+**The cancellation can also be confirmed numerically.** Evaluated through the full standard atmosphere at Mach 1.2, the ratio takes the same value at five altitudes from 11,000 metres to 65,000 feet to within one part in ten to the twelfth, and the closed form above reproduces the atmosphere-driven value exactly at three further altitudes. **The cancellation is a structural property of the ratio, independent of numerical coincidence.**
 
-**Below the tropopause the cancellation is only partial, because temperature varies there.** The residue is not an empirical curve. It is exactly the remaining temperature term, and the standard atmosphere supplies it in closed form,
+**Below the tropopause the cancellation is only partial, because temperature varies there.** The residue is the remaining temperature term, which needs no empirical curve because the standard atmosphere supplies it in closed form,
 
 $$T(h) = T_{\text{SL}} - L h \quad (h \le 11 \ \text{km}) \qquad T(h) = 216.65 \ \text{K} \quad (h > 11 \ \text{km})$$
 
@@ -178,9 +178,9 @@ so the ratio at altitude $h$ relative to the isothermal region is
 
 $$\frac{\mathcal{R}(h)}{\mathcal{R}(h > 11 \ \text{km})} = \sqrt{\frac{T_{11}}{T(h)}}$$
 
-The lapse rate, the tropopause altitude and the isothermal temperature above it are the standard values \[[U.S. Standard Atmosphere 1976][research_u_s_standard_1976]\], and every altitude in this article is a pressure altitude in that model rather than a geometric one.
+The lapse rate, the tropopause altitude and the isothermal temperature above it are the standard values \[[U.S. Standard Atmosphere 1976][research_u_s_standard_1976]\], and every altitude quoted is a pressure altitude in that model rather than a geometric one.
 
-**Every entry in the table below is that square root and nothing else**, which is why the table needs no vehicle and no engine. The residue is not negligible and it runs the unhelpful way.
+**Each entry in the table below is that square root**, so the table needs no vehicle and no engine. The residue is not negligible and it runs the unhelpful way.
 
 | altitude | ratio relative to 11 km, same Mach |
 |---|---|
@@ -192,7 +192,7 @@ The lapse rate, the tropopause altitude and the isothermal temperature above it 
 
 **A tailless aeroplane is thirteen percent worse off at sea level than at altitude at the same Mach number**, and the entire effect is the temperature term $\sqrt{T/T_{\text{SL}}}$, which enters because a colder engine face passes more mass.
 
-### The Ratio Has a Minimum and It Is Not Where Intuition Puts It
+### Where the Ratio Has Its Minimum
 
 **Intuition says the hardest case for a thrust-vectored aeroplane is the fastest one, because dynamic pressure grows as the square of Mach number. Intuition is wrong, because ram compression grows faster.**
 
@@ -235,13 +235,13 @@ which is transcendental and is solved by golden-section search. The ideal closed
 | 2.0 | 0.983 | 0.917 |
 | 2.25 | 1.085 | 0.984 |
 
-**Every column is normalised to Mach 1.2, which is the condition the X-31 actually flew.** With recovery included the minimum sits at Mach 1.674 and the demonstrated point stands 1.135 times above it.
+**Every column is normalised to Mach 1.2, the condition the X-31 flew.** With recovery included the minimum sits at Mach 1.674 and the demonstrated point stands 1.135 times above it.
 
-**That number is the answer to the question this article set.** The X-31 demonstrated tailless control at a point that is **thirteen and a half percent easier than the worst point in the supersonic envelope**, and no point between Mach 1.2 and Mach 2.25 is more than twelve percent harder than what was flown. **A single demonstrated supersonic point very nearly covered the whole supersonic envelope**, which is a far stronger result than the demonstration claimed for itself, and it follows from a cancellation rather than from a simulation.
+**That number is the answer to the question this article set.** The X-31 demonstrated tailless control at a point that is **thirteen and a half percent easier than the worst point in the supersonic envelope**, and no point between Mach 1.2 and Mach 2.25 is more than twelve percent harder than what was flown. **A single demonstrated supersonic point very nearly covered the supersonic envelope.** That result is far stronger than the demonstration claimed, and it follows from a cancellation rather than from a simulation.
 
 **It also inverts the expectation.** The demonstration was not flown at a soft condition chosen to flatter the concept. **On this measure it was flown next to the hardest one available**, and whether that was by design or by the accident of what the X-31's envelope allowed, the public record does not say.
 
-### The Crosswind Identity, in Which the Temperature Cancels Too
+### The Crosswind Identity
 
 **The comparison above holds the sideslip angle fixed, which is right for a manoeuvre and wrong for a wind.** A crosswind, or a lateral gust, has a fixed speed rather than a fixed angle, and the angle it produces grows as the aeroplane slows. With $V_{c}$ the crosswind speed,
 
@@ -255,7 +255,7 @@ $$N_{\text{req}} \propto q \beta = 0.7 \, p M^{2} \cdot \frac{V_{c}}{M \sqrt{\ga
 
 $$N_{\text{av}} \propto \frac{p \, \eta_{r} \left( 1 + 0.2 M^{2} \right)^{3}}{\sqrt{T}}$$
 
-**Both cancel. The required vector angle for a crosswind of given speed depends on Mach number and on nothing else whatever.**
+**Both cancel. The required vector angle for a crosswind of given speed depends on Mach number and on no other variable.**
 
 $$\frac{N_{\text{req}}}{N_{\text{av}}} \propto \frac{M}{\eta_{r}(M) \left( 1 + 0.2 M^{2} \right)^{3}}$$
 
@@ -269,11 +269,11 @@ $$\frac{d}{dM} \left[ M \left( 1 + 0.2 M^{2} \right)^{-3} \right] = \frac{1 - M^
 
 $$h(1) = \frac{1}{(1 + 0.2)^{3}} = \frac{1}{1.728} = 0.578704$$
 
-**The one approximation in the whole derivation is the small-angle step**, and its error is bounded and third order,
+**The only approximation in the derivation is the small-angle step**, and its error is bounded and third order,
 
 $$\frac{\arctan x - x}{\arctan x} \approx - \frac{x^{2}}{3}$$
 
-**Its size and its variation are two different quantities and only the second one matters here.** The error itself reaches 1.25 percent at the eleven degrees of sideslip a fifteen metre per second crosswind produces on approach, and falls to 0.06 percent at the 2.43 degrees the same crosswind produces at the demonstration point. **But the cancellation shown above is a comparison between altitudes at one Mach number**, and the approximation is very nearly the same at all of them, so what survives into that comparison is only how much the error moves. At Mach 0.8 it moves by 3.3 parts in ten thousand between sea level and the tropopause. **That is the entire residue in the comparison across altitudes reported above, and it is arithmetic rather than physics.**
+**Its size and its variation are two different quantities and only the second one matters here.** The error itself reaches 1.25 percent at the eleven degrees of sideslip a fifteen metre per second crosswind produces on approach, and falls to 0.06 percent at the 2.43 degrees the same crosswind produces at the demonstration point. **But the cancellation shown above is a comparison between altitudes at one Mach number**, and the approximation is very nearly the same at all of them, so what survives into that comparison is only how much the error moves. At Mach 0.8 it moves by 3.3 parts in ten thousand between sea level and the tropopause. **That variation is all of the residue in the comparison across altitudes reported above, an artefact of the approximation with no physical content.**
 
 | Mach | crosswind demand, Mach one taken as unity |
 |---|---|
@@ -287,9 +287,9 @@ $$\frac{\arctan x - x}{\arctan x} \approx - \frac{x^{2}}{3}$$
 | 1.8 | 0.695 |
 | 2.25 | 0.477 |
 
-**Read at equal throttle, that table says the approach is the easiest case in the envelope and not the hardest.** At an approach Mach number of 0.227 the demand is 38.5 percent of the transonic peak. **This is the opposite of what the design of every conventional aeroplane suggests**, because a conventional fin's authority falls with dynamic pressure while a nozzle's does not.
+**Read at equal throttle, that table shows the approach to be the easiest case in the envelope.** At an approach Mach number of 0.227 the demand is 38.5 percent of the transonic peak. **The design of every conventional aeroplane suggests the opposite**, because a conventional fin's authority falls with dynamic pressure while a nozzle's does not.
 
-### The Throttle Is What Binds, and It Binds Hard
+### The Throttle on Approach
 
 **The table above holds the throttle fixed, and on an approach the throttle is not fixed. It is nearly closed.**
 
@@ -323,11 +323,11 @@ At 38.4 percent of maximum thrust, the implied ratio is
 
 **Those ratios are below anything flown in the low lift to drag landing research.** The 1959 study reached an effective peak ratio of 2.7 with speed brakes, gear and flaps extended and the engine at idle, and its pilots judged that the tolerable limit had been reached \[[Matranga and Armstrong, Approach and landing investigation at lift-drag ratios of 2 to 4 utilizing a straight-wing fighter airplane][ref_matranga_armstrong_low_ld]\]. **To absorb the thrust that pure propulsive yaw control demands on approach, the aeroplane would have to be about two to nearly four times as draggy as a fighter in the landing configuration is**, the range running from the measured ratio of four to the assumed ratio of six, and there is no drag device on a stealth aeroplane that can do that without undoing the reason the tails were removed in the first place.
 
-**The conclusion follows without any unpublished number, because every airframe quantity cancelled in the ratio.** **Pure thrust vectoring cannot meet a crosswind landing requirement, and a tailless fighter therefore needs an aerodynamic yaw effector that works at low speed even though it does not need one supersonically.** That is exactly the architecture the [X-36][related_post_a333_mcdonnell_douglas_x36] flew, with split ailerons and a thrust vectoring nozzle for directional control \[[McDonnell Douglas X-36][ref_x36_wikipedia]\], and the [X-31][related_post_a328_rockwell_mbb_x31] investigated, with differential canard deflection studied as a yaw generator of the same order as its thrust vectoring vanes \[[Whiting 1996][research_whitingmatthewrobert_1996]\].
+**The conclusion follows without any unpublished number, because every airframe quantity cancelled in the ratio.** **Pure thrust vectoring cannot meet a crosswind landing requirement, and a tailless fighter therefore needs an aerodynamic yaw effector that works at low speed even though it does not need one supersonically.** The [X-36][related_post_a333_mcdonnell_douglas_x36] flew that architecture, with split ailerons and a thrust vectoring nozzle for directional control \[[McDonnell Douglas X-36][ref_x36_wikipedia]\], and the [X-31][related_post_a328_rockwell_mbb_x31] investigated it, with differential canard deflection studied as a yaw generator of the same order as its thrust vectoring vanes \[[Whiting 1996][research_whitingmatthewrobert_1996]\].
 
-**The MANTA proposed to delete every aerodynamic surface. On this arithmetic, that specific claim does not survive contact with a crosswind.**
+**The MANTA proposed to delete every movable aerodynamic control surface** \[[Jenkins, Landis and Miller, American X-Vehicles, An Inventory X-1 to X-50, NASA SP-2003-4531, 2003][ref_american_x_vehicles]\] \[[X-44 MANTA Multi-Axis No-Tail Aircraft, GlobalSecurity][ref_globalsecurity_x44]\], although one account keeps control surfaces on the wing \[[Lockheed Martin X-44 MANTA tailless technology demonstrator proposal][ref_militaryfactory_x44]\]. **On this arithmetic, that claim does not survive contact with a crosswind.**
 
-### The Engine-Out Case, in Which the Thrust Cancels
+### The Engine-Out Case
 
 **The classic reason a twin-engine aeroplane has a large fin is the failure of one engine, and for a thrust-vectored aeroplane that case is almost free.** The reason is an identity.
 
@@ -335,7 +335,7 @@ Let the live engine sit a lateral distance $y$ from the centreline with its nozz
 
 $$F_{g} \ell \sin \delta = F_{g} y \cos \delta \qquad \Longrightarrow \qquad \tan \delta = \frac{y}{\ell}$$
 
-**The thrust cancels identically.** The vector angle needed to trim an engine failure depends on nothing but where the engines are. It does not depend on how much thrust the live engine is making, on altitude, on speed, on the atmosphere or on any aerodynamic property of the aeroplane whatever.
+**The thrust cancels identically.** The vector angle needed to trim an engine failure depends on nothing but where the engines are. It does not depend on how much thrust the live engine is making, on altitude, on speed, on the atmosphere or on any aerodynamic property of the aeroplane.
 
 **Two consequences follow from the same balance and neither needs a number.** The axial thrust the aeroplane keeps while trimming is
 
@@ -357,25 +357,25 @@ $$\tan \delta = \frac{y \left( F_{g} + D_{\text{wm}} \right)}{\ell \, F_{g}}$$
 | 1.20 m | 6.5 m | 10.46 deg |
 | 1.20 m | 8.5 m | 8.04 deg |
 
-**The published nozzle deflection of the F-22 is twenty degrees, and the whole of that table is inside eleven.** Adding the windmilling drag of the dead engine at ten percent of the live engine's gross thrust takes the middle case from 7.59 degrees to 8.34, which is still comfortably inside.
+**The published nozzle deflection of the F-22 is twenty degrees, and every angle in that table is below eleven** \[[Pratt and Whitney F119][ref_f119_wikipedia]\]. Adding the windmilling drag of the dead engine at ten percent of the live engine's gross thrust takes the middle case from 7.59 degrees to 8.34, still well within it.
 
-**The reason a fin is large and a nozzle need not be is worth stating plainly, and it is a relation and not an intuition.** Setting the fin's yawing moment equal to the thrust asymmetry and solving for the geometry gives
+**A relation explains why a fin is large and a nozzle need not be, without appeal to intuition.** Setting the fin's yawing moment equal to the thrust asymmetry and solving for the geometry gives
 
 $$S_{v} \, l_{v} = \frac{T \, y}{q \, a_{v} \, \tau \, \eta_{v} \, \delta_{r,\max}}$$
 
-**The dynamic pressure sits in the denominator, so the requirement blows up as the aeroplane slows.** Halving the speed at which the failure must be survived quadruples the fin the aeroplane must carry for the rest of its life, and every one of the terms above except $q$ is a constant of the design. A fin must therefore be sized for the engine-out case at the lowest speed at which it can occur. **A nozzle's authority and the asymmetry it must cancel are the same quantity**, so the case is speed-independent by construction. **The engine-out requirement, which is one of the two classic fin-sizing cases, simply does not size a thrust-vectored aeroplane.**
+**The dynamic pressure sits in the denominator, so the requirement blows up as the aeroplane slows.** Halving the speed at which the failure must be survived quadruples the fin the aeroplane must carry for the rest of its life, and every one of the terms above except $q$ is a constant of the design. A fin must therefore be sized for the engine-out case at the lowest speed at which it can occur. **A nozzle's authority and the asymmetry it must cancel are the same quantity**, so the case is speed-independent by construction. **The engine-out requirement, one of the two classic fin-sizing cases, does not size a thrust-vectored aeroplane.**
 
-**The other classic case is the crosswind landing, and that is the one the previous section showed cannot be met.**
+**The other classic case is the crosswind landing, which the previous section showed cannot be met.**
 
 ### The Divergence and the Loop That Must Hold It
 
-**Control authority is necessary and not sufficient. An unstable aeroplane must also be stabilised faster than it diverges.**
+**Control authority is necessary but not sufficient. An unstable aeroplane must also be stabilised faster than it diverges.**
 
-With the tail removed the directional mode is a divergence and not an oscillation, and its growth rate follows from the yawing moment of inertia $I_{z}$.
+With the tail removed the directional mode diverges without oscillating, and its growth rate follows from the yawing moment of inertia $I_{z}$.
 
 $$\lambda = \sqrt{\frac{q S b \left| C_{n\beta} \right|}{I_{z}}} \qquad t_{2} = \frac{\ln 2}{\lambda}$$
 
-**Neither the yaw derivative of a tailless F-22 nor its yawing inertia has been published**, so the table brackets both across their plausible ranges rather than asserting a value.
+**Neither the yaw derivative of a tailless F-22 nor its yawing inertia has been published**, so the table brackets both across their plausible ranges and asserts no value.
 
 | $\left|C_{n\beta}\right|$ per radian | $I_{z}$ kg m² | $t_{2}$ approach | $t_{2}$ Mach 1.2 at 37,500 ft |
 |---|---|---|---|
@@ -385,9 +385,9 @@ $$\lambda = \sqrt{\frac{q S b \left| C_{n\beta} \right|}{I_{z}}} \qquad t_{2} = 
 | 0.10 | 1.2 × 10⁵ | 0.386 s | 0.160 s |
 | 0.10 | 2.0 × 10⁵ | 0.499 s | 0.206 s |
 
-**Every cell in that table is inside one second, and the whole supersonic column is inside four tenths.**
+**Every cell in that table is under one second, and no supersonic cell reaches four tenths.**
 
-**A time to double is not by itself a requirement on the hardware, and turning it into one is worth doing because a budget forces a conclusion an amplification cannot.** Stabilising a real pole at $\lambda$ demands a loop crossover some multiple of it,
+**A time to double does not by itself place a requirement on the hardware. Turning it into a budget does, and a budget forces a conclusion an amplification cannot.** Stabilising a real pole at $\lambda$ demands a loop crossover some multiple of it,
 
 $$\omega_{c} = k \lambda \qquad k \approx 2 \ \text{to} \ 3$$
 
@@ -395,28 +395,28 @@ and a pure transport delay $\tau$ anywhere in that loop spends phase in direct p
 
 $$\Delta \phi = \omega_{c} \tau \qquad \Longrightarrow \qquad \tau_{\max} = \frac{\Delta \phi}{k \lambda}$$
 
-**That delay is not a theoretical quantity and it has been measured in flight.** Pure time delays were deliberately inserted into the control path of a variable stability aeroplane and flown, in pitch and roll and on the approach, and the pilot ratings degrade steeply with a few tens of milliseconds \[[Berry 1985][research_berrydt_1985]\] \[[Berry et al 1980][research_berrydt_powersbg_1980]\]. **The budget below is therefore bounded by flight data and not only by a phase argument.**
+**That delay has been measured in flight.** Pure time delays were deliberately inserted into the control system of the F-8 digital fly-by-wire aeroplane and flown in low lift to drag landings \[[Berry et al 1980][research_berrydt_powersbg_1980]\], and a later evaluation in pitch and roll found their effect strongly dependent on the task and severe in roll for landings in turbulence \[[Berry 1985][research_berrydt_1985]\]. **The budget below therefore draws on flight data as well as on a phase argument.**
 
-Budgeting thirty degrees of phase margin to delay alone, and taking the middle of the inertia bracket, the whole latency of sensing, computing and actuating must fit inside
+Budgeting thirty degrees of phase margin to delay alone, and taking the middle of the inertia bracket, the total latency of sensing, computing and actuating must fit inside
 
 | condition | $\lambda$ | $\tau_{\max}$ at $k = 2$ | $\tau_{\max}$ at $k = 3$ |
 |---|---|---|---|
 | approach | 1.203 /s | 218 ms | 145 ms |
 | Mach 1.2 at 37,500 ft | 2.909 /s | 90 ms | 60 ms |
 
-**Sixty to ninety milliseconds is a demanding but ordinary digital flight control budget.** The divergence itself is not beyond a person. Practised subjects holding a first-order divergence in a single-axis tracking task lost control at mean instabilities of 6.0 to 6.6 per second \[[Jex, McDonnell and Phatak, A critical tracking task for man-machine research related to the operator's effective delay time][ref_jex_critical_task]\], and the fastest divergence in the bracket above is 4.3 per second. **What that comparison does not license is a pilot as the stabilisation loop of a fighter**, because those subjects attended to nothing else and lost control with small stability margins at their limit, while the budget above reserves thirty degrees of phase. **The stabilisation loop is therefore better given to machinery than to a person, a conclusion about margin and attention rather than about speed alone.** It also says which component binds, because sixty milliseconds is spent by an actuator far sooner than by a processor.
+**Sixty to ninety milliseconds is a demanding but ordinary digital flight control budget.** The divergence is not beyond a person. Practised subjects holding a first-order divergence in a single-axis tracking task lost control at mean instabilities of 6.0 to 6.6 per second \[[Jex, McDonnell and Phatak, A critical tracking task for man-machine research related to the operator's effective delay time][ref_jex_critical_task]\], and the fastest divergence in the bracket above is 4.3 per second. **What that comparison does not license is a pilot as the stabilisation loop of a fighter**, because those subjects attended to nothing else and lost control with small stability margins at their limit, while the budget above reserves thirty degrees of phase. **The stabilisation loop is therefore better given to machinery than to a person, a conclusion drawn from margin and attention as well as from speed.** It also identifies which component binds, because sixty milliseconds is spent by an actuator far sooner than by a processor.
 
-**This is why the X-31 report's lessons emphasise sensors, as the subsection headed Sensing, Which the Flight Experiment Named as the Hard Part sets out.** **When the loop must close in a fraction of a second, the limiting component is the thing that measures sideslip, not the thing that produces the moment.**
+**The X-31 report's lessons emphasise sensors for this reason, as Sensing Sideslip below sets out.** **When the loop must close in a fraction of a second, the limiting component is the thing that measures sideslip, not the thing that produces the moment.**
 
-### The X-44A, Derived From Its Mission Because Nothing Else Is Published
+### The X-44A Derived From Its Mission
 
-**One dimension, one engine and two dates are the entire released specification.** The span is about 30 feet, or 9.14 metres. The engine is a Williams F112 of 732 pounds force, which is 3,256 newtons \[[Williams F112][ref_f112_wikipedia]\] \[[Williams International F112-WR-100 Turbofan, National Museum of the United States Air Force][ref_f112_museum]\]. It was built in 1999 and flown in 2001. **The engine is a cruise missile powerplant**, developed for the AGM-129 Advanced Cruise Missile \[[AGM-129 Advanced Cruise Missile][ref_agm129_wikipedia]\], which is a choice that buys small size and low cost and brings with it a design point nothing like an aeroplane's.
+**One dimension, one engine, two dates and three performance figures are the entire released specification.** The span is about 30 feet, or 9.14 metres \[[Lockheed Skunk Works X-44A flying-wing drone revealed][ref_twz_x44a]\]. The engine is a Williams F112 of 732 pounds force, which is 3,256 newtons \[[Williams F112][ref_f112_wikipedia]\] \[[Williams International F112-WR-100 Turbofan, National Museum of the United States Air Force][ref_f112_museum]\]. It was built in 1999 and flown in 2001 \[[Lockheed Skunk Works X-44A flying-wing drone revealed][ref_twz_x44a]\], and the museum gives a maximum speed of 176 miles per hour, an endurance of 1.5 hours and a range of 230 miles \[[Lockheed Martin X-44A, National Museum of the United States Air Force][ref_x44a_museum]\]. **The engine is a cruise missile powerplant**, developed for the AGM-129 Advanced Cruise Missile \[[AGM-129 Advanced Cruise Missile][ref_agm129_wikipedia]\], a choice that brings small size and low cost along with a design point unlike an aeroplane's.
 
 **The most useful comparison available is not to another unmanned aircraft. It is to the X-36, which used the same engine.** The [X-36][related_post_a333_mcdonnell_douglas_x36] carried an F112 rated at 700 pounds force in an airframe of 3.18 metres span and 576 kilograms maximum weight, giving a thrust to weight ratio of 0.55 \[[McDonnell Douglas X-36][ref_x36_wikipedia]\]. **The X-44A spans 2.88 times as much on the same thrust**, which taking wing area as proportional to the square of span is a factor of
 
 $$\left( \frac{9.144}{3.18} \right)^{2} = 8.27$$
 
-**more wing on the same engine.** Two aircraft with one powerplant and an eight-fold difference in wing area are not variants of a concept. They are answers to different questions, and the wing is where the difference is recorded.
+**more wing on the same engine.** Two aircraft with one powerplant and an eight-fold difference in wing area are not variants of a concept. They are answers to different questions, and the wing records the difference.
 
 **Calibrating the thrust lapse on the DarkStar puts a number on the rest.** The DarkStar published a service ceiling of 45,000 feet, a gross weight of 3,856 kilograms and a Williams FJ44-1A of 8.45 kilonewtons \[[Lockheed Martin RQ-3 DarkStar][ref_darkstar_wikipedia]\]. At the ceiling, thrust available equals drag at the best lift to drag ratio, so
 
@@ -430,7 +430,7 @@ maximised where the induced drag equals the zero-lift drag exactly, which fixes 
 
 $$C_{L}^{\ast} = \sqrt{C_{D_{0}} \, \pi e A\!R} \qquad \left( \frac{L}{D} \right)_{\max} = \frac{C_{L}^{\ast}}{2 \, C_{D_{0}}}$$
 
-That polar and the best ratio it yields are the forms every preliminary design text gives \[[Raymer, Aircraft design, a conceptual approach][book_raymer]\] \[[Filippone, Advanced aircraft flight performance][book_filippone]\], and the thrust lapse exponent is the quantity that a design text would supply from a table and that this article instead measures \[[Mattingly, Aircraft engine design][book_mattingly_engine_design]\].
+That polar and the best ratio it yields are the forms every preliminary design text gives \[[Raymer, Aircraft design, a conceptual approach][book_raymer]\] \[[Filippone, Advanced aircraft flight performance][book_filippone]\], and the thrust lapse exponent is the quantity that a design text would supply from a table and that the calibration below measures instead \[[Mattingly, Aircraft engine design][book_mattingly_engine_design]\].
 
 The efficiency factor $e$ in the polar's denominator carries the name of the report that introduced it as a way of collapsing a real aeroplane's polar onto the elliptic one \[[Oswald 1932][research_wbaileyoswald_1932]\], and the value of 0.85 used here is a conventional one for a clean high aspect ratio wing rather than a measured property of this aircraft.
 
@@ -444,7 +444,7 @@ $$n = \frac{\ln \left( 1747 / 8450 \right)}{\ln 0.1936} = 0.960$$
 
 **The calibration expresses the lapse in density ratio rather than in pressure ratio.** The two differ by the temperature ratio, and at that altitude the density ratio is a third larger than the pressure ratio, so the choice of variable is not academic.
 
-**Applying the same lapse to the F112 gives a locus and not a point, because weight and ceiling are not separately knowable.**
+**Applying the same lapse to the F112 gives a locus of possible points, because weight and ceiling are not separately knowable.**
 
 | assumed ceiling | density ratio | thrust available | implied weight | implied wing loading | cruise Mach |
 |---|---|---|---|---|---|
@@ -454,63 +454,63 @@ $$n = \frac{\ln \left( 1747 / 8450 \right)}{\ln 0.1936} = 0.960$$
 | 50,000 ft | 0.1522 | 534 N | 1,180 kg | 149 kg/m² | 0.526 |
 | 55,000 ft | 0.1197 | 424 N | 937 kg | 118 kg/m² | 0.528 |
 
-**The DarkStar's own wing loading on the same assumptions is 91.8 kilograms per square metre.** At a matched ceiling of 45,000 feet the X-44A's is 187, **a factor of 2.04 higher**, and it only falls to the DarkStar's value if the aircraft is assumed to reach nearly 60,000 feet on a cruise-missile engine.
+**The DarkStar's wing loading on the same assumptions is 91.8 kilograms per square metre.** At a matched ceiling of 45,000 feet the X-44A's is 187, **a factor of 2.04 higher**, and it falls to the DarkStar's value only if the aircraft is assumed to reach nearly 60,000 feet on a cruise-missile engine.
 
-**That is a finding about what the aeroplane was for.** A high wing loading is what a designer accepts when altitude and endurance are not the objective. It is consistent with a vehicle built to demonstrate that a small tailless flying wing can be manufactured quickly and flown at all, which is what the programme said it was for \[[Lockheed Skunk Works X-44A flying-wing drone revealed][ref_twz_x44a]\], and it is inconsistent with a vehicle sized to loiter. **The derivation and the stated purpose agree, which is worth more than either alone**, because the derivation used none of the words in the statement.
+**The wing loading bears on what the aeroplane was for.** A high wing loading is what a designer accepts when altitude and endurance are not the objective. It is consistent with a vehicle built to demonstrate that a small tailless flying wing can be manufactured quickly and flown at all, the purpose the programme stated \[[Lockheed Skunk Works X-44A flying-wing drone revealed][ref_twz_x44a]\], and it is inconsistent with a vehicle sized to loiter. The museum's endurance of 1.5 hours points the same way \[[Lockheed Martin X-44A, National Museum of the United States Air Force][ref_x44a_museum]\]. **The derivation and the stated purpose agree, and their agreement is stronger evidence than either**, because the derivation used none of the words in the statement.
 
-**One caveat is load-bearing.** The DarkStar's wing area is not published in the sources used and 42 square metres is an assumption. The lapse exponent is sensitive to it, and every number in the X-44A table inherits that sensitivity. **What does not inherit it is the ratio between the two wing loadings**, because the same assumed aspect ratio and the same assumed drag polar enter both, so the factor of two is far more robust than either loading is.
+**One caveat is load-bearing.** The DarkStar's wing area is not published in the sources used and 42 square metres is an assumption. The lapse exponent is sensitive to it, and every number in the X-44A table inherits that sensitivity. **What does not inherit it is the ratio between the two wing loadings**, because the same assumed aspect ratio and the same assumed drag polar enter both, so the factor of two is far more robust than either loading is. **A second caveat bears on the absolute numbers.** The museum's maximum speed of 176 miles per hour is about half the true airspeed the table implies at any of its ceilings, so either the aircraft never flew the ceiling the calibration assumes or the figure is an indicated airspeed, which at 45,000 feet would correspond to a true airspeed above the table's, and the sources used here do not distinguish the two \[[Lockheed Martin X-44A, National Museum of the United States Air Force][ref_x44a_museum]\].
 
 ## Dependent Systems
 
 ### The Nozzle the F-22 Does Not Have
 
-**The single most consequential fact about the MANTA is one that its own description obscures.** The proposal is routinely described as converting an F-22 by deleting its tails and using its thrust vectoring nozzles for control \[[X-44 MANTA Multi-Axis No-Tail Aircraft, GlobalSecurity][ref_globalsecurity_x44]\]. **The F-22 has no yaw vectoring.** Its Pratt and Whitney F119 engines carry two-dimensional convergent-divergent nozzles that deflect through plus or minus twenty degrees **in pitch only** \[[Lockheed Martin F-22 Raptor][ref_f22_wikipedia]\] \[[Pratt and Whitney F119][ref_f119_wikipedia]\].
+**The most consequential fact about the MANTA is one that its published description obscures.** The proposal is routinely described as converting an F-22 by deleting its tails and using its thrust vectoring nozzles for control \[[X-44 MANTA Multi-Axis No-Tail Aircraft, GlobalSecurity][ref_globalsecurity_x44]\]. **The F-22 has no yaw vectoring.** Its Pratt and Whitney F119 engines carry two-dimensional convergent-divergent nozzles that deflect through plus or minus twenty degrees **in pitch only** \[[Lockheed Martin F-22 Raptor][ref_f22_wikipedia]\] \[[Pratt and Whitney F119][ref_f119_wikipedia]\].
 
 **A two-dimensional nozzle deflects in the plane of its flaps and in no other.** The flaps rotate the jet through $\delta_{p}$ in one plane, and the components that reach the airframe are
 
 $$F_{x} = F_{g} \cos \delta_{p} \qquad F_{z} = F_{g} \sin \delta_{p} \qquad F_{y} = 0$$
 
-**The last of those is the entire problem.** Producing yaw from the same nozzle requires the sidewalls to become deflecting surfaces, giving a second independent angle and a side force that did not previously exist,
+**The zero side force is the problem.** Producing yaw from the same nozzle requires the sidewalls to become deflecting surfaces, giving a second independent angle and a side force that did not previously exist,
 
 $$F_{y} = F_{g} \cos \delta_{p} \sin \delta_{y} \qquad F_{x} = F_{g} \cos \delta_{p} \cos \delta_{y}$$
 
-**The product form is why the cross-coupling question had to be measured instead of assumed**, and it is a different piece of hardware in the same envelope rather than a different schedule for existing hardware. **The MANTA is therefore not a subtraction from the F-22. It is a subtraction and an addition, and the addition is the harder half.**
+**The product form is why the cross-coupling question had to be measured instead of assumed**, and yaw vectoring calls for new hardware in the same envelope, which no new schedule for the existing hardware could supply. **The MANTA is therefore not a subtraction from the F-22. It is a subtraction and an addition, and the addition is the harder half.**
 
-**That addition has been measured, and the measurement is encouraging.** Capone and Bare tested an advanced twin-engine supersonic-cruise fighter model with a two-dimensional convergent-divergent nozzle designed to give yaw vector angles of zero, ten and twenty degrees through yaw flaps in the nozzle sidewalls, with roll obtained from differential pitch vectoring, across Mach 0.20 to 2.47 \[[Capone and Bare 1987][research_caponefrancisj_bareeann_1987]\]. **Their central result is that the force and moment increments produced by vectoring remain essentially constant over the whole angle of attack range at every Mach number tested**, and that pitch and yaw vectoring show very little cross-coupling. **A control effector whose authority does not vary with angle of attack is precisely what a tailless aeroplane needs**, because an aerodynamic fin's authority collapses exactly where a fighter most wants it.
+**That addition has been measured, and the measurement is encouraging.** Capone and Bare tested an advanced twin-engine supersonic-cruise fighter model with a two-dimensional convergent-divergent nozzle designed to give yaw vector angles of zero, ten and twenty degrees through yaw flaps in the nozzle sidewalls, with roll obtained from differential pitch vectoring, across Mach 0.20 to 2.47 \[[Capone and Bare 1987][research_caponefrancisj_bareeann_1987]\]. **Their central result is that the force and moment increments produced by vectoring remain essentially constant over the whole angle of attack range at every Mach number tested**, and that pitch and yaw vectoring show very little cross-coupling. **A control effector whose authority does not vary with angle of attack is precisely what a tailless aeroplane needs**, because an aerodynamic fin's authority collapses at the angles where a fighter most wants it.
 
-**The wider measurement literature says the same thing across several configurations** \[[Capone and Mason 1986][research_caponefj_masonml_1986]\] \[[Berrier 1988][research_berrierbobbyl_1988]\], and the flight literature adds that vectoring hardware survives being flown \[[Anna and Kidman 1994][research_annapauld_kidmandavids_1994]\].
+**The wider measurement literature reports the same across several configurations** \[[Capone and Mason 1986][research_caponefj_masonml_1986]\] \[[Berrier 1988][research_berrierbobbyl_1988]\], and the flight literature adds that vectoring hardware survives being flown \[[Anna and Kidman 1994][research_annapauld_kidmandavids_1994]\].
 
 ### The Wing
 
-**The MANTA's wing is described only as a stretched delta of greater area than the F-22's, carrying more internal fuel** \[[Lockheed Martin X-44 MANTA][ref_x44_manta_wikipedia]\]. No area, no sweep, no aerofoil and no aspect ratio have been released, so nothing can be dimensioned from it. **What can be said is what the change buys and what it costs.**
+**The MANTA's wing is described only as a stretched delta of greater area than the F-22's, carrying more internal fuel** \[[Lockheed Martin X-44 MANTA][ref_x44_manta_wikipedia]\]. No area, sweep, aerofoil or aspect ratio is public, so nothing can be dimensioned from it. **What can be stated is the gain and the cost of the change.**
 
-A larger delta buys fuel volume, and volume grows faster than area, because a wing scaled in plan at fixed thickness ratio and aspect ratio gains depth as well as span.
+A larger delta gains fuel volume, and volume grows faster than area, because a wing scaled in plan at fixed thickness ratio and aspect ratio gains depth as well as span.
 
 $$\text{Vol} \propto \left( \frac{t}{c} \right) \frac{S^{3/2}}{\sqrt{A\!R}} \qquad \Longrightarrow \qquad \frac{\text{Vol}_{2}}{\text{Vol}_{1}} = \left( \frac{S_{2}}{S_{1}} \right)^{3/2}$$
 
-**A quarter more wing is forty percent more fuel**, which is a better return than the linear reading of the claim suggests. It also buys a lower wing loading at fixed weight, and through it sustained turn rate at altitude,
+**A quarter more wing is forty percent more fuel**, a better return than the linear reading of the claim suggests. It also brings a lower wing loading at fixed weight, and through it sustained turn rate at altitude,
 
 $$n = \frac{q \, C_{L}}{W/S} \qquad \dot{\psi} = \frac{g \sqrt{n^{2} - 1}}{V}$$
 
-**It costs wave drag and it costs directional stability**, and the second of those has a form worth displaying because the article later has to assume a value for it. A slender body in sideslip carries the Munk moment, which is destabilising and depends on volume rather than on area,
+**It costs wave drag and it costs directional stability**, and the second of those has a form that needs displaying because the article later has to assume a value for it. A slender body in sideslip carries the Munk moment, which is destabilising and depends on volume rather than on area,
 
 $$C_{n\beta, \text{fus}} = - \frac{2 \left( k_{2} - k_{1} \right) \text{Vol}_{\text{fus}}}{S \, b}$$
 
 **That relation is a hundred years old and was derived for airships.** Munk obtained the moment on a slender body in a stream in 1924, and the apparent-mass factor in the numerator is his \[[Munk 1924][research_munkmaxm_1924]\]. Multhopp adapted it to the aeroplane fuselage \[[Multhopp 1942][research_multhopph_1942]\], and Allen and Perkins added the viscous cross-flow term that the inviscid theory omits and that matters at the angles a fighter reaches \[[Allen and Perkins 1951][research_allenhjulian_perkinsedwardw_1951]\]. **The article uses the inviscid form, which is the conservative one for its purpose**, since the cross-flow contribution grows with angle of attack and would make the aeroplane less stable still.
 
-**Inverting that relation is the only check available on the instability bracket this article uses**, since neither the derivative nor the volume is published. At an apparent-mass factor of 0.94, a derivative of 0.06 per radian implies a fuselage volume of 33.8 cubic metres, which over the F-22's 18.92 metre length \[[Lockheed Martin F-22 Raptor][ref_f22_wikipedia]\] is a mean cross-section of 1.79 square metres. **No fuselage volume is published, so this check cannot say whether the bracket is conservative.** The two F119 engine envelopes alone, 497.8 centimetres long and 121.9 centimetres in overall diameter \[[Pratt and Whitney F119][ref_f119_wikipedia]\], enclose 11.6 cubic metres, about a third of the 33.8 that the derivative implies, and the inlets, bays, fuel and equipment around them are not dimensioned in any source used here. If the real aeroplane is more unstable than the middle of the bracket, which is the direction that matters, the supersonic time to double falls at 0.10 per radian from 0.238 to 0.185 seconds. There is no longer a fin to overcome any of it. The tailless delta literature is unusually old and unusually direct about the second point \[[White and Innis 1959][research_whitemauriced_innisrobertc_1959]\] \[[Smith 1953][research_smithwg_1953]\] \[[Harper and Jones 1947][research_harpercharlesw_jonesarthurl_1947]\].
+**Inverting that relation is the only check available on the assumed instability bracket**, since neither the derivative nor the volume is published. At an apparent-mass factor of 0.94, a derivative of 0.06 per radian implies a fuselage volume of 33.8 cubic metres, which over the F-22's 18.92 metre length \[[Lockheed Martin F-22 Raptor][ref_f22_wikipedia]\] is a mean cross-section of 1.79 square metres. **No fuselage volume is published, so this check cannot say whether the bracket is conservative.** The two F119 engine envelopes alone, 497.8 centimetres long and 121.9 centimetres in overall diameter \[[Pratt and Whitney F119][ref_f119_wikipedia]\], enclose 11.6 cubic metres, about a third of the 33.8 that the derivative implies, and the inlets, bays, fuel and equipment around them are not dimensioned in any source used here. If the real aeroplane is more unstable than the middle of the bracket, which is the direction that matters, the supersonic time to double falls at 0.10 per radian from 0.238 to 0.185 seconds. There is no longer a fin to overcome any of it. The tailless delta literature is unusually old and unusually direct about the second point \[[White and Innis 1959][research_whitemauriced_innisrobertc_1959]\] \[[Smith 1953][research_smithwg_1953]\] \[[Harper and Jones 1947][research_harpercharlesw_jonesarthurl_1947]\].
 
-**The X-44A's wing is described in the journalism and not in any specification.** It is reported as a deep wing with pronounced inverse camber, complex curvature and a low-observable indented trailing edge, mated to a spheroidal fuselage, with modular wings \[[Lockheed Skunk Works X-44A flying-wing drone revealed][ref_twz_x44a]\] \[[Skunk Works reveals the tailless X-44A][ref_uasvision_x44a]\]. **Modularity is the detail worth keeping**, because interchangeable wings on a demonstrator is a statement that the wing was the variable under test.
+**The X-44A's wing is known from the journalism, since no specification describes it.** It is reported as a modular flying wing with a bulbous fuselage, wings that appear removable, control surfaces along the trailing edge and raked, squared-off wingtips \[[Lockheed Skunk Works X-44A flying-wing drone revealed][ref_twz_x44a]\] \[[Exclusive photos, the X-44A breaks cover][ref_twz_x44a_photos]\] \[[Skunk Works reveals the tailless X-44A][ref_uasvision_x44a]\]. **Modularity is the telling detail**, because modular wings on a demonstrator may mean that the wing was a variable under test, although the journalism suggests that they detach for transport.
 
 ### Structure and the Manufacturing Claim
 
-**The X-44A is reported as built from nano-carbon fibre and as a demonstration of rapid manufacturing** \[[Lockheed Martin X-44, the unmanned vehicle][ref_x44_uav_wikipedia]\] \[[Lockheed Skunk Works X-44A flying-wing drone revealed][ref_twz_x44a]\]. **No mass fraction, no lay-up, no cure cycle and no tooling description has been released**, so the claim cannot be checked in the way the aerodynamic claims can. This article records it as a stated programme objective and not as a measured outcome.
+**The X-44A is reported as built from nano-carbon fibre and as a demonstration of rapid manufacturing** \[[Lockheed Martin X-44, the unmanned vehicle][ref_x44_uav_wikipedia]\] \[[Lockheed Skunk Works X-44A flying-wing drone revealed][ref_twz_x44a]\]. **No mass fraction, no lay-up, no cure cycle and no tooling description has been released**, so the claim cannot be checked in the way the aerodynamic claims can. It stands as a stated programme objective that no measurement confirms.
 
-**One thing about it is checkable and it is the timeline.** DarkStar was terminated in January 1999 and the X-44A was built in 1999. **A complete airframe inside a calendar year is itself the evidence for the manufacturing claim**, and it is the only evidence in the public record that bears on it at all.
+**The timeline is the one checkable part of it.** DarkStar was terminated in January 1999 and the X-44A was built in 1999 \[[Lockheed Martin RQ-3 DarkStar][ref_darkstar_wikipedia]\] \[[Lockheed Skunk Works X-44A flying-wing drone revealed][ref_twz_x44a]\]. **A complete airframe within a calendar year is the evidence for the manufacturing claim**, and apart from the museum's statement that the airframe was quickly built using advanced manufacturing techniques \[[Lockheed Martin X-44A, National Museum of the United States Air Force][ref_x44a_museum]\] it is the only evidence in the public record that bears on it.
 
-### Sensing, Which the Flight Experiment Named as the Hard Part
+### Sensing Sideslip
 
-**The divergence table above says the loop must close in a fraction of a second, and the X-31 report says what that costs.** Its lessons concern sensor-related issues and their importance both to simulating a tailless configuration and to controlling a directionally unstable one \[[Bosworth and Stoliker 1996][research_bosworthjohnt_stolikerpc_1996]\]. **Sideslip is small and is measured in a flow field that the aeroplane itself distorts**, and a boom or vane is a protrusion of exactly the kind a stealth configuration exists to avoid. The flush alternative has flown. A matrix of nose pressure orifices on the F-18 High Alpha Research Vehicle measured angles of attack and sideslip with a pneumatic frequency response beyond 10 hertz, and aerodynamic lags in the aircraft's own flow field degraded it during heavy manoeuvring \[[Whitmore, Moes and Larson, Preliminary results from a subsonic high angle-of-attack flush airdata sensing system][ref_whitmore_hifads]\].
+**The divergence table above says the loop must close in a fraction of a second, and the X-31 report names what that costs.** Its lessons concern sensor-related issues and their importance both to simulating a tailless configuration and to controlling a directionally unstable one \[[Bosworth and Stoliker 1996][research_bosworthjohnt_stolikerpc_1996]\]. **Sideslip is small and is measured in a flow field that the aeroplane itself distorts**, and a boom or vane is the kind of protrusion a stealth configuration exists to avoid. The flush alternative has flown. A matrix of nose pressure orifices on the F-18 High Alpha Research Vehicle measured angles of attack and sideslip with a pneumatic frequency response beyond 10 hertz, and aerodynamic lags in the aircraft's own flow field degraded it during heavy manoeuvring \[[Whitmore, Moes and Larson, Preliminary results from a subsonic high angle-of-attack flush airdata sensing system][ref_whitmore_hifads]\].
 
 **The obvious way to size that requirement is to ask what a measurement error costs, and the answer is that static accuracy is not what binds.** A sideslip error is indistinguishable from a real sideslip, so it commands a real moment,
 
@@ -522,31 +522,31 @@ $$\frac{d \delta}{d \beta} = \frac{q S b \left| C_{n\beta} \right|}{F_{g} \, \el
 
 **Both come out mild.** The gearing is 1.13 nozzle degrees per sideslip degree at the demonstration point and 1.35 on the approach, and a half-degree measurement error costs 2.9 percent of the available authority. **A static accuracy requirement of half a degree is not a hard requirement.**
 
-**What survives is the dynamic requirement, and the budget above is where it lives.** The loop must close inside sixty to ninety milliseconds supersonically, so the sensor's lag and its noise at the crossover frequency are the binding properties rather than its static accuracy.
+**What survives is the dynamic requirement, which the budget above sets.** The loop must close inside sixty to ninety milliseconds supersonically, so the sensor's lag and its noise at the crossover frequency are the binding properties rather than its static accuracy.
 
-**The tension in the MANTA concept is therefore narrow, and it is real.** The aeroplane deletes its fin to reduce its radar cross section, and the deletion creates a hard requirement for a **fast** measurement of sideslip, which a low-observable nose must supply through flush ports whose speed is limited by the aeroplane's own flow field. **The public record does not say how the MANTA proposed to resolve even the narrow version**, and the absence is recorded here rather than filled.
+**The tension in the MANTA concept is therefore narrow but real.** The aeroplane deletes its fin to reduce its radar cross section, and the deletion creates a hard requirement for a **fast** measurement of sideslip, which a low-observable nose must supply through flush ports whose speed is limited by the aeroplane's own flow field. **No public source explains how the MANTA proposed to resolve even the narrow version**, and the absence is left unfilled.
 
 ## The Flight Test Record
 
-**Three flight records bear on this article and only one of them belongs to an aeroplane called X-44.**
+**Three flight records are relevant here, and only one of them belongs to an aeroplane called X-44.**
 
 ### What the X-31 Flew
 
-**The quasi-tailless experiment is the substantive flight record for the MANTA's question.** The technique was to use the rudder to cancel the stabilising effect of the vertical tail, and then to restabilise and control the aeroplane with yaw thrust vector commands. **The cancellation is a scheduled rudder command and not a mechanical change, so it can be written down.** With $\kappa$ the fraction of the tail to be removed,
+**The quasi-tailless experiment is the substantive flight record for the MANTA's question.** The technique was to use the rudder to cancel the stabilising effect of the vertical tail, and then to restabilise and control the aeroplane with yaw thrust vector commands \[[Bosworth and Stoliker 1996][research_bosworthjohnt_stolikerpc_1996]\]. **The cancellation is a scheduled rudder command, involving no mechanical change, so it can be written down.** With $\kappa$ the fraction of the tail to be removed,
 
 $$\delta_{r} = - \kappa \, \frac{C_{n\beta, \text{tail}}}{C_{n \delta_{r}}} \, \beta$$
 
-**Setting $\kappa$ to one gives the hundred percent case that was flown and any smaller value gives a reduced-tail aeroplane**, which is how one airframe produced a family of configurations instead of a single data point. The gearing is steep. A tail contributing 0.15 per radian against a rudder worth 0.0788 per radian demands 1.9 degrees of rudder for every degree of sideslip, so the technique spends most of a real control surface to simulate the absence of one. This gives a real aeroplane behaving like a tailless one without building a tailless one, and which was possible only because the aeroplane already carried thrust vectoring paddles for a different purpose \[[Rockwell-MBB X-31][ref_x31_wikipedia]\] \[[Huber and Schellenger 1994][research_huberpeter_schellengerharveyg_1994]\] \[[Bosworth and Stoliker 1996][research_bosworthjohnt_stolikerpc_1996]\]. **The series began in March 1994.** The demonstration condition was Mach 1.2 at 37,500 feet with a simulated one hundred percent vertical tail reduction, and the manoeuvres flown were doublets, bank-to-bank rolls and wind-up turns. The quasi-tailless mode was also flown subsonically in precision approaches and ground attack profiles.
+**Setting $\kappa$ to one gives the hundred percent case that was flown and any smaller value gives a reduced-tail aeroplane**, which is how one airframe produced a family of configurations instead of a single data point. The gearing is steep. A tail contributing 0.15 per radian against a rudder worth 0.0788 per radian demands 1.9 degrees of rudder for every degree of sideslip, so the technique spends most of a real control surface to simulate the absence of one. The result is a real aeroplane behaving like a tailless one without building a tailless one, possible only because the aeroplane already carried thrust vectoring paddles for a different purpose \[[Rockwell-MBB X-31][ref_x31_wikipedia]\] \[[Huber and Schellenger 1994][research_huberpeter_schellengerharveyg_1994]\] \[[Bosworth and Stoliker 1996][research_bosworthjohnt_stolikerpc_1996]\]. **The series began in March 1994.** The demonstration condition was Mach 1.2 at 37,500 feet with a simulated one hundred percent vertical tail reduction, and the manoeuvres flown were doublets, bank-to-bank rolls and wind-up turns. The quasi-tailless mode was also flown subsonically in precision approaches and ground attack profiles \[[Huber and Schellenger 1994][research_huberpeter_schellengerharveyg_1994]\] \[[Bosworth and Stoliker 1996][research_bosworthjohnt_stolikerpc_1996]\].
 
-**Its conclusion is unambiguous and is quoted here because the wording matters.** Flight test and supporting simulation demonstrated that the quasi-tailless approach is effective in representing the reduced stability of tailless configurations, and that thrust vectoring could be effectively used to stabilise a directionally unstable configuration and provide control power for manoeuvre coordination. Tailless and reduced-tail fighter aircraft are, in the report's word, **definitely feasible**, with the qualification that the capability must be designed in from the beginning \[[Bosworth and Stoliker 1996][research_bosworthjohnt_stolikerpc_1996]\].
+**Its conclusion is unambiguous and is quoted here because the wording matters.** Flight test and supporting simulation demonstrated that the quasi-tailless approach is effective in representing the reduced stability of tailless configurations, and that thrust vectoring could be effectively used to stabilise a directionally unstable configuration and provide control power for manoeuvre coordination \[[Huber and Schellenger 1994][research_huberpeter_schellengerharveyg_1994]\]. Tailless and reduced-tail fighter aircraft are, in the report's word, **definitely feasible**, with the qualification that the capability must be designed in from the beginning \[[Bosworth and Stoliker 1996][research_bosworthjohnt_stolikerpc_1996]\].
 
-**That qualification is the whole of the MANTA's difficulty in one clause.** The MANTA was a conversion.
+**That qualification states the MANTA's difficulty in one clause.** The MANTA was a conversion.
 
-**One thing the demonstration did not do was fly a crosswind approach on vectoring alone**, and the arithmetic above says why it could not have.
+**One thing the demonstration did not do was fly an approach on vectoring alone.** Its precision approaches were flown at 40 and 50 percent tail reduction in low turbulence or clear air, and no crosswind approach is reported \[[Bosworth and Stoliker 1996][research_bosworthjohnt_stolikerpc_1996]\]. The arithmetic above explains why a crosswind approach on vectoring alone could not have been flown.
 
 ### What the X-44A Flew
 
-**It flew in 2001 and that is the entire released flight record.** The number of flights is unknown. The dates are unknown. The envelope is unknown. No incident, no achievement and no measurement has been released. **The aeroplane survived**, which is inferable from its presence in a museum and from nothing else.
+**It first flew in 2001, and the released record adds only summary figures and general statements.** The museum gives a maximum speed of 176 miles per hour, an endurance of 1.5 hours and a range of 230 miles, and says that the aircraft refined tailless aerodynamics and flight controls, improved Lockheed Martin's unmanned command and control system and supported a deck-handling demonstration for United States Navy carriers \[[Lockheed Martin X-44A, National Museum of the United States Air Force][ref_x44a_museum]\]. The number of flights is unknown. The dates are unknown. The altitude envelope is unknown. No incident or measurement is on the public record. **The aeroplane survived**, which is inferable from its presence in a museum and from nothing else.
 
 **A vehicle that flew and produced data that remains unreleased is a different epistemic object from a vehicle that never flew.**
 
@@ -556,27 +556,27 @@ $$\delta_{r} = - \kappa \, \frac{C_{n\beta, \text{tail}}}{C_{n \delta_{r}}} \, \
 
 ## Comparison With Ground Prediction
 
-**Of the three flight records in this article, only one can be set beside a prediction, and most of what it can be set beside was written after the flight.** No ground prediction for either vehicle called X-44 has been released, so the comparison rests on the X-31 record and on the arithmetic in the section headed Sizing From First Principles.
+**Of the three flight records, only one can be set beside a prediction, and most of what it can be set beside was written after the flight.** No ground prediction for either vehicle called X-44 is public, so the comparison draws on the X-31 record and on the arithmetic under Sizing From First Principles.
 
-**For the MANTA the ground record is a list of claims and the flight record is empty.** Its advertised benefits are given under The Research Question, and nothing flew to test them. **The one measurement its hardware rests on is a wind tunnel result with no flight counterpart on this aircraft**, the sidewall yaw-flap measurement described under The Nozzle the F-22 Does Not Have, and yaw flaps of that kind were never flown on a MANTA because there was no MANTA.
+**For the MANTA the ground record is a list of claims and the flight record is empty.** Its advertised benefits are given under The Research Question, and nothing flew to test them. **The single measurement behind its hardware is a wind tunnel result with no flight counterpart on this aircraft**, the sidewall yaw-flap measurement described under The Nozzle the F-22 Does Not Have, and yaw flaps of that kind were never flown on a MANTA because there was no MANTA.
 
 **For the X-31 the comparison is between simulation and flight, and the report states its outcome as a conclusion rather than as a table**, the conclusion quoted under What the X-31 Flew. **This article reports no numerical prediction made before those flights and no figure for how closely the simulation matched them**, and it does not supply one.
 
-**The article's own derivations meet the X-31 record in two places and in only two.** The first is coverage, the factor of 1.135 by which the flown point stands above the worst supersonic condition, or 1.078 when jet velocity varies. **That is a statement about what the flown point covers and not a prediction the flight tested.** The second is sensing, where the loop budget of The Divergence and the Loop That Must Hold It meets the report's lessons on sensor-related issues. **Agreement there is agreement in kind and not in number**, since the article quotes no latency figure from the report.
+**The derivations above meet the X-31 record in two places, and in a third only in kind.** The first is coverage, the factor of 1.135 by which the flown point stands above the worst supersonic condition, or 1.078 when jet velocity varies. **It describes what the flown point covers, and no flight tested it as a prediction.** The second is sensing, where the loop budget of The Divergence and the Loop That Must Hold It meets the report's lessons on sensor-related issues. **Agreement there is in kind only**, since the article quotes no latency figure from the report.
 
-**The article's strongest prediction has no flight to be compared with.** The quasi-tailless mode was flown subsonically in precision approaches, but no crosswind approach was flown on vectoring alone, so **the throttle result of The Throttle Is What Binds, and It Binds Hard is a prediction that no flight has tested.**
+**The article's strongest prediction has no flight to be compared with, and the report anticipates it only in kind.** The report notes that thrust vector control power is proportional to the engine power setting, so that landing may require drag devices to hold a higher power setting, and it lists among its lessons that flying on drag devices at an increased power setting can introduce additional directional instability \[[Bosworth and Stoliker 1996][research_bosworthjohnt_stolikerpc_1996]\]. Its precision approaches were flown at 40 and 50 percent tail reduction in low turbulence or clear air, so **the throttle result of The Throttle on Approach is a prediction that no flight has tested.**
 
-**For the X-44A there is no ground prediction in the public record and no released flight data.** The wing loading derived for it can be set only beside the programme's stated purpose, so **what flight returned for the X-44A cannot be compared with anything, including this article's estimate.**
+**For the X-44A there is no ground prediction in the public record and no released flight data beyond the museum's summary figures.** The wing loading derived for it can be set beside the programme's stated purpose and the published endurance, which agree with it, and beside the published maximum speed, which is about half the true airspeed the estimate implies at its assumed ceilings, so **the comparison the record allows checks the assumed mission rather than the aircraft.**
 
 ## What the Data Changed
 
 **The three lines diverge sharply here and the divergence is instructive.**
 
-**The X-31's quasi-tailless result entered the tailless design literature and stayed there.** It is the flight validation that subsequent tailless control work refers back to, and the innovative control effector programmes of the later 1990s proceed on the assumption it established \[[Montgomery et al 1998][research_montgomeryraymondc_scottmichaela_1998]\].
+**The tailless design literature continued after the X-31's quasi-tailless result.** The innovative control effector programmes of the later 1990s studied tailless fighter configurations \[[Montgomery et al 1998][research_montgomeryraymondc_scottmichaela_1998]\], and the record cited here does not trace how far they drew on the X-31 flights.
 
-**The X-44A's line is visible in hardware.** It sits between the DarkStar and the Polecat, and the configuration family it belongs to, being a small tailless flying wing with a low-observable planform, is the family the Polecat and the RQ-170 belong to rather than the family the DarkStar belonged to \[[Skunk Works reveals the tailless X-44A][ref_uasvision_x44a]\]. **The published assessment is that it belongs with the mid-2000s designs rather than the 1990s ones despite being built in 1999**, which is a claim that a demonstrator can be ahead of its own programme.
+**The X-44A's line is visible in hardware.** It sits between the DarkStar and the Polecat. Its configuration family, a small tailless flying wing with a low-observable planform, is that of the Polecat and the RQ-170 and not that of the DarkStar \[[Skunk Works reveals the tailless X-44A][ref_uasvision_x44a]\]. **The published assessment is that it belongs with the mid-2000s designs rather than the 1990s ones despite being built in 1999**, in effect a claim that a demonstrator can be ahead of its programme.
 
-**The MANTA changed nothing that can be demonstrated.** The sixth-generation fighter studies in the survey treat tailless control and signature as requirements of their own \[[Kim et al 2025][research_kim_koh_2025]\] \[[Zhaxidaji 2026][research_zhaxidaji_2026]\], but none of them names the MANTA, and no source cited here traces a lineage from it, so this article asserts none. What can be said is narrower and firmer. **The tailless fighter remains a feature expected of the next generation rather than one in service**, a 2025 review naming the F-22, F-35 and Su-57 as the operational fifth generation and tailless designs as anticipated in their successors \[[Kim et al 2025][research_kim_koh_2025]\], and the arithmetic above offers one reason why that is unsurprising, which is that the concept as the MANTA stated it fails at the runway rather than in the air.
+**The MANTA changed nothing that can be demonstrated.** The sixth-generation fighter studies in the survey treat tailless control and signature as requirements of their own \[[Kim et al 2025][research_kim_koh_2025]\] \[[Zhaxidaji 2026][research_zhaxidaji_2026]\], but none of them names the MANTA, and no source cited here traces a lineage from it, so this article asserts none. What can be said is narrower and firmer. **The tailless fighter remains a feature expected of the next generation rather than one in service**, a 2025 review naming the F-22, F-35 and Su-57 as the operational fifth generation and tailless designs as anticipated in their successors \[[Kim et al 2025][research_kim_koh_2025]\], and the arithmetic above suggests one reason, since the concept as the MANTA stated it holds up in the air and fails at the runway.
 
 ## The Contemporary Literature
 
@@ -611,17 +611,17 @@ $$\delta_{r} = - \kappa \, \frac{C_{n\beta, \text{tail}}}{C_{n \delta_{r}}} \, \
 
 **The survey below maps the field these two vehicles sit in, and the twenty-four research records that the argument cites stand in its cluster rows with the rest.** Every record is assigned to exactly one cluster. **The rule that admits a record, and the classes it excludes, are stated in the Source Base.**
 
-**A cluster's size measures how much has been published near a topic and not how important that topic is to these vehicles.** The largest cluster holds flight control law design, which bears on both vehicles and enters the argument only through the loop budget, while the cluster holding this article's keystone, being the tailless configuration itself, ranks eighth of twenty-five. **Two of the clusters below cover the subjects of this article's own conclusions rather than its topics**, being the approach and crosswind case and the engine failure case.
+**A cluster's size measures how much has been published near a topic. It does not measure how important that topic is to these vehicles.** The largest cluster holds flight control law design, which bears on both vehicles and enters the argument only through the loop budget, while the cluster holding this article's keystone, being the tailless configuration itself, ranks eighth of twenty-five. **Two of the clusters below cover the subjects of this article's conclusions rather than its topics**, being the approach and crosswind case and the engine failure case.
 
 ### What the Shape of the Survey Says
 
 **Three features of the distribution are worth naming.**
 
-**The tailless cluster is smaller than the thrust vectoring cluster, and that ordering is the wrong way round for the subject.** Tailless aircraft are the application and thrust vectoring is one of several mechanisms, so a literature organised around the problem would put the problem first. It does not, because thrust vectoring is a nozzle technology with its own propulsion community publishing in its own venues, and it accumulated papers whether or not any tailless aeroplane was being built.
+**The tailless cluster is smaller than the thrust vectoring cluster, and that ordering is the wrong way round for the subject.** Tailless aircraft are the application and thrust vectoring is one of several mechanisms, so a literature organised around the problem would put the problem first. It does not, because thrust vectoring is a nozzle technology with a propulsion community of its own publishing in dedicated venues, and it accumulated papers whether or not any tailless aeroplane was being built.
 
 **The median publication year is 2005 and 33.5 percent of dated records are from 2015 or later**, which for a subject whose defining flight experiments happened in 1994 and 2001 means the field did not stop when the programmes did. **The control-allocation and unmanned clusters carry more of that recent weight than any other cluster.** The tailless configuration question is being asked again, by a different community, about aeroplanes with no pilot in them.
 
-**705 records predate 1970 and they are not decoration.** The configuration has a documented history running from the 1920s and it is longer than the jet age \[[Wooldridge, Winged wonders, the story of the flying wings][book_wooldridge]\]. The tailless and all-wing stability literature of the 1940s and 1950s asked the same question with slide rules and free-flight models, and the answer it reached, that the configuration is controllable and the controls have to be unusually powerful and unusually fast, is the answer the 1994 flight experiment reached again with a digital flight control system. **A field that rediscovers its own conclusion fifty years later is telling the reader something about which part of the problem was ever really open.**
+**705 records predate 1970 and they are not decoration.** The configuration has a documented history running from the 1920s, longer than the jet age \[[Wooldridge, Winged wonders, the story of the flying wings][book_wooldridge]\]. The tailless and all-wing stability literature of the 1940s and 1950s asked the same question with slide rules and free-flight models, and the answer it reached, that the configuration is controllable and the controls have to be unusually powerful and unusually fast, is the answer the 1994 flight experiment reached again with a digital flight control system. **A field that rediscovers its own conclusion fifty years later is telling the reader something about which part of the problem was ever really open.**
 
 ### Control effectors, allocation and flight control law design
 
@@ -778,7 +778,7 @@ $$\delta_{r} = - \kappa \, \frac{C_{n\beta, \text{tail}}}{C_{n \delta_{r}}} \, \
 
 **Five places, and only the first of them is quantified here.**
 
-**The ratio treats jet velocity as constant across the envelope and it is not. Relaxing that assumption moves the answer in the article's favour.** Carrying the jet velocity relation through the ratio gives
+**The ratio treats jet velocity as constant across the envelope, which it is not. Relaxing that assumption moves the answer in the article's favour.** Carrying the jet velocity relation through the ratio gives
 
 $$\mathcal{R}(M) \propto \frac{\eta_{r}(M) \left( 1 + 0.2 M^{2} \right)^{3} V_{j}(M)}{M^{2}}$$
 
@@ -791,15 +791,15 @@ and at an overall engine pressure ratio of eight the jet velocity rises by **25.
 
 **The minimum moves forward and gets shallower, so the demonstrated point stands 7.8 percent above the worst supersonic condition rather than 13.5.** The conclusion drawn from the pessimistic assumption survives the correction and improves. **The result is also robust to the one engine parameter it introduces.** Across overall pressure ratios from four to twenty the minimising Mach moves only from 1.502 to 1.589 and the penalty from 5.9 to 9.5 percent.
 
-**What the correction does change is the top of the envelope.** Under the constant assumption Mach 2.0 and Mach 2.25 were harder than the demonstrated point. With the jet velocity varying they are easier, at 1.006 and 1.103 times, so the high supersonic end stops being a concern at all. **The minimum's existence never depended on the assumption, because it comes from the mass flow term, and only its location and depth did.**
+**What the correction does change is the top of the envelope.** Under the constant assumption Mach 2.0 and Mach 2.25 were harder than the demonstrated point. With the jet velocity varying they are easier, at 1.006 and 1.103 times, so the high supersonic end stops being a concern. **The minimum's existence never depended on the assumption, because it comes from the mass flow term, and only its location and depth did.**
 
-**A second approximation remains unquantified and runs the other way.** The relation above assumes the afterburner is lit, and a dry-thrust case has a lower total temperature and a lower jet velocity, which would make those conditions less favourable than any table here. **This article does not compute the dry case and says so rather than implying the envelope has been covered.**
+**A second approximation remains unquantified and runs the other way.** The relation above assumes the afterburner is lit, and a dry-thrust case has a lower total temperature and a lower jet velocity, which would make those conditions less favourable than any table here. **This article does not compute the dry case, and the envelope should not be read as covered.**
 
-**The engine-out identity assumes the vectoring is available on the live engine at full deflection.** A nozzle that has failed for the same reason the engine has failed provides nothing, and a common-cause failure of an engine and its nozzle is a case a fin covers and a nozzle does not. **This is a reliability argument and not an aerodynamic one and this article does not make it quantitatively.**
+**The engine-out identity assumes the vectoring is available on the live engine at full deflection.** A nozzle that has failed for the same reason the engine has failed provides nothing, and a common-cause failure of an engine and its nozzle is a case a fin covers and a nozzle does not. **The argument belongs to reliability engineering, outside aerodynamics, and no quantitative form of it is attempted.**
 
-**Treating the two vehicles in one article is a decision about the designation and not about engineering.** They share a contractor, a decade and a number. They share no requirement, no size class, no speed range and no mission. **A reader interested in either aeroplane is being handed a good deal of material about a different one**, and the justification is that the collision itself is the subject.
+**Treating the two vehicles in one article follows from the designation, and engineering supplies no reason for it.** They share a contractor, a decade and a number. They share no requirement, no size class, no speed range and no mission. **A reader interested in either aeroplane is being handed a good deal of material about a different one**, justified because the collision is the subject.
 
-**The crosswind case assumes the aeroplane must land in a crosswind on a runway.** A vehicle that lands into wind on a long runway at a test range faces a much weaker requirement than an operational fighter does, and the MANTA as an X-plane would have been the former. **The impossibility derived above is a statement about the operational aeroplane the MANTA was a step toward, not necessarily about the demonstrator itself**, and the distinction is real even though every published description of the MANTA frames it as a step toward a fighter.
+**The crosswind case assumes the aeroplane must land in a crosswind on a runway.** A vehicle that lands into wind on a long runway at a test range faces a much weaker requirement than an operational fighter does, and the MANTA as an X-plane would have been the former. **The impossibility derived above is a statement about the operational aeroplane the MANTA was a step toward, not necessarily about the demonstrator**, and the distinction holds even though every published description of the MANTA frames it as a step toward a fighter.
 
 ## The Source Base
 
@@ -811,9 +811,9 @@ and at an overall engine pressure ratio of eight the jet velocity rises by **25.
 
 **One carries the alternative.** The study of differential canard deflection as a yaw generator on the X-31 with and without its vertical tail \[[Whiting 1996][research_whitingmatthewrobert_1996]\] establishes that an aerodynamic yaw effector of comparable authority to the vectoring vanes was studied on the same aeroplane, which is what makes the low-speed conclusion above a design choice rather than a dead end.
 
-**Five carry the vehicles themselves and none of them is a primary document.** The MANTA and unmanned X-44A encyclopaedia entries \[[Lockheed Martin X-44 MANTA][ref_x44_manta_wikipedia]\] \[[Lockheed Martin X-44, the unmanned vehicle][ref_x44_uav_wikipedia]\], the journalism that broke the story \[[Lockheed Skunk Works X-44A flying-wing drone revealed][ref_twz_x44a]\] \[[Skunk Works reveals the missing link in a secret unmanned history][ref_flightglobal_x44a]\], and the museum fact sheet \[[Lockheed Martin X-44A, National Museum of the United States Air Force][ref_x44a_museum]\] are the whole of the public record on these two aircraft. **That is a thin foundation and the article is built to survive it**, which is why the analysis rests on the F-22's published numbers and the X-31's published flight results rather than on anything the X-44 sources say.
+**Five carry the vehicles themselves and none of them is a primary document.** The MANTA and unmanned X-44A encyclopaedia entries \[[Lockheed Martin X-44 MANTA][ref_x44_manta_wikipedia]\] \[[Lockheed Martin X-44, the unmanned vehicle][ref_x44_uav_wikipedia]\], the journalism that broke the story \[[Lockheed Skunk Works X-44A flying-wing drone revealed][ref_twz_x44a]\] \[[Skunk Works reveals the missing link in a secret unmanned history][ref_flightglobal_x44a]\], and the museum fact sheet \[[Lockheed Martin X-44A, National Museum of the United States Air Force][ref_x44a_museum]\] are the core of the public record on these two aircraft, which the 2003 NASA inventory of X-vehicles \[[Jenkins, Landis and Miller, American X-Vehicles, An Inventory X-1 to X-50, NASA SP-2003-4531, 2003][ref_american_x_vehicles]\] and two secondary compilations \[[X-44 MANTA Multi-Axis No-Tail Aircraft, GlobalSecurity][ref_globalsecurity_x44]\] \[[Lockheed Martin X-44 MANTA tailless technology demonstrator proposal][ref_militaryfactory_x44]\] supplement. **That is a thin foundation and the article is built to survive it**, which is why the analysis rests on the F-22's published numbers and the X-31's published flight results rather than on anything the X-44 sources say.
 
-**Two sources are used with a stated reservation.** The two National Museum of the United States Air Force pages return a Hypertext Transfer Protocol status of 403 to automated requests, which is bot mitigation and not absence. **Both were confirmed to exist and to carry the expected titles through search rather than through retrieval**, and neither could be read directly. Their content enters this article through secondary summaries, and any specification quoted from them should be treated as second-hand.
+**Two sources are used with a stated reservation.** The two National Museum of the United States Air Force pages return a Hypertext Transfer Protocol status of 403 to automated requests, which is bot mitigation and not absence. **Both were read through copies held by the Internet Archive**, since neither could be read directly from the museum's own site.
 
 **The research survey holds 9,631 records, of which 9,182 resolve through Crossref digital object identifiers and 449 through NASA's Technical Reports Server.** **The median publication year is 2005.** Of the 9,341 dated records, 705 were published before 1970, being 7.5 percent, and 3,128 in 2015 or later, being 33.5 percent.
 
@@ -860,7 +860,7 @@ and at an overall engine pressure ratio of eight the jet velocity rises by **25.
 
 **The X-44 MANTA was a Lockheed Martin design study of a tailless F-22 derivative controlled by three-axis thrust vectoring.** Preliminary work was under way by May 1999 and the National Aeronautics and Space Administration approved a programme start in June 1999. No aircraft was built.
 
-**The X-44A unmanned aircraft was built by Lockheed Martin Skunk Works in 1999 and first flew in 2001.** It has a span of about 30 feet, is powered by a Williams F112, and was publicly revealed in March 2018. It has been displayed at the National Museum of the United States Air Force since October 2020.
+**The X-44A unmanned aircraft was built by Lockheed Martin Skunk Works in 1999 and first flew in 2001.** It has a span of about 30 feet, is powered by a Williams F112, was first reported in February 2018 and was publicly unveiled in March 2018. It has been displayed at the National Museum of the United States Air Force since October 2020.
 
 **The X-31 flew a quasi-tailless flight demonstration beginning in March 1994**, at Mach 1.2 and 37,500 feet with a simulated one hundred percent vertical tail reduction, and its report concludes that tailless and reduced-tail fighters are feasible when the capability is designed in from the start.
 
@@ -880,7 +880,7 @@ and at an overall engine pressure ratio of eight the jet velocity rises by **25.
 
 **The engine-out relation $\tan \delta = y/\ell$ is recovered by solving the moment balance numerically without cancelling the thrust**, at four thrusts spanning three orders of magnitude, agreeing to one part in a billion.
 
-**The two expressions for the best lift to drag ratio agree to machine precision**, which is a test of transcription and not of physics, because at the best ratio the induced drag equals the zero-lift drag exactly and the two forms are the same statement.
+**The two expressions for the best lift to drag ratio agree to machine precision.** This tests transcription, since at the best ratio the induced drag equals the zero-lift drag exactly and the two forms are the same statement.
 
 **The demand-over-availability ratio was derived a second time from the propulsive tail volume by a route that shares nothing with the first**, and reproduces the throttle factor of 5.33 to three significant figures.
 
@@ -896,7 +896,7 @@ and at an overall engine pressure ratio of eight the jet velocity rises by **25.
 
 **Restoring the demonstrated margin on a sea-level approach at 150 knots in a 15 metre per second crosswind requires 38.4 percent throttle against the 7.2 percent the glide slope needs at an assumed landing ratio of six, a factor of 5.33, or against 12.4 percent at the ratio of about four measured on a straight-wing fighter, a factor of 3.09.** The implied lift to drag ratio in level flight at that thrust is between 1.6 and 1.9, below the lowest effective ratio of 2.7 flown in the low lift to drag landing research.
 
-**The directional divergence of a tailless F-22 has a time to double between 0.16 and 0.91 seconds across a wide bracket of the two unpublished quantities it depends on**, and the entire supersonic column of that bracket is inside four tenths of a second.
+**The directional divergence of a tailless F-22 has a time to double between 0.16 and 0.91 seconds across a wide bracket of the two unpublished quantities it depends on**, and the entire supersonic column of that bracket is below four tenths of a second.
 
 **A thrust lapse exponent of 0.960 in density ratio reproduces the DarkStar's published ceiling, weight and thrust** on an assumed 42 square metre wing, an Oswald efficiency of 0.85 and a zero-lift drag coefficient of 0.015.
 
@@ -906,23 +906,23 @@ and at an overall engine pressure ratio of eight the jet velocity rises by **25.
 
 **Expressed as a propulsive tail volume, the vectoring supplies 0.0181 at the demonstration point against about 0.0412 for thirty degrees of a conventional rudder**, or 44 percent, and 5.19 times as much at maximum thrust on approach. **The same quantity collapses to 0.0154 at glide-slope thrust**, which is the throttle result arrived at from the other direction.
 
-**The stabilisation loop must close inside 60 to 90 milliseconds supersonically and 145 to 218 on approach**, from a crossover of two to three times the unstable pole and thirty degrees of phase margin budgeted to transport delay.
+**The stabilisation loop must close within 60 to 90 milliseconds supersonically and 145 to 218 on approach**, from a crossover of two to three times the unstable pole and thirty degrees of phase margin budgeted to transport delay.
 
 **Inverting the slender-body yawing moment for the fuselage volume that the assumed derivative implies gives 33.8 cubic metres, a mean cross-section of 1.79 square metres over the F-22's length.** No fuselage volume is published to compare with, and the two engine envelopes alone account for about a third of that volume, so **the instability bracket is reported as a bracket and not as a conservative bound.**
 
 ### Inference
 
-**The MANTA required a nozzle capability the F-22 does not have**, since a two-dimensional convergent-divergent nozzle deflects only in the plane of its flaps. This is inferred from the published nozzle description rather than stated in any MANTA source.
+**The MANTA required a nozzle capability the F-22 does not have**, since a two-dimensional convergent-divergent nozzle deflects only in the plane of its flaps. This is inferred from the published nozzle description, and one MANTA account states the requirement directly in giving the aircraft pitch and yaw vectoring nozzles \[[X-44 MANTA Multi-Axis No-Tail Aircraft, GlobalSecurity][ref_globalsecurity_x44]\].
 
-**Pure thrust vectoring cannot meet an operational crosswind landing requirement**, so a tailless fighter needs an aerodynamic yaw effector that works at low speed. This is inferred from the throttle calculation and is consistent with the X-36's split ailerons and with the X-31 differential canard study, neither of which is offered as confirmation.
+**Pure thrust vectoring cannot meet an operational crosswind landing requirement**, so a tailless fighter needs an aerodynamic yaw effector that works at low speed. The throttle calculation supports this inference, which is consistent with the X-36's split ailerons and with the X-31 differential canard study, neither of which is offered as confirmation.
 
 **The X-44A carries roughly twice the DarkStar's wing loading at a matched ceiling**, which is inferred from an assumed drag polar and aspect ratio common to both. The ratio is far more robust than either loading.
 
-**The X-44A was sized as a configuration and manufacturing demonstrator rather than as an endurance aircraft.** This is inferred from the wing loading and agrees with the stated programme objectives, which were not used in the derivation.
+**The X-44A was sized as a configuration and manufacturing demonstrator rather than as an endurance aircraft.** The wing loading indicates it, and the stated programme objectives agree, although the derivation did not use them.
 
 **The stabilisation loop should be machinery rather than a pilot**, inferred from the delay budget and the phase margin it reserves. The divergence rate alone is within what practised subjects held in single-axis tracking.
 
-**The difficulty in sensing sideslip is dynamic rather than static.** Writing the relation down gives a gearing near unity and a cost of 2.9 percent of available authority for a half-degree measurement error, which is not a hard requirement. **What binds is lag and noise at a crossover of six to nine radians per second.**
+**The difficulty in sensing sideslip is dynamic.** Writing the relation down gives a gearing near unity and a cost of 2.9 percent of available authority for a half-degree measurement error, which is not a hard requirement. **What binds is lag and noise at a crossover of six to nine radians per second.**
 
 ### What the Record Does Not Settle
 
@@ -930,23 +930,23 @@ and at an overall engine pressure ratio of eight the jet velocity rises by **25.
 
 **Whether the two programmes had any relationship.** The journalism that revealed the unmanned aircraft states that it is unclear how it came to carry the designation and that there appears to be no direct relation. **An absence of known relation is not a known absence of relation.**
 
-**When the MANTA was cancelled.** The sources place the end of funding in 2000 or around that year, and none cites a programme document.
+**When the MANTA was cancelled.** The sources place the end of funding in 2000 or around that year, a 2003 NASA inventory still describes a feasibility study in progress, and none cites a programme document.
 
-**Everything about the X-44A's flight programme beyond the year of first flight.** Number of flights, duration, envelope, instrumentation, results, and whether the aircraft in the museum is the only one built.
+**Everything about the X-44A's flight programme beyond the year of first flight and the museum's summary figures.** Number of flights, duration, envelope, instrumentation, results, and whether the aircraft in the museum is the only one built.
 
-**Every specification of the MANTA.** Wing area, sweep, weights, required vector angles, control law architecture and the intended sideslip sensing.
+**Every specification of the MANTA.** Wing area, sweep, weights, required vector angles, control law architecture and the intended sideslip sensing. One reference site lists weights and performance for the MANTA without citing a source \[[Lockheed Martin X-44 MANTA tailless technology demonstrator proposal][ref_militaryfactory_x44]\].
 
 **Whether the MANTA influenced any later programme.** No source cited here documents a connection to any later programme, and the sixth-generation fighter studies in the survey do not name it.
 
-**The DarkStar's wing area**, which is an assumption in this article and not a published figure, and on which the thrust lapse calibration and every absolute number in the X-44A table depend.
+**The DarkStar's wing area**, which this article assumes because no source used publishes it, and on which the thrust lapse calibration and every absolute number in the X-44A table depend.
 
 ### On Sources Used With Reservation
 
-**The two National Museum of the United States Air Force pages could not be retrieved directly**, for the reason given in the Source Base. **Any figure attributed to them here arrived through a secondary summary.**
+**The two National Museum of the United States Air Force pages refuse automated requests**, for the reason given in the Source Base, **and both were read through copies held by the Internet Archive.**
 
-**The general encyclopaedia is the source for the MANTA's origin dates, its designation and its F-22 derivation, and for the X-44A's engine, construction material and museum placement.** No primary document for any of those claims has been located. As the Source Base states, none of the article's results depends on them.
+**The general encyclopaedia is the source for the MANTA's origin dates, its designation and its F-22 derivation, and a single journalistic account is the source for the X-44A's reported nano-carbon fibre skin.** No primary document for any of those claims has been located, and the X-44A's engine, performance figures and museum placement rest on the museum fact sheet. As the Source Base states, none of the article's results depends on them.
 
-**Two secondary aviation outlets are cited for the X-44A's revelation and description.** They are the only sources that have published on the aircraft in any detail, they are consistent with each other, and one of them states plainly what it does not know, which is a reason to trust it further rather than less.
+**Two secondary aviation outlets are cited for the X-44A's revelation and description.** They are the only sources that have published on the aircraft in any detail, they are consistent with each other, and one of them states plainly what it does not know, which is a reason to trust it more.
 
 ### On Information Postdating the Editorial Date
 
@@ -954,31 +954,31 @@ and at an overall engine pressure ratio of eight the jet velocity rises by **25.
 
 ## Out of Scope
 
-**Fluidic thrust vectoring**, which replaces mechanical deflection with a secondary injected flow and changes the weight and signature arguments without changing the momentum balance this article rests on.
+**Fluidic thrust vectoring**, which replaces mechanical deflection with a secondary injected flow and changes the weight and signature arguments without changing the momentum balance used above.
 
-**The radar cross section calculation itself.** This article takes as given that a vertical tail is a large contributor and does not compute it.
+**The radar cross section calculation itself.** The argument takes as given that a vertical tail is a large contributor and does not compute it.
 
 **The X-45, X-46 and X-47 unmanned combat air vehicle programmes**, which are the next articles in this series and which share the tailless configuration question with the X-44A while answering an entirely different requirement.
 
 **Engine-out reliability and the common-cause failure of an engine with its nozzle**, named in the framing section as a case a fin covers and a nozzle does not.
 
-**The manufacturing claim in any quantitative form**, since no mass, lay-up, tooling or cycle-time figure has been released.
+**The manufacturing claim in any quantitative form**, since no mass, lay-up, tooling or cycle-time figure is available.
 
-**The F-22's own flight control system**, which is a substantial subject and bears on this one only through the nozzle.
+**The F-22's flight control system**, a large subject that bears on this one only through the nozzle.
 
 ## Conclusion
 
 **The X-44 is one number attached to two aeroplanes that share a contractor and nothing else, and the register does not record the collision.**
 
-**The aeroplane that never existed asked a question that had already been answered.** The X-31 flew a fully simulated tailless configuration at Mach 1.2 and 37,500 feet in 1994 and concluded that the configuration is feasible. **What this article adds is how much of the envelope that one point covered**, and the answer, which needs no vehicle data at all, is that the static pressure cancels from the governing ratio, that above the tropopause the ratio depends only on Mach number, that it has a minimum at Mach 1.674 with a realistic inlet, and that the demonstrated point stands thirteen and a half percent above the worst case. **One supersonic point very nearly covered the supersonic envelope.**
+**The aeroplane that never existed asked a question that had already been answered.** The X-31 flew a fully simulated tailless configuration at Mach 1.2 and 37,500 feet in 1994 and concluded that the configuration is feasible. **This article adds a measure of how much of the envelope that one point covered.** The answer needs no vehicle data. The static pressure cancels from the governing ratio, above the tropopause the ratio depends only on Mach number, the ratio has a minimum at Mach 1.674 with a realistic inlet, and the demonstrated point stands thirteen and a half percent above the worst case. **One supersonic point very nearly covered the supersonic envelope.**
 
-**The concept fails at the runway instead.** For a crosswind of fixed speed both pressure and temperature cancel and the demand peaks at exactly Mach one, so at equal throttle the approach is the easiest case in the envelope. **The throttle is not equal.** Restoring the demonstrated margin on approach needs three to five times the thrust the glide slope needs, and absorbing that thrust in level flight implies a lift to drag ratio below two. **A tailless fighter therefore needs an aerodynamic yaw effector at low speed that it does not need supersonically**, which is exactly the architecture the X-36 flew and exactly the architecture the MANTA proposed to delete.
+**The concept fails at the runway instead.** For a crosswind of fixed speed both pressure and temperature cancel and the demand peaks at exactly Mach one, so at equal throttle the approach is the easiest case in the envelope. **The throttle is not equal.** Restoring the demonstrated margin on approach needs three to five times the thrust the glide slope needs, and absorbing that thrust in level flight implies a lift to drag ratio below two. **A tailless fighter therefore needs an aerodynamic yaw effector at low speed that it does not need supersonically**, the architecture the X-36 flew and the MANTA proposed to delete.
 
 **The engine-out case, which is one of the two reasons fins are large, does not size a thrust-vectored aeroplane at all**, because the vector angle that trims it satisfies $\tan \delta = y/\ell$ and the thrust cancels identically. **Two classic fin-sizing cases, opposite answers, and reasoning from the fin would have got both wrong.**
 
-**The aeroplane that did exist was built in the year its predecessor was cancelled and flew two years later, and almost nothing about it has been released.** Deriving it from its mission puts its wing loading at about twice the DarkStar's at a matched ceiling, which says it was built to demonstrate a configuration and a factory rather than to loiter. **The derivation and the programme's own stated purpose agree, and the derivation did not use the statement.**
+**The aeroplane that did exist was built in the year its predecessor was cancelled and flew two years later, and almost nothing about it has been released.** Deriving it from its mission puts its wing loading at about twice the DarkStar's at a matched ceiling, which indicates it was built to demonstrate a configuration and a factory rather than to loiter. The museum's published endurance of an hour and a half points the same way. **The derivation and the programme's stated purpose agree, and the derivation did not use the statement.**
 
-**The last observation is about the designation and not about either aeroplane.** The X-planes sequence is a finite resource issued once and never replenished, and a number spent twice is still a number spent once. **The register carries no record of the ambiguity, the specialist directory carries no page for the number, and the encyclopaedia has resolved the collision by writing two articles and noting that they appear to be unrelated.** The cost of the confusion falls entirely on whoever reads the record later, which in this instance is this article.
+**The last observation concerns the designation instead of either aeroplane.** The X-planes sequence is a finite resource issued once and never replenished, and a number spent twice is still a number spent once. **The register carries no record of the ambiguity, the specialist directory carries no page for the number, and the encyclopaedia has resolved the collision by writing two articles and noting that they appear to be unrelated.** The cost of the confusion falls entirely on whoever reads the record later, which in this instance is this article.
 
 ## References
 
@@ -1024,6 +1024,7 @@ and at an overall engine pressure ratio of eight the jet velocity rises by **25.
 
 - [AGM-129 Advanced Cruise Missile][ref_agm129_wikipedia]
 - [Exclusive photos, the X-44A breaks cover][ref_twz_x44a_photos]
+- [Jenkins, Landis and Miller, American X-Vehicles, An Inventory X-1 to X-50, NASA SP-2003-4531, 2003][ref_american_x_vehicles]
 - [Jex, McDonnell and Phatak, A critical tracking task for man-machine research related to the operator's effective delay time][ref_jex_critical_task]
 - [Lockheed Martin F-22 Raptor][ref_f22_wikipedia]
 - [Lockheed Martin P-175 Polecat][ref_polecat_wikipedia]
@@ -1050,6 +1051,7 @@ and at an overall engine pressure ratio of eight the jet velocity rises by **25.
 - [X44, the disambiguation page][ref_x44_disambiguation]
 
 [ref_agm129_wikipedia]: https://en.wikipedia.org/wiki/AGM-129_ACM
+[ref_american_x_vehicles]: https://www.nasa.gov/wp-content/uploads/2023/04/sp-4531.pdf
 [ref_darkstar_wikipedia]: https://en.wikipedia.org/wiki/Lockheed_Martin_RQ-3_DarkStar
 [ref_f112_museum]: https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/195684/williams-international-f112-wr-100-turbofan/
 [ref_f112_wikipedia]: https://en.wikipedia.org/wiki/Williams_F112

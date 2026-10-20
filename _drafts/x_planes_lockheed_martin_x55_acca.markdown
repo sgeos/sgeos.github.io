@@ -20,7 +20,7 @@ This is the fifty-sixth article in the [X-Planes series][related_post_a297_frami
 
 **This article is about a way of building things, and almost nothing in it is about flight.**
 
-## The Research Question, The Registry Entry Is the Primary Document
+## The Research Question
 
 **On 19 October 2009 the joint designation registry recorded the following against X-55A**, allocated to Lockheed Martin, powered by two Pratt and Whitney PW306B engines, and sponsored by the United States Air Force \[[Parsch, DOD 4120.15-L Addendum, MDS Designators Allocated After 19 August 1998][ref_mds_addendum]\].
 
@@ -35,59 +35,58 @@ a vehicle that is itself cheap**, being low-cost aerial targets, low-cost cruise
 a low-cost unmanned aircraft. **In those entries cost is an adjective on the article. In this
 one it is the dependent variable.**
 
-**One other entry in the register makes a claim about construction, and the comparison is
-worth drawing because it is the same metric.** The FA-18E was allocated on
+**One other entry in the register makes a claim about construction, and it invites comparison because it uses the same metric.** The FA-18E was allocated on
 12 April 2004 with a mission statement recording that the aircraft is approximately
 twenty-five percent larger than its predecessor and **contains forty-two percent fewer
 structural parts** \[[Parsch, DOD 4120.15-L Addendum, MDS Designators Allocated After 19 August
-1998][ref_mds_addendum]\]. **That is a part count and it is the X-55's own measure.**
+1998][ref_mds_addendum]\]. **A part count is also the X-55's measure.**
 
 **The difference is what the sentence is for.** The fighter's part count is a property it
 already has, stated about an aeroplane in production. **The X-55's manufacture is the
 hypothesis**, stated about an aeroplane that did not yet exist, in a register whose other
 entries describe what a vehicle will do.
 
-**Read as an engineering brief that sentence contains three claims and they do not all point the same way.** Time is to be compressed. Cost is to be compressed. And the curing is to be done at low temperature and outside an autoclave. **The last of those is a method, and this article's central arithmetic is that the method makes the first one harder rather than easier.**
+**Read as an engineering brief that sentence contains three claims and they do not all point the same way.** Time is to be compressed. Cost is to be compressed. And the curing is to be done at low temperature and outside an autoclave. **The last of those is a method, and this article's central arithmetic is that the method makes the first one harder.**
 
 ## Programme Origin
 
-**The programme had two halves, an argument about cost assembled over a decade on the ground and an airframe cut from an existing aeroplane to carry that argument into the air.** The first is set out in the subsection headed The Programme It Came Out Of, and the second in the subsection headed What Was Actually Built.
+**The programme had two halves, an argument about cost assembled over a decade on the ground and an airframe cut from an existing aeroplane to carry that argument into the air.** The two subsections below take them in that order.
 
 ### The Programme It Came Out Of
 
 **The X-55 is the flight article of an argument that took eleven years to assemble.** The Composites Affordability Initiative ran from the mid 1990s as a joint effort of the Air Force Research Laboratory, the Office of Naval Research, Bell, Boeing, Lockheed Martin and Northrop Grumman, at a reported 152 million dollars over eleven years \[[Market Trends, the Composites Affordability Initiative, Part I, CompositesWorld][ref_cw_cai]\] \[[Air Force Research Laboratory][ref_afrl]\].
 
-**Its central finding was not about materials.** It was that much of the cost of a composite airframe lies in assembly rather than in fabrication, and that the way to attack assembly is to have fewer parts to assemble, by replacing assemblies of many parts with larger integrated structures joined by adhesive bonding rather than by fasteners \[[Market Trends, Composites Affordability Initiative, Part II, CompositesWorld][ref_cw_cai2]\] \[[Butler 2000][research_cai_butler]\] \[[Baron and Leger 1998][research_cai_phase1]\]. **The initiative's studies put a range on it.** Bonding cut assembly time by 50 to 80 percent against typical fastened structure, depending on the article, which translated to cost savings of 20 to 50 percent \[[Market Trends, the Composites Affordability Initiative, Part I, CompositesWorld][ref_cw_cai]\].
+**Its central finding was not about materials.** The initiative found that much of the cost of a composite airframe lies less in fabrication than in assembly, and that the way to attack assembly is to have fewer parts to assemble, by replacing assemblies of many parts with larger integrated structures joined by adhesive bonding in place of fasteners \[[Market Trends, Composites Affordability Initiative, Part II, CompositesWorld][ref_cw_cai2]\] \[[Butler 2000][research_cai_butler]\] \[[Baron and Leger 1998][research_cai_phase1]\]. **The initiative's studies put a range on it.** Bonding cut assembly time by 50 to 80 percent against typical fastened structure, depending on the article, which translated to cost savings of 20 to 50 percent \[[Market Trends, the Composites Affordability Initiative, Part I, CompositesWorld][ref_cw_cai]\].
 
-**The number the whole argument rests on was published in 1998.** A companion paper to the initiative's first phase estimated what more unitised aircraft structure is worth in cost and in weight, which is the quantity the X-55 was later built to test \[[Holzwarth 1998][research_unitized_cost_weight]\] \[[Affordable Composite Structures][research_affordable_composite_structures]\].
+**The estimate at the root of the argument was published in 1998.** A companion paper to the initiative's first phase estimated what more unitised aircraft structure is worth in cost and in weight, the quantity the X-55 was later built to test \[[Holzwarth 1998][research_unitized_cost_weight]\] \[[Affordable Composite Structures][research_affordable_composite_structures]\].
 
-**And the idea is older than the composites.** The Air Force ran the Primary Adhesively Bonded Structure Technology programme in the 1970s to establish that a metal airframe could be bonded rather than riveted, and its detail design report is the ancestor of every argument in this article about replacing fasteners with adhesive \[[Douglas Aircraft Co Long Beach Ca 1977][research_pabst]\]. **The X-55 is the composites answer to a question the Air Force first asked about aluminium.**
+**The idea is older than the composites.** The Air Force ran the Primary Adhesively Bonded Structure Technology programme in the 1970s to establish that a metal airframe could be bonded rather than riveted, and its detail design report is the ancestor of every argument in this article about replacing fasteners with adhesive \[[Douglas Aircraft Co Long Beach Ca 1977][research_pabst]\]. **The X-55 is the composites answer to a question the Air Force had already asked about aluminium.**
 
 **The registry entry compresses that conclusion into one sentence and then asks for an aeroplane to test it.**
 
-### What Was Actually Built
+### What Was Built
 
-The airframe began as a Fairchild Dornier 328JET, a regional jet of thirty to thirty-three seats with a high wing and two Pratt and Whitney Canada PW306B turbofans \[[Fairchild Dornier 328JET][ref_dornier_328jet]\] \[[Advanced Composite Cargo Aircraft Proves Large Structure Practicality, CompositesWorld][ref_cw_acca]\] \[[Lockheed Martin X-55][ref_x55_wikipedia]\] \[[Pratt and Whitney Canada PW300][ref_pw306]\]. **Everything aft of the crew station was cut off and replaced.** The wing, the engines, the landing gear, the avionics and the forward fuselage stayed as they were \[[The Carbon Comet, Lockheed Martin][ref_carbon_comet]\].
+The airframe began as a Fairchild Dornier 328JET, a regional jet of thirty to thirty-three seats with a high wing and two Pratt and Whitney Canada PW306B turbofans \[[Fairchild Dornier 328JET][ref_dornier_328jet]\] \[[Advanced Composite Cargo Aircraft Proves Large Structure Practicality, CompositesWorld][ref_cw_acca]\] \[[Lockheed Martin X-55][ref_x55_wikipedia]\] \[[Pratt and Whitney Canada PW300][ref_pw306]\]. **The fuselage behind the cockpit was cut off and replaced together with the vertical tail**, and the existing horizontal tail was joined to the new structure \[[Out-of-Autoclave Prepregs, Hype or Revolution, CompositesWorld][ref_cw_ooa]\] \[[The Carbon Comet, Lockheed Martin][ref_carbon_comet]\]. The wing, the engines, the landing gear, the avionics and the forward fuselage stayed as they were \[[The Carbon Comet, Lockheed Martin][ref_carbon_comet]\].
 
-**The replacement was a composite mid and aft fuselage with the vertical tail integrated into it.** The fuselage was made as an upper and a lower half, each roughly 65 feet long, bonded to circular frames and to each other along a longitudinal seam with adhesive and ply overlays \[[Advanced Composite Cargo Aircraft Proves Large Structure Practicality, CompositesWorld][ref_cw_acca]\] \[[Lockheed Martin X-55][ref_x55_wikipedia]\]. The skins were a sandwich, with facesheets of out-of-autoclave carbon epoxy prepreg over a nonmetallic honeycomb core \[[Honeycomb Structure][ref_honeycomb]\] \[[Prepreg][ref_prepreg]\]. **That choice is not incidental to the process.** A sandwich takes its bending stiffness from the separation of its faces rather than from their thickness,
+**The replacement was a composite mid and aft fuselage with the vertical tail integrated into it.** The fuselage was made as an upper and a lower half, each roughly 65 feet long, bonded to circular frames and to each other along a longitudinal seam with adhesive and ply overlays \[[Advanced Composite Cargo Aircraft Proves Large Structure Practicality, CompositesWorld][ref_cw_acca]\] \[[Lockheed Martin X-55][ref_x55_wikipedia]\]. The skins were a sandwich, with facesheets of out-of-autoclave carbon epoxy prepreg over a nonmetallic honeycomb core \[[Advanced Composite Cargo Aircraft Proves Large Structure Practicality, CompositesWorld][ref_cw_acca]\] \[[Honeycomb Structure][ref_honeycomb]\] \[[Prepreg][ref_prepreg]\]. **That choice is not incidental to the process.** A sandwich takes its bending stiffness from the separation of its faces rather than from their thickness,
 
 $$
 D \approx \frac{E_{f}\,t_{\text{face}}\,h_{c}^{2}}{2}
 $$
 
-so a 1.5 millimetre facesheet across a 25 millimetre core is stiffer in bending, by a factor of about 208, than the same two facesheets would be laid solid against each other. **A thin facesheet is exactly what a process with one atmosphere of consolidation can make well**, and the arrangement therefore suits the method. **It also makes the method harder**, because the air under a facesheet must find its way out past a core that is trying to seal it in, which is a documented difficulty rather than a speculative one \[[Levy et al 2015][research_air_evacuation_sandwich]\]. The vertical tail was fibre placed from a conventional prepreg tape, its skins precured in an autoclave \[[Advanced Composite Cargo Aircraft Proves Large Structure Practicality, CompositesWorld][ref_cw_acca]\]. The work was done at the Advanced Development Programs facility at Air Force Plant 42 in Palmdale \[[Skunk Works][ref_skunk_works]\] \[[United States Air Force Plant 42][ref_plant42]\].
+so a 1.5 millimetre facesheet across a 25 millimetre core is stiffer in bending, by a factor of about 208, than the same two facesheets would be laid solid against each other. **A process with one atmosphere of consolidation makes a thin facesheet well**, and the arrangement therefore suits the method. **It also makes the method harder**, because the air under a facesheet must find its way out past a core that is trying to seal it in, a difficulty the literature documents \[[Levy et al 2015][research_air_evacuation_sandwich]\]. The vertical tail was fibre placed from a conventional prepreg tape, its skins precured in an autoclave \[[Advanced Composite Cargo Aircraft Proves Large Structure Practicality, CompositesWorld][ref_cw_acca]\]. The work was done at the Advanced Development Programs facility at Air Force Plant 42 in Palmdale \[[Skunk Works][ref_skunk_works]\] \[[United States Air Force Plant 42][ref_plant42]\].
 
-**The numbers the manufacturer gives for the result are the ones the whole argument rests on.** Approximately 300 structural parts against approximately 3,000 for a metallic design of the same size, and approximately 4,000 mechanical fasteners against approximately 40,000 \[[The Carbon Comet, Lockheed Martin][ref_carbon_comet]\]. **Both are a factor of ten, which is ninety percent fewer fasteners.**
+**The manufacturer gives two figures for the result, and the argument depends on both.** Approximately 300 structural parts against approximately 3,000 for a metallic design of the same size, and approximately 4,000 mechanical fasteners against approximately 40,000 \[[The Carbon Comet, Lockheed Martin][ref_carbon_comet]\]. **Both are a factor of ten, or ninety percent fewer fasteners.**
 
-**The trade press states that figure as ninety-eight percent and the manufacturer's own numbers give ninety.** The discrepancy is recorded rather than resolved, because the two sources may be counting different structures, and this article uses the manufacturer's pair throughout since it is the one that comes with both halves \[[Advanced Composite Cargo Aircraft Proves Large Structure Practicality, CompositesWorld][ref_cw_acca]\].
+**The trade press states that figure as ninety-eight percent and the manufacturer's numbers give ninety.** The discrepancy is recorded here and left unresolved, because the two sources may be counting different structures, and this article uses the manufacturer's pair throughout since it supplies both halves of each comparison \[[Advanced Composite Cargo Aircraft Proves Large Structure Practicality, CompositesWorld][ref_cw_acca]\].
 
 ## Sizing From First Principles
 
-**The thing to be sized here is a process rather than an aeroplane, because the aerodynamics were the Dornier's and the registry entry names manufacture as the thing to be proved.** This section therefore sizes the pressure vessel a conventional cure needs, the consolidation pressure a vacuum bag can supply at Air Force Plant 42, what that pressure has to accomplish inside a laminate, the dwell a low-temperature cure costs, and the assembly labour that unitisation removes. **Every figure in it is computed from published constants and none is a measurement of this aeroplane**, as the section headed Epistemic State records.
+**The thing to be sized here is a process rather than an aeroplane, because the aerodynamics were the Dornier's and the registry entry names manufacture as the thing to be proved.** This section therefore sizes the pressure vessel a conventional cure needs, the consolidation pressure a vacuum bag can supply at Air Force Plant 42, what that pressure has to accomplish inside a laminate, the dwell a low-temperature cure costs, and the assembly labour that unitisation removes. **Every figure in it is computed from published constants and none was measured on this aeroplane**, as the Epistemic State section records.
 
-### An Autoclave Is a Pressure Vessel, and That Is Nearly the Whole Argument
+### An Autoclave Is a Pressure Vessel
 
-A conventional aerospace laminate is cured in an autoclave, a heated pressure vessel that raises the gas around the bagged part to something near 85 pounds per square inch while the bag itself is evacuated \[[Autoclave, Industrial][ref_autoclave]\] \[[Out-of-Autoclave Prepregs, Hype or Revolution, CompositesWorld][ref_cw_ooa]\] \[[Campbell, Manufacturing processes for advanced composites][book_campbell]\]. The datasheet's own autoclave cure for the X-55's prepreg specifies 90, and this article works with the typical 85 throughout \[[MTM45-1 Prepreg Technical Data Sheet, Cytec Industrial Materials][ref_mtm45_datasheet]\]. **The pressure is not there to shape the part. It is there to close the voids.**
+A conventional aerospace laminate is cured in an autoclave, a heated pressure vessel that raises the gas around the bagged part to something near 85 pounds per square inch while the bag itself is evacuated \[[Autoclave, Industrial][ref_autoclave]\] \[[Out-of-Autoclave Prepregs, Hype or Revolution, CompositesWorld][ref_cw_ooa]\] \[[Campbell, Manufacturing processes for advanced composites][book_campbell]\]. The datasheet's autoclave cure for the X-55's prepreg specifies 90, and this article works with the typical 85 throughout \[[MTM45-1 Prepreg Technical Data Sheet, Cytec Industrial Materials][ref_mtm45_datasheet]\]. **The pressure is not there to shape the part. It is there to close the voids.**
 
 An autoclave is therefore a pressure vessel, and a pressure vessel scales badly. Hoop stress fixes the wall thickness as the pressure times the radius over the allowable stress \[[Pressure Vessel][ref_pressure_vessel]\].
 
@@ -101,7 +100,7 @@ $$
 m_{\text{shell}} = 2 \pi \rho \, r \, L \, t_{w} = \frac{2 \pi \rho \, p \, r^{2} L}{\sigma_{\text{allow}}}
 $$
 
-**For a vessel whose length keeps pace with its diameter the steel therefore goes as the cube of the diameter.** Doubling every dimension multiplies the shell by eight, which the arithmetic below confirms rather than assumes.
+**For a vessel whose length keeps pace with its diameter the steel therefore goes as the cube of the diameter.** Doubling every dimension multiplies the shell by eight, as the arithmetic below confirms.
 
 | Vessel | Shell steel |
 |---|---|
@@ -109,13 +108,13 @@ $$
 | The same vessel with every dimension doubled | 147.5 tonnes |
 | One able to take a heavy-lift launch vehicle barrel, 40 by 80 feet | 190 tonnes |
 
-**And here the obvious argument fails, which is worth saying plainly because it is the first one a reader is likely to reach for.** The usual case for out-of-autoclave processing is that no autoclave is large enough. That case is real for a launch vehicle, where the barrel sections are nine to ten metres in diameter and the vessel that would take them has been estimated at around 100 million dollars to build and install \[[Out-of-Autoclave Prepregs, Hype or Revolution, CompositesWorld][ref_cw_ooa]\] \[[Sutter et al 2010][research_sutter_comparison]\].
+**Here the obvious argument, the first one a reader is likely to reach for, fails.** The usual case for out-of-autoclave processing is that no autoclave is large enough. That case is real for a launch vehicle, where the barrel sections are nine to ten metres in diameter and the vessel that would take them has been estimated at around 100 million dollars to build and install \[[Out-of-Autoclave Prepregs, Hype or Revolution, CompositesWorld][ref_cw_ooa]\] \[[Sutter et al 2010][research_sutter_comparison]\].
 
-**It is not the case here.** A vessel able to take a 65 foot fuselage half has a shell of roughly 18.4 tonnes, about a tenth of the launch vehicle case. **The X-55's reason for leaving the autoclave was therefore not that it could not fit.** The reasons the trade press gives for leaving it are the capital and operating cost of the vessel, low-cost tooling on short lead times, and a factory in which large parts no longer queue for a single autoclave, and the same account warns that cycle times may be longer rather than shorter \[[Out-of-Autoclave Prepregs, Hype or Revolution, CompositesWorld][ref_cw_ooa]\] \[[Advanced Composite Cargo Aircraft Proves Large Structure Practicality, CompositesWorld][ref_cw_acca]\].
+**It is not the case here.** A vessel able to take a 65 foot fuselage half has a shell of roughly 18.4 tonnes, about a tenth of the launch vehicle case. **The X-55's reason for leaving the autoclave was therefore not that it could not fit.** The reasons the trade press gives for leaving it are the capital and operating cost of the vessel, low-cost tooling on short lead times, and a factory in which large parts no longer queue for a single autoclave, and the same account warns that cycle times may be longer \[[Out-of-Autoclave Prepregs, Hype or Revolution, CompositesWorld][ref_cw_ooa]\] \[[Advanced Composite Cargo Aircraft Proves Large Structure Practicality, CompositesWorld][ref_cw_acca]\].
 
 ### The Pressure a Vacuum Bag Cannot Supply
 
-**A vacuum bag has one source of pressure and it is the atmosphere.** The bag is evacuated and the air outside presses the laminate against the tool \[[Vacuum Bag Moulding][ref_vacuum_bagging]\]. Writing the consolidation pressure as the differential across the bag makes the whole argument of this section visible in one line.
+**A vacuum bag has one source of pressure, the atmosphere.** The bag is evacuated and the air outside presses the laminate against the tool \[[Vacuum Bag Moulding][ref_vacuum_bagging]\]. Writing the consolidation pressure as the differential across the bag puts the argument of this section in one line.
 
 $$
 \Delta p_{\text{bag}} = p_{\text{amb}} - p_{\text{in}}
@@ -123,7 +122,7 @@ $$
 \Delta p_{\text{autoclave}} = p_{\text{gauge}} + p_{\text{amb}} - p_{\text{in}}
 $$
 
-**The autoclave term has something the bag term does not, and it is the only difference between the two processes.** Setting the bag pressure to zero in both gives the ratio the rest of this article turns on.
+**The gauge pressure in the autoclave term is the only difference between the two processes.** Setting the bag pressure to zero in both gives the ratio the rest of this article turns on.
 
 $$
 \frac{\Delta p_{\text{autoclave}}}{\Delta p_{\text{bag}}} = 1 + \frac{p_{\text{gauge}}}{p_{\text{amb}}}
@@ -137,15 +136,15 @@ $$
 p(h) = p_{0}\left(1 - \frac{\lambda h}{T_{0}}\right)^{\frac{g}{R_{\text{air}}\lambda}}
 $$
 
-Here $R_{\text{air}}$ is the specific gas constant of air, which is a different quantity from the molar gas constant $R$ that appears in the cure kinetics below. With the sea level values and a lapse rate of 0.0065 kelvin per metre the exponent is 5.256. **Air Force Plant 42 stands at 2,542.5 feet** in the Federal Aviation Administration's airport record, which is 775.0 metres, and the encyclopaedia entry rounds it to 2,542 feet \[[Palmdale USAF Plant 42 Airport, Airport Data, Federal Aviation Administration][ref_faa_pmd]\] \[[United States Air Force Plant 42][ref_plant42]\]. The relation gives 92.36 kilopascals there against 101.33 at sea level.
+Here $R_{\text{air}}$ is the specific gas constant of air, a different quantity from the molar gas constant $R$ that appears in the cure kinetics below. With the sea level values and a lapse rate of 0.0065 kelvin per metre the exponent is 5.256. **Air Force Plant 42 stands at 2,542.5 feet** in the Federal Aviation Administration's airport record, which is 775.0 metres, and the encyclopaedia entry rounds it to 2,542 feet \[[Palmdale USAF Plant 42 Airport, Airport Data, Federal Aviation Administration][ref_faa_pmd]\] \[[United States Air Force Plant 42][ref_plant42]\]. The relation gives 92.36 kilopascals there against 101.33 at sea level.
 
 **The maximum consolidation pressure available in that building is therefore 13.39 pounds per square inch, against 14.7 at sea level.** The elevation alone costs 8.85 percent of it, and no pump can recover any part of that, because the pressure is not being generated inside the bag. It is being withheld from outside.
 
-**This is not a curiosity invented for this article.** Consolidation under pressure lower than nominal is a studied subject in its own right, because a bag that leaks, a site that is high, or a vacuum system that underperforms all present the laminate with the same deficit, and the measured consequence is porosity \[[Centea and Hubert 2013][research_deficient_pressure]\] \[[Serrano et al 2017][research_compaction_behaviour]\].
+**Reduced consolidation pressure is not a curiosity invented for this article.** Consolidation under pressure lower than nominal is a studied subject, because a bag that leaks, a site that is high, or a vacuum system that underperforms all present the laminate with the same deficit, and the measured consequence is porosity \[[Centea and Hubert 2013][research_deficient_pressure]\] \[[Serrano et al 2017][research_compaction_behaviour]\].
 
 **This has a consequence in the material specification that is easy to miss.** The datasheet for the prepreg the fuselage was made from calls for a minimum vacuum of 980 millibar, which it also writes as 29 inches of mercury, and calls that the ideal level while recognising that it is not always possible to attain \[[MTM45-1 Prepreg Technical Data Sheet, Cytec Industrial Materials][ref_mtm45_datasheet]\]. **The entire atmosphere at Plant 42 is 27.27 inches of mercury.** Read as a gauge vacuum, meaning inches below ambient, that specification is unattainable there by 1.73 inches, not because of any deficiency in the equipment but because the air on that site does not contain that much pressure to remove.
 
-**The reading that makes the specification attainable is the absolute one**, meaning that the bag is to be pumped down to about thirty millibar absolute, being 1,013 less 980, which a pump does without reference to ambient. **The two readings are not interchangeable**, and the difference between them grows by roughly one inch of mercury for every thousand feet of elevation. **That round figure is the derivative of the relation above and not a separate fact.** Differentiating the hydrostatic balance at sea level gives
+**The reading that makes the specification attainable is the absolute one**, meaning that the bag is to be pumped down to about thirty millibar absolute, being 1,013 less 980, which a pump does without reference to ambient. **The two readings are not interchangeable**, and the difference between them grows by roughly one inch of mercury for every thousand feet of elevation. **That round figure is no separate fact but the derivative of the relation above.** Differentiating the hydrostatic balance at sea level gives
 
 $$
 \left.\frac{\mathrm{d}p}{\mathrm{d}h}\right|_{0} = -\frac{p_{0}\,g}{R_{\text{air}} T_{0}} = -\frac{p_{0}}{H}
@@ -165,13 +164,13 @@ $$
 V_{1} = V_{0}\,\frac{p_{0}}{p_{1}}
 $$
 
-The void fraction is not the void volume, because compressing the gas shrinks the whole laminate as well. With the solid taken as incompressible beside a gas, an initial void fraction $\phi_{0}$ becomes
+The void fraction is not the void volume, because compressing the gas shrinks the laminate as well. With the solid taken as incompressible beside a gas, an initial void fraction $\phi_{0}$ becomes
 
 $$
 \phi_{1} = \frac{\phi_{0}\,p_{0}/p_{1}}{\left(1-\phi_{0}\right) + \phi_{0}\,p_{0}/p_{1}}
 $$
 
-**Inverting that for the pressure ratio is the question a process engineer actually asks**, which is not what a given pressure achieves but what pressure a given specification demands.
+**A process engineer asks the inverse question.** The concern is not what a given pressure achieves but what pressure a given specification demands, and solving the relation for the pressure ratio answers it.
 
 $$
 \frac{p_{1}}{p_{0}} = \frac{\phi_{0}}{\phi_{1}}\cdot\frac{1-\phi_{1}}{1-\phi_{0}}
@@ -179,13 +178,13 @@ $$
 
 **Now put a real number through it.** A government and industry team cured the same prepreg family the X-55 used, after it had been left out of the freezer for thirty-five days, and measured 8.3 percent voids by acid digestion against 0.1 percent for the fresh material \[[Sutter et al 2010][research_sutter_comparison]\]. **Taking that laminate into a full autoclave and squeezing it would leave 1.22 percent.** Primary structure requires less than 1 percent \[[Out-of-Autoclave Prepregs, Hype or Revolution, CompositesWorld][ref_cw_ooa]\], and reaching that from 8.3 percent by compression alone needs a pressure ratio of 8.96, which is more than an autoclave supplies.
 
-**And compression is not even the whole of what a void resists.** A void is a bubble, and its own surface holds a pressure difference across it that grows as the bubble shrinks \[[Laplace Pressure][ref_laplace_pressure]\].
+**A void resists more than compression.** A void is a bubble, and its surface holds a pressure difference across it that grows as the bubble shrinks \[[Laplace Pressure][ref_laplace_pressure]\].
 
 $$
 p_{\text{void}} - p_{\text{resin}} = \frac{2\gamma}{r}
 $$
 
-**That relation is the one that decides where each process runs out.** Setting the excess equal to the available consolidation pressure gives the radius below which a void cannot be closed by pressure at all.
+**That relation decides where each process runs out.** Setting the excess equal to the available consolidation pressure gives the radius below which a void cannot be closed by pressure at all.
 
 $$
 r_{\text{min}} = \frac{2\gamma}{\Delta p}
@@ -217,17 +216,17 @@ $$
 t_{\text{sweep}} = \frac{\mu\,\varphi\,L^{2}}{k\,\Delta p}
 $$
 
-**Working that relation shows which fluid actually governs the process.** Two entirely different fluids move through those channels. **Air leaves them, and resin closes them**, and their viscosities differ by a factor of 540,541.
+**Working that relation shows which fluid governs the process.** Two different fluids move through those channels. **Air leaves them, and resin closes them**, and their viscosities differ by a factor of 540,541.
 
 $$
 \frac{t_{\text{resin}}}{t_{\text{air}}} = \frac{\mu_{\text{resin}}}{\mu_{\text{air}}}
 $$
 
-**The consequence is that gas escape is not the bottleneck and was never going to be.** At 13.39 pounds per square inch, air crosses ten millimetres of dry tow in 0.01 seconds, and **four hours of vacuum would clear 12.1 metres of it**. The same path takes resin 1.47 hours to fill. **The length of the path is not the constraint on a part this size**, and since the time goes as the square of the length, a permeability a hundred times worse would still clear more than a metre.
+**Gas escape is not the bottleneck and was never going to be.** At 13.39 pounds per square inch, air crosses ten millimetres of dry tow in 0.01 seconds, and **four hours of vacuum would clear 12.1 metres of it**. The same path takes resin 1.47 hours to fill. **The length of the path is not the constraint on a part this size**, and since the time goes as the square of the length, a permeability a hundred times worse would still clear more than a metre.
 
-**What the process is actually racing is whether the channels are still open when the air needs them.** That is a question about the resin's viscosity history, and therefore about how long the material has been out of the freezer. **This is where the void mechanism and the out-life argument meet**, and the subsection headed The Clock That Runs on the Material is where the meeting is priced.
+**What the process races is whether the channels are still open when the air needs them.** That is a question about the resin's viscosity history, and therefore about how long the material has been out of the freezer. **The void mechanism and the out-life argument meet here**, and the subsection on the material's clock below puts a price on that meeting.
 
-**It is also why debulking, the practice of applying vacuum at intervals during layup rather than only at the end, matters far more without an autoclave than with one** \[[Hu and Nutt 2020][research_debulk_temperature]\] \[[Liu and Hubert 2021][research_bulk_factor]\].
+**It is also why debulking, the practice of applying vacuum at intervals during layup as well as at the end, matters far more without an autoclave than with one** \[[Hu and Nutt 2020][research_debulk_temperature]\] \[[Liu and Hubert 2021][research_bulk_factor]\].
 
 ### Low Temperature and Time Compression Pull Against Each Other
 
@@ -271,7 +270,7 @@ $$
 
 **Ten degrees, from 120 to 130, costs 1.51 times the dwell and sixty degrees, from 120 to 180, costs 9.1.**
 
-**One caveat belongs here rather than in a footnote, because it bounds what the fit means.** The datasheet's cure options are not iso-conversional. Each reaches the state that temperature can reach, and the subsection headed Why the Post-Cure Is Not a Convenience shows those states are different. **The fitted figure is therefore an apparent activation energy for reaching the manufacturer's own specification** rather than for a fixed chemical conversion, and the reason to trust it anyway is that it predicts the third entry in the same table.
+**One caveat bounds what the fit means, so it is stated here in the text.** The datasheet's cure options are not iso-conversional. Each reaches the state that temperature can reach, and the post-cure subsection below shows those states are different. **The fitted figure is therefore an apparent activation energy for reaching the manufacturer's specification** rather than for a fixed chemical conversion, and the reason to trust it anyway is that it predicts the third entry in the same table.
 
 **The fit can be tested against a third point the datasheet also gives.** Extrapolating from two hours at 130 degrees to 120 degrees with the dwell ratio above predicts a dwell of 3.02 hours, where 6,556 kelvin is $E_{a}/R$.
 
@@ -289,7 +288,7 @@ $$
 \tau = \frac{L^{2}}{\alpha_{\text{th}}}
 $$
 
-and at an assumed through-thickness diffusivity of $3 \times 10^{-7}$ square metres a second, a representative value for a carbon epoxy laminate and not a measurement of this one, even a six millimetre laminate equilibrates in two minutes, set against the four hour dwell of 14,400 seconds,
+and at an assumed through-thickness diffusivity of $3 \times 10^{-7}$ square metres a second, a representative value for a carbon epoxy laminate, even a six millimetre laminate equilibrates in two minutes, set against the four hour dwell of 14,400 seconds,
 
 $$
 \tau = \frac{\left(6 \times 10^{-3}\right)^{2}}{3 \times 10^{-7}} = 120,
@@ -297,7 +296,7 @@ $$
 \frac{\tau}{t} = \frac{120}{14{,}400} \approx 0.0083
 $$
 
-with $\tau$ in seconds \[[Thermal Diffusivity][ref_thermal_diffusivity]\] \[[Krach and Advani 1996][research_void_thermal_conductivity]\]. **The same is not true of a thick laminate, where the cure cycle has to be designed around the conduction and sometimes around a cooling step in the middle of it** \[[Kim and Lee 1997][research_thick_laminate_cure_cycle]\]. **That is 0.83 percent of a four hour dwell**, which is not a margin, it is a rounding, and a diffusivity ten times smaller would still make it only 8.3 percent.
+with $\tau$ in seconds \[[Thermal Diffusivity][ref_thermal_diffusivity]\] \[[Krach and Advani 1996][research_void_thermal_conductivity]\]. **The same is not true of a thick laminate, where the cure cycle has to be designed around the conduction and sometimes around a cooling step in the middle of it** \[[Kim and Lee 1997][research_thick_laminate_cure_cycle]\]. **That is 0.83 percent of a four hour dwell**, too small to count as a margin, and a diffusivity ten times smaller would still make it only 8.3 percent.
 
 **Where the margin does go is the oven.** Convective heat transfer in forced turbulent flow follows a Dittus-Boelter form, and the Reynolds number is proportional to gas density at a fixed velocity and geometry, so the coefficient scales with pressure \[[Nusselt Number][ref_nusselt]\].
 
@@ -307,7 +306,7 @@ $$
 \frac{h_{\text{autoclave}}}{h_{\text{oven}}} \sim \left(\frac{p_{\text{autoclave}}}{p_{\text{oven}}}\right)^{0.8}
 $$
 
-**At the same pressure ratio that governs consolidation, that is a factor of 4.93**, falling to 3.31 if the exponent is taken as 0.6, an assumed lower end of the range correlations give.
+**At the same pressure ratio that governs consolidation, the coefficient rises by a factor of 4.93**, falling to 3.31 if the exponent is taken as 0.6, an assumed lower end of the range correlations give.
 
 $$
 \frac{h_{\text{autoclave}}}{h_{\text{oven}}} \sim 7.35^{0.8} \approx 4.93,
@@ -315,13 +314,13 @@ $$
 7.35^{0.6} \approx 3.31
 $$
 
-**The experimental literature supports the direction if not the coefficient**, autoclave pressure, temperature and the timing of vacuum application all showing up in measured laminate quality rather than only in the schedule \[[Koushyar et al 2011][research_autoclave_pressure_vacuum_time]\]. **The autoclave's pressure buys two things at once.** It closes voids and it moves heat, and a shop that gives up the first gives up the second in the same transaction.
+**The experimental literature supports the direction if not the coefficient**, autoclave pressure, temperature and the timing of vacuum application all showing up in measured laminate quality \[[Koushyar et al 2011][research_autoclave_pressure_vacuum_time]\]. **The autoclave's pressure does two jobs at once.** It closes voids and it moves heat, and a shop that gives up the first gives up the second in the same transaction.
 
 ### Why the Post-Cure Is Not a Convenience
 
-**The datasheet requires that any part cured below 180 degrees be given a free-standing post-cure of two hours at that temperature, and the reason is not that the low-temperature cure is merely slow.** It is that the low-temperature cure cannot finish at all.
+**The datasheet requires that any part cured below 180 degrees be given a free-standing post-cure of two hours at that temperature** \[[MTM45-1 Prepreg Technical Data Sheet, Cytec Industrial Materials][ref_mtm45_datasheet]\], **and the reason is not that the low-temperature cure is merely slow.** It is that the low-temperature cure cannot finish at all.
 
-A curing thermoset's own glass transition rises as it reacts, and the DiBenedetto relation gives that rise in terms of the degree of cure \[[Glass Transition][ref_glass_transition]\].
+The glass transition of a curing thermoset rises as it reacts, and the DiBenedetto relation gives that rise in terms of the degree of cure \[[Glass Transition][ref_glass_transition]\].
 
 $$
 \frac{T_{g} - T_{g0}}{T_{g\infty} - T_{g0}} = \frac{\lambda_{D}\,\alpha}{1 - \left(1 - \lambda_{D}\right)\alpha}
@@ -342,7 +341,7 @@ $$
 | 130 C | 0.857 | 130 C |
 | 180 C | 1.000 | 180 C |
 
-**A cure at 120 degrees can therefore reach 0.824 and no further, and a cure at 130 can reach 0.857.** Only a cure at 180 reaches the end. **The post-cure is not developing the last few percent of a property. It is the only step in which the reaction is thermodynamically permitted to complete**, and the datasheet's wet glass transition of 160 degrees after the post-cure demands a conversion of 0.947, which no lower temperature can supply \[[MTM45-1 Prepreg Technical Data Sheet, Cytec Industrial Materials][ref_mtm45_datasheet]\]. The 120 degree row and the wet glass transition work out as follows.
+**A cure at 120 degrees can therefore reach 0.824 and no further, and a cure at 130 can reach 0.857.** Only a cure at 180 reaches the end. **The post-cure does more than develop the last few percent of a property, because it is the only step in which the reaction is thermodynamically permitted to complete**, and the datasheet's wet glass transition of 160 degrees after the post-cure demands a conversion of 0.947, which no lower temperature can supply \[[MTM45-1 Prepreg Technical Data Sheet, Cytec Industrial Materials][ref_mtm45_datasheet]\]. The 120 degree row and the wet glass transition work out as follows.
 
 $$
 f = \frac{120 - \left(-20\right)}{180 - \left(-20\right)} = 0.70,
@@ -354,7 +353,7 @@ $$
 
 where 0.90 is the reduced value $f$ for 160 degrees.
 
-**Two of the three parameters in that relation are assumptions and the sensitivity was computed rather than asserted.** The fully cured glass transition is the datasheet's own 180 degrees. The uncured value and the curvature parameter are not published for this resin. Varying the uncured value over minus 40, minus 20 and zero degrees and $\lambda_{D}$ over 0.3, 0.5 and 0.7, a grid assumed here to be representative of such systems, moves the 120 degree ceiling between 0.741 and 0.899. The ceiling falls as either parameter rises, so the extremes sit at opposite corners of the grid.
+**Two of the three parameters in that relation are assumptions, so the sensitivity was computed.** The fully cured glass transition is the datasheet's 180 degrees \[[MTM45-1 Prepreg Technical Data Sheet, Cytec Industrial Materials][ref_mtm45_datasheet]\]. The uncured value and the curvature parameter are not published for this resin. Varying the uncured value over minus 40, minus 20 and zero degrees and $\lambda_{D}$ over 0.3, 0.5 and 0.7, a grid assumed here to be representative of such systems, moves the 120 degree ceiling between 0.741 and 0.899. The ceiling falls as either parameter rises, so the extremes sit at opposite corners of the grid.
 
 $$
 \alpha_{\text{vit}} = \frac{120/180}{0.7 + 0.3 \times 120/180} \approx 0.741,
@@ -364,9 +363,9 @@ $$
 
 The first is an uncured value of zero with $\lambda_{D}$ of 0.7, and the second an uncured value of minus 40 degrees with $\lambda_{D}$ of 0.3. **The number is assumption-dependent and the conclusion is not.** At the post-cure temperature the conversion is exactly one for every combination in that grid, and every lower temperature is strictly below it, **because vitrification is defined by the glass transition meeting the cure temperature and nothing else enters that definition.**
 
-**This sharpens the article's central tension into a mechanism.** The phrase `low-temperature curing` in the registry entry does not describe a complete process. It describes the first half of a two-stage one, and the second stage runs at exactly the temperature the first stage was chosen to avoid.
+**This sharpens the article's central tension into a mechanism.** The phrase `low-temperature curing` in the registry entry does not describe a complete process. It describes the first half of a two-stage one, and the second stage runs at the temperature the first stage was chosen to avoid.
 
-**Now count the whole cycle rather than the initial cure.** The autoclave-only cure at 180 degrees needs no second stage, because it never vitrifies short of completion. Every dwell in the table below is the datasheet's \[[MTM45-1 Prepreg Technical Data Sheet, Cytec Industrial Materials][ref_mtm45_datasheet]\]. For an initial cure $t_{\text{init}}$, a post-cure $t_{\text{post}}$ and the autoclave-only dwell $t_{\text{ac}}$, the last column is
+**Now count the full cycle, post-cure included.** The autoclave-only cure at 180 degrees needs no second stage, because it never vitrifies short of completion. Every dwell in the table below is the datasheet's \[[MTM45-1 Prepreg Technical Data Sheet, Cytec Industrial Materials][ref_mtm45_datasheet]\]. For an initial cure $t_{\text{init}}$, a post-cure $t_{\text{post}}$ and the autoclave-only dwell $t_{\text{ac}}$, the last column is
 
 $$
 \frac{t_{\text{init}} + t_{\text{post}}}{t_{\text{ac}}},
@@ -387,11 +386,11 @@ for the 120 degree and 80 degree routes, with every dwell in hours.
 
 **The low-temperature route the registry entry names costs three times the oven dwell of the route it replaces, and the lowest-temperature option costs eleven times.** Whatever the time compression came from, it did not come from the cure.
 
-### Where the Compression Actually Comes From
+### Where the Compression Comes From
 
-**It came from not having to put the parts together**, which is what the Composites Affordability Initiative concluded before the aeroplane existed.
+**It came from not having to put the parts together**, the conclusion the Composites Affordability Initiative had reached before the aeroplane existed \[[Market Trends, the Composites Affordability Initiative, Part I, CompositesWorld][ref_cw_cai]\].
 
-**But the arithmetic of that saving, on this aeroplane, is smaller than it sounds.** **Thirty-six thousand fasteners were not installed.** Installing one in an airframe means drilling, reaming, deburring, cleaning, sealing, setting and inspecting, and drilling holes and installing fasteners is a major source of labour and rework in aircraft structure \[[Market Trends, the Composites Affordability Initiative, Part I, CompositesWorld][ref_cw_cai]\]. **This article found no published touch time for that sequence on this airframe**, so the table brackets it from two to ten minutes and the burdened rate from 100 to 200 dollars an hour.
+**But the arithmetic of that saving, on this aeroplane, is smaller than it sounds.** **Thirty-six thousand fasteners were not installed** \[[The Carbon Comet, Lockheed Martin][ref_carbon_comet]\]. Installing one in an airframe means drilling, reaming, deburring, cleaning, sealing, setting and inspecting, and drilling holes and installing fasteners is a major source of labour and rework in aircraft structure \[[Market Trends, the Composites Affordability Initiative, Part I, CompositesWorld][ref_cw_cai]\]. **No published touch time for that sequence on this airframe was found**, so the table brackets it from two to ten minutes and the burdened rate from 100 to 200 dollars an hour.
 
 | Minutes a fastener | Burdened rate | Hours saved | Value | Share of the contract |
 |---|---|---|---|---|
@@ -399,9 +398,9 @@ for the 120 degree and 80 degree routes, with every dwell in hours.
 | 5 | 150 dollars an hour | 3,000 | 450,000 dollars | 0.92 percent |
 | 10 | 200 dollars an hour | 6,000 | 1,200,000 dollars | 2.44 percent |
 
-**Against a contract of 49,097,981 dollars, the fasteners that were never installed are worth between a quarter of one percent and two and a half percent.** The contract is the cooperative agreement the Air Force Research Laboratory awarded Lockheed Martin on 20 April 2007, whose first phase covered the design and whose second covered fabrication and flight demonstration \[[X-55 Advanced Composite Cargo Aircraft, Program, GlobalSecurity.org][ref_globalsecurity_acca]\]. The assumptions are stated rather than hidden, and the conclusion is robust across the whole range of them, because the range spans a factor of ten and the answer stays small.
+**Against a contract of 49,097,981 dollars, the fasteners that were never installed are worth between a quarter of one percent and two and a half percent.** The contract is the cooperative agreement the Air Force Research Laboratory awarded Lockheed Martin on 20 April 2007, whose first phase covered the design and whose second covered fabrication and flight demonstration \[[X-55 Advanced Composite Cargo Aircraft, Program, GlobalSecurity.org][ref_globalsecurity_acca]\]. The assumptions are stated openly, and the conclusion holds across their range, because the range spans a factor of ten and the answer stays small.
 
-**This is not an argument that the saving is illusory. It is an argument about where the saving lives.** A fastener eliminated is worth its installation cost **every time an aeroplane is built**, so the saving is recurring and the demonstration is not.
+**None of this suggests the saving is illusory. The question is where the saving lives.** A fastener eliminated is worth its installation cost **every time an aeroplane is built**, so the saving is recurring and the demonstration is not.
 
 Recurring cost falls with cumulative production under a progress ratio, in the form Wright wrote down for airframes in the 1930s \[[Experience Curve Effects][ref_learning_curve]\] \[[Military Airframe Costs: The Effects of Advanced Materials and Manufacturing Processes][research_rand_airframe_costs]\].
 
@@ -411,9 +410,9 @@ C_{i} = C_{1}\,i^{b}
 b = \frac{\ln \varrho}{\ln 2}
 $$
 
-At a progress ratio $\varrho$ of 0.90 the hundredth unit costs 0.497 of the first, and at 0.85 it costs 0.34. **A simpler assembly does not only cost less per aeroplane. It has fewer things left to learn about**, which is the second-order effect the part-count literature reports and this article does not attempt to size \[[Apostolopoulos and Kassapoglou* 2002][research_recurring_cost_part_size]\].
+At a progress ratio $\varrho$ of 0.90 the hundredth unit costs 0.497 of the first, and at 0.85 it costs 0.34. **A simpler assembly costs less per aeroplane and also has fewer things left to learn about**, a second-order effect the part-count literature reports and this article does not attempt to size \[[Apostolopoulos and Kassapoglou* 2002][research_recurring_cost_part_size]\].
 
-**Inverting for the length of the run is what turns the argument into a number.** Asking how many aeroplanes the recurring saving must accumulate over before it repays what the demonstration cost gives
+**Solving for the length of the run turns the argument into a number.** Asking how many aeroplanes the recurring saving must accumulate over before it repays what the demonstration cost gives
 
 $$
 n_{\text{break-even}} = \frac{C_{\text{programme}}}{\Delta C_{\text{per aircraft}}}
@@ -427,37 +426,37 @@ $$
 
 **Somewhere between forty and four hundred aeroplanes, and about a hundred on the middle assumption.** Charging the saving against a declining learning curve rather than a flat one pushes the middle case to 210 aeroplanes, because the saving itself shrinks as the assembly gets cheaper to perform.
 
-**That is not the industrial break-even and is not offered as one.** A production programme would weigh the saving against the non-recurring cost of its own tooling, qualification and facilities rather than against what a demonstrator cost, and this article has no figure for that. **What the calculation gives is the scale of run over which a saving of this size becomes comparable to a cost of this size**, which is the question the registry entry's word `validate` raises and cannot answer on one aeroplane.
+**That is not the industrial break-even and is not offered as one.** A production programme would weigh the saving against the non-recurring cost of its own tooling, qualification and facilities rather than against what a demonstrator cost, and this article has no figure for that. **What the calculation gives is the scale of run over which a saving of this size becomes comparable to a cost of this size**, the question that the registry entry's word `validate` raises and cannot answer on one aeroplane.
 
-**Two hundred and seventy-nine C-17s were built before the line closed, and C-130J deliveries had passed five hundred by March 2022** \[[Boeing C-17 Globemaster III][ref_c17]\] \[[Lockheed Martin C-130J Super Hercules][ref_c130j]\], so a run of that length is not a fanciful comparison for a military transport. **But the X-55 was a run of one**, and the tooling, the qualification and the first-article learning all fall on that single article. **The demonstrator is the worst possible case for the economics it was built to demonstrate**, and the arithmetic says by roughly two orders of magnitude.
+**Two hundred and seventy-nine C-17s were built before the line closed, and C-130J deliveries had passed five hundred by March 2022** \[[Boeing C-17 Globemaster III][ref_c17]\] \[[Lockheed Martin C-130J Super Hercules][ref_c130j]\], so a run of that length is not a fanciful comparison for a military transport. **But the X-55 was a run of one**, and the tooling, the qualification and the first-article learning all fall on that single article \[[Lockheed Martin X-55][ref_x55_wikipedia]\]. **The demonstrator is the worst possible case for the economics it was built to demonstrate**, and the arithmetic puts the gap at roughly two orders of magnitude.
 
 ## Dependent Systems
 
-**A unitised bonded structure depends on two things beyond the cure, the joint that replaces the fastener and the material that has to be laid before it expires.** The first is the bondline, whose certification has in practice brought mechanical fasteners back as a second load path and a disbond arrest. The second is the prepreg's out life, which the datasheet fixes at twenty-one days and which bounds how large a part can be made in one piece \[[MTM45-1 Prepreg Technical Data Sheet, Cytec Industrial Materials][ref_mtm45_datasheet]\]. **The donor airframe the new structure was grafted onto**, with its wing, engines, landing gear, avionics and forward fuselage left as they were, is described in the section headed Programme Origin.
+**A unitised bonded structure depends on two things beyond the cure, the joint that replaces the fastener and the material that has to be laid before it expires.** The first is the bondline, whose certification has in practice brought mechanical fasteners back as a second load path and a disbond arrest \[[AC 20-107B, Composite Aircraft Structure, Federal Aviation Administration][ref_faa_ac20107b]\] \[[Cheung and Lin 2009][research_fasteners_disbond_arrest]\]. The second is the prepreg's out life, which the datasheet fixes at twenty-one days and which bounds how large a part can be made in one piece \[[MTM45-1 Prepreg Technical Data Sheet, Cytec Industrial Materials][ref_mtm45_datasheet]\]. **The donor airframe the new structure was grafted onto**, with its wing, engines, landing gear, avionics and forward fuselage left as they were, is described under Programme Origin.
 
 ### Some of the Fasteners Come Back
 
-**The arithmetic above assumed the eliminated fasteners stay eliminated, and the certification literature says they do not.**
+**The arithmetic above assumed the eliminated fasteners stay eliminated, and the certification literature finds that they do not.**
 
-**A bonded joint's difficulty is not that it is weak. It is that its strength cannot be demonstrated by looking at it.** A fastener can be counted, torqued and inspected. A bondline can be perfect and a bondline can be a kissing bond, in which the surfaces touch and do not adhere, and the two can be difficult to tell apart by any method that does not load the joint \[[Jonas and Aldag 1987][research_cert_bonded_1987]\] \[[Tsai et al 1999][research_bonded_joint_failure]\] \[[Kan et al 1997][research_advanced_cert_methodology]\].
+**The trouble with a bonded joint is not weakness but the impossibility of demonstrating its strength by looking at it.** A fastener can be counted, torqued and inspected. A bondline can be perfect and a bondline can be a kissing bond, in which the surfaces touch and do not adhere, and the two can be difficult to tell apart by any method that does not load the joint \[[Jonas and Aldag 1987][research_cert_bonded_1987]\] \[[Tsai et al 1999][research_bonded_joint_failure]\] \[[Kan et al 1997][research_advanced_cert_methodology]\].
 
 **The regulator's answer is to make the joint carry limit load with the largest disbond it can tolerate, and to require that anything larger be stopped by a design feature**, for any bonded joint whose failure would be catastrophic, unless every production article is proof tested or a repeatable and reliable inspection of joint strength exists \[[AC 20-107B, Composite Aircraft Structure, Federal Aviation Administration][ref_faa_ac20107b]\]. In practice the design feature of choice has been mechanical fasteners driven through the bondline, which act both as a second load path and as a means of stopping a disbond once it starts \[[Cheung and Lin 2009][research_fasteners_disbond_arrest]\] \[[Cheung and Lin 2012][research_fastener_arrest_numerical]\] \[[Baker 2010][research_cert_bonded_repairs]\].
 
-**That is a fastener put back into a structure whose whole justification was taking fasteners out**, and it costs more than the fastener, because it also gives up the joint stiffness and the fatigue performance that made bonding attractive.
+**That is a fastener put back into a structure whose justification was taking fasteners out**, and it costs more than the fastener, because it also gives up the joint stiffness and the fatigue performance that made bonding attractive.
 
 **The size of the giveback is not something this article can compute**, since the number of arrest fasteners a certification basis demands depends on the structure, the load path and the authority. **What can be said is the direction, and that the research effort aimed at avoiding the giveback is substantial and current.** An Air Force Research Laboratory programme with Northrop Grumman has been working since at least 2021 on fail-safe features for bonded unitised structure that are not fasteners, and a parallel effort has pursued joints with inherent disbond arrest capability \[[Clay et al 2021][research_failsafe_intro]\] \[[Bartley-Cho and Muraliraj 2022][research_failsafe_progress]\] \[[Action and Goyal 2022][research_failsafe_specimen]\] \[[Bartley-Cho and Nickerson 2019][research_cojac]\].
 
-**A research programme is evidence that a problem is unsolved.** **The X-55 flew in 2009 and that laboratory effort was still publishing in 2023** \[[Bartley-Cho et al 2023][research_bartleycho_muraliraj_2023]\], so the certification of a bonded unitised airframe remained open fourteen years later, which is a fact about the technology the demonstrator could not have established and did not claim to.
+**A research programme is evidence that a problem is unsolved.** **The X-55 flew in 2009 and that laboratory effort was still publishing in 2023** \[[Bartley-Cho et al 2023][research_bartleycho_muraliraj_2023]\], so the certification of a bonded unitised airframe remained open fourteen years later, a fact about the technology the demonstrator could not have established and did not claim to.
 
 ### The Clock That Runs on the Material
 
 **A prepreg is a reacting system from the moment it leaves the freezer, and the datasheet gives it twenty-one days of out life and ten days of tack life at room temperature** \[[MTM45-1 Prepreg Technical Data Sheet, Cytec Industrial Materials][ref_mtm45_datasheet]\]. **Out life is cumulative and nothing resets it.**
 
-**The consequence for a large unitised part is direct and it is the argument this article thinks is the strongest one available.** Unitisation means making parts bigger. A bigger part takes longer to lay up. **And the material is degrading throughout.**
+**The consequence for a large unitised part is direct, and this article judges it the strongest argument available.** Unitisation means making parts bigger. A bigger part takes longer to lay up. **The material degrades throughout.**
 
 The tests already quoted make that concrete. The same prepreg family at thirty-five days out of the freezer had lost so much tack that its plies no longer held to a vertical tool, showed 8.3 percent voids where the fresh material showed 0.1 percent, and returned short beam shear strengths at about four fifths of its peers \[[Sutter et al 2010][research_sutter_comparison]\]. **That is a rise from a tenth of one percent to more than eight percent for one interval of shop-floor time**, and every one of the four fresh systems in that study measured below 2 percent, and the effect on the resin's viscosity and gel behaviour is measurable long before that \[[Kim et al 2014][research_outtime_cure_kinetics]\] \[[Kim et al 2014][research_outtime_cure_monitoring]\].
 
-**Inverting for the rate rather than comparing areas is what attaches a margin to the claim.** One fuselage half is half a cylinder, so its surface follows from the two dimensions the record gives.
+**Computing the rate the out-life demands attaches a margin to the claim, where comparing areas would not.** One fuselage half is half a cylinder, so its surface follows from the two dimensions the record gives.
 
 $$
 A_{\text{skin}} = \frac{\pi D L}{2}
@@ -477,7 +476,7 @@ $$
 
 **A twelve-ply facesheet on one half-shell is roughly 1,024 square metres of ply to place**, and fitting that inside the out-life window at one shift a day requires 6.09 square metres an hour sustained, every working hour, for three weeks. **That is a crew size rather than a schedule, and the crew size is being set by chemistry.**
 
-**Inverting the same relation for the part rather than the rate gives the sharper form of the constraint.** A shop that can sustain a given rate can lay at most
+**Turned around to give the part instead of the rate, the same relation states the constraint more sharply.** A shop that can sustain a given rate can lay at most
 
 $$
 N_{\text{max}} = \frac{\dot{A}\,t_{\text{out}}\,h_{\text{day}}}{A_{\text{skin}}}
@@ -492,17 +491,17 @@ plies on a shell of that size before the material is out of time.
 | 5 square metres an hour | 16 | 20 |
 | 10 square metres an hour | 16 | 39 |
 
-**A ceiling of ten to twenty plies is not a comfortable margin over what a fuselage skin needs**, and it falls in direct proportion to the area of whatever the shop decides to make in one piece. **This is the number that bounds unitisation from above**, and unlike tooling or handling it cannot be bought around.
+**A ceiling of ten to twenty plies is not a comfortable margin over what a fuselage skin needs**, and it falls in direct proportion to the area of whatever the shop decides to make in one piece. **This number bounds unitisation from above**, and unlike tooling or handling it cannot be bought around.
 
 **A programme whose whole argument was fewer and larger parts still built its fuselage in eight pieces** \[[Out-of-Autoclave Prepregs, Hype or Revolution, CompositesWorld][ref_cw_ooa]\]. **The record does not say why**, and a large structure is subdivided for tooling, for handling, for the tail and for the frames as readily as for anything else. **What can be said is that unitisation has an optimum and it is not infinity**, and that out-life is one of the bounds on it, and the only one of them that no tooling change can relax. **The programme's own manufacturing engineer recorded the same bound as a lesson**, that longer prepreg out-time would be desirable and that fibre placement of slit prepreg had become necessary to make large structures within the out-time the material allows \[[Advanced Composite Cargo Aircraft Proves Large Structure Practicality, CompositesWorld][ref_cw_acca]\].
 
 ## The Flight Test Record
 
-**The public flight test record of the X-55 is short, and most of what it holds is a pair of dates.** The aeroplane first flew on 2 June 2009, against a first flight the broad agency announcement had required for October 2008 \[[Lockheed Martin Conducts Successful Flight of AFRL's Advanced Composite Cargo Aircraft][ref_lm_first_flight]\] \[[Advanced Composite Cargo Aircraft Proves Large Structure Practicality, CompositesWorld][ref_cw_acca]\]. Phase III, awarded on 17 September 2009, was to expand the flight envelope and characterise the structure \[[X-55 Advanced Composite Cargo Aircraft, Program, GlobalSecurity.org][ref_globalsecurity_acca]\], and 15 to 20 flights were expected over the programme \[[Lockheed Martin X-55][ref_x55_wikipedia]\]. **This article found no primary record of the number of flights actually completed, and no public dataset of the loads the instrumented structure measured.** The record therefore establishes that the structure flew and carried its loads, and says nothing numerical about how it behaved while doing so.
+**The public flight test record of the X-55 is short, and most of what it holds is a pair of dates.** The aeroplane first flew on 2 June 2009, against a first flight the broad agency announcement had required for October 2008 \[[Lockheed Martin Conducts Successful Flight of AFRL's Advanced Composite Cargo Aircraft][ref_lm_first_flight]\] \[[Advanced Composite Cargo Aircraft Proves Large Structure Practicality, CompositesWorld][ref_cw_acca]\]. Phase III, awarded on 17 September 2009, was to expand the flight envelope and characterise the structure \[[X-55 Advanced Composite Cargo Aircraft, Program, GlobalSecurity.org][ref_globalsecurity_acca]\], and 15 to 20 flights were expected over the programme \[[Lockheed Martin X-55][ref_x55_wikipedia]\]. **No primary record consulted gives the number of flights completed, and no public dataset of the loads the instrumented structure measured turned up.** The record therefore establishes that the structure flew and carried its loads, and says nothing numerical about how it behaved while doing so.
 
-### The Schedule, Which Is the Half That Failed
+### The Half of the Charter That Failed
 
-**The programme's own dates are the measurement.**
+**The programme's dates are the measurement.**
 
 | Event | Date |
 |---|---|
@@ -512,47 +511,47 @@ plies on a shell of that size before the material is out of time.
 | First flight required by the announcement | October 2008 |
 | First flight achieved | 2 June 2009 |
 
-**Twelve months were asked for the build and about twenty were taken**, an overrun of roughly two thirds. The announcement gave the second phase, fabrication and flight, a twelve month period of performance, and the manufacturer records the aeroplane as built and flown twenty months after the go-ahead \[[X-55 Advanced Composite Cargo Aircraft, Program, GlobalSecurity.org][ref_globalsecurity_acca]\] \[[The Carbon Comet, Lockheed Martin][ref_carbon_comet]\]. **The sources do not agree on the size of the overrun, and both are stated here.** By the dates, the first flight came eight months after the 30 September 2008 deadline for the demonstrator and seven to eight months after the October 2008 date in the announcement \[[X-55 Advanced Composite Cargo Aircraft, Program, GlobalSecurity.org][ref_globalsecurity_acca]\] \[[Advanced Composite Cargo Aircraft Proves Large Structure Practicality, CompositesWorld][ref_cw_acca]\] \[[Lockheed Martin Conducts Successful Flight of AFRL's Advanced Composite Cargo Aircraft][ref_lm_first_flight]\]. The programme's own manufacturing engineer gives the first flight as May 2009, nine months later than planned, and a second trade-press account records it as seven months past the deadline and on budget \[[Advanced Composite Cargo Aircraft Proves Large Structure Practicality, CompositesWorld][ref_cw_acca]\] \[[Out-of-Autoclave Prepregs, Hype or Revolution, CompositesWorld][ref_cw_ooa]\]. **The overrun is therefore between seven and nine months, by source**, and the manufacturer's press release fixes the date of the flight itself as 2 June.
+**Twelve months were asked for the build and about twenty were taken**, an overrun of roughly two thirds. The announcement gave the second phase, fabrication and flight, a twelve month period of performance, and the manufacturer records the aeroplane as built and flown twenty months after the go-ahead \[[X-55 Advanced Composite Cargo Aircraft, Program, GlobalSecurity.org][ref_globalsecurity_acca]\] \[[The Carbon Comet, Lockheed Martin][ref_carbon_comet]\]. **The sources do not agree on the size of the overrun, and both are stated here.** By the dates, the first flight came eight months after the 30 September 2008 deadline for the demonstrator and seven to eight months after the October 2008 date in the announcement \[[X-55 Advanced Composite Cargo Aircraft, Program, GlobalSecurity.org][ref_globalsecurity_acca]\] \[[Advanced Composite Cargo Aircraft Proves Large Structure Practicality, CompositesWorld][ref_cw_acca]\] \[[Lockheed Martin Conducts Successful Flight of AFRL's Advanced Composite Cargo Aircraft][ref_lm_first_flight]\]. The programme's manufacturing engineer gives the first flight as May 2009, nine months later than planned, and a second trade-press account records it as seven months past the deadline and on budget \[[Advanced Composite Cargo Aircraft Proves Large Structure Practicality, CompositesWorld][ref_cw_acca]\] \[[Out-of-Autoclave Prepregs, Hype or Revolution, CompositesWorld][ref_cw_ooa]\]. **The overrun is therefore between seven and nine months, by source**, and the manufacturer's press release fixes the date of the flight itself as 2 June.
 
 **The cause is the part that matters.** The first flight was expected in the winter of 2008 and 2009, and the schedule slipped because the skin on the lower fuselage did not bond satisfactorily. **A second fuselage had to be built** \[[Lockheed Martin X-55][ref_x55_wikipedia]\].
 
-**An aeroplane designated to validate extreme time compression in airframe manufacture lost the better part of a year to a defect in the manufacturing process it existed to validate.** That is not a criticism of the programme, which is what a demonstrator is for. **It is an observation about what the demonstrator demonstrated**, and the observation is that the cost half of the charter survived and the time half did not.
+**An aeroplane designated to validate extreme time compression in airframe manufacture lost the better part of a year to a defect in the manufacturing process it existed to validate.** That is no criticism of the programme, since finding such defects is what a demonstrator is for. **It is an observation about what the demonstrator demonstrated**, and the observation is that the cost half of the charter survived and the time half did not.
 
-**And it is worth being precise about which half survived.** The cost claim is that the aeroplane was built at half the estimated cost of a conventional design of the same size \[[The Carbon Comet, Lockheed Martin][ref_carbon_comet]\]. **That is a comparison against an estimate.** No metallic aft fuselage for this aeroplane was ever built to compare it with, and no such aeroplane existed to be estimated except on paper. **The schedule, by contrast, was compared against a date**, and a date is an observation.
+**Which half survived needs stating precisely.** The cost claim is that the aeroplane was built at half the estimated cost of a conventional design of the same size \[[The Carbon Comet, Lockheed Martin][ref_carbon_comet]\]. **That is a comparison against an estimate.** No metallic aft fuselage for this aeroplane was ever built to compare it with, and no such aeroplane existed to be estimated except on paper. **The schedule, by contrast, was compared against a date**, and a date is an observation.
 
 ### What Followed
 
 Phase III was awarded on 17 September 2009 to expand the envelope and characterise the structure, with the aeroplane carrying more than 600 sensors and accelerometers to measure the stresses on it \[[X-55 Advanced Composite Cargo Aircraft, Program, GlobalSecurity.org][ref_globalsecurity_acca]\], and 15 to 20 flights were expected \[[Lockheed Martin X-55][ref_x55_wikipedia]\]. **The aeroplane is now on display at the Joe Davies Heritage Airpark in Palmdale, a few miles from the building it was made in** \[[Joe Davies Heritage Airpark][ref_joe_davies]\].
 
-**No second X-55 was built and none was intended.** The technology went where a technology goes when it works, which is into other people's programmes and out of the public record.
+**No second X-55 was built and none was intended** \[[Lockheed Martin X-55][ref_x55_wikipedia]\]. The technology went where a technology goes when it works, which is into other people's programmes and out of the public record.
 
 ## Comparison With Ground Prediction
 
 **Three predictions were made on the ground before the X-55 flew, and only one of them can be set beside an observation.**
 
-**The schedule is the one that can.** The broad agency announcement of January 2007 required a first flight in October 2008, and the aeroplane first flew on 2 June 2009, an overrun of between seven and nine months by source after the skin on the lower fuselage did not bond satisfactorily and a second fuselage had to be built \[[Advanced Composite Cargo Aircraft Proves Large Structure Practicality, CompositesWorld][ref_cw_acca]\] \[[Lockheed Martin X-55][ref_x55_wikipedia]\]. That comparison is argued in the section headed The Flight Test Record, under The Schedule, Which Is the Half That Failed. **It is a ground prediction tested on the ground**, because the defect that moved the date was found in manufacture and not in flight.
+**The schedule is the one that can.** The broad agency announcement of January 2007 required a first flight in October 2008, and the aeroplane first flew on 2 June 2009, an overrun of between seven and nine months by source after the skin on the lower fuselage did not bond satisfactorily and a second fuselage had to be built \[[Advanced Composite Cargo Aircraft Proves Large Structure Practicality, CompositesWorld][ref_cw_acca]\] \[[Lockheed Martin X-55][ref_x55_wikipedia]\]. The Flight Test Record argues that comparison under The Half of the Charter That Failed. **It is a ground prediction tested on the ground**, because the defect that moved the date was found in manufacture and not in flight.
 
-**The cost is the one that cannot.** The claim that the aeroplane was built at half the estimated cost of a conventional design of the same size is a comparison against an estimate \[[The Carbon Comet, Lockheed Martin][ref_carbon_comet]\]. No metallic aft fuselage for this aeroplane was ever built, so there is no outcome to set beside the prediction, and the recurring saving the registry entry names exists only across a production run that never took place.
+**The cost is the one that cannot.** The claim that the aeroplane was built at half the estimated cost of a conventional design of the same size sets the aeroplane beside an estimate \[[The Carbon Comet, Lockheed Martin][ref_carbon_comet]\]. No metallic aft fuselage for this aeroplane was ever built, so there is no outcome to set beside the prediction, and the recurring saving the registry entry names exists only across a production run that never took place.
 
-**The structure is the one flight should have answered, and the answer is not public.** Phase III instrumented the aeroplane to measure the loads its structure actually saw, which is the comparison between structural prediction and flight that a demonstrator of this kind is equipped to make \[[Lockheed Martin X-55][ref_x55_wikipedia]\]. This article found no public dataset of those loads, so whether the bonded fuselage behaved as predicted cannot be stated here beyond the fact that it flew. **The predictions this article makes for itself, from the consolidation pressure at Air Force Plant 42 to the vitrification ceiling and the break-even run, are computed from published constants and are not tested against any measurement of this aeroplane**, as the section headed Epistemic State records.
+**The structure is the one flight should have answered, and the answer is not public.** The aeroplane carried more than 600 sensors and accelerometers to measure the stresses on its structure, and its later flights were to validate its predicted structural performance, the comparison between structural prediction and flight that a demonstrator of this kind is equipped to make \[[X-55 Advanced Composite Cargo Aircraft, Program, GlobalSecurity.org][ref_globalsecurity_acca]\] \[[Lockheed Martin Conducts Successful Flight of AFRL's Advanced Composite Cargo Aircraft][ref_lm_first_flight]\]. This article found no public dataset of those loads, so whether the bonded fuselage behaved as predicted cannot be stated here beyond the fact that it flew. **The predictions this article makes, from the consolidation pressure at Air Force Plant 42 to the vitrification ceiling and the break-even run, are computed from published constants and are not tested against any measurement of this aeroplane**.
 
 ## What the Data Changed
 
-**The usual argument for leaving the autoclave does not hold at this scale.** It says that an aeroplane leaves the autoclave because no autoclave is large enough. **The pressure vessel scaling gives a shell of 18.4 tonnes for a vessel that would take the part**, about a tenth of the launch vehicle case. The size argument is real at launch vehicle scale and false at this one, and the reasons the trade press gives are capital and operating cost, tooling and a factory without a single autoclave queue, with cycle time cited as a risk rather than a gain.
+**The usual argument for leaving the autoclave does not hold at this scale.** That argument holds that an aeroplane leaves the autoclave because no autoclave is large enough. **The pressure vessel scaling gives a shell of 18.4 tonnes for a vessel that would take the part**, about a tenth of the launch vehicle case. The size argument is real at launch vehicle scale and false at this one, and the reasons the trade press gives are capital and operating cost, tooling and a factory without a single autoclave queue, with cycle time cited as a risk rather than a gain.
 
-**A void fraction does not fall in simple proportion to the pressure.** Dividing a void fraction by a pressure ratio ignores that the laminate shrinks along with the void, and the full relation leaves 1.22 percent after a full autoclave and needs a pressure ratio of 8.96 to reach 1 percent, as the subsection headed What Has to Replace the Pressure derives. **Both numbers put the target beyond what an autoclave can reach by squeezing.**
+**A void fraction does not fall in simple proportion to the pressure.** Dividing a void fraction by a pressure ratio ignores that the laminate shrinks along with the void, and the full relation leaves 1.22 percent after a full autoclave and needs a pressure ratio of 8.96 to reach 1 percent, as derived under What Has to Replace the Pressure. **Both numbers put the target beyond what an autoclave can reach by squeezing.**
 
 **The activation energy was not looked up. It was fitted to two lines of a datasheet table**, and the value it returns agrees with the published range for this chemistry, and predicts a third entry in the same table to within the margin a process specification would be expected to carry.
 
-**And the schedule was not read from a narrative.** Both the plan and the outcome are dates in the public record, and the difference between them had been reported at the time without being subtracted.
+**Nor was the schedule read from a narrative.** Both the plan and the outcome are dates in the public record.
 
-**The datasheet's cure margin is not about laminate thickness, and the Fourier time shows it.** A six millimetre facesheet equilibrates in two minutes, which is 0.83 percent of a four hour dwell. **The margin is about the oven and the tool**, and putting a number on the oven shows the autoclave's pressure buying a factor of 4.93 in convective heat transfer as well as its factor of 7.35 in consolidation, both worked in the subsection headed Low Temperature and Time Compression Pull Against Each Other. **A comparison that counts only the consolidation undercounts what the autoclave supplies.**
+**The datasheet's cure margin is not about laminate thickness, and the Fourier time shows it.** A six millimetre facesheet equilibrates in two minutes, which is 0.83 percent of a four hour dwell. **The margin is about the oven and the tool**, and putting a number on the oven shows the autoclave's pressure buying a factor of 4.93 in convective heat transfer as well as its factor of 7.35 in consolidation, both worked in the sizing above. **A comparison that counts only the consolidation undercounts what the autoclave supplies.**
 
-**Gas transport through the dry tows is a contest between two fluids.** Air and resin move through the same channels with viscosities a factor of 540,541 apart, so evacuation is fast and sealing is slow, and four hours of vacuum would clear 12.1 metres of dry tow, by the Darcy sweep time derived in the subsection headed What Has to Replace the Pressure. **The length of the path is not the constraint.** What the process races is whether the channels are still open, which is a question about out-time, so the void mechanism and the out-life argument are one argument and not two.
+**Gas transport through the dry tows is a contest between two fluids.** Air and resin move through the same channels with viscosities a factor of 540,541 apart, so evacuation is fast and sealing is slow, and four hours of vacuum would clear 12.1 metres of dry tow, by the Darcy sweep time derived earlier. **Path length does not constrain the process.** The race is whether the channels are still open, a question about out-time, so the void mechanism and the out-life argument form a single argument.
 
-**The certification literature supplies the counter-argument to this article's own cost claim, and it is documented rather than speculative.** The fastener arithmetic assumes the eliminated fasteners stay eliminated. **Certifying a bonded primary structure has in practice meant putting mechanical fasteners back through the bondline** as a second load path and a disbond arrest, which is a giveback the public record does not size. **It bears on the article's central number**, which is why the subsection headed Some of the Fasteners Come Back treats it at length rather than in a qualifying clause.
+**The certification literature supplies a documented counter-argument to this article's cost claim.** The fastener arithmetic assumes the eliminated fasteners stay eliminated. **Certifying a bonded primary structure has in practice meant putting mechanical fasteners back through the bondline** as a second load path that also arrests a disbond, a giveback the public record does not size. **It bears on the article's central number**, so it receives a full subsection, Some of the Fasteners Come Back.
 
-**And the recurring saving has a length of run attached to it.** **Dividing the programme cost by the recurring saving puts the break-even between 41 and 409 aeroplanes and at 109 on the middle assumption**, which turns the claim that the saving exists only on a long production run into a number.
+**The recurring saving also has a length of run attached to it.** **Dividing the programme cost by the recurring saving puts the break-even between 41 and 409 aeroplanes and at 109 on the middle assumption**, which turns the claim that the saving exists only on a long production run into a number.
 
 ## The Contemporary Literature
 
@@ -636,7 +635,7 @@ Phase III was awarded on 17 September 2009 to expand the envelope and characteri
 
 ### Drilling, machining and fastening a laminate
 
-**The hole every fastener starts as.** Drilling, milling and cutting of laminates, metal and composite stacks and honeycomb core, and the riveted and bolted fastening that follows the hole. **Every fastener the subsection headed Where the Compression Actually Comes From counts begins as a hole drilled through a laminate or a stack**, and these titles measure what the drilling does to it, in thrust force, delamination and hole quality \[[Park et al 2018][research_park_choi_2018_b]\].
+**The hole every fastener starts as.** Drilling, milling and cutting of laminates, metal and composite stacks and honeycomb core, and the riveted and bolted fastening that follows the hole. **Every fastener the subsection headed Where the Compression Comes From counts begins as a hole drilled through a laminate or a stack**, and these titles measure what the drilling does to it, in thrust force, delamination and hole quality \[[Park et al 2018][research_park_choi_2018_b]\].
 
 **24 records.** \[[Ambekar et al 2026][research_ambekar_shahi_2026]\], \[[Bai et al 2021][research_bai_jia_2021]\], \[[Boughdiri et al 2021][research_boughdiri_giasin_2021]\], \[[Boutrih et al 2022][research_boutrih_makich_2022]\], \[[Dong Wang et al 2019][research_dongwang_li_2019]\], \[[Eneyew and Ramulu 2014][research_eneyew_ramulu_2014]\], \[[Gerendt et al 2019][research_gerendt_dean_2019]\], \[[Jiang et al 2026][research_jiang_liao_2026]\], \[[Kumar et al 2020][research_kumar_kumarverma_2020]\], \[[Kuo et al 2017][research_kuo_wang_2017]\], \[[Li et al 2022][research_li_dai_2022]\], \[[Li et al 2017][research_li_qin_2017]\], \[[Ma et al 2022][research_ma_wang_2022]\], \[[Mi et al 2026][research_mi_hu_2026]\], \[[Mohan et al 2005][research_mohan_ramachandra_2005]\], \[[Park et al 2018][research_park_choi_2018_b]\], \[[Qiu et al 2017][research_qiu_ming_2017]\], \[[Song et al 2022][research_song_cao_2022]\], \[[Van de Velde et al 2023][research_vandevelde_maeyens_2023]\], \[[Wang et al 2020][research_wang_wang_2020]\], \[[Wang et al 2022][research_wang_zhang_2022_b]\], \[[Wu et al 2023][research_wu_liu_2023]\], \[[Zhang et al 2019][research_zhang_wu_2019]\], \[[Zu et al 2017][research_zu_zhou_2017]\].
 
@@ -658,15 +657,15 @@ Phase III was awarded on 17 September 2009 to expand the envelope and characteri
 
 **30 records.** \[[Aerospace series. Polyetheretherketone with][research_aerospace_series_b]\], \[[Aerospace series - Polyetheretherketone][research_aerospace_series_c]\], \[[Alkoc et al 2024][research_alkoc_hazaryoruc_2024]\], \[[Bascom 1964][research_bascom_1964]\], \[[Conductive Thermoset Composites 2018][research_conductive_thermoset_2018]\], \[[Dagli and Sung 1983][research_dagli_sung_1983]\], \[[Dauksys et al 1968][research_dauksys_pagano_1968]\], \[[Epoxy resin moulding material 2002][research_epoxy_resin_2002]\], \[[Fang et al 2019][research_fang_li_2019]\], \[[Friedman 1961][research_friedman_1961]\], \[[Groves and Stocks 1991][research_groves_stocks_1991]\], \[[Gul et al 2026][research_gul_yildiz_2026]\], \[[Kaiser 1994][research_kaiser_1994]\], \[[Kale 2021][research_kale_2021]\], \[[Lin et al 2013][research_lin_lou_2013]\], \[[McAllister and Hill 1984][research_mcallister_hill_1984]\], \[[Ndiaye and Asl Sharhani 2026][research_ndiaye_aslsharhani_2026]\], \[[Noah Martimfold 2025][research_noahmartimfold_2025]\], \[[Petersson et al 2013][research_petersson_motte_2013]\], \[[Polyester, fibreglass-reinforced composite laminate 1978][research_polyester_fibreglass_reinforced_1978]\], \[[Ratna 2022][research_ratna_2022_c]\], \[[Sathishkumar and Kaliyannan 2020][research_sathishkumar_kaliyannan_2020]\], \[[Shibata 2013][research_shibata_2013]\], \[[Tasaka and Matsuzaki 2025][research_tasaka_matsuzaki_2025]\], \[[Wang et al 2016][research_wang_ji_2016]\], \[[Wilson et al 2017][research_wilson_moore_2017]\], \[[Xu et al 2024][research_xu_zhang_2024]\], \[[Yokeswaran et al 2026][research_yokeswaran_karthikeyan_2026]\], \[[Yu and Wan 2012][research_yu_wan_2012]\], \[[Zhang et al 2022][research_zhang_liu_2022]\].
 
-## Where the Framing Breaks Down, What a Single Aeroplane Can and Cannot Demonstrate
+## Where the Framing Breaks Down
 
 **The X-55's central quantity has no instrument.** This is the second article in this series whose binding number is an estimate rather than a reading, after a vehicle whose entire argument turned on a launch price \[[X-Planes: Orbital Sciences X-34][related_post_a331_orbital_sciences_x34]\].
 
 **A flying demonstrator can settle several things and cannot settle the one it was named for.** It can settle whether a bonded composite fuselage with skins twenty metres long will carry flight loads, whether it can be built at all, whether the tooling closes, and whether the structure behaves as predicted once instrumented. **It cannot settle a recurring cost**, because a recurring cost is a property of a production run and the demonstrator is a run of one.
 
-**What it can do is retire a manufacturing risk, and that is a real thing to retire.** Before June 2009 the proposition that a fuselage of this size could be laid up, bonded, closed and flown without an autoclave was an assertion, and afterwards it was not.
+**What it can do is retire a manufacturing risk, and that is a real thing to retire.** Before June 2009 the proposition that a fuselage of this size could be laid up, bonded, closed and flown without an autoclave was an assertion, and afterwards it was not \[[The Carbon Comet, Lockheed Martin][ref_carbon_comet]\].
 
-**But a manufacturing risk is not the whole of the technical risk, and the section headed Some of the Fasteners Come Back is why.** The certification of a bonded unitised primary structure was an open problem before the X-55 flew and remained one long afterwards, and **no single flying article could have closed it**, because what a certification basis wants is not a demonstration but a body of evidence about how the structure fails.
+**But a manufacturing risk is not the whole of the technical risk, as the fastener giveback shows.** The certification of a bonded unitised primary structure was an open problem before the X-55 flew and remained one long afterwards \[[Market Trends, the Composites Affordability Initiative, Part I, CompositesWorld][ref_cw_cai]\] \[[Clay et al 2021][research_failsafe_intro]\], and **no single flying article could have closed it**, because what a certification basis wants is not a demonstration but a body of evidence about how the structure fails.
 
 **The registry entry claims more than a demonstrator can deliver**, and the gap between the two is the subject of this article.
 
@@ -813,9 +812,9 @@ ambient storability.
 
 **What is computed here and stated as such.** The pressure at Plant 42 and the consolidation pressures that follow from it. The pressure vessel scaling. The Boyle's law void arithmetic and the surface-tension threshold beneath it. The activation energy fitted to the datasheet, and the dwell comparison built on it. The vitrification ceiling. The Darcy transport times. The convective scaling. The fastener labour and the break-even run. The layup rate implied by the out-life and the ply ceiling implied by that. **None of those is a measurement of this aeroplane.** They are what the published constants imply, and where an assumption drives an answer the assumption is named beside it.
 
-**Four assumptions carry more weight than the rest and are named here rather than left in the text.** The surface tension of the uncured resin is taken at 0.035 newtons per metre, a representative value and not a measurement of this material. The Kozeny constant, the fibre volume fraction and the two viscosities in the transport calculation are representative in the same way, and the transport conclusion survives a hundredfold error in the permeability because the length goes as its square root. **Two of the three DiBenedetto parameters are assumptions**, and the vitrification ceiling moves between 0.741 and 0.899 across the range they plausibly occupy, while the conclusion drawn from them does not move at all. **The minutes and the burdened rate in the fastener arithmetic are assumptions spanning a factor of ten**, and the break-even run spans the same factor in consequence.
+**Four assumptions carry more weight than the rest and are collected here.** The surface tension of the uncured resin is taken at 0.035 newtons per metre, a representative value and not a measurement of this material. The Kozeny constant, the fibre volume fraction and the two viscosities in the transport calculation are representative in the same way, and the transport conclusion survives a hundredfold error in the permeability because the length goes as its square root. **Two of the three DiBenedetto parameters are assumptions**, and the vitrification ceiling moves between 0.741 and 0.899 across the range they plausibly occupy, while the conclusion drawn from them does not move at all. **The minutes and the burdened rate in the fastener arithmetic are assumptions spanning a factor of ten**, and the break-even run spans the same factor in consequence.
 
-**What is uncertain.** The ninety against ninety-eight percent fastener discrepancy is unresolved. **The trade press calls the fuselage sixty feet long in one account and its skins sixty-five feet long in another, and the encyclopaedia entry gives fifty-five feet for the fuselage with the nose attached** \[[Out-of-Autoclave Prepregs, Hype or Revolution, CompositesWorld][ref_cw_ooa]\] \[[Advanced Composite Cargo Aircraft Proves Large Structure Practicality, CompositesWorld][ref_cw_acca]\] \[[Lockheed Martin X-55][ref_x55_wikipedia]\]. This article uses the skin length throughout, which makes the skin area and every rate derived from it an upper estimate. The number of flights was expected in advance to be 15 to 20, and this article found no primary record of the total. The cure schedule actually used on the fuselage is not published, and the trade press reports an oven cure at 177 degrees, 350 Fahrenheit, with vacuum pressure \[[Advanced Composite Cargo Aircraft Proves Large Structure Practicality, CompositesWorld][ref_cw_acca]\], where the datasheet's vacuum bag cure is 120 degrees with a post-cure at 180, which is most likely a description of the post-cure rather than a contradiction. **The article does not assume which.**
+**What is uncertain.** The ninety against ninety-eight percent fastener discrepancy is unresolved. **The trade press calls the fuselage sixty feet long in one account and its skins sixty-five feet long in another, and the encyclopaedia entry gives fifty-five feet for the fuselage with the nose attached** \[[Out-of-Autoclave Prepregs, Hype or Revolution, CompositesWorld][ref_cw_ooa]\] \[[Advanced Composite Cargo Aircraft Proves Large Structure Practicality, CompositesWorld][ref_cw_acca]\] \[[Lockheed Martin X-55][ref_x55_wikipedia]\]. This article uses the skin length throughout, which makes the skin area and every rate derived from it an upper estimate. The number of flights was expected in advance to be 15 to 20, and no primary record of the total has come to light. The cure schedule used on the fuselage is not published, and the trade press reports an oven cure at 177 degrees, 350 Fahrenheit, with vacuum pressure \[[Advanced Composite Cargo Aircraft Proves Large Structure Practicality, CompositesWorld][ref_cw_acca]\], where the datasheet's vacuum bag cure is 120 degrees with a post-cure at 180, which is most likely a description of the post-cure rather than a contradiction. **The article does not assume which.**
 
 **What could not be verified.** No Air Force Research Laboratory final report on this programme was located in the public report registries, and the absence is reported rather than treated as evidence of absence. **The number of arrest fasteners a certification basis would demand of a structure like this one is not published and is not estimated here.** **The claim that the bond failure was caused by out-life is not made**, because no source states it. The out-life argument here is a mechanism the literature supports and not a diagnosis of this event.
 
@@ -823,7 +822,7 @@ ambient storability.
 
 ## Out of Scope
 
-The aerodynamics of the aeroplane, which were the Dornier's and were not modified. The flight test instrumentation and the loads it measured, for which no public dataset was found. Thermoplastic composites, which answer the same question a different way and would double the article. The certification of bonded primary structure, which is named because the survey covers it and is not argued here. **And the aeroplane's contribution to any later programme, which is exactly the information a contractor does not publish.**
+The aerodynamics of the aeroplane, which were the Dornier's and were not modified. The flight test instrumentation and the loads it measured, for which no public dataset was found. Thermoplastic composites, which answer the same question a different way and would double the article. The certification of bonded primary structure, which is named because the survey covers it and is not argued here. **And the aeroplane's contribution to any later programme, information a contractor does not publish.**
 
 ## Conclusion
 
@@ -831,17 +830,17 @@ The aerodynamics of the aeroplane, which were the Dornier's and were not modifie
 
 **The two halves of the registry entry were never symmetric.** The cost claim is a comparison against an estimate of an aeroplane nobody built. The schedule claim is a comparison against a date, and the date was missed by seven to nine months, by source, because the skin on the lower fuselage did not bond and a second fuselage had to be made. **The demonstration was delayed by the thing being demonstrated.**
 
-**The arithmetic says that is what should have been expected, and says why.** Low-temperature curing costs three times the oven dwell of the cure it replaces, so the time saving cannot come from the chemistry. It has to come from part count, and part count is a recurring saving that a run of one cannot collect. **Meanwhile the same technology that lets a part be large enough to be worth unitising puts a chemical clock on how long its layup may take**, and a programme whose whole argument was fewer and larger parts still assembled its fuselage from eight of them.
+**The arithmetic shows that this should have been expected, and why.** Low-temperature curing costs three times the oven dwell of the cure it replaces, so the time saving cannot come from the chemistry. It has to come from part count, and part count is a recurring saving that a run of one cannot collect. **Meanwhile the same technology that lets a part be large enough to be worth unitising puts a chemical clock on how long its layup may take**, and a programme built on the case for fewer and larger parts still assembled its fuselage from eight of them.
 
-**And the part-count saving is not even wholly the programme's to keep.** Certifying a bonded primary structure has meant putting mechanical fasteners back through the bondline as a second load path and a disbond arrest, and those take back some of what unitisation removed while giving up the stiffness and the fatigue performance that made bonding worth doing. **How much is given back is not published and this article does not guess.**
+**Nor is the part-count saving wholly the programme's to keep.** Certifying a bonded primary structure has meant putting mechanical fasteners back through the bondline as a second load path and a disbond arrest, and those take back some of what unitisation removed while giving up the stiffness and the fatigue performance that motivated bonding. **How much is given back is not published and this article does not guess.**
 
-**None of that makes the aeroplane a failure.** It flew, it carried its loads, and it did so on a cooperative agreement of 49,097,981 dollars for its design and build. **It retired a manufacturing risk, which is a real thing to retire.** A bonded composite fuselage with skins 19.8 metres long could be built outside an autoclave, tooled, closed and flown, and before June 2009 that was an assertion.
+**None of that makes the aeroplane a failure.** It flew, it carried its loads, and it did so on a cooperative agreement of 49,097,981 dollars for its design and build. **It retired a manufacturing risk.** A bonded composite fuselage with skins 19.8 metres long could be built outside an autoclave, tooled, closed and flown, and before June 2009 that was an assertion.
 
 **What it did not retire, and could not have, is the certification risk.** An Air Force Research Laboratory programme was still publishing on fail-safe features for bonded unitised structure in 2023, fourteen years later, **so the question of whether such a structure can be certified without putting the fasteners back was open before the X-55 flew and remained open long after.**
 
 **And what it could not do was measure the quantity in its own mission statement**, because that quantity only exists across a production run. **The arithmetic puts that run at between forty and four hundred aeroplanes and at about a hundred on the middle assumption**, and there was never going to be a second.
 
-**And one number in this article is worth keeping for its own sake.** The pressure a vacuum bag can apply is the pressure of the air outside it, so the consolidation available to an out-of-autoclave process at Air Force Plant 42 is 13.39 pounds per square inch rather than the 14.7 of sea level, and the material datasheet asks for a vacuum the site's entire atmosphere cannot supply. **A manufacturing specification for an aeroplane turns out to depend on the elevation of the floor it is built on.**
+**One number in this article deserves to be kept for its own sake.** The pressure a vacuum bag can apply is the pressure of the air outside it, so the consolidation available to an out-of-autoclave process at Air Force Plant 42 is 13.39 pounds per square inch against the 14.7 of sea level, and the material datasheet asks for a vacuum the site's entire atmosphere cannot supply. **A manufacturing specification for an aeroplane turns out to depend on the elevation of the floor it is built on.**
 
 **The number arrived 139 days after the first flight, which is the right order for a designation that was recognising a result rather than authorising an attempt.**
 

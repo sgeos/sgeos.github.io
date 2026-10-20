@@ -17,7 +17,7 @@ begins there. **The more interesting number is 28 percent.** The aircraft was a
 [subscale model][ref_museum], which the
 [National Aeronautics and Space Administration's programme account][ref_nasa_x36] and its
 [inventory of American X-vehicles][ref_american_x_vehicles] both describe as a 28 percent scale
-representation of a fighter. It flew with nobody aboard, from a ground station whose pilot watched through a
+representation of a fighter. It flew with nobody aboard, from a [ground station][ref_nasa_x36] whose pilot watched through a
 camera in its nose. Its [published specification][ref_x36] gives a maximum weight of 1,270 pounds and a
 height of 0.946 metres. This is the thirty-seventh article
 in the [X-Planes series][related_post_a297_xplanes_framing], following the [X-1][related_post_a298_bell_x1],
@@ -39,8 +39,8 @@ the [X-2][related_post_a299_bell_x2], the [X-3][related_post_a300_douglas_x3], t
 [X-32][related_post_a329_boeing_x32], the [X-33][related_post_a330_lockheed_martin_x33], the
 [X-34][related_post_a331_orbital_sciences_x34], and the [X-35][related_post_a332_lockheed_martin_x35].
 
-**A scale factor is not a detail of the hardware. It is a statement about what the experiment is able to measure**,
-and in this case it is a statement with a sharp edge, because the choice that makes the aeroplane's motions
+**A scale factor is not a detail of the hardware. It decides what the experiment is able to measure**,
+and here the decision has a sharp edge, because the choice that makes the aeroplane's motions
 representative is the same choice that makes it harder to fly than the aircraft it represents.
 
 ## The Research Question
@@ -49,8 +49,8 @@ representative is the same choice that makes it harder to fly than the aircraft 
 
 Can a fighter fly without a vertical tail? The tail costs weight, drag and radar return, and removing it
 would buy all three back.
-**The reason nobody had done it is that the vertical tail is what keeps the aeroplane pointing where it is going**,
-which is [directional stability][ref_directional]. A fuselage in sideslip generates a yawing moment that
+**Nobody had done it because the vertical tail keeps the aeroplane pointing where it is going**,
+the property known as [directional stability][ref_directional]. A fuselage in sideslip generates a yawing moment that
 turns it further into the sideslip, and the fin exists to overcome that. Take the fin away and the aircraft
 is directionally unstable, which means that a disturbance grows instead of decaying.
 
@@ -66,7 +66,7 @@ it in yaw were available in the form of split ailerons and a vectoring nozzle.
 obeying different combinations of the dimensionless groups that govern flight.
 
 **So this article asks what the scale factor bought and what it cost.** Three quantities matter, they cannot
-all be matched at once, and the choice among them is the whole design of the experiment. The answer turns
+all be matched at once, and the choice among them defines the experiment. The answer turns
 out to have an edge that the programme's own accounts do not mention.
 
 **A preview.** Matching the right quantity makes the model's motions faithful and simultaneously makes them
@@ -87,42 +87,43 @@ demonstrators, opposite directions, and both differences are arithmetic, not opi
 The programme was a partnership between McDonnell Douglas, whose [Phantom Works][ref_phantom_works] built
 the aircraft, and the [National Aeronautics and Space Administration][ref_nasa], which
 [supplied the flight research infrastructure][ref_nasa_x36] at [Dryden][ref_dryden].
-**The cost of the tail is the reason the question was asked and the reason it was asked then.** A vertical
-tail is a large flat surface standing proud of the fuselage, which is precisely the worst thing to have on
-an aircraft designed to be difficult to see on radar, and the 1990s were when that consideration became a
-first-order driver of fighter configuration instead of a refinement of it.
+**The cost of the tail explains why the question was asked and why it was asked then.** A vertical
+tail is a large flat surface standing proud of the fuselage, which makes it the worst thing to have on
+an aircraft designed to be difficult to see on radar, and [Walker 1997][research_walkerlaurencea_1997], the programme's test
+pilot, wrote that stealth had recently become an important design consideration.
 
 Two aircraft were built, and the [programme account][ref_nasa_x36] records that their fabrication began in 1994.
 
-The research literature on this subject is surveyed under The Contemporary Literature, chiefly in the cluster on the X-36, X-29 and X-31 demonstrators and the cluster on radar signature and low observability.
+Research on who wanted the answer, and why, is gathered in The Contemporary Literature in the cluster on the X-36, X-29 and X-31 demonstrators and the cluster on radar signature and low observability.
 
 ### Why a Model Rather Than an Aeroplane
 
-**The alternative to a subscale demonstrator was a piloted one, and the arithmetic of that comparison is the reason there is an X-36 and not an X-36-sized fighter.**
+**The alternative to a subscale demonstrator was a piloted one, and the arithmetic of that comparison favoured an X-36 over an X-36-sized fighter.**
 A piloted aircraft needs a cockpit, an escape system, a life support system, redundant everything, and a
 structure certified to carry a person.
 **None of that is cheap and none of it is relevant to the question being asked**, which is whether a control
-law can hold a tailless configuration pointing straight.
+law can hold a tailless configuration pointing straight. [Walker 1997][research_walkerlaurencea_1997] records that cost was the
+major driver of the subscale decision, because cost correlates strongly with size.
 
 The trade is that a model cannot answer every question, and the rest of this article is about which ones it
 cannot.
 
-The research literature on this subject is surveyed under The Contemporary Literature, chiefly in the cluster on similitude, dynamic scaling and subscale flight testing and the cluster on unmanned aircraft, ground stations and remote piloting.
+For the research on this question, see the clusters on similitude, dynamic scaling and subscale flight testing and on unmanned aircraft, ground stations and remote piloting, under The Contemporary Literature.
 
 ## Sizing From First Principles
 
 ### Three Dimensionless Numbers and Only One Can Be Matched
 
-**This is the whole design of the experiment and it takes three lines.** An aeroplane's behaviour is
-governed by the ratio of inertia to gravity, which is the [Froude number][ref_froude], by the ratio of
-inertia to viscosity, which is the [Reynolds number][ref_reynolds], and by the ratio of speed to the speed
+**The design of the experiment follows from three lines of algebra.** An aeroplane's behaviour is
+governed by the ratio of inertia to gravity, the [Froude number][ref_froude], by the ratio of
+inertia to viscosity, the [Reynolds number][ref_reynolds], and by the ratio of speed to the speed
 of sound. The general requirement that a model reproduce its original is [similitude][ref_similitude].
 Writing $V$ for speed, $L$ for a length, $g$ for gravity, $\nu$ for kinematic viscosity and $a$ for the
 speed of sound,
 
 $$\mathrm{Fr} = \frac{V^{2}}{gL} \qquad \mathrm{Re} = \frac{VL}{\nu} \qquad \mathrm{M} = \frac{V}{a}$$
 
-**A model in the same air as the full-scale aircraft has only one free variable, which is its speed**, so it
+**A model in the same air as the full-scale aircraft has only one free variable, its speed**, so it
 can match one of the three and must accept whatever the other two become. Writing $\lambda$ for the length
 ratio and $r_V$ for the velocity ratio,
 
@@ -141,13 +142,13 @@ would require the model to fly at 3.571 times the full-scale aircraft's speed, a
 then be wrong by a factor of 45.55. A model flown that way does not fall the way an aeroplane falls.
 **It is useless for flight dynamics and the row exists only to be dismissed.**
 
-Matching Mach number, which is what a wind tunnel usually does, leaves the Froude number wrong by 3.571.
-**That is fine for measuring pressures and useless for measuring motion**, because the model's weight and
+Matching Mach number, as a wind tunnel usually does, leaves the Froude number wrong by 3.571.
+**Such a model is fine for measuring pressures and useless for measuring motion**, because the model's weight and
 its aerodynamic forces are then in the wrong proportion.
 
 **So a free-flight model that is meant to move like an aeroplane must match Froude, and every other ratio follows from that decision.**
 
-The research literature on this subject is surveyed under The Contemporary Literature, chiefly in the cluster on similitude, dynamic scaling and subscale flight testing.
+The Contemporary Literature takes this subject up mainly in its cluster on similitude, dynamic scaling and subscale flight testing.
 
 ### What Froude Matching Does to Everything Else
 
@@ -159,8 +160,8 @@ $$r_\omega = \frac{1}{\sqrt{\lambda}} = 1.8898 \qquad r_{\dot\omega} = \frac{1}{
 
 $$r_m = \lambda^{3} \qquad r_I = \lambda^{5} = 0.001721 \qquad r_{\mathrm{Re}} = \lambda^{3/2} = 0.1482$$
 
-**The mass and inertia exponents are worth deriving, not quoting.** Holding density common makes mass
-go as volume, which is the cube. A moment is a force times a length and a force at matched Froude number
+**Deriving the mass and inertia exponents is better than quoting them.** Holding density common makes mass
+go as volume, the cube of length. A moment is a force times a length and a force at matched Froude number
 goes as mass, so
 
 $$r_F = \lambda^{3} \qquad r_M = r_F \lambda = \lambda^{4} \qquad r_I = r_m \lambda^{2} = \lambda^{5}$$
@@ -180,14 +181,14 @@ in real seconds than the corresponding motion of the aeroplane it represents.
 **Angular accelerations are 3.571 times larger.** Not the angles and not the rates, but the accelerations,
 because moments scale as the fourth power of length and inertias as the fifth.
 
-**Reynolds number is 0.1482 of full scale, a penalty of 6.749.** That is the price of the choice, and it
+**Reynolds number is 0.1482 of full scale, a penalty of 6.749.** The penalty is the price of the choice, and it
 falls on the separated flow at high angle of attack that the experiment exists to study.
-**How much it actually costs is a separate question from how large the ratio is**, and the comparison
-section below puts both Reynolds numbers on the page rather than leaving the factor to speak for itself.
+**How much it costs is a separate question from how large the ratio is**, and the comparison
+section below computes both Reynolds numbers so that the factor does not have to speak for itself.
 
 ### The Check That Costs Nothing
 
-**If the aeroplane really is a Froude-scaled model then its weight fixes the aeroplane it stands for**,
+**If the aeroplane is a Froude-scaled model then its weight fixes the aeroplane it stands for**,
 because mass scales as the cube of length. Inverting,
 
 $$W_f = \frac{W_m}{\lambda^{3}} = \frac{1{,}270}{0.28^{3}} = 57{,}853 \ \text{lb}$$
@@ -196,8 +197,8 @@ and its empty weight likewise gives 49,654 pounds, while its dimensions give a f
 metres and a span of 11.34 metres.
 
 **Those numbers describe a real class of aeroplane.** Sixty-five feet long, thirty-seven feet in span and
-fifty-eight thousand pounds is a heavy twin-engined fighter, which is exactly what a tailless agility
-demonstrator of the middle 1990s would have been standing in for.
+fifty-eight thousand pounds is the size of a heavy twin-engined fighter, a plausible class for the theoretical
+advanced fighter that the [programme account][ref_nasa_x36] says the aircraft represented.
 **The consistency is not a proof, because the designers chose the model's weight and could have chosen it to be consistent. It is a check that would have failed loudly had the aircraft not been dynamically scaled at all**,
 and it did not fail.
 
@@ -207,10 +208,9 @@ limit and a 110 knot approach speed, and dividing each by the velocity ratio giv
 $$V_f = \frac{V_m}{\sqrt{\lambda}} = \frac{243}{0.5292} = 459.2 \ \text{kt} \qquad V_f = \frac{110}{0.5292} = 207.9 \ \text{kt}$$
 
 for model speed $V_m$ and full-scale speed $V_f$.
-**A 208 knot approach is fast for a fighter and entirely plausible for a tailless one**, which has no flaps
-worth the name because it has no tail to trim their pitching moment against.
+**A 208 knot approach is fast for a fighter.**
 
-The research literature on this subject is surveyed under The Contemporary Literature, chiefly in the cluster on similitude, dynamic scaling and subscale flight testing.
+The same cluster on similitude, dynamic scaling and subscale flight testing holds the research records behind this check.
 
 ### The Handicap the Accounts Do Not Mention
 
@@ -218,7 +218,7 @@ The research literature on this subject is surveyed under The Contemporary Liter
 
 The model's motions run 1.8898 times faster than the full-scale aircraft's.
 **A delay in the command and video path does not run faster.** It is a fixed number of milliseconds imposed
-by cameras, encoders, radio links and displays, and it is the same number of milliseconds whatever the
+by cameras, encoders, radio links and displays, the same whatever the
 aeroplane is doing. So its significance, measured against the dynamics it is trying to control, is
 multiplied by
 
@@ -231,8 +231,8 @@ $$\frac{1}{\sqrt{\lambda}} = 1.8898$$
 | 200 ms | 378.0 ms |
 | 250 ms | 472.5 ms |
 
-**And the pilot is subject to the same multiplication.** A human visual reaction time of roughly 250
-milliseconds, which is a property of the human and not of the aeroplane, is worth **472.5 milliseconds** of
+**And the pilot is subject to the same multiplication.** A human [visual reaction time][ref_reaction] of roughly 200
+milliseconds, set by the human and not by the aeroplane, counts for **378.0 milliseconds** of
 full-scale response.
 
 **No latency figure for this aircraft's link has been published, so the article does not claim one.** What
@@ -245,9 +245,9 @@ the programme was trying to learn about.
 operational article would not carry proves more than a demonstration flown without it, and the previous
 article in this series is the case where that ran the other way.
 
-The research literature on this subject is surveyed under The Contemporary Literature, chiefly in the cluster on time delay, latency and delay compensation and the cluster on handling qualities, pilot-induced oscillation and the pilot model.
+The clusters on time delay, latency and delay compensation and on handling qualities, pilot-induced oscillation and the pilot model, in The Contemporary Literature, gather the research on this handicap.
 
-### What the Missing Fin Actually Costs
+### What the Missing Fin Costs
 
 **A fuselage in sideslip is destabilising and the reason is older than aeronautics.** A slender body at an
 angle to the flow carries a moment that turns it further from alignment, and a fin behind the centre of
@@ -258,7 +258,7 @@ $\beta$ for sideslip,
 $$N = q S b \, C_{n\beta} \, \beta$$
 
 **With a fin, $C_{n\beta}$ is positive and the aircraft weathercocks. Without one it is negative and the aircraft diverges.**
-Everything else in this section follows from that sign change.
+The rest of this section follows from that sign change.
 
 **The magnitude can be derived, not assumed, and it should be.** Slender-body theory gives the
 destabilising moment of a body from its **volume alone**, through the apparent-mass difference $k_2 - k_1$,
@@ -266,7 +266,7 @@ which for a fineness ratio above about eight is near 0.9.
 **The result is older than aeronautical stability and control as a discipline**, having been set out by Max
 Munk in 1924 in [a study of the aerodynamic forces on airship hulls][research_munkmaxm_1924], and the
 correction that makes it usable at real angles of attack, where the potential result must be supplemented by
-cross-flow drag, was published by Allen and Perkins in 1951 in
+cross-flow drag, was published in
 [Allen and Perkins 1951][research_allenhjulian_perkinsedwardw_1951].
 **Both are the primary sources for the relation this article displays.** The derivative per radian is
 
@@ -281,31 +281,31 @@ $$C_{n\beta}^{\text{body}} = -\left(k_2 - k_1\right) \frac{2 \, \mathrm{Vol}}{S 
 | 1.00 m³ | 0.1734 | 0.003027 |
 
 **The derived value at the middle of the bracket is 0.002422 per degree, which is 2.018 times the assumed value of 0.0012, a figure typical of a tailless configuration.**
-That matters in a specific and welcome direction. **The assumed figure is the optimistic one**, so the
+That matters, and in a welcome direction. **The assumed figure is the optimistic one**, so the
 aircraft was more unstable than the rows computed from it suggest, and
 **every conclusion that survives the optimistic case survives the derived one more comfortably.** Both are
-carried through the tables that follow rather than one replacing the other.
+carried through the tables that follow, and neither replaces the other.
 
 **The wing area is not published, so it is inverted from what is.** The approach speed of 110 knots and a
-landing weight of about 1,153 pounds fix the product of area and lift coefficient, and at an approach
+landing weight of about 1,153 pounds, taken as the empty weight with 35 percent of the fuel remaining, fix the product of area and lift coefficient, and at an approach
 coefficient of 0.8 that gives
 
 $$S = \frac{W}{q C_L} = \frac{5{,}129}{1{,}961 \times 0.8} = 3.269 \ \text{m}^{2}$$
 
 and the geometry follows from it,
 
-$$\mathrm{AR} = \frac{b^{2}}{S} = \frac{3.180^{2}}{3.269} = 3.084 \qquad \bar{c} = \frac{S}{b} = 1.029 \ \text{m}$$
+$$\mathrm{AR} = \frac{b^{2}}{S} = \frac{3.175^{2}}{3.269} = 3.084 \qquad \bar{c} = \frac{S}{b} = 1.029 \ \text{m}$$
 
 $$\frac{W}{S} = \frac{1{,}270 \times 0.4536 \times 9.807}{3.269} = 1{,}728 \ \text{N/m}^{2}$$
 
 **The wing loading is therefore 1,728 newtons per square metre at maximum weight**, which at 28 percent scale
 corresponds to 6,171 at full size, since wing loading scales as the length ratio.
 
-An aspect ratio near three is right for this planform class, which is the check that the inversion is not
+An aspect ratio near three is right for this planform class, and that agreement checks that the inversion is not
 nonsense. Across coefficients from 0.7 to 1.0 the aspect ratio runs from 2.699 to 3.855, so the conclusion
 does not depend on the choice.
 
-### How Fast the Divergence Is, and a Distinction Worth Making
+### How Fast the Divergence Grows
 
 Neglecting damping, the yaw equation for a directionally unstable aircraft is
 
@@ -314,12 +314,12 @@ $$I_{zz} \ddot{\beta} = \lvert C_{n\beta} \rvert q S b \, \beta \qquad \Rightarr
 which grows instead of oscillating. The yaw inertia is unpublished, so it is estimated from a radius of
 gyration taken as a fraction of length and reported across a bracket.
 
-**There are two answers to how long a doubling takes and they differ by a factor that is exactly constant.**
+**There are two answers to how long a doubling takes and they differ by a factor that is constant.**
 The flight dynamics convention measures the growing eigen-solution,
 
 $$t_{2} = \frac{\ln 2}{\sigma}$$
 
-while a disturbance actually **released from rest** follows a hyperbolic cosine rather than an exponential,
+while a disturbance **released from rest** follows a hyperbolic cosine rather than an exponential,
 because it starts with no yaw rate at all, and needs
 
 $$t_{2}^{\text{rest}} = \frac{\operatorname{arccosh} 2}{\sigma} = 1.900 \, t_{2}$$
@@ -343,16 +343,16 @@ $$t_{2} = \frac{\ln 2}{1.140} = 0.608 \ \text{s} \qquad t_{2} = \frac{\ln 2}{2.5
 by the modal relation above.
 
 **Every entry is under two seconds and most are under one.** That is the number the control system had to
-beat, and it is the number the ground pilot's link delay had to be small against.
+beat and the number the ground pilot's link delay had to be small against.
 
 **The scaling makes the comparison worse in the obvious direction.** The full-scale aircraft's doubling
 times would be 1.8898 times longer than these, so the model diverged nearly twice as fast as the aeroplane
 it stood for, while the delay in reacting to it stayed the same.
 **Both halves of the handicap point the same way.**
 
-The research literature on this subject is surveyed under The Contemporary Literature, chiefly in the cluster on slender bodies, fuselages and apparent mass, the cluster on directional stability and lateral-directional dynamics and the cluster on flight dynamics, stability derivatives and unstable modes.
+Work on the divergence is listed in The Contemporary Literature in the cluster on slender bodies, fuselages and apparent mass, the cluster on directional stability and lateral-directional dynamics and the cluster on flight dynamics, stability derivatives and unstable modes.
 
-### The Delay Budget, Which Turns the Handicap Into Milliseconds
+### The Delay Budget in Milliseconds
 
 **A fixed delay is amplified by 1.8898. Control theory turns that amplification into a budget, and the budget is small enough to force a conclusion about the architecture.**
 
@@ -362,7 +362,7 @@ growth rate,
 
 $$\omega_c = \kappa \sigma$$
 
-**A pure delay contributes phase lag in direct proportion to frequency**, which is the whole reason delay is
+**A pure delay contributes phase lag in direct proportion to frequency**, and that proportionality makes delay
 dangerous and not merely annoying,
 
 $$\Delta\phi = \omega \tau$$
@@ -373,7 +373,7 @@ designer insists on gives the entire delay budget of the loop,
 $$\tau_{\max} = \frac{\phi_m}{\omega_c} = \frac{\phi_m}{\kappa \sigma}$$
 
 **And $\sigma$ scales as one over the square root of the scale factor, so the budget scales as its square root.**
-The amplification of 1.8898 is exactly this, expressed in the units a control engineer would use.
+The amplification of 1.8898 reappears here in the units a control engineer would use.
 
 At a phase margin of 45 degrees and a crossover three times the growth rate,
 
@@ -384,22 +384,24 @@ At a phase margin of 45 degrees and a crossover three times the growth rate,
 | 243 kt, derived derivative | 2.518 /s | 7.55 rad/s | **104.0 ms** | 196.5 ms |
 
 **Read the fourth column, the model budget, against what a video link and a human cost.** A camera, an encoder, a radio path and
-a display are not free, and a human visual reaction time alone is around 250 milliseconds.
+a display are not free, and a human [visual reaction time][ref_reaction] alone is around 200 milliseconds.
 **The entire budget at maximum speed is between 104 and 148 milliseconds.**
 
 **So the ground pilot cannot have been inside the stabilisation loop, and the architecture follows from the arithmetic rather than from a preference.**
 The inner loop that held this aeroplane pointing straight had to be onboard, closing around sensors and
-effectors with no radio in the path, while the pilot on the ground flew the outer loop of where to go and
-how fast. **That is exactly how the aircraft was built**, and this article did not have to be told.
+effectors with no radio in the path, while the pilot on the ground flew the aircraft through that loop.
+**The aircraft was built that way**, with a digital fly-by-wire system stabilising it in the
+[programme account][ref_nasa_x36] and the pilot flying every takeoff, test manoeuvre and landing in
+[Walker 1997][research_walkerlaurencea_1997], and this article did not have to be told.
 
 **The budget also explains why the full-scale comparison matters.** The same aeroplane at full size would
 have had between 196 and 279 milliseconds, which is roughly a human reaction time.
 **A full-scale tailless aircraft could conceivably be flown by a pilot whose hands were in the loop. The 28 percent model could not**,
-and that difference is entirely an artefact of the scale rather than of the configuration.
+and that difference is an artefact of the scale alone. The configuration plays no part in it.
 
-The research literature on this subject is surveyed under The Contemporary Literature, chiefly in the cluster on stability margins and robust control and the cluster on time delay, latency and delay compensation.
+Research behind the delay budget sits in the clusters on stability margins and robust control and on time delay, latency and delay compensation.
 
-### Why a Nozzle and a Fin Are Complementary Rather Than Alternative
+### Why a Nozzle Complements a Fin
 
 **This is the cleanest result in the article and it comes from noticing which terms carry dynamic pressure.**
 A fin's yawing moment is $q S b$ times a coefficient. The destabilising fuselage moment is $q S b$ times
@@ -426,11 +428,11 @@ because the nozzle authority ratio $R$ falls as the square of speed from its val
 
 $$R(V) = R_{243} \left(\frac{243}{V}\right)^{2} = 1 \qquad \Rightarrow \qquad V_{\text{vec}} = 243 \sqrt{R_{243}} = 243 \sqrt{1.983} = 342.2 \ \text{kt}$$
 
-which is above anything this aircraft ever flew, and well above the 206 knots that the
-[programme account][ref_nasa_x36] records it reaching.
+which is above anything this aircraft ever flew, and well above the
+[206 knots it reached][ref_nasa_x36].
 **So across its entire envelope the nozzle alone was sufficient.**
 
-### What the Split Ailerons Actually Contribute, Which Is Less Settled Than It Looks
+### The Unsettled Contribution of the Split Ailerons
 
 A split aileron opens above and below to add drag on one wing, and the yawing moment is that drag increment
 acting at its spanwise centroid,
@@ -439,7 +441,7 @@ $$N_{\text{dr}} = q \, S_p \, \Delta C_D \, y$$
 
 where $S_p$ is the panel area and $y$ the arm, here 1.111 metres at 35 percent of span.
 
-**The drag increment is the whole answer and it is not published**, so it is bracketed across the range a
+**The drag increment decides the answer, and it is not published**, so it is bracketed across the range a
 split surface can produce, from lightly cracked to fully opened.
 
 | Drag increment | Moment at 243 kt as a share of the nozzle | Speed at which it equals the nozzle |
@@ -449,32 +451,32 @@ split surface can produce, from lightly cracked to fully opened.
 | 0.60 | 132.4 percent | 211.2 kt |
 
 **This limits what can honestly be said.**
-At the bottom of the bracket the nozzle dominates everywhere and the split ailerons really are margin.
+At the bottom of the bracket the nozzle dominates everywhere and the split ailerons are margin.
 **At the top they overtake the nozzle inside the cleared envelope, at 211.2 knots, and become the primary yaw effector at high speed.**
 The drag rudder's moment rises as the square of speed while the nozzle's is constant, so a split-aileron
 moment that is a share $s$ of the nozzle's at 243 knots equals it at
 
 $$V_{\times} = \frac{243}{\sqrt{s}} = \frac{243}{\sqrt{1.324}} = 211.2 \ \text{kt}$$
 
-which lies inside the 243 knot limit and a little above the 206 knots the aircraft is recorded as reaching.
+which lies inside the 243 knot limit and a little above the 206 knots the aircraft is [recorded][ref_nasa_x36] as reaching.
 
 **The bracket spans a factor of six and the conclusion flips inside it, so the correct statement is that it is not determined by public information.**
 What survives is the structural claim, which does not depend on the increment at all.
 **The nozzle's authority is flat with speed and the drag rudder's rises as the square of it**, so whatever
 the crossover speed is, the nozzle owns the low-speed end and the split ailerons own the high-speed end.
-**That is the complementarity the configuration was built around, and it holds across the whole bracket.**
+**The configuration was built around this complementarity, which holds everywhere in the bracket.**
 
 **The complementarity is the general lesson and it survives the particular numbers.** A tailless aircraft
-needs an effector whose authority does not vanish with dynamic pressure, precisely because the condition it
+needs an effector whose authority does not vanish with dynamic pressure, because the condition it
 most fears is high angle of attack at low speed, where every aerodynamic surface is working in separated
 flow and a fin would have stalled even if it were there.
 
-The research literature on this subject is surveyed under The Contemporary Literature, chiefly in the cluster on thrust vectoring, drag rudders and yaw effectors.
+The Contemporary Literature covers yaw effectors in its cluster on thrust vectoring, drag rudders and yaw effectors.
 
 ## The Vehicle
 
-Two aircraft were built. The configuration is a cranked delta wing
-with a canard ahead of it, no vertical surface of any kind, split ailerons on the wing trailing edge that
+[Two aircraft were built][ref_museum]. The configuration is a wing
+with a canard ahead of it, no vertical surface of any kind, [split ailerons][ref_american_x_vehicles] on the wing trailing edge that
 open into upper and lower halves to make drag on one side, and a [thrust-vectoring][ref_tv] nozzle.
 **The figures below are those of the [published specification][ref_x36]**, except the fuel fraction and the
 thrust to weight ratio, which are the fuel load and the thrust each divided by the maximum weight,
@@ -487,7 +489,7 @@ and three feet high, with about 700 pounds of thrust.
 | Quantity | Value |
 |---|---|
 | Length | 18 ft 2.5 in, 5.550 m, including the pitot boom |
-| Span | 10 ft 5 in, 3.180 m |
+| Span | 10 ft 5 in, 3.175 m |
 | Height | 3 ft 1.25 in, 0.946 m |
 | Empty weight | 1,090 lb |
 | Maximum weight | 1,270 lb |
@@ -504,37 +506,38 @@ limits a sortie to well under an hour, 35 to 45 minutes for a typical research f
 [programme account][ref_nasa_x36], and therefore what makes the flight count the resource rather than the
 flight hours.
 
-The research literature on this subject is surveyed under The Contemporary Literature, chiefly in the cluster on turbofan performance, thrust and fuel consumption.
+Records on the engine fall in the cluster on turbofan performance, thrust and fuel consumption.
 
 ## Dependent Systems
 
 ### The Effectors
 
-Pitch comes from the canard and the wing trailing edge acting together. Roll comes from the trailing edge
-differentially. **Yaw comes from two places and neither of them is a rudder.** The split ailerons open
-asymmetrically to put drag on one wing, which is a yawing moment that grows with dynamic pressure like a
-fin's, and the nozzle vectors, which is a yawing moment that does not.
+[Walker 1997][research_walkerlaurencea_1997] lists the control effectors as canards, split ailerons, leading and trailing edge flaps
+and thrust vectoring, and the ailerons move [asymmetrically for roll][ref_american_x_vehicles].
+**Yaw comes from [two places][ref_nasa_x36] and neither of them is a rudder.** The split ailerons open
+asymmetrically to put drag on one wing, producing a yawing moment that grows with dynamic pressure like a
+fin's, and the nozzle vectors to produce one that does not.
 
-**An aircraft with more effectors than axes has to decide how to share a demand among them**, which is the
-[control allocation][ref_allocation] problem, and it is the reason this configuration needs a digital flight
-control system rather than merely benefiting from one.
+**An aircraft with more effectors than axes has to decide how to share a demand among them**, the
+[control allocation][ref_allocation] problem. That problem is why this configuration needs a digital flight
+control system and does not merely benefit from one.
 
-The research literature on this subject is surveyed under The Contemporary Literature, chiefly in the cluster on control allocation and redundant effectors and the cluster on thrust vectoring, drag rudders and yaw effectors.
+For the research on the effectors, see the cluster on control allocation and redundant effectors and the cluster on thrust vectoring, drag rudders and yaw effectors in The Contemporary Literature.
 
 ### The Ground Station
 
-The pilot sat in a ground-based cockpit with a conventional fighter head-up display and a moving map,
-looking through a camera in the aircraft's nose, as the [programme account][ref_nasa_x36] describes the ground
-station.
-**The arrangement is the reason the latency argument above is not academic.** Every element of that chain,
+The pilot sat in a ground-based cockpit with a conventional fighter head-up display and a moving map, as the
+[programme account][ref_nasa_x36] describes the ground station, looking through a camera that the account
+places in the aircraft's nose and that [Walker 1997][research_walkerlaurencea_1997] places on its canopy.
+**The arrangement keeps the latency argument above from being academic.** Every element of that chain,
 the camera, the encoding, the radio link, the display and the human, contributes delay, and the aircraft's
 dynamics were running at nearly twice full-scale speed while it did.
 
-The research literature on this subject is surveyed under The Contemporary Literature, chiefly in the cluster on unmanned aircraft, ground stations and remote piloting and the cluster on time delay, latency and delay compensation.
+The cluster on unmanned aircraft, ground stations and remote piloting and the cluster on time delay, latency and delay compensation hold the research on this arrangement.
 
 ## The Flight Test Record
 
-### What Actually Flew
+### Flights and Hours
 
 | Item | Value |
 |---|---|
@@ -548,40 +551,40 @@ The research literature on this subject is surveyed under The Contemporary Liter
 **Thirty-one flights in twenty-five weeks is one flight every 5.6 days**, which for a research aeroplane
 with no pilot aboard and a mean sortie of half an hour is a brisk rate and not a leisurely one.
 
-**The fuel load and the mean sortie together imply a fuel flow, which is a check on the engine class rather than a datum.**
+**The fuel load and the mean sortie together imply a fuel flow, useful as a check on the engine class but not as a datum.**
 A mean sortie of 1,815 seconds burning 180 pounds gives
 
 $$\dot{w}_f = \frac{180}{1815/3600} = 356.9 \ \text{lb/h} \qquad \Rightarrow \qquad \frac{\dot{w}_f}{T} = 0.510$$
 
-**A mean thrust specific fuel consumption of 0.510 pounds per pound force per hour is right for a small turbofan**,
-which it would not be if either published figure were wrong by much. **It is a weak check and it passes**,
-and the article reports it as weak rather than dressing it up. The mean sortie sits below the 35 to 45 minutes the
+**A mean thrust specific fuel consumption of 0.510 pounds per pound force per hour, referred to maximum thrust, sits below the 0.683 of the [Williams F107][ref_f112] from which the F112 was developed**,
+as it should, because the engine did not run at maximum thrust for a whole sortie. **It is a weak check and it passes**,
+and the result is reported here as weak without dressing it up. The mean sortie sits below the 35 to 45 minutes the
 programme account gives for a typical research flight, so the mean includes shorter flights and the full fuel load
 was not burned on every one. Taking a typical 40 minute flight on the same 180 pounds instead gives
 
 $$\dot{w}_f = \frac{180}{40/60} = 270 \ \text{lb/h} \qquad \Rightarrow \qquad \frac{\dot{w}_f}{T} = 0.386$$
 
-which is still within the range of small turbofans, so the check bounds the consumption rather than measuring it.
+which is lower again, so the check gives a lower bound on the consumption rather than measuring it.
 
-The research literature on this subject is surveyed under The Contemporary Literature, chiefly in the cluster on the X-36, X-29 and X-31 demonstrators.
+Research on the X-36 and its two closest relatives is collected in the cluster on the X-36, X-29 and X-31 demonstrators.
 
-### The Second Programme, Which Is Usually Left Out
+### The Often Omitted Second Programme
 
-In December 1998, the [programme account][ref_nasa_x36] records, the aircraft flew twice more, carrying the Air Force Research Laboratory's
+The aircraft flew twice more in [December 1998][ref_nasa_x36], carrying the Air Force Research Laboratory's
 **Reconfigurable Control for Tailless Fighter Aircraft** software, a neural-network scheme intended to adapt
 the control law in flight to damage or to an effector failure.
 
-**That is a different experiment from the first one and it is the more ambitious of the two.** The 1997
+**That was a different experiment from the first, and the more ambitious of the two.** The 1997
 campaign asked whether a fixed control law could fly a tailless aircraft. The 1998 flights asked whether a
 control law could work out for itself how to fly one whose effectors had changed underneath it.
 
-The research literature on this subject is surveyed under The Contemporary Literature, chiefly in the cluster on adaptive, neural and reconfigurable flight control and the cluster on the X-36, X-29 and X-31 demonstrators.
+For the later work on reconfigurable control, see the cluster on adaptive, neural and reconfigurable flight control, and for the aircraft itself the cluster on the X-36, X-29 and X-31 demonstrators.
 
 ## Comparison With Ground Prediction
 
 ### What the Model Could Check and What It Could Not
 
-**Sorting the questions by which dimensionless group governs them is the whole of this section.**
+**This section sorts the questions by the dimensionless group that governs each.**
 
 | Question | Governed by | Could the model answer it? |
 |---|---|---|
@@ -595,7 +598,7 @@ The research literature on this subject is surveyed under The Contemporary Liter
 
 **The middle rows are the honest difficulty and they deserve more than a shrug.** The Reynolds penalty is a
 factor of 6.749, which sounds fatal until both numbers are computed. The Reynolds number needs the
-viscosity, which follows from Sutherland's law rather than from a table,
+viscosity, which here comes from Sutherland's law,
 
 $$\mu = \mu_0 \left(\frac{T}{T_0}\right)^{3/2} \frac{T_0 + 110.4}{T + 110.4} = 1.7894 \times 10^{-5} \ \text{Pa s}$$
 
@@ -607,18 +610,18 @@ while the full-scale aircraft at the corresponding condition would run at
 $$\mathrm{Re}_f = \frac{\mathrm{Re}_m}{\lambda^{3/2}} = \frac{8.81 \times 10^{6}}{0.1482} = 59.46 \times 10^{6}$$
 
 **Both of those are deep in the fully turbulent regime.** The penalty does not move the model into a
-different flow regime for attached flow, which is a genuine and slightly surprising mitigation.
+different flow regime for attached flow, and that counts as a genuine and slightly surprising mitigation.
 **It does still matter where it matters most**, because separation onset and vortex burst position are
-Reynolds sensitive well beyond transition, and those are precisely the phenomena a high angle of attack
+Reynolds sensitive well beyond transition, and those are the phenomena a high angle of attack
 experiment is about.
 **So the correct statement is neither that the penalty is fatal nor that it is negligible, but that it is confined to the questions the article has just listed.**
 
-The Mach number tells the same story more simply. The model reached about **Mach 0.367** at its maximum
-speed. Nothing compressible happens there, and nothing compressible could be learned.
+The Mach number tells the same story more simply. The model's maximum speed limit is about **Mach 0.367**
+at sea level. Nothing compressible happens there, and nothing compressible could be learned.
 
-The research literature on this subject is surveyed under The Contemporary Literature, chiefly in the cluster on Reynolds number effects and low Reynolds number aerodynamics and the cluster on the viscosity of air and Sutherland's law.
+The Contemporary Literature collects the work on this check mainly in two clusters, one on Reynolds number effects and low Reynolds number aerodynamics and one on the viscosity of air and Sutherland's law.
 
-### Turning, Which Gives the Time Compression a Second Witness
+### Turn Rate as a Second Witness
 
 **The published load factor limit is enough to compute the aircraft's turn performance, and doing so produces the scaling result a second time from an entirely different quantity.**
 A level turn at load factor $n$ has
@@ -641,10 +644,10 @@ The corner speed, where the load factor limit meets the lift limit, follows from
 
 $$V^{*} = \sqrt{\frac{2 n W}{\rho S C_{L\max}}} = 210.8 \ \text{kt}$$
 
-**which sits below the 243 knot maximum**, so the aircraft could reach the most demanding point of its own
+**which sits below the 243 knot maximum**, so the aircraft could reach the most demanding point of its
 manoeuvre envelope.
 
-The research literature on this subject is surveyed under The Contemporary Literature, chiefly in the cluster on turn performance, agility and manoeuvre.
+Turn performance is surveyed in the cluster on turn performance, agility and manoeuvre.
 
 ### The Envelope That Was Opened Rather Than Reached
 
@@ -658,36 +661,40 @@ to 15 degrees and rapid turning and rolling manoeuvres at up to 35 degrees.
 September 1997, a fastest flight of 204 miles per hour and a highest flight of 20,500 feet, while the
 programme account gives 31 flights ending on 12 November 1997 with a flight-time total, and this article
 follows the programme account as the more detailed of the two.
-**What the published record does not give is any measurement at those angles of attack**, no time history
-and no handling-qualities rating, and since that is what the whole tailless argument turns on, the article
-notes the absence rather than filling it.
+**What the published record gives at those angles of attack is thin.** [Walker 1997][research_walkerlaurencea_1997] reports Level 1
+handling qualities for the phase that opened the envelope to 35 degrees and a normalised roll-time plot
+reaching a little above 30 degrees, but no time history is public, and since that is what the
+tailless argument turns on, the article notes the gap rather than filling it.
 
 ## What the Data Changed
 
 ### What the Programme Settled
 
-**It established that a tailless configuration of this class can be flown, and it did so under a handicap.**
+**It established that a tailless configuration of this class [can be flown][ref_nasa_x36], and it did so under a handicap.**
 The control law held an aeroplane whose divergence doubled in well under a second, through a command and
 video path with a delay whose effective size was nearly twice what the same delay would have been on a
 full-scale aircraft.
 
 **It established that the effector set works**, meaning that split ailerons and a vectoring nozzle between
-them can replace a fin across the flight conditions tested, with the nozzle carrying the low speed end where
-a fin would be least useful anyway.
+them can replace a fin across the flight conditions tested, and [Walker 1997][research_walkerlaurencea_1997] reports agility
+demonstrations flown with thrust vectoring both on and off.
 
-**And the 1998 flights established that an adaptive control law can be flown at all**, which at the time was
-a much less comfortable proposition than it now sounds.
+**And the 1998 flights established that a neural-network reconfigurable control law can compensate in flight for a failed effector**,
+which at the time was a much less comfortable proposition than it now sounds, and the
+[programme account][ref_nasa_x36] reports it compensating for each simulated control-surface failure.
 
 ### What It Fed Into
 
-**The configuration did not become an aeroplane and the control ideas did.** No X-36 derivative was built.
-[Tailless][ref_tailless] flying-wing planforms did reach production in the unmanned world, and control
+**The configuration did not become an aeroplane and the control ideas did.** No [X-36 derivative][ref_x36] was built.
+[Tailless][ref_tailless] flying-wing planforms did reach production in the unmanned world, as in the
+[RQ-170 Sentinel][ref_rq170], and control
 allocation among redundant effectors, which this aircraft needed because it had no rudder, became a general
 subject in flight control instead of a speciality.
 
 ### What It Failed to Influence
 
-**Manned tailless fighters did not follow**, and the reason is not that the X-36 failed. It is that the
+**No manned tailless fighter followed it into service**, although crewed tailless prototypes such as the
+[Chengdu J-36][ref_j36] were flying by the end of 2024. The X-36 did not fail. The
 question it answered was not the binding one. A production fighter's tail is a compromise among signature,
 control, weight and the cost of certifying an aircraft that cannot be flown without its computers.
 **The X-36 addressed exactly one of those four.**
@@ -732,7 +739,8 @@ literature against the aircraft, and the clusters themselves close the section.
 
 ### The Method Outlived the Aeroplane
 
-**In 1997 a 28 percent remotely piloted research aeroplane was an expensive and unusual thing to build.** It
+**In 1997 a 28 percent remotely piloted research aeroplane was an expensive and unusual thing to build**, at
+about 21 million dollars for two aircraft and their flight testing in the [programme account][ref_nasa_x36]. It
 is now ordinary. Cheap airframes, cheap autopilots and cheap radio links turned the dynamically scaled
 free-flight model from a specialist technique into a routine one, and much of the modern literature applies
 the scaling relations set out above. [Sobron et al 2021][research_sobron_lundstrom_2021] review the current
@@ -761,16 +769,16 @@ aerofoil for a micro aerial vehicle and [Feng et al 2017][research_feng_peng_201
 aircraft.
 
 **That literature is directly about the middle rows of this article's comparison table.** Laminar separation
-bubbles, transition location and their sensitivity to Reynolds number are exactly what decides whether a
+bubbles, transition location and their sensitivity to Reynolds number decide whether a
 subscale model's separation onset resembles its original's, and they are reviewed in
 [Benny Thompson and Gunasekaran 2021][research_bennythompson_gunasekaran_2021] and modelled in
 [Catalano et al 2024][research_catalano_derosa_2024].
 
 **The X-36 sits at the top of that regime rather than inside it.** At 8.81 million on the mean chord it is
-far above the millions-and-below range where the low Reynolds literature concentrates, which is itself a useful placement,
+far above the millions-and-below range where the low Reynolds literature concentrates, and the placement helps,
 **because it means the penalty this article computes is real but the model is not in the difficult part of the curve.**
 
-The research records on this subject are gathered below in the cluster on Reynolds number effects and low Reynolds number aerodynamics.
+The cluster below on Reynolds number effects and low Reynolds number aerodynamics contains these records.
 
 ### Tailless Control Became an Unmanned Subject
 
@@ -783,7 +791,7 @@ distribution of effectors on a flying wing optimised for low observability. **Th
 explored is the control problem those vehicles have**, and yaw control without a fin is studied directly in
 [Shearwood et al 2020][research_shearwood_nabawy_2020].
 
-The research records on this subject are gathered below in the cluster on tailless aircraft and flying wings and the cluster on radar signature and low observability.
+Below, the cluster on tailless aircraft and flying wings and the cluster on radar signature and low observability collect the records on this subject.
 
 ### Control Allocation Became General
 
@@ -795,11 +803,11 @@ with the tailless case in [Buffington and Buffington 1997][research_buffington_b
 have nothing but redundant effectors, now carry much of the subject, as in
 [Vepa 2021][research_vepa_2021].
 
-The research records on this subject are gathered below in the cluster on control allocation and redundant effectors.
+The records for this subsection are in the cluster on control allocation and redundant effectors.
 
-### The Reynolds Penalty Is Now Quantified Rather Than Feared
+### The Reynolds Penalty Is Now Quantified
 
-**The contemporary work does something the period could not, which is to compute what the penalty costs.**
+**The contemporary work does something the period could not. It computes what the penalty costs.**
 High-fidelity simulation can run the same configuration at different Reynolds numbers and compare, as
 [Yamazaki et al 2018][research_yamazaki_yamagishi_2018] do for the indirect Reynolds number effect and
 [Wang et al 2021][research_wang_liu_2021] do for a transport aircraft, with the high angle of attack case in
@@ -809,7 +817,7 @@ from a caveat into a measurement.
 
 The research records on this subject are gathered below in the cluster on Reynolds number effects and low Reynolds number aerodynamics and the cluster on computational aerodynamics, surrogate models and uncertainty.
 
-### Latency, Which Became Everybody's Problem
+### Latency Spread to Every Remote Vehicle
 
 **The delay argument in this article was a niche concern for one aircraft and is now a general one.** Every
 remotely operated vehicle has it. The aircraft-side evidence is older, in
@@ -820,7 +828,7 @@ compensation in [Abidi et al 2016][research_abidi_yildiz_2016], and the measured
 latency on operators in [Storms and Tilbury 2015][research_storms_tilbury_2015] and
 [Black et al 2024][research_black_andjelic_2024].
 
-The research records on this subject are gathered below in the cluster on time delay, latency and delay compensation and the cluster on handling qualities, pilot-induced oscillation and the pilot model.
+Records on latency appear below in the cluster on time delay, latency and delay compensation and the cluster on handling qualities, pilot-induced oscillation and the pilot model.
 
 ### Adaptive, neural and reconfigurable flight control
 
@@ -992,14 +1000,14 @@ Fighter and technology demonstrator programmes, their conduct, flight testing an
 
 ## Where the Framing Breaks Down
 
-### A Scale Model Is Not a Small Aeroplane, and the Article Leans on That Hard
+### The Article Leans Hard on Idealised Similitude
 
-**The scaling argument in this article is a statement about idealised similitude, and real models depart from it.**
+**The scaling argument in this article assumes idealised similitude, and real models depart from it.**
 Matching the mass ratio exactly requires matching the inertia ratio too, which means placing the mass
 correctly in three axes and not merely getting the total right. Whether the X-36 did so is not in the public
 record.
 **If its inertias were not scaled, the doubling times computed above are wrong by whatever factor the inertia is wrong by**,
-and the article's own bracket across radius of gyration is an admission of that rather than a resolution of
+and the article's bracket across radius of gyration is an admission of that rather than a resolution of
 it.
 
 ### The Latency Argument Has No Measurement Behind It
@@ -1009,8 +1017,10 @@ it.
 the link delay was very small then the handicap was small, and the article's claim reduces to a statement
 about a multiplier rather than about a difficulty.
 
-**The claim is therefore made in that weaker form**, and the article does not assert that the pilots found
-it hard, because no workload or handling-qualities rating from these flights is public.
+**The claim is therefore made in that weaker form**, and no assertion is made that the pilot found
+the delay hard, because the published ratings do not isolate it. [Walker 1997][research_walkerlaurencea_1997] reports Cooper-Harper
+ratings of 4 for pitch attitude capture and 3 for bank angle capture in the first phase, Level 1 handling
+qualities in all axes in the second, and that considerable pilot attention was required.
 
 ### The Instability May Have Been Milder Than Assumed
 
@@ -1025,7 +1035,7 @@ to.
 **Two consecutive demonstrators, one flown easier than the real thing and one flown harder, is a pleasing symmetry.**
 It is also the kind of pattern that appears when one goes looking for it.
 **The X-35 comparison rests on weights and an ordering, which are published. The X-36 comparison rests on a scaling law, which is exact, applied to a latency that is not published.**
-Those are not equally solid and the article does not present them as though they were.
+Those are not equally solid, and they are not presented here as though they were.
 
 ## The Source Base
 
@@ -1039,7 +1049,8 @@ the cluster on the X-36, X-29 and X-31 demonstrators.
 **No latency figure for the command and video link is public**, which is the quantity the article's sharpest
 argument would most like to have. **Only envelope maxima of angle of attack are public**, 40 degrees in the
 programme account and 35 degrees for turning and rolling manoeuvres in the inventory of American X-vehicles,
-and no measurement at those conditions is public, though that is what the tailless argument turns on.
+and what is public from high angles of attack is pilot ratings and a normalised roll-time plot reaching a little
+above 30 degrees in [Walker 1997][research_walkerlaurencea_1997], with no time history, though that is what the tailless argument turns on.
 **No moment of inertia, no stability derivative and no wing area is public**, so three of the numbers in the
 sizing section are inversions or brackets rather than readings, and each says so where it stands.
 **The fuselage volume the slender-body derivation needs is not public either**, and neither is the drag
@@ -1176,13 +1187,16 @@ partnership with the National Aeronautics and Space Administration. Two were bui
 inches long with a span of 10 feet 5 inches, weighed 1,090 pounds empty and 1,270 pounds at maximum, carried
 180 pounds of fuel, and was powered by a Williams F112 turbofan of 700 pounds force. Its approach speed was
 110 knots, its maximum speed limit was raised from 160 to 243 knots during the programme, its ceiling was
-20,500 feet and its load factor limit was 5 g. It reached 206 knots, 20,200 feet and an angle of attack of
+20,500 feet and its load factor limit was 5 g. These dimensions, weights and speeds are those of one published
+specification, and [Walker 1997][research_walkerlaurencea_1997], the test pilot's report, gives a takeoff gross weight of 1,245
+pounds, an operating empty weight of 1,083 pounds, 162 pounds of usable fuel and an approach speed of 112
+knots. It reached 206 knots, 20,200 feet and an angle of attack of
 40 degrees. It first flew on 17 May 1997 and completed 31 research flights and 15 hours 38 minutes of
 flight time by 12 November 1997, a period of 25 weeks. One inventory of American X-vehicles gives 25
 flights ending on 24 September 1997 instead. In December 1998 it flew twice more carrying the Air Force Research Laboratory's Reconfigurable Control for Tailless Fighter Aircraft
 software. It had no vertical or horizontal tail and used a canard, split ailerons and a thrust-vectoring
 nozzle, commanded by a digital flight control system, with the pilot in a ground station viewing through a
-nose camera.
+camera on the forward fuselage.
 
 ### Engineering Analysis
 
@@ -1217,11 +1231,12 @@ an inference from four cases and is offered as a pattern rather than a law.
 **Whether the aircraft's inertias were correctly scaled is not settled**, and if they were not then the
 doubling times are wrong by that factor.
 
-**How large the link delay was is not settled**, so the amplification factor is exact and what it amplified
+**The size of the link delay is unpublished**, so the amplification factor is exact and what it amplified
 is unknown.
 
-**How the aircraft behaved at its highest angles of attack is not settled**, since the public record gives
-the maximum of 40 degrees but no measurement there, which limits what can be said about the question the
+**The aircraft's behaviour at its highest angles of attack remains open**, since the public record gives
+the maximum of 40 degrees but no time history there, only pilot ratings and a normalised roll-time plot from
+lower angles, which limits what can be said about the question the
 programme existed to answer.
 
 **Whether a tailless manned fighter is practical is not settled by this aeroplane and was never going to be**,
@@ -1233,12 +1248,12 @@ The radar cross section of tailless configurations is outside this article, whic
 measurements and no way to compute them. The production unmanned aircraft that adopted the planform are
 outside it. The detailed architecture of the neural-network control law flown in 1998 is touched on only as
 a programme fact. The X-31 and X-29, which are the series' other flight-control demonstrators, are covered
-in their own articles and are referenced rather than re-examined here.
+in their own articles, which this one cites without re-examining.
 
 ## Conclusion
 
 **The X-36 asked whether a fighter can fly without a tail, and answered yes at 28 percent scale.** The
-interesting part is what that qualification means.
+substance lies in that qualification.
 
 Matching the Froude number is the only choice that makes a free-flight model move like an aeroplane, and it
 fixes everything else.
@@ -1248,22 +1263,21 @@ of a human being do not compress to match. The third is a limit on what the demo
 it falls precisely on the separated flow at high angle of attack that the experiment was about.
 
 **The aircraft's own weight confirms the choice.** At 1,270 pounds and 28 percent it stands for a
-fifty-eight thousand pound fighter, sixty-five feet long, which is a real class of aeroplane rather than an
-arbitrary one.
+fifty-eight thousand pound fighter, sixty-five feet long, which matches a real class of aeroplane.
 
 **And the missing fin turns out to be the least interesting part of the story**, because the arithmetic says
 the vectoring nozzle alone could hold ten degrees of sideslip at every speed the aircraft ever flew.
-**Whether the split ailerons were carrying most of the yaw at high speed or almost none of it is not settled by anything public**,
+**Public information cannot say whether the split ailerons were carrying most of the yaw at high speed or almost none of it**,
 and the article says so where it computes them.
-**The reason a nozzle can replace a fin is that a fin's authority and the instability it opposes both scale with dynamic pressure, so their ratio never improves, while a nozzle's authority does not scale with anything.**
-The nozzle is strongest exactly where the fin is weakest, which is the condition a tailless aircraft most
+**A nozzle can replace a fin because a fin's authority and the instability it opposes both scale with dynamic pressure, so their ratio never improves, while a nozzle's authority does not scale with anything.**
+The nozzle is strongest where the fin is weakest, in the condition a tailless aircraft most
 fears.
 
 **The previous article found a demonstration flown easier than the thing it stood for. This one was flown harder.**
 The X-36's divergence doubled in well under a second, nearly twice as fast as its full-scale equivalent
 would have, and a pilot on the ground held it there through a delay that counted for nearly twice its
-measured length.
-**That is a better result than the programme claimed for itself, and the reason nobody said so is that the factor is hidden inside the scale.**
+length in clock time.
+**That is a better result than the programme claimed for itself, and nobody said so because the factor is hidden inside the scale.**
 ## References
 
 ### Books
@@ -1402,10 +1416,13 @@ measured length.
 
 - [American X-Vehicles, An Inventory X-1 to X-50, SP-2003-4531][ref_american_x_vehicles]
 - [Armstrong Flight Research Center][ref_dryden]
+- [Chengdu J-36][ref_j36]
 - [Control allocation for over-actuated aircraft][ref_allocation]
 - [Directional stability][ref_directional]
 - [Froude number][ref_froude]
+- [Lockheed Martin RQ-170 Sentinel][ref_rq170]
 - [McDonnell Douglas X-36][ref_x36]
+- [Mental chronometry][ref_reaction]
 - [NASA account of the X-36 tailless fighter agility research aircraft][ref_nasa_x36]
 - [National Aeronautics and Space Administration][ref_nasa]
 - [Phantom Works][ref_phantom_works]
@@ -1422,11 +1439,14 @@ measured length.
 [ref_dryden]: https://en.wikipedia.org/wiki/Armstrong_Flight_Research_Center
 [ref_f112]: https://en.wikipedia.org/wiki/Williams_F107
 [ref_froude]: https://en.wikipedia.org/wiki/Froude_number
+[ref_j36]: https://en.wikipedia.org/wiki/Chengdu_J-36
 [ref_museum]: https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/195764/nasaboeing-x-36/
 [ref_nasa]: https://en.wikipedia.org/wiki/NASA
 [ref_nasa_x36]: https://www.nasa.gov/aeronautics/x-36-tailless-fighter/
 [ref_phantom_works]: https://en.wikipedia.org/wiki/Phantom_Works
+[ref_reaction]: https://en.wikipedia.org/wiki/Mental_chronometry
 [ref_reynolds]: https://en.wikipedia.org/wiki/Reynolds_number
+[ref_rq170]: https://en.wikipedia.org/wiki/Lockheed_Martin_RQ-170_Sentinel
 [ref_similitude]: https://en.wikipedia.org/wiki/Similitude
 [ref_tailless]: https://en.wikipedia.org/wiki/Tailless_aircraft
 [ref_tv]: https://en.wikipedia.org/wiki/Thrust_vectoring

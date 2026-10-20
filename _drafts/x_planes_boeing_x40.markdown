@@ -18,15 +18,15 @@ It weighed about half what dynamic similarity required, so its trajectory could 
 full-scale vehicle even in principle. **What transferred was the software.**
 This is the forty-first article in the [X-Planes series][related_post_a297_framing], following the [X-1][related_post_a298_bell_x1], the [X-2][related_post_a299_bell_x2], the [X-3][related_post_a300_douglas_x3], the [X-4][related_post_a301_northrop_x4], the [X-5][related_post_a302_bell_x5], the [X-6][related_post_a303_convair_x6], the [X-7][related_post_a304_lockheed_x7], the [X-8][related_post_a305_aerojet_x8], the [X-9][related_post_a306_bell_x9], the [X-10][related_post_a307_north_american_x10], the [X-11][related_post_a308_convair_x11], the [X-12][related_post_a309_convair_x12], the [X-13][related_post_a310_ryan_x13], the [X-14][related_post_a311_bell_x14], the [X-15][related_post_a312_north_american_x15], the [X-16][related_post_a313_bell_x16], the [X-17][related_post_a314_lockheed_x17], the [X-18][related_post_a315_hiller_x18], the [X-19][related_post_a316_curtiss_wright_x19], the [X-20][related_post_a317_boeing_x20], the [X-21][related_post_a318_northrop_x21], the [X-22][related_post_a319_bell_x22], the [X-23][related_post_a320_martin_marietta_x23], the [X-24][related_post_a321_martin_marietta_x24], the [X-25][related_post_a322_bensen_x25], the [X-26][related_post_a323_schweizer_x26], the [X-27][related_post_a324_lockheed_x27], the [X-28][related_post_a325_osprey_x28], the [X-29][related_post_a326_grumman_x29], the [X-30][related_post_a327_rockwell_x30], the [X-31][related_post_a328_rockwell_mbb_x31], the [X-32][related_post_a329_boeing_x32], the [X-33][related_post_a330_lockheed_martin_x33], the [X-34][related_post_a331_orbital_sciences_x34], the [X-35][related_post_a332_lockheed_martin_x35], the [X-36][related_post_a333_mcdonnell_douglas_x36], the [X-37][related_post_a334_boeing_x37], the [X-38][related_post_a335_scaled_composites_x38], and the [X-39][related_post_a336_x39_reserved_never_assigned].
 
-**This is the first article in the series whose subject is a vehicle built to test a program rather than
+**The X-40A is the first vehicle in the series built to test a program rather than
 an aerodynamic idea.** The [X-1][related_post_a298_bell_x1] measured transonic drag rise. The
 [X-15][related_post_a312_north_american_x15] flew hypersonically and survived the heating. The X-40A was
-dropped from a helicopter eight times so that an autopilot could practise landing, and **the question it
+dropped from a helicopter eight times so that an autopilot could practise landing \[[X-40A Space Maneuvering Vehicle][ref_nasa_x40]\], and **the question it
 answers is whether that is worth doing.**
 
 The article immediately before this one concerned a designation that was never assigned. **This one
 concerns a designation that was assigned twice**, first to an operational concept and then to the test
-article that outlived it, and the second assignment is the reason the public record disagrees with itself
+article that outlived it \[[Boeing X-37 and X-40][ref_x37_x40]\], and the second assignment explains why the public record disagrees with itself
 about how big the vehicle was.
 
 ## The Research Question
@@ -66,7 +66,7 @@ $$\frac{W_{\text{X-40A}}}{W_{\text{orbiter}}} = \frac{2{,}600}{150{,}000} = 0.01
 
 **and the X-40A weighed under a fiftieth of the vehicle whose method it borrowed.**
 
-**The keystone question is therefore one of transfer, and it is the same question this series asked of a
+**The keystone question is therefore one of transfer, the same question this series asked of a
 proven bound and of a wind tunnel.** If a smaller vehicle is dropped from a helicopter and lands itself,
 what has been learned about a larger vehicle returning from orbit?
 
@@ -74,27 +74,28 @@ The answer depends entirely on what similarity holds between the two, and **simi
 model is a stronger requirement than geometric resemblance.** The sizing section derives what it demands
 and then measures the X-40A against it. **The vehicle fails the test on mass by a factor of two**, which
 sounds like a criticism and is instead the article's central observation, because it explains what the
-programme actually bought.
+programme bought.
 
 ## Programme Origin
 
 **The vehicle was ordered before the designation existed and the designation was reassigned underneath
-it.**
+it** \[[Boeing X-37 and X-40][ref_x37_x40]\].
 
 In October 1996 Boeing received a contract from the Air Force Research Laboratory's Military Space Plane
-Technology office to build a technology demonstrator and test vehicle for the Space Maneuver Vehicle
-\[[Boeing X-37 and X-40][ref_x37_x40]\]. The first article under that programme was the
+Technology office to build a technology demonstrator and test vehicle for the Space Maneuver Vehicle.
+The first article under that programme was the
 **Integrated Technology Test Bed**, an unpowered vehicle at about ninety percent of the size of the
-operational concept.
+operational concept \[[Boeing X-37 and X-40][ref_x37_x40]\].
 
 **The X-40A designation was allocated in 1997 to the full Space Maneuver Vehicle and was soon reassigned
-to the test bed instead** \[[Boeing X-37 and X-40][ref_x37_x40]\]. The operational vehicle was never built.
-**The number therefore ended up on the only article the programme produced**, which is a different fate
-from the one immediately preceding it in this series, where
+to the test bed instead**. The operational vehicle, which would have been the X-40B, is not recorded as built,
+and its programme is presumed absorbed by the X-37A \[[Boeing X-37 and X-40][ref_x37_x40]\].
+**The number therefore ended up on the only article the programme produced.** The designation
+immediately preceding it in this series met a different fate, since
 [a number was reserved and never assigned at all][related_post_a336_x39_reserved_never_assigned].
 
 **Boeing built it at Phantom Works in Seal Beach, California, and the cost is the most striking figure in
-the programme.** Fabrication and construction came to approximately one million dollars
+the programme** \[[Boeing X-40A][ref_nmusaf_x40]\]. Fabrication and construction came to approximately one million dollars
 \[[X-40 Space Maneuver Vehicle][ref_smv_global]\]. **That is not a research aircraft budget**, for a vehicle that carried a full autonomous guidance, navigation and
 control system and landed itself eight times.
 
@@ -129,12 +130,12 @@ is every part of an approach and landing.
 $$\mathrm{Fr} = \frac{V^{2}}{gL}$$
 
 The Reynolds number compares inertial force to viscous force and governs the behaviour of the boundary
-layer, and therefore the lift and drag coefficients the vehicle actually achieves.
+layer, and therefore the lift and drag coefficients the vehicle achieves.
 
 $$\mathrm{Re} = \frac{\rho V L}{\mu}$$
 
-Let $\lambda$ be the geometric scale ratio of model to full-scale vehicle. **Similarity is the statement
-that the two vehicles share a value of the parameter**, and for the Froude number that statement is
+Let $\lambda$ be the geometric scale ratio of model to full-scale vehicle. **Similarity requires
+that the two vehicles share a value of the parameter**, and for the Froude number the requirement reads
 
 $$\frac{V_{m}^{2}}{g L_{m}} = \frac{V_{f}^{2}}{g L_{f}}$$
 
@@ -142,12 +143,12 @@ which fixes the speed ratio, because $g$ is the same for both and $V^{2}$ must t
 
 $$\frac{V_{m}}{V_{f}} = \sqrt{\lambda}$$
 
-Time follows immediately, since a length divided by a speed is a time, and this is the relation that makes
+Time follows immediately, since a length divided by a speed is a time, and this relation makes
 a subscale free-flight test interpretable at all.
 
 $$\frac{t_{m}}{t_{f}} = \sqrt{\lambda}$$
 
-**Angular rates therefore go up rather than down**, which is the first result with a consequence for the
+**Angular rates therefore go up rather than down**, the first result with a consequence for the
 flight control system.
 
 $$\frac{\omega_{m}}{\omega_{f}} = \frac{1}{\sqrt{\lambda}}$$
@@ -165,12 +166,12 @@ moves the model further from the transonic regime rather than toward it.
 
 $$\frac{\mathrm{Ma}_{m}}{\mathrm{Ma}_{f}} = \sqrt{\lambda}$$
 
-**The dynamic pressure scales linearly**, which is the relation that governs the aerodynamic loads and,
+**The dynamic pressure scales linearly**, and it governs the aerodynamic loads and,
 through them, the structural design case.
 
 $$\frac{\bar{q}_{m}}{\bar{q}_{f}} = \frac{\rho V_{m}^{2}}{\rho V_{f}^{2}} = \lambda$$
 
-**And the mass condition is the one that is usually forgotten.** Froude similarity requires the model to
+**And the mass condition is usually forgotten.** Froude similarity requires the model to
 have the same relative density as the vehicle, so its weight must scale as the cube of the length ratio.
 
 $$\frac{W_{m}}{W_{f}} = \lambda^{3}$$
@@ -180,27 +181,28 @@ as $\lambda^{3}$ and reference area as $\lambda^{2}$.
 
 $$\frac{(W/S)_{m}}{(W/S)_{f}} = \lambda$$
 
-**The rotational condition follows from the same requirement and is the one that governs the autopilot.**
+**The rotational condition follows from the same requirement and governs the autopilot.**
 A moment of inertia is a mass times the square of a length, so under mass similarity it scales as the
 fifth power of the length ratio.
 
 $$\frac{I_{m}}{I_{f}} = \frac{m_{m}}{m_{f}} \left(\frac{L_{m}}{L_{f}}\right)^{2} = \lambda^{3} \lambda^{2} = \lambda^{5}$$
 
 **The standard single parameter that expresses all of this at once is the relative density**, which
-compares the vehicle's mass to the mass of the air in a volume defined by its own dimensions. Let $m$ be
+compares the vehicle's mass to the mass of the air in a volume defined by its dimensions. Let $m$ be
 the mass, $S$ the reference area and $l$ a reference length.
 
 $$\mu = \frac{m}{\rho S l}$$
 
-**Dynamic similarity of a free-flight model is the statement that the relative densities match**, and this
-is the form in which the requirement is usually written in the free-flight testing literature.
+**Dynamic similarity of a free-flight model holds when the relative densities match**, and the
+free-flight testing literature usually writes the requirement in this form
+\[[Chambers 2010][research_chambers_2010]\].
 
 $$\mu_{m} = \mu_{f}$$
 
 ### The Scale Ratio Is Disputed and the Dispute Is Resolvable
 
 **Four different scale figures circulate for the same vehicle and they are not all about the same
-comparison.** Boeing's own press release calls the X-40A a ninety percent scale vehicle
+comparison.** Boeing's press release calls the X-40A a ninety percent scale vehicle
 \[[Boeing and the Air Force flight test the Space Maneuver Vehicle][ref_boeing_1998]\]. The space agency
 calls it an eighty percent subscale version of the X-37 \[[X-40A Space Maneuvering Vehicle][ref_nasa_x40]\].
 A contemporaneous report of the second free flight calls it eighty-five percent
@@ -224,7 +226,7 @@ against the "about 120 percent" that the sources give for the X-37 relative to t
 \[[Boeing X-37][ref_x37]\]. **The agreement is adequate at eight points and the ninety percent figure is
 not**, since it would require a reciprocal of 111 percent.
 
-**The ninety percent figure is correct about a vehicle that was never built.** The test bed was ninety
+**The ninety percent figure is correct about a vehicle that was never built under its own designation.** The test bed was ninety
 percent of the **Space Maneuver Vehicle**, the operational concept
 \[[Boeing X-37 and X-40][ref_x37_x40]\], and the X-37 that everybody now compares it to was a later and
 larger vehicle. **A ratio quoted without its denominator has caused a twelve point disagreement in the
@@ -237,11 +239,11 @@ weight of
 
 $$W_{m} = W_{f} \lambda^{3} = 11{,}000 \times 0.778^{3} = 5{,}186 \ \text{lb}$$
 
-for the X-37B's published maximum takeoff weight of 11,000 lb \[[Boeing X-37][ref_x37]\], for the X-37B's published maximum takeoff weight of 11,000 lb \[[Boeing X-37][ref_x37]\], against a published X-40A weight of about **2,600 lb**
+for the X-37B's published maximum takeoff weight of 11,000 lb \[[Boeing X-37][ref_x37]\], against a published X-40A weight of about **2,600 lb**
 \[[Boeing and the Air Force flight test the Space Maneuver Vehicle][ref_boeing_1998]\].
 **The vehicle was 50 percent of its dynamically similar mass.**
 
-Read the other way, the mass ratio implies a scale ratio of its own, and it is nowhere near the geometric
+Read the other way, the mass ratio implies a scale ratio of its own, nowhere near the geometric
 one.
 
 $$\lambda_{\text{mass}} = \left(\frac{2{,}600}{11{,}000}\right)^{1/3} = 0.618$$
@@ -266,25 +268,25 @@ $$\frac{0.625}{0.882} = 0.708$$
 
 **The model therefore flew at about 71 percent of its dynamically similar speed.**
 
-**The relative density gives the same answer in the parameter the free-flight literature actually uses.**
+**The relative density gives the same answer in the parameter the free-flight literature uses.**
 With the mass in slugs, the estimated areas above and the vehicle lengths as reference lengths,
 
 $$\mu_{m} = \frac{80.8}{(0.001869)(100)(22.0)} = 19.7 \qquad \mu_{f} = \frac{341.9}{(0.001869)(165)(29.25)} = 37.9$$
 
 $$\frac{\mu_{m}}{\mu_{f}} = 0.519 \quad \text{against a required} \quad 1.000$$
 
-**Two independent formulations land on the same factor of two**, which is the strongest internal check
-available on the finding, since the wing loading route and the relative density route share only the
+**Two independent formulations land on the same factor of two**, and no internal check on the finding
+is stronger, since the wing loading route and the relative density route share only the
 published masses.
 
-**The reason is not an oversight and it could not have been fixed.** The X-40A carried neither propulsion nor a thermal protection system \[[X-40A Space Maneuvering Vehicle][ref_nasa_x40]\], and as an atmospheric test bed it had no use for a payload or for orbital subsystems. **Those absent systems are exactly the mass the
+**The shortfall was not an oversight and could not have been fixed.** The X-40A carried neither propulsion nor a thermal protection system \[[X-40A Space Maneuvering Vehicle][ref_nasa_x40]\], and as an atmospheric test bed it had no use for a payload or for orbital subsystems. **Those absent systems are the mass the
 full-scale vehicle would carry**, and ballasting a one million dollar test article up to 5,186 lb, the
 weight that the relation $W_{m} = W_{f} \lambda^{3}$ above requires, in order to
 preserve a similarity nobody intended to exploit would have been a strange use of the money.
 
-### What Reynolds Number Does, Which Is Less Than Expected
+### Reynolds Number Does Less Than Expected
 
-**The usual objection to subscale free flight barely applies here**, and the reason is that the X-40A was
+**The usual objection to subscale free flight barely applies here**, because the X-40A was
 not very sub. At $\lambda = 0.778$ the Reynolds ratio is
 
 $$\frac{\mathrm{Re}_{m}}{\mathrm{Re}_{f}} = 0.778^{3/2} = 0.686$$
@@ -297,10 +299,10 @@ and at that ratio the same relation gives
 
 $$\frac{\mathrm{Re}_{m}}{\mathrm{Re}_{f}} = 0.22^{3/2} = 0.103$$
 
-or about a tenth of full scale. **The X-40A sat at 69 percent where a conventional drop model sits near 10**, which is the quantitative
-statement that it was barely a subscale article at all.
+or about a tenth of full scale. **The X-40A sat at 69 percent where a conventional drop model sits near 10**, and on that
+measure it was barely a subscale article at all.
 
-**The absolute value matters as much as the ratio and it is comfortably high.** Taking the density at 8,000 feet as 0.001869 slug per cubic foot and the dynamic viscosity as $3.58 \times 10^{-7}$ slug per foot second, values that follow from the defining relations of the 1976 standard atmosphere \[[U.S. Standard Atmosphere, 1976][ref_atm76]\], the Reynolds number on the 22 foot length at 428 feet per second is
+**The absolute value matters as much as the ratio and sits comfortably high.** Taking the density at 8,000 feet as 0.001869 slug per cubic foot and the dynamic viscosity as $3.58 \times 10^{-7}$ slug per foot second, values that follow from the defining relations of the 1976 standard atmosphere \[[U.S. Standard Atmosphere, 1976][ref_atm76]\], the Reynolds number on the 22 foot length at 428 feet per second is
 
 $$\mathrm{Re} = \frac{(0.001869)(428)(22.0)}{3.58 \times 10^{-7}} = 4.92 \times 10^{7}$$
 
@@ -310,9 +312,9 @@ shortfall against the full-scale vehicle moves the flow along a part of the curv
 
 $$\mathrm{Ma} = \frac{428}{1{,}085} = 0.394$$
 
-which is well below the drag rise, so **neither of the two dimensionless numbers the model could not match
+and that lies well below the drag rise, so **neither of the two dimensionless numbers the model could not match
 was doing much harm.** The sensitivity across the disputed scale figures is
-small, and the table below is the whole of it.
+small, and the table below sets it out in full.
 
 | $\lambda$ | $\mathrm{Re}$ ratio | time and speed ratio | angular rate ratio |
 |---|---|---|---|
@@ -326,7 +328,7 @@ small, and the table below is the whole of it.
 extrapolation is modest and the mass failure is total, and **the article's finding is insensitive to the
 one parameter the sources argue about.**
 
-### What the Flight Data Says the Vehicle Actually Did
+### What the Flight Data Show
 
 **The 2001 flights are documented well enough to recover the flight path angle, which no source states.**
 On 12 April 2001 the vehicle was released at 15,050 feet and reached 428 feet per second
@@ -336,28 +338,28 @@ releases as made from 15,000 feet and followed by an autonomously controlled des
 particular. **The calculation below therefore pairs that flight's altitude and speed with the series
 duration.** The release at 8:45 and the stop at 8:47 recorded for 12 April
 \[[X-40A second free flight successful][ref_sciencedaily_x40]\] are stated to the minute, so they place
-descent and rollout together somewhere between one and three minutes, which is consistent with a 75 second
-descent and does not test it.
+descent and rollout together somewhere between one and three minutes, a window consistent with a 75 second
+descent that does not test it.
 
 Mean sink rate is the released altitude divided by the duration.
 
 $$\dot{h} = \frac{15{,}050}{75} = 200.7 \ \text{ft/s}$$
 
-**The sink rate and the speed along the flight path are related by the flight path angle**, which is the
-relation that makes the two published figures combine into a third.
+**The sink rate and the speed along the flight path are related by the flight path angle**, and through
+that relation the two published figures combine into a third.
 
 $$\dot{h} = V \sin\gamma$$
 
-The flight path angle therefore follows directly.
+The flight path angle follows directly.
 
 $$\gamma = \arcsin\left(\frac{200.7}{428}\right) = 28.0^{\circ}$$
 
-**In a steady glide the weight is balanced by lift across the path and by drag along it**, which is where
-the ratio comes from.
+**In a steady glide the weight is balanced by lift across the path and by drag along it**, and the ratio
+follows from that balance.
 
 $$L = W \cos\gamma \qquad D = W \sin\gamma$$
 
-**The effective lift to drag ratio is therefore the cotangent of the flight path angle**, and it is the
+**The effective lift to drag ratio is therefore the cotangent of the flight path angle**, a
 number that describes what kind of approach this was.
 
 $$\frac{L}{D} = \frac{W\cos\gamma}{W\sin\gamma} = \cot\gamma$$
@@ -365,12 +367,12 @@ $$\frac{L}{D} = \frac{W\cos\gamma}{W\sin\gamma} = \cot\gamma$$
 $$\left(\frac{L}{D}\right)_{\text{eff}} = \cot 28.0^{\circ} = 1.88$$
 
 **An effective ratio of 1.88 is a steep energy-management descent and not a best-glide profile**, and the
-comparison rests on measurement rather than on impression. A survey of flight-determined subsonic lift and
+comparison is drawn from measured flight data. A survey of flight-determined subsonic lift and
 drag for seven lifting-body and wing-body reentry configurations puts the achievable maximum for this
 class in the range of roughly 3 to 4 \[[Saltzman et al 1999][research_saltzman_1999]\], with later
 assessments refining the blunt-based cases \[[Saltzman et al 2002][research_saltzman_2002]\]
 \[[Saltzman et al 2007][research_saltzman_2007]\]. **The X-40A was therefore flown at about half its
-attainable ratio**, which is what a vehicle does when it is managing energy toward a fixed point rather
+attainable ratio**, the profile of a vehicle managing energy toward a fixed point rather
 than trying to stay airborne.
 
 **The difficulty of that regime is the oldest result in this article's literature.** Approach and landing
@@ -380,10 +382,10 @@ at lift to drag ratios of 3 to 4 was investigated in flight in 1959 using a delt
 \[[Kock et al 1972][research_kock_1972]\], and the effect of the ratio on pilot rating was quantified for a
 lifting-body landing task \[[Jackson et al 1991][research_jackson_1991]\]
 \[[Jackson et al 1993][research_jackson_1993]\]. **Forty years of work established that this regime is
-flyable and unforgiving**, which is the context in which an autonomous attempt at it should be read.
+flyable and unforgiving**, and an autonomous attempt at it should be read in that context.
 
-**Ground range in a steady glide is the height multiplied by the lift to drag ratio**, which is the same
-relation written for distance rather than for force.
+**Ground range in a steady glide is the height multiplied by the lift to drag ratio**, the force
+balance above rewritten for distance.
 
 $$R = h \cot\gamma = h \left(\frac{L}{D}\right)$$
 
@@ -403,10 +405,10 @@ Put another way, a body falling freely from that height with no drag at all woul
 
 $$V = \sqrt{2gh} = \sqrt{2(32.174)(15{,}050)} = 984 \ \text{ft/s}$$
 
-**more than twice the speed the vehicle actually reached**, which is the quantitative statement that this
-was a drag-dominated descent rather than an acceleration.
+**more than twice the speed the vehicle reached**, so the descent was dominated by
+drag and was not an acceleration.
 
-**One number does transfer, and it is the only one in this section that does.** The time scaling relation
+**One number does transfer, and no other in this section does.** The time scaling relation
 converts the observed descent into its full-scale equivalent, because time is the one quantity whose
 scaling depends on geometry alone.
 
@@ -437,7 +439,7 @@ flight path is
 
 $$L = W \cos\gamma = 2{,}600 \cos 28.0^{\circ} = 2{,}297 \ \text{lb}$$
 
-and the same lift is produced aerodynamically, which is the equation that converts a force into a
+and the same lift is produced aerodynamically, in the equation that converts a force into a
 geometry.
 
 $$L = \tfrac{1}{2} \rho V^{2} S C_{L}$$
@@ -453,7 +455,7 @@ $$S C_{L} = \frac{2{,}297}{171.2} = 13.42 \ \text{ft}^{2}$$
 
 **A planform area near 100 square feet is geometrically plausible for a 22 by 12 foot vehicle**, and it
 implies a lift coefficient of 0.134 and a wing loading of 26 pounds per square foot. **Both are stated as
-an estimate and neither is a measurement.** The useful part is the product, which is measured, and which
+an estimate and neither is a measurement.** The useful part is the product. It is measured, and it
 shows the vehicle flying at a low lift coefficient in a fast steep descent rather than at the high angle
 of attack a low-speed lifting body approach would suggest.
 
@@ -469,8 +471,8 @@ The configuration is a [lifting body][ref_lifting_body] with a fat body, short w
 the X-40A**, through the manned lifting body programme \[[Thompson 1966][research_thompson_1966]\]
 \[[Gentry et al 1966][research_gentry_1966]\] \[[Layton and McTigue 1969][research_layton_1969]\], its status reviews
 \[[McTigue 1970][research_mctigue_1970]\] and its stability and control derivatives
-\[[Kempel et al 1970][research_kempel_1970]\]. **The X-40A therefore inherited a well-understood shape class**,
-which is part of why a one million dollar article could be flown with confidence on its first attempt. **The aspect ratio is the property that explains the flight data.**
+\[[Kempel et al 1970][research_kempel_1970]\]. **The X-40A inherited a well-understood shape class**,
+and that inheritance partly explains why a one million dollar article could be flown with confidence on its first attempt. **The aspect ratio is the property that explains the flight data.**
 With a span of 12 feet and an estimated planform of 100 square feet,
 
 $$AR = \frac{b^{2}}{S} = \frac{12^{2}}{100} = 1.44$$
@@ -484,28 +486,28 @@ At the measured lift coefficient of 0.134 and an Oswald efficiency of 0.6, the i
 
 $$C_{D_{i}} = \frac{0.134^{2}}{\pi (0.6)(1.44)} = 0.0066$$
 
-which is small in absolute terms and small relative to the base and profile drag of a blunt lifting body,
+a value small in absolute terms and small relative to the base and profile drag of a blunt lifting body,
 **and that is the point.** At low lift coefficient this shape is dominated by pressure drag rather than
 induced drag, so its glide ratio is poor for reasons that have nothing to do with the wing.
 
 ### Guidance, Navigation and Control
 
-**This is the system the vehicle existed to test and the only one whose results transfer.** The 2001
+**The vehicle existed to test this system, and its results are the only ones that transfer.** The 2001
 flight series was described by the space agency as an in-flight evaluation of guidance, navigation and
 control software for autonomous flight controls \[[X-40A Space Maneuvering Vehicle][ref_nasa_x40]\], and
 the vehicle was fitted with navigation systems before the series began
 \[[Boeing X-37 and X-40][ref_x37_x40]\].
 
-**The scaling result from the sizing section has a direct consequence here and it is favourable.** Under
+**The scaling result from the sizing section has a direct and favourable consequence here.** Under
 Froude similarity angular rates scale as the inverse square root of the length ratio, so at
 $\lambda = 0.778$ the model's angular rates are
 
 $$\frac{\omega_{m}}{\omega_{f}} = \frac{1}{\sqrt{0.778}} = 1.134$$
 
 **times those of the full-scale vehicle.** A control system that stabilises the smaller vehicle is
-therefore working about 13 percent faster than it would need to on the larger one.
-**The subscale test is conservative for the autopilot**, which is the opposite of the usual situation and
-is the strongest single argument for the programme.
+working about 13 percent faster than it would need to on the larger one.
+**The subscale test is conservative for the autopilot.** The usual situation is the opposite, and
+this reversal is the strongest single argument for the programme.
 
 **The mass mismatch works in the same direction and more strongly, and it can be quantified rather than
 asserted.** Dynamic similarity requires the inertia ratio to be $\lambda^{5}$, while the actual inertia
@@ -536,8 +538,8 @@ at most
 
 $$\theta \le \frac{7}{13{,}200} = 5.30 \times 10^{-4} \ \text{rad} = 1.82 \ \text{arcmin}$$
 
-**which is no more than 0.053 percent of the distance flown.** That is the number the programme should be
-judged on, and it is the one number in the record that speaks directly to whether the autonomy worked. **The
+**which is no more than 0.053 percent of the distance flown.** The programme should be judged on that
+number, the only figure in the record that speaks directly to whether the autonomy worked. **The
 touchdown offset itself is not published**, so the figure measures rollout tracking rather than the
 accuracy of the touchdown point.
 
@@ -557,12 +559,12 @@ inside it. **A representative touchdown sink of 3 feet per second into a 6 inch 
 
 $$a = \frac{3^{2}}{2(0.5)} = 9 \ \text{ft/s}^{2}$$
 
-which is about 0.28 g and undemanding, and it is undemanding because the vehicle is light.
-**The gear was sized by a mass the operational vehicle would not have had**, which is another way of
-saying that the structural results do not transfer either.
+which is about 0.28 g, and the case is undemanding because the vehicle is light.
+**The gear was sized by a mass the operational vehicle would not have had**, and the structural
+results therefore do not transfer either.
 
 **The rollout is equally gentle and equally uninformative.** The vehicle stopped in a little over 7,000
-feet, so the mean deceleration for a touchdown speed $V_{td}$ is
+feet \[[Boeing X-40][ref_x40]\], so the mean deceleration for a touchdown speed $V_{td}$ is
 
 $$a = \frac{V_{td}^{2}}{2 s} = \frac{V_{td}^{2}}{14{,}000}$$
 
@@ -571,8 +573,8 @@ the mean deceleration is 1.61 feet per second squared, and at 200 feet per secon
 
 $$a\big|_{150} = 0.050 \ g \qquad a\big|_{200} = 0.089 \ g$$
 
-**Under a tenth of a gravity in either case**, which is what a light vehicle with no thrust reverser and a
-very long runway produces. **The X-37A overran a runway in 2006 at about 120 percent of the linear scale** \[[Boeing X-37][ref_x37]\], and this is the calculation that shows why the X-40A's rollout, made at a mass the larger vehicle did not share, said nothing useful about that.
+**Under a tenth of a gravity in either case**, the result a light vehicle with no thrust reverser and a
+very long runway produces. **The X-37A overran a runway in 2006 at about 120 percent of the linear scale** \[[Boeing X-37][ref_x37]\], and the calculation above shows why the X-40A's rollout, made at a mass the larger vehicle did not share, said nothing useful about that.
 
 ### The Carrier and Release System
 
@@ -592,15 +594,13 @@ height.** The two release altitudes therefore differ by exactly their ratio.
 
 $$\frac{(E/m)_{2001}}{(E/m)_{1998}} = \frac{g(15{,}050)}{g(9{,}000)} = \frac{15{,}050}{9{,}000} = 1.672$$
 
-**Going to the heavier helicopter bought 67.2 percent more energy**, and the 2001 series spent it on manoeuvres more complex than the straight-in approach flown first \[[X-40A second free flight successful][ref_sciencedaily_x40]\].
+**The heavier helicopter supplied 67.2 percent more energy**, and the 2001 series spent it on manoeuvres more complex than the straight-in approach flown first \[[X-40A second free flight successful][ref_sciencedaily_x40]\].
 
 ### Instrumentation
 
 **The instrumentation requirement follows from what the programme wanted to learn.** Because the
 trajectory does not scale, there is little value in high-fidelity aerodynamic instrumentation, and because
-the software is the article under test, the valuable measurements are of the navigation state and of the control system's own behaviour.
-
-**The programme's own statement of objectives is broader than that argument.** The flight test approach for the 2001 series lists the evaluation of a calculated air data system and of the Honeywell satellite and inertial navigation unit under flight conditions, the tuning of the guidance, navigation and control algorithms, and parameter identification manoeuvres to improve the X-37 aerodynamic database \[[Mitchell 2004][research_mitchell_2004]\]. **The aerodynamic coefficients of a shape do not depend on its mass**, and at 69 percent of full-scale Reynolds number they carry over with the mild correction derived above, so that part of the flight data was meant to inform the successor even though the trajectory was not.
+the software is the article under test, the valuable measurements are of the navigation state and of the control system's behaviour.
 
 **The programme's own statement of objectives is broader than that argument.** The flight test approach for the 2001 series lists the evaluation of a calculated air data system and of the Honeywell satellite and inertial navigation unit under flight conditions, the tuning of the guidance, navigation and control algorithms, and parameter identification manoeuvres to improve the X-37 aerodynamic database \[[Mitchell 2004][research_mitchell_2004]\]. **The aerodynamic coefficients of a shape do not depend on its mass**, and at 69 percent of full-scale Reynolds number they carry over with the mild correction derived above, so that part of the flight data was meant to inform the successor even though the trajectory was not.
 
@@ -609,16 +609,16 @@ A paper given to the twentieth Digital Avionics Conference in October 2001 repor
 **Space Integrated Global Positioning System and Inertial Navigation System** during the X-40A approach
 and landing campaign, describing it as an off-the-shelf navigation-grade unit enhanced for space and
 reentry environments and testing it against differential satellite navigation
-\[[Childers et al 2001][research_childers_2001]\]. **Its two stated objectives name the purpose of that testing exactly**, being to demonstrate performance sufficient to meet the X-37 requirement for
-automatic autonomous approach and landing, and **to reduce the risk of integrating that specific unit into
-that specific vehicle.**
+\[[Childers et al 2001][research_childers_2001]\]. **Its two stated objectives name the purpose of that testing**, being to demonstrate performance sufficient to meet the X-37 requirement for
+automatic autonomous approach and landing, and **to reduce the risk of integrating that unit into
+that vehicle.**
 
 **That is a hardware qualification and not a scaling experiment.** It supports this article's thesis, because it shows the programme buying confidence in a component and a software stack rather than a trajectory, **and it does so in the words of the people who ran it.**
 
 ## The Flight Test Record
 
 **The X-40A flew eight free flights across two programmes and three years, and every one of them ended in
-an autonomous landing.**
+an autonomous landing** \[[X-40A Space Maneuvering Vehicle][ref_nasa_x40]\] \[[Boeing X-37 and X-40][ref_x37_x40]\].
 
 **The first flight was on 11 August 1998 at Holloman Air Force Base in New Mexico.** It was released from
 a cradle beneath a UH-60 at about 9,000 feet and flew to an automatic landing on the designated runway
@@ -626,7 +626,7 @@ a cradle beneath a UH-60 at about 9,000 feet and flew to an automatic landing on
 \[[Boeing X-40][ref_x40]\].
 **Boeing described the objective as validating low-speed handling qualities and demonstrating autonomous
 approach and landing** \[[Boeing and the Air Force flight test the Space Maneuver Vehicle][ref_boeing_1998]\].
-That single flight was the whole of the 1998 campaign.
+That single flight was the whole of the 1998 campaign \[[X-40A Space Maneuvering Vehicle][ref_nasa_x40]\].
 
 **The vehicle was then loaned to the space agency and flew seven more times in 2001** at Dryden Flight
 Research Center at Edwards Air Force Base in California
@@ -643,9 +643,9 @@ vehicle manoeuvres rather than the straight-in approach flown first
 
 **Landing accuracy is published for the 1998 flight alone.** The vehicle touched down left of the
 centreline, deployed its drag chutes, tracked to within 7 feet of the runway centreline and stopped in a
-little over 7,000 feet \[[Boeing X-40][ref_x40]\]. That account rests on an encyclopaedia entry, and none of
+little over 7,000 feet \[[Boeing X-40][ref_x40]\]. That account comes from an encyclopaedia entry, and none of
 the sources the entry cites for the flight carries the figures.
-**Seven feet is the result that justifies the programme**, because centreline tracking is precisely the
+**Seven feet is the result that justifies the programme**, because centreline tracking is the
 quantity an autonomous landing system is trusted or not trusted on.
 
 **The record contains two conflicts and this article does not resolve either.** One account places
@@ -657,15 +657,15 @@ the series \[[Boeing X-37 and X-40][ref_x37_x40]\]. The release altitude of the 
 \[[Boeing X-40A][ref_nmusaf_x40]\].
 
 **The vehicle was retired in May 2001 and is preserved at the National Museum of the United States Air
-Force** \[[Boeing X-40][ref_x40]\].
+Force** \[[Boeing X-40][ref_x40]\] \[[Boeing X-40A][ref_nmusaf_x40]\].
 
 ## Comparison With Ground Prediction
 
 **The record holds no published ground prediction for the X-40A itself, so a direct comparison cannot be
 made.** None of the article's sources reports a wind tunnel campaign, a simulation of the trajectory or a
 contractor estimate of the descent that the flights could be checked against. What the article can set
-beside the flight record is the expectation the programme stated, the analytical relations derived in the
-section headed Sizing From First Principles, and the measured behaviour of the vehicle class the shape
+beside the flight record is the expectation the programme stated, the analytical relations derived
+under Sizing From First Principles, and the measured behaviour of the vehicle class the shape
 came from.
 
 **The stated expectation was met in full.** The programme manager gave the purpose of the first flight as
@@ -676,17 +676,17 @@ centreline on the 1998 flight \[[Boeing X-40][ref_x40]\]. **That is the confirma
 objective and not a comparison of numbers**, because no predicted dispersion is published to set the
 7 feet against.
 
-**The navigation unit was the one component tested in flight against an independent reference.** The
+**The navigation unit was the only component tested in flight against an independent reference.** The
 Space Integrated Global Positioning System and Inertial Navigation System was evaluated during the
 approach and landing campaign against differential satellite navigation
 \[[Childers et al 2001][research_childers_2001]\]. Its achieved accuracies are in the full report
-rather than in its abstract, as the section headed Epistemic State records, so the article cannot state
+rather than in its abstract, as Epistemic State notes below, so the article cannot state
 how closely flight matched what was required.
 
 **The glide can be compared with its class, and it fell well short of the class maximum.** Flight-determined
 subsonic lift and drag for seven lifting-body and wing-body configurations put the attainable maximum ratio
 in the range of roughly 3 to 4 \[[Saltzman et al 1999][research_saltzman_1999]\], and the 2001 flight
-figures give an effective ratio of 1.88. The section headed Sizing From First Principles argues that the
+figures give an effective ratio of 1.88. The sizing analysis above argues that the
 gap reflects energy management toward a fixed point rather than an aerodynamic deficit. **The comparison is
 against other vehicles' flight data and not against a prediction for this one**, which limits what it can
 show.
@@ -695,14 +695,14 @@ show.
 The similarity relations predict that a dynamically similar model at a length ratio of 0.778 would weigh
 5,186 lb, and the vehicle weighed about 2,600 lb. The angular rate relation predicts a model responding
 about 13 percent faster than the full-scale vehicle, and the inertia shortfall roughly doubled the response
-to a given control moment, as the section headed Dependent Systems argues. **Those are predictions about
+to a given control moment, as argued under Dependent Systems. **Those are predictions about
 what the flights could transfer, and the X-37A overrun of 2006 is the nearest thing in the record to a test
-of them**, which the section headed What the Data Changed discusses and the section headed Epistemic State
+of them**, which the next section discusses and Epistemic State
 marks as an inference.
 
 **The reference area was never predicted in public and flight recovers it only in part.** The steady glide
 fixes the product of planform area and lift coefficient at 13.42 square feet, and the split between them,
-a planform near 100 square feet and a lift coefficient of 0.134, is the article's own estimate and not a
+a planform near 100 square feet and a lift coefficient of 0.134, is the article's estimate and not a
 measurement.
 
 ## What the Data Changed
@@ -712,12 +712,12 @@ anybody expected at the time.**
 
 **The airframe became the X-37.** The X-37A airframe is essentially the X-40A scaled up to about
 120 percent \[[Boeing X-37 and X-40][ref_x37_x40]\], and the X-37 line flew the Approach and Landing Test
-Vehicle flights in 2006 and then flew to orbit \[[Boeing X-37][ref_x37]\]. The section headed The Scale
-Ratio Is Disputed and the Dispute Is Resolvable computes 128.5 percent from the published dimensions. **A one million dollar test article set the external geometry of a spacecraft
-that has since flown for years at a time**, its sixth mission spending 908 days in orbit \[[Boeing X-37][ref_x37]\], which is a return on investment the series has no other
-example of.
+Vehicle flights in 2006 and then flew to orbit \[[Boeing X-37][ref_x37]\]. The scale ratio subsection
+above computes 128.5 percent from the published dimensions. **A test article that cost one million dollars to build set the external geometry of a spacecraft
+that has since flown for years at a time**, its sixth mission spending 908 days in orbit \[[Boeing X-37][ref_x37]\], and the series has no other
+example of such a return on investment.
 
-**The successor programme documented its own approach and landing plan in detail**, describing the flight
+**The successor programme documented its approach and landing plan in detail**, describing the flight
 test approach for the X-37 Approach and Landing Test Vehicle \[[Taylor 2004][research_taylor_2004]\],
 its dynamics and stability and control characteristics
 \[[Chaudhary et al 2001][research_chaudhary_2001]\], and, afterwards, the lessons the project drew
@@ -727,7 +727,7 @@ its dynamics and stability and control characteristics
 X-37A Approach and Landing Test Vehicle overran the runway and sustained minor damage on its first free
 glide flight on 7 April 2006 \[[Boeing X-37][ref_x37]\]. **That is the clearest evidence available that the
 X-40A results did not transfer quantitatively**, since the same programme lineage, flying a vehicle
-120 percent the size with the descendant of the same software, failed to stop on the runway.
+120 percent the size, failed to stop on the runway.
 
 **What the X-40A settled was that the approach was tractable, not that it was solved, and the distinction
 can be made numerically.** Eight successes and no failures is a small sample, and the standard one-sided
@@ -739,12 +739,12 @@ $$(1 - p)^{n} = \alpha \quad \Longrightarrow \quad p_{\max} = 1 - \alpha^{1/n}$$
 $$p_{\max} = 1 - 0.05^{1/8} = 0.312$$
 
 **Eight clean landings bound the failure rate only below about 31 percent at 95 percent confidence.**
-That is a statement about sample size rather than about the vehicle, and it is the precise sense in which
+The bound describes the sample size rather than the vehicle, and in that precise sense
 the programme established tractability and not reliability. **A vehicle returning from orbit needs a
 figure several orders of magnitude smaller**, and no drop-test campaign of affordable length reaches it.
 
-**What the flights did establish is that the concept, the sensors and the integration work at all**, which
-is a different and genuinely necessary result. It does not establish the gains, the margins or the energy
+**What the flights did establish is that the concept, the sensors and the integration work at all**, a
+different and necessary result. It does not establish the gains, the margins or the energy
 management logic for a heavier vehicle, and the 2006 overrun is what that gap looks like in practice.
 
 **The cost per flight is the other number that makes the programme look sensible.** One million dollars of
@@ -752,12 +752,12 @@ fabrication across eight free flights is
 
 $$\frac{1{,}000{,}000}{8} = 125{,}000 \ \text{dollars per flight}$$
 
-**before operating costs, which the record does not give.** Whatever the true total, a programme that buys
+**before operating costs, which no source gives.** Whatever the true total, a programme that buys
 eight autonomous landings at this order of magnitude is buying them cheaply, and the argument for the
 X-40A was never that each flight proved much but that flights were affordable enough to repeat.
 
-**The Space Maneuver Vehicle itself was never built.** The operational concept the X-40A was ninety
-percent of does not exist, and the designation it briefly held moved to the test article
+**The Space Maneuver Vehicle itself was never built under that name.** The operational concept the X-40A was ninety
+percent of was not built as the X-40B, and the designation it briefly held moved to the test article
 \[[Boeing X-37 and X-40][ref_x37_x40]\]. **The programme's surviving descendant is a space agency and then
 Air Force orbital vehicle rather than the rapid-turnaround military spaceplane that justified it** \[[Boeing X-37][ref_x37]\].
 
@@ -860,18 +860,18 @@ Of its 73 titles, 50 concern separation, release, captive carry or air launch, a
 ## Where the Framing Breaks Down
 
 **Treating the X-40A through the similarity keystone is correct about the physics and misleading about
-the programme, in three specific ways.**
+the programme, in three ways.**
 
 **First, the programme never claimed dynamic similarity and the framing risks knocking down an argument
-nobody made.** Boeing described the vehicle as a technology demonstrator and the space agency described
-the flights as software evaluation. **Neither promised that the trajectory would scale**, and the mass
+nobody made.** Boeing described the vehicle as a technology demonstrator \[[Boeing and the Air Force flight test the Space Maneuver Vehicle][ref_boeing_1998]\] and the space agency described
+the flights as software evaluation \[[X-40A Space Maneuvering Vehicle][ref_nasa_x40]\]. **Neither promised that the trajectory would scale**, and the mass
 result above is a finding about what the vehicle could have delivered rather than about a broken promise.
 
 **Second, similarity analysis assumes the objective is prediction, and here it was rehearsal.** A great
 deal of what an autonomous landing programme must retire is not physics at all, being the integration of
 navigation sensors, the handling of dropouts, the release transient, the interaction with range safety,
 and the question of whether the whole apparatus works on a real morning in real air. **None of that scales
-because none of it is a similarity problem**, and all of it is genuinely retired by flying.
+because none of it is a similarity problem**, and all of it is retired by flying.
 
 **Third, the keystone flatters the flight data by treating a 75 second glide as representative.** The
 X-37's return from orbit passes through hypersonic, supersonic and transonic flight and a thermal
@@ -937,7 +937,7 @@ was allocated to the operational vehicle in 1997 and reassigned to the Integrate
 vehicle was built at Boeing Phantom Works in Seal Beach, California, is 22 feet long with a 12 foot span,
 weighs about 2,600 pounds, and cost approximately one million dollars to fabricate. It first flew on
 11 August 1998 at Holloman Air Force Base after release from a UH-60. It was loaned to the space agency
-and flew seven free flights at Dryden Flight Research Center between 4 April and 19 May 2001, released
+and flew seven free flights at Dryden Flight Research Center in 2001, released
 from a CH-47D at about 15,000 feet for descents of about 75 seconds. The second of those flights was on
 12 April 2001, released at 15,050 feet, reaching 428 feet per second. The vehicle was retired in May 2001
 and is preserved at the National Museum of the United States Air Force. The X-37 airframe is about
@@ -994,7 +994,8 @@ pairing.
 
 **The only published landing accuracy, 7 feet of centreline tracking on the 1998 flight, comes from an
 encyclopaedia entry** whose cited sources do not carry the figure, and the touchdown offset that preceded it
-is not published.
+is not published. The 2.5 mile release distance of that flight rests on the same entry, whose cited source does not
+carry it either.
 
 **The X-37B weight used in the mass comparison is a maximum takeoff weight including payload and
 propellant.** A landing weight would be lower and would reduce the computed shortfall, so
@@ -1023,7 +1024,7 @@ here and not analysed.
 
 ## Conclusion
 
-**The X-40A is remembered as a subscale model and the arithmetic says it was not one.** Its geometric
+**The X-40A is remembered as a subscale model and the arithmetic shows it was not one.** Its geometric
 ratio to the X-37 is about 0.78 and the scale ratio its mass implies is about 0.62, so it flew at roughly half the weight
 that dynamic similarity demanded. **The Froude number was never matched, so the speeds, the times and the
 trajectory never scaled**, and no trajectory result from those eight flights transfers to the vehicle it was built to inform. The aerodynamic coefficients were another matter, because they depend on the shape and not on the mass, and the flights carried parameter identification manoeuvres for the X-37 aerodynamic database \[[Mitchell 2004][research_mitchell_2004]\].
@@ -1032,7 +1033,7 @@ trajectory never scaled**, and no trajectory result from those eight flights tra
 exercised in real air, against a plant that its smaller scale made about 13 percent quicker to respond, and its mass deficit
 quicker again, than the full-scale vehicle would be, and it landed the aircraft every time, once within 7 feet of the
 centreline. **The subscale test was harder than the full-scale case in the one dimension that mattered**,
-which is the strongest argument the programme has.
+and it gives the programme its strongest argument.
 
 **The most durable output was the shape.** A one million dollar test article defined the outer mould line
 of a spacecraft that has since spent years in orbit. **And the clearest evidence of what did not transfer

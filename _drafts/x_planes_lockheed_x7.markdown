@@ -13,7 +13,7 @@ series_index: 8
 <!-- A304 -->
 <script>console.log("A304");</script>
 
-The [Lockheed X-7][ref_lockheed_x7] was dropped from a bomber, accelerated by a rocket it then discarded, flown by an engine that cannot work standing still, and recovered by driving a spike into the desert. It carried no pilot and it was not expected to survive indefinitely. This article is the eighth in the [X-Planes series][related_post_a297_xplanes_framing], following the [X-1][related_post_a298_bell_x1], the [X-2][related_post_a299_bell_x2], the [X-3][related_post_a300_douglas_x3], the [X-4][related_post_a301_northrop_x4], the [X-5][related_post_a302_bell_x5], and the [X-6][related_post_a303_convair_x6]. The National Advisory Committee for Aeronautics, abbreviated NACA throughout and reconstituted in 1958 as the National Aeronautics and Space Administration, abbreviated NASA, supplied the ramjet and inlet science. The Air Force supplied the requirement. [Lockheed][ref_skunk_works] supplied a vehicle designed by [Kelly Johnson][ref_kelly_johnson], eight years before the [A-12][ref_a12].
+The [Lockheed X-7][ref_lockheed_x7] was dropped from a bomber, accelerated by a rocket it then discarded, flown by an engine that cannot work standing still, and recovered by driving a spike into the desert. It carried no pilot and it was not expected to survive indefinitely. This article is the eighth in the [X-Planes series][related_post_a297_xplanes_framing], following the [X-1][related_post_a298_bell_x1], the [X-2][related_post_a299_bell_x2], the [X-3][related_post_a300_douglas_x3], the [X-4][related_post_a301_northrop_x4], the [X-5][related_post_a302_bell_x5], and the [X-6][related_post_a303_convair_x6]. The [National Advisory Committee for Aeronautics][ref_naca], abbreviated NACA throughout and reconstituted in 1958 as the National Aeronautics and Space Administration, abbreviated NASA, supplied the ramjet and inlet science. The [Air Force][ref_lockheed_x7] supplied the requirement. [Lockheed][ref_skunk_works] supplied a vehicle that [Kelly Johnson][ref_kelly_johnson] helped to design, eleven years before the first flight of the [A-12][ref_a12].
 
 Every previous article in this series has been about an aircraft that had to come back. This one is about what changes when it does not.
 
@@ -21,7 +21,7 @@ Every previous article in this series has been about an aircraft that had to com
 
 The keystone is what an expendable vehicle can measure that a crewed one cannot.
 
-The obvious answer is speed, and it is not the interesting one. The X-7 reached Mach 4.31, which no crewed aircraft of the period approached, and it did so because it was small, unpressurized, uncrewed, and cheap enough to lose. That is a difference of degree.
+The obvious answer is speed. It is not the interesting one. The X-7 reached Mach 4.31, which [Heppenheimer 2007][book_heppenheimer_2007_heat_barrier] records as the speed record for airbreathing propulsion, and it did so because it was small, unpressurized, uncrewed, and cheap enough to lose. That is a difference of degree.
 
 The difference of kind is epistemic and it concerns where the data lie relative to the question. A crewed programme approaches a limit and stops short of it, because the limit is defined by something that destroys the aircraft. Its estimate of where the limit is must therefore be an **extrapolation** from the region it dared to sample. An expendable programme can cross the limit deliberately, repeatedly, and cheaply, and its estimate is an **interpolation** between points on either side.
 
@@ -35,7 +35,7 @@ $$\hat{y}(x^{*}) \pm t_{\alpha/2, \, n-2} \, \sigma \sqrt{1 + \frac{1}{n} + \fra
 
 For twenty observations evenly spread, predicting at the centroid of the data gives a standard error of $0.22\sigma$, while predicting one full data span beyond that centroid gives $0.81\sigma$, a factor of 3.6 for a margin no crewed programme would consider excessive.
 
-There is a second and independent effect, which is that cheap vehicles can be flown more often. The standard error of any estimate improves with the square root of the sample,
+A second and independent effect is that cheap vehicles can be flown more often. The standard error of any estimate improves with the square root of the sample,
 
 $$\mathrm{SE} = \frac{\sigma}{\sqrt{n}}, \qquad n = \frac{C_{\text{budget}}}{c_{\text{unit}}}$$
 
@@ -43,7 +43,7 @@ so a vehicle costing a fraction $k$ of a crewed one buys
 
 $$\frac{\mathrm{SE}_{\text{expendable}}}{\mathrm{SE}_{\text{crewed}}} = \sqrt{k}$$
 
-and an order of magnitude in unit cost is a factor of three in precision. **The two effects compound**, since the cheap vehicle both samples more often and samples in places the expensive one cannot go, and it is the second that matters more because no amount of sampling on one side of a boundary locates the boundary as well as a few points on both sides.
+and an order of magnitude in unit cost is a factor of three in precision. **The two effects compound**, since the cheap vehicle both samples more often and samples in places the expensive one cannot go, and the second matters more because no amount of sampling on one side of a boundary locates the boundary as well as a few points on both sides.
 
 The design-of-experiments statement of the same fact is that the information a sample carries about a slope grows with its distance from the centroid,
 
@@ -51,7 +51,7 @@ $$\mathcal{I}(\beta) = \frac{1}{\sigma^{2}} \sum_i \left( x_i - \bar{x} \right)^
 
 so the optimal design places points at the extremes of the admissible range. **A crewed programme is one whose admissible range has been truncated exactly where the information is densest.**
 
-The truncation is not arbitrary and it is worth writing down what sets it. If loss of the vehicle occurs with probability $P_f(x)$ rising toward the boundary, the expected cost of a test point is
+The truncation is not arbitrary, and what sets it can be written down. If loss of the vehicle occurs with probability $P_f(x)$ rising toward the boundary, the expected cost of a test point is
 
 $$\mathbb{E}\left[ C(x) \right] = c_{\text{flight}} + P_f(x) \, c_{\text{vehicle}}$$
 
@@ -61,19 +61,19 @@ $$\frac{\partial \mathcal{I}}{\partial x} = \lambda \, c_{\text{vehicle}} \frac{
 
 **When $c_{\text{vehicle}}$ includes a human life the right side is effectively unbounded and the stopping point moves inward without limit.** That single term is the whole difference between the two kinds of programme, and it explains why the X-7's advantage cannot be recovered by making a crewed aircraft cheaper.
 
-The X-7 was built to test ramjets, which is the stated purpose and is true. What it demonstrates, and what this article is about, is that removing the pilot changes which questions are answerable rather than merely how fast the answer arrives.
+Testing ramjets is the X-7's stated purpose in [Heppenheimer 2007][book_heppenheimer_2007_heat_barrier], and the statement is true. What it demonstrates, and what this article is about, is that removing the pilot changes which questions are answerable rather than merely how fast the answer arrives.
 
 ## Programme Origin
 
-The vehicle predates its designation by five years, which is worth noticing because it explains the shape of the programme.
+The vehicle predates its designation by five years, a fact that explains the shape of the programme.
 
-Development began in December 1946 against an Air Force requirement for an unmanned ramjet testbed capable of at least Mach 3. It carried the Air Materiel Command designator MX-883 and the Lockheed house number L-171, was first designated PTV-A-1, and became the X-7 only in 1951. **It was therefore a missile programme that acquired an X-designation, rather than a research aircraft that acquired a mission**, and that inversion runs through everything about it. The first launch failed. After the ramjet was redesigned, the flights succeeded, and 130 were flown between April 1951 and July 1960.
+Development began in December 1946 against an Air Force requirement for an unmanned ramjet testbed for Mach 3, an initial goal the programme surpassed [Heppenheimer 2007][book_heppenheimer_2007_heat_barrier]. It carried the Air Materiel Command designator MX-883 and a Lockheed model number given as L-171 in one account and as L-151 by [Parsch 2002][ref_ds_aqm60], was first designated PTV-A-1, and became the X-7 only in 1951. **It was therefore a missile programme that acquired an X-designation, rather than a research aircraft that acquired a mission**, and that inversion runs through everything about it. The first launch, in April 1951, failed. After the ramjet was redesigned, the flights succeeded, and the [encyclopaedia account][ref_lockheed_x7] counts 130 flown between April 1951 and July 1960.
 
-The configuration is a cylinder with wings. The X-7A-1 is 9.98 metres long with a span of 3.7 metres, a body diameter of 0.51 metres, and a launch mass of about 3600 kilograms. Its fineness ratio is therefore
+The configuration is a cylinder with wings. The X-7A-1 is 9.98 metres long with a span of 3.7 metres, a body diameter of 0.51 metres, and a launch mass of about 3600 kilograms in the published [specifications][ref_lockheed_x7]. Its fineness ratio is therefore
 
 $$\frac{l}{d} = \frac{9.98}{0.51} = 19.6$$
 
-which is a missile proportion and not an aircraft one, and which is what a body designed around an engine instead of a cockpit looks like. The frontal area follows from the diameter,
+A missile has proportions like these and an aircraft does not, and they are what a body designed around an engine instead of a cockpit looks like. The frontal area follows from the diameter,
 
 $$A_{\text{ref}} = \frac{\pi d^{2}}{4} = \frac{\pi \times 0.51^{2}}{4} = 0.204 \ \text{square metres}$$
 
@@ -81,11 +81,11 @@ and the mass carried behind it gives a ballistic coefficient of
 
 $$\beta = \frac{m}{C_D A_{\text{ref}}} = \frac{3600}{0.4 \times 0.204} = 4.4 \times 10^{4} \ \text{kilograms per square metre}$$
 
-**That is an enormously high value by aircraft standards and it is the point.** A vehicle with a high ballistic coefficient is one whose motion is dominated by inertia and not by aerodynamic force, which is what a boosted body wants to be during acceleration and what an aeroplane must not be. The wing area is small and its function is stabilization and trim, not the support of level flight, since the vehicle spends its powered life accelerating.
+**By aircraft standards the value is enormous, and deliberately so.** A vehicle with a high ballistic coefficient has motion dominated by inertia and not by aerodynamic force. A boosted body wants that during acceleration, and an aeroplane must avoid it. The wing area is small and its function is stabilization and trim, not the support of level flight, since the vehicle spends its powered life accelerating.
 
-Structure is steel. The wings are stainless steel and the fuselage a nickel alloy, and the reason is given in the next section but is worth stating here as a design fact. **Aluminium was not an option, eight years before titanium became one.**
+Structure is steel. [Heppenheimer 2007][book_heppenheimer_2007_heat_barrier] records heat-treated 4130 steel, while the [encyclopaedia account][ref_lockheed_x7] gives stainless steel wings and a nickel alloy fuselage. The next section derives the need for steel, and the design fact can be stated now. **Aluminium was not an option, years before titanium became one.**
 
-The later X-7A-3 grew to 11 metres with a reduced span of 3.0 metres and exchanged the single under-wing booster arrangement for two boosters, one under each wing, which permitted a simpler fuselage-mounted release from the carrier aircraft. The derivative target drone became the AQM-60 [Kingfisher][ref_kingfisher], and the engines matured into the [RJ43][ref_rj43] that powered the [Bomarc][ref_bomarc] and, later, into the powerplant of the [D-21][ref_d21].
+The later X-7A-3 of 1954 grew to 11 metres with a reduced span of 3.0 metres and exchanged the single large booster at the tail for two smaller boosters under the wings, which permitted a semi-recessed carriage under the fuselage of the carrier in place of the bulky underwing carriage the X-7A-1 had needed [Parsch 2002][ref_ds_aqm60]. The derivative target drone became the AQM-60 [Kingfisher][ref_kingfisher], and the engines matured into the [RJ43][ref_rj43] that powered the [Bomarc][ref_bomarc] and, later, into the powerplant of the [D-21][ref_d21].
 
 ## Sizing From First Principles
 
@@ -101,17 +101,17 @@ Evaluating across the flight range makes the engine's character immediate,
 
 $$\frac{p_t}{p}(M = 0) = 1, \qquad \frac{p_t}{p}(M = 2) = 7.8, \qquad \frac{p_t}{p}(M = 4) = 152$$
 
-**At rest a ramjet has a compression ratio of one and therefore produces no thrust at all.** At Mach 2 it produces about what a contemporary turbojet compressor produced, so it is merely an alternative. At Mach 4 it produces a hundred and fifty to one, which no compressor of 1951 could approach, and the engine has no competition. The thermodynamic efficiency follows the same curve, since the ideal Brayton efficiency depends only on the compression achieved,
+**At rest a ramjet has a compression ratio of one and therefore produces no thrust at all.** At Mach 2 it produces a ratio of the same order as a contemporary turbojet compressor, so it is merely an alternative. At Mach 4 it produces a hundred and fifty to one, which no compressor of 1951 could approach, and the engine has no competition. The thermodynamic efficiency follows the same curve, since the ideal Brayton efficiency depends only on the compression achieved,
 
 $$\eta_{th} = 1 - \frac{1}{T_t / T} = 1 - \frac{1}{1 + \frac{\gamma - 1}{2} M^{2}}$$
 
 giving 0.44 at Mach 2 and 0.79 at Mach 4.31. **The engine gets better the faster it goes and it cannot start itself.** Everything about the X-7's operating concept follows from that single sentence.
 
-The vehicle must therefore be accelerated to ramjet-starting speed by something else, and it was. Dropped from a [B-29][ref_b29] or [B-50][ref_b50] at around 10 kilometres and 134 metres per second, the release Mach number is
+Something else has to accelerate the vehicle to ramjet-starting speed, and something did. Dropped from a [B-29][ref_b29] or [B-50][ref_b50] at around 10 kilometres, near the release altitudes of 8.7 and 10.3 kilometres that [Heppenheimer 2007][book_heppenheimer_2007_heat_barrier] gives for two record flights, and at an assumed 134 metres per second, the release Mach number is
 
 $$M_{\text{drop}} = \frac{134}{\sqrt{\gamma R T}} = \frac{134}{299.5} = 0.45$$
 
-A [solid-propellant][ref_solid_rocket] booster then supplies the difference. The X-7A-1 used an Allegany Ballistics Laboratory X202-C3 delivering 467 kilonewtons for 4 seconds, so the total impulse is
+A [solid-propellant][ref_solid_rocket] booster then supplies the difference. The X-7A-1 used an Allegany Ballistics Laboratory X202-C3 delivering 467 kilonewtons for 4 seconds [Parsch 2002][ref_ds_aqm60], so the total impulse is
 
 $$I = F \, t_b = 4.67 \times 10^{5} \times 4 = 1.87 \times 10^{6} \ \text{newton seconds}$$
 
@@ -139,7 +139,7 @@ The increment takes the vehicle to
 
 $$M_{\text{burnout}} = \frac{134 + 575}{299.5} = 2.37$$
 
-**The booster is sized to deliver exactly the Mach number at which the ramjet becomes worth having**, which is the cleanest possible statement of what a booster is for. The NACA had flown the same architecture on a smaller scale by 1953, and [Disher et al 1953][research_disher_1953] report the free-flight performance of a rocket-boosted, air-launched sixteen-inch ramjet, which is the X-7's operating concept in miniature and the closest thing in the open literature to a direct antecedent. The engine cycle behind it is charted in [Karp 1947][research_karp_1947] for the turbojet case and summarized for the ramjet by [Cervenko and Friedman 1956][research_cervenko_1956]. The drag loss computed above takes about nine metres per second from the increment, which leaves the burnout Mach number near 2.34 and still above the threshold.
+**The booster is sized to deliver exactly the Mach number at which the ramjet becomes worth having.** No cleaner statement of what a booster is for is possible. The NACA had flown the same architecture on a smaller scale by 1953, and [Disher et al 1953][research_disher_1953] report the free-flight performance of a rocket-boosted, air-launched sixteen-inch ramjet. That vehicle is the X-7's operating concept in miniature and the closest thing in the open literature to a direct antecedent. The engine cycle behind it is charted in [Karp 1947][research_karp_1947] for the turbojet case and summarized for the ramjet by [Cervenko and Friedman 1956][research_cervenko_1956]. The drag loss computed above takes about nine metres per second from the increment, which leaves the burnout Mach number near 2.34 and still above the threshold.
 
 The price is an acceleration no crewed vehicle could accept,
 
@@ -149,15 +149,15 @@ rising as propellant burns away to about 16 g at burnout. **A pilot would be unc
 
 $$a = \frac{I}{m \, t_b}$$
 
-so the only way to reduce the acceleration is to burn longer, which means carrying the booster further and losing more of the impulse to drag. **A crewed version of this vehicle would need a booster burning more than twice as long for less than half the acceleration, and would arrive slower for having carried it.** The tolerable limit for a seated and restrained pilot is of order 6 g sustained, which sets
+so the only way to reduce the acceleration is to burn longer, which means carrying the booster further and losing more of the impulse to drag. **A crewed version of this vehicle would need a booster burning more than twice as long for less than half the acceleration, and would arrive slower for having carried it.** Taking 6 g sustained as an assumed tolerable limit for a seated and restrained pilot sets
 
 $$t_{b,\min} = \frac{I}{m \, a_{\max}} = \frac{1.87 \times 10^{6}}{3600 \times 58.8} = 8.8 \ \text{seconds}$$
 
-which is more than twice the burn actually used. The booster is the first place where expendability is not a convenience but an enabler.
+or more than twice the burn the vehicle used. The booster is the first place where expendability is not a convenience but an enabler.
 
-### The Spike, and Why It Is Not Decoration
+### The Spike Is Not Decoration
 
-The most conspicuous feature of the X-7 is the long spike on its nose, and it is the difference between an engine and a duct.
+The most conspicuous feature of the X-7, the long spike on its nose, separates an engine from a duct.
 
 Air must be decelerated from flight Mach number to something a combustor can burn in, which means passing through shocks. The simplest arrangement is a single [normal shock][ref_normal_shock] at the inlet lip, and the total pressure surviving it is
 
@@ -169,7 +169,7 @@ $$\frac{p_{t2}}{p_{t1}}(M = 2) = 0.72, \qquad \frac{p_{t2}}{p_{t1}}(M = 3) = 0.3
 
 **A normal shock at Mach 4.31 destroys ninety percent of the total pressure the flight condition supplied.** The ram compression derived above is 228 to one at that Mach number, and a single normal shock throws away all but a tenth of it, leaving about 24 to one. An engine so arranged does not merely perform poorly. It stops being an engine.
 
-The remedy is to decelerate through a sequence of weaker oblique shocks before the terminal normal shock, and a cone projecting ahead of the cowl produces exactly that. An [oblique shock][ref_oblique_shock] behaves as a normal shock to the velocity component perpendicular to it,
+The remedy is to decelerate through a sequence of weaker oblique shocks before the terminal normal shock, and a cone projecting ahead of the cowl produces that sequence. An [oblique shock][ref_oblique_shock] behaves as a normal shock to the velocity component perpendicular to it,
 
 $$M_{n1} = M_1 \sin \beta$$
 
@@ -185,7 +185,7 @@ Because the loss depends on the normal component alone, a shallow turn is cheap.
 
 $$\left( \frac{p_{t}}{p_{t\infty}} \right)_{\text{total}} = \prod_{i} \left( \frac{p_{t2}}{p_{t1}} \right)_{i}$$
 
-and the arithmetic is worth carrying out rather than asserting. At Mach 4.31, a single oblique shock turning the flow 20 degrees followed by a normal shock gives
+and the arithmetic should be carried out, not asserted. At Mach 4.31, a single oblique shock turning the flow 20 degrees followed by a normal shock gives
 
 $$0.606 \times 0.416 = 0.252$$
 
@@ -193,21 +193,21 @@ and two oblique shocks of 16 degrees each, which reduce the normal Mach componen
 
 $$0.739 \times 0.874 \times 0.615 = 0.397$$
 
-**Roughly forty percent, against 10.7 percent for a single normal shock, which is a factor of 3.7.** Each additional shock helps less than the last, and the limit of infinitely many infinitesimal turns is an isentropic external compression that loses nothing at all and is impossible to build over any useful Mach range. The rule that the shocks be of equal strength, meaning equal normal Mach components, minimizes the product for a given number of them.
+**Roughly forty percent, against 10.7 percent for a single normal shock, a factor of 3.7.** Each additional shock helps less than the last, and the limit of infinitely many infinitesimal turns is an isentropic external compression that loses nothing at all and is impossible to build over any useful Mach range. The rule that the shocks be of equal strength, meaning equal normal Mach components, minimizes the product for a given number of them.
 
-A factor of 3.7 in the pressure delivered to the combustor is very nearly a factor of 3.7 in thrust. **The spike is not an aerodynamic refinement. It is most of the engine.**
+A factor of 3.7 in the pressure delivered to the combustor is very nearly a factor of 3.7 in thrust. **The spike is most of the engine, not an aerodynamic refinement.**
 
 This is not incidental engineering. It is the subject of a NACA research programme in its own right, opened by [Ferri and Nucci 1946][research_ferri_1946] and continued through [Ferri and Nucci 1951][research_ferri_1951], with the conical-flow separation approach of [Moeckel and Evans 1951][research_moeckel_1951] and the measured characteristics of conical spike inlets in [Allen and Beke 1953][research_allen_1953] and [Obey et al 1952][research_obey_1952]. The series of nose inlets surveyed by [Howard et al 1951][research_howard_1951] establishes the force and pressure characteristics across the low supersonic range, [Bernstein and Haefeli 1953][research_bernstein_1953] carry a single-conical-shock inlet to Mach 5.4, and nose and lip shaping for an underslung installation is [Pfyl 1955][research_pfyl_1955].
 
-The limit the article gestures at was approached in hardware. [Flaherty and Stitt 1959][research_flaherty_1959] test an isentropic spike inlet designed for Mach 5 at and below its design speed, which is the continuous-compression limit realized as a contoured centrebody instead of a series of cones. Making the geometry variable is the other route, and the translating-spike work of [Connors et al 1957][research_connors_1957] and [Connors et al 1957][research_connors_1957_2] shows what a moving centrebody buys, with the two-dimensional variable inlet of [Beheim and Gertsma 1956][research_beheim_1956_2] as the alternative and the eventual requirements statement by [Beheim and Boksenbom 1968][research_beheim_1968]. Matching such an inlet to a turbojet instead of a ramjet, which is the problem the next generation of aircraft had, is [Anderson et al 1960][research_anderson_1960]. **The X-7 had none of this and flew a fixed cone**, which is the price of being cheap.
+The limit the article gestures at was approached in hardware. [Flaherty and Stitt 1959][research_flaherty_1959] test an isentropic spike inlet designed for Mach 5 at and below its design speed. That inlet realizes the continuous-compression limit as a contoured centrebody instead of a series of cones. Making the geometry variable is the other route, and the translating-spike work of [Connors et al 1957][research_connors_1957] and [Connors et al 1957][research_connors_1957_2] shows what a moving centrebody gains, with the two-dimensional variable inlet of [Beheim and Gertsma 1956][research_beheim_1956_2] as the alternative and the eventual requirements statement by [Beheim and Boksenbom 1968][research_beheim_1968]. [Anderson et al 1960][research_anderson_1960] match such an inlet to a turbojet instead of a ramjet, the problem the next generation of aircraft faced. **The sources consulted record none of this on the X-7**, and a fixed cone would be the price of being cheap.
 
 ### The Temperature That Chooses the Material
 
-Stagnation temperature rises with the square of Mach number and it does not care what the vehicle is made of.
+Stagnation temperature rises with the square of Mach number, whatever the vehicle is made of.
 
-At 32 kilometres the ambient temperature is about 229 kelvin, so at Mach 4.31
+The record flight reached its top speed after a climb to about 18 kilometres [Heppenheimer 2007][book_heppenheimer_2007_heat_barrier], and the [standard atmosphere][ref_isa] is isothermal near that height at about 217 kelvin, so at Mach 4.31
 
-$$T_t = T \left( 1 + \frac{\gamma - 1}{2} M^{2} \right) = 228.7 \times 4.715 = 1078 \ \text{kelvin}$$
+$$T_t = T \left( 1 + \frac{\gamma - 1}{2} M^{2} \right) = 216.7 \times 4.715 = 1022 \ \text{kelvin}$$
 
 That is the temperature of the air arriving at the combustor before any fuel is burned. The skin sees slightly less, because a boundary layer recovers only part of the stagnation temperature,
 
@@ -215,11 +215,11 @@ $$T_r = T \left( 1 + r \, \frac{\gamma - 1}{2} M^{2} \right), \qquad r \approx \
 
 giving
 
-$$T_r = 228.7 \times \left( 1 + 0.89 \times 3.715 \right) = 985 \ \text{kelvin} = 712 \ ^\circ\text{C}$$
+$$T_r = 216.7 \times \left( 1 + 0.89 \times 3.715 \right) = 933 \ \text{kelvin} = 660 \ ^\circ\text{C}$$
 
-**Seven hundred degrees on the skin.** Aluminium retains almost no useful strength above 200 degrees, so the choice of [stainless steel][ref_stainless] and nickel alloy is not conservatism but arithmetic.
+**Six hundred and sixty degrees on the skin.** Aluminium was already ruled out by its loss of strength above 260 degrees on the slower SR-71 [Heppenheimer 2007][book_heppenheimer_2007_heat_barrier], so the choice of steel is not conservatism but arithmetic.
 
-Whether the structure actually reaches that temperature is a separate question and it has a short answer. A thin skin exchanging heat with the boundary layer obeys
+Whether the structure reaches that temperature is a separate question with a short answer. A thin skin exchanging heat with the boundary layer obeys
 
 $$\rho_s c_s t_s \frac{dT_w}{dt} = h \left( T_r - T_w \right)$$
 
@@ -231,15 +231,15 @@ For a 1.5 millimetre steel skin and a convective coefficient of 300 watts per sq
 
 $$\tau = \frac{7900 \times 500 \times 0.0015}{300} = 20 \ \text{seconds}$$
 
-against a powered flight lasting a few minutes. **The X-7's structure is not a heat sink. It reaches equilibrium and stays there**, which is the opposite of the short-exposure heat-sink philosophy used on rocket-boosted vehicles with shorter flights, and it is why the material choice rather than the material thickness is the design variable. The recovery factor itself was a NACA measurement programme, and [Stalder et al 1950][research_stalder_1950], [Tucker and Maslen 1951][research_tucker_1951], and [Esgar and Lea 1951][research_esgar_1951] establish the values used above, with the skin temperatures of conical bodies specifically in [Huston et al 1948][research_huston_1948]. The convective coefficient that sets the time constant follows from the skin friction, measured in flight on a body of revolution by [Loposer and Rumsey 1954][research_loposer_1954], and the state of the boundary layer that determines it is the subject of [Blue and Low 1953][research_blue_1953] and [Higgins and Pappas 1951][research_higgins_1951]. Cooling the surface deliberately, which the X-7 did not do and later vehicles did, is analysed by [Klunker and Ivey 1949][research_klunker_1949], with protected construction for the hypersonic case from [Dukes 1962][research_dukes_1962].
+against ramjet burns of 71 and 91 seconds on the two fastest flights that [Heppenheimer 2007][book_heppenheimer_2007_heat_barrier] describes. **The X-7's structure is not a heat sink. It reaches equilibrium and stays there.** Rocket-boosted vehicles with shorter flights followed the opposite, short-exposure heat-sink philosophy, and equilibrium makes the material choice, not the material thickness, the design variable. The recovery factor was a NACA measurement programme, and [Stalder et al 1950][research_stalder_1950], [Tucker and Maslen 1951][research_tucker_1951], and [Esgar and Lea 1951][research_esgar_1951] establish the values used above, with the skin temperatures of conical bodies in [Huston et al 1948][research_huston_1948]. The convective coefficient that sets the time constant follows from the skin friction, measured in flight on a body of revolution by [Loposer and Rumsey 1954][research_loposer_1954], and the state of the boundary layer that determines it is the subject of [Blue and Low 1953][research_blue_1953] and [Higgins and Pappas 1951][research_higgins_1951]. Cooling the surface deliberately, which the X-7 did not do and later vehicles did, is analysed by [Klunker and Ivey 1949][research_klunker_1949], with protected construction for the hypersonic case from [Dukes 1962][research_dukes_1962].
 
-The consequence for the engine is worse than the consequence for the structure. Combustor materials of the period tolerated something like 2000 kelvin, and the air is arriving at 1078, so the temperature rise available from combustion is
+The consequence for the engine is worse than the consequence for the structure. Taking 2000 kelvin as representative of what combustor materials of the period tolerated, and with the air arriving at 1022, the temperature rise available from combustion is
 
-$$\Delta T_{\text{available}} = T_{t4,\max} - T_{t2} = 2000 - 1078 = 922 \ \text{kelvin}$$
+$$\Delta T_{\text{available}} = T_{t4,\max} - T_{t2} = 2000 - 1022 = 978 \ \text{kelvin}$$
 
-against roughly 1600 kelvin available at Mach 2. **The faster the vehicle flies, the less the fuel is allowed to do**, and this is the fundamental ceiling on the subsonic-combustion ramjet rather than any failure of the inlet.
+against roughly 1600 kelvin available at Mach 2. **The faster the vehicle flies, the less the fuel is allowed to do**, and that limit, not any failure of the inlet, is the fundamental ceiling on the subsonic-combustion ramjet.
 
-### What the Engine Actually Produces
+### What the Engine Produces
 
 Specific thrust follows from the exhaust velocity ratio, which for an ideal ramjet with fully expanded flow is
 
@@ -257,13 +257,13 @@ with $h_{PR}$ the heat released per unit mass of fuel.
 
 Evaluating at the two ends of the range,
 
-$$f(M = 2) = 0.045, \qquad f(M = 4.31) = 0.026$$
+$$f(M = 2) = 0.045, \qquad f(M = 4.31) = 0.028$$
 
 against a stoichiometric ratio near 0.068, so the equivalence ratio
 
 $$\phi = \frac{f}{f_{\text{stoich}}}$$
 
-falls from 0.67 to 0.38. **At its top speed the engine is running lean not by choice but because it is forbidden to add more heat.** That the equivalence ratio, the inlet air temperature, and the combustion pressure govern the achievable performance jointly is exactly the subject of [Tower and Gammon 1953][research_tower_1953], which is the analytical statement of the relation evaluated above. Against that, the mass flow captured rises with speed,
+falls from 0.66 to 0.41. **At its top speed the engine is running lean not by choice but because it is forbidden to add more heat.** That the equivalence ratio, the inlet air temperature, and the combustion pressure govern the achievable performance jointly is the subject of [Tower and Gammon 1953][research_tower_1953], the analytical statement of the relation evaluated above. Against that, the mass flow captured rises with speed,
 
 $$\dot{m} = \rho A_c V_0$$
 
@@ -281,21 +281,21 @@ $$\frac{A_c}{A_{\text{ref}}} \left( \sqrt{\frac{T_{t4}}{T_{t2}(M)}} - 1 \right) 
 
 with the left side falling monotonically as $M$ rises. **The vehicle stops accelerating at a Mach number set by the combustor temperature limit and the drag coefficient, and by nothing else.**
 
-The figure of merit that makes the whole exercise worthwhile is the specific impulse, which for an airbreather counts only the fuel it carries,
+The figure of merit that justifies the exercise is the specific impulse, which for an airbreather counts only the fuel it carries,
 
 $$I_{sp} = \frac{F}{\dot{m}_f \, g_0} = \frac{V_0}{f \, g_0} \left( \sqrt{\frac{T_{t4}}{T_{t2}}} - 1 \right)$$
 
 and evaluating at Mach 4.31 gives
 
-$$I_{sp} = \frac{1306}{0.026 \times 9.807} \times 0.362 = 1.85 \times 10^{3} \ \text{seconds}$$
+$$I_{sp} = \frac{1272}{0.028 \times 9.807} \times 0.399 = 1.85 \times 10^{3} \ \text{seconds}$$
 
-against 250 to 450 seconds for a chemical rocket. **The ramjet delivers four to seven times the specific impulse of the rocket that starts it**, which is the entire reason for the architecture and the reason the booster is discarded the moment it has done its job.
+against 250 to 450 seconds for a chemical rocket. **The ramjet delivers four to seven times the specific impulse of the rocket that starts it.** That ratio is the entire reason for the architecture and explains why the booster is discarded the moment it has done its job.
 
-The ceiling that eventually stops it was calculated before the X-7 flew. [Evans 1951][research_evans_1951] is an analytical investigation of ramjet engine performance across the flight Mach range from three to seven, which is the interval in which the engine goes from excellent to impossible, and it reaches the conclusion this article derives independently. The underwing heat-addition variant, which is a different way of using the same energy, is [Luidens and Flaherty 1959][research_luidens_1959]. That is why an airbreathing vehicle has a natural top speed rather than an arbitrary one, and it is why Mach 4.31 is a number about the engine rather than about the airframe.
+The ceiling that eventually stops it was calculated before the X-7 flew. [Evans 1951][research_evans_1951] is an analytical investigation of ramjet engine performance across the flight Mach range from three to seven, the interval in which the engine goes from excellent to impossible, and it reaches the conclusion this article derives independently. [Luidens and Flaherty 1959][research_luidens_1959] treat the underwing heat-addition variant, a different way of using the same energy. The ceiling is why an airbreathing vehicle has a natural top speed rather than an arbitrary one, and Mach 4.31 is accordingly a number about the engine rather than about the airframe.
 
-### What Expendability Buys, in Mass
+### What Expendability Saves in Mass
 
-The mass a crewed research aircraft spends on being crewed is substantial and it is not recoverable by cleverness.
+The mass a crewed research aircraft spends on being crewed is substantial, and no cleverness recovers it.
 
 Write the empty mass as a sum of what the mission needs and what the crew needs,
 
@@ -317,23 +317,23 @@ $$\frac{m_{\text{useful}}}{m_{0}} = 1 - \frac{m_{\text{struct}} + m_{\text{prop}
 
 makes the accounting explicit, and setting the crew and recovery terms to zero is worth a large multiple of any refinement available inside the remaining terms. Combined with the removal of landing loads entirely, the effect is large.
 
-What remains is a vehicle that is mostly engine and instrument, which is the correct shape for a vehicle whose only purpose is to carry an engine and an instrument to a flight condition.
+What remains is mostly engine and instrument, the correct shape for a vehicle whose only purpose is to carry an engine and an instrument to a flight condition.
 
 The economics compound the same way and they are quantifiable, because unit cost falls with cumulative production along a learning curve,
 
 $$c_n = c_1 \, n^{\log_2 b}$$
 
-with $b$ the progress ratio. At an eighty-five percent curve the hundred and thirtieth article costs
+with $b$ the progress ratio. Production ended in 1959 after 61 vehicles of all variants had been built [Parsch 2002][ref_ds_aqm60], fewer than the 130 flights, so recovered vehicles flew again. At an eighty-five percent curve the sixty-first article costs
 
-$$c_{130} = c_1 \times 130^{\log_2 0.85} = 0.32 \, c_1$$
+$$c_{61} = c_1 \times 61^{\log_2 0.85} = 0.38 \, c_1$$
 
-and the cumulative average over the whole run is $0.41 c_1$, so **130 vehicles cost about 53 times one vehicle rather than 130 times**. A programme that builds one aircraft and flies it 130 times gets no such benefit, and a programme that loses vehicles gets it in full. That relation is [Wright 1936][research_wright_1936] and it is one of the few places in this series where a cost model does real work. The qualification and acceptance testing that a production run of expendable articles requires is a discipline of its own, described for the electronic subsystems by [Leverone and Mandell 1963][research_leverone_1963], with the failure analysis such programmes generate reported by [Rosette 1964][research_rosette_1964]. **An expendable programme does not escape testing. It moves the testing from the vehicle to the production line.**
+and the cumulative average over the whole run is $0.49 c_1$, so **61 vehicles cost about 30 times one vehicle rather than 61 times**. A programme that builds one aircraft and flies it repeatedly gets no such benefit, and a programme that loses vehicles gets it in full. The relation comes from [Wright 1936][research_wright_1936], and few other places in this series give a cost model real work to do. The qualification and acceptance testing that a production run of expendable articles requires is a separate discipline, described for the electronic subsystems by [Leverone and Mandell 1963][research_leverone_1963], with the failure analysis such programmes generate reported by [Rosette 1964][research_rosette_1964]. **An expendable programme moves testing from the vehicle to the production line and does not escape it.**
 
 ### The Recovery That Is Not a Landing
 
-The X-7 came down under a multi-stage [parachute][ref_parachute] and drove the spike on its nose into the desert floor, which kept the body upright and off the ground.
+The X-7 came down under a multi-stage [parachute][ref_parachute] and drove the spike on its nose into the desert floor, which kept the body upright and off the ground, as both [Parsch 2002][ref_ds_aqm60] and [Heppenheimer 2007][book_heppenheimer_2007_heat_barrier] describe.
 
-That is a recovery system with a mass of tens of kilograms doing the work of a landing gear with a mass of hundreds. It is worth writing the terminal condition down, since it is what the structure must survive. Under a canopy of drag area $C_D S$, the descent speed is
+That is a recovery system doing the work of a landing gear, and its terminal condition is what the structure must survive. Under a canopy of drag area $C_D S$, the descent speed is
 
 $$V_d = \sqrt{\frac{2 m g}{\rho \, C_D S}}$$
 
@@ -345,9 +345,9 @@ For a descent at 8 metres per second and a penetration of half a metre,
 
 $$\bar{a} = \frac{64}{1.0} = 64 \ \text{metres per second squared} = 6.5 \ g$$
 
-which is less than the boost acceleration the vehicle has already survived. **The landing is the gentlest event in the flight**, which is a sentence that can only be written about a vehicle with no undercarriage and no pilot.
+which is less than the boost acceleration the vehicle has already survived. **The landing is the gentlest event in the flight**, a sentence that can only be written about a vehicle with no undercarriage and no pilot.
 
-The canopy that achieves it is small. Inverting the descent relation for the drag area required,
+The canopy that achieves it is large. Inverting the descent relation for the drag area required,
 
 $$C_D S = \frac{2 m g}{\rho \, V_d^{2}} = \frac{2 \times 3600 \times 9.807}{1.225 \times 64} = 900 \ \text{square metres}$$
 
@@ -355,11 +355,11 @@ which at a canopy drag coefficient near 1.2 is a projected diameter of
 
 $$D_c = \sqrt{\frac{4 \, C_D S}{\pi \, C_{D,c}}} = \sqrt{\frac{4 \times 900}{\pi \times 1.2}} = 31 \ \text{metres}$$
 
-which is why the recovery was staged rather than single. A drogue slows the vehicle enough that the main canopy can open without an inflation load of
+A canopy that large is why the recovery was staged. A drogue slows the vehicle enough that the main canopy can open without an inflation load of
 
 $$F_{\text{open}} = C_x \, q \, C_D S$$
 
-tearing it, with $C_x$ the opening shock factor, and staging is the standard way to keep that product bounded. Reducing that shock was a measured subject and not a rule of thumb, and [Jones and Klinar 1950][research_jones_1950] investigate the effect on recovery behaviour of reducing the opening shock of a deployed parachute, which is the same tradeoff at a different scale.
+tearing it, with $C_x$ the opening shock factor, and staging is the standard way to keep that product bounded. Reducing that shock was a measured subject and not a rule of thumb, and [Jones and Klinar 1950][research_jones_1950] investigate the effect on recovery behaviour of reducing the opening shock of a deployed parachute, the same tradeoff at a different scale.
 
 ## Dependent Systems
 
@@ -389,11 +389,11 @@ for a quarter-wave organ pipe. The oscillation is violent enough to damage struc
 
 $$\frac{A_{th}}{A_c} \ge \frac{1}{\left( p_{t2}/p_{t1} \right)_{\text{normal}}} \cdot \frac{A^{*}(M_\infty)}{A_c}$$
 
-so an inlet contracted enough to be efficient once running may be unable to start, and one able to start may be unable to be efficient. **A fixed-geometry inlet must satisfy both with one shape, which is why variable geometry exists and why the X-7 flew a narrow speed band instead.** The third remedy is to bleed the boundary layer at the throat, which improves both the recovery and the starting margin at a cost in captured flow, and [Stitt and Obery 1958][research_stitt_1958] measure an all-internal conical compression inlet with annular throat bleed. Later approaches control the shock system actively instead of geometrically, through [Rosenbaum and Zeiberg 1965][research_rosenbaum_1965], [Brown 1967][research_brown_1967], and [Wasserbauer and Willoh 1968][research_wasserbauer_1968], with the freely rotating cowl-face rotor of [Goldberg and Boxer 1959][research_goldberg_1959] as an unusual variant and the low-cowl-drag external compression alternative from [Connors and Flaherty 1958][research_connors_1958].
+so an inlet contracted enough to be efficient once running may be unable to start, and one able to start may be unable to be efficient. **A fixed-geometry inlet must satisfy both with one shape. Variable geometry exists for that reason, and a vehicle without it must fly a narrow speed band.** The third remedy is to bleed the boundary layer at the throat, which improves both the recovery and the starting margin at a cost in captured flow, and [Stitt and Obery 1958][research_stitt_1958] measure an all-internal conical compression inlet with annular throat bleed. Later approaches control the shock system actively instead of geometrically, through [Rosenbaum and Zeiberg 1965][research_rosenbaum_1965], [Brown 1967][research_brown_1967], and [Wasserbauer and Willoh 1968][research_wasserbauer_1968], with the freely rotating cowl-face rotor of [Goldberg and Boxer 1959][research_goldberg_1959] as an unusual variant and the low-cowl-drag external compression alternative from [Connors and Flaherty 1958][research_connors_1958].
 
-An inlet also ingests whatever the atmosphere contains, and [Gelder 1958][research_gelder_1958] measures droplet impingement and ingestion by a supersonic nose inlet, which is the kind of problem that only appears once a vehicle leaves a tunnel.
+An inlet also ingests whatever the atmosphere contains, and [Gelder 1958][research_gelder_1958] measures droplet impingement and ingestion by a supersonic nose inlet, the kind of problem that appears only once a vehicle leaves a tunnel.
 
-Neither has any analogue in a subsonic aircraft, and both are the reason inlets acquired variable geometry. The X-7 flew a fixed geometry inlet and was therefore designed around a narrow operating band, which an expendable vehicle can accept and a crewed aircraft cannot. The measured behaviour of such inlets appears in [Obey et al 1952][research_obey_1952] on subcritical stability, [Leissler and Nettles 1954][research_leissler_1954], and the shock and boundary layer interaction on the spike itself in [Wise and Sterbentz 1957][research_wise_1957].
+Neither has any analogue in a subsonic aircraft, and both are the reason inlets acquired variable geometry. No variable geometry is recorded for the X-7 in the sources consulted, and a fixed inlet confines a vehicle to a narrow operating band, which an expendable vehicle can accept and a crewed aircraft cannot. The measured behaviour of such inlets appears in [Obey et al 1952][research_obey_1952] on subcritical stability, [Leissler and Nettles 1954][research_leissler_1954], and the shock and boundary layer interaction on the spike itself in [Wise and Sterbentz 1957][research_wise_1957].
 
 ### Combustion in a Stream That Will Not Slow Down
 
@@ -405,7 +405,7 @@ which is short against the chemical time of a hydrocarbon at the pressures invol
 
 $$\mathrm{Da} = \frac{t_{\text{res}}}{t_{\text{chem}}}$$
 
-and combustion is complete only when it is comfortably above unity. For a chemical time of one millisecond the Damköhler number is 8.3 and the flame is secure. At five milliseconds it is 1.7 and marginal. At ten it is 0.83 and the flame will not hold at all. **A ramjet combustor operates within a factor of a few of not working**, which is why the whole subject exists. The flame must therefore be anchored by a recirculation zone instead of propagating freely, and the device that does it is a bluff body, historically a gutter,
+and combustion is complete only when it is comfortably above unity. For a chemical time of one millisecond the Damköhler number is 8.3 and the flame is secure. At five milliseconds it is 1.7 and marginal. At ten it is 0.83 and the flame will not hold at all. **A ramjet combustor operates within a factor of a few of not working.** The subject of flame holding exists because of that narrow margin. The flame has to be anchored by a recirculation zone instead of propagating freely, and the device that does it is a bluff body, historically a gutter,
 
 $$\text{blockage} = \frac{A_{\text{holder}}}{A_{\text{duct}}}$$
 
@@ -417,13 +417,13 @@ and the blowoff limit follows a velocity, size, and pressure grouping of the for
 
 $$\left( \frac{V}{d_{\text{holder}} \, p^{n}} \right)_{\text{blowoff}} = \text{constant}$$
 
-so a larger holder is more stable and more expensive. Too little blockage and the flame blows off, too much and the pressure the inlet worked to recover is spent on a wake. The relevant NACA work is [Perchonok et al 1948][research_perchonok_1948] on gutter dimensions, [Perchonok and Farley 1951][research_perchonok_1951] on a 16-inch ramjet in a free jet, and the combustor configuration studies of [Meyer and Welna 1954][research_meyer_1954], [Shillito et al 1950][research_shillito_1950], and its companion volume on combustion in [Shillito et al 1950][research_shillito_1950_2], with the effect of design changes and operating conditions in [Shillito and Nakanishi 1952][research_shillito_1952]. The kinetics underneath it are treated by [Childs et al 1957][research_childs_1957]. Combustor design for a long-range engine specifically is [Rayle and Koch 1954][research_rayle_1954], a rich-inner-zone arrangement is [Trout and Wentworth 1953][research_trout_1953], and the wake structure behind the flame holder that makes any of it work is [Younger et al 1952][research_younger_1952]. The related instability that afflicts afterburners, screech, is [Trout et al 1956][research_trout_1956].
+so a larger holder is more stable and more expensive. Too little blockage and the flame blows off, too much and the pressure the inlet worked to recover is spent on a wake. The relevant NACA work is [Perchonok et al 1948][research_perchonok_1948] on gutter dimensions, [Perchonok and Farley 1951][research_perchonok_1951] on a 16-inch ramjet in a free jet, and the combustor configuration studies of [Meyer and Welna 1954][research_meyer_1954], [Shillito et al 1950][research_shillito_1950], and its companion volume on combustion in [Shillito et al 1950][research_shillito_1950_2], with the effect of design changes and operating conditions in [Shillito and Nakanishi 1952][research_shillito_1952]. The kinetics underneath it are treated by [Childs et al 1957][research_childs_1957]. [Rayle and Koch 1954][research_rayle_1954] address combustor design for a long-range engine, [Trout and Wentworth 1953][research_trout_1953] a rich-inner-zone arrangement, and [Younger et al 1952][research_younger_1952] the wake structure behind the flame holder that makes any of it work. The related instability that afflicts afterburners, screech, is [Trout et al 1956][research_trout_1956].
 
 Fuel choice was pursued aggressively and in a direction that has not aged well. Because the achievable temperature rise falls with Mach number, the way to keep thrust is to raise the heating value. The fuel mass needed for a given heat release is
 
 $$\dot{m}_f = \frac{\dot{Q}}{h_{PR}}$$
 
-so a fuel with a higher $h_{PR}$ buys either more thrust for the same tankage or the same thrust for less. Boron compounds offer roughly forty percent more energy per kilogram than a hydrocarbon and hydrogen offers nearly three times, and both do so at a cost. Boron is toxic, corrosive, and deposits solid oxide in the nozzle. **That deposition was not a surprise discovered in service but a measured effect**, and [Schafer et al 1953][research_schafer_1953] compare theoretical and experimental oxide coating formation from a fuel of that class. More ordinary fuel questions were pursued in parallel, with volatility effects in [Barson and Sargent 1951][research_barson_1951] and a comparison of service fuels in [Ranscht and Farley 1957][research_ranscht_1957]. Hydrogen has a density so low that
+so a fuel with a higher $h_{PR}$ gives either more thrust for the same tankage or the same thrust for less. [Boron-enhanced fuels][ref_zip_fuel] offer up to forty percent more energy per kilogram than a hydrocarbon and hydrogen offers nearly three times, and both do so at a cost. Boron fuel is toxic, burns to corrosive solids, and deposits solid oxide in the nozzle. **That deposition was not a surprise discovered in service but a measured effect**, and [Schafer et al 1953][research_schafer_1953] compare theoretical and experimental oxide coating formation from a fuel of that class. More ordinary fuel questions were pursued in parallel, with volatility effects in [Barson and Sargent 1951][research_barson_1951] and a comparison of service fuels in [Ranscht and Farley 1957][research_ranscht_1957]. Hydrogen has a density so low that
 
 $$\rho_{\text{liquid hydrogen}} \approx 71 \ \text{kilograms per cubic metre}, \qquad \rho_{\text{kerosene}} \approx 800$$
 
@@ -441,19 +441,19 @@ but the tolerance is different. A crewed aircraft is designed to be marginally s
 
 $$\omega_n = \sqrt{\frac{q S_{\text{ref}} d \, \left| C_{m\alpha} \right|}{I_y}}$$
 
-rises with dynamic pressure, so a boosted vehicle becomes stiffer as it accelerates, which is convenient. The fins that supply it contribute
+rises with dynamic pressure, so a boosted vehicle conveniently becomes stiffer as it accelerates. The fins that supply it contribute
 
 $$C_{N\alpha, \text{fin}} = \frac{4}{\sqrt{M^{2} - 1}} \cdot \frac{S_{\text{fin}}}{S_{\text{ref}}}$$
 
-by supersonic linear theory, so their effectiveness *falls* with Mach number as the stiffness requirement rises, and the fin area must be chosen at the worst combination and not at the design point. The cruciform or planar fin arrangements typical of the class deliver that stiffness at a drag cost nobody minds on a four-minute flight.
+by supersonic linear theory, so their effectiveness *falls* with Mach number as the stiffness requirement rises, and the fin area must be chosen at the worst combination and not at the design point. The cruciform or planar fin arrangements typical of the class deliver that stiffness at a drag cost that matters little on a flight lasting minutes.
 
 The relevant flight-dynamics work of the period was done largely with rocket-boosted free-flight models, which are expendable vehicles used as instruments, and this article's subject is a large one. Representative results are [Mitchell and Peck 1950][research_mitchell_1950], [Niewald and Moul 1950][research_niewald_1950], [Denardo and Canning 1952][research_denardo_1952], and the cruciform canard investigation of [Moul and Wineman 1952][research_moul_1952], with later configurations from [Gloria 1958][research_gloria_1958], [Robinson 1958][research_robinson_1958], [Presnell 1958][research_presnell_1958], and [Foster 1959][research_foster_1959]. The technique for extracting stability and control from such flights is set out by [Gillis and Mitchell 1957][research_gillis_1957], and a roll-stabilized configuration at varying incidence is [Zarovsky and Gardiner 1957][research_zarovsky_1957], with the roll-rate stabilization of an operational missile measured by [Nason et al 1955][research_nason_1955] and the coupling that steady rolling introduces derived by [Phillips 1948][research_phillips_1948].
 
-Departure behaviour is the failure mode a stiff vehicle is designed to avoid, and the spin and tumbling literature of the period is [Bowman 1957][research_bowman_1957] and [Stone et al 1953][research_stone_1953], with low-incidence stability from flight in [Brown 1955][research_brown_1955]. **An expendable vehicle that departs is a lost data point rather than a lost pilot, which is precisely the difference this article is about.**
+Departure behaviour is the failure mode a stiff vehicle is designed to avoid, and the spin and tumbling literature of the period is [Bowman 1957][research_bowman_1957] and [Stone et al 1953][research_stone_1953], with low-incidence stability from flight in [Brown 1955][research_brown_1955]. **An expendable vehicle that departs is a lost data point and not a lost pilot, and this article is about that difference.**
 
-### Instrumentation, and the Constraint That Data Must Leave
+### Instrumentation When the Data Must Leave the Vehicle
 
-An expendable vehicle inverts the usual instrumentation problem. Everything must be telemetered, because the recorder may not be recovered and in many flights was not.
+An expendable vehicle inverts the usual instrumentation problem. Everything must be telemetered, because the recorder may not be recovered.
 
 Channel capacity is the binding constraint. The number of measurements that can be transmitted is the bandwidth divided by the per-channel requirement,
 
@@ -471,23 +471,23 @@ and the achievable rate follows from what is left,
 
 $$C = B \log_2 \left( 1 + \frac{S}{N} \right)$$
 
-**A crewed aircraft can defer this problem to a tape recorder it brings home. An expendable vehicle cannot, so its instrumentation is bounded by a radio link rather than by a magazine.** The pressure that constraint applied is visible in the subsequent development, and [Horton et al 1966][research_horton_1966] describe the first flight package of an adaptive telemetry system, which allocates bandwidth to the channels that are changing instead of dividing it equally, and which exists because the equal division above is wasteful. The tradeoff is explicit and it has no counterpart in a crewed aircraft, where a recorder can hold what a radio link cannot.
+**A crewed aircraft can defer this problem to a tape recorder it brings home. An expendable vehicle cannot, so its instrumentation is bounded by a radio link rather than by a magazine.** The pressure that constraint applied is visible in the subsequent development, and [Horton et al 1966][research_horton_1966] describe the first flight package of an adaptive telemetry system, which allocates bandwidth to the channels that are changing instead of dividing it equally, and which exists because the equal division above is wasteful. The tradeoff is explicit and has no counterpart in a crewed aircraft, where a recorder can hold what a radio link cannot.
 
 Against that, the expendable vehicle enjoys an advantage the crewed one does not. **It can be instrumented to destruction.** Sensors may be placed where they will be consumed, in the combustor, on the spike tip, inside the boundary layer, because the vehicle is not going to be reused and the sensor's survival matters only until the measurement is transmitted.
 
 ## The Flight Test Record
 
-One hundred and thirty flights between April 1951 and July 1960, from a programme that began in December 1946.
+One hundred and thirty flights between April 1951 and July 1960 by the [encyclopaedia count][ref_lockheed_x7], from a programme that began in December 1946.
 
-The first launch failed and the ramjet was redesigned. The vehicle reached Mach 4.31 and an altitude of about 32 kilometres, and the derivative drone was flown as a target against the [Nike Ajax][ref_nike_ajax], [Nike Hercules][ref_nike_hercules], and Bomarc [surface-to-air missiles][ref_sam]. **It outperformed them.** The secondary accounts agree that very few intercepts were achieved and that the programme's termination in the mid-1960s owed something to the embarrassment of a target that could not be hit.
+The first launch failed and the ramjet was redesigned. The vehicle reached Mach 4.31 on 17 April 1958 with a 36-inch Marquardt ramjet and broke up immediately afterward, and on another flight it reached an altitude of 106,000 feet, about 32 kilometres [Heppenheimer 2007][book_heppenheimer_2007_heat_barrier]. The derivative drone was flown as a target against the [Nike Ajax][ref_nike_ajax], [Nike Hercules][ref_nike_hercules], and Bomarc [surface-to-air missiles][ref_sam]. **It is reported to have outperformed them.** The secondary accounts, [Parsch 2002][ref_ds_aqm60] and the [encyclopaedia treatment][ref_kingfisher], agree that very few intercepts were achieved and that the programme's termination in the mid-1960s owed something to the embarrassment of a target that could not be hit.
 
-That is a striking claim and it should be flagged rather than repeated uncritically. It appears in the popular literature and in the encyclopaedia treatment, and no primary source establishing the intercept statistics or the causal link to cancellation is available. It is recorded here as reported.
+So striking a claim should be flagged and not repeated uncritically. It appears in the designation directory and in the encyclopaedia treatment, and no primary source establishing the intercept statistics or the causal link to cancellation is available. It is recorded here as reported.
 
-The comparison with the rest of the series is instructive and is worth setting out plainly. The [X-1][related_post_a298_bell_x1] flew of the order of 150 times, the [X-2][related_post_a299_bell_x2] twenty, the [X-3][related_post_a300_douglas_x3] about fifty, the [X-4][related_post_a301_northrop_x4] about eighty, the [X-5][related_post_a302_bell_x5] about two hundred. **The X-7's 130 flights are unremarkable in number.** The rate is more revealing than the total, since 130 flights over 111 months is
+The comparison with the rest of the series is instructive. The [X-1][related_post_a298_bell_x1] flew of the order of 150 times, the [X-2][related_post_a299_bell_x2] twenty, the [X-3][related_post_a300_douglas_x3] about fifty, the [X-4][related_post_a301_northrop_x4] about eighty, the [X-5][related_post_a302_bell_x5] about two hundred. **The X-7's 130 flights are unremarkable in number.** The rate is more revealing than the total, since 130 flights over 111 months is
 
 $$\dot{n} = \frac{130}{111} = 1.17 \ \text{flights per month}$$
 
-against roughly two per month for the X-1 over a shorter programme, so the X-7 was not even especially busy. The difference is not how many times it flew but what each flight was permitted to be, since a flight that ends with the vehicle destroyed is a flight that can be planned to end that way. Expressed as a constraint, a crewed programme must satisfy
+which is not an especially busy rate. The difference is not how many times it flew but what each flight was permitted to be, since a flight that ends with the vehicle destroyed is a flight that can be planned to end that way. Expressed as a constraint, a crewed programme must satisfy
 
 $$P_{\text{loss}} \times n \ll 1$$
 
@@ -499,9 +499,9 @@ $$n \, c_{\text{unit}} \le C_{\text{budget}}$$
 
 ## Comparison With Ground Prediction
 
-The X-7 is the case in this series where ground facilities and flight were most nearly interchangeable, and the reason is that the vehicle is itself a facility.
+The X-7 is the case in this series where ground facilities and flight were most nearly interchangeable, because the vehicle is itself a facility.
 
-A supersonic wind tunnel of the period could reach Mach 4 in a test section a few tens of centimetres across, for seconds at a time, at a Reynolds number well below flight. A rocket-boosted free-flight model reaches the same Mach number at full-scale Reynolds number in real air, and returns a smaller number of channels for a shorter time. The two are complementary, and the choice between them is a question of which error dominates,
+A supersonic wind tunnel of the period could reach Mach 4 in a test section a few tens of centimetres across, at a Reynolds number well below flight. A rocket-boosted free-flight model reaches the same Mach number at full-scale Reynolds number in real air, and returns a smaller number of channels for a shorter time. The two are complementary, and the choice between them is a question of which error dominates,
 
 $$\varepsilon_{\text{total}}^{2} = \varepsilon_{\text{scale}}^{2} + \varepsilon_{\text{measurement}}^{2}$$
 
@@ -513,21 +513,21 @@ and a tunnel model at one tenth scale in a facility at one atmosphere total pres
 
 $$t_{\text{run}} \approx \frac{V_{\text{tank}} \, p_{\text{tank}}}{\dot{m} \, R \, T} \sim 10 \ \text{seconds}$$
 
-against a powered flight of a few minutes, so a phenomenon with a long time constant, such as the thermal equilibrium computed above at twenty seconds, is simply outside what the tunnel can show. The NACA ran both, extensively, and the free-flight programme documented in [Wallskog 1954][research_wallskog_1954], [Wallskog 1954][research_wallskog_1954_2], and [Blanchard 1953][research_blanchard_1953] is the expendable-vehicle method applied to drag and stability instead of to propulsion, with the flutter application in [Lundstrom et al 1948][research_lundstrom_1948].
+against a ramjet burn of more than a minute on the fastest flights, so a phenomenon with a long time constant, such as the thermal equilibrium computed above at twenty seconds, is outside what the tunnel can show. The NACA ran both, extensively, and the free-flight programme documented in [Wallskog 1954][research_wallskog_1954], [Wallskog 1954][research_wallskog_1954_2], and [Blanchard 1953][research_blanchard_1953] is the expendable-vehicle method applied to drag and stability instead of to propulsion, with the flutter application in [Lundstrom et al 1948][research_lundstrom_1948].
 
-The scale question can be settled by measurement rather than by argument, and it was. [Anderson et al 1957][research_anderson_1957] compare a full-scale and a quarter-scale translating-spike inlet at the same Mach numbers, which is precisely the experiment that decides how much a tunnel result can be trusted. Drag itself is measurable in flight when the vehicle is instrumented for it, as [Beeler et al 1956][research_beeler_1956] set out, and low-drag configurations at supersonic speed are characterized by [Gillespie 1960][research_gillespie_1960]. The altitude-chamber technique that supplied the engine side of the comparison is illustrated by [Grey and Brightwell 1948][research_grey_1948]. The facilities themselves were being pushed in the same period, with the free-flight wind tunnel of [Seiff 1954][research_seiff_1954] and the light-gas gun of [Charters et al 1955][research_charters_1955] extending the ground envelope toward what only a flight vehicle could otherwise reach. **The distinction between a facility and a vehicle is less sharp than it looks**, and the X-7 sits on the line.
+The scale question can be settled by measurement rather than by argument, and it was. [Anderson et al 1957][research_anderson_1957] compare a full-scale and a quarter-scale translating-spike inlet at the same Mach numbers, the experiment that decides how much a tunnel result can be trusted. Drag itself is measurable in flight when the vehicle is instrumented for it, as [Beeler et al 1956][research_beeler_1956] set out, and low-drag configurations at supersonic speed are characterized by [Gillespie 1960][research_gillespie_1960]. The altitude-chamber technique that supplied the engine side of the comparison is illustrated by [Grey and Brightwell 1948][research_grey_1948]. The facilities themselves were being pushed in the same period, with the free-flight wind tunnel of [Seiff 1954][research_seiff_1954] and the light-gas gun of [Charters et al 1955][research_charters_1955] extending the ground envelope toward what only a flight vehicle could otherwise reach. **The distinction between a facility and a vehicle is less sharp than it looks**, and the X-7 sits on the line.
 
-Where the X-7 exceeded either was in duration and in integration. A ramjet must be tested with its inlet, at flight Mach number, with the actual pressure recovery and distortion the inlet produces, and the connected-pipe and free-jet facilities of the period could not supply all of that at once. Free-jet testing at Mach 2.75 of a flight-weight ramjet, the XRJ47-W-5, appears in [Reilly and Welna 1955][research_reilly_1955], which is the ground counterpart to what the X-7 did in the air.
+Where the X-7 exceeded either was in duration and in integration. A ramjet must be tested with its inlet, at flight Mach number, with the actual pressure recovery and distortion the inlet produces, and the connected-pipe and free-jet facilities of the period could not supply all of that at once. Free-jet testing at Mach 2.75 of a flight-weight ramjet, the XRJ47-W-5, appears in [Reilly and Welna 1955][research_reilly_1955] and is the ground counterpart to what the X-7 did in the air.
 
 ## What the Data Changed
 
 The engines went into service and the vehicle went into a lineage.
 
-The immediate output is the [RJ43][ref_rj43], which powered the Bomarc, the only long-range surface-to-air missile the United States Air Force ever fielded. That is an unusual outcome for an X-plane. **The X-7's engine entered operational service while the vehicle itself never did**, which inverts the usual relationship in which a research aircraft's configuration influences later aircraft and its engine is a borrowed component.
+The immediate output is the [RJ43][ref_rj43], which powered the [Bomarc][ref_bomarc], the first operational long-range surface-to-air missile and the only one the United States Air Force deployed. That is an unusual outcome for an X-plane. **The X-7's engine entered operational service while the vehicle itself never did**, which inverts the usual relationship in which a research aircraft's configuration influences later aircraft and its engine is a borrowed component.
 
-The second output is the technique. Air launch, rocket boost, airbreathing sustain, and telemetered destruction is a test architecture, and it is the one used for essentially every airbreathing hypersonic experiment since. The [scramjet][ref_scramjet] flight programmes of the following half-century are recognizably the same arrangement with a different engine, and the [D-21][ref_d21], designed by the same office, is the X-7 concept executed at operational scale and Mach 3.
+The second output is the technique. Air launch, rocket boost, airbreathing sustain, and telemetered destruction is a test architecture, and it recurs in later airbreathing vehicles, including the B-52 launch of the [D-21][ref_d21] with a solid rocket booster. The [scramjet][ref_scramjet] flight programmes of the following half-century are recognizably the same arrangement with a different engine, and the [D-21][ref_d21], designed by the same office, is the X-7 concept executed at operational scale and Mach 3.
 
-The third is negative and it belongs to the engine rather than the vehicle. The temperature-rise ceiling derived above is the reason the subsonic-combustion ramjet stops being useful somewhere near Mach 5 to 6. The ceiling can be located rather than gestured at. Thrust vanishes when the achievable temperature ratio no longer exceeds unity, which happens when the stagnation temperature reaches the combustor limit,
+The third is negative and concerns the engine, not the vehicle. The temperature-rise ceiling derived above is the reason the subsonic-combustion ramjet stops being useful somewhere near Mach 5 to 6. The ceiling can be located by calculation. Thrust vanishes when the achievable temperature ratio no longer exceeds unity, which happens when the stagnation temperature reaches the combustor limit,
 
 $$T_\infty \left( 1 + \frac{\gamma - 1}{2} M^{2} \right) = T_{t4,\max}$$
 
@@ -539,9 +539,9 @@ gives, for a 2000 kelvin limit in a 229 kelvin atmosphere,
 
 $$M_{\lim} = \sqrt{5 \left( 8.73 - 1 \right)} = 6.2$$
 
-**Above about Mach 6 a subsonic-combustion ramjet cannot add heat at all**, and well below that it cannot add enough to be worth the drag. The answer is to avoid decelerating the flow to subsonic speed in the first place, so that the static temperature entering the combustor stays low even though the stagnation temperature does not, which is the [scramjet][ref_scramjet]. [Evvard 1965][research_evvard_1965] is a contemporaneous statement of the idea. The nozzle recombination losses that limit it at the high end were being computed almost immediately, in [Franciscus and Lezberg 1963][research_franciscus_1963] and its companion volumes [Franciscus and Lezberg 1963][research_franciscus_1963_2] and [Franciscus and Lezberg 1963][research_franciscus_1963_3].
+**Above about Mach 6 a subsonic-combustion ramjet cannot add heat at all**, and well below that it cannot add enough to be worth the drag. The [scramjet][ref_scramjet] avoids decelerating the flow to subsonic speed in the first place, so that the static temperature entering the combustor stays low even though the stagnation temperature does not. [Evvard 1965][research_evvard_1965] is a contemporaneous statement of the idea. The nozzle recombination losses that limit it at the high end were being computed almost immediately, in [Franciscus and Lezberg 1963][research_franciscus_1963] and its companion volumes [Franciscus and Lezberg 1963][research_franciscus_1963_2] and [Franciscus and Lezberg 1963][research_franciscus_1963_3].
 
-The other inheritance is the launch architecture itself. Optimal trajectories for winged booster vehicles, which is the problem of how to spend a booster's impulse to best effect, appear in [Elliott and Rau 1967][research_elliott_1967], and the surrounding institutional literature of the period is gathered by [NACA Conference on High-speed 1958][research_naca_1958], [Pearson 1958][research_pearson_1958], and [Compilation of Papers Presented 1962][research_naca_1962] on landing and recovery specifically.
+The other inheritance is the launch architecture itself. Optimal trajectories for winged booster vehicles, meaning how to spend a booster's impulse to best effect, appear in [Elliott and Rau 1967][research_elliott_1967], and the surrounding institutional literature of the period is gathered by [NACA Conference on High-speed 1958][research_naca_1958], [Pearson 1958][research_pearson_1958], and [Compilation of Papers Presented 1962][research_naca_1962] on landing and recovery specifically.
 
 ## The Contemporary Literature
 
@@ -570,27 +570,27 @@ Ramjet and scramjet research is a large and active field, and its preoccupations
 
 ### Inlets, Unstart, and the Problem That Did Not Go Away
 
-Inlet unstart remains the characteristic failure of an airbreathing supersonic vehicle. [Wang et al 2026][research_zhang_2026] classify unstart flow in a two-dimensional hypersonic inlet, [Jin et al 2026][research_jin_2026] follow the unstart and restart process, and [Schram and Narayanaswamy 2026][research_schram_2026] examine the dynamics at angle of attack, which is the condition a real vehicle meets and a tunnel model often does not. Isolator behaviour, which is the modern name for the duct that absorbs the shock train the X-7 had nowhere to put, is treated by [Acharya 2025][research_acharya_2025] and [Balaji and Venkatasubbaiah 2025][research_balaji_2025]. The isolator exists because a combustor raises the pressure it sits behind, and the length required scales with the pressure rise it must contain,
+Inlet unstart remains the characteristic failure of an airbreathing supersonic vehicle. [Wang et al 2026][research_zhang_2026] classify unstart flow in a two-dimensional hypersonic inlet, [Jin et al 2026][research_jin_2026] follow the unstart and restart process, and [Schram and Narayanaswamy 2026][research_schram_2026] examine the dynamics at angle of attack, a condition a real vehicle meets and a tunnel model often does not. The isolator is the modern name for the duct that absorbs the shock train the X-7 had nowhere to put, and its behaviour is treated by [Acharya 2025][research_acharya_2025] and [Balaji and Venkatasubbaiah 2025][research_balaji_2025]. The isolator exists because a combustor raises the pressure it sits behind, and the length required scales with the pressure rise it must contain,
 
 $$\frac{L_{\text{iso}}}{H} \propto \frac{p_3 / p_2 - 1}{\sqrt{M_2^{2} - 1}} \cdot \frac{1}{\left( \theta / H \right)^{1/2}}$$
 
-with $\theta$ the incoming momentum thickness. **The X-7 had no isolator, which is why its operating band was narrow and why unstart was a real risk rather than a managed one.** The shock and boundary layer interaction the spike creates is [Kong et al 2026][research_kong_2026] and [Kim and Park 2026][research_kim_2026], with inlet shaping in [Ma et al 2026][research_ma_2026].
+with $\theta$ the incoming momentum thickness. **With no isolator, the X-7 faced unstart as a real and unmanaged risk.** [Kong et al 2026][research_kong_2026] and [Kim and Park 2026][research_kim_2026] study the shock and boundary layer interaction the spike creates, with inlet shaping in [Ma et al 2026][research_ma_2026].
 
-The starting problem the Kantrowitz limit describes is being attacked directly rather than avoided. [Tang et al 2026][research_tang_2026] improve self-starting in a two-stage arrangement, and [Zeng et al 2026][research_zeng_2026_2] control the shock system with a pressure-driven bleed and blow loop, which is the modern descendant of the throat bleed the programme measured in 1958. Distortion delivered to an engine by a disturbed inlet, which is what the X-7's fixed cone would have produced away from its design point, is [Yang et al 2026][research_yang_2026].
+The starting problem the Kantrowitz limit describes is being attacked directly rather than avoided. [Tang et al 2026][research_tang_2026] improve self-starting in a two-stage arrangement, and [Zeng et al 2026][research_zeng_2026_2] control the shock system with a pressure-driven bleed and blow loop, the modern descendant of the throat bleed the programme measured in 1958. [Yang et al 2026][research_yang_2026] examine the distortion a disturbed inlet delivers to an engine, which the X-7's fixed cone would have produced away from its design point.
 
-### Combustion, Which Is Still Hard
+### Combustion Is Still Hard
 
-The residence time argument above has not changed and neither has the answer. Cavity flame holding, the modern successor to the gutter, is characterized by [Li and Liang 2026][research_li_2026] and again in [Li and Liang 2026][research_li_2026_2]. The residence time argument carries over directly and gets worse, since a scramjet's combustor sees flow at supersonic speed,
+The physics above has not changed and neither has the answer. Cavity flame holding, the modern successor to the gutter, is characterized by [Li and Liang 2026][research_li_2026] and again in [Li and Liang 2026][research_li_2026_2]. The time budget carries over directly and gets worse, since a scramjet's combustor sees flow at supersonic speed,
 
 $$t_{\text{res}} = \frac{L_{\text{comb}}}{V_{\text{comb}}} \sim \frac{1}{1500} = 0.67 \ \text{milliseconds}$$
 
-which is an order of magnitude less than the ramjet's and demands a Damköhler number recovered entirely through pressure, temperature, and mixing instead of through time. Combustion instability is [Niu and Chen 2026][research_niu_2026] and [Niu and Chen 2026][research_niu_2026_2], mode transition between ramjet and scramjet operation is [Lonkar and Panda 2026][research_lonkar_2026], [Li et al 2026][research_li_2026_3], [Xia et al 2026][research_xia_2026], and [Yun et al 2026][research_yun_2026], and thermochemical nonequilibrium in the combustor is [Wang et al 2026][research_wang_2026]. Ignition assistance by plasma appears in [Ban et al 2026][research_ban_2026], mixing enhancement in [Houria et al 2026][research_houria_2026], [Liu et al 2026][research_liu_2026], and [Barzegar Gerdroodbary and Pascoa 2026][research_barzegar_2026], and ground experiment in [Martinez Schramm and Fureby 2026][research_martinez_2026]. Solid-fuel variants have become a subject in their own right, since a solid-fuel ramjet removes the fuel system entirely and pays for it in controllability. [Wu et al 2026][research_wu_2026] characterize the dynamic combustion behaviour, [McDonald 2026][research_mcdonald_2026] optimizes the particulate loading, [Gany and Levitan 2025][research_gany_2025] raise the regression rate with expandable graphite, and [DeBoskey et al 2025][research_deboskey_2025] apply planar laser-induced fluorescence inside a model combustor, which is a diagnostic the 1950s programme would have found miraculous. [Wang et al 2026][research_wang_2026_2] treat the dual-mode case.
+or an order of magnitude less than the ramjet's, and demands a Damköhler number recovered entirely through pressure, temperature, and mixing instead of through time. [Niu and Chen 2026][research_niu_2026] and [Niu and Chen 2026][research_niu_2026_2] study combustion instability, mode transition between ramjet and scramjet operation is [Lonkar and Panda 2026][research_lonkar_2026], [Li et al 2026][research_li_2026_3], [Xia et al 2026][research_xia_2026], and [Yun et al 2026][research_yun_2026], and [Wang et al 2026][research_wang_2026] address thermochemical nonequilibrium in the combustor. Ignition assistance by plasma appears in [Ban et al 2026][research_ban_2026], mixing enhancement in [Houria et al 2026][research_houria_2026], [Liu et al 2026][research_liu_2026], and [Barzegar Gerdroodbary and Pascoa 2026][research_barzegar_2026], and ground experiment in [Martinez Schramm and Fureby 2026][research_martinez_2026]. Solid-fuel variants have become a subject in their own right, since a solid-fuel ramjet removes the fuel system entirely and pays for it in controllability. [Wu et al 2026][research_wu_2026] characterize the dynamic combustion behaviour, [McDonald 2026][research_mcdonald_2026] optimizes the particulate loading, [Gany and Levitan 2025][research_gany_2025] raise the regression rate with expandable graphite, and [DeBoskey et al 2025][research_deboskey_2025] apply planar laser-induced fluorescence inside a model combustor, a diagnostic the 1950s programme would have found miraculous. [Wang et al 2026][research_wang_2026_2] treat the dual-mode case.
 
 Instability remains the failure mode, and the analytical apparatus has moved from correlations to describing functions and learned models in [Singh and Nair 2026][research_singh_2026] and [Barré et al 2026][research_barr_2026]. The detonation cycle, which sidesteps the residence-time problem by making the reaction supersonic rather than the flow, appears in [Assad et al 2026][research_assad_2026] and [Zhang et al 2026][research_zhang_2026_3].
 
-### Combined Cycles, Which Answer the Starting Problem
+### Combined Cycles Answer the Starting Problem
 
-The X-7's booster is a rocket carried to solve a problem the engine has below Mach 2. The modern answer is to integrate the two instead of discarding one, and [He et al 2026][research_he_2026] review rocket-based combined cycle engines, with configuration work in [Han et al 2026][research_han_2026], [Park et al 2026][research_park_2026], and [Liu et al 2026][research_liu_2026_2]. The turbine-based alternative, which uses a turbojet to reach ramjet speed and then hands over, appears in [Song et al 2026][research_song_2026], [Wang et al 2026][research_wang_2026_3], and [Fu et al 2026][research_fu_2026], with integrated airframe and propulsion control in [Zeng et al 2026][research_zeng_2026]. **Every one of these exists because a ramjet cannot start itself**, which is the relation derived at the top of this article, and the X-7 solved it by throwing the solution away four seconds into the flight. The handover condition is a thrust equality between the two cycles,
+The X-7's booster is a rocket carried to solve a problem the engine has below Mach 2. The modern answer is to integrate the two instead of discarding one, and [He et al 2026][research_he_2026] review rocket-based combined cycle engines, with configuration work in [Han et al 2026][research_han_2026], [Park et al 2026][research_park_2026], and [Liu et al 2026][research_liu_2026_2]. The turbine-based alternative, which uses a turbojet to reach ramjet speed and then hands over, appears in [Song et al 2026][research_song_2026], [Wang et al 2026][research_wang_2026_3], and [Fu et al 2026][research_fu_2026], with integrated airframe and propulsion control in [Zeng et al 2026][research_zeng_2026]. **Every one of these exists because a ramjet cannot start itself**, as derived at the top of this article, and the X-7 solved it by throwing the solution away four seconds into the flight. The handover condition is a thrust equality between the two cycles,
 
 $$F_{\text{low speed}}(M_{\text{hand}}) = F_{\text{ram}}(M_{\text{hand}})$$
 
@@ -598,29 +598,29 @@ and the design difficulty is that both are weak there, so the combined vehicle p
 
 $$\left. \frac{\partial F_{\text{total}}}{\partial M} \right|_{M_{\text{hand}}} \approx 0, \qquad F_{\text{total}} \ \text{a local minimum}$$
 
-which is the thrust pinch every combined-cycle programme has to design around. **A discarded rocket has no pinch**, and that is what the X-7's architecture bought at the price of not being reusable.
+which is the thrust pinch every combined-cycle programme has to design around. **A discarded rocket has no pinch**, and the X-7's architecture bought that freedom at the price of not being reusable.
 
 ### Heat, Structure, and Sensing
 
-The recovery temperature relation is unchanged and the materials response is better understood. Heating prediction is [Duan et al 2026][research_duan_2026] and [Chen and He 2025][research_chen_2025], thermal protection structures are [Sun et al 2026][research_sun_2026] and [Zhang et al 2026][research_zhang_2026_2], the aeroelastic consequence of a hot structure is [Sun et al 2026][research_sun_2026_2], and a qualification workflow for stainless steels of the kind the X-7's wings used is [Emele et al 2026][research_emele_2026]. Air data sensing on a hypersonic experimental vehicle, which is the X-7's telemetry problem with sixty years of electronics, is [Takahashi et al 2026][research_takahashi_2026] and [Wang et al 2026][research_wang_2026_5]. The instruments themselves have improved in exactly the places the X-7 was weakest, with thermocouple correction for fast transients in [Huang and Wang 2026][research_huang_2026] and optical pressure measurement in [Sandri et al 2026][research_sandri_2026]. The bandwidth constraint derived above is now met by compression rather than by allocation, as [Kochetova and Levenets 2026][research_kochetova_2026] describe.
+The recovery temperature relation is unchanged and the materials response is better understood. [Duan et al 2026][research_duan_2026] and [Chen and He 2025][research_chen_2025] predict heating, [Sun et al 2026][research_sun_2026] and [Zhang et al 2026][research_zhang_2026_2] examine thermal protection structures, [Sun et al 2026][research_sun_2026_2] analyse the aeroelastic consequence of a hot structure, and [Emele et al 2026][research_emele_2026] set out a qualification workflow for stainless steels, which one account gives as the X-7's wing material. Air data sensing on a hypersonic experimental vehicle poses the X-7's telemetry problem with sixty years of electronics, and [Takahashi et al 2026][research_takahashi_2026] and [Wang et al 2026][research_wang_2026_5] take it up. The instruments themselves have improved in the places the X-7 was weakest, with thermocouple correction for fast transients in [Huang and Wang 2026][research_huang_2026] and optical pressure measurement in [Sandri et al 2026][research_sandri_2026]. The bandwidth constraint derived above is now met by compression rather than by allocation, as [Kochetova and Levenets 2026][research_kochetova_2026] describe.
 
-The thermal environment itself is computed rather than correlated. Non-equilibrium effects that the recovery-factor relation ignores are treated by [Gao et al 2025][research_gao_2025], [Chinnappan and Kim 2026][research_chinnappan_2026], [Han et al 2026][research_han_2026_2], and [Aiken et al 2025][research_aiken_2025], with structural cooling concepts in [Zhang and Xia 2026][research_zhang_2026_4], and the aeroelastic consequence of a breathing hot structure in [Guruswamy 2025][research_guruswamy_2025].
+The thermal environment is now computed, where it was once correlated. Non-equilibrium effects that the recovery-factor relation ignores are treated by [Gao et al 2025][research_gao_2025], [Chinnappan and Kim 2026][research_chinnappan_2026], [Han et al 2026][research_han_2026_2], and [Aiken et al 2025][research_aiken_2025], with structural cooling concepts in [Zhang and Xia 2026][research_zhang_2026_4], and the aeroelastic consequence of a breathing hot structure in [Guruswamy 2025][research_guruswamy_2025].
 
 ### The Expendable Vehicle as a Method
 
-The keystone argument has a modern literature of its own, and it is about uncertainty rather than about aircraft.
+The keystone argument has a modern literature, and that literature concerns uncertainty, not aircraft.
 
-Extrapolation reliability is now a named subject. [Kaneko 2026][research_kaneko_2026] proposes a general framework for extrapolation-aware prediction, [Hong and Kim 2026][research_hong_2026] construct training sets specifically to make extrapolation robust, and [Yuan et al 2026][research_yuan_2026] quantify uncertainty within a full-scale extrapolation procedure. Model validation under uncertainty is [Liu et al 2026][research_liu_2026_3], surrogate-based quantification is [El Khoury and Hickey 2026][research_elkhoury_2026], and uncertainty-aware prediction is [Kim 2026][research_kim_2026_2]. **The variance relation this article opens with is the formal content of all of it**, and the conclusion the modern literature reaches is the one the X-7 embodied, which is that the cheapest way to reduce the uncertainty of an extrapolation is to stop extrapolating.
+Extrapolation reliability is now a named subject. [Kaneko 2026][research_kaneko_2026] proposes a general framework for extrapolation-aware prediction, [Hong and Kim 2026][research_hong_2026] construct training sets specifically to make extrapolation robust, and [Yuan et al 2026][research_yuan_2026] quantify uncertainty within a full-scale extrapolation procedure. [Liu et al 2026][research_liu_2026_3] address model validation under uncertainty, [El Khoury and Hickey 2026][research_elkhoury_2026] surrogate-based quantification, and [Kim 2026][research_kim_2026_2] uncertainty-aware prediction. **The variance relation this article opens with is the formal content of all of it**, and the modern literature reaches the conclusion the X-7 embodied, that the cheapest way to reduce the uncertainty of an extrapolation is to stop extrapolating.
 
-The Fisher information argument has an entire modern discipline behind it. Optimal experimental design is now posed as an explicit optimization over where to place observations, with [Zhong et al 2026][research_zhong_2026] treating the goal-oriented Bayesian case, [Attia et al 2025][research_attia_2025] the robust A-optimal placement problem, and [Coons and Huan 2025][research_coons_2025] the estimation of expected information gain across model fidelities. **What all three formalize is the statement this article makes about the X-7, which is that the value of an observation depends on where it is taken and that the most valuable places are the ones a cautious programme excludes.** Calibrating a model against such observations is [Kahol et al 2026][research_kahol_2026] and [As'ad et al 2025][research_asad_2025].
+The Fisher information argument has an entire modern discipline behind it. Optimal experimental design is now posed as an explicit optimization over where to place observations, with [Zhong et al 2026][research_zhong_2026] treating the goal-oriented Bayesian case, [Attia et al 2025][research_attia_2025] the robust A-optimal placement problem, and [Coons and Huan 2025][research_coons_2025] the estimation of expected information gain across model fidelities. **All three formalize this article's statement about the X-7, that the value of an observation depends on where it is taken and that the most valuable places are the ones a cautious programme excludes.** [Kahol et al 2026][research_kahol_2026] and [As'ad et al 2025][research_asad_2025] calibrate models against such observations.
 
-The cost side has caught up as well. [Mada and Gutierrez 2026][research_mada_2026] examine the systemic factors behind the learning curve of aerospace engineers, which is the human learning that underlies the production curve computed above. Reliability sampling, which is how a programme decides how many articles to test rather than how many to fly, is [Prakash et al 2026][research_prakash_2026] and [An et al 2025][research_an_2025].
+The cost side has caught up as well. [Mada and Gutierrez 2026][research_mada_2026] examine the systemic factors behind the learning curve of aerospace engineers, the human learning that underlies the production curve computed above. Reliability sampling decides how many articles a programme tests, as distinct from how many it flies, and [Prakash et al 2026][research_prakash_2026] and [An et al 2025][research_an_2025] study it.
 
-Flight test as an activity has been reorganized around the same insight, and [Xu et al 2026][research_xu_2026] design flight test methods around a digital twin, which is an attempt to substitute a model for the flights nobody can afford. Air-launched vehicles remain a category, as [Stewart et al 2026][research_stewart_2026] show, and the boost problem persists in [Hu et al 2026][research_hu_2026], [Wang et al 2026][research_wang_2026_4], and [Hussain and An 2026][research_hussain_2026], with solid motor grain characterization in [Fan et al 2025][research_fan_2025] and [Peng et al 2026][research_peng_2026].
+Flight test as an activity has been reorganized around the same insight, and [Xu et al 2026][research_xu_2026] design flight test methods around a digital twin, an attempt to substitute a model for the flights no programme can afford. Air-launched vehicles remain a category, as [Stewart et al 2026][research_stewart_2026] show, and the boost problem persists in [Hu et al 2026][research_hu_2026], [Wang et al 2026][research_wang_2026_4], and [Hussain and An 2026][research_hussain_2026], with solid motor grain characterization in [Fan et al 2025][research_fan_2025] and [Peng et al 2026][research_peng_2026].
 
-**Expendability as a design choice has returned by name.** [Davidović et al 2025][research_davidovi_2025] develop a turbojet intended to be expended, and [Goldyn et al 2025][research_goldyn_2025] compare expendable and reusable staging for launchers, which is the same trade the X-7 settled by not attempting reuse at all. Fault tolerance for a vehicle that must complete its mission unattended is [Xiao et al 2026][research_xiao_2026_2].
+**Expendability as a design choice has returned by name.** [Davidović et al 2025][research_davidovi_2025] develop a turbojet intended to be expended, and [Goldyn et al 2025][research_goldyn_2025] compare expendable and reusable staging for launchers, the same trade the X-7 settled by not attempting reuse at all. Fault tolerance for a vehicle that must complete its mission unattended is the subject of [Xiao et al 2026][research_xiao_2026_2].
 
-The recovery system has its own modern literature and it is more sophisticated than the X-7's spike. Supersonic parachute inflation is simulated by [Cadieux and Barad 2025][research_cadieux_2025] and [Ouyang et al 2026][research_ouyang_2026], the inflation process itself by [Guan et al 2025][research_guan_2025], and the stability of a deployed canopy by [Placco et al 2026][research_placco_2026]. **The opening shock relation written above is what all of this exists to bound.** Trajectory prediction for the boost-glide vehicles that inherited the X-7's launch architecture is [Cai and Zhuang 2025][research_cai_2025], [He et al 2026][research_he_2026_2], and [He et al 2026][research_he_2026_3], with the trajectory optimization that decides how to spend the boost in [Bonavita et al 2026][research_bonavita_2026] and control in [Srour and Abdulkerim 2026][research_srour_2026]. Fast surrogate modelling for such vehicles is [Yang et al 2026][research_yang_2026_2]. The far end of the idea, which is to supply the compression from outside the vehicle altogether, is [MacLeod 2026][research_macleod_2026].
+Recovery systems have grown more sophisticated than the X-7's spike, and they have a modern literature. Supersonic parachute inflation is simulated by [Cadieux and Barad 2025][research_cadieux_2025] and [Ouyang et al 2026][research_ouyang_2026], the inflation process itself by [Guan et al 2025][research_guan_2025], and the stability of a deployed canopy by [Placco et al 2026][research_placco_2026]. **The opening shock relation written above is what all of this exists to bound.** Trajectory prediction for the boost-glide vehicles that inherited the X-7's launch architecture is [Cai and Zhuang 2025][research_cai_2025], [He et al 2026][research_he_2026_2], and [He et al 2026][research_he_2026_3], with the trajectory optimization that decides how to spend the boost in [Bonavita et al 2026][research_bonavita_2026] and control in [Srour and Abdulkerim 2026][research_srour_2026]. [Yang et al 2026][research_yang_2026_2] offer fast surrogate modelling for such vehicles. [MacLeod 2026][research_macleod_2026] carries the idea to its far end, supplying the compression from outside the vehicle altogether.
 
 ### Inlets, shock systems and unstart
 
@@ -728,11 +728,11 @@ The recovery system has its own modern literature and it is more sophisticated t
 
 The keystone framework fits the X-7 badly in three ways and each is instructive.
 
-The vehicle was not built to answer the question this article says it answers. It was built to test ramjets for a missile, and the epistemic argument about extrapolation is the author's framing rather than the programme's. The programme would have described itself as cheap and convenient rather than as differently capable, and reading it as an argument about the structure of inference is a retrospective imposition. The imposition is defensible, since the capability is real whether or not anyone named it, but it should not be presented as the programme's own reasoning.
+The vehicle was not built to answer the question this article says it answers. It was built to test ramjets for a missile, and the epistemic argument about extrapolation is the author's framing rather than the programme's. The programme would have called itself cheap and convenient, not differently capable, and reading it as an argument about the structure of inference is a retrospective imposition. The imposition is defensible, since the capability is real whether or not anyone named it, but it should not be presented as the programme's own reasoning.
 
-The X-designation is a misfit. This is a missile testbed that received a research aircraft designation five years into its development, and every question the series framework asks about research aircraft applies awkwardly to it. **Whether the X-7 belongs in this series at all is a fair question**, and the honest answer is that it belongs because the designation system put it there, which is a fact about the designation system and a subject the closing article of this series will have to address.
+The X-designation is a misfit. This is a missile testbed that received a research aircraft designation five years into its development, and every question the series framework asks about research aircraft applies awkwardly to it. **Whether the X-7 belongs in this series at all is a fair question.** It is here because the designation system put it here, a fact about the designation system that the closing article of this series will have to address.
 
-The most interesting output is not attributable to the aircraft. The RJ43 entered service, the test architecture propagated, and both are real, but neither is a finding in the sense the other articles in this series use the word. The X-7 did not discover anything. It was a vehicle for discovering things about engines, which is a different kind of contribution and one the framework was not built to price.
+The most interesting output is not attributable to the aircraft. The RJ43 entered service, the test architecture propagated, and both are real, but neither is a finding in the sense the other articles in this series use the word. The X-7 did not discover anything. It was a vehicle for discovering things about engines, a different kind of contribution and one the framework was not built to price.
 
 ## The Source Base
 
@@ -787,11 +787,11 @@ The engineering texts behind the relations are [Hill and Peterson 1991][book_hil
 
 ## Epistemic State
 
-Established historical fact includes the start of development in December 1946, the MX-883 and L-171 designators, the PTV-A-1 designation and its change to X-7 in 1951, the failure of the first launch, the 130 flights between April 1951 and July 1960, air launch from B-29 and B-50 carriers, solid rocket boost followed by ramjet sustain, multi-stage parachute recovery with a nose spike, the stainless steel and nickel alloy construction, the X-7A-1 and X-7A-3 configurations and their dimensions and masses, the maximum Mach number of 4.31 and ceiling near 32 kilometres, the derivation of the AQM-60 Kingfisher, and the lineage of the engine into the Bomarc and the D-21.
+Established historical fact includes the start of development in December 1946, the MX-883 designator, the PTV-A-1 designation and its change to X-7 in 1951, the failure of the first launch, flight testing between April 1951 and July 1960, air launch from B-29 and B-50 carriers, solid rocket boost followed by ramjet sustain, multi-stage parachute recovery with a nose spike, steel construction, the X-7A-1 and X-7A-3 configurations and their dimensions and masses, the maximum Mach number of 4.31 and ceiling near 32 kilometres, the derivation of the AQM-60 Kingfisher, and the lineage of the engine into the Bomarc and the D-21.
 
 Established engineering analysis includes every relation in the sizing sections. The isentropic stagnation relations, the normal shock total pressure ratio, the oblique shock normal Mach component, the recovery factor relation, the ideal ramjet specific thrust, the rocket impulse relation, the prediction variance of a fitted model, and the sampling theorem are standard results.
 
-**Derived here and not taken from a source** are the fineness ratio of 19.6, the ram pressure ratios of 7.8 at Mach 2 and 152 at Mach 4, the Brayton efficiencies of 0.44 and 0.79, the normal shock recovery of 0.107 at Mach 4.31, the release Mach number of 0.45, the booster impulse of $1.87 \times 10^{6}$ newton seconds and the resulting velocity increment of 575 metres per second and burnout Mach number of 2.37, the boost acceleration of 13.2 g rising to about 16, the stagnation temperature of 1078 kelvin and recovery temperature of 985, the available combustion temperature rise of 922 kelvin, the specific thrust values, the residence time of 8.3 milliseconds, the parachute landing deceleration of 6.5 g, and the extrapolation variance figures. These follow by arithmetic from published dimensions and standard relations and can be reproduced or refuted by any reader with them.
+**Derived here and not taken from a source** are the fineness ratio of 19.6, the ram pressure ratios of 7.8 at Mach 2 and 152 at Mach 4, the Brayton efficiencies of 0.44 and 0.79, the normal shock recovery of 0.107 at Mach 4.31, the release Mach number of 0.45, the booster impulse of $1.87 \times 10^{6}$ newton seconds and the resulting velocity increment of 575 metres per second and burnout Mach number of 2.37, the boost acceleration of 13.2 g rising to about 16, the stagnation temperature of 1022 kelvin and recovery temperature of 933, the available combustion temperature rise of 978 kelvin, the specific thrust values, the residence time of 8.3 milliseconds, the parachute landing deceleration of 6.5 g, and the extrapolation variance figures. These follow by arithmetic from published dimensions and standard relations and can be reproduced or refuted by any reader with them.
 
 Inference includes the central claim that the X-7's distinctive capability is epistemic rather than performance-related, namely that an expendable vehicle can interpolate across a limit where a crewed one must extrapolate toward it. That is the author's framing. The programme did not describe itself in those terms and no source consulted does.
 
@@ -799,7 +799,7 @@ Weakly supported are the representative values. The drop speed of 134 metres per
 
 **The programme record is not public in the way the engine record is.** The X-7 was an Air Force and Lockheed programme under MX-883, and its own reports are not in the NASA archive that supplies the inlet, combustor, and free-flight sources cited throughout. The physics in this article therefore rests on excellent primary documentation and the programme narrative on secondary accounts, and the two should not be given equal weight.
 
-Contested or unresolved in the sources consulted is the claim that the Kingfisher derivative outperformed the surface-to-air missiles fired at it and that the resulting embarrassment contributed to cancellation. It is widely repeated and no primary source establishing either the intercept statistics or the causal link was located. The exact top speed is given as Mach 4.31 in most accounts, and the earlier design speed near 1000 miles per hour is quoted alongside it without a clear statement of which configuration reached which.
+Contested or unresolved in the sources consulted is the claim that the Kingfisher derivative outperformed the surface-to-air missiles fired at it and that the resulting embarrassment contributed to cancellation. It is widely repeated and no primary source establishing either the intercept statistics or the causal link was located. The top speed of Mach 4.31 on 17 April 1958 rests on [Heppenheimer 2007][book_heppenheimer_2007_heat_barrier], while a speed near 1000 miles per hour that one account quotes is not tied to a configuration in the sources consulted. The total of 130 flights traces through the encyclopaedia account to a single memorial website, against some one hundred missions between 1955 and July 1960 in [Heppenheimer 2007][book_heppenheimer_2007_heat_barrier] and 61 vehicles built in [Parsch 2002][ref_ds_aqm60]. The Lockheed model number is given as L-171 and as L-151, and the structural alloy as heat-treated 4130 steel and as stainless steel with a nickel alloy fuselage.
 
 A note on temporal position. This article carries an editorial date of 2025-10-13 and is written from current knowledge, including contemporary literature published well after that date.
 
@@ -811,13 +811,13 @@ It does not attempt a history of the [Bomarc][ref_bomarc] or the [D-21][ref_d21]
 
 ## Conclusion
 
-The Lockheed X-7 flew 130 times, reached Mach 4.31, and was never intended to survive its own programme.
+The Lockheed X-7 flew 130 times, reached Mach 4.31, and carried no pilot whose survival it had to guarantee.
 
-Its engine explains its operating concept completely. A ramjet's compression ratio is one at rest, 7.8 at Mach 2, and 152 at Mach 4, so the engine is worthless standing still and unmatched at speed. The vehicle must therefore be thrown, and the booster that throws it delivers 1.87 million newton seconds, a velocity increment near 575 metres per second, and a burnout Mach number of 2.37, which is precisely where the engine becomes worth having. It does so at 13 g rising to 16, which is the first place where having no pilot is not a convenience but a requirement.
+Its engine explains its operating concept completely. A ramjet's compression ratio is one at rest, 7.8 at Mach 2, and 152 at Mach 4, so the engine is worthless standing still and unmatched at speed. The vehicle must therefore be thrown, and the booster that throws it delivers 1.87 million newton seconds, a velocity increment near 575 metres per second, and a burnout Mach number of 2.37, where the engine becomes worth having. It does so at 13 g rising to 16, and that acceleration is the first point at which the absence of a pilot becomes a requirement.
 
 The spike is the second. A single normal shock at Mach 4.31 keeps a tenth of the total pressure, throwing away nine tenths of what the flight condition supplied, and a properly staged conical shock system keeps roughly forty percent. **That factor of nearly four is the difference between an engine and a duct**, and it is why the most conspicuous feature of the aircraft is a piece of pointed metal doing nothing visible.
 
-Heat chooses the material without consultation. At Mach 4.31 the skin sits at 985 kelvin, or 712 degrees, which excludes aluminium and specifies steel. The same temperature rise that heats the structure also arrives at the combustor, leaving 922 kelvin of useful heat addition where a Mach 2 engine has 1600, and that shrinking allowance is the ceiling on the subsonic-combustion ramjet rather than any deficiency of the inlet.
+Heat chooses the material without consultation. At Mach 4.31 the skin sits at 933 kelvin, or 660 degrees, which excludes aluminium and specifies steel. The same temperature rise that heats the structure also arrives at the combustor, leaving 978 kelvin of useful heat addition where a Mach 2 engine has 1600, and that shrinking allowance is the ceiling on the subsonic-combustion ramjet rather than any deficiency of the inlet.
 
 What the vehicle demonstrated beyond its engines is harder to name and more durable. A crewed programme approaches a destructive limit and stops, so its estimate of that limit is an extrapolation whose variance grows as the square of the margin it keeps. An expendable programme crosses the limit and interpolates. **The X-7 could be flown to destruction and a crewed aircraft cannot, and that is a difference in what is knowable rather than in what is achievable.** The vehicle was not built for that reason and nobody in the programme described it that way, but it is the reason the architecture it pioneered, of air launch, rocket boost, airbreathing sustain, and telemetered destruction, has outlived every aircraft in this series so far.
 
@@ -886,6 +886,7 @@ The next article takes the [Aerojet X-8][ref_list_of_x_planes], the Aerobee soun
 
 ### Reference
 
+- [Lockheed Q-5/AQM-60 Kingfisher, Directory of U.S. Military Rockets and Missiles][ref_ds_aqm60]
 - [NASA Armstrong Flight Research Center][ref_nasa_armstrong]
 - [NASA Technical Reports Server][ref_ntrs]
 - [Wikipedia Article on Aerodynamic Heating][ref_aero_heating]
@@ -961,6 +962,7 @@ The next article takes the [Aerojet X-8][ref_list_of_x_planes], the Aerobee soun
 - [Wikipedia Article on Transonic Flow][ref_transonic]
 - [Wikipedia Article on Wave Drag][ref_wave_drag]
 - [Wikipedia Article on Wing Loading][ref_wing_loading]
+- [Wikipedia Article on Zip Fuel][ref_zip_fuel]
 - [Wikipedia List of X-Planes][ref_list_of_x_planes]
 - [Wikipedia Section on Buffeting][ref_buffeting]
 
@@ -8352,6 +8354,7 @@ The next article takes the [Aerojet X-8][ref_list_of_x_planes], the Aerobee soun
 [ref_directional_stability]: https://en.wikipedia.org/wiki/Directional_stability
 [ref_doe]: https://en.wikipedia.org/wiki/Design_of_experiments
 [ref_drag_coefficient]: https://en.wikipedia.org/wiki/Drag_coefficient
+[ref_ds_aqm60]: https://www.designation-systems.net/dusrm/m-60.html
 [ref_dynamic_pressure]: https://en.wikipedia.org/wiki/Dynamic_pressure
 [ref_edwards_afb]: https://en.wikipedia.org/wiki/Edwards_Air_Force_Base
 [ref_experimental_aircraft]: https://en.wikipedia.org/wiki/Experimental_aircraft
@@ -8385,7 +8388,7 @@ The next article takes the [Aerojet X-8][ref_list_of_x_planes], the Aerobee soun
 [ref_ntrs]: https://ntrs.nasa.gov/
 [ref_oblique_shock]: https://en.wikipedia.org/wiki/Oblique_shock
 [ref_parachute]: https://en.wikipedia.org/wiki/Parachute
-[ref_pentaborane]: https://en.wikipedia.org/wiki/Pentaborane
+[ref_pentaborane]: https://en.wikipedia.org/wiki/Pentaborane(9)
 [ref_prandtl_number]: https://en.wikipedia.org/wiki/Prandtl_number
 [ref_prediction_interval]: https://en.wikipedia.org/wiki/Prediction_interval
 [ref_propagation_of_uncertainty]: https://en.wikipedia.org/wiki/Propagation_of_uncertainty
@@ -8414,6 +8417,7 @@ The next article takes the [Aerojet X-8][ref_list_of_x_planes], the Aerobee soun
 [ref_wave_drag]: https://en.wikipedia.org/wiki/Wave_drag
 [ref_wind_tunnel]: https://en.wikipedia.org/wiki/Wind_tunnel
 [ref_wing_loading]: https://en.wikipedia.org/wiki/Wing_loading
+[ref_zip_fuel]: https://en.wikipedia.org/wiki/Zip_fuel
 [related_post_a106_two_stage_delta_wing]: {% post_url 2026-03-12-two_stage_flying_delta_wing_vehicles_for_civil_and_national_security_applications %}
 [related_post_a217_rocket_propellant_chemistry]: {% post_url 2026-02-01-rocket_propellant_chemistry_a_design_tradeoff_space %}
 [related_post_a237_aerospace_framing]: {% post_url 2026-07-13-framing_and_the_co_development_mechanism %}

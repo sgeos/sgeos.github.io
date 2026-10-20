@@ -13,10 +13,14 @@ series_index: 26
 <!-- A322 -->
 <script>console.log("A322");</script>
 
-On 23 January 1968 an unpowered [Bensen gyroglider][ref_bensen_b8] carrying one person and designated
-[X-25B][ref_x25] flew for the first time. It had no engine, no fuselage to speak of, and a rotor that turned
-only because air was coming up through it.
-**It is the smallest, slowest and least expensive aircraft in this series, and it is the only one whose research question was about what happens after an aeroplane has already been lost.**
+On 23 January 1968, the date the [X-25B][ref_x25] entry gives, an unpowered [Bensen gyroglider][ref_bensen_b8]
+carrying one person and designated X-25B flew for the first time, although [Guinness World
+Records][ref_guinness_x25b] dates that first flight to 5 June 1968. It had no engine, no fuselage to speak of,
+and a rotor that turned only because air was coming up through it.
+**It is the smallest crewed aircraft and the slowest in this series, and the only one whose research question was about what happens after an aeroplane has already been lost.**
+Guinness World Records names the X-25B the smallest crewed aircraft to receive an X-plane designation, and its
+fastest recorded flight was 85 miles per hour in the inventory by [Jenkins, Landis and
+Miller][book_jenkins_landis_miller_2003].
 This article is the twenty-sixth in the [X-Planes series][related_post_a297_xplanes_framing], following the
 [X-1][related_post_a298_bell_x1], the [X-2][related_post_a299_bell_x2], the
 [X-3][related_post_a300_douglas_x3], the [X-4][related_post_a301_northrop_x4], the
@@ -34,12 +38,13 @@ This article is the twenty-sixth in the [X-Planes series][related_post_a297_xpla
 **The X-25 was not built to fly higher, faster or further than anything.** It was built to answer whether an
 aircrew member who has just ejected can be given a choice about where to come down. The United States Air
 Force called the programme the Discretionary Descent Vehicle, and the word that matters in that name is
-**discretionary**.
+**discretionary**. The programme's purpose of giving aircrew who abandon their aircraft an option of where to
+land is recorded by [Jenkins, Landis and Miller][book_jenkins_landis_miller_2003].
 
-**The obvious reading of the concept is wrong, and the arithmetic says so before any archive does.** An
+**The obvious reading of the concept is wrong, and the arithmetic establishes that before any archive does.** An
 autorotating rotor is not a gentler way down than a parachute. At equal weight it descends about nine
-percent faster, and as actually flown it descended about thirty percent faster. What the rotor buys is not a
-slower descent. It is the ability to go somewhere.
+percent faster, and as flown it descended about thirty percent faster. The rotor does not offer a slower
+descent. It offers the ability to go somewhere.
 
 ## The Research Question
 
@@ -53,7 +58,7 @@ a person who has left a damaged aeroplane over hostile ground is recovered rathe
 engineering exists only to move that number.
 
 The binding unknown was not whether a rotor autorotates. Juan de la Cierva had settled that in the 1920s and
-the literature had been mature for forty years, in [Glauert 1927][research_glauert_1927], [de la Cierva 1930][research_de_la_cierva_1930], [Wheatley 1933][research_wheatley_1933], [Report no. 515, full-scale 1935, Report no. 515, full-scale][research_report_no_1935_2], [Wheatley 1935][research_wheatley_1935], [Wheatley 1937][research_wheatley_1937], [Gustafson 1956][research_gustafson_1956], and [Larsen 1956][research_larsen_1956], and the rest of that period literature is gathered in the cluster on autogiros and gyroplanes under The Contemporary Literature. The
+the literature had been mature for forty years, in [Glauert 1927][research_glauert_1927], [de la Cierva 1930][research_de_la_cierva_1930], [Wheatley 1933][research_wheatley_1933], [Report no. 515, full-scale 1935, Report no. 515, full-scale][research_report_no_1935_2], [Wheatley 1935][research_wheatley_1935], [Wheatley 1937][research_wheatley_1937], [Gustafson 1956][research_gustafson_1956], and [Larsen 1956][research_larsen_1956]. The remainder of that period work is surveyed with the autogiros and gyroplanes in The Contemporary Literature. The
 programme history of the machines Cierva built is in [Brooks on the Cierva autogiros][book_brooks_1988] and
 the longer arc from those aircraft to the modern gyroplane is in [Charnov's account of the
 type][book_charnov_2003].
@@ -64,21 +69,27 @@ because the programme was.
 
 ## Programme Origin
 
-The motivation was the air war over North Vietnam and the number of aircrew coming down beyond the reach of
-rescue. A parachute descends where the wind puts it. If that place is defended, the descent itself has
+The [X-25A][ref_nmusaf_x25a] fact sheet gives the motivation as the air war over North Vietnam, in which the
+Air Force was suffering heavy losses, and the odds of escape for a downed flyer. A parachute descends where the wind puts it. If that place is defended, the descent itself has
 decided the outcome, and the crewman is a passenger in the decision.
 
-[Igor Bensen][ref_bensen_igor] had spent since 1953 building single-seat autogyros for the amateur market
-from his company in Raleigh, North Carolina. The
-[B-8][ref_bensen_b8] family was sold as plans and as kits, it was simple enough to be built in a garage, and
-by 1968 Bensen himself held a substantial number of light-rotorcraft records.
-**The Air Force did not commission a new aircraft. It bought an existing civil design and gave it an X-designation**,
-which is a materially different act from every other procurement in this series and is discussed under Where
-the Framing Breaks Down.
+[Igor Bensen][ref_bensen_igor] had been building rotor kites and autogyros of his own design since the early
+1950s, from the company he founded in 1952 at Raleigh-Durham in North Carolina, in the [Bensen
+Aircraft][ref_bensen_aircraft] entry. The
+[B-8][ref_bensen_b8] family was sold as plans to amateur builders, it was simple enough for them to build, and
+in 1967 Bensen himself set a series of world autogyro records in a B-8M, in the [FAI record
+list][ref_fai_bensen].
+**The Air Force did not commission a new aircraft. It ordered modified versions of an existing civil design and gave them an X-designation**,
+a materially different act from every other procurement in this series and one discussed under Where the
+Framing Breaks Down. The order for modified Bensen autogyros is in [Jenkins, Landis and
+Miller][book_jenkins_landis_miller_2003].
 
-In early 1968 three aircraft were ordered for the Discretionary Descent Vehicle evaluation. The powered
-variant, derived from the B-8M, became the [X-25A][ref_nmusaf_x25a]. The unpowered gyroglider, derived from
-the B-8, became the [X-25B][ref_afftc_x25b].
+In early 1968 three aircraft were ordered for the Discretionary Descent Vehicle evaluation, in the
+[X-25A][ref_nmusaf_x25a] fact sheet. The powered variant, derived from the B-8M, became the X-25A. The
+unpowered gyroglider, derived from the B-8, became the [X-25B][ref_afftc_x25b], in the [Bensen
+B-8][ref_bensen_b8] entry. The third was the basic X-25, an unpowered gyro-chute intended for one-time use,
+whose rotor was designed to deploy automatically at any ejection speed and for which no piloted flight is
+recorded, in [Jenkins, Landis and Miller][book_jenkins_landis_miller_2003].
 
 ## The Vehicles
 
@@ -88,27 +99,31 @@ the B-8, became the [X-25B][ref_afftc_x25b].
 |---|---|---|
 | Basis | Bensen B-8M Gyro-Copter | Bensen B-8 Gyro-Glider |
 | Serial | 68-10770 | 68-10771 |
-| First flight | 5 June 1968 | 23 January 1968 |
-| Engine | McCulloch four-cylinder two-stroke | none |
-| Role in the programme | training and technique | the concept itself |
+| First flight | 5 June 1968 | 23 January 1968 or 5 June 1968, sources differ |
+| Engine | McCulloch four-cylinder two-stroke | none at first, later fitted |
+| Role in the programme | training and technique | towed trainer, training and technique |
 | Now held at | National Museum of the United States Air Force | Air Force Flight Test Museum, [Edwards][ref_edwards] |
 
-**The unpowered aircraft flew first, by more than four months, and that ordering is the programme's own statement of what it was about.**
-An escape vehicle has no engine. The X-25A exists because teaching someone to fly a gyroplane is easier when
-the aircraft can climb back up and try again, and because the programme's own finding turned out to concern
-training and not aerodynamics.
+**Both aircraft that flew were trainers, and the vehicle that embodied the escape concept is not known to have flown with a pilot.**
+An escape vehicle has no engine, and the unpowered basic X-25 was that vehicle, while the X-25A and X-25B
+were used to evaluate piloting techniques and training requirements, in [Jenkins, Landis and
+Miller][book_jenkins_landis_miller_2003]. The [X-25A][ref_nmusaf_x25a] fact sheet describes the X-25B as an
+unpowered towed trainer later fitted with an engine, and the X-25A as having a more robust structure and a
+small engine.
 
 **Two specifications are not settled by the public record and the article does not pretend otherwise.** The
-rotor diameter is given as twenty feet in the B-8M description and as twenty feet six inches in at least one
-X-25A listing. The engine is given as seventy-two horsepower in the B-8M description and as ninety
-horsepower in several X-25A listings. Every calculation below uses twenty feet, states that it does so, and
+rotor diameter is given as twenty feet in the [B-8M description][ref_bensen_b8], and a figure of twenty feet
+six inches for the X-25A could not be confirmed in any source consulted here. The engine is given as
+seventy-two horsepower in the B-8M description and as ninety horsepower in the [X-25A][ref_nmusaf_x25a] fact
+sheet, which is also the rating listed for Bensen's own record-setting B-8M in the [FAI record
+list][ref_fai_bensen]. Every calculation below uses twenty feet, states that it does so, and
 is checked for sensitivity to the difference, which is under five percent in the quantity that matters.
 
 ## Sizing From First Principles
 
 ### Why a Rotor Autorotates
 
-**It is easy to say that the rotor turns because air comes up through it and leave the matter there. That sentence is the whole physical content of the subject and it deserves the one line it actually takes to write down.**
+**It is easy to say that the rotor turns because air comes up through it and leave the matter there. That sentence carries the full physical content of the subject and deserves the line of algebra it takes to write down.**
 
 Consider a blade element at radius $r$ meeting the resultant flow at inflow angle $\phi$. Its lift acts
 perpendicular to that flow and its drag along it, so both have components in the plane of rotation. The net
@@ -117,11 +132,11 @@ in-plane force on the element is
 $$dF_{x} = dL \sin\phi - dD \cos\phi$$
 
 The element neither drives the rotor nor retards it when that vanishes, which gives a condition containing
-nothing but the section's own aerodynamics,
+nothing but the section's aerodynamics,
 
 $$\tan\phi = \frac{dD}{dL} = \frac{C_d}{C_l}$$
 
-**The equilibrium element is the one whose inflow angle equals its own drag-to-lift angle.** Inboard of it
+**The equilibrium element is the one whose inflow angle equals its drag-to-lift angle.** Inboard of it
 the inflow angle is larger and the element drives the rotor. Outboard it is smaller and the element is
 driven. **Autorotation is that balance, integrated over the disc**, and the rotor settles at whatever speed
 makes the driving and driven regions cancel,
@@ -145,7 +160,7 @@ state written in different reference frames, and that identity is the reason a l
 contemporary literature is about wind energy.
 
 The literature is in [Nikolsky and Seckel 1949][research_nikolsky_seckel_1949_2], [Nikolsky and Seckel 1949][research_nikolsky_seckel_1949], [Slaymaker and Gray 1953][research_slaymaker_gray_1953], [Talbot and Schroers 1978][research_talbot_schroers_1978], and [Fradenburgh 1984][research_fradenburgh_1984], and the
-descent-state framework it sits in is [Castles and Gray 1951][research_castles_gray_1951], [Azuma and Obata 1968][research_azuma_obata_1968], [Shi-cun 1990][research_shicun_1990], and [Johnson 2004][research_johnson_2004]. The rest of this work is gathered in the cluster on autorotation, the vortex ring state and the emergency descent under The Contemporary Literature.
+descent-state framework it sits in is [Castles and Gray 1951][research_castles_gray_1951], [Azuma and Obata 1968][research_azuma_obata_1968], [Shi-cun 1990][research_shicun_1990], and [Johnson 2004][research_johnson_2004]. The Contemporary Literature carries further records under autorotation, the vortex ring state and the emergency descent.
 
 ### The Reference Speed
 
@@ -180,8 +195,8 @@ $$v_h = \sqrt{\frac{350}{2 (0.002377)(314.2)}} = 15.3 \, \text{ft/s}$$
 ### The Descent Rate
 
 In steady vertical autorotation the measured descent rate is close to $1.8 v_h$.
-**That number is empirical, and the reason it has to be is worth showing rather than asserting.** It rests
-on a compact and largely mid-century body of measurement, including the analytical study of steady vertical
+**That number is empirical, and the reason it has to be can be derived.** The value comes
+from a compact and largely mid-century body of measurement, including the analytical study of steady vertical
 descent in single-rotor autorotation, the analysis of the transition from hovering into autorotative
 vertical descent, and the power-off flare-up tests of a model rotor, in [Irving 1930][research_irving_1930], [Fukatsu 1931][research_fukatsu_1931], [Gessow 1948][research_gessow_1948], [Nikolsky and Seckel 1949][research_nikolsky_seckel_1949_2], [Nikolsky and Seckel 1949][research_nikolsky_seckel_1949], [Gessow 1950][research_gessow_1950], [von Bahr 1950][research_von_bahr_1950], [Slaymaker and Gray 1953][research_slaymaker_gray_1953], [Hickey 1956][research_hickey_1956], [Fitch et al 1970][research_fitch_1970], [Buss and Nicholson 1971][research_buss_nicholson_1971], [Norberg 1973][research_norberg_1973], [Baker 1974][research_baker_1974], [Marr 1976][research_marr_1976], [Talbot and Schroers 1978][research_talbot_schroers_1978], [Iversen 1979][research_iversen_1979], [Pleasants and White 1983][research_pleasants_white_1983], [Fradenburgh 1984][research_fradenburgh_1984], [Gallaway and Hankey 1985][research_gallaway_hankey_1985], [Lee 1985][research_lee_1985], [Decker et al 1986][research_decker_1986], [Lee et al 1988][research_lee_1988], [Copeland 1994][research_copeland_1994], [Rogers and Asbury 2000][research_rogers_asbury_2000].
 
@@ -196,7 +211,7 @@ relation between the descent ratio and the induction factor alone,
 $$\left( \frac{v_h}{V_d} \right)^{2} = a (1 - a)$$
 
 **The right-hand side is a parabola whose maximum is one quarter, at $a = 1/2$.** The left-hand side
-therefore cannot exceed one quarter either, which is a bound on the descent ratio containing no property of
+therefore cannot exceed one quarter either, giving a bound on the descent ratio that contains no property of
 any rotor,
 
 $$\frac{V_d}{v_h} \geq 2$$
@@ -204,7 +219,7 @@ $$\frac{V_d}{v_h} \geq 2$$
 **The measured value is 1.8, and momentum theory has no solution there at all.** The quadratic in $a$ has a
 negative discriminant below a ratio of 2, so there is no induction factor that supports the weight.
 
-**This is not the rotor beating a bound.** The bound exists only inside a model that does not apply at that
+**The rotor is not beating a bound.** The bound exists only inside a model that does not apply at that
 condition. Between hover and a descent of twice the hover induced velocity the rotor is in the vortex ring
 and turbulent wake states, the flow recirculates rather than passing through once, and the actuator-disc
 assumption fails outright.
@@ -218,7 +233,7 @@ $$V_d \approx 1.8 \, v_h = 1.8 (15.3) = 27.6 \, \text{ft/s} = 18.8 \, \text{mph}
 
 ### A Bridge Between Two Literatures That Do Not Cite Each Other
 
-**The rotor result and the parachute result are the same statement in different units, and neither field says so.**
+**The rotor result and the parachute result are the same statement in different units, and neither field notes it.**
 Treat the rotor as a pure drag device of coefficient $C_D$ referred to disc area,
 
 $$W = \tfrac{1}{2} \rho V_d^2 A \, C_D \quad \Longrightarrow \quad V_d = \sqrt{\frac{2W}{\rho A C_D}}$$
@@ -228,41 +243,42 @@ and the area all cancel,
 
 $$V_d = \frac{2 v_h}{\sqrt{C_D}} \quad \Longrightarrow \quad C_D = \frac{4}{(V_d / v_h)^2}$$
 
-**This contains no property of any particular rotor.** Putting the measured autorotation ratio in,
+**No property of any particular rotor appears in it.** Putting the measured autorotation ratio in,
 
 $$C_D = \frac{4}{(1.8)^2} = 1.23$$
 
 A flat circular parachute canopy has a drag coefficient near 0.75 referred to its **nominal** area, meaning
-the area of the flat fabric before it is inflated.
+the area of the flat fabric before it is inflated, in [Knacke's recovery systems design manual][book_knacke_1992].
 **Both that coefficient and the inflated geometry it goes with are measured quantities with a long test literature behind them**,
 in [Walcott 1963][research_walcott_1963], [Melzig and Schmidt 1965][research_melzig_schmidt_1965], [Heinrich 1966][research_heinrich_1966], [Ross 1970][research_ross_1970], [Mayhue and Bobbitt 1972][research_mayhue_bobbitt_1972], [Klimas 1977][research_klimas_1977], and [Shpund and Levin
-1991][research_shpund_levin_1991], and the rest of that test literature is gathered in the cluster on parachutes and aerodynamic decelerators under The Contemporary Literature.
-**The area it actually presents to the flow is smaller, because an inflated canopy is a shallow bowl and not a flat disc**,
+1991][research_shpund_levin_1991], and further records appear in the survey's parachute and decelerator cluster.
+**The area it presents to the flow is smaller, because an inflated canopy is a shallow bowl and not a flat disc**,
 and the two areas are related through the projected diameter,
 
 $$S_p = \left( \frac{D_p}{D_0} \right)^{2} S_0$$
 
-Its inflated projected diameter is roughly 0.67 of the nominal diameter, so referred to the area it actually
-sweeps,
+Its inflated projected diameter is roughly 0.67 of the nominal diameter, so referred to its projected
+area,
 
 $$C_{D,\text{proj}} = \frac{0.75}{(0.67)^2} = 1.67$$
 
 **The autorotation constant that every rotorcraft text quotes and the drag coefficient that every parachute text quotes are the same physical number.**
 Both devices are swept-area drag devices sitting between about 1.2 and 1.7, and on this measure
-**the rotor is the worse of the two**. The decelerator side of the comparison is [Eckstrom and Preisser 1967][research_eckstrom_preisser_1967], [Peterson and Johnson 1983][research_peterson_johnson_1983], and [Knacke 1985][research_knacke_1985] and the bluff-body drag it rests on is [Stilley 1967][research_stilley_1967], [Abraham 1970][research_abraham_1970], [Fackrell 1975][research_fackrell_1975], [Utreja 1977][research_utreja_1977], [Ludtke 1982][research_ludtke_1982], [Richardson 1986][research_richardson_1986], and [Williamson 1995][research_williamson_1995], and both are gathered in full in the clusters on parachutes and aerodynamic decelerators and on bluff-body drag and the drag coefficient under The Contemporary Literature. The canopy coefficients used here follow
+**the rotor is the worse of the two**. The decelerator side of the comparison is [Eckstrom and Preisser 1967][research_eckstrom_preisser_1967], [Peterson and Johnson 1983][research_peterson_johnson_1983], and [Knacke 1985][research_knacke_1985] and the bluff-body drag beneath it is [Stilley 1967][research_stilley_1967], [Abraham 1970][research_abraham_1970], [Fackrell 1975][research_fackrell_1975], [Utreja 1977][research_utreja_1977], [Ludtke 1982][research_ludtke_1982], [Richardson 1986][research_richardson_1986], and [Williamson 1995][research_williamson_1995], and the survey treats both in full, in its clusters on parachutes and aerodynamic decelerators and on bluff-body drag and the drag coefficient. The canopy coefficients used here follow
 [Knacke's recovery systems design manual][book_knacke_1992], and the bluff-body drag data behind them is
 [Hoerner's drag compendium][book_hoerner_1965].
 
 ### The Rotor Is a Worse Parachute Than a Parachute
 
 The comparison has to be made at equal weight first, or the rotor is being penalised for carrying an
-airframe. A standard personnel canopy of 28 foot nominal diameter has
+airframe. The standard personnel canopy in [Knacke's recovery systems design manual][book_knacke_1992] is of
+28 foot nominal diameter, and it has
 
 $$A_0 = \pi (14)^2 = 615.8 \, \text{ft}^2$$
 
 which is nearly twice the rotor disc.
 
-**Both devices obey the same law and it is worth writing down, because the article leans on it repeatedly.**
+**Both devices obey the same law, written down here because the article leans on it repeatedly.**
 Define the loading as weight over swept area,
 
 $$\frac{W}{A} = \text{disc loading, or canopy loading}$$
@@ -284,8 +300,8 @@ coefficient is considered.
 | 20 ft rotor, equal weight | 250 | 314.2 | 0.796 | 23.3 |
 | 20 ft rotor, as flown | 350 | 314.2 | 1.114 | 27.6 |
 
-**The equal-weight comparison has a closed form and the weight cancels out of it**, so the nine percent is a
-statement about the two devices rather than about any particular load. Writing $r$ for the rotor and $c$ for
+**The equal-weight comparison has a closed form and the weight cancels out of it**, so the nine percent
+characterises the two devices and is independent of the load. Writing $r$ for the rotor and $c$ for
 the canopy,
 
 $$\frac{V_{\text{rotor}}}{V_{\text{canopy}}} = \sqrt{\frac{C_{D,c} A_c}{C_{D,r} A_r}} = \sqrt{\frac{0.75 \times 615.8}{1.23 \times 314.2}} = 1.091$$
@@ -295,29 +311,29 @@ way down is, in the one respect a parachute exists to serve, a worse one.
 
 ### But It Is a Wing
 
-**Everything above treats the rotor as a brake, and that is the wrong way to look at it.** A rotor in
+**Everything above treats the rotor as a brake, and that view misses what it is.** A rotor in
 forward autorotative flight is a rotating wing generating lift with a component of thrust, and it glides.
-**The lift-to-drag ratio of a machine like this is the one performance number the period actually measured**,
+**The lift-to-drag ratio of a machine like this is the one performance number the period measured**,
 and Wheatley's 1933 flight determination of autogiro lift, drag and gliding performance is the direct
 ancestor of every figure in this section, in [Collins 1934][research_collins_1934], [Gliding Flight in Germany 1935][research_gliding_flight_1935], [Lamprey 1953][research_lamprey_1953], [Schiotz and Volsoe 1959][research_schiotz_volsoe_1959], [Pennycuick 1960][research_pennycuick_1960], [Durand and Wasicko 1967][research_durand_wasicko_1967], [Mort and Weiberg 1967][research_mort_weiberg_1967], [Knapp and Barton 1968][research_knapp_barton_1968], [Pennycuick 1968][research_pennycuick_1968], [Pennycuick 1971][research_pennycuick_1971_2], [Sleeman 1971][research_sleeman_1971], [McGAHAN 1973][research_mcgahan_1973], [Baudinette and Schmidt-Nielsen 1974][research_baudinette_schmidt_nielsen_1974], [Williamson 1979][research_williamson_1979]. Taking a lift-to-drag ratio of 4, which is mid-range for this class of
 machine, and a best-glide airspeed of 45 miles an hour,
 
 $$\tan\gamma = \frac{1}{L/D}, \qquad V_s = V \sin\gamma$$
 
-**At a lift-to-drag ratio of 4 the glide angle is 14.0 degrees, which is not a small angle**, so the exact
+**At a lift-to-drag ratio of 4 the glide angle is 14.0 degrees, too large to count as a small angle**, so the exact
 form and the convenient one differ,
 
 $$V_s = \frac{V}{L/D} = \frac{66.0 \, \text{ft/s}}{4} = 16.5 \, \text{ft/s}$$
 
 $$V_s = V \sin\gamma = 66.0 \sin(14.04^\circ) = 16.0 \, \text{ft/s}$$
 
-**The article uses the simpler form throughout and it is three percent high.** That is stated openly, and it
+**The article uses the simpler form throughout, and that form reads three percent high.** That is stated openly, and it
 does not move any conclusion, since the comparison against a canopy descending at 21.3 feet per second is
 not close.
 
 **Now it beats the canopy on descent rate as well, at 16.5 feet per second against 21.3.** The glide
-literature is [Collins 1934][research_collins_1934], [Gliding Flight in Germany 1935][research_gliding_flight_1935], [Lamprey 1953][research_lamprey_1953], [Schiotz and Volsoe 1959][research_schiotz_volsoe_1959], [Pennycuick 1960][research_pennycuick_1960], [Durand and Wasicko 1967][research_durand_wasicko_1967], [Mort and Weiberg 1967][research_mort_weiberg_1967], [Knapp and Barton 1968][research_knapp_barton_1968], [Pennycuick 1968][research_pennycuick_1968], [Pennycuick 1971][research_pennycuick_1971_2], [Sleeman 1971][research_sleeman_1971], [McGAHAN 1973][research_mcgahan_1973], [Baudinette and Schmidt-Nielsen 1974][research_baudinette_schmidt_nielsen_1974], [Williamson 1979][research_williamson_1979], and Wheatley's flight determination of autogiro lift and drag in 1933 is
-the measurement this rests on.
+literature is [Collins 1934][research_collins_1934], [Gliding Flight in Germany 1935][research_gliding_flight_1935], [Lamprey 1953][research_lamprey_1953], [Schiotz and Volsoe 1959][research_schiotz_volsoe_1959], [Pennycuick 1960][research_pennycuick_1960], [Durand and Wasicko 1967][research_durand_wasicko_1967], [Mort and Weiberg 1967][research_mort_weiberg_1967], [Knapp and Barton 1968][research_knapp_barton_1968], [Pennycuick 1968][research_pennycuick_1968], [Pennycuick 1971][research_pennycuick_1971_2], [Sleeman 1971][research_sleeman_1971], [McGAHAN 1973][research_mcgahan_1973], [Baudinette and Schmidt-Nielsen 1974][research_baudinette_schmidt_nielsen_1974], [Williamson 1979][research_williamson_1979], and Wheatley's flight determination of autogiro lift and drag in 1933 supplies
+the underlying measurement.
 
 ### The Range That Makes Descent Discretionary
 
@@ -334,16 +350,15 @@ $$R = h \, (L/D)$$
 
 **Descent rate depends on density, and an escape system is used at altitude by definition.**
 
-**The density ratio is conventionally written $\sigma$ and it is not written that way here**, because this
-article spends $\sigma$ on rotor solidity under The Material Argument, Which Is Why Anyone Tried This, and one
-symbol cannot carry both.
+**The density ratio is conventionally written $\sigma$, a notation this article avoids**, because the
+article spends $\sigma$ on rotor solidity under The Material Argument, and one symbol cannot carry both.
 
 $$V_d(h) = V_d(0) \sqrt{\frac{\rho_0}{\rho(h)}}, \qquad \frac{\rho(h)}{\rho_0} = \left( 1 - 6.875 \times 10^{-6} h \right)^{4.256}$$
 
 so a rotor arrives at 20,000 feet descending 37 percent faster than the same rotor at sea level. The
-tabulated atmosphere this rests on is [Dubin et al 1962][research_dubin_1962], [U.S. Standard Atmosphere, 1962][research_u_s_standard_1962], [B-34. U. S. Standard 1963][research_b_34_u_1963], [U. S. Standard Atmosphere 1963][research_u_s_1963], [Dubin et al 1966][research_dubin_1966], [U.S. Standard Atmosphere Supplements 1966][research_u_s_standard_1966], [Minzner 1967][research_minzner_1967], [Pegg 1968][research_pegg_1968], [Snell and Heiser 1968][research_snell_heiser_1968], [Minzner et al 1973][research_minzner_1973], [Krueger and Minzner 1976][research_krueger_minzner_1976], [Minzner et al 1976][research_minzner_1976], [U.S. Standard Atmosphere, 1976][research_u_s_standard_1976], [Minzner 1977][research_minzner_1977], [Peters 1977][research_peters_jr_1977], [Johnson et al 1991][research_johnson_1991], [Johnson et al 1993][research_johnson_1993], [Johnson et al 2002][research_johnson_2002].
+tabulated atmosphere behind this is [Dubin et al 1962][research_dubin_1962], [U.S. Standard Atmosphere, 1962][research_u_s_standard_1962], [B-34. U. S. Standard 1963][research_b_34_u_1963], [U. S. Standard Atmosphere 1963][research_u_s_1963], [Dubin et al 1966][research_dubin_1966], [U.S. Standard Atmosphere Supplements 1966][research_u_s_standard_1966], [Minzner 1967][research_minzner_1967], [Pegg 1968][research_pegg_1968], [Snell and Heiser 1968][research_snell_heiser_1968], [Minzner et al 1973][research_minzner_1973], [Krueger and Minzner 1976][research_krueger_minzner_1976], [Minzner et al 1976][research_minzner_1976], [U.S. Standard Atmosphere, 1976][research_u_s_standard_1976], [Minzner 1977][research_minzner_1977], [Peters 1977][research_peters_jr_1977], [Johnson et al 1991][research_johnson_1991], [Johnson et al 1993][research_johnson_1993], [Johnson et al 2002][research_johnson_2002].
 
-**The range does not change at all**, which is worth stating because it is the article's headline number.
+**The range does not change at all**, and the point matters because range is the article's headline number.
 The relation displayed above, $R = h (L/D)$, is purely geometric.
 **There is no speed in it and no density in it.** A glide ratio is a ratio of distances, so it is the same
 in any air, and an ejection at twenty thousand feet reaches the same fifteen miles whatever the density does
@@ -360,15 +375,15 @@ The table under The Range That Makes Descent Discretionary uses the integrated v
 
 **A round canopy travels only with the wind.** Seven and a half miles from a ten thousand foot ejection is
 the entire product. Whether that is worth anything depends on whether seven miles is the difference between
-capture and recovery, which is a question about the war and not about the rotor.
+capture and recovery, a question about the war and not about the rotor.
 
-### The Material Argument, Which Is Why Anyone Tried This
+### The Material Argument
 
 A rotor sweeps its disc with almost nothing in it. Solidity is the ratio of blade area to disc area,
 
 $$\sigma = \frac{N c}{\pi R} = \frac{2 (0.583)}{\pi (10)} = 0.037$$
 
-so the two blades of 7 inch chord occupy 11.7 square feet and sweep 314. To match the rotor's drag area with
+so the two blades of an assumed 7 inch chord occupy 11.7 square feet and sweep 314. To match the rotor's drag area with
 fabric,
 
 $$C_D A = 1.23 \times 314.2 = 388 \, \text{ft}^2, \qquad S_0 = \frac{388}{0.75} = 517 \, \text{ft}^2$$
@@ -377,19 +392,21 @@ $$C_D A = 1.23 \times 314.2 = 388 \, \text{ft}^2, \qquad S_0 = \frac{388}{0.75} 
 appeal of the idea, and the sizing literature behind it is [Gianmarco Sahragard-Monfared et
 al][research_gianmarco_sahragard_monfared], [Gessow 1948][research_gessow_1948_2], [Powell 1954][research_robert_d_powell_1954], [Young and Lytwyn 1967][research_young_lytwyn_1967], [Jenney et al 1968][research_jenney_1968], [Wright 1969][research_wright_1969], [Miller 1983][research_miller_1983], [Zaitsev 1987][research_zaitsev_1987].
 
-**And it loses on mass, which is the measure that decides.** A Bensen rotor with hub and teeter bearing is
-of order 38 pounds. A complete personnel parachute assembly with canopy, lines, harness and container is of
-order 28.
-**Rigid blade is heavy per unit area in exactly the proportion that fabric is light, and the forty-four to one advantage in area comes back as roughly parity in weight.**
+**And it loses on mass, the measure that decides.** A Bensen rotor with hub and teeter bearing is
+estimated here to be of order 38 pounds, on the blade mass assumed below. A complete personnel parachute
+assembly with canopy, lines, harness and container is estimated to be of order 28.
+**Rigid blade is heavy per unit area in the proportion that fabric is light, and the forty-four to one advantage in area comes back as roughly parity in weight.**
 
 ## Dependent Systems
 
 ### The Rotor
 
-Two blades, teetering, of laminated wood with a Bensen section. A teetering head removes the flapping hinges
+Two blades, teetering, of wood with a Bensen section. The two-blade teetering rotor and the birch of early
+Bensen blades are in the [autogyro][ref_autogyro] entry, and the Bensen G2 section in the
+[B-8][ref_bensen_b8] specification. A teetering head removes the flapping hinges
 and their maintenance, at the cost of being unable to tolerate low or negative load factor, which for a
 vehicle that must never be pushed over is an acceptable trade. The teetering rotor and blade motion generally are treated in [Horvay 1947][research_horvay_1947], [Harris 1972][research_harris_1972], [Shamie and Friedmann 1976][research_shamie_friedmann_1976], [Amer and LaForge 1977][research_amer_laforge_1977], [Weller and Lee 1977][research_weller_lee_1977], [Dooley et al 1978][research_dooley_1978], and [Glasgow and Corrigan
-1982][research_glasgow_corrigan_1982], and the rest of that work is gathered in the cluster on rotors and rotorcraft under The Contemporary Literature.
+1982][research_glasgow_corrigan_1982], and the remainder sits with rotors and rotorcraft in the survey.
 
 **One number governs how the blade responds, and this article computes its ingredients anyway.** The Lock
 number compares the aerodynamic forcing on a blade to its inertia,
@@ -403,9 +420,9 @@ this article has already used $\gamma$ for the glide angle, and a collision betw
 is resolved by marking one rather than by silently reusing it.
 
 **A helicopter sits between eight and ten, so this blade is heavy for its air loads.** Blade inertia and the
-flapping behaviour it governs are measured subjects and not assumed ones, in [Jones 1957][research_jones_1957], [Gaffey 1969][research_gaffey_1969], [Johnson 1980][research_johnson_1980_2], [Wang and Talbot 1989][research_wang_talbot_1989], and [Berry and May 1991][research_berry_may_1991], with the rest gathered in the cluster on rotors and rotorcraft. That
-is a liability in responsiveness and an asset in the flare, because it is exactly the property that stores
-energy, which Getting It Turning, and a Result That Comes Out Negative turns on.
+flapping behaviour it governs are measured subjects and not assumed ones, in [Jones 1957][research_jones_1957], [Gaffey 1969][research_gaffey_1969], [Johnson 1980][research_johnson_1980_2], [Wang and Talbot 1989][research_wang_talbot_1989], and [Berry and May 1991][research_berry_may_1991], with more in the same rotorcraft cluster. That
+is a liability in responsiveness and an asset in the flare, because inertia is the property that stores
+energy, and the spin-up analysis under Spinning the Rotor Up turns on it.
 
 Operating tip speed for this class is near 400 feet per second, giving
 
@@ -418,8 +435,8 @@ The thrust coefficient refers the load to the dynamic pressure at the tip,
 
 $$C_T = \frac{W}{\rho A (\Omega R)^2} = \frac{350}{(0.002377)(314.2)(400)^2} = 0.0029$$
 
-and dividing by solidity gives the blade loading coefficient, which is the quantity that actually approaches
-a stall limit near 0.10.
+and dividing by solidity gives the blade loading coefficient, the quantity that approaches a stall limit
+near 0.10.
 **Where that limit sits, and how blade area, blade count and chord distribution move it, is a design literature of its own**,
 in [Gianmarco Sahragard-Monfared et al][research_gianmarco_sahragard_monfared], [Gessow 1948][research_gessow_1948_2], [Powell 1954][research_robert_d_powell_1954], [Young and Lytwyn 1967][research_young_lytwyn_1967], [Jenney et al 1968][research_jenney_1968], [Wright 1969][research_wright_1969], [Miller 1983][research_miller_1983], [Zaitsev 1987][research_zaitsev_1987],
 
@@ -430,13 +447,14 @@ The tip speed ratio compares the tip speed to the flow the rotor sits in,
 $$\lambda = \frac{\Omega R}{V_d} = \frac{400}{27.6} = 14.5$$
 
 **A horizontal axis wind turbine runs at a tip speed ratio of six to eight. This rotor runs at fifteen**, so
-it is a very lightly loaded machine in the same flow state, which is why its induction factor is small and
-its thrust coefficient is a few thousandths. The tip speed ratio, the momentum theory and its high-thrust limit are treated in [Yang et al 2016][research_yang_2016], [Bontempo and Manna 2017][research_bontempo_manna_2017], [Ehrich et al 2018][research_ehrich_2018], [Perez-Becker et al 2020][research_perez_becker_2020], [Hosseini et al 2022][research_hosseini_2022], [Boatto et al 2023][research_boatto_2023], and [Wood and Golmirzaee 2023][research_wood_golmirzaee_2023], and the rest of that family of work is gathered in the cluster on wind turbines, energy harvesting and the windmill state under The Contemporary Literature.
+it is a very lightly loaded machine in the same flow state, with a correspondingly small induction factor and
+a thrust coefficient of a few thousandths. The tip speed ratio, the momentum theory and its high-thrust limit are treated in [Yang et al 2016][research_yang_2016], [Bontempo and Manna 2017][research_bontempo_manna_2017], [Ehrich et al 2018][research_ehrich_2018], [Perez-Becker et al 2020][research_perez_becker_2020], [Hosseini et al 2022][research_hosseini_2022], [Boatto et al 2023][research_boatto_2023], and [Wood and Golmirzaee 2023][research_wood_golmirzaee_2023], and the survey collects the rest of it under wind turbines, energy harvesting and the windmill state.
 
-### Getting It Turning, and a Result That Comes Out Negative
+### Spinning the Rotor Up
 
-**The obvious objection to the whole concept is that a parachute inflates and a rotor has to be spun up.** A
-canopy is at full drag in two to four seconds. A rotor at rest produces nothing. The energy has to come from
+**The obvious objection to the concept is that a parachute inflates and a rotor has to be spun up.** A
+standard 28 foot personnel canopy is fully open in about one to three seconds, in [Knacke's recovery systems
+design manual][book_knacke_1992]. A rotor at rest produces nothing. The energy has to come from
 somewhere and the only bank available is height.
 
 Treating each blade as a uniform rod about the hub,
@@ -448,7 +466,7 @@ $$E = \tfrac{1}{2} I \Omega^2 = \tfrac{1}{2} (24.9)(40)^2 = 19{,}900 \, \text{ft
 $$h = \frac{E}{W} = \frac{19{,}900}{350} = 57 \, \text{ft}$$
 
 **Fifty-seven feet if every particle of potential energy went into the rotor, and a few hundred feet at any believable efficiency.**
-That is comparable to what canopy inflation costs.
+That is plausibly comparable to the height a canopy loses while it inflates.
 
 **There is a small surprise buried in that arithmetic and it matters later.** Substituting the inertia and
 the operating speed into the energy,
@@ -459,68 +477,79 @@ $$E = \tfrac{1}{2} I \Omega^2 = \tfrac{1}{2} \left( N \tfrac{1}{3} m_b R^2 \righ
 whatever its size, because the inertia rises as the square of the radius exactly as fast as the operating
 angular speed falls. **Shrinking a rotor costs nothing in stored energy.**
 
-Energy held in a turning rotor is a subject of its own, and the period expresses it as an autorotative index
+Energy held in a turning rotor is a separate subject, and the period expresses it as an autorotative index
 rather than as a quantity of foot pounds, in [Dooley and Yeary 1979][research_dooley_yeary_1979].
 **The literature on it is not separable from the autorotation literature proper**, since a paper on
-autorotative landing is a paper about spending this energy, and the relevant work is cited above under
-autorotation and blade motion rather than here. It costs a great deal elsewhere, and the Comparison With
-Ground Prediction section below is where that bill arrives.
+autorotative landing is a paper about spending this energy, and the relevant work is cited above, under
+autorotation and blade motion. It costs a great deal elsewhere, and that bill arrives in the Comparison
+With Ground Prediction section below.
 
 **The objection fails.** This is a negative result and it is reported as one, because the energetic argument
 against the Discretionary Descent Vehicle is the first one anybody reaches for and it does not survive being
 written down. No record in the survey treats spinning a rotor up from rest, which would refine it, and that
 makes spin-up the thinnest topic in this article. It is discussed under The Source Base.
 
-### The Deployment Sequence, Which Contains an Irreversible Step
+### An Irreversible Step in the Deployment
 
-**This is where the concept is actually in trouble, and it is not an aerodynamic problem.**
+**Here the concept is in real trouble, and the trouble is not aerodynamic.**
 
-The X-25B scheme was to leave the aircraft by [ejection seat][ref_ejection_seat] in the ordinary way, let
-the parachute open, spin the rotor up in that descent, and **then cut the parachute away**. Written as a
-trade, the crewman gives up a canopy already descending at 21 feet per second and working, in exchange for a
+The documented concept was a vehicle stowed in the aircraft, ejected with the pilot and deployed during the
+descent, its rotor brought up to speed as it fell, in the [X-25A][ref_nmusaf_x25a] fact sheet. The record
+consulted here does not say how a personnel parachute fitted that sequence. If the crewman left the aircraft
+by [ejection seat][ref_ejection_seat] in the ordinary way, let the parachute open and spun the rotor up in
+that descent, the sequence would end by **cutting the parachute away**. Written as a trade, the crewman gives up a canopy already descending at 21 feet per second and working, in exchange for a
 rotor descending at 16.5 feet per second with a four-to-one glide.
 
 **The gain is range. The gain is not survival of the descent, which was already assured.** And the step that
-buys it cannot be undone, is taken seconds after an ejection, and is taken by someone who may be injured,
-disoriented, or under fire. The escape-system literature this sits in is [Poteate and Solomonides 1964][research_poteate_solomonides_1964], [Bement 1979][research_bement_1979], [Ford 1979][research_ford_1979], [Hawker and Payne 1979][research_hawker_payne_1979], and [Cummings 1982][research_cummings_1982] and the tolerance question underneath it is [Snyder 1959][research_snyder_1959], [McKenney 1970][research_mckenney_1970], [Glaister 1978][research_glaister_1978], and [Laananen 1980][research_laananen_1980]. Both are gathered in full in the cluster on crew escape, ejection and the human in the escape under The Contemporary Literature.
+secures it cannot be undone, is taken seconds after an ejection, and is taken by someone who may be injured,
+disoriented, or under fire. On escape systems the relevant work is [Poteate and Solomonides 1964][research_poteate_solomonides_1964], [Bement 1979][research_bement_1979], [Ford 1979][research_ford_1979], [Hawker and Payne 1979][research_hawker_payne_1979], and [Cummings 1982][research_cummings_1982] and the tolerance question underneath it is [Snyder 1959][research_snyder_1959], [McKenney 1970][research_mckenney_1970], [Glaister 1978][research_glaister_1978], and [Laananen 1980][research_laananen_1980]. The survey's cluster on crew escape, ejection and the human in the escape holds both in full.
 
 ### Flying It
 
 An [autogyro][ref_autogyro] is not an intuitive aircraft. Rotor speed must be respected, the machine is
 unforgiving of mishandling in a way a parachute cannot be because a parachute offers nothing to mishandle,
-and a gyroplane landing is a skill. The performance and control framework this sits in is [Prouty on
-helicopter performance, stability and control][book_prouty_1986].
-**The record says plainly that the X-25A and X-25B were flown to evaluate piloting technique and to determine training requirements**,
-which is a programme discovering that its hard problem is the operator. The handling and training literature it belongs to includes [Daughaday and Duwaldt 1955][research_daughaday_duwaldt_1955], [Drinkwater and Feistel 1965][research_drinkwater_feistel_1965], [Caro and Isley 1966][research_caro_isley_1966], [Barnes and Statham 1970][research_barnes_statham_1970], [Seville Research Corp Pensacola Fl 1979][research_seville_research_corp_pensacola_fl_1979], [Intano and Howse 1991][research_intano_howse_1991], and [Hess 1995][research_hess_1995], and the rest is gathered in the cluster on flight test, handling qualities, training and piloting technique under The Contemporary Literature.
+and a gyroplane landing is a skill. [Prouty on helicopter performance, stability and control][book_prouty_1986] supplies the
+performance and control framework.
+**The record states that the X-25A and X-25B were flown to evaluate piloting technique and to determine training requirements**,
+in [Jenkins, Landis and Miller][book_jenkins_landis_miller_2003], a programme treating the operator
+as a question in its own right, although the [X-25A][ref_nmusaf_x25a] fact sheet reports that pilots could be
+quickly and easily trained to fly the X-25. The handling and training literature it belongs to includes [Daughaday and Duwaldt 1955][research_daughaday_duwaldt_1955], [Drinkwater and Feistel 1965][research_drinkwater_feistel_1965], [Caro and Isley 1966][research_caro_isley_1966], [Barnes and Statham 1970][research_barnes_statham_1970], [Seville Research Corp Pensacola Fl 1979][research_seville_research_corp_pensacola_fl_1979], [Intano and Howse 1991][research_intano_howse_1991], and [Hess 1995][research_hess_1995], and the cluster on flight test, handling qualities, training and piloting technique lists the rest.
 
 ## The Flight Test Record
 
 **Both aircraft flew and the record of what they measured is extremely thin.**
 
-The X-25B flew first on 23 January 1968 and the X-25A on 5 June 1968. Testing addressed piloting technique
-and training requirements. **No full-scale operational test of the concept was ever performed**, meaning
-that the sequence the whole idea depends on, which is ejection followed by rotor deployment followed by
-parachute cutaway, was never demonstrated as an integrated system by this programme. Funding ended as the
-American involvement in Vietnam wound down.
+The X-25A first flew on 5 June 1968, the first-flight date the inventory by [Jenkins, Landis and
+Miller][book_jenkins_landis_miller_2003] gives for the type. The X-25B is dated to 23 January 1968 in the
+[Bensen B-8][ref_bensen_b8] entry and to 5 June 1968 by [Guinness World Records][ref_guinness_x25b], so which
+aircraft flew first is not settled. Testing concerned how the aircraft should be flown and what training a
+pilot needed.
+**No full-scale operational test of the concept was ever performed**, meaning that the sequence the
+idea depends on, which is ejection followed by rotor deployment in the descent, was never demonstrated as an
+integrated system by this programme, and no piloted flight of the gyro-chute that embodied it is
+known. Funding ended as the American involvement in Vietnam wound down, and with it the Air Force's interest,
+in the same inventory and in the [X-25A][ref_nmusaf_x25a] fact sheet.
 
 **What the X-25 demonstrated is that a person can be taught to fly a small autogyro. What it did not demonstrate is anything about escaping from an aeroplane.**
-The gap between those two statements is the programme.
+The fact sheet reports that training was quick and easy, and the inventory
+records no piloted test of the escape vehicle. The gap between those two statements is the programme.
 
 ## Comparison With Ground Prediction
 
 The X-25 itself returned no published measurement this article can check a model against.
-**A second vehicle does allow the check, and it is a case the model was not built from.**
+**A second vehicle does allow the check, one the model was not built from.**
 
-The Kaman KSA-100 SAVER, for Stowable Aircrew Vehicle Escape Rotorseat, was the same concept taken to
-completion for the United States Navy. Its rotor was two telescopic blades folded into the seat itself,
+The Kaman KSA-100 SAVER, for Stowable Aircrew Vehicle Escape Rotorseat, was the same concept carried further
+for the United States Navy. Its rotor was two telescopic blades folded into the seat itself,
 deployed by a drogue within four seconds of ejection. It flew towed on 28 December 1971, free the following
-day, and with the telescoping rotor on 10 January 1972. Kaman made over 1,500 air drops of the deployment
-system, and a full-scale unpowered article was tested in the National Aeronautics and Space Administration
-Ames full-scale tunnel in 1970. The concept paper is the description by [Hollrock and Barzda 1972][research_hollrock_barzda_1972] of a stowable autogyro that serves as the crewman's seat and converts to
+day with a non-telescoping rotor, and with the telescoping rotor on 10 January 1972. Kaman made over 1,500
+air drops of the deployment system, and a full-scale unpowered article was tested in the National Aeronautics
+and Space Administration Ames full-scale tunnel in 1970, in the [Kaman KSA-100 SAVER][ref_kaman_saver] entry.
+The concept paper, which also reports the 1970 tunnel test, is the description by [Hollrock and Barzda 1972][research_hollrock_barzda_1972] of a stowable autogyro that serves as the crewman's seat and converts to
 a flight vehicle after ejection.
 
 **Stowability forces the geometry, and the geometry forces the descent rate.** A rotor that must fold into a
-seat cannot be 20 feet across. The SAVER's was 14. Since
+seat cannot be 20 feet across. The [Kaman KSA-100 SAVER][ref_kaman_saver] entry gives the SAVER's as 14. Since
 
 $$V_d \propto \frac{\sqrt{W}}{R}$$
 
@@ -535,16 +564,16 @@ a smaller radius at a larger weight is punished twice.
 | Vertical autorotation, ft/s | 27.6 | 56.1 |
 
 **Fifty-six feet per second is 38 miles an hour straight down.** A steady vertical descent at that rate is
-not survivable, and the whole difference would have to be retrieved in the flare out of stored rotor energy.
+not survivable, and the difference would have to be retrieved in the flare out of stored rotor energy.
 
-**That sentence is easy to write and is worth checking, because it need not have been true.** It is, and the
+**That sentence is easy to write and should be checked, because it need not have been true.** It is, and the
 check is short.
 
 The energy a flare must absorb is the kinetic energy of the descent,
 
 $$E_{req} = \tfrac{1}{2} \frac{W}{g} V_d^2$$
 
-and substituting the descent rate turns it into a statement about weight and radius alone,
+and substituting the descent rate turns it into a function of weight and radius alone,
 
 $$E_{req} = \frac{(1.8)^2}{2 g \rho \pi} \cdot \frac{W^2}{R^2}$$
 
@@ -571,39 +600,44 @@ which is 2.5 pounds a blade for the X-25B and **21 pounds a blade for the SAVER*
 for both.
 **A vehicle whose entire design constraint was folding into an ejection seat would have needed blades close to twice as heavy as a Bensen's.**
 
-**This is a quantitative statement where the argument from stowability alone was qualitative, and the two point the same way.**
-It is still resting on an assumed blade mass and tip speed for a vehicle whose real figures are not
-published, so it is offered as an order-of-magnitude statement rather than a measurement.
+**Where the argument from stowability alone was qualitative, this result is quantitative, and the two point the same way.**
+It still depends on an assumed blade mass and tip speed for a vehicle whose real figures are not
+published, so it is offered as an order-of-magnitude estimate rather than a measurement.
 **Doubling the assumed blade mass still leaves the SAVER at a margin of 1.15, which is no margin at all for an escape system.**
 
 **The model therefore predicts that a stowable rotor seat needs an engine, and the SAVER had one**, a
-Williams WRC-19 turbofan of 430 pounds thrust.
+Williams WRC-19 turbofan of 430 pounds thrust, which the [Kaman KSA-100 SAVER][ref_kaman_saver] entry records.
 
-**The prediction must not be overclaimed and it is not.** The record says the engine was fitted because it
-was available off the shelf and that it was more powerful than the seat needed. A thrust to weight ratio of
+**The prediction must not be overclaimed and it is not.** The record gives off-the-shelf availability as
+the reason the engine was fitted and notes that it was more powerful than the seat needed, and the design rating for the
+operational seat's engine in [Hollrock and Barzda 1972][research_hollrock_barzda_1972] is a sea-level thrust
+of 1,280 newtons, about 290 pounds. A thrust to weight ratio of
 
 $$\frac{T}{W} = \frac{430}{710} = 0.61$$
 
-is far above anything a gyroplane needs to sustain flight, so the engine was plainly not sized by the
-descent problem. **The prediction is directionally right and quantitatively unconfirmed**, and the honest
-statement is that the scaling law explains why a stowable seat is a harder vehicle than a carried one, not
+is far above anything a gyroplane needs to sustain flight, so the descent problem evidently did not size
+the engine. **The prediction is directionally right and quantitatively unconfirmed**, and what can be
+claimed is that the scaling law explains why a stowable seat is a harder vehicle than a carried one, not
 that it explains Kaman's engine selection.
 
 ## What the Data Changed
 
-**Almost nothing directly, and the article says so plainly.** The Discretionary Descent Vehicle did not
-enter service. No operational aircraft has ever carried one.
+**Almost nothing directly.** The Discretionary Descent Vehicle did not
+enter service. No operational aircraft has ever carried one, and no full-scale operational test was ever
+conducted, in [Jenkins, Landis and Miller][book_jenkins_landis_miller_2003].
 
 **The question outlived the answer.** The SAVER pursued the same idea with a stowable rotor and an engine
-and was also cancelled, the Navy concluding the idea was not viable. What survived is the question, namely
+and was also cancelled, the military concluding the idea was not viable, in the [Kaman KSA-100
+SAVER][ref_kaman_saver] entry. What survived is the question, namely
 whether a descending crewman should have a choice of landing point.
 
 **That question was answered, and the answer was made of fabric.** A [ram-air
-parachute][ref_ram_air_parachute] is a wing built from cloth. It reaches lift-to-drag ratios of three to
-four, which is the same band as an autorotating rotor, and it does so with a device that packs into a
-container, needs no spin-up, has no rigid parts, and can be flown competently after far less training than a
-gyroplane requires.
-**The rotor's forty-four to one advantage in material area was answered by a device that sweeps no disc at all and simply generates lift as a wing.**
+parachute][ref_ram_air_parachute] is a wing built from cloth. It reaches lift-to-drag ratios of about three,
+with 3.2 for a parafoil vehicle system in [Knacke's recovery systems design manual][book_knacke_1992],
+close to the ratio of 4 assumed here for an autorotating rotor, and it does so with a device that packs
+into a container, needs no spin-up, has no rigid parts, and, by this article's inference, can be flown
+competently after far less training than a gyroplane requires.
+**The rotor's forty-four to one advantage in material area was answered by a device that sweeps no disc at all and generates lift as a wing.**
 That literature begins in the period work on gliding parachutes and flexible wings, in [Rogallo et al 1960][research_rogallo_1960], [Rogallo 1962][research_francis_m_rogallo_1962], [Horton
 1962][research_horton_1962], [Ryan Aeronautical Co San Diego Ca 1962][research_ryan_aeronautical_co_san_diego_ca_1962], [Taylor and McNulty
 1962][research_taylor_mcnulty_1962], [Johnson and Sleeman 1963][research_johnson_sleeman_1963], [Rogallo 1963][research_rogallo_1963], [Libbey 1964][research_libbey_1964], [Forehand and Bair 1969][research_forehand_bair_1969], [Nicolaides and Tragarz 1971][research_nicolaides_tragarz_1971], [Kenner 1972][research_kenner_1972], [Rogallo et al
@@ -661,12 +695,12 @@ exists because entering autorotation costs both altitude and time.
 
 Autorotation is now modelled, optimised and flown by algorithm, no longer characterised by test pilots. The
 contemporary work covers trajectory optimisation for autorotative landing, entry transients, vortex-ring
-modelling and autonomous emergency descent, in [Rezgui and Lowenberg 2015][research_rezgui_lowenberg_2015], [Sunberg et al 2015][research_sunberg_2015], [Taamallah et al 2017][research_taamallah_2017], [Zheng et al 2018][research_zheng_2018], [Talaeizadeh et al 2020][research_talaeizadeh_2020], [Tomita and Fujiwara 2021][research_tomita_fujiwara_2021], [Saetti et al 2023][research_saetti_2023], [Patnala et al 2024][research_patnala_2024], and [Mori et al 2025][research_mori_2025], and the rest of it is gathered in the cluster on autorotation, the vortex ring state and the emergency descent under The Contemporary Literature.
+modelling and autonomous emergency descent, in [Rezgui and Lowenberg 2015][research_rezgui_lowenberg_2015], [Sunberg et al 2015][research_sunberg_2015], [Taamallah et al 2017][research_taamallah_2017], [Zheng et al 2018][research_zheng_2018], [Talaeizadeh et al 2020][research_talaeizadeh_2020], [Tomita and Fujiwara 2021][research_tomita_fujiwara_2021], [Saetti et al 2023][research_saetti_2023], [Patnala et al 2024][research_patnala_2024], and [Mori et al 2025][research_mori_2025], and the autorotation cluster below adds further titles.
 
 ### The Answer Arrived in Fabric
 
-**The ram-air canopy is the device the Discretionary Descent Vehicle was reaching for.** It reaches the same
-glide ratio as an autorotating rotor with no rigid structure, no spin-up transient and a training demand this article infers to be far lower, and it is the reason no aircraft carries a rotor seat. Its glide ratio is measured and controlled in [Bozack 1984][research_bozack_1984], [Wegereef et al 2009][research_wegereef_benolol_2009], and [Sun et al 2020][research_sun_sun_2020], and the contemporary literature on the canopy includes [Cacan and Costello 2018][research_cacan_costello_2018], [Zhang et al 2021][research_zhang_2021_4], [Ding et al 2023][research_ding_2023], and [Vambol and Kaluzhynov 2023][research_vambol_kaluzhynov_2023], with the rest gathered in the cluster on ram-air canopies, parafoils and guided airdrop under The Contemporary Literature.
+**The ram-air canopy is the device the Discretionary Descent Vehicle was reaching for.** It reaches nearly the
+same glide ratio as an autorotating rotor with no rigid structure, no spin-up transient and a training demand this article infers to be far lower, and its existence explains why no aircraft carries a rotor seat. Its glide ratio is measured and controlled in [Bozack 1984][research_bozack_1984], [Wegereef et al 2009][research_wegereef_benolol_2009], and [Sun et al 2020][research_sun_sun_2020], and the contemporary literature on the canopy includes [Cacan and Costello 2018][research_cacan_costello_2018], [Zhang et al 2021][research_zhang_2021_4], [Ding et al 2023][research_ding_2023], and [Vambol and Kaluzhynov 2023][research_vambol_kaluzhynov_2023], and the ram-air cluster carries the rest.
 
 ### And Then It Was Automated
 
@@ -676,14 +710,14 @@ with the discretion delegated to software, in [Chiel and Dever 2015][research_ch
 
 ### The Machine That Cannot Do It
 
-**This is the thread the X-25 would find most interesting and it did not exist in 1968.**
+**The X-25 would find this thread the most interesting, and it did not exist in 1968.**
 
 Electric vertical takeoff aircraft have brought the small one-person or few-person flying machine back as a
-serious industry, with certification-constrained design, conceptual design methods and a safety literature behind it, in [Brown and Harris 2020][research_brown_harris_2020], [Cokorilo 2020][research_cokorilo_2020], [Lee et al 2020][research_lee_2020], [Ma et al 2022][research_ma_2022_2], [Ugwueze et al 2023][research_ugwueze_2023], and [Xie et al 2023][research_xie_2023]. The rest is gathered in the cluster on electric vertical takeoff, drones and distributed lift under The Contemporary Literature.
+serious industry, with certification-constrained design, conceptual design methods and a safety literature behind it, in [Brown and Harris 2020][research_brown_harris_2020], [Cokorilo 2020][research_cokorilo_2020], [Lee et al 2020][research_lee_2020], [Ma et al 2022][research_ma_2022_2], [Ugwueze et al 2023][research_ugwueze_2023], and [Xie et al 2023][research_xie_2023]. The cluster on electric vertical takeoff, drones and distributed lift continues the list.
 
 **A multirotor cannot autorotate.** A helicopter rotor stores energy in a large disc turning fast, and a
 lift rotor on a distributed-propulsion aircraft is small, lightly loaded and often fixed in pitch, so the
-two properties autorotation needs are both absent. Written in this article's own terms, the stored energy is
+two properties autorotation needs are both absent. In this article's terms, the stored energy is
 
 $$E = \frac{N}{6} m_b V_{tip}^2$$
 
@@ -691,16 +725,16 @@ and a small light blade turning at modest tip speed has very little of it, while
 the descent rate is high because the disc is small.
 **The X-25's rotor was a bad parachute and a good glider. A multirotor is neither.**
 
-**The industry's answer is not a better rotor. It is redundancy**, meaning enough independent lift units
-that the loss of one is survivable, which is a completely different safety philosophy from the one the X-25
+**The industry has answered with redundancy instead of a better rotor**, meaning enough independent lift
+units that the loss of one is survivable, a safety philosophy completely different from the one the X-25
 embodies.
 **Autorotation says the aircraft can always become a glider. Redundancy says the aircraft will not fail in the first place.**
-The contemporary literature on rotor failure, fault-tolerant control and propulsion redundancy is where that
-argument is being had.
+That argument is being had in the contemporary literature on rotor failure, fault-tolerant control and
+propulsion redundancy, which the same electric vertical takeoff cluster collects.
 
-**That is the sharpest thing this survey has to say.** The capability the Discretionary Descent Vehicle was
+**No finding of this survey is sharper.** The capability the Discretionary Descent Vehicle was
 built entirely around is the one the current generation of small rotorcraft has quietly given up, and it
-gave it up for a reason the X-25 would have recognised, which is that the rotor you can carry is not the
+gave it up for a reason the X-25 would have recognised, namely that the rotor you can carry is not the
 rotor you want.
 
 ### The Same Physics, Now Called Wind Energy
@@ -708,7 +742,7 @@ rotor you want.
 **The windmill brake state is no longer an emergency. It is a business.** A wind turbine rotor is an
 autorotating rotor in a different reference frame, and the blade-element momentum machinery this article
 uses to size a descent is the same machinery used to size a turbine.
-**The largest living body of work on the X-25's keystone physics is in wind energy**, as the count of blade element momentum titles in the cluster on wind turbines, energy harvesting and the windmill state under The Contemporary Literature shows, and its application to turbines runs through [Dehouck et al 2017][research_dehouck_2017], [Apsley and Stansby 2020][research_apsley_stansby_2020], [Potentier et al 2021][research_potentier_2021], [Yin et al 2022][research_yin_2022], [Le et al 2025][research_le_2025], and [Selvatici and Stevens 2025][research_selvatici_stevens_2025].
+**The largest living body of work on the X-25's keystone physics is in wind energy**, as the count of blade element momentum titles in the wind turbine cluster shows, and its application to turbines runs through [Dehouck et al 2017][research_dehouck_2017], [Apsley and Stansby 2020][research_apsley_stansby_2020], [Potentier et al 2021][research_potentier_2021], [Yin et al 2022][research_yin_2022], [Le et al 2025][research_le_2025], and [Selvatici and Stevens 2025][research_selvatici_stevens_2025].
 
 ### The Rotor at One Percent of Sea Level
 
@@ -716,12 +750,12 @@ uses to size a descent is the same machinery used to size a turbine.
 
 A rotorcraft flying on Mars operates in roughly one percent of sea-level density. Everything this article
 derives about disc loading and descent follows the same algebra there, and the consequences are severe and
-not academic, which is why such vehicles carry very large rotors for their mass and turn them close to the
-speed of sound. The contemporary work on rotor aerodynamics at low density and low Reynolds number is [San Martin et al 2017][research_san_martin_2017], [Koning 2019][research_koning_2019_2], [Koning et al 2019][research_koning_2019_3], [Koning et al 2019][research_koning_2019], [Serré et al 2019][research_serre_2019], [Zhao et al 2019][research_zhao_2019], [Harris 2020][research_franklin_d_harris_2020], [Koning et al 2020][research_koning_2020], [McElreath et al 2020][research_mcelreath_2020], [Chen and Hubner 2021][research_chen_hubner_2021_2], [Fox 2021][research_fox_2021], [Gojon et al 2021][research_gojon_2021], [Kamruzzaman et al 2021][research_kamruzzaman_2021], [Kruesi 2021][research_kruesi_2021], [Leslie 2021][research_leslie_2021], [Veismann et al 2021][research_veismann_2021], [Zhang and Yang 2021][research_zhang_yang_2021], [Nepal et al 2023][research_nepal_2023], [Yamaguchi and Anyoji 2023][research_yamaguchi_anyoji_2023], [Bowman et al 2024][research_joshua_bowman_2024], [Wang et al 2024][research_wang_2024_5], [Zhao et al 2025][research_zhao_2025], [Datta et al 2026][research_datta_2026], [tang et al 2026][research_tang_2026].
+practical. Such vehicles therefore carry very large rotors for their mass and turn them fast, with
+blade tips at up to seven tenths of the speed of sound on the [Ingenuity helicopter][ref_ingenuity]. The contemporary work on rotor aerodynamics at low density and low Reynolds number is [San Martin et al 2017][research_san_martin_2017], [Koning 2019][research_koning_2019_2], [Koning et al 2019][research_koning_2019_3], [Koning et al 2019][research_koning_2019], [Serré et al 2019][research_serre_2019], [Zhao et al 2019][research_zhao_2019], [Harris 2020][research_franklin_d_harris_2020], [Koning et al 2020][research_koning_2020], [McElreath et al 2020][research_mcelreath_2020], [Chen and Hubner 2021][research_chen_hubner_2021_2], [Fox 2021][research_fox_2021], [Gojon et al 2021][research_gojon_2021], [Kamruzzaman et al 2021][research_kamruzzaman_2021], [Kruesi 2021][research_kruesi_2021], [Leslie 2021][research_leslie_2021], [Veismann et al 2021][research_veismann_2021], [Zhang and Yang 2021][research_zhang_yang_2021], [Nepal et al 2023][research_nepal_2023], [Yamaguchi and Anyoji 2023][research_yamaguchi_anyoji_2023], [Bowman et al 2024][research_joshua_bowman_2024], [Wang et al 2024][research_wang_2024_5], [Zhao et al 2025][research_zhao_2025], [Datta et al 2026][research_datta_2026], [tang et al 2026][research_tang_2026].
 
 **The article's own altitude section is the same calculation stopped early.** A rotor at twenty thousand
 feet descends 37 percent faster than at sea level. A rotor at Martian density would descend about ten times
-faster, which is the reason the comparison is worth making at all.
+faster, and that factor of ten justifies the comparison.
 
 ### The Seed Had It First
 
@@ -739,26 +773,25 @@ community noise acceptability has become a design driver and no longer a courtes
 2023][research_eric_greenwood_2023], [Fu et al 2023][research_fu_2023], [Kingan et al 2023][research_kingan_2023], [Su Jung et al 2023][research_su_jung_2023], [Buǧday and Saetti 2024][research_bugday_saetti_2024], [Goudswaard et al 2024][research_goudswaard_2024], [Johnson-Groh 2024][research_johnson_groh_2024], [Saetti et al 2024][research_saetti_2024_2], [Shao et al 2024][research_shao_2024], [Yuk et al 2024][research_yuk_2024], [Arystanbekov et al 2025][research_arystanbekov_2025], [Boucher 2025][research_boucher_2025], [Jung et al 2025][research_jung_2025], [Pereira et al 2025][research_pereira_2025], [Turhan et al 2025][research_turhan_2025], [Melo et al 2026][research_melo_2026], [Philipps-Bertin et al 2026][research_philipps_bertin_2026], [Stefan J Letica and
 Stephen A Rizzi 2026][research_stefan_j_letica_stephen_a_rizzi_2026].
 
-**That is a constraint the X-25 did not have and an electric vertical takeoff aircraft cannot escape**, and it pushes tip speed down at
-exactly the moment the stored-energy argument wants it up.
+**That is a constraint the X-25 did not have and an electric vertical takeoff aircraft cannot escape**, and it pushes tip speed down
+while the stored-energy argument wants it up.
 
 ### The Gyroplane Did Not Disappear
 
-**The type the X-25 belonged to is still flying and still being written about**, with contemporary work on
+**The X-25's type is still flying and still being written about**, with contemporary work on
 gyroplane flight dynamics, stability and experimental rotor measurement, in [Czyż et al 2015][research_czyz_2015], [Shin and Kim 2015][research_shin_kim_2015], [Wu 2015][research_wu_2015], [Figat 2017][research_figat_2017], [Houston and Thomson 2017][research_houston_thomson_2017], [Stalewski 2017][research_stalewski_2017], [Cai et al 2018][research_cai_2018], [Czyż et al 2018][research_czyz_2018], [Lee et al 2018][research_lee_2018], [Stalewski 2018][research_stalewski_2018],
 [Лучко and Зінченко 2018][research___2018], [Design of Composite Gyrocopter Main Rotor Blade Involving Rib and Spar Elements 2019][research_design_of_2019],
 [Wojtas and Sobieszek 2019][research_wojtas_sobieszek_2019], [Czarnigowski 2020][research_czarnigowski_2020], [Rezgui and Lowenberg 2020][research_rezgui_lowenberg_2020], [Łusiak 2022][research_usiak_2022].
 
-**Its safety record is the part that bears on this article.** The gyroplane has a long-standing reputation
-for being unforgiving of mishandled rotor speed and of pitch inputs that unload the rotor, which is
-precisely the property that makes it a poor choice for a person who has just ejected and has no rotorcraft
-training.
-**The programme's own conclusion, that the hard problem was training rather than aerodynamics, has been restated by the accident record of the type over the following half century.**
+**Its safety record is the part that bears on this article.** The gyroplane acquired a poor safety
+reputation through designs prone to a power push-over, a pitch departure that unloads the rotor, in the
+[autogyro][ref_autogyro] entry. Such a property makes the type a poor choice for a person who has just
+ejected and has no rotorcraft training.
 
 ### Rotors on Everything
 
 The small rotorcraft the X-25 represented as a curiosity is now an industry. Electric vertical takeoff
-vehicles, multirotors and distributed propulsion have made rotor sizing an everyday design problem, in [Hwang et al 2015][research_hwang_2015], [Multi-Rotors A Revolution In 2015][research_multi_rotors_a_2015], [Lei and Cheng 2020][research_lei_cheng_2020], and [Lei and Wang 2020][research_lei_wang_2020], and the rest of that work is gathered in the cluster on electric vertical takeoff, drones and distributed lift under The Contemporary Literature.
+vehicles, multirotors and distributed propulsion have made rotor sizing an everyday design problem, in [Hwang et al 2015][research_hwang_2015], [Multi-Rotors A Revolution In 2015][research_multi_rotors_a_2015], [Lei and Cheng 2020][research_lei_cheng_2020], and [Lei and Wang 2020][research_lei_wang_2020].
 
 ### Escape Systems Now
 
@@ -775,10 +808,10 @@ with flight after ejection, in [Do and deWeck 2011][research_do_deweck_2011], [M
 
 ### What the Survey Shows
 
-**Every thread the X-25 touched is alive, and the one it was actually about has been abandoned twice over.**
+**Every thread the X-25 touched is alive, and the one it was about has been abandoned twice over.**
 
-The physics is thriving under a different name, since a wind turbine rotor is an autorotating rotor in
-another reference frame and blade element momentum theory is now worked hardest by people generating
+The physics is thriving under a different name, because the windmill brake state is a wind turbine's
+operating condition and blade element momentum theory is now worked hardest by people generating
 electricity. The mission is being flown, but by guided ram-air canopies rather than by rotors, and
 increasingly without a person in the loop at all.
 **The vehicle concept is dead, and the capability it was built around has been given up a second time by the industry that most resembles it**,
@@ -786,17 +819,20 @@ because a multirotor cannot autorotate and has chosen redundancy instead.
 
 **Three things this survey establishes that the programme record alone does not.**
 
-**The question was good.** Giving a descending crewman a choice of landing point is a real capability and it
-is now routinely delivered, which retrospectively vindicates the Air Force for asking.
+**The question was good.** Giving a descending crewman a choice of landing point is a real capability,
+now routinely delivered, since military personnel parachute assemblies use manoeuvrable parafoils as main
+and reserve canopies in [Knacke's recovery systems design manual][book_knacke_1992], which retrospectively
+vindicates the Air Force for asking.
 
 **The answer was wrong in a way that was knowable at the time.** The arithmetic that shows a rotor to be a
 worse decelerator than a canopy, and valuable only because it glides, needs nothing that was not available
 in 1968.
-**So does the observation that the gain is range rather than safety, and that the price is cutting away a working parachute.**
+**So does the observation that the gain is range rather than safety, and that a sequence through an open parachute ends by cutting a working parachute away.**
 
-**And the concept failed on the axis the programme itself identified.** The record says the aircraft were
-flown to determine piloting technique and training requirements. Half a century of gyroplane accident data
-says the same thing at greater length. **The hard problem was never the rotor.**
+**And the concept did not fail on the axis the programme examined.** [Jenkins, Landis and
+Miller][book_jenkins_landis_miller_2003] record that the aircraft were flown to settle questions of piloting and training, and the [X-25A][ref_nmusaf_x25a] fact sheet reports
+both that the training was quick and easy and that the programme ended with the air war winding down and
+doubts about its operational feasibility. **The hard problem was never the rotor.**
 
 ### Rotors and rotorcraft, momentum theory and blade dynamics
 
@@ -921,23 +957,27 @@ says the same thing at greater length. **The hard problem was never the rotor.**
 ## Where the Framing Breaks Down
 
 **The X-25 is not a research aircraft in the sense the rest of this series uses.** It is a civil production
-design, sold as plans to amateur builders, bought off the shelf and given a designation. Nothing was
-developed. No aerodynamic unknown was resolved. Treating it through a keystone derivation implies a design
+design, sold as plans to amateur builders, ordered in modified form and given a designation. Little was
+developed for the two aircraft that flew, and the one new element the record names, the automatically
+deploying rotor of the unpowered gyro-chute, is not known to have flown with a pilot, in [Jenkins, Landis and
+Miller][book_jenkins_landis_miller_2003]. No aerodynamic result is recorded. Treating it through a keystone derivation implies a design
 process that did not take place, and this article's derivations describe **the concept** rather than an
-engineering effort that anyone actually performed on this airframe.
+engineering effort that anyone performed on this airframe.
 
-**The keystone was never in doubt.** Autorotation was understood in the 1920s. The X-25 did not test whether
+**The keystone was never in doubt.** Autorotation was understood in the 1920s, and Cierva's C.4 made the
+first documented autogyro flight in January 1923, in the [autogyro][ref_autogyro] entry. The X-25 did not test whether
 a rotor autorotates, and an article that dimensions the rotor as though it were being designed misrepresents
 what the money bought.
 
-**The designation is the anomaly, not the aircraft.** The X-series was created for aircraft built to answer
-questions that could not be answered on the ground. The X-25 is a catalogue item with a serial number
-applied to it. That is a genuine finding about how the designation system drifted, and it belongs with the
+**The designation is the anomaly, not the aircraft.** The X-series designations went to aircraft meant to
+explore new flight regimes or untried technologies, in [Jenkins, Landis and
+Miller][book_jenkins_landis_miller_2003]. The X-25s that flew were modified catalogue items with serial
+numbers applied to them. This is a genuine finding about how the designation system drifted, and it sits with the
 other evidence the closing article of this series will assemble.
 
-**Finally, the comparison this article rests on may be unfair in one direction.** A parachute is compared
-against a rotor at equal weight, but the parachute is also the reserve. The rotor does not replace the
-parachute in the sequence, it follows it, so the crewman carries both and the mass comparison should
+**Finally, the comparison at the centre of this article may be unfair in one direction.** A parachute is compared
+against a rotor at equal weight, but the parachute is also the reserve. If the rotor follows the parachute
+in the sequence and does not replace it, the crewman carries both and the mass comparison should
 arguably be against the marginal mass of the rotor rather than against the canopy that is carried
 regardless. **On that accounting the rotor is worse than this article makes it look**, not better.
 
@@ -994,7 +1034,7 @@ testing, which is a different discipline that happens to store energy in somethi
 **That literature is a homonym of this subject rather than a part of it**, and no record of it is counted
 here.
 
-**The flying rotor seat, the class to which the SAVER belongs, stands at three records**, given above, and **cutting away a parachute stands at no record**, although it is the irreversible step in the deployment sequence.
+**The flying rotor seat, the class to which the SAVER belongs, stands at three records**, given above, and **cutting away a parachute stands at no record**, although it would be the irreversible step in any deployment sequence that included it.
 
 **Gyroplane safety stands at three records.** They are [Doberentz et al 2020][research_doberentz_geile_2020], [Houston et al 1998][research_houston_spathopoulos_1998] and [Practice for Continued Airworthiness][research_practice_for], and no title among them compares trained with untrained pilots, which is why the training inference under Epistemic State is labelled as an inference.
 
@@ -1013,12 +1053,16 @@ here.
 ## Epistemic State
 
 **Historical fact, from the public record.** Three X-25 type aircraft were ordered in early 1968 under the
-Discretionary Descent Vehicle programme. The X-25B, serial 68-10771, flew on 23 January 1968 and the X-25A,
-serial 68-10770, on 5 June 1968. Both derive from Bensen B-8 family designs. Testing addressed piloting
-technique and training requirements. No full-scale operational test was performed and funding ended with the
-American withdrawal from Vietnam. The X-25A is held by the National Museum of the United States Air Force
-and the X-25B by the Air Force Flight Test Museum at Edwards. The Kaman SAVER flew towed on 28 December 1971
-and with a telescoping rotor on 10 January 1972, and was cancelled.
+Discretionary Descent Vehicle programme, in the [X-25A][ref_nmusaf_x25a] fact sheet, and they were the basic
+X-25 gyro-chute, the X-25A and the X-25B. The X-25A, serial 68-10770, first flew on 5 June 1968. The X-25B,
+serial 68-10771, first flew on 23 January 1968 in the [Bensen B-8][ref_bensen_b8] entry and on 5 June 1968
+by [Guinness World Records][ref_guinness_x25b], and the earlier date rests on that one encyclopaedia entry.
+Both derive from Bensen B-8 family designs. Testing addressed piloting technique and training requirements.
+No full-scale operational test was performed and funding ended with the American withdrawal from Vietnam.
+The X-25A is held by the National Museum of the United States Air Force and the X-25B by the Air Force Flight
+Test Museum at Edwards, in [Jenkins, Landis and Miller][book_jenkins_landis_miller_2003]. The Kaman SAVER
+flew towed on 28 December 1971 and with a telescoping rotor on 10 January 1972, and was cancelled, in the
+[Kaman KSA-100 SAVER][ref_kaman_saver] entry.
 
 **Engineering analysis, derived here and checkable.** The equivalence between the autorotation ratio of 1.8
 and a disc-referred drag coefficient of 1.23 is algebra containing no fitted quantity. The finding that an
@@ -1034,11 +1078,13 @@ would fly a rotor sized for that atmosphere.
 **Assumed, and marked as such throughout.** The escape-configuration gross weight of 350 pounds. The
 lift-to-drag ratio of 4. The best-glide speed of 45 miles per hour. The blade mass of 12 pounds each and tip
 speed of 400 feet per second. The canopy comparison figures of 28 foot nominal diameter, 250 pound suspended
-weight and a drag coefficient of 0.75. **None of these is a measurement of an X-25.**
+weight and a drag coefficient of 0.75. The blade chord of 7 inches. The rotor and parachute assembly masses
+of 38 and 28 pounds. **None of these is a measurement of an X-25.**
 
-**Inference, and labelled as inference.** That the programme's real finding concerned training rather than
+**Inference, and labelled as inference.** That the programme's testing concerned training rather than
 aerodynamics is an inference from the record's statement that the aircraft were used to evaluate piloting
-technique and training requirements, combined with the absence of any aerodynamic finding. That the ram-air
+technique and training requirements, combined with the absence of any aerodynamic finding, and the one
+training result the record reports is that pilots could be quickly and easily trained. That the ram-air
 parachute is the historical answer to the Discretionary Descent Vehicle question is an inference from
 capability comparison, not from any documented decision connecting the two.
 
@@ -1046,17 +1092,18 @@ capability comparison, not from any documented decision connecting the two.
 That a multirotor cannot autorotate follows from the stored-energy and disc-loading relations this article
 derives, applied to a configuration those relations describe accurately, but
 **no source consulted here states it as a finding and the airworthiness literature treats redundancy as a design choice rather than as a concession**.
-And that the gyroplane accident record supports the programme's own conclusion about training is an
+And that the gyroplane's safety reputation bears on a crewman with no rotorcraft training is an
 inference from the type's general reputation and from the contemporary safety literature,
 **not from any study that compares trained and untrained gyroplane pilots**, which would be the evidence the
-claim actually wants.
+claim needs.
 
 The vehicle-by-vehicle programme record for the X-series generally is [Jenkins, Landis and Miller on the
 American X-vehicles][book_jenkins_landis_miller_2003].
 
-**What the record does not settle.** Whether the rotor diameter was 20 feet or 20 feet 6 inches. Whether the
-engine was 72 or 90 horsepower. What the third ordered aircraft was and what became of it. Whether the
-parachute-cutaway sequence was ever demonstrated at all, as opposed to not being demonstrated at full scale.
+**What the record does not settle.** Whether the X-25 rotors were the 20 foot rotor of the standard B-8M.
+Whether the engine was 72 or 90 horsepower. Which of the X-25A and X-25B flew first. What became of the third
+aircraft, the gyro-chute. Whether the escape sequence included a parachute cutaway at all, and whether any
+part of it was demonstrated below full scale.
 Whether any quantitative descent or glide measurement was taken and survives in a closed report.
 
 **Written from current knowledge.** The contemporary survey postdates the editorial date of this article.
@@ -1073,19 +1120,20 @@ turbine engineering beyond the identity of the flow state.
 
 **The Bensen X-25 answered a question nobody had asked clearly enough.**
 
-The programme was framed as giving a descending crewman a choice. The arithmetic says that an autorotating
+The programme was framed as giving a descending crewman a choice, in [Jenkins, Landis and
+Miller][book_jenkins_landis_miller_2003]. The arithmetic shows that an autorotating
 rotor is a worse decelerator than the parachute it was to replace, by nine percent at equal weight and
 twenty-nine percent as flown, and that everything it offers comes from the fact that it is a wing rather
 than a brake. **Seven and a half miles from ten thousand feet is the whole product.**
 
 The obvious objection, that a rotor must be spun up while a canopy merely inflates,
 **does not survive being written down**. Fifty-seven feet of ideal height loss is cheap. The real difficulty
-was never energetic. It was that the sequence requires cutting away a working parachute, and that flying a
-gyroplane is a skill, and the programme's own testing went to training requirements rather than to
-aerodynamics.
+was never energetic. It was that a sequence through an open parachute ends by cutting a working parachute
+away, and that flying a gyroplane is a skill, and the programme's testing went to training requirements
+rather than to aerodynamics.
 
-**The question was good and it was eventually answered by fabric.** A ram-air canopy reaches the same glide
-ratio with no rigid structure, no spin-up and far less training, and guided airdrop has since removed the
+**The question was good and it was eventually answered by fabric.** A ram-air canopy reaches nearly the same
+glide ratio with no rigid structure, no spin-up and, by inference, far less training, and guided airdrop has since removed the
 pilot from the loop as well.
 **The rotor's physics did not die. It went into wind energy, where the windmill brake state is the design condition rather than an emergency.**
 
@@ -1119,10 +1167,15 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 
 - [autogyro][ref_autogyro]
 - [autorotation][ref_autorotation]
+- [Bensen Aircraft][ref_bensen_aircraft]
 - [Bensen gyroglider][ref_bensen_b8]
 - [Edwards][ref_edwards]
 - [ejection seat][ref_ejection_seat]
+- [FAI record list][ref_fai_bensen]
+- [Guinness World Records][ref_guinness_x25b]
 - [Igor Bensen][ref_bensen_igor]
+- [Ingenuity helicopter][ref_ingenuity]
+- [Kaman KSA-100 SAVER][ref_kaman_saver]
 - [ram-air parachute][ref_ram_air_parachute]
 - [Rogallo wing][ref_rogallo_wing]
 - [X-25A][ref_nmusaf_x25a]
@@ -1132,10 +1185,15 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 [ref_afftc_x25b]: https://flighttestmuseum.org/portfolio/benson-x-25b/
 [ref_autogyro]: https://en.wikipedia.org/wiki/Autogyro
 [ref_autorotation]: https://en.wikipedia.org/wiki/Autorotation
+[ref_bensen_aircraft]: https://en.wikipedia.org/wiki/Bensen_Aircraft
 [ref_bensen_b8]: https://en.wikipedia.org/wiki/Bensen_B-8
 [ref_bensen_igor]: https://en.wikipedia.org/wiki/Igor_Bensen
 [ref_edwards]: https://en.wikipedia.org/wiki/Edwards_Air_Force_Base
 [ref_ejection_seat]: https://en.wikipedia.org/wiki/Ejection_seat
+[ref_fai_bensen]: https://web.archive.org/web/20071013163131/http://records.fai.org/rotorcraft/aircraft.asp?id=75
+[ref_guinness_x25b]: https://www.guinnessworldrecords.com/world-records/633394-smallest-crewed-x-plane
+[ref_ingenuity]: https://en.wikipedia.org/wiki/Ingenuity_(helicopter)
+[ref_kaman_saver]: https://en.wikipedia.org/wiki/Kaman_KSA-100_SAVER
 [ref_nmusaf_x25a]: https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/195781/bensen-x-25a-gyrocopter/
 [ref_ram_air_parachute]: https://en.wikipedia.org/wiki/Ram-air_parachute
 [ref_rogallo_wing]: https://en.wikipedia.org/wiki/Rogallo_wing

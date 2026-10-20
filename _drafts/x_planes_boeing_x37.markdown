@@ -38,23 +38,23 @@ the planet, and holds a single-flight endurance record of 908 days.
 **Every previous article in this series has struggled with a vehicle that left too little trace. This one has the opposite problem.**
 The X-37B has left a very large trace with a hole in the middle. Its launches were announced, its landings
 were photographed, its dimensions are published, its mission durations are recorded to the minute, and its
-orbit has been tracked continuously by amateur observers from the ground. What it carried and what it did
+orbit has been tracked repeatedly by amateur observers from the ground. What it carried and what it did
 are not public and are not going to be.
 
 **That shape of record decides what an article can honestly be about.** Writing around the hole by
-speculating about the payload is the failure mode, and almost every popular account of this vehicle falls
-into it. The series has a better instrument.
+speculating about the payload is the failure mode, and the vehicle has attracted a good deal of such
+speculation \[[Boeing X-37][ref_x37]\]. The series has a better instrument.
 **The orbital mechanics are public whether the payload is or not**, so the inclination, the altitude
-history, the manoeuvres and their velocity cost are all recoverable from data anybody can obtain. That is a
-measurement rather than a guess, and it is the honest route into a classified subject.
+history, the manoeuvres and their velocity cost are all recoverable from data anybody can obtain. Each is a
+measurement, and together they offer an honest route into a classified subject.
 
 ## The Research Question
 
 ### The Question Nobody Outside the Programme Can Answer
 
-What is in the [payload bay][ref_payload_bay]. The answer is classified, three of the eight missions have
-flown with no announced experiment at all, and the announcements that have been made are almost certainly
-the exceptions rather than a sample.
+What is in the [payload bay][ref_payload_bay]. The contents are classified, the first three of the eight
+missions flew with no experiment named in the public mission record, and the announcements that have been
+made are almost certainly the exceptions rather than a sample \[[Boeing X-37][ref_x37]\].
 **This article does not speculate about the payload and does not treat the absence of an answer as an invitation.**
 
 ### The Question This Article Asks Instead
@@ -65,8 +65,8 @@ are also, unlike the payload, constrained by physics that anybody can write down
 
 ### Why Endurance Is the Binding Unknown
 
-The obvious guess is that a long mission is a propulsion problem. **It is not**, and the reason is worth
-writing down rather than asserting. The specific energy of a Keplerian orbit is
+The obvious guess is that a long mission is a propulsion problem. **It is not**, and a few lines of
+derivation show why. The specific energy of a Keplerian orbit is
 
 $$\mathcal{E} = \frac{v^{2}}{2} - \frac{\mu}{r} = -\frac{\mu}{2a}$$
 
@@ -74,11 +74,11 @@ which depends on the semi-major axis $a$ and on nothing else. At 400 kilometres 
 **-29.40 megajoules per kilogram**, and because a conservative field cannot change it,
 **every secular change in the orbit is a non-conservative effect.** In low Earth orbit there is essentially
 one, which is drag, and the drag makeup for a mission of this length turns out to be a minor line in the
-mass budget at the altitudes actually flown. The X-37B carries no crew, so it has no consumables limit
+mass budget at the altitudes flown. The X-37B carries no crew, so it has no consumables limit
 either, which removes the constraint that governs every human spaceflight endurance record.
 
 The energy statement above is the foundation of every orbital result in this article, and the literature
-that establishes it is the astrodynamics canon rather than anything about this vehicle.
+that establishes it is the astrodynamics canon, and none of it concerns this vehicle.
 
 - [Parodi et al][research_jurekparodi_michaelkewert]
 - [Plis et al][research_elenaaplis_milestbengtson]
@@ -98,7 +98,7 @@ The [X-33][related_post_a330_lockheed_martin_x33] and the [X-34][related_post_a3
 were cancelled. The [X-35][related_post_a332_lockheed_martin_x35] won its competition and never generated a
 trace at all. The [X-36][related_post_a333_mcdonnell_douglas_x36] ran to completion and produced a technique
 rather than a vehicle, so its contribution is filed under the names of its methods.
-**The X-37 did not stop existing. It stopped being publishable**, and that is a fifth distinct mechanism.
+**The X-37 did not stop existing. It stopped being publishable**, which makes a fifth distinct mechanism.
 
 ## Programme Origin
 
@@ -108,34 +108,37 @@ The programme began at the [National Aeronautics and Space Administration][ref_n
 [Boeing][ref_boeing] was selected to build an orbital technology demonstrator. Over the four years that
 followed, roughly 192 million dollars was spent, of which the space agency contributed 109 million, the
 [United States Air Force][ref_usaf] 16 million and Boeing 67 million. A further contract worth about 301
-million dollars followed in late 2002 under the [Space Launch Initiative][ref_sli].
+million dollars followed in late 2002 under the [Space Launch Initiative][ref_sli] \[[Boeing X-37][ref_x37]\].
 
 **The programme then changed hands twice in two years.** It transferred to the
 [Defense Advanced Research Projects Agency][ref_darpa] on 13 September 2004, and the Air Force announced its
-own derivative on 17 November 2006.
+own derivative on 17 November 2006 \[[Boeing X-37][ref_x37]\].
 **The vehicle that eventually flew was designed under one agency, developed under a second and operated by a third**,
 and the published engineering record stops almost exactly where the second handover happens.
 
-### What Each Owner Wanted, Which Was Not the Same Thing
+### Three Owners With Different Aims
 
 The space agency wanted a testbed for reusable orbital vehicle technology, and specifically for the thermal
 protection, the avionics and the autonomous landing that a follow-on to the [Space Shuttle][ref_shuttle]
-would need. Its own [account of the programme][ref_nasa_x37] still describes the vehicle in those terms.
-That intent is legible in the reports the programme published between 1999 and 2004, which read like
-technology-demonstration documents and cite the vehicle by name.
+would need. The technologies it was to demonstrate are listed as an improved thermal protection system,
+enhanced avionics, an autonomous guidance system and an advanced airframe \[[Boeing X-37][ref_x37]\], and the space
+agency's [account of the programme][ref_nasa_x37] describes an orbital experimental vehicle to be lifted
+to orbit by the Space Shuttle or a reusable launch vehicle and returned to Earth under its own power.
+That intent is legible in the reports the space agency published on the vehicle between 2000 and 2006, which
+read like technology-demonstration documents and cite the vehicle by name.
 
 **What the later owners wanted is not stated in any document this article could find**, and the absence is
 itself the most informative fact in the programme's history. A transfer to a defence research agency and
 then to an operational service, accompanied by the disappearance of the vehicle from the open literature, is
 a description of a programme whose purpose became classified.
 
-### The X-40, Which Is Where the Shape Came From
+### The X-40 and the Origin of the Shape
 
 The [Boeing X-40][ref_x40] was an unpowered, subscale vehicle built for the Air Force as a
 [Space Maneuver Vehicle][ref_smv] demonstrator. The space agency's account of it calls it an 80 percent
 subscale version of the X-37. It was dropped from a helicopter at Holloman Air Force Base in 1998 and again,
 in a longer series, at Dryden in 2001.
-**The X-37 is described in turn as a [120 percent scaled derivative][ref_x37] of it**, which is an unusual
+**The X-37 is described in turn as a [120 percent scaled derivative][ref_x37] of it**, an unusual
 lineage in that the smaller aircraft came first and the larger one inherited its outer mould line.
 **The two published ratios are not reciprocals of one another.** For a linear scale factor $s$ the inverse
 is $1/s$, and
@@ -149,24 +152,25 @@ precise than about five percent.
 ### The Approach and Landing Test Vehicle
 
 The X-37A Approach and Landing Test Vehicle was carried aloft beneath [White Knight][ref_white_knight] and
-released for a series of unpowered glides beginning on 7 April 2006. The first free flight ended with a
-runway excursion after a landing gear problem. **The programme it belonged to was closed out that year**,
-and no orbital X-37A ever flew.
+released for a series of unpowered glides beginning on 7 April 2006. The first free flight ended when the
+vehicle overran the runway and sustained minor damage. **The glide tests ended that year**, after two
+further free flights on 18 August and 26 September 2006, and no orbital X-37A ever flew \[[Boeing X-37][ref_x37]\].
 
-### The Window This Article Calls the Period, and Why It Has to Say So
+### The Window This Article Calls the Period
 
 **This programme has no clean period and inheriting one from a predecessor article would be wrong.** It
 began in 1999, changed owner in 2004 and again in 2006, first flew in 2010, and is still flying at the time
 of writing. There is no single window that is obviously the design era.
 
 **This article calls the period 1999 through 2011 and the contemporary era everything after.** The choice is
-made on the grounds that 2011 is the last year in which the programme's own engineering was still reaching
-the open literature in any quantity, the second orbital mission having launched in March of that year.
+made on the grounds that 2011 is the year of the last engineering paper on the vehicle itself that the
+survey holds, the paper on the orbital test vehicle and its derivatives, and the second orbital mission
+launched in March of that year.
 **The reference counts reported later use exactly this boundary.**
 
 ## Sizing From First Principles
 
-### Notation, Because Two Standard Symbols Collide in This Subject
+### Notation Where Standard Symbols Collide
 
 **Orbital mechanics and thermal engineering each own a set of symbols and the two sets overlap.** The
 article carries both, so the ambiguous cases are marked here rather than resolved silently at each use.
@@ -188,7 +192,7 @@ article carries both, so the ambiguous cases are marked here rather than resolve
 otherwise use one letter for two quantities.
 **This series has met that defect before and resolves it the same way every time, by marking one of the two and saying so.**
 
-### The Orbit, Which Is the Public Half of a Classified Vehicle
+### The Orbit as the Public Half of a Classified Vehicle
 
 Everything in this section follows from two published numbers, the altitude and the inclination, and from
 relations that appear in every astrodynamics text. The [orbital period][ref_orbital_period] of a circular
@@ -225,7 +229,7 @@ $$\beta > \beta^{*} = \arcsin\!\left( \frac{R_{\oplus}}{r} \right)$$
 which at 400 kilometres is **70.22 degrees**. A vehicle that can reach that beta angle enjoys periods of
 continuous sunlight, during which its batteries are not cycled at all.
 
-**Whether it can reach it is fixed by the inclination and by nothing else.** The largest beta angle
+**Whether it can reach it is fixed by the inclination alone.** The largest beta angle
 available at inclination $i$ is $i$ plus the Earth's obliquity of 23.44 degrees. The first four
 missions, numbered OTV-1 to OTV-4 in the programme's Orbital Test Vehicle designation, are catalogued at
 inclinations between 38.02 and 43.49 degrees, and the sixth at 45.08 \[[General Catalog of Artificial Space Objects][ref_gcat]\]. Their ceilings are
@@ -257,12 +261,12 @@ $$\bar{f}_{E} = \frac{1}{J K} \sum_{j=1}^{J} \sum_{k=1}^{K} f_{E}\!\left( \beta(
 
 with $\beta$ from the Sun vector and orbit normal as given in the next section, and the share of
 geometries that eclipse at all is the fraction of those $43{,}200$ grid points at which $f_{E} > 0$.
-**The higher inclination buys relief and the lower one does not**, which is a consequence of the mission's
-own orbit choice rather than of the vehicle.
+**The higher inclination buys relief and the lower one does not.** The difference comes from the orbit chosen
+for each mission, and the vehicle plays no part in it.
 
 ### Why That Average Is a Measurement and Not an Assumption
 
-Averaging over the node is only legitimate if the node actually turns during the mission. It does, and the
+Averaging over the node is only legitimate if the node turns during the mission. It does, and the
 rate follows from the Earth's oblateness. The dominant secular effect of the second zonal harmonic $J_{2}$
 on a near-circular orbit is a regression of the ascending node at
 
@@ -291,8 +295,8 @@ $$T_{\beta} = \frac{360^{\circ}}{\lvert \dot{\Omega} - \dot{\lambda}_{\odot} \rv
 
 which gives **53.95 days**.
 
-**The sixth mission therefore swept the node 14.36 times and the beta angle 16.85 times.** The average above
-is not a modelling convenience. **It is what the mission actually experienced**, and an article quoting a
+**Over its duration the sixth mission swept the node 14.36 times and the beta angle 16.85 times.** The average
+above is not a modelling convenience. **It describes the conditions the mission experienced**, and an article quoting a
 single beta angle for a flight of this length would be quoting a transient.
 
 - [Garrett and Rubin 1978][research_garrett_rubin_1978]
@@ -307,7 +311,7 @@ and because the vehicle's inclination admitted no full-sun period,
 **every one of those 14,140 orbits carried an eclipse and therefore a charge and discharge cycle.** At 300
 kilometres the same mission would be 14,459 orbits.
 
-**That is the single most useful number in this article.** It converts an operational record into a hardware
+**No number in this article is more useful.** It converts an operational record into a hardware
 requirement, and it does so using nothing but the mission duration and the orbital period, both of which are
 public.
 
@@ -316,16 +320,17 @@ public.
 - [Suresha and Gupta 1999][research_suresha_gupta_1999]
 - [Lundberg 2000][research_lundberg_2000]
 
-### What the Payload Bay Allows, Which Is an Upper Bound and Not an Estimate
+### An Upper Bound From the Payload Bay
 
 The payload bay is published as 2.1 metres by 1.2 metres. The Space Force fact sheet that states it is not
 reachable at the time of writing, so the figure is cited to the [encyclopaedic specification][ref_x37] that
-reproduces it. That is a planform area of
+reproduces it. The planform area is
 
 $$A_{\text{bay}} = 2.1 \times 1.2 = 2.52 \ \text{square metres}.$$
 
-The solar array deploys from inside it, so the array area is bounded by what can be
-folded into a volume of that size.
+The solar array is stowed conformally inside it and deploys from the open bay
+\[[This Is Our First Look At The Secretive X-37B Spaceplane With Its Cargo Bay Doors Open][ref_otv_bay_open]\],
+so the array area is bounded by what can be folded into a volume of that size.
 **This section computes an upper bound on the electrical load, and the section after it computes a second and independent upper bound. Neither is an estimate of the actual load, which is not public.**
 
 A sun-pointed array of area $A$ generates
@@ -333,8 +338,8 @@ A sun-pointed array of area $A$ generates
 $$P_{\text{array}} = S \, A \, \eta \, \kappa$$
 
 where $S$ is the solar constant of 1,361 watts per square metre, $\eta$ is the cell efficiency, taken as
-0.30 for the [gallium arsenide][ref_gaas] multijunction cells the vehicle is reported to use, and $\kappa$
-is a packing factor taken as 0.85.
+0.30 for the [gallium arsenide][ref_gaas] cells the vehicle is reported to use \[[Boeing X-37][ref_x37]\], and
+$\kappa$ is a packing factor taken as 0.85.
 
 The array does not merely carry the load. It must also refill the battery during the sunlit fraction of the
 orbit, so for a load that runs continuously
@@ -353,14 +358,15 @@ alone would suggest.
 | 8 square metres | 2,776 watts | 1,551 watts |
 | 12 square metres | 4,165 watts | 2,327 watts |
 
-**A six square metre array, which is a generous reading of what folds out of a bay of 2.52 square metres, carries 1,164 watts continuously.**
+**A six square metre array, a generous reading of what folds out of a bay of 2.52 square metres, carries 1,164 watts continuously.**
 The row follows from the two relations above,
 
 $$P_{\text{load}} = \frac{S \, A \, \eta \, \kappa}{P_{\text{array}} / P_{\text{load}}} = \frac{1{,}361 \times 6 \times 0.30 \times 0.85}{1.7896} = \frac{2{,}082.3}{1.7896} = 1{,}164 \ \text{watts},$$
 
 where 1.7896 is the ratio quoted above as 1.790 before rounding.
 
-That is the order of a domestic kettle, and the figure is a ceiling rather than an operating point.
+A domestic kettle draws power of that order. The figure is a ceiling and makes no claim about the operating
+point.
 
 - [Wright et al][research_kennethhwrightjr_baohoang]
 - [Radiation damage in satellite solar cell power systems][research_radiation_damage_1961]
@@ -378,7 +384,7 @@ That is the order of a domestic kettle, and the figure is a ceiling rather than 
 - [Cherchas and Hughes 1973][research_cherchas_hughes_1973]
 - [Herron et al 1973][research_herron_bayless_1973]
 
-### What the Doors Allow, Which Is the Tighter Constraint
+### The Doors and a Tighter Bound
 
 Every watt the vehicle consumes becomes heat, and the heat has to leave. A radiator at temperature $T_{r}$
 facing a sink at $T_{s}$ rejects
@@ -429,9 +435,11 @@ where the leading factor of two counts the two doors in the first case and the t
 second.
 
 **The two bounds are 1,164 watts from the array and between 540 and 1,623 watts from the radiator, and at the low end the radiator is the tighter of the two.**
-That is the usual result for a compact spacecraft and explains why the payload bay doors open on orbit and
-stay open, exactly as the Shuttle orbiter's did.
-**The doors are not there to expose the payload. They are the cooling system.**
+On a compact spacecraft the radiator usually binds first. The Shuttle orbiter's payload bay doors carried its
+radiators and were opened on reaching orbit for heat rejection \[[Space Shuttle][ref_shuttle]\], and the
+X-37B stows radiators in its bay alongside the array
+\[[This Is Our First Look At The Secretive X-37B Spaceplane With Its Cargo Bay Doors Open][ref_otv_bay_open]\].
+**On that reading the open bay is not there only to expose the payload. It is also part of the cooling system.**
 
 **Two independent public geometries therefore agree that this vehicle's electrical scale is of the order of a kilowatt.**
 They are not the same calculation, they share no input beyond the bay dimensions, and they bracket rather
@@ -473,7 +481,7 @@ $$C = \frac{E}{\delta}, \qquad m_{b} = \frac{E}{\delta \, w} = \frac{P_{\text{lo
 | 40 percent | 1,671.7 watt hours | 16.7 kilograms |
 | 60 percent | 1,114.4 watt hours | 11.1 kilograms |
 
-**Halving the depth of discharge doubles the battery mass, and that is the whole trade.** A long mission
+**Halving the depth of discharge doubles the battery mass, and the trade reduces to that.** A long mission
 wants a shallow cycle, and a shallow cycle is heavy.
 
 **The article does not know the cell chemistry's constants and will not assert them.** What it can do is
@@ -490,7 +498,7 @@ which the literature below establishes across several chemistries.
 - [Sizemore and Stroup 1965][research_sizemoreko_strouper_1965]
 - [Nuttall et al 1965][research_nuttall_stevens_1965]
 
-Anchoring it at a flight-proven point of 30,000 cycles at 30 percent, the depth of discharge that a
+Anchoring it at an assumed reference point of 30,000 cycles at 30 percent, the depth of discharge that a
 14,140-cycle mission admits is
 
 $$\delta = \delta_{\text{ref}} \left( \frac{N_{\text{ref}}}{N_{\text{cyc}}} \right)^{1/k}$$
@@ -502,9 +510,9 @@ $$\delta = \delta_{\text{ref}} \left( \frac{N_{\text{ref}}}{N_{\text{cyc}}} \rig
 | 2.5 | 40.5 percent | 16.5 kilograms |
 | 3.0 | 38.5 percent | 17.3 kilograms |
 
-**The answer is insensitive to the exponent, which is what makes it worth reporting.** Across the whole
-plausible range the required depth of discharge sits between 38 and 50 percent, which is comfortably inside
-routine flight practice for low Earth orbit. The two ends of the table are
+**The result is insensitive to the exponent, and that insensitivity makes it worth reporting.** Across the
+plausible range the required depth of discharge sits between 38 and 50 percent. The two ends of the table
+are
 
 $$\delta_{k=3} = 0.30 \left( \frac{30{,}000}{14{,}140} \right)^{1/3} = 0.385, \qquad \delta_{k=1.5} = 0.30 \left( \frac{30{,}000}{14{,}140} \right)^{1/1.5} = 0.495,$$
 
@@ -512,7 +520,7 @@ and the mass column is the battery relation above at $P_{\text{load}} = 1$ kilow
 $w = 100$ watt hours per kilogram, for instance $m_{b} = 668.7 / (0.437 \times 100) = 15.3$ kilograms at
 $k = 2$.
 **The record endurance therefore does not require exotic energy storage.** It requires a battery cycled
-conservatively, sized at something like fifteen kilograms for each kilowatt of continuous load, which is a
+conservatively, sized at something like fifteen kilograms for each kilowatt of continuous load, a
 small fraction of a five-tonne vehicle.
 
 - [Luke and Roeger 1965][research_lukeif_roegereajr_1965]
@@ -533,7 +541,7 @@ small fraction of a five-tonne vehicle.
 - [Lackner and McCoy 1986][research_lackner_mccoy_1986]
 - [Nickel-hydrogen bipolar battery][research_nickel_hydrogen_bipolar_1986]
 
-### Drag, and Why the Duration Bounds the Altitude
+### How the Duration Bounds the Altitude
 
 A vehicle in low orbit decelerates at
 
@@ -547,8 +555,9 @@ drag, the makeup requirement over a mission of duration $t$ is
 $$\Delta v = \frac{\rho v^{2}}{2 B} \, t.$$
 
 Density comes from a piecewise exponential model at nominal solar activity. The drag area $C_{D} A$ is taken
-as 8 square metres, which is not published. The mass is the published launch mass of 4,990 kilograms, which
-is the only mass the programme has released, and the same figure is used for every mass in this article so
+as 8 square metres, which is not published. The mass is the published launch mass of 4,990 kilograms, the
+only mass in the published specification \[[Boeing X-37][ref_x37]\], and the same figure is used
+for every mass in this article so
 that the drag requirement and the propellant budget that pays for it describe one vehicle. Propellant use
 lowers the mass by at most a tenth over a mission. The ballistic coefficient is then
 
@@ -602,10 +611,10 @@ held. Across the table's 300 to 400 kilometre rows a 908-day flight costs betwee
 propellant, which a vehicle of this size can carry alongside everything else it must do. **Below about 250 kilometres a mission of that length is not affordable at all**, and the public
 orbit and the public duration each constrain the other without either being assumed.
 
-### The Cadence Matters, Because Drag Is Exponential in Altitude
+### Reboost Cadence and Exponential Drag
 
-The figures above hold the altitude constant, which is the right question for a vehicle that reboosts often.
-It is not the right question for one that lets the orbit sink and recovers it later.
+The figures above hold the altitude constant. That framing suits a vehicle that reboosts often, and it does
+not suit one that lets the orbit sink and recovers it later.
 **Holding 400 kilometres continuously costs 13.79 metres per second over 908.88 days. Letting the orbit decay for the whole mission and recovering at the end costs 18.47 metres per second**,
 a ratio of
 
@@ -621,7 +630,7 @@ does per unit time,
 
 $$\frac{d\mathcal{E}}{dt} = -a_{D} v = \frac{\mu}{2a^{2}} \frac{da}{dt} \qquad \Longrightarrow \qquad \frac{da}{dt} = -\frac{2 a^{2} v}{\mu} \, a_{D}$$
 
-which is the equation integrated to obtain the decayed altitude.
+and integrating it gives the decayed altitude.
 
 - [Wildhack 1958][research_wildhack_1958]
 - [Groves 1958][research_groves_1958]
@@ -633,7 +642,7 @@ which is the equation integrated to obtain the decayed altitude.
 and it exists because $\rho$ is exponential in altitude, so every metre lost puts the vehicle into denser
 air and makes the next metre more expensive.
 
-### The Solar Cycle, Which Was Kind to the Record
+### A Solar Cycle Kind to the Record
 
 Thermospheric density at a fixed altitude varies by roughly an order of magnitude between solar minimum and
 solar maximum, and the model used above is a nominal one.
@@ -651,12 +660,12 @@ makeup at 400 kilometres over 908.88 days runs as follows.
 | Nominal | 13.8 metres per second | 23.3 kilograms |
 | Solar maximum | 68.9 metres per second | 115.6 kilograms |
 
-**The record 908-day mission launched in May 2020, five months after the deepest solar minimum in a century.**
-It flew the most favourable atmosphere the programme has ever had.
+**The record 908-day mission launched in May 2020, five months after the solar minimum of December 2019.**
+It began its flight in the quietest phase of the solar cycle \[[Solar Cycle 25 Is Here][ref_solar_cycle_25]\].
 **This is stated as an observation and not as an accusation of contrivance**, because a launch date is set
 by many things and there is no evidence in the public record that the drag environment was one of them. What
 can be said is the arithmetic. The same vehicle flying the same orbit at solar maximum would have paid
-several times as much, and a record set in the quietest atmosphere available is a weaker statement about the
+several times as much, and a record begun at solar minimum is a weaker statement about the
 vehicle than the same record set at solar maximum would have been.
 
 **This is the third article in four to find that a demonstration was tilted in a computable direction.** The
@@ -680,7 +689,7 @@ carry, which tilted the other way.
 
 ## Dependent Systems
 
-### Thermal Protection, Which Is Where the Vehicle's One Public Innovation Lives
+### Thermal Protection and the Vehicle's One Public Innovation
 
 The X-37B's leading edges use
 [Toughened Uni-piece Fibrous Reinforced Oxidation-resistant Composite][ref_tufroc], a dual-layer tiled
@@ -689,8 +698,9 @@ material. Its developers at the space agency's Ames centre describe it as suitab
 heating at 2,900 degrees Fahrenheit and above, with single-use potential to at least 3,600, and report that
 the gapped-tile configuration of the X-37 wing leading edge was qualified in arc-jet exposures at 3,000 and
 3,200 degrees \[[TUFROC Thermal Protection System][research_feldmanjay_stewartdavid_2019]\].
-**It replaced reinforced [carbon-carbon][ref_carbon_carbon] on a vehicle whose leading edges are far smaller than the Shuttle orbiter's**,
-and its engineering is the only part of this vehicle published in detail, because it came out of the space
+**Its developers report a capability similar to that of reinforced [carbon-carbon][ref_carbon_carbon] at an order of magnitude lower cost**
+\[[TUFROC Thermal Protection System][research_feldmanjay_stewartdavid_2019]\], and its engineering is the
+only part of this vehicle published in detail, because it came out of the space
 agency phase and has civil applications.
 
 The convective heat flux at a stagnation point follows the [Sutton and Graves][ref_sutton_graves]
@@ -718,7 +728,7 @@ the local radius of curvature and not on the size of the vehicle carrying it. A 
 nose is cooler at that nose than a large aircraft with a sharp one.
 **What makes a small vehicle hard is not that it is small. It is that a small vehicle has less room in which to be blunt**,
 so its designers face pressure toward radii that a larger airframe would not need to accept, and the
-material has to make up the difference. **That is precisely the pressure TUFROC exists to relieve.**
+material has to make up the difference. **TUFROC exists to relieve precisely that pressure.**
 
 - [Advanced TUFROC Thermal Protection System][research_jaydfeldman]
 - [Caldwell et al][research_adamcaldwell_jaydfeldman]
@@ -770,8 +780,8 @@ lift-to-drag ratio of 1.1 and 45 degrees of bank, from entry interface to 900 me
 | 1.1 | 96.19 degrees |
 | 1.4 | 122.43 degrees |
 
-**That identity is worth more than the crossrange number it supports**, because it says which vehicle
-properties can and cannot buy manoeuvre during entry, and it says so without reference to any atmosphere
+**That identity is worth more than the crossrange number it supports**, because it identifies which vehicle
+properties can and cannot buy manoeuvre during entry, and does so without reference to any atmosphere
 model.
 
 - [West and Johnston][research_thomaskwestiv_christopherojohnston]
@@ -780,7 +790,7 @@ model.
 - [Foster 1960][research_foster_1960]
 - [Joint Conference on Lifting Manned Hypervelocity and Reentry...][research_joint_conference_1960]
 
-### Crossrange, Reported as a Lower Bound Because That Is What the Model Gives
+### Crossrange as a Lower Bound
 
 The heading identity gives the direction but not the displacement, and for that the equations must be
 integrated. Working in the velocity domain, where the equilibrium-glide deceleration supplies the element of
@@ -819,15 +829,15 @@ converts as
 
 $$y = \frac{1{,}397.8 \ \text{km}}{1.852 \ \text{km per nautical mile}} = 754.7 \ \text{nautical miles}, \qquad \frac{754.7}{1{,}100} = 0.686 .$$
 
-**This model returns 755 nautical miles at the same ratio, which is 0.686 of the requirement, and the shortfall is expected rather than troubling.**
+**This model returns 755 nautical miles at the same ratio, 0.686 of the requirement, a shortfall that is expected and gives no cause for concern.**
 A single constant bank angle is not the optimal control and a real entry modulates it, so a constant-bank
 integration is a lower bound by construction. **It is reported as a lower bound and not as agreement**,
 because a model with a free parameter that landed within a few percent of a published figure would have
 demonstrated very little.
 
-The answer is also insensitive to the terminal speed at which the glide is deemed to end, moving only from
-1,411 to 1,371 kilometres as that speed runs from 700 to 1,200 metres per second, which is worth saying
-because that speed is a modelling choice rather than a measured quantity. Both figures are the crossrange
+The crossrange is also insensitive to the terminal speed at which the glide is deemed to end, moving only from
+1,411 to 1,371 kilometres as that speed runs from 700 to 1,200 metres per second. That matters
+because the terminal speed is a modelling choice and is not measured. Both figures are the crossrange
 integral above re-evaluated with $v_{f}$ changed, and their spread relative to the 900 metre per second case is
 
 $$\frac{y(700) - y(1{,}200)}{y(900)} = \frac{1{,}411 - 1{,}371}{1{,}397.8} = 0.029 .$$
@@ -854,8 +864,9 @@ $$\frac{y(700) - y(1{,}200)}{y(900)} = \frac{1{,}411 - 1{,}371}{1{,}397.8} = 0.0
 The heating relation above is the simplest member of a large body of work on what happens in the shock
 layer, where the gas dissociates, the flow departs from equilibrium and the surface chemistry decides how
 much of the recombination energy the vehicle has to absorb.
-**The catalytic behaviour of the surface is the part that a coating can change**, which is exactly what the
-Advanced TUFROC treatment addresses, and it is why a material development shows up as a temperature
+**The catalytic behaviour of the surface is the part that a coating can change.** The Advanced TUFROC
+treatment addresses exactly that behaviour \[[Advanced TUFROC Thermal Protection System][research_jaydfeldman]\],
+so a material development shows up as a temperature
 reduction rather than as a thicker tile.
 
 - [Recent Langley Aerothermodynamic Laboratory Testing 2019-2022][research_michellemason]
@@ -873,10 +884,10 @@ reduction rather than as a thicker tile.
 
 ### Hypersonic Aerodynamics and the Configuration
 
-The shape is a small delta-winged lifting body with a body flap and twin canted fins, which is the
-configuration family the [X-23][related_post_a320_martin_marietta_x23],
-[X-24][related_post_a321_martin_marietta_x24] and Shuttle orbiter programmes characterised across three
-decades of wind tunnel and flight work.
+The shape is a small winged spaceplane with two angled tail fins, and its aerodynamic design was derived
+from the Shuttle orbiter \[[Boeing X-37][ref_x37]\]. It therefore draws on the hypersonic configuration work
+that the [X-23][related_post_a320_martin_marietta_x23], [X-24][related_post_a321_martin_marietta_x24] and
+Shuttle orbiter programmes carried out across three decades of wind tunnel and flight work.
 **The X-37B contributed nothing public to that body of knowledge and drew heavily on it.**
 
 - [Gokcen et al][research_tahirgokcen_jonathandmorgan]
@@ -892,15 +903,15 @@ decades of wind tunnel and flight work.
 - [Lukasiewicz 1961][research_lukasiewicz_1961]
 - [Forsythe et al 1961][research_forsythe_melfi_1961]
 
-### Propulsion, Which Is the Least Interesting System on the Vehicle
+### Propulsion as the Least Interesting System
 
 The [Rocketdyne AR2-3][ref_ar23], a throttleable engine burning high-test [hydrogen peroxide][ref_h2o2] and
 jet fuel at about 29.3 kilonewtons, was evaluated in 1999 under the Future-X demonstrator engine work for
 possible use on the vehicle.
-**It is frequently attributed to Aerojet, which is the successor company rather than the developer.**
-**The orbital vehicle that flew uses a conventional hypergolic system** burning
-[nitrogen tetroxide][ref_nto] and [hydrazine][ref_hydrazine], which is the least adventurous choice
-available and exactly what a vehicle whose interesting problems lie elsewhere ought to use.
+**Some accounts, among them the [encyclopaedia entry][ref_x37], attribute it to Aerojet, although Rocketdyne developed it.**
+**The orbital vehicle that flew is reported to use a conventional hypergolic system** burning
+[nitrogen tetroxide][ref_nto] and [hydrazine][ref_hydrazine] \[[Boeing X-37][ref_x37]\]. No available choice was less
+adventurous, and a vehicle whose interesting problems lie elsewhere ought to use exactly that.
 
 Its capability is small. The 310.6 metres per second computed earlier, for an assumed 500 kilogram load, is
 enough for orbit maintenance, modest phasing and a deorbit burn, and is nowhere near enough for a plane
@@ -910,7 +921,7 @@ between them closes an isosceles triangle and costs
 $$\Delta v = 2 v \sin\!\left( \frac{\Delta i}{2} \right).$$
 
 **A change from 40 degrees to 54.5 degrees at 400 kilometres therefore costs 1,935.5 metres per second**,
-which is **6.23 times** the whole propulsive budget, so the differing inclinations between missions are
+or **6.23 times** the whole propulsive budget, so the differing inclinations between missions are
 launch decisions rather than on-orbit ones.
 
 - [Mulkey and Dingertz][research_henrywmulkey_wilhelmdingertz]
@@ -927,7 +938,8 @@ launch decisions rather than on-orbit ones.
 ### Guidance, Navigation and the Autonomous Landing
 
 The vehicle lands itself on a runway with nobody aboard and nobody flying it remotely, which the Shuttle
-orbiter never did and the Soviet [Buran][ref_buran] did once. The problem divides into the entry guidance
+orbiter never did and the Soviet [Buran][ref_buran] did once \[[Boeing X-37][ref_x37]\]. The problem
+divides into the entry guidance
 already discussed, a [terminal area energy management][ref_taem] phase that trades excess energy through
 turns in a cylindrical corridor around the runway, and an approach and landing phase.
 
@@ -944,11 +956,11 @@ $$h_{E} = h + \frac{v^{2}}{2 g}.$$
 
 At 30 kilometres and 900 metres per second the energy height is **71.30 kilometres** while a straight glide
 at a subsonic lift-to-drag ratio of 4.5 covers **135 kilometres**.
-**The excess is what the turns in the heading alignment cylinder exist to remove**, and it is why the phase
-is called energy management rather than navigation. This is the same constraint the
-[X-24][related_post_a321_martin_marietta_x24] programme spent its life characterising and which this series
-has treated at length there. **What the X-37B added was not the guidance but the autonomy**, and
-specifically the willingness to certify a system to land a five-tonne vehicle on a runway at Vandenberg or
+**The turns in the heading alignment cylinder exist to remove the excess**, and the phase takes its name,
+energy management rather than navigation, from that task. The
+[X-24][related_post_a321_martin_marietta_x24] programme spent its life characterising the same constraint,
+and this series treated it at length in that article. **What the X-37B added was not the guidance but the autonomy**,
+meaning the willingness to certify a system to land a five-tonne vehicle on a runway at Vandenberg or
 the Kennedy Space Center with no human in the loop at all.
 
 - [Toda and Schlee 1967][research_toda_schlee_1967]
@@ -960,7 +972,7 @@ the Kennedy Space Center with no human in the loop at all.
 - [Morduch and Bergeron 1978][research_morduch_bergeron_1978]
 - [Roy and Davison 1986][research_roy_davison_1986]
 
-### Structure, Scale and the Payload It Can Actually Carry
+### Structure, Scale and the Payload It Can Carry
 
 | Quantity | X-37B | Shuttle orbiter | Ratio |
 |---|---|---|---|
@@ -983,7 +995,7 @@ and geometric similarity would give $n = 3$ for both a volume and a mass at cons
 | Payload bay volume | 3.226 | 3 |
 | Launch mass | 1.924 | 3 |
 
-**The bay shrank faster than geometry demands and the mass shrank far more slowly**, which is the
+**The bay shrank faster than geometry demands and the mass shrank far more slowly**, showing the
 square-cube penalty in its clearest form. A geometrically similar orbiter scaled down to 8.92 metres would
 mass **1,072 kilograms**. The X-37B masses 4,990, a factor of **4.655**. Both follow from the cube of the
 length ratio,
@@ -1030,26 +1042,27 @@ Everything the X-37B spends its mass on is spent on returning, and the return is
 |---|---|---|---|---|
 | OTV-1 | 22 April 2010 | 3 December 2010 | 224.39 days | Atlas V 501 |
 | OTV-2 | 5 March 2011 | 16 June 2012 | 468.58 days | Atlas V 501 |
-| OTV-3 | 11 December 2012 | 17 October 2014 | 674.92 days | Atlas V 501 |
-| OTV-4 | 20 May 2015 | 7 May 2017 | 717.83 days | Atlas V 501 |
-| OTV-5 | 7 September 2017 | 27 October 2019 | 779.71 days | Falcon 9 |
+| OTV-3 | 11 December 2012 | 17 October 2014 | 674.93 days | Atlas V 501 |
+| OTV-4 | 20 May 2015 | 7 May 2017 | 717.86 days | Atlas V 501 |
+| OTV-5 | 7 September 2017 | 27 October 2019 | 779.74 days | Falcon 9 |
 | OTV-6 | 17 May 2020 | 12 November 2022 | 908.88 days | Atlas V 501 |
 | OTV-7 | 28 December 2023 | 7 March 2025 | 434.26 days | Falcon Heavy |
 | OTV-8 | 21 August 2025 | in progress | | Falcon 9 |
 
-The seven completed missions total **4,208.57 days**, which is **11.52 years** of accumulated flight.
-**The durations rose monotonically through the first six missions and then fell sharply**, and the fall is
-explained by the seventh mission's orbit rather than by any change in the vehicle.
+The seven completed missions, timed from launch to landing in the [mission record][ref_x37], total
+**4,208.65 days**, or **11.52 years** of accumulated flight.
+**The durations rose monotonically through the first six missions and then fell sharply**, and the shorter
+seventh mission was also the only one flown in a highly elliptical orbit \[[Boeing X-37][ref_x37]\].
 
 **The number that matters operationally is not the longest mission but the duty cycle.** The first launch
 and the seventh landing are 5,433 days apart, so
 
 $$\Phi = \frac{\sum_{k} t_{k}}{t_{\text{span}}} = \frac{4{,}208.57}{5{,}433} = 77.46 \text{ percent}$$
 
-**For more than three quarters of fifteen years an X-37B has been in orbit**, on two airframes, and that is
-the claim the individual durations add up to.
-**A fleet of two holding a three-quarters duty cycle is a statement about turnaround rather than about endurance**,
-and it is the part of the record that a single-mission figure conceals.
+**For more than three quarters of fifteen years an X-37B has been in orbit**, on two airframes, and the
+individual durations add up to that claim.
+**A fleet of two holding a three-quarters duty cycle is evidence of fast turnaround**,
+and a single-mission endurance figure conceals that part of the record.
 
 - [Logsdon and Williamson 1997][research_logsdon_williamson_1997]
 - [Obermann and Williamson 1998][research_obermann_williamson_1998]
@@ -1057,7 +1070,7 @@ and it is the part of the record that a single-mission figure conceals.
 - [Frye and Kennedy 1998][research_frye_kennedy_1998]
 - [Lockheed Martin Skunk Works Single Stage to Orbit/Reusable...][research_lockheed_martin_1999]
 
-### The Seventh Mission, Which Is the Only One Described in Technical Terms
+### The Only Mission Described in Technical Terms
 
 OTV-7 launched into a highly elliptical orbit, catalogued with a perigee of 336 kilometres, an apogee of
 37,895 kilometres and an inclination of 59.27 degrees \[[General Catalog of Artificial Space Objects][ref_gcat]\]. The two apsides fix the orbit
@@ -1066,7 +1079,7 @@ completely,
 $$a = \frac{r_{p} + r_{a}}{2}, \qquad e = \frac{r_{a} - r_{p}}{r_{a} + r_{p}}, \qquad p = a \left( 1 - e^{2} \right)$$
 
 giving a semi-major axis of **25,494 kilometres**, an eccentricity of **0.7366** and, through Kepler's third
-law, a period of **11.25 hours**. **No previous X-37B mission had left low Earth orbit.**
+law, a period of **11.25 hours**. **No previous X-37B mission had left low Earth orbit** \[[Boeing X-37][ref_x37]\].
 
 - [Gustafson and Kriegsman 1973][research_gustafson_kriegsman_1973]
 - [Mišoň 1973][research_mison_1973]
@@ -1075,10 +1088,11 @@ law, a period of **11.25 hours**. **No previous X-37B mission had left low Earth
 - [Damario and Vullo 1976][research_damariola_vullojp_1976]
 - [Mission Design Implications of an Inclined Elliptical...][research_mission_design_1977]
 
-In October 2024 the Space Force announced that the vehicle would perform [aerobraking][ref_aerobraking] to
-change its orbit and to dispose of its service module in accordance with debris mitigation standards.
-**That announcement is the only technical description of an X-37B manoeuvre the programme has ever issued**,
-and it is worth taking seriously precisely because it is unique.
+On 10 October 2024 the Space Force announced that the vehicle would perform [aerobraking][ref_aerobraking]
+to change its orbit and to dispose of its service module components in accordance with recognised standards
+for space debris mitigation \[[X-37B begins novel space maneuver][ref_otv7_aerobraking]\].
+**That announcement is the only official description of a specific X-37B manoeuvre that this article has found**,
+and its rarity is the reason to take it seriously.
 
 ### What Aerobraking Bought, in Numbers
 
@@ -1106,7 +1120,7 @@ $$\Delta v_{\text{lower}} = \sqrt{\mu \left( \frac{2}{r_{a}} - \frac{1}{25{,}493
 That purchase then takes 2,449 metres per second from the atmosphere, a **leverage of 103 to one**,
 
 $$\frac{v_{p} - v_{c}}{\Delta v_{\text{lower}}} = \frac{2{,}448.8}{23.79} = 102.9 .$$
-**That ratio is the entire argument for aerobraking and it is arithmetic rather than opinion.**
+**That ratio is the entire argument for aerobraking, and it needs no opinion to support it.**
 
 ### A Feasibility Estimate That Was Wrong, and the Calculation That Overturned It
 
@@ -1165,8 +1179,8 @@ $$99.7 \ \text{days} \;<\; 150 \ \text{days} \;<\; 480.7 \ \text{days}.$$
 The fixed-period estimate
 said the manoeuvre was infeasible at every perigee, and it was wrong, because it held constant the one
 quantity the manoeuvre is designed to change.
-**The crude version is left standing in this article deliberately**, because the difference between the two
-is the whole lesson.
+**The crude version is left standing in this article deliberately**, because the lesson lies in the
+difference between the two.
 
 - [Schy and White 1969][research_schy_white_1969]
 - [Heppenheimer 1971][research_heppenheimer_1971]
@@ -1175,7 +1189,7 @@ is the whole lesson.
 - [Walberg 1983][research_walberggd_1983]
 - [Mease and Vinh 1983][research_measekd_vinhnx_1983]
 
-**And the passes are thermally mild, which is why the manoeuvre is attractive.** At a perigee speed of
+**And the passes are thermally mild, a property that makes the manoeuvre attractive.** At a perigee speed of
 10.361 kilometres per second and the density at 100 kilometres, the stagnation flux on a 0.30 metre nose
 radius is **25.74 watts per square centimetre** and the radiative equilibrium temperature is
 **1,520 kelvin**. That is roughly a fifth of the flux computed earlier for a full entry. The Sutton and Graves
@@ -1200,13 +1214,13 @@ at a fixed perigee.
 The Mars Reconnaissance Orbiter aerobraked with its solar arrays broadside to the flow, presenting a drag area
 of 37.5 square metres at a pre-aerobraking mass of about 1,400 kilograms
 \[[Mars Reconnaissance Orbiter Operational Aerobraking Phase Assessment][ref_mro_aerobraking]\]. With a drag
-coefficient of 2.0, which is assumed here as typical of free molecular flow and is not taken from that source,
+coefficient of 2.0, assumed here as typical of free molecular flow and not taken from that source,
 
 $$B_{\text{MRO}} = \frac{1{,}400}{2.0 \times 37.5} = 18.7 \ \text{kilograms per square metre}, \qquad \frac{B_{\text{X-37B}}}{B_{\text{MRO}}} = \frac{623.75}{18.67} = 33.4 .$$
 
 **The X-37B, a dense body with a small array, sits near 624**, a ratio of **33.4**.
 
-**That is why a manoeuvre routine at Mars required a perigee at the edge of the atmosphere here.** The X-37B
+**This difference explains why a manoeuvre routine at Mars required a perigee at the edge of the atmosphere here.** The X-37B
 cannot reconfigure itself into a brake, so it has to find its drag in denser air instead.
 
 **What the arithmetic does not settle is how much of the apogee reduction was aerodynamic.** The
@@ -1234,9 +1248,9 @@ does not assume it was.
 
 ### Astrodynamics Beneath the Manoeuvres
 
-Every velocity increment in this article is an impulsive two-body result, which is the right approximation
-for a chemical engine firing for minutes on an orbit measured in hours, and which the literature below
-establishes and bounds.
+Every velocity increment in this article is an impulsive two-body result. That approximation suits a
+chemical engine firing for minutes on an orbit measured in hours, and the literature below establishes and
+bounds it.
 
 - [Isopi 1979][research_isopi_1979]
 - [Baxter 1980][research_baxter_1980]
@@ -1254,18 +1268,20 @@ establishes and bounds.
 - [Zimcik et al 1985][research_zimcikdg_tennysonrc_1985]
 - [Loftus and Brasher 1986][research_loftus_brasher_1986]
 
-### What Was Announced, Which Is Almost Certainly Not a Sample
+### Announced Experiments Are Almost Certainly Not a Sample
 
-The sixth mission was the first to fly a service module attached to the aft of the vehicle, carrying
-experiments that would not fit in the bay. It deployed [FalconSat-8][ref_falconsat8], a small satellite
-built by the Air Force Academy, and carried the Naval Research Laboratory's Photovoltaic Radio-frequency
-Antenna Module, which converted sunlight to microwave power as a step toward
-[space-based solar power][ref_sbsp]. It also carried a space agency materials exposure experiment.
+The sixth mission was the first to fly a service module, a ring attached to the aft of the vehicle for
+hosting additional experiments. It deployed [FalconSat-8][ref_falconsat8], a small satellite developed by
+Air Force Academy cadets, and carried two space agency experiments, a materials exposure plate and a study
+of radiation effects on seeds \[[Boeing X-37][ref_x37]\]. It also carried the Naval Research Laboratory's
+Photovoltaic Radio-frequency Antenna Module, a tile built to test the conversion of sunlight to
+radio-frequency microwave power as a step toward [space-based solar power][ref_sbsp]
+\[[NRL Conducts First Test of Solar Power Satellite Hardware in Orbit][ref_pram]\].
 
-**Three announced payloads across eight missions and more than eleven years of flight is not a sample of what the vehicle has carried.**
+**Roughly ten named experiments across eight missions and more than eleven years of flight are not a sample of what the vehicle has carried** \[[Boeing X-37][ref_x37]\].
 It is a list of the things that could be announced.
-**The announced experiments share one property, which is that each has an unclassified sponsor with an independent reason to publish.**
-That is a selection rule, not a random draw, and reading the programme's purpose from it would be an error.
+**The announced experiments share one property. Each has an unclassified sponsor with an independent reason to publish.**
+The list therefore follows a selection rule, not a random draw, and reading the programme's purpose from it would be an error.
 
 - [Cowling et al 1960][research_cowling_alexander_1960]
 - [Synder and Cross 1960][research_synder_cross_1960]
@@ -1278,9 +1294,9 @@ That is a selection rule, not a random draw, and reading the programme's purpose
 
 ### How the Orbit Became Public Anyway
 
-Every mission has been located and tracked by a distributed network of amateur optical observers, who
+The missions have been located and tracked by a distributed network of amateur optical observers, who
 recover orbital elements from timed positional measurements against the star background.
-**That is how the 54.5 degree inclination of the fifth mission became known, how the manoeuvres of the sixth were detected, and how the seventh mission's highly elliptical orbit was characterised.**
+**That is how the first mission's orbit was identified in 2010 and how the 54.5 degree inclination of the fifth mission became known** \[[Boeing X-37][ref_x37]\].
 The fifth mission's orbit was recovered in April 2018 from a chance sighting by an observer in the
 Netherlands, who estimated a circular orbit of about 54.5 degrees inclination at 355 kilometres, refined
 with an earlier observation from Scotland
@@ -1306,13 +1322,14 @@ and every quantitative statement in this article rests on that asymmetry.
 - [Richards 1961][research_richards_1961]
 - [Philco Newport Beach Ca Aeronutronic Div 1962][research_philconewportbeachcaaeronutronicdiv_1962]
 
-### Disposal, Which Is the Reason the Manoeuvre Was Announced
+### Disposal as One Reason the Manoeuvre Was Announced
 
-**The announcement framed the aerobraking as debris mitigation rather than as a capability demonstration**,
-which is the framing that made it publishable. A service module left in a highly elliptical orbit crosses
-every altitude band below its apogee and does so for a very long time, and disposing of it is a stated
-international obligation rather than a discretionary act.
-**The programme found a reason to describe a manoeuvre, and the reason was compliance.**
+**The announcement framed the aerobraking both as debris mitigation and as a first-of-its-kind manoeuvre**
+\[[X-37B begins novel space maneuver][ref_otv7_aerobraking]\], and the compliance half is plausibly the half that gave a
+classified programme a reason to describe it. A service module left in a highly elliptical orbit crosses
+every altitude band below its apogee and does so for a very long time, and the announcement ties its
+disposal to recognised standards for space debris mitigation.
+**The programme found a reason to describe a manoeuvre, and compliance was one of the two reasons it gave.**
 
 - [Examples of Technology Transfer from the SDIO Kinetic Energy...][research_connell_jr_1991]
 - [Yates and Jonas 1995][research_yates_jonas_1995]
@@ -1329,7 +1346,7 @@ international obligation rather than a discretionary act.
 ## Comparison With Ground Prediction
 
 **No prediction the programme made on the ground can be set beside a flight measurement, because neither half is public.**
-The section headed The Source Base records that the space agency's own reports on the vehicle stop in 2006
+The survey described under The Source Base shows that the space agency's reports on the vehicle stop in 2006
 and that no title in the survey describes a flown mission. The record holds no mass breakdown, no power budget, no
 propellant load, no thermal design and no flight data of any kind from any of the eight missions. The
 comparison this series makes elsewhere, between a wind tunnel or analytical prediction and what flight
@@ -1337,8 +1354,9 @@ returned, cannot be made for this vehicle in that form.
 
 **What the space agency phase set out to demonstrate is public, and so is the bare outcome.** The agency
 wanted a testbed for the thermal protection, the avionics and the autonomous landing that a successor to the
-Space Shuttle would need. The section headed What the Data Changed records that TUFROC has survived repeated
-entries and that the vehicle lands itself on a runway with no crew and no remote pilot, and each of the seven
+Space Shuttle would need \[[Boeing X-37][ref_x37]\]. What the Data Changed, below, records that TUFROC is
+flight-proven as the vehicle's wing leading edge and that the vehicle lands itself on a runway with no crew
+and no remote pilot, and each of the seven
 completed missions in the table under The Flight Test Record ended in a landing. None of the temperatures,
 loads or trajectories behind those outcomes has been released.
 **The outcome can be stated and its margin against the prediction cannot.**
@@ -1347,32 +1365,32 @@ loads or trajectories behind those outcomes has been released.
 dimensions and the public orbit. Three of them meet an observed quantity, and each is argued in full where
 it first appears.
 
-The first is the drag budget. The section headed Sizing From First Principles computed that a 908.88 day
+The first is the drag budget. The first-principles sizing earlier in the article computed that a 908.88 day
 mission costs between 23 and 152 kilograms of propellant between 300 and 400 kilometres, and that below about
 250 kilometres a mission of that length is not affordable at all. The six low-orbit missions are catalogued
 between 309 and 409 kilometres.
-**The observed altitude and the observed duration are consistent with the computed budget**, which is
-agreement between an analysis and a public orbit rather than between a programme prediction and programme
-data. It rests on an assumed drag area and an assumed propellant load, as the section headed Where the
+**The observed altitude and the observed duration are consistent with the computed budget.** The agreement
+lies between an analysis and a public orbit rather than between a programme prediction and programme
+data, and it rests on an assumed drag area and an assumed propellant load, as the section headed Where the
 Framing Breaks Down states.
 
 The second is the aerobraking campaign. A fixed-period estimate found that no perigee above the entry
 interface could remove 2,449 metres per second in the roughly 150 days between the October 2024 announcement
 and the landing on 7 March 2025. The walk-down that updates the orbit after every pass found that a perigee
 near 100 kilometres reaches a 1,000 kilometre apogee in 99.7 days.
-**The announced manoeuvre and the landing that followed are what the corrected calculation permits and the crude one forbids.**
+**The corrected calculation permits the announced manoeuvre and the landing that followed, and the crude one forbids them.**
 The comparison stops there, because the perigee flown, the number of passes and the fraction of the apogee
 reduction that was aerodynamic are not public.
 
 The third is the crossrange. The constant-bank integration returns 755 nautical miles at a lift-to-drag ratio
-of 1.1, which is 0.686 of the 1,100 nautical mile requirement set for the Space Shuttle orbiter. That is a
-comparison with another vehicle's specification and not with any X-37B flight, and it is reported as a lower
+of 1.1, or 0.686 of the 1,100 nautical mile requirement set for the Space Shuttle orbiter. The comparison
+is with another vehicle's specification and not with any X-37B flight, and it is reported as a lower
 bound for that reason. No crossrange flown by the X-37B has been published.
 
 **The development flights supply outcomes without predictions.** The X-40 was dropped from a helicopter at
 Holloman Air Force Base in 1998 and at Dryden in 2001, and the glides of the X-37A Approach and Landing Test
-Vehicle began on 7 April 2006, its first free flight ending with a runway excursion after a landing gear
-problem. The record states none of the predictions those flights were testing.
+Vehicle began on 7 April 2006, its first free flight ending when the vehicle overran the runway. The
+record states none of the predictions those flights were testing.
 
 **The comparison this section can make is between public arithmetic and a public orbit, and it holds wherever it can be checked.**
 The comparison the series exists to make, between what the designers expected and what their vehicle
@@ -1382,18 +1400,20 @@ measured, lies behind the compartment for every mission flown.
 
 ### What the Programme Settled
 
-**That a small winged vehicle can be reused across multi-year orbital missions with a turnaround measured in months.**
-Two airframes have flown eight missions between them. The first vehicle flew the first and third missions,
-which is a demonstrated reuse of an orbital spaceplane by an operator other than the Shuttle programme, at a
-scale where the refurbishment cost is not ruinous.
+**That a small winged vehicle can be reused across multi-year orbital missions with a turnaround as short as four months.**
+Two airframes have flown eight missions between them. The first vehicle flew the first, third, sixth and
+eighth missions and the second vehicle the others, and the second vehicle landed from the fourth mission on
+7 May 2017 and launched on the fifth on 7 September 2017 \[[Boeing X-37][ref_x37]\]. The programme thereby
+demonstrated reuse of an orbital spaceplane by an operator other than the Shuttle programme.
 
 **That autonomous runway landing from orbit is a solved problem.** Seven entries, seven landings, at
 two sites, Vandenberg and the Kennedy Space Center, with no crew and no remote pilot. Buran demonstrated it once in 1988 and the capability then
-lapsed. **The X-37B made it routine**, and routine is a stronger claim than demonstrated.
+lapsed \[[Boeing X-37][ref_x37]\]. **The X-37B made it routine**, and routine is a stronger claim than demonstrated.
 
-**That TUFROC works.** A leading-edge material developed for this vehicle has survived repeated entries and
-has since been proposed for other vehicles, which is the clearest technology transfer the programme has
-produced.
+**That TUFROC works.** A leading-edge material developed for this vehicle is flight-proven as the X-37B
+wing leading edge \[[Advanced TUFROC Thermal Protection System][research_jaydfeldman]\] and has since been
+adopted for the nose and leading edges of the Dream Chaser \[[Dream Chaser][ref_dream_chaser]\]. That adoption is
+the clearest technology transfer the programme has produced.
 
 ### What It Fed Into
 
@@ -1402,18 +1422,18 @@ under their own names, sponsored by the space agency, and are cited by later hyp
 work.
 
 The autonomy is the invisible thread.
-**A commercial lifting-body vehicle now flies to the space station and lands on a runway**, and the
-guidance, navigation and control problem it solves is the one the X-37B solved first, though the lineage
-cannot be traced through citations because one half of it was never published.
+**A commercial lifting-body vehicle, the Dream Chaser, is built to land on a runway and had not flown to orbit at the time of writing** \[[Dream Chaser][ref_dream_chaser]\],
+and the X-37B solved first the guidance, navigation and control problem it faces, though
+the lineage cannot be traced through citations because one half of it was never published.
 
-### What It Failed to Influence, Which Is Most of the Open Field
+### What It Failed to Influence
 
-**The programme has published almost nothing since 2004 and the open literature therefore cannot cite it.**
-A body of work that cannot be cited cannot accumulate, and twenty years of operational experience with a
+**The programme has published almost nothing since 2006 and the open literature therefore cannot cite it.**
+A body of work that cannot be cited cannot accumulate, and fifteen years of operational experience with a
 reusable orbital vehicle, which would be the largest such body in existence, is unavailable to everyone
 outside the compartment.
 
-**That is the cost of classification and it is a real cost rather than a rhetorical one.** Every designer of
+**Classification carries that cost, and the cost is real.** Every designer of
 a reusable entry vehicle since 2010 has had to rediscover, or fail to discover, things this programme knows.
 
 ## The Contemporary Literature
@@ -1447,7 +1467,7 @@ a reusable entry vehicle since 2010 has had to rediscover, or fail to discover, 
 | **Total** | **4,827** |
 
 **This series surveys the contemporary literature comprehensively, in addition to the historical treatment.**
-The subjects below are the ones the article's own relations depend on, surveyed in their modern form, and
+The subjects below are the ones the article's relations depend on, surveyed in their modern form, and
 several of them are far more active now than when this vehicle was designed.
 
 ### Endurance Became a Battery Problem Everywhere
@@ -1486,7 +1506,7 @@ vehicle was designed.
 **An array is the one subsystem whose performance is guaranteed to fall throughout a mission**, through
 displacement damage from trapped particles, through atomic oxygen erosion at these altitudes and through
 ultraviolet darkening of the coverglass. The modern literature quantifies each mechanism separately and
-reports flight data over intervals comparable to a whole X-37B mission, which is what makes the end-of-life
+reports flight data over intervals comparable to a whole X-37B mission. Those data make the end-of-life
 margin a computable quantity rather than a rule of thumb.
 
 - [Gao et al 2012][research_gao_yang_2012]
@@ -1506,8 +1526,8 @@ margin a computable quantity rather than a rule of thumb.
 
 ### Thermal Control Moved to Two-Phase Systems and Small Spacecraft
 
-**The radiator calculation in this article is a first-law statement and says nothing about how the heat reaches the radiator**,
-which is the harder engineering problem and the one the modern literature is about. Loop heat pipes and
+**The radiator calculation in this article is a first-law statement and is silent on how the heat reaches the radiator.**
+Heat transport is the harder engineering problem, and the modern literature addresses it. Loop heat pipes and
 capillary pumped loops move heat across a vehicle passively and against gravity, and their arrival made
 compact spacecraft thermally tractable in a way that conduction paths and cold plates alone did not.
 
@@ -1536,7 +1556,7 @@ treatment that lowers the surface temperature by reducing catalytic atom recombi
 demonstrated reusability to 2,900 degrees Fahrenheit with single-use capability beyond 3,200
 \[[Caldwell et al][research_adamcaldwell_jaydfeldman]\].
 **The material developed for a classified vehicle is documented in the open literature because its developer was a civil agency**,
-which is a useful illustration of how the compartment boundary actually runs.
+and the case illustrates where the compartment boundary runs.
 
 - [Application of combined heat transfer models for designing...][research_application_of_combined_2012]
 - [Lu Hai-Bo and Liu Wei-Qiang 2012][research_luhaibo_liuweiqiang_2012]
@@ -1591,9 +1611,9 @@ article approached through a closed form.
 
 ### Aerothermodynamics, Computation and the Modern Treatment of Heating
 
-**The Sutton and Graves correlation is a 1971 curve fit and it is still the right tool for a bound**, which
-is why this article uses it. The contemporary literature computes the same quantity from the governing
-equations with finite-rate chemistry and a surface catalysis model, and its main contribution here is to say
+**The Sutton and Graves correlation is a 1971 curve fit and it is still the right tool for a bound**, so
+this article uses it. The contemporary literature computes the same quantity from the governing
+equations with finite-rate chemistry and a surface catalysis model, and its main contribution here is to establish
 how large the correlation's error is and in which direction.
 
 - [Kozak and Sharipov 2012][research_kozak_sharipov_2012]
@@ -1612,7 +1632,7 @@ how large the correlation's error is and in which direction.
 
 ### Aerobraking Matured at Mars and Came Back
 
-**The technique the seventh mission used was developed for planetary missions and refined across six spacecraft before it.**
+**The technique the seventh mission used was first demonstrated at Earth by the Japanese Hiten probe in 1991 and then refined across six planetary spacecraft** \[[Aerobraking][ref_aerobraking]\].
 Magellan aerobraked at Venus in the summer of 1993 \[[Magellan][ref_magellan]\] and Venus Express in mid-2014
 \[[Venus Express goes gently into the night][ref_venus_express_end]\]. At Mars, Mars Global Surveyor was aerobraking
 in October 1997 \[[Mase et al 1998][research_mase_graat_1998]\], Mars Odyssey completed its aerobraking on 11 January
@@ -1622,8 +1642,8 @@ aerobraked for about five months after reaching Mars in March 2006
 campaign in February 2018 \[[Surfing complete][ref_tgo_aerobraking]\]. The literature on corridor control, on atmospheric variability during a campaign, on density
 reconstruction from accelerometer data and on the thermal limits of using a solar array as a brake is a
 planetary literature almost in its entirety.
-**Its arrival in low Earth orbit is the interesting part of the seventh mission**, and the article that
-treats it as novel has not read the Mars literature.
+**Its return to Earth orbit is the interesting part of the seventh mission**, and the article that
+treats it as novel has not read the planetary literature.
 
 - [Hibbard et al 2012][research_hibbard_glaze_2012]
 - [Maddock et al 2012][research_maddockrobertw_bowesangela_2012]
@@ -1691,7 +1711,7 @@ catalogue maintenance is large, active and largely open.
 
 ### Debris Mitigation Became the Binding Operational Constraint
 
-**The reason the seventh mission's manoeuvre could be described at all is that debris mitigation is a public obligation**,
+**One reason the seventh mission's manoeuvre could be described at all is that debris mitigation is a public obligation**,
 and the literature on disposal, on compliance and on the orbital lifetime of abandoned hardware is
 correspondingly open. **No other area gives a classified programme an affirmative reason to publish.**
 
@@ -1755,8 +1775,8 @@ discusses.
 ### Guidance, Navigation and Autonomous Landing
 
 **Autonomy moved from a certification problem to an expectation.** The modern literature treats autonomous
-approach and landing as a component of a larger autonomy stack rather than as an achievement in itself,
-which is a fair measure of how far the capability the X-37B demonstrated in 2010 has since travelled.
+approach and landing as a component of a larger autonomy stack rather than as an achievement in itself.
+That shift is a fair measure of how far the capability the X-37B demonstrated in 2010 has since travelled.
 
 - [Zhou et al 2013][research_zhou_zhou_2013]
 - [Geller and Klein 2014][research_geller_klein_2014]
@@ -1787,9 +1807,11 @@ trading a large increase in specific impulse against power the array of this veh
 
 ### Payloads, Servicing and Power Beaming
 
-**The one experiment the programme described in technical terms belongs to a field that has grown considerably since it flew.**
-Power beaming from orbit is now an active research area with a literature of its own, and the Photovoltaic
-Radio-frequency Antenna Module is cited within it.
+**One of the experiments the programme announced belongs to a field that has grown considerably since it flew.**
+Power beaming from orbit is now an active research area with a literature of its own, and the principal
+investigator of the Photovoltaic Radio-frequency Antenna Module described it as, to his knowledge, the first
+test in orbit of hardware designed specifically for solar power satellites
+\[[NRL Conducts First Test of Solar Power Satellite Hardware in Orbit][ref_pram]\].
 
 - [Liang et al 2012][research_liang_du_2012]
 - [Boge and Benninghoff 2013][research_boge_benninghoff_2013]
@@ -1820,7 +1842,7 @@ Radio-frequency Antenna Module is cited within it.
 
 ### The Institutional Literature on Secrecy and Military Space
 
-**This is the one subject on which the article's central difficulty is itself a research field.** The
+**On this subject alone, the article's central difficulty is itself a research field.** The
 literature on classification, on transparency in military space programmes and on the dual-use problem is a
 political science and law literature rather than an engineering one, and it addresses directly the question
 of what it costs a technical community when a large body of operational experience is placed beyond
@@ -1841,9 +1863,9 @@ citation.
 
 ### Launch Vehicles and Access
 
-**The programme flew on three different launch vehicles from two providers**, which is itself a change in
-the environment rather than in the spacecraft, and the seventh mission's highly elliptical orbit was
-available only because a heavy-lift vehicle was.
+**The programme flew on three different launch vehicles from two providers** \[[Boeing X-37][ref_x37]\]. That
+variety reflects a change in the environment rather than in the spacecraft, and the seventh mission reached its highly
+elliptical orbit on a heavy-lift vehicle.
 
 - [Air Force Space Command Space Missile Sys Ctr 2013][research_airforcespacecommandspacemissilesysctr_2013]
 - [Conceptual Launch Vehicle and Spacecraft Design for Risk...][research_motiwalasamiraa_mathiasdonovanl_2014]
@@ -2039,7 +2061,7 @@ The 100 kilometre figure is where the calendar closes, not where the vehicle wen
 
 **A launch date is set by range availability, payload readiness, vehicle availability and policy**, and this
 article has no evidence that the drag environment entered the decision. The arithmetic showing that the
-record was set in the quietest atmosphere available is sound.
+record mission began in the quietest phase of the solar cycle is sound.
 **Any inference from it about why the mission was flown when it was is not.**
 
 ### The Comparison With the Two Preceding Articles Is Neat and Should Be Distrusted for It
@@ -2126,7 +2148,7 @@ The count is the number of entries in that list.
 
 ### What the Record Does Not Contain
 
-**No mass breakdown. No power budget. No propellant load. No thermal design. No description of any payload beyond three announced experiments. No flight data of any kind from any of the eight missions.**
+**No mass breakdown. No power budget. No propellant load. No thermal design. No description of any payload beyond the roughly ten experiments announced by name. No flight data of any kind from any of the eight missions.**
 The article computes bounds precisely because none of these exists.
 
 ### The Reference Works
@@ -2405,11 +2427,13 @@ Advanced Research Projects Agency on 13 September 2004, and the Air Force announ
 November 2006. The X-40A was an 80 percent scale drop-test vehicle and the X-37 is a 120 percent scaled
 derivative of it. The Approach and Landing Test Vehicle first flew on 7 April 2006 and its first free flight
 ended in a runway excursion. Eight orbital missions have launched since 22 April 2010, of which seven have
-landed, totalling 4,208.57 days. The sixth mission lasted 908.88 days. The seventh flew a highly elliptical
+landed, totalling 4,208.65 days. The sixth mission lasted 908.88 days. The seventh flew a highly elliptical
 orbit catalogued at 336 by 37,895 kilometres and an inclination of 59.27 degrees, and the Space Force announced
 in October 2024 that it would use aerobraking to change that orbit and dispose of its service module. The
 published dimensions are 8.92 metres long, 4.55 metres in span, 2.90 metres high, with a payload bay of 2.1
-by 1.2 metres and a launch mass of 4,990 kilograms.
+by 1.2 metres and a launch mass of 4,990 kilograms. Those dimensions, the launch mass and the mission times
+rest on the [encyclopaedic specification][ref_x37], which compiles Air Force, Boeing and press figures, and
+the orbits rest on a single catalogue \[[General Catalog of Artificial Space Objects][ref_gcat]\].
 
 ### Engineering Analysis
 
@@ -2425,23 +2449,23 @@ and agrees with an integration that retains the term it claims cancels.
 
 ### Inference
 
-That the eclipse average describes what the mission experienced rather than a modelling convenience is an
-inference from the node and beta cycles being short against the mission, at 63.31 and 53.95 days against
-908.88. That the square-cube penalty rather than a design choice explains the payload fraction is an
+The node and beta cycles are short against the mission, at 63.31 and 53.95 days against 908.88, and from
+that the article infers that the eclipse average describes what the mission experienced rather than a
+modelling convenience. That the square-cube penalty rather than a design choice explains the payload fraction is an
 inference from the measured mass exponent of 1.924, and other explanations are available.
 
-That endurance rather than propulsion is the binding constraint is an inference from the computed drag
+The inference that endurance rather than propulsion is the binding constraint comes from the computed drag
 budget being small at the altitudes flown. That heat rejection binds more tightly than power generation is
-an inference from two bounds whose ranges overlap at the low end. That the aerobraking campaign required a
-perigee near 100 kilometres is an inference from a walk-down calculation using an assumed ballistic
-coefficient. That the programme's documentary silence is caused by classification rather than by inactivity
+an inference from two bounds whose ranges overlap at the low end. A walk-down calculation using an assumed
+ballistic coefficient is the basis for inferring that the aerobraking campaign required a perigee near 100
+kilometres. That the programme's documentary silence is caused by classification rather than by inactivity
 is an inference from the pattern of the space agency's twelve reports on the vehicle, which stop in 2006, two
 years after the transfer to the defence research agency.
 
 ### What the Record Does Not Settle
 
 **What the vehicle carries, what it does, and why the missions run as long as they do.** Also the actual
-electrical load, the actual propellant load, the actual drag area, the perigee flown during the aerobraking
+electrical load, propellant load and drag area, the perigee flown during the aerobraking
 campaign, the fraction of the seventh mission's apogee reduction that was aerodynamic, and whether the
 published specification is complete.
 **The article is a set of bounds and identities consistent with the public record, and a classified programme is entitled to have a public record that does not fully describe it.**
@@ -2452,17 +2476,18 @@ The detailed design of the Approach and Landing Test Vehicle's flight control sy
 and Falcon Heavy launch vehicles and their performance to the orbits flown. The legal and treaty questions
 raised by a manoeuvrable military vehicle in orbit, which are a substantial literature in their own right
 and are surveyed here without being analysed. The Chinese and other reusable spaceplane programmes that have
-flown since 2020, which deserve their own treatment. The economics of reusable launch, treated in the
+flown since 2020, which deserve separate treatment. The economics of reusable launch, treated in the
 [X-33][related_post_a330_lockheed_martin_x33] and [X-34][related_post_a331_orbital_sciences_x34] articles.
 The detailed chemistry of TUFROC and its successors.
 
 ## Conclusion
 
-**The X-37B answered a question about endurance, and the answer is that endurance in orbit is cheap once the power loop is sized for it.**
-A 908-day mission is 14,140 charge and discharge cycles, which a battery cycled to something between 38 and
-50 percent depth of discharge will survive, at a mass penalty of roughly fifteen kilograms for each kilowatt
+**The X-37B answered a question about endurance. Endurance in orbit turns out to be cheap once the power loop is sized for it.**
+A 908-day mission is 14,140 charge and discharge cycles, which on the cycle-life law assumed here a battery
+cycled to something between 38 and 50 percent depth of discharge will survive, at a mass penalty of roughly
+fifteen kilograms for each kilowatt
 of continuous load. The drag makeup over the same mission is between 23 and 152 kilograms of propellant at
-the altitudes flown. **Neither number is large for a five-tonne vehicle, and that is the finding.** The
+the altitudes flown. **That neither number is large for a five-tonne vehicle is the finding.** The
 obstacle to a very long orbital mission was never physics. It was the willingness to build a vehicle that
 had nothing else to do.
 
@@ -2471,30 +2496,31 @@ Lowering perigee for twenty-four metres per second bought nearly two and a half 
 apogee reduction, a leverage of 103 to one, and did it at a fifth of the heat flux of a full entry.
 **A vehicle whose entire propulsive budget is 311 metres per second performed a 2,449 metre per second manoeuvre**,
 and the only reason it could is that it has a thermal protection system and therefore may touch the
-atmosphere without consequence. **Reusability bought manoeuvrability**, which is not the argument usually
+atmosphere without consequence. **Reusability bought manoeuvrability**, an argument not usually
 made for it.
 
 **Two smaller results deserve carrying forward because neither needed a model.** Measuring the exponent that
 relates this vehicle to the Shuttle orbiter puts mass at length to the **1.924** against 3 for geometric
 similarity, so
 **a similar orbiter shrunk to 8.92 metres would mass 1,072 kilograms and this one masses 4,990**. The small
-vehicle keeps the airframe and loses the room, which is why the payload fraction is 4.55 percent and needs
+vehicle keeps the airframe and loses the room, so the payload fraction is 4.55 percent and needs
 no apology. And the operational claim is not the longest mission but the **77.46 percent duty cycle** across
 the 5,433 days from first launch to seventh landing.
-**Two airframes held an X-37B in orbit for three quarters of fifteen years**, which is a statement about
-turnaround that the record mission conceals.
+**Two airframes held an X-37B in orbit for three quarters of fifteen years**, and the record
+mission conceals that turnaround.
 
-**The third answer is about the record itself, and it is uncomfortable.** This is the most successful
-vehicle in the last ten articles of this series and it has left the thinnest documentary trace of any of
-them. Twenty titles in a survey of 4,827 records, none describing a flown mission, and the
-space agency's reports on the vehicle stop in 2006 while the vehicle went on flying for twenty years after that.
+**The third answer is about the record itself, and it is uncomfortable.** No vehicle in the
+last ten articles of this series has been more successful, and none has left a thinner documentary trace.
+Twenty titles in a survey of 4,827 records, none describing a flown mission, and the
+space agency's reports on the vehicle stop in 2006 while the vehicle went on to fly orbital missions for
+fifteen years from 2010.
 **Four previous articles found a thin cluster for four different reasons, all of which were forms of the programme ending. This one is thin because the programme succeeded and was classified.**
 
 **The documentary trace measures the institution rather than the aircraft**, and an outside analyst armed
 with published dimensions, public orbital elements and a textbook can recover the vehicle's scale, its power
 budget, its endurance mechanism and the arithmetic of its most novel manoeuvre.
-**What that analyst cannot recover is the only thing the programme was built to do**, which is a fair
-summary of what classification achieves and what it costs.
+**What that analyst cannot recover is the only thing the programme was built to do**, and the gap fairly
+summarises what classification achieves and what it costs.
 
 ## References
 
@@ -2794,6 +2820,7 @@ summary of what classification achieves and what it costs.
 - [Buran orbiter][ref_buran]
 - [Defense Advanced Research Projects Agency][ref_darpa]
 - [Dinitrogen tetroxide][ref_nto]
+- [Dream Chaser][ref_dream_chaser]
 - [FalconSat-8][ref_falconsat8]
 - [Gallium arsenide solar cells][ref_gaas]
 - [General Catalog of Artificial Space Objects, Jonathan C. McDowell, release 1.8.8, 2026][ref_gcat]
@@ -2804,10 +2831,12 @@ summary of what classification achieves and what it costs.
 - [NASA account of the X-37 flight demonstrator][ref_nasa_x37]
 - [NASA account of the X-40A Space Maneuvering Vehicle][ref_smv]
 - [National Aeronautics and Space Administration][ref_nasa]
+- [NRL Conducts First Test of Solar Power Satellite Hardware in Orbit, U.S. Naval Research Laboratory, 18 May 2020][ref_pram]
 - [Orbital period][ref_orbital_period]
 - [Reinforced carbon-carbon][ref_carbon_carbon]
 - [Rocketdyne AR2 and the AR2-3 derivative][ref_ar23]
 - [Scaled Composites White Knight][ref_white_knight]
+- [Solar Cycle 25 Is Here, NASA release 20-089, 15 September 2020][ref_solar_cycle_25]
 - [Space Launch Initiative][ref_sli]
 - [Space Shuttle orbiter, whose approach phase defined the technique][ref_taem]
 - [Space Shuttle][ref_shuttle]
@@ -2817,12 +2846,14 @@ summary of what classification achieves and what it costs.
 - [Surfing complete, ESA, 21 February 2018, on the ExoMars Trace Gas Orbiter aerobraking campaign][ref_tgo_aerobraking]
 - [The Space Shuttle Decision, NASA SP-4221, by T. A. Heppenheimer, 1999][ref_shuttle_decision]
 - [The X-37B payload bay as described by the United States Space Force][ref_payload_bay]
+- [This Is Our First Look At The Secretive X-37B Spaceplane With Its Cargo Bay Doors Open, Tyler Rogoway, The War Zone, 2020][ref_otv_bay_open]
 - [Toughened Uni-piece Fibrous Reinforced Oxidation-resistant Composite][ref_tufroc]
 - [Tsiolkovsky rocket equation][ref_rocket_equation]
 - [United States Air Force][ref_usaf]
 - [US Military's Mysterious X-37B Space Plane Spotted by Satellite Trackers, Leonard David, Space.com, 2018][ref_otv5_tracked]
 - [Venus Express goes gently into the night, ESA, 16 December 2014][ref_venus_express_end]
 - [Vis-viva equation][ref_vis_viva]
+- [X-37B begins novel space maneuver, Secretary of the Air Force Public Affairs, 10 October 2024][ref_otv7_aerobraking]
 
 [ref_aerobraking]: https://en.wikipedia.org/wiki/Aerobraking
 [ref_ar23]: https://en.wikipedia.org/wiki/Rocketdyne_AR2
@@ -2832,6 +2863,7 @@ summary of what classification achieves and what it costs.
 [ref_buran]: https://en.wikipedia.org/wiki/Buran_(spacecraft)
 [ref_carbon_carbon]: https://en.wikipedia.org/wiki/Reinforced_carbon%E2%80%93carbon
 [ref_darpa]: https://en.wikipedia.org/wiki/DARPA
+[ref_dream_chaser]: https://en.wikipedia.org/wiki/Dream_Chaser
 [ref_equilibrium_glide]: https://en.wikipedia.org/wiki/Atmospheric_entry
 [ref_falconsat8]: https://en.wikipedia.org/wiki/FalconSat
 [ref_gaas]: https://en.wikipedia.org/wiki/Gallium_arsenide
@@ -2845,13 +2877,17 @@ summary of what classification achieves and what it costs.
 [ref_nto]: https://en.wikipedia.org/wiki/Dinitrogen_tetroxide
 [ref_orbital_period]: https://en.wikipedia.org/wiki/Orbital_period
 [ref_otv5_tracked]: https://www.space.com/40359-x-37b-space-plane-spotted-by-satellite-watchers.html
+[ref_otv7_aerobraking]: https://www.spaceforce.mil/News/Article-Display/Article/3932137/x-37b-begins-novel-space-maneuver/
+[ref_otv_bay_open]: https://www.twz.com/36440/this-is-our-first-look-at-the-secretive-x-37b-spaceplane-with-its-cargo-bay-doors-open
 [ref_payload_bay]: https://www.spaceforce.mil/About-Us/Fact-Sheets/Article/2197987/x-37b-orbital-test-vehicle/
+[ref_pram]: https://dsiac.dtic.mil/articles/nrl-conducts-first-test-of-solar-power-satellite-hardware-in-orbit
 [ref_rocket_equation]: https://en.wikipedia.org/wiki/Tsiolkovsky_rocket_equation
 [ref_sbsp]: https://en.wikipedia.org/wiki/Space-based_solar_power
 [ref_shuttle]: https://en.wikipedia.org/wiki/Space_Shuttle
 [ref_shuttle_decision]: https://ntrs.nasa.gov/citations/19990056590
 [ref_sli]: https://en.wikipedia.org/wiki/Space_Launch_Initiative
 [ref_smv]: https://www.nasa.gov/aeronautics/nasa-aircraft/x-40/
+[ref_solar_cycle_25]: https://www.nasa.gov/news-release/solar-cycle-25-is-here-nasa-noaa-scientists-explain-what-that-means/
 [ref_stefan_boltzmann]: https://en.wikipedia.org/wiki/Stefan%E2%80%93Boltzmann_law
 [ref_sutton_graves]: https://en.wikipedia.org/wiki/Atmospheric_entry#Entry_vehicle_shapes
 [ref_taem]: https://en.wikipedia.org/wiki/Space_Shuttle_orbiter

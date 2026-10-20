@@ -12,11 +12,11 @@ series_index: 35
 <!-- A331 -->
 <script>console.log("A331");</script>
 
-The [Orbital Sciences X-34][ref_x34] was cancelled on the same day, in the same decision and for the same
-stated reason as the vehicle in the previous article, and almost nothing else about the two is alike. The
-[X-33][related_post_a330_lockheed_martin_x33] was enormous, used liquid hydrogen, carried an untried engine
+The [Orbital Sciences X-34][ref_x34] was cancelled on the same day,
+[in the same decision and for the same stated reason][ref_gao_826t] as the vehicle in the previous article,
+and almost nothing else about the two is alike. The [X-33][related_post_a330_lockheed_martin_x33] was enormous, used liquid hydrogen, carried an untried engine
 architecture, and failed a structural test in a way that made a photograph.
-**The X-34 was small, burned kerosene, used an engine designed to be cheap rather than good, was finished, was towed and carried through the air by [an airliner turned launch aircraft][ref_stargazer], and was cancelled without anything breaking at all.**
+**The X-34 was small, burned kerosene, used an engine designed to be cheap rather than good, was finished, was towed and carried through the air by [an airliner turned launch aircraft][ref_stargazer], and was cancelled without anything on the vehicle breaking at all.**
 This is the thirty-fifth article in the [X-Planes series][related_post_a297_xplanes_framing], following the
 [X-1][related_post_a298_bell_x1], the [X-2][related_post_a299_bell_x2], the
 [X-3][related_post_a300_douglas_x3], the [X-4][related_post_a301_northrop_x4], the
@@ -47,19 +47,19 @@ came back was a number that did not close. **The X-34's binding unknown was cost
 
 **The keystone is whether cost can be attacked as an engineering quantity, and what it costs to try.**
 
-That is an unusual keystone for this series and the difficulty is worth stating at once. Every previous
+The keystone is unusual for this series, and the difficulty should be stated at once. Every previous
 article has dimensioned an aircraft against a physical unknown. A drag rise, a heating rate, a divergence
 speed, a mass fraction. **Those quantities have units, conservation laws and instruments.** Cost has none of
 the three. It has no equation of state, it cannot be measured on the article, and every number attached to
-it is a forecast rather than a reading.
+it is a forecast and none is a reading.
 
 ### Why That Is Not a Reason to Refuse the Subject
 
 **The cost argument left physical fingerprints, and those can be computed.** A programme that attacks cost
 does it by simplifying, and every simplification has a performance price with units. The X-34 chose an
-engine cooled by being destroyed, a propellant with a third of the specific energy advantage and three times
-the density, an aeroplane to carry it to altitude instead of a launch pad, and a level of system testing
-that a later review found insufficient.
+engine cooled by being destroyed, a propellant of lower specific impulse and about three times the bulk
+density of hydrogen and oxygen, an aeroplane to carry it to altitude instead of a launch pad, and a level of
+system testing that a later review found insufficient.
 **Three of those four choices can be priced in kilograms, seconds and newtons.** The fourth could not be
 priced at all until somebody tried to fly the vehicle.
 
@@ -67,12 +67,13 @@ priced at all until somebody tried to fly the vehicle.
 
 **A cheap demonstrator demonstrates that demonstrators can be cheap.** Whether it demonstrates that an
 operational vehicle can be cheap is a separate claim and a much weaker one, and the distinction runs through
-this whole article.
+this article.
 
-**The programme's own answer arrived as an arithmetic correction rather than as a test result.** A
-restructure plan put the total requirement at about 348 million dollars against roughly 86 million budgeted
-in 1996, and the reason given was that reaching an acceptable level of risk needed more system testing, more
-government technical insight and more integrated assessment.
+**The programme's answer did not come from a test. It arrived as an arithmetic correction.** Working
+from the restructure plan of June 2000, [the oversight body estimated][ref_gao_826t] the total requirement at
+about 348 million dollars against roughly 86 million budgeted in 1996, and the reason
+[the agency gave][ref_nasa_x34_factsheet_2009] was that reaching an acceptable level of risk needed more
+government technical insight, more hardware testing and more integrated assessment.
 **Those are the things a low-cost programme removes.**
 
 ## Programme Origin
@@ -81,13 +82,14 @@ government technical insight and more integrated assessment.
 
 **The X-34 belongs to the same family as the X-33 and answers a different half of the same question.** Both
 were technology demonstrators under a [reusable launch vehicle][ref_rlv] programme whose stated ambition was
-an order-of-magnitude reduction in the cost of reaching orbit. The X-33 pursued that by attacking the mass
-fraction, which is the physics of the problem.
+[an order-of-magnitude reduction][ref_gao_826t] in the cost of reaching orbit. The X-33 pursued that by
+attacking the mass fraction, which is the physics of the problem.
 **The X-34 pursued it by attacking the price of the hardware, which is not.**
 
-The contract went to [Orbital Sciences][ref_orbital] in 1996 at a figure near 86 million dollars, which set
-it against the X-33 at more than a billion. **A ratio of that size is the argument in a single number**, and
-testing whether the ratio survives contact with the vehicles is the work of the Where the Framing Breaks
+The contract went to [Orbital Sciences][ref_orbital] in August 1996 as a fixed-price award of 49.5 million
+dollars, and with its later options and the engine project the vehicle was budgeted at about 86 million
+dollars, which [set it against the X-33][ref_gao_826t] at more than a billion.
+**A ratio of that size is the argument in a single number**, and testing whether the ratio survives contact with the vehicles is the work of the Where the Framing Breaks
 Down section.
 
 ### The Company and the Method
@@ -95,15 +97,15 @@ Down section.
 **Orbital Sciences had already done the thing the X-34 needed.** The company operated
 [an air-launched satellite booster][ref_pegasus] carried by a modified airliner, so the carrier aircraft,
 the release mechanism, the separation problem and the operating culture existed before the X-34 did.
-**A programme that reuses an existing carrier does not pay for one**, and that is a real cost argument
-rather than a rhetorical one.
+**A programme that reuses an existing carrier does not pay for one**, and the saving it makes is a real
+one.
 
-### The Engine Nobody Else Would Have Built
+### The Fastrac Engine
 
 **The [Fastrac engine][ref_fastrac], also designated MC-1, was designed by [a government laboratory][ref_msfc] to be cheap.**
 It used a [gas generator cycle][ref_gasgen], commercial parts where they would serve, a simplified
 turbopump, and a combustion chamber and nozzle cooled not by circulating its own fuel but by being consumed.
-**An engine reported at around 1.2 million dollars in its development phase, against a production target near 350,000, is a different kind of object from the one in the previous article**,
+**An engine [reported at around 1.2 million dollars][ref_msfc_fastrac_factsheet] in its development phase, against a production target near 350,000, is a different kind of object from the X-33's engine**,
 and the Sizing section takes it apart.
 
 ## Sizing From First Principles
@@ -112,14 +114,15 @@ and the Sizing section takes it apart.
 
 **Begin with the engine figures as they are usually quoted, because they contain a discrepancy that turns out to be informative.**
 They are a vacuum thrust of 60,000 pounds force, a vacuum specific impulse of 314 seconds, and a total
-propellant mass flow of 91.90 kilograms per second.
+propellant mass flow of 91.90 kilograms per second, as [the engine's usual specification][ref_fastrac] gives
+them.
 
 **Those three quantities are related by [the definition of specific impulse][ref_isp].** Writing $F$ for
 thrust, $\dot{m}$ for mass flow and $g_0$ for standard gravity,
 
 $$I_{sp} = \frac{F}{\dot{m} \, g_0}$$
 
-which is the form [Sutton sets out for propulsion analysis][book_rocket_propulsion_elements].
+in the form [Sutton sets out for propulsion analysis][book_rocket_propulsion_elements].
 
 Converting the thrust to 266,893 newtons, which is 266.9 kilonewtons, and substituting,
 
@@ -179,10 +182,10 @@ against the 315.59 seconds the whole flow gives, so
 $$\Delta I_{sp} = 327.05 - 315.59 = 11.46 \ \text{s}$$
 
 which is an upper bound, because a turbine exhaust duct recovers a little thrust.
-**The two percentages are identical and that is not a coincidence.** The fractional impulse the cycle costs
+**The two percentages are identical by necessity.** The fractional impulse the cycle costs
 equals the fractional flow the cycle takes, exactly, because both are one minus the same ratio.
 
-The gas generator and turbopump literature behind these figures is gathered below in the clusters on liquid rocket engines, turbopumps and combustion and on rocket nozzles, plumes and expansion. It includes the fuel-rich generator designs of [Kwon et al 2004][research_kwon_lee_2004] and [Jeon et al 2004][research_jeon_lee_2004] and the Fastrac's own generator testing in [Nesman and Dennis 1999][research_nesmantomase_dennisjay_1999].
+Two clusters below, on liquid rocket engines, turbopumps and combustion and on rocket nozzles, plumes and expansion, hold the gas generator and turbopump literature behind these figures. It includes the fuel-rich generator designs of [Kwon et al 2004][research_kwon_lee_2004] and [Jeon et al 2004][research_jeon_lee_2004] and the Fastrac's generator testing in [Nesman and Dennis 1999][research_nesmantomase_dennisjay_1999].
 
 ### A Fourth Number That Closes on the Other Three
 
@@ -203,7 +206,7 @@ the test duration were published separately and by different parts of the progra
 vehicle burning one propellant load with about seven and a half percent to spare.
 **Had the tested duration come out below the mission burn, one of the four numbers would have been wrong.**
 
-### What the Vehicle Could Actually Reach
+### What the Vehicle Could Reach
 
 **The engine's figures do not by themselves say what the vehicle can do with it**, and the
 answer is a check on the published masses. The effective exhaust velocity is the flight engine's published
@@ -235,28 +238,28 @@ masses rather than on the trajectory.
 $$\frac{F}{m_0 g_0} = \frac{284{,}415}{21{,}800 \times 9.80665} = 1.330$$
 
 **and a vehicle released in level flight needs no more than one**, because the wing is already carrying it.
-Being above one is what lets an air-launched vehicle pitch up immediately rather than sinking while it
+Being above one lets an air-launched vehicle pitch up immediately instead of sinking while it
 accelerates.
 
-The propellant mass fraction follows from the same masses,
+The masses also fix the propellant mass fraction,
 
 $$\zeta = \frac{13{,}600}{21{,}800} = 0.6239$$
 
-**or 62.4 percent, against 73.7 for the X-33 and the 89.0 percent an orbital vehicle needs.** The X-34 is
+**or 62.4 percent, against 73.7 for [the X-33][related_post_a330_lockheed_martin_x33] and the 89.0 percent an orbital vehicle needs.** The X-34 is
 further from an orbital mass fraction than the X-33 was, and neither was required to be close, because
 neither was going anywhere near orbit.
-**That is worth saying plainly, because the temptation with a demonstrator is to read its numbers as predictions of the vehicle it stood for.**
+**The distinction matters, because the temptation with a demonstrator is to read its numbers as predictions of the vehicle it stood for.**
 
 ### The Chamber That Is Consumed
 
 **The Fastrac's combustion chamber and nozzle were cooled [ablatively][ref_ablative].** There is no
-[regenerative jacket][ref_regen] circulating fuel through passages in the wall. Instead a silica-phenolic
-liner inside a composite overwrap absorbs heat by decomposing, and the gas that leaves the decomposing
-surface keeps the hot flow off the wall. **The wall survives by being destroyed at a controlled rate.**
+[regenerative jacket][ref_regen] circulating fuel through passages in the wall. Instead
+[a silica-phenolic liner][ref_msfc_fastrac_factsheet] inside a composite overwrap absorbs heat by
+decomposing, and the gas that leaves the decomposing surface keeps the hot flow off the wall. **The wall survives by being destroyed at a controlled rate.**
 
-**That is a genuine cost argument**, and the manufacturing burden it avoids is set out in
+**Here the cost argument holds**, and the manufacturing burden it avoids is set out in
 [the same design text][book_design_of_liquid_propellant_rocket_eng]. A regeneratively cooled chamber is a
-precision assembly of hundreds of brazed passages, and it is one of the most expensive parts of a rocket
+precision assembly of hundreds of brazed passages and one of the most expensive parts of a rocket
 engine to make. An ablative liner is a moulding.
 
 **It has a consequence that the words reusable launch vehicle do not prepare anyone for.** Taking the
@@ -298,10 +301,10 @@ $$A_e = \varepsilon A_t = 30 \times 0.034488 = 1.0346 \ \text{m}^2$$
 **an exit 1.148 metres across**, which is a check on the published ratio, because a nozzle wider than the
 vehicle could not have been fitted to it.
 
-#### How Fast the Wall Is Destroyed, Which Is Not an Assumption
+#### How Fast the Wall Is Destroyed
 
-**A recession rate is the output of an energy balance rather than an input to one**, and the balance is
-worth running because it fails in an instructive way.
+**A recession rate is the output of an energy balance rather than an input to one**, and running the
+balance is instructive because it fails.
 
 **Start with the heat the wall has to survive.** The standard estimate for a rocket throat is the Bartz
 correlation, which gives the gas-side heat transfer coefficient as
@@ -315,7 +318,7 @@ between the recovery temperature and the ablating surface,
 $$q = h_g \left(T_{aw} - T_w\right) = 8{,}674 \times \left(3{,}150 - 1{,}900\right) = 10.84 \ \text{MW/m}^2$$
 
 **Ten megawatts per square metre is the order of magnitude a rocket throat delivers.** The correlation is
-good to perhaps a factor of two and that is stated because what follows depends on it.
+good to perhaps a factor of two, a limit stated here because what follows depends on it.
 
 **Now the balance.** A surface protecting itself by being destroyed removes heat at a rate set by how much
 energy each kilogram carries away, so writing $H_{\text{eff}}$ for that effective heat of ablation and
@@ -323,46 +326,51 @@ $\rho_a$ for the material density,
 
 $$\dot{s} = \frac{q}{\rho_a H_{\text{eff}}}$$
 
-**Run it forwards with the energy the material can actually absorb.** Heating silica phenolic from room
-temperature to 1,900 kelvin takes about 1.76 megajoules per kilogram and vaporising the silica about 12, so
+**Run it forwards with the energy the material can actually absorb.** On representative property values,
+heating silica phenolic from room temperature to 1,900 kelvin takes about 1.76 megajoules per kilogram and
+vaporising the silica about 12, so
 
 $$H_{\text{absorb}} = 13.76 \ \text{MJ/kg} \qquad \Rightarrow \qquad \dot{s} = 0.463 \ \text{mm/s}$$
 
-**which over the 148 second burn is 68.6 millimetres, and that is absurd.** A throat losing that much would
+**Over the 148 second burn that rate removes 68.6 millimetres, an absurd figure.** A throat losing that much would
 not survive, and ablative chambers of this class do not behave that way.
 
-**So invert it.** Chambers of this kind recede at something nearer a tenth of a millimetre per second, and
-putting that in gives
+**So invert it.** [The nozzle design report][research_peterswarren_rogerspat_2000] set a throat erosion
+requirement of under 2 mils per second, which is 0.051 millimetres per second, and found no throat enlarged
+after 66 firings totalling 1,803 seconds, so a tenth of a millimetre per second is a generous upper figure,
+and putting that in gives
 
 $$H_{\text{eff}} = \frac{q}{\rho_a \dot{s}} = \frac{10.84 \times 10^6}{1{,}700 \times 10^{-4}} = 63.8 \ \text{MJ/kg}$$
 
-**against 13.76 that the material can absorb, a ratio of 4.6.**
+**against 13.76 that the material can absorb, a ratio of 4.6, which a slower recession would only raise.**
 
 **The ablator is not mostly absorbing the heat. It is blocking it.** Pyrolysis gas leaving the decomposing
 surface blows into the boundary layer and thickens it, cutting the heat that arrives in the first place.
-**Absorption is the small term and transpiration is the large one**, by roughly a factor of four, and that
-is why an ablative wall works at all rather than merely melting.
+**Absorption is the small term and transpiration is the large one**, by a factor of at least four, and an
+ablative wall survives because of the large term.
 
-**The forward calculation being wrong by that factor is the result**, and it is why a recession rate is
+**The forward calculation being wrong by that factor is the result.** It explains why a recession rate is
 measured rather than predicted.
 
-**The Bartz correlation and the ablation balance are standard results and are not this article's.** What is
-this article's is the inversion, which is arithmetic on the balance rather than a new relation, and the
-observation that the factor between the two answers is the transpiration term.
+**The Bartz correlation and the ablation balance are standard results and are not this article's.** This
+article's contribution is the inversion, an arithmetic step on the balance that introduces no new relation, and
+the observation that the factor between the two answers is the transpiration term.
 
 **Both halves rest on literatures older than the programme.** The convective heat transfer to a rocket
-nozzle was correlated in the late 1950s and the transpiration and mass-injection work that explains the
-blocking term runs alongside it, so the physics the X-34's chamber depended on was forty years settled when
-the engine was designed.
+nozzle was being estimated from the middle 1950s, as in [Sibulkin 1956][research_sibulkin_1956] and
+[Mayer 1961][research_mayer_1961], and the transpiration work that explains the blocking term runs alongside
+it, as in [Bartle and Leadon 1960][research_bartle_leadon_1960] and
+[Librizzi and Cresci 1964][research_librizzi_cresci_1964], so the physics the X-34's chamber depended on was
+some forty years settled when the engine was designed.
 
 #### What That Costs the Chamber
 
-At a tenth of a millimetre per second the liner loses
+At the upper figure of a tenth of a millimetre per second the liner loses
 
 $$\Delta s = \dot{s} \, t_b = 10^{-4} \times 148.0 = 14.8 \ \text{mm}$$
 
-over a full burn, so a chamber built to fly one mission is centimetres thick in its consumable layer and
-that layer is gone at the end of it.
+over a full burn, so a chamber built to fly one mission needs a consumable layer of the order of a
+centimetre and a half, and at the published erosion requirement about half that.
 
 | Recession rate | Liner consumed over the burn |
 |---|---|
@@ -371,20 +379,20 @@ that layer is gone at the end of it.
 | 0.15 mm per second | 22.2 mm |
 | 0.20 mm per second | 29.6 mm |
 
-**The engine's combustion chamber was a consumable on a vehicle whose entire purpose was reuse**, and the
-programme said so plainly, replacing the chamber and the ignition cartridge after each flight while reusing
-the rest.
-**At the planned rate of twenty-five flights a year, that is twenty-five combustion chambers a year.**
+**The engine's combustion chamber was a consumable on a vehicle whose entire purpose was reuse**, and
+[the engine's fact sheet][ref_msfc_fastrac_factsheet] said so, with the ablative chamber and nozzle
+and the hypergolic ignition cartridge to be replaced after each flight and nearly all the rest reused.
+**At [the planned rate of twenty-five flights a year][research_londonjohnriii_lylesgarrym_1998], that is twenty-five combustion chambers a year.**
 
-**Whether that is cheap depends entirely on what a chamber costs, which is the article's keystone arriving as a component.**
-A moulding at a few tens of thousands of dollars makes it obviously right. A moulding at a few hundred
-thousand makes it obviously wrong. **The public record does not contain the number**, and the Epistemic
-State says so rather than guessing.
+**Whether that is cheap depends entirely on what a chamber costs. The article's keystone has arrived as a component.**
+A moulding at a few tens of thousands of dollars makes it right. A moulding at a few hundred
+thousand makes it wrong. **The public record does not contain the number**, and the Epistemic
+State records the gap without guessing at it.
 
-### What Air Launch Actually Donates
+### What Air Launch Donates
 
 **The X-34 was [carried to altitude under a modified airliner and released][ref_airlaunch], and the usual argument for that is altitude and speed.**
-The usual argument is the weakest of the several available.
+It is the weakest of the several available.
 
 Taking a release at 38,000 feet, which is 11,582 metres and is the approximate launch altitude that
 [the engine development report][research_ballardrichardo_olivetim_2000] gives for the X-34, at an assumed
@@ -398,8 +406,8 @@ $$e = 9.80665 \times 11{,}582 + \frac{236.1^2}{2} = 141{,}446 \ \text{J/kg}$$
 
 $$\Delta v_{\text{equiv}} = \sqrt{2e} = 531.9 \ \text{m/s}$$
 
-**which is 5.7 percent of a 9,300 metre per second orbital budget.** An argument for air launch that rests
-on the altitude and the speed is arguing from the smallest of its own benefits.
+**The figure is 5.7 percent of a 9,300 metre per second orbital budget.** An argument for air launch from
+the altitude and the speed argues from the smallest of its benefits.
 
 **The larger measurable benefit is that the nozzle never sees sea level.** Thrust falls below its vacuum
 value by the ambient pressure acting over the exit area,
@@ -414,7 +422,7 @@ $$\left(101{,}325 - 20{,}646\right) \times 1.0346 = 83{,}470 \ \text{N}$$
 which is 83,470 newtons, the difference between a loss at sea level of 104.83 kilonewtons and one at the
 release altitude of only 21.36.
 **Launching from altitude recovers 83.47 kilonewtons, which is 29.3 percent of the flight nozzle's vacuum thrust**,
-and that is about five times the share of an orbital budget that the altitude and speed donate. The simple
+about five times the share of an orbital budget that the altitude and speed donate. The simple
 relation overstates the sea-level case, because a 30:1 nozzle at sea level is badly overexpanded, and
 [the nozzle design report][research_peterswarren_rogerspat_2000] records that the nozzle was sometimes
 truncated to 15:1 to prevent overexpansion and the side loads that come with it. **That truncation is the
@@ -440,7 +448,8 @@ taking the middle of that range,
 
 $$\rho_o = 1{,}142 \ \text{kg/m}^3 \qquad \rho_f = \frac{800 + 820}{2} = 810 \ \text{kg/m}^3$$
 
-and the hydrogen side keeps the previous article's 70.85 kilograms per cubic metre. At the engine mixture
+and the hydrogen side keeps [the previous article's][related_post_a330_lockheed_martin_x33] 70.85 kilograms
+per cubic metre. At the engine mixture
 ratio of 2.17 that the development status report publishes,
 
 $$\rho_{\text{bulk}} = \left[\frac{1}{3.17}\frac{1}{810} + \frac{2.17}{3.17}\frac{1}{1{,}142}\right]^{-1} = 1{,}011.2 \ \text{kg/m}^3$$
@@ -457,11 +466,11 @@ $$\frac{m_f}{m_p} = \frac{1}{1+r} = \frac{1}{3.17} = 0.3155$$
 
 **or 31.5 percent, so the X-34 carried 4,290 kilograms of kerosene against 9,310 of oxygen.**
 
-**The previous article's central sentence inverts exactly.** Hydrogen is 15.4 percent of the propellant mass
+**[The previous article's][related_post_a330_lockheed_martin_x33] central sentence inverts.** Hydrogen is 15.4 percent of the propellant mass
 and 74.6 percent of its volume, so the fuel tank is the vehicle.
 **Kerosene is about a third of the mass and 39.4 percent of the volume**, so the fuel tank is a tank.
 
-The consequence is easiest to see in the load the X-34 actually carried.
+The consequence is easiest to see in the load the X-34 carried.
 
 $$\frac{13{,}600}{1{,}011.2} = 13.45 \ \text{m}^3 \qquad \text{against} \qquad \frac{13{,}600}{343.4} = 39.61 \ \text{m}^3$$
 
@@ -475,7 +484,7 @@ at pressure $p$ has mass $k \rho_w p V / \sigma$ and holds $\rho_p V$ of propell
 $$\frac{m_{\text{tank}}}{m_{\text{prop}}} = \frac{k \, \rho_w \, p}{\sigma \, \rho_p}$$
 
 **and the size cancels.** That cancellation is why a subscale tank was a valid test of a full-scale tank
-technology, and it is the strongest thing the previous article had to say about demonstrators.
+technology. It was the strongest thing the previous article had to say about demonstrators.
 
 **It cancels only while stress sets the thickness.** The membrane thickness a pressure demands is
 
@@ -539,8 +548,9 @@ which at 0.3048 metres to the foot are
 
 $$L = 58.3 \times 0.3048 = 17.77 \ \text{m} \qquad b = 27.7 \times 0.3048 = 8.44 \ \text{m}$$
 
-It had a composite airframe with composite propellant tanks, silica tiles and flexible blankets for thermal
-protection, and it was to land itself on a runway without a pilot.
+It had a composite airframe with composite propellant tanks, silica-based tiles and
+[flexible blankets][research_wursterkathryne_rileychristopherj_1998] for thermal protection, and it was to land
+itself on a runway without a pilot.
 
 **The same fact sheet gives an unfuelled weight of 18,000 pounds and 30,000 pounds of liquid oxygen and kerosene.**
 At 0.45359237 kilograms to the pound, and writing $m_e$ for the empty mass and $m_0$ for the release mass,
@@ -550,13 +560,13 @@ $$m_e = 18{,}000 \times 0.45359237 = 8{,}165 \ \text{kg} \qquad m_p = 30{,}000 \
 $$m_0 = m_e + m_p = 48{,}000 \ \text{lb} = 21{,}772 \ \text{kg}$$
 
 **This article rounds the 8,165, 13,608 and 21,772 kilograms to 8,200, 13,600 and 21,800**, and the sum
-still closes after rounding. The closure is by construction rather than a check, because the fact sheet
-does not give the release mass separately, and it is worth noting only because the previous article's did not.
+still closes after rounding. The closure holds by construction and is no check, because the fact sheet
+does not give the release mass separately, and it deserves mention only because the previous article's did not.
 
 ### What Was Deliberately Left Out
 
-**The list of things the X-34 did not have is the list a later review objected to**, and reading it forwards
-rather than backwards is the honest way to treat it. The vehicle had single-string avionics, meaning no
+**The list of things the X-34 did not have is the list [a later review][ref_nasa_x34_factsheet_2009] objected to**, and it reads more
+fairly forwards than backwards. The vehicle had single-string avionics, meaning no
 redundant channel for a failure to fall back on. Its system-level testing was thin. Its automatic landing
 had not been validated in flight.
 
@@ -568,9 +578,11 @@ it was building.
 
 ### Thermal Protection
 
-**The X-34 used silica tiles and flexible insulation blankets** rather than the metallic system the X-33
-chose, and the requirement that shaped it was unusual. The vehicle had to survive subsonic flight through
-weather, because an air-launched vehicle spends its climb attached to an aeroplane flying through whatever
+**The X-34 used silica-based tiles on its nose and wing leading edges and flexible insulation blankets elsewhere**
+rather than the metallic system the X-33 chose, as
+[Wurster et al 1998][research_wursterkathryne_rileychristopherj_1998] describe, and the requirement that
+shaped it was unusual. The vehicle had to [survive subsonic flight through weather][ref_nasa_x34_factsheet],
+because an air-launched vehicle spends its climb attached to an aeroplane flying through whatever
 is between the runway and a launch altitude that
 [the engine development report][research_ballardrichardo_olivetim_2000] puts at about 38,000 feet.
 **A launch pad does not fly through rain.**
@@ -578,8 +590,8 @@ is between the runway and a launch altitude that
 ### Autonomy and Landing
 
 **An unpiloted vehicle that lands on a runway has to be right the first time**, and the X-34 was to
-demonstrate automatic landing including in a twenty-knot crosswind, with navigation from a combination of
-satellite and inertial systems.
+demonstrate automatic landing including [in a twenty-knot crosswind][research_londonjohnriii_lylesgarrym_1998],
+with [navigation from a combination of satellite and inertial systems][ref_nasa_x34_factsheet].
 
 **This is where the cost argument and the risk argument meet most directly.** Automatic landing is cheap to
 specify and expensive to prove, because proving it means flying it, and flying it is what the programme had
@@ -587,43 +599,47 @@ not yet done when it was asked what its residual risk was.
 
 ### Aerodynamics
 
-**The aerodynamic work was conventional and the vehicle was small enough to be tested honestly**, which is
-one genuine advantage of a small demonstrator that the mass-fraction argument does not capture. A wind
+**The aerodynamic work was conventional and the vehicle was small enough to be tested honestly**, one
+advantage of a small demonstrator that the mass-fraction argument does not capture. A wind
 tunnel model of a 17-metre vehicle is a larger fraction of full scale than a model of a 21-metre one, and
 the Reynolds number gap is correspondingly smaller.
 
 ## The Flight Test Record
 
-**There is no powered flight test record. The X-34 never fired its engine in the air.**
+**There is no powered flight test record. The X-34 [never fired its engine in the air][ref_nasa_x34_factsheet].**
 
-### What Actually Happened
+### Ground Tests and Captive Flights
 
-The first unpowered airframe was rolled out in 1999 at [the agency's flight research centre][ref_dryden]. It
-was towed on the ground behind a vehicle to check its landing gear and low-speed handling, and it was
-carried aloft beneath the carrier aircraft on captive flights beginning in June 1999, with further captive
-flights that September. **A second airframe was mated to the carrier in 2000.** The engine was tested
-extensively on the ground, and its longest firing, of 159.03 seconds, is the one set against the mission
-burn in the section headed A Fourth Number That Closes on the Other Three.
+The first unpowered airframe was [rolled out in 1999][ref_fastrac] at
+[the agency's flight research centre][ref_dryden]. It was [towed on the ground][ref_x34] behind a vehicle,
+and it was carried aloft beneath the carrier aircraft on a first captive flight on 29 June 1999, with
+[two more captive flights later that year][ref_nasa_x34_factsheet].
+**Two airframes were completed of the three planned.** The engine was tested extensively on the ground,
+and its longest firing, of 159.03 seconds in [the engine's test record][research_ballardrichardo_olivetim_2000],
+is the firing set against the mission burn earlier, under A Fourth Number That Closes on the Other Three.
 
-**No free flight was ever made, powered or unpowered.** The vehicle was never released from the carrier
-aircraft.
+**No free flight was ever made, powered or unpowered.** The vehicle was
+[never released from the carrier aircraft][ref_nasa_x34_factsheet].
 
 ### The Review That Ended It
 
 **A joint review in 2000 found that the project needed its approach, scope, budget and schedule redefined**,
 and named the risks. They were inadequate system testing, single-string avionics and an unvalidated
 automatic landing. Reaching an acceptable level of risk would require more government technical insight,
-more hardware testing and integrated systems assessment.
+more hardware testing and integrated systems assessment, as
+[the agency's fact sheet of the period][ref_nasa_x34_factsheet_2009] records.
 
-**The restructure plan that followed put the total requirement near 348 million dollars against roughly 86 million budgeted in 1996**,
-and the programme was cancelled on 31 March 2001 alongside the X-33, with the agency stating that the
-benefits did not justify continued investment and that the funds were needed for
-[the initiative that replaced both][ref_sli]. The oversight body
+**An estimate drawn from the restructure plan that followed put the total requirement near 348 million dollars against roughly 86 million budgeted in 1996**,
+in [the oversight body's testimony][ref_gao_826t], and the programme ended on 31 March 2001, after a
+funding decision announced together with the X-33's, with [the agency stating][ref_nasa_x34_factsheet] that
+the benefits did not justify continued investment and that the funds of
+[the initiative that replaced both][ref_sli] should go to higher priority needs. The oversight body
 [examined the two cancelled programmes together][ref_gao_x33x34] later that year.
 
 $$\frac{348 - 86}{86} = 3.05$$
 
-**A growth of 305 percent, and the arithmetic is not the interesting part.** What the number measures is.
+**A growth of 305 percent on the rounded figures, and the arithmetic is not the interesting part.** The
+oversight body, working from unrounded ones, gives 307 percent. What the number measures is.
 
 ## Comparison With Ground Prediction
 
@@ -632,48 +648,51 @@ $$\frac{348 - 86}{86} = 3.05$$
 ### Where the Ground Tests Agreed With Prediction
 
 **The engine worked.** It was fired repeatedly, including for 159.03 seconds, which exceeds the 148 second
-burn a full propellant load implies, by the margin displayed in the section headed A Fourth Number That
-Closes on the Other Three. The published thrust, impulse and flow figures are mutually consistent to within
-half a percent once each nozzle's thrust is paired with its own impulse, as the section headed The Gap Is the
-Nozzle shows, and the generator fraction of 3.50 percent displayed in the section headed The Cycle Is Smaller
-Than the Gap lands inside the range the cycle architecture uses.
+burn a full propellant load implies, by the margin the burn-time check above derived. The published
+thrust, impulse and flow figures are mutually consistent to within half a percent once each nozzle's thrust
+is paired with its own impulse, as the nozzle pairing above shows, and the generator fraction of 3.50
+percent derived under The Cycle Is Smaller Than the Gap lands inside the range the cycle architecture uses.
 **Nothing in the engine's published numbers indicates a machine that was not doing what it was designed to do.**
 
-**The airframe was built, twice.** It was towed, it was carried, it held together, and the two airframes
-outlived the programme by nearly two decades.
+**The airframe was [built, twice][ref_nasa_x34_factsheet].** It was towed, it was carried, it held together, and the two airframes
+[outlived the programme][ref_x34] by nearly two decades.
 
-### Where Prediction and Outcome Diverged, and It Was Not a Physical Quantity
+### Where Prediction and Outcome Diverged
 
 **The prediction that failed was the cost estimate, and it failed by a factor of four.** No structure broke,
-no engine failed, no aerodynamic surprise appeared.
+[the engine's development problems were found and corrected on the ground][research_ballardrichardo_olivetim_2000],
+and no aerodynamic surprise appeared.
 **The quantity that moved was the one with no conservation law.**
 
 **That is a different kind of divergence from any this series has met.** A drag rise that comes in higher
 than predicted is a fact about air. A cost estimate that comes in higher than predicted is a fact about what
-was left out of the estimate, and the review that produced the new figure said exactly what had been left
+was left out of the estimate, and the review that produced the new figure named what had been left
 out.
 
 ### The Comparison the Programme Never Got to Make
 
 **The X-34 was to demonstrate rapid turnaround, and turnaround is the one quantity that would have tested the whole cost argument.**
-A vehicle that flies twenty-five times a year with a small crew is a different economic object from one that
-flies twice. **The programme never flew once**, so the number that mattered most was never measured, and the
-article's Epistemic State says so.
+[London and Lyles 1998][research_londonjohnriii_lylesgarrym_1998] give the goal as 25 flights in a year with
+a surge of two flights within 24 hours. A vehicle that flies twenty-five times a year with a small crew is
+a different economic object from one that flies twice. **The programme never flew once**, so the number that mattered most was never measured, and the
+Epistemic State lists it as unsettled.
 
-The operations and turnaround literature is gathered below in the clusters on launch vehicle design, staging and operations and on risk, reliability, safety and health management, among them the turnaround time model for conceptual rocket engines in [Nix and Staton 2004][research_nixmichael_statonericj_2004] and the reliability and maintainability models for reusable launch vehicles in [Unal et al 2000][research_unalresit_morriswdouglas_2000] and [Unal et al 2004][research_unalresit_morriswdouglas_2004].
+Work on operations and turnaround appears below under launch vehicle design, staging and operations and under risk, reliability, safety and health management. It includes the turnaround time model for conceptual rocket engines in [Nix and Staton 2004][research_nixmichael_statonericj_2004] and the reliability and maintainability models for reusable launch vehicles in [Unal et al 2000][research_unalresit_morriswdouglas_2000] and [Unal et al 2004][research_unalresit_morriswdouglas_2004].
 
 ## What the Data Changed
 
 ### The Verdict on the Cost Argument, Tested Both Ways
 
 **Take the two programmes cancelled in the same decision and divide what each spent by the mass of vehicle it produced.**
-Mass is a poor denominator for cost, and it is used here because it is the one comparable quantity both
+Mass is a poor denominator for cost. It is used here because it is the one comparable quantity both
 programmes published. Cost estimating for space systems has its own methods, set out in
 [Wertz and Larson's standard treatment of space mission design][book_space_mission_analysis_and_design], and
 none of them is a division by mass.
-**The article says that rather than pretending the ratio means more than it does.**
+**The article states that limit openly so that the ratio is not taken to mean more than it does.**
 
-The X-34's release mass is the fact sheet's 48,000 pounds, the sum displayed in the section headed The Vehicle, against 285,000 for the X-33.
+The X-34's release mass is the fact sheet's 48,000 pounds, the sum displayed in the description of the vehicle above, against 285,000 for [the X-33][ref_x33].
+The X-34's spending is reported as [just under 112 million dollars][ref_x34], and the X-33's as about
+1,280 million, being the [922 million the agency and 357 million Lockheed Martin put in][ref_x33].
 
 $$\frac{112 \times 10^6}{48{,}000} = 2{,}333 \ \text{dollars per pound}$$
 
@@ -687,11 +706,11 @@ efforts.
 
 $$\frac{348 \times 10^6}{48{,}000} = 7{,}250 \ \text{dollars per pound}$$
 
-**which is 7,250 dollars per pound, or 1.61 times the X-33's actual spend per pound.** The vehicle built to
+**The result, 7,250 dollars per pound, is 1.61 times the X-33's actual spend per pound.** The vehicle built to
 be cheap would have cost more per pound to finish than the vehicle everyone remembers as the expensive one.
 
 **Both figures are published and they answer different questions.** The first says the programme was
-genuinely economical at building hardware.
+economical at building hardware.
 **The second says that building hardware was not the expensive part.**
 
 ### What the Programme Settled
@@ -700,38 +719,39 @@ genuinely economical at building hardware.
 which was never seriously in doubt and which the airframes themselves prove.
 
 **It settled that an ablatively cooled engine of that class can be built and run**, and the Fastrac was
-fired far more than the X-34 ever flew.
+[fired far more][research_ballardrichardo_olivetim_2000] than the X-34 ever flew.
 
 **It did not settle anything about the cost of an operational reusable launch vehicle**, because the
 quantity that would have settled it, turnaround, was never measured.
 
-The cost literature these conclusions rest on is gathered below in the cluster on cost estimation, cost growth and acquisition, including the launch systems operations cost model of [Prince and Hamaker 2001][research_princefranka_hamakerjosephw_2001] and the cost analysis of a single-stage reusable ballistic launch vehicle in [Koelle 1993][research_koelle_1993].
+These conclusions draw on the cluster on cost estimation, cost growth and acquisition, including the launch systems operations cost model of [Prince and Hamaker 2001][research_princefranka_hamakerjosephw_2001] and the cost analysis of a single-stage reusable ballistic launch vehicle in [Koelle 1993][research_koelle_1993].
 
 ### What It Fed Into
 
-**The engine outlived the vehicle by years as a technology project and then closed too.** The ablative
-low-cost approach did not become the standard route to a cheap engine.
+**The engine's record after the vehicle is unclear**, since [one account][ref_fastrac] dates the end of its
+programme to 2001 and the closure of its test project to 2009. The ablative low-cost approach did not become
+the standard route to a cheap engine, and the [kerosene engine that followed the Fastrac's methods][ref_fastrac]
+is now regeneratively cooled.
 
-**What did become the standard route is visible in what replaced the whole programme's premise.** The
-decision history that produced this whole family of programmes is set out in
+**What did become the standard route is visible in what replaced the programme's premise.** The
+decision history that produced this family of programmes is set out in
 [Heppenheimer's account of the shuttle decision][book_the_space_shuttle_decision]. The reduction in launch
-cost that the reusable launch vehicle programme was chartered to pursue did arrive, and it arrived through
-recovering and reflying an expensive engine many times rather than through building a cheap one to throw
-away.
+cost that the reusable launch vehicle programme was chartered to pursue has since been sought through
+recovering and reflying an expensive engine many times, [one Falcon 9 engine having flown twenty-two times][ref_rlv],
+rather than through building a cheap one to throw away.
 **The X-34's bet was that the way to make launch cheap is to make the hardware cheap. The bet that paid was that the way to make launch cheap is to use expensive hardware more often.**
 
-**That is worth stating carefully rather than triumphally.** The two strategies are not opposites and a
-small launcher today may well be right to use a simple engine. What can be said is that the specific
-inference the X-34 rested on, that cheap hardware implies cheap access, was not the one that turned out to
-matter most.
+**That conclusion needs stating with care and without triumph.** The two strategies are not opposites and
+a small launcher today may well be right to use a simple engine. What can be said is that the inference
+behind the X-34, that cheap hardware implies cheap access, was not the one that turned out to matter most.
 
 ### What It Failed to Influence
 
-**The two airframes are the most direct evidence of influence, and they went to a scrapyard.** They sat at
-the flight research centre, moved to a desert airfield, then to a crane company's yard, and were at a
-scrapyard before 2020.
-**A vehicle that is ninety percent finished and then abandoned teaches nothing to anybody, because nothing was learned from it that was written down.**
-The programme appears in [the agency's own history of the X-vehicles][ref_xvehicles] as a vehicle that was
+**The two airframes are the most direct evidence of influence, and they went to a scrapyard.** They sat in
+[storage at Edwards][ref_x34], moved to a desert airfield in 2010, then to a crane company's yard, and were at a
+scrapyard by April 2020.
+**A vehicle that is near completion and then abandoned teaches little beyond what was written down before it stopped.**
+The programme appears in [the agency's history of the X-vehicles][ref_xvehicles] as a vehicle that was
 built and did not fly.
 
 ## The Contemporary Literature
@@ -769,33 +789,33 @@ built and did not fly.
 with pyrolysis, char and surface chemistry resolved rather than lumped, and more of its recent titles
 concern planetary entry than cheap engines.
 
-The ablation literature is gathered below in the cluster on ablative materials, charring and recession. The pyrolysis of the phenolic impregnated carbon ablator is characterised in [Wong et al 2015][research_wong_peck_2015] and [Torres-Herrador et al 2019][research_torresherrador_meurisse_2019], its arc-jet response in [Smith et al 2015][research_smith_white_2015] and [Milos and Gasch 2015][research_milos_gasch_2015], and the full-scale Stardust heat shield is modelled in [Weng et al 2021][research_weng_duzel_2021]. The engine application continues in [Wunderlin et al 2024][research_wunderlin_martin_2024], an ablative thrust chamber for a liquid engine, and in [Chandler 2023][research_chandler_2023], a test of an ablative chambered engine.
+The cluster on ablative materials, charring and recession holds this literature. The pyrolysis of the phenolic impregnated carbon ablator is characterised in [Wong et al 2015][research_wong_peck_2015] and [Torres-Herrador et al 2019][research_torresherrador_meurisse_2019], its arc-jet response in [Smith et al 2015][research_smith_white_2015] and [Milos and Gasch 2015][research_milos_gasch_2015], and the full-scale Stardust heat shield is modelled in [Weng et al 2021][research_weng_duzel_2021]. The engine application continues in [Wunderlin et al 2024][research_wunderlin_martin_2024], an ablative thrust chamber for a liquid engine, and in [Chandler 2023][research_chandler_2023], a test of an ablative chambered engine.
 
-### Low-Cost Propulsion, Which Came Back Through Manufacture
+### Low-Cost Propulsion Through Manufacture
 
 **The X-34's answer to expensive engines was to make a cheap one badly on purpose. The modern answer is to make an expensive one quickly**,
 with additive manufacturing cutting the fabrication time, the cost and the number of separate manufacturing
-steps of exactly the regeneratively cooled chamber the Fastrac avoided, which is what
+steps of the regeneratively cooled chamber the Fastrac avoided.
 [NASA's low-cost upper stage propulsion project][research_protzchristopher_cooperken_2016] and
-[its bimetallic chamber work with Virgin Orbit][research_gradlpaul_protzchris_2019] report. **The constraint the Fastrac was designed around has largely dissolved**, which
+[its bimetallic chamber work with Virgin Orbit][research_gradlpaul_protzchris_2019] both report those reductions. **The constraint the Fastrac was designed around has largely dissolved.** This
 is the second time in two articles that a 1990s architecture has been overtaken by a change in how things
 are made rather than in how they work.
 
-The additive manufacturing of exactly that chamber is developed and hot-fired in [Gradl et al 2017][research_gradl_protz_2017] and [Gradl et al 2019][research_gradlpaul_protzchris_2019], summarised in [Gradl et al 2018][research_gradl_greene_2018], and applied to a low-cost upper stage chamber in [Protz et al 2016][research_protzchristopher_cooperken_2016]. The rest of this literature is gathered below in the clusters on additive manufacturing and low-cost fabrication, on gas-side heat transfer and the cooling of chambers and on liquid rocket engines, turbopumps and combustion.
+The additive manufacturing of that chamber is developed and hot-fired in [Gradl et al 2017][research_gradl_protz_2017] and [Gradl et al 2019][research_gradlpaul_protzchris_2019], summarised in [Gradl et al 2018][research_gradl_greene_2018], and applied to a low-cost upper stage chamber in [Protz et al 2016][research_protzchristopher_cooperken_2016]. The remainder is spread across the clusters on additive manufacturing and low-cost fabrication, on gas-side heat transfer and the cooling of chambers and on liquid rocket engines, turbopumps and combustion.
 
-### Small Launch Vehicles and the Economics That Actually Changed
+### Small Launch Vehicles and Their Economics
 
 **The market the X-34 was pointing at exists now**, and the literature on small launch vehicle economics,
 reusability and cost per kilogram is where the argument the programme could not finish is being had.
 
-That literature is gathered below in the cluster on launch economics, small launchers and reusability, including the industry analyses of [Sun 2022][research_sun_2022] and [Puteaux et al 2024][research_puteaux_najjar_2024], the survey of small launch vehicles in [Niederstrasser 2022][research_niederstrasser_2022], and the cost analysis of the Starship system in [Harris et al 2022][research_harris_ledford_2022].
+Its cluster, launch economics, small launchers and reusability, includes the industry analyses of [Sun 2022][research_sun_2022] and [Puteaux et al 2024][research_puteaux_najjar_2024], the survey of small launch vehicles in [Niederstrasser 2022][research_niederstrasser_2022], and the cost analysis of the Starship system in [Harris et al 2022][research_harris_ledford_2022].
 
-### Air Launch, Which Has Since Been Settled Commercially and Mostly Against Itself
+### The Commercial Verdict on Air Launch
 
 **The argument for air launch is no longer being had, because the market has spent the last decade running the experiment.**
 
 **The operating method the X-34 borrowed was already commercial when the programme started**, and the
-[air-launched booster][ref_pegasus] that supplied it flew for decades at a price that went up rather than down,
+[air-launched booster][ref_pegasus] that supplied it flew for decades at a price that rose,
 from an initial offer of six million dollars to about forty million by 2017 for some 450 kilograms to low
 orbit,
 
@@ -804,14 +824,14 @@ $$\frac{40{,}000{,}000}{450} \approx 89{,}000 \ \text{dollars per kilogram}$$
 Four of the six reached orbit.
 **The operator filed for bankruptcy in April 2023 and was wound up the following month**, its remaining
 assets sold at auction for about thirty-six million dollars, and [the carrier aircraft][ref_cosmic_girl] was
-bought by another company to carry a hypersonic test vehicle rather than a launcher.
+bought by another company to carry a hypersonic test vehicle in place of a launcher.
 
 **Reaching orbit was not the problem. Four flights out of six did that.** What failed was the thing the X-34
 existed to demonstrate.
 
-**That is a harder verdict on the X-34's premise than anything in the programme's own record**, and it
+**This is a harder verdict on the X-34's premise than anything in the programme's record**, and it
 should be stated with its limits. One company failing is a fact about one company.
-**But the specific claim, that removing the launch pad removes enough cost to change the economics, has now been tested with real money by people who believed it**,
+**But the claim that removing the launch pad removes enough cost to change the economics has now been tested with real money by people who believed it**,
 and the answer that came back was the same one the restructure plan gave in 2000.
 **The infrastructure a vehicle does not build is not where the cost is.**
 
@@ -820,25 +840,25 @@ Of the 112 records gathered below on launch economics, small launchers and reusa
 67 date from 2015 or later, while 113 of the 177 records on air launch,
 carrier aircraft and store separation predate 2015.
 
-The air-launch literature is gathered below in the cluster on air launch, carrier aircraft and store separation. It runs from the Pegasus flight test programme in [Elias and Knutson 1995][research_eliasantoniol_knutsonmartina_1995] to the description of LauncherOne in [Vaughn et al 2017][research_vaughn_space_2017], the towed glider concept of [Budd and Monheim 2015][research_budd_monheim_2015], the business-jet captive-carry demonstration in [Miller et al 2018][research_millerericj_millerchrisr_2018] and the comparison of ground and airborne launch for hybrid small launchers in [Casalino et al 2022][research_casalino_masseni_2022].
+The cluster on air launch, carrier aircraft and store separation runs from the Pegasus flight test programme in [Elias and Knutson 1995][research_eliasantoniol_knutsonmartina_1995] to the description of LauncherOne in [Vaughn et al 2017][research_vaughn_space_2017], the towed glider concept of [Budd and Monheim 2015][research_budd_monheim_2015], the business-jet captive-carry demonstration in [Miller et al 2018][research_millerericj_millerchrisr_2018] and the comparison of ground and airborne launch for hybrid small launchers in [Casalino et al 2022][research_casalino_masseni_2022].
 
 ### Autonomy, Landing and the Risk Case
 
 **The unvalidated automatic landing that helped end the programme is now routine for reusable launch stages**,
 and it is routine because vehicles fly it repeatedly rather than because anybody proved it on paper.
-[Falcon 9][ref_falcon9] boosters, which land vertically under power rather than on a runway as the X-34 was to,
+[Falcon 9][ref_falcon9] boosters land vertically under power, where the X-34 was to land on a runway. They
 first landed in December 2015 and have since landed nearly six hundred times.
-**That is the X-34's own risk argument resolved by the method the X-34 could not afford.**
+**The risk argument against the X-34 has since been resolved by the method the X-34 could not afford.**
 
-The landing literature is gathered below in the clusters on automatic and autonomous landing and on guidance, control, avionics and trajectories. The powered landing of reusable rocket stages is a large part of the recent work, with landing guidance in [Sagliano et al 2021][research_sagliano_heidecker_2021], [Ma et al 2019][research_ma_wang_2019] and [Su et al 2022][research_su_wang_2022] and trajectory optimisation in [Wang and Song 2018][research_wang_song_2018].
+Landing is covered below by the clusters on automatic and autonomous landing and on guidance, control, avionics and trajectories. The powered landing of reusable rocket stages is a large part of the recent work, with landing guidance in [Sagliano et al 2021][research_sagliano_heidecker_2021], [Ma et al 2019][research_ma_wang_2019] and [Su et al 2022][research_su_wang_2022] and trajectory optimisation in [Wang and Song 2018][research_wang_song_2018].
 
 ### Structures, Tanks and Thermal Protection
 
-The structures, tank and thermal protection literature is gathered below in the clusters on thermal protection systems and hot structures, on propellant tanks and cryogenic storage and on composite structures and flight vehicle materials. Its recent threads include linerless composite tanks for liquid hydrogen, as in [Olsson et al 2024][research_olsson_cameron_2024], and flexible thermal protection, as in [Tobin and Dec 2015][research_tobin_dec_2015] and [Rossman and Braun 2016][research_rossman_braun_2016].
+The clusters on thermal protection systems and hot structures, on propellant tanks and cryogenic storage and on composite structures and flight vehicle materials collect the literature on structures, tanks and thermal protection. Recent threads include linerless composite tanks for liquid hydrogen in [Olsson et al 2024][research_olsson_cameron_2024] and flexible thermal protection in [Tobin and Dec 2015][research_tobin_dec_2015] and [Rossman and Braun 2016][research_rossman_braun_2016].
 
 ### Method, Uncertainty and Computation
 
-The method literature is gathered below in the clusters on design optimisation, uncertainty and computation, on risk, reliability, safety and health management and on launch vehicle design, staging and operations. Uncertainty quantification for launch vehicle design is treated in [Brevault and Balesdent 2021][research_brevault_balesdent_2021] and [Novack et al 2016][research_novackstevend_rogersjim_2016].
+Method draws on the clusters on design optimisation, uncertainty and computation, on risk, reliability, safety and health management and on launch vehicle design, staging and operations. Uncertainty quantification for launch vehicle design is treated in [Brevault and Balesdent 2021][research_brevault_balesdent_2021] and [Novack et al 2016][research_novackstevend_rogersjim_2016].
 
 **The vehicle's own record stops when the programme does.** Of the 39 research records whose titles
 carry the X-34 designation, 37 date from 2001 or earlier, one from 2002, and one, a 2015 paper on the
@@ -992,12 +1012,12 @@ Flight test management, instrumentation and range operations.
 
 ### Cost Is Not an Engineering Quantity and This Article Treats It as One
 
-**The whole analysis above prices simplifications in seconds, kilograms and newtons, and then sets the result beside dollars.**
+**The analysis above prices simplifications in seconds, kilograms and newtons, and then sets the result beside dollars.**
 Those are not commensurable. A gas generator that costs at most 11.46 seconds of specific impulse, the
-difference displayed in the section headed The Cycle Is Smaller Than the Gap, is a fact. Whether
-that trade was worth making depends on a price nobody published for a chamber nobody built in quantity.
+upper bound the schematic's flows give, is a fact. Whether
+that trade was worth making depends on a price never published for a chamber never built in quantity.
 
-**The honest position is that this article can compute what simplification cost in physics and cannot compute what it saved in money**,
+**This article can compute what simplification cost in physics and cannot compute what it saved in money**,
 and every conclusion about the trade is therefore one-sided.
 
 ### The Cost Comparison Has a Denominator Problem
@@ -1009,22 +1029,22 @@ infinity for both.
 
 ### The Review Might Simply Have Been Right
 
-**This article has treated the 305 percent growth displayed in the section headed The Review That Ended It as the price of restoring what low-cost planning removed. There is a less flattering reading and it deserves stating.**
+**This article has treated the 305 percent growth computed in The Review That Ended It as the price of restoring what low-cost planning removed. There is a less flattering reading and it deserves stating.**
 The original estimate may have been wrong on its own terms rather than deliberately thin, and a programme
-that underestimates by a factor of four has a competence problem rather than a philosophy.
+that underestimates by a factor of four has a competence problem instead of a philosophy.
 
 **The record does not distinguish these**, and the two readings differ in what they imply. Under the first,
 low-cost demonstration is a coherent strategy that must budget for eventual rigour. Under the second, the
-X-34 is simply a badly estimated project and there is no general lesson at all.
+X-34 is a badly estimated project and there is no general lesson at all.
 
 ### The Comparison With the X-33 Flatters the X-34
 
 **The two vehicles were not trying to do the same thing and the per-pound comparison quietly assumes they were.**
-The X-33 was attempting a mass fraction nobody had achieved with technologies nobody had built. The X-34 was
+The X-33 was attempting a mass fraction no vehicle had achieved, with technologies never before built. The X-34 was
 attempting a flight profile within reach of existing practice.
 **A programme attempting something harder should cost more, and some of the ratio is that rather than efficiency.**
 
-The cost-growth literature behind that caution is gathered below in the cluster on cost estimation, cost growth and acquisition, including the estimation of weapon system cost growth in [Asher and Maggelet 1980][research_asher_maggelet_1980] and the evidence on acquisition policy and the cost growth of major programmes in [McNicol and Wu 2014][research_mcnicol_wu_2014].
+Behind that caution lies the cluster on cost estimation, cost growth and acquisition, which includes the estimation of weapon system cost growth in [Asher and Maggelet 1980][research_asher_maggelet_1980] and the evidence on acquisition policy and the cost growth of major programmes in [McNicol and Wu 2014][research_mcnicol_wu_2014].
 
 ## The Source Base
 
@@ -1092,15 +1112,17 @@ because it was one.
 
 ### Historical Fact
 
-The X-34 contract was awarded to Orbital Sciences in 1996 at a figure near 86 million dollars. The Fastrac
+The X-34 contract was awarded to Orbital Sciences in August 1996 as a fixed-price award of 49.5 million
+dollars, and the vehicle and engine projects were budgeted at about 86 million dollars. The Fastrac
 engine, also designated MC-1, was developed by the agency's Marshall centre, used a gas generator cycle and
 an ablatively cooled chamber and nozzle, and was fired for up to 159.03 seconds. The first airframe rolled out
-in 1999 and made captive flights beneath the carrier aircraft in June and September of that year. A second
-airframe was mated to the carrier in 2000. No free flight, powered or unpowered, was ever made. A joint
+in 1999 and made three captive flights beneath the carrier aircraft that year, the first on 29 June. Two
+airframes of the three planned were completed. No free flight, powered or unpowered, was ever made. A joint
 review in 2000 identified inadequate system testing, single-string avionics and unvalidated automatic
-landing among the risks, and a restructure plan put the total requirement near 348 million dollars. The
-programme was cancelled on 31 March 2001 alongside the X-33. The two airframes passed through storage and a
-private yard and reached a scrapyard before 2020.
+landing among the risks, and an estimate drawn from the restructure plan put the total requirement near
+348 million dollars. The programme ended on 31 March 2001, after a funding decision announced together with
+the X-33's. The two airframes passed through storage and a private yard and reached a scrapyard by April
+2020. The spending of just under 112 million dollars rests on a secondary compilation alone.
 
 ### Engineering Analysis
 
@@ -1112,8 +1134,8 @@ and the identity that the fractional impulse penalty equals the fractional flow 
 margin against the longest published test are arithmetic on published masses and flow. The throat
 diameter is published, and the characteristic velocity and thrust coefficient derived from it depend on
 taking the requirement table's 652 pounds per square inch rather than the schematic's 633 as the chamber
-pressure. The liner recession figures depend on an assumed recession rate and are presented as a range rather
-than a value. The air-launch energy donation of 531.9 metres per second and the 29.3 percent thrust recovery
+pressure. The liner recession figures depend on an assumed recession rate and are presented as a
+range. The air-launch energy donation of 531.9 metres per second and the 29.3 percent thrust recovery
 depend on an approximate published release altitude, an assumed release Mach number and the published
 area ratio, and the thrust recovery overstates the sea-level case. The bulk densities and the 2.945 ratio are
 arithmetic on published densities, with the RP-1 density taken at the middle of a published range.
@@ -1134,8 +1156,8 @@ record does not state.
 
 ### What the Record Does Not Settle
 
-**Whether the X-34 would have flown successfully is not settled.** Nothing had failed. Nothing had been
-demonstrated either.
+**Whether the X-34 would have flown successfully is not settled.** Nothing on the vehicle had failed.
+Nothing had been demonstrated either.
 
 **Whether rapid turnaround was achievable is not settled and could only have been settled by flying.**
 
@@ -1156,12 +1178,13 @@ commercial position of the contractor.
 
 **The X-34 was cancelled because somebody finally priced the risk.**
 
-Nothing broke. No structure failed a test, no engine failed a firing, no aerodynamic surprise appeared.
+Nothing on the vehicle broke. No structure failed a test, the engine's development problems were found and
+corrected on the ground, and no aerodynamic surprise appeared.
 **What happened is that a programme built to be cheap was asked what it would cost to fly safely, and the answer was four times what it had been given.**
 
 **The things that made it cheap and the things that made it unflyable were the same things.** Single-string
 avionics, thin system testing and an unvalidated automatic landing are exactly what a low-cost demonstrator
-deletes, and exactly what must be restored before anyone drops a rocket aeroplane over inhabited ground.
+deletes and what must be restored before anyone drops a rocket aeroplane over inhabited ground.
 **The cost was never removed. It was deferred, and the deferral carried interest of 305 percent.**
 
 **Set beside the previous article the pair is exact and inverted.** The X-33's binding quantity was mass,
@@ -1169,7 +1192,7 @@ which obeys a conservation law, and its demonstrator returned a reading that did
 binding quantity was cost, which obeys nothing, and its demonstrator returned a revised estimate.
 **One programme was killed by a number it measured. The other was killed by a number it recalculated.**
 
-**The physics the cost argument left behind does compute, and it mostly says the choices were sound.** The
+**The physics the cost argument left behind does compute, and it mostly finds the choices sound.** The
 gas generator costs 3.50 percent of the propellant and exactly 3.50 percent of the impulse. The kerosene the
 vehicle burned is 2.945 times denser than the hydrogen the X-33 carried, which rescues a small vehicle from
 the minimum-gauge penalty that its size imposes. Air launch donates under six percent of an orbital energy
@@ -1206,9 +1229,13 @@ Of the four it is the only one that was ready.
 - [Fastrac rocket engine][ref_fastrac]
 - [Gas-generator cycle][ref_gasgen]
 - [Government Accountability Office, NASA's X-33 and X-34 Programs][ref_gao_x33x34]
+- [Government Accountability Office, Space Transportation, Critical Areas NASA Needs to Address in Managing Its Reusable Launch Vehicle Program][ref_gao_826t]
 - [Jenkins, Landis and Miller, American X-Vehicles][ref_xvehicles]
+- [Lockheed Martin X-33][ref_x33]
 - [Marshall Space Flight Center][ref_msfc]
 - [NASA Armstrong Flight Research Center, X-34 Advanced Technology Demonstrator fact sheet][ref_nasa_x34_factsheet]
+- [NASA Dryden Flight Research Center, X-34 Advanced Technology Demonstrator fact sheet, 2009 edition][ref_nasa_x34_factsheet_2009]
+- [NASA Marshall Space Flight Center, Fastrac Engine, A Boost for Low-cost Space Launch][ref_msfc_fastrac_factsheet]
 - [Orbital Sciences Corporation][ref_orbital]
 - [Orbital Sciences X-34][ref_x34]
 - [Pegasus air-launched rocket][ref_pegasus]
@@ -1227,11 +1254,14 @@ Of the four it is the only one that was ready.
 [ref_dryden]: https://en.wikipedia.org/wiki/Armstrong_Flight_Research_Center
 [ref_falcon9]: https://en.wikipedia.org/wiki/Falcon_9
 [ref_fastrac]: https://en.wikipedia.org/wiki/Fastrac_(rocket_engine)
+[ref_gao_826t]: https://www.gao.gov/assets/gao-01-826t.pdf
 [ref_gao_x33x34]: https://www.gao.gov/products/gao-01-1041r
 [ref_gasgen]: https://en.wikipedia.org/wiki/Gas-generator_cycle
 [ref_isp]: https://en.wikipedia.org/wiki/Specific_impulse
 [ref_msfc]: https://en.wikipedia.org/wiki/Marshall_Space_Flight_Center
+[ref_msfc_fastrac_factsheet]: https://web.archive.org/web/20100302124810/http://www.nasa.gov/centers/marshall/news/background/facts/fastrac.html
 [ref_nasa_x34_factsheet]: https://www.nasa.gov/aeronautics/nasa-aircraft/x-34-demonstrator/
+[ref_nasa_x34_factsheet_2009]: https://web.archive.org/web/20110102142329/http://www.nasa.gov/centers/dryden/news/FactSheets/FS-060-DFRC.html
 [ref_orbital]: https://en.wikipedia.org/wiki/Orbital_Sciences_Corporation
 [ref_pegasus]: https://en.wikipedia.org/wiki/Pegasus_(rocket)
 [ref_regen]: https://en.wikipedia.org/wiki/Regenerative_cooling_(rocket)
@@ -1240,6 +1270,7 @@ Of the four it is the only one that was ready.
 [ref_sli]: https://en.wikipedia.org/wiki/Space_Launch_Initiative
 [ref_stargazer]: https://en.wikipedia.org/wiki/Stargazer_(aircraft)
 [ref_virgin_orbit]: https://en.wikipedia.org/wiki/Virgin_Orbit
+[ref_x33]: https://en.wikipedia.org/wiki/Lockheed_Martin_X-33
 [ref_x34]: https://en.wikipedia.org/wiki/Orbital_Sciences_X-34
 [ref_xvehicles]: https://ntrs.nasa.gov/citations/20030067480
 

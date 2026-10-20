@@ -40,26 +40,25 @@ one.** The X-39 designation was reserved on 23 April 1997 for the
 
 **A gap in a numbered series invites a particular kind of reading.** The X-designations are a public register
 of experimental aircraft, so a missing number looks like withheld information. Missing numbers in the military
-series have drawn exactly that speculation, as the F-19 and the numbers F-112 to F-116 did, and at least some of
+series have drawn that speculation, as the F-19 and the numbers F-112 to F-116 did, and at least some of
 the latter were assigned to secret aircraft \[[Missing USAF and DOD Aircraft Designations][ref_missing_mds]\].
 The X-39 does not reward that reading.
-**Its gap was produced by two documents that were never written**, and the more consequential of the two is
-the second, which is not the request that would have created the designation but the cancellation that would
-have released the number for somebody else.
+**Its gap was produced by two documents that were never written.** The more consequential of the two is not the
+request that would have created the designation but the cancellation that would have released the number for
+somebody else.
 
-**That is the finding this article has to offer, and it is a finding about the register rather than about
-aviation.** The numbering is not a record of aircraft. It is a record of correspondence about aircraft, and
+**This article's finding concerns the register, and aviation is incidental to it.** The numbering is not a record of aircraft. It is a record of correspondence about aircraft, and
 the two come apart in a way that the X-39 makes unusually legible.
 
 This article carries every section of the series order, although there is no vehicle here to dimension
 and no keystone question to derive.
 **Padding a short article would misrepresent the record as richer than it is**,
-so the sections on sizing, dependent systems and flight say that they are empty and why, and stop there. What
-the absence of a vehicle does not excuse is a survey, and this article carries one of the literature that bears on its actual
-subject rather than one of the literature that surrounds its series.
-The designations themselves belong to the
-[tri-service system adopted in 1962][ref_tri_service], which remains the framework under which every number
-in this series was issued
+so the sections on sizing, dependent systems and flight say that they are empty and why, and stop there. The
+absence of a vehicle does not excuse a survey, and this article surveys the literature that bears on its subject
+in place of the literature that surrounds its series.
+The designations come from the
+[tri-service system adopted in 1962][ref_tri_service], which remains the framework for every number in this
+series
 \[[United States Department of Defense Aerospace Vehicle Designation][ref_dod_designation]\].
 
 ## The Research Question
@@ -70,13 +69,13 @@ need, and that demonstrator was never designed. What the record supports is a qu
 before any vehicle existed, which was whether its candidate technologies needed flight validation on a new
 airframe at all \[[Cupstid 1997][research_cupstid_1997]\].
 
-**The question this article can actually settle is a different one, and it concerns the register.** It is
+**This article can settle a different question, one that concerns the register.** It asks
 what a gap in a numbered series of experimental aircraft means when no aircraft, no refusal and no secret
 stands behind it. The sections that follow answer that question from the governing instructions and the
-designation surveys, and they leave the aviation question where the programme itself left it, unanswered
+designation surveys, and they leave the aviation question where the programme left it, unanswered
 by flight.
 
-## Programme Origin, What the Record Says Happened
+## Programme Origin
 
 **The reservation is dated precisely and the source is explicit about its status.** Andreas Parsch's survey
 of missing United States Air Force and Department of Defense designations records that
@@ -87,27 +86,30 @@ remained officially unassigned** \[[Missing USAF and DOD Aircraft Designations][
 
 **Future Aircraft Technology Enhancements, abbreviated FATE, was a technology programme rather than an
 aircraft programme**, and it was a subset of the national Fixed Wing Vehicle effort. It was sponsored by
-[Wright Laboratory][ref_wright_lab] at Dayton, Ohio, which was folded into the Air Force Research Laboratory
-during the same period. Its stated purpose was to develop technologies that would become the foundation for
+[Wright Laboratory][ref_wright_lab] at Dayton, Ohio, which was merged into the Air Force Research Laboratory
+in 1997 \[[Wright Laboratory][ref_wright_lab]\]. Its stated purpose was to develop technologies that would become the foundation for
 the next generation of combat aircraft, and the candidate technologies named in the public description
-include affordable low-observable structures, the [active aeroelastic wing][ref_active_aeroelastic_wing],
+include affordable low-observable data systems, the [active aeroelastic wing][ref_active_aeroelastic_wing],
 robust composite sandwich structures, advanced compact inlets, photonic vehicle management systems,
 self-adaptive flight controls, and electric flight control actuation
-\[[X-39, Federation of American Scientists][ref_fas_x39]\].
+\[[X-39, Federation of American Scientists][ref_fas_x39]\]
+\[[Jenkins, Landis and Miller, American X-Vehicles][ref_xvehicles]\].
 
 **The programme was organised in three phases and only the first was ever executed.** Phase I of FATE I was
 to identify which technologies required flight validation. Phase II of FATE I was to produce preliminary
 vehicle design concepts, a demonstrator system, and demonstration plans. FATE II was to build and flight
-test the demonstrator \[[Lockheed Martin FATE briefing][ref_lockheed_fate]\]. **The X-39 designation belongs to
-that third phase**, since a research designation is for a vehicle and the vehicle was FATE II's product.
+test the demonstrator \[[Lockheed Martin FATE briefing][ref_lockheed_fate]\]. **The X-39 designation attached to that third phase**,
+since a research designation is for a vehicle and the vehicle was FATE II's product.
 
-**Two contractors executed Phase I in the second half of 1997.** Lockheed Martin performed its study from
+**Two contractors executed Phase I between June and October 1997.** Lockheed Martin performed its study from
 June through October 1997 under contract F33615-97-C-3804
 \[[Lockheed Martin FATE briefing][ref_lockheed_fate]\].
-[Boeing Phantom Works][ref_phantom_works] performed a parallel study from 22 May to 30 October 1997,
-reported by Jem Cupstid in November 1997 as **Future Aircraft Technology Enhancements, Block I**, technical
-report AFRL-VA-WP-TR-1999-3061, held by the [Defense Technical Information Center][ref_dtic] under accession
-number ADA367849 \[[Cupstid 1997][research_cupstid_1997]\]. That report states that the study identified
+[Boeing Phantom Works][ref_phantom_works] performed a parallel study whose period of performance was
+30 June through 30 October 1997, with Jim Cupstid as its programme manager
+\[[Boeing FATE Block 1 Phase 1 briefing][ref_boeing_fate]\]. The study was reported in November 1997 as
+**Future Aircraft Technology Enhancements, Block I**, held by the
+[Defense Technical Information Center][ref_dtic] under accession number ADA367849
+\[[Cupstid 1997][research_cupstid_1997]\]. That report states that the study identified
 technologies with the highest potential against the Fixed Wing Vehicle goals, identified the subset that
 needed flight test on a new vehicle, **suggested a modular vehicle that could flight validate them**, and
 prepared a rough-order-of-magnitude cost estimate for a follow-on programme to build and fly it.
@@ -123,28 +125,34 @@ to meet the cost goals, and that **integrating them into an existing vehicle wou
 modification** \[[FATE, conclusions and recommendations][ref_fate_conclusions]\].
 
 **That last finding is the technical case for a new airframe, and therefore for a new design number.** A
-technology that can be demonstrated on an existing aircraft needs no designation of its own.
+technology that can be demonstrated on an existing aircraft needs no new designation.
 **Both contractors concluded that these could not be**, Boeing recommending a modular vehicle and Lockheed
-Martin reporting that an existing one would need substantial modification. That is why the reservation made
-sense in April 1997, and why it became worthless when the Air Force declined to build the vehicle.
+Martin reporting that an existing one would need substantial modification. Hence the reservation made
+sense in April 1997, and hence it became worthless when the Air Force declined to build the vehicle.
 
-**Note the order of events.** The designation was reserved on 23 April 1997. The Boeing study that was to
-determine whether a demonstrator was needed at all began on 22 May 1997, **twenty-nine days later**. The
-number was spoken for before the study that would justify it had started.
+**Note the order of events.** The designation was reserved on 23 April 1997
+\[[Missing USAF and DOD Aircraft Designations][ref_missing_mds]\]. The Boeing study that was to determine
+whether a demonstrator was needed at all began its period of performance on 30 June 1997,
+**sixty-eight days later** \[[Boeing FATE Block 1 Phase 1 briefing][ref_boeing_fate]\]. The number was
+spoken for before the study that would justify it had started.
 
 **The demonstrator was then cut.** The Air Force dropped the Fixed Wing Vehicle demonstrator element of
 FATE, and the reason reported in the trade press was that it would duplicate work already planned under the
 [Uninhabited Combat Air Vehicle][ref_ucav] project of the
 [Defense Advanced Research Projects Agency][ref_darpa]. The programme was to continue as technology
 development making increased use of demonstrator aircraft that already existed, among them the
-[X-36][related_post_a333_mcdonnell_douglas_x36], and **Phase I of FATE I was used as a starting point for the
-Uninhabited Combat Air Vehicle Advanced Technology Demonstration, which replaced the FATE activity
-altogether** \[[US Air Force cuts fixed wing FATE demonstrator plans][ref_flightglobal_fate]\].
-That successor programme did receive a research designation, and it was the X-45 rather than the X-39
-\[[Boeing X-45][ref_x45]\].
+[X-36][related_post_a333_mcdonnell_douglas_x36]
+\[[US Air Force cuts fixed wing FATE demonstrator plans][ref_flightglobal_fate]\], and **Phase I of FATE I was
+used as a starting point for the Uninhabited Combat Air Vehicle Advanced Technology Demonstration, which
+replaced the FATE activity altogether** \[[Lockheed Martin FATE briefing][ref_lockheed_fate]\]
+\[[Boeing FATE briefing, transition to UCAV-ATD][ref_boeing_fate_transition]\].
+The Unmanned Combat Air Vehicle demonstration that followed did receive a research designation, the X-45
+\[[Boeing X-45][ref_x45]\]
+\[[Jenkins, Landis and Miller, American X-Vehicles][ref_xvehicles]\].
 
 **So the vehicle the number was held for was never designed, let alone built.** There is no airframe, no
-wind-tunnel campaign, no contractor mock-up, and no cancelled production order.
+wind-tunnel campaign, no contractor mock-up, and no cancelled production order
+\[[Boeing FATE briefing, transition to UCAV-ATD][ref_boeing_fate_transition]\].
 **There is a reserved number, a set of technology studies, and a decision not to proceed.**
 
 ## Why the Designation Was Never Assigned
@@ -155,36 +163,39 @@ and the Navy and therefore the version in force in April 1997, states at paragra
 **the Military Departments must submit a written request for assignment of a distinctive Mission Design
 Series designator as early as possible in the development cycle**, that requests travel through the
 department single point of contact to the [Aeronautical Systems Center][ref_asc], which assigns the
-designator and transmits the request onward for processing and approval, and that
-**approval rests with the office designated as the Department of Defense executive agent**. The same
-paragraph closes with four words that settle the matter, being
+designator and transmits the request onward for processing and approval, as paragraph 3.2 sets out.
+Its statement of responsibilities places
+**approval with the office serving as the Department of Defense executive agent**. Paragraph 3.1 also
+settles the matter with the sentence
 **do not use Mission Design Series designators before approval**
 \[[Air Force Joint Instruction 16-401][ref_afi_16_401]\].
 
-**The instruction implements Department-level policy and does not stand alone.** The naming and designating
+**The instruction implements Department-level policy and does not stand alone**
+\[[Air Force Joint Instruction 16-401][ref_afi_16_401]\]. The naming and designating
 authority is established at Department of Defense level
 \[[DoD Instruction 4120.15][ref_dodi_412015]\], and the approved designators themselves were published in a
 single Department-wide list, **DoD 4120.15-L, whose stated purpose is to list approved designators and
 popular names** \[[DoD 4120.15-L][ref_dod_412015l]\].
 
 **That list can be checked, and checking it is better than asserting from it.** The edition of 12 May 2004,
-the last publicly released one, carries an appendix of approved aircraft designators running to well over a
-hundred pages. **Its X-series entries include X-35A, X-36A, X-37A, X-38A, X-40A and X-40B**, each with a
+which the current instruction still lists among its references, carries an appendix of approved aircraft and
+unmanned aerial vehicle designators running to more than sixty pages. **Its X-series entries include X-35A, X-36A, X-37A, X-38A, X-40A and X-40B**, each with a
 manufacturer, an engine count and a one-line description, and they appear in a single contiguous passage.
-**There is no X-39 entry anywhere in the document.**
+**There is no X-39 entry anywhere in the document** \[[DoD 4120.15-L][ref_dod_412015l]\].
 
-**That absence corroborates the non-assignment without quite demonstrating it, and the difference is worth
-keeping.** X-33 and X-34 are also absent from the same list, and both of those were substantial
+**That absence corroborates the non-assignment without demonstrating it, and the difference should be kept.** X-33 and X-34 are also absent from the same list, and both of those were substantial
 programmes that NASA cancelled in March 2001 before either vehicle had flown free \[[Jenkins, Landis and Miller, American X-Vehicles][ref_xvehicles]\], so absence from the
 2004 edition is consistent with more than one history. **What the list establishes is that the X-39 is not among the approved designators of record while
 its immediate neighbours on both sides are.** The demonstrative evidence that no request was ever submitted
-remains Parsch's, and this is independent corroboration of it from the primary list itself.
+remains Parsch's, and this is independent corroboration of it from the primary list.
 
-**No such request was submitted for the X-39, so the instruction's process never began.** The reason is not
+**No such request was submitted for the X-39, so the instruction's process never began**
+\[[Missing USAF and DOD Aircraft Designations][ref_missing_mds]\]. The reason is not
 mysterious and does not require a hypothesis about secrecy. **The request would have been made when the
 demonstrator entered development, and the demonstrator never entered development.** The programme was cut
 between the Phase I studies and the Phase II design work, and the paperwork that would have converted a
-reservation into a designation had no occasion to be written.
+reservation into a designation had no occasion to be written
+\[[Boeing FATE briefing, transition to UCAV-ATD][ref_boeing_fate_transition]\].
 
 **This distinguishes the X-39 sharply from the other anomalies in the series, and the distinction is one of
 kind rather than degree.** The [X-23][related_post_a320_martin_marietta_x23] was requested and the request
@@ -192,31 +203,30 @@ was disapproved in 1965 on the ground that the system covered manned aircraft on
 2006 and refused because of possible confusion with the B-52 series, and the X-53 designation was assigned
 instead \[[Missing USAF and DOD Aircraft Designations][ref_missing_mds]\].
 **Those are decisions, and a decision leaves a record and a reason.** The X-39 was never refused by anybody.
-**It was never asked for**, and an omission leaves neither a record nor a reason, which is why the entry for
-it in every source consists of a date, a programme name, and a negative.
+**It was never asked for**, and an omission leaves neither a record nor a reason. Every source accordingly
+reduces its entry to a date, a programme name, and a negative.
 
 ## Sizing From First Principles
 
-**There was no vehicle to size, and this section records that rather than inventing one.** Sizing in this
+**There was no vehicle to size, and this section records that absence without inventing one.** Sizing in this
 series derives a vehicle's dimensions from the quantity it existed to measure. The FATE demonstrator never
 reached the Phase II work that was to produce preliminary vehicle design concepts, so no mass, wing area,
 thrust or envelope was ever stated for it \[[Lockheed Martin FATE briefing][ref_lockheed_fate]\].
 
-**What the record does say about the intended vehicle is qualitative.** Boeing suggested a modular vehicle
+**The surviving statements about the intended vehicle are qualitative.** Boeing suggested a modular vehicle
 that could flight validate the selected technologies \[[Cupstid 1997][research_cupstid_1997]\], and Lockheed
 Martin reported that integrating them into an existing vehicle would require substantial modification
 \[[FATE, conclusions and recommendations][ref_fate_conclusions]\]. Neither statement carries a dimension.
 
-**The only quantity in this article with a binding constraint is the design number itself.** That
-constraint is stated exactly in the section headed What the Data Changed, and it is administrative rather
-than physical.
+**The only quantity in this article with a binding constraint is the design number.** That
+constraint is administrative in character, and What the Data Changed states it formally.
 
 ## Dependent Systems
 
 **No dependent systems exist, since nothing was built for them to depend on.** The record names the
-technologies a demonstrator would have carried, and Phase I ranked five of them as requiring flight
-demonstration, being the compact inlet, the conformal fluidic nozzle, tailless technologies, the continuous
-aerodynamic control surface and the lambda wing \[[FATE, five technologies selected][ref_fate_five]\].
+technologies a demonstrator would have carried, and Phase I ranked five of them, the compact inlet, the conformal
+fluidic nozzle, tailless technologies, the continuous aerodynamic control surface and the lambda wing, as
+requiring flight demonstration \[[FATE, five technologies selected][ref_fate_five]\].
 **Those are candidate payloads for a vehicle, not systems of one**, and no source describes how any of
 them would have been integrated, powered or controlled on a specific airframe.
 
@@ -231,16 +241,16 @@ to show that the same string names unrelated hardware.
 flew under it. The Fixed Wing Vehicle demonstrator was cut before Phase II, and the work it was to perform
 passed to the Uninhabited Combat Air Vehicle Advanced Technology Demonstration and to demonstrator aircraft
 that already existed \[[US Air Force cuts fixed wing FATE demonstrator plans][ref_flightglobal_fate]\].
-Whatever those programmes flew, they flew under their own designations.
+Whatever those programmes flew, they flew under other designations.
 
-**The engines that carried the same string did not fly either.** The record places them on a ground test
+**The engines that carried the same string did not fly either.** The museum account places them on a ground test
 stand in 1956, intended for the X-6, which would have flown them had its programme survived
 \[[Bernier 2025][research_bernier_2025]\].
 
 ## Comparison With Ground Prediction
 
-**The ground predictions are all from the Phase I studies, and flight returned nothing against which to
-test them.** Lockheed Martin's ranking concluded that the five selected technologies would achieve three of
+**The ground predictions are all from the Phase I studies, and no flight data exist against which to test them.**
+Lockheed Martin's ranking concluded that the five selected technologies would achieve three of
 the six Fixed Wing Vehicle goals, that further technologies would be needed to meet the cost goals, and that
 an existing vehicle would need substantial modification to carry them
 \[[FATE, conclusions and recommendations][ref_fate_conclusions]\]. Boeing prepared a rough-order-of-magnitude
@@ -253,34 +263,36 @@ report agreement or disagreement, only that the comparison was never made.**
 
 **The one prediction the record does resolve is administrative.** The reservation of 23 April 1997 assumed
 that a vehicle would follow and would need a number. The vehicle did not follow, and the consequences of
-that failed assumption for the register are the subject of the section headed What the Data Changed.
+that failed assumption for the register are taken up under What the Data Changed.
 
-## What the Data Changed, What the Anomaly Reveals About the Designation System
+## What the Data Changed
 
 ### The Reservation Had No Standing in the Instruction
 
-**The act that consumed the X-39 is not described in the regulation that governs designations.** Air Force
-Joint Instruction 16-401 describes requesting, assigning, and approving. **It does not describe a programme
+**The regulation that governs designations does not describe the act that consumed the X-39.** Air Force
+Joint Instruction 16-401 describes requesting, assigning, and approving
+\[[Air Force Joint Instruction 16-401][ref_afi_16_401]\]. **It does not describe a programme
 office reserving a design number in advance of a request.** Parsch's account of the allocation process in
 practice supplies the missing step, and describes it as an informal one, in which somebody from the programme
 office contacts the Department of Defense control point for discussion, and if a designation is tentatively
 established then **the Mission Design Series is regarded as reserved**
 \[[Allocation of Official Aerospace Vehicle MDS Designations][ref_mds_allocation]\].
 
-**The consequence of stopping there is stated plainly in the same source**, which records that if the
+**The same source states the consequence of stopping there.** It records that if the
 informal step is never followed by the written request, **the result is a reserved designation that is never
 officially requested, let alone assigned**, and that this has happened for the design numbers A-11, C-30 and
 C-36, V-17, V-19 and V-21, **and X-39**, effectively producing gaps in the lists of allocated designations
 \[[Allocation of Official Aerospace Vehicle MDS Designations][ref_mds_allocation]\].
 
 **So the X-39 was removed from circulation by an act the written procedure does not provide for.** The
-instruction's own use of the word is different and worth separating carefully. The joint instruction as
-reissued on 14 April 2005 says at paragraph 5 that the assigning authority
+instruction uses the word differently, and the two senses need separating. The joint instruction as
+reissued on 14 April 2005 provides at paragraph 5 that the assigning authority
 **will assign and reserve the next available consecutive design number within each basic mission for new
 vehicles** \[[Air Force Joint Instruction 16-401, 2005][ref_afi_16_401_2005]\].
 **That reservation is performed by the assigning authority as part of handling a written request.** The
-reservation that consumed the X-39 was performed before any written request existed, by the party that would
-have submitted one. **The two acts share a word and nothing else.**
+reservation that consumed the X-39 was initiated before any written request existed, by the party that would
+have submitted one \[[Allocation of Official Aerospace Vehicle MDS Designations][ref_mds_allocation]\].
+**The two acts share a word and nothing else.**
 
 **The instruction has been reissued since, and the changes answer three questions this article would
 otherwise have to leave open.** The current joint instruction is dated 3 November 2020 and carries the
@@ -288,27 +300,32 @@ Army and Navy numbers alongside the Air Force one
 \[[Air Force Instruction 16-401, 2020][ref_dafi_16_401_2020]\].
 
 **Reserving a design number in advance of a request is still not a procedure.** The word appears in the
-current text for the approving authority's own retained powers and for the Reserve components, and nowhere
-as something a programme office may do to a number. **Twenty-three years after the X-39 was lost to it, the
+current text for the approving authority's retained powers and for the Reserve components, and nowhere
+as something a programme office may do to a number
+\[[Air Force Instruction 16-401, 2020][ref_dafi_16_401_2020]\]. **Twenty-three years after the X-39 was lost to it, the
 act remains undescribed.**
 
 **Skipping a number, by contrast, is now explicitly authorised.** The current instruction states at
 attachment 2 that **the approving authority reserves the authority to skip design number at discretion**
 \[[Air Force Instruction 16-401, 2020][ref_dafi_16_401_2020]\]. What was an accident of correspondence in
-1997 is now a stated discretionary power, which is a change in the character of the gaps rather than in
-their number.
+1997 is now a stated discretionary power. The change concerns the character of the gaps and
+does not alter their number.
 
-**And a release mechanism now exists, which is exactly what 1997 lacked.** The current instruction carries
-a section on the retirement and reactivation of a designator, with eligibility conditions for each
-\[[Air Force Instruction 16-401, 2020][ref_dafi_16_401_2020]\]. **A number can now be given up and taken back
-by written procedure.** Whether that would have saved the X-39 is not knowable, since retirement applies to
-designators that were assigned and the X-39 never was, **which is the same gap in a newer document**.
+**A retirement procedure exists, but it is not a release mechanism.** The current instruction carries
+a section on the retirement and reactivation of a designator, with eligibility conditions for each, and
+states that a retired designator cannot be used again to identify another aerospace vehicle
+\[[Air Force Instruction 16-401, 2020][ref_dafi_16_401_2020]\]. The 1994 instruction already placed a
+designator on a retired list once all of its vehicles had left the inventory
+\[[Air Force Joint Instruction 16-401][ref_afi_16_401]\], and the 2005 edition added reactivation for
+vehicles returned to that designator \[[Air Force Joint Instruction 16-401, 2005][ref_afi_16_401_2005]\].
+**No edition provides a way to give up a reserved number so that another vehicle can take it.** Retirement
+applies to designators that were assigned, and the X-39 never was. **The newer document repeats the same gap.**
 
 **One further change bears on the check made above.** The current instruction records the cancellation of
 DoD 4120.15-L as the publicly accessible database of designators, replaced by a listing on a Department web
 service \[[Air Force Instruction 16-401, 2020][ref_dafi_16_401_2020]\]. **The 2004 edition examined here is
-therefore the last public snapshot of the approved list**, which is why the absence of the X-39 from it was
-worth checking directly.
+therefore the last public snapshot of the approved list**, a status that justified checking the absence of
+the X-39 from it directly.
 
 ### The System Provided for Reserving Names and Not Numbers
 
@@ -319,19 +336,19 @@ their exclusive use** \[[Air Force Joint Instruction 16-401, 2005][ref_afi_16_40
 
 **A popular name is a marketing asset and a design number is a structural index.** The instruction
 anticipated that a manufacturer would want to hold a name against future use and wrote a provision for it,
-while the numbering, which is consumed consecutively and cannot be replenished, was left with no reservation
+while the numbering, consumed consecutively and impossible to replenish, was left with no reservation
 provision at all. **The result was not that numbers went unreserved.** It was that they were reserved anyway,
 through an informal channel with no rule attached, and therefore with no rule governing release.
 
 ### The Numbering Has a Binding Constraint and It Can Be Written Down
 
-**The numbering has a binding constraint, and the instruction states it plainly.** Design numbers run
+**The numbering has a binding constraint, and the instruction states it.** Design numbers run
 consecutively from 1 to 999 within a basic mission, and the assigning authority assigns the next available
 consecutive number \[[Air Force Joint Instruction 16-401, 2005][ref_afi_16_401_2005]\]. A reserved number can
 be reused only if its reservation is cancelled before the next number is allocated
 \[[Allocation of Official Aerospace Vehicle MDS Designations][ref_mds_allocation]\].
-**It is a finite resource consumed in one direction**, and the whole argument about permanence rests on it,
-so it is worth stating exactly rather than describing.
+**It is a finite resource consumed in one direction**, and the argument about permanence is built on it, so the
+relations below write it out in symbols.
 
 Let $t$ denote time, let $A(t)$ be the set of design numbers already allocated within a basic mission at
 time $t$, and let $R(t)$ be the set reserved but not yet allocated. A number is unavailable when it lies in
@@ -345,25 +362,27 @@ unavailable.
 
 $$m(t) = \min \left\{ n \in \mathbb{N} : n \notin U(t) \right\}$$
 
-**One property has to be taken from the practice rather than derived from that definition, and the
-distinction matters.** Read literally, the minimum would fall again whenever a lower number was released,
-which is exactly what happened to C-16. What the documented practice adds is that a release helps only
+**One property comes from the practice and cannot be derived from that definition, and the distinction matters.**
+Read literally, the minimum would fall again whenever a lower number was released,
+as happened to C-16. What the documented practice adds is that a release helps only
 while the sequence still stands at the number, so once a higher number has been issued the authority does
-not come back for the one it passed. **That is an empirical rule about how the office behaves and not a
-consequence of the definition**, and the argument below depends on it.
+not come back for the one it passed
+\[[Allocation of Official Aerospace Vehicle MDS Designations][ref_mds_allocation]\]. **The rule is
+empirical, a description of how the office behaves, and the definition does not entail it.** The argument below
+depends on it.
 
-For a particular design number $r$, let $\tau_r$ be the moment the sequence passes it, being the first time
+For a design number $r$, let $\tau_r$ be the moment the sequence passes it, being the first time
 the next issue exceeds it.
 
 $$\tau_r = \inf \left\{ t : m(t) > r \right\}$$
 
 Let $t_c(r)$ be the time at which a reservation of $r$ is cancelled by its original requester, taken as
-infinite when no cancellation is ever filed. **Recovery is possible exactly when the cancellation precedes
-the passage**, which is Parsch's stated rule rewritten in one line.
+infinite when no cancellation is ever filed. **Recovery is possible exactly when the cancellation precedes the passage.**
+The relation below rewrites Parsch's stated rule in one line.
 
 $$\operatorname{recoverable}(r) \iff t_c(r) < \tau_r$$
 
-**The asymmetry of the previous subsection now yields a consequence that can be stated exactly.** The
+**The asymmetry of the previous subsection now yields a formal consequence.** The
 instruction supplies a route by which numbers enter $R$ and prescribes no procedure for removing them, so
 in the absence of an informal cancellation the reserved set only grows.
 
@@ -380,14 +399,15 @@ C-30, C-36, V-17, V-19, V-21 and X-39 are not a list of unrelated administrative
 
 ### The Gap Is Permanent Because a Second Document Was Also Missing
 
-**This is the part of the record that changes how the gap should be read, and it concerns recovery rather
-than creation.** A reservation that leads nowhere does not have to be permanent.
+**This part of the record changes how the gap should be read, and it concerns recovery, where earlier subsections concerned creation.**
+A reservation that leads nowhere does not have to be permanent.
 **A number can be recovered, and the condition is precise.** Parsch records that if a reservation is
 explicitly cancelled by the original requester **before the next number is allocated**, the number can
-effectively be reused, and gives the C-16 designation as a case where exactly that happened
+effectively be reused, and gives the C-16 designation as a case where that happened
 \[[Allocation of Official Aerospace Vehicle MDS Designations][ref_mds_allocation]\].
 
-**Nobody cancelled the X-39 reservation, and the window in which cancelling it would have helped was short.**
+**Nobody cancelled the X-39 reservation, and the window in which cancelling it would have helped was short**
+\[[Allocation of Official Aerospace Vehicle MDS Designations][ref_mds_allocation]\].
 The [X-40A][ref_x40] designation was allocated in 1997, initially to the Space Maneuver Vehicle and soon
 reassigned to the Integrated Technology Test Bed, the ninety percent scale unpowered vehicle that carried it
 into flight \[[Boeing X-37 and X-40][ref_x37_x40]\].
@@ -399,8 +419,8 @@ reserved, and the demonstrator that justified the reservation was cut in that ye
 here dates the X-40A allocation to 1997 without a month, so **this article does not claim that the X-39
 reservation displaced the X-40 allocation**, and the relative order of those two events within 1997 is left
 open. The same missing month leaves open whether the next design number was allocated before or after the
-demonstrator was cut, since the cut falls between 30 October and 17 December 1997. **What the record does
-settle does not depend on either ordering**, because recovering the number needed a cancellation and none
+demonstrator was cut, since the cut falls between 30 October and 17 December 1997. **The conclusion does not depend on either ordering**,
+because recovering the number needed a cancellation and none
 was ever filed.
 
 **The instantiation is short enough to check by eye.** For the X-39 the design number is $r = 39$, and no
@@ -416,14 +436,14 @@ cut came after the Phase I studies ended on 30 October 1997 and no later than th
 
 $$\tau_{39} \leq \text{31 December 1997}, \qquad \text{30 October 1997} < t_{\text{cut}} \leq \text{17 December 1997}$$
 
-**The two bounds overlap, so the record does not say which came first.** If the sequence passed 39 before
+**The two bounds overlap, leaving the order of the two events undetermined.** If the sequence passed 39 before
 the cut, the number was lost while the demonstrator was still a live proposal, and a release filed after the
 cut would have achieved nothing. If the cut came first, a release filed between the cut and the passage
 would have recovered the number. **No release was filed, so the number was lost either way**, and the
 missing month decides only whether anyone ever had the chance to save it once the reservation had become
 pointless.
 
-**Note what the bounds do not assert.** They say nothing about where the reservation time $t_{\text{res}}$ of 23 April 1997 falls relative
+**The bounds are silent on one point.** They do not place the reservation time $t_{\text{res}}$ of 23 April 1997 relative
 to $\tau_{39}$, because the X-40A allocation is dated to 1997 without a month.
 **Both orderings remain open and the conclusion holds under either**, since a cancellation time of infinity
 fails the condition regardless of when the passage occurred.
@@ -435,19 +455,18 @@ use for nearly thirty years without ever being approved.** The Federation of Ame
 page headed X-39 under a military aircraft heading, which correctly reports that the designator is apparently
 unassigned while nonetheless presenting it as an entry alongside aircraft that exist
 \[[X-39, Federation of American Scientists][ref_fas_x39]\].
-**The number is in public use, which is the use the instruction forbids before approval.**
+**The number is in public use, the very use the instruction forbids before approval.**
 
-**That is the divergence stated at the top of this article, in its sharpest form.** The register of
+**Here the divergence stated at the top of this article takes its sharpest form.** The register of
 designations and the population of aircraft are different things, maintained by different processes, and
 neither is a reliable index of the other. **This series has now met the divergence from both ends.** The
 [X-35][related_post_a332_lockheed_martin_x35] was a real aircraft that flew a competition, and the X-35
 article finds its literature under its own designation thin because the work continued under the production
-aircraft's name. **The X-39 is the mirror image, being a designation with a substantial public footprint and no
-aircraft behind it at all.**
+aircraft's name. **The X-39 is the mirror image, a designation with a substantial public footprint and no aircraft behind it at all.**
 
-### The Same String Names an Engine That Actually Ran
+### The Same String Names an Engine That Ran
 
-**There is an X-39 that existed, and it is not an aircraft.** General Electric applied the designation to
+**An X-39 did exist, but it was not an aircraft.** General Electric applied the designation to
 [J47][ref_j47] turbojets rebuilt to take their heated compressed air from a reactor heat exchanger rather
 than from burning fuel. **Those engines ran.** The Smithsonian National Air and Space Museum records that
 General Electric **successfully operated its X-39 engines on a ground test stand in 1956**, and that the
@@ -455,9 +474,9 @@ General Electric **successfully operated its X-39 engines on a ground test stand
 reactor \[[Bernier 2025][research_bernier_2025]\]. They were operated against three successive reactors, the
 Heat Transfer Reactor Experiments numbered one, two and three, under the
 [Aircraft Nuclear Propulsion][ref_anp] programme established by the Air Force and the Atomic Energy
-Commission in 1951 \[[General Electric J47][ref_j47]\].
-**The X-6 is the seventh article in this series**, and it is the aircraft that would have flown them had the
-programme survived.
+Commission in 1951 \[[General Electric J47][ref_j47]\] \[[Aircraft Nuclear Propulsion][ref_anp]\].
+**The X-6 is the seventh article in this series**, and had the programme survived it would have flown
+them.
 
 **The two sources disagree on what counted as one engine and the disagreement is left standing.** The
 museum account has the X-6 carrying four X-39 engines, while the encyclopaedia describes the X-39 as
@@ -467,14 +486,15 @@ designation names a unit of two**, but no source consulted here says so, so no c
 **Two registers therefore contain the same string and disagree completely about what it denotes.** In the
 aircraft designation series, X-39 names nothing and never did. In the engine designation series, X-39 names
 hardware that operated for years and is documented in detail. **The two have no relationship beyond the
-coincidence, since aircraft and engines are numbered under separate sequences by separate authorities.**
+coincidence, since the engine string comes from a General Electric programme and the aircraft number from the
+military designation system.**
 
-**The encyclopaedia records the collision rather than resolving it.** There is no article for the aircraft
+**The encyclopaedia records the collision without resolving it.** There is no article for the aircraft
 designation at all. What exists is a disambiguation page listing two senses, the nuclear turbojet and the
 reserved aircraft number, with the latter pointing back to the technology programme rather than to any
 vehicle \[[X39][ref_x39_wikipedia]\].
 **A designation that was never assigned has been reduced to one line on a page whose purpose is to warn
-readers that the term is ambiguous**, which is a fair summary of its entire standing.
+readers that the term is ambiguous**. The page fairly summarises the designation's standing.
 
 **A reader who treats the gaps in the X-series as evidence of concealment is reading the wrong artefact.**
 The gaps record the failure modes of a correspondence process. Some of them, such as the X-52, record a
@@ -498,13 +518,13 @@ was never sent to undo the first.**
 | The Future Aircraft Technology Enhancements programme | 1 |
 | **Total** | **768** |
 
-**This article's subject is not an aircraft, so its survey is not of the aerospace literature.** A survey of that literature would measure nothing relevant to whether a letter was written in 1997. The subject is what a gap in an official register means, and there is a large and current literature on exactly that question, spread across archival science, infrastructure studies, identifier administration and the logic of inference from absence. Two smaller clusters hold the literature of the programmes the number and its string belonged to.
+**This article's subject is not an aircraft, so its survey is not of the aerospace literature.** A survey of that literature would not bear on whether a letter was written in 1997. The subject is what a gap in an official register means, and there is a large and current literature on that question, spread across archival science, infrastructure studies, identifier administration and the logic of inference from absence. Two smaller clusters hold the literature of the programmes the number and its string belonged to.
 
-**The survey holds 768 records in eleven clusters.** Two of them, the Boeing Phase I report and the museum account of the nuclear turbojet, are among the sources the argument rests on. **The rest are not cited as evidence for any claim about the X-39**, and no paper among them has been read beyond its title, although every title has been read so that records sharing only a word with the subject are excluded. They are a map of the surrounding literature, offered so that a reader who wants to pursue the general question has somewhere to start.
+**The survey holds 768 records in eleven clusters.** Two of them, the Boeing Phase I report and the museum account of the nuclear turbojet, are among the argument's sources. **The rest are not cited as evidence for any claim about the X-39**, and no paper among them has been read beyond its title, although every title has been read so that records sharing only a word with the subject are excluded. They are a map of the surrounding literature, offered so that a reader who wants to pursue the general question has somewhere to start.
 
 ### Archival Silence and the Record That Was Never Made
 
-**Archival science has a name for what the X-39 is, and a literature about it.** A silence is a place where the record is absent, and the field's central claim is that archives are made by the same exercise of power that leaves their gaps, so that a silence carries information about the institution rather than merely lacking it \[[Schwartz and Cook 2002][research_schwartz_cook_2002]\] \[[Harris 2002][research_harris_2002]\] \[[Halidu 2025][research_halidu_2025]\]. The literature studies the destruction of records that were made \[[Dolganov 2025][research_dolganov_2025]\], and treats a refusal to record as an act with consequences of its own \[[Goeman-Shulsky 2022][research_goemanshulsky_2022]\]. **That is the claim this article makes about a designation gap.**
+**Archival science has a name for what the X-39 is, and a literature about it.** A silence is a place where the record is absent, and the field's central claim is that archives are made by the same exercise of power that leaves their gaps, so that a silence carries information about the institution rather than merely lacking it \[[Schwartz and Cook 2002][research_schwartz_cook_2002]\] \[[Harris 2002][research_harris_2002]\] \[[Halidu 2025][research_halidu_2025]\]. The literature studies the destruction of records that were made \[[Dolganov 2025][research_dolganov_2025]\], and treats a refusal to record as an act with consequences \[[Goeman-Shulsky 2022][research_goemanshulsky_2022]\]. **This article makes the same claim about a designation gap.**
 
 ### The Argument From Silence, as Method and as Fallacy
 
@@ -512,15 +532,15 @@ was never sent to undo the first.**
 
 ### Classification Systems as Infrastructure
 
-**A designation system is a classification, and there is a field that studies classifications as infrastructure.** Its founding study, Sorting Things Out, holds that classification has consequences beyond the sorting it performs, and treats classifications as large-scale infrastructures \[[Classification and Large-Scale Infrastructures 2000][research_classification_and_2000]\] \[[Categorical Work and Boundary Infrastructures 1999][research_categorical_work_1999]\]. Its residual categories, the places where whatever does not fit is put, are a subject in their own right \[[Star and Bowker 2007][research_star_bowker_2007]\] \[[Star 2010][research_star_2010]\], and administrative categories are studied as instruments that act on whoever is sorted into them \[[Vetters 2007][research_vetters_2007]\]. **A gap in a numbering series is a residual of exactly this kind**, a place in the scheme with nothing in it.
+**A designation system is a classification, and there is a field that studies classifications as infrastructure.** Its founding study, Sorting Things Out, holds that classification has consequences beyond the sorting it performs, and treats classifications as large-scale infrastructures \[[Classification and Large-Scale Infrastructures 2000][research_classification_and_2000]\] \[[Categorical Work and Boundary Infrastructures 1999][research_categorical_work_1999]\]. Its residual categories, the places where whatever does not fit is put, receive separate study \[[Star and Bowker 2007][research_star_bowker_2007]\] \[[Star 2010][research_star_2010]\], and administrative categories are studied as instruments that act on whoever is sorted into them \[[Vetters 2007][research_vetters_2007]\]. **A gap in a numbering series is a residual of this kind**, an empty place in the scheme.
 
 ### Identifier Assignment, Persistence and Reuse
 
-**The rule that consumed the X-39 is a live design question in identifier systems.** The persistent identifier literature names uniqueness and persistence among the requirements of a trusted identifier \[[Lehnert et al 2019][research_lehnert_klump_2019]\], and measures what happens to references when persistence fails \[[Zittrain and Albert 2013][research_zittrain_albert_2013]\] \[[Sadatmoosavi et al 2026][research_sadatmoosavi_khasseh_2026]\]. Reuse itself is rarely the subject of a title, and the titles that address it describe a reuse mechanism in one system \[[Yuan Shi et al 2006][research_yuanshi_boxuanzhai_2006]\] and a market in re-registering expired domain names \[[Salvador and Nogueira 2011][research_salvador_nogueira_2011]\]. **The Mission Design Series arrives at permanence by a different route**, through a practice with no written rule attached.
+**The rule that removed the X-39 from use is a live design question in identifier systems.** The persistent identifier literature names uniqueness and persistence among the requirements of a trusted identifier \[[Lehnert et al 2019][research_lehnert_klump_2019]\], and measures what happens to references when persistence fails \[[Zittrain and Albert 2013][research_zittrain_albert_2013]\] \[[Sadatmoosavi et al 2026][research_sadatmoosavi_khasseh_2026]\]. Reuse is rarely the subject of a title, and the titles that address it describe a reuse mechanism in one system \[[Yuan Shi et al 2006][research_yuanshi_boxuanzhai_2006]\] and a market in re-registering expired domain names \[[Salvador and Nogueira 2011][research_salvador_nogueira_2011]\]. **The Mission Design Series arrives at permanence by a different route**, through a practice with no written rule attached.
 
 ### Administering a Finite Number Space
 
-**The X-39 belongs to a general problem, which is what happens when a finite space of names is issued and cannot be replenished.** Internet address space and telephone numbering are administered under that constraint. The literature gathered here treats the exhaustion of Internet address space \[[Boucadair et al 2009][research_boucadair_grimault_2009]\] \[[Beeharry and Nowbutsing 2016][research_beeharry_nowbutsing_2016]\], the administration of numbering \[[Price Controls and Numbering Administration 2005][research_price_controls_2005]\], and the portability of a number from one holder to another \[[Gans et al 2001][research_gans_king_2001]\] \[[Wu 2013][research_wu_2013]\]. **Reservation and reclamation, the two acts the X-39 turns on, are almost absent from its titles**, as the subsection headed Thin Subjects counts.
+**The X-39 is one case of a general problem, the issue of a finite space of names that cannot be replenished.** Internet address space and telephone numbering are administered under that constraint. The literature gathered here treats the exhaustion of Internet address space \[[Boucadair et al 2009][research_boucadair_grimault_2009]\] \[[Beeharry and Nowbutsing 2016][research_beeharry_nowbutsing_2016]\], the administration of numbering \[[Price Controls and Numbering Administration 2005][research_price_controls_2005]\], and the portability of a number from one holder to another \[[Gans et al 2001][research_gans_king_2001]\] \[[Wu 2013][research_wu_2013]\]. **Reservation and reclamation, the two acts the X-39 turns on, are almost absent from its titles**, as the count under Thin Subjects shows.
 
 ### Recordkeeping, Retention and the Administrative Trace
 
@@ -528,11 +548,11 @@ was never sent to undo the first.**
 
 ### Maintaining a Register Over Decades
 
-**A register is not a document but a process, and the maintenance literature is about that process.** In the titles gathered here, the operation with a sustained literature is authority control, the work that keeps one name attached to one person or body across a catalogue \[[Authority Control 2012][research_authority_control_2012_d]\], together with catalogue maintenance \[[Oldfield 1988][research_oldfield_1988]\] and the upkeep of a master index of persons \[[Williams et al 2006][research_williams_robinson_2006]\]. **No title names the deprecation, withdrawal or retirement of an entry**, which is the operation the X-39 needed. The Mission Design Series list acquired a retirement procedure only recently, and had none at all when the X-39 was lost.
+**A register is not a document but a process, and the maintenance literature is about that process.** In the titles gathered here, the operation with a sustained literature is authority control, the work that keeps one name attached to one person or body across a catalogue \[[Authority Control 2012][research_authority_control_2012_d]\], together with catalogue maintenance \[[Oldfield 1988][research_oldfield_1988]\] and the upkeep of a master index of persons \[[Williams et al 2006][research_williams_robinson_2006]\]. **No title names the deprecation, withdrawal or retirement of an entry**, the operation the X-39 needed. The Mission Design Series instruction has provided for retiring an assigned designator since at least 1994, and no edition has provided for releasing a reserved number \[[Air Force Joint Instruction 16-401][ref_afi_16_401]\] \[[Air Force Instruction 16-401, 2020][ref_dafi_16_401_2020]\].
 
 ### Military Designation and Nomenclature Practice
 
-**The narrowest literature is the one closest to the subject, and it is genuinely small.** Two records treat military or government designation as a system, a 1997 Air Force issuance on designating and naming defense military aerospace vehicles \[[Department of the Air Force Washington Dc 1997][research_departmentoftheairforce_1997]\] and an appendix on aircraft nomenclature in a textbook of aircraft performance \[[Appendix A Aircraft Nomenclature 1997][research_appendix_a_1997]\]. Dictionary and handbook entries that define a designation system are reference entries rather than research works, and the survey excludes them. **That thinness is itself a finding**, and it is why the authoritative account of the X-39 is a privately maintained web survey rather than a paper.
+**The narrowest literature is the one closest to the subject, and it is genuinely small.** Two records treat military or government designation as a system, a 1997 Air Force issuance on designating and naming defense military aerospace vehicles \[[Department of the Air Force Washington Dc 1997][research_departmentoftheairforce_1997]\] and an appendix on aircraft nomenclature in a textbook of aircraft performance \[[Appendix A Aircraft Nomenclature 1997][research_appendix_a_1997]\]. Dictionary and handbook entries that define a designation system are reference entries rather than research works, and the survey excludes them. **That thinness is also a finding**, and it explains why the authoritative account of the X-39 is a privately maintained web survey rather than a paper.
 
 ### Recordkeeping, retention and provenance
 
@@ -609,31 +629,31 @@ The General Electric direct-air-cycle programme's own comprehensive technical re
 **The series framing assumes that a number names a vehicle, and here that assumption fails completely.**
 Every other article in the series begins from an aircraft and asks what it was built to measure. The X-39
 offers no aircraft, so the framing's research question, sizing and flight record are all empty, and the
-sections carrying those titles in this article say so rather than filling them.
+sections carrying those titles in this article say so and leave them empty.
 
 **The framing also invites the wrong reading of the gap.** A register of experimental aircraft suggests
 that a missing number hides an aircraft. The record shows instead a reservation that was never followed by
 a request and never cancelled \[[Missing USAF and DOD Aircraft Designations][ref_missing_mds]\], so the gap
-belongs to the history of correspondence and not to the history of flight.
+is part of the history of correspondence and not of flight.
 
-**The article's own replacement framing has a weak joint, and it is named rather than hidden.** The
+**The replacement framing that this article offers has a weak joint, and the joint is named here.** The
 permanence argument depends on a rule that a release stops helping once the sequence has passed the
 number, and that rule is drawn from Parsch's description of practice rather than from any regulation
-\[[Allocation of Official Aerospace Vehicle MDS Designations][ref_mds_allocation]\]. The section headed
-Epistemic State labels it as assumed.
+\[[Allocation of Official Aerospace Vehicle MDS Designations][ref_mds_allocation]\]. Epistemic State
+labels it as assumed.
 
-**The designation string itself does not stay inside one register.** The same X-39 names a nuclear
+**The designation string does not stay inside one register.** The same X-39 names a nuclear
 turbojet that ran on a ground stand \[[General Electric J47][ref_j47]\], so any framing that treats a
 designation as a unique name for one thing breaks at this number.
 
 ## The Source Base
 
-**The sixteen sources that carry the argument and the 768 research records that map the field are different things, although two belong to both.**
+**The eighteen sources that carry the argument and the 768 research records that map the field are different things, although two belong to both.**
 
-**The evidentiary base is small because the subject is.** Sixteen entries carry the argument,
+**The evidentiary base is small because the subject is.** Eighteen entries carry the argument,
 being two designation surveys, three versions of the joint instruction, two Department-level issuances,
-four parts of the Lockheed Martin Phase I briefing, the Boeing technical report, one trade report of the
-cancellation, one account of the X-40 allocation and two of the nuclear turbojet. **Ten of those sixteen
+four parts of the Lockheed Martin Phase I briefing, two parts of the Boeing Phase I briefing, the Boeing technical report, one trade report of the
+cancellation, one account of the X-40 allocation and two of the nuclear turbojet. **Twelve of those eighteen
 are primary documents**, which is an unusually high share and a consequence of the subject being
 administrative. The governing instructions are not commentary on the evidence. **They are the evidence.**
 
@@ -641,7 +661,7 @@ administrative. The governing instructions are not commentary on the evidence. *
 
 ### The Definition of Primary
 
-**Primacy is a property of the document, and this survey derives it from the identifier.** A record is a report primary when it is a NASA Technical Reports Server record, a Defense Technical Information Center report at that centre's own address or under the 10.21236 prefix that Crossref registers for it, or a Department of Energy report under the 10.2172 prefix that Crossref registers for the Office of Scientific and Technical Information. **By that rule 30 primaries are Department of Energy reports, two are NASA reports and two are Defense Technical Information Center reports**, and every one of them belongs to the clusters on military designation and nomenclature systems, nuclear propulsion of aircraft and the Future Aircraft Technology Enhancements programme. **The rule does not reach the instructions, the briefing or the designation surveys**, which are curated references rather than research records, so 4.4 percent describes the survey and not the argument, ten of whose sixteen sources are primary.
+**Primacy is a property of the document, and this survey derives it from the identifier.** A record is a report primary when it is a NASA Technical Reports Server record, a Defense Technical Information Center report at that centre's own address or under the 10.21236 prefix that Crossref registers for it, or a Department of Energy report under the 10.2172 prefix that Crossref registers for the Office of Scientific and Technical Information. **By that rule 30 primaries are Department of Energy reports, two are NASA reports and two are Defense Technical Information Center reports**, and every one of them belongs to the clusters on military designation and nomenclature systems, nuclear propulsion of aircraft and the Future Aircraft Technology Enhancements programme. **The rule does not reach the instructions, the briefings or the designation surveys**, which are curated references rather than research records, so 4.4 percent describes the survey and not the argument, twelve of whose eighteen sources are primary.
 
 ### Thin Subjects
 
@@ -686,62 +706,68 @@ administrative. The governing instructions are not commentary on the evidence. *
 
 The X-39 designation was reserved on 23 April 1997 for the Future Aircraft Technology Enhancements programme
 of the Air Force Research Laboratory, and no formal written request to allocate it was ever submitted, so it
-remained officially unassigned. FATE was a subset of the national Fixed Wing Vehicle programme, sponsored by
-Wright Laboratory at Dayton, Ohio, and structured in three phases of which only the first was executed.
-Lockheed Martin performed a Phase I study from June to October 1997 under contract F33615-97-C-3804, and
-Boeing Phantom Works performed a parallel Phase I study from 22 May to 30 October 1997, reported as
-AFRL-VA-WP-TR-1999-3061 in November 1997. The Air Force subsequently cut the Fixed Wing Vehicle demonstrator,
-and the Uninhabited Combat Air Vehicle Advanced Technology Demonstration replaced the FATE activity. The
-X-40A designation was allocated in 1997. Air Force Joint Instruction 16-401 of 9 September 1994 required a
-written request for assignment and directed that designators not be used before approval.
+remained officially unassigned \[[Missing USAF and DOD Aircraft Designations][ref_missing_mds]\]. FATE was
+a subset of the national Fixed Wing Vehicle programme, sponsored by Wright Laboratory at Dayton, Ohio, and
+structured in three phases of which only the first was executed. Lockheed Martin performed a Phase I study
+from June to October 1997 under contract F33615-97-C-3804
+\[[Lockheed Martin FATE briefing][ref_lockheed_fate]\], and Boeing Phantom Works performed a parallel
+Phase I study from 30 June to 30 October 1997 \[[Boeing FATE Block 1 Phase 1 briefing][ref_boeing_fate]\],
+reported in November 1997 \[[Cupstid 1997][research_cupstid_1997]\]. The Air Force subsequently cut the
+Fixed Wing Vehicle demonstrator, and the Uninhabited Combat Air Vehicle Advanced Technology Demonstration
+replaced the FATE activity \[[US Air Force cuts fixed wing FATE demonstrator plans][ref_flightglobal_fate]\]
+\[[Boeing FATE briefing, transition to UCAV-ATD][ref_boeing_fate_transition]\]. The X-40A designation was
+allocated in 1997 \[[Boeing X-37 and X-40][ref_x37_x40]\]. Air Force Joint Instruction 16-401 of
+9 September 1994 required a written request for assignment and directed that designators not be used before
+approval \[[Air Force Joint Instruction 16-401][ref_afi_16_401]\].
 
 **Separately and unrelatedly, General Electric applied the designation X-39 to modified J47
 turbojets** adapted to run on reactor heat under the Aircraft Nuclear Propulsion programme. Those engines
 were operated on a ground test stand with the Heat Transfer Reactor Experiments one, two and three, and were
-intended for the Convair X-6. **This is an engine designation and has no connection to the aircraft
+intended for the Convair X-6 \[[General Electric J47][ref_j47]\]. **This is an engine designation and has no connection to the aircraft
 designation beyond the shared string.**
 
 ### Verified Against the Primary List
 
-**The absence of the X-39 from the approved-designator list was checked rather than asserted.** The
+**The absence of the X-39 from the approved-designator list was verified against the document.** The
 12 May 2004 edition of DoD 4120.15-L was retrieved and read, and its aircraft appendix carries X-35A,
-X-36A, X-37A, X-38A, X-40A and X-40B with **no X-39 entry anywhere in the document**.
+X-36A, X-37A, X-38A, X-40A and X-40B with **no X-39 entry anywhere in the document**
+\[[DoD 4120.15-L][ref_dod_412015l]\].
 
-**That is corroboration and not demonstration, and the article says so.** X-33 and X-34 are also absent
+**The check is corroboration, and the article does not present it as demonstration.** X-33 and X-34 are also absent
 from the same edition, and both were real programmes cancelled in March 2001 \[[Jenkins, Landis and Miller, American X-Vehicles][ref_xvehicles]\], so absence from a
 2004 list is consistent with several histories including retirement after cancellation. **The list shows that the X-39 is not
 among the approved designators of record. It cannot by itself show that it never was.**
 
 ### Analysis
 
-**The formal treatment of the numbering is a restatement rather than a discovery.** The set definitions,
+**The formal treatment of the numbering restates the sources and adds no new fact.** The set definitions,
 the next-issue rule and the recovery condition encode what the joint instruction and Parsch's account of
 the practice already say in prose. **Their value is that an ordering argument becomes checkable**, and the
 conclusion for the X-39 follows from a cancellation time of infinity without needing any date at all.
 
 **One step in that treatment is assumed and is labelled as assumed in the text.** Taken literally, the
 minimum of the available set would fall again whenever a lower number was released, and the C-16 case shows
-that a release can indeed recover a number. **The rule that a release stops helping once the sequence has
-passed the number is empirical**, drawn from Parsch's description of the practice, and it is the step the
-permanence argument leans on hardest. **No regulation quoted here states it.**
+that a release can recover a number. **The rule that a release stops helping once the sequence has
+passed the number is empirical**, drawn from Parsch's description of the practice, and the permanence
+argument leans on this step hardest. **No regulation quoted here states it.**
 
 ### Inference
 
 **That the X-39 request was never submitted because the demonstrator was cancelled is an inference**, not a
 statement any source makes directly. The sources establish that the reservation was for the FATE programme,
 that a research designation attaches to a vehicle, that the vehicle was FATE II's product, that FATE II was
-cut, and that no request followed. **The causal link between the last two is the natural reading and it is
-not documented.** An alternative reading, that the request was simply forgotten while the programme was still
+cut, and that no request followed. **The causal link between the last two is the natural reading, but no document records it.**
+An alternative reading, that the request was forgotten while the programme was still
 alive, is not excluded by anything found here.
 
-**Whether the reuse window had closed before the cancellation is not settled by the dated facts**, being
+**Whether the reuse window had closed before the cancellation is not settled by the dated facts**, which are
 the allocation of X-40A during 1997 and a cut that fell between 30 October and 17 December 1997. Either answer
-depends on the reuse rule as Parsch states it, which is a description of practice rather than a quotation
-from a regulation.
+depends on the reuse rule as Parsch states it, a description of practice for which no regulatory text has
+been found.
 
 ### What the Record Does Not Settle
 
-**The month of the X-40A allocation is not established here**, so the relative order of the X-39 reservation
+**No source accessible here gives the month of the X-40A allocation**, so the relative order of the X-39 reservation
 and the X-40 allocation within 1997 remains open, and no claim about displacement is made.
 
 **The exact date of the FATE demonstrator cancellation is not established here, but it is bounded.** The
@@ -754,11 +780,11 @@ Vehicle Advanced Technology Demonstration, which will replace the FATE activity.
 X-vehicles of 2003 describes the rest of FATE as seemingly cancelled before being started \[[Jenkins, Landis and Miller, American X-Vehicles][ref_xvehicles]\].
 
 **A finer date would need a document that is not available here.** A research and development budget
-justification would show the programme element and the year its funding stopped, and no such justification
-for this programme is available here. **The cut is bounded to seven weeks, and the month of the X-40A
+justification would show the programme element and the year its funding stopped, and none has been found
+for this programme. **The cut is bounded to seven weeks, and the month of the X-40A
 allocation is the missing fact that would order it against the passage of 39.**
 
-**Who reserved the number is not established.** The sources name the programme and the laboratory, not an
+**Who reserved the number is unknown.** The sources name the programme and the laboratory, not an
 office or an individual, and the instruction's routing implies a system programme office that no accessible
 source identifies.
 
@@ -766,33 +792,31 @@ source identifies.
 inferred from the number remaining unallocated and from Parsch listing X-39 among the reservations that
 produced permanent gaps, rather than from any document recording that no cancellation was filed.
 
-**Whether the current instruction has codified reservation is settled, and the answer is that it has
-not.** The 1994, 2005 and 2020 versions of the joint instruction were all read directly, the 2020 text from
+**The current instruction has not codified reservation, and that question is settled.** The 1994, 2005 and 2020 versions of the joint instruction were all read directly, the 2020 text from
 a copy held on the designation survey site.
 
-**The nuclear turbojet now rests on a museum account as well as an encyclopaedia, and neither is a primary
-document.** The Smithsonian article supplies the 1956 ground-test date and the intended installation on the
+**The nuclear turbojet is now sourced to a museum account as well as an encyclopaedia, and neither is primary.**
+The Smithsonian article supplies the 1956 ground-test date and the intended installation on the
 X-6. No separate encyclopaedia article exists for the engine, and the account there sits within the article
 on the J47 from which it was derived. **The two disagree on how many J47 units constituted one X-39**, so
 no count is asserted. **The reactor pairings should be treated as secondary reporting**, and the engine is
 used here only to establish that the designation string was applied to hardware in a different series, which
-both sources support plainly. The survey holds the General Electric programme's own comprehensive technical
+both sources support. The survey holds the General Electric programme's own comprehensive technical
 reports, read by title only, and no title among them names the X-39 engines or the Heat Transfer Reactor
 Experiments.
 
-**One source conflict is recorded rather than resolved.** The encyclopaedia article on FATE describes the
+**One source conflict is recorded and left unresolved.** The encyclopaedia article on FATE describes the
 programme as run by the Air Force Research Laboratory and the Defense Advanced Research Projects Agency
 jointly \[[Future Aircraft Technology Enhancements][ref_fate_wikipedia]\], while the contemporaneous sources
-here describe FATE as an Air Force programme whose demonstrator was cut precisely because it would have
-duplicated a separate agency project. **The second reading is better supported and the conflict is left
-standing rather than silently resolved.**
+here describe FATE as an Air Force programme whose demonstrator was cut because it would have
+duplicated a separate agency project. **The second reading is better supported, but the conflict is left standing.**
 
-## Out of Scope, On What This Article Deliberately Omits
+## Out of Scope
 
 **A survey of the aerospace literature is omitted, because it would measure nothing relevant to whether a
 letter was written in 1997.** The article's subject is not an aircraft. It is what a gap in an official
-register means, and a large current literature addresses exactly that, so a survey of that literature
-belongs and a survey of the aerospace field does not.
+register means, and a large current literature addresses that question, so that literature is surveyed and
+the aerospace field is not.
 
 **The survey is therefore chiefly of archival science, classification, identifier and number-space
 administration and the logic of inference from absence**, with two small clusters on the programmes that the
@@ -803,30 +827,30 @@ nuclear turbojet, which the argument cites, no survey record is cited in support
 of an aircraft derives a keystone relationship and dimensions dependent systems against it. A designation has no mass and no area,
 so there is nothing to size. **There is nonetheless a binding
 constraint**, since the numbering is a finite resource issued consecutively and
-never replenished, which is precisely the mechanism the permanence argument depends on. The eight relations
+never replenished, and the case for permanence depends on that mechanism. The eight relations
 above state that mechanism and nothing else. **None of them is a physical law and none of them is
 dimensional**, and they earn their place only by making an ordering argument checkable that prose states
 loosely.
 
 **The evidentiary base is small and is not padded, and the reference list is large for a different
-reason.** Sixteen of the entries below carry the argument, being the two designation surveys, the three
+reason.** Eighteen of the entries below carry the argument. They are the two designation surveys, the three
 versions of the joint instruction, the two Department-level issuances, the four parts of the Lockheed
-Martin briefing, the Boeing technical report, the trade report of the cancellation, the account of the
-X-40 allocation, and the two accounts of the nuclear turbojet. A further sixteen name, define or give context rather than
-carry the argument. **Apart from the related posts in this series, everything beyond those thirty-two is the reference survey**, which also
-holds the two research records among the sixteen, and which is otherwise a map of the surrounding field and not
+Martin briefing, the two parts of the Boeing briefing, the Boeing technical report, the trade report of the cancellation, the account of the
+X-40 allocation, and the two accounts of the nuclear turbojet. A further seventeen name, define or give context rather than
+bear the argument's weight. **Apart from the related posts in this series, everything beyond those thirty-five is the reference survey**, which also
+holds the two research records among the eighteen, and which is otherwise a map of the surrounding field and not
 evidence, as the Source Base section above sets out.
 
-**Ten of those sixteen are primary documents**, being the three instructions, the two Department-level
-issuances, the four briefing parts and the technical report. That is a higher primary share than a subject
-this thin would normally support, and it is a consequence of the subject being administrative.
+**Twelve of those eighteen are primary documents**, being the three instructions, the two Department-level
+issuances, the six briefing parts and the technical report. That share is higher than a subject
+this thin would normally support, and the administrative nature of the subject explains it.
 **The governing documents are the evidence here, rather than commentary on the evidence.**
 
 ## Conclusion
 
 **The X-39 is a gap in a public register that records nothing about aviation and something precise about
 administration.** A number was informally set aside on 23 April 1997 for a demonstrator that a study
-beginning four weeks later was supposed to justify. The study finished, the demonstrator was cut in favour of
+beginning about ten weeks later was supposed to justify. The study finished, the demonstrator was cut in favour of
 work already being done elsewhere, and the written request that would have made the designation real was
 never written. **The number was never refused, because it was never requested.**
 
@@ -840,7 +864,7 @@ The reservation happened anyway, through a channel with no rule attached, which 
 releasing it either. **A register maintained this way is a record of correspondence**, and reading it as a
 record of aircraft, which is what a gap invites, gets the artefact wrong.
 
-**The sharpest evidence for that is a coincidence of naming.** An X-39 does exist and did run, being the
+**The sharpest evidence for that is a coincidence of naming.** An X-39 does exist and did run. It denotes the
 nuclear-heated J47 turbojets built for the [X-6][related_post_a303_convair_x6] under a different
 designation series entirely. **One register holds a number with no hardware and the other holds hardware
 under the same number**, and nothing connects them except the string.
@@ -859,6 +883,8 @@ The next article returns to a vehicle that was built and flown.
 - [Air Force Research Laboratory][ref_afrl]
 - [Aircraft Nuclear Propulsion][ref_anp]
 - [Allocation of Official Aerospace Vehicle MDS Designations][ref_mds_allocation]
+- [Boeing FATE Block 1 Phase 1 briefing][ref_boeing_fate]
+- [Boeing FATE briefing, transition to UCAV-ATD][ref_boeing_fate_transition]
 - [Boeing Phantom Works][ref_phantom_works]
 - [Boeing X-37 and X-40][ref_x37_x40]
 - [Boeing X-40][ref_x40]
@@ -1702,6 +1728,8 @@ The next article returns to a vehicle that was built and flown.
 [ref_afrl]: https://en.wikipedia.org/wiki/Air_Force_Research_Laboratory
 [ref_anp]: https://en.wikipedia.org/wiki/Aircraft_Nuclear_Propulsion
 [ref_asc]: https://en.wikipedia.org/wiki/Aeronautical_Systems_Center
+[ref_boeing_fate]: https://man.fas.org/dod-101/sys/ac/docs/bfrptpa4/tsld001.htm
+[ref_boeing_fate_transition]: https://man.fas.org/dod-101/sys/ac/docs/bfrptpa4/tsld003.htm
 [ref_dafi_16_401_2020]: https://www.designation-systems.net/usmilav/afi16-401.pdf
 [ref_darpa]: https://en.wikipedia.org/wiki/DARPA
 [ref_dod_412015l]: https://everyspec.com/DoD/DoD-PUBLICATIONS/DOD_4120--15-L_5753/

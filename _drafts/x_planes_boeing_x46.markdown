@@ -12,24 +12,24 @@ series_index: 47
 <!-- A343 -->
 <script>console.log("A343");</script>
 
-**On 29 April 2003 Boeing announced the aeroplane that replaced the X-46, and the announcement does not contain the word X-46** \[[Boeing to develop new X-45C UCAV for Air Force and Navy demonstrations][ref_boeing_x45c_release]\]. It names the X-45B as the design being set aside and describes the new aircraft as meeting Air Force and Navy requirements together. **The naval programme is not cancelled in that document, it is absorbed**, and the designation simply stops being used.
+**On 29 April 2003 Boeing announced the aeroplane that replaced the X-46, and the announcement does not contain the word X-46** \[[Boeing to develop new X-45C UCAV for Air Force and Navy demonstrations][ref_boeing_x45c_release]\]. It names the X-45B as the design being set aside and describes the new aircraft as meeting Air Force and Navy requirements together. **The naval programme is not cancelled in that document, it is absorbed**, and the designation stops being used.
 This is the forty-seventh article in the [X-Planes series][related_post_a297_framing], following the [X-1][related_post_a298_bell_x1], the [X-2][related_post_a299_bell_x2], the [X-3][related_post_a300_douglas_x3], the [X-4][related_post_a301_northrop_x4], the [X-5][related_post_a302_bell_x5], the [X-6][related_post_a303_convair_x6], the [X-7][related_post_a304_lockheed_x7], the [X-8][related_post_a305_aerojet_x8], the [X-9][related_post_a306_bell_x9], the [X-10][related_post_a307_north_american_x10], the [X-11][related_post_a308_convair_x11], the [X-12][related_post_a309_convair_x12], the [X-13][related_post_a310_ryan_x13], the [X-14][related_post_a311_bell_x14], the [X-15][related_post_a312_north_american_x15], the [X-16][related_post_a313_bell_x16], the [X-17][related_post_a314_lockheed_x17], the [X-18][related_post_a315_hiller_x18], the [X-19][related_post_a316_curtiss_wright_x19], the [X-20][related_post_a317_boeing_x20], the [X-21][related_post_a318_northrop_x21], the [X-22][related_post_a319_bell_x22], the [X-23][related_post_a320_martin_marietta_x23], the [X-24][related_post_a321_martin_marietta_x24], the [X-25][related_post_a322_bensen_x25], the [X-26][related_post_a323_schweizer_x26], the [X-27][related_post_a324_lockheed_x27], the [X-28][related_post_a325_osprey_x28], the [X-29][related_post_a326_grumman_x29], the [X-30][related_post_a327_rockwell_x30], the [X-31][related_post_a328_rockwell_mbb_x31], the [X-32][related_post_a329_boeing_x32], the [X-33][related_post_a330_lockheed_martin_x33], the [X-34][related_post_a331_orbital_sciences_x34], the [X-35][related_post_a332_lockheed_martin_x35], the [X-36][related_post_a333_mcdonnell_douglas_x36], the [X-37][related_post_a334_boeing_x37], the [X-38][related_post_a335_scaled_composites_x38], the [X-39][related_post_a336_x39_reserved_never_assigned], the [X-40][related_post_a337_boeing_x40], the [X-41][related_post_a338_x41_common_aero_vehicle], the [X-42][related_post_a339_orbital_sciences_x42], the [X-43][related_post_a340_micro_craft_x43], the [X-44][related_post_a341_x44_two_aircraft], and the [X-45][related_post_a342_boeing_x45].
 
-**The X-46 designation was assigned normally to a real programme with a contractor, a contract and a documented requirement**, so although no X-46A was built there is a keystone to identify and there are systems to dimension, and the sections below dimension them.
+**The X-46 designation was assigned normally to a real programme with a contractor, a contract and a documented requirement** \[[Parsch, Boeing X-45 and X-46, Directory of U.S. Military Rockets and Missiles][ref_parsch_x45]\] \[[Chronicle of the Salty Dogs, Center for the Study of the Drone][ref_bard_chronicle]\], so although no X-46A was built there is a keystone to identify and there are systems to dimension, and the sections below dimension them.
 
-**The reason the record is thin is specific rather than general.** The specialist designation directory prints a specification table for the X-45A and the X-45C and prints none for the X-46A, stating instead that Boeing disclosed only minimal information about it \[[Parsch, Boeing X-45 and X-46, Directory of U.S. Military Rockets and Missiles][ref_parsch_x45]\]. **No airframe was ever built.** There is no first flight, no envelope, no measured drag polar and no photograph of the article itself.
+**The record is thin for a reason that can be named.** The specialist designation directory prints a specification table for the X-45A and the X-45C and prints none for the X-46A, stating instead that Boeing disclosed minimal information about it \[[Parsch, Boeing X-45 and X-46, Directory of U.S. Military Rockets and Missiles][ref_parsch_x45]\]. **No airframe was ever built.** There is no first flight, no envelope, no measured drag polar and no photograph of the vehicle.
 
-**What was published instead is the requirement.** The Navy and the Defense Advanced Research Projects Agency specified what a carrier-based unmanned combat aircraft had to do before either contractor drew one, and those numbers survive in the open record. **The record therefore holds a question rather than a vehicle**, and the sections below take that question and ask what vehicle it demanded.
+**What was published instead is the requirement.** The Navy and the Defense Advanced Research Projects Agency specified what a carrier-based unmanned combat aircraft had to do before either contractor drew one, and those numbers survive in the open record \[[Chronicle of the Salty Dogs, Center for the Study of the Drone][ref_bard_chronicle]\]. **The record therefore holds a question in place of a vehicle**, and the sections below take that question and ask what vehicle it demanded.
 
 ## The Research Question
 
-**The binding unknown was whether removing the crew buys enough of the airframe to pay for twelve hours on station off a carrier deck.**
+**The binding unknown was whether removing the crew saves enough airframe weight to pay for twelve hours on station off a carrier deck.**
 
-That needs stating carefully. **A carrier aeroplane is heavy for reasons that have nothing to do with its mission.** It carries a tailhook, a strengthened keel, landing gear sized for an arrested descent rather than a runway one, catapult fittings that put the whole airframe in tension, and corrosion protection for a service life spent in salt air. Those masses are charged against the same gross weight that has to hold the fuel.
+That needs stating carefully. **A carrier aeroplane is heavy for reasons that have nothing to do with its mission.** It carries a tailhook, a strengthened keel, landing gear sized for an arrested descent rather than a runway one, catapult fittings that put the airframe in tension, and corrosion protection for a service life spent in salt air. Those masses are charged against the same gross weight that has to hold the fuel.
 
-**An unmanned aeroplane gives some of that back.** It has no cockpit, no canopy, no ejection seat, no life support, no crew station displays and no windscreen structure. **The question is whether the credit exceeds the debit**, and the requirement for a naval unmanned combat air vehicle, designated UCAV-N, is a statement of how large the credit had to be.
+**An unmanned aeroplane gives some of that back.** It has no cockpit, no canopy, no ejection seat, no life support, no crew station displays and no windscreen structure. **The question is whether the credit exceeds the debit**, and the requirement for a naval unmanned combat air vehicle, designated UCAV-N, sets how large the credit had to be.
 
-Writing that as a relation makes the whole article one inequality. Let $\zeta_{\text{empty}}$ be the empty weight as a fraction of gross, let $\Delta_{\text{deck}}$ be what carrier suitability adds and $\Delta_{\text{crew}}$ what removing the crew saves, both as fractions of the same gross weight. Then
+Written as a relation, the argument of the article reduces to one inequality. Let $\zeta_{\text{empty}}$ be the empty weight as a fraction of gross, let $\Delta_{\text{deck}}$ be what carrier suitability adds and $\Delta_{\text{crew}}$ what removing the crew saves, both as fractions of the same gross weight. Then
 
 $$\zeta_{\text{empty}} = \zeta_{\text{ref}} + \Delta_{\text{deck}} - \Delta_{\text{crew}}$$
 
@@ -37,37 +37,37 @@ and the requirement is satisfiable only if
 
 $$\Delta_{\text{crew}} - \Delta_{\text{deck}} \ \ge \ \zeta_{\text{ref}} - \zeta_{\text{req}}$$
 
-**Everything below is an attempt to put a number on the right-hand side**, since $\zeta_{\text{ref}}$ is what manned carrier aircraft achieve and $\zeta_{\text{req}}$ is what the requirement demands. **Neither delta is published for any aircraft**, which is why the article bounds their difference rather than estimating them separately.
+**The sections below attempt to put a number on the right-hand side**, since $\zeta_{\text{ref}}$ is what manned carrier aircraft achieve and $\zeta_{\text{req}}$ the requirement's target. **Neither delta is published for any aircraft.** Their difference is bounded below, and neither is estimated on its own.
 
-The requirement, as the open record gives it, is a payload of four thousand pounds, an operational radius of six hundred and fifty nautical miles, an ability to loiter for up to twelve hours, and carrier takeoff and recovery \[[Naval Unmanned Combat Air Vehicle, GlobalSecurity][ref_ucavn_globalsecurity]\] \[[Chronicle of the Salty Dogs, Center for the Study of the Drone][ref_bard_chronicle]\]. **Three numbers and a constraint, and this article's whole analysis is what they imply.**
+The requirement, as the open record gives it, is a payload of four thousand pounds, an operational radius of six hundred and fifty nautical miles, an ability to loiter for up to twelve hours, and carrier takeoff and recovery \[[Chronicle of the Salty Dogs, Center for the Study of the Drone][ref_bard_chronicle]\]. **Three numbers and a constraint, and the analysis that follows derives what they imply.**
 
-**The record does not say whether the three numbers hold simultaneously**, and the difference is enormous. An aircraft that flies six hundred and fifty nautical miles, loiters twelve hours and returns is a very different aeroplane from one that does either separately. **Both readings are computed below and the article does not pretend to know which was meant.**
+**The requirement as recorded does not say whether the three numbers hold simultaneously**, and the difference is enormous. One secondary compilation, which attributes its figures to a single unnamed report, presents the radius as a strike mission and the twelve hours as a separate surveillance mission \[[X-46, GlobalSecurity][ref_x46_globalsecurity]\], but no programme document settles the point. An aircraft that flies six hundred and fifty nautical miles, loiters twelve hours and returns is a very different aeroplane from one that does either separately. **Both readings are computed below and the article does not pretend to know which was meant.**
 
 ## Programme Origin
 
-**The naval effort began as a study rather than as a construction contract.** In June 2000 the Defense Advanced Research Projects Agency awarded the first study contracts for a carrier-based unmanned combat aircraft, designated UCAV-N, to Northrop Grumman and to Boeing \[[Northrop Grumman X-47A Pegasus][ref_x47a_wikipedia]\] \[[Parsch, Boeing X-45 and X-46, Directory of U.S. Military Rockets and Missiles][ref_parsch_x45]\]. Boeing's answer received the designation X-46A and Northrop Grumman's the X-47A.
+**The naval effort began as a study rather than as a construction contract.** In June 2000 the Defense Advanced Research Projects Agency awarded the first study contracts for a carrier-based unmanned combat aircraft, designated UCAV-N, to Northrop Grumman and to Boeing \[[Northrop Grumman X-47A Pegasus][ref_x47a_wikipedia]\] \[[Parsch, Boeing X-45 and X-46, Directory of U.S. Military Rockets and Missiles][ref_parsch_x45]\], each receiving two million dollars for an initial fifteen-month phase of trade studies, analyses and preliminary design \[[Naval Unmanned Combat Air Vehicle, GlobalSecurity][ref_ucavn_globalsecurity]\]. Boeing's answer received the designation X-46A and Northrop Grumman's the X-47A.
 
-**The two answers were not equally conservative and the difference decided the outcome.** Boeing proposed a vehicle derived from work it was already doing for the Air Force, described in the contemporary account as somewhat conservative and based on the existing X-45 \[[Chronicle of the Salty Dogs, Center for the Study of the Drone][ref_bard_chronicle]\]. Northrop Grumman had no such inheritance and had instead built, at its own expense, a proof-of-concept airframe it called Pegasus, completed in July 2001 \[[Northrop Grumman X-47A Pegasus][ref_x47a_wikipedia]\].
+**The two answers were not equally conservative.** Boeing proposed a vehicle derived from work it was already doing for the Air Force, described in the contemporary account as somewhat conservative and based on the existing X-45 \[[Chronicle of the Salty Dogs, Center for the Study of the Drone][ref_bard_chronicle]\]. Northrop Grumman had no such inheritance and had instead built, at its own expense, a proof-of-concept airframe it called Pegasus, completed in July 2001 \[[Northrop Grumman X-47A Pegasus][ref_x47a_wikipedia]\].
 
-**The competitor flew and this aircraft did not.** The X-47A made its first flight on 23 February 2003, a milestone Northrop Grumman announced in terms of autonomous control rather than of speed or altitude \[[Northrop Grumman's X-47A Pegasus first flight achieves milestone in autonomous control][ref_x47a_first_flight]\], and it was the only flight that airframe ever made.
+**The competitor flew and this aircraft did not.** The X-47A made its first flight on 23 February 2003, a milestone Northrop Grumman announced in terms of autonomous control rather than of speed or altitude \[[Northrop Grumman's X-47A Pegasus first flight achieves milestone in autonomous control][ref_x47a_first_flight]\], and it was the only flight that airframe ever made \[[Chronicle of the Salty Dogs, Center for the Study of the Drone][ref_bard_chronicle]\].
 
-**The end came in two steps and the dates are frequently conflated.** In December 2002 the Department of Defense decided to merge the Air Force and Navy unmanned combat aircraft programmes into a Joint Unmanned Combat Air System \[[Unmanned vehicles for U.S. naval forces, Congressional Research Service RS21294][ref_crs_rs21294]\]. **The formal combination followed in April 2003**, and it is at that point that the X-46 programme is described as terminated as redundant \[[Parsch, Boeing X-45 and X-46, Directory of U.S. Military Rockets and Missiles][ref_parsch_x45]\]. **A decision in one year and a termination in the next are not the same event**, and an article that gives only one date makes the programme look shorter or longer than it was.
+**The end came in two steps and the dates are frequently conflated.** In December 2002 the Department of Defense decided to merge the Air Force and Navy unmanned combat aircraft programmes into a Joint Unmanned Combat Air System \[[Unmanned vehicles for U.S. naval forces, Congressional Research Service RS21294][ref_crs_rs21294]\]. **The formal combination followed in April 2003**, and the X-46 programme is described as terminated as redundant at that point \[[Parsch, Boeing X-45 and X-46, Directory of U.S. Military Rockets and Missiles][ref_parsch_x45]\] \[[Boeing X-46][ref_x46_wikipedia]\]. **A decision in one year and a termination in the next are not the same event**, and an article that gives only one date makes the programme look shorter or longer than it was.
 
-**The X-45B and the X-46A were terminated together and neither had an airframe.** Boeing was left building the X-45C, which the April 2003 announcement describes as a single design serving both services, with the naval version adding structural changes, landing gear, a tailhook and avionics for precision approach and landing \[[Boeing to develop new X-45C UCAV for Air Force and Navy demonstrations][ref_boeing_x45c_release]\].
+**The X-45B and the X-46A were terminated together and neither had an airframe** \[[Parsch, Boeing X-45 and X-46, Directory of U.S. Military Rockets and Missiles][ref_parsch_x45]\]. Boeing was left building the X-45C, which the April 2003 announcement describes as a single design serving both services, with the naval version adding structural changes, landing gear, a tailhook and avionics for precision approach and landing \[[Boeing to develop new X-45C UCAV for Air Force and Navy demonstrations][ref_boeing_x45c_release]\].
 
-**The requirement outlived the designation.** A Navy-only demonstrator programme restarted in the summer of 2006, Boeing proposed the X-45N using material developed for the X-45 and the X-46 \[[Boeing X-46][ref_x46_wikipedia]\], and in August 2007 the Navy selected the X-47B \[[Parsch, Boeing X-45 and X-46, Directory of U.S. Military Rockets and Missiles][ref_parsch_x45]\] \[[Northrop Grumman X-47B][ref_x47b_wikipedia]\]. **The carrier-based unmanned strike aircraft was eventually demonstrated, by the other contractor, in the decade after the study contracts.** The vehicle class itself has a longer history than either programme \[[Unmanned combat aerial vehicle][ref_ucav_wikipedia]\].
+**The requirement outlived the designation.** A Navy-only demonstrator programme restarted in the summer of 2006, Boeing proposed the X-45N using material developed for the X-45 and the X-46 \[[Boeing X-46][ref_x46_wikipedia]\], and in August 2007 the Navy selected the X-47B \[[Parsch, Boeing X-45 and X-46, Directory of U.S. Military Rockets and Missiles][ref_parsch_x45]\] \[[Northrop Grumman X-47B][ref_x47b_wikipedia]\]. **The carrier-based unmanned strike aircraft was eventually demonstrated, by the other contractor, in the decade after the study contracts.** The vehicle class has a longer history than either programme \[[Unmanned combat aerial vehicle][ref_ucav_wikipedia]\].
 
 ## What the Record Does Not Contain
 
 **This section exists because its absence would be the article's largest unstated assumption.**
 
-**There is no published specification for the X-46A.** The designation directory, which prints span, length, mass, thrust, speed, ceiling, radius and payload for both X-45 variants, prints none of those for the X-46A and says that Boeing disclosed minimal information \[[Parsch, Boeing X-45 and X-46, Directory of U.S. Military Rockets and Missiles][ref_parsch_x45]\]. **The encyclopaedia entry carries no specification table at all** and cites three trade-press articles for a programme summary of four sentences \[[Boeing X-46][ref_x46_wikipedia]\].
+**No programme source publishes a specification for the X-46A.** The designation directory, which prints span, length, mass, thrust, speed, ceiling, radius and payload for both X-45 variants, prints none of those for the X-46A and says that Boeing disclosed minimal information \[[Parsch, Boeing X-45 and X-46, Directory of U.S. Military Rockets and Missiles][ref_parsch_x45]\]. **The encyclopaedia entry carries no specification table at all** and cites three trade-press articles for a programme summary of five sentences \[[Boeing X-46][ref_x46_wikipedia]\]. One secondary compilation does print dimensions, a length of about thirty-four feet, a span of forty-four feet and a height of seven feet, which it attributes to a single unnamed report \[[X-46, GlobalSecurity][ref_x46_globalsecurity]\].
 
-**One statement about the shape does survive and it is worth its weight.** The directory describes the X-46A as generally similar to the X-45B except for a new wing planform \[[Parsch, Boeing X-45 and X-46, Directory of U.S. Military Rockets and Missiles][ref_parsch_x45]\]. **That single clause is the only physical description of this aeroplane this article has found**, and it says that the naval variant differed from its Air Force sibling in the wing and not elsewhere.
+**One statement about the shape does survive, and it matters.** The directory describes the X-46A as generally similar to the X-45B except for a new wing planform \[[Parsch, Boeing X-45 and X-46, Directory of U.S. Military Rockets and Missiles][ref_parsch_x45]\]. **That single clause is the only physical description of this aeroplane from a source that does not depend on an unnamed report**. By that clause, the naval variant differed from its Air Force sibling in the wing alone.
 
-**Figures nonetheless circulate, and their provenance is the interesting part.** Secondary compilations give the X-46 a four thousand pound payload and a six hundred and fifty nautical mile radius. **Those are the UCAV-N requirement numbers exactly.** They are what the aircraft was asked to do, not what any aircraft was measured doing, and an article that repeated them as a specification would be presenting a requirement as a result.
+**Figures nonetheless circulate, and their provenance is the interesting part.** A secondary compilation gives the X-46 a four thousand pound payload and a six hundred and fifty nautical mile radius \[[X-46, GlobalSecurity][ref_x46_globalsecurity]\]. **Those are the UCAV-N requirement numbers exactly** \[[Chronicle of the Salty Dogs, Center for the Study of the Drone][ref_bard_chronicle]\]. They are what the aircraft was asked to do, not what any aircraft was measured doing, and an article that repeated them as a specification would be presenting a requirement as a result.
 
-**This is a general hazard and not a local one.** For a vehicle that was never built, the requirement is the only quantitative material available, so it migrates into the specification field of every compilation that has a specification field to fill. **The distinction between what was demanded and what was achieved collapses whenever nothing was achieved**, and it collapses silently, because the number does not change when its meaning does.
+**The hazard is general.** For a vehicle that was never built, the requirement is the only quantitative material available, so it migrates into the specification field of every compilation that has a specification field to fill. **The distinction between what was demanded and what was achieved collapses whenever nothing was achieved**, and it collapses silently, because the number does not change when its meaning does.
 
 **So this article uses those numbers deliberately and in the other direction.** They are treated as the requirement they are, and the analysis asks what airframe would satisfy them.
 
@@ -75,13 +75,13 @@ The requirement, as the open record gives it, is a payload of four thousand poun
 
 **The vehicle is unknown and the requirement is documented, so the requirement is the datum.**
 
-### The One Constant This Aeroplane Can Legitimately Inherit
+### The Payload Fraction This Aeroplane Can Inherit
 
-**The previous article measured a design constant of this manufacturer's unmanned line.** The X-45A carries 680 kilograms of a gross 5,530 and the X-45C carries 2,040 of 16,600, and the two payload fractions agree to four significant figures across a tripling of payload \[[previous article][related_post_a342_boeing_x45]\],
+**The previous article measured a design constant of this manufacturer's unmanned line.** The X-45A carries 680 kilograms of a gross 5,530 and the X-45C carries 2,040 of 16,600, and the two payload fractions agree to four significant figures across a tripling of payload \[[Parsch, Boeing X-45 and X-46, Directory of U.S. Military Rockets and Missiles][ref_parsch_x45]\] \[[previous article][related_post_a342_boeing_x45]\],
 
 $$\frac{m_{\text{payload}}}{m_{\text{gross}}} = \frac{680}{5{,}530} = 0.12297 \qquad \frac{2{,}040}{16{,}600} = 0.12289$$
 
-**Two aircraft agreeing to four figures is a design practice and not an accident**, and it is the one property a vehicle Boeing never built may reasonably be assumed to share with the two it did. Taking the mean,
+**Two aircraft agreeing to four figures is too close to be an accident and indicates a design practice.** A vehicle Boeing never built may reasonably be assumed to share that practice, and no other property, with the two it did. Taking the mean,
 
 $$\overline{PF} = 0.12293$$
 
@@ -93,7 +93,7 @@ or 14,760 kilograms. Against the two aircraft that were built,
 
 $$\frac{32{,}539}{36{,}597} = 0.889 \qquad \frac{32{,}539}{12{,}192} = 2.67$$
 
-**That is 11.1 percent lighter than the X-45C and 2.67 times the X-45A**, and it places the X-46A firmly in the larger class rather than the demonstrator class.
+**That is 11.1 percent lighter than the X-45C and 2.67 times the X-45A**, and it places the X-46A firmly in the larger class and out of the demonstrator class.
 
 ### What the Mission Costs in Fuel
 
@@ -105,7 +105,7 @@ and for a loiter leg, where the aircraft is buying time rather than distance, th
 
 $$E = \frac{1}{c} \left( \frac{L}{D} \right) \ln \frac{W_{0}}{W_{1}} \qquad \Longrightarrow \qquad \frac{W_{1}}{W_{0}} = \exp \left( - \frac{E c}{(L/D)} \right)$$
 
-**Both are standard and both are stated here because everything below is arithmetic on them** \[[Raymer, Aircraft design, a conceptual approach][book_raymer]\] \[[Torenbeek, Synthesis of subsonic airplane design][book_torenbeek]\] \[[Anderson, Aircraft performance and design][book_anderson_performance]\] \[[Nicolai and Carichner, Fundamentals of aircraft and airship design][book_nicolai]\].
+**Both are standard and both are stated here because the remainder of the section is arithmetic on them** \[[Raymer, Aircraft design, a conceptual approach][book_raymer]\] \[[Torenbeek, Synthesis of subsonic airplane design][book_torenbeek]\] \[[Anderson, Aircraft performance and design][book_anderson_performance]\] \[[Nicolai and Carichner, Fundamentals of aircraft and airship design][book_nicolai]\].
 
 The assumptions are as follows and each is varied afterwards. Cruise is taken at 40,000 feet and Mach 0.75. **Forty thousand feet is above the tropopause**, so the standard atmosphere holds the temperature constant at its 11 kilometre value and the speed of sound with it \[[U.S. Standard Atmosphere, 1976][research_u_s_standard_1976]\] \[[Air Force Test Pilot School Edwards Afb Ca 1962][research_airforcetestpilotschooledwardsafbca_1962]\],
 
@@ -113,13 +113,13 @@ $$T = 288.15 - 0.0065 \times 11{,}000 = 216.65 \ \text{K} \qquad a = \sqrt{\gamm
 
 $$V = M a = 0.75 \times 295.07 = 221.30 \ \text{m/s} = 430.2 \ \text{kn}$$
 
-The cruise lift to drag ratio is taken as 16, which is the lower bound the previous article pinned for the X-45C from that aircraft's own stated ceiling and thrust. The loiter value is taken as 18, since loiter is flown nearer the best lift to drag ratio than cruise is. **Specific fuel consumption is taken as 0.80 per hour in cruise and 0.75 in loiter**, which is the class of a non-augmented turbofan of the kind both X-45 variants carried.
+The cruise lift to drag ratio is taken as 16, just below the lower bound of 16.3 that the previous article pinned for the X-45C from that aircraft's stated ceiling and thrust \[[previous article][related_post_a342_boeing_x45]\]. The loiter value is taken as 18, since loiter is flown nearer the best lift to drag ratio than cruise is. **Specific fuel consumption is taken as 0.80 per hour in cruise and 0.75 in loiter**, values typical of a non-augmented turbofan.
 
 The three segment ratios are then
 
 $$\frac{W_{1}}{W_{0}} \bigg|_{\text{out}} = 0.9272 \qquad \frac{W_{1}}{W_{0}} \bigg|_{\text{loiter}} = 0.6065 \qquad \frac{W_{1}}{W_{0}} \bigg|_{\text{back}} = 0.9272$$
 
-**Segment ratios multiply, which is the only reason a mission of several legs is tractable at all.** With a five percent reserve,
+**Segment ratios multiply, and that alone makes a mission of several legs tractable.** With a five percent reserve,
 
 $$\zeta_{\text{fuel}} = 1 - \prod_{i} \frac{W_{i+1}}{W_{i}} + 0.05 = 1 - 0.9272 \times 0.6065 \times 0.9272 + 0.05 = 0.5285$$
 
@@ -129,23 +129,23 @@ $$\zeta_{\text{cruise}} = 1 - \left( \frac{W_{1}}{W_{0}} \right)_{\text{out}} \l
 
 $$\zeta_{\text{loiter}} = \left( \frac{W_{1}}{W_{0}} \right)_{\text{out}} \left( \frac{W_{1}}{W_{0}} \right)_{\text{back}} \left[ 1 - \left( \frac{W_{1}}{W_{0}} \right)_{\text{loiter}} \right] = 0.3383$$
 
-**The two cruise legs together cost 14.0 percent of the takeoff weight and the twelve hours on station cost 33.8**, and those two with the five percent reserve are the 0.5285 above. **The loiter is charged after the outbound leg has already burned fuel**, which is why it costs 33.8 rather than the 39.3 that its own ratio would suggest if the aeroplane still weighed what it did at takeoff.
+**The two cruise legs together cost 14.0 percent of the takeoff weight and the twelve hours on station cost 33.8**, and those two with the five percent reserve are the 0.5285 above. **The loiter is charged after the outbound leg has already burned fuel**, so it costs 33.8. Applied to the takeoff weight, its ratio would suggest 39.3.
 
-### The Number the Requirement Actually Demands
+### The Empty-Weight Fraction the Requirement Demands
 
 **The weight fractions must sum to one, and that closes the problem.**
 
 $$\zeta_{\text{empty}} + \zeta_{\text{payload}} + \zeta_{\text{fuel}} = 1$$
 
-**Everything on the left except the first term is now known**, so the requirement determines the empty-weight fraction rather than leaving it free,
+**Every term on the left except the first is now known**, so the requirement fixes the empty-weight fraction,
 
 $$\zeta_{\text{empty}} = 1 - 0.12293 - 0.5285 = 0.3485$$
 
-**That is the result of this article.** The UCAV-N requirement, taken at face value and with the manufacturer's own payload fraction, demands an airframe whose empty weight is under thirty-five percent of its gross weight, **and it demands it of an aeroplane that must also survive being stopped by a wire.**
+**This fraction is the central result of the article.** The UCAV-N requirement, taken at face value and with the manufacturer's payload fraction, demands an airframe whose empty weight is under thirty-five percent of its gross weight, **and it demands it of an aeroplane that must also survive being stopped by a wire.**
 
-### What Carrier Aircraft Actually Weigh
+### What Carrier Aircraft Weigh
 
-**The comparison is the point and it is unflattering.**
+**The comparison is the point, and it does not flatter the requirement.**
 
 | aircraft | empty lb | maximum lb | fraction |
 |---|---|---|---|
@@ -157,19 +157,19 @@ Each row is the same fraction the requirement was solved for, and the smallest e
 
 $$\zeta_{\text{empty}} = \frac{W_{\text{empty}}}{W_{\max}} \qquad 0.441 - 0.3485 = 0.0925$$
 
-**No carrier aeroplane in that table comes within nine points of the demanded fraction** \[[Grumman A-6 Intruder][ref_a6_wikipedia]\] \[[Boeing F/A-18E/F Super Hornet][ref_fa18ef_wikipedia]\] \[[Lockheed S-3 Viking][ref_s3_wikipedia]\]. The S-3A is the closest analogue by mission, being a carrier-based twin-turbofan aeroplane built for long endurance rather than for speed, and it is the heaviest of the three in fraction terms.
+**No carrier aeroplane in that table comes within nine points of the demanded fraction** \[[Grumman A-6 Intruder][ref_a6_wikipedia]\] \[[Boeing F/A-18E/F Super Hornet][ref_fa18ef_wikipedia]\] \[[Lockheed S-3 Viking][ref_s3_wikipedia]\]. The S-3A is the closest analogue by mission, being a carrier-based twin-turbofan aeroplane built for long endurance rather than for speed, yet it has the highest fraction of the three.
 
-**Those are all manned aircraft and that is exactly the argument.** The difference between 0.35 and 0.44 is the crew and everything the crew requires, and **the requirement is a bet that the difference is worth about nine points of gross weight.** Whether it is remains, twenty years later, a question the open literature does not settle for a carrier-suitable airframe.
+**All three are manned aircraft, and the argument turns on that.** The difference between 0.35 and 0.44 is the crew and everything the crew requires, and **the requirement is a bet that the difference is worth about nine points of gross weight.** Twenty years later, the open literature has not answered that question for a carrier-suitable airframe.
 
 ### The Same Requirement Read as Separate Missions
 
 **If the three numbers are alternative mission points rather than one profile, the problem changes completely.**
 
-Every row below assumes an empty-weight fraction of 0.42, which is the light end of what a carrier airframe plausibly achieves, and the payload fraction is what remains after the fuel,
+Every row below assumes an empty-weight fraction of 0.42, the light end of what a carrier airframe plausibly achieves, and the payload fraction is what remains after the fuel,
 
 $$\zeta_{\text{payload}} = 1 - 0.42 - \zeta_{\text{fuel}} \qquad m_{\text{gross}} = \frac{4{,}000}{\zeta_{\text{payload}}}$$
 
-**Each reading is a different product of the same segment ratios**, which is the whole difference between them,
+**Each reading is a different product of the same segment ratios**, and that product is all that distinguishes them,
 
 $$\zeta_{\text{fuel}}^{\text{strike}} = 1 - (0.9272)^{2} + 0.05 = 0.190$$
 
@@ -183,15 +183,15 @@ $$\zeta_{\text{fuel}}^{\text{both}} = 1 - (0.9272)^{2} (0.6065) + 0.05 = 0.529$$
 | 12 h loiter, no transit | 0.443 | 0.137 | 29,297 lb |
 | 650 nm out, 12 h loiter, 650 nm back | 0.529 | 0.051 | 77,713 lb |
 
-**The third row is the one that cannot be right.** An aeroplane of seventy-eight thousand pounds is larger than an F/A-18E at maximum takeoff weight and is not what anybody was proposing to put on a deck as a demonstrator. **The first row is equally implausible in the other direction.** A payload fraction of 0.390 against the family constant is
+**The third row cannot be right.** An aeroplane of seventy-eight thousand pounds is larger than an F/A-18E at maximum takeoff weight \[[Boeing F/A-18E/F Super Hornet][ref_fa18ef_wikipedia]\] and is not what anybody was proposing to put on a deck as a demonstrator. **The first row is equally implausible in the other direction.** A payload fraction of 0.390 against the family constant is
 
 $$\frac{0.390}{0.12293} = 3.17$$
 
-**more than three times what this manufacturer's own aircraft achieve**, so an aeroplane meeting the strike reading at that weight would not be one Boeing was building.
+**more than three times what this manufacturer's aircraft achieve**, so an aeroplane meeting the strike reading at that weight would not be one Boeing was building.
 
-**So the honest reading is that the numbers are separate capability points**, and that the twelve-hour figure and the six-hundred-and-fifty-mile figure describe different sorties. **The record does not say so and this article does not claim it does.** What the arithmetic establishes is that they cannot all three hold at once in an aircraft of the size Boeing was building.
+**The more plausible reading is that the numbers are separate capability points**, and that the twelve-hour figure and the six-hundred-and-fifty-mile figure describe different sorties. **No programme document says so**, although one secondary compilation describes the radius and the twelve hours as separate strike and surveillance missions \[[X-46, GlobalSecurity][ref_x46_globalsecurity]\]. The arithmetic establishes that they cannot all three hold at once in an aircraft of the size Boeing was building.
 
-### What the Inherited Fraction Buys
+### Loiter Time at the Inherited Fraction
 
 **Turning the calculation around is more informative than the closure test.** Fixing the payload fraction at the family value and assuming an empty-weight fraction, the loiter time follows,
 
@@ -208,21 +208,21 @@ $$E = \frac{L/D}{c} \, \ln \frac{(W_{1}/W_{0})_{\text{out}} (W_{1}/W_{0})_{\text
 | 0.45 | 0.427 | 9.74 |
 | 0.48 | 0.397 | 8.52 |
 
-**The requirement is demanding and it is not absurd.** At an empty-weight fraction of 0.42, which is light for a carrier aeroplane and plausible for an unmanned one, the aircraft holds 11.03 hours on station at the full radius against a requirement of twelve.
+**The requirement is demanding but not absurd.** At an empty-weight fraction of 0.42, light for a carrier aeroplane and plausible for an unmanned one, the aircraft holds 11.03 hours on station at the full radius against a requirement of twelve.
 
 **The table is close to linear and its slope is the useful number.** Differentiating the loiter relation with respect to the empty-weight fraction, at fixed payload fraction and reserve,
 
 $$\frac{\partial E}{\partial \zeta_{\text{empty}}} = - \frac{L/D}{c} \, \frac{1}{\zeta_{\text{end}}} = -44.2 \ \text{hours per unit}$$
 
-which is 0.442 hours per point of empty-weight fraction. **Closing the remaining 0.97 hours therefore costs about two points and not one**, and solving the relation exactly gives
+which is 0.442 hours per point of empty-weight fraction. **Closing the remaining 0.97 hours therefore costs about two points**, and solving the relation exactly gives
 
 $$\zeta_{\text{empty}} = 0.3985 \quad \text{for} \quad E = 12 \ \text{hours}$$
 
-**The requirement sits 2.1 points of empty-weight fraction away from being met**, which is a much more useful statement than that it does or does not close.
+**The requirement sits 2.1 points of empty-weight fraction away from being met**, a more informative result than a bare verdict on whether it closes.
 
-### Sensitivity, Because Every Number Above Rests on Two Assumptions
+### Sensitivity to the Loiter Assumptions
 
-**The loiter lift to drag ratio and the loiter specific fuel consumption carry the whole result.** Both enter only through the loiter ratio, so the demanded fraction has a closed form in them,
+**The loiter lift to drag ratio and the loiter specific fuel consumption carry the result.** Both enter only through the loiter ratio, so the demanded fraction has a closed form in them,
 
 $$\zeta_{\text{empty}} (L/D, c) = 1 - \overline{PF} - \left[ 1 - \left( \frac{W_{1}}{W_{0}} \right)_{\text{out}}^{2} \exp \left( - \frac{E c}{L/D} \right) + 0.05 \right]$$
 
@@ -238,9 +238,9 @@ $$\zeta_{\text{empty}} (L/D, c) = 1 - \overline{PF} - \left[ 1 - \left( \frac{W_
 | 22 | 0.65 | 0.4302 |
 | 22 | 0.85 | 0.3679 |
 
-**The demanded fraction ranges from 0.28 to 0.43 across that table and every value is below every carrier aeroplane in the comparison.** The conclusion is therefore insensitive to the assumptions in direction while being very sensitive in magnitude. **That is worth saying plainly, because a result that survives its own sensitivity table is worth more than one that needs a particular row.**
+**The demanded fraction ranges from 0.28 to 0.43 across that table and every value is below every carrier aeroplane in the comparison.** The conclusion is therefore insensitive to the assumptions in direction while being very sensitive in magnitude. **A result that survives its sensitivity table is stronger than one that depends on a particular row.**
 
-### The Carrier Constraint, Which Is What Makes This a Naval Problem
+### The Carrier Constraint
 
 **An approach speed limit is a wing loading limit once the maximum lift coefficient is chosen.**
 
@@ -263,29 +263,29 @@ At the gross mass the requirement implies,
 | 145 | 1.2 | 85.4 | 381 | 43.6 |
 | 145 | 2.0 | 142.4 | 229 | 33.8 |
 
-**The first row lands on the aeroplane Boeing actually built.** The X-45C spans 14.9 metres \[[Parsch, Boeing X-45 and X-46, Directory of U.S. Military Rockets and Missiles][ref_parsch_x45]\], which is 48.89 feet, and a 130-knot approach at a maximum lift coefficient of 1.2 and an aspect ratio of 5 gives 48.68,
+**The first row lands on the aeroplane Boeing built.** The X-45C spans 14.9 metres \[[Parsch, Boeing X-45 and X-46, Directory of U.S. Military Rockets and Missiles][ref_parsch_x45]\], or 48.89 feet, and a 130-knot approach at a maximum lift coefficient of 1.2 and an aspect ratio of 5 gives 48.68,
 
 $$\frac{\left| 48.68 - 48.89 \right|}{48.89} = 0.0043$$
 
-**That agreement is a consistency check and not a derivation, and the difference matters.** Three parameters were chosen to produce it, being the approach speed, the maximum lift coefficient and the aspect ratio, and other combinations in the same table give spans from 34 to 45 feet. **What the table establishes is that the requirement and the built aeroplane occupy the same region of the design space**, which is the most a calculation with three free parameters can establish.
+**That agreement checks consistency without deriving anything, and the difference matters.** Three parameters were chosen to produce it, being the approach speed, the maximum lift coefficient and the aspect ratio, and other combinations in the same table give spans from 34 to 45 feet. **What the table establishes is that the requirement and the built aeroplane occupy the same region of the design space**. A calculation with three free parameters can establish no more.
 
 ## Dependent Systems
 
 **Each system below is dimensioned against the requirement, because there is no vehicle to describe.**
 
-### The Wing, Which Is the Only Part the Record Distinguishes
+### The Wing
 
-**The single physical statement in the record is that the X-46A differed from the X-45B by a new wing planform** \[[Parsch, Boeing X-45 and X-46, Directory of U.S. Military Rockets and Missiles][ref_parsch_x45]\]. **The sizing above says why a naval variant would need one.** The approach speed limit caps wing loading, the endurance requirement demands fuel volume, and both are wing problems while neither is a fuselage problem.
+**The single physical statement in the record is that the X-46A differed from the X-45B by a new wing planform** \[[Parsch, Boeing X-45 and X-46, Directory of U.S. Military Rockets and Missiles][ref_parsch_x45]\]. **The sizing above explains why a naval variant would need one.** The approach speed limit caps wing loading, the endurance requirement demands fuel volume, and both are wing problems while neither is a fuselage problem.
 
-**The planform did not vanish with the designation.** The previous article recorded that the X-45C's wing planform was changed to the naval one \[[previous article][related_post_a342_boeing_x45]\], so the wing developed for the cancelled naval aeroplane is the wing that the surviving joint aeroplane carried. **That is the clearest surviving trace of the X-46A and it is in another aircraft.**
+**The planform did not vanish with the designation.** The previous article recorded that the X-45C's wing planform was changed to the naval one \[[previous article][related_post_a342_boeing_x45]\], and the directory describes the X-45C planform as similar to that of the X-46A \[[Parsch, Boeing X-45 and X-46, Directory of U.S. Military Rockets and Missiles][ref_parsch_x45]\], so the surviving joint aeroplane carried a wing close to the one developed for the cancelled naval aeroplane. **The clearest surviving trace of the X-46A lies in another aircraft.**
 
-### Carrier Suitability, Which Is a Structural Tax
+### Carrier Suitability as a Structural Tax
 
 **The April 2003 announcement itemises what the naval version required**, being structural changes, landing gear, a tailhook and avionics for precision approach and landing \[[Boeing to develop new X-45C UCAV for Air Force and Navy demonstrations][ref_boeing_x45c_release]\]. **Every item on that list is mass** and every item is charged against the empty-weight fraction the endurance requirement needs to be small,
 
 $$\Delta_{\text{deck}} = \frac{m_{\text{hook}} + m_{\text{gear}} + m_{\text{structure}} + m_{\text{avionics}}}{m_{\text{gross}}}$$
 
-**No term on the right is published for this aircraft or for any comparable one**, which is why this article bounds the difference between the deck penalty and the crew saving rather than estimating either.
+**No term on the right is published for this aircraft or for any comparable one.** The deck penalty is bounded here only through its difference from the crew saving.
 
 **The tension is the article's subject in one sentence.** Carrier suitability makes the airframe heavier and the endurance requirement demands that it be lighter, and the crew is the only account with enough in it to pay both.
 
@@ -301,7 +301,7 @@ $$T = \left( \frac{T}{W} \right) W_{\text{gross}}$$
 | 0.35 | 11,389 | 50.7 |
 | 0.40 | 13,016 | 57.9 |
 
-**Even the lowest row is 40 percent above the X-45C's 31.0 kilonewtons**, which says that the naval aeroplane needed a different engine or a considerably better one, and no source states which. **The specific fuel consumption matters far more than the thrust here**, because this aeroplane's mission is dominated by loiter rather than by acceleration, and the sensitivity table already showed what a tenth of a unit of consumption is worth.
+**Even the lowest row is 40 percent above the X-45C's 31.0 kilonewtons.** The naval aeroplane needed a different engine or a considerably better one, and no source states which. **The specific fuel consumption matters far more than the thrust here**, because this aeroplane's mission is dominated by loiter rather than by acceleration, and the sensitivity table already showed what a tenth of a unit of consumption is worth.
 
 ### The Link and the Autonomy
 
@@ -317,35 +317,35 @@ $$FO = \frac{NT + IT_{0} + 2\tau}{IT_{0} + 2\tau}$$
 
 ## The Flight Test Record
 
-**There is none, and the section is kept rather than dropped because its emptiness is a finding.**
+**There is none. The section is kept because its emptiness is a finding.**
 
 **No X-46A airframe was built** \[[Parsch, Boeing X-45 and X-46, Directory of U.S. Military Rockets and Missiles][ref_parsch_x45]\]. There were no taxi tests, no first flight, no envelope expansion and no measurements. **The programme produced design work, a wing planform and a requirement flowdown**, and those are the entire physical legacy.
 
-**The competitor's record is the closest thing available and it is very short.** The X-47A Pegasus flew once, on 23 February 2003, and the announcement of that flight is framed as a demonstration of autonomous control \[[Northrop Grumman's X-47A Pegasus first flight achieves milestone in autonomous control][ref_x47a_first_flight]\]. **One flight by the other contractor is not evidence about this aeroplane**, and it is recorded here only to establish that the naval competition had reached hardware on one side and not on the other when it was stopped.
+**The competitor's record is the nearest substitute, and a short one.** The X-47A Pegasus flew once, on 23 February 2003, and the announcement of that flight is framed as a demonstration of autonomous control \[[Northrop Grumman's X-47A Pegasus first flight achieves milestone in autonomous control][ref_x47a_first_flight]\]. **One flight by the other contractor is not evidence about this aeroplane**, and it is recorded here only to establish that the naval competition had reached hardware on one side and not on the other when it was stopped.
 
 ## Comparison With Ground Prediction
 
-**There is no comparison to make, because nothing flew.** The section headed The Flight Test Record states that no X-46A airframe was built \[[Parsch, Boeing X-45 and X-46, Directory of U.S. Military Rockets and Missiles][ref_parsch_x45]\], so flight returned no figure of any kind, and a table setting prediction beside measurement would have an empty column for every row.
+**There is no comparison to make, because nothing flew.** No X-46A airframe was built \[[Parsch, Boeing X-45 and X-46, Directory of U.S. Military Rockets and Missiles][ref_parsch_x45]\], so flight returned no figure of any kind, and a table setting prediction beside measurement would have an empty column for every row.
 
-**What existed on the ground was a requirement, and a requirement is a prediction of capability rather than of performance.** The open record gives a payload of four thousand pounds, an operational radius of six hundred and fifty nautical miles, a loiter of up to twelve hours, and carrier takeoff and recovery \[[Naval Unmanned Combat Air Vehicle, GlobalSecurity][ref_ucavn_globalsecurity]\] \[[Chronicle of the Salty Dogs, Center for the Study of the Drone][ref_bard_chronicle]\]. **The only further prediction is this article's own**, being the gross mass of 32,539 pounds and the demanded empty-weight fraction of 0.3485 derived in the section headed Sizing From First Principles. No Boeing estimate of either was published, so the contractor's ground prediction cannot even be set beside the article's.
+**What existed on the ground was a requirement, and a requirement is a prediction of capability rather than of performance.** The open record gives a payload of four thousand pounds, an operational radius of six hundred and fifty nautical miles, a loiter of up to twelve hours, and carrier takeoff and recovery \[[Chronicle of the Salty Dogs, Center for the Study of the Drone][ref_bard_chronicle]\]. **The only further prediction comes from this article**, being the gross mass of 32,539 pounds and the demanded empty-weight fraction of 0.3485 derived in Sizing From First Principles. No Boeing estimate of either was published, so the contractor's ground prediction cannot even be set beside the article's.
 
-**The figures that circulate as a specification are not results either.** The section headed What the Record Does Not Contain shows that the payload and radius in secondary compilations are the UCAV-N requirement numbers exactly. **Setting them beside the requirement would compare the requirement with itself.**
+**The figures that circulate as a specification are not results either.** The payload and radius in a secondary compilation are identical to the UCAV-N requirement numbers, as What the Record Does Not Contain shows. **Setting them beside the requirement would compare the requirement with itself.**
 
-**The nearest thing to a comparison sets the requirement beside the aeroplane Boeing did build, and that is a comparison with a published dimension rather than with flight.** The article makes two. The X-45C's internal payload of 2,040 kilograms, which is 4,497 pounds, carries the four thousand pound requirement with a margin of 0.124, as the section headed What the Data Changed reports. The span derived from a 130-knot approach at a maximum lift coefficient of 1.2 and an aspect ratio of 5 is 48.68 feet against the X-45C's 48.89, which the section headed Sizing From First Principles treats as a consistency check with three free parameters and not as a derivation.
+**The nearest thing to a comparison sets the requirement beside the aeroplane Boeing did build, and its evidence is a published dimension with no flight behind it.** The article makes two. The X-45C's internal payload of 2,040 kilograms, or 4,497 pounds, carries the four thousand pound requirement with a margin of 0.124, derived under What the Data Changed. The span derived from a 130-knot approach at a maximum lift coefficient of 1.2 and an aspect ratio of 5 is 48.68 feet against the X-45C's 48.89, a match that Sizing From First Principles treats only as a consistency check with three free parameters.
 
-**The competitor's single flight does not fill the gap.** The X-47A flew once, on 23 February 2003 \[[Northrop Grumman's X-47A Pegasus first flight achieves milestone in autonomous control][ref_x47a_first_flight]\], and one flight by the other contractor is not evidence about this aeroplane.
+**The competitor's single flight does not fill the gap.** The X-47A flew once, on 23 February 2003 \[[Northrop Grumman's X-47A Pegasus first flight achieves milestone in autonomous control][ref_x47a_first_flight]\], and it cannot stand in for evidence about this aeroplane.
 
-**The empty column is the finding.** Whether Boeing's design met the requirement is listed under Epistemic State as a question the record does not settle, and no flight exists that could have settled it.
+**The empty column is the finding.** Epistemic State lists whether Boeing's design met the requirement among the open questions, and no flight exists that could have settled it.
 
 ## What the Data Changed
 
 **There is no data, so the question becomes what the programme changed without producing any.**
 
-**The requirement survived the designation and that is the substantive answer.** The X-45C was announced as a single design serving both services, with a naval variant adding carrier equipment, and it carried two two-thousand-pound Joint Direct Attack Munitions \[[Boeing to develop new X-45C UCAV for Air Force and Navy demonstrations][ref_boeing_x45c_release]\]. **Four thousand pounds is the UCAV-N payload requirement exactly.** The X-45C's actual internal payload of 2,040 kilograms is 4,497 pounds, which carries the requirement with margin,
+**The substantive answer is that the requirement survived the designation.** The X-45C was announced as a single design serving both services, with a naval variant adding carrier equipment, and it carried two two-thousand-pound Joint Direct Attack Munitions \[[Boeing to develop new X-45C UCAV for Air Force and Navy demonstrations][ref_boeing_x45c_release]\]. **Four thousand pounds matches the UCAV-N payload requirement to the pound** \[[Chronicle of the Salty Dogs, Center for the Study of the Drone][ref_bard_chronicle]\]. The X-45C's actual internal payload of 2,040 kilograms \[[Parsch, Boeing X-45 and X-46, Directory of U.S. Military Rockets and Missiles][ref_parsch_x45]\] comes to 4,497 pounds and carries the requirement with margin,
 
 $$\frac{4{,}497}{4{,}000} - 1 = 0.124$$
 
-**The naval wing planform moved into the surviving aeroplane** \[[previous article][related_post_a342_boeing_x45]\], so the aerodynamic work outlived the programme that paid for it.
+**The naval wing planform moved into the surviving aeroplane** \[[Parsch, Boeing X-45 and X-46, Directory of U.S. Military Rockets and Missiles][ref_parsch_x45]\] \[[previous article][related_post_a342_boeing_x45]\], so the aerodynamic work outlived the programme that paid for it.
 
 **The competition it was part of eventually delivered.** The Navy restarted a demonstrator effort in 2006 and selected the X-47B in 2007 \[[Parsch, Boeing X-45 and X-46, Directory of U.S. Military Rockets and Missiles][ref_parsch_x45]\], and in 2013 that vehicle made the first catapult launch of an unmanned aircraft from a carrier and the first arrested landing of one aboard a carrier at sea \[[Northrop Grumman X-47B][ref_x47b_wikipedia]\]. **The question the X-46A was asked was answered by the aeroplane that beat it, which the Navy selected seven years after the study contracts.**
 
@@ -602,7 +602,7 @@ $$\frac{4{,}497}{4{,}000} - 1 = 0.124$$
 
 **Sizing a requirement is not the same as describing an aeroplane, and the article's central number is an inference.** The empty-weight fraction of 0.3485 is what the requirement demands under the stated assumptions. **It is not a measurement of anything**, no Boeing document is known to state it, and if the twelve-hour and six-hundred-and-fifty-mile figures are not simultaneous then the number describes a mission nobody intended to fly.
 
-**The inherited payload fraction is the weakest load-bearing assumption, and the survey can be measured on the point.** It rests on two aircraft, and the previous article was careful to say that their agreement is a fact about a held mission fraction rather than about geometry. **Only three cited research titles contain the phrase payload fraction**, so the constant every mass figure here depends on is supported by a pair of measurements and not by a literature. **A naval variant might not hold it**, because carrier equipment is charged to empty weight and a designer under that pressure may well trade payload fraction rather than accept a larger aeroplane.
+**The inherited payload fraction is the weakest load-bearing assumption, and the survey can be measured on the point.** It is drawn from two aircraft, and the previous article was careful to say that their agreement is a fact about a held mission fraction rather than about geometry. **Only three cited research titles contain the phrase payload fraction**, so the constant every mass figure here depends on is supported by a pair of measurements and not by a literature. **A naval variant might not hold it**, because carrier equipment is charged to empty weight and a designer under that pressure may well give up payload fraction to avoid a larger aeroplane.
 
 **The comparison aircraft are all manned and all older.** The A-6E entered service in 1970, the S-3A in 1974 and the F/A-18E in 1999 \[[Grumman A-6 Intruder][ref_a6_wikipedia]\] \[[Lockheed S-3 Viking][ref_s3_wikipedia]\] \[[Boeing F/A-18E/F Super Hornet][ref_fa18ef_wikipedia]\], and structural materials moved considerably across that span. **A modern composite airframe should do better than any row in the table**, so the nine-point gap overstates the difficulty by an unknown amount. The comparison establishes that the requirement is demanding, not by how much.
 
@@ -616,7 +616,7 @@ $$E = \int_{W_{1}}^{W_{0}} \frac{L/D}{c \, W} \, dW$$
 
 with the ratio and the consumption varying along the path. Over a twelve-hour loiter the aircraft becomes much lighter and its best lift to drag ratio moves. **The error is in the direction of pessimism**, since an aircraft flown at its optimum as it lightens does better than one flown at a fixed condition, so the demanded empty fraction is if anything a little less severe than stated.
 
-**The carrier span agreement is the weakest attractive result in the article.** Three free parameters were chosen and one combination reproduced the built span to within half a percent. **A calculation with three free parameters can be made to hit almost any target**, and it is reported as a consistency check for that reason and should be read as nothing more.
+**The carrier span agreement is the weakest attractive result in the article.** Three free parameters were chosen and one combination reproduced the built span to within half a percent. **A calculation with three free parameters can be made to hit almost any target**, so it is reported as a consistency check and should be read as nothing more.
 
 ## The Source Base
 
@@ -624,9 +624,9 @@ with the ratio and the consumption varying along the path. Over a twelve-hour lo
 
 **The argument rests on five documents and none of them is a Boeing engineering report.**
 
-**One carries the programme.** The specialist designation directory gives the contract award, the designations, the relationship to the X-45B, the termination and the statement that Boeing disclosed minimal information \[[Parsch, Boeing X-45 and X-46, Directory of U.S. Military Rockets and Missiles][ref_parsch_x45]\]. **It is a secondary source and it is the best one available**, and it is the only source consulted that describes the aeroplane's shape at all.
+**One carries the programme.** The specialist designation directory gives the contract award, the designations, the relationship to the X-45B, the termination and the statement that Boeing disclosed minimal information \[[Parsch, Boeing X-45 and X-46, Directory of U.S. Military Rockets and Missiles][ref_parsch_x45]\]. **It is a secondary source and it is the best one available**, and apart from one compilation that prints the aeroplane's dimensions on the authority of a single unnamed report \[[X-46, GlobalSecurity][ref_x46_globalsecurity]\], it is the only source consulted that describes the aeroplane's shape at all.
 
-**One carries the requirement.** The UCAV-N payload, radius, endurance and carrier constraint come from the open programme literature \[[Naval Unmanned Combat Air Vehicle, GlobalSecurity][ref_ucavn_globalsecurity]\] \[[Chronicle of the Salty Dogs, Center for the Study of the Drone][ref_bard_chronicle]\]. **This article's entire analysis rests on those four figures**, which is a narrower foundation than any other article in this series has used.
+**One carries the requirement.** The UCAV-N payload, radius and endurance come from one account of the programme \[[Chronicle of the Salty Dogs, Center for the Study of the Drone][ref_bard_chronicle]\], which one compilation repeats as the X-46's own capability on the authority of a single unnamed report \[[X-46, GlobalSecurity][ref_x46_globalsecurity]\], and the carrier constraint comes from the open programme literature \[[Naval Unmanned Combat Air Vehicle, GlobalSecurity][ref_ucavn_globalsecurity]\]. **This article's entire analysis rests on those four figures**, which is a narrower foundation than any other article in this series has used.
 
 **One carries the ending.** The Boeing announcement of 29 April 2003 states what replaced the X-45B, what the naval variant required, and what payload it would carry \[[Boeing to develop new X-45C UCAV for Air Force and Navy demonstrations][ref_boeing_x45c_release]\]. **It is a primary source in the strict sense**, being the manufacturer's own contemporaneous statement, and its silence about the X-46 is itself evidence.
 
@@ -725,17 +725,17 @@ with the ratio and the consumption varying along the path. Over a twelve-hour lo
 
 ### What the Record Does Not Settle
 
-**Whether the twelve-hour loiter and the six-hundred-and-fifty-mile radius were meant to be flown in one sortie.** Everything quantitative in this article is conditional on that reading and the sources do not resolve it.
+**Whether the twelve-hour loiter and the six-hundred-and-fifty-mile radius were meant to be flown in one sortie.** Every quantitative result in this article depends on that reading and the sources do not resolve it.
 
-**What the X-46A actually weighed, spanned or was powered by.** No figure has been found.
+**What the X-46A weighed, spanned or was powered by.** No weight or engine figure has been found, and the one reported span comes from a single unnamed report.
 
 **Whether Boeing's design met the requirement.** The company never published a weight statement and the aircraft was never built.
 
-**Why the X-46 is absent from the announcement of its own replacement.** The document names the X-45B and not the X-46A, and whether that reflects contractual structure, classification or presentation is not something the record answers.
+**Why the X-46 is absent from the announcement of its replacement.** The document names the X-45B and not the X-46A, and whether that reflects contractual structure, classification or presentation is not answered in the record.
 
 ### On Sources Used With Reservation
 
-**Two of the five load-bearing sources are secondary compilations.** The designation directory is written by a specialist and is careful about its own uncertainty, and the requirement figures appear in more than one independent account, but neither is a programme document.
+**Two of the five load-bearing sources are secondary compilations.** The designation directory is written by a specialist and is careful about its uncertainty, but it is not a programme document. **The requirement figures are presented as a requirement by one account only**, and the one compilation that repeats them attributes them to the aircraft and to a single unnamed report, so the requirement on which every derivation here depends rests on a single secondary source.
 
 **The circulating specification figures are used only as evidence about the requirement** and never as evidence about the aeroplane.
 
@@ -751,13 +751,13 @@ with the ratio and the consumption varying along the path. Over a twelve-hour lo
 
 ## Conclusion
 
-**The Boeing X-46 is the first aeroplane in this series with no published specification at all.**
+**No programme source publishes a specification for the Boeing X-46.**
 
 **The record contains a requirement instead of a vehicle**, so this article sizes the requirement. A four thousand pound payload at the manufacturer's own measured payload fraction of 0.12293 implies a gross mass of 32,539 pounds, and a mission of six hundred and fifty nautical miles out, twelve hours on station and six hundred and fifty back consumes 0.5285 of that in fuel. **What is left for the airframe is an empty-weight fraction of 0.3485, and no manned carrier aeroplane examined achieves better than 0.441.** The gap is the crew, and the requirement is a bet on its size.
 
 **The three numbers do not hold at once.** Read as a single profile they imply an aeroplane of seventy-eight thousand pounds, which is heavier at takeoff than an F/A-18E and is not a demonstrator anybody was proposing to land on a deck. **Read as separate capability points they are demanding and achievable**, and at an empty-weight fraction of 0.42 the aircraft holds eleven hours at the full radius against a requirement of twelve.
 
-**The clearest surviving trace of this aeroplane is in another one.** The directory's single physical statement is that the X-46A differed from the X-45B by a new wing planform, and the previous article recorded that the X-45C took the naval planform. **The wing was built. The aircraft it was drawn for was not.**
+**The clearest surviving trace of this aeroplane is in another one.** The directory's single physical statement is that the X-46A differed from the X-45B by a new wing planform, and the X-45C took a planform similar to it. **The X-45C prototype was built** and later became the basis of Boeing's Phantom Ray \[[Boeing X-45][ref_x45_wikipedia]\]. **A wing of that planform was built. The aircraft it was drawn for was not.**
 
 **The requirement outlived the designation more completely than that.** The X-45C carried two two-thousand-pound weapons, which is the naval payload requirement exactly, and the carrier demonstration the X-46A was contracted to work toward was performed in the next decade by the competing contractor, whose X-47A had flown once in February 2003 while this aeroplane was still drawings.
 
@@ -787,6 +787,7 @@ with the ratio and the consumption varying along the path. Over a twelve-hour lo
 
 - [Boeing F/A-18E/F Super Hornet][ref_fa18ef_wikipedia]
 - [Boeing to develop new X-45C UCAV for Air Force and Navy demonstrations][ref_boeing_x45c_release]
+- [Boeing X-45][ref_x45_wikipedia]
 - [Boeing X-46][ref_x46_wikipedia]
 - [Chronicle of the Salty Dogs, Center for the Study of the Drone][ref_bard_chronicle]
 - [Grumman A-6 Intruder][ref_a6_wikipedia]
@@ -798,6 +799,7 @@ with the ratio and the consumption varying along the path. Over a twelve-hour lo
 - [Parsch, Boeing X-45 and X-46, Directory of U.S. Military Rockets and Missiles][ref_parsch_x45]
 - [Unmanned combat aerial vehicle][ref_ucav_wikipedia]
 - [Unmanned vehicles for U.S. naval forces, Congressional Research Service RS21294][ref_crs_rs21294]
+- [X-46, GlobalSecurity][ref_x46_globalsecurity]
 
 [ref_a6_wikipedia]: https://en.wikipedia.org/wiki/Grumman_A-6_Intruder
 [ref_bard_chronicle]: https://dronecenter.bard.edu/chronicle-of-the-salty-dogs-x-47b
@@ -808,6 +810,8 @@ with the ratio and the consumption varying along the path. Over a twelve-hour lo
 [ref_s3_wikipedia]: https://en.wikipedia.org/wiki/Lockheed_S-3_Viking
 [ref_ucav_wikipedia]: https://en.wikipedia.org/wiki/Unmanned_combat_aerial_vehicle
 [ref_ucavn_globalsecurity]: https://www.globalsecurity.org/military/systems/aircraft/ucav-n.htm
+[ref_x45_wikipedia]: https://en.wikipedia.org/wiki/Boeing_X-45
+[ref_x46_globalsecurity]: https://www.globalsecurity.org/military/systems/aircraft/x-46.htm
 [ref_x46_wikipedia]: https://en.wikipedia.org/wiki/Boeing_X-46
 [ref_x47a_first_flight]: https://www.globenewswire.com/news-release/2003/02/23/294413/189/en/Northrop-Grumman-s-X-47A-Pegasus-First-Flight-Achieves-Milestone-in-Autonomous-Control.html
 [ref_x47a_wikipedia]: https://en.wikipedia.org/wiki/Northrop_Grumman_X-47A_Pegasus

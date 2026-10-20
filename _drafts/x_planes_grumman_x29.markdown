@@ -13,7 +13,7 @@ series_index: 30
 <script>console.log("A326");</script>
 
 The [Grumman X-29][ref_x29] was built from nothing to answer a question that could not be answered any other
-way, and **after four articles about aircraft that were not built for research, that sentence is worth pausing on**. The
+way, and **after four articles about aircraft that were not built for research, that sentence marks a break**. The
 [X-25][related_post_a322_bensen_x25] was a catalogue autogyro. The [X-26][related_post_a323_schweizer_x26]
 was a catalogue sailplane, bought twice. The [X-27][related_post_a324_lockheed_x27] was a private-venture
 fighter that was never built at all. The [X-28][related_post_a325_osprey_x28] was a homebuilt flying boat
@@ -37,10 +37,12 @@ and it was built to settle something specific. This is the thirtieth article in 
 [X-28][related_post_a325_osprey_x28].
 
 **The easy misreading of this aircraft is that it existed to find out whether a forward-swept wing would work.**
-It did not. Forward-sweep [divergence][ref_divergence] was understood before the Second World War, it is in
-every aeroelasticity textbook, and no research aeroplane was needed to establish it. A forward-swept wing
+It did not. A theory of wing [divergence][ref_divergence] was published in 1926
+\[[Aeroelastic divergence][ref_divergence]\], the fall in divergence speed with forward sweep was charted and
+checked experimentally by the National Advisory Committee for Aeronautics by 1948 \[[Diederich and Budiansky 1948][research_diederichfranklinw_budianskybernard_1948]\],
+it is in every aeroelasticity textbook, and no research aeroplane was needed to establish it. A forward-swept wing
 bends upward under load, the bending increases the local angle of attack, the increased angle increases the
-lift, and the loop closes on itself at a computable dynamic pressure. That much was arithmetic by 1940.
+lift, and the loop closes on itself at a computable dynamic pressure. That much was arithmetic by 1948.
 
 **What was new was the claim that the divergence could be held rather than avoided**, by two means working
 at once. The first is [aeroelastic tailoring][ref_tailoring], which uses the bend-twist coupling of an
@@ -53,40 +55,44 @@ second is active control of an airframe deliberately made unstable, held by a tr
 
 ## The Research Question
 
-**The keystone is the structure and the control law together, and separating them misses the aircraft entirely.**
+**The keystone is the structure and the control law together, and separating them misses the aircraft.**
 
 The X-29A was **statically unstable by a nominal thirty-five percent of the mean aerodynamic chord**, which
 is to say its [static margin][ref_static_margin] was that far negative, in subsonic flight, and the primary
 record is unusually direct about why. The instability was not a side effect of the forward sweep. It was
-created by the canard. National Aeronautics and Space Administration Technical Memorandum 101715 states that
+created by the canard \[[Sims et al 1989][research_simsrobert_mccrossonpaul_1989]\]. National Aeronautics and Space Administration
+Technical Memorandum 100407 states that
 **the presence of the canards results in an otherwise neutrally stable airframe having a negative static margin of nominally thirty-five percent**,
-which makes the instability a deliberate purchase rather than a penalty.
+which makes the instability a deliberate purchase rather than a penalty \[[Hicks and Matheny 1987][research_hicksjohnw_mathenyneilw_1987]\].
 
 So the aircraft posed two coupled questions that had to be answered by the same airframe at the same time.
 
-- **Can a wing be made to resist its own divergence by the arrangement of its fibres**, rather than by
+- **Can a wing be made to resist divergence by the arrangement of its fibres**, rather than by
   being made thicker, heavier or less swept.
-- **Can an airframe that doubles its own pitch disturbance in a fraction of a second be flown**, by a
+- **Can an airframe that doubles a pitch disturbance in a fraction of a second be flown**, by a
   sampled digital controller with a finite update rate and a finite failure probability.
 
 **Neither question can be settled on the ground.** A wind tunnel model can be tailored and tested, and
 several were, but a tunnel model does not carry a flight control system, a hydraulic actuator, a
-failure-tolerant voter or a pilot. An iron-bird simulator carries all of those and does not carry an elastic
+failure-tolerant voter or a pilot \[[Landsberger and Dugundji 1985][research_landsberger_dugundji_1985]\]
+\[[Chen and Dugundji 1987][research_chen_dugundji_1987]\]. An iron-bird simulator carries all of those and does not carry an elastic
 wing in a real airflow.
 **The X-29 exists because those two halves had to be connected, and connecting them required an aeroplane.**
 
 ### Why the Keystone Is Not the Planform
 
 The obvious alternative keystone is the forward sweep itself, treated as an aerodynamic choice, and that
-framing is available because the programme did claim aerodynamic benefits. The primary record states a
+framing is available because the programme did claim aerodynamic benefits. Its flight test overview gives a
 prediction of **up to thirteen percent lower aircraft drag for wings of the same aspect ratio**, arising
-from reduced transonic wing profile drag.
+from reduced transonic wing profile drag \[[Hicks and Huckabone 1989][research_hicksjohnw_huckabinethomas_1989]\].
 
-**That claim is examined below and it survives, but it is not what needed an aeroplane.** Transonic drag is
-measurable in a tunnel. What is not measurable in a tunnel is whether a wing designed to sit inside a
+**That claim is examined below and its geometric mechanism survives, but it is not what needed an aeroplane.**
+The flight programme did not demonstrate the overall drag reduction that earlier studies had suggested
+\[[Gelzer 2015][ref_gelzer_x29]\] \[[Jenkins, Landis and Miller][ref_xvehicles]\]. Transonic drag is measurable in a tunnel. What is not measurable in a tunnel is whether a wing designed to sit inside a
 divergence boundary actually sits inside it once built, instrumented and flown, and whether the boundary can
 be located from flight data before it is reached.
 **The X-29 answered that, and the answer arrived by a method that had never previously been used in flight.**
+\[[Hicks and Matheny 1987][research_hicksjohnw_mathenyneilw_1987]\]
 
 ## Programme Origin
 
@@ -98,11 +104,11 @@ from the four articles before it.
 The [Defense Advanced Research Projects Agency][ref_darpa] began the X-29A project **in 1977**. The aircraft
 was designed and built by the [Grumman Aerospace Corporation][ref_grumman] and delivered to the
 [Dryden Flight Research Facility][ref_dryden] of the National Aeronautics and Space Administration at
-Edwards, California, where the flight programme was conducted jointly.
+Edwards, California, where the flight programme was conducted jointly \[[Hicks and Matheny 1987][research_hicksjohnw_mathenyneilw_1987]\] \[[Gelzer 2015][ref_gelzer_x29]\].
 
 **Two aircraft were built.** They carried a shared research agenda that was divided between them, the first
 taking the envelope expansion and performance work and the second taking the high angle of attack
-investigation.
+investigation \[[Hicks and Matheny 1987][research_hicksjohnw_mathenyneilw_1987]\] \[[Gelzer 2015][ref_gelzer_x29]\].
 
 ### Why Forward Sweep Became Buildable in the 1970s
 
@@ -110,32 +116,33 @@ The idea was old. The [Junkers Ju 287][ref_ju287] flew a forward-swept wing in 1
 [Hansa Jet][ref_hansajet] carried one into production in the 1960s.
 **What changed was not the aerodynamic idea but the material.**
 
-A metal wing resists divergence only through its own torsional stiffness, and buying enough of that at a
+A metal wing resists divergence only through its torsional stiffness, and buying enough of that at a
 useful sweep angle costs weight that consumes the configuration's advantages.
 **A composite laminate can be made to twist in a chosen direction when it bends**, because the fibres need
 not run along the principal axes of the structure. That converts divergence resistance from a mass problem
-into a geometry problem, and the primary record reports the outcome directly, describing the tailored skins
-as achieving their result
-**with an insignificant weight penalty over that required for the basic strength design**.
+into a geometry problem, and the structural loads report describes the outcome directly, crediting the tailored
+skins with achieving their result
+**with an insignificant weight penalty over that required for the basic strength design** \[[Sims et al 1989][research_simsrobert_mccrossonpaul_1989]\].
 
-**That sentence is the whole justification for the programme**, and the article's structural half is an
+**That sentence carries the justification for the programme**, and the article's structural half is an
 examination of whether the physics supports it.
 
 ### Where the Aircraft Came From
 
-The airframe was assembled from existing parts wherever the research did not require otherwise. The primary
-record lists the **forward fuselage and nose gear of an [F-5A][ref_f5]**, the
-**main landing gear and servo-actuators of an [F-16][ref_f16]**, and **[F-14][ref_f14] avionics**.
+The airframe was assembled from existing parts wherever the research did not require otherwise. The flight test
+overview lists the **forward fuselage and nose gear of an [F-5A][ref_f5]**, the
+**main landing gear and servo-actuators of an [F-16][ref_f16]**, and **[F-14][ref_f14] avionics**
+\[[Hicks and Huckabone 1989][research_hicksjohnw_huckabinethomas_1989]\].
 
 **Only the parts carrying the research question were new.** The wing, the canard, the strake flaps and the
-flight control system were designed for this aircraft. Everything else was bought from the company's own
+flight control system were designed for this aircraft \[[Hicks and Huckabone 1989][research_hicksjohnw_huckabinethomas_1989]\]. Everything else was bought from the company's own
 back catalogue and from its competitors, which is why two research aeroplanes were affordable at all.
 
 ## The Vehicle
 
 | Quantity | Value |
 |---|---|
-| Wing reference area | 188.84 ft² |
+| Wing area | 188.84 ft² |
 | Aspect ratio | 4.0 |
 | Leading edge sweep | 29.3° forward |
 | Structural axis sweep | 36.2° forward |
@@ -159,6 +166,10 @@ back catalogue and from its competitors, which is why two research aeroplanes we
 | Design load factor | 8 g subsonic, 6.5 g supersonic |
 | Design dynamic pressure | 1,700 lb/ft² at Mach 1.07, sea level |
 
+The table draws on the flight reports \[[Hicks and Matheny 1987][research_hicksjohnw_mathenyneilw_1987]\] \[[Hicks and Huckabone 1989][research_hicksjohnw_huckabinethomas_1989]\]
+\[[Sims et al 1989][research_simsrobert_mccrossonpaul_1989]\], except the wing area of 188.84 square feet, which is taken from the encyclopaedia
+entry \[[Grumman X-29][ref_x29]\]. The reports use a trapezoidal reference area of 185 square feet.
+
 ### What the Table Implies
 
 Before either of those, the table supports a handful of ratios that it does not state, and they place the
@@ -172,8 +183,8 @@ $$ \frac{W}{S} = \frac{17{,}800\ \mathrm{lb}}{188.84\ \mathrm{ft}^2} = 94.26\ \m
 At the manoeuvre design gross weight the same relation gives 79.43 pounds per square foot, and both figures
 are ordinary for a fighter-sized aircraft of the period.
 
-The thrust-to-weight ratio uses the engine's class rating rather than an installed figure, which is the only
-thrust the record gives.
+The thrust-to-weight ratio uses the engine's class rating, because the record gives no installed thrust
+figure.
 
 $$ \frac{T}{W} = \frac{16{,}000\ \mathrm{lb}}{17{,}800\ \mathrm{lb}} = 0.899 $$
 
@@ -192,38 +203,41 @@ The design load and the fuel fraction complete the picture.
 
 $$ n W = 8.0 \times 15{,}000\ \mathrm{lb} = 120{,}000\ \mathrm{lb} $$
 
-**The wing carries 120,000 pounds at the subsonic design limit**, which is the load the structural box and
+**The wing carries 120,000 pounds at the subsonic design limit**, the load the structural box and
 its tailored skins had to survive while also satisfying the divergence requirement.
 
 $$ \frac{W_{\mathrm{fuel}}}{W_{\max}} = \frac{4{,}000\ \mathrm{lb}}{17{,}800\ \mathrm{lb}} = 0.225 $$
 
-**The heaviest weight actually flown exceeded the manoeuvre design weight by eighteen percent**, which the
-record states and which the ratio confirms.
+**The heaviest weight flown exceeded the manoeuvre design weight by eighteen percent**, which the
+record states and which the ratio confirms \[[Sims et al 1989][research_simsrobert_mccrossonpaul_1989]\].
 
 $$ \frac{17{,}700}{15{,}000} - 1 = 0.180 $$
 
-**Two entries in that table are the aeroplane and everything else follows from them.**
+**Two entries in that table are the aeroplane and the rest follows from them.**
 
-The first is the **structural axis sweep of 36.2 degrees forward**, which is seven degrees more forward than
-the leading edge. That difference is not incidental. It means the structure is swept further forward than
+The first is the **structural axis sweep of 36.2 degrees forward**, seven degrees more forward than
+the leading edge \[[Sims et al 1989][research_simsrobert_mccrossonpaul_1989]\]. That difference is not incidental. It means the structure is swept further forward than
 the planform suggests, and since divergence is governed by the elastic axis rather than by the leading edge,
 **the wing is aeroelastically more forward-swept than it looks.**
 
-Beside it stands the **static margin of minus thirty-five percent**, which is not a small number. A
-conventional fighter of the period sat within a few percent of neutral.
-**This aircraft was built an order of magnitude further into instability than the aircraft it was meant to inform.**
+Beside it stands the **static margin of minus thirty-five percent**, and the number is not small. The
+[F-16][ref_f16], the first production fighter designed to be intentionally unstable, was only slightly so
+\[[General Dynamics F-16 Fighting Falcon][ref_f16]\].
+**This aircraft was built much further into instability than the aircraft it was meant to inform.**
 
 ### A Consistency Check on the Published Geometry
 
-The record gives the aspect ratio as 4.0 and the reference area as 188.84 square feet, and separately gives
-the span as 27 feet 2.5 inches. Those are three statements about two quantities, so one of them can be
-checked.
+The flight reports give the aspect ratio as 4.0 \[[Hicks and Huckabone 1989][research_hicksjohnw_huckabinethomas_1989]\], and the encyclopaedia
+entry gives the wing area as 188.84 square feet and the span as 27 feet 2.5 inches \[[Grumman X-29][ref_x29]\].
+Those are three statements about two quantities, so one of them can be checked.
 
 $$ b = \sqrt{A S} = \sqrt{4.0 \times 188.84\ \mathrm{ft}^2} = 27.48\ \mathrm{ft} $$
 
-Against a quoted span of 27.21 feet that is an agreement to **0.99 percent**, which is what one expects when
-an aspect ratio has been rounded to two significant figures.
-**The published geometry is mutually consistent**, and that is worth establishing before anything is built
+Against a quoted span of 27.21 feet that is an agreement to **0.99 percent**. The residual is not rounding.
+The same relation applied to the reports' own reference area of 185 square feet returns 27.20 feet, against
+the span of 27 feet 2.44 inches in the structural loads report \[[Sims et al 1989][research_simsrobert_mccrossonpaul_1989]\], so the aspect ratio of
+4.0 is defined on the trapezoidal reference area and the larger figure is a different definition of wing area.
+**The published geometry is mutually consistent**, and that needs establishing before anything is built
 on top of it.
 
 ## Sizing From First Principles
@@ -239,10 +253,10 @@ in [Jones][book_jones_composite] and [Tsai and Hahn][book_tsai_hahn], the airfra
 [Megson][book_megson] and [Niu][book_niu], and the sizing and drag data in [Raymer][book_raymer],
 [Anderson][book_anderson] and [Hoerner][book_hoerner].
 
-**The X-29's divergence boundary was never published as a number.** What was published is something better,
+**The X-29's divergence boundary is not stated as a number in the reports cited here.** What was published is something better,
 because it can be inverted.
 
-### The Relation That Makes the Whole Article Possible
+### The Relation Behind the Inversion
 
 A wing that washes in under load amplifies its own lift. At any dynamic pressure below the divergence
 boundary the elastic wing produces more lift per degree of angle of attack than the same wing would produce
@@ -258,7 +272,7 @@ which the amplification becomes unbounded.
 
 ### Where the Amplification Comes From
 
-The relation is not asserted. It follows from the feedback the wing closes on itself.
+The relation is not asserted. It follows from the feedback loop the wing closes.
 
 An unswept wing with its aerodynamic centre a distance $e$ ahead of the elastic axis, restrained by a
 torsional stiffness $K_\theta$, twists under its own lift until the elastic moment balances the aerodynamic
@@ -279,15 +293,15 @@ multiplied by a single factor.
 
 $$ \alpha_0 + \theta = \frac{\alpha_0}{1 - q/q_D} $$
 
-The research literature on this subject is surveyed under The Contemporary Literature, chiefly in the cluster on structural mechanics, buckling and structural weight.
+For the research literature behind this relation, see the cluster on structural mechanics, buckling and structural weight under The Contemporary Literature.
 
-**The amplification is the same factor for lift, for twist and for the loads**, which is why a prediction of
-it is worth publishing and why an error in it moves everything at once.
+**The amplification is the same factor for lift, for twist and for the loads**, so a prediction of it is
+worth publishing and an error in it moves every quantity at once.
 
-**The primary record states both of the quantities needed to invert this.** That same memorandum gives the
-wing's **predicted elastic-to-rigid lift-curve-slope ratio as about 1.6**, and gives the
-**design dynamic pressure as 1,700 pounds per square foot at Mach 1.07 at sea level**. Those two figures
-were published for different purposes and neither was derived from the other.
+**A single report states both of the quantities needed to invert this.** The structural loads memorandum,
+Technical Memorandum 101715, gives the wing's **predicted elastic-to-rigid lift-curve-slope ratio as about 1.6**, and gives the
+**design dynamic pressure as 1,700 pounds per square foot at Mach 1.07 at sea level**
+\[[Sims et al 1989][research_simsrobert_mccrossonpaul_1989]\]. Neither figure was derived from the other.
 
 ### Checking the Design Point Against Itself
 
@@ -297,7 +311,7 @@ Mach number at an altitude, so the two statements can be checked against one ano
 $$ q = \tfrac{1}{2} \rho_0 \left(M a_0\right)^2 = \tfrac{1}{2} \times 0.0023769 \times \left(1.07 \times 1116.45\ \mathrm{ft/s}\right)^2 = 1695.9\ \mathrm{lb/ft^2} $$
 
 Against the quoted 1,700 pounds per square foot that agrees to **0.24 percent**.
-**This is a check on the source rather than on the analysis**, and it passes, which means the two statements
+**The check is on the source alone**, and it passes, so the two statements
 in the report describe the same flight condition and either may be used.
 
 ### Inverting for the Divergence Boundary
@@ -312,18 +326,18 @@ $$ \frac{q}{q_D} = 1 - \frac{1}{1.6} = 0.375 $$
 
 $$ q_D = \frac{1700\ \mathrm{lb/ft^2}}{0.375} = 4533\ \mathrm{lb/ft^2} $$
 
-**The X-29A's wing diverged at about 4,533 pounds per square foot**, and that number appears nowhere in the
-literature. It follows from two figures that do appear, through a relation neither was derived from, and
+**The X-29A's wing diverged at about 4,533 pounds per square foot**, and that number appears in none of the
+reports cited here. It follows from two figures that do appear, through a relation neither was derived from, and
 **it requires no knowledge whatever of the wing's stiffness, its geometry, its material or its ply angles.**
 
-### What That Margin Actually Was
+### What That Margin Was
 
 The margin is best stated twice, because dynamic pressure and speed are not the same statement.
 
 $$ \frac{q_D}{q_{\mathrm{design}}} = 2.667, \qquad \frac{V_D}{V_{\mathrm{design}}} = \sqrt{2.667} = 1.633 $$
 
-Dynamic pressure and equivalent airspeed are related through sea-level density alone, which is what makes
-equivalent airspeed the natural currency for a structural limit.
+Dynamic pressure and equivalent airspeed are related through sea-level density alone, so equivalent
+airspeed is the natural currency for a structural limit.
 
 $$ q = \tfrac{1}{2}\rho V^2 = \tfrac{1}{2}\rho_0 V_e^2, \qquad V_e = \sqrt{\frac{2q}{\rho_0}} $$
 
@@ -332,12 +346,12 @@ Expressed as equivalent airspeeds,
 $$ V_{e,\mathrm{design}} = 709\ \mathrm{kt}, \qquad V_{e,D} = 1157\ \mathrm{kt} $$
 
 **A factor of 2.667 in dynamic pressure sounds comfortable and a factor of 1.633 in speed sounds much less so**,
-and it is the latter that a pilot experiences. The aircraft's design point sat at
+and a pilot experiences the latter. The aircraft's design point sat at
 **thirty-seven and a half percent of the way to a structural instability with no natural limit**, and the
 amplification at that point was already sixty percent.
 
-The approach is worth tabulating, because the relation is strongly non-linear and its behaviour near the
-boundary is the reason the whole problem is difficult.
+The approach is tabulated below, because the relation is strongly non-linear and its behaviour near the
+boundary makes the problem difficult.
 
 | Dynamic pressure, lb/ft² | Fraction of $q_D$ | Elastic-to-rigid ratio |
 |---|---|---|
@@ -352,8 +366,8 @@ boundary is the reason the whole problem is difficult.
 
 ### How Hard the Answer Leans on a Rounded Figure
 
-The boundary was inverted from a ratio quoted to two significant figures, so it is worth asking how much
-that rounding costs. Writing the inversion as a product makes the sensitivity immediate.
+The boundary was inverted from a ratio quoted to two significant figures, so the cost of
+that rounding needs measuring. Writing the inversion as a product makes the sensitivity immediate.
 
 $$ q_D = \frac{q\,r}{r - 1} \quad \Longrightarrow \quad \frac{d \ln q_D}{d \ln r} = -\frac{1}{r - 1} $$
 
@@ -363,17 +377,17 @@ $$ \left.\frac{d \ln q_D}{d \ln r}\right|_{r = 1.6} = -\frac{1}{0.6} = -1.667 $$
 the sign is negative, so a ratio that was optimistically low produces a boundary that is optimistically
 high. That elasticity is used again in the section on where the framing breaks down.
 
-**The 3,000 and 4,000 rows of the table under What That Margin Actually Was are the reason the margin had to be as large as it was.** Between 3,000 and 4,000 pounds
+**The 3,000 and 4,000 rows of the table under What That Margin Was explain why the margin had to be as large as it was.** Between 3,000 and 4,000 pounds
 per square foot the wing's lift amplification triples, and a design error of ten percent in the predicted
 boundary moves the loads by far more than ten percent.
 **The penalty for being wrong is not proportional to the size of the error.**
 
 For comparison, the same report notes that
-**conventional aft-swept wings have elastic-to-rigid ratios below one**, because bending washes them out
-rather than in. The X-29's wing sits on the other side of unity by construction, and the sign is the entire
-difference.
+**conventional aft-swept wings have elastic-to-rigid ratios below one** \[[Sims et al 1989][research_simsrobert_mccrossonpaul_1989]\], because bending washes them out
+rather than in. The X-29's wing sits on the other side of unity by construction, and the sign alone separates
+the two.
 
-The research literature on this subject is surveyed under The Contemporary Literature, chiefly in the cluster on divergence and static aeroelasticity.
+The Contemporary Literature gathers the work on this subject in the cluster on divergence and static aeroelasticity.
 
 ### Where the Washin Comes From
 
@@ -386,19 +400,19 @@ about gives the change in streamwise angle of attack.
 
 $$ \Delta\alpha(y) = \theta(y)\cos\Lambda - w'(y)\sin\Lambda $$
 
-**That single relation contains the whole forward-sweep problem.** For an aft-swept wing $\sin\Lambda$ is
-positive, so upward bending subtracts from the angle of attack and the wing washes out, which is stabilising
-and is why swept-back wings are difficult to diverge.
+**That single relation contains the forward-sweep problem.** For an aft-swept wing $\sin\Lambda$ is
+positive, so upward bending subtracts from the angle of attack and the wing washes out, a stabilising effect
+that makes swept-back wings difficult to diverge.
 **For a forward-swept wing $\sin\Lambda$ is negative, the sign of the bending term reverses, and upward bending adds to the angle of attack.**
 The wing washes in, the lift grows, the bending grows, and the loop closes.
 
 **The sign of one trigonometric function is the difference between a wing that is safe and a wing that needs a research programme.**
 
-### A Two-Mode Model, and What It Is For
+### What a Two-Mode Model Is For
 
-The boundary itself is already known from the inversion above and needs no model. What a model supplies is
-the **scaling**, meaning how the boundary moves with sweep and with bend-twist coupling, and that is what
-the rest of this section uses.
+The boundary is already known from the inversion above and needs no model. What a model supplies is
+the **scaling**, meaning how the boundary moves with sweep and with bend-twist coupling, and the rest of
+this section uses that scaling.
 
 Take a uniform cantilever wing of semispan $L$, streamwise chord $c$, bending stiffness $EI$ and torsional
 stiffness $GJ$, with a composite constitutive law that couples the two.
@@ -423,22 +437,22 @@ $$ U = \tfrac{1}{2}\int_0^L \left[ EI\,(w'')^2 + GJ\,(\theta')^2 + 2K\,w''\theta
 
 $$ \int_0^L (\phi'')^2 dy = \frac{4}{L^3}, \qquad \int_0^L (\psi')^2 dy = \frac{1}{L}, \qquad \int_0^L \phi''\psi'\,dy = \frac{2}{L^2} $$
 
-**The characteristic equation is linear rather than quadratic, and that is a property of the model rather than an approximation.**
+**The characteristic equation is linear rather than quadratic, an exact consequence of the model and not an approximation.**
 The quadratic coefficient is
 
 $$ (ca)^2 e\,L\cos\Lambda\sin\Lambda\left(-\tfrac{1}{6} + \tfrac{1}{6}\right) = 0 $$
 
-identically. This is worth stating because a solver that does not know it will find the cancellation only to
+identically. The point matters because a solver that does not know it will find the cancellation only to
 floating-point precision, take the quadratic branch, and return values with no physical content whatever.
 **A solver that takes that branch reports a divergence dynamic pressure many orders of magnitude beyond any physical value.**
 A residue sixteen orders of magnitude below the terms that produced it is enormous in absolute terms, so an
 absolute tolerance cannot catch it and the test has to be made relative to the magnitude of what cancelled.
 
-The research literature on this subject is surveyed under The Contemporary Literature, chiefly in the cluster on the Southwell method, Rayleigh-Ritz and assumed modes.
+Work on assumed-mode methods is surveyed in the cluster on the Southwell method, Rayleigh-Ritz and assumed modes.
 
-### The Root in Closed Form, Which Is Where the Argument Actually Lives
+### The Root in Closed Form
 
-Because the characteristic equation is linear, the untailored root can be written out, and it is far more
+Because the characteristic equation is linear, the untailored root can be written out, and the closed form is far more
 informative than the eigenvalue it came from.
 
 $$ \frac{1}{q_D} = \underbrace{\frac{c\,a\,e\,L^2\cos\Lambda}{3\,GJ}}_{\text{torsion}} \;-\; \underbrace{\frac{c\,a\,L^3\sin\Lambda}{8\,EI}}_{\text{bending}} $$
@@ -448,17 +462,17 @@ contribution, and **its sign is the sign of the sweep**. Aft sweep subtracts fro
 the boundary. Forward sweep adds to it and lowers the boundary. The forward-sweep problem is one minus sign
 in one term.
 
-**And the relation says something the eigenvalue does not.** If aft sweep is carried far enough the two
+**The relation also shows something the eigenvalue does not.** If aft sweep is carried far enough the two
 terms cancel, the reciprocal vanishes, and the boundary goes to infinity. Setting them equal and dividing
 through by the cosine gives the critical angle in closed form.
 
 $$ \tan\Lambda_{\mathrm{crit}} = \frac{8\,e\,EI}{3\,GJ\,L} = 48.013^\circ $$
 
-**This is a check on the numerical solver as much as a result.** The closed form and the eigenvalue scan
+**The closed form checks the numerical solver as much as it delivers a result.** It and the eigenvalue scan
 agree to every digit printed at every sweep angle tested, from forty degrees forward to forty-eight aft,
-which is what makes the sweep table below trustworthy despite resting on stiffnesses nobody published.
+and that agreement makes the sweep table below trustworthy although its stiffnesses were never published.
 
-The research literature on this subject is surveyed under The Contemporary Literature, chiefly in the cluster on transonic wing design and sweep.
+Its literature appears under The Contemporary Literature, mostly in the cluster on transonic wing design and sweep.
 
 ### The Sweep Trend
 
@@ -478,15 +492,15 @@ carry meaning and the table is normalised on the unswept case.
 | 20° aft | 1.583 |
 | 30° aft | 2.404 |
 
-**Sweeping aft raises the boundary steeply and sweeping forward lowers it**, which is the expected
-direction. Pushed further, the model does something better than agreeing in direction.
+**Sweeping aft raises the boundary steeply and sweeping forward lowers it**, as
+expected. Pushed further, the model does something better than agreeing in direction.
 
 $$ \Lambda \geq \Lambda_{\mathrm{crit}} = 48.0^\circ \implies \text{no positive root, and therefore no divergence boundary at all} $$
 
-**Sufficient sweepback removes divergence entirely**, which is the classical textbook result and is not
-something the model was fitted to reproduce. Recovering it from an independent scan of the determinant is
-the strongest available evidence that the formulation is sound, and it is why the sweep trend above can be
-trusted even though the absolute numbers cannot.
+**Sufficient sweepback removes divergence entirely**. The classical textbook result agrees, and the
+model was not fitted to reproduce it. Recovering it from an independent scan of the determinant is the
+strongest available evidence that the formulation is sound, and on that evidence the sweep trend above can
+be trusted even though the absolute numbers cannot.
 
 ### What Aeroelastic Tailoring Had to Supply
 
@@ -502,8 +516,8 @@ The bound on it is the determinant of the stiffness matrix staying positive.
 $$ EI \cdot GJ - K^2 > 0 \quad \Longleftrightarrow \quad \lvert \psi \rvert < 1 $$
 
 **The bound $\lvert \psi \rvert < 1$ is not a modelling convenience. It is positive definiteness of the stiffness matrix**,
-which is to say it is a statement about energy, and no laminate at any ply angle can exceed it. That bound
-is what makes the following question answerable rather than open.
+a condition on strain energy, and no laminate at any ply angle can exceed it. Because of that bound the
+following question has a definite answer.
 
 | Coupling $\psi$ | $q_D$ relative to untailored |
 |---|---|
@@ -521,18 +535,18 @@ is what makes the following question answerable rather than open.
 Two results follow, of which the later one carries more weight.
 
 **First, the coupling needed to reach the X-29's actual margin is $\psi = 0.627$**, taking the untailored
-wing's boundary and multiplying it by the 2.667 established from the inversion. That is
-**roughly five eighths of the theoretical maximum**, which is a large fraction of a hard physical bound to
-be spending on one requirement.
+wing's boundary and multiplying it by the 2.667 established from the inversion. That comes to
+**roughly five eighths of the theoretical maximum**, a large fraction of a hard physical bound to
+spend on one requirement.
 
 **Second, there is a value of coupling beyond which the wing does not diverge at any speed.** At $\psi =
-0.812$ the positive root disappears, exactly as it does under sufficient sweepback.
+0.812$ the positive root disappears, as it does under sufficient sweepback.
 **The technology does not merely raise the boundary. It can remove it.**
 
 ### Whether That Number Survives the Assumptions
 
-The required coupling was computed with stiffnesses nobody published, so the obvious objection is that it is
-an artefact of the assumption. It is not, and the reason is worth stating.
+The required coupling was computed with unpublished stiffnesses, so the obvious objection is that it is
+an artefact of the assumption. It is not, and the reason follows.
 
 **The boundary scales linearly with the overall stiffness level, so the required $\psi$ is completely independent of it.**
 Only the ratio $GJ/EI$ can matter, and across a wide range of that ratio the answer moves very little.
@@ -549,7 +563,7 @@ The conclusion that the X-29's wing needed most of the coupling physically avail
 therefore robust to the one thing that had to be assumed, and
 **the model with two free parameters has demonstrated something only because the answer barely depends on them.**
 
-The research literature on this subject is surveyed under The Contemporary Literature, chiefly in the cluster on aeroelastic tailoring and bend-twist coupling.
+The cluster on aeroelastic tailoring and bend-twist coupling, under The Contemporary Literature, holds the research records on this question.
 
 ### The Southwell Method, Used in Flight for the First Time
 
@@ -571,13 +585,14 @@ $$ \hat{m} = \frac{\sum_i (\theta_i - \bar{\theta})(y_i - \bar{y})}{\sum_i (\the
 
 **Plotting $\theta/q$ against $\theta$ gives a line whose slope is the reciprocal of the divergence dynamic pressure.**
 The X-29A generated the data from constant-altitude windup turns and pushover-pullup manoeuvres, using both
-strain-gauge loads and twist from the flight deflection measurement system. The primary record states
-plainly that
+strain-gauge loads and twist from the flight deflection measurement system. The preliminary flight
+assessment notes that
 **although this was the first application of the Southwell technique to flight test data, it had been used previously to analyse wind tunnel data.**
+\[[Hicks and Matheny 1987][research_hicksjohnw_mathenyneilw_1987]\]
 
 The report also records that the resulting estimate was
 **sensitive to a number of factors including measurement uncertainties, manoeuvre technique, aerodynamic phenomena, and strain gauge loads measurement stations**,
-and does not say how sensitive. That is computable.
+and does not say how sensitive \[[Hicks and Matheny 1987][research_hicksjohnw_mathenyneilw_1987]\]. That is computable.
 
 The lever arm of the fit is the spread in twist across the data, and the twist grows sharply only as the
 boundary is approached. An aircraft that can reach just over a third of the way to divergence therefore has
@@ -593,7 +608,7 @@ very little of it.
 | 0.85 | 5.55 | 0.28 percent | 0.66 percent |
 
 Those figures assume two percent noise on the twist measurement.
-**The X-29A sat at 0.375 on that table at its design point**, so the geometry of its own envelope put it
+**The X-29A sat at 0.375 on that table at its design point**, so the geometry of its envelope put it
 near the fragile end. Holding the reach fixed there and varying the measurement quality instead gives the
 sensitivity the report describes.
 
@@ -606,36 +621,37 @@ sensitivity the report describes.
 | 20 percent | 26.35 percent | 48.93 percent |
 
 **The error in the estimated boundary is very close to a fixed multiple of the measurement error, at about 1.4 times it.**
-That is the quantitative content of the report's warning. A five percent error in twist becomes a seven
+This gives the report's warning its quantitative content. A five percent error in twist becomes a seven
 percent error in the divergence boundary, and at the amplification rates tabulated earlier a seven percent
 error in the boundary is a large error in the loads.
 
-**The method is sound and the flight application was a genuine first.** What limited it was that the
+**The method is sound and the flight application was a genuine first** \[[Hicks and Matheny 1987][research_hicksjohnw_mathenyneilw_1987]\]. What limited it was that the
 aircraft could not fly close enough to the thing it was trying to measure, which is the same difficulty in a
 different form.
 
-The research literature on this subject is surveyed under The Contemporary Literature, chiefly in the cluster on the X-29 and forward-swept wing aircraft and the cluster on aeroelastic tailoring and bend-twist coupling.
+Records on the method's flight use and on the wing it measured fall in the clusters on the X-29 and forward-swept wing aircraft and on aeroelastic tailoring and bend-twist coupling.
 
 ## Dependent Systems
 
 ### The Wing Structure
 
-The wing skins are **graphite-epoxy composite**, upper and lower, and the primary record is explicit that
-they exist to **aeroelastically tailor the wing deflection and inhibit wing structural divergence**. The
+The wing skins are **graphite-epoxy composite**, upper and lower, and the flight assessment is explicit that
+they exist to **aeroelastically tailor the wing deflection and inhibit wing structural divergence**
+\[[Hicks and Matheny 1987][research_hicksjohnw_mathenyneilw_1987]\]. The
 mechanism is stated as **proper ply orientation** producing
 **bend-twist coupling combined with high material stiffness properties** to minimise
-**the natural washin tendencies under load**.
+**the natural washin tendencies under load** \[[Sims et al 1989][research_simsrobert_mccrossonpaul_1989]\].
 
 The structural axis is swept further forward than the planform, and the difference is not small.
 
 $$ \Lambda_{\mathrm{struct}} - \Lambda_{LE} = 36.2^\circ - 29.3^\circ = 6.9^\circ $$
 
-**Divergence is governed by the elastic axis rather than by the leading edge**, so the wing is
-aeroelastically almost seven degrees more forward-swept than it appears, and the closed-form root above
-depends on the sine of that larger angle rather than the smaller one.
+**Because divergence is governed by the elastic axis**, the wing is aeroelastically almost seven degrees
+more forward-swept than it appears, and the closed-form root above depends on the sine of the larger
+angle.
 
-The amplification applies to the loads as well as to the lift, which is what makes it a structural
-requirement rather than an aerodynamic curiosity.
+The amplification applies to the loads as well as to the lift, so it binds the structure and is more than
+an aerodynamic curiosity.
 
 $$ \frac{M_{\mathrm{root}}^{\mathrm{elastic}}}{M_{\mathrm{root}}^{\mathrm{rigid}}} \;\geq\; \frac{1}{1 - q/q_D} = 1.6 \quad \text{at the design point} $$
 
@@ -643,32 +659,32 @@ $$ \frac{M_{\mathrm{root}}^{\mathrm{elastic}}}{M_{\mathrm{root}}^{\mathrm{rigid}
 outboard and lengthening the lever arm, so the bending moment grows by at least the lift amplification and
 in general by more.
 
-**The record is equally explicit that the cure was partial.** It states that even so, the aeroelastic
-properties **remain significantly adverse**, and it is that sentence which the elastic-to-rigid ratio of 1.6
-quantifies. The wing was not made to behave like an aft-swept wing. It was made to diverge far enough
-outside the envelope to be flyable, and it still amplified its own lift by sixty percent at the design
+**The same report is equally explicit that the cure was partial.** Even so, it adds, the aeroelastic
+properties **remain significantly adverse**, and the elastic-to-rigid ratio of 1.6 quantifies that
+sentence \[[Sims et al 1989][research_simsrobert_mccrossonpaul_1989]\]. The wing was not made to behave like an aft-swept wing. It was made to diverge far enough
+outside the envelope to be flyable, and it still amplified its lift by sixty percent at the design
 point.
 
 The structural box **transitions from unswept inboard to swept constant chord lines outboard**, and the four
 load measurement stations were oriented to place the torsion axes midway through the box.
 **Eighteen strain gauge bridges were installed at each station**, some of them on the composite itself, and
 the record notes that equation accuracies were
-**typical of Dryden's experience with conventional all-metallic structures**, which is a quietly significant
-result about instrumenting composites at all.
+**typical of Dryden's experience with conventional all-metallic structures**, a quietly significant
+result about instrumenting composites at all \[[Sims et al 1989][research_simsrobert_mccrossonpaul_1989]\].
 
 The span load distribution was expected to be unconventional,
-**particularly in the inboard region because of the strong canard downwash**, which is the first appearance
-of a theme that runs through the whole aircraft. **The canard and the wing cannot be analysed separately.**
+**particularly in the inboard region because of the strong canard downwash** \[[Sims et al 1989][research_simsrobert_mccrossonpaul_1989]\], the first appearance
+of a theme that recurs across the aircraft. **The canard and the wing cannot be analysed separately.**
 
-The research literature on this subject is surveyed under The Contemporary Literature, chiefly in the cluster on composite structures, damage and certification.
+The survey places the literature on composite wing structure in the cluster on composite structures, damage and certification.
 
 ### The Flight Control System
 
-**A thirty-five percent negative static margin is a statement about time.**
+**A thirty-five percent negative static margin translates into time.**
 
 The unstable airframe's pitch response splits into two real roots, one of them positive, and the positive
 root sets how long the aircraft takes to double a disturbance. Neglecting pitch damping, which errs toward
-less available time rather than more,
+less available time,
 
 $$ M_\alpha = \frac{q\,S\,\bar{c}\,C_{m_\alpha}}{I_{yy}}, \qquad t_2 = \frac{\ln 2}{\sqrt{M_\alpha}} $$
 
@@ -683,7 +699,7 @@ margin.
 
 $$ C_{m_\alpha} = -C_{L_\alpha}\,\mathrm{SM} = -5.037 \times (-0.35) = 1.763 $$
 
-**A positive pitching moment derivative is the whole of the aircraft's difficulty**, because it means a
+**A positive pitching moment derivative is the source of the aircraft's difficulty**, because it means a
 disturbance in angle of attack produces a moment that increases it.
 
 Here $C_{m_\alpha} = -C_{L_\alpha} \cdot \mathrm{SM}$, so that a negative static margin makes the pitching
@@ -708,9 +724,9 @@ feet, which spans the range for aircraft of this size and mass. Every figure bel
 the low inertia bracket in 76 milliseconds. **The controller gets four frames in which to notice and act**,
 and at the low bracket rather closer to three.
 
-The research literature on this subject is surveyed under The Contemporary Literature, chiefly in the cluster on lift, induced drag and aerodynamic estimation.
+The lift-curve estimate draws on the literature in the cluster on lift, induced drag and aerodynamic estimation.
 
-### Two Doubling Times, and Confusing Them Looks Like a Finding
+### Two Doubling Times That Are Easy to Confuse
 
 The figure above is the doubling time of an established exponential. A disturbance released from rest with
 zero pitch rate does not follow an exponential, because both roots are excited, and the response is a
@@ -725,7 +741,7 @@ $$ t_2^{\exp} = \frac{\ln 2}{\lambda} = 0.100\ \mathrm{s}, \qquad t_2^{\cosh} = 
 $$ \frac{t_2^{\cosh}}{t_2^{\exp}} = \frac{\operatorname{arcosh} 2}{\ln 2} = 1.900 $$
 
 **A factor of 1.900 is large enough to read as a real discrepancy if the two are mixed up**, and this
-article uses the exponential figure throughout, which is the conservative one.
+article uses the exponential figure, the conservative one, throughout.
 
 That number should be set against the delay the controller itself introduces. A zero-order hold contributes
 half a sample on average and the computation contributes whole frames, so
@@ -746,13 +762,13 @@ $$ \varphi = 360^\circ f \tau_{\mathrm{eff}} $$
 | 5.0 Hz | 67.50° |
 
 **Thirty-seven and a half milliseconds of the aircraft's hundred-millisecond doubling time is consumed by the act of sampling.**
-That is the argument for forty hertz stated as a ratio rather than as a specification, and it explains why
-the update rate is quoted in the primary literature as though it were a design feature rather than an
-implementation detail. **It was a design feature.**
+The ratio makes the case for forty hertz without any appeal to a specification, and it explains why the
+primary literature quotes the update rate as though it were a design feature and not an implementation
+detail. **It was a design feature.**
 
-The research literature on this subject is surveyed under The Contemporary Literature, chiefly in the cluster on sampled-data control and time delay.
+The survey treats sampled-data delay in the cluster on sampled-data control and time delay.
 
-### Redundancy, Measured Against the Same Clock
+### Redundancy Measured Against the Same Clock
 
 Triplex redundancy with majority voting tolerates one channel failure. The probability that fewer than two
 of three independent channels survive follows the binomial.
@@ -765,7 +781,7 @@ $$ P_{\mathrm{loss}} = \sum_{k=0}^{1} \binom{3}{k}(1-p)^k p^{3-k} $$
 | 10⁻⁴ | 3.00 × 10⁻⁸ | 10⁻⁴ | 3,334 |
 | 10⁻⁵ | 3.00 × 10⁻¹⁰ | 10⁻⁵ | 33,334 |
 
-**That is the easy half of the redundancy argument and it is not the binding one.** Voting requires
+**Voting arithmetic is the easy half of the redundancy argument, and it does not bind.** Voting requires
 detecting and isolating a failed channel, and that takes frames, which the airframe does not have many of.
 
 $$ \frac{\Delta t_{\mathrm{isolate}}}{t_2} = \frac{n_{\mathrm{frames}}/f_s}{t_2} $$
@@ -780,15 +796,16 @@ $$ \frac{\Delta t_{\mathrm{isolate}}}{t_2} = \frac{n_{\mathrm{frames}}/f_s}{t_2}
 **A voter that needs five frames to isolate a failure has spent more than one doubling time doing it**, by
 which point the disturbance it was protecting against has grown beyond the authority available to correct
 it. **Redundancy management on this aircraft was a real-time problem rather than a reliability problem**,
-and that inversion is one of the genuinely transferable results of the programme.
+and that inversion is one of the transferable results of the programme.
 
 The system carried three flight modes, the **normal digital** mode as prime, with **digital reversion** and
 **analog reversion** below it, each having an up-and-away and a power-approach configuration, and extensive
-gain scheduling in every mode except the two reversionary power-approach cases.
+gain scheduling in every mode except the two reversionary power-approach cases
+\[[Hicks and Matheny 1987][research_hicksjohnw_mathenyneilw_1987]\].
 
-The research literature on this subject is surveyed under The Contemporary Literature, chiefly in the cluster on handling qualities and pilot-vehicle interaction, the cluster on digital fly-by-wire, redundancy and fault tolerance and the cluster on flight control law design.
+Three clusters under The Contemporary Literature cover this ground, on handling qualities and pilot-vehicle interaction, on digital fly-by-wire, redundancy and fault tolerance, and on flight control law design.
 
-### The Canard, Whose Boundary the Control Loop Set
+### A Canard Boundary Set by the Control Loop
 
 **The single most interesting structural fact about this aircraft is that its canard was also divergence prone, and that a control law requirement fixed the structural boundary.**
 
@@ -797,12 +814,13 @@ the spring.
 
 $$ q_{D,\mathrm{surface}} = \frac{K_\theta}{e\,S\,a} $$
 
-The primary record states that the canard's torsion axis lies
+The structural loads report places the canard's torsion axis
 **about midway between the 25 percent and 50 percent mean aerodynamic chord points**, chosen to balance
 subsonic against supersonic hinge moments, and describes that location in as many words as
-**not conservatively located from a divergence viewpoint**. It then says the thing that makes this aircraft
-what it is.
+**not conservatively located from a divergence viewpoint**. It then states the fact that defines this
+aircraft.
 **The pitch-loop stiffness required for control system stability resulted in a predicted divergence boundary that was well beyond that for the wing.**
+\[[Sims et al 1989][research_simsrobert_mccrossonpaul_1989]\]
 
 **The spring is not only the spindle.** It is the spindle in series with the actuator, and through the
 actuator with the flight control system's pitch loop. A stiffness bought to make the control law stable
@@ -823,23 +841,23 @@ pounds per square foot gives the scale of what was required.
 **Moving the axis from thirty percent to fifty percent of the chord multiplies the required stiffness by five**,
 because the moment arm grows from a quarter of a foot to nearly a foot and a half. The record's remark that
 the chosen location was a **major tradeoff** is therefore an understatement of the sensitivity rather than
-of the difficulty.
+of the difficulty \[[Sims et al 1989][research_simsrobert_mccrossonpaul_1989]\].
 
-**Canard free play was tracked as a major concern throughout**, which follows directly. Free play is a
+**Canard free play was tracked as a major concern throughout** \[[Sims et al 1989][research_simsrobert_mccrossonpaul_1989]\], which follows directly. Free play is a
 region of zero stiffness, and a spring with a dead band in it has no stiffness at all near the origin.
 
-The research literature on this subject is surveyed under The Contemporary Literature, chiefly in the cluster on aeroservoelasticity and structural mode control.
+Research on the interaction of control loops with structural modes is collected in the cluster on aeroservoelasticity and structural mode control.
 
 ### Trim and the Case for Putting the Surface in Front
 
-The static margin itself is the distance from the centre of gravity to the neutral point, measured in mean
+The static margin is the distance from the centre of gravity to the neutral point, measured in mean
 aerodynamic chords, and it is negative when the neutral point lies ahead.
 
 $$ \mathrm{SM} = \frac{x_{np} - x_{cg}}{\bar{c}} = -0.35 $$
 
-A supercritical section carries a large nose-down pitching moment about its aerodynamic centre, which is the
+A supercritical section carries a large nose-down pitching moment about its aerodynamic centre, the
 price of its aft loading. That moment must be trimmed at every flight condition, and
-**the sign of the load that trims it is the entire argument for a canard.**
+**the sign of the load that trims it is the core of the argument for a canard.**
 
 The moment balance uses the surface's own lift coefficient against the tail volume coefficient, which is
 defined as
@@ -854,7 +872,7 @@ wing, which is $C_{L_{\mathrm{surface}}} S_s / S$. Substituting the volume coeff
 $$ \Delta C_L = -\frac{C_{m_{ac}}}{l/\bar{c}} $$
 
 and **the surface area cancels completely.** The trim increment depends only on the aerofoil's moment and
-the moment arm, which is worth stating because it is easy to carry the surface's own lift coefficient into
+the moment arm. That deserves emphasis, because it is easy to carry the surface's own lift coefficient into
 the comparison as though it were already wing-referenced, and doing so inflates the trim load by the inverse
 area ratio, a factor of five for this aircraft.
 
@@ -888,7 +906,7 @@ moment and this arm. Neither was published, so both deserve a sensitivity table.
 | −0.15 | 1.75 | 0.429 | 0.0857 | 1.538 |
 | −0.15 | 2.50 | 0.300 | 0.0600 | 1.351 |
 
-**The advantage is real across the whole range and it is modest**, running from about eleven percent to
+**The advantage is real across the tabulated range and it is modest**, running from about eleven percent to
 about sixty-five percent depending on how aft-loaded the section is and how long the arm. It is not the
 dominant term in the aircraft's drag, and an article that presented the canard purely as a drag reduction
 device would be overstating a secondary effect.
@@ -898,15 +916,17 @@ and without dihedral. The record states that
 **canard lift due to angle of attack is approximately 1.5 times that due to canard incidence**, and warns
 that
 **any misprediction of these interference effects could have a large influence on the load distributions of both surfaces.**
+\[[Sims et al 1989][research_simsrobert_mccrossonpaul_1989]\]
 
-The research literature on this subject is surveyed under The Contemporary Literature, chiefly in the cluster on canards, trim and multiple lifting surfaces.
+The literature on trimming surfaces sits under The Contemporary Literature in the cluster on canards, trim and multiple lifting surfaces.
 
 ### The Transonic Argument
 
 The programme's aerodynamic claim was a drag saving of
-**up to thirteen percent for wings of the same aspect ratio**, and the mechanism given in the primary record
-is specific.
+**up to thirteen percent for wings of the same aspect ratio**, and the primary sources give a specific
+mechanism \[[Hicks and Huckabone 1989][research_hicksjohnw_huckabinethomas_1989]\].
 **A forward-swept wing requires less leading-edge sweep for the same shock sweep and location.**
+\[[Hicks and Matheny 1987][research_hicksjohnw_mathenyneilw_1987]\]
 
 That claim can be checked rather than repeated. An isobar lying at a constant chord fraction has a sweep
 interpolated between the two edges.
@@ -930,10 +950,7 @@ across the chord.
 | 100 percent | 44.70° forward |
 
 **A forward-swept wing's isobars are swept more than its leading edge, and an aft-swept wing's are swept less**,
-because the trailing edge moves in opposite directions in the two cases. The transonic literature this
-argument sits inside begins with the National Advisory Committee for Aeronautics, whose transonic
-conferences and aileron reversal studies of the 1940s and 1950s established the relationship between shock
-sweep and control effectiveness that the X-29's planform argument assumes. The effects compound, and
+because the trailing edge moves in opposite directions in the two cases. The effects compound, and
 matching the isobar costs the aft-swept wing a great deal of leading-edge sweep.
 
 $$ \Lambda_{LE}^{\mathrm{aft}} = 44.70^\circ \quad \text{to match} \quad \Lambda_{50\%} = 37.79^\circ $$
@@ -941,8 +958,8 @@ $$ \Lambda_{LE}^{\mathrm{aft}} = 44.70^\circ \quad \text{to match} \quad \Lambda
 **The aft-swept wing needs 44.70 degrees of leading-edge sweep to achieve what the forward-swept wing achieves with 29.30, a difference of 15.40 degrees.**
 The primary source's claim is therefore correct and now has a number attached to it.
 
-Sweep earns its keep by reducing the Mach number the section actually sees, and the isobar sweep rather than
-the leading-edge sweep is what governs that.
+Sweep earns its keep by reducing the Mach number the section sees, and the isobar sweep governs that
+reduction rather than the leading-edge sweep.
 
 $$ M_n = M\cos\Lambda_{50\%} $$
 
@@ -952,15 +969,15 @@ $$ M_n = M\cos\Lambda_{50\%} $$
 | 1.07 | 0.846 |
 | 1.48 | 1.170 |
 
-**At the design point of Mach 1.07 the section sees 0.846**, which is subsonic, and that is the whole
-purpose of sweeping a wing at all.
+**At the design point of Mach 1.07 the section sees 0.846**, which is subsonic, and keeping the normal
+Mach number subsonic is the purpose of sweeping a wing.
 
 The structural consequence follows. Computing the box length between a fifteen percent front spar and a
 seventy percent rear spar for both planforms at equal isobar sweep gives
 **17.12 feet forward-swept against 17.66 feet aft-swept**, a ratio of 0.969, so the forward-swept box is
 **about three percent shorter**.
 
-The reason a shorter box is worth having is that it shortens the lever arm the root bending moment acts
+A shorter box shortens the lever arm the root bending moment acts
 through.
 
 $$ M_{\mathrm{root}} = \tfrac{1}{2}n\,W\,\eta_{cp}\,\frac{b}{2} = \tfrac{1}{2} \times 8.0 \times 15{,}000 \times 0.4 \times 13.74\ \mathrm{ft} = 3.30 \times 10^{5}\ \mathrm{ft\,lb} $$
@@ -971,20 +988,20 @@ forward-swept box the longer of the two. **Both numbers are correct and they ans
 The one that bears on the programme's claim is the first, because a wing is designed to a shock position
 rather than to a leading-edge angle.
 
-The research literature on this subject is surveyed under The Contemporary Literature, chiefly in the cluster on transonic wing design and sweep and the cluster on flutter, gusts and very flexible aircraft.
+The contemporary records on this argument are in the clusters on transonic wing design and sweep and on flutter, gusts and very flexible aircraft.
 
 ### Propulsion and the Rest
 
 The engine is a single **General Electric F404-GE-400 of the 16,000 pound class**, mounted in the fuselage
-with **two side-mounted fixed-geometry inlets optimised for transonic performance**. Fixed geometry is the
-correct choice for an aircraft whose supersonic excursions are incidental to its purpose, and it is one of
+with **two side-mounted fixed-geometry inlets optimised for transonic performance** \[[Hicks and Matheny 1987][research_hicksjohnw_mathenyneilw_1987]\]. Fixed geometry is the
+correct choice for an aircraft whose supersonic excursions are incidental to its purpose, and the inlets are one of
 the places where the programme declined to spend money on a technology it was not investigating.
 
 Maximum takeoff gross weight is 17,800 pounds with 4,000 pounds of fuel in two fuselage and two strake
-tanks. Design symmetric load factors were
+tanks \[[Hicks and Matheny 1987][research_hicksjohnw_mathenyneilw_1987]\]. Design symmetric load factors were
 **8 g subsonic and 6.5 g supersonic at a manoeuvre design gross weight of 15,000 pounds**, and the record
-notes that gross weights actually flown ranged from about 14,800 to 17,700 pounds, the upper figure being
-**an eighteen percent increase over the manoeuvre design gross weight**.
+notes that gross weights flown ranged from about 14,800 to 17,700 pounds, the upper figure being
+**an eighteen percent increase over the manoeuvre design gross weight** \[[Sims et al 1989][research_simsrobert_mccrossonpaul_1989]\].
 
 The drag polar assumed for the sensitivity below is the ordinary parabolic one, and its maximum lift-to-drag
 ratio has a closed form.
@@ -1012,63 +1029,66 @@ $$ \frac{T}{W} = \frac{q\,C_{D_0}}{W/S} + \frac{k\,(W/S)\,n^2}{q} \quad \Longrig
 | 40,000 ft | 5.46 |
 
 **At sea level that exceeds the 8 g structural design limit**, on the assumed polar and at the manoeuvre
-design weight, which means **the airframe rather than the engine is what binds low down**. It is a
-consequence of the thrust-to-weight ratio computed at the top of the article exceeding unity at that weight.
+design weight, so **at low altitude the airframe binds before the engine does**. The result follows from
+the thrust-to-weight ratio computed at the top of the article exceeding unity at that weight.
 
 **Ten to eleven is an unremarkable figure for a fighter-sized aircraft of this aspect ratio**, and the
 X-29's aerodynamic interest was never in its cruise efficiency.
 
-The research literature on this subject is surveyed under The Contemporary Literature, chiefly in the cluster on manoeuvre performance, agility and energy methods.
+Performance work of this kind is surveyed in the cluster on manoeuvre performance, agility and energy methods.
 
 ### Instrumentation
 
 **Six hundred and ninety-one measured parameters were telemetered to the ground**, and the aircraft
-**had no onboard recording capability at all**, which is a striking design decision and made the telemetry
-link a single point of failure for the research product if not for the aircraft.
+**had no onboard recording capability at all**, a striking design decision that made the telemetry
+link a single point of failure for the research product if not for the aircraft \[[Hicks and Matheny 1987][research_hicksjohnw_mathenyneilw_1987]\].
 
 The ten-bit remote-unit pulse-code modulation system sampled **from 25 to 400 samples per second** depending
-on the frequency range required, with fourteen selected parameters raised to 200 or 400. Those rates are
+on the frequency range required \[[Hicks and Matheny 1987][research_hicksjohnw_mathenyneilw_1987]\], with fourteen selected parameters raised to
+200 or 400 when substantial buffet loads were encountered \[[Sims et al 1989][research_simsrobert_mccrossonpaul_1989]\]. Those rates are
 chosen against the same criterion that governs the flight control system, and the range from 25 to 400
 samples per second corresponds to a usable band an order of magnitude wide.
 
 $$ f_{\max} \leq \frac{f_s}{2} \quad \Longrightarrow \quad 12.5\ \mathrm{Hz} \leq f_{\max} \leq 200\ \mathrm{Hz} $$
 
-**The structural modes the aeroservoelastic work needed to see lie inside that band**, which is why fourteen
-parameters were raised to the top of it.
+**The structural modes the aeroservoelastic work needed to see lie inside that band**, and the fourteen
+parameters raised to the top of it were raised for buffet loads \[[Sims et al 1989][research_simsrobert_mccrossonpaul_1989]\].
 
 A constant-bandwidth frequency modulation system handled high-response acceleration and vibration data. The
 **flight deflection measurement system** supplied the wing twist that the Southwell analysis depended on,
-which makes it the instrument the keystone result rests on.
+so the keystone result depends on that instrument \[[Hicks and Matheny 1987][research_hicksjohnw_mathenyneilw_1987]\].
 
-The research literature on this subject is surveyed under The Contemporary Literature, chiefly in the cluster on high angle of attack and vortex flow and the cluster on flight test, instrumentation and identification.
+Records on the aircraft's instrumentation and test methods appear under The Contemporary Literature, in the clusters on high angle of attack and vortex flow and on flight test, instrumentation and identification.
 
 ## The Flight Test Record
 
 **Two aircraft flew, and they flew a divided programme.**
 
 The first X-29A made its first flight on **14 December 1984** and carried the envelope expansion and the
-performance work. The second flew from **1989** and carried the high angle of attack investigation. The
-record of how many flights each made is not consistent across sources, and the disagreement is reported
-rather than resolved in the source base below.
+performance work. The second flew from **1989** and carried the high angle of attack investigation
+\[[Hicks and Matheny 1987][research_hicksjohnw_mathenyneilw_1987]\] \[[Gelzer 2015][ref_gelzer_x29]\]. The record of how many flights each made is not consistent across
+sources \[[Gelzer 2015][ref_gelzer_x29]\] \[[Jenkins, Landis and Miller][ref_xvehicles]\] \[[Grumman X-29][ref_x29]\], and the source base below
+reports the disagreement without resolving it.
 
 **The envelope expansion itself is precisely documented.** The primary record states that expansion of the
-aircraft's one-g and manoeuvre flight envelopes **was completed over a two-year period in 84 flights**,
-which is a slow rate by the standards of the aircraft in this series and an entirely appropriate one for an
+aircraft's one-g and manoeuvre flight envelopes **was completed over a two-year period in 84 flights** \[[Hicks and Matheny 1987][research_hicksjohnw_mathenyneilw_1987]\],
+a slow rate by the standards of the aircraft in this series and an appropriate one for an
 airframe whose failure modes included a structural instability with no natural limit.
 
 **The overall verdict in the primary literature is favourable and is stated without hedging.** Flight
 results **confirmed the viability of the aircraft design**, good agreement with preflight predictions
 **was obtained**, and the individual technologies' operational workability and performance
-**were confirmed**.
+**were confirmed** \[[Hicks and Matheny 1987][research_hicksjohnw_mathenyneilw_1987]\].
 
-### What Was Actually Measured
+### What Was Measured
 
-The research product divides into four measurable things, and it is worth separating them because they did
-not all succeed equally.
+Four of the measured things need separating, because they did not all succeed equally
+\[[Hicks and Matheny 1987][research_hicksjohnw_mathenyneilw_1987]\] \[[Sims et al 1989][research_simsrobert_mccrossonpaul_1989]\].
 
 - **The static loads distribution**, from four wing stations and the canard, with eighteen strain gauge
   bridges per station.
-- **The structural dynamic characteristics**, from frequency-sweep vibration inputs.
+- **The structural dynamic characteristics**, from natural turbulence, control surface raps and a
+  frequency-sweep flaperon exciter.
 - **The flight control system characteristics**, across three modes and two configurations.
 - **The aerodynamic performance**, meaning the drag polar shape above minimum parasite drag.
 
@@ -1077,11 +1097,12 @@ could only be obtained subsonically, because
 **a lack of afterburner fuel flow instrumentation prevented the calculation of accurate afterburner thrust in supersonic flight**.
 Further difficulties arose in the angle-of-attack calibration and from manoeuvre dynamics effects caused by
 being off the optimum wing camber schedule. **The engine was not thrust-calibrated**, and a
-thrust-calibrated engine was planned for the follow-on phase.
+thrust-calibrated engine was planned for the follow-on phase \[[Hicks and Matheny 1987][research_hicksjohnw_mathenyneilw_1987]\]
+\[[Hicks and Huckabone 1989][research_hicksjohnw_huckabinethomas_1989]\].
 
-**That is an honest and unusual admission to find in a programme report**, and it means the aircraft's
-supersonic drag, which is where the forward-swept wing's transonic argument would have been most directly
-testable, was not measured during this phase at all.
+**The admission is honest and unusual for a programme report**, and it means the aircraft's
+supersonic drag, where the forward-swept wing's transonic argument would have been most directly
+testable, was not measured during this phase at all \[[Hicks and Huckabone 1989][research_hicksjohnw_huckabinethomas_1989]\].
 
 ## Comparison With Ground Prediction
 
@@ -1091,34 +1112,36 @@ testable, was not measured during this phase at all.
 
 **Induced drag levels were as much as twenty percent less than wind tunnel estimates**, particularly at lift
 coefficients above 0.8, and the basic drag polar shapes **met or exceeded wind-tunnel-based predictions**.
-Comparison with other contemporary fighters showed the X-29A to have the better overall polar.
+Comparison with other modern fighters showed the X-29A to have the better overall Oswald efficiency factor
+for the same aspect ratio \[[Hicks and Huckabone 1989][research_hicksjohnw_huckabinethomas_1989]\] \[[Hicks and Matheny 1987][research_hicksjohnw_mathenyneilw_1987]\].
 
 **A twenty percent overprediction of induced drag by a tunnel is a large error in the conservative direction**,
-and it is the kind of result that supports the configuration more strongly than a matching prediction would
-have. The aircraft was better than the ground said it would be.
+and a result of that kind supports the configuration more strongly than a matching prediction would
+have. In the subsonic and low transonic polar data the aircraft was better than the ground said it would be.
 
 ### The Divergence Boundary Was Worse Than Predicted
 
 **Preliminary results indicated a lower divergence speed than predicted**, though the boundary was
-**still outside the flight envelope**.
+**still outside the flight envelope** \[[Hicks and Matheny 1987][research_hicksjohnw_mathenyneilw_1987]\].
 
-This is the finding that matters most and it deserves to be stated carefully.
+This finding matters most and needs careful statement.
 **The prediction was optimistic about the single quantity the aircraft existed to demonstrate.** The margin
 survived, the aeroplane was never in danger, and the technology was vindicated. But the ground analysis was
-wrong in the direction that costs margin rather than the direction that wastes it, and the primary record's
-own framing of the underlying risk anticipates exactly this.
+wrong in the direction that costs margin rather than the direction that wastes it, and the loads analysis
+had framed the underlying risk in terms that anticipate this.
 **Errors in the predicted load distributions or stiffness characteristics could lead to greater load amplifications and a lower divergence boundary for a forward-swept-wing design.**
+\[[Sims et al 1989][research_simsrobert_mccrossonpaul_1989]\]
 
 **The programme predicted its own failure mode correctly and then experienced a mild version of it.**
 
 ### The Canard Loads Were Worse Than Predicted
 
 **Canard torsion loads were consistently higher than predicted at transonic Mach numbers**, especially at
-high dynamic pressure, and were **highly sensitive to sideslip angle**. The record states plainly that
+high dynamic pressure, and were **highly sensitive to sideslip angle**. The report adds that
 **the difference between the flight test data and the predictions is not fully understood** and was still
-under investigation.
+under investigation \[[Hicks and Matheny 1987][research_hicksjohnw_mathenyneilw_1987]\].
 
-**That is the same surface whose divergence boundary was set by the control loop**, and it is the second
+**This is the surface whose divergence boundary the control loop set**, and the torsion loads are the second
 independent sign that the canard was the least well predicted part of the aircraft. The warning quoted
 earlier, that any misprediction of the canard-wing interference could have a large influence on the load
 distributions of both surfaces, turned out to be the right thing to have worried about.
@@ -1128,61 +1151,69 @@ distributions of both surfaces, turned out to be the right thing to have worried
 A separate body of the flight record concerns
 **buffet-induced structural and flight control system interaction**, and an
 **in-flight interaction of the canard and the flight control system** significant enough to be the subject
-of its own report.
+of its own report \[[Voracek and Clarke 1991][research_voracekdavidf_clarkerobert_1991]\]
+\[[Kehoe et al 1990][research_kehoemichaelw_bjarkelisaj_1990]\].
 
-**An aeroservoelastic interaction is what happens when a structure and a control law that were designed separately meet.**
+**An aeroservoelastic interaction occurs when a structure and a control law that were designed separately meet.**
 For an aircraft whose canard stiffness was partly supplied by its pitch loop, the appearance of one is close
 to inevitable, and its appearance in the flight record is the clearest possible evidence that the structure
 and the control law were a single system rather than two.
 
-The research literature on this subject is surveyed under The Contemporary Literature, chiefly in the cluster on flutter, gusts and very flexible aircraft.
+The survey follows this interaction into the cluster on flutter, gusts and very flexible aircraft.
 
 ## What the Data Changed
 
 **The X-29's forward-swept wing was never adopted, and the aircraft's influence ran through everything except its most visible feature.**
 
-No production aircraft has flown a forward-swept wing since. The configuration's aerodynamic case was real
-and modest, its structural case depended on a technology that had other uses, and its practical
-disadvantages at high angle of attack and in supersonic flight were never overcome. **The planform lost.**
+No forward-swept fighter has entered series production since, the [Su-47][ref_su47] having remained a
+prototype, and the moderate forward sweep of some sailplanes and light aircraft serves visibility and spar
+placement rather than high-speed performance \[[Forward-swept wing][ref_fsw]\]. The configuration's
+aerodynamic case was modest, since the programme did not demonstrate the overall drag reduction that earlier
+studies had suggested \[[Gelzer 2015][ref_gelzer_x29]\], its structural case depended on a technology that
+had other uses, and advances in thrust vectoring and a shift toward medium-range missile engagements reduced
+its relevance to fighter design \[[Forward-swept wing][ref_fsw]\]. **The planform lost.**
 
 **What won was everything the planform forced.**
 
 - **Aeroelastic tailoring became ordinary.** The technique that kept the X-29's wing inside its
-  boundary is now applied routinely to wings that are not forward-swept at all, for load alleviation,
-  flutter margin and weight, and the design literature that supports it is large.
+  boundary is now applied to wings that are not forward-swept at all, for load alleviation,
+  flutter margin and weight, and the design literature that supports it is large
+  \[[Aeroelastic tailoring of transport aircraft wings][ref_tailoring]\].
 - **Flying a deeply unstable airframe became ordinary.** Thirty-five percent negative static margin was
-  extreme in 1984 and the practice of designing around relaxed static stability is now unremarkable.
+  extreme in 1984 and the practice of designing around relaxed static stability is now unremarkable
+  \[[Relaxed stability][ref_relaxed_stability]\].
 - **Real-time redundancy management became a recognised discipline.** The insight that failure
-  detection and isolation must be fast compared with the airframe's own divergence time, rather than
-  merely reliable, transfers to every unstable aircraft.
+  detection and isolation must be fast compared with the airframe's divergence time, as well as
+  reliable, transfers to every unstable aircraft.
 
 **The aircraft's most transferable finding is the one it did not set out to make**, namely that a structure
 and a control law for an unstable airframe cannot be specified independently. The canard's divergence
 boundary being set by pitch-loop stiffness is a small fact with a large generalisation behind it.
 
-The research literature on this subject is surveyed under The Contemporary Literature, chiefly in the cluster on relaxed static stability and the unstable airframe.
+Under The Contemporary Literature, the cluster on relaxed static stability and the unstable airframe carries this line of work forward.
 
 ## The Run of Four Purchased Designations Ends Here
 
 **The pattern named across the last four articles stops with this one, and the stopping is itself evidence.**
 
-- **X-25**, a commercially available autogyro bought to investigate a rescue concept.
-- **X-26**, a commercially available sailplane bought twice, for training and for quiet observation.
-- **X-27**, a manufacturer's private-venture export fighter that was never built at all.
-- **X-28**, a homebuilt sport flying boat bought off a private individual for five thousand dollars.
+- **[X-25][related_post_a322_bensen_x25]**, a civil autogyro design ordered in modified form to investigate a rescue concept.
+- **[X-26][related_post_a323_schweizer_x26]**, a commercially available sailplane bought twice, for training and for quiet observation.
+- **[X-27][related_post_a324_lockheed_x27]**, a manufacturer's private-venture export fighter that was never built at all.
+- **[X-28][related_post_a325_osprey_x28]**, a homebuilt sport flying boat bought off a private individual for five thousand dollars.
 - **X-29**, an aircraft designed and built to answer a question that could not be answered any other
   way.
 
 **Three of the first four already existed and were bought for properties they already had. The X-27 never existed. The fifth had to be created.**
 
-The X-29 is what the X-series was established for. A government agency identified a question, funded a
-purpose-built aeroplane, built two of them, flew them for years, and published the result.
-**That the series could still do this in 1984, after a decade in which the designation had been applied to catalogue purchases and unbuilt proposals, is a fact about the institution rather than about the aircraft.**
+The X-series was established for aircraft like the X-29. A government agency identified a question, funded a
+purpose-built aeroplane, built two of them, flew them for years, and published the result
+\[[Gelzer 2015][ref_gelzer_x29]\].
+**That the series could still do this in 1984, after a decade in which the designation had been applied to catalogue purchases and unbuilt proposals, is a fact about the institution, not the aircraft.**
 
 **This article does not claim the four before it were misuse.** Evaluating an existing aircraft against a
 requirement is research and it produced answers. The observation is narrower.
 **The designation had become capable of meaning either thing, and which one it meant in a given year depended on who was paying rather than on any property of the aircraft.**
-That belongs with the evidence the closing article of this series assembles, and it now has a run of four
+That observation joins the evidence the closing article of this series assembles, and it now has a run of four
 followed by a clean break behind it.
 
 ## The Contemporary Literature
@@ -1230,11 +1261,11 @@ destabilising aerodynamic coupling, which is the hardest case. Contemporary work
 gust load alleviation, for flutter margin, for manoeuvre load control and for structural weight, on wings
 whose sweep creates no divergence problem at all.
 
-**The optimisation framing is what changed.** The X-29's laminate was designed to satisfy a constraint.
+**The change is in the optimisation framing.** The X-29's laminate was designed to satisfy a constraint.
 Modern practice treats ply orientation as a continuous design variable inside a multidisciplinary
 optimisation, which makes the question not whether a coupling is achievable but what it is worth.
 
-The research records on this subject are gathered below in the cluster on aeroelastic tailoring and bend-twist coupling.
+The cluster on aeroelastic tailoring and bend-twist coupling below gathers these records.
 
 ### Very flexible aircraft made the X-29's problem general
 
@@ -1242,110 +1273,117 @@ The research records on this subject are gathered below in the cluster on aeroel
 High-aspect-ratio wings for efficiency, and the extreme case of solar-powered high-altitude platforms,
 deform enough that the rigid-body and elastic degrees of freedom cannot be separated.
 
-**That dissolves the distinction the X-29 was designed around.** Its divergence analysis treated the wing as
-elastic and the aircraft as rigid, and the two were coupled only through the trim condition. The modern
-formulation abandons the separation entirely, and body freedom flutter, which appears in the X-29's own
-nomenclature list, is the canonical example.
+**That dissolves the distinction the X-29 was designed around.** Its static divergence analysis treated the
+wing as elastic and the aircraft as rigid, although the programme also predicted and monitored body freedom
+flutter, a coupling of the wing's first bending mode with the short-period mode that was expected to act as a
+precursor to static divergence \[[Hicks and Matheny 1987][research_hicksjohnw_mathenyneilw_1987]\]. The modern formulation abandons the
+separation, and body freedom flutter, which appears in the nomenclature list of the X-29 reports, is the
+canonical example.
 
-The research records on this subject are gathered below in the cluster on flutter, gusts and very flexible aircraft.
+Its records are in the cluster on flutter, gusts and very flexible aircraft below.
 
 ### Control of unstable airframes became a solved problem and then a harder one
 
 **Nothing in the contemporary literature would regard a thirty-five percent negative static margin as remarkable**,
-which is the clearest measure of what the programme settled. What has replaced it is the question of doing
+the clearest measure of what the programme settled. What has replaced it is the question of doing
 the same thing with guarantees.
 
-**The X-29's control law was gain-scheduled, which is to say it was a family of linear designs stitched together.**
+**The X-29's control law was gain-scheduled, a family of linear designs stitched together.**
 Contemporary work asks for robustness certificates across the whole envelope, for adaptive laws that retain
 stability proofs, and for control allocation across redundant surfaces of the kind the X-29 had three of.
-**The X-29 has served as a benchmark for exactly this.** An adaptive augmentation study takes its lateral and
-directional dynamics as the test case precisely because they are difficult, in
+**The X-29 has served as a benchmark for this work.** An adaptive augmentation study takes its lateral and
+directional dynamics as the test case because they are difficult, in
 [Griffin et al 2010][research_griffinbrianjoseph_burkenjohnj_2010], and procedures for optimising its handling
 qualities and for closed-loop control of its forebody vortices appear in
 [Bosworth and Cox 1989][research_bosworth_cox_1989] and [Valasek and Downing 1995][research_valasek_downing_1995].
 
-The research records on this subject are gathered below in the cluster on flight control law design, the cluster on digital fly-by-wire, redundancy and fault tolerance and the cluster on relaxed static stability and the unstable airframe.
+The records for this subsection fall in three clusters below, on flight control law design, on digital fly-by-wire, redundancy and fault tolerance, and on relaxed static stability and the unstable airframe.
 
 ### Aeroservoelasticity became its own discipline
 
 **The interaction the X-29 encountered in flight now has a name, a literature and a place in the design process.**
 Structural modes inside the control bandwidth, notch filters that trade stability against delay, and the
 fact that a delay bought to suppress a structural mode is a delay taken from an unstable airframe's budget.
-**The X-29 had all three problems and met them one at a time in flight.**
+**The X-29 met the first of them in flight**, when a canard pitch-mode response was aliased by the digital
+sampling of the canard-position feedback loop \[[Kehoe et al 1990][research_kehoemichaelw_bjarkelisaj_1990]\].
 
 The research records on this subject are gathered below in the cluster on aeroservoelasticity and structural mode control.
 
 ### High angle of attack aerodynamics
 
-The second X-29A was devoted to high angle of attack work, and vortex flow control was tested on it.
+The second X-29A was devoted to high angle of attack work, and vortex flow control was tested on it
+\[[Gelzer 2015][ref_gelzer_x29]\] \[[Hancock and Fullerton 1992][research_hancockregis_fullertongordon_1992]\].
 **Contemporary work has moved from characterising the flow to controlling it**, with active flow control,
 and the computational methods that were merely supporting evidence for the X-29 now carry the prediction.
 
-The research records on this subject are gathered below in the cluster on high angle of attack and vortex flow.
+See the cluster on high angle of attack and vortex flow below.
 
 ### Composite structures and how they are certified
 
 **The X-29's wing skins were an early large primary composite structure on a research aircraft**, and the
 record's remark that strain-gauge equation accuracies on composite were typical of experience with metal is
-a small early data point in a large modern subject.
+a small early data point in a large modern subject \[[Sims et al 1989][research_simsrobert_mccrossonpaul_1989]\].
 
-The research records on this subject are gathered below in the cluster on composite structures, damage and certification.
+The certification literature is listed below in the cluster on composite structures, damage and certification.
 
 ### Transonic wing design is computed now
 
-**The Grumman K Mod 2 section was developed for a design competition and refined in tunnels.** Its modern
+**The Grumman K Mod 2 section was developed for a design competition** \[[Hicks and Huckabone 1989][research_hicksjohnw_huckabinethomas_1989]\]. Its modern
 equivalent is produced by optimisation against a computational model, and the shock position that the X-29's
 planform argument was built around is now an output rather than an input.
 
-The research records on this subject are gathered below in the cluster on transonic wing design and sweep and the cluster on aerostructural and aerodynamic design optimisation.
+Two clusters below hold this work, on transonic wing design and sweep and on aerostructural and aerodynamic design optimisation.
 
 ### Handling qualities of augmented aircraft
 
-**The X-29's flying qualities were the flying qualities of its control law**, which is true of every modern
-combat aircraft and was still novel enough in 1984 to require saying. The equivalent-system criteria and the
+**The X-29's flying qualities were the flying qualities of its control law**, as is true of every modern
+combat aircraft, and in 1984 the point was still novel enough to need saying. The equivalent-system criteria and the
 treatment of control system time delay that the contemporary literature uses were being worked out in the
-same decade.
+same decade \[[Bischoff 1983][research_bischoff_1983]\] \[[Berry et al 1982][research_berry_powers_1982]\].
 
-The research records on this subject are gathered below in the cluster on handling qualities and pilot-vehicle interaction.
+The cluster on handling qualities and pilot-vehicle interaction, below, lists the records.
 
 ### Five Subjects That Were Not Fields in 1984
 
 **The sections above track what happened to bodies of work the X-29 was part of.** The five that follow are
 different. They are subjects that barely existed when the aircraft flew and that now bear directly on the
-problems it was built to attack, which is the more useful half of a survey.
+problems it was built to attack. They make up the more useful half of a survey.
 
 ### Machine learning arrived in the middle of the problem
 
-**The X-29's predictions came from panel methods, wind tunnels and engineering judgement, and the gaps between them and flight are documented in this article.**
-Contemporary practice inserts a learned model at exactly those points, for unsteady aerodynamic prediction,
+**The X-29's predictions came from wind tunnels and computation, and the gaps between them and flight are documented in this article.**
+\[[Waggoner et al 1986][research_waggonereg_jennettla_1986]\] \[[Waggoner and Bates 1989][research_waggonereg_batesbl_1989]\]
+Contemporary practice inserts a learned model at those points, for unsteady aerodynamic prediction,
 for reduced-order models of the flow, and for surrogate models that make an optimisation affordable.
 
-**The relevant question is no longer whether these models are accurate but whether they can be trusted inside a control loop**,
-which is the same question the X-29's designers faced about their own reduced-order models and answered with
-a flight envelope and a great deal of instrumentation.
+**The relevant question is no longer whether these models are accurate but whether they can be trusted inside a control loop**.
+The X-29's designers faced that question about their reduced-order models and answered it with a flight
+envelope and a great deal of instrumentation.
 
-The research records on this subject are gathered below in the cluster on machine learning and data-driven modelling.
+Below, the cluster on machine learning and data-driven modelling collects this literature.
 
 ### Morphing structures are the tailoring idea carried further
 
 **Aeroelastic tailoring changes a wing's response to load by fixing its internal geometry once.** Morphing
 changes it while flying. The X-29's automatic camber control, which scheduled the flaperons as a function of
-flight condition, is a coarse ancestor of this, and the record's own description of it as
+flight condition, is a coarse ancestor of this, and the reports' description of it as
 **discrete variable camber** and as a low-cost alternative to smooth variable camber shows the designers
-knew exactly which approximation they were making.
+knew which approximation they were making \[[Hicks and Matheny 1987][research_hicksjohnw_mathenyneilw_1987]\]
+\[[Sims et al 1989][research_simsrobert_mccrossonpaul_1989]\].
 
-The research records on this subject are gathered below in the cluster on morphing and adaptive structures.
+Morphing research is gathered in the cluster on morphing and adaptive structures below.
 
 ### The structure now carries a model of itself
 
-**The X-29A had 691 measured parameters, no onboard recording, and a ground station that computed the wing's divergence estimate after the flight.**
+**The X-29A had 691 measured parameters and no onboard recording, so its divergence estimate could only be computed on the ground from telemetered data.**
+\[[Hicks and Matheny 1987][research_hicksjohnw_mathenyneilw_1987]\]
 The modern version of that arrangement keeps a structural model current against sensor data continuously,
 under the names structural health monitoring, model updating and digital twin.
 
 **The X-29's Southwell analysis is a small early instance of the same idea**, since it inferred a structural
 property the aircraft could not be flown to from measurements taken well below it.
 
-The research records on this subject are gathered below in the cluster on structural health monitoring and the digital twin.
+The cluster on structural health monitoring and the digital twin holds the corresponding records.
 
 ### Manufacture changed which shapes are affordable
 
@@ -1353,15 +1391,15 @@ The research records on this subject are gathered below in the cluster on struct
 Additive manufacture and topology optimisation together relax that constraint, and the literature on
 designing for them rather than merely with them is substantial.
 
-The research records on this subject are gathered below in the cluster on topology optimisation and additive manufacture.
+That literature appears below as the cluster on topology optimisation and additive manufacture.
 
 ### Uncertainty became something computed rather than covered
 
-**This is the contemporary subject that bears most directly on the X-29's keystone.**
+**Of the contemporary subjects, this one bears most directly on the X-29's keystone.**
 
 The X-29 handled uncertainty in its divergence boundary the way its era did, with a margin. The margin was a
 factor of 2.667 in dynamic pressure, the flight data then indicated the real boundary was lower than
-predicted, and the margin absorbed the error.
+predicted, and the margin absorbed the error \[[Hicks and Matheny 1987][research_hicksjohnw_mathenyneilw_1987]\].
 **The margin was doing the work that a probability distribution does now.**
 
 Contemporary practice computes a probabilistic flutter or divergence margin, propagates uncertainty in
@@ -1370,7 +1408,7 @@ factor. **Applied to this aircraft it would have answered the question the fligh
 how much of the discrepancy between predicted and measured divergence speed was model error and how much was
 measurement error.
 
-The research records on this subject are gathered below in the cluster on uncertainty quantification and reliability.
+Probabilistic margins and reliability methods make up the cluster on uncertainty quantification and reliability below.
 
 ### Flight control law design
 
@@ -1414,7 +1452,7 @@ Handling and flying qualities criteria for augmented aircraft, pilot-induced osc
 
 The aircraft's own reports, and the forward-swept wing as a configuration, in the tunnel, in computation and in flight.
 
-**175 records.** \[[Abed et al 2024][research_abed_alhamadani_2024]\] \[[Adegbindin et al 2016][research_adegbindin_love_2016]\] \[[Ahmadi 1988][research_aliahmadi_1988]\] \[[Ashworth et al 1986][research_ashworth_waltrip_1986]\] \[[Ashworth et al 1988][research_ashworth_mouch_1988]\] \[[Bach et al 2016][research_bach_jebari_2016]\] \[[Bauer et al 1995][research_bauer_clarke_1995]\] \[[Baumgärtner et al 2016][research_baumgartner_viti_2016]\] \[[Bjarke et al 1992][research_bjarke_delfrate_1992]\] \[[Bosworth 1992][research_bosworth_1992]\] \[[Bosworth and Cox 1989][research_bosworth_cox_1989]\] \[[Bowers 1981][research_bowers_1981]\] \[[Bowers 1984][research_bowers_1984]\] \[[Breitsamter and Laschka 2001][research_breitsamter_laschka_2001]\] \[[Budd 1984][research_budd_1984]\] \[[Budd 1987][research_budd_1987]\] \[[Calico and Fuller 1981][research_calico_fuller_1981]\] \[[Capone 1981][research_caponefj_1981]\] \[[Chacon and McBride 1988][research_chacon_mcbride_1988]\] \[[Chacon and McBride 1990][research_chacon_mcbride_1990]\] \[[Chen and Dugundji 1987][research_chen_dugundji_1987]\] \[[Chin et al 1982][research_chin_berman_1982]\] \[[Chin et al 1987][research_chinj_chaconv_1987]\] \[[Chipman et al 1984][research_chipmanr_rauchf_1984]\] \[[Chipman et al 1985][research_chipmanr_rauchf_1985]\] \[[Choosak Ngaongam and Rapee Ujjin 2024][research_choosakngaongam_rapeeujjin_2024]\] \[[Clarke et al 1994][research_clarkerobert_burkenjohnj_1994]\] \[[Coe et al 1990][research_coepaulljr_perkinsjohnn_1990]\] \[[Collins 1988][research_collins_1988]\] \[[Cotton and Bjarke 1994][research_cotton_bjarke_1994]\] \[[Croom et al 1988][research_croommarka_whippleraymondd_1988]\] \[[Curry et al 1989][research_curry_moulton_1989]\] \[[Curry et al 1990][research_curry_moulton_1990]\] \[[Dawson and Fortin 1987][research_dawson_fortin_1987]\] \[[Deandrea et al 1991][research_deandrea_roache_1991]\] \[[Del Frate 1992][research_delfrate_1992]\] \[[Delfrate and Saltzman 1992][research_delfrate_saltzman_1992]\] \[[Dillinger et al 2019][research_dillinger_abdalla_2019]\] \[[Doggett and Ricketts 1980][research_doggett_ricketts_1980]\] \[[Earls and Sitz 1989][research_earls_sitz_1989]\] \[[Fehrs and Kaiser 2025][research_fehrs_kaiser_2025]\] \[[Fisher et al 1992][research_fisher_richwine_1992]\] \[[Fratello et al 1987][research_fratello_croom_1987]\] \[[Frei 1982][research_frei_1982]\] \[[Gera 1986][research_gera_1986]\] \[[Gera et al 1987][research_gera_andrisani_1987]\] \[[Gera et al 1989][research_gera_andrisani_1989]\] \[[Gilbert et al 1984][research_gilbert_schmidt_1984]\] \[[Goradia et al 1989][research_goradiash_bobbittpj_1989]\] \[[Grafton et al 1982][research_graftonsb_gilberwp_1982]\] \[[Griffin et al 1983][research_griffin_haerter_1983]\] \[[Griffin et al 2010][research_griffinbrianjoseph_burkenjohnj_2010]\] \[[Guo et al 1988][research_guo_wang_1988]\] \[[Haase et al][research_haase_aslund]\] \[[Hancock and Fullerton 1992][research_hancockregis_fullertongordon_1992]\] \[[Hertz et al 1982][research_hertztj_shirkmh_1982]\] \[[Hicks and Huckabine 1989][research_hicksjohnw_huckabinethomas_1989]\] \[[Hicks and Matheny 1987][research_hicksjohnw_mathenyneilw_1987]\] \[[Hicks and Matheny 1989][research_hicksjohnw_mathenyneilw_1989]\] \[[Hicks and Moulton 1988][research_hicksjohnw_moultonbryanj_1988]\] \[[Hicks and Petersen 1988][research_hicksjohnw_petersenkevinl_1988]\] \[[Hicks and Petersen 1989][research_hicksjohnw_petersenkevinl_1989]\] \[[Hicks et al 1987][research_hicksjohnw_cooperjamesmjr_1987]\] \[[Hicks et al 1987][research_hicksjohnw_kaniajan_1987]\] \[[Iliff and Wang 1996][research_iliff_wang_1996]\] \[[Ishmael and Wierzbanowski 1985][research_ishmaelsd_wierzbanowskit_1985]\] \[[Ishmael et al 1990][research_ishmaelstephend_smithrogerse_1990]\] \[[Jackuliak and Bugaj 2026][research_jackuliak_bugaj_2026]\] \[[Jiang et al 2011][research_jiang_zhang_2011]\] \[[Hicks et al 1987][research_johnwhicks_jankania_1987]\] \[[Jun-yi et al 2021][research_junyi_xinbing_2021]\] \[[Kanazaki and Setoguchi 2023][research_kanazaki_setoguchi_2023]\] \[[Kehoe et al 1990][research_kehoemichaelw_bjarkelisaj_1990]\] \[[Keller 2019][research_keller_2019]\] \[[Kishi et al 2022][research_kishi_kanazaki_2022]\] \[[Klafin 1988][research_klafin_1988]\] \[[Kohara et al 2016][research_kohara_tomoeda_2016]\] \[[Krone 1980][research_krone_1980_b]\] \[[Krone 1980][research_krone_1980]\] \[[Krüger et al 2014][research_kruger_klimmek_2014]\] \[[Landsberger and Dugundji 1985][research_landsberger_dugundji_1985]\] \[[Lee and Ko 2009][research_lee_ko_2009]\] \[[Li 2023][research_li_2023]\] \[[Li et al 2019][research_li_qian_2019]\] \[[Librescu and Thangjitham 1988][research_librescu_thangjitham_1988]\] \[[Librescu and Thangjitham 1989][research_librescu_thangjitham_1989]\] \[[Librescu and Thangjitham 1991][research_librescu_thangjitham_1991]\] \[[Lokos 1990][research_lokoswilliama_1990]\] \[[Lombardi and Morelli 1994][research_lombardi_morelli_1994]\] \[[Lombardi et al 1996][research_lombardi_morelli_1996]\] \[[Lombardi et al 1997][research_lombardi_salvetti_1997]\] \[[Mann and Mercer 1985][research_mannmj_mercerce_1985]\] \[[Mann and Mercer 1986][research_mannmj_mercerce_1986]\] \[[Marske 1975][research_marske_1975]\] \[[Mason and Capone 1983][research_masonml_caponefj_1983]\] \[[McCormack and Stevens 1947][research_mccormack_stevens_1947]\] \[[Miller 1983][research_miller_1983]\] \[[Miller 1986][research_miller_1986]\] \[[Miller et al 1983][research_miller_wykes_1983]\] \[[Miyakawa et al 1991][research_miyakawa_ohnuki_1991]\] \[[Moore and Frei 1983][research_moore_frei_1983]\] \[[Mourey 1979][research_moureydj_1979]\] \[[Murri et al 1983][research_murridg_croomma_1983]\] \[[Murri et al 1984][research_murridg_nguyenlt_1984]\] \[[Nangia and Palmer 2002][research_nangia_palmer_2002]\] \[[nath and ana 2017][research_nath_ana_2017]\] \[[Noll et al 1984][research_noll_eastep_1984]\] \[[Ouyang et al 2021][research_ouyang_zeng_2021]\] \[[Owens and Perkins 1996][research_owens_perkins_1996]\] \[[Oyibo 1984][research_oyibo_1984]\] \[[Puthisikamani et al 2023][research_puthisikamani_sreenivasaraja_2023]\] \[[Putnam 1983][research_putnamtw_1983]\] \[[Putnam 1984][research_putnamtw_1984]\] \[[Putnam 1984][research_putnamtw_1984_b]\] \[[Putnam et al 1986][research_putnamtw_petersenkl_1986]\] \[[Raney and Batterson 1989][research_raney_batterson_1989]\] \[[Raney 1987][research_raneydavidl_1987]\] \[[Ray et al 1988][research_ray_hicks_1988]\] \[[Ray et al 1990][research_ray_hicks_1990]\] \[[Redeker and Wichmann 1991][research_redeker_wichmann_1991]\] \[[Rhodes and Selberg 1982][research_rhodesmd_selbergbp_1982]\] \[[Rimer et al 1986][research_rimer_chipman_1986]\] \[[Rimer et al 1984][research_rimerm_chipmanr_1984]\] \[[Robinson and Robinson 1980][research_robinson_robinson_1980]\] \[[Rongrong et al 2018][research_rongrong_zhengyin_2018]\] \[[Ross 1984][research_ross_1984]\] \[[Ross and Matarazzo 1982][research_ross_matarazzo_1982]\] \[[Russo et al 1986][research_russo_healy_1986]\] \[[Saheby et al 2026][research_saheby_jialu_2026]\] \[[Saltzman et al 1994][research_saltzmanedwinj_hicksjohnw_1994]\] \[[Sefic and Cutler 1986][research_sefic_cutler_1986]\] \[[Sefic and Maxwell 1986][research_sefic_maxwell_1986]\] \[[Sefic and Maxwell 1987][research_sefic_maxwell_1987]\] \[[Seitz et al 2019][research_seitz_hubner_2019]\] \[[Setoguchi and Kanazaki 2020][research_setoguchi_kanazaki_2020]\] \[[Sharif et al 2022][research_sharif_abbas_2022]\] \[[Sims et al 1989][research_simsrobert_mccrossonpaul_1989]\] \[[Smith and Schroeder 1986][research_smithrogerse_schroederkurtc_1986]\] \[[Spacht 1980][research_spacht_1980]\] \[[Stewart and Bauer 1983][research_stewart_bauer_1983]\] \[[Takahashi et al 2019][research_takahashi_boccieri_2019]\] \[[Taufik and Qasem 2025][research_taufik_qasem_2025]\] \[[Triplett 1980][research_triplett_1980_b]\] \[[Trippensee 1991][research_trippensee_1991]\] \[[Trippensee and Lux 1987][research_trippenseegarya_luxdavidp_1987]\] \[[Trippensee and Lux 1988][research_trippenseegarya_luxdavidp_1988]\] \[[Underwood et al 2003][research_underwoodpamelaj_owenslewisr_2003]\] \[[Valasek and Downing 1995][research_valasek_downing_1995]\] \[[Voracek 1990][research_voracek_1990]\] \[[Voracek and Clarke 1994][research_voracek_clarke_1994]\] \[[Voracek and Clarke 1991][research_voracekdavidf_clarkerobert_1991]\] \[[Waggoner and Bates 1989][research_waggonereg_batesbl_1989]\] \[[Waggoner et al 1986][research_waggonereg_jennettla_1986]\] \[[Walchli et al 1992][research_walchli_guyton_1992]\] \[[Wang et al 2006][research_wang_zhan_2006]\] \[[Wang et al 2017][research_wang_su_2017]\] \[[Wang et al 2018][research_wang_su_2018]\] \[[Wang et al 2025][research_wang_wang_2025_b]\] \[[Wauters 2022][research_wauters_2022]\] \[[Weisshaar 1978][research_weisshaar_1978]\] \[[Weisshaar 1979][research_weisshaar_1979]\] \[[Weisshaar 1985][research_weisshaar_1985]\] \[[Weisshaar and Zeiler 1983][research_weisshaar_zeiler_1983]\] \[[Weisshaar 1983][research_weisshaarta_1983]\] \[[Weisshaar and Zeiler 1982][research_weisshaarta_zeilerta_1982]\] \[[Wissler et al 1987][research_wissler_gilliam_1987]\] \[[X-29 Experiment in Flight 1991][research_x_29_experiment_1991]\] \[[X-29 Research Aircraft 1991][research_x_29_research_1991]\] \[[Xinbing et al 2020][research_xinbing_wen_2020]\] \[[Xue et al 2019][research_xue_ye_2019]\] \[[Yang and Przekwas 1993][research_yang_przekwas_1993]\] \[[Yeh 1988][research_yeh_1988]\] \[[Yeh 1988][research_yeh_1988_b]\] \[[Yeh and Yeh 1989][research_yeh_yeh_1989]\] \[[Zhang et al 2013][research_zhang_yu_2013]\]
+**175 records.** \[[Abed et al 2024][research_abed_alhamadani_2024]\] \[[Adegbindin et al 2016][research_adegbindin_love_2016]\] \[[Ahmadi 1988][research_aliahmadi_1988]\] \[[Ashworth et al 1986][research_ashworth_waltrip_1986]\] \[[Ashworth et al 1988][research_ashworth_mouch_1988]\] \[[Bach et al 2016][research_bach_jebari_2016]\] \[[Bauer et al 1995][research_bauer_clarke_1995]\] \[[Baumgärtner et al 2016][research_baumgartner_viti_2016]\] \[[Bjarke et al 1992][research_bjarke_delfrate_1992]\] \[[Bosworth 1992][research_bosworth_1992]\] \[[Bosworth and Cox 1989][research_bosworth_cox_1989]\] \[[Bowers 1981][research_bowers_1981]\] \[[Bowers 1984][research_bowers_1984]\] \[[Breitsamter and Laschka 2001][research_breitsamter_laschka_2001]\] \[[Budd 1984][research_budd_1984]\] \[[Budd 1987][research_budd_1987]\] \[[Calico and Fuller 1981][research_calico_fuller_1981]\] \[[Capone 1981][research_caponefj_1981]\] \[[Chacon and McBride 1988][research_chacon_mcbride_1988]\] \[[Chacon and McBride 1990][research_chacon_mcbride_1990]\] \[[Chen and Dugundji 1987][research_chen_dugundji_1987]\] \[[Chin et al 1982][research_chin_berman_1982]\] \[[Chin et al 1987][research_chinj_chaconv_1987]\] \[[Chipman et al 1984][research_chipmanr_rauchf_1984]\] \[[Chipman et al 1985][research_chipmanr_rauchf_1985]\] \[[Choosak Ngaongam and Rapee Ujjin 2024][research_choosakngaongam_rapeeujjin_2024]\] \[[Clarke et al 1994][research_clarkerobert_burkenjohnj_1994]\] \[[Coe et al 1990][research_coepaulljr_perkinsjohnn_1990]\] \[[Collins 1988][research_collins_1988]\] \[[Cotton and Bjarke 1994][research_cotton_bjarke_1994]\] \[[Croom et al 1988][research_croommarka_whippleraymondd_1988]\] \[[Curry et al 1989][research_curry_moulton_1989]\] \[[Curry et al 1990][research_curry_moulton_1990]\] \[[Dawson and Fortin 1987][research_dawson_fortin_1987]\] \[[Deandrea et al 1991][research_deandrea_roache_1991]\] \[[Del Frate 1992][research_delfrate_1992]\] \[[Delfrate and Saltzman 1992][research_delfrate_saltzman_1992]\] \[[Dillinger et al 2019][research_dillinger_abdalla_2019]\] \[[Doggett and Ricketts 1980][research_doggett_ricketts_1980]\] \[[Earls and Sitz 1989][research_earls_sitz_1989]\] \[[Fehrs and Kaiser 2025][research_fehrs_kaiser_2025]\] \[[Fisher et al 1992][research_fisher_richwine_1992]\] \[[Fratello et al 1987][research_fratello_croom_1987]\] \[[Frei 1982][research_frei_1982]\] \[[Gera 1986][research_gera_1986]\] \[[Gera et al 1987][research_gera_andrisani_1987]\] \[[Gera et al 1989][research_gera_andrisani_1989]\] \[[Gilbert et al 1984][research_gilbert_schmidt_1984]\] \[[Goradia et al 1989][research_goradiash_bobbittpj_1989]\] \[[Grafton et al 1982][research_graftonsb_gilberwp_1982]\] \[[Griffin et al 1983][research_griffin_haerter_1983]\] \[[Griffin et al 2010][research_griffinbrianjoseph_burkenjohnj_2010]\] \[[Guo et al 1988][research_guo_wang_1988]\] \[[Haase et al][research_haase_aslund]\] \[[Hancock and Fullerton 1992][research_hancockregis_fullertongordon_1992]\] \[[Hertz et al 1982][research_hertztj_shirkmh_1982]\] \[[Hicks and Huckabone 1989][research_hicksjohnw_huckabinethomas_1989]\] \[[Hicks and Matheny 1987][research_hicksjohnw_mathenyneilw_1987]\] \[[Hicks and Matheny 1989][research_hicksjohnw_mathenyneilw_1989]\] \[[Hicks and Moulton 1988][research_hicksjohnw_moultonbryanj_1988]\] \[[Hicks and Petersen 1988][research_hicksjohnw_petersenkevinl_1988]\] \[[Hicks and Petersen 1989][research_hicksjohnw_petersenkevinl_1989]\] \[[Hicks et al 1987][research_hicksjohnw_cooperjamesmjr_1987]\] \[[Hicks et al 1987][research_hicksjohnw_kaniajan_1987]\] \[[Iliff and Wang 1996][research_iliff_wang_1996]\] \[[Ishmael and Wierzbanowski 1985][research_ishmaelsd_wierzbanowskit_1985]\] \[[Ishmael et al 1990][research_ishmaelstephend_smithrogerse_1990]\] \[[Jackuliak and Bugaj 2026][research_jackuliak_bugaj_2026]\] \[[Jiang et al 2011][research_jiang_zhang_2011]\] \[[Hicks et al 1987][research_johnwhicks_jankania_1987]\] \[[Jun-yi et al 2021][research_junyi_xinbing_2021]\] \[[Kanazaki and Setoguchi 2023][research_kanazaki_setoguchi_2023]\] \[[Kehoe et al 1990][research_kehoemichaelw_bjarkelisaj_1990]\] \[[Keller 2019][research_keller_2019]\] \[[Kishi et al 2022][research_kishi_kanazaki_2022]\] \[[Klafin 1988][research_klafin_1988]\] \[[Kohara et al 2016][research_kohara_tomoeda_2016]\] \[[Krone 1980][research_krone_1980_b]\] \[[Krone 1980][research_krone_1980]\] \[[Krüger et al 2014][research_kruger_klimmek_2014]\] \[[Landsberger and Dugundji 1985][research_landsberger_dugundji_1985]\] \[[Lee and Ko 2009][research_lee_ko_2009]\] \[[Li 2023][research_li_2023]\] \[[Li et al 2019][research_li_qian_2019]\] \[[Librescu and Thangjitham 1988][research_librescu_thangjitham_1988]\] \[[Librescu and Thangjitham 1989][research_librescu_thangjitham_1989]\] \[[Librescu and Thangjitham 1991][research_librescu_thangjitham_1991]\] \[[Lokos 1990][research_lokoswilliama_1990]\] \[[Lombardi and Morelli 1994][research_lombardi_morelli_1994]\] \[[Lombardi et al 1996][research_lombardi_morelli_1996]\] \[[Lombardi et al 1997][research_lombardi_salvetti_1997]\] \[[Mann and Mercer 1985][research_mannmj_mercerce_1985]\] \[[Mann and Mercer 1986][research_mannmj_mercerce_1986]\] \[[Marske 1975][research_marske_1975]\] \[[Mason and Capone 1983][research_masonml_caponefj_1983]\] \[[McCormack and Stevens 1947][research_mccormack_stevens_1947]\] \[[Miller 1983][research_miller_1983]\] \[[Miller 1986][research_miller_1986]\] \[[Miller et al 1983][research_miller_wykes_1983]\] \[[Miyakawa et al 1991][research_miyakawa_ohnuki_1991]\] \[[Moore and Frei 1983][research_moore_frei_1983]\] \[[Mourey 1979][research_moureydj_1979]\] \[[Murri et al 1983][research_murridg_croomma_1983]\] \[[Murri et al 1984][research_murridg_nguyenlt_1984]\] \[[Nangia and Palmer 2002][research_nangia_palmer_2002]\] \[[nath and ana 2017][research_nath_ana_2017]\] \[[Noll et al 1984][research_noll_eastep_1984]\] \[[Ouyang et al 2021][research_ouyang_zeng_2021]\] \[[Owens and Perkins 1996][research_owens_perkins_1996]\] \[[Oyibo 1984][research_oyibo_1984]\] \[[Puthisikamani et al 2023][research_puthisikamani_sreenivasaraja_2023]\] \[[Putnam 1983][research_putnamtw_1983]\] \[[Putnam 1984][research_putnamtw_1984]\] \[[Putnam 1984][research_putnamtw_1984_b]\] \[[Putnam et al 1986][research_putnamtw_petersenkl_1986]\] \[[Raney and Batterson 1989][research_raney_batterson_1989]\] \[[Raney 1987][research_raneydavidl_1987]\] \[[Ray et al 1988][research_ray_hicks_1988]\] \[[Ray et al 1990][research_ray_hicks_1990]\] \[[Redeker and Wichmann 1991][research_redeker_wichmann_1991]\] \[[Rhodes and Selberg 1982][research_rhodesmd_selbergbp_1982]\] \[[Rimer et al 1986][research_rimer_chipman_1986]\] \[[Rimer et al 1984][research_rimerm_chipmanr_1984]\] \[[Robinson and Robinson 1980][research_robinson_robinson_1980]\] \[[Rongrong et al 2018][research_rongrong_zhengyin_2018]\] \[[Ross 1984][research_ross_1984]\] \[[Ross and Matarazzo 1982][research_ross_matarazzo_1982]\] \[[Russo et al 1986][research_russo_healy_1986]\] \[[Saheby et al 2026][research_saheby_jialu_2026]\] \[[Saltzman et al 1994][research_saltzmanedwinj_hicksjohnw_1994]\] \[[Sefic and Cutler 1986][research_sefic_cutler_1986]\] \[[Sefic and Maxwell 1986][research_sefic_maxwell_1986]\] \[[Sefic and Maxwell 1987][research_sefic_maxwell_1987]\] \[[Seitz et al 2019][research_seitz_hubner_2019]\] \[[Setoguchi and Kanazaki 2020][research_setoguchi_kanazaki_2020]\] \[[Sharif et al 2022][research_sharif_abbas_2022]\] \[[Sims et al 1989][research_simsrobert_mccrossonpaul_1989]\] \[[Smith and Schroeder 1986][research_smithrogerse_schroederkurtc_1986]\] \[[Spacht 1980][research_spacht_1980]\] \[[Stewart and Bauer 1983][research_stewart_bauer_1983]\] \[[Takahashi et al 2019][research_takahashi_boccieri_2019]\] \[[Taufik and Qasem 2025][research_taufik_qasem_2025]\] \[[Triplett 1980][research_triplett_1980_b]\] \[[Trippensee 1991][research_trippensee_1991]\] \[[Trippensee and Lux 1987][research_trippenseegarya_luxdavidp_1987]\] \[[Trippensee and Lux 1988][research_trippenseegarya_luxdavidp_1988]\] \[[Underwood et al 2003][research_underwoodpamelaj_owenslewisr_2003]\] \[[Valasek and Downing 1995][research_valasek_downing_1995]\] \[[Voracek 1990][research_voracek_1990]\] \[[Voracek and Clarke 1994][research_voracek_clarke_1994]\] \[[Voracek and Clarke 1991][research_voracekdavidf_clarkerobert_1991]\] \[[Waggoner and Bates 1989][research_waggonereg_batesbl_1989]\] \[[Waggoner et al 1986][research_waggonereg_jennettla_1986]\] \[[Walchli et al 1992][research_walchli_guyton_1992]\] \[[Wang et al 2006][research_wang_zhan_2006]\] \[[Wang et al 2017][research_wang_su_2017]\] \[[Wang et al 2018][research_wang_su_2018]\] \[[Wang et al 2025][research_wang_wang_2025_b]\] \[[Wauters 2022][research_wauters_2022]\] \[[Weisshaar 1978][research_weisshaar_1978]\] \[[Weisshaar 1979][research_weisshaar_1979]\] \[[Weisshaar 1985][research_weisshaar_1985]\] \[[Weisshaar and Zeiler 1983][research_weisshaar_zeiler_1983]\] \[[Weisshaar 1983][research_weisshaarta_1983]\] \[[Weisshaar and Zeiler 1982][research_weisshaarta_zeilerta_1982]\] \[[Wissler et al 1987][research_wissler_gilliam_1987]\] \[[X-29 Experiment in Flight 1991][research_x_29_experiment_1991]\] \[[X-29 Research Aircraft 1991][research_x_29_research_1991]\] \[[Xinbing et al 2020][research_xinbing_wen_2020]\] \[[Xue et al 2019][research_xue_ye_2019]\] \[[Yang and Przekwas 1993][research_yang_przekwas_1993]\] \[[Yeh 1988][research_yeh_1988]\] \[[Yeh 1988][research_yeh_1988_b]\] \[[Yeh and Yeh 1989][research_yeh_yeh_1989]\] \[[Zhang et al 2013][research_zhang_yu_2013]\]
 
 **Of the 175 records, 74 titles name the X-29, published from 1982 to 2010, and 65 of those are report primaries.** Of all 175 records, 88 date from 1985 to 1995, the years of the flight programme and its reports.
 
@@ -1542,11 +1580,11 @@ Manoeuvre performance, agility, energy methods and the minimum-time climb.
 
 **The keystone inversion rests on a single quoted figure, and the figure is a prediction rather than a measurement.**
 The elastic-to-rigid ratio of 1.6 is described in the source as predicted, so the divergence dynamic
-pressure derived from it is the boundary the designers believed in and not the one the aircraft had. The
-flight record says the real boundary was lower.
-**Every number in this article that descends from 4,533 pounds per square foot inherits that, and the Southwell sensitivity analysis is the one place where it matters most, because it uses the same figure to describe how well the figure could have been measured.**
+pressure derived from it is the boundary the designers believed in and not the one the aircraft had \[[Sims et al 1989][research_simsrobert_mccrossonpaul_1989]\]. The
+flight record says the real boundary was lower \[[Hicks and Matheny 1987][research_hicksjohnw_mathenyneilw_1987]\].
+**Every number in this article that descends from 4,533 pounds per square foot inherits that, and it matters most in the Southwell sensitivity analysis, because that analysis uses the same figure to describe how well the figure could have been measured.**
 
-**The elasticity derived earlier turns that rounding into a number rather than a worry.**
+**The elasticity derived earlier puts a number on that rounding.**
 
 $$ \frac{\Delta q_D}{q_D} \approx -\frac{1}{r-1}\cdot\frac{\Delta r}{r} = -1.667 \times \left(\pm\frac{0.05}{1.6}\right) = \mp 5.2\ \mathrm{percent} $$
 
@@ -1555,8 +1593,8 @@ $$ \frac{\Delta q_D}{q_D} \approx -\frac{1}{r-1}\cdot\frac{\Delta r}{r} = -1.667
 two significant figures. The margin of 2.667 is really a margin between about 2.54 and 2.82.
 
 **The two-mode structural model is a scaling argument and nothing more.** It uses strip theory, neglects
-compressibility, neglects the canard's downwash entirely on a wing whose inboard loading the primary record
-says is dominated by exactly that, and assumes a uniform wing where the real structural box transitions from
+compressibility, neglects the canard's downwash entirely on a wing whose inboard loading is
+strongly influenced by that downwash \[[Sims et al 1989][research_simsrobert_mccrossonpaul_1989]\], and assumes a uniform wing where the real structural box transitions from
 unswept to swept. **Its absolute numbers are meaningless and are never quoted.** The results taken from it
 are the sweep trend, the coupling requirement and the elimination threshold, all of which are ratios.
 
@@ -1568,7 +1606,8 @@ behind the transonic argument is likewise assumed. Both are stated in their tabl
 reason.
 
 **The aircraft was not asked the question that would have tested the planform hardest.** The supersonic drag
-was never measured during the phase reported here, because the engine was not thrust-calibrated. The
+was never measured during the phase reported here, because afterburner fuel flow was not instrumented
+\[[Hicks and Huckabone 1989][research_hicksjohnw_huckabinethomas_1989]\]. The
 forward-swept wing's transonic case therefore rests on subsonic polar data and on tunnel work.
 
 **And the largest limitation is not technical.** The programme was a success by its own criteria and the
@@ -1588,8 +1627,9 @@ reverse of the X-27 and the X-28, whose designations carry essentially no litera
 evidence lies in the physics beneath them.
 
 **Two primary documents carry most of the quantitative content of this article.** The preliminary flight
-assessment supplies the geometry, the control system description, the static margin, the update rate and the
-Southwell application. The structural loads flight testing paper supplies the structural axis sweep, the
+assessment supplies the control system description, the static margin, the update rate and the
+Southwell application. The structural loads flight testing paper supplies the planform geometry, which the
+flight test overview of [Hicks and Huckabone 1989][research_hicksjohnw_huckabinethomas_1989] also gives, the structural axis sweep, the
 elastic-to-rigid ratio, the design dynamic pressure and the canard torsion axis location.
 **The keystone result exists because those two figures appear in the same paragraph of the same report.**
 
@@ -1650,40 +1690,45 @@ well-documented body of work.
 
 **Historical fact, well attested.**
 
-- The Defense Advanced Research Projects Agency began the X-29A project in 1977.
+- The Defense Advanced Research Projects Agency began the X-29A project in 1977 \[[Hicks and Matheny 1987][research_hicksjohnw_mathenyneilw_1987]\].
 - The aircraft was designed and built by the Grumman Aerospace Corporation and flown at the Dryden
-  Flight Research Facility.
-- Two aircraft were built, the first flying on 14 December 1984.
+  Flight Research Facility \[[Hicks and Matheny 1987][research_hicksjohnw_mathenyneilw_1987]\].
+- Two aircraft were built, the first flying on 14 December 1984 \[[Hicks and Matheny 1987][research_hicksjohnw_mathenyneilw_1987]\] \[[Gelzer 2015][ref_gelzer_x29]\].
 - The wing has a leading edge swept 29.3 degrees forward, a structural axis swept 36.2 degrees forward,
-  an aspect ratio of 4.0 and a reference area of 188.84 square feet.
+  an aspect ratio of 4.0 and a trapezoidal reference area of 185 square feet \[[Hicks and Huckabone 1989][research_hicksjohnw_huckabinethomas_1989]\]
+  \[[Sims et al 1989][research_simsrobert_mccrossonpaul_1989]\]. The wing area of 188.84 square feet used for the ratios in this article comes from
+  the encyclopaedia entry alone \[[Grumman X-29][ref_x29]\].
 - The wing skins are graphite-epoxy composite, aeroelastically tailored to inhibit structural
-  divergence.
+  divergence \[[Hicks and Matheny 1987][research_hicksjohnw_mathenyneilw_1987]\].
 - The static margin is nominally 35 percent negative subsonically, and the instability is created by
-  the canard rather than by the wing.
+  the canard rather than by the wing \[[Hicks and Matheny 1987][research_hicksjohnw_mathenyneilw_1987]\] \[[Sims et al 1989][research_simsrobert_mccrossonpaul_1989]\].
 - The flight control system is triplex digital fly-by-wire updating at 40 hertz, with digital and
-  analog reversionary modes.
+  analog reversionary modes \[[Hicks and Matheny 1987][research_hicksjohnw_mathenyneilw_1987]\].
 - Pitch control is by three surfaces, namely the all-moving canard, the dual-hinged full-span
-  flaperons, and the aft strake flaps.
-- The canard area is 20 percent of the wing reference area.
+  flaperons, and the aft strake flaps \[[Hicks and Matheny 1987][research_hicksjohnw_mathenyneilw_1987]\].
+- The canard area is 20 percent of the wing reference area \[[Sims et al 1989][research_simsrobert_mccrossonpaul_1989]\].
 - The airframe reuses the forward fuselage and nose gear of an F-5A, the main landing gear and
-  servo-actuators of an F-16, and F-14 avionics.
-- Envelope expansion was completed in 84 flights over two years.
-- The Southwell technique was applied to flight test data for the first time on this aircraft.
+  servo-actuators of an F-16, and F-14 avionics \[[Hicks and Huckabone 1989][research_hicksjohnw_huckabinethomas_1989]\].
+- Envelope expansion was completed in 84 flights over two years \[[Hicks and Matheny 1987][research_hicksjohnw_mathenyneilw_1987]\].
+- The Southwell technique was applied to flight test data for the first time on this aircraft \[[Hicks and Matheny 1987][research_hicksjohnw_mathenyneilw_1987]\].
 
 **Reported in the primary literature and taken as given here.**
 
 - That the predicted elastic-to-rigid wing lift-curve-slope ratio was about 1.6 at the design dynamic
-  pressure of 1,700 pounds per square foot.
+  pressure of 1,700 pounds per square foot \[[Sims et al 1989][research_simsrobert_mccrossonpaul_1989]\].
 - That induced drag in flight was as much as 20 percent below wind tunnel estimates above a lift
-  coefficient of 0.8.
+  coefficient of 0.8 \[[Hicks and Huckabone 1989][research_hicksjohnw_huckabinethomas_1989]\].
 - That the flight-estimated divergence speed was lower than predicted but remained outside the flight
-  envelope.
-- That canard torsion loads exceeded predictions transonically and were not fully understood.
-- That the tailored skins carried an insignificant weight penalty over the basic strength design.
+  envelope \[[Hicks and Matheny 1987][research_hicksjohnw_mathenyneilw_1987]\].
+- That canard torsion loads exceeded predictions transonically and were not fully understood \[[Hicks and Matheny 1987][research_hicksjohnw_mathenyneilw_1987]\].
+- That the tailored skins carried an insignificant weight penalty over the basic strength design \[[Sims et al 1989][research_simsrobert_mccrossonpaul_1989]\].
 
 **Contested in the sources and left contested.**
 
-- The number of flights made by each aircraft and by the programme as a whole.
+- The number of flights made by each aircraft and by the programme as a whole \[[Gelzer 2015][ref_gelzer_x29]\] \[[Jenkins, Landis and Miller][ref_xvehicles]\]
+  \[[Grumman X-29][ref_x29]\].
+- Whether the configuration reduced drag, which the subsonic polar data support \[[Hicks and Huckabone 1989][research_hicksjohnw_huckabinethomas_1989]\] and
+  which the agency history and the inventory deny overall \[[Gelzer 2015][ref_gelzer_x29]\] \[[Jenkins, Landis and Miller][ref_xvehicles]\].
 
 **Engineering analysis, computed here and reproducible from the stated inputs.**
 
@@ -1710,7 +1755,7 @@ well-documented body of work.
 **Inference, labelled as such.**
 
 - **The canard's boundary set by pitch-loop stiffness is the aircraft's most general finding.**
-  The primary record states the fact in one sentence and draws no conclusion from it.
+  The primary record states the fact in one sentence and draws no conclusion from it \[[Sims et al 1989][research_simsrobert_mccrossonpaul_1989]\].
 - **The 40 hertz rate was chosen against the doubling time rather than for convenience.**
   The ratio is compelling and no source says so directly.
 
@@ -1739,11 +1784,11 @@ well-documented body of work.
 
 The price was **most of the bend-twist coupling a laminate can physically supply**. Reaching the aircraft's
 actual divergence margin required a coupling ratio of about 0.63 against a hard bound of 1.0, and that
-requirement holds across the whole plausible range of the stiffnesses the record does not give.
+requirement holds across the plausible range of the stiffnesses the record does not give.
 **The technology worked and it was not working easily.**
 
 **The margin itself was smaller than it sounds.** A factor of 2.667 in dynamic pressure is a factor of 1.633
-in speed, and at the design point the wing was already amplifying its own lift by sixty percent. Between
+in speed, and at the design point the wing was already amplifying its lift by sixty percent. Between
 three thousand and four thousand pounds per square foot that amplification triples.
 **The aircraft lived on the flat part of a curve that has no flat part near its end.**
 
@@ -1751,15 +1796,15 @@ three thousand and four thousand pounds per square foot that amplification tripl
 the airframe doubled a pitch disturbance in about a tenth of a second, which is four frames at forty hertz,
 of which the act of sampling consumed thirty-seven milliseconds. A voter needing three frames to isolate a
 failed channel spent three quarters of a doubling time doing it.
-**Redundancy on this aircraft was a question about time rather than about probability**, and that is the
-finding most worth carrying forward.
+**Redundancy on this aircraft was a question about time rather than about probability**, the finding
+most worth carrying forward.
 
 **And the two halves were never separable, which the aircraft demonstrated in the most direct way available.**
 The canard's own divergence boundary was set not by its spindle but by the stiffness of the pitch loop that
 a control law required. **A control requirement fixed a structural boundary.** The programme was organised
 as a structures problem and a controls problem, and the aeroplane declined to be divided that way.
 
-**The planform lost and everything it forced won.** No production aircraft flies a forward-swept wing.
+**The planform lost and everything it forced won.** No production fighter flies a forward-swept wing \[[Forward-swept wing][ref_fsw]\].
 Aeroelastic tailoring, deep static instability, and real-time redundancy management are all ordinary.
 **The X-29 is the rare research aircraft whose most visible feature was the least important thing it proved.**
 
@@ -1811,8 +1856,10 @@ than any aircraft in this series and never flew at all.
 - [Composite laminate][ref_laminate]
 - [Defense Advanced Research Projects Agency][ref_darpa]
 - [Fly-by-wire][ref_fbw]
+- [Forward-swept wing][ref_fsw]
 - [General Dynamics F-16 Fighting Falcon][ref_f16]
 - [General Electric F404][ref_f404]
+- [Gelzer, X-29 Advanced Technology Demonstrator Aircraft][ref_gelzer_x29]
 - [Grumman Aerospace Corporation][ref_grumman]
 - [Grumman F-14 Tomcat][ref_f14]
 - [Grumman X-29][ref_x29]
@@ -1820,6 +1867,7 @@ than any aircraft in this series and never flew at all.
 - [Jenkins, Landis and Miller, American X-Vehicles][ref_xvehicles]
 - [Junkers Ju 287][ref_ju287]
 - [Northrop F-5][ref_f5]
+- [Relaxed stability][ref_relaxed_stability]
 - [Rockwell HiMAT][ref_himat]
 - [Rockwell X-30 National Aero-Space Plane][ref_x30]
 - [Southwell plot][ref_southwell]
@@ -1835,11 +1883,14 @@ than any aircraft in this series and never flew at all.
 [ref_f404]: https://en.wikipedia.org/wiki/General_Electric_F404
 [ref_f5]: https://en.wikipedia.org/wiki/Northrop_F-5
 [ref_fbw]: https://en.wikipedia.org/wiki/Fly-by-wire
+[ref_fsw]: https://en.wikipedia.org/wiki/Forward-swept_wing
+[ref_gelzer_x29]: https://www.nasa.gov/aeronautics/nasa-aircraft/x-29-demonstrator/
 [ref_grumman]: https://en.wikipedia.org/wiki/Grumman
 [ref_hansajet]: https://en.wikipedia.org/wiki/HFB_320_Hansa_Jet
 [ref_himat]: https://en.wikipedia.org/wiki/Rockwell_HiMAT
 [ref_ju287]: https://en.wikipedia.org/wiki/Junkers_Ju_287
 [ref_laminate]: https://en.wikipedia.org/wiki/Composite_laminate
+[ref_relaxed_stability]: https://en.wikipedia.org/wiki/Relaxed_stability
 [ref_southwell]: https://en.wikipedia.org/wiki/Southwell_plot
 [ref_static_margin]: https://en.wikipedia.org/wiki/Static_margin
 [ref_su47]: https://en.wikipedia.org/wiki/Sukhoi_Su-47
@@ -2956,7 +3007,7 @@ than any aircraft in this series and never flew at all.
 - [Hess and Peng 2018][research_hess_peng_2018]
 - [Hess and Sunyoto 1985][research_hess_sunyoto_1985]
 - [Hess et al 1989][research_hess_seidel_1989]
-- [Hicks and Huckabine 1989][research_hicksjohnw_huckabinethomas_1989]
+- [Hicks and Huckabone 1989][research_hicksjohnw_huckabinethomas_1989]
 - [Hicks and Matheny 1987][research_hicksjohnw_mathenyneilw_1987]
 - [Hicks and Matheny 1989][research_hicksjohnw_mathenyneilw_1989]
 - [Hicks and Moulton 1988][research_hicksjohnw_moultonbryanj_1988]

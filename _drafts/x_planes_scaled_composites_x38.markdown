@@ -42,9 +42,9 @@ The [X-33][related_post_a330_lockheed_martin_x33] and [X-34][related_post_a331_o
 sized around runway operations, and the [X-37][related_post_a334_boeing_x37] made an autonomous runway
 landing routine.
 **The X-38 flies the same [lifting body][ref_lifting_body] family of shape through entry and then comes down under seven hundred square metres of ram-air canopy onto whatever flat ground is available.**
-The [space agency's own account][ref_nasa_x38] of the programme describes it in exactly those terms.
+The [space agency's account][ref_nasa_x38] of the programme describes it in those terms.
 
-**That is not a smaller ambition. It is a different answer to a question the series has been asking since the X-23**,
+**This is not a smaller ambition but a different answer to a question the series has been asking since the X-23**,
 and the question is what a runway costs.
 
 ## The Research Question
@@ -53,13 +53,13 @@ and the question is what a runway costs.
 
 A crew aboard a space station cannot walk home. If somebody suffers a medical emergency, if the station is
 damaged, or if the vehicle that brought them is unavailable, the only way down is a vehicle already docked
-and waiting. **The requirement is therefore not performance but availability**, and a vehicle that spends
+and waiting \[[NASA X-38][ref_x38]\]. **The requirement is not performance but availability**, and a vehicle that spends
 years attached to a station doing nothing is judged by what it costs to have rather than by what it does.
 
 **Seven seats is the number that makes the requirement bite.** The station's design complement was seven,
 the Soyuz that served as the interim lifeboat carried three \[[NASA X-38][ref_x38]\]
 \[[Soyuz spacecraft][ref_soyuz]\], and a station cannot hold more people than it can evacuate. **The crew size of the station and the seat count of its lifeboat are the same number**, which
-is why this vehicle exists at all and why it is as large as it is.
+is why this vehicle exists at all and why it is as large as it is \[[NASA X-38][ref_x38]\].
 
 ### The Question This Article Asks
 
@@ -70,15 +70,15 @@ its length unpacking.
 ### Why the Runway Is the Expensive Choice
 
 A runway landing demands four things at once. **It demands speed**, because a lifting body must fly fast
-enough to generate lift on a small wing. **It demands a runway**, which is a prepared strip several
-kilometres long that somebody must own and maintain. **It demands crossrange**, because there are very few
+enough to generate lift on a small wing. **It demands a runway**, a long prepared strip
+that somebody must own and maintain \[[Wingless flight][book_rdalereed_1997]\]. **It demands crossrange**, because there are few
 such strips and the vehicle must be able to reach one from wherever the orbit happens to put it. And
 **it demands that the vehicle fly**, with the control authority, the landing gear and the handling qualities
 that implies.
 
-**A parafoil demands none of the four.** It touches down at walking pace, it needs a field rather than a
-strip, it needs almost no crossrange because fields are everywhere, and it does not need the vehicle to fly
-at all once the canopy is out.
+**A parafoil demands none of the four.** It touches down at about forty miles per hour, or about eighteen
+metres per second, it needs a field where a lifting body needs a strip, it needs almost no crossrange because fields are
+everywhere, and it does not need the vehicle to fly at all once the canopy is out \[[Wingless flight][book_rdalereed_1997]\].
 
 ## Programme Origin
 
@@ -86,30 +86,33 @@ at all once the canopy is out.
 
 The station's early operations relied on a docked [Soyuz][ref_soyuz] as the escape vehicle, and a Soyuz
 seats three.
-**A permanently crewed station of seven therefore needed either three Soyuz vehicles or one purpose-built lifeboat**,
-and the second looked cheaper.
+**A permanently crewed station of seven therefore needed either three Soyuz vehicles or one purpose-built lifeboat**
+\[[NASA X-38][ref_x38]\].
 
 The programme began at the [Johnson Space Center][ref_jsc] in early 1995 as a technology demonstration for a
 Crew Return Vehicle. It was deliberately structured as a fast and cheap effort, using commercial hardware where
-it could and an existing aerodynamic shape rather than a new one \[[NASA account of the X-38 prototype crew return vehicle][ref_nasa_x38]\].
+it could and an aerodynamic shape that already existed \[[NASA account of the X-38 prototype crew return vehicle][ref_nasa_x38]\].
 
 ### Why the Shape Was Borrowed
 
 **The X-24A shape was chosen because its aerodynamics were already known**, having been flown twenty-eight
-times between 1969 and 1971 \[[Martin Marietta X-24A][ref_x24a]\] \[[NASA account of the X-38 prototype crew return vehicle][ref_nasa_x38]\]. That is an unusually direct inheritance for an X-plane and it saved the
-programme the wind-tunnel campaign a new lifting body would have needed.
+times between 1969 and 1971 \[[Martin Marietta X-24A][ref_x24a]\] \[[NASA account of the X-38 prototype crew return vehicle][ref_nasa_x38]\]. That is an unusually direct inheritance for an X-plane, and it saved the
+programme the cost of developing a new spacecraft shape \[[Wingless flight][book_rdalereed_1997]\]. It did not save the
+wind-tunnel work, because the shape was enlarged and its rear thickened for the Crew Return Vehicle
+\[[NASA X-38][ref_x38]\], and the enlarged shape was tested again at low speed and at hypersonic speed
+\[[Komerath, N. M. et al 1998][research_komerathnm_funkr_1998]\] \[[Horvath, Thomas J. et al 2000][research_horvaththomasj_berryscotta_2000]\].
 
 ### Who Built the Airframes
 
 [Scaled Composites][ref_scaled] built the atmospheric test airframes \[[NASA account of the X-38 prototype crew return vehicle][ref_nasa_x38]\], which is why the designation
 carries that name, while the space agency integrated the systems and the [European Space Agency][ref_esa] and the
 [German Aerospace Center][ref_dlr] took part in the programme \[[NASA X-38][ref_x38]\].
-**International participation in an X-plane is unusual and it is a consequence of the station being international**,
-since the vehicle existed to serve a station that Europe helped build.
+**International participation in an X-plane is unusual and follows from the station being international**,
+since the vehicle existed to serve a station that Europe helped build \[[NASA X-38][ref_x38]\].
 
 ### The Window This Article Calls the Period
 
-**The programme ran from 1995 to its cancellation on 29 April 2002**, and this article calls that window
+**The programme ran from 1995 to its cancellation on 29 April 2002** \[[NASA X-38][ref_x38]\], and this article calls that window
 plus a few years of settling the period, taking the cutoff at 2006. Everything after is contemporary.
 **The reference counts reported later use exactly that boundary.**
 
@@ -118,7 +121,7 @@ plus a few years of settling the period, taking the cutoff at 2006. Everything a
 ### Notation
 
 **Parachute engineering and flight mechanics each own a set of symbols and the two overlap.** The ambiguous
-cases are marked here rather than resolved silently at each use.
+cases are marked here, so that none is resolved silently at each use.
 
 | Symbol | Meaning | The other standard use, avoided here |
 |---|---|---|
@@ -135,16 +138,17 @@ cases are marked here rather than resolved silently at each use.
 
 ### What the Landing System Has to Absorb
 
-**This is the whole argument in one number and everything after it is elaboration.**
+**The argument fits in one number, and what follows elaborates it.**
 
-A lifting body arriving on a runway touches down at something near ninety metres per second. The kinetic
+A lifting body arriving on a runway touches down at something near ninety metres per second, since the powered
+lifting bodies landed at about 200 miles per hour \[[NASA account of the lifting bodies][ref_nasa_lifting_bodies]\]. The kinetic
 energy that the landing system, the brakes and the runway between them must dissipate is
 
 $$E = \tfrac{1}{2} m v^{2}$$
 
 which for the 11,340 kilogram vehicle at that speed is **45.93 megajoules**.
 
-The same mass under a ram-air canopy arrives very differently. A gliding canopy in steady descent balances
+The same mass under a ram-air canopy arrives differently. A gliding canopy in steady descent balances
 weight against the **resultant** aerodynamic force rather than against lift alone. A
 [ram-air canopy][ref_parafoil] is a wing rather than a drag device, so the airspeed follows from a resultant
 coefficient,
@@ -166,7 +170,7 @@ At a glide ratio of three that angle is **18.43 degrees** below the horizontal.
 
 Taking a lift coefficient of 0.80 and a glide ratio of 3, which are ordinary for a large ram-air canopy, the
 11,340 kilogram vehicle under **696.8 square metres** of canopy descends at **17.58 metres per second** of
-airspeed, being **16.68 forward and 5.56 down**. Its kinetic energy is **1.752 megajoules**.
+airspeed, with **16.68 forward and 5.56 down**. Its kinetic energy is **1.752 megajoules**.
 
 **The ratio is 26.2 to one**, and the mass cancels out of it entirely, so the ratio is the square of the
 speed ratio and depends on no property of the vehicle at all.
@@ -186,7 +190,7 @@ built for it.
 
 ### How Much of That Rests on the Assumed Lift Coefficient
 
-**The lift coefficient of 0.80 is the least defensible input in this article and it deserves its own sensitivity.**
+**The lift coefficient of 0.80 is the least defensible input in this article, so its sensitivity is computed separately.**
 It appears once, under a radical, so every speed varies as
 
 $$V \propto C_{L}^{-1/2}$$
@@ -233,7 +237,7 @@ motion carries **9.0 times** the energy of the descent.
 | 4.0 | 16.0 times |
 
 **The flare is therefore never limited by energy.** It is limited by how quickly the canopy can convert that
-energy into lift before it stalls, which is a question about the canopy and not about the arithmetic.
+energy into lift before it stalls, a question about the canopy and not about the arithmetic.
 Converting only five percent of what is available takes the sink rate from 5.56 to
 **4.12 metres per second**. If the canopy turns a fraction $\eta$ of the forward energy into arrested
 descent, then since the forward energy is $(L/D)^{2}$ times the vertical, the vertical energy falls to
@@ -265,9 +269,10 @@ $$\frac{\bar{a}}{g_{0}} = \frac{(4.122 \text{ m/s})^{2}}{2 \times 0.30 \text{ m}
 
 where $g_{0}$ is standard gravity and 4.122 metres per second is the unrounded flared sink rate.
 
-**The runway case is not this calculation and the difference matters.** A runway landing is a rollout over
-hundreds of metres rather than an impact, which is exactly why it needs a runway. Arresting ninety metres
-per second in thirty centimetres would be **1,376.6 g**, which is not a landing but a crash,
+**The runway case is not this calculation and the difference matters.** A runway landing does not arrest the
+vehicle in an impact. It rolls out over hundreds of metres, and the rollout is why it needs a runway.
+Arresting ninety metres per second in thirty centimetres would be **1,376.6 g**, which is not a landing but a
+crash,
 
 $$\frac{\bar{a}}{g_{0}} = \frac{(90 \text{ m/s})^{2}}{2 \times 0.30 \text{ m} \times 9.80665 \text{ m/s}^{2}} = 1{,}376.6.$$
 
@@ -310,9 +315,9 @@ so the area needed varies as the inverse square of the sink rate.
 | 5.0 metres per second | 861.2 square metres | 123.6 percent |
 | 6.0 metres per second | 598.1 square metres | 85.8 percent |
 
-**Wanting one metre per second less costs half as much canopy again.** That is the relation that made this
-the largest parafoil ever made \[[NASA X-38][ref_x38]\], and it means the record was an output of the requirement rather than an
-ambition of the programme.
+**Wanting one metre per second less costs half as much canopy again.** This relation made the canopy
+the largest parafoil ever made \[[NASA X-38][ref_x38]\], and it means the record came out of the requirement. The
+programme did not set out to break it.
 
 - [Potvin 1997][research_potvin_1997]
 - [Lee and Buckley 2000][research_lee_buckley_2000]
@@ -323,7 +328,7 @@ ambition of the programme.
 ### But the Crew Count Sets the Mass Only at the Margin
 
 The obvious next step is to say that seven seats made the vehicle heavy and the heavy vehicle made the
-canopy large. **That is only partly true and the arithmetic says by how much.**
+canopy large. **The claim is only partly true, and the arithmetic shows by how much.**
 
 **The model is stated because it is doing real work.** Taking a fraction $\phi$ of the empty mass as
 independent of the crew, being the airframe, the heat shield, the deorbit stage and the avionics, and
@@ -331,8 +336,8 @@ scaling the remainder with the seat count $c$,
 
 $$m(c) = m_{\text{empty}} \left( \phi + (1 - \phi) \frac{c}{c_{\max}} \right) + m_{\text{crew}} \, c$$
 
-with $\phi$ taken as 0.55 and $m_{\text{crew}}$ as 97.3 kilograms. Anchoring on the sink rate the flown
-canopy actually gives, so that the seven-crew row reproduces the flown area by construction,
+with $\phi$ taken as 0.55 and $m_{\text{crew}}$ as 97.3 kilograms. Anchoring on the sink rate of the flown
+canopy, so that the seven-crew row reproduces the flown area by construction,
 
 | Crew | Approximate mass | Canopy area | Against the flown canopy |
 |---|---|---|---|
@@ -350,7 +355,7 @@ $$\frac{S(1)}{S(7)} = \frac{m(1)}{m(7)} = \frac{6{,}645}{11{,}340} = 0.586.$$
 **Six of the seven seats cost about forty percent of the canopy area**, and the fixed overhead costs the
 rest.
 
-**The fixed fraction is assumed and the conclusion survives the whole plausible range of it.**
+**The fixed fraction is assumed and the conclusion survives every plausible value of it.**
 
 | Fixed fraction | Single-seat mass | Canopy needed |
 |---|---|---|
@@ -375,13 +380,13 @@ statement that the crew count sets the mass only at the margin does not depend o
 - [Lavrakas 1955][research_lavrakas_1955]
 - [Lavrakas and Katz 1955][research_lavrakas_katz_1955]
 
-### Why It Deploys in Five Stages, and Why the Obvious Model Fails
+### Five Stages of Reefing and the Model That Cannot Explain Them
 
 The flown system inflated the canopy in five [reefed][ref_reefing] stages \[[NASA X-38][ref_x38]\].
 **The obvious explanation is that a single-step inflation would injure the crew, and that explanation does not survive being written down.**
 
-**Where that deployment speed comes from is itself worth asking**, because the vehicle is released at
-several hundred kilometres per hour and a ram-air canopy cannot be opened anywhere near that. A drogue
+**Where that deployment speed comes from needs asking first**, because the vehicle is released at
+several hundred kilometres per hour and a ram-air canopy cannot be opened anywhere near that \[[NASA X-38][ref_x38]\]. A drogue
 brings it down first, and the area needed follows from the steady descent condition,
 
 $$S_{d} = \frac{2 W}{\rho \, C_{D} \, V_{\text{target}}^{2}}.$$
@@ -392,12 +397,16 @@ $$S_{d} = \frac{2 W}{\rho \, C_{D} \, V_{\text{target}}^{2}}.$$
 | 27 metres per second | 452.8 square metres |
 | 32 metres per second | 322.4 square metres |
 
-**The drogue is itself a very large parachute**, at 452.8 square metres or **65.0 percent** of the main
-canopy,
+**The drogue this model asks for is a large parachute too**, at 452.8 square metres or
+**65.0 percent** of the main canopy,
 
 $$\frac{S_{d}}{S} = \frac{452.8}{696.8} = 0.650.$$
 
-**The descent system is therefore two large decelerators in sequence rather than one**, and the
+The flown drogue was smaller, at 60 feet in diameter
+\[[NASA's X-38 crew rescue craft tests road to Earth][ref_dryden_release_2000]\], which is about 263 square
+metres of nominal area, and the same release gives the speed it reached as about 70 miles per hour.
+
+**The descent system therefore needs two large decelerators in sequence**, and the
 second cannot be opened until the first has done its work.
 
 - [Fluid-Structure Interaction Simulations Of Supersonic...][research_francoiscadieux_michaelfbarad]
@@ -406,7 +415,8 @@ second cannot be opened until the first has done its work.
 - [Melzig and Schmidt 1965][research_melzig_schmidt_1965]
 - [Figucia and McCafferty 1966][research_figucia_mccafferty_1966]
 
-At a deployment speed near twenty-seven metres per second the dynamic pressure is
+At a deployment speed near twenty-seven metres per second, the 60 miles per hour that the encyclopaedia gives
+\[[NASA X-38][ref_x38]\], the dynamic pressure is
 
 $$q = \tfrac{1}{2} \rho V^{2} = 446.5 \text{ pascals}$$
 
@@ -418,7 +428,7 @@ which on 11,340 kilograms is **2.10 g** steady. Inverting for the area a deceler
 
 $$S_{\text{admissible}} = \frac{m \, g_{\text{limit}} \, g_{0}}{q \, C_{D}}$$
 
-gives **996.2 square metres** at three g, which is **1.43 times the whole canopy.**
+gives **996.2 square metres** at three g, or **1.43 times the flown canopy.**
 
 **The model says one stage and the flown system used five.**
 
@@ -434,7 +444,7 @@ $$V_{\text{limit}} = \sqrt{\frac{2 \, m \, g_{\text{limit}} \, g_{0}}{\rho \, S 
 | 5 g | 41.68 metres per second | 1.54 times |
 
 **The margin is only about twenty percent in speed at a three g limit, and at a two g limit there is no margin at all.**
-That qualification matters, so the article states it and does not rest on the three g figure alone.
+That qualification matters, so the article states it alongside the three g figure.
 
 - [Heinrich and Jamison 1966][research_heinrich_jamison_1966]
 - [French 1969][research_french_1969]
@@ -449,14 +459,14 @@ $$F_{\text{peak}} = \Lambda \, q \, S \, C_{D}, \qquad \Lambda \in [1.5, 2.5]$$
 
 the peak reaches **5.25 g**, which a seated and restrained crew survives.
 
-**What the failed calculation locates is that the constraint is not the crew.** A canopy of this size cannot
+**The failed calculation places the constraint away from the crew.** A canopy of this size cannot
 inflate uniformly. The centre cells fill first, the load concentrates on a fraction of the suspension lines,
-and the limiting structure is the canopy itself rather than the occupants.
+and the structure that limits the inflation is the canopy.
 **Reefing exists to make the inflation orderly rather than to make it gentle**, and no vehicle-level load
 model can predict the stage count because the stage count is not a vehicle-level quantity.
 
 **A forward calculation that fails by this margin is a finding about the model and not a reason to discard it.**
-It says precisely which physics the simple treatment omits.
+It identifies which physics the simple treatment omits.
 
 - [Talay and Poole 1971][research_talaytheodorea_poolelamontr_1971]
 - [Poole 1973][research_poole_1973]
@@ -479,12 +489,12 @@ The lifting-entry vehicles earlier in this series, among them the [X-23][related
 and the [X-37][related_post_a334_boeing_x37], treat crossrange as a figure of merit.
 **The X-38 shows that it was never a figure of merit. It was the price of insisting on a runway.**
 
-A parafoil steers only within its own glide cone from the point of deployment. The reach is height traded
+A parafoil steers only within its glide cone from the point of deployment. The reach is height traded
 for distance at the glide ratio,
 
 $$R = \left( \frac{L}{D} \right) h,$$
 
-which carries no mass, no area and no air density, and at a glide ratio of three from six kilometres it is
+into which neither mass nor area nor air density enters, and at a glide ratio of three from six kilometres it is
 **18.0 kilometres**. The [X-37][related_post_a334_boeing_x37] article computed **1,397.8 kilometres** of
 entry crossrange for a runway lander at a hypersonic lift-to-drag ratio near 1.1.
 **The ratio is 77.7 to one and it looks devastating until the question is asked the other way round.**
@@ -501,7 +511,7 @@ choosing when to leave orbit.
 
 **The last row is the answer.** A vehicle that needs a certified runway gets an opportunity every ten days.
 A vehicle that needs a flat field gets four hundred a day.
-**That is a factor of several thousand in availability, bought by giving up a factor of seventy-eight in crossrange**,
+**The trade gains a factor of several thousand in availability for a factor of seventy-eight in crossrange**,
 and for a lifeboat availability is the entire requirement.
 
 **These are order-of-magnitude figures and the article claims nothing finer.** The site counts are
@@ -528,7 +538,7 @@ needs.
 
 ## Dependent Systems
 
-### The Entry, Which Is the Part Nobody Tested
+### The Untested Entry
 
 The vehicle deorbits from a station orbit near four hundred kilometres
 \[[International Space Station][ref_iss]\]. Lowering perigee far enough to
@@ -541,7 +551,8 @@ on the transfer at the same radius,
 
 $$\Delta v = \sqrt{\frac{\mu}{r_{a}}} - \sqrt{\mu \left( \frac{2}{r_{a}} - \frac{1}{a} \right)} = 132.8 \text{ metres per second},$$
 
-which is the work of the deorbit propulsion stage that GenCorp Aerojet was developing for V-201 \[[NASA account of the X-38 prototype crew return vehicle][ref_nasa_x38]\].
+a task that fell to the deorbit propulsion stage that GenCorp Aerojet was developing for V-201
+\[[NASA account of the X-38 prototype crew return vehicle][ref_nasa_x38]\].
 
 The deceleration that follows is what the crew feels, and for a shallow entry it is nearly independent of
 the vehicle. The [Allen and Eggers][ref_allen_eggers] result for a ballistic entry gives the peak as
@@ -573,7 +584,7 @@ which at a lift-to-drag ratio of 0.8 is **0.7809**.
 **A deconditioned or injured crew is why this matters.** The vehicle exists to bring down somebody who may
 be ill, and a body that has spent months in free fall has lost plasma volume, bone and cardiac conditioning
 through the well documented [effects of spaceflight on the human body][ref_deconditioning].
-**The entry load is a medical constraint rather than a structural one**, which is a sentence that could not
+**The entry load is a medical constraint rather than a structural one**, a sentence that could not
 be written about any other vehicle in this series.
 
 - [KThompson et al][research_wkthompson_dagoodenow]
@@ -615,9 +626,10 @@ be written about any other vehicle in this series.
 ### Hypersonic and Low-Speed Aerodynamics of the Shape
 
 The [X-24A][ref_x24a] shape was flown twenty-eight times \[[Martin Marietta X-24A][ref_x24a]\] and
-characterised across the speed range, which is
-the reason it was chosen. **The X-38 therefore inherited an aerodynamic database rather than building one**,
-and that is the single largest saving the borrowed shape produced.
+carried from Mach 2 down to a subsonic landing, and that record is
+why it was chosen \[[Wingless flight][book_rdalereed_1997]\]. **The X-38 began from a shape already proven in flight**,
+and the enlarged shape was still characterised in wind tunnels at low speed and at Mach 6, 10 and 20
+\[[Komerath, N. M. et al 1998][research_komerathnm_funkr_1998]\] \[[Horvath, Thomas J. et al 2000][research_horvaththomasj_berryscotta_2000]\].
 
 - [Pressure and Heat Transfer Measurements for Mach 21 Flows...][research_kaufman_louisg_1964]
 - [Pressure and Heat Transfer Measurements for Mach 8 Flows over...][research_kaufman_louisg_1964_b]
@@ -629,9 +641,10 @@ and that is the single largest saving the borrowed shape produced.
 ### Guidance, Navigation and the Autonomous Descent
 
 The vehicle flies itself throughout. **What is unusual is not the autonomy but where it ends.** A runway
-lander must fly an autonomous approach with metre-level precision to a fixed strip. A parafoil lander must
+lander must fly an autonomous approach to a fixed strip. A parafoil lander must
 only reach a chosen field and then flare, and the guidance problem is the one the
-[guided airdrop][ref_airdrop] community had already been solving for cargo.
+[guided airdrop][ref_airdrop] community had already been solving for cargo
+\[[NASA account of the X-38 prototype crew return vehicle][ref_nasa_x38]\].
 
 - [Gionfriddo 1967][research_gionfriddo_1967]
 - [Dale and Ludwig 1968][research_dale_ludwig_1968]
@@ -707,7 +720,8 @@ only reach a chosen field and then flare, and the guidance problem is the one th
 
 ### Structure, Scale and a Shape That Grew
 
-The X-38 inherited the X-24A outer mould line and enlarged it. Measuring the exponent that relates the two,
+The X-38 inherited the X-24A outer mould line, enlarged it and thickened its rear \[[NASA X-38][ref_x38]\].
+Measuring the exponent that relates the two,
 for a quantity $Q$ and a length $\ell$,
 
 $$Q \propto \ell^{\,n} \qquad \Longrightarrow \qquad n = \frac{\ln \left( Q_{1} / Q_{2} \right)}{\ln \left( \ell_{1} / \ell_{2} \right)}$$
@@ -720,7 +734,7 @@ $$Q \propto \ell^{\,n} \qquad \Longrightarrow \qquad n = \frac{\ln \left( Q_{1} 
 **The inputs are sourced as follows.** The X-24A is approximately 24 feet long, 7.315 metres
 \[[Pilot safety for the X-24A lifting body vehicle][ref_cochrane_graham_1971]\]. The programme's history
 gives approximately 12,000 pounds at launch, 5,443 kilograms \[[Wingless flight][book_rdalereed_1997]\],
-and that is the launch mass in the table. No source consulted states the launch weight more precisely. The
+and the table uses it as the launch mass. No source consulted states the launch weight more precisely. The
 Crew Return Vehicle is 30 feet long with a gross weight of 25,000 pounds, which are 9.14 metres and
 11,340 kilograms \[[NASA X-38][ref_x38]\].
 
@@ -740,22 +754,23 @@ Taking each in turn,
 $$n_{11{,}000\ \text{lb}} = \frac{\ln (11{,}340 / 4{,}990)}{\ln 1.2495} = 3.69, \qquad
 n_{24.5\ \text{ft}} = \frac{\ln 2.0834}{\ln (9.14 / 7.468)} = 3.63,$$
 
-and both exceed 3. **The margin over geometric similarity is therefore real but modest**, and its size
-rests on approximate figures for a vehicle whose launch weight no source gives exactly.
+and both exceed 3. **The margin over geometric similarity is real but modest**, and its size
+hinges on approximate figures for a vehicle whose launch weight no source gives exactly.
 
-**The shape was inherited and the mission was not.** The X-24A carried one pilot and a rocket engine. The
-X-38 carries seven people, life support, a thermal protection system and a deorbit stage, and the mass grew
+**The shape was inherited and the mission was not.** The X-24A carried one pilot and a rocket engine
+\[[Martin Marietta X-24A][ref_x24a]\]. The X-38 carries seven people, life support, a thermal protection
+system and a deorbit stage \[[NASA account of the X-38 prototype crew return vehicle][ref_nasa_x38]\], and the mass grew
 faster than the geometry because the payload grew faster than the airframe.
 
-**This is the opposite sign from the previous article and the pair is worth keeping.** The
+**The sign is the opposite of the previous article's, and the two are best read as a pair.** The
 [X-37][related_post_a334_boeing_x37] shrank from the Shuttle orbiter with mass falling as length to the
 **1.924**, more slowly than volume, because a small reusable vehicle keeps its fixed overhead. The X-38 grew
 from the X-24A with mass rising as length to the **3.295**, faster than volume, because the mission grew
 faster than the machine.
-**Neither pair is geometrically similar and the reasons are different, which is a warning against reading a scaling exponent as a property of the technology.**
+**Neither pair is geometrically similar and the reasons differ, so a scaling exponent should not be read as a trait of the technology.**
 
-**The lifting-body line this vehicle belongs to is where the comparison has to be drawn**, since no two
-members of it were built for the same job.
+**The comparison has to be drawn within the lifting-body line**, since no two
+members of that line were built for the same job.
 
 - [Paraglider Recovery Systems][research_francismrogallo_1962]
 - [Toni and McNulty 1965][research_toni_mcnulty_1965]
@@ -770,9 +785,10 @@ members of it were built for the same job.
 
 ## The Flight Test Record
 
-### What Actually Flew
+### What Flew
 
-**Three atmospheric vehicles flew and the orbital vehicle never did.**
+**Three atmospheric vehicles flew and the orbital vehicle never did.** \[[NASA account of the X-38 prototype crew return vehicle][ref_nasa_x38]\]
+\[[NASA X-38][ref_x38]\]
 
 | Vehicle | What it was | Fate |
 |---|---|---|
@@ -804,7 +820,7 @@ and they flew at between 15,000 and 24,000 pounds, which are 6,804 and 10,886 ki
 only that vehicle weights range from 15,000 pounds to about 25,000 pounds, in a passage that introduces the
 orbital V-201 immediately after, so it does not separate the drop-test vehicles from the orbital one
 \[[NASA account of the X-38 prototype crew return vehicle][ref_nasa_x38]\].
-**Under the same canopy that is a very small difference in the quantity that matters.**
+**Under the same canopy the difference is small in the quantity that matters.**
 
 | Mass under the full canopy | Sink rate |
 |---|---|
@@ -819,7 +835,7 @@ only the weight under the radical, so
 $$V_{\text{vertical}} \propto \sqrt{m} \qquad \Longrightarrow \qquad \frac{\Delta V}{V} \approx \frac{1}{2} \frac{\Delta m}{m}.$$
 
 **A mass shortfall of 4.00 percent is therefore a sink shortfall of about 2 percent**, and the landing
-system was tested at very nearly its design condition. **The square root is doing the work**, since the same
+system was tested close to its design condition. **The square root is doing the work**, since the same
 shortfall in a quantity that scaled linearly would have been twice as far from condition.
 
 - [Sims 1963][research_sims_1963]
@@ -830,9 +846,9 @@ shortfall in a quantity that scaled linearly would have been twice as far from c
 - [Lowry 1964][research_lowry_1964]
 
 **The entry was never tested at all.** No X-38 ever went to orbit, no X-38 ever met the atmosphere at
-orbital speed, and no X-38 thermal protection system was ever exposed to entry heating in flight.
-**The programme proved the half of the problem that could be proved from a B-52 and left the other half entirely unproven**,
-which is a precise statement of what was and was not demonstrated.
+orbital speed, and no X-38 thermal protection system was ever exposed to entry heating in flight
+\[[NASA X-38][ref_x38]\].
+**The programme proved the half of the problem that could be proved from a B-52 and left the other half entirely unproven.**
 
 - [Aerodynamic characteristics of proposed assured crew return...][research_waregeorgem_spencerbernardjr_1989]
 - [Supersonic aerodynamic characteristics of a proposed Assured...][research_waregeorgem_1989]
@@ -893,27 +909,29 @@ requirement disappeared, and with it the only reason to build a seven-seat vehic
 
 ## Comparison With Ground Prediction
 
-**The record holds one true comparison between a ground prediction and the flown system, and it is a disagreement.**
-A vehicle-level load model, worked through in the section headed Sizing From First Principles, says that a
+**The record holds one true comparison between a ground prediction and the flown system, and the two disagree.**
+A vehicle-level load model, worked through under Sizing From First Principles, says that a
 canopy of 696.8 square metres could have been inflated in a single step inside three g at a deployment speed
-near twenty-seven metres per second. The flown system used five [reefed][ref_reefing] stages. The section
-headed Where the Framing Breaks Down explains why the conclusion drawn from that disagreement is an inference
-from a failure, and why its margin is only twenty percent in deployment speed. No title in the survey
+near twenty-seven metres per second. The flown system used five [reefed][ref_reefing] stages. The discussion
+under Where the Framing Breaks Down explains why the conclusion drawn from that disagreement is an inference
+from a failure, and why its margin is a narrow twenty percent in deployment speed. No title in the survey
 reports this canopy's inflation loads against which to set the flown ones.
 
-**The aerodynamic prediction was inherited rather than made.** The [X-24A][ref_x24a] shape had flown
-twenty-eight times between 1969 and 1971, and the programme took its aerodynamic database instead of running
-the wind-tunnel campaign that a new lifting body would have needed. The drop tests therefore flew a shape
-whose behaviour was already known from flight. The article reports no comparison between the drop-test
-aerodynamics and that database, and the record assembled here does not supply one.
+**The aerodynamic prediction began from an inherited shape.** The [X-24A][ref_x24a] shape had flown
+twenty-eight times between 1969 and 1971 \[[Martin Marietta X-24A][ref_x24a]\], and the programme started
+from it instead of developing a new one \[[Wingless flight][book_rdalereed_1997]\]. The enlarged shape was nevertheless
+measured again in wind tunnels at low speed and at hypersonic speed
+\[[Komerath, N. M. et al 1998][research_komerathnm_funkr_1998]\] \[[Horvath, Thomas J. et al 2000][research_horvaththomasj_berryscotta_2000]\], so the drop tests flew a
+shape whose ancestry was known from flight and whose own aerodynamics came from the tunnel. The article sets
+no drop-test aerodynamics beside those tunnel results.
 
 **The parafoil figures in this article are predictions with no flight value set beside them here.** The
 sink rate of 5.56 metres per second, the airspeed of 17.58 metres per second and the energy ratio of 26.2
-rest on a lift coefficient of 0.80 and a glide ratio of 3, which are typical values assumed for a large ram-air
+follow from a lift coefficient of 0.80 and a glide ratio of 3, which are typical values assumed for a large ram-air
 canopy. Aerodynamics from large-scale parafoil test programmes, one of them the X-38's own, are reported in
 \[[Iacomini and Cerimele 1999][research_iacomini_cerimele_1999_b]\]
 \[[Iacomini and Cerimele 1999][research_iacomini_cerimele_1999]\] and
-\[[Madsen et al 2003][research_madsen_sostaric_2003]\], and the article does not take its coefficients from them. The table in the section headed The Flight Test Record that sets each drop-test mass beside
+\[[Madsen et al 2003][research_madsen_sostaric_2003]\], and the article does not take its coefficients from them. The table in The Flight Test Record that sets each drop-test mass beside
 a sink rate is computed from the same relation and is not a measured result.
 **What flight established is the condition of the test and not the value of the coefficients.** The heaviest
 drop test came within a factor of 1.021 of the orbital vehicle's computed sink rate, so the landing system
@@ -923,17 +941,17 @@ flew at very nearly its design condition.
 second, the ballistic peak of 3.87 g and the relieved peak of 3.02 g at a lift-to-drag ratio of 0.8 are
 calculations. No X-38 reached orbit, and the orbital vehicle V-201 was 90 percent complete when the programme
 was cancelled on 29 April 2002. **For the half of the problem the vehicle was built to solve, flight returned
-nothing to compare**, which the section headed Epistemic State records as the question the record does not
+nothing to compare**, which the Epistemic State section records as the question the record does not
 settle.
 
 ## What the Data Changed
 
 ### What the Programme Settled
 
-**That a very large ram-air canopy can be flown under control.** A canopy of seven hundred square metres was the
+**That a ram-air canopy of this size can be flown under control.** A canopy of seven hundred square metres was the
 largest parafoil ever made \[[NASA X-38][ref_x38]\], and the programme flew it repeatedly, with staged reefing, autonomous guidance and
 a flare.
-That is a decelerator result and not a spacecraft result, and it stands on its own.
+It is a decelerator result and not a spacecraft result, and it stands independently.
 
 **That the guided-parafoil approach scales to a crewed vehicle's mass.** The heaviest drop test was within
 two percent of the orbital vehicle's sink rate, so the landing system was demonstrated at condition.
@@ -948,7 +966,7 @@ control and wind-estimation problems the X-38 solved for a crewed vehicle are th
 the cluster on guidance, homing and flare control of parafoils below shows.
 
 **The lifting body line continued without the parafoil.** A commercial lifting-body spaceplane, Sierra Space's
-Dream Chaser, is being developed to launch vertically and land on a conventional runway, which is the answer the
+Dream Chaser, is being developed to launch vertically and land on a conventional runway, the answer the
 X-38 declined to give. Its first flight, a free-flight demonstration that no longer visits the station, is
 scheduled no earlier than late 2026 \[[Dream Chaser][ref_dream_chaser]\].
 
@@ -993,9 +1011,11 @@ the survey descend under round parachutes, the Soyuz under a braking parachute a
 
 ### Guided Parafoils Became an Industry While the Spacecraft Did Not
 
-**The single largest change since the X-38 is that autonomous guided parafoil delivery became operational and ordinary.**
-The problems the programme solved for one crewed vehicle became routine for cargo, and the modern literature
-on wind estimation, homing guidance, flare timing and touchdown accuracy is deep, active and largely open.
+**A large change since the X-38 is that autonomous guided parafoil delivery entered military service**
+\[[Benney et al 2005][research_benney_barber_2005]\] \[[Joshua and Eaton 2013][research_joshua_eaton_2013]\].
+The problems the programme solved for one crewed vehicle became working problems for cargo, and the modern
+literature on wind estimation, homing guidance, flare timing and touchdown accuracy is large and active, as
+the records below show.
 
 - [Witham 2007][research_witham_2007]
 - [Raissi et al 2008][research_raissi_mani_2008]
@@ -1016,8 +1036,9 @@ on wind estimation, homing guidance, flare timing and touchdown accuracy is deep
 
 ### Parafoil Aerodynamics and Flight Dynamics
 
-**The apparent-mass terms that dominate a light canopy's dynamics and the fluid-structure coupling that sets its shape are now computed rather than measured**,
-which is the largest methodological change in the field since the programme ran.
+**Parafoil flight dynamics and the flow around a ram-air canopy are now simulated numerically**
+\[[Tsuda and Yonemoto 2008][research_tsuda_yonemoto_2008]\] \[[Eslambolchi and Johari 2013][research_eslambolchi_johari_2013]\],
+which this article reads as the largest methodological change in the field since the programme ran.
 
 - [Redelinghuys 2007][research_redelinghuys_2007]
 - [Tsuda and Yonemoto 2008][research_tsuda_yonemoto_2008]
@@ -1040,9 +1061,11 @@ which is the largest methodological change in the field since the programme ran.
 
 ### Inflation, Reefing and Opening Loads
 
-**The question this article could not answer from a vehicle-level model is exactly the question this literature answers.**
-Modern inflation analysis couples the canopy structure to the flow and predicts the load distribution across
-the suspension lines, which is where the stage count actually comes from.
+**The question this article could not answer from a vehicle-level model is the question this literature addresses.**
+Modern inflation analysis simulates the inflating canopy numerically
+\[[Xia et al 2009][research_xia_tian_2009]\] \[[Xu et al 2011][research_xu_geng_2011]\], and a load distribution
+across the suspension lines computed that way could test the article's inference about where the stage count
+comes from.
 
 - [Potvin 2007][research_potvin_2007_c]
 - [Potvin 2007][research_potvin_2007]
@@ -1099,8 +1122,9 @@ the suspension lines, which is where the stage count actually comes from.
 ### Human Tolerance, Deconditioning and the Medical Constraint
 
 **The entry load limit for this vehicle is a medical number and the medical literature has moved.** What a
-deconditioned crew tolerates after months in free fall is better characterised now than it was, and it bears
-directly on the entry profile a lifeboat should fly.
+deconditioned crew tolerates after months in free fall is better characterised now than it was
+\[[Pattarini et al 2020][research_jamesmpattarini_jeffreytsomers_2020]\] \[[Glebova et al 2022][research_glebova_koloteva_2022]\],
+and it bears directly on the entry profile a lifeboat should fly.
 
 - [Fitts et al 2008][research_fittsma_kerstmane_2008]
 - [Walker et al 2009][research_walker_balldin_2009]
@@ -1187,8 +1211,8 @@ directly on the entry profile a lifeboat should fly.
 
 ### Orbit, Deorbit and Landing Site Selection
 
-The work on deorbit guidance, deorbit opportunities and landing site coverage is gathered in the cluster on
-deorbit, landing opportunities and landing sites below.
+The cluster on deorbit, landing opportunities and landing sites below holds the work on deorbit guidance,
+deorbit opportunities and landing site coverage.
 
 ### The Station
 
@@ -1198,8 +1222,8 @@ risk.
 
 ### Vehicle Sizing and Scaling
 
-Sizing and scaling are thin in this literature, as the section headed Thin Subjects counts, and the records are
-gathered in the cluster on sizing, mass estimation and scaling below, with the scaling of canopy inflation in the
+Sizing and scaling are thin in this literature, as the count in Thin Subjects shows, and the records sit
+in the cluster on sizing, mass estimation and scaling below, with the scaling of canopy inflation in the
 clusters on parachute inflation and on ram-air parafoils.
 
 ### The Vehicle and Its Ancestors, Reconsidered
@@ -1388,22 +1412,23 @@ conclusion survives and the individual sink rates should not be quoted to three 
 
 ### The Runway Comparison Uses a Speed the X-38 Never Had
 
-**Ninety metres per second is a lifting body's touchdown speed and it is taken from the X-24 family rather than from the X-38**,
-which never landed horizontally and had no landing gear. The comparison is therefore between this vehicle
+**Ninety metres per second is a touchdown speed taken from the X-24 family of lifting bodies and not from the X-38** \[[NASA account of the lifting bodies][ref_nasa_lifting_bodies]\],
+which never landed on a runway and landed on skids rather than wheels
+\[[NASA account of the X-38 prototype crew return vehicle][ref_nasa_x38]\]. The comparison is therefore between this vehicle
 under its canopy and the vehicle it would have had to be if it landed on a runway.
-**That is the correct comparison for the argument and it is not a measurement of two things that both existed.**
+**This comparison is the correct one for the argument, though it does not measure two things that both existed.**
 
 ### The Landing Opportunity Table Is an Order of Magnitude and Nothing Finer
 
 **The site counts are illustrative.** Nobody has enumerated the world's flat unobstructed areas, the
 reachability model treats sites as uniformly distributed over the covered band, and real site selection
 involves weather, overflight permission, recovery logistics and terrain.
-**What survives is the direction and the scale, which is a factor of thousands and not a factor of two.**
+**The direction survives, and so does the scale, a factor of thousands and not a factor of two.**
 
 ### The Reefing Conclusion Is an Inference From a Failure, and Its Margin Is Narrow
 
-**The article concludes that the canopy's own structure sets the stage count, and it concludes that because a vehicle-level load model fails to explain the flown system.**
-That is an argument from the absence of an alternative and not a measurement of canopy loads, and a
+**The article concludes that the canopy's structure sets the stage count, and it concludes that because a vehicle-level load model fails to explain the flown system.**
+The argument proceeds from the absence of an alternative and does not measure canopy loads, and a
 published analysis of this canopy's line loads during inflation would settle it. **The survey holds titles on
 this canopy's deployment and on its aerodynamics at its opening stages** \[[Ranier 2001][research_ranierchris_2001]\]
 \[[Haubelt et al 2001][research_haubelt_melton_2001]\] \[[Neville][research_neville]\], and none of their titles
@@ -1413,23 +1438,29 @@ names the line loads.
 metres per second, which is only **1.20 times** the assumed deployment speed, and it reaches two g at 26.36,
 which is **below** it.
 **A deployment twenty percent faster than assumed, or a limit set at two g rather than three, would put the steady load back into contention**,
-and the deployment speed itself is taken from a loosely reported figure.
+and the deployment speed is loosely reported. The encyclopaedia gives 60 miles per hour
+\[[NASA X-38][ref_x38]\] and the Dryden release about 70 \[[NASA's X-38 crew rescue craft tests road to Earth][ref_dryden_release_2000]\],
+which is 31.29 metres per second and leaves a margin of only 1.03 times at three g.
 
 ### The Scaling Comparison Puts Two Unlike Machines Side by Side
 
-The X-24A was a piloted rocket research aircraft and the X-38 was a lifeboat designed for seven crew whose test vehicles flew under autonomous guidance.
+The X-24A was a piloted rocket research aircraft and the X-38 was a lifeboat designed for seven crew whose test vehicles flew under autonomous guidance
+\[[Martin Marietta X-24A][ref_x24a]\] \[[NASA account of the X-38 prototype crew return vehicle][ref_nasa_x38]\].
 **Measuring an exponent between them is legitimate as a description and misleading as an explanation**, and
-the article says which it means.
+the article intends the first.
 
-**The exponent is also sensitive to figures that are easy to get wrong.** It rests on two published numbers
-for a vehicle retired in 1971, and moving the X-24A length by half a metre or its mass by three hundred
-kilograms moves the exponent by several tenths. **What is robust is the sign**, that mass grew faster than
-the cube of length, and that is the only thing the argument uses.
+**The exponent is also sensitive to figures that are easy to get wrong.** It is computed from two published numbers
+for a vehicle retired in 1971 \[[NASA account of the lifting bodies][ref_nasa_lifting_bodies]\]. Moving the X-24A
+length by half a metre moves the exponent by 0.79 to 1.39, and moving its mass by three hundred kilograms
+moves it by about a quarter. **What is robust across the published figures is the sign**, that mass grew
+faster than the cube of length, and the sign alone enters the argument. A length half a metre shorter
+than the shortest published figure would reverse it, at an exponent of 2.50.
 
 ### Nothing Here Is Validated Against an Orbital Flight
 
 **No X-38 ever flew in space.** Every entry number in this article is a calculation with no flight data
-behind it, and the vehicle that would have produced that data sits in storage.
+behind it, and the vehicle that would have produced that data is held at the Johnson Space Center
+\[[NASA X-38][ref_x38]\].
 **An article about a vehicle that never flew its mission cannot verify the half of its argument that concerns the mission.**
 
 ## The Source Base
@@ -1707,9 +1738,9 @@ of it was ninety percent complete when the programme stopped.
 ### Historical Fact
 
 The programme began at the Johnson Space Center in 1995 to demonstrate technology for a Crew Return Vehicle
-for the International Space Station. The aerodynamic shape was taken from the Martin Marietta X-24A. Scaled
+for the International Space Station. The aerodynamic shape was derived from the Martin Marietta X-24A. Scaled
 Composites built the atmospheric test airframes, and the European Space Agency and the German Aerospace Center took part
-in the programme. Three atmospheric vehicles flew, being V-131, V-132 and V-131R, dropped from a B-52 at
+in the programme. Three atmospheric vehicles flew, V-131, V-132 and V-131R, dropped from a B-52 at
 altitudes up to about 13,700 metres. In March 2000 V-132 flew freely for 44 or 45 seconds, by the two NASA
 accounts, after release at 11,900 metres and exceeded 800 kilometres per hour. The descent system used a 7,500 square foot ram-air parafoil,
 the largest ever made, deployed in five reefed stages. The orbital vehicle V-201 reached about 90
@@ -1719,7 +1750,7 @@ percent completion and never flew. The vehicle was designed for seven crew. The 
 ### Engineering Analysis
 
 Every quantitative result here is computed from published dimensions and masses using standard relations.
-**Three sensitivities are computed and none is asserted**, being the lift coefficient through the sizing,
+**Three sensitivities are computed and none is asserted.** They cover the lift coefficient through the sizing,
 the fixed mass fraction through the crew argument, and the deployment speed through the reefing argument.
 **The first two leave their conclusions intact and the third narrows one.** The glide speeds, the energy
 ratio, the wing loading, the area inversion, the deployment loads, the entry deceleration, the deorbit
@@ -1729,11 +1760,10 @@ and carries no vehicle property at all.
 
 ### Inference
 
-That the canopy's own structure rather than crew tolerance sets the reefing stage count is an inference from
+That the canopy's structure rather than crew tolerance sets the reefing stage count is an inference from
 a vehicle-level load model failing to explain the flown system by a wide margin. That abandoning the runway
 buys availability rather than costing capability is an inference from an order-of-magnitude
-landing-opportunity argument. That the borrowed X-24A shape was the programme's largest single saving is an
-inference from the absence of any X-38 aerodynamic development campaign in the record.
+landing-opportunity argument.
 
 ### What the Record Does Not Settle
 
@@ -1744,7 +1774,7 @@ no amount of calculation closes that gap.
 
 ## Out of Scope
 
-The Soyuz as a lifeboat and its own return system, which deserves separate treatment. The station's assembly
+The Soyuz as a lifeboat and its return system, which deserves separate treatment. The station's assembly
 sequence and the crew-size decisions that drove the requirement. The detailed design of the deorbit
 propulsion module. The European crew transport studies that shared the programme's structure work. The
 commercial crew vehicles that eventually solved the problem differently. Guided airdrop for cargo, which is
@@ -1754,11 +1784,11 @@ surveyed here and not analysed.
 
 **The X-38 asked what a runway costs and answered it in one ratio.** A lifting body arrives on a runway
 carrying **26.2 times** the kinetic energy of the same mass under a ram-air canopy, and the ratio is the
-square of the speed ratio with the mass cancelling out entirely. Everything the runway demands follows from
-that energy, being the speed, the strip, the gear and the crossrange to reach one of the few places where
+square of the speed ratio with the mass cancelling out entirely. All that the runway demands follows from
+that energy, namely the speed, the strip, the gear and the crossrange to reach one of the few places where
 all three exist.
 
-**Giving it up bought availability, which for a lifeboat is the whole requirement.** A vehicle needing a
+**Giving it up bought availability, the entire requirement of a lifeboat.** A vehicle needing a
 certified runway gets a landing opportunity every ten days. A vehicle needing a flat field gets four hundred
 a day.
 **The crossrange that the earlier lifting-entry articles of this series treated as a figure of merit turns out to have been the price of a decision, and the X-38 is the vehicle that declined to pay it.**
@@ -1769,25 +1799,25 @@ again, and seven seats aboard a station of seven fixed the mass.
 **A single-seat version would still have needed 58.6 percent of the same canopy**, because the airframe and
 the heat shield do not shrink with the crew.
 
-**Two smaller results are worth carrying because neither needed an assumption.** The flare's available
+**Two smaller results stand out because neither needed an assumption.** The flare's available
 energy exceeds what it must remove by the square of the glide ratio, **exactly**, with no mass, area or
 density appearing, so a flare is never limited by energy. And the peak entry deceleration carries no
-ballistic coefficient at all, which makes the **3.87 g** a property of the trajectory rather than of the
-vehicle and the entry load a medical constraint rather than a structural one.
+ballistic coefficient at all, so the **3.87 g** is fixed by the trajectory alone
+and the entry load a medical constraint rather than a structural one.
 
-**The third answer came from a calculation that failed.** A vehicle-level load model says the whole canopy
+**The third answer came from a calculation that failed.** A vehicle-level load model predicts that the full canopy
 could have been inflated in one step inside three g, and the flown system used five stages.
-**The constraint was never the crew.** It is the canopy's own structure, and reefing exists to make a
+**The constraint was never the crew.** It is the canopy's structure, and reefing exists to make a
 seven-hundred-square-metre inflation orderly rather than to make it gentle.
-**The margin on that conclusion is only twenty percent in deployment speed**, which the article states and
-does not leave to be assumed.
+**The margin on that conclusion is only twenty percent in deployment speed**, and three percent at the
+faster of the two reported speeds, which the article states and does not leave to be assumed.
 
 **What the programme did not answer is the half it was built for.** The landing system was demonstrated
 within two percent of its design sink rate. **The entry was never demonstrated at all**, and the vehicle
 that would have demonstrated it was ninety percent complete when the station it was meant to serve shrank to
 a size its existing lifeboat could already carry.
-**The X-38 was cancelled not because it failed but because the requirement went away**, and that is the
-reason its own record is thin.
+**The X-38 was cancelled not because it failed but because the requirement went away**, which explains why
+its record is thin.
 
 ## References
 
@@ -2012,6 +2042,7 @@ reason its own record is thin.
 - [Johnson Space Center][ref_jsc]
 - [Lifting body][ref_lifting_body]
 - [Martin Marietta X-24A][ref_x24a]
+- [NASA account of the lifting bodies][ref_nasa_lifting_bodies]
 - [NASA account of the X-38 prototype crew return vehicle][ref_nasa_x38]
 - [NASA B-52 mothership][ref_b52]
 - [NASA X-38][ref_x38]
@@ -2039,6 +2070,7 @@ reason its own record is thin.
 [ref_iss]: https://en.wikipedia.org/wiki/International_Space_Station
 [ref_jsc]: https://en.wikipedia.org/wiki/Johnson_Space_Center
 [ref_lifting_body]: https://en.wikipedia.org/wiki/Lifting_body
+[ref_nasa_lifting_bodies]: https://www.nasa.gov/centers-and-facilities/armstrong/lifting-bodies/
 [ref_nasa_x38]: https://www.nasa.gov/aeronautics/nasa-aircraft/x-38-prototype/
 [ref_parafoil]: https://en.wikipedia.org/wiki/Ram-air_parachute
 [ref_perris_wingload]: https://skydiveperris.com/wingload-calculator/

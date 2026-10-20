@@ -19,30 +19,31 @@ a sponsor, and one name. What the aircraft is for has no official word at all.**
 
 The X-68A was allocated on 20 August 2025 to General Atomics, with an engine cell reading
 `1 Williams WJ38-15`, a sponsor cell reading DARPA, the Defense Advanced Research Projects Agency, and a description that the register,
-which Andreas Parsch compiles from data the Department of Defense has released, itself marks as only partly official \[[Parsch, DOD 4120.15-L Addendum][ref_mds_addendum]\].
+which Andreas Parsch compiles from data the Department of Defense has released, marks as only partly official \[[Parsch, DOD 4120.15-L Addendum][ref_mds_addendum]\].
 
 > Longshot; Experimental air-launched UCAV for air-to-air engagements.
 
 **The name is official wording and the sentence after it is the compiler's**, whose UCAV
 abbreviates unmanned combat air vehicle. That distinction is
-visible in the register's own markup and it is the subject of the second section below. The row's
-other cells carry no mark and are official data by the register's own scheme, **so what the
+visible in the register's markup, and the second section below takes it up. The row's
+other cells carry no mark and are official data by the register's scheme, **so what the
 Department has released is the allocation's bookkeeping and the name, and the mission statement a
 reader would naturally take as the government's description of the aircraft is not one.**
 
 The programme behind the designation is LongShot, a Defense Advanced Research Projects Agency effort
 to fly an unmanned air vehicle that is itself launched from an aeroplane and that carries and fires
-air-to-air missiles of its own. **The research question is not the range benefit, which is
+air-to-air missiles \[[DARPA LongShot programme][ref_darpa_longshot]\]. **The research question is not the range benefit, which is
 arithmetic.** It is whether a vehicle that small can release a missile that large and still fly, and
 the government has said so in the same sentence in four consecutive budget
 justification books published before this article's date, and in a fifth
-published after it.
+published after it \[[DARPA PB2023 justification][ref_darpa_pb2023]\]
+\[[DARPA PB2027 justification][ref_darpa_pb2027]\].
 
 This article is the other side of an event the [X-67][related_post_a364_x67_slot_taken_by_xq67]
 article described. That article asked why the research series skipped the number 67, and its answer
 turned on this allocation having been approved when both computable readings of the governing
 instruction gave 67 rather than 68. **The X-68A is the allocation that closed the X-67**, and the
-three readings of why the government issued 68 belong to that article and not to this one.
+three readings of why the government issued 68 belong to that article.
 
 ## The Research Question
 
@@ -59,8 +60,9 @@ fifth book, which falls outside this article's date, carries it too \[[DARPA PB2
 
 **That sentence is the keystone and the rest of the entry is the motivation.** The motivation is that
 a slower air-breathing vehicle can carry a missile a long way more cheaply than the missile can carry
-itself, so the missile arrives at its launch point with its propellant unspent. The arithmetic of
-that claim is worked below and it is not in doubt. **What is in doubt is whether the vehicle
+itself, so the missile arrives at its launch point with its propellant unspent
+\[[DARPA PB2023 justification][ref_darpa_pb2023]\]. The arithmetic of
+that claim is worked below and is not in doubt. **What is in doubt is whether the vehicle
 survives the launch.**
 
 ### Why the Ratio Is the Problem Rather Than the Missile
@@ -93,11 +95,12 @@ $$
 $$
 
 **The fact sheet's figures are 37,500 and 81,000 pounds, converted here at the exact definition of
-the pound, because the sheet's own metric conversion of its take-off weight is wrong.** It prints
+the pound, because the sheet's metric conversion of its take-off weight is wrong.** It prints
 36,450 kilograms where 81,000 pounds is 36,741.0, a difference of
 291 kilograms, and a document that converts its own headline figure incorrectly is
 quoted here by its pounds. The sheet is read from a public archive snapshot because the service's
-site refuses every client, and it is current as of April 2019. At the exact definition of
+site refuses every client, and that copy is current as of April 2019
+\[[F-15E fact sheet][ref_f15e]\]. At the exact definition of
 0.45359237 kilograms to the pound, the conversion and the midpoint are
 
 $$
@@ -126,9 +129,9 @@ $$
 \frac{151.95\ \text{kg}}{161.5\ \text{kg}} \;=\; 0.941
 $$
 
-**And that factor is a statement about the two launchers alone, because the missile's own mass
-cancels out of it.** Dividing the two definitions gives an identity worth displaying, since it says
-the factor is not a property of the missile at all.
+**That factor describes the two launchers alone, because the missile's mass
+cancels out of it.** Dividing the two definitions gives the identity below, from which
+the missile has dropped out.
 
 $$
 \frac{\mu_v}{\mu_f}
@@ -136,11 +139,11 @@ $$
 \;=\; n\, \frac{m_{0,f}}{m_{0,v}}
 $$
 
-**Two missiles and a launcher mass ratio of about fifteen give 30**, which is the
-same number arrived at by cancellation rather than by substitution. Any missile carried by both
+**Two missiles and a launcher mass ratio of about fifteen give 30**, the
+same number, reached by cancellation where the display above reached it by substitution. Any missile carried by both
 aircraft produces the same factor.
 
-**That factor of 30 is the whole research question.** It is the reason a problem that is negligible at a fighter's mass fraction becomes the thing a
+**That factor of 30 is the research question.** It turns a problem that is negligible at a fighter's mass fraction into the thing a
 demonstrator is built to retire.
 
 ### The Quantity That Makes It Worse Than Linear
@@ -153,21 +156,21 @@ $$
 \alpha \;=\; \frac{\mu}{1 - \mu}
 $$
 
-**At small $\mu$ the amplification is indistinguishable from $\mu$ itself and at large $\mu$ it
-diverges, and the rate of divergence is itself worth one line.** Differentiating gives
+**At small $\mu$ the amplification is indistinguishable from $\mu$ and at large $\mu$ it
+diverges, and its rate of divergence takes one line.** Differentiating gives
 
 $$
 \frac{d\alpha}{d\mu} \;=\; \frac{1}{(1-\mu)^2}
 $$
 
-**so the amplification grows at 1.012 times the mass fraction's own rate at the
+**so the amplification grows at 1.012 times the mass fraction's rate at the
 fighter's operating point and at 1.485 times at this vehicle's.** The fighter lives
 where the relation is effectively linear. This vehicle lives where every further kilogram of store
 costs half again its proportional share.
 
 **At the operating points themselves the divergence reads as follows.** A fighter's $\mu$ of
 0.601 percent amplifies to 0.605 percent, a change in the third significant figure. This vehicle's
-17.94 percent amplifies to 21.87 percent, and a vehicle at half its own release mass would see its
+17.94 percent amplifies to 21.87 percent, and a vehicle releasing half its mass would see its
 centre of gravity move by the whole store arm, since $\alpha$ reaches one there. Because
 $\alpha = m_s / m_1$, each value follows from the masses directly.
 
@@ -180,7 +183,7 @@ $$
 $$
 
 **Nothing about this aircraft's mass, span, wing area or internal geometry is published**, so $\mu$
-itself cannot be stated. It is swept, and so is every quantity that depends on the vehicle's
+cannot be stated. It is swept, and so is every quantity that depends on the vehicle's
 dimensions. The sweep runs from
 1,000 to 3,000 kilograms, which gives $\mu$ from
 32.3 percent down to 10.8 percent for a pair of missiles, and the
@@ -194,10 +197,10 @@ $$
 
 ## The Register Row, and the One Official Word in Its Description
 
-**The register marks its own reliability, and this row is marked in a way no other research row is.**
+**The register marks the reliability of its entries, and this row is marked in a way no other research row is.**
 
 The addendum to the Department of Defense list of model designations, which Andreas Parsch compiles,
-records allocations from 19 August 1998 onward and explains in its own front matter why it exists. No updated edition was
+records allocations from 19 August 1998 onward and explains in its front matter why it exists. No updated edition was
 published for almost six years after October 1998, the compiler requested the new assignments under
 the Freedom of Information Act, and the list has been maintained since
 \[[Parsch, DOD 4120.15-L Addendum][ref_mds_addendum]\]. The compiler further records that for designations
@@ -206,9 +209,9 @@ no longer releasable to the public, and that wording which is not official Depar
 therefore marked as such.
 
 **That mark sits at three levels and the three mean different things.** A mark on the whole row says
-the allocation itself is absent from officially released data. A mark on the description cell says
+the allocation itself is absent from officially released data. A mark on the description cell means
 the allocation is official and the stated purpose is the compiler's. **A mark on a span inside the
-description says part of the description is official wording and part is not.**
+description indicates that part of the description is official wording and part is not.**
 
 | State | What the mark says | Rows |
 |---|---|---:|
@@ -228,9 +231,9 @@ over the same 539 rows, and 5 of the 103 marks fall on the 7 irregular rows.
 **17 rows in the register carry a span-level mark and exactly 1 of them is
 a research allocation.** The other 16 are a fighter, two light attack aircraft, two trainers, three
 helicopters, an airborne communications aircraft, an unmanned tanker, an assault aircraft prototype
-and five missiles. In each of them the pattern is identical and it is worth
-naming, because once seen it explains the mark entirely. **The popular name is official and the
-sentence explaining the aircraft is not.**
+and five missiles. Each of them follows the same pattern,
+and once seen it explains the mark entirely. **The popular name is official and the
+sentence explaining the aircraft is not.** \[[Parsch, DOD 4120.15-L Addendum][ref_mds_addendum]\]
 
 The row's description is built as the name, then a separator, then a marked span.
 
@@ -253,7 +256,7 @@ inference. **No public Department document read for this article states what the
 ### Rows Marked at the Row Level Carry No Full Date
 
 **16 rows carry the row-level mark and 0 of them carries a full
-date.** That is not a coincidence and it is close to a tautology once stated. A row whose allocation
+date.** That is not a coincidence. Once stated, it comes close to a tautology. A row whose allocation
 is absent from officially released data has no officially released allocation date either, so the
 compiler enters a year, a month and a year, or nothing.
 
@@ -266,20 +269,20 @@ from any officiality count that uses it.** The count then reports zero marks of 
 plainly carries, and reports it with no warning of any sort. The figures above are computed over all
 539 rows for that reason.
 
-### The Register's Own Spelling Differs From the Programme's
+### The Register Spells the Name Differently
 
 The register prints the name as `Longshot`. **The sponsoring agency and the contractor both write it
-LongShot**, with an internal capital, in their own announcements
+LongShot**, with an internal capital, in their announcements
 \[[DARPA LongShot programme][ref_darpa_longshot]\] \[[General Atomics on the X-68A][ref_gaasi_x68a]\].
-The difference is trivial and it is recorded because the register is the only document that gives the
+The difference is trivial. It is recorded because the register is the only document that gives the
 name official standing, and the form it gives official standing to is
 the one nobody else uses.
 
-## Programme Origin, Which the Award Record Tells Better Than the Press Does
+## Programme Origin From the Award Record
 
-**Five awards in the federal award record carry this programme \[[USAspending federal award record][ref_usaspending]\], and together they say things
-no press item says.** The [X-65][related_post_a362_aurora_x65_crane] article finds the same of its
-own programme's award record.
+**Five awards in the federal award record carry this programme \[[USAspending federal award record][ref_usaspending]\], and together they record things
+no press item reports.** The [X-65][related_post_a362_aurora_x65_crane] article finds the same of
+the award record for its programme.
 
 | Instrument | Recipient | Amount | Period | Offers | Category |
 |---|---|---:|---|---:|---|
@@ -291,7 +294,7 @@ own programme's award record.
 
 **The total is 148,305,710.65 dollars.** Every instrument is cost plus fixed fee. The four awarded
 by the sponsoring agency all cite solicitation HR001120S0037, so one broad agency announcement
-covers the early work and the demonstration phase alike.
+covers the early work and the demonstration phase alike \[[USAspending federal award record][ref_usaspending]\].
 
 ### The Sponsor Holds Five Research Rows and Four Are Recent
 
@@ -303,14 +306,14 @@ sixth, holds half of the recent ones. The X-56B row, dated only as 2019 with a q
 that count because its place in the year is unknown, and with it counted the share is 4 of 9.
 The designation series' present tempo is substantially this one sponsor's, which is context for the
 register-wide statements the [X-67][related_post_a364_x67_slot_taken_by_xq67] article made about
-allocation cadence.
+allocation cadence \[[Parsch, DOD 4120.15-L Addendum][ref_mds_addendum]\].
 
-### The Support Contract Comes First and It Is a Navy Instrument
+### The First Instrument Is a Navy Support Contract
 
 **N6523620F3033 begins 150 days before the earliest of the three development awards.**
-It is awarded by a Navy information warfare office rather than by the sponsoring agency, it cites a
-Navy solicitation of its own rather than the programme's broad agency announcement, and its product
-code is professional engineering support and not research or development.
+It is awarded by a Navy information warfare office, it cites a
+Navy solicitation where the other four awards cite the programme's broad agency announcement, and its product
+code is professional engineering support, a category outside research and development \[[USAspending federal award record][ref_usaspending]\].
 
 **So the programme was buying engineering support five months before it was buying designs.** That
 ordering is in the record and is not in any account of the programme this article found.
@@ -321,37 +324,37 @@ ordering is in the record and is not in any account of the programme this articl
 Northrop Grumman's instrument carries product code AC11, which the record glosses as basic
 research, and it runs 248 days. General Atomics' and Lockheed Martin's carry
 AC13, experimental development, and run 1,357 and 479 days
-respectively.
+respectively \[[USAspending federal award record][ref_usaspending]\].
 
 **The obligated amounts differ by much more than the categories suggest.** General Atomics took
 3.9 times Lockheed Martin's amount and 10.1 times Northrop Grumman's, for
-a three-award total of 41,580,384.00 dollars. **This was not three firms doing the same work at the
+a three-award total of 41,580,384.00 dollars \[[USAspending federal award record][ref_usaspending]\]. **This was not three firms doing the same work at the
 same scale.**
 
-**And the competition fields are not uniform either, which is easy to get wrong.** Northrop
+**The competition fields are not uniform either, which is easy to get wrong.** Northrop
 Grumman's action records 36 offers received under full and open competition. General
 Atomics' and Lockheed Martin's each record 5 offers under full and open competition
-after exclusion of sources. **These are different procurement postures recorded on actions awarded
+after exclusion of sources \[[USAspending federal award record][ref_usaspending]\]. **These are different procurement postures recorded on actions awarded
 within two months of one another**, and this article states the fields as the record carries them
-rather than inferring a selection mechanism from them, because the mechanism is not in the record.
+and infers no selection mechanism from them, because the mechanism is not in the record.
 
 ### General Atomics' Early Instrument Outlives the Programme Phase It Belongs To
 
 **HR001121C0023 runs to 2024-10-31**, which is 1,357 days, against Lockheed Martin's
 479 and Northrop Grumman's 248. It therefore remains open for well over a year
 after the demonstration award of 2023-06-30 begins. **Two instruments with the same recipient
-and the same programme overlap for that period**, which the record shows and does not explain.
+and the same programme overlap for that period**, which the record shows and does not explain \[[USAspending federal award record][ref_usaspending]\].
 
-### The Demonstration Award, and the Figure the Press Reports
+### The Demonstration Award Against the Press Figure
 
 **The record gives HR001123C0087 as 101,920,961.08 dollars** with a period of performance ending
-2026-12-31 and 1 offer received. Press accounts of this award report a figure
+2026-12-31 and 1 offer received \[[USAspending federal award record][ref_usaspending]\]. Press accounts of this award report a figure
 of 94 million dollars \[[DefenseScoop on LongShot Phase 3][ref_defensescoop_longshot_p3]\]. **The record's figure is higher**, and the difference is consistent
 with the press having reported an initial obligation while the record carries the current total, but
 this article has not read a document that says so and therefore does not assert it.
 
-**The period of performance is the part worth noting.** It ends 2026-12-31, in the same quarter
-as the flight test campaign the sponsoring agency has said may begin as early as the end of 2026
+**The period of performance ends in the quarter of the earliest flight test date the agency has given.** It ends 2026-12-31, and the
+sponsoring agency has said the flight test campaign may begin as early as the end of 2026
 \[[DARPA on the X-68A][ref_darpa_longshot_news]\].
 That campaign and that statement both postdate this article's date and are treated accordingly below.
 
@@ -370,17 +373,17 @@ $$
 
 The remainder is not accounted for by any award in the record that carries this programme. It may
 include government labour, test facilities and work bought through instruments that do not name
-the programme, and the record does not say which. **A programme's cost is not
+the programme, and which of these applies is not recorded. **A programme's cost is not
 its contracts** and the two records are not substitutes for one another.
 
 ### The Solicitation Was Not Read
 
 **HR001120S0037 is named by four awards and this article has not read it.** The federal
 opportunity portal serves a single-page application whose content is not in the delivered document,
-the public web archive holds no snapshot of the announcement, and the sponsoring agency's own site
+the public web archive holds no snapshot of the announcement, and the sponsoring agency's site
 returns a not-found response for it. **Its address in the portal is nonetheless real and is cited
 as an address** \[[Solicitation HR001120S0037][ref_baa_sam]\], so that a reader with a session can
-reach what this article could not, **and no claim here rests on the announcement's content.**
+reach what this article could not, **and no claim here depends on the announcement's content.**
 
 ### Two Names Appear as Programme Manager
 
@@ -391,14 +394,15 @@ Colonel John Casey as LongShot programme manager
 \[[DARPA on the X-68A][ref_darpa_longshot_news]\]. **This article reports both with their sources and
 does not resolve which is current**, since a programme running six years may simply have had two.
 
-## What Seven Budget Books Said, and the One Time the Concept Changed
+## What Seven Budget Books Said About the Concept
 
 **The programme's description in the budget justification books is boilerplate that is rewritten when
 the concept changes, so diffing it across books dates the change without any press item at all.**
 Seven books carry a LongShot entry, from the book of February 2020 to the book of
-April 2026, and they carry six distinct descriptions between them.
+April 2026, and they carry six distinct descriptions between them \[[DARPA PB2021 justification][ref_darpa_pb2021]\]
+\[[DARPA PB2027 justification][ref_darpa_pb2027]\].
 
-### The Programme Began as a Weapon and Not as an Aeroplane
+### The Programme Began as a Weapon System
 
 **The first two books describe a munition.** PB2021 and PB2022 both open the entry the same way
 \[[DARPA PB2021 justification][ref_darpa_pb2021]\] \[[DARPA PB2022 justification][ref_darpa_pb2022]\].
@@ -409,9 +413,9 @@ April 2026, and they carry six distinct descriptions between them.
 > multi-kill systems that can engage more than one target.
 
 **Three phrases in that passage do not survive into the later books.** It is a weapon system rather
-than an air vehicle, its propulsion is multi-mode, and it is multi-kill. The book of
-May 2021 also spells out the benefit in two numbered parts, and those two parts are the
-quantitative claims this article works through below.
+than an air vehicle, its propulsion is multi-mode, and it is multi-kill. Both books also
+spell out the benefit in two numbered parts, and those two parts are the
+quantitative claims this article works through below \[[DARPA PB2021 justification][ref_darpa_pb2021]\] \[[DARPA PB2022 justification][ref_darpa_pb2022]\].
 
 > First, the weapon system will have a much-increased range over their legacy counterparts for
 > transit to an engagement zone. Second, launching air-to-air missiles closer to the adversary
@@ -427,8 +431,9 @@ quantitative claims this article works through below.
 > missiles.
 
 **Four things changed at once.** The weapon system became an unmanned air vehicle. Multi-mode
-propulsion disappeared and has not returned. The missiles became **existing** missiles, which is a
-statement about what the programme will not develop. **And the keystone sentence appeared.**
+propulsion disappeared and has not returned. The missiles became **existing** missiles, and that word
+marks what the programme will not develop. **And the keystone sentence appeared.**
+\[[DARPA PB2022 justification][ref_darpa_pb2022]\] \[[DARPA PB2023 justification][ref_darpa_pb2023]\]
 
 **The change is bounded by the two book dates and the window is 11 months**,
 from the book of May 2021 to the book of April 2022. That is as tight a dating as the
@@ -436,36 +441,37 @@ budget record can give, and it required no press item to reach.
 
 ### The Award Record Corroborates the Change Independently
 
-**One contract description preserves the original concept in the government's own words and is dated
-by its own award.** Northrop Grumman's instrument of 2021-01-04 carries this as its description
-of the programme.
+**One contract description preserves the original concept in the government's words and is dated
+by its award.** Northrop Grumman's instrument of 2021-01-04 carries this as its description
+of the programme \[[USAspending federal award record][ref_usaspending]\].
 
 > LONGSHOT, THE LONGSHOT PROGRAM WILL DEMONSTRATE THE USE OF MULTIPLE MODES OF PROPULSION TO ACHIEVE
 > OPTIMAL LONG-RANGE AIR-TO-AIR WEAPONS EMPLOYMENT.
 
 **Multiple modes of propulsion, in a contract file, from January 2021.** The budget books and the
 award record are separate systems maintained by separate offices for separate purposes, and they
-agree on what this programme was at the start. **That is corroboration and not repetition.**
+agree on what this programme was at the start. **Agreement between two independent systems is corroboration.**
 
 **And the engine is the physical trace of the change.** A vehicle whose concept is multi-mode
 propulsion does not fly on one cruise-missile engine. The engine in the register's cell is single
 mode, and this article takes that as the strongest available evidence that the change
 in the books was a change in the aircraft and not in the prose describing it.
 
-### The Later Changes Are Vocabulary and Not Concept
+### The Later Changes Are Matters of Vocabulary
 
 **Three further versions follow and none of them changes the aircraft.** The book after
 PB2023 and PB2024 drops the expansion of unmanned air vehicle from the opening sentence and says
 `an air-launched system`. The next replaces `a relatively small UAV` with `a relatively small
-uninhabited system` in the keystone sentence. The last replaces `which provides` with `providing`.
+uninhabited system` in the keystone sentence. The last replaces `which provides` with `providing`
+\[[DARPA PB2025 justification][ref_darpa_pb2025]\] \[[DARPA PB2026 justification][ref_darpa_pb2026]\] \[[DARPA PB2027 justification][ref_darpa_pb2027]\].
 
 **The first two remove first the expansion of the word unmanned and then the word itself, and the
 third is copy editing.** A reader diffing these books without separating concept from vocabulary would count
-six changes where there was one, and this article says which is which.
+five changes where there was one, and this article identifies which is which.
 
-### The Funding Line, and the Same Year Reported Three Ways
+### The Funding Line Reports One Year Three Ways
 
-**A budget book states a request for its budget year and actuals for the two years before it, so a
+**A budget book states a request for its budget year and figures for the two years before it, so a
 fiscal year appears in up to three books and can appear with three different figures.** Reading only
 the latest book hides every restatement.
 
@@ -479,12 +485,13 @@ the latest book hides every restatement.
 | 2026 | 52.660, 76.900 | 24.240 | 46.0 percent |
 
 **4 fiscal years are restated and 2 are not.** The stable pair,
-FY2022 and FY2023 in the books' abbreviation for fiscal year, each hold 36.000 million dollars across three books without moving, which
-is worth stating because it establishes that the restatements elsewhere are not an artefact of how
-the books are compiled.
+FY2022 and FY2023 in the books' abbreviation for fiscal year, each hold 36.000 million dollars across three books without moving. Their
+stability establishes that the restatements elsewhere are not an artefact of how
+the books are compiled \[[DARPA PB2023 justification][ref_darpa_pb2023]\] \[[DARPA PB2024 justification][ref_darpa_pb2024]\] \[[DARPA PB2025 justification][ref_darpa_pb2025]\].
 
 **The largest restatement is fiscal year 2025, which grew 74.8 percent above its own
-request**, from 36.742 million dollars to 64.213 million, and every share in the table's last
+request**, from 36.742 million dollars to 64.213 million \[[DARPA PB2025 justification][ref_darpa_pb2025]\] \[[DARPA PB2026 justification][ref_darpa_pb2026]\]
+\[[DARPA PB2027 justification][ref_darpa_pb2027]\], and every share in the table's last
 column is the spread over the lowest figure in the same way.
 
 $$
@@ -499,12 +506,13 @@ accelerated, and the books do not say why or by whom.
 **The line did not stay where it started.** Through the book of February 2020 and five books after
 it the entry sits in programme element 0603286E, Advanced Aerospace Systems, project AIR-01. **From
 fiscal year 2026 it sits in programme element 0603468E, Advanced Complex Systems, project ACX-01**,
-and each book from that point carries the migration in a sentence of its own.
+and each book from that point carries the migration in a dedicated sentence \[[DARPA PB2021 justification][ref_darpa_pb2021]\]
+\[[DARPA PB2026 justification][ref_darpa_pb2026]\].
 
 > Beginning in FY 2026, this program will be funded in PE 0603468E, Project ACX-01.
 
 **The migration matters to anyone reconstructing the funding history**, because a search of the old
-programme element after fiscal year 2026 finds the programme named and funded at nothing. The
+programme element after fiscal year 2026 finds the programme named and funded at nothing \[[DARPA PB2027 justification][ref_darpa_pb2027]\]. The
 [X-65][related_post_a362_aurora_x65_crane] article met the same structure in the same programme
 element and recorded it for the same reason.
 
@@ -600,7 +608,7 @@ programme's.
 | $\kappa$ | Ratio of specific heats | dimensionless |
 | $s$ | Distance flown along the flight path | m |
 
-### What Leaves, and What the Remainder Must Absorb
+### What Leaves and What the Remainder Must Absorb
 
 **The release is an instantaneous change in the vehicle's mass, its centre of gravity, its inertia
 and its trim, and all four follow from the one ratio.** The mass after release is immediate.
@@ -624,12 +632,12 @@ $$
 \Delta x \;=\; x_{cg,1} - x_{cg,0} \;=\; -\,\frac{\mu}{1-\mu}\, d_s \;=\; -\,\alpha\, d_s
 $$
 
-**The sign is the physically obvious one and is worth stating.** Releasing a store that sits aft of
+**The sign is the physically obvious one.** Releasing a store that sits aft of
 the centre of gravity moves the centre of gravity forward. **The magnitude is the part that is not
-obvious**, because it is the amplified fraction rather than the fraction, and the amplification is
-what distinguishes this vehicle from the aeroplane that carries it.
+obvious**, because the arm is scaled by the amplified fraction where intuition expects the plain one, and the amplification
+distinguishes this vehicle from the aeroplane that carries it.
 
-### The First Thing That Happens Is Vertical, and It Happens Before Anything Rotates
+### The First Consequence Is Vertical and Precedes Any Rotation
 
 **The vehicle trimmed its lift against a weight that is suddenly smaller, so the first consequence
 of a release is translational.** At the instant the store leaves, the lift is unchanged and the
@@ -644,8 +652,8 @@ $$
 
 **The amplification factor appears a third time, now as a load factor step.** The fighter of the
 comparison rises at 0.0060 of a gravity, which its occupants would not notice. This vehicle
-rises at 0.219 of a gravity, or 2.14 metres per second squared, **which is a
-manoeuvre, uncommanded, at the exact moment the centre of gravity is also moving.**
+rises at 0.219 of a gravity, or 2.14 metres per second squared, **an uncommanded
+manoeuvre at the moment the centre of gravity is also moving.**
 
 **Restoring level flight means shedding lift in proportion to the mass that left.** At constant
 speed and dynamic pressure the required lift coefficient steps down by the mass ratio,
@@ -656,7 +664,7 @@ $$
 
 **a 17.94 percent reduction, commanded through the same control surfaces that are
 simultaneously retrimming the pitching moment.** The two demands arrive together and are coupled
-through the same actuators, which is one more sentence of content in the government's phrase
+through the same actuators, and that coupling adds one more sentence of content to the government's phrase
 stability and control challenges.
 
 ### The Static Margin Can Be Spent in One Event
@@ -669,14 +677,14 @@ $$
 \Delta K \;=\; -\,\frac{\Delta x}{\bar c} \;=\; \frac{\alpha\, d_s}{\bar c}
 $$
 
-**This is the result that makes the government's sentence a research question rather than an
-engineering detail.** For a vehicle of 1,800 kilograms releasing two missiles, with a mean
+**This result turns the government's sentence from an engineering
+detail into a research question.** For a vehicle of 1,800 kilograms releasing two missiles, with a mean
 aerodynamic chord of 1.2 metres, the static margin moves by 5.5 percentage points
 for a store arm of 0.3 metres and by 21.9 percentage points for an arm of
 1.2 metres.
 
-**The band a design accepts is taken here as a few percent of chord, which is an assumption and not
-a sourced figure.** A release that moves the margin by tens of percentage points then does not
+**The band a design accepts is taken here as a few percent of chord, an assumption that no
+source supplies.** A release that moves the margin by tens of percentage points then does not
 perturb the vehicle's stability. It redefines it. The
 vehicle must be stable both before and after, which is a constraint on where the store may sit rather
 than a constraint on the control system.
@@ -690,8 +698,8 @@ $$
 
 **So the admissible store arm is inversely proportional to the amplification factor.** At a fighter's
 $\mu$ the bound is metres and does not bind. At this vehicle's it is a fraction of a
-chord, and the store must sit very close to the centre of gravity. **That is a layout requirement
-derived from a stability requirement, and it is the kind of coupling a demonstrator exists to
+chord, and the store must sit very close to the centre of gravity. **A stability requirement has
+become a layout requirement, the kind of coupling a demonstrator exists to
 discover.**
 
 ### Retrimming Costs Control Authority That Was Sized for Something Else
@@ -706,13 +714,13 @@ $$
 
 **The deflection is proportional to the lift coefficient**, so the release is hardest to trim out at
 the low speed and high lift coefficient where a small vehicle has least control power to spare, and
-easiest in fast level flight. A release envelope therefore exists, and it is narrower at the slow end.
+easiest in fast level flight. A release envelope therefore exists, narrower at the slow end.
 
 ### The Inertia Changes Twice and Taking One Correction Is the Common Error
 
 **Two parallel-axis corrections apply to a release and only one of them is intuitive.** The store's
 own inertia and its $m_s d_s^2$ term leave with the store. **The remaining vehicle must then be
-re-referenced to a centre of gravity that has itself moved**, which is a second correction of
+re-referenced to a centre of gravity that has moved**, a second correction of
 opposite effect.
 
 $$
@@ -722,7 +730,7 @@ $$
 
 **The second term is small when $\mu$ is small and is not negligible here.** An analysis that stops
 after the first term overstates the remaining inertia, and overstating inertia understates every
-angular rate the release produces, which is an error in the optimistic direction.
+angular rate the release produces, an error in the optimistic direction.
 
 ### Releasing One of a Pair Is a Different Problem From Releasing Both
 
@@ -743,8 +751,8 @@ $$
 
 **This scales with $\mu$ directly rather than with $\alpha$**, because the asymmetry is a weight and
 not a redistribution, and it scales inversely with dynamic pressure. **A single release at low speed
-under load factor is therefore the binding case for lateral control**, and it is exactly the case a
-vehicle firing one missile and keeping another would fly.
+under load factor is therefore the binding case for lateral control**, and a
+vehicle firing one missile and keeping another would fly it.
 
 **Before the control responds at all, the moment produces a roll transient whose arithmetic is
 rigid-body rotation and nothing else.** The angular acceleration and the open-loop bank growth are
@@ -794,14 +802,14 @@ $$
 $$
 
 **At an assumed ejection velocity of 7 metres a second** the vehicle takes 1.53 metres a
-second if both stores leave together, or 0.69 for one of the pair at its own fraction of
+second if both stores leave together, or 0.69 for one of the pair at the single-missile fraction of
 8.97 percent. The same ejector on the F-15E of the comparison above gives
 0.042 metres a second. **The amplification factor appears again, and this time it
-multiplies a velocity the cartridge was sized to produce for the store's benefit and not the
-launcher's.**
+multiplies a velocity the cartridge was sized to produce for the store's benefit
+alone.**
 
-**Treated properly the ejection is a two-body problem, and the two-body problem has a mass of its
-own.** The cartridge's impulse $J$ acts equally and oppositely on store and launcher, so the
+**Treated properly the ejection is a two-body problem, governed by a
+reduced mass.** The cartridge's impulse $J$ acts equally and oppositely on store and launcher, so the
 relative separation velocity is the impulse over the reduced mass,
 
 $$
@@ -810,7 +818,7 @@ v_{rel} \;=\; \frac{J}{m_r},
 m_r \;=\; \frac{m_s\, m_1}{m_0} \;=\; \mu\,(1-\mu)\, m_0
 $$
 
-**which for one missile here is 147 kilograms against the missile's own 161.5.**
+**which for one missile here is 147 kilograms against the missile's 161.5.**
 The energy the cartridge must deliver is $J^2 / 2 m_r$, about 4.3 kilojoules for an
 impulse of 1,130 newton seconds, **and the launcher's share of that energy follows from momentum
 conservation alone.**
@@ -823,11 +831,11 @@ $$
 
 **The launcher absorbs exactly its store's mass fraction of every cartridge it fires.** A fighter
 takes 0.60 percent of each shot and this vehicle takes 9.0 percent,
-about 390 joules per release delivered into its own structure, **which is a
-repeating structural load whose size was set by the keystone parameter and not by any choice the
-ejector's designer made.**
+about 390 joules per release delivered into its structure, **a
+repeating structural load whose size the keystone parameter set, whatever the
+ejector's designer chose.**
 
-**And the ejector acts off the centre of gravity, so it also produces rotation.** A force $F_e$ at an
+**The ejector acts off the centre of gravity, so it also produces rotation.** A force $F_e$ at an
 arm $d_s$ for a stroke time $\tau$ delivers an angular impulse.
 
 $$
@@ -835,9 +843,9 @@ $$
 $$
 
 **The inertia in that denominator is the inertia after release**, computed with both corrections
-above, which is why the second correction matters. **An ejector sized to clear the store cleanly is
+above, and the second correction matters for that reason. **An ejector sized to clear the store cleanly is
 not sized to leave the launcher undisturbed**, and for a vehicle of this mass fraction those are
-different requirements and not the same one.
+different requirements.
 
 **A worked example, with every assumption stated, shows the size of the effect.** The pitch inertia
 of a slender body of uniform density is estimated as
@@ -847,20 +855,20 @@ I_y \;\approx\; \tfrac{1}{12}\, m_1\, l^2
 $$
 
 **which at 6 metres of length gives 4,916 kilogram square metres, and the
-estimate is an assumption and not a datum.** The cartridge impulse above delivered over
+estimate is an assumption with no datum behind it.** The cartridge impulse above delivered over
 50 milliseconds is a force of 22.6 kilonewtons, and acting at the admissible
 arm of 0.3 metres it leaves a residual pitch rate of about 4.0 degrees per
 second, or 7.9 at twice the arm. **A tip-off rate of a few degrees per second is
-modest and it is not zero, and it arrives at the same instant as the heave, the trim change and the
-static margin step above.** The release is all four at once, which is what the word transient is
-carrying in the budget books' sentence.
+modest but not zero, and it arrives at the same instant as the heave, the trim change and the
+static margin step above.** The release is all four at once, and the word transient carries
+all four in the budget books' sentence.
 
-## The Premise, Which Is a Cost and Not a Benefit
+## The Premise as an Exchange Rate
 
-**The programme's motivation is usually stated as extra reach and it is better stated as an
-exchange rate.** The budget book of May 2021 gives two benefits and both of them reduce to one
+**The programme's motivation is usually stated as extra reach and is better stated as an
+exchange rate.** The budget books of February 2020 and May 2021 give two benefits and both of them reduce to one
 asymmetry between how an air-breathing engine and a solid rocket motor convert propellant into
-distance.
+distance \[[DARPA PB2021 justification][ref_darpa_pb2021]\] \[[DARPA PB2022 justification][ref_darpa_pb2022]\].
 
 ### An Engine Does Not Carry Its Oxidiser
 
@@ -914,7 +922,7 @@ $$
 and climb figure in this article uses, and both follow from four constants of the standard
 atmosphere.
 
-**The constants are the defining document's own, read from the document.** The 1976 standard
+**The constants are read from the defining document.** The 1976 standard
 adopts $g_0$ of 9.80665 metres per second squared exactly, a sea-level pressure of 101,325
 pascals, a sea-level temperature of 288.15 kelvin and a heat-capacity ratio of 1.4
 in its table of adopted constants, and its table of defined gradients gives the first atmospheric
@@ -939,9 +947,9 @@ as a geometric 10,668 metres, the altitude would raise the density by about 0.2 
 kilograms per cubic metre and the sound speed to 296.6 metres per second. Each change is in the
 fourth significant figure.
 
-### A Missile's Reach Is Logarithmic and That Is the Whole Argument
+### A Missile's Reach Is Logarithmic
 
-**A missile does not cruise, it coasts.** After burnout it decelerates against its own drag, and
+**A missile does not cruise, it coasts.** After burnout it decelerates against drag, and
 writing the deceleration against distance rather than time gives an exponential decay with a
 characteristic length.
 
@@ -953,7 +961,7 @@ V(s) \;=\; V_b\, e^{-s/\ell},
 \ell \;=\; \frac{2m}{\rho\, C_D A}
 $$
 
-**For a missile of the mass and diameter the programme says it will carry, at cruise altitude, $\ell$
+**For a missile of the mass and diameter the programme expects to carry, at cruise altitude, $\ell$
 is about 114 kilometres.** A missile needs residual speed at arrival in order to manoeuvre
 against a manoeuvring target, so its reach is set by a terminal-speed requirement rather than by
 coming to rest.
@@ -968,10 +976,10 @@ Mach 2.0 down to Mach 1.2 the reach runs from 79 to 137 kilometres,
 which spans the 90 kilometres the encyclopedia gives for one variant of the missile family the
 programme names and reaches the lower end of the 130 to 160 kilometres it gives for a later one
 \[[AIM-120 AMRAAM][ref_amraam]\]. **The model is therefore calibrated against the one thing about
-this system that is published**, which is the reason to trust the comparison that follows rather than
+this system that is published**, and that calibration supports the comparison that follows more than
 the absolute values in it.
 
-**Reach being logarithmic in the speed ratio is the entire asymmetry.** Inverting the relation gives
+**Reach being logarithmic in the speed ratio creates the asymmetry.** Inverting the relation gives
 the burnout speed a motor must deliver for a required reach, and the exponential is now working
 against the designer.
 
@@ -995,8 +1003,8 @@ two-fifths propellant must become three-quarters propellant, which leaves no mas
 seeker or a structure. **The missile cannot be made to fly twice as far. It is not a matter of
 expense.**
 
-**The carrier buys the same distance on the Breguet relation, and the relation is worth deriving
-in one line because the derivation is where the asymmetry comes from.** In steady level flight the
+**The carrier buys the same distance on the Breguet relation, and a one-line derivation
+shows where the asymmetry comes from.** In steady level flight the
 thrust equals the drag, the drag is the weight over the lift-to-drag ratio, and the fuel flow is
 the thrust over the specific impulse, so each increment of distance costs fuel in proportion to
 the mass it is carrying,
@@ -1007,7 +1015,7 @@ dR \;=\; V\, dt
 $$
 
 **and the logarithm appears on integration rather than by assumption.** The missile's logarithm
-sits in the exponent of its reach and the carrier's sits inside its range, which is the entire
+sits in the exponent of its reach and the carrier's sits inside its range, and that placement is the
 difference between the two vehicles stated grammatically.
 
 $$
@@ -1032,8 +1040,8 @@ $$
 **and the next kilogram of fuel buys the carrier 4,901 metres while the next kilogram of
 solid propellant buys the missile 1,371**, a ratio of 3.6 at the midpoint of
 every sweep. The marginal ratio is smaller than the integral comparison suggests because the
-missile's first kilograms of propellant are cheap and its last are ruinous, **which is exactly
-what a logarithm in the exponent means.**
+missile's first kilograms of propellant are cheap and its last are ruinous, **as a logarithm in the exponent
+requires.**
 
 **That ratio, and not any statement about extra reach, is the programme.** The two vehicles are not
 competing to fly the same distance at different efficiencies. **One of them can fly the distance and
@@ -1048,7 +1056,7 @@ $$
 G \;=\; \frac{R_c + R_m}{R_m} \;=\; 1 + \frac{R_c}{R_m}
 $$
 
-**This is the honest form of the benefit and it is linear rather than exponential.** A carrier flying
+**In this honest form the benefit is linear rather than exponential.** A carrier flying
 as far as the missile doubles the reach. **This article does not state a figure for $G$**, because
 $R_c$ depends on the vehicle's fuel fraction and lift to drag ratio, neither of which is published,
 and a gain computed from two swept quantities would be a sweep presented as a result.
@@ -1056,9 +1064,9 @@ and a gain computed from two swept quantities would be a sweep presented as a re
 ### Why the Terminal-Energy Claim Must Be Stated Carefully
 
 **The budget book's second benefit is that launching closer increases energy in terminal flight, and
-the exponential makes that claim easy to overstate.** Arrival speed decays as $e^{-s/\ell}$ and
+the exponential makes that claim easy to overstate.** \[[DARPA PB2022 justification][ref_darpa_pb2022]\] Arrival speed decays as $e^{-s/\ell}$ and
 arrival kinetic energy therefore as $e^{-2s/\ell}$, so removing carrier transit from the missile's
-own fly-out multiplies its arrival energy by the reciprocal.
+fly-out multiplies its arrival energy by the reciprocal.
 
 $$
 \frac{E_f(s)}{E_f(s + R_c)} \;=\; \exp\!\left(\frac{2 R_c}{\ell}\right)
@@ -1067,12 +1075,12 @@ $$
 **Evaluated at a carrier range of several hundred kilometres this expression returns factors in the
 thousands, and those factors are meaningless.** The missile never flies that far, so the denominator
 describes an engagement that cannot occur. **The expression is a reach ceiling wearing the clothes of
-a benefit curve**, and it is valid only for $R_c$ small against $\ell$.
+a benefit curve**, valid only for $R_c$ small against $\ell$.
 
-**Stated within its domain the claim is still strong and it is the one worth making.** Because reach
+**Stated within its domain the claim is still strong, and only the bounded version should be made.** Because reach
 is logarithmic, every kilometre the carrier flies is a kilometre the missile does not have to spend
 speed on, and the speed it does not spend is available at arrival. **The benefit is real, it is
-bounded by the missile's own reach, and the unbounded version of it is an artefact.**
+bounded by the missile's reach, and the unbounded version of it is an artefact.**
 
 ### Reaction Time Is the Same Exponential Read Differently
 
@@ -1085,54 +1093,55 @@ $$
 
 **Flight time is convex in distance**, so the last kilometres of a long shot cost disproportionately
 more time than the first. **Moving the launch point forward removes time from the expensive end of
-that curve**, which is what the book means by reduced reaction time and is a stronger statement than
+that curve**, the sense in which the book claims reduced reaction time, and a stronger statement than
 a proportional saving would be.
 
 ## Dependent Systems
 
-### The Engine, and the Designation That Contradicts Itself
+### The Engine and Its Conflicting Designations
 
 **The register's engine cell is the only independent published statement of this aircraft's
-propulsion and it does not agree with itself.** The cell reads `1 Williams WJ38-15`. In the military aero-engine designation system, which the same compiler documents, the letter `J`
+propulsion, and its designation conflicts with the engine's published type.** The cell reads `1 Williams WJ38-15` \[[Parsch, DOD 4120.15-L Addendum][ref_mds_addendum]\]. In the military aero-engine designation system, which the same compiler documents, the letter `J`
 denotes a turbojet and the letter `F` a turbofan
 \[[Designations of U.S. Military Aero Engines][ref_ds_engines]\].
 
-**The same engine is identified elsewhere as the powerplant of the Taurus KEPD 350 cruise missile**,
-whose own published designation is P8300-15, which is described as a **turbofan** of 6,672
+**The same engine is identified elsewhere as the powerplant of the Taurus KEPD 350 cruise missile**
+\[[The War Zone on the X-68A][ref_twz_x68a]\],
+whose manufacturer designation is P8300-15, described as a **turbofan** of 6,672
 newtons, or 1,500 pound force \[[Taurus KEPD 350][ref_taurus]\]. **The missile's
-manufacturer uses the word itself**, its datasheet describing a high-thrust turbofan engine and
-stating the 1,400 kilogram mass this article's thrust-to-weight anchor rests on
-\[[Taurus Systems KEPD 350E datasheet][ref_taurus_ds]\]. **The thrust figure appears in neither
+manufacturer uses the same word**, its datasheet describing a high-thrust turbofan engine and
+stating the 1,400 kilogram mass on which this article's thrust-to-weight anchor depends
+\[[Taurus KEPD 350 datasheet][ref_taurus_ds]\]. **The thrust figure appears in neither
 manufacturer document and rests on the encyclopedia alone**, which the epistemic state records.
 
-**So the register calls it a turbojet and the engine's manufacturer designation calls it a
-turbofan.** The [X-65][related_post_a362_aurora_x65_crane] article met the mirror image of this
-exact problem, where the register gave a turbofan and the secondary index gave a turbojet, and
-recorded it for the same reason. **This article does not resolve the conflict.** Whether the string
+**So the register's engine string reads as a turbojet in that system, and the engine is described
+as a turbofan under its manufacturer designation.** The [X-65][related_post_a362_aurora_x65_crane] article met the mirror image of this
+problem, where the register gave a turbofan and the secondary index gave a turbojet, and
+recorded it on the same grounds. **This article does not resolve the conflict.** Whether the string
 `WJ38-15` parses as a standard military engine designation at all is not established by any document
 read here, and a guess would be worse than the open question.
 
-**One further caution about the engine, and it is about sourcing rather than about hardware.** Press
+**One further caution about the engine concerns sourcing rather than hardware.** Press
 accounts of this aircraft's propulsion attribute the engine to the designation register itself
 \[[The War Zone on the X-68A][ref_twz_x68a]\].
 **They are therefore not independent corroboration of it**, and the engine fact has exactly one
 source however many places it appears.
 
-### The Same Engine Maker Appears on Three Consecutive Subjects of This Series
+### The Same Engine Maker Appears on Three of Four Consecutive Subjects of This Series
 
 **15 rows in the register name Williams in their engine cell and
 4 of those are research allocations**, being the X-48A, the X-50A, the X-65A and the X-68A. So this
 aircraft, the [X-65][related_post_a362_aurora_x65_crane], and the unmanned allocation that took the
 number the [X-67][related_post_a364_x67_slot_taken_by_xq67] article is about, all carry an engine
-from one maker.
+from one maker \[[Parsch, DOD 4120.15-L Addendum][ref_mds_addendum]\].
 
 **The match is on the word and the word undercounts.** The X-61A's cell reads `1 F107-WR-105`,
 which is a Williams engine the cell does not name as one, and 2 further rows carry an
-F107 without the maker's name. **So this is a count of what the register says rather than a census
-of engines**, and the article states the match for that reason rather than implying the stronger
+F107 without the maker's name. \[[Parsch, DOD 4120.15-L Addendum][ref_mds_addendum]\] **So this is a count of what the register prints rather than a census
+of engines**, and the article states the match for that reason without implying the stronger
 claim.
 
-**Read as a fact about the register it is unremarkable and worth recording anyway.** One plausible
+**Read as a fact about the register it is unremarkable, though still recorded here.** One plausible
 reading, which this article does not test, is that few firms build engines in the thrust class a
 small demonstrator or a cruise missile needs, so that a series of small unmanned research aircraft
 keeps meeting the same names.
@@ -1141,22 +1150,24 @@ keeps meeting the same names.
 
 **General Atomics holds 16 rows in the register**, of which 11 are
 unmanned allocations, 4 are unmanned-control allocations, and 1 is a research
-allocation. **This one.**
+allocation \[[Parsch, DOD 4120.15-L Addendum][ref_mds_addendum]\]. **This one.**
 
-**That distribution says what kind of firm this is.** A contractor with eleven unmanned aircraft and
+**That distribution shows what kind of firm this is.** A contractor with eleven unmanned aircraft and
 four control stations in the designation register is an established builder of unmanned systems
-rather than a research house, and the X-68A is its first and only entry in the experimental series.
+rather than a research house, and the X-68A is its only row among the register's research
+allocations, although the contractor counts the XQ-67A as its first X-plane and this as its second
+\[[General Atomics on the X-68A][ref_gaasi_x68a]\].
 The [X-67][related_post_a364_x67_slot_taken_by_xq67] article recorded that the same firm holds both
 the allocation that took the number 67 and the allocation that closed it, **and claimed no intent in
 that coincidence.** This article claims none either.
 
-### What the Engine Tells Us About the Airframe, Which Is the Only Anchor There Is
+### The Engine as the Only Anchor for the Airframe
 
 **No mass, span, area or dimension of this aircraft is published**, so the engine is the one anchor
-available and it is used for all it is worth and no further.
+available, and this article uses it as far as it reaches and no further.
 
 The engine was built for an airframe whose manufacturer states 1,400 kilograms
-\[[Taurus Systems KEPD 350E datasheet][ref_taurus_ds]\], which with the encyclopedia's thrust
+\[[Taurus KEPD 350 datasheet][ref_taurus_ds]\], which with the encyclopedia's thrust
 figure gives that airframe a thrust to weight ratio of 0.486.
 
 $$
@@ -1166,7 +1177,7 @@ $$
 **Across the swept mass range the ratio runs from 0.680 at 1,000 kilograms to
 0.227 at 3,000 kilograms.**
 
-**What a thrust-to-weight ratio buys is a climb gradient, and the point-mass relation turns the
+**A thrust-to-weight ratio sets a climb gradient, and the point-mass relation turns the
 table above into performance.** In a steady climb the thrust carries the drag plus the weight
 component along the flight path,
 
@@ -1196,17 +1207,17 @@ drag, so a vehicle of that mass could not hold this altitude at this lift-to-dra
 **That negative sign is the most useful number the engine anchor produces, because it closes the
 mass sweep from above by classical mechanics alone.** The sweep's upper bracket is not a judgement
 about what seems reasonable. It is the mass beyond which the one published engine cannot sustain
-the flight condition every published description of the programme requires. **The brackets remain
-an inference and are labelled as one in the epistemic state, and the upper one rests on a mechanism
+the cruise condition this article assumes. **The brackets remain
+an inference and are labelled as one in the epistemic state, and the upper one stands on a mechanism
 rather than on a plausibility argument.**
 
-**And the engine's provenance constrains the speed.** A cruise missile powerplant sized for high
+**The engine's provenance also constrains the speed.** A cruise missile powerplant sized for high
 subsonic flight does not make a supersonic aeroplane, which is consistent with the budget books'
 repeated description of a slower, fuel-efficient vehicle for ingress
 \[[DARPA PB2023 justification][ref_darpa_pb2023]\] \[[DARPA PB2026 justification][ref_darpa_pb2026]\]. **The vehicle is slow by
 design and the design reason is the premise above.**
 
-### Structure, Which Is Dominated by the Bay Rather Than by Flight Loads
+### Structure Around the Bay
 
 **A vehicle carrying a store at a large mass fraction is a structure wrapped around a cavity.** The
 missile the programme names is 3.655 metres long and 177.8 millimetres in
@@ -1220,17 +1231,17 @@ $$
 $$
 
 **A vehicle that carries it internally cannot be shorter than that
-plus its own nose, tail and ejector stroke**, which sets a minimum length independently of any
+plus a nose, a tail and an ejector stroke**, which sets a minimum length independently of any
 aerodynamic consideration.
 
 **The stability result above then sets where along that length the store may sit.** The admissible
 arm was bounded by $\bar c (K_{\max}-K_{\min})/\alpha$, and the bound tightens as the vehicle gets
 smaller because $\alpha$ grows. **A smaller vehicle is harder to balance around the same missile, and
-the difficulty grows faster than the size shrinks.** That is the coupling between the keystone and
-the layout, and it is the reason the configuration question and the stability question are the same
+the difficulty grows faster than the size shrinks.** That coupling between the keystone and
+the layout makes the configuration question and the stability question the same
 question.
 
-### Control, Which Must Cover Two Configurations and the Transition
+### Control Across Two Configurations and the Transition
 
 **The vehicle must be controllable loaded, controllable empty, and controllable during the event
 between them.** The first two are static problems and the third is not.
@@ -1246,7 +1257,7 @@ from the launch aircraft and deployment of the surfaces the vehicle has neither 
 support nor its own aerodynamic controls. The deployment is therefore a timed event in a transient,
 and its reliability is a flight-safety matter and not a performance one.
 
-**The deployment itself is a hinge problem and its governing relations are two lines.** A panel of
+**The deployment is a hinge problem and its governing relations are two lines.** A panel of
 hinge-axis inertia $I_h$ driven through a sweep angle $\Delta\theta_h$ by a torque $M_h$ obeys the
 rigid-body rotation equation, and from rest under constant torque the deployment time follows,
 
@@ -1265,29 +1276,30 @@ jams delivers its whole hinge torque as an uncancelled rolling moment to a vehic
 that moment, no aerodynamic control to oppose it.** The reliability requirement on the deployment
 mechanism is therefore a symmetry requirement and not only a completion one.
 
-### Recovery, Which Exists for the Test Programme and Not for the Mission
+### Recovery Serves the Test Programme
 
-**The vehicle has a parachute recovery system and it is not there for combat.** A contractor
+**The vehicle has a parachute recovery system, and combat is not its purpose.** A contractor
 spokesperson has been quoted directly on the point, saying that recovery is not practical in combat
 scenarios and that the price point does not make it necessary, while for test and training the
 vehicle is recoverable \[[The War Zone on the X-68A][ref_twz_x68a]\].
 
 **That is an unusually clean statement of an attritable vehicle's economics** and it resolves what
 would otherwise be a puzzle, since a recovery system is mass that a one-way vehicle should not carry.
-**It is carried because the test articles are expensive and few, not because the operational vehicle
-would use it.** The system and the milestone confirming it both postdate this article's date.
+**It is carried for test and training, not because the operational vehicle
+would use it.** The milestone confirming the system postdates this article's date, and the spokesperson's statement
+is reported only as made during 2025.
 
-## The Flight Test Record, Which Is Empty at This Article's Date
+## The Flight Test Record
 
 **Nothing had flown.** At 13 December 2025 the designation was 115 days old, no
 public document read for this article records a flight of this vehicle, and the budget books' forward
-plans place flight testing ahead and not behind.
+plans place flight testing ahead and not behind \[[DARPA PB2026 justification][ref_darpa_pb2026]\].
 
-**This is a finding and not a gap.** A flight test record sets the envelope reached against
+**The absence of a flight is a finding, and this section reports it as one.** A flight test record sets the envelope reached against
 the envelope designed for, and here the former is empty. An article that inferred a flight history
 would be worse than one that states there is none.
 
-### Reading the Plans in Sequence Rather Than One at a Time
+### Reading the Plans in Sequence
 
 **A budget book plans work for its own budget year, so a milestone that slips appears in book after
 book, each time attached to the year of whichever book is current.** One book shows a plan. The
@@ -1295,52 +1307,60 @@ sequence shows whether the plan moved.
 
 The design reviews moved by a year each and then settled. **The preliminary design review was planned
 FY2021 to FY2022 and the critical design review FY2022 to FY2023**, in each case by two books that each
-claimed the review for themselves. That is ordinary.
+claimed the review for themselves \[[DARPA PB2021 justification][ref_darpa_pb2021]\] \[[DARPA PB2022 justification][ref_darpa_pb2022]\]
+\[[DARPA PB2023 justification][ref_darpa_pb2023]\]. That is ordinary.
 
 **Captive carry is not ordinary.** It appears in three consecutive books, and every one of
-them plans it for its own budget year, moving it from FY2024 to FY2026. **A slip of
+them plans it for the year that book requests, moving it from FY2024 to FY2026. **A slip of
 two fiscal years, from PB2024 to PB2026**, with the milestone
-always one year away. The [X-65][related_post_a362_aurora_x65_crane] article measured a slip of the
+always one year away \[[DARPA PB2024 justification][ref_darpa_pb2024]\] \[[DARPA PB2025 justification][ref_darpa_pb2025]\]
+\[[DARPA PB2026 justification][ref_darpa_pb2026]\]. The [X-65][related_post_a362_aurora_x65_crane] article measured a slip of the
 same size in the same programme element over the same period, which suggests a cause not specific to
 either programme.
 
-### The Demonstration of This Article's Keystone Was Promised Twice and Withdrawn Twice
+### The Demonstration of This Article's Keystone Was Reworded and Slipped
 
-**This is the finding and it is about which test is in the plan rather than about when it is.**
+**This is the finding, and it bears on which test is in the plan as well as when.**
 
 **The first promise was a ground test.** PB2022 and PB2023 both plan a missile separation test for
-FY2022. After PB2023 the phrase does not appear in any book read for this article.
+FY2022. After PB2023 the phrase does not appear in any book read for this article
+\[[DARPA PB2022 justification][ref_darpa_pb2022]\] \[[DARPA PB2023 justification][ref_darpa_pb2023]\].
 
-**The second promise was a flight test, and it appears in exactly one book.**
-PB2024, of March 2023, plans this for FY2024.
+**The second promise was a flight test, and in this wording it appears in exactly one book.**
+PB2024, of March 2023, plans this for FY2024 \[[DARPA PB2024 justification][ref_darpa_pb2024]\].
 
 > Conduct initial series of flight demonstrations validating separation of air-to-air missile from host flight test vehicle.
 
 **That is the keystone as a flight demonstration.** A missile of substantial mass fraction leaving
-the vehicle in flight is precisely the event the programme's own recurring sentence describes as its
+the vehicle in flight is precisely the event the programme's recurring sentence describes as its
 challenge.
 
-**The next book replaces it with a different test.** PB2025 plans this for FY2025.
+**The next book rewords it.** PB2025 plans this for FY2025 \[[DARPA PB2025 justification][ref_darpa_pb2025]\].
 
 > Conduct a series of flight demonstrations validating air vehicle stability and controls upon separation from host-aircraft and prior to, during, and after separation of an air-to-air missile payload.
 
-**Read the two carefully, because they differ in what separates from what.** The first validates
+**Read the two carefully, because the second adds a separation.** The first validates
 separation of the missile from the vehicle. **The second validates the vehicle's stability and
-control upon separation from the host aircraft.** The first is the research question. The second is
-carriage release, the subject of the established store separation discipline gathered in the
-cluster below.
+control upon separation from the host aircraft, which is carriage release**, the subject of the
+established store separation discipline gathered in the cluster below, and also before, during and
+after separation of the missile, the research question in the programme's terms.
 
-**What the record shows in place of the keystone demonstration is a ground test of a substitute
-mass.** PB2026 plans this for FY2025.
+**The book after that adds a ground test of a substitute mass.** PB2026 plans this for
+FY2025 \[[DARPA PB2026 justification][ref_darpa_pb2026]\].
 
 > Conduct pit drop testing of missile mass simulant from LongShot ground test vehicle.
 
+**The same book moves the flight demonstration a year.** Its entry under the new programme element
+plans, for FY2026, flight demonstrations validating the vehicle's stability and control prior to,
+during and after separation of an air-to-air missile payload, and live fire flight test
+demonstrations \[[DARPA PB2026 justification][ref_darpa_pb2026]\].
+
 **A pit drop of a mass simulant is the right first test and it does not answer the question.** It
 measures the separation trajectory of a representative mass from a representative vehicle while the
-vehicle is held still. The programme's own sentence specifies an operational environment, and a pit
+vehicle is held still. The programme's keystone sentence specifies an operational environment, and a pit
 is not one.
 
-**What the pit measures is worth writing down, because it is clean classical mechanics and because
+**What the pit measures is set out here, because it is clean classical mechanics and because
 the arithmetic contains a bias specific to this vehicle.** With the launcher clamped, the store
 leaves at the cartridge impulse over its own mass and then falls, so the separation distance is
 
@@ -1359,13 +1379,13 @@ systems engineering data requirements and test procedures, governs the ground an
 this discipline \[[EverySpec record for MIL-HDBK-1763][ref_everyspec_1763]\]. It is distributed through
 the Department's standards repository, whose public search page is cited as the address
 \[[ASSIST Quick Search][ref_assist_qs]\], **and whose document could not be read without
-a session, so no claim here rests on the handbook's content beyond what its index record states.** That the pit drop is standard
-practice is established independently, by the discipline's own literature in the clusters below,
-which includes the modelling of ejection accelerations from exactly such tests.
+a session, so no claim here draws on the handbook's content beyond what its index record states.** That the pit drop is standard
+practice is established independently, by the discipline's literature in the clusters below,
+which includes the modelling of ejection accelerations from such tests.
 
 **But the clamp changes the physics, and it changes it by the keystone parameter.** In flight the
 launcher recoils, the same impulse divides by the reduced mass rather than the store's mass, and
-the ratio of the two separation speeds is the amplification's own denominator,
+the ratio of the two separation speeds is the denominator of the amplification,
 
 $$
 \frac{v_{rel}^{\mathrm{flight}}}{v_{rel}^{\mathrm{pit}}}
@@ -1380,7 +1400,7 @@ missile of the pair and 21.9 percent for both, so **the ground test underreads t
 flight separation rate by a tenth to a fifth for the same cartridge, as a matter of momentum
 conservation rather than of aerodynamics.** The standard ground test's fidelity degrades with the
 very parameter the programme exists to study, and nothing in the open record read for this article
-states whether the test's analysis carries the correction, because nothing in the open record
+states whether the test's analysis carries the correction, because no open record
 describes the analysis at all.
 
 **What the pit cannot measure even in principle is the aerodynamic increment.** In flight the
@@ -1401,13 +1421,16 @@ and the cluster below carrying it is this article's largest.
 proof that the test was cancelled. The work may continue under a heading the book does not itemise,
 or inside a classified annex, or simply below the threshold of detail the exhibit carries.
 
-**What the record does establish is narrower and still worth stating.** Across
-six books inside this article's date, the programme named the in-flight release of a
-missile from the vehicle as a planned demonstration **once**, in PB2024, and every later book
-inside that window names a different test in its place. **The thing the programme says it exists to
-retire is the thing whose demonstration has the weakest and shortest presence in its own plans.**
+**What the record does establish is narrower.** Across
+six books inside this article's date, three plan an in-flight demonstration that includes the
+release of a missile from the vehicle, PB2024, PB2025 and PB2026, each for its own budget year, and
+only PB2024 names the missile's separation as the thing validated. **The demonstration the programme
+says it exists to perform slipped two fiscal years as captive carry did**, and the first book after
+this article's date plans vehicle release from a host aircraft and stability through all phases of
+flight without naming a missile at all \[[DARPA PB2024 justification][ref_darpa_pb2024]\] \[[DARPA PB2025 justification][ref_darpa_pb2025]\] \[[DARPA PB2026 justification][ref_darpa_pb2026]\]
+\[[DARPA PB2027 justification][ref_darpa_pb2027]\].
 
-**That is an observation about documents and not an accusation about engineering.** The most likely
+**The observation is about documents and makes no accusation about engineering.** The most likely
 explanation is the ordinary one, that a demonstration retires risk in the order the risks can be
 retired, and that firing a missile off a vehicle requires first proving the vehicle flies. **The
 observation is recorded because a reader of any single book would not see it.**
@@ -1423,16 +1446,16 @@ each is gathered here with the place where it is argued.
 missile separation test for FY2022 \[[DARPA PB2022 justification][ref_darpa_pb2022]\]
 \[[DARPA PB2023 justification][ref_darpa_pb2023]\], and PB2026 planned pit drop testing of a missile
 mass simulant from a ground test vehicle for FY2025
-\[[DARPA PB2026 justification][ref_darpa_pb2026]\]. No result of either test is stated in any
-document read for this article. The section headed The Flight Test Record sets out what each would
+\[[DARPA PB2026 justification][ref_darpa_pb2026]\]. No document this article read states a result
+of either test. Under The Flight Test Record above, this article sets out what each would
 measure and what a pit cannot measure even in principle.
 
-**The second kind is a prediction about the ground test itself, and it is this article's own.**
-Momentum conservation says that a pit, which holds the launcher still, separates the store more
+**The second kind is a prediction about the ground test, and this article makes it.**
+Momentum conservation implies that a pit, which holds the launcher still, separates the store more
 slowly than flight will for the same cartridge. A cartridge that gives the simulant 7 metres a
 second in the pit separates the same store at 7.69 in flight, and for this vehicle the
 correction is 9.9 percent for one missile of the pair and 21.9 percent for both, from the ratio
-$1/(1-\mu)$ displayed in the section headed The Flight Test Record.
+$1/(1-\mu)$ displayed with the pit drop analysis above.
 
 $$
 \frac{1}{1 - 161.5/1{,}800} \;=\; 1.099,
@@ -1448,7 +1471,7 @@ exists**, and the flight half of it is the half the record cannot yet supply.
 
 **The third kind is the closed-form sizing.** The centre-of-gravity shift, the static margin step,
 the heave, the trim demand, the two inertia corrections, the roll transient of an asymmetric
-release and the ejector's recoil are each derived in the section headed Sizing From First
+release and the ejector's recoil are each derived under Sizing From First
 Principles, and each is computable before the vehicle flies. **None of them is yet a prediction
 about this aircraft in particular**, because no mass, dimension or aerodynamic coefficient of it is
 published, so a flight result could test the relations only once those inputs were known as well.
@@ -1459,22 +1482,22 @@ published, so a flight result could test the relations only once those inputs we
 **The comparison this section exists to make is therefore the first thing a flight test campaign
 would supply, and at this article's date it supplies nothing.**
 
-## What the Data Changed, Which Here Is What the Data Would Change and What the Programme Has Already Changed
+## What the Data Changed
 
 **No flight data exists, so this section is about what the programme has already settled without
 flying and what remains open.**
 
-### What Is Already Settled Is a Procurement Question Rather Than an Engineering One
+### What Is Already Settled Concerns Procurement
 
-**The concept change the budget books date is itself a result.** A programme that began as a
+**The concept change the budget books date counts as a result.** A programme that began as a
 multi-mode-propulsion weapon and became an air-breathing vehicle carrying existing missiles has
-answered a question, and the answer is that the mission is better served by separating the carrier
+answered a question, concluding that the mission is better served by separating the carrier
 from the warhead than by building one object that does both.
 
 **That answer is visible in three places and they are independent.** It is in the budget books'
 rewritten description, dated to a window of 11 months. It is in the award
 record, where one contract description preserves the earlier concept verbatim. **And it is in the
-engine**, which is a single-mode cruise missile powerplant and could not have been chosen by a
+engine**, a single-mode cruise missile powerplant that could not have been chosen by a
 programme still pursuing multi-mode propulsion.
 
 **The reach arithmetic above explains why that answer is the right one.** A missile cannot be made to
@@ -1492,7 +1515,7 @@ transient involves the store's wake, the bay's flow, the plume if the motor ligh
 and the control system's response to a plant that changed discontinuously.
 
 **A demonstration would convert the stability result from a constraint into a measurement.** The
-admissible store arm derived above is a bound from a static-margin band, and the band itself is a
+admissible store arm derived above is a bound from a static-margin band, and the band is a
 judgement. Flight data would replace the judgement with a number, and that number would transfer to
 every later vehicle of this class whatever its size.
 
@@ -1508,13 +1531,13 @@ such.**
 ### What It May Fail to Influence
 
 **A demonstrator that proves a vehicle can fire a missile has not proved anyone will buy it.** A
-demonstration can answer its question and change nothing, and the honest position at this date is that the programme's influence is unmeasurable because its
+demonstration can answer its question and change nothing, and at this date the programme's influence is unmeasurable because its
 demonstration has not happened.
 
-**One structural observation is available and it is about the designation rather than the aircraft.**
+**One structural observation is available, concerning the designation rather than the aircraft.**
 The programme was given a research designation in the experimental series rather than a prototype
 designation in a mission series, which places it among demonstrators and not among candidate
-weapons. **The designation itself carries no information about which outcome is intended.**
+weapons. **The designation carries no information about which outcome is intended.**
 
 ## The Contemporary Literature
 
@@ -1603,8 +1626,8 @@ weapons. **The designation itself carries no information about which outcome is 
 
 ## Where the Framing Breaks Down
 
-**Treating this aircraft through a store mass fraction is the right frame and it misleads in at
-least six ways, each of which is named here and not left for a reader to find.**
+**Treating this aircraft through a store mass fraction is the right frame, yet it misleads in at
+least seven ways, each named here so that a reader need not find it.**
 
 ### The Keystone Parameter Cannot Be Evaluated
 
@@ -1622,11 +1645,11 @@ system and a deliberately relaxed static margin may tolerate a far larger excurs
 conventionally stable aeroplane, and some combat aircraft are flown statically unstable on purpose.
 **The bound is therefore conditional on a stability philosophy this article does not know.**
 
-### The Release Is Treated as Instantaneous and It Is Not
+### The Release Is Treated as Instantaneous
 
 **Every relation above compares a before state with an after state.** A real release has a duration,
 during which the store is partly supported, partly free, and aerodynamically interfering with the
-vehicle it is leaving. **The transient is where the difficulty actually lives** and it is exactly the
+vehicle it is leaving. **The difficulty lives in the transient**, the
 part that closed-form mass arithmetic cannot reach. This article's mathematics describes the endpoints
 of the event the programme exists to study.
 
@@ -1644,7 +1667,7 @@ cases are not close to each other in difficulty.
 flies through a changing atmosphere at a changing Mach number with a drag coefficient that varies
 considerably across the transonic region, and it manoeuvres, which costs further energy. **The
 calibration against published reach figures is the reason to trust the comparison** between the
-carrier and the missile, and it is not a reason to trust any single reach figure as a prediction.
+carrier and the missile, but gives no reason to trust any single reach figure as a prediction.
 
 ### The Comparison Flatters the Carrier by Ignoring What It Costs to Carry
 
@@ -1653,9 +1676,9 @@ vehicle of this size gives up the stores it would otherwise have carried there, 
 should properly be computed per unit of launch-aircraft capacity rather than per missile. **This
 article does not compute that**, because the vehicle's volume and the exchange ratio against
 conventional stores are both unpublished. **The omission is in the optimistic direction and is the
-most important of the six.**
+most important of the seven.**
 
-### And the Mission Statement the Frame Rests On Is Not Official
+### The Mission Statement Under the Frame Is Not Official
 
 **The register's mission sentence is the compiler's**, as the second section established. The budget
 books describe a programme and not an aeroplane. **So the frame is built on an official programme
@@ -1830,7 +1853,8 @@ awards in the federal award record carry it, totalling 148,305,710.65 dollars, w
 dates, amounts, offer counts and product codes as tabulated. Seven budget justification books
 carry a programme entry, the funding figures and restatements are as tabulated, and the programme
 moved from programme element 0603286E project AIR-01 to programme element 0603468E project ACX-01
-beginning in fiscal year 2026.
+beginning in fiscal year 2026 \[[Parsch, DOD 4120.15-L Addendum][ref_mds_addendum]\] \[[USAspending federal award record][ref_usaspending]\]
+\[[DARPA PB2021 justification][ref_darpa_pb2021]\] \[[DARPA PB2027 justification][ref_darpa_pb2027]\].
 
 **Engineering analysis, derived here from published anchors and stated assumptions.**
 
@@ -1869,18 +1893,18 @@ Whether `WJ38-15` parses as a standard military engine designation, and therefor
 register's turbojet or the manufacturer designation's turbofan is correct. Which of the two named
 individuals is currently the programme manager. Whether the missile fires while attached or coasts
 clear before ignition, which is the difference between two very different structural problems.
-Whether the in-flight missile separation demonstration that appears in one book and no later one
-was deferred, reorganised or removed. **And the keystone itself, since no vehicle of this class has
+Whether the in-flight missile separation demonstration that PB2024, PB2025 and PB2026 plan, and
+PB2027 does not name, was deferred, reorganised or removed. **And the keystone itself, since no vehicle of this class has
 released a store of this mass fraction in flight in any record read here.**
 
 ### Statements in This Article That Postdate Its Own Date
 
 **This article is dated 13 December 2025 and a number of its statements are later.** The survey
-is written from current knowledge and this section says where, and this article has more such
+is written from current knowledge and this section marks where, and this article has more such
 statements than most because its subject became public after its date.
 
 **The designation was allocated 115 days before this article's date and
-announced 66 days after it**, on 17 February 2026. So at its own date
+announced 66 days after it**, on 17 February 2026. So at the article's date
 the designation had been allocated and had not been publicly announced.
 
 **A note on the register.** The register row this article reads was not public at this article's date either. The register's page as archived on 10 December 2025 \[[Parsch, DOD 4120.15-L Addendum, as archived on 10 December 2025][ref_mds_addendum_wb_2025_12]\] and on 15 January 2026 \[[Parsch, DOD 4120.15-L Addendum, as archived on 15 January 2026][ref_mds_addendum_wb_2026_01]\] ends its research rows at the X-66A, and the page as archived on 1 February 2026 \[[Parsch, DOD 4120.15-L Addendum, as archived on 1 February 2026][ref_mds_addendum_wb_2026_02]\] carries the X-68A row, so the row first appeared between 15 January and 1 February 2026, 148 to 165 days after the allocation it records. **Every reading of the row in this article is therefore a reading of a page later than the article's date**, like the announcement.
@@ -1901,9 +1925,9 @@ The following are outside the date and are used anyway, each marked where it app
   \[[Air and Space Forces on the X-68A][ref_asf_x68a]\].
 - **The federal award record, which was read in October 2026.** The amounts stated are the
   record's current totals and reflect contract modifications through May 2026, so the Phase 3
-  figure in particular is larger than any figure that could have been stated at this article's
-  date.
-- The register row itself, as the note above says.
+  figure in particular may be larger than the figure that stood at this article's
+  date \[[USAspending federal award record][ref_usaspending]\].
+- The register row itself, as the note above explains.
 - The research literature, which is drawn from current indexes and includes records dated to
   2026.
 
@@ -1914,18 +1938,18 @@ themselves, like every reading here, happened later.
 
 ## Out of Scope
 
-**The engagement, which is the subject most writing about this programme chooses.** Whether a
+**The engagement, the subject most writing about this programme chooses.** Whether a
 forward-launched missile carrier changes air combat, what an adversary does about it, and how it
 interacts with the collaborative combat aircraft programmes are questions about operations rather
 than about an aeroplane, and this article is about an aeroplane.
 
 **The guidance and the datalink.** A vehicle launching a missile at a target it did not find needs
 targeting data from somewhere, and the architecture that supplies it is a separate subject with its
-own literature. The PB2025 book plans weapon integration and ground testing as a line of its own
+own literature. The PB2025 book plans weapon integration and ground testing as a separate line
 \[[DARPA PB2025 justification][ref_darpa_pb2025]\], and that integration is not treated here.
 
-**The missile itself.** The programme says it will use existing missiles and this article takes one
-of them as a mass, a length and a published reach. Its seeker, its fuze, its warhead and its own
+**The missile itself.** The programme plans to use existing missiles and this article takes one
+of them as a mass, a length and a published reach. Its seeker, its fuze, its warhead and its
 control system are out of scope.
 
 **The plume and the structural response to it**, named in the framing section as a gap rather than
@@ -1945,8 +1969,8 @@ series.
 
 **The X-68A is an aeroplane whose every official word is bookkeeping, and whose purpose has no
 official word but its name.** The register that names it marks its mission sentence as the
-compiler's, and it is the only research allocation in that register marked that way. The budget justification books describe the
-programme at length and describe a programme and not an aircraft. **No public Department
+compiler's, and no other research allocation in that register is marked that way. The budget justification books describe the
+programme at length, though not the aircraft. **No public Department
 document read for this article says what the X-68A is.**
 
 **What those books do say, four times running, is what the programme is for.** It exists to address
@@ -1975,17 +1999,19 @@ and the single-mode cruise missile engine in the register's cell is the physical
 change.
 
 **And the plans tell one more thing that no single book reveals.** The in-flight release of a
-missile from the vehicle, which is the keystone as a demonstration, appears in the plans of exactly
-one book. Every later book inside this article's date names a different test in its place, and what
-stands in the record instead is a ground drop of a substitute mass. **A plans list is a summary and
+missile from the vehicle, which is the keystone as a demonstration, is planned by three consecutive
+books for three different years, is named as the missile's separation only in the first of them,
+is joined by a ground drop of a substitute mass in the third, and is not named at all in the first
+book after this article's date. **A plans list is a summary and
 not a schedule, so this is an observation about documents rather than a claim about engineering.**
-It is recorded because the thing the programme says it exists to retire has the weakest presence in
-its own published plans, and a reader of any one book would not see it.
+It is recorded because the thing the programme states it exists to retire has slipped like any other
+milestone and then stopped being named in its published plans, and a reader of any one book would
+not see it.
 
 **At this article's date nothing had flown.** The designation was 115 days
-old and unannounced, the flight test campaign was ahead rather than behind, and captive carry had
+old and unannounced, the flight test campaign had not begun, and captive carry had
 been promised by three consecutive books for three different years. **The question
-remains open, and it is a good question**, because the answer transfers to every vehicle that tries
+remains open, and a good one**, because the answer transfers to every vehicle that tries
 to carry a weapon it is barely larger than.
 
 ## References
@@ -2018,7 +2044,7 @@ to carry a weapon it is barely larger than.
 - [General Atomics on the X-68A][ref_gaasi_x68a]
 - [Solicitation HR001120S0037][ref_baa_sam]
 - [Taurus KEPD 350][ref_taurus]
-- [Taurus Systems KEPD 350E datasheet][ref_taurus_ds]
+- [Taurus KEPD 350 datasheet][ref_taurus_ds]
 - [The War Zone on the X-68A][ref_twz_x68a]
 - [U.S. Standard Atmosphere, 1976][ref_atm76]
 - [USAspending federal award record][ref_usaspending]
@@ -2048,7 +2074,7 @@ to carry a weapon it is barely larger than.
 [ref_mds_addendum_wb_2026_01]: http://web.archive.org/web/20260115211518/https://www.designation-systems.net/usmilav/412015-L(addendum).html
 [ref_mds_addendum_wb_2026_02]: http://web.archive.org/web/20260201194217/https://www.designation-systems.net/usmilav/412015-L(addendum).html
 [ref_taurus]: https://en.wikipedia.org/wiki/Taurus_KEPD_350
-[ref_taurus_ds]: https://taurus-systems.de/wp-content/uploads/2016/10/TAURUS_KEPD_350E-EN-Aug2014.pdf
+[ref_taurus_ds]: https://web.archive.org/web/20121115180602/https://www.mbda-systems.com/mediagallery/files/taurus-kepd-350_datasheet-1343310215.pdf
 [ref_twz_x68a]: https://www.twz.com/news-features/x-68a-longshot-air-to-air-missile-carrying-drone-moves-closer-to-f-15-launch
 [ref_usaspending]: https://www.usaspending.gov/
 

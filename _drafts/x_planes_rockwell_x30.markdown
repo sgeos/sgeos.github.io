@@ -36,9 +36,9 @@ the [X-2][related_post_a299_bell_x2], the [X-3][related_post_a300_douglas_x3], t
 [X-28][related_post_a325_osprey_x28], and the [X-29][related_post_a326_grumman_x29].
 
 **The easy misreading is that the X-30 failed because supersonic combustion is hard.** It is hard, and that
-is not the reason. Burning fuel in a supersonic stream was demonstrated in the 1960s and has been
-demonstrated repeatedly since. The programme did not founder on whether a [scramjet][ref_scramjet] would
-light.
+is not the reason. Burning fuel in a supersonic stream was demonstrated in ground tests in the 1950s and
+1960s and has been demonstrated repeatedly since \[[Scramjet][ref_scramjet]\]. The programme did not
+founder on whether a [scramjet][ref_scramjet] would light.
 
 **It foundered on a subtraction.** What accelerates an air-breathing vehicle is not the thrust its engine
 makes but what is left after the drag of swallowing the air is taken away, and at orbital speeds those two
@@ -50,7 +50,7 @@ quantities are nearly equal. The useful output is a small difference between two
 
 ## The Research Question
 
-**The keystone has two halves and they meet in a way that is unusual enough to be worth stating carefully.**
+**The keystone has two halves, and the way they meet is unusual.**
 
 **The first half is the thrust margin.** An air-breathing engine takes in air moving at flight speed and
 expels it faster. The momentum it gains is the gross thrust. The momentum the incoming air already carried
@@ -58,28 +58,30 @@ is the [ram drag][ref_ram_drag]. The difference is what pushes. As flight speed 
 rises with it, while the fuel can only add so much.
 **The margin shrinks toward zero not because the engine gets worse but because the arithmetic it is embedded in gets worse.**
 
-**The second half is that nobody could measure it.** A true Mach 25 condition carries a stagnation enthalpy
+**The second half is that it could not be measured.** A true Mach 25 condition carries a stagnation enthalpy
 that no continuous facility could produce at useful scale, and the facilities that reach the enthalpy hold
-it for a few milliseconds, which is the same order as the time the flow needs merely to establish itself
+it for a few milliseconds, the same order as the time the flow needs merely to establish itself
 inside the engine duct.
 
-**Put together, those two halves are the purest statement of the research-aircraft rationale in this entire series.**
-The vehicle was the only instrument that could take the measurement.
-**And that is also the argument that killed it**, because a programme whose central number cannot be known
+**Put together, those two halves are the purest statement of the research-aircraft rationale in the series.**
+The programme's contractors concluded that only a near full-scale vehicle flying above Mach 20 could take the
+measurement with confidence \[[Peebles 2007][research_peeblescurtis_2007_b]\].
+**The same argument killed it**, because a programme whose central number cannot be known
 until the vehicle flies is a programme asking for several billion dollars against an unquantified risk.
 
 ### Why This Is the Right Keystone
 
-The obvious alternative is to make the keystone the materials, since the X-30 needed structures hotter than
-anything then flying. That is treated at length below and it is a genuine difficulty, but it is a difficulty
-of degree. Hot structures existed, were improving, and could be tested in ovens and arc jets one panel at a
-time.
+The obvious alternative is to make the keystone the materials, since a 1985 review by the Defense Advanced
+Research Projects Agency concluded that the vehicle's key materials exceeded the state of the art. That
+difficulty is treated at length below. It is genuine, but it is a difficulty of degree. Hot structures
+existed, were improving, and could be tested on the ground one panel at a time, as the programme's large
+titanium aluminide panels and its leading edges were
+\[[Schweikart and Hallion 1998][research_schwelkart_hallion_1997]\].
 
-**The thrust margin is different in kind, because it is not a property of any component.** It is a property
-of the whole vehicle, it emerges only when forebody, inlet, combustor, nozzle and aftbody are assembled and
-flown together, and
-**it is defined as a subtraction between two quantities that are each larger than it is.** That is the thing
-an aeroplane was needed for.
+**The thrust margin is different in kind, because no component has one.** It emerges only when
+forebody, inlet, combustor, nozzle and aftbody are assembled and flown together, and
+**it is defined as a subtraction between two quantities that are each larger than it is.** Measuring it
+required an aeroplane.
 
 ## Programme Origin
 
@@ -88,42 +90,52 @@ an aeroplane was needed for.
 ### Copper Canyon
 
 The [Defense Advanced Research Projects Agency][ref_darpa] ran a classified study called **Copper Canyon**
-from about 1982 to 1985, which concluded that advances in computational fluid dynamics, in materials and in
-engine design had made a single-stage air-breathing vehicle worth pursuing.
+from the early 1980s to 1985, a feasibility study for a single-stage vehicle that would take off and land
+horizontally. [Jenkins, Landis and Miller][ref_xvehicles] date its start to 1982 and the programme history by
+[Schweikart][research_schwelkart_hallion_1997] to 1983. Its reviewers concluded that hypersonic flight was
+feasible and that a spaceplane was worth pursuing, and many of its supporters held that computational fluid
+dynamics was the most promising of the technologies the vehicle would need
+\[[Schweikart and Hallion 1998][research_schwelkart_hallion_1997]\].
 
-**That conclusion rested on computation to a degree no previous programme in this series had attempted**,
-and the reason was the one named above. The wind tunnels could not answer the question, so the case for the
-vehicle was made in software.
+**That conclusion rested heavily on computation**, for the reason named above. Many doubted that
+data from small engine modules run for a few seconds in wind tunnels could be scaled to a full-size engine,
+so the case for the vehicle was made in software \[[Peebles 2007][research_peeblescurtis_2007_b]\].
 
 ### The Announcement
 
 President Reagan described the vehicle in the **1986 State of the Union address** as a new Orient Express
-that could take off from Dulles and reach Tokyo within two hours.
+that could take off from Dulles and reach Tokyo within two hours \[[Jenkins, Landis and Miller][ref_xvehicles]\].
 **The hypersonic transport was never the programme's real objective**, which was military and orbital
-access, but the phrase attached itself to the X-30 permanently and shaped how it was reported.
+access, but the phrase attached itself to the X-30 permanently and shaped how it was reported
+\[[Schweikart and Hallion 1998][research_schwelkart_hallion_1997]\].
 
 ### The Industrial Arrangement
 
-The airframe work was led by [Rockwell International][ref_rockwell], with [McDonnell Douglas][ref_mcdonnell]
-and [General Dynamics][ref_gd] also holding airframe contracts, and the propulsion work divided between
-[Pratt and Whitney][ref_pw] and [Rocketdyne][ref_rocketdyne]. The arrangement was a consortium rather than a
-prime contractor with subcontractors, and the government retained the integration role.
+After the 1987 downselection the airframe contracts were held by [Rockwell International][ref_rockwell],
+[McDonnell Douglas][ref_mcdonnell] and [General Dynamics][ref_gd], and the propulsion work was divided
+between [Pratt and Whitney][ref_pw] and [Rocketdyne][ref_rocketdyne]. In 1990 the five companies formed a
+single National Contractor Team, reporting to the government's Joint Program Office, rather than a prime
+contractor with subcontractors, and its leader came from Rockwell's Rocketdyne division
+\[[Schweikart and Hallion 1998][research_schwelkart_hallion_1997]\].
 
 **The programme ended without a vehicle.**
 With defence funding declining after the Cold War, Congress directed that the effort be closed out by the end
 of fiscal year 1994, and NASA's history of the X-43A records that it was cancelled in October 1994, after
 some 2.4 billion dollars had been spent and eight years of work had produced no workable
 design\[[Peebles 2007][research_peeblescurtis_2007_b]\].
-The same history dates the end of the programme to June 1995 in another passage, so the record fixes the
-close-out to the period between late 1994 and mid 1995 rather than to a single day.
+The same history dates the end of the programme to June 1995 in another passage, so the record places the
+close-out somewhere between late 1994 and mid 1995 and fixes no single day.
 
 ## The Vehicle
 
-**This section is short because there is very little to put in it, and that is the finding rather than a gap in the research.**
+**This section is short because there is very little to put in it, and that scarcity is the finding. It does not reflect a gap in the research.**
 
 **No X-30 configuration was ever frozen.** The design evolved continuously for the whole life of the
-programme, published figures for length, weight and even the number of crew differ between years and between
-contractors, and the vehicle that appears in illustrations is a design study rather than a specification.
+programme, and estimates of gross weight differed between years and between contractors, from 50,000 pounds
+for the original government baseline to nearly 200,000 for Rockwell's 1988 design, nearly 350,000 for
+Lockheed's and about 500,000 for the team's design in 1992. The programme was still planning to freeze the
+design as soon as possible in the early 1990s \[[Schweikart and Hallion 1998][research_schwelkart_hallion_1997]\],
+and the vehicle that appears in illustrations is a design study rather than a specification.
 **An article that presented a table of X-30 dimensions would be presenting one snapshot of a moving target as though it were the aeroplane.**
 
 What can be stated is the intent, which was stable.
@@ -140,7 +152,7 @@ What can be stated is the intent, which was stable.
 
 **Even the target speed is a loose statement**, and the looseness is instructive. Mach number is a ratio to
 the local speed of sound, which varies with altitude, so **Mach 25 is not a fixed velocity at all.** At
-forty-eight kilometres it corresponds to about 8,245 metres per second, which is above orbital velocity. The
+forty-eight kilometres it corresponds to about 8,245 metres per second, above orbital velocity. The
 physically meaningful target is the orbital velocity itself.
 
 $$ V_{\mathrm{orbit}} = \sqrt{\frac{\mu}{R_\oplus + h}} = \sqrt{\frac{3.986 \times 10^{14}}{6.371 \times 10^6 + 2 \times 10^5}} = 7{,}789\ \mathrm{m/s} $$
@@ -161,12 +173,12 @@ $$ M_{\mathrm{orbit}} = \frac{7{,}789}{329.8} = 23.62 $$
 **Mach 25 at that altitude is 8,245 metres per second, which overshoots orbital velocity by six percent.**
 The programme's headline number was never a velocity target at all.
 
-**Everything in this article is computed against that number rather than against a Mach number**, because a
+**Every result in this article is computed against that number rather than against a Mach number**, because a
 Mach number at these speeds is a statement about the atmosphere and not about the vehicle.
 
 ## Sizing From First Principles
 
-The inventory of record for the whole series, and the source for this vehicle's place in it, is
+The inventory of record for the series, and the source for this vehicle's place in it, is
 [Jenkins, Landis and Miller][ref_xvehicles].
 
 The relations used throughout follow [Anderson][book_anderson_hyp] on hypersonic and high-temperature gas
@@ -192,12 +204,12 @@ $$ \left(1 + f\right)\frac{V_e^2}{2} = \eta_n\left[\frac{V_0^2}{2} + f\,\eta_c\,
 
 $$ V_e = \sqrt{\frac{2\eta_n\left(\tfrac{1}{2}V_0^2 + f\,\eta_c\,h_{\mathrm{fuel}}\right)}{1 + f}} $$
 
-**That pair of relations is the whole argument.** The fuel's contribution is a fixed quantity. The stream's
-own kinetic energy grows as the square of flight speed.
+**That pair of relations carries the argument.** The fuel's contribution is a fixed quantity. The stream's
+kinetic energy grows as the square of flight speed.
 **So the fuel becomes a smaller and smaller perturbation on a larger and larger number**, and the difference
 that pushes the vehicle is squeezed between them.
 
-### Specific Impulse, and Why the Air-Breather's Figure Looks So Large
+### Why the Air-Breather's Specific Impulse Looks So Large
 
 Specific impulse is thrust divided by the weight flow of propellant, and
 **the propellant an air-breather is charged for is the fuel alone**, because it does not carry its oxidiser.
@@ -205,14 +217,14 @@ Specific impulse is thrust divided by the weight flow of propellant, and
 $$ I_{sp} = \frac{F_{\mathrm{net}}}{\dot{m}_{\mathrm{fuel}}\,g_0} = \frac{F_{\mathrm{net}}/\dot{m}_0}{f\,g_0} $$
 
 **That single difference in convention is why figures above a thousand seconds appear below**, against about
-450 for a hydrogen rocket. It is not that the engine is four times better. It is that three quarters of what
-a rocket carries is free.
+450 for a hydrogen rocket \[[RS-25][ref_rs25]\]. It is not that the engine is four times better. It is
+that three quarters of what a rocket carries is free.
 
 ### What That Looks Like in Numbers
 
-Taking hydrogen at a lower heating value of 119.96 megajoules per kilogram, a stoichiometric fuel-air ratio
-of 0.0291, and **assumed** efficiencies of 0.90 for combustion and 0.95 for the nozzle, the subtraction runs
-as follows. All thrusts are specific, meaning per unit mass flow of captured air, so they carry units of
+Taking hydrogen at a lower heating value of 119.96 megajoules per kilogram
+\[[Heat of combustion][ref_heat_combustion]\], a stoichiometric fuel-air ratio of 0.0291, and **assumed**
+efficiencies of 0.90 for combustion and 0.95 for the nozzle, the subtraction runs as follows. All thrusts are specific, meaning per unit mass flow of captured air, so they carry units of
 metres per second.
 
 | $V_0$, m/s | Gross | Ram drag | Net | Net/gross | Amplification | $I_{sp}$, s | Fuel energy over stream energy |
@@ -239,7 +251,7 @@ $$ I_{sp} = \frac{351.7}{0.0291 \times 9.80665} = 1{,}232.5\ \mathrm{s} $$
 $$ \frac{f\,\eta_c\,h_{\mathrm{fuel}}}{\tfrac{1}{2}V_0^2} = \frac{3.142 \times 10^6}{2.45 \times 10^7} = 0.1282 $$
 
 **The exhaust leaves 143.8 metres per second faster than the air arrived**, on a flight speed of seven
-thousand. That is the whole of the engine's contribution, and everything else in the table follows from it.
+thousand. That increment is all the engine contributes, and the rest of the table follows from it.
 
 **Read the last column first.** At a thousand metres per second the fuel supplies more than six times the
 kinetic energy the stream already has, and the engine is doing something close to what a jet engine does.
@@ -263,9 +275,9 @@ $$ F_{\mathrm{gross}} = 184.9 \times 6{,}816 = 1{,}260\ \mathrm{kN}, \qquad F_{\
 **An engine developing 1,260 kilonewtons of gross thrust pushes the vehicle with 73.** The other 1,187
 kilonewtons are spent getting the air up to the speed it was already travelling at.
 
-### The Amplification, Which Is the Number That Matters
+### Amplification of Error
 
-The column headed amplification is the ratio of gross thrust to net thrust, and it is the factor by which a
+The column headed amplification is the ratio of gross thrust to net thrust. It is also the factor by which a
 relative error in the gross figure appears in the net one.
 
 $$ \frac{\delta F_{\mathrm{net}}}{F_{\mathrm{net}}} = \frac{F_{\mathrm{gross}}}{F_{\mathrm{net}}} \cdot \frac{\delta F_{\mathrm{gross}}}{F_{\mathrm{gross}}} $$
@@ -297,13 +309,13 @@ or the vehicle stops accelerating.
 | 7,500 | 4.08 percent |
 
 **Four and three quarter percent, for everything, at seven kilometres per second.** That is the engineering
-problem stated as a single number, and it is a number no component test can confirm, because it is a
-property of the assembled vehicle in flight.
+problem stated as a single number. No component test can confirm it, because it exists only for the
+assembled vehicle in flight.
 
 ### The Speed at Which Net Thrust Vanishes
 
 A natural question is the flight speed at which net thrust falls to zero. With the assumed efficiencies the
-crossing falls at 16,577 metres per second, and it is easily mistaken for a ceiling set by chemistry.
+crossing falls at 16,577 metres per second, a figure easily mistaken for a ceiling set by chemistry.
 
 **It is nothing of the kind.** In an ideal engine net thrust never reaches zero at all. For small fuel
 fractions the specific net thrust tends to
@@ -323,8 +335,8 @@ efficiency, and it moves as follows.
 
 ### Buying Thrust by Running Rich
 
-The fuel-air ratio is not fixed at stoichiometric, and running rich is the lever the programme kept reaching
-for. The equivalence ratio scales it.
+The fuel-air ratio is not fixed at stoichiometric, and running rich is the obvious lever. The equivalence
+ratio scales it.
 
 $$ \phi = \frac{f}{f_{\mathrm{stoich}}} $$
 
@@ -340,27 +352,28 @@ At six and a half thousand metres per second,
 **Running at three times stoichiometric nearly quadruples the net thrust and cuts the amplification from eighteen to five and a half**,
 which makes the vehicle both more capable and far easier to predict.
 **It also burns three times the fuel for a twenty-four percent gain in specific impulse**, and the extra
-hydrogen is the same hydrogen the cooling system needs. That trade, between thrust, fuel and coolant, is the
-one the design kept circling.
+hydrogen is the same hydrogen the cooling system needs. That trade, between thrust, fuel and coolant, ran
+through the design, since the path the hydrogen took as coolant also set how well it burned
+\[[Schweikart and Hallion 1998][research_schwelkart_hallion_1997]\].
 
 **A number that moves by a factor of two when one assumed efficiency moves by five percent is not a finding about propulsion.**
 It is a finding about the assumption. The loss budget above says the same thing honestly, because it makes
 no efficiency assumption at all.
 
-The literature on equivalence ratio and on what running rich does to a hydrogen flame is gathered in the clusters on ignition, kinetics and hydrogen-air chemistry and on dual-mode combustion and thermal choking under The Contemporary Literature.
+Equivalence ratio and the behaviour of a hydrogen flame run rich are covered by two clusters under The Contemporary Literature, on ignition, kinetics and hydrogen-air chemistry and on dual-mode combustion and thermal choking.
 
 ## Dependent Systems
 
 ### The Ground Test Gap
 
-**This is the other half of the keystone and it is the half that decided the programme.**
+**This is the other half of the keystone, and it decided the programme.**
 
-A facility that simulates flight must reproduce the total enthalpy of the free stream, because that is what
+A facility that simulates flight must reproduce the total enthalpy of the free stream, because the total enthalpy
 sets the temperature the engine sees and therefore the chemistry inside it.
 
 $$ h_0 = c_p T + \frac{V^2}{2} $$
 
-At hypersonic speed the second term swamps the first entirely, which is why facility capability is quoted as
+At hypersonic speed the second term swamps the first entirely, so facility capability is quoted as
 an enthalpy rather than as a Mach number.
 
 | Flight condition | Free-stream speed | Stagnation enthalpy | Ideal stagnation temperature |
@@ -374,11 +387,11 @@ an enthalpy rather than as a Mach number.
 **The last column is deliberately wrong and the size of the error is the point.** Air does not reach
 thirty-four thousand kelvin. It dissociates and then ionises, and both processes absorb energy, so the true
 stagnation temperature is far lower.
-**A model that returns a number that absurd is announcing that the model itself has failed**, and the
+**A model that returns a number that absurd is announcing that the model has failed**, and the
 ideal-gas assumption on which most engineering compressible-flow relations rest fails somewhere around the
 third row of that table.
 
-**So the difficulty is not only that the facilities were inadequate. The equations were inadequate too**,
+**The difficulty is not only that the facilities were inadequate. The equations were inadequate too**,
 and the computational methods that were meant to substitute for the facilities had to model chemistry that
 the facilities could not produce cleanly enough to validate against.
 
@@ -404,7 +417,7 @@ The facilities built to contain these pressures are surveyed in the cluster on i
 
 ### Why Milliseconds Are Not Enough
 
-Facilities that reach the required enthalpy do so by storing energy and releasing it quickly, and their run
+Facilities capable of the required enthalpy store energy and release it quickly, and their run
 times are short compared with the time the flow needs to establish itself in an engine duct.
 
 $$ t_{\mathrm{flow}} = \frac{L}{V_{\mathrm{duct}}} = \frac{5\ \mathrm{m}}{2{,}500\ \mathrm{m/s}} = 2.0\ \mathrm{ms} $$
@@ -430,12 +443,13 @@ flow-through times as the requirement gives the following comparison.
 That is the gap, stated as a table, and no amount of money would have closed it, because the two
 requirements pull in opposite directions.
 
-**And the combustion-heated facilities carry a further problem the table does not show.** They reach their
-enthalpy by burning fuel in the test gas, which leaves the flow contaminated with water and carbon dioxide.
+**The combustion-heated facilities carry a further problem the table does not show.** They reach their
+enthalpy by burning fuel in the test gas, which leaves the flow contaminated with water vapour, and with
+carbon dioxide when the fuel is a hydrocarbon \[[Arad and Michaels 2021][research_arad_michaels_2021]\].
 A scramjet burning hydrogen in that gas is not burning in air, and the difference matters precisely where
 the margins are thinnest.
 
-The literature on short-duration facilities, their test times and the contamination of their test gas is gathered in the clusters on impulse and high-enthalpy ground test facilities and on vitiation and test gas contamination under The Contemporary Literature.
+Short-duration facilities, their test times and the contamination of their test gas are taken up again in the clusters on impulse and high-enthalpy ground test facilities and on vitiation and test gas contamination.
 
 ### Why the Flow Is Kept Supersonic Through the Burner
 
@@ -471,20 +485,21 @@ $$ T_{\mathrm{entry}}\big|_{M_c = 2.5} = \frac{3086}{1 + 0.2 \times 6.25} = 1{,}
 
 **Combustion products begin to dissociate around three thousand kelvin**, and above it the energy released
 by burning hydrogen goes into breaking molecules apart rather than into raising pressure. Reading down the
-subsonic column, that threshold is crossed **between Mach 6 and Mach 8**, which is where ramjets in fact
-give way to scramjets. **The model was not fitted to that transition and reproduces it anyway**, which is
-the strongest evidence available here that the argument is the right one.
+subsonic column, that threshold is crossed **between Mach 6 and Mach 8**, a little above the Mach 5 to 6
+at which scramjets are usually said to overtake ramjets \[[Scramjet][ref_scramjet]\].
+**The model was not fitted to that transition and lands near it anyway**, which supports the argument without
+proving it.
 
 **The total pressure column says the same thing by a second route.** A normal shock at Mach 20 returns about
 one part in ten thousand of the incoming total pressure, so a ramjet at that speed would have nothing left
 to expand through its nozzle.
 
-**Thermal choking is the third constraint and it is the least binding of the three.** At Mach 8 flight with
+**Thermal choking is the third constraint and the least binding of the three.** At Mach 8 flight with
 a Mach 2.5 burner entry the duct can accept about forty percent of the heat the fuel supplies before
-choking, which is a real limit and forces the burner to be lean or long, but it is not the reason the flow
+choking. That limit is real and forces the burner to be lean or long, but it is not the reason the flow
 is kept supersonic.
 
-The [Rayleigh relation][ref_rayleigh] that sets it is worth displaying because its behaviour is easy to
+The [Rayleigh relation][ref_rayleigh] that sets it is displayed here because its behaviour is easy to
 misremember, and it follows [Shapiro][book_shapiro] and [Zucrow and Hoffman][book_zucrow].
 
 $$ \frac{T_{0}^{*}}{T_0} = \frac{\left(1 + \gamma M^2\right)^2}{\left(\gamma + 1\right)M^2\left(2 + \left(\gamma - 1\right)M^2\right)} $$
@@ -507,30 +522,30 @@ $$ N_{\mathrm{ignition}} = \frac{t_{\mathrm{res}}}{t_{\mathrm{ignition}}} $$
 | 50 μs | 52 |
 | 100 μs | 26 |
 
-**Hydrogen ignition delay at these pressures and temperatures is measured in tens of microseconds**, so
-there is ample time to ignite. **What there is not time for is mixing.** Fuel injected into a stream moving
-at two and a half kilometres per second must penetrate, mix and burn within a couple of milliseconds, and
-mixing is the slow step, which is why so much of the scramjet literature concerns injector geometry rather
-than chemistry.
+**If hydrogen ignition delay at these pressures and temperatures is of order tens of microseconds**, as the
+table assumes, there is ample time to ignite. **What there is not time for is mixing.** Fuel injected into a
+stream moving at two and a half kilometres per second must penetrate, mix and burn within a couple of
+milliseconds \[[Scramjet][ref_scramjet]\], and mixing is the slow step, which is why so much of the
+scramjet literature concerns injector geometry rather than chemistry.
 
-The ignition and mixing literature that this estimate draws on is gathered in the clusters on ignition, kinetics and hydrogen-air chemistry, on fuel injection, mixing and flameholding and on turbulent combustion modelling and simulation under The Contemporary Literature.
+The ignition and mixing work this estimate draws on is reviewed below in the clusters on ignition, kinetics and hydrogen-air chemistry, on fuel injection, mixing and flameholding and on turbulent combustion modelling and simulation.
 
-### The Inlet, Which Is Most of the Vehicle
+### The Airframe as the Engine
 
 **On an airframe-integrated vehicle the forebody is the first compression surface and the aftbody is the last expansion surface**,
 so the engine is not a component bolted beneath the aircraft. It is the underside of the aircraft.
 
-**That is what makes the thrust margin unmeasurable by parts.** A component test of the combustor requires
+**This integration makes the thrust margin unmeasurable by parts.** A component test of the combustor requires
 the inlet's exit conditions, which depend on the forebody boundary layer, which depends on transition, which
 depends on the flight environment. A test of the nozzle requires the combustor exit conditions.
 **Each piece can be tested only against an assumption about the piece before it**, and the assumptions are
-exactly what the flight vehicle was meant to check.
+what the flight vehicle was meant to check.
 
 ### Why Unstart Cannot Be Undone at Speed
 
-**Unstart is catastrophic because it is irreversible, and the reason is a pair of area ratios that do not overlap.**
+**Unstart is catastrophic because it is irreversible, and its irreversibility comes from a pair of area ratios that do not overlap.**
 
-A fixed-geometry inlet must swallow its own starting shock. The largest internal contraction at which it can
+A fixed-geometry inlet must swallow its starting shock. The largest internal contraction at which it can
 do so is the Kantrowitz limit, being the contraction at which the flow behind a normal shock at the entry
 reaches sonic conditions at the throat.
 
@@ -555,17 +570,17 @@ limit grows without bound.
 
 **So a hypersonic inlet is started at low speed and must never let go.** If it unstarts at Mach 20 it cannot
 restart there, and the vehicle must decelerate a long way before it can try again.
-**Unstart is therefore a loss-of-vehicle event rather than a transient**, and it is the clearest single
+**Unstart is therefore a loss-of-vehicle event rather than a transient**, and the clearest single
 reason the flowpath cannot be treated as a component.
 
-The literature on inlets, their starting limits and the isolators behind them is gathered in the clusters on inlets, forebody compression and mass capture, on inlet starting and unstart and on isolators and shock trains under The Contemporary Literature.
+For inlets, their starting limits and the isolators behind them, see the clusters on inlets, forebody compression and mass capture, on inlet starting and unstart and on isolators and shock trains.
 
 **Inlet unstart is the failure mode this arrangement creates.** If the shock system in the isolator is
 driven forward by too much heat release, it disgorges from the inlet, mass capture collapses, thrust
 disappears and the vehicle pitches. The isolator exists to absorb that pressure rise, and sizing it is a
 trade between length, weight and cooling area.
 
-### Heating, and Whether Hydrogen Can Carry It Away
+### Whether Hydrogen Can Carry the Heat Away
 
 Stagnation-point heat flux on a blunt leading edge follows the Sutton and Graves correlation.
 
@@ -593,9 +608,12 @@ incoming flux, with an **assumed** emissivity of 0.85. The aerothermodynamic rel
 
 $$ \dot{q} = \varepsilon\sigma T_w^4 \quad \Longrightarrow \quad T_w = \left(\frac{\dot{q}}{\varepsilon\sigma}\right)^{1/4} $$
 
-**Nothing structural survives four thousand kelvin.** Carbon-carbon softens and oxidises, titanium aluminide
-is gone long before. **So the leading edges must be actively cooled**, and the only coolant aboard is the
-fuel.
+**Nothing structural survives four thousand kelvin.** Carbon-carbon retains its properties to about two
+thousand degrees Celsius, and beyond that only when coated against oxidation
+\[[Reinforced carbon-carbon][ref_rcc]\], and the best titanium aluminides keep their strength only to about a
+thousand \[[Titanium aluminide][ref_tial]\]. **So the leading edges must be actively cooled**, and the only
+coolant aboard is the fuel, which the design pumped through the airframe for that purpose
+\[[Schweikart and Hallion 1998][research_schwelkart_hallion_1997]\].
 
 Each kilogram of hydrogen can absorb a computable amount of heat before it is too hot to burn well.
 
@@ -607,8 +625,8 @@ $$ \frac{\dot{Q}_{\mathrm{capacity}}}{\dot{Q}_{\mathrm{load}}} = \frac{f\,\dot{m
 
 where $\kappa$ is the ratio of average surface flux to the stagnation-point value.
 
-Whether that is enough depends on the ratio of average surface heat flux to the stagnation-point value,
-which is **assumed** rather than known, so it is swept rather than asserted. Taking Mach 20 at forty-two
+Whether that is enough depends on $\kappa$, which is **assumed** for want of a measurement, so it is swept
+rather than asserted. Taking Mach 20 at forty-two
 kilometres, eight hundred square metres of wetted area and four hundred kilograms per second of captured
 air,
 
@@ -619,38 +637,42 @@ air,
 | 0.05 | 442.9 MW | 133.2 MW | 0.30 |
 | 0.10 | 885.7 MW | 133.2 MW | 0.15 |
 
-**The answer turns entirely on a ratio nobody could measure**, which is the same difficulty in a different
+**The answer turns entirely on a ratio nobody could measure**, the same difficulty in a different
 currency. If the average flux is one percent of the stagnation value the fuel carries the load with fifty
 percent to spare. If it is two percent the fuel cannot carry it, and the vehicle needs either more fuel flow
 than combustion wants or a heavier structure than the mass budget allows.
 
-**And running the engine rich to buy cooling capacity is exactly the trade the programme kept returning to**,
+**Running the engine rich to buy cooling capacity is the trade this arithmetic forces**,
 because extra fuel is extra coolant, and it also costs specific impulse.
 
-The heating and cooling literature is gathered in the clusters on stagnation-point, leading-edge and aerodynamic heating and on active, regenerative and transpiration cooling under The Contemporary Literature.
+Heating and cooling each have a cluster under The Contemporary Literature, stagnation-point, leading-edge and aerodynamic heating for the first and active, regenerative and transpiration cooling for the second.
 
-### Materials, and Why They Were Necessary Rather Than Sufficient
+### Materials That Were Necessary but Not Sufficient
 
-**The materials programme is the part of the X-30 that unambiguously succeeded**, which is why it is also
-the part most often cited as the programme's justification.
+**The materials programme is the part of the X-30 most often counted a success**, and its history records
+that it cut the development time of new materials from about fifteen years to about five, although not every
+material proved worthy \[[Schweikart and Hallion 1998][research_schwelkart_hallion_1997]\].
 
-Titanium aluminide intermetallics, titanium matrix composites, carbon-carbon and coated refractory
-composites all advanced substantially, and several transferred to other programmes.
+Titanium aluminide intermetallics, metal matrix composites and coated carbon-carbon all advanced
+substantially, and many of the programme's materials passed to the private sector
+\[[Schweikart and Hallion 1998][research_schwelkart_hallion_1997]\].
 **None of that addressed the keystone**, because a panel that survives an arc-jet test tells you nothing
 about the thrust margin of an assembled vehicle.
 
 **A programme can succeed at every subsystem and fail**, and the X-30 is the clearest case of it in this
 series.
 
-The materials literature is gathered in the clusters on titanium aluminides, intermetallics and titanium matrix composites, on carbon-carbon, ceramic matrix composites and oxidation protection and on thermal protection, hot structures and aerothermoelasticity under The Contemporary Literature.
+Three clusters below hold the materials literature, those on titanium aluminides, intermetallics and titanium matrix composites, on carbon-carbon, ceramic matrix composites and oxidation protection and on thermal protection, hot structures and aerothermoelasticity.
 
 ### Fuel and Tankage
 
 Hydrogen was not a choice so much as a consequence. Its heating value per unit mass is about 2.8 times that
-of kerosene, and at these speeds specific impulse is everything. **What it costs is volume**, because liquid
-hydrogen has a density of about seventy-one kilograms per cubic metre, roughly a twelfth that of kerosene.
+of kerosene \[[Heat of combustion][ref_heat_combustion]\], and at these speeds specific impulse dominates the design.
+**What it costs is volume**, because liquid hydrogen has a density of about seventy-one kilograms per cubic
+metre \[[Liquid hydrogen][ref_lh2]\], roughly an eleventh that of kerosene \[[Kerosene][ref_kerosene]\].
 
-**Slush hydrogen was the programme's answer**, being a mixture of solid and liquid at the triple point.
+**Slush hydrogen was the programme's answer**, being a mixture of solid and liquid at the triple point
+\[[Slush hydrogen][ref_slush]\].
 
 $$ \frac{\rho_{\mathrm{slush}}}{\rho_{\mathrm{liquid}}} - 1 = \frac{81.5}{70.8} - 1 = 15.1\ \mathrm{percent} $$
 
@@ -658,14 +680,15 @@ $$ \frac{\mathcal{V}_{\mathrm{slush}}}{\mathcal{V}_{\mathrm{liquid}}} = \frac{70
 
 **A thirteen percent reduction in tank volume is worth a great deal on a vehicle whose tanks dominate its size**,
 and slush carries additional heat capacity through the latent heat of fusion. It also requires production,
-storage and pumping of a two-phase cryogen at the triple point, which is a substantial industrial
-undertaking for a fuel.
+storage and pumping of a two-phase cryogen at the triple point, a substantial industrial
+undertaking for a fuel, and the programme counted its demonstration a major accomplishment
+\[[Schweikart and Hallion 1998][research_schwelkart_hallion_1997]\].
 
-The literature on slush hydrogen and on cryogenic tankage is gathered in the cluster on hydrogen fuel, slush hydrogen and tankage under The Contemporary Literature.
+The cluster on hydrogen fuel, slush hydrogen and tankage, under The Contemporary Literature, collects the work on slush and on cryogenic tanks.
 
-### Getting to Orbit, Which Turns Out Not to Be the Problem
+### Getting to Orbit Is Not the Problem
 
-**This section's result is the most surprising in the article, and it reframes the programme.**
+**The result here is the article's least expected, and it reframes the programme.**
 
 The usual objection to single stage to orbit is the mass fraction, and the rocket relations follow
 [Sutton][book_sutton]. Taking an all-rocket single stage with a specific impulse of 450 seconds and a
@@ -709,7 +732,7 @@ velocity plus the potential energy of the altitude.
 
 $$ e_{\mathrm{orbit}} = \frac{V_{\mathrm{orbit}}^2}{2} + \mu\left(\frac{1}{R_\oplus} - \frac{1}{R_\oplus + h}\right) = 30.33 + 1.90 = 32.24\ \mathrm{MJ/kg} $$
 
-Hydrogen carries 119.96 megajoules per kilogram.
+Hydrogen carries 119.96 megajoules per kilogram \[[Heat of combustion][ref_heat_combustion]\].
 **If every joule went into the vehicle and none into the exhaust, the atmosphere or the structure**, the
 fuel fraction could not fall below
 
@@ -717,11 +740,11 @@ $$ \left(\frac{m_{\mathrm{fuel}}}{m_0}\right)_{\min} = \frac{32.24}{119.96} = 26
 
 **The integrated ascent gives 45.44 percent, which is 1.69 times the bound.** A perfect engine could do no
 better than a factor of 1.69 improvement on the answer above, and
-**that is the strongest evidence available here that the integration is not producing a fantasy**, because a
+**the bound is the strongest evidence available here that the integration is not producing a fantasy**, because a
 result below the bound would have been proof of an error.
 
 **Air-breathing to six kilometres per second moves the permitted structural fraction from twelve percent to fifty-two.**
-That is not a marginal improvement. It is the difference between a vehicle that cannot be built and one with
+The improvement is not marginal. It separates a vehicle that cannot be built from one with
 room to spare.
 
 The result survives a heavy drag penalty.
@@ -740,7 +763,7 @@ and it keeps closing even when drag consumes sixty percent of thrust throughout 
 five percent of gross thrust at the top of the air-breathing phase, and nothing on the ground could
 establish whether it would.
 
-The literature on single-stage and staged vehicles to orbit is gathered in the cluster on single-stage and two-stage to orbit under The Contemporary Literature.
+Work on single-stage and staged vehicles to orbit appears in the cluster on single-stage and two-stage to orbit.
 
 ### The Corridor
 
@@ -764,22 +787,22 @@ $$ q = \tfrac{1}{2}\left(1.409 \times 10^{-3}\right)\left(8{,}245\right)^2 = 47{
 **The corridor is a line, not a region.** The vehicle must climb along it as it accelerates, and the heat
 load, the structural load and the engine's operating point are all set by where on that line it sits.
 
-What it does along that line is set by the acceleration equation, in which the net thrust of this whole
-article appears once and is then reduced again by the vehicle's own drag.
+What it does along that line is set by the acceleration equation, in which the net thrust this article has
+computed appears once and is then reduced again by the vehicle's own drag.
 
 $$ m\frac{dV}{dt} = F_{\mathrm{net}} - D - m g \sin\gamma, \qquad D = q\,S_{\mathrm{ref}}\,C_D $$
 
 **Every term on the right is smaller than the gross thrust, and the first of them is the smallest.** A
 trajectory that strays high loses the air it needs, and one that strays low melts.
 
-The literature on ascent trajectories, the dynamic pressure corridor and boundary-layer transition along it is gathered in the clusters on trajectory, guidance and control of hypersonic vehicles and on boundary-layer transition and instability under The Contemporary Literature.
+Ascent trajectories and the dynamic pressure corridor are the subject of the cluster on trajectory, guidance and control of hypersonic vehicles, and transition along the corridor that of the cluster on boundary-layer transition and instability.
 
-### Computation, Which Had to Substitute for the Facility
+### Computation as a Substitute for the Facility
 
-**The Copper Canyon conclusion rested on computational fluid dynamics being ready**, and the X-30 is the
-first vehicle in this series whose feasibility case was made primarily in software.
+**The Copper Canyon conclusion rested on computational fluid dynamics being ready**, and the X-30's
+feasibility case was made primarily in software \[[Schweikart and Hallion 1998][research_schwelkart_hallion_1997]\].
 
-The Reynolds number that sets where transition occurs is itself modest, which is part of the difficulty,
+The Reynolds number that sets where transition occurs is modest, which is part of the difficulty,
 since these flows sit in the range where transition is most sensitive rather than safely laminar or safely
 turbulent.
 
@@ -790,33 +813,36 @@ $$ \frac{Re}{L} = \frac{\rho V}{\mu}, \qquad \mu = \frac{1.458 \times 10^{-6}\,T
 | Mach 8 at 27 km | 4.73 × 10⁶ per metre |
 | Mach 20 at 42 km | 1.13 × 10⁶ per metre |
 
-That was a reasonable bet in 1985 and it was not vindicated. Hypersonic flows combine turbulence,
+That was a reasonable bet in 1985 and it was only partly vindicated, for the methods advanced faster than
+expected \[[Schweikart and Hallion 1998][research_schwelkart_hallion_1997]\]. Hypersonic flows combine turbulence,
 finite-rate chemistry, boundary layer transition and shock interactions, and each of those was, and
 substantially still is, an open problem.
 **The codes could not be validated at the conditions that mattered for the same reason the engine could not be tested there**,
-so the computational case and the experimental case failed together rather than backing one another up.
+so the computational case and the experimental case failed together rather than backing one another up
+\[[Peebles 2007][research_peeblescurtis_2007_b]\].
 
-The computational literature is gathered in the clusters on computation, validation and uncertainty, on real-gas, nonequilibrium and rarefied hypersonic flow and on turbulent combustion modelling and simulation under The Contemporary Literature.
+The computational work is divided among the clusters on computation, validation and uncertainty, on real-gas, nonequilibrium and rarefied hypersonic flow and on turbulent combustion modelling and simulation.
 
 ## The Flight Test Record
 
-**There is none, and the shape of the absence is worth stating precisely.**
+**There is none, and the shape of the absence can be stated precisely.**
 
 **No X-30 was built.** No airframe was completed, no integrated engine flew, and the vehicle never
 progressed beyond design studies, component tests and ground demonstrations. The programme was cancelled in
-October 1994.
+October 1994 \[[Peebles 2007][research_peeblescurtis_2007_b]\] \[[Schweikart and Hallion 1998][research_schwelkart_hallion_1997]\].
 
-**What did exist was substantial and was not an aeroplane.** Engine modules were run in ground facilities at
-conditions well below the ones that mattered. Structural panels were tested. Materials were developed and
-characterised. Computational methods were written, exercised and compared against whatever experimental data
-could be obtained.
+**What did exist was substantial and was not an aeroplane.** Engine modules were run in ground facilities,
+small scramjets to Mach 18 and large ones to Mach 16, short of the speeds the vehicle needed. Structural
+panels and an integrated fuel tank were tested. Materials were developed and characterised. Computational
+methods were written, validated against the test data and used to make predictions
+\[[Schweikart and Hallion 1998][research_schwelkart_hallion_1997]\].
 
-**The gap between that inventory and a flight vehicle is exactly the gap this article is about.** Every item
+**The gap between that inventory and a flight vehicle is the subject of this article.** Every item
 on the list is a component tested against an assumed environment, and the environment was the unknown.
 
 ## Comparison With Ground Prediction
 
-**This section exists in every article in this series and it inverts here, which is the most useful thing about it.**
+**Every article in this series has this section. Here it inverts, and the inversion is the most useful thing about it.**
 
 For every other vehicle in this series the section compares what the ground predicted against what the
 aircraft measured. **The X-30 flew nothing, so there is no flight column.** What can be compared instead is
@@ -824,18 +850,21 @@ the ground prediction against itself, and against what has been learned since.
 
 ### The Predictions Disagreed With One Another
 
-**The most consistently reported feature of the programme's technical history is that different groups, using different codes and different assumptions, produced materially different estimates of the same net thrust.**
-That is what one expects when the quantity of interest is a small difference between two large numbers, and
-the article's own arithmetic says as much.
+**The programme's technical history records that different groups, using different codes and different assumptions, reached materially different conclusions about the same propulsion question.**
+One laboratory reported confirming the original design's claim to reach orbit, which none of the other
+contractors could reproduce \[[Schweikart and Hallion 1998][research_schwelkart_hallion_1997]\]. Such disagreement
+is to be expected when the quantity of interest is a small difference between two large numbers, as the
+arithmetic above shows.
 **At an amplification of twenty, two teams differing by three percent on gross thrust differ by sixty percent on the thing that decides whether the vehicle reaches orbit.**
 
 ### What Flight Data Since Has Shown
 
 **Two later programmes did fly scramjets and both are relevant.** The [X-43A][ref_x43] flew powered at about
 Mach 7 and Mach 10 in 2004, and the [X-51A][ref_x51] sustained powered flight for several minutes at about
-Mach 5 in 2013. **Both demonstrated positive net thrust in flight**, which is the qualitative result the
-X-30 needed, and neither approached the speeds at which the loss budget becomes as tight as the table above
-shows.
+Mach 5 in 2013. **Both demonstrated positive net thrust in flight**, the X-43A accelerating at Mach 7 and
+holding its thrust equal to its drag at Mach 10 \[[Peebles 2007][research_peeblescurtis_2007_b]\], and the X-51A
+accelerating to about Mach 5.1 \[[Boeing X-51 Waverider][ref_x51]\]. That is the qualitative result the X-30
+needed, and neither approached the speeds at which the loss budget becomes as tight as the table above shows.
 
 **So the concept was vindicated in the regime where it was never really in doubt**, and the regime the X-30
 was built to settle remains unvisited.
@@ -844,39 +873,45 @@ The flight programmes are surveyed in the cluster on scramjet flight experiments
 
 ## What the Data Changed
 
-**The X-30 produced no flight data and changed a great deal, which is an unusual combination in this series.**
+**The X-30 produced no flight data and changed a great deal, an unusual combination in this series.**
 
-- **The materials transferred.** Titanium aluminides, titanium matrix composites and high-temperature
-  coatings advanced under the programme and were used elsewhere. This is the most commonly cited
-  return on the expenditure and it is real.
+- **The materials transferred.** Titanium aluminides, metal matrix composites and coated carbon-carbon
+  advanced under the programme, and many of its materials passed to the private sector
+  \[[Schweikart and Hallion 1998][research_schwelkart_hallion_1997]\]. It is the most commonly cited
+  return on the expenditure, and a real one.
 - **The computational methods transferred.** Hypersonic computational fluid dynamics was pushed hard
-  by the programme, and the people trained on it went on to the flight programmes that followed.
-- **The flight programmes that followed were shaped by it.** The X-43A and X-51A were deliberately
-  scoped as small, expendable, single-purpose vehicles answering one question each, which is the
-  opposite of the X-30's approach.
+  by the programme, which trained a new generation of scramjet researchers, and the X-43A project began
+  within it \[[Peebles 2007][research_peeblescurtis_2007_b]\].
+- **The flight programmes that followed were shaped by it.** The X-43A was scoped as a small, expendable
+  vehicle with a limited goal, an approach the programme's managers had long rejected
+  \[[Peebles 2007][research_peeblescurtis_2007_b]\], and the X-51A was another
+  single-purpose demonstrator \[[Boeing X-51 Waverider][ref_x51]\]. Each answered one question, which is
+  the opposite of the X-30's approach.
 
 **What did not change is the answer to the question the programme asked.** Whether an air-breathing vehicle
-can accelerate to orbital velocity is still unknown, and the reason is still that the margin is small, the
-uncertainty is large, and the ground cannot settle it.
+can accelerate to orbital velocity is still unknown, because the margin is still small, the uncertainty
+large, and the ground unable to settle it.
 
-The programme's own record, and the materials and methods it passed on, are gathered in the clusters on the National Aero-Space Plane and its programme record, on titanium aluminides, intermetallics and titanium matrix composites and on carbon-carbon, ceramic matrix composites and oxidation protection under The Contemporary Literature.
+The clusters on the National Aero-Space Plane and its programme record, on titanium aluminides, intermetallics and titanium matrix composites and on carbon-carbon, ceramic matrix composites and oxidation protection, under The Contemporary Literature, collect the programme's record and the materials and methods it passed on.
 
-## The Designation Went to Something That Was Never Built, and That Is Now Twice
+## The Designation Went to Something That Was Never Built, Again
 
 **The X-27 was a manufacturer's private-venture fighter that was never built. The X-30 was a government programme's flagship that was never built. Those are different failures and the difference matters.**
 
 The X-27 was never built because nobody bought it. The design existed, the manufacturer was ready, and no
-customer appeared. **Its non-existence is a procurement fact.**
+customer appeared \[[X-Planes: Lockheed X-27][related_post_a324_lockheed_x27]\].
+**Its non-existence is a procurement fact.**
 
 **The X-30 was never built because the thing it was meant to demonstrate could not be shown to be achievable before building it.**
-Some 2.4 billion dollars and eight years of work produced materials, methods and modules, and no
-aeroplane, because the central quantity stayed out of reach of every instrument that could be brought to
-bear on it short of the vehicle itself.
+Some 2.4 billion dollars and eight years of work produced materials, methods and modules, and no aeroplane
+\[[Peebles 2007][research_peeblescurtis_2007_b]\], because the central quantity stayed out of reach of every
+instrument that could be brought to bear on it short of the vehicle itself.
 
-**That is a genuinely different category of X-plane and it is worth naming**, because the series contains
-several vehicles bought off the shelf, several built to answer a question, and now two that were never built
-at all for opposite reasons. That distinction belongs with the evidence the closing article of this series
-assembles.
+**This is a different category of X-plane and deserves a name**, because the series contains
+several vehicles bought off the shelf, several built to answer a question, and several that were never built
+at all, among them the [X-6][related_post_a303_convair_x6], the [X-20][related_post_a317_boeing_x20], the X-27
+and now the X-30, the last two for opposite reasons. That distinction is part of the evidence the closing
+article of this series assembles.
 
 ## The Contemporary Literature
 
@@ -922,14 +957,16 @@ cluster subsections after them set out each literature in turn.
 
 ### Scramjets flew, in small pieces
 
-**The X-30 tried to answer every question with one vehicle. What followed answered one question per vehicle and the vehicles were cheap.**
-The X-43A and X-51A were expendable, air-launched and single-purpose, and between them they established that
-an airframe-integrated scramjet produces positive net thrust in flight.
+**The X-30 tried to answer every question with one vehicle. What followed answered one question per vehicle and the vehicles were cheap by comparison.**
+The X-43A was planned at about 200 million dollars over four years
+\[[Peebles 2007][research_peeblescurtis_2007_b]\]. The X-43A and X-51A were expendable, air-launched and
+single-purpose, and between them they established that an airframe-integrated scramjet produces positive net
+thrust in flight.
 
-**That is a smaller claim than the X-30's and it is a claim that was actually settled**, which is the
+**That is a smaller claim than the X-30's, and it was settled**, which is the
 methodological lesson the programme paid some 2.4 billion dollars to teach.
 
-The flight results are reported in \[[Ferlemann et al 2005][research_ferlemann_mcclinton_2005]\] for the Mach 7 flight and in \[[Marshall et al 2005][research_marshall_bahm_2005]\] for the Mach 10 flight, the X-51A programme is described in \[[Hank et al 2008][research_hank_murphy_2008]\], and the wider literature is the cluster on scramjet flight experiments since the X-30 below.
+The flight results are reported in \[[Ferlemann et al 2005][research_ferlemann_mcclinton_2005]\] for the Mach 7 flight and in \[[Marshall et al 2005][research_marshall_bahm_2005]\] for the Mach 10 flight, the X-51A programme is described in \[[Hank et al 2008][research_hank_murphy_2008]\], and the wider literature makes up the cluster on scramjet flight experiments since the X-30 below.
 
 ### The isolator became its own subject
 
@@ -937,37 +974,37 @@ The flight results are reported in \[[Ferlemann et al 2005][research_ferlemann_m
 whose shock train absorbs the back pressure of combustion, has a modern literature covering its sizing, its
 dynamics, its response to throttling and the detection of impending unstart.
 
-Its sizing is optimised in \[[Deng et al 2017][research_deng_jin_2017]\], the shock train's response to unsteady back pressure is studied in \[[Cai et al 2017][research_cai_zhou_2017]\], and metrics for detecting impending unstart are set out in \[[Acharya 2025][research_acharya_2025]\] and \[[Ratchford et al 2025][research_ratchford_redding_2025]\]. The rest of that literature is the cluster on isolators and shock trains below.
+Its sizing is optimised in \[[Deng et al 2017][research_deng_jin_2017]\], the shock train's response to unsteady back pressure is studied in \[[Cai et al 2017][research_cai_zhou_2017]\], and metrics for detecting impending unstart are set out in \[[Acharya 2025][research_acharya_2025]\] and \[[Ratchford et al 2025][research_ratchford_redding_2025]\]. Further work on isolators and shock trains appears in that cluster below.
 
 ### Ground testing improved and the gap did not close
 
 **The facilities are better and the fundamental tension is unchanged.** Higher-enthalpy shock tunnels and
 expansion tubes reach further, run times are still measured in milliseconds, and the trade between enthalpy
-and duration is a property of how energy is stored rather than of engineering effort.
+and duration is set by how energy is stored, which more engineering effort does not change.
 
 **What has changed is how much is said about it.** Vitiation has been studied since the 1960s, and
 34 of the 52 records in the cluster on vitiation and test gas contamination date from 2000 or later,
 alongside a facility literature that states what a given facility can and cannot establish.
 
-Vitiation is reviewed in \[[Pellett et al 2002][research_pellett_bruno_2002]\] and its effect on ground tests analysed in \[[Arad and Michaels 2021][research_arad_michaels_2021]\], and the work on extending test time includes \[[Yu 2015][research_yu_2015]\]. The facility literature is the cluster on impulse and high-enthalpy ground test facilities below, with contamination in the cluster on vitiation and test gas contamination.
+Vitiation is reviewed in \[[Pellett et al 2002][research_pellett_bruno_2002]\] and its effect on ground tests analysed in \[[Arad and Michaels 2021][research_arad_michaels_2021]\], and the work on extending test time includes \[[Yu 2015][research_yu_2015]\]. Facility work follows in the cluster on impulse and high-enthalpy ground test facilities below, and contamination in the one on vitiation and test gas contamination.
 
 ### Computation grew up, and learned to state its uncertainty
 
 **The X-30's computational case was presented as a prediction. The modern equivalent is presented as a prediction with a distribution attached.**
 Uncertainty quantification, validation hierarchies and sensitivity analysis are now standard in hypersonic
-simulation, and the shift matters for exactly the reason this article's amplification factor gives.
+simulation, and the shift matters for the reason the amplification factor above gives.
 
 **A twenty-fold amplification from input uncertainty to output uncertainty is not a reason to stop computing. It is a reason to compute the amplification.**
 
-An isolator flowfield is computed with its uncertainty quantified in \[[Baurle and Axdahl 2017][research_baurlera_axdahlel_2017]\], and the standards for verification and validation are set out in \[[Freitas 2020][research_freitas_2020]\]. The rest is the cluster on computation, validation and uncertainty below.
+An isolator flowfield is computed with its uncertainty quantified in \[[Baurle and Axdahl 2017][research_baurlera_axdahlel_2017]\], and the standards for verification and validation are set out in \[[Freitas 2020][research_freitas_2020]\]. Further work is listed under computation, validation and uncertainty below.
 
 ### Transition remains the hardest open problem
 
-**Boundary layer transition sets the heat load, the drag and the inlet's incoming profile**, and it is still
-not predictable from first principles at these conditions. The contemporary literature is large and honest
+**Boundary layer transition sets the heat load, the drag and the inlet's incoming profile**, and first principles
+still cannot predict it at these conditions. The contemporary literature is large and honest
 about this.
 
-The state of the question is summarised in \[[Chou and Marineau 2023][research_amandachou_ericcmarineau_2024]\], and the literature is the cluster on boundary-layer transition and instability below.
+The state of the question is summarised in \[[Chou and Marineau 2023][research_amandachou_ericcmarineau_2024]\], and the cluster on boundary-layer transition and instability below carries the rest.
 
 ### Aerothermodynamics is computed, and still not settled
 
@@ -975,7 +1012,7 @@ The state of the question is summarised in \[[Chou and Marineau 2023][research_a
 Real-gas chemistry, surface catalysis and radiative transport are all better represented than they were, and
 the spread between codes at the conditions that matter remains substantial.
 
-The capability of the codes for shock and boundary-layer interaction is assessed in \[[Knight 2015][research_knight_2015]\], and the heating literature is the cluster on stagnation-point, leading-edge and aerodynamic heating below, with high-temperature gas effects in the cluster on real-gas, nonequilibrium and rarefied hypersonic flow.
+The capability of the codes for shock and boundary-layer interaction is assessed in \[[Knight 2015][research_knight_2015]\], and the heating work appears below under stagnation-point, leading-edge and aerodynamic heating, with high-temperature gas effects under real-gas, nonequilibrium and rarefied hypersonic flow.
 
 ### Trajectory and guidance became a control problem
 
@@ -983,28 +1020,28 @@ The capability of the codes for shock and boundary-layer interaction is assessed
 dynamic pressure limit, the heating limit and the engine's operating box entering as path constraints rather
 than as lines on a chart.
 
-Ascent with a dynamic pressure limit is solved as an optimal control problem in \[[Chudej 1996][research_chudej_1996]\], and path constraints of a later kind appear in \[[Tian and Shen 2022][research_tian_shen_2022]\]. The literature is the cluster on trajectory, guidance and control of hypersonic vehicles below.
+Ascent with a dynamic pressure limit is solved as an optimal control problem in \[[Chudej 1996][research_chudej_1996]\], and path constraints of a later kind appear in \[[Tian and Shen 2022][research_tian_shen_2022]\]. Both sit in the cluster on trajectory, guidance and control of hypersonic vehicles below.
 
 ### Combustion modelling and the fuel-air question
 
 **Ignition delay and equivalence ratio are now computed with detailed kinetics rather than correlated.** The
-trade the X-30 kept circling, between thrust, fuel and coolant, is the same trade, and it is now posed with
+trade the X-30 faced, between thrust, fuel and coolant, has not changed, but it is now posed with
 a chemistry model attached.
 
-Flamelet methods for supersonic combustion are assessed in \[[Baumgart et al 2025][research_baumgart_yao_2025]\], and the literature is gathered in the clusters on turbulent combustion modelling and simulation, on ignition, kinetics and hydrogen-air chemistry and on fuel injection, mixing and flameholding below.
+Flamelet methods for supersonic combustion are assessed in \[[Baumgart et al 2025][research_baumgart_yao_2025]\], and three clusters below share the subject, those on turbulent combustion modelling and simulation, on ignition, kinetics and hydrogen-air chemistry and on fuel injection, mixing and flameholding.
 
 ### Inlet starting is a design variable now
 
 **Variable geometry, bleed and controlled unstart recovery have turned the starting problem from a constraint into a subject.**
 
-Bleed is used to improve self-starting in \[[Fengyuan et al 2016][research_fengyuan_guoping_2016]\], restart by an active jet is assessed in \[[Jin and Yao 2023][research_jin_yao_2023]\], and adaptive geometry is proposed in \[[Zhang 2020][research_zhang_2020_c]\]. The literature is the cluster on inlet starting and unstart below.
+Bleed is used to improve self-starting in \[[Fengyuan et al 2016][research_fengyuan_guoping_2016]\], restart by an active jet is assessed in \[[Jin and Yao 2023][research_jin_yao_2023]\], and adaptive geometry is proposed in \[[Zhang 2020][research_zhang_2020_c]\]. The cluster on inlet starting and unstart below covers the rest.
 
 ### Materials and structures moved on
 
 **Ceramic matrix composites, ultra-high-temperature ceramics and modern thermal protection have advanced well past what the X-30 had available**,
 and additive manufacture has changed what cooled structures can be made.
 
-Ceramic matrix composites for hypersonic systems are reviewed in \[[De Stefano Fumo et al 2025][research_destefanofumo_sciti_2025]\], and the literature is gathered in the clusters on carbon-carbon, ceramic matrix composites and oxidation protection, on thermal protection, hot structures and aerothermoelasticity and on titanium aluminides, intermetallics and titanium matrix composites below.
+Ceramic matrix composites for hypersonic systems are reviewed in \[[De Stefano Fumo et al 2025][research_destefanofumo_sciti_2025]\], and the subject continues in the clusters on carbon-carbon, ceramic matrix composites and oxidation protection, on thermal protection, hot structures and aerothermoelasticity and on titanium aluminides, intermetallics and titanium matrix composites below.
 
 ### Six Subjects That Were Small or Absent in 1994
 
@@ -1014,15 +1051,15 @@ the economic case.
 
 ### Detonation replaced deflagration as the interesting question
 
-**The X-30 assumed its fuel would burn subsonically relative to the flow, which is what a flame does.** A
+**The X-30 assumed its fuel would burn as a deflagration, a flame that moves subsonically through the mixture.** A
 detonation burns through the mixture at supersonic speed and approaches constant-volume rather than
 constant-pressure heat release, which raises the theoretical cycle efficiency.
 
 **Rotating and pulse detonation engines are now a substantial literature**, and the relevance here is
 direct. The X-30's difficulty was that its fuel added a small perturbation to a very large stream.
-**A cycle that extracts more work from the same chemical energy attacks exactly that.**
+**A cycle that extracts more work from the same chemical energy attacks that difficulty directly.**
 
-Standing oblique detonation for hypersonic propulsion is reviewed in \[[Jiang 2023][research_jiang_2023]\], and the literature is the cluster on detonation engines below.
+Standing oblique detonation for hypersonic propulsion is reviewed in \[[Jiang 2023][research_jiang_2023]\], and the remaining work forms the cluster on detonation engines below.
 
 ### Precooling attacks the problem from the other end
 
@@ -1033,53 +1070,55 @@ the compressor inlet temperature enough to let turbomachinery work far beyond it
 **This is a different bet from the X-30's**, and its central difficulty is the heat exchanger rather than
 the combustor.
 
-The thermodynamics of precooled engines is set out in \[[Yu et al 2017][research_yu_pan_2017]\], and the literature is the cluster on combined-cycle and precooled engines below.
+The thermodynamics of precooled engines is set out in \[[Yu et al 2017][research_yu_pan_2017]\]. Precooled engines share a cluster with combined cycles below.
 
 ### Machine learning entered where the codes could not be validated
 
-**The X-30's computational case could not be checked against experiment at the conditions that mattered.**
+**The X-30's computational case could not be checked against experiment at flight conditions.**
 Contemporary practice inserts learned models at the same points, for turbulence closure, for chemistry
 reduction and for surrogate models that make an optimisation affordable.
 
-**The obvious objection is the one the X-30's own history supplies.** A model trained on data that does not
+**The obvious objection comes from the X-30's history.** A model trained on data that does not
 reach the flight condition extrapolates there, and extrapolation is what the programme was punished for.
 
-Turbulence models are calibrated against the HIFiRE-1 flight experiment with machine-learned models in \[[Chowdhary et al 2022][research_chowdhary_hoang_2022]\], and the work is gathered in the cluster on computation, validation and uncertainty below.
+Turbulence models are calibrated against the HIFiRE-1 flight experiment with machine-learned models in \[[Chowdhary et al 2022][research_chowdhary_hoang_2022]\], and that work is counted with computation, validation and uncertainty below.
 
 ### Uncertainty is quantified rather than covered
 
-**This bears directly on the article's own arithmetic.** A twenty-fold amplification from gross-thrust error
-to net-thrust error is not an argument for abandoning computation.
-**It is an argument for computing the amplification and stating the distribution**, which is now standard
+**This bears directly on the arithmetic above.** With gross-thrust error amplified twenty-fold
+into net-thrust error,
+**the remedy is to compute the amplification and state the distribution**, now standard
 practice under the names uncertainty quantification and validation hierarchy.
 
-Uncertainty quantification for an air-breathing launch vehicle is set out in \[[McCormick et al 2010][research_mccormick_wakayama_2010]\], and the work is gathered in the cluster on computation, validation and uncertainty below.
+Uncertainty quantification for an air-breathing launch vehicle is set out in \[[McCormick et al 2010][research_mccormick_wakayama_2010]\], and it too falls within the cluster on computation, validation and uncertainty.
 
 ### Manufacture changed what a cooled structure can be
 
-**The X-30's cooled panels were assemblies of formed sheet and brazed passages.** Additive manufacture
+**The X-30's actively cooled panels were made by conventional fabrication, with brazing among the steps of its manufacturing plan**
+\[[Schweikart and Hallion 1998][research_schwelkart_hallion_1997]\]. Additive manufacture
 allows internal cooling geometries that cannot be fabricated any other way, and design for additive
 manufacture has become a literature of its own since 2016.
 
-A printed hypersonic combustor is reported in \[[Orbital ATK tests 3D printed hypersonic engine combustor][research_orbital_atk_2016]\], and the literature is the cluster on additive manufacture of aerospace structures below.
+A printed hypersonic combustor is reported in \[[Orbital ATK tests 3D printed hypersonic engine combustor][research_orbital_atk_2016]\], and the cluster on additive manufacture of aerospace structures below holds the rest.
 
 ### Aerothermoelasticity became a coupled subject
 
 **Heating softens structure, softened structure deflects, deflection changes the flow, and the flow changes the heating.**
 Coupled analysis began within the programme, in its aeroservothermoelasticity studies \[[Doggett et al 1991][research_doggettrobertvjr_rickettsrodneyh_1991]\] and the aerothermoelastic analysis of a demonstrator model \[[Heeg et al 1993][research_heegjennifer_zeilerthomasa_1993]\], and the modern treatment couples the disciplines as a matter of course.
 
-The work is gathered in the cluster on thermal protection, hot structures and aerothermoelasticity below.
+The cluster on thermal protection, hot structures and aerothermoelasticity below includes this work.
 
 ### The economic case was removed by something else entirely
 
-**This is the development that matters most and it is not aerodynamic.**
+**The development that matters most is not aerodynamic.**
 
-**Reusable rocket first stages lowered the cost of access to space substantially, without air-breathing.**
-The X-30's justification was that air-breathing was the route to cheap access. That argument has been
+**Reusable rocket first stages have been credited with lowering the cost of access to space, without air-breathing.**
+One of the X-30's justifications was that air-breathing was the route to cheap access
+\[[Schweikart and Hallion 1998][research_schwelkart_hallion_1997]\]. That argument has been
 answered by a different technology, and
-**the physics the X-30 could not settle is exactly where it was left.**
+**the physics the X-30 could not settle remains unsettled.**
 
-The development of reusable launch vehicles is reviewed in \[[Wu and Zhang 2023][research_wu_zhang_2023]\], and the literature is the cluster on reusable launch vehicles and the cost of access below.
+The development of reusable launch vehicles is reviewed in \[[Wu and Zhang 2023][research_wu_zhang_2023]\], and reusable launch vehicles and the cost of access form a cluster below.
 
 ### Combined cycles and the reusable launch question
 
@@ -1087,11 +1126,11 @@ The development of reusable launch vehicles is reviewed in \[[Wu and Zhang 2023]
 with air-breathing first stages, rocket-based and turbine-based combined cycles, and the practical success
 of reusable rocket first stages have all changed what the competition looks like.
 
-**The most important development is not technical.** Reusable rockets made access to space dramatically
+**Here again the most important development is economic.** Reusable rockets made access to space dramatically
 cheaper without air-breathing, which removes much of the economic argument the X-30 was built on while
-leaving the physics exactly where it was.
+leaving the physics where it was \[[Wu and Zhang 2023][research_wu_zhang_2023]\].
 
-The history of rocket-based combined cycles is set out in \[[Escher 1999][research_escher_1999]\], and the literature is gathered in the clusters on combined-cycle and precooled engines and on single-stage and two-stage to orbit below.
+The history of rocket-based combined cycles is set out in \[[Escher 1999][research_escher_1999]\], and the clusters on combined-cycle and precooled engines and on single-stage and two-stage to orbit carry the subject from there.
 
 ### Fuel injection, mixing and flameholding
 
@@ -1157,7 +1196,7 @@ The history of rocket-based combined cycles is set out in \[[Escher 1999][resear
 
 **134 of these 141 records date from 1985 to 1995**, the years of the programme and its close-out, and 71 of them are report primaries. What the record lacks is the decision record, as The Source Base explains.
 
-**141 records.** \[[McNelis et al 1995][research_mcnelisnancyb_hardyterryl_1995]\] \[[Kelly and Blosser 1992][research_kellyhneale_blossermaxl_1992]\] \[[Kelly and Blosser 1994][research_kellyhneale_blossermaxl_1994]\] \[[Aero-Space Plane Flexible Access 1991][research_aero_space_plane_1991]\] \[[Heeg et al 1993][research_heegjennifer_zeilerthomasa_1993]\] \[[Mehta 1994][research_mehtaunmeelb_1994]\] \[[Brown et al 1992][research_brown_wierzbanowski_1992]\] \[[Ricketts et al 1993][research_rickettsrodneyh_nollthomase_1993]\] \[[Anfimov 1993][research_anfimov_1993]\] \[[Autonomous space processor for 1988][research_autonomous_space_1988]\] \[[Barthelemy 1989][research_barthelemy_1989_b]\] \[[Barthelemy 1991][research_barthelemy_1991]\] \[[Baumann and Bisbee 2003][research_baumann_bisbee_2003]\] \[[Bert 1989][research_bert_1989]\] \[[Bogue and Erbland 1993][research_bogue_erbland_1993]\] \[[Butler and Moore 1992][research_butler_moore_1992]\] \[[Calise et al 1988][research_calise_flandro_1988]\] \[[Camarda and Murrow 1990][research_camarda_murrow_1990]\] \[[Chakravarthy and the Computational Fluid Dynamics Department 1990][research_chakravarthy_thecomputationalfluiddynamicsdepartment_1990]\] \[[Chaput 1989][research_chaput_1989]\] \[[Chase 1991][research_chase_1991_b]\] \[[Chase 1991][research_chase_1991]\] \[[Chase and Tang 1995][research_chase_tang_1995]\] \[[Cole et al 1993][research_cole_florance_1993]\] \[[Sullivan 1991][research_williamsullivan_1991]\] \[[Seebass 1989][research_seebass_1989]\] \[[Dayton 1993][research_dayton_1993]\] \[[Defense Science Board Washington Dc 1988][research_defensescienceboardwashingtondc_1988]\] \[[Defense Science Board Washington Dc 1992][research_defensescienceboardwashingtondc_1992]\] \[[DeNardo 1994][research_denardo_1994]\] \[[Dewitt et al 1989][research_dewitt_hardy_1989]\] \[[Dress et al 1994][research_dress_boyden_1994]\] \[[Dube et al 1991][research_dube_slifka_1991]\] \[[Ellis 1989][research_ellis_1989]\] \[[Emanuel 1989][research_emanuel_1989_b]\] \[[Erbland 1990][research_erbland_1990]\] \[[Froning et al 1990][research_froning_gaubatz_1990]\] \[[Hannum and Berkopec 1989][research_hannumnedp_berkopecfrankd_1989]\] \[[Anderson 1993][research_andersoncharlesw_1993]\] \[[Hanaoka 1997][research_hanaoka_1997]\] \[[Hannigan and Webb 1991][research_hannigan_webb_1991]\] \[[Harris 1993][research_harris_1993]\] \[[Harsha and Waldman 1989][research_harsha_waldman_1989]\] \[[Hickman and Adams 1991][research_hickman_adams_1991]\] \[[Steinetz et al 1991][research_steinetzbrucem_melismatthewe_1991]\] \[[Hinkley et al 1995][research_hinkley_prasad_1995]\] \[[Hunt and Martin 1992][research_hunt_martin_1992]\] \[[Hunt and Martin 1989][research_huntjamesl_martinjohng_1989]\] \[[Richardson et al 1989][research_richardsonpamelaf_mcclintoncharlesr_1989]\] \[[Mehta 1995][research_mehtau_1995]\] \[[Maglieri et al 1990][research_maglieridomenicj_sothcottvictore_1990]\] \[[Jackman et al 1992][research_jackman_douglas_1992]\] \[[Johnson 1991][research_johnson_1991]\] \[[Kahre 1987][research_kahre_1987]\] \[[Kasten 1991][research_kasten_1991]\] \[[Kussoy et al 1992][research_kussoy_menter_1992]\] \[[Lanshin 1993][research_lanshin_1993]\] \[[Lehrach 1987][research_lehrach_1987]\] \[[Longstaff 1995][research_longstaff_1995]\] \[[Wierzbanowski and Kasten 1990][research_wierzbanowskitheodore_kastenterryd_1990]\] \[[Mattern 1992][research_mattern_1992]\] \[[McCandless and Cruz 1985][research_mccandless_cruz_1985]\] \[[McClinton et al 1990][research_mcclinton_bittner_1990]\] \[[Mease 1993][research_mease_1993]\] \[[Mease and Van Buren 1994][research_mease_vanburen_1994]\] \[[Mehta 1990][research_mehta_1990]\] \[[Mehta 1992][research_mehta_1992]\] \[[Mehta 1993][research_mehta_1993]\] \[[Miele 1990][research_miele_1990]\] \[[Morris 1992][research_morris_1992]\] \[[Morris 1995][research_morrisjr_1995]\] \[[Moszee and Snyder 1989][research_moszee_snyder_1989]\] \[[Dixon 1985][research_dixonsc_1985]\] \[[Whitehead 1989][research_whiteheadallenhjr_1989]\] \[[Doggett et al 1991][research_doggettrobertvjr_rickettsrodneyh_1991]\] \[[NASP tests composites 1991][research_nasp_tests_1991]\] \[[Piland 1987][research_pilandwilliamm_1987]\] \[[National Aero-Space Plane NASP 1990][research_national_aero_space_1990]\] \[[Wright 1989][research_wrighthowardt_1989]\] \[[Berry 1991][research_berry_1991]\] \[[Johnson et al 1993][research_johnsondl_hillck_1993]\] \[[Natural environment requirements definition 1993][research_natural_environment_1993]\] \[[Nebylov and Tomita 1998][research_nebylov_tomita_1998]\] \[[Neyland 1993][research_neyland_1993]\] \[[Ohlhorst et al 1990][research_ohlhorst_vaughn_1990]\] \[[Parker et al 1991][research_parker_spain_1991]\] \[[Pelloux 1994][research_pelloux_1994]\] \[[Performance and Technological Feasibility 2018][research_performance_and_2018]\] \[[Piland 1987][research_piland_1987]\] \[[Pototzky et al 1988][research_pototzky_spain_1988]\] \[[Povinelli et al 1990][research_povinelli_dwoyer_1990]\] \[[Powell 1992][research_powell_1992]\] \[[Hicks 1991][research_hicksjohnw_1991]\] \[[Anderson et al 1990][research_cwanderson_charlesrmcclinton_1990]\] \[[Psiaki and Park 1991][research_psiaki_park_1991]\] \[[Pukhov 1993][research_pukhov_1993]\] \[[Corban et al 1991][research_corbanje_caliseaj_1991]\] \[[Rasmussen and Stevens 1987][research_rasmussen_stevens_1987]\] \[[Barthelemy 1989][research_barthelemy_1989]\] \[[Reda 1991][research_reda_1991]\] \[[Abell 1989][research_abell_1989]\] \[[Cavolowsky et al 1995][research_cavolowskyjohna_loomismarkp_1995]\] \[[Rodgers 1992][research_rodgers_1992]\] \[[Ronald 1989][research_ronald_1989]\] \[[Ronald 1989][research_ronald_1989_b]\] \[[Ronald 1991][research_ronald_1991]\] \[[Ronald 1993][research_ronald_1993]\] \[[Ronald 1995][research_ronald_1995]\] \[[Ruffin et al 1989][research_ruffin_venkatapathy_1989]\] \[[Sams 1989][research_sams_1989]\] \[[Sasmal et al 1991][research_sasmal_hochstein_1991]\] \[[Scramjet Engine Research athe 2001][research_scramjet_engine_2001]\] \[[Spain et al 1993][research_spain_zeiler_1993_b]\] \[[Spain et al 1993][research_spain_zeiler_1993]\] \[[Steinetz 1991][research_steinetz_1991]\] \[[Little 1992][research_littlete_1992]\] \[[Sypniewski 1989][research_sypniewski_1989]\] \[[Tank 1991][research_tank_1991]\] \[[Rausch and Morris 1992][research_rauschvincentl_morrischarlesekjr_1992]\] \[[Hannum 1988][research_hannumnedp_1988]\] \[[Christol 1993][research_christol_1993]\] \[[Song and Su 2015][research_song_su_2015]\] \[[Wierzbanowski and Armstrong 1991][research_wierzbanowskitheodore_armstrongjohnnyg_1991]\] \[[Schwelkart and Hallion 1997][research_schwelkart_hallion_1997]\] \[[Hallion et al 1995][research_hallion_becker_1995]\] \[[Woodcock 1988][research_woodcock_1988]\] \[[Thomas and Powell 1992][research_thomas_powell_1992]\] \[[Throckmorton 1989][research_throckmorton_1989]\] \[[Toten et al 1991][research_toten_fong_1991]\] \[[Mease and Vanburen 1989][research_measekennethd_vanburenmarka_1989]\] \[[Lu 1993][research_luping_1993]\] \[[Vaicaitis 1991][research_vaicaitis_1991]\] \[[Van Buren and Mease 1991][research_vanburen_mease_1991]\] \[[Waldman and Harsha 1992][research_waldman_harsha_1992]\] \[[West and Mitchell 1994][research_west_mitchell_1994]\] \[[Wierzbanowski and McCorry 1990][research_wierzbanowski_mccorry_1990]\] \[[Winkler and Bush 1992][research_winkler_bush_1992]\] \[[Wolf and Daum 1993][research_wolf_daum_1993]\] \[[Yamanaka 1992][research_yamanaka_1992]\] \[[Yaros 1991][research_yaros_1991]\] \[[Zagainov and Plokhikh 1991][research_zagainov_plokhikh_1991]\]
+**141 records.** \[[McNelis et al 1995][research_mcnelisnancyb_hardyterryl_1995]\] \[[Kelly and Blosser 1992][research_kellyhneale_blossermaxl_1992]\] \[[Kelly and Blosser 1994][research_kellyhneale_blossermaxl_1994]\] \[[Aero-Space Plane Flexible Access 1991][research_aero_space_plane_1991]\] \[[Heeg et al 1993][research_heegjennifer_zeilerthomasa_1993]\] \[[Mehta 1994][research_mehtaunmeelb_1994]\] \[[Brown et al 1992][research_brown_wierzbanowski_1992]\] \[[Ricketts et al 1993][research_rickettsrodneyh_nollthomase_1993]\] \[[Anfimov 1993][research_anfimov_1993]\] \[[Autonomous space processor for 1988][research_autonomous_space_1988]\] \[[Barthelemy 1989][research_barthelemy_1989_b]\] \[[Barthelemy 1991][research_barthelemy_1991]\] \[[Baumann and Bisbee 2003][research_baumann_bisbee_2003]\] \[[Bert 1989][research_bert_1989]\] \[[Bogue and Erbland 1993][research_bogue_erbland_1993]\] \[[Butler and Moore 1992][research_butler_moore_1992]\] \[[Calise et al 1988][research_calise_flandro_1988]\] \[[Camarda and Murrow 1990][research_camarda_murrow_1990]\] \[[Chakravarthy and the Computational Fluid Dynamics Department 1990][research_chakravarthy_thecomputationalfluiddynamicsdepartment_1990]\] \[[Chaput 1989][research_chaput_1989]\] \[[Chase 1991][research_chase_1991_b]\] \[[Chase 1991][research_chase_1991]\] \[[Chase and Tang 1995][research_chase_tang_1995]\] \[[Cole et al 1993][research_cole_florance_1993]\] \[[Sullivan 1991][research_williamsullivan_1991]\] \[[Seebass 1989][research_seebass_1989]\] \[[Dayton 1993][research_dayton_1993]\] \[[Defense Science Board Washington Dc 1988][research_defensescienceboardwashingtondc_1988]\] \[[Defense Science Board Washington Dc 1992][research_defensescienceboardwashingtondc_1992]\] \[[DeNardo 1994][research_denardo_1994]\] \[[Dewitt et al 1989][research_dewitt_hardy_1989]\] \[[Dress et al 1994][research_dress_boyden_1994]\] \[[Dube et al 1991][research_dube_slifka_1991]\] \[[Ellis 1989][research_ellis_1989]\] \[[Emanuel 1989][research_emanuel_1989_b]\] \[[Erbland 1990][research_erbland_1990]\] \[[Froning et al 1990][research_froning_gaubatz_1990]\] \[[Hannum and Berkopec 1989][research_hannumnedp_berkopecfrankd_1989]\] \[[Anderson 1993][research_andersoncharlesw_1993]\] \[[Hanaoka 1997][research_hanaoka_1997]\] \[[Hannigan and Webb 1991][research_hannigan_webb_1991]\] \[[Harris 1993][research_harris_1993]\] \[[Harsha and Waldman 1989][research_harsha_waldman_1989]\] \[[Hickman and Adams 1991][research_hickman_adams_1991]\] \[[Steinetz et al 1991][research_steinetzbrucem_melismatthewe_1991]\] \[[Hinkley et al 1995][research_hinkley_prasad_1995]\] \[[Hunt and Martin 1992][research_hunt_martin_1992]\] \[[Hunt and Martin 1989][research_huntjamesl_martinjohng_1989]\] \[[Richardson et al 1989][research_richardsonpamelaf_mcclintoncharlesr_1989]\] \[[Mehta 1995][research_mehtau_1995]\] \[[Maglieri et al 1990][research_maglieridomenicj_sothcottvictore_1990]\] \[[Jackman et al 1992][research_jackman_douglas_1992]\] \[[Johnson 1991][research_johnson_1991]\] \[[Kahre 1987][research_kahre_1987]\] \[[Kasten 1991][research_kasten_1991]\] \[[Kussoy et al 1992][research_kussoy_menter_1992]\] \[[Lanshin 1993][research_lanshin_1993]\] \[[Lehrach 1987][research_lehrach_1987]\] \[[Longstaff 1995][research_longstaff_1995]\] \[[Wierzbanowski and Kasten 1990][research_wierzbanowskitheodore_kastenterryd_1990]\] \[[Mattern 1992][research_mattern_1992]\] \[[McCandless and Cruz 1985][research_mccandless_cruz_1985]\] \[[McClinton et al 1990][research_mcclinton_bittner_1990]\] \[[Mease 1993][research_mease_1993]\] \[[Mease and Van Buren 1994][research_mease_vanburen_1994]\] \[[Mehta 1990][research_mehta_1990]\] \[[Mehta 1992][research_mehta_1992]\] \[[Mehta 1993][research_mehta_1993]\] \[[Miele 1990][research_miele_1990]\] \[[Morris 1992][research_morris_1992]\] \[[Morris 1995][research_morrisjr_1995]\] \[[Moszee and Snyder 1989][research_moszee_snyder_1989]\] \[[Dixon 1985][research_dixonsc_1985]\] \[[Whitehead 1989][research_whiteheadallenhjr_1989]\] \[[Doggett et al 1991][research_doggettrobertvjr_rickettsrodneyh_1991]\] \[[NASP tests composites 1991][research_nasp_tests_1991]\] \[[Piland 1987][research_pilandwilliamm_1987]\] \[[National Aero-Space Plane NASP 1990][research_national_aero_space_1990]\] \[[Wright 1989][research_wrighthowardt_1989]\] \[[Berry 1991][research_berry_1991]\] \[[Johnson et al 1993][research_johnsondl_hillck_1993]\] \[[Natural environment requirements definition 1993][research_natural_environment_1993]\] \[[Nebylov and Tomita 1998][research_nebylov_tomita_1998]\] \[[Neyland 1993][research_neyland_1993]\] \[[Ohlhorst et al 1990][research_ohlhorst_vaughn_1990]\] \[[Parker et al 1991][research_parker_spain_1991]\] \[[Pelloux 1994][research_pelloux_1994]\] \[[Performance and Technological Feasibility 2018][research_performance_and_2018]\] \[[Piland 1987][research_piland_1987]\] \[[Pototzky et al 1988][research_pototzky_spain_1988]\] \[[Povinelli et al 1990][research_povinelli_dwoyer_1990]\] \[[Powell 1992][research_powell_1992]\] \[[Hicks 1991][research_hicksjohnw_1991]\] \[[Anderson et al 1990][research_cwanderson_charlesrmcclinton_1990]\] \[[Psiaki and Park 1991][research_psiaki_park_1991]\] \[[Pukhov 1993][research_pukhov_1993]\] \[[Corban et al 1991][research_corbanje_caliseaj_1991]\] \[[Rasmussen and Stevens 1987][research_rasmussen_stevens_1987]\] \[[Barthelemy 1989][research_barthelemy_1989]\] \[[Reda 1991][research_reda_1991]\] \[[Abell 1989][research_abell_1989]\] \[[Cavolowsky et al 1995][research_cavolowskyjohna_loomismarkp_1995]\] \[[Rodgers 1992][research_rodgers_1992]\] \[[Ronald 1989][research_ronald_1989]\] \[[Ronald 1989][research_ronald_1989_b]\] \[[Ronald 1991][research_ronald_1991]\] \[[Ronald 1993][research_ronald_1993]\] \[[Ronald 1995][research_ronald_1995]\] \[[Ruffin et al 1989][research_ruffin_venkatapathy_1989]\] \[[Sams 1989][research_sams_1989]\] \[[Sasmal et al 1991][research_sasmal_hochstein_1991]\] \[[Scramjet Engine Research athe 2001][research_scramjet_engine_2001]\] \[[Spain et al 1993][research_spain_zeiler_1993_b]\] \[[Spain et al 1993][research_spain_zeiler_1993]\] \[[Steinetz 1991][research_steinetz_1991]\] \[[Little 1992][research_littlete_1992]\] \[[Sypniewski 1989][research_sypniewski_1989]\] \[[Tank 1991][research_tank_1991]\] \[[Rausch and Morris 1992][research_rauschvincentl_morrischarlesekjr_1992]\] \[[Hannum 1988][research_hannumnedp_1988]\] \[[Christol 1993][research_christol_1993]\] \[[Song and Su 2015][research_song_su_2015]\] \[[Wierzbanowski and Armstrong 1991][research_wierzbanowskitheodore_armstrongjohnnyg_1991]\] \[[Schweikart and Hallion 1998][research_schwelkart_hallion_1997]\] \[[Hallion et al 1995][research_hallion_becker_1995]\] \[[Woodcock 1988][research_woodcock_1988]\] \[[Thomas and Powell 1992][research_thomas_powell_1992]\] \[[Throckmorton 1989][research_throckmorton_1989]\] \[[Toten et al 1991][research_toten_fong_1991]\] \[[Mease and Vanburen 1989][research_measekennethd_vanburenmarka_1989]\] \[[Lu 1993][research_luping_1993]\] \[[Vaicaitis 1991][research_vaicaitis_1991]\] \[[Van Buren and Mease 1991][research_vanburen_mease_1991]\] \[[Waldman and Harsha 1992][research_waldman_harsha_1992]\] \[[West and Mitchell 1994][research_west_mitchell_1994]\] \[[Wierzbanowski and McCorry 1990][research_wierzbanowski_mccorry_1990]\] \[[Winkler and Bush 1992][research_winkler_bush_1992]\] \[[Wolf and Daum 1993][research_wolf_daum_1993]\] \[[Yamanaka 1992][research_yamanaka_1992]\] \[[Yaros 1991][research_yaros_1991]\] \[[Zagainov and Plokhikh 1991][research_zagainov_plokhikh_1991]\]
 
 ### Boundary-layer transition and instability
 
@@ -1293,11 +1332,11 @@ The titles that name the keystone quantity itself are few, and Thin Subjects cou
 
 **The thrust model is a one-dimensional energy and momentum balance and nothing more.** It has no pressure
 terms, no losses other than two assumed efficiencies, no chemistry, no dissociation and no spatial
-structure. It is right about the shape of the problem and it is not a performance prediction.
+structure. It captures the shape of the problem but makes no performance prediction.
 **Every absolute thrust number in this article inherits that.**
 
 **The amplification factor is the most robust thing here and even it is model-dependent.** It follows from
-net thrust being a difference, which is a fact about bookkeeping rather than about any particular engine,
+net thrust being a difference, a fact about bookkeeping rather than about any particular engine,
 but its numerical value moves with the assumed efficiencies.
 
 **The dissociation threshold of about three thousand kelvin is a rule of thumb**, not a sharp line, and the
@@ -1314,7 +1353,7 @@ of the cooling system. And it assumes the air-breathing phase can be flown at al
 **The cooling balance turns on a flux ratio that is assumed rather than known**, and its answer changes from
 comfortable to impossible across the plausible range of that one parameter.
 
-**And the largest limitation is that this article analyses a vehicle that does not exist.** There is no
+**The largest limitation is that this article analyses a vehicle that does not exist.** There is no
 configuration to check the physics against, no measured drag, no measured capture area and no flown
 trajectory. Every number here describes a class of vehicle rather than the X-30.
 
@@ -1332,9 +1371,11 @@ methods and ground testing, and the propulsion and aerothermodynamics literature
 still.
 
 **Much of the programme was classified and some remains so**, particularly the Copper Canyon study and the
-military mission analysis. What is publicly available is the technology base rather than the programme's own
-decision record, which means
-**the question of why it was cancelled is documented far less well than the question of what it produced.**
+military mission analysis. What is publicly available is mostly the technology base rather than the
+programme's own decision record, and the decision record that is public comes chiefly through the Air Force
+history of the programme, which traces its budget turmoil, the 1989 attempt to cancel it and the
+congressional direction to end it by fiscal year 1994
+\[[Schweikart and Hallion 1998][research_schwelkart_hallion_1997]\].
 
 **The physics is not in doubt and is drawn from primary literature that long predates the programme.**
 Supersonic combustion, hypersonic aerothermodynamics, Rayleigh flow and the mass-fraction arithmetic are all
@@ -1385,8 +1426,8 @@ standard, and the article is built on those rather than on programme documents.
 
 **Historical fact, well attested.**
 
-- The Defense Advanced Research Projects Agency ran a study called Copper Canyon from about 1982 to
-  1985 which led to the programme.
+- The Defense Advanced Research Projects Agency ran a study called Copper Canyon from the early 1980s
+  to 1985 which led to the programme, its start dated to 1982 by one source and to 1983 by another.
 - The National Aero-Space Plane programme was announced publicly in the 1986 State of the Union
   address, and the vehicle was designated X-30.
 - Airframe work involved Rockwell International, McDonnell Douglas and General Dynamics, with
@@ -1399,8 +1440,9 @@ standard, and the article is built on those rather than on programme documents.
 
 **Reported and not independently corroborated here.**
 
-- That no X-30 configuration was ever frozen, which is asserted consistently by secondary sources and
-  is consistent with the variation in published figures.
+- That no X-30 configuration was ever frozen, which is consistent with the programme history's record
+  of weight estimates rising from 50,000 pounds to about 500,000 and of a design still to be frozen in
+  the early 1990s.
 
 **Engineering analysis, computed here and reproducible from the stated inputs.**
 
@@ -1430,9 +1472,12 @@ standard, and the article is built on those rather than on programme documents.
 **Inference, labelled as such.**
 
 - **The verification gap, rather than any single technology, is what killed the programme.**
-  The physics supports it and the programme's own decision record is not public.
+  The physics supports it, while the published histories attribute the cancellation chiefly to budgets
+  and to the early commitment to a full-scale orbital vehicle \[[Schweikart and Hallion 1998][research_schwelkart_hallion_1997]\]
+  \[[Peebles 2007][research_peeblescurtis_2007_b]\].
 - **The small single-purpose scramjet programmes that followed were a reaction to this one.**
-  The pattern is clear and the intent is not documented here.
+  The pattern is clear, and NASA's X-43A history records that the project began within the programme
+  as the subscale approach its managers had long rejected \[[Peebles 2007][research_peeblescurtis_2007_b]\].
 
 **Not established.**
 
@@ -1462,10 +1507,10 @@ inside that five percent.
 **A one percent error in the larger number is a twenty-one percent error in the answer.**
 
 **No facility could supply the conditions.** Mach 25 carries thirty-four megajoules per kilogram of
-stagnation enthalpy, the facilities that reach it hold it for milliseconds, and the flow inside the engine
+stagnation enthalpy, the facilities able to produce it sustain it for milliseconds, and the flow inside the engine
 needs milliseconds merely to establish.
 **The facilities that reach the enthalpy cannot hold it, and the ones that can hold it cannot reach it**,
-which is a property of how energy is stored rather than a shortage of money.
+a consequence of how energy is stored, and more money would not have changed it.
 
 **And the computation could not close the gap**, because the codes needed validation at conditions the
 facilities could not produce, so the computational case and the experimental case failed together instead of
@@ -1478,7 +1523,7 @@ twelve percent of its mass to be structure.
 The concept is not forbidden by mass fraction. It is forbidden, or at least indefinitely deferred, by
 uncertainty.
 
-**The materials worked, the computational methods advanced, and the people trained on the programme went on to fly scramjets on cheaper vehicles.**
+**Many of the materials worked, the computational methods advanced, and the programme trained the researchers who went on to fly scramjets on cheaper vehicles.**
 A programme can succeed at every subsystem and fail, and this one did.
 
 **The X-30 is the second designation in four articles to go to an aircraft that was never built, after the X-27, and the two failures are opposites.**
@@ -1518,33 +1563,45 @@ available.
 - [Boeing X-51 Waverider][ref_x51]
 - [Defense Advanced Research Projects Agency][ref_darpa]
 - [General Dynamics][ref_gd]
+- [Heat of combustion][ref_heat_combustion]
 - [Jenkins, Landis and Miller, American X-Vehicles][ref_xvehicles]
+- [Kerosene][ref_kerosene]
+- [Liquid hydrogen][ref_lh2]
 - [McDonnell Douglas][ref_mcdonnell]
 - [NASA X-43][ref_x43]
 - [Pratt and Whitney][ref_pw]
 - [Ram drag and net thrust][ref_ram_drag]
 - [Rayleigh flow][ref_rayleigh]
+- [Reinforced carbon-carbon][ref_rcc]
 - [Rocketdyne][ref_rocketdyne]
 - [Rockwell International][ref_rockwell]
 - [Rockwell X-30][ref_x30]
 - [Rockwell-MBB X-31][ref_x31]
+- [RS-25][ref_rs25]
 - [Scramjet][ref_scramjet]
 - [Skylon and the SABRE precooled engine][ref_skylon]
 - [Slush hydrogen][ref_slush]
 - [Space Shuttle][ref_shuttle]
+- [Titanium aluminide][ref_tial]
 
 [ref_darpa]: https://en.wikipedia.org/wiki/DARPA
 [ref_gd]: https://en.wikipedia.org/wiki/General_Dynamics
+[ref_heat_combustion]: https://en.wikipedia.org/wiki/Heat_of_combustion
+[ref_kerosene]: https://en.wikipedia.org/wiki/Kerosene
+[ref_lh2]: https://en.wikipedia.org/wiki/Liquid_hydrogen
 [ref_mcdonnell]: https://en.wikipedia.org/wiki/McDonnell_Douglas
 [ref_pw]: https://en.wikipedia.org/wiki/Pratt_%26_Whitney
 [ref_ram_drag]: https://ntrs.nasa.gov/citations/19930091053
 [ref_rayleigh]: https://en.wikipedia.org/wiki/Rayleigh_flow
+[ref_rcc]: https://en.wikipedia.org/wiki/Reinforced_carbon%E2%80%93carbon
 [ref_rocketdyne]: https://en.wikipedia.org/wiki/Rocketdyne
 [ref_rockwell]: https://en.wikipedia.org/wiki/Rockwell_International
+[ref_rs25]: https://en.wikipedia.org/wiki/RS-25
 [ref_scramjet]: https://en.wikipedia.org/wiki/Scramjet
 [ref_shuttle]: https://en.wikipedia.org/wiki/Space_Shuttle
 [ref_skylon]: https://en.wikipedia.org/wiki/Skylon_(spacecraft)
 [ref_slush]: https://en.wikipedia.org/wiki/Slush_hydrogen
+[ref_tial]: https://en.wikipedia.org/wiki/Titanium_aluminide
 [ref_x30]: https://en.wikipedia.org/wiki/Rockwell_X-30
 [ref_x31]: https://en.wikipedia.org/wiki/Rockwell-MBB_X-31
 [ref_x43]: https://en.wikipedia.org/wiki/NASA_X-43
@@ -4408,7 +4465,7 @@ available.
 - [Schulte-Roedding and Olivier 1998][research_schulteroedding_olivier_1998]
 - [Schultz et al 2012][research_schultz_goldenstein_2012]
 - [Schunk and Chung 2000][research_schunk_chung_2000]
-- [Schwelkart and Hallion 1997][research_schwelkart_hallion_1997]
+- [Schweikart and Hallion 1998][research_schwelkart_hallion_1997]
 - [Schwendemann and Sanders 1982][research_schwendemannmf_sandersbw_1982]
 - [Scott 1993][research_scott_1993]
 - [Scott and Pototzky 1993][research_scott_pototzky_1993]

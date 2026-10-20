@@ -15,8 +15,8 @@ series_index: 68
 **The whole public case for the X-67 having been skipped is one sentence, and four fifths of that
 sentence is a comparison with another number.** The entry by the compiler, Andreas Parsch, reads that, just like the X-58, the
 X-67 slot was skipped after the allocation of the XQ-67A to the General Atomics Off-Board Sensing Station
-unmanned aircraft \[[Missing USAF and DOD Aircraft Designations][ref_missing_mds]]. **That is the whole
-of it.** There is no reasoning about this case, no statement of confidence, and no claim that the
+unmanned aircraft \[[Missing USAF and DOD Aircraft Designations][ref_missing_mds]]. **The entry ends there.**
+There is no reasoning about this case, no statement of confidence, and no claim that the
 aeroplane does not exist.
 
 **Set that beside the entry one paragraph above it.** The X-58's entry states that the designation has
@@ -28,9 +28,9 @@ a claim about emptiness, and the X-67's entry carries none of the three.**
 
 **The comparison is the point and a uniqueness claim is not available.** The compiler reasons by analogy elsewhere. His note on the XRQ-73A
 derives the number 73 from the XRQ-72A because one programme follows the other, and his note on the
-YFQ-44A says only that the number is out of sequence like the YFQ-42A's
+YFQ-44A says that the number is out of sequence like the YFQ-42A's and that why 43 was skipped is unclear
 \[[Parsch, DOD 4120.15-L Addendum][ref_mds_addendum]]. **What is distinctive here is narrower.** The 73 is
-derived from a programme relationship, which is reasoning about its own case. **The 67 is derived from
+derived from a programme relationship, so the reasoning concerns its own case. **The 67 is derived from
 another number's derivation**, and that other derivation is the only place the reasoning lives.
 
 This is the sixty-eighth article in the [X-Planes series][related_post_a297_framing], following the [X-1][related_post_a298_bell_x1], the [X-2][related_post_a299_bell_x2], the [X-3][related_post_a300_douglas_x3], the [X-4][related_post_a301_northrop_x4], the [X-5][related_post_a302_bell_x5], the [X-6][related_post_a303_convair_x6], the [X-7][related_post_a304_lockheed_x7], the [X-8][related_post_a305_aerojet_x8], the [X-9][related_post_a306_bell_x9], the [X-10][related_post_a307_north_american_x10], the [X-11][related_post_a308_convair_x11], the [X-12][related_post_a309_convair_x12], the [X-13][related_post_a310_ryan_x13], the [X-14][related_post_a311_bell_x14], the [X-15][related_post_a312_north_american_x15], the [X-16][related_post_a313_bell_x16], the [X-17][related_post_a314_lockheed_x17], the [X-18][related_post_a315_hiller_x18], the [X-19][related_post_a316_curtiss_wright_x19], the [X-20][related_post_a317_boeing_x20], the [X-21][related_post_a318_northrop_x21], the [X-22][related_post_a319_bell_x22], the [X-23][related_post_a320_martin_marietta_x23], the [X-24][related_post_a321_martin_marietta_x24], the [X-25][related_post_a322_bensen_x25], the [X-26][related_post_a323_schweizer_x26], the [X-27][related_post_a324_lockheed_x27], the [X-28][related_post_a325_osprey_x28], the [X-29][related_post_a326_grumman_x29], the [X-30][related_post_a327_rockwell_x30], the [X-31][related_post_a328_rockwell_mbb_x31], the [X-32][related_post_a329_boeing_x32], the [X-33][related_post_a330_lockheed_martin_x33], the [X-34][related_post_a331_orbital_sciences_x34], the [X-35][related_post_a332_lockheed_martin_x35], the [X-36][related_post_a333_mcdonnell_douglas_x36], the [X-37][related_post_a334_boeing_x37], the [X-38][related_post_a335_scaled_composites_x38], the [X-39][related_post_a336_x39_reserved_never_assigned], the [X-40][related_post_a337_boeing_x40], the [X-41][related_post_a338_x41_common_aero_vehicle], the [X-42][related_post_a339_orbital_sciences_x42], the [X-43][related_post_a340_micro_craft_x43], the [X-44][related_post_a341_x44_two_aircraft], the [X-45][related_post_a342_boeing_x45], the [X-46][related_post_a343_boeing_x46], the [X-47][related_post_a344_northrop_grumman_x47], the [X-48][related_post_a345_boeing_x48], the [X-49][related_post_a346_piasecki_x49], the [X-50][related_post_a347_boeing_x50], the [X-51][related_post_a348_boeing_x51], the [X-52][related_post_a349_x52_designation_refused], the [X-53][related_post_a350_boeing_x53], the [X-54][related_post_a351_gulfstream_x54], the [X-55][related_post_a352_lockheed_martin_x55], the [X-56][related_post_a353_lockheed_martin_x56], the [X-57][related_post_a354_esaero_x57_maxwell], the [X-58][related_post_a355_x58_slot_taken_by_xq58], the [X-59][related_post_a356_x59_quesst], the [X-60][related_post_a357_generation_orbit_x60], the [X-61][related_post_a358_dynetics_x61_gremlins], the [X-62][related_post_a359_lockheed_martin_x62_vista], the [X-63][related_post_a360_abl_space_systems_x63], the [X-64][related_post_a361_invocon_x64], the [X-65][related_post_a362_aurora_x65_crane], and the [X-66][related_post_a363_boeing_x66].
@@ -41,8 +41,7 @@ This is the sixty-eighth article in the [X-Planes series][related_post_a297_fram
 aeroplane, and the X-67 is the fourth.** The first was reserved and lost because nobody wrote the
 letter that would have assigned it. The second was requested in writing and refused for resembling a
 number already in use. The third was skipped while the number went to an unmanned aircraft in a
-neighbouring series. **The fourth is the third happening again, and the interesting thing about a
-second occurrence is that it is the point at which a precedent becomes a rule.**
+neighbouring series. **The fourth is the third happening again, and a second occurrence matters because it is the point at which a precedent becomes a rule.**
 
 **This article is therefore not a second account of the same mechanism.** The X-58 article established
 the mechanism, measured the family of borrowed numbers, and showed that scarcity explains nothing. What
@@ -70,7 +69,7 @@ programme called a genus carrying species
 \[[AFRL first flight release][ref_afrl_firstflight]] \[[GA-ASI first flight release][ref_gaasi_firstflight]].
 **A design number exists to answer the question of when a thing is a new thing. The aeroplane that
 consumed this one was built to prove that the answer is modular.** That collision is this article's
-subject, and it is the reason an anomaly with four sentences of record has an argument in it.
+subject, and it gives an anomaly with four sentences of record an argument.
 
 **No X-67 vehicle was ever built, so there is no keystone to identify and no system to dimension**, and
 the sections on sizing, dependent systems and flight say so and stop. **The aeroplane that took the number
@@ -85,21 +84,21 @@ built to answer a question under that number, and the record attributes no quest
 
 **The aeroplane that took the number did have a question, and the laboratory stated it.** The XQ-67A
 existed to show that several aircraft can be raised as species on one shared genus chassis, and the
-laboratory's release says that the object was the method rather than the aeroplane
-\[[AFRL first flight release][ref_afrl_firstflight]]. That question belongs to the XQ-67A and not to the
-X-67.
+laboratory's release says that the object was the method as much as the aeroplane
+\[[AFRL first flight release][ref_afrl_firstflight]]. That question is the XQ-67A's and not the
+X-67's.
 
 **The question this article asks is therefore about the number, and the opening states it.** Whether a
 second borrowing from the research series was an accident, what permitted the skip and when it became
-irreversible, and what a design number indexes at all are the questions taken up in the sections headed
+irreversible, and what a design number indexes at all are the questions taken up under
 Why the Slot Is Empty, So Far As the Record Says and What the Data Changed. **The aeroplane's question
 enters only because its answer bears on the last of them.**
 
 ## Programme Origin, What the Record Says Happened
 
 **The public record of the X-67 consists of one absence and four sentences.** The absence is in the
-allocation register and the sentences are in two compilations by the same author, so the whole of what
-follows rests on a narrow base and the article says so at the outset.
+allocation register and the sentences are in two compilations by the same author, so the argument
+that follows has a narrow base and the article states this at the outset.
 
 ### The Register Is the Primary Source and the Primary Source Is a Table
 
@@ -108,7 +107,7 @@ of Defense list of model designations, and it covers allocations from 19 August 
 \[[Parsch, DOD 4120.15-L Addendum][ref_mds_addendum]]. Its descriptions of later allocations are marked by the
 compiler as not official Department wording, as described below, so the register is evidence about the
 Department's allocations and not a Department publication.
-Its own front matter explains why it exists. The Department published no updated edition for almost six
+Its front matter explains why it exists. The Department published no updated edition for almost six
 years after October 1998, the compiler requested the new assignments under the Freedom of Information
 Act, and the list has been maintained since. **The compiler also records that the Department announced
 in 2018 that the printed list would be retired and that the data would be made available through other
@@ -116,8 +115,8 @@ online sources, and that those sources have not been implemented**
 \[[Parsch, DOD 4120.15-L Addendum][ref_mds_addendum]]. That last sentence turns out to matter and the article
 returns to it.
 
-**Every register count in this article is of the register as last updated on 23 August 2026, which is
-after this article's date.** The page as archived on 10 December 2025, two days before that date, carries 526
+**Every register count in this article is of the register as last updated on 23 August 2026, a date after this article's.**
+The page as archived on 10 December 2025, two days before that date, carries 526
 designation rows, 29 of them in the research series and the last of those the X-66A
 \[[Parsch, DOD 4120.15-L Addendum, as archived on 10 December 2025][ref_mds_addendum_wb_2025_12]\], and the
 dated note under The Article's Own Vantage Point records when the newer research rows appeared. Five rows
@@ -144,13 +143,13 @@ dated rows run from 1997-12-10 to 2025-11-21. **Every chronological statement be
 subset and every count uses the whole**, because a row with a partial date is still an allocation and
 excluding it would understate the register while including it would corrupt an ordering.
 
-**The register also marks its own reliability, in four states, and this article needs all four.** The
+**The register also marks its reliability, in four states, and this article needs all four.** The
 compiler's note explains that no complete official data is available for designations assigned after
 October 2018, that for later allocations the official description is no longer releasable to the public,
 and that such descriptions are therefore shown in blue to indicate that they are not official
 Department wording \[[Parsch, DOD 4120.15-L Addendum][ref_mds_addendum]]. **Rows missing from officially
-released data altogether are shown entirely in blue**, which is a stronger claim about a whole
-allocation rather than about one cell.
+released data altogether are shown entirely in blue**, a stronger claim because it concerns a whole
+allocation rather than one cell.
 
 | State | What the mark says | Rows |
 |---|---|---:|
@@ -159,8 +158,8 @@ allocation rather than about one cell.
 | Partly unofficial description | Part of the description is official wording and part is not | 17 |
 | Unofficial row | The allocation itself is absent from officially released data | 16 |
 
-**The four states are exhaustive and disjoint, which is what makes any officiality count meaningful**,
-and the article states the partition rather than assuming it.
+**The four states are exhaustive and disjoint, and any officiality count depends on that**,
+so the article states the partition outright.
 
 $$
 \lvert \mathcal{R} \rvert \;=\; \lvert \mathcal{R}_{\mathrm{off}} \rvert
@@ -172,8 +171,8 @@ $$
 **So 103 of the 539 rows carry a mark of some kind**, and five of them are among the seven rows
 in non-standard form, which the table counts with the rest. The
 distinction between the second state and the fourth is the one this article leans on, and merging them
-would destroy the comparison the subsection headed The Second Case Falls on the Far Side of a Line the
-First Did Not makes. **The four counts in the table sum to the 539 rows**, so a row
+would destroy the comparison drawn under The Second Case Falls on the Far Side of a Line the
+First Did Not. **The four counts in the table sum to the 539 rows**, so a row
 falling into none of the four or into two of them would show as a total that no longer matches.
 
 ### The Absence Is Measured and Not Quoted
@@ -210,10 +209,10 @@ X-41A as an experimental manoeuvring reentry vehicle, the X-42A as an experiment
 the X-43A to Microcraft as a hypersonic experimental research aircraft, each with a sponsor and an
 engine entry \[[DoD 4120.15-L, 2004 with Change 1][ref_dod_412015l_2004]]. **So three of the five
 absences outside the window are allocations the Department itself printed**, and their absence from a
-register that opens in August 1998 dates them rather than casting any doubt on them.
+register that opens in August 1998 dates them and casts no doubt on them.
 
-**The share is worth stating because it is larger than a reader would guess, and it is the ratio of the
-two counts above.** Writing the set of absent numbers as $A$ and the span's endpoints as $d_{\min}$ and
+**The share deserves a figure because it is larger than a reader would guess.** It is the ratio of the
+two counts above. Writing the set of absent numbers as $A$ and the span's endpoints as $d_{\min}$ and
 $d_{\max}$ gives the completeness of the record directly.
 
 $$
@@ -223,7 +222,7 @@ $$
 **That evaluates to 37.5 percent.** More than a third of the positions in the span the
 register covers carry no research-series row at all.
 
-**And the series is not fast, which is what makes that share matter.** The allocation rate over the
+**The series is not fast, so the share matters.** The allocation rate over the
 window is the count of dated rows divided by the interval they span.
 
 $$
@@ -232,14 +231,14 @@ $$
 
 **The 29 dated research rows span 26.289 years, so $\lambda$ is
 1.1031 allocations per year.** Dividing the numbers lost inside the window by that rate converts
-them into the series' own output.
+them into years of the series' output.
 
 $$
 \Delta t_A \;=\; \frac{\lvert A_{\mathrm{in}} \rvert}{\lambda}
 $$
 
 **That is 9.07 years.** A series issuing roughly one number a year has lost
-ten numbers inside its own document, **which is a decade of its own output.**
+ten numbers inside the register's window, **a decade of its output.**
 
 **That answers a different question from the arithmetic of the
 [X-58][related_post_a355_x58_slot_taken_by_xq58] article**, which computed the rate at which the series
@@ -249,7 +248,7 @@ explains nothing. **The missing share says nothing about scarcity and something 
 **The X-67's absence is therefore dispositive in a way that the X-41's is not.** The X-66A was allocated
 in May 2023 and the X-68A in August 2025, both inside the window and both in the same table. **A row
 between them would have been recorded if it existed.** That is the strongest statement the register
-supports about the X-67 and it is a statement about the register rather than about an aeroplane.
+supports about the X-67, and it concerns the register rather than an aeroplane.
 
 ### The Number Was Taken While It Was Still the Next One Due
 
@@ -259,7 +258,7 @@ United States Air Force, printed as `USAF`, an engine cell reading 1 Williams FJ
 description reading that it is an unmanned air vehicle for the Off-Board Sensing Station programme \[[Parsch, DOD 4120.15-L Addendum][ref_mds_addendum]].
 
 **The research series had reached 66 at that moment.** The X-66A was allocated on
-2023-05-03, which is 77 days before the borrowing, and no research allocation
+2023-05-03, 77 days before the borrowing, and no research allocation
 after that one precedes it. **So the next research design number due on 2023-07-19 was
 67, and 67 is the number the unmanned allocation took.**
 
@@ -273,7 +272,7 @@ ratio of 5.623.** The second number was taken while it was much fresher.
 
 **And the research series then waited.** After the first borrowing the next research allocation was the
 X-59A on 2018-06-21, 346 days later. **After the second it was the
-X-68A on 2025-08-20, 763 days later**, which is the longer of the two and is
+X-68A on 2025-08-20, 763 days later**, the longer of the two and
 the interval during which nothing in the record had yet treated the X-67 as spent.
 
 | | First borrowing | Second borrowing |
@@ -320,8 +319,8 @@ is practically certain that the number 58 was chosen to fit into the X-series ev
 designated with the unmanned symbol should get a number in the unmanned series**
 \[[Missing USAF and DOD Aircraft Designations][ref_missing_mds]].
 
-**Three things are present in the first case and absent in the second.** The reasoning, which is that an
-unmanned designation should have taken an unmanned number. The confidence, which is stated as practically
+**Three things are present in the first case and absent in the second.** The reasoning, that an
+unmanned designation should have taken an unmanned number. The confidence, stated as practically
 certain. And the claim that the slot is empty, which the first note makes as a parenthesis and the second
 does not make at all. **What the second case has instead is the phrase just like the X-58.**
 
@@ -339,28 +338,28 @@ graded vocabulary and he uses it consistently.
 | 73 | XRQ-73A | probably chosen because the programme follows on from the one with the 72 |
 | 170 | RQ-170 | derived from the manufacturer's own designation for the aircraft |
 
-**He writes apparently, probably, practically certain, unclear and nothing at all, and he writes each
-where it belongs** \[[Parsch, DOD 4120.15-L Addendum][ref_mds_addendum]]
-\[[Missing USAF and DOD Aircraft Designations][ref_missing_mds]]. **That the XRQ-72A's entry says plainly
-that the derivation is unknown is what makes the silence against the X-67 informative.** A compiler who
+**He writes apparently, probably, practically certain, unclear and nothing at all, and he writes each where the evidence calls for it**
+\[[Parsch, DOD 4120.15-L Addendum][ref_mds_addendum]]
+\[[Missing USAF and DOD Aircraft Designations][ref_missing_mds]]. **Because the XRQ-72A's entry states plainly that the derivation is unknown, the silence against the X-67 is informative.**
+A compiler who
 will write unclear when he cannot derive a number is not withholding an argument. He is citing one.
 
-**And the citation runs one step deep rather than two.** The 73 is derived from the 72, whose own origin
-is recorded as unknown, so that derivation rests on a number and not on a reason. **The 67 is derived from
+**And the citation runs one step deep rather than two.** The 73 is derived from the 72, whose origin
+is recorded as unknown, so that derivation stands on a number and not on a reason. **The 67 is derived from
 the 58, whose origin is recorded with reasoning and a confidence.** Of the two chains in the family, the
-one this article is about is the one whose root is sound.
+chain this article is about has the sound root.
 
 ### The Second Case Falls on the Far Side of a Line the First Did Not
 
-**This is the difference between the two borrowings that matters most to a register, and it is not in
-the notes at all.** The
+**This difference between the two borrowings matters most to a register, and the notes do not mention it.**
+The
 XQ-58A was allocated in July 2017 and its description is official Department wording. It reads that the
 aeroplane is an unmanned, transonic, long-range, low-cost, limited life, strike unmanned aircraft system,
 and it carries the popular name Valkyrie \[[Parsch, DOD 4120.15-L Addendum][ref_mds_addendum]]. **The XQ-67A was
 allocated in July 2023 and its description carries the mark saying it is not official Department
 wording.**
 
-**So in the first case the government said what the aeroplane was for and in the second it did not.** The
+**In the first case the government said what the aeroplane was for and in the second it did not.** The
 register's state for the XQ-58A's description is official and for the XQ-67A's it is
 cell. The compiler's phrase just like the X-58 therefore draws an analogy across the
 evidentiary boundary his own front matter declares.
@@ -370,21 +369,21 @@ the 31 research rows, 21 are fully official, seven are official
 allocations whose descriptions are the compiler's, one is official with a partly unofficial
 description, and two are rows absent from officially released data altogether. **The last
 research row with an official description is the X-60A of September 2018 and the first without one is the
-X-61A of June 2019**, which is the finding the [X-61][related_post_a358_dynetics_x61_gremlins] article
-recorded and which this article confirms by recomputing it.
+X-61A of June 2019**. The [X-61][related_post_a358_dynetics_x61_gremlins] article
+recorded that finding, and this article confirms it by recomputation.
 
-**And this measurement refines a figure other articles in this series state**, being the research
+**This measurement also refines a figure other articles in this series state**, being the research
 series' officiality split as twenty-one official, nine wholly unofficial and one partly. **The register
 gives 21 official, nine wholly unofficial and one partly**, which agrees exactly, **provided that wholly
 unofficial merges two different claims.** Two of the nine are rows absent from officially released data
 altogether and seven are official allocations whose stated purpose is the compiler's. **The
 recorded figure is right and the category is too coarse for this article's use**, because the XQ-67A
-falls in the second group and the distinction is the whole of the comparison above.
+falls in the second group and the comparison above consists of that distinction.
 
-**What survives the mark is worth stating because it is not nothing.** The date, the designation, the
+**Some of the row survives the mark.** The date, the designation, the
 contractor and the engine data on the XQ-67A's row are unmarked, so they are official. **The register
 officially records that the aeroplane has one Williams FJ44-4A and unofficially records what it is for.**
-That inversion is the register's shape after 2018 and it is the reason an article about a designation can
+That inversion is the register's shape after 2018, and it explains why an article about a designation can
 still be written while an article about a purpose cannot.
 
 ### The Aeroplane That Took the Number, in the Record's Own Words
@@ -424,15 +423,15 @@ using a common core chassis that promotes commonality across multiple vehicle ty
 
 **The lineage the laboratory gives runs through four programme names and the article uses it.** The Low
 Cost Attritable Aircraft Technologies initiative began with in-house designs in late 2014 and early
-2015, became the Low Cost Attritable Strike Demonstrator joint capability technology demonstration, and
-produced the XQ-58 for its first flight in 2019. The platform-sharing programme began as discussions in
+2015, and its early studies evolved into the requirements definition for the Low Cost Attritable Strike
+Demonstrator joint capability technology demonstration, which produced the XQ-58 for its first flight in 2019. The platform-sharing programme began as discussions in
 2018 and fed into the Off-Board Sensing Station programme, which culminated in building and flying the
 XQ-67A \[[AFRL first flight release][ref_afrl_firstflight]]. **The laboratory also records that the team
 initially worked with five industry vendors and that it decided at the end of 2021 to exercise the
 opportunity to build the General Atomics design.**
 
 **One sentence in that release states the programme's object more plainly than any other, and the object
-is the method rather than the aeroplane.** The elision covers a clause allowing that there is an aircraft
+is the method as much as the aeroplane.** The elision covers a clause allowing that there is an aircraft
 at the end of the programme which the laboratory expects to get a great deal of use from, and it does not
 change the sense \[[AFRL first flight release][ref_afrl_firstflight]].
 
@@ -445,8 +444,8 @@ government reference autonomy during a flight test in the California high desert
 tactical datalink communications, and that it executed test points validating autonomy, mission
 computing, networking, power and thermal management and datalinks
 \[[GA-ASI autonomy release][ref_gaasi_autonomy_2025]]. **The release describes the aeroplane as a testbed
-and as critical to exploring the platform sharing approach**, which is the same claim as the first
-release and is made about mission systems rather than structure.
+and as critical to exploring the platform sharing approach**, repeating the claim of the first
+release, this time for mission systems.
 
 ### What the Award Record Adds That the Releases Do Not
 
@@ -463,9 +462,9 @@ programme returns five contracts, all awarded in the spring of 2019
 | FA865019F2502 | The Boeing Company | 1,384,404.00 | 2019-04-02 |
 | FA865019F2501 | Aurora Flight Sciences | 1,191,580.19 | 2019-03-22 |
 
-**The count of five matches the laboratory's own sentence about five industry vendors, which is
-the only corroboration this article has found for it.** The total is 24,479,631.19 dollar. **Every share quoted in
-this section is the same relation**, which is one award over the sum of them, written once here and not
+**The count of five matches the laboratory's sentence about five industry vendors, and this article has found no other corroboration for it.**
+The total is 24,479,631.19 dollar. **Every share quoted in
+this section is the same relation**, one award over the sum of them, written once here and not
 again.
 
 $$
@@ -496,16 +495,16 @@ award record returns two, one day apart \[[USAspending][ref_usaspending]].
 | FA865022C2200 | General Atomics Aeronautical Systems | 67,986,112.00 | 2021-10-26 |
 | FA865022C2201 | Kratos Unmanned Aerial Systems | 16,003,302.00 | 2021-10-25 |
 
-**The ratio between them is 4.2483, and the interesting thing is that the two figures deviate
-from what was reported at award in opposite directions.** Trade coverage of the October 2021 awards
+**The ratio between them is 4.2483, and the two figures deviate from what was reported at award in opposite directions.**
+Trade coverage of the October 2021 awards
 reported matching cost-plus-fixed-fee contracts of 17,700,000.00 dollar each, potentially worth
 49,000,000.00 dollar if an option of 31,400,000.00 dollar were exercised, which sums to
-49,100,000.00 dollar, with a base effort of twelve months and an option effort running a
-further fifteen
+49,100,000.00 dollar, with a base effort to be delivered within a year and an option effort to be
+completed by the end of January 2024
 \[[Kratos, General Atomics Get Contracts for Off-Board Sensing Station][ref_asf_obss_2021]].
 
 **Comparing an outturn against a reported figure is the other relation this section uses repeatedly**,
-and it is a relative deviation from a reference.
+a relative deviation from a reference.
 
 $$
 \epsilon \;=\; \frac{c - c_{\mathrm{ref}}}{c_{\mathrm{ref}}}
@@ -516,9 +515,7 @@ and 38.75 percent above its reported ceiling, an excess of 18,986,112.00 dollar,
 other ended at 90.41 percent of its reported base, 9.59 percent short.**
 **The two deviations have opposite signs**, which is the shape of a competition resolved rather than
 completed and is the only thing this pair of numbers establishes.
-One contract grew past the maximum its own option defined and the other stopped before its minimum. **The
-sum of the two is 83,989,414.00 dollar, which is 3.431 times the whole platform-sharing
-programme that preceded it.**
+One contract grew past the maximum its option defined and the other stopped before its minimum. **The sum of the two is 83,989,414.00 dollar, 3.431 times the total of the platform-sharing programme that preceded it.**
 
 **The same coverage names the solicitation behind the awards.** The awards followed a Broad Agency Announcement of September 2020 under a laboratory
 heading called Science and Technology for Autonomous Teammates, proposals were submitted in April 2021,
@@ -554,7 +551,7 @@ the end of 2022.** The record contains no document that chooses, and the designa
 | First flight | 2024-02-28 | 1,805 |
 
 **The designation came 631 days after the build contract and 224 days before
-first flight.** Placing an event inside an interval is a ratio of two differences, and it is the last
+first flight.** Placing an event inside an interval takes a ratio of two differences, the last
 relation this section needs.
 
 $$
@@ -579,12 +576,12 @@ This series has recorded five already.
 **The sixth is the number
 arriving mid-build, after the design is committed and before it flies.** It is probably the ordinary case
 for a modern demonstrator rather than an anomaly, and it is recorded because **an ordinary case is the
-baseline the five unusual ones are unusual against**, which is a thing a list of exceptions does not
-supply on its own.
+baseline the five unusual ones are unusual against**, and a list of exceptions does not
+supply that baseline by itself.
 
-**And the award record is silent about the designation itself, as it was for the
-[X-62][related_post_a359_lockheed_martin_x62_vista].** Querying it for the string XQ-67A returns no
-awards at all \[[USAspending][ref_usaspending]], which is the result that article explains as a
+**The award record is also silent about the designation itself, as it was for the [X-62][related_post_a359_lockheed_martin_x62_vista].**
+Querying it for the string XQ-67A returns no
+awards at all \[[USAspending][ref_usaspending]], a result that article explains as a
 designation being a claim one part of a government makes to another, of no use to the part that pays the
 invoices.
 
@@ -604,9 +601,7 @@ asking for anything.
 > aircraft, reference the basic mission designator and research the last approved design number and
 > design series of that basic mission designator to determine the "next-in-series" MDS designator.
 
-**The elision covers a parenthetical naming where to look, which is a page on the Defense Technical
-Information Center's DoDTechipedia site or the allocating office itself, and the article returns to that
-parenthetical below because the site it names is the half of the sentence that has not survived.**
+**The elision covers a parenthetical naming where to look, a page on the Defense Technical Information Center's DoDTechipedia site or the allocating office itself, and the article returns to that parenthetical below because the site it names is the half of the sentence that has not survived.**
 
 **So the next number is defined from the last approved design number and not from the lowest unused
 one.** A gap left in a basic mission is therefore not a slot waiting to be filled. **It is behind the
@@ -614,10 +609,8 @@ pointer, and the procedure never looks behind the pointer.**
 
 **That is a stronger statement than the one this series has been making.** The
 [X-39][related_post_a336_x39_reserved_never_assigned] article found that reuse of a reserved designation
-requires cancellation first and that the cancellation was never filed, which is a statement about a
-particular paperwork failure. **The procedural sentence above is general, and it says that in the
-ordinary case there is nothing to cancel, because a skipped number was never approved and so can never
-be the last approved one.**
+requires cancellation first and that the cancellation was never filed, a finding that concerns a
+single paperwork failure. **The procedural sentence above is general, and it implies that in the ordinary case there is nothing to cancel, because a skipped number was never approved and so can never be the last approved one.**
 
 ### And the Instruction Refuses to Sell a Skipped Number Back
 
@@ -626,101 +619,112 @@ be the last approved one.**
 > The request pertains to a new designation or modification/revision to an existing designator.
 > Requests are not accepted for designators in reverse or skipped sequences.
 
-**That sentence is the whole answer to whether the X-67 could still be issued, and the answer is no.**
+**That sentence alone decides whether the X-67 could still be issued, and it decides against.**
 Once the X-68A was approved, a request for the X-67 would be a request in a skipped sequence, which the
 instruction declines to accept. **The number is not vacant. It is unrequestable.**
 
-**One of those two sentences is new to this series and the other is not, and the difference matters
-more than it looks.** The [X-58][related_post_a355_x58_slot_taken_by_xq58] article cited the research
+**One of those two sentences was cited by the X-58 article and the other was not, and the difference
+matters more than it looks.** The [X-58][related_post_a355_x58_slot_taken_by_xq58] article cited the research
 step, in its non-standard-aircraft branch, and used it to measure how far above the unmanned ceiling the
 borrowed number landed \[[DAFI 16-401][ref_dafi_16_401_2020]]. **It also cited the discretion clause, and
 concluded that the absence was permitted and unexplained rather than decided.** What it did not cite is
-the eligibility criterion quoted above, **and that is the sentence the irreversibility rests on.** A
+the eligibility criterion quoted above, **and the irreversibility comes from that sentence.** A
 pointer that only moves forward leaves a gap behind it. **A rule refusing requests in skipped sequences
 is what makes the gap permanent, so the absence is not merely permitted but irreversible by rule.**
 
 ### The Rule Changed, and the Register Holds the Before-Case in the Same Series
 
-**The research series contains one number that was skipped and later recovered, and the equation above
-is what found it.** The pointer advanced from 48 to 50 on 2002-02-13, passing the 49, and the X-49A was
+**The research series contains one number that was skipped and later recovered, and the register records both dates.**
+The pointer advanced from 48 to 50 on 2002-02-13, passing the 49, and the X-49A was
 allocated on 2003-05-23, **464 days later** \[[Parsch, DOD 4120.15-L Addendum][ref_mds_addendum]]. The
-[X-49][related_post_a346_piasecki_x49] article records why the number was passed, which is that the
+[X-49][related_post_a346_piasecki_x49] article records why the number was passed, namely that the
 round fifty was wanted for a rotorcraft, and that the vacancy was filled when a programme changed
 sponsor. **What that article did not ask is whether the fill was permitted.**
 
-**It was, and the edition then in force says so in one sentence.** The joint instruction of 9 September
-1994, which implements a Department directive of 1985, states the procedure plainly
-\[[AFJI 16-401, 9 September 1994][ref_afji_16_401_1994]\].
+**It was, and the edition then in force confirms it in one sentence.** The joint instruction of 1 September
+1997, which superseded the issue of 9 September 1994 and like it implements a Department directive of
+1985, directs the coordinating office to assign and reserve the next available consecutive design number
+within each basic mission \[[AFJI 16-401, 1 September 1997][ref_afji_16_401_1997]\]. The 1994 issue
+states the same procedure plainly \[[AFJI 16-401, 9 September 1994][ref_afji_16_401_1994]\].
 
 > HQ ASC/ENOS will assign the next available consecutive design number within each basic mission for new
 > vehicles.
 
-**Next available is not the same quantity as last approved, and the difference is the whole of this
-article's mechanism.** A number that has been passed is **available**, so under the 1994 rule the 49 was
+**Next available is not the same quantity as last approved, and this article's mechanism lies in the difference.**
+A number that has been passed is **available**, so under the rule of 1994 and 1997 the 49 was
 the next available number in May 2003 and the X-49A is the instruction obeyed rather than bent. **Under
-the 2020 rule the next number is derived from the last approved one, and a passed number is behind the
-pointer and unrequestable.**
+the rule of 2014 and 2020 the next number is derived from the last approved one, and a passed number is
+behind the pointer and unrequestable.**
 
-**The word skip does not appear in the 1994 instruction at all**, which is the finding the
-[X-52][related_post_a349_x52_designation_refused] article recorded when it read the same document for a
-refusal in 2006 \[[AFJI 16-401, 9 September 1994][ref_afji_16_401_1994]]. **That article dated the
-arrival of a bare discretion to skip to the 2020 issue.** This one adds what the same change did to the
-other direction, **which is that it closed the route the X-49A had used.**
+**The word skip does not appear in the 1994 instruction at all**, as the
+[X-52][related_post_a349_x52_designation_refused] article found when it read the same document for a
+refusal in 2006 \[[AFJI 16-401, 9 September 1994][ref_afji_16_401_1994]]. **That article dates the
+arrival of a bare discretion to skip to the issue of 16 May 2014**, which also states that skipped design
+numbers cannot be requested or used \[[AFI 16-401, 16 May 2014][ref_afi_16_401_2014]]. This one adds
+what the same change did in the other direction. **It closed the route the X-49A had used.**
 
-**So the four research-series numbers skipped and not recovered were skipped under three different
-regimes and only the last of them was unrecoverable from the start.**
+**So the four research-series numbers passed before the X-76A fall under two regimes, the first two
+under the rule of the next available number and the last two under the rule that refuses skipped
+sequences, and only the last two were unrecoverable from the start.**
 
 | Number | Skipped | Rule then in force | Why it was not recovered |
 |---:|---|---|---|
 | 49 | 2002-02-13 | next available consecutive | **it was recovered**, 464 days later |
 | 52 | 2006-08-16 | next available consecutive | it had been refused on confusability grounds, which is a different bar |
-| 58 | 2018-06-21 | next available consecutive | nobody asked, and the route closed in 2020 |
+| 58 | 2018-06-21 | last approved, skipped sequences refused | the route had closed in 2014 |
 | 67 | 2025-08-20 | last approved, skipped sequences refused | the route was already closed |
 
-**The X-67 is therefore the first number in the research series to be skipped under a rule that makes
-skipping permanent.** That is a dated claim from primary text, and it is the only
-statement this article makes about why the slot is empty that carries both a date and a document. **The X-58's slot was recoverable for the first two years
-of its existence and nobody wanted it. The X-67's never was.**
+**The X-67 is therefore the second number in the research series to be skipped under a rule that
+makes skipping permanent, and the X-58 was the first.** That dated claim from primary text
+is the only statement this article makes about why the slot is empty that carries both a date and a
+document. **Neither the X-58's slot nor the X-67's was ever recoverable.**
 
-### Four Editions Place the Change Between 2005 and 2020, and the Answer Narrows the Claim
+### Six Editions Place the Change in 2014, and the Answer Narrows the Claim
 
-**Whether an edition between 1994 and 2020 changed the language earlier can be narrowed from the
-editions themselves.** **Four editions of the rule have been read and they divide into two pairs.**
+**Whether an edition between 1994 and 2020 changed the language earlier can be settled from the
+editions themselves.** **Six editions of the rule have been read and they divide into two groups.**
 
 | Edition | Who chooses the number | The quantity named | A skipped number |
 |---|---|---|---|
 | 18 September 1962 | the assignment agency | the next consecutive design number | not mentioned |
 | 9 September 1994 | the assignment agency | the next available consecutive design number | not mentioned |
+| 1 September 1997 | the assignment agency, which assigns and reserves | the next available consecutive design number | not mentioned |
 | 14 April 2005 | the assignment agency, which assigns and reserves | the next available consecutive design number | not mentioned |
+| 16 May 2014 | the requester, who researches and asks | the last approved design number | requests refused, and skipped numbers cannot be requested or used |
 | 3 November 2020 | the requester, who researches and asks | the last approved design number | requests refused |
 
-**The 2005 edition settles it.** Air Force Instruction `16-401(I)` of 14 April 2005 states that the
-coordinating office **will assign and reserve the next available consecutive design number within each
-basic mission for new vehicles**, which is the 1994 wording with one verb added
-\[[AFI 16-401(I), 14 April 2005][ref_afi_16_401_2005]]. **The word skip appears nowhere in it**, and
-neither does any eligibility criterion refusing a request in a skipped sequence.
+**The 2005 and 2014 editions settle it.** Air Force Instruction `16-401(I)` of 14 April 2005 states
+that the coordinating office **will assign and reserve the next available consecutive design number
+within each basic mission for new vehicles**, the 1997 wording and the 1994 wording with one
+verb added \[[AFI 16-401(I), 14 April 2005][ref_afi_16_401_2005]]. **The word skip appears nowhere in
+it**, and neither does any eligibility criterion refusing a request in a skipped sequence. **The issue of
+16 May 2014 supersedes it directly and carries both.** It tells the requester to research the last
+approved design number to determine the next designator to request, it refuses requests in skipped
+sequences for vehicles with an extensive history of designations, and it reserves to the office the
+authority to skip a design number at discretion while stating that skipped design numbers cannot be
+requested or used \[[AFI 16-401, 16 May 2014][ref_afi_16_401_2014]].
 
-**So the change falls between 2005 and 2020 and it is two changes rather than one.** The quantity moved
-from the next available number to one above the last approved number. **And the duty moved from the
-agency to the requester.** The X-49A of 2003 and the X-58's skip of 2018 both fall under the old pair,
-and the X-67's skip of 2025 falls under the new one.
+**The change was made by the issue of 16 May 2014, and it made two changes rather than one.** The
+quantity moved from the next available number to one above the last approved number. **And the duty
+moved from the agency to the requester.** The X-49A of 2003 falls under the old form, and the X-58's skip
+of 2018 and the X-67's skip of 2025 both fall under the new one.
 
-**The 2005 edition also carries the design-number example in a form the 2020 edition changed by one
+**The 2005 edition also carries the design-number example in a form the later editions changed by one
 word.** It reads that the design number 16 in F-16A is **the sixteenth MDS requested** for an aircraft
 with a fighter mission under the current reporting system, implemented September 1962
-\[[AFI 16-401(I), 14 April 2005][ref_afi_16_401_2005]]. **The 2020 edition says approved rather than
-requested** \[[DAFI 16-401][ref_dafi_16_401_2020]]. A requested ordinal and an approved ordinal are
+\[[AFI 16-401(I), 14 April 2005][ref_afi_16_401_2005]]. **The 2014 and 2020 editions say approved rather
+than requested** \[[AFI 16-401, 16 May 2014][ref_afi_16_401_2014]] \[[DAFI 16-401][ref_dafi_16_401_2020]]. A requested ordinal and an approved ordinal are
 different counts whenever a request is refused, **and this series has written about a refusal.**
 
-**One caveat survives and it is a narrow one.** The 1994 and 2005 sentences are about what the
+**One narrow caveat survives.** The 1994 and 2005 sentences are about what the
 coordinating office **will assign** rather than about what a requester may **ask for**, so reading them
 as permitting a fill is an inference from a procedural duty. **The X-49A is the evidence that the
 inference is right**, because the fill happened.
 
 ### Three Readings of the X-68A, and the Record Chooses None
 
-**The X-68A is the strongest evidence in the record that somebody treated the X-67 as spent, and it is
-better evidence than anything the compiler cites.** It was allocated on 2025-08-20 to
+**The X-68A is the strongest evidence in the record that somebody treated the X-67 as spent, and better evidence than anything the compiler cites.**
+It was allocated on 2025-08-20 to
 General Atomics with the Defense Advanced Research Projects Agency as sponsor
 \[[Parsch, DOD 4120.15-L Addendum][ref_mds_addendum]]. **At that date the last approved design number in the
 research series was still 66**, because no X-67 row exists. **Under the procedural
@@ -732,23 +736,23 @@ X-68A.**
 **The first is that the design-number pool is shared across basic missions in practice.** Under this
 reading the last approved design number relevant to the research series was 67, because the XQ-67A
 carries 67, and the next-in-series was correctly 68. **This reading makes the borrowing real and makes
-the skip automatic.** It is also the reading the instruction's own definition denies, since the
+the skip automatic.** It is also the reading the instruction's definition denies, since the
 instruction says the design number identifies major design changes **within the same basic mission** and
 illustrates it by saying that the 16 in F-16A represents the sixteenth approved designator for an
 aircraft with a fighter mission \[[DAFI 16-401][ref_dafi_16_401_2020]].
 
 **The second is that the allocating office exercised its discretion to skip.** The instruction reserves
 that authority without criterion, without a requirement to record a reason and without any appeal
-\[[DAFI 16-401][ref_dafi_16_401_2020]]. **Under this reading nothing consumed the X-67 and the X-68A's
-number is simply a decision nobody has to explain.** The record contains no exercise of the authority
-and the authority requires none to be recorded, so the absence of evidence here is exactly what this
-reading predicts.
+\[[DAFI 16-401][ref_dafi_16_401_2020]]. **Under this reading nothing consumed the X-67 and the X-68A's number is a decision nobody has to explain.**
+The record contains no exercise of the authority
+and the authority requires none to be recorded, so this reading predicts the absence of evidence
+found here.
 
 **The third is that the research-series pointer was read off a source that lists the XQ-67A.** The
 procedure tells the requester to reference a page on a Department technical information site, or to
 contact the allocating office \[[DAFI 16-401][ref_dafi_16_401_2020]]. **A list sorted by design number
 within a vehicle type places the XQ-67A among the sixty-sevens**, and the register this article uses
-sorts exactly that way, by primary mission letter and then design number and then series letter
+sorts that way, by primary mission letter and then design number and then series letter
 \[[Parsch, DOD 4120.15-L Addendum][ref_mds_addendum]]. Under this reading the skip is a consequence of how the
 list is ordered rather than of anybody's intent.
 
@@ -760,8 +764,7 @@ unrequestable, states when it became so, and declines to say who made it so.**
 
 **It is tempting to settle the question with the compiler's published statement, and the statement is
 circular for this purpose.** He writes that the next available design number in the research series is
-X-69 \[[Missing USAF and DOD Aircraft Designations][ref_missing_mds]]. **That figure presupposes that 67
-and 68 are both gone, which is the proposition at issue for the 67.**
+X-69 \[[Missing USAF and DOD Aircraft Designations][ref_missing_mds]]. **That figure presupposes that 67 and 68 are both gone, the proposition at issue for the 67.**
 
 ### Three Definitions of the Next Number, Written Down
 
@@ -791,11 +794,11 @@ figures follow neither cleanly, because he excludes the allocations he judges ou
 applying the first. **And his derivation for the FQ-48 follows the third**, since the fighter numbers
 reach 117 while he reads the 48 as following the 47.
 
-**The second definition cannot be computed from any public document this article has found, which is
-a narrower claim than saying that it cannot be computed from the public record at all.** Evaluating the lowest never-allocated number over the register returns
+**The second definition cannot be computed from any public document this article has found.** That
+claim is narrower than saying that it cannot be computed from the public record at all. Evaluating the lowest never-allocated number over the register returns
 1, because the register opens on 19 August 1998 and carries no row for the X-1 through the
 X-36. **The founding document and the 2004 list reach further back and neither closes the gap**, because
-each lists the designations current at its own date rather than every one ever allocated
+each lists the designations current at its date of issue rather than every one ever allocated
 \[[AFR 66-11 and AR 700-26 and BUWEPS 13100.7, 18 September 1962][ref_afr_66_11_1962]]
 \[[DoD 4120.15-L, 2004 with Change 1][ref_dod_412015l_2004]]. **A lowest-never-allocated number needs a
 complete history of allocations, and no public document is one.**
@@ -805,10 +808,10 @@ approved.** At 2025-08-20 the highest research design number allocated was
 66 and the most recently allocated was 66, carried by the
 X-66A, so one above either is 67.
 
-**So under either computable reading of the instruction the X-68A should have been the X-67A**, which is
-why the three readings above are needed.
+**Under either computable reading of the instruction the X-68A should have been the X-67A**, and
+the three readings above exist to account for that.
 
-**His convention is also not the maximum, and seeing that is what shows the figure to be a judgement.**
+**His convention is also not the maximum, and that shows the figure to be a judgement.**
 The register carries an X-76A, allocated on 20 October 2025, so the highest research design number is
 76 and one more than the highest would be 77
 \[[Parsch, DOD 4120.15-L Addendum][ref_mds_addendum]]. **He says 69 rather than 77**, because he
@@ -817,23 +820,21 @@ the revolutionary spirit of 1776. **The published next-available number is there
 highest number he judges to have been allocated in sequence**, and the judgement about which allocations
 are in sequence is his.
 
-**He applies the same convention consistently across three series, which is the test of whether it is a
-convention or an error.** In the unmanned series he states the next available number as 31 while
+**He applies the same convention consistently across three series, and consistency is the test of whether it is a convention or an error.**
+In the unmanned series he states the next available number as 31 while
 the register carries unmanned numbers as high as 170. In the fighter series he states that the
 last sequentially assigned designation was F-23, that technically the next available number is therefore
 F-24, and that the series has to all intents and purposes stopped having a sequence
-\[[Missing USAF and DOD Aircraft Designations][ref_missing_mds]]. **The convention is one rule applied
-with judgement, and it is not the rule the instruction states.**
+\[[Missing USAF and DOD Aircraft Designations][ref_missing_mds]]. **The convention is one rule applied with judgement, but not the rule the instruction states.**
 
-**So the two sources a requester could consult disagree about what to ask for**, the instruction read
+**The two sources a requester could consult disagree about what to ask for**, the instruction read
 literally giving 77 and the compiler 69, and only one of them is a published instruction while only the
 other is reachable.
 
 ### The Official Source the Procedure Requires Does Not Resolve
 
 **The procedure's research step depends on a source, and the instruction that states the procedure is
-the same instruction that cancelled the source.** **The instruction says so twice in its own text and
-once in its summary of changes.**
+the same instruction that cancelled the source.** **The instruction states this twice in its text and once in its summary of changes.**
 
 > Major changes include the new site for the most recent MDS database on data.af.mil and the cancellation
 > of DoD 4120.15-L, Model Designation of Military Aerospace Vehicles as the publically accessible MDS
@@ -843,14 +844,14 @@ once in its summary of changes.**
 > primary source of approved MDS designators and popular names. However, other Federal Agencies and the
 > public may obtain the latest version from data.af.mil.
 
-**The instruction also names where a Department component should look instead**, which is a page on the
+**The instruction also names where a Department component should look instead**, a page on the
 Defense Technical Information Center's DoDTechipedia site, and says that other Federal Agencies and the
 public may view or obtain an electronic tabular list by visiting the same address
 \[[DAFI 16-401][ref_dafi_16_401_2020]].
 
-**And the list's own Change 1 does not cancel anything, although the compiler records that the
-Department announced the list's retirement in 2018.** DoD 4120.15-L of 12 May 2004 incorporating Change 1
-of 31 August 2018 was read from a public web archive snapshot, the Department's own portal having refused
+**The list's Change 1 does not cancel anything, although the compiler records that the Department announced the list's retirement in 2018.**
+DoD 4120.15-L of 12 May 2004 incorporating Change 1
+of 31 August 2018 was read from a public web archive snapshot, the Department's portal having refused
 every client. **Its summary of changes reassigns the office of primary responsibility to the Under Secretary of
 Defense for Acquisition and Sustainment and says nothing else**, and the words retire, cancel and
 `data.af.mil` appear nowhere in it \[[DoD 4120.15-L, 2004 with Change 1][ref_dod_412015l_2004]].
@@ -862,33 +863,32 @@ list**, and the article cites the instrument rather than a description of it.
 `af.mil` zone returns no answer and a statement of authority, which is how a nameserver says that the
 name is not in the zone. **A sibling name in the same zone resolves and so does a name in an adjacent
 zone**, `www.af.mil` returning an address through a content delivery network and `data.mil` returning one
-directly, so the zone is being served and the query is reaching it. **This was checked on 2 October 2026
-from one host against the zone's own authoritative servers, so it is not a local resolver failure.**
+directly, so the zone is being served and the query is reaching it. **This was checked on 2 October 2026 from one host against the zone's authoritative servers, so it is not a local resolver failure.**
 
-**The honest reading of that is narrower than it first appears and the article states the narrow
-version.** A Department network commonly resolves internal names that the public Internet does not, so
-the measurement does not show that authorised users cannot reach the database. **What it shows is that
-the official source the request procedure requires is not reachable at the address its own cancellation
-notice named, from outside.** That is a fact about public access, and it leaves the designation system's
+**That result supports a narrower reading than it first appears to, and the article states the narrow version.**
+A Department network commonly resolves internal names that the public Internet does not, so
+the measurement does not show that authorised users cannot reach the database. **What it shows is that the official source the request procedure requires is not reachable at the address its cancellation notice named, from outside.**
+That
+is a fact about public access, and it leaves the designation system's
 internal function untouched.
 
-**The consequence for this article is specific and it is a chain of four steps.** The procedure requires
+**The consequence for this article is a chain of four steps.** The procedure requires
 research into the last approved design number. **The official published list was cancelled.** Its named
 successor does not resolve publicly. **So the de facto public source is one private compiler's
 reconstruction, obtained under the Freedom of Information Act, applying a next-number convention the
 instruction does not state.** **Every public claim
-about why the X-67 is empty passes through that reconstruction**, and this article's own measurements do
-too.
+about why the X-67 is empty passes through that reconstruction**, and so do this article's
+measurements.
 
-**The Department's own portal still refuses the document, which is recorded here rather than
-glossed.** The address for DoD 4120.15-L on the issuance portal returns HTTP 403, the Hypertext Transfer Protocol's refusal status, to every client this
+**The Department's own portal still refuses the document, and the article records the refusal.**
+The address for DoD 4120.15-L on the issuance portal returns HTTP 403, the Hypertext Transfer Protocol's refusal status, to every client this
 article has tried \[[DoD 4120.15-L at the Department's portal][ref_dod_412015l_2018]]. **The document
 was read from a public web archive snapshot instead**, and the October 1998 edition's front matter from
 the compiler's scan of it \[[DoD 4120.15-L, 2004 with Change 1][ref_dod_412015l_2004]]
 \[[DoD 4120.15-L, October 1998][ref_dod_412015l_1998]].
 
-**And the 1998 edition shows what the public access used to be, which is the measure the present state
-should be read against.** Its foreword states that the list is approved for public release with
+**The 1998 edition shows what the public access used to be, the measure against which the present state should be read.**
+Its foreword states that the list is approved for public release with
 distribution unlimited, and gives three routes to a copy, being a Department web address, the Defense
 Technical Information Center for registered users, and the National Technical Information Service for
 other Federal agencies and the public \[[DoD 4120.15-L, October 1998][ref_dod_412015l_1998]].
@@ -896,32 +896,31 @@ other Federal agencies and the public \[[DoD 4120.15-L, October 1998][ref_dod_41
 
 ## Sizing From First Principles
 
-**No X-67 vehicle was ever built, so there is no vehicle to size, and the opening says so in its own
-terms.** The design number 67 was consumed by an allocation in the unmanned series, and nothing in the
+**No X-67 vehicle was ever built, so there is no vehicle to size, and the opening already states this.**
+The design number 67 was consumed by an allocation in the unmanned series, and nothing in the
 research series was ever drawn, specified or dimensioned under it
-\[[Parsch, DOD 4120.15-L Addendum][ref_mds_addendum]]. **This section therefore records what the record supports
-about the vehicle that took the number and stops.**
+\[[Parsch, DOD 4120.15-L Addendum][ref_mds_addendum]]. **This section records what the record supports about the vehicle that took the number and stops.**
 
 **The record sizes the XQ-67A barely at all.** The register's only physical entry for it is an engine
-cell reading 1 Williams FJ44-4A, which is one of the official fields on a row whose description is not
+cell reading 1 Williams FJ44-4A, one of the official fields on a row whose description is not
 official wording \[[Parsch, DOD 4120.15-L Addendum][ref_mds_addendum]]. **No span, weight, thrust, endurance or
 speed appears in the register or in the releases.**
 
-**What the record says about the vehicles intended is comparative rather than dimensional**, being the
+**What the record offers about the vehicles intended is comparative rather than dimensional**, being the
 contrast between the two species quoted under The Aeroplane Was Built to Deny the Premise. **That is a
 sizing question stated and not answered**, and no document in the record answers it.
 
-**Two derivations in this article stand in for sizing, and neither sizes an aeroplane.** The first sizes
-the designation field, which holds 23,976 distinct number-and-series codes per basic mission, and it is
-set out under the heading A Designation Is a Code and the Instruction Gives Its Fields. **The second sizes
+**Two derivations in this article stand in for sizing, and neither sizes an aeroplane.** The first,
+set out under A Designation Is a Code and the Instruction Gives Its Fields, sizes the designation field,
+which holds 23,976 distinct number-and-series codes per basic mission. **The second sizes
 the economics of a shared chassis**, in the part-count, unit-cost, penalty, break-even and refresh
-relations within the section headed What the Data Changed, and every parameter it uses is assumed because
+relations within What the Data Changed, and every parameter it uses is assumed because
 the shared fraction, the sharing penalty and the development costs are not public.
 
 ## Dependent Systems
 
-**A designation that was never allocated depends on nothing, so the systems this section can describe
-belong to the aeroplane that took the number.** The X-67 has no airframe, engine or avionics to list.
+**A designation that was never allocated depends on nothing, so the systems this section can describe are those of the aeroplane that took the number.**
+The X-67 has no airframe, engine or avionics to list.
 **The XQ-67A has a few, and the record names them without dimensioning any of them.**
 
 **The propulsion entry is the only system the register records without the compiler's mark.** The XQ-67A's row records
@@ -945,7 +944,7 @@ Procedure Requires Does Not Resolve.
 
 **Nothing has flown as the X-67, and nothing can, because the number is unrequestable under the
 instruction in force.** The register carries no research-series row with the design number 67, and the
-section headed Why the Slot Is Empty, So Far As the Record Says sets out why the number cannot now be
+argument under Why the Slot Is Empty, So Far As the Record Says shows why the number cannot now be
 issued \[[Parsch, DOD 4120.15-L Addendum][ref_mds_addendum]] \[[DAFI 16-401][ref_dafi_16_401_2020]]. **The flight
 test record of the X-67 is empty and will remain so.**
 
@@ -960,15 +959,15 @@ only that the first was the first of a series.
 
 ## Comparison With Ground Prediction
 
-**For the X-67 there is nothing to compare, because no vehicle carried the number and nothing flew under
-it.** No wind tunnel test, analysis or specification was ever produced for an X-67. **The comparisons the
+**For the X-67 there is no comparison to make, because no vehicle carried the number and none flew under it.**
+No wind tunnel test, analysis or specification was ever produced for an X-67. **The comparisons the
 record does support are of other kinds, and each is argued where it arises.**
 
 **The aeroplane's claim is public and its flight data are not.** The laboratory states that the XQ-67A
 proves the genus approach and the contractor that it validated the genus and species concept, and **no
 predicted or measured figure is published for any flight quantity**, so the validation is reported and
 not shown \[[AFRL first flight release][ref_afrl_firstflight]]
-\[[GA-ASI first flight release][ref_gaasi_firstflight]]. The commonality arithmetic in the section headed
+\[[GA-ASI first flight release][ref_gaasi_firstflight]]. The commonality arithmetic under
 What the Data Changed is a model run on assumed parameters and not a prediction this aeroplane could have
 tested.
 
@@ -978,14 +977,14 @@ produced an X-67A on 2025-08-20 and the record returned an X-68A
 subsections headed Three Definitions of the Next Number, Written Down and Three Readings of the X-68A, and
 the Record Chooses None examine. **The award record sets the contract values reported at award against
 their outturn**, through the relative deviation $\epsilon$ displayed under What the Award Record Adds
-That the Releases Do Not, and that comparison says that a competition was resolved rather than completed
-and nothing about how the aeroplane flew.
+That the Releases Do Not, and that comparison shows that a competition was resolved rather than completed
+and shows nothing about how the aeroplane flew.
 
 ## What the Data Changed, What the Anomaly Reveals About the Designation System
 
 **A skipped number is only interesting if the number was carrying information, so the question this
 section asks is what a design number indexes.** The instruction gives an answer, the register
-contradicts it by measurement, and the aeroplane that consumed this particular number was built to prove
+contradicts it by measurement, and the aeroplane that consumed this number was built to prove
 that the instruction's answer is the wrong shape.
 
 ### A Designation Is a Code and the Instruction Gives Its Fields
@@ -1027,23 +1026,23 @@ distinct codes per basic mission, rising to 239,976 when the number field expand
 instruction also provides for the series letter to roll over, stating that at the end of the series symbol
 Z the next sequence advances the design number to the next consecutive unused number and begins again at
 A \[[DAFI 16-401][ref_dafi_16_401_2020]]. **That provision is the one place the instruction uses the
-phrase next consecutive unused number**, and it is about series exhaustion rather than about requests.
+phrase next consecutive unused number**, and it concerns series exhaustion rather than requests.
 
 ### The Instruction Says the Design Number Is an Ordinal Within One Mission
 
-**The definition is explicit and it is the proposition everything below tests.** The design number is a
+**The definition is explicit, and everything below tests it.** The design number is a
 required numeric symbol that **identifies major design changes within the same basic mission**, and the
 instruction illustrates it by stating that the 16 in F-16A represents the sixteenth approved designator
 for an aircraft with a fighter mission under the current reporting system
 \[[DAFI 16-401][ref_dafi_16_401_2020]].
 
-**The series letter carries the next level down and its criterion is the one that matters later.** The
+**The series letter carries the next level down, and its criterion matters later.** The
 series symbol identifies the production model of a particular design number and **later models
 representing major modifications that significantly alter the aerospace vehicle's systems, components, or
 change the logistics support of the vehicle** \[[DAFI 16-401][ref_dafi_16_401_2020]].
 
-**So the system's model of identity is a two-level hierarchy and the word major is undefined at both
-levels in the instruction now in force.** A major design change earns a new number. A major modification
+**The system's model of identity is a two-level hierarchy and the word major is undefined at both levels in the instruction now in force.**
+A major design change earns a new number. A major modification
 earns a new letter. **The instruction of 2020 does not say how to tell one from the other.**
 
 ### The Founding Document Did Say, and the Test It Gave Has Been Deleted
@@ -1060,9 +1059,10 @@ is public, and it has been read in full
 > Design Number. The sequence number of each new design of the same basic mission or type aircraft.
 
 **The founding definition does not say that a design number identifies major design changes. It says the
-design number is a sequence number**, which is the claim the increment test in the subsection headed The Instruction's Claim Has a Testable
-Consequence and the Register Fails It was built to check, and which the register now fails in nearly
-half of its steps, since 67 of its 133 pointer advances are exactly one.
+design number is a sequence number**. The increment test under The Instruction's Claim Has a Testable
+Consequence and the Register Fails It was built to check that claim, and the two series it covers fail it in more
+than half of their steps, since only 24 of their 51 increments are exactly one, fifteen of 22 in the research
+series and nine of 29 in the unmanned series.
 
 **And where the modern instruction offers no test for what counts as a new design, the founding document
 offers three worked examples.**
@@ -1092,7 +1092,7 @@ form of words**, and the 2004 list and the 2005 and 2020 instructions all carry 
 \[[DoD 4120.15-L, 2004 with Change 1][ref_dod_412015l_2004]]
 \[[AFI 16-401(I), 14 April 2005][ref_afi_16_401_2005]] \[[DAFI 16-401][ref_dafi_16_401_2020]].
 
-**So the two levels have aged in opposite directions.** The lower level kept its criterion and the upper
+**The two levels have aged in opposite directions.** The lower level kept its criterion and the upper
 level lost its examples. **The system can still say what a modification is and can no longer say what a
 design is.**
 
@@ -1111,19 +1111,18 @@ document defines both on facing pages.**
 borrowing this article is about takes a number from the series the second letter governs and attaches it
 to a designation carrying the first \[[AFR 66-11 and AR 700-26 and BUWEPS 13100.7, 18 September 1962][ref_afr_66_11_1962]].
 
-**The other letter has moved, and the move is what made the designation possible.** In 1962 the Q is a
+**The other letter has moved, and the move made the designation possible.** In 1962 the Q is a
 **modified mission** symbol, defined as a drone, meaning an aircraft capable of being controlled from a
 point outside the aircraft
 \[[AFR 66-11 and AR 700-26 and BUWEPS 13100.7, 18 September 1962][ref_afr_66_11_1962]\]. **A modified mission symbol cannot carry a design-number series of its own**,
 because it sits to the left of a basic mission letter rather than replacing it. **In the register today
-the Q is a basic mission symbol with its own numbering**, which is why there is an unmanned series for a
+the Q is a basic mission symbol with its own numbering**, so there is an unmanned series for a
 number to be out of sequence in. **The designation XQ-67A could not have been written in 1962**, and not
 because the aeroplane did not exist.
 
 ### The Agency Used to Choose the Number, and Now the Requester Does
 
-**This is the structural change the whole article has been circling and the founding document states the
-original arrangement plainly.**
+**The article has been circling this structural change, and the founding document states the original arrangement in two sentences.**
 
 > The requesting service will indicate the desired mission or type symbols. The assignment agency will
 > assign the applicable design number and/or the applicable series letter.
@@ -1133,15 +1132,15 @@ today tells the requester to research the next-in-series designator from the las
 and to request it \[[DAFI 16-401][ref_dafi_16_401_2020]]. **The responsibility for choosing a design
 number has moved from the office that keeps the sequence to the office that wants the number.**
 
-**That is the precondition for everything the next section measures.** A number chosen by the keeper of
+**That change is the precondition for what the next subsection measures.** A number chosen by the keeper of
 the sequence is the next one by construction and carries no information. **A number chosen by the
 requester can be chosen for what it says**, and the unmanned series now carries nine numbers that are not
 the next one.
 
 ### The Instruction's Claim Has a Testable Consequence and the Register Fails It
 
-**The sixteenth-approved-designator sentence is not decoration. It is a claim with a consequence, and the
-consequence can be checked.** If the design number is the ordinal of the allocation within its basic
+**The sixteenth-approved-designator sentence makes a claim with a consequence, and the consequence can be checked.**
+If the design number is the ordinal of the allocation within its basic
 mission, then the $k$th design number allocated in that mission is $k$ itself.
 
 $$
@@ -1165,8 +1164,7 @@ existing design rather than a new design number.
 **One refinement is needed.** A row whose
 series letter is B or later is evidence that its design number existed before the row, whatever the
 register carries, **because the series letter counts models of a number that was already approved.**
-Without that filter the walk would count the X-40B as a new design number, **which is the register's
-own edge misread as a government decision.**
+Without that filter the walk would count the X-40B as a new design number, **and so misread the register's edge as a government decision.**
 
 **With the filter the research series gives 23 new design numbers over
 22 steps, of which fifteen are exactly one.** The unmanned
@@ -1183,8 +1181,8 @@ $$
 ### The Increment and the Pointer Measure Different Things, and the Article Needs Both
 
 **An increment of one and a pointer advancing by one are not the same statement, and conflating them
-double-counts.** Write the running maximum as the pointer, which is the quantity the allocation
-procedure actually reads, and define its advance.
+double-counts.** Write the running maximum as the pointer, the quantity the allocation
+procedure reads, and define its advance.
 
 $$
 \nu_k \;=\; \max_{\,j \le k} d_j
@@ -1201,8 +1199,8 @@ $$
 d_k \;\le\; \nu_{k-1}
 $$
 
-**An allocation below the pointer makes its own increment negative and inflates the next one by the same
-amount**, so counting skips off the increment counts each out-of-order allocation twice. The pointer does
+**An allocation below the pointer makes its increment negative and inflates the next one by the same amount**,
+so counting skips off the increment counts each out-of-order allocation twice. The pointer does
 not have that defect, and the numbers actually skipped are the advances in excess of one.
 
 $$
@@ -1221,8 +1219,8 @@ $$
 register**, being 67 advances of one in 133 steps, with
 43 allocations below the pointer.
 
-**And the research series is the best-behaved sequence in the register, which sharpens the finding
-rather than softening it.** Among the three basic missions with at least twenty steps the
+**And the research series is the best-behaved sequence in the register.** That sharpens the finding.
+Among the three basic missions with at least twenty steps the
 rates are 72.7 percent for the X series over 22 steps, 51.5 percent for the M series over 33 steps and 44.8 percent for the Q series over 29 steps.
 
 $$
@@ -1238,8 +1236,7 @@ rule.**
 
 ### Every Research-Series Skip Has a Cause This Series Has Written About
 
-**The five advances greater than one are not a statistical tail. They are a list, and it is this series'
-own table of contents.**
+**The five advances greater than one are not a statistical tail. They are a list, and the list is this series' table of contents.**
 
 | After | Allocated | Date | Numbers skipped | What this series says happened |
 |---:|---|---|---|---|
@@ -1252,9 +1249,8 @@ own table of contents.**
 **And the one advance of zero is the one number that came back.** The X-49A was allocated on 2003-05-23,
 464 days after the X-50A had passed it, filling a gap the pointer had already crossed
 \[[Parsch, DOD 4120.15-L Addendum][ref_mds_addendum]]. **So the register contains exactly
-one research-series number that was skipped and later recovered**, and the subsection headed The Rule
-Changed, and the Register Holds the Before-Case in the Same Series is about why that number could be
-recovered and the X-67 cannot.
+one research-series number that was skipped and later recovered**, and why that number could be recovered and the X-67 cannot is the subject of The Rule
+Changed, and the Register Holds the Before-Case in the Same Series.
 
 ### Six Pairs of Numbers in the Register Carry the Same Official Sentence
 
@@ -1263,10 +1259,10 @@ design.** The register can be asked. Stripping the note references, which differ
 construction, the register's 532 well-formed rows carry 490 distinct
 descriptions of twenty characters or more. **Sixteen of those descriptions are shared by more than
 one designation, and six of the shared ones span more than one design number**, the
-other ten being series letters of a single number, which is exactly what series letters are
+other ten being series letters of a single number, the use series letters exist
 for.
 
-**Those six are all adjacent pairs and they are the whole set.**
+**Those six are all adjacent pairs, and there are no others.**
 
 | Designations | Allocated | Contractors | The description both carry |
 |---|---|---|---|
@@ -1280,11 +1276,11 @@ for.
 **In five of the six the contractor is the only field that differs, and
 three of the six were allocated on the same day.** In the remaining
 one the contractor is the same firm and the register offers nothing to
-distinguish the two numbers. **Two of the six are research-series pairs**, which is a third
+distinguish the two numbers. **Two of the six are research-series pairs**, a third
 of the set from one basic mission out of twenty, and this series has already written about both
 of them \[[Parsch, DOD 4120.15-L Addendum][ref_mds_addendum]] \[[X-Planes: Invocon X-64][related_post_a361_invocon_x64]].
 
-**The reading of that table is narrow and it is sufficient.** The official statement of purpose does not
+**The reading of that table is narrow but sufficient.** The official statement of purpose does not
 distinguish these pairs, so whatever distinguishes two design numbers in the register's practice is not
 the stated purpose. **In five of six cases it is the designing organisation.**
 
@@ -1311,7 +1307,7 @@ $$
 twenty characters or more, **six are shared by more than one design number.**
 
 **The second reading, that a design number indexes an organisation, requires the maker map to be well
-defined**, which is a weaker demand than injectivity and a different one. It asks only that every row on
+defined**, a weaker demand than injectivity and a different one. It asks only that every row on
 one number name the same firm.
 
 $$
@@ -1320,9 +1316,9 @@ $$
 $$
 
 **It is not well defined either.** Of 235 mission-and-number pairs,
-**27 carry rows naming more than one leading firm, which is 11.5 percent.**
+**27 carry rows naming more than one leading firm, or 11.5 percent.**
 
-**So the two readings fail in different ways and the article states both rather than choosing.** The
+**The two readings fail in different ways, and the article states both without choosing between them.** The
 purpose map is a function and is not injective, so **a number carries no more purpose than its
 neighbour.** The maker map is not even a function, so **a number does not carry a maker at all.**
 
@@ -1343,20 +1339,19 @@ $$
 
 **The first is as a share of the 103 numbers that carry more than one row, which is the
 population in which a change of firm is even possible. The second is as a share of all
-235 numbers**, which is the figure the well-definedness condition above reports.
+235 numbers**, the figure the well-definedness condition above reports.
 
-**The clearest case is a missile rather than an aeroplane and it is extreme.** The design number 88 in
+**The clearest case, and an extreme one, is a missile rather than an aeroplane.** The design number 88 in
 the missile series carries ten rows across the series letters A, D, E, E, E, F, G, G, H and J, and the
 contractor field across them names seven distinct leading firms, among them Texas Instruments,
 Raytheon, Northrop Grumman and a naval weapons centre
 \[[Parsch, DOD 4120.15-L Addendum][ref_mds_addendum]]. **One design number, ten series letters, and a succession
 of primes spanning decades.**
 
-**So the system plainly can hold one design number across a change of manufacturer.** The X-46A and the
-X-47A could therefore have been the X-46A and the X-46B, and the X-63A and X-64A the X-63A and X-63B.
+**The system can hold one design number across a change of manufacturer.** The X-46A and the
+X-47A could have been the X-46A and the X-46B, and the X-63A and X-64A the X-63A and X-63B.
 **They were not, and the choice was available.** The design number indexes neither the stated purpose nor
-the designing organisation reliably. **It indexes a request, and what a request is for is the thing the
-instruction leaves undefined.**
+the designing organisation reliably. **It indexes a request, and the instruction leaves undefined what a request is for.**
 
 ### A Chosen Number Carries Information and a Sequential One Carries None
 
@@ -1368,9 +1363,9 @@ $$
 \nu_k \;=\; 1 + \max_{\,j < k} d_j
 $$
 
-**If every allocation takes the next number then $d_k = \nu_k$ for all $k$, the sequence is a
-deterministic function of its own history, and a designation carries no information beyond its own
-order.** The quantity that carries anything is the departure.
+**If every allocation takes the next number then $d_k = \nu_k$ for all $k$, the sequence is a deterministic function of its history, and a designation carries no information beyond its order.**
+The
+quantity that carries anything is the departure.
 
 $$
 \delta_k \;=\; d_k - \nu_k
@@ -1384,8 +1379,8 @@ $$
 I(\nu) \;=\; \log_2\!\bigl(N_d - \nu + 1\bigr)
 $$
 
-**The zero is worth writing as a conditional entropy rather than asserting**, because that is the form
-in which it is a statement about the register rather than about one allocation.
+**The zero is better written as a conditional entropy than asserted**, because in that form
+it describes the register, where an assertion would describe one allocation.
 
 $$
 H\bigl(d_k \,\big|\, d_1, \ldots, d_{k-1}\bigr) \;=\; 0
@@ -1394,13 +1389,13 @@ d_k = \nu_{k-1} + 1
 $$
 
 **At the research series' position in July 2023 that bound is 9.8657 bits, against
-9.9643 bits for a number free to be anything.** The bound is almost the whole field because the
-field is almost empty, which is the same observation the earlier article made as an argument about
-scarcity and is here an argument about expressiveness. **The system is not short of numbers, so a number
+9.9643 bits for a number free to be anything.** The bound covers almost the entire field because the
+field is almost empty. The earlier article made the same observation as an argument about
+scarcity, and here it serves as an argument about expressiveness. **The system is not short of numbers, so a number
 is cheap, so choosing one can afford to say something.**
 
-**The unmanned series is where the saying happens and the departures are measurable.** Taking the
-sequential number as the top of the unbroken opening run, which is the convention the compiler's own
+**The saying happens in the unmanned series, and the departures are measurable.** Taking the
+sequential number as the top of the unbroken opening run, the convention the compiler's
 published figures follow, the out-of-sequence unmanned allocations that carry a full date have the
 following departures.
 
@@ -1454,8 +1449,8 @@ series' queue, it should equal that series' next number at the moment of the bor
 equal no other series' next number**, because a claim that matched many series at once would be
 worthless.
 
-**The test was run against every basic mission in the register at each out-of-sequence unmanned
-allocation's own date.** There are twenty basic missions and six out-of-sequence
+**The test was run against every basic mission in the register at each out-of-sequence unmanned allocation's date.**
+There are twenty basic missions and six out-of-sequence
 unmanned numbers that carry a full date.
 
 | Number | Designation | Allocated | Basic missions for which it was next in series |
@@ -1472,9 +1467,9 @@ it names the research series and nothing else.** It fires zero times on more tha
 is silent on four numbers, 35, 48, 72 and 73, which are exactly the four the compiler either
 declines to derive or derives from somewhere other than a series queue.**
 
-**A null model gives the coincidence a scale, and the reference class is declared rather than assumed.**
+**A null model gives the coincidence a scale, and its reference class is stated here.**
 Take the null to be that an out-of-sequence number is drawn uniformly from the two-digit integers above
-the unmanned series' own ceiling, which is the range 32 to 99 inclusive and so
+the unmanned series' ceiling, the range 32 to 99 inclusive and so
 68 values, written $B$. **At the six dates in question the mean number of distinct
 next-in-series values falling inside that range is 3.3333, written $\bar{\tau}$**, so the
 per-draw hit probability $\pi$ is 0.049020.
@@ -1501,7 +1496,7 @@ numbers. **Four facts that could each be a coincidence are not four coincidences
 as following the F-47 uses the most recently allocated number, as noted under Three Definitions of the
 Next Number, Written Down \[[Missing USAF and DOD Aircraft Designations][ref_missing_mds]]. **For the
 research series in July 2023 the highest allocated number, the top of the contiguous run and the most
-recently allocated all gave 67**, which is why the X-67 case is clean and the 48 case is not.
+recently allocated all gave 67**, so the X-67 case is clean and the 48 case is not.
 
 ### The Aeroplane Was Built to Deny the Premise
 
@@ -1514,15 +1509,15 @@ existed to show that an aeroplane's identity is divisible.**
 frame, and the contractor's put it as a first instance** \[[AFRL first flight release][ref_afrl_firstflight]]
 \[[GA-ASI first flight release][ref_gaasi_firstflight]].
 
-**The laboratory also states what the two species were meant to differ in, which is the detail that makes
-the collision sharp.** The sensing station was conceived as slower while carrying sensors, with longer
+**The laboratory also states what the two species were meant to differ in, and that detail sharpens the collision.**
+The sensing station was conceived as slower while carrying sensors, with longer
 endurance. **The weapon station was conceived as faster and more manoeuvrable, with less endurance and
 better range.**
 **The programme wanted to design both and to establish how much of the two could be made common**
 \[[AFRL first flight release][ref_afrl_firstflight]].
 
-**So the designation question and the engineering question are the same question asked by two
-institutions that cannot hear each other.** The instruction asks whether a change is major enough to earn
+**The designation question and the engineering question are the same question asked by two institutions that cannot hear each other.**
+The instruction asks whether a change is major enough to earn
 a new design number. The programme asks how much of two aeroplanes can be the same aeroplane. **Neither
 has a criterion the other would accept.**
 
@@ -1535,25 +1530,24 @@ the vehicle's systems, components, **or change the logistics support of the vehi
 
 **A shared chassis is built precisely so that the logistics support does not change across species.** The
 laboratory's stated benefit is leveraging standard substructures and subsystems in the manner of an
-automotive product line, which is a claim about shared spares, shared tooling and shared training as much
-as about shared drawings \[[AFRL first flight release][ref_afrl_firstflight]]. **By the instruction's own
-test, therefore, two species on one genus differ less than the instruction's threshold for a series
-letter, let alone for a design number.**
+automotive product line, a claim about shared spares, shared tooling and shared training as much
+as about shared drawings \[[AFRL first flight release][ref_afrl_firstflight]]. **By the instruction's own test, two species on one genus differ less than the instruction's threshold for a series letter, let alone for a design number.**
 
 **The register's practice points the same way.** The missile design number 88, described above, holds
 ten series letters across seven leading firms, so the system tolerates very large change under one
 number. **Yet the first species on this genus received a design
 number of its own, taken from a different series.**
 
-**And the system has shown in the same decade that it can extend itself, which is what makes the absence
-of any mechanism for a shared chassis a choice rather than an oversight.** The 2020 instruction's own
+**And the system has shown in the same decade that it can extend itself, so the absence of any mechanism for a shared chassis is a choice rather than an oversight.**
+The 2020 instruction's
 summary of changes records one addition to the designator alphabet, **a status prefix `e` meaning
 digitally developed, defined as aircraft that are engineered in a virtual environment**
 \[[DAFI 16-401][ref_dafi_16_401_2020]]. It is the only lowercase symbol in the scheme.
 
-**So in the same issue that cancelled the public list, the system added a letter for how an aeroplane was
-engineered and added nothing for whether it shares a chassis with another aeroplane.** The genus and
-species approach was already a laboratory programme with contracts when that instruction was signed.
+**In the same issue that cancelled the public list, the system added a letter for how an aeroplane was engineered and added nothing for whether it shares a chassis with another aeroplane.**
+The genus and
+species approach was already a laboratory programme with contracts when that instruction was signed
+\[[AFRL first flight release][ref_afrl_firstflight]] \[[USAspending][ref_usaspending]].
 **The system encoded the design environment and left design sharing unencoded.**
 
 **The prediction is explicit and the record has not yet tested it.** If an off-board weapon station is
@@ -1585,16 +1579,14 @@ $\rho = 1/S$, so a family of three species holds a third of the distinct parts, 
 0.3333. At $\phi = 0$ nothing is shared and $\rho = 1$. **At a shared fraction of three fifths the
 ratio is 0.7000 for two species and 0.6000 for three.**
 
-**The gradient is constant, which is worth saying because it means the first shared part is worth as
-much as the last one in this model.**
+**The gradient is constant, so in this model the first shared part is worth as much as the last one.**
 
 $$
 \frac{\partial \rho}{\partial \phi} \;=\; -\left(1 - \frac{1}{S}\right)
 $$
 
 **At three species that is -0.6667**, so each percentage point of sharing removes two thirds of a
-point of the distinct-part count. **That constancy is the model's weakness and the penalty section below
-is where it is repaired.**
+point of the distinct-part count. **That constancy is the model's weakness, and the penalty subsection below repairs it.**
 
 **The relations in this section are the simplest defensible forms of a theory with a much larger
 literature.** The modern treatment of modularity as a design strategy with an economic value is Baldwin and Clark's, whose
@@ -1602,8 +1594,8 @@ chapters on what modularity is and on the value of splitting and substitution se
 argument this section does not attempt \[[Baldwin and Clark, Design Rules Volume 1][research_baldwin_clark_2000]]
 \[[What Is Modularity?][research_baldwin_clark_modularity]]
 \[[The Value of Modularity, Splitting and Substitution][research_baldwin_clark_splitting]]. **Those three
-are cited from their registry records and not from a reading**, which the reference definitions say, and
-the survey's modularity cluster is where the rest of that literature sits.
+are cited from their registry records and not from a reading**, as the reference definitions state,
+and the rest of that literature sits in the survey's modularity cluster.
 
 **That relation is about drawings, qualification and spares rather than about unit cost**, because a part
 that exists once has to be designed once, tested once, catalogued once and stocked once. **It is also the
@@ -1622,9 +1614,9 @@ c(Q) \;=\; c_1 \, Q^{-b} \qquad\text{with}\qquad 2^{-b} = r
 $$
 
 **An eighty-five percent progress ratio gives $b$ equal to 0.23447 and a ninety percent ratio gives
-0.15200.** Now split each aeroplane into a shared fraction and a bespoke fraction. **The step the
-whole argument turns on is that the two fractions are built at different quantities**, and writing it
-down is what makes the rest arithmetic.
+0.15200.** Now split each aeroplane into a shared fraction and a bespoke fraction. **The step the argument turns on is that the two fractions are built at different quantities**,
+and once it is
+written down the rest is arithmetic.
 
 $$
 Q_{\mathrm{shared}} \;=\; S \, Q_{\mathrm{species}}
@@ -1649,16 +1641,15 @@ $$
 $$
 
 **For three species on an eighty-five percent curve the slope $a$ is -0.22709, and for two
-species it is -0.15000.** The gradient of the cost factor is the slope itself, which is the
-statement that this model is linear in the shared fraction.
+species it is -0.15000.** The gradient of the cost factor is the slope itself, because
+this model is linear in the shared fraction.
 
 $$
 \frac{\partial \kappa}{\partial \phi} \;=\; a \;=\; S^{-b} - 1
 $$
 
 **At three species that is -0.22709.** Because $a$ is negative for every $S$ greater than one, this
-model says that commonality always helps, monotonically. **But it does not help without limit, and the
-limit is worth having because it bounds every claim the programme could make.**
+model predicts that commonality always helps, monotonically. **But it does not help without limit, and the limit matters because it bounds every claim the programme could make.**
 
 $$
 \lim_{S \to \infty} a \;=\; -1
@@ -1673,8 +1664,8 @@ $$
 $$
 
 **At a three-fifths shared fraction the ceiling is 60.00 percent at any family size**, against
-13.63 percent actually reached at three species. **The ceiling is also what makes the
-inversion well posed.** Asking how many species a stated saving needs means solving the cost factor for
+13.63 percent reached at three species. **The ceiling also makes the inversion well posed.**
+Asking how many species a stated saving needs means solving the cost factor for
 $S$, and the solution exists only below the ceiling.
 
 $$
@@ -1686,14 +1677,12 @@ $$
 **A programme wanting a thirty percent unit-cost saving from commonality alone, at these parameters,
 needs about nineteen species on one chassis**, and the programme that consumed the X-67 named two.
 
-**And the monotonic conclusion is still false, because the reason it is false is the thing the model
-omits.**
+**And the monotonic conclusion is still false, for a reason the model omits.**
 
 ### The Omission Is the Penalty, and Adding It Changes the Answer Qualitatively
 
 **A shared part is not a free part.** A structure sized for the heaviest species is too heavy for the
-lightest. **A chassis sized for the fastest is too draggy for the most enduring.** **The laboratory's description
-of the two species it wanted, quoted above, names exactly this trade**
+lightest. **A chassis sized for the fastest is too draggy for the most enduring.** **The laboratory's description of the two species it wanted, quoted above, names this trade**
 \[[AFRL first flight release][ref_afrl_firstflight]]. **So write a penalty factor on the delivered cost
 of capability and ask what happens.**
 
@@ -1725,8 +1714,7 @@ $$
 
 **For three species on an eighty-five percent curve that threshold is 29.38 percent, and for
 two species 17.65 percent.** Below the threshold, share everything. Above it, share nothing.
-**A model whose answer is always all or nothing is telling the reader about its own linearity and not
-about aeroplanes.**
+**A model whose answer is always all or nothing is telling the reader about its linearity and not about aeroplanes.**
 
 **A penalty growing as the square of the shared fraction is the better shape and it gives an interior
 answer.** The first parts a family shares are the ones it costs least to share, so the marginal penalty
@@ -1768,7 +1756,7 @@ $$
 $$
 
 **So a sufficiently large family tolerates a sharing penalty of 300 percent before an interior
-optimum appears at all**, which is the formal version of the observation that commonality is worth more
+optimum appears at all**, the formal version of the observation that commonality is worth more
 the more species carry it.
 Below that the minimum is the corner at full commonality.
 
@@ -1789,14 +1777,14 @@ the same penalty gives 1.00479, which is 0.48 percent worse than sharing
 nothing at all.** So at that penalty the interior optimum beats both corners and the corner the first
 model would have chosen is the wrong one.
 
-**Every number in the last three paragraphs rests on assumed parameters and none of them is measured for
-this aeroplane.** The shared fraction of the genus is not public, the sharing penalty is not public, and
+**Every number in the last three paragraphs uses assumed parameters and none of them is measured for this aeroplane.**
+The shared fraction of the genus is not public, the sharing penalty is not public, and
 the number of species is one. **What the relations establish is the shape of the argument and where it
-fails**, which is the honest yield of a model fitted to a programme that has published no cost data.
+fails**, the most a model fitted to a programme that has published no cost data can yield.
 
-### The Break-Even, Inverted, Because One Species Exists
+### Inverting the Break-Even When One Species Exists
 
-**The programme's claim is about development cost rather than unit cost and it has its own break-even.**
+**The programme's claim is about development cost rather than unit cost, and a separate break-even applies.**
 Let a bespoke aircraft type cost $c_b$ to develop, let the genus cost $\mathcal{C}_g$ once and let each species on
 it cost $c_s$.
 
@@ -1817,8 +1805,7 @@ $$
 c_b \;=\; c_s + \frac{\mathcal{C}_g}{S}
 $$
 
-**Reading the genus cost as the whole platform-sharing programme at 24,479,631.19 dollar and the first
-species at the Off-Board Sensing Station award of 67,986,112.00 dollar, the figures follow.**
+**Reading the genus cost as the platform-sharing programme's total of 24,479,631.19 dollar and the first species at the Off-Board Sensing Station award of 67,986,112.00 dollar, the figures follow.**
 
 | Species the chassis must carry | Bespoke cost needed in dollar | Premium over the first species |
 |---:|---:|---:|
@@ -1832,8 +1819,8 @@ c_b\big|_{S=2} \;=\; 67{,}986{,}112.00 + \frac{24{,}479{,}631.19}{2} \;\approx\;
 \frac{c_b - c_s}{c_s} \;=\; \frac{24{,}479{,}631.19}{2 \times 67{,}986{,}112.00} \;=\; 18.00\,\%
 $$
 
-**So a second species repays the chassis only if a bespoke demonstrator would have cost at least
-80,225,927.59 dollar, which is 18.00 percent more than the first species actually cost.** On the
+**So a second species repays the chassis only if a bespoke demonstrator would have cost at least 80,225,927.59 dollar, which is 18.00 percent more than the first species cost.**
+On the
 narrower reading that only the winning firm's platform-sharing award of 10,674,331.00 dollar built the
 chassis, the requirement falls to 73,323,277.50 dollar at two species, a premium of 7.85 percent,
 and 71,544,222.33 dollar at three, a premium of 5.23 percent.
@@ -1846,19 +1833,18 @@ $$
 $$
 
 **At the two-species figures above that is one additional species required for every
-12,239,815.59 dollar added to the chassis.** The relation is also the honest reading of the inversion,
-**since it says that the break-even is sensitive to a quantity nobody has published.**
+12,239,815.59 dollar added to the chassis.** The relation also states what the inversion shows,
+**that the break-even is sensitive to a quantity nobody has published.**
 
 **A third reading is that the chassis cost is inside the species cost and not separable at all**, since
-the award record carries no line for a chassis. **Under that reading the data cannot answer the question
-and the article says so rather than choosing the reading that gives a number.**
+the award record carries no line for a chassis. **Under that reading the data cannot answer the question and the article states that rather than choosing the reading that gives a number.**
 
 ### Why Frequent Refresh Is Worth Something, Stated as a Shortfall
 
 **The programme's second claim is about time rather than money and it can be made exact.** The stated
 benefit is more opportunities for frequent technology refresh, against a complaint that the time to
 initial operating capability for military aircraft has been increasing
-\[[AFRL first flight release][ref_afrl_firstflight]]. **Let the available capability at the frontier grow
+\[[GA-ASI first flight release][ref_gaasi_firstflight]] \[[AFRL first flight release][ref_afrl_firstflight]]. **Let the available capability at the frontier grow
 exponentially and let a design hold the value it had when it was frozen.**
 
 $$
@@ -1887,7 +1873,7 @@ $$
 $$
 
 **Taking a two-year doubling of available capability gives $g$ equal to 0.34657 per year**, from the
-relation below, which is the only place a rate enters.
+relation below, the only place a rate enters.
 
 $$
 g \;=\; \frac{\ln 2}{T_2}
@@ -1900,8 +1886,7 @@ $$
 | 10 | 72.05 percent |
 | 15 | 80.87 percent |
 
-**The monotonicity the table displays is a derivative rather than four values, and writing it down is
-what makes it a claim about every interval rather than about those four.**
+**The table shows the monotonicity at four values, and the derivative extends the claim to every interval.**
 
 $$
 \frac{\partial \sigma}{\partial T}
@@ -1911,9 +1896,9 @@ $$
 **That is positive for every positive argument, so the shortfall increases with the freeze without
 exception.** It is 0.08940 per year at a three-year freeze and 0.01238 at fifteen, a ratio of
 7.218, **so the first year of delay costs about seven times what the fifteenth does.** That
-is the quantitative form of the programme's own argument for cadence.
+is the quantitative form of the programme's argument for cadence.
 
-**And for a long freeze the exponential has died and the shortfall has a one-term form.**
+**For a long freeze the exponential has died and the shortfall has a one-term form.**
 
 $$
 \sigma \;\approx\; 1 - \frac{1}{gT}
@@ -1939,8 +1924,7 @@ value is in the cadence rather than in the parts.**
 
 **The doubling time is assumed and nothing in the record supports it.** A different doubling time scales
 every figure in the table, and the shortfall for a slowly improving capability is small at any freeze
-interval. **The relation is exact and its input is a guess**, which is the honest statement of where this
-derivation stands.
+interval. **The relation is exact and its input is a guess.**
 
 ### The Firm on Both Sides of the Gap
 
@@ -2055,8 +2039,8 @@ an allocation, so the case is doing work.** The distinct-part ratio $\rho$ and t
 $\bar{\varrho}$ render similarly at small sizes and never share an expression.
 
 **Capability has no unit**, because the refresh derivation needs only the ratio of two capabilities, and
-**a designation's fields have none**, because they are symbols in a code, which is the whole reason a
-design number can be chosen rather than measured.
+**a designation's fields have none**, because they are symbols in a code, and only for that reason can a
+design number be chosen rather than measured.
 
 ## The Contemporary Literature
 
@@ -2079,12 +2063,10 @@ design number can be chosen rather than measured.
 | Digital engineering | 24 | model-based systems engineering, virtual prototyping, digital twins, requirements engineering |
 | **Total** | **1,109** | |
 
-**This article's literature is not an aeronautical literature and that is the most useful thing the
-survey shows.** The X-67 is a number, the aeroplane that consumed it was built to prove a method of
+**The survey's most useful finding is that this article's literature is not an aeronautical literature.**
+The X-67 is a number, the aeroplane that consumed it was built to prove a method of
 building aeroplanes, and the method has a large, quantitative and continuously active literature under
-product families, component commonality and modular architecture. **That literature lives in mechanical
-engineering and management science, which is why most of the survey comes from a journal index rather
-than from a report archive.**
+product families, component commonality and modular architecture. **That literature lives in mechanical engineering and management science, so most of the survey comes from a journal index rather than from a report archive.**
 
 **The survey's 1,109 research records fall across fifteen clusters, one cluster to each record.** A
 record's title is matched against the characteristic phrases of every cluster, and the record is filed in
@@ -2098,8 +2080,8 @@ $$
 $$
 
 **That is 1.0649 clusters per record across 1,181 matches, and 72 titles match
-two.** A mean barely above one says the clusters are nearly disjoint, **which is a property of the
-admission rule rather than of the field**, since each cluster admits on compound nouns the others do not
+two.** A mean barely above one says the clusters are nearly disjoint, **and that reflects the admission rule rather than the field**,
+since each cluster admits on compound nouns the others do not
 use.
 
 **The shape of that table is the article's subject restated.** The three largest clusters are
@@ -2110,8 +2092,8 @@ literature of how engineered items and records are identified and named.** The n
 at 24 is the literature of classifying at all.
 
 **The smallest cluster is attritability at four records, deliberately**, because attritability is the
-[X-58][related_post_a355_x58_slot_taken_by_xq58] article's keystone and that article surveyed it, as the
-section headed Out of Scope notes.
+[X-58][related_post_a355_x58_slot_taken_by_xq58] article's keystone and that article surveyed it, as noted under
+Out of Scope.
 
 **Two clusters hold literatures outside product design, and both are deliberate.** The identifier
 cluster reaches persistent identifier systems, object identifier registries, namespace definitions and
@@ -2226,7 +2208,7 @@ survey's research records in 1962**, with a compilation of aerodynamic nomenclat
 ## Where the Framing Breaks Down
 
 **The title says the slot was taken by the XQ-67A, and the record supports a narrower statement than
-that.** Taken implies an act upon the X-67, and the article's own finding is that nobody had to decide to
+that.** Taken implies an act upon the X-67, and the article's finding is that nobody had to decide to
 skip it. **The number 67 went to an unmanned allocation on 2023-07-19, and the X-67 became unrequestable
 only when the X-68A was approved on 2025-08-20** \[[Parsch, DOD 4120.15-L Addendum][ref_mds_addendum]]
 \[[DAFI 16-401][ref_dafi_16_401_2020]]. The vehicle consumed a number, and a later request closed a slot.
@@ -2242,8 +2224,8 @@ Department wording and the XQ-67A's is not, so the phrase just like the X-58 joi
 described to one it did not. That boundary is drawn under the heading The Second Case Falls on the Far
 Side of a Line the First Did Not.
 
-**The framing of the skip as visible at the article's date also breaks, and the dated note in the section
-headed Epistemic State records how.** The X-68A row reached the public register only after this article's
+**The framing of the skip as visible at the article's date also breaks, and the dated note under Epistemic State records how.**
+The X-68A row reached the public register only after this article's
 date, so a reader of the register at that date would have seen 67 as the next number rather than as a
 passed one.
 
@@ -2268,7 +2250,7 @@ The Definition of Primary. **The median publication year is 2011.** Of the 1,062
 records, 371 were published in 2015 or later, being 34.9 percent, and 181 before
 2000, and the range runs from 1900 to 2026.
 
-**The reference base as a whole is 1,195 definitions and it partitions four ways.**
+**The reference base as a whole is 1,197 definitions and it partitions four ways.**
 
 $$
 \lvert \mathcal{B} \rvert \;=\; \lvert \mathcal{B}_{\mathrm{prim}} \rvert
@@ -2277,7 +2259,7 @@ $$
 + \lvert \mathcal{B}_{\mathrm{res}} \rvert
 $$
 
-**Nineteen are hand-written references to the register, the instructions, the
+**21 are hand-written references to the register, the instructions, the
 releases, the award record and the trade press, two of which the list marks as secondary, four are
 hand-written theory sources, 67 are the prior articles of this series, and 1,105 are research
 records from the three archives.** **Of the 1,109 research records the 979 that are not reports carry
@@ -2348,14 +2330,15 @@ document**, and this page is a case in which the status and the content disagree
 
 **The consequence for the article is substantive rather than cosmetic.** Secondary coverage speculates
 that the XQ-67A represents the first member of a named family of aircraft the contractor has disclosed
-separately, and the same coverage records that the contractor has drawn no connection between the
-aeroplane, that family and the collaborative combat aircraft programme. **With the maker's own page
-unreachable, the article cites the family nowhere and asserts no connection**, which is what the record
-supports.
+separately. Contemporary reporting names the contractor's submission as the Gambit and reports the
+contractor saying that the selection would validate the Gambit series' design concept
+\[[AFRL Chooses General Atomics Drone for Off-Board Sensing Station Program][ref_dp_obss_2023]].
+**With the maker's own page unreachable, the article asserts no tie to the family beyond that report**,
+which is what the record supports.
 
 ### What the Cited Addresses Return
 
-**Every hand-written address in the article has been fetched, and there are 23 of them.** Eighteen
+**Every hand-written address in the article has been fetched, and there are 25 of them.** Twenty
 return a document, four are held by a publisher that declines automated clients and are instead
 confirmed against the bibliographic index by author and title, and one returns neither. The one that
 returns neither is the Department's own cancelled list at its issuance portal, which answers HTTP 403 to
@@ -2493,7 +2476,7 @@ in the subject is dated after the dateline.** The register's latest allocation u
 
 **The one place this matters to a reader is the hostname.** A name that did not resolve on 2 October 2026
 may have resolved on 2025-12-12 and may resolve later. **The article's claim is about the date it was
-checked and not about the whole interval**, and it is the only claim here that could change without any
+checked and not about the whole interval**, and no other claim here could change without any
 document changing.
 
 **A note on the register.** The X-68A and X-76A rows first appeared in the public register between 15 January and 1 February 2026, after this article's date. The register's page as archived on 10 December 2025 \[[Parsch, DOD 4120.15-L Addendum, as archived on 10 December 2025][ref_mds_addendum_wb_2025_12]\] and on 15 January 2026 \[[Parsch, DOD 4120.15-L Addendum, as archived on 15 January 2026][ref_mds_addendum_wb_2026_01]\] ends its research rows at the X-66A, and the page as archived on 1 February 2026 \[[Parsch, DOD 4120.15-L Addendum, as archived on 1 February 2026][ref_mds_addendum_wb_2026_02]\] carries both new rows. **In the register, the passed number at 67 is visible only through the X-68A row**, so a reader of the register at this article's date would have seen the X-67 as the next number rather than as a passed one. The skip is therefore a fact that the register made public after this article's date, and the statement above that no event in the subject is dated after the dateline holds for the allocations and not for their publication.
@@ -2534,6 +2517,10 @@ document changing.
   consecutive design number, and neither contains the word skip**
   \[[AFJI 16-401, 9 September 1994][ref_afji_16_401_1994]]
   \[[AFI 16-401(I), 14 April 2005][ref_afi_16_401_2005]].
+- **The edition of 16 May 2014, which supersedes the 2005 one, defines the next designator from the last
+  approved design number, refuses requests in skipped sequences for vehicles with an extensive history of
+  designations, and states that skipped design numbers cannot be requested or used**
+  \[[AFI 16-401, 16 May 2014][ref_afi_16_401_2014]].
 - **The 2020 instruction cancels DoD 4120.15-L as the publicly accessible database, names `data.af.mil`
   as where the public may obtain the latest version, and adds a status prefix `e` for aircraft engineered
   in a virtual environment** \[[DAFI 16-401][ref_dafi_16_401_2020]].
@@ -2562,24 +2549,22 @@ parses it the same way.
 - **21 research rows are fully official, seven have an unofficial description,
   one is partly unofficial and two are entirely unofficial rows.** The XQ-58A's
   description is official and the XQ-67A's is not.
-- **Six pairs of design numbers in the whole register carry identical official descriptions,
-  and in five of them the contractor is the only differing field.**
+- **Six pairs of design numbers in the register carry identical official descriptions,   and in five of them the contractor is the only differing field.**
 - **27 design numbers carry rows naming more than one leading firm, and the missile design
   number 88 carries ten series letters across seven firms.**
 - **The research series has two companions in the unmanned series carrying the experimental
   prefix and nothing else, being XQ-58A and XQ-67A.**
 - **The unmanned series carries nine out-of-sequence design numbers against a sequential ceiling of
   31, with numbers reaching 170.**
-- **The hostname the cancellation notice named as successor to the printed list returns no answer from
-  the authoritative nameservers for its own zone**, checked on 2 October 2026, while a sibling name in
+- **The hostname the cancellation notice named as successor to the printed list returns no answer from   the authoritative nameservers for its zone**,
+checked on 2 October 2026, while a sibling name in
   the same zone and a name in an adjacent zone both resolve.
 
 ### Engineering Analysis, Derived Here and Checkable
 
 - **The number-and-series field of one basic mission holds 23,976 distinct codes, rising to
   239,976 when the design-number range expands as the instruction provides.**
-- **A sequential allocation carries no information beyond its own order, and a chosen one carries at most
-  9.8657 bits at the research series' position in July 2023.**
+- **A sequential allocation carries no information beyond its order, and a chosen one carries at most   9.8657 bits at the research series' position in July 2023.**
 - **The departures of the dated out-of-sequence unmanned allocations are 5 for the number 35, 17 for the number 48, 30 for the number 58, 37 for the number 67, 44 for the number 72 and 43 for the number 73.** Their entropy is
   2.5850 bits, which equals the maximum 2.5850 attainable at
   six observations, **so the entropy figure is pinned by sample size and is not a result.**
@@ -2605,19 +2590,18 @@ parses it the same way.
 
 ### Inference, Stated as Such
 
-- **That the number 67 was taken from the research series is an inference and it is now supported by
-  evidence the register's compiler does not cite.** The number equalled the research series' next
+- **That the number 67 was taken from the research series is an inference, now supported by   evidence the register's compiler does not cite.**
+The number equalled the research series' next
   number at the moment of allocation, it equalled no other series' next number, and the same test
-  fires for the only other case the compiler derives this way. **The inference is strong and it is
-  not a documented fact.**
-- **That the X-68A's approval is what made the X-67 unrequestable** follows from the instruction's
+  fires for the only other case the compiler derives this way. **The inference is strong but   not a documented fact.**
+- **That the X-68A's approval made the X-67 unrequestable** follows from the instruction's
   refusal of requests in skipped sequences, applied to the register's dates. **The instruction is a
   fact, the dates are facts, and the conjunction is an inference.**
 - **That the design number indexes a request rather than a design or a designer** is an inference from
   the identical-description pairs and the multi-firm numbers. **Both measurements are facts and the
   conclusion drawn from them is not.**
-- **That a species on a shared genus falls below the instruction's own threshold for a series letter** is
-  an inference from the logistics-support clause, and it is the article's most contestable claim.
+- **That a species on a shared genus falls below the instruction's threshold for a series letter** is
+  an inference from the logistics-support clause and the article's most contestable claim.
 - **That the designation arriving mid-build is the ordinary case for a modern demonstrator** is an
   inference from one case and should be treated as a hypothesis the remaining articles can test.
 - **That the laboratory's account of deciding at the end of 2021 is most likely an error for the end of
@@ -2626,8 +2610,8 @@ parses it the same way.
 - **That a species on a shared chassis would not have earned a new design number under the 1962 test** is
   an inference from three worked examples, all of which concern the airframe's shape or its propulsion
   and none of which concerns mission equipment. **The examples are facts and the application is not.**
-- **That the 1994 and 2005 wording permitted the X-49A's fill** is an inference from a procedural duty on
-  the assigning office rather than from a stated permission to a requester.
+- **That the 1997 wording permitted the X-49A's fill** is an inference from a procedural duty on the
+  assigning office rather than from a stated permission to a requester.
 
 ### What the Record Does Not Settle
 
@@ -2641,9 +2625,6 @@ parses it the same way.
   is not. The register's behaviour is consistent with its being so. **No publication states the practice.**
 - **Whether the successor designation database exists and is maintained.** The address does not resolve
   publicly and a Department network may resolve it. **This article cannot see inside.**
-- **Whether an edition between 2005 and 2020 introduced the refusal of skipped sequences before the
-  2020 issue did.** Four editions have been read and the change falls somewhere in that fifteen-year
-  gap. **Narrowing it further would need an edition this article has not found.**
 - **What the Department directives behind the instructions say.** DoD Directive 4505.6 of 6 July 1962,
   which the founding regulation implements, and DoD Directive 4120.15 of 2 May 1985, which the lists are
   reissued under, are **named in documents this article has read and have not themselves been read.**
@@ -2652,9 +2633,11 @@ parses it the same way.
   the species.
 - **Whether a second species was ever built.** The off-board weapon station is described as a concept the
   programme wanted to design and no such aircraft appears in the register as last updated on 23 August 2026.
-- **Whether the aeroplane belongs to the family its maker has disclosed separately.** Secondary coverage
-  speculates that it does and records that the maker has stated no connection, **and the maker's own page
-  for that family returns a not-found document under a success status.**
+- **Whether the aeroplane is part of the family its maker has disclosed separately.** Contemporary
+  reporting names the maker's submission as the Gambit and reports the maker saying that the selection
+  would validate the Gambit series' design concept
+  \[[AFRL Chooses General Atomics Drone for Off-Board Sensing Station Program][ref_dp_obss_2023]],
+  **and the maker's page for that family returns a not-found document under a success status.**
 - **How many species a genus would need to carry before the approach paid.** The relation is derived here
   and every input to it is unpublished.
 
@@ -2674,15 +2657,12 @@ parses it the same way.
   YFQ-48A, all out of sequence, and the compiler's derivations for them appear above only as entries in
   a table. **Those aircraft are a different subject and two of them are not in the research series at
   all.**
-- **The X-68A.** It appears here as the allocation whose approval closed the slot and as a date. **It is
-  the next article in this series and its programme, its contractor's other work and its own anomalies
-  belong there.**
+- **The X-68A.** It appears here as the allocation whose approval closed the slot and as a date. **It is   the next article in this series, and its programme, its contractor's other work and its anomalies   are treated there.**
 - **Autonomy and crewed-uncrewed teaming as technical subjects.** The 2025 flight test is cited for what
-  it says about the aeroplane's role as a testbed. **The autonomy stack, the datalink and the teaming
+  it shows about the aeroplane's role as a testbed. **The autonomy stack, the datalink and the teaming
   concept are a literature this article surveys and does not analyse.**
 - **The wider history of the designation system.** The 1962 unification, the pre-1962 service systems and
-  the popular-name rules are reached only where the instruction's current text requires. **The closing
-  article of this series is where the system's history belongs.**
+  the popular-name rules are reached only where the instruction's current text requires. **The system's   history is left to the closing article of this series.**
 - **The platform and commonality literature as an engineering discipline**, including commonality
   indices with competing definitions, design structure matrix clustering and option-valuation methods.
   **The survey points at that literature and the article does not summarise it.**
@@ -2693,7 +2673,7 @@ parses it the same way.
 
 **The X-67 does not exist, the number 67 does, and the register records the second with an analogy to the
 case before it.** The compiler's entry says that just like the X-58 the slot was skipped after the
-allocation of the XQ-67A, and that sentence is the whole of the public reasoning
+allocation of the XQ-67A, and that sentence is all the public reasoning there is
 \[[Missing USAF and DOD Aircraft Designations][ref_missing_mds]].
 
 **The analogy is sound and the article had to supply the evidence for it.** The number 67 was the
@@ -2727,13 +2707,13 @@ belongs on a series letter**, because the only concrete test the instruction off
 whether the change alters the logistics support of the vehicle, and a common chassis is built so that it
 does not.
 
-**And the founding document is harder on the point than the instruction now in force.** On 18 September
+**The founding document is harder on the point than the instruction now in force.** On 18 September
 1962 the Department defined the design number as **the sequence number of each new design** and gave
 three worked examples of what forces one, being a change in the number of engines, a change of the wing
 from straight to swept or delta, and a change or relocation of the empennage
 \[[AFR 66-11 and AR 700-26 and BUWEPS 13100.7, 18 September 1962][ref_afr_66_11_1962]]. **All three are
-the airframe and none is the mission equipment.** A genus holds exactly those three constant and swaps
-exactly what the 1962 test ignores. **The system that wrote the definition would have refused a species a
+the airframe and none is the mission equipment.** A genus holds those three constant and swaps
+what the 1962 test ignores. **The system that wrote the definition would have refused a species a
 number of its own, and the system that inherited the definition without the examples gave one.**
 
 **The register shows the same thing from the other side and shows it twice.** Six pairs of
@@ -2743,8 +2723,8 @@ contractor is the only field that differs, so the number does not index the stat
 seven firms and ten series letters, so the number does not index the designer
 either.** **What it indexes is a request**, and the instruction never defines what a request is for.
 
-**The arithmetic of the method the aeroplane proved says where its value would have to lie, and it is not
-in the parts.** By the cost factor $\kappa$ under What It Does to a Unit Cost, at three species and an
+**The arithmetic of the method the aeroplane proved shows where its value would have to lie, and that place is not the parts.**
+By the cost factor $\kappa$ under What It Does to a Unit Cost, at three species and an
 eighty-five percent learning curve a shared fraction of three fifths buys 13.63 percent of unit cost. By
 the threshold $\eta_{\ast}$ under The Omission Is the Penalty, a sharing penalty rising as the square of
 the shared fraction has an interior optimum only above 15.47 percent, at which point full
@@ -2754,7 +2734,7 @@ Something, shortening a design freeze from fifteen years to three takes the capa
 genus concept is worth what the laboratory claims, the value is in the cadence and not in the
 commonality**, and every input to both calculations is unpublished.
 
-**One institutional fact closes the case and it is larger than the designation.** The request procedure
+**One institutional fact, larger than the designation, closes the case.** The request procedure
 requires the requester to research the last approved design number in an official source. **The same
 instruction that states that procedure cancels the publicly accessible list and directs the public to
 `data.af.mil`** \[[DAFI 16-401][ref_dafi_16_401_2020]], **and that hostname returns no answer from the
@@ -2781,7 +2761,9 @@ rebuilt because the official one was withdrawn.**
 
 - [AFRL Chooses General Atomics Drone for Off-Board Sensing Station Program, The Defense Post, 6 February 2023, read in full, and SECONDARY, being the source of the February 2023 selection date the laboratory's own release contradicts][ref_dp_obss_2023]
 - [Air Force Instruction 16-401(I), Army Regulation 70-50 and NAVAIRINST 13100.16, Designating and Naming Defense Military Aerospace Vehicles, 14 April 2005, read in part, and the edition that settles whether the allocation rule changed before 2020][ref_afi_16_401_2005]
+- [Air Force Instruction 16-401, Army Regulation 70-50 and NAVAIRINST 13100.16, Designating and Naming Defense Military Aerospace Vehicles, 16 May 2014, superseding the 14 April 2005 edition, read in part, and the edition that first refuses requests in skipped sequences][ref_afi_16_401_2014]
 - [Air Force Joint Instruction 16-401 and NAVAIRINST 8800.3A, Designating and Naming Defense Military Aerospace Vehicles, 9 September 1994, implementing DoD Directive 4120.15 of 2 May 1985, read in full, and the edition in force when the X-49A filled a gap the X-50A had passed][ref_afji_16_401_1994]
+- [Air Force Joint Instruction 16-401, Army Regulation 70-50 and NAVAIRINST 8800.3A, Designating and Naming Defense Military Aerospace Vehicles, 1 September 1997, superseding the 9 September 1994 edition, read in part, and the edition in force when the X-49A was allocated][ref_afji_16_401_1997]
 - [Air Force Regulation 66-11, Army Regulation 700-26 and Bureau of Naval Weapons Instruction 13100.7, Designating, Redesignating, and Naming Military Aircraft, 18 September 1962, implementing DoD Directive 4505.6 of 6 July 1962 and superseding AR 705-42 of 21 March 1957 and BUWEPSINST 13100.1A of 17 May 1961, signed by LeMay, Decker and Stroop, scanned by Andreas Parsch, READ IN FULL as nineteen page images because the scan carries no text layer][ref_afr_66_11_1962]
 - [Castrejon, AFRL's XQ-67A Makes 1st Successful Flight, Air Force Research Laboratory, 29 February 2024, distributed through the Defense Visual Information Distribution Service, read in full][ref_afrl_firstflight]
 - [Current Designations of U.S. Military Aircraft, compiled by Andreas Parsch, read in part][ref_dsnet_aircraft]
@@ -2800,7 +2782,9 @@ rebuilt because the official one was withdrawn.**
 - [USAspending.gov, the federal award reporting system, queried for the Off-Board Sensing Station and Low Cost Attritable Aircraft Platform Sharing programmes][ref_usaspending]
 
 [ref_afi_16_401_2005]: https://www.designation-systems.net/usmilav/afi16-401(i).pdf
+[ref_afi_16_401_2014]: https://www.designation-systems.net/usmilav/afi16-401(2014).pdf
 [ref_afji_16_401_1994]: https://irp.fas.org/doddir/usaf/16-401.htm
+[ref_afji_16_401_1997]: https://www.designation-systems.net/usmilav/afji16-401(1997).pdf
 [ref_afr_66_11_1962]: https://www.designation-systems.net/usmilav/original-docs/dod1962.pdf
 [ref_afrl_firstflight]: https://www.dvidshub.net/news/465637/afrls-xq-67a-makes-1st-successful-flight
 [ref_asf_obss_2021]: https://www.airandspaceforces.com/kratos-general-atomics-contracts-unmanned-fighter-escort/

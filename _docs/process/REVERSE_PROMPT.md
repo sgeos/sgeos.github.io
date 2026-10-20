@@ -4,6 +4,24 @@
 
 ## Last Updated
 
+**Date**: 2026-10-20 (third entry)
+**Task**: **X-PLANES, THE CITATION PASS AND THE PATHOLOGICAL WORD USAGE PASS, ALL 72 ARTICLES.** Applied in the working tree. NOT committed, NOT pushed, NOT published. The pilot's word is awaited before any commit.
+
+**The pilot's instruction, quoted.** "Perform the citations pass. Then perform the pathological word usage pass. For example, there was a time when "specific" and its variations were overused, and other tics have been identified."
+
+**Citation pass.**
+- 36,311 author-prose sentences were screened by TypeSafe Jev (`jev-1.13.0`, 26.1M input tokens) for a checkable factual claim and for citation support; 12,022 were flagged at a cut validated on 80 hand-labelled sentences. One agent per article read every flagged sentence against its sources and gave each a verdict (not a claim, already supported, cite, new source, qualify, correct, withdraw). Verdicts are in `tmp/cite/A<NNN>/verdicts.tsv`; old and new text is in each article's drafting notes.
+- Hundreds of factual corrections, among them the X-2 flight (65,500 ft; the capsule failed to separate), the X-3 inertias (Day 1997), the X-1 Mach 1.45 flight altitude, the X-7 Mach 4.31 altitude and vehicle count, the X-8 fin count, the X-9 blast radius, the skip authority in AFI 16-401 (May 2014, not 2020), and the X-35B empty weight. About 174 references were added, mostly under Reference.
+- Follow-ups aligned the corrected facts across articles (A368 recoded the X-4 ground comparison), fixed factual errors in survey-method sentences, and restated every survey count the additions moved.
+
+**Word usage pass.** The series tics were measured against the 305 published posts. Across the series, "which is" fell from 3,224 to 1,376, "and it is" from 963 to 227, "rather than" from 2,929 to 2,105, "own" from 1,948 to 1,108, "worth" from 688 to 229 and "the section headed" from 274 to 57. Formulas the tools miss, chiefly cluster pointers repeated verbatim and citations used as the predicate of "is", were found by reading and varied. About 430 formulaic headings were renamed; no reference to an old heading remains and all 1,769 in-page anchors resolve. ", not" rose from 256 to 341, concentrated in early articles.
+
+**Verification.** All 72: check5 RESULT PASS; every offline verifier rc=0 except the stale `verify368.d1pre.py`; every self-test catches its mutations (A298, A365 and A368's `neg368.py` retargeted to targets that had been stale since 19 October, which the earlier report missed); `_verify.py` 0 and 0; all 72 drafts build and `_lib/render.py` finds nothing across 544 pages. 122 of 174 new links return 200; 48 are on hosts outside the sandbox allowlist and were read by agents through the web fetch tool.
+
+**Items before the pilot.** See the ledger `tmp/cite/LEDGER.md` (lines marked PILOT). In brief: arguments the corrections weakened (A301, A307, A308, A312, A322, A332, A345, A348, A364, A365); source choices (A302, A326, A330, A333, A354, A368 X-8 date, A327 data year); A313 conflicting superlatives; A360 register copy postdating the article.
+
+## Previous Report (2026-10-20, second entry)
+
 **Date**: 2026-10-20 (second entry)
 **Task**: **X-PLANES, DEAD NTRS RECORDS AFTER THE STRICT RE-READ.** Committed and pushed on the pilot's word. NOT published.
 

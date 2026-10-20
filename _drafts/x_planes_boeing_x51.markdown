@@ -16,7 +16,7 @@ series_index: 52
 
 This is the fifty-second article in the [X-Planes series][related_post_a297_framing], following the [X-1][related_post_a298_bell_x1], the [X-2][related_post_a299_bell_x2], the [X-3][related_post_a300_douglas_x3], the [X-4][related_post_a301_northrop_x4], the [X-5][related_post_a302_bell_x5], the [X-6][related_post_a303_convair_x6], the [X-7][related_post_a304_lockheed_x7], the [X-8][related_post_a305_aerojet_x8], the [X-9][related_post_a306_bell_x9], the [X-10][related_post_a307_north_american_x10], the [X-11][related_post_a308_convair_x11], the [X-12][related_post_a309_convair_x12], the [X-13][related_post_a310_ryan_x13], the [X-14][related_post_a311_bell_x14], the [X-15][related_post_a312_north_american_x15], the [X-16][related_post_a313_bell_x16], the [X-17][related_post_a314_lockheed_x17], the [X-18][related_post_a315_hiller_x18], the [X-19][related_post_a316_curtiss_wright_x19], the [X-20][related_post_a317_boeing_x20], the [X-21][related_post_a318_northrop_x21], the [X-22][related_post_a319_bell_x22], the [X-23][related_post_a320_martin_marietta_x23], the [X-24][related_post_a321_martin_marietta_x24], the [X-25][related_post_a322_bensen_x25], the [X-26][related_post_a323_schweizer_x26], the [X-27][related_post_a324_lockheed_x27], the [X-28][related_post_a325_osprey_x28], the [X-29][related_post_a326_grumman_x29], the [X-30][related_post_a327_rockwell_x30], the [X-31][related_post_a328_rockwell_mbb_x31], the [X-32][related_post_a329_boeing_x32], the [X-33][related_post_a330_lockheed_martin_x33], the [X-34][related_post_a331_orbital_sciences_x34], the [X-35][related_post_a332_lockheed_martin_x35], the [X-36][related_post_a333_mcdonnell_douglas_x36], the [X-37][related_post_a334_boeing_x37], the [X-38][related_post_a335_scaled_composites_x38], the [X-39][related_post_a336_x39_reserved_never_assigned], the [X-40][related_post_a337_boeing_x40], the [X-41][related_post_a338_x41_common_aero_vehicle], the [X-42][related_post_a339_orbital_sciences_x42], the [X-43][related_post_a340_micro_craft_x43], the [X-44][related_post_a341_x44_two_aircraft], the [X-45][related_post_a342_boeing_x45], the [X-46][related_post_a343_boeing_x46], the [X-47][related_post_a344_northrop_grumman_x47], the [X-48][related_post_a345_boeing_x48], the [X-49][related_post_a346_piasecki_x49], and the [X-50][related_post_a347_boeing_x50].
 
-**That is not a criticism of the engine. It is a description of what the experiment was.** The X-51A was not built to accelerate anything. It was built to find out whether a scramjet can keep running, and the answer it returned is that at two hundred seconds the difficulty stops being combustion and becomes everything the combustion is wrapped in.
+**The share is no criticism of the engine, since it describes what the experiment was.** The X-51A was not built to accelerate anything. It was built to find out whether a scramjet can keep running. Its answer was that at two hundred seconds the difficulty stops being combustion and becomes everything the combustion is wrapped in.
 
 ## The Research Question
 
@@ -24,9 +24,9 @@ This is the fifty-second article in the [X-Planes series][related_post_a297_fram
 
 ### The Question This Article Inherits
 
-**The previous scramjet in this series left a claim unfinished.** The [X-43][related_post_a340_micro_craft_x43] reached Mach 9.68 on gaseous hydrogen \[[Voland et al 2005][research_x43_technology]\], which is often rounded to Mach 9.6 \[[NASA X-43][ref_x43_wikipedia]\] \[[Marshall et al 2005][research_x43a_mach10_lessons]\] \[[Marshall et al 2005][research_x43a_chief_engineer]\] \[[McClinton et al 2001][research_hyperx_status]\] and its engine ran for about eleven seconds \[[Voland et al 2005][research_x43_technology]\], which the Mach 10 flight overview gives as approximately ten \[[Marshall et al 2005][research_x43a_mach10_lessons]\], and that article recorded that eleven seconds on hydrogen has not demonstrated a propulsion system, because the thermal problem at length is a different problem.
+**The previous scramjet in this series left a claim unfinished.** The [X-43][related_post_a340_micro_craft_x43] reached Mach 9.68 on gaseous hydrogen \[[Voland et al 2005][research_x43_technology]\], a figure often rounded to Mach 9.6 \[[NASA X-43][ref_x43_wikipedia]\] \[[Marshall et al 2005][research_x43a_mach10_lessons]\] \[[Marshall et al 2005][research_x43a_chief_engineer]\] \[[McClinton et al 2001][research_hyperx_status]\] and its engine ran for about eleven seconds \[[Voland et al 2005][research_x43_technology]\], which the Mach 10 flight overview gives as approximately ten \[[Marshall et al 2005][research_x43a_mach10_lessons]\], and that article recorded that eleven seconds on hydrogen has not demonstrated a propulsion system, because the thermal problem at length is a different problem.
 
-**The X-51A is the experiment that tests that claim.** It flew slower, on a fuel an aeroplane could actually carry, for nineteen times as long.
+**The X-51A is the experiment that tests that claim.** It flew slower, on a fuel an aeroplane could carry, for nineteen times as long.
 
 $$
 \frac{210}{11} = 19.1
@@ -34,7 +34,7 @@ $$
 
 **On the ten second figure the ratio is 21.0**, and every comparison below that rests on it would strengthen.
 
-**And the article's finding is that the earlier claim was right, and right for a reason that is arithmetic rather than rhetorical.**
+**The article finds that the earlier claim was right, and right for an arithmetic reason.**
 
 ## Programme Origin
 
@@ -42,15 +42,15 @@ $$
 
 **Four vehicles were built and the programme cost about three hundred million dollars across nine years** \[[X-51 scramjet engine demonstrator, GlobalSecurity][ref_x51_globalsecurity]\]. Every one of the four ended in the Pacific \[[Boeing X-51 Waverider][ref_x51_wikipedia]\].
 
-**The name is a claim about the shape.** A waverider is a configuration whose leading edge is attached to its own bow shock, so that the high pressure behind that shock stays underneath the vehicle and becomes lift instead of leaking away around the edges \[[Waverider][ref_waverider]\] \[[Sandlin and Pessin 1993][research_waverider_aero_analysis]\].
+**The name is a claim about the shape.** A waverider is a configuration whose leading edge is attached to its bow shock, so that the high pressure behind that shock stays underneath the vehicle and becomes lift instead of leaking away around the edges \[[Waverider][ref_waverider]\] \[[Sandlin and Pessin 1993][research_waverider_aero_analysis]\].
 
 ## Sizing From First Principles
 
-**No detailed design data for the X-51A has been published** \[[Boeing X-51, Directory of U.S. Military Rockets and Missiles][ref_x51_designation]\]**, so this vehicle cannot be sized from its own drawings and is sized here from the physics of its flight condition instead.** Its three subsections take the stagnation temperature that forbids a subsonic combustor at Mach 5.1, the attached oblique shock that makes the forebody part of the inlet, and the heating rate that a long burn turns into a heat load. **Every figure is computed from published inputs, the standard atmosphere and stated material properties**, and the section headed Where the Framing Breaks Down records which of them rest on properties this vehicle never published.
+**No detailed design data for the X-51A has been published** \[[Boeing X-51, Directory of U.S. Military Rockets and Missiles][ref_x51_designation]\]**, so this vehicle cannot be sized from its drawings and is sized here from the physics of its flight condition instead.** Its three subsections take the stagnation temperature that forbids a subsonic combustor at Mach 5.1, the attached oblique shock that makes the forebody part of the inlet, and the heating rate that a long burn turns into a heat load. **Every figure is computed from published inputs, the standard atmosphere and stated material properties**, and Where the Framing Breaks Down, near the end, records which of them rest on properties this vehicle never published.
 
-### What a Scramjet Is For, and Why It Cannot Slow the Air Down
+### Why a Scramjet Cannot Slow the Air Down
 
-**An ordinary jet engine slows the incoming air to a low subsonic speed before burning fuel in it.** Around Mach 3 to 4 the compressor stops being useful and ram compression takes over, and above about Mach 5 the combustion itself is kept supersonic \[[Scramjet][ref_scramjet]\], and the reason is a single relation.
+**An ordinary jet engine slows the incoming air to a low subsonic speed before burning fuel in it.** Around Mach 3 to 4 the compressor stops being useful and ram compression takes over, and above about Mach 5 the combustion itself is kept supersonic \[[Scramjet][ref_scramjet]\], and a single relation explains why.
 
 $$
 \frac{T_0}{T} = 1 + \frac{\gamma - 1}{2} M^2
@@ -62,7 +62,7 @@ $$
 T_0 = T \left( 1 + \tfrac{\gamma - 1}{2} M^2 \right) = 216.65 \times 6.202 = 1{,}343.7 \ \mathrm{K}
 $$
 
-**being 1,070.5 degrees Celsius before a drop of fuel has been added**, the static temperature at both cruise altitudes being taken from the standard atmosphere \[[U.S. Standard Atmosphere][ref_us_standard_atmosphere_ref]\] \[[U.S. Standard Atmosphere, 1976][research_us_standard_atmosphere]\]. At the X-43's Mach 9.68 and its own altitude of about 110,000 feet \[[Voland et al 2005][research_x43_technology]\], where the standard atmosphere gives 232.4 kelvin, the same relation gives 4,588.4 kelvin, which is 4,315.2 degrees Celsius, and
+**being 1,070.5 degrees Celsius before a drop of fuel has been added**, the static temperature at both cruise altitudes being taken from the standard atmosphere \[[U.S. Standard Atmosphere][ref_us_standard_atmosphere_ref]\] \[[U.S. Standard Atmosphere, 1976][research_us_standard_atmosphere]\]. At the X-43's Mach 9.68 and its altitude of about 110,000 feet \[[Voland et al 2005][research_x43_technology]\], where the standard atmosphere gives 232.4 kelvin, the same relation gives 4,588.4 kelvin, or 4,315.2 degrees Celsius, and
 
 $$
 \frac{T_{0,\text{X-43}}}{T_{0,\text{X-51}}} = 3.41
@@ -70,13 +70,13 @@ $$
 
 **Air at four thousand kelvin is not air any more.** Oxygen begins to dissociate appreciably above about two thousand kelvin \[[Anderson, Hypersonic and high-temperature gas dynamics][book_anderson_hypersonic]\], and a gas whose molecules have been pulled apart absorbs the energy of combustion into reassembling itself rather than into pushing on a nozzle.
 
-**The pressures involved are worth seeing before leaving this section.** Bringing the flow to rest isentropically would raise its pressure by
+**The pressures involved show why the flow is not stopped.** Bringing the flow to rest isentropically would raise its pressure by
 
 $$
 \frac{p_0}{p} = \left( 1 + \frac{\gamma - 1}{2} M^2 \right)^{\!\gamma / (\gamma - 1)} = 594
 $$
 
-**and its density by a factor of 95.8.** A duct that captured that flow and stopped it would be holding 594 times the ambient pressure, which at the fourth flight's altitude is about 42 atmospheres, at more than a thousand degrees, which is a pressure vessel rather than an engine.
+**and its density by a factor of 95.8.** A duct that captured that flow and stopped it would be holding 594 times the ambient pressure, which at the fourth flight's altitude is about 42 atmospheres, at more than a thousand degrees. It would be a pressure vessel.
 
 **The dynamic pressure has a form that needs no density at all.**
 
@@ -84,15 +84,15 @@ $$
 q = \tfrac{1}{2} \rho V^2 = \tfrac{1}{2} \gamma p M^2
 $$
 
-**At Mach 5.1 that is 18.2 times the static pressure**, and the cruise value on the fourth flight was 2,750 pounds per square foot, against 1,640 on the first, because the fourth flight was flown ten thousand feet lower where the air is 1.62 times denser.
+**At Mach 5.1 that is 18.2 times the static pressure**, and the cruise value on the fourth flight was 2,750 pounds per square foot, against 1,640 on the first, because the fourth flight was flown ten thousand feet lower where the air is 1.62 times denser \[[Boeing X-51A WaveRider breaks record in first flight][ref_boeing_first_flight]\] \[[X-51 scramjet engine demonstrator, GlobalSecurity][ref_x51_globalsecurity]\].
 
-**So the flow is not slowed to subsonic. It is slowed a little, burned while still supersonic, and expanded.** That is the whole idea, and it is why the engine has no rotating machinery, no compressor and no turbine \[[Scramjet][ref_scramjet]\] \[[Heiser and Pratt, Hypersonic airbreathing propulsion][book_heiser_pratt]\] \[[Curran and Murthy, Scramjet propulsion][book_curran_murthy]\] \[[Anderson, Hypersonic and high-temperature gas dynamics][book_anderson_hypersonic]\].
+**So the flow is not slowed to subsonic. It is slowed a little, burned while still supersonic, and expanded.** For this reason the engine has no rotating machinery, no compressor and no turbine \[[Scramjet][ref_scramjet]\] \[[Heiser and Pratt, Hypersonic airbreathing propulsion][book_heiser_pratt]\] \[[Curran and Murthy, Scramjet propulsion][book_curran_murthy]\] \[[Anderson, Hypersonic and high-temperature gas dynamics][book_anderson_hypersonic]\].
 
-**It is also why a scramjet cannot start from a standstill.** There is no machinery to compress anything, so the compression has to be done by going fast, and going fast has to be done by something else.
+**The same reason keeps a scramjet from starting at a standstill.** There is no machinery to compress anything, so the compression has to be done by going fast, and going fast has to be done by something else.
 
 ### The Shape Is the Inlet
 
-**On a hypersonic vehicle the forebody is not in front of the engine. It is part of it.** The compression the engine needs is done by the shock system standing off the underside of the vehicle, and the waverider shape exists so that the shock stays attached to the leading edge and the compressed air stays underneath \[[Cockrell et al 1995][research_waverider_derived_performance]\] \[[Cockrell 1993][research_waverider_cfd_interpretation]\].
+**On a hypersonic vehicle the forebody is part of the engine.** The compression the engine needs is done by the shock system standing off the underside of the vehicle, and the waverider shape exists so that the shock stays attached to the leading edge and the compressed air stays underneath \[[Cockrell et al 1995][research_waverider_derived_performance]\] \[[Cockrell 1993][research_waverider_cfd_interpretation]\].
 
 **The relation governing an attached oblique shock is the theta-beta-Mach relation.**
 
@@ -100,21 +100,21 @@ $$
 \tan \theta = 2 \cot \beta \, \frac{M_1^2 \sin^2 \beta - 1}{M_1^2 (\gamma + \cos 2\beta) + 2}
 $$
 
-**What matters to the flow is not the free-stream Mach number but its component normal to the shock.**
+**The flow responds not to the free-stream Mach number but to its component normal to the shock.**
 
 $$
 M_{n1} = M_1 \sin \beta
 $$
 
-**and it is that component alone which determines the pressure rise.**
+**and that component alone determines the pressure rise.**
 
 $$
 \frac{p_2}{p_1} = 1 + \frac{2 \gamma}{\gamma + 1} \left( M_{n1}^2 - 1 \right)
 $$
 
-**For a given free-stream Mach number and a given wedge angle there are two attached solutions, and the weaker one is the one that occurs in practice**, and above a maximum deflection angle there is no attached solution at all and the shock stands off as a bow wave \[[Anderson, Modern compressible flow][book_anderson_modern]\]. **A waverider is a shape designed backwards from a chosen shock**, which is why the shape is unusual and why it works only near the Mach number it was cut for.
+**For a given free-stream Mach number and a given wedge angle there are two attached solutions, and in practice the weaker one occurs**, and above a maximum deflection angle there is no attached solution at all and the shock stands off as a bow wave \[[Anderson, Modern compressible flow][book_anderson_modern]\]. **A waverider is a shape designed backwards from a chosen shock.** The method makes the shape unusual, and the shape works only near the Mach number it was cut for.
 
-**Putting a scramjet on a waverider is its own literature and it is not a large one** \[[Rasmussen and Soares 1989][research_scramjet_waverider_integration]\] \[[Cockrell 1994][research_waverider_vehicle_integration]\] \[[Chang 1992][research_waverider_viscous_interaction]\].
+**Putting a scramjet on a waverider is a separate and small literature** \[[Rasmussen and Soares 1989][research_scramjet_waverider_integration]\] \[[Cockrell 1994][research_waverider_vehicle_integration]\] \[[Chang 1992][research_waverider_viscous_interaction]\].
 
 **The consequence for the engine is that the inlet has no independent existence.** A change in angle of attack moves the shock, which changes what the inlet swallows, which changes the combustor. **The forebody, the inlet, the combustor and the afterbody nozzle are one device**, and a bookkeeping error in the drag of the first is a bookkeeping error in the thrust of the last \[[Anderson, Modern compressible flow][book_anderson_modern]\] \[[Bertin, Hypersonic aerothermodynamics][book_bertin]\].
 
@@ -128,7 +128,7 @@ $$
 \dot{q} = 1.7415 \times 10^{-4} \sqrt{\frac{\rho}{R_n}} \, V^3
 $$
 
-**The nose radius is not published and a waverider wants it small**, so the result is a range. At the fourth flight's condition, with density 0.1163 kilograms per cubic metre and velocity 1,504.9 metres per second,
+**The nose radius is not published and a waverider wants it small** \[[Boeing X-51, Directory of U.S. Military Rockets and Missiles][ref_x51_designation]\], so the result is a range. At the fourth flight's condition, with density 0.1163 kilograms per cubic metre and velocity 1,504.9 metres per second,
 
 $$
 R_n = 5 \ \mathrm{mm} \Rightarrow \dot{q} = 2.86 \ \mathrm{MW/m^2} \qquad
@@ -141,9 +141,9 @@ $$
 T_{\text{rad}} = \left( \frac{\dot{q}}{\varepsilon \sigma} \right)^{\!1/4}
 $$
 
-**which is 2,545 degrees Celsius for the sharp edge and 1,840 for the blunt one**, taking emissivity as 0.8. **Both are far above the melting range of a nickel superalloy**, which is 1,290 to 1,350 degrees Celsius for INCONEL alloy 625 \[[INCONEL alloy 625, Special Metals Corporation][ref_inconel625]\].
+**giving 2,545 degrees Celsius for the sharp edge and 1,840 for the blunt one**, taking emissivity as 0.8. **Both are far above the melting range of a nickel superalloy**, 1,290 to 1,350 degrees Celsius for INCONEL alloy 625 \[[INCONEL alloy 625, Special Metals Corporation][ref_inconel625]\].
 
-**That is the waverider's central compromise stated as a temperature** \[[Vanmol and Anderson 1992][research_waverider_heat_transfer]\]. The shape wants a sharp leading edge, because a sharp edge is what keeps the shock attached and the compressed air underneath. **The thermal problem wants a blunt one**, because heating goes as the inverse square root of the radius. The vehicle has to be sharp enough to work and blunt enough to survive, and there is no setting of that dial that is comfortable.
+**The two temperatures state the waverider's central compromise** \[[Vanmol and Anderson 1992][research_waverider_heat_transfer]\]. The shape wants a sharp leading edge, because a sharp edge is what keeps the shock attached and the compressed air underneath. **The thermal problem wants a blunt one**, because heating goes as the inverse square root of the radius. The vehicle has to be sharp enough to work and blunt enough to survive, and no setting of that dial is comfortable.
 
 **By that measure the X-43 was far worse off than the X-51.** On velocity alone, the X-43 flying at 2,958.5 metres per second at its Mach number and altitude,
 
@@ -151,7 +151,7 @@ $$
 \frac{\dot{q}_{\text{X-43}}}{\dot{q}_{\text{X-51}}} \approx \left( \frac{2958.5}{1504.9} \right)^{\!3} = 7.60
 $$
 
-**and that is the number a comparison of the two aeroplanes usually stops at.** The X-43 flew hotter. It flew more than three times hotter in stagnation temperature and more than seven times harder in heating rate.
+**and a comparison of the two aeroplanes usually stops at that number.** The X-43 flew hotter. It flew more than three times hotter in stagnation temperature and more than seven times harder in heating rate.
 
 **But heat is not a rate. It is the integral of a rate.**
 
@@ -165,9 +165,9 @@ $$
 \frac{Q_{\text{X-51}}}{Q_{\text{X-43}}} = \frac{19.1}{7.60} = 2.51
 $$
 
-**The slower aeroplane absorbed more than two and a half times as much heat.** That is the sentence the whole programme is about, and it is why an eleven second flight and a two hundred and ten second flight are not the same experiment conducted for different lengths of time. **They are different experiments.**
+**The slower aeroplane absorbed more than two and a half times as much heat.** The programme turns on that sentence. It means that an eleven second flight and a two hundred and ten second flight are not the same experiment conducted for different lengths of time. **They are different experiments.**
 
-**The reason is that heat has to get into the structure, and how far it gets depends on the square root of time.** The diffusion length for a solid of thermal diffusivity $\alpha$ after a time $t$ is
+**Heat has to get into the structure, and how far it gets depends on the square root of time.** The diffusion length for a solid of thermal diffusivity $\alpha$ after a time $t$ is
 
 $$
 \delta \approx \sqrt{\alpha t}
@@ -186,23 +186,23 @@ $$
 \frac{\delta_{\text{X-51}}}{\delta_{\text{X-43}}} = \sqrt{\frac{210}{11}} = 4.37
 $$
 
-**Six millimetres is a skin. Twenty-seven millimetres is not something an aeroplane can carry as dead mass**, and the difference is the whole distinction between the two experiments.
+**Six millimetres is a skin. Twenty-seven millimetres is not something an aeroplane can carry as dead mass**, and that difference separates the two experiments.
 
 **A short flight is a structures problem you can solve with heat capacity.** Put enough mass in the leading edge and the heat will not have reached the far side of it before the flight is over. **A long flight is a heat transfer problem** \[[Schlichting and Gersten, Boundary-layer theory][book_schlichting]\], because the heat arrives at the far side, the structure comes into equilibrium, and the energy has to go somewhere other than into the metal.
 
-**That is why the actively cooled structural panel has its own literature and why it dates from the 1970s** \[[Koch and Pagel 1978][research_cooled_honeycomb_panel]\] \[[Smith and Beuyukian 1979][research_cooled_plate_fin_panel]\] \[[Ellis et al 1978][research_radiative_cooled_panel]\].
+**Hence the actively cooled structural panel became a research subject, and its literature dates from the 1970s** \[[Koch and Pagel 1978][research_cooled_honeycomb_panel]\] \[[Smith and Beuyukian 1979][research_cooled_plate_fin_panel]\] \[[Ellis et al 1978][research_radiative_cooled_panel]\].
 
 ## Dependent Systems
 
-**The engine under test could not start itself, reach its own operating point or cool itself, and each of those functions was supplied by another system.** A B-52 carried the vehicle to about fifty thousand feet, a surplus Army rocket motor accelerated it to about Mach 4.8, and the 270 pounds of Jet Propellant 7, JP-7, aboard was both the fuel and the only heat sink. **Those dependencies are the subject of this section's two subsections.** The seal, the inlet and the fin latch that ended three of the four flights are taken in the section headed The Flight Test Record, and the section headed What the Data Changed draws the conclusion that the flights were ended by what surrounded the combustion rather than by the combustion.
+**The engine under test could not start itself, reach its operating point or cool itself, and each of those functions was supplied by another system.** A B-52 carried the vehicle to about fifty thousand feet, a surplus Army rocket motor accelerated it to about Mach 4.8, and the 270 pounds of Jet Propellant 7, JP-7, aboard was both the fuel and the coolant of the engine \[[Boeing X-51, Directory of U.S. Military Rockets and Missiles][ref_x51_designation]\] \[[Boeing X-51A WaveRider sets record with successful fourth flight][ref_boeing_fourth_flight]\] \[[Boeing X-51 Waverider][ref_x51_wikipedia]\] \[[Boeing X-51A WaveRider breaks record in first flight][ref_boeing_first_flight]\]. **Those dependencies are the subject of this section's two subsections.** The seal, the inlet and the fin latch that ended three of the four flights are taken under The Flight Test Record, and What the Data Changed concludes that the flights were ended by what surrounded the combustion and never by the combustion.
 
 ### Something Else Did Most of the Work
 
 **The X-51A was carried to about fifty thousand feet under the wing of a B-52 and dropped.** A surplus rocket motor from an Army tactical missile then accelerated it to about Mach 4.8 in twenty-six seconds \[[MGM-140 ATACMS][ref_atacms]\] \[[Boeing X-51A WaveRider sets record with successful fourth flight][ref_boeing_fourth_flight]\] \[[X-51 scramjet engine demonstrator, GlobalSecurity][ref_x51_globalsecurity]\].
 
-**At that point the booster fell away and the scramjet lit, and took the vehicle from Mach 4.8 to Mach 5.1.**
+**At that point the booster fell away and the scramjet lit, and took the vehicle from Mach 4.8 to Mach 5.1** \[[Boeing X-51A WaveRider sets record with successful fourth flight][ref_boeing_fourth_flight]\].
 
-**The arithmetic of that is worth doing plainly.** Kinetic energy goes as the square of speed, so the share of the final energy each stage supplied is
+**The arithmetic is short.** Kinetic energy goes as the square of speed, so the share of the final energy each stage supplied is
 
 $$
 \frac{E_{\text{boost}}}{E_{\text{cruise}}} = \left( \frac{V_{\text{boost}}}{V_{\text{cruise}}} \right)^{\!2}
@@ -217,11 +217,11 @@ $$
 
 **times as long to do an eighth as much.**
 
-**This is not an indictment and the article will not pretend it is.** A cruise engine is not an accelerator, and the X-51A was demonstrating cruise. **But it does say what the vehicle was**, and it makes the eventual operational question visible, which is that an air-breathing engine which adds about eleven percent of the energy still needs a rocket to reach its own operating point.
+**A cruise engine is not an accelerator**, and the X-51A was demonstrating cruise. **The split does show what the vehicle was**, and it exposes the eventual operational question. An air-breathing engine that adds about eleven percent of the energy still needs a rocket to reach its own operating point.
 
 ### Where the Heat Went, and What It Cost
 
-**It went into the fuel.** The X-51A's engine was fuel-cooled \[[X-51 scramjet engine demonstrator, GlobalSecurity][ref_x51_globalsecurity]\], its JP-7 passing through the walls of the engine before being injected \[[Jp-7][ref_jp7]\], so the fuel cooled the structure and was itself heated and cracked on the way. **Cracking a heavy hydrocarbon into lighter fragments absorbs energy** \[[Hill and Peterson, Mechanics and thermodynamics of propulsion][book_hill_peterson]\] \[[Glassman 1998][research_supercritical_pyrolysis]\], which is why the fuel is described as endothermic, and the cracked products shorten the ignition delay in the combustor \[[Dinda et al 2021][research_dinda_vuchuru_2021]\].
+**It went into the fuel.** The X-51A's engine was fuel-cooled \[[X-51 scramjet engine demonstrator, GlobalSecurity][ref_x51_globalsecurity]\], its JP-7 passing through the walls of the engine before being injected \[[Jp-7][ref_jp7]\], so the fuel cooled the structure and was itself heated and cracked on the way. **Cracking a heavy hydrocarbon into lighter fragments absorbs energy** \[[Hill and Peterson, Mechanics and thermodynamics of propulsion][book_hill_peterson]\] \[[Glassman 1998][research_supercritical_pyrolysis]\]. The fuel is called endothermic for that reason, and the cracked products shorten the ignition delay in the combustor \[[Dinda et al 2021][research_dinda_vuchuru_2021]\].
 
 **One tank did two jobs.** The vehicle carried 270 pounds of JP-7 \[[Boeing X-51 Waverider][ref_x51_wikipedia]\], which is
 
@@ -229,15 +229,15 @@ $$
 \frac{270}{4000} = 6.75\%
 $$
 
-**of its empty weight**, and that same 270 pounds was the entire heat sink aboard. **There was no other coolant and no other energy supply.**
+**of its empty weight**, and that same 270 pounds was the engine's coolant \[[Boeing X-51A WaveRider breaks record in first flight][ref_boeing_first_flight]\].
 
-**The fourth flight burned the tank dry and stopped because it did** \[[Boeing X-51A WaveRider sets record with successful fourth flight][ref_boeing_fourth_flight]\], so its average consumption is a real measurement rather than an assumption.
+**The fourth flight burned the tank dry and stopped because it did** \[[Boeing X-51A WaveRider sets record with successful fourth flight][ref_boeing_fourth_flight]\], so its average consumption is measured.
 
 $$
 \dot{m}_f = \frac{270}{210} = 1.286 \ \mathrm{lb/s}
 $$
 
-**The cooling that buys is finite and computable.** Taking the physical and endothermic heat sink of a cracked hydrocarbon fuel at 2,500 to 3,500 kilojoules per kilogram, which a review of the endothermic fuel literature gives for fuels of eight to fifteen carbon atoms and which is 1,075 to 1,505 British thermal units per pound \[[Dinda et al 2021][research_dinda_vuchuru_2021]\] \[[Petley and Jones 1990][research_endothermic_mach5]\] \[[Morris et al 2002][research_heat_sink_fuel_protocol]\], the cooling power available while the engine runs is
+**The cooling that fuel flow provides is finite and computable.** Taking the physical and endothermic heat sink of a cracked hydrocarbon fuel at 2,500 to 3,500 kilojoules per kilogram, which a review of the endothermic fuel literature gives for fuels of eight to fifteen carbon atoms, or 1,075 to 1,505 British thermal units per pound \[[Dinda et al 2021][research_dinda_vuchuru_2021]\] \[[Petley and Jones 1990][research_endothermic_mach5]\] \[[Morris et al 2002][research_heat_sink_fuel_protocol]\], the cooling power available while the engine runs is
 
 $$
 P_{\text{cool}} = \dot{m}_f \, h_{\text{sink}} = 1.286 \times (1075 \ \text{to} \ 1505) = 1{,}382 \ \text{to} \ 1{,}935 \ \mathrm{Btu/s}
@@ -245,7 +245,7 @@ $$
 
 **being between 1,458 and 2,041 kilowatts.**
 
-**And here is the coupling that makes the configuration hard.** The same fuel releases at least 18,700 British thermal units per pound when burned, which is the minimum net heat of combustion its specification sets \[[Jp-7][ref_jp7]\], so the heat it can absorb is
+**Here is the coupling that makes the configuration hard.** The same fuel releases at least 18,700 British thermal units per pound when burned, the minimum net heat of combustion its specification sets \[[Jp-7][ref_jp7]\], so the heat it can absorb is
 
 $$
 \frac{h_{\text{sink}}}{h_{\text{combustion}}} = \frac{1075 \ \text{to} \ 1505}{18700} = 5.7\% \ \text{to} \ 8.0\%
@@ -255,11 +255,11 @@ $$
 
 ## The Flight Test Record
 
-**The X-51A flew four times between 26 May 2010 and 1 May 2013, and only the first and fourth flights sustained scramjet operation.** Every vehicle ended in the Pacific, so the record is what the telemetry returned and what the programme announced \[[Boeing X-51 Waverider][ref_x51_wikipedia]\] \[[Boeing X-51A WaveRider sets record with successful fourth flight][ref_boeing_fourth_flight]\]. Its subsections take the three flights that ended early in date order, then a table of all four, then what the fourth flight's published numbers imply about the engine.
+**The X-51A flew four times between 26 May 2010 and 1 May 2013, and only the first and fourth flights sustained scramjet operation.** Every vehicle ended in the Pacific, so the record consists of what the telemetry returned and what the programme announced \[[Boeing X-51 Waverider][ref_x51_wikipedia]\] \[[Boeing X-51A WaveRider sets record with successful fourth flight][ref_boeing_fourth_flight]\]. Its subsections take the three flights that ended early in date order, then a table of all four, then what the fourth flight's published numbers imply about the engine.
 
 ### The First Flight Ended at a Seal
 
-**On 26 May 2010 the first vehicle reached Mach 5 at seventy thousand feet and ran its engine for 143 seconds, about ten times longer than any scramjet had flown before** \[[X-51 scramjet engine demonstrator, GlobalSecurity][ref_x51_globalsecurity]\]. The manufacturer's release on the day gave more than two hundred seconds of powered flight \[[Boeing X-51A WaveRider breaks record in first flight][ref_boeing_first_flight]\], and another account gives 140 seconds under scramjet power \[[Boeing X-51 Waverider][ref_x51_wikipedia]\], so the engine time is the later figure and not the first one announced. It was cut short by a thermal seal breach at the engine interface, which let hot gas that should have been making thrust leak into the rear of the vehicle \[[X-51 scramjet engine demonstrator, GlobalSecurity][ref_x51_globalsecurity]\].
+**On 26 May 2010 the first vehicle reached Mach 5 at seventy thousand feet and ran its engine for 143 seconds, about ten times longer than any scramjet had flown before** \[[X-51 scramjet engine demonstrator, GlobalSecurity][ref_x51_globalsecurity]\] \[[Boeing X-51A WaveRider breaks record in first flight][ref_boeing_first_flight]\]. The manufacturer's release on the day gave more than two hundred seconds of powered flight \[[Boeing X-51A WaveRider breaks record in first flight][ref_boeing_first_flight]\], and another account gives 140 seconds under scramjet power \[[Boeing X-51 Waverider][ref_x51_wikipedia]\], so the engine time is the later figure and not the first one announced. It was cut short by a thermal seal breach at the engine interface, which let hot gas that should have been making thrust leak into the rear of the vehicle \[[X-51 scramjet engine demonstrator, GlobalSecurity][ref_x51_globalsecurity]\].
 
 **The engine grows about three quarters of an inch when it comes up to temperature** \[[X-51 scramjet engine demonstrator, GlobalSecurity][ref_x51_globalsecurity]\]. Against a vehicle twenty-five feet long \[[Boeing X-51 Waverider][ref_x51_wikipedia]\] that is
 
@@ -267,9 +267,9 @@ $$
 \frac{0.75}{300} = 0.25\%
 $$
 
-**of the overall length**, and a seal at that interface has to stay sealed across the whole of it while hot gas is on one side.
+**of the overall length**, and a seal at that interface has to stay sealed through that growth while hot gas is on one side.
 
-**The engine's own length is not published, and the growth implies it.** Thermal expansion is
+**The engine's length is not published, and the growth implies it** \[[Boeing X-51, Directory of U.S. Military Rockets and Missiles][ref_x51_designation]\]. Thermal expansion is
 
 $$
 \Delta L = \alpha L \, \Delta T
@@ -281,13 +281,13 @@ $$
 L = \frac{\Delta L}{\alpha \, \Delta T} = \frac{0.75}{(15.6 \times 10^{-6})(800)} = 60 \ \mathrm{in} = 5.0 \ \mathrm{ft}
 $$
 
-**which is a plausible engine for a twenty-five foot vehicle**, and is offered as a consistency check on the published growth rather than as a measurement of anything.
+**a plausible engine for a twenty-five foot vehicle**, offered as a consistency check on the published growth rather than as a measurement of anything.
 
-**A scramjet has no moving parts and this is what replaces them.** The absence of a compressor and a turbine is the configuration's chief virtue, and what it substitutes is a structure that changes shape by a quarter of a percent while carrying a temperature difference of a thousand degrees, at every joint, for as long as the flight lasts. **That is a duration problem and it does not appear in an eleven second flight at all.**
+**A scramjet has no moving parts and this is what replaces them.** The absence of a compressor and a turbine is the configuration's chief virtue, and what it substitutes is a structure that changes shape by a quarter of a percent while carrying a temperature difference of a thousand degrees, at every joint, for as long as the flight lasts. **The problem is one of duration, and an eleven second flight never meets it.**
 
 ### The Second Flight Died at the Inlet
 
-**On 13 June 2011 the second vehicle suffered an inlet unstart after booster separation.** The engine lit on ethylene, which is the easily ignited starting fuel, and did not transition to JP-7 \[[Boeing X-51 Waverider][ref_x51_wikipedia]\].
+**On 13 June 2011 the second vehicle suffered an inlet unstart after booster separation.** The engine lit on ethylene, the easily ignited starting fuel, and did not transition to JP-7 \[[Boeing X-51 Waverider][ref_x51_wikipedia]\].
 
 **An unstart is the inlet ceasing to swallow the flow it was built to swallow.** The internal contraction of a supersonic inlet can only be so large before the shock system cannot be pushed inside it, and past that limit the shock is expelled forwards, the captured mass flow collapses, and the pressure rise propagates upstream in a fraction of a second \[[Holland 1994][research_inlet_unstart_model]\] \[[Foster et al 2012][research_inlet_mode_transition]\].
 
@@ -303,15 +303,15 @@ $$
 \frac{A_{th}}{A_i} \ \geq \ \frac{1}{(p_{02}/p_{01}) \, (A/A^*)_{M_1}} = 0.646
 $$
 
-**so the throat cannot be smaller than about two thirds of the capture area, and the internal contraction cannot exceed about 1.55.** A designer wanting more compression than that has to get it outside the inlet, on the forebody, which is the other reason this vehicle is shaped the way it is.
+**so the throat cannot be smaller than about two thirds of the capture area, and the internal contraction cannot exceed about 1.55.** A designer wanting more compression than that has to get it outside the inlet, on the forebody, and that requirement is the other reason for this vehicle's shape.
 
-**There is a second way to unstart an engine and it comes from the back.** Adding heat to a duct drives the flow towards Mach one whichever side of it the flow starts on, which is Rayleigh flow, and enough heat release chokes the duct thermally \[[Anderson, Modern compressible flow][book_anderson_modern]\]. **A thermal choke is a pressure rise that travels forwards**, and the transition from a light starting fuel to the real fuel is exactly a change in how much heat is being released and where.
+**There is a second way to unstart an engine and it comes from the back.** Adding heat to a duct drives the flow towards Mach one whichever side of it the flow starts on. This is Rayleigh flow, and enough heat release chokes the duct thermally \[[Anderson, Modern compressible flow][book_anderson_modern]\]. **A thermal choke is a pressure rise that travels forwards**, and the transition from a light starting fuel to the real fuel changes how much heat is released and where.
 
-**The isolator exists to hold that off.** It is a constant-area duct between inlet and combustor whose job is to contain a shock train, so that the pressure rise from combustion has somewhere to sit without reaching the inlet throat \[[Heiser and Pratt, Hypersonic airbreathing propulsion][book_heiser_pratt]\]. **Its length is a design margin against the engine unstarting itself**, and the fuel transition the second flight failed at is precisely a change in that pressure rise.
+**The isolator exists to hold that off.** It is a constant-area duct between inlet and combustor whose job is to contain a shock train, so that the pressure rise from combustion has somewhere to sit without reaching the inlet throat \[[Heiser and Pratt, Hypersonic airbreathing propulsion][book_heiser_pratt]\]. **Its length is a design margin against the engine unstarting itself**, and the fuel transition at which the second flight failed changes exactly that pressure rise.
 
 ### The Third Flight Ended at a Latch
 
-**On 14 August 2012 the third vehicle was lost when an upper right control fin unlocked in flight.** The vehicle became uncontrollable and was destroyed.
+**On 14 August 2012 the third vehicle was lost when an upper right control fin unlocked in flight.** The vehicle became uncontrollable and was destroyed \[[Boeing X-51 Waverider][ref_x51_wikipedia]\] \[[X-51 scramjet engine demonstrator, GlobalSecurity][ref_x51_globalsecurity]\].
 
 **A fin unlocked.** Not an unstart, not a flameout, not a thermal failure of the flowpath. A control surface that was supposed to be held in place was not held in place \[[Boeing X-51 Waverider][ref_x51_wikipedia]\].
 
@@ -336,9 +336,9 @@ $$
 
 ### What the Flight Says About the Engine
 
-**The programme published no thrust, no specific impulse and no lift-to-drag ratio** \[[Boeing X-51, Directory of U.S. Military Rockets and Missiles][ref_x51_designation]\]. It published a burn time, a fuel load, two Mach numbers and an altitude, and those are enough to bound the rest.
+**The sources cited here give no thrust, no specific impulse and no lift-to-drag ratio** \[[Boeing X-51, Directory of U.S. Military Rockets and Missiles][ref_x51_designation]\]. The programme published a burn time, a fuel load, two Mach numbers and an altitude, and those are enough to bound the rest.
 
-**Start with what the fuel implies about the air.** A kerosene-class fuel burns stoichiometrically at about 0.0682 pounds of fuel per pound of air, which is what the oxygen demand of a hydrocarbon of average formula $\mathrm{C_{12}H_{23}}$ gives with oxygen at 23.14 percent of air by mass, so at an equivalence ratio of one the engine was swallowing
+**Start with what the fuel implies about the air.** A kerosene-class fuel burns stoichiometrically at about 0.0682 pounds of fuel per pound of air, the ratio that the oxygen demand of a hydrocarbon of average formula $\mathrm{C_{12}H_{23}}$ gives with oxygen at 23.14 percent of air by mass, so at an equivalence ratio of one the engine was swallowing
 
 $$
 \dot{m}_{\text{air}} = \frac{\dot{m}_f}{\phi \, f_{\text{st}}} = \frac{1.286}{0.0682} = 18.9 \ \mathrm{lb/s}
@@ -354,7 +354,7 @@ $$
 R = V \, I_{sp} \, \frac{L}{D} \, \ln \frac{W_0}{W_1}
 $$
 
-**The vehicle carried 270 pounds of fuel on a 4,000 pound empty weight**, so the mass ratio is 1.0675 and its logarithm is 0.0653. The powered distance is the cruise speed multiplied by the burn time,
+**The vehicle carried 270 pounds of fuel on a 4,000 pound empty weight** \[[Boeing X-51 Waverider][ref_x51_wikipedia]\], so the mass ratio is 1.0675 and its logarithm is 0.0653. The powered distance is the cruise speed multiplied by the burn time,
 
 $$
 R = (1504.9)(210) = 316 \ \mathrm{km} = 171 \ \mathrm{nmi}
@@ -368,7 +368,7 @@ $$
 
 **The programme published neither factor and the flight cannot separate them.** At a lift-to-drag ratio of 3 the specific impulse is 1,072 seconds. At 2 it is 1,607 and at 4 it is 804.
 
-**And now the number that matters.** The vehicle accelerated from Mach 4.8 to Mach 5.1 over the 210 seconds, so the net force it averaged was
+**The acceleration gives the more telling number.** The vehicle accelerated from Mach 4.8 to Mach 5.1 over the 210 seconds, so the net force it averaged was
 
 $$
 F_{\text{net}} = \frac{m \, \Delta(\tfrac{1}{2} V^2)}{t \, V} = 167 \ \mathrm{lbf}
@@ -388,23 +388,23 @@ $$
 \frac{I_{sp,\text{net}}}{I_{sp}} = 8.1\% \ \text{to} \ 16.1\%
 $$
 
-**Between 84 and 92 percent of what the engine made went into pushing the vehicle through the air rather than into speeding it up.** That is not an unusual figure for a cruise vehicle, which by definition is spending its thrust on drag. **It is stated here because it is the same finding as the rest of the article seen from the propulsion side**, which is that the engine was not the marginal component.
+**Between 84 and 92 percent of what the engine made went into pushing the vehicle through the air rather than into speeding it up.** Such a figure is ordinary for a cruise vehicle, which by definition is spending its thrust on drag. **The figure is stated here because it repeats the article's finding from the propulsion side**, that the engine was not the marginal component.
 
 ## Comparison With Ground Prediction
 
-**The programme published almost nothing that it predicted before flight, so the comparison this record supports is narrow, and most of it is a comparison with a target rather than with a measurement.** No thrust, no specific impulse, no lift-to-drag ratio and no internal flowpath geometry were released, so there is no ground prediction of engine performance against which the four flights can be set.
+**The programme published almost nothing that it predicted before flight, so the comparison this record supports is narrow, and most of it is a comparison with a target rather than with a measurement.** No thrust, no specific impulse, no lift-to-drag ratio and no internal flowpath geometry appear in the sources cited here, so there is no ground prediction of engine performance against which the four flights can be set.
 
-**The one stated target is the burn time, and flight fell short of it.** The programme aimed at a three hundred second burn \[[Boeing X-51 Waverider][ref_x51_wikipedia]\], the first flight reached 143 seconds and the fourth reached 210, and the subsection headed The Fuel Ran Out Before the Clock Did shows that the 270 pound tank could not have supplied three hundred seconds at the fuel flow the fourth flight actually used. **That is a disagreement between the target and the tank, and only a flight that burned the tank dry could expose it.** One account describes the vehicle's fuel as a 240 second supply \[[X-51 scramjet engine demonstrator, GlobalSecurity][ref_x51_globalsecurity]\], which is itself shorter than the target.
+**The one stated target is the burn time, and flight fell short of it.** The programme aimed at a three hundred second burn \[[Boeing X-51 Waverider][ref_x51_wikipedia]\], the first flight reached 143 seconds and the fourth reached 210, and the subsection below shows that the 270 pound tank could not have supplied three hundred seconds at the fuel flow the fourth flight used. **The target and the tank disagreed, and only a flight that burned the tank dry could expose it.** One account describes the vehicle's fuel as a 240 second supply \[[X-51 scramjet engine demonstrator, GlobalSecurity][ref_x51_globalsecurity]\], a figure also shorter than the target.
 
-**The ground facilities could not reproduce the flight gas, and that is why the flights were needed.** As the section headed What the Data Changed records, a combustion-heated facility changes the composition of the gas the engine breathes and an open-jet facility interacts with its model \[[Andrews et al 1985][research_langley_mach4_facility]\] \[[Albertson and Emami 2001][research_facility_engine_interaction]\]. Flight returned what the tunnels could not, which is that a hydrocarbon-fuelled scramjet runs for 210 seconds at Mach 5 cooled by its own fuel, and on no flight was the combustion the limiting item.
+**The ground facilities could not reproduce the flight gas, which made the flights necessary.** As What the Data Changed records below, a combustion-heated facility changes the composition of the gas the engine breathes and an open-jet facility interacts with its model \[[Andrews et al 1985][research_langley_mach4_facility]\] \[[Albertson and Emami 2001][research_facility_engine_interaction]\]. Flight returned what the tunnels could not. A hydrocarbon-fuelled scramjet runs for 210 seconds at Mach 5 with its fuel as coolant, and on no flight did the combustion fail \[[Boeing X-51A WaveRider sets record with successful fourth flight][ref_boeing_fourth_flight]\] \[[Boeing X-51A WaveRider breaks record in first flight][ref_boeing_first_flight]\].
 
-**The article's own first-principles figures are not predictions of this vehicle and cannot be scored against it.** The Kantrowitz limit of about two thirds of the capture area bounds any fixed-geometry inlet at Mach 5.1, but no inlet contraction ratio was published, so the second flight's unstart cannot be set against it. The three quarters of an inch of engine growth is a published figure, and the article does not record whether it came from ground test or from flight, only that the seal at that interface was breached on the first flight. The heat flux, radiation temperatures and penetration depths in the subsection headed Heat Is a Rate, and Duration Turns It Into a Load rest on a nose radius and material properties the programme never published.
+**The article's first-principles figures are not predictions of this vehicle and cannot be scored against it.** The Kantrowitz limit of about two thirds of the capture area bounds any fixed-geometry inlet at Mach 5.1, but no inlet contraction ratio was published, so the second flight's unstart cannot be set against it. The three quarters of an inch of engine growth is a published figure, and the article does not record whether it came from ground test or from flight, only that the seal at that interface was breached on the first flight. The heat flux, radiation temperatures and penetration depths in the subsection headed Heat Is a Rate, and Duration Turns It Into a Load rest on a nose radius and material properties the programme never published.
 
-**What flight did return about the engine is a bound rather than a check.** The subsection headed What the Flight Says About the Engine derives from the fourth flight a product of specific impulse and lift-to-drag ratio of 3,215 and a net specific impulse of 130 seconds, and those are the only engine performance figures this article can state. **They have no published ground counterpart, so they measure the vehicle and test no prediction of it.**
+**What flight did return about the engine is a bound rather than a check.** The earlier subsection on what the flight says about the engine derives from the fourth flight a product of specific impulse and lift-to-drag ratio of 3,215 and a net specific impulse of 130 seconds, and those are the only engine performance figures this article can state. **They have no published ground counterpart, so they measure the vehicle and test no prediction of it.**
 
 ### The Fuel Ran Out Before the Clock Did
 
-**The programme's target was a three hundred second burn and no flight achieved it.** The first reached 143 seconds and the fourth reached 210, being
+**The programme's target was a three hundred second burn and no flight achieved it** \[[Boeing X-51 Waverider][ref_x51_wikipedia]\]. The first reached 143 seconds and the fourth reached 210, being
 
 $$
 \frac{143}{300} = 47.7\% \qquad \frac{210}{300} = 70.0\%
@@ -416,17 +416,17 @@ $$
 m_f = \dot{m}_f \, t = 1.286 \times 300 = 385.7 \ \mathrm{lb}
 $$
 
-**which is 42.9 percent more fuel than the vehicle carried.** The 300 second goal and the 270 pound tank were not compatible at the flow rate the engine actually used. **The article does not know which of the two was the later number**, and notes only that the flight which succeeded ran the tank dry rather than running out of objectives.
+**which is 42.9 percent more fuel than the vehicle carried.** The 300 second goal and the 270 pound tank were not compatible at the flow rate the engine used. **The article does not know which of the two was the later number**, and notes only that the flight which succeeded ran the tank dry rather than running out of objectives.
 
-## What the Data Changed, What the Programme Actually Established
+## What the Data Changed
 
-**The programme established that a hydrocarbon-fuelled scramjet will run for two hundred and ten seconds at Mach 5 in flight, cooled by its own fuel, and that is a genuine and substantial result.** No vehicle had done it before, and the manufacturer announced it as the longest scramjet-powered hypersonic flight in history \[[Boeing X-51A WaveRider sets record with successful fourth flight][ref_boeing_fourth_flight]\].
+**The programme established that a hydrocarbon-fuelled scramjet will run for two hundred and ten seconds at Mach 5 in flight, cooled by its own fuel.** No vehicle had done it before, and the manufacturer announced it as the longest scramjet-powered hypersonic flight in history \[[Boeing X-51A WaveRider sets record with successful fourth flight][ref_boeing_fourth_flight]\].
 
 **That it had to be established in flight at all is a fact about ground facilities.** A combustion-heated facility supplies the enthalpy by burning something, which changes the composition of the gas the engine is asked to breathe, and an open-jet facility interacts with the model it contains \[[Andrews et al 1985][research_langley_mach4_facility]\] \[[Albertson and Emami 2001][research_facility_engine_interaction]\] \[[Voland et al 1999][research_voland_auslender_1999]\]. **A tunnel that reproduces the Mach number does not reproduce the enthalpy, or reproduces it with the wrong gas**, and there is no arrangement of valves that fixes that.
 
-**It also established, without setting out to, where the difficulty in such a vehicle actually lives.** Of the four flights, one was ended by a seal, one by an inlet and a fuel transition, one by a latch, and one by the fuel running out as intended. **The combustion process the programme existed to demonstrate was never the limiting item on any flight.**
+**It also established, without setting out to, where the difficulty in such a vehicle lies.** Of the four flights, one was ended by a seal, one by an inlet and a fuel transition, one by a latch, and one by the fuel running out as intended \[[Boeing X-51 Waverider][ref_x51_wikipedia]\] \[[X-51 scramjet engine demonstrator, GlobalSecurity][ref_x51_globalsecurity]\]. **The combustion process the programme existed to demonstrate was never the limiting item on any flight.**
 
-**That is the finding, and it is a finding about maturity rather than about failure.** A discipline in which the exotic component works and the ordinary components do not is a discipline whose exotic component has stopped being the constraint. **That is not the same as saying it is solved**, and the article does not say so, because two hundred and ten seconds is three and a half minutes and nothing in this record speaks to the hours an aircraft would need.
+**The finding concerns maturity rather than failure.** A discipline in which the exotic component works and the ordinary components do not is a discipline whose exotic component has stopped being the constraint. **Maturity in this sense does not mean the problem is solved**, and the article does not claim it, because two hundred and ten seconds is three and a half minutes and an aircraft would need hours.
 
 ## The Contemporary Literature
 
@@ -514,7 +514,7 @@ $$
 
 **212 records.** \[[Aircraft Thermal Management System][research_aircraft_thermal]\] \[[Appeldoorn and Tao 1966][research_appeldoorn_tao_1966]\] \[[Appeldoorn and Tao 1967][research_appeldoorn_tao_1967]\] \[[Balland et al 2015][research_balland_fernandezvillace_2015]\] \[[Barsness and Bertram 1959][research_barsness_bertram_1959]\] \[[Bates et al 2004][research_bates_maas_2004]\] \[[Beaver 1993][research_beaver_1993]\] \[[Beery et al 1975][research_beery_clodfelter_1975]\] \[[Bejan 2010][research_bejan_2010]\] \[[Bergholz and Hitch 1992][research_bergholz_hitch_1992]\] \[[Bessee et al 2012][research_bessee_wilson_2012]\] \[[Billingsley et al 2010][research_billingsley_edwards_2010]\] \[[Bouchez and Beyer 2008][research_bouchez_beyer_2008]\] \[[Bouchez et al 1998][research_bouchez_montazel_1998]\] \[[Browne et al 2021][research_browne_rasmussen_2021]\] \[[Browne et al 2012][research_brownesamueltucker_wonghubert_2012]\] \[[Bucher and Bradley 1975][research_bucher_bradley_1975]\] \[[Cao et al 2022][research_cao_lee_2022]\] \[[Capparelli et al 2026][research_capparelli_unternbaumen_2026]\] \[[Castaldi et al 2006][research_castaldi_leylegian_2006]\] \[[Chow et al 2012][research_chow_wu_2012]\] \[[Colbert and Nowack 2000][research_colbert_nowack_2000]\] \[[Cox and Bobula 2015][research_cox_bobula_2015]\] \[[Crachi et al 2024][research_crachi_pizzarelli_2024]\] \[[Dai et al 2024][research_dai_li_2024]\] \[[Darrah 1988][research_darrah_1988]\] \[[Dinda et al 2021][research_dinda_vuchuru_2021]\] \[[Duvall et al 1985][research_duvall_hale_1985]\] \[[Edwards et al 2006][research_edwards_dewitt_2006]\] \[[Edwards et al 2024][research_edwards_arbolino_2024]\] \[[Endothermic Reactions][research_endothermic_reactions]\] \[[Endothermic Reactions 2006][research_endothermic_reactions_2006]\] \[[Eser et al 1990][research_eser_song_1990]\] \[[Felderman et al 2003][research_felderman_shope_2003]\] \[[Fischer 2006][research_fischer_2006]\] \[[Frederick 1987][research_frederick_1987]\] \[[Glassman 1998][research_supercritical_pyrolysis]\] \[[Fuels for Hypersonic Air-Breathing 2022][research_fuels_for_2022]\] \[[Gao et al 2024][research_gao_sun_2024]\] \[[Gasner et al 1992][research_gasner_foster_1992]\] \[[George 1963][research_george_1963]\] \[[Glickstein and Spadaccini 1998][research_glicksteinmarvinr_spadaccinilouisj_1998]\] \[[Guffey and Hunter 1990][research_guffey_hunter_1990]\] \[[Guo et al 2022][research_guo_pang_2022]\] \[[Guo et al 2023][research_guo_pang_2023]\] \[[Guoliang et al 2017][research_guoliang_cong_2017]\] \[[He et al 2015][research_he_li_2015]\] \[[Heat transfer to endothermic 1991][research_heat_transfer_1991]\] \[[Heinrich et al 2001][research_heinrich_lucbouhali_2001]\] \[[Holography of JP-4 Droplets 1974][research_holography_of_1974]\] \[[Huang and Spadaccini 2001][research_huang_spadaccini_2001]\] \[[Huang et al 2002][research_huang_spadaccini_2002_b]\] \[[Huang et al 2012][research_huang_tang_2012]\] \[[Huang et al 2022][research_huang_liu_2022]\] \[[Hui-Sheng and Bei-Jing 2021][research_huisheng_beijing_2021]\] \[[Impact of Copper Contamination][research_impact_of]\] \[[Investigation of bubble-point vapor 2005][research_investigation_of_2005]\] \[[Jackson et al 1995][research_jackson_corporan_1995]\] \[[Jasa et al 2018][research_jasa_mader_2018]\] \[[Jeon and Park 2023][research_jeon_park_2023]\] \[[Jeyashekar et al 2010][research_jeyashekar_muzzell_2010]\] \[[Jiang et al 2021][research_jiang_liu_2021]\] \[[Jing et al 2023][research_jing_zhang_2023]\] \[[Johnson et al 2015][research_johnson_niedbalski_2015]\] \[[Johnson et al 2017][research_johnson_niedbalski_2017]\] \[[Johnston et al 1970][research_johnston_monita_1970]\] \[[Kalyan et al 2022][research_kalyan_konda_2022]\] \[[Kanda et al 1994][research_kanda_masuya_1994]\] \[[Kang and Sun 2011][research_kang_sun_2011]\] \[[Kellermann et al 2020][research_kellermann_habermann_2020]\] \[[Kittredge et al 1961][research_kittredge_streets_1961]\] \[[Korabelnikov and Kuranov 2002][research_korabelnikov_kuranov_2002]\] \[[Korabelnikov and Kuranov 2005][research_korabelnikov_kuranov_2005]\] \[[Kose and Celik 2023][research_kose_celik_2023]\] \[[Krause et al 1991][research_krause_hartmann_1991]\] \[[Kuranov et al 2012][research_kuranov_korabelnikov_2012]\] \[[Kuranov et al 2016][research_kuranov_korabelnikov_2016]\] \[[Kuranov et al 2017][research_kuranov_korabelnikov_2017]\] \[[Lander 1968][research_lander_1968]\] \[[Leonard and Hardy 2000][research_leonard_hardy_2000]\] \[[Levikhin and Musteikis 2025][research_levikhin_musteikis_2025]\] \[[Lewis 2001][research_lewis_2001]\] \[[Li et al 2019][research_li_qin_2019]\] \[[Li et al 2021][research_li_guo_2021]\] \[[Li et al 2021][research_li_hang_2021]\] \[[Li et al 2021][research_li_jin_2021]\] \[[Li et al 2021][research_li_wang_2021]\] \[[Li et al 2026][research_li_ling_2026]\] \[[Lillis 1987][research_lillis_1987]\] \[[Liquid Hydrocarbon Fuels for 2001][research_liquid_hydrocarbon_2001]\] \[[Liquid-Phase Reactions of Vaporizing 1978][research_liquid_phase_reactions_1978]\] \[[Liu and Liu 2022][research_liu_liu_2022]\] \[[Liu et al 2015][research_liu_bi_2015]\] \[[Liu et al 2019][research_liu_zhang_2019]\] \[[Liu et al 2022][research_liu_pan_2022]\] \[[Longwell 1978][research_longwelljp_1978]\] \[[Lyon 1992][research_lyon_1992]\] \[[Maas et al 2004][research_maas_irvine_2004]\] \[[Marchand 1989][research_marchand_1989]\] \[[Markham et al 2002][research_markham_bush_2002]\] \[[Martel 1970][research_martel_1970]\] \[[Martel 1988][research_martel_1988]\] \[[Marteney et al 1982][research_marteneypj_colketmb_1982]\] \[[Mayo 1984][research_mayo_1984]\] \[[McConnell et al 1982][research_mcconnell_massmann_1982]\] \[[McLaren et al 1965][research_mclaren_krynitsky_1965]\] \[[Medwick et al 1999][research_medwick_castro_1999]\] \[[Mi et al 2025][research_mi_wang_2025]\] \[[Mikhaylov 2013][research_mikhaylov_2013]\] \[[Mills 2001][research_mills_2001]\] \[[Mills 2002][research_mills_2002]\] \[[Minato et al 2009][research_minato_higashino_2009]\] \[[Minato et al 2012][research_minato_higashino_2012]\] \[[Miyaura et al 2018][research_miyaura_daimon_2018]\] \[[Montgomery et al 2006][research_montgomery_cremer_2006]\] \[[Morris and Robert W. 2012][research_morris_robertw_2012]\] \[[Morris and Robert W. 2013][research_morris_robertw_2013]\] \[[Morris Jr and Davis 2013][research_morrisjr_davis_2013]\] \[[Moszee and Moszee 1997][research_moszee_moszee_1997]\] \[[Naegeli 1997][research_naegelidavidw_1997]\] \[[Nalabala and Dinda 2024][research_nalabala_dinda_2024]\] \[[Naraghi et al 2006][research_naraghi_dunn_2006]\] \[[Nash et al 2017][research_nashleigh_klettlingerjennifer_2017]\] \[[Nash et al 2018][research_nashleigh_klettlingerjennifer_2018]\] \[[Negishi et al 2015][research_negishi_daimon_2015]\] \[[Netzel et al 1961][research_netzel_byerley_1961]\] \[[Nixon and Henderson 1966][research_nixon_henderson_1966]\] \[[Nowack and Delfosse 1980][research_nowackcj_delfosserj_1980]\] \[[Oba and Gonda 2014][research_oba_gonda_2014]\] \[[Palej and Palacz 2018][research_palej_palacz_2018]\] \[[Park and Jeon 2024][research_park_jeon_2024]\] \[[Peacock et al 1980][research_peacock_hennig_1980]\] \[[Pearce et al 2002][research_pearce_seto_2002]\] \[[Pelevin and Ponomarev 2018][research_pelevin_ponomarev_2018]\] \[[Pelevin and Ponomarev 2021][research_pelevin_ponomarev_2021]\] \[[Peng 2023][research_peng_2023]\] \[[Peng and Zhong 2022][research_peng_zhong_2022]\] \[[Morris et al 2002][research_heat_sink_fuel_protocol]\] \[[Purvis 1984][research_purvis_1984]\] \[[Purvis and Meehan 1984][research_purvis_meehan_1984]\] \[[Qian et al 2016][research_qian_nan_2016]\] \[[Qin et al 2008][research_qin_bao_2008]\] \[[Qin et al 2013][research_qin_zhang_2013]\] \[[Ramalingam et al 2003][research_ramalingam_mahefkey_2003]\] \[[Rogers and Kaplan 1963][research_rogers_kaplan_1963]\] \[[Rohl and Cowling 1965][research_rohl_cowling_1965]\] \[[Roland and Rumpfkeil 2017][research_roland_rumpfkeil_2017]\] \[[Rubey 1985][research_rubey_1985]\] \[[Rubey 1985][research_rubey_1985_b]\] \[[Rudey and Grobman 1978][research_rudeyra_grobmanjs_1978]\] \[[Rued et al 1991][research_rued_mark_1991]\] \[[Ruhnke et al 1965][research_ruhnke_will_1965]\] \[[Ruoling et al 2012][research_ruoling_jin_2012]\] \[[Schneider and Myers 1979][research_schneider_myers_1979]\] \[[Schneider et al 2003][research_schneider_dreizler_2003]\] \[[Schobert 2007][research_schobert_2007]\] \[[Schobert 2008][research_schobert_2008]\] \[[Serio et al 1998][research_serio_kroo_1998]\] \[[Shumway 2000][research_shumway_2000]\] \[[Sicard et al 2008][research_sicard_grill_2008]\] \[[Smits 1986][research_smits_1986]\] \[[Smooke and Gomez 2012][research_smooke_gomez_2012]\] \[[Song et al 1992][research_song_eser_1992]\] \[[Southwest Research Inst San Antonio Tx 1963][research_southwestresearchinstsanantoniotx_1963]\] \[[Stone 1975][research_stoneje_1975]\] \[[Streby et al 1999][research_streby_mathur_1999]\] \[[Striebich et al 2008][research_striebich_shafer_2008]\] \[[Sun et al 2005][research_sun_fang_2005]\] \[[Sun et al 2019][research_sun_li_2019]\] \[[Sun et al 2025][research_sun_li_2025]\] \[[Petley and Jones 1990][research_endothermic_mach5]\] \[[Torres et al 2009][research_torres_stefanini_2009]\] \[[Tran and Chen 1998][research_tran_chen_1998]\] \[[Violi 2013][research_violi_2013]\] \[[Von Eckartsberg et al 2025][research_voneckartsberg_goldman_2025]\] \[[Vuchuru and Dinda 2024][research_vuchuru_dinda_2024]\] \[[Wang 2004][research_wang_2004]\] \[[Wang 2004][research_wang_2004_b]\] \[[Wang et al 2006][research_wang_fang_2006]\] \[[Wang et al 2020][research_wang_yang_2020]\] \[[Wang et al 2023][research_wang_liu_2023]\] \[[Wang et al 2024][research_wang_vohs_2024]\] \[[Wang et al 2025][research_wang_feng_2025_b]\] \[[Wang et al 2025][research_wang_liu_2025_b]\] \[[Wang et al 2025][research_wang_yao_2025_b]\] \[[Waynick et al 2002][research_waynick_westbrook_2002]\] \[[Wickham et al 1999][research_wickham_alptekin_1999]\] \[[Wickham et al 2002][research_wickham_engel_2002]\] \[[Wickham et al 2005][research_wickham_engel_2005]\] \[[Wickham et al 2008][research_wickham_engel_2008]\] \[[Wong and Bittker 1982][research_wongel_bittkerda_1982]\] \[[Xie et al 2025][research_xie_li_2025]\] \[[Xin et al 2023][research_xin_zhang_2023]\] \[[Xin et al 2025][research_xin_li_2025]\] \[[Xu et al 2018][research_xu_sun_2018]\] \[[Xu et al 2023][research_xu_luan_2023]\] \[[Yang et al 2024][research_yang_lin_2024]\] \[[Yang et al 2025][research_yang_gou_2025]\] \[[Yang et al 2025][research_yang_lin_2025]\] \[[Yeh et al 2017][research_yeh_tsai_2017]\] \[[Yin et al 2024][research_yin_zeng_2024]\] \[[Yong-sheng and Rui-sen 2005][research_yongsheng_ruisen_2005]\] \[[Yue et al 2010][research_yue_guiping_2010]\] \[[Yue et al 2016][research_yue_wu_2016]\] \[[Zabarnick et al 2008][research_zabarnick_phelps_2008]\] \[[Zhang et al 2015][research_zhang_zhao_2015]\] \[[Zhang et al 2023][research_zhang_jing_2023]\] \[[Zhang et al 2024][research_zhang_wang_2024]\] \[[Zhao et al 2018][research_zhao_zhang_2018]\] \[[Zhao et al 2023][research_zhao_gao_2023]\] \[[Zheng et al 2021][research_zheng_xiao_2021]\] \[[Zhou et al 2008][research_zhou_bao_2008]\]
 
-**The X-51A carried 270 pounds of JP-7 and that same 270 pounds was the entire heat sink aboard**, so the fuel had to cool the engine on its way to being burned in it.
+**The X-51A carried 270 pounds of JP-7 and that same 270 pounds was the engine's coolant**, so the fuel had to cool the engine on its way to being burned in it.
 
 ### Shock and boundary layer interaction
 
@@ -598,11 +598,11 @@ $$
 
 **Third, the energy share computation uses the boost and cruise Mach numbers of the fourth flight and treats the vehicle mass as constant.** It burned 270 pounds of a roughly four thousand pound vehicle during the cruise, so the mass falls by under seven percent, and accounting for it would move the scramjet's share slightly. **The conclusion that the rocket did the great majority of the work does not depend on that correction.**
 
-**Fourth, six results in this article rest on material and mixture properties this vehicle never published.** The thermal penetration depths use a diffusivity for the nickel superalloy class, the implied engine length uses an expansion coefficient and a temperature rise from the same class, the heat flux and radiation temperatures use a nose radius given only as a range and an assumed emissivity, and the air flow uses a stoichiometric ratio for kerosene rather than for JP-7. **Each of those is stated where it appears and none is presented as a measurement of this aeroplane.**
+**Fourth, five results in this article rest on material and mixture properties this vehicle never published.** The thermal penetration depths use a diffusivity for the nickel superalloy class, the implied engine length uses an expansion coefficient and a temperature rise from the same class, the heat flux and radiation temperatures use a nose radius given only as a range and an assumed emissivity, and the air flow uses a stoichiometric ratio for kerosene rather than for JP-7. **Each of those is stated where it appears and none is presented as a measurement of this aeroplane.**
 
-**The penetration depth is the one that matters most and it is also the most robust.** Its ratio between the two flights is the square root of the ratio of burn times and depends on no material property at all, because the diffusivity cancels. **The absolute depths depend on it entirely.**
+**The penetration depth matters most, and it is also the most robust.** Its ratio between the two flights is the square root of the ratio of burn times and depends on no material property at all, because the diffusivity cancels. **The absolute depths depend on it entirely.**
 
-**Fifth, the specialist designation directory records plainly that no detailed design data for the X-51A has been published.** There is no published internal geometry against a design literature in which one is the starting point \[[Raymer, Aircraft design, a conceptual approach][book_raymer]\], no inlet contraction ratio, no combustor length, no isolator length and no engine mass. **Every statement in this article about the flowpath is therefore about scramjets in general and not about this one in particular**, and the article has tried to keep those two registers apart.
+**Fifth, the specialist designation directory records plainly that no detailed design data for the X-51A has been published** \[[Boeing X-51, Directory of U.S. Military Rockets and Missiles][ref_x51_designation]\]. There is no published internal geometry against a design literature in which one is the starting point \[[Raymer, Aircraft design, a conceptual approach][book_raymer]\], no inlet contraction ratio, no combustor length, no isolator length and no engine mass. **Every statement in this article about the flowpath is therefore about scramjets in general and not about this one in particular**, and the article has tried to keep those two registers apart.
 
 ## The Source Base
 
@@ -702,9 +702,9 @@ Rocket propulsion other than as the booster that got this vehicle to its start l
 
 **What it also showed, by falling short three times in three different ways, is that the engine was the part that worked.** A thermal seal cut the first flight short, an inlet unstart and a failed fuel transition ended the second, and a fin latch ended the third. **The supersonic combustion the programme was named for was never the thing that stopped.**
 
-**The reason is arithmetic and this article has done it.** A flight nineteen times longer than the X-43's, at under a third the stagnation temperature and under a seventh the heating rate, still absorbs more than two and a half times the heat. **Duration is not a scaling of the same problem. It is the arrival of a different one**, in which the structure reaches equilibrium, every joint has to hold while the engine grows a quarter of a percent, and the only coolant aboard is the fuel you are trying to burn, whose capacity to absorb heat is between a twelfth and a seventeenth of the heat it makes.
+**The reason is arithmetic and this article has done it.** A flight nineteen times longer than the X-43's, at under a third the stagnation temperature and under a seventh the heating rate, still absorbs more than two and a half times the heat. **Duration is not a scaling of the same problem. It is the arrival of a different one**, in which the structure reaches equilibrium, every joint has to hold while the engine grows a quarter of a percent, and the engine's coolant is the fuel you are trying to burn, whose capacity to absorb heat is between a twelfth and a seventeenth of the heat it makes.
 
-**And after all of it, the engine added about eleven percent of the vehicle's energy while a rocket added eighty-nine.** That is what a cruise demonstration looks like, and it is also the size of the gap between demonstrating cruise and having an aircraft.
+**And after all of it, the engine added about eleven percent of the vehicle's energy while a rocket added eighty-nine.** A cruise demonstration looks like that, and the split also measures the gap between demonstrating cruise and having an aircraft.
 
 ## References
 

@@ -12,17 +12,17 @@ series_index: 43
 <!-- A339 -->
 <script>console.log("A339");</script>
 
-**Two sources describe the X-42 and they describe different vehicles.** One calls it an expendable
+**The designation survey records two X-42 usages and they describe different vehicles.** One names an expendable
 upper stage and the other a winged reusable launch vehicle. **Neither is wrong.** The designation was
 allocated once and used unofficially a second time, four years apart, for two vehicles that shared a
-contractor and almost nothing else. This article treats the vehicle the designation was allocated to,
+contractor and little else\[[USFE X-42][ref_x42_parsch]\]. This article treats the vehicle the designation was allocated to,
 which was a pressure-fed upper stage that was built, tested, destroyed and never flown, and it takes
 the second usage as evidence about how a designation behaves when nobody defends it.
 This is the forty-third article in the [X-Planes series][related_post_a297_framing], following the [X-1][related_post_a298_bell_x1], the [X-2][related_post_a299_bell_x2], the [X-3][related_post_a300_douglas_x3], the [X-4][related_post_a301_northrop_x4], the [X-5][related_post_a302_bell_x5], the [X-6][related_post_a303_convair_x6], the [X-7][related_post_a304_lockheed_x7], the [X-8][related_post_a305_aerojet_x8], the [X-9][related_post_a306_bell_x9], the [X-10][related_post_a307_north_american_x10], the [X-11][related_post_a308_convair_x11], the [X-12][related_post_a309_convair_x12], the [X-13][related_post_a310_ryan_x13], the [X-14][related_post_a311_bell_x14], the [X-15][related_post_a312_north_american_x15], the [X-16][related_post_a313_bell_x16], the [X-17][related_post_a314_lockheed_x17], the [X-18][related_post_a315_hiller_x18], the [X-19][related_post_a316_curtiss_wright_x19], the [X-20][related_post_a317_boeing_x20], the [X-21][related_post_a318_northrop_x21], the [X-22][related_post_a319_bell_x22], the [X-23][related_post_a320_martin_marietta_x23], the [X-24][related_post_a321_martin_marietta_x24], the [X-25][related_post_a322_bensen_x25], the [X-26][related_post_a323_schweizer_x26], the [X-27][related_post_a324_lockheed_x27], the [X-28][related_post_a325_osprey_x28], the [X-29][related_post_a326_grumman_x29], the [X-30][related_post_a327_rockwell_x30], the [X-31][related_post_a328_rockwell_mbb_x31], the [X-32][related_post_a329_boeing_x32], the [X-33][related_post_a330_lockheed_martin_x33], the [X-34][related_post_a331_orbital_sciences_x34], the [X-35][related_post_a332_lockheed_martin_x35], the [X-36][related_post_a333_mcdonnell_douglas_x36], the [X-37][related_post_a334_boeing_x37], the [X-38][related_post_a335_scaled_composites_x38], the [X-39][related_post_a336_x39_reserved_never_assigned], and the [X-40][related_post_a337_boeing_x40], and the [X-41][related_post_a338_x41_common_aero_vehicle].
 
 **A vehicle existed and produced a great deal of data.** A ten thousand pound thrust engine ran for more than seven hundred seconds on a
-single catalyst bed at the Stennis Space Center, and an all-composite common-bulkhead tank was
-hydrostatically proof tested at Chandler in April 2003. The designation is disputed and the hardware is
+single catalyst bed at the Stennis Space Center\[[Ross et al 2000][research_ross_2000]\], and an all-composite common-bulkhead tank was
+hydrostatically proof tested at Chandler in April 2003\[[Guerrero and others 2004][research_guerrero_2004]\]. The designation is disputed and the hardware is
 not, so the designation gets a section and the hardware gets the article.
 
 ## The Research Question
@@ -31,34 +31,34 @@ not, so the designation gets a section and the hardware gets the article.
 could be made light enough to be worth flying.**
 
 Every liquid rocket stage must deliver propellant to the chamber at a pressure above chamber pressure.
-There are two ways to do it. A pump-fed stage carries turbomachinery, which is expensive, has a long
-development time, and is the single most failure-prone component in a liquid engine. A pressure-fed
+There are two ways to do it. A pump-fed stage carries turbomachinery, which is expensive and has a long
+development time. A pressure-fed
 stage carries no turbomachinery at all and instead stores its propellant in tanks held above chamber
-pressure, which is mechanically simple, cheap and reliable. **The trade is old and it is documented in
-the standard sources rather than being a matter of opinion**, both in the design handbook the American
+pressure, which is mechanically simple, cheap and reliable. **The trade is old and is a matter of record in
+the standard sources**, both in the design handbook the American
 industry worked from\[[Huzel and Huang 1967][research_huzel_1967]\] and in the design criteria monograph
 devoted to pressurisation systems\[[Pressurization systems for liquid 1975][research_nasa_sp8112]\]. **This article adds nothing to
 that trade.** It asks what it costs to take the simple side of it.
 
 **The pressure-fed choice normally destroys the stage.** Holding several cubic metres of propellant at
-several hundred pounds per square inch requires tank walls whose mass, as the section headed Sizing From First Principles derives, is
+several hundred pounds per square inch requires tank walls whose mass, as Sizing From First Principles below derives, is
 set by the product of pressure and volume divided by the specific strength of the tank material. That
 mass grows in direct proportion to the propellant volume, so it does not amortise with scale, and for a
 conventional metal tank it consumes a fraction of the propellant mass large enough to make the stage
 pointless.
 
-**The Upper Stage Flight Experiment existed to test one proposition, which is that this penalty is not
+**The Upper Stage Flight Experiment existed to test one proposition, that this penalty is not
 a law of nature but a materials and propellant problem, and that attacking it on both fronts at once
 makes a pressure-fed stage competitive.** The two attacks were a propellant combination dense enough to
 shrink the tanks and a tank material strong enough per unit mass to hold the pressure cheaply.
-**Both attacks fall out of a single relation, and that relation is the keystone of this article.**
+**Both attacks fall out of a single relation, the keystone of this article.**
 
 A second requirement rode on top of the first. The propellants had to be storable and non toxic, which
 are the requirements against which the propellant studies described under Programme Origin were
 run. **That ruled out cryogenics on the storage requirement and ruled out
 the conventional storables on the handling requirement**, which narrowed the propellant search to a
 combination that was neither, and the one the studies converged on was high concentration hydrogen
-peroxide burned with ordinary jet fuel.
+peroxide burned with ordinary jet fuel\[[USFE X-42][ref_x42_parsch]\].
 
 ## Programme Origin
 
@@ -86,8 +86,8 @@ power\[[Ventura and Mullens 1999][research_ventura_1999]\] and as a programmatic
 authors called the peroxide pathway\[[McNeal and Anderson 1999][research_mcneal_1999]\].
 
 **The engine did not begin at ten thousand pounds of thrust.** A 1999 paper describes development of
-a pressure-fed engine on the same propellants at subscale, which is the work the full scale programme
-was built on\[[Wu et al 1999][research_wu_fuller_1999]\], and a companion paper of the same year covers
+a pressure-fed engine on the same propellants at subscale, the work on which the full scale programme
+was built\[[Wu et al 1999][research_wu_fuller_1999]\], and a companion paper of the same year covers
 the catalyst development that any peroxide engine depends
 on\[[Morlan et al 1999][research_morlan_wu_1999]\].
 
@@ -107,39 +107,39 @@ at an estimated initial production cost of 800,000 dollars, which the paper puts
 of the cost of a comparable storable liquid upper stage then available\[[Guerrero and others 2004][research_guerrero_2004]\]. The USFE itself was designed
 for a suborbital flight from the launch site at Kodiak, Alaska, on the first and second stages of
 Orbital's Orbital/Suborbital Program vehicle, and the same stage was to be ground tested at Stennis
-first and then refurbished for flight.
+first and then refurbished for flight\[[Guerrero and others 2004][research_guerrero_2004]\].
 
 **The institutional arrangement matters to what followed.** Three organisations funded or managed the
-work, being the Air Force Research Laboratory Space Vehicles Directorate, NASA Marshall, and Orbital
+work. They were the Air Force Research Laboratory Space Vehicles Directorate, NASA Marshall, and Orbital
 Sciences as prime contractor, with engine testing at the Stennis Space Center and structural testing at
-Chandler. The acknowledgements of the engine paper name a further six organisations that contributed,
-being Kaiser Marquardt, American Automated Engineering, General Kinetics, the Air Force Phillips
+Chandler\[[Guerrero and others 2004][research_guerrero_2004]\]. The acknowledgements of the engine paper name six further contributing organisations,
+Kaiser Marquardt, American Automated Engineering, General Kinetics, the Air Force Phillips
 Laboratory, the Schafer Corporation and Stennis\[[Ross et al 2000][research_ross_2000]\]. **A
 programme spread that thinly across agencies has no single owner**, and when it stopped, no single agency was obliged to announce that it had.
 
-The wider context was the Military Spaceplane, an Air Force concept of the late 1990s for a reusable
-vehicle that would reach space quickly and repeatedly. A pop-up upper stage is what such a vehicle needs
+The wider context was the Military Spaceplane, an Air Force system whose building blocks the service
+began to define in 1996 and 1997, among them reusable launch vehicles and pop-up upper stages\[[USFE X-42][ref_x42_parsch]\]. A reusable launch vehicle needs a pop-up upper stage
 to move a payload from the suborbital condition it can reach to the orbit the payload requires. **The
 concept and the operational case for it were argued at length inside the service**, in staff studies of
 the Space Maneuver Vehicle as a warfighting asset\[[Davis 2002][research_davis_2002]\] and in assessments
-of what operationally responsive spacelift would actually
+of what operationally responsive spacelift would
 require\[[Brown 2003][research_brown_2003]\]. **Those studies are the reason a stage like this was wanted
-at all**, and they outlived every vehicle proposed to satisfy them. The
-same programme family produced the vehicles treated in the two preceding articles in this series, being
-the [X-40][related_post_a337_boeing_x40] as the approach and landing demonstrator for the orbital
-spaceplane and the [X-41][related_post_a338_x41_common_aero_vehicle] as the manoeuvring entry payload.
+at all**. The
+same programme family produced the vehicles treated in the two preceding articles in this series,
+the [X-40][related_post_a337_boeing_x40] under the space manoeuvre vehicle concept
+and the [X-41][related_post_a338_x41_common_aero_vehicle] as the manoeuvring entry payload\[[X-41 CAV][ref_x41_parsch]\].
 
 ## The Designation and Its Two Referents
 
 **The X-42A designation was allocated in late 1997 or early 1998 to an expendable demonstrator for
 pop-up upper stage technology, and it was never used in an official announcement again**\[[USFE X-42][ref_x42_parsch]\].
 
-That allocation window is the finding, because it is the same window in which the X-41A designation was
-allocated. **The preceding article in this series established that X-41A was allocated in late 1997 or
+That allocation window is the finding, because the X-41A designation was allocated in the same
+window. **The preceding article in this series established that X-41A was allocated in late 1997 or
 early 1998, years before the programme it is now attached to, and that the authoritative survey doubts
 it ever applied to that vehicle**\[[X-41 CAV][ref_x41_parsch]\]. The two allocations are neighbours in the number space
 and neighbours in time, and both were made for a family of concepts that the Air Force Research
-Laboratory Space Vehicles Directorate was defining in exactly that period. **The directorate issued a
+Laboratory Space Vehicles Directorate was defining in that period. **The directorate issued a
 request for proposals in January 1998** asking industry to study aspects of advanced military space
 technology, pop-up upper stages among them, according to the same survey\[[USFE X-42][ref_x42_parsch]\], which would place the
 request inside the allocation window rather than after it. **No Air Force document stating that date
@@ -150,7 +150,7 @@ industry used X-42 informally for a candidate reusable launch vehicle demonstrat
 put forward a design derived from its Multi-Role Reusable Vehicle concept, being a winged vehicle
 powered by a single RS-27 engine, with conventional tricycle landing gear, a braking parachute in the
 aft fuselage, and a ground turnaround target of fourteen days. **It could carry a Common Aero Vehicle
-on top of the fuselage**, which is to say that the second X-42 was proposed as a launcher for the
+on top of the fuselage**, so the second X-42 was proposed as a launcher for the
 payload the X-41 designation denotes. By 2003 the configuration had changed to a single vertical tail
 on the fuselage in place of the wingtip fins\[[USFE X-42][ref_x42_parsch]\].
 
@@ -158,20 +158,20 @@ on the fuselage in place of the wingtip fins\[[USFE X-42][ref_x42_parsch]\].
 share a contractor and a sponsoring directorate. They share nothing else. One is expendable and the
 other reusable, one has no wings and the other is a winged aeroplane, one uses peroxide and jet fuel
 and the other a single RS-27 engine, and one weighs
-a few tonnes while the other is a launch vehicle.
+a few tonnes while the other is a launch vehicle\[[USFE X-42][ref_x42_parsch]\].
 
 **The authoritative survey declines to resolve it, and its refusal is the correct position rather than
 an evasion.** It records that the significance of the X-42 usage for the 2002 proposal is not clear,
 and concludes that the designation is not tied to a specific programme or
 vehicle\[[USFE X-42][ref_x42_parsch]\]. **This article
-follows that conclusion.** It treats the Upper Stage Flight Experiment as the subject because that is
-the vehicle the designation was formally allocated to, and it states plainly that the pairing rests on
+follows that conclusion.** It treats the Upper Stage Flight Experiment as the subject because the designation was formally
+allocated to it, and it states that the pairing depends on
 an allocation that was never confirmed by any subsequent official use.
 
 **This is now the third article from the X-39 onward in this series to find a designation that may not
 belong to its vehicle.** The [X-39][related_post_a336_x39_reserved_never_assigned] was reserved and never
-assigned at all. The X-41A was allocated years before the programme it is now attached to. The X-42A
-was allocated to a stage that never flew and was then borrowed for something else. **Three cases among
+assigned at all. The X-41A was allocated years before the programme it is now attached to\[[X-41 CAV][ref_x41_parsch]\]. The X-42A
+was allocated to a stage that never flew and was then borrowed for something else\[[USFE X-42][ref_x42_parsch]\]. **Three cases among
 four consecutive numbers is no longer a run of coincidences**, and the closing article of this series
 will have to account for what happened to the administration of this number space in the late 1990s.
 
@@ -209,7 +209,7 @@ specific strength of the material, with the shape entering only through a small 
 $$m_{t} = k \frac{p V}{\sigma / \rho_{m}} \qquad k = \tfrac{3}{2} \text{ to } 2$$
 
 **Nothing in that relation scales away.** The radius cancels. A larger tank is not more efficient than
-a smaller one, which is the opposite of the intuition carried over from unpressurised structures where
+a smaller one, contrary to the intuition carried over from unpressurised structures where
 the square-cube relation rewards size. **A pressure-fed stage therefore pays a mass penalty in strict
 proportion to how much propellant it carries and how hard it squeezes it.**
 
@@ -221,7 +221,7 @@ $$\frac{m_{t}}{m_{p}} = \frac{k p}{\rho_{p} \left( \sigma / \rho_{m} \right)}$$
 **This is the keystone, and it has exactly three levers.** Lower the pressure, which means lowering
 chamber pressure and giving up performance and nozzle size. Raise the propellant bulk density.
 Raise the specific strength of the tank material. **The Upper Stage Flight Experiment pulled the second
-and third levers simultaneously, and that is the whole design.**
+and third levers simultaneously, and the design consists of that choice.**
 
 ### The Propellant Lever
 
@@ -245,7 +245,7 @@ impulse but density impulse**, being the product of bulk density and specific im
 
 $$I_{\rho} = \rho_{b} I_{sp}$$
 
-At a delivered vacuum specific impulse of 275 seconds,
+At a delivered vacuum specific impulse of 275 seconds\[[Ross et al 2000][research_ross_2000]\],
 
 $$I_{\rho} = 1.230 \times 275 = 338 \ \text{g}\,\text{cm}^{-3}\,\text{s}$$
 
@@ -262,30 +262,30 @@ representative values assumed here rather than figures from any source on this v
 **On specific impulse the peroxide combination is the worst entry in the table by a wide margin. On
 density impulse it beats liquid hydrogen by more than a factor of two** and comes within about eleven
 percent of the toxic storables it was chosen to replace. For a pressure-fed stage, where tank mass
-tracks volume rather than propellant mass, that is the column that decides the design.
+tracks volume rather than propellant mass, the density impulse column decides the design.
 
 ### The Materials Lever
 
 The specific strength $\sigma / \rho_{m}$ of a filament wound carbon and epoxy laminate is taken here to
 lie between roughly $1.0 \times 10^{6}$ and $1.6 \times 10^{6}$ joules per kilogram, an assumed range
 whose ends correspond to a design allowable and to the fibre limit. For aluminium alloy 2219 in the T87
-condition, which is the alloy the American launch vehicle industry
+condition, the alloy the American launch vehicle industry
 used for propellant tanks and whose properties are tabulated in the standard
 reviews\[[Simon et al 1991][research_simon_1991]\]\[[Wagner and Keller 1974][research_nasa_sp8088]\], with a yield
 strength near 400 megapascals at a density of 2,840 kilograms per cubic metre, it is
 
 $$\frac{\sigma}{\rho_{m}} = \frac{400 \times 10^{6}}{2840} = 1.41 \times 10^{5} \ \text{J/kg}$$
 
-The ratio of the two is the whole materials argument,
+The materials argument reduces to the ratio of the two,
 
 $$\frac{\left( \sigma / \rho_{m} \right)_{\text{composite}}}{\left( \sigma / \rho_{m} \right)_{\text{aluminium}}} = \frac{1.0 \ \text{to} \ 1.6 \times 10^{6}}{1.41 \times 10^{5}} = 7.1 \ \text{to} \ 11.4$$
 
 **The composite advantage is a factor of between seven and eleven.** Applied to the same tank at the
 same pressure, that is the difference between a tank that costs nearly a tenth of the propellant mass
-and one that costs about one percent, as the table below shows, and it is what makes the pressure-fed
+and one that costs about one percent, as the table below shows, and that difference makes the pressure-fed
 choice defensible at all.
 
-**The programme built exactly the tank this relation calls for.** The structure was a carbon and epoxy
+**The programme built the tank this relation calls for.** The structure was a carbon and epoxy
 assembly combining both propellant tanks and the skirt, with a common bulkhead separating oxidiser from
 fuel, filament wound over fluoropolymer liners that served as the mandrel\[[Guerrero and others 2004][research_guerrero_2004]\]. **The common bulkhead is
 the same relation applied again**, because removing one bulkhead and the intertank between two separate
@@ -303,15 +303,15 @@ with all the load and the resin with none\[[Hossain et al 2013][research_hossain
 
 $$\tan^{2} \alpha = \frac{N_{\theta}}{N_{z}} = 2 \qquad \text{so} \qquad \alpha = \arctan \sqrt{2} = 54.7^{\circ}$$
 
-**That angle is a property of the two-to-one load ratio and of nothing else**, which is why filament
-wound vessels across every industry are wound near it, and why a winding machine and a mandrel are
+**That angle depends on the two-to-one load ratio and on nothing else**, so
+a winding machine and a mandrel are
 enough to build a vessel that is close to optimal without any tailoring. **Netting analysis is a lower
 bound rather than a design**, since it ignores the resin entirely, and optimisation against a real
 failure criterion moves the angle away from 54.7 degrees by an amount that depends on the laminate and
 the end closures\[[Geng et al 2016][research_geng_2016]\]. **The article uses the netting result
 because it explains the choice, not because it would size the vessel.**
 
-### The Propellant Load, and What the Published Tables Fix
+### The Propellant Load in the Published Tables
 
 **The engine table and the structures paper fix the size of the stage between them, and they do not
 describe the same burn.** The engine was rated for 36.0 pounds per second over a 200 second burn\[[Ross et al 2000][research_ross_2000]\],
@@ -367,10 +367,10 @@ $$\frac{m_{t}}{m_{p}} = \frac{k p}{\rho_{b} \left( \sigma / \rho_{m} \right)} = 
 
 **These are ideal membrane figures and the real structure is a multiple of them**, because the proof
 factor, the liner, the bosses, the skirts and the common bulkhead all add mass that this relation does
-not see. **The ratio between the rows is what the design turns on, and the ratio is not sensitive to
+not see. **The design turns on the ratio between the rows, and that ratio is insensitive to
 any of those omissions**, because they apply to both materials.
 
-### The Tank Pressure, and the Margin It Leaves
+### Tank Pressure and Feed Margin
 
 **The structures paper states the tank pressure directly.** The maximum expected operating pressure of
 the propellant tanks is 1,100 pounds per square inch absolute, the hydrostatic proof test took both
@@ -398,7 +398,7 @@ regulators and the cavitating venturis described below.
 **The common bulkhead records the bed drop a second time.** The structures paper's test section gives
 the maximum expected pressure difference across the bulkhead as 195 pounds per square inch with the
 oxidiser tank higher and 140 with the fuel tank higher, although its requirements table lists only the
-140\[[Guerrero and others 2004][research_guerrero_2004]\]. Only the oxidiser passes through the catalyst bed, so the oxidiser tank must run above the fuel
+140\[[Guerrero and others 2004][research_guerrero_2004]\]. Only the oxidiser passes through the catalyst bed\[[Ross et al 2000][research_ross_2000]\], so the oxidiser tank must run above the fuel
 tank by at least the bed drop, and the larger design difference covers it,
 
 $$195 - 136 = 59 \ \text{psi}$$
@@ -406,7 +406,7 @@ $$195 - 136 = 59 \ \text{psi}$$
 with room to spare. That reading is an inference, and the paper does not give the reason for the
 asymmetry.
 
-### What the Stage Could Do, as a Family Rather Than a Number
+### The Velocity Increment as a Family
 
 **The stage's inert mass was never published, so this article cannot state a velocity increment and
 will not pretend to.** What it can do is bound the answer, because the propellant load and the specific
@@ -440,17 +440,17 @@ which are assumed values and not figures from the record, start well above it.
 | 1,000 | 2,000 | 2.320 | 2,270 |
 
 **By the rocket equation above the family spans roughly 2,270 to 5,470 metres per second**, and its top
-belongs to a stage carrying no payload at all. **Which row describes the vehicle is exactly what the record does not say.**
+is a stage carrying no payload at all. **No published figure says which row describes the vehicle.**
 
 ## Dependent Systems
 
-### Propulsion, and the Catalyst Bed That Makes It Simple
+### Propulsion and the Catalyst Bed
 
-**The engine is a monopropellant gas generator with a fuel injector bolted to the end of it, and that
-description is the design rather than a simplification.**
+**The engine is a monopropellant gas generator with a fuel injector bolted to the end of it, and the
+description is literal.**
 
 Concentrated hydrogen peroxide decomposes exothermically over a catalyst into oxygen and steam. **The
-temperature of the products is not a property of peroxide alone but of the dilution**, and it follows from an energy balance, carried out here with the assumed constants listed under
+dilution, more than the peroxide, sets the temperature of the products**, and that temperature follows from an energy balance, carried out here with the assumed constants listed under
 Assumed Values.
 The reaction is
 
@@ -472,25 +472,25 @@ the temperature rise above boiling is
 
 $$\Delta T = \frac{1.11 \times 10^{6}}{1{,}626} = 683 \ \text{K} \qquad \text{so} \qquad T \approx 780 \ ^{\circ}\text{C}$$
 
-**The published figure itself is not a single number**, since the decomposition temperature depends on
+**The published figure is not a single number**, since the decomposition temperature depends on
 the pressure at which the decomposition occurs as well as on the
 concentration\[[Walsh and Sutton 2002][research_walsh_2002]\]. **The balance overshoots by about six
 percent and it overshoots in the direction the assumption predicts**, because the heat capacity of steam rises steeply with temperature and this
 calculation holds it constant. **The point is not the last forty degrees.** It is that the dilution
-water is what sets the temperature, since it absorbs heat without releasing any, and that is why
-concentration is the single most important number in peroxide propulsion. The thrust chamber assembly therefore
+water sets the temperature, since it absorbs heat without releasing any, which makes
+concentration the single most important number in peroxide propulsion. The thrust chamber assembly therefore
 comprised an oxidiser dome and manifold, a catalyst bed assembly, a fuel injector, and an ablative
 chamber and nozzle\[[Ross et al 2000][research_ross_2000]\]. Peroxide entered the dome, decomposed across a bed of silver screens,
 and emerged as hot oxygen-rich steam. Fuel was then injected into that stream.
 
 **The fuel ignites on contact with the decomposition products and no ignition system is required.**
-This is the property that makes the combination attractive for a stage expected to restart, and the
+That property makes the combination attractive for a stage expected to restart, and the
 engine demonstrated multiple restarts during the first development test series. **The design condition
 for it is thermal**, and the paper records that a contraction ratio of about seven was chosen to ensure
 autoignition of the fuel, the eventual value being 7.1, and that the chamber inner diameter of ten
 inches followed\[[Ross et al 2000][research_ross_2000]\].
 
-**A contraction ratio of seven is a statement about gas speed.** The isentropic area relation fixes the
+**A contraction ratio of seven sets the gas speed.** The isentropic area relation fixes the
 chamber Mach number from the ratio of chamber area to throat area,
 
 $$\frac{A_{c}}{A_{t}} = \frac{1}{M} \left[ \frac{2}{\gamma + 1} \left( 1 + \frac{\gamma - 1}{2} M^{2} \right) \right]^{\frac{\gamma + 1}{2(\gamma - 1)}}$$
@@ -500,8 +500,8 @@ static temperature is then within a tenth of a percent of the stagnation value,
 
 $$\frac{T}{T_{0}} = \left( 1 + \frac{\gamma - 1}{2} M^{2} \right)^{-1} = 0.999$$
 
-**So the chamber is very nearly a stagnant reservoir of hot decomposition products**, which is exactly
-the condition under which injected fuel has time to heat and ignite. The paper's choice of a
+**So the chamber is very nearly a stagnant reservoir of hot decomposition products**, the
+condition under which injected fuel has time to heat and ignite. The paper's choice of a
 contraction ratio of about seven is a residence-time and temperature requirement stated as a
 geometry.
 
@@ -514,8 +514,8 @@ inside the historical operating range for silver screen beds\[[Ross et al 2000][
 
 $$A_{\text{bed}} = \frac{\dot{m}_{o}}{G} = \frac{29.7}{0.4} = 74.2 \ \text{in}^{2} \qquad D_{\text{bed}} = 2 \sqrt{\frac{A_{\text{bed}}}{\pi}} = 9.72 \ \text{in}$$
 
-**A bed of 9.72 inches sits inside a chamber of 10 inches with almost nothing to spare**, and that is
-the first of three independent consistency checks this article makes on the published table. The mass
+**A bed of 9.72 inches sits inside a chamber of 10 inches with almost nothing to spare**, the
+first of three independent consistency checks this article makes on the published table. The mass
 flux and the chamber diameter were reported in different sections for different reasons, and they agree
 to three percent.
 
@@ -529,7 +529,7 @@ $$\frac{12}{29.7} = 0.40$$
 
 The authors built a dynamic model of the bed and chamber, correlated it against the test data, traced
 the instability to channelling that let the decomposition plane sink deep into the bed, and report a
-combustion chamber configuration that removed it, after which the engine ran stably.
+combustion chamber configuration that removed it, after which the engine ran stably\[[Johnson et al 2000][research_johnson_anderson_2000]\].
 
 **The instability therefore sat between the throttled points and the design point, not below them.** The
 throttling the engine demonstrated reached 20 percent in bipropellant mode and 10 percent in
@@ -538,9 +538,9 @@ monopropellant mode\[[Ross et al 2000][research_ross_2000]\], which taken as fra
 $$0.20 \times 29.7 = 5.9 \ \text{lb/s} \qquad 0.10 \times 29.7 = 3.0 \ \text{lb/s}$$
 
 both below the 12 pound per second onset, and the instability test itself began stably at about 6 pounds
-per second\[[Johnson et al 2000][research_johnson_anderson_2000]\]. **What the fix bought was passage through 12 pounds per second on the way to full flow**,
-which every start to design thrust requires. The record does not say whether the throttling
-demonstrations came before or after the fix.
+per second\[[Johnson et al 2000][research_johnson_anderson_2000]\]. **The fix bought passage through 12 pounds per second on the way to full flow**,
+which every start to design thrust requires. The published accounts do not date the throttling
+demonstrations relative to the fix.
 
 A catalyst bed is not a static component. The published data show bed pressure drop rising steadily
 with accumulated run time\[[Ross et al 2000][research_ross_2000]\], which for a silver screen bed is the expected ageing signature as the
@@ -569,7 +569,7 @@ impulse are related by
 
 $$F = \dot{m} \, I_{sp}$$
 
-and $36.0 \times 275 = 9{,}900$ pounds of thrust rather than 10,000. **The discrepancy is one percent**, and it resolves either way,
+and $36.0 \times 275 = 9{,}900$ pounds of thrust, against the 10,000 stated. **The discrepancy is one percent**, and it resolves either way,
 
 $$\dot{m} = \frac{F}{I_{sp}} = \frac{10{,}000}{275} = 36.36 \ \text{lb/s} \qquad \text{or} \qquad I_{sp} = \frac{F}{\dot{m}} = \frac{10{,}000}{36.0} = 277.8 \ \text{s}$$
 
@@ -624,8 +624,8 @@ $$\varepsilon = \frac{1}{\left( \dfrac{\gamma + 1}{2} \right)^{\frac{1}{\gamma -
 
 Solving the second for $p_{e}/p_{c}$ at $\varepsilon = 40$ and substituting gives 1.884 at an assumed ratio of
 specific heats of 1.20 and 1.835 at 1.25. **The implied 1.808 sits just below both**, which is where a
-real nozzle belongs, since divergence, friction and boundary layer losses all subtract. **That is the
-third check, and the only one of the three that could have embarrassed the paper**, because a thrust
+real nozzle belongs, since divergence, friction and boundary layer losses all subtract. **This
+third check is the only one of the three that could have embarrassed the paper**, because a thrust
 coefficient above the ideal value would mean the stated thrust and chamber pressure could not both be
 true. The ratio of the implied to the ideal value is a nozzle efficiency,
 
@@ -641,10 +641,10 @@ serves, which is nowhere that the one percent changes a conclusion.
 
 ### The Ablative Nozzle, and the Constraint That Sized It
 
-**The chamber and nozzle were ablative rather than cooled, which is the cheap choice and imposes the
+**The chamber and nozzle were ablative, the cheap alternative to cooling, and that choice imposes the
 hardest constraint in the engine.** The design criteria monograph covering self-cooled chambers treats
-throat erosion as the life-limiting mechanism and states the design problem exactly as this engine met
-it, being that the material must be chosen against the burn duration rather than against the peak heat
+throat erosion as the life-limiting mechanism and frames the design problem as this engine met
+it, with the material chosen against the burn duration rather than against the peak heat
 flux\[[Liquid rocket engine self-cooled 1977][research_nasa_sp8124]\]. An ablative throat erodes, the throat area grows, and the engine
 drifts off its design point. For a 200 second burn the programme set an allowable erosion rate of 0.001
 inches per second on the throat radius\[[Ross et al 2000][research_ross_2000]\], which is a total radius growth of
@@ -657,7 +657,7 @@ $$r_{2} = r_{1} + \Delta r = 1.876 + 0.200 = 2.076 \ \text{in} \qquad A_{t,2} = 
 
 $$\frac{A_{t,2}}{A_{t,1}} - 1 = \frac{13.55}{11.06} - 1 = 22.5 \ \text{percent}$$
 
-**That sounds fatal and it is not, and the reason is the flow control.**
+**That sounds fatal, and the flow control is why it is not.**
 
 The propellant flow was metered by cavitating venturis, a passive flow control device whose behaviour
 in rocket feed systems is well
@@ -696,12 +696,12 @@ expansion ratio of 35.7, and the same relation gives
 $$\frac{1.8746}{1.8843} - 1 = -0.51 \ \text{percent} \qquad \frac{1.8267}{1.8346} - 1 = -0.43 \ \text{percent}$$
 
 **A 22.5 percent change in throat geometry therefore produces about a one percent change in thrust.**
-That is why the paper can state that the thrust requirement of 10,000 pounds within ten percent is
+This insensitivity lets the paper state that the thrust requirement of 10,000 pounds within ten percent is
 achievable using cavitating venturis\[[Ross et al 2000][research_ross_2000]\]. The same device serves deep throttling in modern engines for
 the same reason\[[Sekrecki 2023][research_sekrecki_2023]\]. **The cheap nozzle is affordable because of
 the flow control, and the two choices are one decision made twice.**
 
-**The same physics turns the test data into a measurement of erosion, with a caveat the paper itself
+**The same physics turns the test data into a measurement of erosion, with a caveat the paper
 supplies.** In the 140 second test of 19 May 1999 the chamber pressure began at 495 pounds per square
 inch and ended 35 pounds lower, and the paper attributes the drop to throat erosion\[[Ross et al 2000][research_ross_2000]\]. Since the
 area-pressure product is constant,
@@ -720,10 +720,10 @@ nominal mixture ratio would have to be 4.5 or less to meet the throat erosion co
 measured rate of 0.0009 inches per second came from a different configuration, the film-cooled ring and
 steam port injector, in the 31 second test at a mixture ratio of 5.85. **The two figures cannot be
 ordered by mixture ratio**, because the injector changed between them, and an average rate below the
-allowance is compatible with local erosion above it. That is why the hot zone discussed below matters
+allowance is compatible with local erosion above it. For that reason the hot zone discussed below matters
 more than either average.
 
-### Injectors, and the Trade That Was Never Closed
+### The Open Injector Trade
 
 **Four injector configurations appear in the test record, and the test series is a clean example of a
 two-objective trade with no dominant solution**\[[Ross et al 2000][research_ross_2000]\].
@@ -743,7 +743,7 @@ requirement and was used for the final 150 second test\[[Ross et al 2000][resear
 Gamma engine was the British peroxide and kerosene engine that powered Black Knight and Black Arrow,
 the latter of which put a British satellite into orbit in 1971 and remains the only launch vehicle to
 have done so\[[Allen 2002][research_allen_2002]\]. **An injector derived from it was built and tested
-here thirty years later**, which is a direct line from the last era of peroxide propulsion into this
+here thirty years later**, a direct line from the last era of peroxide propulsion into this
 one. **It was the best
 performer on combustion efficiency**, reaching characteristic velocity efficiency near unity at a
 mixture ratio of five and a vacuum specific impulse of 298 seconds against the ring injector's 275.
@@ -758,8 +758,8 @@ $$298 - 275 = 23 \ \text{s}$$
 
 is worth less than an engine that survives its burn. The
 authors record that the Gamma derivative retains potential for a regeneratively cooled nozzle, where
-the heating penalty would be carried by the cooling circuit rather than by the throat material.
-**That is the trade left open, and it was never closed because the programme ended first.**
+the heating penalty would be carried by the cooling circuit rather than by the throat material\[[Ross et al 2000][research_ross_2000]\].
+**The trade was left open, and no published report closes it.**
 
 ### The Integral Structure
 
@@ -778,7 +778,7 @@ long before this programme\[[Jensen 1970][research_crpl_1970]\], and
 satisfying it in a filament wound composite with a fluoropolymer liner is the part that had not been
 done before.
 
-**The vessel itself sits in a category with its own standard.** A composite overwrapped pressure vessel
+**A separate standard governs the vessel's category.** A composite overwrapped pressure vessel
 is treated separately from a metal tank in the qualification literature, because its failure modes and
 its proof and burst factors differ\[[Greene 2009][research_aiaa_s081a]\], and the proof factor of 1.5 and
 burst factor of 2.0 this vessel was designed to\[[Guerrero and others 2004][research_guerrero_2004]\] are the practice that literature describes.
@@ -791,7 +791,7 @@ composite storage tank, from which the liner and the overwrap epoxy were to be d
 stored peroxide for seven months with minimal degradation by 1999, and a second, at 40 percent scale,
 was to demonstrate the integral structure with its partition and skirts\[[Anderson et al 1999][research_anderson_usfe]\]. **The metallic alternative
 was being worked on at the same time**, and a high strength aluminium alloy compatible with peroxide was
-reported in 2004\[[Lee 2004][research_lee_2004]\], against a metal tank's own design criteria monograph
+reported in 2004\[[Lee 2004][research_lee_2004]\], against the metal tank volume of the same monograph series
 and decades of flight experience\[[Wagner and Keller 1974][research_nasa_sp8088]\].
 
 **The structure is integral by bonding rather than by winding.** The skirt was filament wound separately
@@ -805,7 +805,7 @@ catastrophic failure. The same paper records that the oxidiser liner came out of
 tolerance at several locations and was brought back within tolerance by welding on additional material
 and reforming it with heat and weights, because the budget did not allow a machined mould.
 
-**The published requirements are compact enough to reproduce**\[[Guerrero and others 2004][research_guerrero_2004]\].
+**The published requirements fit in one table**\[[Guerrero and others 2004][research_guerrero_2004]\].
 
 | Requirement | Value |
 |---|---|
@@ -829,7 +829,7 @@ discussed in the Source Base\[[Anderson et al 1999][research_anderson_usfe]\].
 
 **Pressurisation was helium from a 6,000 pound per square inch carbon and epoxy tank with a plastic
 liner**, mounted in the forward skirt, feeding regulators that held the propellant tanks at their
-operating pressure\[[Anderson et al 1999][research_anderson_usfe]\]. The sizing of such a system has its own design criteria
+operating pressure\[[Anderson et al 1999][research_anderson_usfe]\]. The sizing of such a system is the subject of a design criteria
 monograph\[[Pressurization systems for liquid 1975][research_nasa_sp8112]\], and the regulators and relief devices have
 another\[[Liquid rocket pressure regulators 1973][research_nasa_sp8080]\]. **The mass of gas required can be bounded.** At burnout the
 pressurant has expanded to fill both tanks, 1.708 cubic metres, at the operating pressure of 7.584
@@ -849,7 +849,7 @@ $$V_{b} = \frac{m_{\text{stored}} R_{\text{He}} T}{p_{b}} = \frac{25.4 \times 20
 
 **These are isothermal figures and therefore lower bounds**, because real blowdown cools the gas and a
 colder gas is denser, so more mass is needed to hold the same pressure. **A bottle of at least 13.5
-cubic feet at six thousand pounds per square inch is not a small component**, and it is part of the
+cubic feet at six thousand pounds per square inch is not a small component**, and forms part of the
 price of pressure feeding that the keystone relation does not show, since the keystone counts tank walls
 and not the gas inside them.
 
@@ -866,27 +866,27 @@ The same gas supply purged the system, actuated the bipropellant valves, and fed
 management thrusters that settled the propellants against the tank outlets before engine start\[[Anderson et al 1999][research_anderson_usfe]\].
 **A pressure-fed stage in free fall cannot start without settling**, because the feed system would
 otherwise ingest gas, so the settling thrusters are part of the start sequence. The slosh loads that
-settled propellant then imposes have their own design criteria
-monograph\[[NASA space vehicle design 1968][research_nasa_sp8009]\], and no slosh analysis for this vehicle was published.
+settled propellant then imposes are treated in a further monograph of the same
+series\[[NASA space vehicle design 1968][research_nasa_sp8009]\], and no slosh analysis for this vehicle was published.
 
 **Attitude control was a cold gas system using nitrogen** from a 5,000 pound per square inch
 kevlar and epoxy tank with a metal liner, in the aft skirt, with eight nozzles giving pitch, yaw and
-roll authority\[[Anderson et al 1999][research_anderson_usfe]\]. Cold gas is the least efficient practical propulsion choice and the size of the penalty is worth
-stating. For a perfect gas expanded to vacuum, taking nitrogen at an assumed 300 kelvin with a ratio of
+roll authority\[[Anderson et al 1999][research_anderson_usfe]\]. Cold gas is the least efficient practical propulsion choice and the size of the penalty can be
+stated. For a perfect gas expanded to vacuum, taking nitrogen at an assumed 300 kelvin with a ratio of
 specific heats of 1.4, the limiting exhaust speed is
 
 $$v_{\max} = \sqrt{\frac{2 \gamma R T}{\gamma - 1}} = \sqrt{\frac{2 \times 1.4 \times 296.8 \times 300}{0.4}} = 789 \ \text{m/s}$$
 
 $$I_{sp} = \frac{v_{\max}}{g} = 80 \ \text{s}$$
 
-**That is under a third of the main engine's specific impulse**, and a real cold gas thruster delivers
-rather less again. **It is the right choice anyway**, because the total impulse required for attitude
+**The figure is under a third of the main engine's specific impulse**, and a real cold gas thruster delivers
+less again. **It is the right choice anyway**, because the total impulse required for attitude
 control over a short mission is small, and the alternative is another propellant system with its own
 tanks, valves and failure modes on a stage whose entire argument is simplicity.
 
 **Thrust vector control was by gimballing the engine**, with flexible lines from the tanks to the
-chamber allowing the movement, a component class with its own design criteria
-monograph\[[Liquid Rocket Lines, Bellows 1977][research_nasa_sp8123]\]. Attachment to the second stage below used an aluminium
+chamber allowing the movement, a component class that the same monograph series
+covers\[[Liquid Rocket Lines, Bellows 1977][research_nasa_sp8123]\]. Attachment to the second stage below used an aluminium
 interstage and a separation ring cut by a linear shaped charge, with four sets of springs pushing the
 spent stage away once the ring was severed\[[Anderson et al 1999][research_anderson_usfe]\].
 
@@ -896,8 +896,8 @@ spent stage away once the ring was severed\[[Anderson et al 1999][research_ander
 
 Engine development ran in two series at the E-3 test cell at the Stennis Space Center, a vertical-fire
 skid-based facility whose run tanks held 500 gallons of oxidiser and 250 of fuel, limiting any single
-run to about 150 seconds at nominal flow\[[Ross et al 2000][research_ross_2000]\]. **The facility limit is why no test ever reached
-the 200 second design burn**, and the paper says so plainly. The 1999 paper gives the same tanks a limit
+run to about 150 seconds at nominal flow\[[Ross et al 2000][research_ross_2000]\]. **The facility limit kept every test short of
+the 200 second design burn**, as the paper states. The 1999 paper gives the same tanks a limit
 of 140 seconds\[[Anderson et al 1999][research_anderson_usfe]\].
 
 The two development series ran in campaigns beginning in late 1998 and concluding in early 2000\[[Ross et al 2000][research_ross_2000]\].
@@ -914,19 +914,19 @@ injector and chamber at the higher decomposition temperature. It tested the flig
 and catalyst bed, compared it against the cartridge bed, and concluded with a 150 second run using the
 ring injector and a silica and quartz phenolic nozzle\[[Ross et al 2000][research_ross_2000]\].
 
-**The paper reports that the engine met its mission-derived requirements with a perfect safety record**,
+**The paper reports that the engine met its mission-derived requirements with a perfect safety record**\[[Ross et al 2000][research_ross_2000]\],
 which for a concentrated peroxide system run at a national test facility is a substantive claim rather
 than a courtesy. **That claim was accurate for the test series it described and it did not stay true of
 the facility.** In December 2000, five months after the paper was presented, an overpressurisation
 incident at the Stennis Space Center during work on advanced catalyst beds and high concentration
 peroxide formulations damaged both facility infrastructure and test hardware, and an investigation board
 was convened\[[Ross et al 2001][research_ross_2001]\]. **Whether that incident involved this engine
-is not established by the published abstract**, and this article does not assert that it did. What the
-record does support is narrower and still worth stating, which is that the safety claim describes a
-completed test series rather than the programme, and that the peroxide test infrastructure the
+is not established by the published abstract**, and this article does not assert that it did. The
+record supports a narrower point. The safety claim describes a
+completed test series rather than the programme, and the peroxide test infrastructure the
 programme depended on suffered a serious event within the year.
 
-**The infrastructure was itself a running programme and its documentation says so.** The Stennis
+**The test infrastructure was a continuing programme, documented as such.** The Stennis
 Space Center published lessons learned from propulsion ground testing with high test
 peroxide\[[Bruce et al 2002][research_bruce_taylor_2002]\] and an account of expanding that capability in
 the E-Complex\[[Jacks and Beisler 2003][research_jacks_beisler_2003]\], and NASA issued a dedicated hazards
@@ -941,8 +941,8 @@ lean\[[Ross et al 2000][research_ross_2000]\]. Catalyst bed pressure drop rose s
 ageing signature and sets a life limit the published data does not quantify. **A stage whose catalyst
 bed has an unstated life is not ready to fly.** The status section of the instability paper does state
 that the life of the ablative chamber had been verified to exceed its 200 second requirement with
-sufficient margin\[[Johnson et al 2000][research_johnson_anderson_2000]\], but no single run exceeded 150 seconds and the record does not say how that
-verification was made.
+sufficient margin\[[Johnson et al 2000][research_johnson_anderson_2000]\], but no single run exceeded 150 seconds and the method of that
+verification is not described.
 
 **Structural testing succeeded and then the programme did not.** The integral structure was
 hydrostatically proof tested at Orbital's Chandler facility between 15 and 17 April 2003, both
@@ -975,36 +975,36 @@ reported schedule, given above, was a flight demonstration by May 2007.
 argument from silence and marks it as such. The stage does not appear in any launch record, no
 subsequent publication reports flight results, and the designation was never used officially
 again\[[USFE X-42][ref_x42_parsch]\].
-**What can be said positively is narrower**, which is that the published record ends with a destroyed
+**The positive statement is narrower.** The published record ends with a destroyed
 first article, a leaking second article, and a schedule that was never reported as having been met.
 
 ## Comparison With Ground Prediction
 
 **The stage never flew, so flight returned nothing to set beside any ground prediction.** No flight is
-recorded, and the section headed The Flight Test Record states that absence as an argument from
-silence. What the record does allow is a narrower comparison, between what the programme specified or
+recorded, and The Flight Test Record above states that absence as an argument from
+silence. The record does allow a narrower comparison, between what the programme specified or
 predicted before testing and what the ground tests at the Stennis Space Center and at Chandler
-returned. Those comparisons are argued in the sections headed Dependent Systems and The Flight Test
-Record, and this section gathers them.
+returned. Dependent Systems and The Flight Test
+Record argue those comparisons, and this section gathers them.
 
 **The erosion allowance was met on average, and not everywhere.** The programme set an allowable throat
 erosion rate of 0.001 inches per second for the 200 second design burn\[[Ross et al 2000][research_ross_2000]\]. The 31 second test measured
 0.0009 inches per second directly with the film-cooled ring and steam port injector, and the chamber
 pressure history of the 140 second test implies an average of 0.00050 with the steam port injector, for
 which the paper nevertheless concluded that the mixture ratio would have to fall to 4.5 to meet the
-erosion constraint. The analysis in the section headed Dependent Systems shows that the cavitating
+erosion constraint. The erosion analysis above shows that the cavitating
 venturis hold thrust within about one percent across a full burn at the allowable rate, which is the
 ground for the paper's statement that the thrust requirement of 10,000 pounds within ten percent was
 achievable.
 
 **The autoignition requirement was met as designed.** The contraction ratio of about seven was chosen
 so that the fuel would ignite on contact with the decomposition products, and the engine needed no
-ignition system and demonstrated multiple restarts in the first development series.
+ignition system and demonstrated multiple restarts in the first development series\[[Ross et al 2000][research_ross_2000]\].
 
 **The design burn itself was never demonstrated in one run.** The run tanks of the test cell limited
 any single run to about 150 seconds at nominal flow, so no test reached the 200 second design burn, and
-the chamber life the 2000 status statement reports as verified rests on a method the record does not
-describe.
+the 2000 status statement reports the chamber life as verified without describing the
+method\[[Ross et al 2000][research_ross_2000]\]\[[Johnson et al 2000][research_johnson_anderson_2000]\].
 
 **One ground result was not foreseen in the published record.** A low frequency catalyst bed
 instability appeared as the peroxide flow rose through about one third of the design rate in
@@ -1016,32 +1016,32 @@ record does not say that any analysis predicted the instability before it appear
 **The injector trade returned a result that no single design satisfied.** The Gamma derivative injector
 reached a vacuum specific impulse of 298 seconds against the ring injector's 275 and produced the worst
 throat heating of the designs tested, so the measured outcome forced a choice between the two objectives
-rather than confirming either design.
+rather than confirming either design\[[Ross et al 2000][research_ross_2000]\].
 
-**The published operating point is a design point that moved between papers.** The section headed
-Dependent Systems sets the 2000 engine table beside the 1999 and instability-paper versions, and shows
-the implied thrust coefficient sitting just below the ideal values, which is where a real nozzle
-belongs. **These are checks of the sources against standard relations rather than comparisons of a
+**The published operating point is a design point that moved between papers.** The propulsion
+analysis sets the 2000 engine table beside the 1999 and instability-paper versions, and shows
+the implied thrust coefficient sitting just below the ideal values, as nozzle
+losses require. **These are checks of the sources against standard relations rather than comparisons of a
 pre-test prediction with a
-measurement**, and they are reported in the section headed Dependent Systems on that basis.
+measurement**, and Dependent Systems presents them on that basis.
 
 **The structure passed its ground prediction and then failed a different test.** The integral structure
 was hydrostatically proof tested at 1,650 pounds per square inch, 150 percent of its operating
 pressure, in April 2003 and cycled 50 times to the operating pressure at under half its strain
 allowables\[[Guerrero and others 2004][research_guerrero_2004]\], and a tank later failed during a helium pressurisation test and destroyed the
-engine\[[USFE X-42][ref_x42_parsch]\]. The membrane relation in
-the section headed Sizing From First Principles predicts the mass of a tank and not its failure mode,
-and the section headed Where the Framing Breaks Down argues why it cannot explain this outcome. **The
+engine\[[USFE X-42][ref_x42_parsch]\]. The membrane relation derived
+under Sizing From First Principles predicts the mass of a tank and not its failure mode,
+and Where the Framing Breaks Down argues why it cannot explain this outcome. **The
 cause of the failure was never disclosed**, so no prediction can be set against it.
 
 **The quantity a flight would have settled was never measured.** The velocity increment the stage could
-deliver appears in the section headed Sizing From First Principles only as a family, because the inert
+deliver appears in the sizing analysis only as a family, because the inert
 mass was never published, and no flight returned a number against which to test it.
 
 ## What the Data Changed
 
-**The vehicle influenced nothing and the technologies influenced a great deal, and separating those two
-statements is the honest reading.**
+**The vehicle influenced nothing and the technologies influenced a great deal, and the two
+statements need to be kept apart.**
 
 **The stage itself is a dead end.** No source cited here records an operational pop-up upper stage or
 a Modular Insertion Stage that was built, and the survey's upper stage cluster carries no continuing
@@ -1054,16 +1054,16 @@ ablative hardware\[[Ross et al 2000][research_ross_2000]\], and the contemporary
 
 **The structural work outlived it more clearly still.** The integral tank was one branch of an Air
 Force Research Laboratory composite tankage portfolio that also pursued linerless and self-healing
-cryogenic tankage and toroidal geometries\[[Guerrero and others 2004][research_guerrero_2004]\]. **The specific achievement, being a filament wound
+cryogenic tankage and toroidal geometries\[[Guerrero and others 2004][research_guerrero_2004]\]. **The achievement, a filament wound
 common-bulkhead vessel qualified for contact with concentrated peroxide, addressed the materials
-compatibility problem that had blocked composite tanks for that propellant**, and the paper describing
+compatibility problem of composite tanks for that propellant**, and the paper describing
 it was published in a structures journal rather than a propulsion one.
 
 **The clearest negative finding concerns the failure itself.** A tank failure during helium
 pressurisation, followed by leakage in the replacement, is a materials and manufacturing problem in
-exactly the component the programme existed to prove. **The stage was destroyed by the technology it
+the component the programme existed to prove. **The stage was destroyed by the technology it
 was built to demonstrate**, and that is a more informative outcome than a launch failure would have
-been, because it locates the difficulty precisely.
+been, because it shows where the difficulty lay.
 
 ## The Contemporary Literature
 
@@ -1156,7 +1156,7 @@ been, because it locates the difficulty precisely.
 
 **The upper stage cluster is the mirror image and it is the bleakest number in the table.** It carries 39 percent of its work from before 2000, the largest share among the central clusters after the nozzle cluster's 40 percent, and it is the smallest central cluster in absolute terms. **The pop-up insertion mission was posed, worked on, and then left without a continuing literature**, and the cluster's modern entries serve other missions, as its own description below counts.
 
-**The cluster covering the technology that actually ended the programme is among the youngest of the central clusters.** Composite pressure vessels stand at 54 percent from 2015 onward, behind only the ablative cluster at 56 percent and ahead of the peroxide cluster at 53 among the nine, although several clusters outside that set are younger still, the youngest being student and sounding rocketry at 76 percent, rocket engine cooling at 64 and fault diagnosis at 61. **The date profile says that the field the tank belongs to is still active.** A reader looking for the part of this vehicle that has a future should look there rather than at the stage.
+**The cluster covering the technology whose failure ended the programme is among the youngest of the central clusters.** Composite pressure vessels stand at 54 percent from 2015 onward, behind only the ablative cluster at 56 percent and ahead of the peroxide cluster at 53 among the nine, although several clusters outside that set are younger still, the youngest being student and sounding rocketry at 76 percent, rocket engine cooling at 64 and fault diagnosis at 61. **By its date profile, the field of the tank remains active.** A reader looking for the part of this vehicle that has a future should look there rather than at the stage.
 
 ### Thrust chambers, injectors and combustion
 
@@ -1368,7 +1368,7 @@ been, because it locates the difficulty precisely.
 through it misleads.**
 
 **First, the relation says nothing about cost, and cost was the stated objective.** The programme called
-itself low cost propulsion and the word appears in the title of its founding paper. A pressure-fed
+itself low cost propulsion and the word appears in the title of its founding paper\[[Anderson and others 1998][research_anderson_1998]\]. A pressure-fed
 stage is chosen because turbomachinery is expensive to develop, not because the mass relation favours
 it, and by the mass relation alone a pump-fed stage wins comfortably. **The article derives why the
 pressure-fed choice was survivable and not why it was made**, and those are different questions.
@@ -1377,7 +1377,7 @@ pressure-fed choice was survivable and not why it was made**, and those are diff
 vessel that passes a hydrostatic proof at 150 percent and fifty cycles to its operating pressure and
 then fails during a helium pressurisation points to liners, joints, bosses, permeation, the adhesive
 bond, or the difference between a liquid and a gas as the pressurising medium. **None of those appear
-anywhere in the keystone**, which is precisely why the keystone cannot explain the outcome of the
+anywhere in the keystone**, so the keystone cannot explain the outcome of the
 programme.
 
 **Third, treating the vehicle as a technology demonstrator understates how much of it was ordinary.**
@@ -1477,7 +1477,7 @@ corroboration extends to the component and not to every figure.
 
 ### Historical Fact
 
-**These statements rest on the primary record and are not in dispute.**
+**These statements are drawn from the primary record and are not in dispute.**
 
 The Air Force Research Laboratory began a formal pop-up upper stage effort in 1997 under the name
 Modular Insertion Stage. Studies sponsored that year concluded that high concentration hydrogen
@@ -1547,19 +1547,19 @@ and fits inside the ten inch chamber with three percent to spare. **Those number
 different sections for different purposes and they agree.**
 
 The chamber Mach number of 0.083 comes from the contraction ratio through the isentropic area relation,
-and places the chamber within a tenth of a percent of stagnation temperature, which is the condition
-the paper's autoignition requirement is really asking for.
+and places the chamber within a tenth of a percent of stagnation temperature, the condition
+that the paper's autoignition requirement calls for.
 
 The ideal vacuum thrust coefficient of 1.884 at a ratio of specific heats of 1.20 and 1.835 at 1.25 is
-the area ratio relation solved at an expansion ratio of 40. **The implied 1.808 sits below both, which
-is where a real nozzle belongs.**
+the area ratio relation solved at an expansion ratio of 40. **The implied 1.808 sits below both, and
+losses can only push a real nozzle downward.**
 
 The 195 pound per square inch design pressure difference across the common bulkhead with the oxidiser
 tank higher covers the 136 pound per square inch catalyst bed drop that only the oxidiser passes
 through.
 
-The isotensoid winding angle of 54.7 degrees rests on the two-to-one ratio of hoop to axial membrane
-load in a pressurised cylinder and on nothing else.
+The isotensoid winding angle of 54.7 degrees follows from the two-to-one ratio of hoop to axial membrane
+load in a pressurised cylinder alone.
 
 The vacuum thrust coefficient falls by under one percent as the expansion ratio drops from 40 to 32.7,
 which is the change corresponding to a full 200 second burn at the allowable erosion rate.
@@ -1585,8 +1585,8 @@ costing about 8.8 percent.
 
 Because cavitating venturis fix the mass flow, the product of chamber pressure and throat area is
 constant, so thrust follows the thrust coefficient alone and a 22.5 percent growth in throat area
-produces about a one percent change in thrust. **The ablative nozzle and the cavitating venturi are one
-design decision rather than two.**
+produces about a one percent change in thrust. **The ablative nozzle and the cavitating venturi are a single
+design decision.**
 
 The instability onset at about 12 pounds per second lies above the 10 and 20 percent throttle points and
 below design flow, so the chamber change was needed to pass through one third of design flow on the way
@@ -1604,8 +1604,8 @@ so.
 **The X-42A allocation and the Upper Stage Flight Experiment are contemporaneous rather than merely
 adjacent.** The allocation falls in late 1997 or early 1998, and NASA dates the start of the experiment
 with Orbital Sciences to December 1997\[[McNeal and Anderson 1999][research_mcneal_1999]\]. **This distinguishes the X-42 case from the X-41 case**, where
-the designation preceded its programme by years. The doubt about X-42 is of a different kind, being not
-that the pairing is anachronistic but that no official use ever confirmed it.
+the designation preceded its programme by years. The doubt about X-42 is of a different kind. The pairing
+is not anachronistic, but no official use ever confirmed it.
 
 **One date in this argument is weaker than the rest.** The January 1998 request for proposals rests on
 the designation survey alone, and no Air Force document stating it is available. The argument does not
@@ -1621,7 +1621,7 @@ period. This is a plausible common cause and it is not documented as one.
 family across assumed inert and payload masses rather than as a number. Across inert masses from 600
 to 1,000 pounds and payloads from none to 2,000 pounds, with the 110 second load, the family spans
 roughly 2,270 to 5,470 metres per second. **The inert mass is the one quantity that would turn that
-family into an answer**, and it is precisely the quantity a cancelled programme never publishes.
+family into an answer**, and it is the quantity a cancelled programme never publishes.
 
 **Why the tanks were sized for a 110 second burn when the engine was rated for 200 is not explained**,
 nor why their volume ratio corresponds to a mixture ratio near 5.0 rather than the 4.7 of the engine
@@ -1630,7 +1630,7 @@ table.
 **The decomposition temperature is derived here with constant specific heats and is an upper bound**,
 giving 780 degrees Celsius. The direction of the error is known from the assumption, since the heat
 capacity of steam rises with temperature, and no source cited here prints a measured value to compare
-it with, so the calculation bounds the temperature rather than confirming one.
+it with, so the calculation can only bound the temperature.
 
 **The pressurant figures are isothermal lower bounds.** Real blowdown cools the gas, so the 25.4
 kilograms and the 13.5 cubic foot bottle are the least that would have worked, not estimates of what was
@@ -1647,7 +1647,7 @@ Framing Breaks Down.
 places it at the same centre during peroxide work in the same period and says no more, and this article
 says no more either.
 
-**No flight is recorded**, and the section headed The Flight Test Record treats that as an argument
+**No flight is recorded**, and the flight test discussion treats that as an argument
 from silence.
 
 **Whether the X-42 designation properly belongs to this vehicle is not settled**, and the authoritative
@@ -1658,7 +1658,7 @@ vehicle.
 
 **One source used in the Dependent Systems section is an unfinished paper.** NASA's Technical Reports
 Server holds it as a 1999 paper under contract NAS8-98040, and it carries an unwritten section, an
-uncorrected edit and an editorial note to a co-author. **It is the only source for several subsystem
+uncorrected edit and an editorial note to a co-author\[[Anderson et al 1999][research_anderson_usfe]\]. **It is the only source for several subsystem
 details**, being the nitrogen attitude control tank pressure, the separation arrangement and the
 propellant management thrusters. Its helium pressurant tank is corroborated\[[DeLay and Munafo 2001][research_delay_2001]\], although the
 corroborating paper describes a metallic permeation barrier where this one describes a plastic liner.
@@ -1713,7 +1713,7 @@ Breaks Down rather than closed.
 ## Conclusion
 
 **The Upper Stage Flight Experiment asked whether a pressure-fed stage could be made light enough to be
-worth flying, and the hardware it produced says that the answer is yes and that the hard part is
+worth flying, and the hardware it produced shows that the answer is yes and that the hard part is
 somewhere else.**
 
 The mass relation that governs a pressure vessel leaves three levers, and this vehicle pulled two of
@@ -1730,7 +1730,7 @@ thrust nearly independent of the geometry that was changing.
 **The programme was then destroyed by the component it existed to prove.** A tank that had passed a
 hydrostatic proof at 1,650 pounds per square inch and fifty cycles to its 1,100 pound operating pressure
 failed during a helium pressurisation test and took the engine with it, a second article leaked, and no
-flight ever followed. **The failure is more
+flight ever followed\[[Guerrero and others 2004][research_guerrero_2004]\]\[[USFE X-42][ref_x42_parsch]\]. **The failure is more
 informative than a launch failure would have been**, because it locates the difficulty precisely in the
 composite pressure vessel and not in the propulsion, the propellant choice or the mass relation that
 justified them.
@@ -1739,15 +1739,15 @@ justified them.
 contract began, which makes the pairing better founded than the X-41 case examined in the preceding
 article, and it was then never used officially again, which makes it worse founded than any confirmed
 designation. Four years later the same number was applied informally to a winged reusable booster that
-shared a contractor with the stage and nothing else, and the authoritative survey now declines to tie
-the number to either. **Three of the four articles from the X-39 onward have found a designation that
-may not belong to its vehicle**, which makes the pattern a matter of how the number space was
+had little but its contractor in common with the stage, and the authoritative survey now declines to tie
+the number to either\[[USFE X-42][ref_x42_parsch]\]. **Three of the four articles from the X-39 onward have found a doubtful pairing of
+designation and vehicle**, which makes the pattern a matter of how the number space was
 administered in the late 1990s.
 
 **What survives is the data.** The stage is gone, the designation is unattached, and the two things the
 programme was built to demonstrate, being a peroxide and hydrocarbon engine at useful thrust and a
-composite common-bulkhead tank compatible with concentrated peroxide, both became foundations that later
-work stands on. **That is a reasonable return for a vehicle that never left the ground.**
+composite common-bulkhead tank compatible with concentrated peroxide, both reached ground test before
+the programme ended. **That is a reasonable return for a vehicle that never left the ground.**
 
 ## References
 

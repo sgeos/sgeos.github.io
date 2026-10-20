@@ -13,9 +13,9 @@ series_index: 10
 <!-- A306 -->
 <script>console.log("A306");</script>
 
-The [Bell X-9 Shrike][ref_x9] was lowered on a trapeze out of the bomb bay of a modified bomber, dropped, and then flown to a target eighty kilometres away by a man watching a radar screen in the aircraft that had just released it. It carried no pilot, it was never intended to be recovered except for its instrument package, and it existed to prove out a nuclear standoff missile. This article is the tenth in the [X-Planes series][related_post_a297_xplanes_framing], following the [X-1][related_post_a298_bell_x1], the [X-2][related_post_a299_bell_x2], the [X-3][related_post_a300_douglas_x3], the [X-4][related_post_a301_northrop_x4], the [X-5][related_post_a302_bell_x5], the [X-6][related_post_a303_convair_x6], the [X-7][related_post_a304_lockheed_x7], and the [X-8][related_post_a305_aerojet_x8].
+The [Bell X-9 Shrike][ref_x9] was launched from a trapeze in the bomb bay of a modified bomber and then flown toward a target eighty kilometres away by radio commands from the aircraft that had just released it. It carried no pilot, it was never intended to be recovered except for its instrument package, and it existed to prove out a nuclear standoff missile. This article is the tenth in the [X-Planes series][related_post_a297_xplanes_framing], following the [X-1][related_post_a298_bell_x1], the [X-2][related_post_a299_bell_x2], the [X-3][related_post_a300_douglas_x3], the [X-4][related_post_a301_northrop_x4], the [X-5][related_post_a302_bell_x5], the [X-6][related_post_a303_convair_x6], the [X-7][related_post_a304_lockheed_x7], and the [X-8][related_post_a305_aerojet_x8].
 
-It is the second article in a row whose subject is not an aircraft, and the two are not alike. **The X-8 had to bring data back. The X-9 had to take a command out.** The standard inventory of the series gives it a single page in [Jenkins Landis and Miller 2003 American X-Vehicles, An Inventory X-1 to X-50][book_jenkins_landis_miller_2003], the designation history is [Parsch 2002][ref_parsch_x9], and the vehicle-level compilations are [Miller 2001 The X-Planes, X-1 to X-45][book_miller_2001] and [Ordway and Wakeford 1960 International Missile and Spacecraft Guide][book_ordway_wakeford_1960].
+It is the second article in a row whose subject is not an aircraft, and the two are not alike. **The X-8 had to bring data back. The X-9 had to take a command out.** The standard inventory of the series gives it a single page in [Jenkins Landis and Miller 2003 American X-Vehicles, An Inventory X-1 to X-50][book_jenkins_landis_miller_2003], [Parsch 2002][ref_parsch_x9] gives the designation history, and the vehicle-level compilations are [Miller 2001 The X-Planes, X-1 to X-45][book_miller_2001] and [Ordway and Wakeford 1960 International Missile and Spacecraft Guide][book_ordway_wakeford_1960].
 
 ## The Research Question
 
@@ -23,7 +23,7 @@ Every vehicle in this series so far has had a keystone that is ultimately physic
 
 **The X-9's binding unknown is not physical. It is a control-loop problem, and its specification is a probability.**
 
-The military characteristics the Army Air Forces published on 15 July 1945 asked for a missile launched from between 20,000 and 45,000 feet, travelling at not less than 1,200 miles per hour, over a range of not less than 100 miles, that would **strike within 500 feet of the target 75 percent of the time**. Every other number in that requirement is a performance figure of the kind the earlier articles in this series have dimensioned repeatedly. The last one is different in kind. It is a statement about a distribution.
+The military characteristics the Army Air Forces published on 15 July 1945 asked for a missile launched from between 20,000 and 45,000 feet, travelling at not less than 1,200 miles per hour, over a range of not less than 100 miles, that would **strike within 500 feet of the target 75 percent of the time** \[[GAM-63 RASCAL][ref_rascal]\]. Every other number in that requirement is a performance figure of the kind the earlier articles in this series have dimensioned repeatedly. The last one is different in kind, because it describes a distribution.
 
 ### The Specification Is a Variance
 
@@ -31,7 +31,7 @@ A missile that misses by a random amount in two dimensions, with independent and
 
 $$P(R) = 1 - \exp\left( -\frac{R^{2}}{2\sigma^{2}} \right)$$
 
-with $\sigma$ the standard deviation along either axis. Inverting for the specification gives the variance the whole programme had to buy,
+with $\sigma$ the standard deviation along either axis. Inverting for the specification gives the variance the programme had to meet,
 
 $$\sigma = \frac{R}{\sqrt{-2 \ln \left( 1 - P \right)}} = \frac{500 \times 0.3048}{\sqrt{2 \ln 4}} = \frac{152.4}{1.665} = 91.5 \, \text{m}$$
 
@@ -39,15 +39,15 @@ which is 300 feet. The figure more usually quoted is the circular error probable
 
 $$\mathrm{CEP} = \sigma \sqrt{2 \ln 2} = 1.177 \, \sigma = 108 \, \text{m}$$
 
-**One hundred and eight metres at a hundred miles.** That single number is the X-9's keystone, and the rest of this article is an account of what it costs.
+**One hundred and eight metres at a hundred miles.** That number is the X-9's keystone, and the rest of this article is an account of what it costs.
 
-The estimation of that quantity from a finite number of flights is a subject in its own right, since a programme of twenty-two launches cannot measure a fiftieth percentile precisely. [Moranda 1959][research_moranda_1959] compares the available estimators, [Moranda 1960][research_moranda_1960] treats the effect of a bias, and [Kamat 1962][research_kamat_1962] extends the comparison. **A programme with twenty-two flights and a requirement stated at the seventy-fifth percentile is measuring the tail of a distribution with two dozen samples**, which is a difficulty the record does not appear to acknowledge.
+The estimation of that quantity from a finite number of flights is a subject in its own right, since a programme of twenty-two launches, the lower of the two reported totals, cannot measure a fiftieth percentile precisely. [Moranda 1959][research_moranda_1959] compares the available estimators, [Moranda 1960][research_moranda_1960] treats the effect of a bias, and [Kamat 1962][research_kamat_1962] extends the comparison. **A programme with twenty-two flights and a requirement stated at the seventy-fifth percentile is measuring the tail of a distribution with two dozen samples**, and no acknowledgement of that difficulty appears in the record.
 
 The size of that difficulty is computable. The relative standard error of a variance estimate from $n$ samples of a normal population is
 
 $$\frac{\sigma_{\hat{s}}}{s} \approx \frac{1}{\sqrt{2 \left( n-1 \right)}}$$
 
-which for twenty-two flights is 15 percent, so a circular error probable estimated from the whole programme carries a confidence interval of roughly plus or minus thirty percent at two standard errors. **A vehicle that measured 108 metres could not have been distinguished from one that measured 140.** The estimator itself is worth writing down. From $n$ impacts at radial distances $r_i$ from the mean point, the maximum-likelihood estimate of the axis standard deviation under the circular normal assumption is
+which for twenty-two flights is 15 percent, so a circular error probable estimated from every flight of the programme carries a confidence interval of roughly plus or minus thirty percent at two standard errors. **A vehicle that measured 108 metres could not have been distinguished from one that measured 140.** The estimator takes a simple form. From $n$ impacts at radial distances $r_i$ from the mean point, the maximum-likelihood estimate of the axis standard deviation under the circular normal assumption is
 
 $$\hat{\sigma} = \sqrt{\frac{1}{2n} \sum_{i=1}^{n} r_i^{2}}$$
 
@@ -55,7 +55,7 @@ and the circular error probable follows as $1.1774 \hat{\sigma}$. A bias changes
 
 $$m_{\text{rms}} = \sqrt{b^{2} + 2 \sigma^{2}}$$
 
-so a 50 metre bias on a 91.5 metre axis standard deviation gives 139 metres against 129 for the unbiased case, an inflation of only 8 percent that **twenty-two flights would not detect**. The problem of estimating a mean from few samples is [Student 1908][research_student_1908] and the two-dimensional case that a circular error probable actually requires is [Shultz 1963][research_shultz_1963], [Schulte and Dickinson 1968][research_schulte_1968], and [Gallagher 1969][research_gallagher_1969], with the navigation-accuracy version in [Swanson 1963][research_swanson_1963]. A bias, as opposed to a random error, changes the statistic in a way [Moranda 1960][research_moranda_1960] and [McNolty 1962][research_mcnolty_1962] both treat, and it is the failure mode that a small sample hides best.
+so a 50 metre bias on a 91.5 metre axis standard deviation gives 139 metres against 129 for the unbiased case, an inflation of only 8 percent that **twenty-two flights would not detect**. [Student 1908][research_student_1908] treats the problem of estimating a mean from few samples, and [Shultz 1963][research_shultz_1963], [Schulte and Dickinson 1968][research_schulte_1968], and [Gallagher 1969][research_gallagher_1969] work out the two-dimensional case that a circular error probable requires, with the navigation-accuracy version in [Swanson 1963][research_swanson_1963]. A bias, as opposed to a random error, changes the statistic in a way [Moranda 1960][research_moranda_1960] and [McNolty 1962][research_mcnolty_1962] both analyse. It is the failure mode that a small sample hides best.
 
 ### Why an Error Budget Is the Design
 
@@ -81,43 +81,43 @@ A radar of wavelength $\lambda$ and aperture $D$ has an angular beamwidth of rou
 
 $$\theta \approx \frac{\lambda}{D}$$
 
-and a tracking system exploiting the beam shape, by comparing returns in adjacent channels, resolves an angle finer than the beamwidth by a factor $k$ that for a good [monopulse][ref_monopulse] arrangement is of order twenty. The [beamwidth][ref_beamwidth] relation and the tracking accuracy that follows are [Skolnik 2008 Radar Handbook][book_skolnik_2008], [Barton 2004 Radar System Analysis and Modeling][book_barton_2004], and, for the monopulse case specifically, [Sherman and Barton 2011 Monopulse Principles and Techniques][book_sherman_2011]. The theoretical limit on an angle estimate from a noisy return is the Cramer and Rao bound of [Van Trees 2001 Detection, Estimation, and Modulation Theory][book_van_trees_2001], which makes the factor $k$ a function of signal-to-noise ratio rather than a constant. The resulting cross-range position error at a range $R$ is
+and a tracking system exploiting the beam shape, by comparing returns in adjacent channels, resolves an angle finer than the beamwidth by a factor $k$ that for a good [monopulse][ref_monopulse] arrangement is of order twenty. The [beamwidth][ref_beamwidth] relation and the tracking accuracy that follows are [Skolnik 2008 Radar Handbook][book_skolnik_2008], [Barton 2004 Radar System Analysis and Modeling][book_barton_2004], and, for the monopulse case, [Sherman and Barton 2011 Monopulse Principles and Techniques][book_sherman_2011]. The theoretical limit on an angle estimate from a noisy return is the Cramer and Rao bound of [Van Trees 2001 Detection, Estimation, and Modulation Theory][book_van_trees_2001], which makes the factor $k$ a function of signal-to-noise ratio rather than a constant. The resulting cross-range position error at a range $R$ is
 
 $$\varepsilon_{\perp} = \frac{R \, \theta}{k} = \frac{R \lambda}{k D}$$
 
-**The error is proportional to range.** That is the whole difficulty, and it cuts in opposite directions depending on which end of the engagement the radar is at.
+**The error is proportional to range.** That proportionality is the difficulty, and it cuts in opposite directions depending on which end of the engagement the radar is at.
 
 If the radar is in the launch aircraft, $R$ is the distance from the launcher to the missile, and the entire purpose of a standoff weapon is to make that distance large. For an X-band wavelength of 0.03 metres and a one metre antenna, the beamwidth is 0.030 radians, and at the specified hundred-mile range
 
 $$\varepsilon_{\perp} = \frac{(1.6 \times 10^{5})(0.030)}{20} = 240 \, \text{m}$$
 
-against a permitted total of 91.5 metres for every source combined. **The specification cannot be met from the launch aircraft at the specified range.** Setting the resolution equal to the whole error budget gives the range at which it could just be met,
+against a permitted total of 91.5 metres for every source combined. **The specification cannot be met from the launch aircraft at the specified range.** Setting the resolution equal to the total error budget gives the range at which it could just be met,
 
 $$R_{\max} = \frac{k \, \sigma_{\text{total}} D}{\lambda} = \frac{(20)(91.5)(1.0)}{0.03} = 61 \, \text{km}$$
 
-and using the circular error probable rather than the axis standard deviation gives 72 kilometres. **The X-9's demonstrated range was eighty kilometres.** The correspondence is close enough to be worth stating plainly and loosely enough that it should not be pressed. A vehicle guided by command from its launcher reaches about as far as its launcher's radar can resolve, and no further.
+and using the circular error probable rather than the axis standard deviation gives 72 kilometres. **The X-9's reported range was eighty kilometres** \[[Parsch 2002][ref_parsch_x9]\]. The correspondence is close enough to state plainly and loose enough that it should not be pressed. A vehicle guided by command from its launcher reaches about as far as its launcher's radar can resolve, and no further.
 
 If instead the radar is in the missile, $R$ is the distance from the missile to the target, and that distance goes to zero. The same relation then gives an error that **shrinks** throughout the terminal phase, so that a coarse seeker on a closing trajectory outperforms a fine sensor at standoff range. With a 0.4 metre antenna inside a 0.56 metre missile body the beamwidth is 0.075 radians, which is worse, and yet
 
 $$\varepsilon_{\perp}(2 \, \text{km}) = \frac{(2 \times 10^{3})(0.075)}{20} = 7.5 \, \text{m}$$
 
-That is the architecture the whole subsequent history adopted. A modern seeker is strapped down rather than gimballed, which trades mechanical complexity for a computation and brings a look-angle constraint the guidance law must respect, and the arrangement is [Yang et al 2022][research_yang_2022_2] with the constrained guidance in [Kim and Park 2022][research_kim_2022] and [Tahk et al 2024][research_tahk_2024]. Carrying two seekers of different kinds, which removes the single-sensor failure the X-9's link represented, is [Hirwani et al 2022][research_hirwani_2022].
+The subsequent history adopted this architecture. A modern seeker is strapped down rather than gimballed, which trades mechanical complexity for a computation and brings a look-angle constraint the guidance law must respect, and [Yang et al 2022][research_yang_2022_2] describe the arrangement, with the constrained guidance in [Kim and Park 2022][research_kim_2022] and [Tahk et al 2024][research_tahk_2024]. [Hirwani et al 2022][research_hirwani_2022] study the carriage of two seekers of different kinds, which removes the single-sensor failure the X-9's link represented.
 
-The consequence deserves stating as a relation rather than as two numbers. Writing $R_L$ for the range from the launcher and $R_T$ for the range to the target, the two architectures give
+The consequence is clearer as a relation than as two numbers. Writing $R_L$ for the range from the launcher and $R_T$ for the range to the target, the two architectures give
 
 $$\varepsilon_{\text{launcher}} \propto R_L, \qquad \varepsilon_{\text{missile}} \propto R_T$$
 
-and along a trajectory those two quantities move in opposite directions, since $R_L$ grows monotonically from zero while $R_T$ falls monotonically to zero. **The two architectures have opposite error gradients**, and that single fact explains the shape of the programme. It is also why the operational weapon the X-9 served was named for its guidance link and not for its warhead or its airframe. The RASCAL acronym stands for radar scanning link, and the link in question carried a radar picture from the missile back to an operator in the launch aircraft, who designated the aimpoint on it. The sensor rode the missile and the judgement stayed behind. The general form of that arrangement is [command guidance][ref_command_guidance], and its place among the alternatives is set out in [Garnell 1980 Guided Weapon Control Systems][book_garnell_1980], [Siouris 2004 Missile Guidance and Control Systems][book_siouris_2004], and [Zarchan 2012 Tactical and Strategic Missile Guidance][book_zarchan_2012].
+and along a trajectory those two quantities move in opposite directions, since $R_L$ grows monotonically from zero while $R_T$ falls monotonically to zero. **The two architectures have opposite error gradients**, and that fact explains the shape of the programme. It also explains why the operational weapon the X-9 served was named for its guidance link and not for its warhead or its airframe. The acronym of the [GAM-63 RASCAL][ref_rascal] stands for radar scanning link, and the link in question carried a radar picture from the missile back to an operator in the launch aircraft, who monitored or corrected the missile's course on it. The sensor rode the missile and the judgement stayed behind. The general form of that arrangement is [command guidance][ref_command_guidance], and its place among the alternatives is set out in [Garnell 1980 Guided Weapon Control Systems][book_garnell_1980], [Siouris 2004 Missile Guidance and Control Systems][book_siouris_2004], and [Zarchan 2012 Tactical and Strategic Missile Guidance][book_zarchan_2012].
 
-### Where the Tracking Error Actually Comes From
+### Sources of Tracking Error
 
-The beamwidth argument above treats the factor $k$ as a property of the radar. It is not. It is a property of the radar, the target, and the noise, and the three error sources that set it were being identified in exactly the years the X-9 flew.
+The beamwidth argument above treats the factor $k$ as belonging to the radar alone. In fact it depends on the radar, the target, and the noise, and the three error sources that set it were being identified in the same years the X-9 flew.
 
 The first is thermal noise, which bounds the angle estimate from below. For a monopulse arrangement the angular error from receiver noise is
 
 $$\sigma_{\theta,\text{noise}} = \frac{\theta}{k_m \sqrt{2 \, (S/N)}}$$
 
-with $k_m$ the monopulse slope, of order 1.5. At a signal-to-noise ratio of 100 this gives $\theta/21$, which is where the factor of twenty assumed above comes from, and at a signal-to-noise ratio of 10 it gives $\theta/6.7$. **The resolution factor is not a constant but a function of range through the radar equation.** For a target of cross-section $\sigma_t$ illuminated by a transmitter of power $P_t$ and gain $G$, the received power is
+with $k_m$ the monopulse slope, of order 1.5. At a signal-to-noise ratio of 100 this gives $\theta/21$, the origin of the factor of twenty assumed above, and at a signal-to-noise ratio of 10 it gives $\theta/6.7$. **The resolution factor is not a constant but a function of range through the radar equation.** For a target of cross-section $\sigma_t$ illuminated by a transmitter of power $P_t$ and gain $G$, the received power is
 
 $$P_r = \frac{P_t G^{2} \lambda^{2} \sigma_t}{\left( 4\pi \right)^{3} R^{4}}$$
 
@@ -125,23 +125,23 @@ so that received power, and with it the signal-to-noise ratio, falls as the four
 
 $$\frac{S}{N} \propto \frac{1}{R^{4}}$$
 
-so the angular error degrades as $R^{2}$ once noise dominates rather than as $R$. The maximum accuracy attainable from a pulsed radar against noise was established by [Swerling 1956][research_swerling_1956], with the phased-array case in [Brennan 1961][research_brennan_1961] and the off-boresight monopulse case in [Berger 1971][research_berger_1971]. A beacon on the missile, which the X-9 carried, replaces the fourth-power law with a second-power one,
+so the angular error degrades as $R^{2}$ once noise dominates rather than as $R$. The maximum accuracy attainable from a pulsed radar against noise was established by [Swerling 1956][research_swerling_1956], with the phased-array case in [Brennan 1961][research_brennan_1961] and the off-boresight monopulse case in [Berger 1971][research_berger_1971]. A beacon on the missile replaces the fourth-power law with a second-power one,
 
 $$P_{r,\text{beacon}} = \frac{P_b G_b G \lambda^{2}}{\left( 4\pi R \right)^{2}}$$
 
-and is the reason command systems track beacons rather than skin returns. The improvement is large. At eighty kilometres against a one square metre target, the ratio of the two received powers is
+and this is why command systems track beacons instead of skin returns. The improvement is large. At eighty kilometres against a one square metre target, the ratio of the two received powers is
 
 $$\frac{P_{r,\text{beacon}}}{P_{r,\text{skin}}} = \frac{P_b G_b \left( 4\pi \right) R^{2}}{P_t G \sigma_t}$$
 
-which for a one watt beacon against a hundred kilowatt radar is $8 \times 10^{5}$ divided by the radar antenna gain $G$. For the one metre X-band antenna assumed earlier, whose gain $4\pi/\theta^{2}$ at the 0.030 radian beamwidth is about $1.4 \times 10^{4}$, that still leaves a factor of about 60 in the beacon's favour. **A one watt transmitter on the missile is worth more than a hundred kilowatts on the aircraft**, and that is the single most consequential design decision in a command-guidance system. The beacon as an engineered subsystem, including the decoder that lets the same link carry commands, is [Feldman et al 1962][research_feldman_1962] and [Philco Corp Palo Alto Ca 1963][research_philco_corp_palo_alto_ca_1963], and the later strapdown tracker that removes the launcher entirely is [Savage 1969][research_savage_1969].
+which for a one watt beacon against a hundred kilowatt radar is $8 \times 10^{5}$ divided by the radar antenna gain $G$. For the one metre X-band antenna assumed earlier, whose gain $4\pi/\theta^{2}$ at the 0.030 radian beamwidth is about $1.4 \times 10^{4}$, that still leaves a factor of about 60 in the beacon's favour. **A one watt transmitter on the missile is worth more than a hundred kilowatts on the aircraft**, and the choice of a beacon is the most consequential design decision in a command-guidance system. [Feldman et al 1962][research_feldman_1962] and [Philco Corp Palo Alto Ca 1963][research_philco_corp_palo_alto_ca_1963] treat the beacon as an engineered subsystem, including the decoder that lets the same link carry commands, and [Savage 1969][research_savage_1969] describes the later strapdown tracker that removes the launcher entirely.
 
 The second is scintillation, the fluctuation of the return as the target's aspect changes. [Brockner 1951][research_brockner_1951] measured the angular jitter it produces in conical-scanning trackers, and [Dunn et al 1959][research_dunn_1959] give the general treatment.
 
-The third is glint, and it is the most interesting because it does not average away. A target with more than one scattering centre presents an apparent centre that can lie **outside the target entirely**, because the phase front arriving at the antenna is not spherical. The apparent angular position wanders by an amount comparable to the target's own angular extent, so the error is
+The third is glint, the most interesting of the three because it does not average away. A target with more than one scattering centre presents an apparent centre that can lie **outside the target entirely**, because the phase front arriving at the antenna is not spherical. The apparent angular position wanders by an amount comparable to the target's angular extent, so the error is
 
 $$\sigma_{\theta,\text{glint}} \approx \frac{c_g \, L_t}{R}$$
 
-with $L_t$ the target's dimension and $c_g$ of order 0.3. **Glint error falls as one over range and noise error rises as range squared**, so there is a range at which the two are equal and the tracking is at its best, which for a five metre missile beacon at a signal-to-noise ratio scaling from the launcher is a few tens of kilometres. The theory is [Delano 1953][research_delano_1953], with the later development in [Lindsay 1968][research_lindsay_1968] and [Sims and Graf 1969][research_sims_1969], and the frequency-diversity remedy in [Jones et al 1970][research_jones_1970].
+with $L_t$ the target's dimension and $c_g$ of order 0.3. **Glint error falls as one over range and noise error rises as range squared**, so there is a range at which the two are equal and the tracking is at its best, which for a five metre missile beacon at a signal-to-noise ratio scaling from the launcher is a few tens of kilometres. The theory originates with [Delano 1953][research_delano_1953], with the later development in [Lindsay 1968][research_lindsay_1968] and [Sims and Graf 1969][research_sims_1969], and the frequency-diversity remedy in [Jones et al 1970][research_jones_1970].
 
 **None of these three sources appears in the beamwidth calculation, and together they are the reason a real command system does worse than geometry alone suggests.**
 
@@ -151,31 +151,31 @@ All three remain live subjects. Glint is now characterised for targets the perio
 
 ### The Architecture Comparison Was Being Made at the Time
 
-The argument this article reconstructs from a beamwidth was, in its qualitative form, contemporary. [Locke 1950][research_locke_1950] sets out the tactical limitations of beam-rider, command, and semi-active homing guidance side by side, which is precisely the comparison the X-9's programme was making, and [Tatum 1949][research_tatum_1949] sets out some of the problems of guided-missile development as they stood the year the X-9 first flew. The textbook consolidations arrive later, in [Levitt 1953][research_levitt_1953], [Clemow 1957][research_clemow_1957], and [Doersam 1965][research_doersam_1965].
+The argument this article reconstructs from a beamwidth was, in its qualitative form, contemporary. [Locke 1950][research_locke_1950] sets out the tactical limitations of beam-rider, command, and semi-active homing guidance side by side, the same comparison the X-9's programme was making, and [Tatum 1949][research_tatum_1949] sets out some of the problems of guided-missile development as they stood the year the X-9 first flew. The textbook consolidations arrive later, in [Levitt 1953][research_levitt_1953], [Clemow 1957][research_clemow_1957], and [Doersam 1965][research_doersam_1965].
 
-The third architecture in that comparison is worth dimensioning too, because it fails for a reason of its own. A beam rider flies down a beam projected from the launcher and senses its own displacement from the beam centre, so its lateral error is the beam's width at the missile's range multiplied by the fraction of a beamwidth the missile can sense,
+The third architecture in that comparison fails for a different reason and can be dimensioned the same way. A beam rider flies down a beam projected from the launcher and senses its displacement from the beam centre, so its lateral error is the beam's width at the missile's range multiplied by the fraction of a beamwidth the missile can sense,
 
 $$\varepsilon_{\text{beam}} = \frac{R \, \theta}{k_b}$$
 
-with $k_b$ of order ten rather than the twenty a monopulse tracker achieves, because the missile's receiver is small and its signal-to-noise ratio poor. At forty kilometres that is
+with $k_b$ of order ten, against the twenty a monopulse tracker achieves, because the missile's receiver is small and its signal-to-noise ratio poor. At forty kilometres that is
 
 $$\varepsilon_{\text{beam}} = \frac{(4 \times 10^{4})(0.03)}{10} = 120 \, \text{m}$$
 
-**Beam riding has the same range-proportional error as command guidance and a worse constant**, so it buys nothing except the removal of the command link, and the X-9 did not use it.
+**Beam riding has the same range-proportional error as command guidance and a worse constant**, so its only gain is the removal of the command link, and the X-9, which was guided by radio commands from its launcher \[[Parsch 2002][ref_parsch_x9]\], did not use it.
 
-**What the period sources do not contain is the arithmetic.** They compare the architectures on tactical grounds, being vulnerability to jamming, the burden on the launching aircraft, and the cost of the missile, and they do not derive the range limit from the antenna. That derivation is this article's, and the Epistemic State records it as such.
+**What the period sources do not contain is the arithmetic.** They compare the architectures on tactical grounds, and none of those consulted here derives the range limit from the antenna. That derivation is this article's, and the Epistemic State records it as such.
 
-### What Closes the Loop, and How Fast
+### The Operator in the Loop
 
 A loop closed through a human operator has a bandwidth the human sets. The crossover model of manual control holds that a trained operator adapts until the open loop behaves as an integrator with a pure time delay,
 
 $$Y_{\text{open}}(s) \approx \frac{\omega_c}{s} e^{-\tau s}$$
 
-in which $\tau$ is the operator's effective delay, of order 0.3 seconds including neuromuscular lag. The model and the measurements behind it are [McRuer and Krendel 1974 Mathematical Models of Human Pilot Behavior][book_mcruer_krendel_1974], with the broader treatment of the human as an element in a control loop in [Sheridan and Ferrell 1974 Man-Machine Systems][book_sheridan_ferrell_1974]. The experimental base was assembled through the 1960s by [Wilde and Westcott 1963][research_wilde_1963], [Young et al 1964][research_young_1964], and [Gagne and Wierwille 1966][research_gagne_1966], surveyed by [Mitchell 1964][research_mitchell_1964], and extended to the decision-making the crossover model omits by [Cohen and Ferrell 1969][research_cohen_1969]. The operator's information rate, which bounds how much of a display he can use, is [Baty 1970][research_baty_1970], and the optical-tracking case specifically is [Smith 1971][research_smith_1971] and [Price 1970][research_price_1970]. **The display is a component of the loop and not a convenience**, since the operator can only close a loop around what he can see, and the period's console engineering is [Fluhr 1963][research_fluhr_1963], [Mitchell and Kinney 1966][research_mitchell_1966_2], and [Drake 1967][research_drake_1967]. Radar presentation of a ground scene, which is what the RASCAL link actually carried, brings its own interpretation problem in the relief displacement and parallax of [Esten 1953][research_esten_1953].
+in which $\tau$ is the operator's effective delay, of order 0.3 seconds including neuromuscular lag. [McRuer and Krendel 1974 Mathematical Models of Human Pilot Behavior][book_mcruer_krendel_1974] presents the model and the measurements behind it, with the broader treatment of the human as an element in a control loop in [Sheridan and Ferrell 1974 Man-Machine Systems][book_sheridan_ferrell_1974]. The experimental base was assembled through the 1960s by [Wilde and Westcott 1963][research_wilde_1963], [Young et al 1964][research_young_1964], and [Gagne and Wierwille 1966][research_gagne_1966], surveyed by [Mitchell 1964][research_mitchell_1964], and extended to the decision-making the crossover model omits by [Cohen and Ferrell 1969][research_cohen_1969]. The operator's information rate, which bounds how much of a display he can use, is the subject of [Baty 1970][research_baty_1970], with the optical-tracking case in [Smith 1971][research_smith_1971] and [Price 1970][research_price_1970]. **The display is a component of the loop and not a convenience**, since the operator can only close a loop around what he can see, and the period's console engineering is documented in [Fluhr 1963][research_fluhr_1963], [Mitchell and Kinney 1966][research_mitchell_1966_2], and [Drake 1967][research_drake_1967]. Radar presentation of a ground scene, the content of the RASCAL link, brings its own interpretation problem in the relief displacement and parallax of [Esten 1953][research_esten_1953].
 
-**The X-9 flew before nearly all of that work was done.** The crossover model was published in the decade after the programme ended, so the operator's bandwidth was a thing the designers accommodated by experiment rather than by calculation.
+**The X-9 flew before nearly all of that work was done.** The crossover model was formalised in the decade after the programme ended, in the work that [McRuer and Krendel 1974 Mathematical Models of Human Pilot Behavior][book_mcruer_krendel_1974] collects, so the operator's bandwidth was a thing the designers accommodated by experiment and not by calculation.
 
-The field it became is now about how much of the loop to give the human rather than how fast he can close it. [Liu and Kaber 2025][research_liu_2025_3] model the proportion of a task that should be automated, [An and Niu 2025][research_an_2025] allocate functions dynamically as workload changes, and [Tong et al 2026][research_tong_2026] measure how presentation speed cuts both ways. Situation awareness, which is the quantity the X-9's operator had least of, is [Houweling et al 2024][research_houweling_2024] and [Chen et al 2021][research_chen_2021_2], with the interface design problem in [Friedrich and Vollrath 2021][research_friedrich_2021]. **Whether the operator believes the automation has become its own subject**, in [Grindley et al 2026][research_grindley_2026] and [Wang et al 2024][research_wang_2024_2], and it is a question the X-9's designers never had to ask because there was nothing to believe. Stability with a phase margin $\phi_m$ then requires
+The field it became is now about how much of the loop to give the human rather than how fast he can close it. [Liu and Kaber 2025][research_liu_2025_3] model the proportion of a task that should be automated, [An and Niu 2025][research_an_2025] allocate functions dynamically as workload changes, and [Tong et al 2026][research_tong_2026] measure how presentation speed cuts both ways. Situation awareness, the quantity the X-9's operator had least of, is studied by [Houweling et al 2024][research_houweling_2024] and [Chen et al 2021][research_chen_2021_2], with the interface design problem in [Friedrich and Vollrath 2021][research_friedrich_2021]. **Whether the operator believes the automation has become its own subject**, in [Grindley et al 2026][research_grindley_2026] and [Wang et al 2024][research_wang_2024_2]. The X-9's designers never had to ask that question, because there was nothing to believe. Stability with a phase margin $\phi_m$ then requires
 
 $$\omega_c \le \frac{\pi/2 - \phi_m}{\tau}$$
 
@@ -183,7 +183,7 @@ which for a 45 degree margin and a 0.3 second delay gives
 
 $$\omega_c \le \frac{1.571 - 0.785}{0.3} = 2.6 \, \text{rad/s}$$
 
-The missile's own short-period motion is considerably faster than that. Taking a supersonic normal-force slope of
+The missile's short-period motion is considerably faster than that. Taking a supersonic normal-force slope of
 
 $$C_{N\alpha} = \frac{4}{\sqrt{M^{2}-1}} = \frac{4}{\sqrt{1.25}} = 3.58 \ \text{per radian}$$
 
@@ -201,37 +201,37 @@ $$M_{\alpha} = q S C_{N\alpha} \, \Delta x = (3.06 \times 10^{4})(6.5)(3.58)(0.5
 
 $$\omega_n = \sqrt{\frac{M_{\alpha}}{I_y}} = \sqrt{\frac{3.6 \times 10^{5}}{6.4 \times 10^{3}}} = 7.5 \, \text{rad/s}$$
 
-The supersonic lift-slope relation used here is the linearised result of [Nielsen 1960 Missile Aerodynamics][book_nielsen_1960] and [Anderson 2002 Modern Compressible Flow][book_anderson_2002_modern_compressible], and the rigid-body equations it feeds are [Etkin and Reid 1996 Dynamics of Flight, Stability and Control][book_etkin_reid_1996] and [Blakelock 1991 Automatic Control of Aircraft and Missiles][book_blakelock_1991]. **The missile is about three times faster than the man flying it.** A human cannot stabilise a vehicle whose natural motion outruns his own bandwidth, so the operator cannot be given the control surfaces. He must be given a slower quantity to command, with an automatic inner loop holding the fast motion. That is why the X-9 needed an autopilot, and it is a conclusion about architecture reached from two time constants and not from preference.
+The supersonic lift-slope relation used here is the linearised result of [Nielsen 1960 Missile Aerodynamics][book_nielsen_1960] and [Anderson 2002 Modern Compressible Flow][book_anderson_2002_modern_compressible], and the rigid-body equations it feeds are [Etkin and Reid 1996 Dynamics of Flight, Stability and Control][book_etkin_reid_1996] and [Blakelock 1991 Automatic Control of Aircraft and Missiles][book_blakelock_1991]. **The missile is about three times faster than the man flying it.** A human cannot stabilise a vehicle whose natural motion outruns his own bandwidth, so the operator cannot be given the control surfaces. He must be given a slower quantity to command, with an automatic inner loop holding the fast motion. The X-9 needed an autopilot for this reason, a conclusion about architecture reached from two time constants and not from preference.
 
-The accuracy an operator actually achieves tracking from an aircraft was measured directly, in an airborne simulator, by [Douvillier et al 1956][research_douvillier_1956_2]. **That is the closest thing in the accessible literature to a measurement of the X-9's keystone quantity**, and it was made by the National Advisory Committee for Aeronautics rather than by the programme that needed it. A comparable accuracy question for a tracked object of known ballistics, which is how a range establishes its own instrumental error, is [Lenhard et al 1963][research_lenhard_1963].
+The accuracy an operator achieves tracking from an aircraft was measured directly, in an airborne simulator, by [Douvillier et al 1956][research_douvillier_1956_2]. **The simulator study is the closest thing in the accessible literature to a measurement of the X-9's keystone quantity**, and the National Advisory Committee for Aeronautics made it, not the programme that needed it. [Lenhard et al 1963][research_lenhard_1963] address a comparable accuracy question for a tracked object of known ballistics, which is how a range establishes its own instrumental error.
 
 ## Programme Origin
 
-The requirement that produced the X-9 was written on 15 July 1945. Trinity was fired on 16 July and Hiroshima on 6 August. **The specification that dimensioned this vehicle predates the first demonstration of the weapon it would eventually carry by one day**, and that fact is the source of most of what is strange about the programme.
+The requirement that produced the X-9 was written on 15 July 1945 \[[GAM-63 RASCAL][ref_rascal]\]. [Trinity][ref_trinity] was fired on 16 July and [Hiroshima][ref_hiroshima] was bombed on 6 August. **The specification that dimensioned this vehicle predates the first demonstration of the weapon it would eventually carry by one day**, and that fact is the source of most of what is strange about the programme.
 
-The Army Air Forces had watched Germany air-launch more than a thousand [V-1][ref_v1] missiles from Heinkel bombers and had repeated the experiment domestically with B-17 aircraft and the [Republic-Ford JB-2][ref_jb2], a copy of the V-1. The July 1945 characteristics asked for a supersonic successor. That became project MX-767, Mastiff, and Bell received a feasibility study contract on 1 April 1946.
+The Army Air Forces had watched Germany air-launch more than a thousand [V-1][ref_v1] missiles from Heinkel bombers and had repeated the experiment domestically with B-17 aircraft and the [Republic-Ford JB-2][ref_jb2], a copy of the V-1. The July 1945 characteristics asked for a supersonic successor. That became project MX-767, Mastiff, and Bell received a feasibility study contract on 1 April 1946 \[[GAM-63 RASCAL][ref_rascal]\].
 
-Bell spent eighteen months on it and concluded that rocket propulsion could not deliver the requested range. The requirement was reduced from 300 miles to 100. In May 1947 Bell received a development contract for a supersonic air-to-surface missile compatible with the [B-29][ref_b29], the [B-36][ref_b36], and the [B-50][ref_b50], under project MX-776. Bell's effort was led by [Walter Dornberger][ref_dornberger], who had directed the German army rocket programme at [Peenemunde][ref_peenemunde] and who had been in American custody two years earlier, having arrived through [Operation Paperclip][ref_paperclip]. His own account of the German programme is [Dornberger 1954 V-2][book_dornberger_1954] and the standard history is [Neufeld 1995 The Rocket and the Reich][book_neufeld_1995]. **The continuity is worth noticing rather than passing over.** The man who ran the programme that produced the V-1's ballistic cousin was, ten years later, running the American programme to build the V-1's supersonic successor, and the vehicle in this article is the testbed for it.
+Bell spent eighteen months on it and concluded that rocket propulsion could not deliver the requested range. The requirement was reduced from 300 miles to 100. In May 1947 Bell received a development contract for a supersonic air-to-surface missile compatible with the [B-29][ref_b29], the [B-36][ref_b36], and the [B-50][ref_b50], under project MX-776 \[[GAM-63 RASCAL][ref_rascal]\]. Bell's effort was led by [Walter Dornberger][ref_dornberger], who had directed the German army rocket programme at [Peenemunde][ref_peenemunde], who had been held in British detention for two years after the war, and who came to the United States through [Operation Paperclip][ref_paperclip] and joined Bell in 1950 \[[Walter Dornberger][ref_dornberger]\]. He gave his own account of the German programme in [Dornberger 1954 V-2][book_dornberger_1954], and [Neufeld 1995 The Rocket and the Reich][book_neufeld_1995] is the standard history. **The continuity deserves notice.** The man who ran the programme that produced the V-1's ballistic cousin was, ten years later, running the American programme to build the V-1's supersonic successor, and the vehicle in this article is the testbed for it.
 
-**The Air Force then split the project, and the split is why there is an X-9 at all.** MX-776A would build a reduced-scale testbed, the RTV-A-4 Shrike, to develop the aerodynamic configuration, the radio control system, the rocket propulsion, and the procedures for checking out and launching an air-to-ground missile. MX-776B would build the operational weapon, the ASM-A-2 and later B-63 and [GAM-63 RASCAL][ref_rascal]. In 1951 the RTV-A-4 was redesignated X-9.
+**The Air Force then split the project, and the split is why there is an X-9 at all.** MX-776A would build a reduced-scale testbed, the RTV-A-4 Shrike, to develop the aerodynamic configuration, the radio control system, the rocket propulsion, and the procedures for checking out and launching an air-to-ground missile. MX-776B would build the operational weapon, the ASM-A-2 and later B-63 and [GAM-63 RASCAL][ref_rascal]. In 1951 the RTV-A-4 was redesignated X-9 \[[Parsch 2002][ref_parsch_x9]\] \[[GAM-63 RASCAL][ref_rascal]\].
 
-The programme documents survive. [Bell Aerospace Co Buffalo Ny 1953][research_bell_aerospace_co_buffalo_ny_1953] covers both projects together, [Bell Aerospace Co Buffalo Ny 1954][research_bell_aerospace_co_buffalo_ny_1954] the weapon system, and [Bell Aerospace Co Buffalo Ny 1956][research_bell_aerospace_co_buffalo_ny_1956] the project as a whole, all of them in the defence technical archive rather than the aerospace one. This is a materially better primary base than the [X-8][related_post_a305_aerojet_x8] left behind, and the reason is that a weapon programme reports to a service that keeps its reports. The sibling programme at Northrop left a comparable trace, and the rocket-model tests of the MX-775B configuration by [Arbic and Gillespie 1953][research_arbic_1953] are the [Snark][ref_snark] equivalent of the measurements described below.
+The programme documents survive. [Bell Aerospace Co Buffalo Ny 1953][research_bell_aerospace_co_buffalo_ny_1953] covers both projects together, [Bell Aerospace Co Buffalo Ny 1954][research_bell_aerospace_co_buffalo_ny_1954] the weapon system, and [Bell Aerospace Co Buffalo Ny 1956][research_bell_aerospace_co_buffalo_ny_1956] the project as a whole, all of them in the defence technical archive, none in the aerospace one. This is a materially better primary base than the [X-8][related_post_a305_aerojet_x8] left behind, because a weapon programme reports to a service that keeps its reports. The sibling programme at Northrop left a comparable trace, and the rocket-model tests of the MX-775B configuration by [Arbic and Gillespie 1953][research_arbic_1953] are the [Snark][ref_snark] equivalent of the measurements described below.
 
 ### What the Split Was For
 
-Dividing a development programme into a testbed and a weapon is a risk-reduction move, and it is worth being precise about which risk it reduces.
+Dividing a development programme into a testbed and a weapon is a risk-reduction move, and the risk in question needs stating precisely.
 
 It does not reduce technical risk in the ordinary sense, because the testbed must solve most of the same problems. It reduces **schedule coupling**. A weapon programme carries a delivery date and a production commitment, and a failure inside it stops everything downstream. A testbed carries neither, so a failure inside it costs a vehicle and a month.
 
-The X-9 was also explicitly intended to develop something the technical literature rarely treats as a deliverable, which is the practice of operating the thing. The Air Materiel Command wanted crews trained in checkout, launch, maintenance, and deployment before the operational missile existed. **A test programme whose output includes trained sergeants is a different kind of programme**, and it is one reason the vehicle flew from an operational bomber instead of a research aircraft. The reporting that such a programme generates is visible in the weapon-system programming and control apparatus of [Hoch 1960][research_hoch_1960] and the cost estimation of [Army Missile Command Redstone Arsenal Al 1963][research_army_missile_command_redstone_arsenal_al_1963], neither of which is engineering and both of which are what a service actually buys.
+The X-9 was also explicitly intended to develop something the technical literature rarely treats as a deliverable, namely the practice of operating the thing. MX-776A was also to develop the skills to check out and launch the missile and experience in training crews to maintain and deploy it, before the operational missile existed \[[GAM-63 RASCAL][ref_rascal]\], and the vehicle later served as an instructional tool for engineering, maintenance, and support personnel \[[Jenkins Landis and Miller 2003 American X-Vehicles, An Inventory X-1 to X-50][book_jenkins_landis_miller_2003]\]. **A test programme whose output includes trained sergeants is a different kind of programme**, and the training role is plausibly one reason the vehicle flew from an operational bomber instead of a research aircraft. The reporting that such a programme generates is visible in the weapon-system programming and control apparatus of [Hoch 1960][research_hoch_1960] and the cost estimation of [Army Missile Command Redstone Arsenal Al 1963][research_army_missile_command_redstone_arsenal_al_1963], neither of which is engineering and both of which a service pays for.
 
 ## Sizing From First Principles
 
-Reported parameters for the X-9 are a length of 6.93 metres, a wingspan of 2.39 metres, a body diameter of 0.56 metres, a wing area of 6.5 square metres, an empty mass of 964 kilogrammes, a launch mass of 1,588 kilogrammes, a Bell XLR65-BA-1 liquid rocket of 13.3 kilonewtons, a range of about 80 kilometres, and a ceiling near 20 kilometres. Reported speed is given as greater than Mach 1.5 in one source and Mach 2.0 in another, and that disagreement is carried through the Epistemic State rather than resolved.
+Reported parameters for the X-9, from [Parsch 2002][ref_parsch_x9] and the [Bell X-9 Shrike][ref_x9] entry, are a length of 6.93 metres, a wingspan of 2.39 metres, a body diameter of 0.56 metres, a wing area of 6.5 square metres, an empty mass of 964 kilogrammes, a launch mass of 1,588 kilogrammes, a Bell XLR65-BA-1 liquid rocket of 13.3 kilonewtons, a range of about 80 kilometres, and a ceiling near 20 kilometres. Reported speed is given as greater than Mach 1.5 in one source and Mach 2.0 in another, and that disagreement is carried through the Epistemic State unresolved.
 
-### The Rocket, and Why It Has Two Chambers
+### The Two-Chamber Rocket
 
-The propellant load follows from the two masses, at 624 kilogrammes. Taking an effective exhaust velocity of 2,157 metres per second, corresponding to a specific impulse of 220 seconds for a storable propellant of the period, which is the class surveyed in [Clark 1972 Ignition, An Informal History of Liquid Rocket Propellants][book_clark_1972] and treated in [Rocket Propellant Chemistry, A Design-Tradeoff Space][related_post_a217_rocket_propellant_chemistry], the total impulse is
+The propellant load follows from the two masses, at 624 kilogrammes. Taking an effective exhaust velocity of 2,157 metres per second, corresponding to a specific impulse of 220 seconds for a storable propellant of the period, the class surveyed in [Clark 1972 Ignition, An Informal History of Liquid Rocket Propellants][book_clark_1972] and treated in [Rocket Propellant Chemistry, A Design-Tradeoff Space][related_post_a217_rocket_propellant_chemistry], the total impulse is
 
 $$I_{\text{tot}} = m_p c = (624)(2157) = 1.35 \times 10^{6} \, \text{N} \cdot \text{s}$$
 
@@ -239,13 +239,13 @@ and at the rated thrust the burn time would be
 
 $$t_b = \frac{I_{\text{tot}}}{F} = \frac{1.35 \times 10^{6}}{1.33 \times 10^{4}} = 101 \, \text{s}$$
 
-**A hundred seconds is a long burn for a rocket of this size**, and it is the first sign that the vehicle is not thrust-limited. The ideal velocity increment available is
+**A hundred seconds is a long burn for a rocket of this size**, and the first sign that the vehicle is not thrust-limited. The ideal velocity increment available is
 
 $$\Delta v = c \ln \frac{m_0}{m_f} = 2157 \ln \frac{1588}{964} = 1077 \, \text{m/s}$$
 
-added to a launch speed of about 240 metres per second, which would give a burnout speed near Mach 4.5 at altitude if nothing resisted. The vehicle reached Mach 1.5 to 2. **The difference is drag, and the consequence is that a rocket sized for the mission delivers far more impulse than the airframe can absorb at any one moment.**
+added to a launch speed of about 240 metres per second, which would give a burnout speed near Mach 4.5 at altitude if nothing resisted. The vehicle is reported to have reached between Mach 1.5 \[[Parsch 2002][ref_parsch_x9]\] and Mach 2 \[[Jenkins Landis and Miller 2003 American X-Vehicles, An Inventory X-1 to X-50][book_jenkins_landis_miller_2003]\]. **The difference is drag, and the consequence is that a rocket sized for the mission delivers far more impulse than the airframe can absorb at any one moment.**
 
-That is the case for dividing the thrust between two chambers. Running both gives the acceleration needed to reach cruise speed quickly, and shutting one down gives a sustainer thrust matched to the drag at that speed. The thrust required in level cruise is simply the drag,
+The case for dividing the thrust between two chambers follows. Running both gives the acceleration needed to reach cruise speed quickly, and shutting one down gives a sustainer thrust matched to the drag at that speed. The thrust required in level cruise is the drag,
 
 $$F_{\text{cruise}} = D = q S \left( C_{D0} + \frac{C_L^{2}}{\pi A e} \right)$$
 
@@ -261,11 +261,11 @@ The coefficient is not arbitrary. Turbulent flat-plate friction at supersonic sp
 
 $$C_{D,f} = (0.0025) \frac{25.2}{6.5} = 0.0097$$
 
-Wave drag and base drag supply the remainder. **Half the drag is friction and half is compressibility**, which is the expected split for a slender supersonic body at Mach 1.5, and it means the assumed total of 0.02 is a buildup rather than a guess. Both halves are still being computed rather than looked up, with the wave-drag side in [Abraham et al 2024][research_abraham_2024] and the friction side in [Szajnecki et al 2025][research_szajnecki_2025], [Manzoor Hasan et al 2024][research_manzoor_hasan_2024], and the reduction techniques of [Zeng et al 2024][research_zeng_2024], [Takahashi et al 2019][research_takahashi_2019], and [Amico and Cafiero 2026][research_amico_2026]. The leeward-side case that a manoeuvring body actually presents is [Zou et al 2026][research_zou_2026]. The base drag that a rocket-powered body modifies with its own plume is [Kim et al 2023][research_kim_2023], [Kim and Kim 2026][research_kim_2026], and [Zhou et al 2021][research_zhou_2021]. At a zero-lift drag coefficient of 0.02 on wing area the cruise drag is then of order
+Wave drag and base drag supply the remainder. **Half the drag is friction and half is compressibility**, the expected split for a slender supersonic body at Mach 1.5, so the assumed total of 0.02 is a buildup, not a guess. Both halves are still being computed rather than looked up, with the wave-drag side in [Abraham et al 2024][research_abraham_2024] and the friction side in [Szajnecki et al 2025][research_szajnecki_2025], [Manzoor Hasan et al 2024][research_manzoor_hasan_2024], and the reduction techniques of [Zeng et al 2024][research_zeng_2024], [Takahashi et al 2019][research_takahashi_2019], and [Amico and Cafiero 2026][research_amico_2026]. [Zou et al 2026][research_zou_2026] examine the leeward-side case that a manoeuvring body presents. The base drag that a rocket-powered body modifies with its own plume is [Kim et al 2023][research_kim_2023], [Kim and Kim 2026][research_kim_2026], and [Zhou et al 2021][research_zhou_2021]. At a zero-lift drag coefficient of 0.02 on wing area the cruise drag is then of order
 
 $$D \approx (3.06 \times 10^{4})(6.5)(0.02) = 4.0 \times 10^{3} \, \text{N}$$
 
-which is 30 percent of the rated thrust. **A single chamber of a two-chamber engine is very nearly the right size for cruise**, which is a strong indication of what the arrangement was for even where the record does not say so directly. The alternative, which is to throttle a single chamber, was not practical at the time and is difficult now, as the deep-throttling work of [Fiore et al 2026][research_fiore_2026] and [Zhou et al 2026][research_zhou_2026] shows. Throttling a pressure-fed engine means changing the injector pressure drop. The flow through an injector orifice is
+which is 30 percent of the rated thrust. **A single chamber of a two-chamber engine is very nearly the right size for cruise**, a strong indication of the arrangement's purpose even without a direct statement in the record. The alternative of throttling a single chamber was not practical at the time and is difficult now, as the deep-throttling work of [Fiore et al 2026][research_fiore_2026] and [Zhou et al 2026][research_zhou_2026] shows. Throttling a pressure-fed engine means changing the injector pressure drop. The flow through an injector orifice is
 
 $$\dot{m} = C_d A_i \sqrt{2 \rho \, \Delta p}$$
 
@@ -277,15 +277,15 @@ because a stiff injector decouples the chamber's pressure oscillation from the f
 
 $$\frac{\Delta p}{p_c} = \frac{0.2}{4} = 0.05$$
 
-**at which point the chamber and the feed system are coupled and the engine can oscillate**, which is the mechanism [Otto and Flage 1960][research_otto_1960] studied experimentally. Two chambers avoid the problem entirely, because each runs at its design point or not at all. The combustion instability literature of the period is [Princeton Univ Nj 1952][research_princeton_univ_nj_1952], [Grey 1953][research_grey_1953], [Matthews 1957][research_matthews_1957], and [Harrje 1959][research_harrje_1959].
+**at which point the chamber and the feed system are coupled and the engine can oscillate**, the mechanism [Otto and Flage 1960][research_otto_1960] studied experimentally. Two chambers avoid the problem entirely, because each runs at its design point or not at all. The period's combustion instability literature includes [Princeton Univ Nj 1952][research_princeton_univ_nj_1952], [Grey 1953][research_grey_1953], [Matthews 1957][research_matthews_1957], and [Harrje 1959][research_harrje_1959].
 
-The chamber itself must survive the burn. Cooling technique selection for an engine of this class is [Coulbert 1963][research_coulbert_1963], and the failure mode that a hundred-second burn invites, which is progressive deterioration of a regeneratively cooled wall rather than a prompt burnthrough, is the subject of [Stanley 1969][research_stanley_1969], [Stanley 1970][research_stanley_1970], and [Stanley 1971][research_stanley_1971]. The relations used here follow [Sutton and Biblarz 2016 Rocket Propulsion Elements][book_sutton_biblarz_2016], [Hill and Peterson 1991 Mechanics and Thermodynamics of Propulsion][book_hill_peterson_1991], and [Huzel and Huang 1992 Design of Liquid Propellant Rocket Engines][book_huzel_huang_1992].
+The chamber itself must survive the burn. [Coulbert 1963][research_coulbert_1963] treats cooling technique selection for an engine of this class, and the failure mode that a hundred-second burn invites, the progressive deterioration of a regeneratively cooled wall rather than a prompt burnthrough, is the subject of [Stanley 1969][research_stanley_1969], [Stanley 1970][research_stanley_1970], and [Stanley 1971][research_stanley_1971]. The relations used here follow [Sutton and Biblarz 2016 Rocket Propulsion Elements][book_sutton_biblarz_2016], [Hill and Peterson 1991 Mechanics and Thermodynamics of Propulsion][book_hill_peterson_1991], and [Huzel and Huang 1992 Design of Liquid Propellant Rocket Engines][book_huzel_huang_1992].
 
 The thrust-to-weight ratio at launch is
 
 $$\frac{F}{m_0 g} = \frac{1.33 \times 10^{4}}{(1588)(9.81)} = 0.85$$
 
-which is below unity and would matter enormously for a vehicle leaving the ground. For a vehicle released at altitude with wings already flying, it does not, and the freedom to use a thrust-to-weight ratio below one is the first thing air launch buys.
+which is below unity and would matter enormously for a vehicle leaving the ground. For a vehicle released at altitude with wings already flying, it does not, and the freedom to use a thrust-to-weight ratio below one is the first benefit of air launch.
 
 ### What Air Launch Is Worth
 
@@ -323,7 +323,7 @@ The unpowered range after burnout follows from the glide relation, in which a ve
 
 $$R_{\text{glide}} = h \, \frac{L}{D}$$
 
-so the 80 kilometre range from a 20 kilometre apex implies an effective lift-to-drag ratio of four if the whole of it were glide. **Four is a plausible supersonic figure for a winged body of this shape**, and the fact that some of the range is powered means the true glide ratio is lower, which is the direction that makes the number more believable, not less.
+so the 80 kilometre range from a 20 kilometre apex implies an effective lift-to-drag ratio of four if all of it were glide. **Four is a plausible supersonic figure for a winged body of this shape**, and the fact that some of the range is powered means the true glide ratio is lower, and a lower ratio makes the number more believable, not less.
 
 The powered segment can be separated out. During the burn the vehicle covers, at a mean speed of about 400 metres per second over 101 seconds,
 
@@ -333,31 +333,31 @@ leaving 40 kilometres of glide from the 20 kilometre apex, which implies
 
 $$\frac{L}{D} = \frac{R_{\text{glide}}}{h} = \frac{40}{20} = 2.0$$
 
-The dynamic pressure the structure sees along that trajectory is bounded by the climb. At the 12.2 kilometre release altitude the density is 0.298 kilogrammes per cubic metre and reaching Mach 2 there would give
+The dynamic pressure the structure sees along that trajectory is bounded by the climb. At the 12.2 kilometre release altitude the density is 0.301 kilogrammes per cubic metre and reaching Mach 2 there would give
 
-$$q = \tfrac{1}{2}(0.298)(590)^{2} = 5.2 \times 10^{4} \, \text{Pa}$$
+$$q = \tfrac{1}{2}(0.301)(590)^{2} = 5.2 \times 10^{4} \, \text{Pa}$$
 
 whereas at the 20 kilometre apex the density has fallen to 0.089 and the same Mach number gives only
 
 $$q = \tfrac{1}{2}(0.089)(590)^{2} = 1.5 \times 10^{4} \, \text{Pa}$$
 
-**The vehicle climbs faster than it accelerates, so the maximum dynamic pressure occurs early and is modest.** That is a consequence of air launch, since a vehicle starting at sea level would meet its peak dynamic pressure at high speed and low altitude, and it is another item on the list of things the launch aircraft pays for. **A lift-to-drag ratio of two is a much more comfortable figure for a supersonic winged missile than four**, and the resolution of the two estimates is that roughly half the range is flown under power. The maximum lift-to-drag ratio available to a supersonic configuration is bounded by wave drag, and the classical estimate
+**The vehicle climbs faster than it accelerates, so the maximum dynamic pressure occurs early and is modest.** This follows from air launch, since a vehicle starting at sea level would meet its peak dynamic pressure at high speed and low altitude, and it adds to the list of things the launch aircraft pays for. **A lift-to-drag ratio of two is a much more comfortable figure for a supersonic winged missile than four**, and the resolution of the two estimates is that roughly half the range is flown under power. The maximum lift-to-drag ratio available to a supersonic configuration is bounded by wave drag, and the classical estimate
 
 $$\left( \frac{L}{D} \right)_{\max} \approx \frac{4 \left( M + 3 \right)}{M}$$
 
 gives 10 at Mach 2 for a slender aerodynamically clean shape, against which a value of two for a body carrying cruciform wings, four control surfaces, and a blunt base is unsurprising.
 
-### Closing the Loop, and Where the Miss Distance Comes From
+### The Guidance Loop and the Miss Distance
 
 The pieces above are an operator, an autopilot, an airframe, and a tracker. Putting them together gives the quantity the specification is written in.
 
 The guidance loop's job is to drive the lateral separation between the missile and the commanded line to zero before the flight ends.
 
-The law that does it is worth writing down properly, because the article has been naming it for several sections. Proportional navigation commands a lateral acceleration proportional to the rate at which the line of sight to the target rotates,
+The article has named the law that does it for several sections, and it can now be written down properly. Proportional navigation commands a lateral acceleration proportional to the rate at which the line of sight to the target rotates,
 
 $$a_c = N \, V_c \, \dot{\lambda}$$
 
-in which $\lambda$ is the line-of-sight angle, $V_c$ the closing velocity, and $N$ the navigation constant. **The rule is a statement about when a collision is happening.** Two bodies on a constant bearing with a decreasing range collide, so a line-of-sight rate of zero is the condition for an intercept, and a guidance law that drives $\dot{\lambda}$ to zero is driving the geometry toward a collision without ever computing where the collision will be.
+in which $\lambda$ is the line-of-sight angle, $V_c$ the closing velocity, and $N$ the navigation constant. **The rule encodes the condition for a collision.** Two bodies on a constant bearing with a decreasing range collide, so a line-of-sight rate of zero is the condition for an intercept, and a guidance law that drives $\dot{\lambda}$ to zero is driving the geometry toward a collision without ever computing where the collision will be.
 
 Writing $y$ for the lateral separation from the collision course and $t_{go}$ for the time remaining, the line-of-sight rate for small angles is
 
@@ -367,13 +367,13 @@ and substituting into the guidance law recovers the form the rest of this sectio
 
 $$a_c = N \, \frac{y}{t_{go}^{2}} + N \, \frac{\dot{y}}{t_{go}}$$
 
-with $N$ conventionally between three and five. The relation says something immediately useful, which is that **the commanded acceleration diverges as the time remaining goes to zero**. A correction attempted late cannot be made.
+with $N$ conventionally between three and five. The relation shows at once that **the commanded acceleration diverges as the time remaining goes to zero**. A correction attempted late cannot be made.
 
 The navigation constant also fixes how much acceleration the missile needs relative to whatever it is chasing. For a target manoeuvring at $n_t$, the missile's steady requirement is
 
 $$\frac{n_m}{n_t} = \frac{N}{N-2}$$
 
-which for $N=3$ is three and for $N=4$ is two, so **a larger navigation constant demands less acceleration and more bandwidth**. The X-9's target does not manoeuvre at all, which is the single greatest simplification in its whole guidance problem and the reason a four g airframe suffices.
+which for $N=3$ is three and for $N=4$ is two, so **a larger navigation constant demands less acceleration and more bandwidth**. The X-9's target does not manoeuvre at all. No other feature simplifies its guidance problem as much, and the absence of target manoeuvre lets a four g airframe suffice.
 
 The loop cannot respond instantly. Lumping the operator's delay, the autopilot's rise time, and the airframe's response into a single guidance time constant $\tau_g$, the classical result for the residual miss caused by that lag, driven by a disturbance the loop must remove, is
 
@@ -387,7 +387,7 @@ so the residual miss decays exponentially in the number of time constants remain
 
 $$\left. \frac{m}{m_0} \right|_{x=8} = \frac{8^{3}}{6} \, e^{-8} = 2.9 \times 10^{-2}$$
 
-which is three percent rather than the three parts in a thousand the exponential alone would suggest. Ten time constants give $7.6 \times 10^{-3}$ and twelve give $1.8 \times 10^{-3}$.
+which is three percent, not the three parts in a thousand the exponential alone would suggest. Ten time constants give $7.6 \times 10^{-3}$ and twelve give $1.8 \times 10^{-3}$.
 
 **Eight time constants leave three percent of the error and three time constants leave twenty-two percent of it.** The practical criterion is therefore that the loop needs of order ten time constants of flight remaining to null an error,
 
@@ -401,7 +401,7 @@ so the loop needs about eight seconds of flight remaining to remove an error, wh
 
 $$R_{\text{null}} = v \, t_{go} = (590)(8.3) = 4.9 \, \text{km}$$
 
-**Every error still present within five kilometres of the target arrives at the target.** That single number reorganises the whole error budget, because it means the release transient, the propulsion dispersion, and the mid-course tracking errors are all correctable and only the terminal errors are not. The terminal error sources are the tracker's own noise and glint, and the operator's residual, which is why the accuracy of a command-guided weapon is set almost entirely by what happens in its last few seconds.
+**Every error still present within five kilometres of the target arrives at the target.** That number reorganises the error budget, because it means the release transient, the propulsion dispersion, and the mid-course tracking errors are all correctable and only the terminal errors are not. The terminal error sources are the tracker's noise and glint, and the operator's residual. The accuracy of a command-guided weapon is therefore set almost entirely by what happens in its last few seconds.
 
 ### The Standoff Trade
 
@@ -409,19 +409,19 @@ The weapon exists to keep the bomber outside something. Writing $R_d$ for the ra
 
 $$R_m \ge R_d + v_{\text{ac}} \, t_{\text{turn}}$$
 
-with the second term the distance flown while turning away. The 1945 requirement's hundred miles was set against the expected reach of Soviet interceptors and early surface-to-air systems, and the X-9's demonstrated fifty miles would have placed the bomber inside a defence of any depth.
+with the second term the distance flown while turning away. The 1945 requirement asked for a hundred miles, and the X-9's reported fifty miles \[[Parsch 2002][ref_parsch_x9]\] would have placed the bomber inside a defence of any depth.
 
-Range is one of the two grounds, with payload, on which the X-9 was not adopted as an interim weapon, and it is quantitative rather than qualitative. **The range shortfall was not a performance disappointment but an operational disqualification**, since a standoff weapon that does not stand off far enough has no role at all. The tactical-analysis machinery for evaluating exactly this trade is [Waddell 1961][research_waddell_1961] and [Timenes 1964][research_timenes_1964], and the probability calculation for an air-launched weapon against a defended target is [Jacobs et al 1961][research_jacobs_1961].
+Range is one of the two grounds, with payload, on which the X-9 was not adopted as an interim weapon \[[Parsch 2002][ref_parsch_x9]\], and the range ground is quantitative, not qualitative. **The range shortfall was not a performance disappointment but an operational disqualification**, since a standoff weapon that does not stand off far enough has no role at all. [Waddell 1961][research_waddell_1961] and [Timenes 1964][research_timenes_1964] supply the tactical-analysis machinery for evaluating this trade, and [Jacobs et al 1961][research_jacobs_1961] the probability calculation for an air-launched weapon against a defended target.
 
-### Canard Control, and the Price of It
+### The Cost of Canard Control
 
-The X-9 is a canard. Control surfaces sit forward of the centre of gravity, with fixed wings aft, and the layout was carried into the operational RASCAL unchanged.
+The X-9 is a canard. Its control surfaces, being two all-moving forward vertical tails and small canards with movable trailing edges, sit forward of the centre of gravity, with fixed wings aft \[[Parsch 2002][ref_parsch_x9]\], and the operational RASCAL used the same canard configuration \[[GAM-63 RASCAL][ref_rascal]\].
 
-A forward surface generates its control force in the direction the vehicle is asked to turn, which is the arrangement's advantage. It also contributes a **destabilising** moment, because a lifting surface ahead of the centre of gravity moves the centre of pressure forward. The vehicle's static margin is the normal-force-weighted mean position of everything, and adding a forward surface reduces it,
+The arrangement's advantage is that a forward surface generates its control force in the direction the vehicle is asked to turn. It also contributes a **destabilising** moment, because a lifting surface ahead of the centre of gravity moves the centre of pressure forward. The vehicle's static margin is the normal-force-weighted mean position of everything, and adding a forward surface reduces it,
 
 $$x_{cp} = \frac{\sum_i C_{N\alpha,i} \, x_i}{\sum_i C_{N\alpha,i}}$$
 
-so the aft wings must be large enough to hold the centre of pressure behind the centre of gravity in spite of the canards. The X-9's exposed wing area is large relative to its canards for exactly this reason, and the configuration family was measured extensively in the same period by [Moul and Wineman 1952][research_moul_1952] at an exposed wing-to-canard area ratio of sixteen to one, by [Baber and Moul 1955][research_baber_1955] across Mach 0.7 to 1.8, and by [Brown 1957][research_brown_1957] from Mach 1.2 to 2.1. [Niewald and Moul 1950][research_niewald_1950] give the control effectiveness and hinge moments for the same class, and the hinge moment matters because it sizes the actuator. For a control surface of area $S_c$ and mean chord $\bar{c}$ at hinge-moment coefficient $C_h$, the moment the actuator must hold is
+so the aft wings must be large enough to hold the centre of pressure behind the centre of gravity in spite of the canards. The X-9's exposed wing area is large relative to its canards for this reason, and the configuration family was measured extensively in the same period by [Moul and Wineman 1952][research_moul_1952] at an exposed wing-to-canard area ratio of sixteen to one, by [Baber and Moul 1955][research_baber_1955] across Mach 0.7 to 1.8, and by [Brown 1957][research_brown_1957] from Mach 1.2 to 2.1. [Niewald and Moul 1950][research_niewald_1950] give the control effectiveness and hinge moments for the same class, and the hinge moment matters because it sizes the actuator. For a control surface of area $S_c$ and mean chord $\bar{c}$ at hinge-moment coefficient $C_h$, the moment the actuator must hold is
 
 $$H = q \, S_c \, \bar{c} \, C_h$$
 
@@ -433,13 +433,13 @@ and the power required to move it at the rate the autopilot demands is
 
 $$P = H \, \dot{\delta} = (268)(5) = 1.3 \, \text{kW}$$
 
-**More than a kilowatt of hydraulic power is a substantial installation on a 1,588 kilogramme vehicle**, and it is why aerodynamic balance of the surface, which reduces $C_h$ without reducing effectiveness, was worth as much effort as it received. The technique goes back to [Harris 1935][research_harris_1935] and the actuator that must supply whatever balance does not remove is [Scott 1966][research_scott_1966]. An all-moving surface also brings a flutter boundary that a fixed surface does not, measured for half-scale models by [Ruhlin and Tuovila 1961][research_ruhlin_1961]. That is the point developed for all-moving surfaces by [Kleckner 1946][research_kleckner_1946] and [Mungall 1948][research_mungall_1948], and measured for this configuration class by [Pfenneberger 1966][research_pfenneberger_1966]. The [canard][ref_canard] arrangement in its aircraft form is investigated at high subsonic speeds by [Sleeman 1957][research_sleeman_1957] and at Mach numbers of 1.41 and 2.01 by [Driver 1958][research_driver_1958] and [Spearman and Driver 1959][research_spearman_1959].
+**More than a kilowatt of actuator power is a substantial installation on a 1,588 kilogramme vehicle**, and it justifies the effort spent on aerodynamic balance of the surface, which reduces $C_h$ without reducing effectiveness. The technique goes back to [Harris 1935][research_harris_1935], and [Scott 1966][research_scott_1966] treats the actuator that must supply whatever balance does not remove. An all-moving surface also brings a flutter boundary that a fixed surface does not, measured for half-scale models by [Ruhlin and Tuovila 1961][research_ruhlin_1961]. [Kleckner 1946][research_kleckner_1946] and [Mungall 1948][research_mungall_1948] develop the point for all-moving surfaces, and [Pfenneberger 1966][research_pfenneberger_1966] measures it for this configuration class. The [canard][ref_canard] arrangement in its aircraft form is investigated at high subsonic speeds by [Sleeman 1957][research_sleeman_1957] and at Mach numbers of 1.41 and 2.01 by [Driver 1958][research_driver_1958] and [Spearman and Driver 1959][research_spearman_1959].
 
 The compensating advantage is that the trim penalty reverses sign. A tail-controlled vehicle deflects its tail downward to pitch up, losing lift, so the surface fights the manoeuvre before assisting it. A canard adds lift where it is wanted. The trim lift for a given manoeuvre is
 
 $$L_{\text{trim}} = L_{\text{wing}} + L_{\text{canard}}$$
 
-with both terms positive in a pull-up, against a tailed configuration in which the second term is negative. For a vehicle whose whole purpose is to change direction accurately at high dynamic pressure, that matters more than the static-margin penalty.
+with both terms positive in a pull-up, against a tailed configuration in which the second term is negative. For a vehicle whose purpose is to change direction accurately at high dynamic pressure, that matters more than the static-margin penalty.
 
 The control effectiveness itself sets how hard the vehicle can manoeuvre. A canard deflection $\delta$ produces a pitching moment that trims the vehicle at an angle of attack
 
@@ -453,19 +453,19 @@ At the dynamic pressure computed above, one degree of trimmed angle of attack gi
 
 $$n = \frac{(3.06 \times 10^{4})(6.5)(3.58)(0.01745)}{(1588)(9.81)} = 0.80$$
 
-so the vehicle pulls roughly 0.8 g per degree of angle of attack. The roll axis is governed by the same geometry, and the damping available from a cruciform arrangement is [Adams 1951][research_adams_1951]. Roll matters here for a reason that does not arise on an unguided vehicle. A command in the inertial frame must be resolved into body axes before the control surfaces can act on it, and that resolution requires the roll angle. An error $\Delta\phi$ in the assumed roll angle turns a commanded pitch into a combination of pitch and yaw,
+so the vehicle pulls roughly 0.8 g per degree of angle of attack. The roll axis is governed by the same geometry, and [Adams 1951][research_adams_1951] gives the damping available from a cruciform arrangement. Roll matters here for a reason that does not arise on an unguided vehicle. A command in the inertial frame must be resolved into body axes before the control surfaces can act on it, and that resolution requires the roll angle. An error $\Delta\phi$ in the assumed roll angle turns a commanded pitch into a combination of pitch and yaw,
 
 $$\begin{bmatrix} a_y \\ a_z \end{bmatrix} = \begin{bmatrix} \cos \Delta\phi & -\sin \Delta\phi \\ \sin \Delta\phi & \cos \Delta\phi \end{bmatrix} \begin{bmatrix} a_{y,c} \\ a_{z,c} \end{bmatrix}$$
 
-so the cross-axis leakage is $\sin \Delta\phi$ of the commanded acceleration. **A ten degree roll error puts 17 percent of every correction into the wrong axis**, and a guided vehicle must therefore hold roll to a small angle instead of merely averaging it as the [X-8][related_post_a305_aerojet_x8] did. That is why the X-9 carries twin dorsal and ventral fins with rudders rather than a symmetric cruciform tail, and it is the clearest single difference in requirement between a guided vehicle and an unguided one. The wave drag that the configuration pays for its wings is [Friedman 1951][research_friedman_1951] and [Eggers et al 1957][research_eggers_1957], with the minimum-drag body shapes of [Parker 1955][research_parker_1955] and [Eggers 1965][research_eggers_1965] and the base drag that the tail surfaces modify in [Spahr and Dickey 1951][research_spahr_1951]. Slender-body theory for the forebody is [Jones and Margolis 1946][research_jones_1946] and [Brown and Parker 1945][research_brown_1945], the yawed-cone case is [Stone 1945][research_stone_1945], and the design synthesis of the period is [Jones 1959][research_jones_1959]. Zero-lift drag at the relevant Mach numbers was measured in free flight by [Gillespie and Arbic 1951][research_gillespie_1951], the roll damping of a comparable configuration by [Scherrer and Dennis 1951][research_scherrer_1951], and the wing-tail interference that a cruciform layout cannot avoid by [Edwards and Hikido 1953][research_edwards_1953]. The effect of the plume on the aftbody, which matters for a vehicle that thrusts through most of its flight, is [Deep et al 1971][research_deep_1971]. **A five degree limit is therefore a four g vehicle**, which is ample for course correction and far short of what an interceptor needs, and that is the correct balance for a weapon that must fly accurately rather than evasively.
+so the cross-axis leakage is $\sin \Delta\phi$ of the commanded acceleration. **A ten degree roll error puts 17 percent of every correction into the wrong axis**, and a guided vehicle must therefore hold roll to a small angle instead of merely averaging it as the [X-8][related_post_a305_aerojet_x8] did. That requirement is a plausible reason the X-9 carries twin dorsal and ventral fins with rudders \[[Parsch 2002][ref_parsch_x9]\] rather than a symmetric cruciform tail. It is also the clearest difference in requirement between a guided vehicle and an unguided one. [Friedman 1951][research_friedman_1951] and [Eggers et al 1957][research_eggers_1957] address the wave drag that the configuration pays for its wings, with the minimum-drag body shapes of [Parker 1955][research_parker_1955] and [Eggers 1965][research_eggers_1965] and the base drag that the tail surfaces modify in [Spahr and Dickey 1951][research_spahr_1951]. Slender-body theory for the forebody comes from [Jones and Margolis 1946][research_jones_1946] and [Brown and Parker 1945][research_brown_1945], the yawed-cone case from [Stone 1945][research_stone_1945], and the design synthesis of the period from [Jones 1959][research_jones_1959]. Zero-lift drag at the relevant Mach numbers was measured in free flight by [Gillespie and Arbic 1951][research_gillespie_1951], the roll damping of a comparable configuration by [Scherrer and Dennis 1951][research_scherrer_1951], and the wing-tail interference that a cruciform layout cannot avoid by [Edwards and Hikido 1953][research_edwards_1953]. The effect of the plume on the aftbody, which matters for a vehicle that thrusts through most of its flight, is [Deep et al 1971][research_deep_1971]. **A five degree limit is therefore a four g vehicle**, ample for course correction and far short of what an interceptor needs. The balance is correct for a weapon that must fly accurately rather than evasively.
 
-### The Trapeze, and Why the Missile Is Lowered Before It Is Dropped
+### The Trapeze Release
 
-The X-9 was not simply released from the bomb bay. It was lowered on a trapeze into the free stream beneath the aircraft and released from there.
+The X-9 was not released directly from the bomb bay. It was launched from a trapeze in the bomb bay of a specially modified EB-50D \[[Parsch 2002][ref_parsch_x9]\], and a trapeze of this kind, like the cradle that lowered the RASCAL from the bomb bay of its own test B-50 \[[GAM-63 RASCAL][ref_rascal]\], lowers the store into the free stream beneath the aircraft before release.
 
 The reason is that a bomb bay is full of separated, unsteady flow. A store released into it experiences forces that are large, poorly repeatable, and not predictable from any steady measurement, and the resulting scatter in initial attitude and rate propagates directly into the miss distance. Lowering the vehicle clear of the cavity trades a mechanism for a variance.
 
-The size of the error being avoided is worth computing. A heading error $\varepsilon$ imparted at release and never corrected produces a lateral offset at the target of
+The size of the error being avoided can be computed. A heading error $\varepsilon$ imparted at release and never corrected produces a lateral offset at the target of
 
 $$\Delta y = R \sin \varepsilon \approx R \varepsilon$$
 
@@ -481,7 +481,7 @@ which at four g and eighty kilometres of remaining range gives a correctable off
 
 $$\Delta y_{\max} = \tfrac{1}{2}(39.2) \left( \frac{8 \times 10^{4}}{590} \right)^{2} = 3.6 \times 10^{5} \, \text{m}$$
 
-so manoeuvre authority is not the binding constraint at long range. **It becomes binding at short range**, where the same relation with two kilometres remaining gives 225 metres, which is the same order as the errors the guidance is trying to remove. That asymmetry is why terminal accuracy is hard and why a correction made late is worth far less than the same correction made early. The guidance loop exists to remove exactly this, and it can, but only once it has acquired, and the argument for the trapeze is that the loop should not have to spend its authority on an avoidable disturbance.
+so manoeuvre authority is not the binding constraint at long range. **It becomes binding at short range**, where the same relation with two kilometres remaining gives 225 metres, the same order as the errors the guidance is trying to remove. That asymmetry is why terminal accuracy is hard and why a correction made late is worth far less than the same correction made early. The guidance loop exists to remove such errors, and it can, but only once it has acquired. The argument for the trapeze is that the loop should not have to spend its authority on an avoidable disturbance.
 
 The separation itself is a free-fall problem to first order. Clearing a vertical distance $d$ takes
 
@@ -491,7 +491,7 @@ so three metres of clearance takes 0.78 seconds, during which the launch aircraf
 
 $$\Delta x = v_{\text{ac}} t = (236)(0.78) = 184 \, \text{m}$$
 
-and the missile falls behind by the difference between its own drag deceleration and the aircraft's. The tip-off rate, which is the angular rate imparted as the last constraint releases, follows from the moment acting over the interval between the forward and aft attachments letting go. For a vehicle whose centre of gravity is offset a distance $\ell$ from the last remaining support, the angular acceleration is
+and the missile falls behind by the difference between its drag deceleration and the aircraft's. The tip-off rate, the angular rate imparted as the last constraint releases, follows from the moment acting over the interval between the forward and aft attachments letting go. For a vehicle whose centre of gravity is offset a distance $\ell$ from the last remaining support, the angular acceleration is
 
 $$\dot{q} = \frac{m g \ell}{I_y}$$
 
@@ -499,7 +499,7 @@ which for a half-metre offset gives
 
 $$\dot{q} = \frac{(1588)(9.81)(0.5)}{6.4 \times 10^{3}} = 1.22 \, \text{rad/s}^{2}$$
 
-so an asymmetric release lasting 0.1 seconds imparts 0.12 radians per second, or 7 degrees per second. **That is a large rate for a vehicle whose entire heading budget is a fraction of a degree**, and it is why the release mechanism is a guidance component and not a piece of structure. Redundancy in that mechanism is [Paradise 1971][research_paradise_1971].
+so an asymmetric release lasting 0.1 seconds imparts 0.12 radians per second, or 7 degrees per second. **Seven degrees per second is a large rate for a vehicle whose entire heading budget is a fraction of a degree**, so the release mechanism is a guidance component and not a piece of structure. [Paradise 1971][research_paradise_1971] treats redundancy in that mechanism.
 
 The store-separation problem in its general form is the subject of the free-flight tunnel technique of [Xue et al 2019][research_xue_2019] in the modern literature and was treated in the period by the store-interference calculations of [Margolis et al 1958][research_margolis_1958].
 
@@ -507,7 +507,7 @@ The store-separation problem in its general form is the subject of the free-flig
 
 ### The Command Link
 
-The X-9 flew two guidance systems in succession. The first was a radio command system built by the Federal Telecommunications Division of [RCA][ref_rca], and the second a preset and radar command arrangement developed by Bell.
+The X-9 flew two guidance systems in succession. The first was a radio command system built by the Federal Telecommunications Division of [RCA][ref_rca], and the second a preset and radar command arrangement developed by Bell \[[GAM-63 RASCAL][ref_rascal]\].
 
 A command link carries very little information and must carry it very reliably. The required data rate follows from the number of channels and the rate at which corrections are useful, which is set by the loop bandwidth computed above. Sampling at ten times the crossover frequency,
 
@@ -523,7 +523,7 @@ Integrity has an adversary. A jammer of power $P_j$ at range $R_j$ competes with
 
 $$\frac{S}{J} = \frac{P_c G_c}{P_j G_j} \left( \frac{R_j}{R_c} \right)^{2} \, \frac{B_j}{B_s}$$
 
-in which the last factor is the jammer's dilution across a bandwidth wider than the signal's. **The command link's low data rate is therefore an asset rather than a limitation**, because a narrow signal bandwidth forces the jammer to concentrate its power precisely or waste most of it. The modern statement of the same trade is low probability of intercept, in which a waveform is spread and shaped so that an adversary cannot find it in the first place, treated by [Shi et al 2025][research_shi_2025], [Savci et al 2021][research_savci_2021], and, at the antenna, [Pehlivan and Yegin 2021][research_pehlivan_2021]. The countermeasure and counter-countermeasure exchange the X-9's link would now be subject to is [Xing et al 2023][research_xing_2023] and [Chen et al 2026][research_chen_2026]. The relation also shows why a link from the launching aircraft is comparatively hard to jam and a link from a distant ground station is not, since the ratio of ranges enters squared. The bound itself is Shannon's, developed in [Cover and Thomas 2006 Elements of Information Theory][book_cover_thomas_2006] and [Sklar 2001 Digital Communications, Fundamentals and Applications][book_sklar_2001], and the observation that a command channel is integrity-limited rather than capacity-limited is why command links are built with margin rather than with coding. A link that fails intermittently is worse than one that fails completely, because the vehicle continues on its last command. The received power follows the same relation as any radio path,
+in which the last factor is the jammer's dilution across a bandwidth wider than the signal's. **The command link's low data rate is therefore an asset rather than a limitation**, because a narrow signal bandwidth forces the jammer to concentrate its power precisely or waste most of it. The modern statement of the same trade is low probability of intercept, in which a waveform is spread and shaped so that an adversary cannot find it in the first place, treated by [Shi et al 2025][research_shi_2025], [Savci et al 2021][research_savci_2021], and, at the antenna, [Pehlivan and Yegin 2021][research_pehlivan_2021]. [Xing et al 2023][research_xing_2023] and [Chen et al 2026][research_chen_2026] analyse the countermeasure and counter-countermeasure exchange the X-9's link would now face. The relation also shows why a link from the launching aircraft is comparatively hard to jam and a link from a distant ground station is not, since the ratio of ranges enters squared. The capacity bound is Shannon's, developed in [Cover and Thomas 2006 Elements of Information Theory][book_cover_thomas_2006] and [Sklar 2001 Digital Communications, Fundamentals and Applications][book_sklar_2001], and because a command channel is limited by integrity and not by capacity, command links are built with margin rather than with coding. A link that fails intermittently is worse than one that fails completely, because the vehicle continues on its last command. The received power follows the same relation as any radio path,
 
 $$P_r = \frac{P_t G_t G_r \lambda^{2}}{\left( 4 \pi R \right)^{2}}$$
 
@@ -531,9 +531,9 @@ and at 80 kilometres and a wavelength of one metre the free-space term is
 
 $$\left( \frac{\lambda}{4 \pi R} \right)^{2} = \left( \frac{1}{4\pi \times 8 \times 10^{4}} \right)^{2} = 9.9 \times 10^{-13}$$
 
-which is $-120$ decibels, so a hundred watt transmitter with modest antennas closes the link with a very large margin at this data rate. The margin is what buys the integrity. This is the mirror image of the [X-8][related_post_a305_aerojet_x8]'s problem, where the link was bandwidth-starved carrying data downward, and it is the reason the two vehicles reached opposite conclusions about what their radio had to do.
+which is $-120$ decibels, so a hundred watt transmitter with modest antennas closes the link with a very large margin at this data rate. The integrity comes from that margin. The situation mirrors the [X-8][related_post_a305_aerojet_x8]'s problem, where the link was bandwidth-starved carrying data downward, and the difference explains why the two vehicles reached opposite conclusions about what their radio had to do.
 
-The latency of the radio path itself is negligible at
+The latency of the radio path is negligible at
 
 $$t_{\text{prop}} = \frac{R}{c_0} = \frac{8 \times 10^{4}}{3 \times 10^{8}} = 0.27 \, \text{ms}$$
 
@@ -555,11 +555,11 @@ Reaching a well-damped response of $\zeta = 0.7$ at the 7.5 radian per second na
 
 $$K M_{\delta} = 2 \omega_n \left( \zeta - \zeta_a \right) = (2)(7.5)(0.7 - 0.05) = 9.8 \, \text{s}^{-1}$$
 
-**The autopilot is a damper, not a stabiliser**, because the airframe is already statically stable by design. That is a design choice rather than a necessity, and a statically unstable airframe with a faster autopilot would manoeuvre harder at the cost of requiring the loop to work. The classical apparatus for the analysis is [Franklin Powell and Emami-Naeini 2019 Feedback Control of Dynamic Systems][book_franklin_2019] and, for this application specifically, [Blakelock 1991 Automatic Control of Aircraft and Missiles][book_blakelock_1991] and [Garnell 1980 Guided Weapon Control Systems][book_garnell_1980]. The period's own servomechanism literature is [Hamer 1952][research_hamer_1952], [Merriam 1960][research_merriam_1960], and, later, [Etzweiler 1969][research_etzweiler_1969] and [Wilson 1970][research_wilson_1970], with the angular-position servomechanism that an all-moving control surface actually is in [Atkinson 1968][research_atkinson_1968]. The step from classical design to design against a stochastic input, which is what a noisy tracker demands, is [Fagin et al 1969][research_fagin_1969] and [Van Winkle and Rossi 1966][research_van_winkle_1966].
+**The autopilot is a damper, not a stabiliser**, because the airframe is already statically stable by design. Static stability was a design choice, not a necessity, and a statically unstable airframe with a faster autopilot would manoeuvre harder at the cost of requiring the loop to work. [Franklin Powell and Emami-Naeini 2019 Feedback Control of Dynamic Systems][book_franklin_2019] sets out the classical apparatus for the analysis, and [Blakelock 1991 Automatic Control of Aircraft and Missiles][book_blakelock_1991] and [Garnell 1980 Guided Weapon Control Systems][book_garnell_1980] cover this application. The period's servomechanism literature includes [Hamer 1952][research_hamer_1952], [Merriam 1960][research_merriam_1960], and, later, [Etzweiler 1969][research_etzweiler_1969] and [Wilson 1970][research_wilson_1970], with [Atkinson 1968][research_atkinson_1968] on the angular-position servomechanism that an all-moving control surface is. [Fagin et al 1969][research_fagin_1969] and [Van Winkle and Rossi 1966][research_van_winkle_1966] take the step from classical design to design against a stochastic input, the kind a noisy tracker demands.
 
-Bias in the rate gyroscope is a distinct failure and it maps straight onto the error budget, because a constant rate error integrates into a constant heading error and thence into a lateral miss. Its elimination is [Eslinger 1964][research_eslinger_1964], the test methods that establish how large it is are [Vaughn 1960][research_vaughn_1960], and the drift of a gyroscope used as an azimuth reference rather than a rate sensor is [Flowe and Bright 1963][research_flowe_1963]. The inertial alternative to command guidance, which removes the launch aircraft from the loop at the cost of drift, is set out for the period by [Duncan 1958][research_duncan_1958], with the stellar update that bounds the drift in [Kochi and Dibble 1963][research_kochi_1963] and the midcourse formulation in [Eggleston and Dunning 1961][research_eggleston_1961], and the redundancy and failure-detection machinery that makes an inertial system trustworthy arrives much later in [Potter and Deckert 1972][research_potter_1972] and [Solov and Thibodeau 1973][research_solov_1973].
+Bias in the rate gyroscope is a distinct failure and it maps straight onto the error budget, because a constant rate error integrates into a constant heading error and thence into a lateral miss. [Eslinger 1964][research_eslinger_1964] addresses its elimination, [Vaughn 1960][research_vaughn_1960] the test methods that establish how large it is, and [Flowe and Bright 1963][research_flowe_1963] the drift of a gyroscope used as an azimuth reference instead of a rate sensor. The inertial alternative to command guidance, which removes the launch aircraft from the loop at the cost of drift, is set out for the period by [Duncan 1958][research_duncan_1958], with the stellar update that bounds the drift in [Kochi and Dibble 1963][research_kochi_1963] and the midcourse formulation in [Eggleston and Dunning 1961][research_eggleston_1961], and the redundancy and failure-detection machinery that makes an inertial system trustworthy arrives much later in [Potter and Deckert 1972][research_potter_1972] and [Solov and Thibodeau 1973][research_solov_1973].
 
-**The drift that made inertial guidance unusable for the X-9 is now small enough that the architecture has inverted.** A modern weapon navigates inertially and uses external references to bound the drift rather than the reverse, and the bias stability now achievable from a device costing a few dollars is [Kozlov et al 2026][research_kozlov_2026]. The alignment problem that consumes the accuracy budget before flight is [Zhang et al 2022][research_zhang_2022_3], [Lin et al 2022][research_lin_2022], and [Li et al 2019][research_li_2019_5], and the satellite-denied case that returns the problem to something the X-9 would recognise is [Khalifa and Hashim 2026][research_khalifa_2026]. The gyroscope required to close it is the reason the canard airframe and the automatic pilot have to be analysed together rather than separately, which is the subject of [Gardiner et al 1950][research_gardiner_1950] on a canard airframe with a canted-axis gyroscope autopilot.
+**Inertial drift, which the X-9's command guidance avoided, is now small enough that the architecture has inverted.** A modern weapon navigates inertially and uses external references to bound the drift rather than the reverse, and [Kozlov et al 2026][research_kozlov_2026] report the bias stability now achievable from a device costing a few dollars. The alignment problem that consumes the accuracy budget before flight is [Zhang et al 2022][research_zhang_2022_3], [Lin et al 2022][research_lin_2022], and [Li et al 2019][research_li_2019_5], and the satellite-denied case that returns the problem to something the X-9 would recognise is [Khalifa and Hashim 2026][research_khalifa_2026]. The gyroscope required to close it is the reason the canard airframe and the automatic pilot have to be analysed together, as [Gardiner et al 1950][research_gardiner_1950] do for a canard airframe with a canted-axis gyroscope autopilot.
 
 Structural flexibility sets the upper limit on the gain. A rate gyroscope mounted on a bending airframe measures the bending as well as the rigid-body rate, and if the loop gain is high enough at the bending frequency the two couple. The condition for stability is that the loop gain fall below unity before the first bending mode,
 
@@ -577,11 +577,11 @@ which for the X-9's 0.28 metre radius and a three millimetre wall gives $2.1 \ti
 
 $$\omega_1 = \left( \frac{4.730}{6.93} \right)^{2} \sqrt{\frac{(70 \times 10^{9})(2.1 \times 10^{-4})}{229}} = 117 \, \text{rad/s}$$
 
-which is 19 hertz. **The bending mode sits about sixteen times above the rigid-body natural frequency**, which is a comfortable separation and is why a short, fat missile is easier to control than a long thin one. The vehicles that made this hard were the boosters, which are long and slender and whose first mode falls close to the control bandwidth. The problem was treated for missiles of this generation by [Lukens et al 1961][research_lukens_1961] and [Freed and Miller 1961][research_freed_1961], and it remains the reason missile autopilot bandwidth is bounded from above by structure rather than by actuators.
+which is 19 hertz. **The bending mode sits about sixteen times above the rigid-body natural frequency**, a comfortable separation of the kind that makes a short, fat missile easier to control than a long thin one. The vehicles that made this hard were the boosters, which are long and slender and whose first mode falls close to the control bandwidth. The problem was treated for missiles of this generation by [Lukens et al 1961][research_lukens_1961] and [Freed and Miller 1961][research_freed_1961], and it remains the reason missile autopilot bandwidth is bounded from above by structure rather than by actuators.
 
 ### The Launch Aircraft Is Part of the Weapon
 
-A standoff missile guided from its launcher does not release the launcher. The bomber must remain within radio and radar range, oriented so its antenna sees the missile, and flying a track that keeps the geometry usable, for the whole of the missile's flight.
+A standoff missile guided from its launcher does not release the launcher. The bomber must remain within radio and radar range, oriented so its antenna sees the missile, and flying a track that keeps the geometry usable, throughout the missile's flight.
 
 The time involved follows from the range and the speed. At Mach 2 at altitude the missile covers eighty kilometres in
 
@@ -603,15 +603,15 @@ and a reversal takes
 
 $$t_{180} = \frac{\pi R_t}{v} = \frac{\pi (5.1 \times 10^{3})}{236} = 68 \, \text{s}$$
 
-during which the antenna sweeps through the whole of its gimbal range and past it. The turn-performance analysis for exactly this manoeuvre, in which an aircraft must reverse as quickly as its structure allows, is [Wrestler 1965][research_wrestler_1965]. **The bomber spends more than two minutes committed and closes two fifths of the standoff distance it just bought unless it turns away**, and turning away costs the antenna its look angle. The engagement geometry is therefore a constraint on the aircraft, not only on the missile, and it is a large part of why the operational concept eventually failed. The general form of the problem, in which a weapon's guidance requirement dictates the delivery aircraft's flight path, is treated by [Smyth 1972][research_smyth_1972], and the tactical-analysis machinery for evaluating such an engagement is [Waddell 1961][research_waddell_1961] and [Timenes 1964][research_timenes_1964].
+during which the antenna sweeps through its full gimbal range and past it. [Wrestler 1965][research_wrestler_1965] analyses the turn performance for this manoeuvre, in which an aircraft must reverse as quickly as its structure allows. **The bomber spends more than two minutes committed and closes two fifths of the standoff distance it just bought unless it turns away**, and turning away costs the antenna its look angle. The engagement geometry is therefore a constraint on the aircraft, not only on the missile, and a large part of why the operational concept eventually failed. The general form of the problem, in which a weapon's guidance requirement dictates the delivery aircraft's flight path, is treated by [Smyth 1972][research_smyth_1972], and [Waddell 1961][research_waddell_1961] and [Timenes 1964][research_timenes_1964], cited above for the standoff trade, apply to such an engagement as well.
 
-Bell was thinking about the successor problem before the X-9 stopped flying. [Ehricke 1955][research_ehricke_1955] and [Bell Aerospace Co Buffalo Ny 1955][research_bell_aerospace_co_buffalo_ny_1955] describe the MX-2276 advanced strategic weapon system, a boost-glide vehicle that removes the launching aircraft from the engagement entirely by not needing one, and the same company produced both studies.
+Bell was thinking about the successor problem within three years of the X-9's last flight. [Ehricke 1955][research_ehricke_1955] and [Bell Aerospace Co Buffalo Ny 1955][research_bell_aerospace_co_buffalo_ny_1955] describe the MX-2276 advanced strategic weapon system, a boost-glide vehicle that removes the launching aircraft from the engagement entirely by not needing one, and the same company produced both studies.
 
 ### The Ground and Handling Problem
 
-The X-9's stated objectives included checkout, launch, maintenance, and deployment experience, and those turn into hardware requirements that the analytical literature usually omits.
+The X-9's stated objectives included checkout, launch, maintenance, and deployment experience \[[GAM-63 RASCAL][ref_rascal]\], and those turn into hardware requirements that the analytical literature usually omits.
 
-A liquid-propellant missile carried inside an aircraft is a stowage hazard, and the magazine problem was studied directly by [Quillin and Parry 1962][research_quillin_1962]. The suspension and cushioning that let a missile survive ground handling is [Wiltse 1955][research_wiltse_1955], the release mechanism and its redundancy is [Paradise 1971][research_paradise_1971], and the general specification of what a ground-test article must demonstrate is [Cunningham 1963][research_cunningham_1963]. Packaging the electronics so they survive the environment and can be produced at cost is [Woodward 1961][research_woodward_1961].
+A liquid-propellant missile carried inside an aircraft is a stowage hazard, and the magazine problem was studied directly by [Quillin and Parry 1962][research_quillin_1962]. [Wiltse 1955][research_wiltse_1955] treats the suspension and cushioning that let a missile survive ground handling, [Paradise 1971][research_paradise_1971] the release mechanism and its redundancy, and [Cunningham 1963][research_cunningham_1963] the general specification of what a ground-test article must demonstrate. Packaging the electronics so they survive the environment and can be produced at cost is the subject of [Woodward 1961][research_woodward_1961].
 
 **None of this is glamorous and all of it is why the programme existed**, since a weapon that works on the range and cannot be maintained on a base is not a weapon.
 
@@ -621,7 +621,7 @@ At Mach 2 the vehicle is warm but not hot. The recovery temperature at the surfa
 
 $$T_r = T_{\infty} \left( 1 + r \, \frac{\gamma-1}{2} M^{2} \right) = 217 \left( 1 + (0.89)(0.2)(4) \right) = 372 \, \text{K}$$
 
-which is 99 degrees Celsius and requires no exotic material at all. The transient behaviour of a thin skin, which is what actually matters for a flight lasting a few minutes, follows the lumped relation
+which is 99 degrees Celsius and requires no exotic material at all. The transient behaviour of a thin skin, the quantity that matters for a flight lasting a few minutes, follows the lumped relation
 
 $$\rho_m c_p t \, \frac{\mathrm{d}T_w}{\mathrm{d}t} = h \left( T_r - T_w \right)$$
 
@@ -633,19 +633,19 @@ that for a two millimetre aluminium skin at a convective coefficient of 150 watt
 
 $$\tau = \frac{(2800)(900)(2 \times 10^{-3})}{150} = 34 \, \text{s}$$
 
-comparable to the flight time, so the skin never reaches equilibrium. The period analyses of exactly this transient are [Huston et al 1948][research_huston_1948] and [Lo 1948][research_lo_1948], both of which treat conical bodies in short-duration high-speed flight, which is the X-9's case precisely.
+comparable to the flight time, so the skin never reaches equilibrium. [Huston et al 1948][research_huston_1948] and [Lo 1948][research_lo_1948] analysed this transient in the period, both for conical bodies in short-duration high-speed flight, the X-9's case.
 
-The structural sizing is set by the manoeuvre load rather than by temperature. At the four g limit computed above the wing bending moment at the root is of order
+The structural sizing is set by the manoeuvre load, not by temperature. At the four g limit computed above the wing bending moment at the root is of order
 
 $$M_{\text{root}} = n \, m g \, \frac{b}{4} = (4)(1588)(9.81) \frac{2.39}{4} = 3.7 \times 10^{4} \, \text{N} \cdot \text{m}$$
 
-which a spar of modest depth carries easily, and the general apparatus is [Bruhn 1973 Analysis and Design of Flight Vehicle Structures][book_bruhn_1973]. Thermal relations are [Incropera and DeWitt, Fundamentals of Heat and Mass Transfer][book_incropera_heat_transfer]. **Heating is not a design driver here and that is worth stating**, because it is the first vehicle in this series for which the answer to the thermal question is that there is no thermal question. The X-1 needed the analysis and did not have it. The X-9 could have had it and did not need it.
+which a spar of modest depth carries easily, and the general apparatus is [Bruhn 1973 Analysis and Design of Flight Vehicle Structures][book_bruhn_1973]. Thermal relations are [Incropera and DeWitt, Fundamentals of Heat and Mass Transfer][book_incropera_heat_transfer]. **Heating is not a design driver here, and the negative result should be recorded**, because the X-9 is the first vehicle in this series for which the answer to the thermal question is that there is no thermal question. The X-1 needed the analysis and did not have it. The X-9 could have had it and did not need it.
 
 ### Instrumentation and Recovery
 
-The X-9 carried telemetry and, at the end of powered flight, could be brought down under a parachute to recover the instrumentation package.
+The X-9 carried an instrumentation package and, at the end of powered flight, could be brought down under a parachute to recover it \[[Parsch 2002][ref_parsch_x9]\].
 
-That decision is the [X-8][related_post_a305_aerojet_x8]'s argument arriving at a different answer for a different reason. The X-8 recovered its nose cone because photographic and emulsion records cannot be telemetered at any rate the period could achieve. The X-9's data is all electrical and could in principle be sent down, so the recovery exists to retrieve **hardware** instead of records, which for a programme developing a guidance system means retrieving the guidance system and finding out what it did.
+That decision is the [X-8][related_post_a305_aerojet_x8]'s argument arriving at a different answer for a different reason. The X-8 recovered its nose cone because photographic and emulsion records cannot be telemetered at any rate the period could achieve. The X-9's guidance measurements could in principle be sent down by radio, so the recovery plausibly exists to retrieve **hardware** instead of records, which for a programme developing a guidance system means retrieving the guidance system and finding out what it did.
 
 The descent under canopy follows the same terminal-velocity relation as any recovery,
 
@@ -655,25 +655,25 @@ so a 300 kilogramme package descending at 8 metres per second at sea level requi
 
 $$A = \frac{2 m g}{\rho C_D v_t^{2}} = \frac{(2)(300)(9.81)}{(1.225)(1.4)(64)} = 53.6 \, \text{m}^{2}$$
 
-which is a canopy of 8.3 metres diameter. The materials problem for a supersonic deployment of that size is the subject of [MacCarthy 1954][research_maccarthy_1954] and the canopy behaviour itself of [Meyer 1958][research_meyer_1958], with the design relations in [Knacke 1992 Parachute Recovery Systems Design Manual][book_knacke_1992]. Missile telemetry of the period and its evolution is [Muehlner 1962][research_muehlner_1962].
+corresponding to a canopy of 8.3 metres diameter. The materials problem for a supersonic deployment of that size is the subject of [MacCarthy 1954][research_maccarthy_1954] and the canopy behaviour of [Meyer 1958][research_meyer_1958], with the design relations in [Knacke 1992 Parachute Recovery Systems Design Manual][book_knacke_1992]. [Muehlner 1962][research_muehlner_1962] covers missile telemetry of the period and its evolution.
 
 ## The Flight Test Record
 
 The record is short and its shape is characteristic of a guidance programme rather than a performance one.
 
-The first flight, in April 1949, was an unpowered glide drop of a dummy. The first attempt at a powered launch came more than a year later, in May 1950, and failed. **The first fully successful flight was the fifth, in November 1950.** Testing continued until January 1953.
+The first flight, in April 1949, was an unpowered glide drop of a dummy. The first attempt at a powered launch came more than a year later, in May 1950, and failed. **The first fully successful flight was the fifth, in November 1950.** Testing continued until January 1953. [Parsch 2002][ref_parsch_x9] gives the sequence, and [Jenkins Landis and Miller 2003 American X-Vehicles, An Inventory X-1 to X-50][book_jenkins_landis_miller_2003] dates the first flight to 28 April 1949 and the last to 23 January 1953.
 
-Thirty-one vehicles were built. The number actually launched is given as twenty-two in one account and is not stated consistently elsewhere, and the discrepancy is carried into the Epistemic State. The programme used two different rocket thrust chambers at the outset, one from [Aerojet][ref_aerojet] and one from [Solar][ref_solar], and from the sixteenth vehicle onward the Bell XLR65-BA-1. Three flights carried a warhead dispersing chemical bomblets. Warhead development for guided missiles of the period is [Philipchuk 1952][research_philipchuk_1952], [Walters 1959][research_walters_1959], [Seiple 1960][research_seiple_1960], [Magis 1960][research_magis_1960], and [Naylor 1961][research_naylor_1961], and the fuzing that decides when any of it functions is [Kasdorf 1952][research_kasdorf_1952] and [Taylor 1956][research_taylor_1956].
+Thirty-one vehicles were built \[[Parsch 2002][ref_parsch_x9]\]. The number of flights is given as twenty-two in the [GAM-63 RASCAL][ref_rascal] history and as twenty-eight in [Jenkins Landis and Miller 2003 American X-Vehicles, An Inventory X-1 to X-50][book_jenkins_landis_miller_2003], and the discrepancy is carried into the Epistemic State. The same history records that the programme used two different rocket thrust chambers at the outset, one from [Aerojet][ref_aerojet] and one from [Solar][ref_solar], and from the sixteenth vehicle onward the Bell XLR65-BA-1. Three flights carried a warhead dispersing chemical bomblets. Warhead development for guided missiles of the period appears in [Philipchuk 1952][research_philipchuk_1952], [Walters 1959][research_walters_1959], [Seiple 1960][research_seiple_1960], [Magis 1960][research_magis_1960], and [Naylor 1961][research_naylor_1961], and the fuzing that decides when any of it functions in [Kasdorf 1952][research_kasdorf_1952] and [Taylor 1956][research_taylor_1956].
 
-**The programme was terminated well short of its originally intended number of flights because it had already met its objectives.** That is an unusual reason to stop and it is the strongest single statement available about how the X-9 performed. Consideration was given to producing a limited number of Shrikes as an interim operational weapon until RASCAL was available, and the proposal died on range and payload rather than on accuracy or reliability.
+**The programme was terminated well short of its originally intended number of flights because it had already met its objectives** \[[GAM-63 RASCAL][ref_rascal]\]. Ninety-three vehicles were initially ordered and thirty-one delivered \[[Jenkins Landis and Miller 2003 American X-Vehicles, An Inventory X-1 to X-50][book_jenkins_landis_miller_2003]\]. Stopping for that reason is unusual, and no other available statement speaks as strongly to how the X-9 performed. Consideration was given to producing a limited number of Shrikes as an interim operational weapon until RASCAL was available, and the proposal died on range and payload \[[Parsch 2002][ref_parsch_x9]\].
 
 The flights were conducted from [Holloman Air Force Base][ref_holloman] and the associated ranges, whose instrumentation and its evolution are described by [Muehlner 1962][research_muehlner_1962] for telemetry and, for the general problem of a missile range as an engineered object, by [Gruntman 2019][research_gruntman_2019] writing about its Soviet counterpart.
 
-None of the vehicles survived. The only known remaining fragment is part of a vertical stabiliser, held at the Larry Bell Museum in Mentone, Indiana.
+None of the vehicles survived. The only known remaining fragment is part of a vertical stabiliser, held at the Larry Bell Museum in Mentone, Indiana \[[Jenkins Landis and Miller 2003 American X-Vehicles, An Inventory X-1 to X-50][book_jenkins_landis_miller_2003]\].
 
 ### What a Guidance Programme's Record Looks Like
 
-The eighteen months between the first glide drop and the first powered success is the number to attend to, and it is not a sign of difficulty with the rocket.
+The eighteen months between the first glide drop and the first powered success is the number to attend to. It does not signal difficulty with the rocket.
 
 A guidance system cannot be tested until the vehicle it guides flies repeatably, and a vehicle does not fly repeatably until its release, its propulsion, and its autopilot each work. The order of the record is therefore forced. Glide drops establish the release and the airframe. Powered flights establish the propulsion. Only then can the guidance loop be closed and the miss distances collected that the specification is written in.
 
@@ -683,7 +683,7 @@ The record also permits an inference about reliability. Four failures before the
 
 $$L(p) = \left( 1 - p \right)^{4} p$$
 
-which is maximised at $p = 0.2$. **The best estimate from the opening of the programme is one flight in five**, and the fact that the programme then completed its objectives inside thirty-one vehicles implies that $p$ rose substantially, which is what a development programme is for. The formal machinery for a test-to-failure programme of this kind arrived later and is [Blundell and Brashear 1962][research_blundell_1962].
+which is maximised at $p = 0.2$. **The best estimate from the opening of the programme is one flight in five**, and the fact that the programme then completed its objectives inside thirty-one vehicles implies that $p$ rose substantially, as a development programme is meant to achieve. The formal machinery for a test-to-failure programme of this kind arrived later, in [Blundell and Brashear 1962][research_blundell_1962].
 
 The number of flights required to demonstrate a reliability $p$ at confidence $1-\alpha$ with no failures is
 
@@ -697,37 +697,37 @@ against a programme total of thirty-one vehicles. **The X-9 could not have demon
 
 ## Comparison With Ground Prediction
 
-The comparison available here is unusually good, because the configuration the X-9 flew was measured independently and at length by the National Advisory Committee for Aeronautics, abbreviated NACA, using the rocket-model technique described in the earlier articles of this series.
+The comparison available here is unusually good, because the configuration family the X-9 belonged to was measured independently and at length by the National Advisory Committee for Aeronautics, abbreviated NACA, using the rocket-model technique described in the earlier articles of this series.
 
 [Moul and Wineman 1952][research_moul_1952], [Baber and Moul 1955][research_baber_1955], and [Brown 1957][research_brown_1957] each flew instrumented cruciform canard missile models across the transonic and low supersonic range, and [Niewald and Moul 1950][research_niewald_1950] measured control effectiveness and hinge moments for the same class. [Spearman 1961][research_spearman_1961] gives tunnel results for a series of cruciform-wing missiles with canard controls at Mach 2.01, and [Peterson 1961][research_peterson_1961] covers static stability and control of canard configurations from Mach 0.7 to 2.22. The tunnels themselves were being extended to the relevant conditions in the same years, and the instrumentation and technique reports of [Diggins 1951][research_diggins_1951], [Smith 1953][research_smith_1953], and [Adams and Rubin 1958][research_adams_1958] are the reason those measurements exist. The bomber the X-9 was to be carried by had its own tunnel programme, reported by [Shantz 1953][research_shantz_1953] and [Anderson 1958][research_anderson_1958].
 
-**This is a denser independent measurement base than any previous vehicle in this series enjoyed**, and the reason is structural rather than fortunate. A canard cruciform missile is a configuration family rather than a single aircraft, many organisations wanted the same derivatives, and the rocket-model technique could produce them quickly. The X-1's transonic drag rise had to be measured by the X-1 because nothing else was shaped like an X-1.
+**This is a denser independent measurement base than any previous vehicle in this series enjoyed**, and the cause is structural, not fortunate. A canard cruciform missile is a configuration family rather than a single aircraft, many organisations wanted the same derivatives, and the rocket-model technique could produce them quickly. The X-1's transonic drag rise had to be measured by the X-1 because nothing else was shaped like an X-1.
 
 The prediction problem is correspondingly easier and the article should say so. What the X-9 had to determine for itself was not the aerodynamics but the closed-loop behaviour, and no wind tunnel produces a miss distance.
 
-The one place where prediction was genuinely hard is the interaction between the guidance loop and the airframe under realistic noise, and the analytical apparatus for that arrived after the X-9 finished flying. [Abramovitz 1952][research_abramovitz_1952] and [Abramovitz 1953][research_abramovitz_1953] treat the speed of response of proportional navigation systems and the effect of missile configuration on it, [Stewart and Smith 1959][research_stewart_1959] synthesise optimum homing guidance with statistical inputs, and [Stewart 1961][research_stewart_1961] gives an explicit linear filtering solution for the same problem. **The two Stewart reports postdate the X-9's last flight and the two Abramovitz reports appeared as it was ending**, and the X-9's guidance was designed and flown without them. The line continues through the three-dimensional formulation of [Adler 1956][research_adler_1956], the final-value formulation of [Abzug 1967][research_abzug_1967], the closed-form solution of [Guelman 1974][research_guelman_1974], and the comparative evaluation of [Price and Warren 1973][research_price_1973]. The separation of guidance from navigation that makes any of it tractable is [Potter 1964][research_potter_1964], and the state estimation that modern guidance assumes is [Aldrich and Krabill 1972][research_aldrich_1972].
+The one place where prediction was hard is the interaction between the guidance loop and the airframe under realistic noise, and the analytical apparatus for that arrived after the X-9 finished flying. [Abramovitz 1952][research_abramovitz_1952] and [Abramovitz 1953][research_abramovitz_1953] treat the speed of response of proportional navigation systems and the effect of missile configuration on it, [Stewart and Smith 1959][research_stewart_1959] synthesise optimum homing guidance with statistical inputs, and [Stewart 1961][research_stewart_1961] gives an explicit linear filtering solution for the same problem. **The two Stewart reports postdate the X-9's last flight and the two Abramovitz reports appeared as it was ending**, and the X-9's guidance was designed and flown without them. The line continues through the three-dimensional formulation of [Adler 1956][research_adler_1956], the final-value formulation of [Abzug 1967][research_abzug_1967], the closed-form solution of [Guelman 1974][research_guelman_1974], and the comparative evaluation of [Price and Warren 1973][research_price_1973]. [Potter 1964][research_potter_1964] separates guidance from navigation, which makes any of it tractable, and [Aldrich and Krabill 1972][research_aldrich_1972] supply the state estimation that modern guidance assumes.
 
 **A programme that finished in January 1953 was using none of this**, and the gap between what the X-9 flew and what the theory would later say it should have flown is a fair measure of how far ahead of its analysis the practice ran.
 
 ## What the Data Changed
 
-### The RASCAL, and Then Not the RASCAL
+### The RASCAL and Its Cancellation
 
-The X-9's direct consequence is the GAM-63. The operational missile used the X-9's canard configuration and a rocket engine derived from the X-9's, in a body nine feet longer and two feet larger in diameter. The programme was cancelled in September 1958.
+The X-9's direct consequence is the GAM-63. The operational missile used the X-9's canard configuration and a rocket engine derived from the X-9's, in a body nine feet longer and two feet larger in diameter. The programme was cancelled in September 1958 \[[GAM-63 RASCAL][ref_rascal]\].
 
-**A testbed whose weapon is cancelled has an ambiguous legacy and it is worth being honest about it.** The X-9 met its objectives. The weapon it served did not enter service. The cancellation is usually attributed to the vulnerability of the launching bomber, the maturing of ballistic missiles, and the arrival of the [air-launched ballistic missile][ref_alcm] concept, none of which are failures of the X-9 and all of which made it irrelevant. The [standoff weapon][ref_standoff] role passed to the [AGM-28 Hound Dog][ref_hound_dog], and the wider evolution of the category is [Werrell 1985 The Evolution of the Cruise Missile][book_werrell_1985].
+**A testbed whose weapon is cancelled has an ambiguous legacy, and an honest account has to say so.** The X-9 met its objectives. The weapon it served never became fully operational. The cancellation is attributed to the weapon's limited range and accuracy and its toxic liquid propellants \[[Parsch 2002][ref_parsch_x9]\], to the Strategic Air Command's judgement that it was already obsolete, and to a 1958 test record in which one of 65 scheduled launches succeeded \[[GAM-63 RASCAL][ref_rascal]\], none of which are failures of the X-9. The [standoff weapon][ref_standoff] role passed to the [AGM-28 Hound Dog][ref_hound_dog] and later to [air-launched ballistic missiles][ref_alcm] such as Skybolt, both of which [Jenkins Landis and Miller 2003 American X-Vehicles, An Inventory X-1 to X-50][book_jenkins_landis_miller_2003] names among the later standoff weapons for which the X-9 served as a conceptual prototype, and [Werrell 1985 The Evolution of the Cruise Missile][book_werrell_1985] traces the wider evolution of the category.
 
 ### The Error Budget as a Method
 
-What survived is the method rather than the hardware.
+The method survived, and the hardware did not.
 
-Specifying a weapon by a circular error probable, decomposing that figure into an error budget allocated across subsystems, and verifying it statistically over a flight programme is now simply how guided weapons are procured. The statistical machinery was still being worked out while the X-9 flew, in [Moranda 1959][research_moranda_1959], [Moranda 1960][research_moranda_1960], and [Kamat 1962][research_kamat_1962], and the connection between accuracy and effect through a damage function was made explicit by [Lilliefors 1957][research_lilliefors_1957].
+Specifying a weapon by a circular error probable, decomposing that figure into an error budget allocated across subsystems, and verifying it statistically over a flight programme is now how guided weapons are procured. The statistical machinery was still being worked out while the X-9 flew, in [Moranda 1959][research_moranda_1959], [Moranda 1960][research_moranda_1960], and [Kamat 1962][research_kamat_1962], and the connection between accuracy and effect through a damage function was made explicit by [Lilliefors 1957][research_lilliefors_1957].
 
-That relation is worth writing down because it is what the whole argument is for. For a weapon with a lethal radius $R_L$ against a given target, delivered with circular error probable $\mathrm{CEP}$, the single-shot kill probability is
+The argument as a whole leads to this relation, so it is set out in full. For a weapon with a lethal radius $R_L$ against a given target, delivered with circular error probable $\mathrm{CEP}$, the single-shot kill probability is
 
 $$P_k = 1 - \left( \tfrac{1}{2} \right)^{\left( R_L / \mathrm{CEP} \right)^{2}}$$
 
-which equals one half when the lethal radius equals the circular error probable, and rises steeply thereafter. The relation assumes a definite lethal radius, and neither the lethality nor the aim point is that clean in practice. [McNolty 1965][research_mcnolty_1965] treats the case where the lethal effect is itself a random variable, [Braithwaite 1962][research_braithwaite_1962] the extrapolation of sparse kill-probability data, and [Lilliefors 1957][research_lilliefors_1957] gives the hand computation the period actually used. **The shape of the damage function turns out to matter more than the accuracy fed into it**, which is the finding of [Moon 2021][research_moon_2021], and the structural-response side that determines that shape is now simulated in [Temsah et al 2021][research_temsah_2021] and predicted by learned models in [Almustafa and Nehdi 2020][research_almustafa_2020]. Inverting for the accuracy required to reach a given kill probability,
+which equals one half when the lethal radius equals the circular error probable, and rises steeply thereafter. The relation assumes a definite lethal radius, and neither the lethality nor the aim point is that clean in practice. [McNolty 1965][research_mcnolty_1965] treats the case where the lethal effect is itself a random variable, [Braithwaite 1962][research_braithwaite_1962] the extrapolation of sparse kill-probability data, and [Lilliefors 1957][research_lilliefors_1957] gives the hand computation the period used. **The shape of the damage function turns out to matter more than the accuracy fed into it**, as [Moon 2021][research_moon_2021] finds, and the structural-response side that determines that shape is now simulated in [Temsah et al 2021][research_temsah_2021] and predicted by learned models in [Almustafa and Nehdi 2020][research_almustafa_2020]. Inverting for the accuracy required to reach a given kill probability,
 
 $$\mathrm{CEP} = \frac{R_L}{\sqrt{\log_2 \left( \dfrac{1}{1 - P_k} \right)}}$$
 
@@ -735,23 +735,23 @@ The weapon-effects relations behind the lethal radius are [Glasstone and Dolan 1
 
 $$R_L = R_1 \, W^{1/3}$$
 
-with $W$ the yield in kilotonnes and $R_1$ the one-kilotonne radius, which for the five pounds per square inch contour that destroys ordinary structures is about 180 metres. A twenty kilotonne weapon therefore gives
+with $W$ the yield in kilotonnes and $R_1$ the one-kilotonne radius, which for the five pounds per square inch contour that destroys ordinary structures is about 0.43 miles, or 690 metres, for an air burst \[[Glasstone 1962 The Effects of Nuclear Weapons, Revised Edition][book_glasstone_1962]\]. A twenty kilotonne weapon therefore gives
 
-$$R_L = 180 \, (20)^{1/3} = 489 \, \text{m}$$
+$$R_L = 690 \, (20)^{1/3} = 1873 \, \text{m}$$
 
-and a warhead in the hundreds of kilotonnes gives 835 metres at 100 and 1,800 metres at a megatonne. **Every factor of eight in yield doubles the tolerable circular error**, which is the arithmetic behind the observation that accuracy and yield are substitutes. The scaling and the target-dependence that makes the choice of overpressure contour a judgement rather than a constant are [Morton 1966][research_morton_1966], with the vulnerability of a specific class of target in [Andon 1965][research_andon_1965]. For a warhead with a lethal radius of 1,500 metres against a soft target, corresponding to something near 600 kilotonnes on this scaling, the accuracy needed for a 90 percent kill probability is
+and a larger warhead gives 3,200 metres at 100 kilotonnes and 6,900 metres at a megatonne. **Every factor of eight in yield doubles the tolerable circular error**, and this arithmetic underlies the observation that accuracy and yield are substitutes. [Morton 1966][research_morton_1966] covers the scaling and the target-dependence that make the choice of overpressure contour a judgement rather than a constant, with the vulnerability of a specific class of target in [Andon 1965][research_andon_1965]. For a warhead with a lethal radius of 1,500 metres against a soft target, corresponding to something near ten kilotonnes on this scaling, the accuracy needed for a 90 percent kill probability is
 
 $$\mathrm{CEP} = \frac{1500}{\sqrt{\log_2 10}} = \frac{1500}{1.82} = 823 \, \text{m}$$
 
-against the 108 metres the 1945 specification demanded. **The requirement that dimensioned this vehicle was about eight times tighter than the weapon it carried actually needed.** It was written for a conventional warhead one day before Trinity, and by the time the X-9 flew the warhead had changed and the requirement had not.
+against the 108 metres the 1945 specification demanded. **The requirement that dimensioned this vehicle was about eight times tighter than the weapon it carried needed.** It was written one day before Trinity, and the MX-767 project it produced was already to develop a nuclear-armed missile \[[GAM-63 RASCAL][ref_rascal]\], so the warhead changed almost at once and the accuracy figure in the record remains the 1945 one.
 
 This does not make the X-9 pointless. It relocates its value. The accuracy work was largely surplus to the nuclear mission and directly applicable to everything that came after it, and the reliability, the launch procedures, and the trained crews were not surplus at all.
 
 ### The Configuration
 
-The cruciform canard layout the X-9 flew became common, and the measurement base assembled around it in the early 1950s outlived both the X-9 and the RASCAL. The reports cited in the Comparison section above were still being used as design data long after the vehicles that motivated them were scrapped, and the measurement programme continued past the X-9's own end in [Bright and Peterson 1960][research_bright_1960], [Foster 1959][research_foster_1959], [Anderson 1961][research_anderson_1961], and [Robinson 1958][research_robinson_1958], with the hinge-moment case extended to rolling and manoeuvring flight by [Pfenneberger 1966][research_pfenneberger_1966] and the prediction technique itself criticised by [Abel 1971][research_abel_1971].
+The cruciform canard layout the X-9 flew became common, and the measurement base assembled around it in the early 1950s outlived both the X-9 and the RASCAL. The reports cited in the Comparison section above were still being used as design data long after the vehicles that motivated them were scrapped, and the measurement programme continued past the X-9's end in [Bright and Peterson 1960][research_bright_1960], [Foster 1959][research_foster_1959], [Anderson 1961][research_anderson_1961], and [Robinson 1958][research_robinson_1958], with the hinge-moment case extended to rolling and manoeuvring flight by [Pfenneberger 1966][research_pfenneberger_1966] and the prediction technique itself criticised by [Abel 1971][research_abel_1971].
 
-**A configuration family outlives the programmes that motivate it**, and that is a more durable contribution than the vehicle. The consolidated design data of the period, in [Army War Coll Carlisle Barracks Pa 1952][research_army_war_coll_carlisle_barracks_pa_1952] and its later volume [Advanced Fuel Research Inc East Hartford Ct 1957][research_advanced_fuel_research_inc_east_hartford_ct_1957], is where such measurements ended up.
+**A configuration family outlives the programmes that motivate it**, and the family is a more durable contribution than the vehicle. The consolidated design data of the period, in [Army War Coll Carlisle Barracks Pa 1952][research_army_war_coll_carlisle_barracks_pa_1952] and its later volume [Advanced Fuel Research Inc East Hartford Ct 1957][research_advanced_fuel_research_inc_east_hartford_ct_1957], is where such measurements ended up.
 
 ## The Contemporary Literature
 
@@ -774,43 +774,43 @@ The cruciform canard layout the X-9 flew became common, and the measurement base
 | Other guided-missile and flight literature | 165 |
 | **Total** | **6,105** |
 
-### Guidance Laws, Which Are Now Optimal Rather Than Proportional
+### Optimal Guidance Laws
 
-The guidance problem the X-9 solved by putting a man in the loop is now solved by an optimisation. Modern treatments derive the guidance law from a cost functional rather than from a geometric rule, and the [proportional navigation][ref_pronav] the period was working out is recovered as a special case, a connection made explicit by [Lee and Cho 2021][research_lee_2021], who show pure proportional navigation to be inverse-optimal for a particular cost, and by [Jeon et al 2020][research_jeon_2020]. The linear quadratic formulation is [Weiss and Shima 2019][research_weiss_2019] and [Weiss and Shima 2021][research_weiss_2021], the state-dependent Riccati approach is [Lin and Xin 2019][research_lin_2019], the impact-angle and impact-time constraints that a modern weapon carries and the X-9 did not are [Jung and Lee 2024][research_jung_2024] and [Erer et al 2024][research_erer_2024], the biased form that a landing or a glide requires is [Yang 2025][research_yang_2025] and [Levin and DeLaurentis 2025][research_levin_2025], and the emulation of an optimal law by a virtual target is [Merkulov et al 2025][research_merkulov_2025], disturbance attenuation with measurement feedback is [Or et al 2021][research_or_2021], and the multi-agent extension the period could not have imagined is [Shalumov 2019][research_shalumov_2019]. Closed-form solutions of the linearised equations, which is the analysis [Abramovitz 1952][research_abramovitz_1952] was attempting with the tools of 1952, are now available in [Markham 2019][research_markham_2019] and [Markham 2024][research_markham_2024]. The theoretical frame for all of it is [Bryson and Ho 1975 Applied Optimal Control][book_bryson_ho_1975].
+The guidance problem the X-9 solved by putting a man in the loop is now solved by an optimisation. Modern treatments derive the guidance law from a cost functional rather than from a geometric rule, and the [proportional navigation][ref_pronav] the period was working out is recovered as a special case, a connection made explicit by [Lee and Cho 2021][research_lee_2021], who show pure proportional navigation to be inverse-optimal for a particular cost, and by [Jeon et al 2020][research_jeon_2020]. [Weiss and Shima 2019][research_weiss_2019] and [Weiss and Shima 2021][research_weiss_2021] give the linear quadratic formulation and [Lin and Xin 2019][research_lin_2019] the state-dependent Riccati approach. The impact-angle and impact-time constraints that a modern weapon carries and the X-9 did not appear in [Jung and Lee 2024][research_jung_2024] and [Erer et al 2024][research_erer_2024], the biased form that a landing or a glide requires in [Yang 2025][research_yang_2025] and [Levin and DeLaurentis 2025][research_levin_2025], and the emulation of an optimal law by a virtual target in [Merkulov et al 2025][research_merkulov_2025]. Disturbance attenuation with measurement feedback is treated by [Or et al 2021][research_or_2021], and the multi-agent extension the period could not have imagined by [Shalumov 2019][research_shalumov_2019]. Closed-form solutions of the linearised equations, the analysis [Abramovitz 1952][research_abramovitz_1952] was attempting with the tools of 1952, are now available in [Markham 2019][research_markham_2019] and [Markham 2024][research_markham_2024]. [Bryson and Ho 1975 Applied Optimal Control][book_bryson_ho_1975] supplies the theoretical frame for all of it.
 
-The minimum-effort formulations that bound how little control authority an intercept needs are [Weiss and Shima 2021][research_weiss_2021], and the model-predictive treatment that carries explicit constraints is [Bhattacharjee et al 2021][research_bhattacharjee_2021].
+[Weiss and Shima 2021][research_weiss_2021] also give the minimum-effort formulations that bound how little control authority an intercept needs, and [Bhattacharjee et al 2021][research_bhattacharjee_2021] the model-predictive treatment that carries explicit constraints.
 
-**What has not changed is the error gradient argument.** A guidance law of any sophistication still cannot beat the geometry of where its sensor sits, which is why terminal seekers exist and why the modern equivalent of the RASCAL link is a synthetic-aperture radar image formed by the weapon itself, as [Sun et al 2024][research_sun_2024] describe.
+**What has not changed is the error gradient argument.** A guidance law of any sophistication still cannot beat the geometry of where its sensor sits. Terminal seekers exist because of that geometry, and so does the modern equivalent of the RASCAL link, a synthetic-aperture radar image formed by the weapon itself, as [Sun et al 2024][research_sun_2024] describe.
 
-### Autopilots, Which Are Now Robust Rather Than Merely Damped
+### Robust Autopilots
 
-The inner loop the X-9 needed to hold its fast airframe while the operator flew slowly is now designed against explicit uncertainty rather than against a nominal model. [Simões and Cavalcanti 2023][research_simoes_2023] use a structured linear parameter-varying formulation, [Sun et al 2023][research_sun_2023] a gain-scheduled multifidelity design, [Zhou et al 2023][research_zhou_2023] dynamic surface control, [Lee et al 2020][research_lee_2020] robust backstepping with an explicit time-delay term, and [Gao et al 2022][research_gao_2022] a differential-game formulation. The actuator that closes the loop has its own literature, since an electromechanical surface actuator is now the default, and [Maré 2022][research_mare_2022] and [Ruan et al 2021][research_ruan_2021] treat its sizing and its friction, with fault identification in [Quattrocchi et al 2022][research_quattrocchi_2022] and fault-tolerant reconfiguration in [Li et al 2026][research_li_2026_2]. **The X-9's hydraulic actuator could fail in one way and the modern electromechanical one can fail in several**, which is why the literature is about diagnosis rather than about power. The flutter boundary that an all-moving surface brings is now computed and actively suppressed in [Li et al 2023][research_li_2023_4].
+The inner loop the X-9 needed to hold its fast airframe while the operator flew slowly is now designed against explicit uncertainty rather than against a nominal model. [Simões and Cavalcanti 2023][research_simoes_2023] use a structured linear parameter-varying formulation, [Sun et al 2023][research_sun_2023] a gain-scheduled multifidelity design, [Zhou et al 2023][research_zhou_2023] dynamic surface control, [Lee et al 2020][research_lee_2020] robust backstepping with an explicit time-delay term, and [Gao et al 2022][research_gao_2022] a differential-game formulation. The actuator that closes the loop has its own literature, since an electromechanical surface actuator is now the default, and [Maré 2022][research_mare_2022] and [Ruan et al 2021][research_ruan_2021] treat its sizing and its friction, with fault identification in [Quattrocchi et al 2022][research_quattrocchi_2022] and fault-tolerant reconfiguration in [Li et al 2026][research_li_2026_2]. **A hydraulic actuator of the X-9's period could fail in one way and a modern electromechanical one can fail in several**, so the literature is about diagnosis, not power. The flutter boundary that an all-moving surface brings is now computed and actively suppressed in [Li et al 2023][research_li_2023_4].
 
 ### Data Links and the Latency Problem
 
-The X-9's loop closed across a radio path short enough that its delay was negligible, and the operator was the slow element. The modern version has the delay in the network rather than in the human, and closing a loop across a variable delay is a subject in its own right. [Ma and McDonald 2026][research_ma_2026] identify the latency thresholds at which a human operator's performance breaks down, which is the direct descendant of the crossover argument above. Compensation schemes are [Chen and Liu 2021][research_chen_2021] using a Smith predictor, [Shen et al 2019][research_shen_2019] and [Dehghan et al 2021][research_dehghan_2021] for the bilateral case, and [Kim et al 2024][research_kim_2024_2] for outlier detection in the delay itself. The networked-control formulation is [Florencio et al 2020][research_florencio_2020].
+The X-9's loop closed across a radio path short enough that its delay was negligible, and the operator was the slow element. The modern version has the delay in the network rather than in the human, and closing a loop across a variable delay is a separate subject. [Ma and McDonald 2026][research_ma_2026] identify the latency thresholds at which a human operator's performance breaks down, the direct descendant of the crossover argument above. Compensation schemes are [Chen and Liu 2021][research_chen_2021] using a Smith predictor, [Shen et al 2019][research_shen_2019] and [Dehghan et al 2021][research_dehghan_2021] for the bilateral case, and [Kim et al 2024][research_kim_2024_2] for outlier detection in the delay itself. [Florencio et al 2020][research_florencio_2020] cast it as a networked-control problem.
 
-### Canard Aerodynamics, Computed Rather Than Flown
+### Computed Canard Aerodynamics
 
-The derivatives the rocket-model programme measured are now computed, and the configuration continues in service. [Zhao et al 2025][research_zhao_2025] give a nonlinear body-aerodynamic model for a canard-controlled round, and parameter identification from flight, which is what the rocket-model technique was doing by other means, is [Tai et al 2023][research_tai_2023] and [Tai et al 2023][research_tai_2023_2]. Configuration studies of the kind that filled the 1950s reports continue in [Shumway and Boranian 2025][research_shumway_2025], with the tunnel-and-simulation parameter estimation that succeeded the rocket-model technique in [Singh and Ghosh 2023][research_singh_2023], and **the modern question is not what the derivatives are but how much a wrong derivative costs**, which [Li et al 2025][research_li_2025_4] answer by propagating aerodynamic modelling error into the closed-loop dynamics. That is the question the X-9's designers could not ask, because they had no closed-loop model to propagate it through.
+The derivatives the rocket-model programme measured are now computed, and the configuration continues in service. [Zhao et al 2025][research_zhao_2025] give a nonlinear body-aerodynamic model for a canard-controlled round, and [Tai et al 2023][research_tai_2023] and [Tai et al 2023][research_tai_2023_2] identify parameters from flight, the task the rocket-model technique performed by other means. Configuration studies of the kind that filled the 1950s reports continue in [Shumway and Boranian 2025][research_shumway_2025], with the tunnel-and-simulation parameter estimation that succeeded the rocket-model technique in [Singh and Ghosh 2023][research_singh_2023], and **the modern question is not what the derivatives are but how much a wrong derivative costs**, which [Li et al 2025][research_li_2025_4] answer by propagating aerodynamic modelling error into the closed-loop dynamics. The X-9's designers could not ask that question, because they had no closed-loop model to propagate the error through.
 
 ### Store Separation
 
-The problem the trapeze solved by avoidance is now solved by computation and by scaled free-flight testing. [Song and Ai 2021][research_song_2021_2] analyse aircraft and store compatibility for an internal weapons bay, which is the X-9's exact geometry, and the similarity laws that make a tunnel test meaningful are derived by [Xue et al 2019][research_xue_2019], [Xue et al 2020][research_xue_2020], and [Xue et al 2020][research_xue_2020_2]. Air launch itself persists as a category, and [Stewart et al 2026][research_stewart_2026] treat the flight dynamics of a modern air-launched vehicle, with the design optimisation in [Li et al 2022][research_li_2022_6] and the smallest end of the category in [Elliott et al 2025][research_elliott_2025].
+The problem the trapeze solved by avoidance is now solved by computation and by scaled free-flight testing. [Song and Ai 2021][research_song_2021_2] analyse aircraft and store compatibility for an internal weapons bay, the same geometry as the X-9's, and the similarity laws that make a tunnel test meaningful are derived by [Xue et al 2019][research_xue_2019], [Xue et al 2020][research_xue_2020], and [Xue et al 2020][research_xue_2020_2]. Air launch persists as a category, and [Stewart et al 2026][research_stewart_2026] treat the flight dynamics of a modern air-launched vehicle, with the design optimisation in [Li et al 2022][research_li_2022_6] and the smallest end of the category in [Elliott et al 2025][research_elliott_2025].
 
 ### Where the Mission Went
 
-The standoff strike role the RASCAL was built for did not disappear, it accelerated. Boost-glide vehicles now occupy the niche, and the guidance and control problems are recognisably the same ones scaled up, with [Bao et al 2021][research_bao_2021] integrating guidance, control, and morphing, [Autenrieb and Gruhn 2026][research_autenrieb_2026] allocating control across redundant surfaces, and [Jiang et al 2022][research_jiang_2022] treating the interception problem from the weapon's side. The defensive mirror is [Chen et al 2024][research_chen_2024] and [Zang et al 2025][research_zang_2025]. **The X-9's descendants are being shot at by systems the X-9's designers assumed would not exist**, and the counter-guidance that treats proportional navigation as something to be defeated rather than used is [Wang et al 2024][research_wang_2024]. Trajectory optimisation for the cruise case is [Shachar et al 2025][research_shachar_2025], the ascent case is [Lei et al 2025][research_lei_2025], and the flight-test control synthesis that such a vehicle now needs is [Cheah et al 2025][research_cheah_2025] and [Gao et al 2026][research_gao_2026].
+The standoff strike role the RASCAL was built for did not disappear, it accelerated. Boost-glide vehicles now occupy the niche, and the guidance and control problems are recognisably the same ones scaled up, with [Bao et al 2021][research_bao_2021] integrating guidance, control, and morphing, [Autenrieb and Gruhn 2026][research_autenrieb_2026] allocating control across redundant surfaces, and [Jiang et al 2022][research_jiang_2022] treating the interception problem from the weapon's side. [Chen et al 2024][research_chen_2024] and [Zang et al 2025][research_zang_2025] take the defensive side. **The X-9's descendants are being shot at by systems the X-9's designers assumed would not exist**, and [Wang et al 2024][research_wang_2024] develop counter-guidance that treats proportional navigation as something to be defeated rather than used. Trajectory optimisation is studied for the cruise case by [Shachar et al 2025][research_shachar_2025] and for the ascent case by [Lei et al 2025][research_lei_2025], and [Cheah et al 2025][research_cheah_2025] and [Gao et al 2026][research_gao_2026] address the flight-test control synthesis that such a vehicle now needs.
 
-The other direction the mission went is multiplication. Where the X-9 carried one operator's attention to one target, air-launched effects now go in numbers and coordinate among themselves, which changes the accuracy requirement rather than tightening it, and the cooperative localisation that makes it work is [Burchett 2019][research_burchett_2019]. **A weapon that can be produced in quantity substitutes redundancy for precision**, which is the same substitution the yield scaling above describes and a different way of buying it.
+The other direction the mission went is multiplication. Where the X-9 carried one operator's attention to one target, air-launched effects now go in numbers and coordinate among themselves, which changes the accuracy requirement rather than tightening it, and [Burchett 2019][research_burchett_2019] studies the cooperative localisation that makes it work. **A weapon that can be produced in quantity substitutes redundancy for precision**. The yield scaling above describes the same substitution, bought a different way.
 
 ### Test Instrumentation
 
 The measurement problem has moved from getting data down to knowing whether to believe it. [Ryu et al 2022][research_ryu_2022] predict sensor data in missile flight tests to detect faults, [Fontana and Di Lauro 2022][research_fontana_2022] survey the sensors themselves, and [Głębocki and Jacewicz 2020][research_g_ebocki_2020] combine sensitivity analysis with flight results in the way a modern version of this programme would.
 
-### Circular Error and Its Estimation, Which Has Not Moved
+### Estimating the Circular Error
 
-The statistical question the X-9 programme faced, which is how to estimate a percentile of a two-dimensional distribution from a few dozen samples, has not gone away, and **the surprising thing is how little the answer has changed**. The estimators compared by [Moranda 1959][research_moranda_1959] and [Kamat 1962][research_kamat_1962] and the bias treatment of [Moranda 1960][research_moranda_1960] are still the estimators, and the modern literature on weapon accuracy is largely about getting more samples rather than about extracting more from few. Where the effort has gone is into predicting the trajectory well enough that the sample is not needed, as [Zang et al 2025][research_zang_2025] and [Chen et al 2024][research_chen_2024] show for the interception problem.
+The statistical question the X-9 programme faced, how to estimate a percentile of a two-dimensional distribution from a few dozen samples, has not gone away, and **the surprising thing is how little the answer has changed**. The estimators compared by [Moranda 1959][research_moranda_1959] and [Kamat 1962][research_kamat_1962] and the bias treatment of [Moranda 1960][research_moranda_1960] are still the estimators, and the modern literature on weapon accuracy is largely about getting more samples rather than about extracting more from few. Where the effort has gone is into predicting the trajectory well enough that the sample is not needed, as [Zang et al 2025][research_zang_2025] and [Chen et al 2024][research_chen_2024] show for the interception problem.
 
 **A programme that flies twenty-two times still cannot measure its own seventy-fifth percentile**, and no amount of estimator sophistication repairs that.
 
@@ -908,11 +908,11 @@ The statistical question the X-9 programme faced, which is how to estimate a per
 
 Treating the X-9 through an error budget is productive and it misleads in several ways.
 
-**The X-9 is not an X-plane in the sense the series began with.** It is a subscale development article for a weapon, designated retrospectively in 1951, and the designation carries no research content that the RTV-A-4 label did not.
+**The X-9 is not an X-plane in the sense the series began with.** It is a subscale development article for a weapon, designated retrospectively in 1951 \[[Parsch 2002][ref_parsch_x9]\], and the designation carries no research content that the RTV-A-4 label did not.
 
-**The accuracy framing overstates what the vehicle was for.** The programme's stated objectives included checkout and launch procedures, crew training, and deployment experience, none of which reduce to a variance, and by the programme's own account those were a substantial part of why it existed.
+**The accuracy framing overstates what the vehicle was for.** The programme's stated objectives included checkout and launch procedures, crew training, and deployment experience, none of which reduce to a variance, and the programme's history lists them among its purposes \[[GAM-63 RASCAL][ref_rascal]\].
 
-**A testbed cannot be evaluated independently of its weapon.** The X-9 succeeded and the RASCAL was cancelled, and any account that treats the first fact without the second is telling half of it.
+**A testbed cannot be evaluated independently of its weapon.** The X-9 succeeded and the RASCAL was cancelled \[[GAM-63 RASCAL][ref_rascal]\], and any account that treats the first fact without the second is telling half of it.
 
 **The two-architecture argument is cleaner in retrospect than it was at the time.** This article derives the launcher-guided range limit from a beamwidth and asserts that it explains the programme's shape. The record does not show anyone making that calculation, and the inference is the author's.
 
@@ -969,15 +969,15 @@ A weapon programme reports to a service, and the service keeps the reports. The 
 
 ## Epistemic State
 
-**Historical fact, well documented.** The 15 July 1945 military characteristics and their 500 feet at 75 percent accuracy requirement. The MX-767 to MX-776 lineage and the MX-776A and MX-776B split. Bell's May 1947 development contract and Dornberger's leadership. The RTV-A-4 designation and its 1951 redesignation to X-9. The first glide drop in April 1949, the failed powered attempt in May 1950, the first full success on the fifth flight in November 1950, and the January 1953 conclusion. Thirty-one vehicles built. Trapeze launch from a modified EB-50D with radio command guidance. RASCAL cancellation in September 1958.
+**Historical fact, well documented.** The 15 July 1945 military characteristics and their 500 feet at 75 percent accuracy requirement. The MX-767 to MX-776 lineage and the MX-776A and MX-776B split. Bell's May 1947 development contract and Dornberger's leadership. The RTV-A-4 designation and its 1951 redesignation to X-9. The first glide drop in April 1949, the failed powered attempt in May 1950, the first full success on the fifth flight in November 1950, and the January 1953 conclusion. Thirty-one vehicles built. Trapeze launch from a modified EB-50D with radio command guidance. RASCAL cancellation in September 1958, which one directory gives as November.
 
 **Engineering analysis, computed here.** The conversion of the accuracy requirement into an axis standard deviation of 91.5 metres and a circular error probable of 108 metres, the equal-share error budget, the radar cross-range resolution and the resulting launcher-guided range limit, the opposite error gradients of the two architectures, the operator crossover frequency, the airframe short-period frequency, the propellant load and burn time, the cruise-drag argument for two chambers, the air-launch energy credit, the glide ratio, the canard trim relations and the acceleration per degree, the release-error propagation, the separation time, the command link budget and data rate, the autopilot damping requirement, the recovery temperature and skin time constant, the canopy sizing, and the kill-probability inversion. **Each depends on assumed values stated where they are used.**
 
-**Inference, stated as such.** That the launcher-guided range limit derived from a beamwidth explains the X-9's demonstrated range is a correspondence between two numbers and not a documented rationale, and the period sources compare guidance architectures on tactical grounds without ever performing this calculation. That the two-chamber engine existed to match cruise drag is inferred from the arithmetic and not from a source. That the trapeze exists to remove release-condition variance rather than merely to provide clearance is inferred the same way.
+**Inference, stated as such.** That the launcher-guided range limit derived from a beamwidth explains the X-9's demonstrated range is a correspondence between two numbers and not a documented rationale, and the period sources compare guidance architectures on tactical grounds without ever performing this calculation. That the two-chamber engine existed to match cruise drag is inferred from the arithmetic and not from a source. That the trapeze exists to remove release-condition variance rather than merely to provide clearance is inferred the same way. That it lowered the X-9 clear of the bay before release is inferred from the mechanism, since the sources consulted say only that the vehicle was launched from a trapeze in the bomb bay.
 
 **Not settled by the record consulted here.**
 
-The number of X-9 vehicles actually launched, given as twenty-two in one account against thirty-one built, with other sources describing the whole set as flying.
+The number of X-9 flights, given as twenty-two in one account and twenty-eight in the NASA inventory, against thirty-one built.
 
 The maximum speed, given as greater than Mach 1.5 by one compilation and Mach 2.0 by another.
 
@@ -1001,11 +1001,11 @@ Sibling testbeds of the same era, including the Northrop MX-775 series, appear o
 
 The X-9 is the first vehicle in this series whose keystone is a control loop and whose specification is a probability.
 
-Reading that specification as a variance makes the design legible. One hundred and eight metres of circular error at a hundred miles, decomposed across subsystems in quadrature, is what dimensions the guidance link, the autopilot, the release mechanism, and the propulsion repeatability. It is also what forbids the obvious architecture, because a radar in the launch aircraft resolves an angle, and an angle at a hundred miles is a quarter of a kilometre. **Guiding from the launcher makes the error grow with the standoff that is the entire point of the weapon.** Guiding from the missile makes it shrink on approach. The weapon that resulted was named for its guidance link, which is the correct thing to name it after.
+Reading that specification as a variance makes the design legible. One hundred and eight metres of circular error at a hundred miles, decomposed across subsystems in quadrature, is what dimensions the guidance link, the autopilot, the release mechanism, and the propulsion repeatability. It is also what forbids the obvious architecture, because a radar in the launch aircraft resolves an angle, and an angle at a hundred miles is a quarter of a kilometre. **Guiding from the launcher makes the error grow with the standoff that is the entire point of the weapon.** Guiding from the missile makes it shrink on approach. The weapon that resulted was named for its guidance link, and the name is the correct one.
 
 The vehicle around that argument is unremarkable and is meant to be. A canard cruciform missile at Mach 2 needs no exotic material, its aerodynamics were being measured independently by NACA in the same years, and its rocket delivers more impulse than the airframe can use. What it needed was to fly the same way twice, and the record's shape, with eighteen months between the first drop and the first powered success and then a programme that stopped early because it was finished, is what a guidance programme looks like.
 
-**The founding irony is that the requirement was written one day before Trinity.** Five hundred feet at seventy-five percent was a conventional-warhead specification, and the weapon that flew carried a warhead for which eight times that error would have sufficed. The accuracy work was mostly surplus to the mission and mostly useful to everything afterwards, which is a fair description of a great deal of research and is not a criticism.
+**The founding irony is that the requirement was written one day before Trinity.** Five hundred feet at seventy-five percent was specified before any nuclear weapon had been demonstrated, and the weapon that flew carried a warhead for which eight times that error would have sufficed. The accuracy work was mostly surplus to the mission and mostly useful to everything afterwards, which is a fair description of a great deal of research and is not a criticism.
 
 ## References
 
@@ -1024,6 +1024,7 @@ The vehicle around that argument is unremarkable and is meant to be. A canard cr
 - [Etkin and Reid 1996 Dynamics of Flight, Stability and Control][book_etkin_reid_1996]
 - [Franklin Powell and Emami-Naeini 2019 Feedback Control of Dynamic Systems][book_franklin_2019]
 - [Garnell 1980 Guided Weapon Control Systems][book_garnell_1980]
+- [Glasstone 1962 The Effects of Nuclear Weapons, Revised Edition][book_glasstone_1962]
 - [Glasstone and Dolan 1977 The Effects of Nuclear Weapons][book_glasstone_dolan_1977]
 - [Hill and Peterson 1991 Mechanics and Thermodynamics of Propulsion][book_hill_peterson_1991]
 - [Huzel and Huang 1992 Design of Liquid Propellant Rocket Engines][book_huzel_huang_1992]
@@ -1052,6 +1053,7 @@ The vehicle around that argument is unremarkable and is meant to be. A canard cr
 - [Aerojet][ref_aerojet]
 - [AGM-28 Hound Dog][ref_hound_dog]
 - [Air-Launched Ballistic Missile][ref_alcm]
+- [Atomic Bombings of Hiroshima and Nagasaki][ref_hiroshima]
 - [Beam Diameter][ref_beamwidth]
 - [Bell X-9 Shrike][ref_x9]
 - [Boeing B-29 Superfortress][ref_b29]
@@ -1075,6 +1077,7 @@ The vehicle around that argument is unremarkable and is meant to be. A canard cr
 - [Solar Turbines][ref_solar]
 - [Standoff Weapon][ref_standoff]
 - [Terminal Ballistics][ref_terminal_ballistics]
+- [Trinity Nuclear Test][ref_trinity]
 - [V-1 Flying Bomb][ref_v1]
 - [Walter Dornberger][ref_dornberger]
 
@@ -7212,6 +7215,7 @@ The vehicle around that argument is unremarkable and is meant to be. A canard cr
 [book_etkin_reid_1996]: https://openlibrary.org/works/OL19844466W
 [book_franklin_2019]: https://openlibrary.org/works/OL18666743W
 [book_garnell_1980]: https://openlibrary.org/works/OL6338950W
+[book_glasstone_1962]: https://archive.org/details/TheEffectsOfNuclearWeapons
 [book_glasstone_dolan_1977]: https://openlibrary.org/works/OL37590915W
 [book_hill_peterson_1991]: https://openlibrary.org/works/OL8229940W
 [book_huzel_huang_1992]: https://openlibrary.org/works/OL27313820W
@@ -7244,6 +7248,7 @@ The vehicle around that argument is unremarkable and is meant to be. A canard cr
 [ref_cep]: https://en.wikipedia.org/wiki/Circular_error_probable
 [ref_command_guidance]: https://en.wikipedia.org/wiki/Command_guidance
 [ref_dornberger]: https://en.wikipedia.org/wiki/Walter_Dornberger
+[ref_hiroshima]: https://en.wikipedia.org/wiki/Atomic_bombings_of_Hiroshima_and_Nagasaki
 [ref_holloman]: https://en.wikipedia.org/wiki/Holloman_Air_Force_Base
 [ref_hound_dog]: https://en.wikipedia.org/wiki/AGM-28_Hound_Dog
 [ref_jb2]: https://en.wikipedia.org/wiki/Republic-Ford_JB-2
@@ -7260,6 +7265,7 @@ The vehicle around that argument is unremarkable and is meant to be. A canard cr
 [ref_solar]: https://en.wikipedia.org/wiki/Solar_Turbines
 [ref_standoff]: https://en.wikipedia.org/wiki/Standoff_weapon
 [ref_terminal_ballistics]: https://en.wikipedia.org/wiki/Terminal_ballistics
+[ref_trinity]: https://en.wikipedia.org/wiki/Trinity_(nuclear_test)
 [ref_v1]: https://en.wikipedia.org/wiki/V-1_flying_bomb
 [ref_x9]: https://en.wikipedia.org/wiki/Bell_X-9_Shrike
 [related_post_a217_rocket_propellant_chemistry]: {% post_url 2026-02-01-rocket_propellant_chemistry_a_design_tradeoff_space %}

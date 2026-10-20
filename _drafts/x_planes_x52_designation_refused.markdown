@@ -16,17 +16,17 @@ series_index: 53
 
 This is the fifty-third article in the [X-Planes series][related_post_a297_framing], following the [X-1][related_post_a298_bell_x1], the [X-2][related_post_a299_bell_x2], the [X-3][related_post_a300_douglas_x3], the [X-4][related_post_a301_northrop_x4], the [X-5][related_post_a302_bell_x5], the [X-6][related_post_a303_convair_x6], the [X-7][related_post_a304_lockheed_x7], the [X-8][related_post_a305_aerojet_x8], the [X-9][related_post_a306_bell_x9], the [X-10][related_post_a307_north_american_x10], the [X-11][related_post_a308_convair_x11], the [X-12][related_post_a309_convair_x12], the [X-13][related_post_a310_ryan_x13], the [X-14][related_post_a311_bell_x14], the [X-15][related_post_a312_north_american_x15], the [X-16][related_post_a313_bell_x16], the [X-17][related_post_a314_lockheed_x17], the [X-18][related_post_a315_hiller_x18], the [X-19][related_post_a316_curtiss_wright_x19], the [X-20][related_post_a317_boeing_x20], the [X-21][related_post_a318_northrop_x21], the [X-22][related_post_a319_bell_x22], the [X-23][related_post_a320_martin_marietta_x23], the [X-24][related_post_a321_martin_marietta_x24], the [X-25][related_post_a322_bensen_x25], the [X-26][related_post_a323_schweizer_x26], the [X-27][related_post_a324_lockheed_x27], the [X-28][related_post_a325_osprey_x28], the [X-29][related_post_a326_grumman_x29], the [X-30][related_post_a327_rockwell_x30], the [X-31][related_post_a328_rockwell_mbb_x31], the [X-32][related_post_a329_boeing_x32], the [X-33][related_post_a330_lockheed_martin_x33], the [X-34][related_post_a331_orbital_sciences_x34], the [X-35][related_post_a332_lockheed_martin_x35], the [X-36][related_post_a333_mcdonnell_douglas_x36], the [X-37][related_post_a334_boeing_x37], the [X-38][related_post_a335_scaled_composites_x38], the [X-39][related_post_a336_x39_reserved_never_assigned], the [X-40][related_post_a337_boeing_x40], the [X-41][related_post_a338_x41_common_aero_vehicle], the [X-42][related_post_a339_orbital_sciences_x42], the [X-43][related_post_a340_micro_craft_x43], the [X-44][related_post_a341_x44_two_aircraft], the [X-45][related_post_a342_boeing_x45], the [X-46][related_post_a343_boeing_x46], the [X-47][related_post_a344_northrop_grumman_x47], the [X-48][related_post_a345_boeing_x48], the [X-49][related_post_a346_piasecki_x49], the [X-50][related_post_a347_boeing_x50], and the [X-51][related_post_a348_boeing_x51].
 
-**Every other article in this series on a designation is about an aeroplane, or about a number that never became one.** This one is about a number that was refused, which is a different thing again. The [X-39][related_post_a336_x39_reserved_never_assigned] was reserved and then lost because nobody wrote the letter that would have assigned it \[[Missing USAF and DOD Aircraft Designations][ref_missing_mds]\]. The X-52 was asked for in writing, considered, and declined. **The paperwork was done correctly and the answer was no.**
+**Every other article in this series on a designation is about an aeroplane, or about a number that never became one.** This one is about a number that was refused, which differs from both. The [X-39][related_post_a336_x39_reserved_never_assigned] was reserved and then lost because nobody wrote the letter that would have assigned it \[[Missing USAF and DOD Aircraft Designations][ref_missing_mds]\]. The X-52 was asked for in writing, considered, and declined. **The paperwork was done correctly and the answer was no.**
 
-**The reason given is the whole of the article.** Not that the aircraft was unworthy, not that the programme was cancelled, and not that the number had been used. **The number was refused because it resembled a number already in use.**
+**The article turns on the reason given.** Not that the aircraft was unworthy, not that the programme was cancelled, and not that the number had been used. **The number was refused because it resembled a number already in use** \[[Missing USAF and DOD Aircraft Designations][ref_missing_mds]\].
 
-**The record does not say through which sense.** It says possible confusion, and it says it in one clause. Whether the worry was a radio, a maintenance card or a line in a budget is not stated anywhere this article could find, and the sections below argue for the radio from the neighbouring cases rather than from this one.
+**The record does not say through which sense.** It gives possible confusion as the reason, in one clause. Whether the worry was a radio, a maintenance card or a line in a budget is not stated anywhere this article could find, and the sections below argue for the radio from the neighbouring cases rather than from this one.
 
 ## The Research Question
 
 **The designation X-52 had no research question of its own, because it never named a vehicle.** The number was requested for a programme to test active aeroelastic wing technology, and that programme's question belonged to the aircraft that received X-53A instead \[[Missing USAF and DOD Aircraft Designations][ref_missing_mds]\]. **That question is the subject of the next article in this series and is not pursued here.**
 
-**The question this article asks is administrative rather than aeronautical.** It asks under what rule a design number that the sequence named could be refused for resembling another number already in use, and what that refusal shows about the designation system. The record supplies the reason in one clause, and the article sets out to find the rule behind it.
+**The question this article asks is administrative rather than aeronautical.** It asks under what rule a design number that the sequence named could be refused for resembling another number already in use, and what that refusal shows about the designation system. The record supplies the reason, and the article sets out to find the rule behind it.
 
 ## Programme Origin, What the Record Says Happened
 
@@ -34,11 +34,11 @@ This is the fifty-third article in the [X-Planes series][related_post_a297_frami
 
 **The programme was the Active Aeroelastic Wing.** A modified F/A-18A, flown at the space agency's flight research centre at Edwards in cooperation with the Air Force Research Laboratory and Boeing Phantom Works, to find out whether a wing can be twisted deliberately to roll an aeroplane rather than being stiffened until it stops twisting \[[Active Aeroelastic Wing Flight Research, NASA Facts FS-2005-03-061 DFRC][ref_aaw_factsheet]\] \[[Air Force Research Laboratory][ref_afrl]\]. **It had already flown before it had a number.** The programme began in 1996, the aircraft first flew in modified form in November 2002, and the flight research concluded in March 2005 \[[Clarke et al 2005][research_aaw_flight_test]\] \[[Boeing X-53 Active Aeroelastic Wing][ref_x53_wikipedia]\].
 
-**The number arrived over a year after the flying stopped.** The encyclopedia entry for the aircraft dates its designation as X-53 to 16 August 2006, by memorandum of the Air Force Deputy Chief of Staff for Strategic Plans and Programs \[[Boeing X-53 Active Aeroelastic Wing][ref_x53_wikipedia]\], and the Air Force Research Laboratory announced on 11 December 2006 that the demonstrator had been assigned the Mission Design Series number X-53 \[[Active Aeroelastic Wing flight research vehicle receives X-53 designation, Air Force Research Laboratory, 11 December 2006][ref_afrl_x53_release]\]. **The announcement gives no date for the memorandum, so the August date rests on the encyclopedia entry alone.** The space agency's account of the programme calls the aircraft X-53 and gives no date \[[F/A-18 Active Aeroelastic Wing, NASA][ref_nasa_x53]\]. **What the aeroplane did with the number is the next article's subject and this one leaves it there.**
+**The number arrived over a year after the flying stopped.** The encyclopedia entry for the aircraft dates its designation as X-53 to 16 August 2006, by memorandum of the Air Force Deputy Chief of Staff for Strategic Plans and Programs \[[Boeing X-53 Active Aeroelastic Wing][ref_x53_wikipedia]\], and the Air Force Research Laboratory announced on 11 December 2006 that the demonstrator had been assigned the Mission Design Series number X-53 \[[Active Aeroelastic Wing flight research vehicle receives X-53 designation, Air Force Research Laboratory, 11 December 2006][ref_afrl_x53_release]\]. **The announcement gives no date for the memorandum, so the August date rests on the encyclopedia entry alone.** The space agency's account of the programme calls the aircraft X-53 and gives no date \[[F/A-18 Active Aeroelastic Wing, NASA][ref_nasa_x53]\]. **What the aeroplane did with the number is left for later.**
 
 ### The Office That Said No
 
-**The decision was made by one office and the instruction names it.** A request for a designation goes from the programme office to the Department of Defence Control Point, which the 2005 instruction names as the Asset Identification Branch of Air Force Materiel Command at Wright-Patterson \[[Air Force Joint Instruction 16-401, 14 April 2005][ref_afi_16_401_2005]\], and that office checks the proposal against the regulations and forms its own recommendation. The recommendation and the original request then both go to the Directorate of Programs, Program Integration Division at the Pentagon, where the decision is made \[[Allocation of Official Aerospace Vehicle MDS Designations][ref_mds_allocation]\].
+**The decision was made by one office and the instruction names it.** A request for a designation goes from the programme office to the Department of Defence Control Point, which the 2005 instruction names as the Asset Identification Branch of Air Force Materiel Command at Wright-Patterson \[[Air Force Joint Instruction 16-401, 14 April 2005][ref_afi_16_401_2005]\], and that office checks the proposal against the regulations and forms a recommendation. The recommendation and the original request then both go to the Directorate of Programs, Program Integration Division at the Pentagon, where the decision is made \[[Allocation of Official Aerospace Vehicle MDS Designations][ref_mds_allocation]\].
 
 **That office changed its own designator in the year it refused this one.** Its symbol was HQ USAF/XPPE and became AF/A8PE with effect from 1 February 2006 \[[Allocation of Official Aerospace Vehicle MDS Designations][ref_mds_allocation]\]. **The office that refused a number for resembling another number spent that same year renaming itself**, and nothing in the record suggests anybody noticed.
 
@@ -48,20 +48,20 @@ This is the fifty-third article in the [X-Planes series][related_post_a297_frami
 
 **The governing document is a joint instruction of the Air Force, the Army and the Navy, and the issue in force in 2006 was dated 14 April 2005** \[[Air Force Joint Instruction 16-401, 14 April 2005][ref_afi_16_401_2005]\]. It is not long. It says what a designation is made of, who may ask for one, and who decides. **It was read for this article, in full, and the reading is the article's central evidence.**
 
-**It requires the next number and provides no way of skipping one.** Section C, paragraph 5 directs that the coordinating office will assign and reserve the next available consecutive design number within each basic mission for new vehicles. There is no qualification, no exception and no discretion attached to it. Formally, if $A_m$ is the set of design numbers already used up within basic mission $m$, whether allocated or passed over, the instruction defines what is to be assigned as
+**It requires the next number and provides no way of skipping one.** Section C, paragraph 5 directs that the coordinating office will assign and reserve the next available consecutive design number within each basic mission for new vehicles \[[Air Force Joint Instruction 16-401, 14 April 2005][ref_afi_16_401_2005]\]. There is no qualification, no exception and no discretion attached to it. Formally, if $A_m$ is the set of design numbers already used up within basic mission $m$, whether allocated or passed over, the instruction defines what is to be assigned as
 
 $$n^{\star}(m) \;=\; \min\bigl\{\,k \in \mathbb{N} \;:\; k \notin A_m \,\bigr\}$$
 
 and in 2006 every X number from 1 to 51 had been used up, although two of them, X-23 and X-39, were never allocated to anything \[[Missing USAF and DOD Aircraft Designations][ref_missing_mds]\], so $n^{\star}(X) = 52$. **The number that was refused is the number the instruction names.**
 
-**The rule is a statement about a set that only ever shrinks.** Writing $V_m(t)$ for the numbers still
-available within basic mission $m$ at time $t$, and taking the range the instruction itself gives,
+**The rule describes a set that only ever shrinks.** Writing $V_m(t)$ for the numbers still
+available within basic mission $m$ at time $t$, and taking the range the instruction gives,
 
 $$V_m(t) \;=\; \{1, 2, \ldots, 999\} \setminus A_m(t),
 \qquad n^{\star}(m) \;=\; \min V_m(t).$$
 
 **Nothing returns a number to that set.** The instruction directs that a retired designation is not
-used again for another vehicle, so the allocated set is non-decreasing in time and the available set is
+used again for another vehicle \[[Air Force Joint Instruction 16-401, 14 April 2005][ref_afi_16_401_2005]\], so the allocated set is non-decreasing in time and the available set is
 non-increasing,
 
 $$t_1 \leq t_2 \;\implies\; A_m(t_1) \subseteq A_m(t_2)
@@ -71,54 +71,54 @@ $$t_1 \leq t_2 \;\implies\; A_m(t_1) \subseteq A_m(t_2)
 
 **But a refusal consumes one by a route this model has no term for.** The instruction knows two states,
 allocated and available, and the master list of designations records a third. The C-16 correspondence
-directs that the number be marked **not used**, which is neither, so the used-up numbers divide in two
-and the honest partition is
+directs that the number be marked **not used** \[[Missing USAF and DOD Aircraft Designations][ref_missing_mds]\], which is neither, so the used-up numbers divide in two
+and the full partition is
 
 $$\{1, 2, \ldots, 999\} \;=\; \underbrace{A_m(t)}_{\text{allocated}}
 \;\sqcup\; \underbrace{U_m(t)}_{\text{marked not used}}
 \;\sqcup\; \underbrace{V_m(t)}_{\text{available}},$$
 
 with $n^{\star}(m) = \min V_m(t)$ as before. **The instruction defines the first and the third and
-never mentions the second**, and yet the second is where the X-52 went, along with C-16, C-42, C-43,
-C-44, P-6, F-19 and every design number 13 in the system.
+never mentions the second**, and yet the X-52 went into the second, along with C-16, C-42, C-43,
+C-44, P-6, F-19 and the design numbers 13 that custom skips \[[Missing USAF and DOD Aircraft Designations][ref_missing_mds]\].
 
 **What was assigned is not what the sequence rule names.** With $n^{\star}(X) = 52$ and 53 allocated,
 
 $$\text{assigned} \;-\; n^{\star}(X) \;=\; 53 - 52
 \;=\; 1,$$
 
-which is the whole of the anomaly written as arithmetic.
+which states the anomaly as arithmetic.
 
-**The word skip does not appear in the 2005 issue at all.** Neither does discretion, nor any authority to decline a design number, nor any criterion by which a proposed number might be judged unsuitable. **The document that governed the decision contains no provision under which the decision could be made.**
+**The word skip does not appear in the 2005 issue at all.** Neither does discretion, nor any criterion by which a proposed number might be judged unsuitable. The issue provides that requesters are notified of approval or disapproval, but it states no ground for disapproval and no authority to pass over the next available number \[[Air Force Joint Instruction 16-401, 14 April 2005][ref_afi_16_401_2005]\]. **The document that governed the decision contains no provision under which the next number could be passed over.**
 
-**Nor did the issue before it.** The 1994 issue of the same joint instruction was read as well, and it says the same things in the same order. The coordinating office will assign the next available consecutive design number within each basic mission for new vehicles. Design numbers run consecutively from 1 to 999. Requested popular names are checked for duplication against the master list, the Judge Advocate General conducts a trademark search of them, and final coordination comes from the Assistant Secretary of Defence for Public Affairs. The only mention of confusion attached to a designator is the prohibition of I and O as series symbols \[[Air Force Joint Instruction 16-401, 1994][ref_afi_16_401]\] \[[United States Department of Defense Aerospace Vehicle Designation][ref_dod_designation]\].
+**Nor did the issues before it.** The 1997 issue of the same joint instruction and the 1994 issue it superseded were read as well, and they say the same things in the same order. The coordinating office will assign the next available consecutive design number within each basic mission for new vehicles. Design numbers run consecutively from 1 to 999. Requested popular names are checked for duplication against the master list, the Judge Advocate General conducts a trademark search of them, and final coordination comes from the Assistant Secretary of Defence for Public Affairs. The only mention of confusion attached to a designator is the prohibition of I and O as series symbols \[[Air Force Joint Instruction 16-401, 1 September 1997][ref_afi_16_401_1997]\] \[[Air Force Joint Instruction 16-401, 1994][ref_afi_16_401]\] \[[United States Department of Defense Aerospace Vehicle Designation][ref_dod_designation]\].
 
-**So the instruction carried no authority to skip a design number for at least twenty-six years**, across two issues, while the practice of skipping them ran from before the earliest issue read here to after it, from P-6 in 1962 and C-16 in 1981 to X-52A in 2006 \[[Missing USAF and DOD Aircraft Designations][ref_missing_mds]\].
+**So the instruction carried no authority to skip a design number for nearly twenty years**, across at least three issues, while the practice of skipping them ran from before the earliest issue read here to after it, from P-6 in 1962 and C-16 in 1981 to X-52A in 2006 \[[Missing USAF and DOD Aircraft Designations][ref_missing_mds]\].
 
-### The Instruction Does Screen for Confusion, and It Screens the Other Half of the Name
+### The Instruction Screens the Other Half of the Name for Confusion
 
-**This is not a document that forgot about confusion.** It has an entire apparatus for it, and the apparatus is pointed somewhere else. Section E governs the popular name, meaning the word Stratofortress rather than the string B-52. A requested popular name is checked for duplication against the master list of popular names. It is reviewed by public affairs at command level and then at service level. **The Air Force Judge Advocate General conducts a trademark search of the proposed name.** It is coordinated among the services, the Secretary and the Chief of Staff both coordinate on it, and the Assistant Secretary of Defence for Public Affairs concurs or does not \[[Air Force Joint Instruction 16-401, 14 April 2005][ref_afi_16_401_2005]\].
+**The document did not forget about confusion.** It has an apparatus for it, pointed somewhere else. Section E governs the popular name, meaning the word Stratofortress rather than the string B-52. A requested popular name is checked for duplication against the master list of popular names. It is reviewed by public affairs at command level and then at service level. **The Air Force Judge Advocate General conducts a trademark search of the proposed name.** It is coordinated among the services, the Secretary and the Chief of Staff both coordinate on it, and the Assistant Secretary of Defence for Public Affairs concurs or does not \[[Air Force Joint Instruction 16-401, 14 April 2005][ref_afi_16_401_2005]\].
 
-**A design number goes through none of that.** It is issued in sequence by a logistics office.
+**A design number goes through none of that.** It is issued in sequence by a logistics office \[[Air Force Joint Instruction 16-401, 14 April 2005][ref_afi_16_401_2005]\] \[[Allocation of Official Aerospace Vehicle MDS Designations][ref_mds_allocation]\].
 
-**And the instruction says plainly which half is the official one.** Section F states that the designation is the official identification, that it represents a specific category of vehicles for operations, support and documentation, and that the popular name characterises the mission and aids communications and media references \[[Air Force Joint Instruction 16-401, 14 April 2005][ref_afi_16_401_2005]\]. **So the confusability controls, the duplication check, the legal search and the four levels of review, sit on the informal half of the identifier, and the half the instruction calls official is issued by a counter.**
+**The instruction also states which half is the official one.** Section F states that the designation is the official identification, that it represents a specific category of vehicles for operations, support and documentation, and that the popular name characterises the mission and aids communications and media references \[[Air Force Joint Instruction 16-401, 14 April 2005][ref_afi_16_401_2005]\]. **So the confusability controls, the duplication check, the legal search and the four levels of review sit on the informal half of the identifier, and the half the instruction calls official is issued by a counter.**
 
 ### The Only Written Anti-Confusion Rule for the Designator Concerns Two Letters
 
-**There is exactly one.** The series symbol, the letter that follows the design number and identifies the production model, runs consecutively from A, and the instruction prohibits the letters I and O for that symbol in order to avoid confusion \[[Air Force Joint Instruction 16-401, 14 April 2005][ref_afi_16_401_2005]\]. **The confusion in question is with the digits 1 and 0**, which is a claim about how a character looks on a page or a panel.
+**There is exactly one.** The series symbol, the letter that follows the design number and identifies the production model, runs consecutively from A, and the instruction prohibits the letters I and O for that symbol in order to avoid confusion \[[Air Force Joint Instruction 16-401, 14 April 2005][ref_afi_16_401_2005]\]. **The confusion in question is with the digits 1 and 0**, a claim about how a character looks on a page or a panel.
 
 The consequence is a smaller alphabet,
 
 $$|S| \;=\; 26 - 2 \;=\; 24,$$
 
-so a design number supports twenty-four production models before the instruction requires the design number itself to advance to the next unused value.
+so a design number supports twenty-four production models before the instruction requires the design number to advance to the next unused value \[[Air Force Joint Instruction 16-401, 14 April 2005][ref_afi_16_401_2005]\].
 
 **The two limits together give the size of a mission's designation space.** With design numbers running
 from 1 to $999$ and twenty-four permitted series symbols,
 
 $$N_m \;=\; 999 \times 24 \;=\; 23{,}976,$$
 
-and the 2020 issue, which expands the design number to four digits once 999 is reached, raises that to
+and the 2020 issue, which expands the design number to four digits once 999 is reached \[[Department of the Air Force Instruction 16-401, 3 November 2020][ref_dafi_16_401_2020]\], raises that to
 
 $$N_m' \;=\; 9{,}999 \times 24 \;=\; 239{,}976.$$
 
@@ -126,63 +126,63 @@ $$N_m' \;=\; 9{,}999 \times 24 \;=\; 239{,}976.$$
 made, and the X series had used no more than a few of the twenty-four series symbols under any of
 them** \[[List of X-planes][ref_list_of_x_planes]\]. Scarcity is not why 52 was refused, and no reading of the instruction suggests that it was.
 
-**That rule is the whole of the system's written thinking about a confusable designator, and it is about typography.** It does not consider what happens when the number is spoken. It does not consider another mission series at all.
+**That rule exhausts the system's written thinking about a confusable designator, and its subject is typography.** It does not consider what happens when the number is spoken. It does not consider another mission series.
 
-### The Authority Was Written Down Fourteen Years Later
+### The Authority Was Written Down Eight Years Later
 
-**The instruction was reissued on 3 November 2020**, jointly as a Department of the Air Force Instruction, an Army Regulation and a Naval Air Systems Command Instruction \[[Department of the Air Force Instruction 16-401, 3 November 2020][ref_dafi_16_401_2020]\]. It carries a clause that the 2005 issue does not.
+**The instruction was reissued on 16 May 2014 and again on 3 November 2020**, the later issue jointly as a Department of the Air Force Instruction, an Army Regulation and a Naval Air Systems Command Instruction \[[Air Force Instruction 16-401, 16 May 2014][ref_afi_16_401_2014]\] \[[Department of the Air Force Instruction 16-401, 3 November 2020][ref_dafi_16_401_2020]\]. Both carry a clause that the 2005 issue does not.
 
-**Attachment 2, paragraph A2.1.6.1.2 reads that AF/A8PE reserves the authority to skip design number at discretion.**
+**In both, Attachment 2, paragraph A2.1.6.1.2 reads that the office, HAF/A8PE in 2014 and AF/A8PE in 2020, reserves the authority to skip design number at discretion.** The 2014 issue adds that skipped design numbers cannot be requested or used \[[Air Force Instruction 16-401, 16 May 2014][ref_afi_16_401_2014]\].
 
 **That is one sentence, it names the office that refused the X-52A, and it supplies no criterion whatsoever.** It does not say to avoid confusion. It does not say when, or on what evidence, or subject to what review. **It converts a thing that office had been doing into a thing that office is entitled to do**, and it does so without describing the thing.
 
 **The two intervals that matter are both long and they are the article's timeline in one line,**
 
-$$\underbrace{2020 - 2006}_{14 \ \text{years after the refusal}}
+$$\underbrace{2014 - 2006}_{8 \ \text{years after the refusal}}
 \qquad\text{and}\qquad
-\underbrace{2020 - 1994}_{26 \ \text{years after the earliest issue read here}}.$$
+\underbrace{2014 - 1994}_{20 \ \text{years after the earliest issue read here}}.$$
 
-**The practice ran for the whole of the second interval and the authority arrived at the end of it.**
+**The practice ran throughout the second interval and the authority arrived at the end of it.**
 
-**Every other provision quoted above survives into the 2020 issue unchanged in substance.** Design numbers still run consecutively. The series symbol still forbids I and O to avoid confusion with the design number. The popular name still goes to a trademark search and still gets its four levels of review \[[Department of the Air Force Instruction 16-401, 3 November 2020][ref_dafi_16_401_2020]\]. **The 2020 issue adds one more provision that bears on this article, and it points the same way.** Paragraph 4.2.1.3 states that requests are not accepted for designators in reverse or skipped sequences \[[Department of the Air Force Instruction 16-401, 3 November 2020][ref_dafi_16_401_2020]\]. **A requester may not ask to leave the sequence and the office may leave it at discretion**, so the departure the X-52A decision made is now reserved to the office that made it.
+**Every other provision quoted above survives into the 2020 issue unchanged in substance.** Design numbers still run consecutively. The series symbol still forbids I and O to avoid confusion with the design number. The popular name still goes to a trademark search and still gets its four levels of review \[[Department of the Air Force Instruction 16-401, 3 November 2020][ref_dafi_16_401_2020]\]. **The two later issues add one more provision that bears on this article, and it points the same way.** The 2014 issue, at paragraph 4.2.1.3.1, states that for vehicles with an extensive history of designations requests are not accepted for designators in reverse or skipped sequences, and the 2020 issue, at paragraph 4.2.1.3, states the same without the qualification \[[Air Force Instruction 16-401, 16 May 2014][ref_afi_16_401_2014]\] \[[Department of the Air Force Instruction 16-401, 3 November 2020][ref_dafi_16_401_2020]\]. **A requester may not ask to leave the sequence and the office may leave it at discretion**, so the departure the X-52A decision made is now reserved to the office that made it.
 
 ## The Same Office Had Manufactured the Same Collision Four Years Earlier
 
-**In 2001 the Joint Strike Fighter needed a designation and the sequence said F-24.** The nomenclature office recommended exactly that, on the stated ground that design numbers are to be assigned consecutively, which is the same provision the X-52A refusal set aside \[[Non-Standard DOD Aircraft Designations][ref_nonstandard_mds]\].
+**In 2001 the Joint Strike Fighter needed a designation and the sequence said F-24.** The nomenclature office recommended that number, on the stated ground that design numbers are to be assigned consecutively, the same provision the X-52A refusal set aside \[[Non-Standard DOD Aircraft Designations][ref_nonstandard_mds]\].
 
-**It was overruled.** The number that was approved on 5 June 2002, by HQ USAF/XPPE, was 35 \[[Non-Standard DOD Aircraft Designations][ref_nonstandard_mds]\] \[[Lockheed Martin F-35 Lightning II][ref_f35]\]. It came from a press conference, at which the Under Secretary and the programme manager announced the production aircraft by taking the demonstrator's designation and replacing the X with an F. **No designation had been reserved or approved for the production aircraft at that point at all.**
+**It was overruled.** The number that was approved on 5 June 2002, by HQ USAF/XPPE, was 35 \[[Non-Standard DOD Aircraft Designations][ref_nonstandard_mds]\] \[[Lockheed Martin F-35 Lightning II][ref_f35]\]. It came from a press conference, at which the Under Secretary and the programme manager announced the production aircraft by taking the demonstrator's designation and replacing the X with an F. **No designation had been reserved or approved for the production aircraft at that point.**
 
 **So the F-35 exists because somebody deliberately made a production fighter share a number with an experimental aeroplane across a series boundary** \[[Lockheed Martin X-35][ref_x35]\].
 
 **Four years later the same office, under a symbol it had changed in the interim, refused a number because it would have shared a number with a bomber across a series boundary.**
 
-**The structure of the two cases is identical.** In each, two designations differ only in the mission symbol and agree in the design number. In 2002 that identity was treated as desirable continuity worth breaking the sequence rule to obtain. In 2006 it was treated as a hazard worth breaking the sequence rule to avoid. **The instruction in force was the same document in both years and it authorised neither.**
+**The structure of the two cases is identical.** In each, two designations differ only in the mission symbol and agree in the design number. In 2002 that identity was treated as desirable continuity worth breaking the sequence rule to obtain. In 2006 it was treated as a hazard worth breaking the sequence rule to avoid. **The instruction in force said the same thing in both years and it authorised neither** \[[Air Force Joint Instruction 16-401, 1 September 1997][ref_afi_16_401_1997]\] \[[Air Force Joint Instruction 16-401, 14 April 2005][ref_afi_16_401_2005]\].
 
 ## Sizing From First Principles
 
-**There was no vehicle to size.** The X-52 was a number that was requested and refused, and no airframe, engine or mass was ever attached to it. The aircraft the number was requested for was a modified F/A-18A that had already flown and finished its flight research before the request was made \[[Clarke et al 2005][research_aaw_flight_test]\], and its engineering belongs to the next article in this series.
+**There was no vehicle to size.** The X-52 was a number that was requested and refused, and no airframe, engine or mass was ever attached to it. The aircraft the number was requested for was a modified F/A-18A that had already flown and finished its flight research before the request was made \[[Clarke et al 2005][research_aaw_flight_test]\], and its engineering is treated with the X-53.
 
-**The only quantity this article sizes is the designation space itself.** The section headed The Rule That Refused It Is Not in the Instruction derives it from the instruction's own limits, being 999 design numbers and twenty-four permitted series symbols, and records that fifty-one of the design numbers had been consumed in the X series when the request was made. **Scarcity of numbers did not drive the refusal**, and that section says so.
+**This article sizes only the designation space.** It is derived above from the instruction's limits, being 999 design numbers and twenty-four permitted series symbols, and fifty-one of the design numbers had been consumed in the X series when the request was made. **Scarcity of numbers did not drive the refusal.**
 
 ## Dependent Systems
 
-**A designation depends on paperwork rather than hardware, and the record names the offices this one passed through.** The request went from the programme office to the Department of Defence Control Point, which is the Air Force Asset Identification Branch at Wright-Patterson, and from there to the Directorate of Programs, Program Integration Division at the Pentagon, where the decision was made \[[Allocation of Official Aerospace Vehicle MDS Designations][ref_mds_allocation]\]. The governing document was the joint instruction in its 14 April 2005 issue \[[Air Force Joint Instruction 16-401, 14 April 2005][ref_afi_16_401_2005]\], and the outcome is recorded by the specialist registry \[[Missing USAF and DOD Aircraft Designations][ref_missing_mds]\].
+**A designation depends on paperwork rather than hardware, and the record names the offices this one passed through.** The request went from the programme office to the Department of Defence Control Point, the Air Force Asset Identification Branch at Wright-Patterson, and from there to the Directorate of Programs, Program Integration Division at the Pentagon, where the decision was made \[[Allocation of Official Aerospace Vehicle MDS Designations][ref_mds_allocation]\]. The governing document was the joint instruction in its 14 April 2005 issue \[[Air Force Joint Instruction 16-401, 14 April 2005][ref_afi_16_401_2005]\], and the outcome is recorded by the specialist registry \[[Missing USAF and DOD Aircraft Designations][ref_missing_mds]\].
 
-**The aircraft the number was meant for depended on three partners**, being the space agency's flight research centre at Edwards, the Air Force Research Laboratory and Boeing Phantom Works \[[Active Aeroelastic Wing Flight Research, NASA Facts FS-2005-03-061 DFRC][ref_aaw_factsheet]\] \[[Air Force Research Laboratory][ref_afrl]\]. **Its systems belong to the article on the X-53 and are not described in this one.**
+**The aircraft the number was meant for depended on three partners**, being the space agency's flight research centre at Edwards, the Air Force Research Laboratory and Boeing Phantom Works \[[Active Aeroelastic Wing Flight Research, NASA Facts FS-2005-03-061 DFRC][ref_aaw_factsheet]\] \[[Air Force Research Laboratory][ref_afrl]\]. **Its systems are not described here.**
 
 ## The Flight Test Record
 
 **Nothing flew as the X-52.** The number was refused, so no flight was ever made under it \[[Missing USAF and DOD Aircraft Designations][ref_missing_mds]\].
 
-**The aircraft for which it was requested had already completed its flying.** The programme began in 1996, the modified aircraft first flew in November 2002, and the flight research concluded in March 2005, more than a year before the designation X-53 was issued, on 16 August 2006 by the encyclopedia entry's account and in any case before the laboratory announced it on 11 December 2006 \[[Clarke et al 2005][research_aaw_flight_test]\] \[[Boeing X-53 Active Aeroelastic Wing][ref_x53_wikipedia]\]. **The flight record of that aircraft is the subject of the next article, and this article states only that it existed and that it preceded the number.**
+**The aircraft for which it was requested had already completed its flying.** The programme began in 1996, the modified aircraft first flew in November 2002, and the flight research concluded in March 2005, more than a year before the designation X-53 was issued, on 16 August 2006 by the encyclopedia entry's account and in any case before the laboratory announced it on 11 December 2006 \[[Clarke et al 2005][research_aaw_flight_test]\] \[[Boeing X-53 Active Aeroelastic Wing][ref_x53_wikipedia]\]. **This article states only that the aircraft's flight record existed and that it preceded the number.**
 
 ## Comparison With Ground Prediction
 
-**There is no flight result to set beside a ground prediction, because nothing flew under this designation.** The record reports no wind tunnel work, analysis or simulation attached to the X-52, and the aeronautical predictions made for the Active Aeroelastic Wing belong to the article on the X-53.
+**There is no flight result to set beside a ground prediction, because nothing flew under this designation.** The record reports no wind tunnel work, analysis or simulation attached to the X-52, and the aeronautical predictions made for the Active Aeroelastic Wing are left to the X-53 article.
 
-**The only prediction in this record is the one the refusal itself made.** The deciding office anticipated possible confusion with the B-52 series \[[Missing USAF and DOD Aircraft Designations][ref_missing_mds]\], and because the number was refused, that forecast was never exposed to an outcome. **No confusion between an X-52 and a B-52 could occur, so none was observed, and the record can neither confirm nor refute the forecast.**
+**The only prediction in this record is the refusal's.** The deciding office anticipated possible confusion with the B-52 series \[[Missing USAF and DOD Aircraft Designations][ref_missing_mds]\], and because the number was refused, that forecast was never exposed to an outcome. **No confusion between an X-52 and a B-52 could occur, so none was observed, and the record can neither confirm nor refute the forecast.**
 
-**The nearest the record comes to a forecast set against an outcome runs the other way.** The 1953 requests to redesignate two drones were made because confusion with unmodified aircraft was already occurring, and they were refused, which the section headed What the Data Changed sets beside the X-52 decision. The section headed Measuring the Judgement That Was Not Recorded supplies the kind of measure a stated forecast would have needed, and records that no measure or threshold accompanied the decision.
+**The nearest the record comes to a forecast set against an outcome runs the other way.** The 1953 requests to redesignate two drones were made because confusion with unmodified aircraft was already occurring, and they were refused, a case set beside the X-52 decision below under The System Declined to Fix the Confusion It Actually Had. A later section, Measuring the Judgement That Was Not Recorded, supplies the kind of measure a stated forecast would have needed, and records that no measure or threshold accompanied the decision.
 
 ## What the Data Changed, What the Anomaly Reveals About the Designation System
 
@@ -192,39 +192,39 @@ $$\underbrace{2020 - 2006}_{14 \ \text{years after the refusal}}
 
 **C-16 was skipped, and the reported reason names the mechanism precisely.** The number was on reservation for the aircraft that became the C-17, and the nomenclature office recommended C-16A on the ground that 16 was the next available number and that skipping it conflicted with the regulation then in force. One day later that letter was withdrawn and replaced by one concurring in C-17, and C-16 was to be marked in the master list as not used. No reason was recorded. **It is reported that the number was skipped because of concerns over confusing the plane with the F-16 during the stress of high combat radio traffic** \[[Missing USAF and DOD Aircraft Designations][ref_missing_mds]\] \[[Boeing C-17 Globemaster III][ref_c17]\] \[[General Dynamics F-16 Fighting Falcon][ref_f16]\].
 
-**That sentence is the clearest statement in the whole record of what these refusals are actually about.** Not the register, not the paperwork, and not the eye. A voice, a radio, and a crew under load.
+**That sentence is the clearest statement in the record of what these refusals concern.** It points away from the register, the paperwork and the eye, and toward a voice, a radio, and a crew under load.
 
-**Civil aviation studied that exact hazard and counted it.** The United Kingdom's aviation authority
-published a dedicated call sign confusion study in April 2000, resting on the 482 call sign confusion
+**Civil aviation studied that hazard and counted it.** The United Kingdom's aviation authority
+published a dedicated call sign confusion study in April 2000, drawing on the 482 call sign confusion
 reports filed by controllers and flight crews in 1997 \[[CAP 704, Aircraft Call Sign Confusion Evaluation Safety Study, United Kingdom Civil Aviation Authority][ref_cap704]\]. Of those 482, 405 involved call signs
 whose suffixes are numbers only, and 198 involved call signs ending in the same two digits \[[CAP 704, Aircraft Call Sign Confusion Evaluation Safety Study, United Kingdom Civil Aviation Authority][ref_cap704]\],
-which is the shape of every collision this article examines. The European guidance that followed
+the same shape as every collision this article examines. The European guidance that followed
 recommends avoiding phonetically similar call signs on the same frequency at the same time and names the
 formats most likely to be confused \[[Air-Ground Communications Briefing Note 2, Call Sign
-Confusion][ref_agc_briefing]\]. **The hazard the C-16 note gestures at in one clause has a literature, a
+Confusion][ref_agc_briefing]\]. **The hazard the C-16 note gestures at in passing has a literature, a
 reporting scheme and a count**, and none of it is referenced anywhere in the designation instruction.
 
-**C-43 and C-44 were skipped to avoid confusion with the existing T-43 and T-44**, and the registry reports unofficial information from the department that an informal policy is in effect to avoid duplication of well-known numbers \[[Missing USAF and DOD Aircraft Designations][ref_missing_mds]\]. **An informal policy is precisely a rule that is not written down**, which is the same finding as the X-52 case reached from the other side.
+**C-43 and C-44 were skipped to avoid confusion with the existing T-43 and T-44**, and the registry reports unofficial information from the department that an informal policy is in effect to avoid duplication of well-known numbers \[[Missing USAF and DOD Aircraft Designations][ref_missing_mds]\]. **An informal policy is a rule that is not written down**, and the X-52 case reaches the same finding from the other side.
 
 **P-6 was skipped for the Navy in 1962**, on the nomenclature forms themselves, most probably to avoid future confusion with the P6M. **T-50A is reserved and unassigned** because a foreign trainer is marketed under that number and assigning it to a different model was regarded as too confusing. **C-42 was skipped** over concern about legal exposure to a widely sold light aircraft marketed as the C42 \[[Missing USAF and DOD Aircraft Designations][ref_missing_mds]\].
 
 **XV-14 was allocated and then withdrawn, and the withdrawal letter is quoted.** In May 1973 the Army and the space agency asked for a designation for a tilt-rotor demonstrator and XV-14 was allocated on 30 May. On 7 August a change was requested to avoid confusion with the Bell X-14B, and the request argued the point at length. Both aircraft were built by companies known shortly as Bell. Both would be flying at the same research centre. It warned of serious errors if the service and maintenance records of the two were mixed up, and of unnecessary resultant confusion to the aeronautical research and development community in general. The redesignation was approved on 22 August and the aircraft became the XV-15 \[[Missing USAF and DOD Aircraft Designations][ref_missing_mds]\] \[[Bell XV-15][ref_xv15]\].
 
-**And F-19 was skipped under a stated reason that the registry says was not the real one.** The official explanation was to avoid confusion with the MiG-19. What actually happened is that the manufacturer asked to skip it because it wanted an even number to distinguish its export fighter from Soviet competitors that all used odd ones, and the approving letter repeated the confusion story anyway \[[Missing USAF and DOD Aircraft Designations][ref_missing_mds]\] \[[Northrop F-20 Tigershark][ref_f20]\]. **Confusion is available as a reason whether or not it is the reason**, which is worth holding in mind when reading a two-sentence entry about the X-52.
+**And F-19 was skipped under a stated reason that the registry says was not the real one.** The official explanation was to avoid confusion with the MiG-19. The manufacturer had in fact asked to skip it because it wanted an even number to distinguish its export fighter from Soviet competitors that all used odd ones, and the approving letter repeated the confusion story anyway \[[Missing USAF and DOD Aircraft Designations][ref_missing_mds]\] \[[Northrop F-20 Tigershark][ref_f20]\]. **Confusion is available as a reason whether or not it is the reason**, and a reader of the two-sentence entry about the X-52 should hold that in mind.
 
-**A number is also skipped for reasons that have nothing to do with confusion.** F-13 was rejected by the manufacturer or the Navy for superstitious reasons, and since the late 1960s it has been an unwritten rule that a design number 13 is always skipped, which has cost A-13, C-13, G-13, Q-13 and V-13 as well \[[Missing USAF and DOD Aircraft Designations][ref_missing_mds]\]. **A system that skips every thirteenth number by unwritten custom is not a system that will find skipping the fifty-second difficult.**
+**A number is also skipped for reasons that have nothing to do with confusion.** F-13 was rejected by the manufacturer or the Navy for superstitious reasons, and since the late 1960s it has been an unwritten rule that a design number 13 is always skipped, which has cost A-13, C-13, G-13, Q-13 and V-13 as well \[[Missing USAF and DOD Aircraft Designations][ref_missing_mds]\]. **A system that skips the number 13 by unwritten custom will not find skipping 52 difficult.**
 
-**That custom is measurable and it is the largest single deletion in the whole record.** Counting the
+**That custom is measurable, and it accounts for the largest single deletion in the record.** Counting the
 mission symbols whose thirteenth number is absent by it,
 
 $$\bigl| \{\, m \in M \;:\; 13 \notin A_m \text{ by custom} \,\} \bigr| \;=\; 6,$$
 
 being the fighter, attack, cargo, glider, drone and vertical-take-off series. **One unwritten rule has
-removed six numbers, and the instruction mentions it nowhere.**
+removed six numbers, and no line of the instruction mentions it.**
 
 ### Every One of These Collisions Crosses a Series Boundary
 
-**Look at what is actually colliding in each case.** X-52 with B-52. C-16 with F-16. C-43 and C-44 with T-43 and T-44. V-14 with X-14. P-6 with P6M. **In every instance the two designations differ in the mission symbol and agree in the design number.**
+**Look at what collides in each case.** X-52 with B-52. C-16 with F-16. C-43 and C-44 with T-43 and T-44. V-14 with X-14. P-6 with P6M. **In every instance the two designations differ in the mission symbol and agree in the design number.**
 
 **A designation is formally a pair.** Writing $M$ for the set of basic mission symbols and $A_m$ for the numbers issued within mission $m$, an assigned designation is an element of
 
@@ -232,11 +232,11 @@ $$\mathrm{MDS} \;=\; \bigl\{ (m, n) \;:\; m \in M,\; n \in A_m \bigr\},$$
 
 and within that space the pairs are unique by construction, because each mission counts its own sequence. **X-52A and B-52H are distinct elements and no rule of the instruction is broken by having both.**
 
-**The refusals are evidence that somebody did not believe the first coordinate survives the journey.** If the channel a designation actually travels down preserves only the number, the effective identifier is the projection
+**The refusals are evidence that somebody did not believe the first coordinate survives the journey.** If the channel a designation travels down preserves only the number, the effective identifier is the projection
 
 $$\sigma(m, n) \;=\; n,$$
 
-and under $\sigma$ the two designations are the same object. **The C-16 reason names that channel explicitly, and it is a radio.**
+and under $\sigma$ the two designations are the same object. **The C-16 reason names that channel explicitly as a radio.**
 
 **The designations a listener cannot separate are the fibre of that projection**, and its size is the
 quantity the rest of this section turns on,
@@ -244,7 +244,7 @@ quantity the rest of this section turns on,
 $$\sigma^{-1}(k) \;=\; \bigl\{\, (m, k) \;:\; m \in M,\ k \in A_m \,\bigr\},
 \qquad \bigl| \sigma^{-1}(k) \bigr| \;=\; o_k.$$
 
-**The two spaces are of very different sizes and that is the entire problem.** The register holds
+**The problem lies in the sizes of the two spaces, which differ greatly.** The register holds
 
 $$\sum_{m \in M} \bigl| A_m \bigr|$$
 
@@ -252,13 +252,13 @@ distinct designations, while a listener who hears only the number can distinguis
 
 $$\Bigl| \bigcup_{m \in M} A_m \Bigr| \;=\; \max_{m \in M}\, \max A_m$$
 
-of them. **The first grows with the number of mission series and the second does not.** Adding a mission symbol adds capacity to the register and adds none at all to the radio.
+of them. **The first grows with the number of mission series and the second does not.** Adding a mission symbol adds capacity to the register and adds none to the radio.
 
 **Collisions are therefore not accidents in this system. They are its arithmetic.** Writing $o_k$ for the number of mission series that have issued the design number $k$,
 
 $$o_k \;=\; \bigl| \{\, m \in M \;:\; k \in A_m \,\} \bigr|,$$
 
-the count of colliding pairs across the whole register is
+the count of colliding pairs across the register is
 
 $$C \;=\; \sum_{k \geq 1} \binom{o_k}{2},$$
 
@@ -312,7 +312,7 @@ The Wright Air Development Center asked to redesignate a drone converted from th
 
 **Set the two decisions beside each other.** In 1954 an office declined to change a designation although confusion was occurring and was costing time and parts. In 2006 an office declined to issue a designation because confusion might occur. **The same system, on the same question, refused to act on evidence and acted on possibility.**
 
-**That asymmetry is the sharpest thing the X-52 case reveals**, and it is visible only because the registry preserved the failures as carefully as the successes.
+**That asymmetry is the sharpest thing the X-52 case reveals**, and it shows only because the registry preserved the failures as carefully as the successes.
 
 ### A Number Is Occupied for as Long as the Aeroplane Lives
 
@@ -322,7 +322,7 @@ $$T_{\text{occupied}} \;=\; t_{\text{retire}} \;-\; t_{\text{allocate}},$$
 
 and for most aeroplanes this is a few decades.
 
-**The B-52 is the extreme value of that quantity and it is not close.** The Air Force has operated it since 1955 and its operational aircraft are expected to serve into the 2050s, which is a working life approaching a century \[[Boeing B-52 Stratofortress][ref_b52]\]. Taking 1955 and 2050 gives
+**The B-52 is the extreme value of that quantity, by a wide margin.** The Air Force has operated it since 1955 and its operational aircraft are expected to serve into the 2050s, a working life approaching a century \[[Boeing B-52 Stratofortress][ref_b52]\]. Taking 1955 and 2050 gives
 
 $$T_{\text{occupied}} \;\geq\; 2050 - 1955 \;=\; 95 \ \text{years},$$
 
@@ -340,21 +340,21 @@ the end of it.**
 
 **So the request in 2006 was not unlucky in some general way.** It asked for a number held by an aeroplane that had already served for fifty-one years and was expected to serve for more than forty more. **A request for 52 made at any time in that span would have met the same aeroplane.**
 
-**The aeroplane whose number blocked the X-52 is named in the prose of nine of the fifty-two articles that precede it in this series, which is 17.3 percent of them, across 25 mentions.** The count includes its lettered variants and leaves aside the titles of surveyed records and of cited sources. It carried the [X-15][related_post_a312_north_american_x15], the [X-24][related_post_a321_martin_marietta_x24], the [X-38][related_post_a335_scaled_composites_x38], the [X-43][related_post_a340_micro_craft_x43] \[[Boeing B-52 Stratofortress][ref_b52]\] and the [X-51][related_post_a348_boeing_x51] aloft. **The article immediately before this one is about an aeroplane a B-52 dropped**, and the number immediately after that aeroplane's was refused because of the aeroplane that dropped it.
+**The aeroplane whose number blocked the X-52 is named in the prose of ten of the fifty-two articles that precede it in this series, which is 19.2 percent of them, across 26 mentions.** The count includes its lettered variants and leaves aside the titles of surveyed records and of cited sources. It carried the [X-15][related_post_a312_north_american_x15], the [X-24][related_post_a321_martin_marietta_x24], the [X-38][related_post_a335_scaled_composites_x38], the [X-43][related_post_a340_micro_craft_x43] \[[Boeing B-52 Stratofortress][ref_b52]\] and the [X-51][related_post_a348_boeing_x51] aloft. **The article immediately before this one is about an aeroplane a B-52 dropped**, and the number immediately after that aeroplane's was refused because of the aeroplane that dropped it.
 
-### What Was Lost Was Nothing, and That Is the Point
+### Nothing Was Lost
 
 **Compare the two anomalies without a vehicle that this series has now examined.**
 
 **The [X-39][related_post_a336_x39_reserved_never_assigned] produced a permanent hole.** The number was reserved and the allocation request was never submitted, and the reservation was never cancelled either, so the number could not be reused before the next one was allocated. **Two documents were never written, the request and the cancellation, and once the next number was allocated the gap was permanent** \[[Allocation of Official Aerospace Vehicle MDS Designations][ref_mds_allocation]\].
 
-**The X-52 produced nothing of the kind.** The request was made, considered, refused and answered on the same occasion. The programme got a designation. The register records why 52 is absent. **The cost of this refusal, measured in anything the designation system exists to provide, is zero.**
+**The X-52 produced nothing of the kind.** The request was made, considered and refused. The programme got a designation. The register records why 52 is absent \[[Missing USAF and DOD Aircraft Designations][ref_missing_mds]\]. **The cost of this refusal, measured in anything the designation system exists to provide, is zero.**
 
-**That is what makes it the cleanest case in the series for asking what the rule is for.** There is no damage to argue about and no cancellation to explain. **There is only a decision, a reason, and an instruction that does not contain the reason.**
+**That makes it the cleanest case in the series for asking what the rule is for.** There is no damage to argue about and no cancellation to explain. **There is only a decision, a reason, and an instruction that does not contain the reason.**
 
 ## Measuring the Judgement That Was Not Recorded
 
-**The refusal was a similarity judgement, and no measure, threshold or method was recorded with it.** This section states what such a judgement looks like when it is written down, and it is offered as analysis rather than as an account of anything the Air Force did.
+**The refusal was a similarity judgement, and no measure, threshold or method was recorded with it.** This section states what such a judgement looks like when it is written down. It offers analysis and gives no account of anything the Air Force did.
 
 **The standard measure of how far apart two strings are is the edit distance**, being the least number of single-character insertions, deletions and substitutions that turns one into the other \[[Levenshtein Distance][ref_levenshtein]\]. For strings $a$ and $b$ it is computed by the recurrence
 
@@ -368,7 +368,7 @@ with the edit distance being the value at the far corner, where $\ell_a$ and $\e
 
 $$s(a, b) \;=\; 1 - \frac{d_{\ell_a,\, \ell_b}}{\max(\ell_a,\, \ell_b)} \;=\; 1 - \frac{1}{4} \;=\; 0.75.$$
 
-**Three of the four characters are shared, and the three that are shared are the ones the instruction issues in sequence.** That is the longest common subsequence, and it gives a second measure that agrees with the first,
+**Three of the four characters are shared, and the three that are shared are the ones the instruction issues in sequence.** Those three form the longest common subsequence, which gives a second measure that agrees with the first,
 
 $$s_{\mathrm{LCS}}(a, b) \;=\; \frac{\bigl| \mathrm{LCS}(a, b) \bigr|}{\max(\ell_a,\, \ell_b)}
 \;=\; \frac{3}{4} \;=\; 0.75.$$
@@ -377,8 +377,8 @@ $$s_{\mathrm{LCS}}(a, b) \;=\; \frac{\bigl| \mathrm{LCS}(a, b) \bigr|}{\max(\ell
 Food and Drug Administration screens every proposed prescription drug name against the names already
 approved, using a program it wrote called Phonetic and Orthographic Computer Analysis, and it makes the
 program publicly available \[[Phonetic and Orthographic Computer Analysis Program][ref_fda_poca]\]
-\[[Phonetic and Orthographic Computer Analysis, public access][ref_poca_public]\]. **A third common family of
-name-similarity measures works on character bigrams**, comparing the sets of adjacent letter pairs
+\[[Phonetic and Orthographic Computer Analysis, public access][ref_poca_public]\]. **A third measure works on
+character bigrams**, comparing the sets of adjacent letter pairs
 rather than the positions, so that it does not depend on aligning the two strings. The two
 names give
 
@@ -395,9 +395,9 @@ $$s_{\mathrm{Dice}}(a, b)
 
 **Three measures, three values between 0.667 and 0.75, and not one of them is a decision.**
 
-### Saying It Aloud Moves the Two Names Closer Together and Not Further Apart
+### Saying It Aloud Moves the Two Names Closer Together
 
-**The refusal was about a spoken designation, so the spoken forms are the ones that matter**, and
+**If the refusal was about a spoken designation, the spoken forms are the ones that matter**, and
 measuring them reverses the intuitive answer. Rendered as they would be said, `ex fifty two` against
 `bee fifty two`, the character edit distance is 2 over strings of
 12 and 13 characters, so
@@ -418,10 +418,10 @@ $$s_{\text{word}} \;=\; 1 - \frac{1}{3}
 **So the answer depends on what you think a listener is matching**, and a decision that records no
 measure has not said which of these it meant, or whether it meant any of them.
 
-### A Decision Needs a Threshold, and the Threshold Is the Thing That Is Missing
+### The Missing Threshold
 
 **Every one of the measures above is a number in the unit interval.** Turning one into a refusal takes
-one more object, which is a threshold, and the rule is then simply
+one more object, a threshold, and the rule is then
 
 $$\text{refuse } b \quad \text{if and only if} \quad
 \max_{a \,\in\, \mathcal{A}} s(a, b) \;\geq\; \tau,$$
@@ -430,12 +430,12 @@ where $\mathcal{A}$ is the set of designations already in use, $s$ is whichever 
 adopted, and $\tau$ is where the line is drawn.
 
 **The 2006 decision supplies $b$ and it supplies the outcome. It supplies no $s$, no $\tau$ and no
-$\mathcal{A}$.** The 2020 instruction, which finally granted the authority, supplies none of them
-either.
+$\mathcal{A}$.** The 2014 instruction, which finally granted the authority, supplies none of them
+either, and nor does its 2020 successor.
 
 ### The Other Naming Authority Publishes All Three
 
-**A comparison is available and it is not flattering.** The Food and Drug Administration's guidance on
+**A comparison is available, and it does not flatter the designation system.** The Food and Drug Administration's guidance on
 proprietary drug names states the measure, the comparison set and the thresholds, in a numbered
 document with a date on it \[[Best Practices in Developing Proprietary Names for Human Prescription Drug
 Products, Guidance for Industry, December 2020][ref_fda_naming]\].
@@ -454,10 +454,10 @@ $$\text{band}(s) \;=\;
 \text{low similarity}, & s \leq 54\%,
 \end{cases}$$
 
-with a highly similar pair carrying the greatest risk and a moderately similar pair sent for further
+with a highly similar pair at greater risk of confusion and a moderately similar pair sent for further
 evaluation. **The screening threshold itself is stated to rest on evidence**, the guidance recording
 that the combined score of 55 percent is set on the validation work done on the algorithms rather than
-chosen for looking reasonable.
+chosen for looking reasonable \[[Best Practices in Developing Proprietary Names for Human Prescription Drug Products, Guidance for Industry, December 2020][ref_fda_naming]\].
 
 **Run the article's own measures against those bands and the two answers differ.** The bigram
 coefficient computed above is about 66.7 percent, which falls in the moderately similar band. The
@@ -465,7 +465,7 @@ normalised edit similarity is 75 percent, which falls in the highly similar band
 illustration and not a result**, since neither figure is the combined score that program returns, and
 the comparison is offered only to show that the choice of measure decides the band.
 
-**That is the finding, and it is why this section exists.** One authority publishes the measure, the
+**That contrast is the finding this section exists to report.** One authority publishes the measure, the
 comparison set, the thresholds and the evidence the thresholds rest on. **The other refused a
 designation in 2006 and recorded a phrase.**
 
@@ -559,17 +559,17 @@ designation in 2006 and recorded a phrase.**
 
 ## Where the Framing Breaks Down
 
-**The series framing assumes an aeroplane, and this article has none.** Every canonical section that asks about sizing, systems, flight or flight data returns the same answer here, which is that the number never named a vehicle. **The framing is kept so that the X-52 sits in its place in the sequence, and the sections it imposes are short because the record is.**
+**The series framing assumes an aeroplane, and this article has none.** Every canonical section that asks about sizing, systems, flight or flight data returns the same answer here, that the number never named a vehicle. **The framing is kept so that the X-52 sits in its place in the sequence, and the sections it imposes are short because the record is.**
 
 **The framing of a decision with a recorded reason also breaks down.** The registry gives the reason as possible confusion with the B-52 series, but no document giving the reasoning has been seen, and whether that phrase quotes the decision or paraphrases it cannot be determined \[[Missing USAF and DOD Aircraft Designations][ref_missing_mds]\]. The F-19 case shows that confusion can be stated as a reason when it is not the reason, so the stated ground is evidence of what was written and not necessarily of what was weighed.
 
-**The argument for a spoken channel is borrowed rather than found.** The opening states that the radio is argued from the neighbouring cases and not from this one, and the C-16 note is the only entry in the family that names a radio. **The section headed Epistemic State separates what the record establishes from what this article infers**, and the inference that the refusal lacked written authority rests on an absence in a document, which is weaker evidence than a presence.
+**The argument for a spoken channel is borrowed rather than found.** The opening states that the radio is argued from the neighbouring cases and not from this one, and the C-16 note is the only entry in the family that names a radio. **The Epistemic State section below separates what the record establishes from what this article infers**, and the inference that the refusal lacked written authority stands on an absence in a document, weaker evidence than a presence would be.
 
 ## The Source Base
 
-**The twenty-eight curated sources that carry the argument and the 1,335 research records that map the field are different things, and this article keeps them apart on purpose.**
+**The thirty curated sources that carry the argument and the 1,335 research records that map the field are different things, and this article keeps them apart on purpose.**
 
-**The evidentiary base is small because the subject is.** Twenty-eight curated references and four books carry every claim made here, and the ones that matter most are the three issues of the governing instruction that bracket and follow the decision. **Those are not commentary on the evidence. They are the evidence**, because the central question is what a document does and does not contain, and the only way to settle that is to read it.
+**The evidentiary base is small because the subject is.** Thirty curated references and four books carry every claim made here, and the ones that matter most are the five issues of the governing instruction that precede and follow the decision. **Those are not commentary on the evidence. They are the evidence**, because the central question is what a document does and does not contain, and the only way to settle that is to read it.
 
 **The survey base maps the field.** Its 1,335 research records are drawn from the scholarly registry of digital object identifiers, Crossref, and from two report servers, the Defense Technical Information Center and the space agency's Technical Reports Server. **A few of them are cited in the prose**, being the flight test report of the aircraft that received X-53A, for that programme's dates, the three report-server studies of pilot-controller communication named under The Definition of Primary, and the titles named under Thin Subjects to show what the literature does and does not contain. **None is cited for a claim about the X-52 decision**, and the argument about the decision would stand unchanged without the survey.
 
@@ -581,9 +581,9 @@ designation in 2006 and recorded a phrase.**
 
 **The report-primary fraction is 2.2 percent, being 30 records of 1,335, which is the third-lowest of the 72 articles in this series that carry research references**, counting in each article the research definitions whose address meets that rule. **The lowest is the [X-39][related_post_a336_x39_reserved_never_assigned], an anomaly without a vehicle, at 0.52 percent, being 4 records of 768, and that is not a coincidence.** The second-lowest is the later article on the seven numbers from X-69 to X-75, at 1.79 percent, being 22 records of 1,232, and its subject is likewise a run of designations that no aeroplane carries.
 
-**The measure means less here than it does anywhere else in this series and the article will not dress it up.** It counts identifiers issued by the space agency's report server and the defence technical information centre, which is the right instrument when the subject is an aeroplane and the wrong one when the subject is a refusal. **The primary documents this article actually argues from are the three issues of the governing instruction, the registry that records the decision, the drug regulator's naming guidance and the civil call sign study**, and not one of them carries an identifier the measure can see.
+**The measure means less here than it does anywhere else in this series and the article will not dress it up.** It counts identifiers issued by the space agency's report server and the defence technical information centre, which is the right instrument when the subject is an aeroplane and the wrong one when the subject is a refusal. **The primary documents this article actually argues from are the five issues of the governing instruction, the registry that records the decision, the drug regulator's naming guidance and the civil call sign study**, and not one of them carries an identifier the measure can see.
 
-**So the count is reported alongside the fraction.** **Nine curated sources are primary documents rather than descriptions of one**, being three issues of the joint instruction, three of the drug regulator's naming publications, the civil aviation call sign study, the air-ground communications briefing note and the flight research centre's own fact sheet. **A number that falls because the subject changed is reporting something true**, and the X-39, the seven numbers from X-69 to X-75 and the X-52, whose subjects are administrative acts rather than aeroplanes, are the three at the bottom of the ranking.
+**So the count is reported alongside the fraction.** **Eleven curated sources are primary documents rather than descriptions of one**, being five issues of the governing instruction, three of the drug regulator's naming publications, the civil aviation call sign study, the air-ground communications briefing note and the flight research centre's own fact sheet. **A number that falls because the subject changed is reporting something true**, and the X-39, the seven numbers from X-69 to X-75 and the X-52, whose subjects are administrative acts rather than aeroplanes, are the three at the bottom of the ranking.
 
 **The report literature of the armed services does not hold this subject.** It holds aeronautical engineering, and the confusability of spoken identifiers is studied in medicine, in civil aviation safety and in linguistics. **The report literature that does bear on it is the space agency's own study of addressee errors in air traffic control communications**, which treats the call sign problem directly, with its neighbours on pilot-controller communication \[[Monan 1983][research_callsign_problem]\] \[[An error-resistant linguistic protocol for air traffic control][research_error_resistant_protocol]\] \[[Morrow et al 1990][research_routine_pilot_controller]\].
 
@@ -650,7 +650,7 @@ The United Kingdom's civil aviation authority published a dedicated call sign co
 
 ### Verified by Reading the Document
 
-**The following are statements about the contents of three issues of one instruction and were checked by reading each in full rather than by consulting a description of any of them.**
+**The following are statements about the contents of five issues of one instruction and were checked against the text of each rather than by consulting a description of any of them.**
 
 The 14 April 2005 issue of the joint instruction directs that the coordinating office will assign and reserve the next available consecutive design number within each basic mission for new vehicles \[[Air Force Joint Instruction 16-401, 14 April 2005][ref_afi_16_401_2005]\].
 
@@ -658,17 +658,17 @@ That issue contains no authority to skip a design number, no occurrence of the w
 
 Its duplication check, its trademark search and its four levels of review apply to the popular name and not to the designation.
 
-Its only provision citing confusion in connection with a designator is the prohibition of the letters I and O as series symbols.
+Its only provision citing confusion in connection with a designator is the prohibition of the letters I and O as series symbols \[[Air Force Joint Instruction 16-401, 14 April 2005][ref_afi_16_401_2005]\].
 
-The 1994 issue of the same instruction carries the same sequence requirement, the same popular-name duplication check and trademark search, and the same prohibition of I and O, and likewise contains no authority to skip a design number \[[Air Force Joint Instruction 16-401, 1994][ref_afi_16_401]\].
+The 1 September 1997 issue of the same instruction and the 1994 issue it superseded carry the same sequence requirement, the same popular-name duplication check and trademark search, and the same prohibition of I and O, and likewise contain no authority to skip a design number \[[Air Force Joint Instruction 16-401, 1 September 1997][ref_afi_16_401_1997]\] \[[Air Force Joint Instruction 16-401, 1994][ref_afi_16_401]\].
 
-The 3 November 2020 issue adds, at Attachment 2 paragraph A2.1.6.1.2, that AF/A8PE reserves the authority to skip design number at discretion, and attaches no criterion to it. At paragraph 4.2.1.3 it states that requests are not accepted for designators in reverse or skipped sequences \[[Department of the Air Force Instruction 16-401, 3 November 2020][ref_dafi_16_401_2020]\].
+The 16 May 2014 issue adds, at Attachment 2 paragraph A2.1.6.1.2, that HAF/A8PE reserves the authority to skip design number at discretion and that skipped design numbers cannot be requested or used, and attaches no criterion to the authority \[[Air Force Instruction 16-401, 16 May 2014][ref_afi_16_401_2014]\]. The 3 November 2020 issue keeps the authority at the same paragraph under AF/A8PE, and at paragraph 4.2.1.3 it states that requests are not accepted for designators in reverse or skipped sequences \[[Department of the Air Force Instruction 16-401, 3 November 2020][ref_dafi_16_401_2020]\].
 
 ### Analysis
 
 The edit distance between the strings X-52 and B-52 is 1, the normalised edit similarity is 0.75, the longest common subsequence is three characters giving the same 0.75, and the Dice coefficient on character bigrams is two thirds. These are computed and not quoted from any source.
 
-**Rendered as they would be spoken, the two names are more similar rather than less.** The character edit distance between `ex fifty two` and `bee fifty two` is 2 over strings of 12 and 13 characters, giving a normalised similarity of about 0.846 against the written pair's 0.75. **At the level of whole words one token in three differs, giving about 0.667**, so the ordering depends on what a listener is taken to be matching.
+**Rendered as they would be spoken, the two names are more similar than they are in writing.** The character edit distance between `ex fifty two` and `bee fifty two` is 2 over strings of 12 and 13 characters, giving a normalised similarity of about 0.846 against the written pair's 0.75. **At the level of whole words one token in three differs, giving about 0.667**, so the ordering depends on what a listener is taken to be matching.
 
 The X-35 was allocated before the F-35 was approved, so that approval raised the number of series holding the design number 35 from one to two and added one bit of residual uncertainty to a listener who hears the number without the mission letter. The refusal of X-52A held the corresponding quantity at 52 unchanged and added none.
 
@@ -684,7 +684,7 @@ The count of cross-series numeric collisions in a system where each mission seri
 
 **That the X-52A refusal was made under an authority the instruction did not then contain is an inference from the absence of any such provision in the 2005 issue**, and an absence in a document is weaker evidence than a presence. It is possible that the authority existed in another issuance not consulted here.
 
-**That the 2020 clause regularised the practice is an inference from its content and its timing**, and no document has been seen that connects the two.
+**That the 2014 clause regularised the practice is an inference from its content and its timing**, and no document has been seen that connects the two.
 
 **That the F-35 and X-52 decisions are inconsistent is an interpretation.** The two were made four years apart under one office symbol and then another, and the individuals need not have been the same. **The inconsistency asserted here is of the system and not of any person.**
 
@@ -706,7 +706,7 @@ The count of cross-series numeric collisions in a system where each mission seri
 
 **The Active Aeroelastic Wing itself.** The aeroelastic engineering, the control laws, the roll-reversal problem and the flight-test results belong to the next article in this series, which is about the X-53. **This article names the programme and stops.**
 
-**The unmanned series consuming numbers from the same pool.** The X-58 and X-67 slots were taken by aircraft designated XQ-58A and XQ-67A, which is a different mechanism from a refusal and gets its own articles later in the series \[[Missing USAF and DOD Aircraft Designations][ref_missing_mds]\].
+**The unmanned series consuming numbers from the same pool.** The X-58 and X-67 slots were taken by aircraft designated XQ-58A and XQ-67A, a different mechanism from a refusal, treated in its own articles later in the series \[[Missing USAF and DOD Aircraft Designations][ref_missing_mds]\].
 
 **The pre-1962 designation systems.** Everything here concerns the joint system implemented in September 1962 \[[1962 United States Tri-Service Aircraft Designation System][ref_tri_service_1962]\].
 
@@ -718,15 +718,15 @@ The count of cross-series numeric collisions in a system where each mission seri
 
 **The X-52 is the only number in the X-series that was asked for properly and refused on the merits of its own string.** The registry's other missing X numbers are the [X-23][related_post_a320_martin_marietta_x23], requested in 1965 and refused because the vehicle was unmanned and then never requested again, the [X-39][related_post_a336_x39_reserved_never_assigned], reserved and never requested, and the X-58 and X-67, whose slots were skipped after aircraft designated in another series took the numbers \[[Missing USAF and DOD Aircraft Designations][ref_missing_mds]\].
 
-**The instruction in force required the next number in sequence, provided no authority to skip one, and reserved its entire confusability apparatus for the popular name**, which is the half of the identifier it describes as aiding communications and media references rather than the half it calls official. **Its only written anti-confusion rule for a designator is that the series letters I and O are prohibited because they look like digits.**
+**The instruction in force required the next number in sequence, provided no authority to skip one, and reserved its entire confusability apparatus for the popular name**, the half of the identifier it describes as aiding communications and media references rather than the half it calls official. **Its only written anti-confusion rule for a designator is that the series letters I and O are prohibited because they look like digits.**
 
-**The refusal was therefore made under a rule that did not exist in writing, and fourteen years later a sentence was added to the instruction granting the office the authority to skip a design number at discretion, with no criterion attached.** **The issue before the one in force said the same as the one in force, so the authority was absent for at least twenty-six years while the practice ran throughout them.**
+**On the issues read here, the refusal was therefore made under a rule that did not exist in writing, and eight years later a sentence was added to the instruction granting the office the authority to skip a design number at discretion, with no criterion attached.** **The issue before the one in force said the same as the one in force, so the authority was absent for nearly twenty years while the practice ran throughout them.**
 
-**The decision was not eccentric.** It belongs to a long and documented family, and the reasons recorded across that family are operational rather than clerical. A radio under combat load. Maintenance records mixed up between two aircraft built by two companies both called Bell. **In every case the collision crosses a mission boundary, which means that the system's formal guarantee of uniqueness rests on a coordinate that the channel does not carry.**
+**The decision was not eccentric.** It sits in a long and documented family, and the reasons recorded across that family are operational rather than clerical. A radio under combat load. Maintenance records mixed up between two aircraft built by two companies both called Bell. **In every case the collision crosses a mission boundary, so the system's formal guarantee of uniqueness depends on a coordinate that the channel does not carry.**
 
-**And the same office had spent 2002 manufacturing exactly such a collision on purpose**, taking the X-35's number for the F-35 against its own nomenclature office's advice that numbers are assigned consecutively.
+**And the same office had spent 2002 manufacturing such a collision on purpose**, taking the X-35's number for the F-35 against its own nomenclature office's advice that numbers are assigned consecutively.
 
-**A judgement of that kind can be written down, and elsewhere it is.** The drug regulator that screens every proposed prescription name against the names already approved publishes the program it uses, the databases it compares against, and three numbered similarity bands, and records that its screening threshold rests on validation work rather than on somebody's ear. **Measured against those bands, the two designations land in different categories depending on which measure is chosen**, which is exactly why the choice of measure has to be stated. **One naming authority publishes all of it. The other refused a designation and recorded a phrase.**
+**A judgement of that kind can be written down, and elsewhere it is.** The drug regulator that screens every proposed prescription name against the names already approved publishes the program it uses, the databases it compares against, and three numbered similarity bands, and records that its screening threshold rests on validation work rather than on somebody's ear. **Measured against those bands, the two designations land in different categories depending on which measure is chosen**, and for that reason the choice of measure has to be stated. **One naming authority publishes all of it. The other refused a designation and recorded a phrase.**
 
 **What the X-52 case finally shows is a designation system doing something a numbering scheme is not supposed to do.** A counter does not care what its numbers resemble. **This one does, the record of it weighing resemblance runs back to at least 1954, it has never written down what it is comparing or against what threshold, and in 2006 it looked at a bomber that had already been flying for fifty-one years and was expected to be flying more than forty years longer, and said no.**
 
@@ -749,6 +749,8 @@ The count of cross-series numeric collisions in a system where each mission seri
 - [1962 United States Tri-Service Aircraft Designation System][ref_tri_service_1962]
 - [Active Aeroelastic Wing flight research vehicle receives X-53 designation, Air Force Research Laboratory, 11 December 2006][ref_afrl_x53_release]
 - [Active Aeroelastic Wing Flight Research, NASA Facts FS-2005-03-061 DFRC][ref_aaw_factsheet]
+- [Air Force Instruction 16-401, 16 May 2014][ref_afi_16_401_2014]
+- [Air Force Joint Instruction 16-401, 1 September 1997][ref_afi_16_401_1997]
 - [Air Force Joint Instruction 16-401, 14 April 2005][ref_afi_16_401_2005]
 - [Air Force Joint Instruction 16-401, 1994][ref_afi_16_401]
 - [Air Force Research Laboratory][ref_afrl]
@@ -777,7 +779,9 @@ The count of cross-series numeric collisions in a system where each mission seri
 
 [ref_aaw_factsheet]: https://www.nasa.gov/wp-content/uploads/2021/09/120314main_fs-061-dfrc.pdf
 [ref_afi_16_401]: https://irp.fas.org/doddir/usaf/16-401.htm
+[ref_afi_16_401_1997]: <https://www.designation-systems.net/usmilav/afji16-401(1997).pdf>
 [ref_afi_16_401_2005]: <https://www.designation-systems.net/usmilav/afi16-401(i).pdf>
+[ref_afi_16_401_2014]: <https://www.designation-systems.net/usmilav/afi16-401(2014).pdf>
 [ref_afrl]: https://en.wikipedia.org/wiki/Air_Force_Research_Laboratory
 [ref_afrl_x53_release]: https://web.archive.org/web/20110605105552/http://www.wpafb.af.mil/news/story.asp?id=123035661
 [ref_agc_briefing]: https://skybrary.aero/sites/default/files/bookshelf/110.pdf

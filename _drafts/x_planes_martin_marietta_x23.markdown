@@ -13,21 +13,21 @@ series_index: 24
 <!-- A320 -->
 <script>console.log("A320");</script>
 
-The [Martin Marietta X-23A PRIME][ref_x23], whose name stood for Precision Recovery Including Maneuvering Entry, was six feet eight inches long, weighed 894 pounds, and was thrown at the Pacific Ocean three times from the top of an Atlas. On the third attempt, on 19 April 1967, it flew more than 710 miles to one side of the path a stone would have taken, deployed a parachute, and was caught in mid-air by a transport aeroplane near Kwajalein, as the [official history of the project][research_hallion_1998] records. **It is the smallest vehicle in this series and it answered a larger question than most of the aircraft that dwarf it.** This article is the twenty-fourth in the [X-Planes series][related_post_a297_xplanes_framing], following the [X-1][related_post_a298_bell_x1], the [X-2][related_post_a299_bell_x2], the [X-3][related_post_a300_douglas_x3], the [X-4][related_post_a301_northrop_x4], the [X-5][related_post_a302_bell_x5], the [X-6][related_post_a303_convair_x6], the [X-7][related_post_a304_lockheed_x7], the [X-8][related_post_a305_aerojet_x8], the [X-9][related_post_a306_bell_x9], the [X-10][related_post_a307_north_american_x10], the [X-11][related_post_a308_convair_x11], the [X-12][related_post_a309_convair_x12], the [X-13][related_post_a310_ryan_x13], the [X-14][related_post_a311_bell_x14], the [X-15][related_post_a312_north_american_x15], the [X-16][related_post_a313_bell_x16], the [X-17][related_post_a314_lockheed_x17], the [X-18][related_post_a315_hiller_x18], the [X-19][related_post_a316_curtiss_wright_x19], the [X-20][related_post_a317_boeing_x20], the [X-21][related_post_a318_northrop_x21], and the [X-22][related_post_a319_bell_x22].
+The [Martin Marietta X-23A PRIME][ref_x23], whose name stood for Precision Recovery Including Maneuvering Entry, was six feet eight inches long, weighed 894 pounds, and was thrown at the Pacific Ocean three times from the top of an Atlas. On the third attempt, on 19 April 1967, it flew more than 710 miles to one side of the path a stone would have taken, deployed a parachute, and was caught in mid-air by a transport aeroplane near Kwajalein, as the [official history of the project][research_hallion_1998] records. **It is the smallest vehicle in this series so far and it answered a larger question than most of the aircraft that dwarf it.** This article is the twenty-fourth in the [X-Planes series][related_post_a297_xplanes_framing], following the [X-1][related_post_a298_bell_x1], the [X-2][related_post_a299_bell_x2], the [X-3][related_post_a300_douglas_x3], the [X-4][related_post_a301_northrop_x4], the [X-5][related_post_a302_bell_x5], the [X-6][related_post_a303_convair_x6], the [X-7][related_post_a304_lockheed_x7], the [X-8][related_post_a305_aerojet_x8], the [X-9][related_post_a306_bell_x9], the [X-10][related_post_a307_north_american_x10], the [X-11][related_post_a308_convair_x11], the [X-12][related_post_a309_convair_x12], the [X-13][related_post_a310_ryan_x13], the [X-14][related_post_a311_bell_x14], the [X-15][related_post_a312_north_american_x15], the [X-16][related_post_a313_bell_x16], the [X-17][related_post_a314_lockheed_x17], the [X-18][related_post_a315_hiller_x18], the [X-19][related_post_a316_curtiss_wright_x19], the [X-20][related_post_a317_boeing_x20], the [X-21][related_post_a318_northrop_x21], and the [X-22][related_post_a319_bell_x22].
 
-**There is also a difficulty with the number, and it is not a small one.** The designation X-23A is attached to this vehicle by encyclopaedias, by museums, and by the historical literature. Available United States Air Force nomenclature records show that it was never assigned, and further that it was never even requested. This article treats the vehicle and the paperwork as two separate subjects, because they are, and because the second one is evidence about how the designation system actually worked and not a clerical footnote.
+**The number also presents a serious difficulty.** The designation X-23A is attached to this vehicle by encyclopaedias and by the historical literature. Available United States Air Force nomenclature records show that it was never assigned, and further that it was never even requested, in the [standard reference on United States military aircraft designations][ref_designation_missing]. This article treats the vehicle and the paperwork as two separate subjects, because they are, and because the paperwork, far from being a clerical footnote, is evidence about how the designation system worked.
 
 ## The Research Question
 
 **Can a vehicle returning from orbit choose where it lands?**
 
-That is the question, and in 1964 it was genuinely open. A ballistic capsule cannot choose. It falls where the atmosphere and its own entry conditions put it, and the only control available is when to start. The landing point is therefore wherever the orbital ground track happens to be at the moment of the deorbit burn, and if that is the middle of an ocean then that is where the vehicle goes.
+In 1964 that question was open. A ballistic capsule cannot choose. It falls where the atmosphere and its entry conditions put it, and the only control available is when to start. The landing point is therefore wherever the orbital ground track happens to be at the moment of the deorbit burn, and if the track then crosses the middle of an ocean, the vehicle comes down in the ocean.
 
-The alternative was known in principle. A body that generates lift as well as drag can hold itself up, glide, and by rolling that lift vector to one side, turn. **The open question was not whether this worked but how much of it a returning vehicle could actually buy**, because the lift available to a shape that must also survive entry heating is very small. A lifting body of the period had a hypersonic lift-to-drag ratio somewhere near one, against roughly seventeen for a transport aeroplane at cruise. The ratio is the one the whole article turns on and it is simply
+The alternative was known in principle. A body that generates lift as well as drag can hold itself up, glide, and by rolling that lift vector to one side, turn. **The open question was how much of it a returning vehicle could obtain**, because the lift available to a shape that must also survive entry heating is very small. A lifting body of the period had a hypersonic lift-to-drag ratio somewhere near one, in [Reed][research_r_dale_reed_1997], against roughly seventeen for a transport aeroplane at cruise, in the [encyclopaedia entry on the lift-to-drag ratio][ref_lift_to_drag]. The article turns on this ratio, defined as
 
 $$\frac{L}{D} = \frac{C_L}{C_D}$$
 
-so a value near unity means a vehicle that produces as much drag as lift. **The lifting body gives up a factor of about fourteen against a transport wing**, and the question is what the remainder buys.
+so a value near unity means a vehicle that produces as much drag as lift. **The lifting body gives up a factor of about fourteen against a transport wing**, and the question is what the remaining lift can achieve.
 
 **The keystone of this article is the conversion of that small lift-to-drag ratio into lateral distance**, which the period literature calls lateral range and the modern literature calls crossrange, in [Garland and Hall 1958][research_garland_hall_1958], [Jackson 1961][research_jackson_1961], [Baradell 1962][research_baradell_1962], [Baradell and McLellan 1963][research_donald_l_baradell_charles_h_mclellan_1963], [Kornreich 1963][research_kornreich_1963], [Wang 1963][research_wang_1963], [Wang and Skulsky 1963][research_wang_skulsky_1963], [Lessing et al 1964][research_lessing_1964], [Ashford 1965][research_ashford_1965], [Wagner 1965][research_wagner_1965], [Lau 1967][research_lau_1967], [Pritchard and Holloway 1967][research_pritchard_holloway_1967], [Holloway 1968][research_holloway_1968], [NlEMANN 1968][research_nlemann_1968], [Moote 1970][research_moote_1970], [Bump 1977][research_bump_1977], [Vinh et al 1977][research_vinh_1977], [Johnson et al 1982][research_johnson_1982], [Kelley et al 1982][research_kelley_1982]. Every part of the vehicle was dimensioned against it. The shape exists to produce the lift, the ablator exists to let the vehicle stay in the atmosphere long enough to use it, the reaction controls and flaps exist to hold the bank angle that converts it, and the recovery system exists so that the measurement survives.
 
@@ -41,25 +41,25 @@ or about a seventh of the X-20's cost.
 
 PRIME was one part of a United States Air Force programme called START, for Spacecraft Technology and Advanced Reentry Tests, which [Reed][research_r_dale_reed_1997] dates to January 1964. **The accounts divide the programme differently.** [Hallion's history of the Dryden centre][ref_hallion_1984] and the [inventory of American X-vehicles][ref_american_x_vehicles] published by the National Aeronautics and Space Administration, NASA, describe three phases, [ASSET][ref_asset], PRIME and PILOT, for Piloted Low-Speed Tests. Reed names only PRIME and PILOT. The START development plan forwarded in January 1965, in [Vitelli and Hallion][research_hallion_1998], comprised the PRIME project, the PILOT project, configuration and design studies, and the ASSET project. ASSET, for Aerothermodynamic Elastic Structural Systems Environmental Tests, was a small unmanned McDonnell glider launched between September 1963 and March 1965, according to [Hallion][ref_hallion_1984], and addressed structures and heating. **PRIME addressed manoeuvring**, which ASSET had not. ASSET had flown simple hypersonic glides, and PRIME was to fly far to one side of its path, in [Heppenheimer's history of the Space Shuttle decision][ref_heppenheimer_1999].
 
-The institutional context is the cancellation of Dyna-Soar. The Air Force had spent years and a great deal of money on a piloted, winged, manoeuvring re-entry vehicle and had been left with the question unanswered and the answer still wanted. START was the cheap route to the same information. Two small unmanned vehicles, launched on existing boosters, instrumented and recovered, could measure heating and manoeuvring without a pilot, without a runway, and without a programme large enough to be worth cancelling.
+The institutional context is the cancellation of Dyna-Soar. The Air Force had spent years and a great deal of money on a piloted, winged, manoeuvring re-entry vehicle and had been left with the question unanswered and the answer still wanted, in [Reed][research_r_dale_reed_1997]. START was the cheap route to the same information. Two small unmanned vehicles, launched on existing boosters, instrumented and recovered, could measure heating and manoeuvring without a pilot, without a runway, and without a programme large enough to be worth cancelling.
 
-Martin Marietta supplied the airframe. The company had been developing a family of lifting-body shapes under the designation SV-5, and the family is the reason three vehicles appear here where the title names one. The SV-5D was the small unmanned entry vehicle that became PRIME. The SV-5P was the larger piloted low-speed vehicle that became the [X-24A][ref_x24]. The two are the same aerodynamic idea at different sizes and different ends of the speed range, which is exactly why the designation question became tangled.
+Martin Marietta supplied the airframe. The company had been developing a family of lifting-body shapes under the designation SV-5, and the family is the reason three vehicles appear here where the title names one. The SV-5D was the small unmanned entry vehicle that became PRIME. The SV-5P was the larger piloted low-speed vehicle that became the [X-24A][ref_x24], in [Reed][research_r_dale_reed_1997]. The two are the same aerodynamic idea at different sizes and different ends of the speed range, and that kinship is why the designation question became tangled.
 
 **The PRIME contract followed in November 1964.** The Space Systems Division of the Air Force Systems Command engaged Martin to design, build and test a manoeuvring re-entry vehicle, in [Reed][research_r_dale_reed_1997] and [Hallion][ref_hallion_1984], and the project's own statement of May 1967 says it was approved in November 1964 with first flight due in 24 months, in [Vitelli and Hallion][research_hallion_1998]. Both Reed and Vitelli and Hallion record the six features on which Martin argued for the SV-5 shape. The second is the subject of this article, a hypersonic lift-to-drag ratio of 1.2 or better, permitting a lateral range of 1,000 miles, which would allow a recall to any preselected site at least once a day and an emergency recall to a suitable location from every orbit.
 
-The wider programme record is in [Ingber 1965][research_ingber_1965], [Atlas-Centaur AC-12 flight performance 1968][research_atlas_centaur_ac_12_1968], [Atlas-Centaur flight performance for 1968][research_atlas_centaur_flight_1968], [Adimurthy 1976][research_adimurthy_1976], [Shrivastava and Reddy 1976][research_shrivastava_reddy_1976], [Brusch 1977][research_brusch_1977], [Adimurthy 1987][research_adimurthy_1987], [Rasky 1998][research_rasky_1998], [Trefny 1999][research_trefny_1999], [Wallace 1999][research_wallace_1999], [Calhoun 2000][research_calhoun_2000], [Naughton 2002][research_naughton_2002], and the family of shapes it belongs to is gathered in the survey's cluster on lifting bodies and the SV-5 family.
+The wider programme record is in [Ingber 1965][research_ingber_1965], [Atlas-Centaur AC-12 flight performance 1968][research_atlas_centaur_ac_12_1968], [Atlas-Centaur flight performance for 1968][research_atlas_centaur_flight_1968], [Adimurthy 1976][research_adimurthy_1976], [Shrivastava and Reddy 1976][research_shrivastava_reddy_1976], [Brusch 1977][research_brusch_1977], [Adimurthy 1987][research_adimurthy_1987], [Rasky 1998][research_rasky_1998], [Trefny 1999][research_trefny_1999], [Wallace 1999][research_wallace_1999], [Calhoun 2000][research_calhoun_2000], [Naughton 2002][research_naughton_2002], and the survey's cluster on lifting bodies and the SV-5 family collects the family of shapes the vehicle came from.
 
 ## The Vehicle
 
-The SV-5D was a blunted lifting body with a rounded delta planform, two upper fins, and flaps at the rear. It was 6 feet 8 inches long, 3 feet 10 inches across and 2 feet 10 inches high, and weighed 894 pounds, in the [encyclopaedia entry][ref_x23].
+The SV-5D was a teardrop-shaped lifting body fitted with fins, in [Heppenheimer][ref_heppenheimer_1999], and [Vitelli and Hallion][research_hallion_1998] add two hydraulically driven flaps at the rear. It was 6 feet 8 inches long, 3 feet 10 inches across and 2 feet 10 inches high, and weighed 894 pounds, in the [encyclopaedia entry][ref_x23].
 
 **The record gives its weight several ways.** The official history records the first vehicle lifting off at 895 pounds, about 4 percent below the weight goal, and states that all three were more than 3 percent below the specification maximum launch weight, in [Vitelli and Hallion's history of the project][research_hallion_1998], whose press statement of May 1967 calls them 860-pound vehicles. [Reed][research_r_dale_reed_1997] gives 880 pounds, [Hallion][ref_hallion_1984] 400 kilograms, and [Cochrane and Graham][research_john_cochrane_kenneth_graham_1971] about 800 pounds. This article uses 894 pounds, which differs from the first vehicle's lift-off weight by
 
 $$\frac{895}{894} - 1 = 0.11\%$$
 
-**Almost the whole of it was thermal protection.** The primary structure was aluminium, and bonded directly to it was an elastomeric ablative heat shield, Martin's ESA 3560HF, with a mechanically attached carbon phenolic nose cap, in [Vitelli and Hallion][research_hallion_1998]. The flaps were beryllium plates faced with carbon phenolic beneath and with ESA 3560HF above, and the fins were beryllium sheet on a steel honeycomb. The shield was to hold the aluminium to 400 degrees Fahrenheit and the flaps and fins to 800. The [encyclopaedia entry][ref_x23] gives the shield's thickness as between 0.75 and 2.75 inches and lists titanium among the structural metals, which the official history does not mention. Attitude was held by nitrogen gas reaction jets and by the two hydraulically driven flaps, which took over as the air became thick enough to be useful.
+**Almost the whole of its surface was thermal protection.** The primary structure was aluminium, and [Vitelli and Hallion][research_hallion_1998] describe an elastomeric ablative heat shield, Martin's ESA 3560HF, bonded directly to it, with a mechanically attached carbon phenolic nose cap. The flaps were beryllium plates faced with carbon phenolic beneath and with ESA 3560HF above, and the fins were beryllium sheet on a steel honeycomb. The shield was to hold the aluminium to 400 degrees Fahrenheit and the flaps and fins to 800. The [encyclopaedia entry][ref_x23] gives the shield's thickness as between 0.75 and 2.75 inches and lists titanium among the structural metals, which the official history does not mention. Attitude was held by nitrogen gas reaction jets and by the two hydraulically driven flaps, which took over as the air became thick enough to be useful.
 
-One quantity that the analysis below needs is not published. **The reference area of the SV-5D does not appear in the accessible record**, so it is derived here from the X-24A, which is the same shape at larger scale. The X-24A's conventional reference area is 162 square feet on a reference length of 23 feet and a reference span of 10 feet, in [Falarski and Mort][ref_falarski_mort_1970], and those are reference quantities rather than the vehicle's outline. Its whole planform is 195.0 square feet against a length of 24.50 feet and a tip-to-tip span of 13.63 feet in [Saltzman, Wang and Iliff][research_saltzman_2002], and the ratio of that area to the length-times-span box is
+One quantity that the analysis below needs is not published. **The reference area of the SV-5D does not appear in the accessible record**, so it is derived here from the X-24A, the same shape at larger scale. The X-24A's conventional reference area is 162 square feet on a reference length of 23 feet and a reference span of 10 feet, in [Falarski and Mort][ref_falarski_mort_1970], and those are reference quantities rather than the vehicle's outline. Its whole planform is 195.0 square feet against a length of 24.50 feet and a tip-to-tip span of 13.63 feet in [Saltzman, Wang and Iliff][research_saltzman_2002], and the ratio of that area to the length-times-span box is
 
 $$k_S = \frac{S_\text{X-24A}}{l\,b} = \frac{195.0}{24.50 \times 13.63} = 0.5839$$
 
@@ -71,9 +71,9 @@ or 14.9 square feet. [McTigue][research_john_g_mctigue_1970] gives the X-24A bod
 
 $$\frac{191}{24.5 \times 13.5} = 0.5775$$
 
-and the derived area 1.1 percent smaller. **This is an assumption and every number that depends on it inherits that status.** The crossrange result does not depend on it at all, which is stated here because it matters.
+and the derived area 1.1 percent smaller. **This is an assumption and every number that depends on it inherits that status.** The crossrange result does not depend on it at all.
 
-One check on the scaling is worth doing because it fails, and the failure is informative. The two vehicles are in a linear ratio of
+One check on the scaling fails, and the failure is informative. The two vehicles are in a linear ratio of
 
 $$\frac{l_\text{SV-5D}}{l_\text{X-24A}} = \frac{2.032}{7.47} = 0.272$$
 
@@ -81,7 +81,7 @@ so if they were the same thing at different sizes their weights would stand as t
 
 $$\frac{894}{12{,}000} = 0.075, \qquad \frac{894}{5{,}500} = 0.163$$
 
-**Between nearly four and eight times what geometric scaling predicts.** The reason is that the SV-5D is very nearly solid thermal protection while the X-24A is mostly enclosed volume with a pilot and a rocket engine inside it. **Areas scale and contents do not**, which is why the reference area derived above is defensible and a weight derived the same way would not have been. Estimating what a vehicle will weigh, and knowing which parts of it obey a scaling law and which do not, is a methodical discipline and not a guess, and its literature is the survey's cluster on weight estimation and vehicle sizing.
+**Between nearly four and eight times what geometric scaling predicts.** The reason is that the SV-5D is densely packed, its inboard profile filling the body with ballast, electronics, instrumentation, recovery gear and reaction controls beneath a bonded heat shield, in [Vitelli and Hallion][research_hallion_1998], while the X-24A is mostly enclosed volume with a pilot and a rocket engine inside it. **Areas scale and contents do not.** That difference makes the reference area derived above defensible where a weight derived the same way would not have been. Estimating what a vehicle will weigh, and knowing which parts of it obey a scaling law and which do not, is a methodical discipline, with a literature collected in the survey's cluster on weight estimation and vehicle sizing.
 
 ## Sizing From First Principles
 
@@ -101,13 +101,13 @@ which says that the lift a gliding vehicle needs is its weight less whatever its
 
 $$1 - 0.75^2 = 0.4375$$
 
-of its weight, and at entry, where $\bar V = 0.972$, it needs 0.056 of it. That entry speed, 25,200 feet per second, is assumed throughout, and the flight record below sets it against the speeds the record gives. **The glide therefore begins almost unloaded**, which is worth holding on to because it explains the deceleration figures further down.
+of its weight, and at entry, where $\bar V = 0.972$, it needs 0.056 of it. That entry speed, 25,200 feet per second, is assumed throughout, and the flight record below sets it against the speeds the record gives. **The glide therefore begins almost unloaded**, a fact that explains the deceleration figures further down.
 
 The circular speed itself follows from equating gravitational and centripetal acceleration at the surface, giving
 
 $$V_c = \sqrt{g R} = \sqrt{9.80665 \times 6.371\times 10^6} = 7{,}904\ \text{m/s}$$
 
-which is 25,933 feet per second. The equilibrium glide is the reference trajectory of the whole subject, and its literature is the survey's cluster on the equilibrium glide and analytic entry trajectories.
+which is 25,933 feet per second. The equilibrium glide is the reference trajectory of the subject, and the survey devotes a cluster to it under the equilibrium glide and analytic entry trajectories.
 
 ### Why the Turn Rate Does Not Depend on the Atmosphere
 
@@ -129,7 +129,7 @@ $$\psi = 1.2 \times \sin 45^\circ \times \ln 4 = 1.176\ \text{rad} = 67.4^\circ$
 
 ### The Crossrange Integral
 
-Crossrange accumulates at $\dot y = V\sin\psi$. The classical treatment replaces $\sin\psi$ by $\psi$ at this point, which is what makes a closed form available at all. **That step is examined below and it turns out to cost about a tenth of the answer**, but it is kept here because it is the step the period literature took and the closed form it produces is the relation the subject is built on. Dividing the lateral rate by the deceleration removes time here as well,
+Crossrange accumulates at $\dot y = V\sin\psi$. The classical treatment replaces $\sin\psi$ by $\psi$ at this point, the substitution that makes a closed form available at all. **That step is examined below and it turns out to cost about a tenth of the answer**, but it is kept here because it is the step the period literature took and the closed form it produces is the relation the subject is built on. Dividing the lateral rate by the deceleration removes time here as well,
 
 $$\frac{dy}{dV} = -\,\frac{V\psi\,(L/D)\cos\phi}{g\left(1-\bar V^2\right)}$$
 
@@ -145,7 +145,7 @@ Substituting the heading solution, in which $\ln(V_e/V) = \tfrac{1}{2}\ln(u_e/u)
 
 $$y = \frac{R}{4}\left(\frac{L}{D}\right)^2 \sin\phi\cos\phi \; I(u_e), \qquad I(u_e) = \int_0^{u_e} \frac{\ln(u_e/u)}{1-u}\,du$$
 
-For entry at exactly circular speed the integral has a closed form, and it is worth doing rather than quoting. Expand the denominator as a geometric series,
+For entry at exactly circular speed the integral has a closed form, and deriving it is more instructive than quoting it. Expand the denominator as a geometric series,
 
 $$\frac{1}{1-u} = \sum_{n\ge 0} u^n \qquad \text{for} \quad 0 \le u < 1$$
 
@@ -157,7 +157,7 @@ so the sum is over the reciprocal squares, which is the Basel series,
 
 $$I(1) = \int_0^1 \frac{-\ln u}{1-u}\,du = \sum_{k\ge 1} \frac{1}{k^2} = \frac{\pi^2}{6} = 1.6449$$
 
-**A constant from elementary number theory turns up in the range of a re-entry vehicle**, which is a coincidence of the integral and not a fact about spacecraft, but it is a pleasing one.
+**A constant from elementary number theory turns up in the range of a re-entry vehicle.** The coincidence arises in the integral and carries no information about spacecraft, but it is a pleasing one.
 
 ### The Bank Angle Is Already Decided
 
@@ -175,7 +175,7 @@ $$\phi_\text{opt} = 45^\circ, \qquad \sin\phi\cos\phi = \tfrac{1}{2}$$
 
 **This does not depend on the lift-to-drag ratio, on the entry speed, or on anything about the vehicle.** Any vehicle wanting maximum crossrange banks 45 degrees, and the guidance system's apparently central decision turns out to have been made in advance by the arithmetic.
 
-Putting the optimum and the closed form together gives the governing relation of the whole subject,
+Putting the optimum and the closed form together gives the governing relation of the subject,
 
 $$\frac{y_\text{max}}{R} = \frac{\pi^2}{48}\left(\frac{L}{D}\right)^2 = 0.2056\left(\frac{L}{D}\right)^2$$
 
@@ -183,23 +183,23 @@ $$\frac{y_\text{max}}{R} = \frac{\pi^2}{48}\left(\frac{L}{D}\right)^2 = 0.2056\l
 
 $$y_\text{max} = 0.2056 \times 1.2^2 \times 6.371\times 10^6 = 1.886\times 10^6\ \text{m} = 1{,}019\ \text{nmi}$$
 
-and the same arithmetic gives 1,310 kilometres at a ratio of 1.0 and 2,568 at 1.4. A ballistic capsule at zero gets nothing, and that is not a small number made small but a capability that is simply absent.
+and the same arithmetic gives 1,310 kilometres at a ratio of 1.0 and 2,568 at 1.4. A ballistic capsule at zero gets nothing. For it the capability is absent altogether, a difference of kind from a small value.
 
 ### What the Small-Angle Step Costs
 
 The closed form above was checked against a numerical integration that keeps $\sin\psi$ exactly, and **the two disagree by more than a rounding error.**
 
-The reason is visible in the heading solution, which can simply be evaluated at the end of the glide. Taking that to be one percent of circular speed,
+The reason is visible in the heading solution, which can be evaluated directly at the end of the glide. Taking that to be one percent of circular speed,
 
 $$\psi_\text{end} = \frac{L}{D}\sin 45^\circ \ln\frac{V_e}{0.01\,V_c}$$
 
 which gives 148 degrees at a ratio of 0.8, **185 degrees at 1.0**, 222 at 1.2 and 260 at 1.4. **Beyond 180 degrees $\sin\psi$ does not merely differ from $\psi$, it has the opposite sign.** The approximation does not degrade gracefully. It inverts.
 
-There is a related point that the exact treatment makes precise. Lateral displacement accumulates as $\dot y = V\sin\psi$, so it stops accumulating exactly where the heading passes half a turn,
+The exact treatment makes a related point precise. Lateral displacement accumulates as $\dot y = V\sin\psi$, so it stops accumulating exactly where the heading passes half a turn,
 
 $$\sin\psi = 0 \quad \Longrightarrow \quad \psi = 180^\circ, \qquad V_{180} = V_e\exp\left(-\frac{\pi}{(L/D)\sin\phi}\right)$$
 
-At a ratio of 1.2 that speed is 189 metres per second, which is very near the end of the flight. **Crossrange is therefore maximised at the moment the vehicle finishes turning round**, and everything after that is spent flying back toward the plane it started in.
+At a ratio of 1.2 that speed is 189 metres per second, reached very near the end of the flight. **Crossrange is therefore maximised at the moment the vehicle finishes turning round**, and everything after that is spent flying back toward the plane it started in.
 
 | Lift-to-drag ratio | Closed form | Exact | Over-prediction |
 |---|---|---|---|
@@ -210,9 +210,9 @@ At a ratio of 1.2 that speed is 189 metres per second, which is very near the en
 
 **The classical relation is optimistic, and increasingly so as the lift-to-drag ratio rises**, because a better gliding vehicle turns further and the approximation is worse the further it turns. Both numbers are given from here on.
 
-There is a physical statement hiding in that table. **A vehicle holding 45 degrees of bank through a full lifting entry turns through half a circle.** It arrives pointing the way it came. Real entry guidance reverses the bank part way through for exactly this reason, and the constant-bank assumption that makes the mathematics tractable is not a trajectory anyone would fly.
+That table hides a physical statement. **A vehicle holding 45 degrees of bank through a full lifting entry turns through half a circle.** It arrives pointing the way it came. Real entry guidance reverses the bank part way through for this reason, and the Space Shuttle flew a series of such roll reversals, in the [encyclopaedia entry on the Space Shuttle][ref_space_shuttle]. The constant-bank assumption that makes the mathematics tractable is not a trajectory anyone would fly.
 
-### What the Requirement Actually Is
+### The Requirement
 
 Now the other half. **How much crossrange does a returning vehicle need?**
 
@@ -242,7 +242,7 @@ Solving the same requirement against the exact integration instead, which cannot
 
 $$\left(\frac{L}{D}\right)_\text{exact} = 1.018$$
 
-**The correction moves the answer closer to unity rather than away from it**, which is a fortunate accident and not an argument for either number. Both are reported because the first is what the period could compute and the second is what is true.
+**The correction moves the answer toward unity**, a fortunate accident that argues for neither number. Both are reported because the first is what the period could compute and the second is what is true.
 
 **A lift-to-drag ratio near unity is not a round number chosen for convenience. It is the threshold at which a spacecraft stops being a passenger of its orbit and starts being able to come home when it wants to.** Below it the vehicle waits for the ground track to come back, which for a general orbit means a day or more and may mean never. At it, the longest wait is one orbit.
 
@@ -254,7 +254,7 @@ At 28.5 degrees that is 0.917, at Vandenberg's 34.7 degrees it is 0.887, and at 
 
 ## What the Flight Record Says About a Disputed Number
 
-The sources do not agree on this vehicle's hypersonic lift-to-drag ratio. One gives 1.0 and another gives 1.2 for the SV-5 shape.
+The sources do not agree on this vehicle's hypersonic lift-to-drag ratio. One gives 1.0, in the [encyclopaedia entry][ref_x23], and another gives 1.2 for the SV-5 shape, in [Vitelli and Hallion][research_hallion_1998].
 
 As ratios those differ by twenty percent, which sounds tolerable. **They do not differ by twenty percent in the quantity this article is about**, because crossrange goes as the square,
 
@@ -262,7 +262,7 @@ $$\frac{y(1.2)}{y(1.0)} = \left(\frac{1.2}{1.0}\right)^2 = 1.44$$
 
 **A twenty percent disagreement about the vehicle is a forty-four percent disagreement about what it can do**, and it cannot be waved away.
 
-It can, however, be attacked, because two facts about the third flight are independently known and both are consequences of the same trajectory. The vehicle achieved 1,143 kilometres of crossrange, and it flew from Vandenberg Air Force Base to a recovery area near Kwajalein, a great-circle distance of
+It can, however, be attacked, because two facts about the third flight are independently known and both are consequences of the same trajectory. The vehicle achieved 1,143 kilometres of crossrange, and it flew from Vandenberg Air Force Base to a recovery area near Kwajalein, in [Vitelli and Hallion][research_hallion_1998], a great-circle distance of
 
 $$d = 2R\arcsin\sqrt{\sin^2\frac{\Delta\varphi}{2} + \cos\varphi_1\cos\varphi_2\sin^2\frac{\Delta\lambda}{2}} = 7{,}787\ \text{km}$$
 
@@ -303,7 +303,7 @@ The glide does not begin at the launch pad. The Atlas covers part of that great 
 
 Each solve carries its own bank angle, because the two models do not agree on what bank produces a given crossrange and pairing one model's ratio with the other's angle would be meaningless.
 
-**The bank angle swings through twenty-four degrees and the lift-to-drag ratio moves very little.** Across the range of boost distances in the table the exact solution stays between 1.05 and 1.18. The flight record determines one of the two unknowns much better than the other, which is a more useful outcome than a single number would have been.
+**The bank angle swings through twenty-four degrees and the lift-to-drag ratio moves very little.** Across the range of boost distances in the table the exact solution stays between 1.05 and 1.18. The flight record determines one of the two unknowns much better than the other. That uneven result is more useful than a single number would have been.
 
 **The result sits between the two disputed figures and is nearer the lower one.** Flying the exact model at a ratio of 1.0 produces 1,043 kilometres against the 1,143 demonstrated, an under-prediction of 8.8 percent. Flying it at 1.2 produces 1,453 kilometres, an over-prediction of 27 percent,
 
@@ -311,9 +311,9 @@ $$\frac{1{,}042.7}{1{,}143} - 1 = -8.8\%, \qquad \frac{1{,}452.9}{1{,}143} - 1 =
 
 **Neither published figure reproduces the flight and the truth is in between**, somewhere near 1.05 to 1.10.
 
-That is worth stating plainly, because the closed form alone appears to vindicate the 1.0 figure to within one percent, and removing the approximation takes that vindication away and replaces it with a value that neither source gives.
+The point needs plain statement, because the closed form alone appears to vindicate the 1.0 figure to within one percent, and removing the approximation takes that vindication away and replaces it with a value that neither source gives.
 
-**It does not settle the conflict and this article does not claim that it does.** Several readings survive. If 1,143 kilometres was the vehicle's maximum capability, the solution above is a measurement and both published figures are somewhat wrong. If it was a demanded value below capability, the solution is a lower bound and the 1.2 figure survives comfortably while 1.0 does not. There is also a reading in which both sources are right about different things, with 1.2 the maximum trimmed ratio the shape can reach and 1.0 a nominal or rounded value, since nothing obliges a vehicle to fly at its best lift-to-drag ratio. **The record bears on the second reading.** The third flight was planned as the maximum crossrange trajectory, yet the fourth was to reach about 790 nautical miles by flying a lower angle of attack and a steeper bank, in [Vitelli and Hallion][research_hallion_1998], so the third flight's crossrange was the most the vehicle reached at the attitude it flew and not the shape's ceiling. A lift-to-drag ratio inferred from it describes that attitude rather than the shape's maximum.
+**It does not settle the conflict and this article does not claim that it does.** Several readings survive. If 1,143 kilometres was the vehicle's maximum capability, the solution above is a measurement and both published figures are somewhat wrong. If it was a demanded value below capability, the solution is a lower bound and the 1.2 figure survives comfortably while 1.0 does not. There is also a reading in which both sources are right about different things, with 1.2 the maximum trimmed ratio the shape can reach and 1.0 a nominal or rounded value, since nothing obliges a vehicle to fly at its best lift-to-drag ratio. **The record bears on the second reading.** The third flight was planned as the maximum crossrange trajectory, yet [Vitelli and Hallion][research_hallion_1998] record that the fourth was to reach about 790 nautical miles by flying a lower angle of attack and a steeper bank, so the third flight's crossrange was the most the vehicle reached at the attitude it flew, short of the shape's ceiling. A lift-to-drag ratio inferred from it describes that attitude rather than the shape's maximum.
 
 **The two disputed figures do not have equal standing.** The 1.2 is Martin's design figure for the SV-5 shape, quoted above. The 1.0 appears in the [encyclopaedia entry][ref_x23], which gives no source for it. Martin's claim of 1,000 miles at 1.2 is itself consistent with the relation derived here, since the exact integration from circular speed at 1.2 gives 1,696 kilometres, which is
 
@@ -323,19 +323,19 @@ $$\frac{1{,}696}{1.609} = 1{,}054\ \text{statute miles}$$
 
 $$1{,}360 \times 1.852 = 2{,}518.7\ \text{km}$$
 
-just beyond the last row of the table. Solved exactly at that boost range, the pair gives a bank of 61.1 degrees and a lift-to-drag ratio of 1.187. **That bank angle is not the one flown.** The second flight was programmed to hold a constant bank of 46 degrees through re-entry until terminal guidance began, and a memorandum of May 1967 proposing the fourth flight describes its planned 47 degrees as higher than the 39 degrees previously flown, both in [Vitelli and Hallion][research_hallion_1998]. The downrange relation is the weak half of the pair. It grows without bound as the entry speed approaches circular, through the factor $\ln(1/(1-u_e))$, and the documented entry speed lies above the circular speed the model uses,
+just beyond the last row of the table. Solved exactly at that boost range, the pair gives a bank of 61.1 degrees and a lift-to-drag ratio of 1.187. **The record contradicts that bank angle.** The second flight was programmed to hold a constant bank of 46 degrees through re-entry until terminal guidance began, and a memorandum of May 1967 proposing the fourth flight describes its planned 47 degrees as higher than the 39 degrees previously flown, both in [Vitelli and Hallion][research_hallion_1998]. The downrange relation is the weak half of the pair. It grows without bound as the entry speed approaches circular, through the factor $\ln(1/(1-u_e))$, and the documented entry speed lies above the circular speed the model uses,
 
 $$u_e = \left(\frac{26{,}808}{25{,}933}\right)^2 = 1.069 > 1$$
 
-where the relation has no finite value at all. The pair solve therefore rests on the assumed entry speed, and the record's bank angles show that it does not describe the flight.
+where the relation has no finite value at all. The pair solve therefore depends on the assumed entry speed, and the record's bank angles show that it does not describe the flight.
 
 **The crossrange alone, at a documented bank, is the firmer inversion.** Holding the bank fixed removes the downrange from the problem. At the second flight's 46 degrees, the exact integration needs a lift-to-drag ratio of 1.007 to reach the 654 miles, or 1,052.5 kilometres, that the narrative gives for that flight. The third flight's bank is not stated, and at either 39 or 46 degrees its 710 miles, 1,142.6 kilometres, need 1.053,
 
 $$y_\text{exact}\left(1.007,\ 46^\circ\right) = 1{,}052.5\ \text{km}, \qquad y_\text{exact}\left(1.053,\ 46^\circ\right) = 1{,}142.6\ \text{km}$$
 
-**The programme's own curve sits close to these values.** Figure 20 of the same history, presented among the quantities analysed from the flights, plots the SV-5D's trimmed hypersonic lift-to-drag ratio against angle of attack. Read from the figure, it rises to a maximum of about 1.1 near 20 degrees at 200,000 feet, against about 1.4 for the inviscid estimate, and falls to about 0.9 at 35 degrees, which is the angle of attack the fourth-flight memorandum gives for the flights already flown. The inversions, 1.007 and 1.053, lie between the curve's value at the flown angle of attack and its maximum, and Martin's 1.2 lies above the viscous curve everywhere.
+**The programme's own curve sits close to these values.** Figure 20 of the same history, presented among the quantities analysed from the flights, plots the SV-5D's trimmed hypersonic lift-to-drag ratio against angle of attack. Read from the figure, it rises to a maximum of about 1.1 near 20 degrees at 200,000 feet, against about 1.4 for the inviscid estimate, and falls to about 0.9 at 35 degrees, the angle of attack that the fourth-flight memorandum gives for the flights already flown. The inversions, 1.007 and 1.053, lie between the curve's value at the flown angle of attack and its maximum, and Martin's 1.2 lies above the viscous curve everywhere.
 
-**The record also disagrees with itself about the crossranges.** The narrative in [Vitelli and Hallion][research_hallion_1998] gives 654 miles for the second flight and more than 710 miles for the third, and [Heppenheimer][ref_heppenheimer_1999] also gives 710 miles for the third, which is the reading used here. The same history's summary table gives 499 and more than 710 nautical miles instead. Read as nautical miles, the third flight's crossrange is
+**The record also disagrees with itself about the crossranges.** The narrative in [Vitelli and Hallion][research_hallion_1998] gives 654 miles for the second flight and more than 710 miles for the third, and [Heppenheimer][ref_heppenheimer_1999] also gives 710 miles for the third. This article uses that reading. The same history's summary table gives 499 and more than 710 nautical miles instead. Read as nautical miles, the third flight's crossrange is
 
 $$710 \times 1.852 = 1{,}314.9\ \text{km}$$
 
@@ -347,9 +347,9 @@ and the inversion at a documented bank gives 1.14 rather than 1.05, while the se
 
 ### The Shape
 
-A lifting body carries its lift on its own volume instead of on wings. For a re-entry vehicle this is not an aesthetic choice. A wing is thin, and thin things have small radii, and small radii get hot, which is the subject of the survey's cluster on stagnation-point, convective and radiative heating. Removing the wing removes the worst heating problem and the structure that would have to survive it, at the cost of a lift-to-drag ratio that a winged vehicle would consider a failure.
+A lifting body generates its lift with its body instead of with wings. For a re-entry vehicle this is not an aesthetic choice. A wing is thin, and thin things have small radii, and small radii get hot. The survey's cluster on stagnation-point, convective and radiative heating treats that problem. Removing the wing removes the worst heating problem and the structure that would have to survive it, at the cost of a lift-to-drag ratio that a winged vehicle would consider a failure.
 
-The blunted half-cone family the SV-5 belongs to was worked out through the late 1950s and early 1960s, and its aerodynamics are documented in the survey's clusters on lifting bodies and on hypersonic aerodynamics. Holding such a shape at a chosen attitude through the whole speed range is its own subject, in [Magnus A Haw and Sebastian V Colom][research_magnus_a_haw_sebastian_v_colom], [Nonweiler 1959][research_nonweiler_1959], [Arabian 1960][research_arabian_1960], [Demetriades 1960][research_demetriades_1960], [Kaufman 1963][research_kaufman_1963], [Kaufman and Louis G. 1963][research_kaufman_louis_g_1963], [Kaufman and Louis G. 1963][research_kaufman_louis_g_1963_2], [Whitfield and Wolny 1963][research_whitfield_wolny_1963], [Flight Sciences Lab Inc Buffalo Ny 1964][research_flight_sciences_lab_inc_buffalo_ny_1964], [Kaufman and Louis G. 1964][research_kaufman_louis_g_1964], [Meckler 1964][research_meckler_1964], [Meckler 1965][research_meckler_1965], [Walchner and Clay 1965][research_walchner_clay_1965], [Kyriss and Rie 1967][research_kyriss_rie_1967], [Pottsepp and Shi 1968][research_pottsepp_shi_1968], [Walchner 1974][research_walchner_1974], [Compton et al 1983][research_compton_1983], [Markopoulos and Mease 1990][research_markopoulos_mease_1990], [Tarpley and Lewis 1993][research_tarpley_lewis_1993], [Brauckmann et al 1995][research_brauckmann_1995], [Reed 1997][research_reed_1997], [Nydick and Friedmann 1999][research_nydick_friedmann_1999], [Bowersox and Fan 2000][research_bowersox_fan_2000], [Groves et al 2005][research_groves_2005], [Stueber et al 2009][research_stueber_2009].
+The lifting-body shapes the SV-5 belongs to were worked out through the late 1950s and early 1960s, the SV-5D lying between the cone-like M2 and the modified delta HL-10, in [Hallion][ref_hallion_1984], and their aerodynamics are documented in the survey's clusters on lifting bodies and on hypersonic aerodynamics. Holding such a shape at a chosen attitude through the whole speed range is a separate subject, in [Magnus A Haw and Sebastian V Colom][research_magnus_a_haw_sebastian_v_colom], [Nonweiler 1959][research_nonweiler_1959], [Arabian 1960][research_arabian_1960], [Demetriades 1960][research_demetriades_1960], [Kaufman 1963][research_kaufman_1963], [Kaufman and Louis G. 1963][research_kaufman_louis_g_1963], [Kaufman and Louis G. 1963][research_kaufman_louis_g_1963_2], [Whitfield and Wolny 1963][research_whitfield_wolny_1963], [Flight Sciences Lab Inc Buffalo Ny 1964][research_flight_sciences_lab_inc_buffalo_ny_1964], [Kaufman and Louis G. 1964][research_kaufman_louis_g_1964], [Meckler 1964][research_meckler_1964], [Meckler 1965][research_meckler_1965], [Walchner and Clay 1965][research_walchner_clay_1965], [Kyriss and Rie 1967][research_kyriss_rie_1967], [Pottsepp and Shi 1968][research_pottsepp_shi_1968], [Walchner 1974][research_walchner_1974], [Compton et al 1983][research_compton_1983], [Markopoulos and Mease 1990][research_markopoulos_mease_1990], [Tarpley and Lewis 1993][research_tarpley_lewis_1993], [Brauckmann et al 1995][research_brauckmann_1995], [Reed 1997][research_reed_1997], [Nydick and Friedmann 1999][research_nydick_friedmann_1999], [Bowersox and Fan 2000][research_bowersox_fan_2000], [Groves et al 2005][research_groves_2005], [Stueber et al 2009][research_stueber_2009].
 
 ### Thermal Protection
 
@@ -357,11 +357,11 @@ The equilibrium glide fixes the density at every speed, because the force balanc
 
 $$\rho = \frac{2\beta_L(1-u)}{V^2\cos\phi}, \qquad \beta_L = \frac{W}{S\,C_L}$$
 
-so the heating history is a consequence of the trajectory and not a design choice. The companion quantity is the ballistic coefficient, which is the same construction on the drag side,
+so the heating history follows from the trajectory and leaves the designer no choice. The companion quantity is the ballistic coefficient, the same construction on the drag side,
 
 $$\beta = \frac{W}{S\,C_D}$$
 
-and the two stand in a fixed ratio, which is a useful consistency check on the assumed coefficients,
+and the two stand in a fixed ratio, and that ratio offers a useful consistency check on the assumed coefficients,
 
 $$\frac{\beta}{\beta_L} = \frac{C_L}{C_D} = \frac{L}{D}$$
 
@@ -399,19 +399,19 @@ $$\dot q_{s,\text{max}} = 1.7415\times 10^{-4}\sqrt{\frac{5.41\times 10^{-5}}{0.
 
 which is modest by the standards of a ballistic capsule and sustained for far longer.
 
-**That figure belongs to the equilibrium glide and not to the flight.** The programme's computed trajectory for a 700 nautical mile crossrange, figure 21 of [Vitelli and Hallion's history of the project][research_hallion_1998], is not an equilibrium glide. Read from the figure, its altitude oscillates through several cycles over about 1,200 seconds, and its stagnation heating rate peaks above 480 British thermal units per square foot per second in the first dip, about 200 seconds after entry, which is
+**That figure comes from the model glide and does not hold for the flight.** The programme's computed trajectory for a 700 nautical mile crossrange, figure 21 of [Vitelli and Hallion's history of the project][research_hallion_1998], is not an equilibrium glide. Read from the figure, its altitude oscillates through several cycles over about 1,200 seconds, and its stagnation heating rate peaks above 480 British thermal units per square foot per second in the first dip, about 200 seconds after entry, which is
 
 $$480 \times 1.1357 = 545\ \text{W/cm}^2$$
 
 or five times the equilibrium value. The same history notes that the heat flux on the small PRIME vehicles was considerably more extreme than larger operational vehicles would meet.
 
-**That correlation accounts for convection and not for radiation, and the omission is deliberate rather than careless.** Shock-layer radiation becomes a significant part of the heat load only above roughly ten kilometres per second, which is the regime of a lunar or interplanetary return rather than of an orbital one. PRIME entered at 8.2 kilometres per second, the 26,808 feet per second of the programme's ground-track chart, so the radiative term is small and the convective correlation carries the analysis. **At Apollo's entry speed it would not**, and the literature of that regime is [Christopher O Johnston][research_christopher_o_johnston], [Yoshikawa and Wick 1961][research_yoshikawa_wick_1961], [Koh 1962][research_koh_1962], [Nerem and Stickford 1964][research_nerem_stickford_1964], [Cooper 1966][research_cooper_1966], [Cooper 1966][research_cooper_1966_2], [Analytical, experimental, and developmental 1967][research_analytical_experimental_1967], [Bloor 1967][research_bloor_1967], [Engel and Spradley 1968][research_engel_spradley_1968], [Liu 1968][research_liu_1968], [Olstad 1969][research_olstad_1969], [Biberman et al 1972][research_biberman_1972], [Golovachev 1972][research_golovachev_1972], [Page and Woodward 1972][research_page_woodward_1972], [Edquist 1974][research_edquist_1974], [Sutton 1976][research_sutton_1976], [Golovachev 1979][research_golovachev_1979], [Nelson 1980][research_nelson_1980], [Nelson 1983][research_nelson_1983].
+**That correlation omits radiation, and the omission is deliberate.** Shock-layer radiation becomes a significant part of the heat load only above roughly ten kilometres per second, the regime of a lunar or interplanetary return. An orbital return stays below it. PRIME entered at 8.2 kilometres per second, the 26,808 feet per second of the programme's ground-track chart in [Vitelli and Hallion][research_hallion_1998], so the radiative term is small and the convective correlation carries the analysis. **At Apollo's entry speed it would not**, and the literature of that regime is [Christopher O Johnston][research_christopher_o_johnston], [Yoshikawa and Wick 1961][research_yoshikawa_wick_1961], [Koh 1962][research_koh_1962], [Nerem and Stickford 1964][research_nerem_stickford_1964], [Cooper 1966][research_cooper_1966], [Cooper 1966][research_cooper_1966_2], [Analytical, experimental, and developmental 1967][research_analytical_experimental_1967], [Bloor 1967][research_bloor_1967], [Engel and Spradley 1968][research_engel_spradley_1968], [Liu 1968][research_liu_1968], [Olstad 1969][research_olstad_1969], [Biberman et al 1972][research_biberman_1972], [Golovachev 1972][research_golovachev_1972], [Page and Woodward 1972][research_page_woodward_1972], [Edquist 1974][research_edquist_1974], [Sutton 1976][research_sutton_1976], [Golovachev 1979][research_golovachev_1979], [Nelson 1980][research_nelson_1980], [Nelson 1983][research_nelson_1983].
 
-**It is worth knowing where in the sky that happens.** Every altitude quoted here rests on a model of the atmosphere and not on a measurement, and the modelling of atmospheric density and its scale height is a subject with a long and careful literature of its own, gathered in the survey's cluster on the atmosphere that entry is computed against. Inverting an exponential atmosphere of scale height 7,160 metres,
+**The altitude of the peak follows from the density.** No altitude quoted here was measured. Each comes from a model of the atmosphere, and the modelling of atmospheric density and its scale height has a long and careful literature, which the survey collects in its cluster on the atmosphere that entry is computed against. Inverting an exponential atmosphere of scale height 7,160 metres,
 
 $$h = -H\ln\frac{\rho}{\rho_0} = -7{,}160\ln\left(4.42\times 10^{-5}\right) = 71.8\ \text{km}$$
 
-or about 236,000 feet. **The vehicle takes its worst heating some forty-five kilometres above where an airliner cruises and never comes near the speeds involved again.** Integrating the flux over the glide, using $dt = -(L/D)\cos\phi\,dV/(g(1-u))$, gives a closed form,
+or about 236,000 feet. **The vehicle takes its worst heating some seventy kilometres up and never comes near the speeds involved again.** Integrating the flux over the glide, using $dt = -(L/D)\cos\phi\,dV/(g(1-u))$, gives a closed form,
 
 $$Q = k\,\frac{L}{D}\sqrt{\cos\phi}\sqrt{\frac{2\beta_L}{R_n}}\frac{V_c^3}{g}\cdot\frac{\arcsin a - a\sqrt{1-a^2}}{2}$$
 
@@ -419,7 +419,7 @@ with $a = \sqrt{u_e}$, evaluating to 107 kilojoules per square centimetre. The s
 
 $$t = \frac{L}{D}\cos\phi\,\frac{V_c}{g}\,\text{artanh}\,\sqrt{u_e} = 1{,}452\ \text{s}$$
 
-**Twenty-four minutes.** That is the price of using the lift. A ballistic capsule is through the heating in two or three.
+**Twenty-four minutes.** That is the price of using the lift.
 
 A heat shield's thickness and a heat load together imply an effective heat of ablation,
 
@@ -429,7 +429,7 @@ At the thick end of the encyclopaedia's range, 2.75 inches at an assumed charrin
 
 $$\rho_\text{abl}t_\text{abl} = 550 \times 0.0699 = 38.4\ \text{kg/m}^2, \qquad H_\text{eff} = \frac{1.067\times 10^9}{38.4} = 27.8\ \text{MJ/kg}$$
 
-and at the thin end, 0.75 inches, it gives 102 megajoules per kilogram. **The primary record does not allow this to serve as a check.** The one heat load the programme states is a stagnation heat load of 7,000 British thermal units per square foot, planned for the fourth flight's harsher entry, in [Vitelli and Hallion][research_hallion_1998], which is
+and at the thin end, 0.75 inches, it gives 102 megajoules per kilogram. **The primary record does not allow this to serve as a check.** The one heat load the programme states appears in [Vitelli and Hallion][research_hallion_1998] as a stagnation heat load of 7,000 British thermal units per square foot, planned for the fourth flight's harsher entry, which is
 
 $$7{,}000 \times 11{,}357 = 7.95\times 10^7\ \text{J/m}^2 = 7.95\ \text{kJ/cm}^2$$
 
@@ -439,13 +439,13 @@ $$160 \times 300 = 48{,}000\ \text{BTU/ft}^2$$
 
 is a floor under the load that curve implies. The history also says the shield was conservative, since the SV-5D's shield could be redesigned for the same environment with substantial reductions in thickness and weight, and that its task was to hold the aluminium to 400 degrees Fahrenheit. **The thickness was set by insulation and margin rather than by the heat load**, so dividing a heat load by it measures neither the material nor the heating, and the two thicknesses cannot be assigned to the stagnation region and to lightly heated surfaces on this arithmetic.
 
-The materials themselves are gathered in the survey's cluster on ablation and thermal protection, which runs from the thermal protection of the Apollo command module in [Curry et al 1966][research_curry_1966] and the flight test of its heat shield material on the Pacemaker vehicle in [Graves and Witte 1968][research_graves_witte_1968] to thermal protection materials for re-entry in [Johnson et al 2001][research_johnson_2001]. The ablation physics is in the same cluster, and the flow conditions that set the heating, such as the real gas effects of hypersonic flow over blunt bodies in [Nagamatsu et al 1960][research_nagamatsu_1960] and the laminar boundary layer of dissociated air in [Beckwith and Cohen 1963][research_beckwith_cohen_1963], are in the cluster on hypersonic aerodynamics, flow fields and the boundary layer.
+The survey's cluster on ablation and thermal protection covers the materials, running from the thermal protection of the Apollo command module in [Curry et al 1966][research_curry_1966] and the flight test of its heat shield material on the Pacemaker vehicle in [Graves and Witte 1968][research_graves_witte_1968] to thermal protection materials for re-entry in [Johnson et al 2001][research_johnson_2001]. The ablation physics is in the same cluster, and the flow conditions that set the heating, such as the real gas effects of hypersonic flow over blunt bodies in [Nagamatsu et al 1960][research_nagamatsu_1960] and the laminar boundary layer of dissociated air in [Beckwith and Cohen 1963][research_beckwith_cohen_1963], are in the cluster on hypersonic aerodynamics, flow fields and the boundary layer.
 
 ### Control
 
-The vehicle's guidance task through the glide was to hold a bank angle. The second flight was programmed to hold 46 degrees from re-entry until terminal guidance began, one degree from the optimum derived above, and a ground-based terminal guidance system then steered toward the recovery point, in [Vitelli and Hallion][research_hallion_1998]. **The derivation above is the reason the glide law could be that simple.** Attitude was held by nitrogen reaction jets at high altitude and by flaps once the dynamic pressure was sufficient, as the description of the vehicle above records, and the reaction-jet literature of the period, such as the performance of low-thrust cold-gas jets in a vacuum in [Greer and Griep 1967][research_greer_griep_1967], is gathered in the survey's cluster on reaction control, attitude control and control surfaces. The guidance methods of the era, surveyed at the time in [Wingrove 1963][research_wingrove_1963], and the entry guidance later flown by the Shuttle, in [Harpold and Graves 1978][research_harpold_graves_1978], are gathered in the clusters on entry guidance and on the Space Shuttle orbiter, and the question of what ground the vehicle could reach, treated for orbital lifting re-entry vehicles in [Stern and Chu 1964][research_stern_chu_1964], is the subject of the cluster on crossrange, lateral range and the entry footprint.
+The vehicle's guidance task through the glide was to hold a bank angle. [Vitelli and Hallion][research_hallion_1998] report that the second flight was programmed to hold 46 degrees from re-entry until terminal guidance began, one degree from the optimum derived above, and that a ground-based terminal guidance system then steered toward the recovery point. **The derivation above explains why the glide law could be that simple.** Attitude was held by nitrogen reaction jets at high altitude and by flaps once the dynamic pressure was sufficient, as the description of the vehicle above records, and the reaction-jet literature of the period, such as the performance of low-thrust cold-gas jets in a vacuum in [Greer and Griep 1967][research_greer_griep_1967], falls within the survey's cluster on reaction control, attitude control and control surfaces. The guidance methods of the era, surveyed at the time in [Wingrove 1963][research_wingrove_1963], and the entry guidance later flown by the Shuttle, in [Harpold and Graves 1978][research_harpold_graves_1978], appear in the clusters on entry guidance and on the Space Shuttle orbiter, and the question of what ground the vehicle could reach, treated for orbital lifting re-entry vehicles in [Stern and Chu 1964][research_stern_chu_1964], is the subject of the cluster on crossrange, lateral range and the entry footprint.
 
-### Deceleration, and Why the Glide Is Gentle
+### Deceleration
 
 The same balance that sets the density sets the deceleration. In equilibrium glide it is
 
@@ -463,17 +463,17 @@ $$\frac{a}{g} = \frac{1}{1.2\cos 45^\circ} = 1.18$$
 
 $$a_\text{max} = \frac{V_e^2\sin\gamma_e}{2eH} = \frac{\left(8{,}171\right)^2\sin 2.03^\circ}{2e \times 7{,}160} = 60.8\ \text{m/s}^2 = 6.20\ g$$
 
-where $H$ is the atmospheric scale height. **The unlifted case is not a strawman**, since it is how every warhead and every early capsule came back, and it has a large literature of its own against which the lifting case is the departure, gathered in the survey's cluster on capsules and ballistic entry. The ratio is
+where $H$ is the atmospheric scale height. **The unlifted case is no strawman**, since ballistic warheads and the first capsules came back that way, and it has a large literature, collected in the survey's cluster on capsules and ballistic entry, from which the lifting case is the departure. The ratio is
 
 $$\frac{6.20}{1.18} = 5.25$$
 
-**A factor of about five.** The lift is not only buying crossrange. It is buying a far gentler deceleration, and for the piloted vehicles that this programme was clearing the way for, that was the more immediately valuable of the two.
+**A factor of about five.** The lift purchases a far gentler deceleration as well as crossrange, and for the piloted vehicles that this programme was clearing the way for, that was the more immediately valuable of the two.
 
-### Recovery, Which Is a Data Return System
+### Recovery as Data Return
 
-A vehicle that measures something and then sinks has measured nothing that cannot be telemetered. **The recovery system is therefore instrumentation**, and it is the part of PRIME that failed twice.
+A vehicle that measures something and then sinks has measured nothing that cannot be telemetered. **The recovery system is therefore instrumentation**, and twice it was the part of PRIME that failed.
 
-The sequence was a drogue ballute at about Mach 2 and 100,000 feet, then the main parachute at 45,000 to 50,000 feet, then mid-air retrieval by a JC-130B at about 10,000 feet, in [Vitelli and Hallion][research_hallion_1998], using the technique already in service for [returning film capsules][ref_corona]. The [encyclopaedia entry][ref_x23] gives the main parachute as 47 feet across, while the parachute drawing in the official history, its figure 17, marks a dimension of 32 feet labelled $D_p$.
+The sequence in [Vitelli and Hallion][research_hallion_1998] was a drogue ballute at about Mach 2 and 100,000 feet, then the main parachute at 45,000 to 50,000 feet, then mid-air retrieval by a JC-130B at about 10,000 feet, using the technique already in service for [returning film capsules][ref_corona]. The [encyclopaedia entry][ref_x23] gives the main parachute as 47 feet across, while the parachute drawing in the official history, its figure 17, marks a dimension of 32 feet labelled $D_p$.
 
 On the first flight the ballute deployed at 99,850 feet, or 30.4 kilometres, in [Vitelli and Hallion][research_hallion_1998], where the speed of sound follows from the local temperature,
 
@@ -483,7 +483,7 @@ so Mach 2 is 603 metres per second and the fabric has to be opened against a loa
 
 $$q = \tfrac{1}{2}\rho V^2 = \tfrac{1}{2} \times 0.0184 \times 603^2 = 3{,}350\ \text{Pa} = 70\ \text{lb/ft}^2$$
 
-**That is a mild load by supersonic-decelerator standards**, which is the point of deploying that high and that late.
+**That is a mild load by supersonic-decelerator standards**, and keeping it mild is the point of deploying that high and that late.
 
 The recovery parachute's area follows from its diameter,
 
@@ -493,7 +493,7 @@ and under it the vehicle descends at
 
 $$V_d = \sqrt{\frac{2W}{\rho\,C_D S_p}} = \sqrt{\frac{2 \times 3{,}977}{1.225 \times 0.75 \times 161}} = 7.33\ \text{m/s}$$
 
-or 24 feet per second at sea level. The recovery sequence specifies 25 feet per second at 10,000 feet, in [Vitelli and Hallion][research_hallion_1998], where the standard atmosphere's density is 0.9046 kilograms per cubic metre, and there the same relation gives
+or 24 feet per second at sea level. The recovery sequence in [Vitelli and Hallion][research_hallion_1998] specifies 25 feet per second at 10,000 feet, where the standard atmosphere's density is 0.9046 kilograms per cubic metre, and there the same relation gives
 
 $$V_d = 7.33\sqrt{\frac{1.225}{0.9046}} = 8.53\ \text{m/s} = 28.0\ \text{ft/s}$$
 
@@ -515,9 +515,9 @@ Four vehicles were built and three flew, launched by SLV-3 Atlas boosters from S
 
 The dates, crossranges and miss distances are those of [Vitelli and Hallion][research_hallion_1998], whose summary table gives the crossranges as 499 and more than 710 nautical miles instead, the disagreement discussed above.
 
-**The programme's three flights were a failure, a failure and a success, and it is important to be clear about what failed.** In neither of the first two cases did the vehicle fail to fly the entry. Both flew their profiles and both telemetered, and the telemetry recovered on the three flights was 91.2, 99.3 and 99.5 percent. What failed was the recovery chain, twice, in two different components. On the first flight the ballute deployed about 4,300 miles downrange and within 900 feet of the preselected point, but the main parachute was never pulled from its container, and a premature power shutdown had already disabled the flaps. On the second the explosive line cutters had been installed without their charges, a human error, so the vehicle hung nose down from three points instead of one and the aircraft did not attempt the catch. The third flight demonstrated the largest crossrange of the three and was the one that came back, and post-flight tests found it capable of flying again, all in [Vitelli and Hallion][research_hallion_1998].
+**The programme's three flights were a failure, a failure and a success, and what failed needs to be stated precisely.** In neither of the first two cases did the vehicle fail to fly the entry. Both flew their profiles and both telemetered, and the telemetry recovered on the three flights was 91.2, 99.3 and 99.5 percent. What failed was the recovery chain, twice, in two different components. On the first flight the ballute deployed about 4,300 miles downrange and within 900 feet of the preselected point, but the main parachute was never pulled from its container, and a premature power shutdown had already disabled the flaps. On the second the explosive line cutters had been installed without their charges, a human error, so the vehicle hung nose down from three points instead of one and the aircraft did not attempt the catch. The third flight demonstrated the largest crossrange of the three and was the one that came back, and post-flight tests found it capable of flying again, all in [Vitelli and Hallion][research_hallion_1998].
 
-**The record does not agree on how fast PRIME flew.** [Reed][research_r_dale_reed_1997] gives 14,900 miles an hour, [Hallion][ref_hallion_1984] 24,000 kilometres an hour, the [inventory of X-vehicles][ref_american_x_vehicles] about 16,500 miles an hour at re-entry, and [Heppenheimer][ref_heppenheimer_1999] a peak above 17,000. The programme's ground-track chart gives 26,808 feet per second at 400,000 feet on the third flight. The quoted values span
+**The record does not agree on how fast PRIME flew.** [Reed][research_r_dale_reed_1997] gives 14,900 miles an hour, [Hallion][ref_hallion_1984] 24,000 kilometres an hour, the [inventory of X-vehicles][ref_american_x_vehicles] about 16,500 miles an hour at re-entry, and [Heppenheimer][ref_heppenheimer_1999] a peak above 17,000. The programme's ground-track chart in [Vitelli and Hallion][research_hallion_1998] gives 26,808 feet per second at 400,000 feet on the third flight. The quoted values span
 
 $$14{,}900\ \text{mph} = 21{,}853\ \text{ft/s}, \qquad 26{,}808\ \text{ft/s} = 18{,}278\ \text{mph}$$
 
@@ -527,7 +527,7 @@ The vehicle that flew PRIME 3 is at the [National Museum of the United States Ai
 
 ## Comparison With Ground Prediction
 
-The equilibrium-glide model in this article is what could be computed with a slide rule in 1964, and it is worth being explicit about how well it does. **The comparison is only meaningful against what the period actually knew**, and the body of work it knew is large, since 581 of the survey's research records were published in 1967 or earlier.
+The equilibrium-glide model in this article is what could be computed with a slide rule in 1964, and this section sets out how well it does. **The comparison is only meaningful against what the period knew**, and the body of work it knew is large, since 581 of the survey's research records were published in 1967 or earlier.
 
 | Quantity | Model | Flight |
 |---|---|---|
@@ -543,15 +543,15 @@ The equilibrium-glide model in this article is what could be computed with a sli
 
 **The closed form is good to one percent at the lower of the two disputed lift-to-drag ratios, and that agreement is an accident of two errors cancelling.** The small-angle step over-predicts by eight percent and the assumed ratio is low by about the same, so the product comes out right for the wrong reason. Removing the approximation removes the coincidence and leaves the flight sitting between the two published figures.
 
-**That is the most instructive thing here about method rather than about the vehicle.** A model that agrees with a measurement to one percent is not thereby correct, and the way to find out is to improve the model and see whether the agreement survives. Here it did not.
+**Here the lesson concerns method more than the vehicle.** A model that agrees with a measurement to one percent is not thereby correct, and the way to find out is to improve the model and see whether the agreement survives. Here it did not.
 
-The comparison is weaker than it looks in one respect that must be said. PRIME entered at a shallow 2.03 degrees but above circular speed, and the programme's computed trajectory dips deep and then oscillates through several cycles of altitude rather than settling into an equilibrium glide, in figures 19 and 21 of [Vitelli and Hallion][research_hallion_1998]. The model describes the mission being simulated more faithfully than the trajectory actually flown.
+The comparison is weaker than it looks in one respect that must be said. PRIME entered at a shallow 2.03 degrees but above circular speed, and the programme's computed trajectory dips deep and then oscillates through several cycles of altitude rather than settling into an equilibrium glide, in figures 19 and 21 of [Vitelli and Hallion][research_hallion_1998]. The model describes the mission being simulated more faithfully than the trajectory flown.
 
 ## What the Data Changed
 
-PRIME fed the X-24A directly. The same shape, at larger scale and with a pilot, first flew at Edwards on 17 April 1969, in the [inventory of X-vehicles][ref_american_x_vehicles], and [McTigue][research_john_g_mctigue_1970] describes the X-24A as having evolved from the SV-5 PRIME vehicle. The SV-5D's external shape was held rigorously to the SV-5 configuration so that its data would serve larger vehicles, in [Vitelli and Hallion][research_hallion_1998], and between them the two programmes flew the one shape from Mach 24 to Mach 2.0 and from Mach 1.6 to landing, in [Reed][research_r_dale_reed_1997], though the fourth-flight memorandum puts the end of PRIME's flights at Mach 2.4. The vehicles that followed, and the manned entry programmes this one was clearing ground for, are [Driscoll et al 1966][research_driscoll_1966], [Mueller et al 1967][research_george_e_mueller_1967], [Minott et al 1976][research_minott_1976], [Duggan 1977][research_duggan_1977], [Space Shuttle maiden 1979][research_space_shuttle_1979], [Waldrop 1980][research_waldrop_1980], [Grooms et al 1984][research_grooms_1984], [Joosten 1985][research_joosten_1985], [Logsdon 1986][research_logsdon_1986], [Space shuttle log 1986][research_space_shuttle_1986], [Space shuttle flight rates 1987, Space shuttle flight rates and ut][research_space_shuttle_1987_2], [Space shuttle setback 1987, Space shuttle setback][research_space_shuttle_1987_3], [Brookfield et al 1989][research_brookfield_1989], [Whitesides et al 1990][research_whitesides_1990], [Ware et al 1991][research_ware_1991], [Cruz and Ware 1992][research_cruz_ware_1992], [Sawko and Goldstein 1992][research_sawko_goldstein_1992], [Iliff and Shafer 1993][research_iliff_shafer_1993], [Pielke 1993][research_pielke_1993], [Ware and Cruz 1993][research_ware_cruz_1993], [Pielke 1994][research_pielke_1994], [Chaudhary et al 2001][research_chaudhary_2001], [Straube et al 2002][research_straube_2002], [McCluskey 2004][research_mccluskey_2004].
+PRIME fed the X-24A directly. The same shape, at larger scale and with a pilot, first flew at Edwards on 17 April 1969, in the [inventory of X-vehicles][ref_american_x_vehicles], and [McTigue][research_john_g_mctigue_1970] describes the X-24A as having evolved from the SV-5 PRIME vehicle. [Vitelli and Hallion][research_hallion_1998] state that the SV-5D's external shape was held rigorously to the SV-5 configuration so that its data would serve larger vehicles. Between them the two programmes flew the one shape from Mach 24 to Mach 2.0 and from Mach 1.6 to landing, in [Reed][research_r_dale_reed_1997], though the fourth-flight memorandum puts the end of PRIME's flights at Mach 2.4. The vehicles that followed, and the manned entry programmes this one was clearing ground for, are [Driscoll et al 1966][research_driscoll_1966], [Mueller et al 1967][research_george_e_mueller_1967], [Minott et al 1976][research_minott_1976], [Duggan 1977][research_duggan_1977], [Space Shuttle maiden 1979][research_space_shuttle_1979], [Waldrop 1980][research_waldrop_1980], [Grooms et al 1984][research_grooms_1984], [Joosten 1985][research_joosten_1985], [Logsdon 1986][research_logsdon_1986], [Space shuttle log 1986][research_space_shuttle_1986], [Space shuttle flight rates 1987, Space shuttle flight rates and ut][research_space_shuttle_1987_2], [Space shuttle setback 1987, Space shuttle setback][research_space_shuttle_1987_3], [Brookfield et al 1989][research_brookfield_1989], [Whitesides et al 1990][research_whitesides_1990], [Ware et al 1991][research_ware_1991], [Cruz and Ware 1992][research_cruz_ware_1992], [Sawko and Goldstein 1992][research_sawko_goldstein_1992], [Iliff and Shafer 1993][research_iliff_shafer_1993], [Pielke 1993][research_pielke_1993], [Ware and Cruz 1993][research_ware_cruz_1993], [Pielke 1994][research_pielke_1994], [Chaudhary et al 2001][research_chaudhary_2001], [Straube et al 2002][research_straube_2002], [McCluskey 2004][research_mccluskey_2004].
 
-**The larger consequence is the Space Shuttle's crossrange requirement, and there is an arithmetic connection worth showing.** The requirement, the entry it drove, and the guidance built to fly it are documented at length, in [Adams 1971][research_adams_1971], [Dejarnette and Jones 1971][research_dejarnette_jones_1971], [Deyst et al 1971][research_deyst_1971], [Deyst et al 1971][research_deyst_1971_2], [Deyst et al 1972][research_deyst_1972], [McGlathery 1973][research_mcglathery_1973], [Space shuttle guidance, navigation 1973][research_space_shuttle_1973], [Stolarski et al 1974][research_stolarski_1974], [Kriegsman and Tao 1975][research_kriegsman_tao_1975], [Ramnath and Sinha 1975][research_ramnath_sinha_1975], [Jeffs 1979][research_jeffs_1979], [Emero 1980][research_emero_1980], [Park and Rakich 1980][research_park_rakich_1980], [Rowell et al 1980][research_rowell_1980], [Iliff et al 1981][research_iliff_1981], [Compton et al 1982][research_compton_1982], [Fraser 1983][research_fraser_1983], [Kanipe 1983][research_kanipe_1983], [Romere and Young 1983][research_romere_young_1983], [Romere et al 1983][research_romere_1983], [Bayle 1984][research_bayle_1984], [Campbell et al 1989][research_campbell_1989], [Rosello 1995][research_rosello_1995], [Restrepo and Valasek 2006][research_restrepo_valasek_2006], [Campbell 2007][research_campbell_2007], [Wood and Alter 2008][research_wood_alter_2008]. The Shuttle was required to achieve 1,100 nautical miles of crossrange, a figure that came from the Air Force and was driven by a once-around polar mission returning to its launch site, in [Heppenheimer's history of the Space Shuttle decision][ref_heppenheimer_1999], who gives the reason in the same terms, that after one orbit from Vandenberg the base has moved 1,100 nautical miles to the east. The launch site moves with the Earth, so in one orbit it displaces by the full track spacing at its own latitude rather than half of it,
+**The larger consequence is the Space Shuttle's crossrange requirement, and the arithmetic connects the two.** The requirement, the entry it drove, and the guidance built to fly it are documented at length, in [Adams 1971][research_adams_1971], [Dejarnette and Jones 1971][research_dejarnette_jones_1971], [Deyst et al 1971][research_deyst_1971], [Deyst et al 1971][research_deyst_1971_2], [Deyst et al 1972][research_deyst_1972], [McGlathery 1973][research_mcglathery_1973], [Space shuttle guidance, navigation 1973][research_space_shuttle_1973], [Stolarski et al 1974][research_stolarski_1974], [Kriegsman and Tao 1975][research_kriegsman_tao_1975], [Ramnath and Sinha 1975][research_ramnath_sinha_1975], [Jeffs 1979][research_jeffs_1979], [Emero 1980][research_emero_1980], [Park and Rakich 1980][research_park_rakich_1980], [Rowell et al 1980][research_rowell_1980], [Iliff et al 1981][research_iliff_1981], [Compton et al 1982][research_compton_1982], [Fraser 1983][research_fraser_1983], [Kanipe 1983][research_kanipe_1983], [Romere and Young 1983][research_romere_young_1983], [Romere et al 1983][research_romere_1983], [Bayle 1984][research_bayle_1984], [Campbell et al 1989][research_campbell_1989], [Rosello 1995][research_rosello_1995], [Restrepo and Valasek 2006][research_restrepo_valasek_2006], [Campbell 2007][research_campbell_2007], [Wood and Alter 2008][research_wood_alter_2008]. The Shuttle was required to achieve 1,100 nautical miles of crossrange, a figure that came from the Air Force and was driven by a once-around polar mission returning to its launch site, in [Heppenheimer's history of the Space Shuttle decision][ref_heppenheimer_1999], who gives the reason in the same terms, that after one orbit from Vandenberg the base has moved 1,100 nautical miles to the east. The launch site moves with the Earth, so in one orbit it displaces by the full track spacing at its own latitude rather than half of it,
 
 $$d_\text{VAFB} = R\,\Delta\lambda\cos\varphi = 6.371\times 10^6 \times 0.3937 \times \cos 34.74^\circ = 2{,}061\ \text{km}$$
 
@@ -577,25 +577,25 @@ The programme is also a data point about unmanned research vehicles, which the d
 
 ## A Designation That Was Never Requested
 
-The vehicle in the museum is labelled X-23A. The encyclopaedias call it the X-23A, and so do NASA's histories. [Hallion's history of the Dryden centre][ref_hallion_1984] says the Air Force ordered four SV-5D vehicles and designated them X-23A, [Reed][research_r_dale_reed_1997] says the same, and the [NASA inventory of American X-vehicles][ref_american_x_vehicles] lists the vehicle as the X-23. **The nomenclature records, as reported by the [standard reference on United States military aircraft designations][ref_designation_missing], show that the designation was never assigned, and further that it was never requested.**
+The encyclopaedias call it the X-23A, and so do NASA's histories. [Hallion's history of the Dryden centre][ref_hallion_1984] says the Air Force ordered four SV-5D vehicles and designated them X-23A, [Reed][research_r_dale_reed_1997] says the same, and the [NASA inventory of American X-vehicles][ref_american_x_vehicles] lists the vehicle as the X-23. **The nomenclature records, as reported by the [standard reference on United States military aircraft designations][ref_designation_missing], show that the designation was never assigned, and further that it was never requested.**
 
 The sequence, which is stranger than a simple omission, runs as follows.
 
 On **16 November 1965** a request was submitted for the designation X-23A. It was submitted for the **SV-5P**, the piloted low-speed vehicle, and the vehicle description accompanying the request clearly described a manned lifting-body aircraft flying from Mach 2 to landing.
 
-On **15 December 1965** the request was disapproved, **on the ground that the subject aircraft was unmanned**. At that date the designation system applied to manned aircraft only, so the reason was a valid one in general. It was simply not true of this aircraft, and the paperwork accompanying the request said so.
+On **15 December 1965** the request was disapproved, **on the ground that the subject aircraft was unmanned**. At that date the designation system applied to manned aircraft only, so the reason was a valid one in general. It was not true of this aircraft, and the paperwork accompanying the request said so.
 
-In **late 1966** the offices responsible reconsidered the whole question. A proposal to create an entirely new designation category for gliding re-entry vehicles was raised and abandoned. The decision instead was to request X-23A for the unmanned SV-5D and X-24A for the piloted SV-5P. **X-24A was requested and approved. No request for X-23A appears ever to have been sent.**
+In **late 1966** the offices responsible reconsidered the question. A proposal to create an entirely new designation category for gliding re-entry vehicles was raised and abandoned. The decision instead was to request X-23A for the unmanned SV-5D and X-24A for the piloted SV-5P. **X-24A was requested and approved. No request for X-23A appears ever to have been sent.** The sequence is documented in the [standard reference on designations][ref_designation_missing].
 
 The reason is not recorded. The plausible reading, offered as a reading and not as a finding, is that having been told a year earlier that unmanned aircraft need no designation, nobody saw the point of asking.
 
-**Three things about this are worth separating.**
+**Three points here should be kept separate.**
 
 **First, the designation is in universal use and is not official.** This article uses it, as its title does, because refusing to would make the vehicle harder to find without making it more accurately described.
 
 **Second, the disapproval was wrong on its facts.** The 1965 refusal turned on the vehicle being unmanned, and the vehicle in that request was the piloted one. The manned vehicle was refused a number for being unmanned, and a year later received a different number for being manned.
 
-**Third, and most useful to this series, the system briefly considered growing a new limb and did not.** A separate designation category for gliding re-entry vehicles was proposed and dropped. **The X-series absorbed the problem instead, informally and without paperwork**, which is a small piece of evidence about how the designation system actually accommodated things it was not built for. The series' closing article argues that the designation system is not a counter. This is one of the cases that argument rests on, and it should be read alongside the reserved-but-never-allocated X-39 and the refused X-52.
+**Third, and most useful to this series, the system briefly considered growing a new limb and did not.** A separate designation category for gliding re-entry vehicles was proposed and dropped. **The X-series absorbed the problem instead, informally and without paperwork.** The episode is a small piece of evidence about how the designation system accommodated things it was not built for. The series' closing article argues that the designation system is not a counter. This is one of the cases behind that argument, and it should be read alongside the reserved-but-never-allocated X-39 and the refused X-52, both in the [standard reference on designations][ref_designation_missing].
 
 **This article states the conflict and does not resolve it.** The records say the number was never assigned. The world says the vehicle is the X-23A. Both statements are true about different things, and collapsing them would destroy the evidence.
 
@@ -631,9 +631,9 @@ The field as it currently stands is large, since 2,237 of the survey's research 
 
 ### The Vehicles It Was Built For Gave the Capability Up
 
-**Every crewed spacecraft flying today comes home the way Mercury did.** Orion, Dragon, Soyuz and Shenzhou are blunt capsules on parachutes, and the literature of that choice is gathered below under capsules and ballistic entry.
+**Every crewed spacecraft flying to orbit today comes home as a blunt capsule, as Mercury did.** The Space Shuttle is the only crewed spaceplane to have flown in orbit, and Orion, Dragon, Soyuz and Shenzhou are the current capsules, in the [encyclopaedia entry on space capsules][ref_space_capsule], and the literature of that choice is gathered below under capsules and ballistic entry.
 
-This article's own relation is still the quickest way to see what that costs. A blunt capsule trims at a lift-to-drag ratio near 0.3, a nominal value assumed here, and the crossrange that buys is
+The relation derived here is still the quickest way to see what that costs. A blunt capsule trims at a lift-to-drag ratio near 0.3, a nominal value assumed here, and the crossrange it yields is
 
 $$y = \pi^2/48 \times 0.3^2 \times 6.371\times 10^6 = 118\ \text{km}$$
 
@@ -654,17 +654,17 @@ The ratios in the table are nominal values assumed for illustration. The lifting
 | The Space Shuttle orbiter | 1.10 | 1,447 km |
 | The X-24A | 1.40 | 2,233 km |
 
-**The regression is not a failure of engineering. It is the requirement disappearing.** The once-around polar mission that generated the Shuttle's 1,100 nautical miles was an Air Force requirement, and when it lapsed nothing else needed that number. An ocean landing needs no runway, a parachute weighs less than a wing, and a capsule's heat shield is a simpler object than an orbiter's. **The Shuttle's wing was the last time crossrange drove a crewed vehicle's shape**, and PRIME is part of the reason that wing could be drawn with confidence.
+**The regression came from the requirement disappearing, and engineering did not fail.** The once-around polar mission that generated the Shuttle's 1,100 nautical miles was an Air Force requirement, in [Heppenheimer][ref_heppenheimer_1999], and when Shuttle operations from Vandenberg were cancelled before they began, in the [history of Space Launch Complex 6][ref_vandenberg_slc6], nothing else needed that number. An ocean landing needs no runway, a parachute weighs less than a wing, and a capsule's heat shield is a simpler object than an orbiter's. **The Shuttle's wing was the last time crossrange drove a crewed vehicle's shape**, and PRIME is part of the reason that wing could be drawn with confidence.
 
 ### Crossrange Became a Weapon's Virtue
 
-The capability did not disappear. It moved, to the literature gathered below under hypersonic glide vehicles, their tracking and their interception.
+The capability did not disappear. It moved to weapons, whose literature appears below under hypersonic glide vehicles, their tracking and their interception.
 
-**A hypersonic glide vehicle wants lateral range for exactly the reason a spacecraft did not.** A returning spacecraft wanted to reach a chosen site. A glide vehicle wants a trajectory that cannot be extrapolated, because an interceptor must be committed early and a manoeuvring target invalidates the prediction it was committed against. The literature reflects that inversion precisely, being largely about estimating and tracking a manoeuvring entry body, where the period literature was about designing one.
+**A hypersonic glide vehicle wants lateral range for exactly the reason a spacecraft did not.** A returning spacecraft wanted to reach a chosen site. A glide vehicle wants a trajectory that cannot be extrapolated, because an interceptor must be committed early and a manoeuvring target invalidates the prediction it was committed against. The literature reflects that inversion, being largely about estimating and tracking a manoeuvring entry body, where the period literature was about designing one.
 
-**The relation is the same and the motive is not, and it is worth noticing that the equation cannot tell the difference.** The derivation above contains nothing that distinguishes a landing site from an evasive manoeuvre.
+**The relation is the same and the motive is not, and the equation cannot tell the difference.** The derivation above contains nothing that distinguishes a landing site from an evasive manoeuvre.
 
-There is a limit worth stating, and it constrains the treatment given here and not the literature. A slender glide vehicle may reach a lift-to-drag ratio of 2.5, and the closed form would offer 8,187 kilometres for it. **That number should not be believed.** At such a ratio the closed form over-predicts by 41 percent, the accumulated heading change passes 400 degrees, and even the exact constant-bank integration is describing a trajectory nobody would fly. **The relation that describes PRIME does not describe its successors**, and saying so is more useful than extrapolating it past its own assumptions.
+One limit constrains the treatment given here, though not the literature. A slender glide vehicle may reach a lift-to-drag ratio of 2.5, which [Reed][research_r_dale_reed_1997] reports for the slender lifting bodies, and the closed form would offer 8,187 kilometres for it. **That number should not be believed.** At such a ratio the closed form over-predicts by 41 percent, the accumulated heading change passes 400 degrees, and even the exact constant-bank integration is describing a trajectory no vehicle would fly. **The relation that describes PRIME does not describe its successors**, and saying so is more useful than extrapolating it past its assumptions.
 
 ### The Computation Became Free
 
@@ -672,25 +672,25 @@ There is a limit worth stating, and it constrains the treatment given here and n
 
 The crossrange relation derived above is a closed form obtained by forcing the trajectory to be an equilibrium glide at constant bank. That was necessary in 1964 because the alternative was unaffordable. The modern equivalent solves the trajectory numerically, onboard, in real time, and increasingly by convex optimisation whose convergence can be guaranteed rather than hoped for. **It arrives at very nearly the same answer, because the physics did not move.**
 
-**The closed form's role has changed rather than ended.** It is no longer how a vehicle is sized. It is how the answer from the optimiser is checked, which is exactly the use made of it above.
+**The closed form's role has changed rather than ended.** It is no longer how a vehicle is sized. It is now how an optimiser's answer is checked, the same use made of it above.
 
 ### The Ablator Is Computed Rather Than Tested
 
-**The 1960s route to a heat shield thickness was arc-jet testing and margin.** The modern route computes the material response, in [Arnold et al 2013][research_arnold_2013], [Li et al 2015][research_li_2015_8], [Milos et al 2015][research_milos_2015], [Chen 2016][research_chen_2016], [Kumar and Mahulikar 2016][research_kumar_mahulikar_2016_2], [Brune et al 2017][research_brune_2017], [Harpale et al 2018][research_harpale_2018], [Meurisse et al 2018][research_meurisse_2018], [Cinquegrana et al 2019][research_cinquegrana_2019], [Gulli and Maddalena 2019][research_gulli_maddalena_2019], [Rivier et al 2019][research_rivier_2019], [Wang et al 2019][research_wang_2019_5], [Shilav and Khosid 2020][research_shilav_khosid_2020], [Pratibha Raghunandan et al 2021][research_pratibha_raghunandan_2021], [Hasan 2022][research_hasan_2022], [He et al 2022][research_he_2022], [Price et al 2022][research_price_2022], [Chinnaraj et al 2023][research_chinnaraj_2023], [He et al 2023][research_he_2023], [Lai and Leu 2023][research_lai_leu_2023], [Lai and Leu 2023][research_lai_leu_2023_2], [Scandelli et al 2023][research_scandelli_2023], [Chen and Gökçen 2024][research_chen_gokcen_2024], [Yang et al 2024][research_yang_2024_2], [Price et al 2025][research_price_2025], [Wang et al 2025][research_wang_2025_3], [Cutrone et al 2026][research_cutrone_2026], [Zibitsker and Martin 2026][research_zibitsker_martin_2026].
+**The 1960s route to a heat shield thickness was arc-jet testing and margin.** [Vitelli and Hallion][research_hallion_1998] write that PRIME's design procedures rested on a mathematical model and plasma arc testing and that its shield proved conservative. The modern route computes the material response, in [Arnold et al 2013][research_arnold_2013], [Li et al 2015][research_li_2015_8], [Milos et al 2015][research_milos_2015], [Chen 2016][research_chen_2016], [Kumar and Mahulikar 2016][research_kumar_mahulikar_2016_2], [Brune et al 2017][research_brune_2017], [Harpale et al 2018][research_harpale_2018], [Meurisse et al 2018][research_meurisse_2018], [Cinquegrana et al 2019][research_cinquegrana_2019], [Gulli and Maddalena 2019][research_gulli_maddalena_2019], [Rivier et al 2019][research_rivier_2019], [Wang et al 2019][research_wang_2019_5], [Shilav and Khosid 2020][research_shilav_khosid_2020], [Pratibha Raghunandan et al 2021][research_pratibha_raghunandan_2021], [Hasan 2022][research_hasan_2022], [He et al 2022][research_he_2022], [Price et al 2022][research_price_2022], [Chinnaraj et al 2023][research_chinnaraj_2023], [He et al 2023][research_he_2023], [Lai and Leu 2023][research_lai_leu_2023], [Lai and Leu 2023][research_lai_leu_2023_2], [Scandelli et al 2023][research_scandelli_2023], [Chen and Gökçen 2024][research_chen_gokcen_2024], [Yang et al 2024][research_yang_2024_2], [Price et al 2025][research_price_2025], [Wang et al 2025][research_wang_2025_3], [Cutrone et al 2026][research_cutrone_2026], [Zibitsker and Martin 2026][research_zibitsker_martin_2026].
 
 That is the largest single practical change in the subject. The cross-check performed earlier in this article, inverting a published thickness to recover an effective heat of ablation of 27.8 megajoules per kilogram, is the crude version of what a material response code now does properly, with pyrolysis chemistry, in-depth conduction and a quantified uncertainty on the answer. **Arc-jet testing did not go away. It became validation instead of design.**
 
-### Lifting Bodies Came Back, and Not as Aircraft
+### Lifting Bodies Came Back Mostly Uncrewed
 
-The shape survived, in the work gathered below under lifting bodies and the SV-5 family and under reusable launch vehicles, spaceplanes and booster return.
+The shape survived, and the clusters below on lifting bodies and the SV-5 family and on reusable launch vehicles, spaceplanes and booster return record that work.
 
-**What is flying now is closer to PRIME than to the X-24A**, in the sense that it is mostly uncrewed and mostly automatic. Alongside them sits a genuinely new idea the 1960s did not have, which is the deployable or inflatable aeroshell that packs small and opens to a large low-ballistic-coefficient decelerator. **That attacks the problem from the opposite end.** PRIME lowered its ballistic coefficient to 60 pounds per square foot by being light. A deployable aeroshell lowers it by growing.
+**What is flying now is closer to PRIME than to the X-24A**, in the sense that it is mostly uncrewed and mostly automatic. Alongside them sits the deployable or inflatable aeroshell that packs small and opens to a large low-ballistic-coefficient decelerator. **That attacks the problem from the opposite end.** PRIME lowered its ballistic coefficient to 60 pounds per square foot by being light. A deployable aeroshell lowers it by growing.
 
 ### Catching Things in the Air Is Now Routine
 
-**The part of PRIME that failed twice in three flights is the part that has been most thoroughly vindicated**, as the cluster below on parachutes, decelerators and recovery shows.
+**The part of PRIME that failed twice in three flights is the part that has been most thoroughly vindicated.** The cluster below on parachutes, decelerators and recovery documents that outcome.
 
-Mid-air retrieval by helicopter has since been demonstrated on a returning orbital booster, and the supersonic parachute work that Mars entry demanded has produced a decelerator literature far deeper than anything available in 1967. **The technique outlived the aerodynamics**, which is not the outcome anyone would have predicted from a programme that lost two vehicles to reefing cutters and a parachute that did not fully open.
+Mid-air retrieval by helicopter has since been demonstrated on a returning orbital booster, in the [encyclopaedia entry on mid-air retrieval][ref_mid_air_retrieval], and the supersonic parachute work that Mars entry demanded has produced a decelerator literature far deeper than anything available in 1967. **The technique outlived the aerodynamics**, which is not the outcome anyone would have predicted from a programme that lost two vehicles to a main parachute that never left its container and to line cutters fitted without their charges, in [Vitelli and Hallion][research_hallion_1998].
 
 ### The Footprint Became a Safety Calculation
 
@@ -712,11 +712,11 @@ The decades between PRIME and the current revival were not empty, and 1,411 of t
 
 ### What the Survey Shows
 
-**The arithmetic has not moved at all.** Crossrange still goes as the square of the lift-to-drag ratio, the optimal bank angle is still 45 degrees, the footprint still goes as the cube, and the once-per-orbit requirement is still about a lift-to-drag ratio of one. Nothing in the modern literature disputes any of that, and most of it does not restate it because it is assumed.
+**The arithmetic has not moved at all.** Crossrange still goes as the square of the lift-to-drag ratio, the optimal bank angle is still 45 degrees, the footprint still goes as the cube, and the once-per-orbit requirement is still about a lift-to-drag ratio of one.
 
 **What moved twice is the requirement.** It went from the Air Force wanting a spacecraft that could come home on the next pass, to nobody wanting that and crewed vehicles giving up ninety-one percent of the capability, to a different community wanting lateral range specifically because it defeats prediction.
 
-**And the thing PRIME was worst at turned out to be the thing that lasted.** The programme lost two of three vehicles to the recovery system. Mid-air retrieval is now a demonstrated commercial technique, and the aerodynamic configuration it was carrying is not flown by anyone.
+**And the thing PRIME was worst at turned out to be the thing that lasted.** The programme lost two of three vehicles to the recovery system. Mid-air retrieval is now a demonstrated commercial technique, in the [encyclopaedia entry on mid-air retrieval][ref_mid_air_retrieval], and the aerodynamic configuration it was carrying is not flown by anyone.
 
 ### Parachutes, decelerators and recovery
 
@@ -842,13 +842,13 @@ The decades between PRIME and the current revival were not empty, and 1,411 of t
 
 **Treating PRIME through crossrange alone gets the programme wrong in at least three ways.**
 
-**The vehicle was not only a manoeuvring experiment.** It carried a heat shield the programme wanted measured, and ASSET had already been devoted to exactly that. The sources disagree on how far PRIME was a heating experiment. The official history lists the acquisition of heat shield and aerodynamic data first among the five flight objectives, in [Vitelli and Hallion][research_hallion_1998], while [Heppenheimer][ref_heppenheimer_1999] says that PRIME did not attempt to produce heating data because ASSET had covered it. Heating and manoeuvring were both objectives and the article's keystone selects one. The wider class of vehicles it belongs to, most of which never manoeuvred at all, is gathered in the survey's cluster on capsules and ballistic entry, and the field it sits inside is the survey as a whole.
+**The vehicle was not only a manoeuvring experiment.** It carried a heat shield the programme wanted measured, and ASSET had already been devoted to structures and heating. The sources disagree on how far PRIME was a heating experiment. The official history lists the acquisition of heat shield and aerodynamic data first among the five flight objectives, in [Vitelli and Hallion][research_hallion_1998], while [Heppenheimer][ref_heppenheimer_1999] says that PRIME did not attempt to produce heating data because ASSET had covered it. Heating and manoeuvring were both objectives and the article's keystone selects one. The wider class of entry vehicles, most of which never manoeuvred at all, fills the survey's cluster on capsules and ballistic entry, and the field it sits inside is the survey as a whole.
 
-**The equilibrium glide is not what it flew.** The model assumes a smooth glide that begins below circular speed. PRIME entered at 2.03 degrees from 400,000 feet, faster than the circular speed the model uses, and the programme's computed trajectory dips and oscillates rather than gliding in equilibrium, so it reached the crossrange it did under conditions the model describes only approximately. That the numbers agree to one percent at the lower disputed lift-to-drag ratio is encouraging and is not proof.
+**The equilibrium glide is not what it flew.** The model assumes a smooth glide that begins below circular speed. PRIME entered at 2.03 degrees from 400,000 feet, faster than the circular speed the model uses, and the programme's computed trajectory dips and oscillates rather than gliding in equilibrium, so it reached the crossrange it did under conditions the model describes only approximately, in [Vitelli and Hallion][research_hallion_1998]. That the numbers agree to one percent at the lower disputed lift-to-drag ratio is encouraging and is not proof.
 
-**The reference area is derived, not published.** Everything in the thermal section inherits that. The crossrange result does not, which is why it is the keystone and the heating is not.
+**The reference area is derived, not published.** Everything in the thermal section inherits that. The crossrange result does not, and for that reason the crossrange is the keystone and the heating is not.
 
-There is also a fourth, about the article's own framing. **A vehicle whose recovery system failed twice in three flights is a programme about recovery at least as much as about entry**, and it gets one short section here.
+A fourth concerns the article's framing. **A vehicle whose recovery system failed twice in three flights is a programme about recovery at least as much as about entry**, and it gets one short section here.
 
 ## The Source Base
 
@@ -894,9 +894,9 @@ There is also a fourth, about the article's own framing. **A vehicle whose recov
 
 ## Epistemic State
 
-**Historical fact, as reported by the accessible record.** The SV-5D PRIME was built by Martin Marietta for the United States Air Force under the START programme. Four were built, three were launched on SLV-3 Atlas boosters from Vandenberg on 21 December 1966, 5 March 1967 and 19 April 1967, and the fourth flight was cancelled on 12 May 1967. The first two were lost to recovery-system failures and the third was recovered in mid-air by a JC-130B at 12,000 feet. The crossranges flown were zero, 654 miles and more than 710 miles in the official history's narrative, taken here as 1,053 and 1,143 kilometres, while its summary table gives 499 and more than 710 nautical miles. The second flight held a constant bank of 46 degrees until terminal guidance. The third re-entered at 400,000 feet, 26,808 feet per second and 2.03 degrees, 1,360 nautical miles from launch. Martin's design figure for the hypersonic lift-to-drag ratio was 1.2 or better. The vehicle was 6 feet 8 inches long, and its recorded weights run from about 800 to 895 pounds, with 894 used here. The surviving vehicle is at the National Museum of the United States Air Force.
+**Historical fact, as reported by the accessible record.** The SV-5D PRIME was built by Martin Marietta for the United States Air Force under the START programme. Four were built, three were launched on SLV-3 Atlas boosters from Vandenberg on 21 December 1966, 5 March 1967 and 19 April 1967, and the fourth flight was cancelled on 12 May 1967. The first two were lost to recovery-system failures and the third was recovered in mid-air by a JC-130B at 12,000 feet. The crossranges flown were zero, 654 miles and more than 710 miles in the official history's narrative, taken here as 1,053 and 1,143 kilometres, while its summary table gives 499 and more than 710 nautical miles. The second flight held a constant bank of 46 degrees until terminal guidance. The third re-entered at 400,000 feet, 26,808 feet per second and 2.03 degrees, 1,360 nautical miles from launch. Martin's design figure for the hypersonic lift-to-drag ratio was 1.2 or better. All of this is in [Vitelli and Hallion][research_hallion_1998]. The vehicle was 6 feet 8 inches long, and its recorded weights run from about 800 to 895 pounds, with 894 used here. The surviving vehicle is at the National Museum of the United States Air Force.
 
-**Historical fact, on the designation.** The nomenclature record shows a request for X-23A submitted on 16 November 1965 for the SV-5P, disapproved on 15 December 1965 on the stated ground that the aircraft was unmanned, and a late-1966 decision to seek X-23A for the SV-5D and X-24A for the SV-5P, of which only the second was ever submitted. **This article reports that record and does not adjudicate between it and universal usage.**
+**Historical fact, on the designation.** The nomenclature record shows a request for X-23A submitted on 16 November 1965 for the SV-5P, disapproved on 15 December 1965 on the stated ground that the aircraft was unmanned, and a late-1966 decision to seek X-23A for the SV-5D and X-24A for the SV-5P, of which only the second was ever submitted, in the [standard reference on designations][ref_designation_missing]. **This article reports that record and does not adjudicate between it and universal usage.**
 
 **Engineering analysis, performed here and checkable.** The equilibrium-glide crossrange relation, its closed form, the optimal bank angle of 45 degrees, the required crossrange of half the ground-track spacing, and the resulting lift-to-drag requirement of 0.978 by the closed form and 1.018 by exact integration, are all derived in this article from stated assumptions. The simultaneous solution of downrange and crossrange for the bank angle and lift-to-drag ratio, and the inversion of crossrange alone at a documented bank angle, are likewise derived here. The heating figures follow from the Sutton and Graves correlation applied to the equilibrium-glide density.
 
@@ -904,7 +904,7 @@ There is also a fourth, about the article's own framing. **A vehicle whose recov
 
 **Assumptions that everything downstream inherits.** The reference area of 1.386 square metres is scaled from the X-24A and is not published for this vehicle. The entry speed of 25,200 feet per second, the nose radius of 0.1 metres, the hypersonic drag coefficient of unity, the ablator density of 550 kilograms per cubic metre, the parachute drag coefficient of 0.75, and the nominal lift-to-drag ratios of the capsules and the Space Shuttle orbiter in the comparison table are all assumed. The record's own speeds run from 21,853 to 26,808 feet per second.
 
-**What the record does not settle.** The vehicle's lift-to-drag ratio in flight, beyond what the programme's trim curve shows. Its actual reference area. Whether the crossranges are statute or nautical miles. The bank angle flown on the third flight. The stagnation heat load, which the programme's stated figure and its computed heating curve give very differently. The peak deceleration and heating actually measured, which were certainly telemetered and are not in the accessible literature. And the reason the X-23A request was never sent.
+**What the record does not settle.** The vehicle's lift-to-drag ratio in flight, beyond what the programme's trim curve shows. Its actual reference area. Whether the crossranges are statute or nautical miles. The bank angle flown on the third flight. The stagnation heat load, which the programme's stated figure and its computed heating curve give very differently. The peak deceleration and heating as measured, which were certainly telemetered and are not in the accessible literature. And the reason the X-23A request was never sent.
 
 ## Out of Scope
 
@@ -916,13 +916,13 @@ The ASSET phase of the START programme, which deserves its own treatment. The At
 
 The number matters more than it looks. A returning vehicle needs roughly half a ground-track spacing of crossrange to reach a chosen site without waiting, and at the equator that requires a lift-to-drag ratio of 0.978 by the relation the period used and 1.018 when the approximation in that relation is removed. **A lifting body near unity is therefore not a modest capability but the threshold one**, and the difference between it and a ballistic capsule is not a matter of degree. One can come home when it chooses and the other cannot.
 
-There is one more way to see how steeply that capability is bought. The reachable ground area scales as the crossrange half-width times the downrange depth, and those go as the square and the first power of the lift-to-drag ratio respectively, so
+One more measure shows how steeply that capability is bought. The reachable ground area scales as the crossrange half-width times the downrange depth, and those go as the square and the first power of the lift-to-drag ratio respectively, so
 
 $$A_\text{footprint} \propto \left(\frac{L}{D}\right)^3$$
 
-**The footprint goes as the cube.** Raising the ratio from 1.0 to 1.2 enlarges the region a vehicle can reach by a factor of 1.73, which is why twenty percent of lift-to-drag ratio was worth arguing about and why the disagreement in the sources matters.
+**The footprint goes as the cube.** Raising the ratio from 1.0 to 1.2 enlarges the region a vehicle can reach by a factor of 1.73. Twenty percent of lift-to-drag ratio was therefore worth arguing about, and the disagreement in the sources matters.
 
-The vehicle that demonstrated this weighed less than a motorcycle, flew three times, was lost twice on the way back, and carries a designation that was never requested for it. **All four of those facts are worth keeping.**
+The vehicle that demonstrated this weighed 894 pounds, flew three times, was lost twice on the way back, and carries a designation that was never requested for it. **All four of those facts deserve to be kept.**
 
 ## References
 
@@ -941,10 +941,15 @@ The vehicle that demonstrated this weighed less than a motorcycle, flew three ti
 - [Hallion, On the Frontier, Flight Research at Dryden 1946-1981, NASA SP-4303, 1984][ref_hallion_1984]
 - [Heppenheimer, The Space Shuttle Decision, NASA's Search for a Reusable Space Vehicle, NASA SP-4221, 1999][ref_heppenheimer_1999]
 - [Jenkins, Landis and Miller, American X-Vehicles, An Inventory X-1 to X-50, SP-2003-4531, 2003][ref_american_x_vehicles]
+- [Lift-to-drag ratio][ref_lift_to_drag]
 - [Martin Marietta X-23A PRIME][ref_x23]
+- [Mid-air retrieval][ref_mid_air_retrieval]
 - [National Museum of the United States Air Force][ref_nmusaf_sv5d]
 - [returning film capsules][ref_corona]
+- [Space capsule][ref_space_capsule]
+- [Space Shuttle][ref_space_shuttle]
 - [standard reference on United States military aircraft designations][ref_designation_missing]
+- [Vandenberg Space Launch Complex 6][ref_vandenberg_slc6]
 - [X-24A][ref_x24]
 
 [ref_american_x_vehicles]: https://www.nasa.gov/wp-content/uploads/2023/04/sp-4531.pdf
@@ -954,7 +959,12 @@ The vehicle that demonstrated this weighed less than a motorcycle, flew three ti
 [ref_falarski_mort_1970]: https://ntrs.nasa.gov/citations/19700025069
 [ref_hallion_1984]: https://ntrs.nasa.gov/citations/19850009625
 [ref_heppenheimer_1999]: https://ntrs.nasa.gov/citations/19990056590
+[ref_lift_to_drag]: https://en.wikipedia.org/wiki/Lift-to-drag_ratio
+[ref_mid_air_retrieval]: https://en.wikipedia.org/wiki/Mid-air_retrieval
 [ref_nmusaf_sv5d]: https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/195893/sv-5d-prime-lifting-body/
+[ref_space_capsule]: https://en.wikipedia.org/wiki/Space_capsule
+[ref_space_shuttle]: https://en.wikipedia.org/wiki/Space_Shuttle
+[ref_vandenberg_slc6]: https://en.wikipedia.org/wiki/Vandenberg_Space_Launch_Complex_6
 [ref_x23]: https://en.wikipedia.org/wiki/Martin_X-23_PRIME
 [ref_x24]: https://en.wikipedia.org/wiki/Martin_Marietta_X-24
 

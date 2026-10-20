@@ -12,30 +12,30 @@ series_index: 48
 <!-- A344 -->
 <script>console.log("A344");</script>
 
-**On 10 July 2013 an aeroplane with nobody aboard caught the three-wire on a carrier at sea, and then on its next approach caught the two-wire** \[[Unmanned X-47B makes historic landing aboard USS George H.W. Bush, NAVAIR][ref_navair_first_trap]\] \[[Gresham, Details of the X-47B's first autonomous carrier landing][ref_gresham_details]\]. Choosing between those two wires is a question of about three feet of height at the ramp. **That number is the whole subject of this article**, because everything the X-47B is famous for follows from being able to control a position relative to a moving ship to a precision the deck sets rather than the aeroplane.
+**On 10 July 2013 an aeroplane with nobody aboard caught the three-wire on a carrier at sea, and then on its next approach caught the two-wire** \[[Unmanned X-47B makes historic landing aboard USS George H.W. Bush, NAVAIR][ref_navair_first_trap]\] \[[Gresham, Details of the X-47B's first autonomous carrier landing][ref_gresham_details]\]. Choosing between those two wires is a question of about three feet of height at the ramp. **That number is the subject of this article**, because everything the X-47B is famous for follows from being able to control a position relative to a moving ship to a precision the deck sets rather than the aeroplane.
 This is the forty-eighth article in the [X-Planes series][related_post_a297_framing], following the [X-1][related_post_a298_bell_x1], the [X-2][related_post_a299_bell_x2], the [X-3][related_post_a300_douglas_x3], the [X-4][related_post_a301_northrop_x4], the [X-5][related_post_a302_bell_x5], the [X-6][related_post_a303_convair_x6], the [X-7][related_post_a304_lockheed_x7], the [X-8][related_post_a305_aerojet_x8], the [X-9][related_post_a306_bell_x9], the [X-10][related_post_a307_north_american_x10], the [X-11][related_post_a308_convair_x11], the [X-12][related_post_a309_convair_x12], the [X-13][related_post_a310_ryan_x13], the [X-14][related_post_a311_bell_x14], the [X-15][related_post_a312_north_american_x15], the [X-16][related_post_a313_bell_x16], the [X-17][related_post_a314_lockheed_x17], the [X-18][related_post_a315_hiller_x18], the [X-19][related_post_a316_curtiss_wright_x19], the [X-20][related_post_a317_boeing_x20], the [X-21][related_post_a318_northrop_x21], the [X-22][related_post_a319_bell_x22], the [X-23][related_post_a320_martin_marietta_x23], the [X-24][related_post_a321_martin_marietta_x24], the [X-25][related_post_a322_bensen_x25], the [X-26][related_post_a323_schweizer_x26], the [X-27][related_post_a324_lockheed_x27], the [X-28][related_post_a325_osprey_x28], the [X-29][related_post_a326_grumman_x29], the [X-30][related_post_a327_rockwell_x30], the [X-31][related_post_a328_rockwell_mbb_x31], the [X-32][related_post_a329_boeing_x32], the [X-33][related_post_a330_lockheed_martin_x33], the [X-34][related_post_a331_orbital_sciences_x34], the [X-35][related_post_a332_lockheed_martin_x35], the [X-36][related_post_a333_mcdonnell_douglas_x36], the [X-37][related_post_a334_boeing_x37], the [X-38][related_post_a335_scaled_composites_x38], the [X-39][related_post_a336_x39_reserved_never_assigned], the [X-40][related_post_a337_boeing_x40], the [X-41][related_post_a338_x41_common_aero_vehicle], the [X-42][related_post_a339_orbital_sciences_x42], the [X-43][related_post_a340_micro_craft_x43], the [X-44][related_post_a341_x44_two_aircraft], the [X-45][related_post_a342_boeing_x45], and the [X-46][related_post_a343_boeing_x46].
 
-**Two airframes flew from February 2011, and the record of what they did is extensive.** They launched from a catapult at sea, landed under arrest at sea, flew at night, operated in the deck cycle alongside manned aircraft, and refuelled from a tanker without a human in the loop \[[Northrop Grumman X-47B][ref_x47b_wikipedia]\]. **After three articles about unmanned combat aircraft that did not do these things, this is the one that did.**
+**Two airframes flew from February 2011, and the record of what they did is extensive.** They launched from a catapult at sea, landed under arrest at sea, flew at night, operated in the deck cycle alongside manned aircraft, and refuelled from a tanker without a human in the loop \[[Northrop Grumman X-47B][ref_x47b_wikipedia]\]. **After three articles about unmanned combat aircraft that did not do these things, this one did.**
 
-**It is also the aeroplane that beat the two this series has just described.** The [X-45][related_post_a342_boeing_x45] demonstrated that one operator could hold two vehicles, and the [X-46][related_post_a343_boeing_x46] was cancelled before an airframe was built. **The previous article sized a requirement without an aeroplane to measure**, and named the assumption it was least sure of. **This article has the aeroplane, so that prediction can be checked**, and the section on what the data changed does exactly that.
+**It is also the aeroplane that beat the two this series has just described.** The [X-45][related_post_a342_boeing_x45] demonstrated that one operator could hold two vehicles, and the [X-46][related_post_a343_boeing_x46] was cancelled before an airframe was built. **The previous article sized a requirement without an aeroplane to measure**, and named the assumption it was least sure of. **This article has the aeroplane, so that prediction can be checked**, and a later section checks it.
 
 ## The Research Question
 
 **The binding unknown was whether an unmanned aircraft could be told where it was, relative to a moving deck, accurately enough to land on it.**
 
-**That is a narrower question than it sounds and a harder one.** Automatic landing on a runway had been in airline service for decades \[[Schoenman and Doniger 1965][research_schoenman_doniger_1965]\] \[[Templeman and Parker 1968][research_templeman_parker_1968]\]. A runway does not move, its position is surveyed once, and an error of several feet costs nothing. **A carrier deck moves in six degrees of freedom and can make way at more than thirty knots** \[[Nimitz-class aircraft carrier][ref_nimitz_wikipedia]\], **and an arrested aeroplane is stopped within about 350 feet of the wire it catches** \[[Unmanned X-47B makes historic landing aboard USS George H.W. Bush, NAVAIR][ref_navair_first_trap]\].
+**That is a narrower question than it sounds and a harder one.** Automatic landing on a runway had been in airline service for decades \[[Schoenman and Doniger 1965][research_schoenman_doniger_1965]\] \[[Templeman and Parker 1968][research_templeman_parker_1968]\]. A runway does not move, its position is surveyed once, and an error of several feet costs nothing. **A carrier deck moves in six degrees of freedom and can make way at more than thirty knots** \[[Nimitz-class aircraft carrier][ref_nimitz_wikipedia]\], **and an arrested aeroplane is stopped within about 350 feet of the wire it catches** \[[Unmanned X-47B makes historic landing aboard USS George H.W. Bush, NAVAIR][ref_navair_first_trap]\] \[[Arresting gear][ref_arresting_gear_wikipedia]\].
 
-**The problem is one of relative rather than absolute position.** Knowing the aeroplane's latitude and longitude to a foot is useless if the ship's position is known only to ten. **What matters is the vector between them**, and that is a different measurement with different error sources.
+**The problem is one of relative rather than absolute position.** Knowing the aeroplane's latitude and longitude to a foot is useless if the ship's position is known only to ten. **What matters is the vector between them**, a different measurement with different error sources.
 
-**The X-47A, which flew once, was flying to test exactly this.** Its single flight on 23 February 2003 carried a shipboard relative Global Positioning System and ended with a landing on a pre-designated spot on a runway \[[Parsch, Northrop Grumman X-47, Directory of U.S. Military Rockets and Missiles][ref_parsch_x47]\]. **Ten years separate that flight from the carrier landing and the subject is the same one.**
+**The X-47A, which flew once, was flown to test this.** Its single flight on 23 February 2003 carried a shipboard relative Global Positioning System and ended with a landing on a pre-designated spot on a runway \[[Parsch, Northrop Grumman X-47, Directory of U.S. Military Rockets and Missiles][ref_parsch_x47]\]. **Ten years separate that flight from the carrier landing and the subject is the same one.**
 
 ## Programme Origin
 
-**The programme began as the losing half of a competition this series has already described.** In June 2000 the Defense Advanced Research Projects Agency awarded study contracts for a carrier-based unmanned combat aircraft to Northrop Grumman and to Boeing, of two million dollars each \[[Northrop Grumman X-47B][ref_x47b_wikipedia]\] \[[previous article][related_post_a343_boeing_x46]\]. Boeing's answer was the X-46A and Northrop Grumman's the X-47A.
+**The programme began as the other half of a competition this series has already described.** In June 2000 the Defense Advanced Research Projects Agency awarded study contracts for a carrier-based unmanned combat aircraft to Northrop Grumman and to Boeing, of two million dollars each \[[Northrop Grumman X-47B][ref_x47b_wikipedia]\] \[[previous article][related_post_a343_boeing_x46]\]. Boeing's answer was the X-46A and Northrop Grumman's the X-47A \[[Parsch, Northrop Grumman X-47, Directory of U.S. Military Rockets and Missiles][ref_parsch_x47]\].
 
-**Northrop Grumman built hardware at its own expense and Boeing did not.** The X-47A Pegasus was completed in July 2001, received its designation in June 2001, and flew on 23 February 2003 \[[Parsch, Northrop Grumman X-47, Directory of U.S. Military Rockets and Missiles][ref_parsch_x47]\] \[[Northrop Grumman X-47A Pegasus][ref_x47a_wikipedia]\]. **That was its only flight.** In April 2003 the naval effort was merged into the joint programme, which was cancelled in early January 2006 according to the specialist directory \[[Parsch, Northrop Grumman X-47, Directory of U.S. Military Rockets and Missiles][ref_parsch_x47]\] and in February 2006, following the Quadrennial Defense Review, according to the encyclopaedia entry \[[Northrop Grumman X-47B][ref_x47b_wikipedia]\].
+**Northrop Grumman built hardware at its own expense and Boeing did not** \[[Northrop Grumman X-47A Pegasus][ref_x47a_wikipedia]\] \[[previous article][related_post_a343_boeing_x46]\]. The X-47A Pegasus was completed in July 2001, received its designation in June 2001, and flew on 23 February 2003 \[[Parsch, Northrop Grumman X-47, Directory of U.S. Military Rockets and Missiles][ref_parsch_x47]\] \[[Northrop Grumman X-47A Pegasus][ref_x47a_wikipedia]\]. **That was its only flight.** In April 2003 the naval effort was merged into the joint programme, which was cancelled in early January 2006 according to the specialist directory \[[Parsch, Northrop Grumman X-47, Directory of U.S. Military Rockets and Missiles][ref_parsch_x47]\] and in February 2006, following the Quadrennial Defense Review, according to the encyclopaedia entry \[[Northrop Grumman X-47B][ref_x47b_wikipedia]\].
 
-**The competition was then re-run and Northrop Grumman won it.** In August 2007 the X-47B was selected for the Unmanned Combat Air System Demonstration, under a contract of 635.8 million dollars \[[Northrop Grumman X-47B][ref_x47b_wikipedia]\]. **The aeroplane was unveiled in December 2008 and first flew on 4 February 2011 at Edwards Air Force Base**, with the second airframe following on 22 November 2011 \[[Parsch, Northrop Grumman X-47, Directory of U.S. Military Rockets and Missiles][ref_parsch_x47]\] \[[Northrop Grumman X-47B][ref_x47b_wikipedia]\].
+**The competition was then re-run and Northrop Grumman won it.** In August 2007 the X-47B was selected for the Unmanned Combat Air System Demonstration, under a contract of 635.8 million dollars \[[Parsch, Northrop Grumman X-47, Directory of U.S. Military Rockets and Missiles][ref_parsch_x47]\] \[[Northrop Grumman X-47B][ref_x47b_wikipedia]\]. **The aeroplane was unveiled in December 2008 and first flew on 4 February 2011 at Edwards Air Force Base**, with the second airframe following on 22 November 2011 \[[Parsch, Northrop Grumman X-47, Directory of U.S. Military Rockets and Missiles][ref_parsch_x47]\] \[[Northrop Grumman X-47B][ref_x47b_wikipedia]\].
 
 **The programme was a demonstration and it was not a procurement.** Its stated primary goal was the demonstration of launches and recoveries on an aircraft carrier at sea \[[Parsch, Northrop Grumman X-47, Directory of U.S. Military Rockets and Missiles][ref_parsch_x47]\], and by May 2015 the primary test programme was declared complete \[[Northrop Grumman X-47B][ref_x47b_wikipedia]\]. **Neither airframe entered service**, and in November 2011 the Navy affirmed that the demonstrators would never be armed \[[Northrop Grumman X-47B][ref_x47b_wikipedia]\].
 
@@ -45,13 +45,13 @@ This is the forty-eighth article in the [X-Planes series][related_post_a297_fram
 
 ### What Choosing a Wire Costs in Height
 
-**Most carriers of the Nimitz class carry four arresting pendants, and a pilot aims for the third.** USS George H.W. Bush, the ship of the July 2013 landings, carries three, and on a three-wire deck the target is the second \[[Arresting gear][ref_arresting_gear_wikipedia]\], so the X-47B's first trap took the last wire and its second took the target. One published account gives the spacing between pendants as about fifty feet \[[Tarantola, How to stop a jet dead in its tracks in two seconds][ref_tarantola_arresting]\]. No source located gives a closer spacing, and forty feet is carried beside it as a sensitivity case rather than as a published figure.
+**Most carriers of the Nimitz class carry four arresting pendants, and a pilot aims for the third.** USS George H.W. Bush, the ship of the July 2013 landings, carries three, and on a three-wire deck the target is the second \[[Arresting gear][ref_arresting_gear_wikipedia]\], so the X-47B's first trap took the last wire and its second took the target. One published account gives the spacing between pendants as about fifty feet \[[Tarantola, How to stop a jet dead in its tracks in two seconds][ref_tarantola_arresting]\]. No source located gives a closer spacing, and forty feet, which no source publishes, is carried beside it as a sensitivity case.
 
 **A glide slope converts height into distance along the deck, and the conversion is unfavourable.** For a glide slope $\gamma$, a height error $\Delta h$ at the ramp displaces the touchdown point by
 
 $$\Delta x = \frac{\Delta h}{\tan \gamma}$$
 
-**At the 3.5 degrees of a normal carrier approach, one foot of height becomes 16.35 feet along the deck.** The glide slope is steepened to as much as four degrees in heavy seas and lowered in high winds \[[The meatball, Air & Space][ref_meatball_airspace]\], and at three degrees a foot becomes 19.08 feet. The same relation read the other way says what a wire is worth in height,
+**At the 3.5 degrees of a normal carrier approach, one foot of height becomes 16.35 feet along the deck.** The glide slope is steepened to as much as four degrees in heavy seas and lowered in high winds \[[The meatball, Air & Space][ref_meatball_airspace]\], and at three degrees a foot becomes 19.08 feet. The same relation read the other way yields what a wire is worth in height,
 
 $$\Delta h = \Delta x \tan \gamma$$
 
@@ -64,7 +64,7 @@ $$\Delta h = \Delta x \tan \gamma$$
 | 50 | 3.5 | 3.06 | 93 |
 | 50 | 4.0 | 3.50 | 107 |
 
-**Choosing between adjacent wires is therefore a question of about three feet of height**, 3.06 feet at the published spacing and a normal glide slope, between 2.62 and 3.50 feet across the range of glide slopes, and 2.10 to 2.80 feet in the forty-foot case, or roughly two-thirds of a metre to one metre. **That is the precision the deck demands** and it is demanded of a measurement taken with respect to something that is itself moving.
+**Choosing between adjacent wires is therefore a question of about three feet of height**, 3.06 feet at the published spacing and a normal glide slope, between 2.62 and 3.50 feet across the range of glide slopes, and 2.10 to 2.80 feet in the forty-foot case, or roughly two-thirds of a metre to one metre. **That is the precision the deck demands**, applied to a measurement whose reference point moves.
 
 ### Why the Measurement Has to Be Relative
 
@@ -72,7 +72,7 @@ $$\Delta h = \Delta x \tan \gamma$$
 
 $$v_{\text{closure}} = v_{\text{aircraft}} - v_{\text{ship}} = (145 - 25) \times 0.5144 = 61.7 \ \text{m/s}$$
 
-**At a hundred updates a second the deck moves 12.9 centimetres between one fix and the next**, and the aeroplane closes 61.7 centimetres. **A navigation solution referenced to the earth would have to carry the ship's own position error into the aeroplane's**, and those errors do not cancel because they come from different receivers at different times.
+**At a hundred updates a second the deck moves 12.9 centimetres between one fix and the next**, and the aeroplane closes 61.7 centimetres. **A navigation solution referenced to the earth would have to carry the ship's position error into the aeroplane's**, and those errors do not cancel because they come from different receivers at different times.
 
 **A differential measurement between the two removes most of what they share.** Write the range each receiver measures to one satellite as the true range plus the errors,
 
@@ -82,13 +82,13 @@ with a satellite clock offset, an ionospheric and a tropospheric delay and a noi
 
 $$\rho_{A} - \rho_{B} = (r_{A} - r_{B}) + (I_{A} - I_{B}) + (T_{A} - T_{B}) + (\varepsilon_{A} - \varepsilon_{B})$$
 
-**and the satellite clock error is gone exactly** while the atmospheric terms are gone very nearly, because two receivers a few miles apart look through almost the same atmosphere at almost the same satellites. **What is left is the vector between them**, which is the quantity the deck problem actually needs, and it is known far better than either position separately \[[Misra and Enge, Global Positioning System, signals, measurements and performance][book_misra_enge]\]. **The same principle underlies the joint precision approach and landing system the services later fielded** \[[Joint Precision Approach and Landing System, Collins Aerospace][ref_jpals_collins]\]. **The X-47A carried the Navy's Shipboard Relative Global Positioning System**, which the specialist directory describes as necessary for automatic pin-point landings on a moving deck \[[Parsch, Northrop Grumman X-47, Directory of U.S. Military Rockets and Missiles][ref_parsch_x47]\], and on the X-47B's final approach on 10 July 2013 a hypersensitive version of the same satellite navigation technology guided the hook to the deck \[[New age in carrier aviation takes off with X-47B landing][ref_first_trap]\]. **The sources for the X-47B describe precision satellite guidance and do not say that the solution was relative**, although a relative solution is what the geometry above demands.
+**and the satellite clock error is gone exactly** while the atmospheric terms are gone very nearly, because two receivers a few miles apart look through almost the same atmosphere at almost the same satellites. **What is left is the vector between them**, the quantity the deck problem needs, known far better than either position separately \[[Misra and Enge, Global Positioning System, signals, measurements and performance][book_misra_enge]\]. **The same principle underlies the joint precision approach and landing system the services later fielded** \[[Joint Precision Approach and Landing System, Collins Aerospace][ref_jpals_collins]\]. **The X-47A carried the Navy's Shipboard Relative Global Positioning System**, which the specialist directory describes as necessary for automatic pin-point landings on a moving deck \[[Parsch, Northrop Grumman X-47, Directory of U.S. Military Rockets and Missiles][ref_parsch_x47]\], and on the X-47B's final approach on 10 July 2013 a hypersensitive version of the same satellite navigation technology guided the hook to the deck \[[New age in carrier aviation takes off with X-47B landing][ref_first_trap]\]. **The programme manager described the X-47B's guidance as precision relative navigation technology**, a Precision Global Positioning System scheme that lets the aeroplane know where it is relative to the ship \[[Navy's unmanned carrier aircraft performs first touch and go][ref_first_cat]\]. The geometry above demands such a solution.
 
-**What the open record does not give is the accuracy achieved.** Figures circulate and none of them is traceable to a programme document, so this article computes what the deck requires and does not assert what the aeroplane delivered.
+**The open record does not give the accuracy achieved.** Figures circulate and none of them is traceable to a programme document, so this article computes what the deck requires and does not assert what the aeroplane delivered.
 
 ### The Arrestment
 
-**The landing is over in about three seconds and it is the most violent thing the airframe does.** The Navy's account of the first engagement has it bringing the aeroplane from approximately 145 knots to a stop in less than 350 feet \[[Unmanned X-47B makes historic landing aboard USS George H.W. Bush, NAVAIR][ref_navair_first_trap]\]. Taking constant deceleration,
+**The landing is over in about three seconds and is the most violent thing the airframe does.** The Navy's account of the first engagement has it bringing the aeroplane from approximately 145 knots to a stop in less than 350 feet \[[Unmanned X-47B makes historic landing aboard USS George H.W. Bush, NAVAIR][ref_navair_first_trap]\]. Taking constant deceleration,
 
 $$a = \frac{v^{2}}{2s}$$
 
@@ -105,9 +105,9 @@ $$t = \frac{2s}{v}$$
 
 $$v_{\text{deck}} = v_{\text{air}} - v_{\text{wod}}$$
 
-where $v_{\text{wod}}$ is the wind over the deck, which a carrier generates by steaming into wind. **Pairing a deck distance with an airspeed mixes two reference frames**, and the first row does exactly that.
+where $v_{\text{wod}}$ is the wind over the deck, which a carrier generates by steaming into wind. **Pairing a deck distance with an airspeed mixes two reference frames**, and the first row does so.
 
-**The aeroplane's own wing then says which figure the 145 knots is.** Its wing loading follows from the mass and the area given below,
+**The aeroplane's wing then indicates which figure the 145 knots is.** Its wing loading follows from the mass and the area given below,
 
 $$\frac{W}{S} = \frac{19{,}000 \times 9.80665}{88.59} = 2{,}103 \ \text{N/m}^{2} = 43.9 \ \text{lb/ft}^{2}$$
 
@@ -124,15 +124,15 @@ $$C_{L,\max} = \frac{2 (W/S)}{\rho V^{2}} = \frac{2 \times 2{,}103}{1.225 \times
 | 1.2 | 104.0 | 1.39 |
 | 1.6 | 90.1 | 1.61 |
 
-**A tailless aeroplane without trailing-edge high-lift devices sits near the top of that table**, and at a maximum lift coefficient of 0.8 the quoted 145 knots is 1.14 times the stall, which is an ordinary carrier approach margin. **So the 145 knots is most probably an airspeed, the engagement was slower than that, and the second row of the deceleration table is the better one.** The first is retained because the wind over the deck on the day is not recorded, and the argument fixes the reading rather than the number.
+**A tailless aeroplane without trailing-edge high-lift devices sits near the top of that table**, and at a maximum lift coefficient of 0.8 the quoted 145 knots is 1.14 times the stall, a small but plausible approach margin. **So the 145 knots is most probably an airspeed, the engagement was slower than that, and the second row of the deceleration table is the better one.** The first is retained because the wind over the deck on the day is not recorded, and the argument fixes which reading applies but cannot supply the number.
 
-The energy the gear absorbs follows directly,
+The energy the gear absorbs is computed directly,
 
 $$E = \tfrac{1}{2} m v^{2} = \tfrac{1}{2} \times 20{,}185 \times 74.6^{2} = 56.2 \ \text{MJ}$$
 
 **Fifty-six megajoules is about eleven times the kinetic energy of a car of 1,250 kilograms at two hundred miles an hour**, taken out of the aeroplane in under three seconds by a hook and a wire.
 
-**The force that does it follows from the same deceleration and it is the number the structure is built around,**
+**The force that does it is set by the same deceleration, and the structure is built around that number,**
 
 $$F = m a$$
 
@@ -141,13 +141,13 @@ $$F = m a$$
 | 145 kn | 26.08 | 496 | 2.66 |
 | 120 kn | 17.86 | 339 | 1.82 |
 
-**Between a third and half a meganewton is applied at a single point at the tail**, and reacted through a keel that runs the length of the aeroplane.
+**Between a third and half a meganewton is applied at a single point at the tail**, and reacted through the keel on which the hook is mounted \[[Tailhook][ref_tailhook_wikipedia]\].
 
 **The deck does not stop while this happens.** A ship making twenty-five knots runs
 
 $$d_{\text{ship}} = v_{\text{ship}} \, t = 12.86 \times 2.86 = 36.8 \ \text{m}$$
 
-**under the aeroplane during the arrestment**, which is more than a hundred feet of ship passing beneath an aircraft that is itself travelling only 350 feet along it.
+**under the aeroplane during the arrestment**, more than a hundred feet of ship passing beneath an aircraft that is itself travelling only 350 feet along it.
 
 ## The Two Aircraft
 
@@ -160,30 +160,30 @@ $$d_{\text{ship}} = v_{\text{ship}} \, t = 12.86 \times 2.86 = 36.8 \ \text{m}$$
 | gross mass | 2,500 kg | 19,000 kg |
 | engine | Pratt and Whitney JT15D-5C | Pratt and Whitney F100-PW-220U |
 | thrust | 14.2 kN | 71.2 kN |
-| payload | none | 2,040 kg |
+| payload | dummy stores only | 2,040 kg |
 | flights | one | many |
 
 **The X-47A is a proof of concept and the X-47B is an aeroplane**, and the two ratios say how far apart,
 
 $$\frac{m_{B}}{m_{A}} = \frac{19{,}000}{2{,}500} = 7.60 \qquad \frac{T_{B}}{T_{A}} = \frac{71.2}{14.2} = 5.01$$
 
-**Mass grew faster than thrust**, so the larger aircraft has the lower thrust to weight ratio, and the second carries a payload while the first carries none \[[Parsch, Northrop Grumman X-47, Directory of U.S. Military Rockets and Missiles][ref_parsch_x47]\].
+**Mass grew faster than thrust**, so the larger aircraft has the lower thrust to weight ratio, and the second was given the joint programme's payload of 2,040 kilograms \[[Parsch, Northrop Grumman X-47, Directory of U.S. Military Rockets and Missiles][ref_parsch_x47]\] while the weapons bays of the first were sized for dummy stores that simulated flight loads \[[Northrop Grumman X-47A Pegasus][ref_x47a_wikipedia]\].
 
-**The X-47B's wing is the part worth measuring.** Its span is 62.1 feet, folding to 30.9, over a wing area of 953.6 square feet \[[Northrop Grumman X-47B][ref_x47b_wikipedia]\], which makes the aspect ratio
+**The X-47B's wing is the part to measure.** Its span is 62.1 feet, folding to 30.9, over a wing area of 953.6 square feet \[[Northrop Grumman X-47B][ref_x47b_wikipedia]\], which makes the aspect ratio
 
 $$A\!R = \frac{b^{2}}{S} = \frac{62.1^{2}}{953.6} = 4.04$$
 
-**A folding wing is a structural penalty accepted for a deck-space reason**, and halving the span is what lets the aeroplane fit the spots and the lifts a carrier is built around. **The tailless planform is a signature decision before it is an aerodynamic one** \[[Knott, Shaeffer and Tuley, Radar cross section][book_knott]\], with a history far older than the jet age \[[Wooldridge, Winged wonders, the story of the flying wings][book_wooldridge]\], and the stability a fin would supply is replaced by feedback \[[Etkin and Reid, Dynamics of flight][book_etkin_reid]\]. **The vehicle class itself has a longer history than this programme** \[[Unmanned combat aerial vehicle][ref_ucav_wikipedia]\].
+**A folding wing is a structural penalty accepted for a deck-space reason**, and halving the span is what reduces the deck space the aeroplane occupies aboard a carrier \[[Parsch, Northrop Grumman X-47, Directory of U.S. Military Rockets and Missiles][ref_parsch_x47]\]. **The tailless planform is a signature decision before it is an aerodynamic one** \[[Knott, Shaeffer and Tuley, Radar cross section][book_knott]\], with a history far older than the jet age \[[Wooldridge, Winged wonders, the story of the flying wings][book_wooldridge]\], and the stability a fin would supply is replaced by feedback \[[Etkin and Reid, Dynamics of flight][book_etkin_reid]\]. **The vehicle class has a longer history than this programme** \[[Unmanned combat aerial vehicle][ref_ucav_wikipedia]\].
 
 ## Dependent Systems
 
-### Navigation, Which Is the Keystone
+### Relative Navigation
 
-**Everything above depends on a position known with respect to the ship**, and the programme's relative scheme is the reason the rest of the aeroplane could be built to ordinary tolerances. **A landing system accurate to a metre would have made the wire a matter of luck**, since a metre of height is between 0.94 and 1.56 wire spacings on the table in the section headed Sizing From First Principles.
+**Everything above depends on a position known with respect to the ship**, and the programme's relative scheme is the reason the rest of the aeroplane could be built to ordinary tolerances. **A landing system accurate to a metre would have made the wire a matter of luck**, since a metre of height is between 0.94 and 1.56 wire spacings on the table of height per wire above.
 
 ### The Structure That Takes the Arrestment
 
-**The hook, the keel and the gear are sized by the numbers in the arrestment table rather than by flight loads.** A deceleration of 1.8 to 2.7 g applied through a hook at the tail puts the whole airframe in tension \[[Tailhook][ref_tailhook_wikipedia]\], and a carrier landing gear is sized for a descent rate several times what a runway aeroplane sees \[[Raymer, Aircraft design, a conceptual approach][book_raymer]\] \[[Torenbeek, Synthesis of subsonic airplane design][book_torenbeek]\].
+**The hook, the keel and the gear must carry loads of the size in the arrestment table, which act along the airframe rather than across it.** A deceleration of 1.8 to 2.7 g applied through a hook at the tail puts the whole airframe in tension \[[Tailhook][ref_tailhook_wikipedia]\], and a carrier landing gear is sized for a descent rate several times what a runway aeroplane sees \[[Raymer, Aircraft design, a conceptual approach][book_raymer]\] \[[Torenbeek, Synthesis of subsonic airplane design][book_torenbeek]\].
 
 **That descent rate is not a free choice, it is the glide slope and the approach speed multiplied together,**
 
@@ -195,15 +195,15 @@ $$w = V \sin \gamma$$
 | 3.5 degrees | 896 ft/min | 742 ft/min |
 | 4.0 degrees | 1,024 ft/min | 848 ft/min |
 
-**Those are the rates at which the aeroplane descends along the glide slope**, and no source located says how much of that rate is removed before the wheels touch, so they are arrival rates on the approach rather than measured touchdown rates.
+**Those are the rates at which the aeroplane descends along the glide slope**, and no source located says how much of that rate is removed before the wheels touch, so they are arrival rates on the approach. None is a measured touchdown rate.
 
 ### Propulsion
 
-**One Pratt and Whitney F100-PW-220U of 71.2 kilonewtons** \[[Parsch, Northrop Grumman X-47, Directory of U.S. Military Rockets and Missiles][ref_parsch_x47]\], which is the engine family of the F-15 and F-16 without afterburning \[[Pratt and Whitney F100][ref_f100_wikipedia]\]. Against the gross mass this gives
+**One Pratt and Whitney F100-PW-220U of 71.2 kilonewtons** \[[Parsch, Northrop Grumman X-47, Directory of U.S. Military Rockets and Missiles][ref_parsch_x47]\], from the engine family of the F-15 and F-16 \[[Pratt and Whitney F100][ref_f100_wikipedia]\], modified for this aeroplane as a turbofan without afterburning rated at 16,000 pounds of dry thrust \[[F100-PW-220U powered X-47B, Pratt and Whitney][ref_pw_f100_220u]\]. Against the gross mass this gives
 
 $$\frac{T}{W} = \frac{71.2}{19{,}000 \times 9.80665 \times 10^{-3}} = 0.382$$
 
-**The previous article estimated that an aeroplane of this class would need a thrust to weight ratio between 0.30 and 0.40** and computed the thrust that implied. **The measured value falls inside that band**, which is one of the few quantitative predictions in that article the record can confirm.
+**The previous article estimated that an aeroplane of this class would need a thrust to weight ratio between 0.30 and 0.40** and computed the thrust that implied. **The measured value falls inside that band**, so this is one of the few quantitative predictions in that article the record can confirm.
 
 ### Autonomy and the Operator
 
@@ -211,11 +211,11 @@ $$\frac{T}{W} = \frac{71.2}{19{,}000 \times 9.80665 \times 10^{-3}} = 0.382$$
 
 $$FO = \frac{NT + IT}{IT} = 1 + \frac{NT}{IT}$$
 
-**The X-47B's demonstrations were single-vehicle**, so no fan-out above one is claimed for it, and the article does not compute one. **What it demonstrated instead was that the neglect time can include the recovery**, which is the phase a manned aeroplane cannot delegate at all.
+**The X-47B's demonstrations were single-vehicle**, so no fan-out above one is claimed for it, and the article does not compute one. **It demonstrated instead that the neglect time can include the recovery**, the phase a manned aeroplane cannot delegate at all.
 
 ## The Flight Test Record
 
-**After the X-46, of which no airframe was built, this article returns to a flight test record worth tabulating, as the article on the X-45 had.**
+**After the X-46, of which no airframe was built, this article returns to a flight test record long enough to tabulate, as the article on the X-45 had.**
 
 | date | milestone |
 |---|---|
@@ -234,13 +234,13 @@ $$FO = \frac{NT + IT}{IT} = 1 + \frac{NT}{IT}$$
 
 The dates are those of the encyclopaedia entry \[[Northrop Grumman X-47B][ref_x47b_wikipedia]\], and the July 2013 landings are as the Navy reported them \[[Unmanned X-47B makes historic landing aboard USS George H.W. Bush, NAVAIR][ref_navair_first_trap]\].
 
-**The third approach on 10 July 2013 is the most informative entry and it is not in the table.** After two arrested landings the aeroplane was launched again, and on the approach one of its three navigation subsystems failed \[[Cahn, Navy drone fails third aircraft carrier landing attempt][ref_cahn_third]\] \[[Sicard, Navy: glitch in X-47B test only proves unmanned aircraft's reliability][ref_sicard_glitch]\]. **The accounts agree that the aeroplane detected the fault itself and differ on who waved it off.** One has the aeroplane wave itself off and then alert its operator, who sent it ashore to Wallops Island \[[Cahn, Navy drone fails third aircraft carrier landing attempt][ref_cahn_third]\], and another describes an automatic abort \[[Gresham, Details of the X-47B's first autonomous carrier landing][ref_gresham_details]\]. A third, quoting the same programme manager, has the system identify the fault and indicate it to the operator, who then followed the test plan's procedures \[[Sicard, Navy: glitch in X-47B test only proves unmanned aircraft's reliability][ref_sicard_glitch]\], and the encyclopaedia entry gives the operator's abort \[[Northrop Grumman X-47B][ref_x47b_wikipedia]\]. **An automatic wave-off on a detected fault is the behaviour a deck requires**, and the record establishes the detection beyond dispute and the automatic wave-off in two of four accounts. On that reading, a demonstration that produced two traps and one correct refusal is a better result than three traps would have been.
+**The table omits its most informative entry, the third approach on 10 July 2013.** After two arrested landings the aeroplane was launched again, and on the approach one of its three navigation subsystems failed \[[Cahn, Navy drone fails third aircraft carrier landing attempt][ref_cahn_third]\] \[[Sicard, Navy: glitch in X-47B test only proves unmanned aircraft's reliability][ref_sicard_glitch]\]. **The accounts agree that the aeroplane detected the fault itself and differ on who waved it off.** One has the aeroplane wave itself off and then alert its operator, who sent it ashore to Wallops Island \[[Cahn, Navy drone fails third aircraft carrier landing attempt][ref_cahn_third]\], and another describes an automatic abort \[[Gresham, Details of the X-47B's first autonomous carrier landing][ref_gresham_details]\]. A third, quoting the same programme manager, has the system identify the fault and indicate it to the operator, who then followed the test plan's procedures \[[Sicard, Navy: glitch in X-47B test only proves unmanned aircraft's reliability][ref_sicard_glitch]\], and the encyclopaedia entry gives the operator's abort \[[Northrop Grumman X-47B][ref_x47b_wikipedia]\]. **An automatic wave-off on a detected fault is the behaviour a deck requires**, and the record establishes the detection beyond dispute and the automatic wave-off in two of four accounts. On that reading, a demonstration that produced two traps and one correct refusal is a better result than three traps would have been.
 
 ## Comparison With Ground Prediction
 
-**The ground prediction this article can set beside the aeroplane is not the manufacturer's.** No test report, no navigation performance analysis and no weight statement for either aircraft has been located in the open literature, so whatever was predicted for the X-47B by wind tunnel, simulation or contractor estimate cannot be compared here with what it returned in flight. The section headed The Source Base records that search.
+**The ground prediction this article can set beside the aeroplane is not the manufacturer's.** No test report, no navigation performance analysis and no weight statement for either aircraft has been located in the open literature, so whatever was predicted for the X-47B by wind tunnel, simulation or contractor estimate cannot be compared here with what it returned in flight. That search is recorded under The Source Base.
 
-**What can be compared is a prediction made on paper before this aeroplane was measured.** The previous article sized a carrier-based unmanned combat aircraft with no airframe to measure \[[previous article][related_post_a343_boeing_x46]\], and the X-47B is the airframe that answers it. Four of its numbers meet a published figure for this aircraft.
+**What can be compared is a prediction made on paper before this aeroplane was measured.** The previous article made it in sizing a carrier-based unmanned combat aircraft \[[previous article][related_post_a343_boeing_x46]\], and the X-47B is the airframe that answers it. Four of its numbers meet a published figure for this aircraft.
 
 | quantity | predicted on paper | X-47B as published | outcome |
 |---|---|---|---|
@@ -249,21 +249,21 @@ The dates are those of the encyclopaedia entry \[[Northrop Grumman X-47B][ref_x4
 | wing loading | 68.7 to 142.4 lb/ft² | 43.9 lb/ft² | below every predicted value |
 | thrust to weight ratio | 0.30 to 0.40 | 0.382 | inside the band |
 
-**The scoring is argued in the section headed What the Data Changed**, and only its shape is gathered here. The payload fraction was the assumption the previous article named as its weakest, and it failed in the direction that article foresaw and by more than it foresaw. The approach speed constraint failed differently, because the aeroplane satisfies it with a wide margin and so it did not set the wing. The thrust to weight ratio is the one quantitative prediction the record confirms.
+**The scoring is argued under What the Data Changed**, and only its shape is gathered here. The payload fraction was the assumption the previous article named as its weakest, and it failed in the direction that article foresaw and by more than it foresaw. The approach speed constraint failed differently, because the aeroplane satisfies it with a wide margin and so it did not set the wing. The thrust to weight ratio is one of the few quantitative predictions the published figures confirm.
 
-**The comparison is between a requirement and one aeroplane**, and the section headed Where the Framing Breaks Down states what that limits. The two published gross masses also differ by about six percent, which is smaller than the differences being scored.
+**The comparison is between a requirement and one aeroplane**, and Where the Framing Breaks Down states what that limits. The two published gross masses also differ by about six percent, less than the differences being scored.
 
-**The deck's own prediction has no flight figure to meet.** The section headed Sizing From First Principles computes from the geometry of the deck that choosing between adjacent wires is a matter of two to three and a half feet of height. **Flight returned the wires caught and not the accuracy achieved.** On 10 July 2013 the aeroplane caught the three-wire and then the two-wire \[[Unmanned X-47B makes historic landing aboard USS George H.W. Bush, NAVAIR][ref_navair_first_trap]\] \[[Gresham, Details of the X-47B's first autonomous carrier landing][ref_gresham_details]\], which records two recoveries and does not record how close to the intended point either one touched down. No figure for the navigation accuracy achieved is traceable to a programme document.
+**The deck's own prediction has no flight figure to meet.** The sizing earlier finds from the geometry of the deck that choosing between adjacent wires is a matter of two to three and a half feet of height. **Flight returned the wires caught and not the accuracy achieved.** On 10 July 2013 the aeroplane caught the three-wire and then the two-wire \[[Unmanned X-47B makes historic landing aboard USS George H.W. Bush, NAVAIR][ref_navair_first_trap]\] \[[Gresham, Details of the X-47B's first autonomous carrier landing][ref_gresham_details]\], which records two recoveries and does not record how close to the intended point either one touched down. No programme document located gives the navigation accuracy achieved.
 
-**The arrestment is a comparison the record leaves half made.** The reported engagement from about 145 knots in less than 350 feet is a flight figure, and the section headed Sizing From First Principles reads it two ways. The ground side of the comparison, a design arresting load for this airframe, is not published, so the hook loads of 339 and 496 kilonewtons this article computes stand against nothing the manufacturer stated.
+**The arrestment is a comparison the record leaves half made.** The reported engagement from about 145 knots in less than 350 feet is a flight figure, and the arrestment analysis above reads it two ways. The ground side of the comparison, a design arresting load for this airframe, is not published, so the hook loads of 339 and 496 kilonewtons this article computes stand against nothing the manufacturer stated.
 
 **The X-47A's single flight is the earliest flight evidence on the question the programme existed to settle.** It carried a shipboard relative Global Positioning System and ended on a pre-designated spot on a runway in February 2003 \[[Parsch, Northrop Grumman X-47, Directory of U.S. Military Rockets and Missiles][ref_parsch_x47]\], and ten years later the X-47B landed at sea under precision satellite guidance \[[New age in carrier aviation takes off with X-47B landing][ref_first_trap]\]. **Neither flight's achieved precision is in the open record**, so the comparison both invite, between what relative navigation was expected to deliver and what it delivered, cannot be made here.
 
 ## What the Data Changed
 
-**The previous article sized this requirement without an aeroplane, so its predictions can now be scored.**
+**With the aeroplane in hand, the previous article's predictions can now be scored.**
 
-**It predicted the wrong gross mass and it named the reason in advance.** That article inherited a payload fraction of 0.12293, measured across two Boeing aircraft, and computed a gross mass of 32,539 pounds for a four thousand pound payload. **The X-47B carries 2,040 kilograms, which is the payload set for both of the joint programme's aircraft, the X-45C among them, at a gross mass of 19,000 kilograms** \[[Parsch, Northrop Grumman X-47, Directory of U.S. Military Rockets and Missiles][ref_parsch_x47]\], so
+**It predicted the wrong gross mass and it named the reason in advance.** That article inherited a payload fraction of 0.12293, measured across two Boeing aircraft, and computed a gross mass of 32,539 pounds for a four thousand pound payload \[[previous article][related_post_a343_boeing_x46]\]. **The X-47B carries 2,040 kilograms, which is the payload set for both of the joint programme's aircraft, the X-45C among them, at a gross mass of 19,000 kilograms** \[[Parsch, Northrop Grumman X-47, Directory of U.S. Military Rockets and Missiles][ref_parsch_x47]\], so
 
 $$\frac{m_{\text{payload}}}{m_{\text{gross}}} = \frac{2{,}040}{19{,}000} = 0.10737$$
 
@@ -271,13 +271,13 @@ $$\frac{m_{\text{payload}}}{m_{\text{gross}}} = \frac{2{,}040}{19{,}000} = 0.107
 
 $$\frac{m_{\text{actual}}}{m_{\text{predicted}}} = \frac{41{,}888}{32{,}539} = 1.287$$
 
-**The previous article said this would happen and said why.** It recorded that the inherited payload fraction was its weakest load-bearing assumption, and that a naval variant might not hold it because carrier equipment is charged to empty weight and a designer under that pressure may trade payload fraction rather than accept a larger aeroplane. **The X-47B did both.** It has a lower payload fraction and it is a larger aeroplane, which is the predicted failure in the predicted direction and larger than predicted in magnitude.
+**The previous article said this would happen and said why.** It recorded that the inherited payload fraction was its weakest load-bearing assumption, and that a naval variant might not hold it because carrier equipment is charged to empty weight and a designer under that pressure may trade payload fraction rather than accept a larger aeroplane \[[previous article][related_post_a343_boeing_x46]\]. **The X-47B did both.** It has a lower payload fraction and is a larger aeroplane. The failure is the predicted one, in the predicted direction, and larger than predicted in magnitude.
 
-**A second prediction failed differently and more interestingly.** That article argued that the carrier approach speed limit caps wing loading and therefore sizes the wing, and it computed wing loadings between 68.7 and 142.4 pounds per square foot. **The X-47B's wing loading is 43.9 pounds per square foot at the directory's gross mass**, below every row in that table.
+**A second prediction failed differently, and more revealingly.** That article argued that the carrier approach speed limit caps wing loading and therefore sizes the wing, and it computed wing loadings between 68.7 and 142.4 pounds per square foot \[[previous article][related_post_a343_boeing_x46]\]. **The X-47B's wing loading is 43.9 pounds per square foot at the directory's gross mass**, below every row in that table.
 
 $$\frac{W}{S} = \frac{41{,}888}{953.6} = 43.9 \ \text{lb/ft}^{2}$$
 
-**So the approach constraint is real and it did not size this wing.** Something else did, and the candidate that can be tested is fuel volume. **The Breguet range relation says what the published range costs in fuel.** The encyclopaedia entry gives a range of 2,100 nautical miles \[[Northrop Grumman X-47B][ref_x47b_wikipedia]\] and the specialist directory 3,500 \[[Parsch, Northrop Grumman X-47, Directory of U.S. Military Rockets and Missiles][ref_parsch_x47]\], and both are carried,
+**So the approach constraint is real and it did not size this wing.** Something else did, and the candidate that can be tested is fuel volume. **The Breguet range relation gives the fuel the published range costs.** The encyclopaedia entry gives a range of 2,100 nautical miles \[[Northrop Grumman X-47B][ref_x47b_wikipedia]\] and the specialist directory 3,500 \[[Parsch, Northrop Grumman X-47, Directory of U.S. Military Rockets and Missiles][ref_parsch_x47]\], and both are carried,
 
 $$\zeta_{\text{fuel}} = 1 - \exp \left( - \frac{R \, c}{V (L/D)} \right)$$
 
@@ -287,17 +287,17 @@ $$\zeta_{\text{fuel}} = 1 - \exp \left( - \frac{R \, c}{V (L/D)} \right)$$
 | 16 | 0.2166 | 4,115 | 0.3342 | 6,350 |
 | 18 | 0.1950 | 3,706 | 0.3034 | 5,765 |
 
-**Between three and a half and seven tonnes of fuel, depending on which published range is taken.** The cruise condition behind that table is assumed rather than published, being Mach 0.75 at 40,000 feet and a specific fuel consumption of 0.80 per hour. The encyclopaedia gives a cruise speed above Mach 0.9 and a ceiling of 42,000 feet \[[Northrop Grumman X-47B][ref_x47b_wikipedia]\], and at Mach 0.9 the fuel for 2,100 nautical miles falls to between 3,143 and 3,941 kilograms, about fifteen percent less, so the assumption moves the figure without changing its size. Turning a Mach number at altitude into the speed the range relation wants takes the standard atmosphere,
+**Between three and a half and seven tonnes of fuel, depending on which published range is taken.** No cruise condition is published, so the one behind that table is assumed, being Mach 0.75 at 40,000 feet and a specific fuel consumption of 0.80 per hour. The encyclopaedia gives a cruise speed above Mach 0.9 and a ceiling of 42,000 feet \[[Northrop Grumman X-47B][ref_x47b_wikipedia]\], and at Mach 0.9 the fuel for 2,100 nautical miles falls to between 3,143 and 3,941 kilograms, about fifteen percent less, so the assumption moves the figure without changing its size. Turning a Mach number at altitude into the speed the range relation wants takes the standard atmosphere,
 
 $$T = 216.65 \ \text{K} \qquad a = \sqrt{\gamma R T} = 295.07 \ \text{m/s} \qquad V = 0.75 a = 430.2 \ \text{kn}$$
 
 with the temperature and the constants taken from the standard atmosphere \[[U.S. Standard Atmosphere, 1976][research_u_s_standard_1976]\] \[[Air Force Test Pilot School Edwards Afb Ca 1962][research_airforcetestpilotschooledwardsafbca_1962]\].
 
-**Forty thousand feet is above the tropopause**, so the temperature is the constant stratospheric value rather than one falling with height. **That is a large volume to put in a wing 953.6 square feet in area and a fuselage this aeroplane barely has**, and it is the most plausible thing to have set the area. **The test is not conclusive**, because a published range figure may be a radius, in which case the distance doubles, the fuel rises by three-quarters to four-fifths, and the argument strengthens. **A constraint that is satisfied with a wide margin is not the constraint that set the design**, which is a correction to how the previous article used it.
+**Forty thousand feet is above the tropopause**, so the temperature is the constant stratospheric value rather than one falling with height. **Such a volume is a great deal to carry in a wing 953.6 square feet in area and a fuselage this aeroplane barely has**, so fuel volume is the most plausible thing to have set the area. **The test is not conclusive**, because a published range figure may be a radius, in which case the distance doubles, the fuel rises by three-quarters to four-fifths, and the argument strengthens. **A constraint that is satisfied with a wide margin is not the constraint that set the design**, and this corrects how the previous article used it.
 
 **A third prediction held.** The thrust to weight ratio of 0.382 falls inside the 0.30 to 0.40 band that article assumed.
 
-**What the programme changed outside this series is that carrier aviation stopped being a thing only people could do.** The demonstrations of 2013 to 2015 established launch, recovery, deck operations alongside manned aircraft and autonomous refuelling, which together are the whole cycle.
+**Outside this series, the programme ended carrier aviation as a thing only people could do.** The demonstrations of 2013 to 2015 established launch, recovery, deck operations alongside manned aircraft and autonomous refuelling, which together complete the cycle \[[Northrop Grumman X-47B][ref_x47b_wikipedia]\].
 
 ## The Contemporary Literature
 
@@ -477,9 +477,9 @@ with the temperature and the constants taken from the standard atmosphere \[[U.S
 
 **Six places.**
 
-**The precision this article computes is the deck's requirement and not the aeroplane's performance.** The geometry says a wire is worth two to three and a half feet of height. **It does not say what the X-47B achieved**, and the figures that circulate for that are not traceable to a programme document, so no claim about achieved accuracy is made here.
+**The precision this article computes is the deck's requirement and not the aeroplane's performance.** By the geometry, a wire is worth two to three and a half feet of height. **It does not show what the X-47B achieved**, and the figures in circulation for that cannot be traced to a programme document, so no claim about achieved accuracy is made here.
 
-**The arrestment reading is settled by argument and not by the record.** A stopping distance aboard a ship must be a deck distance, and the aeroplane's own wing loading makes 145 knots an implausible stalling speed and an ordinary approach speed, so the slower engagement is the better reading. **Both rows are still printed** because the wind over the deck on the day is not recorded, and because an argument that fixes a reading is weaker evidence than a document that states one.
+**The arrestment reading is settled by argument and not by the record.** A stopping distance aboard a ship must be a deck distance, and the aeroplane's wing loading makes 145 knots an implausible stalling speed and an ordinary approach speed, so the slower engagement is the better reading. **Both rows are still printed** because the wind over the deck on the day is not recorded, and because an argument that fixes a reading is weaker evidence than a document that states one.
 
 **Scoring the previous article's predictions is comparing a requirement to one aeroplane.** The X-47B is a single design by a single manufacturer that won a competition, and a payload fraction measured from it is one observation. **The previous article's constant came from two aircraft and this adds a third from a different company**, which is better evidence and still not a population.
 
@@ -489,9 +489,9 @@ $$\frac{20{,}185}{19{,}000} - 1 = 0.0624$$
 
 **Every mass fraction in this article moves by about six percent between those readings**, and the conclusions do not turn on which is right because the differences being argued about are larger than that.
 
-**Treating the X-47A as a proof of concept understates what its single flight was for.** It carried the relative navigation system that the whole subject turns on, and it is described as landing on a designated spot. **One flight is one flight**, and an article that made more of it would be building on a sentence.
+**Treating the X-47A as a proof of concept understates what its single flight was for.** It carried the relative navigation system on which the subject turns, and is described as landing on a designated spot \[[Parsch, Northrop Grumman X-47, Directory of U.S. Military Rockets and Missiles][ref_parsch_x47]\]. **One flight is one flight**, and an article that made more of it would be building on a sentence.
 
-**The published range disagrees between sources by two-thirds.** The encyclopaedia gives 2,100 nautical miles and the specialist directory 3,500, so the fuel the range relation demands is between 3.7 and 4.6 tonnes on one reading and between 5.8 and 7.1 on the other. **The fuel-volume argument holds on both**, and it is stronger on the larger figure, but the article cannot say which figure is a range and which, if either, is a radius.
+**The published range disagrees between sources by two-thirds.** One source gives 2,100 nautical miles \[[Northrop Grumman X-47B][ref_x47b_wikipedia]\] and the other 3,500 \[[Parsch, Northrop Grumman X-47, Directory of U.S. Military Rockets and Missiles][ref_parsch_x47]\], so the fuel the range relation demands is between 3.7 and 4.6 tonnes on one reading and between 5.8 and 7.1 on the other. **The fuel-volume argument holds on both**, more strongly on the larger figure, but the article cannot say which figure is a range and which, if either, is a radius.
 
 ## The Source Base
 
@@ -502,6 +502,8 @@ $$\frac{20{,}185}{19{,}000} - 1 = 0.0624$$
 **One carries the chronology and the second set of dimensions.** The encyclopaedia entry supplies the wing area, the folded span, the weights, the range and the full sequence of carrier firsts \[[Northrop Grumman X-47B][ref_x47b_wikipedia]\], and it disagrees with the directory about gross mass by six percent, about range by two-thirds and about the month in which the joint programme was cancelled.
 
 **Four carry the landings.** The Navy's release of 10 July 2013 gives the wire caught on the first engagement, the speed and the stopping distance \[[Unmanned X-47B makes historic landing aboard USS George H.W. Bush, NAVAIR][ref_navair_first_trap]\], and a contemporary account adds the second wire and the abandoned third approach \[[Gresham, Details of the X-47B's first autonomous carrier landing][ref_gresham_details]\]. Two reports of the programme manager's account of that third approach agree that the aeroplane detected the fault and disagree about whether the wave-off was automatic \[[Cahn, Navy drone fails third aircraft carrier landing attempt][ref_cahn_third]\] \[[Sicard, Navy: glitch in X-47B test only proves unmanned aircraft's reliability][ref_sicard_glitch]\]. The naval news service's report of the day says that precision satellite guidance brought the hook to the deck and gives none of the figures \[[New age in carrier aviation takes off with X-47B landing][ref_first_trap]\].
+
+**Two more carry the guidance and the engine.** The same news service's report of the first touch and go quotes the programme manager calling the guidance precision relative navigation technology and describes a precision satellite positioning scheme that gives the aeroplane its position relative to the ship \[[Navy's unmanned carrier aircraft performs first touch and go][ref_first_cat]\]. The engine maker's product sheet describes a nonaugmented turbofan of 16,000 pounds dry thrust \[[F100-PW-220U powered X-47B, Pratt and Whitney][ref_pw_f100_220u]\].
 
 **One set carries the deck.** The wire count of each ship, the pendant spacing and the glide slope come from published descriptions of the Nimitz class, the arresting gear and the optical landing system \[[Nimitz-class aircraft carrier][ref_nimitz_wikipedia]\] \[[Arresting gear][ref_arresting_gear_wikipedia]\] \[[Tarantola, How to stop a jet dead in its tracks in two seconds][ref_tarantola_arresting]\] \[[The meatball, Air & Space][ref_meatball_airspace]\]. **The forty-foot pendant spacing in the sizing tables has no source** and is carried as a sensitivity case.
 
@@ -557,15 +559,15 @@ $$\frac{20{,}185}{19{,}000} - 1 = 0.0624$$
 
 ### Historical Fact
 
-**In June 2000 the Defense Advanced Research Projects Agency awarded study contracts of two million dollars each to Northrop Grumman and Boeing** for a carrier-based unmanned combat aircraft.
+**In June 2000 the Defense Advanced Research Projects Agency awarded study contracts of two million dollars each to Northrop Grumman and Boeing** for a carrier-based unmanned combat aircraft \[[Parsch, Northrop Grumman X-47, Directory of U.S. Military Rockets and Missiles][ref_parsch_x47]\] \[[Northrop Grumman X-47B][ref_x47b_wikipedia]\].
 
-**The X-47A Pegasus was completed in July 2001 and flew once, on 23 February 2003**, carrying a shipboard relative navigation system.
+**The X-47A Pegasus was completed in July 2001 and flew once, on 23 February 2003**, carrying a shipboard relative navigation system \[[Parsch, Northrop Grumman X-47, Directory of U.S. Military Rockets and Missiles][ref_parsch_x47]\].
 
-**In August 2007 the X-47B won the Unmanned Combat Air System Demonstration under a contract of 635.8 million dollars.** It first flew on 4 February 2011.
+**In August 2007 the X-47B won the Unmanned Combat Air System Demonstration under a contract of 635.8 million dollars.** It first flew on 4 February 2011 \[[Parsch, Northrop Grumman X-47, Directory of U.S. Military Rockets and Missiles][ref_parsch_x47]\] \[[Northrop Grumman X-47B][ref_x47b_wikipedia]\].
 
-**On 14 May 2013 an X-47B was catapulted from USS George H.W. Bush and on 10 July 2013 one made an arrested landing aboard her**, catching the three-wire and then on a second approach the two-wire, with a third approach abandoned after the aeroplane detected a navigation subsystem failure \[[Cahn, Navy drone fails third aircraft carrier landing attempt][ref_cahn_third]\].
+**On 14 May 2013 an X-47B was catapulted from USS George H.W. Bush and on 10 July 2013 one made an arrested landing aboard her**, catching the three-wire and then on a second approach the two-wire, with a third approach abandoned once the aeroplane had detected a navigation subsystem failure \[[Northrop Grumman X-47B][ref_x47b_wikipedia]\] \[[Unmanned X-47B makes historic landing aboard USS George H.W. Bush, NAVAIR][ref_navair_first_trap]\] \[[Gresham, Details of the X-47B's first autonomous carrier landing][ref_gresham_details]\] \[[Cahn, Navy drone fails third aircraft carrier landing attempt][ref_cahn_third]\].
 
-**In April 2015 an X-47B refuelled from a tanker autonomously**, and in May 2015 the primary test programme was declared complete.
+**In April 2015 an X-47B refuelled from a tanker autonomously**, and in May 2015 the primary test programme was declared complete \[[Northrop Grumman X-47B][ref_x47b_wikipedia]\].
 
 ### Verified by Independent Derivation
 
@@ -581,7 +583,7 @@ $$\frac{20{,}185}{19{,}000} - 1 = 0.0624$$
 
 **The deck sets a precision requirement of one metre or better in height** if a particular wire is to be chosen rather than accepted, and that requirement is on a measurement relative to a moving ship.
 
-**The previous article's inherited payload fraction did not hold for this aeroplane**, and the direction of the failure is the one that article predicted.
+**The previous article's inherited payload fraction did not hold for this aeroplane**, and the failure ran in the direction that article predicted.
 
 **The approach speed constraint did not size this wing**, since the achieved wing loading is below every value that constraint implies.
 
@@ -591,7 +593,7 @@ $$\frac{20{,}185}{19{,}000} - 1 = 0.0624$$
 
 ### Inference
 
-**The relative navigation system is what made the rest of the aeroplane ordinary**, inferred from the geometry rather than from any statement of achieved accuracy, and the sources for the X-47B describe precision satellite guidance without saying that it was relative.
+**The relative navigation system is what made the rest of the aeroplane ordinary**, inferred from the geometry in the absence of any statement of achieved accuracy, and the programme manager described the guidance as precision relative navigation without stating its accuracy \[[Navy's unmanned carrier aircraft performs first touch and go][ref_first_cat]\].
 
 **The wing was sized by fuel volume or by low-speed handling margin rather than by approach speed**, inferred from the margin between the achieved wing loading and the constraint.
 
@@ -599,13 +601,13 @@ $$\frac{20{,}185}{19{,}000} - 1 = 0.0624$$
 
 **What accuracy the navigation system achieved.** No traceable figure has been found.
 
-**Whether the wave-off of the third approach on 10 July 2013 was automatic.** The accounts agree that the aeroplane detected the fault and disagree on who waved it off.
+**Whether the wave-off of the third approach on 10 July 2013 was automatic.** The sources concur that the aeroplane detected the fault, and they divide on who waved it off.
 
-**Which published range is right.** The encyclopaedia gives 2,100 nautical miles and the specialist directory 3,500, and neither says whether its figure is a range or a radius.
+**Which published range is right.** Both label their figure a range, the encyclopaedia giving 2,100 nautical miles and the specialist directory 3,500, and neither states the mission profile behind its figure.
 
 **What the wind over the deck was on 10 July 2013.** The reading of the quoted 145 knots is argued from the aeroplane's wing loading and from the fact that a deck distance implies a deck speed, and that argument is not a substitute for a recorded figure.
 
-**What the X-47B weighs empty.** Published figures conflate empty and zero-fuel weight and the two differ by the payload.
+**What the X-47B weighs empty.** The encyclopaedia entry labels its empty weight a zero-fuel weight \[[Northrop Grumman X-47B][ref_x47b_wikipedia]\], and the two differ by the payload.
 
 **Whether the aeroplane could have met the endurance the original naval requirement asked for.** Its range is published and its loiter is not.
 
@@ -623,15 +625,15 @@ $$\frac{20{,}185}{19{,}000} - 1 = 0.0624$$
 
 **The Northrop Grumman X-47B is the aeroplane that made a carrier deck a place an unmanned aircraft can use.**
 
-**The binding unknown was never the aerodynamics and never the autonomy in the sense the word usually carries.** It was whether a position could be known with respect to a moving ship to the precision the deck demands. **The deck's geometry sets that precision and it is unforgiving**, because a normal glide slope of 3.5 degrees converts height into distance at about sixteen feet per foot, and the fifty feet between arresting pendants is only about three feet of height.
+**The binding unknown was never the aerodynamics and never the autonomy in the sense the word usually carries.** It was whether a position could be known with respect to a moving ship to the precision the deck demands. **The deck's geometry sets that precision and leaves little room for error**, because a normal glide slope of 3.5 degrees converts height into distance at about sixteen feet per foot, and the fifty feet between arresting pendants is only about three feet of height.
 
-**A metre of height error is about a whole wire.** That is why the programme's navigation was relative rather than absolute, and it is why an aeroplane that could do this could also be built to ordinary tolerances everywhere else.
+**A metre of height error is about one wire spacing.** That is why the programme's navigation was relative rather than absolute, and why an aeroplane that could do this could also be built to ordinary tolerances everywhere else \[[Navy's unmanned carrier aircraft performs first touch and go][ref_first_cat]\].
 
-**The record it left is the whole deck cycle.** Catapult launch in May 2013, arrested landing in July, night flying in 2014, operations alongside manned aircraft in the same pattern, and autonomous refuelling in 2015. **The third approach of 10 July 2013 was abandoned after the aeroplane detected a navigation subsystem failure**, the accounts differing on whether the wave-off itself was automatic, and a demonstration that produced two traps and one correct refusal is worth more than three traps.
+**The record it left covers the deck cycle from launch to refuelling.** Catapult launch in May 2013, arrested landing in July, night flying in 2014, operations alongside manned aircraft in the same pattern, and autonomous refuelling in 2015 \[[Northrop Grumman X-47B][ref_x47b_wikipedia]\]. **On the third approach of 10 July 2013 a navigation subsystem failed, the aeroplane registered the fault, and the approach was abandoned**, the accounts differing on whether the wave-off was automatic, and a demonstration that produced two traps and one correct refusal is worth more than three traps \[[Cahn, Navy drone fails third aircraft carrier landing attempt][ref_cahn_third]\] \[[Sicard, Navy: glitch in X-47B test only proves unmanned aircraft's reliability][ref_sicard_glitch]\].
 
-**This article also scores the previous one, which sized this requirement with no aeroplane to measure.** That article predicted a gross mass of 32,539 pounds from an inherited payload fraction of 0.12293, and named that fraction as its weakest assumption because a designer under carrier weight pressure might trade it rather than accept a larger aeroplane. **The X-47B carries the same payload as the X-45C at a fraction of 0.10737 and a mass 1.287 times the prediction.** It did both of the things that were predicted, and more of each than was predicted.
+**This article also scores the previous one, whose sizing had no aeroplane to check it against.** That article predicted a gross mass of 32,539 pounds from an inherited payload fraction of 0.12293, and named that fraction as its weakest assumption because a designer under carrier weight pressure might trade it to avoid a larger aeroplane \[[previous article][related_post_a343_boeing_x46]\]. **The X-47B carries the same payload as the X-45C at a fraction of 0.10737 and a mass 1.287 times the prediction.** \[[Parsch, Northrop Grumman X-47, Directory of U.S. Military Rockets and Missiles][ref_parsch_x47]\] Both predicted changes appeared, each larger than foreseen.
 
-**One prediction held and one failed in a way worth keeping.** The thrust to weight ratio of 0.382 fell inside the assumed band. **The approach speed constraint, which that article used to size a wing, is satisfied by this aeroplane with a wide margin and therefore did not size its wing.** A constraint that binds in an argument and not in the hardware is a true constraint used in the wrong role, and that is the most useful thing this aeroplane says about the one before it.
+**One prediction held and one failed usefully.** The thrust to weight ratio of 0.382 fell inside the assumed band. **The approach speed constraint, which that article used to size a wing, is met by this aeroplane with room to spare and therefore did not size its wing.** A constraint that binds in an argument and not in the hardware is a true constraint used in the wrong role, the most useful lesson this aeroplane holds for the one before it.
 
 ## References
 
@@ -655,6 +657,7 @@ $$\frac{20{,}185}{19{,}000} - 1 = 0.0624$$
 
 - [Arresting gear][ref_arresting_gear_wikipedia]
 - [Cahn, Navy drone fails third aircraft carrier landing attempt][ref_cahn_third]
+- [F100-PW-220U powered X-47B, Pratt and Whitney][ref_pw_f100_220u]
 - [Gresham, Details of the X-47B's first autonomous carrier landing][ref_gresham_details]
 - [Joint Precision Approach and Landing System, Collins Aerospace][ref_jpals_collins]
 - [Navy's unmanned carrier aircraft performs first touch and go][ref_first_cat]
@@ -682,6 +685,7 @@ $$\frac{20{,}185}{19{,}000} - 1 = 0.0624$$
 [ref_navair_first_trap]: https://www.navair.navy.mil/node/20401
 [ref_nimitz_wikipedia]: https://en.wikipedia.org/wiki/Nimitz-class_aircraft_carrier
 [ref_parsch_x47]: https://www.designation-systems.net/dusrm/app4/x-47.html
+[ref_pw_f100_220u]: https://filecache.mediaroom.com/mr5mr_prattwhitney/177490/download/UnmannedSystems-S16201.pdf
 [ref_sicard_glitch]: https://web.archive.org/web/20160207020659/http://www.nationaldefensemagazine.org/blog/Lists/Posts/Post.aspx?ID=1199
 [ref_tailhook_wikipedia]: https://en.wikipedia.org/wiki/Tailhook
 [ref_tarantola_arresting]: https://gizmodo.com/5854725/how-to-stop-a-jet-dead-in-its-tracks-in-two-seconds

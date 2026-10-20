@@ -13,7 +13,7 @@ series_index: 4
 <!-- A300 -->
 <script>console.log("A300");</script>
 
-The [Douglas X-3 Stiletto][ref_douglas_x3] was built to sustain Mach 2 on a wing thinner and of lower aspect ratio than anything then flown, and to demonstrate that such an airframe could be manufactured in [titanium][ref_titanium]. It never reached Mach 2. It never reached Mach 1.3 except in a dive. By the conventional accounting it is the least successful aircraft in this series so far, and it produced the single most consequential data set of the early X-planes. This article is the fourth in the [X-Planes series][related_post_a297_xplanes_framing] and the third per-aircraft treatment, following the [Bell X-1][related_post_a298_bell_x1] and the [Bell X-2][related_post_a299_bell_x2]. The National Advisory Committee for Aeronautics, abbreviated NACA throughout and reconstituted in 1958 as the National Aeronautics and Space Administration, abbreviated NASA, supplied the research programme. The Air Force supplied the money. The [Douglas Aircraft Company][ref_douglas_aircraft] supplied an airframe designed around an engine that was never delivered.
+The [Douglas X-3 Stiletto][ref_douglas_x3] was built to sustain Mach 2 on a very thin wing of very low aspect ratio, and to demonstrate that such an airframe could be manufactured in [titanium][ref_titanium]. It never reached Mach 2. It never reached Mach 1.3, and it exceeded Mach 1 only in a dive \[[Day 1997][research_coupling_history_1997]\]. By the conventional accounting it is the least successful aircraft in this series so far, and it produced the single most consequential data set of the early X-planes. This article is the fourth in the [X-Planes series][related_post_a297_xplanes_framing] and the third per-aircraft treatment, following the [Bell X-1][related_post_a298_bell_x1] and the [Bell X-2][related_post_a299_bell_x2]. The National Advisory Committee for Aeronautics, abbreviated NACA throughout and reconstituted in 1958 as the National Aeronautics and Space Administration, abbreviated NASA, supplied the research programme \[[Wikipedia, NACA][ref_naca]\] \[[NASA 2014][ref_nasa_x3_stiletto]\]. The Air Force sponsored the aircraft \[[Boslaugh][ref_ethw_x3]\]. The [Douglas Aircraft Company][ref_douglas_aircraft] supplied an airframe designed around an engine that was never delivered.
 
 ## The Research Question
 
@@ -27,9 +27,9 @@ with $\theta$ the local surface inclination in radians. Integrating over a symme
 
 $$\frac{D_{w}(4.5\%)}{D_{w}(8\%)} = \left( \frac{4.5}{8.0} \right)^2 = 0.32$$
 
-of the wave drag of the [X-1][related_post_a298_bell_x1] section at the same conditions. That is an enormous gain and it is why every supersonic aircraft that followed has a thin wing. The difficulty is that a thin wing has almost no internal volume for structure or fuel, so its stiffness and strength must come from material rather than from depth, and its bending capability falls as the cube of thickness for a given cap area. Titanium was the candidate material because its specific strength exceeds aluminium and it retains that advantage to higher temperature.
+of the wave drag of the [X-1][related_post_a298_bell_x1] section at the same conditions. That gain is enormous, and it explains why supersonic aircraft are given thin wings. The difficulty is that a thin wing has almost no internal volume for structure or fuel, so its stiffness and strength must come from material rather than from depth, and its bending capability falls as the cube of thickness for a given cap area. Titanium was the candidate material because its specific strength exceeds aluminium and it retains that advantage to higher temperature \[[Wikipedia, Titanium][ref_titanium]\].
 
-The structural difficulty can be stated exactly. For a wing box of chord $c$ and thickness ratio $\tau = t/c$, the structural depth is $h_s = \tau c$ and the second moment of area of the cap material about the neutral axis is
+The structural difficulty can be stated quantitatively. For a wing box of chord $c$ and thickness ratio $\tau = t/c$, the structural depth is $h_s = \tau c$ and the second moment of area of the cap material about the neutral axis is
 
 $$I_{\text{box}} \approx \frac{A_{\text{cap}} h_s^2}{2} = \frac{A_{\text{cap}} \tau^2 c^2}{2}$$
 
@@ -47,7 +47,7 @@ $$J = \frac{4 A_m^2}{\oint ds / t} \propto \tau^2$$
 
 so a wing at 4.5 percent thickness has roughly a third the torsion constant of one at 8 percent for the same skin gauge and planform. The X-3 buys a factor of three in wave drag and pays a factor of three in torsional stiffness, and the second of those is what puts it near its aeroelastic limits.
 
-The second half of the keystone is that the aircraft was to hold Mach 2 rather than touch it. The [X-1][related_post_a298_bell_x1] and [X-2][related_post_a299_bell_x2] were rocket aircraft that reached a condition and immediately began decelerating, so their data are transients through a point. A turbojet aircraft can hold a condition, which is what turns a measurement into a survey. The distinction is visible in the energy accounting. A rocket aircraft in a ballistic exchange conserves energy height,
+The second half of the keystone is that the aircraft was to hold Mach 2 rather than touch it \[[NASA 2014][ref_nasa_x3_stiletto]\]. The [X-1][related_post_a298_bell_x1] and [X-2][related_post_a299_bell_x2] were rocket aircraft that reached a condition and immediately began decelerating, so their data are transients through a point. A turbojet aircraft can hold a condition, and that ability turns a measurement into a survey. The distinction is visible in the energy accounting. A rocket aircraft in a ballistic exchange conserves energy height,
 
 $$h_e = h + \frac{V^2}{2 g}, \qquad \frac{dh_e}{dt} = P_s = \frac{V (T - D)}{W}$$
 
@@ -55,17 +55,17 @@ and once the propellant is gone $P_s$ is negative everywhere, so every data poin
 
 $$\sigma \propto \frac{1}{\sqrt{T_d}}$$
 
-That distinction is worth stating because it is the reason the programme wanted turbojets in the first place, and it is the reason the engine substitution destroyed the programme's purpose rather than merely reducing its performance.
+That distinction matters because it is the reason the programme wanted turbojets in the first place. It also explains why the engine substitution destroyed the programme's purpose rather than merely reducing its performance \[[Boslaugh][ref_ethw_x3]\].
 
 ## Programme Origin
 
-Douglas began study work in 1945 and received an Air Force contract in 1949. A single aircraft, serial 49-2892, was built. The configuration is the most extreme in this series. A fuselage 20.35 metres long carried a wing of 15.47 square metres and 6.92 metres span, giving an [aspect ratio][ref_aspect_ratio] of
+Douglas began design studies for the Army Air Forces at the end of 1943 \[[Boslaugh][ref_ethw_x3]\], and construction of two aircraft was approved on 30 June 1949 \[[NASA 2014][ref_nasa_x3_stiletto]\]. A single aircraft, serial 49-2892, was built \[[Jenkins Landis and Miller 2003][book_jenkins_landis_miller_2003]\]. The configuration is the most extreme in this series. A fuselage 20.35 metres long including its nose boom carried a wing of 15.47 square metres and 6.92 metres span \[[Fischel et al 1957][research_x3_handling_1957]\], giving an [aspect ratio][ref_aspect_ratio] of
 
 $$A = \frac{b^2}{S} = \frac{6.92^2}{15.47} = 3.10$$
 
 and a mean chord of 2.24 metres. The wing is a small trapezoidal surface attached near the rear of a very long pointed body, which is why the aircraft was named for a knife and why the photographs are misleading about its size.
 
-The propulsion decision is the whole story of the programme and deserves to be stated plainly. The design was sized around two [Westinghouse J46][ref_j46] engines, each expected to deliver about 7000 pounds of thrust with [afterburner][ref_afterburner]. The J46 was late, then troubled, then unavailable. Douglas substituted two [Westinghouse J34][ref_j34] engines of about 4900 pounds each. The installed thrust became
+The propulsion decision is the central fact of the programme's history. The design was sized around two [Westinghouse J46][ref_j46] engines, each expected to deliver about 7000 pounds of thrust with [afterburner][ref_afterburner] \[[Wikipedia, Douglas X-3][ref_douglas_x3]\]. The J46 fell behind schedule, failed to meet its thrust, size and weight requirements, and never became available \[[NASA 2014][ref_nasa_x3_stiletto]\] \[[Boslaugh][ref_ethw_x3]\]. Douglas substituted two [Westinghouse J34][ref_j34] engines of about 4900 pounds each \[[Fischel et al 1957][research_x3_handling_1957]\]. The installed thrust became
 
 $$T_{\text{J34}} = 2 \times 4900 \times 4.448 = 4.36 \times 10^{4} \ \text{newtons}$$
 
@@ -77,7 +77,7 @@ a shortfall of
 
 $$1 - \frac{T_{\text{J34}}}{T_{\text{J46}}} = 30 \ \text{percent}$$
 
-Weight told against the substitution as well, since the two engines were of similar mass while delivering different thrust, so the thrust-to-weight ratio fell in direct proportion,
+Holding the aircraft weight fixed as a first approximation, the thrust-to-weight ratio falls in direct proportion,
 
 $$\frac{(T/W)_{\text{J34}}}{(T/W)_{\text{J46}}} = \frac{T_{\text{J34}}}{T_{\text{J46}}} = 0.70$$
 
@@ -107,7 +107,7 @@ and the area a stream tube must pass through given by
 
 $$\frac{A}{A^{*}} = \frac{1}{M} \left[ \frac{2}{\gamma + 1} \left( 1 + \frac{\gamma - 1}{2} M^2 \right) \right]^{\frac{\gamma + 1}{2 (\gamma - 1)}}$$
 
-which is the relation that sizes every inlet throat. Substituting and solving for Mach number gives the thrust-limited maximum,
+a relation that sizes every inlet throat. Substituting and solving for Mach number gives the thrust-limited maximum,
 
 $$M_{\max}^2 = \frac{2 T}{\gamma \, p \, S \, C_D}$$
 
@@ -119,9 +119,9 @@ A thirty percent thrust shortfall therefore costs
 
 $$\sqrt{0.70} = 0.837$$
 
-in maximum Mach number, taking a design value of 2.0 to 1.67. The aircraft achieved 1.21. The engine substitution alone does not explain the outcome, and the residual is worth chasing because it is where the interesting engineering lies.
+in maximum Mach number, taking a design value of 2.0 to 1.67. The aircraft achieved 1.21 \[[Day 1997][research_coupling_history_1997]\]. The engine substitution alone does not explain the outcome, and the residual repays attention because the interesting engineering lies there.
 
-The inlet supplies most of it. The X-3 had fixed side inlets with no variable geometry, sized for the intended engine and the intended flight condition. A fixed inlet operating supersonically swallows a shock, and in the simplest case that shock is normal to the flow, across which the total pressure recovery is
+The inlet supplies most of it. The X-3 had side inlets, and no source consulted here records any variable geometry in them. Treated as fixed, they would have been sized for the intended engine and the intended flight condition. A fixed inlet operating supersonically swallows a shock, and in the simplest case that shock is normal to the flow, across which the total pressure recovery is
 
 $$\frac{p_{02}}{p_{01}} = \left[ \frac{(\gamma + 1) M_1^2}{(\gamma - 1) M_1^2 + 2} \right]^{\frac{\gamma}{\gamma - 1}} \left[ \frac{\gamma + 1}{2 \gamma M_1^2 - (\gamma - 1)} \right]^{\frac{1}{\gamma - 1}}$$
 
@@ -131,7 +131,7 @@ $$\frac{p_2}{p_1} = \frac{2 \gamma M_1^2 - (\gamma - 1)}{\gamma + 1}, \qquad \fr
 
 $$M_2^2 = \frac{(\gamma - 1) M_1^2 + 2}{2 \gamma M_1^2 - (\gamma - 1)}$$
 
-so that at Mach 2 the flow behind a normal shock is at Mach 0.577 and has been heated by 69 percent, which is the condition the compressor face actually sees. Evaluating the recovery shows how quickly the penalty arrives. At Mach 1.2 the recovery is 0.993 and the loss is negligible. At Mach 1.5 it is 0.930. At Mach 2.0 it is 0.721. Since turbojet thrust scales very nearly with the total pressure delivered to the compressor face,
+so that at Mach 2 the flow behind a normal shock is at Mach 0.577 and has been heated by 69 percent. The compressor face sees that condition. Evaluating the recovery shows how quickly the penalty arrives. At Mach 1.2 the recovery is 0.993 and the loss is negligible. At Mach 1.5 it is 0.930. At Mach 2.0 it is 0.721. Since turbojet thrust scales very nearly with the total pressure delivered to the compressor face,
 
 $$\frac{T}{T_{\text{ideal}}} \approx \frac{p_{02}}{p_{01}}$$
 
@@ -159,7 +159,7 @@ There is a stability limit as well. When spillage becomes large enough the termi
 
 $$\frac{A_0}{A_c} < \left( \frac{A_0}{A_c} \right)_{\text{crit}}$$
 
-and which imposes an unsteady load on the compressor face. A fixed inlet has no way to avoid it except by flying nearer the design point, which is precisely what an underpowered aircraft cannot do. Combining the two effects gives an effective thrust factor of
+and which imposes an unsteady load on the compressor face. A fixed inlet has no way to avoid it except by flying nearer the design point, and an underpowered aircraft cannot do that. Combining the two effects gives an effective thrust factor of
 
 $$0.70 \times 0.721 = 0.505$$
 
@@ -169,7 +169,7 @@ $$M_{\max} = 2.0 \times \sqrt{0.505} = 1.42$$
 
 which is close to what the aircraft did. The remaining gap between 1.42 and 1.21 is attributable to drag being higher than estimated, to installed thrust falling below nameplate, and to the fact that the aircraft could only be pushed past Mach 1 in a dive, and the record does not separate these.
 
-Two further effects deserve to be in the accounting. Turbojet thrust lapses with altitude roughly in proportion to ambient pressure with a ram correction,
+Two further effects enter the accounting. Turbojet thrust lapses with altitude roughly in proportion to ambient pressure with a ram correction,
 
 $$\frac{T(h, M)}{T_{SL}} \approx \frac{p(h)}{p_{SL}} \left( 1 + \frac{\gamma - 1}{2} M^2 \right)^{\frac{\gamma}{\gamma - 1}} \eta_d$$
 
@@ -185,7 +185,7 @@ which diverges as $T$ approaches $D$. An aircraft with a small thrust margin doe
 
 The important structural point is that the two losses compound rather than add. A thirty percent engine shortfall would have been survivable. A twenty-eight percent inlet loss on the intended engine would also have been survivable. Together they halve the available thrust, and halving thrust costs thirty percent of Mach number. The X-3 is a case study in how a system sized against a single design point fails when two of its assumptions move together.
 
-One further consequence deserves stating. The specific excess power available for acceleration is
+One further consequence follows. The specific excess power available for acceleration is
 
 $$P_s = \frac{V (T - D)}{W}$$
 
@@ -193,7 +193,7 @@ and the altitude at which $P_s$ falls to zero is the ceiling,
 
 $$P_s = 0 \quad \Longleftrightarrow \quad T(h) = D(h)$$
 
-so an aircraft short of thrust is short of ceiling as well as of speed, and the X-3 was confined to a lower band of altitudes than intended, where the higher density raises $q$ and therefore drag for the same Mach number. The two penalties reinforce. Thrust-to-weight completes the picture. At a gross mass of 10,161 kilograms,
+so an aircraft short of thrust is short of ceiling as well as of speed, and the X-3 was confined to a lower band of altitudes than intended, where the higher density raises $q$ and therefore drag for the same Mach number. The two penalties reinforce. Thrust-to-weight completes the picture. At the maximum takeoff mass of 10,161 kilograms \[[Wikipedia, Douglas X-3][ref_douglas_x3]\],
 
 $$\frac{T}{W} = \frac{4.36 \times 10^{4}}{10{,}161 \times 9.80665} = 0.44$$
 
@@ -209,13 +209,13 @@ and with the high wing loading and low maximum lift coefficient of this configur
 
 $$n(V) = \frac{\rho V^2 C_{L,\max}}{2 \left( W / S \right)}$$
 
-which for the X-3 falls below unity under about 108 metres per second. That figure is the stall speed derived in the takeoff section below, arrived at from the opposite direction, and the agreement is a useful internal check. The aircraft cannot sustain level flight at all below it. Those two numbers together describe an aircraft that is hard to accelerate and hard to slow down, which is exactly what the flight record shows.
+which for the X-3 falls below unity under about 108 metres per second. That figure is the stall speed derived in the takeoff section below, arrived at from the opposite direction, and the agreement is a useful internal check. The aircraft cannot sustain level flight at all below it. Those two numbers together describe an aircraft that is hard to accelerate and hard to slow down, and the flight record bears that description out \[[NASA 2014][ref_nasa_x3_stiletto]\].
 
 ## Dependent Systems
 
 ### The Wing
 
-The wing is the reason the aircraft exists and it is a genuinely radical object. At 4.5 percent thickness it is thinner than any wing then flown, and at aspect ratio 3.10 it is close to a slender surface rather than a lifting line.
+The wing is the reason the aircraft exists. It is a radical object. Its section is a modified hexagon 4.5 percent thick \[[Fischel et al 1957][research_x3_handling_1957]\], and at aspect ratio 3.10 it behaves more like a slender surface than a lifting line.
 
 Supersonic lift follows the linearized result of [Ackeret 1925][research_ackeret_1925],
 
@@ -249,7 +249,7 @@ with the lateral counterpart the Dutch roll,
 
 $$\omega_{dr} \approx \sqrt{\frac{q S b \, C_{n\beta}}{I_z}}$$
 
-whose frequency for the X-3 is low because $I_z$ is large, so the aircraft is slow to correct a yaw disturbance and quick to roll, which is the combination that feeds the coupling. That the horizontal tail must absorb the trim change is why the tail loads were measured and reported for this aircraft. Subsonically the same aspect ratio is a severe penalty, since the lift-curve slope falls toward the slender-wing limit
+whose frequency for the X-3 is low because $I_z$ is large, so the aircraft is slow to correct a yaw disturbance and quick to roll. That combination feeds the coupling. The horizontal tail must absorb the trim change, and its loads were measured and reported for this aircraft in [Stephenson 1956][research_x3_tail_loads_1956]. Subsonically the same aspect ratio is a severe penalty, since the lift-curve slope falls toward the slender-wing limit
 
 $$C_{L\alpha} \to \frac{\pi A}{2} = 4.87 \ \text{per radian}$$
 
@@ -283,7 +283,7 @@ where the overbar denotes a chordwise mean of the squared surface slope, which i
 
 $$C_{D,w,L} = \frac{4 \alpha^2}{\sqrt{M_\infty^2 - 1}} = \frac{C_L^2 \sqrt{M_\infty^2 - 1}}{4}$$
 
-which at Mach 2 and a cruise lift coefficient near 0.1 contributes only 0.004, so the X-3 at its design point would have been dominated by friction and thickness wave drag rather than by lift-dependent terms. That is the aerodynamic justification for the whole configuration, and it was never tested.
+which at Mach 2 and a cruise lift coefficient near 0.1 contributes only 0.004, so the X-3 at its design point would have been dominated by friction and thickness wave drag rather than by lift-dependent terms. This balance is the aerodynamic justification for the configuration, and it was never tested \[[NASA 2014][ref_nasa_x3_stiletto]\].
 
 The structural consequence of thinness is severe. For a spar of structural depth $h_s$ proportional to thickness ratio, the cap area required to carry a root bending moment is
 
@@ -297,31 +297,31 @@ and the enclosed area $A_m$ scales with thickness, so $J$ scales as thickness sq
 
 $$q_D = \frac{K_\theta}{e S C_{L\alpha}}, \qquad q_R = \frac{K_\theta \, C_{L\delta}}{S \bar{c} \, C_{L\alpha} \left| C_{m\delta} \right|}$$
 
-for divergence and control reversal respectively. The thin wing is not merely harder to build. It is closer to every aeroelastic limit at once, which is why the surviving reports on this configuration are so heavily weighted toward loads and flutter.
+for divergence and control reversal respectively. The thin wing is not merely harder to build. It is closer to every aeroelastic limit at once, and for that reason the surviving reports on this configuration are weighted heavily toward loads and flutter.
 
 ### Titanium and the Manufacturing Problem
 
-The X-3 is among the first aircraft to use titanium extensively in primary structure, and the difficulty was manufacturing rather than design.
+The X-3 is among the first aircraft to use titanium extensively in primary structure \[[NASA 2014][ref_nasa_x3_stiletto]\], and the difficulty was manufacturing rather than design, since Douglas had to develop pioneering procedures for machining, forming and cutting the metal \[[Boslaugh][ref_ethw_x3]\].
 
 The material case is straightforward. Specific strength at temperature is the figure of merit,
 
 $$\left. \frac{\sigma_{\text{allow}}(T)}{\rho_m} \right|_{T = T_w}$$
 
-and titanium at 4500 kilograms per cubic metre retains useful strength to roughly 800 kelvin against aluminium at 2780 and roughly 400. At the recovery temperature the X-3 would have seen at Mach 2,
+and a titanium alloy at about 4500 kilograms per cubic metre \[[Wikipedia, Ti-6Al-4V][ref_ti6al4v]\] withstands moderately high temperatures without creeping \[[Wikipedia, Titanium][ref_titanium]\], whereas aluminium alloy at 2780 kilograms per cubic metre \[[Wikipedia, 2024 Aluminium][ref_aluminium_2024]\] is limited to about 400 kelvin, the limit of 127 degrees Celsius that held the aluminium Concorde to Mach 2.02 \[[Wikipedia, Concorde][ref_concorde]\]. At the recovery temperature the X-3 would have seen at Mach 2,
 
 $$T_r = T_\infty \left( 1 + r \frac{\gamma - 1}{2} M_\infty^2 \right)$$
 
-with $r = 0.89$ and $T_\infty = 218.6$ kelvin, the surface reaches 374 kelvin, which aluminium survives. Titanium was therefore not required for the X-3's own envelope. It was being evaluated for the aircraft that would come after, which is an unusual and honest thing for a research programme to admit and is stated as such in the design record.
+with $r = 0.89$ and $T_\infty = 218.6$ kelvin, the surface reaches 374 kelvin, which aluminium survives. Titanium was therefore not required for the X-3's own envelope. It was adopted to save weight, after the structure was found in July 1949 to be running unacceptably heavy \[[Boslaugh][ref_ethw_x3]\], and its large-scale use was itself one of the things the aircraft was built to test \[[NASA 2014][ref_nasa_x3_stiletto]\].
 
-The manufacturing problem is that titanium work-hardens rapidly, galls against tooling, reacts with oxygen and nitrogen at forming temperature, and has a springback that makes formed parts dimensionally unpredictable. Sheet forming is governed by the ratio of yield to modulus,
+The manufacturing problem is that titanium galls against tooling, reacts with oxygen and nitrogen at elevated temperature \[[Wikipedia, Titanium][ref_titanium]\], and has a springback that makes formed parts dimensionally unpredictable. Sheet forming is governed by the ratio of yield to modulus,
 
 $$\frac{\sigma_y}{E}$$
 
-which for titanium is roughly twice the aluminium value. The springback of a sheet bent to radius $R_i$ and released follows
+which for Ti-6Al-4V, at a yield stress near 900 megapascals and a modulus near 110 gigapascals \[[Wikipedia, Ti-6Al-4V][ref_ti6al4v]\], is roughly twice the value for 2024 aluminium at about 270 megapascals and 73 gigapascals \[[Wikipedia, 2024 Aluminium][ref_aluminium_2024]\]. The springback of a sheet bent to radius $R_i$ and released follows
 
 $$\frac{R_i}{R_f} = 1 - 3 \frac{\sigma_y R_i}{E t_s} + 4 \left( \frac{\sigma_y R_i}{E t_s} \right)^3$$
 
-with $t_s$ the sheet thickness and $R_f$ the radius after release, so the recovery scales with the group $\sigma_y R_i / E t_s$ and doubling the yield-to-modulus ratio roughly doubles the correction required. Elastic recovery after forming is therefore roughly twice as large as for aluminium and tooling must be overbent to compensate. The property data behind the material decision were being generated at the same time, and [Barrett 1950][research_titanium_compressive_1950] supplies compressive properties of titanium sheet at elevated temperature, which is the relevant loading for an upper wing surface and the relevant condition for a supersonic aircraft. Long-term exposure changes the properties again, and [Ellis 2012][research_titanium_thermal_exposure_2012] measures what sustained heating does to titanium elevated-temperature strength, which is the life question rather than the strength question. Later alloy and fabrication development runs through [Kaneko et al 1982][research_beta_titanium_1982] and [NASA 1999][research_induction_bonding_1999], with the composite alternatives that eventually displaced some of it described by [Turner and Grande 1978][research_arrow_wing_composite_1978]. Contemporary work on exactly these problems appears in [Saidi et al 2021][research_saidi_2021], [Kim et al 2022][research_kim_lee_ti_2022], and [Shu et al 2025][research_shu_ren_2025], which is a measure of how far from solved it remains. The later supersonic cruise programmes inherited the same difficulties, documented in [Lunde 1977][research_titanium_mach27_1977], [Guess et al 1981][research_advanced_materials_sst_1981], [NASA 1990][research_advanced_fabrication_1990], and the joining problem in [Scott 1972][research_titanium_rene41_bonding_1972].
+with $t_s$ the sheet thickness and $R_f$ the radius after release, so the recovery scales with the group $\sigma_y R_i / E t_s$ and doubling the yield-to-modulus ratio roughly doubles the correction required. It follows that elastic recovery after forming is roughly twice as large as for aluminium, and tooling must be overbent to compensate. The property data behind the material decision were being generated at the same time, and [Barrett 1950][research_titanium_compressive_1950] supplies compressive properties of titanium sheet at elevated temperature, the loading relevant to an upper wing surface and the condition relevant to a supersonic aircraft. Long-term exposure changes the properties again, and [Ellis 2012][research_titanium_thermal_exposure_2012] measures what sustained heating does to titanium elevated-temperature strength, a question of service life as distinct from strength. Later alloy and fabrication development runs through [Kaneko et al 1982][research_beta_titanium_1982] and [NASA 1999][research_induction_bonding_1999], with the composite alternatives that eventually displaced some of it described by [Turner and Grande 1978][research_arrow_wing_composite_1978]. Contemporary work on the same problems appears in [Saidi et al 2021][research_saidi_2021], [Kim et al 2022][research_kim_lee_ti_2022], and [Shu et al 2025][research_shu_ren_2025], and its volume is a measure of how far from solved the problem remains. The later supersonic cruise programmes inherited the same difficulties, documented in [Lunde 1977][research_titanium_mach27_1977], [Guess et al 1981][research_advanced_materials_sst_1981], [NASA 1990][research_advanced_fabrication_1990], and the joining problem in [Scott 1972][research_titanium_rene41_bonding_1972].
 
 ### Propulsion and the Inlet
 
@@ -333,7 +333,7 @@ with $\pi_c$ the compressor pressure ratio, and the [afterburner][ref_afterburne
 
 $$\frac{T_{AB}}{T_{\text{dry}}} \approx \sqrt{\frac{T_{07}}{T_{05}}}$$
 
-with the subscripts denoting nozzle and turbine exit total temperatures. The J34 with afterburner produced roughly 4900 pounds against 3370 dry, a ratio near 1.45 consistent with that relation. The engine was characterized directly in an altitude chamber in [Reller and Dowman 1949][research_j34_afterburner_1949], which is a measurement of the actual powerplant this aircraft flew with and establishes that its altitude performance was known before the substitution rather than discovered afterward. Afterburner behaviour at altitude was a sustained research subject in its own right, pursued for other engines of the period by [Useller and Russey 1955][research_j71_afterburner_1955] and [Groesbeck and Peters 1958][research_iroquois_afterburner_1958] and continuing much later through [Johnsen and Cullom 1977][research_afterburner_configs_1977] and [NASA 1979][research_swirl_afterburner_1979], with the nozzle and cooling arrangement that surrounds it characterized by [Wallner and Jansen 1951][research_cooling_shroud_ejector_1951]. Installed performance degrades further from causes the test cell does not see, as [Stromberg 1981][research_engine_deterioration_1981] documents, and the eventual answer to the whole class of problem is to control engine and airframe together, which [Burcham et al 1995][research_integrated_propulsion_control_1995] takes up. Compressor behaviour away from the design point, which is what a fixed inlet forces, is examined by [Biesiadny 1974][research_compressor_offnominal_1974], with the flow characteristics that govern it compared by [Evans et al 1974][research_compressor_flow_1974].
+with the subscripts denoting nozzle and turbine exit total temperatures. The J34 with afterburner produced roughly 4900 pounds against 3370 dry, a ratio near 1.45 consistent with that relation \[[Fischel et al 1957][research_x3_handling_1957]\]. The engine was characterized directly in an altitude chamber in [Reller and Dowman 1949][research_j34_afterburner_1949]. That measurement concerns the actual powerplant this aircraft flew with, and it establishes that the altitude performance was known before the substitution, not discovered afterward. Afterburner behaviour at altitude was a sustained research subject in its own right, pursued for other engines of the period by [Useller and Russey 1955][research_j71_afterburner_1955] and [Groesbeck and Peters 1958][research_iroquois_afterburner_1958] and continuing much later through [Johnsen and Cullom 1977][research_afterburner_configs_1977] and [NASA 1979][research_swirl_afterburner_1979], with the nozzle and cooling arrangement that surrounds it characterized by [Wallner and Jansen 1951][research_cooling_shroud_ejector_1951]. Installed performance degrades further from causes the test cell does not see, as [Stromberg 1981][research_engine_deterioration_1981] documents, and the eventual answer to the whole class of problem is to control engine and airframe together, which [Burcham et al 1995][research_integrated_propulsion_control_1995] takes up. Compressor behaviour away from the design point, the regime a fixed inlet forces, is examined by [Biesiadny 1974][research_compressor_offnominal_1974], with the flow characteristics that govern it compared by [Evans et al 1974][research_compressor_flow_1974].
 
 Separating thrust from drag in flight is itself a discipline, since only their difference is measurable from the trajectory,
 
@@ -349,37 +349,37 @@ with $\eta_d$ the inlet pressure recovery. A fixed normal-shock inlet has $\eta_
 
 $$\tan \theta = 2 \cot \beta_o \frac{M_1^2 \sin^2 \beta_o - 1}{M_1^2 \left( \gamma + \cos 2 \beta_o \right) + 2}$$
 
-and the normal Mach number ahead of the shock is $M_{1n} = M_1 \sin \beta_o$, so the total pressure loss is that of a normal shock at $M_{1n}$ rather than at $M_1$. Because the loss grows steeply with normal Mach number, splitting one strong shock into several weak ones recovers most of the total pressure. A two-shock system at Mach 2 recovers roughly 0.90 against 0.72 for a single normal shock, and a three-shock system approaches 0.95. Thrust scales with that recovery directly, so the difference between a fixed and a variable inlet at Mach 2 is roughly a quarter of the installed thrust. The remedy known at the time was a variable geometry inlet using oblique shocks, since a sequence of $n$ oblique shocks followed by a weak normal shock recovers far more total pressure than a single strong normal shock. The NACA was investigating precisely this while the X-3 was being built, through [Ferri and Nucci 1946][research_supersonic_inlet_new_1946], [Goelzer and Cortright 1951][research_conical_spike_side_inlet_1951], [Dryer and Beke 1952][research_normal_shock_side_inlet_1952], [Allen and Beke 1953][research_conical_spike_recovery_1953], [Beke and Allen 1953][research_conical_nose_inlet_1953], and later with throat bleed by [Mitchell and Campbell 1957][research_ramp_inlet_bleed_1957] and active control by [Anderson and Bowditch 1958][research_inlet_control_1958]. Side-inlet placement specifically, which is the X-3 arrangement, was studied by [Hasel et al 1953][research_scoop_inlet_locations_1953]. The X-3 did not receive any of it. The problem did not go away, and improved compression surfaces are still being designed and flight tested, as [Bulman et al 1997][research_hypersonic_inlet_strut_1997], [Fernandez et al 2001][research_rbcc_inlet_2001], and [St. John and Frederick 2013][research_channeled_inlet_flight_2013] show, the last of these confronting off-design behaviour specifically, which is the X-3's failure mode. Modern treatments of the same loss mechanism appear in [Lee and Choi 2021][research_lee_choi_2021] and [Yang et al 2024][research_yang_jin_2024], with off-design behaviour in [Nikolaidis et al 2022][research_nikolaidis_2022] and airframe integration in [Su et al 2025][research_su_liu_2025].
+and the normal Mach number ahead of the shock is $M_{1n} = M_1 \sin \beta_o$, so the total pressure loss is that of a normal shock at $M_{1n}$ rather than at $M_1$. Because the loss grows steeply with normal Mach number, splitting one strong shock into several weak ones recovers most of the total pressure. A two-shock system at Mach 2 recovers roughly 0.90 against 0.72 for a single normal shock, and a three-shock system approaches 0.95. Thrust scales with that recovery directly, so the difference between a fixed and a variable inlet at Mach 2 is roughly a quarter of the installed thrust. The remedy known at the time was a variable geometry inlet using oblique shocks, since a sequence of $n$ oblique shocks followed by a weak normal shock recovers far more total pressure than a single strong normal shock. The NACA was investigating this remedy while the X-3 was being built, through [Ferri and Nucci 1946][research_supersonic_inlet_new_1946], [Goelzer and Cortright 1951][research_conical_spike_side_inlet_1951], [Dryer and Beke 1952][research_normal_shock_side_inlet_1952], [Allen and Beke 1953][research_conical_spike_recovery_1953], [Beke and Allen 1953][research_conical_nose_inlet_1953], and later with throat bleed by [Mitchell and Campbell 1957][research_ramp_inlet_bleed_1957] and active control by [Anderson and Bowditch 1958][research_inlet_control_1958]. Side-inlet placement, the X-3 arrangement, was studied by [Hasel et al 1953][research_scoop_inlet_locations_1953]. No source consulted here records that the X-3 received any of it. The problem did not go away, and improved compression surfaces are still being designed and flight tested, as [Bulman et al 1997][research_hypersonic_inlet_strut_1997], [Fernandez et al 2001][research_rbcc_inlet_2001], and [St. John and Frederick 2013][research_channeled_inlet_flight_2013] show, the last of these confronting off-design behaviour, the failure mode of the X-3. [Lee and Choi 2021][research_lee_choi_2021] and [Yang et al 2024][research_yang_jin_2024] treat the loss mechanism in modern terms, with off-design behaviour in [Nikolaidis et al 2022][research_nikolaidis_2022] and airframe integration in [Su et al 2025][research_su_liu_2025].
 
 ### Inertia Distribution and the Coupling Problem
 
-This is the subsystem that made the aircraft valuable, and it is a direct consequence of the configuration rather than an incidental property.
+This subsystem made the aircraft valuable. It follows directly from the configuration and is not an incidental property.
 
-Mass in the X-3 is concentrated along a 20.35 metre fuselage. The wings are small, short, and carry little. The [moments of inertia][ref_moment_of_inertia] that result are extremely asymmetric. Taking a mass of 8000 kilograms at the test condition and radii of gyration of 1.0 metres in roll and 6.1 metres in pitch,
+Mass in the X-3 is concentrated along a 20.35 metre fuselage. The wings are small, short, and carry little \[[NASA 2014][ref_nasa_x3_stiletto]\]. The [moments of inertia][ref_moment_of_inertia] that result are extremely asymmetric. Taking the mass properties tabulated by [Day 1997][research_coupling_history_1997], a weight of 21,900 pounds with moments of inertia of 4100, 61,200 and 65,100 slug square feet in roll, pitch and yaw, and converting,
 
-$$I_x = m k_x^2 = 8.0 \times 10^{3}, \qquad I_y = m k_y^2 = 2.98 \times 10^{5} \ \text{kilogram square metres}$$
+$$I_x = 5.56 \times 10^{3}, \qquad I_y = 8.30 \times 10^{4}, \qquad I_z = 8.83 \times 10^{4} \ \text{kilogram square metres}$$
 
-and with $I_z \approx I_x + I_y$ the asymmetry ratio is
+so that $I_z \approx I_x + I_y$ holds within one percent and the asymmetry ratio is
 
-$$\frac{I_y}{I_x} = 37.2$$
+$$\frac{I_y}{I_x} = 14.9$$
 
-against 7.5 for the [X-2][related_post_a299_bell_x2]. The X-3 is five times more inertially asymmetric than the aircraft that inertia coupling destroyed.
+against 5.1 for the [X-2][related_post_a299_bell_x2] in the same tabulation. The X-3 is about three times more inertially asymmetric than the aircraft that inertia coupling destroyed.
 
 The consequence follows from the analysis derived in the [X-2 article][related_post_a299_bell_x2]. Divergence in a rolling manoeuvre occurs when the roll rate approaches the lower of the two aerodynamic natural frequencies,
 
 $$\omega_\alpha = \sqrt{\frac{q S \bar{c} \left| C_{m\alpha} \right|}{I_y}}, \qquad \omega_\beta = \sqrt{\frac{q S b \, C_{n\beta}}{I_z}}, \qquad p_{\text{crit}} \approx \min \left( \omega_\alpha, \omega_\beta \right)$$
 
-Evaluate at the condition of the October 1954 flights, Mach 0.92 at 9144 metres, where the static pressure is 30,089 pascals and
+Evaluate at the condition of the first roll of October 1954, Mach 0.92 at 9144 metres \[[Day 1997][research_coupling_history_1997]\], where the static pressure is 30,089 pascals and
 
 $$q = \frac{\gamma}{2} p M^2 = 0.7 \times 30{,}089 \times 0.846 = 1.78 \times 10^{4} \ \text{pascals}$$
 
 With representative stiffness coefficients of 0.3 and 0.1 per radian,
 
-$$\omega_\alpha = 0.79 \ \text{radians per second}, \qquad \omega_\beta = 0.79 \ \text{radians per second}$$
+$$\omega_\alpha = 1.49 \ \text{radians per second}, \qquad \omega_\beta = 1.47 \ \text{radians per second}$$
 
-$$p_{\text{crit}} \approx 0.79 \ \text{radians per second} = 45 \ \text{degrees per second}$$
+$$p_{\text{crit}} \approx 1.47 \ \text{radians per second} = 84 \ \text{degrees per second}$$
 
-Forty-five degrees per second is not an aggressive roll rate. It is an ordinary one, well inside what a pilot commands without thinking about it, and roughly a third of the already dangerous X-2 threshold of 154. The X-3 could not be rolled briskly at any point in its envelope without entering the coupled regime.
+Eighty-four degrees per second is not an aggressive roll rate. It is a moderate one, well inside the peak roll rates the X-3 reached in flight test, and about a third of the 255 degrees per second that the same method gives for the X-2 at Mach 3.2. [Fischel et al 1957][research_x3_handling_1957] found that those peak rates exceeded the calculated resonant frequencies and that the coupled regime was avoided only because the average rate over a full roll stayed low.
 
 Roll damping is what would ordinarily limit the rate reached for a given input, and for a thin low aspect ratio wing it is weak. The steady roll rate from an aileron deflection is
 
@@ -393,7 +393,7 @@ so it weakens with Mach number exactly as the stiffness derivatives do. The roll
 
 $$\tau_r = -\frac{2 I_x V}{q S b^2 C_{lp}}$$
 
-and a small $I_x$, which is the X-3's defining inertia property, makes that time constant short. The aircraft therefore reaches its steady roll rate quickly, which leaves the pilot even less time between input and threshold. The approach to steady state is first order,
+and the small $I_x$ that defines the X-3's inertia distribution makes that time constant short. The aircraft therefore reaches its steady roll rate quickly, which leaves the pilot even less time between input and threshold. The approach to steady state is first order,
 
 $$p(t) = p_{ss} \left( 1 - e^{-t / \tau_r} \right)$$
 
@@ -403,15 +403,15 @@ $$t_{\text{crit}} = -\tau_r \ln \left( 1 - \frac{p_{\text{crit}}}{p_{ss}} \right
 
 A small span appears twice in the steady-rate expression, once directly and once through the damping, so the X-3 reaches a high roll rate for a modest input and has little to arrest it.
 
-The loads a rolling manoeuvre imposes were also understood, and [NACA 1946][research_rolling_pullout_loads_1946] analyses wing and aileron loads in rolling pull-outs specifically, which is the manoeuvre class that produced the departure. The analytical and experimental groundwork for predicting what happened to the X-3 was therefore substantially complete before the aircraft flew, with the supporting flight measurement technique established by [Talmage and Reeder 1947][research_flight_stability_data_1947] and further damping data supplied by [Brown and Adams 1948][research_damping_triangular_alt_1948]. What was missing was its application to this configuration.
+The loads a rolling manoeuvre imposes were also understood, and [NACA 1946][research_rolling_pullout_loads_1946] analyses wing and aileron loads in rolling pull-outs, the manoeuvre class that produced the departure. The analytical and experimental groundwork for predicting what happened to the X-3 was therefore substantially complete before the aircraft flew, with the supporting flight measurement technique established by [Talmage and Reeder 1947][research_flight_stability_data_1947] and further damping data supplied by [Brown and Adams 1948][research_damping_triangular_alt_1948]. What was missing was its application to this configuration.
 
-The phenomenon did not stop with the X-3. Uncommanded lateral-directional motions at transonic conditions recurred across the fleet for decades, and [Chambers and Hall 2003][research_uncommanded_lateral_2003] reviews that history directly, which is the document that places the X-3 events in their full sequence rather than treating them as an isolated incident. Reynolds number proves to matter for the derivatives involved, as [Owens et al 2002][research_reynolds_sst_stability_2002] shows for a supersonic transport, and control-surface effectiveness on the low aspect ratio planforms that provoke the problem is characterized by [Bennett 2000][research_clipped_delta_control_2000].
+The phenomenon did not stop with the X-3. Uncommanded lateral-directional motions at transonic conditions recurred across the fleet for decades, and [Chambers and Hall 2003][research_uncommanded_lateral_2003] reviews that history directly. The review places the X-3 events in their full sequence and does not treat them as an isolated incident. Reynolds number proves to matter for the derivatives involved, as [Owens et al 2002][research_reynolds_sst_stability_2002] shows for a supersonic transport, and control-surface effectiveness on the low aspect ratio planforms that provoke the problem is characterized by [Bennett 2000][research_clipped_delta_control_2000].
 
 The growth rate past the threshold follows as before,
 
 $$\lambda = \sqrt{p^2 - \omega_\alpha^2}, \qquad \tau_{\text{div}} = \frac{1}{\lambda}$$
 
-so a roll at 1.5 radians per second, or 86 degrees per second, gives $\lambda = 1.28$ per second and an e-folding time of 0.78 seconds. The X-3 therefore diverges more readily than the X-2 but somewhat more slowly once it does, because its aerodynamic frequencies and its achievable roll rates are both lower. The coupled equations themselves are those derived for the [X-2][related_post_a299_bell_x2],
+so a roll at 2.5 radians per second, or 143 degrees per second, gives $\lambda = 2.00$ per second and an e-folding time of 0.50 seconds. The X-3 thus diverges more readily than the X-2 but somewhat more slowly once it does, because its aerodynamic frequencies and its achievable roll rates are both lower. The coupled equations themselves are those derived for the [X-2][related_post_a299_bell_x2],
 
 $$I_y \dot{q} = M + \left( I_z - I_x \right) p r, \qquad I_z \dot{r} = N + \left( I_x - I_y \right) p q$$
 
@@ -423,29 +423,29 @@ $$\ddot{\beta} + \left( \omega_\beta^2 - p^2 \right) \beta = \left( \frac{I_x - 
 
 in which the effective stiffness in each axis is reduced by $p^2$. The inertia ratios multiplying the cross terms,
 
-$$\mu_1 = \frac{I_z - I_x}{I_y} = 1.00, \qquad \mu_2 = \frac{I_x - I_y}{I_z} = -0.95$$
+$$\mu_1 = \frac{I_z - I_x}{I_y} = 1.00, \qquad \mu_2 = \frac{I_x - I_y}{I_z} = -0.88$$
 
-are both near unity in magnitude for this configuration, which is the maximum the geometry permits and confirms that the X-3 sits at the worst corner of the coupling problem rather than merely inside it.
+are both near unity in magnitude for this configuration. Unity is the maximum the geometry permits, and the values confirm that the X-3 sits at the worst corner of the coupling problem and does not merely fall inside it.
 
 The excursions that follow produce loads. An angle of attack increment $\Delta \alpha$ gives a normal load factor increment
 
 $$\Delta n = \frac{q S C_{L\alpha} \Delta \alpha}{W}$$
 
-and at the flight condition with $q = 1.78 \times 10^{4}$ pascals, a lift-curve slope near 3.5 per radian subsonically, and a weight of 78.5 kilonewtons, a twenty degree excursion gives $\Delta n = 4.3$. Sideslip produces a lateral increment through $C_{Y\beta}$ of comparable size. Those are survivable numbers, unlike the X-2 figures, and the difference is entirely due to the lower dynamic pressure at which the X-3 met the phenomenon. That combination is what made it survivable and therefore useful.
+and at the flight condition with $q = 1.78 \times 10^{4}$ pascals, a lift-curve slope near 3.5 per radian subsonically, and a weight of 97.4 kilonewtons, a twenty degree excursion gives $\Delta n = 3.5$. Sideslip produces a lateral increment through $C_{Y\beta}$ of comparable size. Those are survivable numbers, unlike the X-2 figures, because of the lower dynamic pressure at which the X-3 met the phenomenon. The margin was narrow. In the second roll, at higher dynamic pressure, the normal load factor swung from $-6.7$ to $+7.0$ and the design acceleration loads were reached \[[Day 1997][research_coupling_history_1997]\] \[[Saltzman and Ayers 1995][research_supersonic_research_1995]\].
 
 ### Takeoff, Landing, and the Cost of the Wing
 
-Unlike the [X-1][related_post_a298_bell_x1] and [X-2][related_post_a299_bell_x2], the X-3 took off under its own power, and its wing made that difficult.
+Unlike the [X-1][related_post_a298_bell_x1] and [X-2][related_post_a299_bell_x2], the X-3 took off under its own power \[[Jenkins Landis and Miller 2003][book_jenkins_landis_miller_2003]\], and its wing made that difficult.
 
 The [takeoff][ref_takeoff] speed follows from the wing loading and the maximum lift coefficient,
 
 $$V_{TO} = \sqrt{\frac{2 W}{\rho S C_{L,\max}}}$$
 
-and with a thin low aspect ratio wing carrying no effective high-lift devices, $C_{L,\max}$ near 0.9 is optimistic. At sea level this gives
+and with a thin low aspect ratio wing carrying only plain leading-edge flaps and split trailing-edge flaps \[[Fischel et al 1957][research_x3_handling_1957]\], $C_{L,\max}$ near 0.9 is optimistic. At sea level this gives
 
 $$V_{TO} = \sqrt{\frac{2 \times 99{,}646}{1.225 \times 15.47 \times 0.9}} = 108 \ \text{metres per second}$$
 
-or 242 miles per hour, which is faster than many aircraft of the period could fly at all. The ground roll follows from the available acceleration,
+or 242 miles per hour, close to the takeoff speed of 260 miles per hour recorded for the aircraft \[[Jenkins Landis and Miller 2003][book_jenkins_landis_miller_2003]\]. The ground roll follows from the available acceleration,
 
 $$s_{TO} = \frac{V_{TO}^2}{2 a}, \qquad a \approx \frac{T - D - \mu \left( W - L \right)}{m}$$
 
@@ -453,7 +453,7 @@ with $\mu$ the rolling friction coefficient. Retaining the drag and friction ter
 
 $$s_{TO} = \int_0^{V_{TO}} \frac{m V \, dV}{T - \frac{1}{2} \rho V^2 S \left( C_D - \mu C_L \right) - \mu m g}$$
 
-and taking the thrust-dominated approximation $a \approx T/m = 4.29$ metres per second squared gives 1362 metres before rotation, with the real figure substantially longer. The lift-off condition itself is a balance,
+and taking the thrust-dominated approximation $a \approx T/m = 4.29$ metres per second squared gives 1362 metres before rotation, with the real figure substantially longer. The lift-off condition is a balance,
 
 $$\frac{1}{2} \rho V_{TO}^2 S C_{L,TO} = W$$
 
@@ -467,7 +467,7 @@ $$0.44 - 0.125 = 0.315$$
 
 which is healthy, so the X-3 climbed acceptably once airborne. Its difficulty was reaching flying speed, not leaving the ground. The aircraft needed the lake bed not for safety but for length.
 
-Landing inherits the same penalty. The approach speed at 1.3 times stall is above 120 metres per second, the [landing gear][ref_landing_gear] absorbs correspondingly higher energy,
+Landing inherits the same penalty. The recorded landing speed of 200 miles per hour, or 89 metres per second \[[Jenkins Landis and Miller 2003][book_jenkins_landis_miller_2003]\], lies below the clean stall speed derived above, which points to a lighter landing weight and deflected flaps, but it is still high, and the [landing gear][ref_landing_gear] absorbs correspondingly higher energy,
 
 $$E_{\text{gear}} = \frac{1}{2} m w_s^2$$
 
@@ -475,7 +475,7 @@ with $w_s$ the sink rate. The landing distance from the same relations is
 
 $$s_L = \frac{V_{TD}^2}{2 \bar{a}_{\text{brake}}}$$
 
-and the energy the brakes must absorb scales as the square of touchdown speed, so an aircraft landing at 120 metres per second dissipates roughly twice the energy of one landing at 85. Stated directly, the brake energy is
+and the energy the brakes must absorb scales as the square of touchdown speed, so an aircraft landing at 89 metres per second dissipates roughly twice the energy of one landing at 63. Stated directly, the brake energy is
 
 $$E_{\text{brake}} = \frac{1}{2} m V_{TD}^2 - \int_0^{s_L} D \, ds$$
 
@@ -483,19 +483,19 @@ and the tire has an independent limit, since its structural speed rating is a gr
 
 $$V_{\text{ground}} = V_{TD} - V_{\text{wind}} \le V_{\text{tire}}$$
 
-which for the period was near 100 metres per second and which the X-3 approached on every landing. That constraint is the reason lake bed operation mattered as much for its surface as for its length. The gear stroke required to hold the load factor at touchdown to a chosen value $n_g$ is
+and the X-3 pressed that limit hard enough that it was common for its tires to come apart \[[Jenkins Landis and Miller 2003][book_jenkins_landis_miller_2003]\]. The gear stroke required to hold the load factor at touchdown to a chosen value $n_g$ is
 
 $$s_{\text{stroke}} = \frac{w_s^2}{2 g \left( n_g - 1 \right)}$$
 
-so a three metre per second sink at a two g limit needs 0.46 metres of stroke, and every increment of sink rate costs stroke quadratically. The oleo strut that provides that stroke is a velocity-dependent damper, and its behaviour under impact depends on orifice sizing and fluid properties, characterized in drop testing as in [NACA 1954][research_oleo_drop_hammer_1954]. Active control of the same load path became possible much later, as [McGehee and Carden 1976][research_active_gear_model_1976] and [Howell et al 1990][research_f106b_gear_alt_1990] describe. The high-lift devices that would have relieved the takeoff and landing problem at its source, and which the X-3 wing could not accommodate, are surveyed by [Rudolph 1996][research_high_lift_systems_1996]. The loads that result were measured and reported in [Marcy 1958][research_x3_landing_loads_1958], which exists precisely because they were unusual.
+so a three metre per second sink at a two g limit needs 0.46 metres of stroke, and every increment of sink rate costs stroke quadratically. The oleo strut that provides that stroke is a velocity-dependent damper, and its behaviour under impact depends on orifice sizing and fluid properties, characterized in drop testing as in [NACA 1954][research_oleo_drop_hammer_1954]. Active control of the same load path became possible much later, as [McGehee and Carden 1976][research_active_gear_model_1976] and [Howell et al 1990][research_f106b_gear_alt_1990] describe. High-lift devices more powerful than the plain and split flaps the X-3 carried, which would have relieved the takeoff and landing problem at its source, are surveyed by [Rudolph 1996][research_high_lift_systems_1996]. The loads that result were measured and reported in [Marcy 1958][research_x3_landing_loads_1958].
 
 ### Instrumentation
 
-The X-3 carried a conventional NACA installation of the period, and the measurements that matter for this article are the loads and the rates.
+The X-3 carried a conventional NACA installation of the period, and the measurements that matter for this article are the loads and the rates \[[Fischel et al 1957][research_x3_handling_1957]\].
 
-Structural loads came from calibrated [strain gauge][ref_strain_gauge] bridges, whose calibration on a thin low aspect ratio wing is itself a documented difficulty in [Peele and Eckstrom 1975][research_thin_wing_strain_1975]. External strain-gauge installation, used where an internal fit is impossible on a thin structure, is described by [Eckstrom 1976][research_flight_loads_external_1976]. The lifting pressure distributions that such a wing produces were measured in flight much later in [Byrdsong 1977][research_thin_wing_pressures_1977] and compared against tunnel and computation in [Lawing et al 1991][research_cryo_tunnel_thin_wing_1991].
+Structural loads came from calibrated [strain gauge][ref_strain_gauge] bridges, whose calibration on a thin low aspect ratio wing is a documented difficulty in [Peele and Eckstrom 1975][research_thin_wing_strain_1975]. External strain-gauge installation, used where an internal fit is impossible on a thin structure, is described by [Eckstrom 1976][research_flight_loads_external_1976]. The lifting pressure distributions that such a wing produces were measured in flight much later in [Byrdsong 1977][research_thin_wing_pressures_1977] and compared against tunnel and computation in [Lawing et al 1991][research_cryo_tunnel_thin_wing_1991].
 
-Angle of attack and sideslip on a research aircraft come from a nose boom carrying vanes, whose indicated values require correction for the aircraft's own rotation,
+Angle of attack and sideslip on a research aircraft come from a nose boom carrying vanes, whose indicated values require correction for the aircraft's rotation,
 
 $$\alpha_{\text{true}} = \alpha_{\text{vane}} - \frac{\ell_b \, q}{V}, \qquad \beta_{\text{true}} = \beta_{\text{vane}} + \frac{\ell_b \, r}{V}$$
 
@@ -503,7 +503,7 @@ with $\ell_b$ the boom length ahead of the centre of gravity. During a coupled d
 
 $$u_c^2(y) = \sum_i \left( \frac{\partial y}{\partial x_i} \right)^2 u^2(x_i)$$
 
-and resolving a divergence with an e-folding time near 0.8 seconds requires a sample rate satisfying
+and resolving a divergence with an e-folding time near 0.5 seconds requires a sample rate satisfying
 
 $$f_s > 2 f_{\max}$$
 
@@ -515,7 +515,7 @@ for $N_c$ channels of $b$ bits, and the amplitude resolution follows from the co
 
 $$\Delta = \frac{FS}{2^b}, \qquad \sigma_q = \frac{\Delta}{\sqrt{12}}$$
 
-with $FS$ the full-scale range. A rate gyro recorded to eight bits over a range of two radians per second resolves 0.008 radians per second, which is adequate for the rates of a departure and marginal for the small perturbations that precede one. Moments of inertia, which the analysis above depends on entirely, are not measured in flight at all. They are established by ground swing tests and by mass accounting, and their uncertainty propagates directly into any coupling prediction through
+with $FS$ the full-scale range. A rate gyro recorded to eight bits over a range of two radians per second resolves 0.008 radians per second, which is adequate for the rates of a departure and marginal for the small perturbations that precede one. Moments of inertia, which the analysis above depends on entirely, are not measured in flight at all. They are established by ground swing tests or by mass accounting, the values used for the X-3 being the manufacturer's estimates \[[Fischel et al 1957][research_x3_handling_1957]\], and their uncertainty propagates directly into any coupling prediction through
 
 $$\frac{u(p_{\text{crit}})}{p_{\text{crit}}} = \frac{1}{2} \frac{u(I)}{I}$$
 
@@ -527,19 +527,19 @@ with $\ell_p$ the distance from pivot to centre of gravity, so the inertia is a 
 
 $$\frac{u(I)}{I} \approx \frac{I_p}{I} \sqrt{ \left( 2 \frac{u(T_{\text{swing}})}{T_{\text{swing}}} \right)^2 + \left( \frac{u(\ell_p)}{\ell_p} \right)^2 }$$
 
-Differencing is the recurring structural feature of flight-test measurement and it appears here in the one quantity the coupling analysis cannot do without. Modern approaches to the same estimation problem appear in [Dehghan Manshadi and Saghafi 2021][research_manshadi_2021] and [Mwenegoha et al 2019][research_mwenegoha_2019]. The swing test has since been superseded by a dynamic method that excites the structure and infers the inertia tensor from the measured response, validated in [Chin et al 2015][research_dynamic_inertia_2015], which removes the differencing amplification described above by measuring the quantity directly rather than as a residual. Air data calibration has undergone the same modernization, with a satellite-referenced method replacing the tower fly-by in [Martos et al 2011][research_gps_pitot_calibration_2011].
+Differencing is the recurring structural feature of flight-test measurement and it appears here in the one quantity the coupling analysis cannot do without. [Dehghan Manshadi and Saghafi 2021][research_manshadi_2021] and [Mwenegoha et al 2019][research_mwenegoha_2019] take up the estimation problem with current methods. The swing test has since been superseded by a dynamic method that excites the structure and infers the inertia tensor from the measured response, validated in [Chin et al 2015][research_dynamic_inertia_2015], which removes the differencing amplification described above by measuring the quantity directly rather than as a residual. Air data calibration has undergone the same modernization, with a satellite-referenced method replacing the tower fly-by in [Martos et al 2011][research_gps_pitot_calibration_2011].
 
 ## The Flight Test Record
 
-The aircraft first flew on 20 October 1952 with Douglas pilot Bill Bridgeman at the controls, having made an inadvertent short hop during a high-speed taxi test five days earlier. It flew 51 times in total across Douglas, Air Force, and NACA phases.
+The aircraft first flew on 20 October 1952 with Douglas pilot Bill Bridgeman at the controls, having made an inadvertent short hop during a high-speed taxi test five days earlier \[[NASA 2014][ref_nasa_x3_stiletto]\]. It flew 51 times in total across Douglas, Air Force, and NACA phases \[[Jenkins Landis and Miller 2003][book_jenkins_landis_miller_2003]\].
 
-The dive itself is quantifiable. In a descent at flight path angle $\gamma$ the gravity component supplies
+The dive can be quantified. In a descent at flight path angle $\gamma$ the gravity component supplies
 
 $$\Delta T_{\text{effective}} = W \sin \gamma$$
 
-so a thirty degree dive at a weight of 99.6 kilonewtons adds 49.8 kilonewtons, which slightly exceeds the entire installed thrust of 43.6 kilonewtons. Gravity was the larger engine. Its maximum speed was Mach 1.208, achieved on 28 July 1953 in a dive. It never exceeded Mach 1 in level flight. Contractor demonstration results are reported in [Day and Fischel 1955][research_x3_stability_1955], horizontal tail loads in [Stephenson 1956][research_x3_tail_loads_1956], buffet and maximum normal force in [Baker et al 1957][research_x3_buffet_1957], and landing loads in [Marcy 1958][research_x3_landing_loads_1958].
+so a thirty degree dive at a weight of 99.6 kilonewtons adds 49.8 kilonewtons, which slightly exceeds the entire installed thrust of 43.6 kilonewtons. Gravity was the larger engine. Its maximum speed was Mach 1.208, achieved on 28 July 1953 in a dive \[[NASA 2014][ref_nasa_x3_stiletto]\]. It never exceeded Mach 1 in level flight \[[Day 1997][research_coupling_history_1997]\]. Contractor demonstration results are reported in [Day and Fischel 1955][research_x3_stability_1955], horizontal tail loads in [Stephenson 1956][research_x3_tail_loads_1956], buffet and maximum normal force in [Baker et al 1957][research_x3_buffet_1957], and landing loads in [Marcy 1958][research_x3_landing_loads_1958].
 
-The flights that matter took place on 27 October 1954. NACA pilot [Joe Walker][ref_joe_walker] performed an abrupt left roll at Mach 0.92 and about 9100 metres. The aircraft departed immediately into a violent coupled motion in all three axes, reaching large sideslip and angle of attack excursions before Walker recovered. He repeated the manoeuvre at Mach 1.05 later in the same flight and the response was worse. The aircraft was not lost and Walker was not injured, which distinguishes this event from the [X-2][related_post_a299_bell_x2] accident two years later and is the reason the X-3 data set exists at all.
+The flight that matters took place on 27 October 1954. NACA pilot [Joe Walker][ref_joe_walker] performed an abrupt left roll at Mach 0.92 and about 9100 metres. The aircraft departed immediately into a violent coupled motion in all three axes, pitching up 20 degrees and yawing 16 degrees and gyrating for five seconds before Walker recovered \[[NASA 2014][ref_nasa_x3_stiletto]\]. He repeated the manoeuvre later in the same flight, at Mach 1.05 in the account of [Day 1997][research_coupling_history_1997] and at Mach 1.154 in that of [NASA 2014][ref_nasa_x3_stiletto], and the response was worse. The aircraft was not lost and Walker was not injured, which distinguishes this event from the [X-2][related_post_a299_bell_x2] accident two years later and is the reason the X-3 data set exists at all.
 
 The transonic handling qualities investigation that resulted is [Fischel et al 1957][research_x3_handling_1957], and it is the single most cited document the programme produced. An aircraft built to study thin wings at Mach 2 is remembered for what it did at Mach 0.92 with the wing incidental.
 
@@ -547,17 +547,17 @@ The programme can be scored on the information accounting used throughout this s
 
 $$n^{*} = \left\lceil \sigma_m^2 \left( \frac{1}{\sigma_T^2} - \frac{1}{\sigma_0^2} \right) \right\rceil, \qquad I_n = \frac{1}{2} \ln \frac{\sigma_0^2}{\sigma_n^2}$$
 
-following [Lindley 1956][research_lindley_1956] and [Chaloner and Verdinelli 1995][research_chaloner_verdinelli_1995]. Fifty-one flights is a substantial campaign by the standards of this series, comparable to the [X-1][related_post_a298_bell_x1] and far exceeding the [X-2][related_post_a299_bell_x2]. The single airframe is the anomaly. The attrition condition
+following [Lindley 1956][research_lindley_1956] and [Chaloner and Verdinelli 1995][research_chaloner_verdinelli_1995]. Fifty-one flights is a large campaign by the standards of this series, comparable to the [X-1][related_post_a298_bell_x1] and far exceeding the [X-2][related_post_a299_bell_x2]. The single airframe is the anomaly. The attrition condition
 
 $$\sum_{i=0}^{n_a - 1} \binom{n}{i} p^i (1-p)^{n-i} \ge 1 - \alpha$$
 
 at fifty-one flights and even a one percent per-flight loss probability returns two airframes for ninety-five percent confidence, and the X-3 flew with one. That it survived is fortunate rather than planned, and the coupling data exist because of that fortune.
 
-The X-3 was retired in 1956 after 51 flights and is preserved at the National Museum of the United States Air Force.
+The X-3 was retired in 1956 after 51 flights and is preserved at the National Museum of the United States Air Force \[[NASA 2014][ref_nasa_x3_stiletto]\] \[[Wikipedia, Douglas X-3][ref_douglas_x3]\].
 
 ## Comparison With Ground Prediction
 
-The X-3 offers an unusually clean test of ground prediction because the coupling behaviour was, in this case, partly anticipated.
+The X-3 offers an unusually clean test of ground prediction because the coupling behaviour was, in this case, partly anticipated \[[Saltzman and Ayers 1995][research_supersonic_research_1995]\].
 
 A dynamically scaled model of the aircraft had been tested in the Langley free-spinning tunnel, reported in [Hultz 1951][research_x3_spin_tunnel_1951], three years before the flight events. A spin tunnel model is ballasted to represent the full-scale inertia distribution, so unlike the static force models discussed in the [X-2 article][related_post_a299_bell_x2] it does satisfy the mass and inertia similarity groups,
 
@@ -571,33 +571,33 @@ so that the ratio of motion timescale to flow timescale is preserved. Scaling th
 
 $$I_m = \frac{I_f}{k_g^5} \cdot \frac{\rho_m}{\rho_f}$$
 
-whose fifth-power dependence makes ballasting exacting but not impossible, and the spin tunnel community did it routinely. What a spin tunnel investigates, however, is developed spin and recovery rather than the entry into a coupled divergence from a rolling manoeuvre at high speed, so the test asked a different question of the right model.
+whose fifth-power dependence makes ballasting exacting but not impossible. What a spin tunnel investigates, however, is developed spin and recovery rather than the entry into a coupled divergence from a rolling manoeuvre at high speed, so the test asked a different question of the right model.
 
 The theoretical prediction existed as well. [Phillips 1948][research_phillips_1948] had published the analysis six years before Walker's flights, and the programme history in [Day 1997][research_coupling_history_1997] traces how slowly that prediction propagated into practice. The gap here was not instrumental and not theoretical. It was that nobody connected an available analysis and an available facility to a specific aircraft until an aircraft did it for them.
 
-The comparison between tunnel and flight for stability and control had itself been studied as a methodological question in [Kayten and Koven 1945][research_tunnel_flight_comparison_1945], and rocket-boosted free-flight models supplied an independent route to low-lift drag and directional stability, reported for a Douglas configuration by [Mitcham et al 1952][research_rocket_model_douglas_1952]. Low-speed lateral characteristics of comparable models come from [Sleeman and Morrison 1953][research_low_speed_lateral_1953]. Static aerodynamic prediction for the wing itself was reasonable. Low aspect ratio and thin wing behaviour had been characterized in [Ribner 1947][research_lowar_triangular_1947], [Walker and Berggren 1948][research_thin_triangular_1948], and [Margolis 1947][research_wave_drag_swept_1947], with flow characteristics measured later by [Taillon 1959][research_thin_wings_flow_1959] and thickness effects on zero-lift drag quantified by [Shrout 1965][research_zero_lift_drag_thickness_1965]. Planform details that matter at these thicknesses, such as trailing-edge truncation, were quantified by [Bartlett and Harris 1974][research_trailing_edge_truncation_1974], and the interference at wing-body junctions that a thin wing on a large fuselage aggravates in [Milholen and Chokani 1992][research_juncture_flow_1992]. The eventual answer to transonic wing design, which the X-3 predates entirely, is the supercritical section, flight-measured in [Pyle and Steers 1975][research_f8_liftdrag_1975] and [Montoya and Banner 1977][research_f8_supercritical_1977]. The contemporary fighter against which the X-3 configuration should be judged is characterized by [Blanchard 1953][research_yf100a_drag_trim_1953], and an all-wing alternative that took the low aspect ratio argument further appears as [Brewer 1946][research_all_wing_qualities_1946]. The comparative summary of research airplane lift and drag in [Bellman 1959][research_transonic_summary_1959] places the X-3 alongside its contemporaries.
+The comparison between tunnel and flight for stability and control had been studied as a methodological question in [Kayten and Koven 1945][research_tunnel_flight_comparison_1945], and rocket-boosted free-flight models supplied an independent route to low-lift drag and directional stability, reported for a Douglas configuration by [Mitcham et al 1952][research_rocket_model_douglas_1952]. Low-speed lateral characteristics of comparable models come from [Sleeman and Morrison 1953][research_low_speed_lateral_1953]. Low aspect ratio and thin wing behaviour had been characterized in [Ribner 1947][research_lowar_triangular_1947], [Walker and Berggren 1948][research_thin_triangular_1948], and [Margolis 1947][research_wave_drag_swept_1947], with flow characteristics measured later by [Taillon 1959][research_thin_wings_flow_1959] and thickness effects on zero-lift drag quantified by [Shrout 1965][research_zero_lift_drag_thickness_1965]. Planform details that matter at these thicknesses, such as trailing-edge truncation, were quantified by [Bartlett and Harris 1974][research_trailing_edge_truncation_1974], and the interference at wing-body junctions that a thin wing on a large fuselage aggravates in [Milholen and Chokani 1992][research_juncture_flow_1992]. The eventual answer to transonic wing design, which the X-3 predates entirely, is the supercritical section, flight-measured in [Pyle and Steers 1975][research_f8_liftdrag_1975] and [Montoya and Banner 1977][research_f8_supercritical_1977]. The contemporary fighter against which the X-3 configuration should be judged is characterized by [Blanchard 1953][research_yf100a_drag_trim_1953], and an all-wing alternative that took the low aspect ratio argument further appears as [Brewer 1946][research_all_wing_qualities_1946]. The comparative summary of research airplane lift and drag in [Bellman 1959][research_transonic_summary_1959] places the X-3 alongside its contemporaries.
 
 ## What the Data Changed
 
 Three consequences are traceable and they are unequal in importance.
 
-The coupling data are the first. Walker's flights produced an instrumented record of an inertia-coupled departure and a recovery from one, in an aircraft that survived to fly again. That is a category of data no other programme supplied. It arrived while the F-100 fleet was experiencing the same phenomenon in service and two years before it killed [Mel Apt][related_post_a299_bell_x2] in the X-2, and it fed directly into the roll rate limits, the artificial damping requirements, and the vertical tail sizing described in the previous article. The historical account in [Day 1997][research_coupling_history_1997] treats the X-3 as a principal source. The wider stability and control envelope across the supersonic and hypersonic range is surveyed in [Compton et al 1983][research_stability_supersonic_hypersonic_1983], transonic stability characteristics continued to be flight-evaluated, as [Matheny and Gatlin 1978][research_transonic_stability_flight_1978] records, and the departure and spin research that grew out of the same concerns is summarized by [Patton et al 1979][research_spin_research_summary_1979]. The research aircraft that inherited the resulting understanding include the F-15 programme summarized by [Burcham et al 1986][research_f15_research_summary_1986] and the oblique-wing vehicles whose deliberate asymmetry makes coupling a design variable rather than a hazard, explored by [Alag et al 1986][research_oblique_wing_control_1986] and [Kempel et al 1988][research_oblique_wing_piloted_1988].
+The coupling data are the first. Walker's flight produced an instrumented record of an inertia-coupled departure and a recovery from one, in an aircraft that survived to fly again \[[NASA 2014][ref_nasa_x3_stiletto]\]. The F-100A supplied the only comparable record of 1954, and the NACA reported the two together \[[Day 1997][research_coupling_history_1997]\]. The X-3 record arrived while the F-100 fleet was experiencing the same phenomenon in service and two years before it killed [Mel Apt][related_post_a299_bell_x2] in the X-2, and it fed directly into the operating restrictions, the artificial damping requirements, and the vertical tail sizing described in the previous article. The historical account in [Day 1997][research_coupling_history_1997] treats the X-3 as a principal source. The wider stability and control envelope across the supersonic and hypersonic range is surveyed in [Compton et al 1983][research_stability_supersonic_hypersonic_1983], transonic stability characteristics continued to be flight-evaluated, as [Matheny and Gatlin 1978][research_transonic_stability_flight_1978] records, and the departure and spin research that grew out of the same concerns is summarized by [Patton et al 1979][research_spin_research_summary_1979]. The research aircraft that inherited the resulting understanding include the F-15 programme summarized by [Burcham et al 1986][research_f15_research_summary_1986] and the oblique-wing vehicles whose deliberate asymmetry makes coupling a design variable rather than a hazard, explored by [Alag et al 1986][research_oblique_wing_control_1986] and [Kempel et al 1988][research_oblique_wing_piloted_1988].
 
 The information the flights returned can be quantified against what a purpose-built campaign would have needed. Two departures at two Mach numbers is a sample of two, so the posterior uncertainty in any coupling parameter after those flights is
 
 $$\sigma_n = \frac{\sigma_m}{\sqrt{n}} = \frac{\sigma_m}{\sqrt{2}}$$
 
-against a prior that was effectively unbounded because no instrumented departure existed. The information gain from the first such record is therefore very large and the second adds a factor of $\sqrt{2}$, which is the mathematical statement of why an unplanned event in a surviving aircraft was worth more than a planned campaign in an aircraft that could not have survived it.
+against a prior that was effectively unbounded because no instrumented departure existed. The information gain from the first such record is therefore very large and the second adds a factor of $\sqrt{2}$. That asymmetry is the mathematical statement of why an unplanned event in a surviving aircraft was worth more than a planned campaign in an aircraft that could not have survived it.
 
-The wing is the second. The thin low aspect ratio surface the X-3 demonstrated went almost unchanged into the [Lockheed F-104 Starfighter][ref_f104], which flew in 1954 and entered service as the first Mach 2 fighter. The X-3 also contributed its landing gear design, which had been engineered for the high touchdown speeds computed above and was directly applicable. The scale of that inheritance can be put in terms of the wing loading and touchdown energy relations derived above, since the F-104 carried a comparable wing loading and therefore a comparable
+The wing is the second. The thin low aspect ratio planform the X-3 demonstrated was used on the [Lockheed F-104 Starfighter][ref_f104] \[[NASA 2014][ref_nasa_x3_stiletto]\], which first flew in 1954 and became the first combat aircraft capable of sustained Mach 2 flight \[[Wikipedia, F-104][ref_f104]\]. The X-3 also contributed to tire technology, since its very high takeoff and landing speeds required better tires and several tire manufacturers used its data \[[Jenkins Landis and Miller 2003][book_jenkins_landis_miller_2003]\]. The scale of that inheritance can be put in terms of the wing loading and touchdown energy relations derived above, since the F-104 carried a comparable wing loading \[[Wikipedia, F-104][ref_f104]\] and therefore a comparable
 
 $$E_{\text{gear}} = \frac{1}{2} m w_s^2, \qquad V_{TD} \propto \sqrt{\frac{W/S}{C_{L,\max}}}$$
 
-and a gear already qualified against those numbers is a substantial transfer. An aircraft that failed to reach its design speed nonetheless supplied a wing and a gear to the aircraft that did.
+and tire data gathered against those numbers is a substantial transfer. An aircraft that failed to reach its design speed nonetheless supplied a wing planform to the aircraft that did, and tire data to the aircraft that followed.
 
-The supersonic cruise programmes that followed inherited both the structural and the propulsion problems, as [Kirkham et al 1975][research_hypersonic_aircraft_study_1975] and [Arnaiz 1977][research_flexible_supersonic_liftdrag_1977] record for the large flexible high-speed aircraft that the X-3 configuration anticipated at small scale, with the structural design problem taken up by [NASA 1976][research_sst_structural_1976] and the successor research vehicle studies by [Combs 1977][research_x24c_configuration_1977]. Propulsion integration at the extreme end of the same lineage occupies [Andrews and Mackley 1976][research_hre_integration_1976]. The titanium experience is the third and is the hardest to trace. The manufacturing lessons were real but were embedded in Douglas process knowledge rather than published, and the aircraft that carried titanium into routine primary structure did so a decade later on the basis of a much larger industrial effort. The X-3 is better described as an early datum than as a cause.
+The supersonic cruise programmes that followed inherited both the structural and the propulsion problems, as [Kirkham et al 1975][research_hypersonic_aircraft_study_1975] and [Arnaiz 1977][research_flexible_supersonic_liftdrag_1977] record for the large flexible high-speed aircraft that the X-3 configuration anticipated at small scale, with the structural design problem taken up by [NASA 1976][research_sst_structural_1976] and the successor research vehicle studies by [Combs 1977][research_x24c_configuration_1977]. Propulsion integration at the extreme end of the same lineage occupies [Andrews and Mackley 1976][research_hre_integration_1976]. The titanium experience is the third and is the hardest to trace. The manufacturing lessons were real, since Douglas developed pioneering procedures for machining, forming and cutting titanium \[[Boslaugh][ref_ethw_x3]\], but the sources consulted here record no published account of them. The X-3 is better described as an early datum than as a cause.
 
-There is a fourth consequence that is negative and worth stating. The X-3 demonstrated conclusively that a fixed inlet is unacceptable on a supersonic aircraft intended to hold a condition, and that engine and airframe cannot be procured on independent schedules. Both lessons were available in principle beforehand. The programme made them expensive enough to be learned.
+A fourth consequence is a negative one. The X-3 illustrated that an inlet without variable geometry is a severe handicap on a supersonic aircraft intended to hold a condition, and demonstrated that engine and airframe cannot be procured on independent schedules. Both lessons were available in principle beforehand. The programme made them expensive enough to be learned.
 
 ## The Contemporary Literature
 
@@ -623,21 +623,21 @@ There is a fourth consequence that is negative and worth stating. The X-3 demons
 
 The threads the X-3 opened are live, and two of them have become substantially better understood.
 
-Inlet performance is now a design discipline rather than a compromise. Total pressure loss mechanisms are analysed directly in [Lee and Choi 2021][research_lee_choi_2021] and [Yang et al 2024][research_yang_jin_2024], with off-design behaviour in [Nikolaidis et al 2022][research_nikolaidis_2022] and the shock structures that govern it in [Wang et al 2023][research_wang_wang_2023]. Airframe and propulsion integration is treated as a single problem in [Su et al 2025][research_su_liu_2025] and [Fu et al 2024][research_fu_song_2024], and turbojet performance in subsonic flight is modelled in [Derbel and Beneda 2025][research_derbel_beneda_2025]. The X-3's specific failure, a fixed inlet flown outside its design point, is now an undergraduate example.
+Inlet performance is now a design discipline rather than a compromise. Total pressure loss mechanisms are analysed directly in [Lee and Choi 2021][research_lee_choi_2021] and [Yang et al 2024][research_yang_jin_2024], with off-design behaviour in [Nikolaidis et al 2022][research_nikolaidis_2022] and the shock structures that govern it in [Wang et al 2023][research_wang_wang_2023]. Airframe and propulsion integration is treated as a single problem in [Su et al 2025][research_su_liu_2025] and [Fu et al 2024][research_fu_song_2024], and turbojet performance in subsonic flight is modelled in [Derbel and Beneda 2025][research_derbel_beneda_2025].
 
 Low aspect ratio and thin wing behaviour continues to be studied, with dynamic characteristics in [Zeng et al 2022][research_zeng_zhao_2022], transonic static aeroelastic behaviour in [Wang 2019][research_wang_aeroelastic_2019], and thermal wall effects in [Lin et al 2021][research_lin_liu_2021]. The transonic flutter boundary that a thin wing approaches so closely is measured, with the shock movement that accompanies it, in [Stubblefield et al 2025][research_stubblefield_kunz_2025].
 
 Coupled rotational dynamics has become a nonlinear dynamical systems subject, with the coupling ratio itself parameterized in [Shen et al 2019][research_shen_huang_2019], chaotic regimes in [Xu et al 2019][research_xu_yue_2019], departure and spin prediction in [Tu et al 2024][research_tu_yan_2024], and bifurcation analysis in [Nguyen et al 2021][research_nguyen_lowenberg_2021]. Prevention is a control problem in [Altunkaya and Catak 2025][research_altunkaya_2025] and [Moreira et al 2022][research_moreira_gripp_2022], and the institutional continuation is the loss of control research programme documented in [Belcastro 2014][research_loc_directions_2014] and [Belcastro et al 2014][research_loc_precursors_2014].
 
-The inlet is where the contemporary literature has moved furthest, and it has moved onto exactly the failure the X-3 suffered. Unstart, which is the violent expulsion of the terminal shock that follows from operating outside the swallowing condition, is now studied as a controllable boundary rather than an accident. [Chen et al 2019][research_chen_tan_2019] present an external-compression design intended to be free of it, [Jin et al 2023][research_jin_zhang_2023] broaden the unstart and restart boundary deliberately, [Wang et al 2023][research_wang_wang_unstart_2023] characterize the effect of backpressure on both, and [Jin et al 2023][research_jin_tan_2023] measure the hysteresis between them, which is the property that makes recovery from an unstart harder than avoiding one. Multi-objective optimization of the whole inlet appears in [Wang et al 2023][research_wang_eri_2023], separation control on the swept interaction in [Kim and Park 2026][research_kim_park_sbli_2026], bleed plenum design in [Türkkahraman et al 2024][research_turkkahraman_2024], and oscillation suppression in [Luo et al 2020][research_luo_wei_2020]. Configuration-level computation is treated by [Ezzeldin and Wu 2025][research_ezzeldin_wu_2025].
+The inlet is where the contemporary literature has moved furthest, and it has moved onto the same failure the X-3 suffered. Unstart, the violent expulsion of the terminal shock that follows from operating outside the swallowing condition, is now studied as a controllable boundary rather than an accident. [Chen et al 2019][research_chen_tan_2019] present an external-compression design intended to be free of it, [Jin et al 2023][research_jin_zhang_2023] broaden the unstart and restart boundary deliberately, [Wang et al 2023][research_wang_wang_unstart_2023] characterize the effect of backpressure on both, and [Jin et al 2023][research_jin_tan_2023] measure the hysteresis between them. Because of that hysteresis, recovering from an unstart is harder than avoiding one. Multi-objective optimization of the whole inlet appears in [Wang et al 2023][research_wang_eri_2023], separation control on the swept interaction in [Kim and Park 2026][research_kim_park_sbli_2026], bleed plenum design in [Türkkahraman et al 2024][research_turkkahraman_2024], and oscillation suppression in [Luo et al 2020][research_luo_wei_2020]. Configuration-level computation is treated by [Ezzeldin and Wu 2025][research_ezzeldin_wu_2025].
 
-The accounting problem the X-3 exposed has also been formalized. Thrust and drag cannot be separated by measurement alone, and [Goulos et al 2021][research_goulos_otter_2021] set out the bookkeeping conventions that make an installed-performance claim reproducible, which is the modern answer to the question this article had to leave open about where the X-3's missing performance actually went. Propulsion and airframe are now designed together as in [Li and Geiselhart 2024][research_li_geiselhart_2024] and [Hutchinson et al 2021][research_hutchinson_2021], with supersonic transport configuration optimization in [Habibniarami et al 2026][research_habibniarami_2026].
+The accounting problem the X-3 exposed has also been formalized. Thrust and drag cannot be separated by measurement alone, and [Goulos et al 2021][research_goulos_otter_2021] set out the bookkeeping conventions that make an installed-performance claim reproducible. Those conventions now answer the question this article had to leave open about where the X-3's missing performance went. Propulsion and airframe are now designed together as in [Li and Geiselhart 2024][research_li_geiselhart_2024] and [Hutchinson et al 2021][research_hutchinson_2021], with supersonic transport configuration optimization in [Habibniarami et al 2026][research_habibniarami_2026].
 
-Coupled rotational motion is now something to be suppressed by control rather than avoided by limitation, which is the capability the X-3 lacked entirely and the reason its critical roll rate was a hard boundary rather than a soft one. Parameter identification, which is how a modern programme would have found that boundary before flying into it, is treated by [Metodiev 2024][research_metodiev_2024], [Wang et al 2022][research_wang_zhao_latdir_2022], and [Singh and Ghosh 2023][research_singh_ghosh_2023].
+Coupled rotational motion is now something to be suppressed by control rather than avoided by limitation. The X-3 lacked that capability entirely, and for this reason its critical roll rate was a hard boundary, not a soft one. Parameter identification, which is how a modern programme would have found that boundary before flying into it, is treated by [Metodiev 2024][research_metodiev_2024], [Wang et al 2022][research_wang_zhao_latdir_2022], and [Singh and Ghosh 2023][research_singh_ghosh_2023].
 
 Thin and slender wing aeroelasticity has become computable. [Miyaji and Takegawa 2022][research_miyaji_2022] predict transonic wing flutter directly, [Yuan et al 2024][research_yuan_kou_2024] apply resolvent analysis to the flutter boundary, and high aspect ratio cases are treated by [Yang and Li 2022][research_yang_li_aeroelastic_2022] and [Ghalandari et al 2022][research_ghalandari_2022]. The X-3's designers had none of this and sized against margins instead.
 
-Titanium forming remains difficult enough to sustain an active literature, and the springback that this article derives is now predicted rather than compensated by trial, as [Pham et al 2019][research_pham_song_2019] and [Wu et al 2020][research_wu_gong_2020] show, with machine learning applied to dimensional accuracy by [Huang et al 2024][research_huang_wang_dl_2024]. The forming problems themselves persist, as [Saidi et al 2021][research_saidi_2021], [Kim et al 2022][research_kim_lee_ti_2022], and [Shu et al 2025][research_shu_ren_2025] show. Mass properties estimation, which the coupling analysis depends on, is treated in [Dehghan Manshadi and Saghafi 2021][research_manshadi_2021] and [Mwenegoha et al 2019][research_mwenegoha_2019]. Machine learning has entered the modelling of all of it, as [Brunton et al 2020][research_brunton_noack_2020] survey, and dynamically scaled flight testing continues as described in [Kong et al 2023][research_kong_pan_2023].
+Titanium forming remains difficult enough to sustain an active literature, and the springback that this article derives is now predicted rather than compensated by trial, as [Pham et al 2019][research_pham_song_2019] and [Wu et al 2020][research_wu_gong_2020] show, with machine learning applied to dimensional accuracy by [Huang et al 2024][research_huang_wang_dl_2024]. The forming problems themselves persist, and [Saidi et al 2021][research_saidi_2021], [Kim et al 2022][research_kim_lee_ti_2022], and [Shu et al 2025][research_shu_ren_2025] report them. Mass properties estimation, which the coupling analysis depends on, is treated in [Dehghan Manshadi and Saghafi 2021][research_manshadi_2021] and [Mwenegoha et al 2019][research_mwenegoha_2019]. Machine learning has entered the modelling of all of it, as [Brunton et al 2020][research_brunton_noack_2020] survey, and dynamically scaled flight testing continues as described in [Kong et al 2023][research_kong_pan_2023].
 
 ### Titanium and the manufacture of the airframe
 
@@ -739,13 +739,13 @@ Titanium forming remains difficult enough to sustain an active literature, and t
 
 The X-3 is the clearest case in this series of the keystone framework failing, and the failure is instructive in four ways.
 
-The stated keystone was never tested. The aircraft was built to hold Mach 2 and never approached it, so the thin wing at sustained supersonic condition, which is the question the airframe exists to answer, has no X-3 answer. Scoring the programme against its keystone returns a failure so complete that the framework has nothing further to say, which is a poor description of an aircraft whose data changed how a fleet was flown.
+The stated keystone was never tested. The aircraft was built to hold Mach 2 and never approached it, so the thin wing at sustained supersonic condition, the question the airframe exists to answer, has no X-3 answer \[[NASA 2014][ref_nasa_x3_stiletto]\]. Scoring the programme against its keystone returns a failure so complete that the framework has nothing further to say, which is a poor description of an aircraft whose data changed how a fleet was flown.
 
-The contribution came from a property rather than a purpose. Inertia coupling was not a research objective. It was a consequence of a mass distribution chosen for other reasons, and the aircraft revealed it because the configuration was extreme enough to make the phenomenon unmissable. A framework organized around what a programme intended to measure cannot capture a finding that arrived because of what the aircraft happened to be.
+The contribution came from a property rather than a purpose. Inertia coupling was not a research objective, and the lateral and directional tests that found it were added to the programme only in late October 1954 \[[NASA 2014][ref_nasa_x3_stiletto]\]. It was a consequence of a mass distribution chosen for other reasons, and the aircraft revealed it because the configuration was extreme enough to make the phenomenon unmissable. A framework organized around what a programme intended to measure cannot capture a finding that arrived because of what the aircraft happened to be.
 
-The failure was procurement rather than engineering. The airframe was competently designed against its specification. The engine did not arrive. No amount of aerodynamic or structural analysis addresses that, and the instrument model, which treats an aircraft as a purpose-built measuring device, has no account of a measuring device delivered without its power supply.
+The failure was procurement rather than engineering. The airframe was competently designed against its specification. The engine did not arrive \[[Boslaugh][ref_ethw_x3]\]. No amount of aerodynamic or structural analysis addresses that, and the instrument model, which treats an aircraft as a purpose-built measuring device, has no account of a measuring device delivered without its power supply.
 
-The most valuable result required survival. Walker's departure produced data because the aircraft recovered. Two years later the same phenomenon in a less recoverable airframe produced a fatality and a much smaller data set. The information yield of a flight research programme therefore depends on a survivability that the information framing does not model, and the [X-2][related_post_a299_bell_x2] and X-3 together make that point more sharply than either does alone.
+The most valuable result required survival. Walker's departure produced data because the aircraft recovered. Two years later the same phenomenon in a less recoverable airframe produced a fatality and a much smaller data set \[[Jenkins Landis and Miller 2003][book_jenkins_landis_miller_2003]\]. The information yield of a flight research programme therefore depends on a survivability that the information framing does not model, and the [X-2][related_post_a299_bell_x2] and X-3 together make that point more sharply than either does alone.
 
 ## The Source Base
 
@@ -802,15 +802,15 @@ Foundational primaries bearing on the arguments above without belonging to one s
 
 ## Epistemic State
 
-Established historical fact includes the 1949 contract, the single airframe and its serial, the substitution of Westinghouse J34 engines for the intended J46, the wing thickness ratio and aspect ratio, the extensive use of titanium, the first flight on 20 October 1952, the maximum speed of Mach 1.208 in a dive on 28 July 1953, the 51 flights, the coupling events flown by Joe Walker on 27 October 1954, and the aircraft's retirement in 1956 and preservation. These are documented in the sources cited.
+Established historical fact includes the 1949 approval of construction, the single airframe and its serial, the substitution of Westinghouse J34 engines for the intended J46, the wing thickness ratio and aspect ratio, the extensive use of titanium, the first flight on 20 October 1952, the maximum speed of Mach 1.208 in a dive on 28 July 1953, the 51 flights, the coupling events flown by Joe Walker on 27 October 1954, and the aircraft's retirement in 1956 and preservation. These are documented in the sources cited.
 
 Established engineering analysis includes every relation in the sizing sections. The thrust-limited Mach relation, the normal-shock recovery relation, the Ackeret result, the Bredt torsion relation, the divergence and reversal expressions, the takeoff relations, and the coupling threshold are standard results. The worked numbers are the author's own arithmetic applied to published inputs and are labelled as derived.
 
-Inference includes the attribution of the performance shortfall to thrust and inlet losses in the proportions given. The thrust shortfall is documented and the normal-shock recovery is arithmetic, but the assignment of the residual between drag underestimate and installed-thrust shortfall is an interpretation the record does not settle. The claim that a fixed inlet was the second failure is well supported and the specific numerical split is not.
+Inference includes the attribution of the performance shortfall to thrust and inlet losses in the proportions given. The thrust shortfall is documented and the normal-shock recovery is arithmetic, but the assignment of the residual between drag underestimate and installed-thrust shortfall is an interpretation the record does not settle. The claim that a fixed inlet was the second failure is an inference, because the sources consulted describe no variable geometry but do not describe the inlets at all, and the numerical split is weaker still.
 
-Weakly supported are the representative values where the record does not give figures. The moments of inertia and the radii of gyration behind them, the stiffness coefficients, the maximum lift coefficient, the ground friction and drag during the takeoff roll, and the assumed drag coefficients are plausible for an aircraft of this class rather than measured properties of this airframe. The critical roll rate of 45 degrees per second should be read as establishing that the threshold lay within ordinary control authority, not as a number this aircraft carried. The comparison with the X-2 figure of 154 uses the same method and the same class of assumptions on both sides, which makes the ratio more trustworthy than either value alone.
+Weakly supported are the representative values where the sources give no figures. The stiffness coefficients, the maximum lift coefficient, the ground friction and drag during the takeoff roll, and the assumed drag coefficients are plausible for an aircraft of this class rather than measured properties of this airframe. The moments of inertia are those tabulated by [Day 1997][research_coupling_history_1997], and the inertias the NACA used for this aircraft were the manufacturer's estimates according to [Fischel et al 1957][research_x3_handling_1957]. The critical roll rate of 84 degrees per second rests on the assumed stiffness coefficients and should be read as establishing that the threshold lay within the aircraft's roll authority, not as a number this aircraft carried. [Day 1997][research_coupling_history_1997] reports a calculated critical roll velocity of 2.5 radians per second at the Mach 1.05 condition. The comparison with the X-2 figure of 255 uses the same method and the inertias Day tabulates for both aircraft, but both figures rest on the same assumed stiffness coefficients, so the ratio is indicative only.
 
-Contested or unresolved in the sources consulted is the exact division of responsibility for the performance shortfall, the degree to which the titanium experience influenced later programmes, and the precise flight count, which is usually given as 51 but is stated without a counting rule. The inadvertent hop during the taxi test five days before the official first flight is variously counted and not counted.
+Contested or unresolved in the sources consulted is the exact division of responsibility for the performance shortfall, the degree to which the titanium experience influenced later programmes, and the precise flight count, which is usually given as 51 but is stated without a counting rule. The inadvertent hop during the taxi test five days before the official first flight is variously counted and not counted. The sources also disagree on the Mach number of Walker's second roll, given as 1.05 by [Day 1997][research_coupling_history_1997] and as 1.154 by [NASA 2014][ref_nasa_x3_stiletto].
 
 A note on temporal position. This article carries an editorial date of 2025-10-09 and is written from current knowledge, including contemporary literature published well after that date.
 
@@ -818,15 +818,15 @@ A note on temporal position. This article carries an editorial date of 2025-10-0
 
 This article does not treat the [X-1][related_post_a298_bell_x1] or [X-2][related_post_a299_bell_x2] beyond the comparisons drawn, both of which have their own articles, nor the [X-15][ref_na_x15], the [X-4][ref_northrop_x4], or the [X-5][ref_bell_x5], which appear later in the series. It does not derive the standard relations reused here, since the [series opener][related_post_a297_xplanes_framing] does that once for all seventy-two articles, including the [flight envelope][ref_flight_envelope], [load factor][ref_load_factor], [wing loading][ref_wing_loading], [lift][ref_lift_coefficient] and [drag][ref_drag_coefficient] coefficients, [lift-to-drag][ref_lift_to_drag], [Reynolds][ref_reynolds_number] and [Prandtl][ref_prandtl_number] numbers, [measurement uncertainty][ref_measurement_uncertainty] and its [propagation][ref_propagation_of_uncertainty], and the [standard atmosphere][ref_isa] in its [tabulated form][ref_us_standard_atmosphere].
 
-It does not attempt a history of the Westinghouse engine programmes, which is the proximate cause of the outcome and deserves its own treatment. It does not treat the [F-104][ref_f104] as an aircraft, only as an inheritor. It does not cover [shock wave][ref_shock_wave] and [oblique shock][ref_oblique_shock] theory, [wave drag][ref_wave_drag], [expansion][ref_intake_ramp] geometry, [supersonic][ref_supersonic_speed] or [hypersonic][ref_hypersonic_flight] flow, [boundary layer][ref_boundary_layer] and [separation][ref_flow_separation] behaviour, [buffeting][ref_buffeting], [aerodynamic centre][ref_aerodynamic_center] migration, [longitudinal][ref_longitudinal_static_stability] or [directional][ref_directional_stability] stability, [Dutch roll][ref_dutch_roll], the [phugoid][ref_phugoid], [flight dynamics][ref_flight_dynamics] generally, [inertia coupling][ref_inertia_coupling] as a general subject, [Euler's equations][ref_euler_equations_rigid], [reaction control][ref_rcs], [stabilators][ref_stabilator], [stainless steel][ref_stainless_steel], [Inconel][ref_inconel], [duralumin][ref_duralumin], [titanium alloys][ref_titanium_alloys] as metallurgy, [creep][ref_creep_deformation], [yield][ref_yield_strength], [thermal conductivity][ref_thermal_conductivity], [expansion][ref_thermal_expansion], [stress][ref_thermal_stress], the [Biot][ref_biot_number] and [Fourier][ref_fourier_number] numbers, the [heat equation][ref_heat_equation], [heat flux][ref_heat_flux], [stagnation temperature][ref_stagnation_temperature], the [Stefan-Boltzmann law][ref_stefan_boltzmann], [specific impulse][ref_specific_impulse], the [Tsiolkovsky equation][ref_tsiolkovsky], [rocket engines][ref_rocket_engine], [liquid oxygen][ref_liquid_oxygen], [turbopumps][ref_turbopump], [ejection seats][ref_ejection_seat], the [Karman line][ref_karman_line], [wind tunnels][ref_wind_tunnel], [flight testing][ref_flight_test], [telemetry][ref_telemetry], [thermocouples][ref_thermocouple], [accelerometers][ref_accelerometer], the [sound barrier][ref_sound_barrier], [transonic][ref_transonic] flow, [swept wings][ref_swept_wing], the [XB-70][ref_xb70] and [SR-71][ref_sr71], [Edwards][ref_edwards_afb] and the [Armstrong Flight Research Center][ref_armstrong_frc], [Bell Aircraft][ref_bell_aircraft], the [NACA][ref_naca] and [NASA][ref_nasa] as organizations, the [National Museum of the United States Air Force][ref_nmusaf], the [list of X-planes][ref_list_of_x_planes], or [experimental aircraft][ref_experimental_aircraft] as a category, all of which are treated where they belong.
+It does not attempt a history of the Westinghouse engine programmes, whose failure is the proximate cause of the outcome and deserves its own treatment. It does not treat the [F-104][ref_f104] as an aircraft, only as an inheritor. It does not cover [shock wave][ref_shock_wave] and [oblique shock][ref_oblique_shock] theory, [wave drag][ref_wave_drag], [expansion][ref_intake_ramp] geometry, [supersonic][ref_supersonic_speed] or [hypersonic][ref_hypersonic_flight] flow, [boundary layer][ref_boundary_layer] and [separation][ref_flow_separation] behaviour, [buffeting][ref_buffeting], [aerodynamic centre][ref_aerodynamic_center] migration, [longitudinal][ref_longitudinal_static_stability] or [directional][ref_directional_stability] stability, [Dutch roll][ref_dutch_roll], the [phugoid][ref_phugoid], [flight dynamics][ref_flight_dynamics] generally, [inertia coupling][ref_inertia_coupling] as a general subject, [Euler's equations][ref_euler_equations_rigid], [reaction control][ref_rcs], [stabilators][ref_stabilator], [stainless steel][ref_stainless_steel], [Inconel][ref_inconel], [duralumin][ref_duralumin], [titanium alloys][ref_titanium_alloys] as metallurgy, [creep][ref_creep_deformation], [yield][ref_yield_strength], [thermal conductivity][ref_thermal_conductivity], [expansion][ref_thermal_expansion], [stress][ref_thermal_stress], the [Biot][ref_biot_number] and [Fourier][ref_fourier_number] numbers, the [heat equation][ref_heat_equation], [heat flux][ref_heat_flux], [stagnation temperature][ref_stagnation_temperature], the [Stefan-Boltzmann law][ref_stefan_boltzmann], [specific impulse][ref_specific_impulse], the [Tsiolkovsky equation][ref_tsiolkovsky], [rocket engines][ref_rocket_engine], [liquid oxygen][ref_liquid_oxygen], [turbopumps][ref_turbopump], [ejection seats][ref_ejection_seat], the [Karman line][ref_karman_line], [wind tunnels][ref_wind_tunnel], [flight testing][ref_flight_test], [telemetry][ref_telemetry], [thermocouples][ref_thermocouple], [accelerometers][ref_accelerometer], the [sound barrier][ref_sound_barrier], [transonic][ref_transonic] flow, [swept wings][ref_swept_wing], the [XB-70][ref_xb70] and [SR-71][ref_sr71], [Edwards][ref_edwards_afb] and the [Armstrong Flight Research Center][ref_armstrong_frc], [Bell Aircraft][ref_bell_aircraft], the [NACA][ref_naca] and [NASA][ref_nasa] as organizations, the [National Museum of the United States Air Force][ref_nmusaf], the [list of X-planes][ref_list_of_x_planes], or [experimental aircraft][ref_experimental_aircraft] as a category, all of which are treated where they belong.
 
 ## Conclusion
 
 The Douglas X-3 was designed correctly against a specification that changed under it. Two engines producing seventy percent of the intended thrust, feeding through fixed inlets that lose a further twenty-eight percent of total pressure at the design Mach number, halve the thrust available. Halving thrust costs thirty percent of maximum Mach number, which takes a design value of 2.0 to about 1.42, and the aircraft managed 1.21. The keystone question, which is how a very thin very low aspect ratio wing behaves in sustained supersonic flight, was never asked of it.
 
-What the aircraft did instead was reveal the consequence of its own shape. A twenty-metre fuselage with a seven-metre wing has a pitch to roll inertia ratio near thirty-seven, five times the [X-2][related_post_a299_bell_x2] value, and that puts the critical roll rate at about forty-five degrees per second. That is an ordinary control input. Joe Walker made one in October 1954, the aircraft departed violently in all three axes, and he recovered and did it again. The resulting data set arrived while a fighter fleet was losing aircraft to the same phenomenon and two years before it killed a pilot in the X-2.
+What the aircraft did instead was reveal the consequence of its shape. A twenty-metre fuselage with a seven-metre wing has a pitch to roll inertia ratio near fifteen, about three times the [X-2][related_post_a299_bell_x2] value, and that puts the critical roll rate at about eighty-four degrees per second. That is a moderate control input. Joe Walker made an abrupt roll in October 1954, the aircraft departed violently in all three axes, and he recovered and did it again \[[NASA 2014][ref_nasa_x3_stiletto]\]. The resulting data set arrived while a fighter fleet was losing aircraft to the same phenomenon and two years before it killed a pilot in the X-2 \[[Day 1997][research_coupling_history_1997]\].
 
-The X-3 therefore fails its keystone completely and matters anyway, which is the sharpest available demonstration that design intent and historical contribution are different quantities. It also supplied a wing and a landing gear to the [F-104][ref_f104], which is a more conventional kind of success and a smaller one.
+The X-3 therefore fails its keystone completely and matters anyway. No sharper demonstration is available that design intent and historical contribution are different quantities. It also supplied a wing planform to the [F-104][ref_f104] and data for better tires, which is a more conventional kind of success and a smaller one.
 
 The next article takes the [Northrop X-4 Bantam][ref_northrop_x4], a semi-tailless aircraft built to test whether the horizontal tail could be dispensed with at transonic speed, and which answered that question in the negative clearly enough that nobody asked it again for thirty years.
 
@@ -909,10 +909,14 @@ The next article takes the [Northrop X-4 Bantam][ref_northrop_x4], a semi-taille
 
 ### Reference
 
+- [Boslaugh, Research Airplanes Without Rockets, Engineering and Technology History Wiki][ref_ethw_x3]
+- [NASA Armstrong Fact Sheet, X-3 Stiletto][ref_nasa_x3_stiletto]
 - [NASA Armstrong Flight Research Center][ref_nasa_armstrong]
 - [NASA History Office][ref_nasa_x3_factsheet]
 - [NASA Technical Reports Server][ref_ntrs]
+- [Wikipedia Article on 2024 Aluminium Alloy][ref_aluminium_2024]
 - [Wikipedia Article on Bell Aircraft][ref_bell_aircraft]
+- [Wikipedia Article on Concorde][ref_concorde]
 - [Wikipedia Article on Creep Deformation][ref_creep_deformation]
 - [Wikipedia Article on Directional Stability][ref_directional_stability]
 - [Wikipedia Article on Duralumin][ref_duralumin]
@@ -993,6 +997,7 @@ The next article takes the [Northrop X-4 Bantam][ref_northrop_x4], a semi-taille
 - [Wikipedia Article on Thermal Conductivity][ref_thermal_conductivity]
 - [Wikipedia Article on Thermal Expansion][ref_thermal_expansion]
 - [Wikipedia Article on Thermal Stress][ref_thermal_stress]
+- [Wikipedia Article on Ti-6Al-4V][ref_ti6al4v]
 - [Wikipedia Article on Titanium][ref_titanium]
 - [Wikipedia Article on Titanium Alloys][ref_titanium_alloys]
 - [Wikipedia Article on Transonic Flow][ref_transonic]
@@ -6467,6 +6472,7 @@ The next article takes the [Northrop X-4 Bantam][ref_northrop_x4], a semi-taille
 [ref_accelerometer]: https://en.wikipedia.org/wiki/Accelerometer
 [ref_aerodynamic_center]: https://en.wikipedia.org/wiki/Aerodynamic_center
 [ref_afterburner]: https://en.wikipedia.org/wiki/Afterburner
+[ref_aluminium_2024]: https://en.wikipedia.org/wiki/2024_aluminium_alloy
 [ref_armstrong_frc]: https://en.wikipedia.org/wiki/Armstrong_Flight_Research_Center
 [ref_aspect_ratio]: https://en.wikipedia.org/wiki/Aspect_ratio_(aeronautics)
 [ref_bell_aircraft]: https://en.wikipedia.org/wiki/Bell_Aircraft
@@ -6474,6 +6480,7 @@ The next article takes the [Northrop X-4 Bantam][ref_northrop_x4], a semi-taille
 [ref_biot_number]: https://en.wikipedia.org/wiki/Biot_number
 [ref_boundary_layer]: https://en.wikipedia.org/wiki/Boundary_layer
 [ref_buffeting]: https://en.wikipedia.org/wiki/Aeroelasticity#Buffeting
+[ref_concorde]: https://en.wikipedia.org/wiki/Concorde
 [ref_creep_deformation]: https://en.wikipedia.org/wiki/Creep_(deformation)
 [ref_directional_stability]: https://en.wikipedia.org/wiki/Directional_stability
 [ref_douglas_aircraft]: https://en.wikipedia.org/wiki/Douglas_Aircraft_Company
@@ -6484,6 +6491,7 @@ The next article takes the [Northrop X-4 Bantam][ref_northrop_x4], a semi-taille
 [ref_dynamic_pressure]: https://en.wikipedia.org/wiki/Dynamic_pressure
 [ref_edwards_afb]: https://en.wikipedia.org/wiki/Edwards_Air_Force_Base
 [ref_ejection_seat]: https://en.wikipedia.org/wiki/Ejection_seat
+[ref_ethw_x3]: https://ethw.org/First-Hand:Research_Airplanes_Without_Rockets_-_Chapter_10_of_the_Experimental_Research_Airplanes_and_the_Sound_Barrier
 [ref_euler_equations_rigid]: https://en.wikipedia.org/wiki/Euler%27s_equations_(rigid_body_dynamics)
 [ref_experimental_aircraft]: https://en.wikipedia.org/wiki/Experimental_aircraft
 [ref_f104]: https://en.wikipedia.org/wiki/Lockheed_F-104_Starfighter
@@ -6517,6 +6525,7 @@ The next article takes the [Northrop X-4 Bantam][ref_northrop_x4], a semi-taille
 [ref_nasa]: https://en.wikipedia.org/wiki/NASA
 [ref_nasa_armstrong]: https://www.nasa.gov/centers-and-facilities/armstrong/
 [ref_nasa_x3_factsheet]: https://www.nasa.gov/history/
+[ref_nasa_x3_stiletto]: https://www.nasa.gov/aeronautics/x-3-stiletto/
 [ref_nmusaf]: https://en.wikipedia.org/wiki/National_Museum_of_the_United_States_Air_Force
 [ref_northrop_x4]: https://en.wikipedia.org/wiki/Northrop_X-4_Bantam
 [ref_ntrs]: https://ntrs.nasa.gov/
@@ -6544,6 +6553,7 @@ The next article takes the [Northrop X-4 Bantam][ref_northrop_x4], a semi-taille
 [ref_thermal_expansion]: https://en.wikipedia.org/wiki/Thermal_expansion
 [ref_thermal_stress]: https://en.wikipedia.org/wiki/Thermal_stress
 [ref_thermocouple]: https://en.wikipedia.org/wiki/Thermocouple
+[ref_ti6al4v]: https://en.wikipedia.org/wiki/Ti-6Al-4V
 [ref_titanium]: https://en.wikipedia.org/wiki/Titanium
 [ref_titanium_alloys]: https://en.wikipedia.org/wiki/Titanium_alloy
 [ref_transonic]: https://en.wikipedia.org/wiki/Transonic

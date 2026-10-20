@@ -12,7 +12,7 @@ series_index: 50
 <!-- A346 -->
 <script>console.log("A346");</script>
 
-**In 1965 a Piasecki compound helicopter reached 225 miles per hour on one engine of 1,250 horsepower. In 2008 a Piasecki compound helicopter reached 218.65 miles per hour on a transmission rated at 3,400 shaft horsepower.** The second aeroplane carried **1.342 times the power for every pound it weighed** and came home **6.35 miles per hour slower**, forty-three years later \[[16H-1A Pathfinder II, Piasecki Aircraft Corporation][ref_piasecki_16h1a]\] \[[Piasecki 16H Pathfinder][ref_pathfinder_wikipedia]\] \[[Piasecki X-49 SpeedHawk][ref_x49_wikipedia]\]. The section headed What the Data Changed displays both figures and the section headed Where the Framing Breaks Down sets out how far the record supports them.
+**By April 1966 a Piasecki compound helicopter had reached 225 miles per hour on one engine of 1,250 horsepower. In 2008 a Piasecki compound helicopter finished its first test phase credited with 218.65 miles per hour on a transmission rated at 3,400 shaft horsepower.** The second aeroplane carried **1.342 times the power for every pound it weighed** and came home **6.35 miles per hour slower**, forty-two years later \[[Robb, Hybrid helicopters, Vertiflite][ref_robb_vertiflite]\] \[[16H-1A Pathfinder II, Piasecki Aircraft Corporation][ref_piasecki_16h1a]\] \[[Piasecki 16H Pathfinder][ref_pathfinder_wikipedia]\] \[[Piasecki X-49 SpeedHawk][ref_x49_wikipedia]\]. Both figures are derived in What the Data Changed, and the limits of the record behind them are set out under Where the Framing Breaks Down.
 
 This is the fiftieth article in the [X-Planes series][related_post_a297_framing], following the [X-1][related_post_a298_bell_x1], the [X-2][related_post_a299_bell_x2], the [X-3][related_post_a300_douglas_x3], the [X-4][related_post_a301_northrop_x4], the [X-5][related_post_a302_bell_x5], the [X-6][related_post_a303_convair_x6], the [X-7][related_post_a304_lockheed_x7], the [X-8][related_post_a305_aerojet_x8], the [X-9][related_post_a306_bell_x9], the [X-10][related_post_a307_north_american_x10], the [X-11][related_post_a308_convair_x11], the [X-12][related_post_a309_convair_x12], the [X-13][related_post_a310_ryan_x13], the [X-14][related_post_a311_bell_x14], the [X-15][related_post_a312_north_american_x15], the [X-16][related_post_a313_bell_x16], the [X-17][related_post_a314_lockheed_x17], the [X-18][related_post_a315_hiller_x18], the [X-19][related_post_a316_curtiss_wright_x19], the [X-20][related_post_a317_boeing_x20], the [X-21][related_post_a318_northrop_x21], the [X-22][related_post_a319_bell_x22], the [X-23][related_post_a320_martin_marietta_x23], the [X-24][related_post_a321_martin_marietta_x24], the [X-25][related_post_a322_bensen_x25], the [X-26][related_post_a323_schweizer_x26], the [X-27][related_post_a324_lockheed_x27], the [X-28][related_post_a325_osprey_x28], the [X-29][related_post_a326_grumman_x29], the [X-30][related_post_a327_rockwell_x30], the [X-31][related_post_a328_rockwell_mbb_x31], the [X-32][related_post_a329_boeing_x32], the [X-33][related_post_a330_lockheed_martin_x33], the [X-34][related_post_a331_orbital_sciences_x34], the [X-35][related_post_a332_lockheed_martin_x35], the [X-36][related_post_a333_mcdonnell_douglas_x36], the [X-37][related_post_a334_boeing_x37], the [X-38][related_post_a335_scaled_composites_x38], the [X-39][related_post_a336_x39_reserved_never_assigned], the [X-40][related_post_a337_boeing_x40], the [X-41][related_post_a338_x41_common_aero_vehicle], the [X-42][related_post_a339_orbital_sciences_x42], the [X-43][related_post_a340_micro_craft_x43], the [X-44][related_post_a341_x44_two_aircraft], the [X-45][related_post_a342_boeing_x45], the [X-46][related_post_a343_boeing_x46], the [X-47][related_post_a344_northrop_grumman_x47], and the [X-48][related_post_a345_boeing_x48].
 
@@ -20,29 +20,29 @@ This is the fiftieth article in the [X-Planes series][related_post_a297_framing]
 
 ## The Research Question
 
-**A helicopter is slow for a reason that has nothing to do with power.** The X-49A had 3,780 installed shaft horsepower and could not use all of it. What stops a helicopter is that its rotor is asymmetric in forward flight, and the asymmetry gets worse in two different ways at once.
+**A helicopter is slow for a reason that has nothing to do with power.** On the Seahawk's published engine rating the X-49A had 3,780 installed shaft horsepower and could not use all of it \[[Sikorsky SH-60 Seahawk][ref_sh60_wikipedia]\]. What stops a helicopter is that its rotor is asymmetric in forward flight, and the asymmetry gets worse in two different ways at once.
 
-**Compounding attacks one of those ways and not the other.** That asymmetry is the whole subject of this article, and the arithmetic that describes it settles what the X-49A could and could not have achieved.
+**Compounding attacks one of those ways and leaves the other untouched.** That asymmetry is the subject of this article, and the arithmetic that describes it settles what the X-49A could and could not have achieved.
 
 ## Programme Origin
 
 In October 2000 the Naval Air Systems Command awarded Piasecki a demonstration contract, the work having begun as a Small Business Innovation Research effort. A Sikorsky YSH-60F Seahawk, a naval derivative of the Army's Black Hawk \[[Sikorsky UH-60 Black Hawk][ref_uh60_wikipedia]\], was modified as a testbed for the vectored thrust ducted propeller. **During 2004 the programme transitioned to the Army's Aviation Applied Technology Directorate**, carrying the X-49A designation, allocated on 23 May 2003 under the Navy's sponsorship according to the register that Andreas Parsch compiles from data the Department of Defense has released \[[Parsch, DOD 4120.15-L Addendum][ref_mds_addendum]\] \[[X-49 SpeedHawk vectored thrust ducted propeller, GlobalSecurity][ref_x49_globalsecurity]\] \[[Aviation Applied Technology Directorate, United States Army][ref_aatd]\]. The contract was worth 26.1 million dollars when announced in 2003 \[[Piasecki X-49 SpeedHawk][ref_x49_wikipedia]\].
 
-**The technology was thirty-eight years old when the contract was signed.** The ducted propeller descends directly from the ring tail of the Piasecki 16H-1 Pathfinder, first flown on 21 February 1962, and from the 16H-1A Pathfinder II of 15 November 1965, which logged more than 150 hours under a joint Army and Navy programme \[[Piasecki 16H Pathfinder][ref_pathfinder_wikipedia]\] \[[16H-1 Pathfinder, Piasecki Aircraft Corporation][ref_piasecki_16h1]\] \[[Piasecki 16H-1A Pathfinder II, Vertipedia][ref_vertipedia_16h1a]\]. **The configuration class is older still** \[[Compound helicopter][ref_compound_wikipedia]\], and the 16H-1A's success fed directly into the Lockheed Cheyenne \[[Piasecki X-49 SpeedHawk][ref_x49_wikipedia]\], which the manufacturer states was ended by technical deficiencies unrelated to the compound configuration \[[16H-1A Pathfinder II, Piasecki Aircraft Corporation][ref_piasecki_16h1a]\] \[[Lockheed AH-56 Cheyenne][ref_cheyenne_wikipedia]\].
+**The technology was thirty-eight years old when the contract was signed.** The ducted propeller descends directly from the ring tail of the Piasecki 16H-1 Pathfinder, first flown on 21 February 1962, and from the 16H-1A Pathfinder II of 15 November 1965, which logged more than 150 hours under a joint Army and Navy programme \[[Piasecki 16H Pathfinder][ref_pathfinder_wikipedia]\] \[[16H-1 Pathfinder, Piasecki Aircraft Corporation][ref_piasecki_16h1]\] \[[Piasecki 16H-1A Pathfinder II, Vertipedia][ref_vertipedia_16h1a]\]. **The configuration class is older still** \[[Compound helicopter][ref_compound_wikipedia]\], and the 16H-1A's success fed into the Lockheed Cheyenne \[[Piasecki X-49 SpeedHawk][ref_x49_wikipedia]\], which the manufacturer states was ended by technical deficiencies unrelated to the compound configuration \[[16H-1A Pathfinder II, Piasecki Aircraft Corporation][ref_piasecki_16h1a]\] \[[Lockheed AH-56 Cheyenne][ref_cheyenne_wikipedia]\].
 
 ## The Designation Was Skipped, and Then Reused
 
-**The X-49 number was passed over on purpose.** As of early 2002 the designator had been skipped because the Defense Advanced Research Projects Agency asked for X-50 for the Dragonfly canard rotor wing demonstrator, **on the reasoning that the Dragonfly would be the first true fifty-fifty marriage of helicopter and high-speed aeroplane** \[[X-49 SpeedHawk vectored thrust ducted propeller, GlobalSecurity][ref_x49_globalsecurity]\].
+**The X-49 number was passed over on purpose.** As of early 2002 the designator had been skipped because the Defense Advanced Research Projects Agency asked for X-50 for the Dragonfly canard rotor wing demonstrator, **on the reported reasoning that the Dragonfly would be the first true fifty-fifty marriage of helicopter and high-speed aeroplane** \[[X-49 SpeedHawk vectored thrust ducted propeller, GlobalSecurity][ref_x49_globalsecurity]\].
 
 **A designation was therefore chosen for its numerology and a number was left vacant to achieve it.** The vacancy was filled on 23 May 2003, when the register records the X-49A allocated to Sikorsky and Piasecki with the Navy as sponsor \[[Parsch, DOD 4120.15-L Addendum][ref_mds_addendum]\], and in 2004 Piasecki's vectored thrust ducted propeller programme transitioned from the Navy to the Army carrying the number nobody had wanted.
 
-**The aeroplane that took the round number is the subject of the next article in this series** \[[Boeing X-50 Dragonfly][ref_x50_wikipedia]\]. **It crashed twice and never demonstrated conversion** \[[Boeing X-50 Dragonfly][ref_x50_wikipedia]\]. That is not an argument that the numbering was wrong, and it is a fact worth holding while reading either article.
+**The aeroplane that took the round number is the subject of the next article in this series** \[[Boeing X-50 Dragonfly][ref_x50_wikipedia]\]. **It crashed twice and never demonstrated conversion** \[[Boeing X-50 Dragonfly][ref_x50_wikipedia]\]. None of this shows that the numbering was wrong, but the fact is worth holding while reading either article.
 
-**One consequence is bibliographic and it affects this article directly.** The specialist directory whose appendix on X-vehicles supplies specification tables for many aeroplanes in this series carries no page for the X-49, jumping from the X-48 to the X-50 \[[Parsch, Directory of U.S. Military Rockets and Missiles, Appendix 4][ref_parsch_app4]\]. **The X-43 and the X-44 are also absent from it**, so this is not the only article in the series without an entry there, and the specifications below are assembled from the manufacturer, the sponsor and the general press instead.
+**One consequence is bibliographic and bears on this article.** The specialist directory whose appendix on X-vehicles supplies specification tables for many aeroplanes in this series carries no page for the X-49, jumping from the X-48 to the X-50 \[[Parsch, Directory of U.S. Military Rockets and Missiles, Appendix 4][ref_parsch_app4]\]. **The X-43 and the X-44 are also absent from it**, so this is not the only article in the series without an entry there, and the specifications below are assembled from the manufacturer, the sponsor and the general press instead.
 
 ## Sizing From First Principles
 
-**The X-49A was not sized from a clean sheet, so this section sizes what it was given.** The rotor, the gearbox and the airframe were the Seahawk's, and the wing came from a business jet. The subsection headed What Limits a Helicopter's Speed derives the tip speed, the blade loading, the advance ratios and the wing area that a given share of the weight requires. The subsection headed What the Modification Cost sets the added weight against useful load, prices the hover download per square foot of wing, and finds the transmission rather than the engines to be the binding constraint.
+**The X-49A was not sized from a clean sheet, so this section sizes what it was given.** The airframe was the Seahawk's with its drive train modified to drive the duct, and the wing came from a business jet \[[Piasecki X-49 SpeedHawk][ref_x49_wikipedia]\]. This article takes the rotor and the gearbox rating to be the Seahawk's as well. The first subsection below, What Limits a Helicopter's Speed, derives the tip speed, the blade loading, the advance ratios and the wing area that a given share of the weight requires. The second, What the Modification Cost, sets the added weight against useful load, prices the hover download per square foot of wing, and finds the binding constraint in the transmission, whose rating the engines exceed.
 
 ### What Limits a Helicopter's Speed
 
@@ -52,7 +52,7 @@ In October 2000 the Naval Air Systems Command awarded Piasecki a demonstration c
 
 $$V_{\text{adv}} = \Omega R + V, \qquad V_{\text{ret}} = \Omega R - V$$
 
-**The ratio of flight speed to tip speed is the advance ratio and it is the governing parameter** \[[Prouty, Helicopter performance, stability and control][book_prouty]\] \[[Stepniewski and Keys, Rotary-wing aerodynamics][book_stepniewski]\]**,**
+**The ratio of flight speed to tip speed, the advance ratio, is the governing parameter** \[[Prouty, Helicopter performance, stability and control][book_prouty]\] \[[Stepniewski and Keys, Rotary-wing aerodynamics][book_stepniewski]\]**,**
 
 $$\mu = \frac{V}{\Omega R}$$
 
@@ -80,23 +80,23 @@ $$\frac{A_{\text{reverse}}}{A} = \frac{\pi (\mu R/2)^{2}}{\pi R^{2}} = \frac{\mu
 
 $$\frac{53 + 8/12}{2} = 26.83\ \text{ft}$$
 
-and this article takes the UH-60A rotor's published geometry and speed for the YSH-60F, which is an assumption because no source read describes the X-49A's rotor directly. The sea-level speed of sound is 340.29 metres per second in the standard atmosphere \[[U.S. Standard Atmosphere, 1976][research_us_standard_atmosphere]\], being $\sqrt{\gamma R^{*} T_0 / M_0}$ with $\gamma = 1.4$, $R^{*} = 8.31432$ joules per mole per kelvin, $T_0 = 288.15$ kelvin and $M_0 = 0.0289644$ kilograms per mole, which is 340.294 metres per second or 1,116.45 feet per second. The tip speed and the hover tip Mach number at sea level are then
+and the YSH-60F is assumed here to share the UH-60A rotor's published geometry and speed, since the X-49A's rotor dimensions go unstated in every source read. The sea-level speed of sound is 340.29 metres per second in the standard atmosphere \[[U.S. Standard Atmosphere, 1976][research_us_standard_atmosphere]\], being $\sqrt{\gamma R^{*} T_0 / M_0}$ with $\gamma = 1.4$, $R^{*} = 8.31432$ joules per mole per kelvin, $T_0 = 288.15$ kelvin and $M_0 = 0.0289644$ kilograms per mole, which is 340.294 metres per second or 1,116.45 feet per second. The tip speed and the hover tip Mach number at sea level are then
 
 $$\Omega R = \frac{258 \times 2\pi}{60} \times 26.83 = 724.9\ \text{ft/s}$$
 
 $$M_{\text{tip}}^{\text{hover}} = \frac{724.9}{1116.45} = 0.649$$
 
-**No source read publishes a hover tip Mach number for this rotor**, so 0.649 is a derived value and not a check on the inputs. From the nominal chord of 1.73 feet the solidity is
+**The sources publish no hover tip Mach number for this rotor**, so 0.649 is a derived value that cannot check the inputs. From the nominal chord of 1.73 feet the solidity is
 
 $$\sigma = \frac{N c}{\pi R} = \frac{4 \times 1.73}{\pi \times 26.83} = 0.0821$$
 
-slightly below the report's geometric solidity of 0.0826, which the blade loading below uses. The general reference gives the SH-60B an anti-submarine mission gross weight of 17,758 pounds \[[Sikorsky SH-60 Seahawk][ref_sh60_wikipedia]\]. With disc area $A = \pi R^2 = 2{,}261.5\ \text{ft}^2$ and following the standard non-dimensionalisation \[[Bramwell, Done and Balmford, Bramwell's helicopter dynamics][book_bramwell]\], the blade loading at that weight is
+slightly below the report's geometric solidity of 0.0826, which the blade loading below uses. The encyclopaedia entry on the Seahawk gives the SH-60B an anti-submarine mission gross weight of 17,758 pounds \[[Sikorsky SH-60 Seahawk][ref_sh60_wikipedia]\]. With disc area $A = \pi R^2 = 2{,}261.5\ \text{ft}^2$ and following the standard non-dimensionalisation \[[Bramwell, Done and Balmford, Bramwell's helicopter dynamics][book_bramwell]\], the blade loading at that weight is
 
 $$\frac{C_T}{\sigma} = \frac{W}{\rho A (\Omega R)^{2} \sigma} = \frac{17{,}758}{0.0023769 \times 2{,}261.5 \times 724.9^{2} \times 0.0826} = 0.0761$$
 
-**which is an ordinary helicopter number and not a strained one.**
+**which is an ordinary helicopter number and shows no strain.**
 
-The advance ratios follow directly.
+The advance ratios follow.
 
 | Condition | Speed | $\mu$ | Retreating tip | Advancing tip Mach |
 |---|---|---|---|---|
@@ -105,15 +105,15 @@ The advance ratios follow directly.
 | programme target | 200 kt | 0.466 | 387 ft/s | 0.952 |
 | never-exceed | 220 kt | 0.512 | 354 ft/s | **0.982** |
 
-**The 130 knot baseline is an assumed round cruise speed for the unmodified aeroplane and not a published SH-60F figure.** A magazine account puts the Black Hawk's practical limit at cruise speed at about 140 miles per hour \[[Chiles, Hot-rod helicopters, Air & Space][ref_airspace_hot_rod]\], which with 6,076.12 feet to the nautical mile and 5,280 to the statute mile is
+**The 130 knot baseline is an assumed round cruise speed for the unmodified aeroplane. It is not a published SH-60F figure.** A magazine account puts the Black Hawk's practical limit at cruise speed at about 140 miles per hour \[[Chiles, Hot-rod helicopters, Air & Space][ref_airspace_hot_rod]\], which with 6,076.12 feet to the nautical mile and 5,280 to the statute mile is
 
 $$140 \times \frac{5280}{6076.12} = 121.7\ \text{kt}$$
 
-so the assumed baseline is of the same order as the family's cruise and serves only to anchor the first row. The 190 and 220 knot rows rest on a reading of the published speeds that the section headed The Flight Test Record states.
+so the assumed baseline is of the same order as the family's cruise and serves only to anchor the first row. The 190 and 220 knot rows depend on a reading of the published speeds, stated in The Flight Test Record.
 
-#### What the Wing Actually Has to Carry
+#### What the Wing Has to Carry
 
-**Offloading is a dynamic pressure argument and it is why compounding works at speed and not at all in the hover.** A wing carrying a fraction $f$ of the weight needs
+**Offloading is a dynamic pressure argument. It explains why compounding works at speed and is useless in the hover.** A wing carrying a fraction $f$ of the weight needs
 
 $$f W = \tfrac{1}{2} \rho V^{2} S_w C_L$$
 
@@ -126,39 +126,39 @@ $$S_w = \frac{f W}{q C_L}, \qquad q(190\ \text{kt}) = 122.2\ \text{lb/ft}^{2}$$
 | 30 percent | 107 ft² | 67 ft² |
 | 50 percent | 179 ft² | 112 ft² |
 
-**A business jet wing is of that order**, which is why one could be bought rather than designed, and it is the practical reason this configuration is cheap to try.
+**A business jet wing is of that order**, so an existing wing could be bought for the purpose, which makes this configuration cheap to try.
 
 **What the rotor then sees is the blade loading reduced in proportion,**
 
 $$\left(\frac{C_T}{\sigma}\right)_{\text{compound}} = (1-f)\left(\frac{C_T}{\sigma}\right)_{\text{pure}}$$
 
-**and that is the entire mechanism.** Halving the rotor's share halves the lift coefficient the retreating blade must find, which brings the 3.22 factor computed above down to 1.61 and no further.
+**and there is no more to the mechanism.** Halving the rotor's share halves the lift coefficient the retreating blade must find, which brings the 3.22 factor computed above down to 1.61 and no further.
 
 #### The Result That Decides the Article
 
-**The helicopter regime of the rotor literature ends near an advance ratio of 0.4, and the X-49A demonstrated 0.442.** A NASA review of high advance ratio rotor performance describes the helicopter's range as advance ratios from zero to 0.4 and finds analysis and experiment adequate only below 0.45 \[[Harris 2008][research_harrisfranklind_2008]\]. That is the compounding working, and it is a real achievement.
+**The helicopter regime of the rotor literature ends near an advance ratio of 0.4, and the X-49A demonstrated 0.442.** A NASA review of high advance ratio rotor performance describes the helicopter's range as advance ratios from zero to 0.4 and finds analysis and experiment adequate only below 0.45 \[[Harris 2008][research_harrisfranklind_2008]\]. That margin is the compounding at work, and a real achievement.
 
 **But look at the last column.** At the demonstrated 190 knots the advancing tip is already at **Mach 0.937**. At the never-exceed speed it is at **Mach 0.982**, which is to say very nearly sonic.
 
-**Compounding relieves the retreating blade and does nothing whatever for the advancing one.** Offloading lift to a wing lets the retreating blade carry less and therefore stall later. **The advancing tip does not care how much lift the blade is carrying.** It is a compressibility problem, it is set by $\Omega R + V$, and the only variable in that expression a designer can move is $\Omega R$.
+**Compounding relieves the retreating blade and does nothing for the advancing one.** Offloading lift to a wing lets the retreating blade carry less and therefore stall later. **The advancing tip does not care how much lift the blade is carrying.** It is a compressibility problem, it is set by $\Omega R + V$, and the only variable in that expression a designer can move is $\Omega R$.
 
-**So the aeroplane had to slow its rotor, and no source read says that this one did.** The general reference cited for the aeroplane says the wing was intended to offload the rotor so that it could be slowed \[[Piasecki X-49 SpeedHawk][ref_x49_wikipedia]\], and states no rotor speed. Holding the advancing tip at Mach 0.90 at the never-exceed speed would require
+**So the aeroplane had to slow its rotor, and none of the sources reports that this one did.** The encyclopaedia entry on the X-49 states that the wing was intended to offload the rotor so that it could be slowed \[[Piasecki X-49 SpeedHawk][ref_x49_wikipedia]\], and gives no rotor speed. Holding the advancing tip at Mach 0.90 at the never-exceed speed would require
 
 $$\Omega R = 0.90 \times 1116.45 - 220 \times 1.68781 = 633.5\ \text{ft/s}$$
 
 $$N = \frac{633.5}{26.83} \times \frac{60}{2\pi} = 225.5\ \text{rpm}, \qquad 1 - \frac{225.5}{258} = 12.6\ \text{percent}$$
 
-**Phase one was flown inside the existing Seahawk envelope** \[[Piasecki's X-49A SpeedHawk VTDP compound helicopter completes initial phase one flight testing, Piasecki Aircraft Corporation][ref_piasecki_x49a_phase1]\], which is a decision about what the airframe and its rotor system were cleared for rather than about aerodynamics. **If the rotor turned at Seahawk speed, then at that speed the advancing tip runs out before the retreating one does.**
+**Phase one was flown inside the existing Seahawk envelope** \[[Piasecki's X-49A SpeedHawk VTDP compound helicopter completes initial phase one flight testing, Piasecki Aircraft Corporation][ref_piasecki_x49a_phase1]\], a limit set by what the airframe and its rotor system were cleared for. Aerodynamics did not set it. **If the rotor turned at Seahawk speed, then at that speed the advancing tip runs out before the retreating one does.**
 
 ### What the Modification Cost
 
 #### Weight
 
-**The conversion added about 1,600 pounds** \[[Piasecki X-49 SpeedHawk][ref_x49_wikipedia]\]. The general reference gives the SH-60B an empty weight of 15,200 pounds and a maximum take-off weight of 21,884 \[[Sikorsky SH-60 Seahawk][ref_sh60_wikipedia]\], and this article applies those SH-60B figures to the YSH-60F, which is an assumption. Against the empty weight and the maximum the addition is
+**The conversion added about 1,600 pounds** \[[Piasecki X-49 SpeedHawk][ref_x49_wikipedia]\]. The same Seahawk entry gives the SH-60B an empty weight of 15,200 pounds and a maximum take-off weight of 21,884 \[[Sikorsky SH-60 Seahawk][ref_sh60_wikipedia]\], and applying those SH-60B figures to the YSH-60F is an assumption. Against the empty weight and the maximum the addition is
 
 $$\frac{1600}{15200} = 10.5\ \text{percent}, \qquad \frac{1600}{21884} = 7.3\ \text{percent}$$
 
-**But empty weight is the wrong denominator.** What a modification actually spends is useful load, which is the difference between maximum gross and empty,
+**But empty weight is the wrong denominator.** What a modification spends is useful load, the difference between maximum gross and empty,
 
 $$W_{\text{useful}} = 21{,}884 - 15{,}200 = 6{,}684\ \text{lb}$$
 
@@ -178,7 +178,7 @@ and momentum theory gives the induced velocity and the fully developed slipstrea
 
 $$v_i = \sqrt{\frac{W/A}{2\rho}} = 45.1\ \text{ft/s}, \qquad q_{\text{slip}} = \tfrac{1}{2}\rho (2 v_i)^{2} = 9.68\ \text{lb/ft}^{2}$$
 
-**The slipstream dynamic pressure equals the disc loading exactly, which is not a coincidence but the same statement written twice.** For a wing broadside to that flow with a drag coefficient between 1.2 and 1.5, the download is
+**The slipstream dynamic pressure equals the disc loading exactly. The two expressions are the same statement written twice, so the match is no coincidence.** For a wing broadside to that flow with a drag coefficient between 1.2 and 1.5, the download is
 
 $$\frac{D}{S_w} = q_{\text{slip}} C_D = 11.6\ \text{to}\ 14.5\ \text{lb per square foot of wing}$$
 
@@ -188,11 +188,11 @@ $$T_{\text{req}} = W + D_{\text{dn}}, \qquad \frac{P}{P_0} = \left(\frac{T_{\tex
 
 **by momentum theory, so a download of five percent of gross weight costs about 7.6 percent more hover power**, and the penalty compounds against a transmission that has none to give.
 
-**No source consulted publishes the X-49A's wing area**, the wing having been taken from an Aerostar FJ-100 business jet \[[Piasecki X-49 SpeedHawk][ref_x49_wikipedia]\] \[[Chiles, Hot-rod helicopters, Air & Space][ref_airspace_hot_rod]\], so the result is given per square foot and the reader may multiply. **Every ten square feet of wing costs roughly 120 to 145 pounds of hover lift**, which is why the flaperons matter and why compound helicopters droop or slot their wings in the hover.
+**The X-49A's wing area appears in none of the sources consulted**, the wing having been taken from an Aerostar FJ-100 business jet \[[Piasecki X-49 SpeedHawk][ref_x49_wikipedia]\] \[[Chiles, Hot-rod helicopters, Air & Space][ref_airspace_hot_rod]\], so the result is given per square foot and the reader may multiply. **Every ten square feet of wing costs roughly 120 to 145 pounds of hover lift**, and the flaperons matter for that reason.
 
 #### The Constraint Was the Transmission, Not the Engines
 
-**The general reference gives the SH-60B two T700-GE-401C turboshafts of 1,890 shaft horsepower each for take-off** \[[Sikorsky SH-60 Seahawk][ref_sh60_wikipedia]\]. The original UH-60A transmission is rated at 2,828 horsepower of dual input at a rotor speed of 258 revolutions per minute \[[Mitchell, Oswald and Coe, Testing of UH-60A helicopter transmission, NASA TP-2626][ref_nasa_tp2626]\], and a defence patent on gearbox vibration states that 2,828 shaft horsepower defines 100 percent dual-engine power across the Black Hawk and Seahawk family while the improved durability gearbox of the SH-60B has a continuous rating of 3,400 \[[Blunt, Synchronous averaging of epicyclic sun gear vibration, US Patent 6,898,975][ref_patent_us6898975]\]. This article assumes the YSH-60F carried that gearbox, which no source read confirms. Then
+**In the Seahawk entry the SH-60B has two T700-GE-401C turboshafts of 1,890 shaft horsepower each for take-off** \[[Sikorsky SH-60 Seahawk][ref_sh60_wikipedia]\]. The original UH-60A transmission is rated at 2,828 horsepower of dual input at a rotor speed of 258 revolutions per minute \[[Mitchell, Oswald and Coe, Testing of UH-60A helicopter transmission, NASA TP-2626][ref_nasa_tp2626]\], and a defence patent on gearbox vibration states that 2,828 shaft horsepower defines 100 percent dual-engine power across the Black Hawk and Seahawk family while the improved durability gearbox of the SH-60B has a continuous rating of 3,400 \[[Blunt, Synchronous averaging of epicyclic sun gear vibration, US Patent 6,898,975][ref_patent_us6898975]\]. That the YSH-60F carried that gearbox is assumed here, and no source read confirms it. Then
 
 $$2 \times 1890 - 3400 = 380\ \text{shp}, \qquad \frac{380}{3780} = 10.1\ \text{percent}$$
 
@@ -200,7 +200,7 @@ $$2 \times 1890 - 3400 = 380\ \text{shp}, \qquad \frac{380}{3780} = 10.1\ \text{
 
 **That single fact explains the shape of the unbuilt second phase.** The plan was a drag clean-up, including a rotor hub fairing and retracting landing gear, **and a third engine to help drive the ducted propeller** \[[X-49 SpeedHawk vectored thrust ducted propeller, GlobalSecurity][ref_x49_globalsecurity]\]. A third engine driving the duct directly is not about total power. **It is about routing power to the propulsor without passing it through a gearbox that is already at its limit.**
 
-**There is a second reason phase two was a drag programme and it is a cube law.** Helicopter power divides into induced, profile and parasite terms, and only the last rises steeply with speed \[[Prouty, Helicopter performance, stability and control][book_prouty]\],
+**A second reason phase two was a drag programme is a cube law.** Helicopter power divides into induced, profile and parasite terms, and only the last rises steeply with speed \[[Prouty, Helicopter performance, stability and control][book_prouty]\],
 
 $$P = P_i + P_o + P_p, \qquad P_p = \tfrac{1}{2}\rho V^{3} f_e$$
 
@@ -208,16 +208,16 @@ in which $f_e$ is the equivalent flat plate area. Going from the baseline to the
 
 $$\frac{P_p(190)}{P_p(130)} = \left(\frac{190}{130}\right)^{3} = 3.12$$
 
-**and reaching the 200 knot objective would have cost 3.64 times the baseline parasite power.** A hub fairing and retracting gear attack $f_e$ directly, which is the only term in that expression a retrofit can change cheaply. **Against a transmission with 380 horsepower already stranded, that is where the margin had to come from.**
+**and reaching the 200 knot objective would have cost 3.64 times the baseline parasite power.** A hub fairing and retracting gear attack $f_e$ directly, the only term in that expression a retrofit can change cheaply. **Against a transmission with 380 horsepower already stranded, that is where the margin had to come from.**
 
-**Phase two was never funded and the aeroplane never flew in that configuration.**
+**No record of phase two being funded or flown appears in the sources consulted**, and the X-49 entry describes the programme as silent since its first phase ended in 2008 \[[Piasecki X-49 SpeedHawk][ref_x49_wikipedia]\].
 
 ## Dependent Systems, The Aircraft
 
 | | X-49A SpeedHawk | 16H-1A Pathfinder II |
 |---|---|---|
 | First flight | 29 June 2007 | 15 November 1965 |
-| Base airframe | Sikorsky YSH-60F Seahawk | clean sheet |
+| Base airframe | Sikorsky YSH-60F Seahawk | rebuilt 16H-1 Pathfinder |
 | Rotor diameter | 53 ft 8 in | 44 ft |
 | Wing | from an Aerostar FJ-100, with flaperons | 32 ft 10 in span |
 | Propulsor | vectored thrust ducted propeller | 5.5 ft ring-tail ducted propeller |
@@ -229,9 +229,9 @@ $$\frac{P_p(190)}{P_p(130)} = \left(\frac{190}{130}\right)^{3} = 3.12$$
 | Hours flown | more than 80 | more than 150 |
 | Built | 1 | 1 |
 
-The X-49A column follows the sections above. The 16H-1A's rotor diameter, ducted propeller diameter, engine and maximum speed are the manufacturer's \[[16H-1A Pathfinder II, Piasecki Aircraft Corporation][ref_piasecki_16h1a]\], its span and gross weight a general reference's \[[Piasecki 16H Pathfinder][ref_pathfinder_wikipedia]\], and its first flight and hours the manufacturer's and the Vertical Flight Society's \[[Piasecki 16H-1A Pathfinder II, Vertipedia][ref_vertipedia_16h1a]\]. The section headed Where the Framing Breaks Down sets out where those sources disagree.
+The X-49A column follows the sections above. The 16H-1A's base airframe, rotor diameter, ducted propeller diameter, engine and maximum speed are the manufacturer's \[[16H-1A Pathfinder II, Piasecki Aircraft Corporation][ref_piasecki_16h1a]\], its span and gross weight a general reference's \[[Piasecki 16H Pathfinder][ref_pathfinder_wikipedia]\], and its first flight and hours the manufacturer's and the Vertical Flight Society's \[[Piasecki 16H-1A Pathfinder II, Vertipedia][ref_vertipedia_16h1a]\]. The later section on where the framing breaks down sets out where they disagree.
 
-### What the Duct Buys, Which the Rest of This Article Has Taken on Trust
+### What a Duct Adds
 
 **A shrouded propulsor is not merely a propeller with a guard around it.** An open rotor's slipstream contracts, and by how much follows from momentum theory alone. Thrust is the momentum flux and power is the kinetic energy flux,
 
@@ -249,7 +249,7 @@ $$T = \dot{m} v_e = \frac{\rho A_d v_d^{2}}{\sigma_d}, \qquad P = \tfrac{1}{2}\d
 
 **The duct's report literature is largely a 1950s and 1960s one** \[[Theodorsen 1960][research_ducted_prop_theory]\] \[[Meyerhoff and Zvengrowski 1962][research_ducted_propeller_study]\].
 
-**Eliminating $v_d$ at constant power gives the augmentation directly,**
+**Eliminating $v_d$ at constant power gives the augmentation,**
 
 $$\frac{T}{T_{\text{open}}} = (2\sigma_d)^{1/3}$$
 
@@ -259,9 +259,9 @@ $$\frac{T}{T_{\text{open}}} = 2^{1/3} = 1.26$$
 
 **Twenty-six percent more static thrust for the same power and the same disc area**, and a mildly diffusing duct at $\sigma_d = 1.2$ gives 1.34.
 
-**That is the whole case for the ring tail**, and it is why a ducted propeller small enough to fit where a tail rotor went can still supply meaningful forward thrust. **It is also a static result.** The augmentation falls away in forward flight as the duct becomes a fairing around a propeller, and no source consulted publishes where that happens for this duct.
+**The case for the ring tail comes down to that figure**, and it explains how a ducted propeller small enough to fit where a tail rotor went can still supply meaningful forward thrust. **It is also a static result.** The augmentation falls away in forward flight as the duct becomes a fairing around a propeller, and no publication consulted locates that point for this duct.
 
-**The duct does three jobs that a tail rotor does one and a half of.** It supplies anti-torque, it supplies yaw control, and in forward flight it supplies thrust, with vanes vectoring the efflux. The first flight exercised exactly that, being hovering, pedal turns and slow forward and sideways flight on the duct for anti-torque, directional and trim control \[[Piasecki X-49 SpeedHawk][ref_x49_wikipedia]\].
+**The duct does three jobs that a tail rotor does one and a half of.** It supplies anti-torque, it supplies yaw control, and in forward flight it supplies thrust, with vanes vectoring the efflux \[[X-49 SpeedHawk vectored thrust ducted propeller, GlobalSecurity][ref_x49_globalsecurity]\] \[[Chiles, Hot-rod helicopters, Air & Space][ref_airspace_hot_rod]\]. The first flight exercised those jobs, being hovering, pedal turns and slow forward and sideways flight on the duct for anti-torque, directional and trim control \[[Piasecki X-49 SpeedHawk][ref_x49_wikipedia]\].
 
 ## The Flight Test Record
 
@@ -269,7 +269,7 @@ $$\frac{T}{T_{\text{open}}} = 2^{1/3} = 1.26$$
 
 **The programme's own reported results are a speed claim, a vibration claim and a hover claim, and only the hover claim carries a number.** The manufacturer's release on completing the first phase reports preliminary results indicating a significant increase in speed over the baseline H-60, hover performance on average within 3.7 percent of predicted values, and significantly reduced forward flight vibration and fatigue loads \[[Piasecki's X-49A SpeedHawk VTDP compound helicopter completes initial phase one flight testing, Piasecki Aircraft Corporation][ref_piasecki_x49a_phase1]\]. The same release places the first phase inside the SH-60's limit under the Naval Air Training and Operating Procedures Standardization programme, or NATOPS, and plans a second phase with a supplementary power unit and streamlining to reach speeds over 200 knots.
 
-**No primary document read for this article states the demonstrated maximum speed.** The general reference cited for the aeroplane gives a maximum of 350 kilometres per hour, a cruise of 250 and a never-exceed speed of 410 \[[Piasecki X-49 SpeedHawk][ref_x49_wikipedia]\]. With 1.852 kilometres to the nautical mile these are
+**The demonstrated maximum speed is stated in no primary document read for this article.** The encyclopaedia article on the aeroplane gives a maximum of 350 kilometres per hour, a cruise of 250 and a never-exceed speed of 410 \[[Piasecki X-49 SpeedHawk][ref_x49_wikipedia]\]. With 1.852 kilometres to the nautical mile these are
 
 $$\frac{350}{1.852} = 189.0\ \text{kt}, \qquad \frac{250}{1.852} = 135.0\ \text{kt}, \qquad \frac{410}{1.852} = 221.4\ \text{kt}$$
 
@@ -277,49 +277,49 @@ $$\frac{350}{1.852} = 189.0\ \text{kt}, \qquad \frac{250}{1.852} = 135.0\ \text{
 
 $$190 \times 1.852 = 351.9\ \text{km/h}, \qquad 220 \times 1.852 = 407.4\ \text{km/h}$$
 
-and both round to the published values. That reading is an assumption, and the section headed Where the Framing Breaks Down sets it against a lower figure the manufacturer gave the press.
+and both round to the published values. That reading is an assumption, and the discussion of where the framing breaks down sets it against a lower figure the manufacturer gave the press.
 
 ## Comparison With Ground Prediction
 
-**The programme reported one comparison against prediction directly, and it is the hover.** Hover performance was on average within 3.7 percent of prediction, a result the section headed The Flight Test Record lists among the programme's own claims. The article reports that figure and not the prediction behind it, so it stands as reported rather than examined.
+**The programme reported a single direct comparison against prediction, for the hover.** Hover performance was on average within 3.7 percent of prediction, one of the programme's claims listed in The Flight Test Record above. The article reports that figure without the prediction behind it, so the figure stands as reported and goes unexamined.
 
 **The speed objective was set on the ground and flight fell short of it.** The programme target was 200 knots \[[X-49 SpeedHawk vectored thrust ducted propeller, GlobalSecurity][ref_x49_globalsecurity]\], and against the 190 knots this article takes as the demonstrated maximum the shortfall is
 
 $$200 - 190 = 10\ \text{kt}, \qquad \frac{10}{200} = 5\ \text{percent of the objective}$$
 
-The section headed What the Data Changed attributes the shortfall to a first phase flown inside the existing Seahawk envelope with the drag clean-up and the third engine unbuilt, and the section headed Epistemic State records that attribution as inference rather than analysis.
+The discussion under What the Data Changed attributes the shortfall to a first phase flown inside the existing Seahawk envelope with the drag clean-up and the third engine unbuilt, and the Epistemic State section classes that attribution as inference rather than analysis.
 
-**The manufacturer's speed claim is a comparison against the baseline H-60 and not against a prediction**, and it is stated as significant without a figure \[[Piasecki's X-49A SpeedHawk VTDP compound helicopter completes initial phase one flight testing, Piasecki Aircraft Corporation][ref_piasecki_x49a_phase1]\].
+**The manufacturer's speed claim compares the aeroplane with the baseline H-60, with no prediction involved**, and calls the gain significant without giving a figure \[[Piasecki's X-49A SpeedHawk VTDP compound helicopter completes initial phase one flight testing, Piasecki Aircraft Corporation][ref_piasecki_x49a_phase1]\].
 
-**The predictions this article makes for itself have no flight counterpart in the public record.** The advance ratios and advancing tip Mach numbers are derived from the Seahawk rotor at its published speed, and whether the rotor speed was reduced at all in flight is listed under the section headed Epistemic State as unsettled. The download of 11.6 to 14.5 pounds per square foot of wing, displayed in the subsection headed The Wing Sits in the Downwash, is an upper bracket resting on an assumed drag coefficient and an unpublished wing area. The static thrust augmentation of 1.26 that momentum theory gives the duct, displayed in the subsection on what the duct buys, has no published measurement for this duct, static or in forward flight.
+**The predictions this article makes for itself have no flight counterpart in the public record.** The advance ratios and advancing tip Mach numbers are derived from the Seahawk rotor at its published speed, and whether the rotor speed was reduced at all in flight is among the questions Epistemic State lists as unsettled. The download of 11.6 to 14.5 pounds per square foot of wing, displayed under The Wing Sits in the Downwash, is an upper bracket built on an assumed drag coefficient and an unpublished wing area. The static thrust augmentation of 1.26 that momentum theory gives the duct, derived in the subsection on what a duct adds, has no published measurement for this duct, static or in forward flight.
 
-**The one primary flight document in the record concerns the predecessor and was not read.** The 16H-1A flight test research programme of 1968 is named and its text was not retrievable \[[Meyers et al 1968][research_16h1a_flight_test]\], so the 1965 speed in this article's opening comparison rests on the manufacturer's account rather than on measured data.
+**The one primary flight document in the record concerns the predecessor and was not read.** The 16H-1A flight test research programme of 1968 is named and its text was not retrievable \[[Meyers et al 1968][research_16h1a_flight_test]\], so the 16H-1A's speed in the opening comparison comes from secondary accounts instead of measured data.
 
 ## What the Data Changed
 
-### The 1965 Aircraft Was Faster and the Reason Is Not Aerodynamic
+### The 1965 Aircraft Was Faster for a Non-Aerodynamic Reason
 
-**The 16H-1A reached 225 miles per hour in 1965 on a single 1,250 horsepower turbine** \[[16H-1A Pathfinder II, Piasecki Aircraft Corporation][ref_piasecki_16h1a]\], **at a gross weight a general reference gives as 10,800 pounds** \[[Piasecki 16H Pathfinder][ref_pathfinder_wikipedia]\]. The X-49A's 190 knots, with 6,076.12 feet to the nautical mile and 5,280 to the statute mile, compares with it as
+**The 16H-1A had reached 225 miles per hour by April 1966 on a single 1,250 horsepower turbine** \[[16H-1A Pathfinder II, Piasecki Aircraft Corporation][ref_piasecki_16h1a]\] \[[Robb, Hybrid helicopters, Vertiflite][ref_robb_vertiflite]\], **at a gross weight a general reference gives as 10,800 pounds** \[[Piasecki 16H Pathfinder][ref_pathfinder_wikipedia]\]. The X-49A's 190 knots, with 6,076.12 feet to the nautical mile and 5,280 to the statute mile, compares with it as
 
 $$190 \times \frac{6076.12}{5280} = 218.65\ \text{mph}, \qquad 225 - 218.65 = 6.35\ \text{mph}, \qquad 225 \times \frac{5280}{6076.12} = 195.5\ \text{kt}$$
 
-and it was reached in 2008 with 3,400 horsepower at the gearbox and twice the weight. **The comparison is a ratio of power loadings and needs nothing else,**
+a speed reached in the first test phase of 2007 and 2008 with 3,400 horsepower at the gearbox and twice the weight. **The comparison is a ratio of power loadings and needs nothing else,**
 
 $$\frac{(W/P)_{16H}}{(W/P)_{X49}} = \frac{10{,}800/1{,}250}{21{,}884/3{,}400} = \frac{8.64}{6.44} = 1.342$$
 
 **The later aeroplane had 1.342 times the power per pound and was 6.35 miles per hour slower.**
 
-**That comparison is real and it is not a fair test of the technology.** The 16H-1A was a clean-sheet compound designed around its ring tail. **The X-49A was a production naval helicopter with a duct and a wing attached to it**, flown inside the envelope that helicopter was already cleared to, with its rotor turning at the speed that helicopter's rotor turns, a hub in the breeze and its landing gear down.
+**That comparison is real, but as a test of the technology it is unfair.** The 16H-1A was a rebuild of the 16H-1, a compound designed with its ring tail from the start \[[16H-1 Pathfinder, Piasecki Aircraft Corporation][ref_piasecki_16h1]\] \[[16H-1A Pathfinder II, Piasecki Aircraft Corporation][ref_piasecki_16h1a]\] \[[Robb, Hybrid helicopters, Vertiflite][ref_robb_vertiflite]\]. **The X-49A was a naval helicopter of a production type with a duct and a wing attached to it**, flown inside the envelope that helicopter was already cleared to, with the hub fairing and the retracting gear left to the second phase \[[X-49 SpeedHawk vectored thrust ducted propeller, GlobalSecurity][ref_x49_globalsecurity]\], and on this article's assumption with its rotor turning at the speed that helicopter's rotor turns.
 
-**So the honest reading is that the X-49A was not an attempt to fly fast.** It was an attempt to find out what compounding does to an aeroplane you already own, and that is a different question with a different figure of merit.
+**The X-49A, then, was not an attempt to fly fast.** It was an attempt to find out what compounding does to an aeroplane already in service, a different question with a different figure of merit.
 
 ### The Figure of Merit Is the Retrofit, Not the Speed
 
-**Read as a retrofit study the results line up.** Vibration and fatigue loads reported as significantly reduced, hover performance within 3.7 percent of prediction, the duct demonstrated in all three of its roles, and 1,600 pounds, being the 23.9 percent of useful load displayed in the subsection headed Weight, as the price. **Those are the numbers a fleet operator would want**, and the top speed is the least interesting of them.
+**Read as a retrofit study the results line up.** Vibration and fatigue loads reported as significantly reduced, hover performance within 3.7 percent of prediction, the duct demonstrated in all three of its roles, and 1,600 pounds, being the 23.9 percent of useful load computed in the weight subsection, as the price. **Those are the numbers a fleet operator would want**, and the top speed is the least interesting of them.
 
-**Read as a speed demonstrator it is a programme that stopped one phase short of its own objective**, with the drag clean-up and the third engine unbuilt and 200 knots never attempted.
+**Read as a speed demonstrator it is a programme that stopped one phase short of its objective**, and the sources consulted record no drag clean-up, no third engine and no attempt at 200 knots.
 
-### What the Arithmetic Says Either Way
+### What the Arithmetic Shows Either Way
 
 **Even the unbuilt phase two would have run into the advancing blade.** The advancing tip Mach number is fixed by two terms and a retrofit can change only one of them,
 
@@ -327,7 +327,7 @@ $$M_{\text{adv}} = \frac{\Omega R + V}{a}$$
 
 At 200 knots on the Seahawk rotor speed that is Mach 0.952. **A drag clean-up buys thrust and a third engine buys power, and neither of them buys Mach number.** The only remaining variable is rotor speed, and slowing a rotor on a production helicopter changes its dynamics, its autorotation entry and its clearance.
 
-**That is the argument for the configurations that came later.** Sikorsky's X2 and the coaxial advancing-blade designs slow their rotors deliberately and put the lift on the advancing sides of two rotors \[[Sikorsky X2][ref_x2_wikipedia]\], which is a different answer to the same asymmetry.
+**This argument favours the configurations that came later.** Sikorsky's X2 and the coaxial advancing-blade designs slow their rotors deliberately and put the lift on the advancing sides of two rotors \[[Sikorsky X2][ref_x2_wikipedia]\], a different answer to the same asymmetry.
 
 ## The Contemporary Literature
 
@@ -535,11 +535,11 @@ At 200 knots on the Seahawk rotor speed that is Mach 0.952. **A drag clean-up bu
 
 **The wing area is not published and the download is therefore not a number.** It is given per square foot, and a reader who knows the FJ-100 wing can finish the calculation.
 
-**The drag coefficient of 1.2 to 1.5 is assumed and not measured.** A wing in a rotor downwash with drooped flaperons can do materially better than a flat plate, and the programme had every reason to try. **The download figure is an upper bracket rather than an estimate.**
+**The drag coefficient of 1.2 to 1.5 is assumed, with no measurement behind it.** A wing in a rotor downwash with drooped flaperons can do materially better than a flat plate, and the programme had every reason to try. **The download figure is an upper bracket rather than an estimate.**
 
-**The sources disagree about the engines.** The Seahawk is fitted with T700-GE-401C turboshafts \[[Sikorsky SH-60 Seahawk][ref_sh60_wikipedia]\], the designation register lists the X-49A with two T700-GE-401C \[[Parsch, DOD 4120.15-L Addendum][ref_mds_addendum]\], and at least one account of the X-49A gives the Army's T700-GE-701C \[[Piasecki X-49 SpeedHawk][ref_x49_wikipedia]\], whose rating no source read states. **The aeroplane began as a Navy programme and finished as an Army one**, so both may be right at different dates, and the article uses the gearbox rating of 3,400 shaft horsepower because that is the number that actually binds.
+**The sources disagree about the engines.** The Seahawk is fitted with T700-GE-401C turboshafts \[[Sikorsky SH-60 Seahawk][ref_sh60_wikipedia]\], the designation register lists the X-49A with two T700-GE-401C \[[Parsch, DOD 4120.15-L Addendum][ref_mds_addendum]\], and at least one account of the X-49A gives the Army's T700-GE-701C \[[Piasecki X-49 SpeedHawk][ref_x49_wikipedia]\], whose rating no source read states. **The aeroplane began as a Navy programme and finished as an Army one**, so both may be right at different dates, and the article uses the gearbox rating of 3,400 shaft horsepower because the gearbox rating is the binding number.
 
-**The 1965 speed is quoted differently by the manufacturer and by general reference.** Piasecki says 225 miles per hour maximum and 207 cruising \[[16H-1A Pathfinder II, Piasecki Aircraft Corporation][ref_piasecki_16h1a]\]. A general encyclopaedia says 230 miles per hour maximum and 175 cruising \[[Piasecki 16H Pathfinder][ref_pathfinder_wikipedia]\]. **The comparison in this article uses the manufacturer's lower maximum**, which is the conservative choice for the point being made.
+**The 16H-1A's speed is quoted differently by the manufacturer and by general reference.** Piasecki says 225 miles per hour maximum and 207 cruising \[[16H-1A Pathfinder II, Piasecki Aircraft Corporation][ref_piasecki_16h1a]\]. A general encyclopaedia gives 230 miles per hour maximum and 175 cruising \[[Piasecki 16H Pathfinder][ref_pathfinder_wikipedia]\]. **The comparison in this article uses the manufacturer's lower maximum**, which is the conservative choice for the point being made. Its date is quoted two ways as well, since a history of the compound helicopter places the first free flight on 15 November 1965 and the 225 miles per hour among the flying done by April 1966 \[[Robb, Hybrid helicopters, Vertiflite][ref_robb_vertiflite]\], while a magazine account dates the 225 miles per hour to 1964 \[[Chiles, Hot-rod helicopters, Air & Space][ref_airspace_hot_rod]\], which is before the 16H-1A first flew.
 
 **The 16H-1A's gross weight is quoted three ways, and the opening comparison depends on which.** The general encyclopaedia gives 10,800 pounds \[[Piasecki 16H Pathfinder][ref_pathfinder_wikipedia]\]. The Vertical Flight Society's aircraft database gives a maximum gross weight of 8,000 pounds \[[Piasecki 16H-1A Pathfinder II, Vertipedia][ref_vertipedia_16h1a]\], and the manufacturer's empty weight of 4,450 and useful load of 3,450 pounds \[[16H-1A Pathfinder II, Piasecki Aircraft Corporation][ref_piasecki_16h1a]\] sum to 7,900. The same database gives an empty weight of 4,550 pounds and the general encyclopaedia 4,800. At 8,000 pounds the ratio of power loadings becomes
 
@@ -551,17 +551,17 @@ $$\frac{(W/P)_{16H}}{(W/P)_{X49}} = \frac{8{,}000/1{,}250}{21{,}884/3{,}400} = \
 
 $$\frac{(W/P)_{16H}}{(W/P)_{X49}} = \frac{10{,}800/1{,}050}{21{,}884/3{,}400} = \frac{10.29}{6.44} = 1.598$$
 
-**so the lower rating would widen the opening comparison rather than remove it**, while the lighter weight above removes it. The two uncertainties pull in opposite directions, and no document read settles either.
+**so the lower rating would widen the gap**, while the lighter weight above removes it. The two uncertainties pull in opposite directions, and no document read settles either.
 
-**A primary document that would settle it exists and was not read.** The 16H-1A flight test research programme of 1968 is named and its identifier resolves, but its text was not retrievable \[[Meyers et al 1968][research_16h1a_flight_test]\]. **The opening comparison of this article therefore rests on a manufacturer's account of its own aeroplane**, which is the weakest kind of source for the strongest claim made here. **A reader with library access can close that gap and this article cannot.**
+**A primary document that would settle it exists and was not read.** The 16H-1A flight test research programme of 1968 is named and its identifier resolves, but its text was not retrievable \[[Meyers et al 1968][research_16h1a_flight_test]\]. **The comparison that opens the article therefore rests on a manufacturer's account of its own aeroplane**, the weakest kind of source for the strongest claim made here. **A reader with library access can close that gap and this article cannot.**
 
-**The advance ratio of about 0.4 that bounds the conventional helicopter regime is a description of the literature's range and not a measured boundary for this rotor** \[[Harris 2008][research_harrisfranklind_2008]\]. It depends on blade loading, twist, aerofoil section and how much roughness the pilot will accept. **No source consulted publishes the SH-60F's own stall boundary**, so the claim that 0.442 is past the conventional regime rests on the general figure rather than on this aircraft's data.
+**The advance ratio of about 0.4 that bounds the conventional helicopter regime describes the range the literature covers. It is not a measured boundary for this rotor** \[[Harris 2008][research_harrisfranklind_2008]\]. It depends on blade loading, twist, aerofoil section and how much roughness the pilot will accept. **The SH-60F's stall boundary is not published in any source consulted**, so the claim that 0.442 lies past the conventional regime depends on the general figure, with no data for this aircraft behind it.
 
 **The demonstrated speed is a converted figure, and the one speed the manufacturer is quoted as giving is lower.** A magazine account of the October 2008 demonstration reports that a Navy rule capped the flyby at about 200 miles per hour and that the company said the X-49A had reached 203 miles per hour in a slight descent \[[Chiles, Hot-rod helicopters, Air & Space][ref_airspace_hot_rod]\]. In knots, and against the 190 this article carries, that is
 
 $$203 \times \frac{5280}{6076.12} = 176.4\ \text{kt}, \qquad 190 - 176.4 = 13.6\ \text{kt}$$
 
-The manufacturer's own release places the first phase inside the SH-60's NATOPS limit \[[Piasecki's X-49A SpeedHawk VTDP compound helicopter completes initial phase one flight testing, Piasecki Aircraft Corporation][ref_piasecki_x49a_phase1]\], and the general reference cited for the Seahawk gives that aeroplane a never-exceed speed of 180 knots \[[Sikorsky SH-60 Seahawk][ref_sh60_wikipedia]\]. **No source this article could read reconciles the converted 190 knots with the quoted 203 miles per hour.** If the lower figure is the true maximum, every number this article derives at 190 knots, among them the advance ratio of 0.442 and the advancing tip Mach number of 0.937, describes a speed the aeroplane did not reach.
+The manufacturer's own release places the first phase inside the SH-60's NATOPS limit \[[Piasecki's X-49A SpeedHawk VTDP compound helicopter completes initial phase one flight testing, Piasecki Aircraft Corporation][ref_piasecki_x49a_phase1]\], and the encyclopaedia gives the Seahawk a never-exceed speed of 180 knots \[[Sikorsky SH-60 Seahawk][ref_sh60_wikipedia]\]. **No source this article could read reconciles the converted 190 knots with the quoted 203 miles per hour.** If the lower figure is the true maximum, every number derived here at 190 knots, among them the advance ratio of 0.442 and the advancing tip Mach number of 0.937, describes a speed the aeroplane did not reach.
 
 **Nothing here measures the duct.** The vectored thrust ducted propeller's efficiency, its download in hover, its yaw authority against a conventional tail rotor and its weight relative to one are the quantities that would decide whether the configuration is worth having, **and none of them is in the public record for this aeroplane.**
 
@@ -581,13 +581,13 @@ The manufacturer's own release places the first phase inside the SH-60's NATOPS 
 
 **The exception is the 16H-1A flight test research programme**, by Meyers, Tompkins and Goldberg, dated 1968 \[[Meyers et al 1968][research_16h1a_flight_test]\]. It is the only primary document among the 3,330 survey records about either Piasecki compound aeroplane.
 
-**Its full text was not retrievable.** The identifier is registered and resolves, so the document exists and is correctly cited, but its content is not available to this article. **The consequence is that this article's opening comparison still rests on the manufacturer's own account of the 1965 speed**, with a primary source named but not read. **A reader with library access can close that gap and this article cannot.**
+**Its full text was not retrievable.** The identifier is registered and resolves, so the document exists and is correctly cited, but its content is not available to this article. **The consequence is that this article's opening comparison still rests on the manufacturer's own account of the 16H-1A's speed and on one magazine account that dates it by April 1966**, with a primary source named but not read. **A reader with library access can close that gap and this article cannot.**
 
 **What the repositories do hold is the duct's own literature, and most of their share of it dates from the 1950s and 1960s.** The survey carries 114 records whose titles name a ducted propeller, counting any single character between the two words, and 30 of them are report primaries, 26 of those dated to the 1950s or 1960s. Among them are a ducted propeller assault transport study in several volumes, a theoretical investigation of ducted propeller aerodynamics in four volumes and a ducted propeller technical study. **The technology the X-49A demonstrated in 2007 was documented while the 16H was flying.**
 
 ### The Specialist Directory Has No Entry for the X-49
 
-**The specialist directory whose appendix on X-vehicles supplies specification tables for many aeroplanes in this series has no page for the X-49** \[[Parsch, Directory of U.S. Military Rockets and Missiles, Appendix 4][ref_parsch_app4]\]. In the range from the X-41 to the X-51 its index carries pages for the X-41, X-42, X-45, X-47, X-48, X-50 and X-51, and none for the X-43, the X-44 or the X-49. **That is consistent with the designation history**, since the number was skipped in 2002 and filled in 2003, and it means the specifications here come from the manufacturer, the sponsor and the general press with no independent compilation to check them against.
+**The specialist directory whose appendix on X-vehicles supplies specification tables for many aeroplanes in this series has no page for the X-49** \[[Parsch, Directory of U.S. Military Rockets and Missiles, Appendix 4][ref_parsch_app4]\]. In the range from the X-41 to the X-51 its index carries pages for the X-41, X-42, X-45, X-47, X-48, X-50 and X-51, and none for the X-43, the X-44 or the X-49. **That is consistent with the designation history**, since the number was skipped in 2002 and filled in 2003 \[[X-49 SpeedHawk vectored thrust ducted propeller, GlobalSecurity][ref_x49_globalsecurity]\] \[[Parsch, DOD 4120.15-L Addendum][ref_mds_addendum]\], and it means the specifications here come from the manufacturer, the sponsor and the general press with no independent compilation to check them against.
 
 ### The Definition of Primary
 
@@ -631,7 +631,7 @@ Many of the words this subject depends on also name something else, and a record
 
 ### Historical Fact
 
-The designation skip and the reason given for it, the 2000 Navy contract and the 2004 transfer to the Army, the first flight date and duration, the flight and hour counts, the base airframe, the wing's origin, the modification weight, the reported hover result and the qualitative speed and vibration results, and the content of the unbuilt second phase. The 16H-1 and 16H-1A dates, engines, weights, dimensions and speeds.
+The designation skip and the reason given for it, the 2000 Navy contract and the 2004 transfer to the Army, the first flight date and duration, the flight and hour counts, the base airframe, the wing's origin, the modification weight, the reported hover result and the qualitative speed and vibration results, and the content of the unbuilt second phase. The 16H-1 and 16H-1A dates, engines, weights, dimensions and speeds. Several of these rest on one source. The modification weight and the flight and hour counts come from the general reference alone, which flags the counts as needing a citation, the reason for the designation skip comes from one secondary compilation that reports it, and the 16H-1A's speed and its date come from the manufacturer and one magazine history.
 
 ### Verified by Independent Derivation
 
@@ -643,23 +643,23 @@ That compounding relieves the retreating blade and does nothing for the advancin
 
 ### Inference
 
-That phase one's envelope restriction, rather than the aerodynamics, is why the demonstrated speed fell short of the target. That the flaperons exist in part to manage hover download, which is a reading of the configuration and not a stated rationale. That the published 350 and 410 kilometre per hour figures are rounded conversions of 190 and 220 knots, and that 130 knots represents the unmodified aeroplane's cruise, which are the two assumptions the advance ratio table rests on. That the YSH-60F carried the UH-60A rotor's published geometry and speed, the SH-60B's published weights and engine rating, and the SH-60B's improved durability gearbox, which are the assumptions the sizing rests on.
+That phase one's envelope restriction, rather than the aerodynamics, is why the demonstrated speed fell short of the target. That the flaperons exist in part to manage hover download, a reading of the configuration that no source states as a rationale. That the published 350 and 410 kilometre per hour figures are rounded conversions of 190 and 220 knots, and that 130 knots represents the unmodified aeroplane's cruise, the two assumptions beneath the advance ratio table. That the YSH-60F carried the UH-60A rotor's published geometry and speed, the SH-60B's published weights and engine rating, and the SH-60B's improved durability gearbox, which are the assumptions the sizing rests on.
 
 ### What the Record Does Not Settle
 
-The X-49A's demonstrated maximum speed, which the record gives as a converted 350 kilometres per hour and as 203 miles per hour in a slight descent. The 16H-1A's gross weight, given as 10,800, 8,000 and by sum 7,900 pounds. The 16H-1A's engine rating, given on the manufacturer's page as both 1,250 and 1,050 shaft horsepower. The wing area, and therefore the actual download. The duct's efficiency in forward flight, where the static augmentation of 1.26 decays and no source consulted says how fast. The duct's weight and yaw authority against a tail rotor. The SH-60F's own stall boundary in advance ratio. Which engine variant the X-49A flew with, and the YSH-60F's own empty weight, rotor and gearbox rating. Whether the rotor speed was reduced at all in flight. What the aeroplane would have done with the drag clean-up and the third engine, which is the only question a reader really wants answered and the one the record cannot reach.
+The X-49A's demonstrated maximum speed, which the record gives as a converted 350 kilometres per hour and as 203 miles per hour in a slight descent. The 16H-1A's gross weight, given as 10,800, 8,000 and by sum 7,900 pounds. The 16H-1A's engine rating, given on the manufacturer's page as both 1,250 and 1,050 shaft horsepower. The wing area, and therefore the actual download. The duct's efficiency in forward flight, where the static augmentation of 1.26 decays at a rate no source consulted gives. The duct's weight and yaw authority against a tail rotor. The SH-60F's stall boundary in advance ratio. Which engine variant the X-49A flew with, and the YSH-60F's own empty weight, rotor and gearbox rating. Whether the rotor speed was reduced at all in flight. What the aeroplane would have done with the drag clean-up and the third engine, the question a reader most wants answered, and the one the record cannot reach.
 
 ## Out of Scope
 
-The Dragonfly canard rotor wing, which is the next article. The Cheyenne compound, which followed the 16H-1A and whose end the 16H-1A's manufacturer attributes to deficiencies unrelated to compounding. The tiltrotor as an alternative answer, which has its own literature and its own article. The acoustic signature of a ducted propulsor. Piasecki's later Future Vertical Lift bid. The naval mission the SH-60F actually flies, and whether a faster one would be worth 1,600 pounds.
+The Dragonfly canard rotor wing, which is the next article. The Cheyenne compound, which followed the 16H-1A and whose end the 16H-1A's manufacturer attributes to deficiencies unrelated to compounding. The tiltrotor as an alternative answer, which has its own literature and its own article. The acoustic signature of a ducted propulsor. Piasecki's later Future Vertical Lift bid. The naval mission the SH-60F flies, and whether a faster one would be worth 1,600 pounds.
 
 ## Conclusion
 
-**The X-49A is an aeroplane whose most quoted number is the least interesting thing about it.** It is credited with 190 knots, which is 6.35 miles per hour slower than a Piasecki compound managed in 1965 on **three-quarters of the power per pound** at the 16H-1A's heaviest quoted weight, that being the reciprocal of the 1.342 computed above and not the far larger margin it is tempting to write. **Read as a race that is embarrassing, and read as a race it is also the wrong reading.**
+**The X-49A is an aeroplane whose most quoted number is the least interesting thing about it.** It is credited with 190 knots, which is 6.35 miles per hour slower than a Piasecki compound had managed by April 1966 on **three-quarters of the power per pound** at the 16H-1A's heaviest quoted weight, a fraction that is the reciprocal of the 1.342 computed above and far short of the margin it is tempting to write. **Read as a race that is embarrassing, and read as a race it is also the wrong reading.**
 
-**What the aeroplane was actually for was to find out what a duct and a wing do to a helicopter somebody already owns.** On that question it returned useful numbers. Vibration and fatigue loads reported as significantly reduced. Hover within 3.7 percent of prediction. The duct doing anti-torque, yaw and thrust at once. **And 1,600 pounds as the bill, which is about a tenth of the empty airframe and nearly a quarter of everything it could otherwise have carried.**
+**The aeroplane existed to find out what a duct and a wing do to a helicopter somebody already owns.** On that question it returned useful numbers. Vibration and fatigue loads reported as significantly reduced. Hover within 3.7 percent of prediction. The duct doing anti-torque, yaw and thrust at once. **And 1,600 pounds as the bill, which is about a tenth of the empty airframe and nearly a quarter of everything it could otherwise have carried.**
 
-**The arithmetic then says something the programme did not need to say out loud.** Compounding buys relief on the retreating blade, and the X-49A spent that relief well, reaching an advance ratio of 0.442, beyond the 0.4 that bounds the conventional helicopter regime. **But the advancing tip was at Mach 0.937 when it got there**, and the never-exceed speed would have put it at 0.982.
+**The arithmetic then makes a point the programme did not need to state.** Compounding brings relief to the retreating blade, and the X-49A spent that relief well, reaching an advance ratio of 0.442, beyond the 0.4 that bounds the conventional helicopter regime. **But the advancing tip was at Mach 0.937 when it got there**, and the never-exceed speed would have put it at 0.982.
 
 **Neither a drag clean-up nor a third engine moves a Mach number.** The only term left is the rotor speed, and lowering it by the required 12.6 percent is a different aeroplane, with different dynamics, a different autorotation entry and a fresh clearance to earn. **The programme stopped where the cheap variables ran out.**
 
@@ -705,6 +705,7 @@ The Dragonfly canard rotor wing, which is the next article. The Cheyenne compoun
 - [Piasecki 16H-1A Pathfinder II, Vertipedia][ref_vertipedia_16h1a]
 - [Piasecki X-49 SpeedHawk][ref_x49_wikipedia]
 - [Piasecki's X-49A SpeedHawk VTDP compound helicopter completes initial phase one flight testing, Piasecki Aircraft Corporation][ref_piasecki_x49a_phase1]
+- [Robb, Hybrid helicopters, Vertiflite][ref_robb_vertiflite]
 - [Sikorsky SH-60 Seahawk][ref_sh60_wikipedia]
 - [Sikorsky UH-60 Black Hawk][ref_uh60_wikipedia]
 - [Sikorsky X2][ref_x2_wikipedia]
@@ -723,6 +724,7 @@ The Dragonfly canard rotor wing, which is the next article. The Cheyenne compoun
 [ref_piasecki_16h1]: https://piasecki.com/fnp-accomplishments/16h-1-pathfinder/1381/
 [ref_piasecki_16h1a]: https://piasecki.com/fnp-accomplishments/16h-1a-pathfinder-ii/1383/
 [ref_piasecki_x49a_phase1]: https://web.archive.org/web/20081011173225/http://www.piasecki.com/pdfs/X-49A%20Phase%201%20Complete%20Release.pdf
+[ref_robb_vertiflite]: https://web.archive.org/web/20060927042104/http://www.vtol.org/pdf/summer06robb.pdf
 [ref_sh60_wikipedia]: https://en.wikipedia.org/wiki/Sikorsky_SH-60_Seahawk
 [ref_uh60_wikipedia]: https://en.wikipedia.org/wiki/Sikorsky_UH-60_Black_Hawk
 [ref_vertipedia_16h1a]: https://vertipedia.vtol.org/aircraft/getAircraft/aircraftID/820

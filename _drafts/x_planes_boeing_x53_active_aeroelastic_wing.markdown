@@ -16,11 +16,11 @@ series_index: 54
 
 This is the fifty-fourth article in the [X-Planes series][related_post_a297_framing], following the [X-1][related_post_a298_bell_x1], the [X-2][related_post_a299_bell_x2], the [X-3][related_post_a300_douglas_x3], the [X-4][related_post_a301_northrop_x4], the [X-5][related_post_a302_bell_x5], the [X-6][related_post_a303_convair_x6], the [X-7][related_post_a304_lockheed_x7], the [X-8][related_post_a305_aerojet_x8], the [X-9][related_post_a306_bell_x9], the [X-10][related_post_a307_north_american_x10], the [X-11][related_post_a308_convair_x11], the [X-12][related_post_a309_convair_x12], the [X-13][related_post_a310_ryan_x13], the [X-14][related_post_a311_bell_x14], the [X-15][related_post_a312_north_american_x15], the [X-16][related_post_a313_bell_x16], the [X-17][related_post_a314_lockheed_x17], the [X-18][related_post_a315_hiller_x18], the [X-19][related_post_a316_curtiss_wright_x19], the [X-20][related_post_a317_boeing_x20], the [X-21][related_post_a318_northrop_x21], the [X-22][related_post_a319_bell_x22], the [X-23][related_post_a320_martin_marietta_x23], the [X-24][related_post_a321_martin_marietta_x24], the [X-25][related_post_a322_bensen_x25], the [X-26][related_post_a323_schweizer_x26], the [X-27][related_post_a324_lockheed_x27], the [X-28][related_post_a325_osprey_x28], the [X-29][related_post_a326_grumman_x29], the [X-30][related_post_a327_rockwell_x30], the [X-31][related_post_a328_rockwell_mbb_x31], the [X-32][related_post_a329_boeing_x32], the [X-33][related_post_a330_lockheed_martin_x33], the [X-34][related_post_a331_orbital_sciences_x34], the [X-35][related_post_a332_lockheed_martin_x35], the [X-36][related_post_a333_mcdonnell_douglas_x36], the [X-37][related_post_a334_boeing_x37], the [X-38][related_post_a335_scaled_composites_x38], the [X-39][related_post_a336_x39_reserved_never_assigned], the [X-40][related_post_a337_boeing_x40], the [X-41][related_post_a338_x41_common_aero_vehicle], the [X-42][related_post_a339_orbital_sciences_x42], the [X-43][related_post_a340_micro_craft_x43], the [X-44][related_post_a341_x44_two_aircraft], the [X-45][related_post_a342_boeing_x45], the [X-46][related_post_a343_boeing_x46], the [X-47][related_post_a344_northrop_grumman_x47], the [X-48][related_post_a345_boeing_x48], the [X-49][related_post_a346_piasecki_x49], the [X-50][related_post_a347_boeing_x50], the [X-51][related_post_a348_boeing_x51], and the [X-52][related_post_a349_x52_designation_refused].
 
-**It rolled, and it never reached the condition it was named for.**
+**It rolled, and it never reached the condition it was named for.** \[[Clarke et al 2005][research_clarke_allen_2005]\]
 
 **Both halves of that sentence are load-bearing.** The aeroplane rolled acceptably on wing surfaces
-alone, without the tail a production F/A-18 uses for the job at these speeds. It also missed the lower
-of its two roll requirements in exactly the regime the concept exists to exploit, and it never
+alone, without the tail a production F/A-18 uses for the job at these speeds \[[Active Aeroelastic Wing Flight Research, NASA Facts FS-2005-03-061 DFRC][ref_aaw_factsheet]\]. It also missed the lower
+of its two roll requirements in the regime the concept exists to exploit, and it never
 reached the dynamic pressure at which the phenomenon it is named for occurs, because its wing proved
 stiffer than predicted and its two highest planned test points were out of reach \[[Dibley et al 2005][research_dibley_allen_2005]\] \[[Clarke et al 2005][research_clarke_allen_2005]\].
 
@@ -30,17 +30,17 @@ stiffer than predicted and its two highest planned test points were out of reach
 
 **A trailing-edge control surface fights the wing it is mounted on.**
 
-Deflect an aileron down and it does two things. It increases the camber of the section, which is the effect the pilot wants, and it produces a nose-down pitching moment about the wing's elastic axis, which twists the wing leading-edge down. **That twist reduces the local angle of attack across the whole outer wing**, while the camber change acts only over the surface's own span, so the two effects are not competing over the same piece of wing.
+Deflect an aileron down and it does two things. It increases the camber of the section, the effect the pilot wants, and it produces a nose-down pitching moment about the wing's elastic axis, which twists the wing leading-edge down. **That twist reduces the local angle of attack across the whole outer wing**, while the camber change acts only over the surface's own span, so the two effects are not competing over the same piece of wing.
 
 **Both effects grow with dynamic pressure and they grow at different rates.** The camber effect is roughly linear in dynamic pressure. The twist effect is linear in dynamic pressure as well but divided by a structural stiffness that does not change, so as speed rises the twist wins. **At some dynamic pressure the two cancel exactly and the aileron produces no rolling moment at all. Above it the aeroplane rolls the wrong way** \[[Bisplinghoff, Aeroelasticity][book_bisplinghoff]\] \[[Fung, An introduction to the theory of aeroelasticity][book_fung]\].
 
 **That condition is aileron reversal and it has been understood since the 1930s.** The classical answer is torsional stiffness, and the design charts for choosing it were published by the national advisory committee before the war ended \[[Pearson and Aiken 1944][research_pearsonhenrya_aikenwilliamsjr_1944]\] \[[Diederich 1951][research_lateral_control_flexible]\] \[[Harman 1944][research_wing_flexibility_lateral]\] \[[Ashkenas 1946][research_lateral_control_large_flaps]\].
 
-**That literature is older than the jet engine and it was not superseded.** It sized wings by asking how much torsional stiffness a specified rolling performance required, and the answer it gave has been built into every fast aeroplane since \[[Rolling effectiveness and aileron reversal of rectangular wings at supersonic speeds][research_supersonic_aileron_reversal]\].
+**That literature was not superseded.** It sized wings by asking how much torsional stiffness a specified rolling performance required \[[Pearson and Aiken 1944][research_pearsonhenrya_aikenwilliamsjr_1944]\] \[[Rolling effectiveness and aileron reversal of rectangular wings at supersonic speeds][research_supersonic_aileron_reversal]\].
 
-**Torsional stiffness is weight.** That is the whole of the problem. A wing stiff enough to keep its ailerons working at the corner of the envelope is heavier than the aerodynamics require everywhere else in it.
+**Torsional stiffness is weight.** The rest of the problem follows from that. A wing stiff enough to keep its ailerons working at the corner of the envelope is heavier than the aerodynamics require everywhere else in it.
 
-**That sentence is a relation and it is worth writing down.** For a thin-walled torsion box of enclosed
+**That sentence is a relation, and it can be written down.** For a thin-walled torsion box of enclosed
 area $A$, skin thickness $t$ and perimeter $\oint \mathrm{d}s$, the Bredt-Batho result gives a torsional
 rigidity \[[Megson, Aircraft structures for engineering students][book_megson]\] \[[Hodges and Pierce, Introduction to structural dynamics and aeroelasticity][book_hodges_pierce]\]
 
@@ -59,18 +59,18 @@ $$GJ \;=\; \frac{4 A^{2} G}{\bigl( \oint \mathrm{d}s \bigr)^{2}} \cdot \frac{m'}
 
 $$q_{R} \;\propto\; K_\theta \;\propto\; GJ \;\propto\; m',$$
 
-which is the whole problem in one line. **Reversal margin is bought linearly in structural mass**, and
+which compresses the problem into one line. **Reversal margin is bought linearly in structural mass**, and
 it is bought at the corner of the envelope and carried everywhere else in it.
 
-**The X-53 asks a question about the sign of the twist rather than its magnitude.** A leading-edge flap deflected down also twists the wing, and it twists it the other way, because its hinge is ahead of the elastic axis rather than behind it. **A leading-edge surface twists the wing into the airflow instead of out of it.** So the same flexibility that destroys a trailing-edge surface's authority amplifies a leading-edge surface's.
+**The X-53 asks a question about the sign of the twist rather than its magnitude.** A leading-edge flap deflected down also twists the wing, and it twists it the other way, because its hinge lies ahead of the elastic axis where a trailing-edge hinge lies behind it. **A leading-edge surface twists the wing into the airflow instead of out of it.** So the same flexibility that destroys a trailing-edge surface's authority amplifies a leading-edge surface's.
 
 **The keystone is therefore this.** Can a flight control system be given a deliberately flexible wing and a set of leading- and trailing-edge surfaces, and told to produce roll by choosing how to twist the wing, rather than by fighting the twist?
 
-**If it can, the stiffness comes out and the weight comes out with it.** The programme's own estimate is that a wing designed this way could be **10 to 20 percent lighter** \[[Active Aeroelastic Wing Flight Research, NASA Facts FS-2005-03-061 DFRC][ref_aaw_factsheet]\].
+**If it can, the stiffness comes out and the weight comes out with it.** The programme estimates that a wing designed this way could be **10 to 20 percent lighter** \[[Active Aeroelastic Wing Flight Research, NASA Facts FS-2005-03-061 DFRC][ref_aaw_factsheet]\].
 
 ## Programme Origin
 
-**The flight research centre subtitled its own account of this programme `Back to the Future`, and it opens on the Wright brothers** \[[Active Aeroelastic Wing Flight Research, NASA Facts FS-2005-03-061 DFRC][ref_aaw_factsheet]\].
+**The flight research centre subtitled its account of this programme `Back to the Future`, and it opens on the Wright brothers** \[[Active Aeroelastic Wing Flight Research, NASA Facts FS-2005-03-061 DFRC][ref_aaw_factsheet]\].
 
 **Orville Wright had no ailerons.** The Wright Flyer rolled by warping its wingtips, through cables running to a saddle the pilot lay in, so that moving his hips twisted the wings \[[Wing Warping][ref_wing_warping]\] \[[Wright Flyer][ref_wright_flyer]\] \[[Active Aeroelastic Wing Flight Research, NASA Facts FS-2005-03-061 DFRC][ref_aaw_factsheet]\]. **The structure was the control surface.**
 
@@ -97,17 +97,17 @@ The programme set four requirements for whatever aeroplane would host it \[[Clar
 
 ### The Aeroplane Was Assembled From Two Aeroplanes and Then Deliberately Weakened
 
-**The testbed is an F/A-18A, and it is two aircraft.** The Navy supplied the airframe, tail number 853. The space agency supplied wings from an early prototype, tail number 840, which had previously flown on the high angle of attack research vehicle \[[Clarke et al 2005][research_clarke_allen_2005]\] \[[High Alpha Research Vehicle][ref_harv]\] \[[Regenie et al 1992][research_harv_testbed]\].
+**The testbed is an F/A-18A built from two aircraft.** The Navy supplied the airframe, tail number 853. The space agency supplied wings from an early prototype, tail number 840, which had previously flown on the high angle of attack research vehicle \[[Clarke et al 2005][research_clarke_allen_2005]\] \[[High Alpha Research Vehicle][ref_harv]\] \[[Regenie et al 1992][research_harv_testbed]\].
 
-**The F/A-18 was chosen because it already had the defect.** Derived from the Northrop YF-17, it used a thin and flexible wing, and full-scale development flight tests showed degraded roll performance transonically and supersonically, though no flutter \[[McDonnell Douglas F/A-18 Hornet][ref_fa18]\] \[[Northrop YF-17][ref_yf17]\] \[[Clarke et al 2005][research_clarke_allen_2005]\]. The contractor fixed it with two roll modifications that stiffened the wing box and rewrote how the control laws used the trailing-edge flaps, the ailerons and the leading-edge flaps. **Production F/A-18 control laws also lean heavily on the differential stabilator for roll at those conditions**, which is to say the fleet solved the problem by rolling with the tail \[[Clarke et al 2005][research_clarke_allen_2005]\].
+**The F/A-18 was chosen because it already had the defect.** Derived from the Northrop YF-17, it used a thin and flexible wing, and full-scale development flight tests showed degraded roll performance transonically and supersonically, though no flutter \[[McDonnell Douglas F/A-18 Hornet][ref_fa18]\] \[[Northrop YF-17][ref_yf17]\] \[[Clarke et al 2005][research_clarke_allen_2005]\]. The contractor fixed it with two roll modifications that stiffened the wing box and rewrote how the control laws used the trailing-edge flaps, the ailerons and the leading-edge flaps. **Production F/A-18 control laws also lean heavily on the differential stabilator for roll at those conditions**, and the fleet thus solved the problem by rolling with the tail \[[Clarke et al 2005][research_clarke_allen_2005]\].
 
 **Boeing's Phantom Works then undid the fix.** Specially built wing covers returned the wing to essentially its preproduction torsional stiffness \[[Lokos et al 2002][research_lokos_olney_2002]\] \[[Phantom Works][ref_phantom_works]\].
 
-**The X-53 is a production fighter with its stiffening removed on purpose**, which is the most direct statement of the programme's thesis that anything in the record makes.
+**The X-53 is a production fighter with its stiffening removed on purpose.** No item in the record states the programme's thesis more directly.
 
 ## Sizing From First Principles
 
-**Everything in this article is a claim about dynamic pressure**, because that is the variable the reversal condition is defined on. For air density $\rho$ and true airspeed $V$,
+**Every claim in this article concerns dynamic pressure**, because the reversal condition is defined on that variable. For air density $\rho$ and true airspeed $V$,
 
 $$q \;=\; \tfrac{1}{2} \rho V^{2},$$
 
@@ -125,11 +125,11 @@ so that
 
 $$\theta \;=\; \frac{q S c \, C_{m,\delta}\, \delta}{K_\theta \;-\; q S e \, C_{L,\alpha}} .$$
 
-**The denominator vanishing is divergence**, which is the other classical aeroelastic limit and which the programme stayed well clear of,
+**The denominator vanishing is divergence**, the other classical aeroelastic limit and one the programme stayed clear of,
 
 $$q_{D} \;=\; \frac{K_\theta}{S e \, C_{L,\alpha}} .$$
 
-**The lift the surface actually delivers is the camber term plus the twist term,**
+**The lift the surface delivers is the camber term plus the twist term,**
 
 $$\Delta L \;=\; q S \bigl( C_{L,\delta}\, \delta \;+\; C_{L,\alpha}\, \theta \bigr),$$
 
@@ -151,9 +151,9 @@ $$\frac{C_{l,\delta}(q)}{C_{l,\delta}(0)} \;=\; 1 \;-\; \frac{q}{q_{R}},$$
 
 reaching zero at $q_R$ and going negative above it \[[Bisplinghoff, Aeroelasticity][book_bisplinghoff]\] \[[Hodges and Pierce, Introduction to structural dynamics and aeroelasticity][book_hodges_pierce]\] \[[Wright and Cooper, Introduction to aircraft aeroelasticity and loads][book_wright_cooper]\] \[[Etkin and Reid, Dynamics of flight][book_etkin_reid]\].
 
-**Two things in that expression are worth reading carefully.** $q_R$ is proportional to $K_\theta$, so buying reversal margin means buying stiffness. And $q_R$ does not depend on the surface's own lift effectiveness alone but on the ratio of its lift to its pitching moment, **so a surface that produces its lift with less pitching moment reverses later**.
+**Two consequences follow from that expression.** $q_R$ is proportional to $K_\theta$, so buying reversal margin means buying stiffness. And $q_R$ does not depend on the surface's lift effectiveness alone but on the ratio of its lift to its pitching moment, **so a surface that produces its lift with less pitching moment reverses later**.
 
-**A third is worth more than either, and it appears only when the two limits are divided.** Taking the
+**A third is more important than either, and it appears only when the two limits are divided.** Taking the
 reduced reversal expression against the divergence expression, the stiffness cancels,
 
 $$\frac{q_{R}}{q_{D}} \;=\;
@@ -168,9 +168,9 @@ by that means.
 
 **For a conventional wing that ratio comes out below one**, with a flap lift slope of order two to
 three per radian, a flap pitching moment of order half that, and an elastic axis a tenth of a chord or
-so behind the aerodynamic centre. **That is why reversal is the limit that gets designed against and
-divergence is the one that gets checked**, and it is why this article is about the first and mentions
-the second once. The programme stayed clear of both.
+so behind the aerodynamic centre. **For that reason reversal is the limit that gets designed against and
+divergence the one that gets checked**, and this article is accordingly about the first and mentions
+the second once. The programme stayed clear of both \[[Clarke et al 2005][research_clarke_allen_2005]\].
 
 ### The Leading-Edge Surface Has the Opposite Sign
 
@@ -184,11 +184,11 @@ $$\frac{\partial\, C_{l,\delta}^{\mathrm{TE}}}{\partial K_\theta} \;>\; 0
 
 with the trailing-edge surface recovering its authority as the wing is stiffened and the leading-edge surface losing it.
 
-**A stiff wing wants trailing-edge surfaces and a flexible wing wants leading-edge ones**, and the flight test report says exactly this in words, recording that leading-edge surfaces exhibit no reversal tendency and that their roll effectiveness rises proportionally as torsional stiffness falls \[[Clarke et al 2005][research_clarke_allen_2005]\].
+**A stiff wing wants trailing-edge surfaces and a flexible wing wants leading-edge ones**, and the flight test report puts this in words, recording that leading-edge surfaces exhibit no reversal tendency and that their roll effectiveness rises proportionally as torsional stiffness falls \[[Clarke et al 2005][research_clarke_allen_2005]\].
 
 ### The Four Regions
 
-**The programme's own framing divides the dynamic-pressure axis into four regions**, and the whole flight test can be read off them \[[Clarke et al 2005][research_clarke_allen_2005]\].
+**The programme divides the dynamic-pressure axis into four regions**, and the whole flight test can be read off them \[[Clarke et al 2005][research_clarke_allen_2005]\].
 
 | Region | Trailing edge | Leading edge |
 |---|---|---|
@@ -220,7 +220,7 @@ sections do not all reverse at once.
 
 **A production F/A-18 leading-edge flap is one surface per wing driven by one rotary actuator.** The X-53 splits it, retaining the existing hydraulic drive unit for the inboard section and adding a second power drive unit in each wing leading edge for the outboard section \[[Clarke et al 2005][research_clarke_allen_2005]\].
 
-**The outboard flap also had to move three times faster.** The inboard surface retains a rate limit of 15 degrees per second and the outboard surface gets 45, against the aileron's 100. For rate limit $\dot{\delta}_{\max}$ the ratio is
+**The outboard flap also moves three times faster.** The inboard surface retains a rate limit of 15 degrees per second and the outboard surface gets 45, against the aileron's 100 \[[Clarke et al 2005][research_clarke_allen_2005]\]. For rate limit $\dot{\delta}_{\max}$ the ratio is
 
 $$\frac{\dot{\delta}_{\max}^{\mathrm{OLEF}}}{\dot{\delta}_{\max}^{\mathrm{ILEF}}} \;=\; \frac{45\ \text{deg/s}}{15\ \text{deg/s}} \;=\; 3 ,$$
 
@@ -239,7 +239,7 @@ where OLEF and ILEF denote the outboard and inboard leading-edge flaps. **Every 
 
 **Its structural limit is about 50,000 inch-pounds of hinge moment in one direction and 52,000 in the other**, and the flight test report records that **the aileron hinge moment was a design driver for the flight control system** and that it dominated concerns throughout the second phase of flight test, even after everything the design effort had given it \[[Clarke et al 2005][research_clarke_allen_2005]\].
 
-**That is worth pausing on.** The aeroplane exists to demonstrate that the trailing edge need not carry the roll, and the trailing edge's hinge moment is nonetheless what constrained the whole test programme.
+**The irony is direct.** The aeroplane exists to demonstrate that the trailing edge need not carry the roll, and the trailing edge's hinge moment is nonetheless what drove the flight control design and dominated the second phase of flight test \[[Clarke et al 2005][research_clarke_allen_2005]\].
 
 **A hinge moment is a dynamic pressure times a geometry times a coefficient,**
 
@@ -269,7 +269,7 @@ $$\varepsilon \;=\; \frac{M_{\mathrm{act}}}{M_{\mathrm{lim}}} \;-\; 1 ,
 \varepsilon_{\mathrm{aileron}} \;=\; \frac{52{,}400}{50{,}000} \;-\; 1 \;=\; 0.048 ,$$
 
 for structural limit $M_{\mathrm{lim}}$, with a positive $\varepsilon$ meaning the actuator can exceed
-the limit. The subscript TEF denotes the trailing-edge flap. **The trailing-edge flap exceeds its own limit on the same arithmetic.** Its actuator
+the limit. The subscript TEF denotes the trailing-edge flap. **The trailing-edge flap exceeds its limit on the same arithmetic.** Its actuator
 delivers 18,060 pounds on a 9.08 inch arm against a positive limit of 157,000 inch-pounds,
 
 $$\varepsilon_{\mathrm{TEF}} \;=\; \frac{18{,}060\ \text{lb} \times 9.08\ \text{in}}{157{,}000\ \text{in-lb}} \;-\; 1
@@ -290,8 +290,8 @@ $$\varepsilon_{\mathrm{ILEF}}^{-} \;=\; \frac{333{,}000}{240{,}000} \;-\; 1 \;=\
 the outboard actuator falls short of both of its limits. Every force, arm, moment and limit here is the
 report's own \[[Clarke et al 2005][research_clarke_allen_2005]\].
 
-**Three of the four wing surfaces carry actuators strong enough to break their own structural limits**,
-and only the outboard leading-edge flap cannot. **That is why the flight test was run the way it was**,
+**Three of the four wing surfaces carry actuators strong enough to break their structural limits**,
+and only the outboard leading-edge flap cannot. **The flight test was built around that fact**,
 with a build-up in lateral stick through 25, 50, 75 and 100 percent, a real-time envelope display, an
 aural disengage tone and a test conductor authorised to call a manoeuvre off before the pilot reached a
 boundary \[[Clarke et al 2005][research_clarke_allen_2005]\]. **The structure was not protected by the actuator. It was protected by procedure.**
@@ -300,13 +300,13 @@ boundary \[[Clarke et al 2005][research_clarke_allen_2005]\]. **The structure wa
 
 **The space agency and the manufacturer each wrote a full set of control laws**, deliberately, so that the project would have design options and so the test team would understand the problem \[[Clarke et al 2005][research_clarke_allen_2005]\].
 
-**They optimised dual problems.** The agency's tool maximised roll rate subject to every other requirement as an explicit constraint. The manufacturer's process minimised structural loads subject to a roll performance constraint, which then required a post-design check of everything else \[[Clarke et al 2005][research_clarke_allen_2005]\] \[[Dibley et al 2005][research_dibley_allen_2005]\]. **One asked how fast it could roll without breaking. The other asked how little it could break while rolling fast enough.**
+**They optimised dual problems.** The agency's tool maximised roll rate subject to every other requirement as an explicit constraint. The manufacturer's process minimised structural loads subject to a roll performance constraint, which then required a post-design check of the remaining requirements \[[Clarke et al 2005][research_clarke_allen_2005]\] \[[Dibley et al 2005][research_dibley_allen_2005]\]. **One asked how fast it could roll without breaking. The other asked how little it could break while rolling fast enough.**
 
-**Neither designed a control law for the whole envelope.** To keep costs down the programme treated each of its **18 test points as a separate design point**, with its own gains, its own arming envelope in static and impact pressure, and its own disengage envelope \[[Clarke et al 2005][research_clarke_allen_2005]\].
+**Neither designed a control law for the whole envelope.** To keep costs down the programme treated each of its **18 test points as a separate design point**, each with its own gains, arming envelope in static and impact pressure, and disengage envelope \[[Clarke et al 2005][research_clarke_allen_2005]\].
 
 ### The Aeroplane Had to Measure Itself Before It Could Be Designed For
 
-**About 200 strain-gauge bridges** were installed and calibrated across both wings, covering wing-root and wing-fold shear, torsion and bending, plus every wing control surface actuator hinge moment. **Redundant load equations were calibrated deliberately**, so that a gauge failing after flight test began would not cost the measurement \[[Lokos et al 2002][research_lokos_olney_2002_b]\] \[[Lizotte and Lokos 2005][research_aaw_deflection_loads]\] \[[Allen et al 2005][research_allen_lizotte_2005]\] \[[Lizotte and Lokos 2005][research_deflection_loads_flight]\].
+**About 200 strain-gauge bridges** were installed and calibrated across both wings, covering wing-root and wing-fold shear, torsion and bending, plus every wing control surface actuator hinge moment. **Redundant load equations were calibrated deliberately**, so that a gauge failing after flight test began would not cost the measurement \[[Clarke et al 2005][research_clarke_allen_2005]\] \[[Lokos et al 2002][research_lokos_olney_2002_b]\] \[[Lizotte and Lokos 2005][research_aaw_deflection_loads]\] \[[Allen et al 2005][research_allen_lizotte_2005]\] \[[Lizotte and Lokos 2005][research_deflection_loads_flight]\].
 
 **A flight deflection measurement system returned a 16-point wing shape at 12.5 samples per second**, calibrated on the ground against string potentiometers \[[Lizotte and Allen 2007][research_aaw_twist_model]\] \[[Deangelis 1981][research_deangelis_1981]\].
 
@@ -318,11 +318,11 @@ boundary \[[Clarke et al 2005][research_clarke_allen_2005]\]. **The structure wa
 
 **Phase II ran from December 2004 to March 2005 and comprised 35 flights.** It flew the new control laws at the 18 test points, with a build-up through 25, 50, 75 and 100 percent lateral stick in bank-to-bank and 360 degree rolls and in rolling pull-outs \[[Clarke et al 2005][research_clarke_allen_2005]\].
 
-**Between them lay a long period of analysis and control law redesign.** The flight research centre's fact sheet calls it year-long \[[Active Aeroelastic Wing Flight Research, NASA Facts FS-2005-03-061 DFRC][ref_aaw_factsheet]\], although the report's own dates put about eighteen months between the end of Phase I in June 2003 and the start of Phase II in December 2004 \[[Clarke et al 2005][research_clarke_allen_2005]\]. From programme kickoff to last flight was nearly ten years \[[Clarke et al 2005][research_clarke_allen_2005]\].
+**Between them lay a long period of analysis and control law redesign.** The flight research centre's fact sheet calls it year-long \[[Active Aeroelastic Wing Flight Research, NASA Facts FS-2005-03-061 DFRC][ref_aaw_factsheet]\], although the report's dates put about eighteen months between the end of Phase I in June 2003 and the start of Phase II in December 2004 \[[Clarke et al 2005][research_clarke_allen_2005]\]. From programme kickoff to last flight was nearly ten years \[[Clarke et al 2005][research_clarke_allen_2005]\].
 
 ### Two Test Points Were Never Flown, and Their Dynamic Pressures Say Why
 
-**The aeroplane could not reach the two highest-dynamic-pressure test points.** Mach 1.3 at 15,000 feet and Mach 1.2 at 10,000 feet both proved to be outside its performance envelope. The report suggests why, and the reason is the research equipment itself, naming the external deflection-measurement targets, the external wiring, the wing surface pressure instrumentation and the camera pods as likely contributors to additional drag \[[Clarke et al 2005][research_clarke_allen_2005]\].
+**The aeroplane could not reach the two highest-dynamic-pressure test points.** Mach 1.3 at 15,000 feet and Mach 1.2 at 10,000 feet both proved to be outside its performance envelope. The report tentatively blames the research equipment, naming the external deflection-measurement targets, the external wiring, the wing surface pressure instrumentation and the camera pods as likely contributors to additional drag \[[Clarke et al 2005][research_clarke_allen_2005]\].
 
 **Computing the dynamic pressure at each of them shows what was lost.** Taking the standard atmosphere and $q = \tfrac{1}{2}\rho V^2$,
 
@@ -359,7 +359,7 @@ performance, with shallow dives the hoped-for way in \[[Clarke et al 2005][resea
 
 **The report offers a mechanism and does not claim it.** Control position transducers on the surfaces indicated that **substantial control surface flexibility** might have provided elastic relief of the hinge moment the surfaces were applying to the wing. **The aileron, acting as a tab on a flexible wing, was itself bending**, which would reduce the very twisting moment that drives reversal \[[Clarke et al 2005][research_clarke_allen_2005]\].
 
-**So the aeroplane reached region III and stopped there.** It reached the condition where the trailing edge does nothing, and never reached the one where the trailing edge works backwards.
+**So the aeroplane reached region III and stopped there.** It reached the condition where the trailing edge does nothing, and never reached the one where the trailing edge works backwards \[[Clarke et al 2005][research_clarke_allen_2005]\].
 
 ### Roll Performance Met Its Goal Twice and Missed Its Requirement Once
 
@@ -369,13 +369,13 @@ derivative $C_{l,p}$, which is negative,
 
 $$I_{x}\, \dot{p} \;=\; q S b \left( C_{l,\delta}\, \delta \;+\; C_{l,p}\, \frac{p b}{2V} \right).$$
 
-**Steady state gives the helix angle**, which is the classical measure of rolling power and which is
-independent of dynamic pressure for a rigid wing,
+**Steady state gives the helix angle**, the classical measure of rolling power, which for a rigid wing
+is independent of dynamic pressure,
 
 $$\frac{p_{\mathrm{ss}} b}{2V} \;=\; -\,\frac{C_{l,\delta}}{C_{l,p}}\, \delta .$$
 
 **On a flexible wing $C_{l,\delta}$ is the quantity that decays toward reversal**, so the helix angle
-decays with it, which is the same statement as the effectiveness ratio above wearing different clothes.
+decays with it, restating the effectiveness ratio above in different clothes.
 
 **The transient gives the time constant,**
 
@@ -398,7 +398,7 @@ testing roll rate and not roll damping.
 
 **At the subsonic region I test point and the supersonic region II test point, the control designs met the level 1 goal.** **At the subsonic region III test point, roll performance was inadequate to meet the level 2 requirement** \[[Clarke et al 2005][research_clarke_allen_2005]\].
 
-**Region III is the region the whole programme was built for.** It is where the trailing edge has gone to zero and the leading edge is generating all of the rolling moment, which is precisely the regime in which a deliberately flexible wing is supposed to pay for itself. **It is also the one region where the aeroplane failed to meet even the lower of its two standards.**
+**The programme was built for region III.** In that region the trailing edge has gone to zero and the leading edge generates all of the rolling moment, so a deliberately flexible wing is supposed to pay for itself there. **It is also the one region where the aeroplane failed to meet even the lower of its two standards.**
 
 **Roll-mode time constants were short everywhere**, at 0.18 seconds subsonic region I, 0.10 seconds subsonic region III and 0.60 seconds supersonic region II, against a level 1 limit of 1.0 seconds and a level 2 limit of 1.4 \[[Clarke et al 2005][research_clarke_allen_2005]\].
 
@@ -409,7 +409,7 @@ $$\frac{\tau_{\mathrm{level\,1}}}{\tau_{R}}
 
 **so even the slowest measured roll mode beat its level 1 goal by two thirds again.**
 
-**The concern ran the other way.** Two of the three fell below the 0.3 second guideline that the programme wrote for itself out of concern about roll-ratchet pilot-induced oscillation, and its own requirements document allowed constants that quick provided they were no worse than the production control laws, which these were not \[[Clarke et al 2005][research_clarke_allen_2005]\]. **A criterion written to catch an aeroplane that rolls too slowly had to be given a second end**, because this one rolled too readily.
+**The concern ran the other way.** Two of the three fell below the 0.3 second guideline that the programme wrote for itself out of concern about roll-ratchet pilot-induced oscillation, and its requirements document allowed constants that quick provided they were no worse than the production control laws, which these were not \[[Clarke et al 2005][research_clarke_allen_2005]\]. **A criterion written to catch an aeroplane that rolls too slowly had to be given a second end**, because of a concern that this one would roll too readily.
 
 ### Overall Roll Rates Came Within Fifteen to Twenty Percent, Without the Tail
 
@@ -422,19 +422,19 @@ $$\frac{p_{\mathrm{AAW}}}{p_{\mathrm{prod}}}
 
 **and the aeroplane in the denominator is using a control effector the one in the numerator was not.**
 
-**Roll rates at 15,000 feet were highest at Mach 0.85 and Mach 1.2 and lowest at Mach 0.95**, which is the same transonic dip a conventional F/A-18 shows \[[Active Aeroelastic Wing Flight Research, NASA Facts FS-2005-03-061 DFRC][ref_aaw_factsheet]\]. **In level transonic flight the position of the over-wing shock dominated the hinge moments of the trailing-edge surfaces** \[[Lokos et al 2005][research_aaw_shock_loads]\], which makes the shock rather than the structure the likelier cause of the dip, an inference the published record does not test.
+**Roll rates at 15,000 feet were highest at Mach 0.85 and Mach 1.2 and lowest at Mach 0.95**, the same transonic dip a conventional F/A-18 shows \[[Active Aeroelastic Wing Flight Research, NASA Facts FS-2005-03-061 DFRC][ref_aaw_factsheet]\]. **In level transonic flight the position of the over-wing shock dominated the hinge moments of the trailing-edge surfaces** \[[Lokos et al 2005][research_aaw_shock_loads]\], which makes the shock rather than the structure the likelier cause of the dip, an inference the published record does not test.
 
 ## Comparison With Ground Prediction
 
-**The X-53 had less to set against a ground prediction than most aeroplanes in this series, because the model its second phase flew on was made from its own first phase.** The wind-tunnel programme that preceded it ran from 1984 to 1993 on a dynamically scaled model, and the flight programme existed to find out what a full-scale aeroplane would do instead \[[Noll and Perry 1989][research_afw_wind_tunnel]\]. Phase I gathered data for flight-derived aerodynamic and loads models, and the Phase II control laws were designed on those models \[[Cumming and Diebler 2005][research_cumming_diebler_2005]\]. **What can be compared is therefore what the programme expected before a flight against what that flight returned**, and the sections headed The Flight Test Record and What the Data Changed argue each case in full.
+**The X-53 had less to set against a ground prediction than most aeroplanes in this series, because the model its second phase flew on was made from its own first phase.** The wind-tunnel programme that preceded it ran from 1984 to 1993 on a dynamically scaled model, and the flight programme was flown to find out what a full-scale aeroplane would do instead \[[Noll and Perry 1989][research_afw_wind_tunnel]\]. Phase I gathered data for flight-derived aerodynamic and loads models, and the Phase II control laws were designed on those models \[[Cumming and Diebler 2005][research_cumming_diebler_2005]\]. **What can be compared is therefore what the programme expected before a flight against what that flight returned**, and the sections headed The Flight Test Record and What the Data Changed argue each case in full.
 
-**The expectation that named the aeroplane was not met.** The third of the programme's four requirements was a wing that exhibits trailing-edge roll control reversal, and it was effectively deleted after early flight tests showed it could not be met \[[Clarke et al 2005][research_clarke_allen_2005]\]. Phase I found the aileron roll control moments approaching zero and staying there without changing sign. The report attributes this to substantial control surface flexibility \[[Clarke et al 2005][research_clarke_allen_2005]\], and the companion control law report to an increase in wing flexibility much smaller than expected \[[Dibley et al 2005][research_dibley_allen_2005]\]. The article records both as hypotheses rather than findings.
+**The expectation that named the aeroplane was not met.** The third of the programme's four requirements was a wing that exhibits trailing-edge roll control reversal, and the programme effectively deleted it once it proved unattainable in early flight tests \[[Clarke et al 2005][research_clarke_allen_2005]\]. Phase I found the aileron roll control moments approaching zero and staying there without changing sign. The report attributes this to substantial control surface flexibility \[[Clarke et al 2005][research_clarke_allen_2005]\], and the companion control law report to an increase in wing flexibility much smaller than expected \[[Dibley et al 2005][research_dibley_allen_2005]\]. The article records both as hypotheses rather than findings.
 
-**There was no published reversal dynamic pressure for the flight to confirm or refute.** Early predictions placed control surface reversal somewhere within the planned flight test envelope \[[Dibley et al 2005][research_dibley_allen_2005]\], and the public record gives no number for it. The report's illustration of the four regions is captioned as a typical fighter and not as the X-53, so it fixes no reversal value for this aeroplane, and the article claims none. The flight returned an absence of reversal against a prediction that reversal would occur inside the envelope.
+**There was no published reversal dynamic pressure for the flight to confirm or refute.** Early predictions placed control surface reversal somewhere within the planned flight test envelope \[[Dibley et al 2005][research_dibley_allen_2005]\], and the public record gives no number for it. The report's illustration of the four regions is of a typical fighter, as noted above, and supplies no reversal value for the X-53, so the article claims none. The flight returned an absence of reversal against a prediction that reversal would occur inside the envelope.
 
-**The planned envelope was larger than the flown one.** The programme planned 18 test points, and the two at the highest dynamic pressure, Mach 1.3 at 15,000 feet and Mach 1.2 at 10,000 feet, proved to be outside the aeroplane's performance envelope \[[Clarke et al 2005][research_clarke_allen_2005]\]. The report suggests that the research instrumentation added the drag that put them out of reach, and the section headed The Flight Test Record computes how far short the aeroplane fell.
+**The planned envelope was larger than the flown one.** The programme planned 18 test points, and the two at the highest dynamic pressure, Mach 1.3 at 15,000 feet and Mach 1.2 at 10,000 feet, proved to be outside the aeroplane's performance envelope \[[Clarke et al 2005][research_clarke_allen_2005]\]. The report suggests that the research instrumentation added the drag that put them out of reach, and the computation under The Flight Test Record shows how far short the aeroplane fell.
 
-**Predicted response matched flight well supersonically and less well subsonically.** Comparison of the Phase II flight data with predicted response showed excellent agreement supersonically and only fair agreement subsonically, with larger differences \[[Clarke et al 2005][research_clarke_allen_2005]\]. **The prediction rested on an extrapolation**, since some Phase I excitation manoeuvres were too small and the Phase II control laws commanded as much as five times larger outboard leading-edge flap motion than the manoeuvres that had measured its control power \[[Clarke et al 2005][research_clarke_allen_2005]\].
+**Predicted response matched flight well supersonically and less well subsonically.** The report rates the agreement between Phase II flight data and predicted response as excellent in supersonic flight and only fair in subsonic flight, where the differences were larger \[[Clarke et al 2005][research_clarke_allen_2005]\]. **The prediction rested on an extrapolation**, since some Phase I excitation manoeuvres were too small and the Phase II control laws commanded as much as five times larger outboard leading-edge flap motion than the manoeuvres that had measured its control power \[[Clarke et al 2005][research_clarke_allen_2005]\].
 
 **One designed benefit was absent in flight.** The new control laws failed to show load reduction at a subsonic region II test point at elevated normal acceleration when compared against the production system, and the report traces the failure to the trailing-edge surfaces being driven inconsistently with manoeuvre load control strategies without saying why the design produced that \[[Clarke et al 2005][research_clarke_allen_2005]\].
 
@@ -581,11 +581,11 @@ $$\frac{p_{\mathrm{AAW}}}{p_{\mathrm{prod}}}
 
 ## Where the Framing Breaks Down
 
-**Calling this an aeroelasticity experiment understates how much of it was a control law experiment.** The programme dropped flutter suppression, dropped external stores, and could not reach reversal, and what remained was the design and flight clearance of eighteen point designs on an aeroplane whose aerodynamic model came from its own earlier flights.
+**Calling this an aeroelasticity experiment understates how much of it was a control law experiment.** The programme dropped flutter suppression, dropped external stores, and could not reach reversal, and what remained was the design and flight clearance of eighteen point designs on an aeroplane whose aerodynamic model came from its earlier flights.
 
 **Calling the result a success without qualification overstates it.** Roll performance within 15 to 20 percent of production, achieved without the stabilator, is a real demonstration \[[Active Aeroelastic Wing Flight Research, NASA Facts FS-2005-03-061 DFRC][ref_aaw_factsheet]\]. Missing the level 2 requirement in region III is a real shortfall, and region III is the interesting region.
 
-**And the weight saving was never weighed.** The 10 to 20 percent figure is a design estimate for a wing conceived this way from the start \[[Active Aeroelastic Wing Flight Research, NASA Facts FS-2005-03-061 DFRC][ref_aaw_factsheet]\] \[[Raymer, Aircraft design, a conceptual approach][book_raymer]\]. **The X-53 did not have such a wing.** It had a production wing with its stiffening removed and a research instrumentation fit added on top, which is the opposite transaction. **The record does not give the mass of that fit** and this article does not estimate one.
+**And the weight saving was never weighed.** The 10 to 20 percent figure is a design estimate for a wing conceived this way from the start \[[Active Aeroelastic Wing Flight Research, NASA Facts FS-2005-03-061 DFRC][ref_aaw_factsheet]\] \[[Raymer, Aircraft design, a conceptual approach][book_raymer]\]. **The X-53 did not have such a wing.** It had a production wing with its stiffening removed and a research instrumentation fit added on top, the opposite transaction. **The record does not give the mass of that fit** and this article does not estimate one.
 
 ## The Source Base
 
@@ -679,13 +679,13 @@ The aircraft was designated X-53 on 16 August 2006 \[[Boeing X-53 Active Aeroela
 
 ### Analysis
 
-The reversal and divergence relations in the sizing section are the standard typical-section results and are derived here rather than quoted.
+The reversal and divergence relations in the sizing section are the standard typical-section results and are derived here from first principles.
 
 That a leading-edge surface twists the wing in the opposite sense to a trailing-edge surface follows from the position of its hinge relative to the elastic axis, and the flight test report states the consequence in words.
 
 ### Inference
 
-**That the research instrumentation is why the aeroplane could not reach the highest test points is the report's own suggestion and it is offered as a possibility rather than a finding.** The report says the external targets, wiring, pressure instrumentation and camera pods **may have** contributed.
+**That the research instrumentation is why the aeroplane could not reach the highest test points is the report's suggestion, offered as a possibility rather than a finding.** The report says the external targets, wiring, pressure instrumentation and camera pods **may have** contributed.
 
 **That control surface flexibility explains the absence of reversal is likewise the report's hypothesis**, supported by control position transducer readings and not established. The companion control law report attributes the absence instead to an increase in wing flexibility much smaller than expected \[[Dibley et al 2005][research_dibley_allen_2005]\], and the two explanations are not exclusive.
 
@@ -703,7 +703,7 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 
 ## Out of Scope
 
-**The X-52 designation refusal**, which is the previous article's subject and is treated there \[[X-Planes: X-52, the Designation Refused][related_post_a349_x52_designation_refused]\].
+**The X-52 designation refusal**, treated in the previous article \[[X-Planes: X-52, the Designation Refused][related_post_a349_x52_designation_refused]\].
 
 **Flutter and its active suppression**, which the wind-tunnel predecessor demonstrated and the flight programme deliberately removed from scope.
 
@@ -717,21 +717,21 @@ That a leading-edge surface twists the wing in the opposite sense to a trailing-
 
 **The X-53 removed the stiffening from a fighter's wing on purpose and then rolled it with the wing.**
 
-**It did that within 15 to 20 percent of a production aeroplane's roll rate, without using the tail that the production aeroplane uses for the job**, which is the demonstration the programme existed to make and which it made \[[Active Aeroelastic Wing Flight Research, NASA Facts FS-2005-03-061 DFRC][ref_aaw_factsheet]\].
+**It did that within 15 to 20 percent of a production aeroplane's roll rate, without using the tail that the production aeroplane uses for the job**, the demonstration the programme was conceived to make and did make \[[Active Aeroelastic Wing Flight Research, NASA Facts FS-2005-03-061 DFRC][ref_aaw_factsheet]\].
 
-**It also failed to meet the lower of its two roll requirements in region III**, the regime where the trailing edge has stopped working and the leading edge carries the roll, and that is the regime the entire concept is aimed at.
+**It also failed to meet the lower of its two roll requirements in region III**, the regime where the trailing edge has stopped working and the leading edge carries the roll. The entire concept is aimed at that regime.
 
-**And it never saw reversal.** The requirement to fly beyond it was abandoned when early tests showed it could not be met, the aileron rolling moment approached zero and stopped rather than changing sign, and **the two test points at the highest dynamic pressures were never flown because the aeroplane could not get to them**, the report naming the external targets, wiring, pressure instrumentation and camera pods as likely sources of the extra drag. **The companion control law report adds that the wing's flexibility increased much less than expected**, which kept the flown envelope short of reversal even at the dynamic pressures it did reach \[[Dibley et al 2005][research_dibley_allen_2005]\].
+**And it never saw reversal.** The requirement to fly beyond it was abandoned when early tests showed it could not be met, the aileron rolling moment approached zero and stopped there without changing sign, and **the two test points at the highest dynamic pressures were never flown because the aeroplane could not get to them**, the report naming the external targets, wiring, pressure instrumentation and camera pods as likely sources of the extra drag. **The companion control law report adds that the wing's flexibility increased much less than expected**, which kept the flown envelope short of reversal even at the dynamic pressures it did reach \[[Dibley et al 2005][research_dibley_allen_2005]\].
 
 **The aeroplane was also never as far from breaking as its flight rules made it look.** The
-programme's own table sets out actuator force, horn arm and structural limit in adjacent columns
-without ever multiplying the first two together, and multiplying them shows that **three of the four wing surfaces carry actuators strong enough to exceed their own
-structural limits**. The aileron by about five percent, the trailing-edge flap by about four, and the
+programme's table sets out actuator force, horn arm and structural limit in adjacent columns
+without ever multiplying the first two together, and multiplying them shows that **three of the four wing surfaces carry actuators strong enough to exceed their
+structural limits**, the aileron by about five percent, the trailing-edge flap by about four, and the
 inboard leading-edge flap by nearly forty. **The structure was protected by a build-up schedule, a
 real-time envelope display, an aural tone and a test conductor's voice**, and not by any inability of
 the hardware to overload it.
 
-**The cost the whole programme exists to attack is now a proportionality rather than a slogan.** A
+**The cost the programme set out to attack is now a proportionality rather than a slogan.** A
 thin-walled torsion box gives rigidity linear in skin thickness and mass linear in the same thickness,
 so stiffness is proportional to mass, and the reversal dynamic pressure is proportional to stiffness.
 **Reversal margin is bought linearly in structural weight**, at one corner of the envelope, and carried
@@ -739,10 +739,10 @@ everywhere else in it for the life of the aeroplane.
 
 **Dividing the two classical limits then shows what stiffness cannot buy.** The ratio of reversal to
 divergence dynamic pressure has no stiffness in it at all. **A designer can push reversal further out
-and cannot push it past divergence by stiffening**, which is why the alternative the X-53 was built to
-find is worth looking for.
+and cannot push it past divergence by stiffening**, so the alternative the X-53 was built to
+find merits a search.
 
-**So this is a demonstration that stopped one region short of its own name.** The Active Aeroelastic Wing showed that a flexible wing can be flown as a control effector and did not show what happens past the point where the classical answer runs out. **The classical answer is stiffness, the classical answer is heavy by a factor that is now written down, and the aeroplane built to find an alternative could not reach the condition that makes the alternative necessary.**
+**So this is a demonstration that stopped one region short of its name.** The Active Aeroelastic Wing showed that a flexible wing can be flown as a control effector and did not show what happens past the point where the classical answer runs out. **The classical answer is stiffness, stiffness is heavy by a factor that is now written down, and the aeroplane built to find an alternative could not reach the condition that makes the alternative necessary.**
 
 ## References
 

@@ -15,7 +15,7 @@ series_index: 34
 The [Lockheed Martin X-33][ref_x33] won its competition, was funded, was very nearly built, and never flew.
 It is the exact inverse of the aircraft in the previous article. The [X-32][related_post_a329_boeing_x32]
 was built, flew one hundred and forty-four times, and lost.
-**The X-33 beat two rivals for the contract, absorbed something over one and a quarter billion dollars, reached a state variously reported as eighty-five percent assembled and ninety-six percent of parts complete, and was cancelled in the early months of 2001 without ever leaving the ground.**
+**The X-33 beat two rivals for the contract, absorbed something over one and a quarter billion dollars, reached a state reported as about seventy-five percent assembled, and was cancelled in the early months of 2001 without ever leaving the ground.** \[[Marshall Space Flight Center, NASA, Lockheed Martin Agree On X-33 Plan][ref_msfc_x33_plan]\] \[[Jenkins, Landis and Miller, American X-Vehicles][ref_xvehicles]\]
 This is the thirty-fourth article in the [X-Planes series][related_post_a297_xplanes_framing], following the
 [X-1][related_post_a298_bell_x1], the [X-2][related_post_a299_bell_x2], the
 [X-3][related_post_a300_douglas_x3], the [X-4][related_post_a301_northrop_x4], the
@@ -39,7 +39,9 @@ which was exotic and which worked, and for the lifting-body shape, which was unu
 analysable by ordinary means. **What ended it was a tank.** On 3 November 1999, at the National Aeronautics
 and Space Administration's [Marshall Space Flight Center][ref_msfc], a graphite-epoxy sandwich tank for
 liquid hydrogen completed its structural and cryogenic test programme successfully, was drained, and then
-came apart about fifteen minutes later when nothing at all was being done to it.
+came apart about fifteen minutes later while it was being purged and allowed to warm \[[Marshall Space Flight Center, NASA, Lockheed Martin Agree On X-33 Plan][ref_msfc_x33_plan]\]
+\[[Mital and others, Review of Current State of the Art and Key Design Issues for Liquid Hydrogen Cryogenic Storage Tank Structures][ref_cryotank_review]\]
+\[[Reeder, X33 Hydrogen Tank Failure][ref_reeder_tank_failure]\].
 
 **This article argues that the failure was not an accident attached to an otherwise sound design, and that the single-point-of-failure reading is the trap the subject sets.**
 The tank failed at the end of a chain in which every link is forced by the one before it, and the first link
@@ -54,7 +56,7 @@ is the decision to fly home and land on a runway.
 
 That formulation needs defending, because it is not the one the programme used about itself. The X-33 was
 described as a demonstrator of rapid turnaround, of aircraft-like operations, of an advanced engine and an
-advanced thermal protection system. All of that is true and none of it is binding.
+advanced thermal protection system \[[NASA, X-33 Advanced Technology Demonstrator, Historical Fact Sheet][ref_x33_factsheet]\]. All of that is true and none of it is binding.
 **A vehicle that turns around quickly and cannot reach orbit is not a launch vehicle.**
 
 ### Why the Mass Fraction Is the Binding Unknown
@@ -62,10 +64,12 @@ advanced thermal protection system. All of that is true and none of it is bindin
 Every other quantity in this programme had a known answer or a bounded one. The aerodynamics of a lifting
 body were understood, and this series has already followed that understanding through the
 [X-23][related_post_a320_martin_marietta_x23] and the [X-24][related_post_a321_martin_marietta_x24], which
-flew and returned data. Rocket engines of the required class existed. Thermal protection for a returning
-vehicle had been demonstrated by an operational orbiter for two decades.
+flew and returned data. Rocket engines of the required class existed, and the X-33's own engine derived its
+turbomachinery from that of the J-2 \[[Rocketdyne XRS-2200 linear aerospike][ref_xrs2200]\]. Thermal protection for a
+returning vehicle had been demonstrated by an operational orbiter since 1981
+\[[Space Shuttle thermal protection system][ref_tps]\].
 
-**What had never been demonstrated, by anyone, was a reusable vehicle whose empty mass was around a tenth of its fuelled mass.**
+**What had never been demonstrated, by anyone, was a reusable vehicle whose empty mass was around a tenth of its fuelled mass.** \[[Single-stage-to-orbit][ref_ssto]\] \[[Lockheed Martin X-33][ref_x33]\]
 The sizing section below shows that the requirement is not a target somebody chose. It falls out of the
 rocket equation and the energy of low Earth orbit, and it does not move appreciably for any engine or
 trajectory inside the plausible range.
@@ -75,13 +79,13 @@ trajectory inside the plausible range.
 **Here the article parts company with the previous one in a way that matters.** The X-32 could not answer
 its question, because the thing flown was not the thing being bought and the difficulty was one of construct
 validity rather than of sampling.
-**The X-33's position is the opposite and it is worth stating precisely, because it is the hinge of the whole assessment.**
+**The X-33's position is the opposite, and since the assessment hinges on it, it should be stated precisely.**
 
-The X-33 was suborbital. Its own [propellant mass fraction][ref_massfraction] was about seventy-four percent
+The X-33 was suborbital \[[NASA, X-33 Advanced Technology Demonstrator, Historical Fact Sheet][ref_x33_factsheet]\]. Its [propellant mass fraction][ref_massfraction] was about seventy-four percent
 against the eighty-nine percent an orbital vehicle needs, and **it was never required to close that gap.**
 In that respect it could not demonstrate the vehicle-level quantity at all.
 
-**But the tank is different, and the reason is a scaling property rather than an opinion.** For a
+**But the tank is different, because of a scaling property.** For a
 thin-walled pressure vessel the structural mass divided by the propellant mass is independent of size. The
 derivation is below and the cancellation is exact.
 **A subscale tank therefore has the same mass fraction as a full-scale one**, so a demonstrator tank is a
@@ -98,14 +102,15 @@ That is a rarer thing in this series than it sounds, and the closing article sho
 
 **The context is the cost of getting to orbit and the fact that it had not fallen.** The stated ambition of
 the [reusable launch vehicle][ref_rlv] technology programme was a reduction from something on the order of
-ten thousand dollars a pound to one thousand, which is a demanded improvement of
+ten thousand dollars a pound to one thousand \[[Government Accountability Office, Status of the X-33 Reusable Launch Vehicle Program][ref_gao_x33]\],
+a demanded improvement of
 
 $$\frac{10{,}000}{1{,}000} = 10$$
 
 **and the mechanism was to be full reusability** with airline-like operations rather than an expendable
-stack rebuilt for every flight.
-**An order of magnitude is the kind of target that admits no incremental route**, which is worth holding in
-mind against everything that follows.
+stack rebuilt for every flight \[[NASA, X-33 Advanced Technology Demonstrator, Historical Fact Sheet][ref_x33_factsheet]\].
+**An order of magnitude is the kind of target that admits no incremental route**, and the rest of this
+article should be read against that.
 
 **The institutional arrangement was unusual and it shaped everything that followed.** The X-33 was not
 procured under a conventional contract. It was run as a **cooperative agreement**, in which industry
@@ -127,9 +132,9 @@ contractor's willingness to continue depends on a business case that external ev
 ### The Competition and the Choice
 
 Three teams competed for the Phase II award, and the contract went to [Lockheed Martin's][ref_lockheed]
-[Skunk Works][ref_skunkworks] on 2 July 1996. The losing concepts were a vertical-takeoff, vertical-landing
-design descended from an earlier flying testbed, and a winged vehicle resembling a scaled-down orbiter with
-a cylindrical fuselage and double-delta wings.
+[Skunk Works][ref_skunkworks] on 2 July 1996 \[[NASA, X-33 Advanced Technology Demonstrator, Historical Fact Sheet][ref_x33_factsheet]\]. The losing concepts were a
+vertical-takeoff, vertical-landing design descended from an earlier flying testbed, and a winged design
+derived from the Space Shuttle \[[Lockheed Martin X-33][ref_x33]\].
 **Lockheed Martin's entry was the most technically ambitious of the three on almost every axis**, combining
 a lifting body, an untried engine architecture, a metallic thermal protection system and a linerless
 composite cryogenic tank.
@@ -142,8 +147,8 @@ merely a description of what a technology demonstration competition is for.
 
 The X-33 existed to enable **[VentureStar][ref_venturestar]**, a full-scale commercial single-stage-to-orbit
 vehicle that Lockheed Martin intended to build and operate. The relationship between the two is quantitative
-and it can be checked. VentureStar's published gross mass of 2,184,000 pounds against the X-33's 285,000
-gives a mass ratio of
+and it can be checked. Taking VentureStar's gross mass as 2,184,000 pounds, within the roughly 2.2 million
+reported for it \[[VentureStar][ref_venturestar]\], against the X-33's 285,000 gives a mass ratio of
 
 $$\frac{m_{\text{VentureStar}}}{m_{\text{X-33}}} = \frac{2{,}184{,}000}{285{,}000} = 7.663$$
 
@@ -151,9 +156,9 @@ and under a cube law that is a linear scale ratio of
 
 $$\left(7.663\right)^{1/3} = 1.972$$
 
-**which says half scale, from two published masses that were not derived from one another.** The routine
-description of the X-33 as a half-scale demonstrator survives an arithmetic check that nobody appears to
-have published.
+**which gives half scale, from two masses that were not derived from one another.** The routine
+description of the X-33 as a half-scale demonstrator survives an arithmetic check that does not appear to
+have been published.
 
 ## Sizing From First Principles
 
@@ -236,10 +241,10 @@ and the structural allowance is $1 - \zeta$ at each.
 **Across every combination the requirement stays between 86.4 and 90.3 percent**, so the structural
 allowance is between 9.7 and 13.6 percent of gross mass and no choice inside the range escapes it. This is
 the same shape of result the [X-30 article][related_post_a327_rockwell_x30] reached for airbreathing ascent,
-where a bound that owes nothing to the vehicle turned out to be the most useful thing available, and the
-machinery is reused here rather than rebuilt.
+where a bound that owes nothing to the vehicle turned out to be the most useful thing available, and that
+machinery is reused here.
 
-**The X-33's own propellant fraction was**
+**The X-33's propellant fraction was**
 
 $$\zeta_{\text{X-33}} = \frac{210{,}000}{285{,}000} = 0.7368$$
 
@@ -247,7 +252,7 @@ $$\zeta_{\text{X-33}} = \frac{210{,}000}{285{,}000} = 0.7368$$
 suborbital. What it was required to demonstrate was the technology that would deliver the fraction, and that
 is a different kind of test with a different validity argument.
 
-### Hydrogen, Whose Advantage and Whose Penalty Are One Property
+### Hydrogen's Advantage and Its Penalty Are One Property
 
 **The specific impulse that makes the fraction reachable is available only from hydrogen, and hydrogen is the least dense practical propellant there is.**
 [Liquid hydrogen][ref_lh2] at its normal boiling point is 70.85 kilograms per cubic metre against 1,142 for
@@ -284,7 +289,7 @@ article states, the same expression gives 1,024.1, so
 makes single-stage-to-orbit arithmetically possible is the engine that makes the tank almost impossible, and
 no third option exists, because there is no dense fuel with hydrogen's specific impulse.
 
-### The Ideal Tank, Which Is Reassuring and Irrelevant
+### The Reassuring and Irrelevant Ideal Tank
 
 **Consider a thin-walled vessel of wall thickness $t$, wall density $\rho_w$, allowable stress $\sigma$, enclosing volume $V$ at internal pressure $p$.**
 For a sphere of radius $R$, equilibrium of a hemisphere against the pressure on its projected area gives
@@ -330,10 +335,10 @@ capacity is 109.78 cubic metres, which holds
 
 $$109.78 \times 70.85 = 7{,}777.7 \ \text{kg}$$
 
-of hydrogen when full, which is 7,777.7 kilograms, against a tank mass of 2,086.5 kilograms.
+of hydrogen when full, 7,777.7 kilograms against a tank mass of 2,086.5 kilograms.
 **The built tank is therefore 26.83 percent of the hydrogen it holds, against an ideal membrane vessel at 2.852 percent, a factor of 9.4.**
 
-**A factor of nine is not a design margin. It is a statement that the tank is sized by something other than the pressure it contains**,
+**A factor of nine is not a design margin. It shows that the tank is sized by something other than the pressure it contains**,
 and identifying that something is the rest of this section.
 
 **One comparison sharpens the puzzle before the answer.** The specific strength of the composite is
@@ -346,7 +351,7 @@ $$\frac{400 \times 10^6}{2{,}700} = 148.1 \ \text{kN} \cdot \text{m/kg}$$
 
 for aluminium-lithium at cryogenic temperature, a ratio of **1.93**. The composite is nearly twice as good
 per unit mass.
-**And the aluminium-lithium tank that was built to replace the composite one after the failure is reported to have weighed less.**
+**And the aluminium-lithium tank that was designed to replace the composite one after the failure is reported to have weighed less.** \[[Lockheed Martin X-33][ref_x33]\] \[[VentureStar][ref_venturestar]\]
 Whatever the shape and the manufacture cost, they cost more than a factor of two.
 
 ### Why the Tank Is Not a Cylinder
@@ -401,7 +406,7 @@ For the X-33 envelope cross-section of width $w$ of 6.1 metres and height $h$ of
 
 $$R = \frac{h}{2} = 2.15 \ \text{m} , \qquad d = w - h = 1.8 \ \text{m} ,$$
 
-and at the protoflight pressure of 42 pounds per square inch, which is 289.58 kilopascals, the lobe skin and
+and at the protoflight pressure of 42 pounds per square inch, or 289.58 kilopascals, the lobe skin and
 the web carry
 
 $$N = pR = 289.58 \times 2.15 = 622.6 \ \text{kN/m} , \qquad
@@ -415,9 +420,9 @@ $$h_{\text{web}} = 2c = \sqrt{4R^2 - d^2} = \sqrt{18.49 - 3.24} = 3.905 \ \text{
 
 so the web stands 3.905 metres tall.
 
-### The Identity That Says Lobing Is Free
+### The Identity in Which Lobing Is Free
 
-**At this point the natural expectation is that the web is a penalty and that the article is about to price it. It is not a penalty. It is exactly free, and that is a theorem.**
+**At this point the natural expectation is that the web is a penalty and that the article is about to price it. It is not a penalty. A theorem shows that it is exactly free.**
 
 Sizing every wall by its membrane tension, the mass per unit length of the lobed section is the skin arc
 length times its thickness plus the web height times its thickness, all times the wall density,
@@ -455,28 +460,28 @@ introduced at every lobe junction, the buckling stability of a wall that must al
 compressive flight loads, the minimum gauge below which no laminate can be manufactured, and the joints
 themselves.
 
-**The membrane model accounts for 10.6 percent of the mass of the tank that was actually built.** Because
+**The membrane model accounts for 10.6 percent of the mass of the tank as built.** Because
 the identity makes the lobed membrane mass equal to the cylinder's, its ratio to the hydrogen held is the
 ideal 2.852 percent, against the built tank's 26.83 percent,
 
 $$\frac{0.02852}{0.2683} = 0.106 .$$
 
-The remaining eighty-nine percent is shape and manufacture, **and the record says exactly that**, because the
-reported reason the composite tank came out heavier than the aluminium tank that replaced it was the
-complexity of the joints the lobed geometry demanded.
+The remaining eighty-nine percent is shape and manufacture, **and the record agrees**, because the
+reported reason the composite tank came out heavier than the aluminium tank designed to replace it was the
+complexity of the joints the lobed geometry demanded \[[Lockheed Martin X-33][ref_x33]\].
 
-### What the Missing Terms Actually Cost
+### What the Missing Terms Cost
 
-**An assertion that the cost lives somewhere else is worth very little until the somewhere else is priced.**
+**An assertion that the cost lives somewhere else means little until the somewhere else is priced.**
 This subsection prices the two that can be priced, being buckling and the sandwich the buckling forces, and
 reports what remains unaccounted.
 
-#### Buckling, Which Governs
+#### Buckling Governs
 
 **A thin cylindrical shell in axial compression fails by buckling long before it fails by stress.** The
 design practice used here is the agency's own, set out in
 [Weingarten, Seide and Peterson's monograph on the buckling of thin-walled circular cylinders][research_viweingarten_pseide_1968],
-which is the document that supplies both the knockdown factor below and the pressure-stabilisation term
+the document that supplies both the knockdown factor below and the pressure-stabilisation term
 after it. Writing $E$ for the wall modulus, $\nu$ for its Poisson ratio and $\gamma$ for a knockdown factor
 covering imperfection sensitivity, the classical critical stress is
 
@@ -497,12 +502,13 @@ and solving for the load gives
 $$N_x^{\ast} = \frac{\gamma E p^2 R}{\sigma^2 \sqrt{3\left(1-\nu^2\right)}}$$
 
 **Above that line load the wall is sized by stability and not by pressure.** At a knockdown of 0.2, a
-laminate modulus of 70 gigapascals and the tank's own radius and pressure, the threshold is
+laminate modulus of 70 gigapascals and the tank's radius and pressure, the threshold is
 
 $$N_x^{\ast} = 7.54 \ \text{kN/m}$$
 
 **and the only thing that has to be established about the vehicle is that it clears that bar.** It clears it
-easily. Both engines at sea level produce 1.819 meganewtons, and spreading that across the outer contour of
+easily. Both engines at sea level produce 1.819 meganewtons
+\[[DAgostino et al 2001][research_dagostinomarkg_leeyoungc_2001]\], and spreading that across the outer contour of
 both tanks gives
 
 $$N_x = \frac{1.819 \times 10^6}{2 \times 17.223} = 52.8 \ \text{kN/m}$$
@@ -515,7 +521,7 @@ $$t_{\text{buckling}} = 3.660 \ \text{mm}$$
 
 **a ratio of 2.65.** The tank is a stability structure wearing a pressure vessel's name.
 
-**One correction cuts the other way and it belongs here rather than in a footnote.** Internal pressure
+**One correction cuts the other way, and it is too large for a footnote.** Internal pressure
 stabilises a shell, because hoop tension resists the inward lobes of the buckling mode. The effect scales
 with the pressure parameter
 
@@ -524,7 +530,7 @@ $$\frac{p}{E}\left(\frac{R}{t}\right)^2 = 1.427$$
 which raises the effective knockdown from 0.2 to 0.429 and drops the required thickness to 2.499
 millimetres, **a ratio to the membrane thickness of 1.81 rather than 2.65.**
 
-**The conclusion survives its own correction.** Stability still asks for nearly twice the thickness pressure
+**The conclusion survives the correction.** Stability still asks for nearly twice the thickness pressure
 asks for, with the tank full and pressurised, **and a tank must also survive being empty.**
 
 | Knockdown factor | Buckling thickness | Ratio to membrane |
@@ -540,15 +546,15 @@ asks for, with the tank full and pressurised, **and a tank must also survive bei
 There is no value of the least certain assumption in this subsection at which pressure governs.
 
 **The critical stress, the knockdown factor and the pressure-stabilisation term are standard results and are not this article's**,
-and the literature they come from is a large one, gathered in the cluster on shell buckling, knockdown
-factors and imperfection sensitivity in the section headed The Contemporary Literature.
+and they come from a large literature. The Contemporary Literature collects it under shell buckling,
+knockdown factors and imperfection sensitivity.
 
 #### Why That Forces a Sandwich
 
 **A wall that must carry bending as well as membrane load wants its material far from the neutral axis, which is the definition of a [sandwich][ref_sandwich]**,
 and the reasoning is the ordinary structural one
 [Bruhn sets out for flight vehicle structures][book_analysis_and_design_of_flight_vehicle_st].
-**A solid wall thick enough not to buckle is a wasteful way to buy bending stiffness**, because a monocoque
+**A solid wall thick enough not to buckle is a wasteful source of bending stiffness**, because a monocoque
 of thickness $t$ has
 
 $$D_{\text{mono}} = \frac{E t^3}{12\left(1-\nu^2\right)} = 314.3 \ \text{N} \cdot \text{m}$$
@@ -557,12 +563,12 @@ whereas two facesheets of thickness $t_f$ separated by a core of thickness $h$ h
 
 $$D_{\text{sand}} = \frac{E t_f h^2}{2}$$
 
-**The separation enters squared and the material enters linearly**, which is the whole of the argument for
-the architecture. The core thickness that matches the monocoque's stiffness is
+**The separation enters squared and the material enters linearly**, and the argument for the architecture
+consists of that fact alone. The core thickness that matches the monocoque's stiffness is
 
 $$h = \sqrt{\frac{2 D_{\text{mono}}}{E t_f}} = 3.00 \ \text{mm}$$
 
-**Three millimetres of core buys what three and a half millimetres of solid laminate buys.**
+**Three millimetres of core gives the stiffness of three and a half millimetres of solid laminate.**
 
 **So the facesheets are not sized by stiffness at all, and what does size them is the finding.** They share
 the membrane load, so each needs half the membrane thickness,
@@ -577,7 +583,7 @@ $$t_{\text{gauge}} = 8 \times 0.125 = 1.000 \ \text{mm}$$
 of them below what can be laid up,
 **so material is carried that no load calls for, and no stress calculation will ever object, because nothing is overstressed.**
 
-**A constraint of that kind belongs to manufacture rather than to mechanics, and its literature is the thinnest this article draws on.**
+**A constraint of that kind comes from manufacture, and its literature is the thinnest this article draws on.**
 One research record cited here carries minimum gauge in its title, [McQuigg et al 2011][research_mcquigg_kapania_2011], which tests honeycomb
 panels with minimum-gage glass-fibre facesheets in compression, and the neighbouring literature on
 producibility, tolerance and the scale-up of large composite structures is small. That thinness is
@@ -596,8 +602,8 @@ $$2 \rho_w t_f + \rho_c h$$
 
 which depends on a core thickness the record does not give, so it is swept.
 
-**Only the first row of the table below compares equal stiffness**, and that has to be said plainly, because
-the rest of it does not. A thicker core buys bending stiffness the monocoque never had, so the last column
+**Only the first row of the table below compares equal stiffness**, and the rest of it does not. A thicker
+core adds bending stiffness the monocoque never had, so the last column
 is a mass comparison between walls of increasing capability rather than a like-for-like saving.
 **A real tank takes the thicker core for reasons this comparison does not price**, namely local buckling of
 the facesheets between cells, damage tolerance, handling stiffness and the insulating value of the core
@@ -622,14 +628,14 @@ $$h_{\text{break}} = \frac{\rho_w t_{\text{buckling}} - 2 \rho_w t_f}{\rho_c} = 
 **Beyond about forty millimetres of core the sandwich weighs more than the solid wall it replaced**, while
 being far stiffer than that wall needed to be.
 
-**The saving is real and it is narrower than the architecture's reputation suggests, and the reason is the minimum gauge above.**
+**The saving is real but narrower than the architecture's reputation suggests, because of the minimum gauge above.**
 A sandwich whose facesheets cannot be made thin enough to exploit the separation is paying for two skins and
 a core to do the work that one skin and a thin core would do.
-**The architecture is right and it is not free**, and the part of it that is not free is the part that ends
+**The architecture is right but not free**, and the part of it that is not free is the part that ends
 this article.
 
-**The failure mode a sandwich is normally checked against is not the one that occurred**, and it is worth
-showing that it was not close. Face wrinkling, the local instability of a facesheet on an elastic
+**The failure mode a sandwich is normally checked against is not the one that occurred**, and a short check
+shows that it was not close. Face wrinkling, the local instability of a facesheet on an elastic
 foundation, occurs near
 
 $$\sigma_{wr} = 0.5 \left(E_f E_c G_c\right)^{1/3} = 559.3 \ \text{MPa}$$
@@ -638,14 +644,13 @@ against a laminate allowable of 450, **a margin of 1.24.** The tank did not fail
 analysis owned.
 
 **The sandwich bending stiffness, the wrinkling correlation and the minimum-gauge argument are likewise standard**,
-and belong to the sandwich structures literature rather than to this article, which is gathered in the
-cluster on sandwich structures, honeycomb cores and the face-to-core bond in the section headed The
-Contemporary Literature.
+and they are taken from the sandwich structures literature. Its records appear under sandwich structures,
+honeycomb cores and the face-to-core bond in The Contemporary Literature.
 
 #### The Mass That Is Still Unaccounted
 
 **Summing the wall over the tank's surface gives a build-up that can be checked against the article that was built.**
-Taking the barrel skin over the outer contour, the web over its own height, and end closures at 1.4 times
+Taking the barrel skin over the outer contour, the web over its height, and end closures at 1.4 times
 the flat cross-section, the sheet area of one tank is
 
 $$s \, L + h_{\text{web}} L + 2 \times 1.4 \, A = 245.50 \ \text{m}^2$$
@@ -656,12 +661,12 @@ $$5.06 \times 245.50 = 1{,}242.2 \ \text{kg}$$
 
 **The wall comes to 1,242.2 kilograms against a built tank of 2,086.5, so the build-up explains 59.5 percent and leaves 844.3 kilograms unaccounted.**
 
-**The shortfall is the result rather than a failure of the build-up.** What is missing is exactly the list
-the identity pointed at and this article has not costed, namely the joints between the three major
+**The shortfall is the result rather than a failure of the build-up.** What is missing is the list the
+identity pointed at and this article has not costed, namely the joints between the three major
 subassemblies, the longerons, the local reinforcement at every penetration and fitting, and the doublers a
 lobe junction needs to carry bending into its web.
 
-**That last term is not an unstudied one, and it is worth naming the literature this article declines to reproduce.**
+**That last term has been studied, and the literature this article declines to reproduce should be named.**
 The stress field at the junction of intersecting shells was worked out for multicellular structures in the
 1960s, in a report series on
 [Almroth et al 1965][research_almrothbo_broganfa_1965] that runs to at
@@ -682,21 +687,23 @@ None of them is novel physics and none of them has a source, because none of the
 
 **And a sandwich has a core, and the core is a cellular void, and on this tank it was unvented.** That is
 the last link in the chain. Buckling forced the sandwich, the sandwich brought the core, and the core is
-what sat against liquid hydrogen at twenty kelvin and was then allowed to warm up.
+what sat against liquid hydrogen at twenty kelvin and was then allowed to warm up \[[Mital and others, Review of Current State of the Art and Key Design Issues for Liquid Hydrogen Cryogenic Storage Tank Structures][ref_cryotank_review]\]
+\[[Reeder, X33 Hydrogen Tank Failure][ref_reeder_tank_failure]\].
 **The section on what an unvented core does is the end of an argument that begins with the decision to land on a runway.**
 
 ## The Vehicle
 
-**The X-33 was a wingless lifting body with two canted vertical fins, two body flaps, a metallic thermal protection system and two linear aerospike engines at the base.**
+**The X-33 was a wingless lifting body with two canted fins, twin vertical tails, two body flaps, a metallic thermal protection system and two linear aerospike engines at the base.**
+\[[Horvath et al 1999][research_horvaththomasj_berryscotta_1999]\]
 It was to be launched vertically from a purpose-built site at Edwards Air Force Base and to land
 horizontally on a conventional runway, with fifteen suborbital flights planned to landing sites in Utah and
-Montana.
+Montana \[[NASA, X-33 Advanced Technology Demonstrator, Historical Fact Sheet][ref_x33_factsheet]\].
 
 The published figures, with the caveat about their disagreement noted below, are a gross mass of 285,000
 pounds carrying 210,000 pounds of propellant, a length near 69 feet and a span near 77 feet
 \[[NASA, X-33 Advanced Technology Demonstrator, Historical Fact Sheet][ref_x33_factsheet]\].
 
-### The Specifications Disagree, and the Disagreement Is a Datum
+### The Disagreeing Specifications Are a Datum
 
 **Two families of published specification exist and they do not match.** One gives a gross mass of 285,000
 pounds and a propellant load of 210,000
@@ -714,12 +721,12 @@ so the two propellant loads differ by 100 pounds, or 0.05 percent, while the emp
 $$m_e^{(1)} - m_e^{(2)} = 12{,}000 \ \text{lb} , \qquad \frac{12{,}000}{63{,}000} = 0.190 .$$
 
 **The propellant load agrees to within a tenth of a percent and the empty mass differs by 12,000 pounds, which is nineteen percent of the smaller figure.**
-The disagreement is worth naming rather than resolving silently, because here it is informative. Neither
+Here the disagreement is informative, and resolving it silently would discard information. Neither
 table is wrong.
 **They are two snapshots of a vehicle that was getting heavier**, and the Flight Test Record section derives
 the same growth by a third route that uses neither figure.
 
-### A Specification Error Worth Naming
+### A Specification Error in Wide Circulation
 
 **Widely copied specification tables give the X-33's thrust as 410,000 pounds force per engine.** The
 [XRS-2200][ref_xrs2200] was rated at 204,420 pounds force at sea level
@@ -754,7 +761,7 @@ details, and much of what follows about the failure, are set out in
 **Two of those adjectives are the article's subject.** Linerless means there is no metallic foil between the
 hydrogen and the laminate, so the laminate itself is the pressure boundary and the permeation barrier.
 **Load-bearing means the tank is the airframe**, so its walls carry the vehicle's compressive and bending
-flight loads as well as the internal pressure, which is what drives the wall to a sandwich and the core to a
+flight loads as well as the internal pressure, and that load drives the wall to a sandwich and the core to a
 substantial thickness.
 
 The tanks together weigh 9,200 pounds against a burnout mass of 75,000, so
@@ -765,7 +772,7 @@ $$\frac{9{,}200}{75{,}000} = 0.1227$$
 
 ### Why the Inner Facesheet Was Certain to Crack
 
-**A carbon-fibre epoxy laminate taken to twenty kelvin cracks, and the arithmetic that says so is short.** A
+**A carbon-fibre epoxy laminate taken to twenty kelvin cracks, and the arithmetic that shows it is short.** A
 unidirectional ply has a longitudinal expansion coefficient near $-0.4 \times 10^{-6}$ per kelvin, dominated
 by the fibre, and a transverse coefficient near $30 \times 10^{-6}$ per kelvin, dominated by the matrix.
 **In a laminate, a ply is prevented from contracting transversely by the fibres of its neighbours**, so the
@@ -793,7 +800,7 @@ $$\frac{0.01306}{0.006} = 2.18$$
 **times its transverse failure strain before any pressure is applied at all.**
 
 **Microcracking of an epoxy laminate at twenty kelvin is therefore not a workmanship question.** It is what
-the numbers require. The only genuinely open question was whether the cracks would link into a connected
+the numbers require. The only open question was whether the cracks would link into a connected
 leak path through the facesheet, and the failure investigation found that they did.
 
 **Inverting the relation shows why there was no easy fix.** The cure temperature that would hold the strain
@@ -802,7 +809,7 @@ inside the allowable is
 $$T_{\text{cure}} = 20.3 + \frac{0.006}{30.4 \times 10^{-6}} = 217.7 \ \text{K}$$
 
 **or about minus 55 degrees Celsius.** No structural epoxy cures below room temperature and retains its
-properties, so the remedy is not a process change. It is a different resin system, a thin foil barrier, or a
+properties, so the remedy lies outside the process, in a different resin system, a thin foil barrier, or a
 design that tolerates a cracked laminate.
 
 ### What an Unvented Core Does
@@ -853,7 +860,7 @@ $$f = \frac{1{,}378{,}951 \times 0.028013}{1{,}026 \times 8.3145 \times 300} = 0
 Fifteen parts in a thousand. The investigation reported the bondline strength and toughness as reduced,
 **which moves the threshold down rather than up.**
 
-**The same arithmetic for hydrogen, which is what the microcracks actually admitted**, needs a gas density
+**The same arithmetic for hydrogen, the gas that the microcracks admitted**, needs a gas density
 at 300 kelvin of
 
 $$\rho_{\text{H}_2} = \frac{p M_{\text{H}_2}}{R T} = \frac{1{,}378{,}951 \times 0.0020159}{8.3145 \times 300} = 1.1144 \ \text{kg/m}^3 ,
@@ -863,7 +870,7 @@ $$\rho_{\text{H}_2} = \frac{p M_{\text{H}_2}}{R T} = \frac{1{,}378{,}951 \times 
 so 200 pounds per square inch at room temperature takes a core fraction of 1.573 percent of the density of
 the liquid.
 
-**The purge that supplied the condensate is not incidental, and it is worth saying where it comes from.** A
+**The purge that supplied the condensate is not incidental, and its origin explains why.** A
 cryogenic tank in air will condense and then freeze atmospheric oxygen and nitrogen on any surface it cools,
 so the cavity around it is filled with dry nitrogen to keep air out.
 **The purge exists because the tank is cold and insulated**, and the insulation system, the purge and the
@@ -874,14 +881,14 @@ tank sized by volume rather than by mass has a large surface area for the propel
 hydrogen's low density is what makes the area large, so
 **the propellant that is hardest to contain is also the one with the most surface through which to boil away.**
 
-**The fifteen-minute delay is the signature of the whole mechanism.** Both routes require the structure to
+**The fifteen-minute delay is the signature of the mechanism.** Both routes require the structure to
 warm, and neither can act while liquid hydrogen is still in contact with the inner facesheet holding it near
 twenty kelvin.
 **A structure that passes its pressure and load test and then fails a quarter of an hour after being emptied, with no load applied, is not failing from the load. It is failing from the temperature.**
 
-### The Aerospike Engine, Which Worked
+### The Aerospike Engine Worked
 
-**The XRS-2200 [linear aerospike][ref_aerospike] is the part of the programme that is remembered and it is not the part that failed.**
+**The XRS-2200 [linear aerospike][ref_aerospike] is the remembered part of the programme, and it did not fail.**
 Two engines, each rated at 204,420 pounds force at sea level and 266,230 in vacuum, with a specific impulse
 of 339.0 seconds at sea level and 436.5 in vacuum, a chamber pressure of 857 pounds per square inch absolute
 at full power and an overall area ratio of 57.7, in the Marshall specification table for the engine
@@ -912,8 +919,8 @@ compared against itself at two ambient pressures the chamber is unchanged, so $c
 
 $$\frac{I_{sp,\text{vac}}}{I_{sp,\text{SL}}} = \frac{C_{F,\text{vac}}}{C_{F,\text{SL}}}$$
 
-A conventional bell nozzle has a fixed exit area, so its exit pressure is fixed by the chamber conditions
-and it is correctly expanded at exactly one altitude.
+A conventional bell nozzle has a fixed exit area, so its exit pressure is fixed by the chamber conditions,
+which leave it correctly expanded at exactly one altitude.
 **Let $p_c$ be chamber pressure, $p_e$ exit pressure, $p_a$ ambient pressure, $\varepsilon$ the area ratio and $\gamma$ the ratio of specific heats.**
 The area ratio follows from the isentropic relations as
 
@@ -927,7 +934,7 @@ $$C_F = \sqrt{\frac{2\gamma^2}{\gamma-1}\left(\frac{2}{\gamma+1}\right)^{\frac{\
 equal one exactly at the critical pressure ratio, and it does so to machine precision.
 
 **At an area ratio of 57.7 and a chamber pressure of 857 pounds per square inch, the exit pressure is 7.755 kilopascals**,
-which is 0.0765 of sea-level ambient. The usual criterion for attached flow puts the separation limit near
+or 0.0765 of sea-level ambient. The usual criterion for attached flow puts the separation limit near
 
 $$p_e \geq 0.4 \, p_a$$
 
@@ -945,8 +952,8 @@ The comparison that matters takes three nozzles on the same chamber.
 | Bell at the quoted area ratio | 57.70 | 0.9240 | 1.9134 |
 | Altitude compensating | 57.70 | 1.5761 | 1.9134 |
 
-**The compensating nozzle takes the sea-level column from the small nozzle and the vacuum column from the large one**,
-which is the entire claim made for the architecture, and the claim is true.
+**The compensating nozzle takes the sea-level column from the small nozzle and the vacuum column from the large one**.
+That combination is all the architecture claims, and the claim is true.
 
 **The published specific impulses provide a check on the specification rather than on the engine.** Their
 ratio is
@@ -957,9 +964,9 @@ against 1.2140 for an ideal compensating nozzle, a disagreement of
 
 $$1 - \frac{1.2140}{1.2876} = 0.0572 ,$$
 
-or 5.72 percent, which is what one expects
+or 5.72 percent, as one expects
 once real losses and a varying ratio of specific heats are admitted.
-**A fixed bell of the quoted area ratio would give a ratio of 2.071**, which is nothing like the published
+**A fixed bell of the quoted area ratio would give a ratio of 2.071**, far from the published
 pair. The published numbers therefore discriminate strongly, and they identify the engine as a compensating
 one.
 
@@ -978,10 +985,10 @@ Sweeping the one assumed quantity confirms that the conclusion does not rest on 
 on the argument that metal panels are more durable, more tolerant of handling and rain, and faster to
 inspect and replace, all of which serve the operations goal rather than the mass goal.
 
-**This is a subsystem chosen for turnaround rather than for weight, and that is worth flagging**, because
+**The choice of this subsystem favoured turnaround over weight, which matters here**, because
 the mass budget derived above leaves very little room for a subsystem that is heavier than the alternative.
 The Where the Framing Breaks Down section returns to the tension between the operability goals and the mass
-fraction requirement, which pull in opposite directions more often than the programme's own statements
+fraction requirement, which pull in opposite directions more often than the programme's statements
 acknowledge.
 
 ### Aerodynamics and Flight Control
@@ -997,26 +1004,29 @@ The operations concept, of the kind
 [Rampino examined for a reusable launch vehicle][book_concepts_of_operations_for_a_reusable_la], depended on
 it. **The vehicle was to be unpiloted and autonomous**, which removes an entire class of difficulty this
 series has met repeatedly, namely the handling qualities of a vehicle a human must fly, and replaces it with
-the requirement that the guidance and control system be right the first time.
+the requirement that the guidance and control system be right the first time \[[NASA, X-33 Advanced Technology Demonstrator, Historical Fact Sheet][ref_x33_factsheet]\].
 
-### The Metallic Tanks, Which Are the Comparison
+### The Metallic Tanks as the Comparison
 
-**The liquid oxygen tank was aluminium rather than composite, and the reason is documented and is not what one would guess.**
+**The liquid oxygen tank was aluminium rather than composite, for a documented reason that one would not guess.**
 The Government Accountability Office records that schedule constraints early in the programme led Lockheed
 Martin to exercise an option under the cooperative agreement to use an aluminium oxygen tank, and that an
-operational VentureStar would still require a composite oxygen tank to reach its weight.
+operational VentureStar would still require a composite oxygen tank to reach its weight \[[Government Accountability Office, Status of the X-33 Reusable Launch Vehicle Program][ref_gao_x33]\].
 
 **So the programme had already conceded one composite tank to schedule before the other one failed**, and it
-planned to demonstrate the deferred technology on a ten-foot-diameter ground test article instead.
+planned to demonstrate the deferred technology on a ten-foot-diameter ground test article instead
+\[[Government Accountability Office, Status of the X-33 Reusable Launch Vehicle Program][ref_gao_x33]\].
 
-**After the failure the hydrogen tank was to be replaced with [aluminium-lithium][ref_alli] as well.** The
-reported outcome of that decision is the sharpest fact in the article, and it is reported here with its
-provenance rather than asserted, because the sources for it are secondary.
-**The replacement aluminium-lithium tank is reported to have weighed less than the composite tank it replaced, with the complexity of the joints demanded by the lobed shape cited as the reason.**
+**After the failure the hydrogen tank was to be replaced with [aluminium-lithium][ref_alli] as well.**
+\[[Marshall Space Flight Center, NASA, Lockheed Martin Agree On X-33 Plan][ref_msfc_x33_plan]\] \[[VentureStar][ref_venturestar]\] The
+reported outcome of that decision is the sharpest fact in the article. Its sources are secondary, so it is
+given here with its provenance attached.
+**The replacement aluminium-lithium tank is reported to have weighed less than the composite tank it was to replace, with the complexity of the joints demanded by the lobed shape cited as the reason.**
+\[[Lockheed Martin X-33][ref_x33]\] \[[VentureStar][ref_venturestar]\]
 
-If that report is accurate, then the entire rationale for the composite tank had evaporated, and it had
+If that report is accurate, then the rationale for the composite tank had evaporated, and it had
 evaporated for a reason that the identity derived above predicts.
-**The membrane model says the shape is free. The shape was not free. The difference is the joints.**
+**The membrane model prices the shape at zero. The shape was not free. The difference is the joints.**
 
 **The metal tank does not get the trade for nothing, and the quantity that decides it is the same one that cracks the laminate.**
 A tank of length $L$ contracts on filling by
@@ -1035,24 +1045,32 @@ by more than an order of magnitude.
 it, which the attachments, the thermal protection and every line crossing the boundary must absorb.
 
 **So the property that makes the composite crack is the property that makes it stay still.** A near-zero
-expansion coefficient is why the fibres will not let the matrix contract, which is the microcracking derived
-above, **and it is also why the tank barely moves.** The metal tank does not solve the problem. It exchanges
+expansion coefficient is why the fibres will not let the matrix contract, the microcracking derived
+above, **and the same coefficient is why the tank barely moves.** The metal tank does not solve the problem. It exchanges
 an internal problem for an external one.
 
 ## The Flight Test Record
 
-**There is none. The X-33 never flew.** That sentence is the flight test record, and the section exists to
+**There is none. The X-33 never flew.** \[[Jenkins, Landis and Miller, American X-Vehicles][ref_xvehicles]\] That sentence is the flight test record, and the section exists to
 say what was tested instead, because a great deal was.
 
-### What Was Actually Tested
+### What Was Tested on the Ground
 
-The two aerospike engines were assembled and hot-fired on the ground. The liquid oxygen tank completed its
-structural test programme. The metallic thermal protection panels were tested, including on a flying
-testbed. The hydrogen tank completed its cryogenic and structural loads programme at Marshall Space Flight
-Center and then failed after that programme was complete.
+The two aerospike engines were assembled and hot-fired on the ground
+\[[Rocketdyne XRS-2200 linear aerospike][ref_xrs2200]\]. A duplicate of the liquid oxygen tank completed its
+structural test programme
+\[[Marshall Space Flight Center, X-33 Liquid Oxygen Tank Successfully Completes Stress Tests][ref_msfc_lox_tank]\].
+The metallic thermal protection panels were tested, including on a flying testbed
+\[[NASA, F-15B Flight Test Fixture Tests X-33 Thermal Protection System][ref_f15b_tps]\]. The hydrogen tank
+completed its cryogenic and structural loads programme at Marshall Space Flight Center and then failed after
+that programme was complete \[[Mital and others, Review of Current State of the Art and Key Design Issues for Liquid Hydrogen Cryogenic Storage Tank Structures][ref_cryotank_review]\].
 
-**The vehicle itself reached a state reported as eighty-five percent assembled with ninety-six percent of its parts delivered**,
-and the launch site at Edwards Air Force Base was built.
+**The vehicle itself was reported in 2000 as seventy-five percent assembled, with more than ninety-five percent of its components delivered**
+\[[Marshall Space Flight Center, NASA, Lockheed Martin Agree On X-33 Plan][ref_msfc_x33_plan]\],
+and it was still about seventy-five percent complete when the agency ended its funding
+\[[Jenkins, Landis and Miller, American X-Vehicles][ref_xvehicles]\]. A figure of eighty-five percent assembled with
+ninety-six percent of parts also circulates, without a primary source. The launch site at Edwards Air Force
+Base was built \[[Lockheed Martin X-33][ref_x33]\].
 
 ### The Test That Ended It
 
@@ -1071,26 +1089,30 @@ investigation's word, instantaneous \[[Niedermeyer and Munafo, Findings from the
 namely microcracking of the inner facesheet with subsequent hydrogen infiltration, cryopumping of the
 exterior nitrogen purge gas, higher than expected core pressures, reduced bondline strength and toughness,
 and manufacturing flaws. The findings were reported by [Niedermeyer and Munafo][ref_tank_findings] and in
-[the investigation's own summary of findings][research_niedermeyermindy_clintonrgjr_2000].
+[the investigation's summary of findings][research_niedermeyermindy_clintonrgjr_2000].
 
 **Two observations about that list are this article's own.** The first is that the five causes are not
 independent and are not equally fundamental. **Microcracking is thermodynamically forced**, as the
 arithmetic above shows, and the core pressure follows from it with no further assumption. The manufacturing
 flaws are the only item on the list that better workmanship would have removed, and they are last.
-**The second is that the test procedures and parameters were found to have been within the design limits of the article**,
+**The second is that the test procedures and parameters were found to have been within the design limits of the article**
+\[[Mital and others, Review of Current State of the Art and Key Design Issues for Liquid Hydrogen Cryogenic Storage Tank Structures][ref_cryotank_review]\],
 which means the tank failed under conditions it was designed to survive.
 
-### The Speed Objective, Which Is a Weight Report
+### The Speed Objective as a Weight Report
 
 **The flight test programme was reduced before it began, and the reduction is quantifiable.** The Government
-Accountability Office records that the maximum flight-test speed objective was cut from Mach 15 to Mach 13.8
+Accountability Office states that the maximum flight-test speed objective was cut from Mach 15 to Mach 13.8
 because the detailed design phase determined that the vehicle's projected weight would exceed requirements
-and prevent it from reaching the higher speed. **It says no more than that.** The rocket equation converts
+and prevent it from reaching the higher speed \[[Government Accountability Office, Status of the X-33 Reusable Launch Vehicle Program][ref_gao_x33]\].
+**It says no more than that.** The rocket equation converts
 the sentence into a number.
 
-**The published Mach figures are referenced to the sea-level standard speed of sound of 340.294 metres per second**,
-which can be checked against the quoted equivalence of Mach 13 to 9,896 miles per hour. The velocity given
-up is
+**The Mach figures are converted here at the sea-level standard speed of sound of 340.294 metres per second**,
+which matches the equivalence of Mach 13 to 9,896 miles per hour in the vehicle's specification table
+\[[Lockheed Martin X-33][ref_x33]\]. The Government Accountability Office defines its own Mach figures against 741 miles
+per hour \[[Government Accountability Office, Status of the X-33 Reusable Launch Vehicle Program][ref_gao_x33]\], which would make the velocity given up and every growth figure below smaller by close
+to three percent. The velocity given up is
 
 $$\Delta v_{\text{lost}} = \left(15.0 - 13.8\right) \times 340.294 = 408.4 \ \text{m/s}$$
 
@@ -1119,7 +1141,7 @@ confirming that the missing velocity reappears.
 
 **An independent route through the published specification tables lands in the same region.** The difference
 between the earlier unfuelled mass of 63,000 pounds and the later gross-minus-propellant figure of 75,000 is,
-as in the section headed The Specifications Disagree,
+as computed in the comparison of the two specification families above,
 
 $$\frac{75{,}000 - 63{,}000}{63{,}000} = 0.190 ,$$
 
@@ -1143,7 +1165,7 @@ characterising since the 1960s.
 ### Where Prediction and Test Disagreed
 
 **The hydrogen tank passed every test it was designed for and then failed with no load applied.** That is a
-peculiar kind of disagreement, and it is worth being precise about its nature.
+peculiar kind of disagreement, and its nature has to be pinned down.
 **The structural prediction was not wrong.** The tank carried the pressures and the simulated flight loads
 it was built to carry. **The prediction that was wrong was a prediction nobody had made**, because the
 failure mode was not in the analysis at all.
@@ -1165,7 +1187,7 @@ because it depends on masses rather than on flight data. The next section does i
 
 ## What the Data Changed
 
-### The Verdict, Which Does Not Depend on the Failure
+### A Verdict Independent of the Failure
 
 **Take the tank efficiency the programme demonstrated, apply it to the vehicle the demonstration existed to enable, and ask what share of that vehicle's structural allowance the hydrogen tanks would consume.**
 
@@ -1184,7 +1206,7 @@ which as a share of the allowance is
 
 $$\frac{80{,}205}{195{,}683} = 0.410$$
 
-**or 41.0 percent of the entire structural allowance for the whole vehicle.** The allowance is 195,683
+**or 41.0 percent of the structural allowance for the whole vehicle.** The allowance is 195,683
 pounds and the two hydrogen tanks account for 80,205 of it.
 
 **Forty-one percent, for the tanks alone.** The engines, the oxygen tank, the thermal protection, the
@@ -1206,7 +1228,7 @@ $$\eta = \frac{0.15 \times 195{,}683}{298{,}972} = 0.0982$$
 
 $$\frac{0.2683}{0.0982} = 2.73$$
 
-**Even at a generous fifteen percent of the entire allowance, the tanks must reach 9.8 percent of the hydrogen they hold, which is 2.73 times better than the article that was built and tested.**
+**Even at a generous fifteen percent of the allowance, the tanks must reach 9.8 percent of the hydrogen they hold, 2.73 times better than the article that was built and tested.**
 
 | Share of the structural allowance | Required tank efficiency | Improvement over the X-33 tank |
 |---|---|---|
@@ -1215,7 +1237,7 @@ $$\frac{0.2683}{0.0982} = 2.73$$
 | 20% | 13.1% | 2.05 times |
 | 25% | 16.4% | 1.64 times |
 
-**This is the verdict and it owes nothing whatever to the failure.** Had the tank passed its test on 3
+**This is the verdict, and the failure contributes nothing to it.** Had the tank passed its test on 3
 November 1999 and every test after it, the arithmetic above would be unchanged, because it uses the tank's
 mass and not its integrity.
 **The demonstrator demonstrated something, and what it demonstrated was a number that does not close.**
@@ -1225,20 +1247,20 @@ mass and not its integrity.
 **It settled that a linerless composite sandwich cryogenic tank of that generation was not a solution**, and
 it settled it in a way that was expensive and unambiguous. The subsequent literature treats the X-33 tank as
 the reference case for the problem, and the programme is recorded in
-[the agency's own history of the X-vehicles][ref_xvehicles], and the specific lessons, namely that matrix
+[the agency's own history of the X-vehicles][ref_xvehicles], and the lessons, namely that matrix
 microcracking must be designed against rather than assumed away, that permeation barriers may be necessary
 after all, and that cores must be vented, are visible in the work that followed.
 
 **It settled that altitude compensation works and can be built.** The engine is the part of the programme
 that did what it said.
 
-**It did not settle whether single-stage-to-orbit is achievable**, and the honest reading is that it did not
-get close enough to the question to settle it. What it produced was one strong piece of negative evidence
+**It did not settle whether single-stage-to-orbit is achievable**, and on a fair reading it did not get
+close enough to the question to settle it. What it produced was one strong piece of negative evidence
 about one route to the mass fraction.
 
 ### What It Fed Into
 
-**The composite cryotank line of work did not stop, and that is the most important thing to say about the aftermath.**
+**The composite cryotank line of work did not stop, and no fact about the aftermath matters more.**
 Subsequent programmes pursued the same objective with the X-33's lessons folded in, using barrier films,
 vented cores, toughened resin systems and out-of-autoclave processes.
 **The largest composite cryogenic tanks built since are considerably larger than the X-33's and did not fail in the same way.**
@@ -1249,17 +1271,17 @@ reduction of launch cost that the programme was chartered to pursue did eventual
 from a direction the programme did not consider, namely partial reusability of a two-stage vehicle with
 propulsive recovery of the first stage. **The single-stage-to-orbit route remains unflown.**
 
-**That is worth stating plainly rather than triumphally.** Two-stage recovery does not prove that
+**The point should be made plainly and without triumph.** Two-stage recovery does not prove that
 single-stage-to-orbit is impossible. It proves that a different route reached the goal first, and the
 difference between those two statements is the difference between engineering and hindsight.
 
 ### What It Failed to Influence
 
 **The programme's operability objectives left remarkably little trace.** The metallic thermal protection
-system, chosen for durability and turnaround rather than for mass, has not become standard. The vehicle
+system, chosen for durability and turnaround, has not become standard. The vehicle
 health management work and the rapid-turnaround ground operations concepts have not obviously propagated.
 
-**The reason is structural rather than accidental.** Operability improvements pay off across a high flight
+**The cause is structural.** Operability improvements pay off across a high flight
 rate, and the flight rate that would justify them has not existed.
 **A technology whose value depends on a market that does not appear is not a failed technology. It is an unexercised one.**
 
@@ -1294,38 +1316,39 @@ rate, and the flight rate that would justify them has not existed.
 | **Total** | **5,323** |
 
 **The X-33's central problem did not go away when the programme did, and the modern literature on it is larger and more capable than the literature the programme had.**
-This section surveys that work. The organising principle is the chain of the article's own argument, so the
+This section surveys that work. The organising principle is the chain of the article's argument, so the
 subsections run from the tank outward.
 
 ### Composite Cryogenic Tanks Since the X-33
 
-**This is the direct descendant of the article's subject and it is an active field.** The problems are the
-ones the failure investigation named, and the modern work addresses them directly with permeation barrier
-layers as in [Bae et al 2025][research_bae_jin_2025], nanomodified and toughened resin systems as in [Timmerman et al 2002][research_timmerman_hayes_2002] and
-[Nobelen et al 2003][research_nobelen_hayes_2003], microcrack-resistant matrices for out-of-autoclave processing as in [Paul et al 2021][research_paul_andrea_2021], and
-out-of-autoclave tanks 2.4 and 5.5 metres across in [Jackson et al 2015][research_jacksonjustinr_vickersjohn_2015]. The tanks themselves are gathered in the
-cluster on composite cryogenic tanks and pressure vessels below.
+**This field descends directly from the article's subject, and it is active.** The problems are the
+ones the failure investigation named, and the modern work addresses them directly.
+[Bae et al 2025][research_bae_jin_2025] treats permeation barrier layers, [Timmerman et al 2002][research_timmerman_hayes_2002] and
+[Nobelen et al 2003][research_nobelen_hayes_2003] treat nanomodified and toughened resin systems, [Paul et al 2021][research_paul_andrea_2021] treats
+microcrack-resistant matrices for out-of-autoclave processing, and [Jackson et al 2015][research_jacksonjustinr_vickersjohn_2015] reports
+out-of-autoclave tanks 2.4 and 5.5 metres across. The cluster on composite cryogenic tanks and pressure
+vessels below holds the tanks themselves.
 
 ### Microcracking and Permeability
 
 **The mechanism this article derives from thermal expansion mismatch is now a subject in its own right**,
 with a literature on crack density evolution under thermomechanical cycling, as in [McManus 1994][research_mcmanushughl_1994] and
-[Shimokawa et al 2002][research_shimokawa_katoh_2002], on the relationship between crack density and gas transport, as in [Yokozeki et al 2003][research_yokozeki_aoki_2003],
-[Yokozeki et al 2004][research_yokozeki_aoki_2004] and [Roy et al 2004][research_roy_utturkar_2004], and on resin systems formulated specifically to resist cryogenic
-microcracking, as in [Timmerman et al 2002][research_timmerman_hayes_2002] and [Paul et al 2021][research_paul_andrea_2021]. The whole of it is gathered in the cluster on
-microcracking, permeation and leakage of laminates below.
+[Shimokawa et al 2002][research_shimokawa_katoh_2002], on the relationship between crack density and gas transport, which [Yokozeki et al 2003][research_yokozeki_aoki_2003],
+[Yokozeki et al 2004][research_yokozeki_aoki_2004] and [Roy et al 2004][research_roy_utturkar_2004] examine, and on resin systems formulated to resist cryogenic
+microcracking, among them [Timmerman et al 2002][research_timmerman_hayes_2002] and [Paul et al 2021][research_paul_andrea_2021]. All of it appears below under
+microcracking, permeation and leakage of laminates.
 
 ### Sandwich Structures, Cores and Debonding
 
-**The failure was a facesheet-to-core separation, and the modern literature on sandwich debonding is substantial**,
+**The failure was a facesheet-to-core separation, and sandwich debonding now has a substantial literature**,
 including detection methods the programme did not have, among them guided Lamb waves in [Sikdar and Ostachowicz 2018][research_sikdar_ostachowicz_2018] and
-[Yu et al 2018][research_yu_tian_2018] and laser ultrasonics in [Sen et al 2020][research_sen_saito_2020]. It is gathered in the cluster on sandwich structures,
-honeycomb cores and the face-to-core bond below.
+[Yu et al 2018][research_yu_tian_2018] and laser ultrasonics in [Sen et al 2020][research_sen_saito_2020]. Below, they are listed under sandwich
+structures, honeycomb cores and the face-to-core bond.
 
 ### Buckling, and a Factor of 1968 That Is Still Being Argued About
 
-**The identity derived above says that the cost of conformality lives outside membrane mechanics, so the buckling and stability literature is where the answer must be.**
-It is also where the article's least certain assumption lives, and that assumption turns out to be the
+**The identity derived above places the cost of conformality outside membrane mechanics, so the answer must lie in the buckling and stability literature.**
+That literature also holds the article's least certain assumption, and that assumption turns out to be the
 subject of a sustained modern effort.
 
 **The knockdown factor swept in the sizing section comes from a monograph published in 1968.** Those factors
@@ -1333,7 +1356,7 @@ are lower-bound envelopes drawn under test data collected across the preceding d
 deliberately conservative, because a buckling allowable that is optimistic destroys vehicles.
 **Conservatism in a buckling allowable is paid directly in structural mass**, so the modern work aims to
 replace an empirical lower bound with analysis that uses measured or modelled imperfections and returns a
-factor the structure has actually earned.
+factor the structure has earned.
 
 **What that conservatism is worth on this vehicle depends entirely on whether the wall is a sandwich, and the difference between the two answers is a factor of 38.1.**
 Moving the knockdown from 0.2 to 0.5 takes the buckling-equivalent thickness from 3.660 millimetres to
@@ -1348,49 +1371,48 @@ $$\left(m_{0.2} - m_{0.5}\right) S = 103 \ \text{lb}$$
 $$\left(\rho_{Al} t_{0.2} - \rho_{Al} t_{0.5}\right) S = 3{,}932 \ \text{lb}$$
 
 **which is 5.24 percent of the vehicle's burnout mass.** Set against the burnout-mass growth that cost the Mach 15
-objective, taken from the two ends of the table in the section headed The Speed Objective, Which Is a
+objective, taken from the two ends of the table in the section headed The Speed Objective as a
 Weight Report,
 
 $$m_f - m_f^{\ast} = 75{,}000 - 66{,}587 = 8{,}413 \ \text{lb} , \qquad 75{,}000 - 68{,}176 = 6{,}824 \ \text{lb} ,$$
 
 $$\frac{3{,}932}{8{,}413} = 0.467 , \qquad \frac{3{,}932}{6{,}824} = 0.576 ,$$
 
-**the monocoque saving is between 46.7 and 57.6 percent of that entire weight growth of 6,824 to 8,413 pounds.**
+**the monocoque saving is between 46.7 and 57.6 percent of that weight growth of 6,824 to 8,413 pounds.**
 
 **So a sandwich is very nearly insulated from the conservatism of a buckling allowable and a metal monocoque is not.**
-That is a second and independent reason the architecture was right, and it is not the reason usually given
-for it. It also holds generally rather than at the one point computed here, since a sandwich at stiffness
+That gives a second and independent reason the architecture was right, one not usually given
+for it. It also holds beyond the one point computed here, since a sandwich at stiffness
 parity is lighter than the metal monocoque it replaces at every knockdown between one twentieth and one,
 tested across twenty thousand values.
 
-**The uncomfortable corollary belongs with it.** A programme that needed mass, and that reduced its own
+**An uncomfortable corollary follows.** A programme that needed mass, and that reduced its
 speed objective because it could not find any, was sizing structure against a factor known to be
 conservative and known to be improvable.
 **Whether better factors were available to it in the 1990s is not something this article can establish**,
 and the modern literature is evidence that the problem was open rather than evidence that the answer
-existed. That literature, which includes the agency's own programme to develop new shell buckling design
-factors in [Hilburger 2012][research_hilburgermarkw_2012] the reassessment of knockdowns in [Gerasimidis et al 2018][research_gerasimidis_virot_2018] and the review in [Wang et al 2022][research_wang_hao_2022], is gathered in the cluster
+existed. That literature includes the agency's own programme to develop new shell buckling design
+factors in [Hilburger 2012][research_hilburgermarkw_2012], the reassessment of knockdowns in [Gerasimidis et al 2018][research_gerasimidis_virot_2018] and the review in [Wang et al 2022][research_wang_hao_2022], and it fills the cluster
 on shell buckling, knockdown factors and imperfection sensitivity below.
 
 ### Metallic Tanks, Alloys and Welding
 
-**The comparison the programme was forced into is a live subject**, covering aluminium-lithium alloys, as in
-the 2195 gores of [Volz 2015][research_volzmartin_2015], friction stir welding of tank structure, as in [Chen and Russell 2012][research_chen_russell_2012] and
-[Wang et al 2018][research_wang_zhao_2018], and hydrogen compatibility of metals, as in [Cavaliere 2025][research_cavaliere_2025]. It is gathered in the cluster on metallic
-tanks, aluminium-lithium alloys, welding and hydrogen embrittlement below.
+**The comparison the programme was forced into is a live subject**, covering aluminium-lithium alloys such as
+the 2195 gores of [Volz 2015][research_volzmartin_2015], the friction stir welding of tank structure studied by [Chen and Russell 2012][research_chen_russell_2012] and
+[Wang et al 2018][research_wang_zhao_2018], and the hydrogen compatibility of metals treated in [Cavaliere 2025][research_cavaliere_2025]. The cluster on metallic
+tanks, aluminium-lithium alloys, welding and hydrogen embrittlement below collects them.
 
 ### Cryogenic Insulation and Boil-Off
 
-**The insulation system, the purge cavity and the sealed core are one arrangement**, and the modern
-literature on cryogenic insulation and boil-off is the continuation of the part of it the article treats
-least, from launch-vehicle foam in [Fesmire et al 2011][research_fesmireje_cofmanbe_2011] to zero boil-off storage in [Hastings et al 2001][research_hastings_plachta_2001].
-It is gathered in the cluster on cryogenic insulation, boil-off and propellant management below.
+**The insulation system, the purge cavity and the sealed core are one arrangement**, and modern work on
+cryogenic insulation and boil-off continues the part of it the article treats least, from launch-vehicle foam in [Fesmire et al 2011][research_fesmireje_cofmanbe_2011] to zero boil-off storage in [Hastings et al 2001][research_hastings_plachta_2001].
+Its records are listed below under cryogenic insulation, boil-off and propellant management.
 
 ### Cryogenic Hydrogen Beyond Launch Vehicles
 
 **This is the subsection that would have surprised the programme.** The structural problem of holding liquid
-hydrogen in a lightweight conformal vessel is now an aviation problem, as in [Bagarello 2024][research_bagarello_2024], a maritime problem,
-as in [Çetinkaya et al 2026][research_cetinkaya_korkmaz_2026], and a rail problem, as in [Kang et al 2022][research_kang_yun_2022], driven by decarbonisation rather
+hydrogen in a lightweight conformal vessel is now an aviation problem for [Bagarello 2024][research_bagarello_2024], a maritime one
+for [Çetinkaya et al 2026][research_cetinkaya_korkmaz_2026] and a rail one for [Kang et al 2022][research_kang_yun_2022], driven by decarbonisation rather
 than by launch. That work is gathered in the cluster on liquid hydrogen storage for aircraft, ships and road
 vehicles below.
 **The X-33's question is being asked again by people who have never heard of it**, and the constraints are
@@ -1406,26 +1428,26 @@ thrust chambers and a contoured ramp, and what made it expensive in the 1990s wa
 **Additive manufacturing removes most of the reason it was expensive**, which is why the architecture has
 reappeared in small engines rather than in large ones, as in [Peugeot et al 2014][research_peugeotjohn_garciachance_2014] and
 [Whitmore and Armstrong 2019][research_whitmore_armstrong_2019], where the part count is lower and the manufacturing saving is proportionally larger. The
-aerospike literature is gathered in the cluster on aerospike and plug nozzles below.
+aerospike and plug nozzle records below carry that literature.
 
-**That is a different kind of afterlife from the tank's.** The composite cryotank came back because the
+**The tank's afterlife was of a different kind.** The composite cryotank came back because the
 problem was understood better. The aerospike came back because the machine tools changed.
 
 ### Reusability and the Economics That Actually Changed
 
-**The goal the programme was chartered to pursue was achieved by other means, and the modern literature on launch economics and reusability is the record of that.**
+**The goal the programme was chartered to pursue was achieved by other means, and the literature on launch economics and reusability documents that outcome.**
 The cost of reusability was argued in [Keith 1995][research_keith_1995] before the X-33 award, and a fully reusable super-heavy system
-is costed in [Harris et al 2022][research_harris_ledford_2022]. The record is gathered in the cluster on reusability, launch cost
-and operations below.
+is costed in [Harris et al 2022][research_harris_ledford_2022]. The records under reusability, launch cost
+and operations below contain it.
 
 ### Computation, Surrogates and Uncertainty
 
 **A great deal of what the programme had to settle by building could now be examined by computation**, and
-the honest question, which the Where the Framing Breaks Down section raises, is whether the unmodelled
+the fair question, raised in Where the Framing Breaks Down, is whether the unmodelled
 failure mode would have been any more visible to a modern analysis than to a period one. Surrogate and
 reduced-order methods of the kind in [Brevault et al 2019][research_brevault_balesdent_2019] and [Chen et al 2015][research_chen_liu_2015], and uncertainty quantification of
-the kind in [Brevault and Balesdent 2021][research_brevault_balesdent_2021], are applied to whole vehicles, and the structural part of that literature is
-gathered in the cluster on computation, optimisation and uncertainty in structural design below.
+the kind in [Brevault and Balesdent 2021][research_brevault_balesdent_2021], are applied to whole vehicles, and the structural part of that literature
+makes up the cluster on computation, optimisation and uncertainty in structural design below.
 
 ### Sandwich structures, honeycomb cores and the face-to-core bond
 
@@ -1578,7 +1600,7 @@ gathered in the cluster on computation, optimisation and uncertainty in structur
 ### The Single Point of Failure Is a Story, Not an Explanation
 
 **The most common account of the X-33 is that a tank failed and a programme died, and this article has spent considerable effort arguing against that reading while relying on the same tank.**
-The distinction is worth stating carefully.
+The distinction needs care.
 
 **The tank did not fail because it was a tank. It failed because of a chain.** The vehicle must land
 horizontally, so it is a lifting body, so its cross-section is not circular, so the tank must be conformal,
@@ -1586,7 +1608,7 @@ so it must be lobed, so its walls carry bending, so they are sandwiches, so they
 the thing that killed it. **Change any link and the failure mode changes.**
 
 **But the chain is an explanation of the mechanism and not of the cancellation**, and conflating the two is
-the trap. The arithmetic in the section headed What the Data Changed says the programme had a mass problem that the tank failure
+the trap. The arithmetic of What the Data Changed shows that the programme had a mass problem that the tank failure
 did not create and that fixing the tank would not have solved.
 
 ### The Counterfactual That Does Not Work
@@ -1594,7 +1616,7 @@ did not create and that fixing the tank would not have solved.
 **Suppose the tank had not failed.** The composite tanks would have flown, the vehicle would have made some
 number of suborbital flights, and the programme would have declared its technologies demonstrated.
 **And VentureStar's hydrogen tanks would still have been 41 percent of its structural allowance**, by the
-calculation in the section headed What the Data Changed, because that number comes from the tank's mass,
+earlier calculation of the verdict, because that number comes from the tank's mass,
 which was known.
 
 **So the failure did not decide anything that the mass had not already decided.** What the failure did was
@@ -1611,12 +1633,12 @@ cost and risk planning are the subject, is defensible and is
 
 **A second weakness is the treatment of the aerospike.** This article says the engine worked and moves on. A
 propulsion-centred treatment would ask what altitude compensation is worth over a real trajectory rather
-than at two points, and would have to confront the base-flow behaviour of a truncated plug, which is the
-part of the architecture that is genuinely hard and which this article does not attempt.
+than at two points, and would have to confront the base-flow behaviour of a truncated plug, the hard
+part of the architecture, which this article does not attempt.
 
 **A third is that the tank efficiency figure carries the whole verdict.** It rests on a reported tank mass
 of 4,600 pounds and a reported capacity of 29,000 gallons. If either is wrong the verdict moves
-proportionally. The consistency check below is the only defence available and it is a weak one.
+proportionally. The consistency check below is the only defence available, and a weak one.
 
 ### The Numbers That Hold Each Other Up
 
@@ -1627,12 +1649,12 @@ cubic metres, against a total tank capacity of 219.55, so
 
 $$\frac{206.85}{219.55} = 0.942$$
 
-**The implied fill is 94.2 percent**, which is what a cryogenic tank actually carries once ullage is allowed
+**The implied fill is 94.2 percent**, consistent with what a cryogenic tank carries once ullage is allowed
 for.
 
 **Had the fill come out above unity, or below three quarters, one of the three published numbers would have been wrong.**
 It did not, so the tank mass figure that carries the verdict sits inside a set of numbers that are mutually
-consistent. **That is corroboration and not proof, and it is stated as the former.**
+consistent. **That is corroboration and not proof, and the article states it as corroboration.**
 
 ## The Source Base
 
@@ -1673,7 +1695,7 @@ That limitation is stated rather than written around.
 
 ### The Weakest Link in the Source Chain
 
-**The claim that the aluminium-lithium replacement tank weighed less than the composite tank rests on secondary sources**,
+**The claim that the aluminium-lithium tank designed to replace the composite tank would have weighed less than it rests on secondary sources**,
 and the article flags it at the point of use as well as here. It is consistent with the derivation and with
 the reported role of the joints,
 **but consistency with a derivation is not evidence, and a result that agrees with one's own analysis deserves more scepticism rather than less.**
@@ -1739,7 +1761,7 @@ membrane vessel mass law with shape factors of three halves and two is standard 
 ideal tank fractions of 2.852 and 0.342 percent depend on assumed material allowables and are swept. The web
 tension result, that it equals pressure times centre separation, is derived here and its limiting cases
 check.
-**The identity that the membrane mass per unit enclosed volume of a lobed section equals that of a cylinder exactly is derived here, and it is verified to machine precision on the X-33 geometry against numerically obtained area and arc length rather than closed forms.**
+**The identity that the membrane mass per unit enclosed volume of a lobed section equals that of a cylinder exactly is derived here and verified to machine precision on the X-33 geometry against numerically obtained area and arc length rather than closed forms.**
 The cryopumping fill fractions and the constant-volume warming pressure are ideal gas arithmetic. The
 thermal mismatch strain of 1.306 percent and its ratio of 2.18 to the transverse failure strain rest on
 assumed ply properties which are typical rather than measured. The nozzle comparison is ideal
@@ -1752,15 +1774,15 @@ percent is derived from the published speed objectives and is checked forward.
 The position of manufacturing flaws within the investigation's list of five causes is not evidence either
 way,
 **because the published summaries order those five differently and a list of contributing causes is not a ranking.**
-The arithmetic is the whole of the support. It is a strong inference and it is not a finding of the
-investigation.
+The arithmetic is the whole of the support. The inference is strong, but the investigation did not
+state it.
 
 **That the cancellation was decided by mass rather than by the tank failure is an inference**, and the
 Government Accountability Office's programme-management reading is a competing account that the record
 supports at least as well.
 
 **That the linear scale ratio of 1.972 corroborates the half-scale description** is an inference from two
-published masses under a cube law, and a vehicle is not a geometrically similar object.
+masses under a cube law, and a vehicle is not a geometrically similar object.
 
 ### What the Record Does Not Settle
 
@@ -1779,7 +1801,7 @@ and the article says early 2001 rather than choosing.
 
 ## Out of Scope
 
-The base-flow and plume behaviour of a truncated plug nozzle, which is the genuinely difficult part of the
+The base-flow and plume behaviour of a truncated plug nozzle, the difficult part of the
 aerospike architecture. The detailed aerothermodynamics of the lifting-body shape. The guidance and control
 design in any depth. The X-34, which was cancelled alongside the X-33 and which this series treats
 separately. The Space Launch Initiative that followed. The commercial and financial case for VentureStar,
@@ -1789,7 +1811,7 @@ including the market forecasts that underwrote it. The politics of the cancellat
 
 **The X-33 was cancelled because its demonstration worked.**
 
-That is not a paradox and it is not a defence of the programme. A technology demonstrator exists to find out
+That is neither a paradox nor a defence of the programme. A technology demonstrator exists to find out
 whether a technology will do what a vehicle needs.
 **The X-33's tank was built, was tested, and returned an answer**, and the answer was legible in two
 independent ways. It failed in a manner that showed the linerless composite sandwich cryotank of that
@@ -1803,7 +1825,7 @@ Make it conformal, and it must be lobed. Lobe it, and the walls carry bending. C
 is a sandwich. Build a sandwich, and there is a core, and the core is a sealed void against liquid hydrogen
 at twenty kelvin. **Every link is forced by the one before it.**
 
-**And the membrane model, which is the model a designer reaches for, says the whole chain is free.** The
+**And the membrane model, the natural first choice of a designer, finds the whole chain free.** The
 identity derived here is exact. The web costs precisely what the volume it encloses is worth, at every
 radius and every separation.
 **A cost model that returns zero for a decision that turned out to be expensive is not a small problem, and locating the missing terms, namely bending, buckling, minimum gauge and joints, is the practical lesson.**
@@ -1814,7 +1836,7 @@ stiffness from separation rather than from material.
 **One consequence is that a sandwich is very nearly indifferent to how conservative the buckling allowable is, and a metal monocoque is not.**
 Improving a 1968 knockdown factor from 0.2 to 0.5 is worth 103 pounds on these tanks as built and 3,932 on a
 metal monocoque of the same geometry,
-**the second figure being roughly half the entire weight growth that cost the programme its Mach 15 objective.**
+**the second figure being roughly half the weight growth that cost the programme its Mach 15 objective.**
 The architecture that brought the sealed core also bought immunity from an allowance nobody could tighten.
 
 **Set beside the previous article the pair is instructive.** The [X-32][related_post_a329_boeing_x32] was
@@ -1822,7 +1844,7 @@ flown against a rival and could not answer its question, because neither demonst
 bought. The X-33 never flew and could answer its question, because the quantity that mattered was
 scale-invariant and could be weighed on the ground.
 **A vehicle that never left the ground produced a cleaner result than one that flew one hundred and forty-four times**,
-which is a statement about experimental design rather than about either aeroplane.
+and the lesson concerns experimental design rather than either aeroplane.
 
 **The designation went to a vehicle that was never finished, and the programme still found something out.**
 This series has now met a designation marking an absence of demand in the
@@ -1863,8 +1885,11 @@ This series has now met a designation marking an absence of demand in the
 - [Lockheed Martin][ref_lockheed]
 - [Lockheed Martin X-33][ref_x33]
 - [Marshall Space Flight Center][ref_msfc]
+- [Marshall Space Flight Center, NASA, Lockheed Martin Agree On X-33 Plan][ref_msfc_x33_plan]
 - [Marshall Space Flight Center, X-33 Liquid Hydrogen Fuel Tank Ready for Tests][ref_msfc_tank_release]
+- [Marshall Space Flight Center, X-33 Liquid Oxygen Tank Successfully Completes Stress Tests][ref_msfc_lox_tank]
 - [Mital and others, Review of Current State of the Art and Key Design Issues for Liquid Hydrogen Cryogenic Storage Tank Structures][ref_cryotank_review]
+- [NASA, F-15B Flight Test Fixture Tests X-33 Thermal Protection System][ref_f15b_tps]
 - [NASA, X-33 Advanced Technology Demonstrator, Historical Fact Sheet][ref_x33_factsheet]
 - [Niedermeyer and Munafo, Findings from the X-33 Hydrogen Tank Failure Investigation][ref_tank_findings]
 - [Propellant mass fraction][ref_massfraction]
@@ -1881,9 +1906,10 @@ This series has now met a designation marking an absence of demand in the
 
 [ref_aerospike]: https://en.wikipedia.org/wiki/Aerospike_engine
 [ref_alli]: https://en.wikipedia.org/wiki/Aluminium%E2%80%93lithium_alloy
-[ref_astronautix_x33]: https://web.archive.org/web/20170215232405/http://www.astronautix.com/lvs/x33.htm
+[ref_astronautix_x33]: https://web.archive.org/web/20161228051856/http://astronautix.com/x/x-33.html
 [ref_cryopumping]: https://en.wikipedia.org/wiki/Cryopump
 [ref_cryotank_review]: https://ntrs.nasa.gov/citations/20060056194
+[ref_f15b_tps]: https://www.nasa.gov/image-article/f-15b-flight-test-fixture-tests-x-33-thermal-protection-system/
 [ref_gao_x33]: https://www.gao.gov/products/nsiad-99-176
 [ref_gao_x33x34]: https://www.gao.gov/products/gao-01-1041r
 [ref_huzel]: https://ntrs.nasa.gov/citations/19710019929
@@ -1892,7 +1918,9 @@ This series has now met a designation marking an absence of demand in the
 [ref_lockheed]: https://en.wikipedia.org/wiki/Lockheed_Martin
 [ref_massfraction]: https://en.wikipedia.org/wiki/Propellant_mass_fraction
 [ref_msfc]: https://en.wikipedia.org/wiki/Marshall_Space_Flight_Center
+[ref_msfc_lox_tank]: https://www.sciencedaily.com/releases/1999/05/990507122929.htm
 [ref_msfc_tank_release]: https://www.sciencedaily.com/releases/1999/09/990907184721.htm
+[ref_msfc_x33_plan]: https://www.sciencedaily.com/releases/2000/09/000929165110.htm
 [ref_reeder_tank_failure]: https://ntrs.nasa.gov/citations/20200006060
 [ref_rlv]: https://en.wikipedia.org/wiki/Reusable_launch_vehicle
 [ref_rocketeq]: https://en.wikipedia.org/wiki/Tsiolkovsky_rocket_equation

@@ -12,12 +12,14 @@ series_index: 29
 <!-- A325 -->
 <script>console.log("A325");</script>
 
-The [Osprey X-28A][ref_x28] cost less than five thousand dollars, and
+The [Osprey X-28A][ref_x28] was to cost less than five thousand dollars a copy, and
 **that was not a happy accident of procurement. It was the requirement.** The [United States Navy][ref_usn]
 study that led to it asked for an aircraft that could patrol under visual flight rules, be trailered behind
 a vehicle, be built in Southeast Asia, work out of canals as narrow as twenty-five feet, and
-**cost under five thousand dollars**. Four of those five are not flight requirements at all. This is the
-twenty-ninth article in the [X-Planes series][related_post_a297_xplanes_framing], following the
+**cost under five thousand dollars** when bought in quantity, as [Tails Through Time][ref_tails_x28] and
+[Jenkins, Landis and Miller][ref_xvehicles] between them record. Four of those five are not flight
+requirements at all. This is the twenty-ninth article in the
+[X-Planes series][related_post_a297_xplanes_framing], following the
 [X-1][related_post_a298_bell_x1], the [X-2][related_post_a299_bell_x2], the
 [X-3][related_post_a300_douglas_x3], the [X-4][related_post_a301_northrop_x4], the
 [X-5][related_post_a302_bell_x5], the [X-6][related_post_a303_convair_x6], the
@@ -34,12 +36,14 @@ twenty-ninth article in the [X-Planes series][related_post_a297_xplanes_framing]
 [X-27][related_post_a324_lockheed_x27].
 
 **It is the exact complement of the article before it.** The [X-27][related_post_a324_lockheed_x27] was a
-supersonic fighter that cost a fortune to develop and was never built at all. The X-28 was a homebuilt
-flying boat that a man in Sacramento designed for the sport market, and the Navy bought the actual
-aeroplane, put it on the Delaware River, and flew it for five weeks.
+supersonic fighter for which no money was appropriated and which was never built beyond a mock-up. The
+X-28 was a homebuilt flying boat that a man in Sacramento designed for the sport market, and the Navy
+bought the actual aeroplane, put it on the Delaware River, and flew it for five weeks, as
+[Tails Through Time][ref_tails_x28] records.
 
-**And the two aircraft were bought for the same war.** The X-26B, two articles ago, was flown over the
-Mekong Delta at night, made expensive so that it could be silent. The X-28 was intended for the same
+**And the two aircraft were bought for the same war.** The [X-26B][related_post_a323_schweizer_x26], two
+articles ago, was flown over the Mekong Delta at night, made expensive so that it could be silent. The
+X-28 was intended, in [its maker's account][ref_osprey_aircraft_x28], for reconnaissance over the same
 [Mekong Delta][ref_mekong] waters, made cheap so that there could be many.
 **One programme spent money to remove a signature and the other refused to spend money at all**, and both
 were answers to the same question about watching somebody else's rivers.
@@ -49,8 +53,8 @@ were answers to the same question about watching somebody else's rivers.
 
 ## The Research Question
 
-**The binding constraint is a price, and it is stated as a number.** That is unusual enough to be worth
-dwelling on. Most research aircraft exist to measure something nobody has measured. This one existed to find
+**The binding constraint is a price, and the requirement states it as a number.** Few research aircraft
+begin that way. Most exist to measure something nobody has measured. This one existed to find
 out what five thousand dollars buys.
 
 So the keystone is not aerodynamic.
@@ -61,63 +65,69 @@ and whether the physics permits the answer to be yes.
 
 Of the five requirements, one turns out to have determined the shape of the aircraft.
 
-**The aircraft had to work from canals as little as twenty-five feet wide. Its wingspan is twenty-three feet.**
+**The aircraft had to work from [canals as little as twenty-five feet wide][ref_tails_x28]. Its [wingspan is twenty-three feet][ref_x28].**
 
 $$ \text{clearance each side} = \tfrac{1}{2}\left(25 - 23\right) = 1\ \mathrm{ft} = 12\ \mathrm{in} $$
 
-**Twelve inches on each side.** The span was not chosen for lift or for induced drag. It was chosen so that
-the aeroplane would fit down a ditch, and everything aerodynamic follows from that.
+**Twelve inches on each side.** On this reading the span was not chosen for lift or for induced drag. It
+was chosen so that the aeroplane would fit down a ditch, and everything aerodynamic follows from that.
 
 The [aspect ratio][ref_aspect_ratio] is the span squared over the area.
 
 $$ A = \frac{b^2}{S} = \frac{(23.0\ \mathrm{ft})^2}{97.0\ \mathrm{ft}^2} = 5.454 $$
 
-That is a respectable number for a light aircraft and a poor one for a patrol aircraft, because
-**endurance is what a patrol aircraft sells and endurance wants span.** The article computes what the canal
-cost in exactly that currency.
+The figure is respectable for a light aircraft and poor for a patrol aircraft, because
+**endurance is what a patrol aircraft sells and endurance wants span.** The calculation below prices the
+canal in that currency.
 
 ### Why This Is the Right Keystone
 
-The obvious alternative is to make the hull the keystone, since the aircraft is a flying boat and the
-hydrodynamics is where the interesting physics usually lives.
-**That is treated at length below and the answer is that the hull was never the problem**, because an
-aircraft this light gets over its own resistance hump with an enormous margin.
+The obvious alternative is to make the hull the keystone, since the aircraft is a flying boat and its
+hydrodynamics usually hold the interesting physics.
+**The hull is treated at length below, and it was never the problem**, because an
+aircraft this light gets over its resistance hump with an enormous margin.
 
 **A keystone should be the thing that was actually binding.** For this aircraft the water was easy and the
 ditch was hard.
 
 ## Programme Origin
 
-The programme has two origins that met by accident, and the meeting is what makes it a strange aeroplane.
+The programme has two origins that met by accident, and their meeting made it a strange aeroplane.
 
 ### The Sport Aircraft
 
 **[George Pereira][ref_pereira] designed boats for a living and aeroplanes for pleasure.** In 1969, in
 Sacramento, California, he began the Osprey I, a single-seat [flying boat][ref_flying_boat] for the growing
-homebuilt market. It first flew on **12 August 1970** over the Sacramento Delta.
+homebuilt market, as [Tails Through Time][ref_tails_x28] records. [Jenkins, Landis and Miller][ref_xvehicles] date its first flight to **12 August 1970**, and its
+initial test flights were over the Sacramento Delta.
 
-It was built of **wood, fibreglass and expanded polystyrene**, had folding wings and an open cockpit,
-weighed nine hundred pounds with full fuel, and was designed to be launched single-handed from a trailer.
+It was built of **wood, fibreglass and expanded polystyrene**, had folding wings and an open cockpit, and
+weighed nine hundred pounds with full fuel, by the account in [Tails Through Time][ref_tails_x28], and its
+plans included a trailer from which [one person could launch and recover it][ref_x28].
 **None of that was a military specification. All of it turned out to match one.**
 
 ### The Navy Study
 
 The [Naval Air Development Center][ref_nadc] at Warminster, Pennsylvania, had been studying patrol
-requirements for Southeast Asia. What the study asked for was an aircraft that could be flown under
-[visual flight rules][ref_vfr] by pilots of limited experience, be manufactured locally, be moved by trailer
-at under a thousand pounds, operate from canals as little as twenty-five feet wide, and cost under five
-thousand dollars.
+requirements for Southeast Asia. In the list [Jenkins, Landis and Miller][ref_xvehicles] give, the study
+asked for an aircraft that could be flown under [visual flight rules][ref_vfr] by easily trained pilots, be
+manufactured locally, and cost under five thousand dollars when bought in quantity.
+[Tails Through Time][ref_tails_x28] adds that it had to be movable by trailer at under a thousand pounds
+and to operate from canals as little as twenty-five feet wide.
 
-**Naval officers saw Pereira demonstrate the Osprey and recognised their own requirements document.** The
-Navy bought the aircraft and its trailer on **27 July 1971**, designated it X-28A, and ran the evaluation
-under the name **Project Air Skimmer**.
+**Navy officials asked Pereira for a demonstration of the Osprey in 1971 and found their own requirements in it.**
+The Navy bought the aircraft and its trailer on **27 July 1971**, as [Tails Through Time][ref_tails_x28]
+reports, designated it X-28A, and ran the evaluation under the name **Project Air Skimmer**, which
+[Jenkins, Landis and Miller][ref_xvehicles] call the Air Skimmer program.
 
-### What the Names Mean, Because the Sources Disagree
+### What the Names Mean When the Sources Disagree
 
-**The aircraft is called several things and the record does not keep them straight.** Osprey I is Pereira's
-designation for the homebuilt. Sea Skimmer and Air Skimmer attach variously to the aircraft and to the Navy
-project. Some sources credit the design of a Sea Skimmer variant to **Eut Tileston** working under contract
-to Pereira.
+**The aircraft is called several things and the record does not keep them straight.** Osprey I is the name
+the homebuilt took [retrospectively][ref_x28], once Pereira's Osprey II existed. Sea Skimmer and Air Skimmer
+attach variously to the aircraft and to the Navy project, the [encyclopaedia entry][ref_x28] using both for
+the aircraft and [Jenkins, Landis and Miller][ref_xvehicles] using Air Skimmer for the programme. Some
+sources, the [same entry][ref_x28] among them, credit the design of the aircraft itself to **Eut Tileston**
+working under contract to Pereira.
 
 **This article treats the aeroplane the Navy bought as Pereira's Osprey I and does not attempt to adjudicate the naming**,
 because the sources that disagree are all secondary and none of them shows its working.
@@ -143,7 +153,7 @@ because the sources that disagree are all secondary and none of them shows its w
 | Service ceiling | 18,000 ft |
 | Construction | wood, fibreglass, expanded polystyrene |
 
-The two loadings are worth writing down, because between them they explain most of what follows, and they
+The two loadings come first, because between them they explain most of what follows, and they
 are the first two numbers any of the sizing texts asks for, in [Raymer][book_raymer],
 [Torenbeek][book_torenbeek] and [Gudmundsson][book_gudmundsson].
 
@@ -159,10 +169,10 @@ $$ \frac{W_{\mathrm{empty}}}{W_{\mathrm{gross}}} = \frac{600}{900} = 0.667, \qqu
 **Two numbers in that table are the whole aeroplane.**
 
 **The wing loading is 9.28 pounds per square foot**, which is about a tenth of the
-[X-27's][related_post_a324_lockheed_x27] eighty-one. **The power loading is ten pounds per horsepower**,
-which is better than many aerobatic aircraft. An aeroplane this light with this much wing and this much
-power relative to its weight is capable out of all proportion to its price, and that is the finding the Navy
-was testing.
+[X-27's][related_post_a324_lockheed_x27] eighty-one. **The power loading is ten pounds per horsepower.**
+An aeroplane this light with this much wing and this much
+power relative to its weight is capable out of all proportion to its price, and the Navy's evaluation was a
+test of that proposition.
 
 ## Sizing From First Principles
 
@@ -183,8 +193,9 @@ $$ L = \tfrac{1}{2}\rho V^2 S\,C_L, \qquad V_{\mathrm{stall}} = \sqrt{\frac{2W}{
 
 $$ C_{L_{\max}} = \frac{2W}{\rho\,S\,V_{\mathrm{stall}}^2} = \frac{2 \times 4{,}003}{1.225 \times 9.011 \times (24.69)^2} = 1.189 $$
 
-**That is an entirely ordinary number for an unflapped wing**, which is what the aircraft has, and its
-ordinariness is the point. The inversion returns something plausible, so the quoted minimum speed and the
+**The coefficient is ordinary for a light-aircraft wing**, although
+[Jenkins, Landis and Miller][ref_xvehicles] describe flaps and ailerons along almost the whole trailing
+edge, and its ordinariness is the point. The inversion returns something plausible, so the quoted minimum speed and the
 quoted weight and area are mutually consistent.
 
 ### The Drag Polar, Built Rather Than Inverted
@@ -214,10 +225,10 @@ $$ e = 0.886, \qquad K = \frac{1}{\pi \times 5.454 \times 0.886} = 0.0659 $$
 
 $$ \left(\frac{L}{D}\right)_{\max} = \frac{1}{2}\sqrt{\frac{\pi A e}{C_{D_0}}} = \frac{1}{2}\sqrt{\frac{\pi \times 5.454 \times 0.886}{0.0331}} = 10.71 $$
 
-**Ten point seven is modest**, which is what a hull costs. A landplane of the same span and weight would
-reach fourteen or fifteen.
+**Ten point seven is modest**, and the hull accounts for the shortfall. Without the hull increment the same estimate
+gives twelve point eight.
 
-### The Climb Claim, Which Has No Room in It
+### No Room in the Climb Claim
 
 The quoted rate of climb is 2,200 feet per minute, which for a nine-hundred-pound aeroplane with ninety
 horsepower deserves checking. **Power available divided by weight is an absolute ceiling on rate of climb**,
@@ -237,23 +248,23 @@ propeller efficiency the claim would require against the drag polar built above,
 $$ \eta_p^{\mathrm{req}} = \min_V \frac{W\,\dot h + D(V)\,V}{P} = 0.823 $$
 
 **Eighty-two percent is achievable by a well-matched fixed-pitch propeller at climb speed and is toward the top of the range.**
-The honest verdict is that the figure is reachable under favourable assumptions and is the one published
-number with no margin in it.
+On balance the figure is reachable under favourable assumptions. Of the published numbers, it alone has
+no margin in it.
 
 **Inverting the other way makes the point sharper.** If the propeller is taken at 0.75 and the climb figure
 is believed, the drag it implies is
 
 $$ C_{D_0} = 0.0050 $$
 
-which is a quarter of a clean sailplane's and impossible for a hull with a step in it.
+which is impossible for a hull with a step in it.
 **The inversion is not wrong. Its premise is.** One of the three quantities, the climb rate, the weight or
 the power, is not what the table says it is, and the most likely candidate is that the climb figure was
 measured light.
 
 ### What the Canal Cost
 
-**This is the article's central calculation.** The span was set by a ditch. The question is what that cost
-in the currency the mission actually valued.
+**The canal calculation is the centre of the article.** If the span was set by a ditch, the question is
+what that cost in the currency the mission valued.
 
 A patrol aircraft's endurance is set by the power required at its loiter speed, and the power required is
 minimised at a speed which follows from the polar.
@@ -269,17 +280,17 @@ $$ E = \frac{W_{\mathrm{fuel}}}{c\,P_{\mathrm{shaft}}} $$
 $$ V_{\mathrm{mp}} = 47.2\ \mathrm{kt}, \qquad V_{\mathrm{stall}} = 48.0\ \mathrm{kt}, \qquad \frac{V_{\mathrm{mp}}}{V_{\mathrm{stall}}} = 0.984 $$
 
 **The minimum-power speed lies below the stall speed.** The endurance optimum is not reachable. The aircraft
-cannot fly slowly enough to reach the bottom of its own power curve, so its loiter speed is set by a stall
+cannot fly slowly enough to reach the bottom of its power curve, so its loiter speed is set by a stall
 margin rather than by the power required, and every hour it spends on patrol is spent somewhat off the
 optimum.
 
-**That is a direct consequence of the two constraints acting together.** The trailer limit forced the weight
+**It follows directly from the two constraints acting together.** The trailer limit forced the weight
 down, which forced the wing loading down, which pushed the stall speed down. The canal forced the span down,
 which pushed the induced drag up and the minimum-power speed down further.
 **The two requirements pushed the same two speeds toward each other until they crossed.**
 
-Taking a stall margin of twenty percent, which is the least a patrol pilot would accept, and ninety pounds
-of fuel, which the record does not give and which is stated as an assumption,
+Taking a stall margin of twenty percent, the least a patrol pilot would accept, and ninety pounds
+of fuel, an unpublished figure stated here as an assumption,
 
 | Loiter speed | Drag | Shaft power | Endurance | Range |
 |---|---|---|---|---|
@@ -288,7 +299,7 @@ of fuel, which the record does not give and which is stated as an assumption,
 | 1.3 $V_s$, 62.4 kt | 84.0 lbf | 21.5 hp | 8.39 h | 523 nmi |
 | 1.5 $V_s$, 72.0 kt | 87.7 lbf | 25.8 hp | 6.97 h | 502 nmi |
 
-Range follows from endurance and speed, and the loiter speed itself follows from a stall margin rather than
+Range follows from endurance and speed, and the loiter speed follows from a stall margin rather than
 from the power curve, for the reason just given. The propeller-aircraft endurance relations are as given in
 [Torenbeek][book_torenbeek] and [Gudmundsson][book_gudmundsson].
 
@@ -296,8 +307,8 @@ $$ R = E\,V_{\mathrm{loiter}}, \qquad V_{\mathrm{loiter}} = k\,V_{\mathrm{stall}
 
 $$ R = 8.98\ \mathrm{h} \times 57.6\ \mathrm{kt} = 517\ \mathrm{nmi} $$
 
-**Nine hours is a great deal of patrol from ninety pounds of fuel**, and it is worth saying so before the
-criticism arrives. Twenty horsepower of ninety installed is what the aeroplane needs to loiter, which is the
+**Nine hours is a great deal of patrol from ninety pounds of fuel**, a point to make before the
+criticism arrives. The aeroplane needs twenty of its ninety installed horsepower to loiter, the
 same margin the [X-26B][related_post_a323_schweizer_x26] exploited two articles ago for a different purpose.
 
 Now the counterfactual. Holding the wing area, the weight and the polar fixed and varying only the span,
@@ -309,35 +320,35 @@ Now the counterfactual. Holding the wing area, the weight and the polar fixed an
 | 30 ft | 9.28 | 11.08 h | +23.3 percent |
 | 34 ft | 11.92 | 11.63 h | +29.5 percent |
 
-**A thirty-foot span, which a thirty-two-foot canal would pass, buys a little under a quarter more endurance.**
-That is the price of the ditch, a real price rather than a rhetorical one.
+**A thirty-foot span, which a thirty-two-foot canal would pass, gains a little under a quarter more endurance.**
+The ditch cost that much, a real price rather than a rhetorical one.
 
-**But it is also a price worth paying and the article should say so.** A twenty-three foot span fits a
+**But the price was worth paying.** A twenty-three foot span fits a
 twenty-five foot canal, and a thirty-foot span does not.
 **An aircraft with twenty-three percent more endurance that cannot reach the water it is meant to patrol has no endurance at all.**
 The constraint was not stupid. It was expensive, and the requirement made the trade deliberately.
 
-The literature on light-aircraft performance, drag estimation and endurance flying is where these relations
-come from.
+These relations come from the literature on light-aircraft performance, drag estimation and endurance
+flying.
 
 - [Air Force Test Pilot School Edwards Afb Ca 1969][research_airforcetestpilotschooledwardsafbca_1969]
 - [Smith 1977][research_smith_1977]
 - [Crombie and Moorhouse 1980][research_crombie_moorhouse_1980]
 - [Tseng et al 2006][research_tsengchris_guptapramod_2006]
 
-### Search, Which Is What the Aeroplane Actually Delivers
+### Search as the Aeroplane's Product
 
-The mathematics of this section is [Koopman's][book_koopman], developed for exactly this problem during the
+The mathematics of this section is [Koopman's][book_koopman], developed for this problem during the
 Second World War, with the modern treatment in [Stone][book_stone].
 
-**A patrol aircraft's product is area examined per hour**, which is what [search theory][ref_search_theory]
-exists to quantify, and that is a computable quantity with its own well-developed mathematics.
+**A patrol aircraft's product is area examined per hour.** [Search theory][ref_search_theory] exists to
+quantify it, and has a well-developed mathematics for the purpose.
 
 $$ \dot{A} = W_{\mathrm{sweep}}\,V $$
 
 **The [sweep width][ref_sweep_width] is not the sighting range and the difference matters by a factor of two.**
 Sweep width is the width of a hypothetical perfect sensor that would find as many targets as the real
-imperfect one, which is the integral of the lateral-range curve.
+imperfect one. It equals the integral of the lateral-range curve.
 
 $$ W_{\mathrm{sweep}} = 2\int_0^{\infty} p(x)\,dx $$
 
@@ -346,7 +357,7 @@ is exactly twice the radius. **Every real curve lies below that**, so
 
 $$ W_{\mathrm{sweep}} = \varphi \cdot 2R_{\max}, \qquad 0 < \varphi \le 1 $$
 
-and $\varphi$ is where the honesty lives.
+and the honesty lives in $\varphi$.
 **A sweep width larger than twice the sighting range is therefore impossible**, and any coverage figure
 built on one is inflated.
 
@@ -361,12 +372,12 @@ The random-search law and the coverage factor are [Koopman's][book_koopman], wit
 [Stone][book_stone].
 
 **A sweep width is only half the answer.** What a commander wants is the probability that a target present
-in the area was found, and for a search whose track spacing is not controlled that is the random-search law,
-which follows from treating each element of area as independently exposed.
+in the area was found, and for a search whose track spacing is not controlled the random-search law gives it,
+by treating each element of area as independently exposed.
 
 Detection probability, the lateral-range curve and the random-search law are an operations-research
-literature contemporary with the programme, and the period work is where the visual-detection figures a
-patrol aircraft was actually planned around come from.
+literature contemporary with the programme, and the visual-detection figures a patrol aircraft was
+planned around are period results.
 
 - [Swets et al 1955][research_swets_tanner_1955]
 - [Green 1958][research_green_1958]
@@ -401,34 +412,35 @@ $$ C_{\mathrm{cov}} = \frac{W_{\mathrm{sweep}}\,V\,t}{A_{\mathrm{search}}}, \qqu
 
 $$ P_{\mathrm{det}}(C_{\mathrm{cov}} = 1) = 1 - e^{-1} = 0.632 $$
 
-That exponential is the reason patrol aircraft are bought in numbers rather than singly, and it is the
+That exponential explains why patrol aircraft are bought in numbers rather than singly. It is also the
 quantitative form of the argument the next section makes in dollars.
 
-**The tested altitude was three hundred feet**, restricted by airspace around Philadelphia rather than by
+**The tested altitude was three hundred feet**, restricted by [airspace around Philadelphia][ref_tails_x28] rather than by
 the aircraft. The geometric horizon there is 20.3 nautical miles, which
 **bounds the sweep width and does not set it**, because a sampan is not visible at the horizon.
 
 $$ d_{\mathrm{horizon}} \approx 1.17\sqrt{h_{\mathrm{ft}}} = 1.17\sqrt{300} = 20.3\ \mathrm{nmi} $$
 
-The search-theory literature, which is where sweep width and the lateral-range curve come from, is largely
-operations-research work and much of it is contemporary with the programme. The records are collected under The Contemporary Literature, in the cluster on search theory, visual detection and sweep width.
+Sweep width and the lateral-range curve are products of the search-theory literature, largely
+operations-research work and much of it contemporary with the programme. Its records form the cluster on search theory, visual detection and sweep width under The Contemporary Literature.
 
-### Area Per Dollar, Which Is the Only Comparison the Requirement Permits
+### Area Per Dollar as the Only Permitted Comparison
 
 **A five-thousand-dollar aeroplane loses every comparison except one.** It is slower, it carries less, it
 flies in worse weather not at all, and it sees only what a pilot can see. The comparison the requirement
 asks for is area examined per hour per dollar spent.
 
-The quantity being compared is a rate divided by a price, and the fleet form of it is what the requirement
-was actually asking about.
+The quantity being compared is a rate divided by a price, and the requirement
+was asking about its fleet form.
 
 $$ \frac{\dot{A}}{C} = \frac{W_{\mathrm{sweep}}\,V}{C}, \qquad N = \frac{B}{C}, \qquad \dot{A}_{\mathrm{fleet}} = N\,W_{\mathrm{sweep}}\,V = B\,\frac{\dot{A}}{C} $$
 
 **The fleet coverage is the budget multiplied by the area per dollar**, which is why that ratio is the
-figure of merit and not the coverage rate on its own.
+figure of merit and not the coverage rate alone.
 
 **Each aircraft is given its own sweep width, because giving them the same one is not a comparison.** A
-maritime patrol aircraft carries search radar. The X-28A carried a man looking out of an open cockpit.
+maritime patrol aircraft carries search radar. The X-28A carried a man looking out of an
+[open cockpit][ref_pereira].
 
 | Aircraft | Speed | Sweep width | Coverage | Unit cost | Area per $1,000 |
 |---|---|---|---|---|---|
@@ -447,25 +459,25 @@ $$ \frac{741{,}600}{6{,}560} = 113 $$
 **The X-28A is about a hundred and thirteen times better per dollar than the Orion, after giving the Orion a twenty-mile radar sweep against the Osprey's one-mile eyeball.**
 The Orion covers sixty-four times the area per hour and costs seven thousand two hundred times as much.
 
-**That ratio is the entire argument for the programme, and it is worth being careful about what it does not say.**
+**The ratio is the entire argument for the programme, so what it does not say matters.**
 It does not say an Orion is bad value, because an Orion flies at night, in weather, for thousands of miles,
 with a crew and sensors and weapons, over ocean where no canal exists.
 **It says that for a particular mission over particular water in daylight, buying seven thousand small aeroplanes would examine more water than buying one large one.**
-Whether seven thousand pilots existed is a different question and the article does not pretend otherwise.
+Whether seven thousand pilots existed is a different question, which this calculation leaves open.
 
-The literature on cost-effectiveness analysis, operating cost and the economics of military aircraft is
-where this comparison's method comes from. The records are collected under The Contemporary Literature, in the cluster on cost-effectiveness, affordability and design to cost.
+This comparison borrows its method from the literature on cost-effectiveness analysis, operating cost and the
+economics of military aircraft. The Contemporary Literature lists its records in the cluster on cost-effectiveness, affordability and design to cost.
 
 ## Dependent Systems
 
-**Every system below is dimensioned against a constraint that is not aerodynamic**, which is what makes this
+**Every system below is dimensioned against a constraint that is not aerodynamic**, a fact that makes this
 aircraft unusual to write about.
 
-### The Hull, Which Was Never the Problem
+### The Hull Was Never the Problem
 
 The planing hydrodynamics below follows [Savitsky and the planing-hull literature][book_savitsky].
 
-A flying boat must exceed its own water resistance to take off, and that resistance peaks near the
+A flying boat must exceed its water resistance to take off, and that resistance peaks near the
 [planing][ref_planing] transition at what the [Langley tank][ref_naca_tank] literature calls the hump.
 **For most flying boats the hump is the design driver**, the reason they carry so much power.
 
@@ -475,7 +487,7 @@ Static thrust cannot be found from a propulsive efficiency, because that quantit
 speed. [Momentum theory][ref_momentum_theory] gives the scaling.
 
 Actuator-disc theory, disc loading and the induced velocity behind a propeller are the mechanism this
-section uses, and the literature under those names is where it is derived and measured.
+section uses, and the literature under those names derives and measures it.
 
 - [Stuper 1938][research_stuperj_1938]
 - [Coward 1955][research_coward_1955]
@@ -489,8 +501,8 @@ section uses, and the literature under those names is where it is derived and me
 
 $$ T_{\mathrm{static}} = \left(2\rho A_{\mathrm{disc}} P^2\right)^{1/3} $$
 
-The same momentum balance gives the disc loading and the velocity the propeller must add to the air, which
-is what makes the static case computable at all.
+The same momentum balance gives the disc loading and the velocity the propeller must add to the air.
+Without it the static case could not be computed at all.
 
 $$ \frac{T}{A_{\mathrm{disc}}} = 21.9\ \mathrm{lb/ft^2}, \qquad w = \sqrt{\frac{T}{2\rho A_{\mathrm{disc}}}} = 20.7\ \mathrm{m/s} $$
 
@@ -506,11 +518,11 @@ $$ \frac{T}{A_{\mathrm{disc}}} = 21.9\ \mathrm{lb/ft^2}, \qquad w = \sqrt{\frac{
 | 0.20 | 180 lbf | 3.44 |
 | 0.25 | 225 lbf | 2.75 |
 
-**The margin is between two and a half and four and a half to one across the whole plausible range.** The
+**The margin is between two and a half and four and a half to one across the plausible range.** The
 aeroplane walks over its hump.
-**A flying boat's characteristic difficulty simply does not apply at ten pounds per horsepower**, and the
-reason the article can say this without knowing the hull's beam, its [deadrise][ref_deadrise] or its
-resistance curve is that the conclusion holds across every value either could take.
+**A flying boat's characteristic difficulty does not apply at ten pounds per horsepower**, and this
+holds without knowing the hull's beam, its [deadrise][ref_deadrise] or its resistance curve, because the
+conclusion survives every value they could take.
 
 The beam loading coefficient is the parameter every tank test is indexed by, and it is reported
 parametrically for the same reason.
@@ -520,16 +532,16 @@ $$ C_{\Delta_0} = \frac{\Delta}{\gamma_w b^3} $$
 The displacement and the Froude scaling below are standard naval architecture, as set out in the
 planing-hull literature collected in [Savitsky][book_savitsky].
 
-The displacement itself follows from Archimedes, and comes to a small volume of water.
+The displacement follows from Archimedes, and comes to a small volume of water.
 
 $$ \nabla = \frac{\Delta}{\rho_w g} = \frac{4{,}003}{1025 \times 9.807} = 0.398\ \mathrm{m^3} = 14.1\ \mathrm{ft^3} $$
 
-The speed at which a hull transitions from displacing to planing is set by the beam Froude number, which is
-the parameter the hump occurs at a fixed value of.
+The speed at which a hull transitions from displacing to planing is set by the beam Froude number, and the
+hump occurs at a fixed value of that parameter.
 
 The Froude number, the hump and the transition from displacement to planing are the vocabulary the tank
-literature indexes this problem by, and the period work is where the hump resistance ratios used above come
-from.
+literature indexes this problem by, and the hump resistance ratios used above are taken from the period
+work.
 
 - [Cumberbatch 1958][research_cumberbatch_1958]
 - [Wu and Landweber 1963][research_wu_landweber_1963]
@@ -547,9 +559,9 @@ $$ \mathrm{Fr}_b = \frac{V}{\sqrt{g\,b}} $$
 | 0.5 $V_s$, 24.0 kt | 4.52 |
 | 0.7 $V_s$, 33.6 kt | 6.32 |
 
-**The hump for a hull of this loading falls in the lower part of that range**, which is well below the speed
-at which the wing is carrying any useful share of the weight, and the reason the thrust margin computed
-above is the whole of the answer.
+**The hump for a hull of this loading falls in the lower part of that range**, well below the speed
+at which the wing carries any useful share of the weight. For that reason the thrust margin computed
+above settles the question.
 
 | Beam | $C_{\Delta_0}$ |
 |---|---|
@@ -560,7 +572,7 @@ above is the whole of the answer.
 The tank-test literature behind all of this is one of the most completely documented experimental programmes
 in aeronautics, and almost all of it is period work. The records are collected under The Contemporary Literature, in the cluster on flying-boat hulls, planing and the towing tank.
 
-### Sea State, Which Was the Real Water Limit
+### Sea State as the Real Water Limit
 
 **What limits a small flying boat is not resistance but waves.** A hull is safe while it is long compared
 with the waves it meets and dangerous when it begins to span them.
@@ -574,14 +586,14 @@ $$ \lambda = \frac{g T^2}{2\pi} $$
 | 4.0 s | 81.9 ft | 0.211 |
 | 5.0 s | 128.0 ft | 0.135 |
 
-**At a two-second period the hull is spanning most of a wavelength**, which is the condition in which a
+**At a two-second period the hull is spanning most of a wavelength**, the condition in which a
 seaplane hull begins to be thrown rather than to ride. A two-second sea is a modest chop.
-**The aircraft was for canals and rivers, and this table is the reason.**
+**The aircraft was for canals and rivers, and this table explains why.**
 
-The literature on water impact loads, rough-water operation and hull seaworthiness is where the limit is
-documented.
+The limit is documented in the literature on water impact loads, rough-water operation and hull
+seaworthiness.
 
-Porpoising and the trim limits of stability are the other half of that subject, and they are what decided
+Porpoising and the trim limits of stability are the other half of that subject, and they decided
 whether a hull could be flown off at all.
 
 - [Naval Academy Annapolis Md 1998][research_navalacademyannapolismd_1998]
@@ -605,9 +617,10 @@ whether a hull could be flown off at all.
 
 ### Propulsion
 
-A ninety-horsepower Continental C90-12, a four-cylinder horizontally opposed air-cooled engine of the kind
-fitted to light aircraft in tens of thousands. The propeller is characterised by its advance ratio, and by
-the helical speed of its tip, which is what limits how fast it may be turned.
+A ninety-horsepower Continental C90-12, a [four-cylinder horizontally opposed air-cooled engine][ref_continental]
+of the kind fitted to many light aircraft, among them the Piper Super Cub and the Cessna 150. The propeller
+is characterised by its advance ratio, and by the helical speed of its tip, which limits how fast it
+may be turned.
 
 Propeller charts, blade-element theory and the tip-speed limit are among the oldest quantitative subjects in
 the field, and almost all of the work behind the relations below is period work.
@@ -625,27 +638,27 @@ the field, and almost all of the work behind the relations below is period work.
 
 $$ J = \frac{V}{n D}, \qquad V_{\mathrm{tip}} = \sqrt{(\pi n D)^2 + V^2}, \qquad M_{\mathrm{tip}} = \frac{V_{\mathrm{tip}}}{a} $$
 
-At cruise, with a six-foot propeller at 2,700 revolutions per minute,
+At cruise, with an assumed six-foot propeller at 2,700 revolutions per minute,
 
 $$ J = \frac{53.0}{45.0 \times 1.829} = 0.644, \qquad V_{\mathrm{tip}} = 263.9\ \mathrm{m/s}, \qquad M_{\mathrm{tip}} = 0.776 $$
 
-**Under Mach 0.8 at the tip is exactly where a fixed-pitch propeller wants to be**, and it is the reason the
-diameter and the engine speed are what they are.
+**A fixed-pitch propeller wants a tip Mach number under 0.8**, and that limit fixes the
+diameter and the engine speed.
 
 $$ \eta_p = \frac{T V}{P_{\mathrm{shaft}}} $$
 
-**The engine is the single most conventional thing about the aeroplane, and that is a design decision rather than an omission.**
+**The engine is the most conventional thing about the aeroplane, by design rather than by omission.**
 An aircraft required to be manufacturable in Southeast Asia and maintainable by whoever is there cannot
-carry an engine that only one factory understands. The records are collected under The Contemporary Literature, in the cluster on propellers, momentum theory and the light-aircraft engine.
+carry an engine that only one factory understands. Its literature appears under The Contemporary Literature as the cluster on propellers, momentum theory and the light-aircraft engine.
 
 ### Structure
 
-**Wood, fibreglass and expanded polystyrene.** This is the requirement for local manufacture expressed as a
+**Wood, fibreglass and expanded polystyrene.** The requirement for local manufacture appears here as a
 material list. None of the three needs a forging press, an autoclave or a heat-treatment line, and all three
 can be worked with hand tools by people who build boats.
 
-**The empty weight is six hundred pounds against a trailer limit of a thousand**, which is four hundred
-pounds of margin, and that margin is what the folding wings and the launch trailer were spent on.
+**The empty weight is six hundred pounds against a trailer limit of a thousand**, a margin of four hundred
+pounds, spent on the folding wings and the launch trailer.
 
 - [Kraemer 1938][research_kraemer_1938]
 - [Wood and Plastics][research_wood_and_1944]
@@ -664,21 +677,23 @@ survived any.
 
 ## The Flight Test Record
 
-**This is the shortest flight test record in the series so far, and unlike the previous article it is not empty.**
+**The flight test record is the shortest in the series so far, and unlike the previous article's it is not empty.**
 
-- **Purchased**, aircraft and trailer, on **27 July 1971**.
+- **Purchased**, aircraft and trailer, on **27 July 1971**, as [Tails Through Time][ref_tails_x28] reports.
 - **Tested from 16 September to 22 October 1971**, five weeks, from the Philadelphia Naval Base on the
-  Delaware River.
+  Delaware River, by the [same account][ref_tails_x28].
 - **Restricted to 300 feet** maximum altitude throughout, by the airspace rather than by the aircraft.
-- **First flight of the airframe** had been on **12 August 1970**, over the Sacramento Delta.
-- **Last flight** on **22 October 1971**, which was the end of the evaluation.
+- **First flight of the airframe** had been on **12 August 1970**, with initial test flights over the
+  Sacramento Delta.
+- **Last flight** on **22 October 1971**, ending the evaluation, as
+  [Jenkins, Landis and Miller][ref_xvehicles] record.
 
 **What the evaluation concluded is recorded in one sentence and no more.** The aircraft was found to be easy
-to fly and easy to master by pilots of limited experience, stable on the water, and capable of short
-takeoffs and landings.
+to fly and easy to master by pilots of limited experience, and its performance was considered exceptionally
+good for its ninety horsepower, according to [Jenkins, Landis and Miller][ref_xvehicles].
 
-**That sentence is doing a great deal of work and no test report supports it in the open literature.** The
-article treats it as a reported conclusion rather than as a measurement, because that is what it is.
+**That sentence is doing a great deal of work and no test report supports it in the open literature.** It is
+treated here as a reported conclusion, not as a measurement.
 
 ## Comparison With Ground Prediction
 
@@ -694,50 +709,54 @@ What can be done is to check the manufacturer's figures against each other and a
 | Span 23 ft in a 25 ft canal | 12 in each side | **Consistent, and explanatory** |
 | Empty 600 lb under a 1,000 lb trailer limit | 400 lb margin | Consistent |
 
-**The set hangs together, which is the most that can be said and is more than the previous article could say.**
+**The set hangs together. No more can be said, and the previous article could not say as much.**
 Five of six claims check. The sixth, the climb rate, is reachable only at the top of the plausible range for
-its propeller, and the article says so rather than declaring it false.
+its propeller, and is reported that way rather than declared false.
 
 ## What the Data Changed
 
-**Almost nothing, and the reason is a peace treaty rather than a technical failure.**
+**Almost nothing, because a war ended, not because of a technical failure.**
 
-The evaluation ended on 22 October 1971.
+The evaluation ended on [22 October 1971][ref_xvehicles].
 **Project Air Skimmer ended quietly as the Vietnam War wound down**, and with it the requirement the
-aircraft had been bought to meet. No further military examples were produced.
+aircraft had been bought to meet. No [further military examples][ref_x28] were produced.
 
-**What the programme did change is outside the military entirely.** Pereira developed the design into the
-Osprey II, a two-seat amphibian sold as plans to homebuilders, and
-**nearly six hundred have been built and flown**. The X-28A is the only X-plane whose design descendants
-exist in the hundreds, in private hangars, built by their owners.
+**What the programme did change lay outside the military.** Pereira developed the design into the
+[Osprey II][ref_osprey_osprey_2], a two-seat amphibian sold as plans to homebuilders, and
+**more than five hundred have been built and flown**. Of the X-planes this series has treated so far,
+the X-28A is the only one whose design descendants exist in the hundreds, in private hangars, built by
+their owners.
 
-**That is a genuinely unusual outcome for this series** and it deserves stating plainly. The X-15 flew one
-hundred and ninety-nine times and has no descendants. The X-28A flew for five weeks, changed no military
-requirement, and its design is still being built in garages fifty years later.
+**The outcome is unusual for this series** and deserves stating plainly. The
+[X-15][related_post_a312_north_american_x15] flew one hundred and ninety-nine times and has no descendants.
+The X-28A flew for five weeks, changed no military requirement, and
+[plans for its design][ref_osprey_aircraft_x28] are still sold to builders half a century later.
 
 ## A Fourth Consecutive Designation That Did Not Go to a Research Aeroplane
 
 **The pattern named in the last three articles is now four deep, which is past coincidence.**
 
-- **X-25**, a commercially available autogyro bought to investigate a rescue concept.
-- **X-26**, a commercially available sailplane bought twice, for training and for quiet observation.
-- **X-27**, a manufacturer's private-venture export fighter that was never built at all.
-- **X-28**, a homebuilt sport flying boat bought off a private individual for five thousand dollars.
+- **[X-25][related_post_a322_bensen_x25]**, a civil autogyro design ordered in modified form to investigate a rescue concept.
+- **[X-26][related_post_a323_schweizer_x26]**, a commercially available sailplane bought twice, for training
+  and for quiet observation.
+- **[X-27][related_post_a324_lockheed_x27]**, a manufacturer's private-venture export fighter that was never built at all.
+- **X-28**, a homebuilt sport flying boat bought off a private individual against a five-thousand-dollar
+  unit cost.
 
 **Three of the four were aircraft that already existed and were bought for properties they already had.**
 The fourth did not exist.
-**Not one of the four was a research aeroplane designed and built to answer a research question**, which is
-what the X-series was created for.
+**Not one of the four was a research aeroplane designed and built to answer a research question**, the purpose for
+which the X-series was created.
 
 **The X-28A is the clearest case in the series so far**, because the Navy did not commission anything. It
-watched a man demonstrate his own aeroplane, recognised its own requirements document, and wrote him a
+[watched a man demonstrate his own aeroplane][ref_tails_x28], recognised its requirements in it, and wrote him a
 cheque.
 **The X-designation was applied to a purchase, and the research it marked was an evaluation of something already built.**
 
 **This article does not claim that is misuse.** Evaluating an existing aircraft against a requirement is
 research, and it produced an answer.
 **The observation is narrower: by 1971 the X-series had become, at least sometimes, a way of labelling procurement evaluations rather than a way of labelling purpose-built research aircraft.**
-That belongs with the evidence the closing article of this series assembles, and it now has four consecutive
+The observation joins the evidence the closing article of this series assembles, and it now has four consecutive
 instances behind it.
 
 ## The Contemporary Literature
@@ -775,9 +794,10 @@ does not need a cockpit, a canopy, a seat or a man's weight and volume, so the t
 and the twenty-five-foot canal stop binding in the way they did.
 **The ditch that set the wingspan is not a constraint on something you can carry.**
 
-**This is the same shape of answer the last three articles found**, and that is now a pattern worth naming.
-The X-25 asked how to give a descending crewman a choice and was answered by a device made of fabric. The
-X-26B tried to make a manned aircraft inaudible and was answered by making the aircraft small enough not to
+**The last three articles found the same shape of answer**, and the repetition is now a pattern worth naming.
+The [X-25][related_post_a322_bensen_x25] asked how to give a descending crewman a choice and was answered by
+a device made of fabric. The [X-26B][related_post_a323_schweizer_x26] tried to make a manned aircraft
+inaudible and was answered by making the aircraft small enough not to
 need silencing.
 **In every case the programme's binding constraint turned out to be the thing that could be removed.**
 
@@ -789,10 +809,10 @@ The records behind this subsection are in the cluster on small unmanned aircraft
 When a human searches, the pattern is a ladder and the analysis is statistical. When a machine searches, the
 pattern itself is the decision, and coverage path planning has become a subject in its own right.
 
-**The X-28A's coverage figure of a hundred square miles an hour is a statement about a pilot's eye and a hundred-knot aeroplane.**
+**The X-28A's coverage figure of a hundred square miles an hour measures a pilot's eye and a hundred-knot aeroplane together.**
 Contemporary work separates those, because the sensor and the platform no longer have to travel together.
 
-The records behind this subsection are in the cluster on coverage path planning and cooperative search below.
+The cluster on coverage path planning and cooperative search below holds the records for this subsection.
 
 ### Maritime domain awareness is the mission's modern name
 
@@ -805,7 +825,7 @@ the aircraft to the cost of processing what it sees.
 **An aeroplane that examines a hundred square miles an hour is cheap. Looking at the result is not**, which
 inverts the economics the X-28A was designed around.
 
-The records behind this subsection are in the cluster on maritime surveillance, search and rescue and domain awareness below.
+Its records appear below in the cluster on maritime surveillance, search and rescue and domain awareness.
 
 ### Planing hydrodynamics is computed now, and the tank tests still stand
 
@@ -813,43 +833,43 @@ The records behind this subsection are in the cluster on maritime surveillance, 
 Contemporary work simulates planing hulls, wave impact and slamming numerically, and validates against
 towing-tank and full-scale measurements of the kind cited above.
 
-**The reason is worth stating.** A planing hull is a free-surface problem with a moving contact line and
-spray, which is genuinely hard to compute and was genuinely easy to measure with a towing carriage and a
+**The explanation is instructive.** A planing hull is a free-surface problem with a moving contact line and
+spray, which is hard to compute and was easy to measure with a towing carriage and a
 dynamometer. **The measurements were right and the difficulty was always on the other side.**
 
-The records behind this subsection are in the cluster on flying-boat hulls, planing and the towing tank below.
+The cluster on flying-boat hulls, planing and the towing tank, below, collects the work this subsection draws on.
 
 ### Cheap manufacture is a design discipline rather than a compromise
 
-**Wood, fibreglass and expanded polystyrene were chosen because they can be worked with hand tools.** The
+**Wood, fibreglass and expanded polystyrene can all be worked with hand tools.** The
 modern version of that requirement is composite manufacturing for low volume, additive manufacturing, and
 the explicit design-for-cost literature.
 
-**The X-28A's material list would still work**, which is the point. What has changed is that choosing it is
+**The X-28A's material list would still work.** What has changed is that choosing it is
 now a defensible engineering decision with a literature behind it rather than what a man in Sacramento
 happened to have in his shop.
 
-The records behind this subsection are in the cluster on low-cost manufacture, composites and materials below.
+For the records, see the cluster on low-cost manufacture, composites and materials below.
 
 ### The light aircraft itself has a new regulatory category
 
 **The class of aircraft the Osprey belonged to is now defined in regulation.** [Light sport][ref_lsa] and
-ultralight categories exist, with weight and speed limits that the Osprey I would sit inside comfortably,
-and the literature on their design, performance and safety is substantial.
+ultralight categories exist, the Osprey I would sit inside the light-sport limits on weight and speed though
+not inside the ultralight ones, and the literature on their design, performance and safety is substantial.
 
-The records behind this subsection are in the cluster on light sport, ultralight and amateur-built aircraft below.
+The cluster on light sport, ultralight and amateur-built aircraft below lists that literature.
 
 ### Affordability as a stated requirement
 
-**The X-28A is an early instance of design to cost with the cost stated first**, and that is now its own
-subject.
+**The X-28A is an early instance of design to cost with the cost stated first**, and design to cost has since
+become a subject of study.
 
 **The modern literature would recognise the programme's structure immediately and would also flag its weakness.**
-A five-thousand-dollar unit price says nothing about the cost of operating, maintaining, basing and crewing
-an aircraft, and those dominate. **The study asked the right question in the wrong units**, which is a
+A five-thousand-dollar unit price excludes the cost of operating, maintaining, basing and crewing
+an aircraft, and those dominate. **The study asked the right question in the wrong units**, a
 failure mode the contemporary work names explicitly.
 
-The records behind this subsection are in the cluster on cost-effectiveness, affordability and design to cost below.
+These records sit in the cluster on cost-effectiveness, affordability and design to cost below.
 
 ### Flying-boat hulls, planing and the towing tank
 
@@ -945,25 +965,30 @@ The records behind this subsection are in the cluster on cost-effectiveness, aff
 
 ## Where the Framing Breaks Down
 
-**The canal explanation is an inference and a clean one, which is exactly when to be careful.** Twelve
+**The canal explanation is a clean inference, and clean inferences call for care.** Twelve
 inches of clearance each side is a striking coincidence, and the article treats the canal as having set the
-span. **No document says so.** Pereira designed the aircraft for the sport market before the Navy saw it, so
-the causation cannot run the way the framing implies.
+span. **No document says so.** Pereira designed the aircraft for the [sport market][ref_pereira] before the
+Navy saw it, so the causation cannot run the way the framing implies.
 **What is defensible is that the requirement and the aeroplane matched, and that the Navy chose an aircraft whose span already fitted.**
+Even the span is not settled. The [encyclopaedia entry][ref_x28] gives twenty-three feet and ninety-seven
+square feet, while [Osprey Aircraft][ref_osprey_aircraft_x28] lists twenty-four feet nine inches and a
+hundred and three square feet, which would leave an inch and a half on each side of a twenty-five-foot canal.
 
-**The endurance calculation rests on a fuel weight nobody published.** Ninety pounds is an assumption. The
+**The endurance calculation depends on a fuel weight that was never published.** Ninety pounds is an assumption. The
 percentages comparing spans are robust to it, because it cancels, but the absolute hours are not.
 
 **The area-per-dollar comparison is the strongest claim and the softest number.** Unit costs for the Bronco
 and the Orion are era-approximate, sweep widths are assumed, and neither aircraft's cost includes operation.
-**The ratio would have to be wrong by two orders of magnitude to change the conclusion**, which is why the
-article makes the claim, but it is a ratio between estimates.
+**The ratio would have to be wrong by two orders of magnitude to change the conclusion**, so the
+claim stands, but it remains a ratio between estimates.
 
-**The programme was cancelled for reasons entirely outside the aircraft.** The war ended.
+**The programme was cancelled for reasons outside the aircraft.** The
+[war ended][ref_pereira].
 **Nothing in the evaluation caused the cancellation**, so this article cannot say the X-28A failed, and it
 also cannot say it would have succeeded.
 
-**And the aircraft was tested on the Delaware River in autumn, not on a canal in the Mekong Delta.** The
+**And the aircraft was tested on the Delaware River in autumn, not on a canal in the Mekong Delta.**
+[Tails Through Time][ref_tails_x28] places the tests on the Delaware. The
 five-week evaluation says the aeroplane flew well near Philadelphia. It does not say what it would have done
 in the place it was bought for.
 
@@ -1049,25 +1074,29 @@ change in the size of the survey.
 **Historical fact, well attested.**
 
 - George Pereira designed the Osprey I in Sacramento from 1969, and it first flew on 12 August 1970.
-- The Navy purchased the aircraft and its trailer on 27 July 1971 and designated it X-28A.
-- It was evaluated from 16 September to 22 October 1971 on the Delaware River, restricted to 300 feet.
-- The Naval Air Development Center study required visual flight rules, local manufacture, a
-  thousand-pound trailer limit, canals as narrow as twenty-five feet, and a cost under five thousand
-  dollars.
+- The Navy purchased the aircraft in 1971, designated it X-28A, and evaluated it that autumn at
+  Philadelphia, with a last flight on 22 October 1971.
+- The Naval Air Development Center study required visual flight rules, light weight, local manufacture,
+  and a cost under five thousand dollars in quantity.
 - The programme ended as the Vietnam War wound down, with no further military examples.
 - The design was developed into the Osprey II, of which several hundred have been built.
 
 **Reported but not independently corroborated here.**
 
+- That the purchase was made on 27 July 1971, that testing ran from 16 September 1971 from the
+  Philadelphia Naval Base on the Delaware River, and that it was restricted to 300 feet.
+- That the study also set a thousand-pound trailer limit and canals as narrow as twenty-five feet.
 - That the evaluation found the aircraft easy to fly and to master by pilots of limited experience.
-- The published dimensions, weights and performance, which trace to the designer's own figures.
-- That nearly six hundred Osprey II aircraft have been built and flown.
+- The published dimensions, weights and performance, none of which is a measured test figure.
+- That more than five hundred Osprey II aircraft have been built and flown.
 
 **Contested in the sources and left contested.**
 
-- Who designed the variant called the Sea Skimmer, and whether that name attaches to the aircraft or to
-  the Navy project.
-- Which museum holds the airframe. Three different institutions are named by otherwise careful sources.
+- Who designed the aircraft also called the Sea Skimmer, and whether that name attaches to the aircraft or
+  to the Navy project.
+- Which museum holds the airframe. Two different institutions are named by otherwise careful sources.
+- The span and wing area, given as 23 feet and 97 square feet by one source and as 24 feet 9 inches and
+  103 square feet by the manufacturer.
 
 **Engineering analysis, computed here and reproducible from the stated inputs.**
 
@@ -1097,13 +1126,13 @@ change in the size of the survey.
 
 - **The [Osprey II and GP-4][ref_osprey2]**, Pereira's later designs, treated here only as the programme's consequence.
 - **The full history of riverine operations in Vietnam**, which the references cover.
-- **The V-22 Osprey**, which shares only a name and is a different aircraft entirely.
+- **The V-22 Osprey**, an unrelated aircraft that shares only the name.
 - **Modern unmanned maritime patrol systems in detail**, surveyed here rather than analysed.
-- **The economics of homebuilt aviation**, which is a subject of its own.
+- **The economics of homebuilt aviation**, a separate subject.
 
 ## Conclusion
 
-**The X-28A is the cheapest aircraft ever to carry an X-designation, and the price was the requirement rather than the result.**
+**The X-28A was specified by its price, a unit cost under five thousand dollars, and the price was the requirement rather than the result.**
 
 The Navy asked what five thousand dollars buys.
 **The answer, computed rather than asserted, is about a hundred square miles of water examined per hour, for about nine hours, from an aeroplane that fits down a twenty-five-foot ditch and can be towed home behind a truck.**
@@ -1111,24 +1140,24 @@ Per dollar spent that is roughly a hundred and thirteen times what a maritime pa
 after giving the larger aircraft a twenty-mile radar against the Osprey's one-mile eyeball.
 
 **The constraints that shaped it were almost all non-aeronautical, and they cost something measurable.** The
-canal set the span, the span set the aspect ratio, and the aspect ratio cost about a quarter of the
-endurance a slightly wider aeroplane would have had.
+canal, on this reading, set the span, the span set the aspect ratio, and the aspect ratio cost about a
+quarter of the endurance a slightly wider aeroplane would have had.
 **The trailer limit and the canal together pushed the minimum-power speed below the stall speed**, so the
-aircraft could not reach the bottom of its own power curve and loitered at a stall margin instead.
+aircraft could not reach the bottom of its power curve and loitered at a stall margin instead.
 
 **What was never a problem was the water.** At ten pounds per horsepower the aircraft cleared its resistance
 hump by a factor of between two and a half and four and a half, across every hull the record permits it to
-have had. **A flying boat's characteristic difficulty simply does not arise at this weight**, and the real
+have had. **A flying boat's characteristic difficulty does not arise at this weight**, and the real
 water limit was a two-second chop rather than a resistance curve.
 
 **The programme ended because a war did**, not because the aeroplane failed. Its evaluation concluded that
-it was easy to fly, and then the requirement it answered ceased to exist.
+it was [easy to fly][ref_xvehicles], and then the requirement it answered ceased to exist.
 
-**And it is the fourth consecutive designation in this series that did not go to a purpose-built research aeroplane.**
+**It is also the fourth consecutive designation in this series that did not go to a purpose-built research aeroplane.**
 The Navy did not commission an X-28. It bought one, from a boat designer, off the water.
 
 The next article treats the [X-29][ref_x29], the Grumman forward-swept-wing demonstrator, which returns the
-series to an aircraft built from nothing to answer a question that could not be answered any other way.
+series to an aircraft built from a clean sheet to answer a question that could not be answered any other way.
 
 ## References
 
@@ -1168,11 +1197,14 @@ series to an aircraft built from nothing to answer a question that could not be 
 - [Momentum theory][ref_momentum_theory]
 - [Naval Air Development Center][ref_nadc]
 - [North American Rockwell OV-10 Bronco][ref_ov10]
+- [Osprey Aircraft, X28 Sea Skimmer][ref_osprey_aircraft_x28]
 - [Osprey GP-4 and Osprey II][ref_osprey2]
+- [Osprey Osprey 2][ref_osprey_osprey_2]
 - [Osprey X-28A Sea Skimmer][ref_x28]
 - [Planing][ref_planing]
 - [Search and rescue sweep width][ref_sweep_width]
 - [Search theory][ref_search_theory]
+- [Tails Through Time, The X-28A Osprey, the Most Unlikely X-Plane][ref_tails_x28]
 - [United States Navy][ref_usn]
 - [Visual flight rules][ref_vfr]
 
@@ -1186,12 +1218,15 @@ series to an aircraft built from nothing to answer a question that could not be 
 [ref_naca_tank]: https://en.wikipedia.org/wiki/Langley_Research_Center
 [ref_nadc]: https://en.wikipedia.org/wiki/Naval_Air_Development_Center
 [ref_osprey2]: https://en.wikipedia.org/wiki/Osprey_GP-4
+[ref_osprey_aircraft_x28]: https://ospreyaircraft.net/x28.htm
+[ref_osprey_osprey_2]: https://en.wikipedia.org/wiki/Osprey_Osprey_2
 [ref_ov10]: https://en.wikipedia.org/wiki/North_American_Rockwell_OV-10_Bronco
 [ref_p3]: https://en.wikipedia.org/wiki/Lockheed_P-3_Orion
 [ref_pereira]: https://pimaair.org/museum-aircraft/pereira-osprey/
 [ref_planing]: https://en.wikipedia.org/wiki/Planing_(boat)
 [ref_search_theory]: https://en.wikipedia.org/wiki/Search_theory
 [ref_sweep_width]: https://en.wikipedia.org/wiki/Search_and_rescue
+[ref_tails_x28]: http://aviationtrivia.blogspot.com/2010/06/in-1969-homebuilt-aircraft-builder-and.html
 [ref_usn]: https://en.wikipedia.org/wiki/United_States_Navy
 [ref_vfr]: https://en.wikipedia.org/wiki/Visual_flight_rules
 [ref_x28]: https://en.wikipedia.org/wiki/Osprey_Osprey_I
