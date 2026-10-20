@@ -7216,7 +7216,7 @@ The vehicle that demonstrated this weighed less than a motorcycle, flew three ti
 [research_henckels_maurer_1992]: https://doi.org/10.1007/978-3-642-77922-0_41
 [research_henderson_nguyen_2011]: https://doi.org/10.2514/6.2011-7245
 [research_henke_nerem_1968]: https://doi.org/10.2514/6.1968-947
-[research_herbert_a_wilson_robert_l_wright_1965]: https://ntrs.nasa.gov/citations/19650024008
+[research_herbert_a_wilson_robert_l_wright_1965]: https://ntrs.nasa.gov/citations/19690009639
 [research_herdrich_auweterkurtz_2000]: https://doi.org/10.2514/2.6515
 [research_herrington_2019]: https://doi.org/10.2514/1.c035106
 [research_herrmann_cox_2025]: https://doi.org/10.2514/6.2025-1338

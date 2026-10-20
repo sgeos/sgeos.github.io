@@ -19,7 +19,7 @@ so there was no way for the omission to fail.
 
 | File | What it holds |
 |------|---------------|
-| `rejected.json` | 1,225 per-record judgements, each with the reason and the article that made it. 497 were added on 20 October 2026: non-research items (news and trade items, bare conference records, front matter, periodic reports, notices, reviews, indexes, errata) removed from the X-Planes surveys under the pilot's inclusion rule, which are not article-relative |
+| `rejected.json` | 1,226 per-record judgements, each with the reason and the article that made it. 497 were added on 20 October 2026: non-research items (news and trade items, bare conference records, front matter, periodic reports, notices, reviews, indexes, errata) removed from the X-Planes surveys under the pilot's inclusion rule, which are not article-relative. One more was added the same day, a NASA Technical Reports Server record with no surviving copy, removed from A322 on the pilot's ruling |
 | `homonyms.py` | Loader, curated noise patterns, and the filtering helpers |
 
 ## The Two Kinds of Knowledge, Which Are Not Interchangeable

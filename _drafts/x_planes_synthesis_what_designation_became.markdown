@@ -8993,7 +8993,7 @@ This article does not revisit any aircraft's engineering, which the seventy arti
 [research_portree_1998]: https://ntrs.nasa.gov/citations/19980236048
 [research_post_eslinger_2017]: https://doi.org/10.1177/1548512917745606
 [research_post_sundt_2017]: https://doi.org/10.1109/mcse.2017.3971165
-[research_potter_1965]: https://ntrs.nasa.gov/citations/19650024004
+[research_potter_1965]: https://ntrs.nasa.gov/citations/19690009635
 [research_potthast_1980]: https://doi.org/10.4050/vfs-f36-027
 [research_powell_2017]: https://doi.org/10.7249/rgsd383
 [research_powell_cruz_1991]: https://ntrs.nasa.gov/citations/19910034496
@@ -10193,7 +10193,7 @@ This article does not revisit any aircraft's engineering, which the seventy arti
 [research_wilson_donley_1983]: https://ntrs.nasa.gov/citations/19840046752
 [research_wilson_kidwell_1981]: https://doi.org/10.2514/6.1981-1676
 [research_wilson_kidwell_1982]: https://ntrs.nasa.gov/citations/19830056747
-[research_wilson_wright_1965]: https://ntrs.nasa.gov/citations/19650046383
+[research_wilson_wright_1965]: https://ntrs.nasa.gov/citations/19690009639
 [research_winborn_1970]: https://doi.org/10.2514/3.44143
 [research_winchenbach_chelekis_1982]: https://doi.org/10.2514/6.1982-1365
 [research_wind_tunnel_flight_1978]: https://doi.org/10.2514/6.1978-989

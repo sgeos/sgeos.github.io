@@ -4,8 +4,29 @@
 
 ## Last Updated
 
+**Date**: 2026-10-20 (second entry)
+**Task**: **X-PLANES, DEAD NTRS RECORDS AFTER THE STRICT RE-READ.** Committed and pushed on the pilot's word. NOT published.
+
+**The pilot's rulings, quoted.** "Remove Ramakers 1967. Then commit and push. We will address the additional passes after that." Earlier the same day: "Double check that the whitelist looks reasonable, and then move forward."
+
+**What was done.**
+- **Three dead NTRS records repointed.** OpenAlex locates the same works at live NTRS numbers. A320 `research_herbert_a_wilson_robert_l_wright_1965` and A368 `research_wilson_wright_1965` now point to 19690009639, and A368 `research_potter_1965` to 19690009635 (OpenAlex W1568874573 and W800041172). Labels and years are unchanged, and the reference data was updated to match.
+- **Ramakers 1967 removed from A322.** NTRS 19670014989 returns 404, NTRS search finds no successor, and OpenAlex lists only the dead record. It was taken out of the two prose citation lists, each of which keeps fourteen other glide works, then removed with the survey tool's own apply. A322's survey was restated: records 2,708 to 2,707, report primaries 829 to 828, dated 2,673 to 2,672, 1968 or earlier 431 to 430, and the gliding cluster 17 to 16. The stated percentages are unchanged. The series now holds 357,024 research definitions.
+- **Rejection store.** The dead record was added to `_research/rejected.json` by its URL, so a later harvest cannot re-admit it. The store holds 1,226 records.
+- **Allowlist.** Every host the project needs is reachable. The entry `"crossref.org,"` in `~/.claude/settings.json` carries a comma inside its quotes, which is harmless while `*.crossref.org` covers `api.crossref.org`. Open Library was returning 502 upstream at the time of the check.
+- **A341's network verifiers.** Rerun with retries, every NASA identifier in the draft resolves and the four DOIs reported unregistered are registered at doi.org. The remaining unreachable sites are Open Library books and news hosts outside the allowlist. Both scripts exit 0 even when they print failures.
+
+**Verification.** A320, A322 and A368 verifiers rc=0 (`verify368` 1,885 checks), check5 PASS, `_verify.py` 0 errors and 0 warnings, all 72 drafts build in a scratch copy, and `_lib/render.py` finds nothing across 544 pages.
+
+**Items before the pilot.**
+1. The series citation pass and the pathological word usage pass, on the pilot's word.
+2. The comma typo in the allowlist entry `"crossref.org,"`, which only the user can edit.
+
+## Previous Report (2026-10-20, first entry)
+
+
 **Date**: 2026-10-20
-**Task**: **X-PLANES, THE STRICT RE-READ UNDER THE PILOT'S INCLUSION RULE.** Applied in the working tree. NOT committed, NOT pushed, NOT published. The pilot's word is awaited before any commit.
+**Task**: **X-PLANES, THE STRICT RE-READ UNDER THE PILOT'S INCLUSION RULE.** Applied, then committed and pushed as `2bc9b21` on the pilot's word. NOT published.
 
 **The pilot's rulings, quoted.** "All on-topic references useful for anyone else doing research on X-planes or related topics should be included." "Use TypeSafe Jev when reasonable to save on your token budget." On the two questions put on 19 October: full-text proceedings volumes, "Keep full-text volumes"; news items, "Keep programme news".
 

@@ -11,6 +11,49 @@ resuming agent. Read it first, validate it, then read the live channels.
 ## Validity
 
 - **Branch**: `master`
+- **Parent commit** (the repository state this handoff describes): `2bc9b21`
+- **Written**: 2026-10-20, by the X-Planes line, after the strict re-read and its dead-record follow-up (three NTRS records repointed in A320 and A368, Ramakers 1967 removed from A322 on the pilot's ruling).
+- **Tree at write**: this cycle's work, committed by the commit carrying this file. An untracked `.codex/`
+  directory is **not this line's** and must not be committed by it.
+- **PUSH STATE.** The pilot said "Remove Ramakers 1967. Then commit and push." This file's commit is pushed, so `origin/master` is at this
+  file's commit. Nothing is published, and the pilot's instruction is to hold publication.
+- **THE RULE NOW IN FORCE.** The pilot's rule is this. "All on-topic references useful for anyone else doing
+  research on X-planes or related topics should be included." Aerospace research that matches no cluster counts
+  as related.
+  - Full-text proceedings and compilation volumes are kept.
+  - News items about an X-plane or a related research vehicle or programme are kept, and other news is not.
+  - Bare conference records, front matter, periodic organisational reports, notices, book reviews, indexes and
+    errata are not admitted.
+  - The working statement is `tmp/jev/data/GOLD_RULE.md` with these rulings.
+  - The non-research removals are in `_research/rejected.json`, which now holds 1,225 records.
+- **STATE.** The baseline:
+  - 357,024 research definitions in 72 drafts.
+  - Every article prints `check5.py` RESULT PASS.
+  - Every offline verifier exits 0 (`bash tmp/fix7/run_verifiers_rc.sh <numbers>`). `verify368.d1pre.py` is a
+    stale copy and is not a check.
+  - Every verifier self-test detects its mutations, except A365's, which fails on a target string absent from its
+    draft. The pilot has acknowledged that failure.
+  - `_verify.py` reports 0 and 0.
+  - All 72 drafts build in a scratch copy, and `_lib/render.py` finds nothing.
+- **VERIFIER SCREEN TERM.** Verifiers whose identities compare a draft with its full reading load `SCR` from
+  `tmp/jev/apply/A<NNN>/drop.json`.
+  - **Do not delete those files.**
+  - Historical reading records were never edited. Removals are a documented step, never a rewrite of what was read.
+- **RESUME.** Read `_docs/process/REVERSE_PROMPT.md`. The cycle record is `tmp/fix8/PROGRESS15.md`, which is
+  gitignored and local.
+  - **QUEUED, NOT RUN:** the series citation pass and the pathological word usage pass. The pilot said "We will
+    run the passes in the future", so start them only on the pilot's word.
+  - **Never put the user's email address in a request.** Use a plain user agent such as `blog-survey-tool`.
+  - **Never use a verifier runner that prints `$?` after a command substitution.**
+  - **Read the WHOLE line of `run_verifiers_rc.sh` output for `rc=[1-9]`.** Filtering on the line ending hides a
+    failure in any earlier script.
+  - **The runner does not run self-tests.** After restating numbers, run each verifier's `--selftest` too, because
+    mutation targets name literal draft text.
+  - **Agents told to make a verifier pass will edit historical records.** Forbid it in the brief.
+
+## Validity (superseded, written 2026-10-20, first entry)
+
+- **Branch**: `master`
 - **Parent commit** (the repository state this handoff describes): `a3efc2f`
 - **Written**: 2026-10-20, by the X-Planes line, after the strict re-read under the pilot's inclusion rule.
 - **Tree at write**: this cycle's work, committed by the commit carrying this file. An untracked `.codex/`
