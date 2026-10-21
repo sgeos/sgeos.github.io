@@ -656,9 +656,11 @@ the next available number in May 2003 and the X-49A is the instruction obeyed ra
 the rule of 2014 and 2020 the next number is derived from the last approved one, and a passed number is
 behind the pointer and unrequestable.**
 
-**The word skip does not appear in the 1994 instruction at all**, as the
-[X-52][related_post_a349_x52_designation_refused] article found when it read the same document for a
-refusal in 2006 \[[AFJI 16-401, 9 September 1994][ref_afji_16_401_1994]]. **That article dates the
+**The word skip appears in none of the issues of 1994, 1997 and 2005**, as the
+[X-52][related_post_a349_x52_designation_refused] article found when it read them for a refusal made in
+2006 under the last of them \[[AFJI 16-401, 9 September 1994][ref_afji_16_401_1994]]
+\[[AFJI 16-401, 1 September 1997][ref_afji_16_401_1997]] \[[AFI 16-401(I), 14 April 2005][ref_afi_16_401_2005]].
+**That article dates the
 arrival of a bare discretion to skip to the issue of 16 May 2014**, which also states that skipped design
 numbers cannot be requested or used \[[AFI 16-401, 16 May 2014][ref_afi_16_401_2014]]. This one adds
 what the same change did in the other direction. **It closed the route the X-49A had used.**
@@ -708,6 +710,25 @@ requested or used \[[AFI 16-401, 16 May 2014][ref_afi_16_401_2014]].
 quantity moved from the next available number to one above the last approved number. **And the duty
 moved from the agency to the requester.** The X-49A of 2003 falls under the old form, and the X-58's skip
 of 2018 and the X-67's skip of 2025 both fall under the new one.
+
+**The 2020 issue keeps the refusal and words it more broadly.** Its eligibility criterion refuses requests
+in reverse or skipped sequences without the 2014 limitation to vehicles with an extensive history of
+designations, and its skip clause keeps the reserved authority but drops the sentence saying that skipped
+design numbers cannot be requested or used
+\[[AFI 16-401, 16 May 2014][ref_afi_16_401_2014]] \[[DAFI 16-401][ref_dafi_16_401_2020]]. **Under either issue a passed research number is unrequestable**,
+under the 2014 issue by both sentences and under the 2020 issue
+by the eligibility criterion alone.
+
+**The rule changed in the instruction, and the directive above it is silent on numbering.** The 1994, 1997 and 2005 issues
+implement the Department directive of 2 May 1985, and the 2014 issue implements its reissue of
+29 November 2004, which it cites as DoD Directive 4120.15E
+\[[AFJI 16-401, 9 September 1994][ref_afji_16_401_1994]]
+\[[AFJI 16-401, 1 September 1997][ref_afji_16_401_1997]] \[[AFI 16-401(I), 14 April 2005][ref_afi_16_401_2005]]
+\[[AFI 16-401, 16 May 2014][ref_afi_16_401_2014]]. The reissued directive, read as amended by Change 2 of 17 September 2020, requires a unique
+mission-design series designator for each vehicle and directs the Secretary of the Air Force to publish
+a joint regulation and a single Department-wide list of approved designators, and it says nothing about
+how a design number is chosen or whether one may be skipped \[[DoD Directive 4120.15, 29 November 2004][ref_dodd_4120_15_2004]].
+**The numbering rule is therefore set by the instruction alone.**
 
 **The 2005 edition also carries the design-number example in a form the later editions changed by one
 word.** It reads that the design number 16 in F-16A is **the sixteenth MDS requested** for an aircraft
@@ -856,8 +877,14 @@ every client. **Its summary of changes reassigns the office of primary responsib
 Defense for Acquisition and Sustainment and says nothing else**, and the words retire, cancel and
 `data.af.mil` appear nowhere in it \[[DoD 4120.15-L, 2004 with Change 1][ref_dod_412015l_2004]].
 
-**So the cancellation is a 2020 act of the Air Force instruction and not a 2018 act of the Department
-list**, and the article cites the instrument rather than a description of it.
+**So the list's retirement is an act of the Air Force instruction and not a 2018 act of the Department
+list**, and it came in two steps. The issue of 16 May 2014 already stated that DoD 4120.15-L would no
+longer be maintained as the primary source of approved designators, named the DoDTechipedia listing of
+the Defense Technical Information Center as the primary source, and sent the public to the National
+Technical Information Service for the last updated version \[[AFI 16-401, 16 May 2014][ref_afi_16_401_2014]].
+**The 2020 issue added the cancellation as the publicly accessible database and the address `data.af.mil`**,
+and the article cites
+the instruments rather than a description of them.
 
 **That address does not exist.** A query for the name against the authoritative nameservers for the
 `af.mil` zone returns no answer and a statement of authority, which is how a nameserver says that the
@@ -892,7 +919,9 @@ Its foreword states that the list is approved for public release with
 distribution unlimited, and gives three routes to a copy, being a Department web address, the Defense
 Technical Information Center for registered users, and the National Technical Information Service for
 other Federal agencies and the public \[[DoD 4120.15-L, October 1998][ref_dod_412015l_1998]].
-**Three published routes in 1998, and in 2020 one address that does not resolve.**
+**Three published routes in 1998, and in 2020 one address that does not resolve.** The directive above
+the instruction still directs the Secretary of the Air Force to publish a single Department-wide source
+document of approved designators and names, and to publish it annually \[[DoD Directive 4120.15, 29 November 2004][ref_dodd_4120_15_2004]].
 
 ## Sizing From First Principles
 
@@ -2250,7 +2279,7 @@ The Definition of Primary. **The median publication year is 2011.** Of the 1,062
 records, 371 were published in 2015 or later, being 34.9 percent, and 181 before
 2000, and the range runs from 1900 to 2026.
 
-**The reference base as a whole is 1,197 definitions and it partitions four ways.**
+**The reference base as a whole is 1,198 definitions and it partitions four ways.**
 
 $$
 \lvert \mathcal{B} \rvert \;=\; \lvert \mathcal{B}_{\mathrm{prim}} \rvert
@@ -2259,7 +2288,7 @@ $$
 + \lvert \mathcal{B}_{\mathrm{res}} \rvert
 $$
 
-**21 are hand-written references to the register, the instructions, the
+**22 are hand-written references to the register, the instructions, the
 releases, the award record and the trade press, two of which the list marks as secondary, four are
 hand-written theory sources, 67 are the prior articles of this series, and 1,105 are research
 records from the three archives.** **Of the 1,109 research records the 979 that are not reports carry
@@ -2338,7 +2367,7 @@ which is what the record supports.
 
 ### What the Cited Addresses Return
 
-**Every hand-written address in the article has been fetched, and there are 25 of them.** Twenty
+**Every hand-written address in the article has been fetched, and there are 26 of them.** Twenty-one
 return a document, four are held by a publisher that declines automated clients and are instead
 confirmed against the bibliographic index by author and title, and one returns neither. The one that
 returns neither is the Department's own cancelled list at its issuance portal, which answers HTTP 403 to
@@ -2513,14 +2542,20 @@ document changing.
   a basic mission \[[AFR 66-11 and AR 700-26 and BUWEPS 13100.7, 18 September 1962][ref_afr_66_11_1962]].
 - **It publishes the next research design number as 22A**, in a list of four current research aircraft
   \[[AFR 66-11 and AR 700-26 and BUWEPS 13100.7, 18 September 1962][ref_afr_66_11_1962]].
-- **The editions of 1994 and 2005 both direct the coordinating office to assign the next available
-  consecutive design number, and neither contains the word skip**
+- **The editions of 1994, 1997 and 2005 all direct the coordinating office to assign the next available
+  consecutive design number, and none contains the word skip**
   \[[AFJI 16-401, 9 September 1994][ref_afji_16_401_1994]]
+  \[[AFJI 16-401, 1 September 1997][ref_afji_16_401_1997]]
   \[[AFI 16-401(I), 14 April 2005][ref_afi_16_401_2005]].
 - **The edition of 16 May 2014, which supersedes the 2005 one, defines the next designator from the last
   approved design number, refuses requests in skipped sequences for vehicles with an extensive history of
-  designations, and states that skipped design numbers cannot be requested or used**
+  designations, and states that skipped design numbers cannot be requested or used**, and it states that
+  DoD 4120.15-L will no longer be maintained as the primary source of approved designators
   \[[AFI 16-401, 16 May 2014][ref_afi_16_401_2014]].
+- **The Department directive of 29 November 2004, as amended by Change 2 of 17 September 2020, requires a
+  unique designator for each vehicle and annual publication of a single Department-wide source document,
+  and states no rule on choosing or skipping a design number**
+  \[[DoD Directive 4120.15, 29 November 2004][ref_dodd_4120_15_2004]].
 - **The 2020 instruction cancels DoD 4120.15-L as the publicly accessible database, names `data.af.mil`
   as where the public may obtain the latest version, and adds a status prefix `e` for aircraft engineered
   in a virtual environment** \[[DAFI 16-401][ref_dafi_16_401_2020]].
@@ -2625,9 +2660,11 @@ The number equalled the research series' next
   is not. The register's behaviour is consistent with its being so. **No publication states the practice.**
 - **Whether the successor designation database exists and is maintained.** The address does not resolve
   publicly and a Department network may resolve it. **This article cannot see inside.**
-- **What the Department directives behind the instructions say.** DoD Directive 4505.6 of 6 July 1962,
-  which the founding regulation implements, and DoD Directive 4120.15 of 2 May 1985, which the lists are
-  reissued under, are **named in documents this article has read and have not themselves been read.**
+- **What the earlier Department directives behind the instructions say.** DoD Directive 4505.6 of
+  6 July 1962, which the founding regulation implements, and DoD Directive 4120.15 of 2 May 1985, which
+  the 1994, 1997 and 2005 instructions implement and the lists are reissued under, are
+  **named in documents this article has read and have not themselves been read.** Their successor of 29 November 2004
+  has been read as amended in 2020, and it states no numbering rule \[[DoD Directive 4120.15, 29 November 2004][ref_dodd_4120_15_2004]].
 - **What the Off-Board Sensing Station cost to develop, or what any part of the genus cost.** The award
   record gives contract amounts and the releases give none, and no document separates the chassis from
   the species.
@@ -2689,7 +2726,9 @@ and requests in reverse or skipped sequences are not accepted
 \[[DAFI 16-401][ref_dafi_16_401_2020]]. **Nobody had to decide to skip the X-67. Somebody had to ask for
 the X-68**, which happened on 2025-08-20, 763 days after the borrowing, and from
 that approval the X-67 became unrequestable. **A skipped number is not a vacancy in this system. It is a
-position behind a pointer that only moves forward.**
+position behind a pointer that only moves forward.** The rule entered the instruction with the issue of
+16 May 2014 \[[AFI 16-401, 16 May 2014][ref_afi_16_401_2014]], so the X-58's slot had already closed the same way,
+**and the X-67 is the second research number made unrequestable by it.**
 
 **The second case differs from the first in the one respect a register exists to record.** In 2017 the
 government stated what the aeroplane taking the number was for, and the register carries that statement
@@ -2760,7 +2799,7 @@ rebuilt because the official one was withdrawn.**
 ### Reference
 
 - [AFRL Chooses General Atomics Drone for Off-Board Sensing Station Program, The Defense Post, 6 February 2023, read in full, and SECONDARY, being the source of the February 2023 selection date the laboratory's own release contradicts][ref_dp_obss_2023]
-- [Air Force Instruction 16-401(I), Army Regulation 70-50 and NAVAIRINST 13100.16, Designating and Naming Defense Military Aerospace Vehicles, 14 April 2005, read in part, and the edition that settles whether the allocation rule changed before 2020][ref_afi_16_401_2005]
+- [Air Force Instruction 16-401(I), Army Regulation 70-50 and NAVAIRINST 13100.16, Designating and Naming Defense Military Aerospace Vehicles, 14 April 2005, read in part, and the last edition directing the next available consecutive design number][ref_afi_16_401_2005]
 - [Air Force Instruction 16-401, Army Regulation 70-50 and NAVAIRINST 13100.16, Designating and Naming Defense Military Aerospace Vehicles, 16 May 2014, superseding the 14 April 2005 edition, read in part, and the edition that first refuses requests in skipped sequences][ref_afi_16_401_2014]
 - [Air Force Joint Instruction 16-401 and NAVAIRINST 8800.3A, Designating and Naming Defense Military Aerospace Vehicles, 9 September 1994, implementing DoD Directive 4120.15 of 2 May 1985, read in full, and the edition in force when the X-49A filled a gap the X-50A had passed][ref_afji_16_401_1994]
 - [Air Force Joint Instruction 16-401, Army Regulation 70-50 and NAVAIRINST 8800.3A, Designating and Naming Defense Military Aerospace Vehicles, 1 September 1997, superseding the 9 September 1994 edition, read in part, and the edition in force when the X-49A was allocated][ref_afji_16_401_1997]
@@ -2775,6 +2814,7 @@ rebuilt because the official one was withdrawn.**
 - [DoD 4120.15-L, Model Designation of Military Aerospace Vehicles, 12 May 2004 incorporating Change 1 of 31 August 2018, read in part from a public web archive snapshot after the Department's own portal returned HTTP 403, and the edition whose Change 1 the article had been told cancelled the public list][ref_dod_412015l_2004]
 - [DoD 4120.15-L, Model Designation of Military Aerospace Vehicles, October 1998, reissued under DoD Directive 4120.15 of 2 May 1985 and cancelling the March 1996 edition, signed by Schneiter, scanned by Andreas Parsch, FRONT MATTER READ as page images because the scan carries no text layer][ref_dod_412015l_1998]
 - [DoD 4120.15-L, Model Designation of Military Aerospace Vehicles, the last public edition carrying Change 1 of 31 August 2018, at the Department's own portal, which returns HTTP 403 to every client this article has tried. The document itself was read from a web archive snapshot and is cited separately][ref_dod_412015l_2018]
+- [DoD Directive 4120.15, Designating and Naming Military Aerospace Vehicles, 29 November 2004 incorporating Change 2 of 17 September 2020, cancelling the directive of 2 May 1985 and cited by the 2014 instruction as DoD Directive 4120.15E, read in full from a public web archive snapshot of 4 February 2025][ref_dodd_4120_15_2004]
 - [General Atomics Aeronautical Systems, GA-ASI Makes First Flight of XQ-67A OBSS, 29 February 2024, public affairs number AFRL-2024-0708, read in full][ref_gaasi_firstflight]
 - [General Atomics Aeronautical Systems, XQ-67A Demonstrates Autonomy and Datalink Interoperability During High Desert Flight Test, 16 July 2025, read in full][ref_gaasi_autonomy_2025]
 - [Missing USAF and DOD Aircraft Designations, compiled by Andreas Parsch, the X series and Q series sections and every next-number statement read directly][ref_missing_mds]
@@ -2792,6 +2832,7 @@ rebuilt because the official one was withdrawn.**
 [ref_dod_412015l_1998]: https://www.designation-systems.net/usmilav/original-docs/4120.15-L(1998).pdf
 [ref_dod_412015l_2004]: https://web.archive.org/web/2019id_/https://www.esd.whs.mil/Portals/54/Documents/DD/issuances/dodm/412015l.pdf
 [ref_dod_412015l_2018]: https://www.esd.whs.mil/Portals/54/Documents/DD/issuances/dodm/412015l.pdf
+[ref_dodd_4120_15_2004]: https://web.archive.org/web/20250204235114/https://www.esd.whs.mil/Portals/54/Documents/DD/issuances/dodd/412015p.pdf
 [ref_dp_obss_2023]: https://thedefensepost.com/2023/02/06/general-atomics-drone/
 [ref_dsnet_aircraft]: https://www.designation-systems.net/usmilav/aircraft.html
 [ref_gaasi_autonomy_2025]: https://www.ga-asi.com/xq-67a-demonstrates-autonomy-and-datalink-interoperability-during-high-desert-flight-test

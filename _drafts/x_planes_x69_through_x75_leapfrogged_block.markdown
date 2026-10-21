@@ -44,7 +44,7 @@ $$
 \mathcal{B} \;=\; \{\,69, 70, \dots, 75\,\}, \qquad \lvert \mathcal{B} \rvert \;=\; 75 - 69 + 1 \;=\; 7, \qquad t_{76} - t_{68} \;=\; 61\ \text{days}
 $$
 
-**No row in the research series carries any of the numbers 69 through 75, a result measured over every row of the register.** The register, in its copy last updated 23 August 2026, holds **539 designation rows**, 31 of them in the research series, and the research design numbers present run 37, 40, 44 through 51, 53 through 57, 59 through 66, 68 and 76 \[[Parsch, DOD 4120.15-L Addendum][ref_mds_addendum]].
+**No row in the research series carries any of the numbers 69 through 75, a result measured over every row of the register.** The register, in its copy last updated 23 August 2026, holds **539 designation rows**, 31 of them in the research series, and the research design numbers present run 37, 40, 44 through 51, 53 through 57, 59 through 66, 68 and 76 \[[Parsch, DOD 4120.15-L Addendum][ref_mds_addendum]]. **On this article's date the register showed neither of the last two.** The version then current, the compiler's update of 11 August 2025 as archived on 10 December 2025, held 526 rows, 29 of them in the research series, and its research design numbers ran 37, 40, 44 through 51, 53 through 57 and 59 through 66, so in the public record the series ended at 66 and no block had yet been passed \[[Parsch, DOD 4120.15-L Addendum, as archived on 10 December 2025][ref_mds_addendum_wb_2025_12]]. Under that version seventeen rows were marked as absent from officially released data and six of the twenty-nine research rows carried the cell-level mark. The X-68A and X-76A rows first appeared between 15 January and 1 February 2026, as the table under On This Article's Date the Register Did Not Show It sets out, and the block is described here from the later copy.
 
 **The same seven numbers do appear elsewhere in the register, and where they appear matters for exactly one of the readings.**
 
@@ -202,7 +202,7 @@ orders of magnitude below that threshold at the observed rate. No plausible corr
 
 **The second reading needs an instrument for reserving a block of design numbers, and the governing instruction contains none.** The 2020 instruction's only reservations are of administrative authority and of intermediate block numbers within a production series, which are not design numbers \[[DAFI 16-401][ref_dafi_16_401_2020]]. The 2005 edition's coordinating office would assign and reserve the next available consecutive design number, one number for one request \[[AFI 16-401(I), 14 April 2005][ref_afi_16_401_2005]].
 
-**The reservations the record does show are single numbers and they are cautionary.** The compiler records that the X-39 was reserved in 1997 and lapsed because no formal request followed, and that a V-19A was reserved in 1977 and cancelled in 1980 when the responsible office could find nothing on what it had been for \[[Missing USAF and DOD Aircraft Designations][ref_missing_mds]]. **No reservation of a range appears anywhere in the register, the missing-designations page or the four editions of the rule this series has read.** The reading is not refuted, since an unrecorded reservation leaves no record by definition. **It is unsupported, and it predicts nothing the first reading does not.**
+**The reservations the record does show are single numbers and they are cautionary.** The compiler records that the X-39 was reserved in 1997 and lapsed because no formal request followed, and that a V-19A was reserved in 1977 and cancelled in 1980 when the responsible office could find nothing on what it had been for \[[Missing USAF and DOD Aircraft Designations][ref_missing_mds]]. **No reservation of a range appears anywhere in the register, the missing-designations page or the six editions of the rule this series has read.** The reading is not refuted, since an unrecorded reservation leaves no record by definition. **It is unsupported, and it predicts nothing the first reading does not.**
 
 ### Seven Skips at the Agency's Discretion
 
@@ -734,7 +734,7 @@ The shares measure titles and do not interpret findings. They show that the fiel
 - DARPA's and the contractor's releases of 9 March 2026.
 - The compiler's revised note on the X-76A quoting DARPA.
 - The observation that no X-69 or X-77 is public as of 2 October 2026.
-- The register's copy last updated 23 August 2026, from which every row count is taken.
+- The register's copy last updated 23 August 2026, from which every row count is taken, with the counts of the version current on this article's date stated beside them where they differ.
 
 ### What the Record Does Not Settle
 

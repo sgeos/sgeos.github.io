@@ -14,6 +14,8 @@ series_index: 59
 
 **The designation X-58 appears exactly once in a register of 539 allocations, inside a note about a different aeroplane, in a parenthesis, saying that it does not exist** \[[Parsch, DOD 4120.15-L Addendum][ref_mds_addendum]\]. The register is the list of designations allocated since August 1998 that Andreas Parsch compiles from data the Department of Defense has released, and every count in this article is taken from all 539 rows of the copy he last updated on 23 August 2026. The note reads that the out-of-sequence number 58 of the Kratos Valkyrie was taken from the X-series, and that there is no X-58.
 
+**That copy is later than this article's date.** The version current on that date, the compiler's update of 11 August 2025 as the Internet Archive captured it on 25 November 2025, held 526 rows, twenty-nine of them X rows, and lacked fifteen later rows that include the X-68A and the X-76A \[[Parsch, DOD 4120.15-L Addendum, 11 August 2025][ref_mds_addendum_2025]\]. Its X numbers ended at 66, so the gaps between 44 and 66 were 52 and 58, the out-of-sequence Q numbers inside the X range were 42, 44 and 58, and 58 was the only one of them that was an X gap. Under that version 13 of the twenty-nine X rows, or 44.8 percent, described an unmanned aeroplane, 91 rows had no engine listed, and the series consumed 1.083 numbers a year over 24 years, giving about 861.2 years of headroom and about 11.1 months of allocation for one skipped number. **The gap at 67 and the X-68A row that shows it became public only in a later update**, so the parts of this article that rest on them describe the register after this article's date. The X-58 note, the XQ-58A row and the absence of the Q symbol from every X row are the same in both versions.
+
 This is the fifty-ninth article in the [X-Planes series][related_post_a297_framing], following the [X-1][related_post_a298_bell_x1], the [X-2][related_post_a299_bell_x2], the [X-3][related_post_a300_douglas_x3], the [X-4][related_post_a301_northrop_x4], the [X-5][related_post_a302_bell_x5], the [X-6][related_post_a303_convair_x6], the [X-7][related_post_a304_lockheed_x7], the [X-8][related_post_a305_aerojet_x8], the [X-9][related_post_a306_bell_x9], the [X-10][related_post_a307_north_american_x10], the [X-11][related_post_a308_convair_x11], the [X-12][related_post_a309_convair_x12], the [X-13][related_post_a310_ryan_x13], the [X-14][related_post_a311_bell_x14], the [X-15][related_post_a312_north_american_x15], the [X-16][related_post_a313_bell_x16], the [X-17][related_post_a314_lockheed_x17], the [X-18][related_post_a315_hiller_x18], the [X-19][related_post_a316_curtiss_wright_x19], the [X-20][related_post_a317_boeing_x20], the [X-21][related_post_a318_northrop_x21], the [X-22][related_post_a319_bell_x22], the [X-23][related_post_a320_martin_marietta_x23], the [X-24][related_post_a321_martin_marietta_x24], the [X-25][related_post_a322_bensen_x25], the [X-26][related_post_a323_schweizer_x26], the [X-27][related_post_a324_lockheed_x27], the [X-28][related_post_a325_osprey_x28], the [X-29][related_post_a326_grumman_x29], the [X-30][related_post_a327_rockwell_x30], the [X-31][related_post_a328_rockwell_mbb_x31], the [X-32][related_post_a329_boeing_x32], the [X-33][related_post_a330_lockheed_martin_x33], the [X-34][related_post_a331_orbital_sciences_x34], the [X-35][related_post_a332_lockheed_martin_x35], the [X-36][related_post_a333_mcdonnell_douglas_x36], the [X-37][related_post_a334_boeing_x37], the [X-38][related_post_a335_scaled_composites_x38], the [X-39][related_post_a336_x39_reserved_never_assigned], the [X-40][related_post_a337_boeing_x40], the [X-41][related_post_a338_x41_common_aero_vehicle], the [X-42][related_post_a339_orbital_sciences_x42], the [X-43][related_post_a340_micro_craft_x43], the [X-44][related_post_a341_x44_two_aircraft], the [X-45][related_post_a342_boeing_x45], the [X-46][related_post_a343_boeing_x46], the [X-47][related_post_a344_northrop_grumman_x47], the [X-48][related_post_a345_boeing_x48], the [X-49][related_post_a346_piasecki_x49], the [X-50][related_post_a347_boeing_x50], the [X-51][related_post_a348_boeing_x51], the [X-52][related_post_a349_x52_designation_refused], the [X-53][related_post_a350_boeing_x53], the [X-54][related_post_a351_gulfstream_x54], the [X-55][related_post_a352_lockheed_martin_x55], the [X-56][related_post_a353_lockheed_martin_x56], and the [X-57][related_post_a354_esaero_x57_maxwell].
 
 **The [X-39][related_post_a336_x39_reserved_never_assigned] and the [X-52][related_post_a349_x52_designation_refused] each reached this series as a number rather than as an aeroplane, and the X-58 is a third case with a third mechanism.** The first was reserved and then lost because nobody wrote the letter that would have assigned it. The second was requested in writing, considered, and refused for resembling a number already in use \[[Missing USAF and DOD Aircraft Designations][ref_missing_mds]\]. **The X-58 was neither reserved nor refused. It was skipped, and the number was spent somewhere else while it was still the next one due** \[[Missing USAF and DOD Aircraft Designations][ref_missing_mds]\] \[[Parsch, DOD 4120.15-L Addendum][ref_mds_addendum]\].
@@ -73,7 +75,7 @@ This is the fifty-ninth article in the [X-Planes series][related_post_a297_frami
 
 ### Two Readings of the Letters, and a Wrong Number Under Both
 
-**The governing instruction is a public document and it settles more of this than the commentary does.** Department of the Air Force Instruction 16-401, dated 3 November 2020, defines the designation and the process by which one is requested and approved \[[DAFI 16-401][ref_dafi_16_401_2020]\]. Its predecessors go back to 1962 and the earlier issues are also public \[[AFI 16-401][ref_afi_16_401]\].
+**The governing instruction is a public document and it settles more of this than the commentary does.** The issue in force when the XQ-58A was allocated in 2017 and the X-59A in 2018 was Air Force Instruction 16-401 of 16 May 2014, which defines the designation and the process by which one is requested and approved \[[AFI 16-401, 16 May 2014][ref_afi_16_401_2014]\]. Department of the Air Force Instruction 16-401, dated 3 November 2020, superseded it \[[DAFI 16-401][ref_dafi_16_401_2020]\], and each provision below is cited to the issue that carries it. The predecessors of both go back to 1962 and the earlier issues are also public \[[AFI 16-401][ref_afi_16_401]\].
 
 **A designation is built from six positions and the letter X occupies two of them.** The order is status prefix, modified mission, basic mission, vehicle type, design number, series letter \[[Current Designations of U.S. Military Aircraft][ref_mds_aircraft]\]. **X is the status prefix for experimental and also the basic mission symbol for special research.** The same letter, in adjacent positions, meaning two different things.
 
@@ -88,7 +90,7 @@ This is the fifty-ninth article in the [X-Planes series][related_post_a297_frami
 
 #### The Instruction Requires a Mission Symbol at Its Highest Tier
 
-**Under the status prefix parse the designation is missing a required element.** The instruction states that the vehicle type symbol is required for all non-standard aircraft and that a basic mission or modified mission symbol must accompany it, and marks the requirement T-0 \[[DAFI 16-401][ref_dafi_16_401_2020]\]. **A T-0 requirement is one whose waiver authority sits outside the publishing organisation**, the strongest tier the instruction uses \[[AFI 16-401][ref_afi_16_401]\].
+**Under the status prefix parse the designation is missing a required element.** The instruction states that the vehicle type symbol is required for all non-standard aircraft and that a basic mission or modified mission symbol must accompany it, and marks the requirement T-0 \[[DAFI 16-401][ref_dafi_16_401_2020]\]. The 2014 issue in force at the allocation states the same requirement without a tier marking \[[AFI 16-401, 16 May 2014][ref_afi_16_401_2014]\]. **A T-0 requirement is one whose waiver authority sits outside the publishing organisation**, the strongest tier the instruction uses \[[AFI 16-401][ref_afi_16_401]\].
 
 **The basic mission symbol is also required independently.** The instruction calls it a required designator symbol for all standard and non-standard aircraft, and that it identifies the primary function and capability of the vehicle \[[DAFI 16-401][ref_dafi_16_401_2020]\].
 
@@ -96,17 +98,17 @@ This is the fifty-ninth article in the [X-Planes series][related_post_a297_frami
 
 #### The Design Number Is Scoped by One Letter and the Instruction Says Which
 
-**The instruction is explicit that each series has its own sequence.** Each vehicle type and basic mission symbol forms a separate series of design numbers, and the numbers in each series are to be assigned in strict numerical sequence **without reference to existing numbers in other series** \[[Current Designations of U.S. Military Aircraft][ref_mds_aircraft]\] \[[DAFI 16-401][ref_dafi_16_401_2020]\].
+**The instruction is explicit that each series has its own sequence.** Each vehicle type and basic mission symbol forms a separate series of design numbers, and the numbers in each series are to be assigned in strict numerical sequence **without reference to existing numbers in other series** \[[Current Designations of U.S. Military Aircraft][ref_mds_aircraft]\] \[[AFI 16-401, 16 May 2014][ref_afi_16_401_2014]\] \[[DAFI 16-401][ref_dafi_16_401_2020]\].
 
-**The instruction also tells a requester how to find the right number.** For a non-standard aircraft, the requester is to reference the basic mission and vehicle type designators, research the last approved design number of that combination, and determine the next in series from it \[[DAFI 16-401][ref_dafi_16_401_2020]\]. **The instruction contains the procedure that would have produced a Q-series number.**
+**The instruction also tells a requester how to find the right number.** For a non-standard aircraft, the requester is to reference the basic mission and vehicle type designators, research the last approved design number of that combination, and determine the next in series from it \[[AFI 16-401, 16 May 2014][ref_afi_16_401_2014]\] \[[DAFI 16-401][ref_dafi_16_401_2020]\]. **The instruction contains the procedure that would have produced a Q-series number.**
 
 **The register shows how far away from that number the allocation landed.** The highest in-sequence Q number the register carries with a date on or before July 2017 is 27, so the number 58 sits 31 above it. **The registry's published figure for the next available Q number is 31**, and that number is cited rather than derived here, because the addendum is a supplement and not a complete list and a naive scan of it reports a free number that is not free \[[Missing USAF and DOD Aircraft Designations][ref_missing_mds]\].
 
 #### And Then the Instruction Reserves the Right to Break Its Own Rule
 
-**One sub-paragraph after the sentence requiring consecutive numbering, the instruction grants the allocating office unlimited discretion to skip.** The words are that the office reserves the authority to skip design number at discretion \[[DAFI 16-401][ref_dafi_16_401_2020]\]. **No criterion is given, no reason is required to be recorded, and no appeal is described.**
+**One sub-paragraph after the sentence requiring consecutive numbering, the instruction grants the allocating office unlimited discretion to skip.** The words are that the office reserves the authority to skip design number at discretion, and the 2014 issue in force at the time adds that skipped design numbers cannot be requested or used \[[AFI 16-401, 16 May 2014][ref_afi_16_401_2014]\] \[[DAFI 16-401][ref_dafi_16_401_2020]\]. **No criterion is given, no reason is required to be recorded, and no appeal is described.**
 
-**That office is the same one that refused the X-52.** Authority for designating and naming military aerospace vehicles is delegated to the Air Force Directorate of Programs, Program Integration Division, and the [X-52][related_post_a349_x52_designation_refused] was refused by that office \[[DAFI 16-401][ref_dafi_16_401_2020]\] \[[Allocation of Official Aerospace Vehicle MDS Designations][ref_mds_allocation]\] \[[Missing USAF and DOD Aircraft Designations][ref_missing_mds]\].
+**That office is the same one that refused the X-52.** Authority for designating and naming military aerospace vehicles is delegated to the Air Force Directorate of Programs, Program Integration Division, and the [X-52][related_post_a349_x52_designation_refused] was refused by that office \[[AFI 16-401, 16 May 2014][ref_afi_16_401_2014]\] \[[DAFI 16-401][ref_dafi_16_401_2020]\] \[[Allocation of Official Aerospace Vehicle MDS Designations][ref_mds_allocation]\] \[[Missing USAF and DOD Aircraft Designations][ref_missing_mds]\].
 
 **The answer to the article's opening question lies in administration and owes no part to aeronautics.** The X-58 does not exist because a number was skipped by an authority that had reserved the power to skip numbers and was under no obligation to say why. **The gap is neither a mistake nor a mystery. It is a discretion being exercised, and the instrument that records it records only the outcome.**
 
@@ -938,7 +940,7 @@ $$
 
 ## The Source Base
 
-**53 books and reference documents carry the argument and 2,066 research records map the field, and this article keeps them apart on purpose.** The designation half of the argument rests on four documents, being the register, the registry's missing-designations page, the registry's page for this vehicle and the governing instruction. **Those are not commentary on the evidence. They are the evidence**, because the question is what a document does and does not contain.
+**55 books and reference documents carry the argument and 2,066 research records map the field, and this article keeps them apart on purpose.** The designation half of the argument rests on four documents, being the register, the registry's missing-designations page, the registry's page for this vehicle and the governing instruction. **Those are not commentary on the evidence. They are the evidence**, because the question is what a document does and does not contain.
 
 **The research survey holds 2,066 research records drawn from the journal and conference literature indexed by Crossref, the National Aeronautics and Space Administration's Technical Reports Server and the Defense Technical Information Center**, of which 389 are report primaries, being 18.8 percent, by the identifier rule set out under The Definition of Primary. **The median publication year is 2015.** Of the 1,974 dated records, 881 were published in 2017, the year the number was allocated, or later, being 44.6 percent.
 
@@ -1011,7 +1013,7 @@ $$
 
 ### Verified by Reading the Document
 
-**The register, in the copy last updated on 23 August 2026, carries 539 allocation rows and 31 of them are X designations.** **15 of those 31 describe an unmanned aeroplane and zero of them carry the Q vehicle type symbol.** Both counts come from the register, and neither is taken from a secondary source.
+**The register, in the copy last updated on 23 August 2026, carries 539 allocation rows and 31 of them are X designations.** **15 of those 31 describe an unmanned aeroplane and zero of them carry the Q vehicle type symbol.** Both counts come from the register, and neither is taken from a secondary source. Under the version current on this article's date the register carried 526 rows and twenty-nine X rows, 13 of them unmanned, as the opening sets out \[[Parsch, DOD 4120.15-L Addendum, 11 August 2025][ref_mds_addendum_2025]\].
 
 **The three gaps in the X run from 44 to 68 are 52, 58 and 67.** **The out-of-sequence Q numbers inside the range the X series occupies are 42, 44, 48, 58, 67, 72 and 73, of which 58, 67, 72 and 73 are X gaps.**
 
@@ -1129,6 +1131,7 @@ $$
 ### Reference
 
 - [AFI 16-401, Designating and Naming Defense Military Aerospace Vehicles][ref_afi_16_401]
+- [AFI 16-401, Designating and Naming Defense Military Aerospace Vehicles, 16 May 2014][ref_afi_16_401_2014]
 - [Air Force Research Laboratory][ref_afrl]
 - [Factsheet Technology, XQ-58A Valkyrie, Air Force Research Laboratory][ref_afrl_factsheet]
 - [XQ-58A Valkyrie, Air Force Research Laboratory][ref_afrl_xq58]
@@ -1150,6 +1153,7 @@ $$
 - [Lanchester's laws][ref_lanchester_laws]
 - [Experience curve effects][ref_learning_curve]
 - [Parsch, DOD 4120.15-L Addendum, MDS Designators Allocated After 19 August 1998][ref_mds_addendum]
+- [Parsch, DOD 4120.15-L Addendum, 11 August 2025, Internet Archive capture of 25 November 2025][ref_mds_addendum_2025]
 - [Current Designations of U.S. Military Aircraft][ref_mds_aircraft]
 - [Allocation of Official Aerospace Vehicle MDS Designations][ref_mds_allocation]
 - [Missing USAF and DOD Aircraft Designations][ref_missing_mds]
@@ -3253,6 +3257,7 @@ $$
 [book_roskam]: https://openlibrary.org/works/OL6612012W
 [book_washburn]: https://openlibrary.org/works/OL21264943W
 [ref_afi_16_401]: https://irp.fas.org/doddir/usaf/16-401.htm
+[ref_afi_16_401_2014]: https://www.designation-systems.net/usmilav/afi16-401(2014).pdf
 [ref_afrl]: https://en.wikipedia.org/wiki/Air_Force_Research_Laboratory
 [ref_afrl_factsheet]: https://afresearchlab.com/wp-content/uploads/2020/09/AFRL_XQ-58A_FS_240307.pdf
 [ref_afrl_xq58]: https://afresearchlab.com/xq-58a-valkyrie/
@@ -3274,6 +3279,7 @@ $$
 [ref_lanchester_laws]: https://en.wikipedia.org/wiki/Lanchester%27s_laws
 [ref_learning_curve]: https://en.wikipedia.org/wiki/Experience_curve_effects
 [ref_mds_addendum]: https://www.designation-systems.net/usmilav/412015-L(addendum).html
+[ref_mds_addendum_2025]: https://web.archive.org/web/20251125110610/http://www.designation-systems.net/usmilav/412015-L(addendum).html
 [ref_mds_aircraft]: https://www.designation-systems.net/usmilav/aircraft.html
 [ref_mds_allocation]: https://www.designation-systems.net/usmilav/mdsallocation.html
 [ref_missing_mds]: https://www.designation-systems.net/usmilav/missing-mds.html

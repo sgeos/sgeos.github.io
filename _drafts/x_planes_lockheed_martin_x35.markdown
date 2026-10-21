@@ -569,7 +569,9 @@ separate aircraft carrying the carrier variant's larger wing and
 The demonstrators were [deliberately simpler than the production aircraft][ref_codeone]. They carried no
 weapons bays, no radar, no mission systems and no low-observable treatment of the kind the product would
 need, and they used off-the-shelf components wherever schedule allowed.
-**The X-35A's [published empty weight of 26,500 pounds and maximum takeoff weight of fifty thousand pounds][ref_x35] belong to a machine built to answer a question, not to fight.**
+**The X-35A's [published empty weight of 26,500 pounds][ref_x35] belongs to a machine built to answer a question, not to fight.**
+The maximum takeoff weight of fifty thousand pounds printed beside it is the figure of the
+[1998 operational requirement][ref_tirpak_1998].
 
 ## Dependent Systems
 
@@ -922,15 +924,23 @@ $$\frac{T_{\text{total}}}{W} = \frac{41{,}900}{34{,}000} = 1.232$$
 refuelling, and that by the end fuel and time were short enough that the last set of test points was
 dropped. The weight is therefore bounded rather than known. Its floor is the empty weight plus the fuel
 the sortie burned, since the aircraft must have carried at least that much, and its ceiling is the empty
-weight plus the [15,000 pounds of internal fuel][ref_x35] the aircraft could hold. Published empty weights
-disagree. The [X-35 reference][ref_x35] gives 26,500 pounds for the X-35A and 30,697 pounds for the X-35B,
-and [another compilation][ref_aerospaceweb_x35] gives about 23,500 pounds for the X-35B. The bracket takes
-the 30,697 pounds that the X-35 reference gives for this variant, since the internal fuel figure comes from
-the same table. The lower compilation figure would lower both ends of the bracket by 7,197 pounds. Assuming that burn to be 3,500 pounds,
-and neglecting the pilot and the test instrumentation, both
-of which add to every weight in the bracket,
+weight plus the [15,000 pounds of internal fuel][ref_x35] the aircraft could hold. Assuming that burn to be
+3,500 pounds, and neglecting the pilot and the test instrumentation, both of which add to every weight in the
+bracket,
 
 $$W_{\text{TO}} = W_{\text{empty}} + W_{\text{fuel}}, \qquad 30{,}697 + 3{,}500 = 34{,}197 \ \le \ W_{\text{TO}} \ \le \ 30{,}697 + 15{,}000 = 45{,}697 \ \text{lb}$$
+
+**The empty weight in that bracket is the least certain input, and no weighing record for the X-35B is public.**
+The [X-35 reference][ref_x35] gives 26,500 pounds for the X-35A and 30,697 pounds for the X-35B. Another
+[compilation][ref_aerospaceweb_x35] gives about 22,000 pounds for the X-35A and about 23,500 pounds for the
+X-35B. The bracket takes the 30,697 pounds. Its excess of 4,197 pounds over the X-35A figure lies within five
+percent of the [4,000 pounds that the lift fan installation was reported in 1998 to add][ref_tirpak_1998] to
+the Lockheed Martin design. The compilation's excess is 1,500 pounds, and its X-35A figure equals the
+[dry weight of about 22,000 pounds][ref_tirpak_1998] in that year's operational requirement, which suggests
+a requirement figure in place of a measured one. The lower figure would move both ends of the bracket down by
+7,197 pounds, to between 27,000 and 38,500 pounds. The internal fuel figure also matches that requirement,
+which asked for 15,000 pounds or more, so the ceiling may describe the production design's tanks more
+closely than the demonstrator's.
 
 At the ceiling the margin is
 
@@ -939,15 +949,18 @@ $$\frac{T_{\text{total}}}{W_{\text{TO}}} = \frac{41{,}900}{45{,}697} = 0.9169$$
 **which is below unity, so at full internal fuel the X-35B could not have taken off vertically at all.**
 Vertical takeoff needs a weight below 41,900 pounds, which is a fuel load below 11,203 pounds, or about three
 quarters of the internal capacity, before the 3.354 percent of thrust that the corrected-flow relation above
-removes for a ten kelvin inlet temperature rise is counted. Every X-35B vertical takeoff, hover and
+removes for a ten kelvin inlet temperature rise is counted. Taken at the round
+[40,000 pounds of vertical force][ref_lm_conversion] that the 2001 releases credit to the X-35B, the limit
+falls to a fuel load of 9,303 pounds, or 62 percent of capacity, and the margin at 34,000 pounds falls to
+1.176. Under the lower compilation empty weight the margin at full internal fuel would instead be 1.088. Every X-35B vertical takeoff, hover and
 landing was also
 [flown at 2,500 feet elevation in temperatures up to 94 degrees Fahrenheit][ref_lm_conversion], conditions
 that the sea-level standard thrust does not describe.
 
 **So the claim holds only in a narrowed form.** At 34,000 pounds, and at any Mission X takeoff weight with
 well under three quarters of the internal fuel, the X-35B could have taken off vertically, and the short takeoff
-demonstrated a technique rather than relieving a constraint. Above about three quarters the weight exceeds the
-sea-level vertical thrust, short of it the margin is smaller than what temperature and elevation plausibly
+demonstrated a technique rather than relieving a constraint. On the 30,697 pound empty weight, above about three
+quarters the weight exceeds the sea-level vertical thrust, short of it the margin is smaller than what temperature and elevation plausibly
 consume, and the fuel Mission X carried has
 never been released. A short takeoff exists in the operational requirement because the aeroplane that matters will be
 heavier than its vertical thrust, and will need wing lift to get airborne with a useful load. The record does
@@ -1052,7 +1065,8 @@ $$\frac{T_{\text{total}}}{W_{\text{land}}} \cdot \frac{T_{\text{amb}}}{T_{\text{
 
 **The vertical landing that ended Mission X therefore bounds its takeoff weight.** With the assumed burn the
 landing weight lies within the sea-level vertical thrust only for a takeoff weight below 45,400 pounds, which
-excludes the top of the bracket, and a hot day lowers that bound further. What the bracket removes
+excludes the top of the bracket. At the round 40,000 pounds of the 2001 releases the bound is 43,500 pounds,
+and a hot day lowers it further. What the bracket removes
 is the single figure. The documented 34,000 pounds of 26 July lies below the floor of the bracket, and with
 the assumed burn it would imply a landing weight of 30,500 pounds, under the empty weight the bracket uses,
 so it is not a Mission X case.
@@ -1786,8 +1800,10 @@ two-stage counter-rotating fan producing twenty thousand pounds force from twent
 horsepower, a three-bearing swivel module passing eighteen thousand pounds force and rotating ninety-five
 degrees in 2.5 seconds, and roll posts of 1,950 pounds force each. Those figures rest on that single
 encyclopaedic reference, and the 2001 company releases give the X-35B only a round total of nearly 40,000
-pounds of vertical force. Published empty weights for the X-35B disagree, and the takeoff-weight bracket
-uses the higher of them, the 30,697 pounds of the X-35 reference.
+pounds of vertical force. Published empty weights for the X-35B disagree, and none rests on a public
+weighing record. The takeoff-weight bracket uses the higher, the 30,697 pounds of the X-35 reference, because
+its excess over the X-35A agrees with the [4,000 pounds reported in 1998][ref_tirpak_1998] for the lift fan
+installation. The 15,000 pound internal fuel figure matches the operational requirement of that year.
 
 ### Engineering Analysis
 
@@ -1828,7 +1844,8 @@ necessary rather than merely desirable is an inference from an inverted threshol
 bracket of assumed roll-post positions. That the short takeoff was optional, a demonstration of
 technique, follows from the thrust margin of 1.232 at 34,000 pounds and is close to a deduction at that
 weight, but no Mission X takeoff weight is published, and at the ceiling of the bracket, empty weight plus
-full internal fuel, the margin is 0.9169 and the deduction fails.
+full internal fuel, the margin is 0.9169 and the deduction fails. Under the lower published empty weight of
+23,500 pounds the ceiling margin would be 1.088 and the deduction would hold across the bracket.
 **That the conversion was the expensive event is an inference from the momentum drag**, a physical
 force of computed magnitude, but the step from a large force to a hard piloting task has not been
 measured, since no workload data for these sorties is public.
@@ -1880,7 +1897,8 @@ element of it had been flown before 20 July 2001, the first in-flight conversion
 earlier on a sortie that went faster, and the arithmetic shows that none of the three events was
 individually demanding for an aircraft with 41,900 pounds force of vertical thrust at the 34,000 pounds it is
 documented to have weighed on 26 July. No Mission X weight is published, and the short takeoff was flown by
-an aeroplane that could have gone straight up unless it carried more than about three quarters of its internal fuel. The supersonic dash raised the
+an aeroplane that, on the higher of the published empty weights, could have gone straight up unless it carried
+more than about three quarters of its internal fuel. The supersonic dash raised the
 stagnation temperature 3.1 kelvin above a standard sea-level day. The vertical landing happened at the
 lightest weight of the sortie, in the ordering that makes it easiest at any takeoff weight in the bracket.
 
@@ -2090,6 +2108,7 @@ nobody remembers the date.
 - [Rolls-Royce LiftSystem][ref_liftfan]
 - [Short takeoff and vertical landing][ref_stovl]
 - [The X-35B in the National Air and Space Museum collection][ref_x35b]
+- [Tirpak, Scoping Out the New Strike Fighter, Air Force Magazine, October 1998][ref_tirpak_1998]
 - [Tomassetti, Above and Beyond, Mission X, Air and Space Smithsonian, May 2002][ref_tomassetti]
 - [Yakovlev Yak-141][ref_yak141]
 
@@ -2115,6 +2134,7 @@ nobody remembers the date.
 [ref_momentum]: https://en.wikipedia.org/wiki/Momentum_theory
 [ref_patent]: https://patents.google.com/patent/US5209428A/en
 [ref_stovl]: https://en.wikipedia.org/wiki/STOVL
+[ref_tirpak_1998]: https://www.airandspaceforces.com/article/1098strike/
 [ref_tomassetti]: https://www.smithsonianmag.com/air-space-magazine/above-amp-beyond-mission-x-27960302/
 [ref_x32]: https://en.wikipedia.org/wiki/Boeing_X-32
 [ref_x35]: https://en.wikipedia.org/wiki/Lockheed_Martin_X-35

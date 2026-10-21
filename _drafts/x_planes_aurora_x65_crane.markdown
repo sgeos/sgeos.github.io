@@ -36,7 +36,7 @@ The questions are therefore these. **How much control authority can a jet of air
 
 ## The Register Row, and a Turbofan Described as a Turbojet
 
-Andreas Parsch's addendum to DOD 4120.15-L, a compilation of the designations allocated after August 1998 that he publishes at designation-systems.net from Department of Defense sources, gives the row above and no more. The compiler notes that the official description of an allocation made after October 2018 is not releasable, and he marks this row's description as his own reading and not official Department of Defense wording \[[Parsch, DOD 4120.15-L Addendum][ref_mds_addendum]\]. **Like most of its recent neighbours the X-65A row carries no note.** Of the 31 X-series rows in the copy the compiler last updated on 23 August 2026, 12 carry a note, and of the eleven allocated in 2018 or later, counting the X-56B whose date the register gives as 2019 with a query mark, only the X-76A row does, so the register's supplementary apparatus is silent here as it is for most recent allocations.
+Andreas Parsch's addendum to DOD 4120.15-L, a compilation of the designations allocated after August 1998 that he publishes at designation-systems.net from Department of Defense sources, gives the row above and no more. The compiler notes that the official description of an allocation made after October 2018 is not releasable, and he marks this row's description as his own reading and not official Department of Defense wording \[[Parsch, DOD 4120.15-L Addendum][ref_mds_addendum]\]. **Like most of its recent neighbours the X-65A row carries no note.** Of the 31 X-series rows in the copy the compiler last updated on 23 August 2026, 12 carry a note, and of the eleven allocated in 2018 or later, counting the X-56B whose date the register gives as 2019 with a query mark, only the X-76A row does, so the register's supplementary apparatus is silent here as it is for most recent allocations. That copy is later than this article's date. The version current on that date, the compiler's update of 11 August 2025 as the Internet Archive captured it on 25 November 2025, held 526 rows, twenty-nine of them X rows, and lacked fifteen later rows that include the X-68A and the X-76A \[[Parsch, DOD 4120.15-L Addendum, 11 August 2025][ref_mds_addendum_2025]\]. Under that version 11 of the twenty-nine X rows carried a note and none of the nine allocated in 2018 or later did, so on this article's date the silence covered every recent allocation.
 
 The encyclopedia entry on the aircraft describes it as having a joined tandem wing in a diamond configuration, twin vertical tails, **and a single turbojet engine** \[[Aurora X-65 CRANE][ref_ds_x65]\]. **The engine named in the register's cell is a turbofan.** The test report on that engine by the National Aeronautics and Space Administration, NASA, describes the FJ44-3A as a dual-spool low-bypass-ratio turbofan, certified in 2004 under Federal Aviation Regulations Parts 23 and 25 \[[FJ44 turbofan engine test][ref_fj44_test]\], which was read in full for this article. **A low-bypass turbofan is the nearest thing to a turbojet that a turbofan can be**, so the description errs in a forgiving direction. The error is recorded because the distinction matters to the air budget below.
 
@@ -1307,6 +1307,7 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 - [Defense Advanced Research Projects Agency, RDT&E Programs Justification Book, President's Budget 2025][ref_darpa_rdte_2025]
 - [Defense Advanced Research Projects Agency, RDT&E Programs Justification Book, President's Budget 2026, June 2025][ref_darpa_rdte_2026]
 - [Parsch, DOD 4120.15-L Addendum, MDS Designators Allocated After 19 August 1998][ref_mds_addendum]
+- [Parsch, DOD 4120.15-L Addendum, 11 August 2025, Internet Archive capture of 25 November 2025][ref_mds_addendum_2025]
 - [Lauer and others, FJ44 Turbofan Engine Test at NASA Glenn Research Center's Aero-Acoustic Propulsion Laboratory, NASA/TM-2009-215594][ref_fj44_test]
 - [Losey, Two-year flight delay for DARPA X-plane that steers with air bursts, Defense News, 20 November 2025][ref_defensenews_delay]
 - [Smithsonian National Air and Space Museum, 1903 Wright Flyer, collection record][ref_nasm_flyer]
@@ -1326,6 +1327,7 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 [ref_ds_x65]: https://www.designation-systems.net/dusrm/app4/x-65.html
 [ref_fj44_test]: https://ntrs.nasa.gov/citations/20090022124
 [ref_mds_addendum]: https://www.designation-systems.net/usmilav/412015-L(addendum).html
+[ref_mds_addendum_2025]: https://web.archive.org/web/20251125110610/https://www.designation-systems.net/usmilav/412015-L(addendum).html
 [ref_nasm_flyer]: https://airandspace.si.edu/collection-objects/1903-wright-flyer/nasm_A19610048000
 [ref_usaspending]: https://www.usaspending.gov/
 

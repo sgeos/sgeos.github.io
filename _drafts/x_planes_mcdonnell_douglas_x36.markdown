@@ -18,8 +18,8 @@ begins there. **The more interesting number is 28 percent.** The aircraft was a
 [National Aeronautics and Space Administration's programme account][ref_nasa_x36] and its
 [inventory of American X-vehicles][ref_american_x_vehicles] both describe as a 28 percent scale
 representation of a fighter. It flew with nobody aboard, from a [ground station][ref_nasa_x36] whose pilot watched through a
-camera in its nose. Its [published specification][ref_x36] gives a maximum weight of 1,270 pounds and a
-height of 0.946 metres. This is the thirty-seventh article
+camera in its nose. Its test pilot's report, [Walker 1997][research_walkerlaurencea_1997], gives a takeoff gross weight of 1,245 pounds, and its
+[published specification][ref_x36] a height of 0.946 metres. This is the thirty-seventh article
 in the [X-Planes series][related_post_a297_xplanes_framing], following the [X-1][related_post_a298_bell_x1],
 the [X-2][related_post_a299_bell_x2], the [X-3][related_post_a300_douglas_x3], the
 [X-4][related_post_a301_northrop_x4], the [X-5][related_post_a302_bell_x5], the
@@ -191,24 +191,25 @@ section below computes both Reynolds numbers so that the factor does not have to
 **If the aeroplane is a Froude-scaled model then its weight fixes the aeroplane it stands for**,
 because mass scales as the cube of length. Inverting,
 
-$$W_f = \frac{W_m}{\lambda^{3}} = \frac{1{,}270}{0.28^{3}} = 57{,}853 \ \text{lb}$$
+$$W_f = \frac{W_m}{\lambda^{3}} = \frac{1{,}245}{0.28^{3}} = 56{,}715 \ \text{lb}$$
 
-and its empty weight likewise gives 49,654 pounds, while its dimensions give a full-scale length of 19.82
-metres and a span of 11.34 metres.
+and its operating empty weight likewise gives 49,335 pounds, while its dimensions give a full-scale length of 19.82
+metres and a span of 11.34 metres. The 1,270 pound maximum weight of the [published specification][ref_x36]
+would give 57,853 pounds instead, 2.008 percent more, which changes nothing that follows.
 
 **Those numbers describe a real class of aeroplane.** Sixty-five feet long, thirty-seven feet in span and
-fifty-eight thousand pounds is the size of a heavy twin-engined fighter, a plausible class for the theoretical
+fifty-seven thousand pounds is the size of a heavy twin-engined fighter, a plausible class for the theoretical
 advanced fighter that the [programme account][ref_nasa_x36] says the aircraft represented.
 **The consistency is not a proof, because the designers chose the model's weight and could have chosen it to be consistent. It is a check that would have failed loudly had the aircraft not been dynamically scaled at all**,
 and it did not fail.
 
-The speeds convert the same way. The [published specification][ref_x36] gives a 243 knot maximum speed
-limit and a 110 knot approach speed, and dividing each by the velocity ratio gives the full-scale equivalent,
+The speeds convert the same way. [Walker 1997][research_walkerlaurencea_1997] gives a dynamic pressure limit of 200 pounds per square foot, equal
+to 243 knots at sea level, and a 112 knot approach speed, and dividing each by the velocity ratio gives the full-scale equivalent,
 
-$$V_f = \frac{V_m}{\sqrt{\lambda}} = \frac{243}{0.5292} = 459.2 \ \text{kt} \qquad V_f = \frac{110}{0.5292} = 207.9 \ \text{kt}$$
+$$V_f = \frac{V_m}{\sqrt{\lambda}} = \frac{243}{0.5292} = 459.2 \ \text{kt} \qquad V_f = \frac{112}{0.5292} = 211.6 \ \text{kt}$$
 
 for model speed $V_m$ and full-scale speed $V_f$.
-**A 208 knot approach is fast for a fighter.**
+**A 212 knot approach is fast for a fighter.**
 
 The same cluster on similitude, dynamic scaling and subscale flight testing holds the research records behind this check.
 
@@ -276,33 +277,33 @@ $$C_{n\beta}^{\text{body}} = -\left(k_2 - k_1\right) \frac{2 \, \mathrm{Vol}}{S 
 
 | Fuselage volume | $C_{n\beta}$ per radian | Per degree |
 |---|---|---|
-| 0.60 m³ | 0.1041 | 0.001816 |
-| 0.80 m³ | 0.1388 | 0.002422 |
-| 1.00 m³ | 0.1734 | 0.003027 |
+| 0.60 m³ | 0.1091 | 0.001905 |
+| 0.80 m³ | 0.1455 | 0.002540 |
+| 1.00 m³ | 0.1819 | 0.003175 |
 
-**The derived value at the middle of the bracket is 0.002422 per degree, which is 2.018 times the assumed value of 0.0012, a figure typical of a tailless configuration.**
+**The derived value at the middle of the bracket is 0.002540 per degree, which is 2.117 times the assumed value of 0.0012, a figure typical of a tailless configuration.**
 That matters, and in a welcome direction. **The assumed figure is the optimistic one**, so the
 aircraft was more unstable than the rows computed from it suggest, and
 **every conclusion that survives the optimistic case survives the derived one more comfortably.** Both are
 carried through the tables that follow, and neither replaces the other.
 
-**The wing area is not published, so it is inverted from what is.** The approach speed of 110 knots and a
-landing weight of about 1,153 pounds, taken as the empty weight with 35 percent of the fuel remaining, fix the product of area and lift coefficient, and at an approach
+**The wing area is not published, so it is inverted from what is.** The approach speed of 112 knots, a sea-level
+dynamic pressure of 2,033 pascals, and a landing weight of about 1,140 pounds or 5,070 newtons, taken as the operating empty weight with 35 percent of the usable fuel remaining, fix the product of area and lift coefficient, and at an approach
 coefficient of 0.8 that gives
 
-$$S = \frac{W}{q C_L} = \frac{5{,}129}{1{,}961 \times 0.8} = 3.269 \ \text{m}^{2}$$
+$$S = \frac{W}{q C_L} = \frac{5{,}070}{2{,}033 \times 0.8} = 3.117 \ \text{m}^{2}$$
 
 and the geometry follows from it,
 
-$$\mathrm{AR} = \frac{b^{2}}{S} = \frac{3.175^{2}}{3.269} = 3.084 \qquad \bar{c} = \frac{S}{b} = 1.029 \ \text{m}$$
+$$\mathrm{AR} = \frac{b^{2}}{S} = \frac{3.175^{2}}{3.117} = 3.235 \qquad \bar{c} = \frac{S}{b} = 0.982 \ \text{m}$$
 
-$$\frac{W}{S} = \frac{1{,}270 \times 0.4536 \times 9.807}{3.269} = 1{,}728 \ \text{N/m}^{2}$$
+$$\frac{W}{S} = \frac{1{,}245 \times 0.4536 \times 9.807}{3.117} = 1{,}777 \ \text{N/m}^{2}$$
 
-**The wing loading is therefore 1,728 newtons per square metre at maximum weight**, which at 28 percent scale
-corresponds to 6,171 at full size, since wing loading scales as the length ratio.
+**The wing loading is therefore 1,777 newtons per square metre at takeoff gross weight**, which at 28 percent scale
+corresponds to 6,346 at full size, since wing loading scales as the length ratio.
 
 An aspect ratio near three is right for this planform class, and that agreement checks that the inversion is not
-nonsense. Across coefficients from 0.7 to 1.0 the aspect ratio runs from 2.699 to 3.855, so the conclusion
+nonsense. Across coefficients from 0.7 to 1.0 the aspect ratio runs from 2.830 to 4.043, so the conclusion
 does not depend on the choice.
 
 ### How Fast the Divergence Grows
@@ -328,17 +329,17 @@ $$t_{2}^{\text{rest}} = \frac{\operatorname{arccosh} 2}{\sigma} = 1.900 \, t_{2}
 it, so it holds at every growth rate, and integrating the equation of motion under each of the two initial
 conditions reproduces both times without evaluating an exponent.
 
-| Radius of gyration | Modal, 110 kt | From rest, 110 kt | Modal, 243 kt | From rest, 243 kt |
+| Radius of gyration | Modal, 112 kt | From rest, 112 kt | Modal, 243 kt | From rest, 243 kt |
 |---|---|---|---|---|
-| 0.30 of length | 0.740 s | 1.407 s | 0.335 s | 0.637 s |
-| 0.35 of length | 0.864 s | 1.641 s | 0.391 s | 0.743 s |
-| 0.40 of length | 0.987 s | 1.876 s | 0.447 s | 0.849 s |
+| 0.30 of length | 0.737 s | 1.401 s | 0.340 s | 0.646 s |
+| 0.35 of length | 0.860 s | 1.634 s | 0.396 s | 0.753 s |
+| 0.40 of length | 0.983 s | 1.868 s | 0.453 s | 0.861 s |
 
 **Those use the assumed derivative. The derived one makes them shorter.** At a radius of gyration of 0.35
-the growth rate rises from 0.802 to 1.140 per second at approach and from 1.773 to 2.518 at maximum speed,
-so the modal doubling times fall to **0.608 seconds and 0.275 seconds**,
+the growth rate rises from 0.806 to 1.172 per second at approach and from 1.748 to 2.543 at maximum speed,
+so the modal doubling times fall to **0.591 seconds and 0.273 seconds**,
 
-$$t_{2} = \frac{\ln 2}{1.140} = 0.608 \ \text{s} \qquad t_{2} = \frac{\ln 2}{2.518} = 0.275 \ \text{s}$$
+$$t_{2} = \frac{\ln 2}{1.172} = 0.591 \ \text{s} \qquad t_{2} = \frac{\ln 2}{2.543} = 0.273 \ \text{s}$$
 
 by the modal relation above.
 
@@ -379,13 +380,13 @@ At a phase margin of 45 degrees and a crossover three times the growth rate,
 
 | Condition | Growth rate | Crossover | Budget, model | Budget, full scale |
 |---|---|---|---|---|
-| 110 kt, assumed derivative | 0.802 /s | 2.41 rad/s | **326.3 ms** | 616.6 ms |
-| 243 kt, assumed derivative | 1.773 /s | 5.32 rad/s | **147.7 ms** | 279.1 ms |
-| 243 kt, derived derivative | 2.518 /s | 7.55 rad/s | **104.0 ms** | 196.5 ms |
+| 112 kt, assumed derivative | 0.806 /s | 2.42 rad/s | **324.9 ms** | 614.0 ms |
+| 243 kt, assumed derivative | 1.748 /s | 5.24 rad/s | **149.8 ms** | 283.0 ms |
+| 243 kt, derived derivative | 2.543 /s | 7.63 rad/s | **102.9 ms** | 194.5 ms |
 
 **Read the fourth column, the model budget, against what a video link and a human cost.** A camera, an encoder, a radio path and
 a display are not free, and a human [visual reaction time][ref_reaction] alone is around 200 milliseconds.
-**The entire budget at maximum speed is between 104 and 148 milliseconds.**
+**The entire budget at maximum speed is between 103 and 150 milliseconds.**
 
 **So the ground pilot cannot have been inside the stabilisation loop, and the architecture follows from the arithmetic rather than from a preference.**
 The inner loop that held this aeroplane pointing straight had to be onboard, closing around sensors and
@@ -395,7 +396,7 @@ effectors with no radio in the path, while the pilot on the ground flew the airc
 [Walker 1997][research_walkerlaurencea_1997], and this article did not have to be told.
 
 **The budget also explains why the full-scale comparison matters.** The same aeroplane at full size would
-have had between 196 and 279 milliseconds, which is roughly a human reaction time.
+have had between 195 and 283 milliseconds, which is roughly a human reaction time.
 **A full-scale tailless aircraft could conceivably be flown by a pilot whose hands were in the loop. The 28 percent model could not**,
 and that difference is an artefact of the scale alone. The configuration plays no part in it.
 
@@ -418,15 +419,15 @@ so the ratio of what the nozzle can do to what the aerodynamics demand goes as o
 
 | Speed | Aerodynamic moment at 10 degrees of sideslip | Nozzle authority ratio |
 |---|---|---|
-| 60 kt | 72.7 N·m | 32.53 |
-| 110 kt | 244.3 N·m | 9.679 |
-| 160 kt | 516.8 N·m | 4.575 |
-| 243 kt | 1,192 N·m | 1.983 |
+| 60 kt | 69.3 N·m | 34.12 |
+| 112 kt | 241.4 N·m | 9.792 |
+| 160 kt | 492.7 N·m | 4.798 |
+| 243 kt | 1,137 N·m | 2.080 |
 
-**Inverting for the speed at which the nozzle alone can no longer hold ten degrees of sideslip gives 342.2 knots**,
+**Inverting for the speed at which the nozzle alone can no longer hold ten degrees of sideslip gives 350.5 knots**,
 because the nozzle authority ratio $R$ falls as the square of speed from its value $R_{243}$ at 243 knots,
 
-$$R(V) = R_{243} \left(\frac{243}{V}\right)^{2} = 1 \qquad \Rightarrow \qquad V_{\text{vec}} = 243 \sqrt{R_{243}} = 243 \sqrt{1.983} = 342.2 \ \text{kt}$$
+$$R(V) = R_{243} \left(\frac{243}{V}\right)^{2} = 1 \qquad \Rightarrow \qquad V_{\text{vec}} = 243 \sqrt{R_{243}} = 243 \sqrt{2.080} = 350.5 \ \text{kt}$$
 
 which is above anything this aircraft ever flew, and well above the
 [206 knots it reached][ref_nasa_x36].
@@ -446,17 +447,17 @@ split surface can produce, from lightly cracked to fully opened.
 
 | Drag increment | Moment at 243 kt as a share of the nozzle | Speed at which it equals the nozzle |
 |---|---|---|
-| 0.10 | 22.1 percent | 517.4 kt |
-| 0.30 | 66.2 percent | 298.7 kt |
-| 0.60 | 132.4 percent | 211.2 kt |
+| 0.10 | 21.0 percent | 529.9 kt |
+| 0.30 | 63.1 percent | 305.9 kt |
+| 0.60 | 126.2 percent | 216.3 kt |
 
 **This limits what can honestly be said.**
 At the bottom of the bracket the nozzle dominates everywhere and the split ailerons are margin.
-**At the top they overtake the nozzle inside the cleared envelope, at 211.2 knots, and become the primary yaw effector at high speed.**
+**At the top they overtake the nozzle inside the cleared envelope, at 216.3 knots, and become the primary yaw effector at high speed.**
 The drag rudder's moment rises as the square of speed while the nozzle's is constant, so a split-aileron
 moment that is a share $s$ of the nozzle's at 243 knots equals it at
 
-$$V_{\times} = \frac{243}{\sqrt{s}} = \frac{243}{\sqrt{1.324}} = 211.2 \ \text{kt}$$
+$$V_{\times} = \frac{243}{\sqrt{s}} = \frac{243}{\sqrt{1.262}} = 216.3 \ \text{kt}$$
 
 which lies inside the 243 knot limit and a little above the 206 knots the aircraft is [recorded][ref_nasa_x36] as reaching.
 
@@ -478,30 +479,33 @@ The Contemporary Literature covers yaw effectors in its cluster on thrust vector
 [Two aircraft were built][ref_museum]. The configuration is a wing
 with a canard ahead of it, no vertical surface of any kind, [split ailerons][ref_american_x_vehicles] on the wing trailing edge that
 open into upper and lower halves to make drag on one side, and a [thrust-vectoring][ref_tv] nozzle.
-**The figures below are those of the [published specification][ref_x36]**, except the fuel fraction and the
-thrust to weight ratio, which are the fuel load and the thrust each divided by the maximum weight,
+**The weights, thrust and speeds below are those of [Walker 1997][research_walkerlaurencea_1997]**, the dimensions and ceiling those of the
+[published specification][ref_x36], and the fuel fraction and the thrust to weight ratio are the usable
+fuel and the thrust each divided by the takeoff gross weight,
 
-$$\frac{180}{1{,}270} = 0.1417 \qquad \frac{700}{1{,}270} = 0.5512$$
+$$\frac{162}{1{,}245} = 0.1301 \qquad \frac{700}{1{,}245} = 0.5622$$
 
 The [programme account][ref_nasa_x36] gives rounder figures, about 1,250 pounds fully fuelled, 19 feet long
-and three feet high, with about 700 pounds of thrust.
+and three feet high, with about 700 pounds of thrust. The [Parsch directory][ref_parsch] also
+gives 1,245 pounds, and the specification's 1,270 pounds maximum, 1,090 pounds empty, 180 pounds of fuel and
+110 knot approach appear in none of these three sources.
 
 | Quantity | Value |
 |---|---|
 | Length | 18 ft 2.5 in, 5.550 m, including the pitot boom |
 | Span | 10 ft 5 in, 3.175 m |
 | Height | 3 ft 1.25 in, 0.946 m |
-| Empty weight | 1,090 lb |
-| Maximum weight | 1,270 lb |
-| Fuel | 180 lb, a fraction of 0.1417 |
+| Operating empty weight | 1,083 lb |
+| Takeoff gross weight | 1,245 lb |
+| Usable fuel | 162 lb, a fraction of 0.1301 |
 | Engine | [Williams F112 turbofan][ref_f112], 700 lbf |
-| Thrust to weight | 0.5512 |
-| Approach speed | 110 kt |
-| Maximum speed | 160 kt initially, 243 kt later |
+| Thrust to weight | 0.5622 |
+| Approach speed | 112 kt equivalent airspeed |
+| Maximum speed | 160 kt test limit at first, 243 kt at the 200 lb/ft² dynamic pressure limit |
 | Ceiling | 20,500 ft |
 | Load factor | 5 g |
 
-**The fuel fraction of 0.1417 is the specification that most constrains the programme**, because it is what
+**The fuel fraction of 0.1301 is the figure that most constrains the programme**, because it is what
 limits a sortie to well under an hour, 35 to 45 minutes for a typical research flight in the
 [programme account][ref_nasa_x36], and therefore what makes the flight count the resource rather than the
 flight hours.
@@ -552,17 +556,17 @@ The cluster on unmanned aircraft, ground stations and remote piloting and the cl
 with no pilot aboard and a mean sortie of half an hour is a brisk rate and not a leisurely one.
 
 **The fuel load and the mean sortie together imply a fuel flow, useful as a check on the engine class but not as a datum.**
-A mean sortie of 1,815 seconds burning 180 pounds gives
+A mean sortie of 1,815 seconds burning 162 pounds gives
 
-$$\dot{w}_f = \frac{180}{1815/3600} = 356.9 \ \text{lb/h} \qquad \Rightarrow \qquad \frac{\dot{w}_f}{T} = 0.510$$
+$$\dot{w}_f = \frac{162}{1815/3600} = 321.2 \ \text{lb/h} \qquad \Rightarrow \qquad \frac{\dot{w}_f}{T} = 0.459$$
 
-**A mean thrust specific fuel consumption of 0.510 pounds per pound force per hour, referred to maximum thrust, sits below the 0.683 of the [Williams F107][ref_f112] from which the F112 was developed**,
+**A mean thrust specific fuel consumption of 0.459 pounds per pound force per hour, referred to maximum thrust, sits below the 0.683 of the [Williams F107][ref_f112] from which the F112 was developed**,
 as it should, because the engine did not run at maximum thrust for a whole sortie. **It is a weak check and it passes**,
 and the result is reported here as weak without dressing it up. The mean sortie sits below the 35 to 45 minutes the
 programme account gives for a typical research flight, so the mean includes shorter flights and the full fuel load
-was not burned on every one. Taking a typical 40 minute flight on the same 180 pounds instead gives
+was not burned on every one. Taking a typical 40 minute flight on the same 162 pounds instead gives
 
-$$\dot{w}_f = \frac{180}{40/60} = 270 \ \text{lb/h} \qquad \Rightarrow \qquad \frac{\dot{w}_f}{T} = 0.386$$
+$$\dot{w}_f = \frac{162}{40/60} = 243 \ \text{lb/h} \qquad \Rightarrow \qquad \frac{\dot{w}_f}{T} = 0.347$$
 
 which is lower again, so the check gives a lower bound on the consumption rather than measuring it.
 
@@ -602,12 +606,12 @@ viscosity, which here comes from Sutherland's law,
 
 $$\mu = \mu_0 \left(\frac{T}{T_0}\right)^{3/2} \frac{T_0 + 110.4}{T + 110.4} = 1.7894 \times 10^{-5} \ \text{Pa s}$$
 
-$$\mathrm{Re} = \frac{\rho V \bar{c}}{\mu} = \frac{1.225 \times 125.0 \times 1.029}{1.7894 \times 10^{-5}} = 8.81 \times 10^{6}$$
+$$\mathrm{Re} = \frac{\rho V \bar{c}}{\mu} = \frac{1.225 \times 125.0 \times 0.982}{1.7894 \times 10^{-5}} = 8.40 \times 10^{6}$$
 
-so the model runs at **8.81 million** on the mean chord at maximum speed and **3.988 million** on approach,
+so the model runs at **8.40 million** on the mean chord at maximum speed and **3.872 million** on approach,
 while the full-scale aircraft at the corresponding condition would run at
 
-$$\mathrm{Re}_f = \frac{\mathrm{Re}_m}{\lambda^{3/2}} = \frac{8.81 \times 10^{6}}{0.1482} = 59.46 \times 10^{6}$$
+$$\mathrm{Re}_f = \frac{\mathrm{Re}_m}{\lambda^{3/2}} = \frac{8.40 \times 10^{6}}{0.1482} = 56.70 \times 10^{6}$$
 
 **Both of those are deep in the fully turbulent regime.** The penalty does not move the model into a
 different flow regime for attached flow, and that counts as a genuine and slightly surprising mitigation.
@@ -630,7 +634,7 @@ $$\dot\psi = \frac{g\sqrt{n^{2} - 1}}{V} \qquad R = \frac{V^{2}}{g\sqrt{n^{2} - 
 
 | Speed | Turn rate | Radius | Rate expressed at full scale |
 |---|---|---|---|
-| 110 kt | 48.64 deg/s | 67 m | 25.74 deg/s |
+| 112 kt | 47.77 deg/s | 69 m | 25.28 deg/s |
 | 160 kt | 33.44 deg/s | 141 m | 17.70 deg/s |
 | 243 kt | 22.02 deg/s | 325 m | 11.65 deg/s |
 
@@ -642,7 +646,7 @@ and its delay budget shrinks.
 
 The corner speed, where the load factor limit meets the lift limit, follows from the same figures,
 
-$$V^{*} = \sqrt{\frac{2 n W}{\rho S C_{L\max}}} = 210.8 \ \text{kt}$$
+$$V^{*} = \sqrt{\frac{2 n W}{\rho S C_{L\max}}} = 213.7 \ \text{kt}$$
 
 **which sits below the 243 knot maximum**, so the aircraft could reach the most demanding point of its
 manoeuvre envelope.
@@ -651,8 +655,9 @@ Turn performance is surveyed in the cluster on turn performance, agility and man
 
 ### The Envelope That Was Opened Rather Than Reached
 
-The [published specification][ref_x36] records the maximum speed limit moving from 160 knots to 243 during
-the programme, which is the ordinary signature of envelope expansion. **The conditions actually reached were
+[Walker 1997][research_walkerlaurencea_1997] records a test envelope held at first to 160 knots against a dynamic pressure limit equivalent to
+243 knots, and the [published specification][ref_x36] records the maximum speed limit moving from the one
+to the other during the programme, which is the ordinary signature of envelope expansion. **The conditions actually reached were
 lower in speed and high in angle of attack.** The [programme account][ref_nasa_x36] gives a speed envelope
 reaching 206 knots, an altitude of 20,200 feet and a maximum angle of attack of 40 degrees, and the
 [inventory of American X-vehicles][ref_american_x_vehicles] records 360 degree rolls at angles of attack up
@@ -774,7 +779,7 @@ subscale model's separation onset resembles its original's, and they are reviewe
 [Benny Thompson and Gunasekaran 2021][research_bennythompson_gunasekaran_2021] and modelled in
 [Catalano et al 2024][research_catalano_derosa_2024].
 
-**The X-36 sits at the top of that regime rather than inside it.** At 8.81 million on the mean chord it is
+**The X-36 sits at the top of that regime rather than inside it.** At 8.40 million on the mean chord it is
 far above the millions-and-below range where the low Reynolds literature concentrates, and the placement helps,
 **because it means the penalty this article computes is real but the model is not in the difficult part of the curve.**
 
@@ -1040,9 +1045,10 @@ Those are not equally solid, and they are not presented here as though they were
 ## The Source Base
 
 **The aircraft's own record is thin and the record of its methods is deep.** The vehicle facts come from the
-[programme account][ref_nasa_x36], the [published specification][ref_x36] and the
-[inventory of American X-vehicles][ref_american_x_vehicles], which disagree on the size of the programme and
-are reported side by side where they do. The flight-control literature of the programme, the papers on the
+[programme account][ref_nasa_x36], the [published specification][ref_x36], the
+[inventory of American X-vehicles][ref_american_x_vehicles] and the programme's flight-test paper
+[Walker 1997][research_walkerlaurencea_1997], which gives the weights, thrust, speeds and control effectors.
+The first three disagree on the size of the programme and are reported side by side where they do. The flight-control literature of the programme, the papers on the
 reconfigurable control law flown in 1998, and the subsystems and test-pilot papers of 1997 are surveyed in
 the cluster on the X-36, X-29 and X-31 demonstrators.
 
@@ -1184,13 +1190,13 @@ about the series of aircraft rather than about any one of them.
 
 The X-36 was a 28 percent scale, remotely piloted, tailless research aircraft built by McDonnell Douglas in
 partnership with the National Aeronautics and Space Administration. Two were built. It was 18 feet 2.5
-inches long with a span of 10 feet 5 inches, weighed 1,090 pounds empty and 1,270 pounds at maximum, carried
-180 pounds of fuel, and was powered by a Williams F112 turbofan of 700 pounds force. Its approach speed was
-110 knots, its maximum speed limit was raised from 160 to 243 knots during the programme, its ceiling was
-20,500 feet and its load factor limit was 5 g. These dimensions, weights and speeds are those of one published
-specification, and [Walker 1997][research_walkerlaurencea_1997], the test pilot's report, gives a takeoff gross weight of 1,245
-pounds, an operating empty weight of 1,083 pounds, 162 pounds of usable fuel and an approach speed of 112
-knots. It reached 206 knots, 20,200 feet and an angle of attack of
+inches long with a span of 10 feet 5 inches, weighed 1,083 pounds empty and 1,245 pounds at takeoff, carried
+162 pounds of usable fuel, and was powered by a Williams F112 turbofan of 700 pounds force. Its approach speed was
+112 knots, its test envelope was held at first to 160 knots under a dynamic pressure limit of 200 pounds per
+square foot, its ceiling was 20,500 feet and its load factor limit was 5 g. The weights, fuel, approach speed and
+limits are those of [Walker 1997][research_walkerlaurencea_1997], the test pilot's report, and the dimensions and ceiling those of one published
+specification, which gives 1,270 pounds maximum, 1,090 pounds empty, 180 pounds of fuel and a 110 knot
+approach instead. It reached 206 knots, 20,200 feet and an angle of attack of
 40 degrees. It first flew on 17 May 1997 and completed 31 research flights and 15 hours 38 minutes of
 flight time by 12 November 1997, a period of 25 weeks. One inventory of American X-vehicles gives 25
 flights ending on 24 September 1997 instead. In December 1998 it flew twice more carrying the Air Force Research Laboratory's Reconfigurable Control for Tailless Fighter Aircraft
@@ -1203,14 +1209,14 @@ camera on the forward fuselage.
 Every scaling ratio follows from the scale factor alone once Froude matching is chosen, and each is an
 identity that holds at every scale factor. The velocity and time ratios are
 0.5292, the frequency ratio 1.8898, the angular acceleration ratio 3.571, the inertia ratio 0.001721 and the
-Reynolds ratio 0.1482, a penalty of 6.749. The implied full-scale weight of 57,853 pounds, length of 19.82
-metres and span of 11.34 metres follow from cube scaling. The wing area of 3.269 square metres and aspect
-ratio of 3.084 are inverted from the published approach speed. The model Reynolds number of 8.81 million and
+Reynolds ratio 0.1482, a penalty of 6.749. The implied full-scale weight of 56,715 pounds follows from cube
+scaling, and the length of 19.82 metres and span of 11.34 metres from the length ratio. The wing area of 3.117
+square metres and aspect ratio of 3.235 are inverted from the published approach speed. The model Reynolds number of 8.40 million and
 Mach number of 0.367 at maximum speed follow from the standard atmosphere and Sutherland's law. The yaw
-moment from thrust vectoring of 2,364 newton metres and the authority crossover at 342.2 knots follow from
+moment from thrust vectoring of 2,364 newton metres and the authority crossover at 350.5 knots follow from
 the moment balance.
 **The identity that a disturbance released from rest doubles in 1.900 times the modal time is exact and depends on nothing.**
-**Every figure in this section can be reproduced from the published specification and the stated assumptions
+**Every figure in this section can be reproduced from the published figures and the stated assumptions
 with the relations the article displays**, and the doubling times can also be reproduced by integrating the
 yaw equation under its two initial conditions.
 
@@ -1221,7 +1227,7 @@ worth explaining and not a fact. That the demonstration was harder than the thin
 inference with an exact multiplier and an unmeasured multiplicand, and the article states it in that form.
 **Whether the split ailerons were margin or necessity is not determined by public information**, since the
 drag increment that decides it is unpublished and across its plausible range the split surfaces run from
-22.1 to 132.4 percent of the nozzle's moment, so the answer flips inside the bracket. What is settled is the
+21.0 to 126.2 percent of the nozzle's moment, so the answer flips inside the bracket. What is settled is the
 structural claim, that the nozzle's authority is flat with speed while the drag rudder's rises as its
 square, and that needs no increment at all. That the vehicle cluster is thin for a fourth distinct reason is
 an inference from four cases and is offered as a pattern rather than a law.
@@ -1262,8 +1268,8 @@ The first of those is a handicap on the demonstration, because a delay in a vide
 of a human being do not compress to match. The third is a limit on what the demonstration can measure, and
 it falls precisely on the separated flow at high angle of attack that the experiment was about.
 
-**The aircraft's own weight confirms the choice.** At 1,270 pounds and 28 percent it stands for a
-fifty-eight thousand pound fighter, sixty-five feet long, which matches a real class of aeroplane.
+**The aircraft's own weight confirms the choice.** At 1,245 pounds and 28 percent it stands for a
+fifty-seven thousand pound fighter, sixty-five feet long, which matches a real class of aeroplane.
 
 **And the missing fin turns out to be the least interesting part of the story**, because the arithmetic says
 the vectoring nozzle alone could hold ten degrees of sideslip at every speed the aircraft ever flew.
@@ -1416,6 +1422,7 @@ length in clock time.
 
 - [American X-Vehicles, An Inventory X-1 to X-50, SP-2003-4531][ref_american_x_vehicles]
 - [Armstrong Flight Research Center][ref_dryden]
+- [Boeing X-36, Directory of U.S. Military Rockets and Missiles][ref_parsch]
 - [Chengdu J-36][ref_j36]
 - [Control allocation for over-actuated aircraft][ref_allocation]
 - [Directional stability][ref_directional]
@@ -1443,6 +1450,7 @@ length in clock time.
 [ref_museum]: https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/195764/nasaboeing-x-36/
 [ref_nasa]: https://en.wikipedia.org/wiki/NASA
 [ref_nasa_x36]: https://www.nasa.gov/aeronautics/x-36-tailless-fighter/
+[ref_parsch]: http://www.designation-systems.net/dusrm/app4/x-36.html
 [ref_phantom_works]: https://en.wikipedia.org/wiki/Phantom_Works
 [ref_reaction]: https://en.wikipedia.org/wiki/Mental_chronometry
 [ref_reynolds]: https://en.wikipedia.org/wiki/Reynolds_number

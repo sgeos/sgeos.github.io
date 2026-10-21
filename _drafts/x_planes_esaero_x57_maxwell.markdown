@@ -53,6 +53,8 @@ An all-electric aeroplane has no engines in the sense a designation register mea
 
 **The blank is a gap in the compilation, with no bearing on electric propulsion.** It is recorded here because it is the first thing an argument would want to reach for.
 
+**The copy these counts come from is later than this article's date.** The version current on that date, the compiler's update of 11 August 2025 as the Internet Archive captured it on 25 November 2025, held 526 rows, twenty-nine of them X rows, and ninety-one of its rows had an empty engines cell \[[Parsch, DOD 4120.15-L Addendum, 11 August 2025][ref_mds_addendum_2025]\]. **Every finding about the X-57A row holds in both versions**, being the longest X statement at more than double the X median, the five phrases found in no other row, the four entries that mention electricity, the four rows naming two contractors, and the same three other X rows with an empty engines cell.
+
 ### What the Aeroplane Was Going to Be
 
 **The X-57 was a conversion, and the thing being converted matters.** The Tecnam P2006T is a certified Italian light twin with two Rotax 912S piston engines of about 100 horsepower each \[[Tecnam P2006T][ref_tecnam_p2006t]\] \[[Rotax 912][ref_rotax_912]\].
@@ -331,7 +333,7 @@ $$
 \frac{72}{53.1} = 1.36 \quad \text{against} \quad \frac{73.5}{56.6} = 1.30
 $$
 
-**A cruise motor with its propeller manages 1.36 kilowatts per kilogram against about 1.30 for the Rotax it replaced**, and that comparison flatters the motor, because the Rotax figure is the 56.6 kilogram engine with its reduction gearbox and without a propeller \[[Rotax 912 ULS/S, BRP-Rotax][ref_rotax_912_uls]\], while the motor figure is the combined motor and propeller mass of 117 pounds that NASA's specification table gives \[[X-57 Maxwell Overview, NASA][ref_nasa_x57]\]. The same NASA page also describes each cruise motor and propeller as weighing about 57 pounds, which would more than double the motor's figure, and it does not reconcile the two. **On the specification figure the gain is real and it is modest.** What distributed electric propulsion offers is not power density but divisibility, since an electric motor loses little efficiency as it is made smaller \[[Borer et al 2016][research_borer_patterson_2016]\].
+**A cruise motor with its propeller manages 1.36 kilowatts per kilogram against about 1.30 for the Rotax it replaced**, on the combined motor and propeller mass of 117 pounds that NASA's specification table gives \[[X-57 Maxwell Overview, NASA][ref_nasa_x57]\] and the 56.6 kilogram engine with its reduction gearbox and without a propeller \[[Rotax 912 ULS/S, BRP-Rotax][ref_rotax_912_uls]\]. That comparison charges the motor with a propeller and the engine with none. The cruise propeller was budgeted at 15.4 kilograms at the preliminary design review \[[SCEPTOR X-57 Critical Design Review, Day 1 Package, NASA][ref_sceptor_cdr]\], so the bare motor is about 37.7 kilograms and gives about 1.9 kilowatts per kilogram, nearly half as much again as the Rotax. The bare figure leaves out the two controllers that each motor needs \[[Clarke and Terry][research_x57_cruise_motor_inverter_failures]\]. Each controller delivers 39 kilowatts nominal and 55 in emergency overdrive at about 7 kilowatts per kilogram \[[Terry et al, X-57 Cruise Motor Controller Design and Testing][ref_x57_cmc]\], so a pair adds between about 11 and 16 kilograms, and the motor with its controllers gives between 1.35 and 1.48 kilowatts per kilogram, between 4 and 14 percent above the Rotax. **Once the controllers are counted, the gain is real and it is modest.** The same NASA page also describes each cruise motor and propeller as weighing about 57 pounds, in a sentence that gives the Rotax with its propeller as about 125 pounds. As a motor and propeller mass the 57 cannot be right, because after the 15.4 kilogram propeller it would leave about 10.5 kilograms for a motor whose designers gave its active electromagnetic parts alone 22.2 kilograms against a system target of 35 kilograms \[[Dubois et al 2016][research_duboisarthur_vandergeestmartin_2016]\]. That target and the propeller come to about 111 pounds, close to the table's 117. The 57 matches the Rotax's 56.6 kilograms, and the likelier reading, which the page does not confirm, is that the engine's mass was restated in kilograms under the wrong unit. What distributed electric propulsion offers is not power density but divisibility, since an electric motor loses little efficiency as it is made smaller \[[Borer et al 2016][research_borer_patterson_2016]\].
 
 **The aeroplane carries a complete second propulsion system whose one job is to hold the wing up at low speed**, and that system is slightly larger than the whole propulsive installation of the aeroplane it was built from.
 
@@ -557,7 +559,7 @@ The readiness assessment rested in part on the existence of, and assumed ability
 
 **The battery constrained the flight test before it constrained the design.** The baseline flight profile was predicted to need 98 percent of the effective energy, the pack's computed state of charge could not be trusted, and the Mod II flight plan allowed between 5 and 20 minutes on condition with no go-around. A still-air cruise bound using the report's lift to drag ratios gives 75 kilometres for Mod II and 116 for Mod III on the full pack.
 
-**Working the power density showed the motors to be a smaller advance than the architecture suggests.** A cruise motor with its propeller gives 1.36 kilowatts per kilogram against about 1.30 for the piston engine it replaced, and that comparison already flatters the motor. **The advantage of distributed electric propulsion is divisibility instead of power density**, because a small electric motor is nearly as efficient as a large one, while the combustion engines of light aircraft fall short of the efficiency of larger engines.
+**Working the power density showed the motors to be a smaller advance than the architecture suggests.** A cruise motor with its propeller gives 1.36 kilowatts per kilogram against about 1.30 for the piston engine it replaced. The bare motor gives about 1.9, and with the two controllers it needs it gives between 1.35 and 1.48, a gain of between 4 and 14 percent. **The advantage of distributed electric propulsion is divisibility instead of power density**, because a small electric motor is nearly as efficient as a large one, while the combustion engines of light aircraft fall short of the efficiency of larger engines.
 
 **The published geometry does not close.** The report gives a wing area, a span and an aspect ratio for the same wing, and any two of those determine the third. For the original wing they agree to better than one percent. **For the new wing they disagree by 6.4 percent.** The article uses the two quantities that enter its computations and does not use the third.
 
@@ -764,7 +766,7 @@ Every clause of it is accurate as a description of the design. There were smalle
 
 ## Epistemic State
 
-**Facts.** The register's wording and the counts taken across its 539 rows, the geometry, masses, powers and energies attributed to the flight performance report and the traction power documents, the battery figures attributed to the 2018 battery account, the flight-test plan, the controller and motor histories attributed to the traction power papers, the schedule attributed to the systems engineering and lessons learned reports, and the failure modes attributed to the inverter deck, are quoted from those documents, and every arithmetic relation stated here has been recomputed rather than repeated.
+**Facts.** The register's wording and the counts taken across its 539 rows, the geometry, masses, powers and energies attributed to the flight performance report and the traction power documents, the battery figures attributed to the 2018 battery account, the flight-test plan, the controller and motor histories attributed to the traction power papers, the schedule attributed to the systems engineering and lessons learned reports, and the failure modes attributed to the inverter deck, are quoted from those documents, and every arithmetic relation stated here has been recomputed rather than repeated. The register is counted in a copy later than this article's date, and the counts that differ in the version current on that date are stated where the empty engines cell is discussed \[[Parsch, DOD 4120.15-L Addendum, 11 August 2025][ref_mds_addendum_2025]\].
 
 **Inference.** That the length of the register entry reflects the maturity of the paper design is an inference. It is consistent with the entry being a specification rather than a purpose clause, and with the readiness assessment made in the same period, but the register does not say why the entry is long.
 
@@ -774,7 +776,7 @@ Every clause of it is accurate as a description of the design. There were smalle
 
 **Hypothesis.** That the buy-American direction is the proximate cause of the readiness mismatch is close to what the lessons learned report says but slightly stronger than it. **The report's position is that the project may have benefitted from reassessing the readiness of American components and that the actual readiness proved significantly lower.** \[[Maliska et al 2024][research_x57_lessons_learned]\] It does not assert that the direction caused the mismatch, and neither does this article.
 
-**Unresolved.** The high-lift motor power is given as 12.6 kilowatts by the flight performance report and as 10.5 kilowatts by NASA's X-57 page \[[X-57 Maxwell Overview, NASA][ref_nasa_x57]\]. This article uses the report's figure and records the disagreement. The same NASA page gives the battery as 69.1 kilowatt hours, 47 of them usable, in 860 pounds \[[X-57 Maxwell Overview, NASA][ref_nasa_x57]\], which is 80 watt hours per pound, and that is the specific energy secondary sources quote \[[NASA X-57 Maxwell][ref_x57_wikipedia]\]. The nominal cell energy rebuilt here from the battery account's cell, 55.3 kilowatt hours, gives 64 over the same 860 pounds and the effective 47 kilowatt hours gives 55, so NASA's page and the battery account disagree on the stored energy, 69.1 against 55.3 kilowatt hours, and neither document reconciles the two. The 2018 battery account also gives sixteen modules of 51 pounds, which is 816 pounds against the 860 it states for the battery, and the remainder is not itemised. The as-built usable energy of 23 kilowatt hours a pack is lower than the 2018 effective figure, and the relations in this article use the 2018 figure. NASA's X-57 page gives each cruise motor with its propeller as 117 pounds in its specification table and as about 57 pounds in its text \[[X-57 Maxwell Overview, NASA][ref_nasa_x57]\], and the power density comparison uses the table's figure, so that comparison rests on one of two figures the same page does not reconcile.
+**Unresolved.** The high-lift motor power is given as 12.6 kilowatts by the flight performance report and as 10.5 kilowatts by NASA's X-57 page \[[X-57 Maxwell Overview, NASA][ref_nasa_x57]\]. This article uses the report's figure and records the disagreement. The same NASA page gives the battery as 69.1 kilowatt hours, 47 of them usable, in 860 pounds \[[X-57 Maxwell Overview, NASA][ref_nasa_x57]\], which is 80 watt hours per pound, and that is the specific energy secondary sources quote \[[NASA X-57 Maxwell][ref_x57_wikipedia]\]. The nominal cell energy rebuilt here from the battery account's cell, 55.3 kilowatt hours, gives 64 over the same 860 pounds and the effective 47 kilowatt hours gives 55, so NASA's page and the battery account disagree on the stored energy, 69.1 against 55.3 kilowatt hours, and neither document reconciles the two. The 2018 battery account also gives sixteen modules of 51 pounds, which is 816 pounds against the 860 it states for the battery, and the remainder is not itemised. The as-built usable energy of 23 kilowatt hours a pack is lower than the 2018 effective figure, and the relations in this article use the 2018 figure. NASA's X-57 page gives each cruise motor with its propeller as 117 pounds in its specification table and as about 57 pounds in its text \[[X-57 Maxwell Overview, NASA][ref_nasa_x57]\]. The motor's design masses and the propeller budget support the table, and the power density comparison uses it. That the 57 is the Rotax's mass in kilograms under the wrong unit is an inference, and the page does not say so.
 
 ## Out of Scope
 
@@ -855,6 +857,7 @@ The entry is not wrong. **The wing was designed optimally for the electric motor
 - [MOSFET][ref_mosfet]
 - [NASA X-57 Maxwell][ref_x57_wikipedia]
 - [Parasitic Drag][ref_parasitic_drag]
+- [Parsch, DOD 4120.15-L Addendum, 11 August 2025, Internet Archive capture of 25 November 2025][ref_mds_addendum_2025]
 - [Parsch, DOD 4120.15-L Addendum, MDS Designators Allocated After 19 August 1998][ref_mds_addendum]
 - [Power Inverter][ref_inverter]
 - [Powered Lift][ref_powered_lift]
@@ -863,6 +866,7 @@ The entry is not wrong. **The wing was designed optimally for the electric motor
 - [Rotax 912][ref_rotax_912]
 - [Rotax 912 ULS/S, BRP-Rotax][ref_rotax_912_uls]
 - [Scaled Composites][ref_scaled_composites]
+- [SCEPTOR X-57 Critical Design Review, Day 1 Package, NASA][ref_sceptor_cdr]
 - [Silicon Carbide][ref_sic]
 - [Slipstream][ref_slipstream]
 - [Specific Energy][ref_specific_energy]
@@ -871,6 +875,7 @@ The entry is not wrong. **The wing was designed optimally for the electric motor
 - [Technology Readiness Level][ref_trl]
 - [Technology Readiness Level, NASA][ref_nasa_trl]
 - [Tecnam P2006T][ref_tecnam_p2006t]
+- [Terry et al, X-57 Cruise Motor Controller Design and Testing][ref_x57_cmc]
 - [Thermal Runaway][ref_thermal_runaway]
 - [U.S. Standard Atmosphere][ref_us_standard_atmosphere]
 - [Wetted Area][ref_wetted_area]
@@ -903,6 +908,7 @@ The entry is not wrong. **The wing was designed optimally for the electric motor
 [ref_maxwell_distribution]: https://en.wikipedia.org/wiki/Maxwell%E2%80%93Boltzmann_distribution
 [ref_maxwell_equations]: https://en.wikipedia.org/wiki/Maxwell%27s_equations
 [ref_mds_addendum]: https://www.designation-systems.net/usmilav/412015-L(addendum).html
+[ref_mds_addendum_2025]: https://web.archive.org/web/20251125110610/http://www.designation-systems.net/usmilav/412015-L(addendum).html
 [ref_mds_allocation]: https://www.designation-systems.net/usmilav/mdsallocation.html
 [ref_momentum_theory]: https://en.wikipedia.org/wiki/Momentum_theory
 [ref_mosfet]: https://en.wikipedia.org/wiki/MOSFET
@@ -918,6 +924,7 @@ The entry is not wrong. **The wing was designed optimally for the electric motor
 [ref_rotax_912]: https://en.wikipedia.org/wiki/Rotax_912
 [ref_rotax_912_uls]: https://www.flyrotax.com/products/912-uls-s
 [ref_scaled_composites]: https://en.wikipedia.org/wiki/Scaled_Composites
+[ref_sceptor_cdr]: https://www.nasa.gov/wp-content/uploads/2021/09/sceptor_cdr_day_1_package.pdf
 [ref_shoot_through]: https://en.wikipedia.org/wiki/Power_inverter#H-bridge
 [ref_sic]: https://en.wikipedia.org/wiki/Silicon_carbide
 [ref_slipstream]: https://en.wikipedia.org/wiki/Slipstream
@@ -930,6 +937,7 @@ The entry is not wrong. **The wing was designed optimally for the electric motor
 [ref_wetted_area]: https://en.wikipedia.org/wiki/Wetted_area
 [ref_wing_loading]: https://en.wikipedia.org/wiki/Wing_loading
 [ref_wingtip_vortices]: https://en.wikipedia.org/wiki/Wingtip_vortices
+[ref_x57_cmc]: https://ntrs.nasa.gov/citations/20230006883
 [ref_x57_wikipedia]: https://en.wikipedia.org/wiki/NASA_X-57_Maxwell
 [ref_x59]: https://en.wikipedia.org/wiki/Lockheed_Martin_X-59_Quesst
 [ref_x60]: https://en.wikipedia.org/wiki/Generation_Orbit_X-60

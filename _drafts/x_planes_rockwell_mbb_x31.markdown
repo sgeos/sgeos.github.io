@@ -1170,16 +1170,16 @@ altitude exceed the values assumed there.
 
 **The previous article in this series measured an instability in pitch and this one measures an instability in yaw, and the two numbers can be put side by side.**
 
-The [X-29A][related_post_a326_grumman_x29] doubled in 100 milliseconds in pitch, an eigenvalue of 6.931 per second. The X-31 simulating a
+The [X-29A][related_post_a326_grumman_x29] doubled in 101 milliseconds in pitch, an eigenvalue of 6.861 per second. The X-31 simulating a
 complete absence of vertical tail doubled in 290 milliseconds in yaw, an eigenvalue of 2.390.
-**The X-29's instability was 2.90 times faster.**
+**The X-29's instability was 2.87 times faster.**
 
 There is a useful bound attached to each. A first-order unstable plant with a pure time delay cannot be
 stabilised by a proportional loop of any gain once the delay approaches the reciprocal of the unstable pole,
 
 $$\tau_{\max} \approx \frac{1}{\lambda}$$
 
-which gives 418 milliseconds for the X-31 case and 144 for the X-29.
+which gives 418 milliseconds for the X-31 case and 146 for the X-29.
 **Neither aircraft was anywhere near that bound**, and the point of computing it is to establish that
 neither instability was hard in the sense of being close to a fundamental limit. Both were hard in the
 practical sense of demanding reliable computers.

@@ -53,7 +53,7 @@ over a wide range of aspect angles rather than at one. **The second relation is 
 
 **The question this article asks is narrower and answerable.** Given that the X-31 demonstrated tailless control at one flight condition, **what fraction of a fighter's envelope does one demonstrated point cover?** That question has a closed-form answer that needs no wing area, no yaw derivative and no moment arm, and the analysis below is built around it.
 
-**For the unmanned aircraft the question is different, because the vehicle is subsonic and has no vertical tail to argue about.** There the binding unknown was whether a small tailless flying wing could be designed, built and flown quickly enough to matter, and the article treats that as a manufacturing question rather than an aerodynamic one, because its programme described it that way \[[Lockheed Skunk Works X-44A flying-wing drone revealed][ref_twz_x44a]\] \[[Lockheed Martin X-44A, National Museum of the United States Air Force][ref_x44a_museum]\].
+**For the unmanned aircraft the question is different, because the vehicle is subsonic and has no vertical tail to argue about.** There the binding unknown was whether a small tailless flying wing could be designed, built and flown quickly enough to matter, and the article treats that as a manufacturing and configuration question, because its programme described it that way \[[Lockheed Skunk Works X-44A flying-wing drone revealed][ref_twz_x44a]\] \[[Lockheed Martin X-44A, National Museum of the United States Air Force][ref_x44a_museum]\].
 
 ## Programme Origin
 
@@ -69,7 +69,7 @@ over a wide range of aspect angles rather than at one. **The second relation is 
 
 **The unmanned X-44A fills a hole in a public record that had been visibly empty.** Lockheed's high-altitude unmanned reconnaissance line ran from the RQ-3 DarkStar, which first flew on 29 March 1996 and was terminated by the Department of Defense in January 1999 \[[Lockheed Martin RQ-3 DarkStar][ref_darkstar_wikipedia]\], to the P-175 Polecat, which first flew in 2005 \[[Lockheed Martin P-175 Polecat][ref_polecat_wikipedia]\], to the RQ-170 Sentinel \[[Lockheed Martin RQ-170 Sentinel][ref_rq170_wikipedia]\]. **Between January 1999 and 2005 the public record showed nothing at all** \[[Skunk Works reveals the tailless X-44A][ref_uasvision_x44a]\]. The gap reflects how the organisation works and was no accident, since the Skunk Works was built to run programmes that do not announce themselves \[[Rich and Janos, Skunk Works][book_rich_janos]\]. The X-44A occupies that gap, having been built in 1999, the year DarkStar was cancelled, and flown in 2001 \[[Skunk Works reveals the missing link in a secret unmanned history][ref_flightglobal_x44a]\] \[[Lockheed Skunk Works X-44A flying-wing drone revealed][ref_twz_x44a]\].
 
-**Its stated purposes were manufacturing and configuration, not performance.** The programme is described as proving rapid manufacturing techniques, demonstrating penetrating reconnaissance, and establishing the aerodynamic validity of a relatively small tailless swept flying wing \[[Lockheed Skunk Works X-44A flying-wing drone revealed][ref_twz_x44a]\]. **That ordering matters**, because a vehicle built to prove that it can be built quickly is dimensioned by its factory rather than by its mission, and the later derivation finds a wing loading consistent with that reading and inconsistent with an endurance optimum.
+**Its stated purposes were manufacturing and configuration, not performance.** The programme is described as proving rapid manufacturing techniques, demonstrating penetrating reconnaissance, and establishing the aerodynamic validity of a relatively small tailless swept flying wing \[[Lockheed Skunk Works X-44A flying-wing drone revealed][ref_twz_x44a]\]. **That ordering matters**, because a vehicle built to prove that it can be built quickly is dimensioned by its factory rather than by its mission, and the published endurance of an hour and a half and range of 230 miles are those of a short-range demonstrator \[[Lockheed Martin X-44A, National Museum of the United States Air Force][ref_x44a_museum]\].
 
 **It was revealed at the Los Angeles County Air Show in March 2018 and placed on public display in October 2020**, in the Research and Development gallery of the National Museum of the United States Air Force \[[Lockheed Martin X-44A, National Museum of the United States Air Force][ref_x44a_museum]\] \[[Exclusive photos, the X-44A breaks cover][ref_twz_x44a_photos]\]. **Seventeen years elapsed between the first flight and the first photograph.**
 
@@ -408,13 +408,13 @@ Budgeting thirty degrees of phase margin to delay alone, and taking the middle o
 
 **The X-31 report's lessons emphasise sensors for this reason, as Sensing Sideslip below sets out.** **When the loop must close in a fraction of a second, the limiting component is the thing that measures sideslip, not the thing that produces the moment.**
 
-### The X-44A Derived From Its Mission
+### The X-44A From Its Published Performance
 
-**One dimension, one engine, two dates and three performance figures are the entire released specification.** The span is about 30 feet, or 9.14 metres \[[Lockheed Skunk Works X-44A flying-wing drone revealed][ref_twz_x44a]\]. The engine is a Williams F112 of 732 pounds force, which is 3,256 newtons \[[Williams F112][ref_f112_wikipedia]\] \[[Williams International F112-WR-100 Turbofan, National Museum of the United States Air Force][ref_f112_museum]\]. It was built in 1999 and flown in 2001 \[[Lockheed Skunk Works X-44A flying-wing drone revealed][ref_twz_x44a]\], and the museum gives a maximum speed of 176 miles per hour, an endurance of 1.5 hours and a range of 230 miles \[[Lockheed Martin X-44A, National Museum of the United States Air Force][ref_x44a_museum]\]. **The engine is a cruise missile powerplant**, developed for the AGM-129 Advanced Cruise Missile \[[AGM-129 Advanced Cruise Missile][ref_agm129_wikipedia]\], a choice that brings small size and low cost along with a design point unlike an aeroplane's.
+**One dimension, one engine, two dates and three performance figures are the entire released specification.** The span is about 30 feet, or 9.14 metres \[[Lockheed Skunk Works X-44A flying-wing drone revealed][ref_twz_x44a]\]. The engine is a Williams F112 of 732 pounds force, which is 3,256 newtons \[[Williams F112][ref_f112_wikipedia]\] \[[Williams International F112-WR-100 Turbofan, National Museum of the United States Air Force][ref_f112_museum]\]. It was built in 1999 and flown in 2001 \[[Lockheed Skunk Works X-44A flying-wing drone revealed][ref_twz_x44a]\], and the museum gives a maximum speed of 176 miles per hour, an endurance of 1.5 hours and a range of 230 miles \[[Lockheed Martin X-44A, National Museum of the United States Air Force][ref_x44a_museum]\]. A trade account adds a wing sweep of about 30 degrees, a fixed tricycle landing gear, an all carbon fibre airframe and a long air data probe later removed, and describes the aircraft as built to investigate the stability and control of the configuration \[[Skunk Works reveals stealthy UAV demonstrator][ref_ain_x44a]\]. **The engine is a cruise missile powerplant**, developed for the AGM-129 Advanced Cruise Missile \[[AGM-129 Advanced Cruise Missile][ref_agm129_wikipedia]\], a choice that brings small size and low cost along with a design point unlike an aeroplane's.
 
-**The most useful comparison available is not to another unmanned aircraft. It is to the X-36, which used the same engine.** The [X-36][related_post_a333_mcdonnell_douglas_x36] carried an F112 rated at 700 pounds force in an airframe of 3.18 metres span and 576 kilograms maximum weight, giving a thrust to weight ratio of 0.55 \[[McDonnell Douglas X-36][ref_x36_wikipedia]\]. **The X-44A spans 2.88 times as much on the same thrust**, which taking wing area as proportional to the square of span is a factor of
+**The most useful comparison available is not to another unmanned aircraft. It is to the X-36, which used the same engine.** The [X-36][related_post_a333_mcdonnell_douglas_x36] carried an F112 of the 700 pound force thrust class in an airframe of 10.4 feet or 3.17 metres span and 1,245 pounds or 565 kilograms takeoff gross weight, giving a thrust to weight ratio of 0.56 \[[Walker 1997][research_walkerlaurencea_1997]\]. **The X-44A spans 2.88 times as much on the same thrust**, which taking wing area as proportional to the square of span is a factor of
 
-$$\left( \frac{9.144}{3.18} \right)^{2} = 8.27$$
+$$\left( \frac{9.144}{3.17} \right)^{2} = 8.32$$
 
 **more wing on the same engine.** Two aircraft with one powerplant and an eight-fold difference in wing area are not variants of a concept. They are answers to different questions, and the wing records the difference.
 
@@ -444,21 +444,25 @@ $$n = \frac{\ln \left( 1747 / 8450 \right)}{\ln 0.1936} = 0.960$$
 
 **The calibration expresses the lapse in density ratio rather than in pressure ratio.** The two differ by the temperature ratio, and at that altitude the density ratio is a third larger than the pressure ratio, so the choice of variable is not academic.
 
-**Applying the same lapse to the F112 gives a locus of possible points, because weight and ceiling are not separately knowable.**
+**The museum's figures fix the speed, so the unknown that remains is the altitude.** The 230 miles covered in 1.5 hours is a mean speed of 153.3 miles per hour, or 68.55 metres per second, 87 percent of the 176 mile per hour maximum \[[Lockheed Martin X-44A, National Museum of the United States Air Force][ref_x44a_museum]\]. Range is distance over the ground, so if the range and the endurance describe the same flight the mean is a true airspeed in still air, and it argues against reading the maximum as an equivalent airspeed at altitude. At 45,000 feet an equivalent 176 miles per hour would be a true airspeed near 400, and an hour and a half at that speed would cover about 600 miles.
 
-| assumed ceiling | density ratio | thrust available | implied weight | implied wing loading | cruise Mach |
+**An aircraft cruising at or above its speed for best lift to drag ratio flies at a lift coefficient no greater than $C_{L}^{\ast}$**, and for a jet with a parabolic polar the best-range speed lies above that speed. The ceiling speed relation above therefore becomes a bound, $W/S \le \rho V^{2} C_{L}^{\ast} / 2$, at whatever altitude the aircraft cruised, and on the DarkStar's polar it depends on altitude alone. The last column compares the thrust the F112 makes at each altitude, lapsed with the exponent above, against the drag at the bound on the 7.94 square metre wing that the DarkStar's aspect ratio gives a 30-foot span.
+
+| cruise altitude | density ratio | wing loading bound at 153 mph | bound at 176 mph | bound over the DarkStar's | thrust over drag |
 |---|---|---|---|---|---|
-| 35,000 ft | 0.3099 | 1,057 N | 2,334 kg | 294 kg/m² | 0.516 |
-| 40,000 ft | 0.2462 | 848 N | 1,871 kg | 236 kg/m² | 0.521 |
-| 45,000 ft | 0.1936 | 673 N | 1,486 kg | 187 kg/m² | 0.523 |
-| 50,000 ft | 0.1522 | 534 N | 1,180 kg | 149 kg/m² | 0.526 |
-| 55,000 ft | 0.1197 | 424 N | 937 kg | 118 kg/m² | 0.528 |
+| sea level | 1.0000 | 191 kg/m² | 251 kg/m² | 2.08 | 4.7 |
+| 10,000 ft | 0.7385 | 141 kg/m² | 185 kg/m² | 1.53 | 4.8 |
+| 20,000 ft | 0.5328 | 102 kg/m² | 134 kg/m² | 1.11 | 4.9 |
+| 30,000 ft | 0.3741 | 71 kg/m² | 94 kg/m² | 0.78 | 4.9 |
+| 40,000 ft | 0.2462 | 47 kg/m² | 62 kg/m² | 0.51 | 5.0 |
 
-**The DarkStar's wing loading on the same assumptions is 91.8 kilograms per square metre.** At a matched ceiling of 45,000 feet the X-44A's is 187, **a factor of 2.04 higher**, and it falls to the DarkStar's value only if the aircraft is assumed to reach nearly 60,000 feet on a cruise-missile engine.
+**The DarkStar's wing loading on the same assumptions is 91.8 kilograms per square metre.** The X-44A's can exceed it only if the aircraft cruised below about 22,900 feet at its mean speed or 30,600 feet at its maximum, and even at sea level the bound is 2.08 times the DarkStar's at the mean speed and 2.74 times at the maximum. **A cruise at a reconnaissance ceiling is excluded.** At best ratio on the same polar the F112 would hold assumed ceilings of 35,000 to 55,000 feet only at true airspeeds of 342 to 349 miles per hour, about twice the published maximum.
 
-**The wing loading bears on what the aeroplane was for.** A high wing loading is what a designer accepts when altitude and endurance are not the objective. It is consistent with a vehicle built to demonstrate that a small tailless flying wing can be manufactured quickly and flown at all, the purpose the programme stated \[[Lockheed Skunk Works X-44A flying-wing drone revealed][ref_twz_x44a]\], and it is inconsistent with a vehicle sized to loiter. The museum's endurance of 1.5 hours points the same way \[[Lockheed Martin X-44A, National Museum of the United States Air Force][ref_x44a_museum]\]. **The derivation and the stated purpose agree, and their agreement is stronger evidence than either**, because the derivation used none of the words in the statement.
+**The wing loading therefore does not settle what the aeroplane was for, and the published endurance does.** An hour and a half and 230 miles are the figures of a short-range demonstrator \[[Lockheed Martin X-44A, National Museum of the United States Air Force][ref_x44a_museum]\]. They agree with the purposes the programme stated \[[Lockheed Skunk Works X-44A flying-wing drone revealed][ref_twz_x44a]\] and with the stability and control investigation the trade account describes \[[Skunk Works reveals stealthy UAV demonstrator][ref_ain_x44a]\], and they are far from the loiter of the DarkStar, which was designed as a high-altitude endurance aircraft \[[Lockheed Martin RQ-3 DarkStar][ref_darkstar_wikipedia]\].
 
-**One caveat is load-bearing.** The DarkStar's wing area is not published in the sources used and 42 square metres is an assumption. The lapse exponent is sensitive to it, and every number in the X-44A table inherits that sensitivity. **What does not inherit it is the ratio between the two wing loadings**, because the same assumed aspect ratio and the same assumed drag polar enter both, so the factor of two is far more robust than either loading is. **A second caveat bears on the absolute numbers.** The museum's maximum speed of 176 miles per hour is about half the true airspeed the table implies at any of its ceilings, so either the aircraft never flew the ceiling the calibration assumes or the figure is an indicated airspeed, which at 45,000 feet would correspond to a true airspeed above the table's, and the sources used here do not distinguish the two \[[Lockheed Martin X-44A, National Museum of the United States Air Force][ref_x44a_museum]\].
+**The last column carries a second finding.** At every altitude the engine makes 4.7 to 5.0 times the clean-polar drag at the bound, so on that polar the aircraft could fly well above its published maximum. Either its drag is several times that of the assumed clean wing, which a fixed landing gear, an air data probe and a lower aspect ratio would each push towards, or the maximum is a limit set by something other than thrust, and the sources do not say which.
+
+**One caveat is load-bearing.** The DarkStar's wing area is not published in the sources used and 42 square metres is an assumption, and the X-44A's aspect ratio is assumed equal to the DarkStar's. The bound moves with the area through the aspect ratio, and the comparison moves further because the DarkStar's loading varies inversely with the area. At assumed areas of 35 and 50 square metres the sea-level bound at the mean speed is 1.90 and 2.27 times the DarkStar's, and the altitude above which the X-44A's loading must be the lower of the two moves with it.
 
 ## Dependent Systems
 
@@ -566,7 +570,7 @@ $$\delta_{r} = - \kappa \, \frac{C_{n\beta, \text{tail}}}{C_{n \delta_{r}}} \, \
 
 **The article's strongest prediction has no flight to be compared with, and the report anticipates it only in kind.** The report notes that thrust vector control power is proportional to the engine power setting, so that landing may require drag devices to hold a higher power setting, and it lists among its lessons that flying on drag devices at an increased power setting can introduce additional directional instability \[[Bosworth and Stoliker 1996][research_bosworthjohnt_stolikerpc_1996]\]. Its precision approaches were flown at 40 and 50 percent tail reduction in low turbulence or clear air, so **the throttle result of The Throttle on Approach is a prediction that no flight has tested.**
 
-**For the X-44A there is no ground prediction in the public record and no released flight data beyond the museum's summary figures.** The wing loading derived for it can be set beside the programme's stated purpose and the published endurance, which agree with it, and beside the published maximum speed, which is about half the true airspeed the estimate implies at its assumed ceilings, so **the comparison the record allows checks the assumed mission rather than the aircraft.**
+**For the X-44A there is no ground prediction in the public record and no released flight data beyond the museum's summary figures.** The published speeds bound the wing loading derived for it and exclude a cruise at a reconnaissance ceiling, and the published endurance agrees with the programme's stated purpose, so **the comparison the record allows checks the assumed mission rather than the aircraft.**
 
 ## What the Data Changed
 
@@ -609,7 +613,7 @@ $$\delta_{r} = - \kappa \, \frac{C_{n\beta, \text{tail}}}{C_{n \delta_{r}}} \, \
 | Engine failure, asymmetric thrust and minimum control speed | 51 |
 | **Total** | **9,631** |
 
-**The survey below maps the field these two vehicles sit in, and the twenty-four research records that the argument cites stand in its cluster rows with the rest.** Every record is assigned to exactly one cluster. **The rule that admits a record, and the classes it excludes, are stated in the Source Base.**
+**The survey below maps the field these two vehicles sit in, and the twenty-five research records that the argument cites stand in its cluster rows with the rest.** Every record is assigned to exactly one cluster. **The rule that admits a record, and the classes it excludes, are stated in the Source Base.**
 
 **A cluster's size measures how much has been published near a topic. It does not measure how important that topic is to these vehicles.** The largest cluster holds flight control law design, which bears on both vehicles and enters the argument only through the loop budget, while the cluster holding this article's keystone, being the tailless configuration itself, ranks eighth of twenty-five. **Two of the clusters below cover the subjects of this article's conclusions rather than its topics**, being the approach and crosswind case and the engine failure case.
 
@@ -811,7 +815,7 @@ and at an overall engine pressure ratio of eight the jet velocity rises by **25.
 
 **One carries the alternative.** The study of differential canard deflection as a yaw generator on the X-31 with and without its vertical tail \[[Whiting 1996][research_whitingmatthewrobert_1996]\] establishes that an aerodynamic yaw effector of comparable authority to the vectoring vanes was studied on the same aeroplane, which is what makes the low-speed conclusion above a design choice rather than a dead end.
 
-**Five carry the vehicles themselves and none of them is a primary document.** The MANTA and unmanned X-44A encyclopaedia entries \[[Lockheed Martin X-44 MANTA][ref_x44_manta_wikipedia]\] \[[Lockheed Martin X-44, the unmanned vehicle][ref_x44_uav_wikipedia]\], the journalism that broke the story \[[Lockheed Skunk Works X-44A flying-wing drone revealed][ref_twz_x44a]\] \[[Skunk Works reveals the missing link in a secret unmanned history][ref_flightglobal_x44a]\], and the museum fact sheet \[[Lockheed Martin X-44A, National Museum of the United States Air Force][ref_x44a_museum]\] are the core of the public record on these two aircraft, which the 2003 NASA inventory of X-vehicles \[[Jenkins, Landis and Miller, American X-Vehicles, An Inventory X-1 to X-50, NASA SP-2003-4531, 2003][ref_american_x_vehicles]\] and two secondary compilations \[[X-44 MANTA Multi-Axis No-Tail Aircraft, GlobalSecurity][ref_globalsecurity_x44]\] \[[Lockheed Martin X-44 MANTA tailless technology demonstrator proposal][ref_militaryfactory_x44]\] supplement. **That is a thin foundation and the article is built to survive it**, which is why the analysis rests on the F-22's published numbers and the X-31's published flight results rather than on anything the X-44 sources say.
+**Five carry the vehicles themselves and none of them is a primary document.** The MANTA and unmanned X-44A encyclopaedia entries \[[Lockheed Martin X-44 MANTA][ref_x44_manta_wikipedia]\] \[[Lockheed Martin X-44, the unmanned vehicle][ref_x44_uav_wikipedia]\], the journalism that broke the story \[[Lockheed Skunk Works X-44A flying-wing drone revealed][ref_twz_x44a]\] \[[Skunk Works reveals the missing link in a secret unmanned history][ref_flightglobal_x44a]\], and the museum fact sheet \[[Lockheed Martin X-44A, National Museum of the United States Air Force][ref_x44a_museum]\] are the core of the public record on these two aircraft, which the 2003 NASA inventory of X-vehicles \[[Jenkins, Landis and Miller, American X-Vehicles, An Inventory X-1 to X-50, NASA SP-2003-4531, 2003][ref_american_x_vehicles]\] and two secondary compilations \[[X-44 MANTA Multi-Axis No-Tail Aircraft, GlobalSecurity][ref_globalsecurity_x44]\] \[[Lockheed Martin X-44 MANTA tailless technology demonstrator proposal][ref_militaryfactory_x44]\] supplement. **That is a thin foundation and the article is built to survive it**, which is why the analysis of the MANTA rests on the F-22's published numbers and the X-31's published flight results, and why the one X-44A result is stated as a bound on the museum's figures.
 
 **Two sources are used with a stated reservation.** The two National Museum of the United States Air Force pages return a Hypertext Transfer Protocol status of 403 to automated requests, which is bot mitigation and not absence. **Both were read through copies held by the Internet Archive**, since neither could be read directly from the museum's own site.
 
@@ -916,9 +920,11 @@ and at an overall engine pressure ratio of eight the jet velocity rises by **25.
 
 **Pure thrust vectoring cannot meet an operational crosswind landing requirement**, so a tailless fighter needs an aerodynamic yaw effector that works at low speed. The throttle calculation supports this inference, which is consistent with the X-36's split ailerons and with the X-31 differential canard study, neither of which is offered as confirmation.
 
-**The X-44A carries roughly twice the DarkStar's wing loading at a matched ceiling**, which is inferred from an assumed drag polar and aspect ratio common to both. The ratio is far more robust than either loading.
+**The X-44A's wing loading is at most about twice the DarkStar's, and below it if the aircraft cruised above about 23,000 feet**, an inference from the museum's speeds and an assumed drag polar and aspect ratio common to both. A cruise at a reconnaissance ceiling would need about twice the published maximum speed.
 
-**The X-44A was sized as a configuration and manufacturing demonstrator rather than as an endurance aircraft.** The wing loading indicates it, and the stated programme objectives agree, although the derivation did not use them.
+**The X-44A's published maximum speed is not a thrust limit on a clean polar**, since the engine makes about five times the clean drag at the bound, so either the drag was several times higher or another limit set the maximum.
+
+**The X-44A was a short-range configuration and manufacturing demonstrator and not an endurance aircraft.** The published endurance and range indicate it, and the stated programme objectives agree.
 
 **The stabilisation loop should be machinery rather than a pilot**, inferred from the delay budget and the phase margin it reserves. The divergence rate alone is within what practised subjects held in single-axis tracking.
 
@@ -938,15 +944,15 @@ and at an overall engine pressure ratio of eight the jet velocity rises by **25.
 
 **Whether the MANTA influenced any later programme.** No source cited here documents a connection to any later programme, and the sixth-generation fighter studies in the survey do not name it.
 
-**The DarkStar's wing area**, which this article assumes because no source used publishes it, and on which the thrust lapse calibration and every absolute number in the X-44A table depend.
+**The DarkStar's wing area**, which this article assumes because no source used publishes it, and on which the thrust lapse calibration and every number in the X-44A table depend, and the X-44A's aspect ratio, which this article takes from the DarkStar's.
 
 ### On Sources Used With Reservation
 
 **The two National Museum of the United States Air Force pages refuse automated requests**, for the reason given in the Source Base, **and both were read through copies held by the Internet Archive.**
 
-**The general encyclopaedia is the source for the MANTA's origin dates, its designation and its F-22 derivation, and a single journalistic account is the source for the X-44A's reported nano-carbon fibre skin.** No primary document for any of those claims has been located, and the X-44A's engine, performance figures and museum placement rest on the museum fact sheet. As the Source Base states, none of the article's results depends on them.
+**The general encyclopaedia is the source for the MANTA's origin dates, its designation and its F-22 derivation, and one journalistic account reports the X-44A's nano-carbon fibre skin, which a second describes as an all carbon fibre airframe.** No primary document for any of those claims has been located, and the X-44A's engine, performance figures and museum placement rest on the museum fact sheet. The X-44A bound rests on the museum's performance figures, and none of the article's other results depends on these sources.
 
-**Two secondary aviation outlets are cited for the X-44A's revelation and description.** They are the only sources that have published on the aircraft in any detail, they are consistent with each other, and one of them states plainly what it does not know, which is a reason to trust it more.
+**Three secondary aviation outlets are cited for the X-44A's revelation and description** \[[Lockheed Skunk Works X-44A flying-wing drone revealed][ref_twz_x44a]\] \[[Skunk Works reveals the missing link in a secret unmanned history][ref_flightglobal_x44a]\] \[[Skunk Works reveals stealthy UAV demonstrator][ref_ain_x44a]\]. Beside the museum they are the only sources that have published on the aircraft in any detail, they are consistent with each other, and one of them states plainly what it does not know, which is a reason to trust it more.
 
 ### On Information Postdating the Editorial Date
 
@@ -976,7 +982,7 @@ and at an overall engine pressure ratio of eight the jet velocity rises by **25.
 
 **The engine-out case, which is one of the two reasons fins are large, does not size a thrust-vectored aeroplane at all**, because the vector angle that trims it satisfies $\tan \delta = y/\ell$ and the thrust cancels identically. **Two classic fin-sizing cases, opposite answers, and reasoning from the fin would have got both wrong.**
 
-**The aeroplane that did exist was built in the year its predecessor was cancelled and flew two years later, and almost nothing about it has been released.** Deriving it from its mission puts its wing loading at about twice the DarkStar's at a matched ceiling, which indicates it was built to demonstrate a configuration and a factory rather than to loiter. The museum's published endurance of an hour and a half points the same way. **The derivation and the programme's stated purpose agree, and the derivation did not use the statement.**
+**The aeroplane that did exist was built in the year its predecessor was cancelled and flew two years later, and almost nothing about it has been released.** The museum's figures, a maximum of 176 miles per hour, an hour and a half and 230 miles, describe a short-range demonstrator, and a cruise at a reconnaissance ceiling would have needed about twice that speed. **They bound its wing loading at no more than about twice the DarkStar's, and below the DarkStar's if it cruised above about 23,000 feet**, so the wing loading cannot say what the aircraft was for. **The endurance can, and it agrees with the programme's stated purpose of demonstrating a configuration and a factory.**
 
 **The last observation concerns the designation instead of either aeroplane.** The X-planes sequence is a finite resource issued once and never replenished, and a number spent twice is still a number spent once. **The register carries no record of the ambiguity, the specialist directory carries no page for the number, and the encyclopaedia has resolved the collision by writing two articles and noting that they appear to be unrelated.** The cost of the confusion falls entirely on whoever reads the record later, which in this instance is this article.
 
@@ -1042,6 +1048,7 @@ and at an overall engine pressure ratio of eight the jet velocity rises by **25.
 - [Parsch, Directory of U.S. Military Rockets and Missiles, Appendix 4][ref_parsch_app4]
 - [Pratt and Whitney F119][ref_f119_wikipedia]
 - [Rockwell-MBB X-31][ref_x31_wikipedia]
+- [Skunk Works reveals stealthy UAV demonstrator][ref_ain_x44a]
 - [Skunk Works reveals the missing link in a secret unmanned history][ref_flightglobal_x44a]
 - [Skunk Works reveals the tailless X-44A][ref_uasvision_x44a]
 - [Whitmore, Moes and Larson, Preliminary results from a subsonic high angle-of-attack flush airdata sensing system][ref_whitmore_hifads]
@@ -1051,6 +1058,7 @@ and at an overall engine pressure ratio of eight the jet velocity rises by **25.
 - [X44, the disambiguation page][ref_x44_disambiguation]
 
 [ref_agm129_wikipedia]: https://en.wikipedia.org/wiki/AGM-129_ACM
+[ref_ain_x44a]: https://www.ainonline.com/aviation-news/defense/2018-03-26/skunk-works-reveals-stealthy-uav-demonstrator
 [ref_american_x_vehicles]: https://www.nasa.gov/wp-content/uploads/2023/04/sp-4531.pdf
 [ref_darkstar_wikipedia]: https://en.wikipedia.org/wiki/Lockheed_Martin_RQ-3_DarkStar
 [ref_f112_museum]: https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/195684/williams-international-f112-wr-100-turbofan/

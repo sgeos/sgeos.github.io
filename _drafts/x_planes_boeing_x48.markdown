@@ -197,7 +197,7 @@ and evaluating for three readings of where the model's condition sits,
 
 The field reading takes the lake bed at about 2,300 feet \[[Rogers Dry Lake][ref_rogers_dry_lake_wikipedia]\]. **The figure of 854,875 pounds can serve only as a lower bound**, and the article uses it as one.
 
-**No source in the record states the reference vehicle's weight, so the figure is a derivation.** It can nevertheless be tested. Liebeck's published second-generation blended wing body carries a maximum takeoff gross weight of 823,000 pounds on a span of 280 feet \[[Liebeck 2004][research_liebeck_bwb]\]. Scaling that design geometrically to a 240-foot span,
+**No technical source consulted states the reference vehicle's weight, so the figure is a derivation.** A magazine account published before the first flight calls the X-48B a scaled-down model of a theoretical 500-ton, 240-foot-wide aircraft \[[Jacobs 2007, Thinking outside the tube, Wired][ref_wired_outside_tube]\]. Read as 1,000,000 pounds, that round figure lies inside the range above, and the three readings come to 0.855, 0.915 and 1.158 of it. The derivation can also be tested against a published design. Among the sources consulted, the only blended wing body design with both a published weight and a published span is Liebeck's second-generation airliner, sized for 800 passengers, with a maximum takeoff gross weight of 823,000 pounds on a span of 280 feet \[[Liebeck 2004][research_liebeck_bwb]\]. Scaling that design geometrically to a 240-foot span,
 
 $$W(240) = 823{,}000 \times \left(\frac{240}{280}\right)^{3} = 518{,}274\ \text{lb}$$
 
@@ -205,9 +205,21 @@ gives a comparison of
 
 $$\frac{W_{\text{full}}}{W(240)} = \frac{854{,}875}{518{,}274} = 1.649$$
 
-so the vehicle implied by the model's weight is **at least 1.649 times heavier than a passenger blended wing body of the same span**, and **1.765 times heavier on the field-elevation reading.**
+**Geometric scaling holds the shape and lets the wing loading grow with span.** Holding the wing loading instead makes weight follow the square of span,
 
-**The excess points the right way.** The Air Force's stated interest was a multi-role, long-range, high-capacity military transport \[[X-48 Hybrid/Blended Wing Body, NASA Dryden Fact Sheet FS-090][ref_nasa_fs090]\], and a freighter is denser than an airliner of the same dimensions, as the conventional airlifter it would replace already shows \[[Boeing C-17 Globemaster III][ref_c17_wikipedia]\]. The weight relations that make that comparison meaningful are the standard conceptual-design ones \[[Raymer, Aircraft design, a conceptual approach][book_raymer]\] \[[Torenbeek, Synthesis of subsonic airplane design][book_torenbeek]\] \[[Nicolai and Carichner, Fundamentals of aircraft and airship design][book_nicolai]\]. **The model's weight is therefore consistent with a military reference vehicle and not with the commercial one**, a fact about the programme recoverable from the scale relations alone.
+$$W_{2}(240) = 823{,}000 \times \left(\frac{240}{280}\right)^{2} = 604{,}653\ \text{lb}$$
+
+and the two laws differ by the factor 280/240, or 1.167. Against each,
+
+| Model condition | Over the cube law | Over the square law |
+|---|---|---|
+| same air as the aeroplane | 1.649 | 1.414 |
+| Rogers Dry Lake, 2,300 ft | 1.765 | 1.513 |
+| ceiling, 10,000 ft | 2.234 | 1.915 |
+
+so the vehicle implied by the model's weight is **between 1.414 and 1.649 times as heavy as the passenger design brought to the same span**, and **between 1.513 and 1.765 times as heavy on the field-elevation reading.** The choice of scaling law changes the size of the excess by a sixth, and no reading brings the ratio near one.
+
+**The excess is large, and the programme's description of the full-scale aeroplane accounts for its direction.** Boeing describes the 240-foot aeroplane as a heavy-lift, subsonic airplane for military applications such as aerial refuelling and cargo missions \[[Boeing flies X-48C blended wing body research aircraft][ref_boeing_x48c_release]\], and the Air Force's stated interest was a multi-role, long-range, high-capacity military transport \[[X-48 Hybrid/Blended Wing Body, NASA Dryden Fact Sheet FS-090][ref_nasa_fs090]\]. A freighter is denser than an airliner of the same dimensions, as the conventional airlifter it would replace shows \[[Boeing C-17 Globemaster III][ref_c17_wikipedia]\], and the weight relations behind that comparison are the standard conceptual-design ones \[[Raymer, Aircraft design, a conceptual approach][book_raymer]\] \[[Torenbeek, Synthesis of subsonic airplane design][book_torenbeek]\] \[[Nicolai and Carichner, Fundamentals of aircraft and airship design][book_nicolai]\]. **The model's weight therefore agrees with the heavy military vehicle the programme described and does not agree with a passenger design of the same span.** The scale relations fix the size of that excess. They do not show how much of it payload density explains, and this article does not attempt that division.
 
 ### Thrust Is Invariant Under Froude Scaling and This Model Does Not Match It
 
@@ -554,7 +566,7 @@ $$\alpha_{\text{stall}}^{\text{slats out}} = 24^\circ, \qquad \alpha_{\text{stal
 
 ## Where the Framing Breaks Down
 
-**The reference vehicle's weight is derived and never quoted.** The figure of 854,875 pounds comes from inverting the cube of the scale ratio on the model's own weight. If the model was not weight-scaled with the precision assumed, the number moves and the comparison against Liebeck moves with it.
+**The reference vehicle's weight is derived, and the one quoted figure is a round number in a magazine.** The figure of 854,875 pounds comes from inverting the cube of the scale ratio on the model's own weight. The 500-ton figure names no source and no weight definition, so it corroborates the derivation and enters no calculation \[[Jacobs 2007, Thinking outside the tube, Wired][ref_wired_outside_tube]\]. **The comparison against Liebeck also depends on the scaling law**, and the ratio of 1.649 under the cube becomes 1.414 under the square of span. If the model was not weight-scaled with the precision assumed, the number moves and the comparison against Liebeck moves with it.
 
 **The relative density factor is now quantified, and it changes the answer.** Taking the model's condition at the field elevation of Rogers Dry Lake raises the implied full-scale weight from 854,875 pounds to 914,885, and taking it at the ceiling raises it to 1,157,634. **No source consulted states the altitude at which the weight scaling was set**, so 854,875 pounds is reported as a lower bound and every comparison drawn from it inherits that status.
 
@@ -562,7 +574,7 @@ $$\alpha_{\text{stall}}^{\text{slats out}} = 24^\circ, \qquad \alpha_{\text{stal
 
 $$b_{\text{ref}} = \frac{17}{0.06} = 283\ \text{ft}, \qquad W_{\text{full}} = \frac{120}{0.06^{3}} = 555{,}556\ \text{lb}$$
 
-**That does not match Liebeck's 823,000 pounds**, so either the BWB-17 answered to an earlier and lighter reference design or it was not weight-scaled to the vehicle described in the same paper. **The record does not say which**, and this article does not guess.
+**The implied span agrees with the 280 feet of Liebeck's second-generation design to within 1.2 percent, and the implied weight falls at 0.675 of that design's 823,000 pounds**, so either the BWB-17 answered to an earlier and lighter reference design or it was not weight-scaled to the vehicle described in the same paper. **The record does not say which**, and this article does not guess.
 
 **The wing area enters one section and rests on one programme document.** The figure of 100.5 square feet is the correlation update's, given in a presentation slide without the reference definition behind it \[[Vicroy 2011][research_vicroy_correlation]\]. It enters only through the reference chord $c = S/b$ used to put the Reynolds numbers on an absolute footing, and **the ratio of 40.35 does not depend on it at all**, because the chord cancels between model and full scale. **A reader who distrusts the area should discard the two absolute Reynolds figures and keep everything else**, and the argument is built on the ratio for that reason.
 
@@ -629,7 +641,7 @@ The dates, the flight counts, the two configurations, the builder, the engine fi
 
 ### Verified by Independent Derivation
 
-The scale factor of 0.085000 from the published span and reference span. The Froude ratio table. The time compression of 3.430 and the Reynolds penalty of 40.35. The comparison against the X-36 at 1.815 and 5.979. The ladder of three candidate vehicles and the factor of 2.247 in Reynolds number attributable to the X-48A cancellation. The implied full-scale weight of 854,875 pounds and its ratio of 1.649 against Liebeck's design scaled to the same span. The thrust-to-weight figures of 0.3086 and 0.2245 and their ratio of 1.374. The asymmetric thrust fractions of 0.10286, 0.17800 and 0.07485 and the ratios of 1.374, 2.378 and 1.731 that follow. The absolute Reynolds numbers of $6.24 \times 10^6$ and $2.52 \times 10^8$ at the stated reference chord. The kinematic viscosity ratio of 1.281 between 10,000 feet and sea level on the standard atmosphere, and the effective penalty of 51.7 that follows. The implied full-scale weights of 914,885 and 1,157,634 pounds at the two non-unity readings of the relative density factor. The full-scale equivalent speed of 404.7 knots. The BWB-17's implied reference span of 283 feet and weight of 555,556 pounds.
+The scale factor of 0.085000 from the published span and reference span. The Froude ratio table. The time compression of 3.430 and the Reynolds penalty of 40.35. The comparison against the X-36 at 1.815 and 5.979. The ladder of three candidate vehicles and the factor of 2.247 in Reynolds number attributable to the X-48A cancellation. The implied full-scale weight of 854,875 pounds and its ratios against Liebeck's design brought to the same span, 1.649 under the cube of span and 1.414 under its square, with 1.765 and 1.513 on the field-elevation reading and 2.234 and 1.915 at the ceiling. The scaled weights of 518,274 and 604,653 pounds. The fractions of 0.855, 0.915 and 1.158 that the three implied weights form of 1,000,000 pounds. The thrust-to-weight figures of 0.3086 and 0.2245 and their ratio of 1.374. The asymmetric thrust fractions of 0.10286, 0.17800 and 0.07485 and the ratios of 1.374, 2.378 and 1.731 that follow. The absolute Reynolds numbers of $6.24 \times 10^6$ and $2.52 \times 10^8$ at the stated reference chord. The kinematic viscosity ratio of 1.281 between 10,000 feet and sea level on the standard atmosphere, and the effective penalty of 51.7 that follows. The implied full-scale weights of 914,885 and 1,157,634 pounds at the two non-unity readings of the relative density factor. The full-scale equivalent speed of 404.7 knots. The BWB-17's implied reference span of 283 feet and weight of 555,556 pounds, within 1.2 percent of the 280-foot span and at 0.675 of the 823,000-pound weight of Liebeck's second-generation design.
 
 ### Analysis
 
@@ -637,11 +649,11 @@ The division of the flight results into Froude-governed conclusions that transfe
 
 ### Inference
 
-That the reference vehicle is a military freighter rather than a commercial airliner, inferred from the implied weight being 1.649 times a passenger design of the same span and corroborated by the Air Force's stated interest. That bracketing the leading edge with two slat configurations hedges the Reynolds uncertainty, a reading of the test matrix and not a stated rationale.
+That the reference vehicle is heavy for its span, inferred from the implied weight being 1.414 to 1.649 times a passenger design brought to the same span. That it is the heavy-lift military aeroplane for refuelling and cargo that Boeing described, consistent with that excess, with the Air Force's stated interest and with the magazine's figure of 500 tons, though the scale relations do not show how much of the excess the military role explains. That bracketing the leading edge with two slat configurations hedges the Reynolds uncertainty, a reading of the test matrix and not a stated rationale.
 
 ### What the Record Does Not Settle
 
-The reference vehicle's actual weight, span aside. The reference definition behind the correlation update's wing area. The positions of the vertical surfaces on either aeroplane, and the sweep of the outer trailing edge. The full-scale departure angle of attack. Whether the BWB-17's weight answers to the design published alongside it. Whether the X-48C's noise objective was met, an acoustic result this article does not have. **Which of the two published thrust ratings the X-48C actually flew with**, 75 pounds an engine or 89, on which every engine-out figure for that aeroplane depends. **What the aeroplane does past the departure boundary**, which the programme itself lists as having no flight comparison at all.
+The reference vehicle's actual weight, which no technical source consulted states and one magazine gives as a round 500 tons. The reference definition behind the correlation update's wing area. The positions of the vertical surfaces on either aeroplane, and the sweep of the outer trailing edge. The full-scale departure angle of attack. Whether the BWB-17's weight answers to the design published alongside it. Whether the X-48C's noise objective was met, an acoustic result this article does not have. **Which of the two published thrust ratings the X-48C actually flew with**, 75 pounds an engine or 89, on which every engine-out figure for that aeroplane depends. **What the aeroplane does past the departure boundary**, which the programme itself lists as having no flight comparison at all.
 
 ## Out of Scope
 
@@ -693,6 +705,7 @@ The acoustic measurements and the shielding result of the X-48C, which need a no
 - [Boeing Phantom Works to lead research on X-48B blended wing body concept][ref_boeing_x48b_release]
 - [Boeing X-48][ref_x48_wikipedia]
 - [Cranfield Aerospace Solutions][ref_cranfield_aerospace]
+- [Jacobs 2007, Thinking outside the tube, Wired][ref_wired_outside_tube]
 - [Northrop Grumman B-2 Spirit][ref_b2_wikipedia]
 - [Parsch, Boeing X-48, Directory of U.S. Military Rockets and Missiles][ref_parsch_x48]
 - [Rogers Dry Lake][ref_rogers_dry_lake_wikipedia]
@@ -714,6 +727,7 @@ The acoustic measurements and the shielding result of the X-48C, which need a no
 [ref_nasa_x48c_status]: https://web.archive.org/web/20170709073744/https://www.nasa.gov/centers/dryden/status_reports/X-48C.html
 [ref_parsch_x48]: https://www.designation-systems.net/dusrm/app4/x-48.html
 [ref_rogers_dry_lake_wikipedia]: https://en.wikipedia.org/wiki/Rogers_Dry_Lake
+[ref_wired_outside_tube]: https://web.archive.org/web/20070929133831/http://www.wired.com/wired/archive/15.02/start.html?pg=13
 [ref_x48_globalsecurity]: https://www.globalsecurity.org/military/systems/aircraft/x-48.htm
 [ref_x48_wikipedia]: https://en.wikipedia.org/wiki/Boeing_X-48
 

@@ -142,7 +142,7 @@ back catalogue and from its competitors, which is why two research aeroplanes we
 
 | Quantity | Value |
 |---|---|
-| Wing area | 188.84 ft² |
+| Wing reference area | 185 ft² |
 | Aspect ratio | 4.0 |
 | Leading edge sweep | 29.3° forward |
 | Structural axis sweep | 36.2° forward |
@@ -167,8 +167,11 @@ back catalogue and from its competitors, which is why two research aeroplanes we
 | Design dynamic pressure | 1,700 lb/ft² at Mach 1.07, sea level |
 
 The table draws on the flight reports \[[Hicks and Matheny 1987][research_hicksjohnw_mathenyneilw_1987]\] \[[Hicks and Huckabone 1989][research_hicksjohnw_huckabinethomas_1989]\]
-\[[Sims et al 1989][research_simsrobert_mccrossonpaul_1989]\], except the wing area of 188.84 square feet, which is taken from the encyclopaedia
-entry \[[Grumman X-29][ref_x29]\]. The reports use a trapezoidal reference area of 185 square feet.
+\[[Sims et al 1989][research_simsrobert_mccrossonpaul_1989]\]. The reference area is the trapezoidal outer panel extended to the centreline, without the
+canards, the strake flaps or the forward root extensions \[[Hicks and Huckabone 1989][research_hicksjohnw_huckabinethomas_1989]\]. The encyclopaedia entry gives
+188.84 square feet \[[Grumman X-29][ref_x29]\], which the later lift and drag report lists as the exposed wing area
+\[[Saltzman et al 1994][research_saltzmanedwinj_hicksjohnw_1994]\]. Using it in place of the reference area would lower the wing loadings below by 2.0 percent
+and shorten the doubling times by 1.0 percent.
 
 ### What the Table Implies
 
@@ -178,9 +181,9 @@ airframe practice in [Niu][book_niu].
 
 The wing loading is the gross weight carried per unit of reference area.
 
-$$ \frac{W}{S} = \frac{17{,}800\ \mathrm{lb}}{188.84\ \mathrm{ft}^2} = 94.26\ \mathrm{lb/ft^2} $$
+$$ \frac{W}{S} = \frac{17{,}800\ \mathrm{lb}}{185\ \mathrm{ft}^2} = 96.22\ \mathrm{lb/ft^2} $$
 
-At the manoeuvre design gross weight the same relation gives 79.43 pounds per square foot, and both figures
+At the manoeuvre design gross weight the same relation gives 81.08 pounds per square foot, and both figures
 are ordinary for a fighter-sized aircraft of the period.
 
 The thrust-to-weight ratio uses the engine's class rating, because the record gives no installed thrust
@@ -195,7 +198,9 @@ makes the airframe rather than the engine the binding limit in a sustained turn.
 
 The canard is quoted only as a percentage, so its area and chord follow.
 
-$$ S_c = 0.20\,S = 0.20 \times 188.84\ \mathrm{ft}^2 = 37.77\ \mathrm{ft}^2 $$
+$$ S_c = 0.20\,S = 0.20 \times 185\ \mathrm{ft}^2 = 37.00\ \mathrm{ft}^2 $$
+
+The later lift and drag report gives the canard reference area as 37.0 square feet \[[Saltzman et al 1994][research_saltzmanedwinj_hicksjohnw_1994]\].
 
 $$ \bar{c}_c = 0.76\,\bar{c} = 0.76 \times 7.217\ \mathrm{ft} = 5.485\ \mathrm{ft} $$
 
@@ -227,16 +232,16 @@ Beside it stands the **static margin of minus thirty-five percent**, and the num
 
 ### A Consistency Check on the Published Geometry
 
-The flight reports give the aspect ratio as 4.0 \[[Hicks and Huckabone 1989][research_hicksjohnw_huckabinethomas_1989]\], and the encyclopaedia
-entry gives the wing area as 188.84 square feet and the span as 27 feet 2.5 inches \[[Grumman X-29][ref_x29]\].
-Those are three statements about two quantities, so one of them can be checked.
+The flight test overview gives the aspect ratio as 4.0, the reference area as 185 square feet and the
+reference span as 27.2 feet \[[Hicks and Huckabone 1989][research_hicksjohnw_huckabinethomas_1989]\]. Those are three statements about two quantities, so one of them
+can be checked.
 
-$$ b = \sqrt{A S} = \sqrt{4.0 \times 188.84\ \mathrm{ft}^2} = 27.48\ \mathrm{ft} $$
+$$ b = \sqrt{A S} = \sqrt{4.0 \times 185\ \mathrm{ft}^2} = 27.20\ \mathrm{ft} $$
 
-Against a quoted span of 27.21 feet that is an agreement to **0.99 percent**. The residual is not rounding.
-The same relation applied to the reports' own reference area of 185 square feet returns 27.20 feet, against
-the span of 27 feet 2.44 inches in the structural loads report \[[Sims et al 1989][research_simsrobert_mccrossonpaul_1989]\], so the aspect ratio of
-4.0 is defined on the trapezoidal reference area and the larger figure is a different definition of wing area.
+Against the span of 27 feet 2.44 inches in the structural loads report \[[Sims et al 1989][research_simsrobert_mccrossonpaul_1989]\] that is an
+agreement to **better than 0.01 percent**. The exposed area of 188.84 square feet would return 27.48 feet,
+about one percent long, so the aspect ratio of 4.0 is defined on the reference area and the larger figure is
+a different definition of wing area \[[Saltzman et al 1994][research_saltzmanedwinj_hicksjohnw_1994]\].
 **The published geometry is mutually consistent**, and that needs establishing before anything is built
 on top of it.
 
@@ -710,18 +715,18 @@ feet, which spans the range for aircraft of this size and mass. Every figure bel
 
 | Mach | Altitude, ft | $q$, lb/ft² | $t_2$, ms | Frames at 40 Hz |
 |---|---|---|---|---|
-| 0.4 | 40,000 | 43.9 | 596 | 23.8 |
-| 0.4 | 20,000 | 108.9 | 378 | 15.1 |
-| 0.4 | 0 | 237.0 | 256 | 10.2 |
-| 0.6 | 20,000 | 245.1 | 244 | 9.8 |
-| 0.6 | 0 | 533.3 | 166 | 6.6 |
-| 0.8 | 20,000 | 435.7 | 173 | 6.9 |
-| 0.8 | 0 | 948.0 | 118 | 4.7 |
-| 0.9 | 20,000 | 551.4 | 148 | 5.9 |
-| 0.9 | 0 | 1,199.8 | 100 | 4.0 |
+| 0.4 | 40,000 | 43.9 | 602 | 24.1 |
+| 0.4 | 20,000 | 108.9 | 382 | 15.3 |
+| 0.4 | 0 | 237.0 | 259 | 10.4 |
+| 0.6 | 20,000 | 245.1 | 247 | 9.9 |
+| 0.6 | 0 | 533.3 | 167 | 6.7 |
+| 0.8 | 20,000 | 435.7 | 175 | 7.0 |
+| 0.8 | 0 | 948.0 | 119 | 4.7 |
+| 0.9 | 20,000 | 551.4 | 149 | 6.0 |
+| 0.9 | 0 | 1,199.8 | 101 | 4.0 |
 
 **At the corner of the envelope the aircraft doubles a pitch disturbance in a tenth of a second**, and at
-the low inertia bracket in 76 milliseconds. **The controller gets four frames in which to notice and act**,
+the low inertia bracket in 77 milliseconds. **The controller gets four frames in which to notice and act**,
 and at the low bracket rather closer to three.
 
 The lift-curve estimate draws on the literature in the cluster on lift, induced drag and aerodynamic estimation.
@@ -732,11 +737,11 @@ The figure above is the doubling time of an established exponential. A disturban
 zero pitch rate does not follow an exponential, because both roots are excited, and the response is a
 hyperbolic cosine.
 
-$$ \alpha(t) = \alpha_0 \cosh\left(\lambda t\right), \qquad \lambda = \sqrt{M_\alpha} = 6.931\ \mathrm{s^{-1}} $$
+$$ \alpha(t) = \alpha_0 \cosh\left(\lambda t\right), \qquad \lambda = \sqrt{M_\alpha} = 6.861\ \mathrm{s^{-1}} $$
 
 The two doubling times therefore differ by a fixed factor.
 
-$$ t_2^{\exp} = \frac{\ln 2}{\lambda} = 0.100\ \mathrm{s}, \qquad t_2^{\cosh} = \frac{\operatorname{arcosh} 2}{\lambda} = 0.190\ \mathrm{s} $$
+$$ t_2^{\exp} = \frac{\ln 2}{\lambda} = 0.101\ \mathrm{s}, \qquad t_2^{\cosh} = \frac{\operatorname{arcosh} 2}{\lambda} = 0.192\ \mathrm{s} $$
 
 $$ \frac{t_2^{\cosh}}{t_2^{\exp}} = \frac{\operatorname{arcosh} 2}{\ln 2} = 1.900 $$
 
@@ -761,7 +766,7 @@ $$ \varphi = 360^\circ f \tau_{\mathrm{eff}} $$
 | 2.0 Hz | 27.00° |
 | 5.0 Hz | 67.50° |
 
-**Thirty-seven and a half milliseconds of the aircraft's hundred-millisecond doubling time is consumed by the act of sampling.**
+**Thirty-seven and a half milliseconds of the aircraft's 101 millisecond doubling time is consumed by the act of sampling.**
 The ratio makes the case for forty hertz without any appeal to a specification, and it explains why the
 primary literature quotes the update rate as though it were a design feature and not an implementation
 detail. **It was a design feature.**
@@ -788,10 +793,10 @@ $$ \frac{\Delta t_{\mathrm{isolate}}}{t_2} = \frac{n_{\mathrm{frames}}/f_s}{t_2}
 
 | Frames to isolate | Fraction of a doubling time consumed |
 |---|---|
-| 1 | 25.0 percent |
-| 2 | 50.0 percent |
-| 3 | 75.0 percent |
-| 5 | 125.0 percent |
+| 1 | 24.7 percent |
+| 2 | 49.5 percent |
+| 3 | 74.2 percent |
+| 5 | 123.7 percent |
 
 **A voter that needs five frames to isolate a failure has spent more than one doubling time doing it**, by
 which point the disturbance it was protecting against has grown beyond the authority available to correct
@@ -833,10 +838,10 @@ pounds per square foot gives the scale of what was required.
 
 | Torsion axis, percent of mean aerodynamic chord | Moment arm, ft | Required stiffness, 10⁶ ft·lb/rad |
 |---|---|---|
-| 30.0 | 0.274 | 0.295 |
-| 37.5 | 0.686 | 0.738 |
-| 45.0 | 1.097 | 1.180 |
-| 50.0 | 1.371 | 1.475 |
+| 30.0 | 0.274 | 0.289 |
+| 37.5 | 0.686 | 0.723 |
+| 45.0 | 1.097 | 1.156 |
+| 50.0 | 1.371 | 1.445 |
 
 **Moving the axis from thirty percent to fifty percent of the chord multiplies the required stiffness by five**,
 because the moment arm grows from a quarter of a foot to nearly a foot and a half. The record's remark that
@@ -974,19 +979,23 @@ Mach number subsonic is the purpose of sweeping a wing.
 
 The structural consequence follows. Computing the box length between a fifteen percent front spar and a
 seventy percent rear spar for both planforms at equal isobar sweep gives
-**17.12 feet forward-swept against 17.66 feet aft-swept**, a ratio of 0.969, so the forward-swept box is
+**16.95 feet forward-swept against 17.48 feet aft-swept**, a ratio of 0.969, so the forward-swept box is
 **about three percent shorter**.
 
 A shorter box shortens the lever arm the root bending moment acts
 through.
 
-$$ M_{\mathrm{root}} = \tfrac{1}{2}n\,W\,\eta_{cp}\,\frac{b}{2} = \tfrac{1}{2} \times 8.0 \times 15{,}000 \times 0.4 \times 13.74\ \mathrm{ft} = 3.30 \times 10^{5}\ \mathrm{ft\,lb} $$
+$$ M_{\mathrm{root}} = \tfrac{1}{2}n\,W\,\eta_{cp}\,\frac{b}{2} = \tfrac{1}{2} \times 8.0 \times 15{,}000 \times 0.4 \times 13.60\ \mathrm{ft} = 3.26 \times 10^{5}\ \mathrm{ft\,lb} $$
 
 **That comparison must be made at equal shock sweep and not at equal leading-edge sweep, and the difference between those two questions reverses the answer.**
-At equal leading-edge sweep the same calculation gives 17.12 feet forward against 14.70 feet aft, making the
+At equal leading-edge sweep the same calculation gives 16.95 feet forward against 14.55 feet aft, making the
 forward-swept box the longer of the two. **Both numbers are correct and they answer different questions.**
 The one that bears on the programme's claim is the first, because a wing is designed to a shock position
 rather than to a leading-edge angle.
+
+**The geometry establishes the mechanism and does not establish the saving.** In flight at Mach 0.9 the
+aircraft showed greater shock losses than two of its three contemporaries \[[Saltzman et al 1994][research_saltzmanedwinj_hicksjohnw_1994]\], so the
+drag saving the planform was meant to buy did not appear in the airframe as built.
 
 The contemporary records on this argument are in the clusters on transonic wing design and sweep and on flutter, gusts and very flexible aircraft.
 
@@ -1024,9 +1033,9 @@ $$ \frac{T}{W} = \frac{q\,C_{D_0}}{W/S} + \frac{k\,(W/S)\,n^2}{q} \quad \Longrig
 
 | Altitude | Sustained load factor at Mach 0.9 |
 |---|---|
-| Sea level | 10.66 |
-| 20,000 ft | 8.17 |
-| 40,000 ft | 5.46 |
+| Sea level | 10.60 |
+| 20,000 ft | 8.10 |
+| 40,000 ft | 5.41 |
 
 **At sea level that exceeds the 8 g structural design limit**, on the assumed polar and at the manoeuvre
 design weight, so **at low altitude the airframe binds before the engine does**. The result follows from
@@ -1102,22 +1111,40 @@ thrust-calibrated engine was planned for the follow-on phase \[[Hicks and Mathen
 
 **The admission is honest and unusual for a programme report**, and it means the aircraft's
 supersonic drag, where the forward-swept wing's transonic argument would have been most directly
-testable, was not measured during this phase at all \[[Hicks and Huckabone 1989][research_hicksjohnw_huckabinethomas_1989]\].
+testable, was not measured during this phase at all \[[Hicks and Huckabone 1989][research_hicksjohnw_huckabinethomas_1989]\]. The later lift and drag
+report, using a thrust-calibrated engine, extended the data to Mach 1.3 \[[Saltzman et al 1994][research_saltzmanedwinj_hicksjohnw_1994]\].
 
 ## Comparison With Ground Prediction
 
 **Four comparisons are available in the primary record and they do not all point the same way.**
 
-### The Drag Polar Beat Its Prediction
+### The Subsonic Drag Polar Beat Its Prediction
 
 **Induced drag levels were as much as twenty percent less than wind tunnel estimates**, particularly at lift
-coefficients above 0.8, and the basic drag polar shapes **met or exceeded wind-tunnel-based predictions**.
-Comparison with other modern fighters showed the X-29A to have the better overall Oswald efficiency factor
-for the same aspect ratio \[[Hicks and Huckabone 1989][research_hicksjohnw_huckabinethomas_1989]\] \[[Hicks and Matheny 1987][research_hicksjohnw_mathenyneilw_1987]\].
+coefficients above 0.8, and the basic subsonic drag polar shapes **met or exceeded wind-tunnel-based
+predictions** \[[Hicks and Huckabone 1989][research_hicksjohnw_huckabinethomas_1989]\] \[[Hicks and Matheny 1987][research_hicksjohnw_mathenyneilw_1987]\]. The same report found the opposite at Mach 0.95 and low lift,
+where the flight drag exceeded prediction by up to twenty percent as the lift coefficient fell toward zero
+\[[Hicks and Huckabone 1989][research_hicksjohnw_huckabinethomas_1989]\].
+
+**Beating its prediction is a different finding from beating other aircraft.** The preliminary report
+compared polar shapes with other modern fighters and credited the X-29A with the better overall Oswald
+efficiency factor for the same aspect ratio \[[Hicks and Huckabone 1989][research_hicksjohnw_huckabinethomas_1989]\]. The later and fuller lift and drag report,
+covering Mach 0.4 to 1.3, found the subsonic Oswald factor about average for a cantilever monoplane, and at
+Mach 0.6 found the lift-to-drag ratio and lifting efficiency about the same as those of the F-15C, F-16C and
+F/A-18. It also judged the 185 square foot reference area too small for force coefficients to be compared
+across aircraft, and made its serious comparisons only with quantities free of that area \[[Saltzman et al 1994][research_saltzmanedwinj_hicksjohnw_1994]\].
+
+**At Mach 0.9, where the transonic argument should have shown, the comparison went against the aircraft.**
+At a load factor of 2 the F-16C and F/A-18 had lift-to-drag ratios about one unit higher than the X-29A.
+The authors judged that the X-29A suffered greater shock losses, probably caused in large part by the
+actuator fairings and hinges under its wing, and at supersonic speeds they found its lift-related drag high
+against all three contemporaries, which they believed was caused by high trim drag \[[Saltzman et al 1994][research_saltzmanedwinj_hicksjohnw_1994]\].
 
 **A twenty percent overprediction of induced drag by a tunnel is a large error in the conservative direction**,
-and a result of that kind supports the configuration more strongly than a matching prediction would
-have. In the subsonic and low transonic polar data the aircraft was better than the ground said it would be.
+and it shows that the ground tools were pessimistic about this wing at subsonic lifting conditions. It does
+not show that the configuration had less drag than a conventional fighter, and the flight data taken
+together do not show that either. The agency history states that the programme did not demonstrate the
+overall drag reduction that earlier studies had suggested \[[Gelzer 2015][ref_gelzer_x29]\].
 
 ### The Divergence Boundary Was Worse Than Predicted
 
@@ -1169,7 +1196,8 @@ No forward-swept fighter has entered series production since, the [Su-47][ref_su
 prototype, and the moderate forward sweep of some sailplanes and light aircraft serves visibility and spar
 placement rather than high-speed performance \[[Forward-swept wing][ref_fsw]\]. The configuration's
 aerodynamic case was modest, since the programme did not demonstrate the overall drag reduction that earlier
-studies had suggested \[[Gelzer 2015][ref_gelzer_x29]\], its structural case depended on a technology that
+studies had suggested \[[Gelzer 2015][ref_gelzer_x29]\] and the flight data showed no lift-to-drag advantage over
+contemporary fighters \[[Saltzman et al 1994][research_saltzmanedwinj_hicksjohnw_1994]\], its structural case depended on a technology that
 had other uses, and advances in thrust vectoring and a shift toward medium-range missile engagements reduced
 its relevance to fighter design \[[Forward-swept wing][ref_fsw]\]. **The planform lost.**
 
@@ -1605,10 +1633,12 @@ inertia is a factor of 1.41 in every time in that table.
 behind the transonic argument is likewise assumed. Both are stated in their tables as sensitivities for that
 reason.
 
-**The aircraft was not asked the question that would have tested the planform hardest.** The supersonic drag
-was never measured during the phase reported here, because afterburner fuel flow was not instrumented
-\[[Hicks and Huckabone 1989][research_hicksjohnw_huckabinethomas_1989]\]. The
-forward-swept wing's transonic case therefore rests on subsonic polar data and on tunnel work.
+**The question that would have tested the planform hardest was answered late, and against it.** The
+supersonic drag was not measured in the preliminary phase, because afterburner fuel flow was not instrumented
+\[[Hicks and Huckabone 1989][research_hicksjohnw_huckabinethomas_1989]\]. When the later report extended the lift and drag data to Mach 1.3, it found
+greater transonic shock losses than in two contemporary fighters and higher supersonic lift-related drag
+than in all three \[[Saltzman et al 1994][research_saltzmanedwinj_hicksjohnw_1994]\]. The forward-swept wing's transonic case therefore did not survive
+the flight data that could test it.
 
 **And the largest limitation is not technical.** The programme was a success by its own criteria and the
 configuration was never adopted.
@@ -1696,8 +1726,8 @@ well-documented body of work.
 - Two aircraft were built, the first flying on 14 December 1984 \[[Hicks and Matheny 1987][research_hicksjohnw_mathenyneilw_1987]\] \[[Gelzer 2015][ref_gelzer_x29]\].
 - The wing has a leading edge swept 29.3 degrees forward, a structural axis swept 36.2 degrees forward,
   an aspect ratio of 4.0 and a trapezoidal reference area of 185 square feet \[[Hicks and Huckabone 1989][research_hicksjohnw_huckabinethomas_1989]\]
-  \[[Sims et al 1989][research_simsrobert_mccrossonpaul_1989]\]. The wing area of 188.84 square feet used for the ratios in this article comes from
-  the encyclopaedia entry alone \[[Grumman X-29][ref_x29]\].
+  \[[Sims et al 1989][research_simsrobert_mccrossonpaul_1989]\] \[[Saltzman et al 1994][research_saltzmanedwinj_hicksjohnw_1994]\]. The figure of 188.84 square feet in the encyclopaedia entry
+  \[[Grumman X-29][ref_x29]\] is the exposed wing area \[[Saltzman et al 1994][research_saltzmanedwinj_hicksjohnw_1994]\].
 - The wing skins are graphite-epoxy composite, aeroelastically tailored to inhibit structural
   divergence \[[Hicks and Matheny 1987][research_hicksjohnw_mathenyneilw_1987]\].
 - The static margin is nominally 35 percent negative subsonically, and the instability is created by
@@ -1718,6 +1748,11 @@ well-documented body of work.
   pressure of 1,700 pounds per square foot \[[Sims et al 1989][research_simsrobert_mccrossonpaul_1989]\].
 - That induced drag in flight was as much as 20 percent below wind tunnel estimates above a lift
   coefficient of 0.8 \[[Hicks and Huckabone 1989][research_hicksjohnw_huckabinethomas_1989]\].
+- That the X-29A's subsonic lifting efficiency was about average and about equal to that of the F-15C,
+  F-16C and F/A-18, while its transonic shock losses and supersonic lift-related drag were higher
+  \[[Saltzman et al 1994][research_saltzmanedwinj_hicksjohnw_1994]\].
+- That the programme did not demonstrate the overall drag reduction earlier studies had suggested
+  \[[Gelzer 2015][ref_gelzer_x29]\] \[[Jenkins, Landis and Miller][ref_xvehicles]\].
 - That the flight-estimated divergence speed was lower than predicted but remained outside the flight
   envelope \[[Hicks and Matheny 1987][research_hicksjohnw_mathenyneilw_1987]\].
 - That canard torsion loads exceeded predictions transonically and were not fully understood \[[Hicks and Matheny 1987][research_hicksjohnw_mathenyneilw_1987]\].
@@ -1727,8 +1762,9 @@ well-documented body of work.
 
 - The number of flights made by each aircraft and by the programme as a whole \[[Gelzer 2015][ref_gelzer_x29]\] \[[Jenkins, Landis and Miller][ref_xvehicles]\]
   \[[Grumman X-29][ref_x29]\].
-- Whether the configuration reduced drag, which the subsonic polar data support \[[Hicks and Huckabone 1989][research_hicksjohnw_huckabinethomas_1989]\] and
-  which the agency history and the inventory deny overall \[[Gelzer 2015][ref_gelzer_x29]\] \[[Jenkins, Landis and Miller][ref_xvehicles]\].
+- Whether the X-29A's lifting efficiency exceeded that of contemporary fighters, which the preliminary
+  report claimed \[[Hicks and Huckabone 1989][research_hicksjohnw_huckabinethomas_1989]\] and the later report, comparing only quantities free of the reference
+  area, did not find \[[Saltzman et al 1994][research_saltzmanedwinj_hicksjohnw_1994]\].
 
 **Engineering analysis, computed here and reproducible from the stated inputs.**
 
@@ -1736,8 +1772,8 @@ well-documented body of work.
   ratio, and the margins of 2.667 in dynamic pressure and 1.633 in equivalent airspeed.
 - The agreement to 0.24 percent between the quoted design dynamic pressure and the same condition
   recomputed from the quoted Mach number and altitude.
-- The agreement to 0.99 percent between the quoted span and the span implied by the quoted aspect ratio
-  and area.
+- The agreement to better than 0.01 percent between the quoted span and the span implied by the quoted
+  aspect ratio and reference area.
 - The lift amplification against dynamic pressure.
 - The sweep trend of the divergence boundary, and the critical sweepback of 48.013 degrees beyond
   which the boundary disappears entirely in this model, obtained in closed form and confirmed by
@@ -1804,7 +1840,9 @@ The canard's own divergence boundary was set not by its spindle but by the stiff
 a control law required. **A control requirement fixed a structural boundary.** The programme was organised
 as a structures problem and a controls problem, and the aeroplane declined to be divided that way.
 
-**The planform lost and everything it forced won.** No production fighter flies a forward-swept wing \[[Forward-swept wing][ref_fsw]\].
+**The planform lost and everything it forced won.** Its drag case did not survive the flight data, which
+showed lifting efficiency no better than that of contemporary fighters and greater shock losses at Mach 0.9
+\[[Saltzman et al 1994][research_saltzmanedwinj_hicksjohnw_1994]\]. No production fighter flies a forward-swept wing \[[Forward-swept wing][ref_fsw]\].
 Aeroelastic tailoring, deep static instability, and real-time redundancy management are all ordinary.
 **The X-29 is the rare research aircraft whose most visible feature was the least important thing it proved.**
 

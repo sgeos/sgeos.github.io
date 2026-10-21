@@ -37,6 +37,8 @@ The register is a public addendum to DOD 4120.15-L, the Department of Defense's 
 
 Of the 539 allocation rows the addendum carries, this is **the only one containing the word flutter, the only one containing any form of the word exhibit, the only one naming a flying wing, the only one naming a high aspect ratio, and the only one naming a flight envelope**. Those five measurements are separate, and each returns one row, the same row.
 
+**The copy these counts come from is later than this article's date.** The version current on that date, the compiler's update of 11 August 2025 as the Internet Archive captured it on 25 November 2025, held 526 rows, twenty-nine of them X rows \[[Parsch, DOD 4120.15-L Addendum, 11 August 2025][ref_mds_addendum_2025]\]. In it seventeen entries say demonstrate, five of them among the descriptions the compiler marks, because the X-76A row had not yet been entered. It gave eight rows a question mark in the date field and marked seventeen rows as not drawn from Department of Defense records, because it still carried a questioned date for a supersonic target converted from an anti-radiation missile, still listed the F-47 fighter, and did not yet list the long range air to air missile. **Every finding about the X-56A and the X-56B holds in both versions**, being the five terms found in that row alone, the single use of exhibit, the counts of the other two verbs and of the counterexample terms, the X-56B as the only X row with a questioned date, and the X-37B and the X-56B as the only marked X rows.
+
 **The uniqueness that matters is not any single one of them.** It is the verb. A register of experimental aircraft is a register of intentions, and the intentions it records are overwhelmingly to demonstrate that something works. **To exhibit a flutter mechanism is to undertake that something will fail**, in a controlled way, at a place of one's choosing.
 
 **The claim needs testing against its strongest counterexample.** The counterexample here is real. The X-54A was to be `capable of generating relevant ground sonic boom signatures`, and the X-59A `will create a shaped sonic boom signature` \[[Parsch, DOD 4120.15-L Addendum, MDS Designators Allocated After 19 August 1998][ref_mds_addendum]\] \[[X-Planes: Gulfstream X-54][related_post_a351_gulfstream_x54]\]. **Both of those aeroplanes were also designed to produce an unwanted phenomenon on purpose.** Two entries mention a sonic boom, one mentions vortices, two mention icing, one mentions fatigue.
@@ -723,7 +725,7 @@ The register also marks certain rows as not drawn from Department of Defense rec
 
 ## Epistemic State
 
-**Facts.** The register's wording, the counts of terms across its 539 allocation rows, the question mark and the not from Department of Defense records marking on the X-56B row, and every number attributed above to the flight test report or the programme retrospective, are quoted from those documents and each numeric relation stated here has been recomputed rather than repeated.
+**Facts.** The register's wording, the counts of terms across its 539 allocation rows, the question mark and the not from Department of Defense records marking on the X-56B row, and every number attributed above to the flight test report or the programme retrospective, are quoted from those documents and each numeric relation stated here has been recomputed rather than repeated. The register is counted in a copy later than this article's date, and the counts that differ in the version current on that date are stated where the registry entry is introduced \[[Parsch, DOD 4120.15-L Addendum, 11 August 2025][ref_mds_addendum_2025]\].
 
 **Inference.** That the register's verb marks a category difference rather than a wording accident is an inference from the distribution of verbs across the register, and counting supports it without proving it. That the second flutter mechanism was not reached for programmatic rather than physical reasons is an inference, although an unusually well supported one, because the programme states it in those terms itself.
 
@@ -813,6 +815,7 @@ The register also marks certain rows as not drawn from Department of Defense rec
 - [NASA Pathfinder][ref_pathfinder]
 - [NASA Releases Helios Prototype Aircraft Mishap Report][ref_helios_mishap]
 - [Normal Mode][ref_normal_mode]
+- [Parsch, DOD 4120.15-L Addendum, 11 August 2025, Internet Archive capture of 25 November 2025][ref_mds_addendum_2025]
 - [Parsch, DOD 4120.15-L Addendum, MDS Designators Allocated After 19 August 1998][ref_mds_addendum]
 - [Phase Margin][ref_phase_margin]
 - [Phugoid][ref_phugoid]
@@ -853,6 +856,7 @@ The register also marks certain rows as not drawn from Department of Defense rec
 [ref_kehoe_flight_flutter]: https://ntrs.nasa.gov/citations/19960004074
 [ref_limit_cycle]: https://en.wikipedia.org/wiki/Limit_cycle
 [ref_mds_addendum]: https://www.designation-systems.net/usmilav/412015-L(addendum).html
+[ref_mds_addendum_2025]: https://web.archive.org/web/20251125110610/http://www.designation-systems.net/usmilav/412015-L(addendum).html
 [ref_mds_allocation]: https://www.designation-systems.net/usmilav/mdsallocation.html
 [ref_nasa_x56]: https://www.nasa.gov/aeronautics/x-56a-mutt/
 [ref_normal_mode]: https://en.wikipedia.org/wiki/Normal_mode

@@ -35,6 +35,8 @@ a vehicle that is itself cheap**, being low-cost aerial targets, low-cost cruise
 a low-cost unmanned aircraft. **In those entries cost is an adjective on the article. In this
 one it is the dependent variable.**
 
+**The copy counted here is later than this article's date.** The version current on that date, the compiler's update of 11 August 2025 as the Internet Archive captured it on 25 November 2025, held 526 rows \[[Parsch, DOD 4120.15-L Addendum, 11 August 2025][ref_mds_addendum_2025]\]. In it the four distinctions of the X-55A row and its one shared use of `composite` are the same, and it shares `cost` with eight entries, because the two low-cost cruise missiles allocated on 17 September 2025 had not yet been entered. **Each of those eight also describes a cheap vehicle.**
+
 **One other entry in the register makes a claim about construction, and it invites comparison because it uses the same metric.** The FA-18E was allocated on
 12 April 2004 with a mission statement recording that the aircraft is approximately
 twenty-five percent larger than its predecessor and **contains forty-two percent fewer
@@ -673,8 +675,8 @@ Phase III was awarded on 17 September 2009 to expand the envelope and characteri
 
 **The research survey holds 4,803 records, and every one of them is cited in the survey in the section headed The Contemporary Literature.**
 They are drawn from NASA's Technical Reports Server, the Defense Technical Information Center and the
-journal literature indexed by Crossref. The reference list holds 4,908 definitions in total, being the
-research records together with forty-three reference sources, seven books and fifty-five links to earlier
+journal literature indexed by Crossref. The reference list holds 4,909 definitions in total, being the
+research records together with forty-four reference sources, seven books and fifty-five links to earlier
 articles in this series.
 
 ### The Definition of Primary
@@ -877,6 +879,7 @@ The aerodynamics of the aeroplane, which were the Dornier's and were not modifie
 - [Boyle's Law][ref_boyle]
 - [Composite Material][ref_composite_material]
 - [Darcy's Law][ref_darcy]
+- [Parsch, DOD 4120.15-L Addendum, 11 August 2025, Internet Archive capture of 25 November 2025][ref_mds_addendum_2025]
 - [Parsch, DOD 4120.15-L Addendum, MDS Designators Allocated After 19 August 1998][ref_mds_addendum]
 - [DOD 4120.15-L, Model Designation of Military Aerospace Vehicles][ref_dod_412015l]
 - [Experience Curve Effects][ref_learning_curve]
@@ -937,6 +940,7 @@ The aerodynamics of the aeroplane, which were the Dornier's and were not modifie
 [ref_learning_curve]: https://en.wikipedia.org/wiki/Experience_curve_effects
 [ref_lm_first_flight]: https://news.lockheedmartin.com/2009-06-03-Lockheed-Martin-Conducts-Successful-Flight-of-AFRLs-Advanced-Composite-Cargo-Aircraft
 [ref_mds_addendum]: https://www.designation-systems.net/usmilav/412015-L(addendum).html
+[ref_mds_addendum_2025]: https://web.archive.org/web/20251125110610/http://www.designation-systems.net/usmilav/412015-L(addendum).html
 [ref_mds_allocation]: https://www.designation-systems.net/usmilav/mdsallocation.html
 [ref_missing_mds]: https://www.designation-systems.net/usmilav/missing-mds.html
 [ref_mtm45_datasheet]: https://cstjmateriauxcomposites.wordpress.com/wp-content/uploads/2017/11/cytec_mtm45-1_resine_epoxyde.pdf

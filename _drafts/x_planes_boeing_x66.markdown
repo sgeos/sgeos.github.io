@@ -41,7 +41,7 @@ The questions this article asks are therefore these. **What is the condition for
 
 ## The Register Row, and a Designation Allocated Before Its Engine Was Chosen
 
-Andreas Parsch's addendum to DOD 4120.15-L, a compilation of the designations allocated after August 1998 that he publishes at designation-systems.net from Department of Defense sources, gives the row above and nothing else in the copy the compiler last updated on 23 August 2026 \[[Parsch, DOD 4120.15-L Addendum][ref_mds_addendum]\]. The compiler notes that the official description of an allocation made after October 2018 is not releasable, and he marks this row's description as not official Department of Defense wording, so the description line is the compiler's, while the date, manufacturer, engines and sponsor cells record the allocation. **The engines cell reads `2 Pratt & Whitney` with no model number**, which among the rows around it is unusual, since the X-65A cell names a `Williams FJ44-3A` and the X-68A cell names a `Williams WJ38-15`.
+Andreas Parsch's addendum to DOD 4120.15-L, a compilation of the designations allocated after August 1998 that he publishes at designation-systems.net from Department of Defense sources, gives the row above and nothing else in the copy the compiler last updated on 23 August 2026 \[[Parsch, DOD 4120.15-L Addendum][ref_mds_addendum]\]. The compiler notes that the official description of an allocation made after October 2018 is not releasable, and he marks this row's description as not official Department of Defense wording, so the description line is the compiler's, while the date, manufacturer, engines and sponsor cells record the allocation. **The engines cell reads `2 Pratt & Whitney` with no model number**, which among the rows around it is unusual, since the X-65A cell names a `Williams FJ44-3A` and the X-68A cell names a `Williams WJ38-15`. The copy of 23 August 2026 is later than this article's date. The version current on that date, the compiler's update of 11 August 2025 as the Internet Archive captured it on 10 December 2025, held 526 rows, twenty-nine of them X rows, and lacked fifteen later rows that include the X-68A and the X-76A. That version carried this row and the X-65A row with the cells quoted here and ended its X rows at the X-66A, so **the X-68A row was not public on this article's date** and first appeared in an update the compiler made after it \[[Parsch, DOD 4120.15-L Addendum, 11 August 2025][ref_mds_addendum_2025]\].
 
 The absence is not carelessness. **The row was allocated on 3 May 2023, before either the engine family or the engine had been announced.** Pratt and Whitney geared turbofans were named for the demonstrator on 3 October 2023 \[[RTX selection release][ref_rtx_x66_2023]\], and the engine itself, a derivative of the PW1500G designated PW102XG, was disclosed in June 2024 \[[FlightGlobal on the PW102XG][ref_flightglobal_pw102xg_2024]\]. **So the register's cell names a manufacturer five months before that manufacturer's selection was announced, and omits a model that was not public for another thirteen months**, and a reader who treats a register cell as a specification will mistake a dated snapshot for an omission.
 
@@ -1720,8 +1720,8 @@ reason to think the gate box is negotiable for an aeroplane worth negotiating fo
 
 ## The Source Base
 
-**The reference base behind this article is 3,969 definitions**, of which
-**28** are primary documents,
+**The reference base behind this article is 3,970 definitions**, of which
+**29** are primary documents,
 **66** are the prior articles of this series, and **3,875** are the research records of the
 survey. **Five** of the research records are cited in the text for specific statements, and every research record also appears in one cluster row.
 
@@ -1956,6 +1956,7 @@ which the concept rests had not yet been made on equal terms. **Then it asks for
 - [Chatterji, Sridhar and Palopo, Transonic Truss-Braced Wing Airplane Characteristics for Airport Operations, NASA/TM-20250002858, March 2025, read in part][ref_tm_airport_ops]
 - [Directory of U.S. Military Rockets and Missiles, Appendix 4, Undesignated Vehicles, index, last updated 16 September 2026, read 18 October 2026][ref_ds_app4]
 - [Parsch, DOD 4120.15-L Addendum, MDS Designators Allocated After 19 August 1998][ref_mds_addendum]
+- [Parsch, DOD 4120.15-L Addendum, 11 August 2025, Internet Archive capture of 10 December 2025][ref_mds_addendum_2025]
 - [Droney, Sclafani and Grasch, Subsonic Ultra Green Aircraft Research Phase III, Mach 0.75 Transonic Truss-Braced Wing Design, NASA contractor report, read in part][ref_cr_phase3]
 - [Federal Aviation Administration, Airport Design, Advisory Circular 150/5300-13B, read in part, Table 1-2 Airplane Design Group and the Use of Metrics paragraph read directly][ref_faa_ac_airport_design]
 - [Funded Space Act Agreement PAM 36785 between NASA Armstrong Flight Research Center and The Boeing Company for Sustainable Flight Demonstrator Development and Flight Test, signed 12 and 13 January 2023, read in full][ref_fsaa]
@@ -1992,6 +1993,7 @@ which the concept rests had not yet been made on equal terms. **Then it asks for
 [ref_fsaa]: https://nasa.gov/wp-content/uploads/static/saa/domestic/36785_Boeing-80AFRC22N0008-SFD_Boeing_NASA_Signed_FSAA.pdf
 [ref_icas_ttbw_2024]: https://ntrs.nasa.gov/citations/20240007120
 [ref_mds_addendum]: https://www.designation-systems.net/usmilav/412015-L(addendum).html
+[ref_mds_addendum_2025]: https://web.archive.org/web/20251210111623/https://www.designation-systems.net/usmilav/412015-L(addendum).html
 [ref_nasa_award_2023]: https://www.nasa.gov/news-release/nasa-issues-award-for-greener-more-fuel-efficient-airliner-of-future/
 [ref_nasa_cj_2024]: https://www.nasa.gov/wp-content/uploads/2023/03/nasa-fy-2024-cj-v3.pdf
 [ref_nasa_cj_2025]: https://www.nasa.gov/wp-content/uploads/2024/04/fy-2025-full-budget-request-congressional-justification-update.pdf

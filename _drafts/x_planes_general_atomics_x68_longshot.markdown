@@ -19,7 +19,7 @@ a sponsor, and one name. What the aircraft is for has no official word at all.**
 
 The X-68A was allocated on 20 August 2025 to General Atomics, with an engine cell reading
 `1 Williams WJ38-15`, a sponsor cell reading DARPA, the Defense Advanced Research Projects Agency, and a description that the register,
-which Andreas Parsch compiles from data the Department of Defense has released, marks as only partly official \[[Parsch, DOD 4120.15-L Addendum][ref_mds_addendum]\].
+which Andreas Parsch compiles from data the Department of Defense has released, marks as only partly official \[[Parsch, DOD 4120.15-L Addendum][ref_mds_addendum]\]. **That row was not public on this article's date.** The register's page as archived on 10 December 2025 and on 15 January 2026 ends its research rows at the X-66A, and the page as archived on 1 February 2026 carries the X-68A row, so the row first appeared between 15 January and 1 February 2026 \[[Parsch, DOD 4120.15-L Addendum, as archived on 10 December 2025][ref_mds_addendum_wb_2025_12]\] \[[Parsch, DOD 4120.15-L Addendum, as archived on 15 January 2026][ref_mds_addendum_wb_2026_01]\] \[[Parsch, DOD 4120.15-L Addendum, as archived on 1 February 2026][ref_mds_addendum_wb_2026_02]\]. It is quoted here from the copy the compiler last updated on 23 August 2026, and the Statements in This Article That Postdate Its Own Date section records it.
 
 > Longshot; Experimental air-launched UCAV for air-to-air engagements.
 
@@ -224,7 +224,7 @@ description indicates that part of the description is official wording and part 
 stood on 18 October 2026, in the edition the compiler last updated on 23 August 2026, and every row of its
 tables is counted, including 7 whose designation cell is irregular, such as `C-130J(CC-130J)` and
 `AGM-158B-2`. The [X-67][related_post_a364_x67_slot_taken_by_xq67] article states the same partition
-over the same 539 rows, and 5 of the 103 marks fall on the 7 irregular rows.
+over the same 539 rows, and 5 of the 103 marks fall on the 7 irregular rows. **The register current on this article's date was smaller.** The compiler's update of 11 August 2025, as archived on 10 December 2025, held 526 rows and lacked the X-68A row and fourteen other later rows \[[Parsch, DOD 4120.15-L Addendum, as archived on 10 December 2025][ref_mds_addendum_wb_2025_12]\]. Under that version 94 rows carried a mark, being 65 unofficial descriptions, 12 partly unofficial descriptions and 17 unofficial rows against 432 official rows, and no research row carried a span-level mark. DARPA sponsored 6 rows, 3 of them research allocations and 2 of those among the 6 research rows dated in full from June 2019, Williams was named in 13 engine cells, 3 of them on research rows, and General Atomics held 14 rows, 10 of them unmanned allocations and none a research allocation. **Every count below that involves the X-68A or the X-76A is a count over the later copy.**
 
 ### The X-68A Is the Only Research Row Marked at the Span Level
 
@@ -1314,11 +1314,14 @@ claimed the review for themselves \[[DARPA PB2021 justification][ref_darpa_pb202
 them plans it for the year that book requests, moving it from FY2024 to FY2026. **A slip of
 two fiscal years, from PB2024 to PB2026**, with the milestone
 always one year away \[[DARPA PB2024 justification][ref_darpa_pb2024]\] \[[DARPA PB2025 justification][ref_darpa_pb2025]\]
-\[[DARPA PB2026 justification][ref_darpa_pb2026]\]. The [X-65][related_post_a362_aurora_x65_crane] article measured a slip of the
+\[[DARPA PB2026 justification][ref_darpa_pb2026]\]. The first book after this article's date plans flight testing
+of the vehicle on a host aircraft for FY2026 as well, which describes captive carry without the term,
+so the slip had not grown by April 2026 \[[DARPA PB2027 justification][ref_darpa_pb2027]\].
+The [X-65][related_post_a362_aurora_x65_crane] article measured a slip of the
 same size in the same programme element over the same period, which suggests a cause not specific to
 either programme.
 
-### The Demonstration of This Article's Keystone Was Reworded and Slipped
+### The Demonstration of This Article's Keystone Slipped Two Years and Then Went Unscheduled
 
 **This is the finding, and it bears on which test is in the plan as well as when.**
 
@@ -1354,6 +1357,21 @@ FY2025 \[[DARPA PB2026 justification][ref_darpa_pb2026]\].
 plans, for FY2026, flight demonstrations validating the vehicle's stability and control prior to,
 during and after separation of an air-to-air missile payload, and live fire flight test
 demonstrations \[[DARPA PB2026 justification][ref_darpa_pb2026]\].
+
+**The latest book plans the release of the vehicle and no longer names the missile.** PB2027, of
+April 2026 and outside this article's date, plans for FY2026 weapon integration and ground testing,
+a line PB2025 had planned for FY2024, then flight testing on a host aircraft and flight
+demonstrations validating vehicle release from a host aircraft and the vehicle's performance,
+stability and control through all phases of flight, and for FY2027 it continues both
+demonstrations \[[DARPA PB2025 justification][ref_darpa_pb2025]\]
+\[[DARPA PB2027 justification][ref_darpa_pb2027]\]. None of its FY2026 or FY2027 plans names a
+missile. **The announcement of February 2026 does name a store.** It states that the coming flight
+tests will demonstrate the vehicle's ability to safely eject a captive sub-munition, and it places
+the campaign as early as the end of 2026 \[[DARPA on the X-68A][ref_darpa_longshot_news]\]. The
+press account of the same day records that the first flight had been hoped for before the end of
+2023 \[[The War Zone on the X-68A][ref_twz_x68a]\]. **So the latest official schedule gives a
+year to the vehicle's release and to no missile's release**, and the one later official statement
+that a store will leave the vehicle in flight carries no fiscal year.
 
 **A pit drop of a mass simulant is the right first test and it does not answer the question.** It
 measures the separation trajectory of a representative mass from a representative vehicle while the
@@ -1428,7 +1446,10 @@ only PB2024 names the missile's separation as the thing validated. **The demonst
 says it exists to perform slipped two fiscal years as captive carry did**, and the first book after
 this article's date plans vehicle release from a host aircraft and stability through all phases of
 flight without naming a missile at all \[[DARPA PB2024 justification][ref_darpa_pb2024]\] \[[DARPA PB2025 justification][ref_darpa_pb2025]\] \[[DARPA PB2026 justification][ref_darpa_pb2026]\]
-\[[DARPA PB2027 justification][ref_darpa_pb2027]\].
+\[[DARPA PB2027 justification][ref_darpa_pb2027]\]. The announcement of February 2026 still
+promises the safe ejection of a captive sub-munition in flight test, and gives it no fiscal year
+\[[DARPA on the X-68A][ref_darpa_longshot_news]\]. **The missile release was postponed and then
+left without a date, and no document read for this article states that it was removed.**
 
 **The observation is about documents and makes no accusation about engineering.** The most likely
 explanation is the ordinary one, that a demonstration retires risk in the order the risks can be
@@ -1894,7 +1915,8 @@ register's turbojet or the manufacturer designation's turbofan is correct. Which
 individuals is currently the programme manager. Whether the missile fires while attached or coasts
 clear before ignition, which is the difference between two very different structural problems.
 Whether the in-flight missile separation demonstration that PB2024, PB2025 and PB2026 plan, and
-PB2027 does not name, was deferred, reorganised or removed. **And the keystone itself, since no vehicle of this class has
+PB2027 does not name, was deferred, reorganised or removed, and in which year the ejection of a
+captive sub-munition that the announcement of February 2026 promises is to be flown. **And the keystone itself, since no vehicle of this class has
 released a store of this mass fraction in flight in any record read here.**
 
 ### Statements in This Article That Postdate Its Own Date
@@ -1914,8 +1936,9 @@ The following are outside the date and are used anyway, each marked where it app
 - The announcement of 17 February 2026 by the sponsoring agency and the contractor's response.
 - The full-scale wind tunnel, parachute recovery and weapons-release milestones those announcements
   report.
-- The F-15 as the launch aircraft for the first flight tests, and the statement that flight testing
-  could begin as early as the end of 2026.
+- The F-15 as the launch aircraft for the first flight tests, the statement that flight testing
+  could begin as early as the end of 2026, and the statement that those tests will demonstrate the
+  safe ejection of a captive sub-munition.
 - The name of the programme manager quoted in that announcement.
 - **April 2026's budget justification book**, which is the seventh and the only one
   outside the date \[[DARPA PB2027 justification][ref_darpa_pb2027]\]. Its funding figures for fiscal years 2025 through 2027 and its plans lists are
@@ -2002,11 +2025,13 @@ change.
 missile from the vehicle, which is the keystone as a demonstration, is planned by three consecutive
 books for three different years, is named as the missile's separation only in the first of them,
 is joined by a ground drop of a substitute mass in the third, and is not named at all in the first
-book after this article's date. **A plans list is a summary and
+book after this article's date, which plans the vehicle's release for FY2026 and FY2027 while the
+announcement of two months earlier promises the ejection of a captive sub-munition without a year.
+**A plans list is a summary and
 not a schedule, so this is an observation about documents rather than a claim about engineering.**
-It is recorded because the thing the programme states it exists to retire has slipped like any other
-milestone and then stopped being named in its published plans, and a reader of any one book would
-not see it.
+It is recorded because the thing the programme states it exists to retire slipped two fiscal years
+like any other milestone and then lost its year in the published plans, and a reader of any one book
+would not see it.
 
 **At this article's date nothing had flown.** The designation was 115 days
 old and unannounced, the flight test campaign had not begun, and captive carry had

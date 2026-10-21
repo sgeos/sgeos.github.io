@@ -13,10 +13,10 @@ series_index: 26
 <!-- A322 -->
 <script>console.log("A322");</script>
 
-On 23 January 1968, the date the [X-25B][ref_x25] entry gives, an unpowered [Bensen gyroglider][ref_bensen_b8]
-carrying one person and designated X-25B flew for the first time, although [Guinness World
-Records][ref_guinness_x25b] dates that first flight to 5 June 1968. It had no engine, no fuselage to speak of,
-and a rotor that turned only because air was coming up through it.
+On 5 June 1968, the first-flight date that [Jenkins, Landis and Miller][book_jenkins_landis_miller_2003] give
+for the type and that [Guinness World Records][ref_guinness_x25b] gives for this aircraft, an unpowered [Bensen
+gyroglider][ref_bensen_b8] designated X-25B flew for the first time at Edwards Air Force Base. It had no engine
+at first, no fuselage to speak of, and a rotor that turned only because air was coming up through it.
 **It is the smallest crewed aircraft and the slowest in this series, and the only one whose research question was about what happens after an aeroplane has already been lost.**
 Guinness World Records names the X-25B the smallest crewed aircraft to receive an X-plane designation, and its
 fastest recorded flight was 85 miles per hour in the inventory by [Jenkins, Landis and
@@ -45,6 +45,15 @@ land is recorded by [Jenkins, Landis and Miller][book_jenkins_landis_miller_2003
 autorotating rotor is not a gentler way down than a parachute. At equal weight it descends about nine
 percent faster, and as flown it descended about thirty percent faster. The rotor does not offer a slower
 descent. It offers the ability to go somewhere.
+
+**The concept was not abandoned because pilots could not learn to fly it.** The one test result on record is
+that pilots could be trained quickly and easily, in the [X-25A][ref_nmusaf_x25a] fact sheet, which gives the
+end of the programme as the air war winding down together with doubts about operational feasibility. The
+vehicle that embodied the escape, the unpowered gyro-chute, has no recorded piloted flight, and no full-scale
+operational test was performed, in [Jenkins, Landis and Miller][book_jenkins_landis_miller_2003].
+**The evidence supports a narrower reading, that the need lapsed before the escape itself was ever demonstrated.**
+The arithmetic below indicates where the doubts about feasibility could plausibly have lain, an inference
+that no document of the programme confirms.
 
 ## The Research Question
 
@@ -99,7 +108,7 @@ recorded, in [Jenkins, Landis and Miller][book_jenkins_landis_miller_2003].
 |---|---|---|
 | Basis | Bensen B-8M Gyro-Copter | Bensen B-8 Gyro-Glider |
 | Serial | 68-10770 | 68-10771 |
-| First flight | 5 June 1968 | 23 January 1968 or 5 June 1968, sources differ |
+| First flight | 5 June 1968 | 5 June 1968, with 23 January 1968 in one unsourced entry |
 | Engine | McCulloch four-cylinder two-stroke | none at first, later fitted |
 | Role in the programme | training and technique | towed trainer, training and technique |
 | Now held at | National Museum of the United States Air Force | Air Force Flight Test Museum, [Edwards][ref_edwards] |
@@ -491,17 +500,20 @@ makes spin-up the thinnest topic in this article. It is discussed under The Sour
 
 ### An Irreversible Step in the Deployment
 
-**Here the concept is in real trouble, and the trouble is not aerodynamic.**
+**Here lies one plausible ground for the doubts about feasibility, and that ground is not aerodynamic.**
 
 The documented concept was a vehicle stowed in the aircraft, ejected with the pilot and deployed during the
 descent, its rotor brought up to speed as it fell, in the [X-25A][ref_nmusaf_x25a] fact sheet. The record
 consulted here does not say how a personnel parachute fitted that sequence. If the crewman left the aircraft
 by [ejection seat][ref_ejection_seat] in the ordinary way, let the parachute open and spun the rotor up in
 that descent, the sequence would end by **cutting the parachute away**. Written as a trade, the crewman gives up a canopy already descending at 21 feet per second and working, in exchange for a
-rotor descending at 16.5 feet per second with a four-to-one glide.
+rotor descending at 16.5 feet per second with a four-to-one glide. If the gyro-chute instead replaced the
+canopy, the crewman's survival would rest on a rotor designed to deploy automatically at any ejection speed,
+including supersonic, for which no piloted test is recorded, in [Jenkins, Landis and
+Miller][book_jenkins_landis_miller_2003].
 
-**The gain is range. The gain is not survival of the descent, which was already assured.** And the step that
-secures it cannot be undone, is taken seconds after an ejection, and is taken by someone who may be injured,
+**The gain is range. The gain is not survival of the descent, which was already assured.** In the cutaway
+sequence the step that secures it cannot be undone, is taken seconds after an ejection, and is taken by someone who may be injured,
 disoriented, or under fire. On escape systems the relevant work is [Poteate and Solomonides 1964][research_poteate_solomonides_1964], [Bement 1979][research_bement_1979], [Ford 1979][research_ford_1979], [Hawker and Payne 1979][research_hawker_payne_1979], and [Cummings 1982][research_cummings_1982] and the tolerance question underneath it is [Snyder 1959][research_snyder_1959], [McKenney 1970][research_mckenney_1970], [Glaister 1978][research_glaister_1978], and [Laananen 1980][research_laananen_1980]. The survey's cluster on crew escape, ejection and the human in the escape holds both in full.
 
 ### Flying It
@@ -519,16 +531,19 @@ quickly and easily trained to fly the X-25. The handling and training literature
 
 **Both aircraft flew and the record of what they measured is extremely thin.**
 
-The X-25A first flew on 5 June 1968, the first-flight date the inventory by [Jenkins, Landis and
-Miller][book_jenkins_landis_miller_2003] gives for the type. The X-25B is dated to 23 January 1968 in the
-[Bensen B-8][ref_bensen_b8] entry and to 5 June 1968 by [Guinness World Records][ref_guinness_x25b], so which
-aircraft flew first is not settled. Testing concerned how the aircraft should be flown and what training a
+The inventory by [Jenkins, Landis and Miller][book_jenkins_landis_miller_2003] gives 5 June 1968 as the
+first flight of the type, and [Guinness World Records][ref_guinness_x25b] gives the same date for the X-25B,
+flown at Edwards. The [Bensen B-8][ref_bensen_b8] entry assigns 5 June 1968 to the X-25A and 23 January 1968
+to the X-25B without a source for either, and its text elsewhere dates the Air Force study of the two aircraft to
+May 1968. This article adopts 5 June 1968 for both. Under the alternative the X-25B would have flown 134 days
+before the X-25A, which would settle the order of first flights, and no other result here depends on the date. Testing concerned how the aircraft should be flown and what training a
 pilot needed.
 **No full-scale operational test of the concept was ever performed**, meaning that the sequence the
 idea depends on, which is ejection followed by rotor deployment in the descent, was never demonstrated as an
 integrated system by this programme, and no piloted flight of the gyro-chute that embodied it is
 known. Funding ended as the American involvement in Vietnam wound down, and with it the Air Force's interest,
-in the same inventory and in the [X-25A][ref_nmusaf_x25a] fact sheet.
+in the same inventory, and the [X-25A][ref_nmusaf_x25a] fact sheet adds doubts about the concept's operational
+feasibility as a second reason.
 
 **What the X-25 demonstrated is that a person can be taught to fly a small autogyro. What it did not demonstrate is anything about escaping from an aeroplane.**
 The fact sheet reports that training was quick and easy, and the inventory
@@ -635,8 +650,9 @@ whether a descending crewman should have a choice of landing point.
 parachute][ref_ram_air_parachute] is a wing built from cloth. It reaches lift-to-drag ratios of about three,
 with 3.2 for a parafoil vehicle system in [Knacke's recovery systems design manual][book_knacke_1992],
 close to the ratio of 4 assumed here for an autorotating rotor, and it does so with a device that packs
-into a container, needs no spin-up, has no rigid parts, and, by this article's inference, can be flown
-competently after far less training than a gyroplane requires.
+into a container, needs no spin-up, has no rigid parts, and, by this article's inference, asks less of its
+user, although the one training result recorded for the X-25 was favourable, in the
+[X-25A][ref_nmusaf_x25a] fact sheet.
 **The rotor's forty-four to one advantage in material area was answered by a device that sweeps no disc at all and generates lift as a wing.**
 That literature begins in the period work on gliding parachutes and flexible wings, in [Rogallo et al 1960][research_rogallo_1960], [Rogallo 1962][research_francis_m_rogallo_1962], [Horton
 1962][research_horton_1962], [Ryan Aeronautical Co San Diego Ca 1962][research_ryan_aeronautical_co_san_diego_ca_1962], [Taylor and McNulty
@@ -700,7 +716,7 @@ modelling and autonomous emergency descent, in [Rezgui and Lowenberg 2015][resea
 ### The Answer Arrived in Fabric
 
 **The ram-air canopy is the device the Discretionary Descent Vehicle was reaching for.** It reaches nearly the
-same glide ratio as an autorotating rotor with no rigid structure, no spin-up transient and a training demand this article infers to be far lower, and its existence explains why no aircraft carries a rotor seat. Its glide ratio is measured and controlled in [Bozack 1984][research_bozack_1984], [Wegereef et al 2009][research_wegereef_benolol_2009], and [Sun et al 2020][research_sun_sun_2020], and the contemporary literature on the canopy includes [Cacan and Costello 2018][research_cacan_costello_2018], [Zhang et al 2021][research_zhang_2021_4], [Ding et al 2023][research_ding_2023], and [Vambol and Kaluzhynov 2023][research_vambol_kaluzhynov_2023], and the ram-air cluster carries the rest.
+same glide ratio as an autorotating rotor with no rigid structure, no spin-up transient and a training demand this article infers to be lower, and its existence plausibly explains why no aircraft carries a rotor seat, although no document of the programme makes that connection. Its glide ratio is measured and controlled in [Bozack 1984][research_bozack_1984], [Wegereef et al 2009][research_wegereef_benolol_2009], and [Sun et al 2020][research_sun_sun_2020], and the contemporary literature on the canopy includes [Cacan and Costello 2018][research_cacan_costello_2018], [Zhang et al 2021][research_zhang_2021_4], [Ding et al 2023][research_ding_2023], and [Vambol and Kaluzhynov 2023][research_vambol_kaluzhynov_2023], and the ram-air cluster carries the rest.
 
 ### And Then It Was Automated
 
@@ -785,8 +801,9 @@ gyroplane flight dynamics, stability and experimental rotor measurement, in [Czy
 
 **Its safety record is the part that bears on this article.** The gyroplane acquired a poor safety
 reputation through designs prone to a power push-over, a pitch departure that unloads the rotor, in the
-[autogyro][ref_autogyro] entry. Such a property makes the type a poor choice for a person who has just
-ejected and has no rotorcraft training.
+[autogyro][ref_autogyro] entry. Such a property would weigh against the type for a person who has just
+ejected and has no rotorcraft training, although the [X-25A][ref_nmusaf_x25a] fact sheet reports a favourable
+training result for the X-25.
 
 ### Rotors on Everything
 
@@ -827,12 +844,12 @@ vindicates the Air Force for asking.
 **The answer was wrong in a way that was knowable at the time.** The arithmetic that shows a rotor to be a
 worse decelerator than a canopy, and valuable only because it glides, needs nothing that was not available
 in 1968.
-**So does the observation that the gain is range rather than safety, and that a sequence through an open parachute ends by cutting a working parachute away.**
+**So does the observation that the gain is range rather than safety, and that any sequence through an open parachute would end by cutting a working parachute away.**
 
 **And the concept did not fail on the axis the programme examined.** [Jenkins, Landis and
 Miller][book_jenkins_landis_miller_2003] record that the aircraft were flown to settle questions of piloting and training, and the [X-25A][ref_nmusaf_x25a] fact sheet reports
 both that the training was quick and easy and that the programme ended with the air war winding down and
-doubts about its operational feasibility. **The hard problem was never the rotor.**
+doubts about its operational feasibility. **What ended it was a lapsed need and a doubt that no recorded test addressed.**
 
 ### Rotors and rotorcraft, momentum theory and blade dynamics
 
@@ -1055,10 +1072,14 @@ here.
 **Historical fact, from the public record.** Three X-25 type aircraft were ordered in early 1968 under the
 Discretionary Descent Vehicle programme, in the [X-25A][ref_nmusaf_x25a] fact sheet, and they were the basic
 X-25 gyro-chute, the X-25A and the X-25B. The X-25A, serial 68-10770, first flew on 5 June 1968. The X-25B,
-serial 68-10771, first flew on 23 January 1968 in the [Bensen B-8][ref_bensen_b8] entry and on 5 June 1968
-by [Guinness World Records][ref_guinness_x25b], and the earlier date rests on that one encyclopaedia entry.
-Both derive from Bensen B-8 family designs. Testing addressed piloting technique and training requirements.
-No full-scale operational test was performed and funding ended with the American withdrawal from Vietnam.
+serial 68-10771, first flew on 5 June 1968 by [Guinness World Records][ref_guinness_x25b], the date the
+inventory gives for the type, and on 23 January 1968 in the [Bensen B-8][ref_bensen_b8] entry, which cites
+no source for it. The Guinness maximum takeoff weight of 547 pounds is the X-25A figure in the fact sheet, so
+Guinness may not be independent of the inventory, and the adopted date rests in the end on that one
+monograph. Both aircraft derive from Bensen B-8 family designs. Testing addressed piloting technique and
+training requirements, and the fact sheet reports that pilots could be trained quickly and easily. No
+full-scale operational test was performed. Funding ended with the American withdrawal from Vietnam, and the
+fact sheet adds doubts about operational feasibility.
 The X-25A is held by the National Museum of the United States Air Force and the X-25B by the Air Force Flight
 Test Museum at Edwards, in [Jenkins, Landis and Miller][book_jenkins_landis_miller_2003]. The Kaman SAVER
 flew towed on 28 December 1971 and with a telescoping rotor on 10 January 1972, and was cancelled, in the
@@ -1084,7 +1105,9 @@ of 38 and 28 pounds. **None of these is a measurement of an X-25.**
 **Inference, and labelled as inference.** That the programme's testing concerned training rather than
 aerodynamics is an inference from the record's statement that the aircraft were used to evaluate piloting
 technique and training requirements, combined with the absence of any aerodynamic finding, and the one
-training result the record reports is that pilots could be quickly and easily trained. That the ram-air
+training result the record reports is favourable. That the doubts about operational feasibility concerned
+the deployment sequence, the rotor's mass alongside a parachute or the stowage geometry is an inference from
+this article's analysis, since the fact sheet names the doubts without describing them. That the ram-air
 parachute is the historical answer to the Discretionary Descent Vehicle question is an inference from
 capability comparison, not from any documented decision connecting the two.
 
@@ -1102,7 +1125,7 @@ American X-vehicles][book_jenkins_landis_miller_2003].
 
 **What the record does not settle.** Whether the X-25 rotors were the 20 foot rotor of the standard B-8M.
 Whether the engine was 72 or 90 horsepower. Which of the X-25A and X-25B flew first. What became of the third
-aircraft, the gyro-chute. Whether the escape sequence included a parachute cutaway at all, and whether any
+aircraft, the gyro-chute. What the doubts about operational feasibility were. Whether the escape sequence included a parachute cutaway at all, and whether any
 part of it was demonstrated below full scale.
 Whether any quantitative descent or glide measurement was taken and survives in a closed report.
 
@@ -1118,7 +1141,7 @@ turbine engineering beyond the identity of the flow state.
 
 ## Conclusion
 
-**The Bensen X-25 answered a question nobody had asked clearly enough.**
+**The Bensen X-25 showed that pilots could learn the machine, and it never reached the escape it was for.**
 
 The programme was framed as giving a descending crewman a choice, in [Jenkins, Landis and
 Miller][book_jenkins_landis_miller_2003]. The arithmetic shows that an autorotating
@@ -1127,13 +1150,17 @@ twenty-nine percent as flown, and that everything it offers comes from the fact 
 than a brake. **Seven and a half miles from ten thousand feet is the whole product.**
 
 The obvious objection, that a rotor must be spun up while a canopy merely inflates,
-**does not survive being written down**. Fifty-seven feet of ideal height loss is cheap. The real difficulty
-was never energetic. It was that a sequence through an open parachute ends by cutting a working parachute
-away, and that flying a gyroplane is a skill, and the programme's testing went to training requirements
-rather than to aerodynamics.
+**does not survive being written down**. Fifty-seven feet of ideal height loss is cheap. The difficulty was
+never energetic, and on the record it was not training either, since the one test result reported is that
+pilots learned the X-25 with ease. The programme ended because the air war that motivated it was
+winding down and because of doubts about its operational feasibility, and the gyro-chute that embodied the
+escape has no recorded piloted flight. By this article's inference the doubts had ground. The rotor buys
+range and not a softer landing, weighs about as much as the parachute it accompanies, would need much heavier
+blades or an engine to fold into a seat, and in any sequence through an open canopy would require cutting a
+working parachute away.
 
 **The question was good and it was eventually answered by fabric.** A ram-air canopy reaches nearly the same
-glide ratio with no rigid structure, no spin-up and, by inference, far less training, and guided airdrop has since removed the
+glide ratio with no rigid structure, no spin-up and, by inference, less training, and guided airdrop has since removed the
 pilot from the loop as well.
 **The rotor's physics did not die. It went into wind energy, where the windmill brake state is the design condition rather than an emergency.**
 
@@ -1180,7 +1207,6 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 - [Rogallo wing][ref_rogallo_wing]
 - [X-25A][ref_nmusaf_x25a]
 - [X-25B][ref_afftc_x25b]
-- [X-25B][ref_x25]
 
 [ref_afftc_x25b]: https://flighttestmuseum.org/portfolio/benson-x-25b/
 [ref_autogyro]: https://en.wikipedia.org/wiki/Autogyro
@@ -1197,7 +1223,6 @@ The next article in this series takes up the Schweizer X-26 Frigate.
 [ref_nmusaf_x25a]: https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/195781/bensen-x-25a-gyrocopter/
 [ref_ram_air_parachute]: https://en.wikipedia.org/wiki/Ram-air_parachute
 [ref_rogallo_wing]: https://en.wikipedia.org/wiki/Rogallo_wing
-[ref_x25]: https://en.wikipedia.org/wiki/Bensen_X-25
 
 ### Related Post
 

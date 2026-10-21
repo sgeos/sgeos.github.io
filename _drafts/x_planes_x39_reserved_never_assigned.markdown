@@ -150,9 +150,12 @@ The Unmanned Combat Air Vehicle demonstration that followed did receive a resear
 \[[Boeing X-45][ref_x45]\]
 \[[Jenkins, Landis and Miller, American X-Vehicles][ref_xvehicles]\].
 
-**So the vehicle the number was held for was never designed, let alone built.** There is no airframe, no
-wind-tunnel campaign, no contractor mock-up, and no cancelled production order
-\[[Boeing FATE briefing, transition to UCAV-ATD][ref_boeing_fate_transition]\].
+**So the vehicle the number was held for was never designed, let alone built.** Phase 2 of the Fixed Wing
+Vehicle programme would have addressed the last four of its seven objectives, and Wright Laboratory chose not
+to proceed with it in favour of the transition to the Uninhabited Combat Air Vehicle Advanced Technology
+Demonstration \[[Boeing FATE briefing, transition to UCAV-ATD][ref_boeing_fate_transition]\]. The article
+infers from that cut, and from the absence of any trace in the sources consulted, that there was no airframe,
+no wind-tunnel campaign, no contractor mock-up and no cancelled production order.
 **There is a reserved number, a set of technology studies, and a decision not to proceed.**
 
 ## Why the Designation Was Never Assigned
@@ -193,7 +196,7 @@ remains Parsch's, and this is independent corroboration of it from the primary l
 \[[Missing USAF and DOD Aircraft Designations][ref_missing_mds]\]. The reason is not
 mysterious and does not require a hypothesis about secrecy. **The request would have been made when the
 demonstrator entered development, and the demonstrator never entered development.** The programme was cut
-between the Phase I studies and the Phase II design work, and the paperwork that would have converted a
+between the Phase I studies and the Phase II work on its remaining objectives, and the paperwork that would have converted a
 reservation into a designation had no occasion to be written
 \[[Boeing FATE briefing, transition to UCAV-ATD][ref_boeing_fate_transition]\].
 

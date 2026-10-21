@@ -16,9 +16,9 @@ The [Osprey X-28A][ref_x28] was to cost less than five thousand dollars a copy, 
 **that was not a happy accident of procurement. It was the requirement.** The [United States Navy][ref_usn]
 study that led to it asked for an aircraft that could patrol under visual flight rules, be trailered behind
 a vehicle, be built in Southeast Asia, work out of canals as narrow as twenty-five feet, and
-**cost under five thousand dollars** when bought in quantity, as [Tails Through Time][ref_tails_x28] and
-[Jenkins, Landis and Miller][ref_xvehicles] between them record. Four of those five are not flight
-requirements at all. This is the twenty-ninth article in the
+**cost under five thousand dollars** when bought in quantity. The trailer and the canals are in
+[Tails Through Time][ref_tails_x28], and the other three, the price among them, are in [Jenkins, Landis and Miller][ref_xvehicles].
+Four of those five are not flight requirements at all. This is the twenty-ninth article in the
 [X-Planes series][related_post_a297_xplanes_framing], following the
 [X-1][related_post_a298_bell_x1], the [X-2][related_post_a299_bell_x2], the
 [X-3][related_post_a300_douglas_x3], the [X-4][related_post_a301_northrop_x4], the
@@ -1197,7 +1197,7 @@ series to an aircraft built from a clean sheet to answer a question that could n
 - [Momentum theory][ref_momentum_theory]
 - [Naval Air Development Center][ref_nadc]
 - [North American Rockwell OV-10 Bronco][ref_ov10]
-- [Osprey Aircraft, X28 Sea Skimmer][ref_osprey_aircraft_x28]
+- [Osprey Aircraft, GP-4][ref_osprey_aircraft_x28]
 - [Osprey GP-4 and Osprey II][ref_osprey2]
 - [Osprey Osprey 2][ref_osprey_osprey_2]
 - [Osprey X-28A Sea Skimmer][ref_x28]

@@ -12,9 +12,9 @@ series_index: 35
 <!-- A331 -->
 <script>console.log("A331");</script>
 
-The [Orbital Sciences X-34][ref_x34] was cancelled on the same day,
-[in the same decision and for the same stated reason][ref_gao_826t] as the vehicle in the previous article,
-and almost nothing else about the two is alike. The [X-33][related_post_a330_lockheed_martin_x33] was enormous, used liquid hydrogen, carried an untried engine
+The [Orbital Sciences X-34][ref_x34] was cancelled [in the same NASA announcement][ref_sfn_x33_x34] as the
+vehicle in the previous article, on 1 March 2001, and [the General Accounting Office][ref_gao_826t] gives
+both terminations the same cause, significant cost increases. Almost nothing else about the two is alike. The [X-33][related_post_a330_lockheed_martin_x33] was enormous, used liquid hydrogen, carried an untried engine
 architecture, and failed a structural test in a way that made a photograph.
 **The X-34 was small, burned kerosene, used an engine designed to be cheap rather than good, was finished, was towed and carried through the air by [an airliner turned launch aircraft][ref_stargazer], and was cancelled without anything on the vehicle breaking at all.**
 This is the thirty-fifth article in the [X-Planes series][related_post_a297_xplanes_framing], following the
@@ -70,7 +70,7 @@ operational vehicle can be cheap is a separate claim and a much weaker one, and 
 this article.
 
 **The programme's answer did not come from a test. It arrived as an arithmetic correction.** Working
-from the restructure plan of June 2000, [the oversight body estimated][ref_gao_826t] the total requirement at
+from the restructure plan of June 2000, [the General Accounting Office estimated][ref_gao_826t] the total requirement at
 about 348 million dollars against roughly 86 million budgeted in 1996, and the reason
 [the agency gave][ref_nasa_x34_factsheet_2009] was that reaching an acceptable level of risk needed more
 government technical insight, more hardware testing and more integrated assessment.
@@ -631,7 +631,7 @@ more hardware testing and integrated systems assessment, as
 
 **An estimate drawn from the restructure plan that followed put the total requirement near 348 million dollars against roughly 86 million budgeted in 1996**,
 in [the oversight body's testimony][ref_gao_826t], and the programme ended on 31 March 2001, after a
-funding decision announced together with the X-33's, with [the agency stating][ref_nasa_x34_factsheet] that
+funding decision [announced together with the X-33's][ref_sfn_x33_x34], with [the agency stating][ref_nasa_x34_factsheet] that
 the benefits did not justify continued investment and that the funds of
 [the initiative that replaced both][ref_sli] should go to higher priority needs. The oversight body
 [examined the two cancelled programmes together][ref_gao_x33x34] later that year.
@@ -683,7 +683,7 @@ Work on operations and turnaround appears below under launch vehicle design, sta
 
 ### The Verdict on the Cost Argument, Tested Both Ways
 
-**Take the two programmes cancelled in the same decision and divide what each spent by the mass of vehicle it produced.**
+**Take the two programmes cancelled in the same announcement and divide what each spent by the mass of vehicle it produced.**
 Mass is a poor denominator for cost. It is used here because it is the one comparable quantity both
 programmes published. Cost estimating for space systems has its own methods, set out in
 [Wertz and Larson's standard treatment of space mission design][book_space_mission_analysis_and_design], and
@@ -1228,8 +1228,8 @@ Of the four it is the only one that was ready.
 - [Falcon 9][ref_falcon9]
 - [Fastrac rocket engine][ref_fastrac]
 - [Gas-generator cycle][ref_gasgen]
-- [Government Accountability Office, NASA's X-33 and X-34 Programs][ref_gao_x33x34]
-- [Government Accountability Office, Space Transportation, Critical Areas NASA Needs to Address in Managing Its Reusable Launch Vehicle Program][ref_gao_826t]
+- [General Accounting Office, NASA's X-33 and X-34 Programs][ref_gao_x33x34]
+- [General Accounting Office, Space Transportation, Critical Areas NASA Needs to Address in Managing Its Reusable Launch Vehicle Program][ref_gao_826t]
 - [Jenkins, Landis and Miller, American X-Vehicles][ref_xvehicles]
 - [Lockheed Martin X-33][ref_x33]
 - [Marshall Space Flight Center][ref_msfc]
@@ -1243,6 +1243,7 @@ Of the four it is the only one that was ready.
 - [Reusable launch vehicle][ref_rlv]
 - [RP-1 kerosene propellant][ref_rp1]
 - [Space Launch Initiative][ref_sli]
+- [Spaceflight Now, X-33, X-34 Left Behind in NASA Space Launch Initiative][ref_sfn_x33_x34]
 - [Specific impulse][ref_isp]
 - [Stargazer, the L-1011 carrier aircraft][ref_stargazer]
 - [Virgin Orbit][ref_virgin_orbit]
@@ -1267,6 +1268,7 @@ Of the four it is the only one that was ready.
 [ref_regen]: https://en.wikipedia.org/wiki/Regenerative_cooling_(rocket)
 [ref_rlv]: https://en.wikipedia.org/wiki/Reusable_launch_vehicle
 [ref_rp1]: https://en.wikipedia.org/wiki/RP-1
+[ref_sfn_x33_x34]: https://spaceflightnow.com/news/n0103/01x33/
 [ref_sli]: https://en.wikipedia.org/wiki/Space_Launch_Initiative
 [ref_stargazer]: https://en.wikipedia.org/wiki/Stargazer_(aircraft)
 [ref_virgin_orbit]: https://en.wikipedia.org/wiki/Virgin_Orbit

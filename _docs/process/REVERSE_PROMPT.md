@@ -4,6 +4,26 @@
 
 ## Last Updated
 
+**Date**: 2026-10-21
+**Task**: **X-PLANES, THE PILOT DECISION PASS AND THE CROSS-ARTICLE SWEEP.** Committed, NOT pushed, NOT published. The pilot's word is awaited before any push.
+
+**The pilot's rulings, quoted.** "1. Arguments should prioritize correctness. 2. In general, more supporting evidence is better. 3. Small items should be resolved as best as possible."
+
+**Decisions made (brief `tmp/cite/BRIEF_DECIDE.md`, one agent per article, each recorded under "20 October 2026, pilot decisions" in the article's drafting notes).**
+- Arguments rewritten to the evidence. A301 X-4 now names two causes, measured low pitch damping (NACA RM A51H09) and the geometric coupling of Sadoff and Crossfield 1954. A302 X-5 spin argument reversed on TN 1045 and the measured inertias, with Hallion placing the hazard on the tail layout. A307 X-10 crossover fails for the navigator flights (51 to 79 minutes), and the limit was the number of navigator flights. A308 Titan I fractions from the technical manual's tank capacities, 5.0 and 8.5 percent as lower bounds, and a two-stage vehicle was the lighter route. A312 X-15 ratio is 1.69 to 1.85 under an integrated specific heat, so "more than twice" was false. A322 X-25 ended because the need went away before the escape was shown to work. A332 X-35B conclusion conditional on the higher published weight. A341 X-44A loiter thesis withdrawn. A345 X-48 scaling range 1.414 to 1.649. A348 X-51 engine ended flight 2 at the fuel transition. A364 X-67 second unrecoverable number under the 2014 rule. A365 X-68 missile release slipped two years and then went unscheduled.
+- Sources chosen. A305 X-8 designated 1951 (May 1951, Parsch, with the Air Force statistical digests). A326 185 square feet (188.84 is the exposed area). A327 Schweikart and Hallion 1998. A330 Mach converted at the cutoff altitude with the 1976 atmosphere. A333 Walker 1997 weights. A354 cruise motor 117 lb (57 is probably the Rotax mass in kilograms).
+- Small items. A313 superlatives made consistent and the single-source weakness stated, with a CIA memorandum dating the cancellation. A360 register counts given as of the article date.
+
+**Link check.** The 52 references the sandbox could not reach were read; 50 support their citations and the other two were corrected.
+
+**Cross-article sweep (brief `tmp/cite/BRIEF_SWEEP.md`, sections "21 October 2026, cross-article sweep").** Labels corrected (Hallion On the Frontier 1984 in eight drafts, Schweikart and Hallion 1998 in nine). Dependent figures aligned (X-29 values in A328, X-10 in A308, X-36 in A341, the 2014 rule in A355, six rule editions in A366). Fourteen articles dated November and December 2025 now say the register copy postdates them and give the counts as of the 11 August 2025 version; A365 and A366 no longer treat the X-68A and X-76A rows as public on their dates. A368 recounted with the X-8 (designated after first flight 6 of 22, decade and dispersion figures restated, one superlative corrected) and re-anchored; no vehicle was recoded.
+
+**Gates.** check5 RESULT PASS for all 72. Every offline verifier rc=0 apart from the stale `verify368.d1pre.py`. 80 self-tests detect every mutation. `_verify.py` 0 errors and 0 warnings. A full production build of all 72 drafts and `_lib/render.py` show no findings on 544 pages. Verifier defects found and fixed on the way: A326 and A327 never ran their second pass, and A328's X-29 check matched a numeral elsewhere.
+
+**Known and left.** A341 `verify_supp.py` is a network check that prints failures for 22 sandbox-unreachable hosts and exits 0. The survey record anchor `research_schwelkart_hallion_1997` keeps its 1997 suffix, and the year moves no stated statistic. The book Hallion 1984 is held twice in the survey (`research_hallion_1984` in A302 and `research_hallionrp_1984` in A297), which predates this work. Several decisions still rest on a single compilation where no primary source was readable (Titan I empty masses, X-10 Cape durations, X-35B empty weight), and each article says so.
+
+## Previous Report (2026-10-20, third entry)
+
 **Date**: 2026-10-20 (third entry)
 **Task**: **X-PLANES, THE CITATION PASS AND THE PATHOLOGICAL WORD USAGE PASS, ALL 72 ARTICLES.** Applied in the working tree. NOT committed, NOT pushed, NOT published. The pilot's word is awaited before any commit.
 

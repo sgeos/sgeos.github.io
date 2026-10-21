@@ -351,7 +351,7 @@ $$\frac{400 \times 10^6}{2{,}700} = 148.1 \ \text{kN} \cdot \text{m/kg}$$
 
 for aluminium-lithium at cryogenic temperature, a ratio of **1.93**. The composite is nearly twice as good
 per unit mass.
-**And the aluminium-lithium tank that was designed to replace the composite one after the failure is reported to have weighed less.** \[[Lockheed Martin X-33][ref_x33]\] \[[VentureStar][ref_venturestar]\]
+**And the composite tank is reported to have come out heavier than an aluminium tank of the same shape.** \[[Lockheed Martin X-33][ref_x33]\]
 Whatever the shape and the manufacture cost, they cost more than a factor of two.
 
 ### Why the Tank Is Not a Cylinder
@@ -467,7 +467,7 @@ ideal 2.852 percent, against the built tank's 26.83 percent,
 $$\frac{0.02852}{0.2683} = 0.106 .$$
 
 The remaining eighty-nine percent is shape and manufacture, **and the record agrees**, because the
-reported reason the composite tank came out heavier than the aluminium tank designed to replace it was the
+reported reason the composite tank came out heavier than an aluminium tank of the same shape was the
 complexity of the joints the lobed geometry demanded \[[Lockheed Martin X-33][ref_x33]\].
 
 ### What the Missing Terms Cost
@@ -1017,12 +1017,13 @@ operational VentureStar would still require a composite oxygen tank to reach its
 planned to demonstrate the deferred technology on a ten-foot-diameter ground test article instead
 \[[Government Accountability Office, Status of the X-33 Reusable Launch Vehicle Program][ref_gao_x33]\].
 
-**After the failure the hydrogen tank was to be replaced with [aluminium-lithium][ref_alli] as well.**
-\[[Marshall Space Flight Center, NASA, Lockheed Martin Agree On X-33 Plan][ref_msfc_x33_plan]\] \[[VentureStar][ref_venturestar]\] The
-reported outcome of that decision is the sharpest fact in the article. Its sources are secondary, so it is
+**After the failure the composite hydrogen tanks were to be replaced with aluminium ones.**
+\[[Marshall Space Flight Center, NASA, Lockheed Martin Agree On X-33 Plan][ref_msfc_x33_plan]\] The release does not
+name the alloy, and no source consulted states that the replacement was to be [aluminium-lithium][ref_alli]. The
+reported comparison between the two materials is the sharpest fact in the article. Its sources are secondary, so it is
 given here with its provenance attached.
-**The replacement aluminium-lithium tank is reported to have weighed less than the composite tank it was to replace, with the complexity of the joints demanded by the lobed shape cited as the reason.**
-\[[Lockheed Martin X-33][ref_x33]\] \[[VentureStar][ref_venturestar]\]
+**The composite tank is reported to have come out heavier than an aluminium tank of the same shape, with the complexity of the joints demanded by the lobed shape cited as the reason.**
+\[[Lockheed Martin X-33][ref_x33]\]
 
 If that report is accurate, then the rationale for the composite tank had evaporated, and it had
 evaporated for a reason that the identity derived above predicts.
@@ -1108,13 +1109,24 @@ and prevent it from reaching the higher speed \[[Government Accountability Offic
 **It says no more than that.** The rocket equation converts
 the sentence into a number.
 
-**The Mach figures are converted here at the sea-level standard speed of sound of 340.294 metres per second**,
-which matches the equivalence of Mach 13 to 9,896 miles per hour in the vehicle's specification table
-\[[Lockheed Martin X-33][ref_x33]\]. The Government Accountability Office defines its own Mach figures against 741 miles
-per hour \[[Government Accountability Office, Status of the X-33 Reusable Launch Vehicle Program][ref_gao_x33]\], which would make the velocity given up and every growth figure below smaller by close
-to three percent. The velocity given up is
+**A Mach number is a ratio to the local speed of sound, so converting it to a velocity requires an altitude.**
+None of the sources states a velocity for either objective. NASA's notice of intent for the flight test
+environmental impact statement gives speeds up to Mach 15 and altitudes up to about 250,000 feet
+\[[NASA, Notice 96-118, X-33 Program Vehicle Design and Flight Demonstration][ref_x33_eis_noi]\]. The Marshall
+attitude control design places main engine cutoff on a typical mission at roughly 180,000 feet and Mach 10,
+within a design environment from Mach 0 to about Mach 15
+\[[Hall, Gallaher and Hendrix, X-33 Attitude Control System Design for Ascent, Transition, and Entry Flight Regimes][ref_hall_x33_attitude]\].
+None of these sources gives the cutoff altitude of a Mach 15 trajectory.
+**The Mach figures are therefore converted at 180,000 feet, where the U.S. Standard Atmosphere of 1976 gives a speed of sound of 323.96 metres per second**
+\[[U.S. Standard Atmosphere, 1976][ref_atm76]\]. Above that altitude the speed of sound falls, to 287.76 metres
+per second at 250,000 feet, so a higher cutoff would shrink every figure below. Two published conventions use
+a sea-level value instead. The vehicle's specification table equates Mach 13 with 9,896 miles per hour,
+which corresponds to the standard sea-level value of 340.294 metres per second \[[Lockheed Martin X-33][ref_x33]\]. The Government
+Accountability Office defines Mach 1 as 741 miles per hour at sea level
+\[[Government Accountability Office, Status of the X-33 Reusable Launch Vehicle Program][ref_gao_x33]\].
+Neither describes the air in which the vehicle would have reached its top speed. The velocity given up is
 
-$$\Delta v_{\text{lost}} = \left(15.0 - 13.8\right) \times 340.294 = 408.4 \ \text{m/s}$$
+$$\Delta v_{\text{lost}} = \left(15.0 - 13.8\right) \times 323.96 = 388.7 \ \text{m/s}$$
 
 Holding the gross mass fixed, the burnout mass that would have reached the original objective satisfies
 
@@ -1124,22 +1136,25 @@ and the implied growth is $m_f/m_f^{\ast} - 1$.
 
 | Effective specific impulse, seconds | Burnout mass that reaches Mach 15 | Growth |
 |---|---|---|
-| 350 | 66,587 lb | 12.6% |
-| 380 | 67,216 lb | 11.6% |
-| 400 | 67,585 lb | 11.0% |
-| 436.5 | 68,176 lb | 10.0% |
+| 350 | 66,969 lb | 12.0% |
+| 380 | 67,570 lb | 11.0% |
+| 400 | 67,924 lb | 10.4% |
+| 436.5 | 68,489 lb | 9.5% |
 
-**The two ends of the table are**, for the burnout mass $m_f$ of 75,000 pounds and $\Delta v_{\text{lost}}$ of 408.4 metres per second,
+**The two ends of the table are**, for the burnout mass $m_f$ of 75,000 pounds and $\Delta v_{\text{lost}}$ of 388.7 metres per second,
 
-$$\frac{m_f}{m_f^{\ast}} - 1 = \exp\!\left(\frac{408.4}{350 \times 9.80665}\right) - 1 = 0.126 ,
+$$\frac{m_f}{m_f^{\ast}} - 1 = \exp\!\left(\frac{388.7}{350 \times 9.80665}\right) - 1 = 0.120 ,
 \qquad
-\exp\!\left(\frac{408.4}{436.5 \times 9.80665}\right) - 1 = 0.100 .$$
+\exp\!\left(\frac{388.7}{436.5 \times 9.80665}\right) - 1 = 0.095 .$$
 
-**Across every plausible effective specific impulse the implied growth in burnout mass is between 10.0 and 12.6 percent**,
+**Across every plausible effective specific impulse the implied growth in burnout mass is between 9.5 and 12.0 percent at a 180,000 foot cutoff**,
 and the inversion is checked forward by putting each inverted mass back through the rocket equation and
-confirming that the missing velocity reappears.
+confirming that the missing velocity reappears. At 250,000 feet the velocity given up is 345.3 metres per
+second and the growth falls to between 8.4 and 10.6 percent. Under the Government Accountability Office
+convention the velocity given up is 397.5 metres per second and the growth is between 9.7 and 12.3 percent.
+**The weight growth that cost the objective was therefore about eight to twelve percent of burnout mass.**
 
-**An independent route through the published specification tables lands in the same region.** The difference
+**An independent route through the published specification tables also finds growth, and finds more of it.** The difference
 between the earlier unfuelled mass of 63,000 pounds and the later gross-minus-propellant figure of 75,000 is,
 as computed in the comparison of the two specification families above,
 
@@ -1164,7 +1179,7 @@ characterising since the 1960s.
 
 ### Where Prediction and Test Disagreed
 
-**The hydrogen tank passed every test it was designed for and then failed with no load applied.** That is a
+**The hydrogen tank completed every test it was designed for and failed about fifteen minutes afterwards, while it was being purged and allowed to warm.** That is a
 peculiar kind of disagreement, and its nature has to be pinned down.
 **The structural prediction was not wrong.** The tank carried the pressures and the simulated flight loads
 it was built to carry. **The prediction that was wrong was a prediction nobody had made**, because the
@@ -1177,7 +1192,7 @@ behaviour is not part of a structural analysis.
 
 **The second disagreement is the mass, and it was visible years before the test.** The reduction of the
 speed objective from Mach 15 to Mach 13.8 during detailed design is a dated, published admission that the
-predicted mass had been exceeded, and the inversion above puts the exceedance between about ten and thirteen
+predicted mass had been exceeded, and the inversion above puts the exceedance between about eight and twelve
 percent of burnout mass.
 
 ### The Comparison That Was Never Made
@@ -1374,11 +1389,11 @@ $$\left(\rho_{Al} t_{0.2} - \rho_{Al} t_{0.5}\right) S = 3{,}932 \ \text{lb}$$
 objective, taken from the two ends of the table in the section headed The Speed Objective as a
 Weight Report,
 
-$$m_f - m_f^{\ast} = 75{,}000 - 66{,}587 = 8{,}413 \ \text{lb} , \qquad 75{,}000 - 68{,}176 = 6{,}824 \ \text{lb} ,$$
+$$m_f - m_f^{\ast} = 75{,}000 - 66{,}969 = 8{,}031 \ \text{lb} , \qquad 75{,}000 - 68{,}489 = 6{,}511 \ \text{lb} ,$$
 
 $$\frac{3{,}932}{8{,}413} = 0.467 , \qquad \frac{3{,}932}{6{,}824} = 0.576 ,$$
 
-**the monocoque saving is between 46.7 and 57.6 percent of that weight growth of 6,824 to 8,413 pounds.**
+**the monocoque saving is between 49.0 and 60.4 percent of that weight growth of 6,511 to 8,031 pounds.**
 
 **So a sandwich is very nearly insulated from the conservatism of a buckling allowable and a metal monocoque is not.**
 That gives a second and independent reason the architecture was right, one not usually given
@@ -1695,7 +1710,7 @@ That limitation is stated rather than written around.
 
 ### The Weakest Link in the Source Chain
 
-**The claim that the aluminium-lithium tank designed to replace the composite tank would have weighed less than it rests on secondary sources**,
+**The claim that the composite tank came out heavier than an aluminium tank of the same shape rests on secondary sources**,
 and the article flags it at the point of use as well as here. It is consistent with the derivation and with
 the reported role of the joints,
 **but consistency with a derivation is not evidence, and a result that agrees with one's own analysis deserves more scepticism rather than less.**
@@ -1765,8 +1780,10 @@ check.
 The cryopumping fill fractions and the constant-volume warming pressure are ideal gas arithmetic. The
 thermal mismatch strain of 1.306 percent and its ratio of 2.18 to the transverse failure strain rest on
 assumed ply properties which are typical rather than measured. The nozzle comparison is ideal
-one-dimensional flow and is checked against the sonic condition. The weight growth inversion of 10.0 to 12.6
-percent is derived from the published speed objectives and is checked forward.
+one-dimensional flow and is checked against the sonic condition. The weight growth inversion of 9.5 to 12.0
+percent is derived from the published speed objectives at an assumed cutoff altitude of 180,000 feet and is
+checked forward. The conversion from Mach number to velocity at that altitude is an assumption, and a cutoff at
+250,000 feet would give 8.4 to 10.6 percent.
 
 ### Inference
 
@@ -1878,6 +1895,7 @@ This series has now met a designation marking an absence of demand in the
 - [Cryopump][ref_cryopumping]
 - [Government Accountability Office, NASA's X-33 and X-34 Programs][ref_gao_x33x34]
 - [Government Accountability Office, Status of the X-33 Reusable Launch Vehicle Program][ref_gao_x33]
+- [Hall, Gallaher and Hendrix, X-33 Attitude Control System Design for Ascent, Transition, and Entry Flight Regimes][ref_hall_x33_attitude]
 - [Huzel and Huang, Design of Liquid Propellant Rocket Engines, NASA SP-125][ref_huzel]
 - [Jenkins, Landis and Miller, American X-Vehicles][ref_xvehicles]
 - [Lifting body][ref_liftingbody]
@@ -1889,6 +1907,7 @@ This series has now met a designation marking an absence of demand in the
 - [Marshall Space Flight Center, X-33 Liquid Hydrogen Fuel Tank Ready for Tests][ref_msfc_tank_release]
 - [Marshall Space Flight Center, X-33 Liquid Oxygen Tank Successfully Completes Stress Tests][ref_msfc_lox_tank]
 - [Mital and others, Review of Current State of the Art and Key Design Issues for Liquid Hydrogen Cryogenic Storage Tank Structures][ref_cryotank_review]
+- [NASA, Notice 96-118, X-33 Program Vehicle Design and Flight Demonstration][ref_x33_eis_noi]
 - [NASA, F-15B Flight Test Fixture Tests X-33 Thermal Protection System][ref_f15b_tps]
 - [NASA, X-33 Advanced Technology Demonstrator, Historical Fact Sheet][ref_x33_factsheet]
 - [Niedermeyer and Munafo, Findings from the X-33 Hydrogen Tank Failure Investigation][ref_tank_findings]
@@ -1901,17 +1920,20 @@ This series has now met a designation marking an absence of demand in the
 - [Skunk Works][ref_skunkworks]
 - [Space Shuttle thermal protection system][ref_tps]
 - [The Tsiolkovsky rocket equation][ref_rocketeq]
+- [U.S. Standard Atmosphere, 1976][ref_atm76]
 - [VentureStar][ref_venturestar]
 - [Wade, Encyclopedia Astronautica, X-33][ref_astronautix_x33]
 
 [ref_aerospike]: https://en.wikipedia.org/wiki/Aerospike_engine
 [ref_alli]: https://en.wikipedia.org/wiki/Aluminium%E2%80%93lithium_alloy
 [ref_astronautix_x33]: https://web.archive.org/web/20161228051856/http://astronautix.com/x/x-33.html
+[ref_atm76]: https://ntrs.nasa.gov/citations/19770009539
 [ref_cryopumping]: https://en.wikipedia.org/wiki/Cryopump
 [ref_cryotank_review]: https://ntrs.nasa.gov/citations/20060056194
 [ref_f15b_tps]: https://www.nasa.gov/image-article/f-15b-flight-test-fixture-tests-x-33-thermal-protection-system/
 [ref_gao_x33]: https://www.gao.gov/products/nsiad-99-176
 [ref_gao_x33x34]: https://www.gao.gov/products/gao-01-1041r
+[ref_hall_x33_attitude]: https://ntrs.nasa.gov/citations/19980237256
 [ref_huzel]: https://ntrs.nasa.gov/citations/19710019929
 [ref_lh2]: https://en.wikipedia.org/wiki/Liquid_hydrogen
 [ref_liftingbody]: https://en.wikipedia.org/wiki/Lifting_body
@@ -1931,6 +1953,7 @@ This series has now met a designation marking an absence of demand in the
 [ref_tps]: https://en.wikipedia.org/wiki/Space_Shuttle_thermal_protection_system
 [ref_venturestar]: https://en.wikipedia.org/wiki/VentureStar
 [ref_x33]: https://en.wikipedia.org/wiki/Lockheed_Martin_X-33
+[ref_x33_eis_noi]: https://web.archive.org/web/20081203233247/http://www.hq.nasa.gov/pao/History/x-33/eis_noi.htm
 [ref_x33_factsheet]: https://en.wikisource.org/wiki/X-33_Advanced_Technology_Demonstrator
 [ref_xrs2200]: https://en.wikipedia.org/wiki/Rocketdyne_XRS-2200
 [ref_xvehicles]: https://ntrs.nasa.gov/citations/20030067480
