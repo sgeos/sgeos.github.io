@@ -17,6 +17,29 @@ Missing sections and prose will need to be drafted.
 Stubs and largely incomplete drafts are assessed for topicality and publication merit.
 
 
+## What the Conglomerate Discount Measures A378 2026-08-14 DRAFTED
+
+`_drafts/conglomerate_discount.markdown`, A378, editorial date 2026-08-14, standalone analytical essay, categories
+`business economics finance`, no series. **The first post whose categories include `finance`**, which adds one
+category archive. Drafted 2026-10-21 on the pilot's instruction from a question about whether the mathematics of the
+value delta inside and outside a conglomerate is established. **NOT published.**
+
+**Drafting pass complete. The citation, pathological word usage and publication review passes remain.** 837 lines,
+13 display equations, 61 references, of which 56 are DOI-linked research papers and 5 are Wikipedia entries. The
+argument is that the measures are precisely defined while the causal interpretation is contested, worked through the
+Berger and Ofek imputed value, the Lang and Stulz q comparison, a treatment-effect decomposition, the measurement
+critiques, internal capital market mechanisms, a constant-growth split between cash flows and discount rates, the
+international evidence and the spin-off evidence. Every worked number is hypothetical and recomputes from
+`tmp/a378/numbers.py`. Each paper's finding was taken from its Crossref or OpenAlex abstract, or for ten papers
+whose abstract neither service carries, from search-indexed abstract summaries, which the Epistemic State names. No
+paper was read in full. `_verify.py` 0 errors 0 warnings, a production build of a scratch copy with the draft moved
+into `_posts/` succeeded, and the rendered audit found nothing on 545 pages. All 56 DOIs are registered and all 5
+Wikipedia pages return 200. The diction checks against 333 published peers found no watched word or construction at
+the corpus maximum, and the discovered formulas left above it are subject terms. **The 2026-08-14 slot is free** of
+posts and drafts, the four parked drafts near it being dated 2126. The scratch scripts are in gitignored
+`tmp/a378/`, namely `fetch.py`, `search.py`, `pool.py`, `refs378.py` and `numbers.py`. **The draft is now the source
+of truth.** `body.md` and `refs.md` there are one-shot assembly inputs and must not be reassembled over later edits.
+
 ## X-Planes Series A297 to A368 2025-10-06 to 2025-12-16 PUBLISHED
 
 **ALL SEVENTY-TWO ARTICLES PUBLISHED 2026-10-21 on the pilot's instruction**, moved together from `_drafts/` to

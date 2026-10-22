@@ -4,6 +4,25 @@
 
 ## Last Updated
 
+**Date**: 2026-10-21 (third entry)
+**Task**: **A378 DRAFTED, *What the Conglomerate Discount Measures*, editorial date 2026-08-14. Committed, NOT pushed, NOT published.** On the pilot's instruction, "Draft an article on this topic using the next slotted article number, and backdate it to 2026-08-14."
+
+**What was done.**
+1. A378 was the next free number, with no reservation outstanding. The 2026-08-14 slot is free of posts and drafts, since the parked drafts near it are dated 2126.
+2. The draft is `_drafts/conglomerate_discount.markdown`, an analytical essay with categories `business economics finance`. It runs to 837 lines, with 13 display equations and 61 references.
+3. The thesis is that the measurement mathematics is established while the causal interpretation is not. The measures are the Berger and Ofek imputed value and the Lang and Stulz q comparison. The worked examples show that one hypothetical firm gives a discount of 4.6 to 15.3 percent depending on the accounting base, and that a 10 percent size bias in the peers moves it by 10.5 log points. The essay then covers the selection decomposition, the measurement critiques, internal capital market mechanisms, the split between cash flows and discount rates, international variation and the spin-off evidence.
+4. Gates. `_verify.py` reported 0 errors and 0 warnings. A production build of a scratch copy with the draft moved into `_posts/` succeeded, and the rendered audit found nothing on 545 pages. All 56 DOIs are registered and all 5 Wikipedia links return 200. The diction checks against 333 published peers are clean, and three repeated citation phrasings were rotated.
+
+**Limits the pilot should know.**
+- No paper was read in full. Findings come from abstracts via Crossref and OpenAlex. Ten papers that lack an abstract in either service are cited from search-indexed abstract summaries, and the Epistemic State names them.
+- Semantic Scholar, NBER, the NYU-hosted Villalonga PDFs, FASB and the Erasmus repository are outside the sandbox allowlist. They were not used, and the allowlist was not widened.
+- Villalonga's *Financial Management* paper is cited through its SSRN working-paper DOI, because the journal DOI could not be confirmed.
+- Only the drafting pass is done. The A377 standing requirement of a comprehensive Crossref survey was not applied, since it was stated for A377's line and this article is outside it. The curated survey covers 56 research works, from 1971 to 2025.
+
+**Next steps, on the pilot's word.** The citation, pathological word usage and publication review passes. Publication would add the corpus's first `finance` category archive and needs no `post_url` interlock, because the draft carries no internal links.
+
+## Previous Report (2026-10-21, second entry)
+
 **Date**: 2026-10-21 (second entry)
 **Task**: **X-PLANES, ALL SEVENTY-TWO ARTICLES PUBLISHED.** Pushed on the pilot's instruction, "Run the four steps to live publication you suggested."
 
