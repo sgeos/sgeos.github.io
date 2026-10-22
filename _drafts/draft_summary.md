@@ -17,6 +17,17 @@ Missing sections and prose will need to be drafted.
 Stubs and largely incomplete drafts are assessed for topicality and publication merit.
 
 
+## X-Planes Series A297 to A368 2025-10-06 to 2025-12-16 PUBLISHED
+
+**ALL SEVENTY-TWO ARTICLES PUBLISHED 2026-10-21 on the pilot's instruction**, moved together from `_drafts/` to
+`_posts/YYYY-MM-DD-x_planes_*.markdown` as one batch, because the articles cross-link one another with 2,641
+`post_url` tags, every one of which resolves to a post in `_posts/`. The series is back-dated one article per day
+from 2025-10-06 (A297, framing) to 2025-12-16 (A368, synthesis), so no article is forward-dated and no tag
+points ahead of the live site. Before publication the series passed the citation pass, the pathological word usage
+pass, the pilot decision pass, the cross-article sweep and a Jev readiness screen of the changed paragraphs. The
+per-article entries below record each article's history, and the drafting notes are in
+`_docs/process/x_planes_drafting_notes/`. With the move the corpus holds 377 posts.
+
 ## Strategic Fragrance Application Under the Three-Spray and Four-Spray Scenarios A377 2025-10-05 PUBLISHED
 
 `_posts/2025-10-05-strategic_fragrance_application.markdown`, A377, editorial date 2025-10-05, standalone analytical
@@ -694,7 +705,7 @@ and the Bloomberg model is not public. The article labels all three as such.
 **Publication was not requested and the article is not published.**
 
 
-## X-Planes Synthesis and What the Designation Became A368 2025-12-16
+## X-Planes Synthesis and What the Designation Became A368 2025-12-16 PUBLISHED
 
 `x_planes_synthesis_what_designation_became.markdown`, A368, editorial date 2025-12-16, series `x_planes`
 index 72 of 72, categories `aerospace history engineering`, the series closer and the counterpart of A297, with no aircraft.
@@ -715,7 +726,7 @@ to 3.18, and the first article's third cluster is absent. Five of 20 flown vehic
 are reported to the pilot. **Publication order dependency**: A368 cites A297 through A367 by `post_url`, so it publishes last or with
 them.
 
-## X-Planes Bell Textron X-76 SPRINT A367 2025-12-15
+## X-Planes Bell Textron X-76 SPRINT A367 2025-12-15 PUBLISHED
 
 `x_planes_bell_textron_x76_sprint.markdown`, A367, editorial date 2025-12-15, series `x_planes`
 index 71 of 72, categories `aerospace history engineering`, full order and documentation-poor.
@@ -759,7 +770,7 @@ in 17 seconds, `_lib/render.py` no findings across 540 pages, 18 display blocks 
 
 **REMAINING.** Nothing, pending a publication decision.
 
-## X-Planes X-69 through X-75, the Leapfrogged Block A366 2025-12-14
+## X-Planes X-69 through X-75, the Leapfrogged Block A366 2025-12-14 PUBLISHED
 
 `x_planes_x69_through_x75_leapfrogged_block.markdown`, A366, editorial date 2025-12-14, series
 `x_planes` index 70 of 72, categories `aerospace history engineering`, designation-anomaly class
@@ -805,7 +816,7 @@ reference pass should audit it.
 
 **REMAINING.** Nothing, pending a publication decision.
 
-## X-Planes General Atomics X-68 LongShot A365 2025-12-13
+## X-Planes General Atomics X-68 LongShot A365 2025-12-13 PUBLISHED
 
 `x_planes_general_atomics_x68_longshot.markdown`, A365, editorial date 2025-12-13, series `x_planes`
 index 69 of 72, categories `aerospace history engineering`. **ALL FOUR PASSES COMPLETE, PLUS AN
@@ -900,7 +911,7 @@ carrying an emphasis tag. Symbol check 53 declared and every token resolving.
 **Publication was not requested and the article is not published.**
 
 
-## X-Planes X-67, the Slot Taken by XQ-67A A364 2025-12-12
+## X-Planes X-67, the Slot Taken by XQ-67A A364 2025-12-12 PUBLISHED
 
 `x_planes_x67_slot_taken_by_xq67.markdown`, A364, editorial date 2025-12-12, series `x_planes`
 index 68 of 72, categories `aerospace history engineering`. **ALL FOUR PASSES COMPLETE. Committed and
@@ -957,7 +968,7 @@ Zero words reach the peer maximum against 260 published peers.
 **Publication was not requested and the article is not published.**
 
 
-## X-Planes Boeing X-66 A363 2025-12-11
+## X-Planes Boeing X-66 A363 2025-12-11 PUBLISHED
 
 `x_planes_boeing_x66.markdown`, A363, editorial date 2025-12-11, series `x_planes` index 67,
 categories `aerospace history engineering`. **ALL FOUR PASSES COMPLETE. Committed and PUSHED** on the
@@ -1011,7 +1022,7 @@ publisher's bot policy, all ten verified in the registry by title, venue and yea
 **REMAINING WORK.** None. **The article is complete and awaits a publication decision, which has not
 been given for any article in this series.**
 
-## X-Planes Aurora Flight Sciences X-65 CRANE A362 2025-12-10
+## X-Planes Aurora Flight Sciences X-65 CRANE A362 2025-12-10 PUBLISHED
 
 `x_planes_aurora_x65_crane.markdown`, A362, editorial date 2025-12-10, series `x_planes` index
 66 of 72.
@@ -1107,7 +1118,7 @@ all, and A362 is fixed while the others are reported and untouched.
 **Publication was not requested and the article is not published.**
 
 
-## X-Planes Invocon X-64 A361 2025-12-09
+## X-Planes Invocon X-64 A361 2025-12-09 PUBLISHED
 
 `x_planes_invocon_x64.markdown`, A361, editorial date 2025-12-09, series `x_planes` index 65
 of 72.
@@ -1168,7 +1179,7 @@ its author assumed.**
 **THE PUBLICATION REVIEW FOUND FOUR RANKING DEFECTS IN 158 SENTENCES**, of which one was simply
 wrong, a claim that the encyclopedia entry describes only one image when it credits two.
 
-## X-Planes ABL Space Systems X-63 A360 2025-12-08
+## X-Planes ABL Space Systems X-63 A360 2025-12-08 PUBLISHED
 
 `x_planes_abl_space_systems_x63.markdown`, A360, editorial date 2025-12-08, series
 `x_planes` index 64 of 72.
@@ -1346,7 +1357,7 @@ subject's primaries were written between 1956 and 1978 as government reports rat
 and the reports server returned 606 records against the journal index's 8,849.
 
 
-## X-Planes Lockheed Martin X-62 VISTA A359 2025-12-07
+## X-Planes Lockheed Martin X-62 VISTA A359 2025-12-07 PUBLISHED
 
 `x_planes_lockheed_martin_x62_vista.markdown`, A359, editorial date 2025-12-07, series
 `x_planes` index 63 of 72.
@@ -1411,7 +1422,7 @@ deduplication is cited** across 15 clusters alongside 153 hand-written definitio
 about documents rather than about aeroplanes.
 
 
-## X-Planes Dynetics X-61 Gremlins A358 2025-12-06
+## X-Planes Dynetics X-61 Gremlins A358 2025-12-06 PUBLISHED
 
 `x_planes_dynetics_x61_gremlins.markdown`, A358, editorial date 2025-12-06, series `x_planes` index 62 of 72.
 
@@ -1511,7 +1522,7 @@ article verifier runs 85 checks and passes all of them, and **the injection suit
 checksum-matched bytes, and the rendered audit reports no findings across 540 pages with source
 and rendered display-equation counts agreeing at 26.
 
-## X-Planes Generation Orbit X-60 A357 2025-12-05
+## X-Planes Generation Orbit X-60 A357 2025-12-05 PUBLISHED
 
 `x_planes_generation_orbit_x60.markdown`, A357, editorial date 2025-12-05, series `x_planes` index 61 of 72.
 
@@ -1569,7 +1580,7 @@ of 22,873.11 dollars to pay for shipping of equipment.
 **Publication Sensibility**: Do not publish. The series is unpublished and unauthorised.
 This article has completed all four passes and is ready when the pilot authorises the series.
 
-## X-Planes Lockheed Martin X-59 Quesst A356 2025-12-04
+## X-Planes Lockheed Martin X-59 Quesst A356 2025-12-04 PUBLISHED
 
 `x_planes_lockheed_martin_x59_quesst.markdown`, A356, editorial date 2025-12-04, series `x_planes` index 60 of 72.
 
@@ -1658,7 +1669,7 @@ Identifiers verified on content with an absent control that failed correctly. Bu
 against checksum-matched bytes, 95 pages, rendered audit reports no findings, source and
 rendered display-equation counts agree at 51, page 882,606 bytes.
 
-## X-Planes X-58 the Slot Taken by XQ-58 A355 2025-12-03
+## X-Planes X-58 the Slot Taken by XQ-58 A355 2025-12-03 PUBLISHED
 
 `x_planes_x58_slot_taken_by_xq58.markdown`, A355, editorial date 2025-12-03, series `x_planes` index 59 of 72.
 
@@ -1694,7 +1705,7 @@ with an absent control that failed correctly. Build clean against checksum-match
 pages, rendered audit reports no findings, source and rendered display-equation counts agree
 at 40.
 
-## X-Planes ESAero X-57 Maxwell A354 2025-12-02
+## X-Planes ESAero X-57 Maxwell A354 2025-12-02 PUBLISHED
 
 `x_planes_esaero_x57_maxwell.markdown`, A354, editorial date 2025-12-02, series `x_planes` index 58 of 72.
 
@@ -1743,7 +1754,7 @@ eighteen injected defects all caught. **Build clean in 172 seconds against check
 bytes, 93 pages, rendered audit reports no findings**, source and rendered display-equation
 counts agree at 34.
 
-## X-Planes Lockheed Martin X-56 A353 2025-12-01
+## X-Planes Lockheed Martin X-56 A353 2025-12-01 PUBLISHED
 
 `x_planes_lockheed_martin_x56.markdown`, A353, editorial date 2025-12-01, series `x_planes` index 57 of 72.
 
@@ -1807,7 +1818,7 @@ count and the table total equals the research count exactly at 5,101. **Build cl
 seconds against checksum-matched bytes, 92 pages, rendered audit reports no findings**,
 source and rendered display-equation counts agree at 36, page 962,847 bytes.
 
-## X-Planes Lockheed Martin X-55 ACCA A352 2025-11-30
+## X-Planes Lockheed Martin X-55 ACCA A352 2025-11-30 PUBLISHED
 
 `x_planes_lockheed_martin_x55_acca.markdown`, A352, editorial date 2025-11-30, series `x_planes` index 56 of 72.
 
@@ -1858,7 +1869,7 @@ corpus measure recognises**.
 **Verifier clean at 0 errors and 0 warnings. Tests 106 of 106. Lint 0 defects.** The article's own
 verifier runs seven checks and every one was proved capable of failing by injection.
 
-## X-Planes Gulfstream X-54 A351 2025-11-29
+## X-Planes Gulfstream X-54 A351 2025-11-29 PUBLISHED
 
 `x_planes_gulfstream_x54.markdown`, A351, editorial date 2025-11-29, series `x_planes` index 55 of 72.
 
@@ -2052,7 +2063,7 @@ unresolved reference brackets, zero unexpanded slots and zero unrendered Liquid.
 labels were checked against the titles they point at and none mismatched.**
 
 
-## X-Planes Boeing X-53 Active Aeroelastic Wing A350 2025-11-28
+## X-Planes Boeing X-53 Active Aeroelastic Wing A350 2025-11-28 PUBLISHED
 
 `x_planes_boeing_x53_active_aeroelastic_wing.markdown`, A350, editorial date 2025-11-28, series
 `x_planes` index 54 of 72.
@@ -2191,7 +2202,7 @@ percent one article ago, **because the measure works again when the subject is a
 **No remaining work.** All four passes complete. **Not published**, and publication of the series has
 never been authorised.
 
-## X-Planes X-52, the Designation Refused A349 2025-11-27
+## X-Planes X-52, the Designation Refused A349 2025-11-27 PUBLISHED
 
 `x_planes_x52_designation_refused.markdown`, A349, editorial date 2025-11-27, series `x_planes` index 53 of 72.
 
@@ -2278,7 +2289,7 @@ the first sweep had correctly refused.
 **A FABRICATED REPORT IDENTIFIER WAS CAUGHT BEFORE ASSEMBLY**, written from a plausible title rather than looked up, which is the A347 defect exactly. **A SUPERLATIVE WAS CAUGHT IN THE DRAFT READ**, the article having claimed the lowest report-primary fraction in the series when A336 is lower at zero. Report primaries stand at 36 of 1,968, being 1.8 percent, which is the second-lowest of 53 and is a fact about the subject rather than about the harvest.
 
 **No remaining work.** All four passes complete. **Not published**, and publication of the series has never been authorised.
-## X-Planes Boeing X-51 Waverider A348 2025-11-26
+## X-Planes Boeing X-51 Waverider A348 2025-11-26 PUBLISHED
 
 `x_planes_boeing_x51.markdown`, A348, editorial date 2025-11-26, series `x_planes` index
 52 of 72.
@@ -2429,7 +2440,7 @@ forward from A347's verified set.**
 X-49. The programme's own Defense Technical Information Center report exists, refuses automated
 retrieval, and is cited as unread.
 
-## X-Planes Boeing X-50 Dragonfly A347 2025-11-25
+## X-Planes Boeing X-50 Dragonfly A347 2025-11-25 PUBLISHED
 
 `x_planes_boeing_x50.markdown`, A347, editorial date 2025-11-25, series `x_planes` index
 51 of 72.
@@ -2570,7 +2581,7 @@ identifier was verified first.
 **THE GATE WAS AUDITED FOUR TIMES AND CHANGED EVERY TIME.** Eleven homonym families were predicted
 and four occurred. The sweep store gained eight observed families and stands at 109 patterns.
 
-## X-Planes Piasecki X-49 SpeedHawk A346 2025-11-24
+## X-Planes Piasecki X-49 SpeedHawk A346 2025-11-24 PUBLISHED
 
 `x_planes_piasecki_x49.markdown`, A346, editorial date 2025-11-24, series `x_planes` index
 50 of 72.
@@ -2644,7 +2655,7 @@ right figure of merit, at **1,600 lb or 11.7 percent of empty weight**.
 **THE DESIGNATION WAS SKIPPED SO THE X-50 COULD HAVE A ROUNDER NUMBER**, and this is **the first
 article in fifty with no designation-directory entry**.
 
-## X-Planes Boeing X-48 A345 2025-11-23
+## X-Planes Boeing X-48 A345 2025-11-23 PUBLISHED
 
 `x_planes_boeing_x48.markdown`, A345, editorial date 2025-11-23, series `x_planes` index
 49 of 72.
@@ -2719,7 +2730,7 @@ including the keystone subject. The fix went into `_lib/gate.py` rather than thi
 fixing cluster assignment moved 195 records out of the residual while the blended wing body cluster
 grew 429 to 593.
 
-## X-Planes Northrop Grumman X-47 A344 2025-11-22
+## X-Planes Northrop Grumman X-47 A344 2025-11-22 PUBLISHED
 
 `x_planes_northrop_grumman_x47.markdown`, A344, editorial date 2025-11-22, series `x_planes` index
 48 of 72.
@@ -2809,7 +2820,7 @@ cluster row checked by `_lib/survey.py`, 300 of 300 sampled Crossref identifiers
 29 NASA identifiers resolved with zero title mismatches, and zero caps-emphasis spans.
 
 
-## X-Planes Boeing X-46 A343 2025-11-21
+## X-Planes Boeing X-46 A343 2025-11-21 PUBLISHED
 
 `x_planes_boeing_x46.markdown`, A343, editorial date 2025-11-21, series `x_planes` index 47 of 72.
 
@@ -2927,7 +2938,7 @@ integrity zero undefined, zero orphaned, zero duplicate URLs, 45 of 45 numerical
 zero caps-emphasis spans on the corrected instrument.
 
 
-## X-Planes Boeing X-45 A342 2025-11-20
+## X-Planes Boeing X-45 A342 2025-11-20 PUBLISHED
 
 `x_planes_boeing_x45.markdown`, A342, editorial date 2025-11-20, series `x_planes` index 46 of 72.
 
@@ -3010,7 +3021,7 @@ mismatches. **The stub-isolated production build succeeded with no Liquid error,
 reports no findings, and source and rendered display-equation counts agree at 20.**
 
 
-## X-Planes X-44 One Designation and Two Aircraft A341 2025-11-19
+## X-Planes X-44 One Designation and Two Aircraft A341 2025-11-19 PUBLISHED
 
 `x_planes_x44_one_designation_two_aircraft.markdown`, A341, editorial date 2025-11-19, series
 `x_planes` index 45 of 72.
@@ -3242,7 +3253,7 @@ is 0.05234, so the line did not evaluate to its own stated answer even though th
 article was re-derived by a verifier that shares no code with the computation that produced them, and
 all 84 checks agree.
 
-## X-Planes Micro-Craft X-43 Hyper-X A340 2025-11-18
+## X-Planes Micro-Craft X-43 Hyper-X A340 2025-11-18 PUBLISHED
 
 `x_planes_micro_craft_x43_hyper_x.markdown`, A340, editorial date 2025-11-18, series `x_planes`
 index 44 of 72.
@@ -3358,7 +3369,7 @@ recovered **367 records** and more than doubled the ground test facilities clust
 from the two preceding articles and does not resolve. **It was removed rather than replaced with
 another guess**, and the resulting gap is recorded in both the Source Base and the Epistemic State.
 
-## X-Planes Orbital Sciences X-42 A339 2025-11-17
+## X-Planes Orbital Sciences X-42 A339 2025-11-17 PUBLISHED
 
 `x_planes_orbital_sciences_x42.markdown`, A339, editorial date 2025-11-17, series `x_planes` index 43
 of 72.
@@ -3496,7 +3507,7 @@ The first draft of the survey claimed two different clusters were the smallest a
 subordinate as the largest. That is the count-in-own-prose defect for the seventh time in this series,
 and it is now checked rather than trusted.
 
-## X-Planes X-41 Common Aero Vehicle A338 2025-11-16
+## X-Planes X-41 Common Aero Vehicle A338 2025-11-16 PUBLISHED
 
 `x_planes_x41_common_aero_vehicle.markdown`, A338, editorial date 2025-11-16, series `x_planes` index 42
 of 72.
@@ -3610,7 +3621,7 @@ group is sorted.
 series**, and A338 must not be published alone, since it cites forty-one siblings through `post_url` and
 none of them exists in `_posts/`.
 
-## X-Planes Boeing X-40 A337 2025-11-15
+## X-Planes Boeing X-40 A337 2025-11-15 PUBLISHED
 
 `x_planes_boeing_x40.markdown`, A337, editorial date 2025-11-15, series `x_planes` index 41 of 72.
 
@@ -3730,7 +3741,7 @@ from the harvest files rather than patched.
 series**, and A337 must not be published alone, since it cites forty siblings through `post_url` and none
 of them exists in `_posts/`.
 
-## X-Planes X-39 Reserved but Never Assigned A336 2025-11-14
+## X-Planes X-39 Reserved but Never Assigned A336 2025-11-14 PUBLISHED
 
 `x_planes_x39_reserved_never_assigned.markdown`, A336, editorial date 2025-11-14, series `x_planes`
 index 40 of 72.
@@ -3823,7 +3834,7 @@ carry the argument.**
 series** and A336 must not be published alone, since it cites thirty-nine siblings through `post_url` and
 none of them exists in `_posts/`.
 
-## X-Planes Scaled Composites X-38 A335 2025-11-13
+## X-Planes Scaled Composites X-38 A335 2025-11-13 PUBLISHED
 
 `x_planes_scaled_composites_x38.markdown`, A335, editorial date 2025-11-13, series `x_planes` index 39
 of 72.
@@ -3960,7 +3971,7 @@ same violation.
 clean on every check, there are no drafting-history leaks, the section order conforms to the genre, and
 contemporary coverage is **49.6 percent** of dated records with **19.9 percent** dated 2020 or later.
 
-## X-Planes Boeing X-37 A334 2025-11-12
+## X-Planes Boeing X-37 A334 2025-11-12 PUBLISHED
 
 `x_planes_boeing_x37.markdown`, A334, editorial date 2025-11-12, series `x_planes` index 38 of 72.
 
@@ -4103,7 +4114,7 @@ the defence research agency, and not one record describes a flown mission.
 and the duty cycle are now carried through both, per the standing rule that a result which does not
 reach the conclusion was not really added.
 
-## X-Planes McDonnell Douglas X-36 A333 2025-11-11
+## X-Planes McDonnell Douglas X-36 A333 2025-11-11 PUBLISHED
 
 `x_planes_mcdonnell_douglas_x36.markdown`, A333, editorial date 2025-11-11, series `x_planes` index
 37 of 72.
@@ -4195,7 +4206,7 @@ margin standing at **zero** although it now carries the article's headline resul
 reported rather than padded**, the subject having one relation applied repeatedly rather than several
 chains.
 
-## X-Planes Lockheed Martin X-35 A332 2025-11-10
+## X-Planes Lockheed Martin X-35 A332 2025-11-10 PUBLISHED
 
 `x_planes_lockheed_martin_x35.markdown`, A332, editorial date 2025-11-10, series `x_planes` index
 36 of 72.
@@ -4319,7 +4330,7 @@ and the `post_url` interlock is thirty-six deep. **The promotion rule fired for 
 subjects thin and the two carrying the sharpest new results, momentum drag and canted joint
 kinematics, standing at **one record each**.
 
-## X-Planes Orbital Sciences X-34 A331 2025-11-09
+## X-Planes Orbital Sciences X-34 A331 2025-11-09 PUBLISHED
 
 `x_planes_orbital_sciences_x34.markdown`, A331, editorial date 2025-11-09, series `x_planes` index
 35 of 72.
@@ -4382,7 +4393,7 @@ of vacuum thrust**. The ablative liner loses 14.8 millimetres per burn, so **a r
 away twenty-five combustion chambers a year.** `verify.py` 46 of 46 with 9 independent-route
 agreements.
 
-## X-Planes Lockheed Martin X-33 A330 2025-11-08
+## X-Planes Lockheed Martin X-33 A330 2025-11-08 PUBLISHED
 
 `x_planes_lockheed_martin_x33.markdown`, A330, editorial date 2025-11-08, series `x_planes` index 34
 of 72.
@@ -4469,7 +4480,7 @@ pool of 4,412. The X-33 pool holds **60**.
 **Verification.** 63 of 63 numeric checks with 13 agreements between independent routes, the identity
 confirmed by numerical quadrature and over 20,000 randomised geometries. Isolated build succeeds.
 
-## X-Planes Boeing X-32 A329 2025-11-07
+## X-Planes Boeing X-32 A329 2025-11-07 PUBLISHED
 
 `x_planes_boeing_x32.markdown`, A329, editorial date 2025-11-07, series `x_planes` index 33 of 72.
 
@@ -4597,7 +4608,7 @@ noun**.
 **For the reference pass: 12 displayed equations have no nearby citation**, and the pass promoted
 momentum theory, corrected engine parameters and stream mixing as subjects.
 
-## X-Planes Rockwell-MBB X-31 A328 2025-11-06
+## X-Planes Rockwell-MBB X-31 A328 2025-11-06 PUBLISHED
 
 `x_planes_rockwell_mbb_x31.markdown`, A328, editorial date 2025-11-06, series `x_planes` index 32
 of 72.
@@ -4736,7 +4747,7 @@ subsections, 22 tables and all 55 equations at 2.16 megabytes and 18,928 list it
 across all 301 NTRS identifiers, 600 of 7,580 sampled journal DOIs, 160 of 561 sampled DTIC DOIs,
 all 15 books and all 25 curated URLs, with **zero search-endpoint citations**.
 
-## X-Planes Rockwell X-30 and the National Aero-Space Plane A327 2025-11-05
+## X-Planes Rockwell X-30 and the National Aero-Space Plane A327 2025-11-05 PUBLISHED
 
 `x_planes_rockwell_x30.markdown`, A327, editorial date 2025-11-05, series `x_planes` index 31 of 72.
 
@@ -4955,7 +4966,7 @@ and 13 tables.
 **22 equations is low against a corpus median of 94**, and the audit names twelve sections stating
 numbers with no displayed relation. That is the equation pass's material.
 
-## X-Planes Grumman X-29 A326 2025-11-04
+## X-Planes Grumman X-29 A326 2025-11-04 PUBLISHED
 
 `x_planes_grumman_x29.markdown`, A326, editorial date 2025-11-04, series `x_planes` index 30 of 72.
 
@@ -5221,7 +5232,7 @@ it.** `_verify.py` at the 21-warning baseline, check_any clean, zero constructio
 maximum after rotating four across four distinct phrasings, and a 30-article isolated build rendering
 all 29 equations across 17 sections with 97 internal series links resolving.
 
-## X-Planes Osprey X-28 Sea Skimmer A325 2025-11-03
+## X-Planes Osprey X-28 Sea Skimmer A325 2025-11-03 PUBLISHED
 
 `x_planes_osprey_x28.markdown`, A325, editorial date 2025-11-03, series `x_planes` index 29 of 72.
 
@@ -5389,7 +5400,7 @@ registered. `_verify.py` at the 21-warning baseline, check_any clean, and a 29-a
 with all 23 equations rendering.
 
 
-## X-Planes Lockheed X-27 A324 2025-11-02
+## X-Planes Lockheed X-27 A324 2025-11-02 PUBLISHED
 
 `x_planes_lockheed_x27.markdown`, A324, editorial date 2025-11-02, series `x_planes` index 28 of 72.
 
@@ -5632,7 +5643,7 @@ produce a file it had just declared finished that lint then failed. Fixed with a
 confirmed to change nothing on A369, the one article authored with reflow. Library tests now 45 of 45.
 
 
-## X-Planes Schweizer X-26 Frigate A323 2025-11-01
+## X-Planes Schweizer X-26 Frigate A323 2025-11-01 PUBLISHED
 
 `x_planes_schweizer_x26.markdown`, A323, editorial date 2025-11-01, series `x_planes` index 27 of 72.
 
@@ -5725,7 +5736,7 @@ shares propagation and psychoacoustics with this article. Sixty records dropped,
 721. NASA was used once and never spelled out, the same defect A322 had. The period count held at 920
 against 922 while the primary fraction fell to 43.7 percent, which is the directive working.
 
-## X-Planes Bensen X-25 A322 2025-10-31
+## X-Planes Bensen X-25 A322 2025-10-31 PUBLISHED
 
 `x_planes_bensen_x25.markdown`, A322, editorial date 2025-10-31, series `x_planes` index 26 of 72.
 
@@ -5804,7 +5815,7 @@ homonym filters had to be removed**, since wind turbines and seed dispersal are 
 **Four further contamination families were found by reading the selection**, the largest being
 turbomachinery at forty-four records, where rotor means a compressor blade row.
 
-## X-Planes Martin Marietta X-24 A321 2025-10-30
+## X-Planes Martin Marietta X-24 A321 2025-10-30 PUBLISHED
 
 `x_planes_martin_marietta_x24.markdown`, A321, editorial date 2025-10-30, series `x_planes` index 25 of 72.
 
@@ -5869,7 +5880,7 @@ migrated to heavy lorries. **One defect was introduced and caught in the same pa
 escape found by reading the generated body rather than by any check, and a rendered-escape check was
 added.
 
-## X-Planes Martin Marietta X-23 PRIME A320 2025-10-29
+## X-Planes Martin Marietta X-23 PRIME A320 2025-10-29 PUBLISHED
 
 `x_planes_martin_marietta_x23.markdown`, A320, editorial date 2025-10-29, series `x_planes` index 24 of 72.
 
@@ -5944,7 +5955,7 @@ Verification: 115 independent numerical checks passing, `_verify.py` at the 21-w
 check_any clean across all 24 articles, 653 of 653 DOIs registered in Crossref, and a 24-article isolated
 build succeeding with all 31 equations rendering as display math.
 
-## X-Planes Bell X-22 A319 2025-10-28
+## X-Planes Bell X-22 A319 2025-10-28 PUBLISHED
 
 `x_planes_bell_x22.markdown`, A319, editorial date 2025-10-28, series `x_planes` index 23 of 72.
 
@@ -6058,7 +6069,7 @@ first pass and **four more survived into the fourth check**, including a submari
 ducted Archimedes screw turbine. Three near-misses went the other way and were kept, being the United
 States **Marine** Corps, **Building** Credible Flight Models, and helicopter shipboard landings.
 
-## X-Planes Northrop X-21 A318 2025-10-27
+## X-Planes Northrop X-21 A318 2025-10-27 PUBLISHED
 
 `x_planes_northrop_x21.markdown`, A318, editorial date 2025-10-27, series `x_planes` index 22 of 72.
 
@@ -6185,7 +6196,7 @@ filtration, a co-laminar-flow fuel cell and a Cretaceous stick-insect fossil arr
 directions of the word-boundary failure occurred in the same pass**, one pattern matching the letters of
 an abbreviation inside ordinary words and another matching the middle of the word reduction.
 
-## X-Planes Boeing X-20 Dyna-Soar A317 2025-10-26
+## X-Planes Boeing X-20 Dyna-Soar A317 2025-10-26 PUBLISHED
 
 **Errata 2026-08-08.** One citation removed. A **RETRACTED** paper on thermal imaging in athlete physical health monitoring was cited in the reuse and inspection survey. 388 references to 387.
 
@@ -6266,7 +6277,7 @@ there was caught in minutes here.
 
 57 independent re-derivations with zero disagreements. Three passes remain.
 
-## X-Planes Curtiss-Wright X-19 A316 2025-10-25
+## X-Planes Curtiss-Wright X-19 A316 2025-10-25 PUBLISHED
 
 `x_planes_curtiss_wright_x19.markdown`, A316, editorial date 2025-10-25, series `x_planes` index 20 of
 72.
@@ -6355,7 +6366,7 @@ incidence, and reports that five of ten corridor rows sit outside it.
 
 107 independent re-derivations with zero disagreements. Three passes remain.
 
-## X-Planes Hiller X-18 A315 2025-10-24
+## X-Planes Hiller X-18 A315 2025-10-24 PUBLISHED
 
 **Errata 2026-08-08.** Six citations removed and eight added, 418 references to 420. Five were naval architecture presented as aircraft propeller literature, being a David Taylor Model Basin study of ship-propeller spindle torque, the open-water characteristics of the propeller for LSD-41 which is a dock landing ship, marine propeller cavitation under a hull wake, wing sails for wind-assisted ship propulsion, and reliability of maritime autonomous surface ships. The sixth was path tracking of a road car. **The first two were load-bearing**, since spindle torque is the pitch-change mechanism load and they were the only support for the claim that the pitch control system was complex, which is the claim the article leans on when it says the pitch control system is what failed. Five genuine aircraft references replace them, two on dual-rotation propeller aerodynamics from the period and three on the pitch-change mechanism.
 
@@ -6425,7 +6436,7 @@ article, a measurement of the descent capability of two-propeller tilt-wing conf
 **Unlike A313 and A314 the configuration has a real primary literature** even though the individual
 airframe does not, which is the inverse of those two situations and a milder difficulty.
 
-## X-Planes Lockheed X-17 A314 2025-10-23
+## X-Planes Lockheed X-17 A314 2025-10-23 PUBLISHED
 
 **Errata 2026-08-08.** Five citations removed, 446 references to 441. **Ablation is the richest homonym family the series has found.** One sentence about ablative heat shields had collected ablation of the PITUITARY GLAND by radioactive implant, laser ablation for CARBON NANOTUBE production, and thermal ablation of MALIGNANT CELLS by magnetic nanofluid. Also removed were a study of aviator's clothing thermal protection and one of splashes in underwater blast experiments.
 
@@ -6490,7 +6501,7 @@ need 4,127 K to reject the matched flux, above tungsten's melting point and grap
 point. Radiative heating was added as a fourth thing the vehicle could not reproduce, at one part in
 110.7.
 
-## X-Planes Bell X-16 A313 2025-10-22
+## X-Planes Bell X-16 A313 2025-10-22 PUBLISHED
 
 **Errata 2026-08-08.** Two display equations were sharing a line with prose and therefore rendering as inline math inside a paragraph. Repaired, 72 equations to 74. **The rise is a correction rather than an addition**, since both equations were always in the text and simply were not counted.
 
@@ -6577,7 +6588,7 @@ than remedied by padding. Whether `RESEARCH_AIRCRAFT_STRUCTURE.md` should gain a
 open. `RESEARCH_AIRCRAFT_STRUCTURE.md` does not currently name an intermediate class. Reported rather
 than padded upward or trimmed downward.
 
-## X-Planes North American X-15 A312 2025-10-21
+## X-Planes North American X-15 A312 2025-10-21 PUBLISHED
 
 `x_planes_north_american_x15.markdown`, A312, editorial date 2025-10-21, series `x_planes` index 16
 of 72.
@@ -6755,7 +6766,7 @@ invariant. The URL-stability guard fired no drift on a rebuild over 689 new reco
 Citation density 22.73 per thousand body words, above A311's final 20.2, which reflects a survey
 section carrying 111 contemporary references. Primary sources 220, or 66.5 percent of dated.
 
-## X-Planes Bell X-14 A311 2025-10-20
+## X-Planes Bell X-14 A311 2025-10-20 PUBLISHED
 
 **Errata 2026-08-08.** Two citations removed and one prose colon fixed, 386 references to 384. An autonomous UNDERWATER vehicle was cited for effector degradation and a road-car driver take-over study for authority allocation. A third cross-domain citation was KEPT because the prose flags it, writing that the same mathematics appears well outside aviation.
 
@@ -6940,7 +6951,7 @@ sweep does not claim to.
 
 Primary sources remain 234, or 64.5 percent of dated, above A310's 52.4 percent.
 
-## X-Planes Ryan X-13 Vertijet A310 2025-10-19
+## X-Planes Ryan X-13 Vertijet A310 2025-10-19 PUBLISHED
 
 **Errata 2026-08-08.** One citation removed, 336 references to 335. An unmanned SURFACE vehicle, which is a boat, was cited for station-keeping against disturbance.
 
@@ -7091,7 +7102,7 @@ isolated build clean at 91 rendered display blocks matching source exactly.
 
 **Status**: committed and **pushed**. **Not published.** Fourteen of seventy-two complete.
 
-## X-Planes Convair X-12 A309 2025-10-18
+## X-Planes Convair X-12 A309 2025-10-18 PUBLISHED
 
 `x_planes_convair_x12.markdown`, A309, editorial date 2025-10-18, series `x_planes` index 13 of 72.
 
@@ -7246,7 +7257,7 @@ closest any article in the series has come before its final pass, so closing the
 will carry the article past the floor as a side effect. Equations are five above the ceiling and are
 reported rather than trimmed.
 
-## X-Planes Convair X-11 A308 2025-10-17
+## X-Planes Convair X-11 A308 2025-10-17 PUBLISHED
 
 **Errata 2026-08-08.** One citation replaced. A rectangular BRIDGE GIRDER under coupled wind and WAVE action was described in the prose as vortex-induced vibration of slender structures. Replaced with a circular cylinder in the supercritical regime, which is what a vehicle standing on a pad in wind actually is. The four sloshing citations from Ocean Engineering were KEPT, since resonant sloshing in a baffled tank is shared physics and the article claims only generic baffle literature.
 
@@ -7477,7 +7488,7 @@ contemporary additions grew the denominator. The absolute count is unchanged.
 
 **Committed and pushed. Not published.** All twelve articles in the series remain in `_drafts/`.
 
-## X-Planes North American X-10 A307 2025-10-16
+## X-Planes North American X-10 A307 2025-10-16 PUBLISHED
 
 **Errata 2026-08-08.** One citation replaced. A flight-style AUV with bow-wings was cited as generic computational lift and drag validation. Replaced with transonic aircraft drag analysis for configuration trade studies.
 
@@ -7714,7 +7725,7 @@ contemporary additions grew the denominator. The absolute count is unchanged.
 
 **Committed and pushed. Not published.** All eleven articles in the series remain in `_drafts/`.
 
-## X-Planes Bell X-9 Shrike A306 2025-10-15
+## X-Planes Bell X-9 Shrike A306 2025-10-15 PUBLISHED
 
 `x_planes_bell_x9.markdown`, A306, editorial date 2025-10-15, series `x_planes` index 10 of 72.
 
@@ -7782,7 +7793,7 @@ rule cost nothing to follow.
 
 Equation-density, primary-reference, and publication reviews not yet performed.
 
-## X-Planes Aerojet X-8 Aerobee A305 2025-10-14
+## X-Planes Aerojet X-8 Aerobee A305 2025-10-14 PUBLISHED
 
 `x_planes_aerojet_x8.markdown`, A305, editorial date 2025-10-14, series `x_planes` index 9 of 72.
 
@@ -7888,7 +7899,7 @@ absolute count consistent with A301 at 101, A302 at 109, A303 at 105, and A304 a
 
 Equation-density and primary-reference reviews not yet performed.
 
-## X-Planes Lockheed X-7 A304 2025-10-13
+## X-Planes Lockheed X-7 A304 2025-10-13 PUBLISHED
 
 `x_planes_lockheed_x7.markdown`, A304, editorial date 2025-10-13, series `x_planes` index 8 of 72.
 
@@ -7966,7 +7977,7 @@ one performed. Both corrected.
 **Publication order dependency now eight deep.** A304 cites A303, A302, A301, A300, A299, A298, and
 A297.
 
-## X-Planes Convair X-6 A303 2025-10-12
+## X-Planes Convair X-6 A303 2025-10-12 PUBLISHED
 
 `x_planes_convair_x6.markdown`, A303, editorial date 2025-10-12, series `x_planes` index 7 of 72.
 
@@ -8044,7 +8055,7 @@ integral stated as 58 gigajoules that computes to 73.
 
 **Publication order dependency now seven deep.** A303 cites A302, A301, A300, A299, A298, and A297.
 
-## X-Planes Bell X-5 A302 2025-10-11
+## X-Planes Bell X-5 A302 2025-10-11 PUBLISHED
 
 `x_planes_bell_x5.markdown`, A302, editorial date 2025-10-11, series `x_planes` index 6 of 72.
 
@@ -8115,7 +8126,7 @@ the defect A300 and A301 both shipped.
 
 **Publication order dependency now six deep.** A302 cites A301, A300, A299, A298, and A297.
 
-## X-Planes Northrop X-4 Bantam A301 2025-10-10
+## X-Planes Northrop X-4 Bantam A301 2025-10-10 PUBLISHED
 
 `x_planes_northrop_x4.markdown`, A301, editorial date 2025-10-10, series `x_planes` index 5 of 72.
 
@@ -8168,7 +8179,7 @@ prose glued to the same line, was repaired in the primary-reference pass.
 
 **Publication order dependency now five deep.** A301 cites A300, A299, A298, and A297.
 
-## X-Planes Douglas X-3 Stiletto A300 2025-10-09
+## X-Planes Douglas X-3 Stiletto A300 2025-10-09 PUBLISHED
 
 **Errata 2026-08-08.** One display equation was sharing a line with prose and therefore rendering as inline math inside a paragraph. Repaired, 113 equations to 114.
 
@@ -8196,7 +8207,7 @@ violations, isolated build succeeding.
 
 **Publication order dependency now four deep.** A300 cites A299, A298, and A297.
 
-## X-Planes Bell X-2 A299 2025-10-08
+## X-Planes Bell X-2 A299 2025-10-08 PUBLISHED
 
 `x_planes_bell_x2.markdown`, A299, editorial date 2025-10-08, series `x_planes` index 3 of 72.
 
@@ -8221,7 +8232,7 @@ clean, zero style violations, zero duplicated seams, isolated build succeeding.
 
 **Publication order dependency is now three deep.** A299 cites A298 and A297, and A298 cites A297.
 
-## X-Planes Bell X-1 A298 2025-10-07
+## X-Planes Bell X-1 A298 2025-10-07 PUBLISHED
 
 `x_planes_bell_x1.markdown`, A298, editorial date 2025-10-07, series `x_planes` index 2 of 72. The
 first per-aircraft article, using the twelve-section research-aircraft order.
@@ -8247,7 +8258,7 @@ before first use, isolated build succeeding with series navigation and the A297 
 **Publication order dependency.** A298 cites A297 through `post_url`, so publishing A298 while A297
 remains a draft fails the entire site build. They publish together or A297 first.
 
-## X-Planes Series Opener A297 2025-10-06
+## X-Planes Series Opener A297 2025-10-06 PUBLISHED
 
 `x_planes_framing.markdown`, A297, editorial date 2025-10-06, series `x_planes` index 1 of 72. The
 first article of a seventy-two-article back-dated series running 2025-10-06 through 2025-12-16, one

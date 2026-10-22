@@ -4,6 +4,40 @@
 
 ## Last Updated
 
+**Date**: 2026-10-21 (second entry)
+**Task**: **X-PLANES, ALL SEVENTY-TWO ARTICLES PUBLISHED.** Pushed on the pilot's instruction, "Run the four steps to live publication you suggested."
+
+**Steps.**
+1. Pushed `7693774` and `5911152`, the decision pass and the readiness follow-up. The pre-push corpus checks passed.
+2. Two-commit pattern. The drafts as they stood were already committed in `5911152`. The publish commit moves all 72 from `_drafts/` to `_posts/YYYY-MM-DD-x_planes_*.markdown` together, because the 2,641 `post_url` tags cross-link the series; every tag was checked to resolve. No date collides with an existing post, and every date is past (2025-10-06 to 2025-12-16), so none is held back by `future: false`. `draft_summary.md` marks the 72 entries published.
+3. `./_check.sh` on the staged batch: 377 posts, `_verify.py` 0 errors and 0 warnings, production build ok, rendered audit 543 pages with no findings.
+4. Pushed, deploy log checked (see TASKLOG), and the announcement below is drafted for the pilot's review.
+
+**Draft release announcement (for the pilot to review before posting).**
+
+```
+New Blog Post: X-Planes, a seventy-two-article series
+
+What can the United States X-series research aircraft teach as a single body of evidence, one designation at a time? This series treats each X designation from the Bell X-1 to the Bell Textron X-76 as an engineering question, sizes each vehicle from first principles, compares its flight record with what the ground predicted, and surveys the contemporary literature behind it.
+
+Key takeaways:
+- A research aircraft is an instrument rather than a vehicle. It exists to resolve one quantity that ground facilities could not, and its airframe, propulsion and instrumentation were dimensioned against that quantity.
+- The designation records outcomes as well as intentions. Six of the twenty-two vehicles whose articles date both events flew before they received their X designation.
+- The series changed character around 1990. Among aircraft, 18 of 19 before 1990 carried a pilot and 8 of 22 from 1990 did.
+
+You can read the full series here, starting with the framing article:
+https://sgeos.github.io/aerospace/history/engineering/2025/10/06/x_planes_framing.html
+
+and the synthesis that closes it:
+https://sgeos.github.io/aerospace/history/engineering/2025/12/16/x_planes_synthesis_what_designation_became.html
+
+Let me know your thoughts. I would love to hear how flight test and ground prediction have compared in your own field!
+
+hashtag#Aerospace hashtag#AviationHistory hashtag#FlightTest hashtag#Engineering hashtag#ExperimentalAircraft hashtag#NASA hashtag#Research
+```
+
+## Previous Report (2026-10-21, first entry)
+
 **Date**: 2026-10-21
 **Task**: **X-PLANES, THE PILOT DECISION PASS AND THE CROSS-ARTICLE SWEEP.** Committed, NOT pushed, NOT published. The pilot's word is awaited before any push.
 
