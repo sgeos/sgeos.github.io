@@ -4,6 +4,30 @@
 
 ## Last Updated
 
+**Date**: 2026-10-22 (first entry)
+**Task**: **A381 DRAFTED, *Mercury as a Colony and a Launch Site*, editorial date 2026-08-17. Committed, NOT pushed, NOT published.** On the pilot's instruction, "Draft an article on the following topic as A381, backdated to 2026-08-17," testing a two-part hypothesis that Mercury is the hardest body to colonize and, once colonized, the best launch site for probes within the solar system and to neighboring stars.
+
+**What was done.**
+1. A381 was the next free number, and 2026-08-17 is free of posts and drafts. A380's deploy result, recorded in TASKLOG during the previous session, is committed with this draft.
+2. Every worked number comes from `tmp/a381/numbers.py`, under a stated model of circular coplanar orbits, patched conics, Hohmann transfers, impulsive burns and ideal surface departures. Its output is `tmp/a381/numbers.out`.
+3. Sixteen DOIs were checked against Crossref and OpenAlex, and all 16 are registered. Eighteen Wikipedia pages return 200, and their wikitext was checked for each value cited.
+4. The draft summary's file counts were stale. They still listed sixty-one X-Planes drafts after the series published in `579121f`, and they now match the directory, which holds eleven files.
+5. `_verify.py` reports 0 errors and 0 warnings. The scratch production build passed, the three `post_url` back-references resolve, and the render audit found nothing on 548 pages.
+
+**Verdicts reached by the article.**
+- Part one is refuted as stated, because Venus's surface, Io, the giant planets and the Sun are harder. A narrower form holds, because Mercury has the highest ideal delta-v from low Earth orbit to the surface among landable bodies, 16.02 km/s against 12.23 for Pluto.
+- Part two A is refuted for outward targets and supported for Venus and the Sun. Mercury is the costliest origin for every target beyond Venus, but windows to outer planets open about every 90 days.
+- Part two B is partially supported. Rockets and the solar Oberth manoeuvre favour origins far from the Sun. Sails and beamed power favour the region near Mercury, where Mercury is the only known source of mass.
+
+**Limits the pilot should know.**
+- Seven journal sources had no retrievable abstract and are cited only for what their titles state. The three 2013 polar-ice papers share one editorial summary.
+- Wikipedia gives no surface radiation dose for Io, so the article states no number for it.
+- Two corrections to earlier drafting assumptions came from the computation. A solar Oberth dive is worse from Mercury than from Earth or Jupiter, and the sail advantage belongs to the distance rather than to the planet.
+
+**Next, on the pilot's word.** The three remaining passes, which are the citation pass, the pathological word usage pass and the publication review.
+
+## Previous Report (2026-10-21, eleventh entry)
+
 **Date**: 2026-10-21 (eleventh entry)
 **Task**: **A380 PUBLISHED, *Who Keeps the Value When a Company Splits*.** On the pilot's instruction, "Publish and push the article."
 

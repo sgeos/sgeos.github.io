@@ -17,6 +17,19 @@ Missing sections and prose will need to be drafted.
 Stubs and largely incomplete drafts are assessed for topicality and publication merit.
 
 
+## Mercury as a Colony and a Launch Site A381 2026-08-17 DRAFTED
+
+`_drafts/mercury_as_colony_and_launch_site.markdown`, A381, editorial date 2026-08-17, standalone analytical essay,
+categories `space astronomy space-studies`, no series. Drafted 2026-10-22 on the pilot's instruction to test, with
+orbital mechanics, solar radiation pressure and standard physics as a function of distance from the Sun, the
+hypothesis that Mercury is the hardest body to colonize and, once colonized, the best launch site for probes within
+the solar system and to neighboring stars. **NOT published.**
+
+**Drafting pass complete. Citation, pathological word usage and publication review passes NOT yet run.** 920 lines,
+13 display equations, 37 references, 16 DOI-linked, 18 Wikipedia and 3 related posts, all back-references to earlier
+posts. Every number is computed by `tmp/a381/numbers.py`. Seven journal sources are cited at title level only
+because no abstract was retrievable. `_verify.py` 0 and 0, scratch build ok, render audit clean on 548 pages.
+
 ## Who Keeps the Value When a Company Splits A380 2026-08-16 PUBLISHED
 
 `_posts/2026-08-16-spin_offs_and_value_transfer.markdown`, A380, editorial date 2026-08-16, standalone analytical essay and
@@ -11144,14 +11157,16 @@ This is a template file, not a draft. It provides the standard structure for new
 
 ## Summary
 
-Seventy-one files exist in `_drafts/`. One is a template. One is this summary.
-**Sixty-one are the in-progress X-Planes series, A297 through A357 with no gaps, none of them
-published**, and publication of the series has never been authorised.
+Eleven files exist in `_drafts/`. One is a template. One is this summary.
+One is A381, *Mercury as a Colony and a Launch Site*, drafted 2026-10-22 and described at the top of this file.
 Eight are the pre-release candidates listed below.
+No X-Planes drafts remain, because the whole series, A297 to A368, was published in commit `579121f`.
 No stubs remain.
 A79 through A144 have been published.
 
-**These counts were re-measured against the working tree on 2026-09-11 rather than carried forward.**
+**These counts were re-measured against the working tree on 2026-10-22**, when the figures carried here
+still read seventy-one files and sixty-one X-Planes drafts, which had stopped being true when the series published.
+**The paragraph that follows records the 2026-09-11 recount and is kept as history.**
 An earlier version read fifty-eight files and forty-eight X-Planes drafts running to A344, which had
 been true twelve articles earlier. **A resume channel that disagrees with the tree is worse than one
 that is merely terse**, so the figures above come from counting the directory, and the contiguity of
