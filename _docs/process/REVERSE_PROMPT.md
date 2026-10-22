@@ -4,6 +4,36 @@
 
 ## Last Updated
 
+**Date**: 2026-10-21 (eighth entry)
+**Task**: **A379 PUBLISHED, *Building an Integrated Enterprise from Distressed Acquisitions*.** On the pilot's instruction, "Publish A379 and push it."
+
+**Steps.**
+1. The draft state was already committed (`039460e`, `b6ec1e0`). The publish commit moves the draft to `_posts/2026-08-15-distressed_acquisitions_and_integration.markdown`. The slot was free, and the one `post_url` tag targets A378, which is published.
+2. `./_check.sh` reported 379 posts, `_verify.py` 0 errors and 0 warnings, a successful production build, and no findings from the rendered audit on 546 pages.
+3. Pushed. The deploy result and the live check are recorded in TASKLOG.
+
+**Draft release announcement (for the pilot to review before posting).**
+
+```
+New Blog Post: Building an Integrated Enterprise from Distressed Acquisitions
+
+Is there established theory for assembling a vertically and horizontally integrated company by buying bankrupt or fire-sale businesses and repurposing them? The article finds four well-developed bodies of theory, on firm boundaries, the market for corporate assets, fire sales and asset redeployment, but no theory of the strategy as a whole, and builds small models to show how they fit together.
+
+Key takeaways:
+- Distressed assets are cheap because their natural buyers, industry peers, are usually constrained at the same moment. A buyer captures the discount only if it can use the asset nearly as well as those peers.
+- On the same 30 percent discount, a hypothetical outsider loses money, a well-capitalized peer gains most, and a repurposer gains a little. The headline discount can overstate the real gain several times over.
+- The assets that are cheapest in distress tend to be the most specific and hardest to repurpose, which favours related buyers with cash in downturns, a record of redeploying what they buy, and governance that keeps acquired owners involved.
+
+You can read the full article here:
+https://sgeos.github.io/business/economics/finance/2026/08/15/distressed_acquisitions_and_integration.html
+
+Let me know your thoughts. I would love to hear how you evaluate distressed acquisitions or roll-ups in your own work!
+
+hashtag#MergersAndAcquisitions hashtag#DistressedInvesting hashtag#VerticalIntegration hashtag#CorporateStrategy hashtag#Bankruptcy hashtag#CorporateFinance hashtag#IndustrialOrganization
+```
+
+## Previous Report (2026-10-21, seventh entry)
+
 **Date**: 2026-10-21 (seventh entry)
 **Task**: **A379, ALL FOUR PASSES COMPLETE. Committed, NOT pushed, NOT published.** On the pilot's instruction, "Run the remaining three passes on A378."
 

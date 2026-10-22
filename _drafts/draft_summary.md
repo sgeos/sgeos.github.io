@@ -17,14 +17,14 @@ Missing sections and prose will need to be drafted.
 Stubs and largely incomplete drafts are assessed for topicality and publication merit.
 
 
-## Building an Integrated Enterprise from Distressed Acquisitions A379 2026-08-15 ALL FOUR PASSES COMPLETE
+## Building an Integrated Enterprise from Distressed Acquisitions A379 2026-08-15 PUBLISHED
 
-`_drafts/distressed_acquisitions_and_integration.markdown`, A379, editorial date 2026-08-15, standalone analytical
+`_posts/2026-08-15-distressed_acquisitions_and_integration.markdown`, A379, editorial date 2026-08-15, standalone analytical
 essay and companion to A378, categories `business economics finance`, no series. Drafted 2026-10-21 on the pilot's
 instruction from a question about whether established theory covers building a vertically and horizontally
 integrated enterprise from bankrupt or fire-sale acquisitions and repurposing them. **NOT published.**
 
-**ALL FOUR PASSES COMPLETE 2026-10-21, NOT published.** Final state 607 lines, 6 display equations, 40 inline
+**ALL FOUR PASSES COMPLETE. PUBLISHED 2026-10-21 on the pilot's instruction**, taking the corpus to 379 posts. Final state 607 lines, 6 display equations, 40 inline
 expressions, 44 references.
 
 **Citation pass.** Fifteen edits. The Wikipedia resource-based view page did not support the paraphrase that the
