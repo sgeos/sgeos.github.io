@@ -1152,7 +1152,7 @@ A last point concerns the tank, which has outlived every argument made about it 
 - [Parsch 2005 Convair B-65/SM-65/CGM-16/HGM-16 Atlas][ref_parsch_atlas]
 - [Parsch 2006 Martin SM-68/HGM-25/LGM-25 Titan][ref_parsch_titan]
 - [SM-65 Atlas][ref_sm65]
-- [USAF 1963 T.O. 21M-HGM25A-1-1, HGM-25A Missile Weapon System Operation][ref_usaf_to_hgm25a]
+- [USAF 1963 T.O. 21M-HGM25A-1-1, HGM-25A Missile Weapon System Operation, Section I, Internet Archive copy of a private scan][ref_usaf_to_hgm25a]
 - [X-12][ref_series_close]
 
 [ref_atlas_family]: https://en.wikipedia.org/wiki/Atlas_(rocket_family)
@@ -1167,7 +1167,7 @@ A last point concerns the tank, which has outlived every argument made about it 
 [ref_series_close]: https://en.wikipedia.org/wiki/SM-65B_Atlas
 [ref_sm65]: https://en.wikipedia.org/wiki/SM-65_Atlas
 [ref_titan1]: https://en.wikipedia.org/wiki/HGM-25A_Titan_I
-[ref_usaf_to_hgm25a]: https://www.chromehooves.net/documents/to/21m-hgm25a-1-1/05_-_section_i_-_p1-43.pdf
+[ref_usaf_to_hgm25a]: https://web.archive.org/web/20230802043212/https://www.chromehooves.net/documents/to/21m-hgm25a-1-1/05_-_section_i_-_p1-43.pdf
 [ref_x11]: https://en.wikipedia.org/wiki/SM-65A_Atlas
 
 ### Related Post

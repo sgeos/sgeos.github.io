@@ -1321,7 +1321,7 @@ The [X-65][related_post_a362_aurora_x65_crane] article measured a slip of the
 same size in the same programme element over the same period, which suggests a cause not specific to
 either programme.
 
-### The Demonstration of This Article's Keystone Slipped Two Years and Then Went Unscheduled
+### The Missile Release Demonstration Slipped Two Years and Then Went Unscheduled
 
 **This is the finding, and it bears on which test is in the plan as well as when.**
 
