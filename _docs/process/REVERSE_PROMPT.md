@@ -4,6 +4,22 @@
 
 ## Last Updated
 
+**Date**: 2026-10-22 (third entry)
+**Task**: **Renumbered again so the concepts are covered in order. A381 Solar Sailing stub at 2026-08-17, A382 Mass Drivers stub at 2026-08-18, A383 Mercury article at 2026-08-19. Committed, NOT pushed, NOT published.** On the pilot's instruction, "Bump both articles forward and create a stub article on solar sailing, A381, dated 2026-08-17."
+
+**What was done.**
+1. `_drafts/solar_sailing.markdown` was created as A381 at 2026-08-17, with one sentence and one reference.
+2. `_drafts/mass_drivers.markdown` moved to A382 at 2026-08-18.
+3. The Mercury article moved to A383 at 2026-08-19. Its mass driver link now targets 2026-08-18. A new link to the solar sailing article opens its sail section.
+4. Scratch moved to `tmp/a383`, with the reference generator renamed `refs383.py`. Its output matches the draft's reference block exactly.
+5. `_verify.py` reports 0 errors and 0 warnings. The scratch build with all three drafts in `_posts` passed, both links resolve, and the render audit found nothing on 550 pages.
+
+**Interlock.** A383 links to A381 and A382, so both must be written and published before or with A383. If either stub's slug or date changes, A383's link must change with it.
+
+**Next, on the pilot's word.** The specifications for A381 and A382, and the three remaining passes on A383.
+
+## Previous Report (2026-10-22, second entry)
+
 **Date**: 2026-10-22 (second entry)
 **Task**: **Mercury article RENUMBERED to A382 and redated to 2026-08-18, revised. A381 is now a minimal mass driver stub at 2026-08-17. Committed, NOT pushed, NOT published.** On the pilot's instruction to cover the multipass scenario and mass driver launches, to test the broader hypothesis that Mercury's value lies in where it is, extended to the closest significant body of any star, and to free A381 and 2026-08-17 for a mass driver article to be specified later.
 

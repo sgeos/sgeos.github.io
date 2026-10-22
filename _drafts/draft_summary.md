@@ -17,27 +17,34 @@ Missing sections and prose will need to be drafted.
 Stubs and largely incomplete drafts are assessed for topicality and publication merit.
 
 
-## Mass Drivers A381 2026-08-17 STUB
+## Solar Sailing A381 2026-08-17 STUB
 
-`_drafts/mass_drivers.markdown`, A381, editorial date 2026-08-17, categories `space space-studies`. **A minimal stub created
-2026-10-22 on the pilot's instruction**, holding the slot freed when the Mercury article moved to A382. The pilot will
-specify the article in a later prompt. It carries one sentence and one reference. **NOT publishable as it stands**, and
-A382 links to it, so it must be written and published before A382.
+`_drafts/solar_sailing.markdown`, A381, editorial date 2026-08-17, categories `space space-studies`. **A minimal stub
+created 2026-10-22 on the pilot's instruction**, so that solar sailing, mass drivers and the Mercury article are covered
+in order. It carries one sentence and one reference. **NOT publishable as it stands**, and A383 links to it, so it
+must be written and published before A383.
 
-## Mercury as a Colony and a Launch Site A382 2026-08-18 DRAFTED
+## Mass Drivers A382 2026-08-18 STUB
 
-`_drafts/mercury_as_colony_and_launch_site.markdown`, A382, editorial date 2026-08-18, standalone analytical essay,
-categories `space astronomy space-studies`, no series. Drafted 2026-10-22 as A381 and renumbered the same day on the
-pilot's instruction. It tests, with orbital mechanics, solar radiation pressure and standard physics as a function of
+`_drafts/mass_drivers.markdown`, A382, editorial date 2026-08-18, categories `space space-studies`. **A minimal stub
+created 2026-10-22 as A381 at 2026-08-17 and moved forward one slot the same day.** The pilot will specify the article
+in a later prompt. It carries one sentence and one reference. **NOT publishable as it stands**, and A383 links to it,
+so it must be written and published before A383.
+
+## Mercury as a Colony and a Launch Site A383 2026-08-19 DRAFTED
+
+`_drafts/mercury_as_colony_and_launch_site.markdown`, A383, editorial date 2026-08-19, standalone analytical essay,
+categories `space astronomy space-studies`, no series. Drafted 2026-10-22 as A381 and renumbered twice the same day on
+the pilot's instruction. It tests, with orbital mechanics, solar radiation pressure and standard physics as a function of
 distance from the Sun, the hypothesis that Mercury is the hardest body to colonize and, once colonized, the best launch
 site for probes within the solar system and to neighboring stars. It also tests the broader form, that Mercury's value
 lies in where it is rather than in what it is, and that the same holds for the innermost body of any star. **NOT published.**
 
 **Drafting pass complete, including the revision. Citation, pathological word usage and publication review passes NOT
-yet run.** 1,305 lines, 17 display equations, 45 references, 16 DOI-linked, 25 Wikipedia and 4 related posts, all
-back-references, one of them to the A381 stub. Every number is computed by `tmp/a382/numbers.py` and
-`tmp/a382/multipass.py`. Seven journal sources are cited at title level only because no abstract was retrievable.
-`_verify.py` 0 and 0, scratch build with both drafts ok, render audit clean on 549 pages.
+yet run.** 1,310 lines, 17 display equations, 46 references, 16 DOI-linked, 25 Wikipedia and 5 related posts, all
+back-references, two of them to the A381 and A382 stubs. Every number is computed by `tmp/a383/numbers.py` and
+`tmp/a383/multipass.py`. Seven journal sources are cited at title level only because no abstract was retrievable.
+`_verify.py` 0 and 0, scratch build with all three drafts ok, render audit clean on 550 pages.
 
 ## Who Keeps the Value When a Company Splits A380 2026-08-16 PUBLISHED
 
@@ -11166,12 +11173,12 @@ This is a template file, not a draft. It provides the standard structure for new
 
 ## Summary
 
-Twelve files exist in `_drafts/`. One is a template. One is this summary.
-One is A382, *Mercury as a Colony and a Launch Site*, drafted 2026-10-22 and described at the top of this file.
-One is the A381 stub, *Mass Drivers*, also described at the top of this file.
+Thirteen files exist in `_drafts/`. One is a template. One is this summary.
+One is A383, *Mercury as a Colony and a Launch Site*, drafted 2026-10-22 and described at the top of this file.
+Two are the stubs A381, *Solar Sailing*, and A382, *Mass Drivers*, also described at the top of this file.
 Eight are the pre-release candidates listed below.
 No X-Planes drafts remain, because the whole series, A297 to A368, was published in commit `579121f`.
-One stub exists, A381.
+Two stubs exist, A381 and A382.
 A79 through A144 have been published.
 
 **These counts were re-measured against the working tree on 2026-10-22**, when the figures carried here

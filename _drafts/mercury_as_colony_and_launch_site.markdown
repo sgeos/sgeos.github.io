@@ -3,12 +3,12 @@ layout: post
 mathjax: true
 comments: true
 title: "Mercury as a Colony and a Launch Site"
-date: 2026-08-18 09:00:00 +0000
+date: 2026-08-19 09:00:00 +0000
 categories: space astronomy space-studies
 ---
 
-<!-- A382 -->
-<script>console.log("A382");</script>
+<!-- A383 -->
+<script>console.log("A383");</script>
 
 Mercury is the planet closest to the Sun
 [Mercury][ref_mercury].
@@ -693,6 +693,9 @@ Mercury is the worst starting point among the bodies considered here.
 A solar sail is pushed by reflected sunlight
 [Solar Sail][ref_solar_sail]
 [McInnes 1999][book_mcinnes_1999].
+A companion article treats solar sailing in detail
+[Solar Sailing][related_post_solar_sailing],
+and this article uses only the results it needs.
 Both the force of sunlight and the pull of gravity fall as the inverse square of distance,
 so their ratio,
 the lightness number $\beta$,
@@ -1240,6 +1243,7 @@ would face the same choice of origin.
 - [Reference, Vulcanoid, Wikipedia][ref_vulcanoid]
 - [Related Post, Introduction to Space Studies][related_post_space_studies]
 - [Related Post, Mass Drivers][related_post_mass_drivers]
+- [Related Post, Solar Sailing][related_post_solar_sailing]
 - [Related Post, Venus Cloudtop Buoyant Analog][related_post_venus_cloudtop]
 - [Related Post, Von Neumann Probes][related_post_von_neumann_probes]
 - [Research, Anderson et al. 2011, The Global Magnetic Field of Mercury from MESSENGER Orbital Observations][research_anderson_et_al_2011]
@@ -1284,7 +1288,8 @@ would face the same choice of origin.
 [ref_tsiolkovsky_rocket_equation]: https://en.wikipedia.org/wiki/Tsiolkovsky_rocket_equation
 [ref_venus]: https://en.wikipedia.org/wiki/Venus
 [ref_vulcanoid]: https://en.wikipedia.org/wiki/Vulcanoid
-[related_post_mass_drivers]: {% post_url 2026-08-17-mass_drivers %}
+[related_post_mass_drivers]: {% post_url 2026-08-18-mass_drivers %}
+[related_post_solar_sailing]: {% post_url 2026-08-17-solar_sailing %}
 [related_post_space_studies]: {% post_url 2026-02-21-introduction_to_space_studies %}
 [related_post_venus_cloudtop]: {% post_url 2026-07-06-venus_cloudtop_buoyant_analog %}
 [related_post_von_neumann_probes]: {% post_url 2026-03-05-von_neumann_probes %}
