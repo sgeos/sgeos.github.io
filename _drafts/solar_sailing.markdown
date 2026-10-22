@@ -3,12 +3,12 @@ layout: post
 mathjax: true
 comments: true
 title: "Solar Sailing"
-date: 2026-08-17 09:00:00 +0000
+date: 2026-08-18 09:00:00 +0000
 categories: space space-studies
 ---
 
-<!-- A381 -->
-<script>console.log("A381");</script>
+<!-- A382 -->
+<script>console.log("A382");</script>
 
 A solar sail is a spacecraft propelled by the pressure of light reflecting from a large, thin surface
 [Solar Sail][ref_solar_sail].
@@ -30,7 +30,9 @@ and does not recommend any material or mechanism.
 Every number in it is either taken from a cited source or computed from the equations shown,
 and every computed example is idealized in ways stated where it is used.
 An earlier article on this site introduces the orbital mechanics used here
-[Introduction to Space Studies][related_post_space_studies].
+[Introduction to Space Studies][related_post_space_studies],
+and another treats the standard orbital manoeuvres in terms of delta-v
+[Orbital Manoeuvres in Terms of Delta-v][related_post_orbital_manoeuvres].
 
 ## The Concept
 
@@ -892,6 +894,7 @@ which points toward making them in space.
 - [Reference, Sun, Wikipedia][ref_sun]
 - [Reference, Znamya, Wikipedia][ref_znamya]
 - [Related Post, Introduction to Space Studies][related_post_space_studies]
+- [Related Post, Orbital Manoeuvres in Terms of Delta-v][related_post_orbital_manoeuvres]
 - [Research, Atwater et al. 2018, Materials Challenges for the Starshot Lightsail][research_atwater_et_al_2018]
 - [Research, Banik and Ardelean 2010, Verification of a Retractable Solar Sail in a Thermal-Vacuum Environment][research_banik_ardelean_2010]
 - [Research, Bassetto et al. 2020, Trajectory Analysis of a Sun-Facing Solar Sail with Optical Degradation][research_bassetto_et_al_2020]
@@ -934,6 +937,7 @@ which points toward making them in space.
 [ref_statite]: https://en.wikipedia.org/wiki/Statite
 [ref_sun]: https://en.wikipedia.org/wiki/Sun
 [ref_znamya]: https://en.wikipedia.org/wiki/Znamya_(satellite)
+[related_post_orbital_manoeuvres]: {% post_url 2026-08-17-orbital_manoeuvres %}
 [related_post_space_studies]: {% post_url 2026-02-21-introduction_to_space_studies %}
 [research_atwater_et_al_2018]: https://doi.org/10.1038/s41563-018-0075-8
 [research_banik_ardelean_2010]: https://doi.org/10.2514/6.2010-2585

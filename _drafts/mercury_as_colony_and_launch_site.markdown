@@ -3,12 +3,12 @@ layout: post
 mathjax: true
 comments: true
 title: "Mercury as a Colony and a Launch Site"
-date: 2026-08-19 09:00:00 +0000
+date: 2026-08-20 09:00:00 +0000
 categories: space astronomy space-studies
 ---
 
-<!-- A383 -->
-<script>console.log("A383");</script>
+<!-- A384 -->
+<script>console.log("A384");</script>
 
 Mercury is the planet closest to the Sun
 [Mercury][ref_mercury].
@@ -61,6 +61,8 @@ and all orbits lie in one plane.
 Transfers between bodies are Hohmann transfers,
 which are the two-burn ellipses that touch the starting orbit and the destination orbit
 [Hohmann Transfer Orbit][ref_hohmann_transfer_orbit].
+A companion article derives the Hohmann transfer and the other manoeuvres used here in terms of delta-v
+[Orbital Manoeuvres in Terms of Delta-v][related_post_orbital_manoeuvres].
 The influence of a planet is handled by patched conics,
 so a spacecraft feels only the planet near the planet and only the Sun elsewhere.
 Burns are instantaneous.
@@ -1243,6 +1245,7 @@ would face the same choice of origin.
 - [Reference, Vulcanoid, Wikipedia][ref_vulcanoid]
 - [Related Post, Introduction to Space Studies][related_post_space_studies]
 - [Related Post, Mass Drivers][related_post_mass_drivers]
+- [Related Post, Orbital Manoeuvres in Terms of Delta-v][related_post_orbital_manoeuvres]
 - [Related Post, Solar Sailing][related_post_solar_sailing]
 - [Related Post, Venus Cloudtop Buoyant Analog][related_post_venus_cloudtop]
 - [Related Post, Von Neumann Probes][related_post_von_neumann_probes]
@@ -1288,8 +1291,9 @@ would face the same choice of origin.
 [ref_tsiolkovsky_rocket_equation]: https://en.wikipedia.org/wiki/Tsiolkovsky_rocket_equation
 [ref_venus]: https://en.wikipedia.org/wiki/Venus
 [ref_vulcanoid]: https://en.wikipedia.org/wiki/Vulcanoid
-[related_post_mass_drivers]: {% post_url 2026-08-18-mass_drivers %}
-[related_post_solar_sailing]: {% post_url 2026-08-17-solar_sailing %}
+[related_post_mass_drivers]: {% post_url 2026-08-19-mass_drivers %}
+[related_post_orbital_manoeuvres]: {% post_url 2026-08-17-orbital_manoeuvres %}
+[related_post_solar_sailing]: {% post_url 2026-08-18-solar_sailing %}
 [related_post_space_studies]: {% post_url 2026-02-21-introduction_to_space_studies %}
 [related_post_venus_cloudtop]: {% post_url 2026-07-06-venus_cloudtop_buoyant_analog %}
 [related_post_von_neumann_probes]: {% post_url 2026-03-05-von_neumann_probes %}

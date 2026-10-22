@@ -4,6 +4,35 @@
 
 ## Last Updated
 
+**Date**: 2026-10-22 (fifth entry)
+**Task**: **A381 DRAFTED, *Orbital Manoeuvres in Terms of Delta-v*, editorial date 2026-08-17. Every other article moved forward one slot: A382 Solar Sailing at 2026-08-18, A383 Mass Drivers stub at 2026-08-19, A384 Mercury at 2026-08-20. Committed, NOT pushed, NOT published.** On the pilot's instruction to bump all articles forward and add a textbook orbital manoeuvres article if none existed, discussed in terms of delta-v, with a section on the rocket equation and mass-shedding delta-v, and with compound and advanced manoeuvres to textbook depth.
+
+**Whether one existed.** No dedicated article existed. A90, *Introduction to Space Studies*, gives a few paragraphs each to the rocket equation, Hohmann transfers, plane changes and the Oberth effect inside a broad survey. A381 links back to it and goes much deeper.
+
+**What A381 covers.**
+- Delta-v as a currency: the impulsive approximation, vis-viva, circular and escape speeds.
+- The rocket equation and staging. For a 9.4 km/s launch with an exhaust speed of 3.5 km/s and a structural ratio of 0.1, a single stage is impossible, and the payload fraction rises from 3.2 percent with 2 stages to 5.06 percent in the limit of continuous shedding.
+- That limit is derived as Δv = v_e (1 − ε) ln(m0/mf). Dropping mass gives no Δv by itself. Shedding 3 t of tank halfway through the burn adds 0.389 km/s.
+- Losses.
+- Apsis changes, plane changes and combined burns.
+- Hohmann transfers, Lambert's problem, bi-elliptic and bi-parabolic transfers, and three-burn plane changes.
+- The LEO-to-GEO compound example. The coplanar case computes to 3.893 km/s against Wikipedia's 3.90, and the optimal split plane change to 4.231 km/s against 4.24.
+- Phasing, and the Clohessy-Wiltshire equations with their drift of 3πΔr per orbit.
+- Escape, capture and the Oberth effect, including the optimal capture periapsis.
+- Gravity assists and powered flybys.
+- Low-thrust spirals, with Δv equal to the difference of circular speeds.
+- Low-energy transfers.
+
+**A source discrepancy the article reports.** Wikipedia states the Hohmann maximum as 53.0 percent of the starting orbit's speed at a radius ratio of 15.58. The formulas give 53.6 percent at that ratio. The article states both.
+
+**Links.** A382 and A384 now cite A381, and A384's links to A382 and A383 were moved to their new dates. **Publication order is A381, A382, A383, A384.**
+
+**Checks.** `_verify.py` reports 0 errors and 0 warnings. The scratch build with all four drafts passed, and the render audit found nothing on 551 pages. All 8 DOIs are registered and all 20 Wikipedia pages return 200.
+
+**Next, on the pilot's word.** The three remaining passes on A381, A382 and A384, and the A383 specification.
+
+## Previous Report (2026-10-22, fourth entry)
+
 **Date**: 2026-10-22 (fourth entry)
 **Task**: **A381 DRAFTED, *Solar Sailing*, editorial date 2026-08-17, replacing the stub. Committed, NOT pushed, NOT published.** On the pilot's specification: the concept and mathematics first, then generalized parametric equations with no assumption about star or craft, the Sun's values, sails of different quality, steerability and retractability, the difficulty of folding, and deceleration and capture at other stars.
 
