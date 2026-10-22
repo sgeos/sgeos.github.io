@@ -4,6 +4,42 @@
 
 ## Last Updated
 
+**Date**: 2026-10-22 (eighth entry)
+**Task**: **Equation density pass on A381 to A384. Committed, NOT pushed, NOT published.** On the pilot's instruction to identify plausible equation additions, add all of them with descriptions, link to equations in other articles, and inline adapted or special-case versions where reasonable.
+
+**Counts.**
+
+| Article | Display equations before | After |
+|---|---|---|
+| A381 Orbital Manoeuvres | 18 | 31 |
+| A382 Solar Sailing | 22 | 36 |
+| A383 Mass Drivers | 17 | 30 |
+| A384 Mercury | 17 | 25 |
+
+**What was added.** Every quantitative claim that was stated in prose without its governing relation now has a displayed equation and a sentence saying what it is. The full list is in the TASKLOG row for this pass. Two cases go beyond giving an existing number its formula:
+- In A383 the release-speed sensitivity is now derived as dr_a/dv = 4a²v/μ. It gives 4.44 km per m/s, which replaces the finite-difference 4.45.
+- In A383 the impact-arc derivation exposed a wording point: an upward release lies just after periapsis, not before it. The text was corrected.
+
+**Links.** Links follow the back-reference convention.
+- A382 links to the A381 sections on low-thrust spirals, patched conics and the rocket equation.
+- A383 links to the A381 sections on the Hohmann transfer, plane change, the rocket equation, departure and patched conics.
+- A384 links to sections of A381, A382 and A383.
+- There are 15 new section-level reference entries in all, labelled as Related Post entries with the section name. All 31 cross-article fragment links resolve in the built site.
+
+**New example values.** These are all in each article's `numbers.py`:
+- the Earth-to-Mars Hohmann phase angle of 44.3 degrees;
+- a 53.8 day LEO-to-GEO spiral at 1 mm/s²;
+- 8.23 MJ/kg against 0.50 MJ/kg for the Oberth example;
+- 996 and 4,190 m² for a 10 kg payload at a lightness number of 0.1 and 0.2;
+- 1.34 nPa for the solar wind;
+- the Phobos and Deimos escape releases of 885 and 560 m/s.
+
+**Checks.** `_verify.py` reports 0 errors and 0 warnings. The scratch build passed and the render audit found nothing on 551 pages. The punctuation scans and enumerated diction classes are clean for all four.
+
+**Next, on the pilot's word.** The three remaining passes on A381 to A384, which must publish in order.
+
+## Previous Report (2026-10-22, seventh entry)
+
 **Date**: 2026-10-22 (seventh entry)
 **Task**: **A383 DRAFTED, *Mass Drivers*, editorial date 2026-08-19, replacing the stub. Committed, NOT pushed, NOT published.** On the pilot's specification: a textbook description and equations, one-body launches with detailed post-launch corrections, a short note on unbound launches, release parameters dovetailing into positioning, two-body launches and positioning, inter-body transfer with intercept mathematics and corrections, and full-circumference tracks with lanes, bidirectional release and release transients, all parametric and then evaluated for real bodies.
 

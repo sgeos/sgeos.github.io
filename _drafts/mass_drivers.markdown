@@ -217,10 +217,14 @@ and orbits come from Wikipedia
 and the derived columns are computed for uniform spheres.
 Wikipedia lists the escape speed of Phobos as 11.39 metres per second,
 slightly above the 11.32 computed for a sphere.
-The Hill radius,
-$a\sqrt[3]{m/3M}$ for a body of mass $m$ orbiting a parent of mass $M$ at distance $a$,
-marks roughly where the parent's tides overwhelm the body's own gravity
-[Hill Sphere][ref_hill_sphere].
+The Hill radius marks roughly where the parent's tides overwhelm the body's own gravity
+[Hill Sphere][ref_hill_sphere],
+for a body of mass $m$ orbiting a parent of mass $M$ at distance $a$.
+
+$$
+r_{H} \approx a\sqrt[3]{\frac{m}{3M}}
+$$
+
 Phobos's Hill radius of 16.6 kilometres is smaller than its longest dimension of 25.9 kilometres,
 so its surface lies close to the edge of its own gravitational domain.
 
@@ -282,8 +286,26 @@ a payload released 0.1 degrees above horizontal has its periapsis 97 metres belo
 Released 1 degree above horizontal,
 its periapsis lies 8.9 kilometres down,
 and it strikes after 294.1 degrees.
+The point of impact follows from the orbit equation $r = p/(1 + e\cos\nu)$ with $p = h^{2}/\mu$.
+A payload released upward is already climbing,
+so the release point lies at true anomaly $+\nu_{0}$ just after periapsis.
+The orbit meets the surface again at $-\nu_{0}$,
+just before the next periapsis,
+and the arc flown before impact is the following.
+
+$$
+\cos\nu_{0} = \frac{p/R - 1}{e}, \qquad
+\Delta\psi_{\mathrm{impact}} = 2\left(\pi - \nu_{0}\right)
+$$
 Even a perfect horizontal release returns after 113 minutes to a point that the Moon's rotation has carried 31.4 kilometres west of the track,
 so the return point is wherever the terrain happens to be.
+The offset is the distance the surface moves in one orbital period $T$,
+at latitude $\phi$.
+
+$$
+\Delta x = \omega R\cos\phi\;T
+$$
+
 Releasing from a mountain or a tower raises the periapsis to the release height,
 which helps only if no terrain under any later pass is higher.
 On the Moon,
@@ -295,8 +317,9 @@ and most low lunar orbits are unstable
 ### Corrective Manoeuvres After Release
 
 The standard correction is a single burn at apoapsis that raises the periapsis.
-It is the second half of a Hohmann transfer that begins at the surface
-[Orbital Manoeuvres in Terms of Delta-v][related_post_orbital_manoeuvres].
+It is the second half of a Hohmann transfer that begins at the surface,
+and the equations below are the Hohmann equations of the companion article on manoeuvres specialized to that case
+[Orbital Manoeuvres in Terms of Delta-v, The Hohmann Transfer][related_post_orbital_manoeuvres_hohmann].
 For a horizontal release at the surface radius $R$ that reaches an apoapsis $r_{a}$,
 the release speed and the circularizing burn are the following.
 
@@ -319,20 +342,38 @@ $$
 The burn is small.
 Circularizing at 100 kilometres takes 23 metres per second,
 1.4 percent of the lunar circular speed,
-and costs 0.8 percent of the payload's mass in propellant at an exhaust speed of 3 kilometres per second.
+and costs 0.8 percent of the payload's mass in propellant at an exhaust speed of 3 kilometres per second,
+by the propellant fraction $1 - \exp(-\Delta v/v_{e})$ from the rocket equation
+[Orbital Manoeuvres in Terms of Delta-v, The Rocket Equation][related_post_orbital_manoeuvres_rocket].
 If the goal is only to stop the payload from hitting the ground,
 raising the periapsis from the surface to 5,
 10
 or 20 kilometres costs 1.19,
 2.37
 or 4.73 metres per second at a 100 kilometre apoapsis.
+Raising the periapsis from $R$ to $r_{p}'$ at an apoapsis $r_{a}$ costs the following,
+the difference between the apoapsis speeds of the two ellipses.
+
+$$
+\Delta v_{\mathrm{raise}} = \sqrt{\frac{2\mu\,r_{p}'}{r_{a}\left(r_{a} + r_{p}'\right)}} - \sqrt{\frac{2\mu R}{r_{a}\left(r_{a} + R\right)}}
+$$
 
 Errors in release set the size of the correction budget.
 
-- **Speed.** An error of 1 metre per second in release speed moves a 100 kilometre apoapsis by about 4.45 kilometres, which the apoapsis burn absorbs at little extra cost.
+- **Speed.** An error of 1 metre per second in release speed moves a 100 kilometre apoapsis by about 4.44 kilometres, which the apoapsis burn absorbs at little extra cost.
 - **Angle.** An upward error of 0.1 degree puts the periapsis 97 metres below the surface, and the burn to raise it to 10 kilometres becomes 2.40 metres per second instead of 2.37. An error of 1 degree raises that burn to 4.50 metres per second.
 - **Timing.** The burn must happen within the first revolution, about 56 minutes after release for a 100 kilometre apoapsis. A payload that fails to burn is lost against the ground.
-- **Plane.** A plane error is the expensive one. In a 100 kilometre lunar orbit each degree of plane change costs 28.5 metres per second, more than the whole circularization, so the release azimuth and timing must be right.
+- **Plane.** A plane error is the expensive one. In a 100 kilometre lunar orbit each degree of plane change costs 28.5 metres per second by the plane change equation $2v\sin(\Delta i/2)$ [Orbital Manoeuvres in Terms of Delta-v, Plane Change][related_post_orbital_manoeuvres_plane], more than the whole circularization, so the release azimuth and timing must be right.
+
+The speed sensitivity follows from differentiating the vis-viva equation at the release radius.
+With $a$ the transfer ellipse's semi-major axis and $v$ the release speed,
+the apoapsis radius $r_{a} = 2a - R$ changes as follows.
+
+$$
+\frac{dr_{a}}{dv} = \frac{4a^{2}v}{\mu}
+$$
+
+For the 100 kilometre lunar case this is 4.44 kilometres per metre per second.
 
 Over longer times a low orbit needs station-keeping against the perturbations described above,
 unless it is one of the lunar frozen orbits,
@@ -354,6 +395,11 @@ and each controls a different part of the orbit.
 
 Rotation also changes the speed the track must supply.
 An eastward track gains the surface speed $\omega R\cos\phi$ and a westward track loses it.
+For a circular orbit at the surface the track must therefore supply the following.
+
+$$
+v_{\mathrm{track}} = v_{c} \mp \omega R\cos\phi
+$$
 
 <div style="overflow-x: auto;" markdown="1">
 
@@ -416,6 +462,12 @@ The rotation of the body carries a fixed track through every orientation of its 
 A desired plane is available twice per rotation,
 once on the ascending and once on the descending pass,
 which on the Moon means about every 13.7 days and on Ceres about every 4.5 hours.
+With $P_{\mathrm{sid}}$ the sidereal rotation period the interval between opportunities for one plane is the following.
+
+$$
+\Delta t_{\mathrm{plane}} = \frac{P_{\mathrm{sid}}}{2}
+$$
+
 A rendezvous with a depot in lunar orbit therefore waits for the plane to come round rather than paying 28.5 metres per second per degree to correct it.
 
 **Direction of launch should follow the spin.**
@@ -532,6 +584,17 @@ Leaving Mars for a Hohmann transfer to Earth needs an excess of about 2.65 kilom
 which requires a release speed of 1.88 kilometres per second from Phobos
 and 1.92 from Deimos,
 aligned with the moon's own orbital motion at the point in its orbit where that motion points the required way.
+The release speed relative to a moon of orbital speed $V_{B} = \sqrt{\mu_{P}/a_{B}}$ needed for a planet-relative excess $v_{\infty,P}$ is the departure equation of the companion article on manoeuvres
+[Orbital Manoeuvres in Terms of Delta-v, Departure][related_post_orbital_manoeuvres_departure],
+applied at the moon's orbit with the moon's own speed credited.
+Its special case $v_{\infty,P} = 0$ is the release needed merely to escape the planet,
+885 metres per second from Phobos and 560 from Deimos.
+
+$$
+v_{\mathrm{rel}} = \sqrt{v_{\infty,P}^{2} + \frac{2\mu_{P}}{a_{B}}} - \sqrt{\frac{\mu_{P}}{a_{B}}}, \qquad
+v_{\mathrm{rel}}\left(v_{\infty,P} = 0\right) = \left(\sqrt{2} - 1\right)\sqrt{\frac{\mu_{P}}{a_{B}}}
+$$
+
 Phobos is deeper in Mars's gravity well,
 so it benefits more from the Oberth effect,
 and the two requirements are nearly equal despite Phobos's higher orbital speed.
@@ -586,6 +649,15 @@ and arrives 330.1 metres per second slower than Deimos.
 Deimos must lead Phobos by 74.6 degrees at release,
 and that alignment recurs every 10.24 hours,
 the synodic period of the two moons.
+Both numbers come from the patched-conic relations of the companion article on manoeuvres
+[Orbital Manoeuvres in Terms of Delta-v, Patched Conics][related_post_orbital_manoeuvres_patched],
+with the moons' orbital radii $r_{1}$ and $r_{2}$ and periods $T_{1}$ and $T_{2}$.
+
+$$
+\theta_{H} = \pi\left[1 - \left(\frac{r_{1}+r_{2}}{2r_{2}}\right)^{3/2}\right], \qquad
+T_{\mathrm{syn}} = \left|\frac{1}{T_{1}} - \frac{1}{T_{2}}\right|^{-1}
+$$
+
 The release site is the point on Phobos beneath Mars,
 on an eastward lane.
 
@@ -665,7 +737,13 @@ Those forces set the real limit.
 
 A payload circling at speed $v$ needs the hold-down acceleration $a_{n} = v^{2}/R - g$ from the track,
 and the tangential acceleration $a_{t}$ that raises its speed adds to it,
-so the total acceleration it feels is $\sqrt{a_{n}^{2} + a_{t}^{2}}$.
+so the total acceleration it feels and the power the track delivers to a payload of mass $m$ are the following.
+
+$$
+a_{\mathrm{total}} = \sqrt{a_{n}^{2} + a_{t}^{2}}, \qquad
+P = m\,a_{t}\,v
+$$
+
 Extending the track around more laps reduces $a_{t}$ but does nothing to $a_{n}$.
 If the cargo can tolerate a total acceleration $a_{\max}$,
 the release speed cannot exceed the following,
@@ -764,6 +842,11 @@ If the release takes 10 milliseconds,
 the jerk is about 200,
 16,500
 and 32,000 metres per second cubed.
+For a release that removes the load over a time $\tau$ the jerk is the following.
+
+$$
+j \approx \frac{a_{n}}{\tau}
+$$
 
 **The cargo's structure springs back.**
 A structure carrying a steady load is deflected by an amount set by its stiffness.
@@ -771,13 +854,29 @@ If the load vanishes instantly,
 the structure does not settle at its unloaded shape but oscillates about it,
 with an amplitude equal to the deflection it had under load.
 This is the step response of an undamped spring and mass.
+For a structure of stiffness $k$ and mass $m_{c}$ carrying a load $m_{c}a_{n}$,
+the static deflection and the motion after a sudden release,
+measured from the unloaded shape,
+are the following,
+with $\omega_{n} = \sqrt{k/m_{c}}$ the natural frequency.
+
+$$
+\delta = \frac{m_{c}\,a_{n}}{k}, \qquad
+x(t) = \delta\cos\omega_{n}t
+$$
+
 Cargo and carrier should therefore be designed for the release transient as well as the launch load,
 and a release that removes the load over several periods of the structure's lowest vibration avoids most of the oscillation.
 
 **The cargo rises away from the track.**
 After a horizontal release faster than the local circular speed,
 the payload's path curves less sharply than the surface,
-and its height above the track grows at first as $\tfrac{1}{2}a_{n}t^{2}$.
+and its height above the track grows at first as follows.
+
+$$
+h_{\mathrm{sep}}(t) \approx \frac{1}{2}\,a_{n}\,t^{2}
+$$
+
 It is 1.0 metre after one second on the Moon,
 82 metres on Mercury
 and 159 metres on Phobos.
@@ -900,6 +999,11 @@ and its design must allow for that step as much as for the launch itself.
 - [Reference, Vesta, Wikipedia][ref_vesta]
 - [Related Post, Introduction to Space Studies][related_post_space_studies]
 - [Related Post, Orbital Manoeuvres in Terms of Delta-v][related_post_orbital_manoeuvres]
+- [Related Post, Orbital Manoeuvres in Terms of Delta-v, Departure][related_post_orbital_manoeuvres_departure]
+- [Related Post, Orbital Manoeuvres in Terms of Delta-v, Patched Conics][related_post_orbital_manoeuvres_patched]
+- [Related Post, Orbital Manoeuvres in Terms of Delta-v, Plane Change][related_post_orbital_manoeuvres_plane]
+- [Related Post, Orbital Manoeuvres in Terms of Delta-v, The Hohmann Transfer][related_post_orbital_manoeuvres_hohmann]
+- [Related Post, Orbital Manoeuvres in Terms of Delta-v, The Rocket Equation][related_post_orbital_manoeuvres_rocket]
 - [Research, Kolm 1977, Basic Coaxial Mass Driver Reference Design][research_kolm_1977]
 - [Research, McNab 2003, Launch to Space with an Electromagnetic Railgun][research_mcnab_2003]
 - [Research, Powell and Maise 2008, StarTram, The Magnetic Launch Path to Very Low Cost, Very High Volume Launch to Space][research_powell_maise_2008]
@@ -920,6 +1024,11 @@ and its design must allow for that step as much as for the launch itself.
 [ref_tidal_locking]: https://en.wikipedia.org/wiki/Tidal_locking
 [ref_vesta]: https://en.wikipedia.org/wiki/4_Vesta
 [related_post_orbital_manoeuvres]: {% post_url 2026-08-17-orbital_manoeuvres %}
+[related_post_orbital_manoeuvres_departure]: {% post_url 2026-08-17-orbital_manoeuvres %}#departure
+[related_post_orbital_manoeuvres_hohmann]: {% post_url 2026-08-17-orbital_manoeuvres %}#the-hohmann-transfer
+[related_post_orbital_manoeuvres_patched]: {% post_url 2026-08-17-orbital_manoeuvres %}#patched-conics
+[related_post_orbital_manoeuvres_plane]: {% post_url 2026-08-17-orbital_manoeuvres %}#plane-change
+[related_post_orbital_manoeuvres_rocket]: {% post_url 2026-08-17-orbital_manoeuvres %}#the-rocket-equation
 [related_post_space_studies]: {% post_url 2026-02-21-introduction_to_space_studies %}
 [research_kolm_1977]: https://doi.org/10.2514/6.1977-534
 [research_mass_driver_reaction_engine_1977]: https://doi.org/10.2514/6.1977-536

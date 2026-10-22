@@ -51,6 +51,15 @@ At Earth's distance from the Sun,
 where the flux is 1,360.8 ± 0.5 watts per square metre
 [Kopp and Lean 2011][research_kopp_lean_2011],
 these pressures are about 4.54 and 9.08 micropascals.
+For a photon of energy $E$ the momentum is $E/c$,
+so the pressures on an absorber and on a perfect mirror at normal incidence are the following.
+
+$$
+p = \frac{E}{c}, \qquad
+P_{\mathrm{abs}} = \frac{S}{c}, \qquad
+P_{\mathrm{mirror}} = \frac{2S}{c}
+$$
+
 A square sail of 80 square metres,
 the size flown by NASA's Advanced Composite Solar Sail System,
 or ACS3
@@ -71,6 +80,18 @@ the astronomical unit,
 the solar wind exerts a pressure typically between 1 and 6 nanopascals
 [Solar Wind][ref_solar_wind],
 which is between about one fifteen-hundredth and one nine-thousandth of the light pressure on a perfect mirror.
+The wind's pressure is its momentum flux,
+with $n$ the number density of protons,
+$m_{p}$ the proton mass
+and $V$ the wind speed
+[Solar Wind][ref_solar_wind].
+
+$$
+P_{\mathrm{sw}} = n\,m_{p}\,V^{2}
+$$
+
+With 5 protons per cubic centimetre at 400 kilometres per second this gives 1.34 nanopascals,
+inside the quoted range.
 A solar sail therefore ignores the wind.
 Magnetic sails
 [Magnetic Sail][ref_magnetic_sail]
@@ -265,6 +286,15 @@ t = \frac{\left|r_{2}^{3/2} - r_{1}^{3/2}\right|}{3\,\beta\,k\,\sqrt{G M}}, \qqu
 $$
 
 Tilting forward spirals outward and tilting backward spirals inward.
+In delta-v terms a slow spiral costs the difference of the circular speeds,
+as derived for low-thrust spirals in the companion article on manoeuvres
+[Orbital Manoeuvres in Terms of Delta-v, Low-Thrust Spirals][related_post_orbital_manoeuvres_spirals].
+
+$$
+\Delta v_{\mathrm{spiral}} = \left|\sqrt{\frac{GM}{r_{1}}} - \sqrt{\frac{GM}{r_{2}}}\right|
+$$
+
+A sail pays this delta-v in time rather than in propellant.
 
 ### Temperature
 
@@ -300,7 +330,12 @@ A real sail billows and wrinkles,
 so its normal is not single-valued.
 At speeds that are a few percent of light speed,
 the light reaching a receding sail is Doppler shifted and its force falls,
-to first order by the factor $(1 - v/c)/(1 + v/c)$.
+to first order by the following factor.
+
+$$
+\frac{F(v)}{F(0)} \approx \frac{1 - v/c}{1 + v/c}
+$$
+
 That factor is 0.912 at 4.6 percent of light speed and 0.667 at 20 percent,
 and it rises above one for a sail moving toward the star.
 
@@ -317,6 +352,12 @@ Wikipedia states the same relations in practical units as $a_{c} = 9.08\,\eta/\s
 with $\sigma$ in grams per square metre and $\eta$ an efficiency,
 and $\beta = a_{c}/5.93$
 [Solar Sail][ref_solar_sail].
+
+$$
+a_{c} = \frac{9.08\,\eta}{\sigma}\ \mathrm{mm/s^{2}}, \qquad
+\beta = \frac{a_{c}}{5.93\ \mathrm{mm/s^{2}}} = \eta\,\frac{\sigma^{\ast}}{\sigma}
+$$
+
 The table gives the ideal values for a range of loadings.
 
 <div style="overflow-x: auto;" markdown="1">
@@ -359,6 +400,14 @@ For main-sequence stars between about 0.43 and 2 solar masses,
 luminosity rises roughly as the fourth power of mass
 [Mass-Luminosity Relation][ref_mass_luminosity_relation],
 so the factor $L/M$ rises roughly as the cube of mass.
+For a given sail the lightness number at another star follows from its value at the Sun,
+with $L$ and $M$ in solar units,
+and on that part of the main sequence it scales with stellar mass as follows.
+
+$$
+\beta_{\ast} = \beta_{\odot}\,\frac{L}{M}, \qquad
+\beta_{\ast} \propto M^{3}\quad\left(0.43 < M < 2\right)
+$$
 A sail is about 78 times weaker around Proxima Centauri than around the Sun,
 and 12 times stronger around Sirius A.
 Solar sailing is a technique for bright stars,
@@ -416,6 +465,19 @@ The design values from Wikipedia include an efficiency of 90 percent,
 which is why they are slightly below the ideal values of 0.29 and 0.24 for the first two.
 The flown sails are demonstrators whose lightness numbers are hundreds of times below those of the designs.
 
+The loading that matters is that of the whole craft.
+A sail of loading $\sigma_{s}$ and area $A$ carrying a payload $m_{\mathrm{pay}}$ has the total loading below,
+so reaching a target lightness number $\beta$ with an ideal sail needs at least the following area.
+
+$$
+\sigma = \sigma_{s} + \frac{m_{\mathrm{pay}}}{A}, \qquad
+A = \frac{m_{\mathrm{pay}}}{\sigma^{\ast}/\beta - \sigma_{s}}
+$$
+
+A 10 kilogram payload on a sail of the square-sail design loading of 5.27 grams per square metre needs 996 square metres for $\beta = 0.1$ and 4,190 for $\beta = 0.2$.
+No area suffices once $\sigma^{\ast}/\beta$ falls to $\sigma_{s}$,
+so the film alone caps the lightness number at $\sigma^{\ast}/\sigma_{s}$.
+
 ### What Each Class of Sail Can Do
 
 The lightness number divides sails into classes by what they can do.
@@ -450,6 +512,14 @@ it reaches 247 K at 1 AU,
 and 1,143 K at 10 solar radii.
 If its materials tolerate 400 K it can approach no closer than 0.38 AU,
 and if they tolerate 600 K no closer than 0.17 AU.
+Combining the closest distance $q_{\min}$ with the departure speed from a close pass,
+in the limit of an orbit pumped to escape,
+gives the fastest departure a sail of loading $\sigma$ can make from any star,
+which depends on the star only through its luminosity.
+
+$$
+v_{\infty,\max}^{2} = \frac{2\beta\,G M}{q_{\min}} = \frac{2}{c\,\sigma}\sqrt{\frac{F_{\max}\,L}{\pi}}
+$$
 Close passes are where a sail gains the most energy,
 so heat tolerance is as much a part of sail quality as loading.
 
@@ -583,6 +653,11 @@ and that for small spacecraft the stowed volume rather than the mass is often th
 The solid volume of a film is only its area times its thickness,
 which is 0.2 litres for 80 square metres at 2.5 micrometres
 and 2,500 litres for a square kilometre.
+
+$$
+V_{\mathrm{solid}} = A\,t_{\mathrm{film}}
+$$
+
 Folded film cannot be packed to its solid volume,
 so the real stowed volume is larger by a packing factor that depends on the fold pattern.
 
@@ -703,6 +778,8 @@ a journey of about 95 years from Earth to Alpha Centauri A and B,
 and a further 46 years to Proxima,
 with a sail of about $10^{5}$ square metres needed for a 10 gram payload
 [Heller and Hippke 2017][research_heller_hippke_2017].
+At a constant cruise speed $v$ the journey over a distance $d$ takes $d/v$,
+and 4.37 light years at 4.6 percent of light speed gives the 95 years quoted.
 The near agreement with the 5 radius figure here should not be read as validation,
 because the simple bound depends on the chosen $q$ and ignores the deflections their trajectories use.
 
@@ -729,6 +806,15 @@ and there are three ways to do so.
 - **Tilt.** The radial push of a tilted ideal sail is $\beta\cos^{3}\alpha$ times gravity, which falls below one when $\alpha > \arccos\beta^{-1/3}$. That is 37.5 degrees for $\beta = 2$, 62.3 degrees for $\beta = 10$ and 85.9 degrees for $\beta = 2{,}811$. A very light sail must be held within about four degrees of edge-on.
 - **Retract.** Reducing the area by more than a factor $\beta$ does the same, a factor of about 2,800 for the graphene-class sail at Alpha Centauri A.
 - **Jettison.** Releasing the sail leaves the payload on a purely gravitational path, which is bound only if it is released where its speed is below local escape speed and with enough sideways motion to miss the star.
+
+The first two conditions,
+with $A_{0}$ the full area,
+are the following.
+
+$$
+\beta\cos^{3}\alpha < 1 \;\Longleftrightarrow\; \alpha > \arccos\beta^{-1/3}, \qquad
+\frac{A}{A_{0}} < \frac{1}{\beta}
+$$
 
 A sail approaching exactly head-on has no angular momentum about the star,
 so even after its lightness is reduced it would fall straight in.
@@ -806,6 +892,14 @@ it delivers 3.60 kilometres per second per year in that direction.
 At Mars's distance the same sail delivers only 11.0 metres per second per day face-on,
 because the light has weakened by the square of the distance.
 In a planet's shadow it delivers nothing.
+
+The rate at which a sail accumulates delta-v along a direction it is steering is the following,
+where the factor $f(\theta)$ is the fraction given in the table of the next subsection,
+equal to one face-on and 0.385 straight across the sun line.
+
+$$
+\frac{d(\Delta v)}{dt} = \beta\,\frac{GM}{r^{2}}\,f(\theta)
+$$
 
 ### The Mathematics of Sail Steering
 
@@ -894,6 +988,13 @@ LightSail 2 performed two 90-degree slews each orbit for this reason
 Even ignoring that loss and the shadow,
 a sail with the ACS3 class acceleration of 0.045 millimetres per second squared would need at least 5.4 years of thrust along its velocity to spiral from low Earth orbit to escape,
 since the slow spiral costs about the 7.73 kilometres per second of the orbital speed.
+The bound is the spiral delta-v divided by the characteristic acceleration,
+using the low-thrust spiral result
+[Orbital Manoeuvres in Terms of Delta-v, Low-Thrust Spirals][related_post_orbital_manoeuvres_spirals].
+
+$$
+t_{\mathrm{escape}} \geq \frac{v_{c}}{a_{c}}
+$$
 
 ### When a Manoeuvre Is Not Possible for a Given Sail
 
@@ -906,6 +1007,18 @@ These are limitations of the craft.
 - **Too much lightness to stay.** A face-on sail with $\beta > 1$ cannot be bound to a star, as the section on capture shows, unless it can turn nearly edge-on, retract or jettison its sail.
 - **Too little heat tolerance.** The closest approach, and with it the largest thrust and the fastest departures, are set by the temperature limit.
 - **Too far from the star.** The thrust falls as the inverse square of distance, and the spiral time grows as the orbital period. A manoeuvre that changes the orbit by the same proportion and takes a year at 1 AU takes about 164 years at 30 AU, near Neptune's distance, by the $r^{3/2}$ scaling of the spiral formula.
+
+Two of these limits have simple forms.
+A sail crossing a sphere of influence of radius $r_{\mathrm{SOI}}$,
+defined in the companion article on manoeuvres
+[Orbital Manoeuvres in Terms of Delta-v, Patched Conics][related_post_orbital_manoeuvres_patched],
+at excess speed $v_{\infty}$ can change its velocity by at most the first expression below,
+and a sail can lift itself from a surface of gravity $g$ under a flux $S$ only below the loading in the second.
+
+$$
+\Delta v_{\max} \approx \beta\,\frac{GM}{r^{2}}\cdot\frac{2\,r_{\mathrm{SOI}}}{v_{\infty}}, \qquad
+\sigma_{\max} = \frac{2S}{c\,g}
+$$
 
 ### Manoeuvres No Sail Can Perform
 
@@ -922,6 +1035,14 @@ which pushes it toward the star,
 but the momentum carried away is at most the radiated power divided by $c$,
 and in steady state the radiated power cannot exceed the absorbed power.
 At best the re-emission cancels the push of the absorbed light.
+With $P_{\mathrm{abs}}$ the absorbed power and $P_{\mathrm{emit}} \leq P_{\mathrm{abs}}$ the re-radiated power,
+and with reflection contributing only a non-negative term,
+the component of force along the direction away from the star obeys the following.
+
+$$
+\vec{F}\cdot\hat{u} \;\geq\; \frac{P_{\mathrm{abs}}}{c} - \frac{P_{\mathrm{emit}}}{c} \;\geq\; 0
+$$
+
 So the net force on a sail never has a component toward a distant point source.
 It follows that a sail cannot hold an orbit faster than the local circular speed,
 cannot hover closer to the star than its lightness allows,
@@ -1025,7 +1146,10 @@ and to that engine the sail is dead mass.
 With a dry mass $m_{d}$,
 a sail of mass $m_{s}$
 and propellant $m_{p}$,
-an engine of exhaust speed $v_{e}$ provides the following delta-v.
+an engine of exhaust speed $v_{e}$ provides the following delta-v,
+which is the rocket equation of the companion article on manoeuvres
+[Orbital Manoeuvres in Terms of Delta-v, The Rocket Equation][related_post_orbital_manoeuvres_rocket]
+with the sail counted as dry mass.
 
 $$
 \Delta v = v_{e}\ln\frac{m_{d} + m_{s} + m_{p}}{m_{d} + m_{s}}
@@ -1184,6 +1308,9 @@ which points toward making them in space.
 - [Reference, Znamya, Wikipedia][ref_znamya]
 - [Related Post, Introduction to Space Studies][related_post_space_studies]
 - [Related Post, Orbital Manoeuvres in Terms of Delta-v][related_post_orbital_manoeuvres]
+- [Related Post, Orbital Manoeuvres in Terms of Delta-v, Low-Thrust Spirals][related_post_orbital_manoeuvres_spirals]
+- [Related Post, Orbital Manoeuvres in Terms of Delta-v, Patched Conics][related_post_orbital_manoeuvres_patched]
+- [Related Post, Orbital Manoeuvres in Terms of Delta-v, The Rocket Equation][related_post_orbital_manoeuvres_rocket]
 - [Research, Atwater et al. 2018, Materials Challenges for the Starshot Lightsail][research_atwater_et_al_2018]
 - [Research, Banik and Ardelean 2010, Verification of a Retractable Solar Sail in a Thermal-Vacuum Environment][research_banik_ardelean_2010]
 - [Research, Bassetto et al. 2020, Trajectory Analysis of a Sun-Facing Solar Sail with Optical Degradation][research_bassetto_et_al_2020]
@@ -1229,6 +1356,9 @@ which points toward making them in space.
 [ref_sun]: https://en.wikipedia.org/wiki/Sun
 [ref_znamya]: https://en.wikipedia.org/wiki/Znamya_(satellite)
 [related_post_orbital_manoeuvres]: {% post_url 2026-08-17-orbital_manoeuvres %}
+[related_post_orbital_manoeuvres_patched]: {% post_url 2026-08-17-orbital_manoeuvres %}#patched-conics
+[related_post_orbital_manoeuvres_rocket]: {% post_url 2026-08-17-orbital_manoeuvres %}#the-rocket-equation
+[related_post_orbital_manoeuvres_spirals]: {% post_url 2026-08-17-orbital_manoeuvres %}#low-thrust-spirals
 [related_post_space_studies]: {% post_url 2026-02-21-introduction_to_space_studies %}
 [research_atwater_et_al_2018]: https://doi.org/10.1038/s41563-018-0075-8
 [research_banik_ardelean_2010]: https://doi.org/10.2514/6.2010-2585

@@ -48,6 +48,10 @@ the A381 link was added. **Extended 2026-10-22** with a section on orbital manoe
 sailing with secondary propulsion, on the pilot's instruction. Now 1,255 lines, 22 display equations and 45 references,
 with the inclination-cranking formula checked by a three-dimensional integration in `tmp/a382/numbers.py`.
 
+**Equation density pass 2026-10-22.** A381 now 910 lines, 31 display equations, 29 references. A382 now 1,385
+lines, 36 display equations, 48 references. A383 now 1,036 lines, 30 display equations, 25 references. A384 now 1,409
+lines, 25 display equations, 54 references. Later articles link to sections of earlier ones.
+
 ## Mass Drivers A383 2026-08-19 DRAFTED
 
 `_drafts/mass_drivers.markdown`, A383, editorial date 2026-08-19, standalone analytical essay, categories

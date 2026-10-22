@@ -133,6 +133,14 @@ The table carries the whole argument in compressed form.
 Sunlight at Mercury is about six and two-thirds times its value at Earth,
 and at perihelion it reaches 14,394 watts per square metre,
 which is 2.30 times its value at aphelion.
+For an orbit of semi-major axis $a$ and eccentricity $e$ the extremes and their ratio are the following,
+and Mercury's eccentricity of 0.2056 gives the ratio of 2.30.
+
+$$
+S_{\mathrm{peri}} = \frac{S_{0}}{\left[a(1-e)\right]^{2}}, \qquad
+S_{\mathrm{aph}} = \frac{S_{0}}{\left[a(1+e)\right]^{2}}, \qquad
+\frac{S_{\mathrm{peri}}}{S_{\mathrm{aph}}} = \left(\frac{1+e}{1-e}\right)^{2}
+$$
 The same closeness that supplies the light also places Mercury deepest in the Sun's gravity well.
 Leaving the solar system from a circular orbit at Mercury's distance costs 19.83 kilometres per second,
 against 12.34 at Earth and 2.25 at Neptune.
@@ -161,7 +169,9 @@ $$
 
 A burn deep in a planet's gravity well converts more efficiently into excess speed than a burn far from it,
 which is the Oberth effect
-[Oberth Effect][ref_oberth_effect].
+[Oberth Effect][ref_oberth_effect],
+treated with the same departure equation in the companion article on manoeuvres
+[Orbital Manoeuvres in Terms of Delta-v, Departure][related_post_orbital_manoeuvres_departure].
 For a body with surface escape speed $v_{e}$,
 or a parking orbit with local escape speed $v_{e}$ and circular speed $v_{\mathrm{orb}}$,
 the burns that produce or absorb an excess speed $v_{\infty}$ are the following.
@@ -191,6 +201,15 @@ gives the following delta-v budgets.
 </div>
 
 Mercury tops this table by a wide margin.
+Each total is the sum of three terms,
+the departure from low Earth orbit,
+the capture into a low orbit of speed $v_{\mathrm{orb}}$ at the destination,
+and a propulsive landing that removes $v_{\mathrm{orb}}$ on an airless body.
+
+$$
+\Delta v_{\mathrm{LEO\to surface}} = \left(\sqrt{v_{\infty,1}^{2} + v_{e,\mathrm{LEO}}^{2}} - v_{\mathrm{LEO}}\right) + \left(\sqrt{v_{\infty,2}^{2} + v_{e}^{2}} - v_{\mathrm{orb}}\right) + v_{\mathrm{orb}}
+$$
+
 The departure from Earth is moderate,
 but the spacecraft falls 0.61 AU toward the Sun and arrives with an excess speed of 9.61 kilometres per second,
 which it must cancel against a weak planetary gravity with no atmosphere to brake in.
@@ -291,6 +310,13 @@ and peak intensities from $R^{-2.7}$ to $R^{-1.9}$
 [Lario et al. 2006][research_lario_et_al_2006].
 Applying those exponents at Mercury's mean distance gives event fluences 2.6 to 7.3 times those at Earth's distance,
 and peak intensities 6.1 to 13.0 times as high.
+With a fitted exponent $k$,
+the factor relative to 1 AU at a distance $r$ in AU is the following.
+
+$$
+\frac{F(r)}{F(1\ \mathrm{AU})} = r^{-k}
+$$
+
 They also found that the longitude of the source region relative to the observer matters more than distance,
 so these factors describe averages over many events rather than any single storm.
 Shielding by regolith addresses the problem at any distance,
@@ -412,6 +438,16 @@ Leaving Mercury is cheap,
 but leaving Mercury's orbit around the Sun is not.
 Combining the Hohmann excess speeds with the surface departure formula gives the ideal delta-v from the surface of each origin to a flyby of each target,
 with the Moon's departure computed through Earth's gravity well from the Moon's orbit.
+For the Moon the excess $v_{\infty}$ relative to Earth is first converted to a speed relative to the Moon at the Moon's orbital radius $a_{M}$,
+crediting the Moon's orbital speed $V_{M}$,
+and then to a speed at the lunar surface,
+the two-body launch geometry treated in the companion article on mass drivers
+[Mass Drivers, From the Launching Body to the Parent][related_post_mass_drivers_parent].
+
+$$
+v_{\mathrm{rel}} = \sqrt{v_{\infty}^{2} + \frac{2\mu_{\oplus}}{a_{M}}} - V_{M}, \qquad
+v_{\mathrm{surface}} = \sqrt{v_{\mathrm{rel}}^{2} + \frac{2\mu_{M}}{R_{M}}}
+$$
 
 <div style="overflow-x: auto;" markdown="1">
 
@@ -439,7 +475,8 @@ Mars
 and especially Ceres are far better origins for the outer solar system.
 
 The rocket equation turns these differences into mass
-[Tsiolkovsky Rocket Equation][ref_tsiolkovsky_rocket_equation].
+[Tsiolkovsky Rocket Equation][ref_tsiolkovsky_rocket_equation]
+[Orbital Manoeuvres in Terms of Delta-v, The Rocket Equation][related_post_orbital_manoeuvres_rocket].
 For a specific impulse $I_{\mathrm{sp}}$ and standard gravity $g_{0}$,
 the ratio of initial to final mass is the following.
 
@@ -547,6 +584,16 @@ which last about half of a 29.53-day synodic month
 Second,
 accelerations of 1,000 times standard gravity suit only rugged payloads,
 and whether a folded sail or a delicate instrument survives them is not established here.
+A track around Mercury's whole circumference would remove the limit of track length,
+but at release it must hold the payload down with the curvature load of the companion article on mass drivers
+[Mass Drivers, The Curvature Limit][related_post_mass_drivers_curvature],
+which for the 20.28 kilometre per second escape from the Sun is 165 metres per second squared,
+16.8 times standard gravity.
+
+$$
+a_{n} = \frac{v^{2}}{R} - g
+$$
+
 Third,
 a track fixed to the ground points in a direction that turns relative to the Sun once per solar day.
 That period is about 176 days on Mercury,
@@ -558,6 +605,17 @@ whose sidereal day is 9.074 hours
 [Ceres][ref_ceres].
 A departure toward a given target must leave in a particular direction relative to the planet's orbital motion,
 so a single fixed track on Mercury lines up with that direction only about once every 176 days.
+The interval is the period of the track's rotation relative to the direction of orbital motion,
+which for a body spinning in the same sense as it orbits is the following,
+with $P_{\mathrm{sid}}$ the sidereal rotation period and $P_{\mathrm{orb}}$ the orbital period.
+
+$$
+P_{\mathrm{align}} = \left|\frac{1}{P_{\mathrm{sid}}} - \frac{1}{P_{\mathrm{orb}}}\right|^{-1}
+$$
+
+Mercury's 58.646 and 87.969 day periods give 176 days.
+The siting rules for fixed tracks are developed in the companion article on mass drivers
+[Mass Drivers, Positioning for Parent Orbits][related_post_mass_drivers_positioning].
 This is an inference from the geometry.
 It suggests that a Mercury launch site would need several tracks at different headings,
 or a way to steer the exit,
@@ -648,6 +706,10 @@ and the coasting times at speeds within reach of a solar-system launch are as fo
 
 </div>
 
+Each entry is the distance divided by the speed,
+$t = d/v$,
+for a probe coasting at constant speed.
+
 Differences of a few kilometres per second at launch,
 which dominate Part Two A,
 are irrelevant here.
@@ -695,7 +757,9 @@ Mercury is the worst starting point among the bodies considered here.
 A solar sail is pushed by reflected sunlight
 [Solar Sail][ref_solar_sail]
 [McInnes 1999][book_mcinnes_1999].
-A companion article treats solar sailing in detail
+A companion article treats solar sailing in detail,
+including the lightness number for any star
+[Solar Sailing, Lightness Number for Any Star][related_post_solar_sailing_lightness],
 [Solar Sailing][related_post_solar_sailing],
 and this article uses only the results it needs.
 Both the force of sunlight and the pull of gravity fall as the inverse square of distance,
@@ -854,7 +918,13 @@ which understates the input that lasers of that output would draw,
 requires 55.0 square kilometres of collector at Mercury's mean distance
 and 367 square kilometres at 1 AU in space,
 with more on the ground at Earth because of night,
-weather and the atmosphere.
+weather and the atmosphere,
+by the collector area needed for an electrical power $P$ at conversion efficiency $\eta$.
+
+$$
+A = \frac{P}{\eta\,S(r)}
+$$
+
 Mercury's vacuum also removes atmospheric absorption and turbulence from the beam path.
 
 The same caveat applies as for sails.
@@ -1004,6 +1074,8 @@ Close-in planets add one advantage that Mercury lacks.
 TRAPPIST-1b is likely tidally locked to its star
 [TRAPPIST-1b][ref_trappist_1b],
 and a track fixed to a tidally locked planet keeps a fixed heading relative to its orbital motion,
+as the companion article on mass drivers shows for synchronous moons
+[Mass Drivers, Release Geometry on a Tidally Locked Body][related_post_mass_drivers_locked],
 so it would be permanently aligned for prograde launches.
 That is an inference from the geometry,
 and it removes the alignment problem found above for Mercury.
@@ -1049,6 +1121,15 @@ The disadvantages follow.
 - A home that always appears near the Sun from the outer solar system, and regular conjunctions that block links with Earth.
 - A slow rotation that brings a fixed launch track into line with a given departure direction only about once every 176 days.
 - Waste heat rejection that is hardest exactly where the sunlight is strongest, which limits how much of the abundant power can be used. Two-sided flat panels absorbing 90 percent of the light and emitting with an emissivity of 0.85 reach 569 K at perihelion in this simple model, against 315 K at 1 AU.
+
+The panel temperature in the last item balances absorbed sunlight,
+less the fraction $\eta$ converted to electricity,
+against emission from both faces,
+with absorptance $\alpha_{p}$ and emissivity $\varepsilon_{p}$.
+
+$$
+T_{\mathrm{panel}} = \left[\frac{\left(\alpha_{p} - \eta\right) S}{2\,\varepsilon_{p}\,\sigma}\right]^{1/4}
+$$
 
 ## Verdict on the Hypothesis
 
@@ -1245,8 +1326,15 @@ would face the same choice of origin.
 - [Reference, Vulcanoid, Wikipedia][ref_vulcanoid]
 - [Related Post, Introduction to Space Studies][related_post_space_studies]
 - [Related Post, Mass Drivers][related_post_mass_drivers]
+- [Related Post, Mass Drivers, From the Launching Body to the Parent][related_post_mass_drivers_parent]
+- [Related Post, Mass Drivers, Positioning for Parent Orbits][related_post_mass_drivers_positioning]
+- [Related Post, Mass Drivers, Release Geometry on a Tidally Locked Body][related_post_mass_drivers_locked]
+- [Related Post, Mass Drivers, The Curvature Limit][related_post_mass_drivers_curvature]
 - [Related Post, Orbital Manoeuvres in Terms of Delta-v][related_post_orbital_manoeuvres]
+- [Related Post, Orbital Manoeuvres in Terms of Delta-v, Departure][related_post_orbital_manoeuvres_departure]
+- [Related Post, Orbital Manoeuvres in Terms of Delta-v, The Rocket Equation][related_post_orbital_manoeuvres_rocket]
 - [Related Post, Solar Sailing][related_post_solar_sailing]
+- [Related Post, Solar Sailing, Lightness Number for Any Star][related_post_solar_sailing_lightness]
 - [Related Post, Venus Cloudtop Buoyant Analog][related_post_venus_cloudtop]
 - [Related Post, Von Neumann Probes][related_post_von_neumann_probes]
 - [Research, Anderson et al. 2011, The Global Magnetic Field of Mercury from MESSENGER Orbital Observations][research_anderson_et_al_2011]
@@ -1292,8 +1380,15 @@ would face the same choice of origin.
 [ref_venus]: https://en.wikipedia.org/wiki/Venus
 [ref_vulcanoid]: https://en.wikipedia.org/wiki/Vulcanoid
 [related_post_mass_drivers]: {% post_url 2026-08-19-mass_drivers %}
+[related_post_mass_drivers_curvature]: {% post_url 2026-08-19-mass_drivers %}#the-curvature-limit
+[related_post_mass_drivers_locked]: {% post_url 2026-08-19-mass_drivers %}#release-geometry-on-a-tidally-locked-body
+[related_post_mass_drivers_parent]: {% post_url 2026-08-19-mass_drivers %}#from-the-launching-body-to-the-parent
+[related_post_mass_drivers_positioning]: {% post_url 2026-08-19-mass_drivers %}#positioning-for-parent-orbits
 [related_post_orbital_manoeuvres]: {% post_url 2026-08-17-orbital_manoeuvres %}
+[related_post_orbital_manoeuvres_departure]: {% post_url 2026-08-17-orbital_manoeuvres %}#departure
+[related_post_orbital_manoeuvres_rocket]: {% post_url 2026-08-17-orbital_manoeuvres %}#the-rocket-equation
 [related_post_solar_sailing]: {% post_url 2026-08-18-solar_sailing %}
+[related_post_solar_sailing_lightness]: {% post_url 2026-08-18-solar_sailing %}#lightness-number-for-any-star
 [related_post_space_studies]: {% post_url 2026-02-21-introduction_to_space_studies %}
 [related_post_venus_cloudtop]: {% post_url 2026-07-06-venus_cloudtop_buoyant_analog %}
 [related_post_von_neumann_probes]: {% post_url 2026-03-05-von_neumann_probes %}

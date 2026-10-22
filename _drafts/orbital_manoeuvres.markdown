@@ -95,6 +95,21 @@ at a radius of 42,164 kilometres,
 the circular speed is 3.075 kilometres per second and the period is 23.934 hours.
 These two orbits serve as the running example below.
 
+Three further quantities recur throughout.
+The specific orbital energy is fixed by the semi-major axis,
+the specific angular momentum by the speed and the flight path angle $\gamma$ measured from the local horizontal,
+and the period by the semi-major axis alone.
+
+$$
+\varepsilon = \frac{v^{2}}{2} - \frac{\mu}{r} = -\frac{\mu}{2a}, \qquad
+h = r\,v\cos\gamma, \qquad
+T = 2\pi\sqrt{\frac{a^{3}}{\mu}}
+$$
+
+The periods of 90.5 minutes and 23.934 hours above come from the last of these.
+A burn that changes the speed at a given point changes $\varepsilon$ and therefore $a$,
+which is why every manoeuvre below can be costed with the vis-viva equation.
+
 ## The Rocket Equation and Mass-Shedding Delta-v
 
 ### The Rocket Equation
@@ -134,6 +149,16 @@ and a mission budget can be built burn by burn.
 The equation applies to any device that expels reaction mass,
 including a small mass driver used as an engine on board a spacecraft
 [Mass Driver][ref_mass_driver].
+
+Two further relations connect the rocket equation to engine data.
+The exhaust speed is the specific impulse $I_{\mathrm{sp}}$ multiplied by standard gravity $g_{0}$,
+and the fraction of the starting mass that must be propellant follows from the mass ratio,
+as in the last column of the table.
+
+$$
+v_{e} = g_{0}\,I_{\mathrm{sp}}, \qquad
+\frac{m_{p}}{m_{0}} = 1 - \exp\left(-\frac{\Delta v}{v_{e}}\right)
+$$
 
 ### Staging
 
@@ -215,6 +240,16 @@ Dropping 3 tonnes of empty tank after the first 40 tonnes are burned gives 6.022
 The drop added 0.389 kilometres per second without adding any propellant.
 This is the delta-v that mass shedding provides.
 
+In symbols,
+a vehicle that burns from $m_{0}$ to $m_{1}$,
+drops a dead mass $m_{d}$,
+and then burns to $m_{f}$ gains the following,
+which exceeds the single-burn value $v_{e}\ln(m_{0}/(m_{f}+m_{d}))$ obtained by keeping the dead mass to the end.
+
+$$
+\Delta v = v_{e}\ln\frac{m_{0}}{m_{1}} + v_{e}\ln\frac{m_{1} - m_{d}}{m_{f}}
+$$
+
 ### Losses
 
 Real burns take time,
@@ -223,6 +258,13 @@ Gravity loss is the cost of holding a rocket up in a gravity field while it thru
 and it is smallest when thrust is high and the burn short
 [Gravity Loss][ref_gravity_loss].
 A rocket rising vertically loses 0.59 kilometres per second for every minute it burns at Earth's surface.
+Over a burn of duration $t_{b}$ with flight path angle $\gamma$ the loss is the following integral,
+which for a vertical climb at constant gravity reduces to $g\,t_{b}$.
+
+$$
+\Delta v_{g} = \int_{0}^{t_{b}} g\sin\gamma\,dt
+$$
+
 The launch budget of 9.3 to 10 kilometres per second to low Earth orbit exceeds the circular speed of 7.73 by 1.57 to 2.27,
 which is the net of drag and gravity losses,
 steering losses
@@ -266,6 +308,20 @@ A change of 60 degrees costs exactly the orbital speed,
 because $2\sin 30^{\circ} = 1$.
 Plane changes are among the most expensive manoeuvres in orbital mechanics,
 which is why launch sites and launch directions are chosen to place a spacecraft in nearly the right plane.
+
+On an elliptical orbit the speed at the node depends on where the node lies.
+For an orbit of semi-major axis $a$,
+eccentricity $e$,
+mean motion $n = \sqrt{\mu/a^{3}}$
+and argument of periapsis $\omega$,
+a burn at true anomaly $f$ that changes the inclination by $\Delta i$ costs the following
+[Orbital Inclination Change][ref_orbital_inclination_change].
+
+$$
+\Delta v_{i} = \frac{2\sin\left(\Delta i/2\right)\left(1 + e\cos f\right) n\,a}{\sqrt{1 - e^{2}}\,\cos\left(\omega + f\right)}
+$$
+
+For a circular orbit this reduces to $2v\sin(\Delta i/2)$.
 
 ### Combining a Plane Change with a Speed Change
 
@@ -318,6 +374,14 @@ or 53.6 percent,
 at that ratio.
 The cited article states 53.0 percent,
 which the formulas do not reproduce.
+
+Written in terms of the ratio,
+the normalized cost and the condition for its maximum are the following.
+
+$$
+\frac{\Delta v_{H}}{v_{1}} = \sqrt{\frac{2R}{1+R}} - 1 + \frac{1}{\sqrt{R}} - \sqrt{\frac{2}{R\,(1+R)}}, \qquad
+R^{3} - 15R^{2} - 9R - 1 = 0 \ \text{at the maximum}
+$$
 
 ### General Two-Impulse Transfers and Lambert's Problem
 
@@ -390,6 +454,13 @@ For $R = 20$ starting from the 300 kilometre orbit,
 a bi-elliptic transfer with $r_{b} = 40\,r_{1}$ saves 0.070 kilometres per second,
 4.061 against 4.131,
 but takes 194.0 hours against 25.7 for the Hohmann transfer.
+The bi-elliptic flight time is the sum of two half-periods,
+which grows quickly with the intermediate radius.
+
+$$
+t_{\mathrm{bi}} = \pi\sqrt{\frac{a_{1}^{3}}{\mu}} + \pi\sqrt{\frac{a_{2}^{3}}{\mu}}
+$$
+
 That tradeoff is why the bi-elliptic transfer is a textbook staple and a rarity in practice.
 
 ### Plane Change at a High Apoapsis
@@ -464,6 +535,14 @@ whose perigee would lie 364 kilometres below Earth's surface.
 Spreading the catch over three revolutions needs a period of 89.99 minutes,
 a perigee 148 kilometres up,
 and a total of 146.1 metres per second.
+The phasing orbit's semi-major axis follows from its period,
+and since both burns happen at the same point on a circular orbit of speed $v_{c}$,
+the total cost is twice the speed difference there.
+
+$$
+a_{\mathrm{ph}} = \left[\mu\left(\frac{T_{\mathrm{ph}}}{2\pi}\right)^{2}\right]^{1/3}, \qquad
+\Delta v_{\mathrm{ph}} = 2\left|v_{c} - \sqrt{\mu\left(\frac{2}{r} - \frac{1}{a_{\mathrm{ph}}}\right)}\right|
+$$
 Phasing trades time for delta-v,
 and the trade is often forced by the planet's surface or atmosphere.
 
@@ -492,6 +571,15 @@ They explain the counterintuitive behaviour of orbital rendezvous.
 A chaser in a circular orbit a small height $\Delta r$ below the target has a shorter period,
 so it gains on the target by $3\pi\,\Delta r$ along the orbit in each revolution.
 At 400 kilometres a chaser 1 kilometre lower gains 9.42 kilometres per orbit.
+The result follows from the mean motion.
+A small change in radius $\Delta r$ changes $n$,
+and over one period $2\pi/n$ the along-track separation $\Delta y$ grows as follows.
+
+$$
+\Delta n = -\frac{3}{2}\,n\,\frac{\Delta r}{r}, \qquad
+\Delta y_{\mathrm{orbit}} = -3\pi\,\Delta r
+$$
+
 Thrusting toward a target raises the chaser's orbit and makes it fall behind.
 The equations reduce rendezvous planning to linear algebra,
 and textbooks treat them alongside the two-impulse rendezvous they make possible
@@ -519,6 +607,17 @@ A burn made deep in a gravity well,
 where the spacecraft is fast,
 adds more kinetic energy than the same burn made outside it
 [Oberth Effect][ref_oberth_effect].
+The reason is the following identity for the change in kinetic energy per unit mass from a burn $\Delta v$ along the velocity $v$.
+
+$$
+\Delta\left(\frac{v^{2}}{2}\right) = v\,\Delta v + \frac{\Delta v^{2}}{2}
+$$
+
+A burn of 1 kilometre per second at the low orbit's 7.726 kilometres per second adds 8.23 megajoules per kilogram,
+against 0.50 for the same burn from rest.
+The square of the excess speed is often quoted as the characteristic energy,
+$C_{3} = v_{\infty}^{2}$,
+which is the quantity launch vehicles are rated for.
 
 ### Capture
 
@@ -554,6 +653,21 @@ often a Hohmann transfer,
 and the launch opportunities recur once per synodic period
 [Curtis 2020][book_curtis_2020_interplanetary].
 
+Three equations carry this method.
+The sphere of influence of a planet of mass $m$ orbiting a star of mass $M$ at distance $a$ has the approximate radius below
+[Patched Conic Approximation][ref_patched_conic_approximation],
+the synodic period of two orbits of periods $T_{1}$ and $T_{2}$ is the interval between alignments,
+and a Hohmann transfer from radius $r_{1}$ to $r_{2}$ requires the target to lead by the phase angle $\theta_{H}$ at departure.
+
+$$
+r_{\mathrm{SOI}} \approx a\left(\frac{m}{M}\right)^{2/5}, \qquad
+T_{\mathrm{syn}} = \left|\frac{1}{T_{1}} - \frac{1}{T_{2}}\right|^{-1}, \qquad
+\theta_{H} = \pi\left[1 - \left(\frac{r_{1}+r_{2}}{2r_{2}}\right)^{3/2}\right]
+$$
+
+For Mars the sphere of influence is about 577,000 kilometres,
+and for a Hohmann transfer from Earth to Mars the target leads by 44.3 degrees at departure.
+
 ## Gravity Assists
 
 A gravity assist uses a planet's motion to change a spacecraft's heliocentric velocity without propellant,
@@ -582,6 +696,14 @@ $$
 The velocity change is a change of direction in the planet's frame.
 Whether it raises or lowers the heliocentric speed depends on the geometry of the flyby.
 A powered flyby adds a burn at periapsis and gains from the Oberth effect.
+With a periapsis speed $v_{p}$ and a burn $\Delta v$ there,
+the outgoing excess speed is the following.
+
+$$
+v_{p} = \sqrt{v_{\infty}^{2} + \frac{2\mu}{r_{p}}}, \qquad
+v_{\infty,\mathrm{out}} = \sqrt{\left(v_{p} + \Delta v\right)^{2} - \frac{2\mu}{r_{p}}}
+$$
+
 At Jupiter with a periapsis at 2 Jupiter radii,
 a burn of 0.5 kilometres per second raises the excess speed from 5.64 to 8.66,
 and a burn of 1.0 raises it to 10.89.
@@ -605,6 +727,13 @@ From the 300 kilometre orbit to geostationary orbit this is 4.651 kilometres per
 against 3.893 for the Hohmann transfer.
 A low-thrust engine pays about 19 percent more delta-v,
 but it may need far less propellant because its exhaust speed is much higher.
+At a constant acceleration $a$ the spiral takes the following time,
+which for 1 millimetre per second squared from the low orbit to geostationary orbit is 53.8 days.
+
+$$
+t_{\mathrm{spiral}} = \frac{\left|v_{c1} - v_{c2}\right|}{a}
+$$
+
 Edelbaum found minimum-fuel manoeuvres for high and low thrust,
 including a closed-form solution for the optimum low-thrust transfer between inclined circular orbits of different radii
 [Edelbaum 1961][research_edelbaum_1961].
