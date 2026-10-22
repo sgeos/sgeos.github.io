@@ -4,6 +4,32 @@
 
 ## Last Updated
 
+**Date**: 2026-10-21 (ninth entry)
+**Task**: **A380 DRAFTED, *Who Keeps the Value When a Company Splits*, editorial date 2026-08-16. Committed, NOT pushed, NOT published.** On the pilot's instruction, "Draft an article on this topic as A380, backdated to 2026-08-16."
+
+**What was done.**
+1. A380 was the next free number, and the 2026-08-16 slot is free. A379's deploy succeeded and its page returns 200, which TASKLOG now records.
+2. The draft is `_drafts/spin_offs_and_value_transfer.markdown`, with categories `business economics finance` and back-references to A378 and A379. It runs to 493 lines, with 4 display equations and 27 references.
+3. The thesis is that a pro-rata spin-off moves no value between shareholders, so value can move only between groups whose claims differ.
+   - **Split-off.** The holders who stay gain only if the market overvalues the subsidiary relative to the parent by more than the exchange premium. A worked example shows −5.7, +4.0 and −2.5 percent outcomes.
+   - **Creditors.** A structural-model example transfers 38.7 from bondholders, consistent with Maxwell and Rao and the Marriott case. Dittmar finds no routine debt dumping.
+   - **Liability holders.** A limited-liability put of 96.8 on a liability of 400, with the law of fraudulent conveyance and the Tronox case as the limit.
+   - **Future investors.** There is weak evidence of price pressure.
+   - **Managers.** Spin-offs tend to recover value lost to earlier acquisitions.
+   - **Other structures.** Carve-outs, tracking stocks and the Reverse Morris Trust. A summary table gives who gains, who pays and what limits each channel.
+4. Gates. `_verify.py` reported 0 errors and 0 warnings. The scratch production build succeeded with both `post_url` tags resolving, and the render audit found nothing on 547 pages. All 17 DOIs are registered and all 8 Wikipedia pages return 200. The enumerated diction classes are clean.
+
+**Corrections to my preceding answer, found by the research.**
+- Abarbanell, Bushee and Smith Raedy find that institutional selling after spin-offs is generally not associated with abnormal price movements. I had presented flowback pressure as an established effect.
+- I could not confirm that Galai and Masulis analyse spin-offs specifically. The article cites them only for the general result on capital-structure changes.
+- No academic study of split-offs was found. The section rests on the algebra and the repurchase analogy, as the article says.
+
+**Limits.** No paper was read in full. Four papers rest on search-indexed abstract summaries, named in the Epistemic State. The Tronox settlement figure comes from a news report cited by Wikipedia. Several hosts are outside the sandbox allowlist and were not used: corporatefinanceinstitute.com, doaj.org and the US government sites.
+
+**Next, on the pilot's word.** The citation, pathological word usage and publication review passes.
+
+## Previous Report (2026-10-21, eighth entry)
+
 **Date**: 2026-10-21 (eighth entry)
 **Task**: **A379 PUBLISHED, *Building an Integrated Enterprise from Distressed Acquisitions*.** On the pilot's instruction, "Publish A379 and push it."
 

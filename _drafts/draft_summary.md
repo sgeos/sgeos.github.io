@@ -17,6 +17,30 @@ Missing sections and prose will need to be drafted.
 Stubs and largely incomplete drafts are assessed for topicality and publication merit.
 
 
+## Who Keeps the Value When a Company Splits A380 2026-08-16 DRAFTED
+
+`_drafts/spin_offs_and_value_transfer.markdown`, A380, editorial date 2026-08-16, standalone analytical essay and
+third companion to A378 and A379, categories `business economics finance`, no series. Drafted 2026-10-21 on the
+pilot's instruction from a question about whether theory covers splitting a business so that value is concentrated
+in the shareholders who keep the core rather than in the holders of the spin-off. **NOT published.**
+
+**Drafting pass complete. The citation, pathological word usage and publication review passes remain.** 493 lines,
+4 display equations, 31 inline expressions, 27 references, of which 17 are DOI-linked papers, 8 are Wikipedia
+entries and 2 are back-references to A378 and A379. The thesis is that a pro-rata spin-off moves no value between
+shareholders, so value moves only between groups whose claims differ. The models are the pro-rata identity, a
+split-off exchange in which the holders who stay gain only if the subsidiary's relative overvaluation exceeds the
+premium, a Merton-model bondholder transfer of 38.7 on a 300 asset spin, and a limited-liability put of 96.8 on a
+liability of 400. Every number recomputes from `tmp/a380/numbers.py`. **Two claims from the pilot-facing answer that
+preceded this draft were corrected by the research.** Abarbanell and coauthors find institutional selling after
+spin-offs generally not associated with abnormal price movements, which contradicts the flowback point, and no
+source found confirms that Galai and Masulis analyse spin-offs specifically, so the article cites them only for the
+general result. No academic study of split-offs was found, and the Asaoka 2022 paper surfaced by search could not be
+resolved to a DOI, so that section rests on algebra and the repurchase analogy, as the article states. `_verify.py`
+0 and 0, scratch production build ok with both `post_url` tags resolving, render 547 pages no findings, 17 of 17
+DOIs registered, 8 of 8 Wikipedia pages 200. The enumerated diction classes are clean after rotating `truly` and
+the discovered formula `the evidence on`. Scratch in gitignored `tmp/a380/`. **The draft is now the source of
+truth**, and `body.md` and `refs.md` there must not be reassembled over it.
+
 ## Building an Integrated Enterprise from Distressed Acquisitions A379 2026-08-15 PUBLISHED
 
 `_posts/2026-08-15-distressed_acquisitions_and_integration.markdown`, A379, editorial date 2026-08-15, standalone analytical
