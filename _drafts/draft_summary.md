@@ -17,14 +17,14 @@ Missing sections and prose will need to be drafted.
 Stubs and largely incomplete drafts are assessed for topicality and publication merit.
 
 
-## What the Conglomerate Discount Measures A378 2026-08-14 ALL FOUR PASSES COMPLETE
+## What the Conglomerate Discount Measures A378 2026-08-14 PUBLISHED
 
-`_drafts/conglomerate_discount.markdown`, A378, editorial date 2026-08-14, standalone analytical essay, categories
+`_posts/2026-08-14-conglomerate_discount.markdown`, A378, editorial date 2026-08-14, standalone analytical essay, categories
 `business economics finance`, no series. **The first post whose categories include `finance`**, which adds one
 category archive. Drafted 2026-10-21 on the pilot's instruction from a question about whether the mathematics of the
 value delta inside and outside a conglomerate is established. **NOT published.**
 
-**ALL FOUR PASSES COMPLETE 2026-10-21, NOT published.** Final state 870 lines, 13 display equations, 39 inline
+**ALL FOUR PASSES COMPLETE. PUBLISHED 2026-10-21 on the pilot's instruction**, which takes the corpus to 378 posts and adds the first `finance` category archive. Final state 870 lines, 13 display equations, 39 inline
 expressions, 62 references (57 DOI-linked papers, 5 Wikipedia).
 
 **Citation pass.** Every sentence was read against its source. Forty edits in two rounds. Unsupported or overstated claims

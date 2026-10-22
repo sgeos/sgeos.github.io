@@ -4,6 +4,36 @@
 
 ## Last Updated
 
+**Date**: 2026-10-21 (fifth entry)
+**Task**: **A378 PUBLISHED, *What the Conglomerate Discount Measures*.** On the pilot's instruction, "Publish A378 and push it."
+
+**Steps.**
+1. The draft state was already committed (`8197cfd`, `a6c88ab`). The publish commit moves `_drafts/conglomerate_discount.markdown` to `_posts/2026-08-14-conglomerate_discount.markdown`. The date slot was free and the article carries no `post_url` tags.
+2. `./_check.sh` reported 378 posts, `_verify.py` 0 errors and 0 warnings, a successful production build, and no findings from the rendered audit on 545 pages.
+3. Pushed. The deploy result and the live check are recorded in TASKLOG.
+
+**Draft release announcement (for the pilot to review before posting).**
+
+```
+New Blog Post: What the Conglomerate Discount Measures
+
+Is the gap between a conglomerate's value and the sum of its parts a settled number? The article works through the standard measures with worked examples, separates what the mathematics establishes from what the evidence still disputes, and reviews more than fifty studies from 1971 to 2025.
+
+Key takeaways:
+- The measurement is precisely defined. The Berger and Ofek excess value and the Lang and Stulz q comparison are standard, and under them diversified US firms in the 1980s and early 1990s traded at an average discount of about 13 to 15 percent.
+- The figure for any single firm is a modelling choice. One hypothetical firm shows a discount of 4.6 or 15.3 percent depending only on the accounting base, and a 10 percent size bias in the peer multiples moves the result by 10.5 log points.
+- Causation remains contested. Selection corrections shrink or reverse the discount, while fixed-effect, industry-shock and spin-off studies find part of it real, and its size varies by country, period and the state of capital markets.
+
+You can read the full article here:
+https://sgeos.github.io/business/economics/finance/2026/08/14/conglomerate_discount.html
+
+Let me know your thoughts. I would love to hear how you approach sum-of-the-parts valuation in your own work!
+
+hashtag#CorporateFinance hashtag#Valuation hashtag#Conglomerates hashtag#MergersAndAcquisitions hashtag#SpinOffs hashtag#FinancialEconomics hashtag#EmpiricalFinance
+```
+
+## Previous Report (2026-10-21, fourth entry)
+
 **Date**: 2026-10-21 (fourth entry)
 **Task**: **A378, ALL FOUR PASSES COMPLETE. Committed, NOT pushed, NOT published.** On the pilot's instruction, "Run the remaining three passes on A378."
 
