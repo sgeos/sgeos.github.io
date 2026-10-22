@@ -4,6 +4,36 @@
 
 ## Last Updated
 
+**Date**: 2026-10-21 (eleventh entry)
+**Task**: **A380 PUBLISHED, *Who Keeps the Value When a Company Splits*.** On the pilot's instruction, "Publish and push the article."
+
+**Steps.**
+1. The draft state was already committed (`da7e780`, `5949d12`). The publish commit moves the draft to `_posts/2026-08-16-spin_offs_and_value_transfer.markdown`. The slot was free, and both `post_url` targets, A378 and A379, are published.
+2. `./_check.sh` reported 380 posts, `_verify.py` 0 errors and 0 warnings, a successful production build, and no findings from the rendered audit on 547 pages.
+3. Pushed. The deploy result and the live check are recorded in TASKLOG.
+
+**Draft release announcement (for the pilot to review before posting).**
+
+```
+New Blog Post: Who Keeps the Value When a Company Splits
+
+Can a company split itself so that value concentrates in the shareholders who keep the core business rather than in those who hold the spin-off? The article works through the theory and evidence and finds that an ordinary pro-rata spin-off cannot do it, because every shareholder ends up with the same fraction of both companies.
+
+Key takeaways:
+- Value moves only between groups whose claims differ. In a split-off exchange, the holders who stay gain only if the market overvalues the subsidiary relative to the parent by more than the exchange premium, which makes it a bet on mispricing.
+- Shareholders as a whole can gain at the expense of creditors and liability holders. In a hypothetical example, spinning off 300 of 1,000 in assets moves 38.7 from bondholders, and assigning a 400 liability to a thinly capitalized spin-off sheds about 97 of it.
+- Those are the transfers that debt covenants and fraudulent conveyance law exist to stop. Tronox illustrates the litigation that can follow, while the managerial evidence points to spin-offs that recover value lost to earlier acquisitions.
+
+You can read the full article here:
+https://sgeos.github.io/business/economics/finance/2026/08/16/spin_offs_and_value_transfer.html
+
+Let me know your thoughts. I would love to hear how you think about separations, split-offs and carve-outs in your own work!
+
+hashtag#CorporateFinance hashtag#SpinOffs hashtag#CorporateRestructuring hashtag#Valuation hashtag#ShareholderValue hashtag#MergersAndAcquisitions hashtag#CorporateGovernance
+```
+
+## Previous Report (2026-10-21, tenth entry)
+
 **Date**: 2026-10-21 (tenth entry)
 **Task**: **A380, ALL FOUR PASSES COMPLETE. Committed, NOT pushed, NOT published.** On the pilot's instruction, "Run the remaining three passes."
 

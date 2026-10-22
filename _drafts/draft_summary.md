@@ -17,14 +17,14 @@ Missing sections and prose will need to be drafted.
 Stubs and largely incomplete drafts are assessed for topicality and publication merit.
 
 
-## Who Keeps the Value When a Company Splits A380 2026-08-16 ALL FOUR PASSES COMPLETE
+## Who Keeps the Value When a Company Splits A380 2026-08-16 PUBLISHED
 
-`_drafts/spin_offs_and_value_transfer.markdown`, A380, editorial date 2026-08-16, standalone analytical essay and
+`_posts/2026-08-16-spin_offs_and_value_transfer.markdown`, A380, editorial date 2026-08-16, standalone analytical essay and
 third companion to A378 and A379, categories `business economics finance`, no series. Drafted 2026-10-21 on the
 pilot's instruction from a question about whether theory covers splitting a business so that value is concentrated
 in the shareholders who keep the core rather than in the holders of the spin-off. **NOT published.**
 
-**ALL FOUR PASSES COMPLETE 2026-10-21, NOT published.** Final state 495 lines, 4 display equations, 31 inline
+**ALL FOUR PASSES COMPLETE. PUBLISHED 2026-10-21 on the pilot's instruction**, taking the corpus to 380 posts. Final state 495 lines, 4 display equations, 31 inline
 expressions, 27 references.
 
 **Citation pass.** Sixteen edits. Two unsourced generalizations were removed: that spin-offs are often described
