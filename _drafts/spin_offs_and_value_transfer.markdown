@@ -12,18 +12,19 @@ categories: business economics finance
 
 A spin-off makes a part of a company into a separate business
 [Corporate Spin-off][ref_corporate_spin_off].
-It is often described as a way to unlock value,
-and sometimes as a way to leave the valuable part of a business with one group of owners
+A natural question is whether a split can leave the valuable part of a business with one group of owners
 and the rest with another.
 This article asks whether there is theory on splitting a business so that value is concentrated in the shareholders who keep the core
 rather than in those who hold the spun-off unit.
 
 The answer begins with a constraint.
-In an ordinary spin-off the parent distributes the new company's shares to its own shareholders in proportion to their holdings,
+In an ordinary spin-off the parent distributes the new company's shares to its own shareholders
+[Reverse Morris Trust][ref_reverse_morris_trust],
+and it does so in proportion to their holdings,
 so the people who keep the core are the same people who receive the spin-off,
 and nothing about the split can favour one of them over another.
 Value can move only between groups whose claims differ.
-The literature is organized around those groups,
+This article organizes the literature around those groups,
 which are shareholders who choose differently in an exchange,
 shareholders and creditors,
 shareholders and the holders of liabilities that follow the spun-off unit,
@@ -48,7 +49,7 @@ let $V_{C}$ be the value of the core after the separation
 and $V_{S}$ the value of the spun-off company,
 with both values in the same money units.
 In a pro-rata distribution the shareholder receives the same fraction $w$ of the new company,
-so their wealth afterwards is the following.
+so the shareholder's wealth afterwards is the following.
 
 $$
 W = w\,V_{C} + w\,V_{S} = w\left(V_{C} + V_{S}\right)
@@ -63,10 +64,10 @@ and a shareholder who wants only the spun-off unit must sell the parent.
 Any concentration of value has to come from somewhere other than the distribution itself.
 
 On average the total has risen.
-Miles and Rosenfeld find that spin-off announcements raise stock prices,
+Miles and Rosenfeld report that spin-off announcements raise stock prices,
 with larger relative gains for large spin-offs than for small ones
 [Miles and Rosenfeld 1983][research_miles_rosenfeld_1983].
-Krishnaswami and Subramaniam find that firms that spin off have more information asymmetry than matched peers,
+According to Krishnaswami and Subramaniam, firms that spin off have more information asymmetry than matched peers,
 that it falls significantly afterwards,
 and that the gains rise with the degree of asymmetry
 [Krishnaswami and Subramaniam 1999][research_krishnaswami_subramaniam_1999].
@@ -109,7 +110,7 @@ n = \frac{V_{S}^{m}}{\left(1 + \pi\right) p},
 G = V_{S} - n\,v
 $$
 
-The shareholders who stay lose exactly what the tendering shareholders gain,
+Measured at true values, the shareholders who stay lose exactly what the tendering shareholders gain,
 because together they own the same core and subsidiary as before.
 Write $m_{S} = V_{S}^{m} / V_{S}$ and $m_{P} = p / v$ for the ratios of market value to true value of the subsidiary and of the parent.
 Substituting into $G$ shows that the shareholders who stay gain only under the following condition.
@@ -162,11 +163,11 @@ A split-off repurchases parent shares and pays with subsidiary shares,
 so it benefits the shareholders who remain when the parent is cheap relative to the subsidiary.
 Concentrating value in the core's continuing holders through a split-off is therefore a bet on relative misvaluation.
 It also depends on who tenders,
-since a shareholder who believes the subsidiary is overvalued will decline to take it.
+since a shareholder who believes the subsidiary is overvalued would decline to take it.
 
 ## Shareholders and Creditors
 
-The oldest theory of value transfer in a separation concerns creditors.
+A long-standing theory of value transfer in a separation concerns creditors.
 Galai and Masulis combined option pricing with the capital asset pricing model
 and showed how unanticipated changes in a firm's capital and asset structure can affect its debt and its equity differently
 [Galai and Masulis 1976][research_galai_masulis_1976].
@@ -214,7 +215,7 @@ and industry-adjusted shareholder gains of only 80.6 million dollars
 [Parrino 1997][research_parrino_1997].
 
 The allocation of debt between the two companies is where such a transfer would be engineered,
-and the evidence does not show it being done routinely.
+and Dittmar's evidence does not suggest that it is done routinely.
 Dittmar finds that a spun-off subsidiary has a leverage ratio below its parent's and similar to that of comparable firms that were not spun off,
 and that its leverage follows the predictions of the tradeoff theory of capital structure
 [Dittmar 2004][research_dittmar_2004].
@@ -225,7 +226,7 @@ and it raises the risk of financial distress in the subsidiary.
 
 ## Shareholders and Holders of Liabilities
 
-The same logic applies with more force to liabilities that are not debt,
+The same logic applies to liabilities that are not debt,
 such as environmental, pension and product liabilities.
 If a liability is assigned to the spun-off company and that company has limited liability,
 the shareholders hold an option to walk away from any part of the liability its assets cannot cover.
@@ -259,12 +260,12 @@ and the holders of the liability bear that amount instead.
 
 ### Where the Law Draws the Line
 
-The law of fraudulent conveyance exists to stop such transfers.
+The law of fraudulent conveyance is designed to reach transfers of this kind.
 A fraudulent conveyance is a transfer of property that prevents, hinders or delays the collection of a debt,
 sometimes by rendering the party that makes the transfer insolvent,
 and the law distinguishes actual fraud from constructive fraud
 [Fraudulent Conveyance][ref_fraudulent_conveyance].
-Tronox shows the outcome when a separation is judged against that standard.
+Tronox illustrates what can follow when a separation is challenged.
 Kerr-McGee spun off its chemical business, Tronox, around 2005 and 2006,
 and Tronox inherited several contaminated sites.
 One account quoted on the company's Wikipedia page says that Kerr-McGee shifted environmental liabilities into Tronox while keeping its oil and gas assets.
@@ -274,13 +275,13 @@ which had acquired Kerr-McGee,
 and against Kerr-McGee itself
 [Tronox][ref_tronox].
 The page cites a 2014 Associated Press report of a 5.15 billion dollar environmental settlement.
-In that case the value that the separation was alleged to move was moved back,
-with litigation costs added.
+The settlement came about five years after the bankruptcy,
+in litigation over value that the separation was alleged to have moved.
 
 ## Current and Future Investors
 
 A split could concentrate value in current shareholders if the market predictably mispriced one of the pieces,
-and a common argument is that the spun-off shares are sold indiscriminately by institutions that cannot hold them.
+and an argument from earlier research is that the spun-off shares are sold indiscriminately by institutions that cannot hold them.
 That argument has weaker support than its reputation suggests.
 Abarbanell, Bushee and Smith Raedy find that investment strategies and fiduciary restrictions affect institutions' demand for spun-off shares,
 but that their trading is in general not associated with abnormal price movements for parents or subsidiaries around the spin-off
@@ -295,19 +296,20 @@ Managers choose which unit to keep and which to spin off,
 and the choice can serve their own interests.
 Allen, Lummer, McConnell and Reed study spin-offs of units that the parent had acquired earlier.
 The original acquisitions earned negative announcement returns for the bidder and for the combination,
-and the returns at the spin-off are negatively correlated with those at the acquisition.
+and the returns at the spin-off are negatively correlated with the returns at the acquisition.
 They interpret part of the gain from such spin-offs as the recovery of value destroyed by the earlier acquisition
 [Allen, Lummer, McConnell and Reed 1995][research_allen_lummer_mcconnell_reed_1995].
 Chemmanur and Yan model a firm whose incumbent manager is better at running some divisions than others.
 A spin-off raises the chance that a more able rival gains control,
 which benefits all shareholders while costing the incumbent the private benefits of control
 [Chemmanur and Yan 2004][research_chemmanur_yan_2004].
-Seward and Walsh find, in 78 spin-offs completed between 1972 and 1987,
+Seward and Walsh conclude, from 78 spin-offs completed between 1972 and 1987,
 that the selection of the new chief executives, their compensation contracts and the staffing of the new boards can be seen as efficient,
 but that these practices are not strongly related to the market's reaction to the announcement
 [Seward and Walsh 1996][research_seward_walsh_1996].
-In this evidence the managerial channel works mainly to recover value lost to past agency costs,
-and it benefits shareholders of both companies in proportion.
+In this evidence the managerial channel appears in spin-offs that recover value lost to past agency costs
+or that expose managers to contests for control,
+and in both cases the gain is shared by the shareholders of both companies in proportion.
 
 ## Structures That Separate Control Without a Full Split
 
@@ -320,7 +322,7 @@ while the parent keeps control
 [Equity Carve-out][ref_equity_carve_out].
 The new investors pay cash,
 so the question is what the parent does with it.
-Allen and McConnell find that carve-outs follow poor operating performance and high leverage,
+Allen and McConnell document that carve-outs follow poor operating performance and high leverage,
 and that the average excess return is 6.63 percent when the proceeds pay down debt
 against minus 0.01 percent when they are retained for investment
 [Allen and McConnell 1998][research_allen_mcconnell_1998].
@@ -370,7 +372,7 @@ The channels can be summarized by asking who gains and who pays.
 Only the split-off moves value between two groups of shareholders,
 and it does so only through a premium or a relative mispricing.
 The transfers that move value toward shareholders as a whole come from creditors and the holders of liabilities,
-and those are the transfers the law of fraudulent conveyance and the terms of debt contracts are written to prevent.
+and these are the transfers the law of fraudulent conveyance and the terms of debt contracts are written to prevent.
 
 ## Epistemic State
 
@@ -430,7 +432,7 @@ Shareholders as a whole can gain at the expense of creditors when a separation r
 as the bond evidence and the Marriott case show,
 and at the expense of the holders of liabilities when those liabilities are assigned to a spun-off company that cannot pay them.
 Those are the transfers that debt covenants and the law of fraudulent conveyance exist to stop,
-and the Tronox case shows how they can be reversed.
+and the Tronox case illustrates how they can be challenged.
 The managerial evidence points to spin-offs that recover value lost to earlier mistakes,
 which benefits the shareholders of both companies alike.
 

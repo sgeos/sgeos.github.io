@@ -4,6 +4,25 @@
 
 ## Last Updated
 
+**Date**: 2026-10-21 (tenth entry)
+**Task**: **A380, ALL FOUR PASSES COMPLETE. Committed, NOT pushed, NOT published.** On the pilot's instruction, "Run the remaining three passes."
+
+**Citation pass.** 16 edits.
+- Removed two unsourced generalizations, "often described as a way to unlock value" and "the oldest theory".
+- Cited the definition of a pro-rata distribution.
+- Attributed the five-group organization to the article itself.
+- Narrowed Dittmar's result to "does not suggest" routine debt dumping.
+- Withdrew an unsupported claim that much of the Tronox value was recovered, replacing it with the settlement's timing. The case is now described as an illustration of a challenge, not as proof of a reversal.
+- Removed "mainly" from the managerial channel.
+
+**Word usage pass.** Clean before and after on the enumerated classes, and a diff found no introduced phrase. `find` and `those` were rotated below the peer maximum. The remaining outliers are subject terms.
+
+**Publication review.** Clean on punctuation, contractions, acronyms, pronouns, references and line structure. All numbers matched the script. 17 of 17 DOIs are registered and 8 of 8 Wikipedia pages return 200. `_verify.py` reports 0 errors and 0 warnings, the scratch build passed, and the render audit found nothing on 547 pages. The article is 495 lines, with 4 display equations and 27 references.
+
+**Next, on the pilot's word.** Publication, as `_posts/2026-08-16-spin_offs_and_value_transfer.markdown`. Its two `post_url` tags point to A378 and A379, both live.
+
+## Previous Report (2026-10-21, ninth entry)
+
 **Date**: 2026-10-21 (ninth entry)
 **Task**: **A380 DRAFTED, *Who Keeps the Value When a Company Splits*, editorial date 2026-08-16. Committed, NOT pushed, NOT published.** On the pilot's instruction, "Draft an article on this topic as A380, backdated to 2026-08-16."
 

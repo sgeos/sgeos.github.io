@@ -17,14 +17,35 @@ Missing sections and prose will need to be drafted.
 Stubs and largely incomplete drafts are assessed for topicality and publication merit.
 
 
-## Who Keeps the Value When a Company Splits A380 2026-08-16 DRAFTED
+## Who Keeps the Value When a Company Splits A380 2026-08-16 ALL FOUR PASSES COMPLETE
 
 `_drafts/spin_offs_and_value_transfer.markdown`, A380, editorial date 2026-08-16, standalone analytical essay and
 third companion to A378 and A379, categories `business economics finance`, no series. Drafted 2026-10-21 on the
 pilot's instruction from a question about whether theory covers splitting a business so that value is concentrated
 in the shareholders who keep the core rather than in the holders of the spin-off. **NOT published.**
 
-**Drafting pass complete. The citation, pathological word usage and publication review passes remain.** 493 lines,
+**ALL FOUR PASSES COMPLETE 2026-10-21, NOT published.** Final state 495 lines, 4 display equations, 31 inline
+expressions, 27 references.
+
+**Citation pass.** Sixteen edits. Two unsourced generalizations were removed: that spin-offs are often described
+as unlocking value, and "the oldest theory". The pro-rata distribution now carries a citation. The claim that the
+literature is organized around the five groups is now attributed to this article. Dittmar's result is stated as
+not suggesting routine debt dumping, rather than as showing it. The Tronox case is described as an illustration of
+a challenge, not as the reversal of a transfer, and an unsupported "much of the value was recovered" was withdrawn
+in favour of the settlement's timing. "Mainly" was removed from the managerial channel, which now names both cited
+mechanisms.
+
+**Pathological word usage pass.** The enumerated classes and constructions were clean before and after, and a
+before-and-after diff found no introduced phrase. `find` and `those` were rotated below the peer maximum and
+`their` sits at 0.95 of it. The remaining outliers are the subject (subsidiary, shareholders, parent, conveyance,
+Tronox) and the defined model quantity `true value of`.
+
+**Publication review.** No dashes, contractions, prose colons, semicolons, parentheticals, acronyms or gendered
+pronouns, references used, defined and sorted, every worked number matched against `tmp/a380/numbers.py`, 17 of 17
+DOIs registered and 8 of 8 Wikipedia pages 200, `_verify.py` 0 and 0, scratch production build ok, render 547 pages
+no findings.
+
+**Drafting pass record, kept as history.** 493 lines,
 4 display equations, 31 inline expressions, 27 references, of which 17 are DOI-linked papers, 8 are Wikipedia
 entries and 2 are back-references to A378 and A379. The thesis is that a pro-rata spin-off moves no value between
 shareholders, so value moves only between groups whose claims differ. The models are the pro-rata identity, a
