@@ -3,12 +3,12 @@ layout: post
 mathjax: true
 comments: true
 title: "Mercury as a Colony and a Launch Site"
-date: 2026-08-17 09:00:00 +0000
+date: 2026-08-18 09:00:00 +0000
 categories: space astronomy space-studies
 ---
 
-<!-- A381 -->
-<script>console.log("A381");</script>
+<!-- A382 -->
+<script>console.log("A382");</script>
 
 Mercury is the planet closest to the Sun
 [Mercury][ref_mercury].
@@ -21,6 +21,9 @@ both to the other bodies of the solar system
 and to neighboring stars.
 The article also sets out the other advantages and disadvantages of a base on Mercury,
 in a hypothetical future in which every body in the solar system has been or can be settled.
+A broader form of the hypothesis holds that Mercury's value lies less in what it is than in where it is,
+and that the same is true of the closest significant body to any star.
+The article tests that broader form as well.
 
 The method is to express each physical quantity that matters as a function of distance from the Sun,
 then to evaluate it at Mercury and at the bodies it competes with.
@@ -29,13 +32,18 @@ orbital speed and the depth of the Sun's gravity well,
 the change in velocity, or delta-v, that each journey requires,
 the mass ratio that the rocket equation demands for that delta-v,
 the length of a mass driver,
+the sunlight a launcher must collect for each kilogram it throws,
 the speed a projectile loses in an atmosphere,
 the force of sunlight on a sail,
 and the frequency of launch windows.
 In short,
-the first part is refuted as stated and supported only in a narrower form,
-and the second part is supported for probes sent toward the Sun and for sunlight-driven propulsion,
+the first part is refuted as stated and supported only in a narrower form.
+The second part is supported for probes sent toward the Sun,
+for sails and beamed propulsion,
+and for mass drivers powered by local sunlight,
 but refuted for rocket probes sent outward.
+The broader form is supported within any one star system for launches powered by sunlight,
+and it weakens around dim stars and fails where the innermost body has no surface.
 
 This article does not design a mission,
 does not estimate costs,
@@ -337,6 +345,9 @@ so launching from it is effectively launching from vacuum.
 That makes Mercury a candidate for a mass driver,
 an electromagnetic launcher that accelerates a payload along a track
 [Mass Driver][ref_mass_driver].
+A companion article treats mass drivers in detail
+[Mass Drivers][related_post_mass_drivers],
+and this article uses only the kinematics.
 For a constant acceleration $a$ to a speed $v$,
 the track length and the kinetic energy per kilogram are the following.
 
@@ -450,16 +461,105 @@ Both are assumptions rather than cited values.
 A chemical rocket leaving the solar system from Mercury must start about 99 times as heavy as its final mass,
 more than twice the ratio from an ideal Earth launch and about seven times the ratio from the Moon.
 
-The mass driver changes this comparison but does not reverse it.
-A track long enough to give the full 20.28 kilometres per second would be 21 kilometres at 1,000 times standard gravity,
-with an energy of 206 megajoules per kilogram.
-A square metre of photovoltaic panel at 20 percent efficiency at Mercury's mean distance would collect that energy in about 31 hours of sunlight.
-Energy at that scale is plentiful on Mercury,
-so a large enough electromagnetic launcher could substitute electricity for propellant.
-A launcher on the Moon would face the same physics with a smaller delta-v,
+### Probes Launched by Mass Driver
+
+A mass driver changes which cost matters.
+A rocket pays for delta-v with propellant,
+and the rocket equation makes that cost exponential.
+An electromagnetic launcher pays for the same speed with electricity,
+in proportion to $v^{2}/2$ for each kilogram.
+If the electricity comes from local sunlight,
+the cost to compare is the collector area multiplied by the time needed to gather the launch energy.
+For a conversion efficiency $\eta$ from sunlight to launch energy and a local flux $S(r)$,
+that collector time per kilogram is the following.
+
+$$
+\frac{A\,t}{m} = \frac{v^{2}}{2\,\eta\,S(r)}
+$$
+
+The table applies this to three airless origins and four kinds of launch,
+using the surface speeds from the surface departure formula,
+a track at 1,000 times standard gravity
+and $\eta = 0.2$.
+
+<div style="overflow-x: auto;" markdown="1">
+
+| Origin | Launch | Surface speed, km/s | Track at 1,000 g, km | Energy, MJ/kg | Collector time, m²·h/kg |
+|---|---|---|---|---|---|
+| Mercury | escape Mercury only | 4.25 | 0.92 | 9.0 | 1.4 |
+| Mercury | flyby of Jupiter | 17.95 | 16.43 | 161.2 | 24.6 |
+| Mercury | escape from the Sun | 20.28 | 20.97 | 205.6 | 31.4 |
+| Mercury | dive to 10 solar radii | 26.05 | 34.60 | 339.3 | 51.9 |
+| Moon | escape the Moon only | 2.38 | 0.29 | 2.8 | 2.9 |
+| Moon | flyby of Jupiter | 8.24 | 3.46 | 34.0 | 34.7 |
+| Moon | escape from the Sun | 11.65 | 6.92 | 67.8 | 69.2 |
+| Moon | dive to 10 solar radii | 20.08 | 20.55 | 201.6 | 205.7 |
+| Ceres | escape Ceres only | 0.52 | 0.01 | 0.1 | 1.0 |
+| Ceres | flyby of Jupiter | 2.61 | 0.35 | 3.4 | 26.5 |
+| Ceres | escape from the Sun | 7.43 | 2.82 | 27.6 | 216.0 |
+| Ceres | dive to 10 solar radii | 14.66 | 10.95 | 107.4 | 839.7 |
+
+</div>
+
+Mercury needs the highest speeds and the longest tracks in every row,
+up to 34.6 kilometres of track for a probe thrown straight into a dive toward the Sun.
+Measured by the sunlight that must be gathered,
 however,
-so the advantage over the Moon is only in the supply of electricity,
-not in the delta-v.
+Mercury is the cheapest origin for escaping the Sun and for diving toward it,
+by factors of about 2 and 4 against the Moon and about 7 and 16 against Ceres.
+For a Jupiter flyby the three origins are within a factor of 1.4 of one another.
+Only for leaving the launch body itself,
+the smallest job in the table,
+do the Moon and Ceres need less collector time.
+
+The reason is general.
+The orbital part of the launch energy scales as $\mu/r$,
+while the sunlight scales as $L/r^{2}$ for a star of luminosity $L$,
+so the collector time for any launch measured against orbital speed scales as follows,
+with $M$ the star's mass.
+
+$$
+\frac{A\,t}{m} \propto \frac{\mu / r}{L / r^{2}} \propto \frac{M\,r}{L}
+$$
+
+For escape from a circular orbit around the Sun,
+this gives 30.1 square metre hours per kilogram at Mercury's distance,
+56.2 at Venus's,
+77.7 at Earth's,
+118.3 at Mars's
+and 214.9 at Ceres's,
+before the small extra cost of leaving the launch body.
+Around any single star,
+the collector time falls in direct proportion to the distance,
+so the innermost orbit is the cheapest place from which to throw mass with sunlight.
+This is the clearest support in this article for the claim that Mercury's value lies in where it is.
+
+Three practical limits qualify the result.
+First,
+the conversion efficiency of 20 percent ignores losses in the launcher itself,
+night,
+and energy storage,
+and Mercury's nights of 88 days at a fixed site are much longer than the Moon's,
+which last about half of a 29.53-day synodic month
+[Lunar Month][ref_lunar_month].
+Second,
+accelerations of 1,000 times standard gravity suit only rugged payloads,
+and whether a folded sail or a delicate instrument survives them is not established here.
+Third,
+a track fixed to the ground points in a direction that turns relative to the Sun once per solar day.
+That period is about 176 days on Mercury,
+29.53 days for the Moon,
+which is the mean synodic month
+[Lunar Month][ref_lunar_month],
+and about 9.07 hours for Ceres,
+whose sidereal day is 9.074 hours
+[Ceres][ref_ceres].
+A departure toward a given target must leave in a particular direction relative to the planet's orbital motion,
+so a single fixed track on Mercury lines up with that direction only about once every 176 days.
+This is an inference from the geometry.
+It suggests that a Mercury launch site would need several tracks at different headings,
+or a way to steer the exit,
+to use its frequent launch windows.
 
 ### Launch Windows and Trip Times
 
@@ -511,16 +611,20 @@ and a probe launched from Mercury begins its mission already between 0.31 and 0.
 
 ### Verdict on Part Two A
 
-For probes to the outer solar system,
-Part Two A is refuted.
+Part Two A splits by propulsion.
+For rocket probes to the outer solar system,
+it is refuted.
 Mercury is the most expensive origin in delta-v for every target beyond Venus,
 and Ceres,
 the Moon
-and Mars are each cheaper,
-whether the probe is driven by a rocket or by a mass driver.
+and Mars are each cheaper.
+For probes thrown by mass drivers that run on local sunlight,
+it is supported for escaping the Sun and for diving toward it,
+and roughly a tie for the outer planets,
+because the sunlight needed per kilogram is lowest at Mercury
+even though the speeds and tracks are the largest.
 For probes to Venus and toward the Sun,
-for frequent launch windows,
-and for any mission whose cost is dominated by energy rather than delta-v,
+and for frequent launch windows,
 it is supported.
 
 ## Part Two B, Probes to Neighboring Stars
@@ -623,8 +727,114 @@ and the classic interstellar sail concept first drops into an orbit that passes 
 A sail opened at a perihelion of 10 solar radii with $\beta = 1$ would coast away at about 185 to 194 kilometres per second depending on where the fall began,
 far more than anything Mercury's orbit alone provides.
 The sail must survive the light and heat at that distance in either case.
-Mercury's role is therefore as the nearest place to manufacture and stage sails,
-not as a physically privileged launch point.
+
+### Repeated Passes Near the Sun
+
+A sail held face-on to the Sun feels a purely radial force that falls as the inverse square of distance.
+That force only weakens the Sun's effective gravity,
+so over a closed orbit it adds no energy.
+A sail that is tilted so that its force has a component along its direction of motion spirals outward,
+and one tilted the other way spirals inward
+[Solar Sail][ref_solar_sail].
+If the tilt is applied mainly near perihelion,
+where the light is strongest,
+each pass raises the orbit's energy while the perihelion stays low,
+and the orbit grows pass by pass until the sail escapes.
+This is the repeated-pass strategy.
+Unlike a gravity assist,
+it borrows nothing from a moving planet.
+The sail is propelled by the light it reflects.
+
+A simple reference shows what repeated passes can and cannot do.
+A sail that falls from an orbit of semi-major axis $a$ to a perihelion $q$
+and turns face-on there for the final departure
+leaves with the following excess speed,
+which rises toward a ceiling as the orbit is pumped toward escape.
+
+$$
+v_{\infty} = \sqrt{\frac{2\beta\mu}{q} - \frac{\mu}{a}}
+\;\longrightarrow\;
+\sqrt{\frac{2\beta\mu}{q}} \quad \text{as} \quad a \to \infty
+$$
+
+The ceiling depends only on the sail's lightness number and on the perihelion it can survive.
+It does not depend on where the sail started.
+With $\beta = 1$ at 10 solar radii,
+one pass from the Mercury dive orbit gives 184.6 kilometres per second against a ceiling of 195.3,
+so repeated passes add little for a very light sail.
+With $\beta = 0.1$,
+one face-on pass from the Mercury dive orbit does not escape at all,
+while the ceiling is 61.8 kilometres per second,
+so for weaker sails repeated passes decide whether the strategy works.
+
+A numerical simulation tests the strategy for weaker sails.
+It integrates the planar motion of an ideal flat sail around the Sun,
+with a force of $\beta\mu\cos^{2}\alpha/r^{2}$ along the sail's normal,
+where $\alpha$ is the angle between the normal and the direction to the Sun.
+The control law is simple and is not an optimum.
+Within about twice the target perihelion,
+the sail takes the tilt that adds energy fastest.
+Farther out,
+it tilts to lower its perihelion if that has drifted more than two percent above the target,
+and otherwise turns edge-on.
+Each run starts at the aphelion of a dive orbit from Mercury's distance or Earth's,
+so the cost of entering the dive is excluded.
+The integrator reproduces the analytic results above to the precision shown,
+and it conserves energy to about one part in $10^{14}$ over ten unpowered orbits.
+
+<div style="overflow-x: auto;" markdown="1">
+
+| Perihelion | $\beta$ | Start | Perihelion passes | Years | Final speed, km/s |
+|---|---|---|---|---|---|
+| 10 solar radii | 0.01 | Mercury | 9 | 80, not escaped | none |
+| 10 solar radii | 0.01 | Earth | 4 | 10.3 | 16.9 |
+| 10 solar radii | 0.02 | Mercury | 5 | 6.5 | 27.4 |
+| 10 solar radii | 0.02 | Earth | 2 | 4.9 | 21.5 |
+| 10 solar radii | 0.05 | Mercury | 2 | 2.8 | 35.0 |
+| 10 solar radii | 0.05 | Earth | 1 | 2.5 | 37.6 |
+| 10 solar radii | 0.1 | Mercury | 1 | 2.1 | 44.9 |
+| 10 solar radii | 0.1 | Earth | 1 | 1.6 | 65.8 |
+| 0.1 AU | 0.01 | Mercury | 17 | 30.9 | 11.8 |
+| 0.1 AU | 0.01 | Earth | 8 | 30.7 | 12.2 |
+| 0.1 AU | 0.02 | Mercury | 9 | 19.5 | 20.0 |
+| 0.1 AU | 0.02 | Earth | 4 | 10.5 | 15.0 |
+| 0.1 AU | 0.05 | Mercury | 4 | 6.2 | 31.0 |
+| 0.1 AU | 0.05 | Earth | 2 | 5.0 | 29.1 |
+| 0.1 AU | 0.1 | Mercury | 2 | 3.0 | 34.6 |
+| 0.1 AU | 0.1 | Earth | 1 | 2.7 | 34.8 |
+
+</div>
+
+Four results follow.
+First,
+repeated passes let weak sails escape that could not escape in one face-on pass,
+with up to 17 passes for $\beta = 0.01$ at 0.1 AU.
+Second,
+a tilted sail can beat the face-on ceiling,
+as the 65.8 kilometres per second for $\beta = 0.1$ against a ceiling of 61.8 shows,
+so the ceiling is a reference rather than a limit.
+Third,
+starting from Mercury's distance needs more passes than starting from Earth's,
+not fewer,
+because the Mercury dive orbit is more tightly bound.
+Its passes come more often,
+every 37 days at first against 138 for the Earth dive orbit,
+but in this simulation the total time was the same or longer.
+Fourth,
+the final speeds are not consistently ordered by $\beta$ or by starting point,
+which shows that this control law leaves much on the table.
+The numbers indicate the scale of the strategy rather than its best performance.
+
+Repeated passes therefore make the sun-diving strategy available to sails far weaker than $\beta = 1$,
+but they do not favour Mercury as a starting orbit.
+What favours Mercury is the cost of delivering a sail into its dive.
+A mass driver on Mercury powered by local sunlight needs 51.9 square metre hours of collector per kilogram for a dive to 10 solar radii,
+against 205.7 on the Moon,
+if the sail survives the launch.
+Mercury's role is therefore as the cheapest place to make,
+launch
+and stage sails,
+not as a physically privileged starting orbit.
 
 ### Beamed Propulsion
 
@@ -682,10 +892,130 @@ including the solar Oberth manoeuvre,
 Mercury is the worst starting point.
 For sail and beamed probes,
 the region near Mercury's orbit is the best,
-and Mercury is the only known body in that region that can supply mass,
-so a base there is plausibly the most beneficial site for those methods.
+and Mercury is the only known body in that region that can supply mass.
+Repeated passes do not change this,
+since the speed they reach depends on the sail and its perihelion rather than on its starting orbit,
+but a sunlight-powered mass driver on Mercury is the cheapest way found here to put a sail into a dive.
+A base there is therefore plausibly the most beneficial site for those methods.
 The benefit comes from the distance and from Mercury's materials together,
 and it would be shared by any large orbital industry at the same distance.
+
+## Location Rather Than Substance
+
+### What Belongs to the Distance
+
+The broader form of the hypothesis can be tested by sorting each property by its cause.
+The properties that come from Mercury's distance from the Sun are the sunlight,
+the sail release speed,
+the collector area for beamed power,
+the collector time for a mass driver,
+the short year that brings frequent launch windows,
+and the short trips toward Venus and the Sun.
+The penalties also come from the distance,
+including the deep gravity well,
+the extra solar energetic particles,
+the heat
+and the communication geometry.
+The properties that come from Mercury itself are its ice,
+its low escape speed,
+its lack of air,
+its iron-rich core,
+its slow rotation
+and its solid ground.
+
+Every launch advantage found in this article is in the first list.
+The second list supplies the platform,
+meaning a place to stand,
+material to build with
+and an airless surface for a mass driver.
+Any solid,
+airless body at the same distance would serve nearly as well,
+so the broader claim is supported for Mercury.
+Its value as a launch site lies mostly in where it is,
+and its own properties matter chiefly because it is the only body there to stand on.
+
+### The Innermost Body of Other Stars
+
+The same physics applies around any star of luminosity $L$ and mass $M$,
+written here in solar units.
+A sail with a given loading has a lightness number in proportion to $L/M$,
+because the light scales with $L$ and the gravity with $M$.
+If the sail can tolerate a maximum flux $F_{\max}$,
+its closest perihelion is $q = \sqrt{L/(4\pi F_{\max})}$,
+and the ceiling speed from the previous section becomes the following,
+where $\sigma_{s}$ is the sail's mass per unit area.
+
+$$
+v_{\mathrm{ceiling}}^{2} = \frac{2\beta G M}{q} = \frac{2}{c\,\sigma_{s}}\sqrt{\frac{F_{\max}\,L}{\pi}}
+$$
+
+The stellar mass cancels,
+so for the same sail and the same heat limit the ceiling scales as $L^{1/4}$.
+The rocket penalty scales with the orbital speed $\sqrt{GM/r}$,
+and the mass driver collector time scales as $M r/L$.
+
+Two nearby systems test the general claim.
+Proxima Centauri has a mass of 0.1221 and a luminosity of 0.001567 in solar units
+[Proxima Centauri][ref_proxima_centauri],
+and its innermost known planet,
+Proxima d,
+orbits at 0.02881 AU with at least about a quarter of Earth's mass
+[Proxima Centauri d][ref_proxima_centauri_d].
+TRAPPIST-1 has a mass of 0.0898 and a luminosity of $5.66 \times 10^{-4}$
+[TRAPPIST-1][ref_trappist_1],
+and its innermost planet,
+TRAPPIST-1b,
+orbits at 0.01154 AU
+[TRAPPIST-1b][ref_trappist_1b].
+The table compares them with Mercury,
+using a sail that has $\beta = 1$ around the Sun
+and a heat limit equal to the flux at 10 solar radii from the Sun.
+
+<div style="overflow-x: auto;" markdown="1">
+
+| Innermost body | Sunlight relative to Earth | Orbital speed, km/s | Rocket delta-v to escape the star, km/s | Sail $\beta$ | Sail ceiling, km/s | $M r/L$ relative to Earth's orbit |
+|---|---|---|---|---|---|---|
+| Mercury | 6.67 | 47.87 | 19.83 | 1.0 | 195.3 | 0.387 |
+| Proxima d | 1.89 | 61.32 | 25.40 | 0.0128 | 38.9 | 2.245 |
+| TRAPPIST-1b | 4.25 | 83.09 | 34.42 | 0.0063 | 30.1 | 1.831 |
+
+</div>
+
+The thermally limited perihelia are 0.00184 AU around Proxima Centauri and 0.00111 AU around TRAPPIST-1,
+about 2.6 and 2.0 times the radius of each star,
+so the dives are geometrically possible.
+Around both red dwarfs the innermost body is a poorer launch site than Mercury on every measure.
+Its rocket penalty is deeper,
+its sails are about 80 and 160 times weaker,
+the sail ceiling is a fifth to a sixth of the solar value,
+and the collector time for a mass driver is about 5.8 and 4.7 times longer.
+
+Within each of those systems,
+however,
+the same scaling holds,
+since the collector time is in proportion to $r$ and the sunlight to $1/r^{2}$.
+The innermost body is still the cheapest place in its own system to launch with sunlight.
+Close-in planets add one advantage that Mercury lacks.
+TRAPPIST-1b is likely tidally locked to its star
+[TRAPPIST-1b][ref_trappist_1b],
+and a track fixed to a tidally locked planet keeps a fixed heading relative to its orbital motion,
+so it would be permanently aligned for prograde launches.
+That is an inference from the geometry,
+and it removes the alignment problem found above for Mercury.
+
+Two limits apply to the general claim.
+The innermost known planet of a star can be a gas giant with no surface,
+as with 51 Pegasi b,
+the prototype of the hot Jupiters
+[51 Pegasi b][ref_51_pegasi_b].
+Red dwarfs also flare.
+In 2016 a superflare from Proxima Centauri raised its optical brightness by a factor of 68
+[Proxima Centauri][ref_proxima_centauri],
+which a settlement on Proxima d would have to withstand.
+The generalized claim is therefore supported within any one system for launch powered by starlight,
+on the condition that the innermost body is solid,
+but the size of the advantage depends strongly on the star,
+and the claim says nothing in favour of rockets anywhere.
 
 ## Other Advantages and Disadvantages of a Mercury Base
 
@@ -697,6 +1027,7 @@ The advantages follow.
 - Water ice in permanently shadowed polar craters, confirmed by several independent measurements.
 - A large iron-rich core, which occupies about 57 percent of the planet's volume, against 17 percent for Earth [Mercury][ref_mercury], with a model of a solid crust and mantle over a solid iron-sulfide layer and an iron-rich liquid outer core [Smith et al. 2012][research_smith_et_al_2012].
 - An escape speed of 4.25 kilometres per second with no atmosphere, which allows mass drivers.
+- The lowest sunlight-collection cost per kilogram among the bodies compared for mass-driver launches that escape the Sun or dive toward it.
 - Launch windows to the outer planets about every three months.
 - A slow terminator that moves at walking pace, allowing mobile settlements to stay in moderate conditions.
 - Surface gravity nearly equal to that of Mars.
@@ -711,6 +1042,7 @@ The disadvantages follow.
 - A higher flux of solar energetic particles, by a factor of roughly 2.6 to 13 relative to Earth's distance depending on the measure.
 - A weak magnetic field and no atmosphere to shield the surface.
 - A home that always appears near the Sun from the outer solar system, and regular conjunctions that block links with Earth.
+- A slow rotation that brings a fixed launch track into line with a given departure direction only about once every 176 days.
 - Waste heat rejection that is hardest exactly where the sunlight is strongest, which limits how much of the abundant power can be used. Two-sided flat panels absorbing 90 percent of the light and emitting with an emissivity of 0.85 reach 569 K at perihelion in this simple model, against 315 K at 1 AU.
 
 ## Verdict on the Hypothesis
@@ -720,8 +1052,10 @@ The disadvantages follow.
 | Claim | Verdict | Deciding physics |
 |---|---|---|
 | Part one, Mercury is the hardest body to colonize | Refuted as stated, supported for reaching landable bodies | Venus's surface, Io, the giant planets and the Sun are harder, while Mercury has the highest LEO-to-surface delta-v among landable bodies |
-| Part two A, the best base for probes within the solar system | Refuted for outward targets, supported for Venus and the Sun | The Sun's gravity well raises every outward delta-v, while windows are frequent and inward targets are close |
-| Part two B, the best base for probes to other stars | Partially supported | Rockets and the solar Oberth manoeuvre favour distant origins, while sails and beamed power favour the region near Mercury, where Mercury is the only known source of mass |
+| Part two A, the best base for probes within the solar system | Refuted for outward rockets, supported for sunlight-powered mass drivers and for Venus and the Sun | The Sun's gravity well raises every outward delta-v, while the sunlight needed per kilogram falls in proportion to distance, windows are frequent and inward targets are close |
+| Part two B, the best base for probes to other stars | Partially supported | Rockets and the solar Oberth manoeuvre favour distant origins, while sails and beamed power favour the region near Mercury, and repeated passes depend on the sail rather than the starting orbit |
+| Broader form, value from location rather than substance | Supported for Mercury | Every launch advantage found is a function of distance, and Mercury supplies the only platform at that distance |
+| Broader form, the innermost body of any star | Supported within each system for launch powered by starlight, conditionally | Collector time scales as $M r/L$, but sail performance scales as $L^{1/4}$, rockets are always penalized, and the innermost body may have no surface |
 
 </div>
 
@@ -738,6 +1072,11 @@ exospheric pressure
 and core fraction,
 come from the Wikipedia entries cited,
 which draw on NASA fact sheets and the peer-reviewed literature.
+The masses,
+luminosities
+and orbits of Proxima Centauri,
+TRAPPIST-1
+and their innermost planets come from Wikipedia in the same way.
 The findings attributed to Kopp and Lean
 and to the groups led by Slade,
 Margot,
@@ -777,6 +1116,15 @@ The drag model ignores gravity during the atmospheric passage,
 ablation
 and the variation of gravity with height,
 which matters for Titan's deep atmosphere.
+The repeated-pass results come from a planar simulation of an ideal flat sail under one simple control law.
+They are not optimized,
+they exclude the cost of entering the dive,
+and they ignore heating,
+sail degradation
+and the solar wind.
+The mass driver figures ignore launcher losses,
+night
+and storage.
 The 450 and 900 second specific impulses,
 the use of the 100 gigawatt laser output as an electrical load,
 the panel properties
@@ -792,6 +1140,10 @@ A different weighting,
 for example one dominated by the cost of energy,
 would move the verdict on Part Two A toward support.
 The proposal of a mobile settlement following the terminator is an inference from the terminator speed and has not been evaluated.
+The alignment limit on a fixed launch track and the permanent alignment on a tidally locked planet are inferences from geometry.
+The sorting of properties into those of distance and those of the body is a judgment,
+and the polar ice in particular depends on both,
+since it needs Mercury's small axial tilt and its distance from the Sun together.
 
 **Unaddressed concerns.**
 This article does not model the long-term effects of 0.38 of Earth's gravity on people,
@@ -802,7 +1154,7 @@ The solar energetic particle factors are ensemble averages and do not bound the 
 
 ## Out of Scope
 
-This article does not treat the colonization of bodies outside the solar system,
+This article does not treat the colonization of bodies outside the solar system beyond the launch physics of their innermost planets,
 the politics or law of settlement,
 or the biology of the polar ice deposits.
 It does not compare propulsion technologies beyond the physics needed for each verdict,
@@ -834,9 +1186,26 @@ for frequent launch windows,
 and for sails and beamed propulsion,
 the region near Mercury is the best,
 and Mercury is the only known body there that can supply mass.
-A future civilization would plausibly build its sail yards and laser arrays near Mercury
+Mass drivers powered by sunlight also favour Mercury,
+because the sunlight needed per kilogram falls in proportion to distance from the Sun,
+even though the speeds required rise.
+Repeated passes near the Sun open the sun-diving strategy to weaker sails,
+but they reward the sail and its perihelion rather than its starting orbit.
+A future civilization would plausibly build its sail yards,
+laser arrays
+and mass drivers near Mercury
 and its rocket ports far from the Sun,
 which is a division of labour rather than a single best base.
+
+The broader claim,
+that Mercury's value lies in where it is rather than in what it is,
+holds for every launch advantage found here.
+It extends to the innermost solid body of any star,
+which is the cheapest place in its own system to launch with starlight.
+Around a red dwarf such as Proxima Centauri,
+however,
+that advantage is several times smaller than Mercury's,
+and around a star whose innermost planet is a gas giant there is no surface to build on.
 Self-replicating probes of the kind discussed in an earlier article on this site
 [Von Neumann Probes][related_post_von_neumann_probes]
 would face the same choice of origin.
@@ -844,25 +1213,33 @@ would face the same choice of origin.
 ## References
 
 - [Book, McInnes 1999, Solar Sailing][book_mcinnes_1999]
+- [Reference, 51 Pegasi b, Wikipedia][ref_51_pegasi_b]
 - [Reference, BepiColombo, Wikipedia][ref_bepicolombo]
 - [Reference, Breakthrough Starshot, Wikipedia][ref_breakthrough_starshot]
+- [Reference, Ceres, Wikipedia][ref_ceres]
 - [Reference, Delta-v Budget, Wikipedia][ref_delta_v_budget]
 - [Reference, Gravity Assist, Wikipedia][ref_gravity_assist]
 - [Reference, Hohmann Transfer Orbit, Wikipedia][ref_hohmann_transfer_orbit]
 - [Reference, Io, Wikipedia][ref_io]
+- [Reference, Lunar Month, Wikipedia][ref_lunar_month]
 - [Reference, Mars, Wikipedia][ref_mars]
 - [Reference, Mass Driver, Wikipedia][ref_mass_driver]
 - [Reference, Mercury, Wikipedia][ref_mercury]
 - [Reference, MESSENGER, Wikipedia][ref_messenger]
 - [Reference, Oberth Effect, Wikipedia][ref_oberth_effect]
 - [Reference, Parker Solar Probe, Wikipedia][ref_parker_solar_probe]
+- [Reference, Proxima Centauri d, Wikipedia][ref_proxima_centauri_d]
+- [Reference, Proxima Centauri, Wikipedia][ref_proxima_centauri]
 - [Reference, Solar Sail, Wikipedia][ref_solar_sail]
 - [Reference, Space Colonization, Wikipedia][ref_space_colonization]
 - [Reference, Titan, Wikipedia][ref_titan]
+- [Reference, TRAPPIST-1, Wikipedia][ref_trappist_1]
+- [Reference, TRAPPIST-1b, Wikipedia][ref_trappist_1b]
 - [Reference, Tsiolkovsky Rocket Equation, Wikipedia][ref_tsiolkovsky_rocket_equation]
 - [Reference, Venus, Wikipedia][ref_venus]
 - [Reference, Vulcanoid, Wikipedia][ref_vulcanoid]
 - [Related Post, Introduction to Space Studies][related_post_space_studies]
+- [Related Post, Mass Drivers][related_post_mass_drivers]
 - [Related Post, Venus Cloudtop Buoyant Analog][related_post_venus_cloudtop]
 - [Related Post, Von Neumann Probes][related_post_von_neumann_probes]
 - [Research, Anderson et al. 2011, The Global Magnetic Field of Mercury from MESSENGER Orbital Observations][research_anderson_et_al_2011]
@@ -882,24 +1259,32 @@ would face the same choice of origin.
 - [Research, Vasavada 1999, Near-Surface Temperatures on Mercury and the Moon and the Stability of Polar Ice Deposits][research_vasavada_1999]
 
 [book_mcinnes_1999]: https://doi.org/10.1007/978-1-4471-3992-8
+[ref_51_pegasi_b]: https://en.wikipedia.org/wiki/51_Pegasi_b
 [ref_bepicolombo]: https://en.wikipedia.org/wiki/BepiColombo
 [ref_breakthrough_starshot]: https://en.wikipedia.org/wiki/Breakthrough_Starshot
+[ref_ceres]: https://en.wikipedia.org/wiki/Ceres_(dwarf_planet)
 [ref_delta_v_budget]: https://en.wikipedia.org/wiki/Delta-v_budget
 [ref_gravity_assist]: https://en.wikipedia.org/wiki/Gravity_assist
 [ref_hohmann_transfer_orbit]: https://en.wikipedia.org/wiki/Hohmann_transfer_orbit
 [ref_io]: https://en.wikipedia.org/wiki/Io_(moon)
+[ref_lunar_month]: https://en.wikipedia.org/wiki/Lunar_month
 [ref_mars]: https://en.wikipedia.org/wiki/Mars
 [ref_mass_driver]: https://en.wikipedia.org/wiki/Mass_driver
 [ref_mercury]: https://en.wikipedia.org/wiki/Mercury_(planet)
 [ref_messenger]: https://en.wikipedia.org/wiki/MESSENGER
 [ref_oberth_effect]: https://en.wikipedia.org/wiki/Oberth_effect
 [ref_parker_solar_probe]: https://en.wikipedia.org/wiki/Parker_Solar_Probe
+[ref_proxima_centauri]: https://en.wikipedia.org/wiki/Proxima_Centauri
+[ref_proxima_centauri_d]: https://en.wikipedia.org/wiki/Proxima_Centauri_d
 [ref_solar_sail]: https://en.wikipedia.org/wiki/Solar_sail
 [ref_space_colonization]: https://en.wikipedia.org/wiki/Space_colonization
 [ref_titan]: https://en.wikipedia.org/wiki/Titan_(moon)
+[ref_trappist_1]: https://en.wikipedia.org/wiki/TRAPPIST-1
+[ref_trappist_1b]: https://en.wikipedia.org/wiki/TRAPPIST-1b
 [ref_tsiolkovsky_rocket_equation]: https://en.wikipedia.org/wiki/Tsiolkovsky_rocket_equation
 [ref_venus]: https://en.wikipedia.org/wiki/Venus
 [ref_vulcanoid]: https://en.wikipedia.org/wiki/Vulcanoid
+[related_post_mass_drivers]: {% post_url 2026-08-17-mass_drivers %}
 [related_post_space_studies]: {% post_url 2026-02-21-introduction_to_space_studies %}
 [related_post_venus_cloudtop]: {% post_url 2026-07-06-venus_cloudtop_buoyant_analog %}
 [related_post_von_neumann_probes]: {% post_url 2026-03-05-von_neumann_probes %}

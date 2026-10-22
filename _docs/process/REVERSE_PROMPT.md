@@ -4,6 +4,30 @@
 
 ## Last Updated
 
+**Date**: 2026-10-22 (second entry)
+**Task**: **Mercury article RENUMBERED to A382 and redated to 2026-08-18, revised. A381 is now a minimal mass driver stub at 2026-08-17. Committed, NOT pushed, NOT published.** On the pilot's instruction to cover the multipass scenario and mass driver launches, to test the broader hypothesis that Mercury's value lies in where it is, extended to the closest significant body of any star, and to free A381 and 2026-08-17 for a mass driver article to be specified later.
+
+**What was done.**
+1. The Mercury draft now carries A382 and 2026-08-18. `_drafts/mass_drivers.markdown` holds A381 and 2026-08-17 with one sentence and one reference, and A382 links to it by `post_url`. The scratch directory moved from `tmp/a381` to `tmp/a382`.
+2. **Repeated passes.** A planar simulation of an ideal flat sail, `tmp/a382/multipass.py`, validated by `multipass_check.py` against energy conservation and two analytic cases, covers four lightness numbers, two perihelia and two starting orbits.
+3. **Mass drivers.** A table covers Mercury, the Moon and Ceres for four kinds of launch, with speed, track length, energy and collector time per kilogram. A scaling result shows that collector time goes as M r / L.
+4. **Location and other stars.** One new section sorts each property by whether it comes from the distance or from the body. Another compares the innermost planets of Proxima Centauri and TRAPPIST-1 with Mercury.
+5. `_verify.py` reports 0 errors and 0 warnings, the scratch build with both drafts passed, and the render audit found nothing on 549 pages. The seven new Wikipedia pages return 200.
+
+**Findings that changed the analysis.**
+- My answer before this revision said repeated passes were essential for sails with a lightness number of 0.1 or less. That was based on face-on releases only. With a tilted sail, a single pass escapes down to a lightness number of about 0.05 to 0.2, depending on the starting orbit and the perihelion, and repeated passes are needed below that.
+- Repeated passes from Mercury's distance take more passes than from Earth's, not fewer, and no less total time. Their final speed depends on the sail and its perihelion rather than on the starting orbit.
+- In collector time, a sunlight-powered mass driver on Mercury is the cheapest origin for escaping the Sun and for diving toward it, by about 2 and 4 times against the Moon. This moves Part Two A toward support for mass drivers.
+- Around red dwarfs, the innermost body is a poorer site than Mercury on every measure. It is still the cheapest launch site within its own system.
+
+**Limits.** The sail control law is simple and not optimal, and its results are not consistently ordered. The mass driver figures ignore launcher losses, night and storage. The alignment limit on a fixed track is an inference from geometry.
+
+**Interlock.** A381 must be written and published before A382, because A382 links to it.
+
+**Next, on the pilot's word.** The A381 specification, and the three remaining passes on A382.
+
+## Previous Report (2026-10-22, first entry)
+
 **Date**: 2026-10-22 (first entry)
 **Task**: **A381 DRAFTED, *Mercury as a Colony and a Launch Site*, editorial date 2026-08-17. Committed, NOT pushed, NOT published.** On the pilot's instruction, "Draft an article on the following topic as A381, backdated to 2026-08-17," testing a two-part hypothesis that Mercury is the hardest body to colonize and, once colonized, the best launch site for probes within the solar system and to neighboring stars.
 
