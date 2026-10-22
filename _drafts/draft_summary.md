@@ -17,14 +17,37 @@ Missing sections and prose will need to be drafted.
 Stubs and largely incomplete drafts are assessed for topicality and publication merit.
 
 
-## Building an Integrated Enterprise from Distressed Acquisitions A379 2026-08-15 DRAFTED
+## Building an Integrated Enterprise from Distressed Acquisitions A379 2026-08-15 ALL FOUR PASSES COMPLETE
 
 `_drafts/distressed_acquisitions_and_integration.markdown`, A379, editorial date 2026-08-15, standalone analytical
 essay and companion to A378, categories `business economics finance`, no series. Drafted 2026-10-21 on the pilot's
 instruction from a question about whether established theory covers building a vertically and horizontally
 integrated enterprise from bankrupt or fire-sale acquisitions and repurposing them. **NOT published.**
 
-**Drafting pass complete. The citation, pathological word usage and publication review passes remain.** 602 lines,
+**ALL FOUR PASSES COMPLETE 2026-10-21, NOT published.** Final state 607 lines, 6 display equations, 40 inline
+expressions, 44 references.
+
+**Citation pass.** Fifteen edits. The Wikipedia resource-based view page did not support the paraphrase that the
+view treats acquisition as a way to obtain resources that cannot be bought separately, so the sentence now reports
+what the page says, the criticism that the view assumes resources exist without asking how capabilities are acquired.
+The 363 sale is no longer described as the usual route, since the source says only perhaps. Inferences are labelled
+as the article's own, among them the acquirer's loss of supplier incentives, the vulture result read as a transfer of
+control rights, the discount and redeployability conflict, and the roll-up liquidity mechanism. "Normal" redeployment
+became "common", "only if" became "only where", an unsupported claim that governance mattered more than scale was
+withdrawn, and a broken sentence in the Conclusion was repaired.
+
+**Pathological word usage pass.** The enumerated classes and constructions were clean before and after. The citation
+edits raised `when` to 38 uses at 1.41 times the peer maximum, now 25 and below it, and `With` opening worked examples
+was rotated. `their` was trimmed below the maximum. No discovered formula was introduced, by a before-and-after diff.
+The remaining outliers are the subject (redeployed, redeployment, acquirer, distressed, buyer) and the technical term
+`property rights theory`.
+
+**Publication review.** No dashes, contractions, prose colons, semicolons or parentheticals, no acronyms or gendered
+pronouns, references used, defined and sorted, three overlong lines broken, every worked number recomputed,
+36 of 36 DOIs registered and 7 of 7 Wikipedia pages 200, `_verify.py` 0 and 0, scratch production build ok,
+render 546 pages no findings.
+
+**Drafting pass record, kept as history.** 602 lines,
 6 display equations, 40 inline expressions, 44 references, of which 36 are DOI-linked research papers, 7 are
 Wikipedia entries and 1 is the back-reference to A378. The thesis is that the strategy rests on four established
 bodies of theory, namely firm boundaries, the market for corporate assets, fire sales and resource redeployment,

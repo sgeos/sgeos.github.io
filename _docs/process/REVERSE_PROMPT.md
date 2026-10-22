@@ -4,6 +4,26 @@
 
 ## Last Updated
 
+**Date**: 2026-10-21 (seventh entry)
+**Task**: **A379, ALL FOUR PASSES COMPLETE. Committed, NOT pushed, NOT published.** On the pilot's instruction, "Run the remaining three passes on A378."
+
+**Which article.** The prompt named A378. A378 already had all three passes this session and is published, while A379 had only its drafting pass, so the passes were run on A379. Nothing published was touched. If A378 was meant, the pilot should say so.
+
+**Citation pass.** 15 edits.
+- The resource-based view sentence paraphrased the Wikipedia page in a way the page does not support. It now reports the page's criticism that the view does not investigate how capabilities are acquired.
+- The 363 sale is no longer called the usual route.
+- Five inferences are now labelled as the article's own.
+- Three overstatements were softened, and an unsupported claim about governance against scale was withdrawn.
+- A broken sentence in the Conclusion was repaired.
+
+**Word usage pass.** The citation edits pushed `when` to 1.41 times the peer maximum. It is now 25 uses, below the maximum. Worked-example openers and one `their` were rotated, and a before-and-after diff found no new formula. The remaining outliers are subject terms.
+
+**Publication review.** Clean on punctuation, contractions, acronyms, pronouns, references and line structure. All numbers recomputed. 36 of 36 DOIs are registered and 7 of 7 Wikipedia pages return 200. `_verify.py` reports 0 errors and 0 warnings, the scratch build passed, and the render audit found nothing on 546 pages. The article is 607 lines, with 6 display equations and 44 references.
+
+**Next, on the pilot's word.** Publication, as `_posts/2026-08-15-distressed_acquisitions_and_integration.markdown`. Its only `post_url` points back to A378, which is live.
+
+## Previous Report (2026-10-21, sixth entry)
+
 **Date**: 2026-10-21 (sixth entry)
 **Task**: **A379 DRAFTED, *Building an Integrated Enterprise from Distressed Acquisitions*, editorial date 2026-08-15. Committed, NOT pushed, NOT published.** On the pilot's instruction, "Draft an article on the previously mentioned topic as A379, backdated to 2026-08-15."
 

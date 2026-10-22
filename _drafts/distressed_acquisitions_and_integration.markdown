@@ -16,7 +16,7 @@ such as a supplier and the manufacturer that buys from it
 and horizontally integrated when it combines firms at the same stage of production
 [Horizontal Integration][ref_horizontal_integration].
 One way to assemble such a firm is to buy the pieces,
-and one way to buy them cheaply is to buy them when they are distressed,
+and one way to buy them cheaply is to buy them while they are distressed,
 bankrupt or forced to sell at a discount,
 and then to put their assets to a different use.
 
@@ -32,7 +32,7 @@ The article sets out each with a small model and worked numbers,
 shows where they reinforce one another and where they conflict,
 and reviews what is known about buyers of distressed firms and about serial acquirers.
 
-The companion article on the conglomerate discount covers what happens to value when the businesses combined are unrelated
+The companion article on the conglomerate discount covers what happens to value if the businesses combined are unrelated
 [What the Conglomerate Discount Measures][related_post_conglomerate_discount].
 This article concerns related businesses,
 where the combination is meant to create value through the supply chain or through scale.
@@ -93,7 +93,7 @@ the first-best investment is 100 and the surplus 100,
 while under hold-up the investment falls to 25 and the surplus to 75.
 A quarter of the surplus is lost to underinvestment.
 If owning the supplier removes the hold-up but costs $G$ per period in administration and weaker incentives,
-integration pays when $G < 25$.
+integration pays if $G < 25$.
 The loss rises with the square of $k$,
 so integration pays most where specific investment matters most.
 
@@ -105,12 +105,12 @@ Grossman and Hart distinguish specific contractual rights from residual rights o
 and define ownership as the purchase of the residual rights.
 When one party buys them the other loses them,
 which distorts the incentives of the party that sold.
-Firm 1 should buy firm 2 when its gain in productivity from control exceeds firm 2's loss from giving control up
+Firm 1 should buy firm 2 if its gain in productivity from control exceeds firm 2's loss from giving control up
 [Grossman and Hart 1986][research_grossman_hart_1986].
 Hart and Moore identify a firm with the assets its owners control,
 and they show how changes in ownership alter the incentives of employees as well as of owner-managers
 [Hart and Moore 1990][research_hart_moore_1990].
-For an acquirer, the lesson is that buying a supplier transfers control
+The implication this article draws for an acquirer is that buying a supplier transfers control
 and can weaken the incentives of the people who made the supplier valuable.
 
 ### What the Evidence Shows
@@ -118,7 +118,7 @@ and can weaken the incentives of the people who made the supplier valuable.
 Lafontaine and Slade review the empirical work on which transactions are brought inside firms
 and on what integration does to prices, quantities, investment and profits
 [Lafontaine and Slade 2007][research_lafontaine_slade_2007].
-Several studies since then complicate the simple picture of integration as a way to secure supply.
+Several studies complicate the simple picture of integration as a way to secure supply.
 Atalay, Hortaçsu and Syverson find that roughly half of upstream establishments report no shipments to downstream establishments within the same firm.
 They argue that vertical ownership promotes transfers of intangible inputs,
 and they find that an acquired establishment begins to resemble its acquirer along several dimensions after the change of ownership
@@ -129,13 +129,14 @@ Prices fall and quantities rise as markets become more integrated,
 and the productivity advantage of integrated producers comes from the logistics of large local concrete operations,
 which non-vertical firms with similar operations share
 [Hortaçsu and Syverson 2007][research_hortacsu_syverson_2007].
-Major airlines, according to Forbes and Lederman, are more likely to own the regional carriers that fly routes where adaptation decisions are frequent and costly,
+Major airlines, according to Forbes and Lederman,
+are more likely to own the regional carriers that fly routes where adaptation decisions are frequent and costly,
 consistent with ownership economizing on renegotiation
 [Forbes and Lederman 2009][research_forbes_lederman_2009].
 Aghion, Griffith and Howitt report a U-shaped relation between product market competition and vertical integration
 [Aghion, Griffith and Howitt 2006][research_aghion_griffith_howitt_2006].
 
-The stock market has rewarded vertical combinations.
+In one large sample the stock market rewarded vertical combinations.
 Fan and Goyal measure vertical relatedness with industry commodity flows for mergers completed from 1962 to 1996.
 Almost a third of the mergers display vertical relatedness,
 and their wealth effects are significantly larger than those of diversifying mergers
@@ -157,7 +158,7 @@ let the merger raise the price by the fraction $x$ and lower unit cost by the fr
 and let $\eta$ be the absolute price elasticity of demand.
 The deadweight loss from the higher price is approximately $\tfrac{1}{2}\eta x^{2}$ of pre-merger revenue,
 and the cost saving on the reduced output is approximately $s(1 - \eta x)$ of it.
-Total surplus rises when the second exceeds the first.
+Total surplus rises if the second exceeds the first.
 
 $$
 s > \frac{\eta\, x^{2}}{2\left(1 - \eta x\right)}
@@ -224,7 +225,7 @@ P = \max\left(V_{o},\, L\right) \quad \text{when } L < V_{b},
 D = 1 - \frac{P}{V_{b}}
 $$
 
-With $V_{b} = 100$, $V_{o} = 70$ and $L = 60$,
+Taking $V_{b} = 100$, $V_{o} = 70$ and $L = 60$,
 the asset sells for 70 at a discount of 30 percent.
 
 The gain to a buyer whose own value for the asset is $V_{a}$ decomposes into four terms.
@@ -237,7 +238,7 @@ $$
 \text{gain} = \underbrace{\left(V_{b} - P\right)}_{\text{discount}} - \underbrace{\left(V_{b} - V_{a}\right)}_{\text{use gap}} - C + S
 $$
 
-With an integration cost of 8 and a synergy of 5 where one applies,
+Given an integration cost of 8 and a synergy of 5 where one applies,
 three buyers fare very differently.
 An outsider values the asset at 70,
 so its use gap equals the discount and its gain is $30 - 30 - 8 = -8$.
@@ -256,11 +257,12 @@ The buyer that gains most is a best user that is not constrained when its peers 
 Pulvino finds that financially constrained airlines receive lower prices than unconstrained rivals when selling used narrow-body aircraft,
 and are more likely to sell to industry outsiders,
 especially in downturns.
-Unconstrained airlines increase their purchases when aircraft prices are depressed,
+Unconstrained airlines increase purchases when aircraft prices are depressed,
 and constrained airlines do not
 [Pulvino 1998][research_pulvino_1998].
 This is the unconstrained peer of the model, observed.
-Acharya, Bharath and Srinivasan report that creditors of defaulted firms in the United States from 1982 to 1999 recover significantly less when the defaulter's industry is in distress.
+Acharya, Bharath and Srinivasan report that creditors of defaulted firms in the United States from 1982 to 1999
+recover significantly less when the defaulter's industry is in distress.
 The effect is strongest where assets are specific to the industry and the other firms in it are illiquid,
 which they interpret as a fire-sale effect rather than only an effect of the downturn
 [Acharya, Bharath and Srinivasan 2007][research_acharya_bharath_srinivasan_2007].
@@ -268,7 +270,7 @@ which they interpret as a fire-sale effect rather than only an effect of the dow
 The way a firm is sold matters.
 In Swedish bankruptcy auctions,
 Eckbo and Thorburn find fire-sale discounts when the auction ends in piecemeal liquidation,
-but not when the firm is sold as a going concern,
+but not where the firm is sold as a going concern,
 and in going-concern sales neither industry-wide distress nor the buyer's industry appears to affect prices
 [Eckbo and Thorburn 2008][research_eckbo_thorburn_2008].
 A going-concern buyer may therefore pay close to full value,
@@ -278,8 +280,8 @@ while a buyer of the pieces may pay a discount but must then assemble the pieces
 
 In the United States,
 a firm in Chapter 11 can sell divisions or other assets during the case,
-often in what is called a 363 sale,
-and such a sale may realize a higher price than a liquidation under Chapter 7
+for example in what is called a 363 sale,
+and the existing management may help such a sale realize a higher price than a liquidation under Chapter 7
 [Chapter 11, Title 11, United States Code][ref_chapter_11].
 Foroughi, Gilson, Hotchkiss and Waldock document the rise of mergers and acquisitions in bankruptcy,
 which they report blurs the line between reorganization and liquidation.
@@ -287,10 +289,10 @@ In the version of the paper read for this article,
 such sales are countercyclical,
 more likely when financing a reorganization costs more than the financing available to a buyer,
 and more common with greater reliance on secured debt, but only for sales of going concerns.
-Overall creditor recoveries are higher when businesses are sold as going concerns
+Overall creditor recoveries are higher for businesses sold as going concerns
 [Foroughi, Gilson, Hotchkiss and Waldock 2015][research_foroughi_2015].
 
-Bankruptcy is not by itself the source of the inefficiency.
+Bankruptcy status itself appears to matter less than the state of the industry.
 Plant-level data lead Maksimovic and Phillips to conclude
 that industry conditions explain the productivity, asset sales and closures of bankrupt firms much better than Chapter 11 status does
 [Maksimovic and Phillips 1998][research_maksimovic_phillips_1998].
@@ -314,7 +316,7 @@ and the target's stock and bonds earn positive abnormal returns when a vulture p
 They conclude that vulture investors add value by disciplining managers
 [Hotchkiss and Mooradian 1997][research_hotchkiss_mooradian_1997].
 In that evidence the gain comes from control and governance,
-which is the transfer of residual control rights that property rights theory describes.
+which this article reads as the transfer of residual control rights that property rights theory describes.
 
 ## Redeploying What Was Bought
 
@@ -329,7 +331,8 @@ After increases in uncertainty,
 firms with less redeployable capital cut investment more,
 and more redeployable assets have higher recovery rates and trade more actively in secondary markets
 [Kim and Kung 2016][research_kim_kung_2016].
-The two results bear directly on repurposing.
+The two results bear directly on repurposing,
+and this article draws an inference from them that neither paper states.
 An asset that can be redeployed holds its value in distress,
 so it is seldom cheap,
 while an asset that is cheap in distress tends to be specific,
@@ -339,15 +342,15 @@ The discount and the difficulty of repurposing tend to come together.
 **Acquirers redeploy in both directions.**
 Capron, Dussauge and Mitchell study how resources move between the target and the acquirer after horizontal acquisitions in Europe and North America
 [Capron, Dussauge and Mitchell 1998][research_capron_dussauge_mitchell_1998].
-With survey data on 253 horizontal acquisitions in manufacturing from 1988 to 1992,
+Using survey data on 253 horizontal acquisitions in manufacturing from 1988 to 1992,
 Capron finds that both asset divestiture and resource redeployment can contribute to acquisition performance,
 but that performance is at significant risk when the divested assets and redeployed resources are those of the target
 [Capron 1999][research_capron_1999].
 Capron, Mitchell and Swaminathan show that redeployment leads to divestiture from the business that receives the redeployed resources,
 and they interpret acquisition, redeployment and divestiture together as a process for reconfiguring a firm's resources
 [Capron, Mitchell and Swaminathan 2001][research_capron_mitchell_swaminathan_2001].
-In this evidence, repurposing is the normal aftermath of an acquisition rather than an exception,
-and taking apart the target is its most dangerous form.
+In this evidence, redeployment is a common aftermath of an acquisition,
+and redeploying or divesting the target's own resources is its riskiest form.
 
 **Resources as the unit of strategy.**
 Wernerfelt proposed analysing firms by their resources rather than their products
@@ -357,21 +360,23 @@ and Barney argued that resources yield sustained advantage when they are valuabl
 Teece, Pisano and Shuen extended the view to dynamic capabilities,
 the capacity to reconfigure resources as conditions change
 [Teece, Pisano and Shuen 1997][research_teece_pisano_shuen_1997].
-The resource-based view treats acquisition as a way to obtain resources that cannot be bought separately
-[Resource-Based View][ref_resource_based_view].
-On this view, a buildup creates value only if the acquirer has a capability for redeploying what it buys that its rivals lack.
+One criticism of the resource-based view is that it assumes resources simply exist,
+without investigating how key capabilities are acquired or developed
+[Resource-Based View][ref_resource_based_view],
+which is the question a buildup strategy has to answer.
+On this view, a buildup creates lasting value only where the acquirer has a capability for redeploying what it buys that its rivals lack.
 
 ## Serial Acquisition and Roll-ups
 
 A buildup is a sequence of acquisitions,
-and the research on sequences is more specific than that on single deals.
+and research on firms that make many acquisitions addresses sequences directly.
 Fuller, Netter and Stegemoller study firms that acquired five or more targets within a short period.
 Bidder shareholders gain when the target is a private firm or a subsidiary
 and lose when it is a public firm,
 and they interpret the pattern as consistent with a liquidity discount on targets that cannot easily be sold,
 together with tax and control effects
 [Fuller, Netter and Stegemoller 2002][research_fuller_netter_stegemoller_2002].
-That liquidity discount is the same mechanism as the fire sale,
+This article reads that liquidity discount as the same mechanism as the fire sale,
 operating on private firms that have few buyers.
 
 Brown, Dittmar and Servaes study roll-up initial public offerings,
@@ -381,19 +386,19 @@ and their operating performance matches comparable firms but does not justify th
 Performance improves when the owners and managers of the combined firms remain involved as shareholders and directors,
 and it worsens with higher ownership by the sponsor
 [Brown, Dittmar and Servaes 2004][research_brown_dittmar_servaes_2004].
-In that sample, the governance of the consolidation affected its success more than its scale did.
+In that sample, the governance of the consolidation mattered to its success.
 
 ## Holding Liquidity for the Next Downturn
 
-The fire-sale evidence implies that the buyer's advantage is liquidity when others have none.
+The fire-sale evidence implies that the buyer's advantage is liquidity at a time others have none.
 That advantage has a cost,
 because capital held in reserve earns less than capital put to work.
 Let $K$ be the capital held in reserve,
 $c$ the annual cost of holding it as a fraction of $K$,
-$A$ the size of the asset bought when an opportunity arises,
+$A$ the size of the asset bought in an opportunity,
 $d$ the net gain per opportunity as a fraction of $A$,
 and $p$ the annual probability that an opportunity arises.
-Holding the reserve pays in expectation when the following holds.
+Holding the reserve pays in expectation under the following condition.
 
 $$
 p\, d\, A \;\geq\; c\, K
@@ -401,7 +406,7 @@ $$
 
 With $K = 500$ and $c = 3$ percent,
 the reserve costs 15 a year.
-With $A = 300$ and $d = 25$ percent,
+For $A = 300$ and $d = 25$ percent,
 an opportunity is worth 75.
 The reserve pays if opportunities arise with an annual probability of at least $15 / 75 = 0.20$,
 about once every five years.
@@ -413,7 +418,7 @@ so a repurposer that used the headline figure for $d$ would overstate the value 
 
 ## How the Four Bodies of Theory Fit Together
 
-The four bodies of theory combine into a coherent account of when the strategy can work,
+The four bodies of theory combine into a coherent account of the conditions under which the strategy can work,
 though no single model in the literature cited here contains all four.
 
 1. **Integration must pay on its own terms.**
@@ -426,13 +431,13 @@ A buyer that is not a best user loses most of the discount to the use gap.
 In the aircraft data unconstrained peers buy when prices are depressed,
 and the reserve condition puts a price on being ready.
 4. **The buyer must be able to redeploy what it buys.**
-Redeployment studies find repurposing normal after acquisitions
-and that taking the target apart carries the most risk.
+Redeployment studies find redeployment common after acquisitions
+and riskiest when it takes resources from the target.
 5. **The sequence must be governed.**
-Roll-up studies report that consolidation without the continued involvement of the acquired firms' owners has performed poorly.
+Roll-up offerings have performed poorly on average and better when the acquired firms' owners stay involved.
 
 The account has a built-in conflict.
-Assets are cheapest in distress when they are specific,
+Assets are cheapest in distress if they are specific,
 and specific assets are the hardest to redeploy.
 The strategy therefore works best for a buyer whose own business is the best alternative use,
 which is the same industry or the adjacent stage of the same chain.
@@ -453,7 +458,8 @@ and Hotchkiss and Mooradian.
 The Foroughi paper exists in more than one version,
 and a 2015 draft credits Gilson, Hotchkiss and Osborn,
 so its findings are reported as those of the version read.
-The Coase, Klein and coauthors, Shleifer and Vishny 2011, Betton and coauthors, and Teece and coauthors works are cited for their subject and their widely summarized argument.
+The Coase, Klein and coauthors, Shleifer and Vishny 2011, Betton and coauthors, and Teece and coauthors works
+are cited for their subject and their widely summarized argument.
 The two Williamson works are cited through reprints of articles first published in 1971 and 1968.
 None of the papers was read in full.
 
@@ -496,9 +502,9 @@ and what control costs.
 The market for corporate assets explains acquisitions as reallocation toward better users,
 while research on acquirer returns warns that acquirers often pay too much.
 The fire-sale literature accounts for the cheapness of distressed assets
-and identifies the buyers who gain most are best users that remain unconstrained when their peers are not.
-The redeployment literature finds repurposing to be the normal aftermath of acquisition,
-and that assets cheap enough to be bargains are often too specific to repurpose easily.
+and identifies the buyers who gain most as best users that remain unconstrained when their peers are not.
+The redeployment literature finds redeployment common after acquisitions,
+and the redeployability evidence suggests that assets cheap enough to be bargains are often too specific to repurpose easily.
 
 Taken together,
 these results favour a buyer in the same industry or the adjacent stage of the same chain,
