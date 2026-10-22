@@ -4,6 +4,31 @@
 
 ## Last Updated
 
+**Date**: 2026-10-21 (sixth entry)
+**Task**: **A379 DRAFTED, *Building an Integrated Enterprise from Distressed Acquisitions*, editorial date 2026-08-15. Committed, NOT pushed, NOT published.** On the pilot's instruction, "Draft an article on the previously mentioned topic as A379, backdated to 2026-08-15."
+
+**What was done.**
+1. A379 was the next free number, and the 2026-08-15 slot is free of posts and drafts. A378's deploy succeeded and its page returns 200 live, which this commit also records in TASKLOG.
+2. The draft is `_drafts/distressed_acquisitions_and_integration.markdown`, the companion to A378, with categories `business economics finance`. It runs to 602 lines, with 6 display equations and 44 references, including a back-reference to A378.
+3. The thesis is that four established bodies of theory bear on the strategy and none covers it whole: firm boundaries, the market for corporate assets, fire sales and redeployment. The models built for the article cover:
+   - hold-up, which costs a quarter of the surplus in the example;
+   - the horizontal efficiency tradeoff, where a 10 percent price rise is offset by a 1.25 percent cost cut at elasticity 2;
+   - the fire-sale price, with a gain decomposition in which an outsider loses 8, an unconstrained peer gains 27 and a repurposer gains 7 on the same 30 percent discount;
+   - a reserve-liquidity break-even, which needs one opportunity every five years in the example.
+4. The conclusion is a five-part synthesis. The strategy favours a related buyer that is liquid in downturns, able to redeploy what it buys and well governed, because the discount largely measures how little an outsider can do with the asset.
+5. Gates. `_verify.py` reported 0 errors and 0 warnings. The scratch production build succeeded with the A378 `post_url` resolving, and the render audit found nothing on 546 pages. All 36 DOIs are registered and all 7 Wikipedia pages return 200. The enumerated diction classes are clean. The draft's own formula, "the evidence on" at 18.4 times the peer maximum, was rotated together with "shows" and "explains".
+
+**Limits.**
+- No paper was read in full. Six papers rest on search-indexed abstract summaries, named in the Epistemic State.
+- The Foroughi and coauthors record has a 2015 draft crediting different coauthors, which the article discloses.
+- Moeller and coauthors and Kedia and coauthors were dropped because their findings could not be confirmed.
+- The classic Williamson papers are cited through reprints, because the originals have no DOI in either service.
+- justice.gov, ftc.gov and law.cornell.edu are outside the sandbox allowlist and were not used. Section 363 rests on the Wikipedia Chapter 11 article.
+
+**Next, on the pilot's word.** The citation, pathological word usage and publication review passes.
+
+## Previous Report (2026-10-21, fifth entry)
+
 **Date**: 2026-10-21 (fifth entry)
 **Task**: **A378 PUBLISHED, *What the Conglomerate Discount Measures*.** On the pilot's instruction, "Publish A378 and push it."
 

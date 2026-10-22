@@ -17,6 +17,29 @@ Missing sections and prose will need to be drafted.
 Stubs and largely incomplete drafts are assessed for topicality and publication merit.
 
 
+## Building an Integrated Enterprise from Distressed Acquisitions A379 2026-08-15 DRAFTED
+
+`_drafts/distressed_acquisitions_and_integration.markdown`, A379, editorial date 2026-08-15, standalone analytical
+essay and companion to A378, categories `business economics finance`, no series. Drafted 2026-10-21 on the pilot's
+instruction from a question about whether established theory covers building a vertically and horizontally
+integrated enterprise from bankrupt or fire-sale acquisitions and repurposing them. **NOT published.**
+
+**Drafting pass complete. The citation, pathological word usage and publication review passes remain.** 602 lines,
+6 display equations, 40 inline expressions, 44 references, of which 36 are DOI-linked research papers, 7 are
+Wikipedia entries and 1 is the back-reference to A378. The thesis is that the strategy rests on four established
+bodies of theory, namely firm boundaries, the market for corporate assets, fire sales and resource redeployment,
+and on no theory of the whole. The models built for the article are a hold-up model, a linear surplus tradeoff for
+horizontal mergers, a fire-sale price with a four-term decomposition of the buyer's gain, and a reserve-liquidity
+break-even. Every worked number recomputes from `tmp/a379/numbers.py`. Findings come from Crossref or OpenAlex
+abstracts, or for six papers from search-indexed abstract summaries, named in the Epistemic State. The Foroughi,
+Gilson, Hotchkiss and Waldock record has a 2015 draft crediting Gilson, Hotchkiss and Osborn, which the article
+discloses. Moeller and coauthors and Kedia and coauthors were dropped because no abstract could be confirmed.
+`_verify.py` 0 and 0, scratch production build with the draft in `_posts/` ok and the A378 `post_url` resolving,
+render 546 pages no findings, 36 of 36 DOIs registered, 7 of 7 Wikipedia pages 200. The diction checks against
+333 peers were clean on the enumerated classes, and the discovered formulas `the evidence on`, at 18.4 times the
+peer maximum, together with `shows` and `explains`, were rotated during drafting. Scratch in gitignored `tmp/a379/`.
+**The draft is now the source of truth**, and `body.md` and `refs.md` there must not be reassembled over it.
+
 ## What the Conglomerate Discount Measures A378 2026-08-14 PUBLISHED
 
 `_posts/2026-08-14-conglomerate_discount.markdown`, A378, editorial date 2026-08-14, standalone analytical essay, categories
