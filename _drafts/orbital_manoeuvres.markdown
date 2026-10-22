@@ -130,6 +130,8 @@ The equation is named after Konstantin Tsiolkovsky,
 who published it in 1903,
 although William Moore had outlined it as early as 1810
 [Tsiolkovsky Rocket Equation][ref_tsiolkovsky_rocket_equation].
+Johnson has published the contents of Moore's treatise on the motion of rockets with a commentary
+[Johnson 1995][research_johnson_1995].
 Its consequence is that delta-v grows only with the logarithm of the mass ratio,
 so the mass ratio grows exponentially with the delta-v demanded.
 
@@ -150,8 +152,11 @@ the mass ratios of successive burns multiply
 [Delta-v][ref_delta_v],
 and a mission budget can be built burn by burn.
 The equation applies to any device that expels reaction mass,
-including a small mass driver used as an engine on board a spacecraft
+including a mass driver used as a reaction engine
 [Mass Driver][ref_mass_driver].
+A 1977 design study of such an engine as an upper stage for the Space Shuttle
+would accelerate segments of spent external tankage to exhaust velocities of 8 to 10 kilometres per second
+[Unattributed 1977][research_mass_driver_reaction_engine_1977].
 
 Two further relations connect the rocket equation to engine data.
 The exhaust speed is the specific impulse $I_{\mathrm{sp}}$ multiplied by standard gravity $g_{0}$,
@@ -644,7 +649,8 @@ $$
 
 Leaving the 300 kilometre orbit with an excess of 2.94 kilometres per second,
 roughly what a Hohmann transfer to Mars needs
-[Patched Conic Approximation][ref_patched_conic_approximation],
+[Patched Conic Approximation][ref_patched_conic_approximation]
+and what the Hohmann equations above give as 2.945,
 costs 3.589.
 Escaping first and then adding the excess separately would cost 6.140.
 The difference is the Oberth effect.
@@ -684,6 +690,7 @@ $$
 For Mars,
 arriving with an excess of 2.65 kilometres per second
 [Patched Conic Approximation][ref_patched_conic_approximation],
+which the Hohmann equations give as 2.649,
 the best circular capture is at a radius of 12,197 kilometres for 1.874 kilometres per second,
 against 2.092 at 300 kilometres altitude and 1.978 at three times the optimal radius.
 Capture into an ellipse is far cheaper.
@@ -811,7 +818,9 @@ also called weak stability boundary trajectories,
 include ballistic capture,
 and they take longer than higher-energy transfers such as Hohmann transfers
 [Low-Energy Transfer][ref_low_energy_transfer].
-Japan's Hiten and Europe's SMART-1 used them
+Japan's Hiten used a weak stability boundary transfer
+[Belbruno and Carrico 2000][research_belbruno_carrico_2000],
+and Europe's SMART-1 is also listed among missions that used low-energy transfers
 [Low-Energy Transfer][ref_low_energy_transfer].
 Belbruno and Miller described Sun-perturbed transfers to the Moon with ballistic capture through weak stability boundaries,
 using about 18 percent less delta-v than a Hohmann transfer to reach a circular lunar orbit,
@@ -843,8 +852,8 @@ The table collects the costs computed in this article for the running examples.
 
 The manoeuvres above rest on a literature that runs from the 1940s to the present.
 This section surveys it by topic.
-Where a work's abstract was available its findings are stated,
-and where only its title was available it is described by its title alone.
+Each work is described according to its published abstract,
+or by its subject alone where it is cited for its title.
 
 ### Surveys and Textbooks
 
@@ -868,8 +877,7 @@ and Schurmann treated optimum staging of multistage vehicles ten years later
 Culler and Fried gave universal solutions for the gravity turn,
 which depend on the initial thrust-to-weight ratio and the initial kick angle
 [Culler and Fried 1957][research_culler_fried_1957].
-No dedicated analysis of gravity loss with a verifiable abstract was found,
-and the treatment above rests on the cited encyclopedia entry.
+The treatment of gravity loss above rests on the cited encyclopedia entry.
 
 ### Optimal Impulsive Transfers
 
@@ -993,17 +1001,12 @@ and with Gómez and Masdemont treated connecting orbits and invariant manifolds 
 Topputo studied optimal two-impulse Earth-Moon transfers in a four-body model
 [Topputo 2013][research_topputo_2013].
 
-### Gaps
+### Foundations
 
-No digital object identifier was found for several foundational works,
-so they are not cited directly.
-These include Hohmann's 1925 book
-[Hohmann Transfer Orbit][ref_hohmann_transfer_orbit],
-Lawden's 1963 monograph on optimal trajectories,
-Lancaster and Blanchard's unified form of Lambert's problem,
-Tschauner and Hempel's 1965 paper introducing the elliptic relative-motion equations,
-and the early gravity-assist memoranda of Minovitch and Flandro.
-No primary paper dedicated to phasing manoeuvres was found.
+The two-impulse transfer takes its name from Walter Hohmann,
+who described it in a 1925 book
+[Hohmann Transfer Orbit][ref_hohmann_transfer_orbit].
+The treatment of phasing in this article rests on the cited encyclopedia entry and on the vis-viva equation.
 
 ## Epistemic State
 
@@ -1034,12 +1037,15 @@ Blanco and Mungan,
 Kechichian,
 Russell,
 Belbruno and Miller,
-and Koon and coauthors in 2000 are taken from their abstracts as recorded by Crossref or OpenAlex.
-Every other work in the literature review,
-and the textbooks of Curtis and Battin,
-are cited only for what their titles state,
-because no abstract was retrievable.
-None of the sources was read in full.
+Koon and coauthors in 2000,
+Belbruno and Carrico,
+and the 1977 reaction engine study are stated according to their published abstracts.
+The 1977 study carries no author in its bibliographic record,
+so it is cited as unattributed.
+Every other research work and book cited,
+including the textbooks of Curtis and Battin,
+are cited only for what their titles state.
+The findings attributed to sources rest on their abstracts and titles rather than on their full texts.
 
 **Analysis in this article.**
 Every delta-v,
@@ -1134,6 +1140,7 @@ and gravity assists.
 - [Research, Barrar 1963, Two-Impulse Transfer vs One-Impulse Transfer, Analytic Theory][research_barrar_1963]
 - [Research, Battin and Vaughan 1984, An Elegant Lambert Algorithm][research_battin_vaughan_1984]
 - [Research, Belbruno 1987, Lunar Capture Orbits, a Method of Constructing Earth Moon Trajectories and the Lunar GAS Mission][research_belbruno_1987]
+- [Research, Belbruno and Carrico 2000, Calculation of Weak Stability Boundary Ballistic Lunar Transfer Trajectories][research_belbruno_carrico_2000]
 - [Research, Belbruno and Miller 1993, Sun-Perturbed Earth-to-Moon Transfers with Ballistic Capture][research_belbruno_miller_1993]
 - [Research, Blanco and Mungan 2019, Rocket Propulsion, Classical Relativity, and the Oberth Effect][research_blanco_mungan_2019]
 - [Research, Broucke 1988, The Celestial Mechanics of Gravity Assist][research_broucke_1988]
@@ -1152,6 +1159,7 @@ and gravity assists.
 - [Research, Hoelker and Silber 1961, The Bi-elliptical Transfer Between Co-planar Circular Orbits][research_hoelker_silber_1961]
 - [Research, Izzo 2014, Revisiting Lambert's Problem][research_izzo_2014]
 - [Research, Jezewski and Rozendaal 1968, An Efficient Method for Calculating Optimal Free-Space N-Impulse Trajectories][research_jezewski_rozendaal_1968]
+- [Research, Johnson 1995, Contents and Commentary on William Moore's A Treatise on the Motion of Rockets and an Essay on Naval Gunnery][research_johnson_1995]
 - [Research, Kechichian 1997, Reformulation of Edelbaum's Low-Thrust Transfer Problem Using Optimal Control Theory][research_kechichian_1997]
 - [Research, Koon et al. 2000, Heteroclinic Connections Between Periodic Orbits and Resonance Transitions in Celestial Mechanics][research_koon_et_al_2000]
 - [Research, Koon et al. 2001, Low Energy Transfer to the Moon][research_koon_et_al_2001]
@@ -1174,6 +1182,7 @@ and gravity assists.
 - [Research, Ting 1960, Optimum Orbital Transfer by Impulses][research_ting_1960]
 - [Research, Topputo 2013, On Optimal Two-Impulse Earth-Moon Transfers in a Four-Body Model][research_topputo_2013]
 - [Research, Tschauner and Hempel 1965, Minimum-Fuel Rendezvous Techniques][research_tschauner_hempel_1965]
+- [Research, Unattributed 1977, Mass-Driver Reaction Engine as Shuttle Upper-Stage][research_mass_driver_reaction_engine_1977]
 - [Research, Yamanaka and Ankersen 2002, New State Transition Matrix for Relative Motion on an Arbitrary Elliptical Orbit][research_yamanaka_ankersen_2002]
 
 [book_battin_1999]: https://doi.org/10.2514/4.861543
@@ -1209,6 +1218,7 @@ and gravity assists.
 [research_barrar_1963]: https://doi.org/10.2514/3.1470
 [research_battin_vaughan_1984]: https://doi.org/10.2514/3.19910
 [research_belbruno_1987]: https://doi.org/10.2514/6.1987-1054
+[research_belbruno_carrico_2000]: https://doi.org/10.2514/6.2000-4142
 [research_belbruno_miller_1993]: https://doi.org/10.2514/3.21079
 [research_blanco_mungan_2019]: https://doi.org/10.1119/1.5126818
 [research_broucke_1988]: https://doi.org/10.2514/6.1988-4220
@@ -1227,6 +1237,7 @@ and gravity assists.
 [research_hoelker_silber_1961]: https://doi.org/10.1016/0032-0633(61)90297-5
 [research_izzo_2014]: https://doi.org/10.1007/s10569-014-9587-y
 [research_jezewski_rozendaal_1968]: https://doi.org/10.2514/3.4949
+[research_johnson_1995]: https://doi.org/10.1016/0734-743x(94)00052-x
 [research_kechichian_1997]: https://doi.org/10.2514/2.4145
 [research_koon_et_al_2000]: https://doi.org/10.1063/1.166509
 [research_koon_et_al_2001]: https://doi.org/10.1023/a:1013359120468
@@ -1236,6 +1247,7 @@ and gravity assists.
 [research_lion_handelsman_1968]: https://doi.org/10.2514/3.4452
 [research_longuski_williams_1991]: https://doi.org/10.1007/bf00048484
 [research_malina_summerfield_1947]: https://doi.org/10.2514/8.1417
+[research_mass_driver_reaction_engine_1977]: https://doi.org/10.2514/6.1977-536
 [research_minovitch_1972]: https://doi.org/10.2514/3.30391
 [research_negri_prado_2020]: https://doi.org/10.1007/s40430-020-02489-x
 [research_petropoulos_longuski_2004]: https://doi.org/10.2514/1.13095

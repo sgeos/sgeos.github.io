@@ -56,10 +56,20 @@ and a railgun drives its projectile by a current through two rails rather than t
 
 Because the payload is guided by magnetic levitation,
 a mass driver needs no physical contact between moving parts,
-and its working life could in principle reach millions of launches.
+and its working life could in principle reach millions of launches
+[Mass Driver][ref_mass_driver].
+Kolm's reference design anticipated a magnetically levitated superconducting bucket
+[Kolm 1977][research_kolm_1977].
 Most serious designs use superconducting coils
 and often reach efficiencies of 50 to over 90 percent,
-depending on the design.
+depending on the design
+[Mass Driver][ref_mass_driver].
+Kolm,
+Mongeau
+and Williams reported energy conversion efficiencies better than 90 percent for a mass driver with a superconducting bucket
+[Kolm et al. 1980][research_kolm_et_al_1980],
+and a 1977 reaction engine study assumed 75 percent
+[Unattributed 1977][research_mass_driver_reaction_engine_1977].
 A mass driver track has two sections.
 In the first the coils are evenly spaced and the acceleration rises with speed up to the maximum the bucket can bear,
 and in the second the coils are spaced ever further apart to hold that acceleration constant
@@ -105,7 +115,7 @@ and a small rocket burn after release establishes orbit
 In the authors' projections a single facility of that kind could launch over 100,000 tons a year
 at under 50 dollars per kilogram of payload
 [Powell et al. 2008][research_powell_et_al_2008].
-Wikipedia's summary makes the same point,
+Wikipedia's summary adds a bound,
 that in a design that minimizes it,
 well under a tenth of orbital speed from a small rocket is enough to raise perigee after release
 [Mass Driver][ref_mass_driver].
@@ -151,7 +161,11 @@ $$
 
 The difference between peak and average power makes energy storage central to the design.
 The limits are generally the cost of storing energy that can be discharged quickly and the cost of switching it
-[Mass Driver][ref_mass_driver].
+[Mass Driver][ref_mass_driver],
+and it was advances in energy storage,
+switching
+and magnets that made electromagnetic launch a viable alternative to chemical propulsion for some tasks
+[Kolm et al. 1980][research_kolm_et_al_1980].
 The fraction $(1-\eta)$ of the electrical input becomes heat in the track and must be rejected.
 
 ### Force from Changing Inductance
@@ -238,24 +252,49 @@ $$
 | Ceres | 469.7 | 0.284 | 365 | 516 | 90.3 | 223,378 |
 | Vesta | 262.7 | 0.251 | 257 | 363 | 85.8 | 124,092 |
 | Phobos | 11.08 | 0.0058 | 8.0 | 11.3 | 2.5 | 16.6 |
-| Deimos | 6.27 | 0.0025 | 3.9 | 5.5 | 0.4 | 21.3 |
+| Deimos | 6.27 | 0.0024 | 3.9 | 5.5 | 0.4 | 21.3 |
 
 </div>
 
 The masses,
 radii,
 rotation periods
-and orbits come from Wikipedia
+and orbits are those collected by Wikipedia
 [Moon][ref_moon]
 [Mercury][ref_mercury]
 [Ceres][ref_ceres]
 [Vesta][ref_vesta]
 [Phobos][ref_phobos]
 [Deimos][ref_deimos],
-and the derived columns are computed for uniform spheres.
-Wikipedia lists the escape speed of Phobos as 11.39 metres per second
-[Phobos][ref_phobos],
-slightly above the 11.32 computed for a sphere.
+which draw on mission and survey results.
+For the Moon these are a review of the lunar interior
+[Wieczorek et al. 2006][research_wieczorek_et_al_2006]
+and the gravity mapping mission GRAIL,
+which gives a mean density of 3,345.56 kilograms per cubic metre
+[Williams et al. 2014][research_williams_et_al_2014].
+For Mercury the MESSENGER mission gives a mean radius of 2,439.36 kilometres
+[Perry et al. 2015][research_perry_et_al_2015],
+a gravitational parameter of 22,031.87 cubic kilometres per second squared
+[Verma and Margot 2016][research_verma_margot_2016]
+and a rotation period of 58.646 days
+[Mazarico et al. 2014][research_mazarico_et_al_2014].
+For Ceres and Vesta the Dawn mission gives the shapes and gravity fields
+[Ermakov et al. 2017][research_ermakov_et_al_2017]
+[Konopliv et al. 2018][research_konopliv_et_al_2018]
+[Russell et al. 2012][research_russell_et_al_2012]
+[Konopliv et al. 2014][research_konopliv_et_al_2014].
+For Phobos and Deimos the mean radii of 11.08 and 6.27 kilometres come from spacecraft shape models
+[Ernst et al. 2023][research_ernst_et_al_2023],
+the gravitational parameter of Phobos from two Mars Express flybys
+[Guo et al. 2026][research_guo_et_al_2026],
+and the orbits and the mass of Deimos from fits to astrometry and tracking
+[Jacobson and Lainey 2014][research_jacobson_lainey_2014].
+The derived columns are computed for uniform spheres.
+With the gravitational parameter of Phobos from Mars Express tracking
+[Guo et al. 2026][research_guo_et_al_2026]
+and its mean radius from spacecraft shape models
+[Ernst et al. 2023][research_ernst_et_al_2023],
+a uniform sphere gives an escape speed of 11.32 metres per second.
 The Hill radius marks roughly the extent of the region in which the body's own gravity dominates that of its parent
 [Hill Sphere][ref_hill_sphere],
 for a body of mass $m$ orbiting a parent of mass $M$ at distance $a$.
@@ -264,8 +303,8 @@ $$
 r_{H} \approx a\sqrt[3]{\frac{m}{3M}}
 $$
 
-Phobos's Hill radius of 16.6 kilometres is smaller than its longest dimension of 25.9 kilometres
-[Phobos][ref_phobos],
+Phobos's Hill radius of 16.6 kilometres is smaller than the 25.9 kilometre long axis of its best-fit ellipsoid
+[Ernst et al. 2023][research_ernst_et_al_2023],
 so its surface lies close to the edge of its own gravitational domain.
 
 ### Plugging In
@@ -355,7 +394,10 @@ $$
 Releasing from a mountain or a tower raises the periapsis to the release height,
 which helps only if no terrain under any later pass is higher.
 On the Moon,
-mass concentrations beneath the large impact basins also perturb low orbits
+large mass concentrations lie beneath the ringed maria,
+first found from the tracking of Lunar Orbiter spacecraft
+[Muller and Sjogren 1968][research_muller_sjogren_1968],
+and they perturb low orbits
 [Mass Concentration][ref_mass_concentration],
 and most low lunar orbits are unstable
 [Frozen Orbit][ref_frozen_orbit].
@@ -423,7 +465,11 @@ For the 100 kilometre lunar case this is 4.44 kilometres per metre per second.
 
 Over longer times a low orbit needs station-keeping against the perturbations described above,
 unless it is one of the lunar frozen orbits,
-which lie at inclinations of 27,
+families of which have been found by numerical continuation
+[Elipe and Lara 2003][research_elipe_lara_2003].
+Wikipedia,
+quoting NASA,
+places them at inclinations of 27,
 50,
 76
 and 86 degrees
@@ -834,9 +880,8 @@ where a straight track would need only a couple of kilometres at 100 g₀,
 a ring needs several laps at 1 g₀ but then holds the cargo down at 32 to 60 g₀ at release.
 The infinite track solves the length problem only where the body is large.
 Phobos and Deimos are also irregular,
-at 25.90 by 22.60 by 18.32 kilometres and 16.08 by 11.78 by 10.22 kilometres
-[Phobos][ref_phobos]
-[Deimos][ref_deimos],
+with best-fit ellipsoids of 25.90 by 22.60 by 18.32 kilometres and 16.08 by 11.78 by 10.22 kilometres
+[Ernst et al. 2023][research_ernst_et_al_2023],
 so a circular ring would have to stand above much of their surface.
 
 ### Lanes and Directions
@@ -944,6 +989,8 @@ In designs where a recycled bucket carries the payload,
 payload and bucket separate at the end of the acceleration section,
 and the bucket is then slowed
 [Mass Driver][ref_mass_driver].
+Mass Driver Two followed its accelerator with a decelerator of identical design that brought the bucket to rest and returned its energy to the power supply
+[Snow et al. 1982][research_snow_et_al_1982].
 Any difference in their speeds or directions at separation becomes a release error of the kind analysed above.
 
 ## A Review of the Literature
@@ -952,8 +999,8 @@ The modern literature on mass drivers began with the space settlement studies of
 moved into military and naval electromagnetic launch in the 1980s and 1990s,
 and has returned to lunar resources in the 2010s and 2020s.
 This section surveys it by topic.
-Where a work's abstract was available its findings are stated,
-and where only its title was available it is described by its title alone.
+Each work is described according to its published abstract,
+or by its subject alone where it is cited for its title.
 
 ### Origins and the Space Settlement Programme
 
@@ -1113,13 +1160,11 @@ Bolonkin proposed a circular launcher in a book chapter
 and Wikipedia describes ring designs in which a vehicle circles many times before release
 [Mass Driver][ref_mass_driver].
 
-### Gaps
+### Beyond the Cited Literature
 
-No peer-reviewed study of a mass driver on Phobos or Deimos was found in the searches made for this article,
-and no peer-reviewed analysis of a full-circumference track was found,
-so the sections of this article on those subjects rest on the equations derived here.
-Lofstrom's launch loop appears in the conference record without author metadata and is not cited,
-and Snow and Kolm's study of electromagnetic launch of lunar material was found without a digital object identifier.
+The sections of this article on mass drivers on Phobos and Deimos
+and on tracks around the whole circumference of a body
+rest on the equations derived here rather than on a cited study.
 
 ## Epistemic State
 
@@ -1131,17 +1176,28 @@ the two-section track,
 the example of a 1 kilometre superconducting driver,
 the remark about rocket burns after release,
 the remark about circumferential tracks,
-the physical data for the bodies,
 the Hill sphere formula,
-the lunar mascons
-and the lunar frozen orbits come from the Wikipedia entries cited.
+the effect of mascons on low orbits
+and the inclinations of the lunar frozen orbits come from the Wikipedia entries cited.
+The physical data for the bodies are those collected by Wikipedia,
+traced where the text says so to the mission and survey papers that Wikipedia cites.
 The findings attributed to Kolm,
 McNab,
 Powell and Maise,
 the 1977 reaction engine study,
+the shape models of Ernst and coauthors,
+the gravity results of Guo and coauthors,
+Verma and Margot,
+Mazarico and coauthors
+and Williams and coauthors,
+the shape result of Perry and coauthors,
+Ermakov and coauthors for the approximate radius of Ceres,
+Muller and Sjogren,
+Snow and coauthors 1982,
+Elipe and Lara,
 and the works of the literature review marked by their findings rather than their titles,
 from O'Neill 1974 to Rocher and coauthors 2025,
-are taken from their abstracts as recorded by Crossref or OpenAlex.
+are stated according to their published abstracts.
 The works of Chilton,
 O'Neill and Kolm,
 O'Neill 1981,
@@ -1154,12 +1210,16 @@ Carrio and coauthors,
 Hunter and Hyde,
 Powell and coauthors 2006,
 Fair 1982,
-O'Leary
-and Bolonkin 2005 are cited only for what their titles state.
+O'Leary,
+Bolonkin 2005,
+Wieczorek and coauthors,
+Konopliv and coauthors 2014 and 2018,
+Russell and coauthors
+and Jacobson and Lainey are cited only for what their titles state.
 The figures of Powell and coauthors for cost and throughput are their projections.
-Neither Crossref nor OpenAlex records an author for the 1977 reaction engine study,
+The 1977 reaction engine study carries no author in its bibliographic record,
 so it is cited as unattributed.
-None of the sources was read in full.
+The findings attributed to sources rest on their abstracts and titles rather than on their full texts.
 
 **Analysis in this article.**
 Every equation is either standard orbital mechanics or derived here,
@@ -1259,10 +1319,14 @@ and its design must allow for that step as much as for the launch itself.
 - [Research, Chilton 1977, Mass Driver Theory and History][research_chilton_1977]
 - [Research, Corbin and Higgins 2006, Preliminary Mission Study, Mass Driver for Earth-Bound Asteroid Threat Mitigation][research_corbin_higgins_2006]
 - [Research, Doyle et al. 1995, Electromagnetic Aircraft Launch System, EMALS][research_doyle_et_al_1995]
+- [Research, Elipe and Lara 2003, Frozen Orbits About the Moon][research_elipe_lara_2003]
+- [Research, Ermakov et al. 2017, Constraints on Ceres' Internal Structure and Evolution From Its Shape and Gravity Measured by the Dawn Spacecraft][research_ermakov_et_al_2017]
+- [Research, Ernst et al. 2023, High-Resolution Shape Models of Phobos and Deimos from Stereophotoclinometry][research_ernst_et_al_2023]
 - [Research, Fair 1982, Electromagnetic Propulsion, A New Initiative][research_fair_1982]
 - [Research, Fair 2005, Electromagnetic Launch Science and Technology in the United States Enters a New Era][research_fair_2005]
 - [Research, Fair 2008, Advances in Electromagnetic Launch Science and Technology and its Applications][research_fair_2008]
 - [Research, Fine et al. 1979, Mass Driver Two, Cryogenic Module][research_fine_et_al_1979]
+- [Research, Guo et al. 2026, Phobos' Degree-1 Ellipsoidal Harmonic Gravity Field Recovery from Two Mars Express Flybys][research_guo_et_al_2026]
 - [Research, Hawke et al. 1981, Electromagnetic Railgun Launchers, Space Propulsion Applications][research_hawke_et_al_1981]
 - [Research, Heppenheimer 1975, Transport of Lunar Material to the Sites of the Colonies][research_heppenheimer_1975]
 - [Research, Heppenheimer 1978a, Achromatic Trajectories and Lunar Material Transport for Space Colonization][research_heppenheimer_1978a]
@@ -1272,30 +1336,41 @@ and its design must allow for that step as much as for the launch itself.
 - [Research, Heppenheimer et al. 1982a, Electrostatic Velocity Adjustment of Payloads Launched by Lunar Mass-Driver][research_heppenheimer_et_al_1982a]
 - [Research, Heppenheimer et al. 1982b, Precision Release and Aim of Payloads Launched by Lunar Mass-Driver][research_heppenheimer_et_al_1982b]
 - [Research, Hunter and Hyde 1989, A Light Gas Gun System for Launching Building Material into Low Earth Orbit][research_hunter_hyde_1989]
+- [Research, Jacobson and Lainey 2014, Martian Satellite Orbits and Ephemerides][research_jacobson_lainey_2014]
 - [Research, Janhunen 2025, Launching Mass from the Moon Helped by Lunar Gravity Anomalies][research_janhunen_2025]
 - [Research, Kaye 2005, Operational Requirements and Issues for Coilgun Electromagnetic Launchers][research_kaye_2005]
 - [Research, Kolm 1977, Basic Coaxial Mass Driver Reference Design][research_kolm_1977]
 - [Research, Kolm et al. 1980, Electromagnetic Launchers][research_kolm_et_al_1980]
+- [Research, Konopliv et al. 2014, The Vesta Gravity Field, Spin Pole and Rotation Period, Landmark Positions, and Ephemeris from the Dawn Tracking and Optical Data][research_konopliv_et_al_2014]
+- [Research, Konopliv et al. 2018, The Ceres Gravity Field, Spin Pole, Rotation Period and Orbit from the Dawn Radiometric Tracking and Optical Data][research_konopliv_et_al_2018]
 - [Research, Lipinski et al. 1993, Space Applications for Contactless Coilguns][research_lipinski_et_al_1993]
 - [Research, Mankins 1994, Electromagnetic Earth-to-Orbit Launch Concepts, One Strategy in Achieving Reductions in Launch Costs][research_mankins_1994]
+- [Research, Mazarico et al. 2014, The Gravity Field, Orientation, and Ephemeris of Mercury from MESSENGER Observations After Three Years in Orbit][research_mazarico_et_al_2014]
 - [Research, McNab 2003, Launch to Space with an Electromagnetic Railgun][research_mcnab_2003]
 - [Research, McNab 2009, Progress on Hypervelocity Railgun Research for Launch to Space][research_mcnab_2009]
+- [Research, Muller and Sjogren 1968, Mascons, Lunar Mass Concentrations][research_muller_sjogren_1968]
 - [Research, O'Leary 1992, International Manned Missions to Mars and the Resources of Phobos and Deimos][research_oleary_1992]
 - [Research, O'Neill 1974, The Colonization of Space][research_oneill_1974]
 - [Research, O'Neill 1981, Recent Development in Mass Drivers][research_oneill_1981]
 - [Research, O'Neill and Kolm 1980, High-Acceleration Mass Drivers][research_oneill_kolm_1980]
+- [Research, Perry et al. 2015, The Low-Degree Shape of Mercury][research_perry_et_al_2015]
 - [Research, Powell and Maise 2008, StarTram, The Magnetic Launch Path to Very Low Cost, Very High Volume Launch to Space][research_powell_maise_2008]
 - [Research, Powell et al. 2006, StarTram, An International Facility to Magnetically Launch Payloads at Ultra Low Unit Cost][research_powell_et_al_2006]
 - [Research, Powell et al. 2008, Maglev Launch and the Next Race to Space][research_powell_et_al_2008]
 - [Research, Rashleigh and Marshall 1978, Electromagnetic Acceleration of Macroparticles to High Velocities][research_rashleigh_marshall_1978]
 - [Research, Rocher et al. 2025, Cost-Benefit Analysis of Lunar Mass Driver Technologies][research_rocher_et_al_2025]
 - [Research, Roesler 2013, Mass Estimate for a Lunar Resource Launcher Based on Existing Terrestrial Electromagnetic Launchers][research_roesler_2013]
+- [Research, Russell et al. 2012, Dawn at Vesta, Testing the Protoplanetary Paradigm][research_russell_et_al_2012]
 - [Research, Schmidt 2006, Electromagnetic Launch to Low Earth Orbit][research_schmidt_2006]
 - [Research, Seybold and Fowler 1994, A Feasibility Study for the Use of a Lunar Mass Driver to Transport Cargo to Mars][research_seybold_fowler_1994]
 - [Research, Snow and Dunbar 1982, Mass Driver Reaction Engine Characteristics and Performance in Earth Orbital Transfer Missions][research_snow_dunbar_1982]
 - [Research, Snow et al. 1981, A Small Scale Lunar Launcher for Early Lunar Material Utilization][research_snow_et_al_1981]
+- [Research, Snow et al. 1982, Mass Driver Two, A Status Report][research_snow_et_al_1982]
 - [Research, Turman and Lipinski 1996, Electromagnetic Coilgun Launcher for Space Applications][research_turman_lipinski_1996]
 - [Research, Unattributed 1977, Mass-Driver Reaction Engine as Shuttle Upper-Stage][research_mass_driver_reaction_engine_1977]
+- [Research, Verma and Margot 2016, Mercury's Gravity, Tides, and Spin from MESSENGER Radio Science Data][research_verma_margot_2016]
+- [Research, Wieczorek et al. 2006, The Constitution and Structure of the Lunar Interior][research_wieczorek_et_al_2006]
+- [Research, Williams et al. 2014, Lunar Interior Properties from the GRAIL Mission][research_williams_et_al_2014]
 - [Research, Wright et al. 2011, A Lunar Electromagnetic Launch System for In Situ Resource Utilization][research_wright_et_al_2011]
 
 [ref_ceres]: https://en.wikipedia.org/wiki/Ceres_(dwarf_planet)
@@ -1327,10 +1402,14 @@ and its design must allow for that step as much as for the launch itself.
 [research_chilton_1977]: https://doi.org/10.2514/6.1977-533
 [research_corbin_higgins_2006]: https://doi.org/10.1061/40830(188)18
 [research_doyle_et_al_1995]: https://doi.org/10.1109/20.364638
+[research_elipe_lara_2003]: https://doi.org/10.2514/2.5064
+[research_ermakov_et_al_2017]: https://doi.org/10.1002/2017JE005302
+[research_ernst_et_al_2023]: https://doi.org/10.1186/s40623-023-01814-7
 [research_fair_1982]: https://doi.org/10.1109/tmag.1982.1061789
 [research_fair_2005]: https://doi.org/10.1109/tmag.2004.838744
 [research_fair_2008]: https://doi.org/10.1109/elt.2008.9
 [research_fine_et_al_1979]: https://doi.org/10.2514/6.1979-1398
+[research_guo_et_al_2026]: https://doi.org/10.1093/mnras/stag578
 [research_hawke_et_al_1981]: https://doi.org/10.2514/6.1981-751
 [research_heppenheimer_1975]: https://doi.org/10.2514/6.1975-2003
 [research_heppenheimer_1978a]: https://doi.org/10.2514/3.28004
@@ -1340,28 +1419,39 @@ and its design must allow for that step as much as for the launch itself.
 [research_heppenheimer_et_al_1982b]: https://doi.org/10.2514/3.19769
 [research_heppenheimer_kaplan_1977]: https://doi.org/10.2514/3.7345
 [research_hunter_hyde_1989]: https://doi.org/10.2514/6.1989-2439
+[research_jacobson_lainey_2014]: https://doi.org/10.1016/j.pss.2013.06.003
 [research_janhunen_2025]: https://doi.org/10.59332/jbis-078-08-0290
 [research_kaye_2005]: https://doi.org/10.1109/tmag.2004.838982
 [research_kolm_1977]: https://doi.org/10.2514/6.1977-534
 [research_kolm_et_al_1980]: https://doi.org/10.1109/tmag.1980.1060806
+[research_konopliv_et_al_2014]: https://doi.org/10.1016/j.icarus.2013.09.005
+[research_konopliv_et_al_2018]: https://doi.org/10.1016/j.icarus.2017.08.005
 [research_lipinski_et_al_1993]: https://doi.org/10.1109/20.195659
 [research_mankins_1994]: https://doi.org/10.2514/6.1994-4625
 [research_mass_driver_reaction_engine_1977]: https://doi.org/10.2514/6.1977-536
+[research_mazarico_et_al_2014]: https://doi.org/10.1002/2014JE004675
 [research_mcnab_2003]: https://doi.org/10.1109/tmag.2002.805923
 [research_mcnab_2009]: https://doi.org/10.1109/tmag.2008.2008601
+[research_muller_sjogren_1968]: https://doi.org/10.1126/science.161.3842.680
 [research_oleary_1992]: https://doi.org/10.1016/0094-5765(92)90141-5
 [research_oneill_1974]: https://doi.org/10.1063/1.3128863
 [research_oneill_1981]: https://doi.org/10.2514/6.1981-3235
 [research_oneill_kolm_1980]: https://doi.org/10.1016/0094-5765(80)90002-8
+[research_perry_et_al_2015]: https://doi.org/10.1002/2015GL065101
 [research_powell_et_al_2006]: https://doi.org/10.2514/6.iac-06-d3.2.07
 [research_powell_et_al_2008]: https://doi.org/10.1109/aero.2008.4526501
 [research_powell_maise_2008]: https://doi.org/10.1109/elt.2008.76
 [research_rashleigh_marshall_1978]: https://doi.org/10.1063/1.325107
 [research_rocher_et_al_2025]: https://doi.org/10.2514/6.2025-4123
 [research_roesler_2013]: https://doi.org/10.3390/machines1010050
+[research_russell_et_al_2012]: https://doi.org/10.1126/science.1219381
 [research_schmidt_2006]: https://doi.org/10.2514/6.2006-4626
 [research_seybold_fowler_1994]: https://doi.org/10.2514/6.1994-854
 [research_snow_dunbar_1982]: https://doi.org/10.1109/tmag.1982.1061772
 [research_snow_et_al_1981]: https://doi.org/10.2514/6.1981-3233
+[research_snow_et_al_1982]: https://doi.org/10.1109/tmag.1982.1061777
 [research_turman_lipinski_1996]: https://doi.org/10.1063/1.49932
+[research_verma_margot_2016]: https://doi.org/10.1002/2016je005037
+[research_wieczorek_et_al_2006]: https://doi.org/10.2138/rmg.2006.60.3
+[research_williams_et_al_2014]: https://doi.org/10.1002/2013JE004559
 [research_wright_et_al_2011]: https://doi.org/10.1109/tps.2010.2089066

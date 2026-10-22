@@ -233,9 +233,10 @@ and Solomon and coauthors give an overview of the mission
 BepiColombo,
 the joint European and Japanese mission
 [Benkhoff et al. 2021][research_benkhoff_et_al_2021],
-launched in October 2018 and is planned to enter Mercury orbit in November 2026,
+launched in October 2018 and is planned to enter Mercury orbit in November 2026
+[Murakami and Jones 2025][research_murakami_jones_2025],
 after one Earth flyby, two Venus flybys and six Mercury flybys
-[BepiColombo][ref_bepicolombo].
+[Mangano et al. 2021][research_mangano_et_al_2021].
 It carries two orbiters,
 Mio from the Japanese space agency and the Mercury Planetary Orbiter from the European Space Agency
 [Benkhoff et al. 2021][research_benkhoff_et_al_2021].
@@ -267,9 +268,9 @@ The perihelion value lies just above the reported maximum of 427 °C,
 about 700 K,
 as it should for an ideal black surface that reflects nothing and conducts no heat downward.
 The heat is not continuous at any one place.
-Mercury rotates three times for every two orbits,
-so one solar day lasts about 176 Earth days
-[Mercury][ref_mercury],
+Mercury rotates three times for every two orbits
+[Mazarico et al. 2014][research_mazarico_et_al_2014],
+so one solar day lasts about 176 Earth days,
 and a fixed point on the equator spends about 88 Earth days in darkness.
 The line between day and night moves across the equator at the following speed.
 
@@ -317,12 +318,14 @@ which is almost the same as the 3.72 of Mars
 Whether people can remain healthy at about 0.38 of Earth's gravity is unknown for both planets,
 so on this point Mercury is no worse than the planet most often proposed for settlement.
 Mercury has a global magnetic field,
-which Mariner 10 measured at about 1.1 percent of the strength of Earth's
+which Mariner 10 detected in 1974
+[Ness et al. 1974][research_ness_et_al_1974],
+whose strength is about 1.1 percent of Earth's
 [Mercury][ref_mercury],
 and which MESSENGER resolved as an offset dipole with a moment of about 195 nanotesla times the cube of Mercury's radius
 [Anderson et al. 2011][research_anderson_et_al_2011].
-The field is just strong enough to deflect the solar wind
-[Mercury][ref_mercury],
+The field forms a magnetosphere that deflects the solar wind
+[Ness et al. 1974][research_ness_et_al_1974],
 but the measurements that follow show that it offers little shelter at the surface.
 MESSENGER observed magnetic reconnection in the magnetosphere
 [Slavin et al. 2009][research_slavin_et_al_2009]
@@ -656,7 +659,9 @@ $$
 P_{\mathrm{align}} = \left|\frac{1}{P_{\mathrm{sid}}} - \frac{1}{P_{\mathrm{orb}}}\right|^{-1}
 $$
 
-Mercury's 58.646 and 87.969 day periods
+Mercury's rotation period of 58.646 days
+[Mazarico et al. 2014][research_mazarico_et_al_2014]
+and orbital period of 87.969 days
 [Mercury][ref_mercury]
 give 176 days.
 The siting rules for fixed tracks are developed in the mass driver article
@@ -702,10 +707,12 @@ but the saving does not offset the extra delta-v.
 For the opposite direction the advantage reverses.
 Mercury is the best origin for missions to Venus and to the Sun itself.
 The Parker Solar Probe
+used seven Venus gravity assists to lower its perihelion step by step
 [Fox et al. 2015][research_fox_et_al_2015]
-reached a perihelion of 9.86 solar radii,
-and the exact value was set by its seventh Venus gravity assist in 2024
-[Parker Solar Probe][ref_parker_solar_probe].
+to a minimum of 9.86 solar radii
+[Ercol and Balakrishnan 2024][research_ercol_balakrishnan_2024],
+which it first reached in December 2024
+[Badman 2026][research_badman_2026].
 From a circular orbit the delta-v to lower perihelion to 10 solar radii is 25.70 kilometres per second at Mercury's distance,
 against 20.91 at Earth's,
 so a direct drop is not cheaper from Mercury.
@@ -984,9 +991,10 @@ Near-term beamed sail missions,
 including one named Sun-Diver,
 have also been proposed
 [Benford and Benford 2003][research_benford_benford_2003].
-Breakthrough Starshot proposed light sails pushed to between 15 and 20 percent of light speed
-by a phased array of lasers with a combined output of up to 100 gigawatts
-[Breakthrough Starshot][ref_breakthrough_starshot].
+Breakthrough Starshot proposed gram-scale light sails pushed to about 20 percent of light speed
+[Hoang et al. 2017][research_hoang_et_al_2017]
+by a kilometre-scale ground-based phased-array laser of 100 gigawatts
+[Worden et al. 2021][research_worden_et_al_2021].
 Whatever the power such a system needs,
 its collectors scale inversely with the local sunlight.
 Supplying 100 gigawatts of electricity from photovoltaics at 20 percent conversion,
@@ -1011,7 +1019,10 @@ local materials,
 cold polar terrain for radiators
 and a slow rotation that keeps a site facing a given direction in the sky for weeks rather than hours.
 No vulcanoid asteroids inside Mercury's orbit have been found
-[Vulcanoid][ref_vulcanoid],
+[Vulcanoid][ref_vulcanoid].
+A search of coronagraph images found no object brighter than visual magnitude 7,
+which rules out bodies larger than about 60 kilometres
+[Schumacher and Gay 2001][research_schumacher_gay_2001],
 so Mercury is the only known large source of material that close to the Sun.
 Long-lived asteroid belts in the inner solar system have been proposed as possible
 [Evans and Tabachnik 1999][research_evans_tabachnik_1999],
@@ -1116,10 +1127,16 @@ Proxima Centauri has a mass of 0.1221 and a luminosity of 0.001567 in solar unit
 [Proxima Centauri][ref_proxima_centauri],
 and its innermost known planet,
 Proxima d,
-orbits at 0.02881 AU with at least about a quarter of Earth's mass
+was found orbiting at about 0.029 AU with a minimum mass of 0.26 Earth masses
+[Faria et al. 2022][research_faria_et_al_2022],
+a value its confirmation refined to 0.260 ± 0.038
+[Suárez Mascareño et al. 2025][research_suarez_mascareno_et_al_2025].
+The calculations use the catalogued semi-major axis of 0.02881 AU
 [Proxima Centauri d][ref_proxima_centauri_d].
-TRAPPIST-1 has a mass of 0.0898 and a luminosity of $5.66 \times 10^{-4}$
-[TRAPPIST-1][ref_trappist_1],
+TRAPPIST-1 has a mass of 0.0898
+[TRAPPIST-1][ref_trappist_1]
+and a luminosity of $5.66 \times 10^{-4}$
+[Davoudi et al. 2024][research_davoudi_et_al_2024],
 and its innermost planet,
 TRAPPIST-1b,
 orbits at 0.01154 AU
@@ -1165,11 +1182,13 @@ and it removes the alignment problem found above for Mercury.
 Two limits apply to the general claim.
 The innermost known planet of a star can be a gas giant with no surface,
 as with 51 Pegasi b,
-the prototype of the hot Jupiters
+the Jupiter-mass companion of a solar-type star
+[Mayor and Queloz 1995][research_mayor_queloz_1995]
+and the prototype of the hot Jupiters
 [51 Pegasi b][ref_51_pegasi_b].
 Red dwarfs also flare.
-In 2016 a superflare from Proxima Centauri raised its optical brightness by a factor of 68
-[Proxima Centauri][ref_proxima_centauri],
+In March 2016 a superflare from Proxima Centauri raised its optical flux by a factor of about 68
+[Howard et al. 2018][research_howard_et_al_2018],
 which a settlement on Proxima d would have to withstand.
 The generalized claim is therefore supported within any one system for launch powered by starlight,
 on the condition that the innermost body is solid,
@@ -1184,7 +1203,7 @@ The advantages follow.
 
 - The densest sunlight available on a solid body, 6.25 to 14.4 kilowatts per square metre over an orbit.
 - Water ice in permanently shadowed polar craters, confirmed by several independent measurements.
-- A large iron-rich core, which occupies about 57 percent of the planet's volume, against 17 percent for Earth [Mercury][ref_mercury], with a model of a solid crust and mantle over a solid iron-sulfide layer and an iron-rich liquid outer core [Smith et al. 2012][research_smith_et_al_2012]. The top of the liquid core lies at a radius of 2,020 ± 30 kilometres [Hauck et al. 2013][research_hauck_et_al_2013], and geodetic data indicate a solid inner core [Genova et al. 2019][research_genova_et_al_2019]. The top of the liquid core therefore lies about 420 kilometres down, far below any plausible mine, and the surface itself is low in iron and at least ten times richer in sulfur than the silicate Earth or Moon [Nittler et al. 2011][research_nittler_et_al_2011], so the iron-rich core is not by itself an accessible resource.
+- A large iron-rich core, with a model of a solid crust and mantle over a solid iron-sulfide layer and an iron-rich liquid outer core [Smith et al. 2012][research_smith_et_al_2012]. The top of the liquid core lies at a radius of 2,020 ± 30 kilometres [Hauck et al. 2013][research_hauck_et_al_2013], so with a mean radius of 2,439.36 kilometres [Perry et al. 2015][research_perry_et_al_2015] the liquid core and everything inside it occupy about 57 percent of the planet's volume, and geodetic data indicate a solid inner core [Genova et al. 2019][research_genova_et_al_2019]. The top of the liquid core therefore lies about 420 kilometres down, far below any plausible mine, and the surface itself is low in iron and at least ten times richer in sulfur than the silicate Earth or Moon [Nittler et al. 2011][research_nittler_et_al_2011], so the iron-rich core is not by itself an accessible resource.
 - An escape speed of 4.25 kilometres per second with no atmosphere, which allows mass drivers.
 - The lowest sunlight-collection cost per kilogram among the bodies compared for mass-driver launches that escape the Sun or dive toward it.
 - Launch windows to the outer planets about every three months.
@@ -1245,8 +1264,8 @@ The literature relevant to a Mercury base falls into two bodies of work that rar
 One is the planetary science of Mercury from MESSENGER and BepiColombo,
 and the other is the study of fast and interstellar missions that use the Sun's proximity.
 This section surveys both by topic.
-Where a work's abstract was available its findings are stated,
-and where only its title was available it is described by its title alone.
+Each work is described according to its published abstract,
+or by its subject alone where it is cited for its title.
 
 ### Missions to Mercury
 
@@ -1352,8 +1371,8 @@ Launch of lunar ice by an electromagnetic accelerator has been studied
 Palaszewski analysed human and robotic missions to Mercury,
 including landers whose chemical propulsion is enhanced by in-situ resources
 [Palaszewski 2015][research_palaszewski_2015].
-A bibliographic search found no peer-reviewed journal article on settling Mercury,
-so the settlement analysis in this article rests on the physics derived here.
+The settlement analysis in this article rests on the physics derived here
+and not on a cited study of settling Mercury.
 The search for vulcanoids
 [Evans and Tabachnik 1999][research_evans_tabachnik_1999]
 [Steffl et al. 2013][research_steffl_et_al_2013]
@@ -1382,37 +1401,59 @@ Directed-energy propulsion
 [Kulkarni, Lubin and Zhang 2018][research_kulkarni_lubin_zhang_2018]
 [Parkin 2018][research_parkin_2018]
 is treated in the companion article on solar sailing.
-None of the abstracts or titles available for these studies proposes Mercury as a base,
+None of these studies proposes Mercury as a base according to its abstract or title,
 and the connection made in this article between them and Mercury is its own inference.
 
 ## Epistemic State
 
 **Facts reported by the cited sources.**
 Physical data for the bodies,
-including Mercury's orbit,
+including Mercury's orbital period,
 temperature range,
-rotation,
 gravity,
 escape speed,
-exospheric pressure
-and core fraction,
+magnetic field strength
+and exospheric pressure,
 come from the Wikipedia entries cited,
 which draw on fact sheets of the National Aeronautics and Space Administration and on the peer-reviewed literature.
+Mercury's rotation period and spin-orbit resonance come from the group led by Mazarico,
+and its core fraction is computed here from the core radius of the group led by Hauck and the mean radius of the group led by Perry.
 The masses,
 luminosities
 and orbits of Proxima Centauri,
 TRAPPIST-1
-and their innermost planets come from Wikipedia in the same way.
-The findings attributed to Kopp and Lean
+and their innermost planets come from Wikipedia in the same way,
+except that the minimum mass of Proxima d comes from the groups led by Faria and Suárez Mascareño
+and the luminosity of TRAPPIST-1 from the group led by Davoudi.
+The findings attributed to Kopp and Lean,
+to Schumacher and Gay
 and to the groups led by Slade,
 Margot,
 Anderson,
-Smith
-and Lario
-are taken from their abstracts as recorded by OpenAlex.
-For the three 2013 polar ice papers the record available was the journal's shared editorial summary,
+Smith,
+Lario,
+Mazarico,
+Perry,
+Mangano,
+Ness,
+Fox,
+Hoang,
+Worden,
+Faria,
+Suárez Mascareño,
+Davoudi
+and Howard
+are stated according to their published abstracts.
+The arrival date of BepiColombo,
+the perihelion of the Parker Solar Probe
+and the date it was first reached rest on the conference papers and abstracts of Murakami and Jones,
+Ercol and Balakrishnan,
+and Badman,
+which are not peer-reviewed articles.
+The work of Mayor and Queloz is cited only for its title.
+For the three 2013 polar ice papers the findings stated are those of the journal's shared editorial summary,
 which states the joint conclusion rather than each paper's separate result.
-The findings of the works added in the literature review are taken from their abstracts where the text states them,
+The findings of the works in the literature review are stated according to their abstracts where the text states them,
 for the groups led by Chabot,
 Nittler 2011,
 Peplowski,
@@ -1434,19 +1475,17 @@ and Kulkarni,
 and of Bailer-Jones and Palaszewski,
 with Lyman and coauthors cited only for the engine and perihelion stated in their abstract.
 The work of Slavin and coauthors is cited only for its title,
-because the available summary is an editor's note rather than the authors' abstract.
+because its published summary is an editor's note rather than the authors' abstract.
 The paper of Vasavada, Paige and Wood,
 the papers of the groups led by Solomon,
-Benkhoff 2010,
-Fox
+Benkhoff 2010
 and Benkoski,
 the paper of Beemer and McNab,
 the book by McInnes,
 and every other work in the literature review,
-are cited only for what their titles state,
-because no abstract was retrievable.
+are cited only for what their titles state.
 The conversion of 8 AU per year to about 38 kilometres per second is computed here.
-None of the sources was read in full.
+The findings attributed to sources rest on their abstracts and titles rather than on their full texts.
 
 **Analysis in this article.**
 Every delta-v,
@@ -1568,7 +1607,6 @@ would face the same choice of origin.
 
 - [Book, McInnes 1999, Solar Sailing][book_mcinnes_1999]
 - [Reference, 51 Pegasi b, Wikipedia][ref_51_pegasi_b]
-- [Reference, BepiColombo, Wikipedia][ref_bepicolombo]
 - [Reference, Breakthrough Starshot, Wikipedia][ref_breakthrough_starshot]
 - [Reference, Ceres, Wikipedia][ref_ceres]
 - [Reference, Delta-v Budget, Wikipedia][ref_delta_v_budget]
@@ -1583,7 +1621,6 @@ would face the same choice of origin.
 - [Reference, MESSENGER, Wikipedia][ref_messenger]
 - [Reference, Moon, Wikipedia][ref_moon]
 - [Reference, Oberth Effect, Wikipedia][ref_oberth_effect]
-- [Reference, Parker Solar Probe, Wikipedia][ref_parker_solar_probe]
 - [Reference, Proxima Centauri d, Wikipedia][ref_proxima_centauri_d]
 - [Reference, Proxima Centauri, Wikipedia][ref_proxima_centauri]
 - [Reference, Solar Sail, Wikipedia][ref_solar_sail]
@@ -1608,6 +1645,7 @@ would face the same choice of origin.
 - [Related Post, Venus Cloudtop Buoyant Analog][related_post_venus_cloudtop]
 - [Related Post, Von Neumann Probes][related_post_von_neumann_probes]
 - [Research, Anderson et al. 2011, The Global Magnetic Field of Mercury from MESSENGER Orbital Observations][research_anderson_et_al_2011]
+- [Research, Badman 2026, The Outer Reaches of the Solar Corona as Measured by Parker Solar Probe][research_badman_2026]
 - [Research, Bailer-Jones 2021, The Sun Diver, Combining Solar Sails with the Oberth Effect][research_bailer_jones_2021]
 - [Research, Beemer and McNab 2023, Launch Parameters of a Lunar Ice Payload Traveling via Electromagnetic Mass Accelerator][research_beemer_mcnab_2023]
 - [Research, Benford and Benford 2003, Near-Term Beamed Sail Propulsion Missions, Cosmos-1 and Sun-Diver][research_benford_benford_2003]
@@ -1619,10 +1657,13 @@ would face the same choice of origin.
 - [Research, Chabot et al. 2013, Craters Hosting Radar-Bright Deposits in Mercury's North Polar Region][research_chabot_et_al_2013]
 - [Research, Chabot et al. 2014, Images of Surface Volatiles in Mercury's Polar Craters Acquired by the MESSENGER Spacecraft][research_chabot_et_al_2014]
 - [Research, Dakermanji, Jenkins and Ercol 2006, The MESSENGER Spacecraft Solar Array Design and Early Mission Performance][research_dakermanji_jenkins_ercol_2006]
+- [Research, Davoudi et al. 2024, Updated Spectral Characteristics for the Ultracool Dwarf TRAPPIST-1][research_davoudi_et_al_2024]
 - [Research, Deutsch et al. 2018, Constraining the Thickness of Polar Ice Deposits on Mercury Using the Mercury Laser Altimeter and Small Craters in Permanently Shadowed Regions][research_deutsch_et_al_2018]
 - [Research, Domingue et al. 2014, Mercury's Weather-Beaten Surface, Understanding Mercury in the Context of Lunar and Asteroidal Space Weathering Studies][research_domingue_et_al_2014]
 - [Research, Ercol 2007, MESSENGER Heritage, High Temperature Technologies for Inner Solar System Spacecraft][research_ercol_2007]
+- [Research, Ercol and Balakrishnan 2024, Thermal Performance of Parker Solar Probe through Orbit Eighteen][research_ercol_balakrishnan_2024]
 - [Research, Evans and Tabachnik 1999, Possible Long-Lived Asteroid Belts in the Inner Solar System][research_evans_tabachnik_1999]
+- [Research, Faria et al. 2022, A Candidate Short-Period Sub-Earth Orbiting Proxima Centauri][research_faria_et_al_2022]
 - [Research, Fox et al. 2015, The Solar Probe Plus Mission, Humanity's First Visit to Our Star][research_fox_et_al_2015]
 - [Research, Genova et al. 2019, Geodetic Evidence That Mercury Has a Solid Inner Core][research_genova_et_al_2019]
 - [Research, Gershman et al. 2015, MESSENGER Observations of Solar Energetic Electrons Within Mercury's Magnetosphere][research_gershman_et_al_2015]
@@ -1630,6 +1671,8 @@ would face the same choice of origin.
 - [Research, Hein et al. 2019, Project Lyra, Sending a Spacecraft to 1I/'Oumuamua, the Interstellar Asteroid][research_hein_et_al_2019]
 - [Research, Hibberd et al. 2022, Project Lyra, A Mission to 1I/'Oumuamua without Solar Oberth Manoeuvre][research_hibberd_et_al_2022]
 - [Research, Ho et al. 2011, MESSENGER Observations of Transient Bursts of Energetic Electrons in Mercury's Magnetosphere][research_ho_et_al_2011]
+- [Research, Hoang et al. 2017, The Interaction of Relativistic Spacecrafts with the Interstellar Medium][research_hoang_et_al_2017]
+- [Research, Howard et al. 2018, The First Naked-Eye Superflare Detected from Proxima Centauri][research_howard_et_al_2018]
 - [Research, Killen et al. 2007, Processes that Promote and Deplete the Exosphere of Mercury][research_killen_et_al_2007]
 - [Research, Kopp and Lean 2011, A New, Lower Value of Total Solar Irradiance, Evidence and Climate Significance][research_kopp_lean_2011]
 - [Research, Kulkarni, Lubin and Zhang 2018, Relativistic Spacecraft Propelled by Directed Energy][research_kulkarni_lubin_zhang_2018]
@@ -1638,11 +1681,16 @@ would face the same choice of origin.
 - [Research, Lawrence et al. 2013, Evidence for Water Ice Near Mercury's North Pole from MESSENGER Neutron Spectrometer Measurements][research_lawrence_et_al_2013]
 - [Research, Lyman et al. 2001, Solar Thermal Propulsion for an Interstellar Probe][research_lyman_et_al_2001]
 - [Research, Lyngvi et al. 2005, The Interstellar Heliopause Probe][research_lyngvi_et_al_2005]
+- [Research, Mangano et al. 2021, BepiColombo Science Investigations During Cruise and Flybys at the Earth, Venus and Mercury][research_mangano_et_al_2021]
 - [Research, Margot et al. 2012, Mercury's Moment of Inertia from Spin and Gravity Data][research_margot_et_al_2012]
+- [Research, Mayor and Queloz 1995, A Jupiter-Mass Companion to a Solar-Type Star][research_mayor_queloz_1995]
+- [Research, Mazarico et al. 2014, The Gravity Field, Orientation, and Ephemeris of Mercury from MESSENGER Observations after Three Years in Orbit][research_mazarico_et_al_2014]
 - [Research, McAdams et al. 2006, Trajectory Design and Maneuver Strategy for the MESSENGER Mission to Mercury][research_mcadams_et_al_2006]
 - [Research, McAdams et al. 2007, MESSENGER Mission Design and Navigation][research_mcadams_et_al_2007]
 - [Research, McNutt et al. 2019, Near-Term Interstellar Probe, First Step][research_mcnutt_et_al_2019]
 - [Research, Moser et al. 2010, High Temperature Multilayer Insulation for the BepiColombo Spacecraft, a Design at the Edge of Material Capability][research_moser_et_al_2010]
+- [Research, Murakami and Jones 2025, Overview and Initial Results of BepiColombo Mercury Flybys][research_murakami_jones_2025]
+- [Research, Ness et al. 1974, Magnetic Field Observations near Mercury, Preliminary Results from Mariner 10][research_ness_et_al_1974]
 - [Research, Neumann et al. 2013, Bright and Dark Polar Deposits on Mercury, Evidence for Surface Volatiles][research_neumann_et_al_2013]
 - [Research, Nittler et al. 2011, The Major-Element Composition of Mercury's Surface from MESSENGER X-ray Spectrometry][research_nittler_et_al_2011]
 - [Research, Nittler et al. 2020, Global Major-Element Maps of Mercury from Four Years of MESSENGER X-Ray Spectrometer Observations][research_nittler_et_al_2020]
@@ -1650,18 +1698,21 @@ would face the same choice of origin.
 - [Research, Palaszewski 2015, Solar System Exploration Augmented by In-Situ Resource Utilization, Human Mercury and Saturn Exploration][research_palaszewski_2015]
 - [Research, Parkin 2018, The Breakthrough Starshot System Model][research_parkin_2018]
 - [Research, Peplowski et al. 2011, Radioactive Elements on Mercury's Surface from MESSENGER, Implications for the Planet's Formation and Evolution][research_peplowski_et_al_2011]
+- [Research, Perry et al. 2015, The Low-Degree Shape of Mercury][research_perry_et_al_2015]
 - [Research, Schlei et al. 2021, Pragmatic Trajectory Options Applicable to an Interstellar Probe Mission][research_schlei_et_al_2021]
+- [Research, Schumacher and Gay 2001, An Attempt to Detect Vulcanoids with SOHO/LASCO Images, I. Scale Relativity and Quantization of the Solar System][research_schumacher_gay_2001]
 - [Research, Slade, Butler and Muhleman 1992, Mercury Radar Imaging, Evidence for Polar Ice][research_slade_butler_muhleman_1992]
 - [Research, Slavin et al. 2009, MESSENGER Observations of Magnetic Reconnection in Mercury's Magnetosphere][research_slavin_et_al_2009]
 - [Research, Smith et al. 2012, Gravity Field and Internal Structure of Mercury from MESSENGER][research_smith_et_al_2012]
 - [Research, Solomon et al. 2007, MESSENGER Mission Overview][research_solomon_et_al_2007]
 - [Research, Steffl et al. 2013, A Search for Vulcanoids with the STEREO Heliospheric Imager][research_steffl_et_al_2013]
+- [Research, Suárez Mascareño et al. 2025, Diving into the Planetary System of Proxima with NIRPS, Breaking the Metre per Second Barrier in the Infrared][research_suarez_mascareno_et_al_2025]
 - [Research, Vasavada, Paige and Wood 1999, Near-Surface Temperatures on Mercury and the Moon and the Stability of Polar Ice Deposits][research_vasavada_paige_wood_1999]
 - [Research, Winslow et al. 2015, Interplanetary Coronal Mass Ejections from MESSENGER Orbital Observations at Mercury][research_winslow_et_al_2015]
+- [Research, Worden et al. 2021, Progress on the Starshot Laser Propulsion System][research_worden_et_al_2021]
 
 [book_mcinnes_1999]: https://doi.org/10.1007/978-1-4471-3992-8
 [ref_51_pegasi_b]: https://en.wikipedia.org/wiki/51_Pegasi_b
-[ref_bepicolombo]: https://en.wikipedia.org/wiki/BepiColombo
 [ref_breakthrough_starshot]: https://en.wikipedia.org/wiki/Breakthrough_Starshot
 [ref_ceres]: https://en.wikipedia.org/wiki/Ceres_(dwarf_planet)
 [ref_delta_v_budget]: https://en.wikipedia.org/wiki/Delta-v_budget
@@ -1676,7 +1727,6 @@ would face the same choice of origin.
 [ref_messenger]: https://en.wikipedia.org/wiki/MESSENGER
 [ref_moon]: https://en.wikipedia.org/wiki/Moon
 [ref_oberth_effect]: https://en.wikipedia.org/wiki/Oberth_effect
-[ref_parker_solar_probe]: https://en.wikipedia.org/wiki/Parker_Solar_Probe
 [ref_proxima_centauri]: https://en.wikipedia.org/wiki/Proxima_Centauri
 [ref_proxima_centauri_d]: https://en.wikipedia.org/wiki/Proxima_Centauri_d
 [ref_solar_sail]: https://en.wikipedia.org/wiki/Solar_sail
@@ -1701,6 +1751,7 @@ would face the same choice of origin.
 [related_post_venus_cloudtop]: {% post_url 2026-07-06-venus_cloudtop_buoyant_analog %}
 [related_post_von_neumann_probes]: {% post_url 2026-03-05-von_neumann_probes %}
 [research_anderson_et_al_2011]: https://doi.org/10.1126/science.1211001
+[research_badman_2026]: https://doi.org/10.5194/egusphere-egu26-12552
 [research_bailer_jones_2021]: https://doi.org/10.1119/10.0002178
 [research_beemer_mcnab_2023]: https://doi.org/10.1016/j.actaastro.2023.02.041
 [research_benford_benford_2003]: https://doi.org/10.1063/1.1582124
@@ -1712,10 +1763,13 @@ would face the same choice of origin.
 [research_chabot_et_al_2013]: https://doi.org/10.1029/2012je004172
 [research_chabot_et_al_2014]: https://doi.org/10.1130/g35916.1
 [research_dakermanji_jenkins_ercol_2006]: https://doi.org/10.1109/wcpec.2006.279872
+[research_davoudi_et_al_2024]: https://doi.org/10.3847/2041-8213/ad5c6c
 [research_deutsch_et_al_2018]: https://doi.org/10.1016/j.icarus.2018.01.013
 [research_domingue_et_al_2014]: https://doi.org/10.1007/s11214-014-0039-5
 [research_ercol_2007]: https://doi.org/10.2514/6.2007-6188
+[research_ercol_balakrishnan_2024]: https://doi.org/10.32865/2346/98763
 [research_evans_tabachnik_1999]: https://doi.org/10.1038/19919
+[research_faria_et_al_2022]: https://doi.org/10.1051/0004-6361/202142337
 [research_fox_et_al_2015]: https://doi.org/10.1007/s11214-015-0211-6
 [research_genova_et_al_2019]: https://doi.org/10.1029/2018gl081135
 [research_gershman_et_al_2015]: https://doi.org/10.1002/2015ja021610
@@ -1723,6 +1777,8 @@ would face the same choice of origin.
 [research_hein_et_al_2019]: https://doi.org/10.1016/j.actaastro.2018.12.042
 [research_hibberd_et_al_2022]: https://doi.org/10.1016/j.actaastro.2022.07.032
 [research_ho_et_al_2011]: https://doi.org/10.1126/science.1211141
+[research_hoang_et_al_2017]: https://doi.org/10.3847/1538-4357/aa5da6
+[research_howard_et_al_2018]: https://doi.org/10.3847/2041-8213/aacaf3
 [research_killen_et_al_2007]: https://doi.org/10.1007/s11214-007-9232-0
 [research_kopp_lean_2011]: https://doi.org/10.1029/2010GL045777
 [research_kulkarni_lubin_zhang_2018]: https://doi.org/10.3847/1538-3881/aaafd2
@@ -1731,11 +1787,16 @@ would face the same choice of origin.
 [research_lawrence_et_al_2013]: https://doi.org/10.1126/science.1229953
 [research_lyman_et_al_2001]: https://doi.org/10.2514/6.2001-3377
 [research_lyngvi_et_al_2005]: https://doi.org/10.1016/j.actaastro.2005.03.042
+[research_mangano_et_al_2021]: https://doi.org/10.1007/s11214-021-00797-9
 [research_margot_et_al_2012]: https://doi.org/10.1029/2012JE004161
+[research_mayor_queloz_1995]: https://doi.org/10.1038/378355a0
+[research_mazarico_et_al_2014]: https://doi.org/10.1002/2014je004675
 [research_mcadams_et_al_2006]: https://doi.org/10.2514/1.18178
 [research_mcadams_et_al_2007]: https://doi.org/10.1007/s11214-007-9162-x
 [research_mcnutt_et_al_2019]: https://doi.org/10.1016/j.actaastro.2019.06.013
 [research_moser_et_al_2010]: https://doi.org/10.2514/6.2010-6091
+[research_murakami_jones_2025]: https://doi.org/10.5194/egusphere-egu25-18018
+[research_ness_et_al_1974]: https://doi.org/10.1126/science.185.4146.151
 [research_neumann_et_al_2013]: https://doi.org/10.1126/science.1229764
 [research_nittler_et_al_2011]: https://doi.org/10.1126/science.1211567
 [research_nittler_et_al_2020]: https://doi.org/10.1016/j.icarus.2020.113716
@@ -1743,11 +1804,15 @@ would face the same choice of origin.
 [research_palaszewski_2015]: https://doi.org/10.2514/6.2015-1654
 [research_parkin_2018]: https://doi.org/10.1016/j.actaastro.2018.08.035
 [research_peplowski_et_al_2011]: https://doi.org/10.1126/science.1211576
+[research_perry_et_al_2015]: https://doi.org/10.1002/2015gl065101
 [research_schlei_et_al_2021]: https://doi.org/10.1109/aero50100.2021.9438398
+[research_schumacher_gay_2001]: https://doi.org/10.1051/0004-6361:20000356
 [research_slade_butler_muhleman_1992]: https://doi.org/10.1126/science.258.5082.635
 [research_slavin_et_al_2009]: https://doi.org/10.1126/science.1172011
 [research_smith_et_al_2012]: https://doi.org/10.1126/science.1218809
 [research_solomon_et_al_2007]: https://doi.org/10.1007/978-0-387-77214-1_1
 [research_steffl_et_al_2013]: https://doi.org/10.1016/j.icarus.2012.11.031
+[research_suarez_mascareno_et_al_2025]: https://doi.org/10.1051/0004-6361/202553728
 [research_vasavada_paige_wood_1999]: https://doi.org/10.1006/icar.1999.6175
 [research_winslow_et_al_2015]: https://doi.org/10.1002/2015ja021200
+[research_worden_et_al_2021]: https://doi.org/10.1364/ao.435858

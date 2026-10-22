@@ -58,6 +58,8 @@ and references are 1,221, 31 and 73 for A381, 1,710, 36 and 88 for A382, 1,360, 
 
 **All four passes complete 2026-10-22 for A381 to A384.** The citation, word usage and publication review passes are done. Final sizes: A381 1,252 lines, 31 display equations and 74 references; A382 1,726, 36 and 88; A383 1,367, 30 and 67; A384 1,753, 25 and 92. They publish in order A381 to A384.
 
+**Process phrasing and primary source pass 2026-10-22 for A381 to A384.** On the pilot's rulings, prose that reported the searches made for each article was removed from the literature reviews, the former Gaps subsections and the Epistemic State sections, and primary sources were added beside or in place of Wikipedia where an abstract states the claim. Sizes now: A381 1,264 lines, 31 display equations and 77 references; A382 1,755, 36 and 96; A383 1,457, 30 and 82; A384 1,818, 25 and 105. Claims with no primary source found keep Wikipedia and are named in each Epistemic State. Not published, and they publish in order A381 to A384.
+
 ## Mass Drivers A383 2026-08-19 DRAFTED
 
 `_drafts/mass_drivers.markdown`, A383, editorial date 2026-08-19, standalone analytical essay, categories

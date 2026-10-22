@@ -4,6 +4,32 @@
 
 ## Last Updated
 
+**Date**: 2026-10-22 (eleventh entry)
+**Task**: **A381 to A384, PROCESS PHRASING AND PRIMARY SOURCE PASS. Committed, NOT pushed, NOT published.** On the pilot's rulings that "... in the searches made for this article" reports the drafting process, that "according to <source>" does not, and that Wikipedia serves for overviews while primary sources take priority.
+
+**Process phrasing.** The literature review introductions now read "Each work is described according to its published abstract, or by its subject alone where it is cited for its title." The Gaps subsections were removed or rewritten as content (A381 "Foundations", A383 "Beyond the Cited Literature", A382 deleted). Epistemic State sections no longer name Crossref, OpenAlex, retrievability or searches.
+
+**Primary sources added.** Four read-only subagents proposed sources, recorded in `tmp/a38N/primary_sources.md`. Every new DOI resolves and every new figure traces to a saved abstract.
+- **A381**, 77 references. Belbruno and Carrico 2000 for Hiten, the unattributed 1977 study for the mass-driver engine, Johnson 1995 at title level. The Mars excess speeds of 2.945 and 2.649 km/s are now computed in the text.
+- **A382**, 96 references. Mori 2011, Yonetoku 2011 and Funase 2011 for IKAROS, Mansell 2023 for LightSail 2, Akeson 2021, Pineda 2021 and Bond 2017 behind the stellar data, Prša 2016 for the nominal luminosity, Parker 2018 and Heller and Hippke for Starshot, McInnes and Simmons 1992 for the statite.
+- **A383**, 82 references. Kolm 1977 and Kolm 1980 for efficiency, Wieczorek 2006, Williams 2014, Perry 2015, Verma and Margot 2016, Mazarico 2014, Ermakov 2017, Konopliv 2014 and 2018, Russell 2012, Ernst 2023, Guo 2026 and Jacobson and Lainey 2014 for body data, Muller and Sjogren 1968, Snow 1982, Elipe and Lara 2003. **The Phobos escape speed is now computed as 11.32 m/s** from Guo and Ernst, replacing Wikipedia's 11.39, and **Deimos surface gravity is corrected from 0.0025 to 0.0024**.
+- **A384**, 105 references. Mangano 2021 for the BepiColombo flybys, Mazarico 2014 for the rotation, Fox 2015 for the seven Venus assists, Ness 1974 for the magnetosphere, Hoang 2017 and Worden 2021 for Starshot, Schumacher and Gay 2001 for the vulcanoid limit, Faria 2022 and Suárez Mascareño 2025 for Proxima d, Davoudi 2024 for TRAPPIST-1's luminosity, Howard 2018 for the superflare, Perry 2015 with Hauck 2013 for the core fraction, Mayor and Queloz 1995 at title level. Three items rest on conference papers or abstracts, which the Epistemic State says: the November 2026 BepiColombo arrival (Murakami and Jones 2025), the 9.86 solar radii perihelion (Ercol and Balakrishnan 2024) and its first reaching in December 2024 (Badman 2026). The BepiColombo and Parker Solar Probe Wikipedia references are no longer used and were removed.
+
+**Removed as unverifiable.** The Starshot lower bound of 15 percent of light speed (A384 now says about 20 percent), and Earth's 17 percent core volume fraction, which a rough check puts at 16.3 percent with unverified textbook radii.
+
+**Still on Wikipedia only.** About twenty A384 claims have no primary source found, among them Mercury's orbital period and eccentricity, the −173 to 427 °C range, surface gravities and escape speeds, the 1.1 percent field strength, the 4.34 light years, the delta-v budget figures, the MESSENGER flyby sequence, TRAPPIST-1's mass and TRAPPIST-1b's tidal locking. Comparable residues remain in A381 to A383. Each Epistemic State names the Wikipedia-sourced data.
+
+**Pilot decisions.**
+1. **Mercury's exosphere pressure.** A384 states about 0.5 nanopascal or less, from Wikipedia. The primary-source report described Lammer 2026, an EGU abstract giving an upper limit of 10⁻¹¹ to 10⁻¹² bar, as conflicting with that value. It does not conflict, by my arithmetic. That limit is 0.1 to 1 micropascal, and 0.5 nPa lies below it, so the abstract is consistent with the article but looser. The value was not changed, and the conclusion that launch is effectively from vacuum holds under either figure. Citing Lammer as a bound is an option.
+2. **The Venus surface figures** in A384 stay on Wikipedia, since the only abstract found gives 92 bar and no temperature.
+3. **Proxima d.** The text now gives the published 0.029 AU and 0.26 Earth masses, while the calculations keep Wikipedia's catalogued 0.02881 AU.
+
+**Verification.** `_verify.py` 0 errors and 0 warnings. All 246 DOIs in the four drafts return handle code 1. Scratch production build with the four drafts in `_posts/` ok, render audit 551 pages no findings, 31 fragment links resolve. No new tic is at or above the peer maximum.
+
+**Next.** Publication awaits the pilot's word, in order A381, A382, A383, A384.
+
+## Previous Report (2026-10-22, tenth entry)
+
 **Date**: 2026-10-22 (tenth entry)
 **Task**: **A381 to A384, ALL FOUR PASSES COMPLETE. Committed, NOT pushed, NOT published.** On the pilot's instruction, "Perform the three remaining passes on each article."
 
