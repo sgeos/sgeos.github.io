@@ -56,6 +56,8 @@ lines, 25 display equations, 54 references. Later articles link to sections of e
 and references are 1,221, 31 and 73 for A381, 1,710, 36 and 88 for A382, 1,360, 30 and 67 for A383, and 1,733, 25 and
 90 for A384. Many added works are cited at title level because the OpenAlex quota ran out during the search.
 
+**All four passes complete 2026-10-22 for A381 to A384.** The citation, word usage and publication review passes are done. Final sizes: A381 1,252 lines, 31 display equations and 74 references; A382 1,726, 36 and 88; A383 1,367, 30 and 67; A384 1,753, 25 and 92. They publish in order A381 to A384.
+
 ## Mass Drivers A383 2026-08-19 DRAFTED
 
 `_drafts/mass_drivers.markdown`, A383, editorial date 2026-08-19, standalone analytical essay, categories

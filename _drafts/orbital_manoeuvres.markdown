@@ -34,11 +34,11 @@ in a few paragraphs each
 [Introduction to Space Studies][related_post_space_studies].
 This article treats the manoeuvres in more depth,
 with worked numbers,
-and adds the compound and advanced manoeuvres that textbooks such as Curtis
+and adds compound and advanced manoeuvres.
+General references include the orbital manoeuvres chapter of Curtis
 [Curtis 2020][book_curtis_2020_maneuvers]
-and Battin
-[Battin 1999][book_battin_1999]
-cover.
+and the astrodynamics text of Battin
+[Battin 1999][book_battin_1999].
 Every number is computed from the equations shown,
 for point masses and,
 unless stated,
@@ -60,7 +60,9 @@ That independence is what makes delta-v the natural currency of mission design.
 
 Most textbook manoeuvres treat a burn as instantaneous,
 changing the velocity but not the position.
-This is accurate when the burn lasts a small fraction of an orbit.
+Studies and manoeuvre optimization commonly use this approximation,
+and when thrust is applied in short bursts the other accelerations during the burn may be negligible
+[Delta-v][ref_delta_v].
 For burns that do not,
 the vehicle pays an additional cost treated in the section on losses.
 
@@ -144,7 +146,8 @@ so the mass ratio grows exponentially with the delta-v demanded.
 </div>
 
 Because delta-v values add,
-the mass ratios of successive burns multiply,
+the mass ratios of successive burns multiply
+[Delta-v][ref_delta_v],
 and a mission budget can be built burn by burn.
 The equation applies to any device that expels reaction mass,
 including a small mass driver used as an engine on board a spacecraft
@@ -184,7 +187,10 @@ less than the 9.3 to 10 kilometres per second needed to reach low Earth orbit fr
 Both values of $v_{e}$ and $\varepsilon$ are illustrative assumptions.
 
 Staging sheds structure on the way.
-The argument for it is as old as the study of escape from Earth by rocket
+The idea is old,
+and the oldest known multistage rocket is described in the fourteenth century Chinese Huolongjing
+[Multistage Rocket][ref_multistage_rocket].
+Malina and Summerfield addressed the problem of escape from Earth by rocket in 1947
 [Malina and Summerfield 1947][research_malina_summerfield_1947],
 and optimum staging was treated as an explicit optimization problem by 1957
 [Schurmann 1957][research_schurmann_1957].
@@ -261,7 +267,7 @@ and the delta-v a vehicle must supply exceeds the ideal values in this article.
 Gravity loss is the cost of holding a rocket up in a gravity field while it thrusts,
 and it is smallest when thrust is high and the burn short
 [Gravity Loss][ref_gravity_loss].
-The classic ascent that limits steering loss is the gravity turn,
+One of the simplest ascent programs is the gravity turn,
 which keeps the thrust always parallel to the velocity,
 and even its idealized equations are nonlinear and need numerical integration
 [Culler and Fried 1957][research_culler_fried_1957].
@@ -274,9 +280,10 @@ $$
 $$
 
 The launch budget of 9.3 to 10 kilometres per second to low Earth orbit exceeds the circular speed of 7.73 by 1.57 to 2.27,
-which is the net of drag and gravity losses,
+which is attributed to gravity losses,
 steering losses
-and the credit for Earth's rotation.
+and atmospheric drag
+[Gravity Loss][ref_gravity_loss].
 The orbital manoeuvres that follow are calculated without losses,
 which is the textbook convention.
 
@@ -314,8 +321,9 @@ In low Earth orbit a change of 1 degree costs 0.135 kilometres per second and a 
 In geostationary orbit the same changes cost 0.054 and 1.514.
 A change of 60 degrees costs exactly the orbital speed,
 because $2\sin 30^{\circ} = 1$.
-Plane changes are among the most expensive manoeuvres in orbital mechanics,
-which is why launch sites and launch directions are chosen to place a spacecraft in nearly the right plane.
+Plane changes can take a very large amount of delta-v,
+so mission planners try to launch a spacecraft directly into the desired inclination or as close to it as possible
+[Orbital Inclination Change][ref_orbital_inclination_change].
 
 On an elliptical orbit the speed at the node depends on where the node lies.
 For an orbit of semi-major axis $a$,
@@ -342,7 +350,8 @@ $$
 $$
 
 This is always less than doing the speed change and the plane change separately,
-because the two share one burn.
+because the two share one burn
+[Geostationary Transfer Orbit][ref_geostationary_transfer_orbit].
 The example of a transfer to geostationary orbit below shows the size of the saving.
 
 ## Two-Impulse Transfers
@@ -406,20 +415,24 @@ and the flight time are all fixed,
 the transfer orbit is found by solving Lambert's problem,
 which determines an orbit from two position vectors and the time of flight
 [Lambert's Problem][ref_lamberts_problem].
-For interplanetary missions the delta-v is often plotted against departure and arrival dates on a porkchop plot
+For interplanetary missions the delta-v is often plotted against launch date on a porkchop plot
 [Delta-v][ref_delta_v],
-and in the patched conic method each point on such a plot comes from a solution of Lambert's problem.
+and Lambert's problem is often solved in conjunction with the patched conic approximation
+to estimate the launch energy and the capture manoeuvres
+[Lambert's Problem][ref_lamberts_problem].
 Lambert solvers remain an active subject.
 Battin and Vaughan removed the singularity of Gauss's method at a transfer angle of 180 degrees
 and obtained convergence that is rapid and essentially independent of the initial guess
 [Battin and Vaughan 1984][research_battin_vaughan_1984],
-Gooding published a widely used solution procedure
+Gooding published a solution procedure for Lambert's orbital boundary-value problem
 [Gooding 1990][research_gooding_1990],
 Avanzini parameterized the solutions by the component of the eccentricity vector perpendicular to the chord
 [Avanzini 2008][research_avanzini_2008],
-and Izzo published a revisited formulation in 2014
+and Izzo revisited the problem in 2014
 [Izzo 2014][research_izzo_2014].
-Textbooks treat Lambert's problem with preliminary orbit determination
+Lambert's problem also has applications in preliminary orbit determination
+[Lambert's Problem][ref_lamberts_problem],
+the subject of a chapter of Curtis
 [Curtis 2020][book_curtis_2020_orbit_determination].
 
 ## Three-Impulse Transfers
@@ -490,7 +503,9 @@ The same idea applies to plane changes.
 A spacecraft can raise its apoapsis,
 change plane there at low speed,
 and lower its apoapsis again,
-for a total of three burns.
+for a total of three burns,
+and in some cases this needs less total delta-v
+[Orbital Inclination Change][ref_orbital_inclination_change].
 The table compares this with a single plane change from the 300 kilometre orbit.
 
 <div style="overflow-x: auto;" markdown="1">
@@ -505,7 +520,7 @@ The table compares this with a single plane change from the 300 kilometre orbit.
 
 The three-burn route loses at 45 degrees and wins at 60 and above in these cases.
 The break-even angle and the best apoapsis depend on the case,
-and a large plane change is always cheaper by going far out first.
+and in these cases a large plane change is cheaper by going far out first.
 
 ## A Compound Example, Low Earth Orbit to Geostationary Orbit
 
@@ -521,9 +536,10 @@ with a 300 kilometre starting orbit.
 - **Combined at apogee.** Doing the whole plane change with the apogee burn, by the law of cosines with an apogee speed of 1.608 and a final speed of 3.075, makes that burn 1.830 and the total 4.256.
 - **Split optimally.** Doing 2.20 degrees of the plane change at perigee and 26.30 at apogee gives the minimum, 4.231.
 
-The published table lists 4.24 kilometres per second from a low Earth orbit inclined as from Kennedy Space Center to geostationary orbit
+The published table lists 4.33 kilometres per second to geostationary orbit
+from a low Earth orbit inclined at 28 degrees as from Kennedy Space Center
 [Delta-v Budget][ref_delta_v_budget],
-in agreement with the optimal split.
+about 0.1 kilometres per second above the optimal split computed here for 28.5 degrees.
 In practice the inclination and eccentricity of a geostationary transfer orbit are usually removed together in one burn at apogee,
 where the velocity is lowest
 [Geostationary Transfer Orbit][ref_geostationary_transfer_orbit].
@@ -536,9 +552,10 @@ which is the largest single lesson of this example.
 
 Two spacecraft in the same orbit at different positions cannot close the gap by thrusting toward each other.
 Instead the chaser moves to a phasing orbit with a different period,
-completes a whole number of revolutions,
+completes one revolution of it,
 and returns to the original orbit when the target arrives at the same point
 [Orbit Phasing][ref_orbit_phasing].
+The same idea extends to a phasing orbit flown for several revolutions.
 To catch a target that is ahead by a phase angle $\theta$ in $k$ revolutions,
 the chaser needs a phasing orbit of the following period,
 where $T$ is the period of the original orbit.
@@ -548,7 +565,8 @@ T_{\mathrm{ph}} = T\left(1 - \frac{\theta}{2\pi k}\right)
 $$
 
 A target ahead needs a smaller and faster phasing orbit,
-which the chaser enters by slowing down,
+which the chaser enters by slowing down
+[Orbit Phasing][ref_orbit_phasing],
 and the return to the original orbit costs the same burn in reverse.
 In a 400 kilometre circular orbit with a period of 92.56 minutes,
 catching a target 30 degrees ahead in one revolution would need a phasing orbit of 84.85 minutes,
@@ -573,8 +591,9 @@ Near a target in a circular orbit,
 the motion of a chaser is described to first order by the Clohessy-Wiltshire equations
 [Clohessy-Wiltshire Equations][ref_clohessy_wiltshire_equations].
 Clohessy and Wiltshire derived the equations of motion in a relative coordinate system for satellite rendezvous in 1960
-[Clohessy and Wiltshire 1960][research_clohessy_wiltshire_1960],
-building on Hill's 1878 work on the Moon's motion relative to Earth
+[Clohessy and Wiltshire 1960][research_clohessy_wiltshire_1960].
+Early results on relative orbital motion had been published by Hill in 1878,
+in a paper on the motion of the Moon relative to Earth
 [Clohessy-Wiltshire Equations][ref_clohessy_wiltshire_equations]
 [Hill 1878][research_hill_1878].
 For targets on elliptical orbits the equations acquire time-dependent coefficients,
@@ -607,7 +626,7 @@ $$
 
 Thrusting toward a target raises the chaser's orbit and makes it fall behind.
 The equations reduce rendezvous planning to linear algebra,
-and textbooks treat them alongside the two-impulse rendezvous they make possible
+and Curtis treats relative motion and rendezvous together in one chapter
 [Curtis 2020][book_curtis_2020_rendezvous].
 
 ## Escape, Capture and the Oberth Effect
@@ -624,7 +643,8 @@ $$
 $$
 
 Leaving the 300 kilometre orbit with an excess of 2.94 kilometres per second,
-roughly what a Hohmann transfer to Mars needs,
+roughly what a Hohmann transfer to Mars needs
+[Patched Conic Approximation][ref_patched_conic_approximation],
 costs 3.589.
 Escaping first and then adding the excess separately would cost 6.140.
 The difference is the Oberth effect.
@@ -643,9 +663,10 @@ $$
 
 A burn of 1 kilometre per second at the low orbit's 7.726 kilometres per second adds 8.23 megajoules per kilogram,
 against 0.50 for the same burn from rest.
-The square of the excess speed is often quoted as the characteristic energy,
+The square of the excess speed is the characteristic energy,
 $C_{3} = v_{\infty}^{2}$,
-which is the quantity launch vehicles are rated for.
+which is commonly used in planning interplanetary missions
+[Hyperbolic Trajectory][ref_hyperbolic_trajectory].
 
 ### Capture
 
@@ -661,16 +682,17 @@ r_{p,\mathrm{opt}} = \frac{2\mu}{v_{\infty}^{2}}\,\frac{1-e}{1+e}, \qquad
 $$
 
 For Mars,
-arriving with an excess of 2.65 kilometres per second,
+arriving with an excess of 2.65 kilometres per second
+[Patched Conic Approximation][ref_patched_conic_approximation],
 the best circular capture is at a radius of 12,197 kilometres for 1.874 kilometres per second,
 against 2.092 at 300 kilometres altitude and 1.978 at three times the optimal radius.
 Capture into an ellipse is far cheaper.
 For $e = 0.9$ the formula's optimal periapsis radius of 642 kilometres lies inside Mars,
 so the real optimum is the lowest safe periapsis,
 and capture with a periapsis 300 kilometres up costs 0.803.
-Spacecraft often capture into a long ellipse and then lower the apoapsis later,
+A spacecraft can capture into a long ellipse and then lower the apoapsis later,
 by burning or by aerobraking.
-Aerocapture and aerobraking have each been weighed against propulsive capture,
+Aerocapture and aerobraking have each been assessed,
 the first in a cost-benefit analysis across a mission set
 [Hall, Noca and Bailey 2005][research_hall_noca_bailey_2005]
 and the second as a matter of cost and risk
@@ -678,17 +700,18 @@ and the second as a matter of cost and risk
 
 ### Patched Conics
 
-Interplanetary trajectories are calculated in textbooks by the patched conic approximation,
+Interplanetary trajectories are commonly approximated by the patched conic method,
 which gives each body a sphere of influence and treats the spacecraft as moving under one body at a time
 [Patched Conic Approximation][ref_patched_conic_approximation].
 The departure and capture burns above are joined by a heliocentric transfer,
-often a Hohmann transfer,
-and the launch opportunities recur once per synodic period
+such as the Hohmann transfer in the worked example of a flight from Earth to Mars
+[Patched Conic Approximation][ref_patched_conic_approximation].
+Curtis devotes a chapter to interplanetary trajectories
 [Curtis 2020][book_curtis_2020_interplanetary].
 
 Three equations carry this method.
 The sphere of influence of a planet of mass $m$ orbiting a star of mass $M$ at distance $a$ has the approximate radius below
-[Patched Conic Approximation][ref_patched_conic_approximation],
+[Sphere of Influence][ref_sphere_of_influence],
 the synodic period of two orbits of periods $T_{1}$ and $T_{2}$ is the interval between alignments,
 and a Hohmann transfer from radius $r_{1}$ to $r_{2}$ requires the target to lead by the phase angle $\theta_{H}$ at departure.
 
@@ -700,6 +723,8 @@ $$
 
 For Mars the sphere of influence is about 577,000 kilometres,
 and for a Hohmann transfer from Earth to Mars the target leads by 44.3 degrees at departure.
+Because the required phase angle recurs once per synodic period,
+so does each launch opportunity.
 
 ## Gravity Assists
 
@@ -728,7 +753,8 @@ $$
 
 The velocity change is a change of direction in the planet's frame.
 Whether it raises or lowers the heliocentric speed depends on the geometry of the flyby.
-A powered flyby adds a burn at periapsis and gains from the Oberth effect.
+A powered flyby adds a burn at periapsis and gains from the Oberth effect
+[Oberth Effect][ref_oberth_effect].
 With a periapsis speed $v_{p}$ and a burn $\Delta v$ there,
 the outgoing excess speed is the following.
 
@@ -759,7 +785,8 @@ $$
 From the 300 kilometre orbit to geostationary orbit this is 4.651 kilometres per second,
 against 3.893 for the Hohmann transfer.
 A low-thrust engine pays about 19 percent more delta-v,
-but it may need far less propellant because its exhaust speed is much higher.
+but it may need far less propellant because its exhaust speed is much higher
+[Delta-v Budget][ref_delta_v_budget].
 At a constant acceleration $a$ the spiral takes the following time,
 which for 1 millimetre per second squared from the low orbit to geostationary orbit is 53.8 days.
 
@@ -821,7 +848,7 @@ and where only its title was available it is described by its title alone.
 
 ### Surveys and Textbooks
 
-Battin's text and Curtis's chapters are the standard references used above
+Battin's text and Curtis's chapters serve above as general textbook references
 [Battin 1999][book_battin_1999]
 [Curtis 2020][book_curtis_2020_maneuvers].
 Gobetz and Doll surveyed impulsive trajectories,
@@ -829,7 +856,7 @@ optimal and nonoptimal,
 and classified the known results for reference
 [Gobetz and Doll 1969][research_gobetz_doll_1969].
 Conway's edited volume on spacecraft trajectory optimization deliberately includes both analytical and numerical approaches,
-and records a revolution in how the methods are applied with the development of numerical optimization
+and records a revolution in how the methods are applied and in the development of numerical optimization
 [Conway 2010][book_conway_2010].
 
 ### The Rocket Equation, Staging and Ascent
@@ -842,12 +869,12 @@ Culler and Fried gave universal solutions for the gravity turn,
 which depend on the initial thrust-to-weight ratio and the initial kick angle
 [Culler and Fried 1957][research_culler_fried_1957].
 No dedicated analysis of gravity loss with a verifiable abstract was found,
-and the treatment above rests on the textbook definition.
+and the treatment above rests on the cited encyclopedia entry.
 
 ### Optimal Impulsive Transfers
 
-The theory of optimal impulsive transfers began with Lawden,
-who studied minimal rocket trajectories and derived necessary conditions for optimal ones
+Among the early contributions to the theory,
+Lawden studied minimal rocket trajectories and derived necessary conditions for optimal ones
 [Lawden 1953][research_lawden_1953]
 [Lawden 1959][research_lawden_1959].
 Ting studied optimum orbital transfer by impulses in 1960
@@ -856,9 +883,9 @@ Hoelker and Silber analysed the bi-elliptical transfer in 1961
 [Hoelker and Silber 1961][research_hoelker_silber_1961],
 Barrar compared two-impulse with one-impulse transfer analytically in 1963
 [Barrar 1963][research_barrar_1963],
-and Edelbaum asked how many impulses an optimal transfer needs
+and Edelbaum asked how many impulses a transfer needs
 [Edelbaum 1966][research_edelbaum_1966].
-Lion and Handelsman extended Lawden's primer vector to nonoptimal trajectories,
+Lion and Handelsman extended the definition of the primer vector to nonoptimal as well as optimal trajectories,
 giving conditions for when an added impulse or an initial or final coast improves a trajectory,
 and showed that in an inverse-square field the primer can be computed analytically
 [Lion and Handelsman 1968][research_lion_handelsman_1968].
@@ -868,7 +895,8 @@ and state of all impulses
 [Jezewski and Rozendaal 1968][research_jezewski_rozendaal_1968].
 Prussing's chapter gives a modern account of the theory and its applications
 [Prussing 2010][book_prussing_2010],
-and Pontani's proof that Hohmann and bielliptic transfers are the two possible global optima closes the question for transfers between ellipses
+and Pontani proved that Hohmann and bielliptic transfers are the two possible global optima between two elliptic orbits,
+with the choice between them set by their apoapsis and periapsis radii
 [Pontani 2009][research_pontani_2009].
 
 ### Relative Motion and Rendezvous
@@ -876,16 +904,16 @@ and Pontani's proof that Hohmann and bielliptic transfers are the two possible g
 Early results on relative orbital motion appeared in Hill's researches in lunar theory
 [Hill 1878][research_hill_1878]
 [Clohessy-Wiltshire Equations][ref_clohessy_wiltshire_equations],
-and Clohessy and Wiltshire derived them for satellite rendezvous
+and Clohessy and Wiltshire derived relative-motion equations for satellite rendezvous
 [Clohessy and Wiltshire 1960][research_clohessy_wiltshire_1960].
 Tschauner and Hempel studied minimum-fuel rendezvous techniques
 [Tschauner and Hempel 1965][research_tschauner_hempel_1965],
 and Prussing studied optimal fixed-time rendezvous near a circular orbit with four impulses and with two and three
 [Prussing 1969][research_prussing_1969]
 [Prussing 1970][research_prussing_1970].
-Carter surveyed and classified the published work on linearized rendezvous and built a state transition matrix for terminal rendezvous near any Keplerian orbit using the Tschauner-Hempel equations
+Carter surveyed and classified much of the published work on linearized rendezvous and built a state transition matrix for terminal rendezvous near any Keplerian orbit using the Tschauner-Hempel equations
 [Carter 1998][research_carter_1998],
-and Yamanaka and Ankersen extended the state transition matrix to arbitrary elliptical orbits
+and Yamanaka and Ankersen gave a new and simpler state transition matrix valid for arbitrary elliptical orbits
 [Yamanaka and Ankersen 2002][research_yamanaka_ankersen_2002].
 
 ### Lambert's Problem
@@ -949,18 +977,18 @@ Conley studied low-energy transit orbits in the restricted three-body problem in
 [Conley 1968][research_conley_1968].
 Belbruno constructed Earth-Moon trajectories ending in lunar capture orbits
 [Belbruno 1987][research_belbruno_1987],
-and Belbruno and Miller defined weak stability boundaries and described the Sun-perturbed transfers that saved delta-v for Hiten
+and Belbruno and Miller defined weak stability boundaries and described Sun-perturbed transfers whose use Hiten had demonstrated
 [Belbruno and Miller 1993][research_belbruno_miller_1993].
 Koon,
 Lo,
 Marsden
-and Ross demonstrated a heteroclinic connection between periodic orbits around the first and second Lagrange points
-and presented the associated invariant manifolds as channels for transport through the solar system,
+and Ross numerically demonstrated a heteroclinic connection between periodic orbits around the first and second Lagrange points
+and presented the associated invariant manifolds as tools for understanding dynamical channels throughout the solar system,
 relevant to missions such as Genesis
 [Koon et al. 2000][research_koon_et_al_2000].
-They applied the approach to low-energy transfer to the Moon
+They also addressed low-energy transfer to the Moon
 [Koon et al. 2001][research_koon_et_al_2001],
-and with Gómez and Masdemont extended it to the spatial problem
+and with Gómez and Masdemont treated connecting orbits and invariant manifolds in the spatial restricted three-body problem
 [Gómez et al. 2004][research_gomez_et_al_2004].
 Topputo studied optimal two-impulse Earth-Moon transfers in a four-body model
 [Topputo 2013][research_topputo_2013].
@@ -969,7 +997,8 @@ Topputo studied optimal two-impulse Earth-Moon transfers in a four-body model
 
 No digital object identifier was found for several foundational works,
 so they are not cited directly.
-These include Hohmann's 1925 book,
+These include Hohmann's 1925 book
+[Hohmann Transfer Orbit][ref_hohmann_transfer_orbit],
 Lawden's 1963 monograph on optimal trajectories,
 Lancaster and Blanchard's unified form of Lambert's problem,
 Tschauner and Hempel's 1965 paper introducing the elliptic relative-motion equations,
@@ -1097,6 +1126,7 @@ and gravity assists.
 - [Reference, Orbital Inclination Change, Wikipedia][ref_orbital_inclination_change]
 - [Reference, Orbital Maneuver, Wikipedia][ref_orbital_maneuver]
 - [Reference, Patched Conic Approximation, Wikipedia][ref_patched_conic_approximation]
+- [Reference, Sphere of Influence, Wikipedia][ref_sphere_of_influence]
 - [Reference, Tsiolkovsky Rocket Equation, Wikipedia][ref_tsiolkovsky_rocket_equation]
 - [Reference, Vis-viva Equation, Wikipedia][ref_vis_viva_equation]
 - [Related Post, Introduction to Space Studies][related_post_space_studies]
@@ -1171,6 +1201,7 @@ and gravity assists.
 [ref_orbital_inclination_change]: https://en.wikipedia.org/wiki/Orbital_inclination_change
 [ref_orbital_maneuver]: https://en.wikipedia.org/wiki/Orbital_maneuver
 [ref_patched_conic_approximation]: https://en.wikipedia.org/wiki/Patched_conic_approximation
+[ref_sphere_of_influence]: https://en.wikipedia.org/wiki/Sphere_of_influence_%28astrodynamics%29
 [ref_tsiolkovsky_rocket_equation]: https://en.wikipedia.org/wiki/Tsiolkovsky_rocket_equation
 [ref_vis_viva_equation]: https://en.wikipedia.org/wiki/Vis-viva_equation
 [related_post_space_studies]: {% post_url 2026-02-21-introduction_to_space_studies %}

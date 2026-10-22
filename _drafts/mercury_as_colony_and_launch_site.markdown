@@ -225,13 +225,14 @@ and the table is consistent with that description among bodies with landable sur
 
 Real missions avoid this cost by spending time.
 The mission named MESSENGER,
-for Mercury Surface, Space Environment, Geochemistry and Ranging
-[Solomon et al. 2007][research_solomon_et_al_2007],
+for Mercury Surface, Space Environment, Geochemistry and Ranging,
 reached Mercury after flybys of Earth, Venus and Mercury itself
-[MESSENGER][ref_messenger].
+[MESSENGER][ref_messenger],
+and Solomon and coauthors give an overview of the mission
+[Solomon et al. 2007][research_solomon_et_al_2007].
 BepiColombo,
 the joint European and Japanese mission
-[Benkhoff et al. 2010][research_benkhoff_et_al_2010],
+[Benkhoff et al. 2021][research_benkhoff_et_al_2021],
 launched in October 2018 and is planned to enter Mercury orbit in November 2026,
 after one Earth flyby, two Venus flybys and six Mercury flybys
 [BepiColombo][ref_bepicolombo].
@@ -240,7 +241,7 @@ Mio from the Japanese space agency and the Mercury Planetary Orbiter from the Eu
 [Benkhoff et al. 2021][research_benkhoff_et_al_2021].
 MESSENGER's trajectory design and manoeuvre strategy,
 and its mission design and navigation,
-are documented in detail
+are documented by McAdams and coauthors
 [McAdams et al. 2006][research_mcadams_et_al_2006]
 [McAdams et al. 2007][research_mcadams_et_al_2007].
 A Hohmann flight of 105 days thus becomes a journey of several years.
@@ -252,8 +253,8 @@ that choice between a large delta-v and a long voyage is a real and permanent bu
 The thermal environment is severe but structured.
 At Mercury's equator the surface ranges from −173 °C to 427 °C
 [Mercury][ref_mercury],
-values that rest on thermal modeling by Vasavada and coauthors
-[Vasavada 1999][research_vasavada_1999].
+values that the encyclopedia attributes to thermal modeling by Vasavada, Paige and Wood
+[Vasavada, Paige and Wood 1999][research_vasavada_paige_wood_1999].
 A black surface facing the Sun with no conduction into the ground would reach the following temperature,
 where $S$ is the local flux.
 
@@ -262,7 +263,7 @@ T_{\mathrm{subsolar}} = \left(\frac{S}{\sigma}\right)^{1/4}
 $$
 
 This gives 710 K at perihelion and 576 K at aphelion.
-The perihelion value lies just above the measured maximum of 427 °C,
+The perihelion value lies just above the reported maximum of 427 °C,
 about 700 K,
 as it should for an ideal black surface that reflects nothing and conducts no heat downward.
 The heat is not continuous at any one place.
@@ -283,21 +284,22 @@ an inference from the arithmetic that has not been tested by any engineering stu
 The poles are more favourable still.
 Mercury's spin axis is tilted by only 2.04 ± 0.08 arc minutes from its orbit normal
 [Margot et al. 2012][research_margot_et_al_2012],
-so the floors of polar craters never see the Sun.
+so parts of the floors of many polar craters never see the Sun.
 Radar imaging in 1991 found highly reflective material at the north pole,
 with polarization ratios previously seen only from icy regions of Mars and icy outer satellites
 [Slade, Butler and Muhleman 1992][research_slade_butler_muhleman_1992].
-The MESSENGER neutron spectrometer,
-together with thermal modeling and laser altimetry,
+MESSENGER neutron spectrometer data,
+together with thermal modeling,
 confirmed that the main component of the radar-bright material at the north pole is water ice,
-some exposed at the surface and some buried beneath dark deposits interpreted as organic material
+and laser altimeter reflectance measurements are consistent with some of it exposed at the surface
+and some beneath dark deposits interpreted as an organic lag
 [Lawrence et al. 2013][research_lawrence_et_al_2013]
 [Neumann et al. 2013][research_neumann_et_al_2013]
 [Paige et al. 2013][research_paige_et_al_2013].
-Water is the single most important import for a settlement,
+Water is among the most important materials a settlement would otherwise have to import,
 and Mercury has a local supply at its poles.
 Within 10 degrees of the north pole almost all craters larger than 10 kilometres host radar-bright deposits in persistently shadowed areas,
-and smaller deposits extend as far south as 66 degrees north
+and many smaller craters and craters as far south as 66 degrees north also host radar-bright material
 [Chabot et al. 2013][research_chabot_et_al_2013].
 Images from inside the shadowed craters show widespread surface ice in Prokofiev crater,
 ice covered by a thin layer of dark,
@@ -319,7 +321,9 @@ which Mariner 10 measured at about 1.1 percent of the strength of Earth's
 [Mercury][ref_mercury],
 and which MESSENGER resolved as an offset dipole with a moment of about 195 nanotesla times the cube of Mercury's radius
 [Anderson et al. 2011][research_anderson_et_al_2011].
-The field is strong enough to deflect the solar wind but offers little shelter at the surface.
+The field is just strong enough to deflect the solar wind
+[Mercury][ref_mercury],
+but the measurements that follow show that it offers little shelter at the surface.
 MESSENGER observed magnetic reconnection in the magnetosphere
 [Slavin et al. 2009][research_slavin_et_al_2009]
 and bursts of electrons above 30 kiloelectronvolts but no energetic protons,
@@ -327,7 +331,8 @@ because the weak field cannot hold Van Allen-type radiation belts
 [Ho et al. 2011][research_ho_et_al_2011].
 
 Radiation from solar storms is the clearest added hazard.
-Lario and coauthors fitted the radial dependence of solar energetic proton events measured within 1 AU by the two Helios spacecraft and by Interplanetary Monitoring Platform 8.
+Lario and coauthors fitted the radial dependence of solar energetic proton events measured within 1 AU by the two Helios spacecraft and by Interplanetary Monitoring Platform 8,
+or IMP 8.
 They found event fluences that scale from $R^{-2.1}$ to $R^{-1.0}$ across their two energy bands,
 and peak intensities from $R^{-2.7}$ to $R^{-1.9}$
 [Lario et al. 2006][research_lario_et_al_2006].
@@ -340,7 +345,7 @@ $$
 \frac{F(r)}{F(1\ \mathrm{AU})} = r^{-k}
 $$
 
-They also found that the longitude of the source region relative to the observer matters more than distance,
+They also found that the longitudinal separation between the parent active region and the magnetic footpoint of the spacecraft matters more than distance,
 so these factors describe averages over many events rather than any single storm.
 Shielding by regolith addresses the problem at any distance,
 so the burden is the mass of the shielding rather than a hard limit on settlement.
@@ -351,7 +356,7 @@ MESSENGER measured precipitating fluxes of about 40 percent of the upstream leve
 [Gershman et al. 2015][research_gershman_et_al_2015],
 which bears directly on polar sites chosen for their ice.
 MESSENGER was the first spacecraft since the two Helios probes to measure the interplanetary medium in place inside 0.5 AU,
-and it catalogued the coronal mass ejections that passed Mercury from 2011 to 2014
+and Winslow and coauthors catalogued the interplanetary coronal mass ejections its magnetometer observed from 2011 to 2014
 [Winslow et al. 2015][research_winslow_et_al_2015].
 
 ### Bodies That Are Harder
@@ -397,8 +402,14 @@ so it ranks as hard to reach but comparatively tractable to inhabit.
 
 Mercury's surface escape speed is 4.25 kilometres per second
 [Mercury][ref_mercury].
-This is less than the 5.03 of Mars and much less than the 11.19 of Earth,
-although more than the 2.38 of the Moon and the 0.52 of Ceres.
+This is less than the 5.03 of Mars
+[Mars][ref_mars]
+and much less than the 11.19 of Earth
+[Earth][ref_earth],
+although more than the 2.38 of the Moon
+[Moon][ref_moon]
+and the 0.52 of Ceres
+[Ceres][ref_ceres].
 Mercury's exosphere has a surface pressure of about 0.5 nanopascal or less
 [Mercury][ref_mercury],
 so launching from it is effectively launching from vacuum.
@@ -526,7 +537,7 @@ $$
 
 </div>
 
-The value of 450 seconds is typical of hydrogen and oxygen engines,
+The value of 450 seconds is assumed here as representative of hydrogen and oxygen engines,
 and 900 seconds is used here as a representative figure for nuclear thermal propulsion.
 Both are assumptions rather than cited values.
 A chemical rocket leaving the solar system from Mercury must start about 99 times as heavy as its final mass,
@@ -617,7 +628,7 @@ Second,
 accelerations of 1,000 times standard gravity suit only rugged payloads,
 and whether a folded sail or a delicate instrument survives them is not established here.
 A track around Mercury's whole circumference would remove the limit of track length,
-but at release it must hold the payload down with the curvature load of the companion article on mass drivers
+but at release it must hold the payload down with the curvature load derived in the mass driver article
 [Mass Drivers, The Curvature Limit][related_post_mass_drivers_curvature],
 which for the 20.28 kilometre per second escape from the Sun is 165 metres per second squared,
 16.8 times standard gravity.
@@ -645,8 +656,10 @@ $$
 P_{\mathrm{align}} = \left|\frac{1}{P_{\mathrm{sid}}} - \frac{1}{P_{\mathrm{orb}}}\right|^{-1}
 $$
 
-Mercury's 58.646 and 87.969 day periods give 176 days.
-The siting rules for fixed tracks are developed in the companion article on mass drivers
+Mercury's 58.646 and 87.969 day periods
+[Mercury][ref_mercury]
+give 176 days.
+The siting rules for fixed tracks are developed in the mass driver article
 [Mass Drivers, Positioning for Parent Orbits][related_post_mass_drivers_positioning].
 This is an inference from the geometry.
 It suggests that a Mercury launch site would need several tracks at different headings,
@@ -706,7 +719,7 @@ and a probe launched from Mercury begins its mission already between 0.31 and 0.
 Part Two A splits by propulsion.
 For rocket probes to the outer solar system,
 it is refuted.
-Mercury is the most expensive origin in delta-v for every target beyond Venus,
+Mercury costs the most delta-v of any origin for every target beyond Venus,
 and Ceres,
 the Moon
 and Mars are each cheaper.
@@ -782,18 +795,17 @@ Surviving such a perihelion also requires heat protection,
 and a combined heat shield and solar thermal propulsion system for an Oberth manoeuvre has been studied
 [Benkoski et al. 2023][research_benkoski_et_al_2023].
 Lyman and coauthors studied solar thermal propulsion for an interstellar probe,
-heating hydrogen to about 3,000 K at a perihelion of 3 to 4 solar radii,
-to reach an escape speed of about 20 AU per year with a probe of about 50 kilograms
+with engines that heat hydrogen to about 3,000 K
+for a solar gravity assist with a perihelion of 3 to 4 solar radii
 [Lyman et al. 2001][research_lyman_et_al_2001].
-That is about 95 kilometres per second,
-since 1 AU per year is 4.74 kilometres per second.
 Project Lyra studied sending a spacecraft to the interstellar object 1I/'Oumuamua
 [Hein et al. 2019][research_hein_et_al_2019],
 and a later study examined such a mission without a solar Oberth manoeuvre
 [Hibberd et al. 2022][research_hibberd_et_al_2022].
 By comparison,
 a low-altitude Jupiter flyby with a large launch vehicle can give heliocentric escape speeds above 8 AU per year,
-about 38 kilometres per second
+about 38 kilometres per second,
+since 1 AU per year is 4.74 kilometres per second
 [Schlei et al. 2021][research_schlei_et_al_2021].
 For rocket-driven interstellar probes,
 Mercury is the worst starting point among the bodies considered here.
@@ -803,10 +815,10 @@ Mercury is the worst starting point among the bodies considered here.
 A solar sail is pushed by reflected sunlight
 [Solar Sail][ref_solar_sail]
 [McInnes 1999][book_mcinnes_1999].
-A companion article treats solar sailing in detail,
+A companion article treats solar sailing in detail
+[Solar Sailing][related_post_solar_sailing],
 including the lightness number for any star
 [Solar Sailing, Lightness Number for Any Star][related_post_solar_sailing_lightness],
-[Solar Sailing][related_post_solar_sailing],
 and this article uses only the results it needs.
 Both the force of sunlight and the pull of gravity fall as the inverse square of distance,
 so their ratio,
@@ -968,8 +980,10 @@ with the diffraction of the beam limiting the maximum speed
 [Kulkarni, Lubin and Zhang 2018][research_kulkarni_lubin_zhang_2018],
 and Breakthrough Starshot has been modelled as a whole system
 [Parkin 2018][research_parkin_2018].
-A beamed sail that dives toward the Sun has also been proposed
-[Benford 2003][research_benford_2003].
+Near-term beamed sail missions,
+including one named Sun-Diver,
+have also been proposed
+[Benford and Benford 2003][research_benford_benford_2003].
 Breakthrough Starshot proposed light sails pushed to between 15 and 20 percent of light speed
 by a phased array of lasers with a combined output of up to 100 gigawatts
 [Breakthrough Starshot][ref_breakthrough_starshot].
@@ -1022,15 +1036,17 @@ The Sun is a strong source of radio noise,
 so a home that always appears closer to the Sun's disc is harder to listen to.
 This penalty is a geometric fact,
 but its size in decibels depends on antennas and frequencies that this article does not model.
-Mercury also passes behind the Sun as seen from Earth once in every 116-day synodic period,
-interrupting direct links between the two.
+Mercury also passes close to the Sun in the sky as seen from Earth at superior conjunction,
+once in every 116-day synodic period
+[Mercury][ref_mercury],
+which degrades and can interrupt direct links between the two.
 
 ### Verdict on Part Two B
 
 Part Two B is partially supported.
 For rocket probes,
 including the solar Oberth manoeuvre,
-Mercury is the worst starting point.
+no body considered here is a poorer starting point than Mercury.
 For sail and beamed probes,
 the region near Mercury's orbit is the best,
 and Mercury is the only known body in that region that can supply mass.
@@ -1168,7 +1184,7 @@ The advantages follow.
 
 - The densest sunlight available on a solid body, 6.25 to 14.4 kilowatts per square metre over an orbit.
 - Water ice in permanently shadowed polar craters, confirmed by several independent measurements.
-- A large iron-rich core, which occupies about 57 percent of the planet's volume, against 17 percent for Earth [Mercury][ref_mercury], with a model of a solid crust and mantle over a solid iron-sulfide layer and an iron-rich liquid outer core [Smith et al. 2012][research_smith_et_al_2012]. The top of the liquid core lies at a radius of 2,020 ± 30 kilometres [Hauck et al. 2013][research_hauck_et_al_2013], and geodetic data indicate a solid inner core [Genova et al. 2019][research_genova_et_al_2019]. The top of the core lies about 420 kilometres down, far below any plausible mine, and the surface itself is low in iron and at least ten times richer in sulfur than the silicate Earth or Moon [Nittler et al. 2011][research_nittler_et_al_2011], so the iron-rich core is not by itself an accessible resource.
+- A large iron-rich core, which occupies about 57 percent of the planet's volume, against 17 percent for Earth [Mercury][ref_mercury], with a model of a solid crust and mantle over a solid iron-sulfide layer and an iron-rich liquid outer core [Smith et al. 2012][research_smith_et_al_2012]. The top of the liquid core lies at a radius of 2,020 ± 30 kilometres [Hauck et al. 2013][research_hauck_et_al_2013], and geodetic data indicate a solid inner core [Genova et al. 2019][research_genova_et_al_2019]. The top of the liquid core therefore lies about 420 kilometres down, far below any plausible mine, and the surface itself is low in iron and at least ten times richer in sulfur than the silicate Earth or Moon [Nittler et al. 2011][research_nittler_et_al_2011], so the iron-rich core is not by itself an accessible resource.
 - An escape speed of 4.25 kilometres per second with no atmosphere, which allows mass drivers.
 - The lowest sunlight-collection cost per kilogram among the bodies compared for mass-driver launches that escape the Sun or dive toward it.
 - Launch windows to the outer planets about every three months.
@@ -1184,7 +1200,7 @@ The disadvantages follow.
 - Nights of about 88 Earth days at any fixed point away from the poles, which require storage, polar siting or mobility to keep power continuous.
 - A higher flux of solar energetic particles, by a factor of roughly 2.6 to 13 relative to Earth's distance depending on the measure.
 - A weak magnetic field and no atmosphere to shield the surface.
-- A home that always appears near the Sun from the outer solar system, and regular conjunctions that block links with Earth.
+- A home that always appears near the Sun from the outer solar system, and regular conjunctions that degrade links with Earth.
 - A slow rotation that brings a fixed launch track into line with a given departure direction only about once every 176 days.
 - Waste heat rejection that is hardest exactly where the sunlight is strongest, which limits how much of the abundant power can be used. Two-sided flat panels absorbing 90 percent of the light and emitting with an emissivity of 0.85 reach 569 K at perihelion in this simple model, against 315 K at 1 AU.
 
@@ -1201,10 +1217,10 @@ MESSENGER met this problem by interleaving its solar cells with optical solar re
 to reduce the panels' absorbance,
 and by tilting the panels away from the Sun as the light grew stronger
 [Dakermanji, Jenkins and Ercol 2006][research_dakermanji_jenkins_ercol_2006].
-Its high-temperature technologies spanned telecommunications,
+Its high-temperature technologies spanned the telecommunications,
 power,
-guidance
-and thermal control
+guidance and control,
+and thermal control subsystems
 [Ercol 2007][research_ercol_2007],
 and BepiColombo's multilayer insulation was described as a design at the edge of material capability
 [Moser et al. 2010][research_moser_et_al_2010].
@@ -1251,13 +1267,12 @@ in 2021
 
 ### Polar Volatiles
 
-Radar first revealed reflective polar material
+Full-disk radar mapping in 1991 revealed reflective polar material
 [Slade, Butler and Muhleman 1992][research_slade_butler_muhleman_1992],
-thermal models showed where ice could survive
-[Vasavada 1999][research_vasavada_1999],
-and MESSENGER's neutron,
-laser
-and thermal studies confirmed water ice at the north pole
+thermal models addressed near-surface temperatures and the stability of polar ice
+[Vasavada, Paige and Wood 1999][research_vasavada_paige_wood_1999],
+and MESSENGER neutron data and thermal modeling confirmed water ice at the north pole,
+with laser altimeter reflectance consistent with exposed and buried ice
 [Lawrence et al. 2013][research_lawrence_et_al_2013]
 [Neumann et al. 2013][research_neumann_et_al_2013]
 [Paige et al. 2013][research_paige_et_al_2013].
@@ -1293,7 +1308,7 @@ The interior is constrained by gravity and spin
 [Margot et al. 2012][research_margot_et_al_2012],
 by the structure models of Hauck and coauthors
 [Hauck et al. 2013][research_hauck_et_al_2013],
-and by geodetic evidence for a solid inner core with a moment of inertia of 0.333 ± 0.005
+and by geodetic evidence for a solid inner core from a normalized polar moment of inertia of 0.333 ± 0.005
 [Genova et al. 2019][research_genova_et_al_2019].
 
 ### The Space Environment
@@ -1306,8 +1321,8 @@ energetic electron bursts
 [Ho et al. 2011][research_ho_et_al_2011]
 and the entry of solar energetic electrons
 [Gershman et al. 2015][research_gershman_et_al_2015]
-define the radiation environment near the planet.
-The radial scaling of solar energetic proton events comes from Helios
+describe the magnetic and energetic particle environment near the planet.
+The radial scaling of solar energetic proton events comes from Helios and IMP 8
 [Lario et al. 2006][research_lario_et_al_2006],
 and coronal mass ejections inside 0.5 AU from MESSENGER
 [Winslow et al. 2015][research_winslow_et_al_2015].
@@ -1337,7 +1352,7 @@ Launch of lunar ice by an electromagnetic accelerator has been studied
 Palaszewski analysed human and robotic missions to Mercury,
 including landers whose chemical propulsion is enhanced by in-situ resources
 [Palaszewski 2015][research_palaszewski_2015].
-No peer-reviewed journal article on settling Mercury was found,
+A bibliographic search found no peer-reviewed journal article on settling Mercury,
 so the settlement analysis in this article rests on the physics derived here.
 The search for vulcanoids
 [Evans and Tabachnik 1999][research_evans_tabachnik_1999]
@@ -1359,7 +1374,7 @@ the Project Lyra studies
 the sun diver that combines a sail with a dive
 [Bailer-Jones 2021][research_bailer_jones_2021],
 a beamed sun-diver
-[Benford 2003][research_benford_2003],
+[Benford and Benford 2003][research_benford_benford_2003],
 and the solar sail heliopause probe
 [Lappas et al. 2005][research_lappas_et_al_2005]
 [Lyngvi et al. 2005][research_lyngvi_et_al_2005].
@@ -1367,7 +1382,7 @@ Directed-energy propulsion
 [Kulkarni, Lubin and Zhang 2018][research_kulkarni_lubin_zhang_2018]
 [Parkin 2018][research_parkin_2018]
 is treated in the companion article on solar sailing.
-None of these studies proposes Mercury as a base,
+None of the abstracts or titles available for these studies proposes Mercury as a base,
 and the connection made in this article between them and Mercury is its own inference.
 
 ## Epistemic State
@@ -1382,7 +1397,7 @@ escape speed,
 exospheric pressure
 and core fraction,
 come from the Wikipedia entries cited,
-which draw on NASA fact sheets and the peer-reviewed literature.
+which draw on fact sheets of the National Aeronautics and Space Administration and on the peer-reviewed literature.
 The masses,
 luminosities
 and orbits of Proxima Centauri,
@@ -1416,10 +1431,11 @@ Schlei,
 Lappas,
 Lyman
 and Kulkarni,
-and of Bailer-Jones and Palaszewski.
+and of Bailer-Jones and Palaszewski,
+with Lyman and coauthors cited only for the engine and perihelion stated in their abstract.
 The work of Slavin and coauthors is cited only for its title,
 because the available summary is an editor's note rather than the authors' abstract.
-The paper of Vasavada,
+The paper of Vasavada, Paige and Wood,
 the papers of the groups led by Solomon,
 Benkhoff 2010,
 Fox
@@ -1429,7 +1445,7 @@ the book by McInnes,
 and every other work in the literature review,
 are cited only for what their titles state,
 because no abstract was retrievable.
-The conversion of 20 and 8 AU per year to about 95 and 38 kilometres per second is computed here.
+The conversion of 8 AU per year to about 38 kilometres per second is computed here.
 None of the sources was read in full.
 
 **Analysis in this article.**
@@ -1523,7 +1539,7 @@ For probes sent toward the Sun,
 for frequent launch windows,
 and for sails and beamed propulsion,
 the region near Mercury is the best,
-and Mercury is the only known body there that can supply mass.
+and Mercury alone among known bodies there can supply mass.
 Mass drivers powered by sunlight also favour Mercury,
 because the sunlight needed per kilogram falls in proportion to distance from the Sun,
 even though the speeds required rise.
@@ -1556,6 +1572,7 @@ would face the same choice of origin.
 - [Reference, Breakthrough Starshot, Wikipedia][ref_breakthrough_starshot]
 - [Reference, Ceres, Wikipedia][ref_ceres]
 - [Reference, Delta-v Budget, Wikipedia][ref_delta_v_budget]
+- [Reference, Earth, Wikipedia][ref_earth]
 - [Reference, Gravity Assist, Wikipedia][ref_gravity_assist]
 - [Reference, Hohmann Transfer Orbit, Wikipedia][ref_hohmann_transfer_orbit]
 - [Reference, Io, Wikipedia][ref_io]
@@ -1564,6 +1581,7 @@ would face the same choice of origin.
 - [Reference, Mass Driver, Wikipedia][ref_mass_driver]
 - [Reference, Mercury, Wikipedia][ref_mercury]
 - [Reference, MESSENGER, Wikipedia][ref_messenger]
+- [Reference, Moon, Wikipedia][ref_moon]
 - [Reference, Oberth Effect, Wikipedia][ref_oberth_effect]
 - [Reference, Parker Solar Probe, Wikipedia][ref_parker_solar_probe]
 - [Reference, Proxima Centauri d, Wikipedia][ref_proxima_centauri_d]
@@ -1592,7 +1610,7 @@ would face the same choice of origin.
 - [Research, Anderson et al. 2011, The Global Magnetic Field of Mercury from MESSENGER Orbital Observations][research_anderson_et_al_2011]
 - [Research, Bailer-Jones 2021, The Sun Diver, Combining Solar Sails with the Oberth Effect][research_bailer_jones_2021]
 - [Research, Beemer and McNab 2023, Launch Parameters of a Lunar Ice Payload Traveling via Electromagnetic Mass Accelerator][research_beemer_mcnab_2023]
-- [Research, Benford 2003, Near-Term Beamed Sail Propulsion Missions, Cosmos-1 and Sun-Diver][research_benford_2003]
+- [Research, Benford and Benford 2003, Near-Term Beamed Sail Propulsion Missions, Cosmos-1 and Sun-Diver][research_benford_benford_2003]
 - [Research, Benkhoff et al. 2010, BepiColombo, Comprehensive Exploration of Mercury, Mission Overview and Science Goals][research_benkhoff_et_al_2010]
 - [Research, Benkhoff et al. 2021, BepiColombo, Mission Overview and Science Goals][research_benkhoff_et_al_2021]
 - [Research, Benkoski et al. 2023, Combined Heat Shield and Solar Thermal Propulsion System for an Oberth Maneuver][research_benkoski_et_al_2023]
@@ -1638,7 +1656,7 @@ would face the same choice of origin.
 - [Research, Smith et al. 2012, Gravity Field and Internal Structure of Mercury from MESSENGER][research_smith_et_al_2012]
 - [Research, Solomon et al. 2007, MESSENGER Mission Overview][research_solomon_et_al_2007]
 - [Research, Steffl et al. 2013, A Search for Vulcanoids with the STEREO Heliospheric Imager][research_steffl_et_al_2013]
-- [Research, Vasavada 1999, Near-Surface Temperatures on Mercury and the Moon and the Stability of Polar Ice Deposits][research_vasavada_1999]
+- [Research, Vasavada, Paige and Wood 1999, Near-Surface Temperatures on Mercury and the Moon and the Stability of Polar Ice Deposits][research_vasavada_paige_wood_1999]
 - [Research, Winslow et al. 2015, Interplanetary Coronal Mass Ejections from MESSENGER Orbital Observations at Mercury][research_winslow_et_al_2015]
 
 [book_mcinnes_1999]: https://doi.org/10.1007/978-1-4471-3992-8
@@ -1647,6 +1665,7 @@ would face the same choice of origin.
 [ref_breakthrough_starshot]: https://en.wikipedia.org/wiki/Breakthrough_Starshot
 [ref_ceres]: https://en.wikipedia.org/wiki/Ceres_(dwarf_planet)
 [ref_delta_v_budget]: https://en.wikipedia.org/wiki/Delta-v_budget
+[ref_earth]: https://en.wikipedia.org/wiki/Earth
 [ref_gravity_assist]: https://en.wikipedia.org/wiki/Gravity_assist
 [ref_hohmann_transfer_orbit]: https://en.wikipedia.org/wiki/Hohmann_transfer_orbit
 [ref_io]: https://en.wikipedia.org/wiki/Io_(moon)
@@ -1655,6 +1674,7 @@ would face the same choice of origin.
 [ref_mass_driver]: https://en.wikipedia.org/wiki/Mass_driver
 [ref_mercury]: https://en.wikipedia.org/wiki/Mercury_(planet)
 [ref_messenger]: https://en.wikipedia.org/wiki/MESSENGER
+[ref_moon]: https://en.wikipedia.org/wiki/Moon
 [ref_oberth_effect]: https://en.wikipedia.org/wiki/Oberth_effect
 [ref_parker_solar_probe]: https://en.wikipedia.org/wiki/Parker_Solar_Probe
 [ref_proxima_centauri]: https://en.wikipedia.org/wiki/Proxima_Centauri
@@ -1683,7 +1703,7 @@ would face the same choice of origin.
 [research_anderson_et_al_2011]: https://doi.org/10.1126/science.1211001
 [research_bailer_jones_2021]: https://doi.org/10.1119/10.0002178
 [research_beemer_mcnab_2023]: https://doi.org/10.1016/j.actaastro.2023.02.041
-[research_benford_2003]: https://doi.org/10.1063/1.1582124
+[research_benford_benford_2003]: https://doi.org/10.1063/1.1582124
 [research_benkhoff_et_al_2010]: https://doi.org/10.1016/j.pss.2009.09.020
 [research_benkhoff_et_al_2021]: https://doi.org/10.1007/s11214-021-00861-4
 [research_benkoski_et_al_2023]: https://doi.org/10.2514/1.b38595
@@ -1729,5 +1749,5 @@ would face the same choice of origin.
 [research_smith_et_al_2012]: https://doi.org/10.1126/science.1218809
 [research_solomon_et_al_2007]: https://doi.org/10.1007/978-0-387-77214-1_1
 [research_steffl_et_al_2013]: https://doi.org/10.1016/j.icarus.2012.11.031
-[research_vasavada_1999]: https://doi.org/10.1006/icar.1999.6175
+[research_vasavada_paige_wood_1999]: https://doi.org/10.1006/icar.1999.6175
 [research_winslow_et_al_2015]: https://doi.org/10.1002/2015ja021200

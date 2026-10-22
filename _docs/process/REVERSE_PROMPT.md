@@ -4,6 +4,42 @@
 
 ## Last Updated
 
+**Date**: 2026-10-22 (tenth entry)
+**Task**: **A381 to A384, ALL FOUR PASSES COMPLETE. Committed, NOT pushed, NOT published.** On the pilot's instruction, "Perform the three remaining passes on each article."
+
+**Citation pass.** Four read-only subagents checked every cited sentence against the saved Wikipedia text and the abstracts, one article each. Their reports are in `tmp/a38N/citation_pass.md`. They found 28, 16, 27 and 17 cited claims needing change, plus 14, 8, 7 and 11 uncited claims. All fixes were applied, 139 edits in total.
+
+Substantive corrections:
+- **A381.** The Delta-v Budget entry from Kennedy-inclined LEO to GEO is **4.33 km/s, not 4.24**. The earlier claim of agreement with the computed 4.231 was false, and the fifth entry of this file and the TASKLOG rows repeat it. The article now states the 0.1 km/s difference. The sphere-of-influence formula is cited to its own page, and the porkchop plot is described against launch date.
+- **A382.**
+  - The NanoSail-D2 dates belong to its ejection from FASTSAT, not to sail deployment.
+  - The magnetic sail drag claim is narrowed to below 10 percent of light speed over decades.
+  - Pre-launch papers are no longer described as flight documentation.
+- **A383.**
+  - Mercury's mean radius is 2,439.4 km, which changes only the rotation-credit row.
+  - The 1977 reaction-engine figures apply at 8 km/s only.
+  - Kaye's switch jitter is reported as assessed rather than limiting.
+- **A384.**
+  - The 2013 ice confirmation is attributed to neutron data and thermal modelling, with laser altimetry described as consistent.
+  - Two author lists are corrected, to Vasavada, Paige and Wood, and to Benford and Benford.
+  - The Lyman 20 AU per year figure is dropped, because it came from introduction text rather than the abstract.
+  - Conjunctions are described as degrading links rather than blocking them.
+
+**Word usage pass.** No enumerated tic or construction is at or above the peer maximum in any article. Five repeated formulas in A384 were varied. The before-and-after formulas diffs show nothing introduced in A381 to A383, and only `the mass driver`, a subject phrase, in A384.
+
+**Publication review.**
+- NASA is spelled out, and NEA Scout and IMP 8 are defined.
+- Five gendered pronouns were replaced with names.
+- Every decimal number traces to a script output or a source.
+- References are sorted and all 81 Wikipedia links return 200.
+- `_verify.py` reports 0 errors and 0 warnings. The scratch build with all four drafts passed, the render audit found nothing on 551 pages, and the 31 section links resolve.
+
+**For the pilot's judgment.** Two reviewers asked whether sentences such as "as recorded by Crossref or OpenAlex" and "in the searches made for this article" breach the rule against reporting the drafting process in article prose. They appear in the Epistemic State and literature-review sections, following the epistemic convention of A378 to A380. They were kept, and the pilot may want them reworded.
+
+**Next, on the pilot's word.** Publication of A381, A382, A383 and A384, in that order.
+
+## Previous Report (2026-10-22, ninth entry)
+
 **Date**: 2026-10-22 (ninth entry)
 **Task**: **Citation density pass on A381 to A384, each article now also a literature review. Committed, NOT pushed, NOT published.** On the pilot's instruction to identify and add all plausible citations, and to make each article serve as a literature review of its topic.
 

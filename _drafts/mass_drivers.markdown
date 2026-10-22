@@ -12,8 +12,7 @@ categories: space space-studies
 
 A mass driver is an electromagnetic launcher that accelerates a payload along a track and releases it at high speed
 [Mass Driver][ref_mass_driver].
-Mass drivers are not yet treated in orbital mechanics textbooks the way rockets and orbital manoeuvres are.
-This article attempts that treatment.
+This article treats mass drivers with the orbital mechanics usually applied to rockets and orbital manoeuvres.
 It begins with a description of the machine and the equations that govern it,
 then follows a payload from release into orbit around the launching body,
 then into orbit around that body's parent,
@@ -42,7 +41,7 @@ so that a row of electromagnets pulls or pushes a magnetizable carrier along a p
 In the classic design the carrier is a bucket that holds the payload.
 At the end of the track the bucket and payload separate,
 and the bucket is slowed and recycled for the next launch.
-A related design uses linear induction motors of the kind used for the electromagnetic aircraft launch system on modern carriers
+A related design uses linear induction motors of the kind used for the electromagnetic aircraft launch system on the aircraft carrier Gerald R. Ford
 [Mass Driver][ref_mass_driver].
 The United States Navy built a prototype electromagnetic catapult in the 1940s,
 and advances in pulsed power,
@@ -58,7 +57,9 @@ and a railgun drives its projectile by a current through two rails rather than t
 Because the payload is guided by magnetic levitation,
 a mass driver needs no physical contact between moving parts,
 and its working life could in principle reach millions of launches.
-Most serious designs use superconducting coils and reach efficiencies of 50 to over 90 percent.
+Most serious designs use superconducting coils
+and often reach efficiencies of 50 to over 90 percent,
+depending on the design.
 A mass driver track has two sections.
 In the first the coils are evenly spaced and the acceleration rises with speed up to the maximum the bucket can bear,
 and in the second the coils are spaced ever further apart to hold that acceleration constant
@@ -66,17 +67,17 @@ and in the second the coils are spaced ever further apart to hold that accelerat
 
 The idea is old.
 Edwin Northrup described an electric gun in 1937,
-and Gerard O'Neill built his first mass driver in 1976 and 1977,
+and Gerard O'Neill built a first mass driver in 1976 and 1977,
 a short test model that fired a projectile at 40 metres per second with an acceleration of 33 times standard gravity
 [Mass Driver][ref_mass_driver].
 Kolm's reference design for a basic coaxial mass driver explained the principles and optimization procedures
 and expected even a table-top system to reach accelerations near 1,000 metres per second squared
 [Kolm 1977][research_kolm_1977].
-The application that motivated this work was the transport of lunar material to space habitats
+A major proposed application was the transport of lunar surface material to space habitats
 [Mass Driver][ref_mass_driver],
-which O'Neill had argued could be built more comfortable,
+which O'Neill had argued could be built far more comfortable,
 productive
-and attractive than much of Earth
+and attractive than most of Earth
 [O'Neill 1974][research_oneill_1974].
 Kolm,
 Mongeau
@@ -86,35 +87,37 @@ in which a sliding short circuit or an arc is driven along two rails by direct c
 as the simplest launcher of interest,
 and the mass driver,
 in which a superconducting bucket is accelerated by pulse coils energized by capacitors,
-as the most sophisticated,
+as the most sophisticated studied thus far,
 with energy conversion efficiencies better than 90 percent
 [Kolm et al. 1980][research_kolm_et_al_1980].
 
-On Earth the atmosphere and gravity dominate the problem.
+On Earth the relatively strong gravity and thick atmosphere make the problem difficult
+[Mass Driver][ref_mass_driver].
 McNab estimated that a railgun launching directly to orbit would need muzzle speeds of at least 7.5 kilometres per second,
 and that even launchers over 1,000 metres long would need accelerations over 1,000 times standard gravity,
 so only rugged payloads such as fuel,
 water
-and raw material could be launched
+and material could be launched
 [McNab 2003][research_mcnab_2003].
 The StarTram concept accelerates cargo craft in an evacuated tunnel,
 and a small rocket burn after release establishes orbit
 [Powell and Maise 2008][research_powell_maise_2008].
-In the authors' projections a single facility of that kind could launch over 100,000 tonnes a year
+In the authors' projections a single facility of that kind could launch over 100,000 tons a year
 at under 50 dollars per kilogram of payload
 [Powell et al. 2008][research_powell_et_al_2008].
 Wikipedia's summary makes the same point,
-that well under a tenth of orbital speed from a small rocket is enough to raise perigee after release
+that in a design that minimizes it,
+well under a tenth of orbital speed from a small rocket is enough to raise perigee after release
 [Mass Driver][ref_mass_driver].
 That post-release burn is the central subject of this article.
 
 A mass driver can also be carried by a spacecraft as an engine,
 throwing pieces of material backward
 [Mass Driver][ref_mass_driver].
-One such design study for a Space Shuttle upper stage threw 14 gram segments at 8 to 10 kilometres per second
-with a thrust of 560 newtons from 2.9 megawatts at 75 percent efficiency
+One such design study for a Space Shuttle upper stage would throw 14 gram segments at 8 to 10 kilometres per second,
+and at 8 kilometres per second it would give a thrust of 560 newtons from 2.9 megawatts at 75 percent efficiency
 [Unattributed 1977][research_mass_driver_reaction_engine_1977].
-Snow and Dunbar proposed such an engine for moving payloads of hundreds to thousands of tonnes between low Earth orbit and geosynchronous orbit,
+Snow and Dunbar proposed such an engine for moving payloads of hundreds to thousands of tons between low Earth orbit and geosynchronous orbit,
 with reaction mass of virtually any liquid or solid material,
 and discussed its debris hazard and its effects on the ionosphere
 [Snow and Dunbar 1982][research_snow_dunbar_1982].
@@ -146,8 +149,8 @@ P_{\mathrm{peak}} = m\,a\,v, \qquad
 \bar{P} = \frac{\dot{m}\,v^{2}}{2\eta}
 $$
 
-The difference between peak and average power is why energy storage dominates mass driver design,
-and why the limits are generally the cost of storing energy that can be discharged quickly and of switching it
+The difference between peak and average power makes energy storage central to the design.
+The limits are generally the cost of storing energy that can be discharged quickly and the cost of switching it
 [Mass Driver][ref_mass_driver].
 The fraction $(1-\eta)$ of the electrical input becomes heat in the track and must be rejected.
 
@@ -167,9 +170,9 @@ Every design is a way of making $d\mathcal{L}/dx$ large and keeping $I$ high wit
 Rashleigh and Marshall reached 5.9 kilometres per second with an arc armature in an inductively driven railgun,
 and found that simple theory predicted its performance
 [Rashleigh and Marshall 1978][research_rashleigh_marshall_1978].
-In a coilgun the coils are energized in sequence to create a travelling magnetic wave,
+In the coilguns developed at Sandia National Laboratories the coils are energized in sequence to create a travelling magnetic wave,
 the projectile's position is tracked to trigger each coil,
-and timing jitter in the switches limits performance at high speed
+and the effect of switch jitter on performance was assessed for high-speed applications
 [Kaye 2005][research_kaye_2005].
 
 ### Release in the Inertial Frame
@@ -231,7 +234,7 @@ $$
 | Body | Mean radius, km | Surface gravity, m/s² | Circular speed at surface, m/s | Escape speed, m/s | Equatorial spin speed, m/s | Hill radius, km |
 |---|---|---|---|---|---|---|
 | Moon | 1,737.4 | 1.625 | 1,680 | 2,376 | 4.6 | 61,533 |
-| Mercury | 2,439.7 | 3.70 | 3,005 | 4,250 | 3.0 | 220,675 |
+| Mercury | 2,439.4 | 3.70 | 3,005 | 4,250 | 3.0 | 220,675 |
 | Ceres | 469.7 | 0.284 | 365 | 516 | 90.3 | 223,378 |
 | Vesta | 262.7 | 0.251 | 257 | 363 | 85.8 | 124,092 |
 | Phobos | 11.08 | 0.0058 | 8.0 | 11.3 | 2.5 | 16.6 |
@@ -250,9 +253,10 @@ and orbits come from Wikipedia
 [Phobos][ref_phobos]
 [Deimos][ref_deimos],
 and the derived columns are computed for uniform spheres.
-Wikipedia lists the escape speed of Phobos as 11.39 metres per second,
+Wikipedia lists the escape speed of Phobos as 11.39 metres per second
+[Phobos][ref_phobos],
 slightly above the 11.32 computed for a sphere.
-The Hill radius marks roughly where the parent's tides overwhelm the body's own gravity
+The Hill radius marks roughly the extent of the region in which the body's own gravity dominates that of its parent
 [Hill Sphere][ref_hill_sphere],
 for a body of mass $m$ orbiting a parent of mass $M$ at distance $a$.
 
@@ -260,7 +264,8 @@ $$
 r_{H} \approx a\sqrt[3]{\frac{m}{3M}}
 $$
 
-Phobos's Hill radius of 16.6 kilometres is smaller than its longest dimension of 25.9 kilometres,
+Phobos's Hill radius of 16.6 kilometres is smaller than its longest dimension of 25.9 kilometres
+[Phobos][ref_phobos],
 so its surface lies close to the edge of its own gravitational domain.
 
 ### Plugging In
@@ -316,7 +321,8 @@ A mass driver can therefore never place a payload in a lasting orbit around its 
 At least one burn by the payload after release is required.
 Janhunen states the same result for the Moon,
 that a passive object launched below escape speed orbits once and crashes back at the launch site,
-and finds that lunar gravity anomalies can keep a passive projectile in orbit for up to 9 Earth days,
+and finds that for specific launch sites and directions
+lunar gravity anomalies can keep a passive projectile in orbit for up to 9 Earth days,
 long enough for a catcher to intercept it
 [Janhunen 2025][research_janhunen_2025].
 
@@ -446,7 +452,7 @@ $$
 | Body | Circular speed at the equator, m/s | Spin speed, m/s | Eastward track speed, m/s | Westward track speed, m/s | Ratio |
 |---|---|---|---|---|---|
 | Moon | 1,680.2 | 4.6 | 1,675.6 | 1,684.8 | 1.006 |
-| Mercury | 3,005.1 | 3.0 | 3,002.1 | 3,008.1 | 1.002 |
+| Mercury | 3,005.3 | 3.0 | 3,002.3 | 3,008.3 | 1.002 |
 | Ceres | 365.2 | 90.3 | 274.8 | 455.5 | 1.657 |
 | Vesta | 256.5 | 85.8 | 170.7 | 342.4 | 2.005 |
 
@@ -828,7 +834,9 @@ where a straight track would need only a couple of kilometres at 100 g₀,
 a ring needs several laps at 1 g₀ but then holds the cargo down at 32 to 60 g₀ at release.
 The infinite track solves the length problem only where the body is large.
 Phobos and Deimos are also irregular,
-at 25.90 by 22.60 by 18.32 kilometres and 16.08 by 11.78 by 10.22 kilometres,
+at 25.90 by 22.60 by 18.32 kilometres and 16.08 by 11.78 by 10.22 kilometres
+[Phobos][ref_phobos]
+[Deimos][ref_deimos],
 so a circular ring would have to stand above much of their surface.
 
 ### Lanes and Directions
@@ -940,7 +948,7 @@ Any difference in their speeds or directions at separation becomes a release err
 
 ## A Review of the Literature
 
-The literature on mass drivers began with the space settlement studies of the 1970s,
+The modern literature on mass drivers began with the space settlement studies of the 1970s,
 moved into military and naval electromagnetic launch in the 1980s and 1990s,
 and has returned to lunar resources in the 2010s and 2020s.
 This section surveys it by topic.
@@ -951,16 +959,16 @@ and where only its title was available it is described by its title alone.
 
 O'Neill's 1974 article argued for space habitats
 [O'Neill 1974][research_oneill_1974].
-Heppenheimer gave an early existence proof for transporting lunar material,
+Heppenheimer attempted an early existence proof for transporting lunar material,
 with payloads accelerated to lunar escape by a magnetically levitated mass driver driven by a linear synchronous motor
-and received by a catcher in a mode he likened to a Venus flytrap.
-He found that each millimetre per second of velocity error at the lunar surface produced a miss of 1 kilometre at the fifth Lagrange point
+and received by a catcher in a mode Heppenheimer likened to a Venus flytrap.
+Heppenheimer found that each millimetre per second of velocity error at the lunar surface produced a miss of 1 kilometre at the fifth Lagrange point
 [Heppenheimer 1975][research_heppenheimer_1975].
 Chilton presented mass driver theory and history
 [Chilton 1977][research_chilton_1977]
 alongside Kolm's reference design
 [Kolm 1977][research_kolm_1977].
-The Mass Driver Two prototype used a superconducting bucket with two niobium-titanium coils of 44 kilo-ampere-turns,
+The cryogenic module of Mass Driver Two comprised a helium-cooled bucket with two niobium-titanium coils of 44 kilo-ampere-turns,
 energized inductively and injected by normal-conductor pulse coils
 [Fine et al. 1979][research_fine_et_al_1979].
 O'Neill and Kolm wrote on high-acceleration mass drivers in 1980
@@ -977,12 +985,12 @@ including lunar and asteroid mining
 [Kolm et al. 1980][research_kolm_et_al_1980].
 Rashleigh and Marshall's railgun experiment established that simple theory predicts railgun performance up to 5.9 kilometres per second
 [Rashleigh and Marshall 1978][research_rashleigh_marshall_1978].
-Fair launched a programme on electromagnetic propulsion in 1982
+Fair described electromagnetic propulsion as a new initiative in 1982
 [Fair 1982][research_fair_1982],
 reviewed the field's move into engineering programmes such as naval aircraft launch and shipboard guns in 2005
 [Fair 2005][research_fair_2005],
 and noted in 2008 renewed interest in launching material to orbit and beyond,
-with the interface between rail and armature as a central research problem
+with the interface between rail and armature as a particular focus of research
 [Fair 2008][research_fair_2008].
 Kaye described Sandia coilguns launching projectiles of 10 grams to 5 kilograms at up to 1 kilometre per second
 [Kaye 2005][research_kaye_2005],
@@ -1000,9 +1008,8 @@ Hunter and Hyde proposed a light gas gun for launching building material into lo
 [Hunter and Hyde 1989][research_hunter_hyde_1989],
 and Mankins presented electromagnetic launch as one strategy for reducing launch costs
 [Mankins 1994][research_mankins_1994].
-Turman and Lipinski found that a coilgun launching hardened satellites of 100 to 1,000 kilograms to low Earth orbit
-would need 40 to 260 gigajoules and 20 to 400 gigawatts of electric power,
-with a launcher 1 to 2 kilometres long
+Turman and Lipinski evaluated coilguns 1 to 2 kilometres long launching hardened payloads of 100 to 1,000 kilograms to low Earth orbit,
+and put the energy and power requirements at 40 to 260 gigajoules and 20 to 400 gigawatts of electric power
 [Turman and Lipinski 1996][research_turman_lipinski_1996].
 McNab's 2003 study is described above
 [McNab 2003][research_mcnab_2003].
@@ -1011,13 +1018,13 @@ using lifting bodies to reduce the burden of drag
 [Schmidt 2006][research_schmidt_2006].
 Powell and coauthors described StarTram as an international facility for magnetic launch
 [Powell et al. 2006][research_powell_et_al_2006]
-and projected that its first generation could accelerate cargo craft of about 40 tonnes to 8 kilometres per second,
-leaving the tunnel at an altitude of at least 4,000 metres
+and projected that its first generation could accelerate cargo craft of about 35 to 40 tons to 8 kilometres per second,
+leaving the tunnel at a high site about 4,000 metres or more above sea level
 [Powell et al. 2008][research_powell_et_al_2008]
 [Powell and Maise 2008][research_powell_maise_2008].
 McNab reported 5.2 kilometres per second in a 7 metre augmented railgun with a plasma armature,
 11 kilometres per second with a plasma arc in a five-stage system,
-and an acceptable nosetip ablation of about 15 millimetres for a projectile leaving through the atmosphere
+and an acceptable nosetip ablation of about 15 millimetres for a 10 kilogram projectile flying to orbit from a high-altitude launch
 [McNab 2009][research_mcnab_2009].
 Bolonkin and Krinker proposed a railgun launcher powered by a flywheel and a homopolar generator
 [Bolonkin and Krinker 2010][research_bolonkin_krinker_2010].
@@ -1041,8 +1048,8 @@ Seybold and Fowler studied a lunar mass driver for sending cargo to Mars
 [Seybold and Fowler 1994][research_seybold_fowler_1994].
 Wright,
 Kuznetsov
-and Kloesel reassessed lunar electromagnetic launch within NASA's exploration architecture,
-and concluded that it is not as favourable as originally suggested
+and Kloesel reassessed lunar electromagnetic launch within the exploration architecture of the National Aeronautics and Space Administration,
+and concluded from a preliminary assessment of cost against benefit that it is not as favourable as originally suggested
 [Wright et al. 2011][research_wright_et_al_2011].
 Roesler estimated the mass of a lunar resource launcher from two mature terrestrial electromagnetic launchers
 [Roesler 2013][research_roesler_2013].
@@ -1052,18 +1059,18 @@ Carrio and coauthors proposed an architecture for lunar electromagnetic launch
 [Carrio et al. 2025][research_carrio_et_al_2025],
 and Rocher,
 Sarton du Jonchay
-and Mavris built sizing models that treat a lunar mass driver as an alternative to landers for cislunar logistics
+and Mavris built sizing models for lunar mass drivers as an alternative to traditional rockets such as the Human Landing System for cislunar logistics
 [Rocher et al. 2025][research_rocher_et_al_2025].
 
 ### Trajectories, Guidance and Catchers
 
 Heppenheimer and Kaplan analysed launch from the lunar surface onto ballistic trajectories to a passive catcher near the second Lagrange point.
 They showed that from any launch site a target point can be chosen that is reached with zero dispersion due to errors in one selected component of launch velocity,
-and that a colony orbit can be reached from that point for as little as 9.02 metres per second
+and that a colony orbit can be reached from the second Lagrange point for as little as 9.02 metres per second
 [Heppenheimer and Kaplan 1977][research_heppenheimer_kaplan_1977].
-Heppenheimer developed these achromatic trajectories further
+Heppenheimer wrote on achromatic trajectories for lunar material transport
 [Heppenheimer 1978a][research_heppenheimer_1978a],
-designed a mass catcher for large-scale transport
+described a mass catcher for large-scale lunar material transport
 [Heppenheimer 1978b][research_heppenheimer_1978b],
 and compared modes of transport that use them
 [Heppenheimer 1979][research_heppenheimer_1979].
@@ -1084,11 +1091,11 @@ and slings among the launchers that could supply the roughly 1.7 kilometres per 
 This literature takes a different approach from the corrective burns of this article.
 It shapes the trajectory so that errors do not matter at the target,
 or corrects the payload at the launcher,
-because the payloads carry no engines.
+because the payloads in these schemes carry no means of midcourse correction.
 
 ### Small Bodies and Reaction Engines
 
-O'Leary discussed the resources of Phobos and Deimos in support of crewed missions to Mars
+O'Leary discussed international crewed missions to Mars and the resources of Phobos and Deimos
 [O'Leary 1992][research_oleary_1992].
 Corbin and Higgins studied a mass driver that uses an asteroid's own material as reaction mass to deflect it,
 noting that mass drivers had been proposed for lunar and asteroid mining since the mid-1970s
@@ -1108,7 +1115,7 @@ and Wikipedia describes ring designs in which a vehicle circles many times befor
 
 ### Gaps
 
-No peer-reviewed study of a mass driver on Phobos or Deimos was found,
+No peer-reviewed study of a mass driver on Phobos or Deimos was found in the searches made for this article,
 and no peer-reviewed analysis of a full-circumference track was found,
 so the sections of this article on those subjects rest on the equations derived here.
 Lofstrom's launch loop appears in the conference record without author metadata and is not cited,

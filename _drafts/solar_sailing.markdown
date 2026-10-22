@@ -48,7 +48,7 @@ and a perfect mirror facing the beam is pushed with twice that,
 because the reflected light carries its momentum away in the opposite direction
 [Radiation Pressure][ref_radiation_pressure].
 At Earth's distance from the Sun,
-where the flux is 1,360.8 ± 0.5 watts per square metre
+where the flux measured during the 2008 solar minimum was 1,360.8 ± 0.5 watts per square metre
 [Kopp and Lean 2011][research_kopp_lean_2011],
 these pressures are about 4.54 and 9.08 micropascals.
 For a photon of energy $E$ the momentum is $E/c$,
@@ -61,13 +61,14 @@ P_{\mathrm{mirror}} = \frac{2S}{c}
 $$
 
 A square sail of 80 square metres,
-the size flown by NASA's Advanced Composite Solar Sail System,
-or ACS3
+the size flown by the Advanced Composite Solar Sail System of the National Aeronautics and Space Administration,
+or NASA,
+known as ACS3
 [Solar Sail][ref_solar_sail],
 would feel at most 0.726 millinewtons facing the Sun at that distance.
 
 A force that small is useful only because it never stops.
-A rocket spends its propellant in minutes,
+A chemical rocket spends its propellant in minutes,
 while a sail is pushed for as long as it is in sunlight.
 The penalty is that the force is set by geometry.
 A flat mirror is pushed along its own normal,
@@ -105,12 +106,14 @@ The Japanese IKAROS spacecraft,
 launched in May 2010,
 was the first to demonstrate solar sailing in interplanetary space,
 and it flew past Venus in December 2010
-[IKAROS][ref_ikaros]
+[IKAROS][ref_ikaros].
+Tsuda and coauthors report on it as a deep space solar sail demonstrator
 [Tsuda et al. 2011][research_tsuda_et_al_2011]
 [Tsuda et al. 2013][research_tsuda_et_al_2013].
-NASA's NanoSail-D2 deployed a 10 square metre sail in Earth orbit in January 2011
-[NanoSail-D2][ref_nanosail_d2],
+NASA's NanoSail-D2 deployed a 10 square metre sail in Earth orbit in January 2011,
 after its predecessor was lost in a launch failure
+[NanoSail-D2][ref_nanosail_d2].
+Johnson and coauthors describe the NanoSail-D solar sail demonstration mission
 [Johnson et al. 2011][research_johnson_et_al_2011].
 The Planetary Society's LightSail 2 demonstrated controlled solar sailing in Earth orbit,
 where its controlled thrust measurably reduced the rate of orbital decay
@@ -122,7 +125,9 @@ spacecraft systems,
 operations
 and ground testing
 [Wilkie 2021][research_wilkie_2021].
-NASA's Near-Earth Asteroid Scout was designed to use an 86 square metre sail as its primary propulsion
+NASA's Near-Earth Asteroid Scout,
+or NEA Scout,
+was designed to use an 86 square metre sail as its primary propulsion
 [McNutt et al. 2014][research_mcnutt_et_al_2014].
 These flights followed proposals made decades earlier.
 Wright and Warmke estimated in 1976 that early sails could reach characteristic accelerations of 0.2 to 1.3 millimetres per second squared with an overall efficiency of 80 to 90 percent,
@@ -484,8 +489,10 @@ and the graphene-class loading is the value assumed by Heller and Hippke
 
 </div>
 
-The design values from Wikipedia include an efficiency of 90 percent,
-which is why they are slightly below the ideal values of 0.29 and 0.24 for the first two.
+The design values from Wikipedia match an efficiency of 90 percent,
+which Wikipedia gives as typical of an actual sail
+[Solar Sail][ref_solar_sail],
+and this is why they are slightly below the ideal values of 0.29 and 0.24 for the first two.
 The flown sails are demonstrators whose lightness numbers are hundreds of times below those of the designs.
 
 The loading that matters is that of the whole craft.
@@ -667,7 +674,7 @@ which they called the Flexible Unfurlable and Refurlable Lightweight sail,
 through four thermal cycles and 50 deployment and retraction cycles in thermal vacuum,
 and a further 25 cycles in ambient conditions
 [Banik and Ardelean 2010][research_banik_ardelean_2010].
-Retraction is also dynamically harder than deployment.
+Retraction may also be dynamically harder than deployment.
 For a simplified sail quadrant on two booms,
 Vatankhahghadim and Damaren showed that uniform extension decreases the system's vibrational energy
 while uniform retraction increases it
@@ -685,7 +692,8 @@ and this is one of the hardest practical problems in solar sailing.
 The most common material in current designs is an aluminium coating on a polymer film,
 such as aluminized Kapton 2 micrometres thick
 [Solar Sail][ref_solar_sail].
-NASA's Near Earth Asteroid Scout and ACS3 needed metallized membranes 2 to 3 micrometres thick.
+NASA's Near Earth Asteroid Scout and ACS3 needed metallized membranes 2 to 3 micrometres thick
+[Stohlman et al. 2020][research_stohlman_et_al_2020].
 Stohlman and coauthors report that such membranes do not retain creases as thicker membranes do,
 and that for small spacecraft the stowed volume rather than the mass is often the driving requirement
 [Stohlman et al. 2020][research_stohlman_et_al_2020].
@@ -738,7 +746,8 @@ a 25 metre reflector deployed in February 1999,
 caught on an antenna of its Progress spacecraft and tore,
 and it was deorbited
 [Znamya][ref_znamya].
-NanoSail-D2's sail deployment was commanded in December 2010 but occurred only in January 2011
+NanoSail-D2 was to be ejected from its carrier satellite in December 2010,
+but it ejected on its own only in January 2011 and deployed its sail three days later
 [NanoSail-D2][ref_nanosail_d2].
 ACS3 unfolds its 80 square metre sail on four 7 metre carbon fibre booms that roll up for storage,
 and in October 2024 a bent boom was reported to have made it lose direction and spin
@@ -752,7 +761,7 @@ which could reach accelerations far above those of plastic films,
 but the material was too delicate to survive folding,
 launch
 and deployment,
-and his design relied on producing the film in space
+and the design relied on producing the film in space
 [Solar Sail][ref_solar_sail].
 The materials needed for laser-driven lightsails pose further challenges
 [Atwater et al. 2018][research_atwater_et_al_2018].
@@ -770,7 +779,7 @@ A thorough treatment includes several further effects.
 - **Degradation.** If a sail's reflectance falls over time, its lightness number and the direction of its force drift with it, as the generalized force model shows.
 - **Light from other sources.** A sail can be pushed by a laser instead of a star. Breakthrough Starshot proposed lasers with a combined output of up to 100 gigawatts to push light sails to between 15 and 20 percent of light speed [Breakthrough Starshot][ref_breakthrough_starshot], and Forward analysed round-trip interstellar travel with laser-pushed lightsails [Forward 1984][research_forward_1984].
 - **Relativity.** The Doppler factor in the section on where the equations fail matters for any sail moving at several percent of light speed.
-- **Surveys.** Reviews of the state of the technology [Fu, Sperber and Eke 2016][research_fu_sperber_eke_2016] and the standard monograph on solar sailing [McInnes 1999][book_mcinnes_1999] cover these and further topics in depth.
+- **Surveys.** A state of the art review of solar sail technology [Fu, Sperber and Eke 2016][research_fu_sperber_eke_2016] and a monograph on solar sailing [McInnes 1999][book_mcinnes_1999] are starting points for further reading.
 
 ## Deceleration and Capture at Another Star
 
@@ -818,7 +827,9 @@ and a further 46 years to Proxima,
 with a sail of about $10^{5}$ square metres needed for a 10 gram payload
 [Heller and Hippke 2017][research_heller_hippke_2017].
 At a constant cruise speed $v$ the journey over a distance $d$ takes $d/v$,
-and 4.37 light years at 4.6 percent of light speed gives the 95 years quoted.
+and 4.37 light years
+[Breakthrough Starshot][ref_breakthrough_starshot]
+at 4.6 percent of light speed gives the 95 years quoted.
 The near agreement with the 5 radius figure here should not be read as validation,
 because the simple bound depends on the chosen $q$ and ignores the deflections their trajectories use.
 
@@ -886,10 +897,12 @@ or 15.7 percent of light speed.
 ### Braking Without Starlight
 
 Sails that use the interstellar medium can brake before the starlight becomes useful.
-Magnetic sails produce relatively large drag for deceleration in the interstellar medium
-[Magnetic Sail][ref_magnetic_sail],
-an idea developed for interplanetary travel by Zubrin and Andrews
+Magnetic sails,
+studied for interplanetary travel by Zubrin and Andrews
 [Zubrin and Andrews 1991][research_zubrin_andrews_1991],
+can create drag against the interstellar medium and so decelerate a craft without propellant,
+although feasible uses involve speeds below 10 percent of light speed and take decades
+[Magnetic Sail][ref_magnetic_sail],
 and Perakis and Hein studied combining magnetic and electric sails for interstellar deceleration
 [Perakis and Hein 2016][research_perakis_hein_2016].
 A craft could use such a device to shed most of its speed over decades
@@ -1041,7 +1054,7 @@ Many manoeuvres are beyond a particular sail but would be possible for a better 
 These are limitations of the craft.
 
 - **Too little acceleration for the time available.** A planetary capture from an incoming trajectory must happen while the craft is near the planet. Mars's sphere of influence, estimated as $r \approx a(m/M)^{2/5}$ [Sphere of Influence][ref_sphere_of_influence], has a radius of about 577,000 kilometres. Crossing it at 2.65 kilometres per second takes 5.0 days, in which a sail with $\beta = 0.05$ can change its velocity by at most 56 metres per second, and even one with $\beta = 1$ by 1.1 kilometres per second. A sail cannot be captured from such an approach. It must first match the planet's orbit around the Sun by spiralling, so that it arrives with almost no excess speed, and then spiral in.
-- **Forces stronger than the light.** In low orbit, air drag can exceed the light pressure, and LightSail 2's controlled thrust measurably reduced its rate of orbital decay rather than reversing it [Spencer et al. 2021][research_spencer_et_al_2021]. On a planet's surface, gravity is the competing force. With the Sun overhead and no atmosphere, a sail can lift itself only if its total loading is below about 0.00093 grams per square metre on Earth, 0.0011 on Mars, 0.0056 on the Moon, 0.0042 on Ceres and 0.016 on Mercury. The graphene-class loading of 0.00076 grams per square metre carries no payload, and Earth and Mars have atmospheres, so no sail flown or designed can lift a payload from any of these bodies. Only a graphene-class sail with nothing attached could lift itself from the airless ones.
+- **Forces stronger than the light.** In low orbit, air drag competes with the light pressure. LightSail 2's controlled thrust measurably reduced its rate of orbital decay [Spencer et al. 2021][research_spencer_et_al_2021], yet the craft still decayed and re-entered in November 2022 [LightSail][ref_lightsail]. On a planet's surface, gravity is the competing force. With the Sun overhead and no atmosphere, a sail can lift itself only if its total loading is below about 0.00093 grams per square metre on Earth, 0.0011 on Mars, 0.0056 on the Moon, 0.0042 on Ceres and 0.016 on Mercury. The graphene-class loading of 0.00076 grams per square metre carries no payload, and Earth and Mars have atmospheres, so no sail flown or designed can lift a payload from any of these bodies. Only a graphene-class sail with nothing attached could lift itself from the airless ones.
 - **Too little steering.** A sail that only faces its star cannot change its angular momentum or its plane. One that steers only in its orbital plane cannot change its inclination.
 - **Too much lightness to stay.** A face-on sail with $\beta > 1$ cannot be bound to a star, as the section on capture shows, unless it can turn nearly edge-on, retract or jettison its sail.
 - **Too little heat tolerance.** The closest approach, and with it the largest thrust and the fastest departures, are set by the temperature limit.
@@ -1134,8 +1147,8 @@ but the manoeuvres themselves remain within the reach of sailing.
 Attitude control in a planet's shadow is an exception within this group.
 Momentum wheels can hold attitude there,
 but they eventually need to shed stored momentum,
-which takes torque from outside,
-such as LightSail 2's magnetic torque rods near Earth
+which takes torque from outside.
+LightSail 2 controlled its attitude with magnetic torque rods as well as a momentum wheel
 [Spencer et al. 2021][research_spencer_et_al_2021].
 
 ### Limits of Solar Sailing Itself
@@ -1152,7 +1165,7 @@ so a second means of propulsion is physically required.
 | Arriving faster than starlight can stop | The stopping distance falls inside the star | Prior braking by a magnetic or electric sail, or an engine |
 | Capture at a planet from a fast approach | Kilometres per second needed within days | An engine burn, or aerocapture in an atmosphere |
 | Landing on or launching from a planet or moon | Gravity, and often air, exceeds any sail's push with payload | An engine, or a launcher on the surface |
-| Reaching a starting orbit above the atmosphere | Air drag in low orbit exceeds the light pressure | A launch vehicle or a kick stage |
+| Reaching a starting orbit above the atmosphere | Air drag in low orbit can exceed the light pressure | A launch vehicle or a kick stage |
 | Final approach and docking | Thrust too weak and too slow to correct quickly | Small thrusters |
 | Manoeuvres in a planet's shadow | No light | An engine, or waiting for sunlight |
 
@@ -1160,14 +1173,15 @@ so a second means of propulsion is physically required.
 
 Each entry follows from the physics above.
 A planetary flyby is a natural partner for a sail,
-because it changes the direction of motion by tens of degrees in hours without propellant
-[Gravity Assist][ref_gravity_assist],
-which a sail cannot do in any time.
+because it alters the path and speed of a spacecraft without propellant
+[Gravity Assist][ref_gravity_assist]
+during a single pass,
+which a sail cannot match.
 Heller,
 Hippke
 and Kervella combined the two in photogravitational assists at Alpha Centauri
 [Heller, Hippke and Kervella 2017][research_heller_hippke_kervella_2017].
-Magnetic sails can produce relatively large drag in the interstellar medium
+Magnetic sails can create drag against the interstellar medium and decelerate without propellant
 [Magnetic Sail][ref_magnetic_sail],
 and combined magnetic and electric sails have been studied for interstellar deceleration
 [Perakis and Hein 2016][research_perakis_hein_2016].
@@ -1211,7 +1225,7 @@ an inference not tested by any source cited here.
 
 ## A Review of the Literature
 
-The literature on solar sailing spans seven decades,
+The literature cited here spans five decades,
 from mission proposals of the 1970s to the materials science of laser-driven sails.
 This section surveys it by topic.
 Where a work's abstract was available its findings are stated,
@@ -1219,7 +1233,7 @@ and where only its title was available it is described by its title alone.
 
 ### Reviews and Monographs
 
-McInnes's monograph is the standard text
+McInnes wrote a monograph on solar sailing
 [McInnes 1999][book_mcinnes_1999].
 Reviews cover science mission applications
 [Macdonald and McInnes 2011][research_macdonald_mcinnes_2011],
@@ -1241,8 +1255,8 @@ for rendezvous with Venus,
 Mars
 and Mercury and for an asteroid round trip
 [Sauer 1976][research_sauer_1976].
-Dachwald found that conventional optimizers depend strongly on a good initial guess,
-and that evolutionary neurocontrol found steering strategies closer to the global optimum
+Dachwald noted that conventional optimizers depend strongly on a good initial guess,
+and showed that evolutionary neurocontrol found steering strategies closer to the global optimum
 for missions to a near-Earth asteroid,
 to Mercury
 and past Pluto
@@ -1295,10 +1309,11 @@ For fast missions to the outer solar system,
 Vulpetti developed angular momentum reversal trajectories
 [Vulpetti 1997][research_vulpetti_1997]
 [Vulpetti 1999][research_vulpetti_1999].
-The Interstellar Heliopause Probe study used a photonic assist with two passes at 0.25 AU and a 245 metre sail that is ejected after 6.5 years,
+The Interstellar Heliopause Probe study
+[Lyngvi et al. 2005][research_lyngvi_et_al_2005]
+used a photonic assist with two passes at 0.25 AU and a 245 metre sail whose module is ejected after 6.5 years,
 so that a 517 kilogram spacecraft reaches 200 AU in 30 years
-[Lappas et al. 2005][research_lappas_et_al_2005]
-[Lyngvi et al. 2005][research_lyngvi_et_al_2005].
+[Lappas et al. 2005][research_lappas_et_al_2005].
 Macdonald,
 McInnes
 and Hughes studied the technology needed to explore beyond Neptune by sail
@@ -1313,10 +1328,10 @@ and Matloff studied sun-diving sails for the Kuiper Belt
 Wie's two-part study of sail attitude control and dynamics
 [Wie 2004a][research_wie_2004a]
 [Wie 2004b][research_wie_2004b]
-and his analysis of thrust vector control
+and Wie's analysis of thrust vector control
 [Wie 2007][research_wie_2007]
-are the foundation for steering.
-The flight demonstrations are documented for IKAROS
+address the attitude control and thrust vector control of sails.
+Demonstration missions are described for IKAROS
 [Tsuda et al. 2011][research_tsuda_et_al_2011]
 [Tsuda et al. 2013][research_tsuda_et_al_2013],
 NanoSail-D
@@ -1326,7 +1341,8 @@ LightSail 2
 NEA Scout
 [McNutt et al. 2014][research_mcnutt_et_al_2014]
 and ACS3
-[Wilkie 2021][research_wilkie_2021].
+[Wilkie 2021][research_wilkie_2021],
+the last two in papers written before launch.
 
 ### Laser-Driven Lightsails
 
@@ -1372,7 +1388,7 @@ offer braking against the interstellar medium.
 
 ### Electric Sails
 
-Janhunen proposed the electric sail
+Janhunen described an electric sail for spacecraft propulsion in 2004
 [Janhunen 2004][research_janhunen_2004].
 In its developed form it uses long,
 thin tethers held at a high positive potential by an electron gun,
@@ -1408,8 +1424,7 @@ The findings attributed to Kopp and Lean,
 Heller and Hippke,
 Heller,
 Hippke and Kervella,
-the groups led by Spencer,
-Johnson
+the groups led by Spencer
 and Stohlman,
 Seefeldt and Dachwald,
 the groups led by Furuya and Satou,
@@ -1435,6 +1450,7 @@ Went and Atwater,
 and Janhunen and coauthors 2010,
 are taken from their abstracts as recorded by Crossref or OpenAlex.
 The works of the groups led by Tsuda,
+Johnson,
 Bassetto,
 Furumoto,
 Atwater
