@@ -48,12 +48,20 @@ the A381 link was added. **Extended 2026-10-22** with a section on orbital manoe
 sailing with secondary propulsion, on the pilot's instruction. Now 1,255 lines, 22 display equations and 45 references,
 with the inclination-cranking formula checked by a three-dimensional integration in `tmp/a382/numbers.py`.
 
-## Mass Drivers A383 2026-08-19 STUB
+## Mass Drivers A383 2026-08-19 DRAFTED
 
-`_drafts/mass_drivers.markdown`, A383, editorial date 2026-08-19, categories `space space-studies`. **A minimal stub
-created 2026-10-22 as A381 at 2026-08-17 and moved forward two slots the same day.** The pilot will specify the article
-in a later prompt. It carries one sentence and one reference. **NOT publishable as it stands**, and A384 links to it,
-so it must be written and published before A384.
+`_drafts/mass_drivers.markdown`, A383, editorial date 2026-08-19, standalone analytical essay, categories
+`space space-studies`, no series. Drafted 2026-10-22 on the pilot's specification, replacing the stub. **NOT published.**
+It gives a textbook description and parametric equations, then one-body launches with corrective manoeuvres, an
+unbound-launch note, siting for one-body orbits, launches into parent and solar orbits from the Moon, Phobos, Deimos,
+Ceres and Vesta with release-site geometry, inter-body transfer with timing and corrections, full-circumference ring
+tracks with lanes, and what cargo experiences at release.
+
+**Drafting pass complete. Citation, pathological word usage and publication review passes NOT yet run.** 927 lines,
+17 display equations, 20 references, 4 DOI-linked, 14 Wikipedia and 2 related posts. Every number is computed by
+`tmp/a383/numbers.py`. One cited study has no author in Crossref or OpenAlex and is cited as unattributed.
+`_verify.py` 0 and 0, scratch build with A381 to A384 ok, render audit clean on 551 pages. It must publish after
+A381 and A382 and before A384, which links to it.
 
 ## Mercury as a Colony and a Launch Site A384 2026-08-20 DRAFTED
 
@@ -11198,10 +11206,10 @@ This is a template file, not a draft. It provides the standard structure for new
 ## Summary
 
 Fourteen files exist in `_drafts/`. One is a template. One is this summary.
-Four are A381 to A384, drafted 2026-10-22 and described at the top of this file, of which A383, *Mass Drivers*, is a stub.
+Four are A381 to A384, drafted 2026-10-22 and described at the top of this file.
 Eight are the pre-release candidates listed below.
 No X-Planes drafts remain, because the whole series, A297 to A368, was published in commit `579121f`.
-One stub exists, A383.
+No stubs remain.
 A79 through A144 have been published.
 
 **These counts were re-measured against the working tree on 2026-10-22**, when the figures carried here

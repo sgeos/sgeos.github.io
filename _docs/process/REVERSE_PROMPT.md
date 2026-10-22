@@ -4,6 +4,26 @@
 
 ## Last Updated
 
+**Date**: 2026-10-22 (seventh entry)
+**Task**: **A383 DRAFTED, *Mass Drivers*, editorial date 2026-08-19, replacing the stub. Committed, NOT pushed, NOT published.** On the pilot's specification: a textbook description and equations, one-body launches with detailed post-launch corrections, a short note on unbound launches, release parameters dovetailing into positioning, two-body launches and positioning, inter-body transfer with intercept mathematics and corrections, and full-circumference tracks with lanes, bidirectional release and release transients, all parametric and then evaluated for real bodies.
+
+**Main results.**
+- Every orbit released at the surface passes through the release point, so a mass driver cannot by itself place a lasting orbit around its own body. On the Moon a 0.1 degree upward error strikes the ground after 352.7 degrees of arc.
+- An apoapsis burn of 4.8 to 96 m/s circularizes at 20 to 500 km. Merely raising periapsis to 5 to 20 km costs 1.2 to 4.7 m/s.
+- A plane error costs 28.5 m/s per degree, so release azimuth and timing matter more than speed.
+- Siting rules: cos i = cos(lat) sin(A). A fixed track gives i and 180 − i, and a target plane recurs twice per sidereal rotation. Rotation changes the required track speed by a factor of 1.66 on Ceres and 2.0 on Vesta.
+- On synchronous moons the release site is fixed by the hyperbolic turn, θ = θd ∓ ν∞. For the Moon to a 300 km Earth perigee the sites are 126.5 degrees on the eastward lane or 53.5 degrees on the westward lane from the sub-Earth point. Phobos and Deimos use the sub-Mars or anti-Mars point.
+- Transfer error budgets: 1 m/s shifts the Earth perigee by 72 km from the Moon, the Deimos apoapsis by 64 km from Phobos, and the perihelion by about 31,000 km from Ceres. Mid-course correction cost goes roughly as miss over time to go.
+- On ring tracks the curvature limit v_max = sqrt(R (a_max + g)) replaces the length limit. A lunar ring sends cargo to Earth at 0.21 g0 of hold-down load, while Phobos and Deimos rings need 2.6 to 4.8 laps at 1 g0 and then 32 to 60 g0 of hold-down at release.
+- With one lane, any in-plane direction is reachable by choosing the release point, including the opposite edge for the opposite direction. Orbits bound to the body still have the lane's sense, so retrograde ones need a second lane. Counter-running lanes cancel the spin reaction, which for Deimos is 0.91 percent per million tonnes.
+- At release the hold-down load drops to zero as a step: 2 m/s2 on the Moon, 165 on Mercury and 319 on Phobos. The cargo structure then oscillates about its unloaded shape with an amplitude equal to its loaded deflection.
+
+**Limits.** The model uses uniform spheres, which misstates Phobos and Deimos, and ignores the parent's gravity during departure. The infrastructure figures are illustrative. One 1977 study has no recorded author.
+
+**Next, on the pilot's word.** The three remaining passes on A381 to A384, which must publish in order.
+
+## Previous Report (2026-10-22, sixth entry)
+
 **Date**: 2026-10-22 (sixth entry)
 **Task**: **A382 Solar Sailing extended with two sections. Committed, NOT pushed, NOT published.** On the pilot's instruction to make sure the article links to the orbital manoeuvres article, to add a section on manoeuvres with a sail, and to add a follow-up section on sailing with secondary propulsion.
 
