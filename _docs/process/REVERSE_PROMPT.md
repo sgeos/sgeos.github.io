@@ -4,6 +4,38 @@
 
 ## Last Updated
 
+**Date**: 2026-10-22 (sixth entry)
+**Task**: **A382 Solar Sailing extended with two sections. Committed, NOT pushed, NOT published.** On the pilot's instruction to make sure the article links to the orbital manoeuvres article, to add a section on manoeuvres with a sail, and to add a follow-up section on sailing with secondary propulsion.
+
+**Link.** The A381 link was already in the introduction. It is now also cited at the start of the new manoeuvres section.
+
+**Orbital Manoeuvres with a Solar Sail.**
+- How a sail performs a manoeuvre: turning instead of throttling, and long steered arcs instead of burns. The delta-v rate is 25.6 m/s per day for a lightness number of 0.05 at 1 AU.
+- The mathematics: the force cone, F·û ≥ 0, and the best tilt for any desired direction, tan(θ − α) = 2 tan α, with a table. Also perturbation rates.
+- Inclination cranking at 4kβ radians per orbit. A 3D integration agrees within 1 percent at a lightness number of 0.01 and within 6 percent at 0.05.
+- Planet-centred limits. An ACS3-class sail needs at least 5.4 years to spiral from LEO to escape.
+- Craft limitations:
+  - Capture from a fast approach. Crossing Mars's sphere of influence takes 5 days, which allows at most 56 m/s at a lightness number of 0.05.
+  - Drag and gravity, including the lift-off loadings for five bodies.
+  - Steering, lightness above one, heat and distance.
+- Manoeuvres no sail can perform:
+  - Being pushed toward a distant star, by a momentum and energy argument that includes thermal re-emission.
+  - Thrust without light.
+  - Impulsive manoeuvres. These are classed as beyond any known material rather than as forbidden by physics.
+
+**Solar Sailing with Secondary Propulsion.**
+- Five non-starlight sources of momentum: reaction mass, planetary flybys, atmospheres, plasma or magnetic fields, and beams from other directions.
+- Craft limits that a better sail removes.
+- A table of eight sail-impossible manoeuvres, each with what physically supplies it.
+- The rocket equation for a hybrid craft, including sail jettison as mass shedding.
+- A sail as a power source, with IKAROS's integrated cells. That it could run an electric engine is marked as an untested inference.
+
+**Checks.** `_verify.py` reports 0 errors and 0 warnings. The scratch build with A381 to A384 passed, and the render audit found nothing. The two new Wikipedia pages return 200. A382 is now 1,255 lines, with 22 display equations and 45 references.
+
+**Next, on the pilot's word.** The three remaining passes on A381, A382 and A384, and the A383 specification.
+
+## Previous Report (2026-10-22, fifth entry)
+
 **Date**: 2026-10-22 (fifth entry)
 **Task**: **A381 DRAFTED, *Orbital Manoeuvres in Terms of Delta-v*, editorial date 2026-08-17. Every other article moved forward one slot: A382 Solar Sailing at 2026-08-18, A383 Mass Drivers stub at 2026-08-19, A384 Mercury at 2026-08-20. Committed, NOT pushed, NOT published.** On the pilot's instruction to bump all articles forward and add a textbook orbital manoeuvres article if none existed, discussed in terms of delta-v, with a section on the rocket equation and mass-shedding delta-v, and with compound and advanced manoeuvres to textbook depth.
 

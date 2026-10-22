@@ -44,7 +44,9 @@ section on folding and deployment and one on deceleration and capture at another
 `tmp/a381/numbers.py`. Eleven sources are cited at title level only because no abstract was retrievable.
 `_verify.py` 0 and 0 after the move, scratch build with A381 to A384 ok, render audit clean on 551 pages. It now
 links back to A381 and must publish after it and before A384, which links to it. 964 lines and 43 references after
-the A381 link was added.
+the A381 link was added. **Extended 2026-10-22** with a section on orbital manoeuvres with a solar sail and a section on solar
+sailing with secondary propulsion, on the pilot's instruction. Now 1,255 lines, 22 display equations and 45 references,
+with the inclination-cranking formula checked by a three-dimensional integration in `tmp/a382/numbers.py`.
 
 ## Mass Drivers A383 2026-08-19 STUB
 

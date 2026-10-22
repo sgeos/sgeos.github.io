@@ -22,6 +22,10 @@ and then evaluates them for the Sun and for several other stars.
 Later sections compare sails of different quality,
 different levels of steering,
 and sails that can or cannot be retracted.
+A section on orbital manoeuvres explains how a sail performs them,
+which ones a given sail cannot perform,
+and which ones no sail can perform,
+and a final section covers the secondary propulsion those manoeuvres require.
 One section covers the physical difficulty of folding a sail for launch,
 and the last major section covers deceleration and capture when a sail arrives at another star.
 
@@ -766,6 +770,279 @@ and Perakis and Hein studied combining magnetic and electric sails for interstel
 A craft could use such a device to shed most of its speed over decades
 and a photon sail for the final capture.
 
+## Orbital Manoeuvres with a Solar Sail
+
+The standard orbital manoeuvres are usually described as burns of a given delta-v,
+as in the companion article on the subject
+[Orbital Manoeuvres in Terms of Delta-v][related_post_orbital_manoeuvres].
+A sail can supply delta-v,
+but under three constraints that a rocket does not face.
+The size of its thrust is fixed by its distance from the star and its angle,
+the direction of its thrust is confined to the half of space facing away from the star,
+and its total delta-v is limited by time rather than by propellant.
+This section explains how a sail performs manoeuvres within those constraints,
+gives the mathematics specific to sail steering,
+and separates the manoeuvres a particular sail cannot perform from those that no sail can perform.
+
+### How a Sail Performs a Manoeuvre
+
+A rocket chooses its thrust direction freely,
+sets its thrust with a throttle,
+and spends a finite store of propellant.
+A sail has no throttle and no store.
+It changes the direction of its thrust by turning,
+using the attitude control methods described above,
+and it reduces its thrust by tilting toward edge-on or by retracting.
+Every textbook burn therefore becomes a long arc of steered thrust.
+A Hohmann transfer becomes a spiral,
+a plane change becomes a slow twisting of the orbit over many revolutions,
+and a capture becomes a gradual matching of orbits.
+
+The delta-v a sail delivers grows with time.
+At 1 AU a sail with $\beta = 0.05$ accelerates at 0.297 millimetres per second squared face-on,
+which is 25.6 metres per second per day and 9.36 kilometres per second per year.
+Held at the 35.26 degree tilt that maximizes the thrust along its orbit,
+it delivers 3.60 kilometres per second per year in that direction.
+At Mars's distance the same sail delivers only 11.0 metres per second per day face-on,
+because the light has weakened by the square of the distance.
+In a planet's shadow it delivers nothing.
+
+### The Mathematics of Sail Steering
+
+**The force cone.**
+For an ideal sail the component of force along the direction from the star is the following.
+
+$$
+\vec{F}\cdot\hat{u} = \beta\,\frac{\mu}{r^{2}}\cos^{3}\alpha \;\geq\; 0
+$$
+
+The force always lies within a cone around the direction away from the star.
+It can be tilted up to 90 degrees from that direction,
+but it shrinks as it tilts and vanishes edge-on.
+
+**The best tilt for a desired direction.**
+Suppose the manoeuvre needs as much force as possible along a direction $\hat{d}$ that makes an angle $\theta$ with the direction away from the star,
+with $\hat{d}$ and the sail normal in the same plane.
+The component along $\hat{d}$ is proportional to $\cos^{2}\alpha\cos(\theta-\alpha)$,
+and setting its derivative to zero gives the following condition for the best cone angle.
+
+$$
+\tan(\theta - \alpha) = 2\tan\alpha
+$$
+
+For $\theta = 90$ degrees,
+a push straight across the sun line,
+this gives the familiar 35.26 degrees.
+The table gives the largest available component as a fraction of the face-on force.
+
+<div style="overflow-x: auto;" markdown="1">
+
+| Angle of desired direction from the anti-star direction | Best cone angle | Largest component, fraction of face-on force |
+|---|---|---|
+| 0 degrees | 0 | 1.000 |
+| 45 degrees | 15.7 | 0.808 |
+| 90 degrees | 35.3 | 0.385 |
+| 120 degrees | 51.6 | 0.142 |
+| 150 degrees | 70.2 | 0.020 |
+| 170 degrees | 83.3 | 0.0008 |
+| 180 degrees | none | 0 |
+
+</div>
+
+Directions with a component toward the star are reachable only weakly,
+and the direction straight toward the star not at all.
+
+**Rates of change of the orbit.**
+Textbook perturbation equations give the rate at which a small force changes each orbital element.
+For a nearly circular orbit of radius $r$ and speed $v$,
+with $a_{t}$ the acceleration along the velocity,
+$a_{h}$ the acceleration normal to the orbital plane,
+and $u$ the angle from the ascending node,
+the semi-major axis and the inclination change as follows.
+
+$$
+\frac{da}{dt} = 2a_{t}\sqrt{\frac{a^{3}}{\mu}}, \qquad
+\frac{di}{dt} = \frac{a_{h}\cos u}{v}
+$$
+
+The first gives the spiral time derived earlier.
+The second shows that an out-of-plane push changes the inclination only if its sign follows $\cos u$.
+A sail that tilts its normal 35.26 degrees out of the plane,
+toward one side for half of each orbit and toward the other side for the other half,
+switching at the nodes,
+averages $|\cos u|$ to $2/\pi$ and changes the inclination per orbit by the following.
+
+$$
+\Delta i_{\mathrm{orbit}} = 4\,k\,\beta \approx 1.54\,\beta\ \text{radians}, \qquad k = \cos^{2}\alpha\sin\alpha = 0.385
+$$
+
+That is 0.88 degrees per orbit for $\beta = 0.01$ and 4.41 for $\beta = 0.05$.
+A three-dimensional numerical integration over one orbit at 1 AU gives 0.872 and 4.144 degrees,
+so the formula is good to 1 percent at the smaller lightness number and 6 percent at the larger,
+where the sail's radial thrust also changes the orbit.
+A rocket pays for a plane change in delta-v,
+while a sail pays in time and in closeness to the star.
+Raising the inclination by 90 degrees at 0.4 AU,
+where each orbit takes 0.253 years,
+takes about 20 orbits or 5.2 years for $\beta = 0.05$.
+
+**Orbits around planets.**
+Around a planet the sunlight comes from a direction that is nearly fixed while the spacecraft circles,
+so the sail can thrust along its velocity only on part of each orbit.
+LightSail 2 performed two 90-degree slews each orbit for this reason
+[Spencer et al. 2021][research_spencer_et_al_2021].
+Even ignoring that loss and the shadow,
+a sail with the ACS3 class acceleration of 0.045 millimetres per second squared would need at least 5.4 years of thrust along its velocity to spiral from low Earth orbit to escape,
+since the slow spiral costs about the 7.73 kilometres per second of the orbital speed.
+
+### When a Manoeuvre Is Not Possible for a Given Sail
+
+Many manoeuvres are beyond a particular sail but would be possible for a better one.
+These are limitations of the craft.
+
+- **Too little acceleration for the time available.** A planetary capture from an incoming trajectory must happen while the craft is near the planet. Mars's sphere of influence, estimated as $r \approx a(m/M)^{2/5}$ [Sphere of Influence][ref_sphere_of_influence], has a radius of about 577,000 kilometres. Crossing it at 2.65 kilometres per second takes 5.0 days, in which a sail with $\beta = 0.05$ can change its velocity by at most 56 metres per second, and even one with $\beta = 1$ by 1.1 kilometres per second. A sail cannot be captured from such an approach. It must first match the planet's orbit around the Sun by spiralling, so that it arrives with almost no excess speed, and then spiral in.
+- **Forces stronger than the light.** In low orbit, air drag can exceed the light pressure, and LightSail 2's controlled thrust measurably reduced its rate of orbital decay rather than reversing it [Spencer et al. 2021][research_spencer_et_al_2021]. On a planet's surface, gravity is the competing force. With the Sun overhead and no atmosphere, a sail can lift itself only if its total loading is below about 0.00093 grams per square metre on Earth, 0.0011 on Mars, 0.0056 on the Moon, 0.0042 on Ceres and 0.016 on Mercury. The graphene-class loading of 0.00076 grams per square metre carries no payload, and Earth and Mars have atmospheres, so no sail flown or designed can lift a payload from any of these bodies. Only a graphene-class sail with nothing attached could lift itself from the airless ones.
+- **Too little steering.** A sail that only faces its star cannot change its angular momentum or its plane. One that steers only in its orbital plane cannot change its inclination.
+- **Too much lightness to stay.** A face-on sail with $\beta > 1$ cannot be bound to a star, as the section on capture shows, unless it can turn nearly edge-on, retract or jettison its sail.
+- **Too little heat tolerance.** The closest approach, and with it the largest thrust and the fastest departures, are set by the temperature limit.
+- **Too far from the star.** The thrust falls as the inverse square of distance, and the spiral time grows as the orbital period. A manoeuvre that changes the orbit by the same proportion and takes a year at 1 AU takes about 164 years at 30 AU, near Neptune's distance, by the $r^{3/2}$ scaling of the spiral formula.
+
+### Manoeuvres No Sail Can Perform
+
+Some manoeuvres are impossible for any sail driven by starlight,
+because they would violate the conservation of momentum or energy.
+
+**Pushing toward the star.**
+Light from a distant star arrives travelling directly away from it.
+A stationary sail that reflects a photon cannot send it back with a larger component of momentum along that direction than it arrived with,
+because reflection does not change the photon's energy.
+Absorbed light pushes along the same direction.
+The sail could re-radiate absorbed energy as heat preferentially from its far side,
+which pushes it toward the star,
+but the momentum carried away is at most the radiated power divided by $c$,
+and in steady state the radiated power cannot exceed the absorbed power.
+At best the re-emission cancels the push of the absorbed light.
+So the net force on a sail never has a component toward a distant point source.
+It follows that a sail cannot hold an orbit faster than the local circular speed,
+cannot hover closer to the star than its lightness allows,
+and cannot add to the star's gravity.
+A sail can still move toward its star,
+but only by spiralling in after losing angular momentum,
+never by being pushed there.
+Very close to a star the light arrives from a disc rather than a point,
+and this argument then applies to the disc as a whole rather than to its centre.
+
+**Pushing without light.**
+A starlight sail produces no force in a planet's shadow,
+and none in interstellar space far from any star.
+It therefore cannot brake during an interstellar cruise,
+cannot manoeuvre while eclipsed,
+and cannot change course in the dark between stars.
+
+**Manoeuvres faster than any known material allows.**
+Strictly this is a limit of materials rather than of physics,
+but no known sail can overcome it.
+The graphene-class sail with no payload accelerates at 11.9 metres per second squared at 1 AU,
+about 1.2 times Earth's surface gravity,
+and every real sail with a payload accelerates far less.
+A textbook impulsive burn,
+kilometres per second in seconds or minutes,
+is beyond any known sail at any distance where it would survive the heat.
+
+## Solar Sailing with Secondary Propulsion
+
+Every manoeuvre a sail cannot perform needs momentum from a source other than starlight.
+Five sources are known.
+These are reaction mass expelled by an engine,
+the gravity of a planet during a flyby,
+an atmosphere,
+plasma or magnetic fields,
+and a beam of light from a direction other than the star.
+This section matches each impossible manoeuvre to what would physically make it possible.
+
+### Limits of the Craft That a Better Sail Could Remove
+
+Some limitations call for a better sail rather than a second engine.
+
+- **Steering.** Vanes, movable masses, movable sail panels and reflectivity control give a sail the steering it needs [Solar Sail][ref_solar_sail], and three-axis control allows plane changes.
+- **Capture with $\beta > 1$.** Retraction, near edge-on control or a planned jettison removes the obstacle, as the section on capture shows.
+- **Low acceleration.** Thinner films, lower structural mass and manufacture in space raise $\beta$.
+- **Heat.** Coatings with higher back emissivity allow closer passes.
+
+In practice small thrusters may still be the cheaper way to provide fine attitude control or to stabilize a sail during deployment,
+but the manoeuvres themselves remain within the reach of sailing.
+Attitude control in a planet's shadow is an exception within this group.
+Momentum wheels can hold attitude there,
+but they eventually need to shed stored momentum,
+which takes torque from outside,
+such as LightSail 2's magnetic torque rods near Earth
+[Spencer et al. 2021][research_spencer_et_al_2021].
+
+### Limits of Solar Sailing Itself
+
+The following limitations remain for any sail,
+so a second means of propulsion is physically required.
+
+<div style="overflow-x: auto;" markdown="1">
+
+| Manoeuvre | Why a sail cannot do it | What is physically needed |
+|---|---|---|
+| Thrust toward the star, or an orbit faster than local circular speed | Reflected and re-radiated light cannot push toward its source | Reaction mass from an engine, or a planetary flyby |
+| Braking or course changes during interstellar cruise | No usable starlight | Drag on the interstellar medium from a magnetic sail, a beam from home, or an engine |
+| Arriving faster than starlight can stop | The stopping distance falls inside the star | Prior braking by a magnetic or electric sail, or an engine |
+| Capture at a planet from a fast approach | Kilometres per second needed within days | An engine burn, or aerocapture in an atmosphere |
+| Landing on or launching from a planet or moon | Gravity, and often air, exceeds any sail's push with payload | An engine, or a launcher on the surface |
+| Reaching a starting orbit above the atmosphere | Air drag in low orbit exceeds the light pressure | A launch vehicle or a kick stage |
+| Final approach and docking | Thrust too weak and too slow to correct quickly | Small thrusters |
+| Manoeuvres in a planet's shadow | No light | An engine, or waiting for sunlight |
+
+</div>
+
+Each entry follows from the physics above.
+A planetary flyby is a natural partner for a sail,
+because it changes the direction of motion by tens of degrees in hours without propellant
+[Gravity Assist][ref_gravity_assist],
+which a sail cannot do in any time.
+Heller,
+Hippke
+and Kervella combined the two in photogravitational assists at Alpha Centauri
+[Heller, Hippke and Kervella 2017][research_heller_hippke_kervella_2017].
+Magnetic sails can produce relatively large drag in the interstellar medium
+[Magnetic Sail][ref_magnetic_sail],
+and combined magnetic and electric sails have been studied for interstellar deceleration
+[Perakis and Hein 2016][research_perakis_hein_2016].
+A beam from home can drive a sail where starlight is too weak,
+and Forward analysed round-trip interstellar travel with laser-pushed lightsails
+[Forward 1984][research_forward_1984].
+Aerocapture uses a single pass through an atmosphere to shed speed,
+as an earlier article on this site describes
+[Introduction to Space Studies][related_post_space_studies].
+
+### The Cost of Carrying a Second Engine
+
+A secondary engine obeys the rocket equation,
+and to that engine the sail is dead mass.
+With a dry mass $m_{d}$,
+a sail of mass $m_{s}$
+and propellant $m_{p}$,
+an engine of exhaust speed $v_{e}$ provides the following delta-v.
+
+$$
+\Delta v = v_{e}\ln\frac{m_{d} + m_{s} + m_{p}}{m_{d} + m_{s}}
+$$
+
+Jettisoning the sail before a large burn removes $m_{s}$ from both terms and raises the delta-v,
+which is the mass-shedding effect described in the companion article on manoeuvres,
+at the price of losing the sail for the rest of the mission.
+Conversely,
+propellant and engines raise the sail loading and lower $\beta$ for the whole mission.
+A hybrid design therefore uses its engine only for the few manoeuvres a sail cannot perform.
+A sail can also be a power source.
+IKAROS carried thin-film solar cells integrated into its sail to power its payload
+[IKAROS][ref_ikaros],
+and the same area could in principle power an electric engine,
+an inference not tested by any source cited here.
+
 ## Epistemic State
 
 **Facts reported by the cited sources.**
@@ -817,6 +1094,14 @@ The spiral time is a small-lightness approximation,
 checked against a numerical integration.
 The stopping bound treats a head-on approach to a single star without relativity,
 and the Doppler factor is a first-order estimate.
+The best-tilt condition,
+the inclination change per orbit,
+the minimum spiral time from low Earth orbit,
+the lift-off loadings
+and the argument that a sail cannot be pushed toward a distant star are derived here.
+The inclination formula is checked against a three-dimensional numerical integration.
+The sphere of influence of Mars uses the approximate formula from the cited article,
+which lists about 578,000 kilometres.
 The emissivities and reflectance in the heat example are illustrative assumptions.
 The lightness numbers of flown craft are upper bounds computed from total mass and ideal reflection.
 
@@ -824,7 +1109,9 @@ The lightness numbers of flown craft are upper bounds computed from total mass a
 The classes of sail by lightness number,
 the four levels of steering,
 the claim that the thinnest sails must be made in space,
-and the conclusion that interstellar capture requires steering or retraction are judgments built on the physics above.
+the conclusion that interstellar capture requires steering or retraction,
+and the division of impossible manoeuvres into limits of the craft and limits of sailing itself are judgments built on the physics above.
+The statement that a sail's cells could power an electric engine is an untested inference.
 The capture conclusion follows strictly for an ideal face-on sail,
 and for real sails it depends on how closely edge-on can be achieved.
 
@@ -879,6 +1166,7 @@ which points toward making them in space.
 - [Reference, Alpha Centauri, Wikipedia][ref_alpha_centauri]
 - [Reference, Breakthrough Starshot, Wikipedia][ref_breakthrough_starshot]
 - [Reference, Electric Sail, Wikipedia][ref_electric_sail]
+- [Reference, Gravity Assist, Wikipedia][ref_gravity_assist]
 - [Reference, IKAROS, Wikipedia][ref_ikaros]
 - [Reference, LightSail, Wikipedia][ref_lightsail]
 - [Reference, Magnetic Sail, Wikipedia][ref_magnetic_sail]
@@ -890,6 +1178,7 @@ which points toward making them in space.
 - [Reference, Sirius, Wikipedia][ref_sirius]
 - [Reference, Solar Sail, Wikipedia][ref_solar_sail]
 - [Reference, Solar Wind, Wikipedia][ref_solar_wind]
+- [Reference, Sphere of Influence, Wikipedia][ref_sphere_of_influence]
 - [Reference, Statite, Wikipedia][ref_statite]
 - [Reference, Sun, Wikipedia][ref_sun]
 - [Reference, Znamya, Wikipedia][ref_znamya]
@@ -923,6 +1212,7 @@ which points toward making them in space.
 [ref_alpha_centauri]: https://en.wikipedia.org/wiki/Alpha_Centauri
 [ref_breakthrough_starshot]: https://en.wikipedia.org/wiki/Breakthrough_Starshot
 [ref_electric_sail]: https://en.wikipedia.org/wiki/Electric_sail
+[ref_gravity_assist]: https://en.wikipedia.org/wiki/Gravity_assist
 [ref_ikaros]: https://en.wikipedia.org/wiki/IKAROS
 [ref_lightsail]: https://en.wikipedia.org/wiki/LightSail
 [ref_magnetic_sail]: https://en.wikipedia.org/wiki/Magnetic_sail
@@ -934,6 +1224,7 @@ which points toward making them in space.
 [ref_sirius]: https://en.wikipedia.org/wiki/Sirius
 [ref_solar_sail]: https://en.wikipedia.org/wiki/Solar_sail
 [ref_solar_wind]: https://en.wikipedia.org/wiki/Solar_wind
+[ref_sphere_of_influence]: https://en.wikipedia.org/wiki/Sphere_of_influence_(astrodynamics)
 [ref_statite]: https://en.wikipedia.org/wiki/Statite
 [ref_sun]: https://en.wikipedia.org/wiki/Sun
 [ref_znamya]: https://en.wikipedia.org/wiki/Znamya_(satellite)
