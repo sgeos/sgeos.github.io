@@ -4,6 +4,26 @@
 
 ## Last Updated
 
+**Date**: 2026-10-22 (fourth entry)
+**Task**: **A381 DRAFTED, *Solar Sailing*, editorial date 2026-08-17, replacing the stub. Committed, NOT pushed, NOT published.** On the pilot's specification: the concept and mathematics first, then generalized parametric equations with no assumption about star or craft, the Sun's values, sails of different quality, steerability and retractability, the difficulty of folding, and deceleration and capture at other stars.
+
+**What was done.**
+1. Every number comes from `tmp/a381/numbers.py`. A numerical integration checks the spiral-time formula, which agrees to a few percent at a lightness number of 0.01 and to about 18 percent at 0.05.
+2. 24 DOIs were checked against Crossref and OpenAlex, and all 24 are registered. All 17 Wikipedia pages return 200, and their text was checked for each value cited.
+3. `_verify.py` reports 0 errors and 0 warnings. The scratch build with A381, A382 and A383 in `_posts` passed, and the render audit found nothing on 550 pages.
+
+**Results the pilot may want to check.**
+- The generalized lightness number is (1 + rho) L / (4 pi c G M sigma), so a given sail is about 78 times weaker around Proxima Centauri and 12 times stronger around Sirius A than around the Sun.
+- A face-on sail with a lightness number above one can never be bound to a star. Capture therefore needs steering to within about four degrees of edge-on for a graphene-class sail, retraction by a factor of about 2,800, or a planned jettison.
+- The simple head-on stopping bound for a graphene-class sail at Alpha Centauri A, with stopping no closer than 5 stellar radii, gives 13,756 km/s. That is close to Heller and Hippke's 13,800 km/s, but the article says explicitly that the agreement is not validation.
+- Retraction is demonstrated only in ground tests in the sources found.
+
+**Limits.** Eleven sources are cited at title level only. The force model ignores diffuse reflection and thermal re-emission. The heat example uses assumed coatings. The flown craft's lightness numbers are upper bounds from total mass.
+
+**Next, on the pilot's word.** The three remaining passes on A381, the A382 specification, and the three remaining passes on A383.
+
+## Previous Report (2026-10-22, third entry)
+
 **Date**: 2026-10-22 (third entry)
 **Task**: **Renumbered again so the concepts are covered in order. A381 Solar Sailing stub at 2026-08-17, A382 Mass Drivers stub at 2026-08-18, A383 Mercury article at 2026-08-19. Committed, NOT pushed, NOT published.** On the pilot's instruction, "Bump both articles forward and create a stub article on solar sailing, A381, dated 2026-08-17."
 

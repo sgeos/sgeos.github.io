@@ -10,11 +10,951 @@ categories: space space-studies
 <!-- A381 -->
 <script>console.log("A381");</script>
 
-A solar sail is a spacecraft propelled by the pressure of sunlight reflecting from a large, thin surface
+A solar sail is a spacecraft propelled by the pressure of light reflecting from a large, thin surface
 [Solar Sail][ref_solar_sail].
+It carries no propellant,
+so its thrust never runs out,
+but the thrust is tiny and can never point toward the star that supplies it.
+This article develops the physics of solar sailing in order.
+It begins with the concept and the basic mathematics,
+then gives parametric equations that assume nothing about the star or the craft,
+and then evaluates them for the Sun and for several other stars.
+Later sections compare sails of different quality,
+different levels of steering,
+and sails that can or cannot be retracted.
+One section covers the physical difficulty of folding a sail for launch,
+and the last major section covers deceleration and capture when a sail arrives at another star.
+
+This article does not design a mission
+and does not recommend any material or mechanism.
+Every number in it is either taken from a cited source or computed from the equations shown,
+and every computed example is idealized in ways stated where it is used.
+An earlier article on this site introduces the orbital mechanics used here
+[Introduction to Space Studies][related_post_space_studies].
+
+## The Concept
+
+Light carries momentum.
+A beam of power per unit area $S$ carries momentum per unit area per unit time $S/c$,
+where $c$ is the speed of light.
+A surface that absorbs the beam is pushed with a pressure $S/c$,
+and a perfect mirror facing the beam is pushed with twice that,
+because the reflected light carries its momentum away in the opposite direction
+[Radiation Pressure][ref_radiation_pressure].
+At Earth's distance from the Sun,
+where the flux is 1,360.8 ± 0.5 watts per square metre
+[Kopp and Lean 2011][research_kopp_lean_2011],
+these pressures are about 4.54 and 9.08 micropascals.
+A square sail of 80 square metres,
+the size flown by NASA's Advanced Composite Solar Sail System,
+or ACS3
+[Solar Sail][ref_solar_sail],
+would feel at most 0.726 millinewtons facing the Sun at that distance.
+
+A force that small is useful only because it never stops.
+A rocket spends its propellant in minutes,
+while a sail is pushed for as long as it is in sunlight.
+The penalty is that the force is set by geometry.
+A flat mirror is pushed along its own normal,
+so the force always has a component directed away from the star,
+and the craft can steer only by turning the sail.
+
+Sunlight is not the only thing streaming from the Sun.
+At 1 AU,
+the astronomical unit,
+the solar wind exerts a pressure typically between 1 and 6 nanopascals
+[Solar Wind][ref_solar_wind],
+which is between about one fifteen-hundredth and one nine-thousandth of the light pressure on a perfect mirror.
+A solar sail therefore ignores the wind.
+Magnetic sails
+[Magnetic Sail][ref_magnetic_sail]
+and electric sails
+[Electric Sail][ref_electric_sail]
+are separate concepts that push against the wind or against the interstellar medium,
+and they return below only as aids to deceleration.
+
+Solar sailing has flown.
+The Japanese IKAROS spacecraft,
+launched in May 2010,
+was the first to demonstrate solar sailing in interplanetary space,
+and it flew past Venus in December 2010
+[IKAROS][ref_ikaros]
+[Tsuda et al. 2011][research_tsuda_et_al_2011]
+[Tsuda et al. 2013][research_tsuda_et_al_2013].
+NASA's NanoSail-D2 deployed a 10 square metre sail in Earth orbit in January 2011
+[NanoSail-D2][ref_nanosail_d2],
+after its predecessor was lost in a launch failure
+[Johnson et al. 2011][research_johnson_et_al_2011].
+The Planetary Society's LightSail 2 demonstrated controlled solar sailing in Earth orbit,
+where its controlled thrust measurably reduced the rate of orbital decay
+[Spencer et al. 2021][research_spencer_et_al_2021].
+ACS3 launched in April 2024
+[Solar Sail][ref_solar_sail].
+
+## The Basic Mathematics
+
+Consider a perfectly reflecting flat sail of area $A$ on a craft of total mass $m$,
+at a distance $r$ from a star where the flux is $S$.
+Let $\hat{n}$ be the unit normal of the sail,
+pointing away from the star,
+and let the cone angle $\alpha$ be the angle between $\hat{n}$ and the direction from the star to the sail.
+The sail intercepts light over its projected area $A\cos\alpha$,
+and each unit of intercepted momentum is reflected so that twice its normal component is transferred.
+The force is therefore the following.
+
+$$
+\vec{F} = \frac{2 S A}{c}\cos^{2}\alpha\,\hat{n}
+$$
+
+Two quantities describe a sail's performance.
+The sail loading $\sigma = m/A$ is the total mass per unit area of sail.
+The characteristic acceleration $a_{c}$ is the acceleration of the craft facing the Sun at 1 AU,
+and the lightness number $\beta$ is the ratio of that acceleration to the Sun's gravity at the same distance
+[Solar Sail][ref_solar_sail].
+
+$$
+a_{c} = \frac{2 S_{0}}{c\,\sigma}, \qquad
+\beta = \frac{a_{c}}{\mu_{\odot}/(1\ \mathrm{AU})^{2}}
+$$
+
+Here $S_{0}$ is the flux at 1 AU and $\mu_{\odot}$ is the Sun's gravitational parameter.
+Because both the light and gravity fall as the inverse square of distance,
+$\beta$ is the same at every distance from the Sun,
+and it determines which manoeuvres a craft can perform
+[Solar Sail][ref_solar_sail].
+The equation of motion around the star,
+with $\vec{r}$ the position relative to the star,
+is the following.
+
+$$
+\ddot{\vec{r}} = -\frac{\mu}{r^{2}}\,\hat{r} + \beta\,\frac{\mu}{r^{2}}\cos^{2}\alpha\,\hat{n}
+$$
+
+The first term is gravity and the second is the sail.
+Every result in the rest of this article is a consequence of this equation,
+of its generalization below,
+or of the limits on $\beta$ and $\alpha$ that real sails impose.
+
+## Generalized Parametric Equations
+
+The basic equations assume a perfect mirror and the Sun.
+This section removes both assumptions.
+The star is described by its luminosity $L$,
+its mass $M$
+and its radius $R_{\ast}$.
+The craft is described by its mass $m$,
+its sail area $A$,
+which may change with time if the sail can be retracted,
+the specular reflectance $\rho$ of the sail,
+the front and back emissivities $\varepsilon_{f}$ and $\varepsilon_{b}$,
+and two steering angles,
+the cone angle $\alpha$ and the clock angle $\delta$ that sets the direction in which the normal is tilted.
+Let $\hat{u}$ be the unit vector from the star to the sail.
+No other property of star or craft is assumed.
+
+### Pressure and Force
+
+At distance $r$ the flux and the pressure on an absorber are the following.
+
+$$
+S(r) = \frac{L}{4\pi r^{2}}, \qquad
+P(r) = \frac{L}{4\pi c\,r^{2}}
+$$
+
+Take a flat sail that reflects a fraction $\rho$ of the light specularly and absorbs the rest,
+with no transmission and no diffuse reflection.
+The absorbed light pushes along $\hat{u}$,
+and the reflected light pushes along $\hat{n}$,
+so the force is the following.
+
+$$
+\vec{F} = P(r)\,A\cos\alpha\left[(1-\rho)\,\hat{u} + 2\rho\cos\alpha\,\hat{n}\right]
+$$
+
+Resolving this into a component along the normal and a component in the plane of the sail gives the following,
+where the transverse unit vector $\hat{t}$ lies in the plane of the sail on the side toward which it is tilted.
+
+$$
+F_{n} = P A (1+\rho)\cos^{2}\alpha, \qquad
+F_{t} = P A (1-\rho)\cos\alpha\sin\alpha, \qquad
+\tan\phi = \frac{1-\rho}{1+\rho}\tan\alpha
+$$
+
+The angle $\phi$ is the angle between the net force and the sail normal.
+An imperfect sail is pushed less hard and in a direction tilted from its normal toward the Sun line.
+With $\rho = 0.9$ the force is tilted 2.13 degrees from the normal at a cone angle of 35.26 degrees,
+and with $\rho = 0.85$ it is tilted 3.28 degrees.
+This model ignores thermal re-emission and diffuse scattering,
+which a full optical model of a real film would include.
+
+### Lightness Number for Any Star
+
+Dividing the face-on force by the star's gravitational pull on the craft,
+with $\sigma = m/A$,
+gives the generalized lightness number.
+
+$$
+\beta = \frac{(1+\rho)\,L}{4\pi c\,G M\,\sigma}
+$$
+
+For a perfect mirror this reduces to $L/(2\pi c G M \sigma)$.
+The loading at which a perfect mirror has $\beta = 1$,
+so that the light exactly balances gravity,
+is the critical loading.
+
+$$
+\sigma^{\ast} = \frac{L}{2\pi c\,G M}
+$$
+
+The lightness number depends on the star only through $L/M$,
+and on the craft only through $\sigma$ and $\rho$.
+
+### Equation of Motion
+
+With a retractable sail of area $A(t)$ the general equation of motion is the following.
+
+$$
+\ddot{\vec{r}} = -\frac{G M}{r^{2}}\,\hat{u}
++ \frac{L\,A(t)\cos\alpha}{4\pi c\,m\,r^{2}}\left[(1-\rho)\,\hat{u} + 2\rho\cos\alpha\,\hat{n}(\alpha,\delta)\right]
+$$
+
+Four standard results follow from it.
+Each is derived here for an ideal sail unless stated.
+
+**Reduced gravity.**
+A sail held face-on pushes only along $\hat{u}$,
+so it acts as a reduction of the star's gravity.
+
+$$
+\mu_{\mathrm{eff}} = (1-\beta)\,G M
+$$
+
+**Escape.**
+A sail opened face-on on a circular orbit of radius $r_{0}$ keeps its circular speed $v_{c} = \sqrt{GM/r_{0}}$
+while the effective gravity weakens,
+so energy conservation gives its final speed.
+It escapes when $\beta \geq 1/2$.
+
+$$
+v_{\infty} = v_{c}(r_{0})\sqrt{2\beta - 1}
+$$
+
+**Departure from a close pass.**
+A sail that falls from an orbit of semi-major axis $a$ to a closest distance $q$ and turns face-on there leaves with the following speed.
+
+$$
+v_{\infty} = \sqrt{\frac{2\beta\,G M}{q} - \frac{G M}{a}}
+$$
+
+**Steering and spirals.**
+The component of an ideal sail's force across the Sun line is $\beta (GM/r^{2})\cos^{2}\alpha\sin\alpha$,
+which is greatest at $\tan\alpha = 1/\sqrt{2}$,
+a cone angle of 35.26 degrees,
+where $\cos^{2}\alpha\sin\alpha = 0.385$.
+For a small lightness number the orbit stays nearly circular,
+and Gauss's equation for the rate of change of the orbit's size gives the time to spiral from radius $r_{1}$ to radius $r_{2}$ at a fixed cone angle.
+
+$$
+t = \frac{\left|r_{2}^{3/2} - r_{1}^{3/2}\right|}{3\,\beta\,k\,\sqrt{G M}}, \qquad k = \cos^{2}\alpha\sin\alpha
+$$
+
+Tilting forward spirals outward and tilting backward spirals inward.
+
+### Temperature
+
+A sail element facing the star at cone angle $\alpha$ absorbs $(1-\rho)S\cos\alpha$ per unit area
+and radiates from both faces,
+so its equilibrium temperature is the following,
+with $\sigma_{\mathrm{SB}}$ the Stefan-Boltzmann constant.
+
+$$
+T = \left[\frac{(1-\rho)\,S(r)\cos\alpha}{\sigma_{\mathrm{SB}}\left(\varepsilon_{f}+\varepsilon_{b}\right)}\right]^{1/4}
+$$
+
+The temperature depends on the flux and on the coatings,
+but not on the area or the loading,
+so a better sail is not a cooler sail.
+A maximum allowed temperature $T_{\max}$ sets a maximum flux,
+and therefore a closest approach to any star.
+
+$$
+q_{\min} = \sqrt{\frac{L}{4\pi F_{\max}}}, \qquad
+F_{\max} = \frac{\sigma_{\mathrm{SB}}\left(\varepsilon_{f}+\varepsilon_{b}\right)T_{\max}^{4}}{1-\rho}
+$$
+
+### Where the Equations Fail
+
+These equations assume a star small enough to treat as a point,
+a flat sail,
+and speeds far below light speed.
+The force varies as the inverse square of distance except extremely close to the Sun
+[Solar Sail][ref_solar_sail],
+where the star's finite disc matters.
+A real sail billows and wrinkles,
+so its normal is not single-valued.
+At speeds that are a few percent of light speed,
+the light reaching a receding sail is Doppler shifted and its force falls,
+to first order by the factor $(1 - v/c)/(1 + v/c)$.
+That factor is 0.912 at 4.6 percent of light speed and 0.667 at 20 percent,
+and it rises above one for a sail moving toward the star.
+
+## The Values for Our Star
+
+The Sun's luminosity is $3.828 \times 10^{26}$ watts
+[Sun][ref_sun],
+which gives 1,361.2 watts per square metre at 1 AU,
+in agreement with the measured value.
+The Sun's gravity at 1 AU is 5.93 millimetres per second squared,
+the light pressure on a perfect mirror there is 9.08 micropascals,
+and the critical loading is 1.531 grams per square metre.
+Wikipedia states the same relations in practical units as $a_{c} = 9.08\,\eta/\sigma$ millimetres per second squared,
+with $\sigma$ in grams per square metre and $\eta$ an efficiency,
+and $\beta = a_{c}/5.93$
+[Solar Sail][ref_solar_sail].
+The table gives the ideal values for a range of loadings.
+
+<div style="overflow-x: auto;" markdown="1">
+
+| Sail loading, g/m² | Lightness number | Characteristic acceleration, mm/s² |
+|---|---|---|
+| 1,550 | 0.00099 | 0.0059 |
+| 400 | 0.0038 | 0.023 |
+| 200 | 0.0077 | 0.045 |
+| 100 | 0.015 | 0.091 |
+| 10 | 0.15 | 0.91 |
+| 1.531 | 1.0 | 5.93 |
+| 1.0 | 1.53 | 9.08 |
+| 0.1 | 15.3 | 90.8 |
+| 0.00076 | about 2,000 | about 12,000 |
+
+</div>
+
+### Other Stars
+
+The lightness number of a given sail changes from star to star as $L/M$.
+The table uses stellar masses and luminosities in solar units from Wikipedia
+[Alpha Centauri][ref_alpha_centauri]
+[Proxima Centauri][ref_proxima_centauri]
+[Sirius][ref_sirius].
+
+<div style="overflow-x: auto;" markdown="1">
+
+| Star | Luminosity | Mass | $L/M$, the factor on $\beta$ | Critical loading, g/m² |
+|---|---|---|---|---|
+| Sun | 1 | 1 | 1 | 1.531 |
+| Alpha Centauri A | 1.5059 | 1.0788 | 1.40 | 2.14 |
+| Alpha Centauri B | 0.4981 | 0.9092 | 0.548 | 0.839 |
+| Proxima Centauri | 0.001567 | 0.1221 | 0.0128 | 0.0197 |
+| Sirius A | 24.74 | 2.063 | 12.0 | 18.4 |
+
+</div>
+
+For main-sequence stars between about 0.43 and 2 solar masses,
+luminosity rises roughly as the fourth power of mass
+[Mass-Luminosity Relation][ref_mass_luminosity_relation],
+so the factor $L/M$ rises roughly as the cube of mass.
+A sail is about 78 times weaker around Proxima Centauri than around the Sun,
+and 12 times stronger around Sirius A.
+Solar sailing is a technique for bright stars,
+and nearly useless around red dwarfs.
+
+## Spacecraft with Different Quality Sails
+
+A sail's quality has several dimensions.
+The most important is the loading,
+which includes the payload and structure as well as the film.
+The others are reflectance,
+which sets both thrust and heating,
+flatness,
+the maximum temperature the materials tolerate,
+and durability.
+A film whose optical properties degrade in space flies a different trajectory,
+and such trajectories have been analysed for a sail facing the Sun
+[Bassetto et al. 2020][research_bassetto_et_al_2020].
+
+### Sails That Have Flown or Been Designed
+
+The table gives the ideal lightness number of several real and designed sails.
+For the flown craft it divides the whole spacecraft mass by the sail area,
+so it is an upper bound on performance.
+IKAROS had a launch mass of 310 kilograms and a square membrane 20 metres on the diagonal
+[IKAROS][ref_ikaros],
+which is 200 square metres.
+NanoSail-D2 had a mass of 4 kilograms
+[NanoSail-D2][ref_nanosail_d2],
+and ACS3 a mass of 16 kilograms
+[Solar Sail][ref_solar_sail].
+The design values for the square sail,
+the heliogyro
+and the lattice sailer are as listed in Wikipedia's table,
+which excludes payload
+[Solar Sail][ref_solar_sail],
+and the graphene-class loading is the value assumed by Heller and Hippke
+[Heller and Hippke 2017][research_heller_hippke_2017].
+
+<div style="overflow-x: auto;" markdown="1">
+
+| Craft or design | Loading, g/m² | Lightness number |
+|---|---|---|
+| IKAROS, flown 2010 | 1,550 | 0.00099 |
+| NanoSail-D2, flown 2011 | 400 | 0.0038 |
+| ACS3, flown 2024 | 200 | 0.0077 |
+| Square sail design, without payload | 5.27 | 0.26 |
+| Heliogyro design, without payload | 6.39 | 0.22 |
+| Lattice sailer design, without payload | 0.07 | 20 |
+| Graphene-class sail | 0.00076 | about 2,000 |
+
+</div>
+
+The design values from Wikipedia include an efficiency of 90 percent,
+which is why they are slightly below the ideal values of 0.29 and 0.24 for the first two.
+The flown sails are demonstrators whose lightness numbers are hundreds of times below those of the designs.
+
+### What Each Class of Sail Can Do
+
+The lightness number divides sails into classes by what they can do.
+
+- **Below about 0.01.** Orbit raising and slow spirals. At $\beta = 0.01$ the spiral formula gives 12.1 years from Earth's orbit to Mars's and 150 years to Jupiter's.
+- **About 0.01 to 0.1.** Interplanetary transfers in years. At $\beta = 0.05$ the formula gives 2.4 years from Earth's orbit to Mars's and 2.1 years inward to Mercury's.
+- **About 0.1 to 0.5.** Fast transfers, close passes to the Sun with large gains in energy, and orbits that gravity alone cannot produce.
+- **One half to one.** Escape from the solar system directly from a circular orbit. At $\beta = 0.75$ the final speed is 21.1 kilometres per second from 1 AU and 66.6 from 0.1 AU.
+- **Exactly one.** A face-on sail feels no net force and can hover in place, the idea behind the statite proposed independently by Robert Forward and Colin McInnes [Statite][ref_statite].
+- **Above one.** The star repels a face-on sail. This allows the fastest departures and, as shown below, braking at another star.
+
+A numerical integration checks the spiral formula.
+Starting from a circular orbit at 1 AU with the sail held at a cone angle of 35.26 degrees,
+it gives 11.83 years to Mars's orbit and 10.55 years inward to Mercury's at $\beta = 0.01$,
+against 12.14 and 10.46 from the formula.
+At $\beta = 0.05$ it gives 2.06 and 2.16 years,
+against 2.43 and 2.09.
+The formula is good to a few percent at small lightness numbers and worsens as $\beta$ grows,
+because it ignores the eccentricity that the sail's radial push gives the orbit.
+
+### Heat Limits by Quality
+
+Temperature limits how close any sail can go to its star.
+Take an illustrative sail with $\rho = 0.9$,
+a front emissivity of 0.05
+and a back emissivity of 0.6,
+values assumed here rather than measured.
+Face-on,
+it reaches 247 K at 1 AU,
+450 K at 0.3 AU,
+780 K at 0.1 AU
+and 1,143 K at 10 solar radii.
+If its materials tolerate 400 K it can approach no closer than 0.38 AU,
+and if they tolerate 600 K no closer than 0.17 AU.
+Close passes are where a sail gains the most energy,
+so heat tolerance is as much a part of sail quality as loading.
+
+## Levels of Steering
+
+Steering a sail means turning it.
+Attitude control works by shifting the sail's centre of pressure relative to the craft's centre of mass,
+which can be done with control vanes,
+by moving individual sails,
+by moving a control mass,
+or by altering reflectivity
+[Solar Sail][ref_solar_sail].
+IKAROS steered by varying the reflectance of 80 liquid crystal panels embedded in its sail
+[IKAROS][ref_ikaros],
+and spinning sails of that kind have been modelled with reflectivity control
+[Furumoto, Funase and Yamaguchi 2014][research_furumoto_funase_yamaguchi_2014].
+LightSail 2 used a single-axis momentum wheel and magnetic torque rods,
+and performed two 90-degree slews each orbit to harness solar momentum
+[Spencer et al. 2021][research_spencer_et_al_2021].
+In interplanetary space the required orientation often changes by less than a degree per day,
+but in planetary orbit it changes much faster
+[Solar Sail][ref_solar_sail].
+Four levels of steering capability can be distinguished.
+
+### No Control
+
+A sail that tumbles is pushed in a direction that wanders with its attitude,
+and its average thrust is smaller and unpredictable.
+LightSail 2 spent a significant amount of its time tumbling randomly
+[LightSail][ref_lightsail].
+Such a craft can still be pushed but cannot be navigated.
+
+### Fixed Face-On
+
+A sail that is kept facing its star,
+for example by passive design or by spin,
+feels only a radial force.
+A radial force exerts no torque about the star,
+so the craft's angular momentum about the star cannot change.
+Its orbit is an ordinary conic section around a star of reduced gravity $(1-\beta)GM$.
+Such a sail cannot spiral inward or outward,
+cannot pump energy over repeated passes,
+and cannot change its orbital plane.
+It can only escape,
+if $\beta \geq 1/2$ on a circular orbit,
+or hover,
+if $\beta = 1$.
+
+### Steering Within the Orbital Plane
+
+A sail that can set its cone angle in the orbital plane can add or remove angular momentum,
+and so spiral outward or inward,
+pump energy near each close pass,
+and reverse the direction of its orbit.
+Vulpetti studied trajectories that reverse a sail's orbital angular momentum to reach high speeds
+[Vulpetti 1997][research_vulpetti_1997].
+This is the minimum steering needed for most interplanetary missions.
+
+### Full Three-Axis Steering
+
+A sail that can also set its clock angle can push out of its orbital plane.
+It can change its inclination,
+reach polar orbits around its star,
+and hold orbits displaced from those gravity allows.
+Edge-on is the closest thing to off.
+An ideal flat sail edge-on to the light feels no force,
+so steering to 90 degrees switches the sail off,
+but only as precisely as the attitude is controlled
+and only to the extent the sail is flat.
+
+## Fixed, Jettisonable and Retractable Sails
+
+Whether a sail can be removed or reduced matters as much as whether it can be steered,
+because $\beta$ appears in every result above.
+There are three cases.
+
+**Fixed.**
+A sail that cannot be removed keeps its lightness number for the whole mission.
+The craft can never follow a pure gravitational orbit,
+except by turning edge-on.
+This is acceptable for $\beta < 1$,
+but for $\beta > 1$ it has a decisive consequence shown in the section on capture.
+
+**Jettisonable.**
+A sail that can be cut loose has a one-way switch from $\beta$ to zero.
+Jettisoning after acceleration removes the sail's mass from the rest of the mission,
+and jettisoning before arrival protects the payload from the sail's forces,
+but the craft then has no means of braking with light.
+
+**Retractable.**
+A sail that can be reefed or rolled in has a lightness number that can be set between zero and its full value,
+through $A(t)$ in the equation of motion.
+This allows coasting on gravitational orbits,
+stowing the sail away from heat,
+and fine control of the push.
+Retracting does not cool a deployed sail,
+because the temperature equation does not depend on area,
+but fully stowing it can shade it.
+
+Retraction has been demonstrated on the ground.
+Furuya and Satou developed folding and retraction mechanisms for a spinning sail membrane,
+using a wrapping fold with tensile forces
+[Furuya and Satou 2008][research_furuya_satou_2008].
+Banik and Ardelean tested a 10 metre retractable sail prototype,
+which they called the Flexible Unfurlable and Refurlable Lightweight sail,
+through four thermal cycles and 50 deployment and retraction cycles in thermal vacuum,
+and a further 25 cycles in ambient conditions
+[Banik and Ardelean 2010][research_banik_ardelean_2010].
+Retraction is also dynamically harder than deployment.
+For a simplified sail quadrant on two booms,
+Vatankhahghadim and Damaren showed that uniform extension decreases the system's vibrational energy
+while uniform retraction increases it
+[Vatankhahghadim and Damaren 2018][research_vatankhahghadim_damaren_2018].
+The sources found for this article describe ground tests and analysis,
+and none reports a retraction in flight.
+
+## Folding and Deploying a Sail
+
+A sail must be packed small for launch and spread flat in space,
+and this is one of the hardest practical problems in solar sailing.
+
+### Thin Films
+
+The most common material in current designs is an aluminium coating on a polymer film,
+such as aluminized Kapton 2 micrometres thick
+[Solar Sail][ref_solar_sail].
+NASA's Near Earth Asteroid Scout and ACS3 needed metallized membranes 2 to 3 micrometres thick.
+Stohlman and coauthors report that such membranes do not retain creases as thicker membranes do,
+and that for small spacecraft the stowed volume rather than the mass is often the driving requirement
+[Stohlman et al. 2020][research_stohlman_et_al_2020].
+The solid volume of a film is only its area times its thickness,
+which is 0.2 litres for 80 square metres at 2.5 micrometres
+and 2,500 litres for a square kilometre.
+Folded film cannot be packed to its solid volume,
+so the real stowed volume is larger by a packing factor that depends on the fold pattern.
+
+### Fold Patterns
+
+The fold pattern controls how compactly a sail packs,
+how reliably it deploys,
+and how flat it lies afterwards.
+A rotationally skew fold proposed for spinning sails deploys stably with easy packaging,
+although it needs slightly higher spin rates for full deployment
+[Furuya and Masuoka 2004][research_furuya_masuoka_2004].
+A piecewise straight fold approximates a spiral fold with straight lines to achieve high packaging efficiency with simple folding
+[Satou et al. 2014][research_satou_et_al_2014].
+The Miura fold,
+from origami,
+has been used to pack large solar panel arrays for Japanese satellites
+[Miura Fold][ref_miura_fold].
+IKAROS used a square membrane of 7.5 micrometre polyimide,
+20 metres on the diagonal,
+deployed by the centrifugal force of the spinning spacecraft from a wrapping fold chosen for stable deployment
+[Furuya et al. 2011][research_furuya_et_al_2011].
+
+### Damage from Folding
+
+Folds leave marks.
+Seefeldt and Dachwald examined the fold lines of a 7.5 micrometre polyimide membrane under a microscope
+and found that light reflected inside a fold line can raise the local temperature.
+The membrane geometry allows no more than two reflections even at small tension,
+and the resulting temperature rise is slight and depends on the material
+[Seefeldt and Dachwald 2021][research_seefeldt_dachwald_2021].
+Creases also prevent the sail from lying perfectly flat,
+which reduces and redirects its thrust.
+
+### Deployment Failures
+
+Deployment has failed in flight.
+The Russian Znamya 2.5 space mirror,
+a 25 metre reflector deployed in February 1999,
+caught on an antenna of its Progress spacecraft and tore,
+and it was deorbited
+[Znamya][ref_znamya].
+NanoSail-D2's sail deployment was commanded in December 2010 but occurred only in January 2011
+[NanoSail-D2][ref_nanosail_d2].
+ACS3 unfolds its 80 square metre sail on four 7 metre carbon fibre booms that roll up for storage,
+and in October 2024 a bent boom was reported to have made it lose direction and spin
+[Solar Sail][ref_solar_sail].
+
+### The Thinnest Sails Cannot Be Folded
+
+The highest-performing sails may not be foldable at all.
+Eric Drexler made aluminium films 30 to 100 nanometres thick without a polymer backing,
+which could reach accelerations far above those of plastic films,
+but the material was too delicate to survive folding,
+launch
+and deployment,
+and his design relied on producing the film in space
+[Solar Sail][ref_solar_sail].
+The materials needed for laser-driven lightsails pose further challenges
+[Atwater et al. 2018][research_atwater_et_al_2018].
+The physics thus sets up a tradeoff.
+Thinner films raise $\beta$,
+but they are harder to fold,
+and the thinnest ones can only be made where they will be used.
+This inference suggests that the best sails would be manufactured in space rather than launched.
+
+## Other Considerations
+
+A thorough treatment includes several further effects.
+
+- **Close approaches.** Near the star the inverse square law fails because the disc is finite, and the temperature limits above set the closest pass.
+- **Degradation.** If a sail's reflectance falls over time, its lightness number and the direction of its force drift with it, as the generalized force model shows.
+- **Light from other sources.** A sail can be pushed by a laser instead of a star. Breakthrough Starshot proposed lasers with a combined output of up to 100 gigawatts to push light sails to between 15 and 20 percent of light speed [Breakthrough Starshot][ref_breakthrough_starshot], and Forward analysed round-trip interstellar travel with laser-pushed lightsails [Forward 1984][research_forward_1984].
+- **Relativity.** The Doppler factor in the section on where the equations fail matters for any sail moving at several percent of light speed.
+- **Surveys.** Reviews of the state of the technology [Fu, Sperber and Eke 2016][research_fu_sperber_eke_2016] and the standard monograph on solar sailing [McInnes 1999][book_mcinnes_1999] cover these and further topics in depth.
+
+## Deceleration and Capture at Another Star
+
+A sail launched toward another star arrives at high speed with no propellant.
+Heller and Hippke note that a laser-launched probe at 20 percent of light speed could reach Proxima Centauri in 20 years,
+but without a way to slow down it would cross the system within hours
+[Heller and Hippke 2017][research_heller_hippke_2017].
+The target star's own light offers a brake.
+
+### Stopping with Starlight
+
+A sail that faces the target star as it approaches is pushed backward.
+If $\beta > 1$,
+the star is a net repeller,
+and a sail approaching head-on with speed $v_{\infty}$ comes to rest at the distance where its kinetic energy equals the repulsive potential.
+
+$$
+\frac{1}{2}v_{\infty}^{2} = \frac{(\beta-1)\,G M}{r_{s}}
+\quad\Longrightarrow\quad
+r_{s} = \frac{2(\beta-1)\,G M}{v_{\infty}^{2}}
+$$
+
+If the sail must stop no closer than a distance $q$,
+set by its heat tolerance or by the star's radius,
+the fastest arrival it can stop is the following,
+which for $\beta \gg 1$ depends on the star only through its luminosity.
+
+$$
+v_{\max} = \sqrt{\frac{2(\beta-1)\,G M}{q}}
+\;\approx\;
+\sqrt{\frac{(1+\rho)\,L}{2\pi c\,\sigma\,q}}
+$$
+
+This is the same expression that limits the speed a sail can gain by departing from a close pass,
+so a sail can stop at another star only from speeds it could also reach by departing from that star.
+For the graphene-class loading at Alpha Centauri A,
+$\beta$ is about 2,813.
+Stopping no closer than 5 stellar radii allows an arrival speed of 13,756 kilometres per second,
+which is 4.59 percent of light speed,
+and stopping no closer than 10 stellar radii allows 9,727.
+Heller and Hippke computed full trajectories that use the light and gravity of Alpha Centauri A and B and Proxima together.
+They found a maximum injection speed of about 13,800 kilometres per second at Alpha Centauri A for a sail that is to be parked around Proxima,
+a journey of about 95 years from Earth to Alpha Centauri A and B,
+and a further 46 years to Proxima,
+with a sail of about $10^{5}$ square metres needed for a 10 gram payload
+[Heller and Hippke 2017][research_heller_hippke_2017].
+The near agreement with the 5 radius figure here should not be read as validation,
+because the simple bound depends on the chosen $q$ and ignores the deflections their trajectories use.
+
+The same bound shows why the fastest proposed probes cannot stop this way.
+Stopping a graphene-class sail arriving at 20 percent of light speed at Alpha Centauri A would require it to come to rest 0.26 stellar radii from the star's centre,
+which is inside the star.
+Approaching the light also raises the force by the Doppler factor,
+about 1.10 at 4.6 percent of light speed and 1.50 at 20 percent,
+which helps but does not close a gap of that size.
+
+### Stopping Is Not Capture
+
+A sail that has stopped is not yet in orbit.
+With $\beta > 1$ and the sail face-on,
+the star still repels it,
+so it is pushed back the way it came.
+More generally,
+the energy of a face-on sail with $\beta > 1$ is $\tfrac{1}{2}v^{2} + (\beta-1)GM/r$,
+which is always positive,
+so such a sail can never be bound to the star.
+Capture requires lowering the effective lightness number below one,
+and there are three ways to do so.
+
+- **Tilt.** The radial push of a tilted ideal sail is $\beta\cos^{3}\alpha$ times gravity, which falls below one when $\alpha > \arccos\beta^{-1/3}$. That is 37.5 degrees for $\beta = 2$, 62.3 degrees for $\beta = 10$ and 85.9 degrees for $\beta = 2{,}811$. A very light sail must be held within about four degrees of edge-on.
+- **Retract.** Reducing the area by more than a factor $\beta$ does the same, a factor of about 2,800 for the graphene-class sail at Alpha Centauri A.
+- **Jettison.** Releasing the sail leaves the payload on a purely gravitational path, which is bound only if it is released where its speed is below local escape speed and with enough sideways motion to miss the star.
+
+A sail approaching exactly head-on has no angular momentum about the star,
+so even after its lightness is reduced it would fall straight in.
+Capture into an orbit therefore also requires an approach that is offset from the star,
+or steering that creates sideways motion before the sail is turned edge-on.
+It follows that a fixed,
+face-on sail with $\beta > 1$ cannot be captured at all.
+Capture needs either steering to nearly edge-on or retraction or a planned jettison,
+which is why steerability and retractability are not refinements but requirements for an interstellar sail that is meant to stay.
+
+### Using Several Stars
+
+Multiple star systems offer more than one brake.
+Heller,
+Hippke
+and Kervella found that a photogravitational assist is more effective when the sail passes in front of the star,
+using it as a bumper,
+than when it swings around behind it as a catapult.
+This raises the maximum deceleration at Alpha Centauri A and B
+and cuts the travel time of a graphene-class sail from 95 to 75 years.
+They also found that Sirius A offers the shortest travel times into a bound orbit among about 22,000 stars within about 300 light years,
+69 years if 12.5 percent of light speed can be reached at departure
+[Heller, Hippke and Kervella 2017][research_heller_hippke_kervella_2017].
+That result agrees with the parametric equations,
+since Sirius A's $L/M$ of 12.0 makes any sail about 8.6 times lighter there than at Alpha Centauri A.
+With the graphene-class loading and a 5 stellar radius limit,
+the simple bound gives 47,101 kilometres per second,
+or 15.7 percent of light speed.
+
+### Braking Without Starlight
+
+Sails that use the interstellar medium can brake before the starlight becomes useful.
+Magnetic sails produce relatively large drag for deceleration in the interstellar medium
+[Magnetic Sail][ref_magnetic_sail],
+an idea developed for interplanetary travel by Zubrin and Andrews
+[Zubrin and Andrews 1991][research_zubrin_andrews_1991],
+and Perakis and Hein studied combining magnetic and electric sails for interstellar deceleration
+[Perakis and Hein 2016][research_perakis_hein_2016].
+A craft could use such a device to shed most of its speed over decades
+and a photon sail for the final capture.
+
+## Epistemic State
+
+**Facts reported by the cited sources.**
+The pressure of light,
+the definitions of sail loading,
+characteristic acceleration
+and lightness number,
+the sail designs,
+the attitude control methods,
+the mission histories
+and the stellar data come from the Wikipedia entries cited,
+which draw on mission reports and the peer-reviewed literature.
+The findings attributed to Kopp and Lean,
+Heller and Hippke,
+Heller,
+Hippke and Kervella,
+the groups led by Spencer,
+Johnson
+and Stohlman,
+Seefeldt and Dachwald,
+the groups led by Furuya and Satou,
+Banik and Ardelean,
+and Vatankhahghadim and Damaren
+are taken from their abstracts as recorded by Crossref or OpenAlex.
+The works of the groups led by Tsuda,
+Bassetto,
+Furumoto,
+Atwater
+and Fu,
+and those of Vulpetti,
+Forward,
+Zubrin and Andrews,
+Perakis and Hein,
+and McInnes are cited only for what their titles state,
+because no abstract was retrievable.
+None of the sources was read in full.
+
+**Analysis in this article.**
+The force model,
+the generalized lightness number,
+the reduced gravity,
+the escape and departure speeds,
+the spiral time,
+the temperature limit,
+the stopping distance
+and the capture conditions are derived here from the stated assumptions.
+The force model ignores diffuse reflection and thermal re-emission.
+The spiral time is a small-lightness approximation,
+checked against a numerical integration.
+The stopping bound treats a head-on approach to a single star without relativity,
+and the Doppler factor is a first-order estimate.
+The emissivities and reflectance in the heat example are illustrative assumptions.
+The lightness numbers of flown craft are upper bounds computed from total mass and ideal reflection.
+
+**Inference and judgment.**
+The classes of sail by lightness number,
+the four levels of steering,
+the claim that the thinnest sails must be made in space,
+and the conclusion that interstellar capture requires steering or retraction are judgments built on the physics above.
+The capture conclusion follows strictly for an ideal face-on sail,
+and for real sails it depends on how closely edge-on can be achieved.
+
+**Unaddressed concerns.**
+This article does not model billowing,
+wrinkling,
+sail dynamics,
+structural loads,
+the interstellar dust that a fast sail would meet,
+or communication from another star.
+
+## Out of Scope
+
+This article does not cover laser system design,
+the engineering of magnetic or electric sails,
+mission costs,
+or the choice of a launch site.
+Planetary orbits that use solar sails,
+such as those around Earth,
+are mentioned only where a flown mission illustrates a point.
+
+## Conclusion
+
+A solar sail is pushed by light with a force set by its area,
+its reflectance,
+its angle to the star
+and the star's luminosity,
+against a gravity set by the star's mass.
+The ratio of the two,
+the lightness number,
+summarizes almost everything a sail can do,
+and it depends on the star only through $L/M$ and on the craft only through its loading and reflectance.
+The sails flown so far have lightness numbers below one percent,
+designs reach a few tenths without payload,
+and only sails far thinner than any yet folded reach one or more.
+
+Steering and retraction decide what a given lightness number buys.
+A sail that only faces its star moves on the conics of a weaker star,
+one that steers in its orbital plane can spiral and pump energy,
+and one that steers in three axes can leave its plane.
+At another star,
+a sail light enough to brake from interstellar speed is repelled by the star it is braking against,
+so it can be captured only if it can turn nearly edge-on,
+retract,
+or drop its sail at the right moment.
+The physical difficulty of folding thin films means that the sails best able to make that journey are also the hardest to build and launch,
+which points toward making them in space.
 
 ## References
 
+- [Book, McInnes 1999, Solar Sailing][book_mcinnes_1999]
+- [Reference, Alpha Centauri, Wikipedia][ref_alpha_centauri]
+- [Reference, Breakthrough Starshot, Wikipedia][ref_breakthrough_starshot]
+- [Reference, Electric Sail, Wikipedia][ref_electric_sail]
+- [Reference, IKAROS, Wikipedia][ref_ikaros]
+- [Reference, LightSail, Wikipedia][ref_lightsail]
+- [Reference, Magnetic Sail, Wikipedia][ref_magnetic_sail]
+- [Reference, Mass-Luminosity Relation, Wikipedia][ref_mass_luminosity_relation]
+- [Reference, Miura Fold, Wikipedia][ref_miura_fold]
+- [Reference, NanoSail-D2, Wikipedia][ref_nanosail_d2]
+- [Reference, Proxima Centauri, Wikipedia][ref_proxima_centauri]
+- [Reference, Radiation Pressure, Wikipedia][ref_radiation_pressure]
+- [Reference, Sirius, Wikipedia][ref_sirius]
 - [Reference, Solar Sail, Wikipedia][ref_solar_sail]
+- [Reference, Solar Wind, Wikipedia][ref_solar_wind]
+- [Reference, Statite, Wikipedia][ref_statite]
+- [Reference, Sun, Wikipedia][ref_sun]
+- [Reference, Znamya, Wikipedia][ref_znamya]
+- [Related Post, Introduction to Space Studies][related_post_space_studies]
+- [Research, Atwater et al. 2018, Materials Challenges for the Starshot Lightsail][research_atwater_et_al_2018]
+- [Research, Banik and Ardelean 2010, Verification of a Retractable Solar Sail in a Thermal-Vacuum Environment][research_banik_ardelean_2010]
+- [Research, Bassetto et al. 2020, Trajectory Analysis of a Sun-Facing Solar Sail with Optical Degradation][research_bassetto_et_al_2020]
+- [Research, Forward 1984, Roundtrip Interstellar Travel Using Laser-Pushed Lightsails][research_forward_1984]
+- [Research, Fu, Sperber and Eke 2016, Solar Sail Technology, A State of the Art Review][research_fu_sperber_eke_2016]
+- [Research, Furumoto, Funase and Yamaguchi 2014, Attitude Control Model for Spinning Solar Sail Spacecraft with Reflectivity Control Capability][research_furumoto_funase_yamaguchi_2014]
+- [Research, Furuya and Masuoka 2004, Concept of Rotationally Skew Fold Membrane for Spinning Solar Sail][research_furuya_masuoka_2004]
+- [Research, Furuya and Satou 2008, Deployment and Retraction Mechanisms for Spinning Solar Sail Membrane][research_furuya_satou_2008]
+- [Research, Furuya et al. 2011, Manufacturing and Folding of Solar Sail IKAROS][research_furuya_et_al_2011]
+- [Research, Heller and Hippke 2017, Deceleration of High-Velocity Interstellar Photon Sails into Bound Orbits at Alpha Centauri][research_heller_hippke_2017]
+- [Research, Heller, Hippke and Kervella 2017, Optimized Trajectories to the Nearest Stars Using Lightweight High-Velocity Photon Sails][research_heller_hippke_kervella_2017]
+- [Research, Johnson et al. 2011, NanoSail-D, A Solar Sail Demonstration Mission][research_johnson_et_al_2011]
+- [Research, Kopp and Lean 2011, A New, Lower Value of Total Solar Irradiance, Evidence and Climate Significance][research_kopp_lean_2011]
+- [Research, Perakis and Hein 2016, Combining Magnetic and Electric Sails for Interstellar Deceleration][research_perakis_hein_2016]
+- [Research, Satou et al. 2014, Wrapping Experiments of Piecewise Straight Fold Membrane for Large Solar Sail][research_satou_et_al_2014]
+- [Research, Seefeldt and Dachwald 2021, Temperature Increase on Folded Solar Sail Membranes][research_seefeldt_dachwald_2021]
+- [Research, Spencer et al. 2021, The LightSail 2 Solar Sailing Technology Demonstration][research_spencer_et_al_2021]
+- [Research, Stohlman et al. 2020, Advances in Low-Cost Manufacturing and Folding of Solar Sail Membranes][research_stohlman_et_al_2020]
+- [Research, Tsuda et al. 2011, Flight Status of IKAROS Deep Space Solar Sail Demonstrator][research_tsuda_et_al_2011]
+- [Research, Tsuda et al. 2013, Achievement of IKAROS, Japanese Deep Space Solar Sail Demonstration Mission][research_tsuda_et_al_2013]
+- [Research, Vatankhahghadim and Damaren 2018, Deployment of a Membrane Attached to Two Axially Moving Beams][research_vatankhahghadim_damaren_2018]
+- [Research, Vulpetti 1997, Sailcraft at High Speed by Orbital Angular Momentum Reversal][research_vulpetti_1997]
+- [Research, Zubrin and Andrews 1991, Magnetic Sails and Interplanetary Travel][research_zubrin_andrews_1991]
 
+[book_mcinnes_1999]: https://doi.org/10.1007/978-1-4471-3992-8
+[ref_alpha_centauri]: https://en.wikipedia.org/wiki/Alpha_Centauri
+[ref_breakthrough_starshot]: https://en.wikipedia.org/wiki/Breakthrough_Starshot
+[ref_electric_sail]: https://en.wikipedia.org/wiki/Electric_sail
+[ref_ikaros]: https://en.wikipedia.org/wiki/IKAROS
+[ref_lightsail]: https://en.wikipedia.org/wiki/LightSail
+[ref_magnetic_sail]: https://en.wikipedia.org/wiki/Magnetic_sail
+[ref_mass_luminosity_relation]: https://en.wikipedia.org/wiki/Mass%E2%80%93luminosity_relation
+[ref_miura_fold]: https://en.wikipedia.org/wiki/Miura_fold
+[ref_nanosail_d2]: https://en.wikipedia.org/wiki/NanoSail-D2
+[ref_proxima_centauri]: https://en.wikipedia.org/wiki/Proxima_Centauri
+[ref_radiation_pressure]: https://en.wikipedia.org/wiki/Radiation_pressure
+[ref_sirius]: https://en.wikipedia.org/wiki/Sirius
 [ref_solar_sail]: https://en.wikipedia.org/wiki/Solar_sail
+[ref_solar_wind]: https://en.wikipedia.org/wiki/Solar_wind
+[ref_statite]: https://en.wikipedia.org/wiki/Statite
+[ref_sun]: https://en.wikipedia.org/wiki/Sun
+[ref_znamya]: https://en.wikipedia.org/wiki/Znamya_(satellite)
+[related_post_space_studies]: {% post_url 2026-02-21-introduction_to_space_studies %}
+[research_atwater_et_al_2018]: https://doi.org/10.1038/s41563-018-0075-8
+[research_banik_ardelean_2010]: https://doi.org/10.2514/6.2010-2585
+[research_bassetto_et_al_2020]: https://doi.org/10.2514/1.g005214
+[research_forward_1984]: https://doi.org/10.2514/3.8632
+[research_fu_sperber_eke_2016]: https://doi.org/10.1016/j.paerosci.2016.07.001
+[research_furumoto_funase_yamaguchi_2014]: https://doi.org/10.2514/6.2014-4217
+[research_furuya_et_al_2011]: https://doi.org/10.2514/6.2011-1967
+[research_furuya_masuoka_2004]: https://doi.org/10.2514/6.iac-04-i.1.05
+[research_furuya_satou_2008]: https://doi.org/10.2514/6.2008-2051
+[research_heller_hippke_2017]: https://doi.org/10.3847/2041-8213/835/2/l32
+[research_heller_hippke_kervella_2017]: https://doi.org/10.3847/1538-3881/aa813f
+[research_johnson_et_al_2011]: https://doi.org/10.1016/j.actaastro.2010.02.008
+[research_kopp_lean_2011]: https://doi.org/10.1029/2010GL045777
+[research_perakis_hein_2016]: https://doi.org/10.1016/j.actaastro.2016.07.005
+[research_satou_et_al_2014]: https://doi.org/10.2322/tastj.12.pc_49
+[research_seefeldt_dachwald_2021]: https://doi.org/10.1016/j.asr.2020.09.026
+[research_spencer_et_al_2021]: https://doi.org/10.1016/j.asr.2020.06.029
+[research_stohlman_et_al_2020]: https://doi.org/10.2514/6.2020-2167
+[research_tsuda_et_al_2011]: https://doi.org/10.1016/j.actaastro.2011.06.005
+[research_tsuda_et_al_2013]: https://doi.org/10.1016/j.actaastro.2012.03.032
+[research_vatankhahghadim_damaren_2018]: https://doi.org/10.1115/1.4042134
+[research_vulpetti_1997]: https://doi.org/10.1016/s0094-5765(97)00153-7
+[research_zubrin_andrews_1991]: https://doi.org/10.2514/3.26230

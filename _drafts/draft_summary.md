@@ -17,12 +17,20 @@ Missing sections and prose will need to be drafted.
 Stubs and largely incomplete drafts are assessed for topicality and publication merit.
 
 
-## Solar Sailing A381 2026-08-17 STUB
+## Solar Sailing A381 2026-08-17 DRAFTED
 
-`_drafts/solar_sailing.markdown`, A381, editorial date 2026-08-17, categories `space space-studies`. **A minimal stub
-created 2026-10-22 on the pilot's instruction**, so that solar sailing, mass drivers and the Mercury article are covered
-in order. It carries one sentence and one reference. **NOT publishable as it stands**, and A383 links to it, so it
-must be written and published before A383.
+`_drafts/solar_sailing.markdown`, A381, editorial date 2026-08-17, standalone analytical essay, categories
+`space space-studies`, no series. Drafted 2026-10-22 on the pilot's specification, replacing the stub. **NOT published.**
+It presents the concept and basic mathematics, then generalized parametric equations in the star's luminosity, mass and
+radius and the craft's mass, area, reflectance, emissivities and steering angles, then the Sun's values and four other
+stars. It compares sail quality, four levels of steering, and fixed, jettisonable and retractable sails, and has a
+section on folding and deployment and one on deceleration and capture at another star.
+
+**Drafting pass complete. Citation, pathological word usage and publication review passes NOT yet run.** 960 lines,
+17 display equations, 42 references, 24 DOI-linked, 17 Wikipedia and 1 related post. Every number is computed by
+`tmp/a381/numbers.py`. Eleven sources are cited at title level only because no abstract was retrievable.
+`_verify.py` 0 and 0, scratch build with A381, A382 and A383 ok, render audit clean on 550 pages. It must publish
+before A383, which links to it.
 
 ## Mass Drivers A382 2026-08-18 STUB
 
@@ -11175,10 +11183,11 @@ This is a template file, not a draft. It provides the standard structure for new
 
 Thirteen files exist in `_drafts/`. One is a template. One is this summary.
 One is A383, *Mercury as a Colony and a Launch Site*, drafted 2026-10-22 and described at the top of this file.
-Two are the stubs A381, *Solar Sailing*, and A382, *Mass Drivers*, also described at the top of this file.
+One is A381, *Solar Sailing*, drafted 2026-10-22.
+One is the stub A382, *Mass Drivers*, also described at the top of this file.
 Eight are the pre-release candidates listed below.
 No X-Planes drafts remain, because the whole series, A297 to A368, was published in commit `579121f`.
-Two stubs exist, A381 and A382.
+One stub exists, A382.
 A79 through A144 have been published.
 
 **These counts were re-measured against the working tree on 2026-10-22**, when the figures carried here
