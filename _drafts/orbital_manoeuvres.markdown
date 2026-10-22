@@ -184,6 +184,10 @@ less than the 9.3 to 10 kilometres per second needed to reach low Earth orbit fr
 Both values of $v_{e}$ and $\varepsilon$ are illustrative assumptions.
 
 Staging sheds structure on the way.
+The argument for it is as old as the study of escape from Earth by rocket
+[Malina and Summerfield 1947][research_malina_summerfield_1947],
+and optimum staging was treated as an explicit optimization problem by 1957
+[Schurmann 1957][research_schurmann_1957].
 Each stage is dropped when its propellant is spent,
 so the stages that follow do not carry it.
 For $N$ identical stages sharing a total delta-v equally,
@@ -257,6 +261,10 @@ and the delta-v a vehicle must supply exceeds the ideal values in this article.
 Gravity loss is the cost of holding a rocket up in a gravity field while it thrusts,
 and it is smallest when thrust is high and the burn short
 [Gravity Loss][ref_gravity_loss].
+The classic ascent that limits steering loss is the gravity turn,
+which keeps the thrust always parallel to the velocity,
+and even its idealized equations are nonlinear and need numerical integration
+[Culler and Fried 1957][research_culler_fried_1957].
 A rocket rising vertically loses 0.59 kilometres per second for every minute it burns at Earth's surface.
 Over a burn of duration $t_{b}$ with flight path angle $\gamma$ the loss is the following integral,
 which for a vertical climb at constant gravity reduces to $g\,t_{b}$.
@@ -388,6 +396,10 @@ $$
 A Hohmann transfer often uses the lowest possible impulse for a transfer between circular coplanar orbits
 [Hohmann Transfer Orbit][ref_hohmann_transfer_orbit],
 but it fixes the flight time and requires the target to be in the right place on arrival.
+Pontani showed with ordinary calculus and a graphical construction that the Hohmann and bielliptic transfers are the two possible global optima between two elliptic orbits,
+with no restriction on the number of impulses,
+and that the choice between them depends on the apsides of the two orbits
+[Pontani 2009][research_pontani_2009].
 When the departure point,
 the arrival point
 and the flight time are all fixed,
@@ -397,7 +409,14 @@ which determines an orbit from two position vectors and the time of flight
 For interplanetary missions the delta-v is often plotted against departure and arrival dates on a porkchop plot
 [Delta-v][ref_delta_v],
 and in the patched conic method each point on such a plot comes from a solution of Lambert's problem.
-Lambert solvers remain an active subject,
+Lambert solvers remain an active subject.
+Battin and Vaughan removed the singularity of Gauss's method at a transfer angle of 180 degrees
+and obtained convergence that is rapid and essentially independent of the initial guess
+[Battin and Vaughan 1984][research_battin_vaughan_1984],
+Gooding published a widely used solution procedure
+[Gooding 1990][research_gooding_1990],
+Avanzini parameterized the solutions by the component of the eccentricity vector perpendicular to the chord
+[Avanzini 2008][research_avanzini_2008],
 and Izzo published a revisited formulation in 2014
 [Izzo 2014][research_izzo_2014].
 Textbooks treat Lambert's problem with preliminary orbit determination
@@ -412,7 +431,9 @@ The first burn raises the apoapsis to an intermediate radius $r_{b}$ beyond the 
 the second burn at $r_{b}$ raises the periapsis to $r_{2}$,
 and the third at $r_{2}$ circularizes.
 The idea was published by Ary Sternfeld in 1934
-[Bi-elliptic Transfer][ref_bi_elliptic_transfer].
+[Bi-elliptic Transfer][ref_bi_elliptic_transfer],
+and Hoelker and Silber analysed the bi-elliptical transfer between coplanar circular orbits in 1961
+[Hoelker and Silber 1961][research_hoelker_silber_1961].
 With $a_{1} = (r_{1}+r_{b})/2$ and $a_{2} = (r_{2}+r_{b})/2$ the three burns are the following.
 
 $$
@@ -554,7 +575,11 @@ the motion of a chaser is described to first order by the Clohessy-Wiltshire equ
 Clohessy and Wiltshire derived the equations of motion in a relative coordinate system for satellite rendezvous in 1960
 [Clohessy and Wiltshire 1960][research_clohessy_wiltshire_1960],
 building on Hill's 1878 work on the Moon's motion relative to Earth
-[Clohessy-Wiltshire Equations][ref_clohessy_wiltshire_equations].
+[Clohessy-Wiltshire Equations][ref_clohessy_wiltshire_equations]
+[Hill 1878][research_hill_1878].
+For targets on elliptical orbits the equations acquire time-dependent coefficients,
+and Yamanaka and Ankersen derived a state transition matrix valid for any eccentricity below one
+[Yamanaka and Ankersen 2002][research_yamanaka_ankersen_2002].
 With $x$ radial,
 $y$ along the direction of motion,
 $z$ normal to the orbit,
@@ -607,6 +632,9 @@ A burn made deep in a gravity well,
 where the spacecraft is fast,
 adds more kinetic energy than the same burn made outside it
 [Oberth Effect][ref_oberth_effect].
+Blanco and Mungan show from introductory mechanics that this involves no violation of any conservation law,
+only the relation between impulse and kinetic energy for a rocket that can also change its gravitational potential energy
+[Blanco and Mungan 2019][research_blanco_mungan_2019].
 The reason is the following identity for the change in kinetic energy per unit mass from a burn $\Delta v$ along the velocity $v$.
 
 $$
@@ -642,6 +670,11 @@ so the real optimum is the lowest safe periapsis,
 and capture with a periapsis 300 kilometres up costs 0.803.
 Spacecraft often capture into a long ellipse and then lower the apoapsis later,
 by burning or by aerobraking.
+Aerocapture and aerobraking have each been weighed against propulsive capture,
+the first in a cost-benefit analysis across a mission set
+[Hall, Noca and Bailey 2005][research_hall_noca_bailey_2005]
+and the second as a matter of cost and risk
+[Spencer and Tolson 2007][research_spencer_tolson_2007].
 
 ### Patched Conics
 
@@ -737,6 +770,10 @@ $$
 Edelbaum found minimum-fuel manoeuvres for high and low thrust,
 including a closed-form solution for the optimum low-thrust transfer between inclined circular orbits of different radii
 [Edelbaum 1961][research_edelbaum_1961].
+Kechichian later recast the problem as a minimum-time transfer with a single inverse-tangent expression for the inclination,
+valid for all transfers,
+at a small delta-v penalty relative to the exact solution
+[Kechichian 1997][research_kechichian_1997].
 
 ## Beyond Two Bodies
 
@@ -749,6 +786,10 @@ and they take longer than higher-energy transfers such as Hohmann transfers
 [Low-Energy Transfer][ref_low_energy_transfer].
 Japan's Hiten and Europe's SMART-1 used them
 [Low-Energy Transfer][ref_low_energy_transfer].
+Belbruno and Miller described Sun-perturbed transfers to the Moon with ballistic capture through weak stability boundaries,
+using about 18 percent less delta-v than a Hohmann transfer to reach a circular lunar orbit,
+and noted Hiten's arrival at the Moon on 2 October 1991
+[Belbruno and Miller 1993][research_belbruno_miller_1993].
 These methods lie at the edge of what introductory textbooks cover.
 
 ## Summary of Costs
@@ -771,6 +812,170 @@ The table collects the costs computed in this article for the running examples.
 
 </div>
 
+## A Review of the Literature
+
+The manoeuvres above rest on a literature that runs from the 1940s to the present.
+This section surveys it by topic.
+Where a work's abstract was available its findings are stated,
+and where only its title was available it is described by its title alone.
+
+### Surveys and Textbooks
+
+Battin's text and Curtis's chapters are the standard references used above
+[Battin 1999][book_battin_1999]
+[Curtis 2020][book_curtis_2020_maneuvers].
+Gobetz and Doll surveyed impulsive trajectories,
+optimal and nonoptimal,
+and classified the known results for reference
+[Gobetz and Doll 1969][research_gobetz_doll_1969].
+Conway's edited volume on spacecraft trajectory optimization deliberately includes both analytical and numerical approaches,
+and records a revolution in how the methods are applied with the development of numerical optimization
+[Conway 2010][book_conway_2010].
+
+### The Rocket Equation, Staging and Ascent
+
+Malina and Summerfield addressed escape from Earth by rocket in 1947
+[Malina and Summerfield 1947][research_malina_summerfield_1947],
+and Schurmann treated optimum staging of multistage vehicles ten years later
+[Schurmann 1957][research_schurmann_1957].
+Culler and Fried gave universal solutions for the gravity turn,
+which depend on the initial thrust-to-weight ratio and the initial kick angle
+[Culler and Fried 1957][research_culler_fried_1957].
+No dedicated analysis of gravity loss with a verifiable abstract was found,
+and the treatment above rests on the textbook definition.
+
+### Optimal Impulsive Transfers
+
+The theory of optimal impulsive transfers began with Lawden,
+who studied minimal rocket trajectories and derived necessary conditions for optimal ones
+[Lawden 1953][research_lawden_1953]
+[Lawden 1959][research_lawden_1959].
+Ting studied optimum orbital transfer by impulses in 1960
+[Ting 1960][research_ting_1960],
+Hoelker and Silber analysed the bi-elliptical transfer in 1961
+[Hoelker and Silber 1961][research_hoelker_silber_1961],
+Barrar compared two-impulse with one-impulse transfer analytically in 1963
+[Barrar 1963][research_barrar_1963],
+and Edelbaum asked how many impulses an optimal transfer needs
+[Edelbaum 1966][research_edelbaum_1966].
+Lion and Handelsman extended Lawden's primer vector to nonoptimal trajectories,
+giving conditions for when an added impulse or an initial or final coast improves a trajectory,
+and showed that in an inverse-square field the primer can be computed analytically
+[Lion and Handelsman 1968][research_lion_handelsman_1968].
+Jezewski and Rozendaal turned primer vector theory into a method that finds the time,
+number
+and state of all impulses
+[Jezewski and Rozendaal 1968][research_jezewski_rozendaal_1968].
+Prussing's chapter gives a modern account of the theory and its applications
+[Prussing 2010][book_prussing_2010],
+and Pontani's proof that Hohmann and bielliptic transfers are the two possible global optima closes the question for transfers between ellipses
+[Pontani 2009][research_pontani_2009].
+
+### Relative Motion and Rendezvous
+
+Early results on relative orbital motion appeared in Hill's researches in lunar theory
+[Hill 1878][research_hill_1878]
+[Clohessy-Wiltshire Equations][ref_clohessy_wiltshire_equations],
+and Clohessy and Wiltshire derived them for satellite rendezvous
+[Clohessy and Wiltshire 1960][research_clohessy_wiltshire_1960].
+Tschauner and Hempel studied minimum-fuel rendezvous techniques
+[Tschauner and Hempel 1965][research_tschauner_hempel_1965],
+and Prussing studied optimal fixed-time rendezvous near a circular orbit with four impulses and with two and three
+[Prussing 1969][research_prussing_1969]
+[Prussing 1970][research_prussing_1970].
+Carter surveyed and classified the published work on linearized rendezvous and built a state transition matrix for terminal rendezvous near any Keplerian orbit using the Tschauner-Hempel equations
+[Carter 1998][research_carter_1998],
+and Yamanaka and Ankersen extended the state transition matrix to arbitrary elliptical orbits
+[Yamanaka and Ankersen 2002][research_yamanaka_ankersen_2002].
+
+### Lambert's Problem
+
+Lancaster,
+Blanchard
+and Devaney published a note on Lambert's theorem in 1966
+[Lancaster, Blanchard and Devaney 1966][research_lancaster_blanchard_devaney_1966].
+Battin and Vaughan's algorithm removed the 180 degree singularity of Gauss's method
+[Battin and Vaughan 1984][research_battin_vaughan_1984],
+Gooding gave a solution procedure for the orbital boundary-value problem
+[Gooding 1990][research_gooding_1990],
+Avanzini gave a simple algorithm that offers no speed advantage over Battin's
+[Avanzini 2008][research_avanzini_2008],
+and Izzo revisited the problem in 2014
+[Izzo 2014][research_izzo_2014].
+
+### Escape, Capture and the Oberth Effect
+
+Blanco and Mungan explain the Oberth effect with introductory physics
+[Blanco and Mungan 2019][research_blanco_mungan_2019].
+On the use of atmospheres for capture,
+Hall,
+Noca
+and Bailey analysed the costs and benefits of aerocapture across a set of missions
+[Hall, Noca and Bailey 2005][research_hall_noca_bailey_2005],
+and Spencer and Tolson examined the cost and risk decisions of aerobraking
+[Spencer and Tolson 2007][research_spencer_tolson_2007].
+
+### Gravity Assists
+
+Negri and Prado review the theory of gravity assists in the era before spaceflight
+[Negri and Prado 2020][research_negri_prado_2020].
+Flandro studied solar-electric missions to Jupiter with swingby continuation to the outer planets
+[Flandro 1968][research_flandro_1968],
+Minovitch studied Jupiter orbiter trajectories driven by encounters with the Galilean satellites
+[Minovitch 1972][research_minovitch_1972],
+and Broucke treated the celestial mechanics of the gravity assist
+[Broucke 1988][research_broucke_1988].
+Design methods followed,
+with automated design of gravity-assist trajectories to Mars and the outer planets
+[Longuski and Williams 1991][research_longuski_williams_1991]
+and a graphical method for gravity-assist design
+[Strange and Longuski 2002][research_strange_longuski_2002].
+
+### Low-Thrust Transfers
+
+Edelbaum's analysis of controllable satellites gave the closed-form low-thrust transfer between inclined circular orbits
+[Edelbaum 1961][research_edelbaum_1961],
+and Kechichian reformulated it with optimal control theory
+[Kechichian 1997][research_kechichian_1997].
+Petropoulos and Longuski developed a shape-based algorithm for low-thrust trajectories with gravity assists
+[Petropoulos and Longuski 2004][research_petropoulos_longuski_2004],
+and Russell applied primer vector theory to global low-thrust trade studies,
+reducing the problem to a few parameters and finding Pareto fronts between flight time and final mass
+[Russell 2007][research_russell_2007].
+
+### Low-Energy Transfers
+
+Conley studied low-energy transit orbits in the restricted three-body problem in 1968
+[Conley 1968][research_conley_1968].
+Belbruno constructed Earth-Moon trajectories ending in lunar capture orbits
+[Belbruno 1987][research_belbruno_1987],
+and Belbruno and Miller defined weak stability boundaries and described the Sun-perturbed transfers that saved delta-v for Hiten
+[Belbruno and Miller 1993][research_belbruno_miller_1993].
+Koon,
+Lo,
+Marsden
+and Ross demonstrated a heteroclinic connection between periodic orbits around the first and second Lagrange points
+and presented the associated invariant manifolds as channels for transport through the solar system,
+relevant to missions such as Genesis
+[Koon et al. 2000][research_koon_et_al_2000].
+They applied the approach to low-energy transfer to the Moon
+[Koon et al. 2001][research_koon_et_al_2001],
+and with Gómez and Masdemont extended it to the spatial problem
+[Gómez et al. 2004][research_gomez_et_al_2004].
+Topputo studied optimal two-impulse Earth-Moon transfers in a four-body model
+[Topputo 2013][research_topputo_2013].
+
+### Gaps
+
+No digital object identifier was found for several foundational works,
+so they are not cited directly.
+These include Hohmann's 1925 book,
+Lawden's 1963 monograph on optimal trajectories,
+Lancaster and Blanchard's unified form of Lambert's problem,
+Tschauner and Hempel's 1965 paper introducing the elliptic relative-motion equations,
+and the early gravity-assist memoranda of Minovitch and Flandro.
+No primary paper dedicated to phasing manoeuvres was found.
+
 ## Epistemic State
 
 **Facts reported by the cited sources.**
@@ -784,8 +989,26 @@ the practice of combining plane and apogee burns,
 the description of Lambert's problem,
 the Clohessy-Wiltshire history,
 and the low-energy missions come from the Wikipedia entries cited.
-The findings attributed to Clohessy and Wiltshire and to Edelbaum are taken from their abstracts as recorded by OpenAlex.
-The textbooks of Curtis and Battin and the paper of Izzo are cited only for what their titles state,
+The findings attributed to Clohessy and Wiltshire,
+Edelbaum 1961,
+Gobetz and Doll,
+Conway,
+Culler and Fried,
+Pontani,
+Lion and Handelsman,
+Jezewski and Rozendaal,
+Carter,
+Yamanaka and Ankersen,
+Battin and Vaughan,
+Avanzini,
+Blanco and Mungan,
+Kechichian,
+Russell,
+Belbruno and Miller,
+and Koon and coauthors in 2000 are taken from their abstracts as recorded by Crossref or OpenAlex.
+Every other work in the literature review,
+and the textbooks of Curtis and Battin,
+are cited only for what their titles state,
 because no abstract was retrievable.
 None of the sources was read in full.
 
@@ -850,10 +1073,12 @@ and gravity assists.
 ## References
 
 - [Book, Battin 1999, An Introduction to the Mathematics and Methods of Astrodynamics, Revised Edition][book_battin_1999]
+- [Book, Conway 2010, Spacecraft Trajectory Optimization][book_conway_2010]
 - [Book, Curtis 2020, Orbital Mechanics for Engineering Students, Interplanetary Trajectories][book_curtis_2020_interplanetary]
 - [Book, Curtis 2020, Orbital Mechanics for Engineering Students, Orbital Maneuvers][book_curtis_2020_maneuvers]
 - [Book, Curtis 2020, Orbital Mechanics for Engineering Students, Preliminary Orbit Determination][book_curtis_2020_orbit_determination]
 - [Book, Curtis 2020, Orbital Mechanics for Engineering Students, Relative Motion and Rendezvous][book_curtis_2020_rendezvous]
+- [Book, Prussing 2010, Primer Vector Theory and Applications, in Spacecraft Trajectory Optimization][book_prussing_2010]
 - [Reference, Bi-elliptic Transfer, Wikipedia][ref_bi_elliptic_transfer]
 - [Reference, Clohessy-Wiltshire Equations, Wikipedia][ref_clohessy_wiltshire_equations]
 - [Reference, Delta-v Budget, Wikipedia][ref_delta_v_budget]
@@ -875,15 +1100,59 @@ and gravity assists.
 - [Reference, Tsiolkovsky Rocket Equation, Wikipedia][ref_tsiolkovsky_rocket_equation]
 - [Reference, Vis-viva Equation, Wikipedia][ref_vis_viva_equation]
 - [Related Post, Introduction to Space Studies][related_post_space_studies]
+- [Research, Avanzini 2008, A Simple Lambert Algorithm][research_avanzini_2008]
+- [Research, Barrar 1963, Two-Impulse Transfer vs One-Impulse Transfer, Analytic Theory][research_barrar_1963]
+- [Research, Battin and Vaughan 1984, An Elegant Lambert Algorithm][research_battin_vaughan_1984]
+- [Research, Belbruno 1987, Lunar Capture Orbits, a Method of Constructing Earth Moon Trajectories and the Lunar GAS Mission][research_belbruno_1987]
+- [Research, Belbruno and Miller 1993, Sun-Perturbed Earth-to-Moon Transfers with Ballistic Capture][research_belbruno_miller_1993]
+- [Research, Blanco and Mungan 2019, Rocket Propulsion, Classical Relativity, and the Oberth Effect][research_blanco_mungan_2019]
+- [Research, Broucke 1988, The Celestial Mechanics of Gravity Assist][research_broucke_1988]
+- [Research, Carter 1998, State Transition Matrices for Terminal Rendezvous Studies, Brief Survey and New Example][research_carter_1998]
 - [Research, Clohessy and Wiltshire 1960, Terminal Guidance System for Satellite Rendezvous][research_clohessy_wiltshire_1960]
+- [Research, Conley 1968, Low Energy Transit Orbits in the Restricted Three-Body Problems][research_conley_1968]
+- [Research, Culler and Fried 1957, Universal Gravity Turn Trajectories][research_culler_fried_1957]
 - [Research, Edelbaum 1961, Propulsion Requirements for Controllable Satellites][research_edelbaum_1961]
+- [Research, Edelbaum 1966, How Many Impulses?][research_edelbaum_1966]
+- [Research, Flandro 1968, Solar Electric Low-Thrust Missions to Jupiter with Swingby Continuation to the Outer Planets][research_flandro_1968]
+- [Research, Gobetz and Doll 1969, A Survey of Impulsive Trajectories][research_gobetz_doll_1969]
+- [Research, Gooding 1990, A Procedure for the Solution of Lambert's Orbital Boundary-Value Problem][research_gooding_1990]
+- [Research, Gómez et al. 2004, Connecting Orbits and Invariant Manifolds in the Spatial Restricted Three-Body Problem][research_gomez_et_al_2004]
+- [Research, Hall, Noca and Bailey 2005, Cost-Benefit Analysis of the Aerocapture Mission Set][research_hall_noca_bailey_2005]
+- [Research, Hill 1878, Researches in the Lunar Theory][research_hill_1878]
+- [Research, Hoelker and Silber 1961, The Bi-elliptical Transfer Between Co-planar Circular Orbits][research_hoelker_silber_1961]
 - [Research, Izzo 2014, Revisiting Lambert's Problem][research_izzo_2014]
+- [Research, Jezewski and Rozendaal 1968, An Efficient Method for Calculating Optimal Free-Space N-Impulse Trajectories][research_jezewski_rozendaal_1968]
+- [Research, Kechichian 1997, Reformulation of Edelbaum's Low-Thrust Transfer Problem Using Optimal Control Theory][research_kechichian_1997]
+- [Research, Koon et al. 2000, Heteroclinic Connections Between Periodic Orbits and Resonance Transitions in Celestial Mechanics][research_koon_et_al_2000]
+- [Research, Koon et al. 2001, Low Energy Transfer to the Moon][research_koon_et_al_2001]
+- [Research, Lancaster, Blanchard and Devaney 1966, A Note on Lambert's Theorem][research_lancaster_blanchard_devaney_1966]
+- [Research, Lawden 1953, Minimal Rocket Trajectories][research_lawden_1953]
+- [Research, Lawden 1959, Necessary Conditions for Optimal Rocket Trajectories][research_lawden_1959]
+- [Research, Lion and Handelsman 1968, Primer Vector on Fixed-Time Impulsive Trajectories][research_lion_handelsman_1968]
+- [Research, Longuski and Williams 1991, Automated Design of Gravity-Assist Trajectories to Mars and the Outer Planets][research_longuski_williams_1991]
+- [Research, Malina and Summerfield 1947, The Problem of Escape from the Earth by Rocket][research_malina_summerfield_1947]
+- [Research, Minovitch 1972, Gravity Thrust Jupiter Orbiter Trajectories Generated by Encountering the Galilean Satellites][research_minovitch_1972]
+- [Research, Negri and Prado 2020, A Historical Review of the Theory of Gravity-Assists in the Pre-Spaceflight Era][research_negri_prado_2020]
+- [Research, Petropoulos and Longuski 2004, Shape-Based Algorithm for the Automated Design of Low-Thrust, Gravity Assist Trajectories][research_petropoulos_longuski_2004]
+- [Research, Pontani 2009, Simple Method to Determine Globally Optimal Orbital Transfers][research_pontani_2009]
+- [Research, Prussing 1969, Optimal Four-Impulse Fixed-Time Rendezvous in the Vicinity of a Circular Orbit][research_prussing_1969]
+- [Research, Prussing 1970, Optimal Two- and Three-Impulse Fixed-Time Rendezvous in the Vicinity of a Circular Orbit][research_prussing_1970]
+- [Research, Russell 2007, Primer Vector Theory Applied to Global Low-Thrust Trade Studies][research_russell_2007]
+- [Research, Schurmann 1957, Optimum Staging Technique for Multistaged Rocket Vehicles][research_schurmann_1957]
+- [Research, Spencer and Tolson 2007, Aerobraking Cost and Risk Decisions][research_spencer_tolson_2007]
+- [Research, Strange and Longuski 2002, Graphical Method for Gravity-Assist Trajectory Design][research_strange_longuski_2002]
+- [Research, Ting 1960, Optimum Orbital Transfer by Impulses][research_ting_1960]
+- [Research, Topputo 2013, On Optimal Two-Impulse Earth-Moon Transfers in a Four-Body Model][research_topputo_2013]
+- [Research, Tschauner and Hempel 1965, Minimum-Fuel Rendezvous Techniques][research_tschauner_hempel_1965]
+- [Research, Yamanaka and Ankersen 2002, New State Transition Matrix for Relative Motion on an Arbitrary Elliptical Orbit][research_yamanaka_ankersen_2002]
 
 [book_battin_1999]: https://doi.org/10.2514/4.861543
+[book_conway_2010]: https://doi.org/10.1017/CBO9780511778025
 [book_curtis_2020_interplanetary]: https://doi.org/10.1016/b978-0-08-102133-0.00008-8
 [book_curtis_2020_maneuvers]: https://doi.org/10.1016/b978-0-08-102133-0.00006-4
 [book_curtis_2020_orbit_determination]: https://doi.org/10.1016/b978-0-08-102133-0.00005-2
 [book_curtis_2020_rendezvous]: https://doi.org/10.1016/b978-0-08-102133-0.00007-6
+[book_prussing_2010]: https://doi.org/10.1017/cbo9780511778025.003
 [ref_bi_elliptic_transfer]: https://en.wikipedia.org/wiki/Bi-elliptic_transfer
 [ref_clohessy_wiltshire_equations]: https://en.wikipedia.org/wiki/Clohessy%E2%80%93Wiltshire_equations
 [ref_delta_v]: https://en.wikipedia.org/wiki/Delta-v
@@ -905,6 +1174,48 @@ and gravity assists.
 [ref_tsiolkovsky_rocket_equation]: https://en.wikipedia.org/wiki/Tsiolkovsky_rocket_equation
 [ref_vis_viva_equation]: https://en.wikipedia.org/wiki/Vis-viva_equation
 [related_post_space_studies]: {% post_url 2026-02-21-introduction_to_space_studies %}
+[research_avanzini_2008]: https://doi.org/10.2514/1.36426
+[research_barrar_1963]: https://doi.org/10.2514/3.1470
+[research_battin_vaughan_1984]: https://doi.org/10.2514/3.19910
+[research_belbruno_1987]: https://doi.org/10.2514/6.1987-1054
+[research_belbruno_miller_1993]: https://doi.org/10.2514/3.21079
+[research_blanco_mungan_2019]: https://doi.org/10.1119/1.5126818
+[research_broucke_1988]: https://doi.org/10.2514/6.1988-4220
+[research_carter_1998]: https://doi.org/10.2514/2.4211
 [research_clohessy_wiltshire_1960]: https://doi.org/10.2514/8.8704
+[research_conley_1968]: https://doi.org/10.1137/0116060
+[research_culler_fried_1957]: https://doi.org/10.1063/1.1722828
 [research_edelbaum_1961]: https://doi.org/10.2514/8.5723
+[research_edelbaum_1966]: https://doi.org/10.2514/6.1966-7
+[research_flandro_1968]: https://doi.org/10.2514/3.29416
+[research_gobetz_doll_1969]: https://doi.org/10.2514/3.5231
+[research_gomez_et_al_2004]: https://doi.org/10.1088/0951-7715/17/5/002
+[research_gooding_1990]: https://doi.org/10.1007/BF00049511
+[research_hall_noca_bailey_2005]: https://doi.org/10.2514/1.4118
+[research_hill_1878]: https://doi.org/10.2307/2369430
+[research_hoelker_silber_1961]: https://doi.org/10.1016/0032-0633(61)90297-5
 [research_izzo_2014]: https://doi.org/10.1007/s10569-014-9587-y
+[research_jezewski_rozendaal_1968]: https://doi.org/10.2514/3.4949
+[research_kechichian_1997]: https://doi.org/10.2514/2.4145
+[research_koon_et_al_2000]: https://doi.org/10.1063/1.166509
+[research_koon_et_al_2001]: https://doi.org/10.1023/a:1013359120468
+[research_lancaster_blanchard_devaney_1966]: https://doi.org/10.2514/3.28673
+[research_lawden_1953]: https://doi.org/10.2514/8.4642
+[research_lawden_1959]: https://doi.org/10.1093/qjmam/12.4.476
+[research_lion_handelsman_1968]: https://doi.org/10.2514/3.4452
+[research_longuski_williams_1991]: https://doi.org/10.1007/bf00048484
+[research_malina_summerfield_1947]: https://doi.org/10.2514/8.1417
+[research_minovitch_1972]: https://doi.org/10.2514/3.30391
+[research_negri_prado_2020]: https://doi.org/10.1007/s40430-020-02489-x
+[research_petropoulos_longuski_2004]: https://doi.org/10.2514/1.13095
+[research_pontani_2009]: https://doi.org/10.2514/1.38143
+[research_prussing_1969]: https://doi.org/10.2514/3.5246
+[research_prussing_1970]: https://doi.org/10.2514/3.5876
+[research_russell_2007]: https://doi.org/10.2514/1.22984
+[research_schurmann_1957]: https://doi.org/10.2514/8.12965
+[research_spencer_tolson_2007]: https://doi.org/10.2514/1.24303
+[research_strange_longuski_2002]: https://doi.org/10.2514/2.3800
+[research_ting_1960]: https://doi.org/10.2514/8.5305
+[research_topputo_2013]: https://doi.org/10.1007/s10569-013-9513-8
+[research_tschauner_hempel_1965]: https://doi.org/10.2514/3.28287
+[research_yamanaka_ankersen_2002]: https://doi.org/10.2514/2.4875

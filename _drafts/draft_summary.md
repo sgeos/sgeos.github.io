@@ -52,6 +52,10 @@ with the inclination-cranking formula checked by a three-dimensional integration
 lines, 36 display equations, 48 references. A383 now 1,036 lines, 30 display equations, 25 references. A384 now 1,409
 lines, 25 display equations, 54 references. Later articles link to sections of earlier ones.
 
+**Citation density pass 2026-10-22.** Each of A381 to A384 now has a literature review section. Lines, display equations
+and references are 1,221, 31 and 73 for A381, 1,710, 36 and 88 for A382, 1,360, 30 and 67 for A383, and 1,733, 25 and
+90 for A384. Many added works are cited at title level because the OpenAlex quota ran out during the search.
+
 ## Mass Drivers A383 2026-08-19 DRAFTED
 
 `_drafts/mass_drivers.markdown`, A383, editorial date 2026-08-19, standalone analytical essay, categories

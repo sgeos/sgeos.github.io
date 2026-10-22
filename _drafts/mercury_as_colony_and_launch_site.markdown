@@ -235,6 +235,14 @@ the joint European and Japanese mission
 launched in October 2018 and is planned to enter Mercury orbit in November 2026,
 after one Earth flyby, two Venus flybys and six Mercury flybys
 [BepiColombo][ref_bepicolombo].
+It carries two orbiters,
+Mio from the Japanese space agency and the Mercury Planetary Orbiter from the European Space Agency
+[Benkhoff et al. 2021][research_benkhoff_et_al_2021].
+MESSENGER's trajectory design and manoeuvre strategy,
+and its mission design and navigation,
+are documented in detail
+[McAdams et al. 2006][research_mcadams_et_al_2006]
+[McAdams et al. 2007][research_mcadams_et_al_2007].
 A Hohmann flight of 105 days thus becomes a journey of several years.
 For a colony that must import people and equipment,
 that choice between a large delta-v and a long voyage is a real and permanent burden.
@@ -288,6 +296,16 @@ some exposed at the surface and some buried beneath dark deposits interpreted as
 [Paige et al. 2013][research_paige_et_al_2013].
 Water is the single most important import for a settlement,
 and Mercury has a local supply at its poles.
+Within 10 degrees of the north pole almost all craters larger than 10 kilometres host radar-bright deposits in persistently shadowed areas,
+and smaller deposits extend as far south as 66 degrees north
+[Chabot et al. 2013][research_chabot_et_al_2013].
+Images from inside the shadowed craters show widespread surface ice in Prokofiev crater,
+ice covered by a thin layer of dark,
+organic-rich material elsewhere,
+and sharp boundaries that indicate the deposits are geologically young
+[Chabot et al. 2014][research_chabot_et_al_2014].
+Laser altimetry of small craters in permanently shadowed regions has been used to constrain the thickness of the ice
+[Deutsch et al. 2018][research_deutsch_et_al_2018].
 
 Other conditions are less extreme than the reputation suggests.
 Surface gravity is about 3.7 metres per second squared
@@ -302,6 +320,11 @@ which Mariner 10 measured at about 1.1 percent of the strength of Earth's
 and which MESSENGER resolved as an offset dipole with a moment of about 195 nanotesla times the cube of Mercury's radius
 [Anderson et al. 2011][research_anderson_et_al_2011].
 The field is strong enough to deflect the solar wind but offers little shelter at the surface.
+MESSENGER observed magnetic reconnection in the magnetosphere
+[Slavin et al. 2009][research_slavin_et_al_2009]
+and bursts of electrons above 30 kiloelectronvolts but no energetic protons,
+because the weak field cannot hold Van Allen-type radiation belts
+[Ho et al. 2011][research_ho_et_al_2011].
 
 Radiation from solar storms is the clearest added hazard.
 Lario and coauthors fitted the radial dependence of solar energetic proton events measured within 1 AU by the two Helios spacecraft and by Interplanetary Monitoring Platform 8.
@@ -321,6 +344,15 @@ They also found that the longitude of the source region relative to the observer
 so these factors describe averages over many events rather than any single storm.
 Shielding by regolith addresses the problem at any distance,
 so the burden is the mass of the shielding rather than a hard limit on settlement.
+Solar energetic electrons enter Mercury's magnetosphere almost instantly,
+filling the regions of open field lines,
+and they carry enough energy to penetrate more than 1 millimetre of aluminium.
+MESSENGER measured precipitating fluxes of about 40 percent of the upstream level over the entire polar cap
+[Gershman et al. 2015][research_gershman_et_al_2015],
+which bears directly on polar sites chosen for their ice.
+MESSENGER was the first spacecraft since the two Helios probes to measure the interplanetary medium in place inside 0.5 AU,
+and it catalogued the coronal mass ejections that passed Mercury from 2011 to 2014
+[Winslow et al. 2015][research_winslow_et_al_2015].
 
 ### Bodies That Are Harder
 
@@ -749,6 +781,20 @@ so it gains the least from the same burn.
 Surviving such a perihelion also requires heat protection,
 and a combined heat shield and solar thermal propulsion system for an Oberth manoeuvre has been studied
 [Benkoski et al. 2023][research_benkoski_et_al_2023].
+Lyman and coauthors studied solar thermal propulsion for an interstellar probe,
+heating hydrogen to about 3,000 K at a perihelion of 3 to 4 solar radii,
+to reach an escape speed of about 20 AU per year with a probe of about 50 kilograms
+[Lyman et al. 2001][research_lyman_et_al_2001].
+That is about 95 kilometres per second,
+since 1 AU per year is 4.74 kilometres per second.
+Project Lyra studied sending a spacecraft to the interstellar object 1I/'Oumuamua
+[Hein et al. 2019][research_hein_et_al_2019],
+and a later study examined such a mission without a solar Oberth manoeuvre
+[Hibberd et al. 2022][research_hibberd_et_al_2022].
+By comparison,
+a low-altitude Jupiter flyby with a large launch vehicle can give heliocentric escape speeds above 8 AU per year,
+about 38 kilometres per second
+[Schlei et al. 2021][research_schlei_et_al_2021].
 For rocket-driven interstellar probes,
 Mercury is the worst starting point among the bodies considered here.
 
@@ -798,6 +844,15 @@ far more than anything Mercury's orbit alone provides.
 The sail must survive the light and heat at that distance in either case.
 
 ### Repeated Passes Near the Sun
+
+Bailer-Jones showed that combining a sail with an impulse that dives toward the Sun has a threshold.
+Once the available delta-v exceeds a value set by the sail's lightness number,
+the best strategy is to spend it all diving as close to the Sun as possible,
+and below the threshold the best strategy is not to dive at all
+[Bailer-Jones 2021][research_bailer_jones_2021].
+The Interstellar Heliopause Probe study used two passes at 0.25 AU,
+inside Mercury's perihelion
+[Lappas et al. 2005][research_lappas_et_al_2005].
 
 A sail held face-on to the Sun feels a purely radial force that falls as the inverse square of distance.
 That force only weakens the Sun's effective gravity,
@@ -908,6 +963,13 @@ not as a physically privileged starting orbit.
 ### Beamed Propulsion
 
 A laser-driven sail shifts the energy problem to the launch site.
+Directed energy can in principle push low-mass craft to relativistic speeds,
+with the diffraction of the beam limiting the maximum speed
+[Kulkarni, Lubin and Zhang 2018][research_kulkarni_lubin_zhang_2018],
+and Breakthrough Starshot has been modelled as a whole system
+[Parkin 2018][research_parkin_2018].
+A beamed sail that dives toward the Sun has also been proposed
+[Benford 2003][research_benford_2003].
 Breakthrough Starshot proposed light sails pushed to between 15 and 20 percent of light speed
 by a phased array of lasers with a combined output of up to 100 gigawatts
 [Breakthrough Starshot][ref_breakthrough_starshot].
@@ -937,6 +999,10 @@ and a slow rotation that keeps a site facing a given direction in the sky for we
 No vulcanoid asteroids inside Mercury's orbit have been found
 [Vulcanoid][ref_vulcanoid],
 so Mercury is the only known large source of material that close to the Sun.
+Long-lived asteroid belts in the inner solar system have been proposed as possible
+[Evans and Tabachnik 1999][research_evans_tabachnik_1999],
+and the STEREO heliospheric imagers have been used to search for them
+[Steffl et al. 2013][research_steffl_et_al_2013].
 
 ### Communication Geometry
 
@@ -1102,7 +1168,7 @@ The advantages follow.
 
 - The densest sunlight available on a solid body, 6.25 to 14.4 kilowatts per square metre over an orbit.
 - Water ice in permanently shadowed polar craters, confirmed by several independent measurements.
-- A large iron-rich core, which occupies about 57 percent of the planet's volume, against 17 percent for Earth [Mercury][ref_mercury], with a model of a solid crust and mantle over a solid iron-sulfide layer and an iron-rich liquid outer core [Smith et al. 2012][research_smith_et_al_2012].
+- A large iron-rich core, which occupies about 57 percent of the planet's volume, against 17 percent for Earth [Mercury][ref_mercury], with a model of a solid crust and mantle over a solid iron-sulfide layer and an iron-rich liquid outer core [Smith et al. 2012][research_smith_et_al_2012]. The top of the liquid core lies at a radius of 2,020 ± 30 kilometres [Hauck et al. 2013][research_hauck_et_al_2013], and geodetic data indicate a solid inner core [Genova et al. 2019][research_genova_et_al_2019]. The top of the core lies about 420 kilometres down, far below any plausible mine, and the surface itself is low in iron and at least ten times richer in sulfur than the silicate Earth or Moon [Nittler et al. 2011][research_nittler_et_al_2011], so the iron-rich core is not by itself an accessible resource.
 - An escape speed of 4.25 kilometres per second with no atmosphere, which allows mass drivers.
 - The lowest sunlight-collection cost per kilogram among the bodies compared for mass-driver launches that escape the Sun or dive toward it.
 - Launch windows to the outer planets about every three months.
@@ -1131,6 +1197,18 @@ $$
 T_{\mathrm{panel}} = \left[\frac{\left(\alpha_{p} - \eta\right) S}{2\,\varepsilon_{p}\,\sigma}\right]^{1/4}
 $$
 
+MESSENGER met this problem by interleaving its solar cells with optical solar reflector mirrors at one cell to two mirrors,
+to reduce the panels' absorbance,
+and by tilting the panels away from the Sun as the light grew stronger
+[Dakermanji, Jenkins and Ercol 2006][research_dakermanji_jenkins_ercol_2006].
+Its high-temperature technologies spanned telecommunications,
+power,
+guidance
+and thermal control
+[Ercol 2007][research_ercol_2007],
+and BepiColombo's multilayer insulation was described as a design at the edge of material capability
+[Moser et al. 2010][research_moser_et_al_2010].
+
 ## Verdict on the Hypothesis
 
 <div style="overflow-x: auto;" markdown="1">
@@ -1144,6 +1222,153 @@ $$
 | Broader form, the innermost body of any star | Supported within each system for launch powered by starlight, conditionally | Collector time scales as $M r/L$, but sail performance scales as $L^{1/4}$, rockets are always penalized, and the innermost body may have no surface |
 
 </div>
+
+## A Review of the Literature
+
+The literature relevant to a Mercury base falls into two bodies of work that rarely cite each other.
+One is the planetary science of Mercury from MESSENGER and BepiColombo,
+and the other is the study of fast and interstellar missions that use the Sun's proximity.
+This section surveys both by topic.
+Where a work's abstract was available its findings are stated,
+and where only its title was available it is described by its title alone.
+
+### Missions to Mercury
+
+MESSENGER's mission is described by Solomon and coauthors
+[Solomon et al. 2007][research_solomon_et_al_2007],
+and its trajectory and navigation by McAdams and coauthors
+[McAdams et al. 2006][research_mcadams_et_al_2006]
+[McAdams et al. 2007][research_mcadams_et_al_2007].
+BepiColombo's goals were set out in 2010
+[Benkhoff et al. 2010][research_benkhoff_et_al_2010]
+and its mission overview,
+including the global characterization of the interior,
+surface,
+exosphere
+and magnetosphere,
+in 2021
+[Benkhoff et al. 2021][research_benkhoff_et_al_2021].
+
+### Polar Volatiles
+
+Radar first revealed reflective polar material
+[Slade, Butler and Muhleman 1992][research_slade_butler_muhleman_1992],
+thermal models showed where ice could survive
+[Vasavada 1999][research_vasavada_1999],
+and MESSENGER's neutron,
+laser
+and thermal studies confirmed water ice at the north pole
+[Lawrence et al. 2013][research_lawrence_et_al_2013]
+[Neumann et al. 2013][research_neumann_et_al_2013]
+[Paige et al. 2013][research_paige_et_al_2013].
+Chabot and coauthors tied the radar-bright deposits to persistent shadow
+[Chabot et al. 2013][research_chabot_et_al_2013]
+and imaged them directly
+[Chabot et al. 2014][research_chabot_et_al_2014],
+and Deutsch and coauthors constrained their thickness
+[Deutsch et al. 2018][research_deutsch_et_al_2018].
+
+### Composition, Volatiles and Interior
+
+Nittler and coauthors found a surface that rules out a lunar-like feldspar-rich crust,
+with sulfur at least ten times the level in Earth's silicates and low iron,
+pointing to highly reduced precursor materials
+[Nittler et al. 2011][research_nittler_et_al_2011],
+and later mapped the major elements globally
+[Nittler et al. 2020][research_nittler_et_al_2020].
+Peplowski and coauthors measured potassium at 1,150 ± 220 parts per million,
+thorium at 220 ± 60 parts per billion
+and uranium at 90 ± 20 parts per billion,
+consistent with formation from volatile-bearing material like chondritic meteorites
+[Peplowski et al. 2011][research_peplowski_et_al_2011].
+Blewett and coauthors found hollows from tens of metres to a few kilometres across,
+attributed to recent loss of volatiles
+[Blewett et al. 2011][research_blewett_et_al_2011].
+Domingue and coauthors reviewed space weathering,
+finding that the processes that weather the surface are the same as those that form the exosphere,
+and that impacts produce more than an order of magnitude more melt and vapour than on the Moon
+[Domingue et al. 2014][research_domingue_et_al_2014].
+The interior is constrained by gravity and spin
+[Smith et al. 2012][research_smith_et_al_2012]
+[Margot et al. 2012][research_margot_et_al_2012],
+by the structure models of Hauck and coauthors
+[Hauck et al. 2013][research_hauck_et_al_2013],
+and by geodetic evidence for a solid inner core with a moment of inertia of 0.333 ± 0.005
+[Genova et al. 2019][research_genova_et_al_2019].
+
+### The Space Environment
+
+The magnetic field
+[Anderson et al. 2011][research_anderson_et_al_2011],
+reconnection in the magnetosphere
+[Slavin et al. 2009][research_slavin_et_al_2009],
+energetic electron bursts
+[Ho et al. 2011][research_ho_et_al_2011]
+and the entry of solar energetic electrons
+[Gershman et al. 2015][research_gershman_et_al_2015]
+define the radiation environment near the planet.
+The radial scaling of solar energetic proton events comes from Helios
+[Lario et al. 2006][research_lario_et_al_2006],
+and coronal mass ejections inside 0.5 AU from MESSENGER
+[Winslow et al. 2015][research_winslow_et_al_2015].
+The exosphere is reviewed by Killen and coauthors
+[Killen et al. 2007][research_killen_et_al_2007],
+and its seasonal sodium component was observed from orbit
+[Cassidy et al. 2015][research_cassidy_et_al_2015].
+
+### Engineering for the Inner Solar System
+
+MESSENGER's solar arrays
+[Dakermanji, Jenkins and Ercol 2006][research_dakermanji_jenkins_ercol_2006]
+and its other high-temperature technologies
+[Ercol 2007][research_ercol_2007],
+BepiColombo's insulation
+[Moser et al. 2010][research_moser_et_al_2010],
+the Parker Solar Probe
+[Fox et al. 2015][research_fox_et_al_2015],
+and a combined heat shield and solar thermal engine for an Oberth manoeuvre
+[Benkoski et al. 2023][research_benkoski_et_al_2023]
+show how hardware survives near the Sun.
+Launch of lunar ice by an electromagnetic accelerator has been studied
+[Beemer and McNab 2023][research_beemer_mcnab_2023].
+
+### Settlement and Resources
+
+Palaszewski analysed human and robotic missions to Mercury,
+including landers whose chemical propulsion is enhanced by in-situ resources
+[Palaszewski 2015][research_palaszewski_2015].
+No peer-reviewed journal article on settling Mercury was found,
+so the settlement analysis in this article rests on the physics derived here.
+The search for vulcanoids
+[Evans and Tabachnik 1999][research_evans_tabachnik_1999]
+[Steffl et al. 2013][research_steffl_et_al_2013]
+bears on whether Mercury is the only source of material near the Sun.
+
+### Fast and Interstellar Missions from near the Sun
+
+McNutt and coauthors made the case for a near-term interstellar probe
+[McNutt et al. 2019][research_mcnutt_et_al_2019],
+and Schlei and coauthors found escape speeds above 8 AU per year with a Jupiter flyby,
+for a journey of about 120 AU to the interstellar medium
+[Schlei et al. 2021][research_schlei_et_al_2021].
+Close-perihelion alternatives include solar thermal propulsion
+[Lyman et al. 2001][research_lyman_et_al_2001],
+the Project Lyra studies
+[Hein et al. 2019][research_hein_et_al_2019]
+[Hibberd et al. 2022][research_hibberd_et_al_2022],
+the sun diver that combines a sail with a dive
+[Bailer-Jones 2021][research_bailer_jones_2021],
+a beamed sun-diver
+[Benford 2003][research_benford_2003],
+and the solar sail heliopause probe
+[Lappas et al. 2005][research_lappas_et_al_2005]
+[Lyngvi et al. 2005][research_lyngvi_et_al_2005].
+Directed-energy propulsion
+[Kulkarni, Lubin and Zhang 2018][research_kulkarni_lubin_zhang_2018]
+[Parkin 2018][research_parkin_2018]
+is treated in the companion article on solar sailing.
+None of these studies proposes Mercury as a base,
+and the connection made in this article between them and Mercury is its own inference.
 
 ## Epistemic State
 
@@ -1172,15 +1397,39 @@ and Lario
 are taken from their abstracts as recorded by OpenAlex.
 For the three 2013 polar ice papers the record available was the journal's shared editorial summary,
 which states the joint conclusion rather than each paper's separate result.
+The findings of the works added in the literature review are taken from their abstracts where the text states them,
+for the groups led by Chabot,
+Nittler 2011,
+Peplowski,
+Blewett,
+Domingue,
+Hauck,
+Genova,
+Ho,
+Gershman,
+Winslow,
+Benkhoff 2021,
+Dakermanji,
+Ercol,
+McNutt,
+Schlei,
+Lappas,
+Lyman
+and Kulkarni,
+and of Bailer-Jones and Palaszewski.
+The work of Slavin and coauthors is cited only for its title,
+because the available summary is an editor's note rather than the authors' abstract.
 The paper of Vasavada,
 the papers of the groups led by Solomon,
-Benkhoff,
+Benkhoff 2010,
 Fox
 and Benkoski,
 the paper of Beemer and McNab,
-and the book by McInnes,
+the book by McInnes,
+and every other work in the literature review,
 are cited only for what their titles state,
 because no abstract was retrievable.
+The conversion of 20 and 8 AU per year to about 95 and 38 kilometres per second is computed here.
 None of the sources was read in full.
 
 **Analysis in this article.**
@@ -1226,6 +1475,9 @@ A different weighting,
 for example one dominated by the cost of energy,
 would move the verdict on Part Two A toward support.
 The proposal of a mobile settlement following the terminator is an inference from the terminator speed and has not been evaluated.
+The judgment that Mercury's iron-rich core is not an accessible resource is an inference from its depth,
+computed here as the planet's radius less the core radius,
+and from the low surface iron.
 The alignment limit on a fixed launch track and the permanent alignment on a tidally locked planet are inferences from geometry.
 The sorting of properties into those of distance and those of the body is a judgment,
 and the polar ice in particular depends on both,
@@ -1338,20 +1590,56 @@ would face the same choice of origin.
 - [Related Post, Venus Cloudtop Buoyant Analog][related_post_venus_cloudtop]
 - [Related Post, Von Neumann Probes][related_post_von_neumann_probes]
 - [Research, Anderson et al. 2011, The Global Magnetic Field of Mercury from MESSENGER Orbital Observations][research_anderson_et_al_2011]
+- [Research, Bailer-Jones 2021, The Sun Diver, Combining Solar Sails with the Oberth Effect][research_bailer_jones_2021]
 - [Research, Beemer and McNab 2023, Launch Parameters of a Lunar Ice Payload Traveling via Electromagnetic Mass Accelerator][research_beemer_mcnab_2023]
+- [Research, Benford 2003, Near-Term Beamed Sail Propulsion Missions, Cosmos-1 and Sun-Diver][research_benford_2003]
 - [Research, Benkhoff et al. 2010, BepiColombo, Comprehensive Exploration of Mercury, Mission Overview and Science Goals][research_benkhoff_et_al_2010]
+- [Research, Benkhoff et al. 2021, BepiColombo, Mission Overview and Science Goals][research_benkhoff_et_al_2021]
 - [Research, Benkoski et al. 2023, Combined Heat Shield and Solar Thermal Propulsion System for an Oberth Maneuver][research_benkoski_et_al_2023]
+- [Research, Blewett et al. 2011, Hollows on Mercury, MESSENGER Evidence for Geologically Recent Volatile-Related Activity][research_blewett_et_al_2011]
+- [Research, Cassidy et al. 2015, Mercury's Seasonal Sodium Exosphere, MESSENGER Orbital Observations][research_cassidy_et_al_2015]
+- [Research, Chabot et al. 2013, Craters Hosting Radar-Bright Deposits in Mercury's North Polar Region][research_chabot_et_al_2013]
+- [Research, Chabot et al. 2014, Images of Surface Volatiles in Mercury's Polar Craters Acquired by the MESSENGER Spacecraft][research_chabot_et_al_2014]
+- [Research, Dakermanji, Jenkins and Ercol 2006, The MESSENGER Spacecraft Solar Array Design and Early Mission Performance][research_dakermanji_jenkins_ercol_2006]
+- [Research, Deutsch et al. 2018, Constraining the Thickness of Polar Ice Deposits on Mercury Using the Mercury Laser Altimeter and Small Craters in Permanently Shadowed Regions][research_deutsch_et_al_2018]
+- [Research, Domingue et al. 2014, Mercury's Weather-Beaten Surface, Understanding Mercury in the Context of Lunar and Asteroidal Space Weathering Studies][research_domingue_et_al_2014]
+- [Research, Ercol 2007, MESSENGER Heritage, High Temperature Technologies for Inner Solar System Spacecraft][research_ercol_2007]
+- [Research, Evans and Tabachnik 1999, Possible Long-Lived Asteroid Belts in the Inner Solar System][research_evans_tabachnik_1999]
 - [Research, Fox et al. 2015, The Solar Probe Plus Mission, Humanity's First Visit to Our Star][research_fox_et_al_2015]
+- [Research, Genova et al. 2019, Geodetic Evidence That Mercury Has a Solid Inner Core][research_genova_et_al_2019]
+- [Research, Gershman et al. 2015, MESSENGER Observations of Solar Energetic Electrons Within Mercury's Magnetosphere][research_gershman_et_al_2015]
+- [Research, Hauck et al. 2013, The Curious Case of Mercury's Internal Structure][research_hauck_et_al_2013]
+- [Research, Hein et al. 2019, Project Lyra, Sending a Spacecraft to 1I/'Oumuamua, the Interstellar Asteroid][research_hein_et_al_2019]
+- [Research, Hibberd et al. 2022, Project Lyra, A Mission to 1I/'Oumuamua without Solar Oberth Manoeuvre][research_hibberd_et_al_2022]
+- [Research, Ho et al. 2011, MESSENGER Observations of Transient Bursts of Energetic Electrons in Mercury's Magnetosphere][research_ho_et_al_2011]
+- [Research, Killen et al. 2007, Processes that Promote and Deplete the Exosphere of Mercury][research_killen_et_al_2007]
 - [Research, Kopp and Lean 2011, A New, Lower Value of Total Solar Irradiance, Evidence and Climate Significance][research_kopp_lean_2011]
+- [Research, Kulkarni, Lubin and Zhang 2018, Relativistic Spacecraft Propelled by Directed Energy][research_kulkarni_lubin_zhang_2018]
+- [Research, Lappas et al. 2005, Interstellar Heliopause Probe, System Design of a Solar Sail Mission to 200 AU][research_lappas_et_al_2005]
 - [Research, Lario et al. 2006, Radial and Longitudinal Dependence of Solar 4 to 13 MeV and 27 to 37 MeV Proton Peak Intensities and Fluences, Helios and IMP 8 Observations][research_lario_et_al_2006]
 - [Research, Lawrence et al. 2013, Evidence for Water Ice Near Mercury's North Pole from MESSENGER Neutron Spectrometer Measurements][research_lawrence_et_al_2013]
+- [Research, Lyman et al. 2001, Solar Thermal Propulsion for an Interstellar Probe][research_lyman_et_al_2001]
+- [Research, Lyngvi et al. 2005, The Interstellar Heliopause Probe][research_lyngvi_et_al_2005]
 - [Research, Margot et al. 2012, Mercury's Moment of Inertia from Spin and Gravity Data][research_margot_et_al_2012]
+- [Research, McAdams et al. 2006, Trajectory Design and Maneuver Strategy for the MESSENGER Mission to Mercury][research_mcadams_et_al_2006]
+- [Research, McAdams et al. 2007, MESSENGER Mission Design and Navigation][research_mcadams_et_al_2007]
+- [Research, McNutt et al. 2019, Near-Term Interstellar Probe, First Step][research_mcnutt_et_al_2019]
+- [Research, Moser et al. 2010, High Temperature Multilayer Insulation for the BepiColombo Spacecraft, a Design at the Edge of Material Capability][research_moser_et_al_2010]
 - [Research, Neumann et al. 2013, Bright and Dark Polar Deposits on Mercury, Evidence for Surface Volatiles][research_neumann_et_al_2013]
+- [Research, Nittler et al. 2011, The Major-Element Composition of Mercury's Surface from MESSENGER X-ray Spectrometry][research_nittler_et_al_2011]
+- [Research, Nittler et al. 2020, Global Major-Element Maps of Mercury from Four Years of MESSENGER X-Ray Spectrometer Observations][research_nittler_et_al_2020]
 - [Research, Paige et al. 2013, Thermal Stability of Volatiles in the North Polar Region of Mercury][research_paige_et_al_2013]
+- [Research, Palaszewski 2015, Solar System Exploration Augmented by In-Situ Resource Utilization, Human Mercury and Saturn Exploration][research_palaszewski_2015]
+- [Research, Parkin 2018, The Breakthrough Starshot System Model][research_parkin_2018]
+- [Research, Peplowski et al. 2011, Radioactive Elements on Mercury's Surface from MESSENGER, Implications for the Planet's Formation and Evolution][research_peplowski_et_al_2011]
+- [Research, Schlei et al. 2021, Pragmatic Trajectory Options Applicable to an Interstellar Probe Mission][research_schlei_et_al_2021]
 - [Research, Slade, Butler and Muhleman 1992, Mercury Radar Imaging, Evidence for Polar Ice][research_slade_butler_muhleman_1992]
+- [Research, Slavin et al. 2009, MESSENGER Observations of Magnetic Reconnection in Mercury's Magnetosphere][research_slavin_et_al_2009]
 - [Research, Smith et al. 2012, Gravity Field and Internal Structure of Mercury from MESSENGER][research_smith_et_al_2012]
 - [Research, Solomon et al. 2007, MESSENGER Mission Overview][research_solomon_et_al_2007]
+- [Research, Steffl et al. 2013, A Search for Vulcanoids with the STEREO Heliospheric Imager][research_steffl_et_al_2013]
 - [Research, Vasavada 1999, Near-Surface Temperatures on Mercury and the Moon and the Stability of Polar Ice Deposits][research_vasavada_1999]
+- [Research, Winslow et al. 2015, Interplanetary Coronal Mass Ejections from MESSENGER Orbital Observations at Mercury][research_winslow_et_al_2015]
 
 [book_mcinnes_1999]: https://doi.org/10.1007/978-1-4471-3992-8
 [ref_51_pegasi_b]: https://en.wikipedia.org/wiki/51_Pegasi_b
@@ -1393,17 +1681,53 @@ would face the same choice of origin.
 [related_post_venus_cloudtop]: {% post_url 2026-07-06-venus_cloudtop_buoyant_analog %}
 [related_post_von_neumann_probes]: {% post_url 2026-03-05-von_neumann_probes %}
 [research_anderson_et_al_2011]: https://doi.org/10.1126/science.1211001
+[research_bailer_jones_2021]: https://doi.org/10.1119/10.0002178
 [research_beemer_mcnab_2023]: https://doi.org/10.1016/j.actaastro.2023.02.041
+[research_benford_2003]: https://doi.org/10.1063/1.1582124
 [research_benkhoff_et_al_2010]: https://doi.org/10.1016/j.pss.2009.09.020
+[research_benkhoff_et_al_2021]: https://doi.org/10.1007/s11214-021-00861-4
 [research_benkoski_et_al_2023]: https://doi.org/10.2514/1.b38595
+[research_blewett_et_al_2011]: https://doi.org/10.1126/science.1211681
+[research_cassidy_et_al_2015]: https://doi.org/10.1016/j.icarus.2014.10.037
+[research_chabot_et_al_2013]: https://doi.org/10.1029/2012je004172
+[research_chabot_et_al_2014]: https://doi.org/10.1130/g35916.1
+[research_dakermanji_jenkins_ercol_2006]: https://doi.org/10.1109/wcpec.2006.279872
+[research_deutsch_et_al_2018]: https://doi.org/10.1016/j.icarus.2018.01.013
+[research_domingue_et_al_2014]: https://doi.org/10.1007/s11214-014-0039-5
+[research_ercol_2007]: https://doi.org/10.2514/6.2007-6188
+[research_evans_tabachnik_1999]: https://doi.org/10.1038/19919
 [research_fox_et_al_2015]: https://doi.org/10.1007/s11214-015-0211-6
+[research_genova_et_al_2019]: https://doi.org/10.1029/2018gl081135
+[research_gershman_et_al_2015]: https://doi.org/10.1002/2015ja021610
+[research_hauck_et_al_2013]: https://doi.org/10.1002/jgre.20091
+[research_hein_et_al_2019]: https://doi.org/10.1016/j.actaastro.2018.12.042
+[research_hibberd_et_al_2022]: https://doi.org/10.1016/j.actaastro.2022.07.032
+[research_ho_et_al_2011]: https://doi.org/10.1126/science.1211141
+[research_killen_et_al_2007]: https://doi.org/10.1007/s11214-007-9232-0
 [research_kopp_lean_2011]: https://doi.org/10.1029/2010GL045777
+[research_kulkarni_lubin_zhang_2018]: https://doi.org/10.3847/1538-3881/aaafd2
+[research_lappas_et_al_2005]: https://doi.org/10.2514/6.2005-6084
 [research_lario_et_al_2006]: https://doi.org/10.1086/508982
 [research_lawrence_et_al_2013]: https://doi.org/10.1126/science.1229953
+[research_lyman_et_al_2001]: https://doi.org/10.2514/6.2001-3377
+[research_lyngvi_et_al_2005]: https://doi.org/10.1016/j.actaastro.2005.03.042
 [research_margot_et_al_2012]: https://doi.org/10.1029/2012JE004161
+[research_mcadams_et_al_2006]: https://doi.org/10.2514/1.18178
+[research_mcadams_et_al_2007]: https://doi.org/10.1007/s11214-007-9162-x
+[research_mcnutt_et_al_2019]: https://doi.org/10.1016/j.actaastro.2019.06.013
+[research_moser_et_al_2010]: https://doi.org/10.2514/6.2010-6091
 [research_neumann_et_al_2013]: https://doi.org/10.1126/science.1229764
+[research_nittler_et_al_2011]: https://doi.org/10.1126/science.1211567
+[research_nittler_et_al_2020]: https://doi.org/10.1016/j.icarus.2020.113716
 [research_paige_et_al_2013]: https://doi.org/10.1126/science.1231106
+[research_palaszewski_2015]: https://doi.org/10.2514/6.2015-1654
+[research_parkin_2018]: https://doi.org/10.1016/j.actaastro.2018.08.035
+[research_peplowski_et_al_2011]: https://doi.org/10.1126/science.1211576
+[research_schlei_et_al_2021]: https://doi.org/10.1109/aero50100.2021.9438398
 [research_slade_butler_muhleman_1992]: https://doi.org/10.1126/science.258.5082.635
+[research_slavin_et_al_2009]: https://doi.org/10.1126/science.1172011
 [research_smith_et_al_2012]: https://doi.org/10.1126/science.1218809
 [research_solomon_et_al_2007]: https://doi.org/10.1007/978-0-387-77214-1_1
+[research_steffl_et_al_2013]: https://doi.org/10.1016/j.icarus.2012.11.031
 [research_vasavada_1999]: https://doi.org/10.1006/icar.1999.6175
+[research_winslow_et_al_2015]: https://doi.org/10.1002/2015ja021200

@@ -44,6 +44,12 @@ At the end of the track the bucket and payload separate,
 and the bucket is slowed and recycled for the next launch.
 A related design uses linear induction motors of the kind used for the electromagnetic aircraft launch system on modern carriers
 [Mass Driver][ref_mass_driver].
+The United States Navy built a prototype electromagnetic catapult in the 1940s,
+and advances in pulsed power,
+power conditioning,
+energy storage
+and controls later made a fieldable aircraft launch system credible
+[Doyle et al. 1995][research_doyle_et_al_1995].
 A coilgun is the same idea at small scale,
 and a railgun drives its projectile by a current through two rails rather than through coils
 [Coilgun][ref_coilgun]
@@ -67,7 +73,22 @@ Kolm's reference design for a basic coaxial mass driver explained the principles
 and expected even a table-top system to reach accelerations near 1,000 metres per second squared
 [Kolm 1977][research_kolm_1977].
 The application that motivated this work was the transport of lunar material to space habitats
-[Mass Driver][ref_mass_driver].
+[Mass Driver][ref_mass_driver],
+which O'Neill had argued could be built more comfortable,
+productive
+and attractive than much of Earth
+[O'Neill 1974][research_oneill_1974].
+Kolm,
+Mongeau
+and Williams surveyed electromagnetic launchers in 1980.
+They described the railgun,
+in which a sliding short circuit or an arc is driven along two rails by direct current,
+as the simplest launcher of interest,
+and the mass driver,
+in which a superconducting bucket is accelerated by pulse coils energized by capacitors,
+as the most sophisticated,
+with energy conversion efficiencies better than 90 percent
+[Kolm et al. 1980][research_kolm_et_al_1980].
 
 On Earth the atmosphere and gravity dominate the problem.
 McNab estimated that a railgun launching directly to orbit would need muzzle speeds of at least 7.5 kilometres per second,
@@ -79,6 +100,9 @@ and raw material could be launched
 The StarTram concept accelerates cargo craft in an evacuated tunnel,
 and a small rocket burn after release establishes orbit
 [Powell and Maise 2008][research_powell_maise_2008].
+In the authors' projections a single facility of that kind could launch over 100,000 tonnes a year
+at under 50 dollars per kilogram of payload
+[Powell et al. 2008][research_powell_et_al_2008].
 Wikipedia's summary makes the same point,
 that well under a tenth of orbital speed from a small rocket is enough to raise perigee after release
 [Mass Driver][ref_mass_driver].
@@ -90,6 +114,10 @@ throwing pieces of material backward
 One such design study for a Space Shuttle upper stage threw 14 gram segments at 8 to 10 kilometres per second
 with a thrust of 560 newtons from 2.9 megawatts at 75 percent efficiency
 [Unattributed 1977][research_mass_driver_reaction_engine_1977].
+Snow and Dunbar proposed such an engine for moving payloads of hundreds to thousands of tonnes between low Earth orbit and geosynchronous orbit,
+with reaction mass of virtually any liquid or solid material,
+and discussed its debris hazard and its effects on the ionosphere
+[Snow and Dunbar 1982][research_snow_dunbar_1982].
 This article treats only fixed mass drivers on the surface of a body.
 
 ## Principles and Parametric Equations
@@ -136,6 +164,13 @@ $$
 In a railgun the inductance grows as the projectile lengthens the circuit,
 and in a coilgun it changes as the carrier enters and leaves each coil.
 Every design is a way of making $d\mathcal{L}/dx$ large and keeping $I$ high without destroying the conductors.
+Rashleigh and Marshall reached 5.9 kilometres per second with an arc armature in an inductively driven railgun,
+and found that simple theory predicted its performance
+[Rashleigh and Marshall 1978][research_rashleigh_marshall_1978].
+In a coilgun the coils are energized in sequence to create a travelling magnetic wave,
+the projectile's position is tracked to trigger each coil,
+and timing jitter in the switches limits performance at high speed
+[Kaye 2005][research_kaye_2005].
 
 ### Release in the Inertial Frame
 
@@ -279,6 +314,11 @@ skimming the ground or striking whatever terrain stands there.
 A payload released even slightly upward has its periapsis below the surface and strikes the ground before completing the revolution.
 A mass driver can therefore never place a payload in a lasting orbit around its own body by itself.
 At least one burn by the payload after release is required.
+Janhunen states the same result for the Moon,
+that a passive object launched below escape speed orbits once and crashes back at the launch site,
+and finds that lunar gravity anomalies can keep a passive projectile in orbit for up to 9 Earth days,
+long enough for a catcher to intercept it
+[Janhunen 2025][research_janhunen_2025].
 
 The numbers for the Moon show how unforgiving this is.
 Released horizontally at the surface with enough speed to rise to 100 kilometres at apoapsis,
@@ -711,7 +751,13 @@ over 6 kilometres per second at Earth from the asteroid belt,
 by an engine burn,
 by aerocapture where there is an atmosphere,
 or by some catching device at the destination,
-an option this article does not analyse.
+an option this article does not analyse beyond the literature reviewed below.
+Payloads in the classic lunar scheme carried no midcourse correction of their own,
+and Heppenheimer,
+Ross
+and Hannah proposed trimming their velocity with electrostatic fields at the launcher,
+with arcing from loose dust as the most serious problem
+[Heppenheimer et al. 1982a][research_heppenheimer_et_al_1982a].
 Wikipedia describes a related idea in which a mass driver on a spacecraft reflects masses thrown from a stationary one
 [Mass Driver][ref_mass_driver].
 A mass driver therefore replaces the departure burn,
@@ -892,6 +938,182 @@ and the bucket is then slowed
 [Mass Driver][ref_mass_driver].
 Any difference in their speeds or directions at separation becomes a release error of the kind analysed above.
 
+## A Review of the Literature
+
+The literature on mass drivers began with the space settlement studies of the 1970s,
+moved into military and naval electromagnetic launch in the 1980s and 1990s,
+and has returned to lunar resources in the 2010s and 2020s.
+This section surveys it by topic.
+Where a work's abstract was available its findings are stated,
+and where only its title was available it is described by its title alone.
+
+### Origins and the Space Settlement Programme
+
+O'Neill's 1974 article argued for space habitats
+[O'Neill 1974][research_oneill_1974].
+Heppenheimer gave an early existence proof for transporting lunar material,
+with payloads accelerated to lunar escape by a magnetically levitated mass driver driven by a linear synchronous motor
+and received by a catcher in a mode he likened to a Venus flytrap.
+He found that each millimetre per second of velocity error at the lunar surface produced a miss of 1 kilometre at the fifth Lagrange point
+[Heppenheimer 1975][research_heppenheimer_1975].
+Chilton presented mass driver theory and history
+[Chilton 1977][research_chilton_1977]
+alongside Kolm's reference design
+[Kolm 1977][research_kolm_1977].
+The Mass Driver Two prototype used a superconducting bucket with two niobium-titanium coils of 44 kilo-ampere-turns,
+energized inductively and injected by normal-conductor pulse coils
+[Fine et al. 1979][research_fine_et_al_1979].
+O'Neill and Kolm wrote on high-acceleration mass drivers in 1980
+[O'Neill and Kolm 1980][research_oneill_kolm_1980],
+and O'Neill reported on their development in 1981
+[O'Neill 1981][research_oneill_1981].
+
+### Launcher Physics and Technology
+
+Kolm,
+Mongeau
+and Williams surveyed the launcher types and their applications,
+including lunar and asteroid mining
+[Kolm et al. 1980][research_kolm_et_al_1980].
+Rashleigh and Marshall's railgun experiment established that simple theory predicts railgun performance up to 5.9 kilometres per second
+[Rashleigh and Marshall 1978][research_rashleigh_marshall_1978].
+Fair launched a programme on electromagnetic propulsion in 1982
+[Fair 1982][research_fair_1982],
+reviewed the field's move into engineering programmes such as naval aircraft launch and shipboard guns in 2005
+[Fair 2005][research_fair_2005],
+and noted in 2008 renewed interest in launching material to orbit and beyond,
+with the interface between rail and armature as a central research problem
+[Fair 2008][research_fair_2008].
+Kaye described Sandia coilguns launching projectiles of 10 grams to 5 kilograms at up to 1 kilometre per second
+[Kaye 2005][research_kaye_2005],
+and Doyle and coauthors described the naval electromagnetic aircraft launch system
+[Doyle et al. 1995][research_doyle_et_al_1995].
+
+### Launch from Earth
+
+Hawke,
+Brooks,
+Fowler
+and Peterson gave an example design of an Earth-based railgun able to launch projectiles through the atmosphere at more than 8 kilometres per second
+[Hawke et al. 1981][research_hawke_et_al_1981].
+Hunter and Hyde proposed a light gas gun for launching building material into low Earth orbit
+[Hunter and Hyde 1989][research_hunter_hyde_1989],
+and Mankins presented electromagnetic launch as one strategy for reducing launch costs
+[Mankins 1994][research_mankins_1994].
+Turman and Lipinski found that a coilgun launching hardened satellites of 100 to 1,000 kilograms to low Earth orbit
+would need 40 to 260 gigajoules and 20 to 400 gigawatts of electric power,
+with a launcher 1 to 2 kilometres long
+[Turman and Lipinski 1996][research_turman_lipinski_1996].
+McNab's 2003 study is described above
+[McNab 2003][research_mcnab_2003].
+Schmidt studied railgun launch to low Earth orbit for hardened material with a total flight mass of 1,000 kilograms,
+using lifting bodies to reduce the burden of drag
+[Schmidt 2006][research_schmidt_2006].
+Powell and coauthors described StarTram as an international facility for magnetic launch
+[Powell et al. 2006][research_powell_et_al_2006]
+and projected that its first generation could accelerate cargo craft of about 40 tonnes to 8 kilometres per second,
+leaving the tunnel at an altitude of at least 4,000 metres
+[Powell et al. 2008][research_powell_et_al_2008]
+[Powell and Maise 2008][research_powell_maise_2008].
+McNab reported 5.2 kilometres per second in a 7 metre augmented railgun with a plasma armature,
+11 kilometres per second with a plasma arc in a five-stage system,
+and an acceptable nosetip ablation of about 15 millimetres for a projectile leaving through the atmosphere
+[McNab 2009][research_mcnab_2009].
+Bolonkin and Krinker proposed a railgun launcher powered by a flywheel and a homopolar generator
+[Bolonkin and Krinker 2010][research_bolonkin_krinker_2010].
+
+### Lunar Launchers
+
+Snow,
+Kubby
+and Dunbar proposed a simplified version of O'Neill's approach,
+launching 125 kilogram containers with their own kick motors into a transfer orbit,
+with an initial capability of about 500 tonnes of liquid oxygen a year delivered to low Earth orbit
+[Snow et al. 1981][research_snow_et_al_1981].
+Bilby,
+Nozette
+and Kolm formulated a superconducting quenchgun that stores its energy in the launcher itself
+[Bilby et al. 1989][research_bilby_et_al_1989].
+Lipinski and coauthors designed a 200 metre lunar coilgun launching at 2.33 kilometres per second every 30 minutes,
+delivering 867 tonnes of lunar oxygen a year
+[Lipinski et al. 1993][research_lipinski_et_al_1993].
+Seybold and Fowler studied a lunar mass driver for sending cargo to Mars
+[Seybold and Fowler 1994][research_seybold_fowler_1994].
+Wright,
+Kuznetsov
+and Kloesel reassessed lunar electromagnetic launch within NASA's exploration architecture,
+and concluded that it is not as favourable as originally suggested
+[Wright et al. 2011][research_wright_et_al_2011].
+Roesler estimated the mass of a lunar resource launcher from two mature terrestrial electromagnetic launchers
+[Roesler 2013][research_roesler_2013].
+Beemer and McNab studied the launch parameters of lunar ice payloads
+[Beemer and McNab 2023][research_beemer_mcnab_2023],
+Carrio and coauthors proposed an architecture for lunar electromagnetic launch
+[Carrio et al. 2025][research_carrio_et_al_2025],
+and Rocher,
+Sarton du Jonchay
+and Mavris built sizing models that treat a lunar mass driver as an alternative to landers for cislunar logistics
+[Rocher et al. 2025][research_rocher_et_al_2025].
+
+### Trajectories, Guidance and Catchers
+
+Heppenheimer and Kaplan analysed launch from the lunar surface onto ballistic trajectories to a passive catcher near the second Lagrange point.
+They showed that from any launch site a target point can be chosen that is reached with zero dispersion due to errors in one selected component of launch velocity,
+and that a colony orbit can be reached from that point for as little as 9.02 metres per second
+[Heppenheimer and Kaplan 1977][research_heppenheimer_kaplan_1977].
+Heppenheimer developed these achromatic trajectories further
+[Heppenheimer 1978a][research_heppenheimer_1978a],
+designed a mass catcher for large-scale transport
+[Heppenheimer 1978b][research_heppenheimer_1978b],
+and compared modes of transport that use them
+[Heppenheimer 1979][research_heppenheimer_1979].
+Heppenheimer,
+Ross
+and Hannah proposed electrostatic trimming of payload velocity
+[Heppenheimer et al. 1982a][research_heppenheimer_et_al_1982a]
+and an integrated system for precise release and aim,
+with electromagnetic fins to damp oscillations of the buckets,
+in which the largest residual error was a transverse velocity of about 0.003 centimetres per second
+[Heppenheimer et al. 1982b][research_heppenheimer_et_al_1982b].
+Janhunen showed that lunar gravity anomalies can extend the life of a sub-escape orbit
+and listed coilguns,
+railguns,
+quenchguns
+and slings among the launchers that could supply the roughly 1.7 kilometres per second required
+[Janhunen 2025][research_janhunen_2025].
+This literature takes a different approach from the corrective burns of this article.
+It shapes the trajectory so that errors do not matter at the target,
+or corrects the payload at the launcher,
+because the payloads carry no engines.
+
+### Small Bodies and Reaction Engines
+
+O'Leary discussed the resources of Phobos and Deimos in support of crewed missions to Mars
+[O'Leary 1992][research_oleary_1992].
+Corbin and Higgins studied a mass driver that uses an asteroid's own material as reaction mass to deflect it,
+noting that mass drivers had been proposed for lunar and asteroid mining since the mid-1970s
+[Corbin and Higgins 2006][research_corbin_higgins_2006].
+The 1977 study
+[Unattributed 1977][research_mass_driver_reaction_engine_1977]
+and Snow and Dunbar
+[Snow and Dunbar 1982][research_snow_dunbar_1982]
+treated the mass driver as an engine on board a spacecraft.
+
+### Circular Launchers
+
+Bolonkin proposed a circular launcher in a book chapter
+[Bolonkin 2005][research_bolonkin_2005],
+and Wikipedia describes ring designs in which a vehicle circles many times before release
+[Mass Driver][ref_mass_driver].
+
+### Gaps
+
+No peer-reviewed study of a mass driver on Phobos or Deimos was found,
+and no peer-reviewed analysis of a full-circumference track was found,
+so the sections of this article on those subjects rest on the equations derived here.
+Lofstrom's launch loop appears in the conference record without author metadata and is not cited,
+and Snow and Kolm's study of electromagnetic launch of lunar material was found without a digital object identifier.
+
 ## Epistemic State
 
 **Facts reported by the cited sources.**
@@ -909,7 +1131,25 @@ and the lunar frozen orbits come from the Wikipedia entries cited.
 The findings attributed to Kolm,
 McNab,
 Powell and Maise,
-and the 1977 reaction engine study are taken from their abstracts as recorded by OpenAlex.
+the 1977 reaction engine study,
+and the works of the literature review marked by their findings rather than their titles,
+from O'Neill 1974 to Rocher and coauthors 2025,
+are taken from their abstracts as recorded by Crossref or OpenAlex.
+The works of Chilton,
+O'Neill and Kolm,
+O'Neill 1981,
+Heppenheimer 1978a,
+1978b
+and 1979,
+Seybold and Fowler,
+Beemer and McNab,
+Carrio and coauthors,
+Hunter and Hyde,
+Powell and coauthors 2006,
+Fair 1982,
+O'Leary
+and Bolonkin 2005 are cited only for what their titles state.
+The figures of Powell and coauthors for cost and throughput are their projections.
 Neither Crossref nor OpenAlex records an author for the 1977 reaction engine study,
 so it is cited as unattributed.
 None of the sources was read in full.
@@ -1004,10 +1244,52 @@ and its design must allow for that step as much as for the launch itself.
 - [Related Post, Orbital Manoeuvres in Terms of Delta-v, Plane Change][related_post_orbital_manoeuvres_plane]
 - [Related Post, Orbital Manoeuvres in Terms of Delta-v, The Hohmann Transfer][related_post_orbital_manoeuvres_hohmann]
 - [Related Post, Orbital Manoeuvres in Terms of Delta-v, The Rocket Equation][related_post_orbital_manoeuvres_rocket]
+- [Research, Beemer and McNab 2023, Launch Parameters of a Lunar Ice Payload Traveling via Electromagnetic Mass Accelerator][research_beemer_mcnab_2023]
+- [Research, Bilby et al. 1989, An Electromagnetic Lunar Launcher Utilizing Superconductivity Technology][research_bilby_et_al_1989]
+- [Research, Bolonkin 2005, Circle Launcher and Space Keeper][research_bolonkin_2005]
+- [Research, Bolonkin and Krinker 2010, Railgun Space Launcher][research_bolonkin_krinker_2010]
+- [Research, Carrio et al. 2025, Concept for a Lunar Electromagnetic Launch System Architecture][research_carrio_et_al_2025]
+- [Research, Chilton 1977, Mass Driver Theory and History][research_chilton_1977]
+- [Research, Corbin and Higgins 2006, Preliminary Mission Study, Mass Driver for Earth-Bound Asteroid Threat Mitigation][research_corbin_higgins_2006]
+- [Research, Doyle et al. 1995, Electromagnetic Aircraft Launch System, EMALS][research_doyle_et_al_1995]
+- [Research, Fair 1982, Electromagnetic Propulsion, A New Initiative][research_fair_1982]
+- [Research, Fair 2005, Electromagnetic Launch Science and Technology in the United States Enters a New Era][research_fair_2005]
+- [Research, Fair 2008, Advances in Electromagnetic Launch Science and Technology and its Applications][research_fair_2008]
+- [Research, Fine et al. 1979, Mass Driver Two, Cryogenic Module][research_fine_et_al_1979]
+- [Research, Hawke et al. 1981, Electromagnetic Railgun Launchers, Space Propulsion Applications][research_hawke_et_al_1981]
+- [Research, Heppenheimer 1975, Transport of Lunar Material to the Sites of the Colonies][research_heppenheimer_1975]
+- [Research, Heppenheimer 1978a, Achromatic Trajectories and Lunar Material Transport for Space Colonization][research_heppenheimer_1978a]
+- [Research, Heppenheimer 1978b, A Mass-Catcher for Large-Scale Lunar Material Transport][research_heppenheimer_1978b]
+- [Research, Heppenheimer 1979, Lunar Material Transport, Comparison of Modes Employing Achromatic Trajectories][research_heppenheimer_1979]
+- [Research, Heppenheimer and Kaplan 1977, Guidance and Trajectory Considerations in Lunar Mass Transportation][research_heppenheimer_kaplan_1977]
+- [Research, Heppenheimer et al. 1982a, Electrostatic Velocity Adjustment of Payloads Launched by Lunar Mass-Driver][research_heppenheimer_et_al_1982a]
+- [Research, Heppenheimer et al. 1982b, Precision Release and Aim of Payloads Launched by Lunar Mass-Driver][research_heppenheimer_et_al_1982b]
+- [Research, Hunter and Hyde 1989, A Light Gas Gun System for Launching Building Material into Low Earth Orbit][research_hunter_hyde_1989]
+- [Research, Janhunen 2025, Launching Mass from the Moon Helped by Lunar Gravity Anomalies][research_janhunen_2025]
+- [Research, Kaye 2005, Operational Requirements and Issues for Coilgun Electromagnetic Launchers][research_kaye_2005]
 - [Research, Kolm 1977, Basic Coaxial Mass Driver Reference Design][research_kolm_1977]
+- [Research, Kolm et al. 1980, Electromagnetic Launchers][research_kolm_et_al_1980]
+- [Research, Lipinski et al. 1993, Space Applications for Contactless Coilguns][research_lipinski_et_al_1993]
+- [Research, Mankins 1994, Electromagnetic Earth-to-Orbit Launch Concepts, One Strategy in Achieving Reductions in Launch Costs][research_mankins_1994]
 - [Research, McNab 2003, Launch to Space with an Electromagnetic Railgun][research_mcnab_2003]
+- [Research, McNab 2009, Progress on Hypervelocity Railgun Research for Launch to Space][research_mcnab_2009]
+- [Research, O'Leary 1992, International Manned Missions to Mars and the Resources of Phobos and Deimos][research_oleary_1992]
+- [Research, O'Neill 1974, The Colonization of Space][research_oneill_1974]
+- [Research, O'Neill 1981, Recent Development in Mass Drivers][research_oneill_1981]
+- [Research, O'Neill and Kolm 1980, High-Acceleration Mass Drivers][research_oneill_kolm_1980]
 - [Research, Powell and Maise 2008, StarTram, The Magnetic Launch Path to Very Low Cost, Very High Volume Launch to Space][research_powell_maise_2008]
+- [Research, Powell et al. 2006, StarTram, An International Facility to Magnetically Launch Payloads at Ultra Low Unit Cost][research_powell_et_al_2006]
+- [Research, Powell et al. 2008, Maglev Launch and the Next Race to Space][research_powell_et_al_2008]
+- [Research, Rashleigh and Marshall 1978, Electromagnetic Acceleration of Macroparticles to High Velocities][research_rashleigh_marshall_1978]
+- [Research, Rocher et al. 2025, Cost-Benefit Analysis of Lunar Mass Driver Technologies][research_rocher_et_al_2025]
+- [Research, Roesler 2013, Mass Estimate for a Lunar Resource Launcher Based on Existing Terrestrial Electromagnetic Launchers][research_roesler_2013]
+- [Research, Schmidt 2006, Electromagnetic Launch to Low Earth Orbit][research_schmidt_2006]
+- [Research, Seybold and Fowler 1994, A Feasibility Study for the Use of a Lunar Mass Driver to Transport Cargo to Mars][research_seybold_fowler_1994]
+- [Research, Snow and Dunbar 1982, Mass Driver Reaction Engine Characteristics and Performance in Earth Orbital Transfer Missions][research_snow_dunbar_1982]
+- [Research, Snow et al. 1981, A Small Scale Lunar Launcher for Early Lunar Material Utilization][research_snow_et_al_1981]
+- [Research, Turman and Lipinski 1996, Electromagnetic Coilgun Launcher for Space Applications][research_turman_lipinski_1996]
 - [Research, Unattributed 1977, Mass-Driver Reaction Engine as Shuttle Upper-Stage][research_mass_driver_reaction_engine_1977]
+- [Research, Wright et al. 2011, A Lunar Electromagnetic Launch System for In Situ Resource Utilization][research_wright_et_al_2011]
 
 [ref_ceres]: https://en.wikipedia.org/wiki/Ceres_(dwarf_planet)
 [ref_coilgun]: https://en.wikipedia.org/wiki/Coilgun
@@ -1030,7 +1312,49 @@ and its design must allow for that step as much as for the launch itself.
 [related_post_orbital_manoeuvres_plane]: {% post_url 2026-08-17-orbital_manoeuvres %}#plane-change
 [related_post_orbital_manoeuvres_rocket]: {% post_url 2026-08-17-orbital_manoeuvres %}#the-rocket-equation
 [related_post_space_studies]: {% post_url 2026-02-21-introduction_to_space_studies %}
+[research_beemer_mcnab_2023]: https://doi.org/10.1016/j.actaastro.2023.02.041
+[research_bilby_et_al_1989]: https://doi.org/10.2514/6.1989-2440
+[research_bolonkin_2005]: https://doi.org/10.1016/b978-008044731-5/50034-2
+[research_bolonkin_krinker_2010]: https://doi.org/10.1061/(asce)as.1943-5525.0000041
+[research_carrio_et_al_2025]: https://doi.org/10.1109/aero63441.2025.11068673
+[research_chilton_1977]: https://doi.org/10.2514/6.1977-533
+[research_corbin_higgins_2006]: https://doi.org/10.1061/40830(188)18
+[research_doyle_et_al_1995]: https://doi.org/10.1109/20.364638
+[research_fair_1982]: https://doi.org/10.1109/tmag.1982.1061789
+[research_fair_2005]: https://doi.org/10.1109/tmag.2004.838744
+[research_fair_2008]: https://doi.org/10.1109/elt.2008.9
+[research_fine_et_al_1979]: https://doi.org/10.2514/6.1979-1398
+[research_hawke_et_al_1981]: https://doi.org/10.2514/6.1981-751
+[research_heppenheimer_1975]: https://doi.org/10.2514/6.1975-2003
+[research_heppenheimer_1978a]: https://doi.org/10.2514/3.28004
+[research_heppenheimer_1978b]: https://doi.org/10.2514/3.28009
+[research_heppenheimer_1979]: https://doi.org/10.2514/3.57617
+[research_heppenheimer_et_al_1982a]: https://doi.org/10.2514/3.19765
+[research_heppenheimer_et_al_1982b]: https://doi.org/10.2514/3.19769
+[research_heppenheimer_kaplan_1977]: https://doi.org/10.2514/3.7345
+[research_hunter_hyde_1989]: https://doi.org/10.2514/6.1989-2439
+[research_janhunen_2025]: https://doi.org/10.59332/jbis-078-08-0290
+[research_kaye_2005]: https://doi.org/10.1109/tmag.2004.838982
 [research_kolm_1977]: https://doi.org/10.2514/6.1977-534
+[research_kolm_et_al_1980]: https://doi.org/10.1109/tmag.1980.1060806
+[research_lipinski_et_al_1993]: https://doi.org/10.1109/20.195659
+[research_mankins_1994]: https://doi.org/10.2514/6.1994-4625
 [research_mass_driver_reaction_engine_1977]: https://doi.org/10.2514/6.1977-536
 [research_mcnab_2003]: https://doi.org/10.1109/tmag.2002.805923
+[research_mcnab_2009]: https://doi.org/10.1109/tmag.2008.2008601
+[research_oleary_1992]: https://doi.org/10.1016/0094-5765(92)90141-5
+[research_oneill_1974]: https://doi.org/10.1063/1.3128863
+[research_oneill_1981]: https://doi.org/10.2514/6.1981-3235
+[research_oneill_kolm_1980]: https://doi.org/10.1016/0094-5765(80)90002-8
+[research_powell_et_al_2006]: https://doi.org/10.2514/6.iac-06-d3.2.07
+[research_powell_et_al_2008]: https://doi.org/10.1109/aero.2008.4526501
 [research_powell_maise_2008]: https://doi.org/10.1109/elt.2008.76
+[research_rashleigh_marshall_1978]: https://doi.org/10.1063/1.325107
+[research_rocher_et_al_2025]: https://doi.org/10.2514/6.2025-4123
+[research_roesler_2013]: https://doi.org/10.3390/machines1010050
+[research_schmidt_2006]: https://doi.org/10.2514/6.2006-4626
+[research_seybold_fowler_1994]: https://doi.org/10.2514/6.1994-854
+[research_snow_dunbar_1982]: https://doi.org/10.1109/tmag.1982.1061772
+[research_snow_et_al_1981]: https://doi.org/10.2514/6.1981-3233
+[research_turman_lipinski_1996]: https://doi.org/10.1063/1.49932
+[research_wright_et_al_2011]: https://doi.org/10.1109/tps.2010.2089066

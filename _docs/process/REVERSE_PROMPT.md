@@ -4,6 +4,42 @@
 
 ## Last Updated
 
+**Date**: 2026-10-22 (ninth entry)
+**Task**: **Citation density pass on A381 to A384, each article now also a literature review. Committed, NOT pushed, NOT published.** On the pilot's instruction to identify and add all plausible citations, and to make each article serve as a literature review of its topic.
+
+**Method.** Four research subagents ran in parallel, one per article, using Crossref and OpenAlex only. They sent the plain user agent and no email address, and wrote only to `tmp/a38N/`. Every candidate's metadata was matched to Crossref and its DOI confirmed at doi.org. Abstracts were accepted only when retrieved by the work's own DOI, and journal boilerplate or editor summaries were rejected. Each article states a work's findings only where such an abstract supports them, and otherwise describes the work by its title.
+
+**Additions.**
+
+| Article | Works added | Research and book references now | Total references now |
+|---|---|---|---|
+| A381 Orbital Manoeuvres | 44 | 52 | 73 |
+| A382 Solar Sailing | 40 | 64 | 88 |
+| A383 Mass Drivers | 42 | 46 | 67 |
+| A384 Mercury | 36 | 52 | 90 |
+
+Each article gains a section titled *A Review of the Literature*, organized by subtopic and closing with the gaps found, and new citations are attached to existing claims throughout. Examples:
+- **A381:** Pontani on the global optimality of Hohmann and bielliptic transfers, Battin and Vaughan on Lambert's problem, Belbruno and Miller on ballistic capture, and Kechichian on Edelbaum.
+- **A382:** Wright and Warmke's 1976 estimates, Mengali and coauthors on refined force models, the Solar Polar Imager thermal trade, Wie on attitude control, and laser-sail stability.
+- **A383:** the O'Neill and Heppenheimer programme, including achromatic trajectories and catchers; lunar launchers from Snow to Rocher; and launch from Earth from Rashleigh and Marshall to McNab 2009.
+- **A384:** the polar ice imaging, composition and interior, energetic electrons, MESSENGER solar arrays, and close-perihelion propulsion studies.
+
+**Corrections prompted by the new sources.**
+- A384 now notes that Mercury's surface is low in iron and its core top lies about 420 km down, so the iron-rich core is not by itself an accessible resource.
+- A384 notes that the Interstellar Heliopause Probe study's passes at 0.25 AU are inside Mercury's perihelion.
+- A383 now cites Janhunen 2025, which independently states that a sub-escape lunar launch returns to the launch site after one orbit.
+
+**Limits.**
+- **Title-only citations.** The OpenAlex free daily quota was exhausted during the searches. The subagents did not register for a key, because that requires an email address, so many AIAA and Springer works are cited at title level only. A second pass after the quota resets could upgrade them.
+- **No DOI.** Several classics have none and are listed as gaps: Hohmann 1925, Lawden 1963, Garwin 1958, Lubin's roadmap and the Lofstrom launch loop.
+- **Missing literature.** No peer-reviewed article on settling Mercury, and no study of a Phobos or Deimos mass driver, was found.
+
+**Checks.** All 214 DOIs across the four articles return responseCode 1. `_verify.py` reports 0 errors and 0 warnings. The scratch build passed, the render audit found nothing on 551 pages, and the 31 cross-article section links resolve. The punctuation scans and enumerated diction classes are clean.
+
+**Next, on the pilot's word.** The three remaining passes on A381 to A384, which must publish in order.
+
+## Previous Report (2026-10-22, eighth entry)
+
 **Date**: 2026-10-22 (eighth entry)
 **Task**: **Equation density pass on A381 to A384. Committed, NOT pushed, NOT published.** On the pilot's instruction to identify plausible equation additions, add all of them with descriptions, link to equations in other articles, and inline adapted or special-case versions where reasonable.
 

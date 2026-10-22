@@ -116,7 +116,18 @@ The Planetary Society's LightSail 2 demonstrated controlled solar sailing in Ear
 where its controlled thrust measurably reduced the rate of orbital decay
 [Spencer et al. 2021][research_spencer_et_al_2021].
 ACS3 launched in April 2024
-[Solar Sail][ref_solar_sail].
+[Solar Sail][ref_solar_sail],
+after a project that covered its sail design,
+spacecraft systems,
+operations
+and ground testing
+[Wilkie 2021][research_wilkie_2021].
+NASA's Near-Earth Asteroid Scout was designed to use an 86 square metre sail as its primary propulsion
+[McNutt et al. 2014][research_mcnutt_et_al_2014].
+These flights followed proposals made decades earlier.
+Wright and Warmke estimated in 1976 that early sails could reach characteristic accelerations of 0.2 to 1.3 millimetres per second squared with an overall efficiency of 80 to 90 percent,
+and proposed a rendezvous with Halley's comet as the first sail mission
+[Wright and Warmke 1976][research_wright_warmke_1976].
 
 ## The Basic Mathematics
 
@@ -213,6 +224,18 @@ With $\rho = 0.9$ the force is tilted 2.13 degrees from the normal at a cone ang
 and with $\rho = 0.85$ it is tilted 3.28 degrees.
 This model ignores thermal re-emission and diffuse scattering,
 which a full optical model of a real film would include.
+Mengali,
+Quarta,
+Circi
+and Dachwald refined the force model with coefficients that depend on the angle of incidence,
+the roughness of the surface
+and the distance from the Sun,
+and found from experimental data that the angle of incidence is the main variable
+[Mengali et al. 2007][research_mengali_et_al_2007].
+Swartzlander analysed diffractive sails,
+which redirect light by diffraction rather than reflection,
+and found no penalty for a transparent diffractive sail on a simple transfer from Earth to Mars
+[Swartzlander 2017][research_swartzlander_2017].
 
 ### Lightness Number for Any Star
 
@@ -486,7 +509,7 @@ The lightness number divides sails into classes by what they can do.
 - **About 0.01 to 0.1.** Interplanetary transfers in years. At $\beta = 0.05$ the formula gives 2.4 years from Earth's orbit to Mars's and 2.1 years inward to Mercury's.
 - **About 0.1 to 0.5.** Fast transfers, close passes to the Sun with large gains in energy, and orbits that gravity alone cannot produce.
 - **One half to one.** Escape from the solar system directly from a circular orbit. At $\beta = 0.75$ the final speed is 21.1 kilometres per second from 1 AU and 66.6 from 0.1 AU.
-- **Exactly one.** A face-on sail feels no net force and can hover in place, the idea behind the statite proposed independently by Robert Forward and Colin McInnes [Statite][ref_statite].
+- **Exactly one.** A face-on sail feels no net force and can hover in place, the idea behind the statite proposed independently by Robert Forward and Colin McInnes [Statite][ref_statite] [Forward 1991][research_forward_1991].
 - **Above one.** The star repels a face-on sail. This allows the fastest departures and, as shown below, braking at another star.
 
 A numerical integration checks the spiral formula.
@@ -522,6 +545,10 @@ v_{\infty,\max}^{2} = \frac{2\beta\,G M}{q_{\min}} = \frac{2}{c\,\sigma}\sqrt{\f
 $$
 Close passes are where a sail gains the most energy,
 so heat tolerance is as much a part of sail quality as loading.
+A trajectory study for the Solar Polar Imager shows the effect.
+With a film temperature limit of 100 degrees Celsius the optimal transfer took 6.4 years,
+and with a limit of 240 degrees Celsius it approached the Sun to about 0.22 AU and was shorter still
+[Dachwald, Ohndorf and Wie 2006][research_dachwald_ohndorf_wie_2006].
 
 ## Levels of Steering
 
@@ -532,6 +559,16 @@ by moving individual sails,
 by moving a control mass,
 or by altering reflectivity
 [Solar Sail][ref_solar_sail].
+Wie emphasized spin stabilization and set out three-axis approaches with a gimbaled control boom,
+control vanes,
+or shifting and tilting of the sail,
+designing against an uncertain offset of 0.1 metre between the centres of mass and pressure on a 40 metre sail
+[Wie 2004a][research_wie_2004a]
+[Wie 2004b][research_wie_2004b],
+and later analysed thrust vector control for sailcraft
+[Wie 2007][research_wie_2007].
+NEA Scout was designed to manage momentum with a mechanism that moves mass
+[McNutt et al. 2014][research_mcnutt_et_al_2014].
 IKAROS steered by varying the reflectance of 80 liquid crystal panels embedded in its sail
 [IKAROS][ref_ikaros],
 and spinning sails of that kind have been modelled with reflectivity control
@@ -575,7 +612,9 @@ and so spiral outward or inward,
 pump energy near each close pass,
 and reverse the direction of its orbit.
 Vulpetti studied trajectories that reverse a sail's orbital angular momentum to reach high speeds
-[Vulpetti 1997][research_vulpetti_1997].
+[Vulpetti 1997][research_vulpetti_1997]
+and generalized them to three dimensions
+[Vulpetti 1999][research_vulpetti_1999].
 This is the minimum steering needed for most interplanetary missions.
 
 ### Full Three-Axis Steering
@@ -1132,6 +1171,9 @@ Magnetic sails can produce relatively large drag in the interstellar medium
 [Magnetic Sail][ref_magnetic_sail],
 and combined magnetic and electric sails have been studied for interstellar deceleration
 [Perakis and Hein 2016][research_perakis_hein_2016].
+Within a planetary system,
+optimal rendezvous trajectories that combine an electric sail with a high-thrust engine have also been studied
+[Quarta, Mengali and Janhunen 2011][research_quarta_mengali_janhunen_2011].
 A beam from home can drive a sail where starlight is too weak,
 and Forward analysed round-trip interstellar travel with laser-pushed lightsails
 [Forward 1984][research_forward_1984].
@@ -1167,6 +1209,189 @@ IKAROS carried thin-film solar cells integrated into its sail to power its paylo
 and the same area could in principle power an electric engine,
 an inference not tested by any source cited here.
 
+## A Review of the Literature
+
+The literature on solar sailing spans seven decades,
+from mission proposals of the 1970s to the materials science of laser-driven sails.
+This section surveys it by topic.
+Where a work's abstract was available its findings are stated,
+and where only its title was available it is described by its title alone.
+
+### Reviews and Monographs
+
+McInnes's monograph is the standard text
+[McInnes 1999][book_mcinnes_1999].
+Reviews cover science mission applications
+[Macdonald and McInnes 2011][research_macdonald_mcinnes_2011],
+the state of the technology
+[Fu, Sperber and Eke 2016][research_fu_sperber_eke_2016]
+[Gong and Macdonald 2019][research_gong_macdonald_2019],
+and the photonic materials needed for the next generation of sails,
+for missions ranging from interstellar travel to imaging the poles of the Sun,
+with a roadmap for their development
+[Davoyan et al. 2021][research_davoyan_et_al_2021].
+
+### Early Mission Studies and Optimal Trajectories
+
+Wright and Warmke described solar sail mission applications in 1976,
+including the delivery of large payloads throughout the solar system without propellant
+[Wright and Warmke 1976][research_wright_warmke_1976].
+Sauer optimized interplanetary sail trajectories by the calculus of variations,
+for rendezvous with Venus,
+Mars
+and Mercury and for an asteroid round trip
+[Sauer 1976][research_sauer_1976].
+Dachwald found that conventional optimizers depend strongly on a good initial guess,
+and that evolutionary neurocontrol found steering strategies closer to the global optimum
+for missions to a near-Earth asteroid,
+to Mercury
+and past Pluto
+[Dachwald 2004][research_dachwald_2004].
+Mengali and Quarta computed optimal three-dimensional rendezvous trajectories with a non-ideal sail
+[Mengali and Quarta 2005][research_mengali_quarta_2005].
+
+### Force Models, Materials and Degradation
+
+The refined force model of Mengali and coauthors
+[Mengali et al. 2007][research_mengali_et_al_2007]
+and Swartzlander's diffractive sail
+[Swartzlander 2017][research_swartzlander_2017]
+extend the ideal model used in this article.
+Kezerashvili and Matloff analysed the effects of the space environment on sails microscopically
+[Kezerashvili and Matloff 2009][research_kezerashvili_matloff_2009],
+and the effect of optical degradation on mission performance has been studied
+[Dachwald et al. 2007][research_dachwald_et_al_2007]
+along with trajectories of a degrading sail that faces the Sun
+[Bassetto et al. 2020][research_bassetto_et_al_2020].
+
+### Non-Keplerian Orbits and Statites
+
+Forward proposed the statite,
+a spacecraft that does not orbit
+[Forward 1991][research_forward_1991].
+McInnes and Simmons studied heliocentric halo orbits for sails
+[McInnes and Simmons 1992][research_mcinnes_simmons_1992],
+McInnes studied sail trajectories at the lunar second Lagrange point
+[McInnes 1993][research_mcinnes_1993],
+passive control of displaced orbits
+[McInnes 1998][research_mcinnes_1998]
+and mission applications of non-Keplerian orbits
+[McInnes 1999][research_mcinnes_1999b],
+Bookless and McInnes studied control of Lagrange point orbits by sail
+[Bookless and McInnes 2008][research_bookless_mcinnes_2008],
+and Heiligers and McInnes studied heliocentric orbits that follow Earth
+[Heiligers and McInnes 2015][research_heiligers_mcinnes_2015].
+
+### Solar Polar, Close-Perihelion and Fast Missions
+
+Macdonald and coauthors presented a solar polar orbiter as a technology reference study
+[Macdonald et al. 2006][research_macdonald_et_al_2006],
+and Dachwald,
+Ohndorf
+and Wie optimized trajectories for the Solar Polar Imager,
+a 160 metre square sail with a characteristic acceleration of 0.35 millimetres per second squared
+[Dachwald, Ohndorf and Wie 2006][research_dachwald_ohndorf_wie_2006].
+For fast missions to the outer solar system,
+Vulpetti developed angular momentum reversal trajectories
+[Vulpetti 1997][research_vulpetti_1997]
+[Vulpetti 1999][research_vulpetti_1999].
+The Interstellar Heliopause Probe study used a photonic assist with two passes at 0.25 AU and a 245 metre sail that is ejected after 6.5 years,
+so that a 517 kilogram spacecraft reaches 200 AU in 30 years
+[Lappas et al. 2005][research_lappas_et_al_2005]
+[Lyngvi et al. 2005][research_lyngvi_et_al_2005].
+Macdonald,
+McInnes
+and Hughes studied the technology needed to explore beyond Neptune by sail
+[Macdonald, McInnes and Hughes 2010][research_macdonald_mcinnes_hughes_2010],
+and Ancona,
+Kezerashvili
+and Matloff studied sun-diving sails for the Kuiper Belt
+[Ancona, Kezerashvili and Matloff 2019][research_ancona_kezerashvili_matloff_2019].
+
+### Attitude Control and Flight
+
+Wie's two-part study of sail attitude control and dynamics
+[Wie 2004a][research_wie_2004a]
+[Wie 2004b][research_wie_2004b]
+and his analysis of thrust vector control
+[Wie 2007][research_wie_2007]
+are the foundation for steering.
+The flight demonstrations are documented for IKAROS
+[Tsuda et al. 2011][research_tsuda_et_al_2011]
+[Tsuda et al. 2013][research_tsuda_et_al_2013],
+NanoSail-D
+[Johnson et al. 2011][research_johnson_et_al_2011],
+LightSail 2
+[Spencer et al. 2021][research_spencer_et_al_2021],
+NEA Scout
+[McNutt et al. 2014][research_mcnutt_et_al_2014]
+and ACS3
+[Wilkie 2021][research_wilkie_2021].
+
+### Laser-Driven Lightsails
+
+Forward analysed round-trip interstellar travel with laser-pushed lightsails
+[Forward 1984][research_forward_1984].
+Kulkarni,
+Lubin
+and Zhang derived the relativistic motion of a spacecraft pushed by directed energy,
+showed that the diffraction of the beam limits its maximum speed,
+and considered recycling photons to go faster
+[Kulkarni, Lubin and Zhang 2018][research_kulkarni_lubin_zhang_2018].
+Parkin built a system model of Breakthrough Starshot
+[Parkin 2018][research_parkin_2018].
+Manchester and Loeb showed that conical sails on Gaussian beams are unstable without active control,
+while a spherical shell can ride the beam without feedback
+[Manchester and Loeb 2017][research_manchester_loeb_2017].
+Ilic,
+Went
+and Atwater showed that a laser-driven sail must absorb very little at the laser's near-infrared wavelength
+yet emit strongly in the mid-infrared to cool itself,
+and defined a reflectivity-adjusted area density as a figure of merit
+[Ilic, Went and Atwater 2018][research_ilic_went_atwater_2018].
+Ilic and Atwater studied self-stabilizing photonic levitation and propulsion
+[Ilic and Atwater 2019][research_ilic_atwater_2019],
+Michaeli and coauthors measured radiation pressure directly on lightsail membranes
+[Michaeli et al. 2025][research_michaeli_et_al_2025],
+and Atwater and coauthors set out the materials challenges for the Starshot sail
+[Atwater et al. 2018][research_atwater_et_al_2018].
+
+### Interstellar Arrival
+
+Heller and Hippke showed how the light and gravity of the Alpha Centauri stars can decelerate an incoming sail
+[Heller and Hippke 2017][research_heller_hippke_2017],
+and Heller,
+Hippke
+and Kervella extended the analysis to some 22,000 stars
+[Heller, Hippke and Kervella 2017][research_heller_hippke_kervella_2017].
+Magnetic sails
+[Zubrin and Andrews 1991][research_zubrin_andrews_1991]
+and combined magnetic and electric sails
+[Perakis and Hein 2016][research_perakis_hein_2016]
+offer braking against the interstellar medium.
+
+### Electric Sails
+
+Janhunen proposed the electric sail
+[Janhunen 2004][research_janhunen_2004].
+In its developed form it uses long,
+thin tethers held at a high positive potential by an electron gun,
+whose effective area can be millions of times their physical area,
+and its developers expected a sail of 1 newton thrust and 100 kilograms to be buildable in the near future
+[Janhunen et al. 2010][research_janhunen_et_al_2010].
+Bassetto and coauthors reviewed the concept and its applications
+[Bassetto et al. 2022][research_bassetto_et_al_2022],
+and Quarta,
+Mengali
+and Janhunen studied its combination with high-thrust propulsion
+[Quarta, Mengali and Janhunen 2011][research_quarta_mengali_janhunen_2011].
+
+### Gaps
+
+Garwin's 1958 paper on solar sailing
+and Lubin's roadmap to interstellar flight were not found with a digital object identifier and are not cited directly.
+No peer-reviewed analysis of the specific question of sail retraction in flight was found.
+
 ## Epistemic State
 
 **Facts reported by the cited sources.**
@@ -1189,7 +1414,25 @@ and Stohlman,
 Seefeldt and Dachwald,
 the groups led by Furuya and Satou,
 Banik and Ardelean,
-and Vatankhahghadim and Damaren
+Vatankhahghadim and Damaren,
+and the works of the literature review whose findings are stated,
+including those of Wright and Warmke,
+Sauer,
+Dachwald,
+Mengali and coauthors,
+Swartzlander,
+Davoyan and coauthors,
+Dachwald,
+Ohndorf and Wie,
+Lappas and coauthors,
+Wie 2004a,
+McNutt and coauthors,
+Wilkie,
+Kulkarni and coauthors,
+Manchester and Loeb,
+Ilic,
+Went and Atwater,
+and Janhunen and coauthors 2010,
 are taken from their abstracts as recorded by Crossref or OpenAlex.
 The works of the groups led by Tsuda,
 Bassetto,
@@ -1200,7 +1443,9 @@ and those of Vulpetti,
 Forward,
 Zubrin and Andrews,
 Perakis and Hein,
-and McInnes are cited only for what their titles state,
+and McInnes,
+and every other work in the literature review,
+are cited only for what their titles state,
 because no abstract was retrievable.
 None of the sources was read in full.
 
@@ -1311,28 +1556,68 @@ which points toward making them in space.
 - [Related Post, Orbital Manoeuvres in Terms of Delta-v, Low-Thrust Spirals][related_post_orbital_manoeuvres_spirals]
 - [Related Post, Orbital Manoeuvres in Terms of Delta-v, Patched Conics][related_post_orbital_manoeuvres_patched]
 - [Related Post, Orbital Manoeuvres in Terms of Delta-v, The Rocket Equation][related_post_orbital_manoeuvres_rocket]
+- [Research, Ancona, Kezerashvili and Matloff 2019, Exploring the Kuiper Belt with Sun-Diving Solar Sails][research_ancona_kezerashvili_matloff_2019]
 - [Research, Atwater et al. 2018, Materials Challenges for the Starshot Lightsail][research_atwater_et_al_2018]
 - [Research, Banik and Ardelean 2010, Verification of a Retractable Solar Sail in a Thermal-Vacuum Environment][research_banik_ardelean_2010]
 - [Research, Bassetto et al. 2020, Trajectory Analysis of a Sun-Facing Solar Sail with Optical Degradation][research_bassetto_et_al_2020]
+- [Research, Bassetto et al. 2022, A Comprehensive Review of Electric Solar Wind Sail Concept and its Applications][research_bassetto_et_al_2022]
+- [Research, Bookless and McInnes 2008, Control of Lagrange Point Orbits Using Solar Sail Propulsion][research_bookless_mcinnes_2008]
+- [Research, Dachwald 2004, Optimization of Interplanetary Solar Sailcraft Trajectories Using Evolutionary Neurocontrol][research_dachwald_2004]
+- [Research, Dachwald et al. 2007, Impact of Optical Degradation on Solar Sail Mission Performance][research_dachwald_et_al_2007]
+- [Research, Dachwald, Ohndorf and Wie 2006, Solar Sail Trajectory Optimization for the Solar Polar Imager Mission][research_dachwald_ohndorf_wie_2006]
+- [Research, Davoyan et al. 2021, Photonic Materials for Interstellar Solar Sailing][research_davoyan_et_al_2021]
 - [Research, Forward 1984, Roundtrip Interstellar Travel Using Laser-Pushed Lightsails][research_forward_1984]
+- [Research, Forward 1991, Statite, A Spacecraft That Does Not Orbit][research_forward_1991]
 - [Research, Fu, Sperber and Eke 2016, Solar Sail Technology, A State of the Art Review][research_fu_sperber_eke_2016]
 - [Research, Furumoto, Funase and Yamaguchi 2014, Attitude Control Model for Spinning Solar Sail Spacecraft with Reflectivity Control Capability][research_furumoto_funase_yamaguchi_2014]
 - [Research, Furuya and Masuoka 2004, Concept of Rotationally Skew Fold Membrane for Spinning Solar Sail][research_furuya_masuoka_2004]
 - [Research, Furuya and Satou 2008, Deployment and Retraction Mechanisms for Spinning Solar Sail Membrane][research_furuya_satou_2008]
 - [Research, Furuya et al. 2011, Manufacturing and Folding of Solar Sail IKAROS][research_furuya_et_al_2011]
+- [Research, Gong and Macdonald 2019, Review on Solar Sail Technology][research_gong_macdonald_2019]
+- [Research, Heiligers and McInnes 2015, Solar Sail Heliocentric Earth-Following Orbits][research_heiligers_mcinnes_2015]
 - [Research, Heller and Hippke 2017, Deceleration of High-Velocity Interstellar Photon Sails into Bound Orbits at Alpha Centauri][research_heller_hippke_2017]
 - [Research, Heller, Hippke and Kervella 2017, Optimized Trajectories to the Nearest Stars Using Lightweight High-Velocity Photon Sails][research_heller_hippke_kervella_2017]
+- [Research, Ilic and Atwater 2019, Self-Stabilizing Photonic Levitation and Propulsion of Nanostructured Macroscopic Objects][research_ilic_atwater_2019]
+- [Research, Ilic, Went and Atwater 2018, Nanophotonic Heterostructures for Efficient Propulsion and Radiative Cooling of Relativistic Light Sails][research_ilic_went_atwater_2018]
+- [Research, Janhunen 2004, Electric Sail for Spacecraft Propulsion][research_janhunen_2004]
+- [Research, Janhunen et al. 2010, Electric Solar Wind Sail, Toward Test Missions][research_janhunen_et_al_2010]
 - [Research, Johnson et al. 2011, NanoSail-D, A Solar Sail Demonstration Mission][research_johnson_et_al_2011]
+- [Research, Kezerashvili and Matloff 2009, Microscopic Approach to Analyze Solar-Sail Space-Environment Effects][research_kezerashvili_matloff_2009]
 - [Research, Kopp and Lean 2011, A New, Lower Value of Total Solar Irradiance, Evidence and Climate Significance][research_kopp_lean_2011]
+- [Research, Kulkarni, Lubin and Zhang 2018, Relativistic Spacecraft Propelled by Directed Energy][research_kulkarni_lubin_zhang_2018]
+- [Research, Lappas et al. 2005, Interstellar Heliopause Probe, System Design of a Solar Sail Mission to 200 AU][research_lappas_et_al_2005]
+- [Research, Lyngvi et al. 2005, The Interstellar Heliopause Probe][research_lyngvi_et_al_2005]
+- [Research, Macdonald and McInnes 2011, Solar Sail Science Mission Applications and Advancement][research_macdonald_mcinnes_2011]
+- [Research, Macdonald et al. 2006, Solar Polar Orbiter, A Solar Sail Technology Reference Study][research_macdonald_et_al_2006]
+- [Research, Macdonald, McInnes and Hughes 2010, Technology Requirements of Exploration Beyond Neptune by Solar Sail Propulsion][research_macdonald_mcinnes_hughes_2010]
+- [Research, Manchester and Loeb 2017, Stability of a Light Sail Riding on a Laser Beam][research_manchester_loeb_2017]
+- [Research, McInnes 1993, Solar Sail Trajectories at the Lunar L2 Lagrange Point][research_mcinnes_1993]
+- [Research, McInnes 1998, Passive Control of Displaced Solar Sail Orbits][research_mcinnes_1998]
+- [Research, McInnes 1999, Solar Sail Mission Applications for Non-Keplerian Orbits][research_mcinnes_1999b]
+- [Research, McInnes and Simmons 1992, Solar Sail Halo Orbits, Part I, Heliocentric Case][research_mcinnes_simmons_1992]
+- [Research, McNutt et al. 2014, Near-Earth Asteroid Scout][research_mcnutt_et_al_2014]
+- [Research, Mengali and Quarta 2005, Optimal Three-Dimensional Interplanetary Rendezvous Using Non-Ideal Solar Sail][research_mengali_quarta_2005]
+- [Research, Mengali et al. 2007, Refined Solar Sail Force Model with Mission Application][research_mengali_et_al_2007]
+- [Research, Michaeli et al. 2025, Direct Radiation Pressure Measurements for Lightsail Membranes][research_michaeli_et_al_2025]
+- [Research, Parkin 2018, The Breakthrough Starshot System Model][research_parkin_2018]
 - [Research, Perakis and Hein 2016, Combining Magnetic and Electric Sails for Interstellar Deceleration][research_perakis_hein_2016]
+- [Research, Quarta, Mengali and Janhunen 2011, Optimal Interplanetary Rendezvous Combining Electric Sail and High Thrust Propulsion System][research_quarta_mengali_janhunen_2011]
 - [Research, Satou et al. 2014, Wrapping Experiments of Piecewise Straight Fold Membrane for Large Solar Sail][research_satou_et_al_2014]
+- [Research, Sauer 1976, Optimum Solar-Sail Interplanetary Trajectories][research_sauer_1976]
 - [Research, Seefeldt and Dachwald 2021, Temperature Increase on Folded Solar Sail Membranes][research_seefeldt_dachwald_2021]
 - [Research, Spencer et al. 2021, The LightSail 2 Solar Sailing Technology Demonstration][research_spencer_et_al_2021]
 - [Research, Stohlman et al. 2020, Advances in Low-Cost Manufacturing and Folding of Solar Sail Membranes][research_stohlman_et_al_2020]
+- [Research, Swartzlander 2017, Radiation Pressure on a Diffractive Sailcraft][research_swartzlander_2017]
 - [Research, Tsuda et al. 2011, Flight Status of IKAROS Deep Space Solar Sail Demonstrator][research_tsuda_et_al_2011]
 - [Research, Tsuda et al. 2013, Achievement of IKAROS, Japanese Deep Space Solar Sail Demonstration Mission][research_tsuda_et_al_2013]
 - [Research, Vatankhahghadim and Damaren 2018, Deployment of a Membrane Attached to Two Axially Moving Beams][research_vatankhahghadim_damaren_2018]
 - [Research, Vulpetti 1997, Sailcraft at High Speed by Orbital Angular Momentum Reversal][research_vulpetti_1997]
+- [Research, Vulpetti 1999, General 3D H-Reversal Trajectories for High-Speed Sailcraft][research_vulpetti_1999]
+- [Research, Wie 2004a, Solar Sail Attitude Control and Dynamics, Part 1][research_wie_2004a]
+- [Research, Wie 2004b, Solar Sail Attitude Control and Dynamics, Part Two][research_wie_2004b]
+- [Research, Wie 2007, Thrust Vector Control Analysis and Design for Solar-Sail Spacecraft][research_wie_2007]
+- [Research, Wilkie 2021, Overview of the NASA Advanced Composite Solar Sail System Technology Demonstration Project][research_wilkie_2021]
+- [Research, Wright and Warmke 1976, Solar Sail Mission Applications][research_wright_warmke_1976]
 - [Research, Zubrin and Andrews 1991, Magnetic Sails and Interplanetary Travel][research_zubrin_andrews_1991]
 
 [book_mcinnes_1999]: https://doi.org/10.1007/978-1-4471-3992-8
@@ -1360,26 +1645,66 @@ which points toward making them in space.
 [related_post_orbital_manoeuvres_rocket]: {% post_url 2026-08-17-orbital_manoeuvres %}#the-rocket-equation
 [related_post_orbital_manoeuvres_spirals]: {% post_url 2026-08-17-orbital_manoeuvres %}#low-thrust-spirals
 [related_post_space_studies]: {% post_url 2026-02-21-introduction_to_space_studies %}
+[research_ancona_kezerashvili_matloff_2019]: https://doi.org/10.1016/j.actaastro.2019.02.019
 [research_atwater_et_al_2018]: https://doi.org/10.1038/s41563-018-0075-8
 [research_banik_ardelean_2010]: https://doi.org/10.2514/6.2010-2585
 [research_bassetto_et_al_2020]: https://doi.org/10.2514/1.g005214
+[research_bassetto_et_al_2022]: https://doi.org/10.1016/j.paerosci.2021.100768
+[research_bookless_mcinnes_2008]: https://doi.org/10.1016/j.actaastro.2006.12.051
+[research_dachwald_2004]: https://doi.org/10.2514/1.9286
+[research_dachwald_et_al_2007]: https://doi.org/10.2514/1.21432
+[research_dachwald_ohndorf_wie_2006]: https://doi.org/10.2514/6.2006-6177
+[research_davoyan_et_al_2021]: https://doi.org/10.1364/optica.417007
 [research_forward_1984]: https://doi.org/10.2514/3.8632
+[research_forward_1991]: https://doi.org/10.2514/3.26287
 [research_fu_sperber_eke_2016]: https://doi.org/10.1016/j.paerosci.2016.07.001
 [research_furumoto_funase_yamaguchi_2014]: https://doi.org/10.2514/6.2014-4217
 [research_furuya_et_al_2011]: https://doi.org/10.2514/6.2011-1967
 [research_furuya_masuoka_2004]: https://doi.org/10.2514/6.iac-04-i.1.05
 [research_furuya_satou_2008]: https://doi.org/10.2514/6.2008-2051
+[research_gong_macdonald_2019]: https://doi.org/10.1007/s42064-019-0038-x
+[research_heiligers_mcinnes_2015]: https://doi.org/10.2514/1.g000579
 [research_heller_hippke_2017]: https://doi.org/10.3847/2041-8213/835/2/l32
 [research_heller_hippke_kervella_2017]: https://doi.org/10.3847/1538-3881/aa813f
+[research_ilic_atwater_2019]: https://doi.org/10.1038/s41566-019-0373-y
+[research_ilic_went_atwater_2018]: https://doi.org/10.1021/acs.nanolett.8b02035
+[research_janhunen_2004]: https://doi.org/10.2514/1.8580
+[research_janhunen_et_al_2010]: https://doi.org/10.1063/1.3514548
 [research_johnson_et_al_2011]: https://doi.org/10.1016/j.actaastro.2010.02.008
+[research_kezerashvili_matloff_2009]: https://doi.org/10.1016/j.asr.2009.05.002
 [research_kopp_lean_2011]: https://doi.org/10.1029/2010GL045777
+[research_kulkarni_lubin_zhang_2018]: https://doi.org/10.3847/1538-3881/aaafd2
+[research_lappas_et_al_2005]: https://doi.org/10.2514/6.2005-6084
+[research_lyngvi_et_al_2005]: https://doi.org/10.1016/j.actaastro.2005.03.042
+[research_macdonald_et_al_2006]: https://doi.org/10.2514/1.16408
+[research_macdonald_mcinnes_2011]: https://doi.org/10.1016/j.asr.2011.03.018
+[research_macdonald_mcinnes_hughes_2010]: https://doi.org/10.2514/1.46657
+[research_manchester_loeb_2017]: https://doi.org/10.3847/2041-8213/aa619b
+[research_mcinnes_1993]: https://doi.org/10.2514/3.26393
+[research_mcinnes_1998]: https://doi.org/10.2514/2.4334
+[research_mcinnes_1999b]: https://doi.org/10.1016/s0094-5765(99)00177-0
+[research_mcinnes_simmons_1992]: https://doi.org/10.2514/3.25487
+[research_mcnutt_et_al_2014]: https://doi.org/10.2514/6.2014-4435
+[research_mengali_et_al_2007]: https://doi.org/10.2514/1.24779
+[research_mengali_quarta_2005]: https://doi.org/10.2514/1.8325
+[research_michaeli_et_al_2025]: https://doi.org/10.1038/s41566-024-01605-w
+[research_parkin_2018]: https://doi.org/10.1016/j.actaastro.2018.08.035
 [research_perakis_hein_2016]: https://doi.org/10.1016/j.actaastro.2016.07.005
+[research_quarta_mengali_janhunen_2011]: https://doi.org/10.1016/j.actaastro.2010.01.024
 [research_satou_et_al_2014]: https://doi.org/10.2322/tastj.12.pc_49
+[research_sauer_1976]: https://doi.org/10.2514/6.1976-792
 [research_seefeldt_dachwald_2021]: https://doi.org/10.1016/j.asr.2020.09.026
 [research_spencer_et_al_2021]: https://doi.org/10.1016/j.asr.2020.06.029
 [research_stohlman_et_al_2020]: https://doi.org/10.2514/6.2020-2167
+[research_swartzlander_2017]: https://doi.org/10.1364/josab.34.000c25
 [research_tsuda_et_al_2011]: https://doi.org/10.1016/j.actaastro.2011.06.005
 [research_tsuda_et_al_2013]: https://doi.org/10.1016/j.actaastro.2012.03.032
 [research_vatankhahghadim_damaren_2018]: https://doi.org/10.1115/1.4042134
 [research_vulpetti_1997]: https://doi.org/10.1016/s0094-5765(97)00153-7
+[research_vulpetti_1999]: https://doi.org/10.1016/s0094-5765(99)00016-8
+[research_wie_2004a]: https://doi.org/10.2514/1.11134
+[research_wie_2004b]: https://doi.org/10.2514/1.11133
+[research_wie_2007]: https://doi.org/10.2514/1.23084
+[research_wilkie_2021]: https://doi.org/10.2514/6.2021-1260
+[research_wright_warmke_1976]: https://doi.org/10.2514/6.1976-808
 [research_zubrin_andrews_1991]: https://doi.org/10.2514/3.26230
