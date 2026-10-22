@@ -17,14 +17,38 @@ Missing sections and prose will need to be drafted.
 Stubs and largely incomplete drafts are assessed for topicality and publication merit.
 
 
-## What the Conglomerate Discount Measures A378 2026-08-14 DRAFTED
+## What the Conglomerate Discount Measures A378 2026-08-14 ALL FOUR PASSES COMPLETE
 
 `_drafts/conglomerate_discount.markdown`, A378, editorial date 2026-08-14, standalone analytical essay, categories
 `business economics finance`, no series. **The first post whose categories include `finance`**, which adds one
 category archive. Drafted 2026-10-21 on the pilot's instruction from a question about whether the mathematics of the
 value delta inside and outside a conglomerate is established. **NOT published.**
 
-**Drafting pass complete. The citation, pathological word usage and publication review passes remain.** 837 lines,
+**ALL FOUR PASSES COMPLETE 2026-10-21, NOT published.** Final state 870 lines, 13 display equations, 39 inline
+expressions, 62 references (57 DOI-linked papers, 5 Wikipedia).
+
+**Citation pass.** Every sentence was read against its source. Forty edits in two rounds. Unsupported or overstated claims
+were cited, qualified or withdrawn, among them the single quoted figure for the gap, the dating of the merger wave,
+"every dispute", "the leading candidate", the claim that firms which diversify had weaker prospects in all the
+value-maximizing models, the spin-off inference now stated as a hypothesis, and the Lamont and Polk result restated
+as a statement about variation in excess value rather than its level. The q weighting is labelled as one construction
+rather than the one Lang and Stulz use. SFAS 131 is now dated 1997 from He 2009, a new reference that also reports a
+premium after 1997. Gendered pronouns for authors whose pronouns are not stated were replaced with names. The
+Scharfstein and Stein paper is now declared title-only in the Epistemic State.
+
+**Pathological word usage pass.** Against 333 published peers the enumerated tic class and the 22 constructions
+were clean before and after. The tic was the citation verb `find`, 32 uses at 2.70 times the peer maximum, now
+16 below it after rotation among report, observe, estimate, document, measure, conclude and recast sentences. The
+rotation raised `their` above the peer maximum through `in their data` and similar, which the before-and-after
+diff caught, and it is now below it again. The remaining outliers are the subject (discount, imputed, diversified,
+firms, Berger, Ofek, Stulz, peer, multiples) and `hypothetical`, which labels every invented example and is kept.
+
+**Publication review.** No em-dashes, en-dashes or contractions, no prose colons, semicolons or parentheticals,
+SFAS spelled out at first use, references used, defined, sorted and listed in order, three overlong lines broken
+into phrases, every worked number recomputed from `tmp/a378/numbers.py`, 57 of 57 DOIs registered and 5 of 5
+Wikipedia pages 200, `_verify.py` 0 and 0, scratch production build ok, render 545 pages no findings.
+
+**Drafting pass record, kept as history.** 837 lines,
 13 display equations, 61 references, of which 56 are DOI-linked research papers and 5 are Wikipedia entries. The
 argument is that the measures are precisely defined while the causal interpretation is contested, worked through the
 Berger and Ofek imputed value, the Lang and Stulz q comparison, a treatment-effect decomposition, the measurement

@@ -15,8 +15,10 @@ A conglomerate is a firm that operates businesses in several unrelated industrie
 Investors and analysts commonly say that such firms trade at a conglomerate discount,
 meaning that the market values the whole at less than the sum of what its businesses would be worth on their own
 [Conglomerate Discount][ref_conglomerate_discount].
-The claim is often used to justify a breakup,
-and it is usually stated as if the size of the gap were a known quantity.
+The claim is used to argue for breakups,
+and the gap is often quoted as a single figure,
+such as an average of 13 to 15 percent in developed economies
+[Conglomerate Discount][ref_conglomerate_discount].
 
 This article asks whether the mathematics for establishing that gap is settled.
 The short answer has two parts.
@@ -44,12 +46,11 @@ Lewellen argued in 1971 that combining businesses with imperfectly correlated ca
 lowers the probability of default and so raises the capacity of the combined firm to carry debt,
 which is the coinsurance argument for conglomerate mergers
 [Lewellen 1971][research_lewellen_1971].
-That argument was made during the American conglomerate merger wave of the late 1960s,
-when many firms diversified into unrelated industries.
+That argument was made at the end of the diversification trend of the late 1960s and early 1970s
+[Servaes 1996][research_servaes_1996].
 
-The market did not reward that wave in the way its advocates expected.
-Servaes studied the period directly and found no evidence that diversified firms were valued at a premium during the 1960s and 1970s.
-He found a large diversification discount in the 1960s,
+Servaes studied that period directly and found no evidence that diversified firms were valued at a premium during the 1960s and 1970s.
+The same study found a large diversification discount in the 1960s,
 which declined to zero during the 1970s
 [Servaes 1996][research_servaes_1996].
 By the 1980s the trend had reversed toward focus.
@@ -58,16 +59,19 @@ a positive relation between stock returns and increases in focus,
 and the failure of diversified firms to exploit the financial economies of scope that coinsurance and internal capital markets were supposed to provide
 [Comment and Jarrell 1995][research_comment_jarrell_1995].
 
-The two measures still in use were published in 1994 and 1995.
+The two most common measures were published in 1994 and 1995.
 Lang and Stulz compared the Tobin's q of diversified firms with that of portfolios of single-segment firms
 [Lang and Stulz 1994][research_lang_stulz_1994],
 and Berger and Ofek compared actual firm value with the sum of imputed stand-alone segment values
 [Berger and Ofek 1995][research_berger_ofek_1995].
 Both found a discount.
-Much of the later literature uses one of these measures or argues against it.
-Two surveys of the literature cover the decade after them
+Much of the later literature uses one of these measures or argues against it,
+and Hund, Monk and Tice describe the Berger and Ofek measure as widely used
+[Hund, Monk and Tice 2024][research_hund_monk_tice_2024].
+Two surveys review the literature that followed,
+one published in 2003
 [Martin and Sayrak 2003][research_martin_sayrak_2003]
-and the decade after that
+and one in 2013
 [Erdorf, Hartmann-Wendels, Heinrichs and Matz 2013][research_erdorf_2013].
 
 ## The Quantity of Interest Is a Counterfactual
@@ -87,7 +91,7 @@ The first term is observed for a listed firm.
 The second term is never observed for the same segments at the same time,
 because a segment that is operated inside the conglomerate is not also trading as an independent company.
 Every measure in the literature therefore replaces $V^{s}_{i}$ with an estimate built from other firms,
-and every dispute in the literature is, at bottom, a dispute about whether that estimate is a fair stand-in.
+and most of the disputes reviewed below are, at bottom, disputes about whether that estimate is a fair stand-in.
 
 This is the same structure as a treatment effect in econometrics.
 Diversification is the treatment,
@@ -106,7 +110,8 @@ They then compare the sum of those imputed values with the firm's actual value
 
 Define the symbols before the equations.
 $V$ is the firm's total capital,
-taken as the market value of equity plus the book value of debt.
+taken as the market value of equity plus the book value of debt
+[Mansi and Reeb 2002][research_mansi_reeb_2002].
 $A_{i}$ is an accounting item for segment $i$,
 such as its sales or its assets,
 in the same currency units as $V$.
@@ -185,7 +190,7 @@ a gap of 11.9 log points.
 Nothing in the definition says which base is correct.
 Sales and assets each proxy for the scale of a segment,
 and they disagree whenever a segment's asset intensity differs from that of its median peer,
-as segment B's does here.
+as it does for all three segments here and for segment C most of all.
 The measure is fully specified once the base is chosen,
 but the choice of base is a modelling decision that moves the answer by about as much as the published average discount.
 
@@ -242,7 +247,7 @@ and they find no evidence that diversification provides a valuable intangible as
 [Lang and Stulz 1994][research_lang_stulz_1994].
 The second finding is an early warning of the selection problem discussed below.
 
-The portfolio comparison works as follows.
+One way to build the portfolio comparison, weighting each peer q by the segment's assets, is as follows.
 Let $K_{i}$ be the replacement cost of segment $i$'s assets and $K = \sum_{i} K_{i}$.
 Let $\bar{q}_{i}$ be the median q of single-segment firms in segment $i$'s industry.
 The firm's own q and its imputed q are then defined as follows.
@@ -299,13 +304,13 @@ What the data cannot supply without further assumptions is the selection term.
 
 Several papers estimate it and find it large.
 Campa and Kedia control for the endogeneity of the decision to diversify with three econometric techniques.
-They find a strong negative correlation between the choice to diversify and firm value,
-and the discount in their estimates always drops and sometimes becomes a premium
+The choice to diversify is strongly and negatively correlated with firm value,
+and once it is modelled the discount always drops and sometimes becomes a premium
 [Campa and Kedia 2002][research_campa_kedia_2002].
 Graham, Lemmon and Wolf study several hundred firms that expand by acquisition or add segments.
-Much of the decline in excess value, in their account, occurs because the firms acquire business units that were already discounted,
+Much of the decline in excess value, by that account, occurs because the firms acquire business units that were already discounted,
 not because diversifying destroys value.
-They also find that excess value does not fall when the number of reported segments rises only because of a change in reporting
+Excess value, they add, does not fall when the number of reported segments rises only because of a change in reporting
 [Graham, Lemmon and Wolf 2002][research_graham_lemmon_wolf_2002].
 Villalonga matches diversifying and single-segment firms on their propensity to diversify
 and finds that on average diversification does not destroy value
@@ -320,9 +325,9 @@ but remains statistically and economically significant once firm fixed effects a
 including within selection and instrumental-variable frameworks
 [Ammann, Hoechle and Schmid 2011][research_ammann_hoechle_schmid_2011].
 Eulerich and Fligge study about 6,000 German firm-years from 2000 to 2019
-and find a discount of 7.9 to 11.5 percent.
+and measure a discount of 7.9 to 11.5 percent.
 They report that design choices related to self-selection have the largest effect on the result,
-and with two-stage least squares they find no causal relation between diversification and market value
+and two-stage least squares yields no causal relation between diversification and market value
 across the instruments and excess-value measures they test
 [Eulerich and Fligge 2024][research_eulerich_fligge_2024].
 The disagreement between these results turns on assumptions that cannot be tested from the data alone,
@@ -341,35 +346,42 @@ The selection critique questions the comparison group.
 A second family of critiques questions the inputs.
 
 **Segment data.**
-The segments that firms report are defined by their managers,
-not by a statistical agency.
 Villalonga rebuilt business units from the Business Information Tracking Series,
-a census database that covers the United States economy at the establishment level.
+a census database that covers the United States economy at the establishment level,
+on the argument that such units are more consistently and objectively defined than the segments firms report.
 On a sample that shows a discount with segment data,
-she finds a diversification premium that is robust to variations in sample, business-unit definition and measures of excess value
+the rebuilt units show a diversification premium that is robust to variations in sample, business-unit definition and measures of excess value
 [Villalonga 2004][research_villalonga_2004].
 Segment reporting itself changed in 1997,
-when Statement of Financial Accounting Standards No. 131 replaced the earlier standard.
+when Statement of Financial Accounting Standards No. 131,
+or SFAS 131,
+established a new segment-reporting standard for public companies in the United States
+[He 2009][research_he_2009].
 According to Berger and Hann, the new standard increased the number of reported segments,
 revealed previously hidden information about diversification,
 and affected market valuations
 [Berger and Hann 2003][research_berger_hann_2003].
 A discount measured across the change in standard is therefore measured on two different definitions of a segment.
+The same paper finds a diversification premium in data after 1997,
+using diversity measures and a control for the endogeneity of the decision to diversify,
+and a discount in the earlier data that is statistically weaker once endogeneity is controlled for
+[He 2009][research_he_2009].
 
 **The book value of debt.**
 The standard measure adds the market value of equity to the book value of debt.
-If diversification lowers risk,
+Mansi and Reeb argue that because diversification lowers risk,
 the debt of a diversified firm is worth more relative to its book value than the debt of a focused firm,
-and using book values understates the diversified firm's total capital.
-Mansi and Reeb report that losses to shareholders from diversification depend on leverage,
+so that using book values understates the diversified firm's total capital.
+They report that losses to shareholders from diversification depend on leverage,
 that firms with no debt show no discount,
 and that once the bias is addressed diversification is insignificantly related to excess value
 [Mansi and Reeb 2002][research_mansi_reeb_2002].
-Glaser and Müller reach a similar conclusion for German firms,
-estimating market values of debt for the whole sample
+Glaser and Müller estimate market values of debt for a whole sample of German firms.
+Book values understate the value of diversified firms in that sample,
+and mainly equity-financed firms show no discount
 [Glaser and Müller 2010][research_glaser_muller_2010].
-Ammann, Hoechle and Schmid accept that the discount rises with leverage and is absent for all-equity firms,
-but find that using an imputed market value of debt reduces the discount only by a small fraction
+Ammann, Hoechle and Schmid also find that the discount rises with leverage and is absent for all-equity firms,
+but conclude that using an imputed market value of debt reduces the discount only by a small fraction
 [Ammann, Hoechle and Schmid 2011][research_ammann_hoechle_schmid_2011].
 The worked example shows why the direct correction can be small.
 Raising the debt of the hypothetical firm from its book value of 3,500 to a market value of 3,700
@@ -377,8 +389,8 @@ moves the sales-based excess value from $-0.1655$ to $\ln(10{,}200 / 11{,}800) =
 a change of 2.0 log points.
 
 **Debt maturity.**
-Onali and Ye find, in data on 30,135 firms from 1978 to 2022,
-that multi-division firms have debt maturities at least one year longer than stand-alone firms,
+In data on 30,135 firms from 1978 to 2022,
+Onali and Ye observe that multi-division firms have debt maturities at least one year longer than stand-alone firms,
 and that the excess values of both Berger and Ofek and of Mansi and Reeb rise with debt maturity.
 They conclude that traditional measures of the discount could be misleading
 [Onali and Ye 2025][research_onali_ye_2025].
@@ -386,34 +398,36 @@ They conclude that traditional measures of the discount could be misleading
 **Measurement error in q.**
 Whited treats q as a noisy proxy for investment opportunities.
 With an estimator consistent under measurement error,
-she finds no evidence of inefficient allocation of investment across divisions,
-and she attributes the earlier results to measurement error and to the correlation between investment opportunities and liquidity
+the study finds no evidence of inefficient allocation of investment across divisions,
+and it attributes the earlier results to measurement error and to the correlation between investment opportunities and liquidity
 [Whited 2001][research_whited_2001].
 This critique is aimed at the evidence for one mechanism behind the discount rather than at the discount itself,
-but it matters because that mechanism is the main argument that the discount is real.
+but it matters because that mechanism is a leading argument that the discount is real.
 
 ## Mechanisms That Would Make the Discount Real
 
 If the discount is real,
 something about operating businesses together must lower their combined value.
-The leading candidate is the internal capital market,
+A leading candidate in the literature is the internal capital market,
 the process by which headquarters reallocates cash among divisions.
 Theory supplies arguments on both sides.
 
 **The case that internal capital markets add value.**
 Stein models a headquarters that, unlike a bank, has control rights that let it shift funds from weaker projects to stronger ones,
-which he calls winner-picking,
+a practice the paper calls winner-picking,
 and shows that this can create value even when it does nothing to relax the firm's overall credit constraint.
-He adds that internal capital markets may work better when headquarters oversees a small and focused set of projects
+The model also implies that internal capital markets may work better when headquarters oversees a small and focused set of projects
 [Stein 1997][research_stein_1997].
 Duchin finds that multidivision firms hold less cash than stand-alone firms because their investment opportunities are diversified,
-and he interprets the pattern as efficient transfers from low-productivity to high-productivity divisions
+and the paper reads the pattern as efficient transfers from low-productivity to high-productivity divisions
 [Duchin 2010][research_duchin_2010].
-Hann, Ogneva and Ozbas find that diversified firms have on average a lower cost of capital than comparable portfolios of stand-alone firms,
+Hann, Ogneva and Ozbas estimate that diversified firms have on average a lower cost of capital than comparable portfolios of stand-alone firms,
 with a larger benefit when segment cash flows are less correlated,
-which supports the coinsurance argument
+which is consistent with the coinsurance argument
 [Hann, Ogneva and Ozbas 2013][research_hann_ogneva_ozbas_2013].
-Dimitrov and Tice find that in recessions the sales and inventories of bank-dependent focused firms fall more than those of comparable segments of bank-dependent diversified firms,
+During recessions, according to Dimitrov and Tice,
+the sales and inventories of bank-dependent focused firms fall more
+than those of comparable segments of bank-dependent diversified firms,
 with no difference among firms that do not depend on banks
 [Dimitrov and Tice 2006][research_dimitrov_tice_2006].
 For Kuppuswamy and Villalonga, the value of diversification increased during the 2007 to 2009 financial crisis,
@@ -430,20 +444,20 @@ but as diversity in resources and opportunities grows,
 funds can flow toward the least efficient division.
 They report evidence consistent with this in a panel of diversified United States firms from 1980 to 1993
 [Rajan, Servaes and Zingales 2000][research_rajan_servaes_zingales_2000].
-Shin and Stulz find that a segment's investment depends on the cash flow of the firm's other segments,
+Shin and Stulz show that a segment's investment depends on the cash flow of the firm's other segments,
 and that this sensitivity does not depend on whether the segment's investment opportunities are better than the others'
 [Shin and Stulz 1998][research_shin_stulz_1998].
 Lamont shows that after the 1986 fall in oil prices,
 oil companies cut investment in their non-oil subsidiaries relative to industry medians,
 evidence that the finance costs of different parts of one firm are linked
 [Lamont 1997][research_lamont_1997].
-Ozbas and Scharfstein find that unrelated segments of conglomerates invest less than stand-alone firms in high-q industries,
+Ozbas and Scharfstein document that unrelated segments of conglomerates invest less than stand-alone firms in high-q industries,
 with larger differences where top management owns little of the firm
 [Ozbas and Scharfstein 2009][research_ozbas_scharfstein_2009].
 Kisgen and Kong use changes in federal government spending as demand shocks
-and find cross-subsidization between segments that worsens operating performance and increases the discount
+and identify cross-subsidization between segments that worsens operating performance and increases the discount
 [Kisgen and Kong 2022][research_kisgen_kong_2022].
-Chen and Chen find declines in both excess value and investment efficiency after asset purchases that increase a firm's diversity
+Chen and Chen observe declines in both excess value and investment efficiency after asset purchases that increase a firm's diversity
 [Chen and Chen 2011][research_chen_chen_2011].
 Lamont and Polk use changes in industry investment as a source of variation that the firm does not choose,
 and increases in diversity turn out to be negatively related to firm value,
@@ -454,7 +468,7 @@ concluding that the discount is at least partly a real loss and not only an arti
 [Burch and Nanda 2003][research_burch_nanda_2003].
 
 **Agency and governance.**
-Denis, Denis and Sarin find that diversification falls as managerial and blockholder ownership rises,
+Denis, Denis and Sarin report that diversification falls as managerial and blockholder ownership rises,
 and that firms refocus after control threats, financial distress and management turnover.
 They read this as evidence that agency problems sustain value-reducing diversification
 [Denis, Denis and Sarin 1997][research_denis_denis_sarin_1997].
@@ -474,10 +488,10 @@ which can produce a discount alongside positive returns to diversification annou
 Gomes and Livdan argue that the main empirical findings on diversification and performance are consistent with maximizing shareholder value
 [Gomes and Livdan 2004][research_gomes_livdan_2004].
 Anjos and Fracassi model synergies that decline as technology specializes,
-which explains the long decline in diversification since the late 1970s and matches the size of the discount among other moments
+which accounts for the long decline in diversification since the late 1970s and matches the size of the discount among other moments
 [Anjos and Fracassi 2018][research_anjos_fracassi_2018].
-In these models firms that diversify are those whose focused prospects were weaker,
-which is the selection term of the previous section given an economic interpretation.
+In models of this kind the firms that diversify can differ systematically from those that stay focused,
+which gives the selection term of the previous section an economic interpretation.
 
 ## Cash Flows, Discount Rates and Prices
 
@@ -504,19 +518,20 @@ With $g = 4$ percent,
 a discount rate of 10 percent for the conglomerate against 9 percent for the stand-alone portfolio
 lowers value by the factor $0.05 / 0.06 = 0.833$,
 a discount of 16.7 percent with identical cash flows.
-A difference of one percentage point in expected return is enough to produce a discount of the size usually reported.
+Under these assumptions,
+a difference of one percentage point in expected return is enough to produce a discount of the size usually reported.
 
 Lamont and Polk find that firms trading at a discount have higher subsequent returns than firms trading at a premium,
 and that slightly more than half of the cross-sectional variation in excess values is due to expected future cash flows,
 with the remainder due to expected returns and the covariation of the two
 [Lamont and Polk 2001][research_lamont_polk_2001].
-Part of the measured discount is therefore a higher expected return to holders of diversified firms,
-not a loss of cash flow.
+Part of the variation in measured excess values therefore reflects differences in expected returns,
+not differences in cash flow.
 Reed, Saffi and Van Wesep offer one reason prices could differ without any difference in cash flows.
 Investors disagree less about a conglomerate than about each of its divisions,
 and when short sales are constrained greater disagreement raises prices,
 so pure-play firms can trade above conglomerates for this reason alone.
-In their data conglomerates show less disagreement among investors and fewer short-sale constraints than pure plays,
+Empirically, conglomerates show less disagreement among investors and fewer short-sale constraints than pure plays,
 and both measures predict valuation differences
 [Reed, Saffi and Van Wesep 2021][research_reed_saffi_van_wesep_2021].
 For banks, Bressan and Weissensteiner relate the financial conglomerate discount to lower skewness in returns
@@ -529,42 +544,46 @@ which is a separate question from whether they are better run.
 ## The Discount Varies by Place, Time and Industry
 
 The discount is not a constant.
-Lins and Servaes find no significant discount in Germany,
+Lins and Servaes estimate no significant discount for Germany,
 a discount of 10 percent in Japan and one of 15 percent in the United Kingdom for 1992 and 1994.
 In Japan only firms with strong links to an industrial group are discounted
 [Lins and Servaes 1999][research_lins_servaes_1999].
-In seven emerging markets at the end of 1995 they find a discount of about seven percent,
+In seven emerging markets at the end of 1995 the same authors measure a discount of about seven percent,
 concentrated in firms that belong to industrial groups and in firms whose managers hold between 10 and 30 percent of the shares
 [Lins and Servaes 2002][research_lins_servaes_2002].
 Khanna and Palepu find that affiliates of the most diversified Indian business groups outperform unaffiliated firms,
 in contrast to the lines of business of conglomerates in the United States
 [Khanna and Palepu 2000][research_khanna_palepu_2000].
-Practitioner work from 2011 reports conglomerate multiples about 10 percent below those of pure-play peers in North America and Western Europe,
+A 2011 study in a practitioner journal reports conglomerate multiples about 10 percent below those of pure-play peers in North America and Western Europe,
 and premiums in Japan and Latin America
 [Khorana, Shivdasani, Stendevad and Sanzhar 2011][research_khorana_2011].
 
 The discount also moves over time.
 Servaes documents its fall from large to zero between the 1960s and the 1970s
 [Servaes 1996][research_servaes_1996].
-Rudolph and Schwetzler study more than 65,000 firm-years across four regions
+Rudolph and Schwetzler study firms in four regions
 and conclude that the 2008 to 2009 financial crisis narrowed the discount where capital markets were well developed,
 with an insignificant effect in Continental Europe
 [Rudolph and Schwetzler 2013][research_rudolph_schwetzler_2013].
-Doerr, Marin, Suverato and Verdier find that import competition from China disciplines division managers,
-improves capital allocation and lowers the discount,
-which they use to explain why exporters show a smaller discount than non-exporters
+Doerr, Marin, Suverato and Verdier model international competition as a discipline on division managers
+that improves capital allocation and lowers the discount,
+confirm the prediction with the import shock from China,
+and use it to explain why exporters show a smaller discount than non-exporters
 [Doerr, Marin, Suverato and Verdier 2025][research_doerr_2025].
 
 Industry structure matters too.
-Santalo and Becerra find that diversified firms perform better in industries with few specialized competitors
+In the data of Santalo and Becerra, diversified firms perform better in industries with few specialized competitors
 and worse as specialized firms gain combined market share
 [Santalo and Becerra 2008][research_santalo_becerra_2008].
 Among financial firms,
-Laeven and Levine find that conglomerates combining lending with other financial services are valued below portfolios of specialized firms,
+Laeven and Levine conclude that conglomerates combining lending with other financial services are valued below portfolios of specialized firms,
 and they attribute the gap to agency problems
 [Laeven and Levine 2007][research_laeven_levine_2007].
 
-A discount that changes sign between countries and shrinks in a crisis is easier to explain as a variable relation between diversification and the surrounding capital markets than as a fixed property of conglomerates.
+In this article's reading,
+a discount that changes sign between countries and shrinks in a crisis
+is easier to explain as a variable relation between diversification and the surrounding capital markets
+than as a fixed property of conglomerates.
 
 ## The Evidence from Breakups
 
@@ -579,7 +598,7 @@ and the announcement price reflects the probability of completion and every othe
 
 The announcement evidence is positive on average.
 Veld and Veld-Merkoulova combine 26 event studies in a meta-analysis
-and find a significantly positive average abnormal return of 3.02 percent around the announcement.
+and obtain a significantly positive average abnormal return of 3.02 percent around the announcement.
 Returns are higher for larger spin-offs, for tax-favoured or regulation-favoured divestments, and for spin-offs that improve industrial focus
 [Veld and Veld-Merkoulova 2009][research_veld_2009].
 Desai and Jain find that focus-increasing spin-offs earn larger announcement returns and larger long-run abnormal returns than spin-offs that do not increase focus
@@ -587,7 +606,7 @@ Desai and Jain find that focus-increasing spin-offs earn larger announcement ret
 
 The long-run evidence is weaker than it once appeared.
 Cusatis, Miles and Woolridge report positive abnormal returns for spun-off firms, their parents and the combinations,
-but find that the abnormal performance is limited to firms involved in takeovers,
+but the abnormal performance is confined to firms involved in takeovers,
 which suggests that the spin-off works by making a transfer of control cheaper
 [Cusatis, Miles and Woolridge 1993][research_cusatis_miles_woolridge_1993].
 Veld and Veld-Merkoulova note that later studies with more refined statistical tests no longer find the long-run superior performance that early studies reported
@@ -598,7 +617,10 @@ An average announcement return of about 3 percent of the parent's value is far s
 but the two figures come from different samples,
 and an announcement return is an expected value that discounts for the chance the spin-off fails or disappoints.
 The comparison cannot show what fraction of a discount a breakup recovers.
-It does show that the market does not, on average, expect the whole measured discount to be recovered at announcement.
+If the samples were comparable,
+the gap would suggest that the market does not expect a breakup to recover the whole measured discount,
+but they are not,
+so this is a hypothesis rather than a finding.
 
 ## What Can Be Computed for One Company
 
@@ -613,13 +635,16 @@ and record that their boundaries are management's choice.
 2. For each segment,
 choose a peer set of focused listed firms,
 and match on size and age as well as industry,
-since the evidence above shows that industry matching alone biases the result.
+since Hund, Monk and Tice find that matching on industry alone biases the result
+[Hund, Monk and Tice 2024][research_hund_monk_tice_2024].
 3. Compute the imputed value on more than one base,
 such as sales, assets and operating earnings,
 and report the range rather than a single figure.
 4. Use the market value of debt where it can be estimated,
 and state the leverage of the firm,
-since several studies find the discount concentrated in levered firms.
+since several studies find the discount concentrated in levered firms
+[Mansi and Reeb 2002][research_mansi_reeb_2002]
+[Ammann, Hoechle and Schmid 2011][research_ammann_hoechle_schmid_2011].
 5. Subtract the cost of the headquarters and any shared services that the stand-alone firms would have to duplicate,
 and add any tax benefits or financing advantages they would lose,
 since the imputed value otherwise assumes these are zero.
@@ -627,7 +652,7 @@ since the imputed value otherwise assumes these are zero.
 and treat any figure within that range as consistent with no discount at all if the range includes zero.
 
 In the worked example the range across two bases alone runs from 4.6 to 15.3 percent,
-and a plausible size bias in the peers is enough to move the upper figure most of the way to zero.
+and a size bias of 10 percent in the peers moves the upper figure from 15.3 to 5.8 percent.
 An analyst who reports only one of these numbers is reporting a modelling choice as if it were a measurement.
 
 ## Epistemic State
@@ -639,10 +664,15 @@ the international figures are those of Lins and Servaes,
 the German figure of 7.9 to 11.5 percent is that of Eulerich and Fligge,
 the governance reductions of 16 to 21 and 37 percent are those of Hoechle and coauthors,
 and the 3.02 percent announcement return is the meta-analytic average of Veld and Veld-Merkoulova.
-Each finding attributed to a paper is taken from that paper's abstract or, for Cusatis and coauthors, Burch and Nanda, Desai and Jain, Glaser and Müller, Hann and coauthors, Hoechle and coauthors, Laeven and Levine, Lamont and Polk 2002, Rudolph and Schwetzler, and Villalonga 2000, from summaries of the abstract and published listings.
+Each finding attributed to a paper is taken from that paper's abstract,
+except for ten papers whose findings are taken from summaries of the abstract and from published listings.
+Those are the papers of Cusatis and coauthors, Burch and Nanda, Desai and Jain, Glaser and Müller, Hann and coauthors,
+Hoechle and coauthors, Laeven and Levine, Lamont and Polk 2002, Rudolph and Schwetzler, and Villalonga 2000.
 None of the papers was read in full,
 so details of sample construction, trimming and estimation are not reported here unless the abstract states them.
-The two surveys and the Lewellen paper are cited for their subject and their argument as titled and widely summarized.
+The two surveys and the Lewellen paper are cited for their subject and their argument as titled and widely summarized,
+and the Scharfstein and Stein paper for the model its title describes.
+The weighting by assets in the q example is one construction among several and is not claimed to be the one Lang and Stulz use.
 
 **Analysis in this article.**
 The counterfactual framing,
@@ -660,7 +690,8 @@ not how large it is in any published sample.
 **Inference and judgment.**
 The conclusion that the measure is settled while its interpretation is not
 is a judgment about the state of a literature that remains active.
-Papers published in 2024 and 2025 continue to disagree on whether the Berger and Ofek discount survives better matching,
+Papers published in 2024 and 2025 continue to question the standard measure on peer matching and on debt maturity,
+while a 2024 study of German firms still measures a discount of 7.9 to 11.5 percent,
 and the instrumental-variable and fixed-effect results conflict on assumptions that the data cannot test.
 A reader who holds that firm fixed effects adequately control for selection
 will weigh the Ammann and coauthors result more heavily than this article does,
@@ -689,7 +720,7 @@ The Berger and Ofek excess value and the Lang and Stulz comparison of q are prec
 easy to reproduce,
 and have been applied to many samples in many countries.
 Under them,
-diversified firms in the United States in the 1980s and 1990s were valued on average below the imputed values of their segments,
+diversified firms in the United States in the 1980s and early 1990s were valued on average below the imputed values of their segments,
 with a widely cited loss of 13 to 15 percent.
 
 What the mathematics cannot do is observe the counterfactual it estimates.
@@ -700,13 +731,13 @@ on how debt is valued,
 on how segments are defined
 and on how extreme values are averaged.
 The worked example in this article produces discounts from about 5 to 15 percent for one firm on reasonable choices,
-and a size bias in the peers can move the result to zero.
+and a size bias of about 15 percent in the peer multiples would move the larger figure to zero.
 
 Whether conglomeration causes the measured gap remains contested.
 Corrections for the selection of firms into diversification shrink the discount and sometimes reverse it,
 while fixed-effect estimates, industry-shock designs and spin-off reconstructions find that part of it is real.
 Its size varies with country, period, industry and the state of capital markets,
-and part of it appears as higher expected returns rather than lower cash flows.
+and part of its variation across firms reflects expected returns rather than cash flows.
 A sum-of-the-parts gap for one company is best read as a range of estimates whose sign is not guaranteed,
 and spin-off evidence does not show that a breakup reliably recovers it.
 
@@ -741,6 +772,7 @@ and spin-off evidence does not show that a breakup reliably recovers it.
 - [Research, Gomes and Livdan 2004, Optimal Diversification, Reconciling Theory and Evidence][research_gomes_livdan_2004]
 - [Research, Graham, Lemmon and Wolf 2002, Does Corporate Diversification Destroy Value?][research_graham_lemmon_wolf_2002]
 - [Research, Hann, Ogneva and Ozbas 2013, Corporate Diversification and the Cost of Capital][research_hann_ogneva_ozbas_2013]
+- [Research, He 2009, Corporate Diversification and Firm Value, Evidence from Post-1997 Data][research_he_2009]
 - [Research, Hoechle, Schmid, Walter and Yermack 2012, How Much of the Diversification Discount Can Be Explained by Poor Corporate Governance?][research_hoechle_2012]
 - [Research, Hund, Monk and Tice 2024, The Berger and Ofek Diversification Discount Is Just Poor Firm Matching][research_hund_monk_tice_2024]
 - [Research, Khanna and Palepu 2000, Is Group Affiliation Profitable in Emerging Markets?][research_khanna_palepu_2000]
@@ -803,6 +835,7 @@ and spin-off evidence does not show that a breakup reliably recovers it.
 [research_gomes_livdan_2004]: https://doi.org/10.1111/j.1540-6261.2004.00641.x
 [research_graham_lemmon_wolf_2002]: https://doi.org/10.1111/1540-6261.00439
 [research_hann_ogneva_ozbas_2013]: https://doi.org/10.1111/jofi.12067
+[research_he_2009]: https://doi.org/10.1111/j.1468-2443.2009.01096.x
 [research_hoechle_2012]: https://doi.org/10.1016/j.jfineco.2011.03.025
 [research_hund_monk_tice_2024]: https://doi.org/10.1561/104.00000135
 [research_khanna_palepu_2000]: https://doi.org/10.1111/0022-1082.00229

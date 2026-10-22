@@ -4,6 +4,27 @@
 
 ## Last Updated
 
+**Date**: 2026-10-21 (fourth entry)
+**Task**: **A378, ALL FOUR PASSES COMPLETE. Committed, NOT pushed, NOT published.** On the pilot's instruction, "Run the remaining three passes on A378."
+
+**Citation pass.** Every sentence was checked against its source, with 40 edits in two rounds.
+- The opening's unsourced generalization now quotes the Wikipedia figure.
+- These overstatements were qualified: "every dispute", "the leading candidate", "several studies" (now cited), the matching evidence (now attributed to one paper), and the claim that the value-maximizing models all select weaker firms.
+- The Lamont and Polk 2001 result was restated. It concerns variation in excess values, not the level of the discount.
+- The spin-off comparison now ends as a hypothesis, not a finding.
+- The q example's asset weighting is labelled as one construction, not as the Lang and Stulz method.
+- SFAS 131 is dated 1997 from He 2009, a new reference that also reports a premium after 1997.
+- Gendered pronouns for authors whose pronouns are not stated were replaced with names.
+- Scharfstein and Stein is now declared title-only.
+
+**Word usage pass.** Measured against 333 published posts. The one tic was the citation verb `find`, at 32 uses and 2.70 times the peer maximum, now cut to 16, below the maximum. The rotation pushed `their` over the maximum, the before-and-after diff caught it, and it is back under. The remaining outliers are subject terms, plus `hypothetical`, which marks every invented example and is kept on purpose.
+
+**Publication review.** Clean on punctuation, contractions, acronyms (SFAS spelled out at first use), reference integrity and ordering, and line structure (three long lines broken). Every worked number recomputed. 57 of 57 DOIs are registered and 5 of 5 Wikipedia pages return 200. `_verify.py` reports 0 errors and 0 warnings, the scratch production build passed, and the render audit found nothing on 545 pages. The article is 870 lines, with 13 display equations and 62 references.
+
+**Next, on the pilot's word.** Publication. This is a single `git mv` to `_posts/2026-08-14-conglomerate_discount.markdown`, with no `post_url` interlock, and it creates the first `finance` category archive. The release announcement will be drafted at publication.
+
+## Previous Report (2026-10-21, third entry)
+
 **Date**: 2026-10-21 (third entry)
 **Task**: **A378 DRAFTED, *What the Conglomerate Discount Measures*, editorial date 2026-08-14. Committed, NOT pushed, NOT published.** On the pilot's instruction, "Draft an article on this topic using the next slotted article number, and backdate it to 2026-08-14."
 
