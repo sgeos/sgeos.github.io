@@ -4,6 +4,29 @@
 
 ## Last Updated
 
+**Date**: 2026-10-24 (fifth entry)
+**Task**: **Peer review now credited only when verified, and transient tooling promoted to tracked commands. Committed, NOT pushed.** A384's References section changed, and A384 is live, so the push awaits the pilot's word.
+
+**Peer review.** On the pilot's ruling, a venue is credited only when its own page was read and a verbatim quote recorded with method `fetched`, and validation refuses anything less. Nine of A384's eighteen journals were verified: *American Journal of Physics*, *Applied Optics*, *Astronomical Journal*, *Astrophysical Journal*, *Astrophysical Journal Letters*, *Geology*, *Journal of Propulsion and Power*, *Journal of Spacecraft and Rockets* and *Nature*, the last from 1973. Elsevier, AGU, EDP Sciences and *Science* pages refused automated reading, so *Acta Astronautica*, *Icarus*, *Planetary and Space Science*, *Astronomy & Astrophysics*, the three AGU journals and *Science* are not credited. *Space Science Reviews* is not credited because Springer's "research content" wording does not say whether invited reviews and mission descriptions count. A384 now lists 12 Primary Sources, Peer-Reviewed, down from 52, and 53 Primary Sources, Non-Peer-Reviewed. Killen 2007 and Domingue 2014 stay Secondary under rule 5. **Each uncredited journal is a one-line promotion** once a person reads its page in a browser and records the quote. The pages are listed in each venue's `evidence` and `basis` in `_sources/venues.jsonl`.
+
+**Known weakness, stated in the spec.** A statement with no date is applied to every year. The stricter reading would credit no work older than the statement.
+
+**Promoted tooling.** A375 to A384 carried 37 scripts that called `urllib` directly, 4 that imported `fetch`, 16 hand-rolled edit loops, and none that imported `edits`. A module with no command line is bypassed by one-shot work, so each promotion is a command that reads data.
+- `_lib/edits.py apply EDITS.toml`. TOML literal strings cannot carry the doubled-backslash defect. An edit already applied is refused unless `--rerun` is given, which stops an insertion being applied twice. The lint guard now refuses only new defects.
+- `_lib/registry.py`: `crossref`, `openalex`, `grep-abstracts`, `abstract`, `works` and `type`. These replace the per-article search, abstract and metadata scripts. A failed request is reported and exits 1 rather than reading as an empty result.
+- `_lib/harvest.py`: the A370 to A372 survey pipeline driven by `tmp/<article>/survey.toml`. On A372's saved pools its select, master and assemble outputs are identical to A372's own scripts against the same store, byte for byte for the draft.
+- `_lib/sources_import.py`: `fetch-crossref`, `pin-wiki` and `import`, with decisions in `_sources/decisions/A384.toml`. Rebuilding A384 reproduces its 99 records exactly, and re-pinning reproduces its 25 Wikipedia pins.
+- `_lib/textscan.py`: `ctx` and `strip-wikitext`.
+- `_lib/render.py` now reports same-site links to a missing fragment. The live build has 1,813 such links, 31 of them cross-page, and none are broken.
+
+**Not promoted, by decision.** The completed corpus campaigns under `tmp/cite/`, `tmp/fix5/`, `tmp/fix6/` and `retrofit/`. `calc` and `verify_numbers` payloads. `wordcheck` and `phrases`, which already exist as `diction.py` commands.
+
+**Verification.** `test_lib.py` 141 of 141. `test_sources.py` 36 of 36. Two deliberate breakages, one in the rerun guard and one in the evidence rule, were each caught. `_verify.py --strict` 0 errors and 0 warnings. `./_check.sh` passed with 551 pages and no render findings, including the new fragment check.
+
+**Open.** Browser reading of the eight blocked venue pages, and the *Space Science Reviews* scope question. The tests are not yet run in CI.
+
+## Previous Report (2026-10-24, fourth entry)
+
 **Date**: 2026-10-24 (fourth entry)
 **Task**: **A384 converted to Chicago author-date from a prototype source database. Committed, NOT pushed.** A384 is live, so the push changes a published page and awaits the pilot's word.
 

@@ -1,0 +1,46 @@
+# Import decisions for A384, Mercury as a Colony and a Launch Site.
+# Reviewed 2026-10-24. Read by `python3 _lib/sources_import.py import`.
+# The registry caches named below are scratch and are not tracked.
+
+article = "A384"
+crossref_cache = "tmp/a384/proto/crossref"
+wiki_pins = "tmp/a384/proto/wiki_pins.json"
+
+[title]
+ref_51_pegasi_b = "51 Pegasi b"
+ref_proxima_centauri_d = "Proxima Centauri d"
+ref_delta_v_budget = "Delta-v Budget"
+research_kopp_lean_2011 = "A New, Lower Value of Total Solar Irradiance: Evidence and Climate Significance"
+research_lario_et_al_2006 = "Radial and Longitudinal Dependence of Solar 4–13 MeV and 27–37 MeV Proton Peak Intensities and Fluences: Helios and IMP 8 Observations"
+research_dakermanji_jenkins_ercol_2006 = "The MESSENGER Spacecraft Solar Array Design and Early Mission Performance"
+
+[note]
+research_lario_et_al_2006 = "Crossref title wraps Helios and IMP 8 in italic tags with no surrounding spaces; spacing restored."
+
+[synthesis]
+research_killen_et_al_2007 = "Review of exospheric source and loss processes in the Space Science Reviews Mercury volume; judged from title and venue, no abstract available."
+research_domingue_et_al_2014 = "Review placing Mercury in the context of lunar and asteroidal space weathering studies; judged from title and venue, no abstract available."
+
+[fix.research_vasavada_paige_wood_1999]
+note = "Crossref lists only A. Vasavada. Authors from the citation in the Mercury article wikitext, revision 1381089194."
+set = { authors = [
+  { family = "Vasavada", given = "Ashwin R." },
+  { family = "Paige", given = "David A." },
+  { family = "Wood", given = "Stephen E." },
+] }
+
+[fix.research_benford_benford_2003]
+note = "Crossref lists only James Benford. AIP's own citation string names James Benford and Gregory Benford. Proceedings title from the Crossref event name, recased; the series and volume moved to number."
+drop = ["volume"]
+set = { authors = [
+  { family = "Benford", given = "James" },
+  { family = "Benford", given = "Gregory" },
+], container = "Beamed Energy Propulsion: First International Symposium on Beamed Energy Propulsion", number = "AIP Conference Proceedings 664" }
+
+[fix.research_kopp_lean_2011]
+note = "Crossref gives pages as n/a-n/a. Article number L01706 from the citation in the Solar irradiance article wikitext, consistent with bibcode 2011GeoRL..38.1706K. Crossref also appends the section label FRONTIER as a subtitle, omitted."
+set = { pages = "L01706" }
+
+[fix.research_solomon_et_al_2007]
+note = "Crossref spells the book title The Messenger Mission to Mercury; the mission name is the acronym MESSENGER."
+set = { container = "The MESSENGER Mission to Mercury" }

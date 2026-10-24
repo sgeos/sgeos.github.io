@@ -247,3 +247,96 @@ def openlibrary_search(query, limit=20, **kw):
     params = {"q": query, "limit": str(limit)}
     j = get_json(f"https://openlibrary.org/search.json?{urllib.parse.urlencode(params)}", **kw)
     return (j or {}).get("docs", []) or []
+
+
+# ---------------------------------------------------------------- OpenAlex
+
+OPENALEX = "https://api.openalex.org/works"
+
+
+def openalex_search(query, rows=25, filters=None, select=None, field="search", **kw):
+    """OpenAlex works matching `query`, or None on failure.
+
+    `field` is `search` for the full-text index, or a filter such as
+    `title_and_abstract.search` or `title.search`, which is folded into the
+    filter list. NONE, NOT AN EMPTY LIST, ON FAILURE, so a caller can tell a
+    query that matched nothing from one that never ran.
+    """
+    params = {"per-page": str(rows)}
+    flt = [filters] if filters else []
+    if field == "search":
+        params["search"] = query
+    else:
+        flt.append(f"{field}:{query}")
+    if flt:
+        params["filter"] = ",".join(flt)
+    if select:
+        params["select"] = select
+    j = get_json(f"{OPENALEX}?{urllib.parse.urlencode(params)}", **kw)
+    return None if j is None else (j.get("results") or [])
+
+
+def openalex_work(doi, **kw):
+    """One OpenAlex work by digital object identifier, or None."""
+    doi = doi.replace("https://doi.org/", "").strip()
+    return get_json(f"{OPENALEX}/doi:{urllib.parse.quote(doi, safe='/()')}", **kw)
+
+
+def openalex_abstract(work):
+    """Plain abstract text rebuilt from OpenAlex's inverted index, or ''.
+
+    OpenAlex stores each word with the positions it occupies. Twenty scratch
+    scripts rebuilt the text with the same one-line sort, which is this.
+    """
+    ii = (work or {}).get("abstract_inverted_index") or {}
+    return " ".join(w for _, w in sorted((p, w) for w, ps in ii.items() for p in ps))
+
+
+def crossref_abstract(msg):
+    """Crossref's abstract with its JATS markup removed, or ''."""
+    import re
+    text = re.sub(r"<[^>]+>", " ", (msg or {}).get("abstract", "") or "")
+    return re.sub(r"\s+", " ", text).strip()
+
+
+def doi_handle(doi, **kw):
+    """The Handle System response code for a DOI, 1 when it is registered.
+
+    This asks the registry directly rather than following the publisher's
+    landing page, which bot detection often blocks. It says the identifier
+    exists, not that it names the work it is cited for.
+    """
+    doi = doi.replace("https://doi.org/", "").strip()
+    j = get_json(f"https://doi.org/api/handles/{urllib.parse.quote(doi, safe='/()')}", **kw)
+    return None if j is None else j.get("responseCode")
+
+
+# ---------------------------------------------------------------- Wikipedia
+
+WIKIPEDIA_API = "https://en.wikipedia.org/w/api.php"
+
+
+def wikipedia_revision(title, before=None, oldid=None, **kw):
+    """One revision of an English Wikipedia article with its wikitext, or None.
+
+    With `oldid`, that revision. With `before`, an ISO 8601 timestamp, the
+    last revision at or before it, which is how a citation is pinned to the
+    text that was read. With neither, the current revision. Returns a dict of
+    `page_title`, `oldid`, `timestamp` and `content`. Redirects are followed,
+    so `page_title` may differ from `title`.
+    """
+    q = {"action": "query", "format": "json", "formatversion": "2", "prop": "revisions",
+         "rvprop": "ids|timestamp|content", "rvslots": "main"}
+    if oldid:
+        q["revids"] = str(oldid)
+    else:
+        q.update({"titles": title, "redirects": "1", "rvlimit": "1"})
+        if before:
+            q.update({"rvdir": "older", "rvstart": before})
+    j = get_json(f"{WIKIPEDIA_API}?{urllib.parse.urlencode(q)}", **kw)
+    pages = ((j or {}).get("query") or {}).get("pages") or []
+    if not pages or not pages[0].get("revisions"):
+        return None
+    rev = pages[0]["revisions"][0]
+    return {"page_title": pages[0]["title"], "oldid": rev["revid"], "timestamp": rev["timestamp"],
+            "content": rev["slots"]["main"]["content"]}

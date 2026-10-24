@@ -34,22 +34,25 @@ article-specific content alone.
 | Module | Responsibility | Replaces |
 |--------|----------------|----------|
 | `fetch.py` | One HTTP client with backoff and per-host throttling, plus Crossref, NTRS, DTIC, OSTI and Open Library adapters | 90 retry loops, 121 user agents |
-| `edits.py` | Whitespace-tolerant, all-or-nothing edit application with equation and invariant guards | 148 edit loops |
+| `edits.py` | Whitespace-tolerant, all-or-nothing edit application with equation and invariant guards, applied from a TOML edit file by its command line | 148 edit loops, 16 one-shot pass scripts in A381 to A384 |
 | `refs.py` | Anchor generation and parsing, link text, deduplication, and the categorised reference block | 19 `gen_refs`, 17 `gen_master` |
 | `reflow.py` | Paragraph rewrapping that keeps bold spans and link pairs atomic | 2 partial copies |
 | `lint.py` | Mid-edit invariant scan, separating defects from house conventions | 7 `check.py` |
 | `sources.py` | The source database, Chicago entries, generated References sections and their drift check. See `_docs/writing/CITATION_STYLE.md` | per-article `refsNNN.py` generators |
-| `sources_import.py` | Draft source records from Crossref, pinned Wikipedia revisions and related posts, with proposed headline-case titles | hand-typed reference labels |
+| `sources_import.py` | Draft source records from Crossref, pinned Wikipedia revisions and related posts, and import a whole post from a TOML decision file | hand-typed reference labels, the A384 prototype scripts |
 | `diction.py` | Word and phrase overuse, measured against peer articles rather than a fixed threshold | 4 `diction.py` |
 | `audit.py` | Equation gaps, citation gaps, thin sections, primary count and fraction | 13 `ref_audit`, 8 `eqn_scan` |
 | `numcheck.py` | Harness for re-deriving stated values independently, with property and bisection checks | 18 `verify_numbers` |
 | `citations.py` | Registry verification of recalled identifiers, sampling for retrieved ones | 13 `url_check`, 6 `verify_urls` |
 | `post.py` | What a post is made of. Document structure, defined once | 7 splits, 9 anchor patterns |
 | `gate.py` | Subject-anchor gating for a harvested corpus, with the two-sided random audit that is the only thing detecting a mis-tuned gate | 2 copied `select.py` |
-| `render.py` | Audit of BUILT HTML for defects a reader would see, and page-weight reporting | 1 ad hoc `audit_html.py` |
+| `render.py` | Audit of BUILT HTML for defects a reader would see, including same-site links to a missing fragment, and page-weight reporting | 1 ad hoc `audit_html.py`, 1 `fragcheck.py` |
 | `resolve.py` | Whether a cited identifier resolves at all, with registry fallback and bot-mitigation handling | 3 rewritten `sweep.py` |
 | `survey.py` | Recomputation of the statistics an article states about its own reference survey, since a presence check goes green precisely when a number goes stale | scratch `verify_survey.py` |
 | `progress.py` | Recomputation of the drafted count a resume channel states, against the drafts on disk | nothing, the count was maintained by hand |
+| `registry.py` | Command line for Crossref and OpenAlex search, abstract lookup and grep, DOI metadata with handle status, and OpenAlex work types | 37 raw-HTTP query scripts in A375 to A384 |
+| `harvest.py` | The survey pipeline, harvest, select, master and assemble, driven by one TOML file per article | per-article `harvest`, `select`, `gen_master`, `assemble` |
+| `textscan.py` | Context search in saved source text and removal of references from wikitext | 4 `ctx.py`, 3 `clean.py` |
 | `test_lib.py` | Regression tests, one per shipped defect, plus anti-duplication guards | |
 
 **The library reproduced its own defect within a day.** An audit found `fold` byte-identical in two
@@ -81,6 +84,55 @@ and `./_check.sh` at the repository root runs it the way CI does.
 `_verify_citations.py` asks whether it resolves to **the work it is cited as**, which catches a wrong
 identifier. An HTTP 200 does not verify a citation.
 
+## The Library Was Being Bypassed, and Why
+
+A second survey on 2026-10-24 found 4,368 distinct scratch scripts outside the repository, totalling 689,243
+lines. Across the whole of `tmp/` the library was adopted, with 366 scripts importing `fetch`. In the ten
+articles A375 to A384 it was not.
+
+| A375 to A384, 100 distinct scripts | files |
+|---|---|
+| open their own HTTP connections | 37 |
+| import `fetch` | 4 |
+| re-implement the exactly-once edit loop | 16 |
+| import `edits` | 0 |
+
+**A module with no command line is bypassed by one-shot work.** Every bypassing script was a few lines, a
+search, an abstract lookup or a single edit pass, and for a one-shot task retyping a loop is cheaper than
+writing a script that imports one. The fix is a command line that ingests data, so the article's part is a
+list of queries or a file of edits and nothing else.
+
+| Command | Data it reads |
+|---|---|
+| `python3 _lib/edits.py apply EDITS.toml [POST]` | `[[edit]]` tables, `old` and `new`, or `after` or `before` with `insert` |
+| `python3 _lib/registry.py crossref QUERY...` and `openalex` | Queries, or `@FILE` with one per line |
+| `python3 _lib/registry.py abstract DOI...`, `works` and `type` | Identifiers, or `@FILE` |
+| `python3 _lib/harvest.py harvest CONFIG`, `select`, `master` and `assemble` | `tmp/<article>/survey.toml`, the queries, rounds, anchors and clusters |
+| `python3 _lib/sources_import.py fetch-crossref`, `pin-wiki` and `import` | `_sources/decisions/<article>.toml`, the human decisions on titles, notes and corrections |
+| `python3 _lib/textscan.py ctx FILE REGEX` and `strip-wikitext` | A saved source file |
+
+**TOML literal strings cannot carry the doubled-backslash defect.** `'''...'''` takes no escapes, so
+`\mathcal` is one backslash on disk and one in the article. Python string literals needed `\\mathcal`, and
+the defect shipped in three consecutive articles through them.
+
+**An edit file refuses to apply twice.** An insertion still finds its anchor after it is applied, so a
+second run of a one-shot script inserted the text again. `edits.py` refuses an edit whose result is already
+present unless `--rerun` is passed, and then skips it.
+
+**Each promoted pipeline was checked against the copy it replaces.** On A372's saved pools, `harvest.py`
+`select`, `master` and `assemble` produce output identical to A372's own scripts run against the same
+rejection store, byte for byte for the assembled draft. Against A372's outputs as saved on the day, `select`
+keeps 152 fewer records, all removed by rejections added to `_research/rejected.json` since. Rebuilding
+A384 from `_sources/decisions/A384.toml` reproduces its 99 stored records exactly, which `test_sources.py`
+checks wherever the scratch registry cache exists and reports as skipped elsewhere.
+
+**Reviewed and deliberately not promoted.** The corpus campaigns under `tmp/cite/`, `tmp/fix5/`, `tmp/fix6/`
+and the `retrofit/` directories, which include `build_drop`, `splice`, `draw_sample`, `thin`,
+`gate_and_cluster`, `write_notes` and `make_chunks`, were one-time corpus operations that are complete, and
+the handoff forbids rerunning the stale generators among them. `calc.py` and `verify_numbers.py` are article
+content on top of `numcheck.py`. `wordcheck.py` and `phrases.py` are already `diction.py outliers` and
+`diction.py formulas`.
+
 ## Usage
 
 ```python
@@ -102,8 +154,8 @@ dependency, matching the discipline of `_verify.py`, which must run on a bare ru
 rules, block emission.
 
 **Article content does not.** Harvest queries, cluster definitions and edit payloads are the article's
-own argument, and abstracting them would make the work harder rather than easier. They stay in
-`tmp/<article>/`.
+own argument. They stay in `tmp/<article>/`, but as data files read by a tracked command rather than as
+scripts that carry their own copy of the mechanism.
 
 **Accumulated sweep judgements do not.** Those live in [`_research/`](../_research/README.md), which
 holds the per-record rejections and homonym patterns.

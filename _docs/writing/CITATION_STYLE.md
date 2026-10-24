@@ -78,8 +78,9 @@ order above, because encyclopaedias and the blog's own posts must be caught befo
 2. **Encyclopaedia and dictionary entries** of any kind go to **Tertiary Sources**. This includes Wikipedia,
    edited encyclopaedias and peer-reviewed encyclopaedias such as the Stanford Encyclopedia of Philosophy.
 3. **Work in a peer-reviewed venue** goes to **Primary Sources, Peer-Reviewed**. A peer-reviewed venue is a
-   journal or a conference proceedings whose full papers are refereed before publication. A review article in
-   such a venue goes to **Secondary Sources** instead, because it synthesises rather than reports.
+   journal or a conference proceedings whose full papers are refereed before publication, **as verified from
+   the venue's own statement**. A review article goes to **Secondary Sources** instead, because it synthesises
+   rather than reports, and it stays there under rule 5 when its venue is not verified.
 4. **Original work and records without peer review** go to **Primary Sources, Non-Peer-Reviewed**. This
    includes government and agency technical reports, statistical releases and data, standards, patents,
    archival documents, datasets, theses, preprints, conference abstracts, meeting papers whose venue reviews
@@ -107,11 +108,31 @@ order above, because encyclopaedias and the blog's own posts must be caught befo
   about its own subscription offer is **Commercial Sources** under rule 6.
 - An EGU General Assembly abstract is **Primary Sources, Non-Peer-Reviewed** under rule 4.
 
-**Default deny.** A venue whose full-paper review has not been established from its own statement is not
-credited with peer review, so its papers fall to rule 4. In the A384 prototype every journal is recorded as
-refereed with its policy statement not yet checked, and every proceedings is recorded as not refereed. AIAA
-meeting papers are not refereed by AIAA's own account, which directs authors who want peer review to its
-journals.
+**Peer review is credited only when verified, and if unsure the source drops a category.** This is the
+pilot's ruling of 2026-10-24. A venue is credited only when its own page has been read and a verbatim quote
+from it records that full papers are refereed. Three things leave a venue uncredited, so that its papers fall
+to rule 4.
+
+- **No statement read.** This includes a publisher page that refuses automated reading, where only a
+  search-engine summary was seen. A summary may paraphrase, so it is recorded with method `snippet` and
+  cannot credit the venue.
+- **A statement whose scope is unclear.** Springer's statement that "research content" in *Space Science
+  Reviews* is peer reviewed does not say whether the invited reviews and mission descriptions that fill that
+  journal count as research content.
+- **A statement that does not reach back to the work.** Nature's editorial dates mandatory review to 1973,
+  so `since` is 1973 and an earlier Nature paper is not credited. A statement that gives no date is applied
+  to every year. That is a known weakness, recorded here rather than hidden. The stricter reading would
+  credit no work older than the statement itself.
+
+On 2026-10-24 nine of the eighteen journals A384 cites were verified, *American Journal of Physics*, *Applied
+Optics*, the three AAS journals, *Geology*, the two AIAA journals and *Nature*. Elsevier, AGU, EDP Sciences
+and *Science*'s own pages refused automated reading, so *Acta Astronautica*, *Icarus*, *Planetary and Space
+Science*, *Astronomy & Astrophysics*, the three AGU journals and *Science* are not credited until a person
+reads each page and records the quote. The only *Science* statement read, the AAAS editorial policy, says the
+editor takes "recommendations of reviewers and referees" into account, which does not say every research
+paper is refereed. No proceedings is credited. AIAA's publication policy directed authors wanting peer
+review to its journals rather than its meeting papers, and the IEEE Aerospace Conference's 2021 page
+describes review of full drafts without saying the review is external.
 
 **Peer review is a property of the venue, recorded once.** Whether a journal or conference referees full papers
 is recorded in a venue table in the database, so the decision is made once per venue rather than once per
@@ -373,7 +394,11 @@ field.
 | `note` | What was corrected from registry data and where the correct value came from |
 
 **Venue fields.** Each venue records `peer_reviewed`, the `basis` for that judgement, and `checked`, which is true
-only once the venue's own review-policy statement has been read.
+only once the venue's own review-policy statement has been read. `evidence` holds the page's `url`, a
+verbatim `quote`, the date it was `read`, and the `method`, either `fetched` for a page read directly or
+`snippet` for a search-engine summary. `since` is the first year the evidence covers, when it gives one.
+Validation refuses `peer_reviewed` true without `checked` true and `fetched` evidence, so an unverified
+venue cannot be credited by a hand edit.
 
 **Storage.** The database lives in `_sources/`, which Jekyll does not copy. Its eventual size, roughly a quarter
 of a million records, rules out one file per source and a single file. Records are JSON Lines in
@@ -407,8 +432,11 @@ exactly what the generator would write, so a hand edit cannot drift from the dat
 **Not yet built.**
 
 1. A corpus importer that seeds records from every article's link definitions and reports every anchor
-   collision for decision. The A384 import was a one-off script.
-2. A check of each venue's review policy, so that `checked` becomes true.
+   collision for decision. `sources_import.py import` now imports one post from a decision file in
+   `_sources/decisions/` and reports conflicts with the store, which is the per-post half.
+2. A person's reading of the publisher pages that refused automated reading, recorded with method
+   `fetched`, for the eight venues listed under Default deny, and an answer to the scope question for
+   *Space Science Reviews*.
 3. Templates for theses, patents, standards, datasets and software, and a check of the unverified rules.
 4. Updates to `_lib/survey.py`, which reads the legacy label format, before any article with a reference survey
    is converted.

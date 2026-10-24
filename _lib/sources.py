@@ -260,11 +260,49 @@ def validate_record(r, venues):
         _require(r.get("venue") in venues, f"{a}: venue {r.get('venue')!r} not in venues.jsonl")
 
 
+VENUE_FIELDS = {"venue", "peer_reviewed", "checked", "basis", "evidence", "since"}
+EVIDENCE_FIELDS = {"url", "quote", "read", "method"}
+
+
 def validate_venue(v):
-    _require(isinstance(v.get("venue"), str) and v["venue"], "venue name required")
-    _require(isinstance(v.get("peer_reviewed"), bool), f"{v['venue']}: peer_reviewed must be true or false")
-    _require(isinstance(v.get("basis"), str) and v["basis"], f"{v['venue']}: basis required")
-    _require(isinstance(v.get("checked"), bool), f"{v['venue']}: checked must be true or false")
+    """A venue is credited with peer review only on evidence read from its own page.
+
+    VERIFIED OR NOT CREDITED. `peer_reviewed` true requires `checked` true and
+    an `evidence` table naming the page, a verbatim quote from it, the date it
+    was read, and `method` "fetched". A search-engine snippet is not a reading
+    of the page, since it may paraphrase, so it cannot credit a venue. `since`
+    is the first year the evidence covers, when the evidence gives one, and a
+    work published before it is not credited.
+    """
+    name = v.get("venue")
+    _require(isinstance(name, str) and name, "venue name required")
+    unknown = sorted(set(v) - VENUE_FIELDS)
+    _require(not unknown, f"{name}: unknown venue field(s) {', '.join(unknown)}")
+    _require(isinstance(v.get("peer_reviewed"), bool), f"{name}: peer_reviewed must be true or false")
+    _require(isinstance(v.get("basis"), str) and v["basis"], f"{name}: basis required")
+    _require(isinstance(v.get("checked"), bool), f"{name}: checked must be true or false")
+    ev = v.get("evidence")
+    if ev is not None:
+        _require(isinstance(ev, dict) and set(ev) == EVIDENCE_FIELDS
+                 and all(isinstance(ev[k], str) and ev[k] for k in EVIDENCE_FIELDS),
+                 f"{name}: evidence needs exactly url, quote, read and method")
+        _require(ev["method"] in ("fetched", "snippet"), f"{name}: evidence method must be fetched or snippet")
+        _require(re.match(r"^\d{4}-\d{2}-\d{2}$", ev["read"]), f"{name}: evidence read must be YYYY-MM-DD")
+    if "since" in v:
+        _require(isinstance(v["since"], int) and not isinstance(v["since"], bool), f"{name}: since must be a year")
+    if v["peer_reviewed"]:
+        _require(v["checked"], f"{name}: peer_reviewed requires checked, the venue's own statement read")
+        _require(ev is not None and ev["method"] == "fetched",
+                 f"{name}: peer_reviewed requires evidence fetched from the venue's own page")
+
+
+def credits_review(r, venues):
+    """True only when the record's venue is verified as refereeing and covers its year."""
+    venue = venues.get(r.get("venue"), {})
+    if venue.get("peer_reviewed") is not True or venue.get("checked") is not True:
+        return False
+    since = venue.get("since")
+    return since is None or (isinstance(r.get("year"), int) and r["year"] >= since)
 
 
 def validate(records=None, venues=None):
@@ -294,11 +332,17 @@ def classify(r, venues):
     if kind == "wikipedia" or r.get("encyclopaedia"):
         return 2, "Tertiary Sources"
     if kind in ("journal-article", "proceedings-paper"):
-        venue = venues.get(r.get("venue"), {})
-        if venue.get("peer_reviewed") is True:
-            return 3, "Secondary Sources" if r.get("synthesis") else "Primary Sources, Peer-Reviewed"
-        # DEFAULT DENY. A venue whose full-paper review is not established is
-        # not credited with peer review.
+        reviewed = credits_review(r, venues)
+        # A REVIEW IS SECONDARY WHETHER OR NOT ITS VENUE IS VERIFIED. Secondary
+        # Sources is about synthesis, not refereeing, so a review in a venue
+        # whose policy could not be read takes rule 5, like a scholarly book.
+        if r.get("synthesis"):
+            return (3, "Secondary Sources") if reviewed else (5, "Secondary Sources")
+        if reviewed:
+            return 3, "Primary Sources, Peer-Reviewed"
+        # DEFAULT DENY. A venue whose full-paper review is not verified from its
+        # own statement, or whose evidence does not reach back to the work's
+        # year, is not credited with peer review.
         return 4, "Primary Sources, Non-Peer-Reviewed"
     if kind in ("abstract", "preprint", "report"):
         return 4, "Primary Sources, Non-Peer-Reviewed"

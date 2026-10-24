@@ -28,6 +28,9 @@ import homonyms
 import edits
 import fetch
 import gate
+import harvest
+import registry
+import textscan
 import lint
 import post
 import progress
@@ -2817,6 +2820,185 @@ def t_phrase_outliers_scores_against_a_silent_peer():
     hit = [r for r in rows if r[1] == "the widget is"]
     assert hit and hit[0][0] is None, rows[:3]
 
+
+# ------------------------------------------------------------ edit files
+
+_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+_TMP = os.path.join(_ROOT, "tmp")
+
+
+def _toml(body):
+    import tempfile
+    os.makedirs(_TMP, exist_ok=True)
+    fh = tempfile.NamedTemporaryFile("w", suffix=".toml", delete=False, dir=_TMP)
+    fh.write(body)
+    fh.close()
+    return fh.name
+
+
+def t_edit_file_keeps_single_backslashes():
+    """The doubled-backslash defect cannot be written in a TOML literal string."""
+    path = _toml("[[edit]]\nold = '''$a$'''\nnew = '''$\\mathcal{L}$'''\n")
+    try:
+        spec = edits.load_edits(path)["edits"][0]
+    finally:
+        os.remove(path)
+    assert spec["new"] == "$\\mathcal{L}$" and "\\\\" not in spec["new"], spec
+
+
+def t_edit_file_refuses_misspelt_keys():
+    """A misspelt `nwe` would otherwise be an edit that silently does nothing."""
+    path = _toml("[[edit]]\nold = 'a'\nnwe = 'b'\n")
+    try:
+        edits.load_edits(path)
+    except edits.EditError as e:
+        assert "unknown keys" in str(e)
+        return
+    finally:
+        os.remove(path)
+    raise AssertionError("misspelt key accepted")
+
+
+def t_insertion_is_not_applied_twice():
+    """A second run of an insertion still finds its anchor; it must be refused, or skipped with rerun."""
+    specs = [{"after": "Alpha beta.", "insert": " Gamma delta."}]
+    once, _ = edits.apply_specs("Alpha beta.\n", specs, guard_invariants=False)
+    assert once == "Alpha beta. Gamma delta.\n", once
+    try:
+        edits.apply_specs(once, specs, guard_invariants=False)
+        raise AssertionError("insertion applied twice")
+    except edits.EditError as e:
+        assert "already applied" in str(e)
+    again, report = edits.apply_specs(once, specs, rerun=True, guard_invariants=False)
+    assert again == once and report[0][1] == "already applied"
+
+
+def t_rerun_does_not_mask_a_moved_target():
+    """With rerun, an edit whose old text is gone and whose new text is absent still fails."""
+    try:
+        edits.apply_specs("unrelated text\n", [{"old": "missing", "new": "replacement"}], rerun=True,
+                          guard_invariants=False)
+    except edits.EditError as e:
+        assert "matched 0 times" in str(e)
+        return
+    raise AssertionError("moved target reported as applied")
+
+
+def t_edit_count_replaces_every_expected_match():
+    out, _ = edits.apply_specs("a x a x a\n", [{"old": "a", "new": "b", "count": 3}], guard_invariants=False)
+    assert out == "b x b x b\n", out
+    try:
+        edits.apply_specs("a x a\n", [{"old": "a", "new": "b", "count": 3}], guard_invariants=False)
+        raise AssertionError("wrong count accepted")
+    except edits.EditError:
+        pass
+
+
+def t_lint_guard_compares_rather_than_demands_clean():
+    """A draft with an existing defect can still be edited, but a new defect is refused."""
+    dirty = "Prose. ## Inline heading\n\nMore prose.\n"
+    assert any(sev == lint.DEFECT for sev, _c, _d in lint.scan(dirty)), "fixture is not dirty"
+    out, _ = edits.apply_specs(dirty, [{"old": "More prose.", "new": "Better prose."}])
+    assert "Better prose." in out
+    try:
+        edits.apply_specs("Prose here.\n", [{"old": "Prose here.", "new": "Prose here. ## Injected"}])
+        raise AssertionError("introduced defect accepted")
+    except edits.EditError as e:
+        assert "introduce lint defects" in str(e)
+
+
+# ------------------------------------------------------------ registry and text
+
+def t_registry_doi_normalisation():
+    """A trailing full stop or a resolver prefix makes a different identifier string."""
+    assert registry.bare_doi("https://doi.org/10.1126/Science.1211001.") == "10.1126/science.1211001"
+    assert registry.bare_doi("doi:10.1/X") == "10.1/x"
+
+
+def t_registry_reads_list_files_with_comments():
+    path = _toml("10.1/a  # first\n\n# a comment line\n10.1/b\n")
+    try:
+        assert registry.expand(["10.1/z", "@" + path]) == ["10.1/z", "10.1/a", "10.1/b"]
+    finally:
+        os.remove(path)
+
+
+def t_openalex_abstract_rebuilt_in_position_order():
+    w = {"abstract_inverted_index": {"world": [1], "hello": [0], "again": [3], "hello,": [2]}}
+    assert fetch.openalex_abstract(w) == "hello world hello, again"
+    assert fetch.openalex_abstract(None) == ""
+
+
+def t_wikitext_strip_removes_refs_and_nested_cites():
+    s = "Fact one.<ref name=a/> Fact two.<ref>{{cite web|title={{lang|x}}}}</ref> {{Cite journal|a=b}}End."
+    out = textscan.strip_wikitext(s)
+    assert out == "Fact one. Fact two. End.", out
+
+
+def t_context_is_bounded_and_flattened():
+    hits = textscan.context("aaa\nneedle\nbbb needle", "NEEDLE", width=2, limit=1)
+    assert hits == ["a needle b"], hits
+
+
+# ------------------------------------------------------------ rendered fragments
+
+def t_broken_fragment_is_reported():
+    """A Related Posts locator pointing at a renamed heading loads the page at its top, silently."""
+    import shutil
+    import tempfile
+    os.makedirs(_TMP, exist_ok=True)
+    site = tempfile.mkdtemp(dir=_TMP)
+    try:
+        with open(os.path.join(site, "b.html"), "w") as fh:
+            fh.write('<h2 id="kept">K</h2>')
+        page = os.path.join(site, "a.html")
+        html = ('<a href="/b.html#kept">ok</a><a href="/b.html#gone">bad</a><a href="#self">s</a>'
+                '<p id="self"></p><a href="/missing.html#x">left to link checkers</a>'
+                '<pre><a href="/b.html#incode">code</a></pre>')
+        with open(page, "w") as fh:
+            fh.write(html)
+        bad = render.broken_fragments(site, html, page, {})
+        assert bad == ["/b.html#gone"], bad
+    finally:
+        shutil.rmtree(site)
+
+
+# ------------------------------------------------------------ survey pipeline
+
+def t_harvest_order_free_qualifier():
+    """A371 lost 303 records to qualifiers that had to follow the anchor."""
+    rx = re.compile(harvest.order_free(r"\blayout\b(?=.*struct)"), re.I)
+    assert rx.search("struct field layout") and rx.search("layout of a struct")
+    assert harvest.order_free(r"\bplain\b") == r"\bplain\b"
+
+
+def t_harvest_normalises_typography():
+    assert harvest.normalise("Boundary‐Layer café­") == "Boundary-Layer café"
+    assert re.search(harvest.hyphen_tolerant("wind tunnel"), "wind-tunnel tests")
+
+
+def t_harvest_config_refuses_bad_input():
+    for body, frag in (('article = "A"\nworkdir = "w"\nera_cutoff = 2014\ncolour = 1\n', "unknown keys"),
+                       ('article = "A"\nworkdir = "w"\nera_cutoff = "2014"\n', "era_cutoff"),
+                       ('article = "A"\nworkdir = "w"\nera_cutoff = 2014\n[select]\nstrong = ["("]\n',
+                        "bad pattern"),
+                       ('article = "A"\nworkdir = "w"\nera_cutoff = 2014\n[[select.cluster]]\n'
+                        'name = "other"\npatterns = ["x"]\n', "reserved")):
+        path = _toml(body)
+        try:
+            harvest.load_config(path)
+            raise AssertionError(f"accepted: {frag}")
+        except harvest.ConfigError as e:
+            assert frag in str(e), (frag, e)
+        finally:
+            os.remove(path)
+
+
+def t_harvest_entry_text_is_one_safe_line():
+    t = harvest.entry_text({"authors": ["Pike, Lee", "&NA;"], "year": "2001",
+                            "title": "A [bracketed]\n<i>title</i>."})
+    # `refs.clean` already drops the brackets; the replacement in `entry_text` is the backstop.
+    assert t == "Pike, 2001, A bracketed title" and "[" not in t and "\n" not in t, t
 
 for name, fn in sorted(list(globals().items())):
     if name.startswith("t_") and callable(fn):

@@ -98,9 +98,50 @@ def audit_html(html):
     return found
 
 
+# A same-site link carrying a fragment, absolute from the site root or within the page.
+_FRAG_LINK = re.compile(r'href="(/[^"#?]*)?#([^"]+)"')
+_ID = re.compile(r'\b(?:id|name)="([^"]+)"')
+
+
+def _target_file(site_dir, path):
+    """The built file a root-relative path serves, or None outside the site."""
+    import urllib.parse
+    rel = urllib.parse.unquote(path).lstrip("/")
+    full = os.path.normpath(os.path.join(site_dir, rel))
+    if not full.startswith(os.path.normpath(site_dir)):
+        return None
+    if path.endswith("/") or os.path.isdir(full):
+        full = os.path.join(full, "index.html")
+    return full
+
+
+def broken_fragments(site_dir, html, page_path, ids_cache):
+    """Same-site links whose fragment names no id in the page they point at.
+
+    A REFERENCE INTO ANOTHER POST BY SECTION is how Related Posts entries cite a
+    specific part of an article, and a renamed heading breaks it silently: the
+    page loads and the reader lands at the top. A381 to A384 were checked by a
+    one-off script, which is this, generalised to every page. A link to a page
+    that does not exist is left to the link checkers, since it is not this defect.
+    """
+    import urllib.parse
+    bad = []
+    for path, frag in _FRAG_LINK.findall(_CODE.sub(" ", html)):
+        target = page_path if not path else _target_file(site_dir, path)
+        if not target or not target.endswith(".html") or not os.path.exists(target):
+            continue
+        if target not in ids_cache:
+            text = open(target, encoding="utf-8", errors="replace").read()
+            ids_cache[target] = set(_ID.findall(text))
+        if urllib.parse.unquote(frag) not in ids_cache[target] and frag not in ids_cache[target]:
+            bad.append(f"{path or ''}#{frag}")
+    return bad
+
+
 def audit_site(site_dir):
     """Walk a built site. Returns (findings_by_page, pages_scanned, pages_with_math)."""
     findings, pages, with_math = {}, 0, 0
+    ids_cache = {}
     for root, _dirs, files in os.walk(site_dir):
         for fn in files:
             if not fn.endswith(".html"):
@@ -115,6 +156,9 @@ def audit_site(site_dir):
             if d_o or d_c:
                 with_math += 1
             rows = audit_html(html)
+            frags = broken_fragments(site_dir, html, path, ids_cache)
+            if frags:
+                rows.append(("broken-fragment", len(frags), frags[0][:120]))
             if rows:
                 findings[os.path.relpath(path, site_dir)] = rows
     return findings, pages, with_math
