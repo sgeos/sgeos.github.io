@@ -33,6 +33,7 @@ Usage:
     python3 _lib/sources.py render POST      # print the generated section
     python3 _lib/sources.py write POST       # replace the section in place
     python3 _lib/sources.py check POST...    # exit nonzero on any drift
+    python3 _lib/sources.py fix-labels POST  # set in-text labels to the database's
 """
 
 import datetime
@@ -201,6 +202,7 @@ FIELDS = {
     "anchor", "aliases", "locators", "kind", "section", "rule", "synthesis", "stake", "encyclopaedia",
     "authors", "editors", "year", "title", "title_published", "container", "venue", "volume", "issue",
     "pages", "publisher", "number", "doi", "url", "revision", "accessed", "post", "evidence", "note",
+    "short_title",
 }
 
 
@@ -235,8 +237,9 @@ def validate_record(r, venues):
     year = r.get("year")
     _require(year is None or (isinstance(year, int) and 1500 <= year <= 2100), f"{a}: bad year {year!r}")
     authors = r.get("authors", [])
-    _require(isinstance(authors, list), f"{a}: authors must be a list")
-    for p in authors:
+    _require(isinstance(authors, list) and isinstance(r.get("editors", []), list),
+             f"{a}: authors and editors must be lists")
+    for p in authors + r.get("editors", []):
         ok = (isinstance(p, dict) and (
             (set(p) <= {"family", "given"} and p.get("family")) or
             (set(p) <= {"name", "short"} and p.get("name"))))
@@ -260,7 +263,7 @@ def validate_record(r, venues):
         _require(r.get("venue") in venues, f"{a}: venue {r.get('venue')!r} not in venues.jsonl")
 
 
-VENUE_FIELDS = {"venue", "peer_reviewed", "checked", "basis", "evidence", "since", "reviewers"}
+VENUE_FIELDS = {"venue", "peer_reviewed", "checked", "basis", "evidence", "since", "reviewers", "magazine"}
 EVIDENCE_FIELDS = {"url", "quote", "read", "method"}
 
 
@@ -301,6 +304,9 @@ def validate_venue(v):
         _require(re.match(r"^\d{4}-\d{2}-\d{2}$", ev["read"]), f"{name}: evidence read must be YYYY-MM-DD")
     if "since" in v:
         _require(isinstance(v["since"], int) and not isinstance(v["since"], bool), f"{name}: since must be a year")
+    if "magazine" in v:
+        _require(v["magazine"] is True and not v["peer_reviewed"],
+                 f"{name}: magazine is true or absent, and a magazine is not credited with peer review")
     if "reviewers" in v:
         _require(isinstance(v["reviewers"], str) and v["reviewers"].strip(), f"{name}: reviewers must be text")
     if v["peer_reviewed"]:
@@ -347,6 +353,10 @@ def classify(r, venues):
     if kind == "wikipedia" or r.get("encyclopaedia"):
         return 2, "Tertiary Sources"
     if kind in ("journal-article", "proceedings-paper"):
+        # A MAGAZINE'S FEATURES ARE GENERAL SOURCES under rule 7, edited and
+        # commissioned rather than refereed, whoever publishes the magazine.
+        if venues.get(r.get("venue"), {}).get("magazine"):
+            return 7, "General Sources"
         reviewed = credits_review(r, venues)
         # A REVIEW IS SECONDARY WHETHER OR NOT ITS VENUE IS VERIFIED. Secondary
         # Sources is about synthesis, not refereeing, so a review in a venue
@@ -389,7 +399,17 @@ def md_escape(s):
 def clean_text(s):
     """Normalise registry text before it is stored: entities, tags, odd hyphens."""
     import html
-    s = html.unescape(s or "")
+    s = s or ""
+    # DOUBLY ESCAPED MARKUP ARRIVES FROM REGISTRIES. An AIAA proceedings title came
+    # as `&amp;lt;BR&amp;gt;`, which one unescape leaves as visible `&lt;BR&gt;`.
+    # Unescaping is repeated until stable, bounded because each pass shortens it.
+    for _ in range(3):
+        t = html.unescape(s)
+        if t == s:
+            break
+        s = t
+    # A line-break tag separates two names, so it becomes a space, not nothing.
+    s = re.sub(r"<br\s*/?>", " ", s, flags=re.I)
     s = re.sub(r"<[^>]+>", "", s)
     s = s.replace("\u2010", "-").replace("\u2011", "-").replace("\u00a0", " ")
     return re.sub(r"\s+", " ", s).strip()
@@ -440,7 +460,21 @@ def _person(p, invert):
     fam, giv = p["family"], p.get("given", "")
     if not giv:
         return fam
+    # A GENERATIONAL SUFFIX FOLLOWS THE GIVEN NAMES WHEN INVERTED, `Sauer, C., Jr.`,
+    # and follows the family name without a comma otherwise, `C. Sauer Jr.`
+    m = re.match(r"^(.*?)\s+(Jr\.|Sr\.|II|III|IV)$", fam)
+    if invert and m:
+        return f"{m.group(1)}, {giv}, {m.group(2)}"
     return f"{fam}, {giv}" if invert else f"{giv} {fam}"
+
+
+def creators(r):
+    """The people a reference is listed under: its authors, or for an edited book its editors.
+
+    Chicago puts an editor in the author position when a book has no
+    author, so the editor leads the entry, the in-text label and the sort.
+    """
+    return r.get("authors") or (r.get("editors", []) if r.get("kind") == "book" else [])
 
 
 def author_list(authors):
@@ -457,14 +491,17 @@ def author_list(authors):
 
 
 def _short_name(p):
-    return p.get("short") or p.get("name") or p["family"]
+    """The name an in-text citation uses. A generational suffix is not part of it."""
+    return p.get("short") or p.get("name") or re.sub(r"\s+(?:Jr\.|Sr\.|II|III|IV)$", "", p["family"])
 
 
 def cite_label(r):
     """In-text author label without the year. Two named at most, else et al."""
-    au = r.get("authors", [])
+    au = creators(r)
     if not au:
-        return r["title"]
+        # Chicago lets a work with no author be cited in the text by a
+        # shortened title, recorded as a decision because shortening is judgement.
+        return r.get("short_title") or r["title"]
     if len(au) == 1:
         return _short_name(au[0])
     if len(au) == 2:
@@ -558,7 +595,9 @@ def entry(r, suffix="", posts_dir=POSTS):
         ts = r["revision"]["timestamp"]
         return (f"{_quoted(r['title'])} {year}. Wikipedia. Last modified {_month_day(ts)}, "
                 f"at {ts[11:16]} (UTC). {link}")
-    au = author_list(r.get("authors", []))
+    au = author_list(creators(r))
+    if au and not r.get("authors"):
+        au += ", ed." if len(creators(r)) == 1 else ", eds."
     lead = f"{md_escape(_sentence(au))} {year}." if au else f"{_quoted(r['title'])} {year}."
     title_q = "" if not au else " " + _quoted(r["title"])
     title_i = f" *{md_escape(r['title'])}*." if au else ""
@@ -615,7 +654,7 @@ def sort_key(r, posts_dir=POSTS):
     if r["kind"] == "related-post":
         f = related_post_fields(r, posts_dir)
         return ("sechter", f["date"], _title_key(f["title"]))
-    au = r.get("authors", [])
+    au = creators(r)
     if au:
         # Family names only. Registries give one person's given name in full in
         # one record and as initials in the next, which must not split them.
@@ -628,7 +667,7 @@ def year_suffixes(recs):
     """Chicago 13.114. Same in-text label and year in one article take a, b, c."""
     groups = {}
     for r in recs:
-        if r["kind"] in ("related-post", "wikipedia") or not r.get("authors"):
+        if r["kind"] in ("related-post", "wikipedia") or not creators(r):
             continue
         groups.setdefault((cite_label(r), r.get("year")), []).append(r)
     out = {}
@@ -714,12 +753,43 @@ def label_errors(text, records=None, posts_dir=POSTS):
         if a not in index:
             continue
         r = records[index[a][0]]
-        if r["kind"] in ("related-post", "wikipedia") or not r.get("authors"):
+        # A work with no author is still cited by label and year, the label being
+        # its short title, so only encyclopaedia articles and posts are exempt.
+        if r["kind"] in ("related-post", "wikipedia"):
             continue
         want = f"{cite_label(r)} {_year_text(r, suffix.get(r['anchor'], ''))}"
         if t != want and not t.startswith(want + ", "):
             errs.append((t, a, want))
     return errs
+
+
+_LABEL_HEAD = re.compile(r"^.*?\b\d{4}[a-z]?(?=$|, )")
+
+
+def fix_labels(text, records=None):
+    """(new text, [(old, new)]) with every in-text label set to what the database gives.
+
+    Only the label head, the names and the year, is replaced. A locator after
+    it, as in `Smith 2020, p. 5`, is kept. A label whose head cannot be found is
+    left alone and returned with `None` as its replacement, for a person to fix,
+    because guessing where a free-text label ends could rewrite prose.
+    """
+    body, refs = split_article(text)
+    changes = []
+    for t, a, want in label_errors(text, records):
+        m = _LABEL_HEAD.match(t)
+        if not m:
+            changes.append((t, None))
+            continue
+        new = want + t[m.end():]
+        old_link, new_link = f"[{t}][{a}]", f"[{new}][{a}]"
+        if old_link in body:
+            body = body.replace(old_link, new_link)
+            changes.append((t, new))
+    # `split_article` returns the section without its heading, so it is restored.
+    out = body + post.REFERENCES_HEADING + "\n" + refs
+    split_article(out)
+    return out, changes
 
 
 def check_article(path, records=None, venues=None):
@@ -756,7 +826,7 @@ def write_article(path, records=None, venues=None):
 # ----------------------------------------------------------------------- CLI
 
 def main(argv):
-    if len(argv) < 2 or argv[1] not in ("validate", "render", "write", "check"):
+    if len(argv) < 2 or argv[1] not in ("validate", "render", "write", "check", "fix-labels"):
         print(__doc__.split("Usage:")[1])
         return 2
     cmd, args = argv[1], argv[2:]
@@ -767,6 +837,15 @@ def main(argv):
             return 0
         if cmd == "render":
             sys.stdout.write(generate(open(args[0], encoding="utf-8").read()))
+            return 0
+        if cmd == "fix-labels":
+            for p in args:
+                new, changes = fix_labels(open(p, encoding="utf-8").read())
+                for old, rep_ in sorted(set(changes), key=str):
+                    print(f"  {old!r} -> {rep_!r}" if rep_ else f"  CANNOT PLACE {old!r}, fix by hand")
+                with open(p, "w", encoding="utf-8") as fh:
+                    fh.write(new)
+                print(f"{p}: {sum(1 for _o, n in changes if n)} label(s) set")
             return 0
         if cmd == "write":
             for p in args:

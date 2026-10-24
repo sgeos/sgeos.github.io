@@ -1,0 +1,44 @@
+article = "A383"
+crossref_cache = "tmp/a383/sources/crossref"
+wiki_pins = "tmp/a383/sources/wiki_pins.json"
+
+# Reviewed 2026-10-24 with `sources_import.py review --second-opinion --saved tmp/a383/wiki`.
+[title]
+research_bilby_et_al_1989 = "An Electomagnetic [sic] Lunar Launcher Utilizing Superconductivity Technology"
+
+[note]
+research_bilby_et_al_1989 = "Crossref and OpenAlex both spell the first word of the title Electomagnetic. No second source for the printed title was found, so the registry title is kept and marked rather than corrected."
+
+[fix.research_janhunen_2025]
+note = "Crossref lists the author's affiliations, the Finnish Meteorological Institute and Aurora Propulsion Technologies, as a co-author. OpenAlex gives Pekka Janhunen alone."
+set = { authors = [ { family = "Janhunen", given = "Pekka" } ] }
+
+[fix.research_wieczorek_et_al_2006]
+note = "A review chapter in Reviews in Mineralogy and Geochemistry, a series of invited review volumes by the Mineralogical Society of America's own description. Crossref and OpenAlex list only Mark A. Wieczorek; the sixteen authors are from the citation in the Moon article wikitext, revision 1381191379, the revision this database pins."
+set = { synthesis = true, authors = [
+  { family = "Wieczorek", given = "Mark A." }, { family = "Jolliff", given = "Bradley L." }, { family = "Khan", given = "Amir" },
+  { family = "Pritchard", given = "Matthew E." }, { family = "Weiss", given = "Benjamin P." }, { family = "Williams", given = "James G." },
+  { family = "Hood", given = "Lon L." }, { family = "Righter", given = "Kevin" }, { family = "Neal", given = "Clive R." },
+  { family = "Shearer", given = "Charles K." }, { family = "McCallum", given = "I. Stewart" }, { family = "Tompkins", given = "Stephanie" },
+  { family = "Hawke", given = "B. Ray" }, { family = "Peterson", given = "Chris" }, { family = "Gillis", given = "Jeffrey J." },
+  { family = "Bussey", given = "Ben" } ] }
+
+[fix.research_mass_driver_reaction_engine_1977]
+note = "No author in Crossref or OpenAlex, so the work is listed under its title and cited in the text by a shortened one. Crossref hyphenates upper-stage, which as a noun after 'as' takes no hyphen."
+set = { title = "Mass-Driver Reaction Engine as Shuttle Upper Stage", short_title = "Mass-Driver Reaction Engine" }
+
+[fix.research_rocher_et_al_2025]
+note = "Crossref gives the forum name in capitals. AIAA writes it AIAA AVIATION Forum and ASCEND, with the two event names in capitals; recased to that with Forum in headline case."
+set = { container = "AIAA AVIATION Forum and ASCEND 2025", venue = "AIAA AVIATION Forum and ASCEND 2025" }
+
+[fix.research_oneill_1981]
+note = "Crossref gives the volume as 4th Space manufacturing; Proceedings of the Fifth Conference, the series number and title transposed. Restored to the volume's order."
+set = { container = "Space Manufacturing 4: Proceedings of the Fifth Conference", venue = "Space Manufacturing 4: Proceedings of the Fifth Conference" }
+
+[fix.research_snow_et_al_1981]
+note = "Crossref gives the volume as 4th Space manufacturing; Proceedings of the Fifth Conference, the series number and title transposed. Restored to the volume's order."
+set = { container = "Space Manufacturing 4: Proceedings of the Fifth Conference", venue = "Space Manufacturing 4: Proceedings of the Fifth Conference" }
+
+[fix.research_hawke_et_al_1981]
+note = "Crossref truncates the meeting name after Propulsion; the meeting is the 15th International Electric Propulsion Conference."
+set = { container = "15th International Electric Propulsion Conference", venue = "15th International Electric Propulsion Conference" }

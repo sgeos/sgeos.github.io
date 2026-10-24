@@ -30,7 +30,7 @@ a an the and but for or nor as to
 about above across after against along amid among around at before behind below beneath beside
 between beyond by down during except from in inside into like near of off on onto out outside over
 past per since than through throughout till toward towards under underneath until unto up upon via
-versus vs with within without
+versus vs with within without aboard atop despite unlike amidst
 """.split())
 
 
@@ -38,6 +38,10 @@ def _case_part(part, force):
     """One hyphen-separated part. Existing capitals and digits are never removed."""
     lead = re.match(r"^[^\w]*", part).group(0)
     rest = part[len(lead):]
+    # A WORD THAT DOES NOT START WITH A LATIN LETTER IS A SYMBOL, such as the α of
+    # `α Centauri`, whose capital Α is a different letter that reads as A.
+    if rest and not ("a" <= rest[:1].lower() <= "z"):
+        return part
     bare = re.sub(r"[^\w'\u2019]+$", "", rest)
     # A minor word the registry capitalised, as in "Has A Solid", is lowered.
     # Only the plain capitalised form is touched, so an acronym is never lowered.
@@ -52,9 +56,27 @@ def _case_part(part, force):
 
 def _case_word(word, force):
     """Chicago 8.161 for compounds. The first part follows the word's position,
-    later parts are capitalised unless they are minor words."""
+    later parts are capitalised unless they are minor words.
+
+    A LATER PART THE REGISTRY CAPITALISED IS KEPT. In `Spin-Off` the second part is
+    a particle of the compound, not a preposition, and Chicago capitalises it, so
+    lowering a registry capital there would be wrong. A lower-case later part that
+    is a minor word stays lower case, as in `Out-of-Pocket`.
+    """
+    # AN EM DASH JOINS TWO WORDS WITHOUT A SPACE, `technology—A`, and what follows
+    # it opens a new phrase, so each side is cased as a word and the right side
+    # as a first word.
+    if "\u2014" in word:
+        left, right = word.split("\u2014", 1)
+        return _case_word(left, force) + "\u2014" + _case_word(right, True)
     parts = word.split("-")
-    return "-".join(_case_part(p, force if i == 0 else False) for i, p in enumerate(parts))
+    out = []
+    for i, p in enumerate(parts):
+        if i and p[:1].isupper():
+            out.append(p)
+        else:
+            out.append(_case_part(p, force if i == 0 else False))
+    return "-".join(out)
 
 
 def normalise_title(title):
@@ -62,6 +84,11 @@ def normalise_title(title):
     separating a subtitle becomes a colon, and a trailing period is dropped,
     since the entry supplies its own. House rules, see CITATION_STYLE.md."""
     title = re.sub(r"\s+-\s+", ": ", title.strip())
+    # AIAA's SGML entity for a question mark survives in some deposits, as in
+    # Edelbaum's `How many impulses/ques/`.
+    title = title.replace("/ques/", "?")
+    # A trailing footnote mark from the publisher's typesetting is not the title.
+    title = re.sub(r"[*\u2217\u2020\u2021]+$", "", title)
     return re.sub(r"(?<![A-Z])\.$", "", title)
 
 
@@ -82,7 +109,9 @@ def headline_case(title):
 def _given(g):
     """Given names as printed, with Chicago's spaced initials, as in `A. J.`."""
     g = sources.clean_text(g)
-    g = g.title() if g.isupper() and len(g) > 2 and "." not in g else g
+    # A NAME IN CAPITALS IS RECASED word by word, so `JAMES K.` becomes `James K.`;
+    # an initial is a single capital and is left alone.
+    g = re.sub(r"\b([A-Z])([A-Z]+)\b", lambda m: m.group(1) + m.group(2).lower(), g)
     g = re.sub(r"\.(?=[A-Z])", ". ", g)
     return re.sub(r"\b([A-Z])(?=\s|$)", r"\1.", g)
 
@@ -90,6 +119,8 @@ def _given(g):
 def _family(f):
     """Family names as printed. A generational suffix takes no comma in the 18th edition."""
     f = sources.clean_text(f)
+    # AIAA deposits an apostrophe as a caret, `O^Neill`, a typesetting code.
+    f = f.replace("^", "'")
     f = f.title() if f.isupper() and len(f) > 3 else f
     return re.sub(r",\s*(Jr\.|Sr\.|II|III|IV)$", r" \1", f)
 
@@ -117,6 +148,7 @@ CROSSREF_KIND = {
     "proceedings-article": "proceedings-paper",
     "book-chapter": "chapter",
     "book": "book",
+    "edited-book": "book",
     "monograph": "book",
     "report": "report",
 }
@@ -158,6 +190,13 @@ def record_from_crossref(anchor, msg):
     if subtitle and subtitle.lower() not in rec["title_published"].lower():
         rec["title_published"] += ": " + subtitle
     rec["title"] = headline_case(rec["title_published"])
+    # AN ALL-CAPITALS CONTAINER IS A REGISTRY HABIT, not the journal's name, as
+    # with TRANSACTIONS OF THE JAPAN SOCIETY FOR AERONAUTICAL AND SPACE SCIENCES.
+    # It is recased as a proposal, and acronyms of five letters or fewer are kept.
+    if len(container) > 12 and container.isupper():
+        container = " ".join(w if len(w) <= 4 and w.isalpha() and w not in MINOR_UPPER else w.lower()
+                             for w in container.split())
+        container = headline_case(container)
     if kind == "journal-article":
         rec["container"] = _strip_the(container)
         rec["venue"] = rec["container"]
@@ -169,6 +208,8 @@ def record_from_crossref(anchor, msg):
         elif msg.get("article-number"):
             rec["pages"] = sources.clean_text(msg["article-number"])
         rec.pop("publisher")
+    elif kind == "book" and not rec["authors"] and msg.get("editor"):
+        rec["editors"] = _authors(msg["editor"])
     elif kind in ("proceedings-paper", "chapter", "abstract", "preprint"):
         rec["container"] = container
         if kind == "proceedings-paper":
@@ -238,6 +279,8 @@ def record_from_related_post(anchor, post_stem, locators=None):
 # meets for the first time is added as not established, so its papers fall to
 # rule 4 until someone reads its policy.
 
+MINOR_UPPER = {w.upper() for w in MINOR} | {"SPACE", "JAPAN", "OF", "THE", "AND"}
+
 DECISION_KEYS = {"article", "crossref_cache", "wiki_pins", "title", "note", "synthesis", "fix"}
 FIX_KEYS = {"note", "drop", "set"}
 NEW_VENUE_BASIS = "Full-paper peer review not established from the venue's own statement; default deny."
@@ -276,6 +319,27 @@ def load_decisions(path):
             raise sources.SourceError(f"{path}: [fix.{a}] sets unknown fields "
                                       f"{sorted(set(f['set']) - sources.FIELDS)}")
     return doc
+
+
+def decided_fields(decisions):
+    """{anchor: set of fields} that a decision file sets, for amending stored records.
+
+    A DECISION AMENDS THE STORE. A record already stored from another article
+    keeps its corrections, but a decision this article's reviewer made about it,
+    such as A382's judgement that a review in Progress in Aerospace Sciences is a
+    synthesis, must reach the store too, or the decision file would claim a
+    decision the database does not hold.
+    """
+    out = {}
+    for a, f in decisions.get("fix", {}).items():
+        out.setdefault(a, set()).update(set(f.get("set", {})) | set(f.get("drop", [])) | {"note"})
+    for a in decisions.get("title", {}):
+        out.setdefault(a, set()).add("title")
+    for a in decisions.get("synthesis", {}):
+        out.setdefault(a, set()).update({"synthesis", "note"})
+    for a in decisions.get("note", {}):
+        out.setdefault(a, set()).add("note")
+    return out
 
 
 def link_definitions(text):
@@ -320,6 +384,40 @@ def _title_key(t):
     return re.sub(r"[^a-z0-9]", "", urllib.parse.unquote(t).lower())
 
 
+# A pin is verified when the text read is shown to be the revision pinned: by
+# comparing saved wikitext with the revision's (`exact`, or `stripped` when only
+# surrounding whitespace differs), or by the revision id a saved rendered page
+# carries in its own configuration (`embedded`), which is the id of the very
+# revision the reader was served.
+VERIFIED_PINS = ("exact", "stripped", "embedded")
+
+_WG_PAGE = re.compile(r'"wgPageName":"((?:[^"\\]|\\.)+)"')
+_WG_REV = re.compile(r'"wgRevisionId":(\d+)')
+
+
+def saved_html_revisions(saved_dirs):
+    """{title key: (file, page name, revision id)} for saved rendered Wikipedia pages.
+
+    A380 saved its pages as rendered HTML under hashed names, so the file name
+    says nothing and the page's own `wgPageName` and `wgRevisionId` are read.
+    A revision id of 0 is a page that did not exist, and is skipped.
+    """
+    import glob
+    import json as _json
+    import os
+    out = {}
+    for d in saved_dirs:
+        for f in sorted(glob.glob(os.path.join(d, "*"))):
+            if not os.path.isfile(f) or f.endswith((".txt", ".clean", ".json")):
+                continue
+            head = open(f, encoding="utf-8", errors="replace").read(400_000)
+            page, rev = _WG_PAGE.search(head), _WG_REV.search(head)
+            if page and rev and int(rev.group(1)) > 0:
+                name = _json.loads(f'"{page.group(1)}"')
+                out.setdefault(_title_key(name), (f, name, int(rev.group(1))))
+    return out
+
+
 def pin_wikipedia(post_path, saved_dirs, pins_path, at=None):
     """Pin each Wikipedia link in a post to a revision, verified against a saved copy.
 
@@ -343,13 +441,42 @@ def pin_wikipedia(post_path, saved_dirs, pins_path, at=None):
              if t.startswith("https://en.wikipedia.org/wiki/")}
     saved = {}
     for d in saved_dirs:
-        for f in glob.glob(os.path.join(d, "*.txt")):
-            saved[_title_key(os.path.basename(f)[:-4])] = f
+        # THE FIRST DIRECTORY GIVEN WINS. An article's own copies come first and
+        # another article's are a fallback, never a replacement.
+        for f in sorted(glob.glob(os.path.join(d, "*.txt"))):
+            saved.setdefault(_title_key(os.path.basename(f)[:-4]), f)
+    html = saved_html_revisions(saved_dirs)
     pins = json.load(open(pins_path)) if os.path.exists(pins_path) else {}
     for anchor, title in sorted(links.items()):
-        if pins.get(anchor, {}).get("match") in ("exact", "stripped"):
+        if pins.get(anchor, {}).get("match") in VERIFIED_PINS:
+            continue
+        hit = html.get(_title_key(title))
+        if hit is None and not saved.get(_title_key(title)):
+            # A link through a redirect: the saved page carries the target's name.
+            cur = fetch.wikipedia_revision(title)
+            hit = html.get(_title_key(cur["page_title"])) if cur else None
+        if hit:
+            hf, name, revid = hit
+            rev = fetch.wikipedia_revision(title, oldid=revid)
+            ts = datetime.datetime.fromtimestamp(os.path.getmtime(hf), datetime.timezone.utc)
+            ok = rev is not None and _title_key(rev["page_title"]) == _title_key(name)
+            pins[anchor] = {"title": title, "page_title": rev["page_title"] if rev else name, "oldid": revid,
+                            "timestamp": rev["timestamp"] if rev else None, "saved_file": hf,
+                            "saved_at": ts.strftime("%Y-%m-%dT%H:%M:%SZ"),
+                            "match": "embedded" if ok else "MISMATCH"}
             continue
         f = saved.get(_title_key(title))
+        if not f:
+            # A COPY SAVED UNDER A SHORTER NAME, such as `Sphere_of_influence.txt` for
+            # `Sphere of influence (astrodynamics)`. A candidate is accepted only if
+            # its text is byte-identical to the revision, so a wrong guess cannot pin.
+            for key in sorted((k for k in saved if _title_key(title).startswith(k)), key=len, reverse=True):
+                cand = saved[key]
+                ts_c = datetime.datetime.fromtimestamp(os.path.getmtime(cand), datetime.timezone.utc)
+                rev_c = fetch.wikipedia_revision(title, before=ts_c.strftime("%Y-%m-%dT%H:%M:%SZ"))
+                if rev_c and rev_c["content"].strip() == open(cand, encoding="utf-8").read().strip():
+                    f = cand
+                    break
         if f:
             ts = datetime.datetime.fromtimestamp(os.path.getmtime(f), datetime.timezone.utc)
             ts = ts.strftime("%Y-%m-%dT%H:%M:%SZ")
@@ -399,7 +526,7 @@ def import_post(post_path, decisions, venues):
             recs[a] = record_from_crossref(a, msg)
         elif target.startswith("https://en.wikipedia.org/"):
             p = pins.get(a, {})
-            if p.get("match") not in ("exact", "stripped"):
+            if p.get("match") not in VERIFIED_PINS:
                 errors.append(f"{a}: no verified Wikipedia pin ({p.get('match')})")
                 continue
             # A CONVERTED POST LINKS ITS PIN ALREADY. Re-importing it is how the
@@ -409,8 +536,16 @@ def import_post(post_path, decisions, venues):
                 errors.append(f"{a}: links revision {linked.group(1)} but is pinned to {p['oldid']}")
                 continue
             recs[a] = record_from_wikipedia(a, p["page_title"], p["oldid"], p["timestamp"])
-            recs[a]["evidence"] = (f"Revision text byte-identical to the copy read for "
-                                   f"{decisions['article']}, saved {p['saved_at']}.")
+            held = re.search(r"tmp/(a\d+)/", p.get("saved_file") or "")
+            read_for = held.group(1).upper() if held else decisions["article"]
+            recs[a]["evidence"] = {
+                "exact": f"Revision text byte-identical to the copy read for {read_for}, "
+                         f"saved {p['saved_at']}.",
+                "stripped": f"Revision text identical, apart from surrounding whitespace, to the copy read "
+                            f"for {read_for}, saved {p['saved_at']}.",
+                "embedded": f"Revision id carried by the rendered page saved when {read_for} "
+                            f"was researched, {p['saved_at']}.",
+            }[p["match"]]
         elif target.startswith("{% post_url"):
             m = re.match(r"\{% post_url (\S+) %\}(?:#(\S+))?", target)
             related.setdefault(m.group(1), []).append((a, m.group(2)))
@@ -451,26 +586,185 @@ def import_post(post_path, decisions, venues):
     return recs, new_venues
 
 
-def merge(store, drafts, replace=False):
-    """(merged, added, unchanged, conflicts). A changed record is a conflict unless `replace`."""
+def identity(r):
+    """What a record IS, independent of its text: a DOI, a page revision, a post, or a URL.
+
+    Two articles that cite the same identity under the same anchor cite one
+    source, and the stored record, with its corrections, is the source.
+    """
+    if r.get("kind") == "related-post":
+        return ("post", r.get("post"))
+    if r.get("kind") == "wikipedia":
+        return ("wikipedia", r.get("title_published"), (r.get("revision") or {}).get("oldid"))
+    if r.get("doi"):
+        return ("doi", r["doi"].lower())
+    return ("url", r.get("url"))
+
+
+def merge(store, drafts, replace=False, decided=None):
+    """(merged, added, known, conflicts, extended).
+
+    A NEW anchor is added. A KNOWN anchor, the same identity already stored, keeps
+    the stored record, because a correction made once must survive every later
+    import of the same source: A382 re-derived Kopp and Lean 2011 from Crossref with
+    its placeholder pages, which A384's record had already corrected. A related
+    post's section locators are the exception, since articles cite different
+    sections of one post, so new locators are added to the stored record, and a
+    locator name already bound to another section is a conflict. The SAME anchor
+    with a DIFFERENT identity is a conflict, never written without `replace`.
+    """
     merged = dict(store)
-    added, unchanged, conflicts = [], [], []
+    added, known, conflicts, extended = [], [], [], []
     for a, r in sorted(drafts.items()):
         if a not in store:
             added.append(a)
             merged[a] = r
-        elif store[a] == r:
-            unchanged.append(a)
-        else:
+            continue
+        old = store[a]
+        if identity(old) != identity(r):
             conflicts.append(a)
             if replace:
                 merged[a] = r
-    return merged, added, unchanged, conflicts
+            continue
+        if r.get("kind") == "related-post":
+            loc = dict(old.get("locators", {}))
+            clash = [k for k, f in r.get("locators", {}).items() if k in loc and loc[k] != f]
+            if clash:
+                conflicts.append(a)
+                continue
+            new_loc = {k: f for k, f in r.get("locators", {}).items() if k not in loc}
+            if new_loc:
+                merged[a] = dict(old, locators=dict(sorted({**loc, **new_loc}.items())))
+                extended.append(a)
+                continue
+        fields = (decided or {}).get(a, set())
+        amended = {k: r[k] for k in fields if k in r and old.get(k) != r[k]}
+        dropped = [k for k in fields if k not in r and k in old]
+        if amended or dropped:
+            rec = {k: v for k, v in old.items() if k not in dropped}
+            rec.update(amended)
+            merged[a] = rec
+            extended.append(a)
+            continue
+        known.append(a)
+    return merged, added, known, conflicts, extended
 
 
 def _diff(old, new):
     keys = sorted(set(old) | set(new))
     return [f"      {k}: {old.get(k)!r} -> {new.get(k)!r}" for k in keys if old.get(k) != new.get(k)]
+
+
+LEGACY_ITEM = re.compile(r"^- \[(.+)\]\[([a-z0-9_]+)\]$", re.M)
+
+
+def legacy_labels(text):
+    """{anchor: (who-and-year, title)} from a post's pre-conversion reference list.
+
+    The legacy label is `Category, Author Year, Title` for a work and
+    `Reference, Title, Wikipedia` for an encyclopaedia article. Those labels were
+    checked by hand while the article was drafted, so they are the second
+    opinion every registry title and author list is reviewed against.
+    """
+    out = {}
+    for label, a in LEGACY_ITEM.findall(text):
+        parts = label.split(", ")
+        if parts[0] == "Reference" and parts[-1] == "Wikipedia":
+            out[a] = ("", ", ".join(parts[1:-1]))
+        else:
+            # The author part may hold commas, `Abarbanell, Bushee and Smith Raedy 2003`,
+            # so it ends at the first part that ends in a year.
+            k = next((i for i, x in enumerate(parts[1:], 1) if re.search(r"\b\d{4}[a-z]?$", x)), None)
+            if k is not None and k + 1 < len(parts):
+                out[a] = (", ".join(parts[1:k + 1]), ", ".join(parts[k + 1:]))
+    return out
+
+
+def _letters(s):
+    return re.sub(r"[^a-z0-9]", "", sources.clean_text(s).lower())
+
+
+def wikitext_authors(doi, saved_dirs):
+    """[(file, [(family, given)])] from citation templates in saved wikitext that name `doi`.
+
+    Wikipedia editors often transcribe a full author list where a registry kept
+    only the first author, as for Wieczorek et al. 2006, which Crossref and
+    OpenAlex give as one author and the Moon article gives as sixteen. The
+    saved copies are the pinned revisions, so the source of a correction is a
+    fixed text.
+    """
+    import glob
+    import os
+    out = []
+    pat = re.compile(r"\{\{\s*[Cc]ite[^{}]*?" + re.escape(doi) + r"[^{}]*\}\}|"
+                     r"\{\{\s*[Cc]ite(?:(?!\}\})[^{])*?" + re.escape(doi), re.I | re.S)
+    for d in saved_dirs:
+        for f in sorted(glob.glob(os.path.join(d, "*.txt"))):
+            text = open(f, encoding="utf-8", errors="replace").read()
+            for m in pat.finditer(text):
+                start = text.rfind("{{", 0, m.start() + 2)
+                end = text.find("}}", m.end() - 2)
+                tpl = text[start:end if end > 0 else m.end()]
+                fams = dict(re.findall(r"\|\s*last(\d*)\s*=\s*([^|}]+)", tpl))
+                givs = dict(re.findall(r"\|\s*first(\d*)\s*=\s*([^|}]+)", tpl))
+                keys = sorted(fams, key=lambda k: int(k or 1))
+                people = [(fams[k].strip(), givs.get(k, "").strip()) for k in keys]
+                if people:
+                    out.append((f, people))
+    return out
+
+
+def review(text, drafts, store=None, second_opinion=False, saved_dirs=()):
+    """[(anchor, [findings])] for each drafted record a person should look at.
+
+    Each finding names a difference from the legacy label, or a field a
+    registry commonly gets wrong. A record with no findings still had its title
+    recased by `headline_case`, which is a proposal, so the command prints every
+    title for reading and marks only the ones that need a decision.
+    """
+    legacy = legacy_labels(text)
+    rows = []
+    for a, r in sorted(drafts.items()):
+        if r.get("kind") == "related-post":
+            continue
+        if store and a in store and identity(store[a]) == identity(r):
+            continue
+        f = []
+        who, old_title = legacy.get(a, ("", ""))
+        if old_title and _letters(old_title.replace(",", "")) != _letters(r["title"]):
+            f.append(f"WORDS DIFFER from the label: {old_title!r}")
+        if who:
+            m = re.match(r"^(.*?)\s+(\d{4}[a-z]?)$", who)
+            if m:
+                year = str(r.get("year") or "")
+                if not m.group(2).startswith(year) or not year:
+                    f.append(f"YEAR {year or 'missing'} against the label's {m.group(2)}")
+                label_people = m.group(1)
+                if r.get("kind") != "wikipedia" and _letters(sources.cite_label(r)) != _letters(
+                        re.sub(r"\bet al\.?", "et al", label_people)):
+                    f.append(f"AUTHORS read {sources.cite_label(r)!r}, the label {label_people!r}")
+        if r.get("kind") == "journal-article":
+            if not r.get("pages"):
+                f.append("NO PAGES or article number")
+            if not r.get("volume"):
+                f.append("NO VOLUME")
+        if r.get("kind") in ("book", "report") and not r.get("publisher"):
+            f.append("NO PUBLISHER")
+        if r.get("kind") != "wikipedia" and not sources.creators(r):
+            f.append("NO AUTHORS OR EDITORS")
+        if r.get("container") and re.search(r"&[a-z]+;|[<>]|\b\d+(st|nd|rd|th)\b.*\b\d+(st|nd|rd|th)\b", r["container"]):
+            f.append(f"CONTAINER looks concatenated or escaped: {r['container'][:80]!r}")
+        if second_opinion and r.get("doi") and any(x.startswith(("AUTHORS", "NO AUTHORS")) for x in f):
+            import fetch
+            w = fetch.openalex_work(r["doi"])
+            names = [(x.get("author") or {}).get("display_name") for x in (w or {}).get("authorships", [])]
+            f.append(f"OPENALEX authors: {names if w else 'lookup failed'}")
+            for wf, people in wikitext_authors(r["doi"], saved_dirs)[:2]:
+                f.append(f"WIKITEXT {os.path.basename(wf)} authors: {len(people)}, "
+                         f"{'; '.join(', '.join(x for x in p if x) for p in people[:4])}"
+                         + (" ..." if len(people) > 4 else ""))
+        rows.append((a, r.get("title_published", ""), r.get("title", ""), f))
+    return rows
 
 
 def main(argv):
@@ -486,12 +780,19 @@ def main(argv):
     p.add_argument("pins")
     p.add_argument("--saved", action="append", default=[], help="directory of saved wikitext copies")
     p.add_argument("--at", help="pin links with no saved copy to this ISO timestamp, unverified")
+    p = sub.add_parser("review", help="print drafted titles and flag what needs a decision")
+    p.add_argument("post")
+    p.add_argument("drafts")
+    p.add_argument("--flagged", action="store_true", help="print only records with findings")
+    p.add_argument("--second-opinion", action="store_true", help="fetch OpenAlex authors for author findings")
+    p.add_argument("--saved", action="append", default=[], help="saved wikitext to search for fuller author lists")
     p = sub.add_parser("import", help="draft records for a post and merge them into the store")
     p.add_argument("post")
     p.add_argument("decisions")
     p.add_argument("--write", action="store_true", help="save the merged store")
     p.add_argument("--replace", action="store_true", help="let a draft replace a differing record")
     p.add_argument("--drafts", help="also save the draft records to this JSON file")
+    p.add_argument("--verbose", action="store_true", help="show how drafts of known records differ")
     a = ap.parse_args(argv[1:])
     try:
         if a.cmd == "fetch-crossref":
@@ -505,18 +806,35 @@ def main(argv):
                 print("no unpinned https://en.wikipedia.org/wiki/ links in the post")
             bad = 0
             for anchor, pin in sorted(pins.items()):
-                ok = pin.get("match") in ("exact", "stripped")
+                ok = pin.get("match") in VERIFIED_PINS
                 bad += not ok
                 print(f"  {anchor:34s} {pin.get('match'):13s} {pin.get('oldid', '')} {pin.get('page_title', '')}")
             print(f"{len(pins)} pins, {bad} not verified")
             return 1 if bad else 0
+        if a.cmd == "review":
+            rows = review(open(a.post, encoding="utf-8").read(), json.load(open(a.drafts, encoding="utf-8")),
+                          sources.load_records(), a.second_opinion, a.saved)
+            flagged = 0
+            for anchor, pub, title, findings in rows:
+                flagged += bool(findings)
+                if findings or not a.flagged:
+                    print(f"{anchor}\n    registry: {pub}\n    proposed: {title}")
+                    for x in findings:
+                        print(f"    ** {x}")
+            print(f"{len(rows)} records, {flagged} with findings")
+            return 0
         venues = sources.load_venues()
         store = sources.load_records()
-        drafts, new_venues = import_post(a.post, load_decisions(a.decisions), venues)
+        decisions = load_decisions(a.decisions)
+        drafts, new_venues = import_post(a.post, decisions, venues)
         if a.drafts:
             with open(a.drafts, "w", encoding="utf-8") as fh:
                 json.dump(drafts, fh, indent=1, ensure_ascii=False, sort_keys=True)
-        merged, added, unchanged, conflicts = merge(store, drafts, a.replace)
+        merged, added, unchanged, conflicts, extended = merge(store, drafts, a.replace,
+                                                              decided_fields(decisions))
+        every = {**venues, **new_venues}
+        for anchor in extended:
+            merged[anchor]["rule"], merged[anchor]["section"] = sources.classify(merged[anchor], every)
         for anchor in added:
             r = drafts[anchor]
             if r.get("title") and r.get("title") != r.get("title_published"):
@@ -524,11 +842,18 @@ def main(argv):
             else:
                 print(f"  NEW {anchor}")
         for anchor in conflicts:
-            print(f"  CONFLICT {anchor}")
+            print(f"  CONFLICT {anchor}, a different source under a stored anchor")
             print("\n".join(_diff(store[anchor], drafts[anchor])))
+        for anchor in extended:
+            print(f"  EXTENDED {anchor}, new locators or this article's decisions added to the stored record")
+        for anchor in unchanged:
+            diff = _diff(store[anchor], drafts[anchor])
+            if diff and a.verbose:
+                print(f"  KNOWN {anchor}, stored record kept over this draft:")
+                print("\n".join(diff))
         for v in new_venues:
             print(f"  NEW VENUE, not established: {v}")
-        print(f"{len(drafts)} drafted: {len(added)} new, {len(unchanged)} unchanged, "
+        print(f"{len(drafts)} drafted: {len(added)} new, {len(unchanged)} known, {len(extended)} extended, "
               f"{len(conflicts)} conflicting, {len(new_venues)} new venues")
         if conflicts and not a.replace:
             print("conflicts are not written; decide each, then rerun with --replace")

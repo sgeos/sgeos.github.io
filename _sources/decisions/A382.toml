@@ -1,0 +1,36 @@
+article = "A382"
+crossref_cache = "tmp/a382/sources/crossref"
+wiki_pins = "tmp/a382/sources/wiki_pins.json"
+
+# Reviewed 2026-10-24 with `sources_import.py review --second-opinion`.
+[title]
+research_mori_et_al_2011 = "World's First Solar Power Sail Demonstration Flight by IKAROS"
+research_janhunen_et_al_2010 = "Electric Solar Wind Sail: Toward Test Missions"
+
+[fix.research_furuya_masuoka_2004]
+note = "Crossref lists no authors. Hiroshi Furuya and Tadashi Masuoka from OpenAlex, consistent with the article's label."
+set = { authors = [ { family = "Furuya", given = "Hiroshi" }, { family = "Masuoka", given = "Tadashi" } ] }
+
+[fix.research_mcinnes_simmons_1992]
+note = "Crossref and OpenAlex both spell the first author Mclnnes, a lower-case l for a capital I. The author is Colin R. McInnes, as in every other record of his work."
+set = { authors = [ { family = "McInnes", given = "C. R." }, { family = "Simmons", given = "J. F. L." } ] }
+
+[fix.research_mori_et_al_2011]
+note = "Crossref types this as a journal article in Proceedings of the Space Engineering Conference, volume 2010.19, which is the Japan Society of Mechanical Engineers' code for its 19th Space Engineering Conference, and prefixes the title with its session code A1. Kind, container and title corrected, the code-as-volume dropped. The IKAROS Demonstration Team is a co-author as published."
+drop = ["volume"]
+set = { kind = "proceedings-paper", container = "Proceedings of the 19th Space Engineering Conference", venue = "Proceedings of the 19th Space Engineering Conference" }
+
+[note]
+research_janhunen_et_al_2010 = "Review of Scientific Instruments prefixes the title with its section label Invited Article, omitted as a label rather than part of the title."
+
+[fix.research_banik_ardelean_2010]
+note = "Crossref concatenates the three co-located AIAA meetings into one truncated container. The paper's meeting, the first named, is kept."
+set = { container = "51st AIAA/ASME/ASCE/AHS/ASC Structures, Structural Dynamics, and Materials Conference", venue = "51st AIAA/ASME/ASCE/AHS/ASC Structures, Structural Dynamics, and Materials Conference" }
+
+[fix.research_furuya_satou_2008]
+note = "Crossref concatenates the three co-located AIAA meetings into one truncated container. The paper's meeting, the first named, is kept."
+set = { container = "49th AIAA/ASME/ASCE/AHS/ASC Structures, Structural Dynamics, and Materials Conference", venue = "49th AIAA/ASME/ASCE/AHS/ASC Structures, Structural Dynamics, and Materials Conference" }
+
+[synthesis]
+research_bassetto_et_al_2022 = "A comprehensive review, in Progress in Aerospace Sciences, which publishes invited critical review papers only."
+research_fu_sperber_eke_2016 = "A state-of-the-art review, in Progress in Aerospace Sciences, which publishes invited critical review papers only."

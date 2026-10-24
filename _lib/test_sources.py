@@ -371,13 +371,40 @@ def t_import_never_credits_a_new_venue():
         shutil.rmtree(d)
 
 
-def t_merge_reports_conflicts_and_keeps_store():
-    store = {"a": {"anchor": "a", "title": "Old"}}
-    merged, added, same, conflicts = SI.merge(store, {"a": {"anchor": "a", "title": "New"},
-                                                       "b": {"anchor": "b"}})
-    assert added == ["b"] and conflicts == ["a"] and merged["a"]["title"] == "Old", (added, conflicts)
-    merged, *_ = SI.merge(store, {"a": {"anchor": "a", "title": "New"}}, replace=True)
-    assert merged["a"]["title"] == "New"
+def t_merge_keeps_corrections_and_refuses_a_different_source():
+    """A382 re-derived Kopp and Lean 2011 from Crossref with placeholder pages A384 had corrected."""
+    store = {"a": {"anchor": "a", "doi": "10.1/x", "pages": "L01706"}}
+    merged, added, known, conflicts, ext = SI.merge(store, {"a": {"anchor": "a", "doi": "10.1/X", "pages": "n/a-n/a"},
+                                                         "b": {"anchor": "b", "doi": "10.1/y"}})
+    assert added == ["b"] and known == ["a"] and not conflicts and merged["a"]["pages"] == "L01706"
+    merged, _a, _k, conflicts, _e = SI.merge(store, {"a": {"anchor": "a", "doi": "10.1/other"}})
+    assert conflicts == ["a"] and merged["a"]["doi"] == "10.1/x"
+    merged, *_ = SI.merge(store, {"a": {"anchor": "a", "doi": "10.1/other"}}, replace=True)
+    assert merged["a"]["doi"] == "10.1/other"
+
+
+def t_merge_adds_section_locators_and_refuses_a_rebound_one():
+    store = {"p": {"anchor": "p", "kind": "related-post", "post": "2026-08-17-x", "locators": {"p_a": "one"}}}
+    merged, _ad, _k, conflicts, ext = SI.merge(store, {"p": dict(store["p"], locators={"p_b": "two"})})
+    assert ext == ["p"] and merged["p"]["locators"] == {"p_a": "one", "p_b": "two"} and not conflicts
+    _m, _ad, _k, conflicts, _e = SI.merge(store, {"p": dict(store["p"], locators={"p_a": "moved"})})
+    assert conflicts == ["p"]
+
+
+def t_clean_text_handles_double_escapes_and_breaks():
+    assert S.clean_text("A Conference&amp;lt;BR&amp;gt; 18th Meeting") == "A Conference 18th Meeting"
+    assert S.clean_text("Earth &amp;amp; Space") == "Earth & Space"
+
+
+def t_edited_book_lists_its_editor():
+    """With no author the editor leads the entry, the label and the sort."""
+    r = {"anchor": "book_conway_2010", "kind": "book", "doi": "10.1017/x", "title": "Spacecraft Trajectory Optimization",
+         "editors": [{"family": "Conway", "given": "Bruce A."}], "year": 2010, "publisher": "Cambridge University Press"}
+    r["rule"], r["section"] = S.classify(r, {})
+    S.validate_record(r, {})
+    assert S.entry(r).startswith("Conway, Bruce A., ed. 2010. *Spacecraft Trajectory Optimization*."), S.entry(r)
+    assert S.cite_label(r) == "Conway"
+
 
 
 FIXTURE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "testdata", "sources")
@@ -447,6 +474,87 @@ def t_import_refuses_a_link_that_disagrees_with_its_pin():
     finally:
         shutil.rmtree(d)
 
+
+# ------------------------------------------------------- A380 to A383 conversion lessons
+
+def t_embedded_revision_ids_pin_saved_rendered_pages():
+    """A380 saved rendered HTML under hashed names; the page's own revision id is the pin."""
+    import shutil
+    import tempfile
+    d = tempfile.mkdtemp(dir=_SCRATCH)
+    try:
+        open(os.path.join(d, "0b84bf99"), "w").write(
+            '<html><script>RLCONF={"wgPageName":"Equity_carve-out","wgRevisionId":1292204263};</script></html>')
+        open(os.path.join(d, "missing"), "w").write('{"wgPageName":"Split-off","wgRevisionId":0}')
+        got = SI.saved_html_revisions([d])
+        assert list(got.values()) == [(os.path.join(d, "0b84bf99"), "Equity_carve-out", 1292204263)], got
+    finally:
+        shutil.rmtree(d)
+
+
+def t_legacy_labels_split_at_the_year():
+    text = ("- [Research, Abarbanell, Bushee and Smith Raedy 2003, Institutional Investor Preferences][research_a_2003]\n"
+            "- [Reference, Corporate Spin-off, Wikipedia][ref_corporate_spin_off]\n")
+    got = SI.legacy_labels(text)
+    assert got["research_a_2003"] == ("Abarbanell, Bushee and Smith Raedy 2003", "Institutional Investor Preferences")
+    assert got["ref_corporate_spin_off"] == ("", "Corporate Spin-off")
+
+
+def t_headline_case_registry_habits():
+    """Each of these was a defect found reviewing A380 to A383."""
+    assert SI.headline_case("Photon sails at α Centauri") == "Photon Sails at α Centauri"
+    assert SI.headline_case("Solar sail technology\u2014A state of the art review") == \
+        "Solar Sail Technology\u2014A State of the Art Review"
+    assert SI.headline_case("Can takeover losses explain Spin-Off gains?") == "Can Takeover Losses Explain Spin-Off Gains?"
+    assert SI.headline_case("Polarimeter aboard the demonstrator") == "Polarimeter aboard the Demonstrator"
+    assert SI.normalise_title("How many impulses/ques/") == "How many impulses?"
+    assert SI.normalise_title("Ground-Based Astrometry\u2217") == "Ground-Based Astrometry"
+
+
+def t_registry_name_habits():
+    assert SI._given("JAMES K.") == "James K." and SI._given("A. J.") == "A. J."
+    assert SI._family("O^Neill") == "O'Neill"
+    r = journal(authors=[{"family": "Sauer Jr.", "given": "C."}])
+    assert S.entry(r).startswith("Sauer, C., Jr. 2020."), S.entry(r)
+    assert S.cite_label(r) == "Sauer"
+
+
+def t_magazine_features_are_general_sources():
+    v = {"venue": "Physics Today", "peer_reviewed": False, "checked": True, "magazine": True, "basis": "test"}
+    S.validate_venue(v)
+    assert S.classify(journal(venue="Physics Today", container="Physics Today"), {"Physics Today": v}) == \
+        (7, "General Sources")
+    raises(lambda: S.validate_venue(dict(v, peer_reviewed=True, reviewers="x", evidence=[])), "magazine")
+
+
+def t_a_later_decision_amends_a_stored_record():
+    """A382 judged a stored Progress in Aerospace Sciences paper a synthesis; the store must hold it."""
+    store = {"a": {"anchor": "a", "doi": "10.1/x", "title": "T"}}
+    draft = {"a": {"anchor": "a", "doi": "10.1/x", "title": "T", "synthesis": True, "note": "a review"}}
+    decided = SI.decided_fields({"synthesis": {"a": "a review"}})
+    merged, _ad, known, _c, ext = SI.merge(store, draft, decided=decided)
+    assert ext == ["a"] and merged["a"]["synthesis"] is True and merged["a"]["note"] == "a review"
+    merged, _ad, known, _c, ext = SI.merge(store, draft)
+    assert known == ["a"] and "synthesis" not in merged["a"], "an undecided difference amended the store"
+
+
+def t_fix_labels_keeps_heading_and_locator():
+    """The first version dropped the References heading, which this guards."""
+    recs = {"research_doe_2020": journal(authors=[{"family": "Doe", "given": "J."}, {"family": "Roe", "given": "K."},
+                                                    {"family": "Poe", "given": "L."}])}
+    text = ("---\n---\nAs shown [Doe, Roe and Poe 2020, p. 4][research_doe_2020].\n\n## References\n\n"
+            "[research_doe_2020]: https://doi.org/10.1/x\n")
+    new, changes = S.fix_labels(text, recs)
+    assert "[Doe et al. 2020, p. 4][research_doe_2020]" in new and "\n## References\n" in new, new
+    assert changes == [("Doe, Roe and Poe 2020, p. 4", "Doe et al. 2020, p. 4")], changes
+
+
+def t_unattributed_work_is_cited_by_short_title():
+    r = journal(authors=[], title="Mass-Driver Reaction Engine as Shuttle Upper Stage", short_title="Mass-Driver Reaction Engine")
+    assert S.cite_label(r) == "Mass-Driver Reaction Engine"
+    text = "---\n---\nSee [Unattributed 2020][research_doe_2020].\n\n## References\n\n[research_doe_2020]: x\n"
+    assert S.label_errors(text, {"research_doe_2020": r}) == [
+        ("Unattributed 2020", "research_doe_2020", "Mass-Driver Reaction Engine 2020")]
 
 for name, fn in sorted(list(globals().items())):
     if name.startswith("t_") and callable(fn):

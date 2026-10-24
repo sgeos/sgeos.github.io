@@ -36,7 +36,7 @@ This article treats the manoeuvres in more depth,
 with worked numbers,
 and adds compound and advanced manoeuvres.
 General references include the orbital manoeuvres chapter of Curtis
-[Curtis 2020][book_curtis_2020_maneuvers]
+[Curtis 2020b][book_curtis_2020_maneuvers]
 and the astrodynamics text of Battin
 [Battin 1999][book_battin_1999].
 Every number is computed from the equations shown,
@@ -156,7 +156,7 @@ including a mass driver used as a reaction engine
 [Mass Driver][ref_mass_driver].
 A 1977 design study of such an engine as an upper stage for the Space Shuttle
 would accelerate segments of spent external tankage to exhaust velocities of 8 to 10 kilometres per second
-[Unattributed 1977][research_mass_driver_reaction_engine_1977].
+[Mass-Driver Reaction Engine 1977][research_mass_driver_reaction_engine_1977].
 
 Two further relations connect the rocket equation to engine data.
 The exhaust speed is the specific impulse $I_{\mathrm{sp}}$ multiplied by standard gravity $g_{0}$,
@@ -438,7 +438,7 @@ and Izzo revisited the problem in 2014
 Lambert's problem also has applications in preliminary orbit determination
 [Lambert's Problem][ref_lamberts_problem],
 the subject of a chapter of Curtis
-[Curtis 2020][book_curtis_2020_orbit_determination].
+[Curtis 2020c][book_curtis_2020_orbit_determination].
 
 ## Three-Impulse Transfers
 
@@ -632,7 +632,7 @@ $$
 Thrusting toward a target raises the chaser's orbit and makes it fall behind.
 The equations reduce rendezvous planning to linear algebra,
 and Curtis treats relative motion and rendezvous together in one chapter
-[Curtis 2020][book_curtis_2020_rendezvous].
+[Curtis 2020d][book_curtis_2020_rendezvous].
 
 ## Escape, Capture and the Oberth Effect
 
@@ -701,7 +701,7 @@ A spacecraft can capture into a long ellipse and then lower the apoapsis later,
 by burning or by aerobraking.
 Aerocapture and aerobraking have each been assessed,
 the first in a cost-benefit analysis across a mission set
-[Hall, Noca and Bailey 2005][research_hall_noca_bailey_2005]
+[Hall et al. 2005][research_hall_noca_bailey_2005]
 and the second as a matter of cost and risk
 [Spencer and Tolson 2007][research_spencer_tolson_2007].
 
@@ -714,7 +714,7 @@ The departure and capture burns above are joined by a heliocentric transfer,
 such as the Hohmann transfer in the worked example of a flight from Earth to Mars
 [Patched Conic Approximation][ref_patched_conic_approximation].
 Curtis devotes a chapter to interplanetary trajectories
-[Curtis 2020][book_curtis_2020_interplanetary].
+[Curtis 2020a][book_curtis_2020_interplanetary].
 
 Three equations carry this method.
 The sphere of influence of a planet of mass $m$ orbiting a star of mass $M$ at distance $a$ has the approximate radius below
@@ -859,7 +859,7 @@ or by its subject alone where it is cited for its title.
 
 Battin's text and Curtis's chapters serve above as general textbook references
 [Battin 1999][book_battin_1999]
-[Curtis 2020][book_curtis_2020_maneuvers].
+[Curtis 2020b][book_curtis_2020_maneuvers].
 Gobetz and Doll surveyed impulsive trajectories,
 optimal and nonoptimal,
 and classified the known results for reference
@@ -929,7 +929,7 @@ and Yamanaka and Ankersen gave a new and simpler state transition matrix valid f
 Lancaster,
 Blanchard
 and Devaney published a note on Lambert's theorem in 1966
-[Lancaster, Blanchard and Devaney 1966][research_lancaster_blanchard_devaney_1966].
+[Lancaster et al. 1966][research_lancaster_blanchard_devaney_1966].
 Battin and Vaughan's algorithm removed the 180 degree singularity of Gauss's method
 [Battin and Vaughan 1984][research_battin_vaughan_1984],
 Gooding gave a solution procedure for the orbital boundary-value problem
@@ -947,7 +947,7 @@ On the use of atmospheres for capture,
 Hall,
 Noca
 and Bailey analysed the costs and benefits of aerocapture across a set of missions
-[Hall, Noca and Bailey 2005][research_hall_noca_bailey_2005],
+[Hall et al. 2005][research_hall_noca_bailey_2005],
 and Spencer and Tolson examined the cost and risk decisions of aerobraking
 [Spencer and Tolson 2007][research_spencer_tolson_2007].
 
@@ -1041,7 +1041,7 @@ Koon and coauthors in 2000,
 Belbruno and Carrico,
 and the 1977 reaction engine study are stated according to their published abstracts.
 The 1977 study carries no author in its bibliographic record,
-so it is cited as unattributed.
+so it is cited by its title.
 Every other research work and book cited,
 including the textbooks of Curtis and Battin,
 are cited only for what their titles state.
@@ -1105,114 +1105,131 @@ sails,
 mass drivers
 and gravity assists.
 
+
 ## References
 
-- [Book, Battin 1999, An Introduction to the Mathematics and Methods of Astrodynamics, Revised Edition][book_battin_1999]
-- [Book, Conway 2010, Spacecraft Trajectory Optimization][book_conway_2010]
-- [Book, Curtis 2020, Orbital Mechanics for Engineering Students, Interplanetary Trajectories][book_curtis_2020_interplanetary]
-- [Book, Curtis 2020, Orbital Mechanics for Engineering Students, Orbital Maneuvers][book_curtis_2020_maneuvers]
-- [Book, Curtis 2020, Orbital Mechanics for Engineering Students, Preliminary Orbit Determination][book_curtis_2020_orbit_determination]
-- [Book, Curtis 2020, Orbital Mechanics for Engineering Students, Relative Motion and Rendezvous][book_curtis_2020_rendezvous]
-- [Book, Prussing 2010, Primer Vector Theory and Applications, in Spacecraft Trajectory Optimization][book_prussing_2010]
-- [Reference, Bi-elliptic Transfer, Wikipedia][ref_bi_elliptic_transfer]
-- [Reference, Clohessy-Wiltshire Equations, Wikipedia][ref_clohessy_wiltshire_equations]
-- [Reference, Delta-v Budget, Wikipedia][ref_delta_v_budget]
-- [Reference, Delta-v, Wikipedia][ref_delta_v]
-- [Reference, Geostationary Transfer Orbit, Wikipedia][ref_geostationary_transfer_orbit]
-- [Reference, Gravity Assist, Wikipedia][ref_gravity_assist]
-- [Reference, Gravity Loss, Wikipedia][ref_gravity_loss]
-- [Reference, Hohmann Transfer Orbit, Wikipedia][ref_hohmann_transfer_orbit]
-- [Reference, Hyperbolic Trajectory, Wikipedia][ref_hyperbolic_trajectory]
-- [Reference, Lambert's Problem, Wikipedia][ref_lamberts_problem]
-- [Reference, Low-Energy Transfer, Wikipedia][ref_low_energy_transfer]
-- [Reference, Mass Driver, Wikipedia][ref_mass_driver]
-- [Reference, Multistage Rocket, Wikipedia][ref_multistage_rocket]
-- [Reference, Oberth Effect, Wikipedia][ref_oberth_effect]
-- [Reference, Orbit Phasing, Wikipedia][ref_orbit_phasing]
-- [Reference, Orbital Inclination Change, Wikipedia][ref_orbital_inclination_change]
-- [Reference, Orbital Maneuver, Wikipedia][ref_orbital_maneuver]
-- [Reference, Patched Conic Approximation, Wikipedia][ref_patched_conic_approximation]
-- [Reference, Sphere of Influence, Wikipedia][ref_sphere_of_influence]
-- [Reference, Tsiolkovsky Rocket Equation, Wikipedia][ref_tsiolkovsky_rocket_equation]
-- [Reference, Vis-viva Equation, Wikipedia][ref_vis_viva_equation]
-- [Related Post, Introduction to Space Studies][related_post_space_studies]
-- [Research, Avanzini 2008, A Simple Lambert Algorithm][research_avanzini_2008]
-- [Research, Barrar 1963, Two-Impulse Transfer vs One-Impulse Transfer, Analytic Theory][research_barrar_1963]
-- [Research, Battin and Vaughan 1984, An Elegant Lambert Algorithm][research_battin_vaughan_1984]
-- [Research, Belbruno 1987, Lunar Capture Orbits, a Method of Constructing Earth Moon Trajectories and the Lunar GAS Mission][research_belbruno_1987]
-- [Research, Belbruno and Carrico 2000, Calculation of Weak Stability Boundary Ballistic Lunar Transfer Trajectories][research_belbruno_carrico_2000]
-- [Research, Belbruno and Miller 1993, Sun-Perturbed Earth-to-Moon Transfers with Ballistic Capture][research_belbruno_miller_1993]
-- [Research, Blanco and Mungan 2019, Rocket Propulsion, Classical Relativity, and the Oberth Effect][research_blanco_mungan_2019]
-- [Research, Broucke 1988, The Celestial Mechanics of Gravity Assist][research_broucke_1988]
-- [Research, Carter 1998, State Transition Matrices for Terminal Rendezvous Studies, Brief Survey and New Example][research_carter_1998]
-- [Research, Clohessy and Wiltshire 1960, Terminal Guidance System for Satellite Rendezvous][research_clohessy_wiltshire_1960]
-- [Research, Conley 1968, Low Energy Transit Orbits in the Restricted Three-Body Problems][research_conley_1968]
-- [Research, Culler and Fried 1957, Universal Gravity Turn Trajectories][research_culler_fried_1957]
-- [Research, Edelbaum 1961, Propulsion Requirements for Controllable Satellites][research_edelbaum_1961]
-- [Research, Edelbaum 1966, How Many Impulses?][research_edelbaum_1966]
-- [Research, Flandro 1968, Solar Electric Low-Thrust Missions to Jupiter with Swingby Continuation to the Outer Planets][research_flandro_1968]
-- [Research, Gobetz and Doll 1969, A Survey of Impulsive Trajectories][research_gobetz_doll_1969]
-- [Research, Gooding 1990, A Procedure for the Solution of Lambert's Orbital Boundary-Value Problem][research_gooding_1990]
-- [Research, Gómez et al. 2004, Connecting Orbits and Invariant Manifolds in the Spatial Restricted Three-Body Problem][research_gomez_et_al_2004]
-- [Research, Hall, Noca and Bailey 2005, Cost-Benefit Analysis of the Aerocapture Mission Set][research_hall_noca_bailey_2005]
-- [Research, Hill 1878, Researches in the Lunar Theory][research_hill_1878]
-- [Research, Hoelker and Silber 1961, The Bi-elliptical Transfer Between Co-planar Circular Orbits][research_hoelker_silber_1961]
-- [Research, Izzo 2014, Revisiting Lambert's Problem][research_izzo_2014]
-- [Research, Jezewski and Rozendaal 1968, An Efficient Method for Calculating Optimal Free-Space N-Impulse Trajectories][research_jezewski_rozendaal_1968]
-- [Research, Johnson 1995, Contents and Commentary on William Moore's A Treatise on the Motion of Rockets and an Essay on Naval Gunnery][research_johnson_1995]
-- [Research, Kechichian 1997, Reformulation of Edelbaum's Low-Thrust Transfer Problem Using Optimal Control Theory][research_kechichian_1997]
-- [Research, Koon et al. 2000, Heteroclinic Connections Between Periodic Orbits and Resonance Transitions in Celestial Mechanics][research_koon_et_al_2000]
-- [Research, Koon et al. 2001, Low Energy Transfer to the Moon][research_koon_et_al_2001]
-- [Research, Lancaster, Blanchard and Devaney 1966, A Note on Lambert's Theorem][research_lancaster_blanchard_devaney_1966]
-- [Research, Lawden 1953, Minimal Rocket Trajectories][research_lawden_1953]
-- [Research, Lawden 1959, Necessary Conditions for Optimal Rocket Trajectories][research_lawden_1959]
-- [Research, Lion and Handelsman 1968, Primer Vector on Fixed-Time Impulsive Trajectories][research_lion_handelsman_1968]
-- [Research, Longuski and Williams 1991, Automated Design of Gravity-Assist Trajectories to Mars and the Outer Planets][research_longuski_williams_1991]
-- [Research, Malina and Summerfield 1947, The Problem of Escape from the Earth by Rocket][research_malina_summerfield_1947]
-- [Research, Minovitch 1972, Gravity Thrust Jupiter Orbiter Trajectories Generated by Encountering the Galilean Satellites][research_minovitch_1972]
-- [Research, Negri and Prado 2020, A Historical Review of the Theory of Gravity-Assists in the Pre-Spaceflight Era][research_negri_prado_2020]
-- [Research, Petropoulos and Longuski 2004, Shape-Based Algorithm for the Automated Design of Low-Thrust, Gravity Assist Trajectories][research_petropoulos_longuski_2004]
-- [Research, Pontani 2009, Simple Method to Determine Globally Optimal Orbital Transfers][research_pontani_2009]
-- [Research, Prussing 1969, Optimal Four-Impulse Fixed-Time Rendezvous in the Vicinity of a Circular Orbit][research_prussing_1969]
-- [Research, Prussing 1970, Optimal Two- and Three-Impulse Fixed-Time Rendezvous in the Vicinity of a Circular Orbit][research_prussing_1970]
-- [Research, Russell 2007, Primer Vector Theory Applied to Global Low-Thrust Trade Studies][research_russell_2007]
-- [Research, Schurmann 1957, Optimum Staging Technique for Multistaged Rocket Vehicles][research_schurmann_1957]
-- [Research, Spencer and Tolson 2007, Aerobraking Cost and Risk Decisions][research_spencer_tolson_2007]
-- [Research, Strange and Longuski 2002, Graphical Method for Gravity-Assist Trajectory Design][research_strange_longuski_2002]
-- [Research, Ting 1960, Optimum Orbital Transfer by Impulses][research_ting_1960]
-- [Research, Topputo 2013, On Optimal Two-Impulse Earth-Moon Transfers in a Four-Body Model][research_topputo_2013]
-- [Research, Tschauner and Hempel 1965, Minimum-Fuel Rendezvous Techniques][research_tschauner_hempel_1965]
-- [Research, Unattributed 1977, Mass-Driver Reaction Engine as Shuttle Upper-Stage][research_mass_driver_reaction_engine_1977]
-- [Research, Yamanaka and Ankersen 2002, New State Transition Matrix for Relative Motion on an Arbitrary Elliptical Orbit][research_yamanaka_ankersen_2002]
+<!-- References generated by _lib/sources.py from _sources/. Edit the database and regenerate. Do not edit this section by hand. -->
+
+### Primary Sources, Peer-Reviewed
+
+- Avanzini, Giulio. 2008. "A Simple Lambert Algorithm." *Journal of Guidance, Control, and Dynamics* 31 (6): 1587–94. [https://doi.org/10.2514/1.36426][research_avanzini_2008]
+- Barrar, Richard B. 1963. "Two-Impulse Transfer vs One-Impulse Transfer- Analytic Theory." *AIAA Journal* 1 (1): 65–68. [https://doi.org/10.2514/3.1470][research_barrar_1963]
+- Battin, Richard H., and Robin M. Vaughan. 1984. "An Elegant Lambert Algorithm." *Journal of Guidance, Control, and Dynamics* 7 (6): 662–70. [https://doi.org/10.2514/3.19910][research_battin_vaughan_1984]
+- Belbruno, Edward A., and James K. Miller. 1993. "Sun-Perturbed Earth-to-Moon Transfers with Ballistic Capture." *Journal of Guidance, Control, and Dynamics* 16 (4): 770–75. [https://doi.org/10.2514/3.21079][research_belbruno_miller_1993]
+- Blanco, Philip Rodriguez, and Carl E. Mungan. 2019. "Rocket Propulsion, Classical Relativity, and the Oberth Effect." *Physics Teacher* 57 (7): 439–41. [https://doi.org/10.1119/1.5126818][research_blanco_mungan_2019]
+- Carter, Thomas E. 1998. "State Transition Matrices for Terminal Rendezvous Studies: Brief Survey and New Example." *Journal of Guidance, Control, and Dynamics* 21 (1): 148–55. [https://doi.org/10.2514/2.4211][research_carter_1998]
+- Conley, C. C. 1968. "Low Energy Transit Orbits in the Restricted Three-Body Problems." *SIAM Journal on Applied Mathematics* 16 (4): 732–46. [https://doi.org/10.1137/0116060][research_conley_1968]
+- Culler, Glen J., and Burton D. Fried. 1957. "Universal Gravity Turn Trajectories." *Journal of Applied Physics* 28 (6): 672–76. [https://doi.org/10.1063/1.1722828][research_culler_fried_1957]
+- Flandro, G. A. 1968. "Solar Electric Low-Thrust Missions to Jupiter with Swingby Continuation to the Outer Planets." *Journal of Spacecraft and Rockets* 5 (9): 1029–33. [https://doi.org/10.2514/3.29416][research_flandro_1968]
+- Gobetz, F. W., and J. R. Doll. 1969. "A Survey of Impulsive Trajectories." *AIAA Journal* 7 (5): 801–34. [https://doi.org/10.2514/3.5231][research_gobetz_doll_1969]
+- Gómez, G., W. S. Koon, M. W. Lo, J. E. Marsden, J. Masdemont, and S. D. Ross. 2004. "Connecting Orbits and Invariant Manifolds in the Spatial Restricted Three-Body Problem." *Nonlinearity* 17 (5): 1571–1606. [https://doi.org/10.1088/0951-7715/17/5/002][research_gomez_et_al_2004]
+- Gooding, R. H. 1990. "A Procedure for the Solution of Lambert's Orbital Boundary-Value Problem." *Celestial Mechanics and Dynamical Astronomy* 48 (2): 145–65. [https://doi.org/10.1007/bf00049511][research_gooding_1990]
+- Hall, Jeffery L., Muriel A. Noca, and Robert W. Bailey. 2005. "Cost-Benefit Analysis of the Aerocapture Mission Set." *Journal of Spacecraft and Rockets* 42 (2): 309–20. [https://doi.org/10.2514/1.4118][research_hall_noca_bailey_2005]
+- Hoelker, Rudolf F., and Robert Silber. 1961. "The Bi-Elliptical Transfer between Co-Planar Circular Orbits." *Planetary and Space Science* 7: 164–75. [https://doi.org/10.1016/0032-0633(61)90297-5][research_hoelker_silber_1961]
+- Izzo, Dario. 2014. "Revisiting Lambert’s Problem." *Celestial Mechanics and Dynamical Astronomy* 121 (1): 1–15. [https://doi.org/10.1007/s10569-014-9587-y][research_izzo_2014]
+- Jezewski, D. J., and H. L. Rozendaal. 1968. "An Efficient Method for Calculating Optimal Free-Space N-Impulse Trajectories." *AIAA Journal* 6 (11): 2160–65. [https://doi.org/10.2514/3.4949][research_jezewski_rozendaal_1968]
+- Johnson, W. 1995. "Contents and Commentary on William Moore's a Treatise on the Motion of Rockets and an Essay on Naval Gunnery." *International Journal of Impact Engineering* 16 (3): 499–521. [https://doi.org/10.1016/0734-743x(94)00052-x][research_johnson_1995]
+- Kechichian, Jean Albert. 1997. "Reformulation of Edelbaum's Low-Thrust Transfer Problem Using Optimal Control Theory." *Journal of Guidance, Control, and Dynamics* 20 (5): 988–94. [https://doi.org/10.2514/2.4145][research_kechichian_1997]
+- Koon, Wang Sang, Martin W. Lo, Jerrold E. Marsden, and Shane D. Ross. 2000. "Heteroclinic Connections between Periodic Orbits and Resonance Transitions in Celestial Mechanics." *Chaos: An Interdisciplinary Journal of Nonlinear Science* 10 (2): 427–69. [https://doi.org/10.1063/1.166509][research_koon_et_al_2000]
+- Koon, W. S., M. W. Lo, J. E. Marsden, and S. D. Ross. 2001. "Low Energy Transfer to the Moon." *Celestial Mechanics and Dynamical Astronomy* 81 (1–2): 63–73. [https://doi.org/10.1023/a:1013359120468][research_koon_et_al_2001]
+- Lancaster, E. R., R. C. Blanchard, and R. A. Devaney. 1966. "A Note on Lambert's Theorem." *Journal of Spacecraft and Rockets* 3 (9): 1436–38. [https://doi.org/10.2514/3.28673][research_lancaster_blanchard_devaney_1966]
+- Lion, P. M., and M. Handelsman. 1968. "Primer Vector on Fixed-Time Impulsive Trajectories." *AIAA Journal* 6 (1): 127–32. [https://doi.org/10.2514/3.4452][research_lion_handelsman_1968]
+- Longuski, James M., and Steve N. Williams. 1991. "Automated Design of Gravity-Assist Trajectories to Mars and the Outer Planets." *Celestial Mechanics and Dynamical Astronomy* 52 (3): 207–20. [https://doi.org/10.1007/bf00048484][research_longuski_williams_1991]
+- Minovitch, Michael A. 1972. "Gravity Thrust Jupiter Orbiter Trajectories Generated by Encountering the Galilean Satellites." *Journal of Spacecraft and Rockets* 9 (10): 751–56. [https://doi.org/10.2514/3.30391][research_minovitch_1972]
+- Negri, Rodolfo Batista, and Antônio Fernando Bertachini de Alme Prado. 2020. "A Historical Review of the Theory of Gravity-Assists in the Pre-Spaceflight Era." *Journal of the Brazilian Society of Mechanical Sciences and Engineering* 42 (8): 406. [https://doi.org/10.1007/s40430-020-02489-x][research_negri_prado_2020]
+- Petropoulos, Anastassios E., and James M. Longuski. 2004. "Shape-Based Algorithm for the Automated Design of Low-Thrust, Gravity Assist Trajectories." *Journal of Spacecraft and Rockets* 41 (5): 787–96. [https://doi.org/10.2514/1.13095][research_petropoulos_longuski_2004]
+- Pontani, Mauro. 2009. "Simple Method to Determine Globally Optimal Orbital Transfers." *Journal of Guidance, Control, and Dynamics* 32 (3): 899–914. [https://doi.org/10.2514/1.38143][research_pontani_2009]
+- Prussing, John E. 1969. "Optimal Four-Impulse Fixed-Time Rendezvous in the Vicinity of a Circular Orbit." *AIAA Journal* 7 (5): 928–35. [https://doi.org/10.2514/3.5246][research_prussing_1969]
+- Prussing, John E. 1970. "Optimal Two- and Three-Impulse Fixed-Time Rendezvous in the Vicinity of a Circular Orbit." *AIAA Journal* 8 (7): 1221–28. [https://doi.org/10.2514/3.5876][research_prussing_1970]
+- Russell, Ryan P. 2007. "Primer Vector Theory Applied to Global Low-Thrust Trade Studies." *Journal of Guidance, Control, and Dynamics* 30 (2): 460–72. [https://doi.org/10.2514/1.22984][research_russell_2007]
+- Spencer, David A., and Robert Tolson. 2007. "Aerobraking Cost and Risk Decisions." *Journal of Spacecraft and Rockets* 44 (6): 1285–93. [https://doi.org/10.2514/1.24303][research_spencer_tolson_2007]
+- Strange, Nathan J., and James M. Longuski. 2002. "Graphical Method for Gravity-Assist Trajectory Design." *Journal of Spacecraft and Rockets* 39 (1): 9–16. [https://doi.org/10.2514/2.3800][research_strange_longuski_2002]
+- Topputo, Francesco. 2013. "On Optimal Two-Impulse Earth–Moon Transfers in a Four-Body Model." *Celestial Mechanics and Dynamical Astronomy* 117 (3): 279–313. [https://doi.org/10.1007/s10569-013-9513-8][research_topputo_2013]
+- Tschauner, Johann F. A., and Peter R. Hempel. 1965. "Minimum-Fuel Rendezvous Techniques." *Journal of Spacecraft and Rockets* 2 (5): 802–4. [https://doi.org/10.2514/3.28287][research_tschauner_hempel_1965]
+- Yamanaka, Koji, and Finn Ankersen. 2002. "New State Transition Matrix for Relative Motion on an Arbitrary Elliptical Orbit." *Journal of Guidance, Control, and Dynamics* 25 (1): 60–66. [https://doi.org/10.2514/2.4875][research_yamanaka_ankersen_2002]
+
+### Primary Sources, Non-Peer-Reviewed
+
+- Belbruno, E. 1987. "Lunar Capture Orbits, a Method of Constructing Earth Moon Trajectories and the Lunar GAS Mission." In *19th International Electric Propulsion Conference*. AIAA 1987-1054. American Institute of Aeronautics and Astronautics. [https://doi.org/10.2514/6.1987-1054][research_belbruno_1987]
+- Belbruno, Edward, and John Carrico. 2000. "Calculation of Weak Stability Boundary Ballistic Lunar Transfer Trajectories." In *Astrodynamics Specialist Conference*. AIAA 2000-4142. American Institute of Aeronautics and Astronautics. [https://doi.org/10.2514/6.2000-4142][research_belbruno_carrico_2000]
+- Broucke, R. 1988. "The Celestial Mechanics of Gravity Assist." In *Astrodynamics Conference*. AIAA 1988-4220. American Institute of Aeronautics and Astronautics. [https://doi.org/10.2514/6.1988-4220][research_broucke_1988]
+- Clohessy, W. H., and R. S. Wiltshire. 1960. "Terminal Guidance System for Satellite Rendezvous." *Journal of the Aerospace Sciences* 27 (9): 653–58. [https://doi.org/10.2514/8.8704][research_clohessy_wiltshire_1960]
+- Curtis, Howard D. 2020a. "Interplanetary Trajectories." In *Orbital Mechanics for Engineering Students*. Elsevier. [https://doi.org/10.1016/b978-0-08-102133-0.00008-8][book_curtis_2020_interplanetary]
+- Curtis, Howard D. 2020b. "Orbital Maneuvers." In *Orbital Mechanics for Engineering Students*. Elsevier. [https://doi.org/10.1016/b978-0-08-102133-0.00006-4][book_curtis_2020_maneuvers]
+- Curtis, Howard D. 2020c. "Preliminary Orbit Determination." In *Orbital Mechanics for Engineering Students*. Elsevier. [https://doi.org/10.1016/b978-0-08-102133-0.00005-2][book_curtis_2020_orbit_determination]
+- Curtis, Howard D. 2020d. "Relative Motion and Rendezvous." In *Orbital Mechanics for Engineering Students*. Elsevier. [https://doi.org/10.1016/b978-0-08-102133-0.00007-6][book_curtis_2020_rendezvous]
+- Edelbaum, Theodore N. 1961. "Propulsion Requirements for Controllable Satellites." *ARS Journal* 31 (8): 1079–89. [https://doi.org/10.2514/8.5723][research_edelbaum_1961]
+- Edelbaum, T. 1966. "How Many Impulses?" In *3rd and 4th Aerospace Sciences Meeting*. AIAA 1966-7. American Institute of Aeronautics and Astronautics. [https://doi.org/10.2514/6.1966-7][research_edelbaum_1966]
+- Hill, G. W. 1878. "Researches in the Lunar Theory." *American Journal of Mathematics* 1 (1): 5. [https://doi.org/10.2307/2369430][research_hill_1878]
+- Lawden, D. F. 1953. "Minimal Rocket Trajectories." *Journal of the American Rocket Society* 23 (6): 360–67. [https://doi.org/10.2514/8.4642][research_lawden_1953]
+- Lawden, D. F. 1959. "Necessary Conditions for Optimal Rocket Trajectories." *Quarterly Journal of Mechanics and Applied Mathematics* 12 (4): 476–87. [https://doi.org/10.1093/qjmam/12.4.476][research_lawden_1959]
+- Malina, Frank J., and Martin Summerfield. 1947. "The Problem of Escape from the Earth by Rocket." *Journal of the Aeronautical Sciences* 14 (8): 471–80. [https://doi.org/10.2514/8.1417][research_malina_summerfield_1947]
+- "Mass-Driver Reaction Engine as Shuttle Upper Stage." 1977. In *3rd Conference on Space Manufacturing Facilities*. AIAA 1977-536. American Institute of Aeronautics and Astronautics. [https://doi.org/10.2514/6.1977-536][research_mass_driver_reaction_engine_1977]
+- Prussing, John E. 2010. "Primer Vector Theory and Applications." In *Spacecraft Trajectory Optimization*. Cambridge University Press. [https://doi.org/10.1017/cbo9780511778025.003][book_prussing_2010]
+- Schurmann, Ernest E. H. 1957. "Optimum Staging Technique for Multistaged Rocket Vehicles." *Journal of Jet Propulsion* 27 (8): 863–65. [https://doi.org/10.2514/8.12965][research_schurmann_1957]
+- Ting, Lu. 1960. "Optimum Orbital Transfer by Impulses." *ARS Journal* 30 (11): 1013–18. [https://doi.org/10.2514/8.5305][research_ting_1960]
+
+### Secondary Sources
+
+- Battin, Richard H. 1999. *An Introduction to the Mathematics and Methods of Astrodynamics, Revised Edition*. American Institute of Aeronautics and Astronautics, Inc. [https://doi.org/10.2514/4.861543][book_battin_1999]
+- Conway, Bruce A., ed. 2010. *Spacecraft Trajectory Optimization*. Cambridge University Press. [https://doi.org/10.1017/cbo9780511778025][book_conway_2010]
+
+### Tertiary Sources
+
+- "Bi-Elliptic Transfer." 2024. Wikipedia. Last modified July 7, at 20:50 (UTC). [https://en.wikipedia.org/w/index.php?title=Bi-elliptic\_transfer&oldid=1233203053][ref_bi_elliptic_transfer]
+- "Clohessy–Wiltshire Equations." 2026. Wikipedia. Last modified June 1, at 11:41 (UTC). [https://en.wikipedia.org/w/index.php?title=Clohessy%E2%80%93Wiltshire\_equations&oldid=1357214780][ref_clohessy_wiltshire_equations]
+- "Delta-V." 2026. Wikipedia. Last modified July 5, at 17:29 (UTC). [https://en.wikipedia.org/w/index.php?title=Delta-v&oldid=1362694687][ref_delta_v]
+- "Delta-v Budget." 2026. Wikipedia. Last modified July 2, at 23:47 (UTC). [https://en.wikipedia.org/w/index.php?title=Delta-v\_budget&oldid=1362285519][ref_delta_v_budget]
+- "Geostationary Transfer Orbit." 2026. Wikipedia. Last modified September 7, at 15:52 (UTC). [https://en.wikipedia.org/w/index.php?title=Geostationary\_transfer\_orbit&oldid=1373723626][ref_geostationary_transfer_orbit]
+- "Gravity Assist." 2026. Wikipedia. Last modified October 4, at 03:20 (UTC). [https://en.wikipedia.org/w/index.php?title=Gravity\_assist&oldid=1378359042][ref_gravity_assist]
+- "Gravity Loss." 2026. Wikipedia. Last modified July 17, at 04:25 (UTC). [https://en.wikipedia.org/w/index.php?title=Gravity\_loss&oldid=1364549710][ref_gravity_loss]
+- "Hohmann Transfer Orbit." 2026. Wikipedia. Last modified October 20, at 08:46 (UTC). [https://en.wikipedia.org/w/index.php?title=Hohmann\_transfer\_orbit&oldid=1381150738][ref_hohmann_transfer_orbit]
+- "Hyperbolic Trajectory." 2026. Wikipedia. Last modified March 31, at 23:35 (UTC). [https://en.wikipedia.org/w/index.php?title=Hyperbolic\_trajectory&oldid=1346459260][ref_hyperbolic_trajectory]
+- "Lambert's Problem." 2026. Wikipedia. Last modified July 13, at 17:17 (UTC). [https://en.wikipedia.org/w/index.php?title=Lambert's\_problem&oldid=1363971699][ref_lamberts_problem]
+- "Low-Energy Transfer." 2025. Wikipedia. Last modified September 30, at 21:32 (UTC). [https://en.wikipedia.org/w/index.php?title=Low-energy\_transfer&oldid=1314333385][ref_low_energy_transfer]
+- "Mass Driver." 2026. Wikipedia. Last modified September 25, at 09:59 (UTC). [https://en.wikipedia.org/w/index.php?title=Mass\_driver&oldid=1376635859][ref_mass_driver]
+- "Multistage Rocket." 2026. Wikipedia. Last modified October 14, at 15:06 (UTC). [https://en.wikipedia.org/w/index.php?title=Multistage\_rocket&oldid=1380228554][ref_multistage_rocket]
+- "Oberth Effect." 2026. Wikipedia. Last modified September 28, at 16:55 (UTC). [https://en.wikipedia.org/w/index.php?title=Oberth\_effect&oldid=1377271791][ref_oberth_effect]
+- "Orbit Phasing." 2026. Wikipedia. Last modified June 25, at 20:11 (UTC). [https://en.wikipedia.org/w/index.php?title=Orbit\_phasing&oldid=1361124315][ref_orbit_phasing]
+- "Orbital Inclination Change." 2025. Wikipedia. Last modified June 19, at 12:39 (UTC). [https://en.wikipedia.org/w/index.php?title=Orbital\_inclination\_change&oldid=1296348363][ref_orbital_inclination_change]
+- "Orbital Maneuver." 2026. Wikipedia. Last modified August 20, at 13:48 (UTC). [https://en.wikipedia.org/w/index.php?title=Orbital\_maneuver&oldid=1370327186][ref_orbital_maneuver]
+- "Patched Conic Approximation." 2026. Wikipedia. Last modified October 10, at 16:21 (UTC). [https://en.wikipedia.org/w/index.php?title=Patched\_conic\_approximation&oldid=1379543724][ref_patched_conic_approximation]
+- "Sphere of Influence (Astrodynamics)." 2026. Wikipedia. Last modified September 8, at 00:47 (UTC). [https://en.wikipedia.org/w/index.php?title=Sphere\_of\_influence\_(astrodynamics)&oldid=1373800130][ref_sphere_of_influence]
+- "Tsiolkovsky Rocket Equation." 2026. Wikipedia. Last modified August 18, at 02:17 (UTC). [https://en.wikipedia.org/w/index.php?title=Tsiolkovsky\_rocket\_equation&oldid=1369930570][ref_tsiolkovsky_rocket_equation]
+- "Vis-Viva Equation." 2026. Wikipedia. Last modified April 9, at 15:20 (UTC). [https://en.wikipedia.org/w/index.php?title=Vis-viva\_equation&oldid=1347912389][ref_vis_viva_equation]
+
+### Related Posts
+
+- Sechter, Brendan. 2026. "Introduction to Space Studies." *Brendan A R Sechter's Development Blog*, February 21. [https://sgeos.github.io/space/math/2026/02/21/introduction\_to\_space\_studies.html][related_post_space_studies]
 
 [book_battin_1999]: https://doi.org/10.2514/4.861543
-[book_conway_2010]: https://doi.org/10.1017/CBO9780511778025
+[book_conway_2010]: https://doi.org/10.1017/cbo9780511778025
 [book_curtis_2020_interplanetary]: https://doi.org/10.1016/b978-0-08-102133-0.00008-8
 [book_curtis_2020_maneuvers]: https://doi.org/10.1016/b978-0-08-102133-0.00006-4
 [book_curtis_2020_orbit_determination]: https://doi.org/10.1016/b978-0-08-102133-0.00005-2
 [book_curtis_2020_rendezvous]: https://doi.org/10.1016/b978-0-08-102133-0.00007-6
 [book_prussing_2010]: https://doi.org/10.1017/cbo9780511778025.003
-[ref_bi_elliptic_transfer]: https://en.wikipedia.org/wiki/Bi-elliptic_transfer
-[ref_clohessy_wiltshire_equations]: https://en.wikipedia.org/wiki/Clohessy%E2%80%93Wiltshire_equations
-[ref_delta_v]: https://en.wikipedia.org/wiki/Delta-v
-[ref_delta_v_budget]: https://en.wikipedia.org/wiki/Delta-v_budget
-[ref_geostationary_transfer_orbit]: https://en.wikipedia.org/wiki/Geostationary_transfer_orbit
-[ref_gravity_assist]: https://en.wikipedia.org/wiki/Gravity_assist
-[ref_gravity_loss]: https://en.wikipedia.org/wiki/Gravity_loss
-[ref_hohmann_transfer_orbit]: https://en.wikipedia.org/wiki/Hohmann_transfer_orbit
-[ref_hyperbolic_trajectory]: https://en.wikipedia.org/wiki/Hyperbolic_trajectory
-[ref_lamberts_problem]: https://en.wikipedia.org/wiki/Lambert%27s_problem
-[ref_low_energy_transfer]: https://en.wikipedia.org/wiki/Low-energy_transfer
-[ref_mass_driver]: https://en.wikipedia.org/wiki/Mass_driver
-[ref_multistage_rocket]: https://en.wikipedia.org/wiki/Multistage_rocket
-[ref_oberth_effect]: https://en.wikipedia.org/wiki/Oberth_effect
-[ref_orbit_phasing]: https://en.wikipedia.org/wiki/Orbit_phasing
-[ref_orbital_inclination_change]: https://en.wikipedia.org/wiki/Orbital_inclination_change
-[ref_orbital_maneuver]: https://en.wikipedia.org/wiki/Orbital_maneuver
-[ref_patched_conic_approximation]: https://en.wikipedia.org/wiki/Patched_conic_approximation
-[ref_sphere_of_influence]: https://en.wikipedia.org/wiki/Sphere_of_influence_%28astrodynamics%29
-[ref_tsiolkovsky_rocket_equation]: https://en.wikipedia.org/wiki/Tsiolkovsky_rocket_equation
-[ref_vis_viva_equation]: https://en.wikipedia.org/wiki/Vis-viva_equation
+[ref_bi_elliptic_transfer]: https://en.wikipedia.org/w/index.php?title=Bi-elliptic_transfer&oldid=1233203053
+[ref_clohessy_wiltshire_equations]: https://en.wikipedia.org/w/index.php?title=Clohessy%E2%80%93Wiltshire_equations&oldid=1357214780
+[ref_delta_v]: https://en.wikipedia.org/w/index.php?title=Delta-v&oldid=1362694687
+[ref_delta_v_budget]: https://en.wikipedia.org/w/index.php?title=Delta-v_budget&oldid=1362285519
+[ref_geostationary_transfer_orbit]: https://en.wikipedia.org/w/index.php?title=Geostationary_transfer_orbit&oldid=1373723626
+[ref_gravity_assist]: https://en.wikipedia.org/w/index.php?title=Gravity_assist&oldid=1378359042
+[ref_gravity_loss]: https://en.wikipedia.org/w/index.php?title=Gravity_loss&oldid=1364549710
+[ref_hohmann_transfer_orbit]: https://en.wikipedia.org/w/index.php?title=Hohmann_transfer_orbit&oldid=1381150738
+[ref_hyperbolic_trajectory]: https://en.wikipedia.org/w/index.php?title=Hyperbolic_trajectory&oldid=1346459260
+[ref_lamberts_problem]: https://en.wikipedia.org/w/index.php?title=Lambert's_problem&oldid=1363971699
+[ref_low_energy_transfer]: https://en.wikipedia.org/w/index.php?title=Low-energy_transfer&oldid=1314333385
+[ref_mass_driver]: https://en.wikipedia.org/w/index.php?title=Mass_driver&oldid=1376635859
+[ref_multistage_rocket]: https://en.wikipedia.org/w/index.php?title=Multistage_rocket&oldid=1380228554
+[ref_oberth_effect]: https://en.wikipedia.org/w/index.php?title=Oberth_effect&oldid=1377271791
+[ref_orbit_phasing]: https://en.wikipedia.org/w/index.php?title=Orbit_phasing&oldid=1361124315
+[ref_orbital_inclination_change]: https://en.wikipedia.org/w/index.php?title=Orbital_inclination_change&oldid=1296348363
+[ref_orbital_maneuver]: https://en.wikipedia.org/w/index.php?title=Orbital_maneuver&oldid=1370327186
+[ref_patched_conic_approximation]: https://en.wikipedia.org/w/index.php?title=Patched_conic_approximation&oldid=1379543724
+[ref_sphere_of_influence]: https://en.wikipedia.org/w/index.php?title=Sphere_of_influence_(astrodynamics)&oldid=1373800130
+[ref_tsiolkovsky_rocket_equation]: https://en.wikipedia.org/w/index.php?title=Tsiolkovsky_rocket_equation&oldid=1369930570
+[ref_vis_viva_equation]: https://en.wikipedia.org/w/index.php?title=Vis-viva_equation&oldid=1347912389
 [related_post_space_studies]: {% post_url 2026-02-21-introduction_to_space_studies %}
 [research_avanzini_2008]: https://doi.org/10.2514/1.36426
 [research_barrar_1963]: https://doi.org/10.2514/3.1470
@@ -1231,7 +1248,7 @@ and gravity assists.
 [research_flandro_1968]: https://doi.org/10.2514/3.29416
 [research_gobetz_doll_1969]: https://doi.org/10.2514/3.5231
 [research_gomez_et_al_2004]: https://doi.org/10.1088/0951-7715/17/5/002
-[research_gooding_1990]: https://doi.org/10.1007/BF00049511
+[research_gooding_1990]: https://doi.org/10.1007/bf00049511
 [research_hall_noca_bailey_2005]: https://doi.org/10.2514/1.4118
 [research_hill_1878]: https://doi.org/10.2307/2369430
 [research_hoelker_silber_1961]: https://doi.org/10.1016/0032-0633(61)90297-5

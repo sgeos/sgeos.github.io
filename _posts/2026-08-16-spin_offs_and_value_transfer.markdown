@@ -73,7 +73,7 @@ and that the gains rise with the degree of asymmetry
 [Krishnaswami and Subramaniam 1999][research_krishnaswami_subramaniam_1999].
 Gertner, Powers and Scharfstein find that after a spin-off the investment of the new company becomes more sensitive to its industry's investment opportunities,
 a change observed only where the unit is unrelated to its parent and where the market reacted favourably to the announcement
-[Gertner, Powers and Scharfstein 2002][research_gertner_powers_scharfstein_2002].
+[Gertner et al. 2002][research_gertner_powers_scharfstein_2002].
 The companion article on the conglomerate discount reviews the wider announcement and long-run evidence
 [What the Conglomerate Discount Measures][related_post_conglomerate_discount].
 All of this is a gain to the total,
@@ -285,7 +285,7 @@ and an argument from earlier research is that the spun-off shares are sold indis
 That argument has weaker support than its reputation suggests.
 Abarbanell, Bushee and Smith Raedy find that investment strategies and fiduciary restrictions affect institutions' demand for spun-off shares,
 but that their trading is in general not associated with abnormal price movements for parents or subsidiaries around the spin-off
-[Abarbanell, Bushee and Smith Raedy 2003][research_abarbanell_bushee_raedy_2003].
+[Abarbanell et al. 2003][research_abarbanell_bushee_raedy_2003].
 A transfer of this kind would in any case run from the shareholders who sell to those who buy,
 which is a matter of each holder's own trading,
 not something the parent can direct to the holders of the core.
@@ -298,7 +298,7 @@ Allen, Lummer, McConnell and Reed study spin-offs of units that the parent had a
 The original acquisitions earned negative announcement returns for the bidder and for the combination,
 and the returns at the spin-off are negatively correlated with the returns at the acquisition.
 They interpret part of the gain from such spin-offs as the recovery of value destroyed by the earlier acquisition
-[Allen, Lummer, McConnell and Reed 1995][research_allen_lummer_mcconnell_reed_1995].
+[Allen et al. 1995][research_allen_lummer_mcconnell_reed_1995].
 Chemmanur and Yan model a firm whose incumbent manager is better at running some divisions than others.
 A spin-off raises the chance that a more able rival gains control,
 which benefits all shareholders while costing the incumbent the private benefits of control
@@ -436,44 +436,58 @@ and the Tronox case illustrates how they can be challenged.
 The managerial evidence points to spin-offs that recover value lost to earlier mistakes,
 which benefits the shareholders of both companies alike.
 
+
 ## References
 
-- [Reference, Corporate Spin-off, Wikipedia][ref_corporate_spin_off]
-- [Reference, Equity Carve-out, Wikipedia][ref_equity_carve_out]
-- [Reference, Exchange Offer, Wikipedia][ref_exchange_offer]
-- [Reference, Fraudulent Conveyance, Wikipedia][ref_fraudulent_conveyance]
-- [Reference, Reverse Morris Trust, Wikipedia][ref_reverse_morris_trust]
-- [Reference, Share Repurchase, Wikipedia][ref_share_repurchase]
-- [Reference, Tracking Stock, Wikipedia][ref_tracking_stock]
-- [Reference, Tronox, Wikipedia][ref_tronox]
-- [Related Post, Building an Integrated Enterprise from Distressed Acquisitions][related_post_distressed_acquisitions]
-- [Related Post, What the Conglomerate Discount Measures][related_post_conglomerate_discount]
-- [Research, Abarbanell, Bushee and Smith Raedy 2003, Institutional Investor Preferences and Price Pressure, The Case of Corporate Spin-Offs][research_abarbanell_bushee_raedy_2003]
-- [Research, Allen and McConnell 1998, Equity Carve-Outs and Managerial Discretion][research_allen_mcconnell_1998]
-- [Research, Allen, Lummer, McConnell and Reed 1995, Can Takeover Losses Explain Spin-Off Gains?][research_allen_lummer_mcconnell_reed_1995]
-- [Research, Chemmanur and Paeglis 2001, Why Issue Tracking Stock? Insights from a Comparison with Spin-Offs and Carve-Outs][research_chemmanur_paeglis_2001]
-- [Research, Chemmanur and Yan 2004, A Theory of Corporate Spin-Offs][research_chemmanur_yan_2004]
-- [Research, Dittmar 2004, Capital Structure in Corporate Spin-Offs][research_dittmar_2004]
-- [Research, Galai and Masulis 1976, The Option Pricing Model and the Risk Factor of Stock][research_galai_masulis_1976]
-- [Research, Gertner, Powers and Scharfstein 2002, Learning about Internal Capital Markets from Corporate Spin-offs][research_gertner_powers_scharfstein_2002]
-- [Research, Jensen and Meckling 1976, Theory of the Firm, Managerial Behavior, Agency Costs and Ownership Structure][research_jensen_meckling_1976]
-- [Research, Krishnaswami and Subramaniam 1999, Information Asymmetry, Valuation, and the Corporate Spin-Off Decision][research_krishnaswami_subramaniam_1999]
-- [Research, Maxwell and Rao 2003, Do Spin-offs Expropriate Wealth from Bondholders?][research_maxwell_rao_2003]
-- [Research, Miles and Rosenfeld 1983, The Effect of Voluntary Spin-off Announcements on Shareholder Wealth][research_miles_rosenfeld_1983]
-- [Research, Myers and Majluf 1984, Corporate Financing and Investment Decisions When Firms Have Information That Investors Do Not Have][research_myers_majluf_1984]
-- [Research, Nanda 1991, On the Good News in Equity Carve-Outs][research_nanda_1991]
-- [Research, Parrino 1997, Spinoffs and Wealth Transfers, The Marriott Case][research_parrino_1997]
-- [Research, Seward and Walsh 1996, The Governance and Control of Voluntary Corporate Spin-offs][research_seward_walsh_1996]
-- [Research, Vijh 2002, The Positive Announcement-Period Returns of Equity Carveouts, Asymmetric Information or Divestiture Gains?][research_vijh_2002]
+<!-- References generated by _lib/sources.py from _sources/. Edit the database and regenerate. Do not edit this section by hand. -->
 
-[ref_corporate_spin_off]: https://en.wikipedia.org/wiki/Corporate_spin-off
-[ref_equity_carve_out]: https://en.wikipedia.org/wiki/Equity_carve-out
-[ref_exchange_offer]: https://en.wikipedia.org/wiki/Exchange_offer
-[ref_fraudulent_conveyance]: https://en.wikipedia.org/wiki/Fraudulent_conveyance
-[ref_reverse_morris_trust]: https://en.wikipedia.org/wiki/Reverse_Morris_Trust
-[ref_share_repurchase]: https://en.wikipedia.org/wiki/Share_repurchase
-[ref_tracking_stock]: https://en.wikipedia.org/wiki/Tracking_stock
-[ref_tronox]: https://en.wikipedia.org/wiki/Tronox
+### Primary Sources, Peer-Reviewed
+
+- Chemmanur, Thomas J., and An Yan. 2004. "A Theory of Corporate Spin-Offs." *Journal of Financial Economics* 72 (2): 259–90. [https://doi.org/10.1016/j.jfineco.2003.05.002][research_chemmanur_yan_2004]
+- Galai, Dan, and Ronald W. Masulis. 1976. "The Option Pricing Model and the Risk Factor of Stock." *Journal of Financial Economics* 3 (1–2): 53–81. [https://doi.org/10.1016/0304-405x(76)90020-9][research_galai_masulis_1976]
+- Jensen, Michael C., and William H. Meckling. 1976. "Theory of the Firm: Managerial Behavior, Agency Costs and Ownership Structure." *Journal of Financial Economics* 3 (4): 305–60. [https://doi.org/10.1016/0304-405x(76)90026-x][research_jensen_meckling_1976]
+- Krishnaswami, Sudha, and Venkat Subramaniam. 1999. "Information Asymmetry, Valuation, and the Corporate Spin-off Decision." *Journal of Financial Economics* 53 (1): 73–112. [https://doi.org/10.1016/s0304-405x(99)00017-3][research_krishnaswami_subramaniam_1999]
+- Myers, Stewart C., and Nicholas S. Majluf. 1984. "Corporate Financing and Investment Decisions When Firms Have Information That Investors Do Not Have." *Journal of Financial Economics* 13 (2): 187–221. [https://doi.org/10.1016/0304-405x(84)90023-0][research_myers_majluf_1984]
+- Parrino, Robert. 1997. "Spinoffs and Wealth Transfers: The Marriott Case." *Journal of Financial Economics* 43 (2): 241–74. [https://doi.org/10.1016/s0304-405x(96)00885-9][research_parrino_1997]
+- Seward, James K., and James P. Walsh. 1996. "The Governance and Control of Voluntary Corporate Spin-Offs." *Strategic Management Journal* 17 (1): 25–39. [https://doi.org/10.1002/(sici)1097-0266(199601)17:1\<25::aid-smj797\>3.0.co;2-g][research_seward_walsh_1996]
+
+### Primary Sources, Non-Peer-Reviewed
+
+- Abarbanell, Jeffery S., Brian J. Bushee, and Jana Smith Raedy. 2003. "Institutional Investor Preferences and Price Pressure: The Case of Corporate Spin-Offs." *Journal of Business* 76 (2): 233–61. [https://doi.org/10.1086/367749][research_abarbanell_bushee_raedy_2003]
+- Allen, Jeffrey W., Scott L. Lummer, John J. McConnell, and Debra K. Reed. 1995. "Can Takeover Losses Explain Spin-Off Gains?" *Journal of Financial and Quantitative Analysis* 30 (4): 465. [https://doi.org/10.2307/2331273][research_allen_lummer_mcconnell_reed_1995]
+- Allen, Jeffrey W., and John J. McConnell. 1998. "Equity Carve-Outs and Managerial Discretion." *Journal of Finance* 53 (1): 163–86. [https://doi.org/10.1111/0022-1082.65022][research_allen_mcconnell_1998]
+- Chemmanur, Thomas J., and Imants Paeglis. 2001. "Why Issue Tracking Stock? Insights from a Comparison with Spin-Offs and Carve-Outs." *Journal of Applied Corporate Finance* 14 (2): 102–14. [https://doi.org/10.1111/j.1745-6622.2001.tb00334.x][research_chemmanur_paeglis_2001]
+- Dittmar, Amy. 2004. "Capital Structure in Corporate Spin-Offs." *Journal of Business* 77 (1): 9–43. [https://doi.org/10.1086/379860][research_dittmar_2004]
+- Gertner, Robert, Eric Powers, and David Scharfstein. 2002. "Learning about Internal Capital Markets from Corporate Spin-Offs." *Journal of Finance* 57 (6): 2479–2506. [https://doi.org/10.1111/1540-6261.00503][research_gertner_powers_scharfstein_2002]
+- Maxwell, William F., and Ramesh P. Rao. 2003. "Do Spin-Offs Expropriate Wealth from Bondholders?" *Journal of Finance* 58 (5): 2087–2108. [https://doi.org/10.1111/1540-6261.00598][research_maxwell_rao_2003]
+- Miles, James A., and James D. Rosenfeld. 1983. "The Effect of Voluntary Spin-off Announcements on Shareholder Wealth." *Journal of Finance* 38 (5): 1597–1606. [https://doi.org/10.1111/j.1540-6261.1983.tb03843.x][research_miles_rosenfeld_1983]
+- Nanda, Vikram. 1991. "On the Good News in Equity Carve-Outs." *Journal of Finance* 46 (5): 1717–37. [https://doi.org/10.1111/j.1540-6261.1991.tb04641.x][research_nanda_1991]
+- Vijh, Anand M. 2002. "The Positive Announcement-Period Returns of Equity Carveouts: Asymmetric Information or Divestiture Gains?" *Journal of Business* 75 (1): 153–90. [https://doi.org/10.1086/323508][research_vijh_2002]
+
+### Tertiary Sources
+
+- "Corporate Spin-off." 2026. Wikipedia. Last modified October 9, at 01:56 (UTC). [https://en.wikipedia.org/w/index.php?title=Corporate\_spin-off&oldid=1379287175][ref_corporate_spin_off]
+- "Equity Carve-out." 2025. Wikipedia. Last modified May 25, at 19:01 (UTC). [https://en.wikipedia.org/w/index.php?title=Equity\_carve-out&oldid=1292204263][ref_equity_carve_out]
+- "Exchange Offer." 2026. Wikipedia. Last modified June 20, at 20:58 (UTC). [https://en.wikipedia.org/w/index.php?title=Exchange\_offer&oldid=1360333787][ref_exchange_offer]
+- "Fraudulent Conveyance." 2026. Wikipedia. Last modified May 19, at 04:25 (UTC). [https://en.wikipedia.org/w/index.php?title=Fraudulent\_conveyance&oldid=1354956097][ref_fraudulent_conveyance]
+- "Reverse Morris Trust." 2026. Wikipedia. Last modified June 9, at 18:44 (UTC). [https://en.wikipedia.org/w/index.php?title=Reverse\_Morris\_Trust&oldid=1358595870][ref_reverse_morris_trust]
+- "Share Repurchase." 2026. Wikipedia. Last modified October 4, at 06:47 (UTC). [https://en.wikipedia.org/w/index.php?title=Share\_repurchase&oldid=1378386958][ref_share_repurchase]
+- "Tracking Stock." 2026. Wikipedia. Last modified August 18, at 21:22 (UTC). [https://en.wikipedia.org/w/index.php?title=Tracking\_stock&oldid=1370052019][ref_tracking_stock]
+- "Tronox." 2026. Wikipedia. Last modified September 15, at 13:05 (UTC). [https://en.wikipedia.org/w/index.php?title=Tronox&oldid=1375027432][ref_tronox]
+
+### Related Posts
+
+- Sechter, Brendan. 2026. "What the Conglomerate Discount Measures." *Brendan A R Sechter's Development Blog*, August 14. [https://sgeos.github.io/business/economics/finance/2026/08/14/conglomerate\_discount.html][related_post_conglomerate_discount]
+- Sechter, Brendan. 2026. "Building an Integrated Enterprise from Distressed Acquisitions." *Brendan A R Sechter's Development Blog*, August 15. [https://sgeos.github.io/business/economics/finance/2026/08/15/distressed\_acquisitions\_and\_integration.html][related_post_distressed_acquisitions]
+
+[ref_corporate_spin_off]: https://en.wikipedia.org/w/index.php?title=Corporate_spin-off&oldid=1379287175
+[ref_equity_carve_out]: https://en.wikipedia.org/w/index.php?title=Equity_carve-out&oldid=1292204263
+[ref_exchange_offer]: https://en.wikipedia.org/w/index.php?title=Exchange_offer&oldid=1360333787
+[ref_fraudulent_conveyance]: https://en.wikipedia.org/w/index.php?title=Fraudulent_conveyance&oldid=1354956097
+[ref_reverse_morris_trust]: https://en.wikipedia.org/w/index.php?title=Reverse_Morris_Trust&oldid=1358595870
+[ref_share_repurchase]: https://en.wikipedia.org/w/index.php?title=Share_repurchase&oldid=1378386958
+[ref_tracking_stock]: https://en.wikipedia.org/w/index.php?title=Tracking_stock&oldid=1370052019
+[ref_tronox]: https://en.wikipedia.org/w/index.php?title=Tronox&oldid=1375027432
 [related_post_conglomerate_discount]: {% post_url 2026-08-14-conglomerate_discount %}
 [related_post_distressed_acquisitions]: {% post_url 2026-08-15-distressed_acquisitions_and_integration %}
 [research_abarbanell_bushee_raedy_2003]: https://doi.org/10.1086/367749
@@ -484,7 +498,7 @@ which benefits the shareholders of both companies alike.
 [research_dittmar_2004]: https://doi.org/10.1086/379860
 [research_galai_masulis_1976]: https://doi.org/10.1016/0304-405x(76)90020-9
 [research_gertner_powers_scharfstein_2002]: https://doi.org/10.1111/1540-6261.00503
-[research_jensen_meckling_1976]: https://doi.org/10.1016/0304-405X(76)90026-X
+[research_jensen_meckling_1976]: https://doi.org/10.1016/0304-405x(76)90026-x
 [research_krishnaswami_subramaniam_1999]: https://doi.org/10.1016/s0304-405x(99)00017-3
 [research_maxwell_rao_2003]: https://doi.org/10.1111/1540-6261.00598
 [research_miles_rosenfeld_1983]: https://doi.org/10.1111/j.1540-6261.1983.tb03843.x

@@ -4,6 +4,45 @@
 
 ## Last Updated
 
+**Date**: 2026-10-24 (seventh entry)
+**Task**: **A380 to A383 converted to Chicago author-date from the source database, joining A384. Committed, NOT pushed.** All five are live, so the push changes published pages and awaits the pilot's word.
+
+**Database.** 342 records and 101 venues. Each source the articles share is one record, kept with its corrections. All fourteen Wikipedia pages shared between articles were read at the same revision.
+
+| Article | Records | Peer-reviewed | Non-peer-reviewed | Secondary | General | Tertiary | Related | Prose changes |
+|---|---|---|---|---|---|---|---|---|
+| A380 | 27 | 7 | 10 | 0 | 0 | 8 | 2 | 3 labels |
+| A381 | 77 | 35 | 18 | 2 | 0 | 21 | 1 | 7 labels, 1 sentence |
+| A382 | 93 | 53 | 16 | 3 | 0 | 19 | 2 | 13 labels |
+| A383 | 77 | 33 | 26 | 1 | 1 | 14 | 2 | 2 labels, 1 sentence |
+
+The only prose changes are in-text labels and two sentences that said a study "is cited as unattributed", which now say it is cited by its title. The labels are three-author works becoming "et al.", year suffixes such as Curtis 2020a to 2020d and McInnes 1999a and 1999b, the IKAROS Demonstration Team as a co-author, and a short title for the 1977 study with no author.
+
+**Peer review.**
+- **Tighter test.** A good answer to "reviewed by whom" must say that an editor selects the reviewers, that they are experts in the field, or that they are independent. "Referees" alone fails, which withdrew the *American Journal of Physics* and left the *Journal of Finance* and the *Journal of Financial and Quantitative Analysis* uncredited.
+- **Credited.** 40 of the 101 venues are credited, including through publisher-wide policies that speak for a journal, such as Elsevier's publishing ethics for its primary research journals, Nature Portfolio, Optica, Springer and IOP.
+- **Still uncredited.** *Science*, *Astronomy & Astrophysics* and *Space Science Reviews*, the AIAA predecessor journals of 1934 to 1962, and every proceedings.
+- **New category.** A magazine's features are General Sources; *Physics Today* is the first.
+- **Reviews.** Three papers in review venues are Secondary Sources: two in *Progress in Aerospace Sciences* and one in *Reviews in Mineralogy and Geochemistry*.
+- **Tool conduct.** A research agent tried twice to fetch blocked publisher pages with a browser user agent. The second attempt was refused as bot-check circumvention and the agent stopped. No evidence relies on such a fetch.
+
+**Tooling added.**
+- `pin-wiki` reads revision ids embedded in saved rendered pages. It accepts a copy saved under a shorter name only when the text is byte-identical, and lets the first saved directory win.
+- `review` compares drafts with the article's legacy labels, using OpenAlex and saved wikitext as second opinions.
+- Imports merge by source identity, keeping stored corrections, adding section locators, and applying a later article's decisions.
+- `sources.py fix-labels` sets in-text labels.
+- New in the formatter: edited books, short titles, inverted suffixes and magazines.
+- The importer now repairs AIAA carets and `/ques/`, double escapes, footnote marks, capitalised names and em-dash casing.
+- The procedure is written up in `_docs/process/SOURCE_CONVERSION.md`, with a table of seventeen registry habits.
+
+**Defects of mine caught during the work.** The first `fix-labels` dropped the References heading from four posts. They were repaired from the generated marker, and a test guards it. The AIAA caret briefly reached the A383 prose as "O^Neill", and was caught because the label check agreed with a wrong record. Chicago section numbers I had not checked were removed, and those three rules are marked Unverified.
+
+**Verification.** `test_lib.py` 165 of 165 and `test_sources.py` 49 of 49. Three further deliberate breakages, in em-dash casing, amendment and the magazine rule, were each caught. `_verify.py --strict` 0 and 0. `./_check.sh` passed, including the fragment check on the new related-post locators.
+
+**Open.** Whether to push. The six large uncredited venues. Checking the three Unverified Chicago rules against the manual. Per-article anchor mapping for a page read at two revisions, which none of these articles needed.
+
+## Previous Report (2026-10-24, sixth entry)
+
 **Date**: 2026-10-24 (sixth entry)
 **Task**: **Peer review decided by "reviewed by whom", one command line for the library, campaign and claims strategies promoted, diction brought up to date, tests on committed data and in CI. Committed, NOT pushed.** A384's References section changed again, and A384 is live, so the push awaits the pilot's word.
 

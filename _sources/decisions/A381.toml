@@ -1,0 +1,14 @@
+article = "A381"
+crossref_cache = "tmp/a381/sources/crossref"
+wiki_pins = "tmp/a381/sources/wiki_pins.json"
+
+# Reviewed 2026-10-24 with `sources_import.py review --second-opinion`.
+
+
+[fix.research_mass_driver_reaction_engine_1977]
+note = "No author in Crossref or OpenAlex, so the work is listed under its title and cited in the text by a shortened one. Crossref hyphenates upper-stage, which as a noun after 'as' takes no hyphen."
+set = { title = "Mass-Driver Reaction Engine as Shuttle Upper Stage", short_title = "Mass-Driver Reaction Engine" }
+
+[fix.research_prussing_1970]
+note = "Crossref runs two words together, Vicinityof; the title of Prussing's companion 1969 paper reads in the Vicinity of a Circular Orbit."
+set = { title = "Optimal Two- and Three-Impulse Fixed-Time Rendezvous in the Vicinity of a Circular Orbit" }

@@ -1,0 +1,3 @@
+article = "A380"
+crossref_cache = "tmp/a380/sources/crossref"
+wiki_pins = "tmp/a380/sources/wiki_pins.json"

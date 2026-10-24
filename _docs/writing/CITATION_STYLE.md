@@ -115,6 +115,13 @@ through gives a good answer, the venue is credited and the answer is recorded as
 two or more independent reviewers selected by the editors". If not, the basis for the label is lacking, even if
 the work was in fact reviewed by an acceptable group, and the source drops to rule 4.
 
+**A good answer says something about the reviewers beyond their role.** It says at least one of three things:
+that an editor selects them, that they are experts in the field, or that they are independent of the authors.
+"Referees" alone names the role and nothing more. On that test the *American Journal of Physics*, credited
+earlier on "referees, with the editors", was withdrawn. So were the *Journal of Finance*, the *Journal of Financial
+Economics* and the *Journal of Financial and Quantitative Analysis*, whose pages describe single-blind or
+double-anonymous refereeing without saying who referees.
+
 **The policy statement is a means, not the end.** Any source the venue speaks through may answer the
 question: its own pages, its publisher's, its editors' published editorials, or its society's magazine. AGU's
 policy pages refused automated reading, but AGU's magazine *Eos* reports more than 30,000 reviews across its
@@ -122,9 +129,9 @@ journals in 2016 and names the reviewers each journal's editors selected that ye
 Three things still leave a venue uncredited.
 
 - **No answer read.** A search-engine summary may paraphrase, so it is recorded with method `snippet` as a
-  lead and cannot credit the venue. Elsevier's guides for *Acta Astronautica*, *Icarus* and *Planetary and
-  Space Science*, every *Astronomy & Astrophysics* page and *Science*'s peer-review page refused automated
-  reading.
+  lead and cannot credit the venue. Every *Astronomy & Astrophysics* page and *Science*'s peer-review page
+  refused automated reading. Elsevier's journal guides refused it too, but Elsevier's publishing ethics, which
+  could be read, answer for its primary research journals.
 - **A statement that does not say by whom.** Springer says research content in *Space Science Reviews* is
   peer reviewed, single-anonymous, without saying who reviews or whether the invited reviews and mission
   descriptions that fill that journal count. The AAAS editorial policy for *Science* says only that the editor
@@ -135,10 +142,34 @@ Three things still leave a venue uncredited.
   so `since` is 1973 and an earlier Nature paper is not credited. An answer that gives no date is applied to
   every year. That is a known weakness, recorded here rather than hidden.
 
-On 2026-10-24 twelve of the eighteen journals A384 cites were credited: *American Journal of Physics*,
-*Applied Optics*, the three AAS journals, *Geology*, the two AIAA journals, *Nature* and the three AGU journals.
-The *American Journal of Physics* answer is the weakest, "referees, with the editors", from an editorial policy
-that names referees without saying how many or how they are chosen. No proceedings is credited.
+After the conversion of A380 to A384, 40 of the 101 venues in the database are credited. No proceedings is
+credited. A venue can also be credited through a source that speaks for it on a whole family of journals:
+- Nature Portfolio's policy, for *Nature Materials* and *Nature Photonics*;
+- Optica's rule, for *Optica* and the *Journal of the Optical Society of America B*;
+- AIAA's journals page, which lists the *AIAA Journal* and the *Journal of Guidance, Control, and Dynamics*;
+- COSPAR, for *Advances in Space Research*;
+- Elsevier's publishing ethics, which apply to its primary research journals, for *Acta Astronautica*,
+  *Icarus*, *Planetary and Space Science*, the *International Journal of Impact Engineering* and the *Journal of
+  Financial Economics*;
+- Springer's journal policies, which *Celestial Mechanics and Dynamical Astronomy* links as its own;
+- IOP Publishing's review process, which *Nonlinearity* links;
+- *SIAM News*, the society's newspaper, for the SIAM journals.
+
+*Science*, *Astronomy & Astrophysics* and *Space Science Reviews* remain uncredited, along with the AIAA
+predecessor journals of 1934 to 1962, for which no source describes the refereeing.
+
+A family statement that does not name the journal does not count. ASME's page for its Transactions journals
+does not list the *Journal of Applied Mechanics*. A venue that publishes an unreviewed category is not credited
+at venue level when the cited paper's category is unknown, as with JSASS's *Aerospace Technology Japan*.
+
+**A magazine's features are General Sources** under rule 7, whoever publishes the magazine. The venue records
+`magazine` as true, and *Physics Today*, a magazine by its own account, is the first. A magazine cannot also be
+credited with peer review.
+
+**What "fetched" means.** Pages are read with a fetching tool whose quotes come from a summarising model, cut
+at 125 characters, and are not byte-checked against the page. Where a statement was in a PDF, the text was
+extracted with `pdftotext` and the quote is verbatim. The quotes in `venues.jsonl` are therefore reliable as
+readings, but a fragment may end mid-sentence.
 
 **Peer review is a property of the venue, recorded once.** Whether a journal or conference referees full papers
 is recorded in a venue table in the database, so the decision is made once per venue rather than once per
@@ -177,6 +208,11 @@ entries from bibliography entries.
   guide prints this form, and another lists a widely known acronym alone. The expanded form is chosen because it
   matches the blog's rule of spelling out acronyms.
 - **Verified.** With no author, editor or translator, the entry begins with the title (13.81).
+- **Unverified.** A book with editors and no author is listed under its editors, as in `Conway, Bruce A., ed.
+  2010.` The editors also lead the in-text label and the sort. The generator relies on this, so it is the first
+  rule to check against the manual.
+- **Unverified.** A generational suffix follows the given names when inverted, as in `Sauer, C., Jr.`, and is
+  not part of the in-text label, `Sauer 1976`.
 - **House.** Given names appear as the source prints them. Initials are not expanded unless the source itself
   gives the full name.
 
@@ -348,6 +384,9 @@ cited source, so they take the web page template, with the post's author as the 
   authors in the text and will change on conversion.
 - **Verified.** The year carries the same `a`, `b` suffix as the entry when one is assigned.
 - **House.** A Wikipedia article is cited in the text by its title, as in `[Mercury][ref_mercury]`.
+- **Unverified.** A work with no author is cited in the text by a shortened title and its year, as in
+  `[Mass-Driver Reaction Engine 1977][research_mass_driver_reaction_engine_1977]`. The short title is a recorded
+  decision, `short_title`, because shortening is a judgement.
 - **House.** The link target is the source's DOI or URL, as it is today.
 
 ## Source Database

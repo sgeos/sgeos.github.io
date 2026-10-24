@@ -39,7 +39,7 @@ article-specific content alone.
 | `reflow.py` | Paragraph rewrapping that keeps bold spans and link pairs atomic | 2 partial copies |
 | `lint.py` | Mid-edit invariant scan, separating defects from house conventions | 7 `check.py` |
 | `sources.py` | The source database, Chicago entries, generated References sections and their drift check. See `_docs/writing/CITATION_STYLE.md` | per-article `refsNNN.py` generators |
-| `sources_import.py` | Draft source records from Crossref, pinned Wikipedia revisions and related posts, and import a whole post from a TOML decision file | hand-typed reference labels, the A384 prototype scripts |
+| `sources_import.py` | Draft source records from Crossref, pinned Wikipedia revisions and related posts, review them against the article's legacy labels with second opinions from OpenAlex and saved wikitext, and import a whole post from a TOML decision file, merging by source identity | hand-typed reference labels, the A384 prototype scripts |
 | `diction.py` | Word, phrase, sentence-opener, construction-shape and creep measurements against the published corpus, with collocation and keyword-in-context evidence | 4 `diction.py`, `wordcheck`, `phrases`, `corpus_tics`, `series_words`, `series_phrases`, `tics`, `ngram_diff`, `words_count` |
 | `audit.py` | Equation gaps, citation gaps, thin sections, primary count and fraction | 13 `ref_audit`, 8 `eqn_scan` |
 | `numcheck.py` | Harness for re-deriving stated values independently, and a claims runner that recomputes every number a claims file names, reads it from the prose and proves each check can fail | 18 `verify_numbers`, the print-only `numbers.py` of A378 to A384 |

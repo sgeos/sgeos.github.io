@@ -6,9 +6,10 @@ One record per cited source. Every converted article's References section is gen
 records by `_lib/sources.py`, so a correction made here reaches every article that cites the source.
 The rules the records follow are in [Citation Style](../_docs/writing/CITATION_STYLE.md).
 
-**Status.** Prototype. It holds the 99 sources of A384, *Mercury as a Colony and a Launch Site*, the
-only converted article. Records were imported on 2026-10-24 and reclassified the same day, when peer review
-became creditable only on verified evidence.
+**Status.** Prototype in use. It holds 342 sources and 101 venues for the five converted articles, A380 to
+A384, *Who Keeps the Value When a Company Splits* through *Mercury as a Colony and a Launch Site*, imported
+on 2026-10-24. Sources the articles share are one record each. The procedure is
+[Source Conversion](../_docs/process/SOURCE_CONVERSION.md).
 
 ## Layout
 
@@ -32,8 +33,17 @@ python3 _lib/test_sources.py                # regression tests
 
 python3 _lib/sources_import.py fetch-crossref POST CACHE_DIR
 python3 _lib/sources_import.py pin-wiki POST PINS.json --saved DIR
+python3 _lib/sources_import.py review POST DRAFTS.json --flagged --second-opinion --saved DIR
 python3 _lib/sources_import.py import POST _sources/decisions/AXXX.toml [--write] [--replace]
+python3 _lib/sources.py fix-labels POST     # set in-text labels to the database's
 ```
+
+**One source, one record, across articles.** A record's identity is its DOI, its Wikipedia page and revision,
+or its post. An import that meets an identity already stored keeps the stored record and its corrections. It
+adds any new section locators for a related post, and applies this article's own decisions about the record.
+The same anchor with a different identity is a conflict. All fourteen Wikipedia pages that A380 to A384 share
+were read at the same revision. A page read at two revisions would need two records and per-article anchor
+mapping, which is not built.
 
 **Importing an article.** Cache its Crossref records, pin its Wikipedia links against the copies that were
 read, then run `import` without `--write`. It prints each new record with the registry title beside the

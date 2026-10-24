@@ -69,7 +69,7 @@ Mongeau
 and Williams reported energy conversion efficiencies better than 90 percent for a mass driver with a superconducting bucket
 [Kolm et al. 1980][research_kolm_et_al_1980],
 and a 1977 reaction engine study assumed 75 percent
-[Unattributed 1977][research_mass_driver_reaction_engine_1977].
+[Mass-Driver Reaction Engine 1977][research_mass_driver_reaction_engine_1977].
 A mass driver track has two sections.
 In the first the coils are evenly spaced and the acceleration rises with speed up to the maximum the bucket can bear,
 and in the second the coils are spaced ever further apart to hold that acceleration constant
@@ -126,7 +126,7 @@ throwing pieces of material backward
 [Mass Driver][ref_mass_driver].
 One such design study for a Space Shuttle upper stage would throw 14 gram segments at 8 to 10 kilometres per second,
 and at 8 kilometres per second it would give a thrust of 560 newtons from 2.9 megawatts at 75 percent efficiency
-[Unattributed 1977][research_mass_driver_reaction_engine_1977].
+[Mass-Driver Reaction Engine 1977][research_mass_driver_reaction_engine_1977].
 Snow and Dunbar proposed such an engine for moving payloads of hundreds to thousands of tons between low Earth orbit and geosynchronous orbit,
 with reaction mass of virtually any liquid or solid material,
 and discussed its debris hazard and its effects on the ionosphere
@@ -1148,7 +1148,7 @@ Corbin and Higgins studied a mass driver that uses an asteroid's own material as
 noting that mass drivers had been proposed for lunar and asteroid mining since the mid-1970s
 [Corbin and Higgins 2006][research_corbin_higgins_2006].
 The 1977 study
-[Unattributed 1977][research_mass_driver_reaction_engine_1977]
+[Mass-Driver Reaction Engine 1977][research_mass_driver_reaction_engine_1977]
 and Snow and Dunbar
 [Snow and Dunbar 1982][research_snow_dunbar_1982]
 treated the mass driver as an engine on board a spacecraft.
@@ -1218,7 +1218,7 @@ Russell and coauthors
 and Jacobson and Lainey are cited only for what their titles state.
 The figures of Powell and coauthors for cost and throughput are their projections.
 The 1977 reaction engine study carries no author in its bibliographic record,
-so it is cited as unattributed.
+so it is cited by its title.
 The findings attributed to sources rest on their abstracts and titles rather than on their full texts.
 
 **Analysis in this article.**
@@ -1288,105 +1288,120 @@ which makes ring tracks attractive on large bodies such as the Moon and impracti
 At release the cargo goes abruptly from a sustained load to free fall,
 and its design must allow for that step as much as for the launch itself.
 
+
 ## References
 
-- [Reference, Ceres, Wikipedia][ref_ceres]
-- [Reference, Coilgun, Wikipedia][ref_coilgun]
-- [Reference, Deimos, Wikipedia][ref_deimos]
-- [Reference, Frozen Orbit, Wikipedia][ref_frozen_orbit]
-- [Reference, Hill Sphere, Wikipedia][ref_hill_sphere]
-- [Reference, Lambert's Problem, Wikipedia][ref_lamberts_problem]
-- [Reference, Mass Concentration, Wikipedia][ref_mass_concentration]
-- [Reference, Mass Driver, Wikipedia][ref_mass_driver]
-- [Reference, Mercury, Wikipedia][ref_mercury]
-- [Reference, Moon, Wikipedia][ref_moon]
-- [Reference, Phobos, Wikipedia][ref_phobos]
-- [Reference, Railgun, Wikipedia][ref_railgun]
-- [Reference, Tidal Locking, Wikipedia][ref_tidal_locking]
-- [Reference, Vesta, Wikipedia][ref_vesta]
-- [Related Post, Introduction to Space Studies][related_post_space_studies]
-- [Related Post, Orbital Manoeuvres in Terms of Delta-v][related_post_orbital_manoeuvres]
-- [Related Post, Orbital Manoeuvres in Terms of Delta-v, Departure][related_post_orbital_manoeuvres_departure]
-- [Related Post, Orbital Manoeuvres in Terms of Delta-v, Patched Conics][related_post_orbital_manoeuvres_patched]
-- [Related Post, Orbital Manoeuvres in Terms of Delta-v, Plane Change][related_post_orbital_manoeuvres_plane]
-- [Related Post, Orbital Manoeuvres in Terms of Delta-v, The Hohmann Transfer][related_post_orbital_manoeuvres_hohmann]
-- [Related Post, Orbital Manoeuvres in Terms of Delta-v, The Rocket Equation][related_post_orbital_manoeuvres_rocket]
-- [Research, Beemer and McNab 2023, Launch Parameters of a Lunar Ice Payload Traveling via Electromagnetic Mass Accelerator][research_beemer_mcnab_2023]
-- [Research, Bilby et al. 1989, An Electromagnetic Lunar Launcher Utilizing Superconductivity Technology][research_bilby_et_al_1989]
-- [Research, Bolonkin 2005, Circle Launcher and Space Keeper][research_bolonkin_2005]
-- [Research, Bolonkin and Krinker 2010, Railgun Space Launcher][research_bolonkin_krinker_2010]
-- [Research, Carrio et al. 2025, Concept for a Lunar Electromagnetic Launch System Architecture][research_carrio_et_al_2025]
-- [Research, Chilton 1977, Mass Driver Theory and History][research_chilton_1977]
-- [Research, Corbin and Higgins 2006, Preliminary Mission Study, Mass Driver for Earth-Bound Asteroid Threat Mitigation][research_corbin_higgins_2006]
-- [Research, Doyle et al. 1995, Electromagnetic Aircraft Launch System, EMALS][research_doyle_et_al_1995]
-- [Research, Elipe and Lara 2003, Frozen Orbits About the Moon][research_elipe_lara_2003]
-- [Research, Ermakov et al. 2017, Constraints on Ceres' Internal Structure and Evolution From Its Shape and Gravity Measured by the Dawn Spacecraft][research_ermakov_et_al_2017]
-- [Research, Ernst et al. 2023, High-Resolution Shape Models of Phobos and Deimos from Stereophotoclinometry][research_ernst_et_al_2023]
-- [Research, Fair 1982, Electromagnetic Propulsion, A New Initiative][research_fair_1982]
-- [Research, Fair 2005, Electromagnetic Launch Science and Technology in the United States Enters a New Era][research_fair_2005]
-- [Research, Fair 2008, Advances in Electromagnetic Launch Science and Technology and its Applications][research_fair_2008]
-- [Research, Fine et al. 1979, Mass Driver Two, Cryogenic Module][research_fine_et_al_1979]
-- [Research, Guo et al. 2026, Phobos' Degree-1 Ellipsoidal Harmonic Gravity Field Recovery from Two Mars Express Flybys][research_guo_et_al_2026]
-- [Research, Hawke et al. 1981, Electromagnetic Railgun Launchers, Space Propulsion Applications][research_hawke_et_al_1981]
-- [Research, Heppenheimer 1975, Transport of Lunar Material to the Sites of the Colonies][research_heppenheimer_1975]
-- [Research, Heppenheimer 1978a, Achromatic Trajectories and Lunar Material Transport for Space Colonization][research_heppenheimer_1978a]
-- [Research, Heppenheimer 1978b, A Mass-Catcher for Large-Scale Lunar Material Transport][research_heppenheimer_1978b]
-- [Research, Heppenheimer 1979, Lunar Material Transport, Comparison of Modes Employing Achromatic Trajectories][research_heppenheimer_1979]
-- [Research, Heppenheimer and Kaplan 1977, Guidance and Trajectory Considerations in Lunar Mass Transportation][research_heppenheimer_kaplan_1977]
-- [Research, Heppenheimer et al. 1982a, Electrostatic Velocity Adjustment of Payloads Launched by Lunar Mass-Driver][research_heppenheimer_et_al_1982a]
-- [Research, Heppenheimer et al. 1982b, Precision Release and Aim of Payloads Launched by Lunar Mass-Driver][research_heppenheimer_et_al_1982b]
-- [Research, Hunter and Hyde 1989, A Light Gas Gun System for Launching Building Material into Low Earth Orbit][research_hunter_hyde_1989]
-- [Research, Jacobson and Lainey 2014, Martian Satellite Orbits and Ephemerides][research_jacobson_lainey_2014]
-- [Research, Janhunen 2025, Launching Mass from the Moon Helped by Lunar Gravity Anomalies][research_janhunen_2025]
-- [Research, Kaye 2005, Operational Requirements and Issues for Coilgun Electromagnetic Launchers][research_kaye_2005]
-- [Research, Kolm 1977, Basic Coaxial Mass Driver Reference Design][research_kolm_1977]
-- [Research, Kolm et al. 1980, Electromagnetic Launchers][research_kolm_et_al_1980]
-- [Research, Konopliv et al. 2014, The Vesta Gravity Field, Spin Pole and Rotation Period, Landmark Positions, and Ephemeris from the Dawn Tracking and Optical Data][research_konopliv_et_al_2014]
-- [Research, Konopliv et al. 2018, The Ceres Gravity Field, Spin Pole, Rotation Period and Orbit from the Dawn Radiometric Tracking and Optical Data][research_konopliv_et_al_2018]
-- [Research, Lipinski et al. 1993, Space Applications for Contactless Coilguns][research_lipinski_et_al_1993]
-- [Research, Mankins 1994, Electromagnetic Earth-to-Orbit Launch Concepts, One Strategy in Achieving Reductions in Launch Costs][research_mankins_1994]
-- [Research, Mazarico et al. 2014, The Gravity Field, Orientation, and Ephemeris of Mercury from MESSENGER Observations After Three Years in Orbit][research_mazarico_et_al_2014]
-- [Research, McNab 2003, Launch to Space with an Electromagnetic Railgun][research_mcnab_2003]
-- [Research, McNab 2009, Progress on Hypervelocity Railgun Research for Launch to Space][research_mcnab_2009]
-- [Research, Muller and Sjogren 1968, Mascons, Lunar Mass Concentrations][research_muller_sjogren_1968]
-- [Research, O'Leary 1992, International Manned Missions to Mars and the Resources of Phobos and Deimos][research_oleary_1992]
-- [Research, O'Neill 1974, The Colonization of Space][research_oneill_1974]
-- [Research, O'Neill 1981, Recent Development in Mass Drivers][research_oneill_1981]
-- [Research, O'Neill and Kolm 1980, High-Acceleration Mass Drivers][research_oneill_kolm_1980]
-- [Research, Perry et al. 2015, The Low-Degree Shape of Mercury][research_perry_et_al_2015]
-- [Research, Powell and Maise 2008, StarTram, The Magnetic Launch Path to Very Low Cost, Very High Volume Launch to Space][research_powell_maise_2008]
-- [Research, Powell et al. 2006, StarTram, An International Facility to Magnetically Launch Payloads at Ultra Low Unit Cost][research_powell_et_al_2006]
-- [Research, Powell et al. 2008, Maglev Launch and the Next Race to Space][research_powell_et_al_2008]
-- [Research, Rashleigh and Marshall 1978, Electromagnetic Acceleration of Macroparticles to High Velocities][research_rashleigh_marshall_1978]
-- [Research, Rocher et al. 2025, Cost-Benefit Analysis of Lunar Mass Driver Technologies][research_rocher_et_al_2025]
-- [Research, Roesler 2013, Mass Estimate for a Lunar Resource Launcher Based on Existing Terrestrial Electromagnetic Launchers][research_roesler_2013]
-- [Research, Russell et al. 2012, Dawn at Vesta, Testing the Protoplanetary Paradigm][research_russell_et_al_2012]
-- [Research, Schmidt 2006, Electromagnetic Launch to Low Earth Orbit][research_schmidt_2006]
-- [Research, Seybold and Fowler 1994, A Feasibility Study for the Use of a Lunar Mass Driver to Transport Cargo to Mars][research_seybold_fowler_1994]
-- [Research, Snow and Dunbar 1982, Mass Driver Reaction Engine Characteristics and Performance in Earth Orbital Transfer Missions][research_snow_dunbar_1982]
-- [Research, Snow et al. 1981, A Small Scale Lunar Launcher for Early Lunar Material Utilization][research_snow_et_al_1981]
-- [Research, Snow et al. 1982, Mass Driver Two, A Status Report][research_snow_et_al_1982]
-- [Research, Turman and Lipinski 1996, Electromagnetic Coilgun Launcher for Space Applications][research_turman_lipinski_1996]
-- [Research, Unattributed 1977, Mass-Driver Reaction Engine as Shuttle Upper-Stage][research_mass_driver_reaction_engine_1977]
-- [Research, Verma and Margot 2016, Mercury's Gravity, Tides, and Spin from MESSENGER Radio Science Data][research_verma_margot_2016]
-- [Research, Wieczorek et al. 2006, The Constitution and Structure of the Lunar Interior][research_wieczorek_et_al_2006]
-- [Research, Williams et al. 2014, Lunar Interior Properties from the GRAIL Mission][research_williams_et_al_2014]
-- [Research, Wright et al. 2011, A Lunar Electromagnetic Launch System for In Situ Resource Utilization][research_wright_et_al_2011]
+<!-- References generated by _lib/sources.py from _sources/. Edit the database and regenerate. Do not edit this section by hand. -->
 
-[ref_ceres]: https://en.wikipedia.org/wiki/Ceres_(dwarf_planet)
-[ref_coilgun]: https://en.wikipedia.org/wiki/Coilgun
-[ref_deimos]: https://en.wikipedia.org/wiki/Deimos_(moon)
-[ref_frozen_orbit]: https://en.wikipedia.org/wiki/Frozen_orbit
-[ref_hill_sphere]: https://en.wikipedia.org/wiki/Hill_sphere
-[ref_lamberts_problem]: https://en.wikipedia.org/wiki/Lambert%27s_problem
-[ref_mass_concentration]: https://en.wikipedia.org/wiki/Mass_concentration_(astronomy)
-[ref_mass_driver]: https://en.wikipedia.org/wiki/Mass_driver
-[ref_mercury]: https://en.wikipedia.org/wiki/Mercury_(planet)
-[ref_moon]: https://en.wikipedia.org/wiki/Moon
-[ref_phobos]: https://en.wikipedia.org/wiki/Phobos_(moon)
-[ref_railgun]: https://en.wikipedia.org/wiki/Railgun
-[ref_tidal_locking]: https://en.wikipedia.org/wiki/Tidal_locking
-[ref_vesta]: https://en.wikipedia.org/wiki/4_Vesta
+### Primary Sources, Peer-Reviewed
+
+- Beemer, Heidi D., and Ian R. McNab. 2023. "Launch Parameters of a Lunar Ice Payload Traveling via Electromagnetic Mass Accelerator." *Acta Astronautica* 207: 24–32. [https://doi.org/10.1016/j.actaastro.2023.02.041][research_beemer_mcnab_2023]
+- Doyle, M. R., D. J. Samuel, T. Conway, and R. R. Klimowski. 1995. "Electromagnetic Aircraft Launch System-EMALS." *IEEE Transactions on Magnetics* 31 (1): 528–33. [https://doi.org/10.1109/20.364638][research_doyle_et_al_1995]
+- Elipe, Antonio, and Martin Lara. 2003. "Frozen Orbits about the Moon." *Journal of Guidance, Control, and Dynamics* 26 (2): 238–43. [https://doi.org/10.2514/2.5064][research_elipe_lara_2003]
+- Ermakov, A. I., R. R. Fu, J. C. Castillo-Rogez, et al. 2017. "Constraints on Ceres' Internal Structure and Evolution from Its Shape and Gravity Measured by the Dawn Spacecraft." *Journal of Geophysical Research: Planets* 122 (11): 2267–93. [https://doi.org/10.1002/2017je005302][research_ermakov_et_al_2017]
+- Ernst, Carolyn M., R. Terik Daly, Robert W. Gaskell, et al. 2023. "High-Resolution Shape Models of Phobos and Deimos from Stereophotoclinometry." *Earth, Planets and Space* 75 (1): 103. [https://doi.org/10.1186/s40623-023-01814-7][research_ernst_et_al_2023]
+- Fair, H. 1982. "Electromagnetic Propulsion: A New Initiative." *IEEE Transactions on Magnetics* 18 (1): 4–6. [https://doi.org/10.1109/tmag.1982.1061789][research_fair_1982]
+- Fair, H. D. 2005. "Electromagnetic Launch Science and Technology in the United States Enters a New Era." *IEEE Transactions on Magnetics* 41 (1): 158–64. [https://doi.org/10.1109/tmag.2004.838744][research_fair_2005]
+- Guo, Xi, Jianguo Yan, Guolin Hu, et al. 2026. "Phobos’ Degree-1 Ellipsoidal Harmonic Gravity Field Recovery from Two Mars Express Flybys." *Monthly Notices of the Royal Astronomical Society* 548 (2): stag578. [https://doi.org/10.1093/mnras/stag578][research_guo_et_al_2026]
+- Heppenheimer, T. A. 1978a. "Achromatic Trajectories and Lunar Material Transport for Space Colonization." *Journal of Spacecraft and Rockets* 15 (3): 176–83. [https://doi.org/10.2514/3.28004][research_heppenheimer_1978a]
+- Heppenheimer, T. A. 1978b. "A Mass-Catcher for Large-Scale Lunar Material Transport." *Journal of Spacecraft and Rockets* 15 (4): 242–49. [https://doi.org/10.2514/3.28009][research_heppenheimer_1978b]
+- Heppenheimer, T. A. 1979. "Lunar Material Transport: Comparison of Modes Employing Achromatic Trajectories." *Journal of Spacecraft and Rockets* 16 (1): 60–62. [https://doi.org/10.2514/3.57617][research_heppenheimer_1979]
+- Heppenheimer, T. A., and David Kaplan. 1977. "Guidance and Trajectory Considerations in Lunar Mass Transportation." *AIAA Journal* 15 (4): 518–25. [https://doi.org/10.2514/3.7345][research_heppenheimer_kaplan_1977]
+- Heppenheimer, T. A., David J. Ross, and Eric C. Hannah. 1982a. "Electrostatic Velocity Adjustment of Payloads Launched by Lunar Mass-Driver." *Journal of Guidance, Control, and Dynamics* 5 (2): 200–209. [https://doi.org/10.2514/3.19765][research_heppenheimer_et_al_1982a]
+- Heppenheimer, T. A., David J. Ross, and Eric C. Hannah. 1982b. "Precision Release and Aim of Payloads Launched by Lunar Mass-Driver." *Journal of Guidance, Control, and Dynamics* 5 (3): 291–99. [https://doi.org/10.2514/3.19769][research_heppenheimer_et_al_1982b]
+- Jacobson, R. A., and V. Lainey. 2014. "Martian Satellite Orbits and Ephemerides." *Planetary and Space Science* 102: 35–44. [https://doi.org/10.1016/j.pss.2013.06.003][research_jacobson_lainey_2014]
+- Janhunen, Pekka. 2025. "Launching Mass from the Moon Helped by Lunar Gravity Anomalies." *Journal of the British Interplanetary Society* 78 (8): 290–94. [https://doi.org/10.59332/jbis-078-08-0290][research_janhunen_2025]
+- Kaye, R. J. 2005. "Operational Requirements and Issues for Coilgun Electromagnetic Launchers." *IEEE Transactions on Magnetics* 41 (1): 194–99. [https://doi.org/10.1109/tmag.2004.838982][research_kaye_2005]
+- Kolm, H., P. Mongeau, and F. Williams. 1980. "Electromagnetic Launchers." *IEEE Transactions on Magnetics* 16 (5): 719–21. [https://doi.org/10.1109/tmag.1980.1060806][research_kolm_et_al_1980]
+- Konopliv, A. S., S. W. Asmar, R. S. Park, et al. 2014. "The Vesta Gravity Field, Spin Pole and Rotation Period, Landmark Positions, and Ephemeris from the Dawn Tracking and Optical Data." *Icarus* 240: 103–17. [https://doi.org/10.1016/j.icarus.2013.09.005][research_konopliv_et_al_2014]
+- Konopliv, A. S., R. S. Park, A. T. Vaughan, et al. 2018. "The Ceres Gravity Field, Spin Pole, Rotation Period and Orbit from the Dawn Radiometric Tracking and Optical Data." *Icarus* 299: 411–29. [https://doi.org/10.1016/j.icarus.2017.08.005][research_konopliv_et_al_2018]
+- Lipinski, R. J., S. Beard, J. Boyes, et al. 1993. "Space Applications for Contactless Coilguns." *IEEE Transactions on Magnetics* 29 (1): 691–95. [https://doi.org/10.1109/20.195659][research_lipinski_et_al_1993]
+- Mazarico, Erwan, Antonio Genova, Sander Goossens, et al. 2014. "The Gravity Field, Orientation, and Ephemeris of Mercury from MESSENGER Observations after Three Years in Orbit." *Journal of Geophysical Research: Planets* 119 (12): 2417–36. [https://doi.org/10.1002/2014je004675][research_mazarico_et_al_2014]
+- McNab, I. R. 2003. "Launch to Space with an Electromagnetic Railgun." *IEEE Transactions on Magnetics* 39 (1): 295–304. [https://doi.org/10.1109/tmag.2002.805923][research_mcnab_2003]
+- McNab, I. R. 2009. "Progress on Hypervelocity Railgun Research for Launch to Space." *IEEE Transactions on Magnetics* 45 (1): 381–88. [https://doi.org/10.1109/tmag.2008.2008601][research_mcnab_2009]
+- O'Leary, Brian. 1992. "International Manned Missions to Mars and the Resources of Phobos and Deimos." *Acta Astronautica* 26 (1): 37–54. [https://doi.org/10.1016/0094-5765(92)90141-5][research_oleary_1992]
+- O'Neill, G. K., and H. H. Kolm. 1980. "High-Acceleration Mass Drivers." *Acta Astronautica* 7 (11): 1229–38. [https://doi.org/10.1016/0094-5765(80)90002-8][research_oneill_kolm_1980]
+- Perry, Mark E., Gregory A. Neumann, Roger J. Phillips, et al. 2015. "The Low-Degree Shape of Mercury." *Geophysical Research Letters* 42 (17): 6951–58. [https://doi.org/10.1002/2015gl065101][research_perry_et_al_2015]
+- Rashleigh, S. C., and R. A. Marshall. 1978. "Electromagnetic Acceleration of Macroparticles to High Velocities." *Journal of Applied Physics* 49 (4): 2540–42. [https://doi.org/10.1063/1.325107][research_rashleigh_marshall_1978]
+- Snow, W., and R. Dunbar. 1982. "Mass Driver Reaction Engine Characteristics and Performance in Earth Orbital Transfer Missions." *IEEE Transactions on Magnetics* 18 (1): 176–89. [https://doi.org/10.1109/tmag.1982.1061772][research_snow_dunbar_1982]
+- Snow, W., R. Dunbar, J. Kubby, and G. O'Neill. 1982. "Mass Driver Two: A Status Report." *IEEE Transactions on Magnetics* 18 (1): 127–34. [https://doi.org/10.1109/tmag.1982.1061777][research_snow_et_al_1982]
+- Verma, Ashok Kumar, and Jean-Luc Margot. 2016. "Mercury's Gravity, Tides, and Spin from MESSENGER Radio Science Data." *Journal of Geophysical Research: Planets* 121 (9): 1627–40. [https://doi.org/10.1002/2016je005037][research_verma_margot_2016]
+- Williams, James G., Alexander S. Konopliv, Dale H. Boggs, et al. 2014. "Lunar Interior Properties from the GRAIL Mission." *Journal of Geophysical Research: Planets* 119 (7): 1546–78. [https://doi.org/10.1002/2013je004559][research_williams_et_al_2014]
+- Wright, Michael R., Steven B. Kuznetsov, and Kurt J. Kloesel. 2011. "A Lunar Electromagnetic Launch System for in Situ Resource Utilization." *IEEE Transactions on Plasma Science* 39 (1): 521–28. [https://doi.org/10.1109/tps.2010.2089066][research_wright_et_al_2011]
+
+### Primary Sources, Non-Peer-Reviewed
+
+- Bilby, Curt, Stewart Nozette, and Henry Kolm. 1989. "An Electomagnetic \[sic\] Lunar Launcher Utilizing Superconductivity Technology." In *25th Joint Propulsion Conference*. AIAA 1989-2440. American Institute of Aeronautics and Astronautics. [https://doi.org/10.2514/6.1989-2440][research_bilby_et_al_1989]
+- Bolonkin, Alexander A. 2005. "Circle Launcher and Space Keeper." In *Non-Rocket Space Launch and Flight*. Elsevier. [https://doi.org/10.1016/b978-008044731-5/50034-2][research_bolonkin_2005]
+- Bolonkin, Alexander, and Mark Krinker. 2010. "Railgun Space Launcher." *Journal of Aerospace Engineering* 23 (4): 293–99. [https://doi.org/10.1061/(asce)as.1943-5525.0000041][research_bolonkin_krinker_2010]
+- Carrio, Luis, Jonathan Barr, Austin Lillard, et al. 2025. "Concept for a Lunar Electromagnetic Launch System Architecture." In *2025 IEEE Aerospace Conference*. IEEE. [https://doi.org/10.1109/aero63441.2025.11068673][research_carrio_et_al_2025]
+- Chilton, F. 1977. "Mass Driver Theory and History." In *3rd Conference on Space Manufacturing Facilities*. AIAA 1977-533. American Institute of Aeronautics and Astronautics. [https://doi.org/10.2514/6.1977-533][research_chilton_1977]
+- Corbin, Cole K., and John E. Higgins. 2006. "Preliminary Mission Study: Mass Driver for Earth-Bound Asteroid Threat Mitigation." In *Earth & Space 2006*. American Society of Civil Engineers. [https://doi.org/10.1061/40830(188)18][research_corbin_higgins_2006]
+- Fair, H. D. 2008. "Advances in Electromagnetic Launch Science and Technology and Its Applications." In *2008 14th Symposium on Electromagnetic Launch Technology*. IEEE. [https://doi.org/10.1109/elt.2008.9][research_fair_2008]
+- Fine, K., F. Williams, P. Mongeau, and H. Kolm. 1979. "Mass Driver Two: Cryogenic Module." In *4th Conference on Space Manufacturing Facilities Princeton University*. AIAA 1979-1398. American Institute of Aeronautics and Astronautics. [https://doi.org/10.2514/6.1979-1398][research_fine_et_al_1979]
+- Hawke, R., A. Brooks, C. Fowler, and D. Peterson. 1981. "Electromagnetic Railgun Launchers: Space Propulsion Applications." In *15th International Electric Propulsion Conference*. AIAA 1981-751. American Institute of Aeronautics and Astronautics. [https://doi.org/10.2514/6.1981-751][research_hawke_et_al_1981]
+- Heppenheimer, T. 1975. "Transport of Lunar Material to the Sites of the Colonies." In *Space Manufacturing Facilities*. AIAA 1975-2003. American Institute of Aeronautics and Astronautics. [https://doi.org/10.2514/6.1975-2003][research_heppenheimer_1975]
+- Hunter, John, and Rod Hyde. 1989. "A Light Gas Gun System for Launching Building Material into Low Earth Orbit." In *25th Joint Propulsion Conference*. AIAA 1989-2439. American Institute of Aeronautics and Astronautics. [https://doi.org/10.2514/6.1989-2439][research_hunter_hyde_1989]
+- Kolm, H. 1977. "Basic Coaxial Mass Driver Reference Design." In *3rd Conference on Space Manufacturing Facilities*. AIAA 1977-534. American Institute of Aeronautics and Astronautics. [https://doi.org/10.2514/6.1977-534][research_kolm_1977]
+- Mankins, John. 1994. "Electromagnetic Earth-to-Orbit Launch Concepts: One Strategy in Achieving Reductions in Launch Costs beyond the 'Next Generation'." In *Space Programs and Technologies Conference and Exhibit*. AIAA 1994-4625. American Institute of Aeronautics and Astronautics. [https://doi.org/10.2514/6.1994-4625][research_mankins_1994]
+- "Mass-Driver Reaction Engine as Shuttle Upper Stage." 1977. In *3rd Conference on Space Manufacturing Facilities*. AIAA 1977-536. American Institute of Aeronautics and Astronautics. [https://doi.org/10.2514/6.1977-536][research_mass_driver_reaction_engine_1977]
+- Muller, P. M., and W. L. Sjogren. 1968. "Mascons: Lunar Mass Concentrations." *Science* 161 (3842): 680–84. [https://doi.org/10.1126/science.161.3842.680][research_muller_sjogren_1968]
+- O'Neill, Gerard. 1981. "Recent Development in Mass Drivers." In *Space Manufacturing 4: Proceedings of the Fifth Conference*. AIAA 1981-3235. American Institute of Aeronautics and Astronautics. [https://doi.org/10.2514/6.1981-3235][research_oneill_1981]
+- Powell, J., and G. Maise. 2008. "StarTram: The Magnetic Launch Path to Very Low Cost, Very High Volume Launch to Space." In *2008 14th Symposium on Electromagnetic Launch Technology*. IEEE. [https://doi.org/10.1109/elt.2008.76][research_powell_maise_2008]
+- Powell, James, George Maise, John Paniagua, and James Jordan. 2006. "StarTram: An International Facility to Magnetically Launch Payloads at Ultra Low Unit Cost." In *57th International Astronautical Congress*. American Institute of Aeronautics and Astronautics. [https://doi.org/10.2514/6.iac-06-d3.2.07][research_powell_et_al_2006]
+- Powell, J., G. Maise, J. Paniagua, and J. Rather. 2008. "Maglev Launch and the Next Race to Space." In *2008 IEEE Aerospace Conference*. IEEE. [https://doi.org/10.1109/aero.2008.4526501][research_powell_et_al_2008]
+- Rocher, Raphael, Tristan Sarton du Jonchay, and Dimitri Mavris. 2025. "Cost-Benefit Analysis of Lunar Mass Driver Technologies." In *AIAA AVIATION Forum and ASCEND 2025*. AIAA 2025-4123. American Institute of Aeronautics and Astronautics. [https://doi.org/10.2514/6.2025-4123][research_rocher_et_al_2025]
+- Roesler, Gordon. 2013. "Mass Estimate for a Lunar Resource Launcher Based on Existing Terrestrial Electromagnetic Launchers." *Machines* 1 (1): 50–62. [https://doi.org/10.3390/machines1010050][research_roesler_2013]
+- Russell, C. T., C. A. Raymond, A. Coradini, et al. 2012. "Dawn at Vesta: Testing the Protoplanetary Paradigm." *Science* 336 (6082): 684–86. [https://doi.org/10.1126/science.1219381][research_russell_et_al_2012]
+- Schmidt, Edward. 2006. "Electromagnetic Launch to Low Earth Orbit." In *42nd AIAA/ASME/SAE/ASEE Joint Propulsion Conference & Exhibit*. AIAA 2006-4626. American Institute of Aeronautics and Astronautics. [https://doi.org/10.2514/6.2006-4626][research_schmidt_2006]
+- Seybold, Calina, and Wallace Fowler. 1994. "A Feasibility Study for the Use of a Lunar Mass Driver to Transport Cargo to Mars." In *32nd Aerospace Sciences Meeting and Exhibit*. AIAA 1994-854. American Institute of Aeronautics and Astronautics. [https://doi.org/10.2514/6.1994-854][research_seybold_fowler_1994]
+- Snow, William, Joel Kubby, and R. Dunbar. 1981. "A Small Scale Lunar Launcher for Early Lunar Material Utilization." In *Space Manufacturing 4: Proceedings of the Fifth Conference*. AIAA 1981-3233. American Institute of Aeronautics and Astronautics. [https://doi.org/10.2514/6.1981-3233][research_snow_et_al_1981]
+- Turman, B. N., and R. J. Lipinski. 1996. "Electromagnetic Coilgun Launcher for Space Applications." In *AIP Conference Proceedings*, vol. 361. AIP. [https://doi.org/10.1063/1.49932][research_turman_lipinski_1996]
+
+### Secondary Sources
+
+- Wieczorek, Mark A., Bradley L. Jolliff, Amir Khan, et al. 2006. "The Constitution and Structure of the Lunar Interior." *Reviews in Mineralogy and Geochemistry* 60 (1): 221–364. [https://doi.org/10.2138/rmg.2006.60.3][research_wieczorek_et_al_2006]
+
+### General Sources
+
+- O'Neill, Gerard K. 1974. "The Colonization of Space." *Physics Today* 27 (9): 32–40. [https://doi.org/10.1063/1.3128863][research_oneill_1974]
+
+### Tertiary Sources
+
+- "4 Vesta." 2026. Wikipedia. Last modified October 12, at 05:39 (UTC). [https://en.wikipedia.org/w/index.php?title=4\_Vesta&oldid=1379840288][ref_vesta]
+- "Ceres (Dwarf Planet)." 2026. Wikipedia. Last modified October 20, at 04:55 (UTC). [https://en.wikipedia.org/w/index.php?title=Ceres\_(dwarf\_planet)&oldid=1381128658][ref_ceres]
+- "Coilgun." 2026. Wikipedia. Last modified May 14, at 20:23 (UTC). [https://en.wikipedia.org/w/index.php?title=Coilgun&oldid=1354179401][ref_coilgun]
+- "Deimos (Moon)." 2026. Wikipedia. Last modified October 20, at 07:24 (UTC). [https://en.wikipedia.org/w/index.php?title=Deimos\_(moon)&oldid=1381144075][ref_deimos]
+- "Frozen Orbit." 2026. Wikipedia. Last modified August 19, at 06:59 (UTC). [https://en.wikipedia.org/w/index.php?title=Frozen\_orbit&oldid=1370125132][ref_frozen_orbit]
+- "Hill Sphere." 2026. Wikipedia. Last modified October 7, at 17:52 (UTC). [https://en.wikipedia.org/w/index.php?title=Hill\_sphere&oldid=1379058821][ref_hill_sphere]
+- "Lambert's Problem." 2026. Wikipedia. Last modified July 13, at 17:17 (UTC). [https://en.wikipedia.org/w/index.php?title=Lambert's\_problem&oldid=1363971699][ref_lamberts_problem]
+- "Mass Concentration (Astronomy)." 2026. Wikipedia. Last modified January 22, at 20:33 (UTC). [https://en.wikipedia.org/w/index.php?title=Mass\_concentration\_(astronomy)&oldid=1334317000][ref_mass_concentration]
+- "Mass Driver." 2026. Wikipedia. Last modified September 25, at 09:59 (UTC). [https://en.wikipedia.org/w/index.php?title=Mass\_driver&oldid=1376635859][ref_mass_driver]
+- "Mercury (Planet)." 2026. Wikipedia. Last modified October 19, at 23:34 (UTC). [https://en.wikipedia.org/w/index.php?title=Mercury\_(planet)&oldid=1381089194][ref_mercury]
+- "Moon." 2026. Wikipedia. Last modified October 20, at 15:52 (UTC). [https://en.wikipedia.org/w/index.php?title=Moon&oldid=1381191379][ref_moon]
+- "Phobos (Moon)." 2026. Wikipedia. Last modified October 21, at 18:55 (UTC). [https://en.wikipedia.org/w/index.php?title=Phobos\_(moon)&oldid=1381338264][ref_phobos]
+- "Railgun." 2026. Wikipedia. Last modified September 27, at 16:04 (UTC). [https://en.wikipedia.org/w/index.php?title=Railgun&oldid=1377035981][ref_railgun]
+- "Tidal Locking." 2026. Wikipedia. Last modified October 4, at 04:00 (UTC). [https://en.wikipedia.org/w/index.php?title=Tidal\_locking&oldid=1378366143][ref_tidal_locking]
+
+### Related Posts
+
+- Sechter, Brendan. 2026. "Introduction to Space Studies." *Brendan A R Sechter's Development Blog*, February 21. [https://sgeos.github.io/space/math/2026/02/21/introduction\_to\_space\_studies.html][related_post_space_studies]
+- Sechter, Brendan. 2026. "Orbital Manoeuvres in Terms of Delta-v." *Brendan A R Sechter's Development Blog*, August 17. [https://sgeos.github.io/space/space-studies/2026/08/17/orbital\_manoeuvres.html][related_post_orbital_manoeuvres]
+
+[ref_ceres]: https://en.wikipedia.org/w/index.php?title=Ceres_(dwarf_planet)&oldid=1381128658
+[ref_coilgun]: https://en.wikipedia.org/w/index.php?title=Coilgun&oldid=1354179401
+[ref_deimos]: https://en.wikipedia.org/w/index.php?title=Deimos_(moon)&oldid=1381144075
+[ref_frozen_orbit]: https://en.wikipedia.org/w/index.php?title=Frozen_orbit&oldid=1370125132
+[ref_hill_sphere]: https://en.wikipedia.org/w/index.php?title=Hill_sphere&oldid=1379058821
+[ref_lamberts_problem]: https://en.wikipedia.org/w/index.php?title=Lambert's_problem&oldid=1363971699
+[ref_mass_concentration]: https://en.wikipedia.org/w/index.php?title=Mass_concentration_(astronomy)&oldid=1334317000
+[ref_mass_driver]: https://en.wikipedia.org/w/index.php?title=Mass_driver&oldid=1376635859
+[ref_mercury]: https://en.wikipedia.org/w/index.php?title=Mercury_(planet)&oldid=1381089194
+[ref_moon]: https://en.wikipedia.org/w/index.php?title=Moon&oldid=1381191379
+[ref_phobos]: https://en.wikipedia.org/w/index.php?title=Phobos_(moon)&oldid=1381338264
+[ref_railgun]: https://en.wikipedia.org/w/index.php?title=Railgun&oldid=1377035981
+[ref_tidal_locking]: https://en.wikipedia.org/w/index.php?title=Tidal_locking&oldid=1378366143
+[ref_vesta]: https://en.wikipedia.org/w/index.php?title=4_Vesta&oldid=1379840288
 [related_post_orbital_manoeuvres]: {% post_url 2026-08-17-orbital_manoeuvres %}
 [related_post_orbital_manoeuvres_departure]: {% post_url 2026-08-17-orbital_manoeuvres %}#departure
 [related_post_orbital_manoeuvres_hohmann]: {% post_url 2026-08-17-orbital_manoeuvres %}#the-hohmann-transfer
@@ -1403,7 +1418,7 @@ and its design must allow for that step as much as for the launch itself.
 [research_corbin_higgins_2006]: https://doi.org/10.1061/40830(188)18
 [research_doyle_et_al_1995]: https://doi.org/10.1109/20.364638
 [research_elipe_lara_2003]: https://doi.org/10.2514/2.5064
-[research_ermakov_et_al_2017]: https://doi.org/10.1002/2017JE005302
+[research_ermakov_et_al_2017]: https://doi.org/10.1002/2017je005302
 [research_ernst_et_al_2023]: https://doi.org/10.1186/s40623-023-01814-7
 [research_fair_1982]: https://doi.org/10.1109/tmag.1982.1061789
 [research_fair_2005]: https://doi.org/10.1109/tmag.2004.838744
@@ -1429,7 +1444,7 @@ and its design must allow for that step as much as for the launch itself.
 [research_lipinski_et_al_1993]: https://doi.org/10.1109/20.195659
 [research_mankins_1994]: https://doi.org/10.2514/6.1994-4625
 [research_mass_driver_reaction_engine_1977]: https://doi.org/10.2514/6.1977-536
-[research_mazarico_et_al_2014]: https://doi.org/10.1002/2014JE004675
+[research_mazarico_et_al_2014]: https://doi.org/10.1002/2014je004675
 [research_mcnab_2003]: https://doi.org/10.1109/tmag.2002.805923
 [research_mcnab_2009]: https://doi.org/10.1109/tmag.2008.2008601
 [research_muller_sjogren_1968]: https://doi.org/10.1126/science.161.3842.680
@@ -1437,7 +1452,7 @@ and its design must allow for that step as much as for the launch itself.
 [research_oneill_1974]: https://doi.org/10.1063/1.3128863
 [research_oneill_1981]: https://doi.org/10.2514/6.1981-3235
 [research_oneill_kolm_1980]: https://doi.org/10.1016/0094-5765(80)90002-8
-[research_perry_et_al_2015]: https://doi.org/10.1002/2015GL065101
+[research_perry_et_al_2015]: https://doi.org/10.1002/2015gl065101
 [research_powell_et_al_2006]: https://doi.org/10.2514/6.iac-06-d3.2.07
 [research_powell_et_al_2008]: https://doi.org/10.1109/aero.2008.4526501
 [research_powell_maise_2008]: https://doi.org/10.1109/elt.2008.76
@@ -1453,5 +1468,5 @@ and its design must allow for that step as much as for the launch itself.
 [research_turman_lipinski_1996]: https://doi.org/10.1063/1.49932
 [research_verma_margot_2016]: https://doi.org/10.1002/2016je005037
 [research_wieczorek_et_al_2006]: https://doi.org/10.2138/rmg.2006.60.3
-[research_williams_et_al_2014]: https://doi.org/10.1002/2013JE004559
+[research_williams_et_al_2014]: https://doi.org/10.1002/2013je004559
 [research_wright_et_al_2011]: https://doi.org/10.1109/tps.2010.2089066
