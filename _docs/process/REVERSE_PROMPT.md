@@ -4,6 +4,25 @@
 
 ## Last Updated
 
+**Date**: 2026-10-24 (fourth entry)
+**Task**: **A384 converted to Chicago author-date from a prototype source database. Committed, NOT pushed.** A384 is live, so the push changes a published page and awaits the pilot's word.
+
+**Database.** `_sources/records/*.jsonl` holds A384's 99 sources and `_sources/venues.jsonl` its 27 venues. `_lib/sources.py` validates, classifies, formats and generates. `_lib/sources_import.py` drafts records. `_verify.py` now fails a converted article whose References section or in-text labels drift from the database.
+
+**A384.** 52 Primary Sources, Peer-Reviewed. 13 Primary Sources, Non-Peer-Reviewed, being 3 EGU abstracts and 10 proceedings papers under default deny, AIAA by its own policy. 3 Secondary Sources, being McInnes 1999 and the Killen 2007 and Domingue 2014 reviews. 25 Tertiary Sources. 6 Related Posts with 7 section locators. The body changed only in 8 in-text labels, where three-author citations now read "et al." under the 18th edition.
+
+**Wikipedia pins.** All 25 revisions were found as of each saved copy's write time and are byte-identical to the copies read for the article, so each pin is the text actually checked.
+
+**Registry corrections, each with a note on its record.** Vasavada 1999 and Benford 2003 had incomplete Crossref author lists. Kopp and Lean 2011 had pages "n/a-n/a" and a stray "FRONTIER" subtitle. Lario 2006 lost spaces around stripped italic tags. Two titles keep lower-case planet letters, and "Delta-v" keeps its case.
+
+**Defects found and fixed during the work.** Page ranges such as 1496–1504 would have been shortened wrongly. All-caps one-word titles were lowercased. Hyphenated compounds were not capitalised. All three now have tests.
+
+**Verification.** `test_sources.py` 26 of 26, with two deliberate breakages confirmed caught. `test_lib.py` 125 of 125. `_verify.py --strict` 0 and 0. `./_check.sh` passed, 551 pages, no render findings. All six related-post addresses exist in a production build.
+
+**Open.** Venue review policies are recorded as unchecked. The corpus importer and anchor consolidation are not built.
+
+## Previous Report (2026-10-24, third entry)
+
 **Date**: 2026-10-24 (third entry)
 **Task**: **Citation style specification written. Committed, NOT pushed.** On the pilot's instruction, `_docs/writing/CITATION_STYLE.md` defines the target reference format. Nothing is converted and no tooling exists yet.
 

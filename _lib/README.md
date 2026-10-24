@@ -38,6 +38,8 @@ article-specific content alone.
 | `refs.py` | Anchor generation and parsing, link text, deduplication, and the categorised reference block | 19 `gen_refs`, 17 `gen_master` |
 | `reflow.py` | Paragraph rewrapping that keeps bold spans and link pairs atomic | 2 partial copies |
 | `lint.py` | Mid-edit invariant scan, separating defects from house conventions | 7 `check.py` |
+| `sources.py` | The source database, Chicago entries, generated References sections and their drift check. See `_docs/writing/CITATION_STYLE.md` | per-article `refsNNN.py` generators |
+| `sources_import.py` | Draft source records from Crossref, pinned Wikipedia revisions and related posts, with proposed headline-case titles | hand-typed reference labels |
 | `diction.py` | Word and phrase overuse, measured against peer articles rather than a fixed threshold | 4 `diction.py` |
 | `audit.py` | Equation gaps, citation gaps, thin sections, primary count and fraction | 13 `ref_audit`, 8 `eqn_scan` |
 | `numcheck.py` | Harness for re-deriving stated values independently, with property and bisection checks | 18 `verify_numbers` |

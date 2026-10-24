@@ -6,10 +6,11 @@ This document defines how the blog cites its sources. Reference list entries fol
 *The Chicago Manual of Style*, 18th edition. The reference list is divided into seven sections ranked by
 reliability. Entries are generated from a single database of sources rather than written by hand.
 
-**Status.** Adopted 2026-10-24 as the target format. It is not yet enforced. Published articles use the legacy
-format described in the [Style Guide](./STYLE_GUIDE.md#reference-style) until they are converted, and that
-section remains authoritative for them. The tooling that this document requires does not exist yet. The section
-[Tooling Requirements](#tooling-requirements) lists it.
+**Status.** Adopted 2026-10-24 as the target format. A prototype of the database and generator exists, and one
+article, A384, is converted. Unconverted articles use the legacy format described in the
+[Style Guide](./STYLE_GUIDE.md#reference-style), and that section remains authoritative for them.
+`_verify.py` checks only converted articles, which it recognises by the marker comment the generator writes.
+[Tooling Requirements](#tooling-requirements) records what exists and what does not.
 
 ## Sources of Truth
 
@@ -106,6 +107,12 @@ order above, because encyclopaedias and the blog's own posts must be caught befo
   about its own subscription offer is **Commercial Sources** under rule 6.
 - An EGU General Assembly abstract is **Primary Sources, Non-Peer-Reviewed** under rule 4.
 
+**Default deny.** A venue whose full-paper review has not been established from its own statement is not
+credited with peer review, so its papers fall to rule 4. In the A384 prototype every journal is recorded as
+refereed with its policy statement not yet checked, and every proceedings is recorded as not refereed. AIAA
+meeting papers are not refereed by AIAA's own account, which directs authors who want peer review to its
+journals.
+
 **Peer review is a property of the venue, recorded once.** Whether a journal or conference referees full papers
 is recorded in a venue table in the database, so the decision is made once per venue rather than once per
 paper. **The venue is the unit of judgement, and it is not always obvious.** For example, many engineering
@@ -164,6 +171,12 @@ entries from bibliography entries.
   Titles of books, journals, reports and other whole works go in italics.
 - **Verified.** English titles use headline-style capitalisation. A subtitle follows a colon.
 - **House.** Acronyms and proper nouns keep the capitalisation the source uses.
+- **House.** A registry title's separator of a typed spaced hyphen becomes a colon, and a trailing period is
+  dropped. Other punctuation is kept as published, including a published em dash.
+- **House.** Headline case is proposed by `_lib/sources_import.py` and reviewed by a person for every title.
+  The proposal never removes an existing capital, so it cannot damage an acronym, but it cannot know that a
+  planet designation such as `51 Pegasi b` keeps its lower-case letter. Such titles are corrected on the
+  record.
 
 ### Identifiers and URLs
 
@@ -282,6 +295,19 @@ September 3, 2025. http://www.nasa.gov/mission_pages/juno/main/index.html.`
 manual is checked, these follow the report template, with the patent, standard or dataset number in the
 report-number position and the software version after the title.
 
+**This blog's own posts. House.** The title, date and address come from the cited post's front matter and the
+site configuration at generation time, so a renamed post updates every citation of it.
+
+```
+Sechter, Brendan. [Year]. "[Post Title]." *[Blog Title]*, [Month Day]. [Absolute URL].
+```
+
+- Related posts take no year suffix, although they share an author and often a year. They are cited in the
+  text by title, never by author and year, and the month and day already distinguish them.
+- They are ordered by date, oldest first.
+- A link to a section of a related post is a **locator**, an extra anchor on the post's record that adds a
+  fragment. The section is listed once however many of its sections the article links to.
+
 **Social media and blog posts. House.** Chicago usually cites these in the text only. This blog lists every
 cited source, so they take the web page template, with the post's author as the author.
 
@@ -316,34 +342,45 @@ anchors that point at more than one URL across articles, and 14,634 URLs cited u
 Some of these are the same source under different URL spellings. The rest are true collisions. Consolidation
 must keep one anchor per source, record the others as aliases, and rename the articles that used an alias.
 
-**Record fields.** The database stores data, not formatted strings.
+**Record fields.** The database stores data, not formatted strings. `_lib/sources.py` rejects any other
+field.
 
 | Field | Meaning |
 |---|---|
-| `anchor` | Canonical anchor, unique and immutable |
+| `anchor` | Canonical anchor, unique, lower case, immutable |
 | `aliases` | Former anchors that resolve to this source |
-| `section` | One of the seven section names |
-| `rule` | The classification rule number that placed it, from 1 to 7 |
-| `kind` | Source kind, such as `journal-article`, `book`, `chapter`, `report`, `web-page`, `wikipedia` |
-| `authors` | Ordered list of people, each with `family` and `given`, or organisations, each with `name` and `short` |
+| `locators` | Extra anchors mapped to a fragment id, for links to a section of the source |
+| `kind` | `journal-article`, `proceedings-paper`, `abstract`, `book`, `chapter`, `report`, `preprint`, `web-page`, `wikipedia` or `related-post` |
+| `rule`, `section` | The classification, which must equal what the rules give |
+| `synthesis` | True for a review or other synthesis, a human decision |
+| `stake` | True for a publisher with an interest in the subject, a human decision |
+| `encyclopaedia` | True for an encyclopaedia entry that is not Wikipedia |
+| `authors`, `editors` | Ordered lists of people, each with `family` and `given`, or organisations, each with `name` and `short` |
 | `year` | Publication year, or `null` for no date |
-| `title` | Title as published |
+| `title` | Title as displayed, in reviewed headline case |
+| `title_published` | Title exactly as the registry gave it, kept for audit |
 | `container` | Journal, book, proceedings, site or meeting |
-| `volume`, `issue`, `pages` | Journal details |
+| `venue` | Key into the venue table, for journals and proceedings |
+| `volume`, `issue`, `pages` | Journal details. `pages` may hold an electronic article number |
 | `publisher` | Publisher |
-| `number` | Report, patent, standard or abstract number |
-| `doi` | DOI without the resolver prefix |
+| `number` | Report, abstract, meeting-paper or series number |
+| `doi` | DOI without the resolver prefix, lower case |
 | `url` | URL when there is no DOI |
-| `revision` | Wikipedia revision id and timestamp, or a web page's last-modified date |
+| `revision` | For Wikipedia, `oldid` and `timestamp`. For a web page, `modified` |
 | `accessed` | Access date, used only with no revision date |
-| `review` | Set when the decision that the work is a review article was made by hand |
-| `evidence` | Where the claims cited from the source were checked, such as a saved abstract |
+| `post` | For a related post, its filename stem |
+| `evidence` | How the cited version was verified |
+| `note` | What was corrected from registry data and where the correct value came from |
 
-**Storage.** The database lives outside the published site, in a directory that Jekyll does not copy, such as
-`_sources/`. Its size, roughly a quarter of a million records, rules out one file per source and a single file.
-**Recommended format.** JSON Lines, one record per line sorted by anchor and sharded into files of manageable
-size. The Python standard library reads and writes it, and a corrected record changes one line in a diff. No
-third-party parser is required.
+**Venue fields.** Each venue records `peer_reviewed`, the `basis` for that judgement, and `checked`, which is true
+only once the venue's own review-policy statement has been read.
+
+**Storage.** The database lives in `_sources/`, which Jekyll does not copy. Its eventual size, roughly a quarter
+of a million records, rules out one file per source and a single file. Records are JSON Lines in
+`_sources/records/`, one record per line sorted by anchor, sharded by the first character of the anchor after any
+legacy prefix. The Python standard library reads and writes it, and a corrected record changes one line in a
+diff. No third-party parser is required. Whether thirty-six shards stay a manageable size at full scale has not
+been measured.
 
 **The database is in a public repository.** The repository behind the site is public, so the database is
 visible to anyone. It is the blog's own database, not a confidential one. A private store would need a separate
@@ -356,19 +393,25 @@ exactly what the generator would write, so a hand edit cannot drift from the dat
 
 ## Tooling Requirements
 
-None of this exists yet. In order of dependency:
+**Built in the prototype, 2026-10-24.**
 
-1. **The database and its schema**, with the venue table for peer-review status and a domain table for the long
-   tail.
-2. **An importer** that seeds records from existing link definitions, fetches Crossref metadata for DOIs with
-   the plain user agent the corpus tools already use, and reports every collision for decision.
-3. **A classifier** that applies the rules above, writes the rule number into each record, and leaves anything
-   it cannot decide unclassified.
-4. **A generator** that writes an article's References section and assigns per-article year suffixes.
-5. **`_verify.py` checks.** An unclassified source is an error in a new article and a warning in a legacy one. A
-   References section that differs from the generator's output is an error. An in-text label whose author and
-   year disagree with the database is an error. A Wikipedia link without an `oldid` is an error in a converted
-   article. The survey statistics in `_lib/survey.py` read the current label format and must be updated with it.
+1. `_sources/` with the record shards and the venue table. See its README.
+2. `_lib/sources.py`, which validates records and venues, classifies by the rules, formats entries, generates a
+   References section, and checks a converted article for drift and for in-text labels that disagree.
+3. `_lib/sources_import.py`, which drafts records from Crossref, from a pinned Wikipedia revision, and from a
+   related post, and proposes headline-case titles.
+4. `_lib/test_sources.py`, regression and negative tests.
+5. `_verify.py` runs the drift check on every converted article, exempts generated sections from the prose
+   rules, and counts any list item as a visible reference.
+
+**Not yet built.**
+
+1. A corpus importer that seeds records from every article's link definitions and reports every anchor
+   collision for decision. The A384 import was a one-off script.
+2. A check of each venue's review policy, so that `checked` becomes true.
+3. Templates for theses, patents, standards, datasets and software, and a check of the unverified rules.
+4. Updates to `_lib/survey.py`, which reads the legacy label format, before any article with a reference survey
+   is converted.
 
 ## Open Decisions
 

@@ -255,7 +255,7 @@ The thermal environment is severe but structured.
 At Mercury's equator the surface ranges from −173 °C to 427 °C
 [Mercury][ref_mercury],
 values that the encyclopedia attributes to thermal modeling by Vasavada, Paige and Wood
-[Vasavada, Paige and Wood 1999][research_vasavada_paige_wood_1999].
+[Vasavada et al. 1999][research_vasavada_paige_wood_1999].
 A black surface facing the Sun with no conduction into the ground would reach the following temperature,
 where $S$ is the local flux.
 
@@ -288,7 +288,7 @@ Mercury's spin axis is tilted by only 2.04 ± 0.08 arc minutes from its orbit no
 so parts of the floors of many polar craters never see the Sun.
 Radar imaging in 1991 found highly reflective material at the north pole,
 with polarization ratios previously seen only from icy regions of Mars and icy outer satellites
-[Slade, Butler and Muhleman 1992][research_slade_butler_muhleman_1992].
+[Slade et al. 1992][research_slade_butler_muhleman_1992].
 MESSENGER neutron spectrometer data,
 together with thermal modeling,
 confirmed that the main component of the radar-bright material at the north pole is water ice,
@@ -990,7 +990,7 @@ not as a physically privileged starting orbit.
 A laser-driven sail shifts the energy problem to the launch site.
 Directed energy can in principle push low-mass craft to relativistic speeds,
 with the diffraction of the beam limiting the maximum speed
-[Kulkarni, Lubin and Zhang 2018][research_kulkarni_lubin_zhang_2018],
+[Kulkarni et al. 2018][research_kulkarni_lubin_zhang_2018],
 and Breakthrough Starshot has been modelled as a whole system
 [Parkin 2018][research_parkin_2018].
 Near-term beamed sail missions,
@@ -1241,7 +1241,7 @@ $$
 MESSENGER met this problem by interleaving its solar cells with optical solar reflector mirrors at one cell to two mirrors,
 to reduce the panels' absorbance,
 and by tilting the panels away from the Sun as the light grew stronger
-[Dakermanji, Jenkins and Ercol 2006][research_dakermanji_jenkins_ercol_2006].
+[Dakermanji et al. 2006][research_dakermanji_jenkins_ercol_2006].
 Its high-temperature technologies spanned the telecommunications,
 power,
 guidance and control,
@@ -1293,9 +1293,9 @@ in 2021
 ### Polar Volatiles
 
 Full-disk radar mapping in 1991 revealed reflective polar material
-[Slade, Butler and Muhleman 1992][research_slade_butler_muhleman_1992],
+[Slade et al. 1992][research_slade_butler_muhleman_1992],
 thermal models addressed near-surface temperatures and the stability of polar ice
-[Vasavada, Paige and Wood 1999][research_vasavada_paige_wood_1999],
+[Vasavada et al. 1999][research_vasavada_paige_wood_1999],
 and MESSENGER neutron data and thermal modeling confirmed water ice at the north pole,
 with laser altimeter reflectance consistent with exposed and buried ice
 [Lawrence et al. 2013][research_lawrence_et_al_2013]
@@ -1359,7 +1359,7 @@ and its seasonal sodium component was observed from orbit
 ### Engineering for the Inner Solar System
 
 MESSENGER's solar arrays
-[Dakermanji, Jenkins and Ercol 2006][research_dakermanji_jenkins_ercol_2006]
+[Dakermanji et al. 2006][research_dakermanji_jenkins_ercol_2006]
 and its other high-temperature technologies
 [Ercol 2007][research_ercol_2007],
 BepiColombo's insulation
@@ -1404,7 +1404,7 @@ and the solar sail heliopause probe
 [Lappas et al. 2005][research_lappas_et_al_2005]
 [Lyngvi et al. 2005][research_lyngvi_et_al_2005].
 Directed-energy propulsion
-[Kulkarni, Lubin and Zhang 2018][research_kulkarni_lubin_zhang_2018]
+[Kulkarni et al. 2018][research_kulkarni_lubin_zhang_2018]
 [Parkin 2018][research_parkin_2018]
 is treated in the companion article on solar sailing.
 None of these studies proposes Mercury as a base according to its abstract or title,
@@ -1613,139 +1613,148 @@ would face the same choice of origin.
 
 ## References
 
-- [Book, McInnes 1999, Solar Sailing][book_mcinnes_1999]
-- [Reference, 51 Pegasi b, Wikipedia][ref_51_pegasi_b]
-- [Reference, Breakthrough Starshot, Wikipedia][ref_breakthrough_starshot]
-- [Reference, Ceres, Wikipedia][ref_ceres]
-- [Reference, Delta-v Budget, Wikipedia][ref_delta_v_budget]
-- [Reference, Earth, Wikipedia][ref_earth]
-- [Reference, Gravity Assist, Wikipedia][ref_gravity_assist]
-- [Reference, Hohmann Transfer Orbit, Wikipedia][ref_hohmann_transfer_orbit]
-- [Reference, Io, Wikipedia][ref_io]
-- [Reference, Lunar Month, Wikipedia][ref_lunar_month]
-- [Reference, Mars, Wikipedia][ref_mars]
-- [Reference, Mass Driver, Wikipedia][ref_mass_driver]
-- [Reference, Mercury, Wikipedia][ref_mercury]
-- [Reference, MESSENGER, Wikipedia][ref_messenger]
-- [Reference, Moon, Wikipedia][ref_moon]
-- [Reference, Oberth Effect, Wikipedia][ref_oberth_effect]
-- [Reference, Proxima Centauri d, Wikipedia][ref_proxima_centauri_d]
-- [Reference, Proxima Centauri, Wikipedia][ref_proxima_centauri]
-- [Reference, Solar Sail, Wikipedia][ref_solar_sail]
-- [Reference, Space Colonization, Wikipedia][ref_space_colonization]
-- [Reference, Titan, Wikipedia][ref_titan]
-- [Reference, TRAPPIST-1, Wikipedia][ref_trappist_1]
-- [Reference, TRAPPIST-1b, Wikipedia][ref_trappist_1b]
-- [Reference, Tsiolkovsky Rocket Equation, Wikipedia][ref_tsiolkovsky_rocket_equation]
-- [Reference, Venus, Wikipedia][ref_venus]
-- [Reference, Vulcanoid, Wikipedia][ref_vulcanoid]
-- [Related Post, Introduction to Space Studies][related_post_space_studies]
-- [Related Post, Mass Drivers][related_post_mass_drivers]
-- [Related Post, Mass Drivers, From the Launching Body to the Parent][related_post_mass_drivers_parent]
-- [Related Post, Mass Drivers, Positioning for Parent Orbits][related_post_mass_drivers_positioning]
-- [Related Post, Mass Drivers, Release Geometry on a Tidally Locked Body][related_post_mass_drivers_locked]
-- [Related Post, Mass Drivers, The Curvature Limit][related_post_mass_drivers_curvature]
-- [Related Post, Orbital Manoeuvres in Terms of Delta-v][related_post_orbital_manoeuvres]
-- [Related Post, Orbital Manoeuvres in Terms of Delta-v, Departure][related_post_orbital_manoeuvres_departure]
-- [Related Post, Orbital Manoeuvres in Terms of Delta-v, The Rocket Equation][related_post_orbital_manoeuvres_rocket]
-- [Related Post, Solar Sailing][related_post_solar_sailing]
-- [Related Post, Solar Sailing, Lightness Number for Any Star][related_post_solar_sailing_lightness]
-- [Related Post, Venus Cloudtop Buoyant Analog][related_post_venus_cloudtop]
-- [Related Post, Von Neumann Probes][related_post_von_neumann_probes]
-- [Research, Anderson et al. 2011, The Global Magnetic Field of Mercury from MESSENGER Orbital Observations][research_anderson_et_al_2011]
-- [Research, Badman 2026, The Outer Reaches of the Solar Corona as Measured by Parker Solar Probe][research_badman_2026]
-- [Research, Bailer-Jones 2021, The Sun Diver, Combining Solar Sails with the Oberth Effect][research_bailer_jones_2021]
-- [Research, Beemer and McNab 2023, Launch Parameters of a Lunar Ice Payload Traveling via Electromagnetic Mass Accelerator][research_beemer_mcnab_2023]
-- [Research, Benford and Benford 2003, Near-Term Beamed Sail Propulsion Missions, Cosmos-1 and Sun-Diver][research_benford_benford_2003]
-- [Research, Benkhoff et al. 2010, BepiColombo, Comprehensive Exploration of Mercury, Mission Overview and Science Goals][research_benkhoff_et_al_2010]
-- [Research, Benkhoff et al. 2021, BepiColombo, Mission Overview and Science Goals][research_benkhoff_et_al_2021]
-- [Research, Benkoski et al. 2023, Combined Heat Shield and Solar Thermal Propulsion System for an Oberth Maneuver][research_benkoski_et_al_2023]
-- [Research, Blewett et al. 2011, Hollows on Mercury, MESSENGER Evidence for Geologically Recent Volatile-Related Activity][research_blewett_et_al_2011]
-- [Research, Cassidy et al. 2015, Mercury's Seasonal Sodium Exosphere, MESSENGER Orbital Observations][research_cassidy_et_al_2015]
-- [Research, Chabot et al. 2013, Craters Hosting Radar-Bright Deposits in Mercury's North Polar Region][research_chabot_et_al_2013]
-- [Research, Chabot et al. 2014, Images of Surface Volatiles in Mercury's Polar Craters Acquired by the MESSENGER Spacecraft][research_chabot_et_al_2014]
-- [Research, Dakermanji, Jenkins and Ercol 2006, The MESSENGER Spacecraft Solar Array Design and Early Mission Performance][research_dakermanji_jenkins_ercol_2006]
-- [Research, Davoudi et al. 2024, Updated Spectral Characteristics for the Ultracool Dwarf TRAPPIST-1][research_davoudi_et_al_2024]
-- [Research, Deutsch et al. 2018, Constraining the Thickness of Polar Ice Deposits on Mercury Using the Mercury Laser Altimeter and Small Craters in Permanently Shadowed Regions][research_deutsch_et_al_2018]
-- [Research, Domingue et al. 2014, Mercury's Weather-Beaten Surface, Understanding Mercury in the Context of Lunar and Asteroidal Space Weathering Studies][research_domingue_et_al_2014]
-- [Research, Ercol 2007, MESSENGER Heritage, High Temperature Technologies for Inner Solar System Spacecraft][research_ercol_2007]
-- [Research, Ercol and Balakrishnan 2024, Thermal Performance of Parker Solar Probe through Orbit Eighteen][research_ercol_balakrishnan_2024]
-- [Research, Evans and Tabachnik 1999, Possible Long-Lived Asteroid Belts in the Inner Solar System][research_evans_tabachnik_1999]
-- [Research, Faria et al. 2022, A Candidate Short-Period Sub-Earth Orbiting Proxima Centauri][research_faria_et_al_2022]
-- [Research, Fox et al. 2015, The Solar Probe Plus Mission, Humanity's First Visit to Our Star][research_fox_et_al_2015]
-- [Research, Genova et al. 2019, Geodetic Evidence That Mercury Has a Solid Inner Core][research_genova_et_al_2019]
-- [Research, Gershman et al. 2015, MESSENGER Observations of Solar Energetic Electrons Within Mercury's Magnetosphere][research_gershman_et_al_2015]
-- [Research, Hauck et al. 2013, The Curious Case of Mercury's Internal Structure][research_hauck_et_al_2013]
-- [Research, Hein et al. 2019, Project Lyra, Sending a Spacecraft to 1I/'Oumuamua, the Interstellar Asteroid][research_hein_et_al_2019]
-- [Research, Hibberd et al. 2022, Project Lyra, A Mission to 1I/'Oumuamua without Solar Oberth Manoeuvre][research_hibberd_et_al_2022]
-- [Research, Ho et al. 2011, MESSENGER Observations of Transient Bursts of Energetic Electrons in Mercury's Magnetosphere][research_ho_et_al_2011]
-- [Research, Hoang et al. 2017, The Interaction of Relativistic Spacecrafts with the Interstellar Medium][research_hoang_et_al_2017]
-- [Research, Howard et al. 2018, The First Naked-Eye Superflare Detected from Proxima Centauri][research_howard_et_al_2018]
-- [Research, Killen et al. 2007, Processes that Promote and Deplete the Exosphere of Mercury][research_killen_et_al_2007]
-- [Research, Kopp and Lean 2011, A New, Lower Value of Total Solar Irradiance, Evidence and Climate Significance][research_kopp_lean_2011]
-- [Research, Kulkarni, Lubin and Zhang 2018, Relativistic Spacecraft Propelled by Directed Energy][research_kulkarni_lubin_zhang_2018]
-- [Research, Lammer et al. 2026, The Role of Meteoritic Delivery to Mercury's Surface-Exosphere Environment][research_lammer_et_al_2026]
-- [Research, Lappas et al. 2005, Interstellar Heliopause Probe, System Design of a Solar Sail Mission to 200 AU][research_lappas_et_al_2005]
-- [Research, Lario et al. 2006, Radial and Longitudinal Dependence of Solar 4 to 13 MeV and 27 to 37 MeV Proton Peak Intensities and Fluences, Helios and IMP 8 Observations][research_lario_et_al_2006]
-- [Research, Lawrence et al. 2013, Evidence for Water Ice Near Mercury's North Pole from MESSENGER Neutron Spectrometer Measurements][research_lawrence_et_al_2013]
-- [Research, Lyman et al. 2001, Solar Thermal Propulsion for an Interstellar Probe][research_lyman_et_al_2001]
-- [Research, Lyngvi et al. 2005, The Interstellar Heliopause Probe][research_lyngvi_et_al_2005]
-- [Research, Mangano et al. 2021, BepiColombo Science Investigations During Cruise and Flybys at the Earth, Venus and Mercury][research_mangano_et_al_2021]
-- [Research, Margot et al. 2012, Mercury's Moment of Inertia from Spin and Gravity Data][research_margot_et_al_2012]
-- [Research, Mayor and Queloz 1995, A Jupiter-Mass Companion to a Solar-Type Star][research_mayor_queloz_1995]
-- [Research, Mazarico et al. 2014, The Gravity Field, Orientation, and Ephemeris of Mercury from MESSENGER Observations after Three Years in Orbit][research_mazarico_et_al_2014]
-- [Research, McAdams et al. 2006, Trajectory Design and Maneuver Strategy for the MESSENGER Mission to Mercury][research_mcadams_et_al_2006]
-- [Research, McAdams et al. 2007, MESSENGER Mission Design and Navigation][research_mcadams_et_al_2007]
-- [Research, McNutt et al. 2019, Near-Term Interstellar Probe, First Step][research_mcnutt_et_al_2019]
-- [Research, Moser et al. 2010, High Temperature Multilayer Insulation for the BepiColombo Spacecraft, a Design at the Edge of Material Capability][research_moser_et_al_2010]
-- [Research, Murakami and Jones 2025, Overview and Initial Results of BepiColombo Mercury Flybys][research_murakami_jones_2025]
-- [Research, Ness et al. 1974, Magnetic Field Observations near Mercury, Preliminary Results from Mariner 10][research_ness_et_al_1974]
-- [Research, Neumann et al. 2013, Bright and Dark Polar Deposits on Mercury, Evidence for Surface Volatiles][research_neumann_et_al_2013]
-- [Research, Nittler et al. 2011, The Major-Element Composition of Mercury's Surface from MESSENGER X-ray Spectrometry][research_nittler_et_al_2011]
-- [Research, Nittler et al. 2020, Global Major-Element Maps of Mercury from Four Years of MESSENGER X-Ray Spectrometer Observations][research_nittler_et_al_2020]
-- [Research, Paige et al. 2013, Thermal Stability of Volatiles in the North Polar Region of Mercury][research_paige_et_al_2013]
-- [Research, Palaszewski 2015, Solar System Exploration Augmented by In-Situ Resource Utilization, Human Mercury and Saturn Exploration][research_palaszewski_2015]
-- [Research, Parkin 2018, The Breakthrough Starshot System Model][research_parkin_2018]
-- [Research, Peplowski et al. 2011, Radioactive Elements on Mercury's Surface from MESSENGER, Implications for the Planet's Formation and Evolution][research_peplowski_et_al_2011]
-- [Research, Perry et al. 2015, The Low-Degree Shape of Mercury][research_perry_et_al_2015]
-- [Research, Schlei et al. 2021, Pragmatic Trajectory Options Applicable to an Interstellar Probe Mission][research_schlei_et_al_2021]
-- [Research, Schumacher and Gay 2001, An Attempt to Detect Vulcanoids with SOHO/LASCO Images, I. Scale Relativity and Quantization of the Solar System][research_schumacher_gay_2001]
-- [Research, Slade, Butler and Muhleman 1992, Mercury Radar Imaging, Evidence for Polar Ice][research_slade_butler_muhleman_1992]
-- [Research, Slavin et al. 2009, MESSENGER Observations of Magnetic Reconnection in Mercury's Magnetosphere][research_slavin_et_al_2009]
-- [Research, Smith et al. 2012, Gravity Field and Internal Structure of Mercury from MESSENGER][research_smith_et_al_2012]
-- [Research, Solomon et al. 2007, MESSENGER Mission Overview][research_solomon_et_al_2007]
-- [Research, Steffl et al. 2013, A Search for Vulcanoids with the STEREO Heliospheric Imager][research_steffl_et_al_2013]
-- [Research, Suárez Mascareño et al. 2025, Diving into the Planetary System of Proxima with NIRPS, Breaking the Metre per Second Barrier in the Infrared][research_suarez_mascareno_et_al_2025]
-- [Research, Vasavada, Paige and Wood 1999, Near-Surface Temperatures on Mercury and the Moon and the Stability of Polar Ice Deposits][research_vasavada_paige_wood_1999]
-- [Research, Winslow et al. 2015, Interplanetary Coronal Mass Ejections from MESSENGER Orbital Observations at Mercury][research_winslow_et_al_2015]
-- [Research, Worden et al. 2021, Progress on the Starshot Laser Propulsion System][research_worden_et_al_2021]
+<!-- References generated by _lib/sources.py from _sources/. Edit the database and regenerate. Do not edit this section by hand. -->
+
+### Primary Sources, Peer-Reviewed
+
+- Anderson, Brian J., Catherine L. Johnson, Haje Korth, et al. 2011. "The Global Magnetic Field of Mercury from MESSENGER Orbital Observations." *Science* 333 (6051): 1859–62. [https://doi.org/10.1126/science.1211001][research_anderson_et_al_2011]
+- Bailer-Jones, Coryn A. L. 2021. "The Sun Diver: Combining Solar Sails with the Oberth Effect." *American Journal of Physics* 89 (3): 235–43. [https://doi.org/10.1119/10.0002178][research_bailer_jones_2021]
+- Beemer, Heidi D., and Ian R. McNab. 2023. "Launch Parameters of a Lunar Ice Payload Traveling via Electromagnetic Mass Accelerator." *Acta Astronautica* 207: 24–32. [https://doi.org/10.1016/j.actaastro.2023.02.041][research_beemer_mcnab_2023]
+- Benkhoff, J., G. Murakami, W. Baumjohann, et al. 2021. "BepiColombo: Mission Overview and Science Goals." *Space Science Reviews* 217 (8): 90. [https://doi.org/10.1007/s11214-021-00861-4][research_benkhoff_et_al_2021]
+- Benkhoff, Johannes, Jan van Casteren, Hajime Hayakawa, et al. 2010. "BepiColombo—Comprehensive Exploration of Mercury: Mission Overview and Science Goals." *Planetary and Space Science* 58 (1–2): 2–20. [https://doi.org/10.1016/j.pss.2009.09.020][research_benkhoff_et_al_2010]
+- Benkoski, Jason J., W. Lloyd Luedeman, Narendra N. De, et al. 2023. "Combined Heat Shield and Solar Thermal Propulsion System for an Oberth Maneuver." *Journal of Propulsion and Power* 39 (2): 284–93. [https://doi.org/10.2514/1.b38595][research_benkoski_et_al_2023]
+- Blewett, David T., Nancy L. Chabot, Brett W. Denevi, et al. 2011. "Hollows on Mercury: MESSENGER Evidence for Geologically Recent Volatile-Related Activity." *Science* 333 (6051): 1856–59. [https://doi.org/10.1126/science.1211681][research_blewett_et_al_2011]
+- Cassidy, Timothy A., Aimee W. Merkel, Matthew H. Burger, et al. 2015. "Mercury’s Seasonal Sodium Exosphere: MESSENGER Orbital Observations." *Icarus* 248: 547–59. [https://doi.org/10.1016/j.icarus.2014.10.037][research_cassidy_et_al_2015]
+- Chabot, Nancy L., Carolyn M. Ernst, Brett W. Denevi, et al. 2014. "Images of Surface Volatiles in Mercury’s Polar Craters Acquired by the MESSENGER Spacecraft." *Geology* 42 (12): 1051–54. [https://doi.org/10.1130/g35916.1][research_chabot_et_al_2014]
+- Chabot, Nancy L., Carolyn M. Ernst, John K. Harmon, et al. 2013. "Craters Hosting Radar-Bright Deposits in Mercury's North Polar Region: Areas of Persistent Shadow Determined from MESSENGER Images." *Journal of Geophysical Research: Planets* 118 (1): 26–36. [https://doi.org/10.1029/2012je004172][research_chabot_et_al_2013]
+- Davoudi, Fatemeh, Benjamin V. Rackham, Michaël Gillon, et al. 2024. "Updated Spectral Characteristics for the Ultracool Dwarf TRAPPIST-1." *Astrophysical Journal Letters* 970 (1): L4. [https://doi.org/10.3847/2041-8213/ad5c6c][research_davoudi_et_al_2024]
+- Deutsch, Ariel N., James W. Head, Nancy L. Chabot, and Gregory A. Neumann. 2018. "Constraining the Thickness of Polar Ice Deposits on Mercury Using the Mercury Laser Altimeter and Small Craters in Permanently Shadowed Regions." *Icarus* 305: 139–48. [https://doi.org/10.1016/j.icarus.2018.01.013][research_deutsch_et_al_2018]
+- Evans, N. Wyn, and Serge Tabachnik. 1999. "Possible Long-Lived Asteroid Belts in the Inner Solar System." *Nature* 399 (6731): 41–43. [https://doi.org/10.1038/19919][research_evans_tabachnik_1999]
+- Faria, J. P., A. Suárez Mascareño, P. Figueira, et al. 2022. "A Candidate Short-Period Sub-Earth Orbiting Proxima Centauri." *Astronomy & Astrophysics* 658: A115. [https://doi.org/10.1051/0004-6361/202142337][research_faria_et_al_2022]
+- Fox, N. J., M. C. Velli, S. D. Bale, et al. 2015. "The Solar Probe Plus Mission: Humanity’s First Visit to Our Star." *Space Science Reviews* 204 (1–4): 7–48. [https://doi.org/10.1007/s11214-015-0211-6][research_fox_et_al_2015]
+- Genova, Antonio, Sander Goossens, Erwan Mazarico, et al. 2019. "Geodetic Evidence That Mercury Has a Solid Inner Core." *Geophysical Research Letters* 46 (7): 3625–33. [https://doi.org/10.1029/2018gl081135][research_genova_et_al_2019]
+- Gershman, Daniel J., Jim M. Raines, James A. Slavin, et al. 2015. "MESSENGER Observations of Solar Energetic Electrons within Mercury's Magnetosphere." *Journal of Geophysical Research: Space Physics* 120 (10): 8559–71. [https://doi.org/10.1002/2015ja021610][research_gershman_et_al_2015]
+- Hauck, Steven A., Jean-Luc Margot, Sean C. Solomon, et al. 2013. "The Curious Case of Mercury's Internal Structure." *Journal of Geophysical Research: Planets* 118 (6): 1204–20. [https://doi.org/10.1002/jgre.20091][research_hauck_et_al_2013]
+- Hein, Andreas M., Nikolaos Perakis, T. Marshall Eubanks, et al. 2019. "Project Lyra: Sending a Spacecraft to 1I/’Oumuamua (Former A/2017 U1), the Interstellar Asteroid." *Acta Astronautica* 161: 552–61. [https://doi.org/10.1016/j.actaastro.2018.12.042][research_hein_et_al_2019]
+- Hibberd, Adam, Andreas M. Hein, T. Marshall Eubanks, and Robert G. Kennedy. 2022. "Project Lyra: A Mission to 1I/’Oumuamua without Solar Oberth Manoeuvre." *Acta Astronautica* 199: 161–65. [https://doi.org/10.1016/j.actaastro.2022.07.032][research_hibberd_et_al_2022]
+- Ho, George C., Stamatios M. Krimigis, Robert E. Gold, et al. 2011. "MESSENGER Observations of Transient Bursts of Energetic Electrons in Mercury’s Magnetosphere." *Science* 333 (6051): 1865–68. [https://doi.org/10.1126/science.1211141][research_ho_et_al_2011]
+- Hoang, Thiem, A. Lazarian, Blakesley Burkhart, and Abraham Loeb. 2017. "The Interaction of Relativistic Spacecrafts with the Interstellar Medium." *Astrophysical Journal* 837 (1): 5. [https://doi.org/10.3847/1538-4357/aa5da6][research_hoang_et_al_2017]
+- Howard, Ward S., Matt A. Tilley, Hank Corbett, et al. 2018. "The First Naked-Eye Superflare Detected from Proxima Centauri." *Astrophysical Journal Letters* 860 (2): L30. [https://doi.org/10.3847/2041-8213/aacaf3][research_howard_et_al_2018]
+- Kopp, Greg, and Judith L. Lean. 2011. "A New, Lower Value of Total Solar Irradiance: Evidence and Climate Significance." *Geophysical Research Letters* 38 (1): L01706. [https://doi.org/10.1029/2010gl045777][research_kopp_lean_2011]
+- Kulkarni, Neeraj, Philip Lubin, and Qicheng Zhang. 2018. "Relativistic Spacecraft Propelled by Directed Energy." *Astronomical Journal* 155 (4): 155. [https://doi.org/10.3847/1538-3881/aaafd2][research_kulkarni_lubin_zhang_2018]
+- Lario, D., M.-B. Kallenrode, R. B. Decker, et al. 2006. "Radial and Longitudinal Dependence of Solar 4–13 MeV and 27–37 MeV Proton Peak Intensities and Fluences: Helios and IMP 8 Observations." *Astrophysical Journal* 653 (2): 1531–44. [https://doi.org/10.1086/508982][research_lario_et_al_2006]
+- Lawrence, David J., William C. Feldman, John O. Goldsten, et al. 2013. "Evidence for Water Ice near Mercury’s North Pole from MESSENGER Neutron Spectrometer Measurements." *Science* 339 (6117): 292–96. [https://doi.org/10.1126/science.1229953][research_lawrence_et_al_2013]
+- Lyngvi, A., P. Falkner, S. Kemble, M. Leipold, and A. Peacock. 2005. "The Interstellar Heliopause Probe." *Acta Astronautica* 57 (2–8): 104–11. [https://doi.org/10.1016/j.actaastro.2005.03.042][research_lyngvi_et_al_2005]
+- Mangano, Valeria, Melinda Dósa, Markus Fränz, et al. 2021. "BepiColombo Science Investigations during Cruise and Flybys at the Earth, Venus and Mercury." *Space Science Reviews* 217 (1): 23. [https://doi.org/10.1007/s11214-021-00797-9][research_mangano_et_al_2021]
+- Margot, Jean-Luc, Stanton J. Peale, Sean C. Solomon, et al. 2012. "Mercury's Moment of Inertia from Spin and Gravity Data." *Journal of Geophysical Research: Planets* 117 (E12): 2012JE004161. [https://doi.org/10.1029/2012je004161][research_margot_et_al_2012]
+- Mayor, Michel, and Didier Queloz. 1995. "A Jupiter-Mass Companion to a Solar-Type Star." *Nature* 378 (6555): 355–59. [https://doi.org/10.1038/378355a0][research_mayor_queloz_1995]
+- Mazarico, Erwan, Antonio Genova, Sander Goossens, et al. 2014. "The Gravity Field, Orientation, and Ephemeris of Mercury from MESSENGER Observations after Three Years in Orbit." *Journal of Geophysical Research: Planets* 119 (12): 2417–36. [https://doi.org/10.1002/2014je004675][research_mazarico_et_al_2014]
+- McAdams, James V., David W. Dunham, Robert W. Farquhar, Anthony H. Taylor, and B. G. Williams. 2006. "Trajectory Design and Maneuver Strategy for the MESSENGER Mission to Mercury." *Journal of Spacecraft and Rockets* 43 (5): 1054–64. [https://doi.org/10.2514/1.18178][research_mcadams_et_al_2006]
+- McAdams, James V., Robert W. Farquhar, Anthony H. Taylor, and Bobby G. Williams. 2007. "MESSENGER Mission Design and Navigation." *Space Science Reviews* 131 (1–4): 219–46. [https://doi.org/10.1007/s11214-007-9162-x][research_mcadams_et_al_2007]
+- McNutt, Ralph L., Robert F. Wimmer-Schweingruber, Mike Gruntman, et al. 2019. "Near-Term Interstellar Probe: First Step." *Acta Astronautica* 162: 284–99. [https://doi.org/10.1016/j.actaastro.2019.06.013][research_mcnutt_et_al_2019]
+- Ness, N. F., K. W. Behannon, R. P. Lepping, Y. C. Whang, and K. H. Schatten. 1974. "Magnetic Field Observations near Mercury: Preliminary Results from Mariner 10." *Science* 185 (4146): 151–60. [https://doi.org/10.1126/science.185.4146.151][research_ness_et_al_1974]
+- Neumann, Gregory A., John F. Cavanaugh, Xiaoli Sun, et al. 2013. "Bright and Dark Polar Deposits on Mercury: Evidence for Surface Volatiles." *Science* 339 (6117): 296–300. [https://doi.org/10.1126/science.1229764][research_neumann_et_al_2013]
+- Nittler, Larry R., Elizabeth A. Frank, Shoshana Z. Weider, et al. 2020. "Global Major-Element Maps of Mercury from Four Years of MESSENGER X-Ray Spectrometer Observations." *Icarus* 345: 113716. [https://doi.org/10.1016/j.icarus.2020.113716][research_nittler_et_al_2020]
+- Nittler, Larry R., Richard D. Starr, Shoshana Z. Weider, et al. 2011. "The Major-Element Composition of Mercury’s Surface from MESSENGER X-Ray Spectrometry." *Science* 333 (6051): 1847–50. [https://doi.org/10.1126/science.1211567][research_nittler_et_al_2011]
+- Paige, David A., Matthew A. Siegler, John K. Harmon, et al. 2013. "Thermal Stability of Volatiles in the North Polar Region of Mercury." *Science* 339 (6117): 300–303. [https://doi.org/10.1126/science.1231106][research_paige_et_al_2013]
+- Parkin, Kevin L. G. 2018. "The Breakthrough Starshot System Model." *Acta Astronautica* 152: 370–84. [https://doi.org/10.1016/j.actaastro.2018.08.035][research_parkin_2018]
+- Peplowski, Patrick N., Larry G. Evans, Steven A. Hauck, et al. 2011. "Radioactive Elements on Mercury’s Surface from MESSENGER: Implications for the Planet’s Formation and Evolution." *Science* 333 (6051): 1850–52. [https://doi.org/10.1126/science.1211576][research_peplowski_et_al_2011]
+- Perry, Mark E., Gregory A. Neumann, Roger J. Phillips, et al. 2015. "The Low-Degree Shape of Mercury." *Geophysical Research Letters* 42 (17): 6951–58. [https://doi.org/10.1002/2015gl065101][research_perry_et_al_2015]
+- Schumacher, G., and J. Gay. 2001. "An Attempt to Detect Vulcanoids with SOHO/LASCO Images: I. Scale Relativity and Quantization of the Solar System." *Astronomy & Astrophysics* 368 (3): 1108–14. [https://doi.org/10.1051/0004-6361:20000356][research_schumacher_gay_2001]
+- Slade, Martin A., Bryan J. Butler, and Duane O. Muhleman. 1992. "Mercury Radar Imaging: Evidence for Polar Ice." *Science* 258 (5082): 635–40. [https://doi.org/10.1126/science.258.5082.635][research_slade_butler_muhleman_1992]
+- Slavin, James A., Mario H. Acuña, Brian J. Anderson, et al. 2009. "MESSENGER Observations of Magnetic Reconnection in Mercury’s Magnetosphere." *Science* 324 (5927): 606–10. [https://doi.org/10.1126/science.1172011][research_slavin_et_al_2009]
+- Smith, David E., Maria T. Zuber, Roger J. Phillips, et al. 2012. "Gravity Field and Internal Structure of Mercury from MESSENGER." *Science* 336 (6078): 214–17. [https://doi.org/10.1126/science.1218809][research_smith_et_al_2012]
+- Steffl, A. J., N. J. Cunningham, A. B. Shinn, D. D. Durda, and S. A. Stern. 2013. "A Search for Vulcanoids with the STEREO Heliospheric Imager." *Icarus* 223 (1): 48–56. [https://doi.org/10.1016/j.icarus.2012.11.031][research_steffl_et_al_2013]
+- Suárez Mascareño, Alejandro, Étienne Artigau, Lucile Mignon, et al. 2025. "Diving into the Planetary System of Proxima with NIRPS: Breaking the Metre per Second Barrier in the Infrared." *Astronomy & Astrophysics* 700: A11. [https://doi.org/10.1051/0004-6361/202553728][research_suarez_mascareno_et_al_2025]
+- Vasavada, Ashwin R., David A. Paige, and Stephen E. Wood. 1999. "Near-Surface Temperatures on Mercury and the Moon and the Stability of Polar Ice Deposits." *Icarus* 141 (2): 179–93. [https://doi.org/10.1006/icar.1999.6175][research_vasavada_paige_wood_1999]
+- Winslow, Reka M., Noé Lugaz, Lydia C. Philpott, et al. 2015. "Interplanetary Coronal Mass Ejections from MESSENGER Orbital Observations at Mercury." *Journal of Geophysical Research: Space Physics* 120 (8): 6101–18. [https://doi.org/10.1002/2015ja021200][research_winslow_et_al_2015]
+- Worden, S. Pete, Wesley A. Green, James Schalkwyk, Kevin Parkin, and Robert Q. Fugate. 2021. "Progress on the Starshot Laser Propulsion System." *Applied Optics* 60 (31): H20. [https://doi.org/10.1364/ao.435858][research_worden_et_al_2021]
+
+### Primary Sources, Non-Peer-Reviewed
+
+- Badman, Samuel. 2026. "The Outer Reaches of the Solar Corona as Measured by Parker Solar Probe." Abstract EGU26-12552, *EGU General Assembly 2026*. Copernicus GmbH. [https://doi.org/10.5194/egusphere-egu26-12552][research_badman_2026]
+- Benford, James, and Gregory Benford. 2003. "Near-Term Beamed Sail Propulsion Missions: Cosmos-1 and Sun-Diver." In *Beamed Energy Propulsion: First International Symposium on Beamed Energy Propulsion*. AIP Conference Proceedings 664. AIP. [https://doi.org/10.1063/1.1582124][research_benford_benford_2003]
+- Dakermanji, G., J. Jenkins, and C. Ercol. 2006. "The MESSENGER Spacecraft Solar Array Design and Early Mission Performance." In *2006 IEEE 4th World Conference on Photovoltaic Energy Conference*. IEEE. [https://doi.org/10.1109/wcpec.2006.279872][research_dakermanji_jenkins_ercol_2006]
+- Ercol, C. 2007. "MESSENGER Heritage: High Temperature Technologies for Inner Solar System Spacecraft." In *AIAA SPACE 2007 Conference & Exposition*. AIAA 2007-6188. American Institute of Aeronautics and Astronautics. [https://doi.org/10.2514/6.2007-6188][research_ercol_2007]
+- Ercol, Carl, and Krithika Balakrishnan. 2024. "Thermal Performance of Parker Solar Probe through Orbit Eighteen." In *53rd International Conference on Environmental Systems*. International Conference on Environmental Systems. [https://doi.org/10.32865/2346/98763][research_ercol_balakrishnan_2024]
+- Lammer, Helmut, Fabian Weichbold, Manuel Scherf, et al. 2026. "The Role of Meteoritic Delivery to Mercury’s Surface-Exosphere Environment." Abstract EGU26-18943, *EGU General Assembly 2026*. Copernicus GmbH. [https://doi.org/10.5194/egusphere-egu26-18943][research_lammer_et_al_2026]
+- Lappas, Vaios, Manfred Leipold, Peter Falkner, H. Fichtner, and S. Kraft. 2005. "Interstellar Heliopause Probe: System Design of a Solar Sail Mission to 200 AU." In *AIAA Guidance, Navigation, and Control Conference and Exhibit*. AIAA 2005-6084. American Institute of Aeronautics and Astronautics. [https://doi.org/10.2514/6.2005-6084][research_lappas_et_al_2005]
+- Lyman, Ronald, Mark Ewing, Ramesh Krishnan, Dean Lester, and Ralph McNutt Jr. 2001. "Solar Thermal Propulsion for an Interstellar Probe." In *37th Joint Propulsion Conference and Exhibit*. AIAA 2001-3377. American Institute of Aeronautics and Astronautics. [https://doi.org/10.2514/6.2001-3377][research_lyman_et_al_2001]
+- Moser, Martin, Christian Ranzenberger, George Varewijck, et al. 2010. "High Temperature Multilayer Insulation for the BepiColombo Spacecraft: A Design at the Edge of Material Capability." In *40th International Conference on Environmental Systems*. AIAA 2010-6091. American Institute of Aeronautics and Astronautics. [https://doi.org/10.2514/6.2010-6091][research_moser_et_al_2010]
+- Murakami, Go, and Geraint Jones. 2025. "Overview and Initial Results of BepiColombo Mercury Flybys." Abstract EGU25-18018, *EGU General Assembly 2025*. Copernicus GmbH. [https://doi.org/10.5194/egusphere-egu25-18018][research_murakami_jones_2025]
+- Palaszewski, Bryan A. 2015. "Solar System Exploration Augmented by in-Situ Resource Utilization: Human Mercury and Saturn Exploration." In *8th Symposium on Space Resource Utilization*. AIAA 2015-1654. American Institute of Aeronautics and Astronautics. [https://doi.org/10.2514/6.2015-1654][research_palaszewski_2015]
+- Schlei, Wayne, Justin Atchison, Ricardo Gomez-Cano, Brian Lathrop, and Benjamin Villac. 2021. "Pragmatic Trajectory Options Applicable to an Interstellar Probe Mission." In *2021 IEEE Aerospace Conference (50100)*. IEEE. [https://doi.org/10.1109/aero50100.2021.9438398][research_schlei_et_al_2021]
+- Solomon, Sean C., Ralph L. McNutt, Robert E. Gold, and Deborah L. Domingue. 2007. "MESSENGER Mission Overview." In *The MESSENGER Mission to Mercury*. Springer New York. [https://doi.org/10.1007/978-0-387-77214-1\_1][research_solomon_et_al_2007]
+
+### Secondary Sources
+
+- Domingue, Deborah L., Clark R. Chapman, Rosemary M. Killen, et al. 2014. "Mercury’s Weather-Beaten Surface: Understanding Mercury in the Context of Lunar and Asteroidal Space Weathering Studies." *Space Science Reviews* 181 (1–4): 121–214. [https://doi.org/10.1007/s11214-014-0039-5][research_domingue_et_al_2014]
+- Killen, Rosemary, Gabrielle Cremonese, Helmut Lammer, et al. 2007. "Processes That Promote and Deplete the Exosphere of Mercury." *Space Science Reviews* 132 (2–4): 433–509. [https://doi.org/10.1007/s11214-007-9232-0][research_killen_et_al_2007]
+- McInnes, Colin Robert. 1999. *Solar Sailing*. Springer London. [https://doi.org/10.1007/978-1-4471-3992-8][book_mcinnes_1999]
+
+### Tertiary Sources
+
+- "51 Pegasi b." 2026. Wikipedia. Last modified October 21, at 09:07 (UTC). [https://en.wikipedia.org/w/index.php?title=51\_Pegasi\_b&oldid=1381285269][ref_51_pegasi_b]
+- "Breakthrough Starshot." 2026. Wikipedia. Last modified September 26, at 18:09 (UTC). [https://en.wikipedia.org/w/index.php?title=Breakthrough\_Starshot&oldid=1376867919][ref_breakthrough_starshot]
+- "Ceres (Dwarf Planet)." 2026. Wikipedia. Last modified October 20, at 04:55 (UTC). [https://en.wikipedia.org/w/index.php?title=Ceres\_(dwarf\_planet)&oldid=1381128658][ref_ceres]
+- "Delta-v Budget." 2026. Wikipedia. Last modified July 2, at 23:47 (UTC). [https://en.wikipedia.org/w/index.php?title=Delta-v\_budget&oldid=1362285519][ref_delta_v_budget]
+- "Earth." 2026. Wikipedia. Last modified October 19, at 09:27 (UTC). [https://en.wikipedia.org/w/index.php?title=Earth&oldid=1380995505][ref_earth]
+- "Gravity Assist." 2026. Wikipedia. Last modified October 4, at 03:20 (UTC). [https://en.wikipedia.org/w/index.php?title=Gravity\_assist&oldid=1378359042][ref_gravity_assist]
+- "Hohmann Transfer Orbit." 2026. Wikipedia. Last modified October 20, at 08:46 (UTC). [https://en.wikipedia.org/w/index.php?title=Hohmann\_transfer\_orbit&oldid=1381150738][ref_hohmann_transfer_orbit]
+- "Io (Moon)." 2026. Wikipedia. Last modified October 14, at 11:17 (UTC). [https://en.wikipedia.org/w/index.php?title=Io\_(moon)&oldid=1380203631][ref_io]
+- "Lunar Month." 2026. Wikipedia. Last modified October 1, at 22:44 (UTC). [https://en.wikipedia.org/w/index.php?title=Lunar\_month&oldid=1377910813][ref_lunar_month]
+- "Mars." 2026. Wikipedia. Last modified October 10, at 09:51 (UTC). [https://en.wikipedia.org/w/index.php?title=Mars&oldid=1379497097][ref_mars]
+- "Mass Driver." 2026. Wikipedia. Last modified September 25, at 09:59 (UTC). [https://en.wikipedia.org/w/index.php?title=Mass\_driver&oldid=1376635859][ref_mass_driver]
+- "Mercury (Planet)." 2026. Wikipedia. Last modified October 19, at 23:34 (UTC). [https://en.wikipedia.org/w/index.php?title=Mercury\_(planet)&oldid=1381089194][ref_mercury]
+- "MESSENGER." 2026. Wikipedia. Last modified October 12, at 21:04 (UTC). [https://en.wikipedia.org/w/index.php?title=MESSENGER&oldid=1379942937][ref_messenger]
+- "Moon." 2026. Wikipedia. Last modified October 20, at 15:52 (UTC). [https://en.wikipedia.org/w/index.php?title=Moon&oldid=1381191379][ref_moon]
+- "Oberth Effect." 2026. Wikipedia. Last modified September 28, at 16:55 (UTC). [https://en.wikipedia.org/w/index.php?title=Oberth\_effect&oldid=1377271791][ref_oberth_effect]
+- "Proxima Centauri." 2026. Wikipedia. Last modified October 18, at 13:16 (UTC). [https://en.wikipedia.org/w/index.php?title=Proxima\_Centauri&oldid=1380870772][ref_proxima_centauri]
+- "Proxima Centauri d." 2026. Wikipedia. Last modified September 9, at 19:24 (UTC). [https://en.wikipedia.org/w/index.php?title=Proxima\_Centauri\_d&oldid=1374087109][ref_proxima_centauri_d]
+- "Solar Sail." 2026. Wikipedia. Last modified August 12, at 08:09 (UTC). [https://en.wikipedia.org/w/index.php?title=Solar\_sail&oldid=1369001629][ref_solar_sail]
+- "Space Colonization." 2026. Wikipedia. Last modified October 17, at 03:22 (UTC). [https://en.wikipedia.org/w/index.php?title=Space\_colonization&oldid=1380661105][ref_space_colonization]
+- "Titan (Moon)." 2026. Wikipedia. Last modified October 22, at 13:16 (UTC). [https://en.wikipedia.org/w/index.php?title=Titan\_(moon)&oldid=1381433485][ref_titan]
+- "TRAPPIST-1." 2026. Wikipedia. Last modified September 27, at 20:43 (UTC). [https://en.wikipedia.org/w/index.php?title=TRAPPIST-1&oldid=1377085528][ref_trappist_1]
+- "TRAPPIST-1b." 2026. Wikipedia. Last modified September 9, at 19:20 (UTC). [https://en.wikipedia.org/w/index.php?title=TRAPPIST-1b&oldid=1374086652][ref_trappist_1b]
+- "Tsiolkovsky Rocket Equation." 2026. Wikipedia. Last modified August 18, at 02:17 (UTC). [https://en.wikipedia.org/w/index.php?title=Tsiolkovsky\_rocket\_equation&oldid=1369930570][ref_tsiolkovsky_rocket_equation]
+- "Venus." 2026. Wikipedia. Last modified October 17, at 16:16 (UTC). [https://en.wikipedia.org/w/index.php?title=Venus&oldid=1380745666][ref_venus]
+- "Vulcanoid." 2026. Wikipedia. Last modified September 28, at 01:00 (UTC). [https://en.wikipedia.org/w/index.php?title=Vulcanoid&oldid=1377129642][ref_vulcanoid]
+
+### Related Posts
+
+- Sechter, Brendan. 2026. "Introduction to Space Studies." *Brendan A R Sechter's Development Blog*, February 21. [https://sgeos.github.io/space/math/2026/02/21/introduction\_to\_space\_studies.html][related_post_space_studies]
+- Sechter, Brendan. 2026. "Von Neumann Probes." *Brendan A R Sechter's Development Blog*, March 5. [https://sgeos.github.io/science/philosophy/2026/03/05/von\_neumann\_probes.html][related_post_von_neumann_probes]
+- Sechter, Brendan. 2026. "Venus Cloudtop Buoyant Analog." *Brendan A R Sechter's Development Blog*, July 6. [https://sgeos.github.io/aerospace/engineering/space-studies/analog-facilities/2026/07/06/venus\_cloudtop\_buoyant\_analog.html][related_post_venus_cloudtop]
+- Sechter, Brendan. 2026. "Orbital Manoeuvres in Terms of Delta-v." *Brendan A R Sechter's Development Blog*, August 17. [https://sgeos.github.io/space/space-studies/2026/08/17/orbital\_manoeuvres.html][related_post_orbital_manoeuvres]
+- Sechter, Brendan. 2026. "Solar Sailing." *Brendan A R Sechter's Development Blog*, August 18. [https://sgeos.github.io/space/space-studies/2026/08/18/solar\_sailing.html][related_post_solar_sailing]
+- Sechter, Brendan. 2026. "Mass Drivers." *Brendan A R Sechter's Development Blog*, August 19. [https://sgeos.github.io/space/space-studies/2026/08/19/mass\_drivers.html][related_post_mass_drivers]
 
 [book_mcinnes_1999]: https://doi.org/10.1007/978-1-4471-3992-8
-[ref_51_pegasi_b]: https://en.wikipedia.org/wiki/51_Pegasi_b
-[ref_breakthrough_starshot]: https://en.wikipedia.org/wiki/Breakthrough_Starshot
-[ref_ceres]: https://en.wikipedia.org/wiki/Ceres_(dwarf_planet)
-[ref_delta_v_budget]: https://en.wikipedia.org/wiki/Delta-v_budget
-[ref_earth]: https://en.wikipedia.org/wiki/Earth
-[ref_gravity_assist]: https://en.wikipedia.org/wiki/Gravity_assist
-[ref_hohmann_transfer_orbit]: https://en.wikipedia.org/wiki/Hohmann_transfer_orbit
-[ref_io]: https://en.wikipedia.org/wiki/Io_(moon)
-[ref_lunar_month]: https://en.wikipedia.org/wiki/Lunar_month
-[ref_mars]: https://en.wikipedia.org/wiki/Mars
-[ref_mass_driver]: https://en.wikipedia.org/wiki/Mass_driver
-[ref_mercury]: https://en.wikipedia.org/wiki/Mercury_(planet)
-[ref_messenger]: https://en.wikipedia.org/wiki/MESSENGER
-[ref_moon]: https://en.wikipedia.org/wiki/Moon
-[ref_oberth_effect]: https://en.wikipedia.org/wiki/Oberth_effect
-[ref_proxima_centauri]: https://en.wikipedia.org/wiki/Proxima_Centauri
-[ref_proxima_centauri_d]: https://en.wikipedia.org/wiki/Proxima_Centauri_d
-[ref_solar_sail]: https://en.wikipedia.org/wiki/Solar_sail
-[ref_space_colonization]: https://en.wikipedia.org/wiki/Space_colonization
-[ref_titan]: https://en.wikipedia.org/wiki/Titan_(moon)
-[ref_trappist_1]: https://en.wikipedia.org/wiki/TRAPPIST-1
-[ref_trappist_1b]: https://en.wikipedia.org/wiki/TRAPPIST-1b
-[ref_tsiolkovsky_rocket_equation]: https://en.wikipedia.org/wiki/Tsiolkovsky_rocket_equation
-[ref_venus]: https://en.wikipedia.org/wiki/Venus
-[ref_vulcanoid]: https://en.wikipedia.org/wiki/Vulcanoid
+[ref_51_pegasi_b]: https://en.wikipedia.org/w/index.php?title=51_Pegasi_b&oldid=1381285269
+[ref_breakthrough_starshot]: https://en.wikipedia.org/w/index.php?title=Breakthrough_Starshot&oldid=1376867919
+[ref_ceres]: https://en.wikipedia.org/w/index.php?title=Ceres_(dwarf_planet)&oldid=1381128658
+[ref_delta_v_budget]: https://en.wikipedia.org/w/index.php?title=Delta-v_budget&oldid=1362285519
+[ref_earth]: https://en.wikipedia.org/w/index.php?title=Earth&oldid=1380995505
+[ref_gravity_assist]: https://en.wikipedia.org/w/index.php?title=Gravity_assist&oldid=1378359042
+[ref_hohmann_transfer_orbit]: https://en.wikipedia.org/w/index.php?title=Hohmann_transfer_orbit&oldid=1381150738
+[ref_io]: https://en.wikipedia.org/w/index.php?title=Io_(moon)&oldid=1380203631
+[ref_lunar_month]: https://en.wikipedia.org/w/index.php?title=Lunar_month&oldid=1377910813
+[ref_mars]: https://en.wikipedia.org/w/index.php?title=Mars&oldid=1379497097
+[ref_mass_driver]: https://en.wikipedia.org/w/index.php?title=Mass_driver&oldid=1376635859
+[ref_mercury]: https://en.wikipedia.org/w/index.php?title=Mercury_(planet)&oldid=1381089194
+[ref_messenger]: https://en.wikipedia.org/w/index.php?title=MESSENGER&oldid=1379942937
+[ref_moon]: https://en.wikipedia.org/w/index.php?title=Moon&oldid=1381191379
+[ref_oberth_effect]: https://en.wikipedia.org/w/index.php?title=Oberth_effect&oldid=1377271791
+[ref_proxima_centauri]: https://en.wikipedia.org/w/index.php?title=Proxima_Centauri&oldid=1380870772
+[ref_proxima_centauri_d]: https://en.wikipedia.org/w/index.php?title=Proxima_Centauri_d&oldid=1374087109
+[ref_solar_sail]: https://en.wikipedia.org/w/index.php?title=Solar_sail&oldid=1369001629
+[ref_space_colonization]: https://en.wikipedia.org/w/index.php?title=Space_colonization&oldid=1380661105
+[ref_titan]: https://en.wikipedia.org/w/index.php?title=Titan_(moon)&oldid=1381433485
+[ref_trappist_1]: https://en.wikipedia.org/w/index.php?title=TRAPPIST-1&oldid=1377085528
+[ref_trappist_1b]: https://en.wikipedia.org/w/index.php?title=TRAPPIST-1b&oldid=1374086652
+[ref_tsiolkovsky_rocket_equation]: https://en.wikipedia.org/w/index.php?title=Tsiolkovsky_rocket_equation&oldid=1369930570
+[ref_venus]: https://en.wikipedia.org/w/index.php?title=Venus&oldid=1380745666
+[ref_vulcanoid]: https://en.wikipedia.org/w/index.php?title=Vulcanoid&oldid=1377129642
 [related_post_mass_drivers]: {% post_url 2026-08-19-mass_drivers %}
 [related_post_mass_drivers_curvature]: {% post_url 2026-08-19-mass_drivers %}#the-curvature-limit
 [related_post_mass_drivers_locked]: {% post_url 2026-08-19-mass_drivers %}#release-geometry-on-a-tidally-locked-body
@@ -1789,7 +1798,7 @@ would face the same choice of origin.
 [research_hoang_et_al_2017]: https://doi.org/10.3847/1538-4357/aa5da6
 [research_howard_et_al_2018]: https://doi.org/10.3847/2041-8213/aacaf3
 [research_killen_et_al_2007]: https://doi.org/10.1007/s11214-007-9232-0
-[research_kopp_lean_2011]: https://doi.org/10.1029/2010GL045777
+[research_kopp_lean_2011]: https://doi.org/10.1029/2010gl045777
 [research_kulkarni_lubin_zhang_2018]: https://doi.org/10.3847/1538-3881/aaafd2
 [research_lammer_et_al_2026]: https://doi.org/10.5194/egusphere-egu26-18943
 [research_lappas_et_al_2005]: https://doi.org/10.2514/6.2005-6084
@@ -1798,7 +1807,7 @@ would face the same choice of origin.
 [research_lyman_et_al_2001]: https://doi.org/10.2514/6.2001-3377
 [research_lyngvi_et_al_2005]: https://doi.org/10.1016/j.actaastro.2005.03.042
 [research_mangano_et_al_2021]: https://doi.org/10.1007/s11214-021-00797-9
-[research_margot_et_al_2012]: https://doi.org/10.1029/2012JE004161
+[research_margot_et_al_2012]: https://doi.org/10.1029/2012je004161
 [research_mayor_queloz_1995]: https://doi.org/10.1038/378355a0
 [research_mazarico_et_al_2014]: https://doi.org/10.1002/2014je004675
 [research_mcadams_et_al_2006]: https://doi.org/10.2514/1.18178
