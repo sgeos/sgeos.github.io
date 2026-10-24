@@ -11,6 +11,70 @@ resuming agent. Read it first, validate it, then read the live channels.
 ## Validity
 
 - **Branch**: `master`
+- **Parent commit** (the repository state this handoff describes): `80232a5`
+- **Written**: 2026-10-24, by the A381 to A384 line (the space studies set), after the process phrasing and primary
+  source pass was committed as `80232a5`. This file's own commit sits directly on top, so `git rev-parse HEAD~1`
+  must print `80232a5...` for this handoff to be valid.
+- **Tree at write**: clean apart from this file. An untracked `.codex/` directory is **not this line's** and must not
+  be committed.
+- **PUSH STATE.** **Nothing from this line is pushed.** Eleven local commits, `6dad64c` through `80232a5`, plus this
+  file's commit, are ahead of `origin/master`. Push only on the pilot's word, with `dangerouslyDisableSandbox`,
+  because the SSH keys are sandboxed.
+- **PUBLICATION STATE.** The X-Planes series A297 to A368 and A378 to A380 are published and pushed (2026-10-21).
+  **A381 to A384 are drafts, NOT published**, and await the pilot's word.
+- **THE SET.** All four have completed all four passes plus a process-phrasing and primary-source pass.
+  - A381 `_drafts/orbital_manoeuvres.markdown`, *Orbital Manoeuvres in Terms of Delta-v*, date 2026-08-17, 77 refs.
+  - A382 `_drafts/solar_sailing.markdown`, *Solar Sailing*, date 2026-08-18, 96 refs.
+  - A383 `_drafts/mass_drivers.markdown`, *Mass Drivers*, date 2026-08-19, 82 refs.
+  - A384 `_drafts/mercury_as_colony_and_launch_site.markdown`, *Mercury as a Colony and a Launch Site*, date
+    2026-08-20, categories `space astronomy space-studies`, 105 refs.
+  - Categories of A381 to A383 are `space space-studies`. Next free article number is **A385**.
+  - **They must publish in order A381, A382, A383, A384**, because later ones link earlier ones by `post_url`
+    (back-reference-only convention). Publishing all four in one publish commit is also safe.
+- **VERIFIED AT `80232a5`.** `_verify.py` 0 and 0. All 246 DOIs return handle responseCode 1. Scratch production build
+  with the four drafts copied into `_posts/` ok; `_lib/render.py` 551 pages, no findings; 31 cross-article fragment
+  links resolve (`tmp/a384/fragcheck.py`). Every new figure traces to a saved abstract.
+- **SCRATCH (gitignored, local).** `tmp/a381` to `tmp/a384`. Each holds `numbers.py` (every computed figure),
+  `refs38N.py` (the reference block generator), `citation_pass.md`, `primary_sources.md`, and fix scripts.
+  **Reference workflow:** edit `refs38N.py`, run it to `tmp/a38N/refs.md`, replace everything from `## References\n`
+  in the draft, then confirm no unused, undefined or unlisted anchors. The scratch build recipe: rsync the repo to
+  `tmp/a384/build/src` excluding vendor, `_site`, tmp, `.git` and `.codex`, symlink vendor, copy the four drafts into
+  `_posts/` under their dated names, then `JEKYLL_ENV=production bundle exec jekyll build --baseurl "" -d ../site`.
+- **DECISIONS BEFORE THE PILOT** (reported in `REVERSE_PROMPT.md`, eleventh entry, not yet answered):
+  1. Mercury's exosphere pressure. A384 keeps Wikipedia's 0.5 nPa or less. Lammer 2026 (EGU abstract) gives an upper
+     limit of 0.1 to 1 micropascal, which is consistent but looser, not a conflict. Option: cite it as a bound.
+  2. Venus surface figures in A384 stay on Wikipedia, no adequate primary abstract.
+  3. Proxima d. Text gives published 0.029 AU and 0.26 Earth masses; calculations keep Wikipedia's 0.02881 AU.
+  4. About twenty A384 claims, and similar residues in A381 to A383, remain on Wikipedia only, named in each
+     Epistemic State.
+  - Also pending from earlier: release announcement drafts for A378 to A380 and the X-Planes series, in
+    `REVERSE_PROMPT.md`.
+- **PILOT RULES THIS LINE OPERATES UNDER.**
+  - Articles never report the drafting process. "... in the searches made for this article" breaks this; "according
+    to <source>" does not. Drafting notes go only in process files.
+  - Wikipedia is fine for overviews; prioritise primary sources, peer-reviewed first.
+  - Numbers must be verifiable. Compute or reword. No metric-gaming fixes.
+  - Prose style: no contractions, dashes, prose colons, semicolons or parentheticals; British spelling; acronyms
+    spelled out on first use as "X, or ABBR"; NASA spelled out; authors by name or they/them.
+- **PUBLISHING.** Two-commit pattern: the draft commit already exists, then a publish commit using `./_publish.sh`
+  (`git mv` into `_posts/`) for each article in order, then `./_check.sh`, then commit with explicit paths, then push
+  on the pilot's word and watch the deploy with `gh run` (also needs `dangerouslyDisableSandbox`). Update
+  `TASKLOG.md`, `draft_summary.md` and `REVERSE_PROMPT.md` in the same publish commit.
+- **HAZARDS.**
+  - **Never run `./_check.sh --drafts`**, never `survey_tool.py resample`, never swap a draft copy into place, and
+    never rerun the stale generators (`tmp/a<NNN>/assemble.py` and `body*.md` for A353 to A357, `assemble368.py`,
+    `tmp/labelpass/labelpass.py`).
+  - **Never put the user's email address in a request.** Use the plain user agent `blog-survey-tool`. Only
+    api.crossref.org, api.openalex.org, doi.org and en.wikipedia.org are used; do not widen the sandbox.
+  - Commit with explicit paths, never `git add -A`, never `.codex/`. Scratch goes under project `tmp/`.
+  - Do not work around permission denials. Confirm irreversible or outward-facing actions.
+- **RESUME.** Validate this file, read `REVERSE_PROMPT.md`, `TASKLOG.md` (the next-number note near line 799 and the
+  last history rows) and `_drafts/draft_summary.md`, report the state in a few lines, and wait for the pilot. The
+  likely next instructions are answers to the decisions above, a publication instruction for A381 to A384, or a push.
+
+## Validity (superseded, written 2026-10-20, fourth entry, parent `df43b5c`)
+
+- **Branch**: `master`
 - **Parent commit** (the repository state this handoff describes): `df43b5c`
 - **Written**: 2026-10-20, by the X-Planes line, after the citation pass and the pathological word usage pass on all
   72 articles were committed and pushed as `df43b5c`.
