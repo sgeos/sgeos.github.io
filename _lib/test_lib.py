@@ -29,6 +29,8 @@ import edits
 import fetch
 import gate
 import harvest
+import campaign
+import numcheck
 import registry
 import textscan
 import lint
@@ -2999,6 +3001,328 @@ def t_harvest_entry_text_is_one_safe_line():
                             "title": "A [bracketed]\n<i>title</i>."})
     # `refs.clean` already drops the brackets; the replacement in `entry_text` is the backstop.
     assert t == "Pike, 2001, A bracketed title" and "[" not in t and "\n" not in t, t
+
+# ------------------------------------------------------------ survey pipeline, end to end
+
+def _quiet(fn, *a, **kw):
+    import contextlib
+    import io
+    with contextlib.redirect_stdout(io.StringIO()):
+        return fn(*a, **kw)
+
+
+def t_harvest_pipeline_on_representative_records():
+    """Select, master and assemble on a committed fixture, every rule exercised once.
+
+    The fixture holds a duplicate across pools, a homonym (boxing the sport), a
+    proceedings-furniture title, a contraction, a doubled word, a hand-cited work
+    and a qualifier that precedes its anchor, which A371 lost 303 records to.
+    """
+    import json
+    import shutil
+    import tempfile
+    src = os.path.join(_ROOT, "_lib", "testdata", "harvest")
+    os.makedirs(_TMP, exist_ok=True)
+    work = tempfile.mkdtemp(dir=_TMP)
+    try:
+        for f in os.listdir(src):
+            if os.path.isfile(os.path.join(src, f)):
+                shutil.copy(os.path.join(src, f), work)
+        cfg_path = os.path.join(work, "survey.toml")
+        rel = os.path.relpath(work, _ROOT)
+        txt = open(cfg_path).read().replace('workdir = "_lib/testdata/harvest"', f'workdir = "{rel}"')
+        open(cfg_path, "w").write(txt)
+        cfg = harvest.load_config(cfg_path)
+        _quiet(harvest.select, cfg)
+        _quiet(harvest.master, cfg)
+        out = os.path.join(work, "draft.md")
+        _quiet(harvest.assemble, cfg, out)
+        stats = json.load(open(os.path.join(work, "stats.json")))
+        assert stats == {"dedup": 1, "contraction": 1, "doubled": 1, "hand_dup": 1}, stats
+        master = json.load(open(os.path.join(work, "master.json")))
+        assert set(master) == {"research_leroy_1992", "research_chilimbi_larus_1999",
+                               "research_wimmer_brunthaler_2019", "research_lattner_2021"}, sorted(master)
+        text = open(out).read()
+        assert "read 10 records, kept 8 and discarded 2 across 2 queries" in text, text[:400]
+        assert "{{" not in text and "research_shao_appel_1995" in text and "Boxing in amateur" not in text
+        # The hand anchor is reserved, so the hand entry keeps its own text.
+        assert "- [A type-based compiler for unboxed Standard ML][research_shao_appel_1995]" in text
+    finally:
+        shutil.rmtree(work)
+
+
+# ------------------------------------------------------------ number claims
+
+def t_claims_parse_the_forms_the_corpus_prints():
+    assert numcheck.parse_stated("2,207") == 2207
+    assert numcheck.parse_stated("2{,}207") == 2207
+    assert numcheck.parse_stated("−3.5") == -3.5
+    assert numcheck.parse_stated("twenty-one") == 21
+    assert numcheck.parse_stated("2.30.") == 2.30
+    assert numcheck.parse_stated("n/a") is None
+
+
+def t_claims_tolerance_comes_from_printed_digits():
+    """6.5 stands for anything that rounds to it; a fixed tolerance raised eleven false failures in A363."""
+    assert numcheck.printed_tolerance("6.5") == 0.05
+    assert numcheck.printed_tolerance("6.50") == 0.005
+    assert numcheck.printed_tolerance("2,207") == 0.5
+    c = numcheck.Claim("x", lambda: 6.461, pattern=r"is ([\d.]+) here")
+    assert numcheck.check_claims("---\n---\nIt is 6.5 here.\n", [c])[0][1]
+    c2 = numcheck.Claim("x", lambda: 6.461, pattern=r"is ([\d.]+) here")
+    assert not numcheck.check_claims("---\n---\nIt is 6.50 here.\n", [c2])[0][1]
+
+
+def t_claims_fail_when_nothing_matches_or_a_copy_is_stale():
+    """A334 passed 47 of 47 with twelve values absent; a stale second copy satisfies presence."""
+    c = numcheck.Claim("x", lambda: 2.0, pattern=r"ratio of ([\d.]+)")
+    assert not numcheck.check_claims("---\n---\nNothing here.\n", [c])[0][1]
+    rows = numcheck.check_claims("---\n---\nA ratio of 2.0 and later a ratio of 2.4.\n", [c])
+    assert not rows[0][1] and "2.4" in rows[0][2], rows
+
+
+def t_claims_reads_across_hard_wraps_and_skips_references():
+    c = numcheck.Claim("x", lambda: 4.74, pattern=r"1 AU per year is ([\d.]+) kilometres")
+    text = "---\n---\nSince 1 AU per year\nis 4.74 kilometres per second.\n\n## References\n\n- 1 AU per year is 9.99 kilometres\n"
+    assert numcheck.check_claims(text, [c])[0][1]
+
+
+def t_claims_second_route_must_agree():
+    c = numcheck.Claim("x", lambda: 2.0, alt=lambda: 2.1, pattern=r"is ([\d.]+)")
+    rows = numcheck.check_claims("---\n---\nIt is 2.0\n", [c])
+    assert not rows[0][1] and "routes disagree" in rows[0][2]
+
+
+def t_claims_injection_finds_a_vacuous_claim():
+    """A claim whose tolerance swallows any value checks nothing."""
+    text = "---\n---\nIt is 2.3 times larger.\n"
+    good = numcheck.Claim("good", lambda: 2.3, pattern=r"is ([\d.]+) times")
+    lax = numcheck.Claim("lax", lambda: 2.3, pattern=r"is ([\d.]+) times", tol=("abs", 100))
+    assert numcheck.inject(text, [good, lax]) == ["lax"]
+
+
+def t_claims_file_may_not_import_the_calculation():
+    path = _toml("from calc import X\nCLAIMS = []\n")
+    py = path[:-5] + ".py"
+    os.rename(path, py)
+    try:
+        numcheck.load_claims(py)
+        raise AssertionError("calculation import accepted")
+    except ValueError as e:
+        assert "imports an article calculation" in str(e)
+    finally:
+        os.remove(py)
+
+
+def t_claims_hold_on_the_published_a384():
+    """The worked claims file checks four numbers in a real post, and each can fail."""
+    cwd = os.getcwd()
+    os.chdir(_ROOT)
+    try:
+        mod = numcheck.load_claims(os.path.join(_ROOT, "_lib", "testdata", "claims", "a384_claims.py"))
+        text = open(mod.DRAFT, encoding="utf-8").read()
+    finally:
+        os.chdir(cwd)
+    rows = numcheck.check_claims(text, mod.CLAIMS)
+    assert all(ok for _c, ok, _d in rows), rows
+    assert numcheck.inject(text, mod.CLAIMS) == []
+
+
+# ------------------------------------------------------------ campaigns
+
+def _campaign_fixture(gates=(), protected=()):
+    import shutil
+    import tempfile
+    os.makedirs(_TMP, exist_ok=True)
+    d = tempfile.mkdtemp(dir=_TMP)
+    rel = os.path.relpath(d, _ROOT)
+    for name, body in (("a.md", "The color is red.\n"), ("b.md", "No change needed.\n")):
+        open(os.path.join(d, name), "w").write(body)
+
+    def targets():
+        return {"A1": f"{rel}/a.md", "A2": f"{rel}/b.md"}
+
+    def fix(ctx):
+        return [campaign.Change(ctx.path, ctx.read(ctx.path).replace("color", "colour"))]
+
+    c = campaign.Campaign("t", targets, [campaign.Stage("fix", fix)], gates=gates,
+                          state_dir=os.path.join(d, "state"), protected=protected)
+    return c, d, shutil
+
+
+def t_campaign_dry_run_writes_nothing():
+    c, d, shutil = _campaign_fixture()
+    try:
+        assert c.run(apply=False, out=lambda *_: None) == 0
+        assert open(os.path.join(d, "a.md")).read() == "The color is red.\n"
+        assert c.entries() == []
+    finally:
+        shutil.rmtree(d)
+
+
+def t_campaign_apply_snapshots_logs_and_resumes():
+    c, d, shutil = _campaign_fixture()
+    try:
+        c.run(apply=True, out=lambda *_: None)
+        assert open(os.path.join(d, "a.md")).read() == "The colour is red.\n"
+        snap = os.path.join(d, "state", "A1", "pre_fix", os.path.relpath(os.path.join(d, "a.md"), _ROOT))
+        assert open(snap).read() == "The color is red.\n", "no snapshot before the write"
+        lines = []
+        c.run(apply=True, out=lines.append)
+        assert all("skipped" in ln for ln in lines), lines
+        open(os.path.join(d, "a.md"), "a").write("Edited later.\n")
+        status = []
+        c.status(out=status.append)
+        assert any("edited since" in ln for ln in status), status
+    finally:
+        shutil.rmtree(d)
+
+
+def t_campaign_gate_refuses_new_problems_only():
+    def no_colour(ctx, texts):
+        return [f"{p} spells colour" for p, t in texts.items() if "colour" in t]
+    c, d, shutil = _campaign_fixture(gates=[no_colour])
+    try:
+        assert c.run(apply=True, out=lambda *_: None) == 1
+        assert open(os.path.join(d, "a.md")).read() == "The color is red.\n"
+        assert [e["status"] for e in c.entries() if e["target"] == "A1"] == ["gate-failed"]
+    finally:
+        shutil.rmtree(d)
+
+
+def t_campaign_refuses_protected_paths():
+    c, d, shutil = _campaign_fixture()
+    try:
+        c.protected = {os.path.normpath(c.targets()["A1"])}
+        assert c.run(apply=True, out=lambda *_: None) == 1
+        assert open(os.path.join(d, "a.md")).read() == "The color is red.\n"
+    finally:
+        shutil.rmtree(d)
+
+
+def t_campaign_sampling_is_seeded_and_excludes_read():
+    pop = [f"r{i}" for i in range(100)]
+    s1, rec = campaign.sample(pop, 10, seed=368300, exclude=pop[:50])
+    s2, _ = campaign.sample(pop, 10, seed=368300, exclude=pop[:50])
+    assert s1 == s2 and not set(s1) & set(pop[:50]) and rec["population"] == 50
+    try:
+        campaign.sample(pop, 10, seed=None)
+        raise AssertionError("unseeded sample accepted")
+    except campaign.CampaignError:
+        pass
+
+
+def t_campaign_escalates_on_the_upper_bound():
+    """Three samples under the threshold understated contamination; the interval does not."""
+    lo, hi = campaign.wilson(9, 300)
+    assert lo < 0.03 < hi
+    assert campaign.escalate(9, 300, threshold=10 / 300)
+    assert not campaign.escalate(0, 300, threshold=0.05)
+
+
+def t_campaign_verdicts_are_strict():
+    import shutil
+    import tempfile
+    d = tempfile.mkdtemp(dir=_TMP)
+    try:
+        campaign.chunks(["k1 title", "k2 title"], 1, d)
+        open(os.path.join(d, "verdicts_00.txt"), "w").write("k1\tK\n")
+        open(os.path.join(d, "verdicts_01.txt"), "w").write("k2\tD\toff topic\n")
+        open(os.path.join(d, "verdicts_99.txt"), "w").write("k9\tD\tnot a reading file\n")
+        v = campaign.read_verdicts(d, {"K", "D"})
+        assert v == {"k1": ("K", ""), "k2": ("D", "off topic")}, v
+        open(os.path.join(d, "verdicts_01.txt"), "w").write("k2\tX\n")
+        try:
+            campaign.read_verdicts(d, {"K", "D"})
+            raise AssertionError("unknown verdict accepted")
+        except campaign.CampaignError as e:
+            assert "unknown verdict" in str(e)
+    finally:
+        shutil.rmtree(d)
+
+
+def t_campaign_relocate_and_sections_and_mutations():
+    assert campaign.relocate("unique line", "a\nthe unique line here\nb") == 2
+    try:
+        campaign.relocate("line", "line one\nline two")
+        raise AssertionError("ambiguous quote placed")
+    except campaign.CampaignError:
+        pass
+    t = campaign.replace_section("# T\n\n## Notes\n\nold\n\n## Other\n\nx\n", "Notes", "new")
+    assert "new" in t and "old" not in t and "## Other" in t
+    t2 = campaign.replace_section("# T\n", "Notes", "first")
+    assert t2.endswith("## Notes\n\nfirst\n")
+
+    def verifier(text):
+        return "total 3" in text
+
+    def bump(text):
+        return text.replace("total 3", "total 4")
+
+    def noop(text):
+        return text
+    assert campaign.mutation_check(verifier, "a total 3", [bump, noop]) == ["noop: did not change the text"]
+
+
+# ------------------------------------------------------------ diction, the newer instruments
+
+def t_diction_tics_count_sentence_initial_uses():
+    """`However` opened 51 of 116 corpus uses and the tic check missed all of them."""
+    text = "---\n---\n" + "However, it holds. " * 3 + "It holds, however. " + "filler words " * 300
+    rates, _n = diction.word_rates(text, ["however"])
+    k = 4
+    assert abs(rates["however"] * _n / 1000.0 - k) < 1e-9, rates
+
+
+def t_diction_counts_the_final_ngram():
+    assert diction.repeated_ngrams("---\n---\nalpha beta gamma\n", 3, 1) == [(1, "alpha beta gamma")]
+
+
+def t_diction_citations_and_numbers_are_slots_not_deletions():
+    """Deletion joined neighbours into phantom sequences such as `at percent in`."""
+    toks = diction.tokens("---\n---\nIt is [Doe 2020][research_doe_2020]. It rose at 30 percent in May.\n")
+    assert toks[:3] == ["it", "is", diction.CITE], toks
+    grams = diction.ngrams(toks, (3,))
+    assert "at <num> percent" in grams and "at percent in" not in grams
+    assert "is <cite> it" not in grams, "a sequence crossed a sentence end"
+
+
+def t_diction_openers_find_a_repeated_sentence_opening():
+    text = "---\n---\n" + " ".join(["The framework provides a thing."] * 6 + ["Other words here."] * 40)
+    peer = "---\n---\n" + " ".join(["Different openings vary here."] * 60)
+    rows, peers = diction.openers(text, [peer])
+    found = {g: ratio for ratio, g, _k, _r, _mx in rows}
+    assert peers == 1 and "the framework" in found and found["the framework"] is None, rows
+    assert "different openings" not in found, "an opening the article never used was reported"
+
+
+def t_diction_shapes_and_creep():
+    text = "---\n---\nThe result is not a bug. It is a feature. See the section headed Results.\n"
+    rows, _n = diction.shapes(text, [])
+    got = {name: k for name, k, _r, _m in rows}
+    assert got["not X, it is Y"] == 1 and got["the section headed"] == 1, got
+    rows, counters = diction.creep("---\n---\nA rather than B.\n", "---\n---\nA and not B. C and not D.\n")
+    assert ("and not", 0, 2) in rows, rows
+    assert dict((c, (b, a)) for c, b, a in counters)["and not"] == (0, 2)
+
+
+def t_diction_section_scoping():
+    text = "---\n---\n## One\n\nalpha beta\n\n## Two\n\ngamma delta\n"
+    assert "gamma" in diction.section(text, "Two") and "alpha" not in diction.section(text, "Two")
+
+
+# ------------------------------------------------------------ the single entry point
+
+def t_blog_dispatches_every_listed_command():
+    """Every command the entry point lists resolves to a module or a local function."""
+    import blog
+    import importlib
+    for name, (mod, _what) in blog.DISPATCH.items():
+        m = importlib.import_module(mod)
+        assert getattr(m, "main", None) or getattr(m, "_main", None) or \
+            "__main__" in open(os.path.join(_ROOT, "_lib", mod + ".py")).read(), name
+    for name in blog.LOCAL:
+        assert callable(getattr(blog, f"cmd_{name}", None)), name
 
 for name, fn in sorted(list(globals().items())):
     if name.startswith("t_") and callable(fn):

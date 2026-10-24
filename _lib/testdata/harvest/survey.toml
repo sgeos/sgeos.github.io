@@ -1,0 +1,44 @@
+# A representative survey configuration for the harvest pipeline test. The workdir
+# is replaced by a scratch copy at test time, so this directory is never written.
+article = "T1"
+workdir = "_lib/testdata/harvest"
+era_cutoff = 2014
+
+[harvest]
+rows = 10
+queries = ['struct layout compiler', 'unboxed representation']
+
+[[harvest.round]]
+label = "JP"
+pool = "cr_J_period"
+src = "journal"
+filter = "type:journal-article,until-pub-date:2014-12-31"
+
+[[harvest.round]]
+label = "JM"
+pool = "cr_J_modern"
+src = "journal"
+filter = "type:journal-article,from-pub-date:2015-01-01"
+
+[select]
+output = "select1.json"
+audit_seeds = [1]
+audit_n = 3
+strong = ['\bunboxed\b', '\bdata layout\b(?=.*(?:compiler|struct))', '\bboxing\b(?=.*(?:compiler|value|type))']
+
+[[select.cluster]]
+name = "representation"
+patterns = ['\bunbox', '\bboxing\b']
+
+[[select.cluster]]
+name = "layout"
+patterns = ['\blayout\b']
+
+[master]
+hand = "hand_research.json"
+output = "master.json"
+stats = "stats.json"
+
+[assemble]
+body = "body.md"
+draft = "_drafts/never_written_by_the_test.markdown"

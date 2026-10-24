@@ -1,0 +1,6 @@
+{
+ "10.1000/m1": {"doi": "10.1000/m1", "title": "Value boxing elimination in a JIT compiler", "authors": ["Wimmer", "Brunthaler"], "year": 2019, "venue": "VEE", "query": "q"},
+ "10.1000/m2": {"doi": "10.1000/m2", "title": "Unboxed objects and polymorphic typing", "authors": ["Leroy"], "year": 1992, "venue": "POPL", "query": "q"},
+ "10.1000/m3": {"doi": "10.1000/m3", "title": "Struct compiler support for data layout", "authors": ["Lattner"], "year": 2021, "venue": "CGO", "query": "q"},
+ "10.1000/m4": {"doi": "10.1000/m4", "title": "Unboxed sums sums in a lazy language", "authors": ["Eisenberg"], "year": 2020, "venue": "Haskell", "query": "q"}
+}

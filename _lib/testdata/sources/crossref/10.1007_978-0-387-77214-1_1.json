@@ -1,0 +1,38 @@
+{
+ "DOI": "10.1007/978-0-387-77214-1_1",
+ "author": [
+  {
+   "family": "Solomon",
+   "given": "Sean C."
+  },
+  {
+   "family": "McNutt",
+   "given": "Ralph L."
+  },
+  {
+   "family": "Gold",
+   "given": "Robert E."
+  },
+  {
+   "family": "Domingue",
+   "given": "Deborah L."
+  }
+ ],
+ "container-title": [
+  "The Messenger Mission to Mercury"
+ ],
+ "issued": {
+  "date-parts": [
+   [
+    2007
+   ]
+  ]
+ },
+ "page": "3-39",
+ "publisher": "Springer New York",
+ "subtitle": [],
+ "title": [
+  "MESSENGER Mission Overview"
+ ],
+ "type": "book-chapter"
+}

@@ -45,6 +45,10 @@ jobs:
       # corpus defect fails fast instead of after a long build.
       - name: Verify corpus invariants
         run: python3 _verify.py
+      # The library's regression tests, one per shipped defect. Under a second,
+      # no network, and every fixture is committed, so they run on a bare runner.
+      - name: Library regression tests
+        run: python3 _lib/test_lib.py && python3 _lib/test_sources.py
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:

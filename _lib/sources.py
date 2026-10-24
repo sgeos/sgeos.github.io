@@ -260,19 +260,29 @@ def validate_record(r, venues):
         _require(r.get("venue") in venues, f"{a}: venue {r.get('venue')!r} not in venues.jsonl")
 
 
-VENUE_FIELDS = {"venue", "peer_reviewed", "checked", "basis", "evidence", "since"}
+VENUE_FIELDS = {"venue", "peer_reviewed", "checked", "basis", "evidence", "since", "reviewers"}
 EVIDENCE_FIELDS = {"url", "quote", "read", "method"}
 
 
 def validate_venue(v):
-    """A venue is credited with peer review only on evidence read from its own page.
+    """A venue is credited with peer review only when it can be said BY WHOM.
 
-    VERIFIED OR NOT CREDITED. `peer_reviewed` true requires `checked` true and
-    an `evidence` table naming the page, a verbatim quote from it, the date it
-    was read, and `method` "fetched". A search-engine snippet is not a reading
-    of the page, since it may paraphrase, so it cannot credit a venue. `since`
-    is the first year the evidence covers, when the evidence gives one, and a
-    work published before it is not credited.
+    THE END THIS SERVES. "Peer-Reviewed" tells a reader that people
+    independent of the authors assessed the work before publication. A venue
+    is credited only when the database can answer the question a reader would
+    ask, reviewed by whom, so `peer_reviewed` true requires `reviewers`, that
+    answer in a few words, such as "two or more independent reviewers selected
+    by the editors". A statement that a journal is "peer-reviewed" without
+    saying by whom does not answer it.
+
+    THE ANSWER MUST BE READ, NOT RECALLED OR SUMMARISED. `evidence` is a list
+    of sources, each with the `url`, a verbatim `quote`, the date it was
+    `read` and the `method`. Only `fetched`, a page actually read, can support
+    the answer. A search-engine `snippet` may paraphrase and is kept only as a
+    lead. Any source the venue speaks through counts: its own pages, its
+    publisher's, its editors' published editorials, or its society's
+    magazine. `since` is the first year the evidence covers when it gives one,
+    and a work published earlier is not credited.
     """
     name = v.get("venue")
     _require(isinstance(name, str) and name, "venue name required")
@@ -281,8 +291,9 @@ def validate_venue(v):
     _require(isinstance(v.get("peer_reviewed"), bool), f"{name}: peer_reviewed must be true or false")
     _require(isinstance(v.get("basis"), str) and v["basis"], f"{name}: basis required")
     _require(isinstance(v.get("checked"), bool), f"{name}: checked must be true or false")
-    ev = v.get("evidence")
-    if ev is not None:
+    evidence = v.get("evidence", [])
+    _require(isinstance(evidence, list), f"{name}: evidence must be a list of sources")
+    for ev in evidence:
         _require(isinstance(ev, dict) and set(ev) == EVIDENCE_FIELDS
                  and all(isinstance(ev[k], str) and ev[k] for k in EVIDENCE_FIELDS),
                  f"{name}: evidence needs exactly url, quote, read and method")
@@ -290,16 +301,20 @@ def validate_venue(v):
         _require(re.match(r"^\d{4}-\d{2}-\d{2}$", ev["read"]), f"{name}: evidence read must be YYYY-MM-DD")
     if "since" in v:
         _require(isinstance(v["since"], int) and not isinstance(v["since"], bool), f"{name}: since must be a year")
+    if "reviewers" in v:
+        _require(isinstance(v["reviewers"], str) and v["reviewers"].strip(), f"{name}: reviewers must be text")
     if v["peer_reviewed"]:
         _require(v["checked"], f"{name}: peer_reviewed requires checked, the venue's own statement read")
-        _require(ev is not None and ev["method"] == "fetched",
-                 f"{name}: peer_reviewed requires evidence fetched from the venue's own page")
+        _require(v.get("reviewers"), f"{name}: peer_reviewed requires reviewers, the answer to by whom")
+        _require(any(ev["method"] == "fetched" for ev in evidence),
+                 f"{name}: peer_reviewed requires evidence fetched from a source the venue speaks through")
 
 
 def credits_review(r, venues):
     """True only when the record's venue is verified as refereeing and covers its year."""
     venue = venues.get(r.get("venue"), {})
-    if venue.get("peer_reviewed") is not True or venue.get("checked") is not True:
+    if (venue.get("peer_reviewed") is not True or venue.get("checked") is not True
+            or not venue.get("reviewers")):
         return False
     since = venue.get("since")
     return since is None or (isinstance(r.get("year"), int) and r["year"] >= since)

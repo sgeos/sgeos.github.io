@@ -83,6 +83,16 @@ findings across the corpus and the rendered pages carried none of them. Markup i
 and `<code>` is excluded, because articles about Jekyll and MathJax display that syntax as
 their subject.
 
+**The article tooling library has one command line:**
+```sh
+python3 _lib/blog.py                 # list every command
+python3 _lib/blog.py diction all _drafts/x.markdown
+python3 _lib/blog.py edits apply tmp/a385/pass.toml
+```
+
+Use these commands, which read data files, rather than writing one-shot scripts that re-implement them.
+See [`_lib/README.md`](_lib/README.md).
+
 **Create a new draft:**
 ```sh
 ./_new_draft.sh my-post-slug   # creates _drafts/my-post-slug.markdown from template

@@ -49,9 +49,10 @@ written without `--replace`, so an import cannot silently overwrite a corrected 
 **Records are written by `sources.save_records`**, which sorts and shards them. Editing a shard by hand
 is safe if the line stays valid JSON and the file stays sorted, and `validate` reports any mistake.
 
-**A venue is credited with peer review only on fetched evidence.** Set `peer_reviewed` true only after
-reading the venue's own page, and record the `url`, a verbatim `quote`, the `read` date and `method`
-`fetched`. `validate` refuses anything less. A venue that an import meets for the first time is added as not
+**A venue is credited with peer review only when it can be said by whom.** Set `peer_reviewed` true only
+after reading a source the venue speaks through that answers the question, record the answer as
+`reviewers`, and list each source in `evidence` with its `url`, a verbatim `quote`, the `read` date and
+`method` `fetched`. `validate` refuses anything less. A venue that an import meets for the first time is added as not
 established. See [Citation Style](../_docs/writing/CITATION_STYLE.md) under Default deny.
 
 **Human decisions live on the record.** `synthesis` marks a review rather than a report of the

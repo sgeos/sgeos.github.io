@@ -15,7 +15,6 @@ import sources as S  # noqa: E402
 import sources_import as SI  # noqa: E402
 
 RESULTS = []
-SKIPPED = []
 # Temporary files go under the project's tmp/, never the system temporary directory.
 _SCRATCH = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "tmp")
 os.makedirs(_SCRATCH, exist_ok=True)
@@ -40,8 +39,10 @@ def raises(fn, fragment):
 
 VENUES = {
     "Icarus": {"venue": "Icarus", "peer_reviewed": True, "checked": True, "basis": "test",
-               "evidence": {"url": "https://example.org/policy", "quote": "Every paper is refereed.",
-                            "read": "2026-10-24", "method": "fetched"}},
+               "reviewers": "two independent referees chosen by the editor",
+               "evidence": [{"url": "https://example.org/policy",
+                             "quote": "Every paper goes to two independent referees chosen by the editor.",
+                             "read": "2026-10-24", "method": "fetched"}]},
     "Meeting": {"venue": "Meeting", "peer_reviewed": False, "checked": False, "basis": "test"},
 }
 
@@ -273,9 +274,18 @@ def t_peer_review_without_fetched_evidence_is_refused():
     no_ev.pop("evidence")
     raises(lambda: S.validate_venue(no_ev), "requires evidence")
     snip = _venue()
-    snip["evidence"] = dict(snip["evidence"], method="snippet")
+    snip["evidence"] = [dict(snip["evidence"][0], method="snippet")]
     raises(lambda: S.validate_venue(snip), "requires evidence fetched")
-    raises(lambda: S.validate_venue(_venue(evidence={"url": "x"})), "exactly url, quote, read and method")
+    raises(lambda: S.validate_venue(_venue(evidence=[{"url": "x"}])), "exactly url, quote, read and method")
+    raises(lambda: S.validate_venue(_venue(evidence={"url": "x"})), "must be a list")
+
+
+def t_peer_review_must_say_by_whom():
+    """The pilot's test of 2026-10-24: reviewed by whom? Without an answer the basis is lacking."""
+    v = _venue()
+    v.pop("reviewers")
+    raises(lambda: S.validate_venue(v), "answer to by whom")
+    assert S.classify(journal(), {"Icarus": v})[1] == "Primary Sources, Non-Peer-Reviewed"
     raises(lambda: S.validate_venue(_venue(colour="red")), "unknown venue field")
 
 
@@ -305,7 +315,7 @@ def t_store_credits_no_venue_without_fetched_evidence():
     for v in S.load_venues().values():
         S.validate_venue(v)
         if v["peer_reviewed"]:
-            assert v["evidence"]["method"] == "fetched", v["venue"]
+            assert v["reviewers"] and any(e["method"] == "fetched" for e in v["evidence"]), v["venue"]
 
 
 # ------------------------------------------------------------- import
@@ -370,28 +380,72 @@ def t_merge_reports_conflicts_and_keeps_store():
     assert merged["a"]["title"] == "New"
 
 
-def t_a384_import_reproduces_the_store():
-    """GOLDEN, LOCAL ONLY. Rebuilding A384 from its decision file gives its stored records exactly.
+FIXTURE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "testdata", "sources")
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+A384 = os.path.join(ROOT, "_posts", "2026-08-20-mercury_as_colony_and_launch_site.markdown")
+# One of each kind the importer handles: a book, a journal article with a page
+# correction, a review, an AIP proceedings paper with corrected authors, an AIAA
+# meeting paper, an EGU abstract, a book chapter with a corrected container, a
+# pinned Wikipedia article, and a related post with section locators.
+FIXTURE_ANCHORS = {
+    "book_mcinnes_1999", "research_kopp_lean_2011", "research_killen_et_al_2007",
+    "research_benford_benford_2003", "research_lyman_et_al_2001", "research_lammer_et_al_2026",
+    "research_solomon_et_al_2007", "ref_mercury", "related_post_mass_drivers",
+    "related_post_mass_drivers_curvature", "related_post_mass_drivers_locked",
+    "related_post_mass_drivers_parent", "related_post_mass_drivers_positioning",
+}
 
-    The registry caches it reads are gitignored scratch, so on a checkout without
-    them this test is reported as skipped rather than passed.
+
+def t_import_reproduces_stored_a384_records():
+    """Re-importing representative A384 sources from committed registry data gives the store exactly.
+
+    The Crossref records in `testdata/sources/` are real responses trimmed to
+    the fields the importer reads, and the post is A384 itself, cut to the
+    fixture's anchors. Every decision kind is exercised: a title, a note, a
+    synthesis judgement and field fixes with set and drop.
     """
-    root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    dec = os.path.join(root, "_sources", "decisions", "A384.toml")
-    d = SI.load_decisions(dec)
-    if not os.path.isdir(os.path.join(root, d["crossref_cache"])):
-        SKIPPED.append("a384_import_reproduces_the_store")
-        return
-    cwd = os.getcwd()
-    os.chdir(root)
+    import shutil
+    import tempfile
+    text = open(A384, encoding="utf-8").read()
+    lines = [ln for ln in text.splitlines() if re.match(r"^\[([a-z0-9_]+)\]: ", ln)
+             and re.match(r"^\[([a-z0-9_]+)\]", ln).group(1) in FIXTURE_ANCHORS]
+    assert len(lines) == len(FIXTURE_ANCHORS), len(lines)
+    d = tempfile.mkdtemp(dir=_SCRATCH)
     try:
-        drafts, new_venues = SI.import_post("_posts/2026-08-20-mercury_as_colony_and_launch_site.markdown",
-                                            d, S.load_venues())
+        post_path = os.path.join(d, "post.markdown")
+        with open(post_path, "w", encoding="utf-8") as fh:
+            fh.write("\n".join(lines) + "\n")
+        dec = SI.load_decisions(os.path.join(ROOT, "_sources", "decisions", "A384.toml"))
+        dec = {k: ({a: v for a, v in dec[k].items() if a in FIXTURE_ANCHORS} if isinstance(dec[k], dict) else dec[k])
+               for k in dec}
+        dec["crossref_cache"] = os.path.join(FIXTURE, "crossref")
+        dec["wiki_pins"] = os.path.join(FIXTURE, "pins.json")
+        drafts, new_venues = SI.import_post(post_path, dec, S.load_venues())
     finally:
-        os.chdir(cwd)
+        shutil.rmtree(d)
     store = S.load_records()
-    _, added, same, conflicts = SI.merge(store, drafts)
-    assert not added and not conflicts and not new_venues and len(same) == 99, (added, conflicts)
+    base = {a for a in FIXTURE_ANCHORS if a in store}
+    assert set(drafts) == base and not new_venues, (sorted(set(drafts) ^ base), new_venues)
+    for a in base:
+        assert drafts[a] == store[a], (a, {k: (store[a].get(k), drafts[a].get(k))
+                                           for k in set(store[a]) | set(drafts[a])
+                                           if store[a].get(k) != drafts[a].get(k)})
+
+
+def t_import_refuses_a_link_that_disagrees_with_its_pin():
+    import json
+    import shutil
+    import tempfile
+    d = tempfile.mkdtemp(dir=_SCRATCH)
+    try:
+        post_path = os.path.join(d, "post.markdown")
+        with open(post_path, "w") as fh:
+            fh.write("[ref_mercury]: https://en.wikipedia.org/w/index.php?title=Mercury_(planet)&oldid=1\n")
+        raises(lambda: SI.import_post(post_path, {"article": "T", "crossref_cache": d,
+                                                  "wiki_pins": os.path.join(FIXTURE, "pins.json")}, {}),
+               "but is pinned to")
+    finally:
+        shutil.rmtree(d)
 
 
 for name, fn in sorted(list(globals().items())):
@@ -402,6 +456,5 @@ ok = sum(1 for p, _, _ in RESULTS if p)
 for passed, name, detail in RESULTS:
     if not passed:
         print(f"  FAIL  {name}: {detail}")
-print(f"{ok}/{len(RESULTS)} passed" + (f", of which {len(SKIPPED)} skipped for missing local data: "
-                                         f"{', '.join(SKIPPED)}" if SKIPPED else ""))
+print(f"{ok}/{len(RESULTS)} passed")
 sys.exit(0 if ok == len(RESULTS) else 1)

@@ -1,0 +1,8 @@
+{
+ "10.1000/p1": {"doi": "10.1000/p1", "title": "Unboxed objects and polymorphic typing", "authors": ["Leroy"], "year": 1992, "venue": "POPL", "query": "q"},
+ "10.1000/p2": {"doi": "10.1000/p2", "title": "Compiler-directed data layout for struct fields", "authors": ["Chilimbi", "Larus"], "year": 1999, "venue": "PLDI", "query": "q"},
+ "10.1000/p3": {"doi": "10.1000/p3", "title": "Boxing in amateur sport: injury rates", "authors": ["Smith"], "year": 2001, "venue": "Sports Med", "query": "q"},
+ "10.1000/p4": {"doi": "10.1000/p4", "title": "Front matter", "authors": [], "year": 2003, "venue": "POPL", "query": "q"},
+ "10.1000/p5": {"doi": "10.1000/p5", "title": "Why unboxed values can't wait", "authors": ["Doe"], "year": 2005, "venue": "ICFP", "query": "q"},
+ "10.1000/p6": {"doi": "10.1000/p6", "title": "A type-based compiler for unboxed Standard ML", "authors": ["Shao", "Appel"], "year": 1995, "venue": "PLDI", "query": "q"}
+}

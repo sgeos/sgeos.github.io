@@ -157,7 +157,7 @@ def overused_words(text, limit=5.0, min_count=10):
 
 def repeated_ngrams(text, size=3, min_count=6):
     w = [x.lower() for x in words(text)]
-    c = collections.Counter(" ".join(w[i:i + size]) for i in range(len(w) - size))
+    c = collections.Counter(" ".join(w[i:i + size]) for i in range(len(w) - size + 1))
     return [(k, g) for g, k in c.most_common() if k >= min_count]
 
 
@@ -367,59 +367,105 @@ def quoted_share(text):
     Reported so that a clean result can state how much dilution it survived, rather than
     leaving a reader to assume the denominator was the author's.
     """
-    total = len(words(prose(text)))
+    total = len(words(text))
     own = len(re.findall(r"[A-Za-z][A-Za-z'-]+", author_prose(text)))
     return own, total - own, (total - own) / total if total else 0.0
 
 
-def phrase_outliers(text, peer_texts, sizes=(3, 4), min_count=4, strict=True):
+# TOKENS RATHER THAN DELETIONS. Deleting a citation joined the words either side of
+# it into sequences that occur nowhere in the text, and deleting numerals produced
+# the phantom `at percent in` from `at 30 percent in` and `at 4 percent in`. Each is
+# replaced by a placeholder token instead, so `is CITE` and `at NUM percent` are
+# counted as what they are: formulas with a slot.
+CITE, NUM, MATH = "<cite>", "<num>", "<math>"
+_PLACEHOLDERS = {CITE, NUM, MATH}
+
+
+def tokens(text, strict=True):
+    """Lower-cased author tokens with citations, numbers and inline math as placeholders.
+
+    `strict` also removes quotations, as `author_prose` does. Sentence ends are
+    kept as the token `.` so callers can split on them.
+    """
+    body = post.body(text)
+    body = post.LINK_PAIR.sub(f" {CITE} ", body)
+    body = re.sub(rf"(?m)^\[{post.ANCHOR}\]:.*$", " ", body)
+    body = post.strip_code(body)
+    body = re.sub(r"(?s)\$\$.*?\$\$", " ", body)
+    body = re.sub(r"(?<!\$)\$(?!\$)[^$\n]+\$(?!\$)", f" {MATH} ", body)
+    body = re.sub(r"`[^`\n]+`", " ", body)
+    body = re.sub(r"<(?!cite>|num>|math>)[^>]+>", " ", body)
+    body = re.sub(r"(?m)^\|.*$", " ", body)
+    if strict:
+        body = "\n".join(ln for ln in body.split("\n") if not ln.lstrip().startswith(">"))
+        body = _QUOTED_INLINE.sub(" ", body)
+    body = re.sub(r"\d+(?:[.,]\d+)*", f" {NUM} ", body)
+    raw = re.findall(r"<cite>|<num>|<math>|[A-Za-z][A-Za-z'-]*|[.!?]", body)
+    return [t if t in _PLACEHOLDERS else ("." if t in ".!?" else t.lower()) for t in raw]
+
+
+def ngrams(toks, sizes=(2, 3, 4)):
+    """Counts of word sequences that do not cross a sentence end or consist only of placeholders.
+
+    The final sequence is counted. An earlier version looped to `len - size` and
+    never counted the last one.
+    """
+    c = collections.Counter()
+    sentence = []
+    for t in toks + ["."]:
+        if t == ".":
+            for s in sizes:
+                for i in range(len(sentence) - s + 1):
+                    g = sentence[i:i + s]
+                    if not all(x in _PLACEHOLDERS for x in g):
+                        c[" ".join(g)] += 1
+            sentence = []
+        else:
+            sentence.append(t)
+    return c
+
+
+def _word_count(toks):
+    return sum(1 for t in toks if t != "." and t not in _PLACEHOLDERS) or 0
+
+
+def phrase_outliers(text, peer_texts, sizes=(2, 3, 4), min_count=4, strict=True, min_peer_words=400):
     """Repeated word sequences used more heavily than in ANY peer. DISCOVERED, not enumerated.
 
-    `compare` tests the 22 hand-listed constructions in `PHRASES`, so a formula nobody
-    thought to enumerate cannot be found by it. This lifts the `word_outliers` test to
-    phrases: every sequence the article repeats is scored against the highest rate any peer
-    reaches, and a peer that never uses the sequence contributes a zero.
+    `compare` tests the hand-listed constructions in `PHRASES`, so a formula nobody
+    thought to enumerate cannot be found by it. Every sequence the article repeats is
+    scored against the highest rate any peer reaches, and a peer that never uses it
+    contributes a zero.
 
-    SUBJECT MATTER DOMINATES THE OUTPUT, exactly as it does for single words. A phrase naming
-    what the article measures will exceed every peer because no peer measured it. The result
+    BIGRAMS ARE INCLUDED. A369's largest finding was the bigram `and not`, which a
+    three-and-four-word scan cannot see. Citations, numbers and inline math are slot
+    tokens, so `is <cite>` is countable and `at <num> percent` is not a phantom.
+
+    SUBJECT MATTER DOMINATES THE OUTPUT, exactly as it does for single words. The result
     is a reading list and the caller supplies the judgement.
-
-    LIMITATION, STATED BECAUSE IT PRODUCED TWO PHANTOM FINDINGS. Tokenisation drops numerals,
-    so `at 30 percent in` and `at 4 percent in` both reduce to `at percent in` and appear as
-    one repeated phrase that occurs nowhere in the text. Single-letter words are retained, an
-    earlier draft of this check dropped them, and `which is a reason to` then surfaced as the
-    non-existent `which is reason to`. Verify any finding against the article before acting.
 
     Returns rows of (ratio_to_peer_max, phrase, count, rate, peer_max), worst first, with a
     ratio of None where no peer ever used the phrase.
     """
-    extract = author_prose if strict else prose
-
-    def grams(t):
-        ws = re.findall(r"[A-Za-z][A-Za-z'-]*", extract(t).lower())
-        c = collections.Counter()
-        for s in sizes:
-            for i in range(len(ws) - s):
-                c[" ".join(ws[i:i + s])] += 1
-        return c, len(ws)
-
-    mine, n = grams(text)
+    mine_t = tokens(text, strict)
+    n = _word_count(mine_t)
     if not n:
         return [], 0
+    mine = ngrams(mine_t, sizes)
     cand = {g: k for g, k in mine.items() if k >= min_count}
     peer_max = collections.defaultdict(float)
     peers = 0
     for pt in peer_texts:
-        pc, pn = grams(pt)
-        if pn < 400:
+        pt_t = tokens(pt, strict)
+        pn = _word_count(pt_t)
+        if pn < min_peer_words:
             continue
         peers += 1
+        pc = ngrams(pt_t, sizes)
         for g in cand:
             k = pc.get(g, 0)
             if k:
-                r = 1000.0 * k / pn
-                if r > peer_max[g]:
-                    peer_max[g] = r
+                peer_max[g] = max(peer_max[g], 1000.0 * k / pn)
     rows = []
     for g, k in cand.items():
         rate = 1000.0 * k / n
@@ -430,8 +476,13 @@ def phrase_outliers(text, peer_texts, sizes=(3, 4), min_count=4, strict=True):
 
 
 def word_rates(text, vocabulary=None):
-    """Occurrences per thousand author prose words, for each word in a vocabulary."""
-    ws = words(prose(text))
+    """Occurrences per thousand author prose words, for each word in a vocabulary.
+
+    CASE IS FOLDED. Counting without it missed every sentence-initial use, 51 of
+    the corpus's 116 uses of `however`, so a tic that opens sentences was
+    invisible to exactly the check meant to find it.
+    """
+    ws = [w.lower() for w in words(text)]
     n = len(ws)
     if not n:
         return {}, 0
@@ -453,7 +504,7 @@ def word_outliers(text, peer_texts, vocabulary=None, min_count=6):
     Returns rows of (ratio_to_peer_max, word, count, rate, median, peer_max, peers_using),
     worst first. A ratio of None means no peer ever used the word.
     """
-    ws = words(prose(text))
+    ws = [w.lower() for w in words(text)]
     n = len(ws)
     counts = collections.Counter(ws)
     peer_rates = collections.defaultdict(list)
@@ -493,7 +544,7 @@ def collocation_report(path, word, limit=10):
     """
     text = open(path, encoding="utf-8").read()
     total, before, after, stats = collocations(text, word, limit)
-    n = len(words(prose(text)))
+    n = len(words(text))
     rate = 1000.0 * total / n if n else 0.0
     print(f"{os.path.basename(path)}: `{word}` {total}x in {n:,} author prose words "
           f"= {rate:.2f}/1k")
@@ -507,84 +558,364 @@ def collocation_report(path, word, limit=10):
     return total, before, after, stats
 
 
+# ================================================================ further instruments
+#
+# Each of these was a scratch script in a pass that then lost it. The survey of
+# 24 October 2026 found them under tmp/cite/, tmp/a370/ and tmp/a372/.
+
+def _sentences(toks):
+    out, cur = [], []
+    for t in toks + ["."]:
+        if t == ".":
+            if cur:
+                out.append(cur)
+            cur = []
+        else:
+            cur.append(t)
+    return out
+
+
+def openers(text, peer_texts, size=2, min_count=4, min_peer_sentences=40):
+    """Sentence openings used more often than in any peer, per hundred sentences.
+
+    A framework article opened 106 of 273 sentences with `The framework provides`,
+    and A377 opened 18 with `and found`. No word or phrase rate sees this, because
+    the words are common and the repetition is in the position.
+    """
+    def count(t):
+        sents = [x for x in _sentences(tokens(t)) if len(x) >= size]
+        return collections.Counter(" ".join(x[:size]) for x in sents), len(sents)
+    mine, n = count(text)
+    if not n:
+        return [], 0
+    peer_max, peers = collections.defaultdict(float), 0
+    cand = {g for g, k in mine.items() if k >= min_count}
+    for pt in peer_texts:
+        pc, pn = count(pt)
+        if pn < min_peer_sentences:
+            continue
+        peers += 1
+        for g in cand:
+            if pc.get(g):
+                peer_max[g] = max(peer_max[g], 100.0 * pc[g] / pn)
+    rows = []
+    for g in cand:
+        rate = 100.0 * mine[g] / n
+        mx = peer_max.get(g, 0.0)
+        rows.append((rate / mx if mx else None, g, mine[g], rate, mx))
+    rows.sort(key=lambda r: (-1e9 if r[0] is None else -r[0]))
+    return rows, peers
+
+
+# Constructions found by reading in the X-Planes word pass and A364, which no rate
+# discovers because each is a SHAPE with a variable slot. Each is (name, pattern,
+# where), where `where` is `body` for the article body or `headings`.
+SHAPES = [
+    ("citation as the predicate of is", r"\b(?:is|are)\s+\\?\[?\[[A-Z][^\]\n]*\]\[", "body"),
+    ("attribution formula", r"\bas\s+(?:[A-Z]\w+\s+){1,4}(?:records|reports|notes|states|shows|finds)\b", "body"),
+    ("according to", r"\baccording to\b", "body"),
+    ("not X, it is Y", r"\bis not [^.\n]{1,80}\.\s+(?:It|This|That) is\b", "body"),
+    ("the section headed", r"\bthe section headed\b", "body"),
+    ("bold paragraph opener", r"(?m)^\*\*(?:So|And|But|Thus|Hence)\b", "body"),
+    ("let X be", r"(?m)^Let \$[^$]+\$ be\b", "body"),
+    ("heading formula", r"(?m)^#{2,4} .*, (?:Which|Where|What|Because|and Why)\b", "headings"),
+]
+
+
+def shapes(text, peer_texts):
+    """Rows of (name, count, rate, peer_max) for each construction shape, per thousand words."""
+    def measure(t):
+        body = post.strip_code(post.body(t))
+        n = len(words(t)) or 1
+        return {name: len(re.findall(pat, body)) for name, pat, _w in SHAPES}, n
+    mine, n = measure(text)
+    peer_max = collections.defaultdict(float)
+    for pt in peer_texts:
+        pc, pn = measure(pt)
+        if pn < 400:
+            continue
+        for name, k in pc.items():
+            peer_max[name] = max(peer_max[name], 1000.0 * k / pn)
+    return [(name, k, 1000.0 * k / n, peer_max[name]) for name, k in mine.items()], n
+
+
+def display_lead_ins(text, min_count=3, size=3):
+    """The last words before a display equation, when one phrasing introduces many.
+
+    One article introduced 429 of 488 displays with `admits the compact form`. The
+    phrasing is fine once and a formula at scale.
+    """
+    body = post.strip_code(post.body(text))
+    leads = collections.Counter()
+    lines = body.split("\n")
+    for i, line in enumerate(lines):
+        if line.strip().startswith("$$") and i:
+            prev = next((lines[j] for j in range(i - 1, -1, -1) if lines[j].strip()), "")
+            ws = re.findall(r"[A-Za-z][A-Za-z'-]*", prev.lower())
+            if len(ws) >= size:
+                leads[" ".join(ws[-size:])] += 1
+    total = sum(leads.values())
+    return [(g, k, total) for g, k in leads.most_common() if k >= min_count]
+
+
+def sentence_repeats(text, min_repeats=3):
+    """Sentences in which one content word appears `min_repeats` times or more.
+
+    A pass once reduced sentences with three uses of one word from 37 to 2 by
+    reading. This finds them without reading.
+    """
+    out = []
+    for sent in _sentences(tokens(text)):
+        c = collections.Counter(t for t in sent if t not in STOP and t not in _PLACEHOLDERS and len(t) > 3)
+        hits = [(w, k) for w, k in c.items() if k >= min_repeats]
+        if hits:
+            out.append((hits, " ".join(sent)[:160]))
+    return out
+
+
+# Counters for substitution creep. A fix for one tic installs another: `rather than`
+# became `and not` and pushed it past the corpus maximum in A369 and A374, and cuts
+# of `find` raised `their` in A378. These are counted with punctuation, which the
+# word tokeniser drops, so `, not` is visible.
+CREEP = [", not", "and not", "rather than", "instead of", "according to", "which is", "that is"]
+
+
+def creep(before_text, after_text, sizes=(2, 3, 4), min_after=2):
+    """Sequences that rose across an edit pass, and the substitution counters.
+
+    Returns (rows, counters). Rows are (phrase, before, after) for every sequence
+    whose count rose to at least `min_after`. A threshold below the peer test is
+    deliberate, because creep starts small and the formulas report only phrases
+    already over every peer.
+    """
+    b, a = ngrams(tokens(before_text), sizes), ngrams(tokens(after_text), sizes)
+    rows = sorted(((g, b.get(g, 0), k) for g, k in a.items() if k >= min_after and k > b.get(g, 0)),
+                  key=lambda r: (r[1] - r[2], r[0]))
+    pb, pa = prose(before_text).lower(), prose(after_text).lower()
+    counters = [(c, pb.count(c), pa.count(c)) for c in CREEP]
+    return rows, counters
+
+
+def carriers(word, paths, rate=5.0, min_count=8):
+    """Which articles use `word` above `rate` per thousand, the inverted corpus scan.
+
+    A high peer maximum means the pathology sits in another article, and the
+    per-article test then excuses everyone. This names the carriers.
+    """
+    w = word.lower()
+    out = []
+    for p in paths:
+        t = open(p, encoding="utf-8").read()
+        ws = [x.lower() for x in words(t)]
+        k = ws.count(w)
+        if ws and k >= min_count and 1000.0 * k / len(ws) >= rate:
+            out.append((1000.0 * k / len(ws), k, p))
+    return sorted(out, reverse=True)
+
+
+def series(paths, corpus_paths, min_articles=25, min_ratio=2.0, vocabulary=None):
+    """Words the series as a whole overuses against the rest of the corpus.
+
+    A tic shared by every sibling is invisible to a per-article peer maximum when
+    the siblings are among the peers. The series is pooled and compared with the
+    corpus outside it. The corpus count is smoothed by one half, so a word the
+    corpus never uses does not divide by zero, and a word must appear in at least
+    `min_articles` series articles, so one article's subject cannot dominate.
+    """
+    def pool(ps):
+        c, n, df = collections.Counter(), 0, collections.Counter()
+        for p in ps:
+            ws = [x.lower() for x in words(open(p, encoding="utf-8").read())]
+            c.update(ws)
+            n += len(ws)
+            df.update(set(ws))
+        return c, n, df
+    inside = set(map(os.path.abspath, paths))
+    sc, sn, sdf = pool(paths)
+    cc, cn, _ = pool([p for p in corpus_paths if os.path.abspath(p) not in inside])
+    if not sn or not cn:
+        return []
+    rows = []
+    for w, k in sc.items():
+        if vocabulary is not None and w not in vocabulary:
+            continue
+        if sdf[w] < min_articles or w in STOP:
+            continue
+        ratio = (k / sn) / ((cc.get(w, 0) + 0.5) / cn)
+        if ratio >= min_ratio:
+            rows.append((ratio, w, k, 1000.0 * k / sn, 1000.0 * cc.get(w, 0) / cn, sdf[w]))
+    return sorted(rows, reverse=True)
+
+
+def kwic(text, pattern, width=60):
+    """(line number, context) for every case-insensitive match in the file."""
+    out = []
+    for i, line in enumerate(text.split("\n"), 1):
+        for m in re.finditer(pattern, line, re.I):
+            out.append((i, line[max(0, m.start() - width):m.end() + width]))
+    return out
+
+
+def section(text, heading):
+    """The text of the `## heading` section, for scoping a measurement to part of an article."""
+    m = re.search(rf"(?ms)^##+ {re.escape(heading)}\s*$\n(.*?)(?=^## |\Z)", post.body(text))
+    if not m:
+        raise ValueError(f"no section headed {heading!r}")
+    return m.group(1)
+
+
+def _peers(path, peer_glob):
+    """Peer texts. THE DEFAULT IS THE PUBLISHED CORPUS, not the article's directory.
+
+    The old default took the article's own directory, which for a draft is
+    `_drafts/` and compared it with other unfinished drafts (A377).
+    """
+    root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    pat = peer_glob or os.path.join(root, "_posts", "*.markdown")
+    return [open(q, encoding="utf-8").read() for q in sorted(_glob.glob(pat))
+            if os.path.abspath(q) != os.path.abspath(path)]
+
+
+def _ratio(r):
+    return "never" if r is None else f"{r:.2f}"
+
+
 def _main(argv):
-    if len(argv) >= 3 and argv[1] == "collocate":
-        word = argv[2]
-        paths = argv[3:]
-        if not paths:
-            print("usage: python3 _lib/diction.py collocate <word> <path>...")
-            return 2
-        for path in paths:
-            collocation_report(path, word)
-            print()
+    import argparse
+    ap = argparse.ArgumentParser(prog="diction.py", description="Word and phrase usage against the author's corpus.")
+    sub = ap.add_subparsers(dest="cmd", required=True)
+
+    def add(name, help_, peers=True, path=True):
+        p = sub.add_parser(name, help=help_)
+        if path:
+            p.add_argument("path")
+        if peers:
+            p.add_argument("--peers", help="peer glob, default _posts/*.markdown")
+        p.add_argument("--section", help="measure only the section with this heading")
+        return p
+    add("all", "every instrument below, in one report")
+    add("report", "the enumerated constructions against peers")
+    add("outliers", "words above the peer maximum")
+    add("tics", "the enumerated tic class against peers")
+    add("formulas", "discovered 2 to 4 word sequences above the peer maximum")
+    add("openers", "sentence openings above the peer maximum")
+    add("shapes", "construction shapes with a variable slot")
+    add("leads", "phrasings that introduce many display equations", peers=False)
+    add("repeats", "sentences repeating one content word", peers=False)
+    add("acronyms", "first use of each acronym and whether it is spelled out nearby", peers=False)
+    p = add("collocate", "evidence for whether a word names a term or is a tic", peers=False)
+    p.add_argument("word")
+    p = sub.add_parser("creep", help="sequences that rose across an edit pass")
+    p.add_argument("before")
+    p.add_argument("after")
+    p = sub.add_parser("carriers", help="articles carrying a word above a rate")
+    p.add_argument("word")
+    p.add_argument("--glob", default="_posts/*.markdown")
+    p.add_argument("--rate", type=float, default=5.0)
+    p = sub.add_parser("series", help="words a set of articles overuses against the rest of the corpus")
+    p.add_argument("glob")
+    p.add_argument("--corpus", default="_posts/*.markdown")
+    p.add_argument("--min-articles", type=int, default=25)
+    p = sub.add_parser("kwic", help="every match with its line number")
+    p.add_argument("path")
+    p.add_argument("pattern")
+    a = ap.parse_args(argv[1:])
+
+    if a.cmd == "creep":
+        rows, counters = creep(open(a.before, encoding="utf-8").read(), open(a.after, encoding="utf-8").read())
+        print(f"  {'sequence':40s}{'before':>8}{'after':>7}")
+        for g, b, k in rows[:60]:
+            print(f"  {g:40s}{b:8d}{k:7d}")
+        print("  substitution counters")
+        for c, b, k in counters:
+            print(f"  {c!r:40s}{b:8d}{k:7d}{'  <== ROSE' if k > b else ''}")
         return 0
-    if len(argv) >= 3 and argv[1] == "report":
-        report(argv[2], argv[3] if len(argv) > 3 else None)
+    if a.cmd == "carriers":
+        for r, k, p in carriers(a.word, sorted(_glob.glob(a.glob)), a.rate):
+            print(f"  {r:6.2f}/1k {k:4d}  {p}")
         return 0
-    if len(argv) >= 3 and argv[1] in ("outliers", "tics"):
-        path = argv[2]
-        peer_glob = argv[3] if len(argv) > 3 else os.path.join(
-            os.path.dirname(os.path.abspath(path)) or ".", "*.markdown")
-        peers = [open(q, encoding="utf-8").read()
-                 for q in _glob.glob(peer_glob)
-                 if os.path.abspath(q) != os.path.abspath(path)]
-        text = open(path, encoding="utf-8").read()
-        vocab = TICS if argv[1] == "tics" else None
-        rows, peer_n = word_outliers(text, peers, vocabulary=vocab,
-                                     min_count=1 if argv[1] == "tics" else 6)
-        n = len(words(prose(text)))
-        print(f"{os.path.basename(path)}: {n:,} author prose words against {peer_n} peers")
-        if argv[1] == "tics":
-            print("  the tic class is enumerated, not discovered, because a relative check "
-                  "cannot separate a tic from a subject")
-        print(f"  {'word':22s}{'n':>5}{'rate':>8}{'median':>9}{'peermax':>9}{'x max':>8}  peers")
-        shown = 0
-        for ratio, w, k, rate, med, mx, used in rows:
-            over = ratio is None or ratio > 1.0
-            if not over and shown >= 25:
-                break
-            shown += 1
-            rr = "never" if ratio is None else f"{ratio:.2f}"
-            flag = "  <== OVER PEER MAX" if over else ""
-            print(f"  {w:22s}{k:5d}{rate:8.2f}{med:9.2f}{mx:9.2f}{rr:>8}  {used:3d}{flag}")
-        over_n = sum(1 for r in rows if r[0] is None or r[0] > 1.0)
-        print(f"  {over_n} word(s) at or above the peer maximum")
-        print("  A WORD ABOVE THE PEER MAXIMUM IS USUALLY THE SUBJECT, NOT A TIC. Check the "
-              "collocations before acting:")
-        print("    python3 _lib/diction.py collocate <word> <path>")
+    if a.cmd == "series":
+        rows = series(sorted(_glob.glob(a.glob)), sorted(_glob.glob(a.corpus)), a.min_articles)
+        print(f"  {'word':20s}{'ratio':>7}{'n':>6}{'series':>8}{'corpus':>8}{'articles':>9}")
+        for ratio, w, k, sr, cr, df in rows[:60]:
+            print(f"  {w:20s}{ratio:7.2f}{k:6d}{sr:8.2f}{cr:8.2f}{df:9d}")
         return 0
-    if len(argv) >= 3 and argv[1] == "formulas":
-        path = argv[2]
-        peer_glob = argv[3] if len(argv) > 3 else os.path.join(
-            os.path.dirname(os.path.abspath(path)) or ".", "*.markdown")
-        text = open(path, encoding="utf-8").read()
-        peers = [open(q, encoding="utf-8").read()
-                 for q in _glob.glob(peer_glob)
-                 if os.path.abspath(q) != os.path.abspath(path)]
-        rows, peer_n = phrase_outliers(text, peers)
-        own, quoted, share = quoted_share(text)
-        print(f"{os.path.basename(path)}: {own:,} author words against {peer_n} peers, "
-              f"{quoted:,} quoted words excluded = {share * 100:.1f} percent")
-        print("  repeated word sequences above the peer maximum. SUBJECT MATTER DOMINATES "
-              "THIS LIST and numerals are dropped by tokenisation, so verify in the article")
-        print(f"  {'phrase':44s}{'n':>4}{'rate':>7}{'peermax':>9}{'x max':>8}")
-        over = 0
-        for ratio, g, k, rate, mx in rows:
-            if ratio is not None and ratio <= 1.0:
-                continue
-            over += 1
-            rr = "never" if ratio is None else f"{ratio:.2f}"
-            print(f"  {g:44s}{k:4d}{rate:7.2f}{mx:9.2f}{rr:>8}")
-        print(f"  {over} sequence(s) above the peer maximum")
+    if a.cmd == "kwic":
+        for ln, ctx in kwic(open(a.path, encoding="utf-8").read(), a.pattern):
+            print(f"  {ln:5d}: {ctx}")
         return 0
-    print("usage:\n"
-          "  python3 _lib/diction.py collocate <word> <path>...     evidence for one word\n"
-          "  python3 _lib/diction.py report <path> [peer-glob]      constructions vs peers\n"
-          "  python3 _lib/diction.py outliers <path> [peer-glob]    words above the peer max\n"
-          "  python3 _lib/diction.py tics <path> [peer-glob]        the enumerated tic class\n"
-          "  python3 _lib/diction.py formulas <path> [peer-glob]    DISCOVERED phrase formulas,\n"
-          "                                                         quotations excluded")
-    return 2
+
+    full = open(a.path, encoding="utf-8").read()
+    text = full if not a.section else "---\n---\n" + section(full, a.section)
+    if a.cmd == "collocate":
+        collocation_report(a.path, a.word)
+        return 0
+    peers = _peers(a.path, getattr(a, "peers", None)) if hasattr(a, "peers") else []
+    cmds = ["report", "outliers", "tics", "formulas", "openers", "shapes", "leads", "repeats",
+            "acronyms"] if a.cmd == "all" else [a.cmd]
+    print(f"{os.path.basename(a.path)}: {len(words(text)):,} author prose words"
+          + (f", section {a.section!r}" if a.section else "") + (f", {len(peers)} peers" if peers else ""))
+    for cmd in cmds:
+        print(f"\n== {cmd} ==")
+        if cmd == "report":
+            rows, _n, _np = compare(text, [], PHRASES) if not peers else _compare_texts(text, peers)
+            for ph, k, per_k, med, mx, verdict in rows:
+                if verdict != "ok":
+                    print(f"  {ph:18s} {k:4d} {per_k:6.2f}  {verdict}")
+        elif cmd in ("outliers", "tics"):
+            rows, _pn = word_outliers(text, peers, vocabulary=TICS if cmd == "tics" else None,
+                                      min_count=1 if cmd == "tics" else 6)
+            for ratio, w, k, rate, med, mx, used in rows:
+                if ratio is not None and ratio <= 1.0:
+                    continue
+                print(f"  {w:22s}{k:5d}{rate:8.2f}{med:9.2f}{mx:9.2f}{_ratio(ratio):>8}  {used:3d}")
+        elif cmd == "formulas":
+            rows, _pn = phrase_outliers(text, peers)
+            for ratio, g, k, rate, mx in rows:
+                if ratio is None or ratio > 1.0:
+                    print(f"  {g:44s}{k:4d}{rate:7.2f}{mx:9.2f}{_ratio(ratio):>8}")
+        elif cmd == "openers":
+            rows, _pn = openers(text, peers)
+            for ratio, g, k, rate, mx in rows:
+                if ratio is None or ratio > 1.0:
+                    print(f"  {g:30s}{k:4d}{rate:7.2f}/100 sentences  peer max {mx:6.2f}  {_ratio(ratio)}")
+        elif cmd == "shapes":
+            rows, _n = shapes(text, peers)
+            for name, k, rate, mx in rows:
+                if k:
+                    flag = "  <== OVER PEER MAX" if rate > mx else ""
+                    print(f"  {name:34s}{k:4d}{rate:7.2f}{mx:9.2f}{flag}")
+        elif cmd == "leads":
+            for g, k, total in display_lead_ins(text):
+                print(f"  {g:40s}{k:4d} of {total} display lead-ins")
+        elif cmd == "repeats":
+            for hits, sent in sentence_repeats(text):
+                print(f"  {hits}  {sent}")
+        elif cmd == "acronyms":
+            for acro, _pos, spelled in acronyms(text):
+                if not spelled:
+                    print(f"  {acro:8s} not spelled out near its first use")
+    print("\nA FINDING IS A READING LIST, NOT A VERDICT. Subject matter dominates every relative "
+          "measure; check `collocate` and `kwic` before editing, and `creep` after.")
+    return 0
+
+
+def _compare_texts(text, peer_texts, patterns=PHRASES):
+    """`compare` for texts already read, which the command line uses with `--section`."""
+    acc = collections.defaultdict(list)
+    for t in peer_texts:
+        r, _ = rates(t, patterns)
+        for ph, (_, per_k) in r.items():
+            acc[ph].append(per_k)
+    base = {ph: {"median": statistics.median(v), "max": max(v)} for ph, v in acc.items() if v}
+    mine, n = rates(text, patterns)
+    rows = []
+    for ph, (k, per_k) in mine.items():
+        b = base.get(ph)
+        verdict = ("no-baseline" if not b else "over-max" if per_k > b["max"]
+                   else "over-median" if per_k > b["median"] else "ok")
+        rows.append((ph, k, per_k, b and b["median"], b and b["max"], verdict))
+    return rows, n, len(peer_texts)
 
 
 if __name__ == "__main__":

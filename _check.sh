@@ -40,6 +40,10 @@ trap 'rm -rf "$OUT" "$LOG"' EXIT INT TERM
 printf '\n== 1. corpus invariants ==\n'
 python3 _verify.py
 
+printf '\n== 1b. library regression tests ==\n'
+python3 _lib/test_lib.py
+python3 _lib/test_sources.py
+
 printf '\n== 2. build ==\n'
 if command -v bundle > /dev/null 2>&1 && [ -f Gemfile.lock ]; then
     JEKYLL_ENV=production bundle exec jekyll build --baseurl "" \

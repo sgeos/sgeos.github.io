@@ -4,6 +4,32 @@
 
 ## Last Updated
 
+**Date**: 2026-10-24 (sixth entry)
+**Task**: **Peer review decided by "reviewed by whom", one command line for the library, campaign and claims strategies promoted, diction brought up to date, tests on committed data and in CI. Committed, NOT pushed.** A384's References section changed again, and A384 is live, so the push awaits the pilot's word.
+
+**Peer review by whom.** A venue is now credited only when a source it speaks through says by whom its papers are reviewed. The answer is recorded as `reviewers`, backed by a list of fetched quotes. The source may be its own pages, its publisher's, its editors' editorials or its society's magazine, so a blocked policy page no longer decides the matter.
+- AGU's *Eos* answered for *Geophysical Research Letters* and both *JGR* sections: more than 30,000 reviews in 2016, with each journal's editor-selected reviewers named.
+- Nature's policy answered "usually two or more independent reviewers selected by the editors".
+- Twelve of eighteen journals are credited, up from nine. A384 lists 21 peer-reviewed primary sources and 44 non-peer-reviewed.
+- Still uncredited for want of an answer: *Acta Astronautica*, *Icarus*, *Planetary and Space Science*, *Astronomy & Astrophysics*, *Science* and *Space Science Reviews*.
+- The weakest credit is *American Journal of Physics*, "referees, with the editors".
+
+**One command line.** `python3 _lib/blog.py` lists and runs every command. Seven modules that were import-only now have commands there, and the rest dispatch to their own.
+
+**Strategies promoted with concrete logic supplied.**
+- `campaign.py` holds the strategy of the fix5, fix6, retrofit, audit, cite, word and decide passes. Stages are functions that propose changes, and the runner gates, snapshots and writes them all or nothing, dry run by default. A ledger lets an interrupted run resume. It also provides seeded sampling with Wilson escalation, strict verdict files, quote relocation, protected paths and mutation checks.
+- `numcheck.py check CLAIMS.py --inject` recomputes every number a claims file names. It reads each value from the prose with tolerance taken from the printed digits, requires every occurrence to agree, and proves each claim can fail. A worked A384 claims file checks four numbers.
+
+**Diction.**
+- Fixed: case folding, which had missed 51 of the corpus's 116 uses of `however`; the never-counted final n-gram; phantom sequences created by deleting citations and numerals; and draft-only default peers.
+- Added: bigrams, slot tokens, sentence openers, construction shapes, display lead-ins, in-sentence repeats, creep with punctuation-aware counters, corpus carriers, series overuse, keyword in context, section scoping, and an `all` report.
+
+**Tests.** The scratch-dependent A384 import test now runs on trimmed real Crossref records committed under `_lib/testdata/`. A survey fixture runs the whole pipeline. Both suites run in CI and in `./_check.sh`. `test_lib.py` 165 of 165 and `test_sources.py` 38 of 38. Five deliberate breakages, in the rerun guard, the evidence rule, the dry run, case folding and empty-pattern claims, were each caught. `_verify.py --strict` 0 and 0. `./_check.sh` passed, including the test step, with 551 pages and no render findings.
+
+**Open.** The six uncredited journals. Whether to push.
+
+## Previous Report (2026-10-24, fifth entry)
+
 **Date**: 2026-10-24 (fifth entry)
 **Task**: **Peer review now credited only when verified, and transient tooling promoted to tracked commands. Committed, NOT pushed.** A384's References section changed, and A384 is live, so the push awaits the pilot's word.
 

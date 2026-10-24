@@ -402,6 +402,12 @@ def import_post(post_path, decisions, venues):
             if p.get("match") not in ("exact", "stripped"):
                 errors.append(f"{a}: no verified Wikipedia pin ({p.get('match')})")
                 continue
+            # A CONVERTED POST LINKS ITS PIN ALREADY. Re-importing it is how the
+            # store is rebuilt and tested, so the link's revision must be the pin's.
+            linked = re.search(r"[?&]oldid=(\d+)", target)
+            if linked and int(linked.group(1)) != p["oldid"]:
+                errors.append(f"{a}: links revision {linked.group(1)} but is pinned to {p['oldid']}")
+                continue
             recs[a] = record_from_wikipedia(a, p["page_title"], p["oldid"], p["timestamp"])
             recs[a]["evidence"] = (f"Revision text byte-identical to the copy read for "
                                    f"{decisions['article']}, saved {p['saved_at']}.")

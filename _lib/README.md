@@ -40,9 +40,11 @@ article-specific content alone.
 | `lint.py` | Mid-edit invariant scan, separating defects from house conventions | 7 `check.py` |
 | `sources.py` | The source database, Chicago entries, generated References sections and their drift check. See `_docs/writing/CITATION_STYLE.md` | per-article `refsNNN.py` generators |
 | `sources_import.py` | Draft source records from Crossref, pinned Wikipedia revisions and related posts, and import a whole post from a TOML decision file | hand-typed reference labels, the A384 prototype scripts |
-| `diction.py` | Word and phrase overuse, measured against peer articles rather than a fixed threshold | 4 `diction.py` |
+| `diction.py` | Word, phrase, sentence-opener, construction-shape and creep measurements against the published corpus, with collocation and keyword-in-context evidence | 4 `diction.py`, `wordcheck`, `phrases`, `corpus_tics`, `series_words`, `series_phrases`, `tics`, `ngram_diff`, `words_count` |
 | `audit.py` | Equation gaps, citation gaps, thin sections, primary count and fraction | 13 `ref_audit`, 8 `eqn_scan` |
-| `numcheck.py` | Harness for re-deriving stated values independently, with property and bisection checks | 18 `verify_numbers` |
+| `numcheck.py` | Harness for re-deriving stated values independently, and a claims runner that recomputes every number a claims file names, reads it from the prose and proves each check can fail | 18 `verify_numbers`, the print-only `numbers.py` of A378 to A384 |
+| `campaign.py` | The strategy of the corpus campaigns: targets, stages that propose changes, gates before and after, snapshots, a resumable ledger, seeded sampling with Wilson escalation, strict verdict files, quote relocation and mutation checks | the fix5, fix6, retrofit, audit, cite, word and decide passes |
+| `blog.py` | One command line for the whole library | |
 | `citations.py` | Registry verification of recalled identifiers, sampling for retrieved ones | 13 `url_check`, 6 `verify_urls` |
 | `post.py` | What a post is made of. Document structure, defined once | 7 splits, 9 anchor patterns |
 | `gate.py` | Subject-anchor gating for a harvested corpus, with the two-sided random audit that is the only thing detecting a mis-tuned gate | 2 copied `select.py` |
@@ -54,6 +56,7 @@ article-specific content alone.
 | `harvest.py` | The survey pipeline, harvest, select, master and assemble, driven by one TOML file per article | per-article `harvest`, `select`, `gen_master`, `assemble` |
 | `textscan.py` | Context search in saved source text and removal of references from wikitext | 4 `ctx.py`, 3 `clean.py` |
 | `test_lib.py` | Regression tests, one per shipped defect, plus anti-duplication guards | |
+| `testdata/` | Committed fixtures: trimmed real Crossref records, a Wikipedia pin, a survey configuration with representative records, and a worked claims file for A384 | scratch data the tests once depended on |
 
 **The library reproduced its own defect within a day.** An audit found `fold` byte-identical in two
 modules, seven independent splits on `## References` across four, and nine hard-codings of the anchor
@@ -102,6 +105,9 @@ search, an abstract lookup or a single edit pass, and for a one-shot task retypi
 writing a script that imports one. The fix is a command line that ingests data, so the article's part is a
 list of queries or a file of edits and nothing else.
 
+`python3 _lib/blog.py` lists every command, and `python3 _lib/blog.py COMMAND ...` runs one. Each module's
+own command line is the same command, so `python3 _lib/edits.py apply ...` also works.
+
 | Command | Data it reads |
 |---|---|
 | `python3 _lib/edits.py apply EDITS.toml [POST]` | `[[edit]]` tables, `old` and `new`, or `after` or `before` with `insert` |
@@ -110,6 +116,9 @@ list of queries or a file of edits and nothing else.
 | `python3 _lib/harvest.py harvest CONFIG`, `select`, `master` and `assemble` | `tmp/<article>/survey.toml`, the queries, rounds, anchors and clusters |
 | `python3 _lib/sources_import.py fetch-crossref`, `pin-wiki` and `import` | `_sources/decisions/<article>.toml`, the human decisions on titles, notes and corrections |
 | `python3 _lib/textscan.py ctx FILE REGEX` and `strip-wikitext` | A saved source file |
+| `python3 _lib/numcheck.py check CLAIMS.py [--inject]` | A claims file, one `Claim` per stated number, with its computation |
+| `python3 _lib/campaign.py status FILE` and `run FILE [--apply]` | A campaign file whose stages and gates are functions |
+| `python3 _lib/diction.py all POST` and fourteen other commands | The post, and the published corpus as peers |
 
 **TOML literal strings cannot carry the doubled-backslash defect.** `'''...'''` takes no escapes, so
 `\mathcal` is one backslash on disk and one in the article. Python string literals needed `\\mathcal`, and
@@ -123,15 +132,58 @@ present unless `--rerun` is passed, and then skips it.
 `select`, `master` and `assemble` produce output identical to A372's own scripts run against the same
 rejection store, byte for byte for the assembled draft. Against A372's outputs as saved on the day, `select`
 keeps 152 fewer records, all removed by rejections added to `_research/rejected.json` since. Rebuilding
-A384 from `_sources/decisions/A384.toml` reproduces its 99 stored records exactly, which `test_sources.py`
-checks wherever the scratch registry cache exists and reports as skipped elsewhere.
+A384 from `_sources/decisions/A384.toml` reproduced its 99 stored records exactly.
 
-**Reviewed and deliberately not promoted.** The corpus campaigns under `tmp/cite/`, `tmp/fix5/`, `tmp/fix6/`
-and the `retrofit/` directories, which include `build_drop`, `splice`, `draw_sample`, `thin`,
-`gate_and_cluster`, `write_notes` and `make_chunks`, were one-time corpus operations that are complete, and
-the handoff forbids rerunning the stale generators among them. `calc.py` and `verify_numbers.py` are article
-content on top of `numcheck.py`. `wordcheck.py` and `phrases.py` are already `diction.py outliers` and
-`diction.py formulas`.
+**Tests run on committed data only.** The import test re-imports a representative subset of A384, one
+source of each kind, from real Crossref records trimmed to the fields the importer reads and kept in
+`testdata/sources/`. The pipeline test runs on a survey fixture that exercises every rule once. The claims
+test checks four numbers in the published A384. No test needs the network or `tmp/`, and both suites run
+in CI and in `./_check.sh`.
+
+**Strategies are promoted, concrete logic is supplied.** The corpus campaigns under `tmp/cite/`,
+`tmp/fix5/`, `tmp/fix6/` and the `retrofit/` directories are complete, and their scratch generators are not
+to be rerun. Their strategy is not complete, so `campaign.py` holds it and a new campaign supplies its
+screen, reading rule, edits and gates as functions. The same holds for numbers: the physics of each article
+is its own, so `numcheck.py` holds the claims runner and an article supplies the computations.
+
+**What the campaign framework enforces, and where each rule came from.**
+
+| Rule | Defect behind it |
+|---|---|
+| Dry run by default | `survey_tool.py resample` had no dry run and overwrote three sample files |
+| A stage proposes, the runner writes all or nothing after gates | Agents killed mid-edit left half-applied drafts |
+| Snapshot before every write, never restore automatically | Swapping a copy into place reverted later work |
+| Stages read the current file, never HEAD | A307 and A308 rebuilt from HEAD and restored truncated labels |
+| A ledger with file hashes, resumed on rerun, edits since reported | Usage limits killed agents mid-campaign |
+| Gates compared before and after, only new problems refuse | A failure already present was blamed on the stage |
+| Protected paths | `_research/rejected.json` is relative to one article and must not be written by a campaign |
+| Escalation on the Wilson upper bound | Three samples below the threshold understated contamination |
+| Strict verdict files, only manifest-named readings | A cross-reference file matching the reading glob overrode 1,466 readings |
+| Quotes relocated by exact single match | Ledger line numbers drifted with every edit |
+| Mutation checks reject a mutation that changes nothing | A334 reported 47 of 47 with twelve values absent |
+
+**What the claims runner enforces.** Tolerance comes from the printed digits, because a fixed tolerance
+raised eleven false failures in A363. A pattern that matches nothing fails, and every occurrence must carry
+the value, because a stale second copy satisfies a presence check. `--inject` alters each stated value and
+requires its claim to fail. Spelled numbers, separators, LaTeX `{,}` and minus signs are read. A claims file
+that imports an article's calculation is refused, because A335 had the same two wrong constants in both.
+
+**What `diction.py` now measures.** It had four faults. It missed sentence-initial uses, 51 of the corpus's
+116 uses of `however`. It never counted the final n-gram. It deleted citations and numerals, which made
+phantom sequences such as `at percent in`. And its default peers were the article's own directory, which for
+a draft meant other drafts. Citations, numbers and inline math are now slot tokens, so `is <cite>` and
+`at <num> percent` are counted. Sequences do not cross sentence ends, and bigrams are included, because
+A369's largest finding was `and not`. New instruments:
+- sentence openers;
+- construction shapes, such as a citation as the predicate of "is", "is not X. It is Y.", "the section
+  headed", heading formulas and bold openers;
+- display lead-ins;
+- sentences that repeat one content word;
+- creep across an edit pass, with punctuation-aware counters for `, not` and `and not`;
+- the carriers of a word across the corpus;
+- series-level overuse with smoothing;
+- keyword in context with line numbers;
+- section scoping.
 
 ## Usage
 
