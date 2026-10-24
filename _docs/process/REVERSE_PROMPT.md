@@ -4,6 +4,23 @@
 
 ## Last Updated
 
+**Date**: 2026-10-24 (first entry)
+**Task**: **A381 to A384, PILOT DECISIONS APPLIED AND STALE RECORD REPAIRED. Committed, NOT pushed, NOT published.**
+
+**Decision a, Mercury's exospheric pressure.** A384 keeps "about 0.5 nanopascal or less" from Wikipedia and adds Lammer et al. 2026, an EGU 2026 conference abstract, for an upper limit of 10⁻¹¹ to 10⁻¹² bar, which is 0.1 to 1 micropascal. The quote was checked against the saved abstract in `tmp/a384/ps/v3.json` and the DOI returns handle code 1. Since both figures are upper limits, the text now states a hypothetical range from zero to 1 micropascal and gives the air column at its top, 2.7 × 10⁻⁷ kg/m². The drag table row reads "0 to 1 µPa" and "at most 2.7 × 10⁻⁷". `tmp/a384/numbers.py` now computes the row at both 0.5 nPa and 1 µPa, and the energy lost is 1.4 × 10⁻¹⁴ and 2.7 × 10⁻¹¹ of the total respectively, so "effectively 0" stands. The Epistemic State adds that this limit rests on a conference abstract that is not peer-reviewed. A384 is now 1,828 lines and 106 references.
+
+**Decisions b to d.** No change. The Venus figures, the Proxima d calculation distance and the Wikipedia-only claims stand as reported.
+
+**Stale record.** Each A381 to A384 entry in `_drafts/draft_summary.md` now opens with a dated current status giving lines, display equations, references and publication order. The original drafting-pass paragraphs are kept but marked superseded. The four set-wide pass paragraphs that sat inside the A382 entry now form an *A381 to A384 Pass History* section after the A384 entry, with a 2026-10-24 paragraph added.
+
+**Verification.** `_verify.py` 0 errors and 0 warnings. The reference block regenerated from `tmp/a384/refs384.py` has no unused, undefined or unlisted anchors. **The scratch production build and render audit were NOT run.** The MacPorts Ruby at `/opt/local` (3.1.7, arm64-darwin27) cannot `require "socket"` because its `socket.bundle` is missing, and the gems in `vendor/bundle` with native extensions were built for arm64-darwin-25. Both look like effects of the operating system upgrade. Reinstalling the Ruby port, for example `sudo port -n upgrade --force ruby31`, followed by `bundle pristine` in the repository, should restore the build. That is a system change for the pilot to make. Until then the 31 cross-article fragment links and the render audit for this change are unverified, although the edit adds no links, headings or math.
+
+**Other stale record noted, not changed.** The *Current Task* section at the top of `TASKLOG.md` still describes the X-Planes drafting line.
+
+**Next.** Publication in order A381, A382, A383, A384 awaits the pilot's word and, before any publishing push, a working build.
+
+## Previous Report (2026-10-22, eleventh entry)
+
 **Date**: 2026-10-22 (eleventh entry)
 **Task**: **A381 to A384, PROCESS PHRASING AND PRIMARY SOURCE PASS. Committed, NOT pushed, NOT published.** On the pilot's rulings that "... in the searches made for this article" reports the drafting process, that "according to <source>" does not, and that Wikipedia serves for overviews while primary sources take priority.
 

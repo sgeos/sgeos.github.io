@@ -25,7 +25,9 @@ article if none existed, discussed in terms of delta-v without regard to its sou
 equation and mass-shedding delta-v, and with the compound and advanced manoeuvres a textbook covers. A90 surveys the
 basics, and this article links back to it. **NOT published.**
 
-**Drafting pass complete. Citation, pathological word usage and publication review passes NOT yet run.** 781 lines,
+**Current status 2026-10-24. All four passes and the process phrasing and primary source pass complete. NOT published.** 1,264 lines, 31 display equations and 77 references. It must publish first, because A382 and A384 link to it. The history of the set's passes is in *A381 to A384 Pass History 2026-10-22 to 2026-10-24* below the A384 entry.
+
+**Status at drafting 2026-10-22, superseded by the current status above.** Drafting pass complete. 781 lines,
 18 display equations, 29 references, 8 DOI-linked, 20 Wikipedia and 1 related post. Every number is computed by
 `tmp/a381/numbers.py`. Three sources are cited at title level only. `_verify.py` 0 and 0, scratch build with A381 to
 A384 ok, render audit clean on 551 pages. It must publish first, because A382 and A384 link to it.
@@ -34,12 +36,15 @@ A384 ok, render audit clean on 551 pages. It must publish first, because A382 an
 
 `_drafts/solar_sailing.markdown`, A382, editorial date 2026-08-18, drafted as A381 at 2026-08-17 and moved forward one slot, standalone analytical essay, categories
 `space space-studies`, no series. Drafted 2026-10-22 on the pilot's specification, replacing the stub. **NOT published.**
+
+**Current status 2026-10-24. All four passes and the process phrasing and primary source pass complete. NOT published.** 1,755 lines, 36 display equations and 96 references. It must publish after A381 and before A383 and A384. The history of the set's passes is in *A381 to A384 Pass History 2026-10-22 to 2026-10-24* below the A384 entry.
+
 It presents the concept and basic mathematics, then generalized parametric equations in the star's luminosity, mass and
 radius and the craft's mass, area, reflectance, emissivities and steering angles, then the Sun's values and four other
 stars. It compares sail quality, four levels of steering, and fixed, jettisonable and retractable sails, and has a
 section on folding and deployment and one on deceleration and capture at another star.
 
-**Drafting pass complete. Citation, pathological word usage and publication review passes NOT yet run.** 960 lines,
+**Status at drafting 2026-10-22, superseded by the current status above.** Drafting pass complete. 960 lines,
 17 display equations, 42 references, 24 DOI-linked, 17 Wikipedia and 1 related post. Every number is computed by
 `tmp/a381/numbers.py`. Eleven sources are cited at title level only because no abstract was retrievable.
 `_verify.py` 0 and 0 after the move, scratch build with A381 to A384 ok, render audit clean on 551 pages. It now
@@ -47,18 +52,6 @@ links back to A381 and must publish after it and before A384, which links to it.
 the A381 link was added. **Extended 2026-10-22** with a section on orbital manoeuvres with a solar sail and a section on solar
 sailing with secondary propulsion, on the pilot's instruction. Now 1,255 lines, 22 display equations and 45 references,
 with the inclination-cranking formula checked by a three-dimensional integration in `tmp/a382/numbers.py`.
-
-**Equation density pass 2026-10-22.** A381 now 910 lines, 31 display equations, 29 references. A382 now 1,385
-lines, 36 display equations, 48 references. A383 now 1,036 lines, 30 display equations, 25 references. A384 now 1,409
-lines, 25 display equations, 54 references. Later articles link to sections of earlier ones.
-
-**Citation density pass 2026-10-22.** Each of A381 to A384 now has a literature review section. Lines, display equations
-and references are 1,221, 31 and 73 for A381, 1,710, 36 and 88 for A382, 1,360, 30 and 67 for A383, and 1,733, 25 and
-90 for A384. Many added works are cited at title level because the OpenAlex quota ran out during the search.
-
-**All four passes complete 2026-10-22 for A381 to A384.** The citation, word usage and publication review passes are done. Final sizes: A381 1,252 lines, 31 display equations and 74 references; A382 1,726, 36 and 88; A383 1,367, 30 and 67; A384 1,753, 25 and 92. They publish in order A381 to A384.
-
-**Process phrasing and primary source pass 2026-10-22 for A381 to A384.** On the pilot's rulings, prose that reported the searches made for each article was removed from the literature reviews, the former Gaps subsections and the Epistemic State sections, and primary sources were added beside or in place of Wikipedia where an abstract states the claim. Sizes now: A381 1,264 lines, 31 display equations and 77 references; A382 1,755, 36 and 96; A383 1,457, 30 and 82; A384 1,818, 25 and 105. Claims with no primary source found keep Wikipedia and are named in each Epistemic State. Not published, and they publish in order A381 to A384.
 
 ## Mass Drivers A383 2026-08-19 DRAFTED
 
@@ -69,7 +62,9 @@ unbound-launch note, siting for one-body orbits, launches into parent and solar 
 Ceres and Vesta with release-site geometry, inter-body transfer with timing and corrections, full-circumference ring
 tracks with lanes, and what cargo experiences at release.
 
-**Drafting pass complete. Citation, pathological word usage and publication review passes NOT yet run.** 927 lines,
+**Current status 2026-10-24. All four passes and the process phrasing and primary source pass complete. NOT published.** 1,457 lines, 30 display equations and 82 references. It must publish after A381 and A382 and before A384. The history of the set's passes is in *A381 to A384 Pass History 2026-10-22 to 2026-10-24* below the A384 entry.
+
+**Status at drafting 2026-10-22, superseded by the current status above.** Drafting pass complete. 927 lines,
 17 display equations, 20 references, 4 DOI-linked, 14 Wikipedia and 2 related posts. Every number is computed by
 `tmp/a383/numbers.py`. One cited study has no author in Crossref or OpenAlex and is cited as unattributed.
 `_verify.py` 0 and 0, scratch build with A381 to A384 ok, render audit clean on 551 pages. It must publish after
@@ -84,11 +79,30 @@ distance from the Sun, the hypothesis that Mercury is the hardest body to coloni
 site for probes within the solar system and to neighboring stars. It also tests the broader form, that Mercury's value
 lies in where it is rather than in what it is, and that the same holds for the innermost body of any star. **NOT published.**
 
-**Drafting pass complete, including the revision. Citation, pathological word usage and publication review passes NOT
-yet run.** 1,314 lines, 17 display equations, 47 references, 16 DOI-linked, 25 Wikipedia and 6 related posts, all
+**Current status 2026-10-24. All four passes and the process phrasing and primary source pass complete. NOT published.** 1,828 lines, 25 display equations and 106 references. It must publish last of the four. On 2026-10-24, on the pilot's ruling, the exospheric pressure passage keeps Wikipedia's 0.5 nanopascal or less, adds the upper limit of 0.1 to 1 micropascal from Lammer et al. 2026, an EGU conference abstract, and states a hypothetical range from zero to 1 micropascal, whose top gives an air column of 2.7 × 10⁻⁷ kg/m², computed in `tmp/a384/numbers.py`. The history of the set's passes is in *A381 to A384 Pass History 2026-10-22 to 2026-10-24* below the A384 entry.
+
+**Status at drafting 2026-10-22, superseded by the current status above.** Drafting pass complete, including the revision. 1,314 lines, 17 display equations, 47 references, 16 DOI-linked, 25 Wikipedia and 6 related posts, all
 back-references, three of them to A381, A382 and A383. Every number is computed by `tmp/a384/numbers.py` and
 `tmp/a384/multipass.py`. Seven journal sources are cited at title level only because no abstract was retrievable.
 `_verify.py` 0 and 0, scratch build with A381 to A384 ok, render audit clean on 551 pages.
+
+## A381 to A384 Pass History 2026-10-22 to 2026-10-24
+
+These notes record the passes run on the set as a whole, in order. Sizes are as of each pass. The current state is in each article's own entry above.
+
+**Equation density pass 2026-10-22.** A381 now 910 lines, 31 display equations, 29 references. A382 now 1,385
+lines, 36 display equations, 48 references. A383 now 1,036 lines, 30 display equations, 25 references. A384 now 1,409
+lines, 25 display equations, 54 references. Later articles link to sections of earlier ones.
+
+**Citation density pass 2026-10-22.** Each of A381 to A384 now has a literature review section. Lines, display equations
+and references are 1,221, 31 and 73 for A381, 1,710, 36 and 88 for A382, 1,360, 30 and 67 for A383, and 1,733, 25 and
+90 for A384. Many added works are cited at title level because the OpenAlex quota ran out during the search.
+
+**All four passes complete 2026-10-22 for A381 to A384.** The citation, word usage and publication review passes are done. Final sizes: A381 1,252 lines, 31 display equations and 74 references; A382 1,726, 36 and 88; A383 1,367, 30 and 67; A384 1,753, 25 and 92. They publish in order A381 to A384.
+
+**Process phrasing and primary source pass 2026-10-22 for A381 to A384.** On the pilot's rulings, prose that reported the searches made for each article was removed from the literature reviews, the former Gaps subsections and the Epistemic State sections, and primary sources were added beside or in place of Wikipedia where an abstract states the claim. Sizes now: A381 1,264 lines, 31 display equations and 77 references; A382 1,755, 36 and 96; A383 1,457, 30 and 82; A384 1,818, 25 and 105. Claims with no primary source found keep Wikipedia and are named in each Epistemic State. Not published, and they publish in order A381 to A384.
+
+**Pilot decisions applied 2026-10-24.** A384 cites Lammer et al. 2026 for a looser upper limit on Mercury's exospheric pressure and states a hypothetical range from zero to 1 micropascal, taking it to 1,828 lines and 106 references. The Venus surface figures, the Proxima d calculation distance of 0.02881 AU and the remaining Wikipedia-only claims stand as reported. The per-article entries above were rewritten the same day to lead with their current status, because each still opened with its drafting-pass note that the later passes had not been run.
 
 ## Who Keeps the Value When a Company Splits A380 2026-08-16 PUBLISHED
 

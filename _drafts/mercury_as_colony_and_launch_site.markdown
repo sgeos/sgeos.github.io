@@ -414,8 +414,14 @@ although more than the 2.38 of the Moon
 and the 0.52 of Ceres
 [Ceres][ref_ceres].
 Mercury's exosphere has a surface pressure of about 0.5 nanopascal or less
-[Mercury][ref_mercury],
-so launching from it is effectively launching from vacuum.
+[Mercury][ref_mercury].
+A recent conference abstract gives a looser upper limit of 10⁻¹¹ to 10⁻¹² bar,
+which is 0.1 to 1 micropascal
+[Lammer et al. 2026][research_lammer_et_al_2026].
+Both figures are upper limits,
+so this article treats the surface pressure as lying in a hypothetical range from zero to 1 micropascal.
+Even the top of that range leaves an air column of only 2.7 × 10⁻⁷ kilograms per square metre,
+so launching from Mercury is effectively launching from vacuum.
 That makes Mercury a candidate for a mass driver,
 an electromagnetic launcher that accelerates a payload along a track
 [Mass Driver][ref_mass_driver].
@@ -459,7 +465,7 @@ For a dense projectile with $B = 10{,}000$ kilograms per square metre the result
 
 | Body | Surface pressure | Air column, kg/m² | Fraction of speed kept | Fraction of kinetic energy lost |
 |---|---|---|---|---|
-| Mercury | ≲ 0.5 nPa | effectively 0 | 1.000 | effectively 0 |
+| Mercury | 0 to 1 µPa | at most 2.7 × 10⁻⁷ | 1.000 | effectively 0 |
 | Mars | 0.636 kPa | 171 | 0.991 | 1.7 percent |
 | Earth | 101.3 kPa | 10,332 | 0.597 | 64 percent |
 | Titan | 146.7 kPa | 108,506 | 0.0044 | effectively all |
@@ -1450,6 +1456,8 @@ and the date it was first reached rest on the conference papers and abstracts of
 Ercol and Balakrishnan,
 and Badman,
 which are not peer-reviewed articles.
+The looser upper limit on Mercury's exospheric pressure rests on the conference abstract of the group led by Lammer,
+which is likewise not peer-reviewed.
 The work of Mayor and Queloz is cited only for its title.
 For the three 2013 polar ice papers the findings stated are those of the journal's shared editorial summary,
 which states the joint conclusion rather than each paper's separate result.
@@ -1676,6 +1684,7 @@ would face the same choice of origin.
 - [Research, Killen et al. 2007, Processes that Promote and Deplete the Exosphere of Mercury][research_killen_et_al_2007]
 - [Research, Kopp and Lean 2011, A New, Lower Value of Total Solar Irradiance, Evidence and Climate Significance][research_kopp_lean_2011]
 - [Research, Kulkarni, Lubin and Zhang 2018, Relativistic Spacecraft Propelled by Directed Energy][research_kulkarni_lubin_zhang_2018]
+- [Research, Lammer et al. 2026, The Role of Meteoritic Delivery to Mercury's Surface-Exosphere Environment][research_lammer_et_al_2026]
 - [Research, Lappas et al. 2005, Interstellar Heliopause Probe, System Design of a Solar Sail Mission to 200 AU][research_lappas_et_al_2005]
 - [Research, Lario et al. 2006, Radial and Longitudinal Dependence of Solar 4 to 13 MeV and 27 to 37 MeV Proton Peak Intensities and Fluences, Helios and IMP 8 Observations][research_lario_et_al_2006]
 - [Research, Lawrence et al. 2013, Evidence for Water Ice Near Mercury's North Pole from MESSENGER Neutron Spectrometer Measurements][research_lawrence_et_al_2013]
@@ -1782,6 +1791,7 @@ would face the same choice of origin.
 [research_killen_et_al_2007]: https://doi.org/10.1007/s11214-007-9232-0
 [research_kopp_lean_2011]: https://doi.org/10.1029/2010GL045777
 [research_kulkarni_lubin_zhang_2018]: https://doi.org/10.3847/1538-3881/aaafd2
+[research_lammer_et_al_2026]: https://doi.org/10.5194/egusphere-egu26-18943
 [research_lappas_et_al_2005]: https://doi.org/10.2514/6.2005-6084
 [research_lario_et_al_2006]: https://doi.org/10.1086/508982
 [research_lawrence_et_al_2013]: https://doi.org/10.1126/science.1229953
