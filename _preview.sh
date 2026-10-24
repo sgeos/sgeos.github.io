@@ -22,9 +22,13 @@
 # therefore not evidence that a forward-dated cross-reference is safe. Run with
 # FUTURE=0 to see what the deploy will actually publish.
 #
-# The Bundler require is disabled and GEM_HOME defaults to the user gem
-# directory so the script runs against the locally installed gems rather than
-# an unsatisfied bundle. The github-pages-free bundle is built in CI, not here.
+# Jekyll runs through `bundle exec`, against the same Gemfile.lock and plugins
+# CI uses. The script therefore needs a satisfied bundle; run `bundle install`
+# if `bundle check` fails. It previously ran a globally installed jekyll with
+# the Bundler require disabled, because the bundle was never installed. That
+# path broke when the MacPorts Ruby 3.1 could no longer build its socket
+# extension under Apple Clang 21 on Darwin 27 (Ruby bug 21629, not fixed in 3.1),
+# and it also skipped the Gemfile plugins, so its pages differed from the deploy.
 #
 # Usage:
 #     ./_preview.sh            # port 4000, drafts off, future-dated shown
@@ -42,10 +46,6 @@ set -eu
 
 # Set PORT (use 4000 as fallback if both $1 and $PORT are unset)
 PORT="${1:-${PORT:-4000}}"
-
-# Run against the locally installed gems, not the (unsatisfied) bundle.
-export JEKYLL_NO_BUNDLER_REQUIRE=true
-export GEM_HOME="${GEM_HOME:-$(ruby -e 'print Gem.user_dir')}"
 
 # Drafts are off by default; opt in with DRAFTS=1.
 DRAFTS_FLAG=""
@@ -67,11 +67,15 @@ else
     printf '%s\n' "Showing forward-dated posts. The live site hides them; use FUTURE=0 to match."
 fi
 
-# Check if `jekyll` is available
-command -v jekyll > /dev/null || {
-    printf '%s\n' "jekyll is not installed or not in PATH." >&2
+# Fail early with a clear message rather than a Bundler stack trace.
+command -v bundle > /dev/null || {
+    printf '%s\n' "bundle is not installed or not in PATH." >&2
+    exit 1
+}
+bundle check > /dev/null || {
+    printf '%s\n' "The bundle is not satisfied. Run: bundle install" >&2
     exit 1
 }
 
 # Start the Jekyll server
-jekyll serve --host 0.0.0.0 --port "${PORT}" ${DRAFTS_FLAG} ${FUTURE_FLAG} --watch
+bundle exec jekyll serve --host 0.0.0.0 --port "${PORT}" ${DRAFTS_FLAG} ${FUTURE_FLAG} --watch
