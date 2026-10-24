@@ -16,6 +16,7 @@ Style guidance and structural conventions for blog posts.
 | [Research Aircraft Structure](./RESEARCH_AIRCRAFT_STRUCTURE.md) | Hybrid keystone and essay structure for research aircraft, and the three article classes |
 | [MathJax Conventions](./MATHJAX_CONVENTIONS.md) | Math density targets by genre, worked examples, numerical sanity checks |
 | [Acronym Handling](./ACRONYM_HANDLING.md) | Spell-out rule, format, and exemption list |
+| [Citation Style](./CITATION_STYLE.md) | Chicago author-date entries, the seven reliability-ranked reference sections, and the source database |
 
 ## Related Sections
 

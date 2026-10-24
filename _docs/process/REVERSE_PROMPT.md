@@ -4,6 +4,19 @@
 
 ## Last Updated
 
+**Date**: 2026-10-24 (third entry)
+**Task**: **Citation style specification written. Committed, NOT pushed.** On the pilot's instruction, `_docs/writing/CITATION_STYLE.md` defines the target reference format. Nothing is converted and no tooling exists yet.
+
+**Contents.** Chicago author-date entries, 18th edition, distilled from free sources with the manual cited by section number. Seven ranked sections, from Primary Sources, Peer-Reviewed down to Tertiary Sources and then Related Posts. A first-rule-that-applies classification in which non-profits count as commercial. Pinned Wikipedia revisions by `oldid`. Templates by source kind, each marked Verified, House or Unverified. A source database with corpus-wide canonical anchors, from which References sections are generated and checked.
+
+**Measured scale.** 415,869 link definitions in 333 posts, 233,350 distinct anchors, 238,013 distinct URLs, of which 198,288 are DOIs and 27,047 are NASA Technical Reports Server links. 14,194 anchors point at more than one URL and 14,634 URLs carry more than one anchor, so anchor consolidation is real work.
+
+**Open decisions** are listed at the end of the document. Agency and university outreach pages are placed under Commercial Sources, pending the pilot's ruling.
+
+**Next.** On the pilot's word, convert A384 by hand against the document as a sample.
+
+## Previous Report (2026-10-24, second entry)
+
 **Date**: 2026-10-24 (second entry)
 **Task**: **A381 to A384 PUBLISHED on the pilot's instruction.**
 

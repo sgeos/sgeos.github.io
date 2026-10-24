@@ -153,6 +153,8 @@ so they can be triaged without rerunning anything.
 
 ## Reference Style
 
+**Legacy format.** This section describes the format every published article uses today. [Citation Style](./CITATION_STYLE.md) defines its replacement, Chicago author-date entries in seven reliability-ranked sections generated from a source database. Until an article is converted, this section governs it.
+
 References in the `## References` section use a categorized format. Each entry is displayed as `[Category, Title][anchor]` where the anchor follows the pattern `category_abbreviated_title`.
 
 - Categories are short labels that group related references. Examples: AI, Claude Code, GitHub, Protocol, Reference, Related Post, Research.
