@@ -4,6 +4,17 @@
 
 ## Last Updated
 
+**Date**: 2026-10-24 (second entry)
+**Task**: **A381 to A384 PUBLISHED on the pilot's instruction.**
+
+The four articles were moved into `_posts/` with `./_publish.sh` in order, A381, A382, A383, A384, and committed together with the process files in one publish commit. `_verify.py` reported 0 errors and 0 warnings on 384 posts and `./_check.sh` passed on Ruby 3.3 before the commit. The commit was pushed with the earlier unpushed commits of this line, and the deploy is watched with `gh run`.
+
+**Disclosure.** During the toolchain cleanup, `./_check.sh --drafts` was run once despite the handoff's hazard list. It builds into a temporary directory removed on exit, and the working tree was unchanged afterwards, so no harm followed, but the rule was broken.
+
+**Still open.** The release announcement drafts for A378 to A380 and the X-Planes series. The *Current Task* section at the top of `TASKLOG.md` still describes the X-Planes drafting line.
+
+## Previous Report (2026-10-24, first entry)
+
 **Date**: 2026-10-24 (first entry)
 **Task**: **A381 to A384, PILOT DECISIONS APPLIED AND STALE RECORD REPAIRED. Committed, NOT pushed, NOT published.**
 

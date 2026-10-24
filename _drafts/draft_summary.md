@@ -17,27 +17,27 @@ Missing sections and prose will need to be drafted.
 Stubs and largely incomplete drafts are assessed for topicality and publication merit.
 
 
-## Orbital Manoeuvres in Terms of Delta-v A381 2026-08-17 DRAFTED
+## Orbital Manoeuvres in Terms of Delta-v A381 2026-08-17 PUBLISHED
 
-`_drafts/orbital_manoeuvres.markdown`, A381, editorial date 2026-08-17, standalone analytical essay, categories
+`_posts/2026-08-17-orbital_manoeuvres.markdown`, A381, editorial date 2026-08-17, standalone analytical essay, categories
 `space space-studies`, no series. Drafted 2026-10-22 on the pilot's instruction to add a textbook orbital manoeuvres
 article if none existed, discussed in terms of delta-v without regard to its source, with a section on the rocket
 equation and mass-shedding delta-v, and with the compound and advanced manoeuvres a textbook covers. A90 surveys the
-basics, and this article links back to it. **NOT published.**
+basics, and this article links back to it. **Published 2026-10-24.**
 
-**Current status 2026-10-24. All four passes and the process phrasing and primary source pass complete. NOT published.** 1,264 lines, 31 display equations and 77 references. It must publish first, because A382 and A384 link to it. The history of the set's passes is in *A381 to A384 Pass History 2026-10-22 to 2026-10-24* below the A384 entry.
+**Current status 2026-10-24. All four passes and the process phrasing and primary source pass complete. PUBLISHED 2026-10-24 on the pilot's instruction**, with A381 to A384 moved together in one publish commit, taking the corpus to 384 posts. 1,264 lines, 31 display equations and 77 references. It must publish first, because A382 and A384 link to it. The history of the set's passes is in *A381 to A384 Pass History 2026-10-22 to 2026-10-24* below the A384 entry.
 
 **Status at drafting 2026-10-22, superseded by the current status above.** Drafting pass complete. 781 lines,
 18 display equations, 29 references, 8 DOI-linked, 20 Wikipedia and 1 related post. Every number is computed by
 `tmp/a381/numbers.py`. Three sources are cited at title level only. `_verify.py` 0 and 0, scratch build with A381 to
 A384 ok, render audit clean on 551 pages. It must publish first, because A382 and A384 link to it.
 
-## Solar Sailing A382 2026-08-18 DRAFTED
+## Solar Sailing A382 2026-08-18 PUBLISHED
 
-`_drafts/solar_sailing.markdown`, A382, editorial date 2026-08-18, drafted as A381 at 2026-08-17 and moved forward one slot, standalone analytical essay, categories
-`space space-studies`, no series. Drafted 2026-10-22 on the pilot's specification, replacing the stub. **NOT published.**
+`_posts/2026-08-18-solar_sailing.markdown`, A382, editorial date 2026-08-18, drafted as A381 at 2026-08-17 and moved forward one slot, standalone analytical essay, categories
+`space space-studies`, no series. Drafted 2026-10-22 on the pilot's specification, replacing the stub. **Published 2026-10-24.**
 
-**Current status 2026-10-24. All four passes and the process phrasing and primary source pass complete. NOT published.** 1,755 lines, 36 display equations and 96 references. It must publish after A381 and before A383 and A384. The history of the set's passes is in *A381 to A384 Pass History 2026-10-22 to 2026-10-24* below the A384 entry.
+**Current status 2026-10-24. All four passes and the process phrasing and primary source pass complete. PUBLISHED 2026-10-24 on the pilot's instruction**, with A381 to A384 moved together in one publish commit, taking the corpus to 384 posts. 1,755 lines, 36 display equations and 96 references. It must publish after A381 and before A383 and A384. The history of the set's passes is in *A381 to A384 Pass History 2026-10-22 to 2026-10-24* below the A384 entry.
 
 It presents the concept and basic mathematics, then generalized parametric equations in the star's luminosity, mass and
 radius and the craft's mass, area, reflectance, emissivities and steering angles, then the Sun's values and four other
@@ -53,16 +53,16 @@ the A381 link was added. **Extended 2026-10-22** with a section on orbital manoe
 sailing with secondary propulsion, on the pilot's instruction. Now 1,255 lines, 22 display equations and 45 references,
 with the inclination-cranking formula checked by a three-dimensional integration in `tmp/a382/numbers.py`.
 
-## Mass Drivers A383 2026-08-19 DRAFTED
+## Mass Drivers A383 2026-08-19 PUBLISHED
 
-`_drafts/mass_drivers.markdown`, A383, editorial date 2026-08-19, standalone analytical essay, categories
-`space space-studies`, no series. Drafted 2026-10-22 on the pilot's specification, replacing the stub. **NOT published.**
+`_posts/2026-08-19-mass_drivers.markdown`, A383, editorial date 2026-08-19, standalone analytical essay, categories
+`space space-studies`, no series. Drafted 2026-10-22 on the pilot's specification, replacing the stub. **Published 2026-10-24.**
 It gives a textbook description and parametric equations, then one-body launches with corrective manoeuvres, an
 unbound-launch note, siting for one-body orbits, launches into parent and solar orbits from the Moon, Phobos, Deimos,
 Ceres and Vesta with release-site geometry, inter-body transfer with timing and corrections, full-circumference ring
 tracks with lanes, and what cargo experiences at release.
 
-**Current status 2026-10-24. All four passes and the process phrasing and primary source pass complete. NOT published.** 1,457 lines, 30 display equations and 82 references. It must publish after A381 and A382 and before A384. The history of the set's passes is in *A381 to A384 Pass History 2026-10-22 to 2026-10-24* below the A384 entry.
+**Current status 2026-10-24. All four passes and the process phrasing and primary source pass complete. PUBLISHED 2026-10-24 on the pilot's instruction**, with A381 to A384 moved together in one publish commit, taking the corpus to 384 posts. 1,457 lines, 30 display equations and 82 references. It must publish after A381 and A382 and before A384. The history of the set's passes is in *A381 to A384 Pass History 2026-10-22 to 2026-10-24* below the A384 entry.
 
 **Status at drafting 2026-10-22, superseded by the current status above.** Drafting pass complete. 927 lines,
 17 display equations, 20 references, 4 DOI-linked, 14 Wikipedia and 2 related posts. Every number is computed by
@@ -70,16 +70,16 @@ tracks with lanes, and what cargo experiences at release.
 `_verify.py` 0 and 0, scratch build with A381 to A384 ok, render audit clean on 551 pages. It must publish after
 A381 and A382 and before A384, which links to it.
 
-## Mercury as a Colony and a Launch Site A384 2026-08-20 DRAFTED
+## Mercury as a Colony and a Launch Site A384 2026-08-20 PUBLISHED
 
-`_drafts/mercury_as_colony_and_launch_site.markdown`, A384, editorial date 2026-08-20, standalone analytical essay,
+`_posts/2026-08-20-mercury_as_colony_and_launch_site.markdown`, A384, editorial date 2026-08-20, standalone analytical essay,
 categories `space astronomy space-studies`, no series. Drafted 2026-10-22 as A381 and renumbered three times the same day
 on the pilot's instruction. It tests, with orbital mechanics, solar radiation pressure and standard physics as a function of
 distance from the Sun, the hypothesis that Mercury is the hardest body to colonize and, once colonized, the best launch
 site for probes within the solar system and to neighboring stars. It also tests the broader form, that Mercury's value
-lies in where it is rather than in what it is, and that the same holds for the innermost body of any star. **NOT published.**
+lies in where it is rather than in what it is, and that the same holds for the innermost body of any star. **Published 2026-10-24.**
 
-**Current status 2026-10-24. All four passes and the process phrasing and primary source pass complete. NOT published.** 1,828 lines, 25 display equations and 106 references. It must publish last of the four. On 2026-10-24, on the pilot's ruling, the exospheric pressure passage keeps Wikipedia's 0.5 nanopascal or less, adds the upper limit of 0.1 to 1 micropascal from Lammer et al. 2026, an EGU conference abstract, and states a hypothetical range from zero to 1 micropascal, whose top gives an air column of 2.7 × 10⁻⁷ kg/m², computed in `tmp/a384/numbers.py`. The history of the set's passes is in *A381 to A384 Pass History 2026-10-22 to 2026-10-24* below the A384 entry.
+**Current status 2026-10-24. All four passes and the process phrasing and primary source pass complete. PUBLISHED 2026-10-24 on the pilot's instruction**, with A381 to A384 moved together in one publish commit, taking the corpus to 384 posts. 1,828 lines, 25 display equations and 106 references. It must publish last of the four. On 2026-10-24, on the pilot's ruling, the exospheric pressure passage keeps Wikipedia's 0.5 nanopascal or less, adds the upper limit of 0.1 to 1 micropascal from Lammer et al. 2026, an EGU conference abstract, and states a hypothetical range from zero to 1 micropascal, whose top gives an air column of 2.7 × 10⁻⁷ kg/m², computed in `tmp/a384/numbers.py`. The history of the set's passes is in *A381 to A384 Pass History 2026-10-22 to 2026-10-24* below the A384 entry.
 
 **Status at drafting 2026-10-22, superseded by the current status above.** Drafting pass complete, including the revision. 1,314 lines, 17 display equations, 47 references, 16 DOI-linked, 25 Wikipedia and 6 related posts, all
 back-references, three of them to A381, A382 and A383. Every number is computed by `tmp/a384/numbers.py` and
@@ -103,6 +103,8 @@ and references are 1,221, 31 and 73 for A381, 1,710, 36 and 88 for A382, 1,360, 
 **Process phrasing and primary source pass 2026-10-22 for A381 to A384.** On the pilot's rulings, prose that reported the searches made for each article was removed from the literature reviews, the former Gaps subsections and the Epistemic State sections, and primary sources were added beside or in place of Wikipedia where an abstract states the claim. Sizes now: A381 1,264 lines, 31 display equations and 77 references; A382 1,755, 36 and 96; A383 1,457, 30 and 82; A384 1,818, 25 and 105. Claims with no primary source found keep Wikipedia and are named in each Epistemic State. Not published, and they publish in order A381 to A384.
 
 **Pilot decisions applied 2026-10-24.** A384 cites Lammer et al. 2026 for a looser upper limit on Mercury's exospheric pressure and states a hypothetical range from zero to 1 micropascal, taking it to 1,828 lines and 106 references. The Venus surface figures, the Proxima d calculation distance of 0.02881 AU and the remaining Wikipedia-only claims stand as reported. The per-article entries above were rewritten the same day to lead with their current status, because each still opened with its drafting-pass note that the later passes had not been run.
+
+**Published 2026-10-24.** On the pilot's instruction, A381 to A384 were moved together into `_posts/` with `./_publish.sh` in order, after `_verify.py` reported 0 and 0 on 384 posts. The publish commit carries the four moves and these process files.
 
 ## Who Keeps the Value When a Company Splits A380 2026-08-16 PUBLISHED
 
@@ -11231,9 +11233,9 @@ This is a template file, not a draft. It provides the standard structure for new
 
 ## Summary
 
-Fourteen files exist in `_drafts/`. One is a template. One is this summary.
-Four are A381 to A384, drafted 2026-10-22 and described at the top of this file.
+Ten files exist in `_drafts/`. One is a template. One is this summary.
 Eight are the pre-release candidates listed below.
+No space studies drafts remain, because A381 to A384 were published together on 2026-10-24.
 No X-Planes drafts remain, because the whole series, A297 to A368, was published in commit `579121f`.
 No stubs remain.
 A79 through A144 have been published.
