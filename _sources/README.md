@@ -6,9 +6,9 @@ One record per cited source. Every converted article's References section is gen
 records by `_lib/sources.py`, so a correction made here reaches every article that cites the source.
 The rules the records follow are in [Citation Style](../_docs/writing/CITATION_STYLE.md).
 
-**Status.** Prototype in use. It holds 33,988 sources and 11,648 venues for the sixteen converted articles,
-A369 to A384, imported on 2026-10-24. Of the venues, 7,424 are credited with peer review. Most sources belong
-to the five reference surveys, A369 to A373. Sources the articles share are one record each. The procedure is
+**Status.** Prototype in use, holding the converted articles A297 to A384. Counts are in the latest
+[Reverse Prompt](../_docs/process/REVERSE_PROMPT.md) entry, since they change with every import. Most sources
+belong to the reference surveys of A297 to A373. Sources the articles share are one record each. The procedure is
 [Source Conversion](../_docs/process/SOURCE_CONVERSION.md).
 
 ## Layout
@@ -21,6 +21,7 @@ to the five reference surveys, A369 to A373. Sources the articles share are one 
 | `articles/<post stem>.json` | For an article that names a source differently from the store, its names mapped to canonical anchors |
 | `articles/<post stem>.links.json` | Link text in an article that is not a citation label, left alone by `fix-labels` |
 | `domains.toml` | Judgements about publishers of web sources, made once per host, each with its reason |
+| `acronyms.txt` | Words kept in capitals when a title registered in capitals is recased, derived from registry titles by `sources_import.py acronyms` |
 | `publishers.toml` | A publisher's own statement that it peer reviews, with a verbatim quote, applied to its venues by `credit-venues` |
 
 Jekyll copies no directory whose name begins with an underscore, so nothing here becomes a page. The
@@ -40,6 +41,12 @@ python3 _lib/sources_import.py pin-wiki POST PINS.json --saved DIR
 python3 _lib/sources_import.py review POST DRAFTS.json --flagged --second-opinion --saved DIR
 python3 _lib/sources_import.py import POST _sources/decisions/AXXX.toml [--write] [--replace]
 python3 _lib/sources_import.py import POST DECISIONS --write --refresh   # also rebuild unannotated records
+python3 _lib/sources_import.py import PRE.markdown DECISIONS --as-post POST --write   # from a pre-conversion copy
+python3 _lib/sources_import.py fetch-reports ntrs|osti|openlibrary tmp/sources POST... [--ids FILE] [--shard k/n]
+python3 _lib/sources_import.py fetch-openalex DOIS.txt tmp/sources      # OpenAlex, a hundred DOIs a request
+python3 _lib/sources_import.py read-archive META.json... --out OUT.json # Internet Archive captures' own metadata
+python3 _lib/sources_import.py acronyms tmp/sources --write             # rebuild acronyms.txt
+python3 _lib/survey.py years POST... [--edits FILE.toml]                 # recompute stated year statistics
 python3 _lib/sources_import.py credit-venues [--write]                   # apply publishers.toml
 python3 _lib/sources.py fix-labels POST     # set in-text labels to the database's
 python3 _lib/sources.py diff-labels PRE POST   # what conversion changed, labels apart
@@ -50,8 +57,18 @@ twice. The record keeps the DOI the article cited and stores the primary as `doi
 must still lead where the article said. `diff-labels` compares every link target as well as the text, so a
 changed target fails the comparison.
 
-**`--refresh` rebuilds a record from its registry data** when the importer's rules change. A record carrying a
-`note` holds a human correction and is never rebuilt, and Wikipedia and related-post records are left alone.
+**`--refresh` rebuilds a record from its registry data** when the importer's rules change. A record whose `note`
+records a human decision is never rebuilt, and Wikipedia and related-post records are left alone. A note the
+importer itself writes about provenance, such as "Metadata from the NASA Technical Reports Server record", marks
+no correction, so such a record is rebuilt; the patterns are `_PROVENANCE` in `_lib/sources_import.py`.
+
+**An import from a pre-conversion copy needs `--as-post`.** An article's name map is filed under its post's
+name, and an import given a copy once filed it under the copy's name, which no article reads.
+
+**Where a record comes from.** In order of preference, a DOI's record is Crossref's, then OpenAlex's for a DOI
+Crossref lacks, then OpenAlex's fetched in bulk for a harvested survey. A NASA Technical Reports Server, OSTI or
+Open Library link takes its server's own record. A web page takes the metadata read from it, and only a page
+that refused reading falls back to the article's label. Each record's note says which.
 
 **Publisher statements.** A venue may be credited from its publisher's own statement in
 `publishers.toml`. Each entry names the publisher as Crossref spells it, with aliases, says whether it covers

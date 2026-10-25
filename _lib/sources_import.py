@@ -131,6 +131,67 @@ def normalise_title(title):
     return re.sub(r"(?<![A-Z])\.$", "", title)
 
 
+_ACRONYMS = None
+
+
+def acronyms():
+    """Lower-case words kept in capitals when an all-capitals title is recased.
+
+    WHY. NTRS registers most of its older titles in capitals, and lowering them
+    gave `Nasa` and `Usaf`. The list in `_sources/acronyms.txt` is derived from
+    how mixed-case titles print each word, so it is data, not a guess.
+    """
+    global _ACRONYMS
+    if _ACRONYMS is None:
+        import os
+        path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "_sources", "acronyms.txt")
+        _ACRONYMS = set()
+        if os.path.exists(path):
+            _ACRONYMS = {l.strip() for l in open(path, encoding="utf-8") if l.strip() and not l.startswith("#")}
+    return _ACRONYMS
+
+
+def build_acronyms(cache, dictionary="/usr/share/dict/words"):
+    """Words mixed-case registry titles print in capitals, for `_sources/acronyms.txt`.
+
+    A token is listed when mixed-case titles in the cached Crossref, OpenAlex and
+    NTRS records print it in capitals at least three times and at least four
+    times as often as otherwise, and it is not an ordinary word, so that `BOLT`
+    in an all-capitals title is not kept. Deterministic for a given cache.
+    """
+    import collections
+    import glob
+    import json
+    import os
+    up, low = collections.Counter(), collections.Counter()
+
+    def feed(t):
+        letters = re.sub(r"[^A-Za-z]", "", t or "")
+        if not letters or sum(c.isupper() for c in letters) / len(letters) > 0.6:
+            return
+        for w in re.findall(r"[A-Za-z][A-Za-z0-9/&.\-]*", t):
+            k = w.lower().strip(".")
+            if re.fullmatch(r"[A-Z][A-Z0-9/&\-]*[A-Z0-9]", w.strip(".")) and len(re.sub(r"[^A-Z]", "", w)) >= 2:
+                up[k] += 1
+            else:
+                low[k] += 1
+    for f in sorted(glob.glob(os.path.join(cache, "crossref", "*.json"))):
+        try:
+            feed(((json.load(open(f, encoding="utf-8")).get("title")) or [""])[0])
+        except (ValueError, IndexError, AttributeError):
+            continue
+    for sub in ("openalex_bulk", "ntrs"):
+        for f in sorted(glob.glob(os.path.join(cache, sub, "*.json"))):
+            try:
+                feed(json.load(open(f, encoding="utf-8")).get("title"))
+            except (ValueError, AttributeError):
+                continue
+    words = {w.strip().lower() for w in open(dictionary, encoding="utf-8")} if os.path.exists(dictionary) else set()
+    # A PLURAL OF AN ORDINARY WORD, `aces` or `airs`, is ordinary too; the dictionary lists singulars.
+    ordinary = lambda k: k in words or (k.endswith("s") and k[:-1] in words) or (k.endswith("es") and k[:-2] in words)
+    return sorted(k for k, n in up.items() if n >= 3 and n >= 4 * low[k] and not ordinary(k))
+
+
 def headline_case(title):
     """A proposed Chicago headline-case title. Review every result."""
     title = normalise_title(title)
@@ -139,7 +200,12 @@ def headline_case(title):
         # A word holding a digit is a designation, as in `Resolution B3`, and keeps
         # its capitals. An acronym such as `IAU` cannot be told from a word here and
         # needs a title decision.
-        words = [w if re.search(r"\d", w) else w.lower() for w in words]
+        acr = acronyms()
+        def keep(w):
+            k = re.sub(r"[^\w/&-]", "", w).lower()
+            return bool(re.search(r"\d", w)) or k in acr or (
+                "/" in k and all(len(x) == 1 or x in acr for x in k.split("/") if x))
+        words = [w if keep(w) else w.lower() for w in words]
     out = []
     for i, w in enumerate(words):
         first = i == 0 or words[i - 1].endswith((":", "?", "!", "\u2014"))
@@ -158,15 +224,153 @@ def _given(g):
     return re.sub(r"\b([A-Z])(?=\s|$)", r"\1.", g)
 
 
+def _norm_suffix(x):
+    """`Jr` as `Jr.`, `ii` as `II`: a generational suffix as Chicago prints it."""
+    x = x.strip().rstrip(".")
+    return x.capitalize() + "." if x.lower() in ("jr", "sr") else x.upper()
+
+
+_SUFFIX = re.compile(r"^(Jr|Sr|II|III|IV)\.?$", re.I)
+# Each initial is followed by a full stop, a space or the end, so `CHEN` in
+# capitals is a name, not four initials.
+_INITIALS = re.compile(r"^(?:[A-Z](?:\.\s?|\s+|$)){1,4}$")
+# Words that make a byline an organisation, as NTRS and OSTI list their centres and
+# laboratories among the authors.
+# Words that are also surnames, such as Branch, Board or Service, are left out, so
+# that `Kevin Branch` stays a person.
+_ORG = re.compile(r"\b(Cent(er|re)|Laborator(y|ies)|Lab\.|Labs|Univ\.|Universit[yiaéeà]|Universidade|Universidad|"
+                  r"Politecnico|Division|Institute|Office|"
+                  r"Corporation|Corp\.|Co\.|Inc\.?|Company|Agency|Administration|Department|Dept\.|"
+                  r"Command|Association|Society|Committee|Directorate|Bureau|Council|"
+                  r"Establishment|Facility|Aeronautics|Organi[sz]ation|Lab|Academy|Naval|USDOE|"
+                  r"Research)(?!\w)")
+_PARTICLES = {"de", "del", "della", "der", "van", "von", "da", "di", "du", "le", "la", "dos", "das", "ten", "ter"}
+
+
+_DICT = None
+_MINOR_CORP = {"and", "for", "the", "of", "to", "in", "at", "on", "by", "or", "a", "an"}
+
+
+def _recase_corporate(name):
+    """A corporate author written in capitals, recased word by word.
+
+    A listed acronym, a two-letter word such as a state code, and a short word
+    that is not an ordinary word, such as `AFB`, keep their capitals; minor words
+    are lowered; every other word is capitalised, so `AIR FORCE` becomes `Air Force`.
+    """
+    global _DICT
+    if _DICT is None:
+        import os
+        path = "/usr/share/dict/words"
+        _DICT = {w.strip().lower() for w in open(path, encoding="utf-8")} if os.path.exists(path) else set()
+    acr = acronyms()
+    out = []
+    for i, w in enumerate(name.split()):
+        k = w.lower()
+        if k in _MINOR_CORP and i:
+            out.append(k)
+        elif k in acr or (w.isalpha() and (len(w) == 2 or (len(w) == 3 and k not in _DICT))):
+            out.append(w)
+        else:
+            out.append(w.capitalize())
+    return " ".join(out)
+
+
+def _repair_people(people):
+    """Registry author lists with their deposit habits undone. Each fix is a habit seen.
+
+    - DTIC splits one name in two, `{Binion, Jr}` and `{T. W.}`; the initials rejoin
+      the previous name and the suffix moves to the family name.
+    - A suffix filed as the given name, `{Binion, Jr}`, belongs to the family name.
+    - Initials filed with the family name, `{M. Jaffal, Hayder}`, are given names.
+    - A lone initial as the family name, `{P, Nishanth}`, swaps with the given name.
+    - An organisation filed as a family and given name is an organisation.
+    """
+    out = []
+    for p in people or []:
+        p = dict(p)
+        # AN AFFILIATION IN SQUARE BRACKETS inside a name, as OSTI deposits it on
+        # Crossref, `Bays, Samuel E. [Idaho National Laboratory]`, is not the name,
+        # and brackets in a label break the link around it.
+        for k in ("family", "given", "name"):
+            if p.get(k):
+                p[k] = re.sub(r"\s*\[[^\]]*\]?\s*$|\s*\[[^\]]*\]\s*", " ", p[k]).strip().rstrip(",")
+        # A PERSON FILED AS AN ORGANISATION, `{name: Bays, Samuel E.}`, is a person.
+        if p.get("name") and not p.get("family") and re.fullmatch(r"[^,]+, [^,]+", p["name"]) \
+                and not _ORG.search(p["name"]):
+            p = _person(p["name"]) or p
+        fam, giv = (p.get("family") or "").strip(), (p.get("given") or "").strip()
+        # A SUFFIX ALONE AS THE FAMILY NAME belongs to the name before it, as DTIC
+        # deposits `{Binion, T. W.}` then `{Jr}`; with no name before it, as AIAA's
+        # `{II, J.}`, it names no one.
+        if fam and _SUFFIX.match(fam):
+            if out and out[-1].get("family") and not giv:
+                out[-1]["family"] = f"{out[-1]['family']} {_norm_suffix(fam)}"
+            continue
+        # `et al.` deposited as an author is not one.
+        if re.fullmatch(r"(et\.?\s*)?al\.?", fam, re.I) or re.fullmatch(r"et\.?\s*al\.?", f"{giv} {fam}".strip(), re.I):
+            continue
+        if fam and not giv and _INITIALS.match(fam) and out and out[-1].get("family"):
+            prev = out[-1]
+            pg = (prev.get("given") or "").strip()
+            if _SUFFIX.match(pg):
+                prev["family"] = f"{prev['family']} {_norm_suffix(pg)}"
+                prev["given"] = fam
+            else:
+                prev["given"] = (pg + " " + fam).strip()
+            continue
+        if fam and _SUFFIX.match(giv):
+            fam, giv = f"{fam} {_norm_suffix(giv)}", ""
+        # An honorific is not a given name, `Dr.A`.
+        giv = re.sub(r"^(Dr|Prof|Mr|Mrs|Ms|Engr)\.?\s*(?=[A-Z])", "", giv)
+        m = re.match(r"^((?:[^\W\d_]\.\s*|[A-Z]\s+)+)([^\W\d_][^\W\d_].+)$", fam)
+        if m and not _INITIALS.match(m.group(2)):
+            giv, fam = (giv + " " + m.group(1).strip()).strip(), m.group(2)
+        if fam and _INITIALS.match(fam) and re.search(r"[A-Za-z]{3,}", giv):
+            words = giv.split()
+            longest = [w for w in words if len(w.strip(".")) >= 3][-1]
+            rest = [w for w in words if w != longest] + [x.rstrip(".") + "." for x in fam.split()]
+            fam, giv = longest, " ".join(rest)
+        both = f"{giv} {fam}".strip()
+        if fam and _ORG.search(both.title() if both.isupper() else both):
+            name = both
+            # DTIC DEPOSITS ITS CORPORATE AUTHORS IN CAPITALS, `AIR FORCE FLIGHT TEST CENTER
+            # EDWARDS AFB CA`; they are recased with short words and acronyms kept.
+            if name.isupper():
+                name = _recase_corporate(name)
+            p = {"name": name}
+        elif fam:
+            p["family"], p["given"] = fam, giv
+            if not giv:
+                p.pop("given")
+        out.append(p)
+    return out
+
+
 def _family(f):
     """Family names as printed. A generational suffix takes no comma in the 18th edition."""
     f = sources.clean_text(f)
     # A footnote mark and a typographic apostrophe are typesetting, not the name:
     # `Azuma*` is Azuma, and `O’Brien` is written as the articles write it, `O'Brien`.
-    f = re.sub(r"[*\u2217\u2020\u2021,;]+$", "", f).replace("\u2019", "'")
+    f = re.sub(r"[*\u2217\u2020\u2021,;]+$", "", f).replace("\u2019", "'").replace("`", "'")
+    # A SUFFIX IN THE FAMILY FIELD, `HAMILTON, II`, is set apart before recasing,
+    # which would otherwise give `Hamilton, Ii`.
+    suffix = ""
+    m = re.match(r"^(.*?),?\s+(Jr|Sr|II|III|IV)\.?$", f, re.I)
+    if m and m.group(1):
+        f, suffix = m.group(1), " " + _norm_suffix(m.group(2))
+    # A FAMILY NAME IN LOWER CASE, `ashley` in an Open Library author record, is capitalised.
+    if f.islower() and " " not in f:
+        f = f.capitalize()
     # A FAMILY NAME IN CAPITALS, `KIM` or `DU`, is recased; a two-letter one too.
     if f.isupper() and len(re.sub(r"[^A-Z]", "", f)) >= 2:
         f = re.sub(r"[A-Z]+", lambda m: m.group(0)[0] + m.group(0)[1:].lower(), f)
+    # A FULL STOP AFTER A WHOLE NAME, `McRuer.`, is punctuation, not an initial.
+    f = re.sub(r"(?<=[a-z]{2})\.$", "", f)
+    # `MCNULTY` recased is `McNulty`: the letter after `Mc` keeps its capital.
+    f = re.sub(r"\bMc([a-z])", lambda m: "Mc" + m.group(1).upper(), f)
+    # NTRS SPACES A PREFIX, `Mc Kinney`, which the name does not.
+    f = re.sub(r"^(Mc|Mac) (?=[A-Z])", r"\1", f) + suffix
     # AIAA deposits an apostrophe as a caret, `O^Neill`, a typesetting code.
     f = f.replace("^", "'")
     return re.sub(r",\s*(Jr\.|Sr\.|II|III|IV)$", r" \1", f)
@@ -180,30 +384,55 @@ def _family(f):
 # word boundary after a full stop at the end of the name never matches.
 _AFFILIATION = re.compile(r"\b(Department|Dept\.|University|Universit[äa]t|Faculty|School of|Laborator(y|ies)|"
                           r"Hospital|College|Institute of|Institut|Centre for|Center for|Ph\.D\.|MBA|"
-                          r"Inc\.|Ltd\.?|GmbH|S\.A\.|Corporation|Conservatory|Magazine|Academy of)(?!\w)", re.I)
+                          r"Inc\.|Ltd\.?|GmbH|S\.A\.|Corporation|Conservatory|Magazine|Academy of|"
+                          r"(Assistant |Associate )?Professor,|Group of Institutions|Institutions)(?!\w)", re.I)
 # A BYLINE THAT NAMES NO ONE is no author: the work is then listed under its title.
 _NO_ONE = re.compile(r"^(A|Our|Special|From Our|By a) Correspondents?$|^Anonymous$|^Anon\.?$", re.I)
 
 
+# Registry placeholders for no author, such as Wolters Kluwer's `&NA;` for "not available".
+_PLACEHOLDER = re.compile(r"^&?N/?A;?$|^&NA;?$|^Not Available$|^Unknown$", re.I)
+
+
 def _authors(people):
     out = []
+    people = [p for p in people or [] if not _PLACEHOLDER.match((p.get("family") or p.get("name") or "").strip())
+              or p.get("given")]
+    people = _repair_people(people)
     has_person = any(p.get("family") for p in people or [])
+    families = {(p.get("family") or "").lower() for p in people or []}
     for p in people or []:
         name = p.get("name") or ""
+        # A LONE WORD REPEATING A CO-AUTHOR'S SURNAME, Open Library's `McRuer.`, is a duplicate.
+        if not p.get("family") and name.rstrip(".").lower() in families:
+            continue
         if not p.get("family") and name and _NO_ONE.match(name.strip()):
+            continue
+        # AN ORGANISATION BESIDE PEOPLE is their affiliation, as NTRS lists a centre.
+        if not p.get("family") and name and has_person and _ORG.search(name):
             continue
         # An affiliation is dropped when people are also named; a record whose only
         # author is an organisation keeps it, unless it is plainly a department.
         if not p.get("family") and name and _AFFILIATION.search(name) and (
                 has_person or re.search(r"\bDepartment\b|\bFaculty\b|\bDept\.", name)):
             continue
+        # A NAME WITH NO LETTERS, `{family: "", given: ","}`, is a registry artefact.
+        if "family" in p and not re.search(r"\w", p.get("family") or ""):
+            if re.search(r"\w", p.get("given") or ""):
+                p = {"family": p["given"]}
+            else:
+                continue
         if p.get("family"):
             a = {"family": _family(p["family"])}
             if p.get("given"):
                 a["given"] = _given(p["given"])
             out.append(a)
         elif p.get("name"):
-            out.append({"name": sources.clean_text(p["name"])})
+            # A WORD IN CAPITALS in an organisation's name, `The EDITORS`, is recased
+            # unless it is a listed acronym, so `NASA` stays.
+            n = re.sub(r"\b[A-Z]{4,}\b", lambda m: m.group(0) if m.group(0).lower() in acronyms()
+                       else m.group(0).capitalize(), sources.clean_text(p["name"]))
+            out.append({"name": n})
     return out
 
 
@@ -321,7 +550,8 @@ def record_from_crossref(anchor, msg, cited_doi=None):
         for k_src, k_dst in (("volume", "volume"), ("issue", "issue")):
             if msg.get(k_src):
                 rec[k_dst] = sources.clean_text(msg[k_src])
-        if msg.get("page"):
+        # A PLACEHOLDER FOR PAGES, Wiley's `n/a-n/a`, is no page range.
+        if msg.get("page") and not re.search(r"\bn/?a\b", msg["page"], re.I):
             rec["pages"] = sources.clean_text(msg["page"])
         elif msg.get("article-number"):
             rec["pages"] = sources.clean_text(msg["article-number"])
@@ -364,7 +594,16 @@ def record_from_crossref(anchor, msg, cited_doi=None):
 
 
 def _openalex_person(a):
-    """{family, given} from an OpenAlex authorship, preferring the raw `Family, Given` form."""
+    """{family, given} from an OpenAlex authorship.
+
+    OpenAlex's display name, `A. Yu. Nazarov`, is parsed first where it has given
+    names before the family name; its raw form, `Nazarov A.Yu.`, defeats parsing.
+    """
+    disp = ((a.get("author") or {}).get("display_name") or "").strip()
+    if disp and " " in disp and "," not in disp:
+        person = _person(disp)
+        if person and person.get("family"):
+            return person
     raw = (a.get("raw_author_name") or "").strip()
     if "," in raw:
         fam, giv = [x.strip() for x in raw.split(",", 1)]
@@ -380,40 +619,329 @@ OPENALEX_SOURCE_KIND = {"journal": "journal-article", "conference": "proceedings
                         "repository": "preprint", "book series": "chapter", "ebook platform": "book"}
 
 
-def record_from_openalex(anchor, work, doi):
-    """A draft record from OpenAlex, for a DOI Crossref does not hold.
+# OpenAlex's own work type decides the kind where it is not an article, since a
+# chapter or report hosted in a journal-like source is still a chapter or report.
+OPENALEX_WORK_KIND = {"book-chapter": "chapter", "book": "book", "dissertation": "thesis",
+                      "report": "report", "dataset": "dataset", "standard": "standard",
+                      "preprint": "preprint"}
+
+
+def record_from_openalex(anchor, work, doi, bulk=False):
+    """A draft record from OpenAlex.
 
     WHY. DataCite registers some DOIs, LIPIcs among them, and DataCite's host is
     outside the hosts this project reads. OpenAlex indexes DataCite works. It
     may merge a paper with its preprint, so the location whose landing page
     carries this DOI is preferred, and the record says where it came from.
+
+    `bulk` marks a record fetched in OpenAlex's batches because Crossref's
+    public pool was too slow for a harvested survey, not because Crossref lacks
+    the work, and the note says which. See `fetch_openalex_bulk`.
     """
     doi = doi.lower()
     locs = work.get("locations") or []
     loc = next((l for l in locs if doi in (l.get("landing_page_url") or "").lower()), None) \
         or work.get("primary_location") or {}
     src = loc.get("source") or {}
-    kind = OPENALEX_SOURCE_KIND.get(src.get("type"), "other")
+    kind = OPENALEX_WORK_KIND.get(work.get("type")) or OPENALEX_SOURCE_KIND.get(src.get("type"), "other")
+    if work.get("type") in ("article", "review", "letter", "editorial") and src.get("type") == "journal":
+        kind = "journal-article"
     b = work.get("biblio") or {}
     rec = {"anchor": anchor, "kind": kind, "doi": doi,
-           "title_published": sources.clean_text(work.get("title") or ""),
-           "authors": [_openalex_person(a) for a in work.get("authorships") or []],
+           "title_published": sources.clean_text(work.get("title") or work.get("display_name") or ""),
+           "authors": _authors([_openalex_person(a) for a in work.get("authorships") or []]),
            "year": work.get("publication_year"),
-           "note": "Not held by Crossref; metadata from OpenAlex."}
-    rec["title"] = headline_case(rec["title_published"])
+           "note": ("Metadata from OpenAlex, fetched in bulk for a harvested survey; Crossref was not asked."
+                    if bulk else "Not held by Crossref; metadata from OpenAlex.")}
+    lang = (work.get("language") or "en").lower()
+    rec["title"] = headline_case(rec["title_published"]) if lang.startswith("en") \
+        else normalise_title(rec["title_published"])
+    if src.get("host_organization_name"):
+        rec["publisher"] = sources.clean_text(src["host_organization_name"])
+        rec["publisher_registry"] = rec["publisher"]
     name = sources.clean_text(src.get("display_name") or "")
     if kind in ("journal-article", "proceedings-paper", "chapter", "preprint"):
         rec["container"] = _strip_the(name) if kind == "journal-article" else name
         if kind in ("journal-article", "proceedings-paper"):
             rec["venue"] = rec["container"]
-    elif name:
+    elif name and not rec.get("publisher"):
         rec["publisher"] = name
     if b.get("volume"):
         rec["volume"] = str(b["volume"])
     if b.get("issue"):
         rec["issue"] = str(b["issue"])
-    if b.get("first_page"):
-        rec["pages"] = str(b["first_page"]) + (f"-{b['last_page']}" if b.get("last_page") else "")
+    if b.get("first_page") and not re.search(r"\bn/?a\b", str(b["first_page"]), re.I):
+        rec["pages"] = str(b["first_page"]) + (f"-{b['last_page']}" if b.get("last_page")
+                                               and b["last_page"] != b["first_page"] else "")
+    # A journal entry names no publisher in Chicago; the registry's is kept for venue crediting.
+    if rec["kind"] == "journal-article":
+        rec.pop("publisher", None)
+    else:
+        rec.pop("publisher_registry", None)
+    return rec
+
+
+# ------------------------------------------------------------ report servers
+#
+# WHY. The X-Planes series cites 26,972 NASA Technical Reports Server records,
+# 2,309 OSTI records and 594 Open Library books, none of which has a DOI. Each
+# server's own record is read once into the cache, and the entry is built from
+# it, never from the article's label, which held surnames and a year only.
+
+def _person(name):
+    """{family, given} from `Family, Given` or `Given Family`, or {name} for an organisation.
+
+    A comma that only introduces a suffix, `Garrison P Layton, Jr.`, does not mark
+    `Family, Given`. `WATSON R.`, a family name before initials with no comma, is
+    read in that order. A particle stays with the family name, `Del Frate`.
+    """
+    name = sources.clean_text(re.sub(r"\s*\[[^\]]*\]\s*$", "", name or "")).strip().rstrip(",")
+    # A REMARK IN BRACKETS, `(Deceased)` or `(NASA retiree)`, is not the name.
+    name = re.sub(r"\s*\([^)]*\)\s*", " ", name).strip()
+    if not name:
+        return None
+    if _ORG.search(name):
+        return {"name": name}
+    suffix = ""
+    m = re.match(r"^(.*?),\s*(Jr|Sr|II|III|IV)\.?$", name, re.I)
+    if m:
+        name, suffix = m.group(1).strip(), " " + _norm_suffix(m.group(2))
+    if "," in name:
+        fam, giv = [x.strip() for x in name.split(",", 1)]
+        m = re.match(r"^(Jr|Sr|II|III|IV)\.?,?\s*(.*)$", giv, re.I) or re.match(r"^(.*?),?\s+(Jr|Sr|II|III|IV)\.?$", giv, re.I)
+        if m and _SUFFIX.match(m.group(1)):
+            suffix, giv = " " + _norm_suffix(m.group(1)), m.group(2)
+        elif m:
+            suffix, giv = " " + _norm_suffix(m.group(2)), m.group(1)
+        # AN INITIAL BEFORE THE FAMILY NAME, NTRS's `W Taylor, L., Jr.`, is a given name.
+        m = re.match(r"^((?:[A-Z]\.?\s+)+)([A-Z][a-z].*)$", fam)
+        if m:
+            fam, giv = m.group(2), (giv + " " + m.group(1).strip()).strip()
+        fam = _family(fam + suffix)
+        return {"family": fam, "given": _given(giv)} if giv else {"family": fam}
+    parts = name.split()
+    if len(parts) < 2:
+        return {"family": _family(name + suffix)} if suffix else {"name": name}
+    if parts[-1].rstrip(".") in ("Jr", "Sr", "II", "III", "IV") and len(parts) > 2:
+        suffix = " " + _norm_suffix(parts.pop())
+    if _INITIALS.match(" ".join(parts[1:])) and not _INITIALS.match(parts[0]):
+        fam, giv = parts[0], " ".join(parts[1:])
+    elif len(parts) > 2 and parts[-2].lower() in _PARTICLES:
+        fam, giv = " ".join(parts[-2:]), " ".join(parts[:-2])
+    else:
+        fam, giv = parts[-1], " ".join(parts[:-1])
+    return {"family": _family(fam + suffix), "given": _given(giv)}
+
+
+# NTRS document types. A reprint, preprint or accepted manuscript that names the
+# journal it appeared in is that journal's article; everything else is a report
+# of the issuing centre, or the kind its type names.
+NTRS_KIND = {"CONFERENCE_PAPER": "proceedings-paper", "PRESENTATION": "proceedings-paper",
+             "CONTRIBUTION_TO_LARGER_WORK": "chapter", "BOOK": "book", "BOOK_CHAPTER": "chapter",
+             "THESIS_DISSERTATION": "thesis", "JOURNAL_ARTICLE": "journal-article"}
+NTRS_JOURNAL_TYPES = {"REPRINT", "PREPRINT", "ACCEPTED_MANUSCRIPT", "JOURNAL_ARTICLE"}
+# Centre names NTRS uses for records it migrated rather than for an issuer.
+NTRS_NO_CENTRE = {"Legacy CDMS", "Headquarters", "", None}
+
+
+def _ntrs_number(nums):
+    """The report number to show, a NASA series number first, without NTRS's prefix."""
+    clean = []
+    for n in nums or []:
+        n = re.sub(r"^(Report|Accession|Contract|Grant) Number:\s*", "", n).strip()
+        if n and n not in clean:
+            clean.append(n)
+    nasa = [n for n in clean if n.upper().startswith("NASA")]
+    return (nasa or clean or [None])[0]
+
+
+def record_from_ntrs(anchor, j, ident):
+    """A draft record from a cached NASA Technical Reports Server record.
+
+    The publisher of a report is NASA when its number is a NASA series number,
+    since NASA issued it, else the first author's organisation, else the centre
+    NTRS names, else NASA. NTRS's titles are often in capitals, which headline
+    casing handles, and its names come as either `Family, Given` or `Given Family`.
+    """
+    sti = j.get("stiType") or "OTHER"
+    pubs = [p for p in j.get("publications") or [] if isinstance(p, dict)]
+    pub = next((p for p in pubs if p.get("publicationName")), pubs[0] if pubs else {})
+    date = (pub.get("publicationDate") or "")[:4]
+    people, orgs = [], []
+    for a in j.get("authorAffiliations") or []:
+        meta = a.get("meta") or {}
+        person = _person((meta.get("author") or {}).get("name") or "")
+        if person:
+            people.append(person)
+        org = sources.clean_text((meta.get("organization") or {}).get("name") or "")
+        if org:
+            orgs.append(org)
+    title = sources.clean_text(j.get("title") or "")
+    # NTRS'S LEGACY RECORDS WRITE PARENTHESES AS SLASHES, `/TO 3700 DEG K/`.
+    title = re.sub(r"(^|\s)/([^/]+)/(?=\s|$|[,.:;])", r"\1(\2)", title)
+    kind = NTRS_KIND.get(sti, "report")
+    if sti in NTRS_JOURNAL_TYPES and pub.get("publicationName") and (pub.get("volume") or pub.get("issue")):
+        kind = "journal-article"
+    elif sti in NTRS_JOURNAL_TYPES:
+        kind = "report"
+    rec = {"anchor": anchor, "kind": kind, "url": f"https://ntrs.nasa.gov/citations/{ident}",
+           "title_published": title, "title": headline_case(title), "authors": _authors(people),
+           "year": int(date) if date.isdigit() else None,
+           "note": f"Metadata from the NASA Technical Reports Server record {ident}, type {sti}."}
+    container = sources.clean_text(pub.get("publicationName") or "")
+    if not container and kind == "proceedings-paper":
+        container = sources.clean_text(((j.get("meetings") or [{}])[0] or {}).get("name") or "")
+    if kind == "journal-article":
+        rec["container"] = rec["venue"] = _strip_the(container)
+        for k in ("volume", "issue", "pages"):
+            if pub.get(k):
+                rec[k] = sources.clean_text(str(pub[k]))
+        if pub.get("publisher"):
+            rec["publisher_registry"] = sources.clean_text(pub["publisher"])
+    elif kind in ("proceedings-paper", "chapter") and container:
+        rec["container"] = container
+        if kind == "proceedings-paper":
+            rec["venue"] = container
+    elif kind in ("proceedings-paper", "chapter"):
+        rec["kind"] = kind = "report"
+    if kind in ("report", "book", "thesis"):
+        number = _ntrs_number(j.get("otherReportNumbers"))
+        if number and kind == "report":
+            rec["number"] = number
+        centre = (j.get("center") or {}).get("name")
+        if kind == "thesis":
+            rec["container"] = orgs[0] if orgs else "NASA"
+        elif number and number.upper().startswith("NASA"):
+            rec["publisher"] = "NASA"
+        elif orgs:
+            rec["publisher"] = orgs[0]
+        elif centre not in NTRS_NO_CENTRE:
+            rec["publisher"] = sources.clean_text(centre)
+        else:
+            rec["publisher"] = "NASA"
+    return rec
+
+
+OSTI_KIND = {"Journal Article": "journal-article", "Conference": "proceedings-paper",
+             "Thesis/Dissertation": "thesis", "Book": "book", "Dataset": "dataset",
+             "Patent": "other", "Program Document": "report", "Technical Report": "report"}
+
+
+def _osti_org(org):
+    """An OSTI organisation without its place, `Westinghouse Hanford Co.`."""
+    org = sources.clean_text(org or "")
+    # `ORNL (Oak Ridge National Laboratory (ORNL), Oak Ridge, TN (United States))`
+    m = re.match(r"^[A-Z&-]{2,10} \((.*)\)$", org)
+    if m:
+        org = m.group(1)
+    org = re.sub(r",\s*[^,()]+,\s*[A-Z]{2}\s*\([^()]+\)\s*$", "", org)
+    org = re.sub(r"\s*\((United States|USA)\)\s*$", "", org)
+    org = re.sub(r",\s*[A-Z][A-Za-z .]+,\s*[A-Z]{2}$", "", org)
+    return org.strip().rstrip(",")
+
+
+def record_from_osti(anchor, j, ident):
+    """A draft record from a cached OSTI record. The issuer is the research organisation."""
+    kind = OSTI_KIND.get(j.get("product_type"), "report")
+    title = sources.clean_text(j.get("title") or "")
+    date = (j.get("publication_date") or "")[:4]
+    rec = {"anchor": anchor, "kind": kind, "url": f"https://www.osti.gov/biblio/{ident}",
+           "title_published": title, "title": headline_case(title),
+           "authors": _authors([p for p in (_person(a) for a in j.get("authors") or []) if p]),
+           "year": int(date) if date.isdigit() else None,
+           "note": f"Metadata from the OSTI record {ident}, type {j.get('product_type')}."}
+    orgs = [_osti_org(o) for o in j.get("research_orgs") or [] if _osti_org(o)]
+    if kind == "journal-article" and j.get("journal_name"):
+        rec["container"] = rec["venue"] = _strip_the(sources.clean_text(j["journal_name"]))
+        for k_src, k_dst in (("journal_volume", "volume"), ("journal_issue", "issue")):
+            if j.get(k_src):
+                rec[k_dst] = sources.clean_text(str(j[k_src]))
+        if j.get("publisher"):
+            rec["publisher_registry"] = sources.clean_text(j["publisher"])
+        return rec
+    if kind == "journal-article":
+        kind = rec["kind"] = "report"
+    if kind == "proceedings-paper":
+        meeting = headline_case(sources.clean_text((j.get("conference_info") or "").split(",")[0]))
+        if meeting:
+            rec["container"] = rec["venue"] = meeting
+            return rec
+        kind = rec["kind"] = "report"
+    if kind == "thesis":
+        rec["container"] = orgs[0] if orgs else ""
+        return rec
+    number = sources.clean_text((j.get("report_number") or "").split(";")[0])
+    if number and kind == "report":
+        rec["number"] = number
+    rec["publisher"] = orgs[0] if orgs else "U.S. Department of Energy"
+    return rec
+
+
+def _ol_year(edition):
+    m = re.search(r"\b(1[5-9]\d\d|20\d\d)\b", (edition or {}).get("publish_date") or "")
+    return int(m.group(1)) if m else None
+
+
+def _fold(x):
+    import unicodedata
+    return "".join(c for c in unicodedata.normalize("NFKD", x or "") if not unicodedata.combining(c)).lower()
+
+
+def record_from_openlibrary(anchor, j, ident, label_year=None, label_who=None):
+    """A draft record from a cached Open Library work or edition.
+
+    A WORK HAS NO PUBLISHER, only its editions do, so an entry for a work names
+    the edition whose year is the year the article's label gives, which is the
+    edition the article was written from. With no edition of that year, the
+    year is the label's and the publisher that of the edition nearest it.
+
+    THE LABEL'S AUTHORS WIN WHERE OPEN LIBRARY LISTS FEWER. A work record often
+    names only its first author, which made `Box, Hunter and Hunter` into `Box`.
+    The labels of the curated books were checked by hand when each article was
+    drafted. A label author Open Library also names keeps Open Library's full name.
+    The note says which edition was taken and why.
+    """
+    names = [n for n in j.get("_author_names") or [] if n]
+    edition, how, year = j, f"edition {ident}", None
+    if ident.startswith("works/"):
+        eds = [e for e in j.get("_editions") or [] if e.get("publishers")]
+        same = [e for e in eds if label_year and _ol_year(e) == label_year]
+        dated = sorted((e for e in eds if _ol_year(e)), key=_ol_year)
+        if same:
+            edition = same[0]
+        elif label_year and dated:
+            edition = min(dated, key=lambda e: abs(_ol_year(e) - label_year))
+        else:
+            edition = (dated or eds or [{}])[0]
+        key = (edition.get("key") or "").replace("/books/", "")
+        if same:
+            how = f"work {ident}, edition {key} of {label_year}, the label's year"
+        elif label_year and edition:
+            how = (f"work {ident}; Open Library holds no edition of {label_year}, the label's year, so the "
+                   f"publisher is that of edition {key} of {_ol_year(edition)}, the nearest")
+            year = label_year
+        else:
+            how = f"work {ident}, edition {key} of {_ol_year(edition)}, " + (
+                "the earliest with a publisher" if edition else "no edition")
+    title = sources.clean_text(j.get("title") or edition.get("title") or "")
+    sub = sources.clean_text(edition.get("subtitle") or j.get("subtitle") or "")
+    if sub and sub.lower() not in title.lower():
+        title += ": " + sub
+    year = year or _ol_year(edition) or label_year
+    authors = _authors([p for p in (_person(n) for n in names) if p])
+    if label_who:
+        wanted, _inc = _people_from_label(label_who)
+        fams = [_fold(w.get("family", "")) for w in wanted if w.get("family")]
+        have = {_fold(a.get("family", "")): a for a in authors if a.get("family")}
+        if fams and (len(fams) > len(authors) or any(f not in have for f in fams)):
+            authors = [have.get(f) or {"family": w["family"]} for f, w in zip(fams, wanted)]
+            how += "; the authors are the label's, Open Library listing them incompletely"
+    rec = {"anchor": anchor, "kind": "book", "url": f"https://openlibrary.org/{ident}",
+           "title_published": title, "title": headline_case(title), "authors": authors,
+           "year": year, "note": f"Metadata from Open Library, {how}."}
+    pubs = edition.get("publishers") or []
+    if pubs:
+        rec["publisher"] = sources.clean_text(pubs[0])
     return rec
 
 
@@ -432,16 +960,22 @@ WEB_KIND = {
     "government-report": "report", "pdf": "report", "web-article": "web-page", "web-page": "web-page",
     "press-release": "web-page", "speech-or-testimony": "web-page", "dataset": "dataset",
     "standard": "standard", "documentation": "documentation", "book": "book", "chapter": "chapter",
+    "legal": "web-page", "patent": "other",
 }
-DOMAIN_KEYS = {"stake", "primary", "periodical", "container", "publisher", "kind"}
+DOMAIN_KEYS = {"stake", "primary", "periodical", "container", "publisher", "kind", "encyclopaedia"}
 LEGACY_KIND = {"Government": "report", "Data": "dataset", "Research": "report", "Report": "report",
                "Book": "book", "Commentary": "web-page", "Journal": "report", "Primary": "web-page",
                "Reference": "web-page", "Standard": "standard", "Documentation": "documentation"}
 
 
 def _host_of(url):
+    """The host a judgement is about. An Internet Archive capture is judged by the
+    host it captured, since the judgement concerns the publisher, not the archive."""
     import urllib.parse
-    return urllib.parse.urlsplit(url).netloc.lower()
+    m = re.match(r"https?://web\.archive\.org/web/[^/]+/(.+)$", url)
+    if m:
+        url = m.group(1) if "://" in m.group(1) else "http://" + m.group(1)
+    return urllib.parse.urlsplit(url).netloc.lower().split(":")[0]
 
 
 DOMAINS = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "_sources", "domains.toml")
@@ -473,6 +1007,45 @@ def domain_rule(url, domains):
     return rule
 
 
+_LABEL_YEAR = re.compile(r"(?:^|[\s,])((?:1[5-9]|20)\d\d)[a-z]?(?=$|[\s,])")
+
+
+def split_label(label):
+    """(people, year, title) from a legacy label in any of the corpus's forms.
+
+    The forms are `Category, Who Year, Title` (A374 to A376), `Who, Year, Title`
+    (A369 to A373 and the X-Planes curated lists), `Who Year Title` and `Who et
+    al Year` (the X-Planes lists), and a short title with a year. The people part
+    is everything before the first year that stands alone, which a short-title
+    label also matches, so a caller must not take it for authors unless it
+    differs from the work's title. A label with no year gives (label, None, '').
+    """
+    label = (label or "").replace("`", "").strip()
+    parts = label.split(", ")
+    if len(parts) > 2 and parts[0] in LEGACY_KIND:
+        label = ", ".join(parts[1:])
+    m = _LABEL_YEAR.search(label)
+    if not m:
+        return label, None, ""
+    who = label[:m.start(1)].strip().rstrip(",").strip()
+    rest = label[m.end(1):]
+    rest = re.sub(r"^[a-z]?\s*,?\s*", "", rest).strip()
+    # A YEAR LAST, `National Museum of the United States Air Force, Martin RB-57D fact
+    # sheet, 2009`: the description follows the first comma.
+    if not rest and ", " in who:
+        who, rest = who.split(", ", 1)
+    return who, int(m.group(1)), rest
+
+
+def _label_names_people(who, title):
+    """Whether a label's people part names people rather than repeating the title."""
+    if not who:
+        return False
+    # `&` in a title is `and` in a label, `Aircraft Stability & Control`.
+    k = lambda x: _title_key(re.sub(r"\s*&\s*", " and ", x or ""))
+    return not k(title).startswith(k(who))
+
+
 def _people_from_label(who):
     """Surnames from a legacy label's author part, and whether the list is complete."""
     who = re.sub(r"\s+\d{4}[a-z]?$", "", who).strip()
@@ -481,7 +1054,50 @@ def _people_from_label(who):
     names = [x.strip() for x in re.split(r",\s*|\s+and\s+", who) if x.strip()]
     if len(names) == 1 and len(names[0].split()) > 2:
         return [{"name": names[0]}], incomplete
+    # THE X-PLANES LABELS OMIT THE COMMAS between authors, `Jenkins Landis and
+    # Miller`, so with two or more names a part of several capitalised words is
+    # several surnames, a lower-case particle joining the word after it.
+    if len(names) >= 2 and "," not in who:
+        split = []
+        for n in names:
+            words, cur = n.split(), []
+            if _ORG.search(n) or len(words) == 1:
+                split.append(n)
+                continue
+            for w in words:
+                cur.append(w)
+                if w.lower() not in _PARTICLES:
+                    split.append(" ".join(cur))
+                    cur = []
+            if cur:
+                split.append(" ".join(cur))
+        names = split
     return [{"family": n} for n in names], incomplete
+
+
+_INFERRED = r"(?:infer|assum|general knowledge|guess|unverified|likely|presumabl)"
+
+
+def _drop_inferred(meta):
+    """Page metadata without a publisher or author the reader says was not printed.
+
+    WHY. The X-Planes reading agents recorded, honestly, where a publisher or an
+    author was their inference, such as a magazine's owner or a likely author.
+    An entry attributes a work, so an attribution the page did not print is not
+    shown; the note keeps the reader's remark. Inferred dates are kept, since a
+    date read from a document number is evidence, and the note says so.
+    """
+    if not meta:
+        return meta
+    notes = meta.get("notes") or ""
+    out = dict(meta)
+    for sent in re.split(r"(?<=[.;])\s+", notes):
+        if re.search(_INFERRED, sent, re.I):
+            if re.search(r"\bpublisher|\bowner|\boperator|\bimprint", sent, re.I):
+                out["publisher"] = None
+            if re.search(r"\bauthor|\bauthorship", sent, re.I) and not re.search(r"\blabel credits\b", sent, re.I):
+                out["authors"] = []
+    return out
 
 
 def record_from_web(anchor, url, meta, label, rule, read_date):
@@ -491,6 +1107,7 @@ def record_from_web(anchor, url, meta, label, rule, read_date):
     read is built from the article's legacy label and its note says so, since
     the label may hold surnames only and a description in place of a title.
     """
+    meta = _drop_inferred(meta)
     read = meta is not None and meta.get("status") in ("read", "redirected", "partial", "searched") and meta.get("title")
     parts = label.split(", ") if label else []
     if read:
@@ -515,8 +1132,10 @@ def record_from_web(anchor, url, meta, label, rule, read_date):
             meta = dict(meta, notes=((meta.get("notes") or "") + f" Dated {meta.get('date')} on the page.").strip())
             date = first.group(0) if first else ""
         if not date:
-            m = re.search(r"\b(\d{4})[a-z]?(?=, )", label or "")
-            if m:
+            # A PLAUSIBLE YEAR ONLY: `Hiller Model 1051` in a label is a model number.
+            y = split_label(label or "")[1]
+            m = re.search(r"\b(\d{4})[a-z]?(?=, )", label or "") if y else None
+            if m and int(m.group(1)) == y:
                 date = m.group(1)
                 meta = dict(meta, notes=((meta.get("notes") or "") + " The page shows no date; the year is from "
                                          "the article's label.").strip())
@@ -527,8 +1146,12 @@ def record_from_web(anchor, url, meta, label, rule, read_date):
         if not authors and label:
             parts_l = label.split(", ")
             k = next((i for i, x in enumerate(parts_l[1:], 1) if re.search(r"\b\d{4}[a-z]?$", x)), None)
-            if k is not None:
-                people, _inc = _people_from_label(", ".join(parts_l[1:k + 1]))
+            who = ", ".join(parts_l[1:k + 1]) if k is not None else None
+            if parts_l[0] not in LEGACY_KIND:
+                w, y, _t = split_label(label)
+                who = f"{w} {y}" if y and _label_names_people(w, title) else None
+            if who:
+                people, _inc = _people_from_label(who)
                 if people and all("family" in p for p in people):
                     authors = people
                     meta = dict(meta, notes=((meta.get("notes") or "") + " The page names no author; the surnames "
@@ -542,32 +1165,56 @@ def record_from_web(anchor, url, meta, label, rule, read_date):
     else:
         if not label:
             raise sources.SourceError(f"{anchor}: page unread and no label to build from")
+        if parts and parts[0] not in LEGACY_KIND and _LABEL_YEAR.search(label):
+            # A LABEL WITH NO CATEGORY, the X-Planes form `Boeing, 2013, Title` or
+            # `Kennedy Space Center 1970, Title`, is split at its year.
+            who, y, rest = split_label(label)
+            parts = ["", f"{who} {y}" if who else str(y)] + ([rest] if rest else [])
         if len(parts) < 2:
             # A LABEL THAT IS ONLY A TITLE, as some A370 references were written,
             # gives an undated, unattributed entry; code marks are removed.
             parts = ["", label.replace("`", "")]
-        k = next((i for i, x in enumerate(parts[1:], 1) if re.search(r"\b\d{4}[a-z]?$", x)), None)
+        # A PLAUSIBLE YEAR ONLY, so `38 FR 8051`, a Federal Register page, is not one.
+        k = next((i for i, x in enumerate(parts[1:], 1) if re.search(r"\b(?:1[5-9]|20)\d\d[a-z]?$", x)), None)
         kind = rule.get("kind") or LEGACY_KIND.get(parts[0], "web-page")
         if k is None:
             # NO YEAR ANYWHERE: the label is `Category, Author, Title`, and the entry
             # takes n.d., which Chicago uses for an undated work.
             authors, incomplete = _people_from_label(parts[1]) if len(parts) > 2 else ([], False)
             title, date = ", ".join(parts[2:] if len(parts) > 2 else parts[1:]), ""
+            if parts[0] and parts[0] not in LEGACY_KIND:
+                # NO CATEGORY AND NO YEAR, `Civil Aircraft Sonic Boom, Final Rule, 38 FR
+                # 8051`: the label is a description, all of it the title.
+                authors, incomplete, title = [], False, label.replace("`", "")
+            # A PARTIAL READING that found the date but not the title still dates it.
+            if (meta or {}).get("date") and re.match(r"^\d{4}", meta["date"]):
+                date = meta["date"][:10]
         else:
             authors, incomplete = _people_from_label(", ".join(parts[1:k + 1]))
             title = ", ".join(parts[k + 1:])
-            date = re.search(r"(\d{4})[a-z]?$", parts[k]).group(1)
+            date = re.search(r"((?:1[5-9]|20)\d\d)[a-z]?$", parts[k]).group(1)
+            if not title:
+                # A SHORT-TITLE LABEL, `Falcon HTV-2 fact sheet 2010`: its words are the
+                # title, and it names no author.
+                title = re.sub(r"\s*\d{4}[a-z]?$", "", ", ".join(parts[1:k + 1])).strip()
+                authors, incomplete = [], False
         publisher = container = number = None
         evidence = None
-        note = (f"The page could not be read ({(meta or {}).get('status', 'no metadata')}), so this entry is built "
-                f"from the article's label{', whose author list is incomplete' if incomplete else ''}; the title "
-                f"may be a description.")
+        status = (meta or {}).get("status", "no metadata")
+        why = ("The link is a search or home page, not the document cited" if status == "not-a-document"
+               else f"The page could not be read ({status})")
+        note = (f"{why}, so this entry is built from the article's label"
+                f"{', whose author list is incomplete' if incomplete else ''}; the title may be a description.")
     title = sources.clean_text(title)
     # A LABEL'S TITLE WAS WRITTEN BY HAND IN HEADLINE STYLE, code names included,
     # so only a title read from a page is recased.
     rec = {"anchor": anchor, "kind": kind, "url": url, "title_published": title,
            "title": headline_case(title) if read else title,
            "authors": authors, "year": int(date[:4]) if date[:4].isdigit() else None}
+    # A REFERENCE COMPILATION, such as Encyclopedia Astronautica or a directory of
+    # designations, is an encyclopaedia under rule 2 whatever its pages are typed as.
+    if rule.get("encyclopaedia"):
+        rec["encyclopaedia"] = True
     if rule.get("publisher"):
         publisher = rule["publisher"]
     if rule.get("container"):
@@ -586,7 +1233,9 @@ def record_from_web(anchor, url, meta, label, rule, read_date):
         # its name in roman unless its rule says otherwise.
         if meta and meta.get("doc_type") == "web-article" and "periodical" not in rule and not rule.get("stake"):
             rec["periodical"] = True
-        if meta and meta.get("doc_type") == "speech-or-testimony" and "primary" not in rule:
+        # A REGULATION, STATUTE, AWARD RECORD OR COURT RECORD is a first-hand record,
+        # as testimony is, and rule 4 places it before any question of stake.
+        if meta and meta.get("doc_type") in ("speech-or-testimony", "legal") and "primary" not in rule:
             rec["primary"] = True
         # A PRESS RELEASE PROMOTES ITS ISSUER, government and university ones
         # included, which the rules place under Commercial Sources.
@@ -679,7 +1328,7 @@ def record_from_related_post(anchor, post_stem, locators=None):
 MINOR_UPPER = {w.upper() for w in MINOR} | {"SPACE", "JAPAN", "OF", "THE", "AND"}
 
 DECISION_KEYS = {"article", "crossref_cache", "wiki_pins", "title", "note", "synthesis", "fix",
-                 "dated_pins", "web_metadata", "domain", "web_read"}
+                 "dated_pins", "web_metadata", "domain", "web_read", "openalex_bulk", "report_cache"}
 FIX_KEYS = {"note", "drop", "set"}
 NEW_VENUE_BASIS = "Full-paper peer review not established from the venue's own statement; default deny."
 
@@ -750,8 +1399,13 @@ def decided_fields(decisions):
 
 
 def link_definitions(text):
-    """{anchor: target} for every reference definition in a post."""
-    return dict(re.findall(r"^\[([a-z0-9_]+)\]: (\S+.*)$", text, re.M))
+    """{anchor: target} for every reference definition in a post.
+
+    A target in angle brackets, kramdown's form for a URL with brackets in it,
+    `<https://example.org/a(1).pdf>`, is unwrapped.
+    """
+    defs = dict(re.findall(r"^\[([a-z0-9_]+)\]: (\S+.*)$", text, re.M))
+    return {a: (re.sub(r"^<([^>]+)>", r"\1", t) if t.startswith("<") else t) for a, t in defs.items()}
 
 
 def crossref_cache_path(cache, doi):
@@ -770,12 +1424,20 @@ def fetch_crossref(post_path, cache):
     """
     import json
     import os
+    import urllib.parse
     import fetch
     os.makedirs(cache, exist_ok=True)
-    text = open(post_path, encoding="utf-8").read()
-    dois = sorted({t[len("https://doi.org/"):] for t in link_definitions(text).values()
-                   if t.startswith("https://doi.org/")})
+    if post_path.startswith("@"):
+        # A LIST OF DOIS, one per line, chosen across many posts, such as the works
+        # a series' prose cites outside its survey rows.
+        # IN FILE ORDER, so a list ordered by article completes articles in turn.
+        dois = list(dict.fromkeys(x.strip() for x in open(post_path[1:], encoding="utf-8") if x.strip()))
+    else:
+        text = open(post_path, encoding="utf-8").read()
+        dois = sorted({t[len("https://doi.org/"):] for t in link_definitions(text).values()
+                       if t.startswith("https://doi.org/")})
     todo = [d for d in dois if not os.path.exists(crossref_cache_path(cache, d))
+            and not os.path.exists(crossref_cache_path(cache, d) + ".missing")
             and not os.path.exists(openalex_cache_path(cache, d))]
 
     def save(d, m):
@@ -787,31 +1449,24 @@ def fetch_crossref(post_path, cache):
     # registry rejects, such as one with angle brackets, fails the whole
     # request. A work queue, not recursion; each split halves a chunk, so the
     # queue empties after at most 2 * len(todo) requests.
-    single = []
-    queue = [todo[i:i + BATCH] for i in range(0, len(todo), BATCH)]
-    while queue:
-        chunk = queue.pop()
-        got = fetch.crossref_works(chunk)
-        if got is None:
-            if len(chunk) > 1:
-                queue += [chunk[:len(chunk) // 2], chunk[len(chunk) // 2:]]
-            else:
-                single += chunk
-            continue
-        for d in chunk:
-            m = got.get(d.lower())
-            if m:
-                save(d, m)
-            else:
-                single.append(d)
     missing = []
-    for d in single:
-        m = fetch.crossref_work(d)
+    openalex_spent = [False]
+
+    def one(d):
+        """A DOI a batch did not return, fetched singly, then from OpenAlex."""
+        j, cr_status = fetch.get_json_status(f"{fetch.CROSSREF}/{urllib.parse.quote(d)}")
+        m = (j or {}).get("message")
         if m:
             save(d, m)
-            continue
+            return
         # NOT IN CROSSREF: the OpenAlex record is cached beside the Crossref ones.
-        w = fetch.openalex_work(d)
+        # ONCE OPENALEX REFUSES WITH 429 its day's allowance is spent, and asking
+        # again cost four retries a DOI, so the rest of the run does not ask.
+        w = None
+        if not openalex_spent[0]:
+            w, status = fetch.get_json_status(
+                f"{fetch.OPENALEX}/doi:{urllib.parse.quote(d, safe='/()')}", tries=2)
+            openalex_spent[0] = status == 429
         if w:
             path = openalex_cache_path(cache, d)
             os.makedirs(os.path.dirname(path), exist_ok=True)
@@ -819,7 +1474,387 @@ def fetch_crossref(post_path, cache):
                 json.dump(w, fh, indent=1, sort_keys=True)
         else:
             missing.append(d)
+            # ONLY CROSSREF'S 404 IS EVIDENCE OF ABSENCE, and the marker lets an import
+            # settle the DOI rather than wait for it; a refusal leaves no marker.
+            if cr_status == 404:
+                open(crossref_cache_path(cache, d) + ".missing", "w").close()
+
+    # A MISS IS FETCHED SINGLY AT ONCE, not after every batch, so a list ordered
+    # by article completes each article's records before the next begins.
+    queue = [todo[i:i + BATCH] for i in range(0, len(todo), BATCH)]
+    while queue:
+        chunk = queue.pop(0)
+        got = fetch.crossref_works(chunk)
+        if got is None:
+            if len(chunk) > 1:
+                queue[:0] = [chunk[:len(chunk) // 2], chunk[len(chunk) // 2:]]
+            else:
+                one(chunk[0])
+            continue
+        for d in chunk:
+            m = got.get(d.lower())
+            if m:
+                save(d, m)
+            else:
+                one(d)
     return dois, missing
+
+
+# ------------------------------------------------------------ report servers
+
+# NTRS, OSTI and Open Library records are cached one file per identifier under
+# `<cache>/<server>/`, as the Crossref records are, so every value an entry shows
+# can be audited against what the server said. A lookup the server answers with
+# nothing leaves a `.missing` marker, so a rerun does not ask again.
+REPORT_SERVERS = ("ntrs", "osti", "openlibrary")
+
+
+def report_ids(text):
+    """{server: sorted identifiers} for the report-server links a post defines.
+
+    An Open Library identifier keeps its kind, `works/OL1W` or `books/OL1M`,
+    because a work and an edition are fetched from different paths.
+    """
+    out = {k: set() for k in REPORT_SERVERS}
+    for target in link_definitions(text).values():
+        m = re.match(r"https?://ntrs\.nasa\.gov/(?:api/)?citations/(\d+)", target)
+        if m:
+            out["ntrs"].add(m.group(1))
+        m = re.match(r"https?://(?:www\.)?osti\.gov/(?:biblio|servlets/purl)/(\d+)", target)
+        if m:
+            out["osti"].add(m.group(1))
+        m = re.match(r"https?://openlibrary\.org/(works/OL\d+W|books/OL\d+M)", target)
+        if m:
+            out["openlibrary"].add(m.group(1))
+    return {k: sorted(v) for k, v in out.items()}
+
+
+_HARVEST = {}
+
+
+def harvest_records(article):
+    """{url: harvest record} from an article's saved harvest files, `tmp/<article>/*.json`.
+
+    WHY. A server can hold no readable record for a work the harvest found, as
+    OSTI returned unparseable answers for 16 records. The harvest saved each
+    work's title, authors and year when the survey was drafted, which beats a
+    label holding only surnames. Records are kept only when they carry a URL and
+    a title. Files over 200 MB are skipped. Scratch, so absent on another machine.
+    """
+    import glob
+    import json
+    import os
+    key = (article or "").lower()
+    if key in _HARVEST:
+        return _HARVEST[key]
+    out = {}
+    for f in sorted(glob.glob(os.path.join("tmp", key, "*.json"))):
+        if os.path.getsize(f) > 200_000_000:
+            continue
+        try:
+            data = json.load(open(f, encoding="utf-8"))
+        except (ValueError, UnicodeDecodeError):
+            continue
+        stack = [data]
+        while stack:                                 # bound: each node is visited once
+            x = stack.pop()
+            if isinstance(x, dict):
+                u, t = x.get("url"), x.get("title")
+                if isinstance(u, str) and isinstance(t, str) and t and u not in out:
+                    out[u] = dict(x, _file=os.path.basename(f))
+                stack.extend(v for v in x.values() if isinstance(v, (dict, list)))
+            elif isinstance(x, list):
+                stack.extend(v for v in x if isinstance(v, (dict, list)))
+    _HARVEST[key] = out
+    return out
+
+
+def record_from_harvest(anchor, url, h, article, why):
+    """A draft record from a saved harvest record, for a work whose server held none readable."""
+    import ast
+    people = h.get("authors") or []
+    if isinstance(people, str):
+        try:
+            people = ast.literal_eval(people)
+        except (ValueError, SyntaxError):
+            people = [people]
+    authors = _authors([{"family": p} if isinstance(p, str) and " " not in p.strip() else
+                        (_person(p) or {}) if isinstance(p, str) else p for p in people if p])
+    year = str(h.get("year") or "")[:4]
+    title = sources.clean_text(h["title"])
+    kind = {"Journal Article": "journal-article", "Conference": "proceedings-paper"}.get(h.get("type"), "report")
+    rec = {"anchor": anchor, "kind": "report" if kind != "report" and not h.get("venue") else kind,
+           "url": url, "title_published": title, "title": headline_case(title), "authors": authors,
+           "year": int(year) if year.isdigit() else None,
+           "note": f"{why[0].upper() + why[1:]}; metadata from the harvest record saved when {article} was drafted, "
+                   f"tmp/{article.lower()}/{h['_file']}."}
+    if rec["kind"] != "report" and h.get("venue"):
+        rec["container"] = rec["venue"] = sources.clean_text(h["venue"])
+    return rec
+
+
+def _report_ident(target):
+    """(server, identifier) for a report-server record link, or None."""
+    for server, ids in report_ids(f"[x]: {target}\n").items():
+        if ids:
+            return server, ids[0]
+    return None
+
+
+def report_cache_path(cache, server, ident):
+    import os
+    return os.path.join(cache, server, ident.replace("/", "_") + ".json")
+
+
+def _report_url(server, ident):
+    if server == "ntrs":
+        return f"https://ntrs.nasa.gov/api/citations/{ident}"
+    if server == "osti":
+        return f"https://www.osti.gov/api/v1/records/{ident}"
+    return f"https://openlibrary.org/{ident}.json"
+
+
+def fetch_reports(idents, cache, server, shard=(0, 1)):
+    """Cache each identifier's server record. Returns (fetched, missing) counts.
+
+    `shard` (k, n) takes every nth identifier from the kth, so n processes can
+    share one list without overlap. Open Library works and editions are fetched
+    with their authors, and a work with its editions, since an entry needs the
+    authors' names and an edition's publisher.
+    """
+    import json
+    import os
+    import fetch
+    os.makedirs(os.path.join(cache, server), exist_ok=True)
+    k, n = shard
+    got = miss = failed = 0
+    for ident in idents[k::n]:                      # bound: len(idents) / n lookups
+        path = report_cache_path(cache, server, ident)
+        if os.path.exists(path) or os.path.exists(path + ".missing") or os.path.exists(path + ".unreadable"):
+            continue
+        j, status = fetch.get_json_status(_report_url(server, ident))
+        if j is None and status == 200:
+            # AN ANSWER THAT IS NOT JSON, which OSTI and NTRS gave for 26 records on
+            # 2026-10-25 however often asked, is unreadable, not absent, and is marked
+            # so that its article can proceed with an entry built from its label.
+            open(path + ".unreadable", "w").close()
+            miss += 1
+            continue
+        if j is None and status != 404:
+            # REFUSED OR TIMED OUT, which is not absence: nothing is cached, so a
+            # rerun asks again.
+            failed += 1
+            continue
+        if server == "osti" and isinstance(j, list):
+            j = j[0] if j else None
+        if j and server == "openlibrary":
+            j = dict(j)
+            if ident.startswith("works/"):
+                eds = fetch.get_json(f"https://openlibrary.org/{ident}/editions.json?limit=50")
+                j["_editions"] = (eds or {}).get("entries") or []
+            keys = [a.get("author", a).get("key") for a in j.get("authors") or [] if isinstance(a, dict)]
+            names = []
+            for key in keys[:12]:                   # bound: twelve authors a book
+                aj = fetch.get_json(f"https://openlibrary.org{key}.json") if key else None
+                names.append((aj or {}).get("name") or (aj or {}).get("personal_name") or "")
+            j["_author_names"] = names
+        if j:
+            with open(path, "w", encoding="utf-8") as fh:
+                json.dump(j, fh, indent=1, sort_keys=True)
+            got += 1
+        else:
+            open(path + ".missing", "w").close()
+            miss += 1
+    return got, miss, failed
+
+
+OPENALEX_BATCH = 100   # DOIs per OpenAlex request; 100 took 1 to 4 s on 2026-10-24
+
+
+def openalex_bulk_path(cache, doi):
+    import os
+    return os.path.join(cache, "openalex_bulk", doi.lower().replace("/", "_") + ".json")
+
+
+def fetch_openalex_bulk(dois, cache):
+    """Cache OpenAlex's record of each DOI, a hundred to a request. Returns the misses.
+
+    WHY. Crossref's public pool answered about 1.4 DOIs a second on 2026-10-24,
+    which is more than thirty hours for the 164,464 works the X-Planes surveys
+    harvested, and its faster pool requires a contact address this project does
+    not send. OpenAlex answered a hundred a request at about fifty a second.
+    These records are kept apart from the Crossref cache and from the OpenAlex
+    records of DOIs Crossref lacks, because a record drafted from one says that
+    Crossref was not asked, not that Crossref does not hold the work.
+    A FAILED BATCH IS HALVED through a work queue, as for Crossref.
+    """
+    import json
+    import os
+    import urllib.parse
+    import fetch
+    os.makedirs(os.path.join(cache, "openalex_bulk"), exist_ok=True)
+    todo = [d for d in dois if not os.path.exists(openalex_bulk_path(cache, d))
+            and not os.path.exists(openalex_bulk_path(cache, d) + ".missing")]
+    queue = [todo[i:i + OPENALEX_BATCH] for i in range(0, len(todo), OPENALEX_BATCH)]
+    missing = []
+    while queue:                        # each split halves a chunk: at most 2 * len(todo) requests
+        chunk = queue.pop()
+        q = urllib.parse.urlencode({"filter": "doi:" + "|".join(chunk), "per-page": str(len(chunk))})
+        j, status = fetch.get_json_status(f"{fetch.OPENALEX}?{q}", tries=2)
+        if status == 429:
+            # THE DAY'S ALLOWANCE IS SPENT. OpenAlex gave 1,000 requests a day without
+            # an API key on 2026-10-24. Halving would only multiply refused requests,
+            # so the fetch stops and a rerun the next day resumes from the cache.
+            missing += [d for c in queue + [chunk] for d in c]
+            print("OpenAlex refused with 429, the daily allowance is spent; rerun to resume")
+            break
+        if j is None:
+            if len(chunk) > 1:
+                queue += [chunk[:len(chunk) // 2], chunk[len(chunk) // 2:]]
+            else:
+                missing += chunk
+            continue
+        got = {}
+        for w in j.get("results") or []:
+            d = (w.get("doi") or "").lower().replace("https://doi.org/", "")
+            got[d] = w
+        for d in chunk:
+            w = got.get(d.lower())
+            path = openalex_bulk_path(cache, d)
+            if w:
+                with open(path, "w", encoding="utf-8") as fh:
+                    json.dump(w, fh, sort_keys=True)
+            else:
+                open(path + ".missing", "w").close()
+                missing.append(d)
+    return missing
+
+
+def page_metadata(html_text):
+    """Bibliographic metadata a page states about itself, from its head.
+
+    Reads `citation_*` (Highwire), Dublin Core, Open Graph and `article:` tags,
+    the `author` and `date` meta tags, and `<title>`. Nothing is inferred from
+    the body text. Returns the web-metadata fields `record_from_web` reads.
+    """
+    import html.parser
+
+    class P(html.parser.HTMLParser):
+        def __init__(self):
+            super().__init__(convert_charrefs=True)
+            self.meta, self.title, self._in_title = {}, "", False
+
+        def handle_starttag(self, tag, attrs):
+            a = dict(attrs)
+            if tag == "meta":
+                k = (a.get("name") or a.get("property") or "").lower()
+                if k and a.get("content"):
+                    self.meta.setdefault(k, []).append(a["content"].strip())
+            elif tag == "title":
+                self._in_title = True
+
+        def handle_endtag(self, tag):
+            if tag == "title":
+                self._in_title = False
+
+        def handle_data(self, data):
+            if self._in_title:
+                self.title += data
+    p = P()
+    try:
+        p.feed(html_text)
+    except Exception:
+        pass
+    m = p.meta
+    first = lambda *ks: next((m[k][0] for k in ks if m.get(k)), None)
+    people = m.get("citation_author") or m.get("dc.creator") or m.get("author") or []
+    authors = []
+    for x in people:
+        person = _person(x)
+        if person:
+            authors.append(person)
+    title = first("citation_title", "dc.title", "og:title") or re.sub(r"\s+", " ", p.title).strip() or None
+    date = first("citation_publication_date", "citation_date", "dc.date", "article:published_time", "date")
+    if date:
+        d = re.search(r"(\d{4})(?:[-/](\d{1,2}))?(?:[-/](\d{1,2}))?", date)
+        date = "-".join(x.zfill(2) if i else x for i, x in enumerate(g for g in d.groups() if g)) if d else None
+    return {"title": sources.clean_text(title) if title else None, "authors": authors,
+            "container": first("citation_journal_title", "og:site_name"),
+            "publisher": first("citation_publisher", "dc.publisher"),
+            "date": date, "doi": first("citation_doi")}
+
+
+def _site_free_title(title, host, site):
+    """A `<title>` without the site's name around it, `NASA - X` or `X | DARPA`.
+
+    A segment is removed only when it names the site: its letters appear in the
+    host name, it is the page's stated site name, or it is a site's own label.
+    """
+    if not title:
+        return title
+    keys = {re.sub(r"[^a-z]", "", x.lower()) for x in (host.split(".")[-2] if "." in host else host, site or "") if x}
+
+    def is_site(seg):
+        k = re.sub(r"[^a-z]", "", seg.lower())
+        return bool(k) and (any(k in key or key in k for key in keys if key) or k in ("nasa", "darpa", "usaf"))
+    for _ in range(3):                               # bound: three segments either side
+        m = re.match(r"^(.+?)\s*(?:\||::|\s[-–—]\s)\s*(.+)$", title)
+        n = re.match(r"^(.+)\s*(?:\||::|\s[-–—]\s)\s*(.+?)$", title)
+        if n and is_site(n.group(2)) and len(n.group(1)) > 8:
+            title = n.group(1).strip()
+        elif m and is_site(m.group(1)) and len(m.group(2)) > 8:
+            title = m.group(2).strip()
+        else:
+            break
+    return title
+
+
+def read_archive_captures(urls):
+    """Web metadata for Internet Archive captures, read from the capture itself.
+
+    WHY. The agents that read the X-Planes web sources could not fetch
+    web.archive.org, whose captures are the copies the articles cite. The raw
+    capture, the `id_` form, carries the original page's head, so its own
+    metadata is read as for any page. Only captures are read here; a live site
+    that refused reading stays unread.
+    """
+    import fetch
+    out = []
+    for url in urls:                                 # bound: one request per URL
+        m = re.match(r"https?://web\.archive\.org/web/(\d+)(?:[a-z_]*)/(.+)$", url)
+        if not m:
+            continue
+        raw = f"https://web.archive.org/web/{m.group(1)}id_/{m.group(2)}"
+        body = fetch.get_bytes(raw, tries=3)
+        row = {"url": url, "status": "blocked", "final_url": None, "doc_type": "web-page", "title": None,
+               "subtitle": None, "authors": [], "publisher": None, "container": None, "date": None,
+               "modified": None, "number": None, "doi": None, "evidence": None,
+               "notes": f"Archive capture of {m.group(2)} at {m.group(1)}."}
+        if body is not None:
+            if body[:5] == b"%PDF-":
+                row.update(status="partial", doc_type="pdf",
+                           notes=row["notes"] + " The capture is a PDF, not read for metadata.")
+            else:
+                try:
+                    text = body.decode("utf-8")
+                except UnicodeDecodeError:
+                    # Older pages declare Latin-1 or send Windows-1252 undeclared.
+                    text = body.decode("cp1252", "replace")
+                md = page_metadata(text)
+                host = re.sub(r"^https?://(www\.)?", "", m.group(2)).split("/")[0].split(":")[0]
+                md["title"] = _site_free_title(md.get("title"), host, md.get("container"))
+                # A TITLE THAT IS ONLY THE SITE'S NAME, as DARPA's 2011 releases give,
+                # says nothing about the document.
+                if md.get("title") and _site_free_title(md["title"] + " | x", host, None) and \
+                        re.sub(r"[^a-z]", "", md["title"].lower()) in (
+                        "defenseadvancedresearchprojectsagency", "nasa", "usairforce", "airforce"):
+                    md["title"] = None
+                row.update({k: v for k, v in md.items() if v})
+                row["status"] = "read" if md.get("title") else "partial"
+                row["evidence"] = (md.get("title") or "")[:150] or None
+                row["notes"] += " Read from the capture's own head tags, title and meta only."
+        out.append(row)
+    return out
 
 
 def _title_key(t):
@@ -871,6 +1906,10 @@ def pin_wikipedia(post_path, saved_dirs, pins_path, at=None):
     link that has no saved copy is pinned to the revision current at that
     timestamp and marked `unverified`, since nothing shows that text was read.
     Pins already verified are kept, so an interrupted run resumes.
+
+    `at` may also be a dict {anchor: timestamp}, the date of the commit that
+    added each link, since a link added in a later pass was read later than
+    the article's first draft. An anchor it lacks has no dated pin.
     """
     import datetime
     import glob
@@ -892,13 +1931,14 @@ def pin_wikipedia(post_path, saved_dirs, pins_path, at=None):
     pins = json.load(open(pins_path)) if os.path.exists(pins_path) else {}
     for anchor, title in sorted(links.items()):
         prev = pins.get(anchor, {})
-        if prev.get("match") in VERIFIED_PINS or (at and prev.get("match") == "unverified"
-                                                   and prev.get("saved_at") == at):
+        at_a = at.get(anchor) if isinstance(at, dict) else at
+        if prev.get("match") in VERIFIED_PINS or (at_a and prev.get("match") == "unverified"
+                                                     and prev.get("saved_at") == at_a):
             continue
         hit = html.get(_title_key(title))
         if hit is None and not saved.get(_title_key(title)):
             # A link through a redirect: the saved page carries the target's name.
-            cur = fetch.wikipedia_revision(title)
+            cur = fetch.wikipedia_revision(title, content=False) if html else None
             hit = html.get(_title_key(cur["page_title"])) if cur else None
         if hit:
             hf, name, revid = hit
@@ -925,12 +1965,12 @@ def pin_wikipedia(post_path, saved_dirs, pins_path, at=None):
         if f:
             ts = datetime.datetime.fromtimestamp(os.path.getmtime(f), datetime.timezone.utc)
             ts = ts.strftime("%Y-%m-%dT%H:%M:%SZ")
-        elif at:
-            ts = at
+        elif at_a:
+            ts = at_a
         else:
             pins[anchor] = {"title": title, "match": "no saved copy"}
             continue
-        rev = fetch.wikipedia_revision(title, before=ts)
+        rev = fetch.wikipedia_revision(title, before=ts, content=bool(f))
         if rev is None:
             pins[anchor] = {"title": title, "match": "FAILED"}
             continue
@@ -949,7 +1989,7 @@ def pin_wikipedia(post_path, saved_dirs, pins_path, at=None):
     return pins
 
 
-def import_post(post_path, decisions, venues, store=None):
+def import_post(post_path, decisions, venues, store=None, article=None):
     """Draft records for every source a post defines, with its decisions applied.
 
     Returns (records, new_venues). Raises SourceError on a link it cannot
@@ -968,8 +2008,17 @@ def import_post(post_path, decisions, venues, store=None):
                 continue
             web_meta[m["url"]] = m
     labels = {anc: lab for lab, anc in LEGACY_ITEM.findall(text)}
+    # THE YEARS THE PROSE CITES EACH WORK BY. A curated citation in the prose can
+    # carry the publication year where the reference list's label carries the
+    # harvest's, as `[Theodorsen 1935]` beside `Theodorsen 1979`.
+    text_years = {}
+    for lab, anc in sources.USE_RE.findall(text.split("\n## References\n")[0]):
+        if sources.is_citation_label(lab):
+            yy = split_label(lab)[1]
+            if yy:
+                text_years.setdefault(anc, set()).add(yy)
     shared_domains = load_domains()
-    index = sources.article_index(store, post_path) if store else None
+    index = sources.article_index(store, article or post_path) if store else None
     recs, related, errors = {}, {}, []
     for a, target in sorted(link_definitions(text).items()):
         if target.startswith("https://doi.org/"):
@@ -981,6 +2030,10 @@ def import_post(post_path, decisions, venues, store=None):
                     recs[a] = record_from_crossref(a, json.load(open(cr)), doi)
                 elif os.path.exists(oa):
                     recs[a] = record_from_openalex(a, json.load(open(oa)), doi)
+                elif decisions.get("openalex_bulk") and os.path.exists(
+                        openalex_bulk_path(decisions["openalex_bulk"], doi)):
+                    recs[a] = record_from_openalex(
+                        a, json.load(open(openalex_bulk_path(decisions["openalex_bulk"], doi))), doi, bulk=True)
                 else:
                     errors.append(f"{a}: {target} in neither registry cache, run fetch-crossref")
             except sources.SourceError as e:
@@ -1015,6 +2068,42 @@ def import_post(post_path, decisions, venues, store=None):
                 "unverified": f"No copy of the text read for {read_for} was saved. The revision current at "
                               f"{p['saved_at']}, when the article was drafted, so the text read may differ.",
             }[p["match"]]
+        elif _report_ident(target):
+            server, ident = _report_ident(target)
+            path = report_cache_path(decisions.get("report_cache", "tmp/sources"), server, ident)
+            if not os.path.exists(path):
+                settled = [m for m in (".missing", ".unreadable") if os.path.exists(path + m)]
+                why = ("the record is absent from its server" if settled and settled[0] == ".missing"
+                       else "its server's record is unreadable")
+                h = harvest_records(decisions["article"]).get(target.split()[0]) if settled else None
+                if h:
+                    recs[a] = record_from_harvest(a, target.split()[0], h, decisions["article"], why)
+                    continue
+                if settled and labels.get(a) and split_label(labels[a])[2]:
+                    # THE SERVER HOLDS NO READABLE RECORD and no harvest record was kept, so
+                    # the entry is built from a label that has a title, and says why.
+                    recs[a] = record_from_web(a, target.split()[0], {"status": why}, labels[a],
+                                              {"kind": "report"}, decisions.get("web_read", ""))
+                    continue
+                errors.append(f"{a}: {target} not in the {server} cache, run fetch-reports")
+                continue
+            j = json.load(open(path, encoding="utf-8"))
+            who, y, _rest = split_label(labels.get(a, ""))
+            if server == "ntrs":
+                recs[a] = record_from_ntrs(a, j, ident)
+                # NTRS DATES SOME LEGACY RECORDS BY THEIR CATALOGUING, so NACA's
+                # Report 121 of 1921 is dated 1979. A label year earlier than the
+                # record's is the publication year the article was written from.
+                earliest = min([x for x in [y] if x] + sorted(text_years.get(a, ())), default=None)
+                if earliest and recs[a].get("year") and earliest < recs[a]["year"]:
+                    recs[a]["note"] += (f" NTRS dates the record {recs[a]['year']}, later than the {earliest} the "
+                                        f"article cites it by, which is taken as the year of publication.")
+                    recs[a]["year"] = earliest
+            elif server == "osti":
+                recs[a] = record_from_osti(a, j, ident)
+            else:
+                people_ok = who and _label_names_people(who, j.get("title"))
+                recs[a] = record_from_openlibrary(a, j, ident, y, who if people_ok else None)
         elif target.startswith("{% post_url"):
             m = re.match(r"\{% post_url (\S+) %\}(?:#(\S+))?", target)
             related.setdefault(m.group(1), []).append((a, m.group(2)))
@@ -1046,14 +2135,48 @@ def import_post(post_path, decisions, venues, store=None):
                 errors.append(f"[{table}] {a} names no source in the post")
     if errors:
         raise sources.SourceError(f"{len(errors)} import error(s)\n  " + "\n  ".join(errors))
+    # A PART WITH NO WHOLE, a chapter or article whose registry names no book,
+    # journal or proceedings, cannot be cited as a part, so it is listed as a work
+    # of no stated type, which default deny places, and its note says why.
+    for a, r in recs.items():
+        if r.get("kind") in ("chapter", "journal-article", "proceedings-paper") and not r.get("container"):
+            r["note"] = ((r.get("note") or "") + f" The registry types it as a {r['kind'].replace('-', ' ')} "
+                         f"but names no container, so it is listed as a work of no stated type.").strip()
+            r["kind"] = "other"
+            r.pop("venue", None)
+    # A RECORD WITH NO YEAR, such as an NTRS presentation with no publication date,
+    # takes the year the article cites it by, and its note says so.
+    for a, r in recs.items():
+        if r.get("year") is None and r.get("kind") not in ("wikipedia", "related-post"):
+            y = split_label(labels.get(a, ""))[1] or min(text_years.get(a, ()), default=None)
+            if y:
+                r["year"] = y
+                r["note"] = ((r.get("note") or "") + f" The registry gives no date; {y} is the year the article "
+                             f"cites it by.").strip()
     # A REGISTRY RECORD WITH NO AUTHORS whose legacy label names people, as for
     # RAND's RRA1658-1, takes the label's surnames, and its note says so.
     for a, r in recs.items():
         if r.get("doi") and not sources.creators(r) and r.get("kind") not in ("wikipedia", "related-post"):
             parts_l = labels.get(a, "").split(", ")
             k = next((i for i, x in enumerate(parts_l[1:], 1) if re.search(r"\b\d{4}[a-z]?$", x)), None)
-            if k is not None:
-                people, _inc = _people_from_label(", ".join(parts_l[1:k + 1]))
+            who = None
+            # THE COMMA FORM ASSUMES A CATEGORY FIRST, `Research, Who 2020, Title`. An
+            # X-Planes short-title label, `Technology Demonstrator, Close Air 2023`, has
+            # none, and reading it so made `Close Air` an author.
+            if k is not None and parts_l[0] in LEGACY_KIND:
+                who = ", ".join(parts_l[1:k + 1])
+            else:
+                # A LABEL IN THE X-PLANES FORMS, `Smith et al 2012` or `Who 2002 Title`,
+                # has no category part, and a short-title label is not an author.
+                w, y, _t = split_label(labels.get(a, ""))
+                if y and _label_names_people(w, r.get("title")):
+                    who = f"{w} {y}"
+            # A LABEL THAT ONLY OPENS THE TITLE names no one, on either path, as A377's
+            # `Givaudan and LanzaTech to 2023` once became the authors `Givaudan, and LanzaTech to`.
+            if who is not None and not _label_names_people(re.sub(r"\s+\d{4}[a-z]?$", "", who), r.get("title")):
+                who = None
+            if who is not None:
+                people, _inc = _people_from_label(who)
                 if people and all("family" in p and p["family"] not in ("Unattributed", "Anonymous")
                                   for p in people):
                     r["authors"] = people
@@ -1115,6 +2238,19 @@ def _renamed(anchor, ident, taken):
     raise sources.SourceError(f"{anchor}: no free canonical name")
 
 
+# Notes an importer writes about where a record's metadata came from, which mark no
+# human correction, so a refresh may rebuild such a record. Every other note is a
+# decision's, and a record carrying one is never rebuilt.
+_PROVENANCE = re.compile(r"^(Metadata from (the NASA Technical Reports Server|the OSTI|Open Library|OpenAlex)|"
+                         r"Not held by Crossref; metadata from OpenAlex\.|"
+                         r"The registry lists no author; the surnames are from the article's label\.|"
+                         r"The registry gives no date; \d{4} is the year the article cites it by\.)")
+
+
+def _rebuildable_note(note):
+    return not note or bool(_PROVENANCE.match(note))
+
+
 def merge(store, drafts, decided=None, amap=None, refresh=False):
     """(merged, added, known, conflicts, extended, amap), merging by source identity.
 
@@ -1172,7 +2308,7 @@ def merge(store, drafts, decided=None, amap=None, refresh=False):
         # correction, and a draft never replaces one.
         # Pins and related posts are not registry drafts: a pin's evidence names the
         # copy first verified, and a related post's locators gather across articles.
-        if (refresh and not old.get("note") and r.get("kind") not in ("wikipedia", "related-post")
+        if (refresh and _rebuildable_note(old.get("note")) and r.get("kind") not in ("wikipedia", "related-post")
                 and r != dict(old, anchor=r.get("anchor"))):
             merged[c] = dict(r, anchor=c)
             extended.append(c)
@@ -1380,11 +2516,27 @@ def main(argv):
     p = sub.add_parser("fetch-crossref", help="cache the Crossref record of every DOI a post defines")
     p.add_argument("post")
     p.add_argument("cache")
+    p = sub.add_parser("read-archive", help="read Internet Archive captures' own metadata into a web-metadata file")
+    p.add_argument("batches", nargs="+", help="web-metadata JSON files whose archive rows to read")
+    p.add_argument("--out", required=True)
+    p = sub.add_parser("acronyms", help="derive the acronym list from cached registry titles")
+    p.add_argument("cache")
+    p.add_argument("--write", action="store_true", help="replace the derived part of _sources/acronyms.txt")
+    p = sub.add_parser("fetch-openalex", help="cache OpenAlex records for a file of DOIs, a hundred a request")
+    p.add_argument("dois")
+    p.add_argument("cache")
+    p = sub.add_parser("fetch-reports", help="cache the NTRS, OSTI or Open Library record of every link posts define")
+    p.add_argument("server", choices=REPORT_SERVERS)
+    p.add_argument("cache")
+    p.add_argument("posts", nargs="*")
+    p.add_argument("--ids", help="a file of identifiers, one a line, fetched in file order instead of the posts'")
+    p.add_argument("--shard", default="0/1", help="k/n, this process's share of the identifiers")
     p = sub.add_parser("pin-wiki", help="pin a post's Wikipedia links to verified revisions")
     p.add_argument("post")
     p.add_argument("pins")
     p.add_argument("--saved", action="append", default=[], help="directory of saved wikitext copies")
     p.add_argument("--at", help="pin links with no saved copy to this ISO timestamp, unverified")
+    p.add_argument("--at-file", help="JSON {anchor: ISO timestamp}, a dated pin per link")
     p = sub.add_parser("credit-venues", help="credit uncredited venues from publisher-wide policies")
     p.add_argument("--write", action="store_true")
     p = sub.add_parser("review", help="print drafted titles and flag what needs a decision")
@@ -1401,14 +2553,60 @@ def main(argv):
     p.add_argument("--verbose", action="store_true", help="show how drafts of known records differ")
     p.add_argument("--refresh", action="store_true",
                    help="rebuild known records that carry no note from their registry drafts")
+    p.add_argument("--as-post", help="the published post whose name map this import updates, when POST is a "
+                                     "copy taken before conversion; defaults to POST")
     a = ap.parse_args(argv[1:])
     try:
         if a.cmd == "fetch-crossref":
             dois, missing = fetch_crossref(a.post, a.cache)
             print(f"{len(dois)} DOIs, {len(missing)} missing {missing}")
             return 1 if missing else 0
+        if a.cmd == "read-archive":
+            urls = sorted({r["url"] for f in a.batches for r in json.load(open(f, encoding="utf-8"))
+                           if "web.archive.org/web/" in r["url"]})
+            rows = read_archive_captures(urls)
+            json.dump(rows, open(a.out, "w", encoding="utf-8"), indent=1)
+            from collections import Counter
+            print(len(rows), dict(Counter(r["status"] for r in rows)))
+            return 0
+        if a.cmd == "acronyms":
+            import datetime
+            import os
+            found = build_acronyms(a.cache)
+            path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "_sources", "acronyms.txt")
+            old = open(path, encoding="utf-8").read() if os.path.exists(path) else ""
+            # Lines after a `# Added by hand` comment are kept across rebuilds.
+            hand = old[old.index("# Added by hand"):] if "# Added by hand" in old else ""
+            print(f"{len(found)} acronyms derived")
+            if a.write:
+                head = ("# Words kept in capitals when a title registered wholly in capitals is recased.\n"
+                        f"# Built {datetime.date.today().isoformat()} by `sources_import.py acronyms` from the cached "
+                        "Crossref, OpenAlex and NTRS titles: a token\n"
+                        "# is listed when mixed-case titles print it in capitals at least three times and at least "
+                        "four times as\n# often as otherwise, and it is not a word in /usr/share/dict/words. "
+                        "Hand additions follow the derived list.\n")
+                open(path, "w", encoding="utf-8").write(head + "\n".join(found) + "\n" + hand)
+                print("written")
+            return 0
+        if a.cmd == "fetch-openalex":
+            dois = sorted({x.strip() for x in open(a.dois, encoding="utf-8") if x.strip()})
+            missing = fetch_openalex_bulk(dois, a.cache)
+            print(f"{len(dois)} DOIs, {len(missing)} not in OpenAlex")
+            return 0
+        if a.cmd == "fetch-reports":
+            if a.ids:
+                # IN FILE ORDER, so a list ordered by article completes articles in turn.
+                ids = list(dict.fromkeys(x.strip() for x in open(a.ids, encoding="utf-8") if x.strip()))
+            else:
+                ids = sorted({i for path in a.posts for i in report_ids(open(path, encoding="utf-8").read())[a.server]})
+            k, n = (int(x) for x in a.shard.split("/"))
+            got, miss, failed = fetch_reports(ids, a.cache, a.server, (k, n))
+            print(f"{len(ids)} {a.server} identifiers, {got} fetched, {miss} missing (404), "
+                  f"{failed} refused or timed out, shard {k}/{n}")
+            return 0
         if a.cmd == "pin-wiki":
-            pins = pin_wikipedia(a.post, a.saved, a.pins, a.at)
+            at = json.load(open(a.at_file, encoding="utf-8")) if a.at_file else a.at
+            pins = pin_wikipedia(a.post, a.saved, a.pins, at)
             if not pins:
                 # A converted post links `/w/index.php?...&oldid=`, which is already a pin.
                 print("no unpinned https://en.wikipedia.org/wiki/ links in the post")
@@ -1451,12 +2649,16 @@ def main(argv):
         venues = sources.load_venues()
         store = sources.load_records()
         decisions = load_decisions(a.decisions)
-        drafts, new_venues = import_post(a.post, decisions, venues, store)
+        # THE MAP IS FILED UNDER THE PUBLISHED POST'S NAME. Importing from a copy taken
+        # before conversion once filed it under the copy's, `A297.pre.json`, which no
+        # article reads, and generation then failed on every renamed anchor.
+        map_post = a.as_post or a.post
+        drafts, new_venues = import_post(a.post, decisions, venues, store, article=map_post)
         if a.drafts:
             with open(a.drafts, "w", encoding="utf-8") as fh:
                 json.dump(drafts, fh, indent=1, ensure_ascii=False, sort_keys=True)
         merged, added, unchanged, conflicts, extended, amap = merge(
-            store, drafts, decided_fields(decisions), sources.load_article_map(a.post), a.refresh)
+            store, drafts, decided_fields(decisions), sources.load_article_map(map_post), a.refresh)
         every = {**venues, **new_venues}
         for anchor in extended:
             merged[anchor]["rule"], merged[anchor]["section"] = sources.classify(merged[anchor], every)
@@ -1501,7 +2703,7 @@ def main(argv):
             sources.validate(merged, all_venues)
             sources.save_venues(all_venues)
             sources.save_records(merged)
-            sources.save_article_map(a.post, amap)
+            sources.save_article_map(map_post, amap)
             print("written")
         return 1 if conflicts else 0
     except (sources.SourceError, OSError, ValueError) as e:

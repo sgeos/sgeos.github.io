@@ -16,7 +16,21 @@ Each step is a command that reads data. Scratch goes under `tmp/<article>/source
    - Records are requested forty DOIs at a time. A failed batch is halved until the identifier at fault is
      isolated.
    - A DOI Crossref lacks, such as a DataCite one, is fetched from OpenAlex into `tmp/sources/openalex/`.
-   - It resumes, so rerun it until nothing is missing. Several articles can run at once.
+   - It resumes, so rerun it until nothing is missing.
+   - **Run one Crossref fetch at a time.** Crossref's public pool answered about five DOIs a second on 2026-10-24
+     and refuses a client that asks concurrently. Its faster pool needs a contact address, which this project
+     does not send.
+   - `@FILE` in place of the post fetches a list of DOIs in file order, so a list ordered by article completes
+     articles in turn. A batch's misses are fetched singly at once, not at the end.
+   - **Report servers.** `python3 _lib/sources_import.py fetch-reports ntrs|osti|openlibrary tmp/sources POST...`
+     caches each NASA Technical Reports Server, OSTI or Open Library record a post links, one file per
+     identifier. `--ids FILE` takes identifiers in file order and `--shard k/n` splits them between processes.
+     Only an HTTP 404 is recorded as absent; a refusal or a timeout is retried by the next run.
+   - **A harvested survey too large for Crossref's pace.** `python3 _lib/sources_import.py fetch-openalex
+     DOIS.txt tmp/sources` fetches OpenAlex records a hundred to a request into `tmp/sources/openalex_bulk/`.
+     The import prefers a Crossref record wherever one is cached, and a record drafted from a bulk OpenAlex
+     record says that Crossref was not asked. OpenAlex allowed about 140 such requests a day without an API key
+     on 2026-10-24, and the fetch stops at the first refusal.
 2. **Pin the Wikipedia links.** `python3 _lib/sources_import.py pin-wiki POST tmp/aNNN/sources/wiki_pins.json
    --saved tmp/aNNN/wiki`. A pin is verified in one of three ways.
    - `exact` means saved wikitext is byte-identical to the revision current when the copy was saved.
@@ -25,7 +39,9 @@ Each step is a command that reads data. Scratch goes under `tmp/<article>/source
      pages were pinned.
 
    With no saved copy at all, `--at` pins each page to the revision current when the article was drafted, and the
-   decision file must say `dated_pins = true`. The evidence then states that the text read may differ, as for
+   decision file must say `dated_pins = true`. `--at-file` gives a timestamp per link instead, the author date of
+   the commit that added it, which is what the X-Planes series used since links were added over two months of
+   passes. Wikipedia is asked at most once a second, and a dated pin asks for no wikitext. The evidence then states that the text read may differ, as for
    A377. A copy saved under a shorter name, such as `Sphere_of_influence.txt` for *Sphere of influence
    (astrodynamics)*, is accepted only if byte-identical. Pass a sibling article's directory as a second `--saved`
    when a copy was saved there. The first directory given wins, and the evidence names the article whose scratch
@@ -82,6 +98,24 @@ step 10 against each article's last committed copy. A record with a `note` is ne
 pass caught two regressions in already converted articles, a footnote mark left on a title and a German title
 given English capitals.
 
+## The X-Planes Series
+
+A297 to A368 were converted on 2026-10-24 and 2026-10-25, 72 articles holding 363,651 link definitions. The
+work differs from a single article in three ways.
+
+- **The registry fetch is the long pole.** 164,546 DOIs at Crossref's public pace is the better part of a
+  day, so DOIs cited in the prose outside the survey rows were fetched first, and the survey's in article
+  order, so that articles completed in turn. OpenAlex's bulk records filled part of the survey until its daily
+  allowance ran out.
+- **A driver converts each article as its sources complete**, one at a time, since every import writes the
+  shared store. Each conversion starts from the copy taken before conversion, so a rerun cannot inherit an
+  earlier run's labels.
+- **The reference lists' own statistics are recomputed.** `_lib/survey.py years` reads each stated median,
+  dated count and period count, recomputes it from the database years and writes an edit for any that
+  disagree. A survey count that changes does so because the database dates works the harvest left undated,
+  or takes a registry's first-publication year. Statistics stated per cluster other than a median, such as
+  `415 were published in 2015 or later`, are not yet checked.
+
 ## Registry Habits Found So Far
 
 Each of these is now handled by the importer or recorded as a decision, and each has a test.
@@ -112,6 +146,17 @@ Each of these is now handled by the importer or recorded as a decision, and each
 | Inline TeX | `$\mathbb{Z}_p$` | Importer writes plain text |
 | One chapter under two DOIs | *Death by Perfume*, A377 | Both kept, labels take `a` and `b` |
 | Online-first year | Lin-Greenberg et al. | Crossref `issued` year, the house rule |
+| Name split in two | DTIC `{Binion, Jr}` then `{T. W.}` | Importer rejoins |
+| Initials in the family field | `M. Jaffal`, `W Taylor` | Importer moves them to the given names |
+| Lone initial as the family name | `{P, Nishanth}` | Importer swaps |
+| Organisation as author | NTRS centres, `AIR FORCE FLIGHT TEST CENTER EDWARDS AFB CA` | Importer: an organisation beside people is dropped, one alone is recased |
+| Placeholder author or pages | `&NA;`, `n/a-n/a` | Importer drops |
+| Title in capitals | Most older NTRS titles | Recased, `_sources/acronyms.txt` keeps acronyms |
+| Slashes for brackets | NTRS `/TO 3700 DEG K/` | Importer writes brackets |
+| Cataloguing year | NACA Report 121 of 1921 dated 1979 by NTRS | The year the article cites it by |
+| Work without its edition | Open Library work records | The edition of the label's year, else the nearest |
+| Incomplete author list | Open Library works list the first author | The label's authors |
+| Dead Wikipedia link | `NASA_Helios_Prototype`, `Kratos_BQM-167_Skeeter` | The link corrected to the page's title |
 
 **Headline casing is a proposal.** The importer keeps registry capitals in later parts of compounds, as in
 `Spin-Off`. It leaves symbols such as `α` alone, cases each side of an em dash, and lowercases the prepositions

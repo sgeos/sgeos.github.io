@@ -188,3 +188,21 @@ url = "https://www.sigplan.org/Resources/Policies/Review/"
 quote = "If a conflict of interest exists, then the reviewer should decline to review a paper."
 read = "2026-10-24"
 method = "fetched"
+
+[[publisher]]
+name = "American Institute of Aeronautics and Astronautics (AIAA)"
+aliases = ["American Institute of Aeronautics and Astronautics", "American Inst. of Aeronautics and Astronautics", "AIAA"]
+journals = true
+proceedings = false
+reviewers = "one or more reviewers in the field, usually two, to whom the Associate Editor sends the paper for confidential review"
+basis = "AIAA's journal acceptance procedure states that the Editor-in-Chief screens each paper and the Associate Editor sends it to reviewers in the field. The same page lets the Associate Editor accept a paper without review at his or her discretion, so the statement describes the usual path, not every paper. AIAA conference papers are not covered, since many AIAA meetings select papers by abstract."
+[[publisher.evidence]]
+url = "https://aiaa.org/publications/journals/Journal-Author/journal-acceptance-procedure/"
+quote = "has the paper sent to one or more reviewers in the field (usually two) for confidential review."
+read = "2026-10-24"
+method = "fetched"
+[[publisher.evidence]]
+url = "https://aiaa.org/publications/journals/Journal-Author/journal-acceptance-procedure/"
+quote = "The Associate Editor may, however, at his or her discretion, accept the paper without review"
+read = "2026-10-24"
+method = "fetched"

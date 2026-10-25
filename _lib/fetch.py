@@ -35,6 +35,8 @@ UA = {"User-Agent": f"blog-research/1.0 (mailto:{CONTACT})" if CONTACT else "blo
 DEFAULT_TIMEOUT = 45
 DEFAULT_TRIES = 4
 MIN_INTERVAL = 0.34  # seconds between calls to the same host
+# Hosts that throttle harder. Wikipedia answered 429 to pins at 0.34 s on 2026-10-24.
+HOST_INTERVAL = {"en.wikipedia.org": 1.0, "www.osti.gov": 1.0}  # OSTI refused 1,136 of 1,937 at 0.34 s
 
 _last_call = {}
 
@@ -46,10 +48,18 @@ def _host(url):
 def _throttle(url):
     h = _host(url)
     now = time.monotonic()
-    wait = MIN_INTERVAL - (now - _last_call.get(h, 0.0))
+    wait = HOST_INTERVAL.get(h, MIN_INTERVAL) - (now - _last_call.get(h, 0.0))
     if wait > 0:
         time.sleep(wait)
     _last_call[h] = time.monotonic()
+
+
+def _retry_after(err, attempt):
+    """Seconds to wait after a refusal: the server's Retry-After, at most a minute, else backoff."""
+    try:
+        return min(60, max(1, int(err.headers.get("Retry-After"))))
+    except (TypeError, ValueError):
+        return 2 ** attempt + 1
 
 
 def get_bytes(url, tries=DEFAULT_TRIES, timeout=DEFAULT_TIMEOUT, headers=None):
@@ -71,7 +81,7 @@ def get_bytes(url, tries=DEFAULT_TRIES, timeout=DEFAULT_TIMEOUT, headers=None):
                 return None
             if i == tries - 1:
                 return None
-            time.sleep(2 ** i + 1)
+            time.sleep(_retry_after(e, i))
         except Exception:
             if i == tries - 1:
                 return None
@@ -88,6 +98,42 @@ def get_json(url, **kw):
         return json.loads(raw)
     except ValueError:
         return None
+
+
+def get_json_status(url, tries=DEFAULT_TRIES, timeout=DEFAULT_TIMEOUT, headers=None):
+    """(parsed JSON or None, last HTTP status or None).
+
+    WHY. `get_json` answers None both for a record that does not exist and for a
+    server that refused or timed out, and a cache that wrote a `missing` marker on
+    every None recorded 115 of 186 OSTI records as absent when the server was
+    only throttling. Only a 404 is evidence of absence.
+    """
+    hdrs = dict(UA)
+    if headers:
+        hdrs.update(headers)
+    status = None
+    for i in range(tries):
+        _throttle(url)
+        try:
+            req = urllib.request.Request(url, headers=hdrs)
+            with urllib.request.urlopen(req, timeout=timeout) as r:
+                status = r.status
+                try:
+                    return json.loads(r.read()), status
+                except ValueError:
+                    return None, status
+        except urllib.error.HTTPError as e:
+            status = e.code
+            if e.code == 404:
+                return None, 404
+            if i < tries - 1:
+                time.sleep(_retry_after(e, i))
+            continue
+        except Exception:
+            status = None
+        if i < tries - 1:
+            time.sleep(2 ** i + 1)
+    return None, status
 
 
 def get_json_strict(url, **kw):
@@ -338,7 +384,7 @@ def doi_handle(doi, **kw):
 WIKIPEDIA_API = "https://en.wikipedia.org/w/api.php"
 
 
-def wikipedia_revision(title, before=None, oldid=None, **kw):
+def wikipedia_revision(title, before=None, oldid=None, content=True, **kw):
     """One revision of an English Wikipedia article with its wikitext, or None.
 
     With `oldid`, that revision. With `before`, an ISO 8601 timestamp, the
@@ -347,8 +393,10 @@ def wikipedia_revision(title, before=None, oldid=None, **kw):
     `page_title`, `oldid`, `timestamp` and `content`. Redirects are followed,
     so `page_title` may differ from `title`.
     """
+    # WITHOUT `content` only the id and timestamp are asked for, which is all a
+    # dated pin needs and a small fraction of the bytes.
     q = {"action": "query", "format": "json", "formatversion": "2", "prop": "revisions",
-         "rvprop": "ids|timestamp|content", "rvslots": "main"}
+         "rvprop": "ids|timestamp|content" if content else "ids|timestamp", "rvslots": "main"}
     if oldid:
         q["revids"] = str(oldid)
     else:
@@ -361,4 +409,4 @@ def wikipedia_revision(title, before=None, oldid=None, **kw):
         return None
     rev = pages[0]["revisions"][0]
     return {"page_title": pages[0]["title"], "oldid": rev["revid"], "timestamp": rev["timestamp"],
-            "content": rev["slots"]["main"]["content"]}
+            "content": rev["slots"]["main"]["content"] if content else None}

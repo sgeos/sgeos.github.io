@@ -1,0 +1,12 @@
+# Import decisions for A353, X-Planes series. Registry caches and page metadata are scratch and are not tracked.
+article = "A353"
+crossref_cache = "tmp/sources/crossref"
+openalex_bulk = "tmp/sources"
+report_cache = "tmp/sources"
+wiki_pins = "tmp/a353/sources/wiki_pins.json"
+web_metadata = ["tmp/web/meta1.json", "tmp/web/meta2.json", "tmp/web/meta3.json", "tmp/web/meta4.json", "tmp/web/meta5.json", "tmp/web/xmeta_all.json"]
+web_read = "2026-10-24"
+
+# No copy of most Wikipedia pages read for A353 was saved, so a link without one is pinned to the
+# revision current when the commit that added it was made, and its evidence says so.
+dated_pins = true

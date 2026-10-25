@@ -1094,6 +1094,9 @@ def t_render_flags_only_what_a_reader_would_see():
     assert render.audit_html("<p>ordinary prose</p>") == []
     hit = render.audit_html("<p>see [Some Title][ref_a] here</p>")
     assert hit and hit[0][0] == "unresolved-reference", hit
+    # An all-capitals bracket after another is text, such as the ionic liquid `[AMIM][DCA]`.
+    assert not [x for x in render.audit_html("<p>Blends of [AMIM][DCA] and furfuryl alcohol</p>")
+                if x[0] == "unresolved-reference"]
     # the same text inside a code block is legitimate
     assert render.audit_html("<pre><code>[Some Title][ref_a]</code></pre>") == []
     assert render.audit_html("<pre><code>{% if page.comments %}</code></pre>") == []

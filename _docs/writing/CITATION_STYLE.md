@@ -215,6 +215,12 @@ entries from bibliography entries.
   not part of the in-text label, `Sauer 1976`.
 - **House.** Given names appear as the source prints them. Initials are not expanded unless the source itself
   gives the full name.
+- **House.** Registry deposit habits are undone before a name is shown, each one a habit actually seen. A name
+  DTIC splits in two is rejoined. Initials filed with the family name become given names, and a lone initial
+  filed as the family name swaps with the given name. A suffix in the wrong field moves to the family name and
+  prints as `Jr.` or `II`. A spaced prefix, `Mc Kinney`, is joined. A remark in brackets, `(Deceased)`, is
+  dropped. An organisation listed beside people, such as a NASA centre, is their affiliation and is dropped.
+  A registry placeholder such as `&NA;` is no author. `_lib/test_sources.py` holds a case for each.
 
 ### Dates
 
@@ -231,6 +237,8 @@ entries from bibliography entries.
   A374. One rule for every record is more auditable than a year chosen per article.
 - **House.** A reprint gives its original year in parentheses before the reprint's, as in `(1972) 1998`,
   and the in-text label uses the original year, so the label dates the idea the prose discusses.
+- **House.** A work registered with OpenAlex alone, or fetched from OpenAlex in bulk for a survey too large
+  for Crossref's pace, takes OpenAlex's `publication_year`, which is also the first publication.
 - **Verified.** A journal article's month or season is usually omitted (13.26).
 - **House.** Dates inside entries use Chicago's month, day, year order, as in `December 19, 2023`.
 
@@ -245,6 +253,10 @@ entries from bibliography entries.
 - **Verified.** A title in another language keeps that language's capitalisation (11.6), so a German title
   capitalises its nouns only. The importer believes only a registry that states the language. A title whose
   language the registry omits is corrected by a decision, as for A377's *Deutsches Fremdwörterbuch* entries.
+- **House.** A title registered wholly in capitals, as NTRS registers most of its older ones, is recased, and
+  the words listed in `_sources/acronyms.txt` keep their capitals. The list is derived from how mixed-case
+  registry titles print each word, by `sources_import.py acronyms`, so `NASA` and `V/STOL` survive recasing
+  while an ordinary word such as `BOLT` does not.
 - **House.** Inline TeX in a registry title is written as plain text, as in `Al2O3` and `Zp`, because an entry
   must otherwise escape it and a reader then sees the markup.
 - **House.** A footnote mark typeset after a title, such as `*`, `∗`, `†` or `☆`, is removed. In a title
@@ -260,6 +272,33 @@ entries from bibliography entries.
   deprecated (13.7).
 - **House.** When a DOI exists, the DOI URL is used instead of any publisher URL.
 - **House.** The entry ends with the DOI or URL, linked through the source's anchor.
+
+### Report Servers and Catalogues
+
+Sources with no DOI are drafted from the record their own server holds, never from an article's label. Each
+rule below is a house rule, because Chicago says nothing about these servers.
+
+- **House.** A NASA Technical Reports Server record is a report under rule 4. Its number is the NASA series
+  number where it has one, as in `NASA-TN-D-1600`. Its publisher is NASA when the number is a NASA series
+  number, else the first author's organisation, else the centre the server names, else NASA. A reprint,
+  preprint or accepted manuscript that names its journal, volume or issue is that journal's article, and its
+  peer review is decided by its venue like any other. A conference paper names its proceedings or meeting.
+- **House.** NTRS dates some legacy records by the year it catalogued them, so NACA Report 121 of 1921 is
+  dated 1979. Where the article cites a work by an earlier year, in its prose or its reference list, the
+  earlier year is taken as the year of publication and the record's note says so.
+- **House.** An OSTI record is a report of its research organisation, named without its place, unless OSTI
+  types it as a journal article, a conference paper, a thesis or a book.
+- **House.** An Open Library work names the edition of the year the article cites it by. With no edition of
+  that year, the entry keeps the article's year and the publisher of the nearest edition, and says so. Where
+  the work record names fewer authors than the article's label, the label's authors are used, keeping Open
+  Library's full names for those it does name, since the labels of curated books were checked by hand.
+- **House.** An Internet Archive capture is judged by the host it captured, and read from the capture itself.
+- **House.** A regulation, statute, contract award or court record read on the web is a first-hand record
+  under rule 4. A reference compilation such as an encyclopaedia or a directory of designations is an
+  encyclopaedia under rule 2, whatever its pages are typed as. Both are judgements per host in
+  `_sources/domains.toml`.
+- **House.** A publisher or author the reader of a page records as inferred, assumed or unverified is not
+  shown, because an entry attributes a work. Its note keeps the reader's remark.
 
 ### Ordering Within a Section
 

@@ -530,3 +530,631 @@ why = "A published standard or normative specification, which rule 4 places amon
 kind = "preprint"
 container = "arXiv"
 why = "An arXiv preprint, not peer-reviewed."
+
+# X-Planes series hosts, judged 2026-10-24 when A297 to A368 were converted.
+
+["boeing.mediaroom.com"]
+stake = true
+why = "A company's own site or newsroom, promoting its products and programmes, which the rules place under Commercial Sources."
+
+["www.boeing.com"]
+stake = true
+why = "A company's own site or newsroom, promoting its products and programmes, which the rules place under Commercial Sources."
+
+["filecache.mediaroom.com"]
+stake = true
+why = "A company's own site or newsroom, promoting its products and programmes, which the rules place under Commercial Sources."
+
+["news.lockheedmartin.com"]
+stake = true
+why = "A company's own site or newsroom, promoting its products and programmes, which the rules place under Commercial Sources."
+
+["www.lockheedmartin.com"]
+stake = true
+why = "A company's own site or newsroom, promoting its products and programmes, which the rules place under Commercial Sources."
+
+["lockheedmartin.com"]
+stake = true
+why = "A company's own site or newsroom, promoting its products and programmes, which the rules place under Commercial Sources."
+
+["news.bellflight.com"]
+stake = true
+why = "A company's own site or newsroom, promoting its products and programmes, which the rules place under Commercial Sources."
+
+["investor.textron.com"]
+stake = true
+why = "A company's own site or newsroom, promoting its products and programmes, which the rules place under Commercial Sources."
+
+["www.ga-asi.com"]
+stake = true
+why = "A company's own site or newsroom, promoting its products and programmes, which the rules place under Commercial Sources."
+
+["www.aurora.aero"]
+stake = true
+why = "A company's own site or newsroom, promoting its products and programmes, which the rules place under Commercial Sources."
+
+["ablspacesystems.com"]
+stake = true
+why = "A company's own site or newsroom, promoting its products and programmes, which the rules place under Commercial Sources."
+
+["www.rtx.com"]
+stake = true
+why = "A company's own site or newsroom, promoting its products and programmes, which the rules place under Commercial Sources."
+
+["www.geaerospace.com"]
+stake = true
+why = "A company's own site or newsroom, promoting its products and programmes, which the rules place under Commercial Sources."
+
+["www.invocon.com"]
+stake = true
+why = "A company's own site or newsroom, promoting its products and programmes, which the rules place under Commercial Sources."
+
+["ursamajor.com"]
+stake = true
+why = "A company's own site or newsroom, promoting its products and programmes, which the rules place under Commercial Sources."
+
+["www.ursamajor.com"]
+stake = true
+why = "A company's own site or newsroom, promoting its products and programmes, which the rules place under Commercial Sources."
+
+["www.kratosdefense.com"]
+stake = true
+why = "A company's own site or newsroom, promoting its products and programmes, which the rules place under Commercial Sources."
+
+["www.leidos.com"]
+stake = true
+why = "A company's own site or newsroom, promoting its products and programmes, which the rules place under Commercial Sources."
+
+["www.airbus.com"]
+stake = true
+why = "A company's own site or newsroom, promoting its products and programmes, which the rules place under Commercial Sources."
+
+["www.esaero.com"]
+stake = true
+why = "A company's own site or newsroom, promoting its products and programmes, which the rules place under Commercial Sources."
+
+["piasecki.com"]
+stake = true
+why = "A company's own site or newsroom, promoting its products and programmes, which the rules place under Commercial Sources."
+
+["www.piasecki.com"]
+stake = true
+why = "A company's own site or newsroom, promoting its products and programmes, which the rules place under Commercial Sources."
+
+["www.mbda-systems.com"]
+stake = true
+why = "A company's own site or newsroom, promoting its products and programmes, which the rules place under Commercial Sources."
+
+["www.specialmetals.com"]
+stake = true
+why = "A company's own site or newsroom, promoting its products and programmes, which the rules place under Commercial Sources."
+
+["www.flyrotax.com"]
+stake = true
+why = "A company's own site or newsroom, promoting its products and programmes, which the rules place under Commercial Sources."
+
+["www.whiteeagleaerospace.com"]
+stake = true
+why = "A company's own site or newsroom, promoting its products and programmes, which the rules place under Commercial Sources."
+
+["cranfieldaerospace.com"]
+stake = true
+why = "A company's own site or newsroom, promoting its products and programmes, which the rules place under Commercial Sources."
+
+["cecilspaceport.com"]
+stake = true
+why = "A company's own site or newsroom, promoting its products and programmes, which the rules place under Commercial Sources."
+
+["skydiveperris.com"]
+stake = true
+why = "A company's own site or newsroom, promoting its products and programmes, which the rules place under Commercial Sources."
+
+["ospreyaircraft.net"]
+stake = true
+why = "A company's own site or newsroom, promoting its products and programmes, which the rules place under Commercial Sources."
+
+["www.codeonemagazine.com"]
+stake = true
+why = "A company's own site or newsroom, promoting its products and programmes, which the rules place under Commercial Sources."
+
+["www.forecastinternational.com"]
+stake = true
+why = "A company's own site or newsroom, promoting its products and programmes, which the rules place under Commercial Sources."
+
+["www.prnewswire.com"]
+stake = true
+why = "A press-release wire carrying a company's own release, which the rules place under Commercial Sources."
+
+["www.globenewswire.com"]
+stake = true
+why = "A press-release wire carrying a company's own release, which the rules place under Commercial Sources."
+
+["www.nasa.gov"]
+stake = true
+why = "A government agency's or service's own outreach, news or fact-sheet pages, which promote its own work and which the rules place under Commercial Sources. Its technical reports and data fall under rule 4 by their kind."
+
+["nasa.gov"]
+stake = true
+why = "A government agency's or service's own outreach, news or fact-sheet pages, which promote its own work and which the rules place under Commercial Sources. Its technical reports and data fall under rule 4 by their kind."
+
+["science.nasa.gov"]
+stake = true
+why = "A government agency's or service's own outreach, news or fact-sheet pages, which promote its own work and which the rules place under Commercial Sources. Its technical reports and data fall under rule 4 by their kind."
+
+["www.grc.nasa.gov"]
+stake = true
+why = "A government agency's or service's own outreach, news or fact-sheet pages, which promote its own work and which the rules place under Commercial Sources. Its technical reports and data fall under rule 4 by their kind."
+
+["www.darpa.mil"]
+stake = true
+why = "A government agency's or service's own outreach, news or fact-sheet pages, which promote its own work and which the rules place under Commercial Sources. Its technical reports and data fall under rule 4 by their kind."
+
+["www.af.mil"]
+stake = true
+why = "A government agency's or service's own outreach, news or fact-sheet pages, which promote its own work and which the rules place under Commercial Sources. Its technical reports and data fall under rule 4 by their kind."
+
+["www.wpafb.af.mil"]
+stake = true
+why = "A government agency's or service's own outreach, news or fact-sheet pages, which promote its own work and which the rules place under Commercial Sources. Its technical reports and data fall under rule 4 by their kind."
+
+["www.edwards.af.mil"]
+stake = true
+why = "A government agency's or service's own outreach, news or fact-sheet pages, which promote its own work and which the rules place under Commercial Sources. Its technical reports and data fall under rule 4 by their kind."
+
+["www.afmc.af.mil"]
+stake = true
+why = "A government agency's or service's own outreach, news or fact-sheet pages, which promote its own work and which the rules place under Commercial Sources. Its technical reports and data fall under rule 4 by their kind."
+
+["www.afrc.af.mil"]
+stake = true
+why = "A government agency's or service's own outreach, news or fact-sheet pages, which promote its own work and which the rules place under Commercial Sources. Its technical reports and data fall under rule 4 by their kind."
+
+["www.hurlburt.af.mil"]
+stake = true
+why = "A government agency's or service's own outreach, news or fact-sheet pages, which promote its own work and which the rules place under Commercial Sources. Its technical reports and data fall under rule 4 by their kind."
+
+["www.spaceforce.mil"]
+stake = true
+why = "A government agency's or service's own outreach, news or fact-sheet pages, which promote its own work and which the rules place under Commercial Sources. Its technical reports and data fall under rule 4 by their kind."
+
+["www.army.mil"]
+stake = true
+why = "A government agency's or service's own outreach, news or fact-sheet pages, which promote its own work and which the rules place under Commercial Sources. Its technical reports and data fall under rule 4 by their kind."
+
+["www.navair.navy.mil"]
+stake = true
+why = "A government agency's or service's own outreach, news or fact-sheet pages, which promote its own work and which the rules place under Commercial Sources. Its technical reports and data fall under rule 4 by their kind."
+
+["www.dvidshub.net"]
+stake = true
+why = "A government agency's or service's own outreach, news or fact-sheet pages, which promote its own work and which the rules place under Commercial Sources. Its technical reports and data fall under rule 4 by their kind."
+
+["www.esa.int"]
+stake = true
+why = "A government agency's or service's own outreach, news or fact-sheet pages, which promote its own work and which the rules place under Commercial Sources. Its technical reports and data fall under rule 4 by their kind."
+
+["www.iarpa.gov"]
+stake = true
+why = "A government agency's or service's own outreach, news or fact-sheet pages, which promote its own work and which the rules place under Commercial Sources. Its technical reports and data fall under rule 4 by their kind."
+
+["afresearchlab.com"]
+stake = true
+why = "A government agency's or service's own outreach, news or fact-sheet pages, which promote its own work and which the rules place under Commercial Sources. Its technical reports and data fall under rule 4 by their kind."
+
+["dsiac.dtic.mil"]
+stake = true
+why = "A government agency's or service's own outreach, news or fact-sheet pages, which promote its own work and which the rules place under Commercial Sources. Its technical reports and data fall under rule 4 by their kind."
+
+["www.nationalmuseum.af.mil"]
+stake = true
+why = "A museum's own exhibit or collection pages, institutional outreach that the rules place under Commercial Sources."
+
+["airandspace.si.edu"]
+stake = true
+why = "A museum's own exhibit or collection pages, institutional outreach that the rules place under Commercial Sources."
+
+["www.si.edu"]
+stake = true
+why = "A museum's own exhibit or collection pages, institutional outreach that the rules place under Commercial Sources."
+
+["pimaair.org"]
+stake = true
+why = "A museum's own exhibit or collection pages, institutional outreach that the rules place under Commercial Sources."
+
+["flighttestmuseum.org"]
+stake = true
+why = "A museum's own exhibit or collection pages, institutional outreach that the rules place under Commercial Sources."
+
+["sikorskyarchives.com"]
+stake = true
+why = "A museum's own exhibit or collection pages, institutional outreach that the rules place under Commercial Sources."
+
+["www.usaspending.gov"]
+primary = true
+why = "A site publishing first-hand records, such as regulations, statutes, contract awards, budget justifications, filings or official documents, which rule 4 places under Primary Sources, Non-Peer-Reviewed."
+
+["api.usaspending.gov"]
+primary = true
+why = "A site publishing first-hand records, such as regulations, statutes, contract awards, budget justifications, filings or official documents, which rule 4 places under Primary Sources, Non-Peer-Reviewed."
+
+["sam.gov"]
+primary = true
+why = "A site publishing first-hand records, such as regulations, statutes, contract awards, budget justifications, filings or official documents, which rule 4 places under Primary Sources, Non-Peer-Reviewed."
+
+["www.ecfr.gov"]
+primary = true
+why = "A site publishing first-hand records, such as regulations, statutes, contract awards, budget justifications, filings or official documents, which rule 4 places under Primary Sources, Non-Peer-Reviewed."
+
+["www.federalregister.gov"]
+primary = true
+why = "A site publishing first-hand records, such as regulations, statutes, contract awards, budget justifications, filings or official documents, which rule 4 places under Primary Sources, Non-Peer-Reviewed."
+
+["uscode.house.gov"]
+primary = true
+why = "A site publishing first-hand records, such as regulations, statutes, contract awards, budget justifications, filings or official documents, which rule 4 places under Primary Sources, Non-Peer-Reviewed."
+
+["www.law.cornell.edu"]
+primary = true
+why = "A site publishing first-hand records, such as regulations, statutes, contract awards, budget justifications, filings or official documents, which rule 4 places under Primary Sources, Non-Peer-Reviewed."
+
+["comptroller.war.gov"]
+primary = true
+why = "A site publishing first-hand records, such as regulations, statutes, contract awards, budget justifications, filings or official documents, which rule 4 places under Primary Sources, Non-Peer-Reviewed."
+
+["www.gao.gov"]
+primary = true
+why = "A site publishing first-hand records, such as regulations, statutes, contract awards, budget justifications, filings or official documents, which rule 4 places under Primary Sources, Non-Peer-Reviewed."
+
+["www.sec.gov"]
+primary = true
+why = "A site publishing first-hand records, such as regulations, statutes, contract awards, budget justifications, filings or official documents, which rule 4 places under Primary Sources, Non-Peer-Reviewed."
+
+["www.presidency.ucsb.edu"]
+primary = true
+why = "A site publishing first-hand records, such as regulations, statutes, contract awards, budget justifications, filings or official documents, which rule 4 places under Primary Sources, Non-Peer-Reviewed."
+
+["www.cia.gov"]
+primary = true
+why = "A site publishing first-hand records, such as regulations, statutes, contract awards, budget justifications, filings or official documents, which rule 4 places under Primary Sources, Non-Peer-Reviewed."
+
+["nssdc.gsfc.nasa.gov"]
+primary = true
+why = "A site publishing first-hand records, such as regulations, statutes, contract awards, budget justifications, filings or official documents, which rule 4 places under Primary Sources, Non-Peer-Reviewed."
+
+["records.fai.org"]
+primary = true
+why = "A site publishing first-hand records, such as regulations, statutes, contract awards, budget justifications, filings or official documents, which rule 4 places under Primary Sources, Non-Peer-Reviewed."
+
+["nfdc.faa.gov"]
+primary = true
+why = "A site publishing first-hand records, such as regulations, statutes, contract awards, budget justifications, filings or official documents, which rule 4 places under Primary Sources, Non-Peer-Reviewed."
+
+["www.sbir.gov"]
+primary = true
+why = "A site publishing first-hand records, such as regulations, statutes, contract awards, budget justifications, filings or official documents, which rule 4 places under Primary Sources, Non-Peer-Reviewed."
+
+["www.faa.gov"]
+primary = true
+why = "A site publishing first-hand records, such as regulations, statutes, contract awards, budget justifications, filings or official documents, which rule 4 places under Primary Sources, Non-Peer-Reviewed."
+
+["www.easa.europa.eu"]
+primary = true
+why = "A site publishing first-hand records, such as regulations, statutes, contract awards, budget justifications, filings or official documents, which rule 4 places under Primary Sources, Non-Peer-Reviewed."
+
+["www.caa.co.uk"]
+primary = true
+why = "A site publishing first-hand records, such as regulations, statutes, contract awards, budget justifications, filings or official documents, which rule 4 places under Primary Sources, Non-Peer-Reviewed."
+
+["www.aviation.govt.nz"]
+primary = true
+why = "A site publishing first-hand records, such as regulations, statutes, contract awards, budget justifications, filings or official documents, which rule 4 places under Primary Sources, Non-Peer-Reviewed."
+
+["avsec.govt.nz"]
+primary = true
+why = "A site publishing first-hand records, such as regulations, statutes, contract awards, budget justifications, filings or official documents, which rule 4 places under Primary Sources, Non-Peer-Reviewed."
+
+["www.esd.whs.mil"]
+primary = true
+why = "A site publishing first-hand records, such as regulations, statutes, contract awards, budget justifications, filings or official documents, which rule 4 places under Primary Sources, Non-Peer-Reviewed."
+
+["everyspec.com"]
+primary = true
+why = "A site publishing first-hand records, such as regulations, statutes, contract awards, budget justifications, filings or official documents, which rule 4 places under Primary Sources, Non-Peer-Reviewed."
+
+["quicksearch.dla.mil"]
+primary = true
+why = "A site publishing first-hand records, such as regulations, statutes, contract awards, budget justifications, filings or official documents, which rule 4 places under Primary Sources, Non-Peer-Reviewed."
+
+["poca-public.fda.gov"]
+primary = true
+why = "A site publishing first-hand records, such as regulations, statutes, contract awards, budget justifications, filings or official documents, which rule 4 places under Primary Sources, Non-Peer-Reviewed."
+
+["www.fda.gov"]
+primary = true
+why = "A site publishing first-hand records, such as regulations, statutes, contract awards, budget justifications, filings or official documents, which rule 4 places under Primary Sources, Non-Peer-Reviewed."
+
+["media.defense.gov"]
+primary = true
+why = "A site publishing first-hand records, such as regulations, statutes, contract awards, budget justifications, filings or official documents, which rule 4 places under Primary Sources, Non-Peer-Reviewed."
+
+["apps.dtic.mil"]
+primary = true
+why = "A site publishing first-hand records, such as regulations, statutes, contract awards, budget justifications, filings or official documents, which rule 4 places under Primary Sources, Non-Peer-Reviewed."
+
+["www.hq.nasa.gov"]
+primary = true
+why = "A site publishing first-hand records, such as regulations, statutes, contract awards, budget justifications, filings or official documents, which rule 4 places under Primary Sources, Non-Peer-Reviewed."
+
+["lbpw-ftp.larc.nasa.gov"]
+primary = true
+why = "A site publishing first-hand records, such as regulations, statutes, contract awards, budget justifications, filings or official documents, which rule 4 places under Primary Sources, Non-Peer-Reviewed."
+
+["www.guinnessworldrecords.com"]
+primary = true
+why = "A site publishing first-hand records, such as regulations, statutes, contract awards, budget justifications, filings or official documents, which rule 4 places under Primary Sources, Non-Peer-Reviewed."
+
+["www.wichita.edu"]
+primary = true
+why = "A site publishing first-hand records, such as regulations, statutes, contract awards, budget justifications, filings or official documents, which rule 4 places under Primary Sources, Non-Peer-Reviewed."
+
+["www.chromehooves.net"]
+primary = true
+why = "A site publishing first-hand records, such as regulations, statutes, contract awards, budget justifications, filings or official documents, which rule 4 places under Primary Sources, Non-Peer-Reviewed."
+
+["www.archives.gov"]
+primary = true
+why = "An archive or library publishing original documents, which rule 4 places under Primary Sources, Non-Peer-Reviewed."
+
+["nsarchive2.gwu.edu"]
+primary = true
+why = "An archive or library publishing original documents, which rule 4 places under Primary Sources, Non-Peer-Reviewed."
+
+["en.wikisource.org"]
+primary = true
+why = "An archive or library publishing original documents, which rule 4 places under Primary Sources, Non-Peer-Reviewed."
+
+["wright.libraryhost.com"]
+primary = true
+why = "An archive or library publishing original documents, which rule 4 places under Primary Sources, Non-Peer-Reviewed."
+
+["archive.org"]
+primary = true
+why = "An archive or library publishing original documents, which rule 4 places under Primary Sources, Non-Peer-Reviewed."
+
+["history.nasa.gov"]
+primary = true
+why = "An archive or library publishing original documents, which rule 4 places under Primary Sources, Non-Peer-Reviewed."
+
+["www.flightglobal.com"]
+periodical = true
+why = "A periodical or news site reporting on subjects in which it has no stake, General Sources under rule 7, its name in italics."
+
+["www.airandspaceforces.com"]
+periodical = true
+why = "A periodical or news site reporting on subjects in which it has no stake, General Sources under rule 7, its name in italics."
+
+["www.compositesworld.com"]
+periodical = true
+why = "A periodical or news site reporting on subjects in which it has no stake, General Sources under rule 7, its name in italics."
+
+["www.smithsonianmag.com"]
+periodical = true
+why = "A periodical or news site reporting on subjects in which it has no stake, General Sources under rule 7, its name in italics."
+
+["spacenews.com"]
+periodical = true
+why = "A periodical or news site reporting on subjects in which it has no stake, General Sources under rule 7, its name in italics."
+
+["theaviationist.com"]
+periodical = true
+why = "A periodical or news site reporting on subjects in which it has no stake, General Sources under rule 7, its name in italics."
+
+["news.usni.org"]
+periodical = true
+why = "A periodical or news site reporting on subjects in which it has no stake, General Sources under rule 7, its name in italics."
+
+["www.usni.org"]
+periodical = true
+why = "A periodical or news site reporting on subjects in which it has no stake, General Sources under rule 7, its name in italics."
+
+["spaceflightnow.com"]
+periodical = true
+why = "A periodical or news site reporting on subjects in which it has no stake, General Sources under rule 7, its name in italics."
+
+["breakingdefense.com"]
+periodical = true
+why = "A periodical or news site reporting on subjects in which it has no stake, General Sources under rule 7, its name in italics."
+
+["defensescoop.com"]
+periodical = true
+why = "A periodical or news site reporting on subjects in which it has no stake, General Sources under rule 7, its name in italics."
+
+["www.defensenews.com"]
+periodical = true
+why = "A periodical or news site reporting on subjects in which it has no stake, General Sources under rule 7, its name in italics."
+
+["www.defensemedianetwork.com"]
+periodical = true
+why = "A periodical or news site reporting on subjects in which it has no stake, General Sources under rule 7, its name in italics."
+
+["militaryembedded.com"]
+periodical = true
+why = "A periodical or news site reporting on subjects in which it has no stake, General Sources under rule 7, its name in italics."
+
+["newatlas.com"]
+periodical = true
+why = "A periodical or news site reporting on subjects in which it has no stake, General Sources under rule 7, its name in italics."
+
+["gizmodo.com"]
+periodical = true
+why = "A periodical or news site reporting on subjects in which it has no stake, General Sources under rule 7, its name in italics."
+
+["www.wired.com"]
+periodical = true
+why = "A periodical or news site reporting on subjects in which it has no stake, General Sources under rule 7, its name in italics."
+
+["www.latimes.com"]
+periodical = true
+why = "A periodical or news site reporting on subjects in which it has no stake, General Sources under rule 7, its name in italics."
+
+["hamptonroads.com"]
+periodical = true
+why = "A periodical or news site reporting on subjects in which it has no stake, General Sources under rule 7, its name in italics."
+
+["www.nationaldefensemagazine.org"]
+periodical = true
+why = "A periodical or news site reporting on subjects in which it has no stake, General Sources under rule 7, its name in italics."
+
+["www.aviationtoday.com"]
+periodical = true
+why = "A periodical or news site reporting on subjects in which it has no stake, General Sources under rule 7, its name in italics."
+
+["www.ainonline.com"]
+periodical = true
+why = "A periodical or news site reporting on subjects in which it has no stake, General Sources under rule 7, its name in italics."
+
+["www.aerotechnews.com"]
+periodical = true
+why = "A periodical or news site reporting on subjects in which it has no stake, General Sources under rule 7, its name in italics."
+
+["www.uasvision.com"]
+periodical = true
+why = "A periodical or news site reporting on subjects in which it has no stake, General Sources under rule 7, its name in italics."
+
+["avitrader.com"]
+periodical = true
+why = "A periodical or news site reporting on subjects in which it has no stake, General Sources under rule 7, its name in italics."
+
+["thedefensepost.com"]
+periodical = true
+why = "A periodical or news site reporting on subjects in which it has no stake, General Sources under rule 7, its name in italics."
+
+["simpleflying.com"]
+periodical = true
+why = "A periodical or news site reporting on subjects in which it has no stake, General Sources under rule 7, its name in italics."
+
+["europeanspaceflight.com"]
+periodical = true
+why = "A periodical or news site reporting on subjects in which it has no stake, General Sources under rule 7, its name in italics."
+
+["vintageaviationnews.com"]
+periodical = true
+why = "A periodical or news site reporting on subjects in which it has no stake, General Sources under rule 7, its name in italics."
+
+["www.space.com"]
+periodical = true
+why = "A periodical or news site reporting on subjects in which it has no stake, General Sources under rule 7, its name in italics."
+
+["www.machinedesign.com"]
+periodical = true
+why = "A periodical or news site reporting on subjects in which it has no stake, General Sources under rule 7, its name in italics."
+
+["armyaviationmagazine.com"]
+periodical = true
+why = "A periodical or news site reporting on subjects in which it has no stake, General Sources under rule 7, its name in italics."
+
+["www.thisdayinaviation.com"]
+periodical = true
+why = "A blog reporting on a subject in which it has no stake, General Sources under rule 7, its name in italics as Chicago treats a blog."
+
+["aviationtrivia.blogspot.com"]
+periodical = true
+why = "A blog reporting on a subject in which it has no stake, General Sources under rule 7, its name in italics as Chicago treats a blog."
+
+["cstjmateriauxcomposites.wordpress.com"]
+periodical = true
+why = "A blog reporting on a subject in which it has no stake, General Sources under rule 7, its name in italics as Chicago treats a blog."
+
+["www.katradis.com"]
+periodical = true
+why = "A blog reporting on a subject in which it has no stake, General Sources under rule 7, its name in italics as Chicago treats a blog."
+
+["www.designation-systems.net"]
+encyclopaedia = true
+why = "A reference compilation summarising other sources, such as an encyclopaedia, directory or database of aircraft or designations, which rule 2 places under Tertiary Sources."
+
+["designation-systems.net"]
+encyclopaedia = true
+why = "A reference compilation summarising other sources, such as an encyclopaedia, directory or database of aircraft or designations, which rule 2 places under Tertiary Sources."
+
+["www.astronautix.com"]
+encyclopaedia = true
+why = "A reference compilation summarising other sources, such as an encyclopaedia, directory or database of aircraft or designations, which rule 2 places under Tertiary Sources."
+
+["astronautix.com"]
+encyclopaedia = true
+why = "A reference compilation summarising other sources, such as an encyclopaedia, directory or database of aircraft or designations, which rule 2 places under Tertiary Sources."
+
+["vertipedia.vtol.org"]
+encyclopaedia = true
+why = "A reference compilation summarising other sources, such as an encyclopaedia, directory or database of aircraft or designations, which rule 2 places under Tertiary Sources."
+
+["space.skyrocket.de"]
+encyclopaedia = true
+why = "A reference compilation summarising other sources, such as an encyclopaedia, directory or database of aircraft or designations, which rule 2 places under Tertiary Sources."
+
+["www.aviastar.org"]
+encyclopaedia = true
+why = "A reference compilation summarising other sources, such as an encyclopaedia, directory or database of aircraft or designations, which rule 2 places under Tertiary Sources."
+
+["www.militaryfactory.com"]
+encyclopaedia = true
+why = "A reference compilation summarising other sources, such as an encyclopaedia, directory or database of aircraft or designations, which rule 2 places under Tertiary Sources."
+
+["aerospaceweb.org"]
+encyclopaedia = true
+why = "A reference compilation summarising other sources, such as an encyclopaedia, directory or database of aircraft or designations, which rule 2 places under Tertiary Sources."
+
+["www.globalsecurity.org"]
+encyclopaedia = true
+why = "A reference compilation summarising other sources, such as an encyclopaedia, directory or database of aircraft or designations, which rule 2 places under Tertiary Sources."
+
+["aeropedia.com.au"]
+encyclopaedia = true
+why = "A reference compilation summarising other sources, such as an encyclopaedia, directory or database of aircraft or designations, which rule 2 places under Tertiary Sources."
+
+["planet4589.org"]
+encyclopaedia = true
+why = "A reference compilation summarising other sources, such as an encyclopaedia, directory or database of aircraft or designations, which rule 2 places under Tertiary Sources."
+
+["www.f-16.net"]
+encyclopaedia = true
+why = "A reference compilation summarising other sources, such as an encyclopaedia, directory or database of aircraft or designations, which rule 2 places under Tertiary Sources."
+
+["www.blackbirds.net"]
+encyclopaedia = true
+why = "A reference compilation summarising other sources, such as an encyclopaedia, directory or database of aircraft or designations, which rule 2 places under Tertiary Sources."
+
+["man.fas.org"]
+stake = true
+why = "A think tank or research institute, a non-profit with an institutional interest in its subject, which the rules place under Commercial Sources."
+
+["irp.fas.org"]
+stake = true
+why = "A think tank or research institute, a non-profit with an institutional interest in its subject, which the rules place under Commercial Sources."
+
+["spp.fas.org"]
+stake = true
+why = "A think tank or research institute, a non-profit with an institutional interest in its subject, which the rules place under Commercial Sources."
+
+["fas.org"]
+stake = true
+why = "A think tank or research institute, a non-profit with an institutional interest in its subject, which the rules place under Commercial Sources."
+
+["dronecenter.bard.edu"]
+stake = true
+why = "A think tank or research institute, a non-profit with an institutional interest in its subject, which the rules place under Commercial Sources."
+
+["aida.mitre.org"]
+stake = true
+why = "A think tank or research institute, a non-profit with an institutional interest in its subject, which the rules place under Commercial Sources."
+
+["ethw.org"]
+why = "A site with no stake in the subject that is not a periodical, General Sources under rule 7."
+
+["skybrary.aero"]
+why = "A site with no stake in the subject that is not a periodical, General Sources under rule 7."
+
+["de.wikipedia.org"]
+encyclopaedia = true
+why = "The German Wikipedia, an encyclopaedia, Tertiary Sources under rule 2. Its pages are not pinned to revisions, since pinning reads only the English Wikipedia, so the entry carries the last revision date read."

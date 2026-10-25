@@ -45,7 +45,10 @@ _CODE = re.compile(r"<pre\b.*?</pre>|<code\b.*?</code>", re.S | re.I)
 # Each entry is (name, pattern, code_blocks_count). When the third field is False the pattern
 # is only applied outside <pre> and <code>, because those legitimately contain markup.
 CHECKS = [
-    ("unresolved-reference", re.compile(rf"\[[^\]\n<]{{2,90}}\]\[{post.ANCHOR}\]"), False),
+    # The anchor part must hold a lower-case letter, digit or underscore. No post defines
+    # an anchor in capitals alone, and a registry title can print a chemical name such as
+    # `[AMIM][DCA]` correctly escaped, which is text, not an unresolved reference.
+    ("unresolved-reference", re.compile(rf"\[[^\]\n<]{{2,90}}\]\[(?=[^\]]*[a-z0-9_]){post.ANCHOR}\]"), False),
     ("unexpanded-marker", re.compile(r"\{\{\s*[A-Za-z_][^}\n]{0,60}\}\}"), False),
     ("unrendered-liquid", re.compile(r"\{%\s*(?!raw\b|endraw\b)[a-z_]+[^%\n]{0,60}%\}"), False),
     ("raw-display-math", re.compile(r"(?<!\\)\$\$"), False),

@@ -115,6 +115,9 @@ own command line is the same command, so `python3 _lib/edits.py apply ...` also 
 | `python3 _lib/registry.py abstract DOI...`, `works` and `type` | Identifiers, or `@FILE` |
 | `python3 _lib/harvest.py harvest CONFIG`, `select`, `master` and `assemble` | `tmp/<article>/survey.toml`, the queries, rounds, anchors and clusters |
 | `python3 _lib/sources_import.py fetch-crossref`, `pin-wiki` and `import` | `_sources/decisions/<article>.toml`, the human decisions on titles, notes and corrections |
+| `python3 _lib/sources_import.py fetch-reports ntrs|osti|openlibrary`, `fetch-openalex` and `read-archive` | Posts or identifier files; caches under `tmp/sources/`, one file per record |
+| `python3 _lib/sources_import.py acronyms tmp/sources --write` | Cached registry titles; writes `_sources/acronyms.txt` |
+| `python3 _lib/survey.py years POST... [--edits FILE.toml]` | The converted post and the source database; recomputes stated year statistics |
 | `python3 _lib/sources_import.py credit-venues` | `_sources/publishers.toml`, publishers' own statements of peer review, with quotes |
 | `python3 _lib/sources.py fix-labels POST` and `diff-labels PRE POST` | The article and its map in `_sources/articles/`, including link text that is not a label |
 | `python3 _lib/textscan.py ctx FILE REGEX` and `strip-wikitext` | A saved source file |

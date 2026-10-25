@@ -786,6 +786,92 @@ def t_short_title_for_an_unattributed_work():
     assert S.cite_label(r) == "Environmental Illness"
 
 
+def t_registry_name_habits_are_repaired():
+    """Each case is a deposit habit found converting the X-Planes series, A297."""
+    A = SI._authors
+    assert A([{"family": "Binion", "given": "Jr"}, {"family": "T. W."}]) == [{"family": "Binion Jr.", "given": "T. W."}]
+    assert A([{"family": "M. Jaffal", "given": "Hayder"}]) == [{"family": "Jaffal", "given": "Hayder M."}]
+    assert A([{"family": "P", "given": "Nishanth"}]) == [{"family": "Nishanth", "given": "P."}]
+    assert A([{"family": "CHEN", "given": "ZHIMING"}])[0]["family"] == "Chen"          # capitals are not initials
+    assert A([{"family": "HAMILTON, II", "given": "H."}]) == [{"family": "Hamilton II", "given": "H."}]
+    assert A([{"family": "Mc Kinney", "given": "R. L."}]) == [{"family": "McKinney", "given": "R. L."}]
+    assert A([{"name": "US Naval Academy"}, {"family": "Juhasz", "given": "Ann"}]) == [{"family": "Juhasz", "given": "Ann"}]
+    assert A([{"name": "McRuer."}, {"family": "McRuer", "given": "Duane"}]) == [{"family": "McRuer", "given": "Duane"}]
+    assert A([{"family": "AIR FORCE FLIGHT TEST CENTER EDWARDS AFB CA"}]) == [
+        {"name": "Air Force Flight Test Center Edwards AFB CA"}]                     # DTIC's corporate authors
+    assert A([{"family": "Binion", "given": "T. W."}, {"family": "Jr"}]) == [{"family": "Binion Jr.", "given": "T. W."}]
+    assert A([{"family": "Huang", "given": "X."}, {"family": "al", "given": "E"}]) == [{"family": "Huang", "given": "X."}]
+    assert A([{"family": "II", "given": "J."}]) == []
+    P = SI._person
+    assert P("WATSON R.") == {"family": "Watson", "given": "R."}
+    assert P("Garrison P Layton, Jr.") == {"family": "Layton Jr.", "given": "Garrison P."}
+    assert P("John H. Del Frate") == {"family": "Del Frate", "given": "John H."}
+    assert P("Kenneth W Mort (NASA retiree)") == {"family": "Mort", "given": "Kenneth W."}
+    assert P("Langley Research Center") == {"name": "Langley Research Center"}
+    assert P("Kevin Branch") == {"family": "Branch", "given": "Kevin"}               # a surname, not an office
+    assert SI._people_from_label("Pisano van der Linden and Winter")[0] == [
+        {"family": "Pisano"}, {"family": "van der Linden"}, {"family": "Winter"}]
+
+
+def t_report_server_builders():
+    """NTRS, OSTI and Open Library records, the X-Planes series' report servers."""
+    j = {"stiType": "OTHER", "title": "TEST TECHNIQUES USED BY NASA FOR V/STOL MODELS",
+         "authorAffiliations": [{"meta": {"author": {"name": "Kirby, R. H."},
+                                          "organization": {"name": "NASA Langley Research Center"}}}],
+         "publications": [{"publicationDate": "1964-03-01T00:00:00"}], "otherReportNumbers": ["Report Number: NASA-TN-D-2000"]}
+    r = SI.record_from_ntrs("x", j, "19640007101")
+    assert (r["kind"], r["year"], r["number"], r["publisher"]) == ("report", 1964, "NASA-TN-D-2000", "NASA"), r
+    assert r["title"] == "Test Techniques Used by NASA for V/STOL Models", r["title"]
+    j2 = {"stiType": "REPRINT", "title": "A paper", "authorAffiliations": [],
+          "publications": [{"publicationName": "Journal of Aircraft", "volume": "54", "publicationDate": "2017-09-01"}]}
+    assert SI.record_from_ntrs("y", j2, "1")["kind"] == "journal-article"
+    o = {"title": "Report", "authors": ["Smith, J. [Lab, City, ST (United States)]"], "publication_date": "1960-01-01",
+         "product_type": "Technical Report", "report_number": "ORNL-1; X", "research_orgs":
+         ["Oak Ridge National Laboratory (ORNL), Oak Ridge, TN (United States)"]}
+    r = SI.record_from_osti("z", o, "1")
+    assert (r["number"], r["publisher"], r["authors"]) == ("ORNL-1", "Oak Ridge National Laboratory (ORNL)",
+                                                           [{"family": "Smith", "given": "J."}]), r
+    w = {"title": "Boundary-Layer Theory", "_author_names": ["Hermann Schlichting (Deceased)"],
+         "_editions": [{"key": "/books/OL1M", "publish_date": "2016", "publishers": ["Springer"]},
+                       {"key": "/books/OL2M", "publish_date": "1955", "publishers": ["McGraw-Hill"]}]}
+    r = SI.record_from_openlibrary("b", w, "works/OL1W", 2017, "Schlichting and Gersten")
+    assert r["year"] == 2017 and r["publisher"] == "Springer", r          # no 2017 edition: nearest one's publisher
+    assert [a["family"] for a in r["authors"]] == ["Schlichting", "Gersten"], r["authors"]  # the label's authors
+    assert SI.record_from_openlibrary("b", w, "works/OL1W", 1955, None)["publisher"] == "McGraw-Hill"
+
+
+def t_label_forms_and_inferred_attributions():
+    assert SI.split_label("Anderson 2002 Modern Compressible Flow") == ("Anderson", 2002, "Modern Compressible Flow")
+    assert SI.split_label("National Museum of the United States Air Force, Martin RB-57D fact sheet, 2009") == (
+        "National Museum of the United States Air Force", 2009, "Martin RB-57D fact sheet")
+    assert SI.split_label("Civil Aircraft Sonic Boom, Final Rule, 38 FR 8051")[1] is None   # a page, not a year
+    assert not SI._label_names_people("Aircraft Stability and Control", "Aircraft Stability & Control")
+    m = SI._drop_inferred({"publisher": "Faircount Media Group", "authors": [{"family": "O'Rourke"}],
+                           "notes": "Publisher Faircount Media Group inferred, not seen in fetch. Author likely O'Rourke, unverified."})
+    assert m["publisher"] is None and m["authors"] == []
+    r = SI.record_from_web("x", "https://a.example/b.pdf", {"status": "blocked"}, "Falcon HTV-2 fact sheet 2010", {}, "2026-10-24")
+    assert (r["title"], r["authors"], r["year"]) == ("Falcon HTV-2 fact sheet", [], 2010)
+
+
+def t_anchor_with_empty_name_part_has_a_shard():
+    """The X-Planes harvest named works by non-Latin authors `research__2026`."""
+    assert S.shard_of("research__2026") == "2" and S.shard_of("research_smith_2020") == "s"
+
+
+def t_title_opening_label_is_a_citation():
+    """The X-Planes surveys cited author-less harvest records by their title's opening words."""
+    r = journal(title="Earth Oblateness in Terms of Satellite Orbits")
+    assert S._title_label("Earth oblateness in terms 1959", r)
+    assert not S._title_label("Clausius in 1850", r)
+    assert not S._title_label("Earth 1959", r)         # too short to identify the work
+
+
+def t_registry_placeholders_are_not_authors():
+    """Wolters Kluwer deposits `&NA;` as a family name, which an entry printed as `&Na`."""
+    assert SI._authors([{"family": "&NA;"}, {"family": "&NA;"}]) == []
+    assert SI._authors([{"family": "Na", "given": "Li"}]) == [{"family": "Na", "given": "Li"}]
+
+
 def t_affiliations_and_bylines_are_not_authors():
     got = SI._authors([{"name": "Department of Environmental Engineering, Daejeon University"},
                        {"name": "Formulaction, Inc."}, {"family": "KIM", "given": "J."}, {"name": "A Correspondent"}])

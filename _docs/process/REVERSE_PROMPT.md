@@ -4,6 +4,57 @@
 
 ## Last Updated
 
+**Date**: 2026-10-25 (first entry)
+**Task**: **The X-Planes series, A297 to A368, converted to Chicago author-date from the source database, so all of A297 to A384 are converted. Pushed on the pilot's instruction.** There was nothing to commit at the start, since `dad2159` was already pushed.
+
+**Scale.** 72 articles, 363,651 link definitions, now 363,483 generated entries. The store holds 229,885 records and 27,337 venues, of which 12,460 are credited with peer review, in 155 MB of shards, the largest 14 MB.
+
+| Section | X-Planes entries |
+|---|---|
+| Primary Sources, Non-Peer-Reviewed | 255,879 |
+| Primary Sources, Peer-Reviewed | 99,926 |
+| Secondary Sources | 2,917 |
+| Related Posts | 2,641 |
+| Tertiary Sources | 1,746 |
+| Commercial Sources | 249 |
+| General Sources | 125 |
+
+**Where the metadata came from.**
+- **Crossref**, the registry of record, for every DOI but those OpenAlex supplied first. Its public pool ran at about five DOIs a second, so 142,811 survey DOIs took about seven hours, fetched in article order so articles completed in turn.
+- **OpenAlex in bulk** for 11,154 survey works fetched before its keyless daily allowance ran out. Each says Crossref was not asked, and a later refresh can upgrade it.
+- **The NASA Technical Reports Server** for 26,967 records, **OSTI** for 2,292 and **Open Library** for 595 books, each from its own server.
+- **Web pages**, 569, read once by six reading agents, with an Internet Archive pass for the captures their tool could not fetch. 176 entries across the store are still built from labels, each saying why.
+- **Wikipedia**, 1,626 links pinned to the revision current when the commit that added each link was made, 19 verified against saved pages.
+
+**What changed in the prose.**
+- **Labels.** In-text labels were set to the database's author and year, typically 30 to 400 an article. Each article's changes were classified. Every name change was reviewed for the first articles, and the defects found became importer rules.
+- **Six sentences** named the legacy Books, Reference and Research lists, which no longer exist. They now say the works are cited as curated references outside the survey.
+- **Survey statistics.** `_lib/survey.py years` recomputed each stated median, dated count and period count from the database years. Where the database dates works the harvest left undated, or takes a registry's first-publication year, the figure was corrected, for example A300's dated count from 5,217 to 5,295. Only claims whose scope is unambiguous are checked. Cluster statistics other than medians, and 23 articles' differently worded claims, are not.
+- **Two dead Wikipedia links** were corrected, in A353 (`NASA_Helios_Prototype`) and A355 (`Kratos_BQM-167_Skeeter`).
+
+**A defect in the published A377 was found and fixed.** Fifty-seven records had taken "authors" from short-title labels, printing entries such as "Givaudan, and LanzaTech to. 2023." The guard against it now applies to every label form.
+
+**Tooling added.** Report-server importers and fetches, bulk OpenAlex, archive reading, harvest-record fallback, an acronym list derived from registry titles, about twenty registry name habits, label-year and cataloguing-year rules, provenance-aware refresh, `--as-post`, and the year-statistics checker with edits. Each habit has a test. The procedure, the citation style and the database README are updated.
+
+**Verification.** `test_sources.py` 79 of 79, `test_lib.py` 165 of 165, `sources.py validate` 229,885 records and 27,337 venues valid, `_verify.py --strict` 0 and 0 over 384 posts, and `./_check.sh --weights` passed, its rendered audit clean over 551 pages. Every converted article passes `sources.py check`, and every recognised year claim agrees with its data. The audit's unresolved-reference check was narrowed so that a correctly escaped chemical name, `[AMIM][DCA]`, is not read as a link; no post defines an anchor in capitals alone.
+
+**Page weight.** The X-Planes pages roughly doubled, the X-43 page to 4.6 MB and the X-12 page from 2.0 MB to 4.3 MB, and the site from 139 MB to 223 MB, because a Chicago entry is several times longer than the label it replaced.
+
+**Judgements to review.**
+- AIAA journals are credited from AIAA's own statement, which also lets an Associate Editor accept a paper without review. AIAA conference papers are not credited.
+- Agency outreach pages are Commercial Sources and reference compilations such as Encyclopedia Astronautica and Designation-Systems.Net are Tertiary, per host in `_sources/domains.toml`.
+- Inferred publishers and authors from the page readings are not shown.
+- An NTRS year later than the year the article cites is treated as a cataloguing date.
+
+**Open.**
+- 11,154 survey records rest on OpenAlex rather than Crossref.
+- 176 label-built entries and 16 harvest-built ones.
+- Wikipedia pins are dated, not verified, for all but 19 links.
+- The year checker's coverage gap above.
+- The earlier open items, including the six large uncredited journals and the Unverified Chicago rules.
+
+## Previous Report (2026-10-24, eighth entry)
+
 **Date**: 2026-10-24 (eighth entry)
 **Task**: **A369 to A379 converted to Chicago author-date from the source database, so all of A369 to A384 are converted. Pushed on the pilot's instruction.** The seventh entry's commit, `f0fd38b`, was pushed first.
 
