@@ -247,29 +247,25 @@ _ORG = re.compile(r"\b(Cent(er|re)|Laborator(y|ies)|Lab\.|Labs|Univ\.|Universit[
 _PARTICLES = {"de", "del", "della", "der", "van", "von", "da", "di", "du", "le", "la", "dos", "das", "ten", "ter"}
 
 
-_DICT = None
 _MINOR_CORP = {"and", "for", "the", "of", "to", "in", "at", "on", "by", "or", "a", "an"}
 
 
 def _recase_corporate(name):
     """A corporate author written in capitals, recased word by word.
 
-    A listed acronym, a two-letter word such as a state code, and a short word
-    that is not an ordinary word, such as `AFB`, keep their capitals; minor words
-    are lowered; every other word is capitalised, so `AIR FORCE` becomes `Air Force`.
+    A word in `_sources/acronyms.txt`, such as `AFB`, and a two-letter word, such as
+    a state code, keep their capitals; minor words are lowered; every other word
+    is capitalised, so `AIR FORCE` becomes `Air Force`. It reads only tracked data,
+    never a system dictionary, so every machine recases a name the same way, which
+    CI caught when a runner without `/usr/share/dict/words` kept `AIR` in capitals.
     """
-    global _DICT
-    if _DICT is None:
-        import os
-        path = "/usr/share/dict/words"
-        _DICT = {w.strip().lower() for w in open(path, encoding="utf-8")} if os.path.exists(path) else set()
     acr = acronyms()
     out = []
     for i, w in enumerate(name.split()):
         k = w.lower()
         if k in _MINOR_CORP and i:
             out.append(k)
-        elif k in acr or (w.isalpha() and (len(w) == 2 or (len(w) == 3 and k not in _DICT))):
+        elif k in acr or (w.isalpha() and len(w) == 2):
             out.append(w)
         else:
             out.append(w.capitalize())
