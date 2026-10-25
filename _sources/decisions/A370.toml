@@ -1,0 +1,22 @@
+# Import decisions for A370. Registry caches and page metadata are scratch and are not tracked.
+article = "A370"
+crossref_cache = "tmp/sources/crossref"
+wiki_pins = "tmp/a370/sources/wiki_pins.json"
+web_metadata = ["tmp/web/meta1.json", "tmp/web/meta2.json", "tmp/web/meta3.json", "tmp/web/meta4.json", "tmp/web/meta5.json"]
+web_read = "2026-10-24"
+
+[fix.research_demoura_2009]
+note = "Crossref files the particle with the given names, Ana Lúcia De Moura. The author publishes as Ana Lúcia de Moura and the article cites her as de Moura, so the particle belongs to the family name, lower case."
+set = { authors = [ { family = "de Moura", given = "Ana Lúcia" }, { family = "Ierusalimschy", given = "Roberto" } ] }
+
+[fix.research_dybvig_2007]
+note = "Crossref misspells the first author Dyvbig; OpenAlex and the author's own publications give Dybvig. Crossref also files Peyton with the given names; the family name is Peyton Jones."
+set = { authors = [ { family = "Dybvig", given = "R. Kent" }, { family = "Peyton Jones", given = "Simon" }, { family = "Sabry", given = "Amr" } ] }
+
+[fix.research_reynolds_1972]
+note = "The DOI is the 1998 reprint in Higher-Order and Symbolic Computation of the paper first published in the Proceedings of the ACM Annual Conference in 1972, so the entry gives the reprint's year and notes the original."
+set = { original_year = 1972 }
+
+[fix.research_strachey_1974]
+note = "The DOI is the 2000 reprint in Higher-Order and Symbolic Computation of the technical monograph first issued in 1974, so the entry gives the reprint's year and notes the original."
+set = { original_year = 1974 }

@@ -136,6 +136,28 @@ def crossref_work(doi, **kw):
     return (j or {}).get("message")
 
 
+def crossref_works(dois, **kw):
+    """{doi: message} for up to about a hundred DOIs in one request, or None on failure.
+
+    WHY. One request per DOI took hours for the 39,000 identifiers of the
+    harvested surveys. Crossref ORs repeated `doi:` filters, so one request
+    returns many works. A DOI absent from the reply is absent from the dict,
+    and the caller fetches it singly, since a filter can miss a DOI whose case
+    or encoding the index normalises differently. A DOI containing a comma
+    cannot be filtered and must be fetched singly.
+    """
+    dois = [d for d in dois if "," not in d]
+    if not dois:
+        return {}
+    params = {"filter": ",".join(f"doi:{d}" for d in dois), "rows": str(len(dois))}
+    if CONTACT:
+        params["mailto"] = CONTACT
+    j = get_json(f"{CROSSREF}?{urllib.parse.urlencode(params)}", **kw)
+    if j is None:
+        return None
+    return {it["DOI"].lower(): it for it in (j.get("message") or {}).get("items") or []}
+
+
 def crossref_fields(msg):
     """Normalised (title, authors, year, venue) from a Crossref message."""
     if not msg:

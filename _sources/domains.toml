@@ -1,0 +1,532 @@
+# Domain judgements for sources with no registry record, made once for every article.
+# Read by `_lib/sources_import.py import`. An article's decision file may override a host.
+# Keys: stake, primary, periodical, container, publisher, kind, and `why`, which is required.
+
+["cimsec.org"]
+stake = true
+why = "A think tank or research institute, a non-profit with an institutional interest in its subject, which the rules place under Commercial Sources."
+
+["costsofwar.watson.brown.edu"]
+stake = true
+why = "A think tank or research institute, a non-profit with an institutional interest in its subject, which the rules place under Commercial Sources."
+
+["csis-website-prod.s3.amazonaws.com"]
+stake = true
+why = "A think tank or research institute, a non-profit with an institutional interest in its subject, which the rules place under Commercial Sources."
+
+["ecfr.eu"]
+stake = true
+why = "A think tank or research institute, a non-profit with an institutional interest in its subject, which the rules place under Commercial Sources."
+
+["features.csis.org"]
+stake = true
+why = "A think tank or research institute, a non-profit with an institutional interest in its subject, which the rules place under Commercial Sources."
+
+["globalaffairs.org"]
+stake = true
+why = "A think tank or research institute, a non-profit with an institutional interest in its subject, which the rules place under Commercial Sources."
+
+["isis-online.org"]
+stake = true
+why = "A think tank or research institute, a non-profit with an institutional interest in its subject, which the rules place under Commercial Sources."
+
+["koerber-stiftung.de"]
+stake = true
+why = "A think tank or research institute, a non-profit with an institutional interest in its subject, which the rules place under Commercial Sources."
+
+["power.lowyinstitute.org"]
+stake = true
+why = "A think tank or research institute, a non-profit with an institutional interest in its subject, which the rules place under Commercial Sources."
+
+["rhg.com"]
+stake = true
+why = "A think tank or research institute, a non-profit with an institutional interest in its subject, which the rules place under Commercial Sources."
+
+["static.rusi.org"]
+stake = true
+why = "A think tank or research institute, a non-profit with an institutional interest in its subject, which the rules place under Commercial Sources."
+
+["understandingwar.org"]
+stake = true
+why = "A think tank or research institute, a non-profit with an institutional interest in its subject, which the rules place under Commercial Sources."
+
+["www.aei.org"]
+stake = true
+why = "A think tank or research institute, a non-profit with an institutional interest in its subject, which the rules place under Commercial Sources."
+
+["www.armscontrol.org"]
+stake = true
+why = "A think tank or research institute, a non-profit with an institutional interest in its subject, which the rules place under Commercial Sources."
+
+["www.aspi.org.au"]
+stake = true
+why = "A think tank or research institute, a non-profit with an institutional interest in its subject, which the rules place under Commercial Sources."
+
+["www.atlanticcouncil.org"]
+stake = true
+why = "A think tank or research institute, a non-profit with an institutional interest in its subject, which the rules place under Commercial Sources."
+
+["www.belfercenter.org"]
+stake = true
+why = "A think tank or research institute, a non-profit with an institutional interest in its subject, which the rules place under Commercial Sources."
+
+["www.brookings.edu"]
+stake = true
+why = "A think tank or research institute, a non-profit with an institutional interest in its subject, which the rules place under Commercial Sources."
+
+["www.cfr.org"]
+stake = true
+why = "A think tank or research institute, a non-profit with an institutional interest in its subject, which the rules place under Commercial Sources."
+
+["www.cnas.org"]
+stake = true
+why = "A think tank or research institute, a non-profit with an institutional interest in its subject, which the rules place under Commercial Sources."
+
+["www.csis.org"]
+stake = true
+why = "A think tank or research institute, a non-profit with an institutional interest in its subject, which the rules place under Commercial Sources."
+
+["www.economicsandpeace.org"]
+stake = true
+why = "A think tank or research institute, a non-profit with an institutional interest in its subject, which the rules place under Commercial Sources."
+
+["www.gia.edu"]
+stake = true
+why = "A think tank or research institute, a non-profit with an institutional interest in its subject, which the rules place under Commercial Sources."
+
+["www.heritage.org"]
+stake = true
+why = "A think tank or research institute, a non-profit with an institutional interest in its subject, which the rules place under Commercial Sources."
+
+["www.iiss.org"]
+stake = true
+why = "A think tank or research institute, a non-profit with an institutional interest in its subject, which the rules place under Commercial Sources."
+
+["www.iseas.edu.sg"]
+stake = true
+why = "A think tank or research institute, a non-profit with an institutional interest in its subject, which the rules place under Commercial Sources."
+
+["www.lowyinstitute.org"]
+stake = true
+why = "A think tank or research institute, a non-profit with an institutional interest in its subject, which the rules place under Commercial Sources."
+
+["www.mitchellaerospacepower.org"]
+stake = true
+why = "A think tank or research institute, a non-profit with an institutional interest in its subject, which the rules place under Commercial Sources."
+
+["www.rand.org"]
+stake = true
+why = "A think tank or research institute, a non-profit with an institutional interest in its subject, which the rules place under Commercial Sources."
+
+["www.sipri.org"]
+stake = true
+why = "A think tank or research institute, a non-profit with an institutional interest in its subject, which the rules place under Commercial Sources."
+
+["www.spf.org"]
+stake = true
+why = "A think tank or research institute, a non-profit with an institutional interest in its subject, which the rules place under Commercial Sources."
+
+["www.ussc.edu.au"]
+stake = true
+why = "A think tank or research institute, a non-profit with an institutional interest in its subject, which the rules place under Commercial Sources."
+
+["www.foreignaffairs.com"]
+stake = true
+why = "Published by the Council on Foreign Relations, a think tank, so its magazine has an institutional interest in the foreign policy it covers."
+
+["amac.us"]
+stake = true
+why = "A company, trade association or advocacy body writing about its own field, products or members."
+
+["googleprojectzero.blogspot.com"]
+stake = true
+why = "A company, trade association or advocacy body writing about its own field, products or members."
+
+["ifrafragrance.org"]
+stake = true
+why = "A company, trade association or advocacy body writing about its own field, products or members."
+
+["igbconline.org"]
+stake = true
+why = "A company, trade association or advocacy body writing about its own field, products or members."
+
+["invisibledisabilities.org"]
+stake = true
+why = "A company, trade association or advocacy body writing about its own field, products or members."
+
+["lmalloyds.com"]
+stake = true
+why = "A company, trade association or advocacy body writing about its own field, products or members."
+
+["services.chanel.cn"]
+stake = true
+why = "A company, trade association or advocacy body writing about its own field, products or members."
+
+["vcahospitals.com"]
+stake = true
+why = "A company, trade association or advocacy body writing about its own field, products or members."
+
+["www.absint.com"]
+stake = true
+why = "A company, trade association or advocacy body writing about its own field, products or members."
+
+["www.akc.org"]
+stake = true
+why = "A company, trade association or advocacy body writing about its own field, products or members."
+
+["www.aptar.com"]
+stake = true
+why = "A company, trade association or advocacy body writing about its own field, products or members."
+
+["www.aspca.org"]
+stake = true
+why = "A company, trade association or advocacy body writing about its own field, products or members."
+
+["www.lloyds.com"]
+stake = true
+why = "A company, trade association or advocacy body writing about its own field, products or members."
+
+["www.petmd.com"]
+stake = true
+why = "A company, trade association or advocacy body writing about its own field, products or members."
+
+["www.poison.org"]
+stake = true
+why = "A company, trade association or advocacy body writing about its own field, products or members."
+
+["www.semiconductors.org"]
+stake = true
+why = "A company, trade association or advocacy body writing about its own field, products or members."
+
+["www.trendforce.com"]
+stake = true
+why = "A company, trade association or advocacy body writing about its own field, products or members."
+
+["bidenwhitehouse.archives.gov"]
+stake = true
+why = "Government outreach or a statement by the issuing government, which the rules place under Commercial Sources."
+
+["blogs.bodleian.ox.ac.uk"]
+stake = true
+why = "Government outreach or a statement by the issuing government, which the rules place under Commercial Sources."
+
+["english.scio.gov.cn"]
+stake = true
+why = "Government outreach or a statement by the issuing government, which the rules place under Commercial Sources."
+
+["kr.usembassy.gov"]
+stake = true
+why = "Government outreach or a statement by the issuing government, which the rules place under Commercial Sources."
+
+["asia.nikkei.com"]
+periodical = true
+why = "A news or commentary periodical with no stake in the subjects it reports, General Sources."
+
+["foreignpolicy.com"]
+periodical = true
+why = "A news or commentary periodical with no stake in the subjects it reports, General Sources."
+
+["kathmandupost.com"]
+periodical = true
+why = "A news or commentary periodical with no stake in the subjects it reports, General Sources."
+
+["smallwarsjournal.com"]
+periodical = true
+why = "A news or commentary periodical with no stake in the subjects it reports, General Sources."
+
+["warontherocks.com"]
+periodical = true
+why = "A news or commentary periodical with no stake in the subjects it reports, General Sources."
+
+["www.insurancejournal.com"]
+periodical = true
+why = "A news or commentary periodical with no stake in the subjects it reports, General Sources."
+
+["www.newsweek.com"]
+periodical = true
+why = "A news or commentary periodical with no stake in the subjects it reports, General Sources."
+
+["www.sciencedaily.com"]
+periodical = true
+why = "A news or commentary periodical with no stake in the subjects it reports, General Sources."
+
+["www.taiwannews.com.tw"]
+periodical = true
+why = "A news or commentary periodical with no stake in the subjects it reports, General Sources."
+
+["www.twz.com"]
+periodical = true
+why = "A news or commentary periodical with no stake in the subjects it reports, General Sources."
+
+["askjan.org"]
+primary = true
+why = "A first-hand record: an official statement, transcript, statute, regulation, statistical release, archival document, patent or disclosure, which rule 4 places among the primary sources."
+
+["commission.europa.eu"]
+primary = true
+why = "A first-hand record: an official statement, transcript, statute, regulation, statistical release, archival document, patent or disclosure, which rule 4 places among the primary sources."
+
+["cts.perseids.org"]
+primary = true
+why = "A first-hand record: an official statement, transcript, statute, regulation, statistical release, archival document, patent or disclosure, which rule 4 places among the primary sources."
+
+["data.bis.org"]
+primary = true
+why = "A first-hand record: an official statement, transcript, statute, regulation, statistical release, archival document, patent or disclosure, which rule 4 places among the primary sources."
+
+["data.consilium.europa.eu"]
+primary = true
+why = "A first-hand record: an official statement, transcript, statute, regulation, statistical release, archival document, patent or disclosure, which rule 4 places among the primary sources."
+
+["data.imf.org"]
+primary = true
+why = "A first-hand record: an official statement, transcript, statute, regulation, statistical release, archival document, patent or disclosure, which rule 4 places among the primary sources."
+
+["datatopics.worldbank.org"]
+primary = true
+why = "A first-hand record: an official statement, transcript, statute, regulation, statistical release, archival document, patent or disclosure, which rule 4 places among the primary sources."
+
+["db.cec.gov.tw"]
+primary = true
+why = "A first-hand record: an official statement, transcript, statute, regulation, statistical release, archival document, patent or disclosure, which rule 4 places among the primary sources."
+
+["docs.house.gov"]
+primary = true
+why = "A first-hand record: an official statement, transcript, statute, regulation, statistical release, archival document, patent or disclosure, which rule 4 places among the primary sources."
+
+["ea01.moeaea.gov.tw"]
+primary = true
+why = "A first-hand record: an official statement, transcript, statute, regulation, statistical release, archival document, patent or disclosure, which rule 4 places among the primary sources."
+
+["ec.europa.eu"]
+primary = true
+why = "A first-hand record: an official statement, transcript, statute, regulation, statistical release, archival document, patent or disclosure, which rule 4 places among the primary sources."
+
+["efail.de"]
+primary = true
+why = "A first-hand record: an official statement, transcript, statute, regulation, statistical release, archival document, patent or disclosure, which rule 4 places among the primary sources."
+
+["en.kremlin.ru"]
+primary = true
+why = "A first-hand record: an official statement, transcript, statute, regulation, statistical release, archival document, patent or disclosure, which rule 4 places among the primary sources."
+
+["eur-lex.europa.eu"]
+primary = true
+why = "A first-hand record: an official statement, transcript, statute, regulation, statistical release, archival document, patent or disclosure, which rule 4 places among the primary sources."
+
+["fiscaldata.treasury.gov"]
+primary = true
+why = "A first-hand record: an official statement, transcript, statute, regulation, statistical release, archival document, patent or disclosure, which rule 4 places among the primary sources."
+
+["history.state.gov"]
+primary = true
+why = "A first-hand record: an official statement, transcript, statute, regulation, statistical release, archival document, patent or disclosure, which rule 4 places among the primary sources."
+
+["law.moj.gov.tw"]
+primary = true
+why = "A first-hand record: an official statement, transcript, statute, regulation, statistical release, archival document, patent or disclosure, which rule 4 places among the primary sources."
+
+["nsarchive.gwu.edu"]
+primary = true
+why = "A first-hand record: an official statement, transcript, statute, regulation, statistical release, archival document, patent or disclosure, which rule 4 places among the primary sources."
+
+["patents.google.com"]
+primary = true
+why = "A first-hand record: an official statement, transcript, statute, regulation, statistical release, archival document, patent or disclosure, which rule 4 places among the primary sources."
+
+["portwatch.imf.org"]
+primary = true
+why = "A first-hand record: an official statement, transcript, statute, regulation, statistical release, archival document, patent or disclosure, which rule 4 places among the primary sources."
+
+["statis.moi.gov.tw"]
+primary = true
+why = "A first-hand record: an official statement, transcript, statute, regulation, statistical release, archival document, patent or disclosure, which rule 4 places among the primary sources."
+
+["ticdata.treasury.gov"]
+primary = true
+why = "A first-hand record: an official statement, transcript, statute, regulation, statistical release, archival document, patent or disclosure, which rule 4 places among the primary sources."
+
+["unctadstat.unctad.org"]
+primary = true
+why = "A first-hand record: an official statement, transcript, statute, regulation, statistical release, archival document, patent or disclosure, which rule 4 places among the primary sources."
+
+["ustr.gov"]
+primary = true
+why = "A first-hand record: an official statement, transcript, statute, regulation, statistical release, archival document, patent or disclosure, which rule 4 places among the primary sources."
+
+["webbook.nist.gov"]
+primary = true
+why = "A first-hand record: an official statement, transcript, statute, regulation, statistical release, archival document, patent or disclosure, which rule 4 places among the primary sources."
+
+["www.access-board.gov"]
+primary = true
+why = "A first-hand record: an official statement, transcript, statute, regulation, statistical release, archival document, patent or disclosure, which rule 4 places among the primary sources."
+
+["www.aec.go.jp"]
+primary = true
+why = "A first-hand record: an official statement, transcript, statute, regulation, statistical release, archival document, patent or disclosure, which rule 4 places among the primary sources."
+
+["www.armed-services.senate.gov"]
+primary = true
+why = "A first-hand record: an official statement, transcript, statute, regulation, statistical release, archival document, patent or disclosure, which rule 4 places among the primary sources."
+
+["www.breachattack.com"]
+primary = true
+why = "A first-hand record: an official statement, transcript, statute, regulation, statistical release, archival document, patent or disclosure, which rule 4 places among the primary sources."
+
+["www.cas.go.jp"]
+primary = true
+why = "A first-hand record: an official statement, transcript, statute, regulation, statistical release, archival document, patent or disclosure, which rule 4 places among the primary sources."
+
+["www.cdc.gov"]
+primary = true
+why = "A first-hand record: an official statement, transcript, statute, regulation, statistical release, archival document, patent or disclosure, which rule 4 places among the primary sources."
+
+["www.congress.gov"]
+primary = true
+why = "A first-hand record: an official statement, transcript, statute, regulation, statistical release, archival document, patent or disclosure, which rule 4 places among the primary sources."
+
+["www.eia.gov"]
+primary = true
+why = "A first-hand record: an official statement, transcript, statute, regulation, statistical release, archival document, patent or disclosure, which rule 4 places among the primary sources."
+
+["www.epa.gov"]
+primary = true
+why = "A first-hand record: an official statement, transcript, statute, regulation, statistical release, archival document, patent or disclosure, which rule 4 places among the primary sources."
+
+["www.everycrsreport.com"]
+primary = true
+why = "A first-hand record: an official statement, transcript, statute, regulation, statistical release, archival document, patent or disclosure, which rule 4 places among the primary sources."
+
+["www.govinfo.gov"]
+primary = true
+why = "A first-hand record: an official statement, transcript, statute, regulation, statistical release, archival document, patent or disclosure, which rule 4 places among the primary sources."
+
+["www.legislation.gov.uk"]
+primary = true
+why = "A first-hand record: an official statement, transcript, statute, regulation, statistical release, archival document, patent or disclosure, which rule 4 places among the primary sources."
+
+["www.mnd.gov.tw"]
+primary = true
+why = "A first-hand record: an official statement, transcript, statute, regulation, statistical release, archival document, patent or disclosure, which rule 4 places among the primary sources."
+
+["www.mod.go.jp"]
+primary = true
+why = "A first-hand record: an official statement, transcript, statute, regulation, statistical release, archival document, patent or disclosure, which rule 4 places among the primary sources."
+
+["www.navysbir.com"]
+primary = true
+why = "A first-hand record: an official statement, transcript, statute, regulation, statistical release, archival document, patent or disclosure, which rule 4 places among the primary sources."
+
+["www.secnav.navy.mil"]
+primary = true
+why = "A first-hand record: an official statement, transcript, statute, regulation, statistical release, archival document, patent or disclosure, which rule 4 places among the primary sources."
+
+["www.stats.gov.cn"]
+primary = true
+why = "A first-hand record: an official statement, transcript, statute, regulation, statistical release, archival document, patent or disclosure, which rule 4 places among the primary sources."
+
+["www.tsa.gov"]
+primary = true
+why = "A first-hand record: an official statement, transcript, statute, regulation, statistical release, archival document, patent or disclosure, which rule 4 places among the primary sources."
+
+["www.wto.org"]
+primary = true
+why = "A first-hand record: an official statement, transcript, statute, regulation, statistical release, archival document, patent or disclosure, which rule 4 places among the primary sources."
+
+["www3.epa.gov"]
+primary = true
+why = "A first-hand record: an official statement, transcript, statute, regulation, statistical release, archival document, patent or disclosure, which rule 4 places among the primary sources."
+
+["arrow.apache.org"]
+kind = "documentation"
+why = "The documentation or specification pages of a software project, which rule 4 places among the primary sources."
+
+["capnproto.org"]
+kind = "documentation"
+why = "The documentation or specification pages of a software project, which rule 4 places among the primary sources."
+
+["clang.llvm.org"]
+kind = "documentation"
+why = "The documentation or specification pages of a software project, which rule 4 places among the primary sources."
+
+["doc.rust-lang.org"]
+kind = "documentation"
+why = "The documentation or specification pages of a software project, which rule 4 places among the primary sources."
+
+["docs.kernel.org"]
+kind = "documentation"
+why = "The documentation or specification pages of a software project, which rule 4 places among the primary sources."
+
+["docs.oracle.com"]
+kind = "documentation"
+why = "The documentation or specification pages of a software project, which rule 4 places among the primary sources."
+
+["en.cppreference.com"]
+kind = "documentation"
+why = "The documentation or specification pages of a software project, which rule 4 places among the primary sources."
+
+["flatbuffers.dev"]
+kind = "documentation"
+why = "The documentation or specification pages of a software project, which rule 4 places among the primary sources."
+
+["gcc.gnu.org"]
+kind = "documentation"
+why = "The documentation or specification pages of a software project, which rule 4 places among the primary sources."
+
+["itanium-cxx-abi.github.io"]
+kind = "documentation"
+why = "The documentation or specification pages of a software project, which rule 4 places among the primary sources."
+
+["kotlinlang.org"]
+kind = "documentation"
+why = "The documentation or specification pages of a software project, which rule 4 places among the primary sources."
+
+["llvm.org"]
+kind = "documentation"
+why = "The documentation or specification pages of a software project, which rule 4 places among the primary sources."
+
+["peps.python.org"]
+kind = "documentation"
+why = "The documentation or specification pages of a software project, which rule 4 places among the primary sources."
+
+["refspecs.linuxfoundation.org"]
+kind = "documentation"
+why = "The documentation or specification pages of a software project, which rule 4 places among the primary sources."
+
+["theupdateframework.io"]
+kind = "documentation"
+why = "The documentation or specification pages of a software project, which rule 4 places among the primary sources."
+
+["www.lua.org"]
+kind = "documentation"
+why = "The documentation or specification pages of a software project, which rule 4 places among the primary sources."
+
+["pubs.opengroup.org"]
+kind = "standard"
+why = "A published standard or normative specification, which rule 4 places among the primary sources."
+
+["tc39.es"]
+kind = "standard"
+why = "A published standard or normative specification, which rule 4 places among the primary sources."
+
+["webassembly.github.io"]
+kind = "standard"
+why = "A published standard or normative specification, which rule 4 places among the primary sources."
+
+["www.ecma-international.org"]
+kind = "standard"
+why = "A published standard or normative specification, which rule 4 places among the primary sources."
+
+["www.iso.org"]
+kind = "standard"
+why = "A published standard or normative specification, which rule 4 places among the primary sources."
+
+["www.rfc-editor.org"]
+kind = "standard"
+why = "A published standard or normative specification, which rule 4 places among the primary sources."
+
+["arxiv.org"]
+kind = "preprint"
+container = "arXiv"
+why = "An arXiv preprint, not peer-reviewed."

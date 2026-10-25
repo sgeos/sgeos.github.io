@@ -1,0 +1,15 @@
+# Import decisions for A379. Registry caches and page metadata are scratch and are not tracked.
+article = "A379"
+crossref_cache = "tmp/sources/crossref"
+wiki_pins = "tmp/a379/sources/wiki_pins.json"
+web_metadata = ["tmp/web/meta1.json", "tmp/web/meta2.json", "tmp/web/meta3.json", "tmp/web/meta4.json", "tmp/web/meta5.json"]
+web_read = "2026-10-24"
+
+# Reviewed 2026-10-24 from the in-text labels that conversion changed.
+[fix.research_eckbo_thorburn_2008]
+note = "Crossref runs the given name Espen into the family name as Espeneckbo and gives Thorburn only the initial S. OpenAlex gives B. Espen Eckbo and Karin S. Thorburn."
+set = { authors = [ { family = "Eckbo", given = "B. Espen" }, { family = "Thorburn", given = "Karin S." } ] }
+
+[fix.research_williamson_1971]
+note = "The DOI is the chapter in Williamson's 1999 collection, Firms, Markets, and Hierarchies, of the paper first published in the American Economic Review in 1971, so the entry gives the collection's year and the original."
+set = { original_year = 1971 }

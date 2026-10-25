@@ -6,6 +6,7 @@ wiki_pins = "tmp/a382/sources/wiki_pins.json"
 [title]
 research_mori_et_al_2011 = "World's First Solar Power Sail Demonstration Flight by IKAROS"
 research_janhunen_et_al_2010 = "Electric Solar Wind Sail: Toward Test Missions"
+research_prsa_et_al_2016 = "Nominal Values for Selected Solar and Planetary Quantities: IAU 2015 Resolution B3"
 
 [fix.research_furuya_masuoka_2004]
 note = "Crossref lists no authors. Hiroshi Furuya and Tadashi Masuoka from OpenAlex, consistent with the article's label."

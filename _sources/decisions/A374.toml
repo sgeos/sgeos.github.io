@@ -1,0 +1,15 @@
+# Import decisions for A374. Registry caches and page metadata are scratch and are not tracked.
+article = "A374"
+crossref_cache = "tmp/sources/crossref"
+wiki_pins = "tmp/a374/sources/wiki_pins.json"
+web_metadata = ["tmp/web/meta1.json", "tmp/web/meta2.json", "tmp/web/meta3.json", "tmp/web/meta4.json", "tmp/web/meta5.json"]
+web_read = "2026-10-24"
+
+# Reviewed 2026-10-24 from the in-text labels that conversion changed.
+[fix.journal_wu_2022]
+note = "Crossref swaps the order of a Chinese name, giving Riqiang as the family name. The author is Wu Riqiang, family name Wu, as the article's label has it."
+set = { authors = [ { family = "Wu", given = "Riqiang" } ] }
+
+[fix.journal_wu_2020]
+note = "Crossref swaps the order of a Chinese name, giving Riqiang as the family name. The author is Wu Riqiang, family name Wu, as the article's label has it."
+set = { authors = [ { family = "Wu", given = "Riqiang" } ] }

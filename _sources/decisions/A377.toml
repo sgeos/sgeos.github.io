@@ -1,0 +1,20 @@
+# Import decisions for A377. Registry caches and page metadata are scratch and are not tracked.
+article = "A377"
+crossref_cache = "tmp/sources/crossref"
+wiki_pins = "tmp/a377/sources/wiki_pins.json"
+web_metadata = ["tmp/web/meta1.json", "tmp/web/meta2.json", "tmp/web/meta3.json", "tmp/web/meta4.json", "tmp/web/meta5.json"]
+web_read = "2026-10-24"
+
+# No copy of the Wikipedia text read for A377 was saved, so its pins are the revisions current
+# when the article was drafted, 2026-10-03, and say so in their evidence.
+dated_pins = true
+
+# Crossref states no language for these two German entries, so the importer gave them English
+# headline capitals, `Eau De Cologne – Eklatant`. German capitalises nouns only, Chicago 11.6.
+[title]
+research_eau_de_2004 = "Eau de Cologne – eklatant"
+research_eau_de_2004_b = "Eau de Cologne – Futurismus"
+
+[fix.research_eau_de_2004]
+note = "Crossref sets the container with a spaced hyphen, `Eau de Cologne - Futurismus`. The volume's own title uses an en dash."
+set = { container = "Eau de Cologne – Futurismus" }

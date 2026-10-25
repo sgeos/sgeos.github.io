@@ -1127,7 +1127,7 @@ and gravity assists.
 - Hall, Jeffery L., Muriel A. Noca, and Robert W. Bailey. 2005. "Cost-Benefit Analysis of the Aerocapture Mission Set." *Journal of Spacecraft and Rockets* 42 (2): 309–20. [https://doi.org/10.2514/1.4118][research_hall_noca_bailey_2005]
 - Hoelker, Rudolf F., and Robert Silber. 1961. "The Bi-Elliptical Transfer between Co-Planar Circular Orbits." *Planetary and Space Science* 7: 164–75. [https://doi.org/10.1016/0032-0633(61)90297-5][research_hoelker_silber_1961]
 - Izzo, Dario. 2014. "Revisiting Lambert’s Problem." *Celestial Mechanics and Dynamical Astronomy* 121 (1): 1–15. [https://doi.org/10.1007/s10569-014-9587-y][research_izzo_2014]
-- Jezewski, D. J., and H. L. Rozendaal. 1968. "An Efficient Method for Calculating Optimal Free-Space N-Impulse Trajectories." *AIAA Journal* 6 (11): 2160–65. [https://doi.org/10.2514/3.4949][research_jezewski_rozendaal_1968]
+- Jezewski, D. J., and H. L. Rozendaal. 1968. "An Efficient Method for Calculating Optimal Free-Space n-Impulse Trajectories." *AIAA Journal* 6 (11): 2160–65. [https://doi.org/10.2514/3.4949][research_jezewski_rozendaal_1968]
 - Johnson, W. 1995. "Contents and Commentary on William Moore's a Treatise on the Motion of Rockets and an Essay on Naval Gunnery." *International Journal of Impact Engineering* 16 (3): 499–521. [https://doi.org/10.1016/0734-743x(94)00052-x][research_johnson_1995]
 - Kechichian, Jean Albert. 1997. "Reformulation of Edelbaum's Low-Thrust Transfer Problem Using Optimal Control Theory." *Journal of Guidance, Control, and Dynamics* 20 (5): 988–94. [https://doi.org/10.2514/2.4145][research_kechichian_1997]
 - Koon, Wang Sang, Martin W. Lo, Jerrold E. Marsden, and Shane D. Ross. 2000. "Heteroclinic Connections between Periodic Orbits and Resonance Transitions in Celestial Mechanics." *Chaos: An Interdisciplinary Journal of Nonlinear Science* 10 (2): 427–69. [https://doi.org/10.1063/1.166509][research_koon_et_al_2000]
@@ -1178,7 +1178,7 @@ and gravity assists.
 
 - "Bi-Elliptic Transfer." 2024. Wikipedia. Last modified July 7, at 20:50 (UTC). [https://en.wikipedia.org/w/index.php?title=Bi-elliptic\_transfer&oldid=1233203053][ref_bi_elliptic_transfer]
 - "Clohessy–Wiltshire Equations." 2026. Wikipedia. Last modified June 1, at 11:41 (UTC). [https://en.wikipedia.org/w/index.php?title=Clohessy%E2%80%93Wiltshire\_equations&oldid=1357214780][ref_clohessy_wiltshire_equations]
-- "Delta-V." 2026. Wikipedia. Last modified July 5, at 17:29 (UTC). [https://en.wikipedia.org/w/index.php?title=Delta-v&oldid=1362694687][ref_delta_v]
+- "Delta-v." 2026. Wikipedia. Last modified July 5, at 17:29 (UTC). [https://en.wikipedia.org/w/index.php?title=Delta-v&oldid=1362694687][ref_delta_v]
 - "Delta-v Budget." 2026. Wikipedia. Last modified July 2, at 23:47 (UTC). [https://en.wikipedia.org/w/index.php?title=Delta-v\_budget&oldid=1362285519][ref_delta_v_budget]
 - "Geostationary Transfer Orbit." 2026. Wikipedia. Last modified September 7, at 15:52 (UTC). [https://en.wikipedia.org/w/index.php?title=Geostationary\_transfer\_orbit&oldid=1373723626][ref_geostationary_transfer_orbit]
 - "Gravity Assist." 2026. Wikipedia. Last modified October 4, at 03:20 (UTC). [https://en.wikipedia.org/w/index.php?title=Gravity\_assist&oldid=1378359042][ref_gravity_assist]

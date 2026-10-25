@@ -1,0 +1,11 @@
+# Import decisions for A378. Registry caches and page metadata are scratch and are not tracked.
+article = "A378"
+crossref_cache = "tmp/sources/crossref"
+wiki_pins = "tmp/a378/sources/wiki_pins.json"
+web_metadata = ["tmp/web/meta1.json", "tmp/web/meta2.json", "tmp/web/meta3.json", "tmp/web/meta4.json", "tmp/web/meta5.json"]
+web_read = "2026-10-24"
+
+# Reviewed 2026-10-24 with `sources_import.py review --second-opinion`.
+[fix.research_lang_stulz_1994]
+note = "Crossref and OpenAlex list only René M. Stulz for the Journal of Political Economy version. Larry H. P. Lang from Crossref's record of the NBER working-paper version, 10.3386/w4376, and the pinned Tobin's q article, which attributes the finding to Lang and Stulz."
+set = { authors = [ { family = "Lang", given = "Larry H. P." }, { family = "Stulz", given = "René M." } ] }

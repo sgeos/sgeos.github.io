@@ -1,0 +1,6 @@
+# Import decisions for A371. Registry caches and page metadata are scratch and are not tracked.
+article = "A371"
+crossref_cache = "tmp/sources/crossref"
+wiki_pins = "tmp/a371/sources/wiki_pins.json"
+web_metadata = ["tmp/web/meta1.json", "tmp/web/meta2.json", "tmp/web/meta3.json", "tmp/web/meta4.json", "tmp/web/meta5.json"]
+web_read = "2026-10-24"

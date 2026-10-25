@@ -219,9 +219,11 @@ def t_generated_section_orders_and_defines_aliases():
     out = S.generate(ARTICLE, recs, VENUES)
     assert out.startswith("## References\n\n" + S.MARKER), out[:120]
     assert out.index("- Doe") < out.index("- Roe")
-    # The alias the body uses and the canonical anchor the entry uses are both defined.
+    # The entry links through the name the body uses, so the article's own names
+    # are the only definitions, and an alias does not drag in the canonical one.
     assert "[research_old_roe]: https://doi.org/10.1/y" in out
-    assert "[research_roe_2020]: https://doi.org/10.1/y" in out
+    assert "][research_old_roe]" in out.split("\n[")[0] or "][research_old_roe]\n" in out
+    assert "[research_roe_2020]:" not in out
 
 
 def t_hand_edit_to_generated_section_is_caught():
@@ -366,29 +368,62 @@ def t_import_never_credits_a_new_venue():
         assert set(new) == {"Brand New Journal"} and new["Brand New Journal"]["peer_reviewed"] is False
         assert recs["research_doe_2020"]["section"] == "Primary Sources, Non-Peer-Reviewed"
         raises(lambda: SI.import_post(post_path, {"article": "T", "crossref_cache": d, "wiki_pins": pins}, {}),
-               "not in the Crossref cache")
+               "in neither registry cache")
     finally:
         shutil.rmtree(d)
 
 
-def t_merge_keeps_corrections_and_refuses_a_different_source():
+def t_merge_keeps_corrections_of_a_known_source():
     """A382 re-derived Kopp and Lean 2011 from Crossref with placeholder pages A384 had corrected."""
     store = {"a": {"anchor": "a", "doi": "10.1/x", "pages": "L01706"}}
-    merged, added, known, conflicts, ext = SI.merge(store, {"a": {"anchor": "a", "doi": "10.1/X", "pages": "n/a-n/a"},
-                                                         "b": {"anchor": "b", "doi": "10.1/y"}})
+    merged, added, known, conflicts, ext, amap = SI.merge(
+        store, {"a": {"anchor": "a", "doi": "10.1/X", "pages": "n/a-n/a"}, "b": {"anchor": "b", "doi": "10.1/y"}})
     assert added == ["b"] and known == ["a"] and not conflicts and merged["a"]["pages"] == "L01706"
-    merged, _a, _k, conflicts, _e = SI.merge(store, {"a": {"anchor": "a", "doi": "10.1/other"}})
-    assert conflicts == ["a"] and merged["a"]["doi"] == "10.1/x"
-    merged, *_ = SI.merge(store, {"a": {"anchor": "a", "doi": "10.1/other"}}, replace=True)
-    assert merged["a"]["doi"] == "10.1/other"
+    assert amap == {}
 
 
-def t_merge_adds_section_locators_and_refuses_a_rebound_one():
-    store = {"p": {"anchor": "p", "kind": "related-post", "post": "2026-08-17-x", "locators": {"p_a": "one"}}}
-    merged, _ad, _k, conflicts, ext = SI.merge(store, {"p": dict(store["p"], locators={"p_b": "two"})})
-    assert ext == ["p"] and merged["p"]["locators"] == {"p_a": "one", "p_b": "two"} and not conflicts
-    _m, _ad, _k, conflicts, _e = SI.merge(store, {"p": dict(store["p"], locators={"p_a": "moved"})})
-    assert conflicts == ["p"]
+def t_merge_renames_a_different_source_under_a_taken_name():
+    """research_smith_2020 can be two works in two articles; the store keeps both, the text keeps its name."""
+    store = {"research_smith_2020": {"anchor": "research_smith_2020", "doi": "10.1/x"}}
+    merged, added, _k, conflicts, _e, amap = SI.merge(
+        store, {"research_smith_2020": {"anchor": "research_smith_2020", "doi": "10.1/other"}})
+    assert not conflicts and len(added) == 1 and added[0].startswith("research_smith_2020_")
+    assert merged["research_smith_2020"]["doi"] == "10.1/x" and merged[added[0]]["doi"] == "10.1/other"
+    assert merged[added[0]]["anchor"] == added[0] and amap == {"research_smith_2020": added[0]}
+    # The rename is a function of the source, so a second article reaches the same record.
+    m2, a2, k2, _c, _e, amap2 = SI.merge(merged, {"research_smith_2020": {"anchor": "research_smith_2020",
+                                                                          "doi": "10.1/other"}})
+    assert a2 == [] and k2 == [added[0]] and amap2 == amap
+
+
+def t_merge_maps_a_known_source_under_another_name():
+    store = {"research_doe_2020": {"anchor": "research_doe_2020", "doi": "10.1/x"}}
+    merged, added, known, _c, _e, amap = SI.merge(store, {"research_doe_jones_2020": {"anchor": "research_doe_jones_2020",
+                                                                                     "doi": "10.1/x"}})
+    assert added == [] and known == ["research_doe_2020"] and amap == {"research_doe_jones_2020": "research_doe_2020"}
+
+
+def t_article_map_overlays_the_store():
+    import shutil
+    import tempfile
+    d = tempfile.mkdtemp(dir=_SCRATCH)
+    try:
+        recs = {"research_x_2020": journal("research_x_2020"), "research_x_2020_ab12cd": journal("research_x_2020_ab12cd", doi="10.1/z")}
+        S.save_article_map("2026-01-01-t", {"research_x_2020": "research_x_2020_ab12cd"}, d)
+        S.ARTICLES, saved = d, S.ARTICLES
+        try:
+            idx = S.article_index(recs, "_posts/2026-01-01-t.markdown")
+            assert idx["research_x_2020"] == ("research_x_2020_ab12cd", None)
+            assert S.resolve_index(recs)["research_x_2020"] == ("research_x_2020", None)
+        finally:
+            S.ARTICLES = saved
+    finally:
+        shutil.rmtree(d)
+
+
+def t_survey_entries_are_not_in_text_labels():
+    body = "Prose [Doe 2020][research_doe_2020].\n\n- [Doe and others, 2020, A Title][research_doe_2020]\n"
+    assert S.survey_entries(body) == {("Doe and others, 2020, A Title", "research_doe_2020")}
 
 
 def t_clean_text_handles_double_escapes_and_breaks():
@@ -504,11 +539,17 @@ def t_headline_case_registry_habits():
     """Each of these was a defect found reviewing A380 to A383."""
     assert SI.headline_case("Photon sails at α Centauri") == "Photon Sails at α Centauri"
     assert SI.headline_case("Solar sail technology\u2014A state of the art review") == \
-        "Solar Sail Technology\u2014A State of the Art Review"
+        "Solar Sail Technology\u2014a State of the Art Review"
+    assert SI.headline_case("China is a declining power\u2014and that's the problem") == \
+        "China Is a Declining Power\u2014and That's the Problem"
     assert SI.headline_case("Can takeover losses explain Spin-Off gains?") == "Can Takeover Losses Explain Spin-Off Gains?"
     assert SI.headline_case("Polarimeter aboard the demonstrator") == "Polarimeter aboard the Demonstrator"
     assert SI.normalise_title("How many impulses/ques/") == "How many impulses?"
     assert SI.normalise_title("Ground-Based Astrometry\u2217") == "Ground-Based Astrometry"
+    # Separately superscripted marks arrive spaced, and a designation in a title
+    # set in capitals keeps its capitals. Prsa et al. 2016, found converting A369 on.
+    assert SI.normalise_title("Resolution B3 * \u2020") == "Resolution B3"
+    assert SI.headline_case("NOMINAL VALUES: RESOLUTION B3 * \u2020") == "Nominal Values: Resolution B3"
 
 
 def t_registry_name_habits():
@@ -532,9 +573,9 @@ def t_a_later_decision_amends_a_stored_record():
     store = {"a": {"anchor": "a", "doi": "10.1/x", "title": "T"}}
     draft = {"a": {"anchor": "a", "doi": "10.1/x", "title": "T", "synthesis": True, "note": "a review"}}
     decided = SI.decided_fields({"synthesis": {"a": "a review"}})
-    merged, _ad, known, _c, ext = SI.merge(store, draft, decided=decided)
+    merged, _ad, known, _c, ext, _m = SI.merge(store, draft, decided=decided)
     assert ext == ["a"] and merged["a"]["synthesis"] is True and merged["a"]["note"] == "a review"
-    merged, _ad, known, _c, ext = SI.merge(store, draft)
+    merged, _ad, known, _c, ext, _m = SI.merge(store, draft)
     assert known == ["a"] and "synthesis" not in merged["a"], "an undecided difference amended the store"
 
 
@@ -555,6 +596,246 @@ def t_unattributed_work_is_cited_by_short_title():
     text = "---\n---\nSee [Unattributed 2020][research_doe_2020].\n\n## References\n\n[research_doe_2020]: x\n"
     assert S.label_errors(text, {"research_doe_2020": r}) == [
         ("Unattributed 2020", "research_doe_2020", "Mass-Driver Reaction Engine 2020")]
+
+# ------------------------------------------------------- A369 to A379: web sources and scale
+
+def _meta(**kw):
+    m = {"url": "https://warontherocks.com/x", "status": "read", "final_url": None, "doc_type": "web-article",
+         "title": "Where the wargames weren't", "subtitle": None,
+         "authors": [{"family": "Tetreau", "given": "Matthew"}], "publisher": "War on the Rocks",
+         "container": "War on the Rocks", "date": "2023-09-22", "modified": None, "number": None, "doi": None,
+         "evidence": "Where the Wargames Weren't", "notes": None}
+    m.update(kw)
+    return m
+
+
+def t_web_article_in_a_periodical():
+    r = SI.record_from_web("commentary_t_2023", "https://warontherocks.com/x", _meta(), "Commentary, Tetreau 2023, X",
+                           {"periodical": True}, "2026-10-24")
+    r["rule"], r["section"] = S.classify(r, {})
+    assert r["section"] == "General Sources" and r["published"] == "2023-09-22"
+    assert S.entry(r) == ('Tetreau, Matthew. 2023. "Where the Wargames Weren\'t." *War on the Rocks*, September 22. '
+                          '[https://warontherocks.com/x][commentary_t_2023]'), S.entry(r)
+
+
+def t_unread_page_falls_back_to_its_label_and_says_so():
+    r = SI.record_from_web("commentary_m_2021", "https://www.foreignaffairs.com/x", _meta(status="paywalled", title=None),
+                           "Commentary, Mastro and Scissors 2022, An Essay", {"stake": True}, "2026-10-24")
+    assert r["authors"] == [{"family": "Mastro"}, {"family": "Scissors"}] and r["year"] == 2022
+    assert "could not be read" in r["note"] and r["stake"] is True
+    undated = SI.record_from_web("data_x", "https://x.org/y", None, "Data, Central Election Commission, Results Database",
+                                 {}, "2026-10-24")
+    assert "year" not in undated and undated["kind"] == "dataset"
+    undated["rule"], undated["section"] = S.classify(undated, {})
+    assert "n.d." in S.entry(undated), S.entry(undated)
+
+
+def t_suffix_in_given_names_moves_to_family():
+    r = SI.record_from_web("j", "https://tnsr.org/x", _meta(doc_type="report", authors=[
+        {"family": "Ellis", "given": "James O., Jr."}]), "Journal, Ellis 2021, X", {}, "2026-10-24")
+    assert r["authors"] == [{"family": "Ellis Jr.", "given": "James O."}], r["authors"]
+
+
+def t_press_release_is_commercial_and_testimony_primary():
+    pr = SI.record_from_web("p", "https://x.gov/p", _meta(doc_type="press-release"), "Government, X 2024, P", {}, "2026-10-24")
+    tm = SI.record_from_web("t", "https://x.gov/t", _meta(doc_type="speech-or-testimony"), "Government, X 2024, T", {}, "2026-10-24")
+    assert S.classify(pr, {})[1] == "Commercial Sources" and S.classify(tm, {})[1] == "Primary Sources, Non-Peer-Reviewed"
+
+
+def t_domain_rules_need_reasons_and_match_with_or_without_www():
+    import tempfile
+    with tempfile.NamedTemporaryFile("w", suffix=".toml", delete=False, dir=_SCRATCH) as fh:
+        fh.write('["www.rand.org"]\nstake = true\n')
+    try:
+        raises(lambda: SI.load_domains(fh.name), "needs `why`")
+    finally:
+        os.remove(fh.name)
+    assert SI.domain_rule("https://rand.org/x", {"www.rand.org": {"stake": True}}) == {"stake": True}
+    assert SI.load_domains()["warontherocks.com"] == {"periodical": True}
+
+
+def t_publisher_policy_credits_only_its_scope():
+    pubs = [{"name": "ACM", "aliases": ["Association for Computing Machinery (ACM)"], "journals": True,
+             "proceedings": False, "reviewers": "experts selected by editors", "basis": "test",
+             "evidence": [{"url": "https://x", "quote": "q", "read": "2026-10-24", "method": "fetched"}]}]
+    venues = {"J": {"venue": "J", "peer_reviewed": False, "checked": False, "basis": "b", "class": "journal",
+                    "publisher": "Association for Computing Machinery (ACM)"},
+              "P": {"venue": "P", "peer_reviewed": False, "checked": False, "basis": "b", "class": "proceedings",
+                    "publisher": "ACM"},
+              "M": {"venue": "M", "peer_reviewed": False, "checked": True, "magazine": True, "basis": "b",
+                    "class": "journal", "publisher": "ACM"},
+              "Own": {"venue": "Own", "peer_reviewed": False, "checked": False, "basis": "b", "class": "journal",
+                      "publisher": "ACM", "evidence": [{"url": "u", "quote": "q", "read": "2026-10-24",
+                                                        "method": "fetched"}]}}
+    done = SI.credit_venues(venues, pubs)
+    assert done == [("J", "ACM")], done
+    S.validate_venue(venues["J"])
+    assert venues["J"]["via"] == "ACM" and not venues["P"]["peer_reviewed"] and not venues["M"]["peer_reviewed"]
+
+
+def t_openalex_record_prefers_the_location_carrying_the_doi():
+    work = {"title": "On the soundness of coroutines with snapshots", "publication_year": 2018,
+            "authorships": [{"raw_author_name": "Prokopec, Aleksandar"}, {"author": {"display_name": "Fengyun Liu"}}],
+            "primary_location": {"source": {"type": "repository", "display_name": "arXiv"}},
+            "locations": [{"landing_page_url": "https://doi.org/10.4230/LIPIcs.ECOOP.2018.3",
+                           "source": {"type": "conference", "display_name": "ECOOP 2018"}}], "biblio": {}}
+    r = SI.record_from_openalex("research_p_2018", work, "10.4230/LIPIcs.ECOOP.2018.3")
+    assert r["kind"] == "proceedings-paper" and r["container"] == "ECOOP 2018"
+    assert r["authors"] == [{"family": "Prokopec", "given": "Aleksandar"}, {"family": "Liu", "given": "Fengyun"}]
+
+
+def t_crossref_year_is_the_first_publication_year():
+    msg = {"DOI": "10.1/x", "type": "journal-article", "title": ["T"], "author": [{"family": "Doe", "given": "J."}],
+           "issued": {"date-parts": [[2023, 5]]}, "published-print": {"date-parts": [[2024, 2]]},
+           "container-title": ["J"], "publisher": "P"}
+    assert SI.record_from_crossref("research_doe_2023", msg)["year"] == 2023
+
+
+def t_failed_batches_are_halved_until_the_bad_doi_is_isolated():
+    import fetch
+    import shutil
+    import tempfile
+    calls = []
+
+    def fake(dois, **kw):
+        calls.append(len(dois))
+        if "10.1/bad" in dois:
+            return None
+        return {d: {"DOI": d, "type": "journal-article"} for d in dois}
+    d = tempfile.mkdtemp(dir=_SCRATCH)
+    post = os.path.join(d, "p.markdown")
+    open(post, "w").write("".join(f"[research_x_{i}]: https://doi.org/10.1/{i}\n" for i in range(7))
+                          + "[research_bad]: https://doi.org/10.1/bad\n")
+    real_b, real_s, real_o = fetch.crossref_works, fetch.crossref_work, fetch.openalex_work
+    fetch.crossref_works, fetch.crossref_work, fetch.openalex_work = fake, (lambda d_, **k: None), (lambda d_, **k: None)
+    try:
+        dois, missing = SI.fetch_crossref(post, os.path.join(d, "crossref"))
+    finally:
+        fetch.crossref_works, fetch.crossref_work, fetch.openalex_work = real_b, real_s, real_o
+        shutil.rmtree(d)
+    assert missing == ["10.1/bad"] and len(dois) == 8, (missing, calls)
+    assert len(calls) <= 2 * 8, calls
+
+def t_series_policy_matches_by_venue_name():
+    """SIGPLAN's policy covers its conferences whatever ACM's pages say; ACM's could not be read."""
+    pubs = [p for p in SI.load_publishers() if p["name"] == "ACM SIGPLAN"]
+    venues = {"Proceedings of the 41st ACM SIGPLAN Conference on Programming Language Design and Implementation":
+              {"venue": "x", "peer_reviewed": False, "checked": False, "basis": "b", "class": "proceedings",
+               "publisher": "ACM"},
+              "Proceedings of the 2020 ACM Conference on Something": {"venue": "y", "peer_reviewed": False,
+                                                                       "checked": False, "basis": "b",
+                                                                       "class": "proceedings", "publisher": "ACM"}}
+    done = SI.credit_venues(venues, pubs)
+    assert [v for v, _p in done] == ["Proceedings of the 41st ACM SIGPLAN Conference on Programming Language Design and Implementation"]
+
+
+def t_title_in_another_language_keeps_its_casing():
+    """A German title gained English headline capitals, `Nur Ein Schlagwort?`. A377."""
+    msg = {"DOI": "10.1007/bf1", "type": "journal-article", "language": "de",
+           "title": ["Multiple Chemical Sensitivity \u2014 nur ein Schlagwort?"],
+           "author": [], "issued": {"date-parts": [[2007]]}, "container-title": ["Allergo Journal"]}
+    assert SI.record_from_crossref("research_x_2007", msg)["title"] == \
+        "Multiple Chemical Sensitivity \u2014 nur ein Schlagwort?"
+    msg["language"] = "en"
+    assert SI.record_from_crossref("research_x_2007", msg)["title"] == \
+        "Multiple Chemical Sensitivity \u2014 Nur Ein Schlagwort?"
+
+
+def t_lncs_chapter_is_a_proceedings_paper_in_its_series():
+    msg = {"DOI": "10.1007/978-3-030-1_2", "type": "book-chapter", "title": ["A paper"],
+           "author": [{"family": "Doe", "given": "J."}], "issued": {"date-parts": [[2020]]},
+           "container-title": ["Lecture Notes in Computer Science", "Trends in Functional Programming"],
+           "publisher": "Springer International Publishing"}
+    r = SI.record_from_crossref("research_doe_2020", msg)
+    assert (r["kind"], r["venue"], r["container"]) == ("proceedings-paper", "Lecture Notes in Computer Science",
+                                                       "Trends in Functional Programming"), r
+
+
+def t_publishers_file_is_valid_and_fetched():
+    for p in SI.load_publishers():
+        assert p["reviewers"] and any(e["method"] == "fetched" for e in p["evidence"]), p["name"]
+
+# ------------------------------------------------------- labels, names and refresh at survey scale
+
+def t_citation_labels_are_names_then_a_year():
+    """Links woven into prose end with a year too; only names-then-year is a citation."""
+    for t in ("Kopp and Lean 2011", "Malhiac et al 2026", "de Moura and Ierusalimschy 2009", "Lopes and colleagues 2021",
+              "National Bureau of Statistics of China 2025", "Sauer 1976, p. 3"):
+        assert S.is_citation_label(t), t
+    for t in ("Clausius in 1850", "section 5 of the Firearms Act 1968", "statistical communiqué on 2025", "2002",
+              "inkwell", "the Low Level Virtual Machine compiler infrastructure"):
+        assert not S.is_citation_label(t), t
+
+
+def t_colliding_short_titles_take_suffixes():
+    """Two DOIs of one chapter gave A377 a label naming two entries."""
+    a = journal("research_death_by_2022", authors=[], title="Death by Perfume")
+    b = journal("research_death_by_2022_b", authors=[], title="8. Death by Perfume")
+    c = journal("research_other_2022", authors=[], title="Scented Visions")
+    assert S.year_suffixes([a, b, c]) == {"research_death_by_2022_b": "a", "research_death_by_2022": "b"}, \
+        S.year_suffixes([a, b, c])
+
+
+def t_short_title_for_an_unattributed_work():
+    assert S.short_title("Officers under Attack\u2014the Thin Blue Line") == "Officers under Attack"
+    assert S.short_title("3. Longing for Luxury Perfume: A Nietzschean Interpretation") == "Longing for Luxury Perfume"
+    assert S.short_title("Corpus Alienum (Cover the Perfume) in Cervix") == "Corpus Alienum Cover"
+    assert S.short_title("Multiple Chemical Sensitivity \u2014 nur ein Schlagwort?") == "Multiple Chemical Sensitivity"
+    assert S.short_title("Eau de Cologne \u2013 eklatant") == "Eau de Cologne"
+    r = journal(authors=[], title="Environmental Illness: Multiple Chemical Sensitivity")
+    assert S.cite_label(r) == "Environmental Illness"
+
+
+def t_affiliations_and_bylines_are_not_authors():
+    got = SI._authors([{"name": "Department of Environmental Engineering, Daejeon University"},
+                       {"name": "Formulaction, Inc."}, {"family": "KIM", "given": "J."}, {"name": "A Correspondent"}])
+    assert got == [{"family": "Kim", "given": "J."}], got
+    assert SI._authors([{"name": "Inter American Development Bank"}]) == [{"name": "Inter American Development Bank"}]
+    assert SI._family("Tisserand,") == "Tisserand" and SI._family("Azuma*") == "Azuma"
+
+
+def t_reprint_is_cited_by_its_original_year():
+    r = journal(original_year=1972, year=1998)
+    assert S.entry(r).startswith("Doe, Jane. (1972) 1998."), S.entry(r)
+    text = "---\n---\nAs [Doe 1998][research_doe_2020] showed.\n\n## References\n\n[research_doe_2020]: x\n"
+    assert S.label_errors(text, {"research_doe_2020": r}) == [("Doe 1998", "research_doe_2020", "Doe 1972")]
+
+
+def t_refresh_rebuilds_only_unannotated_registry_records():
+    store = {"a": {"anchor": "a", "doi": "10.1/x", "authors": [{"family": "KIM"}]},
+             "b": {"anchor": "b", "doi": "10.1/y", "authors": [{"family": "Lang"}], "note": "fixed by hand"},
+             "p": {"anchor": "p", "kind": "related-post", "post": "2026-01-01-x", "locators": {"p_a": "one"}}}
+    drafts = {"a": {"anchor": "a", "doi": "10.1/x", "authors": [{"family": "Kim"}]},
+              "b": {"anchor": "b", "doi": "10.1/y", "authors": []},
+              "p": {"anchor": "p", "kind": "related-post", "post": "2026-01-01-x"}}
+    merged, *_ = SI.merge(store, drafts, refresh=True)
+    assert merged["a"]["authors"] == [{"family": "Kim"}]
+    assert merged["b"]["authors"] == [{"family": "Lang"}], "a hand correction was refreshed away"
+    assert merged["p"]["locators"] == {"p_a": "one"}, "a related post lost locators to refresh"
+
+
+def t_prose_links_are_exempt_per_article():
+    import shutil
+    import tempfile
+    d = tempfile.mkdtemp(dir=_SCRATCH)
+    try:
+        json_path = os.path.join(d, "2026-01-01-t.links.json")
+        open(json_path, "w").write('["government_act_1948"]')
+        S.ARTICLES, saved = d, S.ARTICLES
+        try:
+            assert S.load_prose_links("_posts/2026-01-01-t.markdown") == {"government_act_1948"}
+        finally:
+            S.ARTICLES = saved
+    finally:
+        shutil.rmtree(d)
+
+
+def t_diff_labels_reports_substance_and_other_text():
+    pre = "---\n---\nAs [Hanley and Lippman-Hand 1983][research_h] and [Doe and others 2020][research_d] said.\nX\n\n## References\n"
+    post = "---\n---\nAs [Hanley 1983][research_h] and [Doe et al. 2020][research_d] said.\nY\n\n## References\n"
+    changes, other = S.label_changes(pre, post)
+    assert changes == [("research_h", "Hanley and Lippman-Hand 1983", "Hanley 1983")], changes
+    assert [o[0] for o in other] == [4], other
 
 for name, fn in sorted(list(globals().items())):
     if name.startswith("t_") and callable(fn):

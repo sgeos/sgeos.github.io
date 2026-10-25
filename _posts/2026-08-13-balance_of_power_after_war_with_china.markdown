@@ -85,7 +85,7 @@ A war is instrumental.
 States fight for a position afterwards,
 and the published work on this contingency
 concentrates almost entirely on the fighting.
-[Priebe and others 2023][research_priebe_2023_alternative_futures_v1]
+[Priebe et al. 2023][research_priebe_2023_alternative_futures_v1]
 is the closest published match located for either article,
 and its companion [volume on historical cases][research_evans_2023_alternative_futures_v2]
 states plainly that "the long-term consequences of such a conflict remain poorly understood".
@@ -1530,7 +1530,7 @@ and the thinness is itself documented by the people who produced it.
 
 ### The one study built for this question
 
-[Priebe and others 2023][research_priebe_2023_alternative_futures_v1]
+[Priebe et al. 2023][research_priebe_2023_alternative_futures_v1]
 is the only located study whose object is the postwar world
 rather than the war.
 It was commissioned by the Directorate of Strategy, Posture, and Assessments
@@ -4033,214 +4033,236 @@ and the thinness is the finding.
 
 ## References
 
-- [Book, Cooley and Nexon 2020, Exit from Hegemony][book_cooley_nexon_2020_exit_from_hegemony]
-- [Book, Copeland 2018, The Origins of Major War][book_copeland_2018_origins_of_major_war]
-- [Book, Gilpin 1981, War and Change in World Politics][book_gilpin_1981_war_and_change]
-- [Book, Henry 2022, Reliability and Alliance Interdependence][book_henry_2022_reliability]
-- [Book, Hymans 2006, The Psychology of Nuclear Proliferation][book_hymans_2006_psychology_of_proliferation]
-- [Book, Ikenberry 2019, After Victory][book_ikenberry_2019_after_victory]
-- [Book, Kennedy 1987, The Rise and Fall of the Great Powers][book_kennedy_1987_rise_and_fall]
-- [Book, Lake 2017, Hierarchy in International Relations][book_lake_2017_hierarchy]
-- [Book, Lanoszka 2018, Atomic Assurance][book_lanoszka_2018_atomic_assurance]
-- [Book, Lemke 2002, Regions of War and Peace][book_lemke_2002_regions_of_war_and_peace]
-- [Book, McDowell 2023, Bucking the Buck][book_mcdowell_2023_bucking_the_buck]
-- [Book, Organski and Kugler 1980, The War Ledger][book_organski_kugler_1980_war_ledger]
-- [Book, Prasad 2015, The Dollar Trap][book_prasad_2015_dollar_trap]
-- [Book, Rockoff 2012, America's Economic Way of War][book_rockoff_2012_americas_economic_way_of_war]
-- [Book, Singer, Bremer and Stuckey 1972, Capability Distribution, Uncertainty, and Major Power War, 1820 to 1965][book_singer_1972_capability_distribution]
-- [Book, Tetlock 2005, Expert Political Judgment][book_tetlock_2005_expert_political_judgment]
-- [Commentary, Arms Control Today 2026, 2026 NPT Review Conference Stymied by Disputes][commentary_act_2026_npt_revcon]
-- [Commentary, Allison 2015, The Thucydides Trap, Are the United States and China Headed for War][commentary_allison_2015_thucydides_trap]
-- [Commentary, Nikkei 2022, 2.6tn Dollars Could Evaporate From the Global Economy in a Taiwan Emergency][commentary_nikkei_2022_taiwan_emergency]
-- [Data, Bank for International Settlements 2025, Triennial Central Bank Survey, OTC Foreign Exchange Turnover in April 2025][data_bis_2025_triennial]
-- [Data, Bank for International Settlements 2026, Credit to the Non-Financial Sector][data_bis_total_credit]
-- [Data, Congressional Budget Office 2026, Budget and Economic Projections][data_cbo_2026_projections]
-- [Data, Chicago Council on Global Affairs 2022, Thinking Nuclear, South Korean Attitudes on Nuclear Weapons][data_chicago_council_2022_south_korea]
-- [Data, Correlates of War 2020, Inter-State War Data version 4.0][data_cow_interstate_war_v4]
-- [Data, Sarkees and Wayman 2010, Correlates of War Inter-State Wars Codebook][data_cow_interstate_wars_codebook]
-- [Data, Correlates of War 2025, National Material Capabilities version 7.0][data_cow_nmc_v7]
-- [Data, International Monetary Fund 2026, Currency Composition of Official Foreign Exchange Reserves][data_imf_cofer]
-- [Data, International Monetary Fund 2026, PortWatch Chokepoint and Port Monitoring][data_imf_portwatch]
-- [Data, ISEAS Yusof Ishak Institute 2026, The State of Southeast Asia 2026 Survey Report][data_iseas_2026_state_of_southeast_asia]
-- [Data, Korea Institute for National Unification 2023, KINU Unification Survey 2023][data_kinu_2023_unification_survey]
-- [Data, Lowy Institute 2025, Asia Power Index][data_lowy_2025_asia_power_index]
-- [Data, Groningen Growth and Development Centre 2023, Maddison Project Database][data_maddison_project_2023]
-- [Data, SIPRI 2026, Trends in World Military Expenditure 2025][data_sipri_2026_milex]
-- [Data, SIPRI 2026, Military Expenditure Database][data_sipri_milex_database]
-- [Data, Ministry of Economic Affairs 2025, Energy Statistics Handbook of the Republic of China][data_taiwan_moea_energy]
-- [Data, United States Treasury 2026, Debt to the Penny][data_treasury_debt_to_the_penny]
-- [Data, United States Treasury 2026, Major Foreign Holders of Treasury Securities][data_treasury_tic_2026]
-- [Data, United Nations Conference on Trade and Development 2026, Seaborne Trade][data_unctad_seaborne_trade]
-- [Data, World Bank 2026, World Development Indicators][data_world_bank_wdi]
-- [Government, Bureau of Industry and Security 2022, Implementation of Additional Export Controls, 87 Federal Register 62186][government_bis_2022_export_controls]
-- [Government, BRICS 2023, Johannesburg II Declaration][government_brics_2023_johannesburg]
-- [Government, BRICS 2025, Rio de Janeiro Declaration][government_brics_2025_rio]
-- [Government, Congressional Research Service 2025, National Defense Strategy, Potential Implications of Prioritizing the Western Hemisphere and China][government_crs_2025_national_defense_strategy]
-- [Government, Congressional Research Service 2026, United States Extended Deterrence and Regional Nuclear Capabilities][government_crs_2026_extended_deterrence]
-- [Government, Congressional Research Service 2026, Japan's Evolving Defense Policy and the United States-Japan Alliance][government_crs_2026_japan_defense]
-- [Government, Congressional Research Service 2026, NATO, Issues for the July 2026 Summit][government_crs_2026_nato_summit]
-- [Government, Congressional Research Service 2026, The Philippines, Background and United States Relations][government_crs_2026_philippines]
-- [Government, Congressional Research Service 2010, Costs of Major United States Wars][government_crs_costs_of_major_wars]
-- [Government, Department of Defense 2025, Annual Report to Congress on Military and Security Developments Involving the People's Republic of China][government_dod_2025_china_report]
-- [Government, Department of Defense 2025, Republic of Korea Nuclear Consultative Group Fact Sheet][government_dod_2025_ncg_fact_sheet]
-- [Government, Energy Information Administration 2025, The Strait of Hormuz Remains a Critical Oil Chokepoint][government_eia_2025_hormuz]
-- [Government, Energy Information Administration 2026, China, the United States and Japan Hold Most Strategic Oil Inventories][government_eia_2026_strategic_stocks]
-- [Government, European Commission 2019, EU-China, A Strategic Outlook][government_eu_2019_china_strategic_outlook]
-- [Government, Council of the European Union 2022, A Strategic Compass for Security and Defence][government_eu_2022_strategic_compass]
-- [Government, Department of State 1953, Foreign Relations of the United States 1952 to 1954 volume 14 part 2 document 684][government_frus_1952_japan_dollar_earnings]
-- [Government, Department of State 1953, Foreign Relations of the United States 1952 to 1954 volume 14 part 2 document 646][government_frus_1952_japan_procurement]
-- [Government, International Monetary Fund 2026, People's Republic of China 2025 Article IV Consultation][government_imf_2026_china_article_iv]
-- [Government, Government of Japan 2022, National Security Strategy of Japan][government_japan_2022_nss]
-- [Government, Government of Japan 2025, The Status Report of Plutonium Management in Japan 2024][government_japan_2025_plutonium]
-- [Government, Ministry of Defense of Japan 2025, Overview of the FY2026 Defense Budget][government_japan_2026_defense_budget]
-- [Government, President of Russia 2022, Joint Statement of the Russian Federation and the People's Republic of China][government_kremlin_2022_joint_statement]
-- [Government, Lloyd's Market Association 2026, Joint War Committee Listed Areas][government_lma_2026_jwc_listed_areas]
-- [Government, National Intelligence Council 2021, Global Trends 2040, A More Contested World][government_nic_2021_global_trends]
-- [Government, United States 1979, Taiwan Relations Act, Public Law 96-8][government_us_1979_taiwan_relations_act]
-- [Government, United States 2022, CHIPS and Science Act, Public Law 117-167][government_us_2022_chips_act]
-- [Government, United States 2023, The Spirit of Camp David, Joint Statement of Japan, the Republic of Korea and the United States][government_us_2023_camp_david]
-- [Government, United States 2023, Washington Declaration][government_us_2023_washington_declaration]
-- [Government, United States 2024, The Wilmington Declaration][government_us_2024_wilmington_declaration]
-- [Government, United States 2025, Public Law 119-21, Section 70308][government_us_2025_pl_119_21]
-- [Journal, Anders, Fariss and Markowitz 2020, Bread Before Guns or Butter, International Studies Quarterly 64 number 2][journal_anders_2020_surplus_domestic_product]
-- [Journal, Anderson and Press 2025, Access Denied, International Security 50 number 1][journal_anderson_press_2025_access_denied]
-- [Journal, Arslanalp, Eichengreen and Simpson-Bell 2022, The Stealth Erosion of Dollar Dominance, Journal of International Economics 138][journal_arslanalp_2022_stealth_erosion]
-- [Journal, Beckley 2010, Economic Development and Military Effectiveness, Journal of Strategic Studies 33 number 1][journal_beckley_2010_economic_development]
-- [Journal, Beckley 2012, China's Century, International Security 36 number 3][journal_beckley_2012_chinas_century]
-- [Journal, Beckley 2015, The Myth of Entangling Alliances, International Security 39 number 4][journal_beckley_2015_entangling_alliances]
-- [Journal, Beckley 2018, The Power of Nations, International Security 43 number 2][journal_beckley_2018_power_of_nations]
-- [Journal, Bell and Miller 2015, Questioning the Effect of Nuclear Weapons on Conflict, Journal of Conflict Resolution 59 number 1][journal_bell_miller_2015_questioning]
-- [Journal, Bianchi and Sosa-Padilla 2025, International Sanctions and Dollar Dominance, The Economic Journal 135 number 672][journal_bianchi_sosa_padilla_2025_sanctions_dollar]
-- [Journal, Bleek and Lorber 2014, Security Guarantees and Allied Nuclear Proliferation, Journal of Conflict Resolution 58 number 3][journal_bleek_lorber_2014_security_guarantees]
-- [Journal, Bolt and van Zanden 2024, Maddison-Style Estimates of the Evolution of the World Economy, Journal of Economic Surveys 39 number 2][journal_bolt_vanzanden_2024_maddison]
-- [Journal, Boughton 2001, Northwest of Suez, IMF Staff Papers 48 number 3][journal_boughton_2001_northwest_of_suez]
-- [Journal, Boz and others 2022, Patterns of Invoicing Currency in Global Trade, Journal of International Economics 136][journal_boz_2022_invoicing_patterns]
-- [Journal, Brooks and Wohlforth 2016, The Rise and Fall of the Great Powers in the Twenty-first Century, International Security 40 number 3][journal_brooks_wohlforth_2016_rise_and_fall]
-- [Journal, Burrows 2026, Would a China War Scenario Break the Insiders' Hold, Texas National Security Review 9 number 1][journal_burrows_2026_china_war_scenario]
-- [Journal, Cancian 2025, States of Denial, Survival 67 number 2][journal_cancian_2025_states_of_denial]
-- [Journal, Carroll and Kenkel 2019, Prediction, Proxies, and Power, American Journal of Political Science 63 number 3][journal_carroll_kenkel_2019_prediction_proxies]
-- [Journal, Caverley 2025, So What, Texas National Security Review 8 number 3][journal_caverley_2025]
-- [Journal, Cederman, Warren and Sornette 2011, Testing Clausewitz, International Organization 65 number 4][journal_cederman_2011_testing_clausewitz]
-- [Journal, Chadefaux 2011, Bargaining Over Power, International Theory 3 number 2][journal_chadefaux_2011_bargaining]
-- [Journal, Chang, Chen, Mellers and Tetlock 2016, Developing Expert Political Judgment, Judgment and Decision Making 11 number 5][journal_chang_2016_developing_expert_judgment]
-- [Journal, Chitu, Eichengreen and Mehl 2014, When Did the Dollar Overtake Sterling as the Leading International Currency, Journal of Development Economics 111][journal_chitu_2014_bond_markets]
-- [Journal, Christensen and Snyder 1990, Chain Gangs and Passed Bucks, International Organization 44 number 2][journal_christensen_snyder_1990_chain_gangs]
-- [Journal, Cirillo and Taleb 2016, On the Statistical Properties and Tail Risk of Violent Conflicts, Physica A 452][journal_cirillo_taleb_2016_tail_risk]
-- [Journal, Clauset 2018, Trends and Fluctuations in the Severity of Interstate Wars, Science Advances 4 number 2][journal_clauset_2018_trends_fluctuations]
-- [Journal, Collins 2018, A Maritime Oil Blockade Against China, Naval War College Review 71 number 2][journal_collins_2018_maritime_oil_blockade]
-- [Journal, Cooley and Nexon 2013, The Empire Will Compensate You, Perspectives on Politics 11 number 4][journal_cooley_nexon_2013_empire_compensate]
-- [Journal, Cunningham and Ven Bruusgaard 2026, Escalate to Survive, International Security 50 number 4][journal_cunningham_2026_escalate_to_survive]
-- [Journal, Davis and Gholz 2026, Blockade by Fire, International Security 50 number 4][journal_davis_gholz_2026_blockade_by_fire]
-- [Journal, Davis and Weinstein 2002, Bones, Bombs, and Break Points, American Economic Review 92 number 5][journal_davis_weinstein_2002_bones_bombs]
-- [Journal, DiCicco and Levy 1999, Power Shifts and Problem Shifts, Journal of Conflict Resolution 43 number 6][journal_dicicco_levy_1999_power_shifts]
-- [Journal, Doran 1989, Systemic Disequilibrium, Foreign Policy Role, and the Power Cycle, Journal of Conflict Resolution 33 number 3][journal_doran_1989_systemic_disequilibrium]
-- [Journal, Doran and Parsons 1980, War and the Cycle of Relative Power, American Political Science Review 74 number 4][journal_doran_parsons_1980_war_cycle]
-- [Journal, Eichengreen, Chitu and Mehl 2015, Stability or Upheaval, IMF Economic Review 64 number 2][journal_eichengreen_2015_stability_or_upheaval]
-- [Journal, Eichengreen, Mehl and Chitu 2019, Mars or Mercury, Economic Policy 34 number 98][journal_eichengreen_2019_mars_or_mercury]
-- [Journal, Eichengreen and Flandreau 2009, The Rise and Fall of the Dollar, European Review of Economic History 13 number 3][journal_eichengreen_flandreau_2009_rise_and_fall]
-- [Journal, Evangelista 2024, A Nuclear Umbrella for Ukraine, International Security 48 number 3][journal_evangelista_2024_nuclear_umbrella]
-- [Journal, Farrell and Newman 2019, Weaponized Interdependence, International Security 44 number 1][journal_farrell_newman_2019_weaponized]
-- [Journal, Fearon 1995, Rationalist Explanations for War, International Organization 49 number 3][journal_fearon_1995_rationalist]
-- [Journal, Fitzpatrick 2025, A Farewell to the Thucydides Trap, German History 43 number 2][journal_fitzpatrick_2025_farewell]
-- [Journal, Fuhrmann and Tkach 2015, Almost Nuclear, Conflict Management and Peace Science 32 number 4][journal_fuhrmann_tkach_2015_nuclear_latency]
-- [Journal, Gaddis 1986, The Long Peace, International Security 10 number 4][journal_gaddis_1986_long_peace]
-- [Journal, Gavin 2010, Same As It Ever Was, International Security 34 number 3][journal_gavin_2010_same_as_it_ever_was]
-- [Journal, Gerzhoy 2015, Alliance Coercion and Nuclear Restraint, International Security 39 number 4][journal_gerzhoy_2015_alliance_coercion]
-- [Journal, Gilpin 1988, The Theory of Hegemonic War, Journal of Interdisciplinary History 18 number 4][journal_gilpin_1988_hegemonic_war]
-- [Journal, Gopinath and others 2020, Dominant Currency Paradigm, American Economic Review 110 number 3][journal_gopinath_2020_dominant_currency_paradigm]
-- [Journal, Gopinath and Stein 2021, Banking, Trade, and the Making of a Dominant Currency, Quarterly Journal of Economics 136 number 2][journal_gopinath_stein_2021_dominant_currency]
-- [Journal, Green and Talmadge 2022, Then What, International Security 47 number 1][journal_green_talmadge_2022]
-- [Journal, Greitens and Kardon 2025, Security without Exclusivity, International Security 49 number 3][journal_greitens_kardon_2025_security_without_exclusivity]
-- [Journal, Grieco 1988, Anarchy and the Limits of Cooperation, International Organization 42 number 3][journal_grieco_1988_anarchy_limits]
-- [Journal, Grieco, Powell and Snidal 1993, The Relative-Gains Problem for International Cooperation, American Political Science Review 87 number 3][journal_grieco_powell_snidal_1993_relative_gains]
-- [Journal, Hall and Sargent 2011, Interest Rate Risk and Other Determinants of Post-War United States Government Debt, American Economic Journal Macroeconomics 3 number 3][journal_hall_sargent_2011_interest_rate_risk]
-- [Journal, Henry 2020, What Allies Want, International Security 44 number 4][journal_henry_2020_what_allies_want]
-- [Journal, Ikenberry 1999, Institutions, Strategic Restraint, and the Persistence of American Postwar Order, International Security 23 number 3][journal_ikenberry_1999_institutions_restraint]
-- [Journal, Ikenberry 2018, The End of Liberal International Order, International Affairs 94 number 1][journal_ikenberry_2018_end_of_liberal_order]
-- [Journal, Ikenberry 2024, Three Worlds, International Affairs 100 number 1][journal_ikenberry_2024_three_worlds]
-- [Journal, Ikenberry and Nexon 2019, Hegemony Studies 3.0, Security Studies 28 number 3][journal_ikenberry_nexon_2019_hegemony_studies]
-- [Journal, Ilzetzki, Reinhart and Rogoff 2020, Why Is the Euro Punching Below Its Weight, Economic Policy 35 number 103][journal_ilzetzki_2020_euro_punching]
-- [Journal, Kadera and Sorokin 2004, Measuring National Power, International Interactions 30 number 3][journal_kadera_sorokin_2004_measuring_national_power]
-- [Journal, Kang and Ma 2018, Power Transitions, The Washington Quarterly 41 number 1][journal_kang_ma_2018_power_transitions]
-- [Journal, Kitchen and Cox 2019, Power, Structural Power, and American Decline, Cambridge Review of International Affairs 32 number 6][journal_kitchen_cox_2019_structural_power]
-- [Journal, Kugler and Arbetman 1989, Exploring the Phoenix Factor with the Collective Goods Perspective, Journal of Conflict Resolution 33 number 1][journal_kugler_arbetman_1989_phoenix]
-- [Journal, Kuik 2008, The Essence of Hedging, Contemporary Southeast Asia 30 number 2][journal_kuik_2008_essence_of_hedging]
-- [Journal, Lake 2007, Escape from the State of Nature, International Security 32 number 1][journal_lake_2007_escape_state_of_nature]
-- [Journal, Lanteigne 2008, China's Maritime Security and the Malacca Dilemma, Asian Security 4 number 2][journal_lanteigne_2008_malacca_dilemma]
-- [Journal, Levy 1987, Declining Power and the Preventive Motivation for War, World Politics 40 number 1][journal_levy_1987_declining_power]
-- [Journal, Lim and Cooper 2015, Reassessing Hedging, Security Studies 24 number 4][journal_lim_cooper_2015_reassessing_hedging]
-- [Journal, Lim and Ikenberry 2023, China and the Logic of Illiberal Hegemony, Security Studies 32 number 1][journal_lim_ikenberry_2023_illiberal_hegemony]
-- [Journal, Lind 2024, Back to Bipolarity, International Security 49 number 2][journal_lind_2024_back_to_bipolarity]
-- [Journal, Markowitz and Fariss 2013, Going the Distance, International Interactions 39 number 2][journal_markowitz_fariss_2013_going_the_distance]
-- [Journal, McKinney and Harris 2021, Broken Nest, Parameters 51 number 4][journal_mckinney_harris_2021_broken_nest]
-- [Journal, Mearsheimer 2019, Bound to Fail, International Security 43 number 4][journal_mearsheimer_2019_bound_to_fail]
-- [Journal, Mehta and Whitlark 2017, The Benefits and Burdens of Nuclear Latency, International Studies Quarterly 61 number 3][journal_mehta_whitlark_2017_latency]
-- [Journal, Menon 2026, A New World Order, Texas National Security Review 9 number 1][journal_menon_2026_new_world_order]
-- [Journal, Mirski 2013, Stranglehold, Journal of Strategic Studies 36 number 3][journal_mirski_2013_stranglehold]
-- [Journal, Monteiro and Debs 2014, The Strategic Logic of Nuclear Proliferation, International Security 39 number 2][journal_monteiro_debs_2014_strategic_logic]
-- [Journal, Morley 2026, Thucydiocies, Public Humanities 2][journal_morley_2026_thucydiocies]
-- [Journal, Mueller 1988, The Essential Irrelevance of Nuclear Weapons, International Security 13 number 2][journal_mueller_1988_essential_irrelevance]
-- [Journal, Narang 2017, Strategies of Nuclear Proliferation, International Security 41 number 3][journal_narang_2017_strategies_of_proliferation]
-- [Journal, Nemeth 2026, How a United States Suez Moment Could Hollow the Alliance System, Texas National Security Review 9 number 1][journal_nemeth_2026_suez_moment]
-- [Journal, Ohanian 1997, The Macroeconomic Effects of War Finance in the United States, American Economic Review 87 number 1][journal_ohanian_1997_macroeconomic_effects_war_finance]
-- [Journal, Organski and Kugler 1977, The Costs of Major Wars, The Phoenix Factor, American Political Science Review 71 number 4][journal_organski_kugler_1977_phoenix]
-- [Journal, Platias and Trigkas 2021, Unravelling the Thucydides Trap, The Chinese Journal of International Politics 14 number 2][journal_platias_trigkas_2021_unravelling]
-- [Journal, Posen 2003, Command of the Commons, International Security 28 number 1][journal_posen_2003_command_of_the_commons]
-- [Journal, Powell 1991, Absolute and Relative Gains in International Relations Theory, American Political Science Review 85 number 4][journal_powell_1991_absolute_relative_gains]
-- [Journal, Powell 2006, War as a Commitment Problem, International Organization 60 number 1][journal_powell_2006_commitment_problem]
-- [Journal, Priebe and others 2024, Competing Visions of Restraint, International Security 49 number 2][journal_priebe_2024_competing_visions]
-- [Journal, Rauchhaus 2009, Evaluating the Nuclear Peace Hypothesis, Journal of Conflict Resolution 53 number 2][journal_rauchhaus_2009_nuclear_peace]
-- [Journal, Sagan 1997, Why Do States Build Nuclear Weapons, International Security 21 number 3][journal_sagan_1997_why_states_build]
-- [Journal, Schroeder 1992, Did the Vienna Settlement Rest on a Balance of Power, The American Historical Review 97 number 3][journal_schroeder_1992_vienna_settlement]
-- [Journal, Sechser and Fuhrmann 2013, Crisis Bargaining and Nuclear Blackmail, International Organization 67 number 1][journal_sechser_fuhrmann_2013_nuclear_blackmail]
-- [Journal, Snidal 1991, Relative Gains and the Pattern of International Cooperation, American Political Science Review 85 number 3][journal_snidal_1991_relative_gains]
-- [Journal, Snyder 1984, The Security Dilemma in Alliance Politics, World Politics 36 number 4][journal_snyder_1984_security_dilemma]
-- [Journal, Tomz and Weeks 2021, Military Alliances and Public Support for War, International Studies Quarterly 65 number 3][journal_tomz_weeks_2021_military_alliances]
-- [Journal, Trachtenberg 2025, The Rules-Based International Order, International Security 50 number 2][journal_trachtenberg_2025_rules_based_order]
-- [Journal, Verschuur, Lumma and Hall 2025, Systemic Impacts of Disruptions at Maritime Chokepoints, Nature Communications 16][journal_verschuur_2025_chokepoints]
-- [Journal, Von Hippel 2019, Mitigating the Threat of Nuclear-Weapon Proliferation via Nuclear-Submarine Programs, Journal for Peace and Nuclear Disarmament 2 number 1][journal_von_hippel_2019_naval_propulsion]
-- [Journal, Walt 2025, Hedging on Hegemony, International Security 49 number 4][journal_walt_2025_hedging_hegemony]
-- [Journal, Welch 2003, Why International Relations Theorists Should Stop Reading Thucydides, Review of International Studies 29 number 3][journal_welch_2003_stop_reading_thucydides]
-- [Reference, Tammen, Kugler and Lemke 2017, Foundations of Power Transition Theory, Oxford Research Encyclopedia of Politics][reference_tammen_2017_foundations]
-- [Related Post, What Published Wargames Say About a War With China][related_post_published_wargames]
-- [Related Post, What Rebuilding Would Take After a War With China][related_post_rebuilding]
-- [Research, Albright and Stricker 2018, Taiwan's Former Nuclear Weapons Program][research_albright_2018_taiwan_nuclear_program]
-- [Research, Atlantic Council 2025, Welcome to 2035][research_atlantic_council_2025_welcome_2035]
-- [Research, Atlantic Council 2026, Welcome to 2036][research_atlantic_council_2026_welcome_2036]
-- [Research, Bianchi and Sosa-Padilla 2023, International Sanctions and Dollar Dominance, NBER Working Paper 31024][research_bianchi_2023_sanctions_dollar]
-- [Research, Cancian, Cancian and Heginbotham 2023, The First Battle of the Next War][research_cancian_2023_first_battle]
-- [Research, Crawford 2021, The United States Budgetary Costs of the Post-9/11 Wars][research_crawford_2021_budgetary_costs]
-- [Research, Dooley, Folkerts-Landau and Garber 2022, US Sanctions Reinforce the Dollar's Dominance][research_dooley_2022_sanctions_reinforce]
-- [Research, European Council on Foreign Relations 2023, Living in an a la Carte World][research_ecfr_2023_a_la_carte]
-- [Research, Edwards 2010, United States War Costs, Two Parts Temporary, One Part Permanent, NBER Working Paper 16108][research_edwards_2010_war_costs]
-- [Research, Eichengreen 2005, Sterling's Past, Dollar's Future, NBER Working Paper 11336][research_eichengreen_2005_sterlings_past]
-- [Research, Evans 2023, Alternative Futures Following a Great Power War, Volume 2][research_evans_2023_alternative_futures_v2]
-- [Research, Fariss and others 2017, Latent Estimation of GDP, GDP per capita, and Population][research_fariss_2017_latent_estimation]
-- [Research, Goes and Bekkers 2022, The Impact of Geopolitical Conflicts on Trade, Growth, and Innovation][research_goes_bekkers_2022_geopolitical_conflicts]
-- [Research, Gompert, Cevallos and Garafola 2016, War with China, Thinking Through the Unthinkable][research_gompert_2016_war_with_china]
-- [Research, Hall and Sargent 2020, Debt and Taxes in Eight United States Wars and Two Insurrections, NBER Working Paper 27115][research_hall_sargent_2020_debt_and_taxes]
-- [Research, Harrison 1998, The Economics of World War II, An Overview][research_harrison_1998_economics_of_wwii]
-- [Research, Hohn 2014, Geopolitics and the Measurement of National Power][research_hohn_2014_geopolitics_measurement]
-- [Research, Jiang and others 2026, Dollar Erosion, NBER Working Paper 35328][research_jiang_2026_dollar_erosion]
-- [Research, Kwende and Nephew 2025, Improving the Analytical Usefulness of the IMF's COFER Data][research_kwende_nephew_2025_cofer]
-- [Research, Nordhaus 2002, The Economic Consequences of a War with Iraq][research_nordhaus_2002_iraq_cost]
-- [Research, National Security Archive 2019, Taiwan's Quest for the Bomb][research_nsarchive_2019_taiwans_bomb]
-- [Research, Priebe and others 2023, Alternative Futures Following a Great Power War, Volume 1][research_priebe_2023_alternative_futures_v1]
-- [Research, Priebe and Frederick 2023, Alternative Futures Following a Great Power War, In Conversation][research_priebe_frederick_2023_conversation]
-- [Research, Reinhart and Sbrancia 2011, The Liquidation of Government Debt, NBER Working Paper 16893][research_reinhart_sbrancia_2011_liquidation]
-- [Research, Rhodium Group 2022, The Global Economic Disruptions from a Taiwan Conflict][research_rhodium_2022_taiwan_disruptions]
-- [Research, Rockoff 2004, Until It's Over, Over There, NBER Working Paper 10580][research_rockoff_2004_until_its_over]
-- [Research, Tarapore 2024, Deterring an Attack on Taiwan, Policy Options for India and Other Non-Belligerent States][research_tarapore_2024_deterring_attack]
-- [Research, Tellis and others 2000, Measuring National Power in the Postindustrial Age][research_tellis_2000_measuring_national_power]
-- [Research, Vest and Kratz 2023, Sanctioning China in a Taiwan Crisis][research_vest_kratz_2023_sanctioning_china]
-- [Research, Weiss 2022, Geopolitics and the United States Dollar's Future as a Reserve Currency][research_weiss_2022_geopolitics_dollar]
-- [Research, Weiss 2025, De-Dollarization, Diversification, Exploring Central Bank Gold Purchases][research_weiss_2025_dedollarization]
+<!-- References generated by _lib/sources.py from _sources/. Edit the database and regenerate. Do not edit this section by hand. -->
+
+### Primary Sources, Peer-Reviewed
+
+- Arslanalp, Serkan, Barry Eichengreen, and Chima Simpson-Bell. 2022. "The Stealth Erosion of Dollar Dominance and the Rise of Nontraditional Reserve Currencies." *Journal of International Economics* 138: 103656. [https://doi.org/10.1016/j.jinteco.2022.103656][journal_arslanalp_2022_stealth_erosion]
+- Beckley, Michael. 2010. "Economic Development and Military Effectiveness." *Journal of Strategic Studies* 33 (1): 43–79. [https://doi.org/10.1080/01402391003603581][journal_beckley_2010_economic_development]
+- Bolt, Jutta, and Jan Luiten van Zanden. 2024b. "Maddison-Style Estimates of the Evolution of the World Economy: A New 2023 Update." *Journal of Economic Surveys* 39 (2): 631–71. [https://doi.org/10.1111/joes.12618][journal_bolt_vanzanden_2024_maddison]
+- Boughton, James M. 2001. "Northwest of Suez: The 1956 Crisis and the IMF." *IMF Staff Papers* 48 (3): 425–46. [https://doi.org/10.2307/4621678][journal_boughton_2001_northwest_of_suez]
+- Boz, Emine, Camila Casas, Georgios Georgiadis, et al. 2022. "Patterns of Invoicing Currency in Global Trade: New Evidence." *Journal of International Economics* 136: 103604. [https://doi.org/10.1016/j.jinteco.2022.103604][journal_boz_2022_invoicing_patterns]
+- Cancian, Matthew F. 2025. "States of Denial: Sensibly Defending Taiwan." *Survival* 67 (2): 133–58. [https://doi.org/10.1080/00396338.2025.2481778][journal_cancian_2025_states_of_denial]
+- Carroll, Robert J., and Brenton Kenkel. 2019. "Prediction, Proxies, and Power." *American Journal of Political Science* 63 (3): 577–93. [https://doi.org/10.1111/ajps.12442][journal_carroll_kenkel_2019_prediction_proxies]
+- Chiţu, Livia, Barry Eichengreen, and Arnaud Mehl. 2014. "When Did the Dollar Overtake Sterling as the Leading International Currency? Evidence from the Bond Markets." *Journal of Development Economics* 111: 225–45. [https://doi.org/10.1016/j.jdeveco.2013.09.008][journal_chitu_2014_bond_markets]
+- Cirillo, Pasquale, and Nassim Nicholas Taleb. 2016. "On the Statistical Properties and Tail Risk of Violent Conflicts." *Physica A: Statistical Mechanics and its Applications* 452: 29–45. [https://doi.org/10.1016/j.physa.2016.01.050][journal_cirillo_taleb_2016_tail_risk]
+- Eichengreen, Barry, Livia Chiţu, and Arnaud Mehl. 2015. "Stability or Upheaval? The Currency Composition of International Reserves in the Long Run." *IMF Economic Review* 64 (2): 354–80. [https://doi.org/10.1057/imfer.2015.19][journal_eichengreen_2015_stability_or_upheaval]
+- Ikenberry, G. John, and Daniel H. Nexon. 2019. "Hegemony Studies 3.0: The Dynamics of Hegemonic Orders." *Security Studies* 28 (3): 395–421. [https://doi.org/10.1080/09636412.2019.1604981][journal_ikenberry_nexon_2019_hegemony_studies]
+- Kadera, Kelly, and Gerald Sorokin. 2004. "Measuring National Power." *International Interactions* 30 (3): 211–30. [https://doi.org/10.1080/03050620490492097][journal_kadera_sorokin_2004_measuring_national_power]
+- Kang, David C., and Xinru Ma. 2018. "Power Transitions: Thucydides Didn’t Live in East Asia." *Washington Quarterly* 41 (1): 137–54. [https://doi.org/10.1080/0163660x.2018.1445905][journal_kang_ma_2018_power_transitions]
+- Kitchen, Nicholas, and Michael Cox. 2019. "Power, Structural Power, and American Decline." *Cambridge Review of International Affairs* 32 (6): 734–52. [https://doi.org/10.1080/09557571.2019.1606158][journal_kitchen_cox_2019_structural_power]
+- Lanteigne, Marc. 2008. "China's Maritime Security and the “Malacca Dilemma”." *Asian Security* 4 (2): 143–61. [https://doi.org/10.1080/14799850802006555][journal_lanteigne_2008_malacca_dilemma]
+- Lim, Darren J., and Zack Cooper. 2015. "Reassessing Hedging: The Logic of Alignment in East Asia." *Security Studies* 24 (4): 696–727. [https://doi.org/10.1080/09636412.2015.1103130][journal_lim_cooper_2015_reassessing_hedging]
+- Lim, Darren J., and G. John Ikenberry. 2023. "China and the Logic of Illiberal Hegemony." *Security Studies* 32 (1): 1–31. [https://doi.org/10.1080/09636412.2023.2178963][journal_lim_ikenberry_2023_illiberal_hegemony]
+- Markowitz, Jonathan N., and Christopher J. Fariss. 2013. "Going the Distance: The Price of Projecting Power." *International Interactions* 39 (2): 119–43. [https://doi.org/10.1080/03050629.2013.768458][journal_markowitz_fariss_2013_going_the_distance]
+- Mirski, Sean. 2013. "Stranglehold: The Context, Conduct and Consequences of an American Naval Blockade of China." *Journal of Strategic Studies* 36 (3): 385–421. [https://doi.org/10.1080/01402390.2012.743885][journal_mirski_2013_stranglehold]
+- Verschuur, Jasper, Johannes Lumma, and Jim W. Hall. 2025. "Systemic Impacts of Disruptions at Maritime Chokepoints." *Nature Communications* 16 (1): 10421. [https://doi.org/10.1038/s41467-025-65403-w][journal_verschuur_2025_chokepoints]
+- von Hippel, Frank. 2019. "Mitigating the Threat of Nuclear-Weapon Proliferation via Nuclear-Submarine Programs." *Journal for Peace and Nuclear Disarmament* 2 (1): 133–50. [https://doi.org/10.1080/25751654.2019.1625504][journal_von_hippel_2019_naval_propulsion]
+
+### Primary Sources, Non-Peer-Reviewed
+
+- Allison. 1953. *The Ambassador in Japan (Allison) to the Department of State*. 684. U.S. Department of State, Office of the Historian. [https://history.state.gov/historicaldocuments/frus1952-54v14p2/d684][government_frus_1952_japan_dollar_earnings]
+- Anders, Therese, Christopher J. Fariss, and Jonathan N. Markowitz. 2020. "Bread before Guns or Butter: Introducing Surplus Domestic Product (SDP)." *International Studies Quarterly* 64 (2): 392–405. [https://doi.org/10.1093/isq/sqaa013][journal_anders_2020_surplus_domestic_product]
+- Anderson, Nicholas D., and Daryl G. Press. 2025. "Access Denied? The Sino-American Contest for Military Primacy in Asia." *International Security* 50 (1): 118–51. [https://doi.org/10.1162/isec.a.7][journal_anderson_press_2025_access_denied]
+- Aylward, Mary Kate, Peter Engelke, Uri Friedman, and Paul Kielstra. 2025. *Welcome to 2035: What the World Could Look like in Ten Years, According to More than 350 Experts*. Atlantic Council. [https://www.atlanticcouncil.org/content-series/atlantic-council-strategy-paper-series/welcome-to-2035/][research_atlantic_council_2025_welcome_2035]
+- Aylward, Mary Kate, Peter Engelke, Uri Friedman, and Paul Kielstra. 2026. *Welcome to 2036: What the World Could Look like in Ten Years, According to Nearly 450 Experts*. Atlantic Council. [https://www.atlanticcouncil.org/content-series/atlantic-council-strategy-paper-series/welcome-to-2036/][research_atlantic_council_2026_welcome_2036]
+- Bank for International Settlements. 2025. *OTC Foreign Exchange Turnover in April 2025*. Bank for International Settlements. [https://www.bis.org/statistics/rpfx25\_fx.htm][data_bis_2025_triennial]
+- Bank for International Settlements. 2026. *Credit to the Non-Financial Sector*. Bank for International Settlements. [https://data.bis.org/topics/TOTAL\_CREDIT][data_bis_total_credit]
+- Beckley, Michael. 2012. "China's Century? Why America's Edge Will Endure." *International Security* 36 (3): 41–78. [https://doi.org/10.1162/isec\_a\_00066][journal_beckley_2012_chinas_century]
+- Beckley, Michael. 2015. "The Myth of Entangling Alliances: Reassessing the Security Risks of U.S. Defense Pacts." *International Security* 39 (4): 7–48. [https://doi.org/10.1162/isec\_a\_00197][journal_beckley_2015_entangling_alliances]
+- Beckley, Michael. 2018. "The Power of Nations: Measuring What Matters." *International Security* 43 (2): 7–44. [https://doi.org/10.1162/isec\_a\_00328][journal_beckley_2018_power_of_nations]
+- Bell, Mark S., and Nicholas L. Miller. 2013. "Questioning the Effect of Nuclear Weapons on Conflict." *Journal of Conflict Resolution* 59 (1): 74–92. [https://doi.org/10.1177/0022002713499718][journal_bell_miller_2015_questioning]
+- Bianchi, Javier, and César Sosa-Padilla. 2023. *International Sanctions and Dollar Dominance*. National Bureau of Economic Research. [https://doi.org/10.3386/w31024][research_bianchi_2023_sanctions_dollar]
+- Bianchi, Javier, and César Sosa-Padilla. 2025. "International Sanctions and Dollar Dominance." *Economic Journal* 135 (672): 2567–77. [https://doi.org/10.1093/ej/ueaf052][journal_bianchi_sosa_padilla_2025_sanctions_dollar]
+- Bleek, Philipp C., and Eric B. Lorber. 2013. "Security Guarantees and Allied Nuclear Proliferation." *Journal of Conflict Resolution* 58 (3): 429–54. [https://doi.org/10.1177/0022002713509050][journal_bleek_lorber_2014_security_guarantees]
+- Bolt, Jutta, and Jan Luiten van Zanden. 2024a. *Maddison Project Database 2023*. Groningen Growth and Development Centre, University of Groningen. [https://www.rug.nl/ggdc/historicaldevelopment/maddison/releases/maddison-project-database-2023][data_maddison_project_2023]
+- BRICS. 2023. *Johannesburg II Declaration: BRICS and Africa: Partnership for Mutually Accelerated Growth, Sustainable Development and Inclusive Multilateralism*. [http://www.brics.utoronto.ca/docs/230823-declaration.html][government_brics_2023_johannesburg]
+- BRICS. 2025. *Rio De Janeiro Declaration: Strengthening Global South Cooperation for a More Inclusive and Sustainable Governance*. [http://www.brics.utoronto.ca/docs/250706-declaration.html][government_brics_2025_rio]
+- Brooks, Stephen G., and William C. Wohlforth. 2016. "The Rise and Fall of the Great Powers in the Twenty-First Century: China's Rise and the Fate of America's Global Position." *International Security* 40 (3): 7–53. [https://doi.org/10.1162/isec\_a\_00225][journal_brooks_wohlforth_2016_rise_and_fall]
+- Bureau of Industry and Security. 2022. *Implementation of Additional Export Controls: Certain Advanced Computing and Semiconductor Manufacturing Items; Supercomputer and Semiconductor End Use; Entity List Modification*. FR Doc. 2022-21658; RIN 0694-AI94; Docket No. 220930-0204. Bureau of Industry and Security, Department of Commerce. [https://www.govinfo.gov/content/pkg/FR-2022-10-13/pdf/2022-21658.pdf][government_bis_2022_export_controls]
+- Bureau of the Fiscal Service. 2026. *Debt to the Penny*. U.S. Department of the Treasury, Bureau of the Fiscal Service. [https://fiscaldata.treasury.gov/datasets/debt-to-the-penny/debt-to-the-penny][data_treasury_debt_to_the_penny]
+- Burr, William. 2019. "Taiwan's Quest for the Bomb." *Electronic Briefing Book*, January 10. [https://nsarchive.gwu.edu/briefing-book/nuclear-vault/2019-01-10/taiwans-bomb][research_nsarchive_2019_taiwans_bomb]
+- Burrows, Mathew. 2026. "Would a China War Scenario Break the Insiders’ Hold?" *Texas National Security Review* 9 (1): 119–25. [https://doi.org/10.1353/tns.00028][journal_burrows_2026_china_war_scenario]
+- Cancian, Mark F., Matthew Cancian, and Eric Heginbotham. 2023. *The First Battle of the Next War: Wargaming a Chinese Invasion of Taiwan*. Center for Strategic and International Studies. [https://www.csis.org/analysis/first-battle-next-war-wargaming-chinese-invasion-taiwan][research_cancian_2023_first_battle]
+- Caverley, Jonathan D. 2025. "So What? Reassessing the Military Implications of Chinese Control of Taiwan." *Texas National Security Review* 8 (3): 28–53. [https://doi.org/10.1353/tns.00004][journal_caverley_2025]
+- Cederman, Lars-Erik, T. Camber Warren, and Didier Sornette. 2011. "Testing Clausewitz: Nationalism, Mass Mobilization, and the Severity of War." *International Organization* 65 (4): 605–38. [https://doi.org/10.1017/s0020818311000245][journal_cederman_2011_testing_clausewitz]
+- Chadefaux, Thomas. 2011. "Bargaining over Power: When Do Shifts in Power Lead to War?" *International Theory* 3 (2): 228–53. [https://doi.org/10.1017/s175297191100008x][journal_chadefaux_2011_bargaining]
+- Chang, Welton, Eva Chen, Barbara Mellers, and Philip Tetlock. 2016. "Developing Expert Political Judgment: The Impact of Training and Practice on Judgmental Accuracy in Geopolitical Forecasting Tournaments." *Judgment and Decision Making* 11 (5): 509–26. [https://doi.org/10.1017/s1930297500004599][journal_chang_2016_developing_expert_judgment]
+- Cheng-Chwee, Kuik. 2008. "The Essence of Hedging: Malaysia and Singapore´ s Response to a Rising China." *Contemporary Southeast Asia* 30 (2): 159–85. [https://doi.org/10.1355/cs30-2a][journal_kuik_2008_essence_of_hedging]
+- Christensen, Thomas J., and Jack Snyder. 1990. "Chain Gangs and Passed Bucks: Predicting Alliance Patterns in Multipolarity." *International Organization* 44 (2): 137–68. [https://doi.org/10.1017/s0020818300035232][journal_christensen_snyder_1990_chain_gangs]
+- Clauset, Aaron. 2018. "Trends and Fluctuations in the Severity of Interstate Wars." *Science Advances* 4 (2): eaao3580. [https://doi.org/10.1126/sciadv.aao3580][journal_clauset_2018_trends_fluctuations]
+- Collins, Gabriel. 2018. "A Maritime Oil Blockade against China—Tactically Tempting but Strategically Flawed." *Naval War College Review*. [https://digital-commons.usnwc.edu/nwc-review/vol71/iss2/6/][journal_collins_2018_maritime_oil_blockade]
+- Congressional Budget Office. 2026. *Budget and Economic Projections*. [https://www.cbo.gov/publication/51118][data_cbo_2026_projections]
+- Congressional Research Service. 2024. *U.S. Extended Deterrence and Regional Nuclear Capabilities*. IF12735. Congressional Research Service. [https://www.everycrsreport.com/reports/IF12735.html][government_crs_2026_extended_deterrence]
+- Congressional Research Service. 2025. *National Defense Strategy: Potential Implications for DOD of Prioritizing the Western Hemisphere and China*. IF13137. Congressional Research Service. [https://www.everycrsreport.com/reports/IF13137.html][government_crs_2025_national_defense_strategy]
+- Congressional Research Service. 2026a. *Japan's Evolving Defense Policy and the U.S.-Japan Alliance*. IN12708. Congressional Research Service. [https://www.everycrsreport.com/reports/IN12708.html][government_crs_2026_japan_defense]
+- Congressional Research Service. 2026b. *NATO: Issues for the July 2026 Ankara Summit*. R49018. Congressional Research Service. [https://www.everycrsreport.com/reports/R49018.html][government_crs_2026_nato_summit]
+- Congressional Research Service. 2026c. *The Philippines: Background and U.S. Relations*. R47055. Congressional Research Service. [https://www.everycrsreport.com/reports/R47055.html][government_crs_2026_philippines]
+- Cooley, Alexander, and Daniel H. Nexon. 2013. "“The Empire Will Compensate You”: The Structural Dynamics of the U.S. Overseas Basing Network." *Perspectives on Politics* 11 (4): 1034–50. [https://doi.org/10.1017/s1537592713002818][journal_cooley_nexon_2013_empire_compensate]
+- *Costs of Major U.S. Wars*. 2010. RS22926. Congressional Research Service. [https://www.everycrsreport.com/reports/RS22926.html][government_crs_costs_of_major_wars]
+- Council of the European Union. 2022. *A Strategic Compass for Security and Defence: For a European Union That Protects Its Citizens, Values and Interests and Contributes to International Peace and Security*. 7371/22. Council of the European Union. [https://data.consilium.europa.eu/doc/document/ST-7371-2022-INIT/en/pdf][government_eu_2022_strategic_compass]
+- Crawford, Neta C. 2021. *The U.S. Budgetary Costs of the Post-9/11 Wars*. Watson Institute for International and Public Affairs, Brown University. [https://costsofwar.watson.brown.edu/sites/default/files/papers/Costs-of-War\_US-Budgetary-Costs-of-Post-9-11-Wars.pdf][research_crawford_2021_budgetary_costs]
+- Cunningham, Fiona S., and Kristin Ven Bruusgaard. 2026. "Escalate to Survive?: Nuclear First Use in Contemporary Great Power Conflict." *International Security* 50 (4): 74–127. [https://doi.org/10.1162/isec.a.405][journal_cunningham_2026_escalate_to_survive]
+- Dalton, Toby, Karl Friedhoff, and Lami Kim. 2022. *Thinking Nuclear: South Korean Attitudes on Nuclear Weapons*. Chicago Council on Global Affairs. [https://globalaffairs.org/research/public-opinion-survey/thinking-nuclear-south-korean-attitudes-nuclear-weapons][data_chicago_council_2022_south_korea]
+- Davis, Kerby, and Eugene Gholz. 2026. "Blockade by Fire: China's Potential to Blockade Taiwan Using Missile Attacks on Ports." *International Security* 50 (4): 176–231. [https://doi.org/10.1162/isec.a.407][journal_davis_gholz_2026_blockade_by_fire]
+- Davis, Donald R., and David E. Weinstein. 2002. "Bones, Bombs, and Break Points: The Geography of Economic Activity." *American Economic Review* 92 (5): 1269–89. [https://doi.org/10.1257/000282802762024502][journal_davis_weinstein_2002_bones_bombs]
+- Department of Defense. 2025. *Republic of Korea Nuclear Consultative Group Fact Sheet*. [https://media.defense.gov/2025/Jan/10/2003626634/-1/-1/1/THE-UNITED-STATES-OF-AMERICA-REPUBLIC-OF-KOREA-NUCLEAR-CONSULTATIVE-GROUP-FACT-SHEET.PDF][government_dod_2025_ncg_fact_sheet]
+- Department of War. 2025. *Annual Report to Congress: Military and Security Developments Involving the People's Republic of China 2025*. Department of War. [https://media.defense.gov/2025/Dec/23/2003849070/-1/-1/1/ANNUAL-REPORT-TO-CONGRESS-MILITARY-AND-SECURITY-DEVELOPMENTS-INVOLVING-THE-PEOPLES-REPUBLIC-OF-CHINA-2025.PDF][government_dod_2025_china_report]
+- DiCicco, Jonathan M., and Jack S. Levy. 1999. "Power Shifts and Problem Shifts: The Evolution of the Power Transition Research Program." *Journal of Conflict Resolution* 43 (6): 675–704. [https://doi.org/10.1177/0022002799043006001][journal_dicicco_levy_1999_power_shifts]
+- Dooley, Michael, David Folkerts-Landau, and Peter Garber. 2022. *US Sanctions Reinforce the Dollar’s Dominance*. National Bureau of Economic Research. [https://doi.org/10.3386/w29943][research_dooley_2022_sanctions_reinforce]
+- Doran, Charles F. 1989. "Systemic Disequilibrium, Foreign Policy Role, and the Power Cycle: Challenges for Research Design." *Journal of Conflict Resolution* 33 (3): 371–401. [https://doi.org/10.1177/0022002789033003001][journal_doran_1989_systemic_disequilibrium]
+- Doran, Charles F., and Wes Parsons. 1980. "War and the Cycle of Relative Power." *American Political Science Review* 74 (4): 947–65. [https://doi.org/10.2307/1954315][journal_doran_parsons_1980_war_cycle]
+- Dunn, Candace, and Justine Barden. 2025. "Amid Regional Conflict, the Strait of Hormuz Remains Critical Oil Chokepoint." *Today in Energy*, June 16. [https://www.eia.gov/todayinenergy/detail.php?id=65504][government_eia_2025_hormuz]
+- *Editorial Note*. 1953. 646. U.S. Department of State, Office of the Historian. [https://history.state.gov/historicaldocuments/frus1952-54v14p2/d646][government_frus_1952_japan_procurement]
+- Edwards, Ryan. 2010. *U.S. War Costs: Two Parts Temporary, One Part Permanent*. National Bureau of Economic Research. [https://doi.org/10.3386/w16108][research_edwards_2010_war_costs]
+- Eichengreen, Barry. 2005. *Sterling's past, Dollar's Future: Historical Perspectives on Reserve Currency Competition*. National Bureau of Economic Research. [https://doi.org/10.3386/w11336][research_eichengreen_2005_sterlings_past]
+- Eichengreen, B., and M. Flandreau. 2009. "The Rise and Fall of the Dollar (or When Did the Dollar Replace Sterling as the Leading Reserve Currency?)." *European Review of Economic History* 13 (3): 377–411. [https://doi.org/10.1017/s1361491609990153][journal_eichengreen_flandreau_2009_rise_and_fall]
+- Eichengreen, Barry, Arnaud Mehl, and Livia Chiţu. 2019. "Mars or Mercury? The Geopolitics of International Currency Choice." *Economic Policy* 34 (98): 315–63. [https://doi.org/10.1093/epolic/eiz005][journal_eichengreen_2019_mars_or_mercury]
+- Energy Administration, Ministry of Economic Affairs. 2025. *Energy Statistics Handbook*. Energy Administration, Ministry of Economic Affairs (Taiwan). [https://ea01.moeaea.gov.tw/a0303/02/en/publication/handbook/][data_taiwan_moea_energy]
+- European Commission, and High Representative of the Union for Foreign Affairs and Security Policy. 2019. *EU-China – a Strategic Outlook*. JOIN(2019) 5 final. European Commission. [https://commission.europa.eu/system/files/2019-03/communication-eu-china-a-strategic-outlook.pdf][government_eu_2019_china_strategic_outlook]
+- Evangelista, Matthew. 2024. "A “Nuclear Umbrella” for Ukraine? Precedents and Possibilities for Postwar European Security." *International Security* 48 (3): 7–50. [https://doi.org/10.1162/isec\_a\_00476][journal_evangelista_2024_nuclear_umbrella]
+- Evans, Alexandra T. 2023. *Alternative Futures Following a Great Power War: Volume 2, Supporting Material on Historical Great Power Wars*. RR-A591-2. RAND Corporation. [https://www.rand.org/pubs/research\_reports/RRA591-2.html][research_evans_2023_alternative_futures_v2]
+- Fariss, Christopher J., Charles D. Crabtree, Therese Anders, Zachary M. Jones, Fridolin J. Linder, and Jonathan N. Markowitz. 2017. "Latent Estimation of GDP, GDP per Capita, and Population from Historic and Contemporary Sources." Preprint, . [https://arxiv.org/abs/1706.01099][research_fariss_2017_latent_estimation]
+- Farrell, Henry, and Abraham L. Newman. 2019. "Weaponized Interdependence: How Global Economic Networks Shape State Coercion." *International Security* 44 (1): 42–79. [https://doi.org/10.1162/isec\_a\_00351][journal_farrell_newman_2019_weaponized]
+- Fearon, James D. 1995. "Rationalist Explanations for War." *International Organization* 49 (3): 379–414. [https://doi.org/10.1017/s0020818300033324][journal_fearon_1995_rationalist]
+- Fitzpatrick, Matthew P. 2025. "A Farewell to the Thucydides Trap: The ‘Anglo-German Antagonism’ as History and International Relations Paradigm." *German History* 43 (2): 161–80. [https://doi.org/10.1093/gerhis/ghaf028][journal_fitzpatrick_2025_farewell]
+- Fuhrmann, Matthew, and Benjamin Tkach. 2015. "Almost Nuclear: Introducing the Nuclear Latency Dataset." *Conflict Management and Peace Science* 32 (4): 443–61. [https://doi.org/10.1177/0738894214559672][journal_fuhrmann_tkach_2015_nuclear_latency]
+- Gaddis, John Lewis. 1986. "The Long Peace: Elements of Stability in the Postwar International System." *International Security* 10 (4): 99. [https://doi.org/10.2307/2538951][journal_gaddis_1986_long_peace]
+- Garton Ash, Timothy, Ivan Krastev, and Mark Leonard. 2023. *Living in an à La Carte World: What European Policymakers Should Learn from Global Public Opinion*. European Council on Foreign Relations. [https://ecfr.eu/publication/living-in-an-a-la-carte-world-what-european-policymakers-should-learn-from-global-public-opinion/][research_ecfr_2023_a_la_carte]
+- Gavin, Francis J. 2010. "Same as It Ever Was: Nuclear Alarmism, Proliferation, and the Cold War." *International Security* 34 (3): 7–37. [https://doi.org/10.1162/isec.2010.34.3.7][journal_gavin_2010_same_as_it_ever_was]
+- Gerzhoy, Gene. 2015. "Alliance Coercion and Nuclear Restraint: How the United States Thwarted West Germany's Nuclear Ambitions." *International Security* 39 (4): 91–129. [https://doi.org/10.1162/isec\_a\_00198][journal_gerzhoy_2015_alliance_coercion]
+- Gilpin, Robert. 1988. "The Theory of Hegemonic War." *Journal of Interdisciplinary History* 18 (4): 591. [https://doi.org/10.2307/204816][journal_gilpin_1988_hegemonic_war]
+- Góes, Carlos, and Eddy Bekkers. 2022. *The Impact of Geopolitical Conflicts on Trade, Growth, and Innovation*. ERSD-2022-09. World Trade Organization. [https://www.wto.org/english/res\_e/reser\_e/ersd202209\_e.pdf][research_goes_bekkers_2022_geopolitical_conflicts]
+- Gopinath, Gita, Emine Boz, Camila Casas, Federico J. Díez, Pierre-Olivier Gourinchas, and Mikkel Plagborg-Møller. 2020. "Dominant Currency Paradigm." *American Economic Review* 110 (3): 677–719. [https://doi.org/10.1257/aer.20171201][journal_gopinath_2020_dominant_currency_paradigm]
+- Gopinath, Gita, and Jeremy C. Stein. 2020. "Banking, Trade, and the Making of a Dominant Currency." *Quarterly Journal of Economics* 136 (2): 783–830. [https://doi.org/10.1093/qje/qjaa036][journal_gopinath_stein_2021_dominant_currency]
+- Government of Japan. 2022. *National Security Strategy of Japan*. Cabinet Secretariat, Government of Japan. [https://www.cas.go.jp/jp/siryou/221216anzenhoshou/nss-e.pdf][government_japan_2022_nss]
+- Green, Brendan Rittenhouse, and Caitlin Talmadge. 2022. "Then What? Assessing the Military Implications of Chinese Control of Taiwan." *International Security* 47 (1): 7–45. [https://doi.org/10.1162/isec\_a\_00437][journal_green_talmadge_2022]
+- Greitens, Sheena Chestnut, and Isaac B. Kardon. 2025. "Security without Exclusivity: Hybrid Alignment under U.S.-China Competition." *International Security* 49 (3): 122–63. [https://doi.org/10.1162/isec\_a\_00504][journal_greitens_kardon_2025_security_without_exclusivity]
+- Grieco, Joseph M. 1988. "Anarchy and the Limits of Cooperation: A Realist Critique of the Newest Liberal Institutionalism." *International Organization* 42 (3): 485–507. [https://doi.org/10.1017/s0020818300027715][journal_grieco_1988_anarchy_limits]
+- Grieco, Joseph, Robert Powell, and Duncan Snidal. 1993. "The Relative-Gains Problem for International Cooperation." *American Political Science Review* 87 (3): 729–43. [https://doi.org/10.2307/2938747][journal_grieco_powell_snidal_1993_relative_gains]
+- Hall, George J., and Thomas J. Sargent. 2011. "Interest Rate Risk and Other Determinants of Post-WWII US Government Debt/GDP Dynamics." *American Economic Journal: Macroeconomics* 3 (3): 192–214. [https://doi.org/10.1257/mac.3.3.192][journal_hall_sargent_2011_interest_rate_risk]
+- Hall, George, and Thomas Sargent. 2020. *Debt and Taxes in Eight U.S. Wars and Two Insurrections*. National Bureau of Economic Research. [https://doi.org/10.3386/w27115][research_hall_sargent_2020_debt_and_taxes]
+- Harrison, Mark. 1998. "The Economics of World War II: An Overview." In *The Economics of World War II: Six Great Powers in International Comparison*. [https://warwick.ac.uk/fac/soc/economics/staff/mharrison/public/ww2overview1998.pdf][research_harrison_1998_economics_of_wwii]
+- Henry, Iain D. 2020. "What Allies Want: Reconsidering Loyalty, Reliability, and Alliance Interdependence." *International Security* 44 (4): 45–83. [https://doi.org/10.1162/isec\_a\_00375][journal_henry_2020_what_allies_want]
+- Hill, Sean, Eric Han, and Jonathan Russo. 2026. "China, the United States, and Japan Hold Most Strategic Oil Inventories in 2025." *Today in Energy*, April 20. [https://www.eia.gov/todayinenergy/detail.php?id=67504][government_eia_2026_strategic_stocks]
+- Höhn, Karl Hermann. 2011. *Geopolitics and the Measurement of National Power*. urn:nbn:de:gbv:18-65502. Universität Hamburg. [https://ediss.sub.uni-hamburg.de/handle/ediss/5238][research_hohn_2014_geopolitics_measurement]
+- Ikenberry, G. John. 1999. "Institutions, Strategic Restraint, and the Persistence of American Postwar Order." *International Security* 23 (3): 43–78. [https://doi.org/10.1162/isec.23.3.43][journal_ikenberry_1999_institutions_restraint]
+- Ikenberry, G. John. 2018. "The End of Liberal International Order?" *International Affairs* 94 (1): 7–23. [https://doi.org/10.1093/ia/iix241][journal_ikenberry_2018_end_of_liberal_order]
+- Ikenberry, G. John. 2024. "Three Worlds: The West, East and South and the Competition to Shape Global Order." *International Affairs* 100 (1): 121–38. [https://doi.org/10.1093/ia/iiad284][journal_ikenberry_2024_three_worlds]
+- Ilzetzki, Ethan, Carmen M. Reinhart, and Kenneth S. Rogoff. 2020. "Why Is the Euro Punching below Its Weight?" *Economic Policy* 35 (103): 405–60. [https://doi.org/10.1093/epolic/eiaa018][journal_ilzetzki_2020_euro_punching]
+- International Monetary Fund. 2026. *Currency Composition of Official Foreign Exchange Reserves (COFER)*. IMF.STA:COFER(7.0.1). International Monetary Fund. [https://data.imf.org/en/datasets/IMF.STA:COFER][data_imf_cofer]
+- International Monetary Fund, and University of Oxford. 2026. *PortWatch*. International Monetary Fund. [https://portwatch.imf.org/][data_imf_portwatch]
+- International Monetary Fund. Asia and Pacific Dept. n.d.. *People’s Republic of China: 2025 Article IV Consultation-Press Release; Staff Report; and Statement by the Executive Director for the People’s Republic of China*. International Monetary Fund (IMF). [https://doi.org/10.5089/9798229038911.002.a001][government_imf_2026_china_article_iv]
+- Jiang, Zhengyang, Arvind Krishnamurthy, Hanno Lustig, and Robert Richmond. 2026. *Dollar Erosion: Understanding the Loss of Reserve Currency Status*. National Bureau of Economic Research. [https://doi.org/10.3386/w35328][research_jiang_2026_dollar_erosion]
+- *KINU Unification Survey 2023: Executive Summary*. 2023. Korea Institute for National Unification. [https://repo.kinu.or.kr/handle/2015.oak/14362][data_kinu_2023_unification_survey]
+- Kugler, Jacek, and Marina Arbetman. 1989. "Exploring the “Phoenix Factor” with the Collective Goods Perspective." *Journal of Conflict Resolution* 33 (1): 84–112. [https://doi.org/10.1177/0022002789033001004][journal_kugler_arbetman_1989_phoenix]
+- Kwende, Glen, and Erin Nephew. 2025. "Improving the Analytical Usefulness of the IMF’s COFER Data." *Technical Notes and Manuals* 2025 (014): 1. [https://doi.org/10.5089/9798229004855.005][research_kwende_nephew_2025_cofer]
+- Lake, David A. 2007. "Escape from the State of Nature: Authority and Hierarchy in World Politics." *International Security* 32 (1): 47–79. [https://doi.org/10.1162/isec.2007.32.1.47][journal_lake_2007_escape_state_of_nature]
+- Levy, Jack S. 1987. "Declining Power and the Preventive Motivation for War." *World Politics* 40 (1): 82–107. [https://doi.org/10.2307/2010195][journal_levy_1987_declining_power]
+- Liang, Xiao, Nan Tian, Diego Lopes da Silva, Lorenzo Scarazzato, Zubaida A. Karim, and Jade Guiberteau Ricard. 2026. *Trends in World Military Expenditure, 2025*. Stockholm International Peace Research Institute. [https://doi.org/10.55163/zlhq1057][data_sipri_2026_milex]
+- Lin, Joanne, Melinda Martinus, Kristina Fong, Thi Phuong Thao Pham, Indira Zahra Aridati, and Gauri Sasitharan. 2026. *The State of Southeast Asia: 2026 Survey Report*. Print ISSN 2737-5102; Digital ISSN 2737-5110. ISEAS - Yusof Ishak Institute. [https://www.iseas.edu.sg/wp-content/uploads/2026/03/The-State-of-Southeast-Asia-2026-Survey-Final-Single.pdf][data_iseas_2026_state_of_southeast_asia]
+- Lind, Jennifer. 2024. "Back to Bipolarity: How China's Rise Transformed the Balance of Power." *International Security* 49 (2): 7–55. [https://doi.org/10.1162/isec\_a\_00494][journal_lind_2024_back_to_bipolarity]
+- Lowy Institute. 2025. *Asia Power Index*. Lowy Institute. [https://power.lowyinstitute.org/][data_lowy_2025_asia_power_index]
+- McKinney, Jared M., and Peter Harris. 2021. "Broken Nest: Deterring China from Invading Taiwan." *US Army War College Quarterly: Parameters* 51 (4): 23–36. [https://doi.org/10.55540/0031-1723.3089][journal_mckinney_harris_2021_broken_nest]
+- Mearsheimer, John J. 2019. "Bound to Fail: The Rise and Fall of the Liberal International Order." *International Security* 43 (4): 7–50. [https://doi.org/10.1162/isec\_a\_00342][journal_mearsheimer_2019_bound_to_fail]
+- Mehta, Rupal N., and Rachel Elizabeth Whitlark. 2017. "The Benefits and Burdens of Nuclear Latency." *International Studies Quarterly* 61 (3): 517–28. [https://doi.org/10.1093/isq/sqx028][journal_mehta_whitlark_2017_latency]
+- Menon, Shivshankar. 2026. "A New World Order? Careful What You Wish For." *Texas National Security Review* 9 (1): 72–81. [https://doi.org/10.1353/tns.00024][journal_menon_2026_new_world_order]
+- Ministry of Defense. 2025. *Progress and Budget in Fundamental Reinforcement of Defense Capabilities: Overview of FY2026 Budget*. Ministry of Defense (Japan). [https://www.mod.go.jp/en/d\_act/d\_budget/pdf/fy2026\_20251226a.pdf][government_japan_2026_defense_budget]
+- Monteiro, Nuno P., and Alexandre Debs. 2014. "The Strategic Logic of Nuclear Proliferation." *International Security* 39 (2): 7–51. [https://doi.org/10.1162/isec\_a\_00177][journal_monteiro_debs_2014_strategic_logic]
+- Morley, Neville. 2026. "Thucydiocies: How Not to Read Thucydides in Contemporary Political Discourse." *Public Humanities* 2: e40. [https://doi.org/10.1017/pub.2026.10147][journal_morley_2026_thucydiocies]
+- Mueller, John. 1988. "The Essential Irrelevance of Nuclear Weapons: Stability in the Postwar World." *International Security* 13 (2): 55. [https://doi.org/10.2307/2538971][journal_mueller_1988_essential_irrelevance]
+- Narang, Vipin. 2017. "Strategies of Nuclear Proliferation: How States Pursue the Bomb." *International Security* 41 (3): 110–50. [https://doi.org/10.1162/isec\_a\_00268][journal_narang_2017_strategies_of_proliferation]
+- National Intelligence Council. 2021. *Global Trends 2040: A More Contested World*. Office of the Director of National Intelligence. [https://www.dni.gov/index.php/gt2040-home][government_nic_2021_global_trends]
+- Nemeth, Bence. 2026. "How a US “Suez Moment” Could Hollow the US Alliance System." *Texas National Security Review* 9 (1): 82–97. [https://doi.org/10.1353/tns.00025][journal_nemeth_2026_suez_moment]
+- Nordhaus, William. 2002. *The Economic Consequences of a War in Iraq*. National Bureau of Economic Research. [https://doi.org/10.3386/w9361][research_nordhaus_2002_iraq_cost]
+- Office of Atomic Energy Policy, Cabinet Office. 2025. *The Status Report of Plutonium Management in Japan: 2024*. Cabinet Office, Government of Japan. [https://www.aec.go.jp/bunya/04/plutonium/20250805\_e.pdf][government_japan_2025_plutonium]
+- Ohanian, Lee E. 1997. "The Macroeconomic Effects of War Finance in the United States: World War II and the Korean War." *American Economic Review*. [https://ideas.repec.org/a/aea/aecrev/v87y1997i1p23-40.html][journal_ohanian_1997_macroeconomic_effects_war_finance]
+- Organski, A. F. K., and Jacek Kugler. 1977. "The Costs of Major Wars: The Phoenix Factor." *American Political Science Review* 71 (4): 1347–66. [https://doi.org/10.2307/1961484][journal_organski_kugler_1977_phoenix]
+- Platias, Athanassios, and Vasilis Trigkas. 2021. "Unravelling the Thucydides’ Trap: Inadvertent Escalation or War of Choice?" *Chinese Journal of International Politics* 14 (2): 219–55. [https://doi.org/10.1093/cjip/poaa023][journal_platias_trigkas_2021_unravelling]
+- Posen, Barry R. 2003. "Command of the Commons: The Military Foundation of U.S. Hegemony." *International Security* 28 (1): 5–46. [https://doi.org/10.1162/016228803322427965][journal_posen_2003_command_of_the_commons]
+- Powell, Robert. 1991. "Absolute and Relative Gains in International Relations Theory." *American Political Science Review* 85 (4): 1303–20. [https://doi.org/10.2307/1963947][journal_powell_1991_absolute_relative_gains]
+- Powell, Robert. 2006. "War as a Commitment Problem." *International Organization* 60 (1): 169–203. [https://doi.org/10.1017/s0020818306060061][journal_powell_2006_commitment_problem]
+- Priebe, and Frederick. 2023. *Alternative Futures Following a Great Power War, In Conversation*. [https://www.rand.org/pubs/commentary/2023/05/alternative-futures-following-a-great-power-war-miranda.html][research_priebe_frederick_2023_conversation]
+- Priebe, Miranda, Bryan Frederick, Anika Binnendijk, et al. 2023. *Alternative Futures Following a Great Power War: Volume 1, Scenarios, Findings, and Recommendations*. RR-A591-1. RAND Corporation. [https://www.rand.org/pubs/research\_reports/RRA591-1.html][research_priebe_2023_alternative_futures_v1]
+- Priebe, Miranda, John Schuessler, Bryan Rooney, and Jasen Castillo. 2024. "Competing Visions of Restraint." *International Security* 49 (2): 135–69. [https://doi.org/10.1162/isec\_a\_00498][journal_priebe_2024_competing_visions]
+- Rauchhaus, Robert. 2009. "Evaluating the Nuclear Peace Hypothesis: A Quantitative Approach." *Journal of Conflict Resolution* 53 (2): 258–77. [https://doi.org/10.1177/0022002708330387][journal_rauchhaus_2009_nuclear_peace]
+- Reinhart, Carmen, and M. Belen Sbrancia. 2011. *The Liquidation of Government Debt*. National Bureau of Economic Research. [https://doi.org/10.3386/w16893][research_reinhart_sbrancia_2011_liquidation]
+- Rockoff, Hugh. 2004. *Until It's over, over There: The U.S. Economy in World War I*. National Bureau of Economic Research. [https://doi.org/10.3386/w10580][research_rockoff_2004_until_its_over]
+- Russian Federation, and People's Republic of China. 2022. *Joint Statement of the Russian Federation and the People's Republic of China on the International Relations Entering a New Era and the Global Sustainable Development*. [http://en.kremlin.ru/supplement/5770][government_kremlin_2022_joint_statement]
+- Sagan, Scott D. 1997. "Why Do States Build Nuclear Weapons? Three Models in Search of a Bomb." *International Security* 21 (3): 54–86. [https://doi.org/10.1162/isec.21.3.54][journal_sagan_1997_why_states_build]
+- Sarkees, Meredith Reid. 2010. "Inter-State Wars (Version 4.0): Definitions and Variables." The Correlates of War Project. Accessed October 24, 2026. [https://correlatesofwar.org/wp-content/uploads/Inter-StateWars\_Codebook.pdf][data_cow_interstate_wars_codebook]
+- Sarkees, Meredith Reid, and Frank Wayman. 2011. *COW War Data, 1816 – 2007 (v4.0, Intra-State v5.1)*. v4.0. The Correlates of War Project. [https://correlatesofwar.org/data-sets/cow-war/][data_cow_interstate_war_v4]
+- Schroeder, Paul W. 1992. "Did the Vienna Settlement Rest on a Balance of Power?" *American Historical Review* 97 (3): 683–706. [https://doi.org/10.1086/ahr/97.3.683][journal_schroeder_1992_vienna_settlement]
+- Sechser, Todd S., and Matthew Fuhrmann. 2013. "Crisis Bargaining and Nuclear Blackmail." *International Organization* 67 (1): 173–95. [https://doi.org/10.1017/s0020818312000392][journal_sechser_fuhrmann_2013_nuclear_blackmail]
+- Singer, Bremer, and Stuckey. 2012. "Capability Distribution, Uncertainty, and Major Power War, 1820–1965 (1972) (with Stuart a. Bremer And." In *Advancing Peace Research*. Routledge. [https://doi.org/10.4324/9780203128398-28][book_singer_1972_capability_distribution]
+- Singer, J. David, Stuart Bremer, and John Stuckey. 2026. *National Material Capabilities (v7.0)*. v7.0. The Correlates of War Project. [https://correlatesofwar.org/data-sets/national-material-capabilities/][data_cow_nmc_v7]
+- Snidal, Duncan. 1991. "Relative Gains and the Pattern of International Cooperation." *American Political Science Review* 85 (3): 701–26. [https://doi.org/10.2307/1963847][journal_snidal_1991_relative_gains]
+- Snyder, Glenn H. 1984. "The Security Dilemma in Alliance Politics." *World Politics* 36 (4): 461–95. [https://doi.org/10.2307/2010183][journal_snyder_1984_security_dilemma]
+- Stockholm International Peace Research Institute. 2026. *SIPRI Military Expenditure Database*. Stockholm International Peace Research Institute. [https://www.sipri.org/databases/milex][data_sipri_milex_database]
+- *Table 5: Major Foreign Holders of Treasury Securities: Holdings at End of Time Period*. 2026. U.S. Department of the Treasury. [https://ticdata.treasury.gov/resource-center/data-chart-center/tic/Documents/slt\_table5.html][data_treasury_tic_2026]
+- Tarapore, Arzan. 2024. *Deterring an Attack on Taiwan: Policy Options for India and Other Non-Belligerent States*. Australian Strategic Policy Institute. [https://www.aspi.org.au/report/deterring-attack-taiwan-policy-options-india-and-other-non-belligerent-states/][research_tarapore_2024_deterring_attack]
+- Tomz, Michael, and Jessica L. P. Weeks. 2021. "Military Alliances and Public Support for War." *International Studies Quarterly* 65 (3): 811–24. [https://doi.org/10.1093/isq/sqab015][journal_tomz_weeks_2021_military_alliances]
+- Trachtenberg, Marc. 2025. "The Rules-Based International Order: A Historical Analysis." *International Security* 50 (2): 7–54. [https://doi.org/10.1162/isec.a.11][journal_trachtenberg_2025_rules_based_order]
+- United Nations Conference on Trade and Development. 2026. *Seaborne Trade*. US.SeaborneTrade. United Nations Conference on Trade and Development. [https://unctadstat.unctad.org/datacentre/dataviewer/US.SeaborneTrade][data_unctad_seaborne_trade]
+- United States Congress. 1979. *Taiwan Relations Act*. Public Law 96-8; 93 Stat. 14; H.R. 2479. U.S. Government Printing Office. [https://www.govinfo.gov/content/pkg/STATUTE-93/pdf/STATUTE-93-Pg14.pdf][government_us_1979_taiwan_relations_act]
+- United States Congress. 2022. *An Act Making Appropriations for Legislative Branch for the Fiscal Year Ending September 30, 2022, and for Other Purposes*. Public Law 117-167; 136 Stat. 1366; H.R. 4346. U.S. Government Publishing Office. [https://www.govinfo.gov/content/pkg/PLAW-117publ167/html/PLAW-117publ167.htm][government_us_2022_chips_act]
+- United States Congress. 2025. *To Provide for Reconciliation Pursuant to Title II of H. Con. Res. 14*. Public Law 119-21; 139 Stat. 72; H.R. 1. U.S. Government Publishing Office. [https://www.govinfo.gov/content/pkg/PLAW-119publ21/html/PLAW-119publ21.htm][government_us_2025_pl_119_21]
+- Vest, Charlie, and Agatha Kratz. 2023. *Sanctioning China in a Taiwan Crisis: Scenarios and Risks*. Atlantic Council. [https://www.atlanticcouncil.org/in-depth-research-reports/report/sanctioning-china-in-a-taiwan-crisis-scenarios-and-risks/][research_vest_kratz_2023_sanctioning_china]
+- Vest, Charlie, Agatha Kratz, and Reva Goujon. 2022. *The Global Economic Disruptions from a Taiwan Conflict*. Rhodium Group. [https://rhg.com/research/taiwan-economic-disruptions/][research_rhodium_2022_taiwan_disruptions]
+- Walt, Stephen M. 2025. "Hedging on Hegemony: The Realist Debate over How to Respond to China." *International Security* 49 (4): 37–70. [https://doi.org/10.1162/isec\_a\_00508][journal_walt_2025_hedging_hegemony]
+- Weiss, Colin. 2022. "Geopolitics and the U.S. Dollar's Future as a Reserve Currency." *International Finance Discussion Papers* 2022.0 (1359): 1–37. [https://doi.org/10.17016/ifdp.2022.1359][research_weiss_2022_geopolitics_dollar]
+- Weiss, Colin. 2025. "De-Dollarization? Diversification? Exploring Central Bank Gold Purchases and the Dollar’s Role in International Reserves." *International Finance Discussion Papers*, no. 1420. [https://doi.org/10.17016/ifdp.2025.1420][research_weiss_2025_dedollarization]
+- Welch, David A. 2003. "Why International Relations Theorists Should Stop Reading Thucydides." *Review of International Studies* 29 (3): 301–19. [https://doi.org/10.1017/s0260210503003012][journal_welch_2003_stop_reading_thucydides]
+- World Bank. 2026. *World Development Indicators*. World Bank Group. [https://datatopics.worldbank.org/world-development-indicators/][data_world_bank_wdi]
+
+### Secondary Sources
+
+- Albright, David, and Andrea Stricker. 2018. *Taiwan's Former Nuclear Weapons Program: Nuclear Weapons On-Demand*. Institute for Science and International Security. [https://isis-online.org/uploads/isis-reports/documents/TaiwansFormerNuclearWeaponsProgram\_POD\_color\_withCover.pdf][research_albright_2018_taiwan_nuclear_program]
+- Cooley, Alexander, and Daniel Nexon. 2020. *Exit from Hegemony: The Unraveling of the American Global Order*. Oxford University PressNew York. [https://doi.org/10.1093/oso/9780190916473.001.0001][book_cooley_nexon_2020_exit_from_hegemony]
+- Copeland, Dale C. 2018. *The Origins of Major War*. Cornell University Press. [https://doi.org/10.7591/9780801467059][book_copeland_2018_origins_of_major_war]
+- Gilpin, Robert. 1981. *War and Change in World Politics*. Cambridge University Press. [https://doi.org/10.1017/cbo9780511664267][book_gilpin_1981_war_and_change]
+- Gompert, David, Astrid Cevallos, and Cristina Garafola. 2016. *War with China: Thinking through the Unthinkable*. RAND Corporation. [https://doi.org/10.7249/rr1140][research_gompert_2016_war_with_china]
+- Henry, Iain D. 2022. *Reliability and Alliance Interdependence: The United States and Its Allies in Asia, 1949–1969*. Cornell University Press. [https://doi.org/10.1515/9781501763052][book_henry_2022_reliability]
+- Hymans, Jacques E. C. 2006. *The Psychology of Nuclear Proliferation: Identity, Emotions and Foreign Policy*. Cambridge University Press. [https://doi.org/10.1017/cbo9780511491412][book_hymans_2006_psychology_of_proliferation]
+- Ikenberry, G. John. 2019. *After Victory: Institutions, Strategic Restraint, and the Rebuilding of Order after Major Wars, New Edition*. Princeton University Press. [https://doi.org/10.23943/princeton/9780691169217.001.0001][book_ikenberry_2019_after_victory]
+- Kennedy, Paul. 1987. *The Rise and Fall of the Great Powers: Economic Change and Military Conflict from 1500 to 2000*. Random House. [https://archive.org/details/the-rise-and-fall-of-the-great-powers-economic-change-and-military-conflict-from-1500-to-2000][book_kennedy_1987_rise_and_fall]
+- Lake, David A. 2017. *Hierarchy in International Relations*. Cornell University Press. [https://doi.org/10.7591/9780801458934][book_lake_2017_hierarchy]
+- Lanoszka, Alexander. 2018. *Atomic Assurance: The Alliance Politics of Nuclear Proliferation*. Cornell University Press. [https://doi.org/10.7591/cornell/9781501729188.001.0001][book_lanoszka_2018_atomic_assurance]
+- Lemke, Douglas. 2002. *Regions of War and Peace*. Cambridge University Press. [https://doi.org/10.1017/cbo9780511491511][book_lemke_2002_regions_of_war_and_peace]
+- McDowell, Daniel. 2023. *Bucking the Buck: US Financial Sanctions and the International Backlash against the Dollar*. Oxford University PressNew York. [https://doi.org/10.1093/oso/9780197679876.001.0001][book_mcdowell_2023_bucking_the_buck]
+- Organski, A. F. K., and Jacek Kugler. 1980. *The War Ledger*. University of Chicago Press. [https://doi.org/10.7208/chicago/9780226351841.001.0001][book_organski_kugler_1980_war_ledger]
+- Prasad, Eswar S. 2015. *The Dollar Trap: How the U.S. Dollar Tightened Its Grip on Global Finance*. Princeton University Press. [https://doi.org/10.1515/9781400873647][book_prasad_2015_dollar_trap]
+- Rockoff, Hugh. 2012. *America's Economic Way of War: War and the US Economy from the Spanish-American War to the Persian Gulf War*. Cambridge University Press. [https://doi.org/10.1017/cbo9781139046534][book_rockoff_2012_americas_economic_way_of_war]
+- Tellis. 2000. *Measuring National Power in the Postindustrial Age*. RAND Corporation. [https://doi.org/10.7249/mr1110][research_tellis_2000_measuring_national_power]
+- Tetlock, Philip E. 2017. *Expert Political Judgment: How Good Is It? How Can We Know?*. Princeton University Press. [https://doi.org/10.1515/9781400888818][book_tetlock_2005_expert_political_judgment]
+
+### Commercial Sources
+
+- Allison, Graham. 2015. "The Thucydides Trap: Are the U.S. and China Headed for War?" The Atlantic, September 24. [https://www.belfercenter.org/publication/thucydides-trap-are-us-and-china-headed-war][commentary_allison_2015_thucydides_trap]
+- Flatoff, Libby, and Daryl G. Kimball. 2026. "2026 NPT Review Conference Stymied by Disputes." Arms Control Today, June. [https://www.armscontrol.org/act/2026-06/news/2026-npt-review-conference-stymied-disputes][commentary_act_2026_npt_revcon]
+- Joint War Committee. 2026. "Listed Areas." Lloyd's Market Association. [https://lmalloyds.com/specialist-areas/underwriting/listed-areas/][government_lma_2026_jwc_listed_areas]
+- The White House. 2023a. "The Spirit of Camp David: Joint Statement of Japan, the Republic of Korea, and the United States." The White House, August 18. [https://kr.usembassy.gov/081923-the-spirit-of-camp-david-joint-statement-of-japan-the-republic-of-korea-and-the-united-states/][government_us_2023_camp_david]
+- The White House. 2023b. "Washington Declaration." The White House, April 26. [https://kr.usembassy.gov/042723-washington-declaration/][government_us_2023_washington_declaration]
+- The White House. 2024. "The Wilmington Declaration: Joint Statement from the Leaders of Australia, India, Japan, and the United States." Statements and Releases, September 21. [https://bidenwhitehouse.archives.gov/briefing-room/statements-releases/2024/09/21/the-wilmington-declaration-joint-statement-from-the-leaders-of-australia-india-japan-and-the-united-states/][government_us_2024_wilmington_declaration]
+
+### General Sources
+
+- Nikkei staff writers. 2022. "\$2.6tn Could Evaporate from Global Economy in Taiwan Emergency: Sanctions against China Would Be a Double-Edged Sword." *Nikkei Asia*, August 22. [https://asia.nikkei.com/static/vdata/infographics/2-dot-6tn-dollars-could-evaporate-from-global-economy-in-taiwan-emergency/][commentary_nikkei_2022_taiwan_emergency]
+
+### Tertiary Sources
+
+- Tammen, Ronald L., Jacek Kugler, and Douglas Lemke. 2017. "Foundations of Power Transition Theory." In *Oxford Research Encyclopedia of Politics*. Oxford University PressNew York, NY. [https://doi.org/10.1093/acrefore/9780190228637.013.296][reference_tammen_2017_foundations]
+
+### Related Posts
+
+- Sechter, Brendan. 2026. "What Published Wargames Say About a War With China." *Brendan A R Sechter's Development Blog*, August 11. [https://sgeos.github.io/geopolitics/military/war-gaming/2026/08/11/published\_wargames\_of\_war\_with\_china.html][related_post_published_wargames]
+- Sechter, Brendan. 2026. "What Rebuilding Would Take After a War With China." *Brendan A R Sechter's Development Blog*, August 12. [https://sgeos.github.io/geopolitics/military/war-gaming/2026/08/12/rebuilding\_after\_war\_with\_china.html][related_post_rebuilding]
 
 [book_cooley_nexon_2020_exit_from_hegemony]: https://doi.org/10.1093/oso/9780190916473.001.0001
 [book_copeland_2018_origins_of_major_war]: https://doi.org/10.7591/9780801467059
 [book_gilpin_1981_war_and_change]: https://doi.org/10.1017/cbo9780511664267
 [book_henry_2022_reliability]: https://doi.org/10.1515/9781501763052
-[book_hymans_2006_psychology_of_proliferation]: https://doi.org/10.1017/CBO9780511491412
+[book_hymans_2006_psychology_of_proliferation]: https://doi.org/10.1017/cbo9780511491412
 [book_ikenberry_2019_after_victory]: https://doi.org/10.23943/princeton/9780691169217.001.0001
 [book_kennedy_1987_rise_and_fall]: https://archive.org/details/the-rise-and-fall-of-the-great-powers-economic-change-and-military-conflict-from-1500-to-2000
 [book_lake_2017_hierarchy]: https://doi.org/10.7591/9780801458934
@@ -4268,7 +4290,7 @@ and the thinness is the finding.
 [data_kinu_2023_unification_survey]: https://repo.kinu.or.kr/handle/2015.oak/14362
 [data_lowy_2025_asia_power_index]: https://power.lowyinstitute.org/
 [data_maddison_project_2023]: https://www.rug.nl/ggdc/historicaldevelopment/maddison/releases/maddison-project-database-2023
-[data_sipri_2026_milex]: https://doi.org/10.55163/ZLHQ1057
+[data_sipri_2026_milex]: https://doi.org/10.55163/zlhq1057
 [data_sipri_milex_database]: https://www.sipri.org/databases/milex
 [data_taiwan_moea_energy]: https://ea01.moeaea.gov.tw/a0303/02/en/publication/handbook/
 [data_treasury_debt_to_the_penny]: https://fiscaldata.treasury.gov/datasets/debt-to-the-penny/debt-to-the-penny
@@ -4292,7 +4314,7 @@ and the thinness is the finding.
 [government_eu_2022_strategic_compass]: https://data.consilium.europa.eu/doc/document/ST-7371-2022-INIT/en/pdf
 [government_frus_1952_japan_dollar_earnings]: https://history.state.gov/historicaldocuments/frus1952-54v14p2/d684
 [government_frus_1952_japan_procurement]: https://history.state.gov/historicaldocuments/frus1952-54v14p2/d646
-[government_imf_2026_china_article_iv]: https://doi.org/10.5089/9798229038911.002.A001
+[government_imf_2026_china_article_iv]: https://doi.org/10.5089/9798229038911.002.a001
 [government_japan_2022_nss]: https://www.cas.go.jp/jp/siryou/221216anzenhoshou/nss-e.pdf
 [government_japan_2025_plutonium]: https://www.aec.go.jp/bunya/04/plutonium/20250805_e.pdf
 [government_japan_2026_defense_budget]: https://www.mod.go.jp/en/d_act/d_budget/pdf/fy2026_20251226a.pdf
@@ -4318,7 +4340,7 @@ and the thinness is the finding.
 [journal_bolt_vanzanden_2024_maddison]: https://doi.org/10.1111/joes.12618
 [journal_boughton_2001_northwest_of_suez]: https://doi.org/10.2307/4621678
 [journal_boz_2022_invoicing_patterns]: https://doi.org/10.1016/j.jinteco.2022.103604
-[journal_brooks_wohlforth_2016_rise_and_fall]: https://doi.org/10.1162/ISEC_a_00225
+[journal_brooks_wohlforth_2016_rise_and_fall]: https://doi.org/10.1162/isec_a_00225
 [journal_burrows_2026_china_war_scenario]: https://doi.org/10.1353/tns.00028
 [journal_cancian_2025_states_of_denial]: https://doi.org/10.1080/00396338.2025.2481778
 [journal_carroll_kenkel_2019_prediction_proxies]: https://doi.org/10.1111/ajps.12442
@@ -4327,11 +4349,11 @@ and the thinness is the finding.
 [journal_chadefaux_2011_bargaining]: https://doi.org/10.1017/s175297191100008x
 [journal_chang_2016_developing_expert_judgment]: https://doi.org/10.1017/s1930297500004599
 [journal_chitu_2014_bond_markets]: https://doi.org/10.1016/j.jdeveco.2013.09.008
-[journal_christensen_snyder_1990_chain_gangs]: https://doi.org/10.1017/S0020818300035232
+[journal_christensen_snyder_1990_chain_gangs]: https://doi.org/10.1017/s0020818300035232
 [journal_cirillo_taleb_2016_tail_risk]: https://doi.org/10.1016/j.physa.2016.01.050
 [journal_clauset_2018_trends_fluctuations]: https://doi.org/10.1126/sciadv.aao3580
 [journal_collins_2018_maritime_oil_blockade]: https://digital-commons.usnwc.edu/nwc-review/vol71/iss2/6/
-[journal_cooley_nexon_2013_empire_compensate]: https://doi.org/10.1017/S1537592713002818
+[journal_cooley_nexon_2013_empire_compensate]: https://doi.org/10.1017/s1537592713002818
 [journal_cunningham_2026_escalate_to_survive]: https://doi.org/10.1162/isec.a.405
 [journal_davis_gholz_2026_blockade_by_fire]: https://doi.org/10.1162/isec.a.407
 [journal_davis_weinstein_2002_bones_bombs]: https://doi.org/10.1257/000282802762024502
@@ -4354,7 +4376,7 @@ and the thinness is the finding.
 [journal_gopinath_stein_2021_dominant_currency]: https://doi.org/10.1093/qje/qjaa036
 [journal_green_talmadge_2022]: https://doi.org/10.1162/isec_a_00437
 [journal_greitens_kardon_2025_security_without_exclusivity]: https://doi.org/10.1162/isec_a_00504
-[journal_grieco_1988_anarchy_limits]: https://doi.org/10.1017/S0020818300027715
+[journal_grieco_1988_anarchy_limits]: https://doi.org/10.1017/s0020818300027715
 [journal_grieco_powell_snidal_1993_relative_gains]: https://doi.org/10.2307/2938747
 [journal_hall_sargent_2011_interest_rate_risk]: https://doi.org/10.1257/mac.3.3.192
 [journal_henry_2020_what_allies_want]: https://doi.org/10.1162/isec_a_00375
@@ -4364,7 +4386,7 @@ and the thinness is the finding.
 [journal_ikenberry_nexon_2019_hegemony_studies]: https://doi.org/10.1080/09636412.2019.1604981
 [journal_ilzetzki_2020_euro_punching]: https://doi.org/10.1093/epolic/eiaa018
 [journal_kadera_sorokin_2004_measuring_national_power]: https://doi.org/10.1080/03050620490492097
-[journal_kang_ma_2018_power_transitions]: https://doi.org/10.1080/0163660X.2018.1445905
+[journal_kang_ma_2018_power_transitions]: https://doi.org/10.1080/0163660x.2018.1445905
 [journal_kitchen_cox_2019_structural_power]: https://doi.org/10.1080/09557571.2019.1606158
 [journal_kugler_arbetman_1989_phoenix]: https://doi.org/10.1177/0022002789033001004
 [journal_kuik_2008_essence_of_hedging]: https://doi.org/10.1355/cs30-2a
@@ -4403,7 +4425,7 @@ and the thinness is the finding.
 [journal_verschuur_2025_chokepoints]: https://doi.org/10.1038/s41467-025-65403-w
 [journal_von_hippel_2019_naval_propulsion]: https://doi.org/10.1080/25751654.2019.1625504
 [journal_walt_2025_hedging_hegemony]: https://doi.org/10.1162/isec_a_00508
-[journal_welch_2003_stop_reading_thucydides]: https://doi.org/10.1017/S0260210503003012
+[journal_welch_2003_stop_reading_thucydides]: https://doi.org/10.1017/s0260210503003012
 [reference_tammen_2017_foundations]: https://doi.org/10.1093/acrefore/9780190228637.013.296
 [related_post_published_wargames]: {% post_url 2026-08-11-published_wargames_of_war_with_china %}
 [related_post_rebuilding]: {% post_url 2026-08-12-rebuilding_after_war_with_china %}
@@ -4420,7 +4442,7 @@ and the thinness is the finding.
 [research_evans_2023_alternative_futures_v2]: https://www.rand.org/pubs/research_reports/RRA591-2.html
 [research_fariss_2017_latent_estimation]: https://arxiv.org/abs/1706.01099
 [research_goes_bekkers_2022_geopolitical_conflicts]: https://www.wto.org/english/res_e/reser_e/ersd202209_e.pdf
-[research_gompert_2016_war_with_china]: https://doi.org/10.7249/RR1140
+[research_gompert_2016_war_with_china]: https://doi.org/10.7249/rr1140
 [research_hall_sargent_2020_debt_and_taxes]: https://doi.org/10.3386/w27115
 [research_harrison_1998_economics_of_wwii]: https://warwick.ac.uk/fac/soc/economics/staff/mharrison/public/ww2overview1998.pdf
 [research_hohn_2014_geopolitics_measurement]: https://ediss.sub.uni-hamburg.de/handle/ediss/5238
@@ -4436,5 +4458,5 @@ and the thinness is the finding.
 [research_tarapore_2024_deterring_attack]: https://www.aspi.org.au/report/deterring-attack-taiwan-policy-options-india-and-other-non-belligerent-states/
 [research_tellis_2000_measuring_national_power]: https://doi.org/10.7249/mr1110
 [research_vest_kratz_2023_sanctioning_china]: https://www.atlanticcouncil.org/in-depth-research-reports/report/sanctioning-china-in-a-taiwan-crisis-scenarios-and-risks/
-[research_weiss_2022_geopolitics_dollar]: https://doi.org/10.17016/IFDP.2022.1359
-[research_weiss_2025_dedollarization]: https://doi.org/10.17016/IFDP.2025.1420
+[research_weiss_2022_geopolitics_dollar]: https://doi.org/10.17016/ifdp.2022.1359
+[research_weiss_2025_dedollarization]: https://doi.org/10.17016/ifdp.2025.1420

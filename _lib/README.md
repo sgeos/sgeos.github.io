@@ -115,6 +115,8 @@ own command line is the same command, so `python3 _lib/edits.py apply ...` also 
 | `python3 _lib/registry.py abstract DOI...`, `works` and `type` | Identifiers, or `@FILE` |
 | `python3 _lib/harvest.py harvest CONFIG`, `select`, `master` and `assemble` | `tmp/<article>/survey.toml`, the queries, rounds, anchors and clusters |
 | `python3 _lib/sources_import.py fetch-crossref`, `pin-wiki` and `import` | `_sources/decisions/<article>.toml`, the human decisions on titles, notes and corrections |
+| `python3 _lib/sources_import.py credit-venues` | `_sources/publishers.toml`, publishers' own statements of peer review, with quotes |
+| `python3 _lib/sources.py fix-labels POST` and `diff-labels PRE POST` | The article and its map in `_sources/articles/`, including link text that is not a label |
 | `python3 _lib/textscan.py ctx FILE REGEX` and `strip-wikitext` | A saved source file |
 | `python3 _lib/numcheck.py check CLAIMS.py [--inject]` | A claims file, one `Claim` per stated number, with its computation |
 | `python3 _lib/campaign.py status FILE` and `run FILE [--apply]` | A campaign file whose stages and gates are functions |

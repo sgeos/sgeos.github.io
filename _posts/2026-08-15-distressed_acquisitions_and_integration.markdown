@@ -54,7 +54,7 @@ against a policy view that treated it mainly as a strategic device with anticomp
 [Williamson 1971][research_williamson_1971].
 Klein, Crawford and Alchian connected integration to appropriable rents,
 the value that one party to a specialized relationship can capture from the other once investments are sunk
-[Klein, Crawford and Alchian 1978][research_klein_crawford_alchian_1978].
+[Klein et al. 1978][research_klein_crawford_alchian_1978].
 The resulting risk is known as the hold-up problem
 [Hold-up Problem][ref_hold_up_problem].
 
@@ -122,7 +122,7 @@ Several studies complicate the simple picture of integration as a way to secure 
 Atalay, Hortaçsu and Syverson find that roughly half of upstream establishments report no shipments to downstream establishments within the same firm.
 They argue that vertical ownership promotes transfers of intangible inputs,
 and they find that an acquired establishment begins to resemble its acquirer along several dimensions after the change of ownership
-[Atalay, Hortaçsu and Syverson 2014][research_atalay_hortacsu_syverson_2014].
+[Atalay et al. 2014][research_atalay_hortacsu_syverson_2014].
 In cement and ready-mixed concrete,
 Hortaçsu and Syverson see little sign that integration forecloses rivals.
 Prices fall and quantities rise as markets become more integrated,
@@ -134,7 +134,7 @@ are more likely to own the regional carriers that fly routes where adaptation de
 consistent with ownership economizing on renegotiation
 [Forbes and Lederman 2009][research_forbes_lederman_2009].
 Aghion, Griffith and Howitt report a U-shaped relation between product market competition and vertical integration
-[Aghion, Griffith and Howitt 2006][research_aghion_griffith_howitt_2006].
+[Aghion et al. 2006][research_aghion_griffith_howitt_2006].
 
 In one large sample the stock market rewarded vertical combinations.
 Fan and Goyal measure vertical relatedness with industry commodity flows for mergers completed from 1962 to 1996.
@@ -190,14 +190,14 @@ Andrade, Mitchell and Stafford report that merger activity clusters by industry,
 that deregulation accounted for nearly half of merger activity from the late 1980s,
 that the combined announcement return of the merging parties is positive over 1973 to 1998,
 and that operating performance improves after mergers relative to industry peers
-[Andrade, Mitchell and Stafford 2001][research_andrade_mitchell_stafford_2001].
+[Andrade et al. 2001][research_andrade_mitchell_stafford_2001].
 
 That the combined parties gain does not mean the acquirer does.
 Roll argues that bidders affected by hubris pay too much for their targets,
 and that the takeover record supports this explanation as much as it supports synergy, taxes or the replacement of inefficient management
 [Roll 1986][research_roll_1986].
 Betton, Eckbo and Thorburn survey the takeover literature as a whole
-[Betton, Eckbo and Thorburn 2008][research_betton_eckbo_thorburn_2008].
+[Betton et al. 2008][research_betton_eckbo_thorburn_2008].
 
 ## Why Distressed Assets Are Cheap
 
@@ -265,7 +265,7 @@ Acharya, Bharath and Srinivasan report that creditors of defaulted firms in the 
 recover significantly less when the defaulter's industry is in distress.
 The effect is strongest where assets are specific to the industry and the other firms in it are illiquid,
 which they interpret as a fire-sale effect rather than only an effect of the downturn
-[Acharya, Bharath and Srinivasan 2007][research_acharya_bharath_srinivasan_2007].
+[Acharya et al. 2007][research_acharya_bharath_srinivasan_2007].
 
 The way a firm is sold matters.
 In Swedish bankruptcy auctions,
@@ -290,7 +290,7 @@ such sales are countercyclical,
 more likely when financing a reorganization costs more than the financing available to a buyer,
 and more common with greater reliance on secured debt, but only for sales of going concerns.
 Overall creditor recoveries are higher for businesses sold as going concerns
-[Foroughi, Gilson, Hotchkiss and Waldock 2015][research_foroughi_2015].
+[Foroughi et al. 2015][research_foroughi_2015].
 
 Bankruptcy status itself appears to matter less than the state of the industry.
 Plant-level data lead Maksimovic and Phillips to conclude
@@ -303,7 +303,7 @@ Ma, Tong and Wang document that innovative firms in Chapter 11 sell their core p
 driven by secured creditors exercising control over collateralized patents,
 and that the patents sold diffuse more slowly under new ownership
 and are more likely to be bought by patent assertion entities
-[Ma, Tong and Wang 2021][research_ma_tong_wang_2021].
+[Ma et al. 2021][research_ma_tong_wang_2021].
 
 ### Buyers of Distressed Firms
 
@@ -341,14 +341,14 @@ The discount and the difficulty of repurposing tend to come together.
 
 **Acquirers redeploy in both directions.**
 Capron, Dussauge and Mitchell study how resources move between the target and the acquirer after horizontal acquisitions in Europe and North America
-[Capron, Dussauge and Mitchell 1998][research_capron_dussauge_mitchell_1998].
+[Capron et al. 1998][research_capron_dussauge_mitchell_1998].
 Using survey data on 253 horizontal acquisitions in manufacturing from 1988 to 1992,
 Capron finds that both asset divestiture and resource redeployment can contribute to acquisition performance,
 but that performance is at significant risk when the divested assets and redeployed resources are those of the target
 [Capron 1999][research_capron_1999].
 Capron, Mitchell and Swaminathan show that redeployment leads to divestiture from the business that receives the redeployed resources,
 and they interpret acquisition, redeployment and divestiture together as a process for reconfiguring a firm's resources
-[Capron, Mitchell and Swaminathan 2001][research_capron_mitchell_swaminathan_2001].
+[Capron et al. 2001][research_capron_mitchell_swaminathan_2001].
 In this evidence, redeployment is a common aftermath of an acquisition,
 and redeploying or divesting the target's own resources is its riskiest form.
 
@@ -359,7 +359,7 @@ and Barney argued that resources yield sustained advantage when they are valuabl
 [Barney 1991][research_barney_1991].
 Teece, Pisano and Shuen extended the view to dynamic capabilities,
 the capacity to reconfigure resources as conditions change
-[Teece, Pisano and Shuen 1997][research_teece_pisano_shuen_1997].
+[Teece et al. 1997][research_teece_pisano_shuen_1997].
 One criticism of the resource-based view is that it assumes resources simply exist,
 without investigating how key capabilities are acquired or developed
 [Resource-Based View][ref_resource_based_view],
@@ -375,7 +375,7 @@ Bidder shareholders gain when the target is a private firm or a subsidiary
 and lose when it is a public firm,
 and they interpret the pattern as consistent with a liquidity discount on targets that cannot easily be sold,
 together with tax and control effects
-[Fuller, Netter and Stegemoller 2002][research_fuller_netter_stegemoller_2002].
+[Fuller et al. 2002][research_fuller_netter_stegemoller_2002].
 This article reads that liquidity discount as the same mechanism as the fire sale,
 operating on private firms that have few buyers.
 
@@ -385,7 +385,7 @@ These firms deliver poor stock returns,
 and their operating performance matches comparable firms but does not justify their initial valuations.
 Performance improves when the owners and managers of the combined firms remain involved as shareholders and directors,
 and it worsens with higher ownership by the sponsor
-[Brown, Dittmar and Servaes 2004][research_brown_dittmar_servaes_2004].
+[Brown et al. 2004][research_brown_dittmar_servaes_2004].
 In that sample, the governance of the consolidation mattered to its success.
 
 ## Holding Liquidity for the Next Downturn
@@ -516,58 +516,71 @@ because the discount that makes the purchase cheap is largely the measure of how
 
 ## References
 
-- [Reference, Chapter 11, Title 11, United States Code, Wikipedia][ref_chapter_11]
-- [Reference, Hold-up Problem, Wikipedia][ref_hold_up_problem]
-- [Reference, Horizontal Integration, Wikipedia][ref_horizontal_integration]
-- [Reference, Resource-Based View, Wikipedia][ref_resource_based_view]
-- [Reference, Theory of the Firm, Wikipedia][ref_theory_of_the_firm]
-- [Reference, Vertical Integration, Wikipedia][ref_vertical_integration]
-- [Reference, Vulture Fund, Wikipedia][ref_vulture_fund]
-- [Related Post, What the Conglomerate Discount Measures][related_post_conglomerate_discount]
-- [Research, Acharya, Bharath and Srinivasan 2007, Does Industry-Wide Distress Affect Defaulted Firms? Evidence from Creditor Recoveries][research_acharya_bharath_srinivasan_2007]
-- [Research, Aghion, Griffith and Howitt 2006, Vertical Integration and Competition][research_aghion_griffith_howitt_2006]
-- [Research, Andrade, Mitchell and Stafford 2001, New Evidence and Perspectives on Mergers][research_andrade_mitchell_stafford_2001]
-- [Research, Atalay, Hortaçsu and Syverson 2014, Vertical Integration and Input Flows][research_atalay_hortacsu_syverson_2014]
-- [Research, Barney 1991, Firm Resources and Sustained Competitive Advantage][research_barney_1991]
-- [Research, Benmelech and Bergman 2009, Collateral Pricing][research_benmelech_bergman_2009]
-- [Research, Betton, Eckbo and Thorburn 2008, Corporate Takeovers][research_betton_eckbo_thorburn_2008]
-- [Research, Brown, Dittmar and Servaes 2004, Corporate Governance, Incentives, and Industry Consolidations][research_brown_dittmar_servaes_2004]
-- [Research, Capron 1999, The Long-Term Performance of Horizontal Acquisitions][research_capron_1999]
-- [Research, Capron, Dussauge and Mitchell 1998, Resource Redeployment Following Horizontal Acquisitions in Europe and North America][research_capron_dussauge_mitchell_1998]
-- [Research, Capron, Mitchell and Swaminathan 2001, Asset Divestiture Following Horizontal Acquisitions, A Dynamic View][research_capron_mitchell_swaminathan_2001]
-- [Research, Coase 1937, The Nature of the Firm][research_coase_1937]
-- [Research, Eckbo and Thorburn 2008, Automatic Bankruptcy Auctions and Fire-Sales][research_eckbo_thorburn_2008]
-- [Research, Fan and Goyal 2006, On the Patterns and Wealth Effects of Vertical Mergers][research_fan_goyal_2006]
-- [Research, Forbes and Lederman 2009, Adaptation and Vertical Integration in the Airline Industry][research_forbes_lederman_2009]
-- [Research, Foroughi, Gilson, Hotchkiss and Waldock 2015, Cashing Out, The Rise of M&A in Bankruptcy][research_foroughi_2015]
-- [Research, Fuller, Netter and Stegemoller 2002, What Do Returns to Acquiring Firms Tell Us? Evidence from Firms That Make Many Acquisitions][research_fuller_netter_stegemoller_2002]
-- [Research, Grossman and Hart 1986, The Costs and Benefits of Ownership, A Theory of Vertical and Lateral Integration][research_grossman_hart_1986]
-- [Research, Hart and Moore 1990, Property Rights and the Nature of the Firm][research_hart_moore_1990]
-- [Research, Hortaçsu and Syverson 2007, Cementing Relationships, Vertical Integration, Foreclosure, Productivity, and Prices][research_hortacsu_syverson_2007]
-- [Research, Hotchkiss and Mooradian 1997, Vulture Investors and the Market for Control of Distressed Firms][research_hotchkiss_mooradian_1997]
-- [Research, Jovanovic and Rousseau 2002, The Q-Theory of Mergers][research_jovanovic_rousseau_2002]
-- [Research, Kim and Kung 2016, The Asset Redeployability Channel, How Uncertainty Affects Corporate Investment][research_kim_kung_2016]
-- [Research, Klein, Crawford and Alchian 1978, Vertical Integration, Appropriable Rents, and the Competitive Contracting Process][research_klein_crawford_alchian_1978]
-- [Research, Lafontaine and Slade 2007, Vertical Integration and Firm Boundaries, The Evidence][research_lafontaine_slade_2007]
-- [Research, Ma, Tong and Wang 2021, Bankrupt Innovative Firms][research_ma_tong_wang_2021]
-- [Research, Maksimovic and Phillips 1998, Asset Efficiency and Reallocation Decisions of Bankrupt Firms][research_maksimovic_phillips_1998]
-- [Research, Maksimovic and Phillips 2001, The Market for Corporate Assets, Who Engages in Mergers and Asset Sales and Are There Efficiency Gains?][research_maksimovic_phillips_2001]
-- [Research, Pulvino 1998, Do Asset Fire Sales Exist? An Empirical Investigation of Commercial Aircraft Transactions][research_pulvino_1998]
-- [Research, Roll 1986, The Hubris Hypothesis of Corporate Takeovers][research_roll_1986]
-- [Research, Shleifer and Vishny 1992, Liquidation Values and Debt Capacity, A Market Equilibrium Approach][research_shleifer_vishny_1992]
-- [Research, Shleifer and Vishny 2011, Fire Sales in Finance and Macroeconomics][research_shleifer_vishny_2011]
-- [Research, Teece, Pisano and Shuen 1997, Dynamic Capabilities and Strategic Management][research_teece_pisano_shuen_1997]
-- [Research, Wernerfelt 1984, A Resource-Based View of the Firm][research_wernerfelt_1984]
-- [Research, Williamson 1971, The Vertical Integration of Production, Market Failure Considerations, Reprinted 1999][research_williamson_1971]
-- [Research, Williamson 1972, Economies as an Anti-Trust Defense, The Welfare Tradeoffs, Reprint][research_williamson_1972]
+<!-- References generated by _lib/sources.py from _sources/. Edit the database and regenerate. Do not edit this section by hand. -->
 
-[ref_chapter_11]: https://en.wikipedia.org/wiki/Chapter_11,_Title_11,_United_States_Code
-[ref_hold_up_problem]: https://en.wikipedia.org/wiki/Hold-up_problem
-[ref_horizontal_integration]: https://en.wikipedia.org/wiki/Horizontal_integration
-[ref_resource_based_view]: https://en.wikipedia.org/wiki/Resource-based_view
-[ref_theory_of_the_firm]: https://en.wikipedia.org/wiki/Theory_of_the_firm
-[ref_vertical_integration]: https://en.wikipedia.org/wiki/Vertical_integration
-[ref_vulture_fund]: https://en.wikipedia.org/wiki/Vulture_fund
+### Primary Sources, Peer-Reviewed
+
+- Acharya, Viral V., Sreedhar T. Bharath, and Anand Srinivasan. 2007. "Does Industry-Wide Distress Affect Defaulted Firms? Evidence from Creditor Recoveries." *Journal of Financial Economics* 85 (3): 787–821. [https://doi.org/10.1016/j.jfineco.2006.05.011][research_acharya_bharath_srinivasan_2007]
+- Benmelech, Efraim, and Nittai K. Bergman. 2009. "Collateral Pricing." *Journal of Financial Economics* 91 (3): 339–60. [https://doi.org/10.1016/j.jfineco.2008.03.003][research_benmelech_bergman_2009]
+- Capron, Laurence. 1999. "The Long-Term Performance of Horizontal Acquisitions." *Strategic Management Journal* 20 (11): 987–1018. [https://doi.org/10.1002/(sici)1097-0266(199911)20:11\<987::aid-smj61\>3.0.co;2-b][research_capron_1999]
+- Capron, Laurence, Pierre Dussauge, and Will Mitchell. 1998. "Resource Redeployment Following Horizontal Acquisitions in Europe and North America, 1988-1992." *Strategic Management Journal* 19 (7): 631–61. [https://doi.org/10.1002/(sici)1097-0266(199807)19:7\<631::aid-smj963\>3.0.co;2-9][research_capron_dussauge_mitchell_1998]
+- Capron, Laurence, Will Mitchell, and Anand Swaminathan. 2001. "Asset Divestiture Following Horizontal Acquisitions: A Dynamic View." *Strategic Management Journal* 22 (9): 817–44. [https://doi.org/10.1002/smj.175][research_capron_mitchell_swaminathan_2001]
+- Coase, R. H. 1937. "The Nature of the Firm." *Economica* 4 (16): 386–405. [https://doi.org/10.1111/j.1468-0335.1937.tb00002.x][research_coase_1937]
+- Eckbo, B. Espen, and Karin S. Thorburn. 2008. "Automatic Bankruptcy Auctions and Fire-Sales." *Journal of Financial Economics* 89 (3): 404–22. [https://doi.org/10.1016/j.jfineco.2007.10.003][research_eckbo_thorburn_2008]
+- Hotchkiss, Edith S., and Robert M. Mooradian. 1997. "Vulture Investors and the Market for Control of Distressed Firms." *Journal of Financial Economics* 43 (3): 401–32. [https://doi.org/10.1016/s0304-405x(96)00900-2][research_hotchkiss_mooradian_1997]
+- Teece, David J., Gary Pisano, and Amy Shuen. 1997. "Dynamic Capabilities and Strategic Management." *Strategic Management Journal* 18 (7): 509–33. [https://doi.org/10.1002/(sici)1097-0266(199708)18:7\<509::aid-smj882\>3.0.co;2-z][research_teece_pisano_shuen_1997]
+- Wernerfelt, Birger. 1984. "A Resource-Based View of the Firm." *Strategic Management Journal* 5 (2): 171–80. [https://doi.org/10.1002/smj.4250050207][research_wernerfelt_1984]
+
+### Primary Sources, Non-Peer-Reviewed
+
+- Aghion, Philippe, Rachel Griffith, and Peter Howitt. 2006. "Vertical Integration and Competition." *American Economic Review* 96 (2): 97–102. [https://doi.org/10.1257/000282806777211595][research_aghion_griffith_howitt_2006]
+- Andrade, Gregor, Mark Mitchell, and Erik Stafford. 2001. "New Evidence and Perspectives on Mergers." *Journal of Economic Perspectives* 15 (2): 103–20. [https://doi.org/10.1257/jep.15.2.103][research_andrade_mitchell_stafford_2001]
+- Atalay, Enghin, Ali Hortaçsu, and Chad Syverson. 2014. "Vertical Integration and Input Flows." *American Economic Review* 104 (4): 1120–48. [https://doi.org/10.1257/aer.104.4.1120][research_atalay_hortacsu_syverson_2014]
+- Barney, Jay. 1991. "Firm Resources and Sustained Competitive Advantage." *Journal of Management* 17 (1): 99–120. [https://doi.org/10.1177/014920639101700108][research_barney_1991]
+- Betton, Sandra, B. Espen Eckbo, and Karin S. Thorburn. 2008. "Corporate Takeovers\*\*Surveying the Vast Area of Corporate Takeovers Is a Daunting Task, and We Have Undoubtedly Missed Many Interesting Contributions. We Apologize to Those Who Feel Their Research Has Been Left out or Improperly Characterized, and Welcome Reactions and Comments. Some of the Material in Section 3 Is Also Found in Eckbo (2008)." In *Handbook of Empirical Corporate Finance*. Elsevier. [https://doi.org/10.1016/b978-0-444-53265-7.50007-x][research_betton_eckbo_thorburn_2008]
+- Brown, Keith C., Amy Dittmar, and Henri Servaes. 2004. "Corporate Governance, Incentives, and Industry Consolidations." *Review of Financial Studies* 18 (1): 241–70. [https://doi.org/10.1093/rfs/hhh009][research_brown_dittmar_servaes_2004]
+- Fan, Joseph P. H., and Vidhan K. Goyal. 2006. "On the Patterns and Wealth Effects of Vertical Mergers." *Journal of Business* 79 (2): 877–902. [https://doi.org/10.1086/499141][research_fan_goyal_2006]
+- Forbes, Silke Januszewski, and Mara Lederman. 2009. "Adaptation and Vertical Integration in the Airline Industry." *American Economic Review* 99 (5): 1831–49. [https://doi.org/10.1257/aer.99.5.1831][research_forbes_lederman_2009]
+- Foroughi, Pouyan, Stuart C. Gilson, Edith S. Hotchkiss, and Katherine Waldock. 2015. "Cashing Out: The Rise of M&A in Bankruptcy." Preprint, . [https://doi.org/10.2139/ssrn.2547168][research_foroughi_2015]
+- Fuller, Kathleen, Jeffry Netter, and Mike Stegemoller. 2002. "What Do Returns to Acquiring Firms Tell Us? Evidence from Firms That Make Many Acquisitions." *Journal of Finance* 57 (4): 1763–93. [https://doi.org/10.1111/1540-6261.00477][research_fuller_netter_stegemoller_2002]
+- Grossman, Sanford J., and Oliver D. Hart. 1986. "The Costs and Benefits of Ownership: A Theory of Vertical and Lateral Integration." *Journal of Political Economy* 94 (4): 691–719. [https://doi.org/10.1086/261404][research_grossman_hart_1986]
+- Hart, Oliver, and John Moore. 1990. "Property Rights and the Nature of the Firm." *Journal of Political Economy* 98 (6): 1119–58. [https://doi.org/10.1086/261729][research_hart_moore_1990]
+- Hortaçsu, Ali, and Chad Syverson. 2007. "Cementing Relationships: Vertical Integration, Foreclosure, Productivity, and Prices." *Journal of Political Economy* 115 (2): 250–301. [https://doi.org/10.1086/514347][research_hortacsu_syverson_2007]
+- Jovanovic, Boyan, and Peter L. Rousseau. 2002. "The Q-Theory of Mergers." *American Economic Review* 92 (2): 198–204. [https://doi.org/10.1257/000282802320189249][research_jovanovic_rousseau_2002]
+- Kim, Hyunseob, and Howard Kung. 2016. "The Asset Redeployability Channel: How Uncertainty Affects Corporate Investment." *Review of Financial Studies* 30 (1): 245–80. [https://doi.org/10.1093/rfs/hhv076][research_kim_kung_2016]
+- Klein, Benjamin, Robert G. Crawford, and Armen A. Alchian. 1978. "Vertical Integration, Appropriable Rents, and the Competitive Contracting Process." *Journal of Law and Economics* 21 (2): 297–326. [https://doi.org/10.1086/466922][research_klein_crawford_alchian_1978]
+- Lafontaine, Francine, and Margaret Slade. 2007. "Vertical Integration and Firm Boundaries: The Evidence." *Journal of Economic Literature* 45 (3): 629–85. [https://doi.org/10.1257/jel.45.3.629][research_lafontaine_slade_2007]
+- Ma, Song, Joy Tianjiao Tong, and Wei Wang. 2021. *Bankrupt Innovative Firms*. National Bureau of Economic Research. [https://doi.org/10.3386/w28856][research_ma_tong_wang_2021]
+- Maksimovic, Vojislav, and Gordon Phillips. 1998. "Asset Efficiency and Reallocation Decisions of Bankrupt Firms." *Journal of Finance* 53 (5): 1495–1532. [https://doi.org/10.1111/0022-1082.00063][research_maksimovic_phillips_1998]
+- Maksimovic, Vojislav, and Gordon Phillips. 2001. "The Market for Corporate Assets: Who Engages in Mergers and Asset Sales and Are There Efficiency Gains?" *Journal of Finance* 56 (6): 2019–65. [https://doi.org/10.1111/0022-1082.00398][research_maksimovic_phillips_2001]
+- Pulvino, Todd C. 1998. "Do Asset Fire Sales Exist? An Empirical Investigation of Commercial Aircraft Transactions." *Journal of Finance* 53 (3): 939–78. [https://doi.org/10.1111/0022-1082.00040][research_pulvino_1998]
+- Roll, Richard. 1986. "The Hubris Hypothesis of Corporate Takeovers." *Journal of Business* 59 (2): 197. [https://doi.org/10.1086/296325][research_roll_1986]
+- Shleifer, Andrei, and Robert W. Vishny. 1992. "Liquidation Values and Debt Capacity: A Market Equilibrium Approach." *Journal of Finance* 47 (4): 1343–66. [https://doi.org/10.1111/j.1540-6261.1992.tb04661.x][research_shleifer_vishny_1992]
+- Shleifer, Andrei, and Robert Vishny. 2011. "Fire Sales in Finance and Macroeconomics." *Journal of Economic Perspectives* 25 (1): 29–48. [https://doi.org/10.1257/jep.25.1.29][research_shleifer_vishny_2011]
+- Williamson, O. E. 1972. "Economies as an Anti-Trust Defense: The Welfare Tradeoffs." In *Readings in Industrial Economics*. Macmillan Education UK. [https://doi.org/10.1007/978-1-349-15486-9\_7][research_williamson_1972]
+- Williamson, Oliver E. (1971) 1999. "The Vertical Integration of Production Market Failure Considerations." In *Firms, Markets, And Hierarchies*. Oxford University PressNew York, NY. [https://doi.org/10.1093/oso/9780195119510.003.0002][research_williamson_1971]
+
+### Tertiary Sources
+
+- "Chapter 11, Title 11, United States Code." 2026. Wikipedia. Last modified September 9, at 19:07 (UTC). [https://en.wikipedia.org/w/index.php?title=Chapter\_11,\_Title\_11,\_United\_States\_Code&oldid=1374085130][ref_chapter_11]
+- "Hold-up Problem." 2026. Wikipedia. Last modified October 18, at 01:30 (UTC). [https://en.wikipedia.org/w/index.php?title=Hold-up\_problem&oldid=1380809520][ref_hold_up_problem]
+- "Horizontal Integration." 2026. Wikipedia. Last modified May 2, at 11:23 (UTC). [https://en.wikipedia.org/w/index.php?title=Horizontal\_integration&oldid=1352151930][ref_horizontal_integration]
+- "Resource-Based View." 2026. Wikipedia. Last modified September 3, at 02:26 (UTC). [https://en.wikipedia.org/w/index.php?title=Resource-based\_view&oldid=1372940236][ref_resource_based_view]
+- "Theory of the Firm." 2026. Wikipedia. Last modified October 15, at 03:26 (UTC). [https://en.wikipedia.org/w/index.php?title=Theory\_of\_the\_firm&oldid=1380337754][ref_theory_of_the_firm]
+- "Vertical Integration." 2026. Wikipedia. Last modified September 15, at 22:04 (UTC). [https://en.wikipedia.org/w/index.php?title=Vertical\_integration&oldid=1375102957][ref_vertical_integration]
+- "Vulture Fund." 2026. Wikipedia. Last modified June 7, at 10:40 (UTC). [https://en.wikipedia.org/w/index.php?title=Vulture\_fund&oldid=1358223598][ref_vulture_fund]
+
+### Related Posts
+
+- Sechter, Brendan. 2026. "What the Conglomerate Discount Measures." *Brendan A R Sechter's Development Blog*, August 14. [https://sgeos.github.io/business/economics/finance/2026/08/14/conglomerate\_discount.html][related_post_conglomerate_discount]
+
+[ref_chapter_11]: https://en.wikipedia.org/w/index.php?title=Chapter_11,_Title_11,_United_States_Code&oldid=1374085130
+[ref_hold_up_problem]: https://en.wikipedia.org/w/index.php?title=Hold-up_problem&oldid=1380809520
+[ref_horizontal_integration]: https://en.wikipedia.org/w/index.php?title=Horizontal_integration&oldid=1352151930
+[ref_resource_based_view]: https://en.wikipedia.org/w/index.php?title=Resource-based_view&oldid=1372940236
+[ref_theory_of_the_firm]: https://en.wikipedia.org/w/index.php?title=Theory_of_the_firm&oldid=1380337754
+[ref_vertical_integration]: https://en.wikipedia.org/w/index.php?title=Vertical_integration&oldid=1375102957
+[ref_vulture_fund]: https://en.wikipedia.org/w/index.php?title=Vulture_fund&oldid=1358223598
 [related_post_conglomerate_discount]: {% post_url 2026-08-14-conglomerate_discount %}
 [research_acharya_bharath_srinivasan_2007]: https://doi.org/10.1016/j.jfineco.2006.05.011
 [research_aghion_griffith_howitt_2006]: https://doi.org/10.1257/000282806777211595

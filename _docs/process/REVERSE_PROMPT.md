@@ -4,6 +4,54 @@
 
 ## Last Updated
 
+**Date**: 2026-10-24 (eighth entry)
+**Task**: **A369 to A379 converted to Chicago author-date from the source database, so all of A369 to A384 are converted. Pushed on the pilot's instruction.** The seventh entry's commit, `f0fd38b`, was pushed first.
+
+**Database.** 33,988 records and 11,648 venues, of which 7,424 are credited with peer review. The five reference surveys, A369 to A373, hold most of the records.
+
+| Article | Entries | Peer-reviewed | Non-peer-reviewed | Secondary | Commercial | General | Tertiary | Related | Label changes |
+|---|---|---|---|---|---|---|---|---|---|
+| A369 | 1,767 | 1,138 | 621 | 1 | 0 | 0 | 1 | 6 | 1 |
+| A370 | 2,001 | 1,120 | 876 | 2 | 0 | 0 | 0 | 3 | 1 |
+| A371 | 11,111 | 6,868 | 4,240 | 0 | 0 | 1 | 0 | 2 | 3 |
+| A372 | 6,048 | 3,357 | 2,687 | 1 | 0 | 0 | 0 | 3 | 3 |
+| A373 | 13,788 | 9,671 | 4,108 | 2 | 0 | 2 | 1 | 4 | 0 |
+| A374 | 111 | 6 | 80 | 2 | 8 | 12 | 0 | 3 | 5 |
+| A375 | 222 | 33 | 156 | 21 | 4 | 5 | 0 | 3 | 8 |
+| A376 | 202 | 21 | 153 | 18 | 6 | 1 | 1 | 2 | 0 |
+| A377 | 2,612 | 1,220 | 1,332 | 24 | 14 | 5 | 17 | 0 | 14 |
+| A378 | 62 | 23 | 34 | 0 | 0 | 0 | 5 | 0 | 0 |
+| A379 | 44 | 10 | 26 | 0 | 0 | 0 | 7 | 1 | 0 |
+
+**Prose changes are in-text labels only.** `diff-labels` against each pre-conversion copy finds no change outside link text and no link that leads anywhere new. The label changes are of four kinds.
+- **Year.** Crossref's `issued` year, the first publication, replaces a print year, as in Lin-Greenberg et al. 2022 to 2021 and Kastner 2015 to 2016. This is now a written house rule.
+- **Authors.** Three or more authors become "et al.", a reversed author order follows the registry, as in Leroy and Blazy 2008, and a name particle is kept, as in de Moura.
+- **Organisations.** A report credited to an organisation now names its authors where the page does, as in Vest et al. 2022 for the Rhodium Group, and an organisation is named in full.
+- **Short titles.** A377's untitled works are cited by the main title before any subtitle, cut to four words.
+
+**Tooling.**
+- Crossref is asked forty DOIs at a time, and a DOI it lacks is taken from OpenAlex.
+- A cited alias DOI is kept and the primary stored as `doi_primary`. Before this fix, fifteen links had silently changed target, and `diff-labels` now compares link targets as well as text.
+- Web sources are drafted from page metadata read once, with publisher judgements made once per host in `_sources/domains.toml`, 132 hosts.
+- `credit-venues` applies publishers' own statements of peer review from `_sources/publishers.toml`, ten entries of which two are series patterns, each with quotes.
+- `--refresh` rebuilds unannotated records when the importer changes.
+- Inline TeX, spaced footnote marks, designations in capitalised titles and titles in other languages are handled. Colliding short titles take year suffixes.
+
+**Regressions caught in already converted articles.** Rerunning the importer over A380 to A384 changed two titles in A382 for the worse. A footnote mark survived on Prša et al. 2016, and its title lost `IAU` and `B3` to recasing. Both are fixed, by importer and by decision. The same pass found two German titles in A377 given English capitals, also fixed.
+
+**Verification.** `test_sources.py` 73 of 73 and `test_lib.py` 165 of 165. `_verify.py --strict` 0 and 0. `./_check.sh --weights` passed over 551 pages. A373's page now weighs 6.9 MB, A371's 5.3 MB and A372's 2.9 MB. Their markdown grew by 42 to 44 percent and A369's by 76 percent, since Chicago entries are longer than legacy labels.
+
+**Inferences, not checked against the works.** Author order follows Crossref where it differs from the old label, as for Sweeney and Gil 1999. Online-first years are Crossref's.
+
+**Open.**
+- Eight web sources whose pages refused reading are built from their labels, and 69 registry records with no authors take the label's surnames. Each says so in its note.
+- The A377 Wikipedia pins are the revisions current when it was drafted, not verified copies.
+- The body survey entries of A369 to A373 keep their legacy format.
+- *Science*, *Astronomy & Astrophysics*, *Space Science Reviews*, *Acta Astronautica*, *Icarus* and *Planetary and Space Science* remain uncredited, and ACM's own policy pages could not be read.
+- The Unverified Chicago rules still need a check against the manual.
+
+## Previous Report (2026-10-24, seventh entry)
+
 **Date**: 2026-10-24 (seventh entry)
 **Task**: **A380 to A383 converted to Chicago author-date from the source database, joining A384. Committed, NOT pushed.** All five are live, so the push changes published pages and awaits the pilot's word.
 

@@ -1,0 +1,190 @@
+# Publisher-wide and society-wide peer review policies, each read from a source that speaks for the
+# venues it covers, and applied by `python3 _lib/sources_import.py credit-venues` to every uncredited
+# venue whose recorded publisher, or whose name, it matches. A venue with its own evidence keeps it.
+# Read 2026-10-24. Quotes from web pages come through a summarising fetch tool and may be fragments;
+# quotes from PDFs were extracted with pdftotext and are verbatim.
+
+[[publisher]]
+name = "IEEE"
+aliases = ["Institute of Electrical and Electronics Engineers (IEEE)", "IEEE Computer Society", "Institute of Electrical and Electronics Engineers", "IEEE Press"]
+journals = true
+proceedings = true
+reviewers = "at least two independent experts invited by the editor for journals; a Technical Program Committee of experts appointed by the program chair for conferences"
+basis = "IEEE's author centres state IEEE policy for its journals and require peer review of all its conference papers. The journals page names no exceptions and gives no list of titles."
+[[publisher.evidence]]
+url = "https://journals.ieeeauthorcenter.ieee.org/submit-your-article-for-peer-review/about-the-peer-review-process/"
+quote = "Reviewers are experts in the field who are independent of the authors and the editorial office."
+read = "2026-10-24"
+method = "fetched"
+[[publisher.evidence]]
+url = "https://journals.ieeeauthorcenter.ieee.org/submit-your-article-for-peer-review/about-the-peer-review-process/"
+quote = "The journal editor invites reviewers who are experts in your article's subject matter"
+read = "2026-10-24"
+method = "fetched"
+[[publisher.evidence]]
+url = "https://conferences.ieeeauthorcenter.ieee.org/understand-peer-review/"
+quote = "IEEE requires all conference papers go through the peer review process before publication."
+read = "2026-10-24"
+method = "fetched"
+[[publisher.evidence]]
+url = "https://conferences.ieeeauthorcenter.ieee.org/understand-peer-review/"
+quote = "Each IEEE Conference’s Technical Program Chair will appoint a Technical Program Committee."
+read = "2026-10-24"
+method = "fetched"
+
+[[publisher]]
+name = "Taylor & Francis"
+aliases = ["Informa UK Limited", "Taylor and Francis", "Informa UK Ltd", "Taylor & Francis Group"]
+journals = true
+proceedings = false
+reviewers = "independent experts in the field chosen by the editor"
+basis = "Taylor & Francis author services state that every full research article in its journals has been peer reviewed."
+[[publisher.evidence]]
+url = "https://authorservices.taylorandfrancis.com/publishing-your-research/peer-review/"
+quote = "Every full research article published in a Taylor & Francis journal has been through peer review"
+read = "2026-10-24"
+method = "fetched"
+[[publisher.evidence]]
+url = "https://authorservices.taylorandfrancis.com/publishing-your-research/peer-review/"
+quote = "the choice of who to invite to review is always the editor's decision."
+read = "2026-10-24"
+method = "fetched"
+
+[[publisher]]
+name = "Wiley"
+aliases = ["Wiley-Blackwell", "John Wiley & Sons", "John Wiley & Sons, Ltd", "Wiley Periodicals, Inc.", "Wiley-VCH", "Wiley Online Library"]
+journals = true
+proceedings = false
+reviewers = "reviewers selected for expertise and the absence of conflicts of interest"
+basis = "Wiley's ethics guidelines set over-arching peer-review standards for all its journals, with details on each journal's page."
+[[publisher.evidence]]
+url = "https://authors.wiley.com/ethics-guidelines/index.html"
+quote = "Reviewers are selected based on their expertise and a lack of any perceived potential conflicts of interest."
+read = "2026-10-24"
+method = "fetched"
+[[publisher.evidence]]
+url = "https://authors.wiley.com/ethics-guidelines/index.html"
+quote = "All journals should uphold these over-arching peer-review standards"
+read = "2026-10-24"
+method = "fetched"
+
+[[publisher]]
+name = "Frontiers"
+aliases = ["Frontiers Media SA", "Frontiers Media S.A."]
+journals = true
+proceedings = false
+reviewers = "expert reviewers invited by the handling editor, with no relationship to the authors"
+basis = "Frontiers' peer review guidelines; editorials, classifications and grand challenges are the stated exceptions, none a research article."
+[[publisher.evidence]]
+url = "https://www.frontiersin.org/guidelines/peer-review-guidelines"
+quote = "is accountable for inviting and overseeing expert reviewers."
+read = "2026-10-24"
+method = "fetched"
+[[publisher.evidence]]
+url = "https://www.frontiersin.org/guidelines/peer-review-guidelines"
+quote = "have no relationship to the authors and/or research that would affect the objectivity"
+read = "2026-10-24"
+method = "fetched"
+
+[[publisher]]
+name = "MDPI"
+aliases = ["MDPI AG"]
+journals = true
+proceedings = false
+reviewers = "at least two independent experts, organised by the editorial office"
+basis = "MDPI's peer review policy as MDPI submitted it to the Open Access Scholarly Publishing Association; mdpi.com refused automated reading."
+[[publisher.evidence]]
+url = "https://oaspa.org/member/mdpi-ag"
+quote = "All manuscripts sent for publication in our journals are strictly and thoroughly peer-reviewed by experts"
+read = "2026-10-24"
+method = "fetched"
+[[publisher.evidence]]
+url = "https://oaspa.org/member/mdpi-ag"
+quote = "The Editorial Office will then organize the peer-review process performed by independent experts"
+read = "2026-10-24"
+method = "fetched"
+
+[[publisher]]
+name = "SCITEPRESS"
+aliases = ["SCITEPRESS - Science and Technology Publications", "SciTePress - Science and and Technology Publications", "SCITEPRESS - Science and and Technology Publications"]
+journals = false
+proceedings = true
+reviewers = "reviewers nominated by each conference's Program Committee chairs"
+basis = "SCITEPRESS's publication ethics for all the proceedings it publishes."
+[[publisher.evidence]]
+url = "https://scitepress.org/EthicsOfPublication.aspx"
+quote = "Peer review is a standard procedure for proceedings publication at SCITEPRESS."
+read = "2026-10-24"
+method = "fetched"
+[[publisher.evidence]]
+url = "https://scitepress.org/EthicsOfPublication.aspx"
+quote = "are made by reviewers nominated by the Program Committee chairs of the respective conferences"
+read = "2026-10-24"
+method = "fetched"
+
+[[publisher]]
+name = "Elsevier"
+aliases = ["Elsevier BV", "Elsevier B.V.", "Elsevier Ltd", "Elsevier Inc."]
+journals = true
+proceedings = false
+reviewers = "at least two external, independent reviewers with suitable expertise, selected by the editor"
+basis = "Elsevier's publishing ethics, which apply to its primary research journals."
+[[publisher.evidence]]
+url = "https://www.elsevier.com/about/policies-and-standards/publishing-ethics"
+quote = "Research articles must typically be reviewed by at least two external and independent reviewers"
+read = "2026-10-24"
+method = "fetched"
+[[publisher.evidence]]
+url = "https://www.elsevier.com/about/policies-and-standards/publishing-ethics"
+quote = "The editor shall select reviewers who have suitable expertise in the relevant field."
+read = "2026-10-24"
+method = "fetched"
+
+[[publisher]]
+name = "Springer"
+aliases = ["Springer Science and Business Media LLC", "Springer Nature", "Springer-Verlag", "Springer Nature Switzerland", "Springer International Publishing", "Springer Berlin Heidelberg", "Springer US", "Springer Netherlands"]
+journals = true
+proceedings = false
+reviewers = "usually at least two independent expert reviewers selected by the editors"
+basis = "Springer's journal policies, under which all research articles in Springer journals undergo peer review."
+[[publisher.evidence]]
+url = "https://link.springer.com/brands/springer/journal-policies"
+quote = "Editors select peer reviewers primarily because of their in-depth knowledge"
+read = "2026-10-24"
+method = "fetched"
+[[publisher.evidence]]
+url = "https://link.springer.com/brands/springer/journal-policies"
+quote = "This usually involves review by at least two independent, expert peer reviewers."
+read = "2026-10-24"
+method = "fetched"
+
+[[publisher]]
+name = "Springer computer-science proceedings series"
+venue_pattern = '^(Lecture Notes in Computer Science|Lecture Notes in Artificial Intelligence|Lecture Notes in Bioinformatics|Communications in Computer and Information Science|IFIP Advances in Information and Communication Technology|Lecture Notes in Business Information Processing|Lecture Notes of the Institute for Computer Sciences, Social Informatics and Telecommunications Engineering)$'
+journals = false
+proceedings = true
+reviewers = "an international programme committee whose expertise matches the event, at least three reviewers per paper"
+basis = "Springer's guidelines for volume editors of these seven series, read from the PDF of 2026-10-06; other Springer proceedings are not covered."
+[[publisher.evidence]]
+url = "https://media.springernature.com/original/springer-cms/rest/v1/content/27852128/data/Guidelines%20for%20Volume%20Editors%20PDF"
+quote = "Program Committee whose expertise must match the focus of the event, a coherent set of topics of international relevance, and at least three reviewers per paper."
+read = "2026-10-24"
+method = "fetched"
+
+[[publisher]]
+name = "ACM SIGPLAN"
+venue_pattern = '\bSIGPLAN\b|^Proceedings of the ACM on Programming Languages$'
+journals = true
+proceedings = true
+reviewers = "reviewers with sufficient relevant expertise, bound by SIGPLAN's conflict of interest policy"
+basis = "SIGPLAN's conference submission review policy, which governs its conferences and the papers they publish in Proceedings of the ACM on Programming Languages. ACM's own policy pages refused automated reading."
+[[publisher.evidence]]
+url = "https://www.sigplan.org/Resources/Policies/Review/"
+quote = "SIGPLAN conferences should strive to ensure that every submission is reviewed by people with sufficient relevant expertise."
+read = "2026-10-24"
+method = "fetched"
+[[publisher.evidence]]
+url = "https://www.sigplan.org/Resources/Policies/Review/"
+quote = "If a conflict of interest exists, then the reviewer should decline to review a paper."
+read = "2026-10-24"
+method = "fetched"

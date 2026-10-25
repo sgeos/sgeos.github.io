@@ -1,0 +1,31 @@
+# Import decisions for A375. Registry caches and page metadata are scratch and are not tracked.
+article = "A375"
+crossref_cache = "tmp/sources/crossref"
+wiki_pins = "tmp/a375/sources/wiki_pins.json"
+web_metadata = ["tmp/web/meta1.json", "tmp/web/meta2.json", "tmp/web/meta3.json", "tmp/web/meta4.json", "tmp/web/meta5.json"]
+web_read = "2026-10-24"
+
+# Reviewed 2026-10-24 from the in-text labels that conversion changed.
+[fix.journal_bueno_de_mesquita_1992]
+note = "Crossref files Bueno with the given names; the family name is Bueno de Mesquita, as the article's label and the author's own publications have it."
+set = { authors = [ { family = "Bueno de Mesquita", given = "Bruce" }, { family = "Siverson", given = "Randolph M." }, { family = "Woller", given = "Gary" } ] }
+
+[fix.journal_fu_2024_human_cost_of_war]
+note = "Crossref files the given name Tse-min with the family name, as Tse-min Fu; the author is Ronan Tse-min Fu, family name Fu, as the article's label has it."
+set = { authors = [ { family = "Fu", given = "Ronan Tse-min" }, { family = "Yin", given = "Weiwen" }, { family = "Han", given = "Enze" } ] }
+
+[fix.journal_gao_2022_unjust_failed_transition]
+note = "Crossref files the given name Ming-Zhi with the family name, as Ming-Zhi Gao; the author is Anton Ming-Zhi Gao, family name Gao, as the article's label has it."
+set = { authors = [ { family = "Gao", given = "Anton Ming-Zhi" }, { family = "Yeh", given = "Tsung Kuang" }, { family = "Chen", given = "Jong-Shun" } ] }
+
+[fix.journal_mangold_2026_cultural_factors]
+note = "Crossref deposits the whole name, Marcel Mangold, as the family name."
+set = { authors = [ { family = "Mangold", given = "Marcel" } ] }
+
+[fix.research_nas_2025_nuclear_war_effects]
+note = "Crossref lists the study committee and the boards and division that oversaw it. The report's author is the National Academies of Sciences, Engineering, and Medicine, as the article's label has it."
+set = { authors = [ { name = "National Academies of Sciences, Engineering, and Medicine" } ] }
+
+[fix.journal_ferreira_critelli_2023_food_resiliency]
+note = "Crossref gives the second author's family name as the initial A.; the author is Jamie A. Critelli, as the article's label has it."
+set = { authors = [ { family = "Ferreira", given = "Gustavo F." }, { family = "Critelli", given = "Jamie A." } ] }

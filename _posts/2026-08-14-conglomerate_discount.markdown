@@ -67,12 +67,12 @@ and Berger and Ofek compared actual firm value with the sum of imputed stand-alo
 Both found a discount.
 Much of the later literature uses one of these measures or argues against it,
 and Hund, Monk and Tice describe the Berger and Ofek measure as widely used
-[Hund, Monk and Tice 2024][research_hund_monk_tice_2024].
+[Hund et al. 2024][research_hund_monk_tice_2024].
 Two surveys review the literature that followed,
 one published in 2003
 [Martin and Sayrak 2003][research_martin_sayrak_2003]
 and one in 2013
-[Erdorf, Hartmann-Wendels, Heinrichs and Matz 2013][research_erdorf_2013].
+[Erdorf et al. 2013][research_erdorf_2013].
 
 ## The Quantity of Interest Is a Counterfactual
 
@@ -217,7 +217,7 @@ Hund, Monk and Tice report that the Berger and Ofek procedure consistently match
 and that because valuation multiples decline with sales and age the procedure manufactures a discount.
 With matching on sales and age the return-weighted discount they estimate is zero,
 and they conclude that for most firms the discount is an artifact of the method
-[Hund, Monk and Tice 2024][research_hund_monk_tice_2024].
+[Hund et al. 2024][research_hund_monk_tice_2024].
 That is one recent paper and its conclusion is contested by the literature reviewed below,
 but the mechanism it identifies follows directly from the linearity of the measure.
 
@@ -275,7 +275,7 @@ Conglomerates are more acquisitive than focused firms,
 so their q is depressed for an accounting reason.
 Subtracting goodwill from book assets eliminates a substantial part of the q-based discount,
 while market-to-sales measures do not have this bias
-[Custódio 2014][research_custodio_2014].
+[CustÓDio 2014][research_custodio_2014].
 
 ## Why a Measured Discount Is Not Yet a Causal Effect
 
@@ -311,19 +311,19 @@ Graham, Lemmon and Wolf study several hundred firms that expand by acquisition o
 Much of the decline in excess value, by that account, occurs because the firms acquire business units that were already discounted,
 not because diversifying destroys value.
 Excess value, they add, does not fall when the number of reported segments rises only because of a change in reporting
-[Graham, Lemmon and Wolf 2002][research_graham_lemmon_wolf_2002].
+[Graham et al. 2002][research_graham_lemmon_wolf_2002].
 Villalonga matches diversifying and single-segment firms on their propensity to diversify
 and finds that on average diversification does not destroy value
 [Villalonga 2000][research_villalonga_2000].
 Chang, Kogut and Yang apply a selection correction to the discount on geographically diversified firms
 and report results that contradict the earlier finding
-[Chang, Kogut and Yang 2016][research_chang_kogut_yang_2016].
+[Chang et al. 2016][research_chang_kogut_yang_2016].
 
 The selection argument has not won outright.
 In the estimates of Ammann, Hoechle and Schmid the discount disappears in a Heckman selection model
 but remains statistically and economically significant once firm fixed effects are included,
 including within selection and instrumental-variable frameworks
-[Ammann, Hoechle and Schmid 2011][research_ammann_hoechle_schmid_2011].
+[Ammann et al. 2011][research_ammann_hoechle_schmid_2011].
 Eulerich and Fligge study about 6,000 German firm-years from 2000 to 2019
 and measure a discount of 7.9 to 11.5 percent.
 They report that design choices related to self-selection have the largest effect on the result,
@@ -382,7 +382,7 @@ and mainly equity-financed firms show no discount
 [Glaser and Müller 2010][research_glaser_muller_2010].
 Ammann, Hoechle and Schmid also find that the discount rises with leverage and is absent for all-equity firms,
 but conclude that using an imputed market value of debt reduces the discount only by a small fraction
-[Ammann, Hoechle and Schmid 2011][research_ammann_hoechle_schmid_2011].
+[Ammann et al. 2011][research_ammann_hoechle_schmid_2011].
 The worked example shows why the direct correction can be small.
 Raising the debt of the hypothetical firm from its book value of 3,500 to a market value of 3,700
 moves the sales-based excess value from $-0.1655$ to $\ln(10{,}200 / 11{,}800) = -0.1457$,
@@ -424,7 +424,7 @@ and the paper reads the pattern as efficient transfers from low-productivity to 
 Hann, Ogneva and Ozbas estimate that diversified firms have on average a lower cost of capital than comparable portfolios of stand-alone firms,
 with a larger benefit when segment cash flows are less correlated,
 which is consistent with the coinsurance argument
-[Hann, Ogneva and Ozbas 2013][research_hann_ogneva_ozbas_2013].
+[Hann et al. 2013][research_hann_ogneva_ozbas_2013].
 During recessions, according to Dimitrov and Tice,
 the sales and inventories of bank-dependent focused firms fall more
 than those of comparable segments of bank-dependent diversified firms,
@@ -443,7 +443,7 @@ funds flow from poor opportunities to good ones,
 but as diversity in resources and opportunities grows,
 funds can flow toward the least efficient division.
 They report evidence consistent with this in a panel of diversified United States firms from 1980 to 1993
-[Rajan, Servaes and Zingales 2000][research_rajan_servaes_zingales_2000].
+[Rajan et al. 2000][research_rajan_servaes_zingales_2000].
 Shin and Stulz show that a segment's investment depends on the cash flow of the firm's other segments,
 and that this sensitivity does not depend on whether the segment's investment opportunities are better than the others'
 [Shin and Stulz 1998][research_shin_stulz_1998].
@@ -471,11 +471,11 @@ concluding that the discount is at least partly a real loss and not only an arti
 Denis, Denis and Sarin report that diversification falls as managerial and blockholder ownership rises,
 and that firms refocus after control threats, financial distress and management turnover.
 They read this as evidence that agency problems sustain value-reducing diversification
-[Denis, Denis and Sarin 1997][research_denis_denis_sarin_1997].
+[Denis et al. 1997][research_denis_denis_sarin_1997].
 Hoechle, Schmid, Walter and Yermack find that adding governance variables narrows the discount by 16 to 21 percent in panel models
 and by 37 percent in dynamic panel models,
 in which the discount nonetheless remains negative and significant
-[Hoechle, Schmid, Walter and Yermack 2012][research_hoechle_2012].
+[Hoechle et al. 2012][research_hoechle_2012].
 
 **Models in which a discount is consistent with value maximization.**
 A discount does not by itself show that managers are destroying value.
@@ -533,7 +533,7 @@ and when short sales are constrained greater disagreement raises prices,
 so pure-play firms can trade above conglomerates for this reason alone.
 Empirically, conglomerates show less disagreement among investors and fewer short-sale constraints than pure plays,
 and both measures predict valuation differences
-[Reed, Saffi and Van Wesep 2021][research_reed_saffi_van_wesep_2021].
+[Reed et al. 2021][research_reed_saffi_van_wesep_2021].
 For banks, Bressan and Weissensteiner relate the financial conglomerate discount to lower skewness in returns
 and to the higher expected returns that investors demand for it
 [Bressan and Weissensteiner 2021][research_bressan_weissensteiner_2021].
@@ -556,7 +556,7 @@ in contrast to the lines of business of conglomerates in the United States
 [Khanna and Palepu 2000][research_khanna_palepu_2000].
 A 2011 study in a practitioner journal reports conglomerate multiples about 10 percent below those of pure-play peers in North America and Western Europe,
 and premiums in Japan and Latin America
-[Khorana, Shivdasani, Stendevad and Sanzhar 2011][research_khorana_2011].
+[Khorana et al. 2011][research_khorana_2011].
 
 The discount also moves over time.
 Servaes documents its fall from large to zero between the 1960s and the 1970s
@@ -569,7 +569,7 @@ Doerr, Marin, Suverato and Verdier model international competition as a discipli
 that improves capital allocation and lowers the discount,
 confirm the prediction with the import shock from China,
 and use it to explain why exporters show a smaller discount than non-exporters
-[Doerr, Marin, Suverato and Verdier 2025][research_doerr_2025].
+[Doerr et al. 2025][research_doerr_2025].
 
 Industry structure matters too.
 In the data of Santalo and Becerra, diversified firms perform better in industries with few specialized competitors
@@ -608,7 +608,7 @@ The long-run evidence is weaker than it once appeared.
 Cusatis, Miles and Woolridge report positive abnormal returns for spun-off firms, their parents and the combinations,
 but the abnormal performance is confined to firms involved in takeovers,
 which suggests that the spin-off works by making a transfer of control cheaper
-[Cusatis, Miles and Woolridge 1993][research_cusatis_miles_woolridge_1993].
+[Cusatis et al. 1993][research_cusatis_miles_woolridge_1993].
 Veld and Veld-Merkoulova note that later studies with more refined statistical tests no longer find the long-run superior performance that early studies reported
 [Veld and Veld-Merkoulova 2009][research_veld_2009].
 
@@ -636,7 +636,7 @@ and record that their boundaries are management's choice.
 choose a peer set of focused listed firms,
 and match on size and age as well as industry,
 since Hund, Monk and Tice find that matching on industry alone biases the result
-[Hund, Monk and Tice 2024][research_hund_monk_tice_2024].
+[Hund et al. 2024][research_hund_monk_tice_2024].
 3. Compute the imputed value on more than one base,
 such as sales, assets and operating earnings,
 and report the range rather than a single figure.
@@ -644,7 +644,7 @@ and report the range rather than a single figure.
 and state the leverage of the firm,
 since several studies find the discount concentrated in levered firms
 [Mansi and Reeb 2002][research_mansi_reeb_2002]
-[Ammann, Hoechle and Schmid 2011][research_ammann_hoechle_schmid_2011].
+[Ammann et al. 2011][research_ammann_hoechle_schmid_2011].
 5. Subtract the cost of the headquarters and any shared services that the stand-alone firms would have to duplicate,
 and add any tax benefits or financing advantages they would lose,
 since the imputed value otherwise assumes these are zero.
@@ -743,86 +743,96 @@ and spin-off evidence does not show that a breakup reliably recovers it.
 
 ## References
 
-- [Reference, Conglomerate Discount, Wikipedia][ref_conglomerate_discount]
-- [Reference, Conglomerate, Wikipedia][ref_conglomerate_company]
-- [Reference, Corporate Spin-off, Wikipedia][ref_corporate_spin_off]
-- [Reference, Sum-of-the-Parts Analysis, Wikipedia][ref_sum_of_the_parts]
-- [Reference, Tobin's q, Wikipedia][ref_tobins_q]
-- [Research, Altieri and Nicodano 2023, Survival and Value, The Conglomerate Case][research_altieri_nicodano_2023]
-- [Research, Ammann, Hoechle and Schmid 2011, Is There Really No Conglomerate Discount?][research_ammann_hoechle_schmid_2011]
-- [Research, Anjos and Fracassi 2018, Technological Specialization and the Decline of Diversified Firms][research_anjos_fracassi_2018]
-- [Research, Berger and Hann 2003, The Impact of SFAS No. 131 on Information and Monitoring][research_berger_hann_2003]
-- [Research, Berger and Ofek 1995, Diversification's Effect on Firm Value][research_berger_ofek_1995]
-- [Research, Bressan and Weissensteiner 2021, The Financial Conglomerate Discount, Insights from Stock Return Skewness][research_bressan_weissensteiner_2021]
-- [Research, Burch and Nanda 2003, Divisional Diversity and the Conglomerate Discount, Evidence from Spinoffs][research_burch_nanda_2003]
-- [Research, Campa and Kedia 2002, Explaining the Diversification Discount][research_campa_kedia_2002]
-- [Research, Chang, Kogut and Yang 2016, Global Diversification Discount and Its Discontents][research_chang_kogut_yang_2016]
-- [Research, Chen and Chen 2011, Inefficient Investment and the Diversification Discount, Evidence from Corporate Asset Purchases][research_chen_chen_2011]
-- [Research, Comment and Jarrell 1995, Corporate Focus and Stock Returns][research_comment_jarrell_1995]
-- [Research, Cusatis, Miles and Woolridge 1993, Restructuring Through Spinoffs][research_cusatis_miles_woolridge_1993]
-- [Research, Custódio 2014, Mergers and Acquisitions Accounting and the Diversification Discount][research_custodio_2014]
-- [Research, Denis, Denis and Sarin 1997, Agency Problems, Equity Ownership, and Corporate Diversification][research_denis_denis_sarin_1997]
-- [Research, Desai and Jain 1999, Firm Performance and Focus, Long-Run Stock Market Performance Following Spinoffs][research_desai_jain_1999]
-- [Research, Dimitrov and Tice 2006, Corporate Diversification and Credit Constraints, Real Effects Across the Business Cycle][research_dimitrov_tice_2006]
-- [Research, Doerr, Marin, Suverato and Verdier 2025, International Trade and the Allocation of Capital Within Firms][research_doerr_2025]
-- [Research, Duchin 2010, Cash Holdings and Corporate Diversification][research_duchin_2010]
-- [Research, Erdorf, Hartmann-Wendels, Heinrichs and Matz 2013, Corporate Diversification and Firm Value, A Survey of Recent Literature][research_erdorf_2013]
-- [Research, Eulerich and Fligge 2024, Reevaluating the Conglomerate Discount in Germany, The Role of Design Choices][research_eulerich_fligge_2024]
-- [Research, Glaser and Müller 2010, Is the Diversification Discount Caused by the Book Value Bias of Debt?][research_glaser_muller_2010]
-- [Research, Gomes and Livdan 2004, Optimal Diversification, Reconciling Theory and Evidence][research_gomes_livdan_2004]
-- [Research, Graham, Lemmon and Wolf 2002, Does Corporate Diversification Destroy Value?][research_graham_lemmon_wolf_2002]
-- [Research, Hann, Ogneva and Ozbas 2013, Corporate Diversification and the Cost of Capital][research_hann_ogneva_ozbas_2013]
-- [Research, He 2009, Corporate Diversification and Firm Value, Evidence from Post-1997 Data][research_he_2009]
-- [Research, Hoechle, Schmid, Walter and Yermack 2012, How Much of the Diversification Discount Can Be Explained by Poor Corporate Governance?][research_hoechle_2012]
-- [Research, Hund, Monk and Tice 2024, The Berger and Ofek Diversification Discount Is Just Poor Firm Matching][research_hund_monk_tice_2024]
-- [Research, Khanna and Palepu 2000, Is Group Affiliation Profitable in Emerging Markets?][research_khanna_palepu_2000]
-- [Research, Khorana, Shivdasani, Stendevad and Sanzhar 2011, Spin-offs, Tackling the Conglomerate Discount][research_khorana_2011]
-- [Research, Kisgen and Kong 2022, Cross-Subsidization in Conglomerate Firms, Evidence from Government Spending Shocks][research_kisgen_kong_2022]
-- [Research, Kuppuswamy and Villalonga 2016, Does Diversification Create Value in the Presence of External Financing Constraints?][research_kuppuswamy_villalonga_2016]
-- [Research, Laeven and Levine 2007, Is There a Diversification Discount in Financial Conglomerates?][research_laeven_levine_2007]
-- [Research, Lamont 1997, Cash Flow and Investment, Evidence from Internal Capital Markets][research_lamont_1997]
-- [Research, Lamont and Polk 2001, The Diversification Discount, Cash Flows Versus Returns][research_lamont_polk_2001]
-- [Research, Lamont and Polk 2002, Does Diversification Destroy Value? Evidence from the Industry Shocks][research_lamont_polk_2002]
-- [Research, Lang and Stulz 1994, Tobin's q, Corporate Diversification, and Firm Performance][research_lang_stulz_1994]
-- [Research, Lewellen 1971, A Pure Financial Rationale for the Conglomerate Merger][research_lewellen_1971]
-- [Research, Lins and Servaes 1999, International Evidence on the Value of Corporate Diversification][research_lins_servaes_1999]
-- [Research, Lins and Servaes 2002, Is Corporate Diversification Beneficial in Emerging Markets?][research_lins_servaes_2002]
-- [Research, Maksimovic and Phillips 2002, Do Conglomerate Firms Allocate Resources Inefficiently Across Industries?][research_maksimovic_phillips_2002]
-- [Research, Mansi and Reeb 2002, Corporate Diversification, What Gets Discounted?][research_mansi_reeb_2002]
-- [Research, Martin and Sayrak 2003, Corporate Diversification and Shareholder Value, A Survey of Recent Literature][research_martin_sayrak_2003]
-- [Research, Matsusaka 2001, Corporate Diversification, Value Maximization, and Organizational Capabilities][research_matsusaka_2001]
-- [Research, Onali and Ye 2025, Corporate Diversification and Debt Maturity][research_onali_ye_2025]
-- [Research, Ozbas and Scharfstein 2009, Evidence on the Dark Side of Internal Capital Markets][research_ozbas_scharfstein_2009]
-- [Research, Rajan, Servaes and Zingales 2000, The Cost of Diversity, The Diversification Discount and Inefficient Investment][research_rajan_servaes_zingales_2000]
-- [Research, Reed, Saffi and Van Wesep 2021, Short-Sales Constraints and the Diversification Puzzle][research_reed_saffi_van_wesep_2021]
-- [Research, Rudolph and Schwetzler 2013, Conglomerates on the Rise Again? The Impact of the 2008 to 2009 Financial Crisis on the Diversification Discount][research_rudolph_schwetzler_2013]
-- [Research, Santalo and Becerra 2008, Competition from Specialized Firms and the Diversification and Performance Linkage][research_santalo_becerra_2008]
-- [Research, Scharfstein and Stein 2000, The Dark Side of Internal Capital Markets, Divisional Rent-Seeking and Inefficient Investment][research_scharfstein_stein_2000]
-- [Research, Servaes 1996, The Value of Diversification During the Conglomerate Merger Wave][research_servaes_1996]
-- [Research, Shin and Stulz 1998, Are Internal Capital Markets Efficient?][research_shin_stulz_1998]
-- [Research, Stein 1997, Internal Capital Markets and the Competition for Corporate Resources][research_stein_1997]
-- [Research, Veld and Veld-Merkoulova 2009, Value Creation Through Spin-offs, A Review of the Empirical Evidence][research_veld_2009]
-- [Research, Villalonga 2000, Does Diversification Cause the Diversification Discount?][research_villalonga_2000]
-- [Research, Villalonga 2004, Diversification Discount or Premium? New Evidence from the Business Information Tracking Series][research_villalonga_2004]
-- [Research, Whited 2001, Is It Inefficient Investment that Causes the Diversification Discount?][research_whited_2001]
+<!-- References generated by _lib/sources.py from _sources/. Edit the database and regenerate. Do not edit this section by hand. -->
 
-[ref_conglomerate_company]: https://en.wikipedia.org/wiki/Conglomerate_(company)
-[ref_conglomerate_discount]: https://en.wikipedia.org/wiki/Conglomerate_discount
-[ref_corporate_spin_off]: https://en.wikipedia.org/wiki/Corporate_spin-off
-[ref_sum_of_the_parts]: https://en.wikipedia.org/wiki/Sum-of-the-parts_analysis
-[ref_tobins_q]: https://en.wikipedia.org/wiki/Tobin%27s_q
+### Primary Sources, Peer-Reviewed
+
+- Altieri, Michela, and Giovanna Nicodano. 2023. "Survival and Value: The Conglomerate Case." *European Financial Management* 30 (3): 1305–43. [https://doi.org/10.1111/eufm.12442][research_altieri_nicodano_2023]
+- Ammann, Manuel, Daniel Hoechle, and Markus Schmid. 2011. "Is There Really No Conglomerate Discount?" *Journal of Business Finance & Accounting* 39 (1–2): 264–88. [https://doi.org/10.1111/j.1468-5957.2011.02261.x][research_ammann_hoechle_schmid_2011]
+- Berger, Philip G., and Rebecca Hann. 2003. "The Impact of SFAS No. 131 on Information and Monitoring." *Journal of Accounting Research* 41 (2): 163–223. [https://doi.org/10.1111/1475-679x.00100][research_berger_hann_2003]
+- Berger, Philip G., and Eli Ofek. 1995. "Diversification's Effect on Firm Value." *Journal of Financial Economics* 37 (1): 39–65. [https://doi.org/10.1016/0304-405x(94)00798-6][research_berger_ofek_1995]
+- Bressan, Silvia, and Alex Weissensteiner. 2021. "The Financial Conglomerate Discount: Insights from Stock Return Skewness." *International Review of Financial Analysis* 74: 101662. [https://doi.org/10.1016/j.irfa.2021.101662][research_bressan_weissensteiner_2021]
+- Burch, Timothy R., and Vikram Nanda. 2003. "Divisional Diversity and the Conglomerate Discount: Evidence from Spinoffs." *Journal of Financial Economics* 70 (1): 69–98. [https://doi.org/10.1016/s0304-405x(03)00142-9][research_burch_nanda_2003]
+- Chang, Sungyong, Bruce Kogut, and Jae-Suk Yang. 2016. "Global Diversification Discount and Its Discontents: A Bit of Self-Selection Makes a World of Difference." *Strategic Management Journal* 37 (11): 2254–74. [https://doi.org/10.1002/smj.2574][research_chang_kogut_yang_2016]
+- Chen, Sheng-Syan, and I-Ju Chen. 2011. "Inefficient Investment and the Diversification Discount: Evidence from Corporate Asset Purchases." *Journal of Business Finance & Accounting* 38 (7–8): 887–914. [https://doi.org/10.1111/j.1468-5957.2011.02251.x][research_chen_chen_2011]
+- Comment, Robert, and Gregg A. Jarrell. 1995. "Corporate Focus and Stock Returns." *Journal of Financial Economics* 37 (1): 67–87. [https://doi.org/10.1016/0304-405x(94)00777-x][research_comment_jarrell_1995]
+- Cusatis, Patrick J., James A. Miles, and J. Randall Woolridge. 1993. "Restructuring through Spinoffs." *Journal of Financial Economics* 33 (3): 293–311. [https://doi.org/10.1016/0304-405x(93)90009-z][research_cusatis_miles_woolridge_1993]
+- Desai, Hemang, and Prem C. Jain. 1999. "Firm Performance and Focus: Long-Run Stock Market Performance Following Spinoffs." *Journal of Financial Economics* 54 (1): 75–101. [https://doi.org/10.1016/s0304-405x(99)00032-x][research_desai_jain_1999]
+- Doerr, S., D. Marin, D. Suverato, and T. Verdier. 2025. "International Trade and the Allocation of Capital within Firms." *Journal of International Economics* 153: 104023. [https://doi.org/10.1016/j.jinteco.2024.104023][research_doerr_2025]
+- Erdorf, Stefan, Thomas Hartmann-Wendels, Nicolas Heinrichs, and Michael Matz. 2013. "Corporate Diversification and Firm Value: A Survey of Recent Literature." *Financial Markets and Portfolio Management* 27 (2): 187–215. [https://doi.org/10.1007/s11408-013-0209-6][research_erdorf_2013]
+- Eulerich, Marc, and Benjamin Fligge. 2024. "Reevaluating the Conglomerate Discount in Germany: The Role of Design Choices." *Journal of Business Economics* 95 (1): 155–85. [https://doi.org/10.1007/s11573-023-01188-y][research_eulerich_fligge_2024]
+- Glaser, Markus, and Sebastian Müller. 2010. "Is the Diversification Discount Caused by the Book Value Bias of Debt?" *Journal of Banking & Finance* 34 (10): 2307–17. [https://doi.org/10.1016/j.jbankfin.2010.02.017][research_glaser_muller_2010]
+- He, Xi. 2009. "Corporate Diversification and Firm Value: Evidence from Post-1997 Data." *International Review of Finance* 9 (4): 359–85. [https://doi.org/10.1111/j.1468-2443.2009.01096.x][research_he_2009]
+- Hoechle, Daniel, Markus Schmid, Ingo Walter, and David Yermack. 2012. "How Much of the Diversification Discount Can Be Explained by Poor Corporate Governance?" *Journal of Financial Economics* 103 (1): 41–60. [https://doi.org/10.1016/j.jfineco.2011.03.025][research_hoechle_2012]
+- Laeven, Luc, and Ross Levine. 2007. "Is There a Diversification Discount in Financial Conglomerates?" *Journal of Financial Economics* 85 (2): 331–67. [https://doi.org/10.1016/j.jfineco.2005.06.001][research_laeven_levine_2007]
+- Lamont, Owen A., and Christopher Polk. 2002. "Does Diversification Destroy Value? Evidence from the Industry Shocks." *Journal of Financial Economics* 63 (1): 51–77. [https://doi.org/10.1016/s0304-405x(01)00089-7][research_lamont_polk_2002]
+- Lins, Karl V., and Henri Servaes. 2002. "Is Corporate Diversification Beneficial in Emerging Markets?" *Financial Management* 31 (2): 5. [https://doi.org/10.2307/3666220][research_lins_servaes_2002]
+- Martin, John D., and Akin Sayrak. 2003. "Corporate Diversification and Shareholder Value: A Survey of Recent Literature." *Journal of Corporate Finance* 9 (1): 37–57. [https://doi.org/10.1016/s0929-1199(01)00053-0][research_martin_sayrak_2003]
+- Rudolph, Christin, and Bernhard Schwetzler. 2013. "Conglomerates on the Rise Again? A Cross-Regional Study on the Impact of the 2008–2009 Financial Crisis on the Diversification Discount." *Journal of Corporate Finance* 22: 153–65. [https://doi.org/10.1016/j.jcorpfin.2013.04.006][research_rudolph_schwetzler_2013]
+- Veld, Chris, and Yulia V. Veld-Merkoulova. 2009. "Value Creation through Spin-Offs: A Review of the Empirical Evidence." *International Journal of Management Reviews* 11 (4): 407–20. [https://doi.org/10.1111/j.1468-2370.2008.00243.x][research_veld_2009]
+
+### Primary Sources, Non-Peer-Reviewed
+
+- Anjos, Fernando, and Cesare Fracassi. 2018. "Technological Specialization and the Decline of Diversified Firms." *Journal of Financial and Quantitative Analysis* 53 (4): 1581–1614. [https://doi.org/10.1017/s0022109018000583][research_anjos_fracassi_2018]
+- Campa, Jose Manuel, and Simi Kedia. 2002. "Explaining the Diversification Discount." *Journal of Finance* 57 (4): 1731–62. [https://doi.org/10.1111/1540-6261.00476][research_campa_kedia_2002]
+- CustÓDio, CLÁUDIA. 2014. "Mergers and Acquisitions Accounting and the Diversification Discount." *Journal of Finance* 69 (1): 219–40. [https://doi.org/10.1111/jofi.12108][research_custodio_2014]
+- Denis, David J., Diane K. Denis, and Atulya Sarin. 1997. "Agency Problems, Equity Ownership, and Corporate Diversification." *Journal of Finance* 52 (1): 135–60. [https://doi.org/10.1111/j.1540-6261.1997.tb03811.x][research_denis_denis_sarin_1997]
+- Dimitrov, Valentin, and Sheri Tice. 2006. "Corporate Diversification and Credit Constraints: Real Effects across the Business Cycle." *Review of Financial Studies* 19 (4): 1465–98. [https://doi.org/10.1093/rfs/hhj028][research_dimitrov_tice_2006]
+- Duchin, Ran. 2010. "Cash Holdings and Corporate Diversification." *Journal of Finance* 65 (3): 955–92. [https://doi.org/10.1111/j.1540-6261.2010.01558.x][research_duchin_2010]
+- Gomes, Joao, and Dmitry Livdan. 2004. "Optimal Diversification: Reconciling Theory and Evidence." *Journal of Finance* 59 (2): 507–35. [https://doi.org/10.1111/j.1540-6261.2004.00641.x][research_gomes_livdan_2004]
+- Graham, John R., Michael L. Lemmon, and Jack G. Wolf. 2002. "Does Corporate Diversification Destroy Value?" *Journal of Finance* 57 (2): 695–720. [https://doi.org/10.1111/1540-6261.00439][research_graham_lemmon_wolf_2002]
+- Hann, Rebecca N., Maria Ogneva, and Oguzhan Ozbas. 2013. "Corporate Diversification and the Cost of Capital." *Journal of Finance* 68 (5): 1961–99. [https://doi.org/10.1111/jofi.12067][research_hann_ogneva_ozbas_2013]
+- Hund, John E., Donald Monk, and Sheri Tice. 2024. "The Berger–Ofek Diversification Discount Is Just Poor Firm Matching." *Critical Finance Review* 13 (1–2): 1–44. [https://doi.org/10.1561/104.00000135][research_hund_monk_tice_2024]
+- Khanna, Tarun, and Krishna Palepu. 2000. "Is Group Affiliation Profitable in Emerging Markets? An Analysis of Diversified Indian Business Groups." *Journal of Finance* 55 (2): 867–91. [https://doi.org/10.1111/0022-1082.00229][research_khanna_palepu_2000]
+- Khorana, Ajay, Anil Shivdasani, Carsten Stendevad, and Sergey Sanzhar. 2011. "Spin-Offs: Tackling the Conglomerate Discount." *Journal of Applied Corporate Finance* 23 (4): 90–101. [https://doi.org/10.1111/j.1745-6622.2011.00355.x][research_khorana_2011]
+- Kisgen, Darren J., and Lei Kong. 2022. "Cross-Subsidization in Conglomerate Firms: Evidence from Government Spending Shocks." *Journal of Financial and Quantitative Analysis* 59 (1): 339–68. [https://doi.org/10.1017/s0022109022001004][research_kisgen_kong_2022]
+- Kuppuswamy, Venkat, and Belén Villalonga. 2016. "Does Diversification Create Value in the Presence of External Financing Constraints? Evidence from the 2007–2009 Financial Crisis." *Management Science* 62 (4): 905–23. [https://doi.org/10.1287/mnsc.2015.2165][research_kuppuswamy_villalonga_2016]
+- Lamont, Owen. 1997. "Cash Flow and Investment: Evidence from Internal Capital Markets." *Journal of Finance* 52 (1): 83–109. [https://doi.org/10.1111/j.1540-6261.1997.tb03809.x][research_lamont_1997]
+- Lamont, Owen A., and Christopher Polk. 2001. "The Diversification Discount: Cash Flows versus Returns." *Journal of Finance* 56 (5): 1693–1721. [https://doi.org/10.1111/0022-1082.00386][research_lamont_polk_2001]
+- Lang, Larry H. P., and René M. Stulz. 1994. "Tobin's q, Corporate Diversification, and Firm Performance." *Journal of Political Economy* 102 (6): 1248–80. [https://doi.org/10.1086/261970][research_lang_stulz_1994]
+- Lewellen, Wilbur G. 1971. "A Pure Financial Rationale for the Conglomerate Merger." *Journal of Finance* 26 (2): 521–37. [https://doi.org/10.1111/j.1540-6261.1971.tb00912.x][research_lewellen_1971]
+- Lins, Karl, and Henri Servaes. 1999. "International Evidence on the Value of Corporate Diversification." *Journal of Finance* 54 (6): 2215–39. [https://doi.org/10.1111/0022-1082.00186][research_lins_servaes_1999]
+- Maksimovic, Vojislav, and Gordon Phillips. 2002. "Do Conglomerate Firms Allocate Resources Inefficiently across Industries? Theory and Evidence." *Journal of Finance* 57 (2): 721–67. [https://doi.org/10.1111/1540-6261.00440][research_maksimovic_phillips_2002]
+- Mansi, Sattar A., and David M. Reeb. 2002. "Corporate Diversification: What Gets Discounted?" *Journal of Finance* 57 (5): 2167–83. [https://doi.org/10.1111/0022-1082.00492][research_mansi_reeb_2002]
+- Matsusaka, John G. 2001. "Corporate Diversification, Value Maximization, and Organizational Capabilities." *Journal of Business* 74 (3): 409–31. [https://doi.org/10.1086/321932][research_matsusaka_2001]
+- Onali, Enrico, and Xiaoxia Ye. 2025. "Corporate Diversification and Debt Maturity." *Journal of Financial and Quantitative Analysis* 61 (3): 1387–1428. [https://doi.org/10.1017/s0022109025102238][research_onali_ye_2025]
+- Ozbas, Oguzhan, and David S. Scharfstein. 2009. "Evidence on the Dark Side of Internal Capital Markets." *Review of Financial Studies* 23 (2): 581–99. [https://doi.org/10.1093/rfs/hhp071][research_ozbas_scharfstein_2009]
+- Rajan, Raghuram, Henri Servaes, and Luigi Zingales. 2000. "The Cost of Diversity: The Diversification Discount and Inefficient Investment." *Journal of Finance* 55 (1): 35–80. [https://doi.org/10.1111/0022-1082.00200][research_rajan_servaes_zingales_2000]
+- Reed, Adam V., Pedro A. C. Saffi, and Edward D. Van Wesep. 2021. "Short-Sales Constraints and the Diversification Puzzle." *Management Science* 67 (2): 1159–82. [https://doi.org/10.1287/mnsc.2019.3467][research_reed_saffi_van_wesep_2021]
+- Santalo, Juan, and Manuel Becerra. 2008. "Competition from Specialized Firms and the Diversification–Performance Linkage." *Journal of Finance* 63 (2): 851–83. [https://doi.org/10.1111/j.1540-6261.2008.01333.x][research_santalo_becerra_2008]
+- Scharfstein, David S., and Jeremy C. Stein. 2000. "The Dark Side of Internal Capital Markets: Divisional Rent-Seeking and Inefficient Investment." *Journal of Finance* 55 (6): 2537–64. [https://doi.org/10.1111/0022-1082.00299][research_scharfstein_stein_2000]
+- Servaes, Henri. 1996. "The Value of Diversification during the Conglomerate Merger Wave." *Journal of Finance* 51 (4): 1201–25. [https://doi.org/10.1111/j.1540-6261.1996.tb04067.x][research_servaes_1996]
+- Shin, H.-H., and R. M. Stulz. 1998. "Are Internal Capital Markets Efficient?" *Quarterly Journal of Economics* 113 (2): 531–52. [https://doi.org/10.1162/003355398555676][research_shin_stulz_1998]
+- Stein, Jeremy C. 1997. "Internal Capital Markets and the Competition for Corporate Resources." *Journal of Finance* 52 (1): 111–33. [https://doi.org/10.1111/j.1540-6261.1997.tb03810.x][research_stein_1997]
+- Villalonga, Belen. 2000. "Does Diversification Cause the 'Diversification Discount'?" Preprint, . [https://doi.org/10.2139/ssrn.227828][research_villalonga_2000]
+- Villalonga, Belén. 2004. "Diversification Discount or Premium? New Evidence from the Business Information Tracking Series." *Journal of Finance* 59 (2): 479–506. [https://doi.org/10.1111/j.1540-6261.2004.00640.x][research_villalonga_2004]
+- Whited, Toni M. 2001. "Is It Inefficient Investment That Causes the Diversification Discount?" *Journal of Finance* 56 (5): 1667–91. [https://doi.org/10.1111/0022-1082.00385][research_whited_2001]
+
+### Tertiary Sources
+
+- "Conglomerate (Company)." 2026. Wikipedia. Last modified September 7, at 04:37 (UTC). [https://en.wikipedia.org/w/index.php?title=Conglomerate\_(company)&oldid=1373662347][ref_conglomerate_company]
+- "Conglomerate Discount." 2025. Wikipedia. Last modified November 15, at 15:06 (UTC). [https://en.wikipedia.org/w/index.php?title=Conglomerate\_discount&oldid=1322312579][ref_conglomerate_discount]
+- "Corporate Spin-off." 2026. Wikipedia. Last modified October 9, at 01:56 (UTC). [https://en.wikipedia.org/w/index.php?title=Corporate\_spin-off&oldid=1379287175][ref_corporate_spin_off]
+- "Sum-of-the-Parts Analysis." 2026. Wikipedia. Last modified September 5, at 00:25 (UTC). [https://en.wikipedia.org/w/index.php?title=Sum-of-the-parts\_analysis&oldid=1373271388][ref_sum_of_the_parts]
+- "Tobin's q." 2026. Wikipedia. Last modified September 11, at 22:25 (UTC). [https://en.wikipedia.org/w/index.php?title=Tobin's\_q&oldid=1374409547][ref_tobins_q]
+
+[ref_conglomerate_company]: https://en.wikipedia.org/w/index.php?title=Conglomerate_(company)&oldid=1373662347
+[ref_conglomerate_discount]: https://en.wikipedia.org/w/index.php?title=Conglomerate_discount&oldid=1322312579
+[ref_corporate_spin_off]: https://en.wikipedia.org/w/index.php?title=Corporate_spin-off&oldid=1379287175
+[ref_sum_of_the_parts]: https://en.wikipedia.org/w/index.php?title=Sum-of-the-parts_analysis&oldid=1373271388
+[ref_tobins_q]: https://en.wikipedia.org/w/index.php?title=Tobin's_q&oldid=1374409547
 [research_altieri_nicodano_2023]: https://doi.org/10.1111/eufm.12442
 [research_ammann_hoechle_schmid_2011]: https://doi.org/10.1111/j.1468-5957.2011.02261.x
 [research_anjos_fracassi_2018]: https://doi.org/10.1017/s0022109018000583
 [research_berger_hann_2003]: https://doi.org/10.1111/1475-679x.00100
-[research_berger_ofek_1995]: https://doi.org/10.1016/0304-405X(94)00798-6
+[research_berger_ofek_1995]: https://doi.org/10.1016/0304-405x(94)00798-6
 [research_bressan_weissensteiner_2021]: https://doi.org/10.1016/j.irfa.2021.101662
 [research_burch_nanda_2003]: https://doi.org/10.1016/s0304-405x(03)00142-9
 [research_campa_kedia_2002]: https://doi.org/10.1111/1540-6261.00476
 [research_chang_kogut_yang_2016]: https://doi.org/10.1002/smj.2574
 [research_chen_chen_2011]: https://doi.org/10.1111/j.1468-5957.2011.02251.x
-[research_comment_jarrell_1995]: https://doi.org/10.1016/0304-405X(94)00777-X
-[research_cusatis_miles_woolridge_1993]: https://doi.org/10.1016/0304-405X(93)90009-Z
+[research_comment_jarrell_1995]: https://doi.org/10.1016/0304-405x(94)00777-x
+[research_cusatis_miles_woolridge_1993]: https://doi.org/10.1016/0304-405x(93)90009-z
 [research_custodio_2014]: https://doi.org/10.1111/jofi.12108
 [research_denis_denis_sarin_1997]: https://doi.org/10.1111/j.1540-6261.1997.tb03811.x
 [research_desai_jain_1999]: https://doi.org/10.1016/s0304-405x(99)00032-x

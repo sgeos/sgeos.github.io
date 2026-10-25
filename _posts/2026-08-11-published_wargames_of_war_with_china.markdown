@@ -190,7 +190,7 @@ A seventh of the marrying-age cohort disappeared in a decade,
 so part of the fall in marriages is arithmetic before it is anything about preferences.
 
 A RAND Corporation study,
-[Pollard, Bouey, Wang and Pandey 2025][research_pollard_2025_fertility_decline],
+[Pollard et al. 2025][research_pollard_2025_fertility_decline],
 projects the old age dependency ratio.
 Write $N_{65+}$ for the number of people aged 65 and older
 and $N_{15\text{ to }64}$ for the number aged 15 to 64.
@@ -383,7 +383,7 @@ is not supported by these sources.
 
 ### What the CSIS game found
 
-[Cancian, Cancian and Heginbotham 2023][research_cancian_2023_first_battle]
+[Cancian et al. 2023][research_cancian_2023_first_battle]
 built a rules-based wargame of a Chinese amphibious invasion of Taiwan in 2026
 and ran it 24 times.
 Their summary finding is that in most scenarios
@@ -604,7 +604,7 @@ That second observation becomes important in the nuclear results below.
 
 ### Dangerous Straits
 
-[Pettyjohn, Wasser and Dougherty 2022][research_pettyjohn_2022_dangerous_straits]
+[Pettyjohn et al. 2022][research_pettyjohn_2022_dangerous_straits]
 reported a game run by the CNAS Gaming Lab with NBC's Meet the Press,
 set in 2027.
 The game found no quick victory for either side.
@@ -619,7 +619,7 @@ The authors caution that a single game cannot establish how likely such a step w
 
 ### Confronting Armageddon
 
-[Cancian, Cancian and Heginbotham 2024][research_cancian_2024_confronting_armageddon]
+[Cancian et al. 2024][research_cancian_2024_confronting_armageddon]
 added nuclear rules to the 2023 game,
 moved it to 2028,
 and ran it fifteen times.
@@ -707,7 +707,7 @@ so these findings rest on the summary alone.
 
 The external summary described an invasion as the scenario the games examine.
 CSIS also examined the alternative most often named as more likely.
-[Cancian, Cancian and Heginbotham 2025][research_cancian_2025_lights_out]
+[Cancian et al. 2025][research_cancian_2025_lights_out]
 ran twenty-one blockade games across a matrix of Chinese and coalition escalation levels
 plus five free-play games,
 and declined to name winners.
@@ -931,7 +931,7 @@ The CSIS invasion report scores outcomes on Taiwan's political autonomy
 and explicitly excludes economic damage from that score.
 The economic figures come from separate analyses.
 
-[Gompert, Cevallos and Garafola 2016][research_gompert_2016_war_with_china]
+[Gompert et al. 2016][research_gompert_2016_war_with_china]
 at RAND estimated that a yearlong severe war could reduce Chinese gross domestic product,
 or GDP,
 by 25 to 35 percent,
@@ -1191,7 +1191,7 @@ at a cost they can afford.
 make the parallel argument for Japan,
 recording that Chinese military spending was half of Japan's in 1996
 and some three and a half times as large at the time of writing.
-[Kastner 2015][journal_kastner_2016]
+[Kastner 2016][journal_kastner_2016]
 weighs the shifting military balance against economic integration and Taiwanese identity
 and concludes the relationship is stabilising unless the military shift outpaces the rest.
 [Timbie and Ellis 2021][journal_timbie_ellis_2021]
@@ -1256,7 +1256,7 @@ and command is centralised around negative control.
 models survivability and finds retaliation far from assured yet still sufficient to deter.
 [Glaser and Fetter 2016][journal_glaser_fetter_2016]
 argue the United States should give up damage limitation against China.
-[Hiim, Fravel and Trøan 2023][journal_hiim_2023]
+[Hiim et al. 2023][journal_hiim_2023]
 describe an entangled security dilemma in which conventional and nuclear systems cannot be separated.
 [Kearn 2025][journal_kearn_2025]
 argues American tactical nuclear first use would not deter Beijing and would invite escalation.
@@ -1307,10 +1307,10 @@ The economic literature looks larger than it is.
 Only three independent estimates exist,
 and most of the documents that appear to confirm them are citing them.
 
-[Rhodium Group 2022][research_rhodium_2022_disruptions]
+[Vest et al. 2022][research_rhodium_2022_disruptions]
 put well over two trillion dollars of economic activity at risk in the first year of a blockade
 and stated plainly that it does not purport to estimate losses of gross domestic product.
-The [Institute for Economics and Peace 2023][research_iep_2023_gpi]
+The [Institute for Economics & Peace 2023][research_iep_2023_gpi]
 put a blockade at 2.7 trillion dollars,
 a 2.8 percent fall in global output,
 with China contracting about 7 percent and Taiwan by almost 40 percent.
@@ -1329,7 +1329,7 @@ A reader who saw only the two headline numbers would think one of them wrong.
 Neither is wrong.
 They are answers to different questions.
 
-[RAND 2025][research_shatz_2025_economic_deterrence]
+[Shatz et al. 2025][research_shatz_2025_economic_deterrence]
 models sanctions alone with a computable general equilibrium model covering more than 145 economies
 and finds Chinese output falling more than 2.5 percent a year under full coalition sanctions,
 with global output down about 0.5 percent.
@@ -1341,7 +1341,7 @@ Exposure studies measure the stakes without pricing them.
 [CSIS ChinaPower][research_csis_2024_crossroads_commerce]
 finds 2.45 trillion dollars of goods transited the strait in 2022,
 over one-fifth of global maritime trade.
-[Verschuur, Lumma and Hall 2025][journal_verschuur_2025],
+[Verschuur et al. 2025][journal_verschuur_2025],
 the only peer-reviewed quantitative work located here,
 ranks the Taiwan Strait first among 24 chokepoints
 at 37.3 billion dollars of trade disrupted per year in expectation,
@@ -1352,7 +1352,7 @@ and is not comparable to a conflict scenario.
 prices a five-year geopolitical conflict scenario at 14.5 trillion dollars as a weighted average.
 [Vest and Kratz 2023][research_vest_2023_sanctioning_china]
 put more than three trillion dollars of trade and financial flows at immediate risk under full sanctions.
-[Blanchette, DiPippo and Johnstone 2023][research_blanchette_2023_scared_strait]
+[Blanchette et al. 2023][research_blanchette_2023_scared_strait]
 ran closed-door exercises with financial firms and reached no headline number at all,
 concluding that the conflict is the sanction.
 
@@ -1462,7 +1462,7 @@ puts it bluntly,
 that wargames are about understanding and not knowledge,
 about ideas and not facts,
 and that they are unrepeatable, chaotic, vague and messy events.
-[Lin-Greenberg, Pauly and Schneider 2022][journal_lin_greenberg_2022]
+[Lin-Greenberg et al. 2021][journal_lin_greenberg_2022]
 set out what would make a wargame usable as research,
 resting its comparative advantage on ecological validity
 while naming recruitment, bias and generalisability as the constraints.
@@ -1494,14 +1494,14 @@ and fails to model the electromagnetic environment.
 
 ### Artificial intelligence in wargaming, which is where the field is arguing now
 
-[Reddie and others 2018][journal_reddie_2018]
+[Reddie et al. 2018][journal_reddie_2018]
 proposed computer-based wargames repeatable enough to support statistical inference,
-and [Reddie and Goldblum 2023][journal_reddie_goldblum_2023]
+and [Reddie and Goldblum 2022][journal_reddie_goldblum_2023]
 built a platform to measure how tailored capabilities move the nuclear threshold.
 Large language models then entered the field.
-[Rivera and others 2024][research_rivera_2024_escalation_risks]
+[Rivera et al. 2024][research_rivera_2024_escalation_risks]
 found that all five off-the-shelf models they tested escalated in hard-to-predict ways.
-[Lamparth and others 2024][research_lamparth_2024_human_vs_machine]
+[Lamparth et al. 2024][research_lamparth_2024_human_vs_machine]
 ran a crisis game with 107 national security experts
 and compared them against model-simulated players,
 finding considerable agreement alongside significant divergence.
@@ -1514,14 +1514,14 @@ supply the rebuttal,
 arguing that such results reveal machine psychology rather than human nuclear decision-making,
 and that the models escalate because their training corpus is thick with coercive strategy
 and thin with de-escalatory reasoning.
-[Geist, Frank and Menthe 2024][research_geist_2024_ai_wargames_limits]
+[Geist et al. 2024][research_geist_2024_ai_wargames_limits]
 draw the boundary that matters for this article.
 They find artificial intelligence most promising for games
 that are well bounded and repeated many times,
 and least promising for games designed to explore systems or generate innovation
 and for games "played as one-offs or a very limited number of times".
 Most of the public Taiwan games are one-offs or near enough.
-[Jensen and others 2024][commentary_jensen_2024_democratize_wargaming]
+[Jensen et al. 2024][commentary_jensen_2024_democratize_wargaming]
 take the opposite side and argue generative models cut cost and improve rigour.
 The TIDALWAVE project discussed above is the first large public artifact of that argument,
 and its executive summary is also the clearest illustration of the problem,
@@ -1847,117 +1847,136 @@ is not thereby a gamble the rest of the world could safely watch it lose.
 
 ## References
 
-- [Commentary, Brands and Beckley 2021, Foreign Policy Essay on China as a Declining Power][commentary_brands_beckley_2021_declining_power]
-- [Commentary, Brands and Beckley 2022, Danger Zone, The Coming Conflict with China][commentary_brands_beckley_2022_danger_zone]
-- [Commentary, Erickson 2025, Summary of the Department of Defense Annual Reports on Chinese Military Power][commentary_erickson_2025_dod_report_set]
-- [Commentary, Fuka 2025, The Coming Wave, Chinese Doctrine on the Tabletop][commentary_fuka_2025_coming_wave]
-- [Commentary, Heath 2023, Wargames Cannot Tell Us How to Deter a Chinese Attack on Taiwan][commentary_heath_2023_wargames_deterrence]
-- [Commentary, Howard 2026, Is China a Peaked Power? And So What If It Is?][commentary_howard_2026_peaked_power]
-- [Commentary, Jensen, Atalan and Tadross 2024, It Is Time to Democratize Wargaming Using Generative Artificial Intelligence][commentary_jensen_2024_democratize_wargaming]
-- [Commentary, Mastro 2021, The Taiwan Temptation, Foreign Affairs][commentary_mastro_2021_taiwan_temptation]
-- [Commentary, Mastro and Scissors 2022, Foreign Affairs Essay Against the Peak China Thesis][commentary_mastro_scissors_2022_peak]
-- [Commentary, McGrady 2019, Getting the Story Right About Wargaming][commentary_mcgrady_2019_getting_story_right]
-- [Commentary, Medeiros 2024, The Delusion of Peak China][commentary_medeiros_2024_delusion_peak_china]
-- [Commentary, Michaels and Williams 2025, A Wargame to Take Taiwan, from China's Perspective][commentary_michaels_williams_2025_wargame_china_perspective]
-- [Commentary, O'Hanlon 2023, China's Shrinking Population and Constraints on Its Future Power][commentary_ohanlon_2023_shrinking_population]
-- [Commentary, Panda and Reddie 2026, On Artificial Intelligence Wargaming and Nuclear War][commentary_panda_reddie_2026_ai_wargaming]
-- [Commentary, Schneider 2023, What War Games Really Reveal, Foreign Affairs][commentary_schneider_2023_war_games_reveal]
-- [Commentary, Tetreau 2023, War on the Rocks Review of Ten Years of U.S.-Chinese Military Assessments][commentary_tetreau_2023_where_the_wargames_were_not]
-- [Data, National Bureau of Statistics of China 2025, Statistical Communiqué on the 2024 National Economic and Social Development][data_nbs_2024_communique]
-- [Data, National Bureau of Statistics of China 2026, Statistical Communiqué on the 2025 National Economic and Social Development][data_nbs_2025_communique]
-- [Data, State Council Information Office 2025, China's Tally of Marriage Registrations Down in 2024][data_scio_2025_marriage_registrations]
-- [Data, TrendForce 2023, Foundry Capacity Share by Region and Process Node][data_trendforce_2023_foundry_capacity]
-- [Data, Varas and others 2021, Strengthening the Global Semiconductor Value Chain in an Uncertain Era][data_bcg_sia_2021_value_chain]
-- [Government, Congressional Research Service 2026, Taiwan, Defense and Military Issues][government_crs_2026_taiwan_defense]
-- [Government, Department of Defense 2025, Military and Security Developments Involving the People's Republic of China][government_dod_2025_china_report]
-- [Government, Ministry of National Defense of the Republic of China 2025, National Defense Report][government_mnd_2025_defense_report]
-- [Government, Office of the Director of National Intelligence 2026, Annual Threat Assessment of the United States Intelligence Community][government_odni_2026_threat_assessment]
-- [Government, Senate Committee on Armed Services 2021, Hearing to Receive Testimony on United States Indo-Pacific Command][government_sasc_2021_indopacom]
-- [Government, Taiwan Affairs Office and State Council Information Office 2022, The Taiwan Question and China's Reunification in the New Era][government_prc_2022_taiwan_white_paper]
-- [Government, US-China Economic and Security Review Commission 2025, Annual Report to Congress, Taiwan Chapter][government_uscc_2025_taiwan_chapter]
-- [Journal, Beckley 2017, The Emerging Military Balance in East Asia, International Security 42 number 2][journal_beckley_2017]
-- [Journal, Biddle and Oelrich 2016, Future Warfare in the Western Pacific, International Security 41 number 1][journal_biddle_oelrich_2016]
-- [Journal, Cancian 2025, States of Denial, Sensibly Defending Taiwan, Survival 67 number 2][journal_cancian_2025_states_of_denial]
-- [Journal, Caverley 2025, So What, Texas National Security Review 8 number 3][journal_caverley_2025]
-- [Journal, Cunningham 2020, The Maritime Rung on the Escalation Ladder, Security Studies 29 number 4][journal_cunningham_2020_maritime_rung]
-- [Journal, Cunningham and Fravel 2015, Assuring Assured Retaliation, International Security 40 number 2][journal_cunningham_fravel_2015]
-- [Journal, Cunningham and Fravel 2019, Dangerous Confidence, International Security 44 number 2][journal_cunningham_fravel_2019]
-- [Journal, Curry 2020, Professional Wargaming, a Flawed but Useful Tool, Simulation and Gaming 51 number 5][journal_curry_2020]
-- [Journal, Davis and Gholz 2026, Blockade by Fire, International Security 50 number 4][journal_davis_gholz_2026]
-- [Journal, Downes-Martin 2014, Your Boss, Players, and Sponsor, Naval War College Review 67 number 1][journal_downes_martin_2014]
-- [Journal, Easton 2026, Stratagems and Surprise Attacks, Naval War College Review 79 number 1][journal_easton_2026_stratagems]
-- [Journal, Glaser and Fetter 2016, Should the United States Reject Mutual Assured Destruction, International Security 41 number 1][journal_glaser_fetter_2016]
-- [Journal, Goldstein 2013, First Things First, International Security 37 number 4][journal_goldstein_2013]
-- [Journal, Green and Talmadge 2022, Then What, International Security 47 number 1][journal_green_talmadge_2022]
-- [Journal, Harris and McKinney 2024, Strategic Clarity or Calamity, International Affairs 100 number 3][journal_harris_mckinney_2024]
-- [Journal, Heginbotham and Samuels 2018, Active Denial, International Security 42 number 4][journal_heginbotham_samuels_2018]
-- [Journal, Hiim, Fravel and Troan 2023, The Dynamics of an Entangled Security Dilemma, International Security 47 number 4][journal_hiim_2023]
-- [Journal, Kastner 2016, Is the Taiwan Strait Still a Flash Point, International Security 40 number 3][journal_kastner_2016]
-- [Journal, Kearn 2025, Limited Nuclear War and the Defense of Taiwan, Journal of Strategic Studies][journal_kearn_2025]
-- [Journal, Lin-Greenberg, Pauly and Schneider 2022, Wargaming for International Relations Research, European Journal of International Relations 28 number 1][journal_lin_greenberg_2022]
-- [Journal, Mirski 2013, Stranglehold, Journal of Strategic Studies 36 number 3][journal_mirski_2013]
-- [Journal, Montgomery and Yoshihara 2025, Conquering Taiwan by Other Means, The Washington Quarterly 48 number 1][journal_montgomery_yoshihara_2025]
-- [Journal, Perla and McGrady 2011, Why Wargaming Works, Naval War College Review 64 number 3][journal_perla_mcgrady_2011]
-- [Journal, Reddie and Goldblum 2023, Evidence of the Unthinkable, Journal of Peace Research 60 number 5][journal_reddie_goldblum_2023]
-- [Journal, Reddie and others 2018, Next-Generation Wargames, Science 362 number 6421][journal_reddie_2018]
-- [Journal, Talmadge 2017, Would China Go Nuclear, International Security 41 number 4][journal_talmadge_2017]
-- [Journal, Timbie and Ellis 2021, A Large Number of Small Things, Texas National Security Review 5 number 1][journal_timbie_ellis_2021]
-- [Journal, Verschuur, Lumma and Hall 2025, Systemic Impacts of Disruptions at Maritime Chokepoints, Nature Communications 16][journal_verschuur_2025]
-- [Journal, Wu 2020, Living with Uncertainty, International Security 44 number 4][journal_wu_2020]
-- [Journal, Wu 2022, Assessing Inadvertent Nuclear Escalation, International Security 46 number 3][journal_wu_2022]
-- [News, AMAC 2026, Artificial Intelligence War Game Exposes United States Weaknesses in China Conflict][news_amac_2026_tidalwave]
-- [News, Insurance Journal 2026, The 10 Trillion Dollar Fight, Modeling a United States and China War Over Taiwan][news_insurance_journal_2026_bloomberg]
-- [News, Newsweek 2026, United States Government Requested Redactions to Report on China War Vulnerabilities][news_newsweek_2026_tidalwave_redactions]
-- [News, Reuters 2025, Marriages in China Plunge by a Record in 2024][news_reuters_marriages_2024]
-- [News, Taiwan News 2024, Report on the Bloomberg Economics Estimate of the Cost of a Chinese Invasion of Taiwan][news_taiwan_news_2024_bloomberg]
-- [Related Post, Industrialization Waves and Geopolitical Positioning, China's Rise][related_post_china_rise]
-- [Related Post, Industrialization Waves and Geopolitical Positioning, Contemporary Snapshot and Extrapolation][related_post_industrialization_snapshot]
-- [Related Post, Metagaming as a Framework for Real-Life Strategy][related_post_metagaming]
-- [Research, Bartels 2020, Building Better Games for National Security Policy Analysis][research_bartels_2020_building_better_games]
-- [Research, Blanchette, DiPippo and Johnstone 2023, Scared Strait, Understanding the Economic and Financial Impacts of a Taiwan Crisis][research_blanchette_2023_scared_strait]
-- [Research, Boyd, Gady and Nouwens 2023, Deterrence Failure in a Cross-Strait Conflict][research_iiss_2023_deterrence_failure]
-- [Research, Cancian, Cancian and Heginbotham 2023, The First Battle of the Next War, Wargaming a Chinese Invasion of Taiwan][research_cancian_2023_first_battle]
-- [Research, Cancian, Cancian and Heginbotham 2024, Confronting Armageddon, Wargaming Nuclear Deterrence and Its Failures in a U.S.-China Conflict over Taiwan][research_cancian_2024_confronting_armageddon]
-- [Research, Cancian, Cancian and Heginbotham 2025, Lights Out? Wargaming a Chinese Blockade of Taiwan][research_cancian_2025_lights_out]
-- [Research, Dougherty, Matuschak and Hunter 2021, The Poison Frog Strategy][research_dougherty_2021_poison_frog]
-- [Research, Erickson, Kennedy and Martinson 2024, Chinese Amphibious Warfare, Prospects for a Cross-Strait Invasion][research_erickson_2024_amphibious_warfare]
-- [Research, Fix, Kirch and Schuebel 2021, Escalation in the Taiwan Strait, Koerber Policy Game][research_koerber_2021_policy_game]
-- [Research, Funaiole and others 2024, Crossroads of Commerce, How the Taiwan Strait Propels the Global Economy][research_csis_2024_crossroads_commerce]
-- [Research, Garlauskas and others 2026, Aquatic Tiger, Long-Range Submarine Drones in a Taiwan Conflict][research_garlauskas_2026_aquatic_tiger]
-- [Research, Garlauskas, Gilbert and Imai 2025, A Rising Nuclear Double-Threat in East Asia][research_garlauskas_2025_guardian_tiger]
-- [Research, Geist, Frank and Menthe 2024, Understanding the Limits of Artificial Intelligence for Warfighters, Volume 4, Wargames][research_geist_2024_ai_wargames_limits]
-- [Research, Goldfeld and others 2024, Denial Without Disaster, Keeping a Conflict over Taiwan Under the Nuclear Threshold][research_goldfeld_2024_denial_without_disaster]
-- [Research, Gompert, Cevallos and Garafola 2016, War with China, Thinking Through the Unthinkable][research_gompert_2016_war_with_china]
-- [Research, Greenway and Gustafson 2026, TIDALWAVE Executive Summary, Archived Copy][research_greenway_2026_tidalwave_archived]
-- [Research, Gunzinger and Penney 2026, Rebuilding America's Air Force][research_gunzinger_2026_rebuilding_air_force]
-- [Research, Heginbotham and others 2015, The U.S.-China Military Scorecard][research_heginbotham_2015_scorecard]
-- [Research, Henley 2023, Beyond the First Battle, Overcoming a Protracted Blockade of Taiwan][research_henley_2023_beyond_first_battle]
-- [Research, Heritage Foundation 2026, Limited Nuclear War Over Taiwan, An Initial Exercise][research_heritage_2026_limited_nuclear_war]
-- [Research, Heritage Foundation 2026, TIDALWAVE Executive Summary][research_heritage_2026_tidalwave]
-- [Research, Institute for Economics and Peace 2023, Global Peace Index, the Impact of a Chinese Blockade of Taiwan][research_iep_2023_gpi]
-- [Research, Jensen, Lin and Ramos 2022, Shadow Risk, What Crisis Simulations Reveal][research_jensen_2022_shadow_risk]
-- [Research, Jestrab 2023, A Maritime Blockade of Taiwan by the People's Republic of China][research_jestrab_2023_maritime_blockade]
-- [Research, Jones 2023, Empty Bins in a Wartime Environment, The Challenge to the U.S. Defense Industrial Base][research_jones_2023_empty_bins]
-- [Research, Kaushal and Suess 2024, The Impact of a Taiwan Strait Crisis on European Defence][research_rusi_2024_european_defence]
-- [Research, Kilcrease 2023, No Winners in This Game][research_kilcrease_2023_no_winners]
-- [Research, Lamparth and others 2024, Human versus Machine, Behavioral Differences in Wargame Simulations][research_lamparth_2024_human_vs_machine]
-- [Research, Lloyd's and the Cambridge Centre for Risk Studies 2024, Geopolitical Conflict Systemic Risk Scenario][research_lloyds_2024_geopolitical_scenario]
-- [Research, Ochmanek and others 2023, Inflection Point][research_ochmanek_2023_inflection_point]
-- [Research, Payne 2026, AI Arms and Influence, Frontier Models in Simulated Nuclear Crises][research_payne_2026_ai_arms_influence]
-- [Research, Pettyjohn and Dennis 2023, Avoiding the Brink, Escalation Management in a War to Defend Taiwan][research_pettyjohn_2023_avoiding_brink]
-- [Research, Pettyjohn, Wasser and Dougherty 2022, Dangerous Straits, Wargaming a Future Conflict over Taiwan][research_pettyjohn_2022_dangerous_straits]
-- [Research, Pettyjohn, Wasser and Metrick 2023, Bad Blood, a Tabletop Exercise for the House Select Committee][research_pettyjohn_2023_bad_blood]
-- [Research, Pollard, Bouey, Wang and Pandey 2025, Fertility Decline in China and Its National Military, Structural, and Regime Security][research_pollard_2025_fertility_decline]
-- [Research, Richter and Arostegui 2026, China Maritime Report 53, Filling the Ranks][research_richter_2026_filling_the_ranks]
-- [Research, Rivera and others 2024, Escalation Risks from Language Models in Military and Diplomatic Decision-Making][research_rivera_2024_escalation_risks]
-- [Research, Sasakawa Peace Foundation 2024, Table Top Exercise on the Taiwan Strait Crisis][research_spf_2024_taiwan_strait_ttx]
-- [Research, Shatz and others 2025, Economic Deterrence in a China Contingency][research_shatz_2025_economic_deterrence]
-- [Research, Sperzel and others 2025, Special Report on a Surprise Exercise Around Taiwan][research_isw_2025_justice_mission]
-- [Research, Stares and Sacks 2025, The Next Taiwan Crisis Will Not Be Like the Last][research_stares_2025_next_taiwan_crisis]
-- [Research, Vest and Kratz 2023, Sanctioning China in a Taiwan Crisis, Scenarios and Risks][research_vest_2023_sanctioning_china]
-- [Research, Vest, Kratz and Goujon 2022, The Global Economic Disruptions from a Taiwan Conflict][research_rhodium_2022_disruptions]
-- [Research, Wasser, Rasser and Kelley 2022, When the Chips Are Down, Gaming the Global Semiconductor Competition][research_wasser_2022_chips_down]
-- [Research, Watterson and others 2026, Grey-Zone Games, Lessons from the 2025 Trilateral Simulation][research_ussc_2026_grey_zone_games]
+<!-- References generated by _lib/sources.py from _sources/. Edit the database and regenerate. Do not edit this section by hand. -->
+
+### Primary Sources, Peer-Reviewed
+
+- Cancian, Matthew F. 2025. "States of Denial: Sensibly Defending Taiwan." *Survival* 67 (2): 133–58. [https://doi.org/10.1080/00396338.2025.2481778][journal_cancian_2025_states_of_denial]
+- Cunningham, Fiona S. 2020. "The Maritime Rung on the Escalation Ladder: Naval Blockades in a US-China Conflict." *Security Studies* 29 (4): 730–68. [https://doi.org/10.1080/09636412.2020.1811462][journal_cunningham_2020_maritime_rung]
+- Kearn, David W. 2025. "Limited Nuclear War and the Defense of Taiwan." *Journal of Strategic Studies* 49 (5): 747–78. [https://doi.org/10.1080/01402390.2025.2572643][journal_kearn_2025]
+- Mirski, Sean. 2013. "Stranglehold: The Context, Conduct and Consequences of an American Naval Blockade of China." *Journal of Strategic Studies* 36 (3): 385–421. [https://doi.org/10.1080/01402390.2012.743885][journal_mirski_2013]
+- Montgomery, Evan Braden, and Toshi Yoshihara. 2025. "Conquering Taiwan by Other Means: China’s Expanding Coercive Options." *Washington Quarterly* 48 (1): 143–63. [https://doi.org/10.1080/0163660x.2025.2479328][journal_montgomery_yoshihara_2025]
+- Verschuur, Jasper, Johannes Lumma, and Jim W. Hall. 2025. "Systemic Impacts of Disruptions at Maritime Chokepoints." *Nature Communications* 16 (1): 10421. [https://doi.org/10.1038/s41467-025-65403-w][journal_verschuur_2025]
+
+### Primary Sources, Non-Peer-Reviewed
+
+- Bartels, Elizabeth. 2020. *Building Better Games for National Security Policy Analysis: Towards a Social Scientific Approach*. RGSD-437. RAND Corporation. [https://www.rand.org/pubs/rgs\_dissertations/RGSD437.html][research_bartels_2020_building_better_games]
+- Beckley, Michael. 2017. "The Emerging Military Balance in East Asia: How China's Neighbors Can Check Chinese Naval Expansion." *International Security* 42 (2): 78–119. [https://doi.org/10.1162/isec\_a\_00294][journal_beckley_2017]
+- Biddle, Stephen, and Ivan Oelrich. 2016. "Future Warfare in the Western Pacific: Chinese Antiaccess/Area Denial, U.S. AirSea Battle, and Command of the Commons in East Asia." *International Security* 41 (1): 7–48. [https://doi.org/10.1162/isec\_a\_00249][journal_biddle_oelrich_2016]
+- Boyd, Henry, Franz-Stefan Gady, and Meia Nouwens. 2023. *Deterrence Failure in a Cross-Strait Conflict: The Role of Alliances, Military Balance and Emerging Technology*. International Institute for Strategic Studies. [https://www.iiss.org/globalassets/pages---content--migration/blogs/research-paper/deterrence-failure-in-a-crossstrait-conflict-report.pdf][research_iiss_2023_deterrence_failure]
+- Cancian, Mark F., Matthew Cancian, and Eric Heginbotham. 2023. *The First Battle of the Next War: Wargaming a Chinese Invasion of Taiwan*. Center for Strategic and International Studies. [https://csis-website-prod.s3.amazonaws.com/s3fs-public/publication/230109\_Cancian\_FirstBattle\_NextWar.pdf][research_cancian_2023_first_battle]
+- Cancian, Mark, Matthew Cancian, and Eric Heginbotham. 2024. *Confronting Armageddon: Wargaming Nuclear Deterrence and Its Failures in a U.S.–China Conflict over Taiwan*. Center for Strategic and International Studies. [https://csis-website-prod.s3.amazonaws.com/s3fs-public/2024-12/241213\_Cancian\_Confronting\_Armageddon.pdf][research_cancian_2024_confronting_armageddon]
+- Cancian, Mark F., Matthew F. Cancian, and Eric Heginbotham. 2025. *Lights Out?: Wargaming a Chinese Blockade of Taiwan*. Center for Strategic and International Studies. [https://csis-website-prod.s3.amazonaws.com/s3fs-public/2025-07/250730\_Cancian\_Taiwan\_Blockade.pdf][research_cancian_2025_lights_out]
+- Caverley, Jonathan D. 2025. "So What? Reassessing the Military Implications of Chinese Control of Taiwan." *Texas National Security Review* 8 (3): 28–53. [https://doi.org/10.1353/tns.00004][journal_caverley_2025]
+- Cunningham, Fiona S., and M. Taylor Fravel. 2015. "Assuring Assured Retaliation: China's Nuclear Posture and U.S.-China Strategic Stability." *International Security* 40 (2): 7–50. [https://doi.org/10.1162/isec\_a\_00215][journal_cunningham_fravel_2015]
+- Cunningham, Fiona S., and M. Taylor Fravel. 2019. "Dangerous Confidence? Chinese Views on Nuclear Escalation." *International Security* 44 (2): 61–109. [https://doi.org/10.1162/isec\_a\_00359][journal_cunningham_fravel_2019]
+- Curry, John. 2020. "Professional Wargaming: A Flawed but Useful Tool." *Simulation & Gaming* 51 (5): 612–31. [https://doi.org/10.1177/1046878120901852][journal_curry_2020]
+- Davis, Kerby, and Eugene Gholz. 2026. "Blockade by Fire: China's Potential to Blockade Taiwan Using Missile Attacks on Ports." *International Security* 50 (4): 176–231. [https://doi.org/10.1162/isec.a.407][journal_davis_gholz_2026]
+- Department of War. 2025. *Annual Report to Congress: Military and Security Developments Involving the People's Republic of China 2025*. Department of War. [https://media.defense.gov/2025/Dec/23/2003849070/-1/-1/1/ANNUAL-REPORT-TO-CONGRESS-MILITARY-AND-SECURITY-DEVELOPMENTS-INVOLVING-THE-PEOPLES-REPUBLIC-OF-CHINA-2025.PDF][government_dod_2025_china_report]
+- Dougherty, Chris, Jennie Matuschak, and Ripley Hunter. 2021. *The Poison Frog Strategy: Preventing a Chinese Fait Accompli against Taiwanese Islands*. Center for a New American Security. [https://www.cnas.org/publications/reports/the-poison-frog-strategy][research_dougherty_2021_poison_frog]
+- Downes-Martin, Stephen. 2014. "Your Boss, Players, and Sponsor: The Three Witches of War Gaming." *Naval War College Review*. [https://digital-commons.usnwc.edu/nwc-review/vol67/iss1/5/][journal_downes_martin_2014]
+- Easton, Ian. 2026. "People's Republic of China Stratagems and Surprise Attacks—Implications for the Defense of Taiwan." *Naval War College Review*. [https://digital-commons.usnwc.edu/nwc-review/vol79/iss1/4/][journal_easton_2026_stratagems]
+- Fix, Liana, Theresa Kirch, and Leslie Schübel. 2021. *Escalation in the Taiwan Strait: What to Expect from Europe?*. Körber-Stiftung. [https://koerber-stiftung.de/site/assets/files/19430/koerber-policy-game\_escalation-in-the-taiwan-strait-1.pdf][research_koerber_2021_policy_game]
+- Garlauskas, Markus. 2026. *Aquatic Tiger: How Long-Range Submarine Drones Could Play a Role in a Taiwan Conflict*. Atlantic Council. [https://www.atlanticcouncil.org/in-depth-research-reports/issue-brief/aquatic-tiger-how-long-range-submarine-drones-could-play-a-role-in-a-taiwan-conflict/][research_garlauskas_2026_aquatic_tiger]
+- Garlauskas, Markus, Lauren D. Gilbert, and Kyoko Imai. 2025. *A Rising Nuclear Double-Threat in East Asia: Insights from Our Guardian Tiger I and II Tabletop Exercises*. Atlantic Council. [https://www.atlanticcouncil.org/in-depth-research-reports/report/a-rising-nuclear-double-threat-in-east-asia-insights-from-our-guardian-tiger-i-and-ii-tabletop-exercises/][research_garlauskas_2025_guardian_tiger]
+- Geist, Edward, Aaron Frank, and Lance Menthe. 2024. *Understanding the Limits of Artificial Intelligence for Warfighters: Volume 4, Wargames*. RR-A1722-4. RAND Corporation. [https://www.rand.org/pubs/research\_reports/RRA1722-4.html][research_geist_2024_ai_wargames_limits]
+- Glaser, Charles L., and Steve Fetter. 2016. "Should the United States Reject MAD? Damage Limitation and U.S. Nuclear Strategy toward China." *International Security* 41 (1): 49–98. [https://doi.org/10.1162/isec\_a\_00248][journal_glaser_fetter_2016]
+- Goldfeld, Dahlia Anne, Nathan Beauchamp-Mustafaga, Shawn Cochran, et al. 2024. *Denial without Disaster—Keeping a U.S.-China Conflict over Taiwan under the Nuclear Threshold: Vol. 1, an Overview of Ideas for U.S. Conventional Joint Long-Range Strike in Support of Escalation Management*. RR-A2312-1. RAND Corporation. [https://www.rand.org/pubs/research\_reports/RRA2312-1.html][research_goldfeld_2024_denial_without_disaster]
+- Goldstein, Avery. 2013. "First Things First: The Pressing Danger of Crisis Instability in U.S.-China Relations." *International Security* 37 (4): 49–89. [https://doi.org/10.1162/isec\_a\_00114][journal_goldstein_2013]
+- Gompert, David, Astrid Cevallos, and Cristina Garafola. 2016. *War with China: Thinking through the Unthinkable*. RR-1140. RAND Corporation. [https://www.rand.org/content/dam/rand/pubs/research\_reports/RR1100/RR1140/RAND\_RR1140.pdf][research_gompert_2016_war_with_china]
+- Green, Brendan Rittenhouse, and Caitlin Talmadge. 2022. "Then What? Assessing the Military Implications of Chinese Control of Taiwan." *International Security* 47 (1): 7–45. [https://doi.org/10.1162/isec\_a\_00437][journal_green_talmadge_2022]
+- Greenway, and Gustafson. 2026. *Executive Summary*. The Heritage Foundation. [https://web.archive.org/web/20260414184735/https://www.heritage.org/tidalwave/introduction/executive-summary][research_greenway_2026_tidalwave_archived]
+- Gunzinger, Mark A., and Heather R. Penney. 2026. *Rebuilding America's Air Force: Balancing the Air Force's Combat Forces for Peer Conflict*. The Mitchell Institute for Aerospace Studies, Air & Space Forces Association. [https://www.mitchellaerospacepower.org/app/uploads/2026/04/Rebuilding-Americas-Air-Force-FINAL.pdf][research_gunzinger_2026_rebuilding_air_force]
+- Harris, Peter, and Jared M. McKinney. 2024. "Strategic Clarity or Calamity? Competing Logics of Deterrence in the Taiwan Strait." *International Affairs* 100 (3): 1171–87. [https://doi.org/10.1093/ia/iiae071][journal_harris_mckinney_2024]
+- Heginbotham, Eric, Michael Nixon, Forrest Morgan, et al. 2015. *The U.S.-China Military Scorecard: Forces, Geography, and the Evolving Balance of Power, 1996-2017*. RR-392. RAND Corporation. [https://www.rand.org/pubs/research\_reports/RR392.html][research_heginbotham_2015_scorecard]
+- Heginbotham, Eric, and Richard J. Samuels. 2018. "Active Denial: Redesigning Japan's Response to China's Military Challenge." *International Security* 42 (4): 128–69. [https://doi.org/10.1162/isec\_a\_00313][journal_heginbotham_samuels_2018]
+- Henley, Lonnie D. 2023. *Beyond the First Battle: Overcoming a Protracted Blockade of Taiwan*. China Maritime Report No. 26. China Maritime Studies Institute, U.S. Naval War College. [https://digital-commons.usnwc.edu/cmsi-maritime-reports/26/][research_henley_2023_beyond_first_battle]
+- Heritage Foundation. 2026. *Executive Summary*. The Heritage Foundation. [https://www.heritage.org/tidalwave/introduction/executive-summary][research_heritage_2026_tidalwave]
+- Hiim, Henrik Stålhane, M. Taylor Fravel, and Magnus Langset Trøan. 2023. "The Dynamics of an Entangled Security Dilemma: China's Changing Nuclear Posture." *International Security* 47 (4): 147–87. [https://doi.org/10.1162/isec\_a\_00457][journal_hiim_2023]
+- Institute for Economics & Peace. 2023. *Global Peace Index 2023: Measuring Peace in a Complex World*. Institute for Economics & Peace. [https://www.economicsandpeace.org/wp-content/uploads/2023/09/GPI-2023-Web.pdf][research_iep_2023_gpi]
+- Jensen, Benjamin, Bonny Lin, and Carolina G. Ramos. 2022. *Shadow Risk: What Crisis Simulations Reveal about the Dangers of Deferring U.S. Responses to China's Gray Zone Campaign against Taiwan*. Center for Strategic and International Studies. [https://www.csis.org/analysis/shadow-risk-what-crisis-simulations-reveal-about-dangers-deferring-us-responses-chinas][research_jensen_2022_shadow_risk]
+- Jestrab, Marek. 2023. *A Maritime Blockade of Taiwan by the People's Republic of China: A Strategy to Defeat Fear and Coercion*. Atlantic Council. [https://www.atlanticcouncil.org/content-series/atlantic-council-strategy-paper-series/a-maritime-blockade-of-taiwan-by-the-peoples-republic-of-china-a-strategy-to-defeat-fear-and-coercion/][research_jestrab_2023_maritime_blockade]
+- Jones, Seth G. 2023. *Empty Bins in a Wartime Environment: The Challenge to the U.S. Defense Industrial Base*. ISBN 978-1-5381-7060-1. Center for Strategic and International Studies. [https://csis-website-prod.s3.amazonaws.com/s3fs-public/2023-01/230119\_Jones\_Empty\_Bins.pdf][research_jones_2023_empty_bins]
+- Kastner, Scott L. 2016. "Is the Taiwan Strait Still a Flash Point? Rethinking the Prospects for Armed Conflict between China and Taiwan." *International Security* 40 (3): 54–92. [https://doi.org/10.1162/isec\_a\_00227][journal_kastner_2016]
+- Kaushal, Sidharth, and Juliana Suess. 2024. *The Impact of a Taiwan Strait Crisis on European Defence*. Whitehall Report 1-24. Royal United Services Institute for Defence and Security Studies. [https://static.rusi.org/the-impact-of-a-taiwan-strait-crisis-on-european-defence.pdf][research_rusi_2024_european_defence]
+- Keay, Leo A., and Robert Peters. 2026. *Limited Nuclear War over Taiwan: An Initial Exercise*. Issue Brief No. 5402. The Heritage Foundation. [https://www.heritage.org/defense/report/limited-nuclear-war-over-taiwan-initial-exercise][research_heritage_2026_limited_nuclear_war]
+- Kilcrease, Emily. 2023. *No Winners in This Game: Assessing the U.S. Playbook for Sanctioning China*. Center for a New American Security. [https://www.cnas.org/publications/reports/no-winners-in-this-game][research_kilcrease_2023_no_winners]
+- Lamparth, Max, Anthony Corso, Jacob Ganz, Oriana Skylar Mastro, Jacquelyn Schneider, and Harold Trinkunas. 2024. "Human vs. Machine: Behavioral Differences between Expert Humans and Language Models in Wargame Simulations." Preprint, . [https://arxiv.org/abs/2403.03407][research_lamparth_2024_human_vs_machine]
+- Lin-Greenberg, Erik, Reid B. C. Pauly, and Jacquelyn G. Schneider. 2021. "Wargaming for International Relations Research." *European Journal of International Relations* 28 (1): 83–109. [https://doi.org/10.1177/13540661211064090][journal_lin_greenberg_2022]
+- Mastro, Oriana Skylar. 2021. "The Taiwan Temptation: Why Beijing Might Resort to Force." *Foreign Affairs*. [https://www.foreignaffairs.com/articles/china/2021-06-03/china-taiwan-war-temptation][commentary_mastro_2021_taiwan_temptation]
+- Mastro, Oriana Skylar, and Derek Scissors. 2022. "China Hasn't Reached the Peak of Its Power: Why Beijing Can Afford to Bide Its Time." *Foreign Affairs*. [https://www.foreignaffairs.com/china/china-hasnt-reached-peak-its-power][commentary_mastro_scissors_2022_peak]
+- Medeiros, Evan S. 2024. "The Delusion of Peak China." *Foreign Affairs*. [https://www.foreignaffairs.com/china/delusion-peak-china-united-states-evan-medeiros][commentary_medeiros_2024_delusion_peak_china]
+- Ministry of National Defense, Republic of China. 2025. *National Defense Report 2025*. Ministry of National Defense, Republic of China. [https://www.mnd.gov.tw/en/File/54549][government_mnd_2025_defense_report]
+- National Bureau of Statistics of China. 2025. "Statistical Communiqué of the People's Republic of China on the 2024 National Economic and Social Development." National Bureau of Statistics of China, February 28. [https://www.stats.gov.cn/english/PressRelease/202502/t20250228\_1958822.html][data_nbs_2024_communique]
+- National Bureau of Statistics of China. 2026. "Statistical Communiqué of the People's Republic of China on the 2025 National Economic and Social Development." National Bureau of Statistics of China, February 28. [https://www.stats.gov.cn/english/PressRelease/202602/t20260228\_1962661.html][data_nbs_2025_communique]
+- Ochmanek, David, Anna Dowd, Stephen J. Flanagan, et al. 2023. *Inflection Point: How to Reverse the Erosion of U.S. and Allied Military Power and Influence*. RR-A2555-1. RAND Corporation. [https://www.rand.org/pubs/research\_reports/RRA2555-1.html][research_ochmanek_2023_inflection_point]
+- Office of the Director of National Intelligence. 2026. *Annual Threat Assessment of the U.S. Intelligence Community*. Office of the Director of National Intelligence. [https://archive.dni.gov/files/ODNI/documents/assessments/ATA-2026-Unclassified-Report.pdf][government_odni_2026_threat_assessment]
+- Payne, Kenneth. 2026. "AI Arms and Influence: Frontier Models Exhibit Sophisticated Reasoning in Simulated Nuclear Crises." Preprint, . [https://arxiv.org/abs/2602.14740][research_payne_2026_ai_arms_influence]
+- Perla, Peter P., and Ed McGrady. 2011. "Why Wargaming Works." *Naval War College Review*. [https://digital-commons.usnwc.edu/nwc-review/vol64/iss3/8/][journal_perla_mcgrady_2011]
+- Pettyjohn, Stacie, and Hannah Dennis. 2023. *Avoiding the Brink: Escalation Management in a War to Defend Taiwan*. Center for a New American Security. [https://www.cnas.org/publications/reports/avoiding-the-brink][research_pettyjohn_2023_avoiding_brink]
+- Pettyjohn, Stacie, Becca Wasser, and Chris Dougherty. 2022. *Dangerous Straits: Wargaming a Future Conflict over Taiwan*. Center for a New American Security. [https://s3.amazonaws.com/files.cnas.org/CNAS+Report-Dangerous+Straits-Defense-Jun+2022-FINAL-print.pdf][research_pettyjohn_2022_dangerous_straits]
+- Pettyjohn, Stacie, Becca Wasser, and Andrew Metrick. 2023. "Bad Blood: The TTX for the House Select Committee on Strategic Competition between the United States and the Chinese Communist Party (CCP)." Center for a New American Security, April 27. [https://www.cnas.org/publications/congressional-testimony/bad-blood-ttx][research_pettyjohn_2023_bad_blood]
+- Pollard, Bouey, Wang, and Pandey. 2025. *Fertility Decline in China and Its National Military, Structural, and Regime Security: China Population Research*. RR-A3372-1. RAND Corporation. [https://www.rand.org/content/dam/rand/pubs/research\_reports/RRA3300/RRA3372-1/RAND\_RRA3372-1.pdf][research_pollard_2025_fertility_decline]
+- Reddie, Andrew W., and Bethany L. Goldblum. 2022. "Evidence of the Unthinkable: Experimental Wargaming at the Nuclear Threshold." *Journal of Peace Research* 60 (5): 760–76. [https://doi.org/10.1177/00223433221094734][journal_reddie_goldblum_2023]
+- Reddie, Andrew W., Bethany L. Goldblum, Kiran Lakkaraju, Jason Reinhardt, Michael Nacht, and Laura Epifanovskaya. 2018. "Next-Generation Wargames." *Science* 362 (6421): 1362–64. [https://doi.org/10.1126/science.aav2135][journal_reddie_2018]
+- Richter, Erin, and Joshua Arostegui. 2026. *Filling the Ranks: China's Military Recruiting System and the PLA Navy*. China Maritime Report No. 53. China Maritime Studies Institute, U.S. Naval War College. [https://digital-commons.usnwc.edu/cmsi-maritime-reports/53/][research_richter_2026_filling_the_ranks]
+- Rivera, Juan-Pablo, Gabriel Mukobi, Anka Reuel, Max Lamparth, Chandler Smith, and Jacquelyn Schneider. 2024. "Escalation Risks from Language Models in Military and Diplomatic Decision-Making." Preprint, . [https://arxiv.org/abs/2401.03408][research_rivera_2024_escalation_risks]
+- Sasakawa Peace Foundation. 2024. *Table Top Exercise (TTX) on the Taiwan Strait Crisis*. Sasakawa Peace Foundation. [https://www.spf.org/en/global-data/user33/report\_ttx\_thetaiwanstraitcrisis.pdf][research_spf_2024_taiwan_strait_ttx]
+- Schneider, Jacquelyn. 2023. "What Wargames Really Reveal: Outcomes Matter Less than Who Pays and Who Plays." *Foreign Affairs*. [https://www.foreignaffairs.com/united-states/what-war-games-really-reveal][commentary_schneider_2023_war_games_reveal]
+- Senate Committee on Armed Services. 2021. "To Receive Testimony on United States Indo-Pacific Command in Review of the Defense Authorization Request for Fiscal Year 2022 and the Future Years Defense Program." Senate Committee on Armed Services, March 9. [https://www.armed-services.senate.gov/imo/media/doc/21-10\_03-09-2021.pdf][government_sasc_2021_indopacom]
+- Shatz, Howard J., Marco Hafner, Naoko Aoki, Peter Dortmans, Timothy R. Heath, and Fiona Quimbre. 2025. *Economic Deterrence in a China Contingency*. RR-A4022-1. RAND Corporation. [https://www.rand.org/pubs/research\_reports/RRA4022-1.html][research_shatz_2025_economic_deterrence]
+- Sperzel. 2025. *Special Report on a Surprise Exercise Around Taiwan*. [https://understandingwar.org/research/china-taiwan/china-taiwan-special-report-december-31-2025/][research_isw_2025_justice_mission]
+- Stares, Paul B., and David Sacks. 2025. *The Next Taiwan Crisis Won't Be like the Last*. Council on Foreign Relations. [https://www.cfr.org/report/next-taiwan-crisis-wont-be-last][research_stares_2025_next_taiwan_crisis]
+- State Council Information Office. 2025. *China's Tally of Marriage Registrations Down in 2024*. [http://english.scio.gov.cn/pressroom/2025-07/31/content\_118005719.html][data_scio_2025_marriage_registrations]
+- Taiwan Affairs Office of the State Council, and State Council Information Office. 2022. *The Taiwan Question and China's Reunification in the New Era*. [http://english.scio.gov.cn/whitepapers/2022-08/10/content\_78365819.htm][government_prc_2022_taiwan_white_paper]
+- *Taiwan: Defense and Military Issues*. 2026. IF12481. Congressional Research Service. [https://www.congress.gov/crs-product/IF12481][government_crs_2026_taiwan_defense]
+- Talmadge, Caitlin. 2017. "Would China Go Nuclear? Assessing the Risk of Chinese Nuclear Escalation in a Conventional War with the United States." *International Security* 41 (4): 50–92. [https://doi.org/10.1162/isec\_a\_00274][journal_talmadge_2017]
+- Timbie, James, and James O. Ellis Jr. 2021. "A Large Number of Small Things: A Porcupine Strategy for Taiwan." *Texas National Security Review*. [https://tnsr.org/2021/12/a-large-number-of-small-things-a-porcupine-strategy-for-taiwan/][journal_timbie_ellis_2021]
+- U.S.-China Economic and Security Review Commission. 2025. "Chapter 11: Taiwan." In *2025 Annual Report to Congress*. [https://www.uscc.gov/sites/default/files/2025-11/Chapter\_11--Taiwan.pdf][government_uscc_2025_taiwan_chapter]
+- Varas, Antonio, Raj Varadarajan, Ramiro Palma, Jimmy Goodrich, and Falan Yinug. 2021. *Strengthening the Global Semiconductor Supply Chain in an Uncertain Era*. Boston Consulting Group and Semiconductor Industry Association. [https://www.semiconductors.org/wp-content/uploads/2021/05/BCG-x-SIA-Strengthening-the-Global-Semiconductor-Value-Chain-April-2021\_1.pdf][data_bcg_sia_2021_value_chain]
+- Vest, Charlie, and Agatha Kratz. 2023. *Sanctioning China in a Taiwan Crisis: Scenarios and Risks*. Atlantic Council. [https://www.atlanticcouncil.org/in-depth-research-reports/report/sanctioning-china-in-a-taiwan-crisis-scenarios-and-risks/][research_vest_2023_sanctioning_china]
+- Vest, Charlie, Agatha Kratz, and Reva Goujon. 2022. *The Global Economic Disruptions from a Taiwan Conflict*. Rhodium Group. [https://rhg.com/research/taiwan-economic-disruptions/][research_rhodium_2022_disruptions]
+- Wasser, Becca, Martijn Rasser, and Hannah Kelley. 2022. *When the Chips Are Down: Gaming the Global Semiconductor Competition*. Center for a New American Security. [https://www.cnas.org/publications/reports/when-the-chips-are-down][research_wasser_2022_chips_down]
+- Watterson, Christopher J., Michael J. Green, Peter Dean, Nobukatsu Kanehara, Katsuya Yamamoto, and Takuma Matsu. 2026. *Grey-Zone Games: Lessons from the 2025 Australia-Japan-United States Simulation*. United States Studies Centre. [https://www.ussc.edu.au/grey-zone-games-lessons-from-the-2025-australia-japan-united-states-simulation][research_ussc_2026_grey_zone_games]
+- Wu, Riqiang. 2020. "Living with Uncertainty: Modeling China's Nuclear Survivability." *International Security* 44 (4): 84–118. [https://doi.org/10.1162/isec\_a\_00376][journal_wu_2020]
+- Wu, Riqiang. 2022. "Assessing China-U.S. Inadvertent Nuclear Escalation." *International Security* 46 (3): 128–62. [https://doi.org/10.1162/isec\_a\_00428][journal_wu_2022]
+
+### Secondary Sources
+
+- Brands, Hal, and Michael Beckley. 2022. *Danger Zone: The Coming Conflict with China*. W. W. Norton. [https://www.aei.org/research-products/book/danger-zone-the-coming-conflict-with-china/][commentary_brands_beckley_2022_danger_zone]
+- Erickson, Andrew S., Conor M. Kennedy, and Ryan D. Martinson. 2024. *Chinese Amphibious Warfare: Prospects for a Cross-Strait Invasion*. China Maritime Studies Institute, U.S. Naval War College; Naval Institute Press. [https://digital-commons.usnwc.edu/cmsi-studies/8/][research_erickson_2024_amphibious_warfare]
+
+### Commercial Sources
+
+- Blanchette, Jude, Gerard DiPippo, and Christopher B. Johnstone. 2023. "Scared Strait: Understanding the Economic and Financial Impacts of a Taiwan Crisis." Center for Strategic and International Studies, December 13. [https://www.csis.org/analysis/scared-strait-understanding-economic-and-financial-impacts-taiwan-crisis][research_blanchette_2023_scared_strait]
+- Chiao, Joanne. 2023. "China and US Bolster Semiconductor Independence as Taiwan's Foundry Capacity Share Projected to Decline to 41% by 2027, Says TrendForce." TrendForce Press Center, December 14. [https://www.trendforce.com/presscenter/news/20231214-11959.html][data_trendforce_2023_foundry_capacity]
+- Funaiole, Matthew P., Brian Hart, David Peng, Bonny Lin, and Jasper Verschuur. 2024. "Crossroads of Commerce: How the Taiwan Strait Propels the Global Economy." ChinaPower, August 22. [https://features.csis.org/chinapower/china-taiwan-strait-trade/][research_csis_2024_crossroads_commerce]
+- Heath, Timothy R. 2023. "Wargames Can't Tell Us How to Deter a Chinese Attack on Taiwan—but Different Games Might." Lawfare, January 5. [https://www.rand.org/pubs/external\_publications/EP70064.html][commentary_heath_2023_wargames_deterrence]
+- Jensen, Benjamin, Yasir Atalan, and Dan Tadross. 2024. "It Is Time to Democratize Wargaming Using Generative AI." Center for Strategic and International Studies, February 22. [https://www.csis.org/analysis/it-time-democratize-wargaming-using-generative-ai][commentary_jensen_2024_democratize_wargaming]
+- Lloyd's. 2024. "Lloyd's Geopolitical Conflict Scenario Sees Global Economy Exposed to \$14.5tn Loss." Lloyd's, October 9. [https://www.lloyds.com/insights/media-centre/press-releases/geopolitical-conflict-scenario][research_lloyds_2024_geopolitical_scenario]
+- O'Hanlon, Michael E. 2023. "China's Shrinking Population and Constraints on Its Future Power." Order from Chaos, April 24. [https://www.brookings.edu/articles/chinas-shrinking-population-and-constraints-on-its-future-power/][commentary_ohanlon_2023_shrinking_population]
+- Solis, Ben. 2026. "SHOCKING: New AI-Driven U.S.–China War Game Was So Accurate the Trump Administration Asked for Redactions." AMAC Newsline, February 6. [https://amac.us/newsline/national-security/shocking-new-ai-driven-u-s-china-war-game-was-so-accurate-the-trump-administration-asked-for-redactions/][news_amac_2026_tidalwave]
+
+### General Sources
+
+- Brands, Hal, and Michael Beckley. 2021. "China Is a Declining Power—and That’s the Problem: The United States Needs to Prepare for a Major War, Not Because Its Rival Is Rising but Because of the Opposite." *Foreign Policy*, September 24. [https://foreignpolicy.com/2021/09/24/china-great-power-united-states/][commentary_brands_beckley_2021_declining_power]
+- Erickson, Andrew S. 2025. "U.S. Department of Defense/War Annual Reports to Congress on China's Military Power—2000 to 2025—Download Complete Set + Read Highlights Here." *Andrew S. Erickson*, December 23. [https://www.andrewerickson.com/2025/12/u-s-department-of-defense-war-annual-reports-to-congress-on-chinas-military-power-2000-to-2025-download-complete-set-read-highlights-here/][commentary_erickson_2025_dod_report_set]
+- Everington, Keoni. 2024. "Chinese Invasion of Taiwan Would Cost World Economy NT\$311 Trillion: Global Economy Would Take 10% Hit to GDP, Far Greater than Any Crisis in past 30 Years." *Taiwan News*, January 10. [https://www.taiwannews.com.tw/news/5075352][news_taiwan_news_2024_bloomberg]
+- Fuka, Cornell. 2025. "The Coming Wave: Chinese Doctrine on the Tabletop?" *War on the Rocks*, November 4. [https://warontherocks.com/2025/11/the-coming-wave-chinese-doctrine-on-the-tabletop/][commentary_fuka_2025_coming_wave]
+- Howard, Russell D. 2026. "Is China a Peaked Power? And So What If It Is?" *Small Wars Journal*, July 24. [https://smallwarsjournal.com/2026/07/24/is-china-a-peaked-power-and-so-what-if-it-is/][commentary_howard_2026_peaked_power]
+- McCartney, Micah. 2026. "US Government Requested Redactions to Report on China War 'Vulnerabilities'." *Newsweek*. [https://www.newsweek.com/us-government-requested-redactions-report-china-war-vulnerabilities-11391583][news_newsweek_2026_tidalwave_redactions]
+- McGrady, Ed. 2019. "Getting the Story Right about Wargaming." *War on the Rocks*, November 8. [https://warontherocks.com/2019/11/getting-the-story-right-about-wargaming/][commentary_mcgrady_2019_getting_story_right]
+- Michaels, Jeffrey, and Michael John Williams. 2025. "A Wargame to Take Taiwan, from China's Perspective." *War on the Rocks*, October 7. [https://warontherocks.com/2025/10/a-wargame-to-take-taiwan-from-chinas-perspective/][commentary_michaels_williams_2025_wargame_china_perspective]
+- Panda, Ankit, and Andrew Reddie. 2026. "I'm Sorry, Dave. I'm Afraid I Can't De-Escalate: On (AI) Wargaming and Nuclear War." *War on the Rocks*, April 21. [https://warontherocks.com/im-sorry-dave-im-afraid-i-cant-de-escalate-on-ai-wargaming-and-nuclear-war/][commentary_panda_reddie_2026_ai_wargaming]
+- Reuters. 2025. "Chinese Marriages Slid by a Fifth in 2024, Fanning Birthrate Concerns." *The Kathmandu Post*, February 10. [https://kathmandupost.com/world/2025/02/10/chinese-marriages-slid-by-a-fifth-in-2024-fanning-birthrate-concerns][news_reuters_marriages_2024]
+- Tetreau, Matthew. 2023. "Where the Wargames Weren't: Assessing 10 Years of U.S.-Chinese Military Assessments." *War on the Rocks*, September 22. [https://warontherocks.com/2023/09/where-the-wargames-werent-assessing-10-years-of-u-s-chinese-military-assessments/][commentary_tetreau_2023_where_the_wargames_were_not]
+- Welch, Jennifer, and Maeva Cousin. 2026. "The \$10 Trillion Fight: Modeling a US-China War over Taiwan." *Insurance Journal*, February 12. [https://www.insurancejournal.com/news/international/2026/02/12/857770.htm][news_insurance_journal_2026_bloomberg]
+
+### Related Posts
+
+- Sechter, Brendan. 2026. "Metagaming as a Framework for Real-Life Strategy." *Brendan A R Sechter's Development Blog*, January 14. [https://sgeos.github.io/games/strategy/game-theory/war-gaming/2026/01/14/metagaming\_framework\_for\_life\_strategy.html][related_post_metagaming]
+- Sechter, Brendan. 2026. "Industrialization Waves and Geopolitical Positioning: China's Rise." *Brendan A R Sechter's Development Blog*, March 23. [https://sgeos.github.io/history/economics/geopolitics/2026/03/23/china\_rise.html][related_post_china_rise]
+- Sechter, Brendan. 2026. "Industrialization Waves and Geopolitical Positioning: Contemporary Snapshot and Extrapolation." *Brendan A R Sechter's Development Blog*, March 26. [https://sgeos.github.io/history/economics/geopolitics/2026/03/26/contemporary\_snapshot\_and\_extrapolation.html][related_post_industrialization_snapshot]
 
 [commentary_brands_beckley_2021_declining_power]: https://foreignpolicy.com/2021/09/24/china-great-power-united-states/
 [commentary_brands_beckley_2022_danger_zone]: https://www.aei.org/research-products/book/danger-zone-the-coming-conflict-with-china/
@@ -2008,7 +2027,7 @@ is not thereby a gamble the rest of the world could safely watch it lose.
 [journal_kearn_2025]: https://doi.org/10.1080/01402390.2025.2572643
 [journal_lin_greenberg_2022]: https://doi.org/10.1177/13540661211064090
 [journal_mirski_2013]: https://doi.org/10.1080/01402390.2012.743885
-[journal_montgomery_yoshihara_2025]: https://doi.org/10.1080/0163660X.2025.2479328
+[journal_montgomery_yoshihara_2025]: https://doi.org/10.1080/0163660x.2025.2479328
 [journal_perla_mcgrady_2011]: https://digital-commons.usnwc.edu/nwc-review/vol64/iss3/8/
 [journal_reddie_2018]: https://doi.org/10.1126/science.aav2135
 [journal_reddie_goldblum_2023]: https://doi.org/10.1177/00223433221094734

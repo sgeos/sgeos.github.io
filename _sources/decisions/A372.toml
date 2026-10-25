@@ -1,0 +1,19 @@
+# Import decisions for A372. Registry caches and page metadata are scratch and are not tracked.
+article = "A372"
+crossref_cache = "tmp/sources/crossref"
+wiki_pins = "tmp/a372/sources/wiki_pins.json"
+web_metadata = ["tmp/web/meta1.json", "tmp/web/meta2.json", "tmp/web/meta3.json", "tmp/web/meta4.json", "tmp/web/meta5.json"]
+web_read = "2026-10-24"
+
+# Reviewed 2026-10-24 from the in-text labels that conversion changed.
+[fix.research_jorgensen_grimstad_2011]
+note = "Crossref spells the first author Jorgensen; OpenAlex and the author's own publications give Jørgensen."
+set = { authors = [ { family = "Jørgensen", given = "Magne" }, { family = "Grimstad", given = "Stein" } ] }
+
+[fix.research_jorgensen_shepperd_2007]
+note = "Crossref spells the first author Jorgensen; OpenAlex and the author's own publications give Jørgensen."
+set = { authors = [ { family = "Jørgensen", given = "Magne" }, { family = "Shepperd", given = "Martin" } ] }
+
+[fix.research_pj_launchbury_1991]
+note = "Crossref files Peyton with the given names; the family name is Peyton Jones."
+set = { authors = [ { family = "Peyton Jones", given = "Simon L." }, { family = "Launchbury", given = "John" } ] }

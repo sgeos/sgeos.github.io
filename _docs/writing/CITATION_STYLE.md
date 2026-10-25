@@ -225,6 +225,12 @@ entries from bibliography entries.
 - **Verified.** Two or more works by the same author in the same year take `a`, `b`, `c` after the year, as in
   `2026a` (13.114). Because the suffix depends on which works an article cites, it is assigned per article at
   generation time, not stored in the database.
+- **House.** A registered work takes the year Crossref gives as `issued`, which is its first publication,
+  online first where the journal publishes online first. The year printed on the issue can be one later, so
+  a label written from the print issue changes on conversion, as `Lin-Greenberg et al. 2022` became 2021 in
+  A374. One rule for every record is more auditable than a year chosen per article.
+- **House.** A reprint gives its original year in parentheses before the reprint's, as in `(1972) 1998`,
+  and the in-text label uses the original year, so the label dates the idea the prose discusses.
 - **Verified.** A journal article's month or season is usually omitted (13.26).
 - **House.** Dates inside entries use Chicago's month, day, year order, as in `December 19, 2023`.
 
@@ -236,6 +242,13 @@ entries from bibliography entries.
 - **House.** Acronyms and proper nouns keep the capitalisation the source uses.
 - **House.** A registry title's separator of a typed spaced hyphen becomes a colon, and a trailing period is
   dropped. Other punctuation is kept as published, including a published em dash.
+- **Verified.** A title in another language keeps that language's capitalisation (11.6), so a German title
+  capitalises its nouns only. The importer believes only a registry that states the language. A title whose
+  language the registry omits is corrected by a decision, as for A377's *Deutsches Fremdwörterbuch* entries.
+- **House.** Inline TeX in a registry title is written as plain text, as in `Al2O3` and `Zp`, because an entry
+  must otherwise escape it and a reader then sees the markup.
+- **House.** A footnote mark typeset after a title, such as `*`, `∗`, `†` or `☆`, is removed. In a title
+  registered in capitals, a word holding a digit, such as `B3`, keeps its capitals.
 - **House.** Headline case is proposed by `_lib/sources_import.py` and reviewed by a person for every title.
   The proposal never removes an existing capital, so it cannot damage an acronym, but it cannot know that a
   planet designation such as `51 Pegasi b` keeps its lower-case letter. Such titles are corrected on the
@@ -273,6 +286,19 @@ https://doi.org/10.1086/725865.`
 - **Verified.** An article published online ahead of print adds `ahead of print` and the posting date (14.75).
 
 **Book. Verified.** Place of publication is no longer required (14.30).
+
+**Further kinds. Unverified.** These templates were added to convert A369 to A379, and each awaits a check
+against the manual.
+- A thesis: `Author. Year. "Title." PhD diss., Institution. Link.`
+- A dataset, standard or report with no author leads with its italic title: `*Title*. Year. Number. Publisher.
+  Link.`
+- Software or project documentation: `Author. Year. "Title." Site. Accessed Month Day, Year. Link.`
+- A web page in a periodical italicises the periodical and gives the publication date, `*War on the Rocks*,
+  March 4.` A website's name is roman. A page with no date gives its access date.
+
+**Placement of the new kinds.** Theses, datasets, standards, project documentation and registry works of no
+stated type go to rule 4. A first-hand record published as a web page, such as testimony, a statute or a
+statistical release, also goes to rule 4, marked `primary`.
 
 ```
 [Family], [Given]. [Year]. *[Book Title: Subtitle]*. [Publisher]. [URL or DOI].
@@ -385,8 +411,13 @@ cited source, so they take the web page template, with the post's author as the 
 - **Verified.** The year carries the same `a`, `b` suffix as the entry when one is assigned.
 - **House.** A Wikipedia article is cited in the text by its title, as in `[Mercury][ref_mercury]`.
 - **Unverified.** A work with no author is cited in the text by a shortened title and its year, as in
-  `[Mass-Driver Reaction Engine 1977][research_mass_driver_reaction_engine_1977]`. The short title is a recorded
-  decision, `short_title`, because shortening is a judgement.
+  `[Mass-Driver Reaction Engine 1977][research_mass_driver_reaction_engine_1977]`. Without a recorded
+  `short_title`, the shortened title is the main title before any colon or dash, cut to four words, with minor
+  words at its end dropped. Two works whose short titles and years coincide take `a`, `b` like works by one
+  author, so one label never names two entries.
+- **House.** A citation label is link text that gives names, then a year. Link text that is not a label, such
+  as a title used in the prose, is listed in the article's `_sources/articles/<stem>.links.json` and left
+  alone by `fix-labels`.
 - **House.** The link target is the source's DOI or URL, as it is today.
 
 ## Source Database
@@ -484,8 +515,8 @@ exactly what the generator would write, so a hand edit cannot drift from the dat
    and Space Science*, *Astronomy & Astrophysics*, *Science* and *Space Science Reviews*. A person reading
    the pages that refused automated reading would settle most of them.
 3. Templates for theses, patents, standards, datasets and software, and a check of the unverified rules.
-4. Updates to `_lib/survey.py`, which reads the legacy label format, before any article with a reference survey
-   is converted.
+4. A generated format for survey entries. A369 to A373 were converted on 2026-10-24 because `_lib/survey.py`
+   reads their cluster rows, not the References section. Their body survey entries keep the legacy format.
 
 ## Open Decisions
 

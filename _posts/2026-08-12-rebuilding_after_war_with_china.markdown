@@ -66,7 +66,7 @@ That distinction is the spine of what follows.
 The Center for Strategic and International Studies,
 or CSIS,
 ran its invasion game 24 times.
-[Cancian, Cancian and Heginbotham 2023][research_cancian_2023_first_battle]
+[Cancian et al. 2023][research_cancian_2023_first_battle]
 record the horizon plainly.
 The games "lasted an average of six turns",
 which the report gives as 21 days of campaign time,
@@ -89,7 +89,7 @@ T_g \approx 21 \ \text{days},
 T_w \gg T_g
 $$
 
-[Gompert, Cevallos and Garafola 2016][research_gompert_2016_war_with_china]
+[Gompert et al. 2016][research_gompert_2016_war_with_china]
 at the RAND Corporation reach the termination question directly
 and find no mechanism that closes it.
 Both sides have "considerable, if asymmetric, capacity to prolong a conflict
@@ -97,7 +97,7 @@ that neither one is militarily compelled or politically ready to end",
 and "History offers no encouragement
 that destructive but stalemated fighting induces belligerents to agree to stop".
 
-[Predd and others 2025][research_predd_2025_protracted_war],
+[Predd et al. 2025][research_predd_2025_protracted_war],
 sponsored by the Office of Net Assessment,
 exists because the planning baseline assumes otherwise.
 Their finding is that "Neither China nor the United States
@@ -348,7 +348,7 @@ and both were over three years late.
 
 ### Munitions, where the cycle is the whole story
 
-[Cancian and Park 2026][research_cancian_2026_last_rounds]
+[Cancian and Park 2026a][research_cancian_2026_last_rounds]
 state the production cycle in full.
 Manufacturing lead time for a first delivery "has historically been about 24 months",
 has stretched "to 36 months or more",
@@ -370,7 +370,7 @@ The two figures agree,
 which is what a consistency check is for.
 
 The scale problem is separate from the cycle problem.
-[Cancian and Park 2026][research_cancian_2026_missile_rebuild]
+[Cancian and Park 2026b][research_cancian_2026_missile_rebuild]
 record Tomahawk procurement averaging 86 missiles a year over ten fiscal years
 against a stated manufacturer capacity goal above 1,000 a year
 and recent annual production below 200.
@@ -407,7 +407,7 @@ reports that across nearly two dozen iterations of the CSIS game
 the United States expended more than 5,000 long-range missiles in three weeks,
 and that in every iteration it expended its entire inventory
 of Long Range Anti-Ship Missiles within the first week.
-[Cancian and Park 2026][research_cancian_2026_six_reasons]
+[Cancian and Park 2026c][research_cancian_2026_six_reasons]
 note that those same anti-ship munitions were barely touched in the 2026 air campaign against Iran,
 so their inventories are intact,
 and that they "would rapidly dwindle in a war against a near-peer naval power".
@@ -465,7 +465,7 @@ is the reason surge capacity has to be bought in advance rather than found in a 
 
 ### The workforce, which is the constraint behind the others
 
-[Government Accountability Office 2025][research_gao_2025_shipbuilding_workforce]
+[U.S. Government Accountability Office 2025][research_gao_2025_shipbuilding_workforce]
 reports that over the next decade the shipbuilding industrial base
 "will require 174,000 new workers to keep pace with Navy shipbuilding goals",
 and that all seven shipbuilders face workforce limitations.
@@ -505,7 +505,7 @@ approximately 70 percent of the suppliers of critical components have no competi
 
 ### The general case, and the number that bounds it
 
-[Cancian and others 2021][research_cancian_2021_industrial_mobilization]
+[Cancian 2021][research_cancian_2021_industrial_mobilization]
 measured replacement time across major acquisition programmes
 using procurement justification exhibits from 1999, 2008 and 2020.
 Replacing programme inventories at surge rates would take an average of 8.4 years,
@@ -720,11 +720,11 @@ contributing under one percentage point
 against cumulative city growth of 55 to 96 percent.
 
 Two qualifications belong with that result and are usually dropped.
-[Brakman, Garretsen and Schramm 2004][journal_brakman_2004_german_bombing]
+[Brakman et al. 2004][journal_brakman_2004_german_bombing]
 find the German effect "significant but temporary"
 in West Germany and absent in East Germany,
 which points at institutions rather than rubble.
-[Nguyen and others 2025][journal_nguyen_2025_german_cities]
+[Nguyen et al. 2025][journal_nguyen_2025_german_cities]
 apply synthetic control to 53 West German cities
 and find mean reversion for only 50 to 70 percent of them,
 with a sizeable minority never returning to trend.
@@ -871,7 +871,7 @@ because they are measuring different objects.
 
 ### Semiconductors are an ecosystem, not a building
 
-[Boston Consulting Group and the Semiconductor Industry Association 2021][data_bcg_sia_2021_value_chain]
+[Varas et al. 2021][data_bcg_sia_2021_value_chain]
 priced the replacement of Taiwanese foundry capacity elsewhere.
 A permanent complete disruption "could take a minimum of three years
 and $350 billion of investment in what would be an unprecedented effort".
@@ -914,7 +914,7 @@ and nothing in the estimate assumes the war is still going on.
 The foundries need power,
 and the published figure for how long the island can supply it
 sits almost exactly on the wargame horizon.
-The [US-China Economic and Security Review Commission 2025][government_uscc_2025_taiwan_chapter]
+The [U.S.-China Economic and Security Review Commission 2025][government_uscc_2025_taiwan_chapter]
 reports that Taiwan "is almost entirely reliant on imported energy",
 that increased reliance on natural gas
 "does not address the island's vulnerability to a blockade scenario,
@@ -1085,7 +1085,7 @@ and about 94 percent in the second.
 Neutrals are not exempt,
 losing 12 percent of trade with belligerents over the full sample,
 and 65 percent in the Second World War.
-[Federle and others 2026][journal_federle_2026_price_of_war],
+[Federle et al. 2026][journal_federle_2026_price_of_war],
 across 150 years and 60 countries,
 find a war of average intensity associated with an output drop near 10 percent
 at the war site and consumer prices about 20 percent higher,
@@ -1300,7 +1300,7 @@ and why the war would not.
 [Iklé 2005][book_ikle_2005_every_war_must_end]
 established the general observation that governments enter wars
 with elaborate plans for fighting and almost none for stopping.
-[Reiter 2009][book_reiter_2009_how_wars_end]
+[Reiter 2010][book_reiter_2009_how_wars_end]
 supplies the mechanism most applicable here.
 War termination turns on information about the balance of power
 and on fear that the other side cannot credibly commit to abide by a settlement.
@@ -1343,7 +1343,7 @@ which is precisely the handoff that no source in this article prices.
 
 **The strategy literature has thought about the end of the war more carefully
 than the wargames have, and it does not promise one.**
-[Heim, Burdette and Beauchamp-Mustafaga 2024][commentary_heim_2024_denial_worst]
+[Heim et al. 2024][commentary_heim_2024_denial_worst]
 argue for a denial theory of victory over cost imposition,
 and are explicit that denial is not a termination mechanism.
 Denial "gives Beijing space to decide to stop the war
@@ -1428,7 +1428,7 @@ $$
 27 \rightarrow 14 \ \text{for a draw}
 $$
 
-[Goemans, Gleditsch and Chiozza 2009][journal_goemans_2009_archigos]
+[Goemans et al. 2009][journal_goemans_2009_archigos]
 give the population rates from 3,025 leader spells across 188 countries from 1875 to 2004.
 Exits were 64.63 percent regular and 19.07 percent irregular,
 and post-tenure fates were 63.64 percent no punishment,
@@ -1450,7 +1450,7 @@ and its authors ask that the version and date be cited alongside the article.
 and were not recomputed from the current file**,
 so they describe the 1875 to 2004 window and not the longer one.
 
-[Bueno de Mesquita, Siverson and Woller 1992][journal_bueno_de_mesquita_1992]
+[Bueno de Mesquita et al. 1992][journal_bueno_de_mesquita_1992]
 established the directional relationship between defeat and violent regime change
 across all war participation from 1816 to 1975,
 and [Debs and Goemans 2010][journal_debs_goemans_2010]
@@ -1585,15 +1585,15 @@ $$
 The two operations that did reach the ratio were Bosnia at 22.6 and Kosovo at 23.7 per thousand,
 on populations far smaller than Taiwan's.
 For context on the resistance side,
-[Lee, Chen and Chen 2024][journal_lee_2024_taiwan_attitudes]
+[Lee et al. 2024][journal_lee_2024_taiwan_attitudes]
 report willingness to fight between 68 and 75 percent across five survey waves.
 **That number should not be used without the measurement literature attached.**
-[Lai and others 2026][journal_lai_2026_lost_in_words]
+[Lai et al. 2026][journal_lai_2026_lost_in_words]
 run survey experiments in Taiwan and find
 a value frame raises stated willingness to fight while a cost frame lowers it,
 and report that military recruits are *less* willing to fight than civilians,
 which they attribute to greater awareness of the costs.
-[Fu, Yin and Han 2024][journal_fu_2024_human_cost_of_war]
+[Fu et al. 2024][journal_fu_2024_human_cost_of_war]
 find support for military action falling faster
 with Chinese civilian casualties than with Taiwanese military losses.
 **Willingness to fight is an artefact of question wording to a degree
@@ -1619,7 +1619,7 @@ of how it would attempt to rule the island afterwards".
 ## Recovery From Nuclear Use, Where the Taiwan Case Is Absent
 
 The nuclear consequence literature is large, quantitative, and about other wars.
-[Xia and others 2022][journal_xia_2022_nature_food]
+[Xia et al. 2022][journal_xia_2022_nature_food]
 model soot injection against food supply across six scenarios.
 The paper is open access,
 so every figure below is taken from its first table directly.
@@ -1689,7 +1689,7 @@ so the results here apply only to indirect effects from soot injection in remote
 The model is therefore silent about the belligerents,
 which is precisely the population an article about postwar recovery would want.
 
-[Shi and others 2025][journal_shi_2025_adapting_agriculture]
+[Shi et al. 2025][journal_shi_2025_adapting_agriculture]
 address recovery rather than damage,
 finding maize production down 7 percent at 5 teragrams and 80 percent at 150,
 "with recovery taking 7 to 12 years",
@@ -1700,16 +1700,16 @@ $$
 $$
 
 The crop loss scales more steeply than the soot does at the low end.
-[Jehn and others 2025][journal_jehn_2025_food_trade]
+[Jehn et al. 2025][journal_jehn_2025_food_trade]
 find that at 37 teragrams most countries lose 50 to 100 percent of food imports.
-[Chan and others 2025][journal_chan_2025_resilience]
+[Chan et al. 2025][journal_chan_2025_resilience]
 state the neglect directly,
 that recovery measures remain heavily neglected relative to prevention,
 and find expected deaths peaking in the 250 to 550 detonation range.
 
 **The science is contested at the fire-physics end rather than the climate end,
 and the dissenting paper says so itself.**
-[Reisner and others 2018][journal_reisner_2018]
+[Reisner et al. 2018][journal_reisner_2018]
 modelled the fireball, the firestorm and the Earth system together
 for the same India and Pakistan exchange the earlier work assumed.
 Their climate result is not the disagreement.
@@ -1730,7 +1730,7 @@ A quarter less soot produced would matter little.
 Soot that stays below the weather matters entirely,
 because rain removes it.
 
-[Robock, Toon and Bardeen 2019][journal_robock_2019_comment]
+[Robock et al. 2019][journal_robock_2019_comment]
 reply that the smaller plume is an artefact of the fire model rather than a finding.
 They object that the target area chosen was "suburban Atlanta
 that includes a golf course, playground, and individual houses with large yards,
@@ -1752,7 +1752,7 @@ whether fires will inject soot into the upper troposphere".
 all put the uncertainty at the same step**,
 which makes the disagreement a tractable scientific question
 rather than a standoff between schools.
-The [National Academies 2025][research_nas_2025_nuclear_war_effects]
+The [National Academies of Sciences, Engineering, and Medicine 2025][research_nas_2025_nuclear_war_effects]
 consensus study,
 read here in full rather than from its catalogue entry,
 states the uncertainty position in its own words.
@@ -1844,7 +1844,7 @@ entered at the top of an escalation ladder rather than from a war over Taiwan.
 The distinction matters because the quantity a recovery estimate needs
 is the damage to two belligerents and their trading partners,
 and no published scenario supplies it.
-[Xia and others 2015][journal_xia_2015_chinese_agriculture]
+[Xia et al. 2015][journal_xia_2015_chinese_agriculture]
 is the closest to the case at hand,
 finding first-year Chinese wheat production down 53 percent
 and effects decaying over more than a decade,
@@ -1862,7 +1862,7 @@ saves more lives than immediate evacuation.
 
 ## The Postwar Order
 
-[Priebe and others 2023][research_priebe_2023_alternative_futures_v1]
+[Priebe et al. 2023][research_priebe_2023_alternative_futures_v1]
 is the closest published match to the subject here that was located.
 In the scenario where China annexes Taiwan after an eight-month war
 ending in a Chinese non-strategic nuclear demonstration,
@@ -1877,7 +1877,7 @@ and accurate in one,
 while stating that "the long-term consequences of such a conflict remain poorly understood".
 
 On allied nuclear latency the demand signal already exists.
-The [Chicago Council 2022][data_chicago_council_2022_south_korea]
+The [Dalton et al. 2022][data_chicago_council_2022_south_korea]
 found 71 percent of South Koreans favouring an indigenous nuclear weapon,
 and 67 percent preferring that to redeployed United States weapons when forced to choose.
 
@@ -2030,7 +2030,7 @@ affect both the information and the commitment channels,
 which connects this literature to the regime-survival section above.
 
 **The most unsettling result in the cluster inverts the obvious intuition.**
-[Wolford, Reiter and Carrubba 2011][journal_wolford_2011_information_commitment]
+[Wolford et al. 2011][journal_wolford_2011_information_commitment]
 show that when asymmetric information and shifting-power commitment problems coexist,
 resolving uncertainty by fighting can continue a war rather than end it,
 wars can become less likely to settle the longer they last,
@@ -2090,7 +2090,7 @@ Each of them has an opponent in print.
 extend their own work to 114 Japanese cities across eight manufacturing industries
 and report no support for multiple equilibria,
 with cities recovering population, manufacturing share and even industry mix.
-[Bosker, Brakman, Garretsen and Schramm 2007][journal_bosker_2007_multiple_equilibria]
+[Bosker et al. 2007][journal_bosker_2007_multiple_equilibria]
 apply the same framework to German bombing
 but add spatial interdependence,
 and do find multiple equilibria with evidence for two stable states,
@@ -2098,7 +2098,7 @@ reporting that the evidence weakens when geography is ignored.
 **The two results are not strictly comparable**,
 because the specifications differ over whether spatial interdependence belongs in the model,
 and the literature has not settled which is correct.
-[Redding, Sturm and Wolf 2011][journal_redding_2011_history_industry_location]
+[Redding et al. 2011][journal_redding_2011_history_industry_location]
 side with multiplicity on a cleaner shock,
 treating the move of Germany's air hub from Berlin to Frankfurt
 as a shift between steady states rather than a return to fundamentals.
@@ -2123,7 +2123,7 @@ and it also says what the irrecoverable part is,
 which the sources used here otherwise leave vague.
 
 **On Germany the revisionist position is stronger than the article's own framing allowed.**
-[Vonyo 2018][book_vonyo_2018_economic_consequences]
+[Vonyó 2018][book_vonyo_2018_economic_consequences]
 argues the war did not destroy the foundations of German economic power
 and that recovery was driven by wartime legacies of enhanced industrial capacity
 and an enlarged labour force
@@ -2155,10 +2155,10 @@ and continue to decline after short ones.
 
 **Four studies locate persistence in four different places,
 and none of them is physical capital.**
-[Feigenbaum, Lee and Mezzanotti 2022][journal_feigenbaum_2022_capital_destruction]
+[Feigenbaum et al. 2022][journal_feigenbaum_2022_capital_destruction]
 find effects of Sherman's March persisting to 1920
 and attribute them to underdeveloped financial markets rather than to the destruction.
-[Riano and Valencia Caicedo 2024][journal_riano_2024_collateral_damage]
+[Riaño and Valencia Caicedo 2024][journal_riano_2024_collateral_damage]
 find heavily bombed regions of Laos
 showing 7.1 percent lower output per head almost fifty years later
 for each standard deviation of bombing intensity,
@@ -2166,11 +2166,11 @@ with unexploded ordnance as the transmission mechanism.
 **That mechanism has a line item in the Ukrainian assessment above**,
 explosive hazards management at almost 30 billion dollars,
 which is the same hazard priced prospectively.
-[Dell and Querubin 2018][journal_dell_querubin_2018_nation_building]
+[Dell and Querubin 2017][journal_dell_querubin_2018_nation_building]
 find that bombing in Vietnam increased insurgent activity,
 weakened local governance and reduced civic engagement,
 which is a direct counterweight to the Miguel and Roland null used above.
-[Costalli, Moretti and Pischedda 2017][journal_costalli_2017_economic_costs]
+[Costalli et al. 2017][journal_costalli_2017_economic_costs]
 estimate an average annual loss of 17.5 percent of output per head by synthetic control
 and find ethnic fractionalisation robustly associated with higher costs
 through eroded interethnic trust.
@@ -2216,7 +2216,7 @@ The literature is more precise than that,
 and one paper locates the crossover.
 
 **The climate response to a given soot load is not in dispute.**
-[Coupe and others 2019][journal_coupe_2019_nuclear_winter_responses]
+[Coupe et al. 2019][journal_coupe_2019_nuclear_winter_responses]
 run the same 150 teragram injection through two structurally independent models
 and obtain similar nuclear winter,
 with the newer model's faster soot removal failing to shrink the response.
@@ -2226,7 +2226,7 @@ that the camps differ on fuel loading
 and on the amount and initial altitude of the black carbon fed to the models,
 rather than on the models themselves.
 
-**[Wagman and others 2020][journal_wagman_2020_multiscale]
+**[Wagman et al. 2020][journal_wagman_2020_multiscale]
 turn that qualitative statement into a number.**
 Working from Sandia and Lawrence Livermore,
 they find that at one gram of fuel burned per square centimetre
@@ -2246,11 +2246,11 @@ They also obtain about four years of forcing
 against the eight to fifteen years the opposing group simulates.
 
 The fuel-loading estimate under attack is
-[Toon and others 2007][journal_toon_2007_atmospheric_effects],
+[Toon et al. 2007][journal_toon_2007_atmospheric_effects],
 which found low-yield weapons on city centres
 producing about a hundred times the smoke per kilotonne
 that earlier full-scale-war analyses assumed.
-[Reisner and others 2019][journal_reisner_2019_reply]
+[Reisner et al. 2019][journal_reisner_2019_reply]
 reply to the criticism of their own work,
 holding that firestorms are difficult to form,
 that black carbon scales nonlinearly with fuel load,
@@ -2262,7 +2262,7 @@ calculate that a dry plume needs at least a 60 kelvin anomaly to reach the cold 
 and that simulated dry firestorm plumes fall short by a factor of two or more,
 so only moist plumes reach the stratosphere.
 **The strongest observational evidence runs the other way.**
-[Peterson and others 2021][journal_peterson_2021_black_summer]
+[Peterson et al. 2021][journal_peterson_2021_black_summer]
 report that more than half of 38 observed pyrocumulonimbus events
 in Australia's Black Summer injected smoke directly into the stratosphere,
 with plumes continuing to rise over three months
@@ -2270,15 +2270,15 @@ with plumes continuing to rise over three months
 
 **On the food pathway the literature has an optimistic pole
 that the nuclear section above did not represent.**
-[Jägermeyr and others 2020][journal_jagermeyr_2020_food_security]
+[Jägermeyr et al. 2020][journal_jagermeyr_2020_food_security]
 give a 12 percent single-year global caloric loss from a 5 teragram war
 across six harmonised crop models,
 which they note quadruples the largest observed historical anomaly.
-[Scherrer and others 2020][journal_scherrer_2020_fisheries]
+[Scherrer et al. 2020][journal_scherrer_2020_fisheries]
 find fish biomass and catch falling up to 18 and 29 percent for a decade,
 while noting that prewar stock rebuilding could create a buffer.
 Against the famine pole,
-[Rivers and others 2024][journal_rivers_2024_food_system_adaptation]
+[Rivers et al. 2024][journal_rivers_2024_food_system_adaptation]
 model a 150 teragram scenario and find global famine
 only without trade and without adaptation,
 with maintained trade and rapid resilient-food scale-up
@@ -2291,14 +2291,14 @@ and is more amenable to policy.
 
 Two results in the consequence literature bear directly on rebuilding
 and belong in this article rather than in the nuclear section alone.
-[Baker and others 2021][journal_baker_2021_large_transformers]
+[Baker et al. 2021][journal_baker_2021_large_transformers]
 report that large power transformers have replacement times measured in months to years,
 that no large power transformer has ever undergone threat-level electromagnetic pulse testing,
 and that claims of immunity are premature.
 **That is the same shape as the shipyard constraint**,
 a long-lead component with few suppliers
 whose replacement clock is set by manufacturing rather than by money.
-[Blouin and others 2024][journal_blouin_2024_electricity_loss]
+[Blouin et al. 2024][journal_blouin_2024_electricity_loss]
 model catastrophic electricity loss against the food supply chain
 and conclude that a recovery measured in weeks to months still permits adequate calories
 if distribution is equitable,
@@ -2320,10 +2320,10 @@ and that likelihood estimates are largely intuition.
 
 ### Chinese nuclear posture, where the two sides hold opposite beliefs about control
 
-[Kristensen and others 2025][journal_kristensen_2025_chinese_nuclear_weapons]
+[Kristensen et al. 2025][journal_kristensen_2025_chinese_nuclear_weapons]
 estimate approximately 600 Chinese warheads with more in production,
 the fastest growth among the nine nuclear-armed states.
-[Hiim, Fravel and Trøan 2023][journal_hiim_2023_entangled_security_dilemma]
+[Hiim et al. 2023][journal_hiim_2023_entangled_security_dilemma]
 find from Chinese-language sources
 limited evidence of a doctrinal shift but a clear posture shift toward secure second strike,
 driven by fear of American limited nuclear use
@@ -2357,11 +2357,11 @@ Three further results point the same way.
 [Weeks 2012][journal_weeks_2012_strongmen]
 argues personalist regimes lack an effective domestic audience
 and any predictable mechanism for removing a belligerent leader.
-[Di Lonardo, Sun and Tyson 2020][journal_dilonardo_2020_autocratic_stability]
+[Di Lonardo et al. 2020][journal_dilonardo_2020_autocratic_stability]
 model foreign threats as increasing the probability an autocrat retains power,
 either by compelling greater domestic security
 or by letting the autocrat exploit the threat to deter challengers.
-[Piplani and Talmadge 2015][journal_piplani_talmadge_2015_war_helps]
+[Piplani and Talmadge 2016][journal_piplani_talmadge_2015_war_helps]
 find coup risk declining in the presence of enduring interstate conflict
 and report no evidence at all that war increases it.
 
@@ -2372,7 +2372,7 @@ rather than when coup risk is high.
 [Talmadge 2015][book_talmadge_2015_dictators_army]
 finds that regimes facing coup threats
 adopt promotion, training and command practices that squander military power.
-[Brown, Fariss and McMahon 2015][journal_brown_2015_recouping]
+[Brown et al. 2015][journal_brown_2015_recouping]
 close the loop in a direction this article should record,
 finding that leaders who coup-proof
 substitute for degraded fighting effectiveness
@@ -2454,7 +2454,7 @@ outweighs the alliance role in the industrial capacity pledge,
 which is a limit on what money alone can buy.
 
 **Workforce.**
-[Gerber and others 2026][research_gerber_2026_workforce]
+[Gerber 2026][research_gerber_2026_workforce]
 at RAND find workforce shortfalls threatening reconstitution
 within twelve to twenty-four months of a conflict,
 which is the position the accountability office figures in this article support.
@@ -2482,13 +2482,13 @@ built for small batches,
 which yields lead-time blowout rather than absent plant.
 [Hellberg and Lundmark 2025][journal_hellberg_2025_european_chains]
 find demand exceeding available supply capacity in Europe after 2022.
-[Scarazzato and others 2024][journal_scarazzato_2024_arms_production]
+[Scarazzato et al. 2024][journal_scarazzato_2024_arms_production]
 report that arms production actually fell 3.5 percent in real terms in 2022
 while orders had not yet converted into revenue,
 and that many firms faced difficulty scaling up.
 
 **The sharpest measurement in this cluster is European and recent.**
-[Knezevic 2026][journal_knezevic_2026_capacity_gap]
+[Knežević 2026][journal_knezevic_2026_capacity_gap]
 constructs a capacity gap index for 155 millimetre ammunition
 and finds delivered output running 20 to 50 percent below announced capacity
 across 2023 to 2025,
@@ -2565,7 +2565,7 @@ who finds material preponderance remains essential
 and sometimes the most important factor.
 
 **The peacekeeping evidence sharpens the unit of measurement rather than rejecting it.**
-[Hultman, Kathman and Shannon 2014][journal_hultman_2014_beyond_keeping_peace]
+[Hultman et al. 2014][journal_hultman_2014_beyond_keeping_peace]
 find a dose-response relationship in peacekeeping
 that holds for armed military troops and not for police or observers.
 Quinlivan's ratio counts troops and police together.
@@ -2583,7 +2583,7 @@ that invaders can exploit industrial societies and sustain control,
 which is the position most directly relevant to a Taiwan annexation.
 [Downes 2021][book_downes_2021_catastrophic_success]
 finds foreign-imposed regime change raises civil-war risk in the target.
-[Dobbins, McGinn and Crane 2003][research_dobbins_2003_nation_building]
+[Dobbins et al. 2003][research_dobbins_2003_nation_building]
 supply the resource benchmark,
 that nation-building requires substantial investments of money, troops and time.
 
@@ -2631,9 +2631,9 @@ and claim the feasibility of urban guerrilla activity rather than its effectiven
 **Feasibility and effectiveness are different claims
 and the distinction is the reason to prefer this one.**
 
-[Heath, Lilly and Han 2023][research_heath_2023_can_taiwan_resist]
+[Heath et al. 2023][research_heath_2023_can_taiwan_resist]
 at RAND assess whether Taiwan could resist a large-scale attack,
-and [Martin and others 2022][research_martin_2022_coercive_quarantine]
+and [Martin 2022][research_martin_2022_coercive_quarantine]
 model a coercive quarantine rather than an invasion,
 which is the scenario the energy stockpile figures above actually bear on.
 
@@ -2663,12 +2663,12 @@ and reach decoupling welfare losses as large as 15 percent in some regions,
 while stating explicitly that
 "without diffusion of ideas the size and variation across regions
 of the welfare losses would be substantially smaller".
-[Javorcik and others 2024][journal_javorcik_2024_friendshoring]
+[Javorcik et al. 2024][journal_javorcik_2024_friendshoring]
 put friendshoring losses at up to 4.7 percent of output in the worst-affected economies.
-[Attinasi and others 2024][journal_attinasi_2024_decoupling_costs]
+[Attinasi et al. 2024][journal_attinasi_2024_decoupling_costs]
 find welfare losses roughly five times larger in the short run than the long run,
 driven by rigid wages and low input substitutability.
-[Felbermayr, Mahlkow and Sandkamp 2023][journal_felbermayr_2023_cutting_value_chain]
+[Felbermayr et al. 2023][journal_felbermayr_2023_cutting_value_chain]
 find damage scaling inversely with the target economy's size.
 **Four models, four different answers, and in each case the authors name
 the assumption that produced the magnitude.**
@@ -2699,7 +2699,7 @@ so it is reported as a figure of unverified construction
 and nothing is inferred from it.
 
 **The only properly specified input-output disruption estimate located is tiny.**
-[Nassar and others 2024][research_usgs_2024_gallium_germanium]
+[Nassar et al. 2024][research_usgs_2024_gallium_germanium]
 at the United States Geological Survey
 couple post-disruption price equilibria with economic input-output tables
 and find that a complete Chinese export cutoff of gallium and germanium
@@ -2714,7 +2714,7 @@ The CSIS commentary on the economic impact of a Taiwan crisis
 declines a dollar figure by design,
 seeking to understand firm psychology
 rather than using formal models to estimate the impact.
-[Martin and others 2023][research_martin_2023_supply_chain_interdependence]
+[Martin 2023][research_martin_2023_supply_chain_interdependence]
 reach a tabletop judgment rather than a cost,
 concluding that there are generally no good short-term options.
 **No peer-reviewed macroeconomic model of a Taiwan contingency was located.
@@ -2723,11 +2723,11 @@ Every dollar figure in circulation comes from think tanks or private forecasters
 ### Whether decoupling policy achieves what it is for
 
 Four results face the same way and against the premise of the policy.
-[Crosignani and others 2024][research_crosignani_2024_geopolitical_risk]
+[Crosignani et al. 2024][research_crosignani_2024_geopolitical_risk]
 give firm-level evidence that American export controls
 destroyed about 130 billion dollars of supplier market capitalisation
 and produced no evidence of reshoring or friend-shoring.
-[Goldberg and others 2024][research_goldberg_2024_industrial_policy]
+[Goldberg et al. 2024][research_goldberg_2024_industrial_policy]
 find that Chinese semiconductor subsidies
 are not exceptional relative to other countries
 once differences in market size are taken into account,
@@ -2765,7 +2765,7 @@ at relatively low escalation risk and without exposing its fleet.
 and it is cheaper for the attacker than the invasion the wargames model.
 
 On the energy transition the scholarship divides over whether security counts as a criterion.
-[Gao, Yeh and Chen 2022][journal_gao_2022_unjust_failed_transition]
+[Gao et al. 2022][journal_gao_2022_unjust_failed_transition]
 document the 2025 energy mix target being missed by a wide margin.
 [Lau and Tsai 2022][journal_lau_tsai_2022_decarbonization_roadmap]
 score security and reliability alongside sustainability
@@ -3363,228 +3363,247 @@ and then stopping where the hard part starts.
 
 ## References
 
-- [Book, Downes 2021, Catastrophic Success, Why Foreign-Imposed Regime Change Goes Wrong][book_downes_2021_catastrophic_success]
-- [Book, Edelstein 2010, Occupational Hazards, Success and Failure in Military Occupation][book_edelstein_2010_occupational_hazards]
-- [Book, Fazal 2011, State Death, the Politics and Geography of Conquest, Occupation, and Annexation][book_fazal_2011_state_death]
-- [Book, Goemans 2000, War and Punishment][book_goemans_2000_war_and_punishment]
-- [Book, Harrison 1998, The Economics of World War II][book_harrison_1998_economics_ww2]
-- [Book, Ikenberry 2019, After Victory][book_ikenberry_2019_after_victory]
-- [Book, Ikle 2005, Every War Must End][book_ikle_2005_every_war_must_end]
-- [Book, Kalyvas 2006, The Logic of Violence in Civil War][book_kalyvas_2006_logic_of_violence]
-- [Book, Liberman 1998, Does Conquest Pay, the Exploitation of Occupied Industrial Societies][book_liberman_1998_does_conquest_pay]
-- [Book, Organski and Kugler 1980, The War Ledger][book_organski_kugler_1980_war_ledger]
-- [Book, Reiter 2009, How Wars End][book_reiter_2009_how_wars_end]
-- [Book, Rockoff 2012, America’s Economic Way of War][book_rockoff_2012_economic_way_of_war]
-- [Book, Talmadge 2015, The Dictator’s Army, Battlefield Effectiveness in Authoritarian Regimes][book_talmadge_2015_dictators_army]
-- [Book, Vonyo 2018, The Economic Consequences of the War, West Germany’s Growth Miracle After 1945][book_vonyo_2018_economic_consequences]
-- [Book, Weisiger 2013, Logics of War, Sources of Limited and Unlimited Conflict][book_weisiger_2013_logics_of_war]
-- [Commentary, Blanchette and McGregor 2026, After the Invasion, China Considers the Problem of Ruling Taiwan][commentary_blanchette_2026_after_invasion]
-- [Commentary, Heath 2023, Wargames Cannot Tell Us How to Deter a Chinese Attack on Taiwan][commentary_heath_2023_wargames_deterrence]
-- [Commentary, Heim, Burdette and Beauchamp-Mustafaga 2024, Denial Is the Worst Except for All the Others][commentary_heim_2024_denial_worst]
-- [Commentary, Sudduth 2026, Double-Edged Swords, How Military Purges Shape Authoritarian Appetite for War][commentary_sudduth_2026_double_edged_swords]
-- [Commentary, Tetreau 2023, Where the Wargames Were Not][commentary_tetreau_2023_where_the_wargames_were_not]
-- [Commentary, Trevithick 2023, Alarming Navy Intelligence Slide on Chinese Shipbuilding Capacity][commentary_twz_2023_oni_slide]
-- [Data, Boston Consulting Group and Semiconductor Industry Association 2021, Strengthening the Global Semiconductor Value Chain][data_bcg_sia_2021_value_chain]
-- [Data, Central Election Commission of the Republic of China, National Referendum Results Database][data_roc_cec_referendums]
-- [Data, Chicago Council on Global Affairs 2022, Thinking Nuclear, South Korean Attitudes on Nuclear Weapons][data_chicago_council_2022_south_korea]
-- [Data, Goemans, Gleditsch and Chiozza 2016, Archigos, a Data Set on Leaders 1875 to 2015, Version 4.1][data_archigos_2016_leader_dataset]
-- [Data, Office of the United States Trade Representative 2025, Report on China's Targeting of the Maritime, Logistics and Shipbuilding Sectors][data_ustr_2025_maritime]
-- [Data, Republic of China Ministry of the Interior 2026, Monthly Bulletin of Interior Statistics, Resident Population][data_moi_2026_taiwan_population]
-- [Government, Department of Defense 2022, State of Competition within the Defense Industrial Base][government_dod_2022_competition]
-- [Government, Department of Defense 2023, Military and Security Developments Involving the People’s Republic of China][government_dod_2023_china_report]
-- [Government, Department of State 1954, Memorandum of Conversation on the Government and Relief in Occupied Areas Claim][government_frus_1954_garioa_bookkeeping]
-- [Government, Department of State 1962, Settlement of the United States Claim for Postwar Economic Assistance to Japan][government_frus_1962_garioa_settlement]
-- [Government, Department of the Army and United States Marine Corps 2006, FM 3-24, Counterinsurgency][government_fm_3_24_2006]
-- [Government, Department of the Navy 2026, United States Navy Shipbuilding Plan, Fiscal Year 2027][government_navy_2026_shipbuilding_plan]
-- [Government, Department of War 2025, Military and Security Developments Involving the People’s Republic of China][government_dod_2025_china_report]
-- [Government, Economic Cooperation Administration 1951, Thirteenth Report to Congress][government_eca_1951_thirteenth_report]
-- [Government, Glasstone and Dolan 1977, The Effects of Nuclear Weapons, Third Edition, TID-28061][government_glasstone_dolan_1977]
-- [Government, Joint Chiefs of Staff 2018, Joint Publication 3-0, Joint Operations][government_jp_3_0_2018]
-- [Government, Office of Technology Assessment 1979, The Effects of Nuclear War][government_ota_1979_effects_of_nuclear_war]
-- [Government, Office of the Director of National Intelligence 2026, Annual Threat Assessment][government_odni_2026_threat_assessment]
-- [Government, Republic of China 2026, Petroleum Administration Act, Article 24][government_roc_petroleum_act]
-- [Government, United States Congress 1948, Economic Cooperation Act of 1948, 62 Stat. 137][government_economic_cooperation_act_1948]
-- [Government, United States Strategic Bombing Survey 1945, Over-all Report, European War][government_ussbs_1945_overall_report]
-- [Government, United States Strategic Bombing Survey 1946, Summary Report, Pacific War][government_ussbs_1946_pacific_summary]
-- [Government, US-China Economic and Security Review Commission 2025, Annual Report to Congress, Taiwan Chapter][government_uscc_2025_taiwan_chapter]
-- [Journal, Altman 2020, The Evolution of Territorial Conquest After 1945, International Organization 74 number 3][journal_altman_2020_territorial_conquest]
-- [Journal, Attinasi, Boeckelmann and Meunier 2024, The Economic Costs of Supply Chain Decoupling, The World Economy][journal_attinasi_2024_decoupling_costs]
-- [Journal, Baker and others 2021, Large Transformer Criticality, Threats, and Opportunities, Journal of Critical Infrastructure Policy 2 number 2][journal_baker_2021_large_transformers]
-- [Journal, Beaumier and Cartwright 2023, Cross-Network Weaponization in the Semiconductor Supply Chain, International Studies Quarterly 68 number 1][journal_beaumier_cartwright_2023_cross_network]
-- [Journal, Bellais 2023, Market Structures, Competition and Innovation, Defence and Peace Economics][journal_bellais_2023_market_structures]
-- [Journal, Blouin and others 2024, Assessing the Impact of Catastrophic Electricity Loss on the Food Supply Chain, International Journal of Disaster Risk Science 15][journal_blouin_2024_electricity_loss]
-- [Journal, Bosker, Brakman, Garretsen and Schramm 2007, Looking for Multiple Equilibria When Geography Matters, Journal of Urban Economics 61 number 1][journal_bosker_2007_multiple_equilibria]
-- [Journal, Bown and Wang 2024, Semiconductors and Modern Industrial Policy, Journal of Economic Perspectives 38 number 4][journal_bown_wang_2024_semiconductors]
-- [Journal, Brakman, Garretsen and Schramm 2004, The Strategic Bombing of German Cities, Journal of Economic Geography 4 number 2][journal_brakman_2004_german_bombing]
-- [Journal, Brooks and Wohlforth 2016, The Rise and Fall of the Great Powers in the Twenty-First Century, International Security 40 number 3][journal_brooks_wohlforth_2016_rise_and_fall]
-- [Journal, Brown, Fariss and McMahon 2015, Recouping After Coup-Proofing, International Interactions 42 number 1][journal_brown_2015_recouping]
-- [Journal, Bueno de Mesquita, Siverson and Woller 1992, War and the Fate of Regimes, American Political Science Review 86 number 3][journal_bueno_de_mesquita_1992]
-- [Journal, Caverley 2025, So What, Texas National Security Review 8 number 3][journal_caverley_2025]
-- [Journal, Cerra and Saxena 2008, Growth Dynamics, the Myth of Economic Recovery, American Economic Review 98 number 1][journal_cerra_saxena_2008_myth_of_recovery]
-- [Journal, Cha 2023, Collective Resilience, International Security 48 number 1][journal_cha_2023_collective_resilience]
-- [Journal, Chan and others 2025, Resilience Reconsidered, International Journal of Disaster Risk Science 16 number 4][journal_chan_2025_resilience]
-- [Journal, Chen and Evers 2023, Wars Without Gun Smoke, International Security 48 number 2][journal_chen_evers_2023_wars_without_gun_smoke]
-- [Journal, Chenoweth 2020, The Future of Nonviolent Resistance, Journal of Democracy 31 number 3][journal_chenoweth_2020_future_of_resistance]
-- [Journal, Chenoweth and Lewis 2013, Unpacking Nonviolent Campaigns, Journal of Peace Research 50 number 3][journal_chenoweth_lewis_2013_navco]
-- [Journal, Collier 1999, On the Economic Consequences of Civil War, Oxford Economic Papers 51 number 1][journal_collier_1999_economic_consequences]
-- [Journal, Collier and Hoeffler 2004, Aid, Policy and Growth in Post-Conflict Societies, European Economic Review 48 number 5][journal_collier_hoeffler_2004_aid_policy_growth]
-- [Journal, Costalli, Moretti and Pischedda 2017, The Economic Costs of Civil War, Journal of Peace Research 54 number 1][journal_costalli_2017_economic_costs]
-- [Journal, Coupe and others 2019, Nuclear Winter Responses to Nuclear War Between the United States and Russia, Journal of Geophysical Research Atmospheres 124 number 15][journal_coupe_2019_nuclear_winter_responses]
-- [Journal, Croco 2011, The Decider's Dilemma, American Political Science Review 105 number 3][journal_croco_2011]
-- [Journal, Croco and Weeks 2016, War Outcomes and Leader Tenure, World Politics 68 number 4][journal_croco_weeks_2016_war_outcomes_tenure]
-- [Journal, Cunningham and Fravel 2019, Dangerous Confidence, Chinese Views on Nuclear Escalation, International Security 44 number 2][journal_cunningham_fravel_2019_dangerous_confidence]
-- [Journal, Davis and Gholz 2026, Blockade by Fire, International Security 50 number 4][journal_davis_gholz_2026_blockade_by_fire]
-- [Journal, Davis and Weinstein 2002, Bones, Bombs, and Break Points, American Economic Review 92 number 5][journal_davis_weinstein_2002]
-- [Journal, Davis and Weinstein 2008, A Search for Multiple Equilibria in Urban Industrial Structure, Journal of Regional Science 48 number 1][journal_davis_weinstein_2008_multiple_equilibria]
-- [Journal, Debs and Goemans 2010, Regime Type, the Fate of Leaders, and War, American Political Science Review 104 number 3][journal_debs_goemans_2010]
-- [Journal, Dell and Querubin 2018, Nation Building Through Foreign Intervention, Quarterly Journal of Economics 133 number 2][journal_dell_querubin_2018_nation_building]
-- [Journal, Deutch 2022, Consolidation of the United States Defense Industrial Base, Defense Acquisition Research Journal 29 number 2][journal_deutch_2022_consolidation]
-- [Journal, Di Lonardo, Sun and Tyson 2020, Autocratic Stability in the Shadow of Foreign Threats, American Political Science Review 114 number 4][journal_dilonardo_2020_autocratic_stability]
-- [Journal, Dillon 2014, Determining Optimal Fallout Shelter Times Following a Nuclear Detonation, Proceedings of the Royal Society A 470][journal_dillon_2014_shelter_times]
-- [Journal, Dworschak 2023, Civil Resistance in the Streetlight, Comparative Politics 55 number 2][journal_dworschak_2023_streetlight]
-- [Journal, Eichengreen and Ritschl 2009, Understanding West German Economic Growth in the 1950s, Cliometrica 3 number 3][journal_eichengreen_ritschl_2009]
-- [Journal, Fabbrini 2024, European Defence Union, European Foreign Affairs Review][journal_fabbrini_2024_defence_union]
-- [Journal, Fearon 1995, Rationalist Explanations for War, International Organization 49 number 3][journal_fearon_1995_rationalist_explanations]
-- [Journal, Federle and others 2026, The Price of War, American Economic Review 116 number 3][journal_federle_2026_price_of_war]
-- [Journal, Feigenbaum, Lee and Mezzanotti 2022, Capital Destruction and Economic Growth, American Economic Journal Applied Economics 14 number 4][journal_feigenbaum_2022_capital_destruction]
-- [Journal, Felbermayr, Mahlkow and Sandkamp 2023, Cutting Through the Value Chain, Empirica 50 number 1][journal_felbermayr_2023_cutting_value_chain]
-- [Journal, Ferreira and Critelli 2023, Taiwan’s Food Resiliency or Not in a Conflict with China, Parameters 53 number 2][journal_ferreira_critelli_2023_food_resiliency]
-- [Journal, Field 2023, The Decline of US Manufacturing Productivity Between 1941 and 1948, Economic History Review][journal_field_2023_manufacturing_productivity]
-- [Journal, Flavin 2003, Planning for Conflict Termination and Post-Conflict Success, Parameters 33 number 3][journal_flavin_2003_conflict_termination]
-- [Journal, Fortna 2003, Scraps of Paper, Agreements and the Durability of Peace, International Organization 57 number 2][journal_fortna_2003_scraps_of_paper]
-- [Journal, Fravel 2005, Regime Insecurity and International Cooperation, International Security 30 number 2][journal_fravel_2005_regime_insecurity]
-- [Journal, Friedman 2011, Manpower and Counterinsurgency, Security Studies 20 number 4][journal_friedman_2011_manpower]
-- [Journal, Fu, Yin and Han 2024, The Human Cost of War, Conflict Management and Peace Science 42 number 5][journal_fu_2024_human_cost_of_war]
-- [Journal, Fuhrmann and Tkach 2015, Almost Nuclear, Introducing the Nuclear Latency Dataset, Conflict Management and Peace Science 32 number 4][journal_fuhrmann_tkach_2015_nuclear_latency]
-- [Journal, Gao, Yeh and Chen 2022, An Unjust and Failed Energy Transition Strategy, Energy Strategy Reviews][journal_gao_2022_unjust_failed_transition]
-- [Journal, Gavin 2010, Same As It Ever Was, Nuclear Alarmism, Proliferation, and the Cold War, International Security 34 number 3][journal_gavin_2010_same_as_it_ever_was]
-- [Journal, Gholz and Sapolsky 2000, Restructuring the United States Defense Industry, International Security 24 number 3][journal_gholz_sapolsky_2000_restructuring]
-- [Journal, Girod 2011, Effective Foreign Aid Following Civil War, American Journal of Political Science 56 number 1][journal_girod_2011_effective_foreign_aid]
-- [Journal, Glick and Taylor 2010, Collateral Damage, Review of Economics and Statistics 92 number 1][journal_glick_taylor_2010]
-- [Journal, Goemans 2008, Which Way Out, Journal of Conflict Resolution 52 number 6][journal_goemans_2008_which_way_out]
-- [Journal, Goemans, Gleditsch and Chiozza 2009, Introducing Archigos, Journal of Peace Research 46 number 2][journal_goemans_2009_archigos]
-- [Journal, Goes and Bekkers 2022, The Impact of Geopolitical Conflicts on Trade, Growth, and Innovation, WTO Staff Working Paper][journal_goes_bekkers_2022_geopolitical_conflicts]
-- [Journal, Goode 2009, A Historical Basis for Force Requirements in Counterinsurgency, Parameters 39 number 4][journal_goode_2009_force_requirements]
-- [Journal, Green and Talmadge 2022, Then What, International Security 47 number 1][journal_green_talmadge_2022]
-- [Journal, Hartzell and Hoddie 2003, Institutionalizing Peace, American Journal of Political Science 47 number 2][journal_hartzell_2003_institutionalizing_peace]
-- [Journal, Hellberg 2026, Reconfiguring Defence Supply Chains, Defence and Peace Economics][journal_hellberg_2026_supply_chains]
-- [Journal, Hellberg and Lundmark 2025, Transformation in European Defence Supply Chains, Scandinavian Journal of Military Studies][journal_hellberg_2025_european_chains]
-- [Journal, Henry 2020, What Allies Want, International Security 44 number 4][journal_henry_2020_what_allies_want]
-- [Journal, Hess 2021, The Impact of a Regional Nuclear Conflict Between India and Pakistan, Two Views, Journal for Peace and Nuclear Disarmament 4 number 1][journal_hess_2021_two_views]
-- [Journal, Hiim, Fravel and Trøan 2023, The Dynamics of an Entangled Security Dilemma, International Security 47 number 4][journal_hiim_2023_entangled_security_dilemma]
-- [Journal, Hornbeck and Keniston 2017, Creative Destruction, Barriers to Urban Growth and the Great Boston Fire of 1872, American Economic Review 107 number 6][journal_hornbeck_keniston_2017_creative_destruction]
-- [Journal, Hultman, Kathman and Shannon 2014, Beyond Keeping Peace, American Political Science Review 108 number 4][journal_hultman_2014_beyond_keeping_peace]
-- [Journal, Hyatt and Everhart 2025, The Shrinking Defense Industrial Base, Defense Acquisition Research Journal 32 number 2][journal_hyatt_2025_shrinking_base]
-- [Journal, Ikenberry 2018, The End of Liberal International Order, International Affairs 94 number 1][journal_ikenberry_2018_end_of_liberal_order]
-- [Journal, Javorcik and others 2024, Economic Costs of Friendshoring, The World Economy][journal_javorcik_2024_friendshoring]
-- [Journal, Jehn and others 2025, Food Trade Disruption After Global Catastrophes, Earth System Dynamics 16 number 5][journal_jehn_2025_food_trade]
-- [Journal, Jägermeyr and others 2020, A Regional Nuclear Conflict Would Compromise Global Food Security, Proceedings of the National Academy of Sciences 117 number 13][journal_jagermeyr_2020_food_security]
-- [Journal, King 2022, Urban Insurgency in the Twenty-First Century, International Affairs 98 number 2][journal_king_2022_urban_insurgency]
-- [Journal, Knezevic 2026, War Reindustrialization of the European Union, the Capacity Gap and Wright’s Law, Vojno delo 78 number 2][journal_knezevic_2026_capacity_gap]
-- [Journal, Koubi 2005, War and Economic Performance, Journal of Peace Research 42 number 1][journal_koubi_2005]
-- [Journal, Kowalski and Sahmali 2025, NATO and the Defence Production Challenge, Journal of Military and Strategic Studies][journal_kowalski_2025_nato_pledge]
-- [Journal, Kristensen and others 2025, Chinese Nuclear Weapons 2025, Bulletin of the Atomic Scientists 81 number 2][journal_kristensen_2025_chinese_nuclear_weapons]
-- [Journal, Lai and others 2026, Lost in Words, Framing Effects on Public Willingness to Fight, Public Opinion Quarterly 90][journal_lai_2026_lost_in_words]
-- [Journal, Lalwani 2017, Size Still Matters, Explaining Sri Lanka’s Counterinsurgency Victory, Small Wars and Insurgencies 28 number 1][journal_lalwani_2017_size_still_matters]
-- [Journal, Lau and Tsai 2022, A Decarbonization Roadmap for Taiwan, Sustainability 14][journal_lau_tsai_2022_decarbonization_roadmap]
-- [Journal, Lee, Chen and Chen 2024, Core Public Attitudes toward Defense and Security in Taiwan, Taiwan Politics][journal_lee_2024_taiwan_attitudes]
-- [Journal, Licklider 1995, The Consequences of Negotiated Settlements in Civil Wars, American Political Science Review 89 number 3][journal_licklider_1995_negotiated_settlements]
-- [Journal, Lyall and Wilson 2009, Rage Against the Machines, International Organization 63 number 1][journal_lyall_wilson_2009_rage_machines]
-- [Journal, Mangold 2026, The Cultural Factors of Defence Reforms, the Case of Taiwan, International Journal of Asia Pacific Studies 22 number 2][journal_mangold_2026_cultural_factors]
-- [Journal, Mearsheimer 2019, Bound to Fail, the Rise and Fall of the Liberal International Order, International Security 43 number 4][journal_mearsheimer_2019_bound_to_fail]
-- [Journal, Mearsheimer 2025, War and International Politics, International Security][journal_mearsheimer_2025_war_and_politics]
-- [Journal, Miguel and Roland 2011, The Long-Run Impact of Bombing Vietnam, Journal of Development Economics 96 number 1][journal_miguel_roland_2011]
-- [Journal, Miguel and Roland 2024, Corrigendum to The Long-Run Impact of Bombing Vietnam, Journal of Development Economics 166][journal_miguel_roland_2024_corrigendum]
-- [Journal, Mok 2026, Toward Undersea Cable Resilience, Texas National Security Review 9 number 3][journal_mok_2026_undersea_cable_resilience]
-- [Journal, Mueller 2012, Growth Dynamics, the Myth of Economic Recovery, Comment, American Economic Review 102 number 7][journal_mueller_2012_comment]
-- [Journal, Nemeth 2026, How a United States Suez Moment Could Hollow the Alliance System, Texas National Security Review 9 number 1][journal_nemeth_2026_suez_moment]
-- [Journal, Nguyen and others 2025, Second World War Bombing and the German City System, Global Challenges and Regional Science 1][journal_nguyen_2025_german_cities]
-- [Journal, Organski and Kugler 1977, The Costs of Major Wars, the Phoenix Factor, American Political Science Review 71 number 4][journal_organski_kugler_1977]
-- [Journal, Peterson and others 2021, Australia’s Black Summer Pyrocumulonimbus Super Outbreak, npj Climate and Atmospheric Science 4][journal_peterson_2021_black_summer]
-- [Journal, Phayal 2019, UN Troop Deployment and Preventing Violence Against Civilians, International Interactions 45 number 4][journal_phayal_2019_peacekeeping]
-- [Journal, Piplani and Talmadge 2015, When War Helps Civil-Military Relations, Journal of Conflict Resolution 60 number 8][journal_piplani_talmadge_2015_war_helps]
-- [Journal, Powell 2006, War as a Commitment Problem, International Organization 60 number 1][journal_powell_2006_commitment_problem]
-- [Journal, Quek and Johnston 2018, Can China Back Down, International Security 42 number 3][journal_quek_johnston_2018]
-- [Journal, Rajan and Subramanian 2008, Aid and Growth, Review of Economics and Statistics 90 number 4][journal_rajan_subramanian_2008_aid_and_growth]
-- [Journal, Redding, Sturm and Wolf 2011, History and Industry Location, Review of Economics and Statistics 93 number 3][journal_redding_2011_history_industry_location]
-- [Journal, Reisner and others 2018, Climate Impact of a Regional Nuclear Weapons Exchange, Journal of Geophysical Research Atmospheres 123 number 5][journal_reisner_2018]
-- [Journal, Reisner and others 2019, Reply to Comment by Robock and Others, Journal of Geophysical Research Atmospheres 124 number 23][journal_reisner_2019_reply]
-- [Journal, Riano and Valencia Caicedo 2024, Collateral Damage, the Legacy of the Secret War in Laos, Economic Journal][journal_riano_2024_collateral_damage]
-- [Journal, Rivers and others 2024, Food System Adaptation and Maintaining Trade Could Mitigate Global Famine, Global Food Security 43][journal_rivers_2024_food_system_adaptation]
-- [Journal, Robock, Toon and Bardeen 2019, Comment on Climate Impact of a Regional Nuclear Weapon Exchange, Journal of Geophysical Research Atmospheres 124 number 23][journal_robock_2019_comment]
-- [Journal, Salavrakos 2017, A Re-assessment of Japanese Armaments Production During World War II, Defence and Peace Economics][journal_salavrakos_2017_japanese_armaments]
-- [Journal, Scarazzato and others 2024, Developments in Arms Production and the Effects of the War in Ukraine, Defence and Peace Economics][journal_scarazzato_2024_arms_production]
-- [Journal, Scherrer and others 2020, Marine Wild-Capture Fisheries After Nuclear War, Proceedings of the National Academy of Sciences 117 number 47][journal_scherrer_2020_fisheries]
-- [Journal, Scouras 2019, Nuclear War as a Global Catastrophic Risk, Journal of Benefit-Cost Analysis 10 number 2][journal_scouras_2019_global_catastrophic_risk]
-- [Journal, Shi and others 2025, Adapting Agriculture to Climate Catastrophes, Environmental Research Letters 20 number 6][journal_shi_2025_adapting_agriculture]
-- [Journal, Shirkey 2016, Uncertainty and War Duration, International Studies Review 18 number 2][journal_shirkey_2016_uncertainty_duration]
-- [Journal, Siodla 2015, Razing San Francisco, Journal of Urban Economics 89][journal_siodla_2015_razing_san_francisco]
-- [Journal, Slantchev 2003, The Power to Hurt, American Political Science Review 97 number 1][journal_slantchev_2003_power_to_hurt]
-- [Journal, Stanley and Sawyer 2009, The Equifinality of War Termination, Journal of Conflict Resolution 53 number 5][journal_stanley_sawyer_2009]
-- [Journal, Stephan and Chenoweth 2008, Why Civil Resistance Works, International Security 33 number 1][journal_stephan_chenoweth_2008_why_civil_resistance]
-- [Journal, Stringer and Hooiveld 2023, Urban Resistance to Occupation, Parameters 53 number 2][journal_stringer_2023_urban_resistance]
-- [Journal, Sudduth 2017, Strategic Logic of Elite Purges in Dictatorships, Comparative Political Studies 50 number 13][journal_sudduth_2017_elite_purges]
-- [Journal, Sukin 2019, Credible Nuclear Security Commitments Can Backfire, Journal of Conflict Resolution 64 number 6][journal_sukin_2019_credible_commitments_backfire]
-- [Journal, Talmadge 2017, Would China Go Nuclear, International Security 41 number 4][journal_talmadge_2017_would_china_go_nuclear]
-- [Journal, Tarshish and Romps 2022, Latent Heating Is Required for Firestorm Plumes to Reach the Stratosphere, Journal of Geophysical Research Atmospheres 127 number 16][journal_tarshish_romps_2022_latent_heating]
-- [Journal, Thyne 2012, Information, Commitment, and Intra-War Bargaining, International Studies Quarterly 56 number 2][journal_thyne_2012_intra_war_bargaining]
-- [Journal, Toon and others 2007, Atmospheric Effects and Societal Consequences of Regional Scale Nuclear Conflicts, Atmospheric Chemistry and Physics 7 number 8][journal_toon_2007_atmospheric_effects]
-- [Journal, Vonyo 2012, The Bombing of Germany, European Review of Economic History 16 number 1][journal_vonyo_2012_bombing_of_germany]
-- [Journal, Wagman and others 2020, Examining the Climate Effects of a Regional Nuclear Weapons Exchange, Journal of Geophysical Research Atmospheres 125 number 24][journal_wagman_2020_multiscale]
-- [Journal, Waldinger 2016, Bombs, Brains, and Science, Review of Economics and Statistics 98 number 5][journal_waldinger_2016_bombs_brains]
-- [Journal, Walter 1997, The Critical Barrier to Civil War Settlement, International Organization 51 number 3][journal_walter_1997_critical_barrier]
-- [Journal, Weeks 2012, Strongmen and Straw Men, American Political Science Review 106 number 2][journal_weeks_2012_strongmen]
-- [Journal, Weisiger 2016, Learning from the Battlefield, International Organization 70 number 2][journal_weisiger_2016_learning_battlefield]
-- [Journal, Werner and Yuen 2005, Making and Keeping Peace, International Organization 59 number 2][journal_werner_yuen_2005_making_keeping_peace]
-- [Journal, Wolford 2017, The Problem of Shared Victory, Journal of Politics 79 number 2][journal_wolford_2017_shared_victory]
-- [Journal, Wolford, Reiter and Carrubba 2011, Information, Commitment, and War, Journal of Conflict Resolution 55 number 4][journal_wolford_2011_information_commitment]
-- [Journal, Wu 2023, Taiwan’s Security, Civilian Control and External Threat, Cogent Arts and Humanities][journal_wu_2023_taiwan_security]
-- [Journal, Xia and others 2015, Decadal Reduction of Chinese Agriculture After a Regional Nuclear War, Earth's Future 3 number 2][journal_xia_2015_chinese_agriculture]
-- [Journal, Xia and others 2022, Global Food Insecurity and Famine From Nuclear War Soot Injection, Nature Food 3 number 8][journal_xia_2022_nature_food]
-- [Related Post, Industrialization Waves and Geopolitical Positioning, China's Rise][related_post_china_rise]
-- [Related Post, Industrialization Waves and Geopolitical Positioning, Postwar Japan and West Germany][related_post_postwar_japan_germany]
-- [Related Post, What Published Wargames Say About a War With China][related_post_published_wargames]
-- [Research, Beauchamp-Mustafaga and others 2024, Denial Without Disaster, Volume 3][research_beauchamp_2024_denial_without_disaster_v3]
-- [Research, Buddemeier and Dillon 2009, Key Response Planning Factors for the Aftermath of Nuclear Terrorism][research_buddemeier_2009_response_planning]
-- [Research, Cancian and others 2021, Industrial Mobilization, Assessing Surge Capabilities and System Brittleness][research_cancian_2021_industrial_mobilization]
-- [Research, Cancian and Park 2026, Last Rounds, Status of Key Munitions at the Iran War Ceasefire][research_cancian_2026_last_rounds]
-- [Research, Cancian and Park 2026, Rebuilding United States Missile Inventory, a Multiyear Project][research_cancian_2026_missile_rebuild]
-- [Research, Cancian and Park 2026, Six Reasons Why the United States Is Low on Munitions][research_cancian_2026_six_reasons]
-- [Research, Cancian, Cancian and Heginbotham 2023, The First Battle of the Next War][research_cancian_2023_first_battle]
-- [Research, Crosignani and others 2024, Geopolitical Risk and Decoupling, Evidence from United States Export Controls][research_crosignani_2024_geopolitical_risk]
-- [Research, De Long and Eichengreen 1991, The Marshall Plan, History's Most Successful Structural Adjustment Program][research_delong_eichengreen_1991_marshall]
-- [Research, Dobbins, McGinn and Crane 2003, America’s Role in Nation-Building, From Germany to Iraq][research_dobbins_2003_nation_building]
-- [Research, Evans 2023, Alternative Futures Following a Great Power War, Volume 2][research_evans_2023_alternative_futures_v2]
-- [Research, Funaiole 2026, Testimony on Countering Chinese Dominance in Global Shipbuilding][research_funaiole_2026_testimony]
-- [Research, Garlauskas, Gilbert and Imai 2025, A Rising Nuclear Double-Threat in East Asia][research_garlauskas_2025_guardian_tiger]
-- [Research, General Accounting Office 1998, Defense Industry, Consolidation and Options for Preserving Competition][research_gao_1998_defense_consolidation]
-- [Research, Gerber and others 2026, Breaking Glass, Missing Hands, Addressing Workforce Constraints][research_gerber_2026_workforce]
-- [Research, Goldberg and others 2024, Industrial Policy in the Global Semiconductor Sector][research_goldberg_2024_industrial_policy]
-- [Research, Gompert, Cevallos and Garafola 2016, War with China, Thinking Through the Unthinkable][research_gompert_2016_war_with_china]
-- [Research, Government Accountability Office 2022, Defense Industrial Base, DOD Should Take Actions to Strengthen Its Risk Mitigation Approach][research_gao_2022_industrial_base]
-- [Research, Government Accountability Office 2025, Shipbuilding and Repair, Private Sector Industrial Base Investments][research_gao_2025_shipbuilding_workforce]
-- [Research, Gunzinger and Penney 2026, Rebuilding America's Air Force][research_gunzinger_2026_rebuilding_air_force]
-- [Research, Heath, Lilly and Han 2023, Can Taiwan Resist a Large-Scale Military Attack by China][research_heath_2023_can_taiwan_resist]
-- [Research, Jones 2023, Empty Bins in a Wartime Environment][research_jones_2023_empty_bins]
-- [Research, Krepinevich 2020, Protracted Great-Power War, a Preliminary Assessment][research_krepinevich_2020_protracted_great_power_war]
-- [Research, Labs 2025, The Navy's 2025 Shipbuilding Plan and the Shipbuilding Industrial Base][research_labs_2025_cbo_shipbuilding]
-- [Research, Martin and others 2022, Implications of a Coercive Quarantine of Taiwan][research_martin_2022_coercive_quarantine]
-- [Research, Martin and others 2023, Supply Chain Interdependence and Geopolitical Vulnerability, Taiwan and High-End Semiconductors][research_martin_2023_supply_chain_interdependence]
-- [Research, McGregor and Blanchette 2026, After Annexation, How China Plans to Run Taiwan][research_mcgregor_2026_after_annexation]
-- [Research, Nassar and others 2024, Quantifying Potential Effects of China’s Gallium and Germanium Export Restrictions on the United States Economy][research_usgs_2024_gallium_germanium]
-- [Research, National Academies 2025, Potential Environmental Effects of Nuclear War][research_nas_2025_nuclear_war_effects]
-- [Research, O'Rourke 2026, Navy Virginia-Class Submarine Program][research_orourke_2026_virginia_class]
-- [Research, Oakley 2026, Navy and Coast Guard Shipbuilding, a Strategy-Driven Approach Is Needed][research_oakley_2026_gao_shipbuilding]
-- [Research, Predd and others 2025, Thinking Through Protracted War with China, Nine Scenarios][research_predd_2025_protracted_war]
-- [Research, Priebe and others 2023, Alternative Futures Following a Great Power War, Volume 1][research_priebe_2023_alternative_futures_v1]
-- [Research, Quinlivan 1995, Force Requirements in Stability Operations, Parameters 25][research_quinlivan_1995_force_requirements]
-- [Research, Quinlivan 2003, Burden of Victory, the Painful Arithmetic of Stability Operations][research_quinlivan_2003_burden_of_victory]
-- [Research, Rumbaugh 2026, Solid Rocket Motors for Missile Defense][research_rumbaugh_2026_solid_rocket_motors]
-- [Research, Special Inspector General for Iraq Reconstruction 2013, Learning From Iraq][research_sigir_2013_learning_from_iraq]
-- [Research, Stewart 2023, Island Blitz, a Campaign Analysis of a Taiwan Takeover][research_stewart_2023_island_blitz]
-- [Research, Tarnoff 2018, The Marshall Plan, Design, Accomplishments, and Significance][research_tarnoff_2018_marshall_plan]
-- [Research, World Bank 1996, Bosnia and Herzegovina, the Priority Reconstruction and Recovery Program][research_world_bank_1996_bosnia]
-- [Research, World Bank, Government of Ukraine, European Commission and United Nations 2025, Ukraine Fourth Rapid Damage and Needs Assessment, February 2022 to December 2024][research_world_bank_2025_rdna4]
+<!-- References generated by _lib/sources.py from _sources/. Edit the database and regenerate. Do not edit this section by hand. -->
+
+### Primary Sources, Peer-Reviewed
+
+- Attinasi, Maria-Grazia, Lukas Boeckelmann, and Baptiste Meunier. 2024. "The Economic Costs of Supply Chain Decoupling." *World Economy* 48 (3): 598–627. [https://doi.org/10.1111/twec.13655][journal_attinasi_2024_decoupling_costs]
+- Baker, George, Ian Webb, Klaehn Burkes, and Joseph Cordaro. 2021. "Large Transformer Criticality, Threats, and Opportunities." *Journal of Critical Infrastructure Policy* 2 (2): 81–101. [https://doi.org/10.18278/jcip.2.2.5][journal_baker_2021_large_transformers]
+- Bellais, Renaud. 2023. "Market Structures, Competition and Innovation: Grounds for an Alternative Defence Industrial Policy." *Defence and Peace Economics* 35 (4): 448–63. [https://doi.org/10.1080/10242694.2023.2182869][journal_bellais_2023_market_structures]
+- Blouin, Simon, Alexander Herwix, Morgan Rivers, Ross J. Tieman, and David C. Denkenberger. 2024. "Assessing the Impact of Catastrophic Electricity Loss on the Food Supply Chain." *International Journal of Disaster Risk Science* 15 (4): 481–93. [https://doi.org/10.1007/s13753-024-00574-6][journal_blouin_2024_electricity_loss]
+- Bosker, Maarten, Steven Brakman, Harry Garretsen, and Marc Schramm. 2007. "Looking for Multiple Equilibria When Geography Matters: German City Growth and the WWII Shock." *Journal of Urban Economics* 61 (1): 152–69. [https://doi.org/10.1016/j.jue.2006.07.001][journal_bosker_2007_multiple_equilibria]
+- Brown, Cameron S., Christopher J. Fariss, and R. Blake McMahon. 2015. "Recouping after Coup-Proofing: Compromised Military Effectiveness and Strategic Substitution." *International Interactions* 42 (1): 1–30. [https://doi.org/10.1080/03050629.2015.1046598][journal_brown_2015_recouping]
+- Chan, Christopher Yan-Chak, Giuseppe Dal Prá, Isabel Johnson, Matt Boyd, and Ram Eirik Glomseth. 2025. "Resilience Reconsidered: The Need for Modeling Resilience in Food Distribution and Trade Relations in Post Nuclear War Recovery." *International Journal of Disaster Risk Science* 16 (4): 669–81. [https://doi.org/10.1007/s13753-025-00657-y][journal_chan_2025_resilience]
+- Collier, Paul, and Anke Hoeffler. 2004. "Aid, Policy and Growth in Post-Conflict Societies." *European Economic Review* 48 (5): 1125–45. [https://doi.org/10.1016/j.euroecorev.2003.11.005][journal_collier_hoeffler_2004_aid_policy_growth]
+- Davis, Donald R., and David E. Weinstein. 2008. "A Search for Multiple Equilibria in Urban Industrial Structure." *Journal of Regional Science* 48 (1): 29–65. [https://doi.org/10.1111/j.1467-9787.2008.00545.x][journal_davis_weinstein_2008_multiple_equilibria]
+- Eichengreen, Barry, and Albrecht Ritschl. 2009. "Understanding West German Economic Growth in the 1950s." *Cliometrica* 3 (3): 191–219. [https://doi.org/10.1007/s11698-008-0035-7][journal_eichengreen_ritschl_2009]
+- Felbermayr, Gabriel, Hendrik Mahlkow, and Alexander Sandkamp. 2023. "Cutting through the Value Chain: The Long-Run Effects of Decoupling the East from the West." *Empirica* 50 (1): 75–108. [https://doi.org/10.1007/s10663-022-09561-w][journal_felbermayr_2023_cutting_value_chain]
+- Field, Alexander J. 2023. "The Decline of US Manufacturing Productivity between 1941 and 1948." *Economic History Review* 76 (4): 1163–90. [https://doi.org/10.1111/ehr.13239][journal_field_2023_manufacturing_productivity]
+- Friedman, Jeffrey A. 2011. "Manpower and Counterinsurgency: Empirical Foundations for Theory and Doctrine." *Security Studies* 20 (4): 556–91. [https://doi.org/10.1080/09636412.2011.625768][journal_friedman_2011_manpower]
+- Gao, Anton Ming-Zhi, Tsung Kuang Yeh, and Jong-Shun Chen. 2022. "An Unjust and Failed Energy Transition Strategy? Taiwan's Goal of Becoming Nuclear-Free by 2025." *Energy Strategy Reviews* 44: 100991. [https://doi.org/10.1016/j.esr.2022.100991][journal_gao_2022_unjust_failed_transition]
+- Girod, Desha M. 2011. "Effective Foreign Aid Following Civil War: The Nonstrategic-Desperation Hypothesis." *American Journal of Political Science* 56 (1): 188–201. [https://doi.org/10.1111/j.1540-5907.2011.00552.x][journal_girod_2011_effective_foreign_aid]
+- Hartzell, Caroline, and Matthew Hoddie. 2003. "Institutionalizing Peace: Power Sharing and Post-Civil War Conflict Management." *American Journal of Political Science* 47 (2): 318–32. [https://doi.org/10.1111/1540-5907.00022][journal_hartzell_2003_institutionalizing_peace]
+- Hellberg, Roland. 2026. "Reconfiguring Defence Supply Chains: Procurement Dynamics, Inter-Organizational Dependence, and Resilience under Geopolitical Uncertainty." *Defence and Peace Economics*: 1–40. [https://doi.org/10.1080/10242694.2026.2655381][journal_hellberg_2026_supply_chains]
+- Hess, G. D. 2021. "The Impact of a Regional Nuclear Conflict between India and Pakistan: Two Views." *Journal for Peace and Nuclear Disarmament* 4 (sup1): 163–75. [https://doi.org/10.1080/25751654.2021.1882772][journal_hess_2021_two_views]
+- Javorcik, Beata, Lucas Kitzmüller, Helena Schweiger, and Muhammed A. Yıldırım. 2024. "Economic Costs of Friendshoring." *World Economy* 47 (7): 2871–2908. [https://doi.org/10.1111/twec.13555][journal_javorcik_2024_friendshoring]
+- Kristensen, Hans M., Matt Korda, Eliana Johns, and Mackenzie Knight. 2025. "Chinese Nuclear Weapons, 2025." *Bulletin of the Atomic Scientists* 81 (2): 135–60. [https://doi.org/10.1080/00963402.2025.2467011][journal_kristensen_2025_chinese_nuclear_weapons]
+- Lalwani, Sameer P. 2017. "Size Still Matters: Explaining Sri Lanka’s Counterinsurgency Victory over the Tamil Tigers." *Small Wars & Insurgencies* 28 (1): 119–65. [https://doi.org/10.1080/09592318.2016.1263470][journal_lalwani_2017_size_still_matters]
+- Lau, Hon Chung, and Steve C. Tsai. 2022. "A Decarbonization Roadmap for Taiwan and Its Energy Policy Implications." *Sustainability* 14 (14): 8425. [https://doi.org/10.3390/su14148425][journal_lau_tsai_2022_decarbonization_roadmap]
+- Miguel, Edward, and Gérard Roland. 2011. "The Long-Run Impact of Bombing Vietnam." *Journal of Development Economics* 96 (1): 1–15. [https://doi.org/10.1016/j.jdeveco.2010.07.004][journal_miguel_roland_2011]
+- Miguel, Edward, and Gérard Roland. 2024. "Corrigendum to “the Long-Run Impact of Bombing Vietnam” \[J. Dev. Econ. 96 (2011) 1–15/1\]." *Journal of Development Economics* 166: 103151. [https://doi.org/10.1016/j.jdeveco.2023.103151][journal_miguel_roland_2024_corrigendum]
+- Nguyen, Duc A., Steven Brakman, Harry Garretsen, and Tristan Kohl. 2025. "WWII Bombing and the German City System: Back to the Synthetic Mean?" *Global Challenges & Regional Science* 1: 100004. [https://doi.org/10.1016/j.gcrs.2025.100004][journal_nguyen_2025_german_cities]
+- Peterson, David A., Michael D. Fromm, Richard H. D. McRae, et al. 2021. "Australia’s Black Summer Pyrocumulonimbus Super Outbreak Reveals Potential for Increasingly Extreme Stratospheric Smoke Events." *npj Climate and Atmospheric Science* 4 (1): 38. [https://doi.org/10.1038/s41612-021-00192-9][journal_peterson_2021_black_summer]
+- Phayal, Anup. 2019. "UN Troop Deployment and Preventing Violence against Civilians in Darfur." *International Interactions* 45 (5): 757–80. [https://doi.org/10.1080/03050629.2019.1593161][journal_phayal_2019_peacekeeping]
+- Rivers, Morgan, Michael Hinge, Kevin Rassool, et al. 2024. "Food System Adaptation and Maintaining Trade Could Mitigate Global Famine in Abrupt Sunlight Reduction Scenarios." *Global Food Security* 43: 100807. [https://doi.org/10.1016/j.gfs.2024.100807][journal_rivers_2024_food_system_adaptation]
+- Salavrakos, Ioannis-Dionysios. 2017. "A Re-Assessment of the Japanese Armaments Production during World War II." *Defence and Peace Economics* 29 (7): 871–85. [https://doi.org/10.1080/10242694.2017.1293776][journal_salavrakos_2017_japanese_armaments]
+- Scarazzato, Lorenzo, Xiao Liang, Nan Tian, and Diego Lopes da Silva. 2024. "Developments in Arms Production and the Effects of the War in Ukraine." *Defence and Peace Economics* 35 (6): 673–93. [https://doi.org/10.1080/10242694.2024.2381784][journal_scarazzato_2024_arms_production]
+- Siodla, James. 2015. "Razing San Francisco: The 1906 Disaster as a Natural Experiment in Urban Redevelopment." *Journal of Urban Economics* 89: 48–61. [https://doi.org/10.1016/j.jue.2015.07.001][journal_siodla_2015_razing_san_francisco]
+- Wu, Shang-Su. 2023. "Taiwan’s Security: Civilian Control and External Threat." *Cogent Arts & Humanities* 10 (1): 2220211. [https://doi.org/10.1080/23311983.2023.2220211][journal_wu_2023_taiwan_security]
+- Xia, Lili, Alan Robock, Kim Scherrer, et al. 2022. "Global Food Insecurity and Famine from Reduced Crop, Marine Fishery and Livestock Production Due to Climate Disruption from Nuclear War Soot Injection." *Nature Food* 3 (8): 586–96. [https://doi.org/10.1038/s43016-022-00573-0][journal_xia_2022_nature_food]
+
+### Primary Sources, Non-Peer-Reviewed
+
+- Altman, Dan. 2020. "The Evolution of Territorial Conquest after 1945 and the Limits of the Territorial Integrity Norm." *International Organization* 74 (3): 490–522. [https://doi.org/10.1017/s0020818320000119][journal_altman_2020_territorial_conquest]
+- Beauchamp-Mustafaga, Nathan, Elliot Ji, Alexis Dale-Huang, Cindy Zheng, Gregory Graff, and Dahlia Anne Goldfeld. 2024. *Denial without Disaster—Keeping a U.S.-China Conflict over Taiwan under the Nuclear Threshold: Vol. 3, China's Evolving Nuclear Strategy and Nuclear Use Threshold(s)—and Their Future Risk Factors*. RR-A2312-3. RAND Corporation. [https://www.rand.org/pubs/research\_reports/RRA2312-3.html][research_beauchamp_2024_denial_without_disaster_v3]
+- Beaumier, Guillaume, and Madison Cartwright. 2023. "Cross-Network Weaponization in the Semiconductor Supply Chain." *International Studies Quarterly* 68 (1): sqae003. [https://doi.org/10.1093/isq/sqae003][journal_beaumier_cartwright_2023_cross_network]
+- Bown, Chad P., and Dan Wang. 2024. "Semiconductors and Modern Industrial Policy." *Journal of Economic Perspectives* 38 (4): 81–110. [https://doi.org/10.1257/jep.38.4.81][journal_bown_wang_2024_semiconductors]
+- Brakman, S., H. Garretsen, and M. Schramm. 2004. "The Strategic Bombing of German Cities during World War II and Its Impact on City Growth." *Journal of Economic Geography* 4 (2): 201–18. [https://doi.org/10.1093/jeg/4.2.201][journal_brakman_2004_german_bombing]
+- Brooks, Stephen G., and William C. Wohlforth. 2016. "The Rise and Fall of the Great Powers in the Twenty-First Century: China's Rise and the Fate of America's Global Position." *International Security* 40 (3): 7–53. [https://doi.org/10.1162/isec\_a\_00225][journal_brooks_wohlforth_2016_rise_and_fall]
+- Buddemeier, B. R., and M. B. Dillon. 2009. *Key Response Planning Factors for the Aftermath of Nuclear Terrorism*. Lawrence Livermore National Laboratory. [https://www.osti.gov/servlets/purl/966550][research_buddemeier_2009_response_planning]
+- Bueno de Mesquita, Bruce, Randolph M. Siverson, and Gary Woller. 1992. "War and the Fate of Regimes: A Comparative Analysis." *American Political Science Review* 86 (3): 638–46. [https://doi.org/10.2307/1964127][journal_bueno_de_mesquita_1992]
+- Cancian, Mark F. 2021. *Industrial Mobilization: Assessing Surge Capabilities, Wartime Risk, and System Brittleness*. Center for Strategic and International Studies. [https://csis-website-prod.s3.amazonaws.com/s3fs-public/publication/210108\_Cancian\_Industrial\_Mobilization.pdf][research_cancian_2021_industrial_mobilization]
+- Cancian, Mark F., Matthew Cancian, and Eric Heginbotham. 2023. *The First Battle of the Next War: Wargaming a Chinese Invasion of Taiwan*. Center for Strategic and International Studies. [https://csis-website-prod.s3.amazonaws.com/s3fs-public/publication/230109\_Cancian\_FirstBattle\_NextWar.pdf][research_cancian_2023_first_battle]
+- Cancian, Mark F., and Chris H. Park. 2026a. *Last Rounds? Status of Key Munitions at the Iran War Ceasefire*. Center for Strategic and International Studies. [https://www.csis.org/analysis/last-rounds-status-key-munitions-iran-war-ceasefire][research_cancian_2026_last_rounds]
+- Caverley, Jonathan D. 2025. "So What? Reassessing the Military Implications of Chinese Control of Taiwan." *Texas National Security Review* 8 (3): 28–53. [https://doi.org/10.1353/tns.00004][journal_caverley_2025]
+- Cerra, Valerie, and Sweta Chaman Saxena. 2008. "Growth Dynamics: The Myth of Economic Recovery." *American Economic Review* 98 (1): 439–57. [https://doi.org/10.1257/aer.98.1.439][journal_cerra_saxena_2008_myth_of_recovery]
+- Cha, Victor D. 2023. "Collective Resilience: Deterring China's Weaponization of Economic Interdependence." *International Security* 48 (1): 91–124. [https://doi.org/10.1162/isec\_a\_00465][journal_cha_2023_collective_resilience]
+- Chen, Ling S., and Miles M. Evers. 2023. "“Wars without Gun Smoke”: Global Supply Chains, Power Transitions, and Economic Statecraft." *International Security* 48 (2): 164–204. [https://doi.org/10.1162/isec\_a\_00473][journal_chen_evers_2023_wars_without_gun_smoke]
+- Chenoweth, Erica. 2020. "The Future of Nonviolent Resistance." *Journal of Democracy* 31 (3): 69–84. [https://doi.org/10.1353/jod.2020.0046][journal_chenoweth_2020_future_of_resistance]
+- Chenoweth, Erica, and Orion A. Lewis. 2013. "Unpacking Nonviolent Campaigns." *Journal of Peace Research* 50 (3): 415–23. [https://doi.org/10.1177/0022343312471551][journal_chenoweth_lewis_2013_navco]
+- Collier, P. 1999. "On the Economic Consequences of Civil War." *Oxford Economic Papers* 51 (1): 168–83. [https://doi.org/10.1093/oep/51.1.168][journal_collier_1999_economic_consequences]
+- Costalli, Stefano, Luigi Moretti, and Costantino Pischedda. 2017. "The Economic Costs of Civil War." *Journal of Peace Research* 54 (1): 80–98. [https://doi.org/10.1177/0022343316675200][journal_costalli_2017_economic_costs]
+- Coupe, Joshua, Charles G. Bardeen, Alan Robock, and Owen B. Toon. 2019. "Nuclear Winter Responses to Nuclear War between the United States and Russia in the Whole Atmosphere Community Climate Model Version 4 and the Goddard Institute for Space Studies ModelE." *Journal of Geophysical Research: Atmospheres* 124 (15): 8522–43. [https://doi.org/10.1029/2019jd030509][journal_coupe_2019_nuclear_winter_responses]
+- Croco, Sarah E. 2011. "The Decider's Dilemma: Leader Culpability, War Outcomes, and Domestic Punishment." *American Political Science Review* 105 (3): 457–77. [https://doi.org/10.1017/s0003055411000219][journal_croco_2011]
+- Croco, Sarah E., and Jessica L. P. Weeks. 2016. "War Outcomes and Leader Tenure." *World Politics* 68 (4): 577–607. [https://doi.org/10.1017/s0043887116000071][journal_croco_weeks_2016_war_outcomes_tenure]
+- Crosignani, Matteo, Lina Han, Marco Macchiavelli, and André F. Silva. 2024. *Geopolitical Risk and Decoupling: Evidence from U.S. Export Controls*. Federal Reserve Bank of New York. [https://doi.org/10.59576/sr.1096][research_crosignani_2024_geopolitical_risk]
+- Cunningham, Fiona S., and M. Taylor Fravel. 2019. "Dangerous Confidence? Chinese Views on Nuclear Escalation." *International Security* 44 (2): 61–109. [https://doi.org/10.1162/isec\_a\_00359][journal_cunningham_fravel_2019_dangerous_confidence]
+- Dalton, Toby, Karl Friedhoff, and Lami Kim. 2022. *Thinking Nuclear: South Korean Attitudes on Nuclear Weapons*. Chicago Council on Global Affairs. [https://globalaffairs.org/research/public-opinion-survey/thinking-nuclear-south-korean-attitudes-nuclear-weapons][data_chicago_council_2022_south_korea]
+- Davis, Kerby, and Eugene Gholz. 2026. "Blockade by Fire: China's Potential to Blockade Taiwan Using Missile Attacks on Ports." *International Security* 50 (4): 176–231. [https://doi.org/10.1162/isec.a.407][journal_davis_gholz_2026_blockade_by_fire]
+- Davis, Donald R., and David E. Weinstein. 2002. "Bones, Bombs, and Break Points: The Geography of Economic Activity." *American Economic Review* 92 (5): 1269–89. [https://doi.org/10.1257/000282802762024502][journal_davis_weinstein_2002]
+- De Long, J. Bradford, and Barry Eichengreen. 1991. *The Marshall Plan: History's Most Successful Structural Adjustment Program*. 3899. National Bureau of Economic Research. [https://www.nber.org/system/files/working\_papers/w3899/w3899.pdf][research_delong_eichengreen_1991_marshall]
+- Debs, Alexandre, and H. E. Goemans. 2010. "Regime Type, the Fate of Leaders, and War." *American Political Science Review* 104 (3): 430–45. [https://doi.org/10.1017/s0003055410000195][journal_debs_goemans_2010]
+- Dell, Melissa, and Pablo Querubin. 2017. "Nation Building through Foreign Intervention: Evidence from Discontinuities in Military Strategies." *Quarterly Journal of Economics* 133 (2): 701–64. [https://doi.org/10.1093/qje/qjx037][journal_dell_querubin_2018_nation_building]
+- Department of the Navy. 2026. *Fiscal Year 2027 Shipbuilding Plan*. Department of the Navy. [https://www.secnav.navy.mil/fmc/fmb/Documents/27pres/30%20Year%20Shipbuilding%20Plan.pdf][government_navy_2026_shipbuilding_plan]
+- Department of War. 2025. *Annual Report to Congress: Military and Security Developments Involving the People's Republic of China 2025*. Department of War. [https://media.defense.gov/2025/Dec/23/2003849070/-1/-1/1/ANNUAL-REPORT-TO-CONGRESS-MILITARY-AND-SECURITY-DEVELOPMENTS-INVOLVING-THE-PEOPLES-REPUBLIC-OF-CHINA-2025.PDF][government_dod_2025_china_report]
+- Deutch, John. 2022. "Consolidation of the U.S. Defense Industrial Base." *Defense Acquisition Research Journal* 29 (100): 104–25. [https://doi.org/10.22594/dau.21-889.29.02][journal_deutch_2022_consolidation]
+- Di Lonardo, Livio, Jessica S. Sun, and Scott A. Tyson. 2020. "Autocratic Stability in the Shadow of Foreign Threats." *American Political Science Review* 114 (4): 1247–65. [https://doi.org/10.1017/s0003055420000489][journal_dilonardo_2020_autocratic_stability]
+- Dillon, Michael B. 2014. "Determining Optimal Fallout Shelter Times Following a Nuclear Detonation." *Proceedings of the Royal Society A: Mathematical, Physical and Engineering Sciences* 470 (2163): 20130693. [https://doi.org/10.1098/rspa.2013.0693][journal_dillon_2014_shelter_times]
+- Dworschak, Christoph. 2023. "Civil Resistance in the Streetlight: Replicating and Assessing Evidence on Nonviolent Effectiveness." *Comparative Politics* 55 (4): 639–51. [https://doi.org/10.5129/001041523x16745900727169][journal_dworschak_2023_streetlight]
+- Economic Cooperation Administration. 1951. *Thirteenth Report to Congress of the Economic Cooperation Administration: For the Quarter Ended June 30, 1951*. H. Doc. 82-249. U.S. Government Printing Office. [https://www.govinfo.gov/content/pkg/SERIALSET-11551\_00\_00-005-0249-0000/pdf/SERIALSET-11551\_00\_00-005-0249-0000.pdf][government_eca_1951_thirteenth_report]
+- Evans, Alexandra T. 2023. *Alternative Futures Following a Great Power War: Volume 2, Supporting Material on Historical Great Power Wars*. RR-A591-2. RAND Corporation. [https://www.rand.org/pubs/research\_reports/RRA591-2.html][research_evans_2023_alternative_futures_v2]
+- Fabbrini, Federico. 2024. "European Defence Union ASAP: The Act in Support of Ammunition Production and the Development of EU Defence Capabilities in Response to the War in Ukraine." *European Foreign Affairs Review* 29 (Issue 1): 67–84. [https://doi.org/10.54648/eerr2024004][journal_fabbrini_2024_defence_union]
+- Fearon, James D. 1995. "Rationalist Explanations for War." *International Organization* 49 (3): 379–414. [https://doi.org/10.1017/s0020818300033324][journal_fearon_1995_rationalist_explanations]
+- Federle, Jonathan, André Meier, Gernot J. Müller, Willi Mutschler, and Moritz Schularick. 2026. "The Price of War." *American Economic Review* 116 (3): 791–827. [https://doi.org/10.1257/aer.20241355][journal_federle_2026_price_of_war]
+- Feigenbaum, James, James Lee, and Filippo Mezzanotti. 2022. "Capital Destruction and Economic Growth: The Effects of Sherman’s March, 1850–1920." *American Economic Journal: Applied Economics* 14 (4): 301–42. [https://doi.org/10.1257/app.20200397][journal_feigenbaum_2022_capital_destruction]
+- Ferreira, Gustavo F., and Jamie A. Critelli. 2023. "Taiwan’s Food Resiliency—or Not—in a Conflict with China." *US Army War College Quarterly: Parameters* 53 (2). [https://doi.org/10.55540/0031-1723.3222][journal_ferreira_critelli_2023_food_resiliency]
+- Flavin, William. 2003. "Planning for Conflict Termination and Post-Conflict Success." *US Army War College Quarterly: Parameters* 33 (3). [https://doi.org/10.55540/0031-1723.2162][journal_flavin_2003_conflict_termination]
+- Fortna, Virginia Page. 2003. "Scraps of Paper? Agreements and the Durability of Peace." *International Organization* 57 (2): 337–72. [https://doi.org/10.1017/s0020818303572046][journal_fortna_2003_scraps_of_paper]
+- Fravel, M. Taylor. 2005. "Regime Insecurity and International Cooperation: Explaining China's Compromises in Territorial Disputes." *International Security* 30 (2): 46–83. [https://doi.org/10.1162/016228805775124534][journal_fravel_2005_regime_insecurity]
+- Fu, Ronan Tse-min, Weiwen Yin, and Enze Han. 2024. "The Human Cost of War: An Experimental Study of Taiwanese Attitudes towards War Casualties." *Conflict Management and Peace Science* 42 (5): 559–77. [https://doi.org/10.1177/07388942241290445][journal_fu_2024_human_cost_of_war]
+- Fuhrmann, Matthew, and Benjamin Tkach. 2015. "Almost Nuclear: Introducing the Nuclear Latency Dataset." *Conflict Management and Peace Science* 32 (4): 443–61. [https://doi.org/10.1177/0738894214559672][journal_fuhrmann_tkach_2015_nuclear_latency]
+- Funaiole, Matthew P. 2026. "Charting a New Course: Countering China's Dominance in Global Shipbuilding." U.S. House of Representatives, Committee on Foreign Affairs, Subcommittee on East Asia and the Pacific, July 22. [https://docs.house.gov/meetings/FA/FA05/20260722/119432/HHRG-119-FA05-Wstate-FunaioleM-20260722.pdf][research_funaiole_2026_testimony]
+- Garlauskas, Markus, Lauren D. Gilbert, and Kyoko Imai. 2025. *A Rising Nuclear Double-Threat in East Asia: Insights from Our Guardian Tiger I and II Tabletop Exercises*. Atlantic Council. [https://www.atlanticcouncil.org/in-depth-research-reports/report/a-rising-nuclear-double-threat-in-east-asia-insights-from-our-guardian-tiger-i-and-ii-tabletop-exercises/][research_garlauskas_2025_guardian_tiger]
+- Gavin, Francis J. 2010. "Same as It Ever Was: Nuclear Alarmism, Proliferation, and the Cold War." *International Security* 34 (3): 7–37. [https://doi.org/10.1162/isec.2010.34.3.7][journal_gavin_2010_same_as_it_ever_was]
+- General Accounting Office. 1998. *Defense Industry: Consolidation and Options for Preserving Competition*. NSIAD-98-141. General Accounting Office. [https://web.archive.org/web/2024/https://www.gao.gov/assets/nsiad-98-141.pdf][research_gao_1998_defense_consolidation]
+- Gholz, Eugene, and Harvey M. Sapolsky. 2000. "Restructuring the U.S. Defense Industry." *International Security* 24 (3): 5–51. [https://doi.org/10.1162/016228899560220][journal_gholz_sapolsky_2000_restructuring]
+- Glasstone, S., and P. J. Dolan. 1977. *The Effects of Nuclear Weapons. Third Edition*. Office of Scientific and Technical Information (OSTI). [https://doi.org/10.2172/6852629][government_glasstone_dolan_1977]
+- Glick, Reuven, and Alan M. Taylor. 2010. "Collateral Damage: Trade Disruption and the Economic Impact of War." *Review of Economics and Statistics* 92 (1): 102–27. [https://doi.org/10.1162/rest.2009.12023][journal_glick_taylor_2010]
+- Goemans, H. E. 2008. "Which Way Out?: The Manner and Consequences of Losing Office." *Journal of Conflict Resolution* 52 (6): 771–94. [https://doi.org/10.1177/0022002708323316][journal_goemans_2008_which_way_out]
+- Goemans, Henk E., Kristian Skrede Gleditsch, and Giacomo Chiozza. 2009. "Introducing Archigos: A Dataset of Political Leaders." *Journal of Peace Research* 46 (2): 269–83. [https://doi.org/10.1177/0022343308100719][journal_goemans_2009_archigos]
+- Goemans, Hein, Kristian Skrede Gleditsch, and Giacomo Chiozza. 2016. *Archigos: A Data Base on Leaders 1875: 2004*. Version 4.1. [http://ksgleditsch.com/archigos.html][data_archigos_2016_leader_dataset]
+- Goes, and Bekkers. 2022. *The Impact of Geopolitical Conflicts on Trade, Growth, and Innovation*. World Trade Organization. [https://doi.org/10.30875/25189808-2022-9][journal_goes_bekkers_2022_geopolitical_conflicts]
+- Goldberg, Pinelopi, Réka Juhász, Nathan Lane, Giulia Lo Forte, and Jeff Thurk. 2024. *Industrial Policy in the Global Semiconductor Sector*. National Bureau of Economic Research. [https://doi.org/10.3386/w32651][research_goldberg_2024_industrial_policy]
+- Gompert, David, Astrid Cevallos, and Cristina Garafola. 2016. *War with China: Thinking through the Unthinkable*. RR-1140. RAND Corporation. [https://www.rand.org/content/dam/rand/pubs/research\_reports/RR1100/RR1140/RAND\_RR1140.pdf][research_gompert_2016_war_with_china]
+- Goode, Steven M. 2009. "A Historical Basis for Force Requirements in Counterinsurgency." *US Army War College Quarterly: Parameters* 39 (4). [https://doi.org/10.55540/0031-1723.2499][journal_goode_2009_force_requirements]
+- Government Accountability Office. 2022. *Defense Industrial Base: DOD Should Take Actions to Strengthen Its Risk Mitigation Approach*. GAO-22-104154. Government Accountability Office. [https://web.archive.org/web/2024/https://www.gao.gov/assets/gao-22-104154.pdf][research_gao_2022_industrial_base]
+- Green, Brendan Rittenhouse, and Caitlin Talmadge. 2022. "Then What? Assessing the Military Implications of Chinese Control of Taiwan." *International Security* 47 (1): 7–45. [https://doi.org/10.1162/isec\_a\_00437][journal_green_talmadge_2022]
+- Gunzinger, Mark A., and Heather R. Penney. 2026. *Rebuilding America's Air Force: Balancing the Air Force's Combat Forces for Peer Conflict*. The Mitchell Institute for Aerospace Studies, Air & Space Forces Association. [https://www.mitchellaerospacepower.org/app/uploads/2026/04/Rebuilding-Americas-Air-Force-FINAL.pdf][research_gunzinger_2026_rebuilding_air_force]
+- Headquarters, Department of the Army, and Headquarters, Marine Corps Combat Development Command. 2006. *Counterinsurgency*. FM 3-24 / MCWP 3-33.5. Headquarters, Department of the Army. [https://archive.org/download/FugitiveDistro\_FM\_3\_24\_Counterinsurgency\_Anonymous/FM%203%2024%20Counterinsurgency\_READ\_EN\_282.pdf][government_fm_3_24_2006]
+- Hellberg, Roland, and Martin Lundmark. 2025. "Transformation in European Defence Supply Chains as Ukraine Conflict Fuels Demand." *Scandinavian Journal of Military Studies* 8 (1): 17–39. [https://doi.org/10.31374/sjms.303][journal_hellberg_2025_european_chains]
+- Henry, Iain D. 2020. "What Allies Want: Reconsidering Loyalty, Reliability, and Alliance Interdependence." *International Security* 44 (4): 45–83. [https://doi.org/10.1162/isec\_a\_00375][journal_henry_2020_what_allies_want]
+- Hiim, Henrik Stålhane, M. Taylor Fravel, and Magnus Langset Trøan. 2023. "The Dynamics of an Entangled Security Dilemma: China's Changing Nuclear Posture." *International Security* 47 (4): 147–87. [https://doi.org/10.1162/isec\_a\_00457][journal_hiim_2023_entangled_security_dilemma]
+- Hornbeck, Richard, and Daniel Keniston. 2017. "Creative Destruction: Barriers to Urban Growth and the Great Boston Fire of 1872." *American Economic Review* 107 (6): 1365–98. [https://doi.org/10.1257/aer.20141707][journal_hornbeck_keniston_2017_creative_destruction]
+- Hultman, Lisa, Jacob Kathman, and Megan Shannon. 2014. "Beyond Keeping Peace: United Nations Effectiveness in the Midst of Fighting." *American Political Science Review* 108 (4): 737–53. [https://doi.org/10.1017/s0003055414000446][journal_hultman_2014_beyond_keeping_peace]
+- Hyatt, Edward, and Lloyd Everhart. 2025. "The “Shrinking” Defense Industrial Base: A Survey of Former DoD Prime Contractors." *Defense Acquisition Research Journal* 32 (109): 194–223. [https://doi.org/10.22594/dau.24-932.32.02][journal_hyatt_2025_shrinking_base]
+- Ikenberry, G. John. 2018. "The End of Liberal International Order?" *International Affairs* 94 (1): 7–23. [https://doi.org/10.1093/ia/iix241][journal_ikenberry_2018_end_of_liberal_order]
+- Jägermeyr, Jonas, Alan Robock, Joshua Elliott, et al. 2020. "A Regional Nuclear Conflict Would Compromise Global Food Security." *Proceedings of the National Academy of Sciences* 117 (13): 7071–81. [https://doi.org/10.1073/pnas.1919049117][journal_jagermeyr_2020_food_security]
+- Jehn, Florian Ulrich, Łukasz G. Gajewski, Johanna Hedlund, et al. 2025. "Food Trade Disruption after Global Catastrophes." *Earth System Dynamics* 16 (5): 1585–1603. [https://doi.org/10.5194/esd-16-1585-2025][journal_jehn_2025_food_trade]
+- Joint Chiefs of Staff. 2017. *Joint Operations*. JP 3-0. [https://web.archive.org/web/20200113010443id\_/https://www.jcs.mil/Portals/36/Documents/Doctrine/pubs/jp3\_0ch1.pdf][government_jp_3_0_2018]
+- Jones, Seth G. 2023. *Empty Bins in a Wartime Environment: The Challenge to the U.S. Defense Industrial Base*. ISBN 978-1-5381-7060-1. Center for Strategic and International Studies. [https://csis-website-prod.s3.amazonaws.com/s3fs-public/2023-01/230119\_Jones\_Empty\_Bins.pdf][research_jones_2023_empty_bins]
+- King, Anthony. 2022. "Urban Insurgency in the Twenty-First Century: Smaller Militaries and Increased Conflict in Cities." *International Affairs* 98 (2): 609–29. [https://doi.org/10.1093/ia/iiac007][journal_king_2022_urban_insurgency]
+- Knežević, Slaven. 2026. "War Reindustrialization of the EU: The Capacity Gap and Wright's Law in the Production of 155 Mm Ammunition." *Vojno delo* 78 (2): 137–54. [https://doi.org/10.5937/vojdelo2602137k][journal_knezevic_2026_capacity_gap]
+- Koubi, Vally. 2005. "War and Economic Performance." *Journal of Peace Research* 42 (1): 67–82. [https://doi.org/10.1177/0022343305049667][journal_koubi_2005]
+- Kowalski, Karen, and Burcu Sahmali. 2025. "NATO and the Defence Production Challenge: A Policy Analysis of the Industrial Capacity Defence Pledge." *Journal of Military and Strategic Studies* 23 (4). [https://doi.org/10.55016/2cfa0x64][journal_kowalski_2025_nato_pledge]
+- Krepinevich, Andrew, Jr. 2020. *Protracted Great-Power War: A Preliminary Assessment*. Center for a New American Security. [https://www.cnas.org/publications/reports/protracted-great-power-war][research_krepinevich_2020_protracted_great_power_war]
+- Labs, Eric J. 2025. "The Navy's 2025 Shipbuilding Plan and Its Implications for the Shipbuilding Industrial Base." Congressional Budget Office, March 11. [https://www.cbo.gov/publication/61218][research_labs_2025_cbo_shipbuilding]
+- Lai, Ding-Yi, Chu-Ling Tseng, Wen-Cheng Fu, and Wen-Chin Wu. 2026. "Lost in Words: Framing Effects on Public Willingness to Fight." *Public Opinion Quarterly* 90 (2): 478–517. [https://doi.org/10.1093/poq/nfag007][journal_lai_2026_lost_in_words]
+- Lee, Kuan-chen, Christina Chen, and Ying-Hsuan Chen. 2024. "Core Public Attitudes toward Defense and Security in Taiwan." *Taiwan Politics*. [https://doi.org/10.58570/wron8266][journal_lee_2024_taiwan_attitudes]
+- Licklider, Roy. 1995. "The Consequences of Negotiated Settlements in Civil Wars, 1945–1993." *American Political Science Review* 89 (3): 681–90. [https://doi.org/10.2307/2082982][journal_licklider_1995_negotiated_settlements]
+- Lyall, Jason, and Isaiah Wilson. 2009. "Rage against the Machines: Explaining Outcomes in Counterinsurgency Wars." *International Organization* 63 (1): 67–106. [https://doi.org/10.1017/s0020818309090031][journal_lyall_wilson_2009_rage_machines]
+- Mangold, Marcel. 2026. "The Cultural Factors of Defence Reforms: The Case of Taiwan." *International Journal of Asia Pacific Studies* 22 (2): 137–54. [https://doi.org/10.21315/ijaps2026.22.2.8][journal_mangold_2026_cultural_factors]
+- McGregor, Richard, and Jude Blanchette. 2026. *After Annexation: How China Plans to Run Taiwan*. Lowy Institute. [https://www.lowyinstitute.org/publications/after-annexation-how-china-plans-run-taiwan][research_mcgregor_2026_after_annexation]
+- Mearsheimer, John J. 2019. "Bound to Fail: The Rise and Fall of the Liberal International Order." *International Security* 43 (4): 7–50. [https://doi.org/10.1162/isec\_a\_00342][journal_mearsheimer_2019_bound_to_fail]
+- Mearsheimer, John J. 2025. "War and International Politics." *International Security* 49 (4): 7–36. [https://doi.org/10.1162/isec\_a\_00507][journal_mearsheimer_2025_war_and_politics]
+- Ministry of the Interior, Department of Household Registration Affairs. 2026. *Number of Villages, Neighborhoods, Households and Resident Population*. 1.1. Ministry of the Interior, Republic of China (Taiwan). [https://statis.moi.gov.tw/micst/report/321010.xlsx][data_moi_2026_taiwan_population]
+- Mok, Charles. 2026. "Toward Undersea Cable Resilience: The Case for Global Collaboration." *Texas National Security Review* 9 (3): 68–77. [https://doi.org/10.1353/tns.00041][journal_mok_2026_undersea_cable_resilience]
+- Mueller, Hannes. 2012. "Growth Dynamics: The Myth of Economic Recovery: Comment." *American Economic Review* 102 (7): 3774–77. [https://doi.org/10.1257/aer.102.7.3774][journal_mueller_2012_comment]
+- Nassar, Nedal T., Ensieh Shojaeddini, Elisa Alonso, Brian Jaskula, and Amy Tolcin. 2024. *Quantifying Potential Effects of China’s Gallium and Germanium Export Restrictions on the U.S. Economy*. US Geological Survey. [https://doi.org/10.3133/ofr20241057][research_usgs_2024_gallium_germanium]
+- Nemeth, Bence. 2026. "How a US “Suez Moment” Could Hollow the US Alliance System." *Texas National Security Review* 9 (1): 82–97. [https://doi.org/10.1353/tns.00025][journal_nemeth_2026_suez_moment]
+- O'Rourke. 2026. *Navy Virginia-Class Submarine Program and AUKUS Submarine (Pillar 1) Project: Background and Issues for Congress*. RL32418. Congressional Research Service. [https://www.everycrsreport.com/reports/RL32418.html][research_orourke_2026_virginia_class]
+- Oakley, Shelby S. 2026. "Navy and Coast Guard Shipbuilding: A Disciplined, Strategy-Driven Approach Is Needed to Achieve Ambitious Goals." U.S. Government Accountability Office, April 22. [https://files.gao.gov/reports/GAO-26-109068/index.html][research_oakley_2026_gao_shipbuilding]
+- Office of the Director of National Intelligence. 2026. *Annual Threat Assessment of the U.S. Intelligence Community*. Office of the Director of National Intelligence. [https://archive.dni.gov/files/ODNI/documents/assessments/ATA-2026-Unclassified-Report.pdf][government_odni_2026_threat_assessment]
+- Office of the Secretary of Defense. 2023. *Military and Security Developments Involving the People's Republic of China 2023*. Department of Defense. [https://web.archive.org/web/2024/https://media.defense.gov/2023/Oct/19/2003323409/-1/-1/1/2023-MILITARY-AND-SECURITY-DEVELOPMENTS-INVOLVING-THE-PEOPLES-REPUBLIC-OF-CHINA.PDF][government_dod_2023_china_report]
+- Office of the Under Secretary of Defense for Acquisition and Sustainment. 2022. *State of Competition within the Defense Industrial Base*. Department of Defense. [https://web.archive.org/web/20240102044927/https://media.defense.gov/2022/Feb/15/2002939087/-1/-1/1/STATE-OF-COMPETITION-WITHIN-THE-DEFENSE-INDUSTRIAL-BASE.PDF][government_dod_2022_competition]
+- Office of the United States Trade Representative. 2025. *Report on China's Targeting of the Maritime, Logistics, and Shipbuilding Sectors for Dominance*. Office of the United States Trade Representative. [https://ustr.gov/sites/default/files/enforcement/301Investigations/USTRReportChinaTargetingMaritime.pdf][data_ustr_2025_maritime]
+- Organski, A. F. K., and Jacek Kugler. 1977. "The Costs of Major Wars: The Phoenix Factor." *American Political Science Review* 71 (4): 1347–66. [https://doi.org/10.2307/1961484][journal_organski_kugler_1977]
+- Piatt, Edward G. 1953. *Memorandum of Conversation, by Edward G. Piatt of the Executive Secretariat*. 712. U.S. Department of State, Office of the Historian. [https://history.state.gov/historicaldocuments/frus1952-54v14p2/d712][government_frus_1954_garioa_bookkeeping]
+- Piplani, Varun, and Caitlin Talmadge. 2016. "When War Helps Civil–military Relations: Prolonged Interstate Conflict and the Reduced Risk of Coups." *Journal of Conflict Resolution* 60 (8): 1368–94. [https://doi.org/10.1177/0022002714567950][journal_piplani_talmadge_2015_war_helps]
+- Powell, Robert. 2006. "War as a Commitment Problem." *International Organization* 60 (1): 169–203. [https://doi.org/10.1017/s0020818306060061][journal_powell_2006_commitment_problem]
+- Predd, Joel B., Paul DeLuca, Scott Savitz, Edward Geist, and Caitlin Lee. 2025. *Thinking through Protracted War with China: Nine Scenarios*. RR-A1475-1. RAND Corporation. [https://www.rand.org/pubs/research\_reports/RRA1475-1.html][research_predd_2025_protracted_war]
+- Priebe, Miranda, Bryan Frederick, Anika Binnendijk, et al. 2023. *Alternative Futures Following a Great Power War: Volume 1, Scenarios, Findings, and Recommendations*. RR-A591-1. RAND Corporation. [https://www.rand.org/pubs/research\_reports/RRA591-1.html][research_priebe_2023_alternative_futures_v1]
+- Quek, Kai, and Alastair Iain Johnston. 2018. "Can China Back down? Crisis De-Escalation in the Shadow of Popular Opposition." *International Security* 42 (3): 7–36. [https://doi.org/10.1162/isec\_a\_00303][journal_quek_johnston_2018]
+- Quinlivan, James T. 1995. "Force Requirements in Stability Operations." *US Army War College Quarterly: Parameters* 25 (1). [https://doi.org/10.55540/0031-1723.1751][research_quinlivan_1995_force_requirements]
+- Quinlivan, James T. 2003. "Burden of Victory: The Painful Arithmetic of Stability Operations." *RAND Review*. [https://www.rand.org/content/dam/rand/pubs/corporate\_pubs/2007/RAND\_CP22-2003-08.pdf][research_quinlivan_2003_burden_of_victory]
+- Rajan, Raghuram G., and Arvind Subramanian. 2008. "Aid and Growth: What Does the Cross-Country Evidence Really Show?" *Review of Economics and Statistics* 90 (4): 643–65. [https://doi.org/10.1162/rest.90.4.643][journal_rajan_subramanian_2008_aid_and_growth]
+- Redding, Stephen J., Daniel M. Sturm, and Nikolaus Wolf. 2011. "History and Industry Location: Evidence from German Airports." *Review of Economics and Statistics* 93 (3): 814–31. [https://doi.org/10.1162/rest\_a\_00096][journal_redding_2011_history_industry_location]
+- Reisner, Jon, Gennaro D'Angelo, Eunmo Koo, et al. 2018. "Climate Impact of a Regional Nuclear Weapons Exchange: An Improved Assessment Based on Detailed Source Calculations." *Journal of Geophysical Research: Atmospheres* 123 (5): 2752–72. [https://doi.org/10.1002/2017jd027331][journal_reisner_2018]
+- Reisner, Jon, Eunmo Koo, Elizabeth Hunke, and Manvendra Dubey. 2019. "Reply to Comment by Robock Et Al. on “Climate Impact of a Regional Nuclear Weapon Exchange: An Improved Assessment Based on Detailed Source Calculations”." *Journal of Geophysical Research: Atmospheres* 124 (23): 12959–62. [https://doi.org/10.1029/2019jd031281][journal_reisner_2019_reply]
+- Republic of China (Taiwan). 2023. *石油管理法*. Ministry of Justice, Republic of China (Taiwan). [https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=J0020019][government_roc_petroleum_act]
+- Riaño, Juan Felipe, and Felipe Valencia Caicedo. 2024. "Collateral Damage: The Legacy of the Secret War in Laos." *Economic Journal* 134 (661): 2101–40. [https://doi.org/10.1093/ej/ueae004][journal_riano_2024_collateral_damage]
+- Robock, Alan, Owen B. Toon, and Charles G. Bardeen. 2019. "Comment on “Climate Impact of a Regional Nuclear Weapon Exchange: An Improved Assessment Based on Detailed Source Calculations” by Reisner Et Al." *Journal of Geophysical Research: Atmospheres* 124 (23): 12953–58. [https://doi.org/10.1029/2019jd030777][journal_robock_2019_comment]
+- Rumbaugh, Wes. 2026. *Solid Rocket Motors for Missile Defense: Challenges and Opportunities for Expanding the Industrial Base*. Center for Strategic and International Studies. [https://csis-website-prod.s3.amazonaws.com/s3fs-public/2026-06/260612\_Rumbaugh\_Rocket\_Motors.pdf][research_rumbaugh_2026_solid_rocket_motors]
+- Scherrer, Kim J. N., Cheryl S. Harrison, Ryan F. Heneghan, et al. 2020. "Marine Wild-Capture Fisheries after Nuclear War." *Proceedings of the National Academy of Sciences* 117 (47): 29748–58. [https://doi.org/10.1073/pnas.2008256117][journal_scherrer_2020_fisheries]
+- Scouras, James. 2019. "Nuclear War as a Global Catastrophic Risk." *Journal of Benefit-Cost Analysis* 10 (2): 274–95. [https://doi.org/10.1017/bca.2019.16][journal_scouras_2019_global_catastrophic_risk]
+- Shi, Yuning, Felipe Montes, Francesco Di Gioia, et al. 2025. "Adapting Agriculture to Climate Catastrophes: The Nuclear Winter Case." *Environmental Research Letters* 20 (6): 064006. [https://doi.org/10.1088/1748-9326/adcfb5][journal_shi_2025_adapting_agriculture]
+- Shirkey, Zachary C. 2016. "Uncertainty and War Duration." *International Studies Review* 18 (2): 244–67. [https://doi.org/10.1093/isr/viv005][journal_shirkey_2016_uncertainty_duration]
+- Slantchev, Branislav L. 2003. "The Power to Hurt: Costly Conflict with Completely Informed States." *American Political Science Review* 97 (01): 123–33. [https://doi.org/10.1017/s000305540300056x][journal_slantchev_2003_power_to_hurt]
+- Special Inspector General for Iraq Reconstruction. 2013. *Learning from Iraq: A Final Report from the Special Inspector General for Iraq Reconstruction*. Special Inspector General for Iraq Reconstruction. [https://web.archive.org/web/20131104045644id\_/http://www.sigir.mil/files/learningfromiraq/Report\_-\_March\_2013.pdf][research_sigir_2013_learning_from_iraq]
+- Stanley, Elizabeth A., and John P. Sawyer. 2009. "The Equifinality of War Termination: Multiple Paths to Ending War." *Journal of Conflict Resolution* 53 (5): 651–76. [https://doi.org/10.1177/0022002709343194][journal_stanley_sawyer_2009]
+- Stephan, Maria J., and Erica Chenoweth. 2008. "Why Civil Resistance Works: The Strategic Logic of Nonviolent Conflict." *International Security* 33 (1): 7–44. [https://doi.org/10.1162/isec.2008.33.1.7][journal_stephan_chenoweth_2008_why_civil_resistance]
+- Stringer, Kevin D., and Jelle J. H. Hooiveld. 2023. "Urban Resistance to Occupation: An Underestimated Element of Land Warfare." *US Army War College Quarterly: Parameters* 53 (3). [https://doi.org/10.55540/0031-1723.3244][journal_stringer_2023_urban_resistance]
+- Sudduth, Jun Koga. 2017. "Strategic Logic of Elite Purges in Dictatorships." *Comparative Political Studies* 50 (13): 1768–1801. [https://doi.org/10.1177/0010414016688004][journal_sudduth_2017_elite_purges]
+- Sukin, Lauren. 2019. "Credible Nuclear Security Commitments Can Backfire: Explaining Domestic Support for Nuclear Weapons Acquisition in South Korea." *Journal of Conflict Resolution* 64 (6): 1011–42. [https://doi.org/10.1177/0022002719888689][journal_sukin_2019_credible_commitments_backfire]
+- Talmadge, Caitlin. 2017. "Would China Go Nuclear? Assessing the Risk of Chinese Nuclear Escalation in a Conventional War with the United States." *International Security* 41 (4): 50–92. [https://doi.org/10.1162/isec\_a\_00274][journal_talmadge_2017_would_china_go_nuclear]
+- Tarnoff. 2018. *The Marshall Plan: Design, Accomplishments, and Significance*. R45079. Congressional Research Service. [https://www.everycrsreport.com/reports/R45079.html][research_tarnoff_2018_marshall_plan]
+- Tarshish, Nathaniel, and David M. Romps. 2022. "Latent Heating Is Required for Firestorm Plumes to Reach the Stratosphere." *Journal of Geophysical Research: Atmospheres* 127 (18): e2022JD036667. [https://doi.org/10.1029/2022jd036667][journal_tarshish_romps_2022_latent_heating]
+- Thyne, Clayton L. 2012. "Information, Commitment, and Intra-War Bargaining: The Effect of Governmental Constraints on Civil War Duration1." *International Studies Quarterly* 56 (2): 307–21. [https://doi.org/10.1111/j.1468-2478.2012.00719.x][journal_thyne_2012_intra_war_bargaining]
+- Toon, O. B., R. P. Turco, A. Robock, C. Bardeen, L. Oman, and G. L. Stenchikov. 2007. "Atmospheric Effects and Societal Consequences of Regional Scale Nuclear Conflicts and Acts of Individual Nuclear Terrorism." *Atmospheric Chemistry and Physics* 7 (8): 1973–2002. [https://doi.org/10.5194/acp-7-1973-2007][journal_toon_2007_atmospheric_effects]
+- U.S. Congress, Office of Technology Assessment. 1979. *The Effects of Nuclear War*. Office of Technology Assessment. [https://ia801509.us.archive.org/13/items/effectsofnuclear00unit/effectsofnuclear00unit.pdf][government_ota_1979_effects_of_nuclear_war]
+- U.S. Department of State. 1962. *Paper Prepared in the Department of State*. 353. U.S. Department of State, Office of the Historian. [https://history.state.gov/historicaldocuments/frus1961-63v22/d353][government_frus_1962_garioa_settlement]
+- U.S. Government Accountability Office. 2025. *Shipbuilding and Repair: Navy Needs a Strategic Approach for Private Sector Industrial Base Investments*. GAO-25-106286. U.S. Government Accountability Office. [https://files.gao.gov/reports/GAO-25-106286/index.html][research_gao_2025_shipbuilding_workforce]
+- U.S.-China Economic and Security Review Commission. 2025. "Chapter 11: Taiwan." In *2025 Annual Report to Congress*. [https://www.uscc.gov/sites/default/files/2025-11/Chapter\_11--Taiwan.pdf][government_uscc_2025_taiwan_chapter]
+- United States Congress. 1948. *Foreign Assistance Act of 1948*. Public Law 472; 80th Cong., 2d Sess., ch. 169; 62 Stat. 137; S. 2202. U.S. Government Printing Office. [https://www.govinfo.gov/content/pkg/STATUTE-62/pdf/STATUTE-62-Pg137.pdf][government_economic_cooperation_act_1948]
+- United States Strategic Bombing Survey. 1945. *Over-All Report (European War)*. U.S. Government Printing Office. [https://books.google.com/books?id=4PBmAAAAMAAJ][government_ussbs_1945_overall_report]
+- United States Strategic Bombing Survey. 1946. *Summary Report (Pacific War)*. U.S. Government Printing Office. [https://archive.org/download/summaryreportpac00unit/summaryreportpac00unit.pdf][government_ussbs_1946_pacific_summary]
+- Varas, Antonio, Raj Varadarajan, Ramiro Palma, Jimmy Goodrich, and Falan Yinug. 2021. *Strengthening the Global Semiconductor Supply Chain in an Uncertain Era*. Boston Consulting Group and Semiconductor Industry Association. [https://www.semiconductors.org/wp-content/uploads/2021/05/BCG-x-SIA-Strengthening-the-Global-Semiconductor-Value-Chain-April-2021\_1.pdf][data_bcg_sia_2021_value_chain]
+- Vonyo, T. 2012. "The Bombing of Germany: The Economic Geography of War-Induced Dislocation in West German Industry." *European Review of Economic History* 16 (1): 97–118. [https://doi.org/10.1093/ereh/her006][journal_vonyo_2012_bombing_of_germany]
+- Wagman, Benjamin M., Katherine A. Lundquist, Qi Tang, Lee G. Glascoe, and David C. Bader. 2020. "Examining the Climate Effects of a Regional Nuclear Weapons Exchange Using a Multiscale Atmospheric Modeling Approach." *Journal of Geophysical Research: Atmospheres* 125 (24): e2020JD033056. [https://doi.org/10.1029/2020jd033056][journal_wagman_2020_multiscale]
+- Waldinger, Fabian. 2016. "Bombs, Brains, and Science: The Role of Human and Physical Capital for the Creation of Scientific Knowledge." *Review of Economics and Statistics* 98 (5): 811–31. [https://doi.org/10.1162/rest\_a\_00565][journal_waldinger_2016_bombs_brains]
+- Walter, Barbara F. 1997. "The Critical Barrier to Civil War Settlement." *International Organization* 51 (3): 335–64. [https://doi.org/10.1162/002081897550384][journal_walter_1997_critical_barrier]
+- Weeks, Jessica L. 2012. "Strongmen and Straw Men: Authoritarian Regimes and the Initiation of International Conflict." *American Political Science Review* 106 (2): 326–47. [https://doi.org/10.1017/s0003055412000111][journal_weeks_2012_strongmen]
+- Weisiger, Alex. 2016. "Learning from the Battlefield: Information, Domestic Politics, and Interstate War Duration." *International Organization* 70 (2): 347–75. [https://doi.org/10.1017/s0020818316000059][journal_weisiger_2016_learning_battlefield]
+- Werner, Suzanne, and Amy Yuen. 2005. "Making and Keeping Peace." *International Organization* 59 (2): 261–92. [https://doi.org/10.1017/s0020818305050095][journal_werner_yuen_2005_making_keeping_peace]
+- Wolford, Scott. 2017. "The Problem of Shared Victory: War-Winning Coalitions and Postwar Peace." *Journal of Politics* 79 (2): 702–16. [https://doi.org/10.1086/688700][journal_wolford_2017_shared_victory]
+- Wolford, Scott, Dan Reiter, and Clifford J. Carrubba. 2011. "Information, Commitment, and War." *Journal of Conflict Resolution* 55 (4): 556–79. [https://doi.org/10.1177/0022002710393921][journal_wolford_2011_information_commitment]
+- World Bank. 1996. *Bosnia and Herzegovina: The Priority Reconstruction and Recovery Program: The Challenges Ahead*. Discussion paper no. 2. World Bank. [https://documents.worldbank.org/curated/en/998241468743939643/pdf/multi0page.pdf][research_world_bank_1996_bosnia]
+- World Bank, Government of Ukraine, European Union, and United Nations. 2025. *Ukraine Fourth Rapid Damage and Needs Assessment (RDNA4): February 2022 – December 2024*. RDNA4. World Bank. [https://documents.worldbank.org/curated/en/099022025114040022/pdf/P1801741ca39ec0d81b5371ff73a675a0a8.pdf][research_world_bank_2025_rdna4]
+- Xia, Lili, Alan Robock, Michael Mills, Andrea Stenke, and Ira Helfand. 2015. "Decadal Reduction of Chinese Agriculture after a Regional Nuclear War." *Earth's Future* 3 (2): 37–48. [https://doi.org/10.1002/2014ef000283][journal_xia_2015_chinese_agriculture]
+- 中央選舉委員會. n.d.. *選舉資料庫*. 中央選舉委員會. [https://db.cec.gov.tw/static/referendums/list/N.json][data_roc_cec_referendums]
+
+### Secondary Sources
+
+- Dobbins, James, John McGinn, Keith Crane, et al. 2003. *America's Role in Nation-Building: From Germany to Iraq*. RAND Corporation. [https://doi.org/10.7249/mr1753][research_dobbins_2003_nation_building]
+- Downes, Alexander B. 2021. *Catastrophic Success: Why Foreign-Imposed Regime Change Goes Wrong*. Cornell University Press. [https://doi.org/10.7591/cornell/9781501761140.001.0001][book_downes_2021_catastrophic_success]
+- Edelstein, David M. 2010. *Occupational Hazards: Success and Failure in Military Occupation*. Cornell University Press. [https://doi.org/10.7591/9780801458569][book_edelstein_2010_occupational_hazards]
+- Fazal, Tanisha M. 2011. *State Death: The Politics and Geography of Conquest, Occupation, and Annexation*. Princeton University Press. [https://doi.org/10.1515/9781400841448][book_fazal_2011_state_death]
+- Gerber. 2026. *Breaking Glass, Missing Hands: Addressing Workforce Constraints That Threaten the Resilience of the Space Industrial Base*. RAND Corporation. [https://doi.org/10.7249/rra3665-2][research_gerber_2026_workforce]
+- Goemans, H. E. 2000. *War and Punishment: The Causes of War Termination and the First World War*. Princeton University Press. [https://doi.org/10.1515/9781400823956][book_goemans_2000_war_and_punishment]
+- Harrison, Mark, ed. 1998. *The Economics of World War II: Six Great Powers in International Comparison*. Cambridge University Press. [https://doi.org/10.1017/cbo9780511523632][book_harrison_1998_economics_ww2]
+- Heath, Lilly, and Han. 2023. *Can Taiwan Resist a Large-Scale Military Attack by China? Assessing Strengths and Vulnerabilities in a Potential Conflict*. RAND Corporation. [https://doi.org/10.7249/rra1658-1][research_heath_2023_can_taiwan_resist]
+- Ikenberry, G. John. 2019. *After Victory: Institutions, Strategic Restraint, and the Rebuilding of Order after Major Wars, New Edition*. Princeton University Press. [https://doi.org/10.23943/princeton/9780691169217.001.0001][book_ikenberry_2019_after_victory]
+- Iklé, Fred Charles. 2005. *Every War Must End*. Columbia University Press. [https://cup.columbia.edu/book/every-war-must-end/9780231136679][book_ikle_2005_every_war_must_end]
+- Kalyvas, Stathis N. 2006. *The Logic of Violence in Civil War*. Cambridge University Press. [https://doi.org/10.1017/cbo9780511818462][book_kalyvas_2006_logic_of_violence]
+- Liberman, Peter. 1998. *Does Conquest Pay?: The Exploitation of Occupied Industrial Societies*. Princeton University Press. [https://doi.org/10.1515/9781400821747][book_liberman_1998_does_conquest_pay]
+- Martin. 2022. *Implications of a Coercive Quarantine of Taiwan by the People's Republic of China*. RAND Corporation. [https://doi.org/10.7249/rra1279-1][research_martin_2022_coercive_quarantine]
+- Martin. 2023. *Supply Chain Interdependence and Geopolitical Vulnerability: The Case of Taiwan and High-End Semiconductors*. RAND Corporation. [https://doi.org/10.7249/rra2354-1][research_martin_2023_supply_chain_interdependence]
+- National Academies of Sciences, Engineering, and Medicine. 2025. *Potential Environmental Effects of Nuclear War*. National Academies Press. [https://doi.org/10.17226/27515][research_nas_2025_nuclear_war_effects]
+- Organski, A. F. K., and Jacek Kugler. 1980. *The War Ledger*. University of Chicago Press. [https://doi.org/10.7208/chicago/9780226351841.001.0001][book_organski_kugler_1980_war_ledger]
+- Reiter, Dan. 2010. *How Wars End*. Princeton University Press. [https://doi.org/10.1515/9781400831036][book_reiter_2009_how_wars_end]
+- Rockoff, Hugh. 2012. *America's Economic Way of War: War and the US Economy from the Spanish-American War to the Persian Gulf War*. Cambridge University Press. [https://doi.org/10.1017/cbo9781139046534][book_rockoff_2012_economic_way_of_war]
+- Talmadge, Caitlin. 2015. *The Dictator's Army: Battlefield Effectiveness in Authoritarian Regimes*. Cornell University Press. [https://doi.org/10.7591/9781501701764][book_talmadge_2015_dictators_army]
+- Vonyó, Tamás. 2018. *The Economic Consequences of the War: West Germany's Growth Miracle after 1945*. Cambridge University Press. [https://doi.org/10.1017/9781316414927][book_vonyo_2018_economic_consequences]
+- Weisiger, Alex. 2013. *Logics of War: Explanations for Limited and Unlimited Conflicts*. Cornell University Press. [https://doi.org/10.7591/cornell/9780801451867.001.0001][book_weisiger_2013_logics_of_war]
+
+### Commercial Sources
+
+- Cancian, Mark F., and Chris H. Park. 2026b. "Rebuilding U.S. Missile Inventory: A Multiyear Project." Center for Strategic and International Studies, May 27. [https://www.csis.org/analysis/rebuilding-us-missile-inventory-multiyear-project][research_cancian_2026_missile_rebuild]
+- Cancian, Mark F., and Chris H. Park. 2026c. "Six Reasons Why the United States Is Low on Munitions." Center for Strategic and International Studies, July 31. [https://www.csis.org/analysis/six-reasons-why-united-states-low-munitions][research_cancian_2026_six_reasons]
+- Heath, Timothy R. 2023. "Wargames Can't Tell Us How to Deter a Chinese Attack on Taiwan—but Different Games Might." Lawfare, January 5. [https://www.rand.org/pubs/external\_publications/EP70064.html][commentary_heath_2023_wargames_deterrence]
+- Stewart, Max. 2023. "Island Blitz: A Campaign Analysis of a Taiwan Takeover by the PLA." CIMSEC, June 13. [https://cimsec.org/island-blitz-a-campaign-analysis-of-a-taiwan-takeover-by-the-pla/][research_stewart_2023_island_blitz]
+
+### General Sources
+
+- Blanchette, Jude, and Richard McGregor. 2026. "After the Invasion: China Considers the Problem of Ruling Taiwan." *War on the Rocks*, June 5. [https://warontherocks.com/after-the-invasion-china-considers-the-problem-of-ruling-taiwan/][commentary_blanchette_2026_after_invasion]
+- Heim, Jacob, Zachary Burdette, and Nathan Beauchamp-Mustafaga. 2024. "Denial Is the Worst except for All the Others: Getting the U.S. Theory of Victory Right for a War with China." *War on the Rocks*, June 11. [https://warontherocks.com/2024/06/denial-is-the-worst-except-for-all-the-others-getting-the-u-s-theory-of-victory-right-for-a-war-with-china/][commentary_heim_2024_denial_worst]
+- Sudduth, Jun. 2026. "Double-Edged Swords: How Military Purges Shape Authoritarian Appetite for War." *War on the Rocks*, March 18. [https://warontherocks.com/double-edged-swords-how-military-purges-shape-authoritarian-appetite-for-war/][commentary_sudduth_2026_double_edged_swords]
+- Tetreau, Matthew. 2023. "Where the Wargames Weren't: Assessing 10 Years of U.S.-Chinese Military Assessments." *War on the Rocks*, September 22. [https://warontherocks.com/2023/09/where-the-wargames-werent-assessing-10-years-of-u-s-chinese-military-assessments/][commentary_tetreau_2023_where_the_wargames_were_not]
+- Trevithick, Joseph. 2023. "Alarming Navy Intel Slide Warns of China's 200 Times Greater Shipbuilding Capacity." *The War Zone*, July 11. [https://www.twz.com/alarming-navy-intel-slide-warns-of-chinas-200-times-greater-shipbuilding-capacity][commentary_twz_2023_oni_slide]
+
+### Related Posts
+
+- Sechter, Brendan. 2026. "Industrialization Waves and Geopolitical Positioning: Postwar Japan and West Germany." *Brendan A R Sechter's Development Blog*, March 21. [https://sgeos.github.io/history/economics/geopolitics/2026/03/21/postwar\_japan\_and\_west\_germany.html][related_post_postwar_japan_germany]
+- Sechter, Brendan. 2026. "Industrialization Waves and Geopolitical Positioning: China's Rise." *Brendan A R Sechter's Development Blog*, March 23. [https://sgeos.github.io/history/economics/geopolitics/2026/03/23/china\_rise.html][related_post_china_rise]
+- Sechter, Brendan. 2026. "What Published Wargames Say About a War With China." *Brendan A R Sechter's Development Blog*, August 11. [https://sgeos.github.io/geopolitics/military/war-gaming/2026/08/11/published\_wargames\_of\_war\_with\_china.html][related_post_published_wargames]
 
 [book_downes_2021_catastrophic_success]: https://doi.org/10.7591/cornell/9781501761140.001.0001
 [book_edelstein_2010_occupational_hazards]: https://doi.org/10.7591/9780801458569
@@ -3653,13 +3672,13 @@ and then stopping where the hard part starts.
 [journal_collier_hoeffler_2004_aid_policy_growth]: https://doi.org/10.1016/j.euroecorev.2003.11.005
 [journal_costalli_2017_economic_costs]: https://doi.org/10.1177/0022343316675200
 [journal_coupe_2019_nuclear_winter_responses]: https://doi.org/10.1029/2019jd030509
-[journal_croco_2011]: https://doi.org/10.1017/S0003055411000219
+[journal_croco_2011]: https://doi.org/10.1017/s0003055411000219
 [journal_croco_weeks_2016_war_outcomes_tenure]: https://doi.org/10.1017/s0043887116000071
 [journal_cunningham_fravel_2019_dangerous_confidence]: https://doi.org/10.1162/isec_a_00359
 [journal_davis_gholz_2026_blockade_by_fire]: https://doi.org/10.1162/isec.a.407
 [journal_davis_weinstein_2002]: https://doi.org/10.1257/000282802762024502
 [journal_davis_weinstein_2008_multiple_equilibria]: https://doi.org/10.1111/j.1467-9787.2008.00545.x
-[journal_debs_goemans_2010]: https://doi.org/10.1017/S0003055410000195
+[journal_debs_goemans_2010]: https://doi.org/10.1017/s0003055410000195
 [journal_dell_querubin_2018_nation_building]: https://doi.org/10.1093/qje/qjx037
 [journal_deutch_2022_consolidation]: https://doi.org/10.22594/dau.21-889.29.02
 [journal_dillon_2014_shelter_times]: https://doi.org/10.1098/rspa.2013.0693
@@ -3710,7 +3729,7 @@ and then stopping where the hard part starts.
 [journal_lai_2026_lost_in_words]: https://doi.org/10.1093/poq/nfag007
 [journal_lalwani_2017_size_still_matters]: https://doi.org/10.1080/09592318.2016.1263470
 [journal_lau_tsai_2022_decarbonization_roadmap]: https://doi.org/10.3390/su14148425
-[journal_lee_2024_taiwan_attitudes]: https://doi.org/10.58570/WRON8266
+[journal_lee_2024_taiwan_attitudes]: https://doi.org/10.58570/wron8266
 [journal_licklider_1995_negotiated_settlements]: https://doi.org/10.2307/2082982
 [journal_lyall_wilson_2009_rage_machines]: https://doi.org/10.1017/s0020818309090031
 [journal_mangold_2026_cultural_factors]: https://doi.org/10.21315/ijaps2026.22.2.8
@@ -3730,11 +3749,11 @@ and then stopping where the hard part starts.
 [journal_quek_johnston_2018]: https://doi.org/10.1162/isec_a_00303
 [journal_rajan_subramanian_2008_aid_and_growth]: https://doi.org/10.1162/rest.90.4.643
 [journal_redding_2011_history_industry_location]: https://doi.org/10.1162/rest_a_00096
-[journal_reisner_2018]: https://doi.org/10.1002/2017JD027331
+[journal_reisner_2018]: https://doi.org/10.1002/2017jd027331
 [journal_reisner_2019_reply]: https://doi.org/10.1029/2019jd031281
 [journal_riano_2024_collateral_damage]: https://doi.org/10.1093/ej/ueae004
 [journal_rivers_2024_food_system_adaptation]: https://doi.org/10.1016/j.gfs.2024.100807
-[journal_robock_2019_comment]: https://doi.org/10.1029/2019JD030777
+[journal_robock_2019_comment]: https://doi.org/10.1029/2019jd030777
 [journal_salavrakos_2017_japanese_armaments]: https://doi.org/10.1080/10242694.2017.1293776
 [journal_scarazzato_2024_arms_production]: https://doi.org/10.1080/10242694.2024.2381784
 [journal_scherrer_2020_fisheries]: https://doi.org/10.1073/pnas.2008256117
@@ -3762,7 +3781,7 @@ and then stopping where the hard part starts.
 [journal_wolford_2011_information_commitment]: https://doi.org/10.1177/0022002710393921
 [journal_wolford_2017_shared_victory]: https://doi.org/10.1086/688700
 [journal_wu_2023_taiwan_security]: https://doi.org/10.1080/23311983.2023.2220211
-[journal_xia_2015_chinese_agriculture]: https://doi.org/10.1002/2014EF000283
+[journal_xia_2015_chinese_agriculture]: https://doi.org/10.1002/2014ef000283
 [journal_xia_2022_nature_food]: https://doi.org/10.1038/s43016-022-00573-0
 [related_post_china_rise]: {% post_url 2026-03-23-china_rise %}
 [related_post_postwar_japan_germany]: {% post_url 2026-03-21-postwar_japan_and_west_germany %}
