@@ -373,7 +373,9 @@ def validate_record(r, venues):
         _require(ok, f"{a}: author {p!r} must be {{family, given}} or {{name, short}}")
     _require(bool(r.get("doi")) != bool(r.get("url")), f"{a}: exactly one of doi and url")
     if r.get("url"):
-        _require(r["url"].startswith("https://") or r["url"].startswith("http://"), f"{a}: url scheme")
+        # AN IRC CHANNEL, `irc://irc.freenode.net/elixir-lang` in A4 to A8, is a place a
+        # tutorial sent its reader, so its scheme is accepted with the web's.
+        _require(r["url"].startswith(("https://", "http://", "irc://")), f"{a}: url scheme")
     if kind == "wikipedia":
         rev = r.get("revision") or {}
         _require(isinstance(rev.get("oldid"), int) and re.match(r"^\d{4}-\d\d-\d\dT\d\d:\d\d:\d\dZ$",
@@ -925,7 +927,8 @@ def generate(text, records=None, venues=None, posts_dir=POSTS, article=None):
     venues = load_venues() if venues is None else venues
     index = article_index(records, article)
     body, _old = split_article(text)
-    used = cited_anchors(body) | load_listed(article)
+    cited = cited_anchors(body)
+    used = cited | load_listed(article)
     missing = sorted(a for a in used if a not in index)
     if missing:
         raise SourceError(f"anchors cited but not in the database: {', '.join(missing)}")
@@ -950,7 +953,10 @@ def generate(text, records=None, venues=None, posts_dir=POSTS, article=None):
                 for r in rows]
         out.append("")
     defs = {via[r["anchor"]]: _target(r) for r in recs}
-    for a in used:
+    # ONLY NAMES SOMETHING USES ARE DEFINED: a listed work the prose also cites under
+    # another name links through that name, and a definition for the listed name would
+    # be one nothing uses, which `_verify.py` refuses.
+    for a in cited:
         ca, frag = index[a]
         defs[a] = _target(records[ca]) + (f"#{frag}" if frag else "")
     out += [f"[{a}]: {defs[a]}" for a in sorted(defs)]

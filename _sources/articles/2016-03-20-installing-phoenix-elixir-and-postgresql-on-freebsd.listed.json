@@ -1,0 +1,10 @@
+[
+ "elixir_service",
+ "phoenix_deployment",
+ "phoenix_json",
+ "phoenix_versioned_rest",
+ "postgresql_install",
+ "postgresql_install2",
+ "postgresql_install3",
+ "sh_tutorial"
+]

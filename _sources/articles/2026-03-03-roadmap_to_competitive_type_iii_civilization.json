@@ -1,0 +1,19 @@
+{
+ "ref_andromeda": "research_andromeda",
+ "ref_breakthrough_starshot": "ref_breakthrough_starshot_c6811e",
+ "ref_drake": "ref_drake_equation_2ed00d",
+ "ref_fermi": "ref_fermi_paradox_8cc1d4",
+ "ref_great_filter": "ref_great_filter_d38fc1",
+ "ref_kardashev": "ref_kardashev_scale_6a5ce0",
+ "ref_mercury": "ref_mercury_832def",
+ "ref_penrose": "ref_penrose_process",
+ "ref_sbsp": "ref_sbsp_3e4b1a",
+ "ref_self_replicating_spacecraft": "research_self_replicating",
+ "ref_star_lifting": "ref_criswell_star_lifting",
+ "ref_stellar_engine": "ref_shkadov",
+ "related_post_causality": "related_post_first_mover_advantage",
+ "related_post_crypto_space": "related_post_a92_cryptotelemeritocracy",
+ "research_eternity": "ref_eternity_six_hours",
+ "research_ghat": "ref_ghat_paper_i",
+ "research_grabby": "ref_grabby_aliens"
+}

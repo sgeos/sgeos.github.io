@@ -1,0 +1,16 @@
+[
+ "bash_command_sub",
+ "bash_heredoc",
+ "bash_string_length",
+ "bash_while",
+ "freebsd_forum_nc",
+ "man_curl",
+ "man_nc",
+ "tor_curl",
+ "tor_curl_onion",
+ "tor_nc",
+ "unix_faking_services",
+ "unix_one_command_server",
+ "unix_single_line_server",
+ "wikipedia_netcat"
+]

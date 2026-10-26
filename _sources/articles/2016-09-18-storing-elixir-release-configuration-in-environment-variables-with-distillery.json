@@ -1,0 +1,9 @@
+{
+ "blog_json_api_script": "phoenix_shell",
+ "distillery_runtime_config": "distillery_config",
+ "edeliver": "elixir_edeliver",
+ "elixir_service": "freebsd_elixir",
+ "exrm": "elixir_exrm",
+ "exrm_config": "elixir_exrm_release_config",
+ "phoenix_service": "freebsd_phoenix"
+}

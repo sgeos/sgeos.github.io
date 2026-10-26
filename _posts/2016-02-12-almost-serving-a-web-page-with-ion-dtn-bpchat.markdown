@@ -9,7 +9,7 @@ categories: freebsd ion dtn
 <!-- A14 -->
 <script>console.log("A14");</script>
 
-This post is a follow up to [Getting Started with ION-DTN 3.4.0 on FreeBSD][ion-getting-started].
+This post is a follow up to [Getting Started with ION-DTN 3.4.0 on FreeBSD][ion_getting_started].
 The follow up to this post is [Serving a Web Page with ION-DTN bpsendfile and bprecvfile](https://sgeos.github.io/freebsd/ion/dtn/2016/02/17/serving-a-web-page-with-ion-dtn-bpsendfile-and-bprecvfile.html).
 
 The goal is to serve a web page using an architecture like this.
@@ -406,72 +406,83 @@ The HTML document is served without issue.
 **Due to a bug in reverse_proxy.sh, the second request (a CSS file in my case) will cause bp to hang.**
 **This exercise has been posted as is because reproducable crashes are valuable.**
 
-## References:
-- [ION, Bundle Protocol][ion-bp]
-- [ION, ion-dtn-support Mailing List Archives][ion-dtn-support]
-- [ION, Getting Started with ION-DTN 3.4.0 on FreeBSD][ion-getting-started]
-- [FreeBSD Handbook, Bridging][freebsd-bridging]
-- [FreeBSD Single Line Web Server With nc on FreeBSD][freebsd-singleline]
-- [UNIX, Netcat - network connections made easy][unix-netcat-easy]
-- [UNIX, Using netcat to build a simple TCP proxy in Linux][unix-netcat-proxy]
-- [UNIX, Bourne Shell Scripting/Debugging and signal handling][unix-sh]
-- [UNIX, Sh - the Bourne Shell][unix-bourne-shell]
-- [UNIX, How can I trap interrupts in my shell script?][unix-trap]
-- [UNIX, in bash does control-c = SIGINT or SIGTERM?][unix-sigint]
-- [UNIX, Sed and UTF-8 encoding][unix-sed-utf8]
-- [UNIX, In Unix, how can I display the last lines of a file?][unix-last-lines]
-- [UNIX, FIFO Operations][unix-fifo]
-- [UNIX, Trouble with piping through sed][unix-sed-unbuffered]
-- [UNIX, how can I get sed to quit after the first matching address range?][unix-sed-match-quit]
-- [UNIX, Linux: Block until a string is matched in a file (“tail + grep with blocking”)][unix-match-block]
-- [UNIX, Case Insensitive Search and Replace with sed][unix-case-insensitive]
-- [UNIX, sed Find and Replace ASCII Control Codes / Nonprintable Characters][unix-sed-control]
-- [UNIX, Can sed remove 'double' newline characters?][unix-sed-newline]
-- [UNIX, Case-insensitive search & replace with sed][unix-sed-case-insensitive]
-- [UNIX, How to replace whole line with sed?][unix-sed-whole-line]
-- [UNIX, change terminal title][unix-terminal-title]
-- [UNIX, ASCII Table and Description][unix-ascii]
-- [Networking, StackOverflow, what is the difference between proxy server and normal server?][networking-proxy1]
-- [Networking, StackOverflow, Difference between proxy server and reverse proxy server][networking-proxy2]
-- [Jekyll, Writing posts][jekyll-posts]
-- [Jekyll, superscript in markdown (Github flavored)?][jekyll-subscript1]
-- [Jekyll, Why there is no syntax for subscript and supscript?][jekyll-subscript2]
-- [Wikipedia, UTF-8][wikipedia-utf8]
-- [Wikipedia, Greek alphabet][wikipedia-greek]
-- [Wikipedia, End-of-Transmission character][wikipedia-eot]
-- [Wikipedia, Escape sequences in C][wikipedia-escape-c]
+## References
 
-[freebsd-bridging]: https://www.freebsd.org/doc/handbook/network-bridging.html
-[freebsd-singleline]: https://sgeos.github.io/freebsd/nc/2016/02/06/single-line-web-server-with-nc-on-freebsd.html
-[ion-bp]: http://bundleprotocol.com
-[ion-dtn-support]: https://sourceforge.net/p/ion-dtn/mailman/ion-dtn-support/
-[ion-getting-started]: https://sgeos.github.io/freebsd/ion/dtn/2016/02/07/getting-started-with-ion-dtn-3-4-0-on-freebsd.html
-[jekyll-posts]: http://jekyllrb.com/docs/posts/
-[jekyll-subscript1]: http://stackoverflow.com/questions/15155778/superscript-in-markdown-github-flavored
-[jekyll-subscript2]: http://talk.commonmark.org/t/why-there-is-no-syntax-for-subscript-and-supscript/586
-[networking-proxy1]: http://stackoverflow.com/questions/12702885/what-is-the-difference-between-proxy-server-and-normal-server
-[networking-proxy2]: http://stackoverflow.com/questions/224664/difference-between-proxy-server-and-reverse-proxy-server
-[unix-ascii]: http://www.asciitable.com
-[unix-bourne-shell]: http://www.grymoire.com/Unix/Sh.html
-[unix-case-insensitive]: http://stackoverflow.com/questions/4412945/case-insensitive-search-replace-with-sed
-[unix-fifo]: http://www.tldp.org/LDP/lpg/node18.html
-[unix-last-lines]: https://kb.iu.edu/d/acrj
-[unix-match-block]: http://stackoverflow.com/questions/6454915/linux-block-until-a-string-is-matched-in-a-file-tail-grep-with-blocking
-[unix-netcat-easy]: http://www.stearns.org/doc/nc-intro.current.html
-[unix-netcat-proxy]: http://notes.tweakblogs.net/blog/7955/using-netcat-to-build-a-simple-tcp-proxy-in-linux.html
-[unix-sed-case-insensitive]: http://stackoverflow.com/questions/4412945/case-insensitive-search-replace-with-sed
-[unix-sed-control]: http://www.cyberciti.biz/faq/unix-linux-sed-ascii-control-codes-nonprintable/
-[unix-sed-match-quit]: http://stackoverflow.com/questions/20943025/how-can-i-get-sed-to-quit-after-the-first-matching-address-range
-[unix-sed-newline]: http://unix.stackexchange.com/questions/76061/can-sed-remove-double-newline-characters
-[unix-sed-unbuffered]: http://stackoverflow.com/questions/2427338/trouble-with-piping-through-sed
-[unix-sed-utf8]: http://stackoverflow.com/questions/27072558/sed-and-utf-8-encoding
-[unix-sed-whole-line]: http://stackoverflow.com/questions/8822097/how-to-replace-whole-line-with-sed
-[unix-sh]: https://en.wikibooks.org/wiki/Bourne_Shell_Scripting/Debugging_and_signal_handling
-[unix-sigint]: http://www.linuxquestions.org/questions/linux-general-1/in-bash-does-control-c-%3D-sigint-or-sigterm-443130/
-[unix-terminal-title]: http://unix.stackexchange.com/questions/11223/change-terminal-title
-[unix-trap]: http://kb.mit.edu/confluence/pages/viewpage.action?pageId=3907156
-[wikipedia-eot]: https://en.wikipedia.org/wiki/End-of-Transmission_character
-[wikipedia-escape-c]: https://en.wikipedia.org/wiki/Escape_sequences_in_C
-[wikipedia-greek]: https://en.wikipedia.org/wiki/Greek_alphabet
-[wikipedia-utf8]: https://en.wikipedia.org/wiki/UTF-8
+<!-- References generated by _lib/sources.py from _sources/. Edit the database and regenerate. Do not edit this section by hand. -->
 
+### Primary Sources, Non-Peer-Reviewed
+
+- "FreeBSD Handbook, Bridging." n.d. www.freebsd.org. Accessed October 25, 2026. [https://www.freebsd.org/doc/handbook/network-bridging.html][freebsd_bridging]
+- "UNIX, In Unix, how can I display the last lines of a file?" n.d. kb.iu.edu. Accessed October 25, 2026. [https://kb.iu.edu/d/acrj][unix_last_lines]
+- "Writing Posts." n.d. jekyllrb.com. Accessed October 25, 2026. [http://jekyllrb.com/docs/posts/][jekyll_posts]
+
+### General Sources
+
+- "6.3.3 FIFO Operations." n.d. Accessed October 25, 2026. [http://www.tldp.org/LDP/lpg/node18.html][unix_fifo]
+- Barnett, Bruce. n.d. "Bourne Shell Tutorial." Accessed October 25, 2026. [http://www.grymoire.com/Unix/Sh.html][unix_bourne_shell]
+- "Bash: Change Terminal Title." n.d.-a. Accessed October 25, 2026. [http://unix.stackexchange.com/questions/11223/change-terminal-title][unix_terminal_title]
+- "Bash: Sed and UTF-8 Encoding." n.d.-b. Accessed October 25, 2026. [http://stackoverflow.com/questions/27072558/sed-and-utf-8-encoding][unix_sed_utf8]
+- "Can Sed Remove 'Double' Newline Characters?" n.d. Accessed October 25, 2026. [http://unix.stackexchange.com/questions/76061/can-sed-remove-double-newline-characters][unix_sed_newline]
+- "How Can I Trap Interrupts in My Shell Script?: IS&T Contributions: Hermes." n.d. Accessed October 25, 2026. [http://kb.mit.edu/confluence/pages/viewpage.action?pageId=3907156][unix_trap]
+- "In Bash Does Control-c = SIGINT or SIGTERM?" n.d. Accessed October 25, 2026. [http://www.linuxquestions.org/questions/linux-general-1/in-bash-does-control-c-%3D-sigint-or-sigterm-443130/][unix_sigint]
+- "ION, Bundle Protocol." n.d. Accessed October 25, 2026. [http://bundleprotocol.com][ion_bp]
+- "ION, ion-dtn-support Mailing List Archives." n.d. Accessed October 25, 2026. [https://sourceforge.net/p/ion-dtn/mailman/ion-dtn-support/][ion_dtn_support]
+- "Netcat: Network Connections Made Easy." n.d. Accessed October 25, 2026. [http://www.stearns.org/doc/nc-intro.current.html][unix_netcat_easy]
+- "Networking: What Is the Difference between Proxy Server and Normal Server?" n.d. Accessed October 25, 2026. [http://stackoverflow.com/questions/12702885/what-is-the-difference-between-proxy-server-and-normal-server][networking_proxy1]
+- "Osx: Case-Insensitive Search & Replace with Sed." n.d. Accessed October 25, 2026. [http://stackoverflow.com/questions/4412945/case-insensitive-search-replace-with-sed][unix_case_insensitive]
+- "Regex: How Can I Get Sed to Quit after the First Matching Address Range?" n.d.-a. Accessed October 25, 2026. [http://stackoverflow.com/questions/20943025/how-can-i-get-sed-to-quit-after-the-first-matching-address-range][unix_sed_match_quit]
+- "Regex: How to Replace Whole Line with Sed?" n.d.-b. Accessed October 25, 2026. [http://stackoverflow.com/questions/8822097/how-to-replace-whole-line-with-sed][unix_sed_whole_line]
+- "Superscript in Markdown (Github Flavored)?" n.d. Accessed October 25, 2026. [http://stackoverflow.com/questions/15155778/superscript-in-markdown-github-flavored][jekyll_subscript1]
+- "UNIX, ASCII Table and Description." n.d. Accessed October 25, 2026. [http://www.asciitable.com][unix_ascii]
+- "UNIX, Bourne Shell Scripting/Debugging and signal handling." n.d. Accessed October 25, 2026. [https://en.wikibooks.org/wiki/Bourne\_Shell\_Scripting/Debugging\_and\_signal\_handling][unix_sh]
+- "UNIX, Linux: Block until a string is matched in a file (“tail + grep with blocking”)." n.d. Accessed October 25, 2026. [http://stackoverflow.com/questions/6454915/linux-block-until-a-string-is-matched-in-a-file-tail-grep-with-blocking][unix_match_block]
+- "UNIX, sed Find and Replace ASCII Control Codes / Nonprintable Characters." n.d. Accessed October 25, 2026. [http://www.cyberciti.biz/faq/unix-linux-sed-ascii-control-codes-nonprintable/][unix_sed_control]
+- "UNIX, Trouble with piping through sed." n.d. Accessed October 25, 2026. [http://stackoverflow.com/questions/2427338/trouble-with-piping-through-sed][unix_sed_unbuffered]
+- "Using Netcat to Build a Simple TCP Proxy in Linux: Notes: Tweakblogs: Tweakers." n.d. Accessed October 25, 2026. [http://notes.tweakblogs.net/blog/7955/using-netcat-to-build-a-simple-tcp-proxy-in-linux.html][unix_netcat_proxy]
+- "Webserver: Difference between Proxy Server and Reverse Proxy Server." n.d. Accessed October 25, 2026. [http://stackoverflow.com/questions/224664/difference-between-proxy-server-and-reverse-proxy-server][networking_proxy2]
+- "Why There Is No Syntax for Subscript and Supscript?" n.d. CommonMark Discussion. Accessed October 25, 2026. [http://talk.commonmark.org/t/why-there-is-no-syntax-for-subscript-and-supscript/586][jekyll_subscript2]
+
+### Tertiary Sources
+
+- "End-of-Transmission Character." 2015. Wikipedia. Last modified December 7, at 00:40 (UTC). [https://en.wikipedia.org/w/index.php?title=End-of-Transmission\_character&oldid=694084715][wikipedia_eot]
+- "Escape Sequences in C." 2016. Wikipedia. Last modified January 24, at 05:09 (UTC). [https://en.wikipedia.org/w/index.php?title=Escape\_sequences\_in\_C&oldid=701377610][wikipedia_escape_c]
+- "Greek Alphabet." 2016. Wikipedia. Last modified January 27, at 22:48 (UTC). [https://en.wikipedia.org/w/index.php?title=Greek\_alphabet&oldid=702016081][wikipedia_greek]
+- "UTF-8." 2016. Wikipedia. Last modified February 5, at 11:55 (UTC). [https://en.wikipedia.org/w/index.php?title=UTF-8&oldid=703418790][wikipedia_utf8]
+
+### Related Posts
+
+- Sechter, Brendan. 2016. "Getting Started with ION-DTN 3.4.0 on FreeBSD." *Brendan A R Sechter's Development Blog*, February 7. [https://sgeos.github.io/freebsd/ion/dtn/2016/02/07/getting-started-with-ion-dtn-3-4-0-on-freebsd.html][ion_getting_started]
+- Sechter, Brendan. 2016. "Single Line Web Server With nc on FreeBSD." *Brendan A R Sechter's Development Blog*, February 9. [https://sgeos.github.io/freebsd/nc/2016/02/09/single-line-web-server-with-nc-on-freebsd.html][freebsd_singleline]
+
+[freebsd_bridging]: https://www.freebsd.org/doc/handbook/network-bridging.html
+[freebsd_singleline]: {% post_url 2016-02-09-single-line-web-server-with-nc-on-freebsd %}
+[ion_bp]: http://bundleprotocol.com
+[ion_dtn_support]: https://sourceforge.net/p/ion-dtn/mailman/ion-dtn-support/
+[ion_getting_started]: {% post_url 2016-02-07-getting-started-with-ion-dtn-3-4-0-on-freebsd %}
+[jekyll_posts]: http://jekyllrb.com/docs/posts/
+[jekyll_subscript1]: http://stackoverflow.com/questions/15155778/superscript-in-markdown-github-flavored
+[jekyll_subscript2]: http://talk.commonmark.org/t/why-there-is-no-syntax-for-subscript-and-supscript/586
+[networking_proxy1]: http://stackoverflow.com/questions/12702885/what-is-the-difference-between-proxy-server-and-normal-server
+[networking_proxy2]: http://stackoverflow.com/questions/224664/difference-between-proxy-server-and-reverse-proxy-server
+[unix_ascii]: http://www.asciitable.com
+[unix_bourne_shell]: http://www.grymoire.com/Unix/Sh.html
+[unix_case_insensitive]: http://stackoverflow.com/questions/4412945/case-insensitive-search-replace-with-sed
+[unix_fifo]: http://www.tldp.org/LDP/lpg/node18.html
+[unix_last_lines]: https://kb.iu.edu/d/acrj
+[unix_match_block]: http://stackoverflow.com/questions/6454915/linux-block-until-a-string-is-matched-in-a-file-tail-grep-with-blocking
+[unix_netcat_easy]: http://www.stearns.org/doc/nc-intro.current.html
+[unix_netcat_proxy]: http://notes.tweakblogs.net/blog/7955/using-netcat-to-build-a-simple-tcp-proxy-in-linux.html
+[unix_sed_control]: http://www.cyberciti.biz/faq/unix-linux-sed-ascii-control-codes-nonprintable/
+[unix_sed_match_quit]: http://stackoverflow.com/questions/20943025/how-can-i-get-sed-to-quit-after-the-first-matching-address-range
+[unix_sed_newline]: http://unix.stackexchange.com/questions/76061/can-sed-remove-double-newline-characters
+[unix_sed_unbuffered]: http://stackoverflow.com/questions/2427338/trouble-with-piping-through-sed
+[unix_sed_utf8]: http://stackoverflow.com/questions/27072558/sed-and-utf-8-encoding
+[unix_sed_whole_line]: http://stackoverflow.com/questions/8822097/how-to-replace-whole-line-with-sed
+[unix_sh]: https://en.wikibooks.org/wiki/Bourne_Shell_Scripting/Debugging_and_signal_handling
+[unix_sigint]: http://www.linuxquestions.org/questions/linux-general-1/in-bash-does-control-c-%3D-sigint-or-sigterm-443130/
+[unix_terminal_title]: http://unix.stackexchange.com/questions/11223/change-terminal-title
+[unix_trap]: http://kb.mit.edu/confluence/pages/viewpage.action?pageId=3907156
+[wikipedia_eot]: https://en.wikipedia.org/w/index.php?title=End-of-Transmission_character&oldid=694084715
+[wikipedia_escape_c]: https://en.wikipedia.org/w/index.php?title=Escape_sequences_in_C&oldid=701377610
+[wikipedia_greek]: https://en.wikipedia.org/w/index.php?title=Greek_alphabet&oldid=702016081
+[wikipedia_utf8]: https://en.wikipedia.org/w/index.php?title=UTF-8&oldid=703418790

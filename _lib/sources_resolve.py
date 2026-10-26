@@ -176,6 +176,10 @@ def _full_form_people(parts):
     return people, editors, parts[i:]
 
 
+# THE OLD LISTS' SECTION NAMES that open a label, beside the categories the importer
+# already maps to kinds.
+CATEGORY_PREFIXES = {"Future Reading", "Related Post", "Wikipedia", "Industry", "Tool", "Material", "Protocol"}
+
 # PREFIXES WHOSE LABELS NAME PEOPLE. A `ref_` or `data_` label describes a page or a
 # record, `Commercial Space Launch Amendments Act 2004`, and its words are no surnames.
 PEOPLE_PREFIXES = ("research_", "book_", "paper_", "thesis_", "commentary_", "survey_")
@@ -196,8 +200,11 @@ def parse_label(label, anchor=None):
     if not label:
         return out
     parts = label.split(", ")
-    if len(parts) > 2 and parts[0] in si.LEGACY_KIND:
+    # A CATEGORY BEFORE THE LABEL, `Reference, Mars Ice Home Concept` or `Future Reading,
+    # The Hypersonic Revolution`, names the old list's section, not the work.
+    if len(parts) >= 2 and (parts[0] in si.LEGACY_KIND or parts[0] in CATEGORY_PREFIXES):
         parts = parts[1:]
+        label = ", ".join(parts)
     people, editors, rest = _full_form_people(parts)
     if people and rest:
         year = None
@@ -210,6 +217,20 @@ def parse_label(label, anchor=None):
         # AN EDITION NOTE, `ninth edition`, is not part of the title.
         rest = [x for x in rest if not re.search(r"\bedition$", x, re.I)]
         out.update(people=people, editors=editors, year=year, title=", ".join(rest), venue=venue, form="full")
+        return out
+    # TITLE, SURNAMES, YEAR, the A100 to A199 `Future Reading` form, `Computing: A Concise
+    # History, Campbell-Kelly, 2012`, with a venue in brackets after the title,
+    # `Are Self-Replicating Machines Feasible? (JBIS), Ellery, 2017`.
+    if len(parts) >= 3 and re.fullmatch(r"(?:1[5-9]|20)\d\d[a-z]?", parts[-1]) and \
+            re.fullmatch(r"[A-Z][\w'’\-]+(?:\s+(?:and|et al\.?)(?:\s+[A-Z][\w'’\-]+)?)*", parts[-2]):
+        who = parts[-2]
+        fams, inc = si._people_from_label(who)
+        title = ", ".join(parts[:-2])
+        vm = re.search(r"\s*\(([^)]+)\)$", title)
+        venue = vm.group(1) if vm else ""
+        title = title[:vm.start()] if vm else title
+        out.update(people=[p for p in fams if p.get("family")], year=int(parts[-1][:4]), title=title,
+                   venue=venue, form="short", incomplete=inc)
         return out
     who, year, title = si.split_label(label)
     if year:
@@ -274,7 +295,15 @@ def title_first_labels(text):
         if not ym:
             continue
         year, parts = ym.group(1), parts[:-1]
-        venue = parts.pop() if parts and not re.match(r"^(edited by|[A-Z][a-z]+ [A-Z]\.)", parts[-1]) else ""
+        # THE LAST PART IS THE PUBLISHER unless it names people, `Niklaus Wirth and Jürg
+        # Gutknecht` before A194's `revised edition 2013`.
+        # Names are joined by `and` or carry an initial; `Landes Bioscience` does neither.
+        def names_people(x):
+            chunks = re.split(r"\s+and\s+", re.sub(r"^edited by\s+", "", x))
+            looks = all(re.fullmatch(r"[A-ZÀ-Þ][\w'’\-]+(?:\s+(?:[A-ZÀ-Þ][\w.'’\-]*|de|van|von|der))+", c)
+                        and not _PUBLISHER_WORDS.search(c) for c in chunks)
+            return looks and (len(chunks) > 1 or bool(re.search(r"\b[A-Z]\.", x)))
+        venue = parts.pop() if parts and not names_people(parts[-1]) else ""
         people, editors = [], False
         for chunk in parts:
             if re.search(r"\d", chunk) or si._ORG.search(chunk):
@@ -1068,6 +1097,8 @@ def main(argv):
     p.add_argument("--cache", default="tmp/sources")
     p.add_argument("--crossref-cache", default="tmp/sources/crossref")
     p.add_argument("--shard", default="0/1", help="k/n, this process's share, for the steps on other hosts")
+    p = sub.add_parser("normalise", help="make legacy posts readable to the converter, in place")
+    p.add_argument("posts", nargs="+")
     p = sub.add_parser("explain", help="print how each non-DOI link of a post resolves")
     p.add_argument("post")
     p.add_argument("--cache", default="tmp/sources")
@@ -1077,6 +1108,16 @@ def main(argv):
         todo = plan(a.posts, a.cache, a.crossref_cache)
         for k, v in todo.items():
             print(f"{k}: {len(set(map(str, v)) if not isinstance(v, dict) else v)}")
+        return 0
+    if a.cmd == "normalise":
+        paths, slugs = post_paths()
+        for path in a.posts:
+            text = open(path, encoding="utf-8").read()
+            new, notes = normalise_legacy(text, paths, slugs)
+            if new != text:
+                with open(path, "w", encoding="utf-8") as fh:
+                    fh.write(new)
+            print(f"{path}: {len(notes)} change(s)")
         return 0
     if a.cmd == "fetch":
         k, n = (int(x) for x in a.shard.split("/"))
@@ -1318,7 +1359,7 @@ def record_without_title(anchor, url, label, read_date, why):
     if lab["year"]:
         rec["year"] = lab["year"]
     if not lab["people"]:
-        rec["title"] = rec["title_published"] = label or UNIDENTIFIED
+        rec["title"] = rec["title_published"] = lab["title"] or label or UNIDENTIFIED
     return rec
 
 
@@ -1538,9 +1579,12 @@ def article_labels(text):
     one, which a search by authors and an entry built from a label use.
     """
     import sources_import as si
-    labels = {anc: lab for lab, anc in si.LEGACY_ITEM.findall(text)}
+    # LIQUID IN A LABEL, `{% raw %}[Ion-dtn-users]{% endraw %}` in A16, kept brackets from
+    # being read as a link; it is markup, not the title, and escaped it breaks the build.
+    unliquid = lambda x: re.sub(r"\{%-?\s*(?:raw|endraw)\s*-?%\}", "", x)  # noqa: E731
+    labels = {anc: unliquid(lab) for lab, anc in si.LEGACY_ITEM.findall(text)}
     for anc, lab in title_first_labels(text).items():
-        labels.setdefault(anc, lab)
+        labels.setdefault(anc, unliquid(lab))
     fuller = {}
     for lab, anc in sources.USE_RE.findall(text.split("\n## References\n")[0]):
         lab = lab.replace("*", "").replace("\n", " ")
@@ -1617,6 +1661,85 @@ def page_names_another(md, title, lab):
     if lab["title"] and title_agrees(lab["title"], title or ""):
         return False
     return not people_agree(lab["people"], fams)
+
+
+# ------------------------------------------------------------ legacy posts
+
+
+def post_paths(posts_dir="_posts"):
+    """({site path: post stem}, {slug: [stems]}) for every post, for links to this blog by URL."""
+    import glob
+    paths, slugs = {}, {}
+    for f in glob.glob(os.path.join(posts_dir, "*.markdown")):            # bound: one post a file
+        text = open(f, encoding="utf-8").read()
+        m = re.search(r"(?m)^categories:\s*(.*)$", text)
+        cats = m.group(1).split() if m else []
+        stem = os.path.basename(f)[:-9]
+        paths["/" + "/".join(cats + [stem[:4], stem[5:7], stem[8:10], stem[11:] + ".html"])] = stem
+        slugs.setdefault(stem[11:], []).append(stem)
+    return paths, slugs
+
+
+def normalise_legacy(text, paths=None, slugs=None):
+    """(text, [changes]) with a legacy post made readable to the converter. Nothing a reader sees changes.
+
+    - `## References:` and `## Links:` become `## References`.
+    - An inline list item, `- [Title](URL)`, becomes a reference-style link.
+    - An anchor with hyphens or capitals, `android-asm-github`, is lower-cased with underscores
+      in its definition and every use; kramdown matches names without regard to case.
+    - A link to this blog's own post by URL becomes `post_url`, matched by the post's path or,
+      where the URL's date differs by the time zone, by a slug only one post has.
+    """
+    notes = []
+    text, n = re.subn(r"(?m)^## (?:References|Links):\s*$", "## References", text)
+    if n:
+        notes.append("heading")
+    # A DEFINITION'S SPACING, `[name]:    URL` aligned by hand, is one space, as the
+    # converter reads definitions and as kramdown renders either.
+    text, n = re.subn(r"(?m)^(\[[^\]]+\]:)[ \t]{2,}(\S)", r"\1 \2", text)
+    if n:
+        notes.append(f"spacing x{n}")
+    m = re.search(r"(?m)^## References\s*$", text)
+    if m:
+        head, refs = text[:m.end()], text[m.end():]
+        defs = []
+
+        def item(mm):
+            label, url = mm.group(1), mm.group(2)
+            slug = "ref_" + re.sub(r"_+", "_", re.sub(r"[^a-z0-9]+", "_", label.lower())).strip("_")[:50]
+            defs.append(f"[{slug}]: {url}")
+            return f"- [{label}][{slug}]"
+        refs2 = re.sub(r"(?m)^- \[([^\]]+)\]\((https?://[^)\s]+)\)\s*$", item, refs)
+        if defs:
+            refs2 = refs2.rstrip("\n") + "\n\n" + "\n".join(defs) + "\n"
+            notes.append(f"{len(defs)} inline items")
+        text = head + refs2
+    defs = re.findall(r"(?m)^\[([^\]]+)\]:[ \t]*\S", text)
+    taken = set(defs)
+    for a in defs:                                     # bound: one pass a definition
+        if re.fullmatch(r"[a-z0-9_]+", a):
+            continue
+        new = re.sub(r"_+", "_", re.sub(r"[^a-z0-9]+", "_", a.lower())).strip("_")
+        while new in taken:                            # bound: each pass lengthens the name
+            new += "_x"
+        taken.add(new)
+        text = re.sub(r"(?mi)^\[" + re.escape(a) + r"\]:", f"[{new}]:", text)
+        text = re.sub(r"(?i)\]\[" + re.escape(a) + r"\]", f"][{new}]", text)
+        notes.append(f"{a} -> {new}")
+    if paths is not None:
+        def own(mm):
+            path, frag = mm.group(2), mm.group(3) or ""
+            stem = paths.get(path)
+            cand = (slugs or {}).get(path.rsplit("/", 1)[-1][:-5], [])
+            if not stem and len(cand) == 1:
+                stem = cand[0]
+            if not stem:
+                return mm.group(0)
+            notes.append(f"{path} -> post_url {stem}")
+            return f"{mm.group(1)} {{% post_url {stem} %}}{frag}"
+        text = re.sub(r"(?m)^(\[[a-z0-9_]+\]:)[ \t]+(?:https?://sgeos\.github\.io)?(/[^\s#]+\.html)(#\S+)?[ \t]*$",
+                      own, text)
+    return text, notes
 
 
 if __name__ == "__main__":

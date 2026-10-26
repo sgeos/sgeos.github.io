@@ -1,0 +1,7 @@
+{
+ "ref_delta": "ref_delta_wing",
+ "ref_ground_effect": "ref_ground_effect_5522cd",
+ "ref_vortex_lift": "ref_vortex_lift_29bb65",
+ "related_post_lwpla": "related_post_a112_fixed_wing_uav",
+ "research_rcsd_scaling": "research_square_cube_rc"
+}

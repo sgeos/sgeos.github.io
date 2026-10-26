@@ -1,0 +1,13 @@
+{
+ "future_korn": "future_karplus",
+ "ref_analytical_engine": "ref_analytical_engine_7ae467",
+ "ref_antikythera": "ref_antikythera_261d6e",
+ "ref_babbage": "ref_babbage_f973ca",
+ "ref_fluidics": "ref_flodac",
+ "ref_jacquard_loom": "ref_jacquard_loom_21a396",
+ "ref_kerrison_predictor": "ref_kerrison_predictor_8a215b",
+ "ref_tide_predictor": "ref_tide_predicting_machine",
+ "research_borgue": "research_borgue_735396",
+ "research_heck": "research_heck_022a4c",
+ "research_nasa_aasm": "book_nasa_cp2255"
+}

@@ -1,0 +1,11 @@
+[
+ "elixir_service",
+ "phoenix_deployment",
+ "phoenix_json",
+ "phoenix_versioned_rest",
+ "postgresql_install",
+ "rest_patch_put",
+ "sh_comma",
+ "sh_count",
+ "sh_getopts"
+]

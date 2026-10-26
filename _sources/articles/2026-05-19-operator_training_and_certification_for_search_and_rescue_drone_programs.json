@@ -1,0 +1,11 @@
+{
+ "ref_aerovironment_training": "ref_aerovironment_training_b90704",
+ "ref_dji_academy": "ref_dji_academy_18cedd",
+ "ref_faa_coa": "ref_part_91_exemption",
+ "ref_faa_public_safety": "ref_public_aircraft",
+ "ref_ics_framework": "ref_ics_incident_commander",
+ "ref_nist_tests": "ref_nist_tests_c43aff",
+ "ref_part_107_night": "research_part107_29",
+ "ref_part_108": "ref_part_108_a3b9fe",
+ "ref_section_44807": "ref_section_44807_58d6de"
+}

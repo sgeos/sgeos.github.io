@@ -1,0 +1,10 @@
+# Import decisions for A45. Registry caches and page metadata are scratch and are not tracked.
+article = "A45"
+crossref_cache = "tmp/sources/crossref"
+wiki_pins = "tmp/a45/sources/wiki_pins.json"
+report_cache = "tmp/sources"
+web_read = "2026-10-25"
+
+# The links are resolved to registry records where their URL or their label's title finds one that
+# agrees with the label, and otherwise read from the page or its archive capture. See _lib/sources_resolve.py.
+resolve_links = true

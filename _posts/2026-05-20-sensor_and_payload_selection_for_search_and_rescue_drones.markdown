@@ -2322,7 +2322,7 @@ is
 the [Motion Imagery Standards Board][ref_misb]
 KLV metadata standard
 that
-the [STANAG 4609][ref_stanag_4609]
+the [STANAG 4609 NATO Motion n.d.][ref_stanag_4609]
 NATO Standardisation Agreement
 references.
 The KLV metadata embeds
@@ -2868,7 +2868,7 @@ across
 the lifecycle.
 The trusted timestamp
 that
-[RFC 3161][ref_rfc_3161]
+[RFC 3161 n.d.][ref_rfc_3161]
 defines
 anchors
 the hash record
@@ -3212,7 +3212,7 @@ the programme operates
 in
 the partnership with
 the federal agency.
-The [American Security Drone Act of 2023][ref_asda_2023],
+The [American Security Drone Act 2023][ref_asda_2023],
 incorporated into
 the National Defense Authorization Act for Fiscal Year 2024,
 restricts
@@ -4200,87 +4200,103 @@ the mission-capable fleet requires.
 
 ## References
 
-- [Reference, American Security Drone Act of 2023 FAR Final Rule][ref_asda_2023]
-- [Reference, ASTM Committee F38 on Unmanned Aircraft Systems][ref_astm_f38]
-- [Reference, California Civil Code Section 1708.8 as Amended by AB 856][ref_california_drone_law]
-- [Reference, Carnegie Mellon Robotics Institute AirLab][ref_cmu_robotics]
-- [Reference, Cubert ULTRIS Hyperspectral Imagers][ref_cubert]
-- [Reference, Cybersecurity Maturity Model Certification][ref_cmmc]
-- [Reference, DARPA OFFSET Program][ref_darpa_offset]
-- [Reference, Daubert Standard for Admissibility of Scientific Evidence][ref_daubert]
-- [Reference, Defense Innovation Unit Blue UAS Programme][ref_blue_uas]
-- [Reference, DJI Enterprise Solutions][ref_dji_enterprise]
-- [Reference, DJI FlightHub 2 Cloud Platform Terms][ref_dji_flighthub]
-- [Reference, DJI Local Data Mode][ref_dji_local_data_mode]
-- [Reference, DJI Payload SDK][ref_dji_psdk]
-- [Reference, DJI SkyPort and X-Port Payload Mounts][ref_dji_skyport]
-- [Reference, DJI Zenmuse Gimbal Family][ref_dji_zenmuse]
-- [Reference, DJI Zenmuse L2 LiDAR Payload][ref_dji_zenmuse_l2]
-- [Reference, DJI Zenmuse V1 Thermal-and-Loudspeaker Payload][ref_dji_zenmuse_v1]
-- [Reference, DroneDeploy Cloud Mapping Platform][ref_dronedeploy]
-- [Reference, DRONERESPONDERS][ref_droneresponders_a150]
-- [Reference, DroneAudioset Benchmark][ref_droneaudioset]
-- [Reference, EASA UAS Regulatory Framework][ref_easa_uas_a150]
-- [Reference, Esri ArcGIS Public-Safety Platform][ref_esri_arcgis]
-- [Reference, Esri Site Scan Drone Mapping][ref_esri_site_scan]
-- [Reference, Federal Records Act][ref_federal_records_act]
-- [Reference, Federal Risk and Authorization Management Programme][ref_fedramp]
-- [Reference, Federal Rules of Evidence][ref_federal_rules_of_evidence]
-- [Reference, Florida Freedom from Unwarranted Surveillance Act Statute 934.50][ref_florida_drone_law]
-- [Reference, Freedom of Information Act][ref_foia]
-- [Reference, FOIA Exemption 7(C) for Personal Privacy in Law Enforcement Records][ref_foia_exemption_7c]
-- [Reference, Freefly MoVI Gimbal Family][ref_freefly_movi]
-- [Reference, Gremsy Gimbal Family][ref_gremsy]
-- [Reference, Headwall Photonics Hyperspectral Imagers][ref_headwall]
-- [Reference, Hesai Pandar LiDAR Family][ref_hesai]
-- [Reference, IACP Body-Worn Camera Framework][ref_iacp_bwc]
-- [Reference, Illinois Freedom from Drone Surveillance Act 725 ILCS 167][ref_illinois_drone_law]
-- [Reference, International Traffic in Arms Regulations][ref_itar]
-- [Reference, ISO IEC 17025 Calibration Laboratory Accreditation][ref_iso_17025]
-- [Reference, LightWare LiDAR][ref_lightware]
-- [Reference, Livox LiDAR Family][ref_livox]
-- [Reference, Lynred Infrared Detector Manufacturer][ref_lynred]
-- [Reference, MIL-STD-704 Aircraft Electrical Power Characteristics][ref_mil_std_704]
-- [Reference, MIL-STD-1275 Ground Vehicle 28 Volt Standard][ref_mil_std_1275]
-- [Reference, MicaSense Altum-PT Multispectral Imager][ref_micasense_altum]
-- [Reference, Motion Imagery Standards Board KLV Metadata][ref_misb]
-- [Reference, NASA Earth Observatory][ref_nasa_earth_observatory]
-- [Reference, National Conference of State Legislatures Drone Law Tracker][ref_ncsl_drone_tracker]
-- [Reference, National Defense Authorization Act Section 848 of Fiscal Year 2020][ref_ndaa_848]
-- [Reference, Nevada Revised Statutes Chapter 493 Unmanned Aerial Vehicle Framework][ref_nevada_drone_law]
-- [Reference, NIST Special Publication 800-53 Security and Privacy Controls][ref_nist_800_53]
-- [Reference, NIST Special Publication 800-86 Guide to Integrating Forensic Techniques][ref_nist_800_86]
-- [Reference, NIST Special Publication 800-171 Protecting Controlled Unclassified Information][ref_nist_800_171]
-- [Reference, NIST Traceability Chain for Calibration][ref_nist_traceability]
-- [Reference, Ouster LiDAR Family][ref_ouster]
-- [Reference, Parrot Cloud Platform Terms][ref_parrot_cloud]
-- [Reference, Phoenix LiDAR Systems][ref_phoenix_lidar]
-- [Reference, Pix4D Drone Mapping Platform][ref_pix4d]
-- [Reference, RFC 3161 Internet X.509 Public Key Infrastructure Time Stamp Protocol][ref_rfc_3161]
-- [Reference, Riegl Survey LiDAR Family][ref_riegl]
-- [Reference, SWGDE Best Practices for Drone Forensics][ref_swgde]
-- [Reference, Sierra-Olympia Technologies][ref_sierra_olympia]
-- [Reference, Sierra-Olympia Ventus Cooled MWIR Core][ref_sierra_olympia_ventus]
-- [Reference, Skydio Cloud Platform Terms][ref_skydio_cloud]
-- [Reference, Skydio Public-Safety Drones][ref_skydio_drones]
-- [Reference, Sky Speaker-I from Yangda][ref_sky_speaker]
-- [Reference, Sony Starvis Low-Light CMOS][ref_sony_starvis]
-- [Reference, STANAG 4609 NATO Motion Imagery Standard][ref_stanag_4609]
-- [Reference, Tarot Gimbal Family][ref_tarot]
-- [Reference, Teledyne FLIR][ref_teledyne_flir]
-- [Reference, Teledyne FLIR Boson Plus Thermal Core][ref_flir_boson]
-- [Reference, Teledyne FLIR Hadron 640R Dual Payload][ref_flir_hadron]
-- [Reference, Teledyne FLIR UAS Payloads][ref_flir_uas]
-- [Reference, Texas Government Code Chapter 423 Use of Unmanned Aircraft][ref_texas_drone_law]
-- [Reference, USGS Landsat Program][ref_usgs_landsat]
-- [Reference, Workswell][ref_workswell]
-- [Reference, Workswell WIRIS Pro Dual Payload][ref_workswell_wiris]
-- [Reference, YellowScan Survey LiDAR Family][ref_yellowscan]
-- [Related Post, A Buyer's Decision Framework for Search and Rescue Drones][related_post_a146_buying]
-- [Related Post, Fixed-Wing Multicopter and Hybrid Drones for Search and Rescue Physics and Economics][related_post_a145_physics]
-- [Related Post, Operator Training and Certification for a SAR Drone Program][related_post_a149_training]
-- [Related Post, Research and Development for Search and Rescue Drones][related_post_a147_rd]
-- [Related Post, Search and Rescue Drone Fleets by Geographic Setting][related_post_a148_geographic]
+<!-- References generated by _lib/sources.py from _sources/. Edit the database and regenerate. Do not edit this section by hand. -->
+
+### Primary Sources, Non-Peer-Reviewed
+
+- "American Security Drone Act of 2023 FAR Final Rule." 2023. Accessed October 25, 2026. [https://www.federalregister.gov/documents/2024/11/12/2024-26061/federal-acquisition-regulation-prohibition-on-unmanned-aircraft-systems-from-covered-foreign][ref_asda_2023]
+- "California Civil Code Section 1708.8 as Amended by AB 856." n.d. Accessed October 25, 2026. [https://leginfo.legislature.ca.gov/faces/codes\_displaySection.xhtml?sectionNum=1708.8.&lawCode=CIV][ref_california_drone_law]
+- "Daubert Standard for Admissibility of Scientific Evidence." n.d. Accessed October 25, 2026. [https://www.law.cornell.edu/supremecourt/text/509/579][ref_daubert]
+- "DJI SkyPort and X-Port Payload Mounts." n.d. developer.dji.com. Accessed October 25, 2026. [https://developer.dji.com/payload-sdk][ref_dji_skyport]
+- "DroneAudioset Benchmark." n.d. Preprint, . [https://arxiv.org/abs/2510.15383][ref_droneaudioset]
+- "EASA Open Specific and Certified Categories for UAS." n.d. Accessed October 25, 2026. [https://www.easa.europa.eu/en/domains/civil-drones/drones-regulatory-framework-background][ref_easa_uas_a150]
+- "Federal Records Act." n.d. Accessed October 25, 2026. [https://www.archives.gov/about/laws/fed-agencies.html][ref_federal_records_act]
+- "Federal Rules of Evidence." n.d. Accessed October 25, 2026. [https://www.law.cornell.edu/rules/fre][ref_federal_rules_of_evidence]
+- "International Traffic in Arms Regulations." n.d. Accessed October 25, 2026. [https://www.pmddtc.state.gov/ddtc\_public?id=ddtc\_public\_portal\_itar\_landing][ref_itar]
+- *ISO IEC 17025 Calibration Laboratory Accreditation*. n.d. [https://www.iso.org/standard/66912.html][ref_iso_17025]
+- "National Defense Authorization Act Section 848 of Fiscal Year." 2020. [https://www.congress.gov/bill/116th-congress/senate-bill/1790][ref_ndaa_848]
+- "NIST Special Publication 800-171 Protecting Controlled Unclassified Information." n.d. Accessed October 25, 2026. [https://csrc.nist.gov/pubs/sp/800/171/r3/final][ref_nist_800_171]
+- "NIST Special Publication 800-53 Security and Privacy Controls." n.d. Accessed October 25, 2026. [https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final][ref_nist_800_53]
+- "NIST Special Publication 800-86 Guide to Integrating Forensic Techniques." n.d. Accessed October 25, 2026. [https://csrc.nist.gov/pubs/sp/800/86/final][ref_nist_800_86]
+- "Payload SDK." n.d. developer.dji.com. Accessed October 25, 2026. [https://developer.dji.com/doc/payload-sdk-tutorial/en/][ref_dji_psdk]
+- *RFC 3161: Internet X.509 Public Key Infrastructure Time-Stamp Protocol (TSP)*. n.d. [https://datatracker.ietf.org/doc/html/rfc3161][ref_rfc_3161]
+- "Texas Government Code Chapter 423 Use of Unmanned Aircraft." n.d. Accessed October 25, 2026. [https://statutes.capitol.texas.gov/Docs/GV/htm/GV.423.htm][ref_texas_drone_law]
+
+### Commercial Sources
+
+- "DARPA OFFSET Program." n.d. Accessed October 25, 2026. [https://www.darpa.mil/research/programs/offensive-swarm-enabled-tactics][ref_darpa_offset]
+- "Defense Innovation Unit Blue UAS Programme." n.d. Accessed October 25, 2026. [https://www.diu.mil/blue-uas/framework][ref_blue_uas]
+- "DJI Enterprise Solutions." n.d. Accessed October 25, 2026. [https://enterprise.dji.com/][ref_dji_enterprise]
+- "DJI FlightHub 2 Cloud Platform Terms." n.d. Accessed October 25, 2026. [https://www.dji.com/flighthub-2][ref_dji_flighthub]
+- "DJI Zenmuse Gimbal Family." n.d. Accessed October 25, 2026. [https://www.dji.com/products/zenmuse][ref_dji_zenmuse]
+- "DJI Zenmuse L2 LiDAR Payload." n.d. Accessed October 25, 2026. [https://enterprise.dji.com/zenmuse-l2][ref_dji_zenmuse_l2]
+- "DJI Zenmuse V1 Thermal-and-Loudspeaker Payload." n.d. Accessed October 25, 2026. [https://enterprise.dji.com/zenmuse-v1][ref_dji_zenmuse_v1]
+- "DRONERESPONDERS." n.d. Accessed October 25, 2026. [https://www.droneresponders.org/][ref_droneresponders_a150]
+- "NIST Traceability Chain for Calibration." n.d. Accessed October 25, 2026. [https://www.nist.gov/pml/owm/metrology/nist-traceability][ref_nist_traceability]
+- "Parrot Cloud Platform Terms." n.d. Accessed October 25, 2026. [https://www.parrot.com/en/support/cloud][ref_parrot_cloud]
+- "Sierra-Olympia Technologies." n.d. Accessed October 25, 2026. [https://sierraolympia.com/][ref_sierra_olympia]
+- "Sierra-Olympia Ventus Cooled MWIR Core." n.d. Accessed October 25, 2026. [https://sierraolympia.com/airborne-cameras/][ref_sierra_olympia_ventus]
+- "Skydio Cloud Platform Terms." n.d. Accessed October 25, 2026. [https://www.skydio.com/cloud][ref_skydio_cloud]
+- "Skydio Public-Safety Drones." n.d. Accessed October 25, 2026. [https://www.skydio.com/][ref_skydio_drones]
+- "Teledyne FLIR." n.d. Accessed October 25, 2026. [https://www.flir.com/][ref_teledyne_flir]
+- "Teledyne FLIR UAS Payloads." n.d. Accessed October 25, 2026. [https://www.flir.com/browse/industrial/unmanned-systems/][ref_flir_uas]
+
+### General Sources
+
+- "ASTM Committee F38 on Unmanned Aircraft Systems." n.d. Accessed October 25, 2026. [https://www.astm.org/COMMITTEE/F38.htm][ref_astm_f38]
+- "Carnegie Mellon Robotics Institute AirLab." n.d. Accessed October 25, 2026. [https://www.ri.cmu.edu/][ref_cmu_robotics]
+- "Cybersecurity Maturity Model Certification." n.d. Accessed October 25, 2026. [https://dodcio.defense.gov/CMMC/][ref_cmmc]
+- "DJI Local Data Mode." n.d. Accessed October 25, 2026. [https://security.dji.com/data][ref_dji_local_data_mode]
+- "DroneDeploy Cloud Mapping Platform." n.d. Accessed October 25, 2026. [https://www.dronedeploy.com/][ref_dronedeploy]
+- "Esri ArcGIS Public-Safety Platform." n.d. Accessed October 25, 2026. [https://www.esri.com/en-us/industries/public-safety/overview][ref_esri_arcgis]
+- "Esri Site Scan Drone Mapping." n.d. Accessed October 25, 2026. [https://www.esri.com/en-us/arcgis/products/site-scan-for-arcgis/overview][ref_esri_site_scan]
+- "Federal Risk and Authorization Management Programme." n.d. Accessed October 25, 2026. [https://www.fedramp.gov/][ref_fedramp]
+- "Florida Freedom from Unwarranted Surveillance Act Statute 934.50." n.d. Accessed October 25, 2026. [http://www.leg.state.fl.us/Statutes/index.cfm?App\_mode=Display\_Statute&URL=0900-0999/0934/Sections/0934.50.html][ref_florida_drone_law]
+- "FOIA Exemption 7(C) for Personal Privacy in Law Enforcement Records." n.d. Accessed October 25, 2026. [https://www.foia.gov/faq.html][ref_foia_exemption_7c]
+- "Freedom of Information Act." n.d. Accessed October 25, 2026. [https://www.foia.gov/][ref_foia]
+- "Freefly MoVI Gimbal Family." n.d. Accessed October 25, 2026. [https://store.freeflysystems.com/products/movi-xl][ref_freefly_movi]
+- "Gremsy Gimbal Family." n.d. Accessed October 25, 2026. [https://gremsy.com/][ref_gremsy]
+- "Headwall Photonics Hyperspectral Imagers." n.d. Accessed October 25, 2026. [https://headwallphotonics.com/][ref_headwall]
+- "Hesai Pandar LiDAR Family." n.d. Accessed October 25, 2026. [https://www.hesaitech.com/][ref_hesai]
+- "Hyperspectral Imaging Solutions by Cubert." n.d. Cubert Hyperspectral. Accessed October 25, 2026. [https://cubert-hyperspectral.com/][ref_cubert]
+- "IACP Body-Worn Camera Framework." n.d. Accessed October 25, 2026. [https://www.theiacp.org/resources/policy-center-resource/body-worn-cameras][ref_iacp_bwc]
+- "Illinois Freedom from Drone Surveillance Act 725 ILCS 167." n.d. Accessed October 25, 2026. [https://www.ilga.gov/legislation/ilcs/ilcs3.asp?ActID=3520&ChapterID=54][ref_illinois_drone_law]
+- "LightWare LiDAR." n.d. Accessed October 25, 2026. [https://lightwarelidar.com/][ref_lightware]
+- "Livox LiDAR Family." n.d. Accessed October 25, 2026. [https://www.livoxtech.com/][ref_livox]
+- "Lynred Infrared Detector Manufacturer." n.d. Accessed October 25, 2026. [https://www.lynred.com/][ref_lynred]
+- "MicaSense Altum-PT Multispectral Imager." n.d. Accessed October 25, 2026. [https://ageagle.com/drone-sensors/altum-pt-camera/][ref_micasense_altum]
+- "MIL-STD-1275 Ground Vehicle 28 Volt Standard." n.d. Accessed October 25, 2026. [https://en.wikipedia.org/wiki/MIL-STD-1275][ref_mil_std_1275]
+- "Motion Imagery Standards Board KLV Metadata." n.d. Accessed October 25, 2026. [https://nsgreg.nga.mil/misb.jsp][ref_misb]
+- "NASA Earth Observatory." n.d. Accessed October 25, 2026. [https://earthobservatory.nasa.gov/][ref_nasa_earth_observatory]
+- "National Conference of State Legislatures Drone Law Tracker." n.d. Accessed October 25, 2026. [https://www.ncsl.org/transportation/current-unmanned-aircraft-state-law-landscape][ref_ncsl_drone_tracker]
+- "Nevada Revised Statutes Chapter 493 Unmanned Aerial Vehicle Framework." n.d. Accessed October 25, 2026. [https://www.leg.state.nv.us/NRS/NRS-493.html][ref_nevada_drone_law]
+- "Ouster LiDAR Family." n.d. Accessed October 25, 2026. [https://ouster.com/][ref_ouster]
+- "Phoenix LiDAR Systems." n.d. Accessed October 25, 2026. [https://www.phoenixlidar.com/][ref_phoenix_lidar]
+- "Pix4D Drone Mapping Platform." n.d. Accessed October 25, 2026. [https://www.pix4d.com/][ref_pix4d]
+- "Riegl Survey LiDAR Family." n.d. Accessed October 25, 2026. [http://www.riegl.com/][ref_riegl]
+- "Sky Speaker-I from Yangda." n.d. Accessed October 25, 2026. [https://www.yangdaonline.com/sky-speaker-i-megaphone-for-drones/][ref_sky_speaker]
+- "Sony Starvis Low-Light CMOS." n.d. Accessed October 25, 2026. [https://framos.com/products-solutions/image-sensors/sony-starvis/][ref_sony_starvis]
+- "STANAG 4609 NATO Motion Imagery Standard." n.d. Accessed October 25, 2026. [https://nso.nato.int/nso/zPublic/stanags/CURRENT/4609EFed01.pdf][ref_stanag_4609]
+- "SWGDE Best Practices for Drone Forensics." n.d. Accessed October 25, 2026. [https://www.swgde.org/documents/published-complete-listing/21-f-002-swgde-best-practices-for-drone-forensics/][ref_swgde]
+- "Tarot Gimbal Family." n.d. Accessed October 25, 2026. [https://www.tarot-rc.com/][ref_tarot]
+- "Teledyne FLIR Boson Plus Thermal Core." n.d. Accessed October 25, 2026. [https://oem.flir.com/products/boson-plus][ref_flir_boson]
+- "Teledyne FLIR Hadron 640R Dual Payload." n.d. Accessed October 25, 2026. [https://oem.flir.com/products/hadron-640][ref_flir_hadron]
+- "USGS Landsat Program." n.d. Accessed October 25, 2026. [https://www.usgs.gov/landsat-missions][ref_usgs_landsat]
+- "Workswell." n.d. Accessed October 25, 2026. [https://www.workswell.eu/][ref_workswell]
+- "Workswell WIRIS Pro Dual Payload." n.d. Accessed October 25, 2026. [https://workswell.eu/thermal-drone-camera-inspection-wiris-pro/][ref_workswell_wiris]
+- "YellowScan Survey LiDAR Family." n.d. Accessed October 25, 2026. [https://www.yellowscan.com/compare-products/][ref_yellowscan]
+
+### Tertiary Sources
+
+- "MIL-STD-704." 2025. Wikipedia. Last modified September 6, at 01:57 (UTC). [https://en.wikipedia.org/w/index.php?title=MIL-STD-704&oldid=1309798815][ref_mil_std_704]
+
+### Related Posts
+
+- Sechter, Brendan. 2026. "Fixed-Wing, Multicopter, and Hybrid Drones for Search and Rescue, Physics and Economics." *Brendan A R Sechter's Development Blog*, May 15. [https://sgeos.github.io/aerospace/engineering/uav/search-and-rescue/2026/05/15/fixed\_wing\_multicopter\_and\_hybrid\_drones\_for\_search\_and\_rescue.html][related_post_a145_physics]
+- Sechter, Brendan. 2026. "A Buyer's Decision Framework for Search and Rescue Drones." *Brendan A R Sechter's Development Blog*, May 16. [https://sgeos.github.io/aerospace/engineering/uav/search-and-rescue/procurement/2026/05/16/buyers\_decision\_framework\_for\_search\_and\_rescue\_drones.html][related_post_a146_buying]
+- Sechter, Brendan. 2026. "Research and Development for Search and Rescue Drones." *Brendan A R Sechter's Development Blog*, May 17. [https://sgeos.github.io/aerospace/engineering/uav/search-and-rescue/research-and-development/2026/05/17/research\_and\_development\_for\_search\_and\_rescue\_drones.html][related_post_a147_rd]
+- Sechter, Brendan. 2026. "Search and Rescue Drone Fleets by Geographic Setting." *Brendan A R Sechter's Development Blog*, May 18. [https://sgeos.github.io/aerospace/engineering/uav/search-and-rescue/geographic-setting/2026/05/18/search\_and\_rescue\_drone\_fleets\_by\_geographic\_setting.html][related_post_a148_geographic]
+- Sechter, Brendan. 2026. "Operator Training and Certification for a Search and Rescue Drone Program." *Brendan A R Sechter's Development Blog*, May 19. [https://sgeos.github.io/aerospace/engineering/uav/search-and-rescue/training-and-certification/2026/05/19/operator\_training\_and\_certification\_for\_search\_and\_rescue\_drone\_programs.html][related_post_a149_training]
 
 [ref_asda_2023]: https://www.federalregister.gov/documents/2024/11/12/2024-26061/federal-acquisition-regulation-prohibition-on-unmanned-aircraft-systems-from-covered-foreign
 [ref_astm_f38]: https://www.astm.org/COMMITTEE/F38.htm
@@ -4327,7 +4343,7 @@ the mission-capable fleet requires.
 [ref_lynred]: https://www.lynred.com/
 [ref_micasense_altum]: https://ageagle.com/drone-sensors/altum-pt-camera/
 [ref_mil_std_1275]: https://en.wikipedia.org/wiki/MIL-STD-1275
-[ref_mil_std_704]: https://en.wikipedia.org/wiki/MIL-STD-704
+[ref_mil_std_704]: https://en.wikipedia.org/w/index.php?title=MIL-STD-704&oldid=1309798815
 [ref_misb]: https://nsgreg.nga.mil/misb.jsp
 [ref_nasa_earth_observatory]: https://earthobservatory.nasa.gov/
 [ref_ncsl_drone_tracker]: https://www.ncsl.org/transportation/current-unmanned-aircraft-state-law-landscape

@@ -1,0 +1,14 @@
+{
+ "ref_chord": "ref_mac",
+ "ref_delta": "ref_delta_wing",
+ "ref_dihedral": "ref_anhedral",
+ "ref_elevator": "ref_elevator_aircraft",
+ "ref_flight_dynamics": "ref_flight_dynamics_7002ed",
+ "ref_long_stability": "ref_longitudinal_static_stability",
+ "ref_orbital_maneuver": "ref_orbital_maneuver_121f82",
+ "ref_orbital_mechanics": "ref_orbital_mechanics_82550f",
+ "ref_rcs": "ref_rcs_89b72d",
+ "ref_thrust_vectoring": "ref_thrust_vectoring_488c57",
+ "related_post_lwpla": "related_post_a112_fixed_wing_uav",
+ "related_post_propulsion": "related_post_a118_propulsion_sizing"
+}

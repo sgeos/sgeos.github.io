@@ -3,9 +3,9 @@
 > **Navigation**: [Process](./README.md) | [Citation Style](../writing/CITATION_STYLE.md) | [Source Database](../../_sources/README.md)
 
 How an article's legacy reference list is converted to Chicago author-date entries generated from the source
-database. A200 to A384 have been converted this way, between 2026-10-24 and 2026-10-25. A384 was converted
-first by hand, and the procedure below is what A369 to A383 needed. The X-Planes series and A200 to A296 each
-needed more, described in their own sections.
+database. A1 to A384 have been converted this way, between 2026-10-24 and 2026-10-26. A384 was converted
+first by hand, and the procedure below is what A369 to A383 needed. The X-Planes series, A200 to A296
+and the legacy articles A1 to A199 each needed more, described in their own sections.
 
 ## The Procedure
 
@@ -95,7 +95,9 @@ any standalone list item whose text carries a title after its year. Their counts
 rows by `_lib/survey.py`, which does not read the References section, so conversion leaves those checks intact.
 
 **When the importer changes.** Rerun step 7 with `--refresh` on every converted article, then step 9 and
-step 10 against each article's last committed copy. A record with a `note` is never rebuilt. On 2026-10-24 this
+step 10 against each article's last committed copy. A record with a `note` is never rebuilt, and a refresh
+never steps down in source: a registry's record outranks one read from a page, and a page's outranks one built
+from a label, so another article's weaker draft cannot replace a shared record. On 2026-10-24 this
 pass caught two regressions in already converted articles, a footnote mark left on a title and a German title
 given English capitals.
 
@@ -165,6 +167,36 @@ endpoint as slowly because it imports a book it lacks before answering, and arch
 fifteen seconds each. Open Library's search index is fast but mapped one ISBN to the wrong work, so ISBNs go
 through the slow endpoint. dblp and OpenReview answered with browser challenges and are not used.
 
+## The Legacy Articles, A1 to A199
+
+A1 to A199 were converted on 2026-10-26 with the same resolver. They are older, and the converter could not
+read them as they stood, so each was first normalised by `python3 _lib/sources_resolve.py normalise POST...`.
+
+- **The heading.** 59 posts headed the list `## References:` and two `## Links:`. Both now read `## References`.
+- **Anchor names.** 491 names held hyphens or capitals, `android-asm-github`, which the converter does not read.
+  Each is lower-cased with underscores in its definition and every use. Kramdown matches names without regard
+  to case, so no link changes target.
+- **Spacing.** Ten tutorials aligned their definitions by hand, `[name]:    URL`, which the converter did not
+  read as definitions, so their links were missed at first. Each definition now has one space.
+- **Inline list items.** A1 and A2 wrote their lists as `- [Title](URL)`. They are now reference-style links.
+- **Links to this blog.** 41 links named another post by its URL rather than by `post_url`. They now use
+  `post_url`, matched by the post's path or, where the path's date differs by the time zone, by its slug alone.
+- **Links that are not URLs.** A60 linked a file name, which no browser could follow, now ARM's download, and
+  a site path, now a `post_url`. Three IRC channels in A4 to A8 are kept as sources, the only non-web scheme
+  the store accepts.
+
+Twelve posts, A47 to A51, A53, A54, A62 to A64, A67 and A70, link nothing and have no list, so there is
+nothing to convert. Two label forms were added to the parser: a category before the label, `Reference, Mars Ice Home
+Concept`, and title, surnames, year, `Computing: A Concise History, Campbell-Kelly, 2012`, which 119 labels use.
+
+**Fifteen Wikipedia links named pages that do not exist**, such as `Loihi_(chip)` and `MIL-STD-1275`. Two
+exist under other titles and were relinked, `Hermes_(spacecraft)` and `Nanosystems_(book)`. The book links
+are cited as the books their labels name, and the rest are built from their labels and say so. Six NTRS
+identifiers named no record and are built from their labels.
+
+**Wikipedia throttles an anonymous client.** It answered 429 to four requests in five until the fetcher named
+the blog in its user agent, `blog-research/1.0 (+https://sgeos.github.io/)`, as Wikimedia's policy asks.
+
 ## Registry Habits Found So Far
 
 Each of these is now handled by the importer or recorded as a decision, and each has a test.
@@ -216,6 +248,8 @@ Each of these is now handled by the importer or recorded as a decision, and each
 | Particle omitted by the venue | PMLR's `Herke Hoof` | Kept as the venue prints it |
 | Identifier naming another work | arXiv numbers in A250 to A265, `Barreto et al 2019` naming a paper on string theory | Entry from the label, linked to a search, note names the other work |
 | Dead link | 29 NeurIPS hashes, 12 NTRS identifiers | Matched in the proceedings index, relinked, or built from the label |
+| Section number read as a year | A146's `NDAA Section 1709 of FY 2024` | A number after `Section`, `No.` or `Part` is no year |
+| Wikipedia page that does not exist | Fifteen in A102 to A150, `Loihi_(chip)` | Relinked where the page exists under another title, else built from the label |
 
 **Headline casing is a proposal.** The importer keeps registry capitals in later parts of compounds, as in
 `Spin-Off`. It leaves symbols such as `α` alone, cases each side of an em dash, and lowercases the prepositions

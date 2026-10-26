@@ -1,0 +1,12 @@
+{
+ "ref_c2pa": "ref_c2pa_coalition",
+ "ref_capn_proto": "ref_capnproto",
+ "ref_do_178c": "ref_do_178c_d91e52",
+ "ref_keleusma_crates": "kel_crate",
+ "ref_keleusma_docs": "kel_docs_rs_16e49d",
+ "ref_keleusma_repo": "ref_keleusma",
+ "related_post_keleusma_0_1_1": "related_post_keleusma_011",
+ "related_post_keleusma_0_2_0": "related_post_keleusma_020",
+ "related_post_keleusma_ifc": "related_post_ifc_deep_dive",
+ "related_post_keleusma_verifiable_kernel": "related_post_control_kernel"
+}

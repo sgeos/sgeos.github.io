@@ -1,0 +1,10 @@
+{
+ "ref_aeroelasticity": "ref_aeroelasticity_746c50",
+ "ref_flutter": "ref_aeroelasticity_746c50",
+ "ref_stall": "ref_deep_stall",
+ "ref_vne": "ref_v_speeds",
+ "ref_yield": "ref_yield_strength",
+ "related_post_dynamic": "related_post_a123_dynamic_stability",
+ "related_post_prototyping": "related_post_a112_fixed_wing_uav",
+ "related_post_staged": "related_post_a120_staged_boosted_propulsion"
+}

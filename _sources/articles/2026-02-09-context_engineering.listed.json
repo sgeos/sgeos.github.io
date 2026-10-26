@@ -1,0 +1,22 @@
+[
+ "anthropic_agent_skills",
+ "anthropic_mcp",
+ "blog_karpathy",
+ "blog_willison",
+ "cc_memory",
+ "industry_episodic_memory",
+ "industry_humanlayer",
+ "industry_langchain",
+ "industry_miessler_pai",
+ "industry_spotify_context",
+ "industry_venturebeat",
+ "protocol_agents_md",
+ "research_agentic_manifests",
+ "research_agents_md_impact",
+ "research_multi_agent",
+ "research_oss_context",
+ "research_santos_config",
+ "standard_llms_txt",
+ "standard_thoughtworks_radar",
+ "tool_vscode"
+]

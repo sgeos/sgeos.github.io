@@ -1,0 +1,16 @@
+# Import decisions for A60. Registry caches and page metadata are scratch and are not tracked.
+article = "A60"
+crossref_cache = "tmp/sources/crossref"
+wiki_pins = "tmp/a60/sources/wiki_pins.json"
+report_cache = "tmp/sources"
+web_read = "2026-10-25"
+
+# The links are resolved to registry records where their URL or their label's title finds one that
+# agrees with the label, and otherwise read from the page or its archive capture. See _lib/sources_resolve.py.
+resolve_links = true
+
+# THE ARTICLE LINKED A FILE NAME, `arm-gnu-toolchain-11.3.rel1-darwin-x86_64-arm-none-eabi.pkg`, which a browser
+# resolves against the post's own address and cannot follow. It was relinked before conversion to ARM's
+# download of that file, which answered 200 on 2026-10-26.
+[note]
+arm_gnu_toolchain_macos_11_3_rel1 = "The article linked the bare file name arm-gnu-toolchain-11.3.rel1-darwin-x86_64-arm-none-eabi.pkg, which no browser can follow; the link is ARM's download of that file."

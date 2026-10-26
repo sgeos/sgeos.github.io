@@ -1,0 +1,9 @@
+{
+ "ref_cooper_harper": "ref_cooper_harper_3d04cb",
+ "ref_damping_ratio": "ref_damping_ratio_12fb4f",
+ "ref_flight_dynamics": "ref_flight_dynamics_7002ed",
+ "ref_fly_by_wire": "ref_fbw",
+ "ref_yaw_damper": "ref_yaw_damper_bb6d36",
+ "related_post_lwpla": "related_post_a112_fixed_wing_uav",
+ "related_post_static": "related_post_a122_stability_configuration"
+}

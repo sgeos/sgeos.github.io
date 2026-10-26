@@ -1,0 +1,15 @@
+{
+ "ref_atmospheric_entry": "ref_thermal_protection",
+ "ref_em_theory": "ref_energy_maneuverability",
+ "ref_hgv": "ref_hgv_bf9aca",
+ "ref_hypersonic": "ref_hypersonic_db6bbc",
+ "ref_lifting_body": "ref_lifting_body_1a3ae1",
+ "ref_rcs": "ref_rcs_89b72d",
+ "ref_space_shuttle": "ref_space_shuttle_66cd8d",
+ "related_post_dynamic": "related_post_a123_dynamic_stability",
+ "related_post_stability": "related_post_a122_stability_configuration",
+ "related_post_staged": "related_post_a120_staged_boosted_propulsion",
+ "related_post_structures": "related_post_a127_structures_flight_envelope",
+ "research_entry_guidance": "research_mease_kremer_1992_9612bb",
+ "research_taem": "research_moore_1991_01d2fd"
+}

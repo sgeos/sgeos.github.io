@@ -1,0 +1,16 @@
+[
+ "ai_hitl_vs_auto",
+ "ai_llm_workflow",
+ "aider_pair_programming",
+ "cc_best_practices",
+ "cc_common_workflows",
+ "cc_creator_workflow",
+ "cc_eight_trends",
+ "cc_plan_mode",
+ "protocol_acp",
+ "protocol_agents_md_article",
+ "protocol_agents_md_tessl",
+ "protocol_breadcrumb",
+ "research_iclr_bidirectional",
+ "research_swe_agent"
+]

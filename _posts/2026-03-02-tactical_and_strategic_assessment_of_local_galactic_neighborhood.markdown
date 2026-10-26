@@ -2955,177 +2955,186 @@ reaches us.
 
 ## References
 
-- [Reference, Andromeda Galaxy][ref_andromeda]
-- [Reference, Andromeda-Milky Way Collision][ref_andromeda_collision]
-- [Reference, Barred Spiral Galaxy][ref_barred_spiral]
-- [Reference, Blandford-Znajek Process][ref_blandford_znajek]
-- [Reference, Centaurus A][ref_centaurus_a]
-- [Reference, Centaurus A/M83 Group][ref_centaurus_group]
-- [Reference, Circinus Galaxy][ref_circinus]
-- [Reference, Competitive Lotka-Volterra Equations][ref_lotka_volterra]
-- [Reference, Cosmic Web][ref_cosmic_web]
-- [Reference, Dark Forest Hypothesis][ref_dark_forest]
-- [Reference, Dwarf Spheroidal Galaxy][ref_dsph]
-- [Reference, Dyson Sphere][ref_dyson_sphere]
-- [Reference, Focal Point, Game Theory][ref_focal_point]
-- [Reference, Fornax Cluster][ref_fornax_cluster]
-- [Reference, Fornax Dwarf Galaxy][ref_fornax_dwarf]
-- [Reference, Fractal Cosmology][ref_fractal_cosmology]
-- [Reference, Game Theory][ref_game_theory]
-- [Reference, Great Attractor][ref_great_attractor]
-- [Reference, Hausdorff Dimension][ref_hausdorff]
-- [Reference, Hyperbolic Growth][ref_hyperbolic_growth]
-- [Reference, IC 10][ref_ic_10]
-- [Reference, IC 342][ref_ic_342]
-- [Reference, IC 1613][ref_ic_1613]
-- [Reference, Information Warfare][ref_information_warfare]
-- [Reference, Kerr Black Hole][ref_kerr]
-- [Reference, Landauer's Principle][ref_landauer]
-- [Reference, Laniakea Supercluster][ref_laniakea]
-- [Reference, Large Magellanic Cloud][ref_lmc]
-- [Reference, Leo I Dwarf Galaxy][ref_leo_i]
-- [Reference, Leo II Dwarf Galaxy][ref_leo_ii]
-- [Reference, Leo Triplet][ref_leo_triplet]
-- [Reference, Local Group][ref_local_group]
-- [Reference, Local Sheet][ref_local_sheet]
-- [Reference, Local Void][ref_local_void]
-- [Reference, Logistic Function][ref_logistic]
-- [Reference, M81 Group][ref_m81_group]
-- [Reference, Maffei 1][ref_maffei_1]
-- [Reference, Messier 32][ref_m32]
-- [Reference, Messier 49][ref_m49]
-- [Reference, Messier 66][ref_m66]
-- [Reference, Messier 82][ref_m82]
-- [Reference, Messier 84][ref_m84]
-- [Reference, Messier 87][ref_m87]
-- [Reference, Messier 94][ref_m94]
-- [Reference, Messier 101][ref_m101]
-- [Reference, Messier 105][ref_m105]
-- [Reference, Messier 106][ref_m106]
-- [Reference, Messier 110][ref_m110]
-- [Reference, METI][ref_meti]
-- [Reference, Military Deception][ref_military_deception]
-- [Reference, Milky Way][ref_milky_way]
-- [Reference, NGC 147][ref_ngc_147]
-- [Reference, NGC 185][ref_ngc_185]
-- [Reference, NGC 253][ref_ngc_253]
-- [Reference, NGC 1023][ref_ngc_1023]
-- [Reference, NGC 1316][ref_ngc_1316]
-- [Reference, NGC 1365][ref_ngc_1365]
-- [Reference, NGC 1399][ref_ngc_1399]
-- [Reference, NGC 2403][ref_ngc_2403]
-- [Reference, NGC 3109][ref_ngc_3109]
-- [Reference, NGC 4945][ref_ngc_4945]
-- [Reference, NGC 6822][ref_ngc_6822]
-- [Reference, Penrose Process][ref_penrose_process]
-- [Reference, Russian Military Deception][ref_maskirovka]
-- [Reference, Sagittarius A*][ref_sagittarius_a]
-- [Reference, Sagittarius Dwarf Spheroidal Galaxy][ref_sagittarius_dwarf]
-- [Reference, Sculptor Group][ref_sculptor_group]
-- [Reference, Sedov-Taylor Blast Wave][ref_sedov_taylor]
-- [Reference, Small Magellanic Cloud][ref_smc]
-- [Reference, Triangulum Galaxy][ref_triangulum]
-- [Reference, Virgo Cluster][ref_virgo_cluster]
-- [Reference, Virgo Supercluster][ref_virgo_supercluster]
-- [Reference, Von Foerster, Mora, and Amiot, Doomsday][ref_von_foerster]
-- [Reference, Wolf-Lundmark-Melotte Galaxy][ref_wlm]
-- [Related Post, Causality and First-Mover Advantage in Lightcone-Based Competitive Intergalactic Colonization][related_post_causality]
-- [Related Post, Human Evolution and the Great Filter][related_post_great_filter]
-- [Related Post, Introduction to Astronomy][related_post_astronomy]
-- [Related Post, Introduction to Space Studies][related_post_space_studies]
-- [Research, Armstrong and Sandberg, Eternity in Six Hours][research_eternity]
-- [Research, Gaite, The Fractal Geometry of the Cosmic Web][research_fractal_cosmic_web]
-- [Research, JWST M83 SMBH Detection][research_jwst_m83]
-- [Research, JWST M94 SMBH Measurement][research_jwst_m94]
-- [Research, Kipping and Teachey, A Cloaking Device for Transiting Planets][research_kipping_cloaking]
-- [Research, Leo I Black Hole Debate][research_leo_i_bh]
-- [Research, M87 EHT Image][research_m87_eht]
-- [Research, McCall, A Council of Giants][research_council_giants_paper]
-- [Research, Milky Way-Andromeda Collision Probability, Nature Astronomy 2025][research_mw_andromeda_collision]
-- [Research, NGC 1365 SMBH Spin][research_ngc_1365_spin]
-- [Research, NGC 1399 Globular Clusters][research_ngc_1399_gc]
-- [Research, Pietronero, The Fractal Structure of the Universe][research_pietronero]
-- [Research, SMBH Mass Measurements Compilation][research_smbh_compilation]
-- [Research, Tully et al., The Laniakea Supercluster of Galaxies][research_laniakea_paper]
-- [Research, Virgocentric Flow][research_virgocentric]
-- [Research, Von Foerster Population Singularity][research_von_foerster]
-- [Research, Tainter, The Collapse of Complex Societies][research_tainter]
-- [Research, Wright et al., G-HAT Infrared Survey][research_ghat]
+<!-- References generated by _lib/sources.py from _sources/. Edit the database and regenerate. Do not edit this section by hand. -->
 
-[ref_andromeda]: https://en.wikipedia.org/wiki/Andromeda_Galaxy
-[ref_andromeda_collision]: https://en.wikipedia.org/wiki/Andromeda%E2%80%93Milky_Way_collision
-[ref_barred_spiral]: https://en.wikipedia.org/wiki/Barred_spiral_galaxy
-[ref_blandford_znajek]: https://en.wikipedia.org/wiki/Blandford%E2%80%93Znajek_process
-[ref_centaurus_a]: https://en.wikipedia.org/wiki/Centaurus_A
-[ref_centaurus_group]: https://en.wikipedia.org/wiki/Centaurus_A/M83_Group
-[ref_circinus]: https://en.wikipedia.org/wiki/Circinus_Galaxy
-[ref_cosmic_web]: https://en.wikipedia.org/wiki/Observable_universe#Large-scale_structure
-[ref_dark_forest]: https://en.wikipedia.org/wiki/Dark_forest_hypothesis
-[ref_dsph]: https://en.wikipedia.org/wiki/Dwarf_spheroidal_galaxy
-[ref_dyson_sphere]: https://en.wikipedia.org/wiki/Dyson_sphere
-[ref_focal_point]: https://en.wikipedia.org/wiki/Focal_point_(game_theory)
-[ref_fornax_cluster]: https://en.wikipedia.org/wiki/Fornax_Cluster
-[ref_fornax_dwarf]: https://en.wikipedia.org/wiki/Fornax_Dwarf
-[ref_fractal_cosmology]: https://en.wikipedia.org/wiki/Fractal_cosmology
-[ref_game_theory]: https://en.wikipedia.org/wiki/Game_theory
-[ref_great_attractor]: https://en.wikipedia.org/wiki/Great_Attractor
-[ref_hausdorff]: https://en.wikipedia.org/wiki/Hausdorff_dimension
-[ref_hyperbolic_growth]: https://en.wikipedia.org/wiki/Hyperbolic_growth
-[ref_ic_10]: https://en.wikipedia.org/wiki/IC_10
-[ref_ic_1613]: https://en.wikipedia.org/wiki/IC_1613
-[ref_ic_342]: https://en.wikipedia.org/wiki/IC_342
-[ref_information_warfare]: https://en.wikipedia.org/wiki/Information_warfare
-[ref_kerr]: https://en.wikipedia.org/wiki/Kerr_metric
-[ref_landauer]: https://en.wikipedia.org/wiki/Landauer%27s_principle
-[ref_laniakea]: https://en.wikipedia.org/wiki/Laniakea_Supercluster
-[ref_leo_i]: https://en.wikipedia.org/wiki/Leo_I_(dwarf_galaxy)
-[ref_leo_ii]: https://en.wikipedia.org/wiki/Leo_II_(dwarf_galaxy)
-[ref_leo_triplet]: https://en.wikipedia.org/wiki/Leo_Triplet
-[ref_lmc]: https://en.wikipedia.org/wiki/Large_Magellanic_Cloud
-[ref_local_group]: https://en.wikipedia.org/wiki/Local_Group
-[ref_local_sheet]: https://en.wikipedia.org/wiki/Local_Sheet
-[ref_local_void]: https://en.wikipedia.org/wiki/Local_Void
-[ref_logistic]: https://en.wikipedia.org/wiki/Logistic_function
-[ref_lotka_volterra]: https://en.wikipedia.org/wiki/Competitive_Lotka%E2%80%93Volterra_equations
-[ref_m101]: https://en.wikipedia.org/wiki/Pinwheel_Galaxy
-[ref_m105]: https://en.wikipedia.org/wiki/Messier_105
-[ref_m106]: https://en.wikipedia.org/wiki/Messier_106
-[ref_m110]: https://en.wikipedia.org/wiki/Messier_110
-[ref_m32]: https://en.wikipedia.org/wiki/Messier_32
-[ref_m49]: https://en.wikipedia.org/wiki/Messier_49
-[ref_m66]: https://en.wikipedia.org/wiki/Messier_66
-[ref_m81_group]: https://en.wikipedia.org/wiki/M81_Group
-[ref_m82]: https://en.wikipedia.org/wiki/Messier_82
-[ref_m84]: https://en.wikipedia.org/wiki/Messier_84
-[ref_m87]: https://en.wikipedia.org/wiki/Messier_87
-[ref_m94]: https://en.wikipedia.org/wiki/Messier_94
-[ref_maffei_1]: https://en.wikipedia.org/wiki/Maffei_1
-[ref_maskirovka]: https://en.wikipedia.org/wiki/Russian_military_deception
-[ref_meti]: https://en.wikipedia.org/wiki/METI
-[ref_military_deception]: https://en.wikipedia.org/wiki/Military_deception
-[ref_milky_way]: https://en.wikipedia.org/wiki/Milky_Way
-[ref_ngc_1023]: https://en.wikipedia.org/wiki/NGC_1023
-[ref_ngc_1316]: https://en.wikipedia.org/wiki/NGC_1316
-[ref_ngc_1365]: https://en.wikipedia.org/wiki/NGC_1365
-[ref_ngc_1399]: https://en.wikipedia.org/wiki/NGC_1399
-[ref_ngc_147]: https://en.wikipedia.org/wiki/NGC_147
-[ref_ngc_185]: https://en.wikipedia.org/wiki/NGC_185
-[ref_ngc_2403]: https://en.wikipedia.org/wiki/NGC_2403
-[ref_ngc_253]: https://en.wikipedia.org/wiki/NGC_253
-[ref_ngc_3109]: https://en.wikipedia.org/wiki/NGC_3109
-[ref_ngc_4945]: https://en.wikipedia.org/wiki/NGC_4945
-[ref_ngc_6822]: https://en.wikipedia.org/wiki/NGC_6822
-[ref_penrose_process]: https://en.wikipedia.org/wiki/Penrose_process
-[ref_sagittarius_a]: https://en.wikipedia.org/wiki/Sagittarius_A*
-[ref_sagittarius_dwarf]: https://en.wikipedia.org/wiki/Sagittarius_Dwarf_Spheroidal_Galaxy
-[ref_sculptor_group]: https://en.wikipedia.org/wiki/Sculptor_Group
-[ref_sedov_taylor]: https://en.wikipedia.org/wiki/Taylor%E2%80%93von_Neumann%E2%80%93Sedov_blast_wave
-[ref_smc]: https://en.wikipedia.org/wiki/Small_Magellanic_Cloud
-[ref_triangulum]: https://en.wikipedia.org/wiki/Triangulum_Galaxy
-[ref_virgo_cluster]: https://en.wikipedia.org/wiki/Virgo_Cluster
-[ref_virgo_supercluster]: https://en.wikipedia.org/wiki/Virgo_Supercluster
-[ref_von_foerster]: https://en.wikipedia.org/wiki/Heinz_von_Foerster#Doomsday_equation
-[ref_wlm]: https://en.wikipedia.org/wiki/Wolf%E2%80%93Lundmark%E2%80%93Melotte
+### Primary Sources, Non-Peer-Reviewed
+
+- Armstrong and Sandberg. n.d. *Eternity in Six Hours*. [https://www.sciencedirect.com/science/article/abs/pii/S0094576513001148][research_eternity]
+- Gaite, Jose. 2018. "The Fractal Geometry of the Cosmic Web and Its Formation." Preprint, . [https://arxiv.org/abs/1810.02311][research_fractal_cosmic_web]
+- *JWST M83 SMBH Detection*. n.d. [https://www.sci.news/astronomy/webb-active-supermassive-black-hole-messier-83-13843.html][research_jwst_m83]
+- Kipping, David M., and Alex Teachey. 2016. "A Cloaking Device for Transiting Planets." Preprint, . [https://arxiv.org/abs/1603.08928][research_kipping_cloaking]
+- *M87 EHT Image*. n.d. [https://eventhorizontelescope.org/][research_m87_eht]
+- McCall, Marshall L. 2014. "A Council of Giants." Preprint, . [https://arxiv.org/abs/1403.3667][research_council_giants_paper]
+- Milky, Way-Andromeda, Collision, and Probability. 2025. *Nature Astronomy*. [https://scholar.google.com/scholar?q=Nature+Astronomy+Milky+Way-Andromeda+Collision+2025][research_mw_andromeda_collision]
+- Nguyen, Dieu D., Hai N. Ngo, Tinh Q. T. Le, et al. 2025. "Supermassive Black Hole Mass Measurement in the Spiral Galaxy NGC 4736 Using JWST/NIRSpec Stellar Kinematics." Preprint, . [https://arxiv.org/abs/2505.09941][research_jwst_m94]
+- Tainter. n.d. *The Collapse of Complex Societies*. [https://www.cambridge.org/core/books/collapse-of-complex-societies/AB4E2B51B6F76B23A76E6CAB4E888D3B][research_tainter]
+- Tully. n.d. *The Laniakea Supercluster of Galaxies*. [https://www.nature.com/articles/nature13674][research_laniakea_paper]
+- Wright. n.d. "G-HAT Infrared Survey." Preprint, . [https://arxiv.org/abs/1408.1133][research_ghat]
+
+### General Sources
+
+- Hensley, Kerry. 2023. "An Explanation for the Overmassive Black Hole in the Dwarf Galaxy Leo I." AAS Nova, November 17. [https://aasnova.org/2023/11/17/an-explanation-for-the-overmassive-black-hole-in-the-dwarf-galaxy-leo-i/][research_leo_i_bh]
+
+### Tertiary Sources
+
+- "Andromeda Galaxy." 2026. Wikipedia. Last modified February 20, at 00:42 (UTC). [https://en.wikipedia.org/w/index.php?title=Andromeda\_Galaxy&oldid=1339332569][ref_andromeda]
+- "Andromeda–Milky Way Collision." 2026. Wikipedia. Last modified February 20, at 17:56 (UTC). [https://en.wikipedia.org/w/index.php?title=Andromeda%E2%80%93Milky\_Way\_collision&oldid=1339459974][ref_andromeda_collision]
+- "Barred Spiral Galaxy." 2026. Wikipedia. Last modified January 30, at 04:16 (UTC). [https://en.wikipedia.org/w/index.php?title=Barred\_spiral\_galaxy&oldid=1335608330][ref_barred_spiral]
+- "Blandford–Znajek Process." 2025. Wikipedia. Last modified October 31, at 18:26 (UTC). [https://en.wikipedia.org/w/index.php?title=Blandford%E2%80%93Znajek\_process&oldid=1319761150][ref_blandford_znajek]
+- "Centaurus A." 2026. Wikipedia. Last modified January 24, at 04:52 (UTC). [https://en.wikipedia.org/w/index.php?title=Centaurus\_A&oldid=1334543670][ref_centaurus_a]
+- "Centaurus A/M83 Group." 2024. Wikipedia. Last modified October 23, at 06:21 (UTC). [https://en.wikipedia.org/w/index.php?title=Centaurus\_A%2FM83\_Group&oldid=1252854242][ref_centaurus_group]
+- "Circinus Galaxy." 2026. Wikipedia. Last modified February 18, at 13:34 (UTC). [https://en.wikipedia.org/w/index.php?title=Circinus\_Galaxy&oldid=1339007864][ref_circinus]
+- "Competitive Lotka–Volterra Equations." 2026. Wikipedia. Last modified February 23, at 14:30 (UTC). [https://en.wikipedia.org/w/index.php?title=Competitive\_Lotka%E2%80%93Volterra\_equations&oldid=1340022584][ref_lotka_volterra]
+- "Dark Forest Hypothesis." 2026. Wikipedia. Last modified January 29, at 12:18 (UTC). [https://en.wikipedia.org/w/index.php?title=Dark\_forest\_hypothesis&oldid=1335475552][ref_dark_forest]
+- "Dwarf Spheroidal Galaxy." 2025. Wikipedia. Last modified October 23, at 21:31 (UTC). [https://en.wikipedia.org/w/index.php?title=Dwarf\_spheroidal\_galaxy&oldid=1318439376][ref_dsph]
+- "Dyson Sphere." 2026. Wikipedia. Last modified January 3, at 02:08 (UTC). [https://en.wikipedia.org/w/index.php?title=Dyson\_sphere&oldid=1330872455][ref_dyson_sphere]
+- "Focal Point (Game Theory)." 2025. Wikipedia. Last modified October 29, at 07:47 (UTC). [https://en.wikipedia.org/w/index.php?title=Focal\_point\_(game\_theory)&oldid=1319350955][ref_focal_point]
+- "Fornax Cluster." 2025. Wikipedia. Last modified April 13, at 06:36 (UTC). [https://en.wikipedia.org/w/index.php?title=Fornax\_Cluster&oldid=1285354223][ref_fornax_cluster]
+- "Fornax Dwarf." 2025. Wikipedia. Last modified December 18, at 01:33 (UTC). [https://en.wikipedia.org/w/index.php?title=Fornax\_Dwarf&oldid=1328128421][ref_fornax_dwarf]
+- "Fractal Cosmology." 2026. Wikipedia. Last modified February 28, at 01:42 (UTC). [https://en.wikipedia.org/w/index.php?title=Fractal\_cosmology&oldid=1340846869][ref_fractal_cosmology]
+- "Game Theory." 2026. Wikipedia. Last modified February 8, at 12:23 (UTC). [https://en.wikipedia.org/w/index.php?title=Game\_theory&oldid=1337269035][ref_game_theory]
+- "Great Attractor." 2026. Wikipedia. Last modified February 27, at 05:01 (UTC). [https://en.wikipedia.org/w/index.php?title=Great\_Attractor&oldid=1340703115][ref_great_attractor]
+- "Hausdorff Dimension." 2026. Wikipedia. Last modified February 10, at 17:31 (UTC). [https://en.wikipedia.org/w/index.php?title=Hausdorff\_dimension&oldid=1337643225][ref_hausdorff]
+- "Heinz Von Foerster." 2026. Wikipedia. Last modified February 15, at 22:54 (UTC). [https://en.wikipedia.org/w/index.php?title=Heinz\_von\_Foerster&oldid=1338564618][ref_von_foerster]
+- "Hyperbolic Growth." 2025. Wikipedia. Last modified September 30, at 18:02 (UTC). [https://en.wikipedia.org/w/index.php?title=Hyperbolic\_growth&oldid=1314299405][ref_hyperbolic_growth]
+- "IC 10." 2026. Wikipedia. Last modified January 8, at 03:22 (UTC). [https://en.wikipedia.org/w/index.php?title=IC\_10&oldid=1331775166][ref_ic_10]
+- "IC 1613." 2025. Wikipedia. Last modified October 30, at 22:21 (UTC). [https://en.wikipedia.org/w/index.php?title=IC\_1613&oldid=1319621544][ref_ic_1613]
+- "IC 342." 2025. Wikipedia. Last modified November 13, at 16:27 (UTC). [https://en.wikipedia.org/w/index.php?title=IC\_342&oldid=1321959042][ref_ic_342]
+- "Information Warfare." 2026. Wikipedia. Last modified February 28, at 18:18 (UTC). [https://en.wikipedia.org/w/index.php?title=Information\_warfare&oldid=1340953107][ref_information_warfare]
+- "Kerr Metric." 2026. Wikipedia. Last modified February 25, at 09:43 (UTC). [https://en.wikipedia.org/w/index.php?title=Kerr\_metric&oldid=1340374820][ref_kerr]
+- "Landauer's Principle." 2026. Wikipedia. Last modified February 9, at 02:31 (UTC). [https://en.wikipedia.org/w/index.php?title=Landauer's\_principle&oldid=1337373438][ref_landauer]
+- "Laniakea Supercluster." 2026. Wikipedia. Last modified February 27, at 13:58 (UTC). [https://en.wikipedia.org/w/index.php?title=Laniakea\_Supercluster&oldid=1340759226][ref_laniakea]
+- "Large Magellanic Cloud." 2026. Wikipedia. Last modified February 8, at 15:39 (UTC). [https://en.wikipedia.org/w/index.php?title=Large\_Magellanic\_Cloud&oldid=1337290955][ref_lmc]
+- "Leo I (Dwarf Galaxy)." 2025. Wikipedia. Last modified December 1, at 07:59 (UTC). [https://en.wikipedia.org/w/index.php?title=Leo\_I\_(dwarf\_galaxy)&oldid=1325125039][ref_leo_i]
+- "Leo II (Dwarf Galaxy)." 2026. Wikipedia. Last modified January 12, at 18:20 (UTC). [https://en.wikipedia.org/w/index.php?title=Leo\_II\_(dwarf\_galaxy)&oldid=1332588330][ref_leo_ii]
+- "Leo Triplet." 2026. Wikipedia. Last modified January 9, at 18:13 (UTC). [https://en.wikipedia.org/w/index.php?title=Leo\_Triplet&oldid=1332064472][ref_leo_triplet]
+- "List of Most Massive Black Holes." 2026. Wikipedia. Last modified February 9, at 15:20 (UTC). [https://en.wikipedia.org/w/index.php?title=List\_of\_most\_massive\_black\_holes&oldid=1337452529][research_smbh_compilation]
+- "Local Group." 2026. Wikipedia. Last modified January 27, at 01:47 (UTC). [https://en.wikipedia.org/w/index.php?title=Local\_Group&oldid=1335047038][ref_local_group]
+- "Local Sheet." 2025. Wikipedia. Last modified December 16, at 11:39 (UTC). [https://en.wikipedia.org/w/index.php?title=Local\_Sheet&oldid=1327843809][ref_local_sheet]
+- "Local Void." 2025. Wikipedia. Last modified September 29, at 05:00 (UTC). [https://en.wikipedia.org/w/index.php?title=Local\_Void&oldid=1313997875][ref_local_void]
+- "Logistic Function." 2026. Wikipedia. Last modified February 24, at 15:01 (UTC). [https://en.wikipedia.org/w/index.php?title=Logistic\_function&oldid=1340222412][ref_logistic]
+- "M81 Group." 2026. Wikipedia. Last modified January 9, at 18:13 (UTC). [https://en.wikipedia.org/w/index.php?title=M81\_Group&oldid=1332064435][ref_m81_group]
+- "Maffei 1." 2025. Wikipedia. Last modified November 6, at 16:12 (UTC). [https://en.wikipedia.org/w/index.php?title=Maffei\_1&oldid=1320758252][ref_maffei_1]
+- "Messier 105." 2025. Wikipedia. Last modified December 17, at 13:18 (UTC). [https://en.wikipedia.org/w/index.php?title=Messier\_105&oldid=1328020967][ref_m105]
+- "Messier 106." 2025. Wikipedia. Last modified December 16, at 11:28 (UTC). [https://en.wikipedia.org/w/index.php?title=Messier\_106&oldid=1327842872][ref_m106]
+- "Messier 110." 2026. Wikipedia. Last modified January 27, at 01:50 (UTC). [https://en.wikipedia.org/w/index.php?title=Messier\_110&oldid=1335047608][ref_m110]
+- "Messier 32." 2025. Wikipedia. Last modified December 30, at 09:15 (UTC). [https://en.wikipedia.org/w/index.php?title=Messier\_32&oldid=1330255731][ref_m32]
+- "Messier 49." 2026. Wikipedia. Last modified March 1, at 01:40 (UTC). [https://en.wikipedia.org/w/index.php?title=Messier\_49&oldid=1341028030][ref_m49]
+- "Messier 66." 2026. Wikipedia. Last modified February 26, at 19:19 (UTC). [https://en.wikipedia.org/w/index.php?title=Messier\_66&oldid=1340625898][ref_m66]
+- "Messier 82." 2026. Wikipedia. Last modified February 10, at 15:49 (UTC). [https://en.wikipedia.org/w/index.php?title=Messier\_82&oldid=1337627256][ref_m82]
+- "Messier 84." 2025. Wikipedia. Last modified August 12, at 08:49 (UTC). [https://en.wikipedia.org/w/index.php?title=Messier\_84&oldid=1305480912][ref_m84]
+- "Messier 87." 2026. Wikipedia. Last modified January 24, at 20:16 (UTC). [https://en.wikipedia.org/w/index.php?title=Messier\_87&oldid=1334640545][ref_m87]
+- "Messier 94." 2025. Wikipedia. Last modified September 6, at 07:17 (UTC). [https://en.wikipedia.org/w/index.php?title=Messier\_94&oldid=1309844187][ref_m94]
+- "METI." 2025. Wikipedia. Last modified September 7, at 23:34 (UTC). [https://en.wikipedia.org/w/index.php?title=METI&oldid=1310143516][ref_meti]
+- "Military Deception." 2026. Wikipedia. Last modified February 25, at 21:11 (UTC). [https://en.wikipedia.org/w/index.php?title=Military\_deception&oldid=1340458046][ref_military_deception]
+- "Milky Way." 2026. Wikipedia. Last modified February 24, at 19:41 (UTC). [https://en.wikipedia.org/w/index.php?title=Milky\_Way&oldid=1340262189][ref_milky_way]
+- "NGC 1023." 2024. Wikipedia. Last modified June 10, at 17:23 (UTC). [https://en.wikipedia.org/w/index.php?title=NGC\_1023&oldid=1228331396][ref_ngc_1023]
+- "NGC 1316." 2026. Wikipedia. Last modified February 12, at 12:24 (UTC). [https://en.wikipedia.org/w/index.php?title=NGC\_1316&oldid=1337963812][ref_ngc_1316]
+- "NGC 1365." 2026. Wikipedia. Last modified January 22, at 16:53 (UTC). [https://en.wikipedia.org/w/index.php?title=NGC\_1365&oldid=1334284814][ref_ngc_1365]
+- "NGC 1399." 2026. Wikipedia. Last modified January 16, at 00:44 (UTC). [https://en.wikipedia.org/w/index.php?title=NGC\_1399&oldid=1333151149][ref_ngc_1399]
+- "NGC 147." 2026. Wikipedia. Last modified February 15, at 22:59 (UTC). [https://en.wikipedia.org/w/index.php?title=NGC\_147&oldid=1338565289][ref_ngc_147]
+- "NGC 185." 2025. Wikipedia. Last modified December 5, at 20:01 (UTC). [https://en.wikipedia.org/w/index.php?title=NGC\_185&oldid=1325887720][ref_ngc_185]
+- "NGC 2403." 2025. Wikipedia. Last modified December 16, at 11:36 (UTC). [https://en.wikipedia.org/w/index.php?title=NGC\_2403&oldid=1327843580][ref_ngc_2403]
+- "NGC 3109." 2025. Wikipedia. Last modified December 17, at 16:15 (UTC). [https://en.wikipedia.org/w/index.php?title=NGC\_3109&oldid=1328042983][ref_ngc_3109]
+- "NGC 4945." 2026. Wikipedia. Last modified February 19, at 17:57 (UTC). [https://en.wikipedia.org/w/index.php?title=NGC\_4945&oldid=1339243488][ref_ngc_4945]
+- "NGC 6822." 2025. Wikipedia. Last modified December 17, at 17:19 (UTC). [https://en.wikipedia.org/w/index.php?title=NGC\_6822&oldid=1328053328][ref_ngc_6822]
+- "Observable Universe." 2026. Wikipedia. Last modified February 25, at 18:39 (UTC). [https://en.wikipedia.org/w/index.php?title=Observable\_universe&oldid=1340435238][ref_cosmic_web]
+- "Penrose Process." 2026. Wikipedia. Last modified January 17, at 23:46 (UTC). [https://en.wikipedia.org/w/index.php?title=Penrose\_process&oldid=1333468179][ref_penrose_process]
+- "Pinwheel Galaxy." 2026. Wikipedia. Last modified January 26, at 22:10 (UTC). [https://en.wikipedia.org/w/index.php?title=Pinwheel\_Galaxy&oldid=1335013967][ref_m101]
+- "Russian Military Deception." 2025. Wikipedia. Last modified December 29, at 13:05 (UTC). [https://en.wikipedia.org/w/index.php?title=Russian\_military\_deception&oldid=1330098968][ref_maskirovka]
+- "Sagittarius A." 2026. Wikipedia. Last modified February 23, at 04:08 (UTC). [https://en.wikipedia.org/w/index.php?title=Sagittarius\_A%2A&oldid=1339956322][ref_sagittarius_a]
+- "Sagittarius Dwarf Spheroidal Galaxy." 2026. Wikipedia. Last modified February 6, at 03:26 (UTC). [https://en.wikipedia.org/w/index.php?title=Sagittarius\_Dwarf\_Spheroidal\_Galaxy&oldid=1336856667][ref_sagittarius_dwarf]
+- "Sculptor Galaxy." 2026. Wikipedia. Last modified January 29, at 03:59 (UTC). [https://en.wikipedia.org/w/index.php?title=Sculptor\_Galaxy&oldid=1335424921][ref_ngc_253]
+- "Sculptor Group." 2026. Wikipedia. Last modified January 9, at 19:15 (UTC). [https://en.wikipedia.org/w/index.php?title=Sculptor\_Group&oldid=1332073583][ref_sculptor_group]
+- "Small Magellanic Cloud." 2025. Wikipedia. Last modified September 8, at 10:57 (UTC). [https://en.wikipedia.org/w/index.php?title=Small\_Magellanic\_Cloud&oldid=1310225512][ref_smc]
+- "Taylor–von Neumann–Sedov Blast Wave." 2025. Wikipedia. Last modified December 13, at 07:07 (UTC). [https://en.wikipedia.org/w/index.php?title=Taylor%E2%80%93von\_Neumann%E2%80%93Sedov\_blast\_wave&oldid=1327213349][ref_sedov_taylor]
+- "Triangulum Galaxy." 2026. Wikipedia. Last modified February 9, at 18:31 (UTC). [https://en.wikipedia.org/w/index.php?title=Triangulum\_Galaxy&oldid=1337476493][ref_triangulum]
+- "Virgo Cluster." 2026. Wikipedia. Last modified February 10, at 19:20 (UTC). [https://en.wikipedia.org/w/index.php?title=Virgo\_Cluster&oldid=1337659486][ref_virgo_cluster]
+- "Virgo Supercluster." 2026. Wikipedia. Last modified February 6, at 00:38 (UTC). [https://en.wikipedia.org/w/index.php?title=Virgo\_Supercluster&oldid=1336833825][ref_virgo_supercluster]
+- "Virgocentric Flow." 2025. Wikipedia. Last modified July 2, at 11:30 (UTC). [https://en.wikipedia.org/w/index.php?title=Virgocentric\_flow&oldid=1298422336][research_virgocentric]
+- "Wolf–Lundmark–Melotte." 2026. Wikipedia. Last modified February 28, at 02:54 (UTC). [https://en.wikipedia.org/w/index.php?title=Wolf%E2%80%93Lundmark%E2%80%93Melotte&oldid=1340855145][ref_wlm]
+
+### Related Posts
+
+- Sechter, Brendan. 2026. "Introduction to Astronomy." *Brendan A R Sechter's Development Blog*, February 12. [https://sgeos.github.io/space/astronomy/science/2026/02/12/introduction\_to\_astronomy.html][related_post_astronomy]
+- Sechter, Brendan. 2026. "Introduction to Space Studies." *Brendan A R Sechter's Development Blog*, February 21. [https://sgeos.github.io/space/math/2026/02/21/introduction\_to\_space\_studies.html][related_post_space_studies]
+- Sechter, Brendan. 2026. "Human Evolution and the Great Filter." *Brendan A R Sechter's Development Blog*, February 26. [https://sgeos.github.io/science/philosophy/2026/02/26/human\_evolution\_and\_the\_great\_filter.html][related_post_great_filter]
+- Sechter, Brendan. 2026. "Causality and First-Mover Advantage in Lightcone-Based Competitive Intergalactic Colonization." *Brendan A R Sechter's Development Blog*, March 1. [https://sgeos.github.io/science/philosophy/2026/03/01/causality\_and\_first\_mover\_advantage\_in\_lightcone\_based\_competitive\_intergalactic\_colonization.html][related_post_causality]
+
+[ref_andromeda]: https://en.wikipedia.org/w/index.php?title=Andromeda_Galaxy&oldid=1339332569
+[ref_andromeda_collision]: https://en.wikipedia.org/w/index.php?title=Andromeda%E2%80%93Milky_Way_collision&oldid=1339459974
+[ref_barred_spiral]: https://en.wikipedia.org/w/index.php?title=Barred_spiral_galaxy&oldid=1335608330
+[ref_blandford_znajek]: https://en.wikipedia.org/w/index.php?title=Blandford%E2%80%93Znajek_process&oldid=1319761150
+[ref_centaurus_a]: https://en.wikipedia.org/w/index.php?title=Centaurus_A&oldid=1334543670
+[ref_centaurus_group]: https://en.wikipedia.org/w/index.php?title=Centaurus_A%2FM83_Group&oldid=1252854242
+[ref_circinus]: https://en.wikipedia.org/w/index.php?title=Circinus_Galaxy&oldid=1339007864
+[ref_cosmic_web]: https://en.wikipedia.org/w/index.php?title=Observable_universe&oldid=1340435238
+[ref_dark_forest]: https://en.wikipedia.org/w/index.php?title=Dark_forest_hypothesis&oldid=1335475552
+[ref_dsph]: https://en.wikipedia.org/w/index.php?title=Dwarf_spheroidal_galaxy&oldid=1318439376
+[ref_dyson_sphere]: https://en.wikipedia.org/w/index.php?title=Dyson_sphere&oldid=1330872455
+[ref_focal_point]: https://en.wikipedia.org/w/index.php?title=Focal_point_(game_theory)&oldid=1319350955
+[ref_fornax_cluster]: https://en.wikipedia.org/w/index.php?title=Fornax_Cluster&oldid=1285354223
+[ref_fornax_dwarf]: https://en.wikipedia.org/w/index.php?title=Fornax_Dwarf&oldid=1328128421
+[ref_fractal_cosmology]: https://en.wikipedia.org/w/index.php?title=Fractal_cosmology&oldid=1340846869
+[ref_game_theory]: https://en.wikipedia.org/w/index.php?title=Game_theory&oldid=1337269035
+[ref_great_attractor]: https://en.wikipedia.org/w/index.php?title=Great_Attractor&oldid=1340703115
+[ref_hausdorff]: https://en.wikipedia.org/w/index.php?title=Hausdorff_dimension&oldid=1337643225
+[ref_hyperbolic_growth]: https://en.wikipedia.org/w/index.php?title=Hyperbolic_growth&oldid=1314299405
+[ref_ic_10]: https://en.wikipedia.org/w/index.php?title=IC_10&oldid=1331775166
+[ref_ic_1613]: https://en.wikipedia.org/w/index.php?title=IC_1613&oldid=1319621544
+[ref_ic_342]: https://en.wikipedia.org/w/index.php?title=IC_342&oldid=1321959042
+[ref_information_warfare]: https://en.wikipedia.org/w/index.php?title=Information_warfare&oldid=1340953107
+[ref_kerr]: https://en.wikipedia.org/w/index.php?title=Kerr_metric&oldid=1340374820
+[ref_landauer]: https://en.wikipedia.org/w/index.php?title=Landauer's_principle&oldid=1337373438
+[ref_laniakea]: https://en.wikipedia.org/w/index.php?title=Laniakea_Supercluster&oldid=1340759226
+[ref_leo_i]: https://en.wikipedia.org/w/index.php?title=Leo_I_(dwarf_galaxy)&oldid=1325125039
+[ref_leo_ii]: https://en.wikipedia.org/w/index.php?title=Leo_II_(dwarf_galaxy)&oldid=1332588330
+[ref_leo_triplet]: https://en.wikipedia.org/w/index.php?title=Leo_Triplet&oldid=1332064472
+[ref_lmc]: https://en.wikipedia.org/w/index.php?title=Large_Magellanic_Cloud&oldid=1337290955
+[ref_local_group]: https://en.wikipedia.org/w/index.php?title=Local_Group&oldid=1335047038
+[ref_local_sheet]: https://en.wikipedia.org/w/index.php?title=Local_Sheet&oldid=1327843809
+[ref_local_void]: https://en.wikipedia.org/w/index.php?title=Local_Void&oldid=1313997875
+[ref_logistic]: https://en.wikipedia.org/w/index.php?title=Logistic_function&oldid=1340222412
+[ref_lotka_volterra]: https://en.wikipedia.org/w/index.php?title=Competitive_Lotka%E2%80%93Volterra_equations&oldid=1340022584
+[ref_m101]: https://en.wikipedia.org/w/index.php?title=Pinwheel_Galaxy&oldid=1335013967
+[ref_m105]: https://en.wikipedia.org/w/index.php?title=Messier_105&oldid=1328020967
+[ref_m106]: https://en.wikipedia.org/w/index.php?title=Messier_106&oldid=1327842872
+[ref_m110]: https://en.wikipedia.org/w/index.php?title=Messier_110&oldid=1335047608
+[ref_m32]: https://en.wikipedia.org/w/index.php?title=Messier_32&oldid=1330255731
+[ref_m49]: https://en.wikipedia.org/w/index.php?title=Messier_49&oldid=1341028030
+[ref_m66]: https://en.wikipedia.org/w/index.php?title=Messier_66&oldid=1340625898
+[ref_m81_group]: https://en.wikipedia.org/w/index.php?title=M81_Group&oldid=1332064435
+[ref_m82]: https://en.wikipedia.org/w/index.php?title=Messier_82&oldid=1337627256
+[ref_m84]: https://en.wikipedia.org/w/index.php?title=Messier_84&oldid=1305480912
+[ref_m87]: https://en.wikipedia.org/w/index.php?title=Messier_87&oldid=1334640545
+[ref_m94]: https://en.wikipedia.org/w/index.php?title=Messier_94&oldid=1309844187
+[ref_maffei_1]: https://en.wikipedia.org/w/index.php?title=Maffei_1&oldid=1320758252
+[ref_maskirovka]: https://en.wikipedia.org/w/index.php?title=Russian_military_deception&oldid=1330098968
+[ref_meti]: https://en.wikipedia.org/w/index.php?title=METI&oldid=1310143516
+[ref_military_deception]: https://en.wikipedia.org/w/index.php?title=Military_deception&oldid=1340458046
+[ref_milky_way]: https://en.wikipedia.org/w/index.php?title=Milky_Way&oldid=1340262189
+[ref_ngc_1023]: https://en.wikipedia.org/w/index.php?title=NGC_1023&oldid=1228331396
+[ref_ngc_1316]: https://en.wikipedia.org/w/index.php?title=NGC_1316&oldid=1337963812
+[ref_ngc_1365]: https://en.wikipedia.org/w/index.php?title=NGC_1365&oldid=1334284814
+[ref_ngc_1399]: https://en.wikipedia.org/w/index.php?title=NGC_1399&oldid=1333151149
+[ref_ngc_147]: https://en.wikipedia.org/w/index.php?title=NGC_147&oldid=1338565289
+[ref_ngc_185]: https://en.wikipedia.org/w/index.php?title=NGC_185&oldid=1325887720
+[ref_ngc_2403]: https://en.wikipedia.org/w/index.php?title=NGC_2403&oldid=1327843580
+[ref_ngc_253]: https://en.wikipedia.org/w/index.php?title=Sculptor_Galaxy&oldid=1335424921
+[ref_ngc_3109]: https://en.wikipedia.org/w/index.php?title=NGC_3109&oldid=1328042983
+[ref_ngc_4945]: https://en.wikipedia.org/w/index.php?title=NGC_4945&oldid=1339243488
+[ref_ngc_6822]: https://en.wikipedia.org/w/index.php?title=NGC_6822&oldid=1328053328
+[ref_penrose_process]: https://en.wikipedia.org/w/index.php?title=Penrose_process&oldid=1333468179
+[ref_sagittarius_a]: https://en.wikipedia.org/w/index.php?title=Sagittarius_A%2A&oldid=1339956322
+[ref_sagittarius_dwarf]: https://en.wikipedia.org/w/index.php?title=Sagittarius_Dwarf_Spheroidal_Galaxy&oldid=1336856667
+[ref_sculptor_group]: https://en.wikipedia.org/w/index.php?title=Sculptor_Group&oldid=1332073583
+[ref_sedov_taylor]: https://en.wikipedia.org/w/index.php?title=Taylor%E2%80%93von_Neumann%E2%80%93Sedov_blast_wave&oldid=1327213349
+[ref_smc]: https://en.wikipedia.org/w/index.php?title=Small_Magellanic_Cloud&oldid=1310225512
+[ref_triangulum]: https://en.wikipedia.org/w/index.php?title=Triangulum_Galaxy&oldid=1337476493
+[ref_virgo_cluster]: https://en.wikipedia.org/w/index.php?title=Virgo_Cluster&oldid=1337659486
+[ref_virgo_supercluster]: https://en.wikipedia.org/w/index.php?title=Virgo_Supercluster&oldid=1336833825
+[ref_von_foerster]: https://en.wikipedia.org/w/index.php?title=Heinz_von_Foerster&oldid=1338564618
+[ref_wlm]: https://en.wikipedia.org/w/index.php?title=Wolf%E2%80%93Lundmark%E2%80%93Melotte&oldid=1340855145
 [related_post_astronomy]: {% post_url 2026-02-12-introduction_to_astronomy %}
 [related_post_causality]: {% post_url 2026-03-01-causality_and_first_mover_advantage_in_lightcone_based_competitive_intergalactic_colonization %}
 [related_post_great_filter]: {% post_url 2026-02-26-human_evolution_and_the_great_filter %}
@@ -3140,11 +3149,7 @@ reaches us.
 [research_laniakea_paper]: https://www.nature.com/articles/nature13674
 [research_leo_i_bh]: https://aasnova.org/2023/11/17/an-explanation-for-the-overmassive-black-hole-in-the-dwarf-galaxy-leo-i/
 [research_m87_eht]: https://eventhorizontelescope.org/
-[research_mw_andromeda_collision]: https://www.nature.com/articles/s41550-025-02563-1
-[research_ngc_1365_spin]: https://en.wikipedia.org/wiki/NGC_1365
-[research_ngc_1399_gc]: https://en.wikipedia.org/wiki/NGC_1399
-[research_pietronero]: https://en.wikipedia.org/wiki/Fractal_cosmology
-[research_smbh_compilation]: https://en.wikipedia.org/wiki/List_of_most_massive_black_holes
+[research_mw_andromeda_collision]: https://scholar.google.com/scholar?q=Nature+Astronomy+Milky+Way-Andromeda+Collision+2025
+[research_smbh_compilation]: https://en.wikipedia.org/w/index.php?title=List_of_most_massive_black_holes&oldid=1337452529
 [research_tainter]: https://www.cambridge.org/core/books/collapse-of-complex-societies/AB4E2B51B6F76B23A76E6CAB4E888D3B
-[research_virgocentric]: https://en.wikipedia.org/wiki/Virgocentric_flow
-[research_von_foerster]: https://en.wikipedia.org/wiki/Heinz_von_Foerster#Doomsday_equation
+[research_virgocentric]: https://en.wikipedia.org/w/index.php?title=Virgocentric_flow&oldid=1298422336

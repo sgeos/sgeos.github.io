@@ -1769,9 +1769,9 @@ their integration.
 ### Primary Sources, Non-Peer-Reviewed
 
 - "Chipsalliance/rocket-Chip: Rocket Chip Generator." n.d. GitHub. Accessed October 25, 2026. [https://github.com/chipsalliance/rocket-chip][ref_rocket_chip]
-- "Keleusma, GitHub Repository." n.d. github.com. Accessed October 25, 2026. [https://github.com/sgeos/keleusma][ref_keleusma]
 - "LiteX system-on-chip generator framework." n.d. github.com. Accessed October 25, 2026. [https://github.com/enjoy-digital/litex][ref_litex]
 - "Project Trellis Lattice ECP5 bitstream documentation." n.d. github.com. Accessed October 25, 2026. [https://github.com/YosysHQ/prjtrellis][ref_project_trellis]
+- "Sgeos/keleusma: Total Function Stream Processor for Deterministic Control Loops." n.d. GitHub. Accessed October 25, 2026. [https://github.com/sgeos/keleusma][ref_keleusma]
 - "sylefeb/Silice: Silice Is an Easy-to-Learn, Powerful Hardware Description Language, That Simplifies Designing Hardware Algorithms with Parallelism and Pipelines." n.d. GitHub. Accessed October 25, 2026. [https://github.com/sylefeb/Silice][ref_silice]
 - Wheeler, David A. 2010. "Fully Countering Trusting Trust through Diverse Double-Compiling." Preprint, arXiv. [https://doi.org/10.48550/arxiv.1004.5534][research_wheeler_ddc]
 

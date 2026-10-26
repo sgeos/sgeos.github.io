@@ -1433,7 +1433,7 @@ new base technologies.
 ### Primary Sources, Non-Peer-Reviewed
 
 - Freitas, R. A., Jr., and W. P. Gilbreath. 1982. *Advanced Automation for Space Missions*. NASA-CP-2255. NASA. [https://ntrs.nasa.gov/citations/19830007077][book_nasa_cp2255]
-- "Keleusma, GitHub Repository." n.d. github.com. Accessed October 25, 2026. [https://github.com/sgeos/keleusma][ref_keleusma]
+- "Sgeos/keleusma: Total Function Stream Processor for Deterministic Control Loops." n.d. GitHub. Accessed October 25, 2026. [https://github.com/sgeos/keleusma][ref_keleusma]
 - Vontiesenhausen, G., and W. A. Darbro. 1980. *Self-Replicating Systems: A Systems Engineering Approach*. NASA-TM-78304. NASA. [https://ntrs.nasa.gov/citations/19800025701][research_tiesenhausen_darbro]
 
 ### Secondary Sources

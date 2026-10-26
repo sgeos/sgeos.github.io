@@ -1578,9 +1578,9 @@ is being realized.
 ### Primary Sources, Non-Peer-Reviewed
 
 - "GCC Multi-Stage Bootstrap and Stage Comparison." n.d. gcc.gnu.org. Accessed October 25, 2026. [https://gcc.gnu.org/install/build.html][ref_gcc_bootstrap]
-- "Keleusma, GitHub Repository." n.d. github.com. Accessed October 25, 2026. [https://github.com/sgeos/keleusma][kel_github]
 - "Keleusma, Incremental Self-Hosting Reference Document." n.d. github.com. Accessed October 25, 2026. [https://github.com/sgeos/keleusma/blob/main/docs/reference/INCREMENTAL\_SELF\_HOSTING.md][ref_incremental_self_hosting]
 - "Keleusma, V0.3.0 Self-Hosting Strategy Document." n.d. github.com. Accessed October 25, 2026. [https://github.com/sgeos/keleusma/blob/main/docs/roadmap/V0\_3\_0\_SELF\_HOSTING.md][ref_v030_self_hosting]
+- "Sgeos/keleusma: Total Function Stream Processor for Deterministic Control Loops." n.d. GitHub. Accessed October 25, 2026. [https://github.com/sgeos/keleusma][kel_github]
 - Thompson, Ken. 1984. "Reflections on Trusting Trust." *Communications of the ACM* 27 (8): 761–63. [https://doi.org/10.1145/358198.358210][ref_trusting_trust]
 - Wheeler, David A. 2010. "Fully Countering Trusting Trust through Diverse Double-Compiling." Preprint, arXiv. [https://doi.org/10.48550/arxiv.1004.5534][ref_ddc]
 

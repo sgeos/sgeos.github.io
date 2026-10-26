@@ -56,6 +56,7 @@ python3 _lib/sources_resolve.py plan POST...                 # what remains to f
 python3 _lib/sources_resolve.py fetch STEP POST... [--shard k/n]   # crossref, pii, datacite, isbn, works,
                                                              # book-search, work-search, proceedings, pages
 python3 _lib/sources_resolve.py explain POST                 # how each such link resolves, or why it does not
+python3 _lib/sources_resolve.py normalise POST...            # make a legacy post readable to the converter
 ```
 
 **A link that is not a DOI is resolved when the decision file says `resolve_links = true`.** The importer

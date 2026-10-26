@@ -1757,3 +1757,399 @@ why = "An inspector general's audit and inspection reports, government reports p
 kind = "report"
 publisher = "Harvard Business Publishing"
 why = "Harvard Business School's case studies and teaching notes, reports sold by its publishing arm, which rule 4 places under Primary Sources, Non-Peer-Reviewed by their kind."
+
+# Judgements made for A1 to A199, 2026-10-25.
+
+["stackoverflow.com"]
+why = "A community question-and-answer site, forum or mailing list, where any reader may post, with no stake in the subject, General Sources under rule 7."
+
+["unix.stackexchange.com"]
+why = "A community question-and-answer site, forum or mailing list, where any reader may post, with no stake in the subject, General Sources under rule 7."
+
+["superuser.com"]
+why = "A community question-and-answer site, forum or mailing list, where any reader may post, with no stake in the subject, General Sources under rule 7."
+
+["serverfault.com"]
+why = "A community question-and-answer site, forum or mailing list, where any reader may post, with no stake in the subject, General Sources under rule 7."
+
+["askubuntu.com"]
+why = "A community question-and-answer site, forum or mailing list, where any reader may post, with no stake in the subject, General Sources under rule 7."
+
+["ubuntuforums.org"]
+why = "A community question-and-answer site, forum or mailing list, where any reader may post, with no stake in the subject, General Sources under rule 7."
+
+["forums.freebsd.org"]
+why = "A community question-and-answer site, forum or mailing list, where any reader may post, with no stake in the subject, General Sources under rule 7."
+
+["devforum.play.date"]
+why = "A community question-and-answer site, forum or mailing list, where any reader may post, with no stake in the subject, General Sources under rule 7."
+
+["lists.freebsd.org"]
+why = "A community question-and-answer site, forum or mailing list, where any reader may post, with no stake in the subject, General Sources under rule 7."
+
+["www.reddit.com"]
+why = "A community question-and-answer site, forum or mailing list, where any reader may post, with no stake in the subject, General Sources under rule 7."
+
+["www.freebsd.org"]
+kind = "documentation"
+primary = true
+why = "The documentation or specification pages of a software project, which rule 4 places among the primary sources."
+
+["manpages.org"]
+kind = "documentation"
+primary = true
+why = "The documentation or specification pages of a software project, which rule 4 places among the primary sources."
+
+["docs.rust-embedded.org"]
+kind = "documentation"
+primary = true
+why = "The documentation or specification pages of a software project, which rule 4 places among the primary sources."
+
+["docs.rs"]
+kind = "documentation"
+primary = true
+why = "The documentation or specification pages of a software project, which rule 4 places among the primary sources."
+
+["developer.apple.com"]
+kind = "documentation"
+primary = true
+why = "The documentation or specification pages of a software project, which rule 4 places among the primary sources."
+
+["developer.android.com"]
+kind = "documentation"
+primary = true
+why = "The documentation or specification pages of a software project, which rule 4 places among the primary sources."
+
+["elixir-lang.org"]
+kind = "documentation"
+primary = true
+why = "The documentation or specification pages of a software project, which rule 4 places among the primary sources."
+
+["erlang.org"]
+kind = "documentation"
+primary = true
+why = "The documentation or specification pages of a software project, which rule 4 places among the primary sources."
+
+["hexdocs.pm"]
+kind = "documentation"
+primary = true
+why = "The documentation or specification pages of a software project, which rule 4 places among the primary sources."
+
+["www.rust-lang.org"]
+kind = "documentation"
+primary = true
+why = "The documentation or specification pages of a software project, which rule 4 places among the primary sources."
+
+["jekyllrb.com"]
+kind = "documentation"
+primary = true
+why = "The documentation or specification pages of a software project, which rule 4 places among the primary sources."
+
+["code.claude.com"]
+kind = "documentation"
+primary = true
+why = "The documentation or specification pages of a software project, which rule 4 places among the primary sources."
+
+["docs.px4.io"]
+kind = "documentation"
+primary = true
+why = "The documentation or specification pages of a software project, which rule 4 places among the primary sources."
+
+["ardupilot.org"]
+kind = "documentation"
+primary = true
+why = "The documentation or specification pages of a software project, which rule 4 places among the primary sources."
+
+["exrm.readme.io"]
+kind = "documentation"
+primary = true
+why = "The documentation or specification pages of a software project, which rule 4 places among the primary sources."
+
+["sdk.play.date"]
+kind = "documentation"
+primary = true
+why = "The documentation or specification pages of a software project, which rule 4 places among the primary sources."
+
+["pages.github.com"]
+kind = "documentation"
+primary = true
+why = "The documentation or specification pages of a software project, which rule 4 places among the primary sources."
+
+["help.github.com"]
+kind = "documentation"
+primary = true
+why = "The documentation or specification pages of a software project, which rule 4 places among the primary sources."
+
+["help.disqus.com"]
+kind = "documentation"
+primary = true
+why = "The documentation or specification pages of a software project, which rule 4 places among the primary sources."
+
+["modelcontextprotocol.io"]
+kind = "documentation"
+primary = true
+why = "The documentation or specification pages of a software project, which rule 4 places among the primary sources."
+
+["component-model.bytecodealliance.org"]
+kind = "documentation"
+primary = true
+why = "The documentation or specification pages of a software project, which rule 4 places among the primary sources."
+
+["www.phoenixframework.org"]
+kind = "documentation"
+primary = true
+why = "The documentation or specification pages of a software project, which rule 4 places among the primary sources."
+
+["automerge.org"]
+kind = "documentation"
+primary = true
+why = "The documentation or specification pages of a software project, which rule 4 places among the primary sources."
+
+["sel4.systems"]
+kind = "documentation"
+primary = true
+why = "The documentation or specification pages of a software project, which rule 4 places among the primary sources."
+
+["servo.org"]
+kind = "documentation"
+primary = true
+why = "The documentation or specification pages of a software project, which rule 4 places among the primary sources."
+
+["genode.org"]
+kind = "documentation"
+primary = true
+why = "The documentation or specification pages of a software project, which rule 4 places among the primary sources."
+
+["crates.io"]
+kind = "documentation"
+primary = true
+why = "The documentation or specification pages of a software project, which rule 4 places among the primary sources."
+
+["gist.github.com"]
+kind = "documentation"
+primary = true
+why = "The documentation or specification pages of a software project, which rule 4 places among the primary sources."
+
+["kb.iu.edu"]
+kind = "documentation"
+primary = true
+why = "The documentation or specification pages of a software project, which rule 4 places among the primary sources."
+
+["developer.dji.com"]
+kind = "documentation"
+primary = true
+why = "The documentation or specification pages of a software project, which rule 4 places among the primary sources."
+
+["developer.parrot.com"]
+kind = "documentation"
+primary = true
+why = "The documentation or specification pages of a software project, which rule 4 places among the primary sources."
+
+["agents.md"]
+kind = "documentation"
+primary = true
+why = "The documentation or specification pages of a software project, which rule 4 places among the primary sources."
+
+["enterprise.dji.com"]
+stake = true
+why = "A company's own site or newsroom, promoting its products and programmes, which the rules place under Commercial Sources."
+
+["www.dji.com"]
+stake = true
+why = "A company's own site or newsroom, promoting its products and programmes, which the rules place under Commercial Sources."
+
+["www.skydio.com"]
+stake = true
+why = "A company's own site or newsroom, promoting its products and programmes, which the rules place under Commercial Sources."
+
+["www.avinc.com"]
+stake = true
+why = "A company's own site or newsroom, promoting its products and programmes, which the rules place under Commercial Sources."
+
+["quantum-systems.com"]
+stake = true
+why = "A company's own site or newsroom, promoting its products and programmes, which the rules place under Commercial Sources."
+
+["www.flir.com"]
+stake = true
+why = "A company's own site or newsroom, promoting its products and programmes, which the rules place under Commercial Sources."
+
+["www.parrot.com"]
+stake = true
+why = "A company's own site or newsroom, promoting its products and programmes, which the rules place under Commercial Sources."
+
+["wingtra.com"]
+stake = true
+why = "A company's own site or newsroom, promoting its products and programmes, which the rules place under Commercial Sources."
+
+["edgeautonomy.io"]
+stake = true
+why = "A company's own site or newsroom, promoting its products and programmes, which the rules place under Commercial Sources."
+
+["sierraolympia.com"]
+stake = true
+why = "A company's own site or newsroom, promoting its products and programmes, which the rules place under Commercial Sources."
+
+["colorfabb.com"]
+stake = true
+why = "A company's own site or newsroom, promoting its products and programmes, which the rules place under Commercial Sources."
+
+["www.palantir.com"]
+stake = true
+why = "A company's own site or newsroom, promoting its products and programmes, which the rules place under Commercial Sources."
+
+["www.jetbrains.com"]
+stake = true
+why = "A company's own site or newsroom, promoting its products and programmes, which the rules place under Commercial Sources."
+
+["disqus.com"]
+stake = true
+why = "A company's own site or newsroom, promoting its products and programmes, which the rules place under Commercial Sources."
+
+["play.date"]
+stake = true
+why = "A company's own site or newsroom, promoting its products and programmes, which the rules place under Commercial Sources."
+
+["download.panic.com"]
+stake = true
+why = "A company's own site or newsroom, promoting its products and programmes, which the rules place under Commercial Sources."
+
+["www.thoughtworks.com"]
+stake = true
+why = "A company's own site or newsroom, promoting its products and programmes, which the rules place under Commercial Sources."
+
+["github.blog"]
+stake = true
+why = "A company's own site or newsroom, promoting its products and programmes, which the rules place under Commercial Sources."
+
+["blog.plataformatec.com.br"]
+stake = true
+why = "A company's own site or newsroom, promoting its products and programmes, which the rules place under Commercial Sources."
+
+["deepmind.google"]
+stake = true
+why = "A company's own site or newsroom, promoting its products and programmes, which the rules place under Commercial Sources."
+
+["www.fema.gov"]
+stake = true
+why = "A government agency's or service's own outreach, news or fact-sheet pages, which promote its own work and which the rules place under Commercial Sources. Its technical reports and data fall under rule 4 by their kind."
+
+["training.fema.gov"]
+stake = true
+why = "A government agency's or service's own outreach, news or fact-sheet pages, which promote its own work and which the rules place under Commercial Sources. Its technical reports and data fall under rule 4 by their kind."
+
+["www.dhs.gov"]
+stake = true
+why = "A government agency's or service's own outreach, news or fact-sheet pages, which promote its own work and which the rules place under Commercial Sources. Its technical reports and data fall under rule 4 by their kind."
+
+["www.nist.gov"]
+stake = true
+why = "A government agency's or service's own outreach, news or fact-sheet pages, which promote its own work and which the rules place under Commercial Sources. Its technical reports and data fall under rule 4 by their kind."
+
+["www.dodsbirsttr.mil"]
+stake = true
+why = "A government agency's or service's own outreach, news or fact-sheet pages, which promote its own work and which the rules place under Commercial Sources. Its technical reports and data fall under rule 4 by their kind."
+
+["seedfund.nsf.gov"]
+stake = true
+why = "A government agency's or service's own outreach, news or fact-sheet pages, which promote its own work and which the rules place under Commercial Sources. Its technical reports and data fall under rule 4 by their kind."
+
+["www.nsf.gov"]
+stake = true
+why = "A government agency's or service's own outreach, news or fact-sheet pages, which promote its own work and which the rules place under Commercial Sources. Its technical reports and data fall under rule 4 by their kind."
+
+["grants.nih.gov"]
+stake = true
+why = "A government agency's or service's own outreach, news or fact-sheet pages, which promote its own work and which the rules place under Commercial Sources. Its technical reports and data fall under rule 4 by their kind."
+
+["www.diu.mil"]
+stake = true
+why = "A government agency's or service's own outreach, news or fact-sheet pages, which promote its own work and which the rules place under Commercial Sources. Its technical reports and data fall under rule 4 by their kind."
+
+["mars.nasa.gov"]
+stake = true
+why = "A government agency's or service's own outreach, news or fact-sheet pages, which promote its own work and which the rules place under Commercial Sources. Its technical reports and data fall under rule 4 by their kind."
+
+["csrc.nist.gov"]
+primary = true
+why = "A first-hand record: an official statement, transcript, statute, regulation, statistical release, archival document, patent or disclosure, which rule 4 places among the primary sources."
+
+["www.pmddtc.state.gov"]
+primary = true
+why = "A first-hand record: an official statement, transcript, statute, regulation, statistical release, archival document, patent or disclosure, which rule 4 places among the primary sources."
+
+["bluelist.dcma.mil"]
+primary = true
+why = "A first-hand record: an official statement, transcript, statute, regulation, statistical release, archival document, patent or disclosure, which rule 4 places among the primary sources."
+
+["www.ers.usda.gov"]
+primary = true
+why = "A first-hand record: an official statement, transcript, statute, regulation, statistical release, archival document, patent or disclosure, which rule 4 places among the primary sources."
+
+["www.droneresponders.org"]
+stake = true
+why = "A company, trade association or advocacy body writing about its own field, products or members."
+
+["nasar.org"]
+stake = true
+why = "A company, trade association or advocacy body writing about its own field, products or members."
+
+["www.nfpa.org"]
+kind = "standard"
+why = "A published standard or normative specification, which rule 4 places among the primary sources."
+
+["datatracker.ietf.org"]
+kind = "standard"
+why = "A published standard or normative specification, which rule 4 places among the primary sources."
+
+["www.nwcg.gov"]
+kind = "standard"
+why = "A published standard or normative specification, which rule 4 places among the primary sources."
+
+["www.cyberciti.biz"]
+periodical = true
+why = "A blog reporting on a subject in which it has no stake, General Sources under rule 7, its name in italics as Chicago treats a blog."
+
+["www.grymoire.com"]
+periodical = true
+why = "A blog reporting on a subject in which it has no stake, General Sources under rule 7, its name in italics as Chicago treats a blog."
+
+["learnwithjeff.com"]
+periodical = true
+why = "A blog reporting on a subject in which it has no stake, General Sources under rule 7, its name in italics as Chicago treats a blog."
+
+["renatomoya.github.io"]
+periodical = true
+why = "A blog reporting on a subject in which it has no stake, General Sources under rule 7, its name in italics as Chicago treats a blog."
+
+["jasonk2600.wordpress.com"]
+periodical = true
+why = "A blog reporting on a subject in which it has no stake, General Sources under rule 7, its name in italics as Chicago treats a blog."
+
+["addyosmani.com"]
+periodical = true
+why = "A blog reporting on a subject in which it has no stake, General Sources under rule 7, its name in italics as Chicago treats a blog."
+
+["martinfowler.com"]
+periodical = true
+why = "A blog reporting on a subject in which it has no stake, General Sources under rule 7, its name in italics as Chicago treats a blog."
+
+["blog.slaks.net"]
+periodical = true
+why = "A blog reporting on a subject in which it has no stake, General Sources under rule 7, its name in italics as Chicago treats a blog."
+
+["rcplanediy.com"]
+periodical = true
+why = "A blog reporting on a subject in which it has no stake, General Sources under rule 7, its name in italics as Chicago treats a blog."
+
+["www.commandlinefu.com"]
+periodical = true
+why = "A blog reporting on a subject in which it has no stake, General Sources under rule 7, its name in italics as Chicago treats a blog."
+
+["www.rcsoaringdigest.com"]
+periodical = true
+why = "A periodical or news site reporting on subjects in which it has no stake, General Sources under rule 7, its name in italics."
+
+["books.google.com"]
+kind = "book"
+why = "A library catalogue's record of a book, which identifies the book itself, so the entry is the book's."

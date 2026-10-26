@@ -1,0 +1,6 @@
+{
+ "elixir_service": "freebsd_elixir",
+ "freebsd_ion": "ion_service",
+ "phoenix_script": "phoenix_shell",
+ "sh_tutorial": "unix_bourne_shell"
+}

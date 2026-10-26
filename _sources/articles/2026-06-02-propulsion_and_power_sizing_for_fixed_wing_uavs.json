@@ -1,0 +1,12 @@
+{
+ "ref_jet_fuel": "ref_jet_fuel_7947f5",
+ "ref_ld": "ref_lift_to_drag",
+ "ref_oswald": "ref_oswald_efficiency",
+ "ref_propeller": "ref_propeller_a61e5d",
+ "ref_rocket_engine": "ref_rocket_engine_70431e",
+ "ref_scramjet": "ref_scramjet_61eb5e",
+ "ref_solar": "ref_solar_7f6802",
+ "ref_turbofan": "ref_turbofan_80b6ea",
+ "ref_turbojet": "ref_turbojet_378896",
+ "related_post_lwpla": "related_post_a112_fixed_wing_uav"
+}

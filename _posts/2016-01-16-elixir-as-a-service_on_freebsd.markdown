@@ -10,7 +10,7 @@ categories: elixir erlang
 <script>console.log("A6");</script>
 
 Ease of deployment is one of the things I seriously consider when evaluating technology solutions.
-In this post, a modified version of the Elixir [getting started echo server][elixir-gen-tcp] will be installed as a
+In this post, a modified version of the Elixir [getting started echo server][elixir_gen_tcp] will be installed as a
 FreeBSD service.  There are three goals.
 
 - The app needs to be able to be rebuilt and the service restarted to reflect changes on a development machine.  
@@ -48,7 +48,7 @@ mix new --sup elixir_echo
 cd elixir_echo
 {% endhighlight %}
 
-Next, add a modified version of the [echo server][elixir-gen-tcp] from the Elixir getting started section.
+Next, add a modified version of the [echo server][elixir_gen_tcp] from the Elixir getting started section.
 This version loads the port from environment variables or the app configuration environment.
 The default fallback is port 4040.  It also gracefully handles closed sockets.
 The code goes in **lib/echo_elixir.ex**.
@@ -147,7 +147,7 @@ defmodule ElixirEcho do
 end
 {% endhighlight %}
 
-Add the [elixir release manager (exrm)][elixir-exrm] to **mix.exs** as a project dependency.
+Add the [elixir release manager (exrm)][elixir_exrm] to **mix.exs** as a project dependency.
 {% highlight elixir %}
   defp deps do
     [{:exrm, "~> 1.0.0-rc7"}]
@@ -400,64 +400,71 @@ Sometimes rebooting fixes problems, like killing zombie nodes with strange defau
 
 ### What Next?
 
-Consider looking into [edeliver][elixir-edeliver] for deployment.
+Consider looking into [edeliver][elixir_edeliver] for deployment.
 "edeliver is based on deliver and provides a bash script to build and deploy
 Elixir and Erlang applications and perform hot-code upgrades."
 
-## References:
-- [Elixir, Task and gen_tcp][elixir-gen-tcp]
-- [Elixir, System][elixir-system]
-- [Elixir Release Manager][elixir-exrm]
-- [Elixir exrm Release Configuration][elixir-exrm-config]
-- [Elixir exrm Deployment][elixir-exrm-deploy]
-- [Elixir, edeliver][elixir-edeliver]
-- [Elixir, Programming Elixir 1.2][elixir-book]
-- [Elixir, syslog Packages on Hex][elixir-syslog]
-- [FreeBSD Forums, /opt directory replacement][freebsd-opt]
-- [FreeBSD Forums, Creating a System User (like www)][freebsd-system-user]
-- [FreeBSD Forums, Configurable rc.d Script Template?][freebsd-rc-template]
-- [FreeBSD, Practical rc.d scripting in BSD][freebsd-rc]
-- [FreeBSD Man Pages, rc.subr(8)][freebsd-rc-subr]
-- [FreeBSD Handbook, Shells][freebsd-shells]
-- [FreeBSD, Run as different user under FreeBSD (closed)][freebsd-su]
-- [UNIX, What is the difference between /opt and /usr/local?][unix-opt]
-- [UNIX, How do I forward parameters to other command in bash script?][bash-arg]
-- [UNIX, sh Scripting Cheat Sheet][sh-cheat-sheet]
-- [UNIX, How can I make chown work recursively?][unix-chown]
-- [UNIX, String contains in bash][unix-shell-contains]
-- [UNIX, bash Using case statements][unix-shell-case]
-- [UNIX, Creating System Users And Groups][unix-users]
-- [Erlang, Distributed Erlang][erlang-distributed]
-- [Erlang, Config][erlang-config]
-- [Erlang, A little known fact about Erlang's sys.config][erlang-sys-config]
-- [Erlang, rebar Releases][erlang-rebar-releases]
-- [IRC #elixir-lang on Freenode][irc-elixir-lang]
+## References
 
-[bash-arg]:              http://stackoverflow.com/questions/1537673/how-do-i-forward-parameters-to-other-command-in-bash-script
-[elixir-book]:           https://pragprog.com/book/elixir12/programming-elixir-1-2
-[elixir-edeliver]:       https://github.com/boldpoker/edeliver
-[elixir-exrm]:           https://github.com/bitwalker/exrm
-[elixir-exrm-config]:    https://exrm.readme.io/docs/release-configuration
-[elixir-exrm-deploy]:    https://hexdocs.pm/exrm/extra-deployment.html
-[elixir-gen-tcp]:        http://elixir-lang.org/getting-started/mix-otp/task-and-gen-tcp.html
-[elixir-syslog]: https://hex.pm/packages?search=syslog&sort=downloads
-[elixir-system]:         http://elixir-lang.org/docs/v1.0/elixir/System.html#get_env/1
-[erlang-config]:         http://www.erlang.org/doc/man/config.html
-[erlang-distributed]:    http://www.erlang.org/doc/reference_manual/distributed.html
-[erlang-rebar-releases]: https://www.rebar3.org/docs/releases
-[erlang-sys-config]:     http://aerosol.github.io/anxibits/little-known-fact-about-erlang-sys-config/
-[freebsd-opt]:           https://forums.freebsd.org/threads/opt-directory-replacement.12614/
-[freebsd-rc]:            https://www.freebsd.org/doc/en/articles/rc-scripting/index.html
-[freebsd-rc-subr]:       https://www.freebsd.org/cgi/man.cgi?query=rc.subr&sektion=8
-[freebsd-rc-template]:   https://forums.freebsd.org/threads/configurable-rc-d-script-template.53308/
-[freebsd-shells]:        https://www.freebsd.org/doc/handbook/shells.html
-[freebsd-su]:            http://stackoverflow.com/questions/285658/run-as-different-user-under-freebsd
-[freebsd-system-user]:   https://forums.freebsd.org/threads/creating-a-system-user-like-www.2152/
-[irc-elixir-lang]:       irc://irc.freenode.net/elixir-lang
-[sh-cheat-sheet]:        https://www.joedog.org/articles-cheat-sheet/
-[unix-chown]:            http://superuser.com/questions/260925/how-can-i-make-chown-work-recursively
-[unix-opt]:              http://unix.stackexchange.com/questions/11544/what-is-the-difference-between-opt-and-usr-local
-[unix-shell-case]:       http://tldp.org/LDP/Bash-Beginners-Guide/html/sect_07_03.html
-[unix-shell-contains]:   http://stackoverflow.com/questions/229551/string-contains-in-bash/229585#229585
-[unix-users]:            http://www.greenend.org.uk/rjk/tech/useradd.html
+<!-- References generated by _lib/sources.py from _sources/. Edit the database and regenerate. Do not edit this section by hand. -->
 
+### Primary Sources, Non-Peer-Reviewed
+
+- "3.9. Shells." n.d. www.freebsd.org. Accessed October 25, 2026. [https://www.freebsd.org/doc/handbook/shells.html][freebsd_shells]
+- "Boldpoker/edeliver." n.d. GitHub. Accessed October 25, 2026. [https://github.com/boldpoker/edeliver][elixir_edeliver]
+- Elixir, Task. n.d. "Task and Gen\_tcp." elixir-lang.org. Accessed October 25, 2026. [http://elixir-lang.org/getting-started/mix-otp/task-and-gen-tcp.html][elixir_gen_tcp]
+- "Elixir exrm Deployment." n.d. hexdocs.pm. Accessed October 25, 2026. [https://hexdocs.pm/exrm/extra-deployment.html][elixir_exrm_deploy]
+- "Elixir exrm Release Configuration." n.d. exrm.readme.io. Accessed October 25, 2026. [https://exrm.readme.io/docs/release-configuration][elixir_exrm_config]
+- "Elixir Release Manager." n.d. github.com. Accessed October 25, 2026. [https://github.com/bitwalker/exrm][elixir_exrm]
+- "Erlang -- Config." n.d. www.erlang.org. Accessed October 25, 2026. [http://www.erlang.org/doc/man/config.html][erlang_config]
+- "Erlang -- Distributed Erlang." n.d. www.erlang.org. Accessed October 25, 2026. [http://www.erlang.org/doc/reference\_manual/distributed.html][erlang_distributed]
+- "FreeBSD Man Pages, rc.subr(8)." n.d. www.freebsd.org. Accessed October 25, 2026. [https://www.freebsd.org/cgi/man.cgi?query=rc.subr&sektion=8][freebsd_rc_subr]
+- "Practical Rc.d Scripting in BSD." n.d. www.freebsd.org. Accessed October 25, 2026. [https://www.freebsd.org/doc/en/articles/rc-scripting/index.html][freebsd_rc]
+- "System." n.d. elixir-lang.org. Accessed October 25, 2026. [http://elixir-lang.org/docs/v1.0/elixir/System.html\#get\_env/1][elixir_system]
+
+### General Sources
+
+- "/Opt Directory Replacement." n.d. The FreeBSD Forums. Accessed October 25, 2026. [https://forums.freebsd.org/threads/opt-directory-replacement.12614/][freebsd_opt]
+- "Creating a System User (like Www)." n.d. The FreeBSD Forums. Accessed October 25, 2026. [https://forums.freebsd.org/threads/creating-a-system-user-like-www.2152/][freebsd_system_user]
+- "Creating System Users and Groups." n.d. Accessed October 25, 2026. [http://www.greenend.org.uk/rjk/tech/useradd.html][unix_users]
+- "Directory Structure: What Is the Difference between /Opt and /Usr/local?" n.d. Accessed October 25, 2026. [http://unix.stackexchange.com/questions/11544/what-is-the-difference-between-opt-and-usr-local][unix_opt]
+- "Elixir, syslog Packages on Hex." n.d. Accessed October 25, 2026. [https://hex.pm/packages?search=syslog&sort=downloads][elixir_syslog]
+- "Erlang, A little known fact about Erlang's sys.config." n.d. Accessed October 25, 2026. [http://aerosol.github.io/anxibits/little-known-fact-about-erlang-sys-config/][erlang_sys_config]
+- "Erlang, rebar Releases." n.d. Accessed October 25, 2026. [https://www.rebar3.org/docs/releases][erlang_rebar_releases]
+- "FreeBSD, Run as different user under FreeBSD (closed)." n.d. Accessed October 25, 2026. [http://stackoverflow.com/questions/285658/run-as-different-user-under-freebsd][freebsd_su]
+- "How Do I Forward Parameters to Other Command in Bash Script?" n.d. Accessed October 25, 2026. [http://stackoverflow.com/questions/1537673/how-do-i-forward-parameters-to-other-command-in-bash-script][bash_arg]
+- "IRC \#elixir-lang on Freenode." n.d. Accessed October 25, 2026. [irc://irc.freenode.net/elixir-lang][irc_elixir_lang]
+- "The Pragmatic Bookshelf \| Programming Elixir 1.2." n.d. Accessed October 25, 2026. [https://pragprog.com/book/elixir12/programming-elixir-1-2][elixir_book]
+- "Sh Scripting Cheat Sheet • JoeDog." n.d. *JoeDog*. Accessed October 25, 2026. [https://www.joedog.org/articles-cheat-sheet/][sh_cheat_sheet]
+- "Shell: Configurable Rc.d Script Template?" n.d. The FreeBSD Forums. Accessed October 25, 2026. [https://forums.freebsd.org/threads/configurable-rc-d-script-template.53308/][freebsd_rc_template]
+- "String Contains in Bash." n.d. Accessed October 25, 2026. [http://stackoverflow.com/questions/229551/string-contains-in-bash/229585\#229585][unix_shell_contains]
+- "UNIX, How can I make chown work recursively?" n.d. Accessed October 25, 2026. [http://superuser.com/questions/260925/how-can-i-make-chown-work-recursively][unix_chown]
+- "Using Case Statements." n.d. Accessed October 25, 2026. [http://tldp.org/LDP/Bash-Beginners-Guide/html/sect\_07\_03.html][unix_shell_case]
+
+[bash_arg]: http://stackoverflow.com/questions/1537673/how-do-i-forward-parameters-to-other-command-in-bash-script
+[elixir_book]: https://pragprog.com/book/elixir12/programming-elixir-1-2
+[elixir_edeliver]: https://github.com/boldpoker/edeliver
+[elixir_exrm]: https://github.com/bitwalker/exrm
+[elixir_exrm_config]: https://exrm.readme.io/docs/release-configuration
+[elixir_exrm_deploy]: https://hexdocs.pm/exrm/extra-deployment.html
+[elixir_gen_tcp]: http://elixir-lang.org/getting-started/mix-otp/task-and-gen-tcp.html
+[elixir_syslog]: https://hex.pm/packages?search=syslog&sort=downloads
+[elixir_system]: http://elixir-lang.org/docs/v1.0/elixir/System.html#get_env/1
+[erlang_config]: http://www.erlang.org/doc/man/config.html
+[erlang_distributed]: http://www.erlang.org/doc/reference_manual/distributed.html
+[erlang_rebar_releases]: https://www.rebar3.org/docs/releases
+[erlang_sys_config]: http://aerosol.github.io/anxibits/little-known-fact-about-erlang-sys-config/
+[freebsd_opt]: https://forums.freebsd.org/threads/opt-directory-replacement.12614/
+[freebsd_rc]: https://www.freebsd.org/doc/en/articles/rc-scripting/index.html
+[freebsd_rc_subr]: https://www.freebsd.org/cgi/man.cgi?query=rc.subr&sektion=8
+[freebsd_rc_template]: https://forums.freebsd.org/threads/configurable-rc-d-script-template.53308/
+[freebsd_shells]: https://www.freebsd.org/doc/handbook/shells.html
+[freebsd_su]: http://stackoverflow.com/questions/285658/run-as-different-user-under-freebsd
+[freebsd_system_user]: https://forums.freebsd.org/threads/creating-a-system-user-like-www.2152/
+[irc_elixir_lang]: irc://irc.freenode.net/elixir-lang
+[sh_cheat_sheet]: https://www.joedog.org/articles-cheat-sheet/
+[unix_chown]: http://superuser.com/questions/260925/how-can-i-make-chown-work-recursively
+[unix_opt]: http://unix.stackexchange.com/questions/11544/what-is-the-difference-between-opt-and-usr-local
+[unix_shell_case]: http://tldp.org/LDP/Bash-Beginners-Guide/html/sect_07_03.html
+[unix_shell_contains]: http://stackoverflow.com/questions/229551/string-contains-in-bash/229585#229585
+[unix_users]: http://www.greenend.org.uk/rjk/tech/useradd.html

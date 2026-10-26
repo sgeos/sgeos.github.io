@@ -120,7 +120,7 @@ own command line is the same command, so `python3 _lib/edits.py apply ...` also 
 | `python3 _lib/sources_import.py acronyms tmp/sources --write` | Cached registry titles; writes `_sources/acronyms.txt` |
 | `python3 _lib/survey.py years POST... [--edits FILE.toml]` | The converted post and the source database; recomputes stated year statistics |
 | `python3 _lib/sources_import.py credit-venues` | `_sources/publishers.toml`, publishers' own statements of peer review, with quotes |
-| `python3 _lib/sources_resolve.py plan`, `fetch STEP` and `explain` | Posts; caches under `tmp/sources/` for PIIs, DataCite, ISBNs, searches, proceedings indexes and pages |
+| `python3 _lib/sources_resolve.py plan`, `fetch STEP`, `explain` and `normalise` | Posts; caches under `tmp/sources/` for PIIs, DataCite, ISBNs, searches, proceedings indexes and pages |
 | `python3 _lib/sources.py fix-labels POST` and `diff-labels PRE POST` | The article and its map in `_sources/articles/`, including link text that is not a label |
 | `python3 _lib/textscan.py ctx FILE REGEX` and `strip-wikitext` | A saved source file |
 | `python3 _lib/numcheck.py check CLAIMS.py [--inject]` | A claims file, one `Claim` per stated number, with its computation |

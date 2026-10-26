@@ -1,0 +1,11 @@
+{
+ "ref_aerobraking": "ref_aerobraking_e843f9",
+ "ref_atmospheric_entry": "ref_thermal_protection",
+ "ref_flying_boat": "ref_floatplane",
+ "ref_landing_gear": "ref_landing_gear_a88a82",
+ "ref_parachute": "ref_parachute_ac2f3a",
+ "ref_planing": "ref_planing_3f2503",
+ "ref_tricycle": "ref_tricycle_gear",
+ "related_post_staged": "related_post_a120_staged_boosted_propulsion",
+ "related_post_static": "related_post_a122_stability_configuration"
+}

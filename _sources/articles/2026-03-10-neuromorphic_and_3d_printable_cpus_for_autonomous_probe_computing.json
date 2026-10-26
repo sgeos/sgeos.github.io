@@ -1,0 +1,9 @@
+{
+ "ref_cellular_automata": "ref_cellular_automaton",
+ "ref_reprap": "ref_reprap_92f5f7",
+ "ref_riscv": "ref_riscv_e04e64",
+ "research_borgue": "research_borgue_735396",
+ "research_davies_2018": "research_davies_2018_0d2c0e",
+ "research_merolla": "research_merolla_et_al_2014_truenorth",
+ "research_yan": "research_yan_e4c463"
+}

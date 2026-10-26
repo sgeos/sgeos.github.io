@@ -1,0 +1,9 @@
+{
+ "ref_em_theory": "ref_energy_maneuverability",
+ "ref_snap_roll": "ref_aerobatic_maneuver",
+ "ref_spiral_dive": "ref_dynamic_modes",
+ "ref_three_d_flying": "ref_rc_aircraft",
+ "related_post_dynamic": "related_post_a123_dynamic_stability",
+ "related_post_staged": "related_post_a120_staged_boosted_propulsion",
+ "related_post_structures": "related_post_a127_structures_flight_envelope"
+}

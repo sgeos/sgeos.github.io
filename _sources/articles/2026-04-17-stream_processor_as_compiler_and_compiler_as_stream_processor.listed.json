@@ -1,0 +1,11 @@
+[
+ "book_wirth_compiler_construction",
+ "book_wirth_project_oberon",
+ "ref_bootstrap",
+ "ref_keleusma",
+ "ref_self_hosting",
+ "research_haas_webassembly",
+ "research_leroy_compcert",
+ "research_rutten_universal_coalgebra",
+ "research_watt_wasm"
+]

@@ -1,0 +1,6 @@
+{
+ "ref_autoland": "ref_autoland_81b678",
+ "ref_pitot": "ref_position_error",
+ "related_post_dynamics": "related_post_a123_dynamic_stability",
+ "related_post_recovery": "related_post_launch"
+}

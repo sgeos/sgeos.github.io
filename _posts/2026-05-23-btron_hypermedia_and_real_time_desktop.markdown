@@ -2110,7 +2110,7 @@ to capture the prompt, response,
 and decision chain
 of large language model agents
 inside workflow provenance.
-The [HyperAgents workshop at ECAI 2025][research_hyperagents]
+The [HyperAgents Workshop at ECAI 2025][research_hyperagents]
 explicitly frames the union of
 Web of Things, distributed knowledge graphs,
 and generative artificial intelligence
@@ -3864,186 +3864,202 @@ for that type.
 
 ## References
 
-- [Book, As We May Think][book_as_we_may_think]
-- [Book, Literary Machines][book_literary_machines]
-- [Book, Mirror Worlds][book_mirror_worlds]
-- [Book, Tools for Thought, Rheingold 1985][book_tools_for_thought]
-- [Reference, 9P Protocol][ref_9p_protocol]
-- [Reference, ActivityPub][ref_activitypub]
-- [Reference, Andy Matuschak Personal Site][ref_andy_matuschak]
-- [Reference, Anthropic Tool Use][ref_anthropic_tool_use]
-- [Reference, Appleton, A Brief History of the Digital Garden][ref_appleton_garden_history]
-- [Reference, ARP4754A Guidelines for Development of Civil Aircraft and Systems][ref_arp4754a]
-- [Reference, Automerge][ref_automerge]
-- [Reference, Beaker Browser][ref_beaker]
-- [Reference, BeOS][ref_beos]
-- [Reference, BTRON][ref_btron]
-- [Reference, Cairo Graphics 2D Library][ref_cairo_graphics]
-- [Reference, Cairo Operating System Project][ref_cairo]
-- [Reference, Cap'n Proto][ref_capn_proto]
-- [Reference, Capsicum][ref_capsicum]
-- [Reference, Cho Kanji][ref_cho_kanji]
-- [Reference, Chromium Embedded Framework][ref_cef]
-- [Reference, Coalition for Content Provenance and Authenticity][ref_c2pa]
-- [Reference, Coda][ref_coda]
-- [Reference, CodeMirror][ref_codemirror]
-- [Reference, Component Object Model][ref_com]
-- [Reference, Content Credentials][ref_content_credentials]
-- [Reference, Content-addressable Storage][ref_content_addressable_storage]
-- [Reference, Dassault ENOVIA][ref_enovia]
-- [Reference, DO-178C][ref_do_178c]
-- [Reference, Dynabook][ref_dynabook]
-- [Reference, European Union Artificial Intelligence Act Article 50][ref_eu_ai_act_50]
-- [Reference, Evergreen Notes][ref_evergreen_notes]
-- [Reference, Extensible Business Reporting Language][ref_xbrl]
-- [Reference, FreeRTOS][ref_freertos]
-- [Reference, FreeType][ref_freetype]
-- [Reference, Future of Coding][ref_future_of_coding]
-- [Reference, Genode Operating System Framework][ref_genode]
-- [Reference, GNOME Bonobo][ref_bonobo]
-- [Reference, Google Gemini Function Calling][ref_gemini_function]
-- [Reference, Green Hills INTEGRITY][ref_integrity]
-- [Reference, HarfBuzz][ref_harfbuzz]
-- [Reference, HCL Notes][ref_lotus_notes]
-- [Reference, Health Level Seven][ref_hl7]
-- [Reference, HyperCard][ref_hypercard]
-- [Reference, Hypercore Protocol][ref_hypercore]
-- [Reference, Hyperlink Academy][ref_hyperlink_academy]
-- [Reference, Hypermerge Archived Project][ref_hypermerge]
-- [Reference, IBM DOORS Next][ref_doors]
-- [Reference, IEC 62304][ref_iec_62304]
-- [Reference, iManage Work][ref_imanage]
-- [Reference, Inferno Operating System][ref_inferno]
-- [Reference, Ink and Switch Jacquard][ref_ink_switch_jacquard]
-- [Reference, Ink and Switch Patchwork][ref_ink_switch_patchwork]
-- [Reference, InterPlanetary File System][ref_ipfs]
-- [Reference, Iroh Peer to Peer Networking][ref_iroh]
-- [Reference, ISO 26262][ref_iso_26262]
-- [Reference, ITRON][ref_itron]
-- [Reference, JetBrains Meta Programming System][ref_mps]
-- [Reference, Jupyter][ref_jupyter]
-- [Reference, Jupyter AI][ref_jupyter_ai]
-- [Reference, JX Operating System][ref_jx]
-- [Reference, KDE KParts][ref_kparts]
-- [Reference, Lexical Editor Framework][ref_lexical]
-- [Reference, Lifestreams Project at Yale][ref_lifestreams]
-- [Reference, Logseq][ref_logseq]
-- [Reference, Loro CRDT Library][ref_loro]
-- [Reference, Macintosh System Software][ref_mac_os]
-- [Reference, Maggie Appleton Personal Site][ref_maggie_appleton]
-- [Reference, Magic Ink, Bret Victor 2006][ref_magic_ink]
-- [Reference, Microsoft SharePoint][ref_sharepoint]
-- [Reference, Microsoft Windows][ref_windows]
-- [Reference, Model Context Protocol][ref_mcp]
-- [Reference, NeXTSTEP][ref_nextstep]
-- [Reference, NoteCards][ref_notecards]
-- [Reference, Notion][ref_notion]
-- [Reference, NuttX][ref_nuttx]
-- [Reference, Oberon Operating System][ref_oberon]
-- [Reference, Object Linking and Embedding][ref_ole]
-- [Reference, Observable][ref_observable]
-- [Reference, Obsidian][ref_obsidian]
-- [Reference, oN-Line System][ref_nls]
-- [Reference, OpenAI Structured Outputs][ref_openai_structured]
-- [Reference, OpenDoc][ref_opendoc]
-- [Reference, OS/2][ref_os_2]
-- [Reference, Palantir Foundry][ref_palantir_foundry]
-- [Reference, Palantir Gotham][ref_palantir_gotham]
-- [Reference, Plan 9 Foundation][ref_plan_9_foundation]
-- [Reference, Plan 9 from Bell Labs][ref_plan_9]
-- [Reference, Project Oberon][ref_project_oberon]
-- [Reference, ProseMirror][ref_prosemirror]
-- [Reference, pSOS][ref_psos]
-- [Reference, PTC Windchill][ref_windchill]
-- [Reference, QNX][ref_qnx]
-- [Reference, QNX Neutrino][ref_qnx_neutrino]
-- [Reference, QNX Photon microGUI][ref_qnx_photon]
-- [Reference, Redox OS][ref_redox]
-- [Reference, Relativity][ref_relativity]
-- [Reference, Roam Research][ref_roam]
-- [Reference, RTEMS][ref_rtems]
-- [Reference, Self Programming Language][ref_self]
-- [Reference, seL4][ref_sel4]
-- [Reference, Servo Browser Engine][ref_servo]
-- [Reference, Siemens Polarion][ref_polarion]
-- [Reference, Sketchpad][ref_sketchpad]
-- [Reference, Skia Graphics Library][ref_skia]
-- [Reference, Smalltalk][ref_smalltalk]
-- [Reference, Solid Project][ref_solid]
-- [Reference, Standard for the Exchange of Product Model Data][ref_step]
-- [Reference, Super 301][ref_super_301]
-- [Reference, T-Kernel][ref_t_kernel]
-- [Reference, TipTap Editor][ref_tiptap]
-- [Reference, TRON Character Encoding][ref_tron_encoding]
-- [Reference, TRON Forum][ref_tron_forum]
-- [Reference, TRON Project][ref_tron_project]
-- [Reference, Veeva Vault][ref_veeva_vault]
-- [Reference, VRTX][ref_vrtx]
-- [Reference, VxWorks][ref_vxworks]
-- [Reference, WebAssembly Component Model][ref_wasm_component_model]
-- [Reference, WebKit][ref_webkit]
-- [Reference, World Wide Web][ref_www]
-- [Reference, Yjs][ref_yjs]
-- [Reference, Zephyr Project][ref_zephyr]
-- [Reference, μITRON][ref_uitron]
-- [Related Post, Fast-Moving Versus Mission-Critical Engineering][related_post_fast_moving_mission_critical]
-- [Related Post, Mission Command Management Style][related_post_mission_command]
-- [Research, Announcing Amazon FreeRTOS, AWS News Blog][research_amazon_freertos]
-- [Research, Announcing the Model Context Protocol, Anthropic 2024][research_mcp_announcement]
-- [Research, BlackBerry QNX 275 Million Vehicles Press Release][research_qnx_275m]
-- [Research, Derouiche and colleagues, Agentic AI Frameworks, arXiv 2025][research_derouiche_agentic]
-- [Research, Engelbart and English, A Research Center for Augmenting Human Intellect, AFIPS 1968][research_engelbart_1968]
-- [Research, Halasz, Reflections on NoteCards, Communications of the ACM 1988][research_halasz_1988]
-- [Research, HyperAgents Workshop at ECAI 2025][research_hyperagents]
-- [Research, IEEE Milestone, TRON Real-time Operating System Family, 1984][research_ieee_milestone_tron]
-- [Research, Information Management a Proposal, Berners-Lee at CERN 1989][research_berners_lee_1989]
-- [Research, JX Operating System, USENIX 2002][research_jx_usenix]
-- [Research, Klein and colleagues, seL4 Formal Verification of an OS Kernel, SOSP 2009][research_sel4_sosp]
-- [Research, Kleppmann and colleagues, Local-First Software, Onward 2019][research_kleppmann_local_first]
-- [Research, Lewis and colleagues, Retrieval-Augmented Generation, NeurIPS 2020][research_rag_lewis]
-- [Research, Lifestreams, an Alternative to the Desktop Metaphor, CHI 1996][research_lifestreams_chi96]
-- [Research, Lifestreams, a Storage Model for Personal Data, SIGMOD 1996][research_lifestreams_sigmod]
-- [Research, Local-First Software, Ink and Switch][research_local_first]
-- [Research, Maloney, The Self User Interface Framework][research_morphic]
-- [Research, Mars Pathfinder Priority Inversion Engineering Note][research_mars_pathfinder]
-- [Research, Matuschak and Nielsen, How can we develop transformative tools for thought?][research_matuschak_nielsen_ttft]
-- [Research, NIST AI Risk Management Framework Generative AI Profile, 2024][research_nist_ai_rmf]
-- [Research, Personal Dynamic Media, Kay and Goldberg 1977][research_personal_dynamic_media]
-- [Research, PROV-AGENT Unified Provenance for AI Agent Interactions, IEEE eScience 2025][research_prov_agent]
-- [Research, Sketchpad Thesis, Sutherland 1963][research_sketchpad]
-- [Research, USTR Super 301 Statement of 25 May 1989][research_ustr_1989]
-- [Research, Wang and colleagues, A Survey on Large Language Model based Autonomous Agents, 2023][research_wang_agents]
+<!-- References generated by _lib/sources.py from _sources/. Edit the database and regenerate. Do not edit this section by hand. -->
+
+### Primary Sources, Non-Peer-Reviewed
+
+- Announcing Amazon FreeRTOS. n.d. *AWS News Blog*. [https://aws.amazon.com/blogs/aws/announcing-amazon-freertos/][research_amazon_freertos]
+- *Announcing the Model Context Protocol, Anthropic*. 2024. [https://www.anthropic.com/news/model-context-protocol][research_mcp_announcement]
+- "Automerge Conflict-Free Replicated Data Type Library." n.d. automerge.org. Accessed October 25, 2026. [https://automerge.org/][ref_automerge]
+- *BlackBerry QNX 275 Million Vehicles Press Release*. n.d. [https://www.automotiveworld.com/news-releases/blackberry-qnx-embedded-technology-powers-255-million-vehicles-on-the-road-today/][research_qnx_275m]
+- *C2PA Coalition for Content Provenance and Authenticity*. n.d. [https://c2pa.org/][ref_c2pa]
+- "Cap'n Proto: Introduction." n.d. Cap'n Proto. Accessed October 24, 2026. [https://capnproto.org/][ref_capn_proto]
+- "Chromium Embedded Framework." n.d. github.com. Accessed October 25, 2026. [https://github.com/chromiumembedded/cef][ref_cef]
+- Derouiche, Hana, Zaki Brahmi, and Haithem Mazeni. 2025. "Agentic AI Frameworks: Architectures, Protocols, and Design Challenges." Preprint, arXiv. [https://doi.org/10.48550/arxiv.2508.10146][research_derouiche_agentic]
+- Engelbart, Douglas C., and William K. English. 1968. "A Research Center for Augmenting Human Intellect." In *Proceedings of the December 9-11, 1968, fall joint computer conference, part I on - AFIPS '68 (Fall, part I)*. ACM Press. [https://doi.org/10.1145/1476589.1476645][research_engelbart_1968]
+- "Genode Operating System Framework." n.d. genode.org. Accessed October 25, 2026. [https://genode.org/][ref_genode]
+- Halasz, Frank,G. 1988. "Reflections on NoteCards: Seven Issues for the Next Generation of Hypermedia Systems." *Communications of the ACM* 31 (7): 836–52. [https://doi.org/10.1145/48511.48514][research_halasz_1988]
+- *HyperAgents Workshop at ECAI*. 2025. [https://ecai2025.hyperagents.org/][research_hyperagents]
+- "Hypercore Protocol." n.d. github.com. Accessed October 25, 2026. [https://github.com/holepunchto/hypercore][ref_hypercore]
+- "Hypermerge Archived Project." n.d. github.com. Accessed October 25, 2026. [https://github.com/automerge/hypermerge][ref_hypermerge]
+- *IEEE Milestone, TRON Real-time Operating System Family,*. 1984. [https://ethw.org/Milestones:TRON\_Real-time\_Operating\_System\_Family,\_1984][research_ieee_milestone_tron]
+- *Information Management a Proposal, Berners-Lee at CERN*. 1989. [https://www.w3.org/History/1989/proposal.html][research_berners_lee_1989]
+- "Jupyter AI." n.d. github.com. Accessed October 25, 2026. [https://github.com/jupyterlab/jupyter-ai][ref_jupyter_ai]
+- *JX Operating System, USENIX*. 2002. [https://www.usenix.org/legacy/publications/library/proceedings/usenix02/full\_papers/golm/golm.pdf][research_jx_usenix]
+- Klein, Gerwin, Kevin Elphinstone, Gernot Heiser, et al. 2009. "seL4: Formal Verification of an OS Kernel." In *Proceedings of the ACM SIGOPS 22nd symposium on Operating systems principles*. ACM. [https://doi.org/10.1145/1629575.1629596][research_sel4_sosp]
+- *Kleppmann and colleagues, Local-First Software, Onward*. 2019. [https://www.inkandswitch.com/essay/local-first/][research_kleppmann_local_first]
+- Lewis, Patrick, Ethan Perez, Aleksandra Piktus, et al. 2020. "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks." Preprint, arXiv. [https://doi.org/10.48550/arxiv.2005.11401][research_rag_lewis]
+- Lifestreams. 1996. *a Storage Model for Personal Data, SIGMOD*. [https://scholar.google.com/scholar?q=a+Storage+Model+for+Personal+Data%2C+SIGMOD+Lifestreams+1996][research_lifestreams_sigmod]
+- *Lifestreams, an Alternative to the Desktop Metaphor, CHI*. 1996. [https://www.cs.yale.edu/homes/freeman/ericchi96.html][research_lifestreams_chi96]
+- Local-First Software. n.d. *Ink and Switch*. [https://www.inkandswitch.com/local-first/][research_local_first]
+- "Loro CRDT Library." n.d. github.com. Accessed October 25, 2026. [https://github.com/loro-dev/loro][ref_loro]
+- Maloney. n.d. *The Self User Interface Framework*. [https://ftp.squeak.org/docs/Self-4.0-UI-Framework.pdf][research_morphic]
+- *Mars Pathfinder Priority Inversion Engineering Note*. n.d. [https://www.cs.unc.edu/~anderson/teach/comp790/papers/mars\_pathfinder\_short\_version.html][research_mars_pathfinder]
+- Matuschak and Nielsen. n.d. *How can we develop transformative tools for thought?*. [https://numinous.productions/ttft/][research_matuschak_nielsen_ttft]
+- "Model Context Protocol." n.d. modelcontextprotocol.io. Accessed October 25, 2026. [https://modelcontextprotocol.io/][ref_mcp]
+- *Personal Dynamic Media, Kay and Goldberg*. 1977. [https://www.newmediareader.com/book\_samples/nmr-26-kay.pdf][research_personal_dynamic_media]
+- "PROV-AGENT Unified Provenance for AI Agent Interactions, IEEE eScience." 2025. Preprint, . [https://arxiv.org/abs/2508.02866][research_prov_agent]
+- "seL4 Microkernel." n.d. sel4.systems. Accessed October 25, 2026. [https://sel4.systems/][ref_sel4]
+- "Servo Browser Engine." n.d. servo.org. Accessed October 25, 2026. [https://servo.org/][ref_servo]
+- *Sketchpad Thesis, Sutherland*. 1963. [https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-574.pdf][research_sketchpad]
+- *USTR Super 301 Statement of 25 May*. 1989. [https://worldjpn.net/documents/texts/JPUS/19890525.S1E.html][research_ustr_1989]
+- Wang, Lei, Chen Ma, Xueyang Feng, et al. 2023. "A Survey on Large Language Model Based Autonomous Agents." Preprint, arXiv. [https://doi.org/10.48550/arxiv.2308.11432][research_wang_agents]
+- "WebAssembly Component Model." n.d. component-model.bytecodealliance.org. Accessed October 25, 2026. [https://component-model.bytecodealliance.org/][ref_wasm_component_model]
+
+### Secondary Sources
+
+- Gelernter, David. 1991. *Mirror Worlds: How It Will Happen and What It Will Mean*. Oxford University Press. [https://global.oup.com/academic/product/mirror-worlds-9780195079067][book_mirror_worlds]
+- *Tools for Thought, Rheingold*. 1985. [https://rheingold.com/texts/tft/][book_tools_for_thought]
+
+### Commercial Sources
+
+- "IBM DOORS Next." n.d. Accessed October 25, 2026. [https://www.ibm.com/products/requirements-management-doors-next][ref_doors]
+- "JetBrains Meta Programming System." n.d. Accessed October 25, 2026. [https://www.jetbrains.com/mps/][ref_mps]
+- "Palantir Foundry." n.d. Accessed October 25, 2026. [https://www.palantir.com/platforms/foundry/][ref_palantir_foundry]
+- "Palantir Gotham." n.d. Accessed October 25, 2026. [https://www.palantir.com/platforms/gotham/][ref_palantir_gotham]
+
+### General Sources
+
+- "Andy Matuschak Personal Site." n.d. Accessed October 25, 2026. [https://andymatuschak.org/][ref_andy_matuschak]
+- Appleton. n.d. "A Brief History of the Digital Garden." Accessed October 25, 2026. [https://maggieappleton.com/garden-history][ref_appleton_garden_history]
+- Bush, Vannevar. 1945. "As We May Think." *The Atlantic*, July 1. [https://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/][book_as_we_may_think]
+- "Cairo Graphics 2D Library." n.d. Accessed October 25, 2026. [https://www.cairographics.org/][ref_cairo_graphics]
+- "Capsicum." n.d. Accessed October 25, 2026. [https://papers.freebsd.org/2010/rwatson-capsicum/][ref_capsicum]
+- "Cho Kanji." n.d. Accessed October 25, 2026. [https://www.chokanji.com/en/][ref_cho_kanji]
+- "CodeMirror." n.d. Accessed October 25, 2026. [https://codemirror.net/][ref_codemirror]
+- "Content Credentials." n.d. Accessed October 25, 2026. [https://contentcredentials.org/][ref_content_credentials]
+- "Dassault ENOVIA." n.d. Accessed October 25, 2026. [https://www.3ds.com/products/enovia][ref_enovia]
+- "European Union Artificial Intelligence Act Article 50." n.d. Accessed October 25, 2026. [https://artificialintelligenceact.eu/article/50/][ref_eu_ai_act_50]
+- "Evergreen Notes." n.d. Accessed October 25, 2026. [https://notes.andymatuschak.org/Evergreen\_notes][ref_evergreen_notes]
+- "FreeRTOS." n.d. Accessed October 25, 2026. [https://www.freertos.org/][ref_freertos]
+- "FreeType." n.d. Accessed October 25, 2026. [https://freetype.org/][ref_freetype]
+- "Future of Coding." n.d. Accessed October 25, 2026. [https://futureofcoding.org/][ref_future_of_coding]
+- "Google Gemini Function Calling." n.d. Accessed October 25, 2026. [https://ai.google.dev/gemini-api/docs/function-calling][ref_gemini_function]
+- "HarfBuzz." n.d. Accessed October 25, 2026. [https://harfbuzz.github.io/][ref_harfbuzz]
+- "Hyperlink Academy." n.d. Accessed October 25, 2026. [https://hyperlink.academy/][ref_hyperlink_academy]
+- "iManage Work." n.d. Accessed October 25, 2026. [https://imanage.com/product/imanage-work/][ref_imanage]
+- "Ink and Switch Jacquard." n.d. Accessed October 25, 2026. [https://www.inkandswitch.com/jacquard/notebook/01/][ref_ink_switch_jacquard]
+- "Ink and Switch Patchwork." n.d. Accessed October 25, 2026. [https://www.inkandswitch.com/patchwork/][ref_ink_switch_patchwork]
+- "InterPlanetary File System." n.d. Accessed October 25, 2026. [https://ipfs.tech/][ref_ipfs]
+- "Iroh." n.d. Accessed October 25, 2026. [https://www.iroh.computer/][ref_iroh]
+- "Jupyter." n.d. Accessed October 25, 2026. [https://jupyter.org/][ref_jupyter]
+- "Lexical Editor Framework." n.d. Accessed October 25, 2026. [https://lexical.dev/][ref_lexical]
+- "Lifestreams Project at Yale." n.d. Accessed October 25, 2026. [https://www.cs.yale.edu/homes/freeman/lifestreams.html][ref_lifestreams]
+- "Logseq." n.d. Accessed October 25, 2026. [https://logseq.com/][ref_logseq]
+- "Maggie Appleton Personal Site." n.d. Accessed October 25, 2026. [https://maggieappleton.com/][ref_maggie_appleton]
+- "Magic Ink, Bret Victor." 2006. [https://worrydream.com/MagicInk/][ref_magic_ink]
+- NIST, AI, Risk, et al. 2024. "\[Title not identified\]." Accessed October 25, 2026. [https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-generative-artificial-intelligence][research_nist_ai_rmf]
+- "Notion." n.d. Accessed October 25, 2026. [https://www.notion.com/][ref_notion]
+- "NuttX." n.d. Accessed October 25, 2026. [https://nuttx.apache.org/][ref_nuttx]
+- "Observable." n.d. Accessed October 25, 2026. [https://observablehq.com/][ref_observable]
+- "Obsidian." n.d. Accessed October 25, 2026. [https://obsidian.md/][ref_obsidian]
+- "OpenAI Structured Outputs." n.d. Accessed October 25, 2026. [https://platform.openai.com/docs/guides/structured-outputs][ref_openai_structured]
+- "Project Oberon." n.d. Accessed October 25, 2026. [https://www.projectoberon.net/][ref_project_oberon]
+- "ProseMirror." n.d. Accessed October 25, 2026. [https://prosemirror.net/][ref_prosemirror]
+- "PTC Windchill." n.d. Accessed October 25, 2026. [https://www.ptc.com/en/products/windchill][ref_windchill]
+- "QNX Neutrino." n.d. Accessed October 25, 2026. [https://qnx.software/][ref_qnx_neutrino]
+- "Redox OS." n.d. Accessed October 25, 2026. [https://www.redox-os.org/][ref_redox]
+- "Relativity Electronic Discovery Platform." n.d. Accessed October 25, 2026. [https://www.relativity.com/data-solutions/ediscovery/][ref_relativity]
+- "Roam Research." n.d. Accessed October 25, 2026. [https://roamresearch.com/][ref_roam]
+- "RTEMS." n.d. Accessed October 25, 2026. [https://www.rtems.org/][ref_rtems]
+- "Self Programming Language." n.d. Accessed October 25, 2026. [https://selflanguage.org/][ref_self]
+- "Siemens Polarion." n.d. Accessed October 25, 2026. [https://www.siemens.com/en-us/products/polarion/][ref_polarion]
+- "Skia Graphics Library." n.d. Accessed October 25, 2026. [https://skia.org/][ref_skia]
+- "Solid Project." n.d. Accessed October 25, 2026. [https://solidproject.org/][ref_solid]
+- "TipTap Editor." n.d. Accessed October 25, 2026. [https://tiptap.dev/][ref_tiptap]
+- "Tool Use with Claude." n.d. *Claude API Docs*. Accessed October 25, 2026. [https://docs.anthropic.com/en/docs/agents-and-tools/tool-use/overview][ref_anthropic_tool_use]
+- "TRON Forum." n.d. Accessed October 25, 2026. [https://www.tron.org/][ref_tron_forum]
+- "Veeva Vault." n.d. Accessed October 25, 2026. [https://www.veeva.com/products/vault-platform/][ref_veeva_vault]
+- "WebKit." n.d. Accessed October 25, 2026. [https://webkit.org/][ref_webkit]
+- "Yjs CRDT Library." n.d. Accessed October 25, 2026. [https://yjs.dev/][ref_yjs]
+- "Zephyr Project." n.d. Accessed October 25, 2026. [https://www.zephyrproject.org/][ref_zephyr]
+
+### Tertiary Sources
+
+- "9P (Protocol)." 2026. Wikipedia. Last modified May 26, at 02:15 (UTC). [https://en.wikipedia.org/w/index.php?title=9P\_(protocol)&oldid=1356162599][ref_9p_protocol]
+- "ActivityPub." 2026. Wikipedia. Last modified May 22, at 11:39 (UTC). [https://en.wikipedia.org/w/index.php?title=ActivityPub&oldid=1355532813][ref_activitypub]
+- "ARP4754." 2024. Wikipedia. Last modified December 26, at 23:12 (UTC). [https://en.wikipedia.org/w/index.php?title=ARP4754&oldid=1265439117][ref_arp4754a]
+- "Beaker (Web Browser)." 2026. Wikipedia. Last modified March 22, at 15:21 (UTC). [https://en.wikipedia.org/w/index.php?title=Beaker\_(web\_browser)&oldid=1344788320][ref_beaker]
+- "BeOS." 2026. Wikipedia. Last modified April 18, at 18:06 (UTC). [https://en.wikipedia.org/w/index.php?title=BeOS&oldid=1349736061][ref_beos]
+- "Bonobo (GNOME)." 2024. Wikipedia. Last modified November 19, at 00:26 (UTC). [https://en.wikipedia.org/w/index.php?title=Bonobo\_(GNOME)&oldid=1258276154][ref_bonobo]
+- "BTRON." 2026. Wikipedia. Last modified March 28, at 15:32 (UTC). [https://en.wikipedia.org/w/index.php?title=BTRON&oldid=1345852711][ref_btron]
+- "Cairo (Operating System)." 2026. Wikipedia. Last modified May 14, at 20:24 (UTC). [https://en.wikipedia.org/w/index.php?title=Cairo\_(operating\_system)&oldid=1354179514][ref_cairo]
+- "Classic Mac OS." 2026. Wikipedia. Last modified May 12, at 14:35 (UTC). [https://en.wikipedia.org/w/index.php?title=Classic\_Mac\_OS&oldid=1353813337][ref_mac_os]
+- "Coda (Document Editor)." 2026. Wikipedia. Last modified May 19, at 12:52 (UTC). [https://en.wikipedia.org/w/index.php?title=Coda\_(document\_editor)&oldid=1355012580][ref_coda]
+- "Component Object Model." 2026. Wikipedia. Last modified May 21, at 22:52 (UTC). [https://en.wikipedia.org/w/index.php?title=Component\_Object\_Model&oldid=1355449167][ref_com]
+- "Content-Addressable Storage." 2026. Wikipedia. Last modified May 3, at 22:31 (UTC). [https://en.wikipedia.org/w/index.php?title=Content-addressable\_storage&oldid=1352387696][ref_content_addressable_storage]
+- "DO-178C." 2026. Wikipedia. Last modified May 19, at 16:52 (UTC). [https://en.wikipedia.org/w/index.php?title=DO-178C&oldid=1355045529][ref_do_178c]
+- "Dynabook." 2026. Wikipedia. Last modified April 3, at 21:01 (UTC). [https://en.wikipedia.org/w/index.php?title=Dynabook&oldid=1346953920][ref_dynabook]
+- "HCL Notes." 2026. Wikipedia. Last modified April 27, at 07:25 (UTC). [https://en.wikipedia.org/w/index.php?title=HCL\_Notes&oldid=1351322234][ref_lotus_notes]
+- "HL7." 2026. Wikipedia. Last modified May 20, at 12:19 (UTC). [https://en.wikipedia.org/w/index.php?title=HL7&oldid=1355193739][ref_hl7]
+- "HyperCard." 2026. Wikipedia. Last modified May 11, at 12:04 (UTC). [https://en.wikipedia.org/w/index.php?title=HyperCard&oldid=1353627437][ref_hypercard]
+- "IEC 62304." 2025. Wikipedia. Last modified July 2, at 14:05 (UTC). [https://en.wikipedia.org/w/index.php?title=IEC\_62304&oldid=1298438337][ref_iec_62304]
+- "Inferno (Operating System)." 2026. Wikipedia. Last modified February 4, at 00:11 (UTC). [https://en.wikipedia.org/w/index.php?title=Inferno\_(operating\_system)&oldid=1336470934][ref_inferno]
+- "Integrity (Operating System)." 2025. Wikipedia. Last modified January 25, at 22:17 (UTC). [https://en.wikipedia.org/w/index.php?title=Integrity\_(operating\_system)&oldid=1271822721][ref_integrity]
+- "ISO 10303." 2026. Wikipedia. Last modified February 27, at 22:14 (UTC). [https://en.wikipedia.org/w/index.php?title=ISO\_10303&oldid=1340819733][ref_step]
+- "ISO 26262." 2025. Wikipedia. Last modified November 4, at 18:24 (UTC). [https://en.wikipedia.org/w/index.php?title=ISO\_26262&oldid=1320441519][ref_iso_26262]
+- "ITRON Project." 2026. Wikipedia. Last modified March 31, at 01:43 (UTC). [https://en.wikipedia.org/w/index.php?title=ITRON\_project&oldid=1346289869][ref_itron]
+- "JX (Operating System)." 2025. Wikipedia. Last modified June 23, at 14:08 (UTC). [https://en.wikipedia.org/w/index.php?title=JX\_(operating\_system)&oldid=1296986372][ref_jx]
+- "KDE Frameworks." 2026. Wikipedia. Last modified January 17, at 22:29 (UTC). [https://en.wikipedia.org/w/index.php?title=KDE\_Frameworks&oldid=1333458617][ref_kparts]
+- "Literary Machines." 2026. Wikipedia. Last modified March 27, at 01:34 (UTC). [https://en.wikipedia.org/w/index.php?title=Literary\_Machines&oldid=1345606847][book_literary_machines]
+- "Microsoft Windows." 2026. Wikipedia. Last modified May 29, at 15:52 (UTC). [https://en.wikipedia.org/w/index.php?title=Microsoft\_Windows&oldid=1356745803][ref_windows]
+- "NeXTSTEP." 2026. Wikipedia. Last modified May 12, at 19:39 (UTC). [https://en.wikipedia.org/w/index.php?title=NeXTSTEP&oldid=1353851857][ref_nextstep]
+- "NLS (Computer System)." 2026. Wikipedia. Last modified April 30, at 06:48 (UTC). [https://en.wikipedia.org/w/index.php?title=NLS\_(computer\_system)&oldid=1351808132][ref_nls]
+- "NoteCards." 2024. Wikipedia. Last modified June 8, at 15:57 (UTC). [https://en.wikipedia.org/w/index.php?title=NoteCards&oldid=1227935443][ref_notecards]
+- "Oberon (Operating System)." 2026. Wikipedia. Last modified March 25, at 13:37 (UTC). [https://en.wikipedia.org/w/index.php?title=Oberon\_(operating\_system)&oldid=1345316201][ref_oberon]
+- "Object Linking and Embedding." 2025. Wikipedia. Last modified May 10, at 02:43 (UTC). [https://en.wikipedia.org/w/index.php?title=Object\_Linking\_and\_Embedding&oldid=1289669519][ref_ole]
+- "OpenDoc." 2026. Wikipedia. Last modified April 15, at 18:22 (UTC). [https://en.wikipedia.org/w/index.php?title=OpenDoc&oldid=1349088970][ref_opendoc]
+- "OS/2." 2026. Wikipedia. Last modified May 27, at 14:31 (UTC). [https://en.wikipedia.org/w/index.php?title=OS%2F2&oldid=1356397862][ref_os_2]
+- "Plan 9 from Bell Labs." 2026. Wikipedia. Last modified May 1, at 07:57 (UTC). [https://en.wikipedia.org/w/index.php?title=Plan\_9\_from\_Bell\_Labs&oldid=1351978700][ref_plan_9]
+- "PSOS (Real-Time Operating System)." 2026. Wikipedia. Last modified May 10, at 19:57 (UTC). [https://en.wikipedia.org/w/index.php?title=PSOS\_(real-time\_operating\_system)&oldid=1353526583][ref_psos]
+- "QNX." 2026. Wikipedia. Last modified April 19, at 07:48 (UTC). [https://en.wikipedia.org/w/index.php?title=QNX&oldid=1349872985][ref_qnx]
+- "Section 301 of the Trade Act of 1974." 2026. Wikipedia. Last modified May 20, at 12:41 (UTC). [https://en.wikipedia.org/w/index.php?title=Section\_301\_of\_the\_Trade\_Act\_of\_1974&oldid=1355196119][ref_super_301]
+- "SharePoint." 2026. Wikipedia. Last modified May 14, at 16:42 (UTC). [https://en.wikipedia.org/w/index.php?title=SharePoint&oldid=1354149352][ref_sharepoint]
+- "Sketchpad." 2026. Wikipedia. Last modified April 6, at 07:56 (UTC). [https://en.wikipedia.org/w/index.php?title=Sketchpad&oldid=1347367409][ref_sketchpad]
+- "Smalltalk." 2026. Wikipedia. Last modified May 21, at 01:39 (UTC). [https://en.wikipedia.org/w/index.php?title=Smalltalk&oldid=1355296343][ref_smalltalk]
+- "T-Kernel." 2026. Wikipedia. Last modified April 23, at 09:33 (UTC). [https://en.wikipedia.org/w/index.php?title=T-Kernel&oldid=1350679873][ref_t_kernel]
+- "TRON (Encoding)." 2026. Wikipedia. Last modified March 17, at 19:32 (UTC). [https://en.wikipedia.org/w/index.php?title=TRON\_(encoding)&oldid=1344013160][ref_tron_encoding]
+- "TRON Project." 2025. Wikipedia. Last modified July 18, at 21:45 (UTC). [https://en.wikipedia.org/w/index.php?title=TRON\_project&oldid=1301248614][ref_tron_project]
+- "Versatile Real-Time Executive." 2025. Wikipedia. Last modified August 27, at 16:32 (UTC). [https://en.wikipedia.org/w/index.php?title=Versatile\_Real-Time\_Executive&oldid=1308123892][ref_vrtx]
+- "VxWorks." 2026. Wikipedia. Last modified May 14, at 16:05 (UTC). [https://en.wikipedia.org/w/index.php?title=VxWorks&oldid=1354144630][ref_vxworks]
+- "World Wide Web." 2026. Wikipedia. Last modified May 27, at 13:31 (UTC). [https://en.wikipedia.org/w/index.php?title=World\_Wide\_Web&oldid=1356389875][ref_www]
+- "XBRL." 2026. Wikipedia. Last modified May 19, at 17:37 (UTC). [https://en.wikipedia.org/w/index.php?title=XBRL&oldid=1355051617][ref_xbrl]
+
+### Related Posts
+
+- Sechter, Brendan. 2026. "Mission Command Management Style." *Brendan A R Sechter's Development Blog*, February 17. [https://sgeos.github.io/management/philosophy/2026/02/17/mission\_command\_management\_style.html][related_post_mission_command]
+- Sechter, Brendan. 2026. "Fast-Moving Versus Mission-Critical Engineering." *Brendan A R Sechter's Development Blog*, February 24. [https://sgeos.github.io/management/philosophy/2026/02/24/fast\_moving\_versus\_mission\_critical\_engineering.html][related_post_fast_moving_mission_critical]
 
 [book_as_we_may_think]: https://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/
-[book_literary_machines]: https://en.wikipedia.org/wiki/Literary_Machines
+[book_literary_machines]: https://en.wikipedia.org/w/index.php?title=Literary_Machines&oldid=1345606847
 [book_mirror_worlds]: https://global.oup.com/academic/product/mirror-worlds-9780195079067
 [book_tools_for_thought]: https://rheingold.com/texts/tft/
-[ref_9p_protocol]: https://en.wikipedia.org/wiki/9P_(protocol)
-[ref_activitypub]: https://en.wikipedia.org/wiki/ActivityPub
+[ref_9p_protocol]: https://en.wikipedia.org/w/index.php?title=9P_(protocol)&oldid=1356162599
+[ref_activitypub]: https://en.wikipedia.org/w/index.php?title=ActivityPub&oldid=1355532813
 [ref_andy_matuschak]: https://andymatuschak.org/
 [ref_anthropic_tool_use]: https://docs.anthropic.com/en/docs/agents-and-tools/tool-use/overview
 [ref_appleton_garden_history]: https://maggieappleton.com/garden-history
-[ref_arp4754a]: https://en.wikipedia.org/wiki/ARP4754
+[ref_arp4754a]: https://en.wikipedia.org/w/index.php?title=ARP4754&oldid=1265439117
 [ref_automerge]: https://automerge.org/
-[ref_beaker]: https://en.wikipedia.org/wiki/Beaker_(web_browser)
-[ref_beos]: https://en.wikipedia.org/wiki/BeOS
-[ref_bonobo]: https://en.wikipedia.org/wiki/Bonobo_(component_model)
-[ref_btron]: https://en.wikipedia.org/wiki/BTRON
+[ref_beaker]: https://en.wikipedia.org/w/index.php?title=Beaker_(web_browser)&oldid=1344788320
+[ref_beos]: https://en.wikipedia.org/w/index.php?title=BeOS&oldid=1349736061
+[ref_bonobo]: https://en.wikipedia.org/w/index.php?title=Bonobo_(GNOME)&oldid=1258276154
+[ref_btron]: https://en.wikipedia.org/w/index.php?title=BTRON&oldid=1345852711
 [ref_c2pa]: https://c2pa.org/
-[ref_cairo]: https://en.wikipedia.org/wiki/Cairo_(operating_system)
+[ref_cairo]: https://en.wikipedia.org/w/index.php?title=Cairo_(operating_system)&oldid=1354179514
 [ref_cairo_graphics]: https://www.cairographics.org/
 [ref_capn_proto]: https://capnproto.org/
 [ref_capsicum]: https://papers.freebsd.org/2010/rwatson-capsicum/
 [ref_cef]: https://github.com/chromiumembedded/cef
 [ref_cho_kanji]: https://www.chokanji.com/en/
-[ref_coda]: https://en.wikipedia.org/wiki/Coda_(document_editor)
+[ref_coda]: https://en.wikipedia.org/w/index.php?title=Coda_(document_editor)&oldid=1355012580
 [ref_codemirror]: https://codemirror.net/
-[ref_com]: https://en.wikipedia.org/wiki/Component_Object_Model
-[ref_content_addressable_storage]: https://en.wikipedia.org/wiki/Content-addressable_storage
+[ref_com]: https://en.wikipedia.org/w/index.php?title=Component_Object_Model&oldid=1355449167
+[ref_content_addressable_storage]: https://en.wikipedia.org/w/index.php?title=Content-addressable_storage&oldid=1352387696
 [ref_content_credentials]: https://contentcredentials.org/
-[ref_do_178c]: https://en.wikipedia.org/wiki/DO-178C
+[ref_do_178c]: https://en.wikipedia.org/w/index.php?title=DO-178C&oldid=1355045529
 [ref_doors]: https://www.ibm.com/products/requirements-management-doors-next
-[ref_dynabook]: https://en.wikipedia.org/wiki/Dynabook
+[ref_dynabook]: https://en.wikipedia.org/w/index.php?title=Dynabook&oldid=1346953920
 [ref_enovia]: https://www.3ds.com/products/enovia
 [ref_eu_ai_act_50]: https://artificialintelligenceact.eu/article/50/
 [ref_evergreen_notes]: https://notes.andymatuschak.org/Evergreen_notes
@@ -4053,58 +4069,58 @@ for that type.
 [ref_gemini_function]: https://ai.google.dev/gemini-api/docs/function-calling
 [ref_genode]: https://genode.org/
 [ref_harfbuzz]: https://harfbuzz.github.io/
-[ref_hl7]: https://en.wikipedia.org/wiki/Health_Level_7
-[ref_hypercard]: https://en.wikipedia.org/wiki/HyperCard
+[ref_hl7]: https://en.wikipedia.org/w/index.php?title=HL7&oldid=1355193739
+[ref_hypercard]: https://en.wikipedia.org/w/index.php?title=HyperCard&oldid=1353627437
 [ref_hypercore]: https://github.com/holepunchto/hypercore
 [ref_hyperlink_academy]: https://hyperlink.academy/
 [ref_hypermerge]: https://github.com/automerge/hypermerge
-[ref_iec_62304]: https://en.wikipedia.org/wiki/IEC_62304
+[ref_iec_62304]: https://en.wikipedia.org/w/index.php?title=IEC_62304&oldid=1298438337
 [ref_imanage]: https://imanage.com/product/imanage-work/
-[ref_inferno]: https://en.wikipedia.org/wiki/Inferno_(operating_system)
+[ref_inferno]: https://en.wikipedia.org/w/index.php?title=Inferno_(operating_system)&oldid=1336470934
 [ref_ink_switch_jacquard]: https://www.inkandswitch.com/jacquard/notebook/01/
 [ref_ink_switch_patchwork]: https://www.inkandswitch.com/patchwork/
-[ref_integrity]: https://en.wikipedia.org/wiki/Integrity_(operating_system)
+[ref_integrity]: https://en.wikipedia.org/w/index.php?title=Integrity_(operating_system)&oldid=1271822721
 [ref_ipfs]: https://ipfs.tech/
 [ref_iroh]: https://www.iroh.computer/
-[ref_iso_26262]: https://en.wikipedia.org/wiki/ISO_26262
-[ref_itron]: https://en.wikipedia.org/wiki/ITRON_project
+[ref_iso_26262]: https://en.wikipedia.org/w/index.php?title=ISO_26262&oldid=1320441519
+[ref_itron]: https://en.wikipedia.org/w/index.php?title=ITRON_project&oldid=1346289869
 [ref_jupyter]: https://jupyter.org/
 [ref_jupyter_ai]: https://github.com/jupyterlab/jupyter-ai
-[ref_jx]: https://en.wikipedia.org/wiki/JX_(operating_system)
-[ref_kparts]: https://en.wikipedia.org/wiki/KParts
+[ref_jx]: https://en.wikipedia.org/w/index.php?title=JX_(operating_system)&oldid=1296986372
+[ref_kparts]: https://en.wikipedia.org/w/index.php?title=KDE_Frameworks&oldid=1333458617
 [ref_lexical]: https://lexical.dev/
 [ref_lifestreams]: https://www.cs.yale.edu/homes/freeman/lifestreams.html
 [ref_logseq]: https://logseq.com/
 [ref_loro]: https://github.com/loro-dev/loro
-[ref_lotus_notes]: https://en.wikipedia.org/wiki/HCL_Notes
-[ref_mac_os]: https://en.wikipedia.org/wiki/Classic_Mac_OS
+[ref_lotus_notes]: https://en.wikipedia.org/w/index.php?title=HCL_Notes&oldid=1351322234
+[ref_mac_os]: https://en.wikipedia.org/w/index.php?title=Classic_Mac_OS&oldid=1353813337
 [ref_maggie_appleton]: https://maggieappleton.com/
 [ref_magic_ink]: https://worrydream.com/MagicInk/
 [ref_mcp]: https://modelcontextprotocol.io/
 [ref_mps]: https://www.jetbrains.com/mps/
-[ref_nextstep]: https://en.wikipedia.org/wiki/NeXTSTEP
-[ref_nls]: https://en.wikipedia.org/wiki/NLS_(computer_system)
-[ref_notecards]: https://en.wikipedia.org/wiki/NoteCards
+[ref_nextstep]: https://en.wikipedia.org/w/index.php?title=NeXTSTEP&oldid=1353851857
+[ref_nls]: https://en.wikipedia.org/w/index.php?title=NLS_(computer_system)&oldid=1351808132
+[ref_notecards]: https://en.wikipedia.org/w/index.php?title=NoteCards&oldid=1227935443
 [ref_notion]: https://www.notion.com/
 [ref_nuttx]: https://nuttx.apache.org/
-[ref_oberon]: https://en.wikipedia.org/wiki/Oberon_(operating_system)
+[ref_oberon]: https://en.wikipedia.org/w/index.php?title=Oberon_(operating_system)&oldid=1345316201
 [ref_observable]: https://observablehq.com/
 [ref_obsidian]: https://obsidian.md/
-[ref_ole]: https://en.wikipedia.org/wiki/Object_Linking_and_Embedding
+[ref_ole]: https://en.wikipedia.org/w/index.php?title=Object_Linking_and_Embedding&oldid=1289669519
 [ref_openai_structured]: https://platform.openai.com/docs/guides/structured-outputs
-[ref_opendoc]: https://en.wikipedia.org/wiki/OpenDoc
-[ref_os_2]: https://en.wikipedia.org/wiki/OS/2
+[ref_opendoc]: https://en.wikipedia.org/w/index.php?title=OpenDoc&oldid=1349088970
+[ref_os_2]: https://en.wikipedia.org/w/index.php?title=OS%2F2&oldid=1356397862
 [ref_palantir_foundry]: https://www.palantir.com/platforms/foundry/
 [ref_palantir_gotham]: https://www.palantir.com/platforms/gotham/
-[ref_plan_9]: https://en.wikipedia.org/wiki/Plan_9_from_Bell_Labs
-[ref_plan_9_foundation]: https://en.wikipedia.org/wiki/Plan_9_Foundation
+[ref_plan_9]: https://en.wikipedia.org/w/index.php?title=Plan_9_from_Bell_Labs&oldid=1351978700
+[ref_plan_9_foundation]: https://en.wikipedia.org/w/index.php?title=Plan_9_from_Bell_Labs&oldid=1351978700
 [ref_polarion]: https://www.siemens.com/en-us/products/polarion/
 [ref_project_oberon]: https://www.projectoberon.net/
 [ref_prosemirror]: https://prosemirror.net/
-[ref_psos]: https://en.wikipedia.org/wiki/PSOS_(real-time_operating_system)
-[ref_qnx]: https://en.wikipedia.org/wiki/QNX
+[ref_psos]: https://en.wikipedia.org/w/index.php?title=PSOS_(real-time_operating_system)&oldid=1353526583
+[ref_qnx]: https://en.wikipedia.org/w/index.php?title=QNX&oldid=1349872985
 [ref_qnx_neutrino]: https://qnx.software/
-[ref_qnx_photon]: https://en.wikipedia.org/wiki/QNX_Photon
+[ref_qnx_photon]: https://en.wikipedia.org/w/index.php?title=QNX&oldid=1349872985
 [ref_redox]: https://www.redox-os.org/
 [ref_relativity]: https://www.relativity.com/data-solutions/ediscovery/
 [ref_roam]: https://roamresearch.com/
@@ -4112,43 +4128,43 @@ for that type.
 [ref_sel4]: https://sel4.systems/
 [ref_self]: https://selflanguage.org/
 [ref_servo]: https://servo.org/
-[ref_sharepoint]: https://en.wikipedia.org/wiki/SharePoint
-[ref_sketchpad]: https://en.wikipedia.org/wiki/Sketchpad
+[ref_sharepoint]: https://en.wikipedia.org/w/index.php?title=SharePoint&oldid=1354149352
+[ref_sketchpad]: https://en.wikipedia.org/w/index.php?title=Sketchpad&oldid=1347367409
 [ref_skia]: https://skia.org/
-[ref_smalltalk]: https://en.wikipedia.org/wiki/Smalltalk
+[ref_smalltalk]: https://en.wikipedia.org/w/index.php?title=Smalltalk&oldid=1355296343
 [ref_solid]: https://solidproject.org/
-[ref_step]: https://en.wikipedia.org/wiki/ISO_10303
-[ref_super_301]: https://en.wikipedia.org/wiki/Section_301_of_the_Trade_Act_of_1974
-[ref_t_kernel]: https://en.wikipedia.org/wiki/T-Kernel
+[ref_step]: https://en.wikipedia.org/w/index.php?title=ISO_10303&oldid=1340819733
+[ref_super_301]: https://en.wikipedia.org/w/index.php?title=Section_301_of_the_Trade_Act_of_1974&oldid=1355196119
+[ref_t_kernel]: https://en.wikipedia.org/w/index.php?title=T-Kernel&oldid=1350679873
 [ref_tiptap]: https://tiptap.dev/
-[ref_tron_encoding]: https://en.wikipedia.org/wiki/TRON_(encoding)
+[ref_tron_encoding]: https://en.wikipedia.org/w/index.php?title=TRON_(encoding)&oldid=1344013160
 [ref_tron_forum]: https://www.tron.org/
-[ref_tron_project]: https://en.wikipedia.org/wiki/TRON_project
-[ref_uitron]: https://en.wikipedia.org/wiki/ITRON_project
+[ref_tron_project]: https://en.wikipedia.org/w/index.php?title=TRON_project&oldid=1301248614
+[ref_uitron]: https://en.wikipedia.org/w/index.php?title=ITRON_project&oldid=1346289869
 [ref_veeva_vault]: https://www.veeva.com/products/vault-platform/
-[ref_vrtx]: https://en.wikipedia.org/wiki/Versatile_Real-Time_Executive
-[ref_vxworks]: https://en.wikipedia.org/wiki/VxWorks
+[ref_vrtx]: https://en.wikipedia.org/w/index.php?title=Versatile_Real-Time_Executive&oldid=1308123892
+[ref_vxworks]: https://en.wikipedia.org/w/index.php?title=VxWorks&oldid=1354144630
 [ref_wasm_component_model]: https://component-model.bytecodealliance.org/
 [ref_webkit]: https://webkit.org/
 [ref_windchill]: https://www.ptc.com/en/products/windchill
-[ref_windows]: https://en.wikipedia.org/wiki/Microsoft_Windows
-[ref_www]: https://en.wikipedia.org/wiki/World_Wide_Web
-[ref_xbrl]: https://en.wikipedia.org/wiki/XBRL
+[ref_windows]: https://en.wikipedia.org/w/index.php?title=Microsoft_Windows&oldid=1356745803
+[ref_www]: https://en.wikipedia.org/w/index.php?title=World_Wide_Web&oldid=1356389875
+[ref_xbrl]: https://en.wikipedia.org/w/index.php?title=XBRL&oldid=1355051617
 [ref_yjs]: https://yjs.dev/
 [ref_zephyr]: https://www.zephyrproject.org/
 [related_post_fast_moving_mission_critical]: {% post_url 2026-02-24-fast_moving_versus_mission_critical_engineering %}
 [related_post_mission_command]: {% post_url 2026-02-17-mission_command_management_style %}
 [research_amazon_freertos]: https://aws.amazon.com/blogs/aws/announcing-amazon-freertos/
 [research_berners_lee_1989]: https://www.w3.org/History/1989/proposal.html
-[research_derouiche_agentic]: https://arxiv.org/abs/2508.10146
-[research_engelbart_1968]: https://dl.acm.org/doi/10.1145/1476589.1476645
-[research_halasz_1988]: https://dl.acm.org/doi/10.1145/48511.48514
+[research_derouiche_agentic]: https://doi.org/10.48550/arxiv.2508.10146
+[research_engelbart_1968]: https://doi.org/10.1145/1476589.1476645
+[research_halasz_1988]: https://doi.org/10.1145/48511.48514
 [research_hyperagents]: https://ecai2025.hyperagents.org/
 [research_ieee_milestone_tron]: https://ethw.org/Milestones:TRON_Real-time_Operating_System_Family,_1984
 [research_jx_usenix]: https://www.usenix.org/legacy/publications/library/proceedings/usenix02/full_papers/golm/golm.pdf
 [research_kleppmann_local_first]: https://www.inkandswitch.com/essay/local-first/
 [research_lifestreams_chi96]: https://www.cs.yale.edu/homes/freeman/ericchi96.html
-[research_lifestreams_sigmod]: https://dl.acm.org/doi/10.1145/381854.381893
+[research_lifestreams_sigmod]: https://scholar.google.com/scholar?q=a+Storage+Model+for+Personal+Data%2C+SIGMOD+Lifestreams+1996
 [research_local_first]: https://www.inkandswitch.com/local-first/
 [research_mars_pathfinder]: https://www.cs.unc.edu/~anderson/teach/comp790/papers/mars_pathfinder_short_version.html
 [research_matuschak_nielsen_ttft]: https://numinous.productions/ttft/
@@ -4158,8 +4174,8 @@ for that type.
 [research_personal_dynamic_media]: https://www.newmediareader.com/book_samples/nmr-26-kay.pdf
 [research_prov_agent]: https://arxiv.org/abs/2508.02866
 [research_qnx_275m]: https://www.automotiveworld.com/news-releases/blackberry-qnx-embedded-technology-powers-255-million-vehicles-on-the-road-today/
-[research_rag_lewis]: https://arxiv.org/abs/2005.11401
-[research_sel4_sosp]: https://dl.acm.org/doi/10.1145/1629575.1629596
+[research_rag_lewis]: https://doi.org/10.48550/arxiv.2005.11401
+[research_sel4_sosp]: https://doi.org/10.1145/1629575.1629596
 [research_sketchpad]: https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-574.pdf
 [research_ustr_1989]: https://worldjpn.net/documents/texts/JPUS/19890525.S1E.html
-[research_wang_agents]: https://arxiv.org/abs/2308.11432
+[research_wang_agents]: https://doi.org/10.48550/arxiv.2308.11432

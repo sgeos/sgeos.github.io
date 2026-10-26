@@ -1,0 +1,13 @@
+[
+ "elixir_service",
+ "elixir_understanding_config",
+ "erlang_man_config",
+ "erlang_man_erl",
+ "exrm_config",
+ "exrm_environment_config",
+ "exrm_migration",
+ "exrm_migration_gist",
+ "mix_ecto_gist",
+ "mix_release",
+ "phoenix_service"
+]

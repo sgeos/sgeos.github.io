@@ -2537,138 +2537,140 @@ over the civilization that waits.
 
 ## References
 
-- [Reference, Adams, Bodenheimer, and Laughlin, Red Dwarfs and the End of the Main Sequence][ref_adams_red_dwarfs]
-- [Reference, Armstrong and Sandberg, Eternity in Six Hours][ref_eternity_six_hours]
-- [Reference, Balbi and Frank, The Oxygen Bottleneck for Technospheres][ref_oxygen_bottleneck]
-- [Reference, Balbi and Lingam, Waste Heat and Habitability][ref_waste_heat_habitability]
-- [Reference, Berut et al., Experimental Verification of Landauer's Principle][ref_landauer_experimental]
-- [Reference, Blandford-Znajek Process][ref_blandford_znajek]
-- [Reference, Boyle, On Interstellar Quantum Communication and the Fermi Paradox][ref_boyle_quantum]
-- [Reference, Bradbury, Matrioshka Brains][ref_matrioshka_brains]
-- [Reference, Carter, Five- or Six-Step Scenario for Evolution][ref_carter_hard_steps]
-- [Reference, Carroll-Nellenback et al., The Fermi Paradox and the Aurora Effect][ref_aurora_effect]
-- [Reference, Catling et al., Why O2 Is Required by Complex Life][ref_catling_oxygen]
-- [Reference, Criswell, Star Lifting][ref_criswell_star_lifting]
-- [Reference, Drake Equation][ref_drake_equation]
-- [Reference, Dyson Sphere][ref_dyson_sphere]
-- [Reference, Fermi Paradox][ref_fermi_paradox]
-- [Reference, Geological History of Oxygen][ref_geological_oxygen]
-- [Reference, Great Oxidation Event][ref_great_oxidation]
-- [Reference, Griffith et al., G-hat Survey Paper III][ref_ghat_paper_iii]
-- [Reference, Hanson et al., If Loud Aliens Explain Human Earliness][ref_grabby_aliens]
-- [Reference, Hart, Explanation for the Absence of Extraterrestrials on Earth][ref_hart_absence]
-- [Reference, Inoue and Yokoo, A Dyson Sphere Around a Black Hole][ref_dyson_black_hole]
-- [Reference, Jiang et al., Avoiding the Great Filter][ref_jiang_great_filter]
-- [Reference, Kardashev Scale][ref_kardashev_scale]
-- [Reference, Laniakea Supercluster][ref_laniakea]
-- [Reference, Landauer's Principle][ref_landauer_principle]
-- [Reference, Large-scale Structure of the Universe][ref_large_scale_structure]
-- [Reference, Local Group][ref_local_group]
-- [Reference, Local Void][ref_local_void]
-- [Reference, Loeb, Batista, and Sloan, Relative Likelihood for Life as a Function of Cosmic Time][ref_loeb_cosmic_time]
-- [Reference, Penrose Process][ref_penrose_process]
-- [Reference, Red Dwarf][ref_red_dwarf]
-- [Reference, Relativistic Jet][ref_relativistic_jet]
-- [Reference, Sagittarius A*][ref_sagittarius_a]
-- [Reference, Sandberg, Drexler, and Ord, Dissolving the Fermi Paradox][ref_dissolving_fermi]
-- [Reference, Scoggins and Kipping, Lazarus Stars][ref_lazarus_stars]
-- [Reference, Star Lifting][ref_star_lifting]
-- [Reference, Suazo et al., Project Hephaistos][ref_project_hephaistos]
-- [Reference, Veres, The Solitude Zone][ref_solitude_zone]
-- [Reference, Wright, Application of the Thermodynamics of Radiation to Dyson Spheres][ref_wright_thermodynamics]
-- [Reference, Wright et al., G-hat Survey Paper I][ref_ghat_paper_i]
-- [Reference, Wright et al., G-hat Survey Paper II][ref_ghat_paper_ii]
-- [Reference, Zhang et al., Forecasting Kardashev Scale Progression][ref_zhang_kardashev]
-- [Related Post, Human Evolution and the Great Filter][related_post_great_filter]
-- [Related Post, Introduction to Astronomy][related_post_astronomy]
-- [Related Post, Introduction to Space Studies][related_post_space_studies]
-- [Research, Andromeda Galaxy][research_andromeda]
-- [Research, Balbi and Frank, The Oxygen Bottleneck for Technospheres][research_oxygen_bottleneck]
-- [Research, Carroll-Nellenback et al., The Fermi Paradox and the Aurora Effect][research_aurora_effect]
-- [Research, Drake Equation, SETI Institute][research_drake_seti]
-- [Research, Earliest Known Wildfires][research_earliest_wildfires]
-- [Research, Eternity in Six Hours][research_eternity]
-- [Research, Galactic-Scale Energy, Do the Math][research_galactic_energy]
-- [Research, Glimpsing Heat from Alien Technologies Survey][research_ghat]
-- [Research, Grabby Aliens][research_grabby_aliens]
-- [Research, Green Bank Conference, Slate][research_green_bank]
-- [Research, Griffith et al., G-hat Survey Paper III][research_ghat_iii]
-- [Research, Hanson et al., If Loud Aliens Explain Human Earliness][research_hanson_loud_aliens]
-- [Research, Kaku, The Physics of Extraterrestrial Civilizations][research_kaku_physics]
-- [Research, Lazarus Stars, Scoggins and Kipping][research_lazarus_stars]
-- [Research, Loeb, Batista, and Sloan, Relative Likelihood for Life][research_loeb_life]
-- [Research, Murphy, Galactic-Scale Energy][research_murphy_energy]
-- [Research, Project Hephaistos][research_hephaistos]
-- [Research, Sandberg, Drexler, and Ord, Dissolving the Fermi Paradox][research_dissolving]
-- [Research, Self-replicating Spacecraft][research_self_replicating]
-- [Research, Solitude Zone, PhysOrg][research_solitude_phys]
-- [Research, Triangulum Galaxy][research_triangulum]
-- [Research, Wright, Thermodynamics of Radiation and Dyson Spheres][research_wright_thermo]
+<!-- References generated by _lib/sources.py from _sources/. Edit the database and regenerate. Do not edit this section by hand. -->
+
+### Primary Sources, Peer-Reviewed
+
+- Hsiao, Tiger Yu-Yang, Tomotsugu Goto, Tetsuya Hashimoto, et al. 2021. "A Dyson Sphere around a Black Hole." *Monthly Notices of the Royal Astronomical Society* 506: 1723–32. [https://academic.oup.com/mnras/article/506/2/1723/6312510][ref_dyson_black_hole]
+- Scoggins, Matthew T., and David Kipping. 2023. "Lazarus Stars: Numerical Investigations of Stellar Evolution with Star-Lifting as a Life Extension Strategy." *Monthly Notices of the Royal Astronomical Society* 523: 3251–57. [https://academic.oup.com/mnras/article/523/3/3251/7188305][ref_lazarus_stars]
+
+### Primary Sources, Non-Peer-Reviewed
+
+- Armstrong and Sandberg. n.d. *Eternity in Six Hours*. [https://www.sciencedirect.com/science/article/abs/pii/S0094576513001148][ref_eternity_six_hours]
+- Balbi, Amedeo, and Adam Frank. 2023. "The Oxygen Bottleneck for Technospheres." Preprint, . [https://arxiv.org/abs/2308.01160][research_oxygen_bottleneck]
+- Balbi and Lingam. n.d. "Waste Heat and Habitability." Preprint, . [https://arxiv.org/html/2409.06737][ref_waste_heat_habitability]
+- Carroll-Nellenback, Jonathan, Adam Frank, Jason Wright, and Caleb Scharf. 2019. "The Fermi Paradox and the Aurora Effect: Exo-Civilization Settlement, Expansion and Steady States." Preprint, . [https://arxiv.org/abs/1902.04450][ref_aurora_effect]
+- Carter, Brandon. 2008. "Five- or Six-Step Scenario for Evolution?" *International Journal of Astrobiology* 7 (2): 177–82. [https://doi.org/10.1017/s1473550408004023][ref_carter_hard_steps]
+- Drake Equation. n.d. *SETI Institute*. [https://www.seti.org/research/seti-101/drake-equation/][research_drake_seti]
+- *Earliest Known Wildfires*. n.d. [https://www.sciencenews.org/article/earth-oldest-wildfire-430-million-years-ago-fossil-charcoal][research_earliest_wildfires]
+- *Eternity in Six Hours*. n.d. [https://ui.adsabs.harvard.edu/abs/2013AcAau..89....1A/abstract][research_eternity]
+- Galactic-Scale Energy. n.d. *Do the Math*. [https://dothemath.ucsd.edu/2011/07/galactic-scale-energy/][research_galactic_energy]
+- *Glimpsing Heat from Alien Technologies Survey*. n.d. [https://sites.psu.edu/astrowright/the-g-hat-search-for-kardashev-civilizations/][research_ghat]
+- *Grabby Aliens*. n.d. [https://grabbyaliens.com/][research_grabby_aliens]
+- Green Bank Conference. n.d. *Slate*. [https://slate.com/technology/2013/09/green-bank-conference-seti-frank-drakes-equation-for-estimating-the-extraterrestrial-life.html][research_green_bank]
+- Griffith. n.d. "G-hat Survey Paper III." Preprint, . [https://arxiv.org/abs/1504.03418][ref_ghat_paper_iii]
+- Hanson, Robin, Daniel Martin, Calvin McCarter, and Jonathan Paulson. 2021. "If Loud Aliens Explain Human Earliness, Quiet Aliens Are Also Rare." Preprint, . [https://arxiv.org/abs/2102.01522][ref_grabby_aliens]
+- Jiang, Jonathan H., Fuyang Feng, Philip E. Rosen, et al. 2022. "Avoiding the Great Filter: Predicting the Timeline for Humanity to Reach Kardashev Type I Civilization." Preprint, . [https://arxiv.org/abs/2204.07070][ref_jiang_great_filter]
+- Kaku. n.d. *The Physics of Extraterrestrial Civilizations*. [https://mkaku.org/home/articles/the-physics-of-extraterrestrial-civilizations/][research_kaku_physics]
+- Lazarus Stars, Scoggins. n.d. *Kipping*. [https://scholar.google.com/scholar?q=Kipping+Lazarus+Stars][research_lazarus_stars]
+- Loeb. n.d. "Batista, and Sloan, Relative Likelihood for Life." Preprint, . [https://arxiv.org/abs/1606.08448][ref_loeb_cosmic_time]
+- Murphy. n.d. *Galactic-Scale Energy*. [https://dothemath.ucsd.edu/2011/07/galactic-scale-energy/][research_murphy_energy]
+- "On Interstellar Quantum Communication and the Fermi Paradox." n.d. Preprint, . [https://arxiv.org/html/2408.02445v1][ref_boyle_quantum]
+- Sandberg. n.d. "Drexler, and Ord, Dissolving the Fermi Paradox." Preprint, . [https://arxiv.org/abs/1806.02404][ref_dissolving_fermi]
+- Solitude Zone. n.d. *PhysOrg*. [https://phys.org/news/2025-10-solitude-zone-universe.html][research_solitude_phys]
+- Suazo, Matías, Erik Zackrisson, Priyatam K. Mahto, et al. 2024. "Project Hephaistos: II. Dyson Sphere Candidates from Gaia DR3, 2MASS, and WISE." Preprint, arXiv. [https://doi.org/10.48550/arxiv.2405.02927][research_hephaistos]
+- Wright. n.d.-a. "G-HAT Infrared Survey." Preprint, . [https://arxiv.org/abs/1408.1133][ref_ghat_paper_i]
+- Wright, Jason T. 2023. "Application of the Thermodynamics of Radiation to Dyson Spheres as Work Extractors and Computational Engines, and Their Observational Consequences." Preprint, . [https://arxiv.org/abs/2309.06564][ref_wright_thermodynamics]
+
+### General Sources
+
+- Adams and Laughlin. n.d. "Bodenheimer, and Laughlin, Red Dwarfs and the End of the Main Sequence." Accessed October 25, 2026. [https://ui.adsabs.harvard.edu/abs/1997ApJ...482..420L/abstract][ref_adams_red_dwarfs]
+- Balbi and Frank. n.d. "The Oxygen Bottleneck for Technospheres." Accessed October 25, 2026. [https://www.nature.com/articles/s41550-023-02112-8][ref_oxygen_bottleneck]
+- Berut. n.d. "Experimental Verification of Landauer's Principle." Accessed October 25, 2026. [https://www.nature.com/articles/nature10872][ref_landauer_experimental]
+- Bradbury. n.d. "Matrioshka Brains." Accessed October 25, 2026. [https://gwern.net/doc/ai/scaling/hardware/1999-bradbury-matrioshkabrains.pdf][ref_matrioshka_brains]
+- Catling. n.d. "Why O2 Is Required by Complex Life." Accessed October 25, 2026. [https://www.liebertpub.com/doi/10.1089/ast.2005.5.415][ref_catling_oxygen]
+- Hart. n.d. "Explanation for the Absence of Extraterrestrials on Earth." Accessed October 25, 2026. [https://adsabs.harvard.edu/full/1975QJRAS..16..128H][ref_hart_absence]
+- Suazo. n.d. "Project Hephaistos." Accessed October 25, 2026. [https://academic.oup.com/mnras/article/531/1/695/7665761][ref_project_hephaistos]
+- Veres. n.d. "The Solitude Zone." Accessed October 25, 2026. [https://www.sciencedirect.com/science/article/pii/S0094576525006599][ref_solitude_zone]
+- Wright. n.d.-b. "G-hat Survey Paper II." Accessed October 25, 2026. [https://iopscience.iop.org/article/10.1088/0004-637X/792/1/27][ref_ghat_paper_ii]
+- Zhang. n.d. "Forecasting Kardashev Scale Progression." Accessed October 25, 2026. [https://www.nature.com/articles/s41598-023-38351-y][ref_zhang_kardashev]
+
+### Tertiary Sources
+
+- "Andromeda Galaxy." 2026. Wikipedia. Last modified February 20, at 00:42 (UTC). [https://en.wikipedia.org/w/index.php?title=Andromeda\_Galaxy&oldid=1339332569][research_andromeda]
+- "Astrophysical Jet." 2026. Wikipedia. Last modified January 21, at 16:22 (UTC). [https://en.wikipedia.org/w/index.php?title=Astrophysical\_jet&oldid=1334110655][ref_relativistic_jet]
+- "Blandford–Znajek Process." 2025. Wikipedia. Last modified October 31, at 18:26 (UTC). [https://en.wikipedia.org/w/index.php?title=Blandford%E2%80%93Znajek\_process&oldid=1319761150][ref_blandford_znajek]
+- "Drake Equation." 2026. Wikipedia. Last modified February 28, at 15:27 (UTC). [https://en.wikipedia.org/w/index.php?title=Drake\_equation&oldid=1340932506][ref_drake_equation]
+- "Dyson Sphere." 2026. Wikipedia. Last modified January 3, at 02:08 (UTC). [https://en.wikipedia.org/w/index.php?title=Dyson\_sphere&oldid=1330872455][ref_dyson_sphere]
+- "Fermi Paradox." 2026. Wikipedia. Last modified February 28, at 15:51 (UTC). [https://en.wikipedia.org/w/index.php?title=Fermi\_paradox&oldid=1340935094][ref_fermi_paradox]
+- "Geological History of Oxygen." 2026. Wikipedia. Last modified February 9, at 18:04 (UTC). [https://en.wikipedia.org/w/index.php?title=Geological\_history\_of\_oxygen&oldid=1337472897][ref_geological_oxygen]
+- "Great Oxidation Event." 2026. Wikipedia. Last modified February 26, at 18:51 (UTC). [https://en.wikipedia.org/w/index.php?title=Great\_Oxidation\_Event&oldid=1340622157][ref_great_oxidation]
+- "Kardashev Scale." 2026. Wikipedia. Last modified February 25, at 15:32 (UTC). [https://en.wikipedia.org/w/index.php?title=Kardashev\_scale&oldid=1340413569][ref_kardashev_scale]
+- "Landauer's Principle." 2026. Wikipedia. Last modified February 9, at 02:31 (UTC). [https://en.wikipedia.org/w/index.php?title=Landauer's\_principle&oldid=1337373438][ref_landauer_principle]
+- "Laniakea Supercluster." 2026. Wikipedia. Last modified February 27, at 13:58 (UTC). [https://en.wikipedia.org/w/index.php?title=Laniakea\_Supercluster&oldid=1340759226][ref_laniakea]
+- "Large-Scale Structure of the Universe." 2026. Wikipedia. Last modified January 5, at 23:46 (UTC). [https://en.wikipedia.org/w/index.php?title=Large-scale\_structure\_of\_the\_universe&oldid=1331359053][ref_large_scale_structure]
+- "Local Group." 2026. Wikipedia. Last modified January 27, at 01:47 (UTC). [https://en.wikipedia.org/w/index.php?title=Local\_Group&oldid=1335047038][ref_local_group]
+- "Local Void." 2025. Wikipedia. Last modified September 29, at 05:00 (UTC). [https://en.wikipedia.org/w/index.php?title=Local\_Void&oldid=1313997875][ref_local_void]
+- "Penrose Process." 2026. Wikipedia. Last modified January 17, at 23:46 (UTC). [https://en.wikipedia.org/w/index.php?title=Penrose\_process&oldid=1333468179][ref_penrose_process]
+- "Red Dwarf." 2026. Wikipedia. Last modified February 10, at 20:45 (UTC). [https://en.wikipedia.org/w/index.php?title=Red\_dwarf&oldid=1337671698][ref_red_dwarf]
+- "Sagittarius A." 2026. Wikipedia. Last modified February 23, at 04:08 (UTC). [https://en.wikipedia.org/w/index.php?title=Sagittarius\_A%2A&oldid=1339956322][ref_sagittarius_a]
+- "Self-Replicating Spacecraft." 2026. Wikipedia. Last modified February 26, at 00:59 (UTC). [https://en.wikipedia.org/w/index.php?title=Self-replicating\_spacecraft&oldid=1340490475][research_self_replicating]
+- "Star Lifting." 2025. Wikipedia. Last modified November 5, at 18:56 (UTC). [https://en.wikipedia.org/w/index.php?title=Star\_lifting&oldid=1320602371][ref_criswell_star_lifting]
+- "Triangulum Galaxy." 2026. Wikipedia. Last modified February 9, at 18:31 (UTC). [https://en.wikipedia.org/w/index.php?title=Triangulum\_Galaxy&oldid=1337476493][research_triangulum]
+
+### Related Posts
+
+- Sechter, Brendan. 2026. "Introduction to Astronomy." *Brendan A R Sechter's Development Blog*, February 12. [https://sgeos.github.io/space/astronomy/science/2026/02/12/introduction\_to\_astronomy.html][related_post_astronomy]
+- Sechter, Brendan. 2026. "Introduction to Space Studies." *Brendan A R Sechter's Development Blog*, February 21. [https://sgeos.github.io/space/math/2026/02/21/introduction\_to\_space\_studies.html][related_post_space_studies]
+- Sechter, Brendan. 2026. "Human Evolution and the Great Filter." *Brendan A R Sechter's Development Blog*, February 26. [https://sgeos.github.io/science/philosophy/2026/02/26/human\_evolution\_and\_the\_great\_filter.html][related_post_great_filter]
 
 [ref_adams_red_dwarfs]: https://ui.adsabs.harvard.edu/abs/1997ApJ...482..420L/abstract
 [ref_aurora_effect]: https://arxiv.org/abs/1902.04450
-[ref_blandford_znajek]: https://en.wikipedia.org/wiki/Blandford%E2%80%93Znajek_process
+[ref_blandford_znajek]: https://en.wikipedia.org/w/index.php?title=Blandford%E2%80%93Znajek_process&oldid=1319761150
 [ref_boyle_quantum]: https://arxiv.org/html/2408.02445v1
-[ref_carter_hard_steps]: https://doi.org/10.1017/S1473550408004023
+[ref_carter_hard_steps]: https://doi.org/10.1017/s1473550408004023
 [ref_catling_oxygen]: https://www.liebertpub.com/doi/10.1089/ast.2005.5.415
-[ref_criswell_star_lifting]: https://en.wikipedia.org/wiki/Star_lifting
+[ref_criswell_star_lifting]: https://en.wikipedia.org/w/index.php?title=Star_lifting&oldid=1320602371
 [ref_dissolving_fermi]: https://arxiv.org/abs/1806.02404
-[ref_drake_equation]: https://en.wikipedia.org/wiki/Drake_equation
+[ref_drake_equation]: https://en.wikipedia.org/w/index.php?title=Drake_equation&oldid=1340932506
 [ref_dyson_black_hole]: https://academic.oup.com/mnras/article/506/2/1723/6312510
-[ref_dyson_sphere]: https://en.wikipedia.org/wiki/Dyson_sphere
+[ref_dyson_sphere]: https://en.wikipedia.org/w/index.php?title=Dyson_sphere&oldid=1330872455
 [ref_eternity_six_hours]: https://www.sciencedirect.com/science/article/abs/pii/S0094576513001148
-[ref_fermi_paradox]: https://en.wikipedia.org/wiki/Fermi_paradox
-[ref_geological_oxygen]: https://en.wikipedia.org/wiki/Geological_history_of_oxygen
+[ref_fermi_paradox]: https://en.wikipedia.org/w/index.php?title=Fermi_paradox&oldid=1340935094
+[ref_geological_oxygen]: https://en.wikipedia.org/w/index.php?title=Geological_history_of_oxygen&oldid=1337472897
 [ref_ghat_paper_i]: https://arxiv.org/abs/1408.1133
 [ref_ghat_paper_ii]: https://iopscience.iop.org/article/10.1088/0004-637X/792/1/27
 [ref_ghat_paper_iii]: https://arxiv.org/abs/1504.03418
 [ref_grabby_aliens]: https://arxiv.org/abs/2102.01522
-[ref_great_oxidation]: https://en.wikipedia.org/wiki/Great_Oxidation_Event
+[ref_great_oxidation]: https://en.wikipedia.org/w/index.php?title=Great_Oxidation_Event&oldid=1340622157
 [ref_hart_absence]: https://adsabs.harvard.edu/full/1975QJRAS..16..128H
 [ref_jiang_great_filter]: https://arxiv.org/abs/2204.07070
-[ref_kardashev_scale]: https://en.wikipedia.org/wiki/Kardashev_scale
+[ref_kardashev_scale]: https://en.wikipedia.org/w/index.php?title=Kardashev_scale&oldid=1340413569
 [ref_landauer_experimental]: https://www.nature.com/articles/nature10872
-[ref_landauer_principle]: https://en.wikipedia.org/wiki/Landauer%27s_principle
-[ref_laniakea]: https://en.wikipedia.org/wiki/Laniakea_Supercluster
-[ref_large_scale_structure]: https://en.wikipedia.org/wiki/Large-scale_structure_of_the_universe
+[ref_landauer_principle]: https://en.wikipedia.org/w/index.php?title=Landauer's_principle&oldid=1337373438
+[ref_laniakea]: https://en.wikipedia.org/w/index.php?title=Laniakea_Supercluster&oldid=1340759226
+[ref_large_scale_structure]: https://en.wikipedia.org/w/index.php?title=Large-scale_structure_of_the_universe&oldid=1331359053
 [ref_lazarus_stars]: https://academic.oup.com/mnras/article/523/3/3251/7188305
-[ref_local_group]: https://en.wikipedia.org/wiki/Local_Group
-[ref_local_void]: https://en.wikipedia.org/wiki/Local_Void
+[ref_local_group]: https://en.wikipedia.org/w/index.php?title=Local_Group&oldid=1335047038
+[ref_local_void]: https://en.wikipedia.org/w/index.php?title=Local_Void&oldid=1313997875
 [ref_loeb_cosmic_time]: https://arxiv.org/abs/1606.08448
 [ref_matrioshka_brains]: https://gwern.net/doc/ai/scaling/hardware/1999-bradbury-matrioshkabrains.pdf
 [ref_oxygen_bottleneck]: https://www.nature.com/articles/s41550-023-02112-8
-[ref_penrose_process]: https://en.wikipedia.org/wiki/Penrose_process
+[ref_penrose_process]: https://en.wikipedia.org/w/index.php?title=Penrose_process&oldid=1333468179
 [ref_project_hephaistos]: https://academic.oup.com/mnras/article/531/1/695/7665761
-[ref_red_dwarf]: https://en.wikipedia.org/wiki/Red_dwarf
-[ref_relativistic_jet]: https://en.wikipedia.org/wiki/Relativistic_jet
-[ref_sagittarius_a]: https://en.wikipedia.org/wiki/Sagittarius_A*
+[ref_red_dwarf]: https://en.wikipedia.org/w/index.php?title=Red_dwarf&oldid=1337671698
+[ref_relativistic_jet]: https://en.wikipedia.org/w/index.php?title=Astrophysical_jet&oldid=1334110655
+[ref_sagittarius_a]: https://en.wikipedia.org/w/index.php?title=Sagittarius_A%2A&oldid=1339956322
 [ref_solitude_zone]: https://www.sciencedirect.com/science/article/pii/S0094576525006599
-[ref_star_lifting]: https://en.wikipedia.org/wiki/Star_lifting
 [ref_waste_heat_habitability]: https://arxiv.org/html/2409.06737
 [ref_wright_thermodynamics]: https://arxiv.org/abs/2309.06564
 [ref_zhang_kardashev]: https://www.nature.com/articles/s41598-023-38351-y
 [related_post_astronomy]: {% post_url 2026-02-12-introduction_to_astronomy %}
 [related_post_great_filter]: {% post_url 2026-02-26-human_evolution_and_the_great_filter %}
 [related_post_space_studies]: {% post_url 2026-02-21-introduction_to_space_studies %}
-[research_andromeda]: https://en.wikipedia.org/wiki/Andromeda_Galaxy
-[research_aurora_effect]: https://arxiv.org/abs/1902.04450
-[research_dissolving]: https://arxiv.org/abs/1806.02404
+[research_andromeda]: https://en.wikipedia.org/w/index.php?title=Andromeda_Galaxy&oldid=1339332569
 [research_drake_seti]: https://www.seti.org/research/seti-101/drake-equation/
 [research_earliest_wildfires]: https://www.sciencenews.org/article/earth-oldest-wildfire-430-million-years-ago-fossil-charcoal
 [research_eternity]: https://ui.adsabs.harvard.edu/abs/2013AcAau..89....1A/abstract
 [research_galactic_energy]: https://dothemath.ucsd.edu/2011/07/galactic-scale-energy/
 [research_ghat]: https://sites.psu.edu/astrowright/the-g-hat-search-for-kardashev-civilizations/
-[research_ghat_iii]: https://arxiv.org/abs/1504.03418
 [research_grabby_aliens]: https://grabbyaliens.com/
 [research_green_bank]: https://slate.com/technology/2013/09/green-bank-conference-seti-frank-drakes-equation-for-estimating-the-extraterrestrial-life.html
-[research_hanson_loud_aliens]: https://arxiv.org/abs/2102.01522
-[research_hephaistos]: https://arxiv.org/abs/2405.02927
+[research_hephaistos]: https://doi.org/10.48550/arxiv.2405.02927
 [research_kaku_physics]: https://mkaku.org/home/articles/the-physics-of-extraterrestrial-civilizations/
-[research_lazarus_stars]: https://arxiv.org/abs/2210.02338
-[research_loeb_life]: https://arxiv.org/abs/1606.08448
+[research_lazarus_stars]: https://scholar.google.com/scholar?q=Kipping+Lazarus+Stars
 [research_murphy_energy]: https://dothemath.ucsd.edu/2011/07/galactic-scale-energy/
 [research_oxygen_bottleneck]: https://arxiv.org/abs/2308.01160
-[research_self_replicating]: https://en.wikipedia.org/wiki/Self-replicating_spacecraft
+[research_self_replicating]: https://en.wikipedia.org/w/index.php?title=Self-replicating_spacecraft&oldid=1340490475
 [research_solitude_phys]: https://phys.org/news/2025-10-solitude-zone-universe.html
-[research_triangulum]: https://en.wikipedia.org/wiki/Triangulum_Galaxy
-[research_wright_thermo]: https://arxiv.org/abs/2309.06564
+[research_triangulum]: https://en.wikipedia.org/w/index.php?title=Triangulum_Galaxy&oldid=1337476493

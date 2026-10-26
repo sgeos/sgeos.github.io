@@ -1,0 +1,8 @@
+[
+ "freebsd_deinstall",
+ "freebsd_mysql_upgrade",
+ "mysql_commandline_query",
+ "mysql_freebsd",
+ "mysql_reset_password",
+ "mysql_version"
+]

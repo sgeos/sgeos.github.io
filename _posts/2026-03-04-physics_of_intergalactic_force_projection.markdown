@@ -135,7 +135,7 @@ at the target.
 Extractable energy depends
 on black hole spin and accretion rate
 in addition to mass
-([Reynolds 2021][research_reynolds]).
+([Reynolds 2020][research_reynolds]).
 A non-spinning SMBH
 produces no Blandford-Znajek jet
 regardless of its mass.
@@ -204,7 +204,7 @@ and magnetic reconnection
 within the ergosphere
 extracts spin energy
 at comparable rates
-([Comisso and Asenjo 2021][research_comisso_asenjo]).
+([Comisso and Asenjo 2020][research_comisso_asenjo]).
 
 For Sagittarius A*
 at $4.3 \times 10^6$ solar masses,
@@ -301,7 +301,7 @@ range from approximately 1 percent
 to 10 percent of cosmic time,
 depending on SMBH mass and environment
 ([Schawinski et al. 2015][research_schawinski],
-[Delvecchio et al. 2020][research_delvecchio]).
+[Delvecchio 2020][research_delvecchio]).
 The Milky Way's own SMBH,
 [Sagittarius A*][ref_sagittarius_a],
 is currently quiescent
@@ -1144,7 +1144,7 @@ and identified
 [magnetic sails][ref_magnetic_sail]
 ([Andrews and Zubrin 1990][research_andrews_zubrin]),
 laser-driven sails
-([Kulkarni, Lubin, and Zhang 2018][research_kulkarni_lubin]),
+([Kulkarni 2018][research_kulkarni_lubin]),
 and [hypervelocity star][ref_hypervelocity_star] platforms
 as viable transit mechanisms.
 Deceleration at the target system
@@ -1400,7 +1400,7 @@ within the heliosphere,
 as measured by Voyager 1
 after crossing the heliopause
 in 2012
-([Cummings et al. 2016][research_cummings]).
+([Cummings 2016][research_cummings]).
 [Durante and Cucinotta][research_durante_cucinotta]
 provided the authoritative review
 of galactic cosmic ray fluence
@@ -1666,7 +1666,7 @@ the original mission.
 This is analogous to
 the emergence of parasitic sequences
 in molecular replication experiments
-([Matsumura et al. 2016][research_matsumura]).
+([Matsumura 2016][research_matsumura]).
 Parasitic replicators
 outcompete functional probes
 because they devote
@@ -2210,7 +2210,7 @@ could potentially detect
 incoming probe swarms
 millions of years before arrival.
 The detection of 1I/'Oumuamua
-([Meech et al. 2017][research_meech])
+([Meech 2017][research_meech])
 demonstrated that existing surveys
 can identify interstellar objects
 transiting the solar system.
@@ -2612,27 +2612,27 @@ reaches ours.
 ## Future Reading
 
 - [Blandford and Znajek 1977][research_bz_1977] is the foundational paper on electromagnetic energy extraction from rotating black holes, establishing the mechanism now understood to power astrophysical jets.
-- [Tchekhovskoy, Narayan, and McKinney 2011][research_tchekhovskoy] demonstrates through GRMHD simulation that jet efficiency can exceed 100 percent of accretion power, confirming net energy extraction from black hole spin.
-- [Blandford, Meier, and Readhead 2019][research_blandford_2019] provides a comprehensive review of relativistic jet physics including collimation mechanisms, acceleration, and terminal structure.
-- [Thomas et al. 2005][research_thomas_2005] establishes the lethal radius of gamma-ray bursts and their biological effects on planetary atmospheres, providing the baseline for natural astrophysical sterilization.
+- [Tchekhovskoy 2011][research_tchekhovskoy] demonstrates through GRMHD simulation that jet efficiency can exceed 100 percent of accretion power, confirming net energy extraction from black hole spin.
+- [Blandford 2019][research_blandford_2019] provides a comprehensive review of relativistic jet physics including collimation mechanisms, acceleration, and terminal structure.
+- [Thomas et al. 2004][research_thomas_2005] establishes the lethal radius of gamma-ray bursts and their biological effects on planetary atmospheres, providing the baseline for natural astrophysical sterilization.
 - [Piran and Jimenez 2014][research_piran] quantifies the probability of lethal GRBs as a function of galactocentric distance and geological time.
 - [Lubin 2016][research_lubin] analyzes diffraction-limited laser arrays for interstellar propulsion, establishing the beam divergence constraints applicable to directed energy weapons.
 - [Brin 1983][research_brin] introduces the deadly probes hypothesis and analyzes self-replicating probes as a potential explanation for the Great Silence.
 - [Tipler 1980][research_tipler] argues that self-replicating probes could explore the galaxy in 300 million years, and their absence implies no extraterrestrial intelligence exists.
 - [Newman and Sagan 1981][research_newman_sagan] responds to Tipler using population biology models, arguing that unconstrained replication is self-defeating and that galaxy-crossing times are longer than Tipler estimated.
 - [Forgan 2019][research_forgan_predator] applies Lotka-Volterra predator-prey models to self-replicating probe populations, finding stable equilibria where mutant probes coexist with progenitors.
-- [Chen, Ni, and Ong 2022][research_chen_lv] extends the Lotka-Volterra analysis of competing probe populations and finds that mutated probes drive progenitors to extinction under realistic parameters.
+- [Chen 2022][research_chen_lv] extends the Lotka-Volterra analysis of competing probe populations and finds that mutated probes drive progenitors to extinction under realistic parameters.
 - [Nicholson and Forgan 2013][research_nicholson] demonstrates that self-replicating probes using gravitational slingshots could explore the galaxy in approximately 10 million years at 0.1c.
-- [Reynolds 2021][research_reynolds] provides a comprehensive review of black hole spin measurement methods and observed spin distributions, noting tension between X-ray and gravitational wave results.
+- [Reynolds 2020][research_reynolds] provides a comprehensive review of black hole spin measurement methods and observed spin distributions, noting tension between X-ray and gravitational wave results.
 - [Schawinski et al. 2015][research_schawinski] establishes that AGN flicker on timescales of approximately $10^5$ years, with total active lifetimes accumulated through episodic cycles.
 - [Bland-Hawthorn and Gerhard 2016][research_bland_hawthorn] is the definitive review of Milky Way structural properties, establishing the disk, halo, and bar dimensions used in the defense geometry analysis.
-- [Cummings et al. 2016][research_cummings] reports Voyager 1 measurements of galactic cosmic ray intensity in the local interstellar medium, finding intensities approximately 15 times higher than at 1 AU.
+- [Cummings 2016][research_cummings] reports Voyager 1 measurements of galactic cosmic ray intensity in the local interstellar medium, finding intensities approximately 15 times higher than at 1 AU.
 - [Dyson 1960][research_dyson_ir] proposed that advanced civilizations would produce detectable infrared waste heat signatures, establishing the field of infrared technosignature detection.
-- [Meech et al. 2017][research_meech] is the discovery paper for 1I/'Oumuamua, the first confirmed interstellar object, establishing baseline detection capabilities for objects in transit through the solar system.
+- [Meech 2017][research_meech] is the discovery paper for 1I/'Oumuamua, the first confirmed interstellar object, establishing baseline detection capabilities for objects in transit through the solar system.
 - [Jebari and Asker 2024][research_jebari] provides a formal game-theoretic analysis of the dark forest hypothesis, showing that mutual observation of ETI can convert preemptive strike equilibria into restraint equilibria.
 - The companion [Tactical and Strategic Assessment][related_post_assessment] provides the galaxy-by-galaxy threat hierarchy that this article's force projection analysis informs.
 - [Frisbee 2003][research_frisbee] presents a systems-level engineering analysis of antimatter-propelled interstellar vehicles, establishing that 0.5c cruise velocities are achievable in principle and quantifying the mass ratios required.
-- [Hoang et al. 2017][research_hoang_ism] quantifies erosion, heating, and drag on relativistic spacecraft transiting the interstellar medium, directly constraining the survivability of relativistic kill vehicles and probe swarms in transit.
+- [Hoang et al. 2016][research_hoang_ism] quantifies erosion, heating, and drag on relativistic spacecraft transiting the interstellar medium, directly constraining the survivability of relativistic kill vehicles and probe swarms in transit.
 - [Landis 1998][research_landis_percolation] introduces the percolation model of galactic colonization, showing that expansion follows a fractal pattern of colonized and uncolonized clusters rather than a uniform wave front.
 - [Hanson et al. 2021][research_hanson_grabby] models rapidly expanding civilizations that alter their volumes, constraining the expected spacing and timing of potential adversaries in the observable universe.
 - [Tursunov and Dadhich 2019][research_tursunov_dadhich] reviews the magnetic Penrose process across three efficiency regimes, expanding the toolkit of physically plausible black hole energy extraction mechanisms beyond the Blandford-Znajek process.
@@ -2640,151 +2640,165 @@ reaches ours.
 - [Heller and Hippke 2017][research_heller_hippke] demonstrates photogravitational braking as a propellantless deceleration mechanism for high-velocity payloads, generalizing to any stellar system.
 - [Wright et al. 2014][research_wright_ghat] and [Griffith et al. 2015][research_griffith_ghat] present the G-hat infrared survey of approximately 100,000 galaxies for Type III civilizations, establishing upper limits on the prevalence of galaxy-scale energy harvesting.
 - [Durante and Cucinotta 2011][research_durante_cucinotta] is the authoritative review of galactic cosmic ray fluence and shielding physics, essential for any analysis of probe survivability during intergalactic transit.
-- [Dolag et al. 2005][research_dolag] simulates intergalactic magnetic fields from cosmological structure formation, constraining electromagnetic drag and deflection for charged relativistic projectiles crossing voids and filaments.
-- [Hippke, Leyland, and Learned 2018][research_hippke_inscribed] shows that physical probes carrying inscribed data are energetically superior to photon communication at kiloparsec-scale distances below 0.2c, directly informing the trade-off between communication and physical payload delivery across intergalactic distances.
+- [Dolag et al. 2004][research_dolag] simulates intergalactic magnetic fields from cosmological structure formation, constraining electromagnetic drag and deflection for charged relativistic projectiles crossing voids and filaments.
+- [Hippke 2018][research_hippke_inscribed] shows that physical probes carrying inscribed data are energetically superior to photon communication at kiloparsec-scale distances below 0.2c, directly informing the trade-off between communication and physical payload delivery across intergalactic distances.
 - [Lingam and Loeb 2021][research_lingam_loeb_book] provides a comprehensive treatment of biosignatures and technosignatures including stellar engineering, Dyson megastructures, and galactic habitability analysis.
 
 ## References
 
-- [Reference, Active Galactic Nucleus][ref_agn]
-- [Reference, Alcubierre Drive][ref_alcubierre]
-- [Reference, Andromeda Galaxy][ref_andromeda]
-- [Reference, Antimatter Rocket][ref_antimatter_rocket]
-- [Reference, Blandford-Znajek Process][ref_blandford_znajek]
-- [Reference, Bracewell Probe][ref_bracewell_probe]
-- [Reference, Chandrasekhar Limit][ref_chandrasekhar]
-- [Reference, Cosmic Microwave Background][ref_cmb]
-- [Reference, Dark Forest Hypothesis][ref_dark_forest]
-- [Reference, Dyson Sphere][ref_dyson_sphere]
-- [Reference, Eddington Luminosity][ref_eddington]
-- [Reference, Gamma-Ray Burst][ref_grb]
-- [Reference, Hypervelocity Star][ref_hypervelocity_star]
-- [Reference, Kerr Black Hole][ref_kerr]
-- [Reference, Large Magellanic Cloud][ref_lmc]
-- [Reference, Local Group][ref_local_group]
-- [Reference, Lotka-Volterra Equations][ref_lotka_volterra]
-- [Reference, Magnetic Sail][ref_magnetic_sail]
-- [Reference, Messier 87][ref_m87]
-- [Reference, Milky Way][ref_milky_way]
-- [Reference, Nuclear Pulse Propulsion][ref_nuclear_pulse]
-- [Reference, Penrose Process][ref_penrose]
-- [Reference, Photon Rocket][ref_photon_rocket]
-- [Reference, Reed-Solomon Error Correction][ref_reed_solomon]
-- [Reference, Relativistic Jet][ref_relativistic_jet]
-- [Reference, Relativistic Kill Vehicle][ref_rkv]
-- [Reference, Sagittarius A*][ref_sagittarius_a]
-- [Reference, Self-Replicating Spacecraft][ref_self_replicating_spacecraft]
-- [Reference, Shkadov Thruster][ref_shkadov_thruster]
-- [Reference, Star Lifting][ref_star_lifting]
-- [Reference, Supermassive Black Hole][ref_smbh]
-- [Reference, Supernova][ref_supernova]
-- [Reference, Von Neumann Machine][ref_von_neumann_machine]
-- [Reference, Wormhole][ref_wormhole]
-- [Related Post, Causality and First-Mover Advantage in Lightcone-Based Competitive Intergalactic Colonization][related_post_causality]
-- [Related Post, Roadmap to a Competitive Type III Civilization][related_post_roadmap]
-- [Related Post, Tactical and Strategic Assessment of the Local Galactic Neighborhood][related_post_assessment]
-- [Research, Andrews and Zubrin, Magnetic Sails and Interstellar Travel][research_andrews_zubrin]
-- [Research, Balbi and Tombesi, The Habitability of the Milky Way During the Active Phase of Its Central Supermassive Black Hole][research_balbi]
-- [Research, Beech, The Past, Present and Future Supernova Threat to Earth's Biosphere][research_beech]
-- [Research, Bergner and Seligman, Acceleration of 1I/'Oumuamua from Radiolytically Produced H2 in H2O Ice][research_bergner_seligman]
-- [Research, Bland-Hawthorn and Gerhard, The Galaxy in Context: Structural, Kinematic, and Integrated Properties][research_bland_hawthorn]
-- [Research, Blandford and Znajek, Electromagnetic Extraction of Energy from Kerr Black Holes][research_bz_1977]
-- [Research, Blandford, Meier, and Readhead, Relativistic Jets from Active Galactic Nuclei][research_blandford_2019]
-- [Research, Borgue and Hein, Near-Term Self-Replicating Probes: A Concept Design][research_borgue]
-- [Research, Bracewell, Communications from Superior Galactic Communities][research_bracewell]
-- [Research, Brin, The Great Silence][research_brin]
-- [Research, Chen, Ni, and Ong, Lotka-Volterra Models for Extraterrestrial Self-Replicating Probes][research_chen_lv]
-- [Research, Cirkovic, Fermi's Paradox: The Last Challenge for Copernicanism?][research_cirkovic]
-- [Research, Comisso and Asenjo, Magnetic Reconnection as a Mechanism for Energy Extraction from Rotating Black Holes][research_comisso_asenjo]
-- [Research, Cummings et al., Galactic Cosmic Rays in the Local Interstellar Medium: Voyager 1 Observations and Model Results][research_cummings]
-- [Research, de Groh et al., Degradation of Spacecraft Materials in the Space Environment][research_degroh]
-- [Research, Delvecchio et al., The Evolving AGN Duty Cycle in Galaxies Since z ~ 3][research_delvecchio]
-- [Research, Dobynde et al., Beating 1 Sievert: Optimal Radiation Shielding of Astronauts on a Mission to Mars][research_dobynde]
-- [Research, Dolag et al., Constrained Simulations of the Magnetic Field in the Local Universe and the Propagation of UHECRs][research_dolag]
-- [Research, Durante and Cucinotta, Physical Basis of Radiation Protection in Space Travel][research_durante_cucinotta]
-- [Research, Dyson, Interstellar Transport][research_dyson_transport]
-- [Research, Dyson, Search for Artificial Stellar Sources of Infrared Radiation][research_dyson_ir]
-- [Research, Ellery, Self-Replicating Probes Are Imminent: Implications for SETI][research_ellery]
-- [Research, Forgan, The Galactic Club, or Galactic Cliques?][research_forgan_galactic]
-- [Research, Forgan, On the Possibility of Detecting Class A Stellar Engines Using Exoplanet Transit Curves][research_forgan_shkadov]
-- [Research, Forgan, Predator-Prey Behaviour in Self-Replicating Interstellar Probes][research_forgan_predator]
-- [Research, Freitas, A Self-Reproducing Interstellar Probe][research_freitas]
-- [Research, Frisbee, How to Build an Antimatter Rocket for Interstellar Missions][research_frisbee]
-- [Research, Griffith et al., The G-hat Infrared Search for Extraterrestrial Civilizations III: The Reddest Extended Sources in WISE][research_griffith_ghat]
-- [Research, Hair and Hedman, Spatial Dispersion of Interstellar Civilizations: A Probabilistic Site Percolation Model][research_hair_hedman]
-- [Research, Hanson et al., If Loud Aliens Explain Human Earliness, Quiet Aliens Are Also Rare][research_hanson_grabby]
-- [Research, Haqq-Misra and Baum, The Sustainability Solution to the Fermi Paradox][research_haqq_misra]
-- [Research, Heller and Hippke, Deceleration of High-velocity Interstellar Photon Sails into Bound Orbits at Alpha Centauri][research_heller_hippke]
-- [Research, Heller, Hippke, and Kervella, Optimized Trajectories to the Nearest Stars Using Lightweight High-velocity Photon Sails][research_heller_optimized]
-- [Research, Hippke, Interstellar Communication I: Maximized Data Rate for Lightweight Space-Probes][research_hippke_comm]
-- [Research, Hippke, Leyland, and Learned, Interstellar Communication VII: Benchmarking Inscribed Matter Probes][research_hippke_inscribed]
-- [Research, Hoang et al., The Interaction of Relativistic Spacecrafts with the Interstellar Medium][research_hoang_ism]
-- [Research, Jebari and Asker, Saved by the Dark Forest: How a Multitude of Extraterrestrial Civilizations Can Prevent a Hobbesian Trap][research_jebari]
-- [Research, Jewitt, Interstellar Objects in the Solar System][research_jewitt_iso]
-- [Research, Korhonen, MAD with Aliens? Interstellar Deterrence and Its Implications][research_korhonen]
-- [Research, Kulkarni, Lubin, and Zhang, Relativistic Spacecraft Propelled by Directed Energy][research_kulkarni_lubin]
-- [Research, Landis, The Fermi Paradox: An Approach Based on Percolation Theory][research_landis_percolation]
-- [Research, Lingam and Loeb, Life in the Cosmos: From Biosignatures to Technosignatures][research_lingam_loeb_book]
-- [Research, Lubin, A Roadmap to Interstellar Flight][research_lubin]
-- [Research, Matsumura et al., Transient Compartmentalization of RNA Replicators Prevents Extinction due to Parasites][research_matsumura]
-- [Research, McNamara and Nulsen, Heating Hot Atmospheres with Active Galactic Nuclei][research_mcnamara]
-- [Research, Meech et al., A Brief Visit from a Red and Extremely Elongated Interstellar Asteroid][research_meech]
-- [Research, Narayan and Yi, Advection-Dominated Accretion: Underfed Black Holes and Neutron Stars][research_narayan_adaf]
-- [Research, Narayan, Igumenshchev, and Abramowicz, Magnetically Arrested Disk: An Energetically Efficient Accretion Flow][research_narayan_mad]
-- [Research, Newman and Sagan, Galactic Civilizations: Population Dynamics and Interstellar Diffusion][research_newman_sagan]
-- [Research, Nicholson and Forgan, Slingshot Dynamics for Self-Replicating Probes and the Effect on Exploration Timescales][research_nicholson]
-- [Research, Pernigoni et al., Self-Healing Materials for Space Applications: Overview of Present Development and Major Limitations][research_pernigoni]
-- [Research, Piran and Jimenez, Possible Role of Gamma Ray Bursts on Life Extinction in the Universe][research_piran]
-- [Research, Prieto et al., The Central Parsecs of M87][research_prieto]
-- [Research, Reed and Solomon, Polynomial Codes over Certain Finite Fields][research_reed_solomon]
-- [Research, Reynolds, Observational Constraints on Black Hole Spin][research_reynolds]
-- [Research, Schawinski et al., Active Galactic Nuclei Flicker: An Observational Estimate of the Duration of Black Hole Growth Phases][research_schawinski]
-- [Research, Schelling, The Strategy of Conflict][research_schelling]
-- [Research, Seligman and Laughlin, The Feasibility and Benefits of In Situ Exploration of 'Oumuamua-like Objects][research_seligman_laughlin]
-- [Research, Suazo et al., Project Hephaistos II: Dyson Sphere Candidates from Gaia DR3, 2MASS, and WISE][research_suazo]
-- [Research, Tchekhovskoy, Narayan, and McKinney, Efficient Generation of Jets from Magnetically Arrested Accretion][research_tchekhovskoy]
-- [Research, Thomas et al., Terrestrial Ozone Depletion Due to a Milky Way Gamma-Ray Burst][research_thomas_2005]
-- [Research, Tipler, Extraterrestrial Intelligent Beings Do Not Exist][research_tipler]
-- [Research, Tursunov and Dadhich, Fifty Years of Energy Extraction from Rotating Black Hole: Revisiting Magnetic Penrose Process][research_tursunov_dadhich]
-- [Research, von Neumann, Theory of Self-Reproducing Automata][research_von_neumann]
-- [Research, Wiley, The Fermi Paradox, Self-Replicating Probes, and the Interstellar Transportation Bandwidth][research_wiley]
-- [Research, Wright, Dyson Spheres][research_wright_dyson]
-- [Research, Wright et al., The G-hat Infrared Search for Extraterrestrial Civilizations with Large Energy Supplies][research_wright_ghat]
+<!-- References generated by _lib/sources.py from _sources/. Edit the database and regenerate. Do not edit this section by hand. -->
 
-[ref_agn]: https://en.wikipedia.org/wiki/Active_galactic_nucleus
-[ref_alcubierre]: https://en.wikipedia.org/wiki/Alcubierre_drive
-[ref_andromeda]: https://en.wikipedia.org/wiki/Andromeda_Galaxy
-[ref_antimatter_rocket]: https://en.wikipedia.org/wiki/Antimatter_rocket
-[ref_blandford_znajek]: https://en.wikipedia.org/wiki/Blandford%E2%80%93Znajek_process
-[ref_bracewell_probe]: https://en.wikipedia.org/wiki/Bracewell_probe
-[ref_chandrasekhar]: https://en.wikipedia.org/wiki/Chandrasekhar_limit
-[ref_cmb]: https://en.wikipedia.org/wiki/Cosmic_microwave_background
-[ref_dark_forest]: https://en.wikipedia.org/wiki/Dark_forest_hypothesis
-[ref_dyson_sphere]: https://en.wikipedia.org/wiki/Dyson_sphere
-[ref_eddington]: https://en.wikipedia.org/wiki/Eddington_luminosity
-[ref_grb]: https://en.wikipedia.org/wiki/Gamma-ray_burst
-[ref_hypervelocity_star]: https://en.wikipedia.org/wiki/Hypervelocity_star
-[ref_kerr]: https://en.wikipedia.org/wiki/Kerr_metric
-[ref_lmc]: https://en.wikipedia.org/wiki/Large_Magellanic_Cloud
-[ref_local_group]: https://en.wikipedia.org/wiki/Local_Group
-[ref_lotka_volterra]: https://en.wikipedia.org/wiki/Lotka%E2%80%93Volterra_equations
-[ref_m87]: https://en.wikipedia.org/wiki/Messier_87
-[ref_magnetic_sail]: https://en.wikipedia.org/wiki/Magnetic_sail
-[ref_milky_way]: https://en.wikipedia.org/wiki/Milky_Way
-[ref_nuclear_pulse]: https://en.wikipedia.org/wiki/Nuclear_pulse_propulsion
-[ref_penrose]: https://en.wikipedia.org/wiki/Penrose_process
-[ref_photon_rocket]: https://en.wikipedia.org/wiki/Photon_rocket
-[ref_reed_solomon]: https://en.wikipedia.org/wiki/Reed%E2%80%93Solomon_error_correction
-[ref_relativistic_jet]: https://en.wikipedia.org/wiki/Relativistic_jet
-[ref_rkv]: https://en.wikipedia.org/wiki/Relativistic_kill_vehicle
-[ref_sagittarius_a]: https://en.wikipedia.org/wiki/Sagittarius_A*
-[ref_self_replicating_spacecraft]: https://en.wikipedia.org/wiki/Self-replicating_spacecraft
-[ref_shkadov_thruster]: https://en.wikipedia.org/wiki/Shkadov_thruster
-[ref_smbh]: https://en.wikipedia.org/wiki/Supermassive_black_hole
-[ref_star_lifting]: https://en.wikipedia.org/wiki/Star_lifting
-[ref_supernova]: https://en.wikipedia.org/wiki/Supernova
-[ref_von_neumann_machine]: https://en.wikipedia.org/wiki/Von_Neumann_universal_constructor
-[ref_wormhole]: https://en.wikipedia.org/wiki/Wormhole
+### Primary Sources, Non-Peer-Reviewed
+
+- Andrews and Zubrin. 1990. *Magnetic Sails and Interstellar Travel*. [https://ui.adsabs.harvard.edu/abs/1991JSpRo..28..197Z/abstract][research_andrews_zubrin]
+- Balbi, Amedeo, and Francesco Tombesi. 2017. "The Habitability of the Milky Way during the Active Phase of Its Central Supermassive Black Hole." Preprint, . [https://arxiv.org/abs/1711.11318][research_balbi]
+- Beech. n.d. *The Past, Present and Future Supernova Threat to Earth's Biosphere*. [https://link.springer.com/article/10.1007/s10509-011-0873-9][research_beech]
+- Bergner, Jennifer, and Darryl Seligman. 2023. "Acceleration of 1I/\`Oumuamua from Radiolytically Produced H2 in H2O Ice." Preprint, . [https://arxiv.org/abs/2303.13698][research_bergner_seligman]
+- Bland-Hawthorn, Joss, and Ortwin Gerhard. 2016. "The Galaxy in Context: Structural, Kinematic and Integrated Properties." Preprint, . [https://arxiv.org/abs/1602.07702][research_bland_hawthorn]
+- Blandford. 2019. *Meier, and Readhead, Relativistic Jets from Active Galactic Nuclei*. [https://ui.adsabs.harvard.edu/abs/2019ARA%26A..57..467B/abstract][research_blandford_2019]
+- Blandford and Znajek. 1977. *Electromagnetic Extraction of Energy from Kerr Black Holes*. [https://ui.adsabs.harvard.edu/abs/1977MNRAS.179..433B/abstract][research_bz_1977]
+- Borgue, Olivia, and Andreas M. Hein. 2020. "Near-Term Self-Replicating Probes -- a Concept Design." Preprint, . [https://arxiv.org/abs/2005.12303][research_borgue]
+- Bracewell. n.d. *Communications from Superior Galactic Communities*. [https://www.nature.com/articles/186670a0][research_bracewell]
+- Brin. 1983. *The Great Silence*. [https://ui.adsabs.harvard.edu/abs/1983QJRAS..24..283B/abstract][research_brin]
+- Chen. 2022. "Ni, and Ong, Lotka-Volterra Models for Extraterrestrial Self-Replicating Probes." Preprint, . [https://arxiv.org/abs/2209.14244][research_chen_lv]
+- Cirkovic, Milan M. 2009. "Fermi's Paradox: The Last Challenge for Copernicanism?" Preprint, . [https://arxiv.org/abs/0907.3432][research_cirkovic]
+- Comisso, Luca, and Felipe A. Asenjo. 2020. "Magnetic Reconnection as a Mechanism for Energy Extraction from Rotating Black Holes." Preprint, . [https://arxiv.org/abs/2012.00879][research_comisso_asenjo]
+- Cummings. 2016. *Galactic Cosmic Rays in the Local Interstellar Medium: Voyager 1 Observations and Model Results*. [https://ui.adsabs.harvard.edu/abs/2016ApJ...831...18C/abstract][research_cummings]
+- de Groh. n.d. *Degradation of Spacecraft Materials in the Space Environment*. [https://ui.adsabs.harvard.edu/abs/2011MRSBu..35...20M/abstract][research_degroh]
+- Delvecchio. 2020. "The Evolving AGN Duty Cycle in Galaxies Since z ~ 3." Preprint, . [https://arxiv.org/abs/2002.08965][research_delvecchio]
+- Dobynde, M. I., Y. Y. Shprits, A. Y. Drozdov, J. Hoffman, and Ju Li. 2021. "Beating 1 Sievert: Optimal Radiation Shielding of Astronauts on a Mission to Mars." *Space Weather* 19 (9): e2021SW002749. [https://doi.org/10.1029/2021sw002749][research_dobynde]
+- Dolag, Klaus, Dario Grasso, Volker Springel, and Igor Tkachev. 2004. "Constrained Simulations of the Magnetic Field in the Local Universe and the Propagation of UHECRs." Preprint, . [https://arxiv.org/abs/astro-ph/0410419][research_dolag]
+- Durante, Marco, and Francis A. Cucinotta. 2011. "Physical Basis of Radiation Protection in Space Travel." *Reviews of Modern Physics* 83 (4): 1245–81. [https://doi.org/10.1103/revmodphys.83.1245][research_durante_cucinotta]
+- Dyson. 1960. *Search for Artificial Stellar Sources of Infrared Radiation*. [https://ui.adsabs.harvard.edu/abs/1960Sci...131.1667D/abstract][research_dyson_ir]
+- Dyson. 1968. *Interstellar Transport*. [https://ui.adsabs.harvard.edu/abs/1968PhT....21j..41D/abstract][research_dyson_transport]
+- Ellery. n.d. *Self-Replicating Probes Are Imminent: Implications for SETI*. [https://www.cambridge.org/core/journals/international-journal-of-astrobiology/article/selfreplicating-probes-are-imminent-implications-for-seti/2CB214D26020D497D48AE489756BEE77][research_ellery]
+- Forgan, Duncan H. 2013. "On the Possibility of Detecting Class a Stellar Engines Using Exoplanet Transit Curves." Preprint, . [https://arxiv.org/abs/1306.1672][research_forgan_shkadov]
+- Forgan, Duncan H. 2016. "The Galactic Club, or Galactic Cliques? Exploring the Limits of Interstellar Hegemony and the Zoo Hypothesis." Preprint, . [https://arxiv.org/abs/1608.08770][research_forgan_galactic]
+- Forgan, Duncan H. 2019. "Predator-Prey Behaviour in Self-Replicating Interstellar Probes." Preprint, . [https://arxiv.org/abs/1903.00770][research_forgan_predator]
+- Freitas. n.d. *A Self-Reproducing Interstellar Probe*. [https://ui.adsabs.harvard.edu/abs/1980JBIS...33..251F/abstract][research_freitas]
+- Frisbee, Robert. 2003. "How to Build an Antimatter Rocket for Interstellar Missions: Systems Level Considerations in Designing Advanced Propulsion Technology Vehicles." In *39th AIAA/ASME/SAE/ASEE Joint Propulsion Conference and Exhibit*. AIAA 2003-4676. American Institute of Aeronautics and Astronautics. [https://doi.org/10.2514/6.2003-4676][research_frisbee]
+- Griffith, Roger L., Jason T. Wright, Jessica Maldonado, Matthew S. Povich, Steinn Sigurdsson, and Brendan Mullan. 2015. "The \\^G Infrared Search for Extraterrestrial Civilizations with Large Energy Supplies. III. the Reddest Extended Sources in WISE." Preprint, . [https://arxiv.org/abs/1504.03418][research_griffith_ghat]
+- Hair, Thomas W., and Andrew D. Hedman. 2012. "Spatial Dispersion of Interstellar Civilizations: A Probabilistic Site Percolation Model in Three Dimensions." *International Journal of Astrobiology* 12 (1): 45–52. [https://doi.org/10.1017/s1473550412000420][research_hair_hedman]
+- Hanson, Robin, Daniel Martin, Calvin McCarter, and Jonathan Paulson. 2021. "If Loud Aliens Explain Human Earliness, Quiet Aliens Are Also Rare." Preprint, . [https://arxiv.org/abs/2102.01522][research_hanson_grabby]
+- Haqq-Misra, Jacob D., and Seth D. Baum. 2009. "The Sustainability Solution to the Fermi Paradox." Preprint, . [https://arxiv.org/abs/0906.0568][research_haqq_misra]
+- Heller. n.d. "Hippke, and Kervella, Optimized Trajectories to the Nearest Stars Using Lightweight High-velocity Photon Sails." Preprint, . [https://arxiv.org/abs/1704.03871][research_heller_optimized]
+- Heller, René, and Michael Hippke. 2017. "Deceleration of High-Velocity Interstellar Photon Sails into Bound Orbits at α Centauri." Preprint, . [https://arxiv.org/abs/1701.08803][research_heller_hippke]
+- Hippke, Michael. 2017. "Interstellar Communication. I. Maximized Data Rate for Lightweight Space-Probes." Preprint, . [https://arxiv.org/abs/1706.03795][research_hippke_comm]
+- Hippke. 2018. "Leyland, and Learned, Interstellar Communication VII: Benchmarking Inscribed Matter Probes." Preprint, . [https://arxiv.org/abs/1712.10262][research_hippke_inscribed]
+- Hoang, Thiem, A. Lazarian, Blakesley Burkhart, and Abraham Loeb. 2016. "The Interaction of Relativistic Spacecrafts with the Interstellar Medium." Preprint, . [https://arxiv.org/abs/1608.05284][research_hoang_ism]
+- Jebari, Karim, and Andrea S. Asker. 2024. "Saved by the Dark Forest: How a Multitude of Extraterrestrial Civilizations Can Prevent a Hobbesian Trap." *The Monist* 107: 176–89. [https://academic.oup.com/monist/article/107/2/176/7629691][research_jebari]
+- Jewitt, David. 2024. "Interstellar Objects in the Solar System." Preprint, . [https://arxiv.org/abs/2407.06475][research_jewitt_iso]
+- Korhonen, Janne M. 2013. "MAD with Aliens? Interstellar Deterrence and Its Implications." Preprint, . [https://arxiv.org/abs/1302.0606][research_korhonen]
+- Kulkarni. 2018. "Lubin, and Zhang, Relativistic Spacecraft Propelled by Directed Energy." Preprint, . [https://arxiv.org/abs/1710.10732][research_kulkarni_lubin]
+- Landis. 1998. *The Fermi Paradox: An Approach Based on Percolation Theory*. [https://ui.adsabs.harvard.edu/abs/1998JBIS...51..163L/abstract][research_landis_percolation]
+- Lingam and Loeb. 2021. *Life in the Cosmos: From Biosignatures to Technosignatures*. [https://www.hup.harvard.edu/books/9780674987579][research_lingam_loeb_book]
+- Lubin, Philip. 2016. "A Roadmap to Interstellar Flight." Preprint, . [https://arxiv.org/abs/1604.01356][research_lubin]
+- Matsumura. 2016. *Transient Compartmentalization of RNA Replicators Prevents Extinction due to Parasites*. [https://www.science.org/doi/10.1126/science.aag1582][research_matsumura]
+- McNamara, B. R., and P. E. J. Nulsen. 2007. "Heating Hot Atmospheres with Active Galactic Nuclei." Preprint, . [https://arxiv.org/abs/0709.2152][research_mcnamara]
+- Meech. 2017. *A Brief Visit from a Red and Extremely Elongated Interstellar Asteroid*. [https://www.nature.com/articles/nature25020][research_meech]
+- Narayan. n.d. "Igumenshchev, and Abramowicz, Magnetically Arrested Disk: An Energetically Efficient Accretion Flow." Preprint, . [https://arxiv.org/abs/astro-ph/0305029][research_narayan_mad]
+- Narayan, Ramesh, and Insu Yi. 1994. "Advection-Dominated Accretion: Underfed Black Holes and Neutron Stars." Preprint, . [https://arxiv.org/abs/astro-ph/9411059][research_narayan_adaf]
+- Newman and Sagan. 1981. *Galactic Civilizations: Population Dynamics and Interstellar Diffusion*. [https://ui.adsabs.harvard.edu/abs/1981Icar...46..293N/abstract][research_newman_sagan]
+- Nicholson, Arwen, and Duncan Forgan. 2013. "Slingshot Dynamics for Self Replicating Probes and the Effect on Exploration Timescales." Preprint, . [https://arxiv.org/abs/1307.1648][research_nicholson]
+- Pernigoni. n.d. *Self-Healing Materials for Space Applications: Overview of Present Development and Major Limitations*. [https://link.springer.com/article/10.1007/s12567-021-00365-5][research_pernigoni]
+- Piran and Jimenez. 2014. "Possible Role of Gamma Ray Bursts on Life Extinction in the Universe." Preprint, . [https://arxiv.org/abs/1409.2506][research_piran]
+- Prieto, M. A., J. A. Fernández-Ontiveros, S. Markoff, D. Espada, and O. González-Martín. 2015. "The Central Parsecs of M87: Jet Emission and an Elusive Accretion Disc." Preprint, . [https://arxiv.org/abs/1508.02302][research_prieto]
+- Reed and Solomon. 1960. *Polynomial Codes over Certain Finite Fields*. [https://sites.math.rutgers.edu/~zeilberg/akherim/ReedS1960.pdf][research_reed_solomon]
+- Reynolds, Christopher S. 2020. "Observational Constraints on Black Hole Spin." Preprint, . [https://arxiv.org/abs/2011.08948][research_reynolds]
+- Schawinski, Kevin, Michael Koss, Simon Berney, and Lia Sartori. 2015. "Active Galactic Nuclei Flicker: An Observational Estimate of the Duration of Black Hole Growth Phases of ~1e5 Years." Preprint, . [https://arxiv.org/abs/1505.06733][research_schawinski]
+- Schelling. 1960. *The Strategy of Conflict*. [https://www.hup.harvard.edu/books/9780674840317][research_schelling]
+- Seligman, Darryl, and Gregory Laughlin. 2018. "The Feasibility and Benefits of in Situ Exploration of \`Oumuamua-like Objects." Preprint, . [https://arxiv.org/abs/1803.07022][research_seligman_laughlin]
+- Suazo. n.d. "Project Hephaistos II: Dyson Sphere Candidates from Gaia DR3, 2MASS, and WISE." Preprint, . [https://arxiv.org/abs/2405.02927][research_suazo]
+- Tchekhovskoy. 2011. "Narayan, and McKinney, Efficient Generation of Jets from Magnetically Arrested Accretion." Preprint, . [https://arxiv.org/abs/1108.0412][research_tchekhovskoy]
+- Thomas, Brian C., Charles H. Jackman, Adrian L. Melott, et al. 2004. "Terrestrial Ozone Depletion Due to a Milky Way Gamma-Ray Burst." Preprint, . [https://arxiv.org/abs/astro-ph/0411284][research_thomas_2005]
+- Tipler. 1980. *Extraterrestrial Intelligent Beings Do Not Exist*. [https://ui.adsabs.harvard.edu/abs/1980QJRAS..21..267T/abstract][research_tipler]
+- Tursunov, Arman, and Naresh Dadhich. 2019. "Fifty Years of Energy Extraction from Rotating Black Hole: Revisiting Magnetic Penrose Process." Preprint, . [https://arxiv.org/abs/1905.05321][research_tursunov_dadhich]
+- von Neumann. n.d. *Theory of Self-Reproducing Automata*. [https://cba.mit.edu/events/03.11.ASE/docs/VonNeumann.pdf][research_von_neumann]
+- Wiley, Keith B. 2011. "The Fermi Paradox, Self-Replicating Probes, and the Interstellar Transportation Bandwidth." Preprint, . [https://arxiv.org/abs/1111.6131][research_wiley]
+- Wright, Jason T. 2020. "Dyson Spheres." Preprint, . [https://arxiv.org/abs/2006.16734][research_wright_dyson]
+- Wright, J. T., B. Mullan, S. Sigurðsson, and M. S. Povich. 2014. "The \\^G Infrared Search for Extraterrestrial Civilizations with Large Energy Supplies. I. Background and Justification." Preprint, . [https://arxiv.org/abs/1408.1133][research_wright_ghat]
+
+### General Sources
+
+- "Armstrong and Sandberg." n.d. Accessed October 25, 2026. [https://www.sciencedirect.com/science/article/abs/pii/S0094576513001148][research_eternity]
+
+### Tertiary Sources
+
+- "Active Galactic Nucleus." 2026. Wikipedia. Last modified February 20, at 18:15 (UTC). [https://en.wikipedia.org/w/index.php?title=Active\_galactic\_nucleus&oldid=1339463242][ref_agn]
+- "Alcubierre Drive." 2026. Wikipedia. Last modified February 22, at 14:11 (UTC). [https://en.wikipedia.org/w/index.php?title=Alcubierre\_drive&oldid=1339821397][ref_alcubierre]
+- "Andromeda Galaxy." 2026. Wikipedia. Last modified February 20, at 00:42 (UTC). [https://en.wikipedia.org/w/index.php?title=Andromeda\_Galaxy&oldid=1339332569][ref_andromeda]
+- "Antimatter Propulsion Spacecraft." 2026. Wikipedia. Last modified February 8, at 03:28 (UTC). [https://en.wikipedia.org/w/index.php?title=Antimatter\_propulsion\_spacecraft&oldid=1337217783][ref_antimatter_rocket]
+- "Astrophysical Jet." 2026. Wikipedia. Last modified January 21, at 16:22 (UTC). [https://en.wikipedia.org/w/index.php?title=Astrophysical\_jet&oldid=1334110655][ref_relativistic_jet]
+- "Blandford–Znajek Process." 2025. Wikipedia. Last modified October 31, at 18:26 (UTC). [https://en.wikipedia.org/w/index.php?title=Blandford%E2%80%93Znajek\_process&oldid=1319761150][ref_blandford_znajek]
+- "Bracewell Probe." 2026. Wikipedia. Last modified February 14, at 23:27 (UTC). [https://en.wikipedia.org/w/index.php?title=Bracewell\_probe&oldid=1338401368][ref_bracewell_probe]
+- "Chandrasekhar Limit." 2026. Wikipedia. Last modified February 21, at 17:52 (UTC). [https://en.wikipedia.org/w/index.php?title=Chandrasekhar\_limit&oldid=1339657797][ref_chandrasekhar]
+- "Cosmic Microwave Background." 2026. Wikipedia. Last modified March 2, at 08:12 (UTC). [https://en.wikipedia.org/w/index.php?title=Cosmic\_microwave\_background&oldid=1341278284][ref_cmb]
+- "Dark Forest Hypothesis." 2026. Wikipedia. Last modified January 29, at 12:18 (UTC). [https://en.wikipedia.org/w/index.php?title=Dark\_forest\_hypothesis&oldid=1335475552][ref_dark_forest]
+- "Dyson Sphere." 2026. Wikipedia. Last modified January 3, at 02:08 (UTC). [https://en.wikipedia.org/w/index.php?title=Dyson\_sphere&oldid=1330872455][ref_dyson_sphere]
+- "Eddington Luminosity." 2026. Wikipedia. Last modified February 16, at 07:12 (UTC). [https://en.wikipedia.org/w/index.php?title=Eddington\_luminosity&oldid=1338624790][ref_eddington]
+- "Gamma-Ray Burst." 2026. Wikipedia. Last modified January 9, at 09:41 (UTC). [https://en.wikipedia.org/w/index.php?title=Gamma-ray\_burst&oldid=1331998772][ref_grb]
+- "Kerr Metric." 2026. Wikipedia. Last modified February 25, at 09:43 (UTC). [https://en.wikipedia.org/w/index.php?title=Kerr\_metric&oldid=1340374820][ref_kerr]
+- "Kinetic Energy Weapon." 2025. Wikipedia. Last modified December 9, at 16:12 (UTC). [https://en.wikipedia.org/w/index.php?title=Kinetic\_energy\_weapon&oldid=1326553597][ref_rkv]
+- "Large Magellanic Cloud." 2026. Wikipedia. Last modified February 8, at 15:39 (UTC). [https://en.wikipedia.org/w/index.php?title=Large\_Magellanic\_Cloud&oldid=1337290955][ref_lmc]
+- "Local Group." 2026. Wikipedia. Last modified January 27, at 01:47 (UTC). [https://en.wikipedia.org/w/index.php?title=Local\_Group&oldid=1335047038][ref_local_group]
+- "Lotka–Volterra Equations." 2025. Wikipedia. Last modified November 9, at 22:43 (UTC). [https://en.wikipedia.org/w/index.php?title=Lotka%E2%80%93Volterra\_equations&oldid=1321323466][ref_lotka_volterra]
+- "Magnetic Sail." 2026. Wikipedia. Last modified February 24, at 18:34 (UTC). [https://en.wikipedia.org/w/index.php?title=Magnetic\_sail&oldid=1340251680][ref_magnetic_sail]
+- "Messier 87." 2026. Wikipedia. Last modified January 24, at 20:16 (UTC). [https://en.wikipedia.org/w/index.php?title=Messier\_87&oldid=1334640545][ref_m87]
+- "Milky Way." 2026. Wikipedia. Last modified February 24, at 19:41 (UTC). [https://en.wikipedia.org/w/index.php?title=Milky\_Way&oldid=1340262189][ref_milky_way]
+- "Nuclear Pulse Propulsion." 2026. Wikipedia. Last modified January 15, at 09:39 (UTC). [https://en.wikipedia.org/w/index.php?title=Nuclear\_pulse\_propulsion&oldid=1333041805][ref_nuclear_pulse]
+- "Penrose Process." 2026. Wikipedia. Last modified January 17, at 23:46 (UTC). [https://en.wikipedia.org/w/index.php?title=Penrose\_process&oldid=1333468179][ref_penrose]
+- "Photon Rocket." 2026. Wikipedia. Last modified February 22, at 14:25 (UTC). [https://en.wikipedia.org/w/index.php?title=Photon\_rocket&oldid=1339823501][ref_photon_rocket]
+- "Reed–Solomon Error Correction." 2026. Wikipedia. Last modified February 20, at 20:04 (UTC). [https://en.wikipedia.org/w/index.php?title=Reed%E2%80%93Solomon\_error\_correction&oldid=1339480775][ref_reed_solomon]
+- "Sagittarius A." 2026. Wikipedia. Last modified February 23, at 04:08 (UTC). [https://en.wikipedia.org/w/index.php?title=Sagittarius\_A%2A&oldid=1339956322][ref_sagittarius_a]
+- "Self-Replicating Spacecraft." 2026. Wikipedia. Last modified February 26, at 00:59 (UTC). [https://en.wikipedia.org/w/index.php?title=Self-replicating\_spacecraft&oldid=1340490475][ref_self_replicating_spacecraft]
+- "Star Lifting." 2025. Wikipedia. Last modified November 5, at 18:56 (UTC). [https://en.wikipedia.org/w/index.php?title=Star\_lifting&oldid=1320602371][ref_star_lifting]
+- "Stellar Engine." 2026. Wikipedia. Last modified February 1, at 16:09 (UTC). [https://en.wikipedia.org/w/index.php?title=Stellar\_engine&oldid=1336036786][ref_shkadov_thruster]
+- "Stellar Kinematics." 2026. Wikipedia. Last modified February 23, at 04:49 (UTC). [https://en.wikipedia.org/w/index.php?title=Stellar\_kinematics&oldid=1339961678][ref_hypervelocity_star]
+- "Supermassive Black Hole." 2026. Wikipedia. Last modified February 27, at 16:59 (UTC). [https://en.wikipedia.org/w/index.php?title=Supermassive\_black\_hole&oldid=1340779783][ref_smbh]
+- "Supernova." 2026. Wikipedia. Last modified February 28, at 15:56 (UTC). [https://en.wikipedia.org/w/index.php?title=Supernova&oldid=1340935688][ref_supernova]
+- "Von Neumann Universal Constructor." 2025. Wikipedia. Last modified December 19, at 22:40 (UTC). [https://en.wikipedia.org/w/index.php?title=Von\_Neumann\_universal\_constructor&oldid=1328445089][ref_von_neumann_machine]
+- "Wormhole." 2026. Wikipedia. Last modified February 14, at 19:58 (UTC). [https://en.wikipedia.org/w/index.php?title=Wormhole&oldid=1338371744][ref_wormhole]
+
+### Related Posts
+
+- Sechter, Brendan. 2026. "Causality and First-Mover Advantage in Lightcone-Based Competitive Intergalactic Colonization." *Brendan A R Sechter's Development Blog*, March 1. [https://sgeos.github.io/science/philosophy/2026/03/01/causality\_and\_first\_mover\_advantage\_in\_lightcone\_based\_competitive\_intergalactic\_colonization.html][related_post_causality]
+- Sechter, Brendan. 2026. "Tactical and Strategic Assessment of the Local Galactic Neighborhood." *Brendan A R Sechter's Development Blog*, March 2. [https://sgeos.github.io/science/philosophy/2026/03/02/tactical\_and\_strategic\_assessment\_of\_local\_galactic\_neighborhood.html][related_post_assessment]
+- Sechter, Brendan. 2026. "Roadmap to a Competitive Type III Civilization." *Brendan A R Sechter's Development Blog*, March 3. [https://sgeos.github.io/science/philosophy/2026/03/03/roadmap\_to\_competitive\_type\_iii\_civilization.html][related_post_roadmap]
+
+[ref_agn]: https://en.wikipedia.org/w/index.php?title=Active_galactic_nucleus&oldid=1339463242
+[ref_alcubierre]: https://en.wikipedia.org/w/index.php?title=Alcubierre_drive&oldid=1339821397
+[ref_andromeda]: https://en.wikipedia.org/w/index.php?title=Andromeda_Galaxy&oldid=1339332569
+[ref_antimatter_rocket]: https://en.wikipedia.org/w/index.php?title=Antimatter_propulsion_spacecraft&oldid=1337217783
+[ref_blandford_znajek]: https://en.wikipedia.org/w/index.php?title=Blandford%E2%80%93Znajek_process&oldid=1319761150
+[ref_bracewell_probe]: https://en.wikipedia.org/w/index.php?title=Bracewell_probe&oldid=1338401368
+[ref_chandrasekhar]: https://en.wikipedia.org/w/index.php?title=Chandrasekhar_limit&oldid=1339657797
+[ref_cmb]: https://en.wikipedia.org/w/index.php?title=Cosmic_microwave_background&oldid=1341278284
+[ref_dark_forest]: https://en.wikipedia.org/w/index.php?title=Dark_forest_hypothesis&oldid=1335475552
+[ref_dyson_sphere]: https://en.wikipedia.org/w/index.php?title=Dyson_sphere&oldid=1330872455
+[ref_eddington]: https://en.wikipedia.org/w/index.php?title=Eddington_luminosity&oldid=1338624790
+[ref_grb]: https://en.wikipedia.org/w/index.php?title=Gamma-ray_burst&oldid=1331998772
+[ref_hypervelocity_star]: https://en.wikipedia.org/w/index.php?title=Stellar_kinematics&oldid=1339961678
+[ref_kerr]: https://en.wikipedia.org/w/index.php?title=Kerr_metric&oldid=1340374820
+[ref_lmc]: https://en.wikipedia.org/w/index.php?title=Large_Magellanic_Cloud&oldid=1337290955
+[ref_local_group]: https://en.wikipedia.org/w/index.php?title=Local_Group&oldid=1335047038
+[ref_lotka_volterra]: https://en.wikipedia.org/w/index.php?title=Lotka%E2%80%93Volterra_equations&oldid=1321323466
+[ref_m87]: https://en.wikipedia.org/w/index.php?title=Messier_87&oldid=1334640545
+[ref_magnetic_sail]: https://en.wikipedia.org/w/index.php?title=Magnetic_sail&oldid=1340251680
+[ref_milky_way]: https://en.wikipedia.org/w/index.php?title=Milky_Way&oldid=1340262189
+[ref_nuclear_pulse]: https://en.wikipedia.org/w/index.php?title=Nuclear_pulse_propulsion&oldid=1333041805
+[ref_penrose]: https://en.wikipedia.org/w/index.php?title=Penrose_process&oldid=1333468179
+[ref_photon_rocket]: https://en.wikipedia.org/w/index.php?title=Photon_rocket&oldid=1339823501
+[ref_reed_solomon]: https://en.wikipedia.org/w/index.php?title=Reed%E2%80%93Solomon_error_correction&oldid=1339480775
+[ref_relativistic_jet]: https://en.wikipedia.org/w/index.php?title=Astrophysical_jet&oldid=1334110655
+[ref_rkv]: https://en.wikipedia.org/w/index.php?title=Kinetic_energy_weapon&oldid=1326553597
+[ref_sagittarius_a]: https://en.wikipedia.org/w/index.php?title=Sagittarius_A%2A&oldid=1339956322
+[ref_self_replicating_spacecraft]: https://en.wikipedia.org/w/index.php?title=Self-replicating_spacecraft&oldid=1340490475
+[ref_shkadov_thruster]: https://en.wikipedia.org/w/index.php?title=Stellar_engine&oldid=1336036786
+[ref_smbh]: https://en.wikipedia.org/w/index.php?title=Supermassive_black_hole&oldid=1340779783
+[ref_star_lifting]: https://en.wikipedia.org/w/index.php?title=Star_lifting&oldid=1320602371
+[ref_supernova]: https://en.wikipedia.org/w/index.php?title=Supernova&oldid=1340935688
+[ref_von_neumann_machine]: https://en.wikipedia.org/w/index.php?title=Von_Neumann_universal_constructor&oldid=1328445089
+[ref_wormhole]: https://en.wikipedia.org/w/index.php?title=Wormhole&oldid=1338371744
 [related_post_assessment]: {% post_url 2026-03-02-tactical_and_strategic_assessment_of_local_galactic_neighborhood %}
 [related_post_causality]: {% post_url 2026-03-01-causality_and_first_mover_advantage_in_lightcone_based_competitive_intergalactic_colonization %}
 [related_post_roadmap]: {% post_url 2026-03-03-roadmap_to_competitive_type_iii_civilization %}
@@ -2804,9 +2818,9 @@ reaches ours.
 [research_cummings]: https://ui.adsabs.harvard.edu/abs/2016ApJ...831...18C/abstract
 [research_degroh]: https://ui.adsabs.harvard.edu/abs/2011MRSBu..35...20M/abstract
 [research_delvecchio]: https://arxiv.org/abs/2002.08965
-[research_dobynde]: https://doi.org/10.1029/2021SW002749
+[research_dobynde]: https://doi.org/10.1029/2021sw002749
 [research_dolag]: https://arxiv.org/abs/astro-ph/0410419
-[research_durante_cucinotta]: https://doi.org/10.1103/RevModPhys.83.1245
+[research_durante_cucinotta]: https://doi.org/10.1103/revmodphys.83.1245
 [research_dyson_ir]: https://ui.adsabs.harvard.edu/abs/1960Sci...131.1667D/abstract
 [research_dyson_transport]: https://ui.adsabs.harvard.edu/abs/1968PhT....21j..41D/abstract
 [research_ellery]: https://www.cambridge.org/core/journals/international-journal-of-astrobiology/article/selfreplicating-probes-are-imminent-implications-for-seti/2CB214D26020D497D48AE489756BEE77

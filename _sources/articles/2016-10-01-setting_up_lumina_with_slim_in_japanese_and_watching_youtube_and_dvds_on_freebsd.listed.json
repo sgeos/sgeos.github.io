@@ -1,0 +1,19 @@
+[
+ "dvd_fs",
+ "freebsd_browsers",
+ "freebsd_display_manager",
+ "freebsd_dvd_backup",
+ "freebsd_fonts",
+ "freebsd_japanese_lumina",
+ "freebsd_mate",
+ "freebsd_pkg_timeout",
+ "freebsd_play",
+ "freebsd_scim_anthy",
+ "freebsd_scim_anthy2",
+ "freebsd_video_playback",
+ "vlc_cli",
+ "vlc_dvd_problem",
+ "xdm_xsession",
+ "xdm_xsm",
+ "xorg_desktop"
+]

@@ -2231,190 +2231,202 @@ to an aircraft-like operation.
 
 ## References
 
-- [Reference, Aerospike Engine][ref_aerospike]
-- [Reference, Avangard Hypersonic Glide Vehicle][ref_avangard]
-- [Reference, Avro Vulcan][ref_vulcan]
-- [Reference, Blended Wing Body][ref_blended_wing_body]
-- [Reference, Boeing X-37B][ref_x37b]
-- [Reference, Boeing X-48][ref_x48]
-- [Reference, Boeing X-51 Waverider][ref_x51]
-- [Reference, Boom Supersonic][ref_boom_supersonic]
-- [Reference, Buran Programme][ref_buran]
-- [Reference, Center of Pressure][ref_center_of_pressure]
-- [Reference, Concorde][ref_concorde]
-- [Reference, Convair B-58 Hustler][ref_b58]
-- [Reference, Convair F-102 Delta Dagger][ref_f102]
-- [Reference, Convair F-106 Delta Dart][ref_f106]
-- [Reference, Convair XF-92A][ref_xf92]
-- [Reference, Dassault Mirage 2000][ref_mirage_2000]
-- [Reference, Dassault Mirage III][ref_mirage_iii]
-- [Reference, Delta Wing][ref_delta_wing]
-- [Reference, Dream Chaser][ref_dream_chaser]
-- [Reference, Eugen Sänger][ref_eugen_saenger]
-- [Reference, Eurofighter Typhoon][ref_eurofighter]
-- [Reference, Falcon Hypersonic Technology Vehicle 2][ref_htv2]
-- [Reference, Fly-by-Wire][ref_fly_by_wire]
-- [Reference, Flying Wing][ref_flying_wing]
-- [Reference, Geostationary Orbit][ref_geostationary]
-- [Reference, Hermès Spaceplane][ref_hermes]
-- [Reference, HOPE-X][ref_hope_x]
-- [Reference, Horten Ho 229][ref_horten_ho229]
-- [Reference, HOTOL][ref_hotol]
-- [Reference, Hypersonic Speed][ref_hypersonic]
-- [Reference, Intermediate eXperimental Vehicle][ref_ixv]
-- [Reference, Alexander Lippisch][ref_lippisch]
-- [Reference, Lift-to-Drag Ratio][ref_lift_to_drag]
-- [Reference, Lifting Body][ref_lifting_body]
-- [Reference, Lockheed Martin X-33][ref_x33]
-- [Reference, Lockheed SR-71 Blackbird][ref_sr71]
-- [Reference, Longitudinal Static Stability][ref_static_margin]
-- [Reference, Low Earth Orbit][ref_leo]
-- [Reference, Mach Number][ref_mach_number]
-- [Reference, McDonnell Douglas DC-X][ref_dcx]
-- [Reference, Messerschmitt Me 163 Komet][ref_me_163]
-- [Reference, NASA X-43][ref_x43]
-- [Reference, National Aero-Space Plane X-30][ref_nasp]
-- [Reference, North American X-15][ref_x15]
-- [Reference, Northrop Grumman B-2 Spirit][ref_b2]
-- [Reference, Northrop Grumman B-21 Raider][ref_b21]
-- [Reference, Northrop Grumman X-47B][ref_x47b]
-- [Reference, Northrop N-1M][ref_northrop_n1m]
-- [Reference, Northrop YB-35][ref_yb35]
-- [Reference, Northrop YB-49][ref_yb49]
-- [Reference, Operation Paperclip][ref_paperclip]
-- [Reference, Orbital Mechanics][ref_orbital_mechanics]
-- [Reference, Pegasus Rocket][ref_pegasus_rocket]
-- [Reference, Prompt Global Strike][ref_prompt_global_strike]
-- [Reference, Ramjet][ref_ramjet]
-- [Reference, Reusable Launch System][ref_reusable_launch]
-- [Reference, SABRE Engine][ref_sabre_engine]
-- [Reference, Saab 35 Draken][ref_draken]
-- [Reference, Saab 37 Viggen][ref_viggen]
-- [Reference, Saab JAS 39 Gripen][ref_gripen]
-- [Reference, Sänger Spaceplane Concept][ref_saenger]
-- [Reference, Scaled Composites White Knight][ref_white_knight]
-- [Reference, Scramjet][ref_scramjet]
-- [Reference, Silbervogel][ref_silbervogel]
-- [Reference, Single-Stage-to-Orbit][ref_ssto]
-- [Reference, Skylon Spaceplane][ref_skylon]
-- [Reference, Space Rider][ref_space_rider]
-- [Reference, Space Shuttle Program][ref_shuttle]
-- [Reference, SpaceShipTwo][ref_spaceshiptwo]
-- [Reference, SpaceX Starship][ref_starship]
-- [Reference, Specific Impulse][ref_specific_impulse]
-- [Reference, Star-Raker][ref_star_raker]
-- [Reference, Swept Wing][ref_swept_wing]
-- [Reference, Thermal Protection System][ref_tps]
-- [Reference, Tsiolkovsky Rocket Equation][ref_rocket_equation]
-- [Reference, Tupolev Tu-144][ref_tu144]
-- [Reference, Two-Stage-to-Orbit][ref_tsto]
-- [Reference, Ultra-High-Temperature Ceramics][ref_uhtc]
-- [Reference, Vortex Lift][ref_vortex_lift]
-- [Reference, Waverider][ref_waverider]
-- [Reference, Boeing X-20 Dyna-Soar][ref_x20]
-- [Related Post, History of Rocketplanes][related_post_rocketplanes]
-- [Related Post, Introduction to Space Studies][related_post_space_studies]
-- [Research, NASA Clipped Delta Wing Control Surfaces at Supersonic Speeds][research_clipped_delta]
-- [Research, NASA Supersonic Stage Separation Wind Tunnel Investigation][research_nasa_staging]
-- [Research, NASA X-43 Stage Separation Prediction Using CFD][research_x43_separation]
-- [Research, Polhamus 1966 Vortex Lift Suction Analogy][research_polhamus]
-- [Future Reading, Fundamentals of Aerodynamics by Anderson][future_anderson]
-- [Future Reading, Hypersonic and High-Temperature Gas Dynamics by Anderson][future_anderson_hypersonic]
-- [Future Reading, Aircraft Design by Raymer][future_raymer]
-- [Future Reading, Hypersonic Airbreathing Propulsion by Heiser and Pratt][future_heiser]
-- [Future Reading, The Hypersonic Revolution edited by Hallion][future_hallion]
-- [Future Reading, The Aerodynamic Design of Aircraft by Kuchemann][future_kuchemann]
+<!-- References generated by _lib/sources.py from _sources/. Edit the database and regenerate. Do not edit this section by hand. -->
+
+### Primary Sources, Non-Peer-Reviewed
+
+- Buning, Pieter G., Tin-Chee Wong, Arthur D. Dilley, and Jenn L. Pao. 2000. *Prediction of Hyper-X Stage Separation Aerodynamics Using CFD*. AIAA Paper 2000-4009. NASA Langley Research Center. [https://ntrs.nasa.gov/citations/20000091005][research_x43_separation]
+- Erickson, Gary E. 2020. *Wind Tunnel Investigation of the Supersonic Stage Separation Aerodynamics of a Generic 0.0175-Scale Bimese Two-Stage-to-Orbit Reusable Launch Vehicle Configuration*. NASA/TM–2020-220582. NASA. [https://ntrs.nasa.gov/citations/20200002873][research_nasa_staging]
+- Hernandez, Gloria, Richard M. Wood, and Peter F. Covell. 1994. *Effect of Leading- and Trailing-Edge Flaps on Clipped Delta Wings with and without Wing Camber at Supersonic Speeds*. NASA-TM-4542. NASA. [https://ntrs.nasa.gov/citations/19950003616][research_clipped_delta]
+- *The Hypersonic Revolution edited by Hallion*. n.d. [https://ntrs.nasa.gov/citations/19980169782][future_hallion]
+- Polhamus, E. C. 1966. *A Concept of the Vortex Lift of Sharp-Edge Delta Wings Based on a Leading-Edge-Suction Analogy*. NASA-TN-D-3767. NASA. [https://ntrs.nasa.gov/citations/19670003842][research_polhamus]
+
+### Secondary Sources
+
+- Anderson, John, and Chris Cadou. 2023. *Fundamentals of Aerodynamics*. McGraw-Hill Education. [https://www.mheducation.com/highered/product/fundamentals-aerodynamics-anderson/M9781264151929.html][future_anderson]
+- Heiser, William, David Pratt, Daniel Daley, and Unmeel Mehta. 1994. *Hypersonic Airbreathing Propulsion*. American Institute of Aeronautics and Astronautics, Inc. [https://doi.org/10.2514/4.470356][future_heiser]
+- Küchemann, Dietrich. 2012. *The Aerodynamic Design of Aircraft*. American Institute of Aeronautics and Astronautics, Inc. [https://doi.org/10.2514/4.869228][future_kuchemann]
+
+### General Sources
+
+- "Aircraft Design: A Conceptual Approach, Sixth Edition." n.d. AIAA Education Series. Accessed October 25, 2026. [https://arc.aiaa.org/doi/book/10.2514/4.104909][future_raymer]
+- "Future Reading, Hypersonic and High-Temperature Gas Dynamics by Anderson." n.d. Accessed October 25, 2026. [https://arc.aiaa.org/doi/book/10.2514/4.105142][future_anderson_hypersonic]
+- "Sänger Spaceplane Concept." n.d. Accessed October 25, 2026. [https://en.wikipedia.org/wiki/S%C3%A4nger\_II][ref_saenger]
+
+### Tertiary Sources
+
+- "Aerospike Engine." 2026. Wikipedia. Last modified February 4, at 01:50 (UTC). [https://en.wikipedia.org/w/index.php?title=Aerospike\_engine&oldid=1336484721][ref_aerospike]
+- "Alexander Lippisch." 2026. Wikipedia. Last modified January 29, at 18:40 (UTC). [https://en.wikipedia.org/w/index.php?title=Alexander\_Lippisch&oldid=1335526007][ref_lippisch]
+- "Atmospheric Entry." 2026. Wikipedia. Last modified February 23, at 00:48 (UTC). [https://en.wikipedia.org/w/index.php?title=Atmospheric\_entry&oldid=1339928327][ref_tps]
+- "Avangard (Hypersonic Glide Vehicle)." 2026. Wikipedia. Last modified January 9, at 17:47 (UTC). [https://en.wikipedia.org/w/index.php?title=Avangard\_(hypersonic\_glide\_vehicle)&oldid=1332060777][ref_avangard]
+- "Avro Vulcan." 2026. Wikipedia. Last modified January 31, at 11:10 (UTC). [https://en.wikipedia.org/w/index.php?title=Avro\_Vulcan&oldid=1335821152][ref_vulcan]
+- "Blended Wing Body." 2026. Wikipedia. Last modified January 16, at 20:14 (UTC). [https://en.wikipedia.org/w/index.php?title=Blended\_wing\_body&oldid=1333280539][ref_blended_wing_body]
+- "Boeing X-20 Dyna-Soar." 2026. Wikipedia. Last modified January 19, at 13:02 (UTC). [https://en.wikipedia.org/w/index.php?title=Boeing\_X-20\_Dyna-Soar&oldid=1333734859][ref_x20]
+- "Boeing X-37." 2026. Wikipedia. Last modified February 18, at 01:58 (UTC). [https://en.wikipedia.org/w/index.php?title=Boeing\_X-37&oldid=1338933184][ref_x37b]
+- "Boeing X-48." 2025. Wikipedia. Last modified November 11, at 14:49 (UTC). [https://en.wikipedia.org/w/index.php?title=Boeing\_X-48&oldid=1321603411][ref_x48]
+- "Boeing X-51 Waverider." 2025. Wikipedia. Last modified April 5, at 07:29 (UTC). [https://en.wikipedia.org/w/index.php?title=Boeing\_X-51\_Waverider&oldid=1284050871][ref_x51]
+- "Boom Technology." 2026. Wikipedia. Last modified January 24, at 10:17 (UTC). [https://en.wikipedia.org/w/index.php?title=Boom\_Technology&oldid=1334573387][ref_boom_supersonic]
+- "British Aerospace HOTOL." 2025. Wikipedia. Last modified October 16, at 13:57 (UTC). [https://en.wikipedia.org/w/index.php?title=British\_Aerospace\_HOTOL&oldid=1317125891][ref_hotol]
+- "Buran Programme." 2026. Wikipedia. Last modified March 2, at 17:41 (UTC). [https://en.wikipedia.org/w/index.php?title=Buran\_programme&oldid=1341339612][ref_buran]
+- "Center of Pressure (Fluid Mechanics)." 2026. Wikipedia. Last modified March 3, at 13:45 (UTC). [https://en.wikipedia.org/w/index.php?title=Center\_of\_pressure\_(fluid\_mechanics)&oldid=1341492354][ref_center_of_pressure]
+- "Concorde." 2026. Wikipedia. Last modified March 4, at 17:54 (UTC). [https://en.wikipedia.org/w/index.php?title=Concorde&oldid=1341721440][ref_concorde]
+- "Convair B-58 Hustler." 2026. Wikipedia. Last modified February 25, at 07:37 (UTC). [https://en.wikipedia.org/w/index.php?title=Convair\_B-58\_Hustler&oldid=1340362074][ref_b58]
+- "Convair F-102 Delta Dagger." 2026. Wikipedia. Last modified February 10, at 19:20 (UTC). [https://en.wikipedia.org/w/index.php?title=Convair\_F-102\_Delta\_Dagger&oldid=1337659517][ref_f102]
+- "Convair F-106 Delta Dart." 2026. Wikipedia. Last modified February 28, at 17:29 (UTC). [https://en.wikipedia.org/w/index.php?title=Convair\_F-106\_Delta\_Dart&oldid=1340946781][ref_f106]
+- "Convair XF-92." 2025. Wikipedia. Last modified September 28, at 08:42 (UTC). [https://en.wikipedia.org/w/index.php?title=Convair\_XF-92&oldid=1313820428][ref_xf92]
+- "Conventional Prompt Strike." 2026. Wikipedia. Last modified February 10, at 19:44 (UTC). [https://en.wikipedia.org/w/index.php?title=Conventional\_Prompt\_Strike&oldid=1337663060][ref_prompt_global_strike]
+- "Dassault Mirage 2000." 2026. Wikipedia. Last modified February 26, at 11:16 (UTC). [https://en.wikipedia.org/w/index.php?title=Dassault\_Mirage\_2000&oldid=1340565501][ref_mirage_2000]
+- "Dassault Mirage III." 2026. Wikipedia. Last modified February 28, at 12:57 (UTC). [https://en.wikipedia.org/w/index.php?title=Dassault\_Mirage\_III&oldid=1340917756][ref_mirage_iii]
+- "Delta Wing." 2026. Wikipedia. Last modified February 18, at 11:20 (UTC). [https://en.wikipedia.org/w/index.php?title=Delta\_wing&oldid=1338994076][ref_delta_wing]
+- "Dream Chaser." 2026. Wikipedia. Last modified February 23, at 23:42 (UTC). [https://en.wikipedia.org/w/index.php?title=Dream\_Chaser&oldid=1340098458][ref_dream_chaser]
+- "Eugen Sänger." 2026. Wikipedia. Last modified February 13, at 14:46 (UTC). [https://en.wikipedia.org/w/index.php?title=Eugen\_S%C3%A4nger&oldid=1338156361][ref_eugen_saenger]
+- "Eurofighter Typhoon." 2026. Wikipedia. Last modified March 2, at 19:48 (UTC). [https://en.wikipedia.org/w/index.php?title=Eurofighter\_Typhoon&oldid=1341356857][ref_eurofighter]
+- "Fly-by-Wire." 2026. Wikipedia. Last modified January 21, at 07:16 (UTC). [https://en.wikipedia.org/w/index.php?title=Fly-by-wire&oldid=1334056316][ref_fly_by_wire]
+- "Flying Wing." 2026. Wikipedia. Last modified February 15, at 01:41 (UTC). [https://en.wikipedia.org/w/index.php?title=Flying\_wing&oldid=1338420107][ref_flying_wing]
+- "Geostationary Orbit." 2026. Wikipedia. Last modified February 2, at 10:20 (UTC). [https://en.wikipedia.org/w/index.php?title=Geostationary\_orbit&oldid=1336184288][ref_geostationary]
+- "Hermes (Spacecraft)." 2026. Wikipedia. Last modified February 13, at 04:24 (UTC). [https://en.wikipedia.org/w/index.php?title=Hermes\_(spacecraft)&oldid=1338088790][ref_hermes]
+- "HOPE-X." 2024. Wikipedia. Last modified July 4, at 16:40 (UTC). [https://en.wikipedia.org/w/index.php?title=HOPE-X&oldid=1232608569][ref_hope_x]
+- "Horten Ho 229." 2026. Wikipedia. Last modified January 1, at 20:05 (UTC). [https://en.wikipedia.org/w/index.php?title=Horten\_Ho\_229&oldid=1330665254][ref_horten_ho229]
+- "Hypersonic Speed." 2026. Wikipedia. Last modified January 21, at 02:00 (UTC). [https://en.wikipedia.org/w/index.php?title=Hypersonic\_speed&oldid=1334016208][ref_hypersonic]
+- "Hypersonic Technology Vehicle 2." 2026. Wikipedia. Last modified January 16, at 18:51 (UTC). [https://en.wikipedia.org/w/index.php?title=Hypersonic\_Technology\_Vehicle\_2&oldid=1333268437][ref_htv2]
+- "Intermediate eXperimental Vehicle." 2026. Wikipedia. Last modified January 18, at 10:40 (UTC). [https://en.wikipedia.org/w/index.php?title=Intermediate\_eXperimental\_Vehicle&oldid=1333535954][ref_ixv]
+- "Lift-to-Drag Ratio." 2025. Wikipedia. Last modified October 2, at 10:41 (UTC). [https://en.wikipedia.org/w/index.php?title=Lift-to-drag\_ratio&oldid=1314615335][ref_lift_to_drag]
+- "Lifting Body." 2026. Wikipedia. Last modified January 28, at 02:43 (UTC). [https://en.wikipedia.org/w/index.php?title=Lifting\_body&oldid=1335230534][ref_lifting_body]
+- "Lockheed Martin X-33." 2026. Wikipedia. Last modified February 10, at 18:59 (UTC). [https://en.wikipedia.org/w/index.php?title=Lockheed\_Martin\_X-33&oldid=1337656265][ref_x33]
+- "Lockheed SR-71 Blackbird." 2026. Wikipedia. Last modified February 26, at 06:27 (UTC). [https://en.wikipedia.org/w/index.php?title=Lockheed\_SR-71\_Blackbird&oldid=1340534278][ref_sr71]
+- "Longitudinal Stability." 2026. Wikipedia. Last modified January 23, at 15:22 (UTC). [https://en.wikipedia.org/w/index.php?title=Longitudinal\_stability&oldid=1334439692][ref_static_margin]
+- "Low Earth Orbit." 2026. Wikipedia. Last modified February 24, at 03:26 (UTC). [https://en.wikipedia.org/w/index.php?title=Low\_Earth\_orbit&oldid=1340136028][ref_leo]
+- "Mach Number." 2026. Wikipedia. Last modified March 3, at 17:18 (UTC). [https://en.wikipedia.org/w/index.php?title=Mach\_number&oldid=1341518938][ref_mach_number]
+- "McDonnell Douglas DC-X." 2026. Wikipedia. Last modified February 19, at 15:38 (UTC). [https://en.wikipedia.org/w/index.php?title=McDonnell\_Douglas\_DC-X&oldid=1339220640][ref_dcx]
+- "Messerschmitt Me 163 Komet." 2025. Wikipedia. Last modified December 19, at 14:47 (UTC). [https://en.wikipedia.org/w/index.php?title=Messerschmitt\_Me\_163\_Komet&oldid=1328380694][ref_me_163]
+- "NASA X-43." 2026. Wikipedia. Last modified January 12, at 19:46 (UTC). [https://en.wikipedia.org/w/index.php?title=NASA\_X-43&oldid=1332600803][ref_x43]
+- "North American X-15." 2026. Wikipedia. Last modified March 1, at 14:00 (UTC). [https://en.wikipedia.org/w/index.php?title=North\_American\_X-15&oldid=1341109634][ref_x15]
+- "Northrop B-2 Spirit." 2026. Wikipedia. Last modified March 2, at 20:04 (UTC). [https://en.wikipedia.org/w/index.php?title=Northrop\_B-2\_Spirit&oldid=1341359106][ref_b2]
+- "Northrop Grumman B-21 Raider." 2026. Wikipedia. Last modified March 4, at 02:44 (UTC). [https://en.wikipedia.org/w/index.php?title=Northrop\_Grumman\_B-21\_Raider&oldid=1341610591][ref_b21]
+- "Northrop Grumman Pegasus." 2026. Wikipedia. Last modified January 23, at 18:27 (UTC). [https://en.wikipedia.org/w/index.php?title=Northrop\_Grumman\_Pegasus&oldid=1334464796][ref_pegasus_rocket]
+- "Northrop Grumman X-47B." 2026. Wikipedia. Last modified February 24, at 22:43 (UTC). [https://en.wikipedia.org/w/index.php?title=Northrop\_Grumman\_X-47B&oldid=1340289892][ref_x47b]
+- "Northrop N-1M." 2025. Wikipedia. Last modified June 28, at 23:51 (UTC). [https://en.wikipedia.org/w/index.php?title=Northrop\_N-1M&oldid=1297859500][ref_northrop_n1m]
+- "Northrop YB-35." 2025. Wikipedia. Last modified November 26, at 15:21 (UTC). [https://en.wikipedia.org/w/index.php?title=Northrop\_YB-35&oldid=1324258308][ref_yb35]
+- "Northrop YB-49." 2026. Wikipedia. Last modified January 9, at 15:30 (UTC). [https://en.wikipedia.org/w/index.php?title=Northrop\_YB-49&oldid=1332041135][ref_yb49]
+- "Operation Paperclip." 2026. Wikipedia. Last modified March 4, at 07:36 (UTC). [https://en.wikipedia.org/w/index.php?title=Operation\_Paperclip&oldid=1341653153][ref_paperclip]
+- "Orbital Mechanics." 2026. Wikipedia. Last modified February 18, at 07:26 (UTC). [https://en.wikipedia.org/w/index.php?title=Orbital\_mechanics&oldid=1338973693][ref_orbital_mechanics]
+- "Ramjet." 2026. Wikipedia. Last modified February 22, at 14:29 (UTC). [https://en.wikipedia.org/w/index.php?title=Ramjet&oldid=1339824211][ref_ramjet]
+- "Reusable Launch Vehicle." 2026. Wikipedia. Last modified February 27, at 10:06 (UTC). [https://en.wikipedia.org/w/index.php?title=Reusable\_launch\_vehicle&oldid=1340738453][ref_reusable_launch]
+- "Rockwell X-30." 2026. Wikipedia. Last modified January 28, at 05:42 (UTC). [https://en.wikipedia.org/w/index.php?title=Rockwell\_X-30&oldid=1335251084][ref_nasp]
+- "Saab 35 Draken." 2026. Wikipedia. Last modified February 20, at 18:44 (UTC). [https://en.wikipedia.org/w/index.php?title=Saab\_35\_Draken&oldid=1339468913][ref_draken]
+- "Saab 37 Viggen." 2026. Wikipedia. Last modified January 19, at 22:44 (UTC). [https://en.wikipedia.org/w/index.php?title=Saab\_37\_Viggen&oldid=1333817905][ref_viggen]
+- "Saab JAS 39 Gripen." 2026. Wikipedia. Last modified February 24, at 04:34 (UTC). [https://en.wikipedia.org/w/index.php?title=Saab\_JAS\_39\_Gripen&oldid=1340146529][ref_gripen]
+- "SABRE (Rocket Engine)." 2026. Wikipedia. Last modified March 4, at 08:28 (UTC). [https://en.wikipedia.org/w/index.php?title=SABRE\_(rocket\_engine)&oldid=1341657292][ref_sabre_engine]
+- "Scaled Composites White Knight." 2025. Wikipedia. Last modified October 25, at 10:56 (UTC). [https://en.wikipedia.org/w/index.php?title=Scaled\_Composites\_White\_Knight&oldid=1318685091][ref_white_knight]
+- "Scramjet." 2026. Wikipedia. Last modified February 3, at 16:24 (UTC). [https://en.wikipedia.org/w/index.php?title=Scramjet&oldid=1336403495][ref_scramjet]
+- "Silbervogel." 2025. Wikipedia. Last modified October 11, at 07:02 (UTC). [https://en.wikipedia.org/w/index.php?title=Silbervogel&oldid=1316237133][ref_silbervogel]
+- "Single-Stage-to-Orbit." 2026. Wikipedia. Last modified February 12, at 20:17 (UTC). [https://en.wikipedia.org/w/index.php?title=Single-stage-to-orbit&oldid=1338027163][ref_ssto]
+- "Skylon (Spacecraft)." 2026. Wikipedia. Last modified January 25, at 08:27 (UTC). [https://en.wikipedia.org/w/index.php?title=Skylon\_(spacecraft)&oldid=1334726586][ref_skylon]
+- "Space Rider." 2026. Wikipedia. Last modified February 23, at 22:15 (UTC). [https://en.wikipedia.org/w/index.php?title=Space\_Rider&oldid=1340087982][ref_space_rider]
+- "Space Shuttle Program." 2026. Wikipedia. Last modified January 19, at 14:36 (UTC). [https://en.wikipedia.org/w/index.php?title=Space\_Shuttle\_program&oldid=1333744633][ref_shuttle]
+- "SpaceShipTwo." 2026. Wikipedia. Last modified February 15, at 18:09 (UTC). [https://en.wikipedia.org/w/index.php?title=SpaceShipTwo&oldid=1338526105][ref_spaceshiptwo]
+- "SpaceX Starship." 2026. Wikipedia. Last modified March 4, at 17:51 (UTC). [https://en.wikipedia.org/w/index.php?title=SpaceX\_Starship&oldid=1341721181][ref_starship]
+- "Specific Impulse." 2026. Wikipedia. Last modified February 27, at 21:49 (UTC). [https://en.wikipedia.org/w/index.php?title=Specific\_impulse&oldid=1340816504][ref_specific_impulse]
+- "Swept Wing." 2025. Wikipedia. Last modified December 22, at 03:22 (UTC). [https://en.wikipedia.org/w/index.php?title=Swept\_wing&oldid=1328845509][ref_swept_wing]
+- "Tsiolkovsky Rocket Equation." 2026. Wikipedia. Last modified February 19, at 19:50 (UTC). [https://en.wikipedia.org/w/index.php?title=Tsiolkovsky\_rocket\_equation&oldid=1339265602][ref_rocket_equation]
+- "Tupolev Tu-144." 2026. Wikipedia. Last modified March 4, at 16:35 (UTC). [https://en.wikipedia.org/w/index.php?title=Tupolev\_Tu-144&oldid=1341710676][ref_tu144]
+- "Two-Stage-to-Orbit." 2025. Wikipedia. Last modified December 3, at 16:57 (UTC). [https://en.wikipedia.org/w/index.php?title=Two-stage-to-orbit&oldid=1325537168][ref_tsto]
+- "Ultra-High Temperature Ceramic." 2026. Wikipedia. Last modified February 27, at 01:46 (UTC). [https://en.wikipedia.org/w/index.php?title=Ultra-high\_temperature\_ceramic&oldid=1340676888][ref_uhtc]
+- "Vortex Lift." 2025. Wikipedia. Last modified September 1, at 19:10 (UTC). [https://en.wikipedia.org/w/index.php?title=Vortex\_lift&oldid=1309024110][ref_vortex_lift]
+- "Waverider." 2025. Wikipedia. Last modified September 16, at 02:42 (UTC). [https://en.wikipedia.org/w/index.php?title=Waverider&oldid=1311620728][ref_waverider]
+
+### Related Posts
+
+- Sechter, Brendan. 2026. "Introduction to Space Studies." *Brendan A R Sechter's Development Blog*, February 21. [https://sgeos.github.io/space/math/2026/02/21/introduction\_to\_space\_studies.html][related_post_space_studies]
+- Sechter, Brendan. 2026. "History of Rocketplanes." *Brendan A R Sechter's Development Blog*, February 27. [https://sgeos.github.io/space/history/2026/02/27/history\_of\_rocketplanes.html][related_post_rocketplanes]
 
 [future_anderson]: https://www.mheducation.com/highered/product/fundamentals-aerodynamics-anderson/M9781264151929.html
 [future_anderson_hypersonic]: https://arc.aiaa.org/doi/book/10.2514/4.105142
 [future_hallion]: https://ntrs.nasa.gov/citations/19980169782
-[future_heiser]: https://arc.aiaa.org/doi/book/10.2514/4.470356
-[future_kuchemann]: https://arc.aiaa.org/doi/book/10.2514/4.869228
+[future_heiser]: https://doi.org/10.2514/4.470356
+[future_kuchemann]: https://doi.org/10.2514/4.869228
 [future_raymer]: https://arc.aiaa.org/doi/book/10.2514/4.104909
-[ref_aerospike]: https://en.wikipedia.org/wiki/Aerospike_engine
-[ref_avangard]: https://en.wikipedia.org/wiki/Avangard_(hypersonic_glide_vehicle)
-[ref_b2]: https://en.wikipedia.org/wiki/Northrop_Grumman_B-2_Spirit
-[ref_b21]: https://en.wikipedia.org/wiki/Northrop_Grumman_B-21_Raider
-[ref_b58]: https://en.wikipedia.org/wiki/Convair_B-58_Hustler
-[ref_blended_wing_body]: https://en.wikipedia.org/wiki/Blended_wing_body
-[ref_boom_supersonic]: https://en.wikipedia.org/wiki/Boom_Technology
-[ref_buran]: https://en.wikipedia.org/wiki/Buran_programme
-[ref_center_of_pressure]: https://en.wikipedia.org/wiki/Center_of_pressure_(fluid_mechanics)
-[ref_concorde]: https://en.wikipedia.org/wiki/Concorde
-[ref_dcx]: https://en.wikipedia.org/wiki/McDonnell_Douglas_DC-X
-[ref_delta_wing]: https://en.wikipedia.org/wiki/Delta_wing
-[ref_draken]: https://en.wikipedia.org/wiki/Saab_35_Draken
-[ref_dream_chaser]: https://en.wikipedia.org/wiki/Dream_Chaser
-[ref_eugen_saenger]: https://en.wikipedia.org/wiki/Eugen_S%C3%A4nger
-[ref_eurofighter]: https://en.wikipedia.org/wiki/Eurofighter_Typhoon
-[ref_f102]: https://en.wikipedia.org/wiki/Convair_F-102_Delta_Dagger
-[ref_f106]: https://en.wikipedia.org/wiki/Convair_F-106_Delta_Dart
-[ref_fly_by_wire]: https://en.wikipedia.org/wiki/Fly-by-wire
-[ref_flying_wing]: https://en.wikipedia.org/wiki/Flying_wing
-[ref_geostationary]: https://en.wikipedia.org/wiki/Geostationary_orbit
-[ref_gripen]: https://en.wikipedia.org/wiki/Saab_JAS_39_Gripen
-[ref_hermes]: https://en.wikipedia.org/wiki/Herm%C3%A8s_(spacecraft)
-[ref_hope_x]: https://en.wikipedia.org/wiki/HOPE-X
-[ref_horten_ho229]: https://en.wikipedia.org/wiki/Horten_Ho_229
-[ref_hotol]: https://en.wikipedia.org/wiki/HOTOL
-[ref_htv2]: https://en.wikipedia.org/wiki/Falcon_HTV-2
-[ref_hypersonic]: https://en.wikipedia.org/wiki/Hypersonic_speed
-[ref_ixv]: https://en.wikipedia.org/wiki/Intermediate_eXperimental_Vehicle
-[ref_leo]: https://en.wikipedia.org/wiki/Low_Earth_orbit
-[ref_lift_to_drag]: https://en.wikipedia.org/wiki/Lift-to-drag_ratio
-[ref_lifting_body]: https://en.wikipedia.org/wiki/Lifting_body
-[ref_lippisch]: https://en.wikipedia.org/wiki/Alexander_Lippisch
-[ref_mach_number]: https://en.wikipedia.org/wiki/Mach_number
-[ref_me_163]: https://en.wikipedia.org/wiki/Messerschmitt_Me_163_Komet
-[ref_mirage_2000]: https://en.wikipedia.org/wiki/Dassault_Mirage_2000
-[ref_mirage_iii]: https://en.wikipedia.org/wiki/Dassault_Mirage_III
-[ref_nasp]: https://en.wikipedia.org/wiki/Rockwell_X-30
-[ref_northrop_n1m]: https://en.wikipedia.org/wiki/Northrop_N-1M
-[ref_orbital_mechanics]: https://en.wikipedia.org/wiki/Orbital_mechanics
-[ref_paperclip]: https://en.wikipedia.org/wiki/Operation_Paperclip
-[ref_pegasus_rocket]: https://en.wikipedia.org/wiki/Northrop_Grumman_Pegasus
-[ref_prompt_global_strike]: https://en.wikipedia.org/wiki/Prompt_Global_Strike
-[ref_ramjet]: https://en.wikipedia.org/wiki/Ramjet
-[ref_reusable_launch]: https://en.wikipedia.org/wiki/Reusable_launch_system
-[ref_rocket_equation]: https://en.wikipedia.org/wiki/Tsiolkovsky_rocket_equation
-[ref_sabre_engine]: https://en.wikipedia.org/wiki/SABRE_(rocket_engine)
+[ref_aerospike]: https://en.wikipedia.org/w/index.php?title=Aerospike_engine&oldid=1336484721
+[ref_avangard]: https://en.wikipedia.org/w/index.php?title=Avangard_(hypersonic_glide_vehicle)&oldid=1332060777
+[ref_b2]: https://en.wikipedia.org/w/index.php?title=Northrop_B-2_Spirit&oldid=1341359106
+[ref_b21]: https://en.wikipedia.org/w/index.php?title=Northrop_Grumman_B-21_Raider&oldid=1341610591
+[ref_b58]: https://en.wikipedia.org/w/index.php?title=Convair_B-58_Hustler&oldid=1340362074
+[ref_blended_wing_body]: https://en.wikipedia.org/w/index.php?title=Blended_wing_body&oldid=1333280539
+[ref_boom_supersonic]: https://en.wikipedia.org/w/index.php?title=Boom_Technology&oldid=1334573387
+[ref_buran]: https://en.wikipedia.org/w/index.php?title=Buran_programme&oldid=1341339612
+[ref_center_of_pressure]: https://en.wikipedia.org/w/index.php?title=Center_of_pressure_(fluid_mechanics)&oldid=1341492354
+[ref_concorde]: https://en.wikipedia.org/w/index.php?title=Concorde&oldid=1341721440
+[ref_dcx]: https://en.wikipedia.org/w/index.php?title=McDonnell_Douglas_DC-X&oldid=1339220640
+[ref_delta_wing]: https://en.wikipedia.org/w/index.php?title=Delta_wing&oldid=1338994076
+[ref_draken]: https://en.wikipedia.org/w/index.php?title=Saab_35_Draken&oldid=1339468913
+[ref_dream_chaser]: https://en.wikipedia.org/w/index.php?title=Dream_Chaser&oldid=1340098458
+[ref_eugen_saenger]: https://en.wikipedia.org/w/index.php?title=Eugen_S%C3%A4nger&oldid=1338156361
+[ref_eurofighter]: https://en.wikipedia.org/w/index.php?title=Eurofighter_Typhoon&oldid=1341356857
+[ref_f102]: https://en.wikipedia.org/w/index.php?title=Convair_F-102_Delta_Dagger&oldid=1337659517
+[ref_f106]: https://en.wikipedia.org/w/index.php?title=Convair_F-106_Delta_Dart&oldid=1340946781
+[ref_fly_by_wire]: https://en.wikipedia.org/w/index.php?title=Fly-by-wire&oldid=1334056316
+[ref_flying_wing]: https://en.wikipedia.org/w/index.php?title=Flying_wing&oldid=1338420107
+[ref_geostationary]: https://en.wikipedia.org/w/index.php?title=Geostationary_orbit&oldid=1336184288
+[ref_gripen]: https://en.wikipedia.org/w/index.php?title=Saab_JAS_39_Gripen&oldid=1340146529
+[ref_hermes]: https://en.wikipedia.org/w/index.php?title=Hermes_(spacecraft)&oldid=1338088790
+[ref_hope_x]: https://en.wikipedia.org/w/index.php?title=HOPE-X&oldid=1232608569
+[ref_horten_ho229]: https://en.wikipedia.org/w/index.php?title=Horten_Ho_229&oldid=1330665254
+[ref_hotol]: https://en.wikipedia.org/w/index.php?title=British_Aerospace_HOTOL&oldid=1317125891
+[ref_htv2]: https://en.wikipedia.org/w/index.php?title=Hypersonic_Technology_Vehicle_2&oldid=1333268437
+[ref_hypersonic]: https://en.wikipedia.org/w/index.php?title=Hypersonic_speed&oldid=1334016208
+[ref_ixv]: https://en.wikipedia.org/w/index.php?title=Intermediate_eXperimental_Vehicle&oldid=1333535954
+[ref_leo]: https://en.wikipedia.org/w/index.php?title=Low_Earth_orbit&oldid=1340136028
+[ref_lift_to_drag]: https://en.wikipedia.org/w/index.php?title=Lift-to-drag_ratio&oldid=1314615335
+[ref_lifting_body]: https://en.wikipedia.org/w/index.php?title=Lifting_body&oldid=1335230534
+[ref_lippisch]: https://en.wikipedia.org/w/index.php?title=Alexander_Lippisch&oldid=1335526007
+[ref_mach_number]: https://en.wikipedia.org/w/index.php?title=Mach_number&oldid=1341518938
+[ref_me_163]: https://en.wikipedia.org/w/index.php?title=Messerschmitt_Me_163_Komet&oldid=1328380694
+[ref_mirage_2000]: https://en.wikipedia.org/w/index.php?title=Dassault_Mirage_2000&oldid=1340565501
+[ref_mirage_iii]: https://en.wikipedia.org/w/index.php?title=Dassault_Mirage_III&oldid=1340917756
+[ref_nasp]: https://en.wikipedia.org/w/index.php?title=Rockwell_X-30&oldid=1335251084
+[ref_northrop_n1m]: https://en.wikipedia.org/w/index.php?title=Northrop_N-1M&oldid=1297859500
+[ref_orbital_mechanics]: https://en.wikipedia.org/w/index.php?title=Orbital_mechanics&oldid=1338973693
+[ref_paperclip]: https://en.wikipedia.org/w/index.php?title=Operation_Paperclip&oldid=1341653153
+[ref_pegasus_rocket]: https://en.wikipedia.org/w/index.php?title=Northrop_Grumman_Pegasus&oldid=1334464796
+[ref_prompt_global_strike]: https://en.wikipedia.org/w/index.php?title=Conventional_Prompt_Strike&oldid=1337663060
+[ref_ramjet]: https://en.wikipedia.org/w/index.php?title=Ramjet&oldid=1339824211
+[ref_reusable_launch]: https://en.wikipedia.org/w/index.php?title=Reusable_launch_vehicle&oldid=1340738453
+[ref_rocket_equation]: https://en.wikipedia.org/w/index.php?title=Tsiolkovsky_rocket_equation&oldid=1339265602
+[ref_sabre_engine]: https://en.wikipedia.org/w/index.php?title=SABRE_(rocket_engine)&oldid=1341657292
 [ref_saenger]: https://en.wikipedia.org/wiki/S%C3%A4nger_II
-[ref_scramjet]: https://en.wikipedia.org/wiki/Scramjet
-[ref_shuttle]: https://en.wikipedia.org/wiki/Space_Shuttle_program
-[ref_silbervogel]: https://en.wikipedia.org/wiki/Silbervogel
-[ref_skylon]: https://en.wikipedia.org/wiki/Skylon_(spacecraft)
-[ref_space_rider]: https://en.wikipedia.org/wiki/Space_Rider
-[ref_spaceshiptwo]: https://en.wikipedia.org/wiki/SpaceShipTwo
-[ref_specific_impulse]: https://en.wikipedia.org/wiki/Specific_impulse
-[ref_sr71]: https://en.wikipedia.org/wiki/Lockheed_SR-71_Blackbird
-[ref_ssto]: https://en.wikipedia.org/wiki/Single-stage-to-orbit
-[ref_star_raker]: https://en.wikipedia.org/wiki/Star-Raker
-[ref_starship]: https://en.wikipedia.org/wiki/SpaceX_Starship
-[ref_static_margin]: https://en.wikipedia.org/wiki/Longitudinal_static_stability
-[ref_swept_wing]: https://en.wikipedia.org/wiki/Swept_wing
-[ref_tps]: https://en.wikipedia.org/wiki/Thermal_protection_system
-[ref_tsto]: https://en.wikipedia.org/wiki/Two-stage-to-orbit
-[ref_tu144]: https://en.wikipedia.org/wiki/Tupolev_Tu-144
-[ref_uhtc]: https://en.wikipedia.org/wiki/Ultra-high-temperature_ceramics
-[ref_viggen]: https://en.wikipedia.org/wiki/Saab_37_Viggen
-[ref_vortex_lift]: https://en.wikipedia.org/wiki/Vortex_lift
-[ref_vulcan]: https://en.wikipedia.org/wiki/Avro_Vulcan
-[ref_waverider]: https://en.wikipedia.org/wiki/Waverider
-[ref_white_knight]: https://en.wikipedia.org/wiki/Scaled_Composites_White_Knight
-[ref_x15]: https://en.wikipedia.org/wiki/North_American_X-15
-[ref_x20]: https://en.wikipedia.org/wiki/Boeing_X-20_Dyna-Soar
-[ref_x33]: https://en.wikipedia.org/wiki/Lockheed_Martin_X-33
-[ref_x37b]: https://en.wikipedia.org/wiki/Boeing_X-37
-[ref_x43]: https://en.wikipedia.org/wiki/NASA_X-43
-
-[ref_x47b]: https://en.wikipedia.org/wiki/Northrop_Grumman_X-47B
-[ref_x48]: https://en.wikipedia.org/wiki/Boeing_X-48
-
-[ref_x51]: https://en.wikipedia.org/wiki/Boeing_X-51_Waverider
-[ref_xf92]: https://en.wikipedia.org/wiki/Convair_XF-92
-[ref_yb35]: https://en.wikipedia.org/wiki/Northrop_YB-35
-[ref_yb49]: https://en.wikipedia.org/wiki/Northrop_YB-49
-
+[ref_scramjet]: https://en.wikipedia.org/w/index.php?title=Scramjet&oldid=1336403495
+[ref_shuttle]: https://en.wikipedia.org/w/index.php?title=Space_Shuttle_program&oldid=1333744633
+[ref_silbervogel]: https://en.wikipedia.org/w/index.php?title=Silbervogel&oldid=1316237133
+[ref_skylon]: https://en.wikipedia.org/w/index.php?title=Skylon_(spacecraft)&oldid=1334726586
+[ref_space_rider]: https://en.wikipedia.org/w/index.php?title=Space_Rider&oldid=1340087982
+[ref_spaceshiptwo]: https://en.wikipedia.org/w/index.php?title=SpaceShipTwo&oldid=1338526105
+[ref_specific_impulse]: https://en.wikipedia.org/w/index.php?title=Specific_impulse&oldid=1340816504
+[ref_sr71]: https://en.wikipedia.org/w/index.php?title=Lockheed_SR-71_Blackbird&oldid=1340534278
+[ref_ssto]: https://en.wikipedia.org/w/index.php?title=Single-stage-to-orbit&oldid=1338027163
+[ref_star_raker]: https://en.wikipedia.org/w/index.php?title=Single-stage-to-orbit&oldid=1338027163
+[ref_starship]: https://en.wikipedia.org/w/index.php?title=SpaceX_Starship&oldid=1341721181
+[ref_static_margin]: https://en.wikipedia.org/w/index.php?title=Longitudinal_stability&oldid=1334439692
+[ref_swept_wing]: https://en.wikipedia.org/w/index.php?title=Swept_wing&oldid=1328845509
+[ref_tps]: https://en.wikipedia.org/w/index.php?title=Atmospheric_entry&oldid=1339928327
+[ref_tsto]: https://en.wikipedia.org/w/index.php?title=Two-stage-to-orbit&oldid=1325537168
+[ref_tu144]: https://en.wikipedia.org/w/index.php?title=Tupolev_Tu-144&oldid=1341710676
+[ref_uhtc]: https://en.wikipedia.org/w/index.php?title=Ultra-high_temperature_ceramic&oldid=1340676888
+[ref_viggen]: https://en.wikipedia.org/w/index.php?title=Saab_37_Viggen&oldid=1333817905
+[ref_vortex_lift]: https://en.wikipedia.org/w/index.php?title=Vortex_lift&oldid=1309024110
+[ref_vulcan]: https://en.wikipedia.org/w/index.php?title=Avro_Vulcan&oldid=1335821152
+[ref_waverider]: https://en.wikipedia.org/w/index.php?title=Waverider&oldid=1311620728
+[ref_white_knight]: https://en.wikipedia.org/w/index.php?title=Scaled_Composites_White_Knight&oldid=1318685091
+[ref_x15]: https://en.wikipedia.org/w/index.php?title=North_American_X-15&oldid=1341109634
+[ref_x20]: https://en.wikipedia.org/w/index.php?title=Boeing_X-20_Dyna-Soar&oldid=1333734859
+[ref_x33]: https://en.wikipedia.org/w/index.php?title=Lockheed_Martin_X-33&oldid=1337656265
+[ref_x37b]: https://en.wikipedia.org/w/index.php?title=Boeing_X-37&oldid=1338933184
+[ref_x43]: https://en.wikipedia.org/w/index.php?title=NASA_X-43&oldid=1332600803
+[ref_x47b]: https://en.wikipedia.org/w/index.php?title=Northrop_Grumman_X-47B&oldid=1340289892
+[ref_x48]: https://en.wikipedia.org/w/index.php?title=Boeing_X-48&oldid=1321603411
+[ref_x51]: https://en.wikipedia.org/w/index.php?title=Boeing_X-51_Waverider&oldid=1284050871
+[ref_xf92]: https://en.wikipedia.org/w/index.php?title=Convair_XF-92&oldid=1313820428
+[ref_yb35]: https://en.wikipedia.org/w/index.php?title=Northrop_YB-35&oldid=1324258308
+[ref_yb49]: https://en.wikipedia.org/w/index.php?title=Northrop_YB-49&oldid=1332041135
 [related_post_rocketplanes]: {% post_url 2026-02-27-history_of_rocketplanes %}
 [related_post_space_studies]: {% post_url 2026-02-21-introduction_to_space_studies %}
 [research_clipped_delta]: https://ntrs.nasa.gov/citations/19950003616

@@ -1,0 +1,20 @@
+{
+ "ref_ablation": "ref_ablation_ddb2b3",
+ "ref_em_theory": "ref_energy_maneuverability",
+ "ref_hypersonic": "ref_hypersonic_db6bbc",
+ "ref_lifting_body": "ref_lifting_body_1a3ae1",
+ "ref_regen_cooling": "ref_regen",
+ "ref_rocket_engine": "ref_rocket_engine_70431e",
+ "ref_rocket_equation": "ref_rocket_equation_80c928",
+ "ref_scramjet": "ref_scramjet_61eb5e",
+ "ref_solid_rocket": "ref_solid_rocket_5971e6",
+ "ref_specific_impulse": "ref_specific_impulse_7c3a3a",
+ "ref_sr71": "ref_sr71_183f0c",
+ "ref_stagnation_temp": "ref_stagnation_temperature",
+ "ref_titanium": "ref_titanium_0c959a",
+ "ref_uhtc": "ref_uhtc_cde33a",
+ "ref_x43": "ref_x43_03fd8d",
+ "ref_x51": "ref_x51_be74c3",
+ "related_post_lwpla": "related_post_a112_fixed_wing_uav",
+ "related_post_propulsion": "related_post_a118_propulsion_sizing"
+}

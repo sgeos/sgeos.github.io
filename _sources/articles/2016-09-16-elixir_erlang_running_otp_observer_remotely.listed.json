@@ -1,0 +1,11 @@
+[
+ "elixir_iex_arg",
+ "elixir_multiplayer",
+ "elixir_no_observer",
+ "erlang_15b_observer",
+ "erlang_connect",
+ "erlang_epmd",
+ "erlang_wxwidget",
+ "observer_macports",
+ "unix_ssh_fail"
+]

@@ -819,7 +819,7 @@ lays the groundwork for.
 ### Primary Sources, Non-Peer-Reviewed
 
 - "Keleusma, Example Scripts." n.d. github.com. Accessed October 25, 2026. [https://github.com/sgeos/keleusma/tree/v0.2.2/examples/scripts][kel_examples]
-- "Keleusma, GitHub Repository." n.d. github.com. Accessed October 25, 2026. [https://github.com/sgeos/keleusma][kel_github]
+- "Sgeos/keleusma: Total Function Stream Processor for Deterministic Control Loops." n.d. GitHub. Accessed October 25, 2026. [https://github.com/sgeos/keleusma][kel_github]
 
 ### General Sources
 

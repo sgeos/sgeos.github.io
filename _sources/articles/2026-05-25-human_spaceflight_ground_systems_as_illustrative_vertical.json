@@ -1,0 +1,9 @@
+{
+ "ref_apollo_flight_director": "ref_apollo_consoles",
+ "ref_c2pa": "ref_c2pa_coalition",
+ "ref_faa_part_450": "ref_cfr_450",
+ "ref_hls": "ref_hls_5c5be1",
+ "ref_keleusma_repo": "ref_keleusma",
+ "ref_lcc": "ref_lcc_e42a0a",
+ "ref_lcs": "ref_lcc_e42a0a"
+}

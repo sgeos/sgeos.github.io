@@ -4,6 +4,47 @@
 
 ## Last Updated
 
+**Date**: 2026-10-26 (first entry)
+**Task**: **A1 to A199 converted to Chicago author-date from the source database, so all of A1 to A384 are converted. Pushed on the pilot's instruction.** The previous entry's commit, `5d58e27`, deployed successfully first.
+
+**Scale.** 187 articles with links, 4,171 generated entries citing 3,254 distinct records. Twelve posts, A47 to A51, A53, A54, A62 to A64, A67 and A70, link nothing and have no list, so there was nothing to convert. The store holds 238,985 records and 27,567 venues, 12,547 credited, in 161 MB of shards, the largest 15 MB.
+
+| Section | A1 to A199 entries |
+|---|---|
+| Tertiary Sources | 1,773 |
+| Primary Sources, Non-Peer-Reviewed | 872 |
+| General Sources | 768 |
+| Related Posts | 391 |
+| Commercial Sources | 233 |
+| Primary Sources, Peer-Reviewed | 79 |
+| Secondary Sources | 55 |
+
+Of the 3,254 records, 1,461 are pinned Wikipedia revisions, 326 came from the pages themselves or their archive captures, 120 from Crossref, 110 are related posts, 50 from DataCite, 18 from NTRS and 15 from Open Library. 1,154 are built from their labels, mostly the tutorials' links to documentation and tools, each saying why.
+
+**The legacy posts needed normalising first**, now `python3 _lib/sources_resolve.py normalise`, which changes nothing a reader sees. 59 headings read `## References:` and two `## Links:`. 491 anchor names held hyphens or capitals. Ten tutorials aligned their definitions by hand. A1 and A2 wrote inline links. 41 links named another post by URL and now use `post_url`.
+
+**Defects found in the published articles.**
+- **Fifteen Wikipedia links name pages that do not exist**, such as `Loihi_(chip)` and `MIL-STD-1275`. Two were relinked to the pages under their real titles, `Hermes_(spacecraft)` and `Nanosystems_(book)`, and the rest are built from their labels.
+- **Six NTRS identifiers** in A96 to A158 name no record.
+- **A60 linked a bare file name**, which no browser can follow. It now links ARM's download of that file.
+- **Six links name another work**, and two entries are untitled.
+
+**Tooling added.** The `normalise` command. Two label forms, a category before the label and title, surnames, year, used by 119 labels. Several anchors for one related post. `irc://` links. A section number is no longer read as a year, so `NDAA Section 1709 of FY 2024` is 2024. A refresh never steps down in source, a registry outranking a page and a page a label, after A1 to A199 labels had replaced eleven shared records in published articles, which were restored. Wikipedia had answered 429 to four requests in five until `fetch.py` named the blog in its user agent, `blog-research/1.0 (+https://sgeos.github.io/)`. Seven orphaned records were removed.
+
+**Verification.** `test_sources.py` 91 of 91, `test_lib.py` 165 of 165, `sources.py validate` 238,985 records and 27,567 venues valid, `_verify.py --strict` 0 and 0 over 384 posts, a production build, and the rendered audit clean over 551 pages. Every one of the 372 converted articles passes `sources.py check`. The site is 224.7 MB. Two defects were caught by these gates and fixed: a listed work also cited under another name left a definition nothing used, and a legacy label's Liquid `raw` tags, escaped, broke the build.
+
+**Judgements to review.**
+- 93 host judgements added to `_sources/domains.toml`, chiefly documentation sites as Primary Sources and question-and-answer sites and forums as General Sources.
+- Legacy links to tools and documentation are cited as web pages, which puts many of the old tutorials' references in General Sources.
+- Wikipedia links standing in for books in the Future Reading lists are cited as the books.
+
+**Open.**
+- 1,154 label-built records in this range. Of 1,448 pages planned for reading, 444 were read, 37 have no capture, and 967 were refused or not reached in the time given.
+- The 13 remaining missing Wikipedia pages and six dead NTRS links need the pilot's choice of replacement, if any.
+- The earlier entries' open items stand.
+
+## Previous Report (2026-10-25, second entry)
+
 **Date**: 2026-10-25 (second entry)
 **Task**: **A200 to A296 converted to Chicago author-date from the source database, so all of A200 to A384 are converted. Pushed on the pilot's instruction.** The first entry's commit, `85c3719`, deployed successfully first.
 

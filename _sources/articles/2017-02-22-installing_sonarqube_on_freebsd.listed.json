@@ -1,0 +1,10 @@
+[
+ "sonarqube",
+ "sonarqube_dockerhub",
+ "sonarqube_documentation",
+ "sonarqube_freshports",
+ "sonarqube_github",
+ "sonarqube_jenkins",
+ "sonarqube_nginx_ubuntu",
+ "sonarqube_postgres"
+]

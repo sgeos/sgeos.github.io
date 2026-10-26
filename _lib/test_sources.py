@@ -955,11 +955,17 @@ def t_label_forms_are_parsed():
     assert len(lab["people"]) == 4 and lab["editors"] and lab["title"].startswith("Liquid"), lab
     lab = SR.parse_label("Brooks, Frederick P., Jr., The Mythical Man-Month, anniversary edition, Addison-Wesley, 1995")
     assert lab["people"] == [{"family": "Brooks Jr.", "given": "Frederick P."}] and lab["title"] == "The Mythical Man-Month"
+    # TITLE, SURNAMES, YEAR, the A100 to A199 form, with a bracketed venue.
+    lab = SR.parse_label("Are Self-Replicating Machines Feasible? (JBIS), Ellery, 2017", "future_x")
+    assert lab["people"] == [{"family": "Ellery"}] and lab["venue"] == "JBIS" and lab["year"] == 2017, lab
+    assert SR.parse_label("Curry, Haskell B. and Feys, Robert, Combinatory Logic, North-Holland, 1958")["form"] == "full"
     # A TITLE'S OWN `and` IS NO SECOND AUTHOR.
     lab = SR.parse_label("Baumol, William J., Productivity Growth, Convergence, and Welfare, What the Long-run "
                          "Data Show, American Economic Review 76, 1986")
     assert [p["family"] for p in lab["people"]] == ["Baumol"] and lab["title"].startswith("Productivity"), lab
     assert SR.parse_label("Boehm 1981")["people"] == [{"family": "Boehm"}]
+    # A SECTION NUMBER IS NO YEAR.
+    assert SI.split_label("NDAA Section 1709 of FY 2024")[1] == 2024
     assert [p["family"] for p in SR.parse_label("Bruner Goodnow Austin 1956 Study of Thinking")["people"]] == \
         ["Bruner", "Goodnow", "Austin"]
     # A `ref_` LABEL DESCRIBES, so its words are a title, never five surnames.
@@ -1064,6 +1070,39 @@ def t_two_surnames_take_no_comma():
     assert S.author_list([{"family": "Astrahan"}, {"family": "Jacobs"}]) == "Astrahan and Jacobs"
     assert S.author_list([{"family": "Ward", "given": "Geoffrey C."}, {"family": "Burns", "given": "Ken"}]) == \
         "Ward, Geoffrey C., and Ken Burns"
+
+
+def t_legacy_posts_are_normalised():
+    import sources_resolve as SR
+    text = ("---\n---\nSee [the guide][Android-Guide] and [it][ANDROID-GUIDE].\n\n## References:\n"
+            "- [GitHub Pages](https://pages.github.com)\n- [Guide][Android-Guide]\n\n"
+            "[Android-Guide]:    https://example.org/g\n[own]: https://sgeos.github.io/a/2016/01/08/x.html\n")
+    out, notes = SR.normalise_legacy(text, {"/a/2016/01/08/x.html": "2016-01-08-x"}, {})
+    assert "## References\n" in out and "## References:" not in out
+    assert "[the guide][android_guide]" in out and "[it][android_guide]" in out, out
+    assert "[android_guide]: https://example.org/g" in out
+    assert "- [GitHub Pages][ref_github_pages]" in out and "[ref_github_pages]: https://pages.github.com" in out
+    assert "[own]: {% post_url 2016-01-08-x %}" in out, out
+
+
+def t_refresh_never_steps_down_in_source():
+    page = {"anchor": "ref_p", "kind": "web-page", "url": "https://x.org/p", "title": "14 CFR Part 450",
+            "authors": [], "accessed": "2026-10-25", "note": "Read from the Internet Archive capture."}
+    label = dict(page, title="FAA Part 450 Licensing",
+                 note="The page could not be read (no metadata), so this entry is built from the article's label; x.")
+    merged, *_ = SI.merge({"ref_p": page}, {"ref_p": label}, refresh=True)
+    assert merged["ref_p"]["title"] == "14 CFR Part 450", "a label replaced a page"
+    merged, *_ = SI.merge({"ref_p": label}, {"ref_p": dict(label, title="Another Label")}, refresh=True)
+    assert merged["ref_p"]["title"] == "FAA Part 450 Licensing", "one label replaced another"
+    merged, *_ = SI.merge({"ref_p": label}, {"ref_p": page}, refresh=True)
+    assert merged["ref_p"]["title"] == "14 CFR Part 450", "a page did not replace a label"
+    # A SAME-RANK PAGE DRAFT carries another article's judgements and is not taken.
+    merged, *_ = SI.merge({"ref_p": page}, {"ref_p": dict(page, kind="book")}, refresh=True)
+    assert merged["ref_p"]["kind"] == "web-page"
+    # A REGISTRY REBUILD keeps the stored year.
+    reg = {"anchor": "r", "kind": "report", "doi": "10.1/x", "title": "T", "authors": [], "year": 1987}
+    merged, *_ = SI.merge({"r": reg}, {"r": dict(reg, year=1971, title="T2")}, refresh=True)
+    assert merged["r"]["year"] == 1987 and merged["r"]["title"] == "T2", merged["r"]
 
 for name, fn in sorted(list(globals().items())):
     if name.startswith("t_") and callable(fn):

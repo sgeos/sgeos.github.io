@@ -1,0 +1,20 @@
+{
+ "ref_ardupilot": "ref_ardupilot_7285be",
+ "ref_bayh_dole": "ref_bayh_dole_25a48b",
+ "ref_crada": "ref_crada_b103fd",
+ "ref_darpa": "ref_darpa_official",
+ "ref_dfars": "ref_dfars_7aa24b",
+ "ref_faa_coa": "ref_part_91_exemption",
+ "ref_mavlink": "ref_mavlink_ce136d",
+ "ref_nist_tests": "ref_nist_tests_c43aff",
+ "ref_part_108": "ref_part_108_a3b9fe",
+ "ref_pixhawk": "ref_pixhawk_d81aea",
+ "ref_project_airsim_discontinued": "ref_airsim_archived",
+ "ref_section_44807": "ref_section_44807_58d6de",
+ "related_post_a112_prototyping": "related_post_a112_fixed_wing_uav",
+ "related_post_a138_valley_of_death": "related_post_a138_sbir_phase3",
+ "related_post_a139_data_rights": "related_post_data_rights",
+ "related_post_a141_after_award": "related_post_after_award",
+ "related_post_a142_strategy": "related_post_strategy",
+ "related_post_a144_sbir_capstone": "related_post_sbir_worked"
+}

@@ -1531,9 +1531,9 @@ answer.
 ### Primary Sources, Non-Peer-Reviewed
 
 - "Amaranth hardware description library." n.d. amaranth-lang.org. Accessed October 25, 2026. [https://amaranth-lang.org/][ref_amaranth]
-- "Keleusma, GitHub Repository." n.d. github.com. Accessed October 25, 2026. [https://github.com/sgeos/keleusma][ref_keleusma]
 - Kumar, Aman, Muhammad Ul Haque Khan, and Bijitendra Mittra. 2024. "Pragmatic Formal Verification Methodology for Clock Domain Crossing (CDC)." Preprint, arXiv. [https://doi.org/10.48550/arxiv.2406.06533][ref_cdc_verification]
 - "Pragmatic Formal Verification Methodology for Clock Domain Crossing." 2024. Preprint, . [https://arxiv.org/abs/2406.06533][research_cdc_verification]
+- "Sgeos/keleusma: Total Function Stream Processor for Deterministic Control Loops." n.d. GitHub. Accessed October 25, 2026. [https://github.com/sgeos/keleusma][ref_keleusma]
 - "Systems Modeling Language version two." n.d. github.com. Accessed October 25, 2026. [https://github.com/Systems-Modeling/SysML-v2-Release][ref_sysml_v2]
 - Turner, David A. 2004. "Total Functional Programming." Preprint, TUGraz OPEN Library (Graz University of Technology). [https://doi.org/10.3217/jucs-010-07-0751][research_turner_total]
 - Wilhelm, Reinhard, Jakob Engblom, Andreas Ermedahl, et al. 2008. "The Worst-Case Execution-Time Problem—Overview of Methods and Survey of Tools." *ACM Transactions on Embedded Computing Systems* 7 (3): 1–53. [https://doi.org/10.1145/1347375.1347389][research_wilhelm_wcet]

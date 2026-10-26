@@ -1,0 +1,16 @@
+{
+ "ref_actuator_disk": "ref_momentum_theory",
+ "ref_breguet": "ref_range_aeronautics",
+ "ref_low_re": "ref_reynolds",
+ "ref_ndaa_848": "ref_blue_uas",
+ "ref_parallel_track": "ref_sweep_width",
+ "ref_reynolds_number": "ref_reynolds",
+ "ref_scaneagle": "ref_scaneagle_a9ad46",
+ "ref_search_pattern": "ref_sweep_width",
+ "ref_tail_sitter": "ref_tail_sitter_58e466",
+ "ref_tilt_wing": "ref_tiltwing",
+ "related_post_electric_energy": "related_post_electric",
+ "related_post_launch_recovery": "related_post_launch",
+ "related_post_propulsion": "related_post_a118_propulsion_sizing",
+ "related_post_runway_sizing": "related_post_runway"
+}

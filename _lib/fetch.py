@@ -30,7 +30,11 @@ import urllib.request
 # A contact address is sent to registries only when the operator opts in through BLOG_CONTACT_EMAIL.
 # The default sends none, so no personal address leaves the machine unless someone chooses to send it.
 CONTACT = os.environ.get("BLOG_CONTACT_EMAIL", "").strip()
-UA = {"User-Agent": f"blog-research/1.0 (mailto:{CONTACT})" if CONTACT else "blog-research/1.0"}
+# WIKIMEDIA'S POLICY asks a client to name a way to reach its operator, and a bare
+# `blog-research/1.0` drew 429 for four requests in five on 2026-10-26. The blog's own
+# address is that way, as `booklinks.py` gives it; no email is ever sent.
+UA = {"User-Agent": f"blog-research/1.0 (mailto:{CONTACT})" if CONTACT else
+      "blog-research/1.0 (+https://sgeos.github.io/)"}
 
 DEFAULT_TIMEOUT = 45
 DEFAULT_TRIES = 4

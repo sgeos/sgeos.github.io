@@ -1063,7 +1063,10 @@ def domain_rule(url, domains):
     return rule
 
 
-_LABEL_YEAR = re.compile(r"(?:^|[\s,])((?:1[5-9]|20)\d\d)[a-z]?(?=$|[\s,])")
+# A NUMBER AFTER `Section`, `No.` OR `Part` is not a year: A146's `NDAA Section 1709 of
+# FY 2024` is dated 2024, not 1709.
+_LABEL_YEAR = re.compile(r"(?:^|[\s,])(?<!Section )(?<!Sec\. )(?<!No\. )(?<!Part )(?<!Chapter )(?<!Number )"
+                         r"((?:1[5-9]|20)\d\d)[a-z]?(?=$|[\s,])")
 
 
 def split_label(label):
@@ -2158,6 +2161,14 @@ def import_post(post_path, decisions, venues, store=None, article=None):
         elif target.startswith("https://en.wikipedia.org/") and decisions.get("resolve_links") and \
                 _standin(a, target, labels.get(a, ""), decisions, recs):
             continue
+        elif target.startswith("https://en.wikipedia.org/") and decisions.get("resolve_links") and \
+                pins.get(a, {}).get("match") == "FAILED":
+            # A WIKIPEDIA PAGE THAT DOES NOT EXIST, as fifteen A102 to A150 links name, such
+            # as `Loihi_(chip)`, is no source; the entry is built from the label and says so.
+            recs[a] = record_from_web(a, target.split()[0], {"status": "no such Wikipedia page"},
+                                      labels.get(a, ""), {}, decisions.get("web_read", ""))
+            recs[a]["note"] = (f"The article linked Wikipedia's {pins[a].get('title')!r}, which has no such page, "
+                               f"so this entry is built from the article's label.")
         elif target.startswith("https://en.wikipedia.org/"):
             p = pins.get(a, {})
             # A DATED PIN is the revision current when the article was drafted, used
@@ -2247,7 +2258,7 @@ def import_post(post_path, decisions, venues, store=None, article=None):
         elif target.startswith("{% post_url"):
             m = re.match(r"\{% post_url (\S+) %\}(?:#(\S+))?", target)
             related.setdefault(m.group(1), []).append((a, m.group(2)))
-        elif target.startswith(("https://", "http://")) and decisions.get("web_read"):
+        elif target.startswith(("https://", "http://", "irc://")) and decisions.get("web_read"):
             url = target.split()[0]
             rule = domain_rule(url, {**shared_domains, **decisions.get("domain", {})})
             meta = web_meta.get(url)
@@ -2325,11 +2336,15 @@ def import_post(post_path, decisions, venues, store=None, article=None):
         else:
             errors.append(f"{a}: no importer for {target[:60]}")
     for stem, items in related.items():
-        base = [a for a, frag in items if frag is None]
-        if len(base) != 1:
-            errors.append(f"{stem}: needs exactly one unfragmented anchor, has {base}")
+        base = sorted(a for a, frag in items if frag is None)
+        if not base:
+            errors.append(f"{stem}: needs an unfragmented anchor, has none")
             continue
         recs[base[0]] = record_from_related_post(base[0], stem, {a: f for a, f in items if f})
+        # TWO NAMES FOR ONE POST, as A12 links one netcat post as `freebsd_singleline`
+        # and `freebsd_singlefile_nc`, are one source; the merge maps the second.
+        for other in base[1:]:
+            recs[other] = record_from_related_post(other, stem)
     for table in ("title", "note", "synthesis", "fix"):
         for a in decisions.get(table, {}):
             if a not in recs:
@@ -2415,7 +2430,9 @@ def import_post(post_path, decisions, venues, store=None, article=None):
         import sources_resolve
         for a, r in recs.items():
             y = sources_resolve.parse_label(labels.get(a, ""), a)["year"]
-            if not (y and r.get("year") and r["year"] > y + 2) or r.get("kind") in ("wikipedia", "related-post"):
+            # A WEB PAGE carries its own date, and an entry built from its label has no other.
+            if not (y and r.get("year") and r["year"] > y + 2) or \
+                    r.get("kind") in ("wikipedia", "related-post", "web-page"):
                 continue
             if r.get("kind") in ("book", "chapter"):
                 r["original_year"] = y
@@ -2509,6 +2526,17 @@ def _rebuildable_note(note):
     return not note or bool(_PROVENANCE.match(note))
 
 
+def _source_rank(r):
+    """0 for a record built from a label, 1 for one read from a page, 2 for a registry's."""
+    note = r.get("note") or ""
+    if "built from the article's label" in note or "built from the label" in note or \
+            r.get("title") == "[Title not identified]":
+        return 0
+    if note.startswith("Read from") or (r.get("evidence") or "").startswith("Metadata read from"):
+        return 1
+    return 2
+
+
 def merge(store, drafts, decided=None, amap=None, refresh=False):
     """(merged, added, known, conflicts, extended, amap), merging by source identity.
 
@@ -2566,9 +2594,23 @@ def merge(store, drafts, decided=None, amap=None, refresh=False):
         # correction, and a draft never replaces one.
         # Pins and related posts are not registry drafts: a pin's evidence names the
         # copy first verified, and a related post's locators gather across articles.
+        # A REFRESH NEVER STEPS DOWN OR SIDEWAYS IN SOURCE. A registry outranks a page, a page
+        # a label, and a draft of the same rank carries only the drafting article's own
+        # judgements, so on 2026-10-26 another article's label renamed `DARPA Official Site`,
+        # and another's `book_` prefix made Bush's Atlantic essay a book. Only a better source,
+        # or a registry's record rebuilt by an improved importer, replaces a shared record,
+        # and the second keeps the stored year: A1 to A199 once redated Avizienis's 1987 AIAA
+        # paper to the 1971 of its own label for A373 as well.
+        rank_new, rank_old = _source_rank(r), _source_rank(old)
         if (refresh and _rebuildable_note(old.get("note")) and r.get("kind") not in ("wikipedia", "related-post")
-                and r != dict(old, anchor=r.get("anchor"))):
-            merged[c] = dict(r, anchor=c)
+                and r != dict(old, anchor=r.get("anchor")) and (rank_new > rank_old or rank_new == rank_old == 2)):
+            rebuilt = dict(r, anchor=c)
+            if rank_new == rank_old == 2:
+                for k in ("year", "original_year"):
+                    rebuilt.pop(k, None)
+                    if k in old:
+                        rebuilt[k] = old[k]
+            merged[c] = rebuilt
             extended.append(c)
             continue
         fields = (decided or {}).get(a, set())
