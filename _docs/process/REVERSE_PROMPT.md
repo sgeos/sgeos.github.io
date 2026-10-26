@@ -19,7 +19,7 @@
 | Primary Sources, Peer-Reviewed | 79 |
 | Secondary Sources | 55 |
 
-Of the 3,254 records, 1,461 are pinned Wikipedia revisions, 326 came from the pages themselves or their archive captures, 120 from Crossref, 110 are related posts, 50 from DataCite, 18 from NTRS and 15 from Open Library. 1,154 are built from their labels, mostly the tutorials' links to documentation and tools, each saying why.
+Of the 3,254 records, 1,461 are pinned Wikipedia revisions, 326 came from the pages themselves or their archive captures, 120 from Crossref, 110 are related posts, 50 from DataCite, 18 from NTRS and 15 from Open Library. 1,140 are built from their labels, mostly the tutorials' links to documentation and tools, each saying why.
 
 **The legacy posts needed normalising first**, now `python3 _lib/sources_resolve.py normalise`, which changes nothing a reader sees. 59 headings read `## References:` and two `## Links:`. 491 anchor names held hyphens or capitals. Ten tutorials aligned their definitions by hand. A1 and A2 wrote inline links. 41 links named another post by URL and now use `post_url`.
 
@@ -39,7 +39,7 @@ Of the 3,254 records, 1,461 are pinned Wikipedia revisions, 326 came from the pa
 - Wikipedia links standing in for books in the Future Reading lists are cited as the books.
 
 **Open.**
-- 1,154 label-built records in this range. Of 1,448 pages planned for reading, 444 were read, 37 have no capture, and 967 were refused or not reached in the time given.
+- 1,140 label-built records in this range. Of 1,448 pages planned for reading, 444 were read, 37 have no capture, and 967 were refused or not reached in the time given.
 - The 13 remaining missing Wikipedia pages and six dead NTRS links need the pilot's choice of replacement, if any.
 - The earlier entries' open items stand.
 
@@ -60,13 +60,13 @@ Of the 3,254 records, 1,461 are pinned Wikipedia revisions, 326 came from the pa
 | Related Posts | 579 |
 | Tertiary Sources | 106 |
 
-**The difference from the X-Planes series.** Only 215 of these links were DOIs. The rest were publisher pages, JSTOR, arXiv, proceedings sites, Open Library and Google Scholar searches and web pages, too many to read one at a time. A new module, `_lib/sources_resolve.py`, resolves each link to a registry record and keeps it only when it agrees with the article's label. Of the 6,053 records, 1,851 came from Open Library, 1,004 from Crossref, 718 from the pages themselves or their archive captures, 207 from DataCite for arXiv, 87 from pinned Wikipedia revisions, 13 from proceedings indexes and 7 from NTRS. 2,045 were built from their labels, each saying why.
+**The difference from the X-Planes series.** Only 215 of these links were DOIs. The rest were publisher pages, JSTOR, arXiv, proceedings sites, Open Library and Google Scholar searches and web pages, too many to read one at a time. A new module, `_lib/sources_resolve.py`, resolves each link to a registry record and keeps it only when it agrees with the article's label. Of the 6,053 records, 1,851 came from Open Library, 1,004 from Crossref, 718 from the pages themselves or their archive captures, 207 from DataCite for arXiv, 87 from pinned Wikipedia revisions, 13 from proceedings indexes and 7 from NTRS. 1,935 were built from their labels, each saying why.
 
 **Defects the agreement test found in the published articles.**
 - **130 links name another work.** Chiefly arXiv numbers and page links in the machine-learning series, A250 to A265. `Barreto et al 2019` links a paper on moduli stabilisation in string theory, `Forrester 1948` an MIT record of a 2016 thesis on bacterial signalling. Each entry is now the label's, linked to a search for it, and its note names the work the old link led to.
 - **Dead links.** 12 NTRS identifiers in A237 to A289 named no record. Four were relinked to the records found by author and title, two, Hoag and Klumpp, to the journal publication of the same report, and the rest are built from their labels. NeurIPS links that serve no paper were matched to the one paper in that year's index by the label's authors.
 - **54 Wikipedia links stood in for books and papers** their labels name, in A200 to A238, such as Curry and Feys's *Combinatory Logic* linked to the article on combinatory logic. The entries are the works'.
-- **279 entries give `[Title not identified]`.** Their labels name only authors and a year, `Hopkins Alonso Adcock 1965`, and nothing found agrees. Two searches, for Hopkins, Alonso and Adcock 1965 and for Newkirk 1971, found no such work at all, so those citations may not exist and need the pilot's decision.
+- **279 entries, citing 251 distinct records, give `[Title not identified]`.** Their labels name only authors and a year, `Hopkins Alonso Adcock 1965`, and nothing found agrees. Two searches, for Hopkins, Alonso and Adcock 1965 and for Newkirk 1971, found no such work at all, so those citations may not exist and need the pilot's decision.
 
 **A regression in shipped articles was found and fixed.** The generator kept only works the prose cites, so nine X-Planes articles had lost 156 works their lists named, A349, A352, A355 to A357, A359, A360, A363 and A373. They are restored, and the import now records such works in `_sources/articles/<stem>.listed.json`. Undated entries in 77 published posts printed `n.d..`, and the full stop is no longer doubled.
 
@@ -83,7 +83,7 @@ Of the 3,254 records, 1,461 are pinned Wikipedia revisions, 326 came from the pa
 - The 148 host judgements, for example FTC pages as first-hand records and Pew Research as a think tank.
 
 **Open.**
-- 2,045 label-built records, of which 279 untitled entries, and about 800 pages never read because the Internet Archive refused this address after six concurrent readers. A later run at one request every few seconds would read most of them.
+- 1,935 label-built records, 251 of them untitled. Of 3,696 pages planned for reading, 1,306 were read, 578 have no capture, and 1,812 were refused or not reached, the Internet Archive having throttled this address. A later run at one request every few seconds would read most of them.
 - dblp and OpenReview answer with browser challenges and were not used, so 53 OpenReview links rest on archive captures or labels.
 - NeurIPS, ICML and the other proceedings venues are not credited with peer review, since no publisher statement has been read for them.
 - PMLR prints some names without their particles, `Herke Hoof` for van Hoof, and the entries follow the venue.
